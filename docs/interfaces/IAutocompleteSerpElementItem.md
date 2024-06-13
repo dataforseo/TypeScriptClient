@@ -20,9 +20,16 @@
 
 > **`optional`** **highlighted**: `string`[]
 
+keywords highlighted in autocomplete
+contains a list of google autocomplete suggestions that are highlighted in the search bar;
+Note: array is only available for the following client:
+gws-wiz
+psy-ab
+gws-wiz-local
+
 #### Source
 
-main.ts:52479
+main.ts:52759
 
 ***
 
@@ -35,7 +42,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:52456
+main.ts:52730
 
 ***
 
@@ -49,7 +56,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:52453
+main.ts:52727
 
 ***
 
@@ -66,7 +73,7 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52463
+main.ts:52737
 
 ***
 
@@ -79,7 +86,7 @@ url to search results relevant to the google autocomplete suggestion
 
 #### Source
 
-main.ts:52472
+main.ts:52746
 
 ***
 
@@ -91,7 +98,7 @@ google autocomplete keyword suggestion
 
 #### Source
 
-main.ts:52465
+main.ts:52739
 
 ***
 
@@ -105,7 +112,7 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52469
+main.ts:52743
 
 ***
 
@@ -121,4 +128,4 @@ gws-wiz-serp
 
 #### Source
 
-main.ts:52478
+main.ts:52752

@@ -24,7 +24,7 @@ example:
 
 #### Source
 
-main.ts:156992
+main.ts:157272
 
 ***
 
@@ -40,7 +40,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:157002
+main.ts:157282
 
 ***
 
@@ -54,4 +54,4 @@ specify the pages you want to receive timing for
 
 #### Source
 
-main.ts:156996
+main.ts:157276

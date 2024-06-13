@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:147907
+main.ts:148187
 
 ## Properties
 
@@ -47,7 +47,7 @@ number of lost referring domains of the target
 
 #### Source
 
-main.ts:147899
+main.ts:148179
 
 ***
 
@@ -63,7 +63,7 @@ number of lost referring main domains pointing to the target
 
 #### Source
 
-main.ts:147903
+main.ts:148183
 
 ***
 
@@ -80,7 +80,7 @@ number of new referring domains pointing to the target
 
 #### Source
 
-main.ts:147896
+main.ts:148176
 
 ***
 
@@ -96,7 +96,7 @@ number of new referring main domains pointing to the target
 
 #### Source
 
-main.ts:147901
+main.ts:148181
 
 ***
 
@@ -112,7 +112,7 @@ domain, subdomain or webpage from a POST array
 
 #### Source
 
-main.ts:147893
+main.ts:148173
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:147893
 
 #### Source
 
-main.ts:147916
+main.ts:148196
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:147916
 
 #### Source
 
-main.ts:147937
+main.ts:148217
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:147937
 
 #### Source
 
-main.ts:147930
+main.ts:148210

@@ -20,7 +20,7 @@ the category the video belongs to
 
 #### Source
 
-main.ts:64441
+main.ts:64721
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:64420
+main.ts:64700
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:64425
+main.ts:64705
 
 ***
 
@@ -63,7 +63,7 @@ youtube_subtitles
 
 #### Source
 
-main.ts:64433
+main.ts:64713
 
 ***
 
@@ -75,7 +75,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:64449
+main.ts:64729
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:64447
+main.ts:64727
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:64417
+main.ts:64697
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:64415
+main.ts:64695
 
 ***
 
@@ -123,7 +123,7 @@ language code of original text
 
 #### Source
 
-main.ts:64439
+main.ts:64719
 
 ***
 
@@ -135,7 +135,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:64413
+main.ts:64693
 
 ***
 
@@ -148,7 +148,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:64428
+main.ts:64708
 
 ***
 
@@ -160,7 +160,7 @@ number of subtitles in the video
 
 #### Source
 
-main.ts:64443
+main.ts:64723
 
 ***
 
@@ -172,7 +172,7 @@ title of the video
 
 #### Source
 
-main.ts:64445
+main.ts:64725
 
 ***
 
@@ -184,7 +184,7 @@ language code of translated text
 
 #### Source
 
-main.ts:64437
+main.ts:64717
 
 ***
 
@@ -196,7 +196,7 @@ indicates whether the language is unsupported by the system
 
 #### Source
 
-main.ts:64435
+main.ts:64715
 
 ***
 
@@ -208,4 +208,4 @@ ID of the video received in a POST array
 
 #### Source
 
-main.ts:64411
+main.ts:64691

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99569
+main.ts:99849
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99569
 
 #### Source
 
-main.ts:20051
+main.ts:20205
 
 ***
 
@@ -70,7 +70,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Source
 
-main.ts:99563
+main.ts:99843
 
 ***
 
@@ -88,7 +88,7 @@ left, right
 
 #### Source
 
-main.ts:99557
+main.ts:99837
 
 ***
 
@@ -105,7 +105,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99553
+main.ts:99833
 
 ***
 
@@ -122,7 +122,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99550
+main.ts:99830
 
 ***
 
@@ -138,7 +138,7 @@ URL link
 
 #### Source
 
-main.ts:99565
+main.ts:99845
 
 ***
 
@@ -154,7 +154,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99559
+main.ts:99839
 
 ## Methods
 
@@ -176,7 +176,7 @@ main.ts:99559
 
 #### Source
 
-main.ts:99574
+main.ts:99854
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:99574
 
 #### Source
 
-main.ts:99597
+main.ts:99877
 
 ***
 
@@ -220,4 +220,4 @@ main.ts:99597
 
 #### Source
 
-main.ts:99590
+main.ts:99870

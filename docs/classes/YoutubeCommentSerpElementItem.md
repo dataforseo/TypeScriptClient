@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:65376
+main.ts:65656
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:65376
 
 #### Source
 
-main.ts:19668
+main.ts:19817
 
 ***
 
@@ -68,7 +68,7 @@ name of the author of the comment
 
 #### Source
 
-main.ts:65355
+main.ts:65635
 
 ***
 
@@ -84,7 +84,7 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Source
 
-main.ts:65357
+main.ts:65637
 
 ***
 
@@ -100,7 +100,7 @@ URL of the author’s channel
 
 #### Source
 
-main.ts:65359
+main.ts:65639
 
 ***
 
@@ -116,7 +116,7 @@ number of likes on the comment
 
 #### Source
 
-main.ts:65370
+main.ts:65650
 
 ***
 
@@ -132,7 +132,7 @@ displayed publication date
 
 #### Source
 
-main.ts:65363
+main.ts:65643
 
 ***
 
@@ -149,7 +149,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:65353
+main.ts:65633
 
 ***
 
@@ -167,7 +167,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:65350
+main.ts:65630
 
 ***
 
@@ -183,7 +183,7 @@ number of replies on the comment
 
 #### Source
 
-main.ts:65372
+main.ts:65652
 
 ***
 
@@ -199,7 +199,7 @@ text of the comment
 
 #### Source
 
-main.ts:65361
+main.ts:65641
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:65368
+main.ts:65648
 
 ## Methods
 
@@ -240,7 +240,7 @@ main.ts:65368
 
 #### Source
 
-main.ts:65381
+main.ts:65661
 
 ***
 
@@ -262,7 +262,7 @@ main.ts:65381
 
 #### Source
 
-main.ts:65408
+main.ts:65688
 
 ***
 
@@ -284,4 +284,4 @@ main.ts:65408
 
 #### Source
 
-main.ts:65401
+main.ts:65681

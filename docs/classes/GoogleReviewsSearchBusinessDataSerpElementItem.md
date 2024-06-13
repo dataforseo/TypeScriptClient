@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:206070
+main.ts:207201
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:206070
 
 #### Source
 
-main.ts:20578
+main.ts:20732
 
 ***
 
@@ -68,7 +68,7 @@ images submitted by the reviewer
 
 #### Source
 
-main.ts:206066
+main.ts:207194
 
 ***
 
@@ -84,7 +84,7 @@ indicates whether the reviewer has a ‘local guide’ status
 
 #### Source
 
-main.ts:206038
+main.ts:207166
 
 ***
 
@@ -101,7 +101,7 @@ the original response to the review, no auto-translate applied
 
 #### Source
 
-main.ts:206052
+main.ts:207180
 
 ***
 
@@ -118,7 +118,7 @@ the original content of the review, no auto-translate applied
 
 #### Source
 
-main.ts:206022
+main.ts:207150
 
 ***
 
@@ -135,7 +135,7 @@ the owner’s response to the review
 
 #### Source
 
-main.ts:206049
+main.ts:207177
 
 ***
 
@@ -152,7 +152,7 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 #### Source
 
-main.ts:206055
+main.ts:207183
 
 ***
 
@@ -171,7 +171,7 @@ example:
 
 #### Source
 
-main.ts:206060
+main.ts:207188
 
 ***
 
@@ -187,7 +187,7 @@ total number of photos submitted by the reviewer
 
 #### Source
 
-main.ts:206036
+main.ts:207164
 
 ***
 
@@ -204,7 +204,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:206015
+main.ts:207143
 
 ***
 
@@ -220,7 +220,7 @@ URL of the reviewer’s profile image
 
 #### Source
 
-main.ts:206046
+main.ts:207174
 
 ***
 
@@ -236,7 +236,7 @@ profile name of the reviewer
 
 #### Source
 
-main.ts:206040
+main.ts:207168
 
 ***
 
@@ -252,7 +252,7 @@ URL of the reviewer’s profile
 
 #### Source
 
-main.ts:206042
+main.ts:207170
 
 ***
 
@@ -269,7 +269,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:206012
+main.ts:207140
 
 ***
 
@@ -286,7 +286,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:206009
+main.ts:207137
 
 ***
 
@@ -302,7 +302,24 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:206032
+main.ts:207160
+
+***
+
+### review\_highlights?
+
+> **`optional`** **review\_highlights**: [`ReviewHighlights`](ReviewHighlights.md)[]
+
+review highlights
+contains highlighted review criteria and assessments
+
+#### Implementation of
+
+[`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`review_highlights`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#review_highlights)
+
+#### Source
+
+main.ts:207197
 
 ***
 
@@ -320,7 +337,7 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 #### Source
 
-main.ts:206064
+main.ts:207192
 
 ***
 
@@ -336,7 +353,7 @@ the content of the review
 
 #### Source
 
-main.ts:206019
+main.ts:207147
 
 ***
 
@@ -352,7 +369,7 @@ the URL of the review
 
 #### Source
 
-main.ts:206044
+main.ts:207172
 
 ***
 
@@ -368,7 +385,7 @@ total number of reviews submitted by the reviewer
 
 #### Source
 
-main.ts:206034
+main.ts:207162
 
 ***
 
@@ -385,7 +402,7 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 #### Source
 
-main.ts:206025
+main.ts:207153
 
 ***
 
@@ -404,7 +421,7 @@ example:
 
 #### Source
 
-main.ts:206030
+main.ts:207158
 
 ***
 
@@ -420,7 +437,7 @@ the XPath of the review
 
 #### Source
 
-main.ts:206017
+main.ts:207145
 
 ## Methods
 
@@ -442,7 +459,7 @@ main.ts:206017
 
 #### Source
 
-main.ts:206075
+main.ts:207206
 
 ***
 
@@ -464,7 +481,7 @@ main.ts:206075
 
 #### Source
 
-main.ts:206118
+main.ts:207254
 
 ***
 
@@ -486,4 +503,4 @@ main.ts:206118
 
 #### Source
 
-main.ts:206111
+main.ts:207247

@@ -20,7 +20,7 @@ contains historical ranking and traffic data
 
 #### Source
 
-main.ts:100061
+main.ts:100341
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:100059
+main.ts:100339
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:100055
+main.ts:100335
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:100053
+main.ts:100333
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Source
 
-main.ts:100049
+main.ts:100329
 
 ***
 
@@ -80,7 +80,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:100051
+main.ts:100331
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:100057
+main.ts:100337

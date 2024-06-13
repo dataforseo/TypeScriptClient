@@ -24,7 +24,7 @@ name of the section related to product information specified in the contents
 
 #### Source
 
-main.ts:180309
+main.ts:180771
 
 ***
 
@@ -36,4 +36,4 @@ text specified under the given title within the section_name
 
 #### Source
 
-main.ts:180311
+main.ts:180773

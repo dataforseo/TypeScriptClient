@@ -25,4 +25,4 @@ information about busy hours of the local establishment on each day of the week
 
 #### Source
 
-main.ts:196719
+main.ts:197593

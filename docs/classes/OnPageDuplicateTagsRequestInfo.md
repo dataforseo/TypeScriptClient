@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:154371
+main.ts:154651
 
 ## Properties
 
@@ -48,7 +48,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 #### Source
 
-main.ts:154351
+main.ts:154631
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Source
 
-main.ts:154345
+main.ts:154625
 
 ***
 
@@ -87,7 +87,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:154356
+main.ts:154636
 
 ***
 
@@ -106,7 +106,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:154361
+main.ts:154641
 
 ***
 
@@ -126,7 +126,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:154367
+main.ts:154647
 
 ***
 
@@ -142,7 +142,7 @@ type of element
 
 #### Source
 
-main.ts:154347
+main.ts:154627
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:154347
 
 #### Source
 
-main.ts:154380
+main.ts:154660
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:154380
 
 #### Source
 
-main.ts:154402
+main.ts:154682
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:154402
 
 #### Source
 
-main.ts:154395
+main.ts:154675

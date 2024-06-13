@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:176947
+main.ts:177409
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:176947
 
 #### Source
 
-main.ts:20324
+main.ts:20478
 
 ***
 
@@ -68,7 +68,7 @@ description of the product
 
 #### Source
 
-main.ts:176922
+main.ts:177384
 
 ***
 
@@ -85,7 +85,7 @@ contains snippets with the description of product features
 
 #### Source
 
-main.ts:176931
+main.ts:177393
 
 ***
 
@@ -102,7 +102,7 @@ contains urls to product images
 
 #### Source
 
-main.ts:176928
+main.ts:177390
 
 ***
 
@@ -120,7 +120,7 @@ right, left
 
 #### Source
 
-main.ts:176915
+main.ts:177377
 
 ***
 
@@ -137,7 +137,7 @@ ilearn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:176918
+main.ts:177380
 
 ***
 
@@ -154,7 +154,7 @@ absolute position among all the elements found on the product specification page
 
 #### Source
 
-main.ts:176911
+main.ts:177373
 
 ***
 
@@ -171,7 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:176908
+main.ts:177370
 
 ***
 
@@ -188,7 +188,7 @@ the popularity rate based on reviews
 
 #### Source
 
-main.ts:176934
+main.ts:177396
 
 ***
 
@@ -205,7 +205,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:176937
+main.ts:177399
 
 ***
 
@@ -222,7 +222,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:176940
+main.ts:177402
 
 ***
 
@@ -238,7 +238,7 @@ title of the product
 
 #### Source
 
-main.ts:176920
+main.ts:177382
 
 ***
 
@@ -255,7 +255,7 @@ url of the product on Google Shopping
 
 #### Source
 
-main.ts:176925
+main.ts:177387
 
 ***
 
@@ -272,7 +272,7 @@ contains brief information about different product variations
 
 #### Source
 
-main.ts:176943
+main.ts:177405
 
 ## Methods
 
@@ -294,7 +294,7 @@ main.ts:176943
 
 #### Source
 
-main.ts:176952
+main.ts:177414
 
 ***
 
@@ -316,7 +316,7 @@ main.ts:176952
 
 #### Source
 
-main.ts:176998
+main.ts:177460
 
 ***
 
@@ -338,4 +338,4 @@ main.ts:176998
 
 #### Source
 
-main.ts:176991
+main.ts:177453

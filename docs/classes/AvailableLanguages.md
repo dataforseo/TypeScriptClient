@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:81380
+main.ts:81660
 
 ## Properties
 
@@ -48,7 +48,7 @@ only google and bing are currently available
 
 #### Source
 
-main.ts:81368
+main.ts:81648
 
 ***
 
@@ -64,7 +64,7 @@ the number of keywords available for the given location and language
 
 #### Source
 
-main.ts:81374
+main.ts:81654
 
 ***
 
@@ -80,7 +80,7 @@ language code according to ISO 639-1
 
 #### Source
 
-main.ts:81372
+main.ts:81652
 
 ***
 
@@ -96,7 +96,7 @@ language name
 
 #### Source
 
-main.ts:81370
+main.ts:81650
 
 ***
 
@@ -112,7 +112,7 @@ the number of SERP pages available for the given location and language
 
 #### Source
 
-main.ts:81376
+main.ts:81656
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:81376
 
 #### Source
 
-main.ts:81389
+main.ts:81669
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:81389
 
 #### Source
 
-main.ts:81414
+main.ts:81694
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:81414
 
 #### Source
 
-main.ts:81407
+main.ts:81687

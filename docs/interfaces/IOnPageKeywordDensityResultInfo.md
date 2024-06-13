@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:157665
+main.ts:157945
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Source
 
-main.ts:157667
+main.ts:157947
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Source
 
-main.ts:157674
+main.ts:157954
 
 ***
 
@@ -57,7 +57,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:157672
+main.ts:157952
 
 ***
 
@@ -70,4 +70,4 @@ total number of keywords on the specified website or web page matching the set k
 
 #### Source
 
-main.ts:157670
+main.ts:157950

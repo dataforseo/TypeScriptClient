@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:137535
+main.ts:137815
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 #### Source
 
-main.ts:137529
+main.ts:137809
 
 ***
 
@@ -62,7 +62,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 #### Source
 
-main.ts:137531
+main.ts:137811
 
 ***
 
@@ -78,7 +78,7 @@ number of keywords for which the page is ranked in top 3 search results
 
 #### Source
 
-main.ts:137527
+main.ts:137807
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:137527
 
 #### Source
 
-main.ts:137544
+main.ts:137824
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:137544
 
 #### Source
 
-main.ts:137563
+main.ts:137843
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:137563
 
 #### Source
 
-main.ts:137556
+main.ts:137836

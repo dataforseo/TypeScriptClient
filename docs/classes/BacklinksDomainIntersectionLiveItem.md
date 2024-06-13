@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:143752
+main.ts:144032
 
 ## Properties
 
@@ -51,7 +51,7 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 #### Source
 
-main.ts:143746
+main.ts:144026
 
 ***
 
@@ -67,7 +67,7 @@ contains the domain intersections summary
 
 #### Source
 
-main.ts:143748
+main.ts:144028
 
 ## Methods
 
@@ -85,7 +85,7 @@ main.ts:143748
 
 #### Source
 
-main.ts:143761
+main.ts:144041
 
 ***
 
@@ -103,7 +103,7 @@ main.ts:143761
 
 #### Source
 
-main.ts:143785
+main.ts:144065
 
 ***
 
@@ -121,4 +121,4 @@ main.ts:143785
 
 #### Source
 
-main.ts:143778
+main.ts:144058

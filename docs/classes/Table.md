@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21788
+main.ts:21942
 
 ## Properties
 
@@ -47,7 +47,7 @@ one line of the table in this element of the array
 
 #### Source
 
-main.ts:21784
+main.ts:21938
 
 ***
 
@@ -65,7 +65,7 @@ table_element
 
 #### Source
 
-main.ts:21779
+main.ts:21933
 
 ***
 
@@ -81,7 +81,7 @@ column names
 
 #### Source
 
-main.ts:21781
+main.ts:21935
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:21781
 
 #### Source
 
-main.ts:21797
+main.ts:21951
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:21797
 
 #### Source
 
-main.ts:21824
+main.ts:21978
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:21824
 
 #### Source
 
-main.ts:21817
+main.ts:21971

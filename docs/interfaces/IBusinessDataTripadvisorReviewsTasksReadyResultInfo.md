@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:211558
+main.ts:212702
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:211562
+main.ts:212706
 
 ***
 
@@ -45,7 +45,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:211551
+main.ts:212695
 
 ***
 
@@ -58,7 +58,7 @@ can take the following values: tripadvisor
 
 #### Source
 
-main.ts:211554
+main.ts:212698
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Source
 
-main.ts:211556
+main.ts:212700
 
 ***
 
@@ -82,4 +82,4 @@ user-defined task identifier
 
 #### Source
 
-main.ts:211560
+main.ts:212704

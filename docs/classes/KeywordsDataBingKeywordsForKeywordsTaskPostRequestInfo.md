@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:131698
+main.ts:131978
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:131653
+main.ts:131933
 
 ***
 
@@ -76,7 +76,7 @@ example:
 
 #### Source
 
-main.ts:131663
+main.ts:131943
 
 ***
 
@@ -96,7 +96,7 @@ default value: all
 
 #### Source
 
-main.ts:131645
+main.ts:131925
 
 ***
 
@@ -115,7 +115,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:131594
+main.ts:131874
 
 ***
 
@@ -135,7 +135,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:131639
+main.ts:131919
 
 ***
 
@@ -155,7 +155,7 @@ en, fr, de
 
 #### Source
 
-main.ts:131628
+main.ts:131908
 
 ***
 
@@ -175,7 +175,7 @@ English, French, German
 
 #### Source
 
-main.ts:131622
+main.ts:131902
 
 ***
 
@@ -196,7 +196,7 @@ example:
 
 #### Source
 
-main.ts:131608
+main.ts:131888
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:131616
+main.ts:131896
 
 ***
 
@@ -239,7 +239,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:131601
+main.ts:131881
 
 ***
 
@@ -263,7 +263,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131688
+main.ts:131968
 
 ***
 
@@ -287,7 +287,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131678
+main.ts:131958
 
 ***
 
@@ -306,7 +306,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:131668
+main.ts:131948
 
 ***
 
@@ -325,7 +325,7 @@ default value: relevance
 
 #### Source
 
-main.ts:131633
+main.ts:131913
 
 ***
 
@@ -345,7 +345,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:131694
+main.ts:131974
 
 ## Methods
 
@@ -363,7 +363,7 @@ main.ts:131694
 
 #### Source
 
-main.ts:131707
+main.ts:131987
 
 ***
 
@@ -381,7 +381,7 @@ main.ts:131707
 
 #### Source
 
-main.ts:131746
+main.ts:132026
 
 ***
 
@@ -399,4 +399,4 @@ main.ts:131746
 
 #### Source
 
-main.ts:131739
+main.ts:132019

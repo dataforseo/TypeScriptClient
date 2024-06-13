@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:105372
+main.ts:105652
 
 ## Properties
 
@@ -50,7 +50,7 @@ data on the intersection
 
 #### Source
 
-main.ts:105368
+main.ts:105648
 
 ***
 
@@ -66,7 +66,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:105366
+main.ts:105646
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Source
 
-main.ts:105364
+main.ts:105644
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:105364
 
 #### Source
 
-main.ts:105381
+main.ts:105661
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:105381
 
 #### Source
 
-main.ts:105406
+main.ts:105686
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:105406
 
 #### Source
 
-main.ts:105399
+main.ts:105679

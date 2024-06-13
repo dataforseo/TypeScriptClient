@@ -63,6 +63,7 @@
 - [`IExploreBrandsSerpElementItem`](IExploreBrandsSerpElementItem.md)
 - [`IPerspectivesSerpElementItem`](IPerspectivesSerpElementItem.md)
 - [`IDiscussionsAndForumsSerpElementItem`](IDiscussionsAndForumsSerpElementItem.md)
+- [`ICompareSitesSerpElementItem`](ICompareSitesSerpElementItem.md)
 - [`IMapsSearchSerpElementItem`](IMapsSearchSerpElementItem.md)
 - [`IMapsPaidItemSerpElementItem`](IMapsPaidItemSerpElementItem.md)
 - [`INewsSearchSerpElementItem`](INewsSearchSerpElementItem.md)

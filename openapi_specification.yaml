@@ -328,7 +328,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 93729e7e-6f02-409b-b0da-c9bd4d87330f
+          example: c9ece069-eb8d-4826-a21d-4dc510fa7034
       responses:
         '200':
           description: Successful operation
@@ -646,7 +646,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 6707ef55-9edf-460e-b053-6e53b4136de5
+          example: e3814437-5435-4d76-acd4-46bbcc33a8d9
       responses:
         '200':
           description: Successful operation
@@ -818,7 +818,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 82a6f3eb-e7e4-4792-a372-ae945651cc29
+          example: f96f1191-dde4-484d-9273-de53a1b9dece
       responses:
         '200':
           description: Successful operation
@@ -1108,7 +1108,7 @@ paths:
           required: true
           schema:
             type: string
-          example: dc7f0f3c-3d06-4164-885f-2da4e3ceffdf
+          example: fc7a7987-69bc-479c-8bfb-58a1691f2695
       responses:
         '200':
           description: Successful operation
@@ -1370,7 +1370,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 93a33e26-11a9-435d-a08a-618818566f4b
+          example: 303bfd9d-c2f9-48da-8b3c-389ba5b7e74f
       responses:
         '200':
           description: Successful operation
@@ -1928,7 +1928,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f4841f7c-022d-4209-b9c7-73fd2446d403
+          example: 9f07a817-0c07-402b-9bdc-75bccd883024
       responses:
         '200':
           description: Successful operation
@@ -2128,7 +2128,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ab93c8fe-2dcc-4dcf-a4d7-322591313ec1
+          example: 4fb7f892-b0bb-4c6c-b057-5452da2b5ebd
       responses:
         '200':
           description: Successful operation
@@ -2804,7 +2804,7 @@ paths:
           required: true
           schema:
             type: string
-          example: eebde716-4b27-422b-8a7a-bf9bd7cb720c
+          example: bf2974cb-0c0f-4fc7-a3f0-37a4471570df
       responses:
         '200':
           description: Successful operation
@@ -3092,7 +3092,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 5d023b72-1329-46bd-b91e-59e97f13237e
+          example: 183c5b8f-dfee-41f0-94c3-21cdb20f1420
       responses:
         '200':
           description: Successful operation
@@ -3234,7 +3234,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f4e708fa-3d8c-48f9-843b-0068548812ed
+          example: cd4b6218-2bdb-4f51-bc41-6322d07b543b
       responses:
         '200':
           description: Successful operation
@@ -3438,7 +3438,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 54e0a863-b344-4ecc-8aa5-9f0a294220dc
+          example: c42900fd-2e52-4338-aa7b-787492e7a7fe
       responses:
         '200':
           description: Successful operation
@@ -5480,7 +5480,7 @@ paths:
           required: true
           schema:
             type: string
-          example: a7199cf1-9b53-4043-bac6-eb62c35c9ede
+          example: 5b84c9fd-94f8-435f-acf0-1d090a6a355d
       responses:
         '200':
           description: Successful operation
@@ -5580,7 +5580,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 227ed47a-d8cf-40ae-9f63-9531159e4056
+          example: a9adaf8b-9a01-4cc2-9d3c-f0712850b6f9
       responses:
         '200':
           description: Successful operation
@@ -5680,7 +5680,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ae947b36-f665-46fe-a21c-960c699df4d6
+          example: 1407e9cb-69e4-45aa-83c2-218250c7768d
       responses:
         '200':
           description: Successful operation
@@ -5780,7 +5780,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 2e80285a-ca1a-4634-81b3-7c29a1f53b95
+          example: 3aff39fc-79b1-49e5-ba70-3acf3a60e804
       responses:
         '200':
           description: Successful operation
@@ -5960,7 +5960,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 05e560fc-8783-427d-b14b-79c8b0f973a4
+          example: 6f50b49e-7a7b-407a-9846-31a1b19a1e0a
       responses:
         '200':
           description: Successful operation
@@ -6252,7 +6252,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ec1fd7b1-d82b-47c0-9e51-c73d878c6198
+          example: dda6c735-686a-41d3-b94b-a7f537a3bbc4
       responses:
         '200':
           description: Successful operation
@@ -6352,7 +6352,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 951f9e0c-dc86-4828-ba29-d9cfa033f531
+          example: e8845b46-e866-4c2f-994b-c31be87fdb05
       responses:
         '200':
           description: Successful operation
@@ -6452,7 +6452,7 @@ paths:
           required: true
           schema:
             type: string
-          example: a1852fb9-2981-465b-8e48-3789001461fd
+          example: 0678b041-425d-41f8-90e0-16de3b995192
       responses:
         '200':
           description: Successful operation
@@ -6570,7 +6570,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ca89f058-06f1-4e4c-bee9-3a1c63155d8c
+          example: af84e5db-5540-4d4c-afb5-740a8419599c
       responses:
         '200':
           description: Successful operation
@@ -8721,6 +8721,24 @@ paths:
                 nullable: true
       security:
         - basicAuth: [ ]
+  /v3/merchant/tasks_ready:
+    get:
+      tags:
+        - Merchant
+      description: "‌\nThe ‘Tasks Ready’ endpoint is designed to provide you with the list of completed tasks, which haven’t been collected yet. If you use the Standard method without specifying the postback_url, you can receive the list of id for all completed tasks using this endpoint. Then, you can collect the results using the ‘Task GET’ endpoint.\nfor more info please visit 'https://docs.dataforseo.com/v3/merchant/google/products/tasks_ready/?bash'"
+      operationId: MerchantTasksReady
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/MerchantTasksReadyResponseInfo'
+                nullable: true
+      security:
+        - basicAuth: [ ]
   '/v3/merchant/google/products/task_get/advanced/{id}':
     get:
       tags:
@@ -8760,7 +8778,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 4e5de1f4-1efa-4d94-b631-363f7aa46456
+          example: ad9ca39e-7c12-4389-be61-9d6f6631f5c7
       responses:
         '200':
           description: Successful operation
@@ -8858,7 +8876,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 29f29054-6806-49e3-9c39-c3b677e0810b
+          example: 099d110e-a035-4b1d-84d1-bc88dd076722
       responses:
         '200':
           description: Successful operation
@@ -8956,7 +8974,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e647894b-b815-4bee-8657-3c31152be3f8
+          example: a84bff65-f508-4ebc-b7cb-cb61b75e03a6
       responses:
         '200':
           description: Successful operation
@@ -9214,7 +9232,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 0026256f-6538-4174-981c-383691315042
+          example: 5f9d78f0-c52b-42ab-985d-842d8f683745
       responses:
         '200':
           description: Successful operation
@@ -9312,7 +9330,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 456010a7-0c98-4e7d-ad71-8b4400b16436
+          example: 3349c84a-fe47-4276-a09a-e4a96461f4b4
       responses:
         '200':
           description: Successful operation
@@ -9410,7 +9428,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 2f6ca8cc-46e9-47b7-ba79-5bbe5da762d5
+          example: fa71a608-27bd-4dce-9def-48e3f0471b33
       responses:
         '200':
           description: Successful operation
@@ -9508,7 +9526,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 81fcab5f-f8ce-4732-b33b-8bb84eb22811
+          example: dd357655-0be0-474a-a2ce-6f038e6195b9
       responses:
         '200':
           description: Successful operation
@@ -9613,6 +9631,26 @@ paths:
                 nullable: true
       security:
         - basicAuth: [ ]
+  '/v3/app_data/google/locations/{country}':
+    get:
+      tags:
+        - AppData
+      description: "By calling this endpoint you will receive the list of Google locations supported in App Data API.\nfor more info please visit 'https://docs.dataforseo.com/v3/app_data/google/locations/?bash'"
+      operationId: AppDataGoogleLocationsCountry
+      parameters:
+        - name: country
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AppDataGoogleLocationsCountryResponseInfo'
+                nullable: true
+      security:
+        - basicAuth: [ ]
   /v3/app_data/google/languages:
     get:
       tags:
@@ -9677,6 +9715,24 @@ paths:
                 nullable: true
       security:
         - basicAuth: [ ]
+  /v3/app_data/tasks_ready:
+    get:
+      tags:
+        - AppData
+      description: "‌\nThe ‘Tasks Ready’ endpoint is designed to provide you with a list of completed tasks that haven’t been collected yet. If you use the Standard method without specifying the postback_url, you can receive the list of id for all completed tasks using this endpoint. Then, you can collect the results using the ‘Task GET’ endpoints.\nfor more info please visit 'https://docs.dataforseo.com/v3/app_data/google/app_searches/tasks_ready/?bash'"
+      operationId: AppDataTasksReady
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AppDataTasksReadyResponseInfo'
+                nullable: true
+      security:
+        - basicAuth: [ ]
   '/v3/app_data/google/app_searches/task_get/advanced/{id}':
     get:
       tags:
@@ -9690,7 +9746,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 0f56b2d6-3173-4915-a684-068b3bca54aa
+          example: b411360b-e937-45ff-a551-7f8a25bbc0b3
       responses:
         '200':
           description: Successful operation
@@ -9716,7 +9772,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 58db50c5-b36b-4be9-861a-487cd7d853ac
+          example: b49667a5-f8e0-4033-8313-7a7b81540ceb
       responses:
         '200':
           description: Successful operation
@@ -9788,7 +9844,7 @@ paths:
           required: true
           schema:
             type: string
-          example: a73e0fdb-2554-4d5a-8464-d6d2efa6f0eb
+          example: 0ae824f7-6655-4b9b-aa59-9bd4cb0c4343
       responses:
         '200':
           description: Successful operation
@@ -9814,7 +9870,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 4ed528df-f734-44df-a416-0198170d8a14
+          example: 89a69f5a-86f9-4d17-8d77-d3a773cc0d5c
       responses:
         '200':
           description: Successful operation
@@ -9886,7 +9942,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 47c22958-6264-434b-b26c-5a17b1a4f1e8
+          example: 3152fa8d-18a1-439e-9b70-ce579cc9034a
       responses:
         '200':
           description: Successful operation
@@ -9912,7 +9968,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 66b05f92-41e2-407f-b1a6-3985d957663a
+          example: 15c8af7c-9097-4dcf-ab0d-b03d3824697b
       responses:
         '200':
           description: Successful operation
@@ -9984,7 +10040,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 2de334e4-1744-4dea-b7e6-b3bdd58b05d1
+          example: 195538d4-1fb3-40ac-bfc6-34a9dca82a44
       responses:
         '200':
           description: Successful operation
@@ -10010,7 +10066,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 816834c6-3825-46a9-8ed6-bf08646d38b5
+          example: 0e10fb32-6d69-4848-9fe3-8360ac396c91
       responses:
         '200':
           description: Successful operation
@@ -10182,7 +10238,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 04deb324-fd34-4c18-bc0e-6f44a00f9d5e
+          example: 8036b8d9-8bfe-4f02-bcb5-00cc74563557
       responses:
         '200':
           description: Successful operation
@@ -10254,7 +10310,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 59bedd75-673e-44b1-b791-bf331fb6b845
+          example: d7ceb2c9-9ef3-42a6-acf2-5a185aab9114
       responses:
         '200':
           description: Successful operation
@@ -10326,7 +10382,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 5d203d46-854a-4d41-8a72-90e7532119fd
+          example: aefa60c3-022e-4489-9ff2-1f51d0a213a6
       responses:
         '200':
           description: Successful operation
@@ -10398,7 +10454,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 177f0329-0216-48bb-8214-c8019911878e
+          example: 1dd93216-a710-4e20-9775-47d850c36527
       responses:
         '200':
           description: Successful operation
@@ -10731,6 +10787,24 @@ paths:
                 nullable: true
       security:
         - basicAuth: [ ]
+  /v3/business_data/tasks_ready:
+    get:
+      tags:
+        - BusinessData
+      description: "‌\nThe ‘Tasks Ready’ endpoint is designed to provide you with the list of completed tasks, which haven’t been collected yet. If you don’t use the postback_url, you can receive the list of id for all completed tasks using this endpoint. Then, you can collect the results using the ‘Task GET’ endpoint.\nfor more info please visit 'https://docs.dataforseo.com/v3/business_data/google/my_business_info/tasks_ready/?bash'"
+      operationId: BusinessDataTasksReady
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/BusinessDataTasksReadyResponseInfo'
+                nullable: true
+      security:
+        - basicAuth: [ ]
   '/v3/business_data/google/my_business_info/task_get/{id}':
     get:
       tags:
@@ -11014,7 +11088,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c5a99ebc-1edf-4dfc-a87d-5843ae99d187
+          example: d5aa525c-70fc-44cc-99e7-2011973c429b
       responses:
         '200':
           description: Successful operation
@@ -11838,6 +11912,7 @@ components:
           explore_brands: '#/components/schemas/ExploreBrandsSerpElementItem'
           perspectives: '#/components/schemas/PerspectivesSerpElementItem'
           discussions_and_forums: '#/components/schemas/DiscussionsAndForumsSerpElementItem'
+          compare_sites: '#/components/schemas/CompareSitesSerpElementItem'
           maps_search: '#/components/schemas/MapsSearchSerpElementItem'
           maps_paid_item: '#/components/schemas/MapsPaidItemSerpElementItem'
           news_search: '#/components/schemas/NewsSearchSerpElementItem'
@@ -13014,7 +13089,7 @@ components:
           description: "task identifier\nrequired field\nunique identifier of the associated task in the UUID format\nyou will be able to use it within 30 days to request the results of the task at any time"
         prompt:
           type: string
-          description: "AI prompt\noptional field\nadditional task for AI summarizer, also referred to as\nany form of text, question or information that communicates to AI what response you’re looking for;\nnote: your prompt has to be relevant to the keyword specified in the POST request to SERP API"
+          description: "AI prompt\noptional field\nadditional task for AI summariser;\nany form of text, question or information that communicates to AI what response you’re looking for;\nmax number of symbols or characters you can specify: 2000;\nnote: your prompt has to be relevant to the keyword specified in the POST request to SERP API"
           nullable: true
         support_extra:
           type: boolean
@@ -14235,7 +14310,7 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/Table'
-          description: table element
+          description: "results table\nif there are none, equals null"
           nullable: true
     KnowledgeGraphExpandedItemSerpElementItem:
       type: object
@@ -14881,7 +14956,7 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/Table'
-          description: "results table\nif there are none, equals null"
+          description: table element
           nullable: true
     PeopleAlsoAskElement:
       type: object
@@ -17620,6 +17695,47 @@ components:
           type: string
           description: "source of the element\nindicates the source of information included in the top_stories_element"
           nullable: true
+    CompareSitesSerpElementItem:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseSerpElementItem'
+        - type: object
+          properties:
+            rank_group:
+              type: integer
+              description: "group rank in SERP\nposition within a group of elements with identical type values;\npositions of elements with different type values are omitted from rank_group;\nalways equals 0 for desktop"
+              nullable: true
+            rank_absolute:
+              type: integer
+              description: "absolute rank in SERP\nabsolute position among all the elements in SERP\nalways equals 0 for desktop"
+              nullable: true
+            position:
+              type: string
+              description: "the alignment of the element in SERP\ncan take the following values:\nleft, right"
+              nullable: true
+            xpath:
+              type: string
+              description: the XPath of the element
+              nullable: true
+            title:
+              type: string
+              description: title of the row
+              nullable: true
+            items:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/CompareSitesElement'
+                nullable: true
+              description: "additional items present in the element\nif there are none, equals null"
+              nullable: true
+            rectangle:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/Rectangle'
+              description: "rectangle parameters\ncontains cartesian coordinates and pixel dimensions of the result’s snippet in SERP\nequals null if calculate_rectangles in the POST request is not set to true"
+              nullable: true
     SerpGoogleOrganicTaskGetAdvancedResultInfo:
       type: object
       properties:
@@ -17662,7 +17778,7 @@ components:
           items:
             type: string
             nullable: true
-          description: "types of search results in SERP\ncontains types of search results (items) found in SERP.\npossible item types:\nanswer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box,product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums"
+          description: "types of search results in SERP\ncontains types of search results (items) found in SERP.\npossible item types:\nanswer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box,product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites"
           nullable: true
         se_results_count:
           type: integer
@@ -17847,7 +17963,7 @@ components:
           nullable: true
         target:
           type: string
-          description: "target domain, subdomain, or webpage to get results for\noptional field\na domain or a subdomain should be specified without https:// and www.\nnote that the results of target-specific tasks will only include SERP elements that contain a url string;\nyou can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;\nexamples:\nexample.com  – return results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;\nexample.com* – returns results for the domain, including all its pages;\n*example.com* – returns results for the entire domain, including all its pages and subdomains;\n*example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;\nexample.com/example-page  – returns results for the exact URL;\nexample.com/example-page*  – returns results for all domain’s URLs that start with the specified string"
+          description: "target domain, subdomain, or webpage to get results for\noptional field\na domain or a subdomain should be specified without https:// and www.\nnote that the results of target-specific tasks will only include SERP elements that contain a url string;\nyou can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;\nexamples:\nexample.com  – returns results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;\nexample.com* – returns results for the domain, including all its pages;\n*example.com* – returns results for the entire domain, including all its pages and subdomains;\n*example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;\nexample.com/example-page  – returns results for the exact URL;\nexample.com/example-page*  – returns results for all domain’s URLs that start with the specified string"
           nullable: true
         group_organic_results:
           type: boolean
@@ -18010,7 +18126,7 @@ components:
           nullable: true
         target:
           type: string
-          description: "target domain, subdomain, or webpage to get results for\noptional field\na domain or a subdomain should be specified without https:// and www.\nnote that the results of target-specific tasks will only include SERP elements that contain a url string;\nyou can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;\nexamples:\nexample.com  – return results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;\nexample.com* – returns results for the domain, including all its pages;\n*example.com* – returns results for the entire domain, including all its pages and subdomains;\n*example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;\nexample.com/example-page  – returns results for the exact URL;\nexample.com/example-page*  – returns results for all domain’s URLs that start with the specified string"
+          description: "target domain, subdomain, or webpage to get results for\noptional field\na domain or a subdomain should be specified without https:// and www.\nnote that the results of target-specific tasks will only include SERP elements that contain a url string;\nyou can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;\nexamples:\nexample.com  – returns results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;\nexample.com* – returns results for the domain, including all its pages;\n*example.com* – returns results for the entire domain, including all its pages and subdomains;\n*example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;\nexample.com/example-page  – returns results for the exact URL;\nexample.com/example-page*  – returns results for all domain’s URLs that start with the specified string"
           nullable: true
         group_organic_results:
           type: boolean
@@ -18087,7 +18203,7 @@ components:
           items:
             type: string
             nullable: true
-          description: "types of search results in SERP\ncontains types of search results (items) found in SERP.\npossible item types:\nanswer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box, product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums"
+          description: "types of search results in SERP\ncontains types of search results (items) found in SERP.\npossible item types:\nanswer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box, product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites"
           nullable: true
         se_results_count:
           type: integer
@@ -18950,7 +19066,7 @@ components:
           nullable: true
         location_coordinate:
           type: string
-          description: "GPS coordinates of a location\nrequired field if you don’t specify location_name or location_code\nif you use this field, you don’t need to specify location_name or location_code\nlocation_coordinate parameter should be specified in the “latitude,longitude,zoom” format\nif “zoom” is not specified, 17z will be applied as a default value\nthe maximum number of decimal digits for “latitude” and “longitude”: 7\nthe minimum value for “zoom”: 4z\nthe maximum value for “zoom”: 18z\nexample:\n52.6178549,-155.352142,18z"
+          description: "GPS coordinates of a location\nrequired field if you don’t specify location_name or location_code\nif you use this field, you don’t need to specify location_name or location_code\nlocation_coordinate parameter should be specified in the “latitude,longitude,zoom” format\nif “zoom” is not specified, 9z will be applied as a default value\nthe maximum number of decimal digits for “latitude” and “longitude”: 7\nthe minimum value for “zoom”: 4z\nthe maximum value for “zoom”: 18z\nexample:\n52.6178549,-155.352142,18z"
           nullable: true
         language_name:
           type: string
@@ -19336,7 +19452,7 @@ components:
           nullable: true
         location_coordinate:
           type: string
-          description: "GPS coordinates of a location\nrequired field if you don’t specify location_name or location_code\nif you use this field, you don’t need to specify location_name or location_code\nlocation_coordinate parameter should be specified in the “latitude,longitude,zoom” format\nif “zoom” is not specified, 17z will be applied as a default value\nthe maximum number of decimal digits for “latitude” and “longitude”: 7\nthe minimum value for “zoom”: 4z\nthe maximum value for “zoom”: 18z\nexample:\n52.6178549,-155.352142,20z"
+          description: "GPS coordinates of a location\nrequired field if you don’t specify location_name or location_code\nif you use this field, you don’t need to specify location_name or location_code\nlocation_coordinate parameter should be specified in the “latitude,longitude,zoom” format\nif “zoom” is not specified, 9z will be applied as a default value\nthe maximum number of decimal digits for “latitude” and “longitude”: 7\nthe minimum value for “zoom”: 4z\nthe maximum value for “zoom”: 18z\nexample:\n52.6178549,-155.352142,20z"
           nullable: true
         language_name:
           type: string
@@ -19484,7 +19600,7 @@ components:
           nullable: true
         location_coordinate:
           type: string
-          description: "GPS coordinates of a location\nrequired field if you don’t specify location_name or location_code\nif you use this field, you don’t need to specify location_name or location_code\nlocation_coordinate parameter should be specified in the “latitude,longitude,zoom” format\nif “zoom” is not specified, 17z will be applied as a default value\nthe maximum number of decimal digits for “latitude” and “longitude”: 7\nthe minimum value for “zoom”: 4z\nthe maximum value for “zoom”: 18z\nexample:\n52.6178549,-155.352142,20z"
+          description: "GPS coordinates of a location\nrequired field if you don’t specify location_name or location_code\nif you use this field, you don’t need to specify location_name or location_code\nlocation_coordinate parameter should be specified in the “latitude,longitude,zoom” format\nif “zoom” is not specified, 9z will be applied as a default value\nthe maximum number of decimal digits for “latitude” and “longitude”: 7\nthe minimum value for “zoom”: 4z\nthe maximum value for “zoom”: 18z\nexample:\n52.6178549,-155.352142,20z"
           nullable: true
         language_name:
           type: string
@@ -22254,6 +22370,7 @@ components:
               items:
                 type: string
                 nullable: true
+              description: "keywords highlighted in autocomplete\ncontains a list of google autocomplete suggestions that are highlighted in the search bar;\nNote: array is only available for the following client:\ngws-wiz\npsy-ab\ngws-wiz-local"
               nullable: true
     SerpGoogleAutocompleteTaskGetAdvancedResultInfo:
       type: object
@@ -29452,19 +29569,19 @@ components:
       properties:
         group:
           type: string
-          description: "id of the target technology group\nrequired field if you don’t specify technology or category\nat least one field (group, category, technology) must be set\nyou can find the full list of technology group ids on this page\nexample:\n\"marketing\""
+          description: "id of the target technology group\nrequired field if you don’t specify technology, category  or keyword\nat least one field (group, category, keyword, technology) must be set\nyou can find the full list of technology group ids on this page\nexample:\n\"marketing\""
           nullable: true
         category:
           type: string
-          description: "id of the target technology category\nrequired field if you don’t specify group or technology\nat least one field (group, category, technology) must be set\nyou can find the full list of technology category ids on this page\nexample:\n\"crm\""
+          description: "id of the target technology category\nrequired field if you don’t specify group, keyword or technology\nat least one field (group, category, keyword, technology) must be set\nyou can find the full list of technology category ids on this page\nexample:\n\"crm\""
           nullable: true
         technology:
           type: string
-          description: "target technology\nrequired field if you don’t specify group or category\nat least one field (group, category, technology) must be set\nyou can find the full list of technologies on this page\nexample:\n\"Salesforce\""
+          description: "target technology\nrequired field if you don’t specify group, keyword or category\nat least one field (group, category, keyword, technology) must be set\nyou can find the full list of technologies on this page\nexample:\n\"Salesforce\""
           nullable: true
         keyword:
           type: string
-          description: "target keyword in the domain’s meta keywords\noptional field\nUTF-8 encoding\neach keyword should be at least 3 characters long\nexample:\n\"seo\""
+          description: "target keyword in the domain’s meta keywords\nrequired field if you don’t specify group, category or technology\nat least one field (group, category, keyword, technology) must be set\nUTF-8 encoding\nexample:\n\"seo\""
           nullable: true
         mode:
           type: string
@@ -29475,7 +29592,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\n<, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nyou can use the following parameters to filter the results: domain_rank, last_visited, country_iso_code, language_code, content_language_code\nexample:\n[[\"country_iso_code\",\"=\",\"US\"],\n\"and\",\n[\"domain_rank\",\">\",800]]for more information about filters, please refer to Domain Analytics Technologies API – Filters"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\n<, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nyou can use the following parameters to filter the results: domain_rank, last_visited, country_iso_code, language_code, content_language_code\nNote: all filtering parameters are taken from the domain_technology_item of the domain_technologies endpoint;\nexample:\n[[\"country_iso_code\",\"=\",\"US\"],\n\"and\",\n[\"domain_rank\",\">\",800]]for more information about filters, please refer to Domain Analytics Technologies API – Filters"
           nullable: true
         order_by:
           type: array
@@ -29633,7 +29750,7 @@ components:
           type: array
           items:
             type: string
-          description: "target keywords in the domain’s title, description or meta keywords\noptional field\nUTF-8 encoding\neach keyword should be at least 3 characters long\nexample:\n[\"seo\",\"software\"]"
+          description: "target keywords in the domain’s title, description or meta keywords\noptional field\nUTF-8 encoding\nexample:\n[\"seo\",\"software\"]"
           nullable: true
         mode:
           type: string
@@ -29844,31 +29961,31 @@ components:
           type: array
           items:
             type: string
-          description: "target technology paths\nrequired field if you don’t specify groups, technologies and categories\neach technology path should be specified as a separate object containing “path” and “name”, where “path” is specified as “$group_id.$category_id” and “name” – as the name of the target technology;\neach object with a technology path should be separated with a comma\nyou can find the full list of technology group ids, category ids and technology names on this page\nnote: you can specify up to 10 technology paths in this array\nexample:\n[{\"path\": \"content.cms\",\"name\": \"wordpress\"}, {\"path\": \"marketing.crm\",\"name\": \"salesforce\"}]"
+          description: "target technology paths\nrequired field if you don’t specify groups, technologies, keywords or categories\nat least one field (technology_paths, groups, technologies, keywords or categories) must be set;\neach technology path should be specified as a separate object containing “path” and “name”, where “path” is specified as “$group_id.$category_id” and “name” – as the name of the target technology;\neach object with a technology path should be separated with a comma\nyou can find the full list of technology group ids, category ids and technology names on this page\nnote: you can specify up to 10 technology paths in this array\nexample:\n[{\"path\": \"content.cms\",\"name\": \"wordpress\"}, {\"path\": \"marketing.crm\",\"name\": \"salesforce\"}]"
           nullable: true
         groups:
           type: array
           items:
             type: string
-          description: "ids of the target technology groups\nrequired field if you don’t specify technologies, technology_paths or categories\nyou can find the full list of technology group ids on this page\nnote: you can specify up to 10 technology groups in this array\nexample:\n[\"sales\", \"marketing\"]"
+          description: "ids of the target technology groups\nrequired field if you don’t specify technologies, technology_paths, keywords or categories\nyou can find the full list of technology group ids on this page\nnote: you can specify up to 10 technology groups in this array\nexample:\n[\"sales\", \"marketing\"]"
           nullable: true
         categories:
           type: array
           items:
             type: string
-          description: "ids of the target technology categories\nrequired field if you don’t specify groups, technology_paths or technologies\nyou can find the full list of technology category ids on this page\nnote: you can specify up to 10 technology categories in this array\nexample:\n[\"payment_processors\",\"crm\"]"
+          description: "ids of the target technology categories\nrequired field if you don’t specify groups, technology_paths, keywords or technologies\nyou can find the full list of technology category ids on this page\nnote: you can specify up to 10 technology categories in this array\nexample:\n[\"payment_processors\",\"crm\"]"
           nullable: true
         technologies:
           type: array
           items:
             type: string
-          description: "target technologies\nrequired field if you don’t specify groups, technology_paths or categories\nyou can find the full list of technologies you can specify here on this page\nnote: you can specify up to 10 technologies in this array\nexample:\n[\"Google Pay\",\"Salesforce\"]"
+          description: "target technologies\nrequired field if you don’t specify groups, technology_paths, keywords or categories\nyou can find the full list of technologies you can specify here on this page\nnote: you can specify up to 10 technologies in this array\nexample:\n[\"Google Pay\",\"Salesforce\"]"
           nullable: true
         keywords:
           type: array
           items:
             type: string
-          description: "target keywords in the domain’s title, description or meta keywords\noptional field\nUTF-8 encoding\neach keyword should be at least 3 characters long\nexample:\n[\"seo\",\"software\"]"
+          description: "target keywords in the domain’s title, description or meta keywords\nrequired field if you don’t specify groups, technology_paths, technologies or categories\noptional field\nUTF-8 encoding\nexample:\n[\"seo\",\"software\"]"
           nullable: true
         mode:
           type: string
@@ -30045,7 +30162,7 @@ components:
           type: array
           items:
             type: string
-          description: "target keywords in the domain’s title, description or meta keywords\noptional field\nUTF-8 encoding\neach keyword should be at least 3 characters long\nmaximum number of keywords you can specify: 10\nexample:\n[\"seo\",\"software\"]"
+          description: "target keywords in the domain’s title, description or meta keywords\noptional field\nUTF-8 encoding\nmaximum number of keywords you can specify: 10\nexample:\n[\"seo\",\"software\"]"
           nullable: true
         mode:
           type: string
@@ -31752,7 +31869,7 @@ components:
           items:
             type: object
             nullable: true
-          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
+          description: "array of results filtering parameters\noptional field\nyou can add several filters at once (8 filters maximum)\nyou should set a logical operator and, or between the conditions\nthe following operators are supported:\nregex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like\nyou can use the % operator with like and not_like to match any string of zero or more characters\nexample:\n[\"keyword_data.keyword_info.search_volume\",\">\",0]\n[[\"keyword_info.search_volume\",\"in\",[0,1000]],\n\"and\",\n[\"keyword_data.keyword_info.competition_level\",\"=\",\"LOW\"]]\n[[\"keyword_data.keyword_info.search_volume\",\">\",100],\n\"and\",\n[[\"keyword_data.keyword_info.cpc\",\"<\",0.5],\n\"or\",\n[\"keyword_info.high_top_of_page_bid\",\"<=\",0.5]]]\nfor more information about filters, please refer to Dataforseo Labs – Filters or this help center guide"
           nullable: true
         order_by:
           type: array
@@ -44550,7 +44667,7 @@ components:
           type: array
           items:
             type: string
-          description: "keywords\nrequired field\nThe maximum number of keywords you can specify: 200\nThe maximum number of characters for each keyword: 100\nthe specified keywords will be converted to lowercase, data will be provided in a separate array"
+          description: "keywords\nrequired field\nThe maximum number of keywords you can specify: 1000\nThe maximum number of characters for each keyword: 100\nthe specified keywords will be converted to lowercase, data will be provided in a separate array"
         location_name:
           type: string
           description: "full name of search engine location\nrequired field if you don’t specify location_code or location_coordinate\nif you use this field, you don’t need to specify location_code or location_coordinate\nyou can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/locations\nexample:\nLondon,England,United Kingdom"
@@ -44776,7 +44893,7 @@ components:
           type: array
           items:
             type: string
-          description: "keywords\nrequired field\nThe maximum number of keywords you can specify: 200\nThe maximum number of characters for each keyword: 100\nthe specified keywords will be converted to lowercase, data will be provided in a separate array"
+          description: "keywords\nrequired field\nThe maximum number of keywords you can specify: 1000\nThe maximum number of characters for each keyword: 100\nthe specified keywords will be converted to lowercase, data will be provided in a separate array"
         location_name:
           type: string
           description: "full name of search engine location\nrequired field if you don’t specify location_code or location_coordinate\nif you use this field, you don’t need to specify location_code or location_coordinate\nyou can receive the list of available locations of the search engine with their location_name by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/locations\nexample:\nLondon,England,United Kingdom"
@@ -45725,7 +45842,7 @@ components:
           type: array
           items:
             type: string
-          description: "keywords\nrequired field\nThe maximum number of keywords you can specify: 2500.\nThe maximum number of characters for each keyword: 80.\nThe maximum number of words for each keyword phrase: 10.\nthe specified keywords will be converted to lowercase, data will be provided in a separate array"
+          description: "keywords\nrequired field\nThe maximum number of keywords you can specify: 1000\nThe maximum number of characters for each keyword: 80\nThe maximum number of words for each keyword phrase: 10\nthe specified keywords will be converted to lowercase, data will be provided in a separate array"
         device:
           type: string
           description: "device type\noptional field\nspecify this field if you want to get the data for a particular device typepossible values: desktop, mobile, tablet, all\ndefault value: all"
@@ -45979,7 +46096,7 @@ components:
           type: array
           items:
             type: string
-          description: "keywords\nrequired field\nThe maximum number of keywords you can specify: 2500.\nThe maximum number of characters for each keyword: 80.\nThe maximum number of words for each keyword phrase: 10.\nthe specified keywords will be converted to lowercase, data will be provided in a separate array"
+          description: "keywords\nrequired field\nThe maximum number of keywords you can specify: 1000\nThe maximum number of characters for each keyword: 80\nThe maximum number of words for each keyword phrase: 10\nthe specified keywords will be converted to lowercase, data will be provided in a separate array"
         device:
           type: string
           description: "device type\noptional field\nspecify this field if you want to get the data for a particular device typepossible values: desktop, mobile, tablet, all\ndefault value: all"
@@ -53297,17 +53414,6 @@ components:
           type: integer
           description: number of microdata information flags
           nullable: true
-    MicrodataTestResultsInfo:
-      type: object
-      properties:
-        level:
-          type: string
-          description: "level of microdata error\ncan take the following values: fatal, error, warning, info"
-          nullable: true
-        message:
-          type: string
-          description: "message associated with an error\nmessage providing the details of the detected error"
-          nullable: true
     MicrodataFieldsInfo:
       type: object
       properties:
@@ -53316,10 +53422,7 @@ components:
           description: "field name\nname of the data field"
           nullable: true
         types:
-          type: array
-          items:
-            type: string
-            nullable: true
+          type: object
           description: "parent microdata types\nfor a full list of available types, please visit schema.org"
           nullable: true
         value:
@@ -53328,8 +53431,6 @@ components:
           nullable: true
         test_results:
           type: object
-          oneOf:
-            - $ref: '#/components/schemas/MicrodataTestResultsInfo'
           description: "microdata validation test results\nsub-type microdata test results that contain detected errors and related messages"
           nullable: true
         fields:
@@ -53522,7 +53623,7 @@ components:
           nullable: true
         browser_preset:
           type: string
-          description: "preset for browser screen parameters\noptional field\nif you use this field, you don’t need to indicate browser_screen_width, browser_screen_height, browser_screen_scale_factor\npossible values:\ndesktop, mobile, tablet\ndesktop preset will apply the following values:\nbrowser_screen_width: 1920\nbrowser_screen_height: 1080\nbrowser_screen_scale_factor: 1\nmobile preset will apply the following values:\nbrowser_screen_width: 390\nbrowser_screen_height: 844\nbrowser_screen_scale_factor: 3\ntablet preset will apply the following values:\nbrowser_screen_width: 1024\nbrowser_screen_height: 1366\nbrowser_screen_scale_factor: 2"
+          description: "preset for browser screen parameters\noptional field\nif you use this field, you don’t need to indicate browser_screen_width, browser_screen_height, browser_screen_scale_factor\npossible values:\ndesktop, mobile, tablet\ndesktop preset will apply the following values:\nbrowser_screen_width: 1920\nbrowser_screen_height: 1080\nbrowser_screen_scale_factor: 1\nmobile preset will apply the following values:\nbrowser_screen_width: 390\nbrowser_screen_height: 844\nbrowser_screen_scale_factor: 3\ntablet preset will apply the following values:\nbrowser_screen_width: 1024\nbrowser_screen_height: 1366\nbrowser_screen_scale_factor: 2\nNote: in this endpoint, the enable_browser_rendering, enable_javascript, load_resources, and enable_xhr parameters are always enabled."
           nullable: true
         browser_screen_width:
           type: integer
@@ -53546,13 +53647,13 @@ components:
           type: boolean
           description: "disable the cookie popup \noptional field\nset to true if you want to disable the popup requesting cookie consent from the user;\ndefault value:\nfalse"
           nullable: true
-        enable_javascript:
-          type: boolean
-          description: "load javascript on a page\noptional field\nset to true if you want to load the scripts available on a page\ndefault value: false\nNote: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page"
-          nullable: true
         custom_js:
           type: string
           description: "custom javascript\noptional field\nNote that the execution time for the script you enter here should be 700 ms maximum\nfor example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:\nlet meta = { haveGoogleAnalytics: false, haveTagManager: false };\\r\\nfor (var i = 0; i < document.scripts.length; i++) {\\r\\n  let src = document.scripts[i].getAttribute(\\\"src\\\");\\r\\n  if (src != undefined) {\\r\\n    if (src.indexOf(\\\"analytics.js\\\") >= 0)\\r\\n      meta.haveGoogleAnalytics = true;\\r\\n\\tif (src.indexOf(\\\"gtm.js\\\") >= 0)\\r\\n      meta.haveTagManager = true;\\r\\n  }\\r\\n}\\r\\nmeta;\nthe returned value depends on what you specified in this field. For instance, if you specify the following script:\nmeta = {}; meta.url = document.URL; meta.test = 'test'; meta;\nas a response you will receive the following data:\n\"custom_js_response\": {\n  \"url\": \"https://dataforseo.com/\",\n  \"test\": \"test\"\n}\nNote: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page"
+          nullable: true
+        switch_pool:
+          type: boolean
+          description: "switch proxy pool\noptional field\nif true, additional proxy pools will be used to obtain the requested data;\nthe parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors"
           nullable: true
         ip_pool_for_scan:
           type: string
@@ -53725,7 +53826,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/TableContentItemInfo'
             nullable: true
-          description: content of the header of the table
+          description: parsed content of the header
           nullable: true
         body:
           type: array
@@ -53743,7 +53844,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/TableContentItemInfo'
             nullable: true
-          description: parsed content of the footer
+          description: content of the footer of the table
           nullable: true
     MainTopic:
       type: object
@@ -53847,13 +53948,13 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/PageSectionContentInfo'
-          description: parsed content of the header
+          description: content of the header of the table
           nullable: true
         footer:
           type: object
           oneOf:
             - $ref: '#/components/schemas/PageSectionContentInfo'
-          description: content of the footer of the table
+          description: parsed content of the footer
           nullable: true
         main_topic:
           type: array
@@ -54007,6 +54108,14 @@ components:
           type: boolean
           description: "enable XMLHttpRequest on a page\noptional field\nset to true if you want our crawler to request data from a web server using the XMLHttpRequest object\ndefault value:\nfalse\nif you use this field, enable_javascript must be set to true;"
           nullable: true
+        switch_pool:
+          type: boolean
+          description: "switch proxy pool\noptional field\nif true, additional proxy pools will be used to obtain the requested data;\nthe parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors"
+          nullable: true
+        ip_pool_for_scan:
+          type: string
+          description: "proxy pool\noptional field\nyou can choose a location of the proxy pool that will be used to obtain the requested data;\nthe parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors\npossible values: us, de"
+          nullable: true
     RowCells:
       type: object
       properties:
@@ -54158,6 +54267,14 @@ components:
             format: int64
             nullable: true
           description: "custom threshold values for checks\noptional field\nyou can specify custom threshold values for the parameters included in the checks array of OnPage API responses;\nNote: only integer threshold values can be modified;"
+          nullable: true
+        switch_pool:
+          type: boolean
+          description: "switch proxy pool\noptional field\nif true, additional proxy pools will be used to obtain the requested data;\nthe parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors"
+          nullable: true
+        ip_pool_for_scan:
+          type: string
+          description: "proxy pool\noptional field\nyou can choose a location of the proxy pool that will be used to obtain the requested data;\nthe parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors\npossible values: us, de"
           nullable: true
     OnPageInstantPagesResultInfo:
       type: object
@@ -57125,6 +57242,67 @@ components:
                 type: object
                 oneOf:
                   - $ref: '#/components/schemas/MerchantGoogleProductsTasksReadyTaskInfo'
+                nullable: true
+              description: array of tasks
+              nullable: true
+    MerchantTasksReadyResultInfo:
+      type: object
+      properties:
+        id:
+          type: string
+          description: "task identifier of the completed task\nunique task identifier in our system in the UUID format"
+          nullable: true
+        se:
+          type: string
+          description: search engine specified when setting the task
+          nullable: true
+        se_type:
+          type: string
+          description: type of search engine
+          nullable: true
+        date_posted:
+          type: string
+          description: date when the task was posted (in the UTC format)
+          nullable: true
+        tag:
+          type: string
+          description: user-defined task identifier
+          nullable: true
+        endpoint_advanced:
+          type: string
+          description: URL for collecting the results of the Amazon Reviews Advanced task
+          nullable: true
+        endpoint_html:
+          type: string
+          description: URL for collecting the results of the Amazon Reviews HTML task
+          nullable: true
+    MerchantTasksReadyTaskInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseTaskInfo'
+        - type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/MerchantTasksReadyResultInfo'
+                nullable: true
+              description: array of results
+              nullable: true
+    MerchantTasksReadyResponseInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseInfo'
+        - type: object
+          properties:
+            tasks:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/MerchantTasksReadyTaskInfo'
                 nullable: true
               description: array of tasks
               nullable: true
@@ -61188,6 +61366,59 @@ components:
                 nullable: true
               description: array of tasks
               nullable: true
+    AppDataGoogleLocationsCountryResultInfo:
+      type: object
+      properties:
+        location_code:
+          type: integer
+          description: location code
+          nullable: true
+        location_name:
+          type: string
+          description: full name of the location
+          nullable: true
+        location_name_parent:
+          type: string
+          description: "the name of the superordinate location\nexample:\n\"location_code\": 1006473,\n\"location_name\": \"Altrincham,England,United Kingdom\",\n\"location_name_parent\": \"England,United Kingdom\", where location_name_parent corresponds to:\n\"location_code\": 20339,\n\"location_name\": \"England,United Kingdom\""
+          nullable: true
+        country_iso_code:
+          type: string
+          description: ISO country code of the location
+          nullable: true
+        location_type:
+          type: string
+          description: location type
+          nullable: true
+    AppDataGoogleLocationsCountryTaskInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseTaskInfo'
+        - type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AppDataGoogleLocationsCountryResultInfo'
+                nullable: true
+              description: array of results
+              nullable: true
+    AppDataGoogleLocationsCountryResponseInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseInfo'
+        - type: object
+          properties:
+            tasks:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AppDataGoogleLocationsCountryTaskInfo'
+                nullable: true
+              description: array of tasks
+              nullable: true
     AppDataGoogleLanguagesResultInfo:
       type: object
       properties:
@@ -61267,6 +61498,7 @@ components:
           nullable: true
         se_type:
           type: string
+          description: search engine type
           nullable: true
         date_posted:
           type: string
@@ -61311,6 +61543,67 @@ components:
                 type: object
                 oneOf:
                   - $ref: '#/components/schemas/AppDataGoogleAppSearchesTasksReadyTaskInfo'
+                nullable: true
+              description: array of tasks
+              nullable: true
+    AppDataTasksReadyResultInfo:
+      type: object
+      properties:
+        id:
+          type: string
+          description: "task identifier of the completed task\nunique task identifier in our system in the UUID format"
+          nullable: true
+        se:
+          type: string
+          description: search engine specified when setting the task
+          nullable: true
+        se_type:
+          type: string
+          description: search engine type
+          nullable: true
+        date_posted:
+          type: string
+          description: date when the task was posted (in the UTC format)
+          nullable: true
+        tag:
+          type: string
+          description: user-defined task identifier
+          nullable: true
+        endpoint_advanced:
+          type: string
+          description: URL for collecting the results of the Apple App Reviews task
+          nullable: true
+        endpoint_html:
+          type: string
+          description: "URL for collecting the results of the Apple App Reviews HTML task\nif HTML tasks are not supported in the specified endpoint, the value will be null"
+          nullable: true
+    AppDataTasksReadyTaskInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseTaskInfo'
+        - type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AppDataTasksReadyResultInfo'
+                nullable: true
+              description: array of results
+              nullable: true
+    AppDataTasksReadyResponseInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseInfo'
+        - type: object
+          properties:
+            tasks:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AppDataTasksReadyTaskInfo'
                 nullable: true
               description: array of tasks
               nullable: true
@@ -61553,6 +61846,7 @@ components:
           nullable: true
         se_type:
           type: string
+          description: search engine type
           nullable: true
         date_posted:
           type: string
@@ -61827,6 +62121,7 @@ components:
           nullable: true
         se_type:
           type: string
+          description: search engine type
           nullable: true
         date_posted:
           type: string
@@ -62294,6 +62589,7 @@ components:
           nullable: true
         se_type:
           type: string
+          description: search engine type
           nullable: true
         date_posted:
           type: string
@@ -62990,6 +63286,7 @@ components:
           nullable: true
         se_type:
           type: string
+          description: search engine type
           nullable: true
         date_posted:
           type: string
@@ -63193,6 +63490,7 @@ components:
           nullable: true
         se_type:
           type: string
+          description: search engine type
           nullable: true
         date_posted:
           type: string
@@ -63549,6 +63847,7 @@ components:
           nullable: true
         se_type:
           type: string
+          description: search engine type
           nullable: true
         date_posted:
           type: string
@@ -63760,6 +64059,7 @@ components:
           nullable: true
         se_type:
           type: string
+          description: search engine type
           nullable: true
         date_posted:
           type: string
@@ -64763,8 +65063,8 @@ components:
             type: object
             oneOf:
               - $ref: '#/components/schemas/BaseLocalBusinessLink'
-            description: "available interactions with the business\nlist of options to interact with the business directly from search results"
             nullable: true
+          description: "available interactions with the business\nlist of options to interact with the business directly from search results"
           nullable: true
         contact_info:
           type: array
@@ -65272,6 +65572,63 @@ components:
                 type: object
                 oneOf:
                   - $ref: '#/components/schemas/BusinessDataGoogleMyBusinessInfoTasksReadyTaskInfo'
+                nullable: true
+              description: array of tasks
+              nullable: true
+    BusinessDataTasksReadyResultInfo:
+      type: object
+      properties:
+        id:
+          type: string
+          description: "task identifier of the completed task\nunique task identifier in our system in the UUID format"
+          nullable: true
+        se:
+          type: string
+          description: "search engine specified when setting the task\ncan take the following values: tripadvisor"
+          nullable: true
+        se_type:
+          type: string
+          description: search engine type
+          nullable: true
+        date_posted:
+          type: string
+          description: date when the task was posted (in the UTC format)
+          nullable: true
+        tag:
+          type: string
+          description: user-defined task identifier
+          nullable: true
+        endpoint:
+          type: string
+          description: URL for collecting the results of the task
+          nullable: true
+    BusinessDataTasksReadyTaskInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseTaskInfo'
+        - type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/BusinessDataTasksReadyResultInfo'
+                nullable: true
+              description: array of results
+              nullable: true
+    BusinessDataTasksReadyResponseInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseInfo'
+        - type: object
+          properties:
+            tasks:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/BusinessDataTasksReadyTaskInfo'
                 nullable: true
               description: array of tasks
               nullable: true
@@ -67522,6 +67879,17 @@ components:
                 nullable: true
               description: array of tasks
               nullable: true
+    ReviewHighlights:
+      type: object
+      properties:
+        feature:
+          type: string
+          description: reviewed feature
+          nullable: true
+        assessment:
+          type: string
+          description: feature assessment
+          nullable: true
     GoogleReviewsSearchBusinessDataSerpElementItem:
       type: object
       allOf:
@@ -67624,6 +67992,15 @@ components:
                   - $ref: '#/components/schemas/ImagesElement'
                 nullable: true
               description: images submitted by the reviewer
+              nullable: true
+            review_highlights:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/ReviewHighlights'
+                nullable: true
+              description: "review highlights\ncontains highlighted review criteria and assessments"
               nullable: true
     BusinessDataGoogleReviewsTaskGetResultInfo:
       type: object

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:78221
+main.ts:78502
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:78180
+main.ts:78461
 
 ***
 
@@ -72,7 +72,6 @@ main.ts:78180
 target keywords in the domain’s title, description or meta keywords
 optional field
 UTF-8 encoding
-each keyword should be at least 3 characters long
 maximum number of keywords you can specify: 10
 example:
 ["seo","software"]
@@ -83,7 +82,7 @@ example:
 
 #### Source
 
-main.ts:78156
+main.ts:78437
 
 ***
 
@@ -102,7 +101,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:78202
+main.ts:78483
 
 ***
 
@@ -123,7 +122,7 @@ default value: entry
 
 #### Source
 
-main.ts:78163
+main.ts:78444
 
 ***
 
@@ -144,7 +143,7 @@ use the offset_token if you would like to offset more results
 
 #### Source
 
-main.ts:78209
+main.ts:78490
 
 ***
 
@@ -166,7 +165,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:78217
+main.ts:78498
 
 ***
 
@@ -197,7 +196,7 @@ example:
 
 #### Source
 
-main.ts:78197
+main.ts:78478
 
 ***
 
@@ -219,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:78148
+main.ts:78430
 
 ## Methods
 
@@ -237,7 +236,7 @@ main.ts:78148
 
 #### Source
 
-main.ts:78230
+main.ts:78511
 
 ***
 
@@ -255,7 +254,7 @@ main.ts:78230
 
 #### Source
 
-main.ts:78270
+main.ts:78551
 
 ***
 
@@ -273,4 +272,4 @@ main.ts:78270
 
 #### Source
 
-main.ts:78263
+main.ts:78544

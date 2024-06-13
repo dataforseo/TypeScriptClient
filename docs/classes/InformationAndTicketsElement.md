@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:46414
+main.ts:46682
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the element
 
 #### Source
 
-main.ts:46406
+main.ts:46674
 
 ***
 
@@ -62,7 +62,7 @@ domain in SERP
 
 #### Source
 
-main.ts:46410
+main.ts:46678
 
 ***
 
@@ -78,7 +78,7 @@ title of the element
 
 #### Source
 
-main.ts:46404
+main.ts:46672
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Source
 
-main.ts:46402
+main.ts:46670
 
 ***
 
@@ -110,7 +110,7 @@ relevant URL
 
 #### Source
 
-main.ts:46408
+main.ts:46676
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:46408
 
 #### Source
 
-main.ts:46423
+main.ts:46691
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:46423
 
 #### Source
 
-main.ts:46444
+main.ts:46712
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:46444
 
 #### Source
 
-main.ts:46437
+main.ts:46705

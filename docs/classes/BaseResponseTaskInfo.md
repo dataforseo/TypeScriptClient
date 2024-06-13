@@ -359,6 +359,7 @@
 - [`MerchantGoogleLocationsCountryTaskInfo`](MerchantGoogleLocationsCountryTaskInfo.md)
 - [`MerchantGoogleProductsTaskPostTaskInfo`](MerchantGoogleProductsTaskPostTaskInfo.md)
 - [`MerchantGoogleProductsTasksReadyTaskInfo`](MerchantGoogleProductsTasksReadyTaskInfo.md)
+- [`MerchantTasksReadyTaskInfo`](MerchantTasksReadyTaskInfo.md)
 - [`MerchantGoogleProductsTaskGetAdvancedTaskInfo`](MerchantGoogleProductsTaskGetAdvancedTaskInfo.md)
 - [`MerchantGoogleProductsTaskGetHtmlTaskInfo`](MerchantGoogleProductsTaskGetHtmlTaskInfo.md)
 - [`MerchantGoogleSellersTaskPostTaskInfo`](MerchantGoogleSellersTaskPostTaskInfo.md)
@@ -396,9 +397,11 @@
 - [`AppDataErrorsTaskInfo`](AppDataErrorsTaskInfo.md)
 - [`AppDataGoogleCategoriesTaskInfo`](AppDataGoogleCategoriesTaskInfo.md)
 - [`AppDataGoogleLocationsTaskInfo`](AppDataGoogleLocationsTaskInfo.md)
+- [`AppDataGoogleLocationsCountryTaskInfo`](AppDataGoogleLocationsCountryTaskInfo.md)
 - [`AppDataGoogleLanguagesTaskInfo`](AppDataGoogleLanguagesTaskInfo.md)
 - [`AppDataGoogleAppSearchesTaskPostTaskInfo`](AppDataGoogleAppSearchesTaskPostTaskInfo.md)
 - [`AppDataGoogleAppSearchesTasksReadyTaskInfo`](AppDataGoogleAppSearchesTasksReadyTaskInfo.md)
+- [`AppDataTasksReadyTaskInfo`](AppDataTasksReadyTaskInfo.md)
 - [`AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo`](AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo.md)
 - [`AppDataGoogleAppSearchesTaskGetHtmlTaskInfo`](AppDataGoogleAppSearchesTaskGetHtmlTaskInfo.md)
 - [`AppDataGoogleAppListTaskPostTaskInfo`](AppDataGoogleAppListTaskPostTaskInfo.md)
@@ -444,6 +447,7 @@
 - [`BusinessDataGoogleLanguagesTaskInfo`](BusinessDataGoogleLanguagesTaskInfo.md)
 - [`BusinessDataGoogleMyBusinessInfoTaskPostTaskInfo`](BusinessDataGoogleMyBusinessInfoTaskPostTaskInfo.md)
 - [`BusinessDataGoogleMyBusinessInfoTasksReadyTaskInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyTaskInfo.md)
+- [`BusinessDataTasksReadyTaskInfo`](BusinessDataTasksReadyTaskInfo.md)
 - [`BusinessDataGoogleMyBusinessInfoTaskGetTaskInfo`](BusinessDataGoogleMyBusinessInfoTaskGetTaskInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo.md)
@@ -512,7 +516,7 @@
 
 #### Source
 
-main.ts:23162
+main.ts:23316
 
 ## Properties
 
@@ -528,7 +532,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23152
+main.ts:23306
 
 ***
 
@@ -548,7 +552,7 @@ contains the same parameters that you specified in the POST request
 
 #### Source
 
-main.ts:23158
+main.ts:23312
 
 ***
 
@@ -565,7 +569,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:23141
+main.ts:23295
 
 ***
 
@@ -581,7 +585,7 @@ URL path
 
 #### Source
 
-main.ts:23156
+main.ts:23310
 
 ***
 
@@ -597,7 +601,7 @@ number of elements in the result array
 
 #### Source
 
-main.ts:23154
+main.ts:23308
 
 ***
 
@@ -615,7 +619,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23145
+main.ts:23299
 
 ***
 
@@ -632,7 +636,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23148
+main.ts:23302
 
 ***
 
@@ -648,7 +652,7 @@ execution time, seconds
 
 #### Source
 
-main.ts:23150
+main.ts:23304
 
 ## Methods
 
@@ -666,7 +670,7 @@ main.ts:23150
 
 #### Source
 
-main.ts:23171
+main.ts:23325
 
 ***
 
@@ -684,7 +688,7 @@ main.ts:23171
 
 #### Source
 
-main.ts:23205
+main.ts:23359
 
 ***
 
@@ -702,4 +706,4 @@ main.ts:23205
 
 #### Source
 
-main.ts:23198
+main.ts:23352

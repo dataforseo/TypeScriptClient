@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:69484
+main.ts:69764
 
 ***
 
@@ -42,7 +42,7 @@ default value: desktop
 
 #### Source
 
-main.ts:69532
+main.ts:69812
 
 ***
 
@@ -60,7 +60,7 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 #### Source
 
-main.ts:69549
+main.ts:69829
 
 ***
 
@@ -77,7 +77,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:69467
+main.ts:69747
 
 ***
 
@@ -93,7 +93,7 @@ zh_CN
 
 #### Source
 
-main.ts:69503
+main.ts:69783
 
 ***
 
@@ -109,7 +109,7 @@ Chinese (Simplified)
 
 #### Source
 
-main.ts:69497
+main.ts:69777
 
 ***
 
@@ -126,7 +126,7 @@ example:
 
 #### Source
 
-main.ts:69517
+main.ts:69797
 
 ***
 
@@ -146,7 +146,7 @@ example:
 
 #### Source
 
-main.ts:69527
+main.ts:69807
 
 ***
 
@@ -163,7 +163,7 @@ New York,New York,United States
 
 #### Source
 
-main.ts:69510
+main.ts:69790
 
 ***
 
@@ -180,7 +180,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:69491
+main.ts:69771
 
 ***
 
@@ -199,7 +199,7 @@ default value: android
 
 #### Source
 
-main.ts:69541
+main.ts:69821
 
 ***
 
@@ -219,7 +219,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:69581
+main.ts:69861
 
 ***
 
@@ -235,7 +235,7 @@ regular, html
 
 #### Source
 
-main.ts:69571
+main.ts:69851
 
 ***
 
@@ -255,7 +255,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:69565
+main.ts:69845
 
 ***
 
@@ -273,7 +273,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:69475
+main.ts:69755
 
 ***
 
@@ -289,4 +289,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:69555
+main.ts:69835

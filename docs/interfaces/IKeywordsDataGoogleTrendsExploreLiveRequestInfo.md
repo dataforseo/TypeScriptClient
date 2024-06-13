@@ -23,7 +23,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Source
 
-main.ts:125144
+main.ts:125424
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Source
 
-main.ts:125153
+main.ts:125433
 
 ***
 
@@ -59,7 +59,7 @@ example:
 
 #### Source
 
-main.ts:125160
+main.ts:125440
 
 ***
 
@@ -81,7 +81,7 @@ possible values:
 
 #### Source
 
-main.ts:125182
+main.ts:125462
 
 ***
 
@@ -97,7 +97,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Source
 
-main.ts:125105
+main.ts:125385
 
 ***
 
@@ -115,7 +115,7 @@ en
 
 #### Source
 
-main.ts:125137
+main.ts:125417
 
 ***
 
@@ -133,7 +133,7 @@ English
 
 #### Source
 
-main.ts:125129
+main.ts:125409
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Source
 
-main.ts:125121
+main.ts:125401
 
 ***
 
@@ -169,7 +169,7 @@ United Kingdom
 
 #### Source
 
-main.ts:125113
+main.ts:125393
 
 ***
 
@@ -185,7 +185,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:125188
+main.ts:125468
 
 ***
 
@@ -205,7 +205,7 @@ possible values for news, youtube, images, froogle:
 
 #### Source
 
-main.ts:125170
+main.ts:125450
 
 ***
 
@@ -217,4 +217,4 @@ type of element
 
 #### Source
 
-main.ts:125139
+main.ts:125419

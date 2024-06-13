@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:161062
+main.ts:161315
 
 ***
 
@@ -50,7 +50,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:161034
+main.ts:161287
 
 ***
 
@@ -66,7 +66,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:161046
+main.ts:161299
 
 ***
 
@@ -82,7 +82,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:161052
+main.ts:161305
 
 ***
 
@@ -98,7 +98,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:161040
+main.ts:161293
 
 ***
 
@@ -113,7 +113,7 @@ default value: false
 
 #### Source
 
-main.ts:161121
+main.ts:161374
 
 ***
 
@@ -132,7 +132,7 @@ Note: only integer threshold values can be modified;
 
 #### Source
 
-main.ts:161126
+main.ts:161379
 
 ***
 
@@ -153,7 +153,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161111
+main.ts:161364
 
 ***
 
@@ -170,7 +170,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:161017
+main.ts:161270
 
 ***
 
@@ -186,7 +186,7 @@ false
 
 #### Source
 
-main.ts:161089
+main.ts:161342
 
 ***
 
@@ -205,7 +205,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161083
+main.ts:161336
 
 ***
 
@@ -221,7 +221,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161074
+main.ts:161327
 
 ***
 
@@ -237,7 +237,23 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:161100
+main.ts:161353
+
+***
+
+### ip\_pool\_for\_scan?
+
+> **`optional`** **ip\_pool\_for\_scan**: `string`
+
+proxy pool
+optional field
+you can choose a location of the proxy pool that will be used to obtain the requested data;
+the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors
+possible values: us, de
+
+#### Source
+
+main.ts:161390
 
 ***
 
@@ -253,7 +269,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161068
+main.ts:161321
 
 ***
 
@@ -268,7 +284,7 @@ default value: false
 
 #### Source
 
-main.ts:161094
+main.ts:161347
 
 ***
 
@@ -283,7 +299,22 @@ default value: false
 
 #### Source
 
-main.ts:161057
+main.ts:161310
+
+***
+
+### switch\_pool?
+
+> **`optional`** **switch\_pool**: `boolean`
+
+switch proxy pool
+optional field
+if true, additional proxy pools will be used to obtain the requested data;
+the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors
+
+#### Source
+
+main.ts:161384
 
 ***
 
@@ -300,7 +331,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 #### Source
 
-main.ts:161010
+main.ts:161263
 
 ***
 
@@ -315,4 +346,4 @@ default value: false
 
 #### Source
 
-main.ts:161116
+main.ts:161369

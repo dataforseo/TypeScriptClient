@@ -20,7 +20,7 @@ ranking data from Amazon paid SERP
 
 #### Source
 
-main.ts:104267
+main.ts:104547
 
 ***
 
@@ -32,4 +32,4 @@ ranking data from Amazon organic SERP
 
 #### Source
 
-main.ts:104265
+main.ts:104545

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:27723
+main.ts:27880
 
 ## Properties
 
@@ -46,7 +46,7 @@ domain in SERP
 
 #### Source
 
-main.ts:27706
+main.ts:27862
 
 ***
 
@@ -62,7 +62,7 @@ title of a given element
 
 #### Source
 
-main.ts:27702
+main.ts:27858
 
 ***
 
@@ -78,7 +78,7 @@ images of the element
 
 #### Source
 
-main.ts:27712
+main.ts:27868
 
 ***
 
@@ -94,7 +94,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:27710
+main.ts:27866
 
 ***
 
@@ -102,7 +102,8 @@ main.ts:27710
 
 > **`optional`** **table**: [`Table`](Table.md)
 
-table element
+results table
+if there are none, equals null
 
 #### Implementation of
 
@@ -110,7 +111,7 @@ table element
 
 #### Source
 
-main.ts:27719
+main.ts:27876
 
 ***
 
@@ -129,7 +130,7 @@ example:
 
 #### Source
 
-main.ts:27717
+main.ts:27873
 
 ***
 
@@ -145,7 +146,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:27708
+main.ts:27864
 
 ***
 
@@ -161,7 +162,7 @@ type of element
 
 #### Source
 
-main.ts:27700
+main.ts:27856
 
 ***
 
@@ -177,7 +178,7 @@ relevant URL
 
 #### Source
 
-main.ts:27704
+main.ts:27860
 
 ## Methods
 
@@ -195,7 +196,7 @@ main.ts:27704
 
 #### Source
 
-main.ts:27732
+main.ts:27889
 
 ***
 
@@ -213,7 +214,7 @@ main.ts:27732
 
 #### Source
 
-main.ts:27761
+main.ts:27918
 
 ***
 
@@ -231,4 +232,4 @@ main.ts:27761
 
 #### Source
 
-main.ts:27754
+main.ts:27911

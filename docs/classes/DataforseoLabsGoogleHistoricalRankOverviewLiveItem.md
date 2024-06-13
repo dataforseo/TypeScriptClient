@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:99904
+main.ts:100184
 
 ## Properties
 
@@ -50,7 +50,7 @@ ranking data relevant to the specified domain
 
 #### Source
 
-main.ts:99900
+main.ts:100180
 
 ***
 
@@ -66,7 +66,7 @@ month for which the data is provided
 
 #### Source
 
-main.ts:99898
+main.ts:100178
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Source
 
-main.ts:99894
+main.ts:100174
 
 ***
 
@@ -98,7 +98,7 @@ year for which the data is provided
 
 #### Source
 
-main.ts:99896
+main.ts:100176
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:99896
 
 #### Source
 
-main.ts:99913
+main.ts:100193
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:99913
 
 #### Source
 
-main.ts:99939
+main.ts:100219
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:99939
 
 #### Source
 
-main.ts:99932
+main.ts:100212

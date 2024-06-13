@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:76060
+main.ts:76341
 
 ## Properties
 
@@ -39,8 +39,8 @@ main.ts:76060
 > **`optional`** **category**: `string`
 
 id of the target technology category
-required field if you don’t specify group or technology
-at least one field (group, category, technology) must be set
+required field if you don’t specify group, keyword or technology
+at least one field (group, category, keyword, technology) must be set
 you can find the full list of technology category ids on this page
 example:
 "crm"
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:75964
+main.ts:76244
 
 ***
 
@@ -67,6 +67,7 @@ the following operators are supported:
 <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 you can use the following parameters to filter the results: domain_rank, last_visited, country_iso_code, language_code, content_language_code
+Note: all filtering parameters are taken from the domain_technology_item of the domain_technologies endpoint;
 example:
 [["country_iso_code","=","US"],
 "and",
@@ -78,7 +79,7 @@ example:
 
 #### Source
 
-main.ts:75998
+main.ts:76279
 
 ***
 
@@ -87,8 +88,8 @@ main.ts:75998
 > **`optional`** **group**: `string`
 
 id of the target technology group
-required field if you don’t specify technology or category
-at least one field (group, category, technology) must be set
+required field if you don’t specify technology, category  or keyword
+at least one field (group, category, keyword, technology) must be set
 you can find the full list of technology group ids on this page
 example:
 "marketing"
@@ -99,7 +100,7 @@ example:
 
 #### Source
 
-main.ts:75957
+main.ts:76237
 
 ***
 
@@ -119,7 +120,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76026
+main.ts:76307
 
 ***
 
@@ -139,7 +140,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76020
+main.ts:76301
 
 ***
 
@@ -160,7 +161,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76039
+main.ts:76320
 
 ***
 
@@ -180,7 +181,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76032
+main.ts:76313
 
 ***
 
@@ -189,9 +190,9 @@ main.ts:76032
 > **`optional`** **keyword**: `string`
 
 target keyword in the domain’s meta keywords
-optional field
+required field if you don’t specify group, category or technology
+at least one field (group, category, keyword, technology) must be set
 UTF-8 encoding
-each keyword should be at least 3 characters long
 example:
 "seo"
 
@@ -201,7 +202,7 @@ example:
 
 #### Source
 
-main.ts:75978
+main.ts:76258
 
 ***
 
@@ -220,7 +221,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76044
+main.ts:76325
 
 ***
 
@@ -241,7 +242,7 @@ default value: as_is
 
 #### Source
 
-main.ts:75985
+main.ts:76265
 
 ***
 
@@ -261,7 +262,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Source
 
-main.ts:76050
+main.ts:76331
 
 ***
 
@@ -291,7 +292,7 @@ default value:
 
 #### Source
 
-main.ts:76014
+main.ts:76295
 
 ***
 
@@ -311,7 +312,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:76056
+main.ts:76337
 
 ***
 
@@ -320,8 +321,8 @@ main.ts:76056
 > **`optional`** **technology**: `string`
 
 target technology
-required field if you don’t specify group or category
-at least one field (group, category, technology) must be set
+required field if you don’t specify group, keyword or category
+at least one field (group, category, keyword, technology) must be set
 you can find the full list of technologies on this page
 example:
 "Salesforce"
@@ -332,7 +333,7 @@ example:
 
 #### Source
 
-main.ts:75971
+main.ts:76251
 
 ## Methods
 
@@ -350,7 +351,7 @@ main.ts:75971
 
 #### Source
 
-main.ts:76069
+main.ts:76350
 
 ***
 
@@ -368,7 +369,7 @@ main.ts:76069
 
 #### Source
 
-main.ts:76107
+main.ts:76388
 
 ***
 
@@ -386,4 +387,4 @@ main.ts:76107
 
 #### Source
 
-main.ts:76100
+main.ts:76381

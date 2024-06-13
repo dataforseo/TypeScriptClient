@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:129018
+main.ts:129298
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:128973
+main.ts:129253
 
 ***
 
@@ -76,7 +76,7 @@ example:
 
 #### Source
 
-main.ts:128983
+main.ts:129263
 
 ***
 
@@ -95,7 +95,7 @@ default value: all
 
 #### Source
 
-main.ts:128960
+main.ts:129240
 
 ***
 
@@ -105,7 +105,7 @@ main.ts:128960
 
 keywords
 required field
-The maximum number of keywords you can specify: 200
+The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 
@@ -115,7 +115,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:128921
+main.ts:129201
 
 ***
 
@@ -135,7 +135,7 @@ en, fr, de
 
 #### Source
 
-main.ts:128955
+main.ts:129235
 
 ***
 
@@ -155,7 +155,7 @@ English, French, German
 
 #### Source
 
-main.ts:128949
+main.ts:129229
 
 ***
 
@@ -176,7 +176,7 @@ example:
 
 #### Source
 
-main.ts:128935
+main.ts:129215
 
 ***
 
@@ -198,7 +198,7 @@ example:
 
 #### Source
 
-main.ts:128943
+main.ts:129223
 
 ***
 
@@ -219,7 +219,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:128928
+main.ts:129208
 
 ***
 
@@ -243,7 +243,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:129003
+main.ts:129283
 
 ***
 
@@ -267,7 +267,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:128993
+main.ts:129273
 
 ***
 
@@ -286,7 +286,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:129008
+main.ts:129288
 
 ***
 
@@ -305,7 +305,7 @@ default value: relevance
 
 #### Source
 
-main.ts:128965
+main.ts:129245
 
 ***
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:129014
+main.ts:129294
 
 ## Methods
 
@@ -343,7 +343,7 @@ main.ts:129014
 
 #### Source
 
-main.ts:129027
+main.ts:129307
 
 ***
 
@@ -361,7 +361,7 @@ main.ts:129027
 
 #### Source
 
-main.ts:129061
+main.ts:129341
 
 ***
 
@@ -379,4 +379,4 @@ main.ts:129061
 
 #### Source
 
-main.ts:129054
+main.ts:129334

@@ -23,7 +23,7 @@ default value: all
 
 #### Source
 
-main.ts:134311
+main.ts:134591
 
 ***
 
@@ -33,14 +33,14 @@ main.ts:134311
 
 keywords
 required field
-The maximum number of keywords you can specify: 2500.
-The maximum number of characters for each keyword: 80.
-The maximum number of words for each keyword phrase: 10.
+The maximum number of keywords you can specify: 1000
+The maximum number of characters for each keyword: 80
+The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 
 #### Source
 
-main.ts:134306
+main.ts:134586
 
 ***
 
@@ -56,7 +56,7 @@ example:
 
 #### Source
 
-main.ts:134354
+main.ts:134634
 
 ***
 
@@ -73,7 +73,7 @@ English
 
 #### Source
 
-main.ts:134348
+main.ts:134628
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Source
 
-main.ts:134333
+main.ts:134613
 
 ***
 
@@ -108,7 +108,7 @@ example:
 
 #### Source
 
-main.ts:134341
+main.ts:134621
 
 ***
 
@@ -125,7 +125,7 @@ example:
 
 #### Source
 
-main.ts:134326
+main.ts:134606
 
 ***
 
@@ -143,7 +143,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Source
 
-main.ts:134319
+main.ts:134599
 
 ***
 
@@ -159,4 +159,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:134360
+main.ts:134640

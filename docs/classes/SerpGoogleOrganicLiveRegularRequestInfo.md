@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:37781
+main.ts:38049
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:37741
+main.ts:38009
 
 ***
 
@@ -72,7 +72,7 @@ default value: desktop
 
 #### Source
 
-main.ts:37718
+main.ts:37986
 
 ***
 
@@ -92,7 +92,7 @@ default value: true
 
 #### Source
 
-main.ts:37760
+main.ts:38028
 
 ***
 
@@ -115,7 +115,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:37675
+main.ts:37943
 
 ***
 
@@ -136,7 +136,7 @@ en
 
 #### Source
 
-main.ts:37713
+main.ts:37981
 
 ***
 
@@ -157,7 +157,7 @@ English
 
 #### Source
 
-main.ts:37706
+main.ts:37974
 
 ***
 
@@ -178,7 +178,7 @@ example:
 
 #### Source
 
-main.ts:37689
+main.ts:37957
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Source
 
-main.ts:37699
+main.ts:37967
 
 ***
 
@@ -223,7 +223,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:37682
+main.ts:37950
 
 ***
 
@@ -244,7 +244,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:37767
+main.ts:38035
 
 ***
 
@@ -265,7 +265,7 @@ default value: android
 
 #### Source
 
-main.ts:37725
+main.ts:37993
 
 ***
 
@@ -286,7 +286,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:37732
+main.ts:38000
 
 ***
 
@@ -304,7 +304,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:37771
+main.ts:38039
 
 ***
 
@@ -324,7 +324,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:37777
+main.ts:38045
 
 ***
 
@@ -338,7 +338,7 @@ a domain or a subdomain should be specified without https:// and www.
 note that the results of target-specific tasks will only include SERP elements that contain a url string;
 you can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;
 examples:
-example.com  – return results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;
+example.com  – returns results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;
 example.com* – returns results for the domain, including all its pages;
 *example.com* – returns results for the entire domain, including all its pages and subdomains;
 *example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;
@@ -351,7 +351,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Source
 
-main.ts:37754
+main.ts:38022
 
 ***
 
@@ -371,7 +371,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:37666
+main.ts:37934
 
 ## Methods
 
@@ -389,7 +389,7 @@ main.ts:37666
 
 #### Source
 
-main.ts:37790
+main.ts:38058
 
 ***
 
@@ -407,7 +407,7 @@ main.ts:37790
 
 #### Source
 
-main.ts:37822
+main.ts:38090
 
 ***
 
@@ -425,4 +425,4 @@ main.ts:37822
 
 #### Source
 
-main.ts:37815
+main.ts:38083

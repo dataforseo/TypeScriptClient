@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:160516
+main.ts:160743
 
 ***
 
@@ -52,7 +52,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:160476
+main.ts:160703
 
 ***
 
@@ -70,7 +70,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160492
+main.ts:160719
 
 ***
 
@@ -88,7 +88,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:160500
+main.ts:160727
 
 ***
 
@@ -106,7 +106,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160484
+main.ts:160711
 
 ***
 
@@ -128,7 +128,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160457
+main.ts:160684
 
 ***
 
@@ -145,7 +145,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:160445
+main.ts:160672
 
 ***
 
@@ -161,7 +161,7 @@ false
 
 #### Source
 
-main.ts:160511
+main.ts:160738
 
 ***
 
@@ -180,7 +180,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160531
+main.ts:160758
 
 ***
 
@@ -196,7 +196,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160522
+main.ts:160749
 
 ***
 
@@ -213,7 +213,23 @@ if you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:160538
+main.ts:160765
+
+***
+
+### ip\_pool\_for\_scan?
+
+> **`optional`** **ip\_pool\_for\_scan**: `string`
+
+proxy pool
+optional field
+you can choose a location of the proxy pool that will be used to obtain the requested data;
+the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors
+possible values: us, de
+
+#### Source
+
+main.ts:160776
 
 ***
 
@@ -228,7 +244,22 @@ default value: false
 
 #### Source
 
-main.ts:160505
+main.ts:160732
+
+***
+
+### switch\_pool?
+
+> **`optional`** **switch\_pool**: `boolean`
+
+switch proxy pool
+optional field
+if true, additional proxy pools will be used to obtain the requested data;
+the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors
+
+#### Source
+
+main.ts:160770
 
 ***
 
@@ -244,4 +275,4 @@ https://www.fujielectric.com/
 
 #### Source
 
-main.ts:160438
+main.ts:160665

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:52392
+main.ts:52666
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:52392
 
 #### Source
 
-main.ts:19668
+main.ts:19817
 
 ***
 
@@ -60,13 +60,20 @@ main.ts:19668
 
 > **`optional`** **highlighted**: `string`[]
 
+keywords highlighted in autocomplete
+contains a list of google autocomplete suggestions that are highlighted in the search bar;
+Note: array is only available for the following client:
+gws-wiz
+psy-ab
+gws-wiz-local
+
 #### Implementation of
 
 [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`highlighted`](../interfaces/IAutocompleteSerpElementItem.md#highlighted)
 
 #### Source
 
-main.ts:52388
+main.ts:52662
 
 ***
 
@@ -83,7 +90,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:52365
+main.ts:52633
 
 ***
 
@@ -101,7 +108,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:52362
+main.ts:52630
 
 ***
 
@@ -122,7 +129,7 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52372
+main.ts:52640
 
 ***
 
@@ -139,7 +146,7 @@ url to search results relevant to the google autocomplete suggestion
 
 #### Source
 
-main.ts:52381
+main.ts:52649
 
 ***
 
@@ -155,7 +162,7 @@ google autocomplete keyword suggestion
 
 #### Source
 
-main.ts:52374
+main.ts:52642
 
 ***
 
@@ -173,7 +180,7 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52378
+main.ts:52646
 
 ***
 
@@ -193,7 +200,7 @@ gws-wiz-serp
 
 #### Source
 
-main.ts:52387
+main.ts:52655
 
 ## Methods
 
@@ -215,7 +222,7 @@ main.ts:52387
 
 #### Source
 
-main.ts:52397
+main.ts:52671
 
 ***
 
@@ -237,7 +244,7 @@ main.ts:52397
 
 #### Source
 
-main.ts:52426
+main.ts:52700
 
 ***
 
@@ -259,4 +266,4 @@ main.ts:52426
 
 #### Source
 
-main.ts:52419
+main.ts:52693

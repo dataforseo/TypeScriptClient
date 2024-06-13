@@ -20,7 +20,7 @@ Automated Readability Index
 
 #### Source
 
-main.ts:170190
+main.ts:170454
 
 ***
 
@@ -32,7 +32,7 @@ average number of characters per word in the target text
 
 #### Source
 
-main.ts:170183
+main.ts:170447
 
 ***
 
@@ -44,7 +44,7 @@ number of characters with spaces found in the target text
 
 #### Source
 
-main.ts:170179
+main.ts:170443
 
 ***
 
@@ -56,7 +56,7 @@ number of characters without spaces found in the target text
 
 #### Source
 
-main.ts:170177
+main.ts:170441
 
 ***
 
@@ -68,7 +68,7 @@ Coleman–Liau Index
 
 #### Source
 
-main.ts:170192
+main.ts:170456
 
 ***
 
@@ -80,7 +80,7 @@ Flesch–Kincaid Readability Index
 
 #### Source
 
-main.ts:170194
+main.ts:170458
 
 ***
 
@@ -92,7 +92,7 @@ number of grammar errors found in the target text
 
 #### Source
 
-main.ts:170200
+main.ts:170464
 
 ***
 
@@ -109,7 +109,7 @@ contains most common words and their count
 
 #### Source
 
-main.ts:170188
+main.ts:170452
 
 ***
 
@@ -121,7 +121,7 @@ number of paragraphs found in the target text
 
 #### Source
 
-main.ts:170173
+main.ts:170437
 
 ***
 
@@ -133,7 +133,7 @@ number of sentences found in the target text
 
 #### Source
 
-main.ts:170171
+main.ts:170435
 
 ***
 
@@ -145,7 +145,7 @@ SMOG Readability Index
 
 #### Source
 
-main.ts:170196
+main.ts:170460
 
 ***
 
@@ -157,7 +157,7 @@ number of spelling errors found in the target text
 
 #### Source
 
-main.ts:170198
+main.ts:170462
 
 ***
 
@@ -169,7 +169,7 @@ vocabulary density of the target text
 
 #### Source
 
-main.ts:170185
+main.ts:170449
 
 ***
 
@@ -181,7 +181,7 @@ number of words found in the target text
 
 #### Source
 
-main.ts:170175
+main.ts:170439
 
 ***
 
@@ -193,4 +193,4 @@ average number of words per sentence in the target text
 
 #### Source
 
-main.ts:170181
+main.ts:170445

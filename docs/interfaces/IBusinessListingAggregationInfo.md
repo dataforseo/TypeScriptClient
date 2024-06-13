@@ -20,7 +20,7 @@ number of unique entities
 
 #### Source
 
-main.ts:197691
+main.ts:198569
 
 ***
 
@@ -37,7 +37,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Source
 
-main.ts:197694
+main.ts:198572
 
 ***
 
@@ -54,7 +54,7 @@ top categories displayed with the number of businesses in each category
 
 #### Source
 
-main.ts:197684
+main.ts:198562
 
 ***
 
@@ -71,7 +71,7 @@ country codes with the biggest number of businesses in the category
 
 #### Source
 
-main.ts:197687
+main.ts:198565
 
 ***
 
@@ -88,7 +88,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Source
 
-main.ts:197697
+main.ts:198575
 
 ***
 
@@ -100,4 +100,4 @@ number of unique websites
 
 #### Source
 
-main.ts:197689
+main.ts:198567

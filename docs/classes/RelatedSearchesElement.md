@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21545
+main.ts:21699
 
 ## Properties
 
@@ -46,7 +46,7 @@ the alt tag of the product image featured in the results
 
 #### Source
 
-main.ts:21539
+main.ts:21693
 
 ***
 
@@ -62,7 +62,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:21541
+main.ts:21695
 
 ***
 
@@ -78,7 +78,7 @@ product title
 
 #### Source
 
-main.ts:21535
+main.ts:21689
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Source
 
-main.ts:21533
+main.ts:21687
 
 ***
 
@@ -110,7 +110,7 @@ the URL of the product page
 
 #### Source
 
-main.ts:21537
+main.ts:21691
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:21537
 
 #### Source
 
-main.ts:21554
+main.ts:21708
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:21554
 
 #### Source
 
-main.ts:21575
+main.ts:21729
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:21575
 
 #### Source
 
-main.ts:21568
+main.ts:21722

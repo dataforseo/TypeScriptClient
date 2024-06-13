@@ -20,7 +20,7 @@ items array
 
 #### Source
 
-main.ts:141702
+main.ts:141982
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the items array
 
 #### Source
 
-main.ts:141700
+main.ts:141980
 
 ***
 
@@ -44,7 +44,7 @@ target in a POST array
 
 #### Source
 
-main.ts:141694
+main.ts:141974
 
 ***
 
@@ -58,4 +58,4 @@ example.com and blog.example.com are counted as one referring domain
 
 #### Source
 
-main.ts:141698
+main.ts:141978

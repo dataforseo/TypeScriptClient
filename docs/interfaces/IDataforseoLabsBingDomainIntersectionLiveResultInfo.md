@@ -20,7 +20,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:107451
+main.ts:107731
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:107449
+main.ts:107729
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:107445
+main.ts:107725
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:107443
+main.ts:107723
 
 ***
 
@@ -70,7 +70,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:107437
+main.ts:107717
 
 ***
 
@@ -82,7 +82,7 @@ target specified in a POST array
 
 #### Source
 
-main.ts:107439
+main.ts:107719
 
 ***
 
@@ -94,7 +94,7 @@ target specified in a POST array
 
 #### Source
 
-main.ts:107441
+main.ts:107721
 
 ***
 
@@ -106,4 +106,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:107447
+main.ts:107727

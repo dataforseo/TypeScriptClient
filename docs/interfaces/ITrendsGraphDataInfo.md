@@ -21,7 +21,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Source
 
-main.ts:124187
+main.ts:124467
 
 ***
 
@@ -34,7 +34,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Source
 
-main.ts:124190
+main.ts:124470
 
 ***
 
@@ -47,7 +47,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 #### Source
 
-main.ts:124195
+main.ts:124475
 
 ***
 
@@ -59,7 +59,7 @@ a point in time in the Unix time format
 
 #### Source
 
-main.ts:124192
+main.ts:124472
 
 ***
 
@@ -74,4 +74,4 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Source
 
-main.ts:124200
+main.ts:124480

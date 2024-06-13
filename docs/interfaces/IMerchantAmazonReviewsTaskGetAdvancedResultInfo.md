@@ -20,7 +20,7 @@ asin received in a POST array
 
 #### Source
 
-main.ts:183663
+main.ts:184125
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:183674
+main.ts:184136
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:183679
+main.ts:184141
 
 ***
 
@@ -60,7 +60,7 @@ product image data
 
 #### Source
 
-main.ts:183687
+main.ts:184149
 
 ***
 
@@ -75,7 +75,7 @@ amazon_review_item
 
 #### Source
 
-main.ts:183697
+main.ts:184159
 
 ***
 
@@ -88,7 +88,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:183703
+main.ts:184165
 
 ***
 
@@ -101,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:183700
+main.ts:184162
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:183671
+main.ts:184133
 
 ***
 
@@ -125,7 +125,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:183669
+main.ts:184131
 
 ***
 
@@ -138,7 +138,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:183690
+main.ts:184152
 
 ***
 
@@ -150,7 +150,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:183692
+main.ts:184154
 
 ***
 
@@ -162,7 +162,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:183667
+main.ts:184129
 
 ***
 
@@ -175,7 +175,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:183682
+main.ts:184144
 
 ***
 
@@ -188,7 +188,7 @@ the title of the product for which the reviews are collected
 
 #### Source
 
-main.ts:183685
+main.ts:184147
 
 ***
 
@@ -200,4 +200,4 @@ type of element
 
 #### Source
 
-main.ts:183665
+main.ts:184127

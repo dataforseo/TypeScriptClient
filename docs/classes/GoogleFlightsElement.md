@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:31676
+main.ts:31832
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Source
 
-main.ts:31670
+main.ts:31826
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Source
 
-main.ts:31668
+main.ts:31824
 
 ***
 
@@ -78,7 +78,7 @@ URL
 
 #### Source
 
-main.ts:31672
+main.ts:31828
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:31672
 
 #### Source
 
-main.ts:31685
+main.ts:31841
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:31685
 
 #### Source
 
-main.ts:31704
+main.ts:31860
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:31704
 
 #### Source
 
-main.ts:31697
+main.ts:31853

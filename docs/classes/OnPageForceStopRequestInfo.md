@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:149432
+main.ts:149712
 
 ## Properties
 
@@ -51,7 +51,7 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 #### Source
 
-main.ts:149428
+main.ts:149708
 
 ## Methods
 
@@ -69,7 +69,7 @@ main.ts:149428
 
 #### Source
 
-main.ts:149441
+main.ts:149721
 
 ***
 
@@ -87,7 +87,7 @@ main.ts:149441
 
 #### Source
 
-main.ts:149458
+main.ts:149738
 
 ***
 
@@ -105,4 +105,4 @@ main.ts:149458
 
 #### Source
 
-main.ts:149451
+main.ts:149731

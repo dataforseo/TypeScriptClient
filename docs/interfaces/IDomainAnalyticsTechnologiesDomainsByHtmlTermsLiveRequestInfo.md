@@ -35,7 +35,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:78344
+main.ts:78624
 
 ***
 
@@ -46,14 +46,13 @@ main.ts:78344
 target keywords in the domain’s title, description or meta keywords
 optional field
 UTF-8 encoding
-each keyword should be at least 3 characters long
 maximum number of keywords you can specify: 10
 example:
 ["seo","software"]
 
 #### Source
 
-main.ts:78320
+main.ts:78600
 
 ***
 
@@ -68,7 +67,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:78366
+main.ts:78646
 
 ***
 
@@ -85,7 +84,7 @@ default value: entry
 
 #### Source
 
-main.ts:78327
+main.ts:78607
 
 ***
 
@@ -102,7 +101,7 @@ use the offset_token if you would like to offset more results
 
 #### Source
 
-main.ts:78373
+main.ts:78653
 
 ***
 
@@ -120,7 +119,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:78381
+main.ts:78661
 
 ***
 
@@ -147,7 +146,7 @@ example:
 
 #### Source
 
-main.ts:78361
+main.ts:78641
 
 ***
 
@@ -165,4 +164,4 @@ example:
 
 #### Source
 
-main.ts:78312
+main.ts:78593

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:174240
+main.ts:174702
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:174240
 
 #### Source
 
-main.ts:20324
+main.ts:20478
 
 ***
 
@@ -68,7 +68,7 @@ product price without tax and shipping
 
 #### Source
 
-main.ts:174209
+main.ts:174671
 
 ***
 
@@ -86,7 +86,7 @@ USD
 
 #### Source
 
-main.ts:174220
+main.ts:174682
 
 ***
 
@@ -103,7 +103,7 @@ if there are no details, the value will be null
 
 #### Source
 
-main.ts:174207
+main.ts:174669
 
 ***
 
@@ -119,7 +119,7 @@ domain in SERP
 
 #### Source
 
-main.ts:174199
+main.ts:174661
 
 ***
 
@@ -137,7 +137,7 @@ left, right
 
 #### Source
 
-main.ts:174195
+main.ts:174657
 
 ***
 
@@ -155,7 +155,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 #### Source
 
-main.ts:174236
+main.ts:174698
 
 ***
 
@@ -172,7 +172,7 @@ possible values: Used, Refurbished, New, null
 
 #### Source
 
-main.ts:174232
+main.ts:174694
 
 ***
 
@@ -189,7 +189,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Source
 
-main.ts:174191
+main.ts:174653
 
 ***
 
@@ -206,7 +206,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:174188
+main.ts:174650
 
 ***
 
@@ -223,7 +223,7 @@ the shop popularity rate based on product reviews
 
 #### Source
 
-main.ts:174226
+main.ts:174688
 
 ***
 
@@ -240,7 +240,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Source
 
-main.ts:174223
+main.ts:174685
 
 ***
 
@@ -256,7 +256,7 @@ product shipping price
 
 #### Source
 
-main.ts:174214
+main.ts:174676
 
 ***
 
@@ -273,7 +273,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Source
 
-main.ts:174229
+main.ts:174691
 
 ***
 
@@ -290,7 +290,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Source
 
-main.ts:174212
+main.ts:174674
 
 ***
 
@@ -306,7 +306,7 @@ product title
 
 #### Source
 
-main.ts:174201
+main.ts:174663
 
 ***
 
@@ -322,7 +322,7 @@ product price including tax and shipping
 
 #### Source
 
-main.ts:174216
+main.ts:174678
 
 ***
 
@@ -339,7 +339,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 #### Source
 
-main.ts:174204
+main.ts:174666
 
 ***
 
@@ -355,7 +355,7 @@ XPath of the element
 
 #### Source
 
-main.ts:174197
+main.ts:174659
 
 ## Methods
 
@@ -377,7 +377,7 @@ main.ts:174197
 
 #### Source
 
-main.ts:174245
+main.ts:174707
 
 ***
 
@@ -399,7 +399,7 @@ main.ts:174245
 
 #### Source
 
-main.ts:174280
+main.ts:174742
 
 ***
 
@@ -421,4 +421,4 @@ main.ts:174280
 
 #### Source
 
-main.ts:174273
+main.ts:174735

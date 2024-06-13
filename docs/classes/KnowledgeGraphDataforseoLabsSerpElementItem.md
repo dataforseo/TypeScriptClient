@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:94821
+main.ts:95101
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:94821
 
 #### Source
 
-main.ts:20051
+main.ts:20205
 
 ***
 
@@ -68,7 +68,7 @@ card id
 
 #### Source
 
-main.ts:94807
+main.ts:95087
 
 ***
 
@@ -84,7 +84,7 @@ google-defined client id
 
 #### Source
 
-main.ts:94815
+main.ts:95095
 
 ***
 
@@ -100,7 +100,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:94805
+main.ts:95085
 
 ***
 
@@ -116,7 +116,7 @@ URL of the image from knowledge graph
 
 #### Source
 
-main.ts:94811
+main.ts:95091
 
 ***
 
@@ -132,7 +132,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:94817
+main.ts:95097
 
 ***
 
@@ -148,7 +148,7 @@ URL of the logo from knowledge graph
 
 #### Source
 
-main.ts:94813
+main.ts:95093
 
 ***
 
@@ -166,7 +166,7 @@ left, right
 
 #### Source
 
-main.ts:94797
+main.ts:95077
 
 ***
 
@@ -183,7 +183,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:94793
+main.ts:95073
 
 ***
 
@@ -201,7 +201,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:94790
+main.ts:95070
 
 ***
 
@@ -217,7 +217,7 @@ search engine type
 
 #### Source
 
-main.ts:94786
+main.ts:95066
 
 ***
 
@@ -233,7 +233,7 @@ subtitle of the item
 
 #### Source
 
-main.ts:94803
+main.ts:95083
 
 ***
 
@@ -249,7 +249,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:94801
+main.ts:95081
 
 ***
 
@@ -265,7 +265,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:94809
+main.ts:95089
 
 ***
 
@@ -281,7 +281,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:94799
+main.ts:95079
 
 ## Methods
 
@@ -303,7 +303,7 @@ main.ts:94799
 
 #### Source
 
-main.ts:94826
+main.ts:95106
 
 ***
 
@@ -325,7 +325,7 @@ main.ts:94826
 
 #### Source
 
-main.ts:94861
+main.ts:95141
 
 ***
 
@@ -347,4 +347,4 @@ main.ts:94861
 
 #### Source
 
-main.ts:94854
+main.ts:95134

@@ -22,7 +22,7 @@ learn more about the identified in this help center guide
 
 #### Source
 
-main.ts:180908
+main.ts:181370
 
 ***
 
@@ -35,7 +35,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:180919
+main.ts:181381
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:180924
+main.ts:181386
 
 ***
 
@@ -65,7 +65,7 @@ amazon_product_info
 
 #### Source
 
-main.ts:180929
+main.ts:181391
 
 ***
 
@@ -77,7 +77,7 @@ Amazon product info items
 
 #### Source
 
-main.ts:180933
+main.ts:181395
 
 ***
 
@@ -89,7 +89,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:180931
+main.ts:181393
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:180916
+main.ts:181378
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:180914
+main.ts:181376
 
 ***
 
@@ -125,7 +125,7 @@ Amazon domain in a POST array
 
 #### Source
 
-main.ts:180912
+main.ts:181374
 
 ***
 
@@ -137,4 +137,4 @@ type of element
 
 #### Source
 
-main.ts:180910
+main.ts:181372

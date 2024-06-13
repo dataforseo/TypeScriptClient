@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:83617
+main.ts:83897
 
 ## Properties
 
@@ -56,7 +56,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:83540
+main.ts:83820
 
 ***
 
@@ -72,13 +72,13 @@ the following operators are supported:
 regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["keyword_info.search_volume",">`",0]
+["keyword_data.keyword_info.search_volume",">`",0]
 [["keyword_info.search_volume","in",[0,1000]],
 "and",
-["keyword_info.competition_level","=","LOW"]]
-[["keyword_info.search_volume",">",100],
+["keyword_data.keyword_info.competition_level","=","LOW"]]
+[["keyword_data.keyword_info.search_volume",">",100],
 "and",
-[["keyword_info.cpc","<",0.5],
+[["keyword_data.keyword_info.cpc","<",0.5],
 "or",
 ["keyword_info.high_top_of_page_bid","<=",0.5]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
@@ -89,7 +89,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:83581
+main.ts:83861
 
 ***
 
@@ -108,7 +108,7 @@ default value: false
 
 #### Source
 
-main.ts:83555
+main.ts:83835
 
 ***
 
@@ -127,7 +127,7 @@ default value: false
 
 #### Source
 
-main.ts:83545
+main.ts:83825
 
 ***
 
@@ -146,7 +146,7 @@ default value: false
 
 #### Source
 
-main.ts:83550
+main.ts:83830
 
 ***
 
@@ -166,7 +166,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:83496
+main.ts:83776
 
 ***
 
@@ -188,7 +188,7 @@ en
 
 #### Source
 
-main.ts:83528
+main.ts:83808
 
 ***
 
@@ -210,7 +210,7 @@ English
 
 #### Source
 
-main.ts:83520
+main.ts:83800
 
 ***
 
@@ -229,7 +229,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:83602
+main.ts:83882
 
 ***
 
@@ -251,7 +251,7 @@ example:
 
 #### Source
 
-main.ts:83512
+main.ts:83792
 
 ***
 
@@ -273,7 +273,7 @@ United Kingdom
 
 #### Source
 
-main.ts:83504
+main.ts:83784
 
 ***
 
@@ -292,7 +292,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:83607
+main.ts:83887
 
 ***
 
@@ -322,7 +322,7 @@ example:
 
 #### Source
 
-main.ts:83597
+main.ts:83877
 
 ***
 
@@ -343,7 +343,7 @@ default value: false
 
 #### Source
 
-main.ts:83562
+main.ts:83842
 
 ***
 
@@ -363,7 +363,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:83613
+main.ts:83893
 
 ## Methods
 
@@ -381,7 +381,7 @@ main.ts:83613
 
 #### Source
 
-main.ts:83626
+main.ts:83906
 
 ***
 
@@ -399,7 +399,7 @@ main.ts:83626
 
 #### Source
 
-main.ts:83665
+main.ts:83945
 
 ***
 
@@ -417,4 +417,4 @@ main.ts:83665
 
 #### Source
 
-main.ts:83658
+main.ts:83938

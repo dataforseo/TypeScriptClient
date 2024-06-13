@@ -25,7 +25,7 @@ indicates attributes a business entity can offer
 
 #### Source
 
-main.ts:196462
+main.ts:197336
 
 ***
 
@@ -42,4 +42,4 @@ indicates attributes a business entity cannot offer
 
 #### Source
 
-main.ts:196465
+main.ts:197339

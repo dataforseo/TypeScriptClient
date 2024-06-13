@@ -22,7 +22,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Source
 
-main.ts:82616
+main.ts:82896
 
 ***
 
@@ -35,7 +35,7 @@ indicates the language of the keyword as identified by our system
 
 #### Source
 
-main.ts:82630
+main.ts:82910
 
 ***
 
@@ -48,7 +48,7 @@ if true, the language set in the request does not match the language determined 
 
 #### Source
 
-main.ts:82633
+main.ts:82913
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the metric in this help center guide
 
 #### Source
 
-main.ts:82627
+main.ts:82907
 
 ***
 
@@ -75,7 +75,7 @@ search engine type
 
 #### Source
 
-main.ts:82612
+main.ts:82892
 
 ***
 
@@ -91,4 +91,4 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Source
 
-main.ts:82622
+main.ts:82902

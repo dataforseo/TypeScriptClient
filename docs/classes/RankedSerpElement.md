@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:90354
+main.ts:90634
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:90324
+main.ts:90604
 
 ***
 
@@ -64,7 +64,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Source
 
-main.ts:90340
+main.ts:90620
 
 ***
 
@@ -83,7 +83,7 @@ learn more about the metric in this help center guide
 
 #### Source
 
-main.ts:90337
+main.ts:90617
 
 ***
 
@@ -102,7 +102,7 @@ example:
 
 #### Source
 
-main.ts:90345
+main.ts:90625
 
 ***
 
@@ -121,7 +121,7 @@ example:
 
 #### Source
 
-main.ts:90350
+main.ts:90630
 
 ***
 
@@ -137,7 +137,7 @@ number of search results for the returned keyword
 
 #### Source
 
-main.ts:90332
+main.ts:90612
 
 ***
 
@@ -153,7 +153,7 @@ search engine type
 
 #### Source
 
-main.ts:90318
+main.ts:90598
 
 ***
 
@@ -170,7 +170,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:90321
+main.ts:90601
 
 ***
 
@@ -190,7 +190,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Source
 
-main.ts:90330
+main.ts:90610
 
 ## Methods
 
@@ -208,7 +208,7 @@ main.ts:90330
 
 #### Source
 
-main.ts:90363
+main.ts:90643
 
 ***
 
@@ -226,7 +226,7 @@ main.ts:90363
 
 #### Source
 
-main.ts:90392
+main.ts:90672
 
 ***
 
@@ -244,4 +244,4 @@ main.ts:90392
 
 #### Source
 
-main.ts:90385
+main.ts:90665

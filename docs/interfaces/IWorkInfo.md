@@ -21,4 +21,4 @@ information about work hours of the local establishment
 
 #### Source
 
-main.ts:196595
+main.ts:197469

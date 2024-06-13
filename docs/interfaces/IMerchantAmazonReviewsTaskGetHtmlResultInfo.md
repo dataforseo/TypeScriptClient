@@ -23,7 +23,7 @@ example:
 
 #### Source
 
-main.ts:183915
+main.ts:184377
 
 ***
 
@@ -35,7 +35,7 @@ HTML pages and related data
 
 #### Source
 
-main.ts:183919
+main.ts:184381
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:183917
+main.ts:184379
 
 ***
 
@@ -59,7 +59,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:183910
+main.ts:184372
 
 ***
 
@@ -71,7 +71,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:183908
+main.ts:184370
 
 ***
 
@@ -83,7 +83,7 @@ ASIN received in a POST array
 
 #### Source
 
-main.ts:183902
+main.ts:184364
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:183906
+main.ts:184368
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Source
 
-main.ts:183904
+main.ts:184366

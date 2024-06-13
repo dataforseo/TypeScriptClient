@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:122971
+main.ts:123251
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:122958
+main.ts:123238
 
 ***
 
@@ -63,7 +63,7 @@ you can use this field for matching obtained results with the location_code para
 
 #### Source
 
-main.ts:122967
+main.ts:123247
 
 ***
 
@@ -80,7 +80,7 @@ you can use this field for matching obtained results with the location_name para
 
 #### Source
 
-main.ts:122964
+main.ts:123244
 
 ***
 
@@ -96,7 +96,7 @@ location code
 
 #### Source
 
-main.ts:122945
+main.ts:123225
 
 ***
 
@@ -119,7 +119,7 @@ where location_code_parent corresponds to:
 
 #### Source
 
-main.ts:122956
+main.ts:123236
 
 ***
 
@@ -135,7 +135,7 @@ full name of the location
 
 #### Source
 
-main.ts:122947
+main.ts:123227
 
 ***
 
@@ -152,7 +152,7 @@ possible values according to Google’s target types
 
 #### Source
 
-main.ts:122961
+main.ts:123241
 
 ## Methods
 
@@ -170,7 +170,7 @@ main.ts:122961
 
 #### Source
 
-main.ts:122980
+main.ts:123260
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:122980
 
 #### Source
 
-main.ts:123003
+main.ts:123283
 
 ***
 
@@ -206,4 +206,4 @@ main.ts:123003
 
 #### Source
 
-main.ts:122996
+main.ts:123276

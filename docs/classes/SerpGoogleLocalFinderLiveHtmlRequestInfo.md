@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:43388
+main.ts:43656
 
 ## Properties
 
@@ -55,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:43364
+main.ts:43632
 
 ***
 
@@ -74,7 +74,7 @@ default value: desktop
 
 #### Source
 
-main.ts:43346
+main.ts:43614
 
 ***
 
@@ -95,7 +95,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:43295
+main.ts:43563
 
 ***
 
@@ -115,7 +115,7 @@ example:en
 
 #### Source
 
-main.ts:43341
+main.ts:43609
 
 ***
 
@@ -136,7 +136,7 @@ English
 
 #### Source
 
-main.ts:43335
+main.ts:43603
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Source
 
-main.ts:43317
+main.ts:43585
 
 ***
 
@@ -169,7 +169,7 @@ GPS coordinates of a location
 required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
 location_coordinate parameter should be specified in the “latitude,longitude,zoom” format
-if “zoom” is not specified, 17z will be applied as a default value
+if “zoom” is not specified, 9z will be applied as a default value
 the maximum number of decimal digits for “latitude” and “longitude”: 7
 the minimum value for “zoom”: 4z
 the maximum value for “zoom”: 18z
@@ -182,7 +182,7 @@ example:
 
 #### Source
 
-main.ts:43328
+main.ts:43596
 
 ***
 
@@ -203,7 +203,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:43310
+main.ts:43578
 
 ***
 
@@ -222,7 +222,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Source
 
-main.ts:43369
+main.ts:43637
 
 ***
 
@@ -243,7 +243,7 @@ default value: android
 
 #### Source
 
-main.ts:43353
+main.ts:43621
 
 ***
 
@@ -265,7 +265,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:43303
+main.ts:43571
 
 ***
 
@@ -285,7 +285,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:43384
+main.ts:43652
 
 ***
 
@@ -308,7 +308,7 @@ example: "tuesday;18"
 
 #### Source
 
-main.ts:43378
+main.ts:43646
 
 ## Methods
 
@@ -326,7 +326,7 @@ main.ts:43378
 
 #### Source
 
-main.ts:43397
+main.ts:43665
 
 ***
 
@@ -344,7 +344,7 @@ main.ts:43397
 
 #### Source
 
-main.ts:43426
+main.ts:43694
 
 ***
 
@@ -362,4 +362,4 @@ main.ts:43426
 
 #### Source
 
-main.ts:43419
+main.ts:43687

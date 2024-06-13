@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:24110
+main.ts:24264
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Source
 
-main.ts:24106
+main.ts:24260
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:24104
+main.ts:24258
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:24104
 
 #### Source
 
-main.ts:24119
+main.ts:24273
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:24119
 
 #### Source
 
-main.ts:24141
+main.ts:24295
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:24141
 
 #### Source
 
-main.ts:24134
+main.ts:24288

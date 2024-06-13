@@ -21,7 +21,7 @@ learn more about ASINs in this help center guide
 
 #### Source
 
-main.ts:182252
+main.ts:182714
 
 ***
 
@@ -34,7 +34,7 @@ you can use it to make sure the provided results are accurate
 
 #### Source
 
-main.ts:182263
+main.ts:182725
 
 ***
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:182268
+main.ts:182730
 
 ***
 
@@ -62,7 +62,7 @@ image URL of the product relevant to the asin received in a POST array
 
 #### Source
 
-main.ts:182274
+main.ts:182736
 
 ***
 
@@ -77,7 +77,7 @@ amazon_seller_main_item, amazon_seller_item
 
 #### Source
 
-main.ts:182279
+main.ts:182741
 
 ***
 
@@ -89,7 +89,7 @@ items in SERP
 
 #### Source
 
-main.ts:182283
+main.ts:182745
 
 ***
 
@@ -101,7 +101,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:182281
+main.ts:182743
 
 ***
 
@@ -113,7 +113,7 @@ language code received in a POST array
 
 #### Source
 
-main.ts:182260
+main.ts:182722
 
 ***
 
@@ -125,7 +125,7 @@ location code received in a POST array
 
 #### Source
 
-main.ts:182258
+main.ts:182720
 
 ***
 
@@ -137,7 +137,7 @@ search engine domain received in a POST array
 
 #### Source
 
-main.ts:182256
+main.ts:182718
 
 ***
 
@@ -150,7 +150,7 @@ title of the product relevant to the asin received in a POST array
 
 #### Source
 
-main.ts:182271
+main.ts:182733
 
 ***
 
@@ -162,4 +162,4 @@ type of element
 
 #### Source
 
-main.ts:182254
+main.ts:182716

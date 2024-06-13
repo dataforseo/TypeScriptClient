@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:33555
+main.ts:33711
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains arrays of specific images
 
 #### Source
 
-main.ts:33548
+main.ts:33704
 
 ***
 
@@ -63,7 +63,7 @@ contains stock price data based on the preceding time period
 
 #### Source
 
-main.ts:33551
+main.ts:33707
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:33551
 
 #### Source
 
-main.ts:33564
+main.ts:33720
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:33564
 
 #### Source
 
-main.ts:33590
+main.ts:33746
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:33590
 
 #### Source
 
-main.ts:33583
+main.ts:33739

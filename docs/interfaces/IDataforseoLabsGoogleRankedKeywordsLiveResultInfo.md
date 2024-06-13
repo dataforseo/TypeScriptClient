@@ -20,7 +20,7 @@ contains ranked keywords and related data
 
 #### Source
 
-main.ts:90891
+main.ts:91171
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:90883
+main.ts:91163
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:90879
+main.ts:91159
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:90876
+main.ts:91156
 
 ***
 
@@ -75,7 +75,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Source
 
-main.ts:90886
+main.ts:91166
 
 ***
 
@@ -92,7 +92,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Source
 
-main.ts:90889
+main.ts:91169
 
 ***
 
@@ -104,7 +104,7 @@ search engine type
 
 #### Source
 
-main.ts:90871
+main.ts:91151
 
 ***
 
@@ -116,7 +116,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:90873
+main.ts:91153
 
 ***
 
@@ -128,4 +128,4 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:90881
+main.ts:91161

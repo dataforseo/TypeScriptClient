@@ -24,7 +24,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:101612
+main.ts:101892
 
 ***
 
@@ -41,7 +41,7 @@ example:
 
 #### Source
 
-main.ts:101619
+main.ts:101899
 
 ***
 
@@ -56,7 +56,7 @@ default value: false
 
 #### Source
 
-main.ts:101624
+main.ts:101904
 
 ***
 
@@ -75,7 +75,7 @@ default value:
 
 #### Source
 
-main.ts:101633
+main.ts:101913
 
 ***
 
@@ -93,7 +93,7 @@ en
 
 #### Source
 
-main.ts:101606
+main.ts:101886
 
 ***
 
@@ -111,7 +111,7 @@ English
 
 #### Source
 
-main.ts:101598
+main.ts:101878
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Source
 
-main.ts:101590
+main.ts:101870
 
 ***
 
@@ -147,7 +147,7 @@ United Kingdom
 
 #### Source
 
-main.ts:101582
+main.ts:101862
 
 ***
 
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:101639
+main.ts:101919
 
 ***
 
@@ -179,4 +179,4 @@ you can set up to 1000 domains or subdomains
 
 #### Source
 
-main.ts:101574
+main.ts:101854

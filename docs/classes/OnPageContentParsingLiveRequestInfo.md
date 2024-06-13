@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:160371
+main.ts:160594
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:160345
+main.ts:160557
 
 ***
 
@@ -82,7 +82,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:160305
+main.ts:160517
 
 ***
 
@@ -104,7 +104,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160321
+main.ts:160533
 
 ***
 
@@ -126,7 +126,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:160329
+main.ts:160541
 
 ***
 
@@ -148,7 +148,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160313
+main.ts:160525
 
 ***
 
@@ -174,7 +174,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160286
+main.ts:160498
 
 ***
 
@@ -195,7 +195,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:160274
+main.ts:160486
 
 ***
 
@@ -215,7 +215,7 @@ false
 
 #### Source
 
-main.ts:160340
+main.ts:160552
 
 ***
 
@@ -238,7 +238,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160360
+main.ts:160572
 
 ***
 
@@ -258,7 +258,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160351
+main.ts:160563
 
 ***
 
@@ -279,7 +279,27 @@ if you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:160367
+main.ts:160579
+
+***
+
+### ip\_pool\_for\_scan?
+
+> **`optional`** **ip\_pool\_for\_scan**: `string`
+
+proxy pool
+optional field
+you can choose a location of the proxy pool that will be used to obtain the requested data;
+the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors
+possible values: us, de
+
+#### Implementation of
+
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`ip_pool_for_scan`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#ip_pool_for_scan)
+
+#### Source
+
+main.ts:160590
 
 ***
 
@@ -298,7 +318,26 @@ default value: false
 
 #### Source
 
-main.ts:160334
+main.ts:160546
+
+***
+
+### switch\_pool?
+
+> **`optional`** **switch\_pool**: `boolean`
+
+switch proxy pool
+optional field
+if true, additional proxy pools will be used to obtain the requested data;
+the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors
+
+#### Implementation of
+
+[`IOnPageContentParsingLiveRequestInfo`](../interfaces/IOnPageContentParsingLiveRequestInfo.md).[`switch_pool`](../interfaces/IOnPageContentParsingLiveRequestInfo.md#switch_pool)
+
+#### Source
+
+main.ts:160584
 
 ***
 
@@ -318,7 +357,7 @@ https://www.fujielectric.com/
 
 #### Source
 
-main.ts:160267
+main.ts:160479
 
 ## Methods
 
@@ -336,7 +375,7 @@ main.ts:160267
 
 #### Source
 
-main.ts:160380
+main.ts:160603
 
 ***
 
@@ -354,7 +393,7 @@ main.ts:160380
 
 #### Source
 
-main.ts:160409
+main.ts:160634
 
 ***
 
@@ -372,4 +411,4 @@ main.ts:160409
 
 #### Source
 
-main.ts:160402
+main.ts:160627

@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:129147
+main.ts:129427
 
 ***
 
@@ -46,7 +46,7 @@ example:
 
 #### Source
 
-main.ts:129157
+main.ts:129437
 
 ***
 
@@ -61,7 +61,7 @@ default value: all
 
 #### Source
 
-main.ts:129134
+main.ts:129414
 
 ***
 
@@ -71,13 +71,13 @@ main.ts:129134
 
 keywords
 required field
-The maximum number of keywords you can specify: 200
+The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 
 #### Source
 
-main.ts:129095
+main.ts:129375
 
 ***
 
@@ -93,7 +93,7 @@ en, fr, de
 
 #### Source
 
-main.ts:129129
+main.ts:129409
 
 ***
 
@@ -109,7 +109,7 @@ English, French, German
 
 #### Source
 
-main.ts:129123
+main.ts:129403
 
 ***
 
@@ -126,7 +126,7 @@ example:
 
 #### Source
 
-main.ts:129109
+main.ts:129389
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Source
 
-main.ts:129117
+main.ts:129397
 
 ***
 
@@ -161,7 +161,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:129102
+main.ts:129382
 
 ***
 
@@ -181,7 +181,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:129177
+main.ts:129457
 
 ***
 
@@ -201,7 +201,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:129167
+main.ts:129447
 
 ***
 
@@ -216,7 +216,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:129182
+main.ts:129462
 
 ***
 
@@ -231,7 +231,7 @@ default value: relevance
 
 #### Source
 
-main.ts:129139
+main.ts:129419
 
 ***
 
@@ -247,4 +247,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:129188
+main.ts:129468

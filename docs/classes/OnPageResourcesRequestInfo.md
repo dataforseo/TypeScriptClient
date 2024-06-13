@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:153077
+main.ts:153357
 
 ## Properties
 
@@ -58,7 +58,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:153041
+main.ts:153321
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Source
 
-main.ts:153011
+main.ts:153291
 
 ***
 
@@ -97,7 +97,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:153022
+main.ts:153302
 
 ***
 
@@ -116,7 +116,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Source
 
-main.ts:153027
+main.ts:153307
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Source
 
-main.ts:153067
+main.ts:153347
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Source
 
-main.ts:153053
+main.ts:153333
 
 ***
 
@@ -190,7 +190,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:153073
+main.ts:153353
 
 ***
 
@@ -210,7 +210,7 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Source
 
-main.ts:153017
+main.ts:153297
 
 ## Methods
 
@@ -228,7 +228,7 @@ main.ts:153017
 
 #### Source
 
-main.ts:153086
+main.ts:153366
 
 ***
 
@@ -246,7 +246,7 @@ main.ts:153086
 
 #### Source
 
-main.ts:153122
+main.ts:153402
 
 ***
 
@@ -264,4 +264,4 @@ main.ts:153122
 
 #### Source
 
-main.ts:153115
+main.ts:153395

@@ -26,7 +26,7 @@ kc:/common/topic:social media presence
 
 #### Source
 
-main.ts:97325
+main.ts:97605
 
 ***
 
@@ -39,7 +39,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:97330
+main.ts:97610
 
 ***
 
@@ -51,7 +51,7 @@ link of the element
 
 #### Source
 
-main.ts:97327
+main.ts:97607
 
 ***
 
@@ -65,7 +65,7 @@ left, right
 
 #### Source
 
-main.ts:97317
+main.ts:97597
 
 ***
 
@@ -78,7 +78,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97313
+main.ts:97593
 
 ***
 
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97310
+main.ts:97590
 
 ***
 
@@ -104,7 +104,7 @@ title of a given link element
 
 #### Source
 
-main.ts:97321
+main.ts:97601
 
 ***
 
@@ -116,4 +116,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97319
+main.ts:97599

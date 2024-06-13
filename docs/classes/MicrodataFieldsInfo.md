@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:158022
+main.ts:158242
 
 ## Properties
 
@@ -47,7 +47,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Source
 
-main.ts:158018
+main.ts:158238
 
 ***
 
@@ -64,13 +64,13 @@ name of the data field
 
 #### Source
 
-main.ts:158006
+main.ts:158226
 
 ***
 
 ### test\_results?
 
-> **`optional`** **test\_results**: [`MicrodataTestResultsInfo`](MicrodataTestResultsInfo.md)
+> **`optional`** **test\_results**: `any`
 
 microdata validation test results
 sub-type microdata test results that contain detected errors and related messages
@@ -81,13 +81,13 @@ sub-type microdata test results that contain detected errors and related message
 
 #### Source
 
-main.ts:158015
+main.ts:158235
 
 ***
 
 ### types?
 
-> **`optional`** **types**: `string`[]
+> **`optional`** **types**: `any`
 
 parent microdata types
 for a full list of available types, please visit schema.org
@@ -98,7 +98,7 @@ for a full list of available types, please visit schema.org
 
 #### Source
 
-main.ts:158009
+main.ts:158229
 
 ***
 
@@ -115,7 +115,7 @@ microdata value specified on a target web page
 
 #### Source
 
-main.ts:158012
+main.ts:158232
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:158012
 
 #### Source
 
-main.ts:158031
+main.ts:158251
 
 ***
 
@@ -151,7 +151,7 @@ main.ts:158031
 
 #### Source
 
-main.ts:158060
+main.ts:158276
 
 ***
 
@@ -169,4 +169,4 @@ main.ts:158060
 
 #### Source
 
-main.ts:158053
+main.ts:158269

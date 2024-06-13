@@ -24,7 +24,7 @@ the alt tag of the image
 
 #### Source
 
-main.ts:47993
+main.ts:48261
 
 ***
 
@@ -36,7 +36,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 #### Source
 
-main.ts:47999
+main.ts:48267
 
 ***
 
@@ -49,7 +49,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:47985
+main.ts:48253
 
 ***
 
@@ -63,7 +63,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:47982
+main.ts:48250
 
 ***
 
@@ -75,7 +75,7 @@ the URL of the source image
 
 #### Source
 
-main.ts:47997
+main.ts:48265
 
 ***
 
@@ -87,7 +87,7 @@ subtitle of the result in SERP
 
 #### Source
 
-main.ts:47991
+main.ts:48259
 
 ***
 
@@ -99,7 +99,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:47989
+main.ts:48257
 
 ***
 
@@ -111,7 +111,7 @@ the URL of the page where the image is hosted
 
 #### Source
 
-main.ts:47995
+main.ts:48263
 
 ***
 
@@ -123,4 +123,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:47987
+main.ts:48255

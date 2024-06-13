@@ -23,7 +23,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:158895
+main.ts:159107
 
 ***
 
@@ -48,10 +48,11 @@ tablet preset will apply the following values:
 browser_screen_width: 1024
 browser_screen_height: 1366
 browser_screen_scale_factor: 2
+Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_resources, and enable_xhr parameters are always enabled.
 
 #### Source
 
-main.ts:158920
+main.ts:159133
 
 ***
 
@@ -68,7 +69,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158934
+main.ts:159147
 
 ***
 
@@ -85,7 +86,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:158941
+main.ts:159154
 
 ***
 
@@ -102,7 +103,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158927
+main.ts:159140
 
 ***
 
@@ -126,7 +127,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158972
+main.ts:159179
 
 ***
 
@@ -143,7 +144,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:158902
+main.ts:159114
 
 ***
 
@@ -159,23 +160,7 @@ false
 
 #### Source
 
-main.ts:158952
-
-***
-
-### enable\_javascript?
-
-> **`optional`** **enable\_javascript**: `boolean`
-
-load javascript on a page
-optional field
-set to true if you want to load the scripts available on a page
-default value: false
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
-
-#### Source
-
-main.ts:158958
+main.ts:159165
 
 ***
 
@@ -190,7 +175,7 @@ default value: true
 
 #### Source
 
-main.ts:158946
+main.ts:159159
 
 ***
 
@@ -206,7 +191,22 @@ possible values: us, de
 
 #### Source
 
-main.ts:158978
+main.ts:159190
+
+***
+
+### switch\_pool?
+
+> **`optional`** **switch\_pool**: `boolean`
+
+switch proxy pool
+optional field
+if true, additional proxy pools will be used to obtain the requested data;
+the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors
+
+#### Source
+
+main.ts:159184
 
 ***
 
@@ -221,4 +221,4 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Source
 
-main.ts:158890
+main.ts:159102

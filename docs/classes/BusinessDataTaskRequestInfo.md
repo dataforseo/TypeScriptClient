@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:190960
+main.ts:191826
 
 ## Properties
 
@@ -68,7 +68,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Source
 
-main.ts:190884
+main.ts:191750
 
 ***
 
@@ -89,7 +89,7 @@ en
 
 #### Source
 
-main.ts:190930
+main.ts:191796
 
 ***
 
@@ -110,7 +110,7 @@ English
 
 #### Source
 
-main.ts:190923
+main.ts:191789
 
 ***
 
@@ -131,7 +131,7 @@ example:
 
 #### Source
 
-main.ts:190906
+main.ts:191772
 
 ***
 
@@ -155,7 +155,7 @@ example:
 
 #### Source
 
-main.ts:190916
+main.ts:191782
 
 ***
 
@@ -176,7 +176,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:190899
+main.ts:191765
 
 ***
 
@@ -200,7 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:190956
+main.ts:191822
 
 ***
 
@@ -224,7 +224,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:190946
+main.ts:191812
 
 ***
 
@@ -246,7 +246,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:190892
+main.ts:191758
 
 ***
 
@@ -266,7 +266,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:190936
+main.ts:191802
 
 ## Methods
 
@@ -284,7 +284,7 @@ main.ts:190936
 
 #### Source
 
-main.ts:190969
+main.ts:191835
 
 ***
 
@@ -302,7 +302,7 @@ main.ts:190969
 
 #### Source
 
-main.ts:190995
+main.ts:191861
 
 ***
 
@@ -320,4 +320,4 @@ main.ts:190995
 
 #### Source
 
-main.ts:190988
+main.ts:191854

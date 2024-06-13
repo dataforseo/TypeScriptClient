@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:40032
+main.ts:40300
 
 ## Properties
 
@@ -46,7 +46,7 @@ street address of the local establishment
 
 #### Source
 
-main.ts:40020
+main.ts:40288
 
 ***
 
@@ -62,7 +62,7 @@ administrative unit or district the local establishment belongs to
 
 #### Source
 
-main.ts:40018
+main.ts:40286
 
 ***
 
@@ -78,7 +78,7 @@ name of the city where the local establishment is located
 
 #### Source
 
-main.ts:40022
+main.ts:40290
 
 ***
 
@@ -94,7 +94,7 @@ ISO country code of the local establishment
 
 #### Source
 
-main.ts:40028
+main.ts:40296
 
 ***
 
@@ -110,7 +110,7 @@ DMA region the local establishment belongs to
 
 #### Source
 
-main.ts:40026
+main.ts:40294
 
 ***
 
@@ -126,7 +126,7 @@ ZIP code of the local establishment
 
 #### Source
 
-main.ts:40024
+main.ts:40292
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:40024
 
 #### Source
 
-main.ts:40041
+main.ts:40309
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:40041
 
 #### Source
 
-main.ts:40063
+main.ts:40331
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:40063
 
 #### Source
 
-main.ts:40056
+main.ts:40324

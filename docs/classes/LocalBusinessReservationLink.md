@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:22825
+main.ts:22979
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:22825
 
 #### Source
 
-main.ts:22757
+main.ts:22911
 
 ***
 
@@ -69,7 +69,7 @@ domain of the reservation software
 
 #### Source
 
-main.ts:22819
+main.ts:22973
 
 ***
 
@@ -85,7 +85,7 @@ URL to make a reservation
 
 #### Source
 
-main.ts:22821
+main.ts:22975
 
 ## Methods
 
@@ -107,7 +107,7 @@ main.ts:22821
 
 #### Source
 
-main.ts:22830
+main.ts:22984
 
 ***
 
@@ -129,7 +129,7 @@ main.ts:22830
 
 #### Source
 
-main.ts:22849
+main.ts:23003
 
 ***
 
@@ -151,4 +151,4 @@ main.ts:22849
 
 #### Source
 
-main.ts:22842
+main.ts:22996

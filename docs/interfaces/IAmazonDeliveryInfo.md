@@ -20,7 +20,7 @@ the earliest date when the product can be shipped
 
 #### Source
 
-main.ts:21760
+main.ts:21914
 
 ***
 
@@ -32,7 +32,7 @@ the latest date when the product can be delivered
 
 #### Source
 
-main.ts:21762
+main.ts:21916
 
 ***
 
@@ -44,7 +44,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Source
 
-main.ts:21758
+main.ts:21912
 
 ***
 
@@ -58,7 +58,7 @@ if free delivery is available, the value is null
 
 #### Source
 
-main.ts:21770
+main.ts:21924
 
 ***
 
@@ -70,7 +70,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 #### Source
 
-main.ts:21764
+main.ts:21918
 
 ***
 
@@ -82,4 +82,4 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Source
 
-main.ts:21766
+main.ts:21920

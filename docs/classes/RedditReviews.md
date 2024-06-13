@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:212742
+main.ts:213886
 
 ## Properties
 
@@ -47,7 +47,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Source
 
-main.ts:212732
+main.ts:213876
 
 ***
 
@@ -63,7 +63,7 @@ URL to the subreddit post
 
 #### Source
 
-main.ts:212736
+main.ts:213880
 
 ***
 
@@ -79,7 +79,7 @@ the name of the subreddit
 
 #### Source
 
-main.ts:212729
+main.ts:213873
 
 ***
 
@@ -95,7 +95,7 @@ number of subreddit members
 
 #### Source
 
-main.ts:212738
+main.ts:213882
 
 ***
 
@@ -111,7 +111,7 @@ title of the subreddit post
 
 #### Source
 
-main.ts:212734
+main.ts:213878
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:212734
 
 #### Source
 
-main.ts:212751
+main.ts:213895
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:212751
 
 #### Source
 
-main.ts:212772
+main.ts:213916
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:212772
 
 #### Source
 
-main.ts:212765
+main.ts:213909

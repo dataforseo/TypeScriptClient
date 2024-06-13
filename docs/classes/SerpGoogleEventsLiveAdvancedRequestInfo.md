@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:46960
+main.ts:47228
 
 ## Properties
 
@@ -49,7 +49,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Source
 
-main.ts:46921
+main.ts:47189
 
 ***
 
@@ -72,7 +72,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:46943
+main.ts:47211
 
 ***
 
@@ -93,7 +93,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:46875
+main.ts:47143
 
 ***
 
@@ -115,7 +115,7 @@ en
 
 #### Source
 
-main.ts:46916
+main.ts:47184
 
 ***
 
@@ -137,7 +137,7 @@ English
 
 #### Source
 
-main.ts:46908
+main.ts:47176
 
 ***
 
@@ -158,7 +158,7 @@ example:
 
 #### Source
 
-main.ts:46889
+main.ts:47157
 
 ***
 
@@ -183,7 +183,7 @@ example:
 
 #### Source
 
-main.ts:46900
+main.ts:47168
 
 ***
 
@@ -204,7 +204,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:46882
+main.ts:47150
 
 ***
 
@@ -225,7 +225,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:46950
+main.ts:47218
 
 ***
 
@@ -245,7 +245,7 @@ default value: windows
 
 #### Source
 
-main.ts:46927
+main.ts:47195
 
 ***
 
@@ -266,7 +266,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:46934
+main.ts:47202
 
 ***
 
@@ -286,7 +286,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:46956
+main.ts:47224
 
 ## Methods
 
@@ -304,7 +304,7 @@ main.ts:46956
 
 #### Source
 
-main.ts:46969
+main.ts:47237
 
 ***
 
@@ -322,7 +322,7 @@ main.ts:46969
 
 #### Source
 
-main.ts:46997
+main.ts:47265
 
 ***
 
@@ -340,4 +340,4 @@ main.ts:46997
 
 #### Source
 
-main.ts:46990
+main.ts:47258

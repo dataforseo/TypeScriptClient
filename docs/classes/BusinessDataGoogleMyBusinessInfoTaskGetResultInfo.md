@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:199610
+main.ts:200682
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:199592
+main.ts:200664
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:199597
+main.ts:200669
 
 ***
 
@@ -84,7 +84,7 @@ possible item types: google_business_info
 
 #### Source
 
-main.ts:199601
+main.ts:200673
 
 ***
 
@@ -100,7 +100,7 @@ array of directory items
 
 #### Source
 
-main.ts:199606
+main.ts:200678
 
 ***
 
@@ -117,7 +117,7 @@ the number of items in the items array
 
 #### Source
 
-main.ts:199604
+main.ts:200676
 
 ***
 
@@ -138,7 +138,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:199583
+main.ts:200655
 
 ***
 
@@ -154,7 +154,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:199589
+main.ts:200661
 
 ***
 
@@ -170,7 +170,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:199587
+main.ts:200659
 
 ***
 
@@ -186,7 +186,7 @@ search engine domain as specified in a POST array
 
 #### Source
 
-main.ts:199585
+main.ts:200657
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:199585
 
 #### Source
 
-main.ts:199619
+main.ts:200691
 
 ***
 
@@ -222,7 +222,7 @@ main.ts:199619
 
 #### Source
 
-main.ts:199652
+main.ts:200724
 
 ***
 
@@ -240,4 +240,4 @@ main.ts:199652
 
 #### Source
 
-main.ts:199645
+main.ts:200717

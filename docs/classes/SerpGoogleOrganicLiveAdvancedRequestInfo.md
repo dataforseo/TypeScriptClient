@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:38399
+main.ts:38667
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:38368
+main.ts:38636
 
 ***
 
@@ -77,7 +77,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:38378
+main.ts:38646
 
 ***
 
@@ -100,7 +100,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:38359
+main.ts:38627
 
 ***
 
@@ -121,7 +121,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Source
 
-main.ts:38350
+main.ts:38618
 
 ***
 
@@ -144,7 +144,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:38260
+main.ts:38528
 
 ***
 
@@ -163,7 +163,7 @@ default value: desktop
 
 #### Source
 
-main.ts:38317
+main.ts:38585
 
 ***
 
@@ -183,7 +183,7 @@ default value: true
 
 #### Source
 
-main.ts:38343
+main.ts:38611
 
 ***
 
@@ -206,7 +206,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:38245
+main.ts:38513
 
 ***
 
@@ -227,7 +227,7 @@ en
 
 #### Source
 
-main.ts:38305
+main.ts:38573
 
 ***
 
@@ -248,7 +248,7 @@ English
 
 #### Source
 
-main.ts:38298
+main.ts:38566
 
 ***
 
@@ -269,7 +269,7 @@ example:
 
 #### Source
 
-main.ts:38281
+main.ts:38549
 
 ***
 
@@ -293,7 +293,7 @@ example:
 
 #### Source
 
-main.ts:38291
+main.ts:38559
 
 ***
 
@@ -314,7 +314,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:38274
+main.ts:38542
 
 ***
 
@@ -335,7 +335,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:38267
+main.ts:38535
 
 ***
 
@@ -356,7 +356,7 @@ default value: android
 
 #### Source
 
-main.ts:38324
+main.ts:38592
 
 ***
 
@@ -377,7 +377,7 @@ possible values: from 1 to 4
 
 #### Source
 
-main.ts:38385
+main.ts:38653
 
 ***
 
@@ -398,7 +398,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:38312
+main.ts:38580
 
 ***
 
@@ -416,7 +416,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:38389
+main.ts:38657
 
 ***
 
@@ -436,7 +436,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:38395
+main.ts:38663
 
 ***
 
@@ -450,7 +450,7 @@ a domain or a subdomain should be specified without https:// and www.
 note that the results of target-specific tasks will only include SERP elements that contain a url string;
 you can also use a wildcard (‘*’) character to specify the search pattern in SERP and narrow down the results;
 examples:
-example.com  – return results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;
+example.com  – returns results for the website’s home page with URLs, such as https://example.com, or https://www.example.com/, or https://example.com/;
 example.com* – returns results for the domain, including all its pages;
 *example.com* – returns results for the entire domain, including all its pages and subdomains;
 *example.com  – returns results for the home page regardless of the subdomain, such as https://en.example.com;
@@ -463,7 +463,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Source
 
-main.ts:38337
+main.ts:38605
 
 ***
 
@@ -483,7 +483,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:38251
+main.ts:38519
 
 ## Methods
 
@@ -501,7 +501,7 @@ main.ts:38251
 
 #### Source
 
-main.ts:38408
+main.ts:38676
 
 ***
 
@@ -519,7 +519,7 @@ main.ts:38408
 
 #### Source
 
-main.ts:38445
+main.ts:38713
 
 ***
 
@@ -537,4 +537,4 @@ main.ts:38445
 
 #### Source
 
-main.ts:38438
+main.ts:38706

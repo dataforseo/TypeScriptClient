@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:158826
+main.ts:159038
 
 ## Properties
 
@@ -49,7 +49,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:158739
+main.ts:158951
 
 ***
 
@@ -74,6 +74,7 @@ tablet preset will apply the following values:
 browser_screen_width: 1024
 browser_screen_height: 1366
 browser_screen_scale_factor: 2
+Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_resources, and enable_xhr parameters are always enabled.
 
 #### Implementation of
 
@@ -81,7 +82,7 @@ browser_screen_scale_factor: 2
 
 #### Source
 
-main.ts:158764
+main.ts:158977
 
 ***
 
@@ -102,7 +103,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158778
+main.ts:158991
 
 ***
 
@@ -123,7 +124,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:158785
+main.ts:158998
 
 ***
 
@@ -144,7 +145,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:158771
+main.ts:158984
 
 ***
 
@@ -172,7 +173,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:158816
+main.ts:159023
 
 ***
 
@@ -193,7 +194,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:158746
+main.ts:158958
 
 ***
 
@@ -213,27 +214,7 @@ false
 
 #### Source
 
-main.ts:158796
-
-***
-
-### enable\_javascript?
-
-> **`optional`** **enable\_javascript**: `boolean`
-
-load javascript on a page
-optional field
-set to true if you want to load the scripts available on a page
-default value: false
-Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
-
-#### Implementation of
-
-[`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`enable_javascript`](../interfaces/IOnPagePageScreenshotRequestInfo.md#enable_javascript)
-
-#### Source
-
-main.ts:158802
+main.ts:159009
 
 ***
 
@@ -252,7 +233,7 @@ default value: true
 
 #### Source
 
-main.ts:158790
+main.ts:159003
 
 ***
 
@@ -272,7 +253,26 @@ possible values: us, de
 
 #### Source
 
-main.ts:158822
+main.ts:159034
+
+***
+
+### switch\_pool?
+
+> **`optional`** **switch\_pool**: `boolean`
+
+switch proxy pool
+optional field
+if true, additional proxy pools will be used to obtain the requested data;
+the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors
+
+#### Implementation of
+
+[`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`switch_pool`](../interfaces/IOnPagePageScreenshotRequestInfo.md#switch_pool)
+
+#### Source
+
+main.ts:159028
 
 ***
 
@@ -291,7 +291,7 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Source
 
-main.ts:158734
+main.ts:158946
 
 ## Methods
 
@@ -309,7 +309,7 @@ main.ts:158734
 
 #### Source
 
-main.ts:158835
+main.ts:159047
 
 ***
 
@@ -327,7 +327,7 @@ main.ts:158835
 
 #### Source
 
-main.ts:158863
+main.ts:159075
 
 ***
 
@@ -345,4 +345,4 @@ main.ts:158863
 
 #### Source
 
-main.ts:158856
+main.ts:159068

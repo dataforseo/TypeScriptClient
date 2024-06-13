@@ -24,7 +24,7 @@ domain name of the result in SERP
 
 #### Source
 
-main.ts:44397
+main.ts:44665
 
 ***
 
@@ -37,7 +37,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:44404
+main.ts:44672
 
 ***
 
@@ -50,7 +50,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:44393
+main.ts:44661
 
 ***
 
@@ -64,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:44390
+main.ts:44658
 
 ***
 
@@ -78,7 +78,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:44417
+main.ts:44685
 
 ***
 
@@ -90,7 +90,7 @@ snippet of the result in SERP
 
 #### Source
 
-main.ts:44406
+main.ts:44674
 
 ***
 
@@ -102,7 +102,7 @@ indicates the time the result was published
 
 #### Source
 
-main.ts:44408
+main.ts:44676
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Source
 
-main.ts:44413
+main.ts:44681
 
 ***
 
@@ -129,7 +129,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:44399
+main.ts:44667
 
 ***
 
@@ -141,7 +141,7 @@ URL of the result in SERP
 
 #### Source
 
-main.ts:44401
+main.ts:44669
 
 ***
 
@@ -153,4 +153,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:44395
+main.ts:44663

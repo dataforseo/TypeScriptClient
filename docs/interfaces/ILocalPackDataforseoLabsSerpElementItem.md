@@ -24,7 +24,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:97062
+main.ts:97342
 
 ***
 
@@ -36,7 +36,7 @@ domain where a link points
 
 #### Source
 
-main.ts:97064
+main.ts:97344
 
 ***
 
@@ -51,7 +51,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97092
+main.ts:97372
 
 ***
 
@@ -66,7 +66,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97082
+main.ts:97362
 
 ***
 
@@ -81,7 +81,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97087
+main.ts:97367
 
 ***
 
@@ -93,7 +93,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:97070
+main.ts:97350
 
 ***
 
@@ -105,7 +105,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:97075
+main.ts:97355
 
 ***
 
@@ -117,7 +117,7 @@ phone number
 
 #### Source
 
-main.ts:97066
+main.ts:97346
 
 ***
 
@@ -131,7 +131,7 @@ left, right
 
 #### Source
 
-main.ts:97056
+main.ts:97336
 
 ***
 
@@ -144,7 +144,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97052
+main.ts:97332
 
 ***
 
@@ -158,7 +158,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:97096
+main.ts:97376
 
 ***
 
@@ -171,7 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97049
+main.ts:97329
 
 ***
 
@@ -184,7 +184,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:97073
+main.ts:97353
 
 ***
 
@@ -196,7 +196,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:97077
+main.ts:97357
 
 ***
 
@@ -208,7 +208,7 @@ title of the item
 
 #### Source
 
-main.ts:97060
+main.ts:97340
 
 ***
 
@@ -220,7 +220,7 @@ URL link
 
 #### Source
 
-main.ts:97068
+main.ts:97348
 
 ***
 
@@ -232,4 +232,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97058
+main.ts:97338

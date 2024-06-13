@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:20416
+main.ts:20570
 
 ## Properties
 
@@ -50,7 +50,7 @@ type of element
 
 #### Source
 
-main.ts:20410
+main.ts:20564
 
 ***
 
@@ -70,7 +70,7 @@ type of element
 
 #### Source
 
-main.ts:20412
+main.ts:20566
 
 ## Methods
 
@@ -88,7 +88,7 @@ main.ts:20412
 
 #### Source
 
-main.ts:20425
+main.ts:20579
 
 ***
 
@@ -106,7 +106,7 @@ main.ts:20425
 
 #### Source
 
-main.ts:20455
+main.ts:20609
 
 ***
 
@@ -124,4 +124,4 @@ main.ts:20455
 
 #### Source
 
-main.ts:20448
+main.ts:20602

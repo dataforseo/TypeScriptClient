@@ -24,7 +24,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:94736
+main.ts:95016
 
 ***
 
@@ -41,7 +41,7 @@ example:
 
 #### Source
 
-main.ts:94743
+main.ts:95023
 
 ***
 
@@ -58,7 +58,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:94730
+main.ts:95010
 
 ***
 
@@ -76,7 +76,7 @@ en
 
 #### Source
 
-main.ts:94773
+main.ts:95053
 
 ***
 
@@ -94,7 +94,7 @@ English
 
 #### Source
 
-main.ts:94765
+main.ts:95045
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Source
 
-main.ts:94757
+main.ts:95037
 
 ***
 
@@ -128,7 +128,7 @@ United Kingdom
 
 #### Source
 
-main.ts:94750
+main.ts:95030
 
 ***
 
@@ -144,4 +144,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:94779
+main.ts:95059

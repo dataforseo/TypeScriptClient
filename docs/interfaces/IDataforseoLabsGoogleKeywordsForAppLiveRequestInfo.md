@@ -26,7 +26,7 @@ the id is org.telegram.messenger
 
 #### Source
 
-main.ts:112121
+main.ts:112401
 
 ***
 
@@ -47,7 +47,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:112168
+main.ts:112448
 
 ***
 
@@ -66,7 +66,7 @@ en
 
 #### Source
 
-main.ts:112157
+main.ts:112437
 
 ***
 
@@ -85,7 +85,7 @@ English
 
 #### Source
 
-main.ts:112148
+main.ts:112428
 
 ***
 
@@ -100,7 +100,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:112190
+main.ts:112470
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Source
 
-main.ts:112139
+main.ts:112419
 
 ***
 
@@ -138,7 +138,7 @@ United States
 
 #### Source
 
-main.ts:112130
+main.ts:112410
 
 ***
 
@@ -153,7 +153,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:112195
+main.ts:112475
 
 ***
 
@@ -180,7 +180,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:112185
+main.ts:112465
 
 ***
 
@@ -196,4 +196,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:112201
+main.ts:112481

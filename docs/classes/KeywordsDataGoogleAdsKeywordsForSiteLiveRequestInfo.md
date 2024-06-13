@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:119163
+main.ts:119443
 
 ## Properties
 
@@ -52,7 +52,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Source
 
-main.ts:119134
+main.ts:119414
 
 ***
 
@@ -74,7 +74,7 @@ example:
 
 #### Source
 
-main.ts:119142
+main.ts:119422
 
 ***
 
@@ -94,7 +94,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Source
 
-main.ts:119148
+main.ts:119428
 
 ***
 
@@ -114,7 +114,7 @@ en
 
 #### Source
 
-main.ts:119121
+main.ts:119401
 
 ***
 
@@ -134,7 +134,7 @@ English
 
 #### Source
 
-main.ts:119115
+main.ts:119395
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Source
 
-main.ts:119100
+main.ts:119380
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Source
 
-main.ts:119109
+main.ts:119389
 
 ***
 
@@ -201,7 +201,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:119092
+main.ts:119372
 
 ***
 
@@ -220,7 +220,7 @@ default value: false – results are returned for Google search sites
 
 #### Source
 
-main.ts:119126
+main.ts:119406
 
 ***
 
@@ -239,7 +239,7 @@ default value: relevance
 
 #### Source
 
-main.ts:119153
+main.ts:119433
 
 ***
 
@@ -259,7 +259,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:119159
+main.ts:119439
 
 ***
 
@@ -278,7 +278,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Source
 
-main.ts:119077
+main.ts:119357
 
 ***
 
@@ -299,7 +299,7 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Source
 
-main.ts:119084
+main.ts:119364
 
 ## Methods
 
@@ -317,7 +317,7 @@ main.ts:119084
 
 #### Source
 
-main.ts:119172
+main.ts:119452
 
 ***
 
@@ -335,7 +335,7 @@ main.ts:119172
 
 #### Source
 
-main.ts:119201
+main.ts:119481
 
 ***
 
@@ -353,4 +353,4 @@ main.ts:119201
 
 #### Source
 
-main.ts:119194
+main.ts:119474

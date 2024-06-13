@@ -24,7 +24,7 @@ ranking data relevant to the specified domain
 
 #### Source
 
-main.ts:99967
+main.ts:100247
 
 ***
 
@@ -36,7 +36,7 @@ month for which the data is provided
 
 #### Source
 
-main.ts:99965
+main.ts:100245
 
 ***
 
@@ -48,7 +48,7 @@ search engine type
 
 #### Source
 
-main.ts:99961
+main.ts:100241
 
 ***
 
@@ -60,4 +60,4 @@ year for which the data is provided
 
 #### Source
 
-main.ts:99963
+main.ts:100243

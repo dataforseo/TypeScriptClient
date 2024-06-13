@@ -20,7 +20,7 @@ information about the hotel
 
 #### Source
 
-main.ts:204998
+main.ts:206070
 
 ***
 
@@ -33,7 +33,7 @@ physical address of the hotel
 
 #### Source
 
-main.ts:204993
+main.ts:206065
 
 ***
 
@@ -46,7 +46,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:204976
+main.ts:206048
 
 ***
 
@@ -61,7 +61,7 @@ example:
 
 #### Source
 
-main.ts:204981
+main.ts:206053
 
 ***
 
@@ -76,7 +76,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Source
 
-main.ts:204969
+main.ts:206041
 
 ***
 
@@ -88,7 +88,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:204973
+main.ts:206045
 
 ***
 
@@ -101,7 +101,7 @@ information about the location where the hotel is located
 
 #### Source
 
-main.ts:205001
+main.ts:206073
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:204971
+main.ts:206043
 
 ***
 
@@ -126,7 +126,7 @@ array containing URLs to images displayed in the hotel overview
 
 #### Source
 
-main.ts:205007
+main.ts:206079
 
 ***
 
@@ -139,7 +139,7 @@ contact phone number of the hotel
 
 #### Source
 
-main.ts:204996
+main.ts:206068
 
 ***
 
@@ -152,7 +152,7 @@ contains information about the hotel’s prices
 
 #### Source
 
-main.ts:205010
+main.ts:206082
 
 ***
 
@@ -165,7 +165,7 @@ information about reviews of the hotel entity
 
 #### Source
 
-main.ts:205004
+main.ts:206076
 
 ***
 
@@ -178,7 +178,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Source
 
-main.ts:204987
+main.ts:206059
 
 ***
 
@@ -191,7 +191,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Source
 
-main.ts:204990
+main.ts:206062
 
 ***
 
@@ -204,4 +204,4 @@ the title of the hotel entity for which the results are collected
 
 #### Source
 
-main.ts:204984
+main.ts:206056

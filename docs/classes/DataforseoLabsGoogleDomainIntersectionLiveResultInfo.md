@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92784
+main.ts:93064
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:92780
+main.ts:93060
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:92778
+main.ts:93058
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:92774
+main.ts:93054
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:92772
+main.ts:93052
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:92766
+main.ts:93046
 
 ***
 
@@ -126,7 +126,7 @@ the first target domain in a POST array
 
 #### Source
 
-main.ts:92768
+main.ts:93048
 
 ***
 
@@ -142,7 +142,7 @@ the second target domain in a POST array
 
 #### Source
 
-main.ts:92770
+main.ts:93050
 
 ***
 
@@ -158,7 +158,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:92776
+main.ts:93056
 
 ## Methods
 
@@ -176,7 +176,7 @@ main.ts:92776
 
 #### Source
 
-main.ts:92793
+main.ts:93073
 
 ***
 
@@ -194,7 +194,7 @@ main.ts:92793
 
 #### Source
 
-main.ts:92821
+main.ts:93101
 
 ***
 
@@ -212,4 +212,4 @@ main.ts:92821
 
 #### Source
 
-main.ts:92814
+main.ts:93094

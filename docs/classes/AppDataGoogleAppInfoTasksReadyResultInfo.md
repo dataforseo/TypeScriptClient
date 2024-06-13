@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:187349
+main.ts:188212
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:187338
+main.ts:188201
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Google App Info task
 
 #### Source
 
-main.ts:187342
+main.ts:188205
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Source
 
-main.ts:187345
+main.ts:188208
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:187333
+main.ts:188195
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:187335
+main.ts:188197
 
 ***
 
@@ -120,13 +120,15 @@ main.ts:187335
 
 > **`optional`** **se\_type**: `string`
 
+search engine type
+
 #### Implementation of
 
 [`IAppDataGoogleAppInfoTasksReadyResultInfo`](../interfaces/IAppDataGoogleAppInfoTasksReadyResultInfo.md).[`se_type`](../interfaces/IAppDataGoogleAppInfoTasksReadyResultInfo.md#se_type)
 
 #### Source
 
-main.ts:187336
+main.ts:188199
 
 ***
 
@@ -142,7 +144,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:187340
+main.ts:188203
 
 ## Methods
 
@@ -160,7 +162,7 @@ main.ts:187340
 
 #### Source
 
-main.ts:187358
+main.ts:188221
 
 ***
 
@@ -178,7 +180,7 @@ main.ts:187358
 
 #### Source
 
-main.ts:187381
+main.ts:188244
 
 ***
 
@@ -196,4 +198,4 @@ main.ts:187381
 
 #### Source
 
-main.ts:187374
+main.ts:188237

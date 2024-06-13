@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:63054
+main.ts:63334
 
 ## Properties
 
@@ -48,7 +48,7 @@ only value: desktop
 
 #### Source
 
-main.ts:63013
+main.ts:63293
 
 ***
 
@@ -69,7 +69,7 @@ en
 
 #### Source
 
-main.ts:63009
+main.ts:63289
 
 ***
 
@@ -90,7 +90,7 @@ English
 
 #### Source
 
-main.ts:63002
+main.ts:63282
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Source
 
-main.ts:62995
+main.ts:63275
 
 ***
 
@@ -132,7 +132,7 @@ United States
 
 #### Source
 
-main.ts:62988
+main.ts:63268
 
 ***
 
@@ -151,7 +151,7 @@ default value: windows
 
 #### Source
 
-main.ts:63018
+main.ts:63298
 
 ***
 
@@ -175,7 +175,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:63050
+main.ts:63330
 
 ***
 
@@ -195,7 +195,7 @@ advanced
 
 #### Source
 
-main.ts:63040
+main.ts:63320
 
 ***
 
@@ -219,7 +219,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:63034
+main.ts:63314
 
 ***
 
@@ -241,7 +241,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:62974
+main.ts:63254
 
 ***
 
@@ -258,7 +258,7 @@ you can get the language code from YouTube Video Info result
 
 #### Source
 
-main.ts:62977
+main.ts:63257
 
 ***
 
@@ -276,7 +276,7 @@ possible values:
 
 #### Source
 
-main.ts:62981
+main.ts:63261
 
 ***
 
@@ -296,7 +296,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:63024
+main.ts:63304
 
 ***
 
@@ -316,7 +316,7 @@ Y8Wu4rSNJms
 
 #### Source
 
-main.ts:62966
+main.ts:63246
 
 ## Methods
 
@@ -334,7 +334,7 @@ main.ts:62966
 
 #### Source
 
-main.ts:63063
+main.ts:63343
 
 ***
 
@@ -352,7 +352,7 @@ main.ts:63063
 
 #### Source
 
-main.ts:63093
+main.ts:63373
 
 ***
 
@@ -370,4 +370,4 @@ main.ts:63093
 
 #### Source
 
-main.ts:63086
+main.ts:63366

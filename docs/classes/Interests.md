@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:126844
+main.ts:127124
 
 ## Properties
 
@@ -47,7 +47,7 @@ the data included in the values element is based on this keyword
 
 #### Source
 
-main.ts:126838
+main.ts:127118
 
 ***
 
@@ -63,7 +63,7 @@ contains data on relative keyword popularity by country or region
 
 #### Source
 
-main.ts:126840
+main.ts:127120
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:126840
 
 #### Source
 
-main.ts:126853
+main.ts:127133
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:126853
 
 #### Source
 
-main.ts:126875
+main.ts:127155
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:126875
 
 #### Source
 
-main.ts:126868
+main.ts:127148

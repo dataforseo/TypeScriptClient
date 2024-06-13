@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:176761
+main.ts:177223
 
 ## Properties
 
@@ -47,7 +47,7 @@ product delivery information
 
 #### Source
 
-main.ts:176757
+main.ts:177219
 
 ***
 
@@ -64,7 +64,7 @@ product price details on the seller’s website
 
 #### Source
 
-main.ts:176754
+main.ts:177216
 
 ***
 
@@ -80,7 +80,7 @@ rating of the seller
 
 #### Source
 
-main.ts:176748
+main.ts:177210
 
 ***
 
@@ -97,7 +97,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:176751
+main.ts:177213
 
 ***
 
@@ -113,7 +113,7 @@ product title
 
 #### Source
 
-main.ts:176743
+main.ts:177205
 
 ***
 
@@ -129,7 +129,7 @@ type of element
 
 #### Source
 
-main.ts:176741
+main.ts:177203
 
 ***
 
@@ -146,7 +146,7 @@ url of the page where the product is sold
 
 #### Source
 
-main.ts:176746
+main.ts:177208
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:176746
 
 #### Source
 
-main.ts:176770
+main.ts:177232
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:176770
 
 #### Source
 
-main.ts:176793
+main.ts:177255
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:176793
 
 #### Source
 
-main.ts:176786
+main.ts:177248

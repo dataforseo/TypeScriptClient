@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:81470
+main.ts:81750
 
 ## Properties
 
@@ -47,7 +47,7 @@ contains the languages which are supported for a specific location
 
 #### Source
 
-main.ts:81466
+main.ts:81746
 
 ***
 
@@ -63,7 +63,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:81459
+main.ts:81739
 
 ***
 
@@ -79,7 +79,7 @@ location code
 
 #### Source
 
-main.ts:81452
+main.ts:81732
 
 ***
 
@@ -96,7 +96,7 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Source
 
-main.ts:81457
+main.ts:81737
 
 ***
 
@@ -112,7 +112,7 @@ full name of the location
 
 #### Source
 
-main.ts:81454
+main.ts:81734
 
 ***
 
@@ -130,7 +130,7 @@ Country
 
 #### Source
 
-main.ts:81463
+main.ts:81743
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:81463
 
 #### Source
 
-main.ts:81479
+main.ts:81759
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:81479
 
 #### Source
 
-main.ts:81505
+main.ts:81785
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:81505
 
 #### Source
 
-main.ts:81498
+main.ts:81778

@@ -21,7 +21,7 @@ information about hotel amenities
 
 #### Source
 
-main.ts:203391
+main.ts:204463
 
 ***
 
@@ -34,7 +34,7 @@ check-in time indicated in the hotel listing
 
 #### Source
 
-main.ts:203376
+main.ts:204448
 
 ***
 
@@ -47,7 +47,7 @@ check-out time indicated in the hotel listing
 
 #### Source
 
-main.ts:203379
+main.ts:204451
 
 ***
 
@@ -60,7 +60,7 @@ the description of the hotel entity for which the results are collected
 
 #### Source
 
-main.ts:203370
+main.ts:204442
 
 ***
 
@@ -73,7 +73,7 @@ domain of the hotel’s website
 
 #### Source
 
-main.ts:203385
+main.ts:204457
 
 ***
 
@@ -86,7 +86,7 @@ address of the hotel indicated in the standardised format
 
 #### Source
 
-main.ts:203382
+main.ts:204454
 
 ***
 
@@ -99,7 +99,7 @@ information about hotel amenities labelled as “popular”
 
 #### Source
 
-main.ts:203394
+main.ts:204466
 
 ***
 
@@ -112,7 +112,7 @@ details about the hotel provided in addition to the description
 
 #### Source
 
-main.ts:203373
+main.ts:204445
 
 ***
 
@@ -125,4 +125,4 @@ URL to the hotel’s website indicated in the listing
 
 #### Source
 
-main.ts:203388
+main.ts:204460

@@ -102,7 +102,7 @@ Successful operation
 
 #### Source
 
-main.ts:15381
+main.ts:15418
 
 ***
 
@@ -126,7 +126,7 @@ Successful operation
 
 #### Source
 
-main.ts:15424
+main.ts:15461
 
 ***
 
@@ -148,7 +148,7 @@ Successful operation
 
 #### Source
 
-main.ts:15300
+main.ts:15337
 
 ***
 
@@ -164,7 +164,7 @@ Successful operation
 
 #### Source
 
-main.ts:15341
+main.ts:15378
 
 ***
 
@@ -188,7 +188,7 @@ Successful operation
 
 #### Source
 
-main.ts:15216
+main.ts:15253
 
 ***
 
@@ -212,7 +212,7 @@ Successful operation
 
 #### Source
 
-main.ts:15259
+main.ts:15296
 
 ***
 
@@ -234,7 +234,7 @@ Successful operation
 
 #### Source
 
-main.ts:15135
+main.ts:15172
 
 ***
 
@@ -250,7 +250,7 @@ Successful operation
 
 #### Source
 
-main.ts:15176
+main.ts:15213
 
 ***
 
@@ -274,7 +274,7 @@ Successful operation
 
 #### Source
 
-main.ts:15711
+main.ts:15748
 
 ***
 
@@ -298,7 +298,7 @@ Successful operation
 
 #### Source
 
-main.ts:15754
+main.ts:15791
 
 ***
 
@@ -320,7 +320,7 @@ Successful operation
 
 #### Source
 
-main.ts:15630
+main.ts:15667
 
 ***
 
@@ -336,7 +336,7 @@ Successful operation
 
 #### Source
 
-main.ts:15671
+main.ts:15708
 
 ***
 
@@ -360,7 +360,7 @@ Successful operation
 
 #### Source
 
-main.ts:15546
+main.ts:15583
 
 ***
 
@@ -384,7 +384,7 @@ Successful operation
 
 #### Source
 
-main.ts:15589
+main.ts:15626
 
 ***
 
@@ -406,7 +406,7 @@ Successful operation
 
 #### Source
 
-main.ts:15465
+main.ts:15502
 
 ***
 
@@ -422,7 +422,7 @@ Successful operation
 
 #### Source
 
-main.ts:15506
+main.ts:15543
 
 ***
 
@@ -446,7 +446,7 @@ Successful operation
 
 #### Source
 
-main.ts:14933
+main.ts:14970
 
 ***
 
@@ -468,7 +468,7 @@ Successful operation
 
 #### Source
 
-main.ts:14852
+main.ts:14889
 
 ***
 
@@ -484,7 +484,7 @@ Successful operation
 
 #### Source
 
-main.ts:14893
+main.ts:14930
 
 ***
 
@@ -508,7 +508,7 @@ Successful operation
 
 #### Source
 
-main.ts:14768
+main.ts:14805
 
 ***
 
@@ -532,7 +532,7 @@ Successful operation
 
 #### Source
 
-main.ts:14811
+main.ts:14848
 
 ***
 
@@ -554,7 +554,7 @@ Successful operation
 
 #### Source
 
-main.ts:14687
+main.ts:14724
 
 ***
 
@@ -570,7 +570,7 @@ Successful operation
 
 #### Source
 
-main.ts:14728
+main.ts:14765
 
 ***
 
@@ -594,7 +594,7 @@ Successful operation
 
 #### Source
 
-main.ts:14438
+main.ts:14475
 
 ***
 
@@ -618,7 +618,7 @@ Successful operation
 
 #### Source
 
-main.ts:14481
+main.ts:14518
 
 ***
 
@@ -679,7 +679,7 @@ Successful operation
 
 #### Source
 
-main.ts:14975
+main.ts:15012
 
 ***
 
@@ -703,7 +703,7 @@ Successful operation
 
 #### Source
 
-main.ts:14603
+main.ts:14640
 
 ***
 
@@ -727,7 +727,7 @@ Successful operation
 
 #### Source
 
-main.ts:14646
+main.ts:14683
 
 ***
 
@@ -749,7 +749,7 @@ Successful operation
 
 #### Source
 
-main.ts:14522
+main.ts:14559
 
 ***
 
@@ -765,7 +765,7 @@ Successful operation
 
 #### Source
 
-main.ts:14563
+main.ts:14600
 
 ***
 
@@ -781,7 +781,7 @@ Successful operation
 
 #### Source
 
-main.ts:15097
+main.ts:15134
 
 ***
 
@@ -797,7 +797,7 @@ Successful operation
 
 #### Source
 
-main.ts:15015
+main.ts:15052
 
 ***
 
@@ -823,7 +823,7 @@ Successful operation
 
 #### Source
 
-main.ts:15057
+main.ts:15094
 
 ***
 
@@ -929,6 +929,22 @@ main.ts:14154
 
 ***
 
+### merchantTasksReady()
+
+> **merchantTasksReady**(): `Promise`\<[`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:14435
+
+***
+
 ### processAmazonAsinTaskGetAdvanced()
 
 > **`protected`** **processAmazonAsinTaskGetAdvanced**(`response`): `Promise`\<[`MerchantAmazonAsinTaskGetAdvancedResponseInfo`](MerchantAmazonAsinTaskGetAdvancedResponseInfo.md)\>
@@ -943,7 +959,7 @@ main.ts:14154
 
 #### Source
 
-main.ts:15400
+main.ts:15437
 
 ***
 
@@ -961,7 +977,7 @@ main.ts:15400
 
 #### Source
 
-main.ts:15443
+main.ts:15480
 
 ***
 
@@ -979,7 +995,7 @@ main.ts:15443
 
 #### Source
 
-main.ts:15320
+main.ts:15357
 
 ***
 
@@ -997,7 +1013,7 @@ main.ts:15320
 
 #### Source
 
-main.ts:15357
+main.ts:15394
 
 ***
 
@@ -1015,7 +1031,7 @@ main.ts:15357
 
 #### Source
 
-main.ts:15235
+main.ts:15272
 
 ***
 
@@ -1033,7 +1049,7 @@ main.ts:15235
 
 #### Source
 
-main.ts:15278
+main.ts:15315
 
 ***
 
@@ -1051,7 +1067,7 @@ main.ts:15278
 
 #### Source
 
-main.ts:15155
+main.ts:15192
 
 ***
 
@@ -1069,7 +1085,7 @@ main.ts:15155
 
 #### Source
 
-main.ts:15192
+main.ts:15229
 
 ***
 
@@ -1087,7 +1103,7 @@ main.ts:15192
 
 #### Source
 
-main.ts:15730
+main.ts:15767
 
 ***
 
@@ -1105,7 +1121,7 @@ main.ts:15730
 
 #### Source
 
-main.ts:15773
+main.ts:15810
 
 ***
 
@@ -1123,7 +1139,7 @@ main.ts:15773
 
 #### Source
 
-main.ts:15650
+main.ts:15687
 
 ***
 
@@ -1141,7 +1157,7 @@ main.ts:15650
 
 #### Source
 
-main.ts:15687
+main.ts:15724
 
 ***
 
@@ -1159,7 +1175,7 @@ main.ts:15687
 
 #### Source
 
-main.ts:15565
+main.ts:15602
 
 ***
 
@@ -1177,7 +1193,7 @@ main.ts:15565
 
 #### Source
 
-main.ts:15608
+main.ts:15645
 
 ***
 
@@ -1195,7 +1211,7 @@ main.ts:15608
 
 #### Source
 
-main.ts:15485
+main.ts:15522
 
 ***
 
@@ -1213,7 +1229,7 @@ main.ts:15485
 
 #### Source
 
-main.ts:15522
+main.ts:15559
 
 ***
 
@@ -1231,7 +1247,7 @@ main.ts:15522
 
 #### Source
 
-main.ts:14952
+main.ts:14989
 
 ***
 
@@ -1249,7 +1265,7 @@ main.ts:14952
 
 #### Source
 
-main.ts:14872
+main.ts:14909
 
 ***
 
@@ -1267,7 +1283,7 @@ main.ts:14872
 
 #### Source
 
-main.ts:14909
+main.ts:14946
 
 ***
 
@@ -1285,7 +1301,7 @@ main.ts:14909
 
 #### Source
 
-main.ts:14787
+main.ts:14824
 
 ***
 
@@ -1303,7 +1319,7 @@ main.ts:14787
 
 #### Source
 
-main.ts:14830
+main.ts:14867
 
 ***
 
@@ -1321,7 +1337,7 @@ main.ts:14830
 
 #### Source
 
-main.ts:14707
+main.ts:14744
 
 ***
 
@@ -1339,7 +1355,7 @@ main.ts:14707
 
 #### Source
 
-main.ts:14744
+main.ts:14781
 
 ***
 
@@ -1357,7 +1373,7 @@ main.ts:14744
 
 #### Source
 
-main.ts:14457
+main.ts:14494
 
 ***
 
@@ -1375,7 +1391,7 @@ main.ts:14457
 
 #### Source
 
-main.ts:14500
+main.ts:14537
 
 ***
 
@@ -1429,7 +1445,7 @@ main.ts:14414
 
 #### Source
 
-main.ts:14994
+main.ts:15031
 
 ***
 
@@ -1447,7 +1463,7 @@ main.ts:14994
 
 #### Source
 
-main.ts:14622
+main.ts:14659
 
 ***
 
@@ -1465,7 +1481,7 @@ main.ts:14622
 
 #### Source
 
-main.ts:14665
+main.ts:14702
 
 ***
 
@@ -1483,7 +1499,7 @@ main.ts:14665
 
 #### Source
 
-main.ts:14542
+main.ts:14579
 
 ***
 
@@ -1501,7 +1517,7 @@ main.ts:14542
 
 #### Source
 
-main.ts:14579
+main.ts:14616
 
 ***
 
@@ -1519,7 +1535,7 @@ main.ts:14579
 
 #### Source
 
-main.ts:15113
+main.ts:15150
 
 ***
 
@@ -1537,7 +1553,7 @@ main.ts:15113
 
 #### Source
 
-main.ts:15031
+main.ts:15068
 
 ***
 
@@ -1555,7 +1571,7 @@ main.ts:15031
 
 #### Source
 
-main.ts:15076
+main.ts:15113
 
 ***
 
@@ -1646,3 +1662,21 @@ main.ts:14335
 #### Source
 
 main.ts:14174
+
+***
+
+### processMerchantTasksReady()
+
+> **`protected`** **processMerchantTasksReady**(`response`): `Promise`\<[`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)\>
+
+#### Source
+
+main.ts:14451

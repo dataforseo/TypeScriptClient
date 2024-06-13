@@ -24,7 +24,7 @@ converted currency
 
 #### Source
 
-main.ts:35481
+main.ts:35637
 
 ***
 
@@ -38,7 +38,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Source
 
-main.ts:35476
+main.ts:35632
 
 ***
 
@@ -51,7 +51,7 @@ ISO code of the currency applied to the price
 
 #### Source
 
-main.ts:35479
+main.ts:35635
 
 ***
 
@@ -63,7 +63,7 @@ contains data provided in the graph of the element
 
 #### Source
 
-main.ts:35491
+main.ts:35647
 
 ***
 
@@ -77,7 +77,7 @@ left, right
 
 #### Source
 
-main.ts:35468
+main.ts:35624
 
 ***
 
@@ -91,7 +91,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:35464
+main.ts:35620
 
 ***
 
@@ -106,7 +106,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:35460
+main.ts:35616
 
 ***
 
@@ -120,7 +120,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:35495
+main.ts:35651
 
 ***
 
@@ -133,7 +133,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:35489
+main.ts:35645
 
 ***
 
@@ -148,7 +148,7 @@ example:
 
 #### Source
 
-main.ts:35486
+main.ts:35642
 
 ***
 
@@ -160,7 +160,7 @@ the value of the rating
 
 #### Source
 
-main.ts:35472
+main.ts:35628
 
 ***
 
@@ -172,4 +172,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:35470
+main.ts:35626

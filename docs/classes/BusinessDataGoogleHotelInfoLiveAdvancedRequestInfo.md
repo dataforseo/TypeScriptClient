@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:204465
+main.ts:205537
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:204447
+main.ts:205519
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Source
 
-main.ts:204427
+main.ts:205499
 
 ***
 
@@ -95,7 +95,7 @@ example:
 
 #### Source
 
-main.ts:204436
+main.ts:205508
 
 ***
 
@@ -117,7 +117,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Source
 
-main.ts:204455
+main.ts:205527
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Source
 
-main.ts:204441
+main.ts:205513
 
 ***
 
@@ -157,7 +157,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Source
 
-main.ts:204382
+main.ts:205454
 
 ***
 
@@ -178,7 +178,7 @@ en
 
 #### Source
 
-main.ts:204419
+main.ts:205491
 
 ***
 
@@ -199,7 +199,7 @@ English
 
 #### Source
 
-main.ts:204412
+main.ts:205484
 
 ***
 
@@ -220,7 +220,7 @@ example:
 
 #### Source
 
-main.ts:204396
+main.ts:205468
 
 ***
 
@@ -243,7 +243,7 @@ example:
 
 #### Source
 
-main.ts:204405
+main.ts:205477
 
 ***
 
@@ -264,7 +264,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:204389
+main.ts:205461
 
 ***
 
@@ -284,7 +284,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:204461
+main.ts:205533
 
 ## Methods
 
@@ -302,7 +302,7 @@ main.ts:204461
 
 #### Source
 
-main.ts:204474
+main.ts:205546
 
 ***
 
@@ -320,7 +320,7 @@ main.ts:204474
 
 #### Source
 
-main.ts:204506
+main.ts:205578
 
 ***
 
@@ -338,4 +338,4 @@ main.ts:204506
 
 #### Source
 
-main.ts:204499
+main.ts:205571

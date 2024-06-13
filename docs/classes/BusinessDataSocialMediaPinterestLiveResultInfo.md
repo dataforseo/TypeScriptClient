@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:212222
+main.ts:213366
 
 ## Properties
 
@@ -47,7 +47,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Source
 
-main.ts:212214
+main.ts:213358
 
 ***
 
@@ -65,7 +65,7 @@ this field shows the number of content saves made from the related page_url usin
 
 #### Source
 
-main.ts:212218
+main.ts:213362
 
 ***
 
@@ -81,7 +81,7 @@ type of element
 
 #### Source
 
-main.ts:212211
+main.ts:213355
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:212211
 
 #### Source
 
-main.ts:212231
+main.ts:213375
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:212231
 
 #### Source
 
-main.ts:212250
+main.ts:213394
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:212250
 
 #### Source
 
-main.ts:212243
+main.ts:213387

@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:185654
+main.ts:186514
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:185659
+main.ts:186519
 
 ***
 
@@ -48,7 +48,7 @@ found apps
 
 #### Source
 
-main.ts:185665
+main.ts:186525
 
 ***
 
@@ -60,7 +60,7 @@ the number of items in the results array
 
 #### Source
 
-main.ts:185663
+main.ts:186523
 
 ***
 
@@ -72,7 +72,7 @@ keyword received in a POST request
 
 #### Source
 
-main.ts:185645
+main.ts:186505
 
 ***
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:185651
+main.ts:186511
 
 ***
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:185649
+main.ts:186509
 
 ***
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:185647
+main.ts:186507
 
 ***
 
@@ -120,4 +120,4 @@ the total number of results
 
 #### Source
 
-main.ts:185661
+main.ts:186521

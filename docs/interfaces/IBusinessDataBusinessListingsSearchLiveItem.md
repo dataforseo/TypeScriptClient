@@ -21,7 +21,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:197079
+main.ts:197955
 
 ***
 
@@ -33,7 +33,7 @@ address of the business entity
 
 #### Source
 
-main.ts:197088
+main.ts:197964
 
 ***
 
@@ -45,7 +45,7 @@ object containing address components of the business entity
 
 #### Source
 
-main.ts:197090
+main.ts:197966
 
 ***
 
@@ -58,7 +58,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Source
 
-main.ts:197121
+main.ts:197997
 
 ***
 
@@ -71,7 +71,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:197073
+main.ts:197949
 
 ***
 
@@ -84,7 +84,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:197076
+main.ts:197952
 
 ***
 
@@ -97,7 +97,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:197158
+main.ts:198036
 
 ***
 
@@ -111,7 +111,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:197083
+main.ts:197959
 
 ***
 
@@ -124,7 +124,7 @@ list of contacts to interact with the business
 
 #### Source
 
-main.ts:197155
+main.ts:198033
 
 ***
 
@@ -137,7 +137,7 @@ the description of the business entity for which the results are collected
 
 #### Source
 
-main.ts:197070
+main.ts:197946
 
 ***
 
@@ -149,7 +149,7 @@ domain of the business entity
 
 #### Source
 
-main.ts:197100
+main.ts:197976
 
 ***
 
@@ -162,7 +162,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:197086
+main.ts:197962
 
 ***
 
@@ -176,7 +176,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Source
 
-main.ts:197136
+main.ts:198012
 
 ***
 
@@ -188,7 +188,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Source
 
-main.ts:197118
+main.ts:197994
 
 ***
 
@@ -203,7 +203,7 @@ example:
 
 #### Source
 
-main.ts:197163
+main.ts:198041
 
 ***
 
@@ -217,7 +217,7 @@ example:
 
 #### Source
 
-main.ts:197112
+main.ts:197988
 
 ***
 
@@ -225,9 +225,12 @@ main.ts:197112
 
 > **`optional`** **local\_business\_links**: [`BaseLocalBusinessLink`](../classes/BaseLocalBusinessLink.md)[]
 
+available interactions with the business
+list of options to interact with the business directly from search results
+
 #### Source
 
-main.ts:197152
+main.ts:198030
 
 ***
 
@@ -239,7 +242,7 @@ URL of the logo featured in Google My Business profile
 
 #### Source
 
-main.ts:197102
+main.ts:197978
 
 ***
 
@@ -253,7 +256,7 @@ example:
 
 #### Source
 
-main.ts:197116
+main.ts:197992
 
 ***
 
@@ -265,7 +268,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:197104
+main.ts:197980
 
 ***
 
@@ -277,7 +280,7 @@ related business entities
 
 #### Source
 
-main.ts:197145
+main.ts:198021
 
 ***
 
@@ -289,7 +292,7 @@ phone number of the business entity
 
 #### Source
 
-main.ts:197096
+main.ts:197972
 
 ***
 
@@ -303,7 +306,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:197094
+main.ts:197970
 
 ***
 
@@ -325,7 +328,7 @@ example:
 
 #### Source
 
-main.ts:197129
+main.ts:198005
 
 ***
 
@@ -338,7 +341,7 @@ information related to busy hours of the business entity
 
 #### Source
 
-main.ts:197151
+main.ts:198027
 
 ***
 
@@ -352,7 +355,7 @@ if there is no price level information, the value will be null
 
 #### Source
 
-main.ts:197140
+main.ts:198016
 
 ***
 
@@ -365,7 +368,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:197132
+main.ts:198008
 
 ***
 
@@ -382,7 +385,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:197143
+main.ts:198019
 
 ***
 
@@ -394,7 +397,7 @@ additional information on the business entity
 
 #### Source
 
-main.ts:197108
+main.ts:197984
 
 ***
 
@@ -407,7 +410,7 @@ the name of the business entity for which the results are collected
 
 #### Source
 
-main.ts:197067
+main.ts:197943
 
 ***
 
@@ -419,7 +422,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:197106
+main.ts:197982
 
 ***
 
@@ -431,7 +434,7 @@ type of element
 
 #### Source
 
-main.ts:197064
+main.ts:197940
 
 ***
 
@@ -443,7 +446,7 @@ absolute url of the business entity
 
 #### Source
 
-main.ts:197098
+main.ts:197974
 
 ***
 
@@ -456,4 +459,4 @@ information related to operational hours of the business entity
 
 #### Source
 
-main.ts:197148
+main.ts:198024

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:125219
+main.ts:125499
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:125206
+main.ts:125486
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:125211
+main.ts:125491
 
 ***
 
@@ -82,7 +82,7 @@ items on the Google Trends page
 
 #### Source
 
-main.ts:125215
+main.ts:125495
 
 ***
 
@@ -98,7 +98,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:125213
+main.ts:125493
 
 ***
 
@@ -114,7 +114,7 @@ keywords in a POST array
 
 #### Source
 
-main.ts:125195
+main.ts:125475
 
 ***
 
@@ -131,7 +131,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:125203
+main.ts:125483
 
 ***
 
@@ -148,7 +148,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:125200
+main.ts:125480
 
 ***
 
@@ -164,7 +164,7 @@ type of element
 
 #### Source
 
-main.ts:125197
+main.ts:125477
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:125197
 
 #### Source
 
-main.ts:125228
+main.ts:125508
 
 ***
 
@@ -200,7 +200,7 @@ main.ts:125228
 
 #### Source
 
-main.ts:125260
+main.ts:125540
 
 ***
 
@@ -218,4 +218,4 @@ main.ts:125260
 
 #### Source
 
-main.ts:125253
+main.ts:125533

@@ -20,7 +20,7 @@ description
 
 #### Source
 
-main.ts:34832
+main.ts:34988
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Source
 
-main.ts:34830
+main.ts:34986
 
 ***
 
@@ -44,7 +44,7 @@ URL of the image featured in the element
 
 #### Source
 
-main.ts:34837
+main.ts:34993
 
 ***
 
@@ -57,7 +57,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:34835
+main.ts:34991
 
 ***
 
@@ -69,7 +69,7 @@ title of a given link element
 
 #### Source
 
-main.ts:34826
+main.ts:34982
 
 ***
 
@@ -81,7 +81,7 @@ type of element
 
 #### Source
 
-main.ts:34824
+main.ts:34980
 
 ***
 
@@ -93,4 +93,4 @@ URL
 
 #### Source
 
-main.ts:34828
+main.ts:34984

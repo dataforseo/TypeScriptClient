@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:152042
+main.ts:152322
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates whether the page is cacheable
 
 #### Source
 
-main.ts:152035
+main.ts:152315
 
 ***
 
@@ -63,7 +63,7 @@ the amount of time the browser caches a resource
 
 #### Source
 
-main.ts:152038
+main.ts:152318
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:152038
 
 #### Source
 
-main.ts:152051
+main.ts:152331
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:152051
 
 #### Source
 
-main.ts:152069
+main.ts:152349
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:152069
 
 #### Source
 
-main.ts:152062
+main.ts:152342

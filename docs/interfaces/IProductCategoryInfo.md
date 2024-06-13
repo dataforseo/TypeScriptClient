@@ -20,7 +20,7 @@ product category name
 
 #### Source
 
-main.ts:180188
+main.ts:180650
 
 ***
 
@@ -33,4 +33,4 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 #### Source
 
-main.ts:180191
+main.ts:180653

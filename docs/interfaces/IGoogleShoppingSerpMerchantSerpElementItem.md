@@ -29,7 +29,7 @@ you can get more details about the product by using this object in the POST requ
 
 #### Source
 
-main.ts:172648
+main.ts:173110
 
 ***
 
@@ -43,7 +43,7 @@ USD
 
 #### Source
 
-main.ts:172630
+main.ts:173092
 
 ***
 
@@ -58,7 +58,7 @@ example:
 
 #### Source
 
-main.ts:172642
+main.ts:173104
 
 ***
 
@@ -71,7 +71,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:172671
+main.ts:173133
 
 ***
 
@@ -83,7 +83,7 @@ description of the product in Google Shopping SERP
 
 #### Source
 
-main.ts:172611
+main.ts:173073
 
 ***
 
@@ -95,7 +95,7 @@ domain in SERP
 
 #### Source
 
-main.ts:172607
+main.ts:173069
 
 ***
 
@@ -109,7 +109,7 @@ if there are no values, you will get null
 
 #### Source
 
-main.ts:172656
+main.ts:173118
 
 ***
 
@@ -124,7 +124,7 @@ example:
 
 #### Source
 
-main.ts:172626
+main.ts:173088
 
 ***
 
@@ -138,7 +138,7 @@ left, right
 
 #### Source
 
-main.ts:172603
+main.ts:173065
 
 ***
 
@@ -152,7 +152,7 @@ example:
 
 #### Source
 
-main.ts:172621
+main.ts:173083
 
 ***
 
@@ -169,7 +169,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:172637
+main.ts:173099
 
 ***
 
@@ -182,7 +182,7 @@ the first URL in the array is the featured image of the product
 
 #### Source
 
-main.ts:172665
+main.ts:173127
 
 ***
 
@@ -195,7 +195,7 @@ the product popularity rate based on product reviews
 
 #### Source
 
-main.ts:172659
+main.ts:173121
 
 ***
 
@@ -208,7 +208,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Source
 
-main.ts:172599
+main.ts:173061
 
 ***
 
@@ -221,7 +221,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:172596
+main.ts:173058
 
 ***
 
@@ -235,7 +235,7 @@ if there are no values, you will get null
 
 #### Source
 
-main.ts:172652
+main.ts:173114
 
 ***
 
@@ -248,7 +248,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Source
 
-main.ts:172645
+main.ts:173107
 
 ***
 
@@ -261,7 +261,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Source
 
-main.ts:172668
+main.ts:173130
 
 ***
 
@@ -274,7 +274,7 @@ the popularity rate of the seller based on user reviews
 
 #### Source
 
-main.ts:172662
+main.ts:173124
 
 ***
 
@@ -286,7 +286,7 @@ URL to the product page on Google Shopping
 
 #### Source
 
-main.ts:172615
+main.ts:173077
 
 ***
 
@@ -299,7 +299,7 @@ contains information about the number of stores that offer the same product
 
 #### Source
 
-main.ts:172674
+main.ts:173136
 
 ***
 
@@ -311,7 +311,7 @@ tags assigned to the product
 
 #### Source
 
-main.ts:172617
+main.ts:173079
 
 ***
 
@@ -323,7 +323,7 @@ title of the element
 
 #### Source
 
-main.ts:172609
+main.ts:173071
 
 ***
 
@@ -335,7 +335,7 @@ URL to the product page on the seller’s website
 
 #### Source
 
-main.ts:172613
+main.ts:173075
 
 ***
 
@@ -347,4 +347,4 @@ XPath of the element
 
 #### Source
 
-main.ts:172605
+main.ts:173067

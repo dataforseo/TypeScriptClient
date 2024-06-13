@@ -28,7 +28,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:41709
+main.ts:41977
 
 ***
 
@@ -43,7 +43,7 @@ default value: desktop
 
 #### Source
 
-main.ts:41692
+main.ts:41960
 
 ***
 
@@ -60,7 +60,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:41641
+main.ts:41909
 
 ***
 
@@ -76,7 +76,7 @@ example:en
 
 #### Source
 
-main.ts:41687
+main.ts:41955
 
 ***
 
@@ -93,7 +93,7 @@ English
 
 #### Source
 
-main.ts:41681
+main.ts:41949
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Source
 
-main.ts:41663
+main.ts:41931
 
 ***
 
@@ -122,7 +122,7 @@ GPS coordinates of a location
 required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
 location_coordinate parameter should be specified in the “latitude,longitude,zoom” format
-if “zoom” is not specified, 17z will be applied as a default value
+if “zoom” is not specified, 9z will be applied as a default value
 the maximum number of decimal digits for “latitude” and “longitude”: 7
 the minimum value for “zoom”: 4z
 the maximum value for “zoom”: 18z
@@ -131,7 +131,7 @@ example:
 
 #### Source
 
-main.ts:41674
+main.ts:41942
 
 ***
 
@@ -148,7 +148,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:41656
+main.ts:41924
 
 ***
 
@@ -163,7 +163,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Source
 
-main.ts:41714
+main.ts:41982
 
 ***
 
@@ -180,7 +180,7 @@ default value: android
 
 #### Source
 
-main.ts:41699
+main.ts:41967
 
 ***
 
@@ -200,7 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:41755
+main.ts:42023
 
 ***
 
@@ -216,7 +216,7 @@ advanced, html
 
 #### Source
 
-main.ts:41745
+main.ts:42013
 
 ***
 
@@ -236,7 +236,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:41739
+main.ts:42007
 
 ***
 
@@ -254,7 +254,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:41649
+main.ts:41917
 
 ***
 
@@ -270,7 +270,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:41729
+main.ts:41997
 
 ***
 
@@ -289,4 +289,4 @@ example: "tuesday;18"
 
 #### Source
 
-main.ts:41723
+main.ts:41991

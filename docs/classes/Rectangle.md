@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:21409
+main.ts:21563
 
 ## Properties
 
@@ -46,7 +46,7 @@ height of the element in pixels
 
 #### Source
 
-main.ts:21405
+main.ts:21559
 
 ***
 
@@ -62,7 +62,7 @@ width of the element in pixels
 
 #### Source
 
-main.ts:21403
+main.ts:21557
 
 ***
 
@@ -79,7 +79,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Source
 
-main.ts:21398
+main.ts:21552
 
 ***
 
@@ -96,7 +96,7 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Source
 
-main.ts:21401
+main.ts:21555
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:21401
 
 #### Source
 
-main.ts:21418
+main.ts:21572
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:21418
 
 #### Source
 
-main.ts:21438
+main.ts:21592
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:21438
 
 #### Source
 
-main.ts:21431
+main.ts:21585

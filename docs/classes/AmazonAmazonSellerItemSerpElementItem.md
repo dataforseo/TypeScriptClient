@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:182041
+main.ts:182503
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:182041
 
 #### Source
 
-main.ts:21306
+main.ts:21460
 
 ***
 
@@ -69,7 +69,7 @@ condition of the product offered by the seller
 
 #### Source
 
-main.ts:182031
+main.ts:182493
 
 ***
 
@@ -86,7 +86,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Source
 
-main.ts:182034
+main.ts:182496
 
 ***
 
@@ -103,7 +103,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:182037
+main.ts:182499
 
 ***
 
@@ -121,7 +121,7 @@ left, right
 
 #### Source
 
-main.ts:182014
+main.ts:182476
 
 ***
 
@@ -138,7 +138,7 @@ if there are no details, the value will be null
 
 #### Source
 
-main.ts:182025
+main.ts:182487
 
 ***
 
@@ -155,7 +155,7 @@ absolute position among all the elements found in Amazon Sellers SERP
 
 #### Source
 
-main.ts:182010
+main.ts:182472
 
 ***
 
@@ -172,7 +172,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:182007
+main.ts:182469
 
 ***
 
@@ -189,7 +189,7 @@ seller popularity rate based on customer reviews
 
 #### Source
 
-main.ts:182028
+main.ts:182490
 
 ***
 
@@ -205,7 +205,7 @@ business name of the seller
 
 #### Source
 
-main.ts:182018
+main.ts:182480
 
 ***
 
@@ -221,7 +221,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Source
 
-main.ts:182020
+main.ts:182482
 
 ***
 
@@ -237,7 +237,7 @@ sender company name
 
 #### Source
 
-main.ts:182022
+main.ts:182484
 
 ***
 
@@ -253,7 +253,7 @@ XPath of the element
 
 #### Source
 
-main.ts:182016
+main.ts:182478
 
 ## Methods
 
@@ -275,7 +275,7 @@ main.ts:182016
 
 #### Source
 
-main.ts:182046
+main.ts:182508
 
 ***
 
@@ -297,7 +297,7 @@ main.ts:182046
 
 #### Source
 
-main.ts:182075
+main.ts:182537
 
 ***
 
@@ -319,4 +319,4 @@ main.ts:182075
 
 #### Source
 
-main.ts:182068
+main.ts:182530

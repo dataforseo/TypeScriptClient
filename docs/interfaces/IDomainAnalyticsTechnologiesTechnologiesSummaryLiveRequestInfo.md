@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:76729
+main.ts:77010
 
 ***
 
@@ -49,7 +49,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:76764
+main.ts:77044
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:76722
+main.ts:77003
 
 ***
 
@@ -83,7 +83,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76771
+main.ts:77051
 
 ***
 
@@ -94,13 +94,12 @@ main.ts:76771
 target keywords in the domain’s title, description or meta keywords
 optional field
 UTF-8 encoding
-each keyword should be at least 3 characters long
 example:
 ["seo","software"]
 
 #### Source
 
-main.ts:76743
+main.ts:77023
 
 ***
 
@@ -117,7 +116,7 @@ default value: as_is
 
 #### Source
 
-main.ts:76750
+main.ts:77030
 
 ***
 
@@ -133,7 +132,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:76777
+main.ts:77057
 
 ***
 
@@ -150,7 +149,7 @@ example:
 
 #### Source
 
-main.ts:76736
+main.ts:77017
 
 ***
 
@@ -169,4 +168,4 @@ example:
 
 #### Source
 
-main.ts:76715
+main.ts:76996

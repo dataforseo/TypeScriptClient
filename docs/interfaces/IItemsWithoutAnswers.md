@@ -21,7 +21,7 @@ items within google_business_question_item
 
 #### Source
 
-main.ts:206986
+main.ts:208130
 
 ***
 
@@ -33,7 +33,7 @@ original text of the question
 
 #### Source
 
-main.ts:206979
+main.ts:208123
 
 ***
 
@@ -45,7 +45,7 @@ URL of the user’s profile image
 
 #### Source
 
-main.ts:206971
+main.ts:208115
 
 ***
 
@@ -57,7 +57,7 @@ displayed name of the user
 
 #### Source
 
-main.ts:206975
+main.ts:208119
 
 ***
 
@@ -69,7 +69,7 @@ URL of the user’s profile
 
 #### Source
 
-main.ts:206973
+main.ts:208117
 
 ***
 
@@ -81,7 +81,7 @@ ID of the question
 
 #### Source
 
-main.ts:206967
+main.ts:208111
 
 ***
 
@@ -93,7 +93,7 @@ current text of the question
 
 #### Source
 
-main.ts:206977
+main.ts:208121
 
 ***
 
@@ -105,7 +105,7 @@ absolute rank among all the elements
 
 #### Source
 
-main.ts:206965
+main.ts:208109
 
 ***
 
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:206963
+main.ts:208107
 
 ***
 
@@ -130,7 +130,7 @@ estimated time when the question was posted
 
 #### Source
 
-main.ts:206981
+main.ts:208125
 
 ***
 
@@ -142,7 +142,7 @@ exact time when the question was posted
 
 #### Source
 
-main.ts:206983
+main.ts:208127
 
 ***
 
@@ -154,7 +154,7 @@ type of element
 
 #### Source
 
-main.ts:206960
+main.ts:208104
 
 ***
 
@@ -166,4 +166,4 @@ URL of the question
 
 #### Source
 
-main.ts:206969
+main.ts:208113

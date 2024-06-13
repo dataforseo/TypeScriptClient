@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:101898
+main.ts:102178
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of items with relevant traffic estimation data
 
 #### Source
 
-main.ts:101894
+main.ts:102174
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:101892
+main.ts:102172
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:101888
+main.ts:102168
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:101885
+main.ts:102165
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Source
 
-main.ts:101882
+main.ts:102162
 
 ***
 
@@ -128,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:101890
+main.ts:102170
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:101890
 
 #### Source
 
-main.ts:101907
+main.ts:102187
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:101907
 
 #### Source
 
-main.ts:101933
+main.ts:102213
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:101933
 
 #### Source
 
-main.ts:101926
+main.ts:102206

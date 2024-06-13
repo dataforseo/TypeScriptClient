@@ -24,7 +24,7 @@ age rating and age-based content advisories
 
 #### Source
 
-main.ts:192397
+main.ts:193267
 
 ***
 
@@ -36,7 +36,7 @@ ID of the app
 
 #### Source
 
-main.ts:192373
+main.ts:193243
 
 ***
 
@@ -48,7 +48,7 @@ all relevant categories/genres of the app
 
 #### Source
 
-main.ts:192393
+main.ts:193263
 
 ***
 
@@ -60,7 +60,7 @@ description of the app
 
 #### Source
 
-main.ts:192381
+main.ts:193251
 
 ***
 
@@ -72,7 +72,7 @@ name of the app developer
 
 #### Source
 
-main.ts:192399
+main.ts:193269
 
 ***
 
@@ -84,7 +84,7 @@ ID of the app developer
 
 #### Source
 
-main.ts:192401
+main.ts:193271
 
 ***
 
@@ -96,7 +96,7 @@ URL to the developer page on App Store
 
 #### Source
 
-main.ts:192403
+main.ts:193273
 
 ***
 
@@ -108,7 +108,7 @@ URL to the app icon
 
 #### Source
 
-main.ts:192379
+main.ts:193249
 
 ***
 
@@ -121,7 +121,7 @@ contains URLs to the images used on the app page on App Store
 
 #### Source
 
-main.ts:192425
+main.ts:193295
 
 ***
 
@@ -133,7 +133,7 @@ indicates whether the app is free
 
 #### Source
 
-main.ts:192389
+main.ts:193259
 
 ***
 
@@ -145,7 +145,7 @@ languages supported in the app
 
 #### Source
 
-main.ts:192395
+main.ts:193265
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Source
 
-main.ts:192419
+main.ts:193289
 
 ***
 
@@ -172,7 +172,7 @@ main category/genre of the app
 
 #### Source
 
-main.ts:192391
+main.ts:193261
 
 ***
 
@@ -184,7 +184,7 @@ minimum OS version required to install the app
 
 #### Source
 
-main.ts:192407
+main.ts:193277
 
 ***
 
@@ -197,7 +197,7 @@ information about apps built by the same developer
 
 #### Source
 
-main.ts:192431
+main.ts:193301
 
 ***
 
@@ -210,7 +210,7 @@ can take the following values: left
 
 #### Source
 
-main.ts:192371
+main.ts:193241
 
 ***
 
@@ -222,7 +222,7 @@ price of the app
 
 #### Source
 
-main.ts:192387
+main.ts:193257
 
 ***
 
@@ -235,7 +235,7 @@ absolute position among all apps on the list
 
 #### Source
 
-main.ts:192368
+main.ts:193238
 
 ***
 
@@ -248,7 +248,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:192365
+main.ts:193235
 
 ***
 
@@ -260,7 +260,7 @@ average rating of the app
 
 #### Source
 
-main.ts:192385
+main.ts:193255
 
 ***
 
@@ -275,7 +275,7 @@ example:
 
 #### Source
 
-main.ts:192414
+main.ts:193284
 
 ***
 
@@ -287,7 +287,7 @@ the total number of reviews of the app
 
 #### Source
 
-main.ts:192383
+main.ts:193253
 
 ***
 
@@ -300,7 +300,7 @@ displays apps similar to the app in a POST request
 
 #### Source
 
-main.ts:192428
+main.ts:193298
 
 ***
 
@@ -312,7 +312,7 @@ size of the app
 
 #### Source
 
-main.ts:192409
+main.ts:193279
 
 ***
 
@@ -324,7 +324,7 @@ title of the app
 
 #### Source
 
-main.ts:192375
+main.ts:193245
 
 ***
 
@@ -337,7 +337,7 @@ contains the latest update notes from the developer
 
 #### Source
 
-main.ts:192422
+main.ts:193292
 
 ***
 
@@ -349,7 +349,7 @@ URL to the app page on App Store
 
 #### Source
 
-main.ts:192377
+main.ts:193247
 
 ***
 
@@ -361,4 +361,4 @@ current version of the app
 
 #### Source
 
-main.ts:192405
+main.ts:193275

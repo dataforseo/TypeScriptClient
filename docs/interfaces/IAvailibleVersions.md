@@ -21,7 +21,7 @@ if false, the version is not used by default and should be specified in the corr
 
 #### Source
 
-main.ts:161722
+main.ts:161986
 
 ***
 
@@ -33,4 +33,4 @@ lighthouse version
 
 #### Source
 
-main.ts:161719
+main.ts:161983

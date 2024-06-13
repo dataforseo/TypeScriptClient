@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:29396
+main.ts:29553
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:29382
+main.ts:29540
 
 ***
 
@@ -62,7 +62,7 @@ domain where a link points
 
 #### Source
 
-main.ts:29378
+main.ts:29536
 
 ***
 
@@ -78,7 +78,7 @@ the title of the featured snippets source page
 
 #### Source
 
-main.ts:29374
+main.ts:29532
 
 ***
 
@@ -94,7 +94,7 @@ images of the element
 
 #### Source
 
-main.ts:29384
+main.ts:29542
 
 ***
 
@@ -102,8 +102,7 @@ main.ts:29384
 
 > **`optional`** **table**: [`Table`](Table.md)
 
-results table
-if there are none, equals null
+table element
 
 #### Implementation of
 
@@ -111,7 +110,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:29392
+main.ts:29549
 
 ***
 
@@ -130,7 +129,7 @@ example:
 
 #### Source
 
-main.ts:29389
+main.ts:29547
 
 ***
 
@@ -146,7 +145,7 @@ title of the carousel item
 
 #### Source
 
-main.ts:29380
+main.ts:29538
 
 ***
 
@@ -162,7 +161,7 @@ type of element
 
 #### Source
 
-main.ts:29372
+main.ts:29530
 
 ***
 
@@ -178,7 +177,7 @@ URL of element
 
 #### Source
 
-main.ts:29376
+main.ts:29534
 
 ## Methods
 
@@ -196,7 +195,7 @@ main.ts:29376
 
 #### Source
 
-main.ts:29405
+main.ts:29562
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:29405
 
 #### Source
 
-main.ts:29434
+main.ts:29591
 
 ***
 
@@ -232,4 +231,4 @@ main.ts:29434
 
 #### Source
 
-main.ts:29427
+main.ts:29584

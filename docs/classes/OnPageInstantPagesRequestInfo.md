@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:160920
+main.ts:161169
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:160852
+main.ts:161090
 
 ***
 
@@ -80,7 +80,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:160824
+main.ts:161062
 
 ***
 
@@ -100,7 +100,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160836
+main.ts:161074
 
 ***
 
@@ -120,7 +120,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:160842
+main.ts:161080
 
 ***
 
@@ -140,7 +140,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:160830
+main.ts:161068
 
 ***
 
@@ -159,7 +159,7 @@ default value: false
 
 #### Source
 
-main.ts:160911
+main.ts:161149
 
 ***
 
@@ -182,7 +182,7 @@ Note: only integer threshold values can be modified;
 
 #### Source
 
-main.ts:160916
+main.ts:161154
 
 ***
 
@@ -207,7 +207,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160901
+main.ts:161139
 
 ***
 
@@ -228,7 +228,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:160807
+main.ts:161045
 
 ***
 
@@ -248,7 +248,7 @@ false
 
 #### Source
 
-main.ts:160879
+main.ts:161117
 
 ***
 
@@ -271,7 +271,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160873
+main.ts:161111
 
 ***
 
@@ -291,7 +291,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160864
+main.ts:161102
 
 ***
 
@@ -311,7 +311,27 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:160890
+main.ts:161128
+
+***
+
+### ip\_pool\_for\_scan?
+
+> **`optional`** **ip\_pool\_for\_scan**: `string`
+
+proxy pool
+optional field
+you can choose a location of the proxy pool that will be used to obtain the requested data;
+the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors
+possible values: us, de
+
+#### Implementation of
+
+[`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`ip_pool_for_scan`](../interfaces/IOnPageInstantPagesRequestInfo.md#ip_pool_for_scan)
+
+#### Source
+
+main.ts:161165
 
 ***
 
@@ -331,7 +351,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:160858
+main.ts:161096
 
 ***
 
@@ -350,7 +370,7 @@ default value: false
 
 #### Source
 
-main.ts:160884
+main.ts:161122
 
 ***
 
@@ -369,7 +389,26 @@ default value: false
 
 #### Source
 
-main.ts:160847
+main.ts:161085
+
+***
+
+### switch\_pool?
+
+> **`optional`** **switch\_pool**: `boolean`
+
+switch proxy pool
+optional field
+if true, additional proxy pools will be used to obtain the requested data;
+the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors
+
+#### Implementation of
+
+[`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`switch_pool`](../interfaces/IOnPageInstantPagesRequestInfo.md#switch_pool)
+
+#### Source
+
+main.ts:161159
 
 ***
 
@@ -390,7 +429,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 #### Source
 
-main.ts:160800
+main.ts:161038
 
 ***
 
@@ -409,7 +448,7 @@ default value: false
 
 #### Source
 
-main.ts:160906
+main.ts:161144
 
 ## Methods
 
@@ -427,7 +466,7 @@ main.ts:160906
 
 #### Source
 
-main.ts:160929
+main.ts:161178
 
 ***
 
@@ -445,7 +484,7 @@ main.ts:160929
 
 #### Source
 
-main.ts:160969
+main.ts:161220
 
 ***
 
@@ -463,4 +502,4 @@ main.ts:160969
 
 #### Source
 
-main.ts:160962
+main.ts:161213

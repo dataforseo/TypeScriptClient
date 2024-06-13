@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:206897
+main.ts:208041
 
 ## Properties
 
@@ -47,7 +47,7 @@ items within google_business_question_item
 
 #### Source
 
-main.ts:206893
+main.ts:208037
 
 ***
 
@@ -63,7 +63,7 @@ original text of the question
 
 #### Source
 
-main.ts:206886
+main.ts:208030
 
 ***
 
@@ -79,7 +79,7 @@ URL of the user’s profile image
 
 #### Source
 
-main.ts:206878
+main.ts:208022
 
 ***
 
@@ -95,7 +95,7 @@ displayed name of the user
 
 #### Source
 
-main.ts:206882
+main.ts:208026
 
 ***
 
@@ -111,7 +111,7 @@ URL of the user’s profile
 
 #### Source
 
-main.ts:206880
+main.ts:208024
 
 ***
 
@@ -127,7 +127,7 @@ ID of the question
 
 #### Source
 
-main.ts:206874
+main.ts:208018
 
 ***
 
@@ -143,7 +143,7 @@ current text of the question
 
 #### Source
 
-main.ts:206884
+main.ts:208028
 
 ***
 
@@ -159,7 +159,7 @@ absolute rank among all the elements
 
 #### Source
 
-main.ts:206872
+main.ts:208016
 
 ***
 
@@ -176,7 +176,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:206870
+main.ts:208014
 
 ***
 
@@ -192,7 +192,7 @@ estimated time when the question was posted
 
 #### Source
 
-main.ts:206888
+main.ts:208032
 
 ***
 
@@ -208,7 +208,7 @@ exact time when the question was posted
 
 #### Source
 
-main.ts:206890
+main.ts:208034
 
 ***
 
@@ -224,7 +224,7 @@ type of element
 
 #### Source
 
-main.ts:206867
+main.ts:208011
 
 ***
 
@@ -240,7 +240,7 @@ URL of the question
 
 #### Source
 
-main.ts:206876
+main.ts:208020
 
 ## Methods
 
@@ -258,7 +258,7 @@ main.ts:206876
 
 #### Source
 
-main.ts:206906
+main.ts:208050
 
 ***
 
@@ -276,7 +276,7 @@ main.ts:206906
 
 #### Source
 
-main.ts:206935
+main.ts:208079
 
 ***
 
@@ -294,4 +294,4 @@ main.ts:206935
 
 #### Source
 
-main.ts:206928
+main.ts:208072

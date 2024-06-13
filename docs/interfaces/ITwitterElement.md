@@ -20,7 +20,7 @@ the date when the page source of the element was published
 
 #### Source
 
-main.ts:30062
+main.ts:30218
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Source
 
-main.ts:30067
+main.ts:30223
 
 ***
 
@@ -47,7 +47,7 @@ tweet message
 
 #### Source
 
-main.ts:30060
+main.ts:30216
 
 ***
 
@@ -59,7 +59,7 @@ type of element
 
 #### Source
 
-main.ts:30058
+main.ts:30214
 
 ***
 
@@ -71,4 +71,4 @@ URL
 
 #### Source
 
-main.ts:30069
+main.ts:30225

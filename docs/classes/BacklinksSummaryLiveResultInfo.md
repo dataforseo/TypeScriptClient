@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:136181
+main.ts:136461
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates the number of backlinks
 
 #### Source
 
-main.ts:136111
+main.ts:136391
 
 ***
 
@@ -64,7 +64,7 @@ to learn more about how the metric is calculated, refer to this Help Center page
 
 #### Source
 
-main.ts:136115
+main.ts:136395
 
 ***
 
@@ -81,7 +81,7 @@ number of broken backlinks pointing to the target
 
 #### Source
 
-main.ts:136128
+main.ts:136408
 
 ***
 
@@ -99,7 +99,7 @@ note that the number of broken pages includes pages on the target discovered by 
 
 #### Source
 
-main.ts:136132
+main.ts:136412
 
 ***
 
@@ -115,7 +115,7 @@ number of crawled pages for the target
 
 #### Source
 
-main.ts:136117
+main.ts:136397
 
 ***
 
@@ -132,7 +132,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Source
 
-main.ts:136125
+main.ts:136405
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Source
 
-main.ts:136100
+main.ts:136380
 
 ***
 
@@ -167,7 +167,7 @@ information about the target
 
 #### Source
 
-main.ts:136119
+main.ts:136399
 
 ***
 
@@ -184,7 +184,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Source
 
-main.ts:136122
+main.ts:136402
 
 ***
 
@@ -204,7 +204,7 @@ example:
 
 #### Source
 
-main.ts:136106
+main.ts:136386
 
 ***
 
@@ -221,7 +221,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:136109
+main.ts:136389
 
 ***
 
@@ -238,7 +238,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Source
 
-main.ts:136135
+main.ts:136415
 
 ***
 
@@ -254,7 +254,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:136137
+main.ts:136417
 
 ***
 
@@ -271,7 +271,7 @@ number of IP addresses pointing to this page
 
 #### Source
 
-main.ts:136144
+main.ts:136424
 
 ***
 
@@ -294,7 +294,7 @@ nofollow, noopener, noreferrer, external, ugc, sponsored
 
 #### Source
 
-main.ts:136161
+main.ts:136441
 
 ***
 
@@ -315,7 +315,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Source
 
-main.ts:136175
+main.ts:136455
 
 ***
 
@@ -338,7 +338,7 @@ cms, blogs, unknown, ecommerce, message-boards
 
 #### Source
 
-main.ts:136166
+main.ts:136446
 
 ***
 
@@ -362,7 +362,7 @@ article, section, summary, ""
 
 #### Source
 
-main.ts:136172
+main.ts:136452
 
 ***
 
@@ -383,7 +383,7 @@ contains top level domains and referring link count per each
 
 #### Source
 
-main.ts:136151
+main.ts:136431
 
 ***
 
@@ -406,7 +406,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Source
 
-main.ts:136156
+main.ts:136436
 
 ***
 
@@ -422,7 +422,7 @@ indicates the number of referring main domains
 
 #### Source
 
-main.ts:136139
+main.ts:136419
 
 ***
 
@@ -438,7 +438,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:136141
+main.ts:136421
 
 ***
 
@@ -454,7 +454,7 @@ indicates the number of pages pointing to the target
 
 #### Source
 
-main.ts:136148
+main.ts:136428
 
 ***
 
@@ -470,7 +470,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:136177
+main.ts:136457
 
 ***
 
@@ -486,7 +486,7 @@ number of referring subnetworks
 
 #### Source
 
-main.ts:136146
+main.ts:136426
 
 ***
 
@@ -502,7 +502,7 @@ target in a POST array
 
 #### Source
 
-main.ts:136095
+main.ts:136375
 
 ## Methods
 
@@ -520,7 +520,7 @@ main.ts:136095
 
 #### Source
 
-main.ts:136190
+main.ts:136470
 
 ***
 
@@ -538,7 +538,7 @@ main.ts:136190
 
 #### Source
 
-main.ts:136268
+main.ts:136548
 
 ***
 
@@ -556,4 +556,4 @@ main.ts:136268
 
 #### Source
 
-main.ts:136261
+main.ts:136541

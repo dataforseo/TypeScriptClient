@@ -359,6 +359,7 @@
 - [`MerchantGoogleLocationsCountryResponseInfo`](MerchantGoogleLocationsCountryResponseInfo.md)
 - [`MerchantGoogleProductsTaskPostResponseInfo`](MerchantGoogleProductsTaskPostResponseInfo.md)
 - [`MerchantGoogleProductsTasksReadyResponseInfo`](MerchantGoogleProductsTasksReadyResponseInfo.md)
+- [`MerchantTasksReadyResponseInfo`](MerchantTasksReadyResponseInfo.md)
 - [`MerchantGoogleProductsTaskGetAdvancedResponseInfo`](MerchantGoogleProductsTaskGetAdvancedResponseInfo.md)
 - [`MerchantGoogleProductsTaskGetHtmlResponseInfo`](MerchantGoogleProductsTaskGetHtmlResponseInfo.md)
 - [`MerchantGoogleSellersTaskPostResponseInfo`](MerchantGoogleSellersTaskPostResponseInfo.md)
@@ -396,9 +397,11 @@
 - [`AppDataErrorsResponseInfo`](AppDataErrorsResponseInfo.md)
 - [`AppDataGoogleCategoriesResponseInfo`](AppDataGoogleCategoriesResponseInfo.md)
 - [`AppDataGoogleLocationsResponseInfo`](AppDataGoogleLocationsResponseInfo.md)
+- [`AppDataGoogleLocationsCountryResponseInfo`](AppDataGoogleLocationsCountryResponseInfo.md)
 - [`AppDataGoogleLanguagesResponseInfo`](AppDataGoogleLanguagesResponseInfo.md)
 - [`AppDataGoogleAppSearchesTaskPostResponseInfo`](AppDataGoogleAppSearchesTaskPostResponseInfo.md)
 - [`AppDataGoogleAppSearchesTasksReadyResponseInfo`](AppDataGoogleAppSearchesTasksReadyResponseInfo.md)
+- [`AppDataTasksReadyResponseInfo`](AppDataTasksReadyResponseInfo.md)
 - [`AppDataGoogleAppSearchesTaskGetAdvancedResponseInfo`](AppDataGoogleAppSearchesTaskGetAdvancedResponseInfo.md)
 - [`AppDataGoogleAppSearchesTaskGetHtmlResponseInfo`](AppDataGoogleAppSearchesTaskGetHtmlResponseInfo.md)
 - [`AppDataGoogleAppListTaskPostResponseInfo`](AppDataGoogleAppListTaskPostResponseInfo.md)
@@ -444,6 +447,7 @@
 - [`BusinessDataGoogleLanguagesResponseInfo`](BusinessDataGoogleLanguagesResponseInfo.md)
 - [`BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo.md)
 - [`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)
+- [`BusinessDataTasksReadyResponseInfo`](BusinessDataTasksReadyResponseInfo.md)
 - [`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)
@@ -512,7 +516,7 @@
 
 #### Source
 
-main.ts:23068
+main.ts:23222
 
 ## Properties
 
@@ -528,7 +532,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23060
+main.ts:23214
 
 ***
 
@@ -545,7 +549,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23053
+main.ts:23207
 
 ***
 
@@ -562,7 +566,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23056
+main.ts:23210
 
 ***
 
@@ -578,7 +582,7 @@ the number of tasks in the tasks array
 
 #### Source
 
-main.ts:23062
+main.ts:23216
 
 ***
 
@@ -594,7 +598,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Source
 
-main.ts:23064
+main.ts:23218
 
 ***
 
@@ -610,7 +614,7 @@ total execution time, seconds
 
 #### Source
 
-main.ts:23058
+main.ts:23212
 
 ***
 
@@ -626,7 +630,7 @@ the current version of the API
 
 #### Source
 
-main.ts:23050
+main.ts:23204
 
 ## Methods
 
@@ -644,7 +648,7 @@ main.ts:23050
 
 #### Source
 
-main.ts:23077
+main.ts:23231
 
 ***
 
@@ -662,7 +666,7 @@ main.ts:23077
 
 #### Source
 
-main.ts:23100
+main.ts:23254
 
 ***
 
@@ -680,4 +684,4 @@ main.ts:23100
 
 #### Source
 
-main.ts:23093
+main.ts:23247

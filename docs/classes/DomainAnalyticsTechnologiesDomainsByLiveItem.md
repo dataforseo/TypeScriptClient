@@ -32,7 +32,7 @@ items array
 
 #### Source
 
-main.ts:77803
+main.ts:78085
 
 ## Properties
 
@@ -49,7 +49,7 @@ code of the language that content on the target domain is written with
 
 #### Source
 
-main.ts:77786
+main.ts:78068
 
 ***
 
@@ -66,7 +66,7 @@ ISO code of the country that target domain is determined to belong to
 
 #### Source
 
-main.ts:77780
+main.ts:78062
 
 ***
 
@@ -82,7 +82,7 @@ domain meta description
 
 #### Source
 
-main.ts:77767
+main.ts:78049
 
 ***
 
@@ -98,7 +98,7 @@ specified domain name
 
 #### Source
 
-main.ts:77763
+main.ts:78045
 
 ***
 
@@ -115,7 +115,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:77772
+main.ts:78054
 
 ***
 
@@ -132,7 +132,7 @@ emails indicated on the target website
 
 #### Source
 
-main.ts:77792
+main.ts:78074
 
 ***
 
@@ -149,7 +149,7 @@ code of the language that target domain is determined to be associated with
 
 #### Source
 
-main.ts:77783
+main.ts:78065
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Source
 
-main.ts:77777
+main.ts:78059
 
 ***
 
@@ -184,7 +184,7 @@ domain meta keywords
 
 #### Source
 
-main.ts:77769
+main.ts:78051
 
 ***
 
@@ -201,7 +201,7 @@ contact phone numbers indicated on the target website
 
 #### Source
 
-main.ts:77789
+main.ts:78071
 
 ***
 
@@ -218,7 +218,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Source
 
-main.ts:77795
+main.ts:78077
 
 ***
 
@@ -236,7 +236,7 @@ to get a full list of technologies and their structure, refer to the technologie
 
 #### Source
 
-main.ts:77799
+main.ts:78081
 
 ***
 
@@ -252,7 +252,7 @@ domain meta title
 
 #### Source
 
-main.ts:77765
+main.ts:78047
 
 ***
 
@@ -268,7 +268,7 @@ type of element
 
 #### Source
 
-main.ts:77761
+main.ts:78043
 
 ## Methods
 
@@ -286,7 +286,7 @@ main.ts:77761
 
 #### Source
 
-main.ts:77812
+main.ts:78094
 
 ***
 
@@ -304,7 +304,7 @@ main.ts:77812
 
 #### Source
 
-main.ts:77858
+main.ts:78140
 
 ***
 
@@ -322,4 +322,4 @@ main.ts:77858
 
 #### Source
 
-main.ts:77851
+main.ts:78133

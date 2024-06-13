@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:124131
+main.ts:124411
 
 ## Properties
 
@@ -47,7 +47,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Source
 
-main.ts:124114
+main.ts:124394
 
 ***
 
@@ -64,7 +64,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Source
 
-main.ts:124117
+main.ts:124397
 
 ***
 
@@ -81,7 +81,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 #### Source
 
-main.ts:124122
+main.ts:124402
 
 ***
 
@@ -97,7 +97,7 @@ a point in time in the Unix time format
 
 #### Source
 
-main.ts:124119
+main.ts:124399
 
 ***
 
@@ -116,7 +116,7 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Source
 
-main.ts:124127
+main.ts:124407
 
 ## Methods
 
@@ -134,7 +134,7 @@ main.ts:124127
 
 #### Source
 
-main.ts:124140
+main.ts:124420
 
 ***
 
@@ -152,7 +152,7 @@ main.ts:124140
 
 #### Source
 
-main.ts:124165
+main.ts:124445
 
 ***
 
@@ -170,4 +170,4 @@ main.ts:124165
 
 #### Source
 
-main.ts:124158
+main.ts:124438

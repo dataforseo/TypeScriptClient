@@ -20,7 +20,7 @@ items array
 
 #### Source
 
-main.ts:76415
+main.ts:76697
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:76411
+main.ts:76693
 
 ***
 
@@ -44,7 +44,7 @@ offset in the results array of returned domains
 
 #### Source
 
-main.ts:76413
+main.ts:76695
 
 ***
 
@@ -56,4 +56,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:76409
+main.ts:76691

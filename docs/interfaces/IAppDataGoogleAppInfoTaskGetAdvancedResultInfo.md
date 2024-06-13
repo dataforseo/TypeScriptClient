@@ -20,7 +20,7 @@ application id received in a POST request
 
 #### Source
 
-main.ts:188003
+main.ts:188867
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:188012
+main.ts:188876
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:188017
+main.ts:188881
 
 ***
 
@@ -60,7 +60,7 @@ found app info
 
 #### Source
 
-main.ts:188023
+main.ts:188887
 
 ***
 
@@ -72,7 +72,7 @@ the number of items in the results array
 
 #### Source
 
-main.ts:188021
+main.ts:188885
 
 ***
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:188009
+main.ts:188873
 
 ***
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:188007
+main.ts:188871
 
 ***
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:188005
+main.ts:188869
 
 ***
 
@@ -120,4 +120,4 @@ the total number of results
 
 #### Source
 
-main.ts:188019
+main.ts:188883

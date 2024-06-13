@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:191231
+main.ts:192098
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:191220
+main.ts:192087
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Apple App Searches task
 
 #### Source
 
-main.ts:191224
+main.ts:192091
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Source
 
-main.ts:191227
+main.ts:192094
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:191215
+main.ts:192081
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:191217
+main.ts:192083
 
 ***
 
@@ -120,13 +120,15 @@ main.ts:191217
 
 > **`optional`** **se\_type**: `string`
 
+search engine type
+
 #### Implementation of
 
 [`IAppDataAppleAppSearchesTasksReadyResultInfo`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md).[`se_type`](../interfaces/IAppDataAppleAppSearchesTasksReadyResultInfo.md#se_type)
 
 #### Source
 
-main.ts:191218
+main.ts:192085
 
 ***
 
@@ -142,7 +144,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:191222
+main.ts:192089
 
 ## Methods
 
@@ -160,7 +162,7 @@ main.ts:191222
 
 #### Source
 
-main.ts:191240
+main.ts:192107
 
 ***
 
@@ -178,7 +180,7 @@ main.ts:191240
 
 #### Source
 
-main.ts:191263
+main.ts:192130
 
 ***
 
@@ -196,4 +198,4 @@ main.ts:191263
 
 #### Source
 
-main.ts:191256
+main.ts:192123

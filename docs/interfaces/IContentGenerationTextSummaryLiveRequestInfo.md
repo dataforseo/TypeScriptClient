@@ -23,7 +23,7 @@ default value: 10
 
 #### Source
 
-main.ts:170046
+main.ts:170310
 
 ***
 
@@ -37,7 +37,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Source
 
-main.ts:170041
+main.ts:170305
 
 ***
 
@@ -51,7 +51,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Source
 
-main.ts:170037
+main.ts:170301
 
 ***
 
@@ -67,7 +67,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:170052
+main.ts:170316
 
 ***
 
@@ -82,4 +82,4 @@ learn more about tokens on our help center
 
 #### Source
 
-main.ts:170033
+main.ts:170297

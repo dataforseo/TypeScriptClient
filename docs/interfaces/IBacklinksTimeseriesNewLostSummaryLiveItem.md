@@ -23,7 +23,7 @@ example:
 
 #### Source
 
-main.ts:145772
+main.ts:146052
 
 ***
 
@@ -36,7 +36,7 @@ number of lost backlinks of the target
 
 #### Source
 
-main.ts:145778
+main.ts:146058
 
 ***
 
@@ -49,7 +49,7 @@ number of lost referring domains of the target
 
 #### Source
 
-main.ts:145784
+main.ts:146064
 
 ***
 
@@ -62,7 +62,7 @@ number of lost referring main domains of the target
 
 #### Source
 
-main.ts:145790
+main.ts:146070
 
 ***
 
@@ -75,7 +75,7 @@ number of new backlinks pointing to the target
 
 #### Source
 
-main.ts:145775
+main.ts:146055
 
 ***
 
@@ -88,7 +88,7 @@ number of new referring domains pointing to the target
 
 #### Source
 
-main.ts:145781
+main.ts:146061
 
 ***
 
@@ -101,7 +101,7 @@ number of new referring main domains pointing to the target
 
 #### Source
 
-main.ts:145787
+main.ts:146067
 
 ***
 
@@ -113,4 +113,4 @@ type of element
 
 #### Source
 
-main.ts:145767
+main.ts:146047

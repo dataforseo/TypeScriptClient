@@ -23,7 +23,7 @@ default value: false
 
 #### Source
 
-main.ts:24372
+main.ts:24528
 
 ***
 
@@ -38,7 +38,7 @@ default value: false
 
 #### Source
 
-main.ts:24377
+main.ts:24533
 
 ***
 
@@ -48,13 +48,14 @@ main.ts:24377
 
 AI prompt
 optional field
-additional task for AI summarizer, also referred to as
+additional task for AI summariser;
 any form of text, question or information that communicates to AI what response you’re looking for;
+max number of symbols or characters you can specify: 2000;
 note: your prompt has to be relevant to the keyword specified in the POST request to SERP API
 
 #### Source
 
-main.ts:24362
+main.ts:24518
 
 ***
 
@@ -69,7 +70,7 @@ default value: true
 
 #### Source
 
-main.ts:24367
+main.ts:24523
 
 ***
 
@@ -84,4 +85,4 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Source
 
-main.ts:24356
+main.ts:24511

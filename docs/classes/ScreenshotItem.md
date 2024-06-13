@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:24056
+main.ts:24210
 
 ## Properties
 
@@ -48,7 +48,7 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Source
 
-main.ts:24052
+main.ts:24206
 
 ## Methods
 
@@ -66,7 +66,7 @@ main.ts:24052
 
 #### Source
 
-main.ts:24065
+main.ts:24219
 
 ***
 
@@ -84,7 +84,7 @@ main.ts:24065
 
 #### Source
 
-main.ts:24082
+main.ts:24236
 
 ***
 
@@ -102,4 +102,4 @@ main.ts:24082
 
 #### Source
 
-main.ts:24075
+main.ts:24229

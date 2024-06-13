@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:32344
+main.ts:32500
 
 ## Properties
 
@@ -46,7 +46,7 @@ multi_carousel_snippet results
 
 #### Source
 
-main.ts:32340
+main.ts:32496
 
 ***
 
@@ -62,7 +62,7 @@ title of a given link element
 
 #### Source
 
-main.ts:32338
+main.ts:32494
 
 ***
 
@@ -78,7 +78,7 @@ type of element
 
 #### Source
 
-main.ts:32336
+main.ts:32492
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:32336
 
 #### Source
 
-main.ts:32353
+main.ts:32509
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:32353
 
 #### Source
 
-main.ts:32376
+main.ts:32532
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:32376
 
 #### Source
 
-main.ts:32369
+main.ts:32525

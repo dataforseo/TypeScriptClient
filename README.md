@@ -61,7 +61,7 @@ async function main() {
     const authFetch = createAuthenticatedFetch(username, password);
     let serpApi = new client.SerpApi("https://api.dataforseo.com", { fetch: authFetch });
 
-    let task = new client.SerpTaskRequestInfo();
+    let task = new client.SerpGoogleOrganicLiveAdvancedRequestInfo();
     task.location_code = 2840;
     task.language_code = "en";
     task.keyword = "albert einstein"

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:85316
+main.ts:85596
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: false
 
 #### Source
 
-main.ts:85306
+main.ts:85586
 
 ***
 
@@ -72,7 +72,7 @@ you will not be charged for the keywords omitted in the results
 
 #### Source
 
-main.ts:85269
+main.ts:85549
 
 ***
 
@@ -94,7 +94,7 @@ en
 
 #### Source
 
-main.ts:85301
+main.ts:85581
 
 ***
 
@@ -116,7 +116,7 @@ English
 
 #### Source
 
-main.ts:85293
+main.ts:85573
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Source
 
-main.ts:85285
+main.ts:85565
 
 ***
 
@@ -160,7 +160,7 @@ United Kingdom
 
 #### Source
 
-main.ts:85277
+main.ts:85557
 
 ***
 
@@ -180,7 +180,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:85312
+main.ts:85592
 
 ## Methods
 
@@ -198,7 +198,7 @@ main.ts:85312
 
 #### Source
 
-main.ts:85325
+main.ts:85605
 
 ***
 
@@ -216,7 +216,7 @@ main.ts:85325
 
 #### Source
 
-main.ts:85352
+main.ts:85632
 
 ***
 
@@ -234,4 +234,4 @@ main.ts:85352
 
 #### Source
 
-main.ts:85345
+main.ts:85625

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:37049
+main.ts:37205
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Source
 
-main.ts:37040
+main.ts:37196
 
 ***
 
@@ -62,7 +62,7 @@ URL of the image
 
 #### Source
 
-main.ts:37042
+main.ts:37198
 
 ***
 
@@ -79,7 +79,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:37045
+main.ts:37201
 
 ***
 
@@ -95,7 +95,7 @@ title of a given link element
 
 #### Source
 
-main.ts:37036
+main.ts:37192
 
 ***
 
@@ -111,7 +111,7 @@ type of element
 
 #### Source
 
-main.ts:37034
+main.ts:37190
 
 ***
 
@@ -127,7 +127,7 @@ URL
 
 #### Source
 
-main.ts:37038
+main.ts:37194
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:37038
 
 #### Source
 
-main.ts:37058
+main.ts:37214
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:37058
 
 #### Source
 
-main.ts:37080
+main.ts:37236
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:37080
 
 #### Source
 
-main.ts:37073
+main.ts:37229

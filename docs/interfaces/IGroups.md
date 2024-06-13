@@ -20,7 +20,7 @@ technology categories in this group
 
 #### Source
 
-main.ts:75777
+main.ts:76057
 
 ***
 
@@ -34,7 +34,7 @@ marketing, sales
 
 #### Source
 
-main.ts:75773
+main.ts:76053
 
 ***
 
@@ -46,4 +46,4 @@ title of the technology group
 
 #### Source
 
-main.ts:75775
+main.ts:76055

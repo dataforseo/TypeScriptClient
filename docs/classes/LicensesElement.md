@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:34390
+main.ts:34546
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Source
 
-main.ts:34386
+main.ts:34542
 
 ***
 
@@ -62,7 +62,7 @@ title of a given link element
 
 #### Source
 
-main.ts:34382
+main.ts:34538
 
 ***
 
@@ -78,7 +78,7 @@ type of element
 
 #### Source
 
-main.ts:34380
+main.ts:34536
 
 ***
 
@@ -94,7 +94,7 @@ URL
 
 #### Source
 
-main.ts:34384
+main.ts:34540
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:34384
 
 #### Source
 
-main.ts:34399
+main.ts:34555
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:34399
 
 #### Source
 
-main.ts:34419
+main.ts:34575
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:34419
 
 #### Source
 
-main.ts:34412
+main.ts:34568

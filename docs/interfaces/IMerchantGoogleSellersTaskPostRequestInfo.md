@@ -29,7 +29,7 @@ example:
 
 #### Source
 
-main.ts:173844
+main.ts:174306
 
 ***
 
@@ -44,7 +44,7 @@ Note: if set to true, the cost of a task will be doubled
 
 #### Source
 
-main.ts:173837
+main.ts:174299
 
 ***
 
@@ -61,7 +61,7 @@ en
 
 #### Source
 
-main.ts:173825
+main.ts:174287
 
 ***
 
@@ -78,7 +78,7 @@ English
 
 #### Source
 
-main.ts:173818
+main.ts:174280
 
 ***
 
@@ -95,7 +95,7 @@ example:
 
 #### Source
 
-main.ts:173802
+main.ts:174264
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Source
 
-main.ts:173811
+main.ts:174273
 
 ***
 
@@ -131,7 +131,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:173795
+main.ts:174257
 
 ***
 
@@ -151,7 +151,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:173876
+main.ts:174338
 
 ***
 
@@ -167,7 +167,7 @@ advanced, html
 
 #### Source
 
-main.ts:173866
+main.ts:174328
 
 ***
 
@@ -187,7 +187,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:173860
+main.ts:174322
 
 ***
 
@@ -205,7 +205,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:173788
+main.ts:174250
 
 ***
 
@@ -223,7 +223,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:173780
+main.ts:174242
 
 ***
 
@@ -240,7 +240,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:173832
+main.ts:174294
 
 ***
 
@@ -256,4 +256,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:173850
+main.ts:174312

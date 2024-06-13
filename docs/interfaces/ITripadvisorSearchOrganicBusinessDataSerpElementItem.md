@@ -24,7 +24,7 @@ place category
 
 #### Source
 
-main.ts:210800
+main.ts:211944
 
 ***
 
@@ -37,7 +37,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 #### Source
 
-main.ts:210796
+main.ts:211940
 
 ***
 
@@ -49,7 +49,7 @@ average price rate
 
 #### Source
 
-main.ts:210802
+main.ts:211946
 
 ***
 
@@ -62,7 +62,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:210787
+main.ts:211931
 
 ***
 
@@ -75,7 +75,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:210784
+main.ts:211928
 
 ***
 
@@ -87,7 +87,7 @@ the rating score of the establishment submitted by the reviewers
 
 #### Source
 
-main.ts:210804
+main.ts:211948
 
 ***
 
@@ -99,7 +99,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:210798
+main.ts:211942
 
 ***
 
@@ -111,7 +111,7 @@ name of the business entity
 
 #### Source
 
-main.ts:210789
+main.ts:211933
 
 ***
 
@@ -125,4 +125,4 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Source
 
-main.ts:210793
+main.ts:211937

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:133304
+main.ts:133584
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: all
 
 #### Source
 
-main.ts:133231
+main.ts:133511
 
 ***
 
@@ -59,9 +59,9 @@ main.ts:133231
 
 keywords
 required field
-The maximum number of keywords you can specify: 2500.
-The maximum number of characters for each keyword: 80.
-The maximum number of words for each keyword phrase: 10.
+The maximum number of keywords you can specify: 1000
+The maximum number of characters for each keyword: 80
+The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 
 #### Implementation of
@@ -70,7 +70,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:133226
+main.ts:133506
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Source
 
-main.ts:133274
+main.ts:133554
 
 ***
 
@@ -111,7 +111,7 @@ English
 
 #### Source
 
-main.ts:133268
+main.ts:133548
 
 ***
 
@@ -132,7 +132,7 @@ example:
 
 #### Source
 
-main.ts:133253
+main.ts:133533
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Source
 
-main.ts:133261
+main.ts:133541
 
 ***
 
@@ -175,7 +175,7 @@ example:
 
 #### Source
 
-main.ts:133246
+main.ts:133526
 
 ***
 
@@ -197,7 +197,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Source
 
-main.ts:133239
+main.ts:133519
 
 ***
 
@@ -221,7 +221,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:133294
+main.ts:133574
 
 ***
 
@@ -245,7 +245,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:133284
+main.ts:133564
 
 ***
 
@@ -265,7 +265,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:133300
+main.ts:133580
 
 ## Methods
 
@@ -283,7 +283,7 @@ main.ts:133300
 
 #### Source
 
-main.ts:133313
+main.ts:133593
 
 ***
 
@@ -301,7 +301,7 @@ main.ts:133313
 
 #### Source
 
-main.ts:133344
+main.ts:133624
 
 ***
 
@@ -319,4 +319,4 @@ main.ts:133344
 
 #### Source
 
-main.ts:133337
+main.ts:133617

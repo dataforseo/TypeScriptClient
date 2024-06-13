@@ -20,7 +20,7 @@ street address of the local establishment
 
 #### Source
 
-main.ts:40083
+main.ts:40351
 
 ***
 
@@ -32,7 +32,7 @@ administrative unit or district the local establishment belongs to
 
 #### Source
 
-main.ts:40081
+main.ts:40349
 
 ***
 
@@ -44,7 +44,7 @@ name of the city where the local establishment is located
 
 #### Source
 
-main.ts:40085
+main.ts:40353
 
 ***
 
@@ -56,7 +56,7 @@ ISO country code of the local establishment
 
 #### Source
 
-main.ts:40091
+main.ts:40359
 
 ***
 
@@ -68,7 +68,7 @@ DMA region the local establishment belongs to
 
 #### Source
 
-main.ts:40089
+main.ts:40357
 
 ***
 
@@ -80,4 +80,4 @@ ZIP code of the local establishment
 
 #### Source
 
-main.ts:40087
+main.ts:40355

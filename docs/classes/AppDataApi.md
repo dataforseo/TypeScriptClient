@@ -26,7 +26,7 @@
 
 #### Source
 
-main.ts:15797
+main.ts:15834
 
 ## Properties
 
@@ -36,7 +36,7 @@ main.ts:15797
 
 #### Source
 
-main.ts:15794
+main.ts:15831
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:15794
 
 #### Source
 
-main.ts:15793
+main.ts:15830
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:15793
 
 #### Source
 
-main.ts:15795
+main.ts:15832
 
 ## Methods
 
@@ -94,7 +94,7 @@ Successful operation
 
 #### Source
 
-main.ts:16813
+main.ts:16925
 
 ***
 
@@ -110,7 +110,7 @@ Successful operation
 
 #### Source
 
-main.ts:16776
+main.ts:16888
 
 ***
 
@@ -132,7 +132,7 @@ Successful operation
 
 #### Source
 
-main.ts:15848
+main.ts:15885
 
 ***
 
@@ -148,7 +148,7 @@ Successful operation
 
 #### Source
 
-main.ts:15963
+main.ts:16038
 
 ***
 
@@ -164,7 +164,29 @@ Successful operation
 
 #### Source
 
-main.ts:15926
+main.ts:15963
+
+***
+
+### appDataGoogleLocationsCountry()
+
+> **appDataGoogleLocationsCountry**(`country`): `Promise`\<[`AppDataGoogleLocationsCountryResponseInfo`](AppDataGoogleLocationsCountryResponseInfo.md)\>
+
+#### Parameters
+
+• **country**: `any`
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleLocationsCountryResponseInfo`](AppDataGoogleLocationsCountryResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:16001
 
 ***
 
@@ -186,7 +208,23 @@ Successful operation
 
 #### Source
 
-main.ts:15806
+main.ts:15843
+
+***
+
+### appDataTasksReady()
+
+> **appDataTasksReady**(): `Promise`\<[`AppDataTasksReadyResponseInfo`](AppDataTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`AppDataTasksReadyResponseInfo`](AppDataTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:16154
 
 ***
 
@@ -210,7 +248,7 @@ Successful operation
 
 #### Source
 
-main.ts:17054
+main.ts:17166
 
 ***
 
@@ -232,7 +270,7 @@ Successful operation
 
 #### Source
 
-main.ts:16973
+main.ts:17085
 
 ***
 
@@ -248,7 +286,7 @@ Successful operation
 
 #### Source
 
-main.ts:17014
+main.ts:17126
 
 ***
 
@@ -272,7 +310,7 @@ Successful operation
 
 #### Source
 
-main.ts:17176
+main.ts:17288
 
 ***
 
@@ -294,7 +332,7 @@ Successful operation
 
 #### Source
 
-main.ts:17095
+main.ts:17207
 
 ***
 
@@ -310,7 +348,7 @@ Successful operation
 
 #### Source
 
-main.ts:17136
+main.ts:17248
 
 ***
 
@@ -326,7 +364,7 @@ Successful operation
 
 #### Source
 
-main.ts:17338
+main.ts:17450
 
 ***
 
@@ -348,7 +386,7 @@ Successful operation
 
 #### Source
 
-main.ts:17376
+main.ts:17488
 
 ***
 
@@ -372,7 +410,7 @@ Successful operation
 
 #### Source
 
-main.ts:17298
+main.ts:17410
 
 ***
 
@@ -394,7 +432,7 @@ Successful operation
 
 #### Source
 
-main.ts:17217
+main.ts:17329
 
 ***
 
@@ -410,7 +448,7 @@ Successful operation
 
 #### Source
 
-main.ts:17258
+main.ts:17370
 
 ***
 
@@ -434,7 +472,7 @@ Successful operation
 
 #### Source
 
-main.ts:16932
+main.ts:17044
 
 ***
 
@@ -456,7 +494,7 @@ Successful operation
 
 #### Source
 
-main.ts:16851
+main.ts:16963
 
 ***
 
@@ -472,7 +510,7 @@ Successful operation
 
 #### Source
 
-main.ts:16892
+main.ts:17004
 
 ***
 
@@ -488,7 +526,7 @@ Successful operation
 
 #### Source
 
-main.ts:16739
+main.ts:16851
 
 ***
 
@@ -512,7 +550,7 @@ Successful operation
 
 #### Source
 
-main.ts:16412
+main.ts:16524
 
 ***
 
@@ -536,7 +574,7 @@ Successful operation
 
 #### Source
 
-main.ts:16455
+main.ts:16567
 
 ***
 
@@ -558,7 +596,7 @@ Successful operation
 
 #### Source
 
-main.ts:16331
+main.ts:16443
 
 ***
 
@@ -574,7 +612,7 @@ Successful operation
 
 #### Source
 
-main.ts:16372
+main.ts:16484
 
 ***
 
@@ -598,7 +636,7 @@ Successful operation
 
 #### Source
 
-main.ts:16247
+main.ts:16359
 
 ***
 
@@ -622,7 +660,7 @@ Successful operation
 
 #### Source
 
-main.ts:16290
+main.ts:16402
 
 ***
 
@@ -644,7 +682,7 @@ Successful operation
 
 #### Source
 
-main.ts:16166
+main.ts:16278
 
 ***
 
@@ -660,7 +698,7 @@ Successful operation
 
 #### Source
 
-main.ts:16207
+main.ts:16319
 
 ***
 
@@ -676,7 +714,7 @@ Successful operation
 
 #### Source
 
-main.ts:16660
+main.ts:16772
 
 ***
 
@@ -698,7 +736,7 @@ Successful operation
 
 #### Source
 
-main.ts:16698
+main.ts:16810
 
 ***
 
@@ -722,7 +760,7 @@ Successful operation
 
 #### Source
 
-main.ts:16577
+main.ts:16689
 
 ***
 
@@ -746,7 +784,7 @@ Successful operation
 
 #### Source
 
-main.ts:16620
+main.ts:16732
 
 ***
 
@@ -768,7 +806,7 @@ Successful operation
 
 #### Source
 
-main.ts:16496
+main.ts:16608
 
 ***
 
@@ -784,7 +822,7 @@ Successful operation
 
 #### Source
 
-main.ts:16537
+main.ts:16649
 
 ***
 
@@ -808,7 +846,7 @@ Successful operation
 
 #### Source
 
-main.ts:16082
+main.ts:16194
 
 ***
 
@@ -832,7 +870,7 @@ Successful operation
 
 #### Source
 
-main.ts:16125
+main.ts:16237
 
 ***
 
@@ -854,7 +892,7 @@ Successful operation
 
 #### Source
 
-main.ts:16001
+main.ts:16076
 
 ***
 
@@ -870,7 +908,7 @@ Successful operation
 
 #### Source
 
-main.ts:16042
+main.ts:16117
 
 ***
 
@@ -886,7 +924,7 @@ Successful operation
 
 #### Source
 
-main.ts:15889
+main.ts:15926
 
 ***
 
@@ -904,7 +942,7 @@ main.ts:15889
 
 #### Source
 
-main.ts:16829
+main.ts:16941
 
 ***
 
@@ -922,7 +960,7 @@ main.ts:16829
 
 #### Source
 
-main.ts:16792
+main.ts:16904
 
 ***
 
@@ -940,7 +978,7 @@ main.ts:16792
 
 #### Source
 
-main.ts:15868
+main.ts:15905
 
 ***
 
@@ -958,7 +996,7 @@ main.ts:15868
 
 #### Source
 
-main.ts:15979
+main.ts:16054
 
 ***
 
@@ -976,7 +1014,25 @@ main.ts:15979
 
 #### Source
 
-main.ts:15942
+main.ts:15979
+
+***
+
+### processAppDataGoogleLocationsCountry()
+
+> **`protected`** **processAppDataGoogleLocationsCountry**(`response`): `Promise`\<[`AppDataGoogleLocationsCountryResponseInfo`](AppDataGoogleLocationsCountryResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`AppDataGoogleLocationsCountryResponseInfo`](AppDataGoogleLocationsCountryResponseInfo.md)\>
+
+#### Source
+
+main.ts:16017
 
 ***
 
@@ -994,7 +1050,25 @@ main.ts:15942
 
 #### Source
 
-main.ts:15826
+main.ts:15863
+
+***
+
+### processAppDataTasksReady()
+
+> **`protected`** **processAppDataTasksReady**(`response`): `Promise`\<[`AppDataTasksReadyResponseInfo`](AppDataTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`AppDataTasksReadyResponseInfo`](AppDataTasksReadyResponseInfo.md)\>
+
+#### Source
+
+main.ts:16170
 
 ***
 
@@ -1012,7 +1086,7 @@ main.ts:15826
 
 #### Source
 
-main.ts:17073
+main.ts:17185
 
 ***
 
@@ -1030,7 +1104,7 @@ main.ts:17073
 
 #### Source
 
-main.ts:16993
+main.ts:17105
 
 ***
 
@@ -1048,7 +1122,7 @@ main.ts:16993
 
 #### Source
 
-main.ts:17030
+main.ts:17142
 
 ***
 
@@ -1066,7 +1140,7 @@ main.ts:17030
 
 #### Source
 
-main.ts:17195
+main.ts:17307
 
 ***
 
@@ -1084,7 +1158,7 @@ main.ts:17195
 
 #### Source
 
-main.ts:17115
+main.ts:17227
 
 ***
 
@@ -1102,7 +1176,7 @@ main.ts:17115
 
 #### Source
 
-main.ts:17152
+main.ts:17264
 
 ***
 
@@ -1120,7 +1194,7 @@ main.ts:17152
 
 #### Source
 
-main.ts:17354
+main.ts:17466
 
 ***
 
@@ -1138,7 +1212,7 @@ main.ts:17354
 
 #### Source
 
-main.ts:17396
+main.ts:17508
 
 ***
 
@@ -1156,7 +1230,7 @@ main.ts:17396
 
 #### Source
 
-main.ts:17317
+main.ts:17429
 
 ***
 
@@ -1174,7 +1248,7 @@ main.ts:17317
 
 #### Source
 
-main.ts:17237
+main.ts:17349
 
 ***
 
@@ -1192,7 +1266,7 @@ main.ts:17237
 
 #### Source
 
-main.ts:17274
+main.ts:17386
 
 ***
 
@@ -1210,7 +1284,7 @@ main.ts:17274
 
 #### Source
 
-main.ts:16951
+main.ts:17063
 
 ***
 
@@ -1228,7 +1302,7 @@ main.ts:16951
 
 #### Source
 
-main.ts:16871
+main.ts:16983
 
 ***
 
@@ -1246,7 +1320,7 @@ main.ts:16871
 
 #### Source
 
-main.ts:16908
+main.ts:17020
 
 ***
 
@@ -1264,7 +1338,7 @@ main.ts:16908
 
 #### Source
 
-main.ts:16755
+main.ts:16867
 
 ***
 
@@ -1282,7 +1356,7 @@ main.ts:16755
 
 #### Source
 
-main.ts:16431
+main.ts:16543
 
 ***
 
@@ -1300,7 +1374,7 @@ main.ts:16431
 
 #### Source
 
-main.ts:16474
+main.ts:16586
 
 ***
 
@@ -1318,7 +1392,7 @@ main.ts:16474
 
 #### Source
 
-main.ts:16351
+main.ts:16463
 
 ***
 
@@ -1336,7 +1410,7 @@ main.ts:16351
 
 #### Source
 
-main.ts:16388
+main.ts:16500
 
 ***
 
@@ -1354,7 +1428,7 @@ main.ts:16388
 
 #### Source
 
-main.ts:16266
+main.ts:16378
 
 ***
 
@@ -1372,7 +1446,7 @@ main.ts:16266
 
 #### Source
 
-main.ts:16309
+main.ts:16421
 
 ***
 
@@ -1390,7 +1464,7 @@ main.ts:16309
 
 #### Source
 
-main.ts:16186
+main.ts:16298
 
 ***
 
@@ -1408,7 +1482,7 @@ main.ts:16186
 
 #### Source
 
-main.ts:16223
+main.ts:16335
 
 ***
 
@@ -1426,7 +1500,7 @@ main.ts:16223
 
 #### Source
 
-main.ts:16676
+main.ts:16788
 
 ***
 
@@ -1444,7 +1518,7 @@ main.ts:16676
 
 #### Source
 
-main.ts:16718
+main.ts:16830
 
 ***
 
@@ -1462,7 +1536,7 @@ main.ts:16718
 
 #### Source
 
-main.ts:16596
+main.ts:16708
 
 ***
 
@@ -1480,7 +1554,7 @@ main.ts:16596
 
 #### Source
 
-main.ts:16639
+main.ts:16751
 
 ***
 
@@ -1498,7 +1572,7 @@ main.ts:16639
 
 #### Source
 
-main.ts:16516
+main.ts:16628
 
 ***
 
@@ -1516,7 +1590,7 @@ main.ts:16516
 
 #### Source
 
-main.ts:16553
+main.ts:16665
 
 ***
 
@@ -1534,7 +1608,7 @@ main.ts:16553
 
 #### Source
 
-main.ts:16101
+main.ts:16213
 
 ***
 
@@ -1552,7 +1626,7 @@ main.ts:16101
 
 #### Source
 
-main.ts:16144
+main.ts:16256
 
 ***
 
@@ -1570,7 +1644,7 @@ main.ts:16144
 
 #### Source
 
-main.ts:16021
+main.ts:16096
 
 ***
 
@@ -1588,7 +1662,7 @@ main.ts:16021
 
 #### Source
 
-main.ts:16058
+main.ts:16133
 
 ***
 
@@ -1606,4 +1680,4 @@ main.ts:16058
 
 #### Source
 
-main.ts:15905
+main.ts:15942

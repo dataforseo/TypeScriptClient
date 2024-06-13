@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:127635
+main.ts:127915
 
 ## Properties
 
@@ -46,7 +46,7 @@ relevant keyword for which demographic data is provided
 
 #### Source
 
-main.ts:127629
+main.ts:127909
 
 ***
 
@@ -62,7 +62,7 @@ contains age range and corresponding keyword popularity values
 
 #### Source
 
-main.ts:127631
+main.ts:127911
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:127631
 
 #### Source
 
-main.ts:127644
+main.ts:127924
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:127644
 
 #### Source
 
-main.ts:127666
+main.ts:127946
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:127666
 
 #### Source
 
-main.ts:127659
+main.ts:127939

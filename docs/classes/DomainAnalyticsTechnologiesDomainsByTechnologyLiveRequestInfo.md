@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:77542
+main.ts:77823
 
 ## Properties
 
@@ -39,7 +39,7 @@ main.ts:77542
 > **`optional`** **categories**: `string`[]
 
 ids of the target technology categories
-required field if you don’t specify groups, technology_paths or technologies
+required field if you don’t specify groups, technology_paths, keywords or technologies
 you can find the full list of technology category ids on this page
 note: you can specify up to 10 technology categories in this array
 example:
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:77463
+main.ts:77744
 
 ***
 
@@ -82,7 +82,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:77501
+main.ts:77782
 
 ***
 
@@ -91,7 +91,7 @@ main.ts:77501
 > **`optional`** **groups**: `string`[]
 
 ids of the target technology groups
-required field if you don’t specify technologies, technology_paths or categories
+required field if you don’t specify technologies, technology_paths, keywords or categories
 you can find the full list of technology group ids on this page
 note: you can specify up to 10 technology groups in this array
 example:
@@ -103,7 +103,7 @@ example:
 
 #### Source
 
-main.ts:77456
+main.ts:77737
 
 ***
 
@@ -112,9 +112,9 @@ main.ts:77456
 > **`optional`** **keywords**: `string`[]
 
 target keywords in the domain’s title, description or meta keywords
+required field if you don’t specify groups, technology_paths, technologies or categories
 optional field
 UTF-8 encoding
-each keyword should be at least 3 characters long
 example:
 ["seo","software"]
 
@@ -124,7 +124,7 @@ example:
 
 #### Source
 
-main.ts:77477
+main.ts:77758
 
 ***
 
@@ -143,7 +143,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:77523
+main.ts:77804
 
 ***
 
@@ -164,7 +164,7 @@ default value: as_is
 
 #### Source
 
-main.ts:77484
+main.ts:77765
 
 ***
 
@@ -185,7 +185,7 @@ use the offset_token if you would like to offset more results
 
 #### Source
 
-main.ts:77530
+main.ts:77811
 
 ***
 
@@ -207,7 +207,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:77538
+main.ts:77819
 
 ***
 
@@ -238,7 +238,7 @@ example:
 
 #### Source
 
-main.ts:77518
+main.ts:77799
 
 ***
 
@@ -247,7 +247,7 @@ main.ts:77518
 > **`optional`** **technologies**: `string`[]
 
 target technologies
-required field if you don’t specify groups, technology_paths or categories
+required field if you don’t specify groups, technology_paths, keywords or categories
 you can find the full list of technologies you can specify here on this page
 note: you can specify up to 10 technologies in this array
 example:
@@ -259,7 +259,7 @@ example:
 
 #### Source
 
-main.ts:77470
+main.ts:77751
 
 ***
 
@@ -268,7 +268,8 @@ main.ts:77470
 > **`optional`** **technology\_paths**: `string`[]
 
 target technology paths
-required field if you don’t specify groups, technologies and categories
+required field if you don’t specify groups, technologies, keywords or categories
+at least one field (technology_paths, groups, technologies, keywords or categories) must be set;
 each technology path should be specified as a separate object containing “path” and “name”, where “path” is specified as “$group_id.$category_id” and “name” – as the name of the target technology;
 each object with a technology path should be separated with a comma
 you can find the full list of technology group ids, category ids and technology names on this page
@@ -282,7 +283,7 @@ example:
 
 #### Source
 
-main.ts:77449
+main.ts:77730
 
 ## Methods
 
@@ -300,7 +301,7 @@ main.ts:77449
 
 #### Source
 
-main.ts:77551
+main.ts:77832
 
 ***
 
@@ -318,7 +319,7 @@ main.ts:77551
 
 #### Source
 
-main.ts:77606
+main.ts:77887
 
 ***
 
@@ -336,4 +337,4 @@ main.ts:77606
 
 #### Source
 
-main.ts:77599
+main.ts:77880

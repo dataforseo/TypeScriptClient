@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:41567
+main.ts:41835
 
 ## Properties
 
@@ -54,7 +54,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:41517
+main.ts:41785
 
 ***
 
@@ -73,7 +73,7 @@ default value: desktop
 
 #### Source
 
-main.ts:41500
+main.ts:41768
 
 ***
 
@@ -94,7 +94,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:41449
+main.ts:41717
 
 ***
 
@@ -114,7 +114,7 @@ example:en
 
 #### Source
 
-main.ts:41495
+main.ts:41763
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Source
 
-main.ts:41489
+main.ts:41757
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Source
 
-main.ts:41471
+main.ts:41739
 
 ***
 
@@ -168,7 +168,7 @@ GPS coordinates of a location
 required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
 location_coordinate parameter should be specified in the “latitude,longitude,zoom” format
-if “zoom” is not specified, 17z will be applied as a default value
+if “zoom” is not specified, 9z will be applied as a default value
 the maximum number of decimal digits for “latitude” and “longitude”: 7
 the minimum value for “zoom”: 4z
 the maximum value for “zoom”: 18z
@@ -181,7 +181,7 @@ example:
 
 #### Source
 
-main.ts:41482
+main.ts:41750
 
 ***
 
@@ -202,7 +202,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:41464
+main.ts:41732
 
 ***
 
@@ -221,7 +221,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Source
 
-main.ts:41522
+main.ts:41790
 
 ***
 
@@ -242,7 +242,7 @@ default value: android
 
 #### Source
 
-main.ts:41507
+main.ts:41775
 
 ***
 
@@ -266,7 +266,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:41563
+main.ts:41831
 
 ***
 
@@ -286,7 +286,7 @@ advanced, html
 
 #### Source
 
-main.ts:41553
+main.ts:41821
 
 ***
 
@@ -310,7 +310,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:41547
+main.ts:41815
 
 ***
 
@@ -332,7 +332,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:41457
+main.ts:41725
 
 ***
 
@@ -352,7 +352,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:41537
+main.ts:41805
 
 ***
 
@@ -375,7 +375,7 @@ example: "tuesday;18"
 
 #### Source
 
-main.ts:41531
+main.ts:41799
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:41531
 
 #### Source
 
-main.ts:41576
+main.ts:41844
 
 ***
 
@@ -411,7 +411,7 @@ main.ts:41576
 
 #### Source
 
-main.ts:41608
+main.ts:41876
 
 ***
 
@@ -429,4 +429,4 @@ main.ts:41608
 
 #### Source
 
-main.ts:41601
+main.ts:41869

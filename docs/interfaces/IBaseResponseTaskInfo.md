@@ -359,6 +359,7 @@
 - [`IMerchantGoogleLocationsCountryTaskInfo`](IMerchantGoogleLocationsCountryTaskInfo.md)
 - [`IMerchantGoogleProductsTaskPostTaskInfo`](IMerchantGoogleProductsTaskPostTaskInfo.md)
 - [`IMerchantGoogleProductsTasksReadyTaskInfo`](IMerchantGoogleProductsTasksReadyTaskInfo.md)
+- [`IMerchantTasksReadyTaskInfo`](IMerchantTasksReadyTaskInfo.md)
 - [`IMerchantGoogleProductsTaskGetAdvancedTaskInfo`](IMerchantGoogleProductsTaskGetAdvancedTaskInfo.md)
 - [`IMerchantGoogleProductsTaskGetHtmlTaskInfo`](IMerchantGoogleProductsTaskGetHtmlTaskInfo.md)
 - [`IMerchantGoogleSellersTaskPostTaskInfo`](IMerchantGoogleSellersTaskPostTaskInfo.md)
@@ -396,9 +397,11 @@
 - [`IAppDataErrorsTaskInfo`](IAppDataErrorsTaskInfo.md)
 - [`IAppDataGoogleCategoriesTaskInfo`](IAppDataGoogleCategoriesTaskInfo.md)
 - [`IAppDataGoogleLocationsTaskInfo`](IAppDataGoogleLocationsTaskInfo.md)
+- [`IAppDataGoogleLocationsCountryTaskInfo`](IAppDataGoogleLocationsCountryTaskInfo.md)
 - [`IAppDataGoogleLanguagesTaskInfo`](IAppDataGoogleLanguagesTaskInfo.md)
 - [`IAppDataGoogleAppSearchesTaskPostTaskInfo`](IAppDataGoogleAppSearchesTaskPostTaskInfo.md)
 - [`IAppDataGoogleAppSearchesTasksReadyTaskInfo`](IAppDataGoogleAppSearchesTasksReadyTaskInfo.md)
+- [`IAppDataTasksReadyTaskInfo`](IAppDataTasksReadyTaskInfo.md)
 - [`IAppDataGoogleAppSearchesTaskGetAdvancedTaskInfo`](IAppDataGoogleAppSearchesTaskGetAdvancedTaskInfo.md)
 - [`IAppDataGoogleAppSearchesTaskGetHtmlTaskInfo`](IAppDataGoogleAppSearchesTaskGetHtmlTaskInfo.md)
 - [`IAppDataGoogleAppListTaskPostTaskInfo`](IAppDataGoogleAppListTaskPostTaskInfo.md)
@@ -444,6 +447,7 @@
 - [`IBusinessDataGoogleLanguagesTaskInfo`](IBusinessDataGoogleLanguagesTaskInfo.md)
 - [`IBusinessDataGoogleMyBusinessInfoTaskPostTaskInfo`](IBusinessDataGoogleMyBusinessInfoTaskPostTaskInfo.md)
 - [`IBusinessDataGoogleMyBusinessInfoTasksReadyTaskInfo`](IBusinessDataGoogleMyBusinessInfoTasksReadyTaskInfo.md)
+- [`IBusinessDataTasksReadyTaskInfo`](IBusinessDataTasksReadyTaskInfo.md)
 - [`IBusinessDataGoogleMyBusinessInfoTaskGetTaskInfo`](IBusinessDataGoogleMyBusinessInfoTaskGetTaskInfo.md)
 - [`IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](IBusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
 - [`IBusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo`](IBusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo.md)
@@ -502,7 +506,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23247
+main.ts:23401
 
 ***
 
@@ -518,7 +522,7 @@ contains the same parameters that you specified in the POST request
 
 #### Source
 
-main.ts:23253
+main.ts:23407
 
 ***
 
@@ -531,7 +535,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:23236
+main.ts:23390
 
 ***
 
@@ -543,7 +547,7 @@ URL path
 
 #### Source
 
-main.ts:23251
+main.ts:23405
 
 ***
 
@@ -555,7 +559,7 @@ number of elements in the result array
 
 #### Source
 
-main.ts:23249
+main.ts:23403
 
 ***
 
@@ -569,7 +573,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23240
+main.ts:23394
 
 ***
 
@@ -582,7 +586,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23243
+main.ts:23397
 
 ***
 
@@ -594,4 +598,4 @@ execution time, seconds
 
 #### Source
 
-main.ts:23245
+main.ts:23399

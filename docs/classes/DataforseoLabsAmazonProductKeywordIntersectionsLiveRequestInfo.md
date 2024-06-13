@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:105182
+main.ts:105462
 
 ## Properties
 
@@ -59,7 +59,7 @@ learn more about the parameter on this help center page
 
 #### Source
 
-main.ts:105099
+main.ts:105379
 
 ***
 
@@ -84,7 +84,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:105151
+main.ts:105431
 
 ***
 
@@ -104,7 +104,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:105140
+main.ts:105420
 
 ***
 
@@ -125,7 +125,7 @@ en
 
 #### Source
 
-main.ts:105129
+main.ts:105409
 
 ***
 
@@ -146,7 +146,7 @@ English
 
 #### Source
 
-main.ts:105122
+main.ts:105402
 
 ***
 
@@ -165,7 +165,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:105134
+main.ts:105414
 
 ***
 
@@ -187,7 +187,7 @@ example:
 
 #### Source
 
-main.ts:105115
+main.ts:105395
 
 ***
 
@@ -209,7 +209,7 @@ United Kingdom
 
 #### Source
 
-main.ts:105107
+main.ts:105387
 
 ***
 
@@ -228,7 +228,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:105172
+main.ts:105452
 
 ***
 
@@ -258,7 +258,7 @@ default rule:
 
 #### Source
 
-main.ts:105167
+main.ts:105447
 
 ***
 
@@ -278,7 +278,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:105178
+main.ts:105458
 
 ## Methods
 
@@ -296,7 +296,7 @@ main.ts:105178
 
 #### Source
 
-main.ts:105191
+main.ts:105471
 
 ***
 
@@ -314,7 +314,7 @@ main.ts:105191
 
 #### Source
 
-main.ts:105232
+main.ts:105512
 
 ***
 
@@ -332,4 +332,4 @@ main.ts:105232
 
 #### Source
 
-main.ts:105225
+main.ts:105505

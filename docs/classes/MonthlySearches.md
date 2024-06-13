@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:82332
+main.ts:82612
 
 ## Properties
 
@@ -46,7 +46,7 @@ month
 
 #### Source
 
-main.ts:82326
+main.ts:82606
 
 ***
 
@@ -62,7 +62,7 @@ monthly average search volume rate
 
 #### Source
 
-main.ts:82328
+main.ts:82608
 
 ***
 
@@ -78,7 +78,7 @@ year
 
 #### Source
 
-main.ts:82324
+main.ts:82604
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:82324
 
 #### Source
 
-main.ts:82341
+main.ts:82621
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:82341
 
 #### Source
 
-main.ts:82360
+main.ts:82640
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:82360
 
 #### Source
 
-main.ts:82353
+main.ts:82633

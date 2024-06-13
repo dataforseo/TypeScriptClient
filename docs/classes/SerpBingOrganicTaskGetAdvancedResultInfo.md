@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:57956
+main.ts:58236
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:57932
+main.ts:58212
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:57937
+main.ts:58217
 
 ***
 
@@ -85,7 +85,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
 #### Source
 
-main.ts:57945
+main.ts:58225
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:57952
+main.ts:58232
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:57949
+main.ts:58229
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:57921
+main.ts:58201
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:57929
+main.ts:58209
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:57927
+main.ts:58207
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:57925
+main.ts:58205
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:57947
+main.ts:58227
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:57940
+main.ts:58220
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Source
 
-main.ts:57923
+main.ts:58203
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:57923
 
 #### Source
 
-main.ts:57965
+main.ts:58245
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:57965
 
 #### Source
 
-main.ts:58001
+main.ts:58281
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:58001
 
 #### Source
 
-main.ts:57994
+main.ts:58274

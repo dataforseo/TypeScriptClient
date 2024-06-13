@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:212814
+main.ts:213958
 
 ## Properties
 
@@ -47,7 +47,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Source
 
-main.ts:212808
+main.ts:213952
 
 ***
 
@@ -63,7 +63,7 @@ reddit reviews for the page_url
 
 #### Source
 
-main.ts:212810
+main.ts:213954
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Source
 
-main.ts:212805
+main.ts:213949
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:212805
 
 #### Source
 
-main.ts:212823
+main.ts:213967
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:212823
 
 #### Source
 
-main.ts:212846
+main.ts:213990
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:212846
 
 #### Source
 
-main.ts:212839
+main.ts:213983

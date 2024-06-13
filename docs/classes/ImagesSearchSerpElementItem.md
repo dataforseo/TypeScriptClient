@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:47927
+main.ts:48195
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:47927
 
 #### Source
 
-main.ts:19668
+main.ts:19817
 
 ***
 
@@ -68,7 +68,7 @@ the alt tag of the image
 
 #### Source
 
-main.ts:47917
+main.ts:48185
 
 ***
 
@@ -84,7 +84,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 #### Source
 
-main.ts:47923
+main.ts:48191
 
 ***
 
@@ -101,7 +101,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:47909
+main.ts:48177
 
 ***
 
@@ -119,7 +119,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:47906
+main.ts:48174
 
 ***
 
@@ -135,7 +135,7 @@ the URL of the source image
 
 #### Source
 
-main.ts:47921
+main.ts:48189
 
 ***
 
@@ -151,7 +151,7 @@ subtitle of the result in SERP
 
 #### Source
 
-main.ts:47915
+main.ts:48183
 
 ***
 
@@ -167,7 +167,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:47913
+main.ts:48181
 
 ***
 
@@ -183,7 +183,7 @@ the URL of the page where the image is hosted
 
 #### Source
 
-main.ts:47919
+main.ts:48187
 
 ***
 
@@ -199,7 +199,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:47911
+main.ts:48179
 
 ## Methods
 
@@ -221,7 +221,7 @@ main.ts:47911
 
 #### Source
 
-main.ts:47932
+main.ts:48200
 
 ***
 
@@ -243,7 +243,7 @@ main.ts:47932
 
 #### Source
 
-main.ts:47958
+main.ts:48226
 
 ***
 
@@ -265,4 +265,4 @@ main.ts:47958
 
 #### Source
 
-main.ts:47951
+main.ts:48219

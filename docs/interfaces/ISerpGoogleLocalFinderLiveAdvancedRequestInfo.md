@@ -29,7 +29,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:43003
+main.ts:43271
 
 ***
 
@@ -44,7 +44,7 @@ default value: desktop
 
 #### Source
 
-main.ts:42985
+main.ts:43253
 
 ***
 
@@ -61,7 +61,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:42934
+main.ts:43202
 
 ***
 
@@ -77,7 +77,7 @@ example:en
 
 #### Source
 
-main.ts:42980
+main.ts:43248
 
 ***
 
@@ -94,7 +94,7 @@ English
 
 #### Source
 
-main.ts:42974
+main.ts:43242
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Source
 
-main.ts:42956
+main.ts:43224
 
 ***
 
@@ -123,7 +123,7 @@ GPS coordinates of a location
 required field if you don’t specify location_name or location_code
 if you use this field, you don’t need to specify location_name or location_code
 location_coordinate parameter should be specified in the “latitude,longitude,zoom” format
-if “zoom” is not specified, 17z will be applied as a default value
+if “zoom” is not specified, 9z will be applied as a default value
 the maximum number of decimal digits for “latitude” and “longitude”: 7
 the minimum value for “zoom”: 4z
 the maximum value for “zoom”: 18z
@@ -132,7 +132,7 @@ example:
 
 #### Source
 
-main.ts:42967
+main.ts:43235
 
 ***
 
@@ -149,7 +149,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:42949
+main.ts:43217
 
 ***
 
@@ -164,7 +164,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Source
 
-main.ts:43008
+main.ts:43276
 
 ***
 
@@ -181,7 +181,7 @@ default value: android
 
 #### Source
 
-main.ts:42992
+main.ts:43260
 
 ***
 
@@ -199,7 +199,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:42942
+main.ts:43210
 
 ***
 
@@ -215,7 +215,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:43023
+main.ts:43291
 
 ***
 
@@ -234,4 +234,4 @@ example: "tuesday;18"
 
 #### Source
 
-main.ts:43017
+main.ts:43285

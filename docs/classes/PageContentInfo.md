@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:159927
+main.ts:160139
 
 ## Properties
 
@@ -38,7 +38,7 @@ main.ts:159927
 
 > **`optional`** **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-content of the footer of the table
+parsed content of the footer
 
 #### Implementation of
 
@@ -46,7 +46,7 @@ content of the footer of the table
 
 #### Source
 
-main.ts:159917
+main.ts:160129
 
 ***
 
@@ -54,7 +54,7 @@ main.ts:159917
 
 > **`optional`** **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-parsed content of the header
+content of the header of the table
 
 #### Implementation of
 
@@ -62,7 +62,7 @@ parsed content of the header
 
 #### Source
 
-main.ts:159915
+main.ts:160127
 
 ***
 
@@ -79,7 +79,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Source
 
-main.ts:159920
+main.ts:160132
 
 ***
 
@@ -96,7 +96,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Source
 
-main.ts:159923
+main.ts:160135
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:159923
 
 #### Source
 
-main.ts:159936
+main.ts:160148
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:159936
 
 #### Source
 
-main.ts:159964
+main.ts:160176
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:159964
 
 #### Source
 
-main.ts:159957
+main.ts:160169

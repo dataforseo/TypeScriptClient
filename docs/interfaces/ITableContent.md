@@ -20,7 +20,7 @@ content of the body of the table
 
 #### Source
 
-main.ts:159674
+main.ts:159886
 
 ***
 
@@ -28,11 +28,11 @@ main.ts:159674
 
 > **`optional`** **footer**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
-parsed content of the footer
+content of the footer of the table
 
 #### Source
 
-main.ts:159676
+main.ts:159888
 
 ***
 
@@ -40,8 +40,8 @@ main.ts:159676
 
 > **`optional`** **header**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
-content of the header of the table
+parsed content of the header
 
 #### Source
 
-main.ts:159672
+main.ts:159884

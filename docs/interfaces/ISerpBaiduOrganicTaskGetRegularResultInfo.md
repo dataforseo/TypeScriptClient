@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:70240
+main.ts:70520
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:70245
+main.ts:70525
 
 ***
 
@@ -51,7 +51,7 @@ organic, paid
 
 #### Source
 
-main.ts:70253
+main.ts:70533
 
 ***
 
@@ -63,7 +63,7 @@ items in SERP
 
 #### Source
 
-main.ts:70259
+main.ts:70539
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:70257
+main.ts:70537
 
 ***
 
@@ -88,7 +88,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:70229
+main.ts:70509
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:70237
+main.ts:70517
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:70235
+main.ts:70515
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:70233
+main.ts:70513
 
 ***
 
@@ -136,7 +136,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:70255
+main.ts:70535
 
 ***
 
@@ -149,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:70248
+main.ts:70528
 
 ***
 
@@ -161,4 +161,4 @@ type of element
 
 #### Source
 
-main.ts:70231
+main.ts:70511

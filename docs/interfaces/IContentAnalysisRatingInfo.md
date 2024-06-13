@@ -22,7 +22,7 @@ maximum value for the rating name
 
 #### Source
 
-main.ts:164214
+main.ts:164478
 
 ***
 
@@ -35,7 +35,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Source
 
-main.ts:164208
+main.ts:164472
 
 ***
 
@@ -47,7 +47,7 @@ number of votes
 
 #### Source
 
-main.ts:164212
+main.ts:164476
 
 ***
 
@@ -59,7 +59,7 @@ the value of the rating
 
 #### Source
 
-main.ts:164210
+main.ts:164474
 
 ***
 
@@ -71,4 +71,4 @@ relative rating
 
 #### Source
 
-main.ts:164216
+main.ts:164480

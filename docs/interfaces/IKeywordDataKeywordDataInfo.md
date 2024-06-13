@@ -21,7 +21,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Source
 
-main.ts:102845
+main.ts:103125
 
 ***
 
@@ -33,7 +33,7 @@ returned keyword
 
 #### Source
 
-main.ts:102831
+main.ts:103111
 
 ***
 
@@ -45,7 +45,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:102837
+main.ts:103117
 
 ***
 
@@ -57,7 +57,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:102839
+main.ts:103119
 
 ***
 
@@ -69,7 +69,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:102835
+main.ts:103115
 
 ***
 
@@ -81,7 +81,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:102833
+main.ts:103113
 
 ***
 
@@ -95,7 +95,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:102829
+main.ts:103109
 
 ***
 
@@ -108,4 +108,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:102842
+main.ts:103122

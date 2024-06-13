@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:200362
+main.ts:201434
 
 ## Properties
 
@@ -46,7 +46,7 @@ identifier of the business updates element in SERP
 
 #### Source
 
-main.ts:200340
+main.ts:201412
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:200333
+main.ts:201405
 
 ***
 
@@ -81,7 +81,7 @@ learn more about the cid identifier in this help center article
 
 #### Source
 
-main.ts:200344
+main.ts:201416
 
 ***
 
@@ -100,7 +100,7 @@ example:
 
 #### Source
 
-main.ts:200338
+main.ts:201410
 
 ***
 
@@ -117,7 +117,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:200347
+main.ts:201419
 
 ***
 
@@ -135,7 +135,7 @@ possible item types: google_business_post
 
 #### Source
 
-main.ts:200351
+main.ts:201423
 
 ***
 
@@ -153,7 +153,7 @@ possible item types: google_business_info
 
 #### Source
 
-main.ts:200358
+main.ts:201430
 
 ***
 
@@ -170,7 +170,7 @@ the number of items in the items array
 
 #### Source
 
-main.ts:200354
+main.ts:201426
 
 ***
 
@@ -191,7 +191,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:200324
+main.ts:201396
 
 ***
 
@@ -207,7 +207,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:200330
+main.ts:201402
 
 ***
 
@@ -223,7 +223,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:200328
+main.ts:201400
 
 ***
 
@@ -239,7 +239,7 @@ search engine domain as specified in a POST array
 
 #### Source
 
-main.ts:200326
+main.ts:201398
 
 ## Methods
 
@@ -257,7 +257,7 @@ main.ts:200326
 
 #### Source
 
-main.ts:200371
+main.ts:201443
 
 ***
 
@@ -275,7 +275,7 @@ main.ts:200371
 
 #### Source
 
-main.ts:200407
+main.ts:201479
 
 ***
 
@@ -293,4 +293,4 @@ main.ts:200407
 
 #### Source
 
-main.ts:200400
+main.ts:201472

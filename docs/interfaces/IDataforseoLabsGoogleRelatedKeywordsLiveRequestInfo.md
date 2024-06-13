@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:83748
+main.ts:84028
 
 ***
 
@@ -46,20 +46,20 @@ the following operators are supported:
 regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["keyword_info.search_volume",">`",0]
+["keyword_data.keyword_info.search_volume",">`",0]
 [["keyword_info.search_volume","in",[0,1000]],
 "and",
-["keyword_info.competition_level","=","LOW"]]
-[["keyword_info.search_volume",">",100],
+["keyword_data.keyword_info.competition_level","=","LOW"]]
+[["keyword_data.keyword_info.search_volume",">",100],
 "and",
-[["keyword_info.cpc","<",0.5],
+[["keyword_data.keyword_info.cpc","<",0.5],
 "or",
 ["keyword_info.high_top_of_page_bid","<=",0.5]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
 #### Source
 
-main.ts:83789
+main.ts:84069
 
 ***
 
@@ -74,7 +74,7 @@ default value: false
 
 #### Source
 
-main.ts:83763
+main.ts:84043
 
 ***
 
@@ -89,7 +89,7 @@ default value: false
 
 #### Source
 
-main.ts:83753
+main.ts:84033
 
 ***
 
@@ -104,7 +104,7 @@ default value: false
 
 #### Source
 
-main.ts:83758
+main.ts:84038
 
 ***
 
@@ -120,7 +120,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:83704
+main.ts:83984
 
 ***
 
@@ -138,7 +138,7 @@ en
 
 #### Source
 
-main.ts:83736
+main.ts:84016
 
 ***
 
@@ -156,7 +156,7 @@ English
 
 #### Source
 
-main.ts:83728
+main.ts:84008
 
 ***
 
@@ -171,7 +171,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:83810
+main.ts:84090
 
 ***
 
@@ -189,7 +189,7 @@ example:
 
 #### Source
 
-main.ts:83720
+main.ts:84000
 
 ***
 
@@ -207,7 +207,7 @@ United Kingdom
 
 #### Source
 
-main.ts:83712
+main.ts:83992
 
 ***
 
@@ -222,7 +222,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:83815
+main.ts:84095
 
 ***
 
@@ -248,7 +248,7 @@ example:
 
 #### Source
 
-main.ts:83805
+main.ts:84085
 
 ***
 
@@ -265,7 +265,7 @@ default value: false
 
 #### Source
 
-main.ts:83770
+main.ts:84050
 
 ***
 
@@ -281,4 +281,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:83821
+main.ts:84101
