@@ -32,7 +32,7 @@ items array
 
 #### Source
 
-main.ts:77423
+main.ts:77479
 
 ## Properties
 
@@ -53,7 +53,7 @@ contains country codes and number of websites per country
 
 #### Source
 
-main.ts:77412
+main.ts:77468
 
 ***
 
@@ -69,7 +69,7 @@ date for which the data is provided
 
 #### Source
 
-main.ts:77407
+main.ts:77463
 
 ***
 
@@ -85,7 +85,7 @@ number of domains that use the specified technology
 
 #### Source
 
-main.ts:77409
+main.ts:77465
 
 ***
 
@@ -107,7 +107,7 @@ learn more about rank and how it is calculated in this help center article
 
 #### Source
 
-main.ts:77419
+main.ts:77475
 
 ***
 
@@ -128,7 +128,7 @@ contains language codes and number of websites per language
 
 #### Source
 
-main.ts:77415
+main.ts:77471
 
 ***
 
@@ -144,7 +144,7 @@ type of element
 
 #### Source
 
-main.ts:77405
+main.ts:77461
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:77405
 
 #### Source
 
-main.ts:77432
+main.ts:77488
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:77432
 
 #### Source
 
-main.ts:77472
+main.ts:77528
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:77472
 
 #### Source
 
-main.ts:77465
+main.ts:77521

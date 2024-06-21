@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:180890
+main.ts:181578
 
 ## Properties
 
@@ -46,7 +46,7 @@ rows containing related product information
 
 #### Source
 
-main.ts:180886
+main.ts:181574
 
 ***
 
@@ -62,7 +62,7 @@ title under which related product information appears on the Amazon product page
 
 #### Source
 
-main.ts:180884
+main.ts:181572
 
 ***
 
@@ -78,7 +78,7 @@ type of element
 
 #### Source
 
-main.ts:180882
+main.ts:181570
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:180882
 
 #### Source
 
-main.ts:180899
+main.ts:181587
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:180899
 
 #### Source
 
-main.ts:180922
+main.ts:181610
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:180922
 
 #### Source
 
-main.ts:180915
+main.ts:181603

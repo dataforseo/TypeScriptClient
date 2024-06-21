@@ -24,7 +24,7 @@ traffic data relevant to the specified domain
 
 #### Source
 
-main.ts:101495
+main.ts:101973
 
 ***
 
@@ -36,7 +36,7 @@ search engine type
 
 #### Source
 
-main.ts:101491
+main.ts:101969
 
 ***
 
@@ -48,4 +48,4 @@ target domain in a POST array
 
 #### Source
 
-main.ts:101493
+main.ts:101971

@@ -31,7 +31,7 @@ example:
 
 #### Source
 
-main.ts:100754
+main.ts:101224
 
 ***
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:100847
+main.ts:101325
 
 ***
 
@@ -76,7 +76,25 @@ default value: false
 
 #### Source
 
-main.ts:100827
+main.ts:101305
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:101300
 
 ***
 
@@ -91,7 +109,7 @@ default value: false
 
 #### Source
 
-main.ts:100822
+main.ts:101292
 
 ***
 
@@ -106,7 +124,7 @@ default value: true
 
 #### Source
 
-main.ts:100809
+main.ts:101279
 
 ***
 
@@ -124,7 +142,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Source
 
-main.ts:100817
+main.ts:101287
 
 ***
 
@@ -138,11 +156,11 @@ optional field
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Source
 
-main.ts:100794
+main.ts:101264
 
 ***
 
@@ -160,7 +178,7 @@ en
 
 #### Source
 
-main.ts:100786
+main.ts:101256
 
 ***
 
@@ -178,7 +196,7 @@ English
 
 #### Source
 
-main.ts:100778
+main.ts:101248
 
 ***
 
@@ -193,7 +211,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:100799
+main.ts:101269
 
 ***
 
@@ -211,7 +229,7 @@ example:
 
 #### Source
 
-main.ts:100770
+main.ts:101240
 
 ***
 
@@ -229,7 +247,7 @@ United Kingdom
 
 #### Source
 
-main.ts:100762
+main.ts:101232
 
 ***
 
@@ -244,7 +262,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Source
 
-main.ts:100804
+main.ts:101274
 
 ***
 
@@ -270,7 +288,7 @@ example:
 
 #### Source
 
-main.ts:100863
+main.ts:101341
 
 ***
 
@@ -305,7 +323,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Source
 
-main.ts:100741
+main.ts:101211
 
 ***
 
@@ -321,4 +339,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:100869
+main.ts:101347

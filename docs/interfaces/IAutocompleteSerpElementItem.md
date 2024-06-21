@@ -29,7 +29,7 @@ gws-wiz-local
 
 #### Source
 
-main.ts:52759
+main.ts:52803
 
 ***
 
@@ -42,7 +42,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:52730
+main.ts:52774
 
 ***
 
@@ -56,7 +56,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:52727
+main.ts:52771
 
 ***
 
@@ -73,7 +73,7 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52737
+main.ts:52781
 
 ***
 
@@ -86,7 +86,7 @@ url to search results relevant to the google autocomplete suggestion
 
 #### Source
 
-main.ts:52746
+main.ts:52790
 
 ***
 
@@ -98,7 +98,7 @@ google autocomplete keyword suggestion
 
 #### Source
 
-main.ts:52739
+main.ts:52783
 
 ***
 
@@ -112,7 +112,7 @@ chrome/chrome-omni
 
 #### Source
 
-main.ts:52743
+main.ts:52787
 
 ***
 
@@ -128,4 +128,4 @@ gws-wiz-serp
 
 #### Source
 
-main.ts:52752
+main.ts:52796

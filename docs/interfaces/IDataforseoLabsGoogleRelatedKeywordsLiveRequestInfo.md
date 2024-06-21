@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:84028
+main.ts:84232
 
 ***
 
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:84069
+main.ts:84281
 
 ***
 
@@ -74,7 +74,25 @@ default value: false
 
 #### Source
 
-main.ts:84043
+main.ts:84255
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:84250
 
 ***
 
@@ -89,7 +107,7 @@ default value: false
 
 #### Source
 
-main.ts:84033
+main.ts:84237
 
 ***
 
@@ -104,7 +122,7 @@ default value: false
 
 #### Source
 
-main.ts:84038
+main.ts:84242
 
 ***
 
@@ -120,7 +138,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:83984
+main.ts:84188
 
 ***
 
@@ -138,7 +156,7 @@ en
 
 #### Source
 
-main.ts:84016
+main.ts:84220
 
 ***
 
@@ -156,7 +174,7 @@ English
 
 #### Source
 
-main.ts:84008
+main.ts:84212
 
 ***
 
@@ -171,7 +189,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:84090
+main.ts:84302
 
 ***
 
@@ -189,7 +207,7 @@ example:
 
 #### Source
 
-main.ts:84000
+main.ts:84204
 
 ***
 
@@ -207,7 +225,7 @@ United Kingdom
 
 #### Source
 
-main.ts:83992
+main.ts:84196
 
 ***
 
@@ -222,7 +240,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:84095
+main.ts:84307
 
 ***
 
@@ -248,7 +266,7 @@ example:
 
 #### Source
 
-main.ts:84085
+main.ts:84297
 
 ***
 
@@ -265,7 +283,7 @@ default value: false
 
 #### Source
 
-main.ts:84050
+main.ts:84262
 
 ***
 
@@ -281,4 +299,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:84101
+main.ts:84313

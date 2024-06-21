@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:32017
+main.ts:32061
 
 ## Properties
 
@@ -46,7 +46,7 @@ additional elements in the mention_carousel item
 
 #### Source
 
-main.ts:32013
+main.ts:32057
 
 ***
 
@@ -62,7 +62,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:32008
+main.ts:32052
 
 ***
 
@@ -79,7 +79,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:32011
+main.ts:32055
 
 ***
 
@@ -95,7 +95,7 @@ title of a given link element
 
 #### Source
 
-main.ts:32006
+main.ts:32050
 
 ***
 
@@ -111,7 +111,7 @@ type of element
 
 #### Source
 
-main.ts:32004
+main.ts:32048
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:32004
 
 #### Source
 
-main.ts:32026
+main.ts:32070
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:32026
 
 #### Source
 
-main.ts:32051
+main.ts:32095
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:32051
 
 #### Source
 
-main.ts:32044
+main.ts:32088

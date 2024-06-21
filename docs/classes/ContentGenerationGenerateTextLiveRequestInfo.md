@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:168351
+main.ts:169221
 
 ## Properties
 
@@ -51,7 +51,7 @@ learn more about this parameter on our help center
 
 #### Source
 
-main.ts:168331
+main.ts:169201
 
 ***
 
@@ -70,7 +70,7 @@ learn more about this parameter on our help center
 
 #### Source
 
-main.ts:168318
+main.ts:169188
 
 ***
 
@@ -88,7 +88,7 @@ if set to true, generated content will include a logical conclusion
 
 #### Source
 
-main.ts:168335
+main.ts:169205
 
 ***
 
@@ -108,7 +108,7 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 #### Source
 
-main.ts:168324
+main.ts:169194
 
 ***
 
@@ -128,7 +128,7 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 #### Source
 
-main.ts:168313
+main.ts:169183
 
 ***
 
@@ -148,7 +148,7 @@ supplement_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:168341
+main.ts:169211
 
 ***
 
@@ -168,7 +168,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:168347
+main.ts:169217
 
 ***
 
@@ -187,7 +187,7 @@ can contain from 1 to 50 tokens
 
 #### Source
 
-main.ts:168302
+main.ts:169172
 
 ***
 
@@ -206,7 +206,7 @@ can take values from 1 to 1000
 
 #### Source
 
-main.ts:168307
+main.ts:169177
 
 ## Methods
 
@@ -224,7 +224,7 @@ main.ts:168307
 
 #### Source
 
-main.ts:168360
+main.ts:169230
 
 ***
 
@@ -242,7 +242,7 @@ main.ts:168360
 
 #### Source
 
-main.ts:168393
+main.ts:169263
 
 ***
 
@@ -260,4 +260,4 @@ main.ts:168393
 
 #### Source
 
-main.ts:168386
+main.ts:169256

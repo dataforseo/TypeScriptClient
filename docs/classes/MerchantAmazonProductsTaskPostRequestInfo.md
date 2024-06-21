@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:178530
+main.ts:179400
 
 ## Properties
 
@@ -57,7 +57,7 @@ specify one of the following amazon departments for extracting product listings:
 
 #### Source
 
-main.ts:178526
+main.ts:179396
 
 ***
 
@@ -84,7 +84,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:150199
+main.ts:151069
 
 ***
 
@@ -109,7 +109,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:150132
+main.ts:151002
 
 ***
 
@@ -134,7 +134,7 @@ en
 
 #### Source
 
-main.ts:150183
+main.ts:151053
 
 ***
 
@@ -159,7 +159,7 @@ English
 
 #### Source
 
-main.ts:150176
+main.ts:151046
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Source
 
-main.ts:150160
+main.ts:151030
 
 ***
 
@@ -211,7 +211,7 @@ example:
 
 #### Source
 
-main.ts:150169
+main.ts:151039
 
 ***
 
@@ -236,7 +236,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:150153
+main.ts:151023
 
 ***
 
@@ -261,7 +261,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:150206
+main.ts:151076
 
 ***
 
@@ -289,7 +289,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:150268
+main.ts:151138
 
 ***
 
@@ -313,7 +313,7 @@ advanced, html
 
 #### Source
 
-main.ts:150258
+main.ts:151128
 
 ***
 
@@ -341,7 +341,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:150252
+main.ts:151122
 
 ***
 
@@ -365,7 +365,7 @@ example:
 
 #### Source
 
-main.ts:150229
+main.ts:151099
 
 ***
 
@@ -389,7 +389,7 @@ example:
 
 #### Source
 
-main.ts:150223
+main.ts:151093
 
 ***
 
@@ -415,7 +415,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:150146
+main.ts:151016
 
 ***
 
@@ -440,7 +440,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:150190
+main.ts:151060
 
 ***
 
@@ -469,7 +469,7 @@ example:
 
 #### Source
 
-main.ts:150217
+main.ts:151087
 
 ***
 
@@ -494,7 +494,7 @@ sort_by:"review_score"
 
 #### Source
 
-main.ts:150236
+main.ts:151106
 
 ***
 
@@ -518,7 +518,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:150242
+main.ts:151112
 
 ***
 
@@ -542,7 +542,7 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Source
 
-main.ts:150138
+main.ts:151008
 
 ## Methods
 
@@ -564,7 +564,7 @@ main.ts:150138
 
 #### Source
 
-main.ts:178534
+main.ts:179404
 
 ***
 
@@ -586,7 +586,7 @@ main.ts:178534
 
 #### Source
 
-main.ts:178552
+main.ts:179422
 
 ***
 
@@ -608,4 +608,4 @@ main.ts:178552
 
 #### Source
 
-main.ts:178545
+main.ts:179415

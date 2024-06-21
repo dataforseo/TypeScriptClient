@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:89948
+main.ts:90288
 
 ## Properties
 
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:89922
+main.ts:90262
 
 ***
 
@@ -87,7 +87,7 @@ default value: live
 
 #### Source
 
-main.ts:89902
+main.ts:90242
 
 ***
 
@@ -106,7 +106,29 @@ default value: false
 
 #### Source
 
-main.ts:89869
+main.ts:90201
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:90218
 
 ***
 
@@ -121,7 +143,7 @@ Note: if the item_types array contains item types that are different from organi
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Implementation of
 
@@ -129,7 +151,7 @@ default value:
 
 #### Source
 
-main.ts:89878
+main.ts:90210
 
 ***
 
@@ -152,7 +174,7 @@ en
 
 #### Source
 
-main.ts:89864
+main.ts:90196
 
 ***
 
@@ -175,7 +197,7 @@ English
 
 #### Source
 
-main.ts:89855
+main.ts:90187
 
 ***
 
@@ -194,7 +216,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:89883
+main.ts:90223
 
 ***
 
@@ -213,7 +235,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Source
 
-main.ts:89893
+main.ts:90233
 
 ***
 
@@ -236,7 +258,7 @@ example:
 
 #### Source
 
-main.ts:89846
+main.ts:90178
 
 ***
 
@@ -259,7 +281,7 @@ United Kingdom
 
 #### Source
 
-main.ts:89837
+main.ts:90169
 
 ***
 
@@ -278,7 +300,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:89888
+main.ts:90228
 
 ***
 
@@ -308,7 +330,7 @@ example:
 
 #### Source
 
-main.ts:89938
+main.ts:90278
 
 ***
 
@@ -328,7 +350,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:89944
+main.ts:90284
 
 ***
 
@@ -352,7 +374,7 @@ example:
 
 #### Source
 
-main.ts:89828
+main.ts:90160
 
 ## Methods
 
@@ -370,7 +392,7 @@ main.ts:89828
 
 #### Source
 
-main.ts:89957
+main.ts:90297
 
 ***
 
@@ -388,7 +410,7 @@ main.ts:89957
 
 #### Source
 
-main.ts:89999
+main.ts:90340
 
 ***
 
@@ -406,4 +428,4 @@ main.ts:89999
 
 #### Source
 
-main.ts:89992
+main.ts:90333

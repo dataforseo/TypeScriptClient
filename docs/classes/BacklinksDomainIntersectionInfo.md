@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:143750
+main.ts:144558
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates the number of backlinks
 
 #### Source
 
-main.ts:143691
+main.ts:144499
 
 ***
 
@@ -63,7 +63,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:143705
+main.ts:144513
 
 ***
 
@@ -79,7 +79,7 @@ number of broken backlinks
 
 #### Source
 
-main.ts:143707
+main.ts:144515
 
 ***
 
@@ -95,7 +95,7 @@ number of broken pages
 
 #### Source
 
-main.ts:143709
+main.ts:144517
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Source
 
-main.ts:143696
+main.ts:144504
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Source
 
-main.ts:143702
+main.ts:144510
 
 ***
 
@@ -152,7 +152,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:143689
+main.ts:144497
 
 ***
 
@@ -168,7 +168,7 @@ number of referring domains
 
 #### Source
 
-main.ts:143711
+main.ts:144519
 
 ***
 
@@ -184,7 +184,7 @@ number of domains pointing at least one nofollow link to the corresponding targe
 
 #### Source
 
-main.ts:143713
+main.ts:144521
 
 ***
 
@@ -200,7 +200,7 @@ number of referring IP addresses
 
 #### Source
 
-main.ts:143719
+main.ts:144527
 
 ***
 
@@ -221,7 +221,7 @@ indicates link attributes of the referring links and the link count per each att
 
 #### Source
 
-main.ts:143736
+main.ts:144544
 
 ***
 
@@ -242,7 +242,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Source
 
-main.ts:143746
+main.ts:144554
 
 ***
 
@@ -263,7 +263,7 @@ indicates referring platform types and link count per each platform
 
 #### Source
 
-main.ts:143739
+main.ts:144547
 
 ***
 
@@ -285,7 +285,7 @@ you can get the full list of semantic elements here
 
 #### Source
 
-main.ts:143743
+main.ts:144551
 
 ***
 
@@ -306,7 +306,7 @@ contains top-level domains and referring link count per each
 
 #### Source
 
-main.ts:143728
+main.ts:144536
 
 ***
 
@@ -329,7 +329,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Source
 
-main.ts:143733
+main.ts:144541
 
 ***
 
@@ -345,7 +345,7 @@ number of referring main domains
 
 #### Source
 
-main.ts:143715
+main.ts:144523
 
 ***
 
@@ -361,7 +361,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:143717
+main.ts:144525
 
 ***
 
@@ -377,7 +377,7 @@ indicates the number of pages pointing to the target
 
 #### Source
 
-main.ts:143723
+main.ts:144531
 
 ***
 
@@ -393,7 +393,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:143725
+main.ts:144533
 
 ***
 
@@ -409,7 +409,7 @@ number of referring subnetworks
 
 #### Source
 
-main.ts:143721
+main.ts:144529
 
 ***
 
@@ -425,7 +425,7 @@ domain that links to the corresponding target from the POST array
 
 #### Source
 
-main.ts:143685
+main.ts:144493
 
 ***
 
@@ -441,7 +441,7 @@ type of element
 
 #### Source
 
-main.ts:143683
+main.ts:144491
 
 ## Methods
 
@@ -459,7 +459,7 @@ main.ts:143683
 
 #### Source
 
-main.ts:143759
+main.ts:144567
 
 ***
 
@@ -477,7 +477,7 @@ main.ts:143759
 
 #### Source
 
-main.ts:143834
+main.ts:144642
 
 ***
 
@@ -495,4 +495,4 @@ main.ts:143834
 
 #### Source
 
-main.ts:143827
+main.ts:144635

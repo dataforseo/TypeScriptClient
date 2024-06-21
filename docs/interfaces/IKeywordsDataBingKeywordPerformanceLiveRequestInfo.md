@@ -23,7 +23,7 @@ default value: all
 
 #### Source
 
-main.ts:134591
+main.ts:135477
 
 ***
 
@@ -40,7 +40,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:134586
+main.ts:135472
 
 ***
 
@@ -56,7 +56,7 @@ example:
 
 #### Source
 
-main.ts:134634
+main.ts:135520
 
 ***
 
@@ -73,7 +73,7 @@ English
 
 #### Source
 
-main.ts:134628
+main.ts:135514
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Source
 
-main.ts:134613
+main.ts:135499
 
 ***
 
@@ -108,7 +108,7 @@ example:
 
 #### Source
 
-main.ts:134621
+main.ts:135507
 
 ***
 
@@ -125,7 +125,7 @@ example:
 
 #### Source
 
-main.ts:134606
+main.ts:135492
 
 ***
 
@@ -143,7 +143,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Source
 
-main.ts:134599
+main.ts:135485
 
 ***
 
@@ -159,4 +159,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:134640
+main.ts:135526

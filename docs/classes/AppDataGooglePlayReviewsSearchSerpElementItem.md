@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:189963
+main.ts:190651
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:189963
 
 #### Source
 
-main.ts:21154
+main.ts:21192
 
 ***
 
@@ -69,7 +69,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Source
 
-main.ts:189950
+main.ts:190638
 
 ***
 
@@ -85,7 +85,7 @@ id of the review
 
 #### Source
 
-main.ts:189947
+main.ts:190635
 
 ***
 
@@ -102,7 +102,7 @@ can take the following values: left
 
 #### Source
 
-main.ts:189935
+main.ts:190623
 
 ***
 
@@ -119,7 +119,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:189932
+main.ts:190620
 
 ***
 
@@ -136,7 +136,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:189929
+main.ts:190617
 
 ***
 
@@ -152,7 +152,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:189940
+main.ts:190628
 
 ***
 
@@ -168,7 +168,7 @@ response from the developer
 
 #### Source
 
-main.ts:189959
+main.ts:190647
 
 ***
 
@@ -184,7 +184,7 @@ content of the review
 
 #### Source
 
-main.ts:189955
+main.ts:190643
 
 ***
 
@@ -203,7 +203,7 @@ example:
 
 #### Source
 
-main.ts:189945
+main.ts:190633
 
 ***
 
@@ -220,7 +220,7 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
 
 #### Source
 
-main.ts:189953
+main.ts:190641
 
 ***
 
@@ -236,7 +236,7 @@ user profile of the reviewer
 
 #### Source
 
-main.ts:189957
+main.ts:190645
 
 ***
 
@@ -253,7 +253,7 @@ version of the app for which the review is submitted
 
 #### Source
 
-main.ts:189938
+main.ts:190626
 
 ## Methods
 
@@ -275,7 +275,7 @@ main.ts:189938
 
 #### Source
 
-main.ts:189968
+main.ts:190656
 
 ***
 
@@ -297,7 +297,7 @@ main.ts:189968
 
 #### Source
 
-main.ts:190001
+main.ts:190689
 
 ***
 
@@ -319,4 +319,4 @@ main.ts:190001
 
 #### Source
 
-main.ts:189994
+main.ts:190682

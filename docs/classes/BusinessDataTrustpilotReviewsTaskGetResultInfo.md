@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:210608
+main.ts:211296
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:210582
+main.ts:211270
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:210587
+main.ts:211275
 
 ***
 
@@ -82,7 +82,7 @@ domain of the business entity
 
 #### Source
 
-main.ts:210575
+main.ts:211263
 
 ***
 
@@ -99,7 +99,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:210604
+main.ts:211292
 
 ***
 
@@ -116,7 +116,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:210601
+main.ts:211289
 
 ***
 
@@ -133,7 +133,7 @@ address of the business entity for which the reviews are collected
 
 #### Source
 
-main.ts:210593
+main.ts:211281
 
 ***
 
@@ -150,7 +150,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:210598
+main.ts:211286
 
 ***
 
@@ -166,7 +166,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:210595
+main.ts:211283
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:210579
+main.ts:211267
 
 ***
 
@@ -199,7 +199,7 @@ the name of the business entity for which the reviews are collected
 
 #### Source
 
-main.ts:210590
+main.ts:211278
 
 ***
 
@@ -215,7 +215,7 @@ type of element
 
 #### Source
 
-main.ts:210577
+main.ts:211265
 
 ## Methods
 
@@ -233,7 +233,7 @@ main.ts:210577
 
 #### Source
 
-main.ts:210617
+main.ts:211305
 
 ***
 
@@ -251,7 +251,7 @@ main.ts:210617
 
 #### Source
 
-main.ts:210648
+main.ts:211336
 
 ***
 
@@ -269,4 +269,4 @@ main.ts:210648
 
 #### Source
 
-main.ts:210641
+main.ts:211329

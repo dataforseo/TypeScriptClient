@@ -26,7 +26,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:27341
+main.ts:27379
 
 ***
 
@@ -40,7 +40,7 @@ left, right
 
 #### Source
 
-main.ts:27333
+main.ts:27371
 
 ***
 
@@ -53,7 +53,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:27329
+main.ts:27367
 
 ***
 
@@ -67,7 +67,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:27326
+main.ts:27364
 
 ***
 
@@ -81,7 +81,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:27345
+main.ts:27383
 
 ***
 
@@ -93,7 +93,7 @@ description content
 
 #### Source
 
-main.ts:27337
+main.ts:27375
 
 ***
 
@@ -105,4 +105,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:27335
+main.ts:27373

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:147078
+main.ts:147948
 
 ## Properties
 
@@ -47,7 +47,7 @@ learn more about how the metric is calculated
 
 #### Source
 
-main.ts:147074
+main.ts:147944
 
 ***
 
@@ -63,7 +63,7 @@ domain, subdomain or webpage from a POST array
 
 #### Source
 
-main.ts:147071
+main.ts:147941
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Source
 
-main.ts:147069
+main.ts:147939
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:147069
 
 #### Source
 
-main.ts:147087
+main.ts:147957
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:147087
 
 #### Source
 
-main.ts:147106
+main.ts:147976
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:147106
 
 #### Source
 
-main.ts:147099
+main.ts:147969

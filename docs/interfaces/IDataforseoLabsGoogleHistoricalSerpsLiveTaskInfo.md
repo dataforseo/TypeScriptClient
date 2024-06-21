@@ -28,7 +28,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23401
+main.ts:23439
 
 ***
 
@@ -48,7 +48,7 @@ contains the same parameters that you specified in the POST request
 
 #### Source
 
-main.ts:23407
+main.ts:23445
 
 ***
 
@@ -65,7 +65,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:23390
+main.ts:23428
 
 ***
 
@@ -81,7 +81,7 @@ URL path
 
 #### Source
 
-main.ts:23405
+main.ts:23443
 
 ***
 
@@ -94,7 +94,7 @@ the array includes objects with SERPs for each month within the specified time f
 
 #### Source
 
-main.ts:96344
+main.ts:96786
 
 ***
 
@@ -110,7 +110,7 @@ number of elements in the result array
 
 #### Source
 
-main.ts:23403
+main.ts:23441
 
 ***
 
@@ -128,7 +128,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23394
+main.ts:23432
 
 ***
 
@@ -145,7 +145,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23397
+main.ts:23435
 
 ***
 
@@ -161,4 +161,4 @@ execution time, seconds
 
 #### Source
 
-main.ts:23399
+main.ts:23437

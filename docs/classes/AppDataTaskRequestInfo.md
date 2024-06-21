@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:172070
+main.ts:172940
 
 ## Properties
 
@@ -54,7 +54,7 @@ maximum value: 200
 
 #### Source
 
-main.ts:172034
+main.ts:172904
 
 ***
 
@@ -75,7 +75,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:171988
+main.ts:172858
 
 ***
 
@@ -96,7 +96,7 @@ en
 
 #### Source
 
-main.ts:172016
+main.ts:172886
 
 ***
 
@@ -117,7 +117,7 @@ English
 
 #### Source
 
-main.ts:172009
+main.ts:172879
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Source
 
-main.ts:172002
+main.ts:172872
 
 ***
 
@@ -159,7 +159,7 @@ West Los Angeles,California,United States
 
 #### Source
 
-main.ts:171995
+main.ts:172865
 
 ***
 
@@ -183,7 +183,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:172066
+main.ts:172936
 
 ***
 
@@ -203,7 +203,7 @@ advanced, html
 
 #### Source
 
-main.ts:172056
+main.ts:172926
 
 ***
 
@@ -227,7 +227,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:172050
+main.ts:172920
 
 ***
 
@@ -249,7 +249,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:172024
+main.ts:172894
 
 ***
 
@@ -269,7 +269,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:172040
+main.ts:172910
 
 ## Methods
 
@@ -287,7 +287,7 @@ main.ts:172040
 
 #### Source
 
-main.ts:172079
+main.ts:172949
 
 ***
 
@@ -305,7 +305,7 @@ main.ts:172079
 
 #### Source
 
-main.ts:172106
+main.ts:172976
 
 ***
 
@@ -323,4 +323,4 @@ main.ts:172106
 
 #### Source
 
-main.ts:172099
+main.ts:172969

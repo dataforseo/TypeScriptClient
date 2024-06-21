@@ -23,7 +23,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:159107
+main.ts:159977
 
 ***
 
@@ -52,7 +52,7 @@ Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_re
 
 #### Source
 
-main.ts:159133
+main.ts:160003
 
 ***
 
@@ -69,7 +69,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:159147
+main.ts:160017
 
 ***
 
@@ -86,7 +86,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:159154
+main.ts:160024
 
 ***
 
@@ -103,7 +103,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:159140
+main.ts:160010
 
 ***
 
@@ -127,7 +127,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:159179
+main.ts:160049
 
 ***
 
@@ -144,7 +144,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:159114
+main.ts:159984
 
 ***
 
@@ -160,7 +160,7 @@ false
 
 #### Source
 
-main.ts:159165
+main.ts:160035
 
 ***
 
@@ -175,7 +175,7 @@ default value: true
 
 #### Source
 
-main.ts:159159
+main.ts:160029
 
 ***
 
@@ -191,7 +191,7 @@ possible values: us, de
 
 #### Source
 
-main.ts:159190
+main.ts:160060
 
 ***
 
@@ -206,7 +206,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Source
 
-main.ts:159184
+main.ts:160054
 
 ***
 
@@ -221,4 +221,4 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Source
 
-main.ts:159102
+main.ts:159972

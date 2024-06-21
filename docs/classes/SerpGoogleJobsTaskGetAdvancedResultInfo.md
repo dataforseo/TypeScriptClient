@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:51385
+main.ts:51429
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:51362
+main.ts:51406
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:51367
+main.ts:51411
 
 ***
 
@@ -85,7 +85,7 @@ google_jobs_item
 
 #### Source
 
-main.ts:51375
+main.ts:51419
 
 ***
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:51381
+main.ts:51425
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:51379
+main.ts:51423
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:51351
+main.ts:51395
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:51359
+main.ts:51403
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:51357
+main.ts:51401
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:51355
+main.ts:51399
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:51377
+main.ts:51421
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:51370
+main.ts:51414
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Source
 
-main.ts:51353
+main.ts:51397
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:51353
 
 #### Source
 
-main.ts:51394
+main.ts:51438
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:51394
 
 #### Source
 
-main.ts:51430
+main.ts:51474
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:51430
 
 #### Source
 
-main.ts:51423
+main.ts:51467

@@ -24,7 +24,7 @@ default value: false
 
 #### Source
 
-main.ts:85234
+main.ts:85478
 
 ***
 
@@ -54,7 +54,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:85282
+main.ts:85534
 
 ***
 
@@ -69,7 +69,25 @@ default value: false
 
 #### Source
 
-main.ts:85239
+main.ts:85483
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:85496
 
 ***
 
@@ -84,7 +102,7 @@ default value: false
 
 #### Source
 
-main.ts:85244
+main.ts:85488
 
 ***
 
@@ -101,7 +119,7 @@ The keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:85194
+main.ts:85438
 
 ***
 
@@ -120,7 +138,7 @@ en
 
 #### Source
 
-main.ts:85228
+main.ts:85472
 
 ***
 
@@ -139,7 +157,7 @@ English
 
 #### Source
 
-main.ts:85219
+main.ts:85463
 
 ***
 
@@ -154,7 +172,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:85249
+main.ts:85501
 
 ***
 
@@ -172,7 +190,7 @@ example:
 
 #### Source
 
-main.ts:85210
+main.ts:85454
 
 ***
 
@@ -190,7 +208,7 @@ United Kingdom
 
 #### Source
 
-main.ts:85202
+main.ts:85446
 
 ***
 
@@ -205,7 +223,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:85254
+main.ts:85506
 
 ***
 
@@ -223,7 +241,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:85262
+main.ts:85514
 
 ***
 
@@ -250,7 +268,7 @@ example:
 
 #### Source
 
-main.ts:85299
+main.ts:85551
 
 ***
 
@@ -266,4 +284,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:85305
+main.ts:85557

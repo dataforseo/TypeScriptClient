@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92768
+main.ts:93164
 
 ## Properties
 
@@ -61,7 +61,29 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:92742
+main.ts:93138
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:93111
 
 ***
 
@@ -80,7 +102,7 @@ default value: false
 
 #### Source
 
-main.ts:92715
+main.ts:93103
 
 ***
 
@@ -102,7 +124,7 @@ default value: true
 
 #### Source
 
-main.ts:92702
+main.ts:93090
 
 ***
 
@@ -124,7 +146,7 @@ default value:
 
 #### Source
 
-main.ts:92710
+main.ts:93098
 
 ***
 
@@ -146,7 +168,7 @@ en
 
 #### Source
 
-main.ts:92694
+main.ts:93082
 
 ***
 
@@ -168,7 +190,7 @@ English
 
 #### Source
 
-main.ts:92686
+main.ts:93074
 
 ***
 
@@ -187,7 +209,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92720
+main.ts:93116
 
 ***
 
@@ -209,7 +231,7 @@ example:
 
 #### Source
 
-main.ts:92678
+main.ts:93066
 
 ***
 
@@ -231,7 +253,7 @@ United Kingdom
 
 #### Source
 
-main.ts:92670
+main.ts:93058
 
 ***
 
@@ -250,7 +272,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:92725
+main.ts:93121
 
 ***
 
@@ -280,7 +302,7 @@ example:
 
 #### Source
 
-main.ts:92758
+main.ts:93154
 
 ***
 
@@ -300,7 +322,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92764
+main.ts:93160
 
 ***
 
@@ -319,7 +341,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92657
+main.ts:93045
 
 ***
 
@@ -338,7 +360,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92662
+main.ts:93050
 
 ## Methods
 
@@ -356,7 +378,7 @@ main.ts:92662
 
 #### Source
 
-main.ts:92777
+main.ts:93173
 
 ***
 
@@ -374,7 +396,7 @@ main.ts:92777
 
 #### Source
 
-main.ts:92819
+main.ts:93216
 
 ***
 
@@ -392,4 +414,4 @@ main.ts:92819
 
 #### Source
 
-main.ts:92812
+main.ts:93209

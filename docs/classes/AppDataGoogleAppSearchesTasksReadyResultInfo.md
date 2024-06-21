@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:186036
+main.ts:186724
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:186025
+main.ts:186713
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Google App Searches task
 
 #### Source
 
-main.ts:186029
+main.ts:186717
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Source
 
-main.ts:186032
+main.ts:186720
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:186019
+main.ts:186707
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:186021
+main.ts:186709
 
 ***
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Source
 
-main.ts:186023
+main.ts:186711
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:186027
+main.ts:186715
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:186027
 
 #### Source
 
-main.ts:186045
+main.ts:186733
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:186045
 
 #### Source
 
-main.ts:186068
+main.ts:186756
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:186068
 
 #### Source
 
-main.ts:186061
+main.ts:186749

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:29955
+main.ts:29999
 
 ## Properties
 
@@ -46,7 +46,7 @@ alt tag of the image
 
 #### Source
 
-main.ts:29946
+main.ts:29990
 
 ***
 
@@ -63,7 +63,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:29951
+main.ts:29995
 
 ***
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Source
 
-main.ts:29944
+main.ts:29988
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Source
 
-main.ts:29942
+main.ts:29986
 
 ***
 
@@ -111,7 +111,7 @@ relevant URL
 
 #### Source
 
-main.ts:29948
+main.ts:29992
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:29948
 
 #### Source
 
-main.ts:29964
+main.ts:30008
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:29964
 
 #### Source
 
-main.ts:29985
+main.ts:30029
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:29985
 
 #### Source
 
-main.ts:29978
+main.ts:30022

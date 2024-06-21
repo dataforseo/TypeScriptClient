@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:28237
+main.ts:28275
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Source
 
-main.ts:28218
+main.ts:28256
 
 ***
 
@@ -65,7 +65,7 @@ by Google
 
 #### Source
 
-main.ts:28230
+main.ts:28268
 
 ***
 
@@ -82,7 +82,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Source
 
-main.ts:28233
+main.ts:28271
 
 ***
 
@@ -99,7 +99,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Source
 
-main.ts:28221
+main.ts:28259
 
 ***
 
@@ -115,7 +115,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:28225
+main.ts:28263
 
 ***
 
@@ -131,7 +131,7 @@ source of additional information about the result
 
 #### Source
 
-main.ts:28223
+main.ts:28261
 
 ***
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:28214
+main.ts:28252
 
 ***
 
@@ -163,7 +163,7 @@ type of element
 
 #### Source
 
-main.ts:28212
+main.ts:28250
 
 ***
 
@@ -179,7 +179,7 @@ relevant URL
 
 #### Source
 
-main.ts:28216
+main.ts:28254
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:28216
 
 #### Source
 
-main.ts:28246
+main.ts:28284
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:28246
 
 #### Source
 
-main.ts:28271
+main.ts:28309
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:28271
 
 #### Source
 
-main.ts:28264
+main.ts:28302

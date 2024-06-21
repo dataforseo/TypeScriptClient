@@ -24,7 +24,7 @@ learn more in this help center article
 
 #### Source
 
-main.ts:121788
+main.ts:122674
 
 ***
 
@@ -44,7 +44,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Source
 
-main.ts:121844
+main.ts:122730
 
 ***
 
@@ -60,7 +60,7 @@ default value: next_month
 
 #### Source
 
-main.ts:121859
+main.ts:122745
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Source
 
-main.ts:121853
+main.ts:122739
 
 ***
 
@@ -101,7 +101,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Source
 
-main.ts:121782
+main.ts:122668
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Source
 
-main.ts:121834
+main.ts:122720
 
 ***
 
@@ -133,7 +133,7 @@ English
 
 #### Source
 
-main.ts:121828
+main.ts:122714
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Source
 
-main.ts:121813
+main.ts:122699
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Source
 
-main.ts:121822
+main.ts:122708
 
 ***
 
@@ -188,7 +188,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:121805
+main.ts:122691
 
 ***
 
@@ -202,7 +202,7 @@ can take the following values: exact, broad, phrase
 
 #### Source
 
-main.ts:121792
+main.ts:122678
 
 ***
 
@@ -222,7 +222,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:121884
+main.ts:122770
 
 ***
 
@@ -242,7 +242,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:121874
+main.ts:122760
 
 ***
 
@@ -257,7 +257,7 @@ default value: false – results are returned for Google search sites
 
 #### Source
 
-main.ts:121797
+main.ts:122683
 
 ***
 
@@ -272,7 +272,7 @@ default value: relevance
 
 #### Source
 
-main.ts:121864
+main.ts:122750
 
 ***
 
@@ -288,4 +288,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:121890
+main.ts:122776

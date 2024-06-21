@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92076
+main.ts:92454
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Source
 
-main.ts:92060
+main.ts:92438
 
 ***
 
@@ -94,7 +94,29 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:92006
+main.ts:92384
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleCompetitorsDomainLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:92370
 
 ***
 
@@ -114,7 +136,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Source
 
-main.ts:92066
+main.ts:92444
 
 ***
 
@@ -129,7 +151,7 @@ Note: if the item_types array contains item types that are different from organi
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Implementation of
 
@@ -137,7 +159,7 @@ default value:
 
 #### Source
 
-main.ts:91992
+main.ts:92362
 
 ***
 
@@ -159,7 +181,7 @@ en
 
 #### Source
 
-main.ts:91983
+main.ts:92353
 
 ***
 
@@ -181,7 +203,7 @@ English
 
 #### Source
 
-main.ts:91975
+main.ts:92345
 
 ***
 
@@ -200,7 +222,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92028
+main.ts:92406
 
 ***
 
@@ -222,7 +244,7 @@ example:
 
 #### Source
 
-main.ts:91967
+main.ts:92337
 
 ***
 
@@ -244,7 +266,7 @@ United Kingdom
 
 #### Source
 
-main.ts:91959
+main.ts:92329
 
 ***
 
@@ -263,7 +285,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Source
 
-main.ts:92038
+main.ts:92416
 
 ***
 
@@ -282,7 +304,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:92033
+main.ts:92411
 
 ***
 
@@ -313,7 +335,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:92023
+main.ts:92401
 
 ***
 
@@ -333,7 +355,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92072
+main.ts:92450
 
 ***
 
@@ -352,7 +374,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:91951
+main.ts:92321
 
 ## Methods
 
@@ -370,7 +392,7 @@ main.ts:91951
 
 #### Source
 
-main.ts:92085
+main.ts:92463
 
 ***
 
@@ -388,7 +410,7 @@ main.ts:92085
 
 #### Source
 
-main.ts:92131
+main.ts:92510
 
 ***
 
@@ -406,4 +428,4 @@ main.ts:92131
 
 #### Source
 
-main.ts:92124
+main.ts:92503

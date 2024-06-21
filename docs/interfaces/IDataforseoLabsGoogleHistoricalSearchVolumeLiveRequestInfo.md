@@ -12,6 +12,24 @@
 
 ## Properties
 
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:85969
+
+***
+
 ### include\_serp\_info?
 
 > **`optional`** **include\_serp\_info**: `boolean`
@@ -23,7 +41,7 @@ default value: false
 
 #### Source
 
-main.ts:85699
+main.ts:85961
 
 ***
 
@@ -42,7 +60,7 @@ you will not be charged for the keywords omitted in the results
 
 #### Source
 
-main.ts:85662
+main.ts:85924
 
 ***
 
@@ -60,7 +78,7 @@ en
 
 #### Source
 
-main.ts:85694
+main.ts:85956
 
 ***
 
@@ -78,7 +96,7 @@ English
 
 #### Source
 
-main.ts:85686
+main.ts:85948
 
 ***
 
@@ -96,7 +114,7 @@ example:
 
 #### Source
 
-main.ts:85678
+main.ts:85940
 
 ***
 
@@ -114,7 +132,7 @@ United Kingdom
 
 #### Source
 
-main.ts:85670
+main.ts:85932
 
 ***
 
@@ -130,4 +148,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:85705
+main.ts:85975

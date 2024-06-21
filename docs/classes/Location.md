@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:205822
+main.ts:206510
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:205810
+main.ts:206498
 
 ***
 
@@ -66,7 +66,7 @@ additional parameters of each element of the location chain
 
 #### Source
 
-main.ts:205818
+main.ts:206506
 
 ***
 
@@ -85,7 +85,7 @@ example:
 
 #### Source
 
-main.ts:205815
+main.ts:206503
 
 ***
 
@@ -101,7 +101,7 @@ url to the location of the hotel in google maps
 
 #### Source
 
-main.ts:205797
+main.ts:206485
 
 ***
 
@@ -117,7 +117,7 @@ name of the neighborhood where the hotel is located
 
 #### Source
 
-main.ts:205793
+main.ts:206481
 
 ***
 
@@ -133,7 +133,7 @@ description of the neighborhood where the hotel is located
 
 #### Source
 
-main.ts:205795
+main.ts:206483
 
 ***
 
@@ -152,7 +152,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Source
 
-main.ts:205802
+main.ts:206490
 
 ***
 
@@ -169,7 +169,7 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Source
 
-main.ts:205805
+main.ts:206493
 
 ## Methods
 
@@ -187,7 +187,7 @@ main.ts:205805
 
 #### Source
 
-main.ts:205831
+main.ts:206519
 
 ***
 
@@ -205,7 +205,7 @@ main.ts:205831
 
 #### Source
 
-main.ts:205859
+main.ts:206547
 
 ***
 
@@ -223,4 +223,4 @@ main.ts:205859
 
 #### Source
 
-main.ts:205852
+main.ts:206540

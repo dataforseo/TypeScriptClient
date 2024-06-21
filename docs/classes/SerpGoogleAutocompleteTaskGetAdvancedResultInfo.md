@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:52801
+main.ts:52845
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:52778
+main.ts:52822
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:52783
+main.ts:52827
 
 ***
 
@@ -85,7 +85,7 @@ autocomplete
 
 #### Source
 
-main.ts:52791
+main.ts:52835
 
 ***
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:52797
+main.ts:52841
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:52795
+main.ts:52839
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:52767
+main.ts:52811
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:52775
+main.ts:52819
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:52773
+main.ts:52817
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:52771
+main.ts:52815
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:52793
+main.ts:52837
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:52786
+main.ts:52830
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Source
 
-main.ts:52769
+main.ts:52813
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:52769
 
 #### Source
 
-main.ts:52810
+main.ts:52854
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:52810
 
 #### Source
 
-main.ts:52846
+main.ts:52890
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:52846
 
 #### Source
 
-main.ts:52839
+main.ts:52883

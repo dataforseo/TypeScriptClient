@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:29166
+main.ts:29204
 
 ## Properties
 
@@ -48,7 +48,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:29157
+main.ts:29195
 
 ***
 
@@ -65,7 +65,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:29146
+main.ts:29184
 
 ***
 
@@ -81,7 +81,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:29129
+main.ts:29167
 
 ***
 
@@ -97,7 +97,7 @@ cached version of the page
 
 #### Source
 
-main.ts:29124
+main.ts:29162
 
 ***
 
@@ -113,7 +113,7 @@ description of the hotel booking element
 
 #### Source
 
-main.ts:29137
+main.ts:29175
 
 ***
 
@@ -129,7 +129,7 @@ domain where a link points
 
 #### Source
 
-main.ts:29118
+main.ts:29156
 
 ***
 
@@ -145,7 +145,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:29141
+main.ts:29179
 
 ***
 
@@ -161,7 +161,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:29153
+main.ts:29191
 
 ***
 
@@ -177,7 +177,7 @@ images of the element
 
 #### Source
 
-main.ts:29143
+main.ts:29181
 
 ***
 
@@ -193,7 +193,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:29133
+main.ts:29171
 
 ***
 
@@ -209,7 +209,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:29135
+main.ts:29173
 
 ***
 
@@ -225,7 +225,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:29139
+main.ts:29177
 
 ***
 
@@ -241,7 +241,7 @@ price of booking a place for the specified dates of stay
 
 #### Source
 
-main.ts:29151
+main.ts:29189
 
 ***
 
@@ -258,7 +258,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:29149
+main.ts:29187
 
 ***
 
@@ -275,7 +275,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Source
 
-main.ts:29127
+main.ts:29165
 
 ***
 
@@ -294,7 +294,7 @@ example:
 
 #### Source
 
-main.ts:29162
+main.ts:29200
 
 ***
 
@@ -310,7 +310,7 @@ title of a given link element
 
 #### Source
 
-main.ts:29120
+main.ts:29158
 
 ***
 
@@ -326,7 +326,7 @@ type of element
 
 #### Source
 
-main.ts:29114
+main.ts:29152
 
 ***
 
@@ -342,7 +342,7 @@ URL of element
 
 #### Source
 
-main.ts:29122
+main.ts:29160
 
 ***
 
@@ -358,7 +358,7 @@ name of the website in SERP
 
 #### Source
 
-main.ts:29131
+main.ts:29169
 
 ***
 
@@ -374,7 +374,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:29116
+main.ts:29154
 
 ## Methods
 
@@ -392,7 +392,7 @@ main.ts:29116
 
 #### Source
 
-main.ts:29175
+main.ts:29213
 
 ***
 
@@ -410,7 +410,7 @@ main.ts:29175
 
 #### Source
 
-main.ts:29220
+main.ts:29258
 
 ***
 
@@ -428,4 +428,4 @@ main.ts:29220
 
 #### Source
 
-main.ts:29213
+main.ts:29251

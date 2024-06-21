@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:166079
+main.ts:166949
 
 ## Properties
 
@@ -48,7 +48,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Source
 
-main.ts:166071
+main.ts:166941
 
 ***
 
@@ -66,7 +66,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 #### Source
 
-main.ts:166075
+main.ts:166945
 
 ***
 
@@ -82,7 +82,7 @@ type of element
 
 #### Source
 
-main.ts:166067
+main.ts:166937
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:166067
 
 #### Source
 
-main.ts:166088
+main.ts:166958
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:166088
 
 #### Source
 
-main.ts:166107
+main.ts:166977
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:166107
 
 #### Source
 
-main.ts:166100
+main.ts:166970

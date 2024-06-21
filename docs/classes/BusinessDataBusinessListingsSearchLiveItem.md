@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:197771
+main.ts:198459
 
 ## Properties
 
@@ -47,7 +47,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:197681
+main.ts:198369
 
 ***
 
@@ -63,7 +63,7 @@ address of the business entity
 
 #### Source
 
-main.ts:197690
+main.ts:198378
 
 ***
 
@@ -79,7 +79,7 @@ object containing address components of the business entity
 
 #### Source
 
-main.ts:197692
+main.ts:198380
 
 ***
 
@@ -96,7 +96,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Source
 
-main.ts:197723
+main.ts:198411
 
 ***
 
@@ -113,7 +113,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:197675
+main.ts:198363
 
 ***
 
@@ -130,7 +130,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:197678
+main.ts:198366
 
 ***
 
@@ -147,7 +147,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:197762
+main.ts:198450
 
 ***
 
@@ -165,7 +165,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:197685
+main.ts:198373
 
 ***
 
@@ -182,7 +182,7 @@ list of contacts to interact with the business
 
 #### Source
 
-main.ts:197759
+main.ts:198447
 
 ***
 
@@ -199,7 +199,7 @@ the description of the business entity for which the results are collected
 
 #### Source
 
-main.ts:197672
+main.ts:198360
 
 ***
 
@@ -215,7 +215,7 @@ domain of the business entity
 
 #### Source
 
-main.ts:197702
+main.ts:198390
 
 ***
 
@@ -232,7 +232,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:197688
+main.ts:198376
 
 ***
 
@@ -250,7 +250,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Source
 
-main.ts:197738
+main.ts:198426
 
 ***
 
@@ -266,7 +266,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Source
 
-main.ts:197720
+main.ts:198408
 
 ***
 
@@ -285,7 +285,7 @@ example:
 
 #### Source
 
-main.ts:197767
+main.ts:198455
 
 ***
 
@@ -303,7 +303,7 @@ example:
 
 #### Source
 
-main.ts:197714
+main.ts:198402
 
 ***
 
@@ -320,7 +320,7 @@ list of options to interact with the business directly from search results
 
 #### Source
 
-main.ts:197756
+main.ts:198444
 
 ***
 
@@ -336,7 +336,7 @@ URL of the logo featured in Google My Business profile
 
 #### Source
 
-main.ts:197704
+main.ts:198392
 
 ***
 
@@ -354,7 +354,7 @@ example:
 
 #### Source
 
-main.ts:197718
+main.ts:198406
 
 ***
 
@@ -370,7 +370,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:197706
+main.ts:198394
 
 ***
 
@@ -386,7 +386,7 @@ related business entities
 
 #### Source
 
-main.ts:197747
+main.ts:198435
 
 ***
 
@@ -402,7 +402,7 @@ phone number of the business entity
 
 #### Source
 
-main.ts:197698
+main.ts:198386
 
 ***
 
@@ -420,7 +420,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:197696
+main.ts:198384
 
 ***
 
@@ -446,7 +446,7 @@ example:
 
 #### Source
 
-main.ts:197731
+main.ts:198419
 
 ***
 
@@ -463,7 +463,7 @@ information related to busy hours of the business entity
 
 #### Source
 
-main.ts:197753
+main.ts:198441
 
 ***
 
@@ -481,7 +481,7 @@ if there is no price level information, the value will be null
 
 #### Source
 
-main.ts:197742
+main.ts:198430
 
 ***
 
@@ -498,7 +498,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:197734
+main.ts:198422
 
 ***
 
@@ -519,7 +519,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:197745
+main.ts:198433
 
 ***
 
@@ -535,7 +535,7 @@ additional information on the business entity
 
 #### Source
 
-main.ts:197710
+main.ts:198398
 
 ***
 
@@ -552,7 +552,7 @@ the name of the business entity for which the results are collected
 
 #### Source
 
-main.ts:197669
+main.ts:198357
 
 ***
 
@@ -568,7 +568,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:197708
+main.ts:198396
 
 ***
 
@@ -584,7 +584,7 @@ type of element
 
 #### Source
 
-main.ts:197666
+main.ts:198354
 
 ***
 
@@ -600,7 +600,7 @@ absolute url of the business entity
 
 #### Source
 
-main.ts:197700
+main.ts:198388
 
 ***
 
@@ -617,7 +617,7 @@ information related to operational hours of the business entity
 
 #### Source
 
-main.ts:197750
+main.ts:198438
 
 ## Methods
 
@@ -635,7 +635,7 @@ main.ts:197750
 
 #### Source
 
-main.ts:197780
+main.ts:198468
 
 ***
 
@@ -653,7 +653,7 @@ main.ts:197780
 
 #### Source
 
-main.ts:197862
+main.ts:198550
 
 ***
 
@@ -671,4 +671,4 @@ main.ts:197862
 
 #### Source
 
-main.ts:197855
+main.ts:198543

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:29056
+main.ts:29094
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Source
 
-main.ts:29052
+main.ts:29090
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Source
 
-main.ts:29050
+main.ts:29088
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:29050
 
 #### Source
 
-main.ts:29065
+main.ts:29103
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:29065
 
 #### Source
 
-main.ts:29087
+main.ts:29125
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:29087
 
 #### Source
 
-main.ts:29080
+main.ts:29118

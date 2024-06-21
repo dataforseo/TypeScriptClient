@@ -24,7 +24,7 @@ product price without tax and shipping
 
 #### Source
 
-main.ts:174963
+main.ts:175833
 
 ***
 
@@ -38,7 +38,7 @@ USD
 
 #### Source
 
-main.ts:174974
+main.ts:175844
 
 ***
 
@@ -51,7 +51,7 @@ if there are no details, the value will be null
 
 #### Source
 
-main.ts:174961
+main.ts:175831
 
 ***
 
@@ -63,7 +63,7 @@ domain in SERP
 
 #### Source
 
-main.ts:174954
+main.ts:175824
 
 ***
 
@@ -77,7 +77,7 @@ left, right
 
 #### Source
 
-main.ts:174950
+main.ts:175820
 
 ***
 
@@ -90,7 +90,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Source
 
-main.ts:174946
+main.ts:175816
 
 ***
 
@@ -103,7 +103,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:174943
+main.ts:175813
 
 ***
 
@@ -116,7 +116,7 @@ the shop popularity rate based on product reviews
 
 #### Source
 
-main.ts:174980
+main.ts:175850
 
 ***
 
@@ -129,7 +129,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Source
 
-main.ts:174977
+main.ts:175847
 
 ***
 
@@ -141,7 +141,7 @@ product shipping price
 
 #### Source
 
-main.ts:174968
+main.ts:175838
 
 ***
 
@@ -155,7 +155,7 @@ in this case, the value equals null
 
 #### Source
 
-main.ts:174984
+main.ts:175854
 
 ***
 
@@ -168,7 +168,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Source
 
-main.ts:174966
+main.ts:175836
 
 ***
 
@@ -180,7 +180,7 @@ product title
 
 #### Source
 
-main.ts:174956
+main.ts:175826
 
 ***
 
@@ -192,7 +192,7 @@ product price including tax and shipping
 
 #### Source
 
-main.ts:174970
+main.ts:175840
 
 ***
 
@@ -204,7 +204,7 @@ Google Shopping URL forwarding to the product page
 
 #### Source
 
-main.ts:174958
+main.ts:175828
 
 ***
 
@@ -216,4 +216,4 @@ XPath of the element
 
 #### Source
 
-main.ts:174952
+main.ts:175822

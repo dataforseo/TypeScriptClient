@@ -33,7 +33,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:91559
+main.ts:91929
 
 ***
 
@@ -48,7 +48,7 @@ default value: true
 
 #### Source
 
-main.ts:91526
+main.ts:91896
 
 ***
 
@@ -62,11 +62,11 @@ optional field
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Source
 
-main.ts:91534
+main.ts:91904
 
 ***
 
@@ -84,7 +84,7 @@ you can specify the maximum of 200 keywords
 
 #### Source
 
-main.ts:91489
+main.ts:91859
 
 ***
 
@@ -102,7 +102,7 @@ en
 
 #### Source
 
-main.ts:91521
+main.ts:91891
 
 ***
 
@@ -120,7 +120,7 @@ English
 
 #### Source
 
-main.ts:91513
+main.ts:91883
 
 ***
 
@@ -135,7 +135,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:91539
+main.ts:91909
 
 ***
 
@@ -153,7 +153,7 @@ example:
 
 #### Source
 
-main.ts:91505
+main.ts:91875
 
 ***
 
@@ -171,7 +171,7 @@ United Kingdom
 
 #### Source
 
-main.ts:91497
+main.ts:91867
 
 ***
 
@@ -186,7 +186,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:91544
+main.ts:91914
 
 ***
 
@@ -212,7 +212,7 @@ example:
 
 #### Source
 
-main.ts:91575
+main.ts:91945
 
 ***
 
@@ -228,4 +228,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:91581
+main.ts:91951

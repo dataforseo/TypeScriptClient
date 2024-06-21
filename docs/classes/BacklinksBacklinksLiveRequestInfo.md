@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:137596
+main.ts:138482
 
 ## Properties
 
@@ -53,7 +53,7 @@ default value: live
 
 #### Source
 
-main.ts:137575
+main.ts:138461
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Source
 
-main.ts:137499
+main.ts:138385
 
 ***
 
@@ -105,7 +105,7 @@ semantic_location
 
 #### Source
 
-main.ts:137512
+main.ts:138398
 
 ***
 
@@ -136,7 +136,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:137533
+main.ts:138419
 
 ***
 
@@ -156,7 +156,7 @@ default value: true
 
 #### Source
 
-main.ts:137586
+main.ts:138472
 
 ***
 
@@ -175,7 +175,7 @@ default value: true
 
 #### Source
 
-main.ts:137580
+main.ts:138466
 
 ***
 
@@ -194,7 +194,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:137566
+main.ts:138452
 
 ***
 
@@ -216,7 +216,7 @@ default value: as_is
 
 #### Source
 
-main.ts:137492
+main.ts:138378
 
 ***
 
@@ -236,7 +236,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 #### Source
 
-main.ts:137553
+main.ts:138439
 
 ***
 
@@ -264,7 +264,7 @@ example:
 
 #### Source
 
-main.ts:137547
+main.ts:138433
 
 ***
 
@@ -286,7 +286,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 #### Source
 
-main.ts:137561
+main.ts:138447
 
 ***
 
@@ -306,7 +306,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:137592
+main.ts:138478
 
 ***
 
@@ -325,7 +325,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:137484
+main.ts:138370
 
 ***
 
@@ -343,7 +343,7 @@ can be set from 1 to 1000
 
 #### Source
 
-main.ts:137516
+main.ts:138402
 
 ## Methods
 
@@ -361,7 +361,7 @@ main.ts:137516
 
 #### Source
 
-main.ts:137605
+main.ts:138491
 
 ***
 
@@ -379,7 +379,7 @@ main.ts:137605
 
 #### Source
 
-main.ts:137649
+main.ts:138535
 
 ***
 
@@ -397,4 +397,4 @@ main.ts:137649
 
 #### Source
 
-main.ts:137642
+main.ts:138528

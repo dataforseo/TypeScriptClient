@@ -37,7 +37,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:89022
+main.ts:89354
 
 ***
 
@@ -52,7 +52,25 @@ default value: false
 
 #### Source
 
-main.ts:89003
+main.ts:89335
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:89330
 
 ***
 
@@ -67,7 +85,7 @@ default value: false
 
 #### Source
 
-main.ts:88998
+main.ts:89322
 
 ***
 
@@ -85,7 +103,7 @@ en
 
 #### Source
 
-main.ts:88993
+main.ts:89317
 
 ***
 
@@ -103,7 +121,7 @@ English
 
 #### Source
 
-main.ts:88985
+main.ts:89309
 
 ***
 
@@ -119,7 +137,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:89050
+main.ts:89382
 
 ***
 
@@ -137,7 +155,7 @@ example:
 
 #### Source
 
-main.ts:88977
+main.ts:89301
 
 ***
 
@@ -155,7 +173,7 @@ United Kingdom
 
 #### Source
 
-main.ts:88969
+main.ts:89293
 
 ***
 
@@ -170,7 +188,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:89055
+main.ts:89387
 
 ***
 
@@ -188,7 +206,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:89063
+main.ts:89395
 
 ***
 
@@ -214,7 +232,7 @@ example:
 
 #### Source
 
-main.ts:89038
+main.ts:89370
 
 ***
 
@@ -230,4 +248,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:89044
+main.ts:89376

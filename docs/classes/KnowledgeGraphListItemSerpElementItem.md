@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:27570
+main.ts:27608
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:27570
 
 #### Source
 
-main.ts:19817
+main.ts:19855
 
 ***
 
@@ -70,7 +70,7 @@ ss:/webfacts:net_worth
 
 #### Source
 
-main.ts:27557
+main.ts:27595
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:27562
+main.ts:27600
 
 ***
 
@@ -103,7 +103,7 @@ link of the element
 
 #### Source
 
-main.ts:27559
+main.ts:27597
 
 ***
 
@@ -121,7 +121,7 @@ left, right
 
 #### Source
 
-main.ts:27549
+main.ts:27587
 
 ***
 
@@ -138,7 +138,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:27545
+main.ts:27583
 
 ***
 
@@ -156,7 +156,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:27542
+main.ts:27580
 
 ***
 
@@ -174,7 +174,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:27566
+main.ts:27604
 
 ***
 
@@ -190,7 +190,7 @@ title of the link element
 
 #### Source
 
-main.ts:27553
+main.ts:27591
 
 ***
 
@@ -206,7 +206,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:27551
+main.ts:27589
 
 ## Methods
 
@@ -228,7 +228,7 @@ main.ts:27551
 
 #### Source
 
-main.ts:27575
+main.ts:27613
 
 ***
 
@@ -250,7 +250,7 @@ main.ts:27575
 
 #### Source
 
-main.ts:27605
+main.ts:27643
 
 ***
 
@@ -272,4 +272,4 @@ main.ts:27605
 
 #### Source
 
-main.ts:27598
+main.ts:27636

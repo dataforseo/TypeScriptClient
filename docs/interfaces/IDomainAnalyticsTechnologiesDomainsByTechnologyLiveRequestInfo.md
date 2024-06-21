@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:77960
+main.ts:78017
 
 ***
 
@@ -52,7 +52,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:77998
+main.ts:78056
 
 ***
 
@@ -69,7 +69,7 @@ example:
 
 #### Source
 
-main.ts:77953
+main.ts:78010
 
 ***
 
@@ -80,13 +80,14 @@ main.ts:77953
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, technologies or categories
 optional field
-UTF-8 encoding
+you can specify the maximum of 10 keywords;
+UTF-8 encoding;
 example:
 ["seo","software"]
 
 #### Source
 
-main.ts:77974
+main.ts:78032
 
 ***
 
@@ -101,7 +102,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:78020
+main.ts:78078
 
 ***
 
@@ -118,7 +119,7 @@ default value: as_is
 
 #### Source
 
-main.ts:77981
+main.ts:78039
 
 ***
 
@@ -135,7 +136,7 @@ use the offset_token if you would like to offset more results
 
 #### Source
 
-main.ts:78027
+main.ts:78085
 
 ***
 
@@ -153,7 +154,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:78035
+main.ts:78093
 
 ***
 
@@ -180,7 +181,7 @@ example:
 
 #### Source
 
-main.ts:78015
+main.ts:78073
 
 ***
 
@@ -197,7 +198,7 @@ example:
 
 #### Source
 
-main.ts:77967
+main.ts:78024
 
 ***
 
@@ -217,4 +218,4 @@ example:
 
 #### Source
 
-main.ts:77946
+main.ts:78003

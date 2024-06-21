@@ -26,7 +26,7 @@ left, right
 
 #### Source
 
-main.ts:97022
+main.ts:97464
 
 ***
 
@@ -39,7 +39,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97018
+main.ts:97460
 
 ***
 
@@ -52,7 +52,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97015
+main.ts:97457
 
 ***
 
@@ -64,7 +64,7 @@ title of the item
 
 #### Source
 
-main.ts:97026
+main.ts:97468
 
 ***
 
@@ -76,7 +76,7 @@ URL link
 
 #### Source
 
-main.ts:97028
+main.ts:97470
 
 ***
 
@@ -88,4 +88,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97024
+main.ts:97466

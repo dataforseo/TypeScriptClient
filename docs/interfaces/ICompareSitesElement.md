@@ -20,7 +20,7 @@ website domain
 
 #### Source
 
-main.ts:37260
+main.ts:37304
 
 ***
 
@@ -32,7 +32,7 @@ URL of the image
 
 #### Source
 
-main.ts:37262
+main.ts:37306
 
 ***
 
@@ -45,7 +45,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:37265
+main.ts:37309
 
 ***
 
@@ -57,7 +57,7 @@ title of a given link element
 
 #### Source
 
-main.ts:37256
+main.ts:37300
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Source
 
-main.ts:37254
+main.ts:37298
 
 ***
 
@@ -81,4 +81,4 @@ URL
 
 #### Source
 
-main.ts:37258
+main.ts:37302

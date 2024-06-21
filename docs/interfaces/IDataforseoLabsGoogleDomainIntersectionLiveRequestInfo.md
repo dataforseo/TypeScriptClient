@@ -35,7 +35,25 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:92945
+main.ts:93351
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:93324
 
 ***
 
@@ -50,7 +68,7 @@ default value: false
 
 #### Source
 
-main.ts:92918
+main.ts:93316
 
 ***
 
@@ -68,7 +86,7 @@ default value: true
 
 #### Source
 
-main.ts:92905
+main.ts:93303
 
 ***
 
@@ -86,7 +104,7 @@ default value:
 
 #### Source
 
-main.ts:92913
+main.ts:93311
 
 ***
 
@@ -104,7 +122,7 @@ en
 
 #### Source
 
-main.ts:92897
+main.ts:93295
 
 ***
 
@@ -122,7 +140,7 @@ English
 
 #### Source
 
-main.ts:92889
+main.ts:93287
 
 ***
 
@@ -137,7 +155,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92923
+main.ts:93329
 
 ***
 
@@ -155,7 +173,7 @@ example:
 
 #### Source
 
-main.ts:92881
+main.ts:93279
 
 ***
 
@@ -173,7 +191,7 @@ United Kingdom
 
 #### Source
 
-main.ts:92873
+main.ts:93271
 
 ***
 
@@ -188,7 +206,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:92928
+main.ts:93334
 
 ***
 
@@ -214,7 +232,7 @@ example:
 
 #### Source
 
-main.ts:92961
+main.ts:93367
 
 ***
 
@@ -230,7 +248,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92967
+main.ts:93373
 
 ***
 
@@ -245,7 +263,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92860
+main.ts:93258
 
 ***
 
@@ -260,4 +278,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92865
+main.ts:93263

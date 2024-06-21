@@ -20,7 +20,7 @@ image of the element
 
 #### Source
 
-main.ts:36131
+main.ts:36175
 
 ***
 
@@ -32,7 +32,7 @@ subtitle of the element
 
 #### Source
 
-main.ts:36129
+main.ts:36173
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Source
 
-main.ts:36127
+main.ts:36171
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Source
 
-main.ts:36125
+main.ts:36169

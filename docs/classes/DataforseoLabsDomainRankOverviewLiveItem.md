@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:94620
+main.ts:95062
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:94614
+main.ts:95056
 
 ***
 
@@ -62,7 +62,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:94612
+main.ts:95054
 
 ***
 
@@ -82,7 +82,7 @@ ranking data relevant to the specified domain
 
 #### Source
 
-main.ts:94616
+main.ts:95058
 
 ***
 
@@ -98,7 +98,7 @@ search engine type
 
 #### Source
 
-main.ts:94610
+main.ts:95052
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:94610
 
 #### Source
 
-main.ts:94629
+main.ts:95071
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:94629
 
 #### Source
 
-main.ts:94655
+main.ts:95097
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:94655
 
 #### Source
 
-main.ts:94648
+main.ts:95090

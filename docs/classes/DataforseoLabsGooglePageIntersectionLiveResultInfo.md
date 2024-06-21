@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:100972
+main.ts:101450
 
 ## Properties
 
@@ -46,7 +46,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Source
 
-main.ts:100958
+main.ts:101436
 
 ***
 
@@ -62,7 +62,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:100968
+main.ts:101446
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:100966
+main.ts:101444
 
 ***
 
@@ -94,7 +94,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:100962
+main.ts:101440
 
 ***
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:100960
+main.ts:101438
 
 ***
 
@@ -130,7 +130,7 @@ URLs you specified a POST array
 
 #### Source
 
-main.ts:100956
+main.ts:101434
 
 ***
 
@@ -146,7 +146,7 @@ search engine type
 
 #### Source
 
-main.ts:100954
+main.ts:101432
 
 ***
 
@@ -162,7 +162,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:100964
+main.ts:101442
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:100964
 
 #### Source
 
-main.ts:100981
+main.ts:101459
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:100981
 
 #### Source
 
-main.ts:101019
+main.ts:101497
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:101019
 
 #### Source
 
-main.ts:101012
+main.ts:101490

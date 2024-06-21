@@ -24,7 +24,7 @@ images submitted by the reviewer
 
 #### Source
 
-main.ts:207356
+main.ts:208044
 
 ***
 
@@ -36,7 +36,7 @@ indicates whether the reviewer has a ‘local guide’ status
 
 #### Source
 
-main.ts:207328
+main.ts:208016
 
 ***
 
@@ -49,7 +49,7 @@ the original response to the review, no auto-translate applied
 
 #### Source
 
-main.ts:207342
+main.ts:208030
 
 ***
 
@@ -62,7 +62,7 @@ the original content of the review, no auto-translate applied
 
 #### Source
 
-main.ts:207312
+main.ts:208000
 
 ***
 
@@ -75,7 +75,7 @@ the owner’s response to the review
 
 #### Source
 
-main.ts:207339
+main.ts:208027
 
 ***
 
@@ -88,7 +88,7 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 #### Source
 
-main.ts:207345
+main.ts:208033
 
 ***
 
@@ -103,7 +103,7 @@ example:
 
 #### Source
 
-main.ts:207350
+main.ts:208038
 
 ***
 
@@ -115,7 +115,7 @@ total number of photos submitted by the reviewer
 
 #### Source
 
-main.ts:207326
+main.ts:208014
 
 ***
 
@@ -128,7 +128,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:207305
+main.ts:207993
 
 ***
 
@@ -140,7 +140,7 @@ URL of the reviewer’s profile image
 
 #### Source
 
-main.ts:207336
+main.ts:208024
 
 ***
 
@@ -152,7 +152,7 @@ profile name of the reviewer
 
 #### Source
 
-main.ts:207330
+main.ts:208018
 
 ***
 
@@ -164,7 +164,7 @@ URL of the reviewer’s profile
 
 #### Source
 
-main.ts:207332
+main.ts:208020
 
 ***
 
@@ -177,7 +177,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:207302
+main.ts:207990
 
 ***
 
@@ -190,7 +190,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:207299
+main.ts:207987
 
 ***
 
@@ -202,7 +202,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:207322
+main.ts:208010
 
 ***
 
@@ -215,7 +215,7 @@ contains highlighted review criteria and assessments
 
 #### Source
 
-main.ts:207359
+main.ts:208047
 
 ***
 
@@ -229,7 +229,7 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 #### Source
 
-main.ts:207354
+main.ts:208042
 
 ***
 
@@ -241,7 +241,7 @@ the content of the review
 
 #### Source
 
-main.ts:207309
+main.ts:207997
 
 ***
 
@@ -253,7 +253,7 @@ the URL of the review
 
 #### Source
 
-main.ts:207334
+main.ts:208022
 
 ***
 
@@ -265,7 +265,7 @@ total number of reviews submitted by the reviewer
 
 #### Source
 
-main.ts:207324
+main.ts:208012
 
 ***
 
@@ -278,7 +278,7 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 #### Source
 
-main.ts:207315
+main.ts:208003
 
 ***
 
@@ -293,7 +293,7 @@ example:
 
 #### Source
 
-main.ts:207320
+main.ts:208008
 
 ***
 
@@ -305,4 +305,4 @@ the XPath of the review
 
 #### Source
 
-main.ts:207307
+main.ts:207995

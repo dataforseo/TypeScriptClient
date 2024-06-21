@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:85840
+main.ts:86118
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Source
 
-main.ts:85836
+main.ts:86114
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:85834
+main.ts:86112
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:85832
+main.ts:86110
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:85830
+main.ts:86108
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:85828
+main.ts:86106
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:85828
 
 #### Source
 
-main.ts:85849
+main.ts:86127
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:85849
 
 #### Source
 
-main.ts:85874
+main.ts:86152
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:85874
 
 #### Source
 
-main.ts:85867
+main.ts:86145

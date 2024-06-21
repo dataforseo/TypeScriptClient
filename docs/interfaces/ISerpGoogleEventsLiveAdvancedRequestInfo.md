@@ -23,7 +23,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Source
 
-main.ts:47340
+main.ts:47384
 
 ***
 
@@ -42,7 +42,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:47362
+main.ts:47406
 
 ***
 
@@ -59,7 +59,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:47294
+main.ts:47338
 
 ***
 
@@ -77,7 +77,7 @@ en
 
 #### Source
 
-main.ts:47335
+main.ts:47379
 
 ***
 
@@ -95,7 +95,7 @@ English
 
 #### Source
 
-main.ts:47327
+main.ts:47371
 
 ***
 
@@ -112,7 +112,7 @@ example:
 
 #### Source
 
-main.ts:47308
+main.ts:47352
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Source
 
-main.ts:47319
+main.ts:47363
 
 ***
 
@@ -150,7 +150,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:47301
+main.ts:47345
 
 ***
 
@@ -167,7 +167,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:47369
+main.ts:47413
 
 ***
 
@@ -183,7 +183,7 @@ default value: windows
 
 #### Source
 
-main.ts:47346
+main.ts:47390
 
 ***
 
@@ -200,7 +200,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:47353
+main.ts:47397
 
 ***
 
@@ -216,4 +216,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:47375
+main.ts:47419

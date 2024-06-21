@@ -20,7 +20,7 @@ URL to the reviewer’s profile picture
 
 #### Source
 
-main.ts:210412
+main.ts:211100
 
 ***
 
@@ -32,7 +32,7 @@ country of the reviewer
 
 #### Source
 
-main.ts:210414
+main.ts:211102
 
 ***
 
@@ -44,7 +44,7 @@ the name of the reviewer
 
 #### Source
 
-main.ts:210408
+main.ts:211096
 
 ***
 
@@ -56,7 +56,7 @@ total number of reviews submitted by the reviewer
 
 #### Source
 
-main.ts:210416
+main.ts:211104
 
 ***
 
@@ -68,4 +68,4 @@ URL to the reviewer’s profile
 
 #### Source
 
-main.ts:210410
+main.ts:211098

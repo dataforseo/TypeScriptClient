@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:156962
+main.ts:157832
 
 ## Properties
 
@@ -47,7 +47,7 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 #### Source
 
-main.ts:156956
+main.ts:157826
 
 ***
 
@@ -63,7 +63,7 @@ url of the non-indexable page
 
 #### Source
 
-main.ts:156958
+main.ts:157828
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:156958
 
 #### Source
 
-main.ts:156971
+main.ts:157841
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:156971
 
 #### Source
 
-main.ts:156989
+main.ts:157859
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:156989
 
 #### Source
 
-main.ts:156982
+main.ts:157852

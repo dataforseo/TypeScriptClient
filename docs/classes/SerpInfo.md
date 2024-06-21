@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:83155
+main.ts:83341
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:83133
+main.ts:83319
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:83146
+main.ts:83332
 
 ***
 
@@ -85,7 +85,7 @@ example:
 
 #### Source
 
-main.ts:83151
+main.ts:83337
 
 ***
 
@@ -101,7 +101,7 @@ number of search results for the returned keyword
 
 #### Source
 
-main.ts:83141
+main.ts:83327
 
 ***
 
@@ -117,7 +117,7 @@ search engine type
 
 #### Source
 
-main.ts:83130
+main.ts:83316
 
 ***
 
@@ -137,7 +137,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Source
 
-main.ts:83139
+main.ts:83325
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:83139
 
 #### Source
 
-main.ts:83164
+main.ts:83350
 
 ***
 
@@ -173,7 +173,7 @@ main.ts:83164
 
 #### Source
 
-main.ts:83190
+main.ts:83376
 
 ***
 
@@ -191,4 +191,4 @@ main.ts:83190
 
 #### Source
 
-main.ts:83183
+main.ts:83369

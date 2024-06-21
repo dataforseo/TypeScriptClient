@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:221258
+main.ts:221982
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:221258
 
 #### Source
 
-main.ts:221255
+main.ts:221979
 
 ***
 
@@ -62,7 +62,7 @@ main.ts:221255
 
 #### Source
 
-main.ts:221268
+main.ts:221992
 
 ***
 
@@ -76,7 +76,7 @@ main.ts:221268
 
 #### Source
 
-main.ts:221252
+main.ts:221976
 
 ***
 
@@ -100,7 +100,7 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 #### Source
 
-main.ts:221254
+main.ts:221978
 
 ***
 
@@ -110,7 +110,7 @@ main.ts:221254
 
 #### Source
 
-main.ts:221256
+main.ts:221980
 
 ***
 
@@ -134,7 +134,7 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 #### Source
 
-main.ts:221253
+main.ts:221977
 
 ## Methods
 
@@ -152,4 +152,4 @@ main.ts:221253
 
 #### Source
 
-main.ts:221270
+main.ts:221994

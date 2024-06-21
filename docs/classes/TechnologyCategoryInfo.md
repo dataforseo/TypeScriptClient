@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:75918
+main.ts:75962
 
 ## Properties
 
@@ -48,7 +48,7 @@ crm, cart_abandonment
 
 #### Source
 
-main.ts:75904
+main.ts:75948
 
 ***
 
@@ -66,7 +66,7 @@ user_generated_content.content_curation
 
 #### Source
 
-main.ts:75908
+main.ts:75952
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Source
 
-main.ts:75914
+main.ts:75958
 
 ***
 
@@ -100,7 +100,7 @@ title of the technology category
 
 #### Source
 
-main.ts:75910
+main.ts:75954
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:75910
 
 #### Source
 
-main.ts:75927
+main.ts:75971
 
 ***
 
@@ -136,7 +136,7 @@ main.ts:75927
 
 #### Source
 
-main.ts:75951
+main.ts:75995
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:75951
 
 #### Source
 
-main.ts:75944
+main.ts:75988

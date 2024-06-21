@@ -35,7 +35,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:82575
+main.ts:82651
 
 ***
 
@@ -50,7 +50,25 @@ default value: false
 
 #### Source
 
-main.ts:82540
+main.ts:82616
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:82611
 
 ***
 
@@ -65,7 +83,7 @@ default value: false
 
 #### Source
 
-main.ts:82530
+main.ts:82598
 
 ***
 
@@ -80,7 +98,7 @@ default value: true
 
 #### Source
 
-main.ts:82535
+main.ts:82603
 
 ***
 
@@ -99,7 +117,7 @@ en
 
 #### Source
 
-main.ts:82525
+main.ts:82593
 
 ***
 
@@ -118,7 +136,7 @@ English
 
 #### Source
 
-main.ts:82516
+main.ts:82584
 
 ***
 
@@ -133,7 +151,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:82545
+main.ts:82621
 
 ***
 
@@ -151,7 +169,7 @@ example:
 
 #### Source
 
-main.ts:82507
+main.ts:82575
 
 ***
 
@@ -169,7 +187,7 @@ United Kingdom
 
 #### Source
 
-main.ts:82499
+main.ts:82567
 
 ***
 
@@ -184,7 +202,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:82550
+main.ts:82626
 
 ***
 
@@ -202,7 +220,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:82558
+main.ts:82634
 
 ***
 
@@ -228,7 +246,7 @@ example:
 
 #### Source
 
-main.ts:82591
+main.ts:82667
 
 ***
 
@@ -244,7 +262,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:82597
+main.ts:82673
 
 ***
 
@@ -259,4 +277,4 @@ the domain should be specified without https:// or www.
 
 #### Source
 
-main.ts:82491
+main.ts:82559

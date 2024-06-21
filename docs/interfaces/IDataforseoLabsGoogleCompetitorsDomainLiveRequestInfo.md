@@ -40,7 +40,7 @@ slideshare.net
 
 #### Source
 
-main.ts:92285
+main.ts:92673
 
 ***
 
@@ -64,7 +64,25 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:92231
+main.ts:92619
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:92605
 
 ***
 
@@ -80,7 +98,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Source
 
-main.ts:92291
+main.ts:92679
 
 ***
 
@@ -95,11 +113,11 @@ Note: if the item_types array contains item types that are different from organi
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Source
 
-main.ts:92217
+main.ts:92597
 
 ***
 
@@ -117,7 +135,7 @@ en
 
 #### Source
 
-main.ts:92208
+main.ts:92588
 
 ***
 
@@ -135,7 +153,7 @@ English
 
 #### Source
 
-main.ts:92200
+main.ts:92580
 
 ***
 
@@ -150,7 +168,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92253
+main.ts:92641
 
 ***
 
@@ -168,7 +186,7 @@ example:
 
 #### Source
 
-main.ts:92192
+main.ts:92572
 
 ***
 
@@ -186,7 +204,7 @@ United Kingdom
 
 #### Source
 
-main.ts:92184
+main.ts:92564
 
 ***
 
@@ -201,7 +219,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Source
 
-main.ts:92263
+main.ts:92651
 
 ***
 
@@ -216,7 +234,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:92258
+main.ts:92646
 
 ***
 
@@ -243,7 +261,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:92248
+main.ts:92636
 
 ***
 
@@ -259,7 +277,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92297
+main.ts:92685
 
 ***
 
@@ -274,4 +292,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92176
+main.ts:92556

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:33817
+main.ts:33861
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:33817
 
 #### Source
 
-main.ts:19817
+main.ts:19855
 
 ***
 
@@ -68,7 +68,7 @@ source domain
 
 #### Source
 
-main.ts:33804
+main.ts:33848
 
 ***
 
@@ -84,7 +84,7 @@ contains data provided in the graph of the element
 
 #### Source
 
-main.ts:33813
+main.ts:33857
 
 ***
 
@@ -102,7 +102,7 @@ left, right
 
 #### Source
 
-main.ts:33789
+main.ts:33833
 
 ***
 
@@ -118,7 +118,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:33800
+main.ts:33844
 
 ***
 
@@ -136,7 +136,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:33785
+main.ts:33829
 
 ***
 
@@ -155,7 +155,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:33781
+main.ts:33825
 
 ***
 
@@ -173,7 +173,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:33808
+main.ts:33852
 
 ***
 
@@ -189,7 +189,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:33798
+main.ts:33842
 
 ***
 
@@ -206,7 +206,7 @@ indicates the source of the video
 
 #### Source
 
-main.ts:33796
+main.ts:33840
 
 ***
 
@@ -223,7 +223,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:33811
+main.ts:33855
 
 ***
 
@@ -239,7 +239,7 @@ title of the row
 
 #### Source
 
-main.ts:33793
+main.ts:33837
 
 ***
 
@@ -255,7 +255,7 @@ source URL
 
 #### Source
 
-main.ts:33802
+main.ts:33846
 
 ***
 
@@ -271,7 +271,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:33791
+main.ts:33835
 
 ## Methods
 
@@ -293,7 +293,7 @@ main.ts:33791
 
 #### Source
 
-main.ts:33822
+main.ts:33866
 
 ***
 
@@ -315,7 +315,7 @@ main.ts:33822
 
 #### Source
 
-main.ts:33852
+main.ts:33896
 
 ***
 
@@ -337,4 +337,4 @@ main.ts:33852
 
 #### Source
 
-main.ts:33845
+main.ts:33889

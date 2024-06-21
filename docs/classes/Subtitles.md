@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:62236
+main.ts:62280
 
 ## Properties
 
@@ -46,7 +46,7 @@ defines if subtitles are auto generated
 
 #### Source
 
-main.ts:62232
+main.ts:62276
 
 ***
 
@@ -62,7 +62,7 @@ defines if subtitles are translatable
 
 #### Source
 
-main.ts:62230
+main.ts:62274
 
 ***
 
@@ -78,7 +78,7 @@ language of subtitles
 
 #### Source
 
-main.ts:62228
+main.ts:62272
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:62228
 
 #### Source
 
-main.ts:62245
+main.ts:62289
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:62245
 
 #### Source
 
-main.ts:62264
+main.ts:62308
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:62264
 
 #### Source
 
-main.ts:62257
+main.ts:62301

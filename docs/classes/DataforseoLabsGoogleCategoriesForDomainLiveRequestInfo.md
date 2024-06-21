@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87013
+main.ts:87299
 
 ## Properties
 
@@ -60,7 +60,29 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:86976
+main.ts:87262
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:87237
 
 ***
 
@@ -80,7 +102,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:86951
+main.ts:87229
 
 ***
 
@@ -95,7 +117,7 @@ Note: if the item_types array contains item types that are different from the or
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Implementation of
 
@@ -103,7 +125,7 @@ default value:
 
 #### Source
 
-main.ts:86960
+main.ts:87246
 
 ***
 
@@ -125,7 +147,7 @@ en
 
 #### Source
 
-main.ts:86945
+main.ts:87223
 
 ***
 
@@ -147,7 +169,7 @@ English
 
 #### Source
 
-main.ts:86937
+main.ts:87215
 
 ***
 
@@ -166,7 +188,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:86998
+main.ts:87284
 
 ***
 
@@ -188,7 +210,7 @@ example:
 
 #### Source
 
-main.ts:86929
+main.ts:87207
 
 ***
 
@@ -210,7 +232,7 @@ United Kingdom
 
 #### Source
 
-main.ts:86921
+main.ts:87199
 
 ***
 
@@ -229,7 +251,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Source
 
-main.ts:87003
+main.ts:87289
 
 ***
 
@@ -260,7 +282,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Source
 
-main.ts:86993
+main.ts:87279
 
 ***
 
@@ -280,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87009
+main.ts:87295
 
 ***
 
@@ -299,7 +321,7 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Source
 
-main.ts:86913
+main.ts:87191
 
 ## Methods
 
@@ -317,7 +339,7 @@ main.ts:86913
 
 #### Source
 
-main.ts:87022
+main.ts:87308
 
 ***
 
@@ -335,7 +357,7 @@ main.ts:87022
 
 #### Source
 
-main.ts:87062
+main.ts:87349
 
 ***
 
@@ -353,4 +375,4 @@ main.ts:87062
 
 #### Source
 
-main.ts:87055
+main.ts:87342

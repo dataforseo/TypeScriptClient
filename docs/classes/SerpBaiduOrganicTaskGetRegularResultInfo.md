@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:70431
+main.ts:70475
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:70408
+main.ts:70452
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:70413
+main.ts:70457
 
 ***
 
@@ -85,7 +85,7 @@ organic, paid
 
 #### Source
 
-main.ts:70421
+main.ts:70465
 
 ***
 
@@ -101,7 +101,7 @@ items in SERP
 
 #### Source
 
-main.ts:70427
+main.ts:70471
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:70425
+main.ts:70469
 
 ***
 
@@ -134,7 +134,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:70397
+main.ts:70441
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:70405
+main.ts:70449
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:70403
+main.ts:70447
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:70401
+main.ts:70445
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:70423
+main.ts:70467
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:70416
+main.ts:70460
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Source
 
-main.ts:70399
+main.ts:70443
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:70399
 
 #### Source
 
-main.ts:70440
+main.ts:70484
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:70440
 
 #### Source
 
-main.ts:70476
+main.ts:70520
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:70476
 
 #### Source
 
-main.ts:70469
+main.ts:70513

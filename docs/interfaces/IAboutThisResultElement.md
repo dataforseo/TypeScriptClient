@@ -20,7 +20,7 @@ the language of the result
 
 #### Source
 
-main.ts:21445
+main.ts:21483
 
 ***
 
@@ -32,7 +32,7 @@ location for which the result is relevant
 
 #### Source
 
-main.ts:21447
+main.ts:21485
 
 ***
 
@@ -44,7 +44,7 @@ related search terms that appear in the result
 
 #### Source
 
-main.ts:21451
+main.ts:21489
 
 ***
 
@@ -56,7 +56,7 @@ matching search terms that appear in the result
 
 #### Source
 
-main.ts:21449
+main.ts:21487
 
 ***
 
@@ -68,7 +68,7 @@ source of additional information about the result
 
 #### Source
 
-main.ts:21438
+main.ts:21476
 
 ***
 
@@ -81,7 +81,7 @@ description of the website from Wikipedia or another additional context
 
 #### Source
 
-main.ts:21441
+main.ts:21479
 
 ***
 
@@ -93,7 +93,7 @@ URL to full information from the 'source'
 
 #### Source
 
-main.ts:21443
+main.ts:21481
 
 ***
 
@@ -105,7 +105,7 @@ type of element
 
 #### Source
 
-main.ts:21434
+main.ts:21472
 
 ***
 
@@ -117,4 +117,4 @@ result’s URL
 
 #### Source
 
-main.ts:21436
+main.ts:21474

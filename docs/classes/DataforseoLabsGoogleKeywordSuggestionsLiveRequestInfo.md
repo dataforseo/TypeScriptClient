@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:84532
+main.ts:84752
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: false
 
 #### Source
 
-main.ts:84465
+main.ts:84685
 
 ***
 
@@ -81,7 +81,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:84488
+main.ts:84708
 
 ***
 
@@ -100,7 +100,29 @@ default value: false
 
 #### Source
 
-main.ts:84470
+main.ts:84690
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:84680
 
 ***
 
@@ -119,7 +141,7 @@ default value: false
 
 #### Source
 
-main.ts:84455
+main.ts:84667
 
 ***
 
@@ -138,7 +160,7 @@ default value: false
 
 #### Source
 
-main.ts:84460
+main.ts:84672
 
 ***
 
@@ -158,7 +180,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:84414
+main.ts:84626
 
 ***
 
@@ -181,7 +203,7 @@ en
 
 #### Source
 
-main.ts:84450
+main.ts:84662
 
 ***
 
@@ -204,7 +226,7 @@ English
 
 #### Source
 
-main.ts:84441
+main.ts:84653
 
 ***
 
@@ -223,7 +245,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:84509
+main.ts:84729
 
 ***
 
@@ -246,7 +268,7 @@ example:
 
 #### Source
 
-main.ts:84432
+main.ts:84644
 
 ***
 
@@ -269,7 +291,7 @@ United Kingdom
 
 #### Source
 
-main.ts:84423
+main.ts:84635
 
 ***
 
@@ -288,7 +310,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:84514
+main.ts:84734
 
 ***
 
@@ -310,7 +332,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:84522
+main.ts:84742
 
 ***
 
@@ -340,7 +362,7 @@ example:
 
 #### Source
 
-main.ts:84504
+main.ts:84724
 
 ***
 
@@ -360,7 +382,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:84528
+main.ts:84748
 
 ## Methods
 
@@ -378,7 +400,7 @@ main.ts:84528
 
 #### Source
 
-main.ts:84541
+main.ts:84761
 
 ***
 
@@ -396,7 +418,7 @@ main.ts:84541
 
 #### Source
 
-main.ts:84580
+main.ts:84801
 
 ***
 
@@ -414,4 +436,4 @@ main.ts:84580
 
 #### Source
 
-main.ts:84573
+main.ts:84794

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:93364
+main.ts:93778
 
 ## Properties
 
@@ -58,7 +58,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:93327
+main.ts:93741
 
 ***
 
@@ -81,7 +81,29 @@ default value: live
 
 #### Source
 
-main.ts:93313
+main.ts:93727
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleSubdomainsLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:93718
 
 ***
 
@@ -96,7 +118,7 @@ Note: if the item_types array contains item types that are different from organi
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Implementation of
 
@@ -104,7 +126,7 @@ default value:
 
 #### Source
 
-main.ts:93304
+main.ts:93710
 
 ***
 
@@ -127,7 +149,7 @@ en
 
 #### Source
 
-main.ts:93295
+main.ts:93701
 
 ***
 
@@ -150,7 +172,7 @@ English
 
 #### Source
 
-main.ts:93286
+main.ts:93692
 
 ***
 
@@ -169,7 +191,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:93349
+main.ts:93763
 
 ***
 
@@ -192,7 +214,7 @@ example:
 
 #### Source
 
-main.ts:93277
+main.ts:93683
 
 ***
 
@@ -215,7 +237,7 @@ United Kingdom
 
 #### Source
 
-main.ts:93268
+main.ts:93674
 
 ***
 
@@ -234,7 +256,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:93354
+main.ts:93768
 
 ***
 
@@ -265,7 +287,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:93344
+main.ts:93758
 
 ***
 
@@ -285,7 +307,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:93360
+main.ts:93774
 
 ***
 
@@ -304,7 +326,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:93259
+main.ts:93665
 
 ## Methods
 
@@ -322,7 +344,7 @@ main.ts:93259
 
 #### Source
 
-main.ts:93373
+main.ts:93787
 
 ***
 
@@ -340,7 +362,7 @@ main.ts:93373
 
 #### Source
 
-main.ts:93413
+main.ts:93828
 
 ***
 
@@ -358,4 +380,4 @@ main.ts:93413
 
 #### Source
 
-main.ts:93406
+main.ts:93821

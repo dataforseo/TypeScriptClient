@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:161942
+main.ts:162812
 
 ## Properties
 
@@ -47,7 +47,7 @@ if false, the version is not used by default and should be specified in the corr
 
 #### Source
 
-main.ts:161938
+main.ts:162808
 
 ***
 
@@ -63,7 +63,7 @@ lighthouse version
 
 #### Source
 
-main.ts:161935
+main.ts:162805
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:161935
 
 #### Source
 
-main.ts:161951
+main.ts:162821
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:161951
 
 #### Source
 
-main.ts:161969
+main.ts:162839
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:161969
 
 #### Source
 
-main.ts:161962
+main.ts:162832

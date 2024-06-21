@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:83897
+main.ts:84099
 
 ## Properties
 
@@ -56,7 +56,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:83820
+main.ts:84014
 
 ***
 
@@ -89,7 +89,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:83861
+main.ts:84063
 
 ***
 
@@ -108,7 +108,29 @@ default value: false
 
 #### Source
 
-main.ts:83835
+main.ts:84037
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:84032
 
 ***
 
@@ -127,7 +149,7 @@ default value: false
 
 #### Source
 
-main.ts:83825
+main.ts:84019
 
 ***
 
@@ -146,7 +168,7 @@ default value: false
 
 #### Source
 
-main.ts:83830
+main.ts:84024
 
 ***
 
@@ -166,7 +188,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:83776
+main.ts:83970
 
 ***
 
@@ -188,7 +210,7 @@ en
 
 #### Source
 
-main.ts:83808
+main.ts:84002
 
 ***
 
@@ -210,7 +232,7 @@ English
 
 #### Source
 
-main.ts:83800
+main.ts:83994
 
 ***
 
@@ -229,7 +251,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:83882
+main.ts:84084
 
 ***
 
@@ -251,7 +273,7 @@ example:
 
 #### Source
 
-main.ts:83792
+main.ts:83986
 
 ***
 
@@ -273,7 +295,7 @@ United Kingdom
 
 #### Source
 
-main.ts:83784
+main.ts:83978
 
 ***
 
@@ -292,7 +314,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:83887
+main.ts:84089
 
 ***
 
@@ -322,7 +344,7 @@ example:
 
 #### Source
 
-main.ts:83877
+main.ts:84079
 
 ***
 
@@ -343,7 +365,7 @@ default value: false
 
 #### Source
 
-main.ts:83842
+main.ts:84044
 
 ***
 
@@ -363,7 +385,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:83893
+main.ts:84095
 
 ## Methods
 
@@ -381,7 +403,7 @@ main.ts:83893
 
 #### Source
 
-main.ts:83906
+main.ts:84108
 
 ***
 
@@ -399,7 +421,7 @@ main.ts:83906
 
 #### Source
 
-main.ts:83945
+main.ts:84148
 
 ***
 
@@ -417,4 +439,4 @@ main.ts:83945
 
 #### Source
 
-main.ts:83938
+main.ts:84141

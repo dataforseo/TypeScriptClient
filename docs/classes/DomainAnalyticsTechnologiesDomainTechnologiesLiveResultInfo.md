@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:78962
+main.ts:79020
 
 ## Properties
 
@@ -47,7 +47,7 @@ code of the language that content on the target domain is written in
 
 #### Source
 
-main.ts:78945
+main.ts:79003
 
 ***
 
@@ -64,7 +64,7 @@ ISO code of the country that the target domain is determined to belong to
 
 #### Source
 
-main.ts:78939
+main.ts:78997
 
 ***
 
@@ -80,7 +80,7 @@ domain meta description
 
 #### Source
 
-main.ts:78926
+main.ts:78984
 
 ***
 
@@ -96,7 +96,7 @@ specified domain name
 
 #### Source
 
-main.ts:78922
+main.ts:78980
 
 ***
 
@@ -113,7 +113,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:78931
+main.ts:78989
 
 ***
 
@@ -130,7 +130,7 @@ emails indicated on the target website
 
 #### Source
 
-main.ts:78951
+main.ts:79009
 
 ***
 
@@ -147,7 +147,7 @@ code of the language that the target domain is determined to be associated with
 
 #### Source
 
-main.ts:78942
+main.ts:79000
 
 ***
 
@@ -166,7 +166,7 @@ example:
 
 #### Source
 
-main.ts:78936
+main.ts:78994
 
 ***
 
@@ -182,7 +182,7 @@ domain meta keywords
 
 #### Source
 
-main.ts:78928
+main.ts:78986
 
 ***
 
@@ -199,7 +199,7 @@ contact phone numbers indicated on the target website
 
 #### Source
 
-main.ts:78948
+main.ts:79006
 
 ***
 
@@ -216,7 +216,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Source
 
-main.ts:78954
+main.ts:79012
 
 ***
 
@@ -234,7 +234,7 @@ see the full list of available technologies structured by groups and categories
 
 #### Source
 
-main.ts:78958
+main.ts:79016
 
 ***
 
@@ -250,7 +250,7 @@ domain meta title
 
 #### Source
 
-main.ts:78924
+main.ts:78982
 
 ***
 
@@ -266,7 +266,7 @@ type of element
 
 #### Source
 
-main.ts:78920
+main.ts:78978
 
 ## Methods
 
@@ -284,7 +284,7 @@ main.ts:78920
 
 #### Source
 
-main.ts:78971
+main.ts:79029
 
 ***
 
@@ -302,7 +302,7 @@ main.ts:78971
 
 #### Source
 
-main.ts:79017
+main.ts:79075
 
 ***
 
@@ -320,4 +320,4 @@ main.ts:79017
 
 #### Source
 
-main.ts:79010
+main.ts:79068

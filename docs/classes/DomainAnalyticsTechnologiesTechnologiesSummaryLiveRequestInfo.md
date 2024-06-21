@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:76886
+main.ts:76940
 
 ## Properties
 
@@ -39,7 +39,7 @@ main.ts:76886
 > **`optional`** **categories**: `string`[]
 
 ids of the target technology categories
-required field if you don’t specify groups, technology_paths or technologies
+required field if you don’t specify groups, technology_paths, technologies, or keywords
 you can find the full list of technology category ids on this page
 note: you can specify up to 10 technology categories in this array
 example:
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:76835
+main.ts:76887
 
 ***
 
@@ -79,7 +79,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:76869
+main.ts:76922
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:76869
 > **`optional`** **groups**: `string`[]
 
 ids of the target technology groups
-required field if you don’t specify technologies, technology_paths or categories
+required field if you don’t specify technologies, technology_paths, categories, or keywords
 you can find the full list of technology group ids on this page
 note: you can specify up to 10 technology groups in this array
 example:
@@ -100,7 +100,7 @@ example:
 
 #### Source
 
-main.ts:76828
+main.ts:76880
 
 ***
 
@@ -113,6 +113,7 @@ optional field
 you can use this field to limit the number of elements within the following arrays:
 countries, languages, content_languages, keywords
 default value: 10
+minimum value: 1
 maximum value: 10000
 
 #### Implementation of
@@ -121,7 +122,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76876
+main.ts:76930
 
 ***
 
@@ -130,8 +131,9 @@ main.ts:76876
 > **`optional`** **keywords**: `string`[]
 
 target keywords in the domain’s title, description or meta keywords
-optional field
-UTF-8 encoding
+required field if you don’t specify groups, technology_paths, categories, or technologies
+you can specify the maximum of 10 keywords;
+UTF-8 encoding;
 example:
 ["seo","software"]
 
@@ -141,7 +143,7 @@ example:
 
 #### Source
 
-main.ts:76848
+main.ts:76901
 
 ***
 
@@ -162,7 +164,7 @@ default value: as_is
 
 #### Source
 
-main.ts:76855
+main.ts:76908
 
 ***
 
@@ -182,7 +184,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:76882
+main.ts:76936
 
 ***
 
@@ -191,7 +193,7 @@ main.ts:76882
 > **`optional`** **technologies**: `string`[]
 
 target technologies
-required field if you don’t specify groups, technology_paths or categories
+required field if you don’t specify groups, technology_paths, categories, or keywords
 you can find the full list of technologies you can specify here on this page
 note: you can specify up to 10 technologies in this array
 example:
@@ -203,7 +205,7 @@ example:
 
 #### Source
 
-main.ts:76842
+main.ts:76894
 
 ***
 
@@ -226,7 +228,7 @@ example:
 
 #### Source
 
-main.ts:76821
+main.ts:76873
 
 ## Methods
 
@@ -244,7 +246,7 @@ main.ts:76821
 
 #### Source
 
-main.ts:76895
+main.ts:76949
 
 ***
 
@@ -262,7 +264,7 @@ main.ts:76895
 
 #### Source
 
-main.ts:76944
+main.ts:76998
 
 ***
 
@@ -280,4 +282,4 @@ main.ts:76944
 
 #### Source
 
-main.ts:76937
+main.ts:76991

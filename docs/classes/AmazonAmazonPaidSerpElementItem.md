@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:178931
+main.ts:104601
 
 ## Properties
 
@@ -52,7 +52,24 @@ main.ts:178931
 
 #### Source
 
-main.ts:21460
+main.ts:21498
+
+***
+
+### asin?
+
+> **`optional`** **asin**: `string`
+
+ASIN of the product
+learn more about ASIN in this help center guide
+
+#### Implementation of
+
+[`IAmazonAmazonPaidSerpElementItem`](../interfaces/IAmazonAmazonPaidSerpElementItem.md).[`asin`](../interfaces/IAmazonAmazonPaidSerpElementItem.md#asin)
+
+#### Source
+
+main.ts:104561
 
 ***
 
@@ -68,7 +85,7 @@ number of product purchases in the past month
 
 #### Source
 
-main.ts:178896
+main.ts:104592
 
 ***
 
@@ -86,7 +103,7 @@ USD
 
 #### Source
 
-main.ts:178908
+main.ts:104575
 
 ***
 
@@ -105,7 +122,7 @@ B07G82D89J
 
 #### Source
 
-main.ts:178916
+main.ts:104597
 
 ***
 
@@ -122,7 +139,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:178927
+main.ts:104590
 
 ***
 
@@ -138,7 +155,7 @@ Amazon domain
 
 #### Source
 
-main.ts:178888
+main.ts:104554
 
 ***
 
@@ -154,7 +171,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:178894
+main.ts:104563
 
 ***
 
@@ -171,7 +188,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:178921
+main.ts:104584
 
 ***
 
@@ -188,7 +205,25 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Source
 
-main.ts:178924
+main.ts:104581
+
+***
+
+### position?
+
+> **`optional`** **position**: `string`
+
+the alignment of the element in Amazon SERP
+can take the following values:
+left, right
+
+#### Implementation of
+
+[`IAmazonAmazonPaidSerpElementItem`](../interfaces/IAmazonAmazonPaidSerpElementItem.md).[`position`](../interfaces/IAmazonAmazonPaidSerpElementItem.md#position)
+
+#### Source
+
+main.ts:104550
 
 ***
 
@@ -206,7 +241,7 @@ example:
 
 #### Source
 
-main.ts:178900
+main.ts:104567
 
 ***
 
@@ -224,7 +259,7 @@ example:
 
 #### Source
 
-main.ts:178904
+main.ts:104571
 
 ***
 
@@ -232,8 +267,8 @@ main.ts:178904
 
 > **`optional`** **rank\_absolute**: `number`
 
-absolute rank in SERP
-absolute position among all the elements found in Amazon SERP
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
@@ -241,7 +276,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Source
 
-main.ts:178884
+main.ts:104546
 
 ***
 
@@ -258,15 +293,16 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:178881
+main.ts:104543
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingElement`](RatingElement.md)
+> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
 
-product rating info
+the item’s rating 
+the popularity rate based on reviews and displayed in SERP
 
 #### Implementation of
 
@@ -274,7 +310,23 @@ product rating info
 
 #### Source
 
-main.ts:178918
+main.ts:104587
+
+***
+
+### se\_type?
+
+> **`optional`** **se\_type**: `string`
+
+search engine type
+
+#### Implementation of
+
+[`IAmazonAmazonPaidSerpElementItem`](../interfaces/IAmazonAmazonPaidSerpElementItem.md).[`se_type`](../interfaces/IAmazonAmazonPaidSerpElementItem.md#se_type)
+
+#### Source
+
+main.ts:104540
 
 ***
 
@@ -291,7 +343,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Source
 
-main.ts:178911
+main.ts:104578
 
 ***
 
@@ -307,7 +359,7 @@ product title
 
 #### Source
 
-main.ts:178890
+main.ts:104556
 
 ***
 
@@ -315,7 +367,7 @@ main.ts:178890
 
 > **`optional`** **url**: `string`
 
-the URL of the product page
+URL of the product page
 
 #### Implementation of
 
@@ -323,7 +375,7 @@ the URL of the product page
 
 #### Source
 
-main.ts:178892
+main.ts:104558
 
 ***
 
@@ -339,7 +391,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:178886
+main.ts:104552
 
 ## Methods
 
@@ -361,7 +413,7 @@ main.ts:178886
 
 #### Source
 
-main.ts:178936
+main.ts:104606
 
 ***
 
@@ -383,7 +435,7 @@ main.ts:178936
 
 #### Source
 
-main.ts:178974
+main.ts:104647
 
 ***
 
@@ -405,4 +457,4 @@ main.ts:178974
 
 #### Source
 
-main.ts:178967
+main.ts:104640

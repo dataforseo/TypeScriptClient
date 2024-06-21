@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:204995
+main.ts:205683
 
 ## Properties
 
@@ -46,7 +46,7 @@ information about the hotel
 
 #### Source
 
-main.ts:204979
+main.ts:205667
 
 ***
 
@@ -63,7 +63,7 @@ physical address of the hotel
 
 #### Source
 
-main.ts:204974
+main.ts:205662
 
 ***
 
@@ -80,7 +80,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:204957
+main.ts:205645
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Source
 
-main.ts:204962
+main.ts:205650
 
 ***
 
@@ -118,7 +118,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Source
 
-main.ts:204950
+main.ts:205638
 
 ***
 
@@ -134,7 +134,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:204954
+main.ts:205642
 
 ***
 
@@ -151,7 +151,7 @@ information about the location where the hotel is located
 
 #### Source
 
-main.ts:204982
+main.ts:205670
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:204952
+main.ts:205640
 
 ***
 
@@ -184,7 +184,7 @@ array containing URLs to images displayed in the hotel overview
 
 #### Source
 
-main.ts:204988
+main.ts:205676
 
 ***
 
@@ -201,7 +201,7 @@ contact phone number of the hotel
 
 #### Source
 
-main.ts:204977
+main.ts:205665
 
 ***
 
@@ -218,7 +218,7 @@ contains information about the hotel’s prices
 
 #### Source
 
-main.ts:204991
+main.ts:205679
 
 ***
 
@@ -235,7 +235,7 @@ information about reviews of the hotel entity
 
 #### Source
 
-main.ts:204985
+main.ts:205673
 
 ***
 
@@ -252,7 +252,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Source
 
-main.ts:204968
+main.ts:205656
 
 ***
 
@@ -269,7 +269,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Source
 
-main.ts:204971
+main.ts:205659
 
 ***
 
@@ -286,7 +286,7 @@ the title of the hotel entity for which the results are collected
 
 #### Source
 
-main.ts:204965
+main.ts:205653
 
 ## Methods
 
@@ -304,7 +304,7 @@ main.ts:204965
 
 #### Source
 
-main.ts:205004
+main.ts:205692
 
 ***
 
@@ -322,7 +322,7 @@ main.ts:205004
 
 #### Source
 
-main.ts:205039
+main.ts:205727
 
 ***
 
@@ -340,4 +340,4 @@ main.ts:205039
 
 #### Source
 
-main.ts:205032
+main.ts:205720

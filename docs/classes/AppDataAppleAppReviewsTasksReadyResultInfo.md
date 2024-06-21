@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:194686
+main.ts:195374
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:194675
+main.ts:195363
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Apple App Reviews task
 
 #### Source
 
-main.ts:194679
+main.ts:195367
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Source
 
-main.ts:194682
+main.ts:195370
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:194669
+main.ts:195357
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:194671
+main.ts:195359
 
 ***
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Source
 
-main.ts:194673
+main.ts:195361
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:194677
+main.ts:195365
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:194677
 
 #### Source
 
-main.ts:194695
+main.ts:195383
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:194695
 
 #### Source
 
-main.ts:194718
+main.ts:195406
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:194718
 
 #### Source
 
-main.ts:194711
+main.ts:195399

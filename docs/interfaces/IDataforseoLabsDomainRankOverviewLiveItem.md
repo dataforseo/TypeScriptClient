@@ -20,7 +20,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:94681
+main.ts:95123
 
 ***
 
@@ -32,7 +32,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:94679
+main.ts:95121
 
 ***
 
@@ -48,7 +48,7 @@ ranking data relevant to the specified domain
 
 #### Source
 
-main.ts:94683
+main.ts:95125
 
 ***
 
@@ -60,4 +60,4 @@ search engine type
 
 #### Source
 
-main.ts:94677
+main.ts:95119

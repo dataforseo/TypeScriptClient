@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:103976
+main.ts:104454
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:103988
+main.ts:104466
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:103993
+main.ts:104471
 
 ***
 
@@ -63,7 +63,7 @@ total number of results in Amazon SERP
 
 #### Source
 
-main.ts:103983
+main.ts:104461
 
 ***
 
@@ -75,7 +75,7 @@ search engine type
 
 #### Source
 
-main.ts:103970
+main.ts:104448
 
 ***
 
@@ -88,7 +88,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:103973
+main.ts:104451
 
 ***
 
@@ -103,4 +103,4 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Source
 
-main.ts:103981
+main.ts:104459

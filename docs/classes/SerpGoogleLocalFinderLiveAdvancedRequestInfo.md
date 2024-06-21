@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:43134
+main.ts:43178
 
 ## Properties
 
@@ -55,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:43110
+main.ts:43154
 
 ***
 
@@ -74,7 +74,7 @@ default value: desktop
 
 #### Source
 
-main.ts:43092
+main.ts:43136
 
 ***
 
@@ -95,7 +95,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:43041
+main.ts:43085
 
 ***
 
@@ -115,7 +115,7 @@ example:en
 
 #### Source
 
-main.ts:43087
+main.ts:43131
 
 ***
 
@@ -136,7 +136,7 @@ English
 
 #### Source
 
-main.ts:43081
+main.ts:43125
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Source
 
-main.ts:43063
+main.ts:43107
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Source
 
-main.ts:43074
+main.ts:43118
 
 ***
 
@@ -203,7 +203,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:43056
+main.ts:43100
 
 ***
 
@@ -222,7 +222,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Source
 
-main.ts:43115
+main.ts:43159
 
 ***
 
@@ -243,7 +243,7 @@ default value: android
 
 #### Source
 
-main.ts:43099
+main.ts:43143
 
 ***
 
@@ -265,7 +265,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:43049
+main.ts:43093
 
 ***
 
@@ -285,7 +285,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:43130
+main.ts:43174
 
 ***
 
@@ -308,7 +308,7 @@ example: "tuesday;18"
 
 #### Source
 
-main.ts:43124
+main.ts:43168
 
 ## Methods
 
@@ -326,7 +326,7 @@ main.ts:43124
 
 #### Source
 
-main.ts:43143
+main.ts:43187
 
 ***
 
@@ -344,7 +344,7 @@ main.ts:43143
 
 #### Source
 
-main.ts:43172
+main.ts:43216
 
 ***
 
@@ -362,4 +362,4 @@ main.ts:43172
 
 #### Source
 
-main.ts:43165
+main.ts:43209

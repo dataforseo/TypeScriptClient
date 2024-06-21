@@ -24,7 +24,7 @@ US-NY
 
 #### Source
 
-main.ts:127096
+main.ts:127982
 
 ***
 
@@ -40,7 +40,7 @@ Andorra
 
 #### Source
 
-main.ts:127102
+main.ts:127988
 
 ***
 
@@ -58,4 +58,4 @@ a value of 0 means there was not enough data for this term
 
 #### Source
 
-main.ts:127110
+main.ts:127996

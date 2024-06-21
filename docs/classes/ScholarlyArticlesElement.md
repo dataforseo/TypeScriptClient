@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:33070
+main.ts:33114
 
 ## Properties
 
@@ -46,7 +46,7 @@ author
 
 #### Source
 
-main.ts:33064
+main.ts:33108
 
 ***
 
@@ -62,7 +62,7 @@ description
 
 #### Source
 
-main.ts:33066
+main.ts:33110
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Source
 
-main.ts:33060
+main.ts:33104
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Source
 
-main.ts:33058
+main.ts:33102
 
 ***
 
@@ -110,7 +110,7 @@ URL
 
 #### Source
 
-main.ts:33062
+main.ts:33106
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:33062
 
 #### Source
 
-main.ts:33079
+main.ts:33123
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:33079
 
 #### Source
 
-main.ts:33100
+main.ts:33144
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:33100
 
 #### Source
 
-main.ts:33093
+main.ts:33137

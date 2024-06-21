@@ -30,9 +30,31 @@
 
 #### Source
 
-main.ts:85596
+main.ts:85856
 
 ## Properties
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:85846
+
+***
 
 ### include\_serp\_info?
 
@@ -49,7 +71,7 @@ default value: false
 
 #### Source
 
-main.ts:85586
+main.ts:85838
 
 ***
 
@@ -72,7 +94,7 @@ you will not be charged for the keywords omitted in the results
 
 #### Source
 
-main.ts:85549
+main.ts:85801
 
 ***
 
@@ -94,7 +116,7 @@ en
 
 #### Source
 
-main.ts:85581
+main.ts:85833
 
 ***
 
@@ -116,7 +138,7 @@ English
 
 #### Source
 
-main.ts:85573
+main.ts:85825
 
 ***
 
@@ -138,7 +160,7 @@ example:
 
 #### Source
 
-main.ts:85565
+main.ts:85817
 
 ***
 
@@ -160,7 +182,7 @@ United Kingdom
 
 #### Source
 
-main.ts:85557
+main.ts:85809
 
 ***
 
@@ -180,7 +202,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:85592
+main.ts:85852
 
 ## Methods
 
@@ -198,7 +220,7 @@ main.ts:85592
 
 #### Source
 
-main.ts:85605
+main.ts:85865
 
 ***
 
@@ -216,7 +238,7 @@ main.ts:85605
 
 #### Source
 
-main.ts:85632
+main.ts:85893
 
 ***
 
@@ -234,4 +256,4 @@ main.ts:85632
 
 #### Source
 
-main.ts:85625
+main.ts:85886

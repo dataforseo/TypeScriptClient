@@ -100,7 +100,7 @@ Successful operation
 
 #### Source
 
-main.ts:10976
+main.ts:11014
 
 ***
 
@@ -124,7 +124,7 @@ Successful operation
 
 #### Source
 
-main.ts:10935
+main.ts:10973
 
 ***
 
@@ -146,7 +146,7 @@ Successful operation
 
 #### Source
 
-main.ts:10854
+main.ts:10892
 
 ***
 
@@ -162,7 +162,7 @@ Successful operation
 
 #### Source
 
-main.ts:10895
+main.ts:10933
 
 ***
 
@@ -184,7 +184,7 @@ Successful operation
 
 #### Source
 
-main.ts:10775
+main.ts:10813
 
 ***
 
@@ -208,7 +208,7 @@ Successful operation
 
 #### Source
 
-main.ts:10734
+main.ts:10772
 
 ***
 
@@ -230,7 +230,7 @@ Successful operation
 
 #### Source
 
-main.ts:10653
+main.ts:10691
 
 ***
 
@@ -246,7 +246,7 @@ Successful operation
 
 #### Source
 
-main.ts:10694
+main.ts:10732
 
 ***
 
@@ -268,7 +268,7 @@ Successful operation
 
 #### Source
 
-main.ts:10611
+main.ts:10649
 
 ***
 
@@ -292,7 +292,7 @@ Successful operation
 
 #### Source
 
-main.ts:10570
+main.ts:10608
 
 ***
 
@@ -314,7 +314,7 @@ Successful operation
 
 #### Source
 
-main.ts:10489
+main.ts:10527
 
 ***
 
@@ -330,7 +330,7 @@ Successful operation
 
 #### Source
 
-main.ts:10530
+main.ts:10568
 
 ***
 
@@ -352,7 +352,7 @@ Successful operation
 
 #### Source
 
-main.ts:10447
+main.ts:10485
 
 ***
 
@@ -376,7 +376,7 @@ Successful operation
 
 #### Source
 
-main.ts:10406
+main.ts:10444
 
 ***
 
@@ -398,7 +398,7 @@ Successful operation
 
 #### Source
 
-main.ts:10325
+main.ts:10363
 
 ***
 
@@ -414,7 +414,7 @@ Successful operation
 
 #### Source
 
-main.ts:10366
+main.ts:10404
 
 ***
 
@@ -436,7 +436,7 @@ Successful operation
 
 #### Source
 
-main.ts:10167
+main.ts:10205
 
 ***
 
@@ -458,7 +458,7 @@ Successful operation
 
 #### Source
 
-main.ts:10083
+main.ts:10121
 
 ***
 
@@ -480,7 +480,7 @@ Successful operation
 
 #### Source
 
-main.ts:10209
+main.ts:10247
 
 ***
 
@@ -502,7 +502,7 @@ Successful operation
 
 #### Source
 
-main.ts:10125
+main.ts:10163
 
 ***
 
@@ -524,7 +524,7 @@ Successful operation
 
 #### Source
 
-main.ts:9639
+main.ts:9677
 
 ***
 
@@ -548,7 +548,7 @@ Successful operation
 
 #### Source
 
-main.ts:9598
+main.ts:9636
 
 ***
 
@@ -570,7 +570,7 @@ Successful operation
 
 #### Source
 
-main.ts:9517
+main.ts:9555
 
 ***
 
@@ -586,7 +586,7 @@ Successful operation
 
 #### Source
 
-main.ts:9558
+main.ts:9596
 
 ***
 
@@ -608,7 +608,7 @@ Successful operation
 
 #### Source
 
-main.ts:9475
+main.ts:9513
 
 ***
 
@@ -632,7 +632,7 @@ Successful operation
 
 #### Source
 
-main.ts:9434
+main.ts:9472
 
 ***
 
@@ -654,7 +654,7 @@ Successful operation
 
 #### Source
 
-main.ts:9353
+main.ts:9391
 
 ***
 
@@ -670,7 +670,7 @@ Successful operation
 
 #### Source
 
-main.ts:9394
+main.ts:9432
 
 ***
 
@@ -692,7 +692,7 @@ Successful operation
 
 #### Source
 
-main.ts:9311
+main.ts:9349
 
 ***
 
@@ -716,7 +716,7 @@ Successful operation
 
 #### Source
 
-main.ts:9270
+main.ts:9308
 
 ***
 
@@ -738,7 +738,7 @@ Successful operation
 
 #### Source
 
-main.ts:9189
+main.ts:9227
 
 ***
 
@@ -754,7 +754,7 @@ Successful operation
 
 #### Source
 
-main.ts:9230
+main.ts:9268
 
 ***
 
@@ -776,7 +776,7 @@ Successful operation
 
 #### Source
 
-main.ts:9147
+main.ts:9185
 
 ***
 
@@ -800,7 +800,7 @@ Successful operation
 
 #### Source
 
-main.ts:9106
+main.ts:9144
 
 ***
 
@@ -822,7 +822,7 @@ Successful operation
 
 #### Source
 
-main.ts:9025
+main.ts:9063
 
 ***
 
@@ -838,7 +838,7 @@ Successful operation
 
 #### Source
 
-main.ts:9066
+main.ts:9104
 
 ***
 
@@ -870,7 +870,7 @@ Successful operation
 
 #### Source
 
-main.ts:9799
+main.ts:9837
 
 ***
 
@@ -892,7 +892,7 @@ Successful operation
 
 #### Source
 
-main.ts:9959
+main.ts:9997
 
 ***
 
@@ -916,7 +916,7 @@ Successful operation
 
 #### Source
 
-main.ts:9918
+main.ts:9956
 
 ***
 
@@ -938,7 +938,7 @@ Successful operation
 
 #### Source
 
-main.ts:9837
+main.ts:9875
 
 ***
 
@@ -954,7 +954,7 @@ Successful operation
 
 #### Source
 
-main.ts:9878
+main.ts:9916
 
 ***
 
@@ -970,7 +970,7 @@ Successful operation
 
 #### Source
 
-main.ts:10816
+main.ts:10854
 
 ***
 
@@ -986,7 +986,7 @@ Successful operation
 
 #### Source
 
-main.ts:10287
+main.ts:10325
 
 ***
 
@@ -1002,7 +1002,7 @@ Successful operation
 
 #### Source
 
-main.ts:10250
+main.ts:10288
 
 ***
 
@@ -1018,7 +1018,7 @@ Successful operation
 
 #### Source
 
-main.ts:10000
+main.ts:10038
 
 ***
 
@@ -1044,7 +1044,7 @@ Successful operation
 
 #### Source
 
-main.ts:10042
+main.ts:10080
 
 ***
 
@@ -1082,7 +1082,7 @@ Successful operation
 
 #### Source
 
-main.ts:8987
+main.ts:9025
 
 ***
 
@@ -1102,6 +1102,28 @@ main.ts:8950
 
 ***
 
+### keywordsDataGoogleAdsLocationsCountry()
+
+> **keywordsDataGoogleAdsLocationsCountry**(`country`): `Promise`\<[`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)\>
+
+#### Parameters
+
+• **country**: `any`
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:8988
+
+***
+
 ### keywordsDataGoogleTrendsLanguages()
 
 > **keywordsDataGoogleTrendsLanguages**(): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
@@ -1114,7 +1136,7 @@ Successful operation
 
 #### Source
 
-main.ts:9762
+main.ts:9800
 
 ***
 
@@ -1130,7 +1152,7 @@ Successful operation
 
 #### Source
 
-main.ts:9680
+main.ts:9718
 
 ***
 
@@ -1156,7 +1178,7 @@ Successful operation
 
 #### Source
 
-main.ts:9722
+main.ts:9760
 
 ***
 
@@ -1196,7 +1218,7 @@ main.ts:8830
 
 #### Source
 
-main.ts:10996
+main.ts:11034
 
 ***
 
@@ -1214,7 +1236,7 @@ main.ts:10996
 
 #### Source
 
-main.ts:10954
+main.ts:10992
 
 ***
 
@@ -1232,7 +1254,7 @@ main.ts:10954
 
 #### Source
 
-main.ts:10874
+main.ts:10912
 
 ***
 
@@ -1250,7 +1272,7 @@ main.ts:10874
 
 #### Source
 
-main.ts:10911
+main.ts:10949
 
 ***
 
@@ -1268,7 +1290,7 @@ main.ts:10911
 
 #### Source
 
-main.ts:10795
+main.ts:10833
 
 ***
 
@@ -1286,7 +1308,7 @@ main.ts:10795
 
 #### Source
 
-main.ts:10753
+main.ts:10791
 
 ***
 
@@ -1304,7 +1326,7 @@ main.ts:10753
 
 #### Source
 
-main.ts:10673
+main.ts:10711
 
 ***
 
@@ -1322,7 +1344,7 @@ main.ts:10673
 
 #### Source
 
-main.ts:10710
+main.ts:10748
 
 ***
 
@@ -1340,7 +1362,7 @@ main.ts:10710
 
 #### Source
 
-main.ts:10631
+main.ts:10669
 
 ***
 
@@ -1358,7 +1380,7 @@ main.ts:10631
 
 #### Source
 
-main.ts:10589
+main.ts:10627
 
 ***
 
@@ -1376,7 +1398,7 @@ main.ts:10589
 
 #### Source
 
-main.ts:10509
+main.ts:10547
 
 ***
 
@@ -1394,7 +1416,7 @@ main.ts:10509
 
 #### Source
 
-main.ts:10546
+main.ts:10584
 
 ***
 
@@ -1412,7 +1434,7 @@ main.ts:10546
 
 #### Source
 
-main.ts:10467
+main.ts:10505
 
 ***
 
@@ -1430,7 +1452,7 @@ main.ts:10467
 
 #### Source
 
-main.ts:10425
+main.ts:10463
 
 ***
 
@@ -1448,7 +1470,7 @@ main.ts:10425
 
 #### Source
 
-main.ts:10345
+main.ts:10383
 
 ***
 
@@ -1466,7 +1488,7 @@ main.ts:10345
 
 #### Source
 
-main.ts:10382
+main.ts:10420
 
 ***
 
@@ -1484,7 +1506,7 @@ main.ts:10382
 
 #### Source
 
-main.ts:10187
+main.ts:10225
 
 ***
 
@@ -1502,7 +1524,7 @@ main.ts:10187
 
 #### Source
 
-main.ts:10103
+main.ts:10141
 
 ***
 
@@ -1520,7 +1542,7 @@ main.ts:10103
 
 #### Source
 
-main.ts:10229
+main.ts:10267
 
 ***
 
@@ -1538,7 +1560,7 @@ main.ts:10229
 
 #### Source
 
-main.ts:10145
+main.ts:10183
 
 ***
 
@@ -1556,7 +1578,7 @@ main.ts:10145
 
 #### Source
 
-main.ts:9659
+main.ts:9697
 
 ***
 
@@ -1574,7 +1596,7 @@ main.ts:9659
 
 #### Source
 
-main.ts:9617
+main.ts:9655
 
 ***
 
@@ -1592,7 +1614,7 @@ main.ts:9617
 
 #### Source
 
-main.ts:9537
+main.ts:9575
 
 ***
 
@@ -1610,7 +1632,7 @@ main.ts:9537
 
 #### Source
 
-main.ts:9574
+main.ts:9612
 
 ***
 
@@ -1628,7 +1650,7 @@ main.ts:9574
 
 #### Source
 
-main.ts:9495
+main.ts:9533
 
 ***
 
@@ -1646,7 +1668,7 @@ main.ts:9495
 
 #### Source
 
-main.ts:9453
+main.ts:9491
 
 ***
 
@@ -1664,7 +1686,7 @@ main.ts:9453
 
 #### Source
 
-main.ts:9373
+main.ts:9411
 
 ***
 
@@ -1682,7 +1704,7 @@ main.ts:9373
 
 #### Source
 
-main.ts:9410
+main.ts:9448
 
 ***
 
@@ -1700,7 +1722,7 @@ main.ts:9410
 
 #### Source
 
-main.ts:9331
+main.ts:9369
 
 ***
 
@@ -1718,7 +1740,7 @@ main.ts:9331
 
 #### Source
 
-main.ts:9289
+main.ts:9327
 
 ***
 
@@ -1736,7 +1758,7 @@ main.ts:9289
 
 #### Source
 
-main.ts:9209
+main.ts:9247
 
 ***
 
@@ -1754,7 +1776,7 @@ main.ts:9209
 
 #### Source
 
-main.ts:9246
+main.ts:9284
 
 ***
 
@@ -1772,7 +1794,7 @@ main.ts:9246
 
 #### Source
 
-main.ts:9167
+main.ts:9205
 
 ***
 
@@ -1790,7 +1812,7 @@ main.ts:9167
 
 #### Source
 
-main.ts:9125
+main.ts:9163
 
 ***
 
@@ -1808,7 +1830,7 @@ main.ts:9125
 
 #### Source
 
-main.ts:9045
+main.ts:9083
 
 ***
 
@@ -1826,7 +1848,7 @@ main.ts:9045
 
 #### Source
 
-main.ts:9082
+main.ts:9120
 
 ***
 
@@ -1862,7 +1884,7 @@ main.ts:8929
 
 #### Source
 
-main.ts:9815
+main.ts:9853
 
 ***
 
@@ -1880,7 +1902,7 @@ main.ts:9815
 
 #### Source
 
-main.ts:9979
+main.ts:10017
 
 ***
 
@@ -1898,7 +1920,7 @@ main.ts:9979
 
 #### Source
 
-main.ts:9937
+main.ts:9975
 
 ***
 
@@ -1916,7 +1938,7 @@ main.ts:9937
 
 #### Source
 
-main.ts:9857
+main.ts:9895
 
 ***
 
@@ -1934,7 +1956,7 @@ main.ts:9857
 
 #### Source
 
-main.ts:9894
+main.ts:9932
 
 ***
 
@@ -1952,7 +1974,7 @@ main.ts:9894
 
 #### Source
 
-main.ts:10832
+main.ts:10870
 
 ***
 
@@ -1970,7 +1992,7 @@ main.ts:10832
 
 #### Source
 
-main.ts:10303
+main.ts:10341
 
 ***
 
@@ -1988,7 +2010,7 @@ main.ts:10303
 
 #### Source
 
-main.ts:10266
+main.ts:10304
 
 ***
 
@@ -2006,7 +2028,7 @@ main.ts:10266
 
 #### Source
 
-main.ts:10016
+main.ts:10054
 
 ***
 
@@ -2024,7 +2046,7 @@ main.ts:10016
 
 #### Source
 
-main.ts:10061
+main.ts:10099
 
 ***
 
@@ -2060,7 +2082,7 @@ main.ts:8892
 
 #### Source
 
-main.ts:9003
+main.ts:9041
 
 ***
 
@@ -2082,6 +2104,24 @@ main.ts:8966
 
 ***
 
+### processKeywordsDataGoogleAdsLocationsCountry()
+
+> **`protected`** **processKeywordsDataGoogleAdsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)\>
+
+#### Source
+
+main.ts:9004
+
+***
+
 ### processKeywordsDataGoogleTrendsLanguages()
 
 > **`protected`** **processKeywordsDataGoogleTrendsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
@@ -2096,7 +2136,7 @@ main.ts:8966
 
 #### Source
 
-main.ts:9778
+main.ts:9816
 
 ***
 
@@ -2114,7 +2154,7 @@ main.ts:9778
 
 #### Source
 
-main.ts:9696
+main.ts:9734
 
 ***
 
@@ -2132,7 +2172,7 @@ main.ts:9696
 
 #### Source
 
-main.ts:9741
+main.ts:9779
 
 ***
 

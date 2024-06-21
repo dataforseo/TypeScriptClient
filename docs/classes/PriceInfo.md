@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:22177
+main.ts:22215
 
 ## Properties
 
@@ -47,7 +47,7 @@ ISO code of the currency applied to the price
 
 #### Source
 
-main.ts:22167
+main.ts:22205
 
 ***
 
@@ -64,7 +64,7 @@ indicates the current price of the product or service featured in the result
 
 #### Source
 
-main.ts:22158
+main.ts:22196
 
 ***
 
@@ -81,7 +81,7 @@ raw price string as provided in the result
 
 #### Source
 
-main.ts:22173
+main.ts:22211
 
 ***
 
@@ -98,7 +98,7 @@ indicates whether a price is provided in a range
 
 #### Source
 
-main.ts:22170
+main.ts:22208
 
 ***
 
@@ -115,7 +115,7 @@ the maximum price of the product or service as indicated in the result
 
 #### Source
 
-main.ts:22164
+main.ts:22202
 
 ***
 
@@ -132,7 +132,7 @@ indicates the regular price of the product or service with no discounts applied
 
 #### Source
 
-main.ts:22161
+main.ts:22199
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:22161
 
 #### Source
 
-main.ts:22186
+main.ts:22224
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:22186
 
 #### Source
 
-main.ts:22208
+main.ts:22246
 
 ***
 
@@ -186,4 +186,4 @@ main.ts:22208
 
 #### Source
 
-main.ts:22201
+main.ts:22239

@@ -38,7 +38,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:90139
+main.ts:90489
 
 ***
 
@@ -57,7 +57,7 @@ default value: live
 
 #### Source
 
-main.ts:90119
+main.ts:90469
 
 ***
 
@@ -72,7 +72,25 @@ default value: false
 
 #### Source
 
-main.ts:90086
+main.ts:90428
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:90445
 
 ***
 
@@ -87,11 +105,11 @@ Note: if the item_types array contains item types that are different from organi
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Source
 
-main.ts:90095
+main.ts:90437
 
 ***
 
@@ -110,7 +128,7 @@ en
 
 #### Source
 
-main.ts:90081
+main.ts:90423
 
 ***
 
@@ -129,7 +147,7 @@ English
 
 #### Source
 
-main.ts:90072
+main.ts:90414
 
 ***
 
@@ -144,7 +162,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:90100
+main.ts:90450
 
 ***
 
@@ -159,7 +177,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Source
 
-main.ts:90110
+main.ts:90460
 
 ***
 
@@ -178,7 +196,7 @@ example:
 
 #### Source
 
-main.ts:90063
+main.ts:90405
 
 ***
 
@@ -197,7 +215,7 @@ United Kingdom
 
 #### Source
 
-main.ts:90054
+main.ts:90396
 
 ***
 
@@ -212,7 +230,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:90105
+main.ts:90455
 
 ***
 
@@ -238,7 +256,7 @@ example:
 
 #### Source
 
-main.ts:90155
+main.ts:90505
 
 ***
 
@@ -254,7 +272,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:90161
+main.ts:90511
 
 ***
 
@@ -274,4 +292,4 @@ example:
 
 #### Source
 
-main.ts:90045
+main.ts:90387

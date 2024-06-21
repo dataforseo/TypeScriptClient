@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:95746
+main.ts:96188
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:95746
 
 #### Source
 
-main.ts:20205
+main.ts:20243
 
 ***
 
@@ -70,7 +70,7 @@ ss:/webfacts:net_worth
 
 #### Source
 
-main.ts:95737
+main.ts:96179
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:95742
+main.ts:96184
 
 ***
 
@@ -103,7 +103,7 @@ link of the element
 
 #### Source
 
-main.ts:95739
+main.ts:96181
 
 ***
 
@@ -121,7 +121,7 @@ left, right
 
 #### Source
 
-main.ts:95729
+main.ts:96171
 
 ***
 
@@ -138,7 +138,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95725
+main.ts:96167
 
 ***
 
@@ -156,7 +156,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95722
+main.ts:96164
 
 ***
 
@@ -172,7 +172,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95733
+main.ts:96175
 
 ***
 
@@ -188,7 +188,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:95731
+main.ts:96173
 
 ## Methods
 
@@ -210,7 +210,7 @@ main.ts:95731
 
 #### Source
 
-main.ts:95751
+main.ts:96193
 
 ***
 
@@ -232,7 +232,7 @@ main.ts:95751
 
 #### Source
 
-main.ts:95780
+main.ts:96222
 
 ***
 
@@ -254,4 +254,4 @@ main.ts:95780
 
 #### Source
 
-main.ts:95773
+main.ts:96215

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:220610
+main.ts:221334
 
 ## Properties
 
@@ -59,7 +59,7 @@ content_generation
 
 #### Source
 
-main.ts:220594
+main.ts:221318
 
 ***
 
@@ -75,7 +75,7 @@ array of objects that contain status information for API endpoints
 
 #### Source
 
-main.ts:220606
+main.ts:221330
 
 ***
 
@@ -99,7 +99,7 @@ send_delay
 
 #### Source
 
-main.ts:220604
+main.ts:221328
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:220604
 
 #### Source
 
-main.ts:220619
+main.ts:221343
 
 ***
 
@@ -135,7 +135,7 @@ main.ts:220619
 
 #### Source
 
-main.ts:220642
+main.ts:221366
 
 ***
 
@@ -153,4 +153,4 @@ main.ts:220642
 
 #### Source
 
-main.ts:220635
+main.ts:221359

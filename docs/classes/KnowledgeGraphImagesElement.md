@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:27367
+main.ts:27405
 
 ## Properties
 
@@ -46,7 +46,7 @@ alt tag of the image
 
 #### Source
 
-main.ts:27358
+main.ts:27396
 
 ***
 
@@ -62,7 +62,7 @@ domain in SERP of the Ad element
 
 #### Source
 
-main.ts:27356
+main.ts:27394
 
 ***
 
@@ -79,7 +79,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:27361
+main.ts:27399
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Source
 
-main.ts:27352
+main.ts:27390
 
 ***
 
@@ -111,7 +111,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:27354
+main.ts:27392
 
 ***
 
@@ -127,7 +127,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:27363
+main.ts:27401
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:27363
 
 #### Source
 
-main.ts:27376
+main.ts:27414
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:27376
 
 #### Source
 
-main.ts:27398
+main.ts:27436
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:27398
 
 #### Source
 
-main.ts:27391
+main.ts:27429

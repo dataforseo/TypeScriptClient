@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:139689
+main.ts:140497
 
 ## Properties
 
@@ -46,7 +46,7 @@ canonical page
 
 #### Source
 
-main.ts:139645
+main.ts:140453
 
 ***
 
@@ -64,7 +64,7 @@ utf-8
 
 #### Source
 
-main.ts:139681
+main.ts:140489
 
 ***
 
@@ -80,7 +80,7 @@ number of external links on the page
 
 #### Source
 
-main.ts:139649
+main.ts:140457
 
 ***
 
@@ -97,7 +97,7 @@ content of h1 tags
 
 #### Source
 
-main.ts:139663
+main.ts:140471
 
 ***
 
@@ -114,7 +114,7 @@ content of h2 tags
 
 #### Source
 
-main.ts:139666
+main.ts:140474
 
 ***
 
@@ -131,7 +131,7 @@ content of h3 tags
 
 #### Source
 
-main.ts:139669
+main.ts:140477
 
 ***
 
@@ -147,7 +147,7 @@ content of alt tags
 
 #### Source
 
-main.ts:139671
+main.ts:140479
 
 ***
 
@@ -163,7 +163,7 @@ number of images on the page
 
 #### Source
 
-main.ts:139651
+main.ts:140459
 
 ***
 
@@ -179,7 +179,7 @@ number of internal links on the page
 
 #### Source
 
-main.ts:139647
+main.ts:140455
 
 ***
 
@@ -197,7 +197,7 @@ en
 
 #### Source
 
-main.ts:139677
+main.ts:140485
 
 ***
 
@@ -214,7 +214,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:139656
+main.ts:140464
 
 ***
 
@@ -230,7 +230,7 @@ type of a platform
 
 #### Source
 
-main.ts:139683
+main.ts:140491
 
 ***
 
@@ -246,7 +246,7 @@ CMS details
 
 #### Source
 
-main.ts:139673
+main.ts:140481
 
 ***
 
@@ -268,7 +268,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Source
 
-main.ts:139660
+main.ts:140468
 
 ***
 
@@ -288,7 +288,7 @@ website technologies
 
 #### Source
 
-main.ts:139685
+main.ts:140493
 
 ***
 
@@ -304,7 +304,7 @@ page title
 
 #### Source
 
-main.ts:139643
+main.ts:140451
 
 ***
 
@@ -320,7 +320,7 @@ number of words on the page
 
 #### Source
 
-main.ts:139653
+main.ts:140461
 
 ## Methods
 
@@ -338,7 +338,7 @@ main.ts:139653
 
 #### Source
 
-main.ts:139698
+main.ts:140506
 
 ***
 
@@ -356,7 +356,7 @@ main.ts:139698
 
 #### Source
 
-main.ts:139767
+main.ts:140575
 
 ***
 
@@ -374,4 +374,4 @@ main.ts:139767
 
 #### Source
 
-main.ts:139760
+main.ts:140568

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:176193
+main.ts:177063
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:176175
+main.ts:177045
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:176180
+main.ts:177050
 
 ***
 
@@ -82,7 +82,7 @@ description of the product
 
 #### Source
 
-main.ts:176168
+main.ts:177038
 
 ***
 
@@ -98,7 +98,7 @@ URL of the product image
 
 #### Source
 
-main.ts:176170
+main.ts:177040
 
 ***
 
@@ -116,7 +116,7 @@ shopping_specification
 
 #### Source
 
-main.ts:176184
+main.ts:177054
 
 ***
 
@@ -133,7 +133,7 @@ contains all product attributes and related data listed on the product specifica
 
 #### Source
 
-main.ts:176189
+main.ts:177059
 
 ***
 
@@ -149,7 +149,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:176186
+main.ts:177056
 
 ***
 
@@ -165,7 +165,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:176164
+main.ts:177034
 
 ***
 
@@ -181,7 +181,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:176162
+main.ts:177032
 
 ***
 
@@ -198,7 +198,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:176156
+main.ts:177026
 
 ***
 
@@ -214,7 +214,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:176160
+main.ts:177030
 
 ***
 
@@ -230,7 +230,7 @@ tags of the product
 
 #### Source
 
-main.ts:176172
+main.ts:177042
 
 ***
 
@@ -246,7 +246,7 @@ title of the product
 
 #### Source
 
-main.ts:176166
+main.ts:177036
 
 ***
 
@@ -262,7 +262,7 @@ type of element
 
 #### Source
 
-main.ts:176158
+main.ts:177028
 
 ## Methods
 
@@ -280,7 +280,7 @@ main.ts:176158
 
 #### Source
 
-main.ts:176202
+main.ts:177072
 
 ***
 
@@ -298,7 +298,7 @@ main.ts:176202
 
 #### Source
 
-main.ts:176244
+main.ts:177114
 
 ***
 
@@ -316,4 +316,4 @@ main.ts:176244
 
 #### Source
 
-main.ts:176237
+main.ts:177107

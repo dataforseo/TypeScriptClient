@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:62622
+main.ts:62666
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:62601
+main.ts:62645
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:62606
+main.ts:62650
 
 ***
 
@@ -85,7 +85,7 @@ youtube_video_info
 
 #### Source
 
-main.ts:62614
+main.ts:62658
 
 ***
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:62618
+main.ts:62662
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:62616
+main.ts:62660
 
 ***
 
@@ -133,7 +133,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:62598
+main.ts:62642
 
 ***
 
@@ -149,7 +149,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:62596
+main.ts:62640
 
 ***
 
@@ -165,7 +165,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:62594
+main.ts:62638
 
 ***
 
@@ -182,7 +182,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:62609
+main.ts:62653
 
 ***
 
@@ -198,7 +198,7 @@ ID of the video received in a POST array
 
 #### Source
 
-main.ts:62592
+main.ts:62636
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:62592
 
 #### Source
 
-main.ts:62631
+main.ts:62675
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:62631
 
 #### Source
 
-main.ts:62665
+main.ts:62709
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:62665
 
 #### Source
 
-main.ts:62658
+main.ts:62702

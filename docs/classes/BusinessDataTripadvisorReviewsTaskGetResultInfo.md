@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:213056
+main.ts:213763
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:213028
+main.ts:213732
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:213033
+main.ts:213737
 
 ***
 
@@ -83,7 +83,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:213050
+main.ts:213757
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:213047
+main.ts:213754
 
 ***
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:213052
+main.ts:213759
 
 ***
 
@@ -133,7 +133,7 @@ address of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:213039
+main.ts:213743
 
 ***
 
@@ -150,7 +150,28 @@ popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:213044
+main.ts:213748
+
+***
+
+### rating\_distribution?
+
+> **`optional`** **rating\_distribution**: `Object`
+
+rating distribution by votes
+the distribution of votes across the rating in the range from 1 to 5
+
+#### Index signature
+
+ \[`key`: `string`\]: `number`
+
+#### Implementation of
+
+[`IBusinessDataTripadvisorReviewsTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md).[`rating_distribution`](../interfaces/IBusinessDataTripadvisorReviewsTaskGetResultInfo.md#rating_distribution)
+
+#### Source
+
+main.ts:213751
 
 ***
 
@@ -166,7 +187,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:213041
+main.ts:213745
 
 ***
 
@@ -182,7 +203,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:213025
+main.ts:213729
 
 ***
 
@@ -199,7 +220,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Source
 
-main.ts:213036
+main.ts:213740
 
 ***
 
@@ -215,7 +236,7 @@ type of element
 
 #### Source
 
-main.ts:213023
+main.ts:213727
 
 ***
 
@@ -231,7 +252,7 @@ URL path received in a POST array
 
 #### Source
 
-main.ts:213021
+main.ts:213725
 
 ## Methods
 
@@ -249,7 +270,7 @@ main.ts:213021
 
 #### Source
 
-main.ts:213065
+main.ts:213772
 
 ***
 
@@ -267,7 +288,7 @@ main.ts:213065
 
 #### Source
 
-main.ts:213097
+main.ts:213811
 
 ***
 
@@ -285,4 +306,4 @@ main.ts:213097
 
 #### Source
 
-main.ts:213090
+main.ts:213804

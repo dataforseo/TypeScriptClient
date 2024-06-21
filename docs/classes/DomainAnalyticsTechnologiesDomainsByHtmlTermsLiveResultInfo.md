@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:78682
+main.ts:78740
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Source
 
-main.ts:78678
+main.ts:78736
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:78670
+main.ts:78728
 
 ***
 
@@ -78,7 +78,7 @@ specified offset value
 
 #### Source
 
-main.ts:78672
+main.ts:78730
 
 ***
 
@@ -96,7 +96,7 @@ offset_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:78676
+main.ts:78734
 
 ***
 
@@ -112,7 +112,7 @@ total number of relevant items in the database
 
 #### Source
 
-main.ts:78668
+main.ts:78726
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:78668
 
 #### Source
 
-main.ts:78691
+main.ts:78749
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:78691
 
 #### Source
 
-main.ts:78716
+main.ts:78774
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:78716
 
 #### Source
 
-main.ts:78709
+main.ts:78767

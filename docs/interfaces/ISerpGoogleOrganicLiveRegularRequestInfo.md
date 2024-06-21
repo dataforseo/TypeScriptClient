@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:38197
+main.ts:38241
 
 ***
 
@@ -42,7 +42,7 @@ default value: desktop
 
 #### Source
 
-main.ts:38174
+main.ts:38218
 
 ***
 
@@ -58,7 +58,7 @@ default value: true
 
 #### Source
 
-main.ts:38216
+main.ts:38260
 
 ***
 
@@ -77,7 +77,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:38131
+main.ts:38175
 
 ***
 
@@ -94,7 +94,7 @@ en
 
 #### Source
 
-main.ts:38169
+main.ts:38213
 
 ***
 
@@ -111,7 +111,7 @@ English
 
 #### Source
 
-main.ts:38162
+main.ts:38206
 
 ***
 
@@ -128,7 +128,7 @@ example:
 
 #### Source
 
-main.ts:38145
+main.ts:38189
 
 ***
 
@@ -148,7 +148,7 @@ example:
 
 #### Source
 
-main.ts:38155
+main.ts:38199
 
 ***
 
@@ -165,7 +165,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:38138
+main.ts:38182
 
 ***
 
@@ -182,7 +182,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:38223
+main.ts:38267
 
 ***
 
@@ -199,7 +199,7 @@ default value: android
 
 #### Source
 
-main.ts:38181
+main.ts:38225
 
 ***
 
@@ -216,7 +216,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:38188
+main.ts:38232
 
 ***
 
@@ -230,7 +230,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:38227
+main.ts:38271
 
 ***
 
@@ -246,7 +246,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:38233
+main.ts:38277
 
 ***
 
@@ -269,7 +269,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Source
 
-main.ts:38210
+main.ts:38254
 
 ***
 
@@ -285,4 +285,4 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:38122
+main.ts:38166

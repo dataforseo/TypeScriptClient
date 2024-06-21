@@ -20,7 +20,7 @@ description
 
 #### Source
 
-main.ts:30859
+main.ts:30903
 
 ***
 
@@ -32,7 +32,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:30863
+main.ts:30907
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Source
 
-main.ts:30857
+main.ts:30901
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Source
 
-main.ts:30855
+main.ts:30899
 
 ***
 
@@ -68,4 +68,4 @@ URL
 
 #### Source
 
-main.ts:30861
+main.ts:30905

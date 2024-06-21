@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:115205
+main.ts:115891
 
 ## Properties
 
@@ -52,7 +52,7 @@ the id is 835599320
 
 #### Source
 
-main.ts:115118
+main.ts:115804
 
 ***
 
@@ -80,7 +80,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:115168
+main.ts:115854
 
 ***
 
@@ -103,7 +103,7 @@ en
 
 #### Source
 
-main.ts:115154
+main.ts:115840
 
 ***
 
@@ -126,7 +126,7 @@ English
 
 #### Source
 
-main.ts:115145
+main.ts:115831
 
 ***
 
@@ -145,7 +145,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:115190
+main.ts:115876
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Source
 
-main.ts:115136
+main.ts:115822
 
 ***
 
@@ -191,7 +191,7 @@ United States
 
 #### Source
 
-main.ts:115127
+main.ts:115813
 
 ***
 
@@ -210,7 +210,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 #### Source
 
-main.ts:115195
+main.ts:115881
 
 ***
 
@@ -241,7 +241,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:115185
+main.ts:115871
 
 ***
 
@@ -261,7 +261,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:115201
+main.ts:115887
 
 ## Methods
 
@@ -279,7 +279,7 @@ main.ts:115201
 
 #### Source
 
-main.ts:115214
+main.ts:115900
 
 ***
 
@@ -297,7 +297,7 @@ main.ts:115214
 
 #### Source
 
-main.ts:115248
+main.ts:115934
 
 ***
 
@@ -315,4 +315,4 @@ main.ts:115248
 
 #### Source
 
-main.ts:115241
+main.ts:115927

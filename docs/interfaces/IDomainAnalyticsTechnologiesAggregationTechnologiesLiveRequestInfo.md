@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:76434
+main.ts:76482
 
 ***
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:76469
+main.ts:76517
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:76427
+main.ts:76475
 
 ***
 
@@ -78,11 +78,12 @@ maximum number of returned technology categories within the same group
 optional field
 you can use this field to limit the number of items with identical "category" in the results
 default value: 5
+minimum value: 1
 maximum value: 10000
 
 #### Source
 
-main.ts:76497
+main.ts:76547
 
 ***
 
@@ -94,11 +95,12 @@ maximum number of returned technology groups
 optional field
 you can use this field to limit the number of items with identical "group" in the results
 default value: 5
+minimum value: 1
 maximum value: 10000
 
 #### Source
 
-main.ts:76491
+main.ts:76540
 
 ***
 
@@ -111,11 +113,12 @@ optional field
 if you use this field, the values specified in internal_groups_list_limit, internal_categories_list_limit and internal_technologies_list_limit will be ignored;
 you can use this field to limit the number of items with identical "category", "group", or "technology"
 default value: 10
+minimum value: 1
 maximum value: 10000
 
 #### Source
 
-main.ts:76510
+main.ts:76562
 
 ***
 
@@ -127,11 +130,12 @@ maximum number of returned technologies within the same category
 optional field
 you can use this field to limit the number of items with identical "technology" in the results
 default value: 10
+minimum value: 1
 maximum value: 10000
 
 #### Source
 
-main.ts:76503
+main.ts:76554
 
 ***
 
@@ -148,7 +152,7 @@ example:
 
 #### Source
 
-main.ts:76448
+main.ts:76496
 
 ***
 
@@ -163,7 +167,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76515
+main.ts:76567
 
 ***
 
@@ -180,7 +184,7 @@ default value: as_is
 
 #### Source
 
-main.ts:76455
+main.ts:76503
 
 ***
 
@@ -196,7 +200,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Source
 
-main.ts:76521
+main.ts:76573
 
 ***
 
@@ -222,7 +226,7 @@ default value:
 
 #### Source
 
-main.ts:76485
+main.ts:76533
 
 ***
 
@@ -238,7 +242,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:76527
+main.ts:76579
 
 ***
 
@@ -255,4 +259,4 @@ example:
 
 #### Source
 
-main.ts:76441
+main.ts:76489

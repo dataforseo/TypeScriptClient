@@ -34,7 +34,25 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:87164
+main.ts:87460
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:87435
 
 ***
 
@@ -50,7 +68,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:87139
+main.ts:87427
 
 ***
 
@@ -65,11 +83,11 @@ Note: if the item_types array contains item types that are different from the or
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Source
 
-main.ts:87148
+main.ts:87444
 
 ***
 
@@ -87,7 +105,7 @@ en
 
 #### Source
 
-main.ts:87133
+main.ts:87421
 
 ***
 
@@ -105,7 +123,7 @@ English
 
 #### Source
 
-main.ts:87125
+main.ts:87413
 
 ***
 
@@ -120,7 +138,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:87186
+main.ts:87482
 
 ***
 
@@ -138,7 +156,7 @@ example:
 
 #### Source
 
-main.ts:87117
+main.ts:87405
 
 ***
 
@@ -156,7 +174,7 @@ United Kingdom
 
 #### Source
 
-main.ts:87109
+main.ts:87397
 
 ***
 
@@ -171,7 +189,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Source
 
-main.ts:87191
+main.ts:87487
 
 ***
 
@@ -198,7 +216,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Source
 
-main.ts:87181
+main.ts:87477
 
 ***
 
@@ -214,7 +232,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87197
+main.ts:87493
 
 ***
 
@@ -229,4 +247,4 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Source
 
-main.ts:87101
+main.ts:87389

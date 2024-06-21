@@ -32,7 +32,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:93520
+main.ts:93944
 
 ***
 
@@ -51,7 +51,25 @@ default value: live
 
 #### Source
 
-main.ts:93506
+main.ts:93930
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:93921
 
 ***
 
@@ -66,11 +84,11 @@ Note: if the item_types array contains item types that are different from organi
 possible values:
 ["organic", "paid", "featured_snippet", "local_pack"]
 default value:
-["organic", "paid", "featured_snippet", "local_pack"]
+["organic", "paid"]
 
 #### Source
 
-main.ts:93497
+main.ts:93913
 
 ***
 
@@ -89,7 +107,7 @@ en
 
 #### Source
 
-main.ts:93488
+main.ts:93904
 
 ***
 
@@ -108,7 +126,7 @@ English
 
 #### Source
 
-main.ts:93479
+main.ts:93895
 
 ***
 
@@ -123,7 +141,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:93542
+main.ts:93966
 
 ***
 
@@ -142,7 +160,7 @@ example:
 
 #### Source
 
-main.ts:93470
+main.ts:93886
 
 ***
 
@@ -161,7 +179,7 @@ United Kingdom
 
 #### Source
 
-main.ts:93461
+main.ts:93877
 
 ***
 
@@ -176,7 +194,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:93547
+main.ts:93971
 
 ***
 
@@ -203,7 +221,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:93537
+main.ts:93961
 
 ***
 
@@ -219,7 +237,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:93553
+main.ts:93977
 
 ***
 
@@ -234,4 +252,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:93452
+main.ts:93868

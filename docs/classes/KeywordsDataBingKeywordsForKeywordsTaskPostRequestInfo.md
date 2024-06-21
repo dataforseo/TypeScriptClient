@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:131978
+main.ts:132864
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:131933
+main.ts:132819
 
 ***
 
@@ -76,7 +76,7 @@ example:
 
 #### Source
 
-main.ts:131943
+main.ts:132829
 
 ***
 
@@ -96,7 +96,7 @@ default value: all
 
 #### Source
 
-main.ts:131925
+main.ts:132811
 
 ***
 
@@ -115,7 +115,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:131874
+main.ts:132760
 
 ***
 
@@ -135,7 +135,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:131919
+main.ts:132805
 
 ***
 
@@ -155,7 +155,7 @@ en, fr, de
 
 #### Source
 
-main.ts:131908
+main.ts:132794
 
 ***
 
@@ -175,7 +175,7 @@ English, French, German
 
 #### Source
 
-main.ts:131902
+main.ts:132788
 
 ***
 
@@ -196,7 +196,7 @@ example:
 
 #### Source
 
-main.ts:131888
+main.ts:132774
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:131896
+main.ts:132782
 
 ***
 
@@ -239,7 +239,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:131881
+main.ts:132767
 
 ***
 
@@ -263,7 +263,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131968
+main.ts:132854
 
 ***
 
@@ -287,7 +287,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131958
+main.ts:132844
 
 ***
 
@@ -306,7 +306,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:131948
+main.ts:132834
 
 ***
 
@@ -325,7 +325,7 @@ default value: relevance
 
 #### Source
 
-main.ts:131913
+main.ts:132799
 
 ***
 
@@ -345,7 +345,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:131974
+main.ts:132860
 
 ## Methods
 
@@ -363,7 +363,7 @@ main.ts:131974
 
 #### Source
 
-main.ts:131987
+main.ts:132873
 
 ***
 
@@ -381,7 +381,7 @@ main.ts:131987
 
 #### Source
 
-main.ts:132026
+main.ts:132912
 
 ***
 
@@ -399,4 +399,4 @@ main.ts:132026
 
 #### Source
 
-main.ts:132019
+main.ts:132905

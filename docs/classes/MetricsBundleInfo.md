@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:79740
+main.ts:79798
 
 ## Properties
 
@@ -46,7 +46,7 @@ ranking and traffic data from organic search
 
 #### Source
 
-main.ts:79734
+main.ts:79792
 
 ***
 
@@ -62,7 +62,7 @@ ranking and traffic data from paid search
 
 #### Source
 
-main.ts:79736
+main.ts:79794
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:79736
 
 #### Source
 
-main.ts:79749
+main.ts:79807
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:79749
 
 #### Source
 
-main.ts:79767
+main.ts:79825
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:79767
 
 #### Source
 
-main.ts:79760
+main.ts:79818

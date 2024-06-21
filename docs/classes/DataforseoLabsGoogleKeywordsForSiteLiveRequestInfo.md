@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:82407
+main.ts:82473
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:82381
+main.ts:82447
 
 ***
 
@@ -80,7 +80,29 @@ default value: false
 
 #### Source
 
-main.ts:82346
+main.ts:82412
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:82407
 
 ***
 
@@ -99,7 +121,7 @@ default value: false
 
 #### Source
 
-main.ts:82336
+main.ts:82394
 
 ***
 
@@ -118,7 +140,7 @@ default value: true
 
 #### Source
 
-main.ts:82341
+main.ts:82399
 
 ***
 
@@ -141,7 +163,7 @@ en
 
 #### Source
 
-main.ts:82331
+main.ts:82389
 
 ***
 
@@ -164,7 +186,7 @@ English
 
 #### Source
 
-main.ts:82322
+main.ts:82380
 
 ***
 
@@ -183,7 +205,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:82351
+main.ts:82417
 
 ***
 
@@ -205,7 +227,7 @@ example:
 
 #### Source
 
-main.ts:82313
+main.ts:82371
 
 ***
 
@@ -227,7 +249,7 @@ United Kingdom
 
 #### Source
 
-main.ts:82305
+main.ts:82363
 
 ***
 
@@ -246,7 +268,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:82356
+main.ts:82422
 
 ***
 
@@ -268,7 +290,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:82364
+main.ts:82430
 
 ***
 
@@ -298,7 +320,7 @@ example:
 
 #### Source
 
-main.ts:82397
+main.ts:82463
 
 ***
 
@@ -318,7 +340,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:82403
+main.ts:82469
 
 ***
 
@@ -337,7 +359,7 @@ the domain should be specified without https:// or www.
 
 #### Source
 
-main.ts:82297
+main.ts:82355
 
 ## Methods
 
@@ -355,7 +377,7 @@ main.ts:82297
 
 #### Source
 
-main.ts:82416
+main.ts:82482
 
 ***
 
@@ -373,7 +395,7 @@ main.ts:82416
 
 #### Source
 
-main.ts:82454
+main.ts:82521
 
 ***
 
@@ -391,4 +413,4 @@ main.ts:82454
 
 #### Source
 
-main.ts:82447
+main.ts:82514

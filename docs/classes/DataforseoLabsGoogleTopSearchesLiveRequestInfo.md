@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:88886
+main.ts:89208
 
 ## Properties
 
@@ -63,7 +63,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:88841
+main.ts:89163
 
 ***
 
@@ -82,7 +82,29 @@ default value: false
 
 #### Source
 
-main.ts:88822
+main.ts:89144
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleTopSearchesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleTopSearchesLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:89139
 
 ***
 
@@ -101,7 +123,7 @@ default value: false
 
 #### Source
 
-main.ts:88817
+main.ts:89131
 
 ***
 
@@ -123,7 +145,7 @@ en
 
 #### Source
 
-main.ts:88812
+main.ts:89126
 
 ***
 
@@ -145,7 +167,7 @@ English
 
 #### Source
 
-main.ts:88804
+main.ts:89118
 
 ***
 
@@ -165,7 +187,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:88869
+main.ts:89191
 
 ***
 
@@ -187,7 +209,7 @@ example:
 
 #### Source
 
-main.ts:88796
+main.ts:89110
 
 ***
 
@@ -209,7 +231,7 @@ United Kingdom
 
 #### Source
 
-main.ts:88788
+main.ts:89102
 
 ***
 
@@ -228,7 +250,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:88874
+main.ts:89196
 
 ***
 
@@ -250,7 +272,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:88882
+main.ts:89204
 
 ***
 
@@ -280,7 +302,7 @@ example:
 
 #### Source
 
-main.ts:88857
+main.ts:89179
 
 ***
 
@@ -300,7 +322,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:88863
+main.ts:89185
 
 ## Methods
 
@@ -318,7 +340,7 @@ main.ts:88863
 
 #### Source
 
-main.ts:88895
+main.ts:89217
 
 ***
 
@@ -336,7 +358,7 @@ main.ts:88895
 
 #### Source
 
-main.ts:88931
+main.ts:89254
 
 ***
 
@@ -354,4 +376,4 @@ main.ts:88931
 
 #### Source
 
-main.ts:88924
+main.ts:89247

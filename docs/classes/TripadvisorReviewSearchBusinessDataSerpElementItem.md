@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:212908
+main.ts:213599
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:212908
 
 #### Source
 
-main.ts:20732
+main.ts:20770
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Source
 
-main.ts:212889
+main.ts:213577
 
 ***
 
@@ -88,7 +88,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:212880
+main.ts:213568
 
 ***
 
@@ -105,7 +105,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:212877
+main.ts:213565
 
 ***
 
@@ -122,7 +122,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:212874
+main.ts:213562
 
 ***
 
@@ -138,7 +138,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:212884
+main.ts:213572
 
 ***
 
@@ -154,7 +154,24 @@ contains information about the owner’s response
 
 #### Source
 
-main.ts:212904
+main.ts:213592
+
+***
+
+### review\_highlights?
+
+> **`optional`** **review\_highlights**: [`ReviewHighlights`](ReviewHighlights.md)[]
+
+review highlights
+contains highlighted review criteria and assessments
+
+#### Implementation of
+
+[`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`review_highlights`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#review_highlights)
+
+#### Source
+
+main.ts:213595
 
 ***
 
@@ -170,7 +187,7 @@ contains URLs of the images used in the review
 
 #### Source
 
-main.ts:212900
+main.ts:213588
 
 ***
 
@@ -186,7 +203,7 @@ content of the review
 
 #### Source
 
-main.ts:212898
+main.ts:213586
 
 ***
 
@@ -205,7 +222,7 @@ example:
 
 #### Source
 
-main.ts:212894
+main.ts:213582
 
 ***
 
@@ -221,7 +238,7 @@ title of the review
 
 #### Source
 
-main.ts:212896
+main.ts:213584
 
 ***
 
@@ -237,7 +254,7 @@ URL of the review
 
 #### Source
 
-main.ts:212882
+main.ts:213570
 
 ***
 
@@ -253,7 +270,7 @@ information from the reviewer’s profile
 
 #### Source
 
-main.ts:212902
+main.ts:213590
 
 ## Methods
 
@@ -275,7 +292,7 @@ main.ts:212902
 
 #### Source
 
-main.ts:212913
+main.ts:213604
 
 ***
 
@@ -297,7 +314,7 @@ main.ts:212913
 
 #### Source
 
-main.ts:212950
+main.ts:213646
 
 ***
 
@@ -319,4 +336,4 @@ main.ts:212950
 
 #### Source
 
-main.ts:212943
+main.ts:213639

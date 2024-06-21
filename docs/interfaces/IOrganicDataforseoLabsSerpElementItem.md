@@ -30,7 +30,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:90566
+main.ts:90922
 
 ***
 
@@ -43,7 +43,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:90553
+main.ts:90909
 
 ***
 
@@ -55,7 +55,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:90589
+main.ts:90949
 
 ***
 
@@ -67,7 +67,21 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:90534
+main.ts:90890
+
+***
+
+### clickstream\_etv?
+
+> **`optional`** **clickstream\_etv**: `number`
+
+estimated traffic volume based on clickstream data
+calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
+to retrieve results for this field, the parameter include_clickstream_data must be set to true
+
+#### Source
+
+main.ts:90944
 
 ***
 
@@ -79,7 +93,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:90546
+main.ts:90902
 
 ***
 
@@ -91,7 +105,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:90528
+main.ts:90884
 
 ***
 
@@ -105,7 +119,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90584
+main.ts:90940
 
 ***
 
@@ -120,7 +134,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90575
+main.ts:90931
 
 ***
 
@@ -132,7 +146,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:90550
+main.ts:90906
 
 ***
 
@@ -144,7 +158,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:90558
+main.ts:90914
 
 ***
 
@@ -159,7 +173,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90580
+main.ts:90936
 
 ***
 
@@ -171,7 +185,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:90542
+main.ts:90898
 
 ***
 
@@ -183,7 +197,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:90538
+main.ts:90894
 
 ***
 
@@ -195,7 +209,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:90544
+main.ts:90900
 
 ***
 
@@ -207,7 +221,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:90540
+main.ts:90896
 
 ***
 
@@ -221,7 +235,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:90562
+main.ts:90918
 
 ***
 
@@ -233,7 +247,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:90568
+main.ts:90924
 
 ***
 
@@ -247,7 +261,7 @@ left, right
 
 #### Source
 
-main.ts:90524
+main.ts:90880
 
 ***
 
@@ -259,7 +273,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:90548
+main.ts:90904
 
 ***
 
@@ -272,7 +286,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:90520
+main.ts:90876
 
 ***
 
@@ -285,7 +299,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:90587
+main.ts:90947
 
 ***
 
@@ -298,7 +312,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:90517
+main.ts:90873
 
 ***
 
@@ -310,7 +324,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:90591
+main.ts:90951
 
 ***
 
@@ -323,7 +337,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:90556
+main.ts:90912
 
 ***
 
@@ -335,7 +349,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:90570
+main.ts:90926
 
 ***
 
@@ -347,7 +361,7 @@ search engine type
 
 #### Source
 
-main.ts:90514
+main.ts:90870
 
 ***
 
@@ -359,7 +373,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:90530
+main.ts:90886
 
 ***
 
@@ -371,7 +385,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:90532
+main.ts:90888
 
 ***
 
@@ -383,7 +397,7 @@ relevant website name in SERP
 
 #### Source
 
-main.ts:90536
+main.ts:90892
 
 ***
 
@@ -395,4 +409,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:90526
+main.ts:90882

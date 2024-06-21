@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:28348
+main.ts:28386
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:28348
 
 #### Source
 
-main.ts:19817
+main.ts:19855
 
 ***
 
@@ -70,7 +70,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Source
 
-main.ts:28337
+main.ts:28375
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:28340
+main.ts:28378
 
 ***
 
@@ -105,7 +105,7 @@ left, right
 
 #### Source
 
-main.ts:28329
+main.ts:28367
 
 ***
 
@@ -122,7 +122,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:28325
+main.ts:28363
 
 ***
 
@@ -140,7 +140,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:28322
+main.ts:28360
 
 ***
 
@@ -158,7 +158,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:28344
+main.ts:28382
 
 ***
 
@@ -174,7 +174,7 @@ title of the place
 
 #### Source
 
-main.ts:28333
+main.ts:28371
 
 ***
 
@@ -190,7 +190,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:28331
+main.ts:28369
 
 ## Methods
 
@@ -212,7 +212,7 @@ main.ts:28331
 
 #### Source
 
-main.ts:28353
+main.ts:28391
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:28353
 
 #### Source
 
-main.ts:28382
+main.ts:28420
 
 ***
 
@@ -256,4 +256,4 @@ main.ts:28382
 
 #### Source
 
-main.ts:28375
+main.ts:28413

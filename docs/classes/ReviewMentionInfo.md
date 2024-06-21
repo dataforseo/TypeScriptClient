@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:204694
+main.ts:205382
 
 ## Properties
 
@@ -46,7 +46,7 @@ count of negative reviews by criterion
 
 #### Source
 
-main.ts:204685
+main.ts:205373
 
 ***
 
@@ -62,7 +62,7 @@ count of positive reviews by criterion
 
 #### Source
 
-main.ts:204683
+main.ts:205371
 
 ***
 
@@ -78,7 +78,7 @@ positive score by criterion
 
 #### Source
 
-main.ts:204681
+main.ts:205369
 
 ***
 
@@ -94,7 +94,7 @@ title of the evaluated criterion
 
 #### Source
 
-main.ts:204679
+main.ts:205367
 
 ***
 
@@ -110,7 +110,7 @@ count of all reviews by criterion
 
 #### Source
 
-main.ts:204687
+main.ts:205375
 
 ***
 
@@ -127,7 +127,7 @@ indicates whether the review element is visible by default
 
 #### Source
 
-main.ts:204690
+main.ts:205378
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:204690
 
 #### Source
 
-main.ts:204703
+main.ts:205391
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:204703
 
 #### Source
 
-main.ts:204725
+main.ts:205413
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:204725
 
 #### Source
 
-main.ts:204718
+main.ts:205406

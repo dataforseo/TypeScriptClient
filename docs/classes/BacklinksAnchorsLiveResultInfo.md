@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:139207
+main.ts:140015
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Source
 
-main.ts:139203
+main.ts:140011
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:139201
+main.ts:140009
 
 ***
 
@@ -78,7 +78,7 @@ target in the post array
 
 #### Source
 
-main.ts:139197
+main.ts:140005
 
 ***
 
@@ -94,7 +94,7 @@ total number of relevant items in the database
 
 #### Source
 
-main.ts:139199
+main.ts:140007
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:139199
 
 #### Source
 
-main.ts:139216
+main.ts:140024
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:139216
 
 #### Source
 
-main.ts:139240
+main.ts:140048
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:139240
 
 #### Source
 
-main.ts:139233
+main.ts:140041

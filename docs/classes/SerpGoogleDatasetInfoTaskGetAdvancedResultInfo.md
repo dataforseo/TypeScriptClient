@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:56266
+main.ts:56310
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:56244
+main.ts:56288
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:56249
+main.ts:56293
 
 ***
 
@@ -84,7 +84,7 @@ possible item type: dataset
 
 #### Source
 
-main.ts:56256
+main.ts:56300
 
 ***
 
@@ -100,7 +100,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:56262
+main.ts:56306
 
 ***
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:56260
+main.ts:56304
 
 ***
 
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:56237
+main.ts:56281
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:56241
+main.ts:56285
 
 ***
 
@@ -165,7 +165,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:56239
+main.ts:56283
 
 ***
 
@@ -181,7 +181,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:56258
+main.ts:56302
 
 ***
 
@@ -198,7 +198,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:56252
+main.ts:56296
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:56252
 
 #### Source
 
-main.ts:56275
+main.ts:56319
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:56275
 
 #### Source
 
-main.ts:56309
+main.ts:56353
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:56309
 
 #### Source
 
-main.ts:56302
+main.ts:56346

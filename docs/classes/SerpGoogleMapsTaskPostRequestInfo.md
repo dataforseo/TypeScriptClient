@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:39535
+main.ts:39579
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:39479
+main.ts:39523
 
 ***
 
@@ -73,7 +73,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Source
 
-main.ts:39456
+main.ts:39500
 
 ***
 
@@ -96,7 +96,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:39403
+main.ts:39447
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Source
 
-main.ts:39450
+main.ts:39494
 
 ***
 
@@ -138,7 +138,7 @@ English
 
 #### Source
 
-main.ts:39443
+main.ts:39487
 
 ***
 
@@ -159,7 +159,7 @@ example:
 
 #### Source
 
-main.ts:39425
+main.ts:39469
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Source
 
-main.ts:39436
+main.ts:39480
 
 ***
 
@@ -205,7 +205,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:39418
+main.ts:39462
 
 ***
 
@@ -226,7 +226,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:39486
+main.ts:39530
 
 ***
 
@@ -247,7 +247,7 @@ default value: android
 
 #### Source
 
-main.ts:39463
+main.ts:39507
 
 ***
 
@@ -271,7 +271,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:39531
+main.ts:39575
 
 ***
 
@@ -291,7 +291,7 @@ advanced
 
 #### Source
 
-main.ts:39521
+main.ts:39565
 
 ***
 
@@ -315,7 +315,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:39515
+main.ts:39559
 
 ***
 
@@ -337,7 +337,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:39411
+main.ts:39455
 
 ***
 
@@ -358,7 +358,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:39470
+main.ts:39514
 
 ***
 
@@ -379,7 +379,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Source
 
-main.ts:39499
+main.ts:39543
 
 ***
 
@@ -399,7 +399,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Source
 
-main.ts:39492
+main.ts:39536
 
 ***
 
@@ -419,7 +419,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:39505
+main.ts:39549
 
 ***
 
@@ -439,7 +439,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Source
 
-main.ts:39394
+main.ts:39438
 
 ## Methods
 
@@ -457,7 +457,7 @@ main.ts:39394
 
 #### Source
 
-main.ts:39544
+main.ts:39588
 
 ***
 
@@ -475,7 +475,7 @@ main.ts:39544
 
 #### Source
 
-main.ts:39579
+main.ts:39623
 
 ***
 
@@ -493,4 +493,4 @@ main.ts:39579
 
 #### Source
 
-main.ts:39572
+main.ts:39616

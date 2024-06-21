@@ -22,7 +22,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Source
 
-main.ts:166126
+main.ts:166996
 
 ***
 
@@ -36,7 +36,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 #### Source
 
-main.ts:166130
+main.ts:167000
 
 ***
 
@@ -48,4 +48,4 @@ type of element
 
 #### Source
 
-main.ts:166122
+main.ts:166992

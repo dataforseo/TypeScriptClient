@@ -25,7 +25,7 @@ we recommend always setting correlate to true
 
 #### Source
 
-main.ts:100156
+main.ts:100608
 
 ***
 
@@ -41,7 +41,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:100142
+main.ts:100594
 
 ***
 
@@ -58,7 +58,7 @@ example:
 
 #### Source
 
-main.ts:100149
+main.ts:100601
 
 ***
 
@@ -73,7 +73,25 @@ default value: false
 
 #### Source
 
-main.ts:100161
+main.ts:100613
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Source
+
+main.ts:100621
 
 ***
 
@@ -91,7 +109,7 @@ en
 
 #### Source
 
-main.ts:100136
+main.ts:100588
 
 ***
 
@@ -109,7 +127,7 @@ English
 
 #### Source
 
-main.ts:100128
+main.ts:100580
 
 ***
 
@@ -127,7 +145,7 @@ example:
 
 #### Source
 
-main.ts:100120
+main.ts:100572
 
 ***
 
@@ -145,7 +163,7 @@ United Kingdom
 
 #### Source
 
-main.ts:100112
+main.ts:100564
 
 ***
 
@@ -161,7 +179,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:100167
+main.ts:100627
 
 ***
 
@@ -176,4 +194,4 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:100104
+main.ts:100556

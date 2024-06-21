@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:180364
+main.ts:181052
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:180354
+main.ts:181042
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Amazon ASIN Advanced task
 
 #### Source
 
-main.ts:180358
+main.ts:181046
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of the Amazon ASIN HTML task
 
 #### Source
 
-main.ts:180360
+main.ts:181048
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:180347
+main.ts:181035
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:180349
+main.ts:181037
 
 ***
 
@@ -128,7 +128,7 @@ can take the following values: shopping
 
 #### Source
 
-main.ts:180352
+main.ts:181040
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:180356
+main.ts:181044
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:180356
 
 #### Source
 
-main.ts:180373
+main.ts:181061
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:180373
 
 #### Source
 
-main.ts:180396
+main.ts:181084
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:180396
 
 #### Source
 
-main.ts:180389
+main.ts:181077

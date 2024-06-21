@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:80583
+main.ts:80641
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:80579
+main.ts:80637
 
 ## Methods
 
@@ -67,7 +67,7 @@ main.ts:80579
 
 #### Source
 
-main.ts:80592
+main.ts:80650
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:80592
 
 #### Source
 
-main.ts:80609
+main.ts:80667
 
 ***
 
@@ -103,4 +103,4 @@ main.ts:80609
 
 #### Source
 
-main.ts:80602
+main.ts:80660

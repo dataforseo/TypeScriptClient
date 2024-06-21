@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:77823
+main.ts:77880
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:77744
+main.ts:77800
 
 ***
 
@@ -82,7 +82,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Source
 
-main.ts:77782
+main.ts:77839
 
 ***
 
@@ -103,7 +103,7 @@ example:
 
 #### Source
 
-main.ts:77737
+main.ts:77793
 
 ***
 
@@ -114,7 +114,8 @@ main.ts:77737
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, technologies or categories
 optional field
-UTF-8 encoding
+you can specify the maximum of 10 keywords;
+UTF-8 encoding;
 example:
 ["seo","software"]
 
@@ -124,7 +125,7 @@ example:
 
 #### Source
 
-main.ts:77758
+main.ts:77815
 
 ***
 
@@ -143,7 +144,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:77804
+main.ts:77861
 
 ***
 
@@ -164,7 +165,7 @@ default value: as_is
 
 #### Source
 
-main.ts:77765
+main.ts:77822
 
 ***
 
@@ -185,7 +186,7 @@ use the offset_token if you would like to offset more results
 
 #### Source
 
-main.ts:77811
+main.ts:77868
 
 ***
 
@@ -207,7 +208,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:77819
+main.ts:77876
 
 ***
 
@@ -238,7 +239,7 @@ example:
 
 #### Source
 
-main.ts:77799
+main.ts:77856
 
 ***
 
@@ -259,7 +260,7 @@ example:
 
 #### Source
 
-main.ts:77751
+main.ts:77807
 
 ***
 
@@ -283,7 +284,7 @@ example:
 
 #### Source
 
-main.ts:77730
+main.ts:77786
 
 ## Methods
 
@@ -301,7 +302,7 @@ main.ts:77730
 
 #### Source
 
-main.ts:77832
+main.ts:77889
 
 ***
 
@@ -319,7 +320,7 @@ main.ts:77832
 
 #### Source
 
-main.ts:77887
+main.ts:77944
 
 ***
 
@@ -337,4 +338,4 @@ main.ts:77887
 
 #### Source
 
-main.ts:77880
+main.ts:77937

@@ -35,7 +35,7 @@ products-cc — used in google shopping search
 
 #### Source
 
-main.ts:52061
+main.ts:52105
 
 ***
 
@@ -56,7 +56,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Source
 
-main.ts:52044
+main.ts:52088
 
 ***
 
@@ -73,7 +73,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:51998
+main.ts:52042
 
 ***
 
@@ -90,7 +90,7 @@ en
 
 #### Source
 
-main.ts:52033
+main.ts:52077
 
 ***
 
@@ -107,7 +107,7 @@ English
 
 #### Source
 
-main.ts:52026
+main.ts:52070
 
 ***
 
@@ -123,7 +123,7 @@ example:
 
 #### Source
 
-main.ts:52019
+main.ts:52063
 
 ***
 
@@ -140,7 +140,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:52013
+main.ts:52057
 
 ***
 
@@ -160,7 +160,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:52093
+main.ts:52137
 
 ***
 
@@ -176,7 +176,7 @@ advanced
 
 #### Source
 
-main.ts:52083
+main.ts:52127
 
 ***
 
@@ -196,7 +196,7 @@ i.e., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:52077
+main.ts:52121
 
 ***
 
@@ -214,7 +214,7 @@ The cost can be calculated on the Pricing page
 
 #### Source
 
-main.ts:52006
+main.ts:52050
 
 ***
 
@@ -230,4 +230,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:52067
+main.ts:52111

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:27693
+main.ts:27731
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:27693
 
 #### Source
 
-main.ts:19817
+main.ts:19855
 
 ***
 
@@ -70,7 +70,7 @@ kc:/common/topic:social media presence
 
 #### Source
 
-main.ts:27681
+main.ts:27719
 
 ***
 
@@ -86,7 +86,7 @@ links featured in the faq_box_element
 
 #### Source
 
-main.ts:27685
+main.ts:27723
 
 ***
 
@@ -104,7 +104,7 @@ left, right
 
 #### Source
 
-main.ts:27673
+main.ts:27711
 
 ***
 
@@ -121,7 +121,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:27669
+main.ts:27707
 
 ***
 
@@ -139,7 +139,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:27666
+main.ts:27704
 
 ***
 
@@ -157,7 +157,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:27689
+main.ts:27727
 
 ***
 
@@ -173,7 +173,7 @@ row content
 
 #### Source
 
-main.ts:27683
+main.ts:27721
 
 ***
 
@@ -189,7 +189,7 @@ title of the item
 
 #### Source
 
-main.ts:27677
+main.ts:27715
 
 ***
 
@@ -205,7 +205,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:27675
+main.ts:27713
 
 ## Methods
 
@@ -227,7 +227,7 @@ main.ts:27675
 
 #### Source
 
-main.ts:27698
+main.ts:27736
 
 ***
 
@@ -249,7 +249,7 @@ main.ts:27698
 
 #### Source
 
-main.ts:27728
+main.ts:27766
 
 ***
 
@@ -271,4 +271,4 @@ main.ts:27728
 
 #### Source
 
-main.ts:27721
+main.ts:27759

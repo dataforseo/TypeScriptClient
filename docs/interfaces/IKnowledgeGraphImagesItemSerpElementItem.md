@@ -24,7 +24,7 @@ items featured in the faq_box
 
 #### Source
 
-main.ts:27529
+main.ts:27567
 
 ***
 
@@ -36,7 +36,7 @@ link of the element
 
 #### Source
 
-main.ts:27527
+main.ts:27565
 
 ***
 
@@ -50,7 +50,7 @@ left, right
 
 #### Source
 
-main.ts:27523
+main.ts:27561
 
 ***
 
@@ -63,7 +63,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:27519
+main.ts:27557
 
 ***
 
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:27516
+main.ts:27554
 
 ***
 
@@ -91,7 +91,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:27533
+main.ts:27571
 
 ***
 
@@ -103,4 +103,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:27525
+main.ts:27563

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:29339
+main.ts:29379
 
 ## Properties
 
@@ -47,7 +47,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:29328
+main.ts:29366
 
 ***
 
@@ -63,7 +63,7 @@ the date when the page source of the element was published
 
 #### Source
 
-main.ts:29325
+main.ts:29363
 
 ***
 
@@ -79,7 +79,23 @@ website domain
 
 #### Source
 
-main.ts:29321
+main.ts:29359
+
+***
+
+### image\_url?
+
+> **`optional`** **image\_url**: `string`
+
+URL of the image
+
+#### Implementation of
+
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`image_url`](../interfaces/ITopStoriesElement.md#image_url)
+
+#### Source
+
+main.ts:29375
 
 ***
 
@@ -96,7 +112,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:29319
+main.ts:29357
 
 ***
 
@@ -115,7 +131,7 @@ example:
 
 #### Source
 
-main.ts:29333
+main.ts:29371
 
 ***
 
@@ -131,7 +147,7 @@ title of a given link element
 
 #### Source
 
-main.ts:29323
+main.ts:29361
 
 ***
 
@@ -147,7 +163,7 @@ type of element
 
 #### Source
 
-main.ts:29316
+main.ts:29354
 
 ***
 
@@ -163,7 +179,7 @@ URL
 
 #### Source
 
-main.ts:29335
+main.ts:29373
 
 ## Methods
 
@@ -181,7 +197,7 @@ main.ts:29335
 
 #### Source
 
-main.ts:29348
+main.ts:29388
 
 ***
 
@@ -199,7 +215,7 @@ main.ts:29348
 
 #### Source
 
-main.ts:29372
+main.ts:29413
 
 ***
 
@@ -217,4 +233,4 @@ main.ts:29372
 
 #### Source
 
-main.ts:29365
+main.ts:29406

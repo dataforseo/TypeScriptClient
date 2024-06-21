@@ -27,7 +27,7 @@ example:
 
 #### Source
 
-main.ts:212999
+main.ts:213700
 
 ***
 
@@ -40,7 +40,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:212990
+main.ts:213691
 
 ***
 
@@ -53,7 +53,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:212987
+main.ts:213688
 
 ***
 
@@ -66,7 +66,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:212984
+main.ts:213685
 
 ***
 
@@ -78,7 +78,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:212994
+main.ts:213695
 
 ***
 
@@ -90,7 +90,20 @@ contains information about the owner’s response
 
 #### Source
 
-main.ts:213014
+main.ts:213715
+
+***
+
+### review\_highlights?
+
+> **`optional`** **review\_highlights**: [`ReviewHighlights`](../classes/ReviewHighlights.md)[]
+
+review highlights
+contains highlighted review criteria and assessments
+
+#### Source
+
+main.ts:213718
 
 ***
 
@@ -102,7 +115,7 @@ contains URLs of the images used in the review
 
 #### Source
 
-main.ts:213010
+main.ts:213711
 
 ***
 
@@ -114,7 +127,7 @@ content of the review
 
 #### Source
 
-main.ts:213008
+main.ts:213709
 
 ***
 
@@ -129,7 +142,7 @@ example:
 
 #### Source
 
-main.ts:213004
+main.ts:213705
 
 ***
 
@@ -141,7 +154,7 @@ title of the review
 
 #### Source
 
-main.ts:213006
+main.ts:213707
 
 ***
 
@@ -153,7 +166,7 @@ URL of the review
 
 #### Source
 
-main.ts:212992
+main.ts:213693
 
 ***
 
@@ -165,4 +178,4 @@ information from the reviewer’s profile
 
 #### Source
 
-main.ts:213012
+main.ts:213713

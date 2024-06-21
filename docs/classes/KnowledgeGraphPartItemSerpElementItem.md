@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:28117
+main.ts:28155
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:28117
 
 #### Source
 
-main.ts:19817
+main.ts:19855
 
 ***
 
@@ -70,7 +70,7 @@ kc:/local:place qa
 
 #### Source
 
-main.ts:28103
+main.ts:28141
 
 ***
 
@@ -88,7 +88,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:28109
+main.ts:28147
 
 ***
 
@@ -106,7 +106,7 @@ left, right
 
 #### Source
 
-main.ts:28095
+main.ts:28133
 
 ***
 
@@ -123,7 +123,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:28091
+main.ts:28129
 
 ***
 
@@ -141,7 +141,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:28088
+main.ts:28126
 
 ***
 
@@ -159,7 +159,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:28113
+main.ts:28151
 
 ***
 
@@ -175,7 +175,7 @@ content within the item
 
 #### Source
 
-main.ts:28105
+main.ts:28143
 
 ***
 
@@ -191,7 +191,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:28099
+main.ts:28137
 
 ***
 
@@ -207,7 +207,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:28097
+main.ts:28135
 
 ## Methods
 
@@ -229,7 +229,7 @@ main.ts:28097
 
 #### Source
 
-main.ts:28122
+main.ts:28160
 
 ***
 
@@ -251,7 +251,7 @@ main.ts:28122
 
 #### Source
 
-main.ts:28152
+main.ts:28190
 
 ***
 
@@ -273,4 +273,4 @@ main.ts:28152
 
 #### Source
 
-main.ts:28145
+main.ts:28183

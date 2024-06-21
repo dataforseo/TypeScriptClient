@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:100044
+main.ts:100494
 
 ## Properties
 
@@ -51,7 +51,7 @@ we recommend always setting correlate to true
 
 #### Source
 
-main.ts:100029
+main.ts:100471
 
 ***
 
@@ -71,7 +71,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:100015
+main.ts:100457
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Source
 
-main.ts:100022
+main.ts:100464
 
 ***
 
@@ -111,7 +111,29 @@ default value: false
 
 #### Source
 
-main.ts:100034
+main.ts:100476
+
+***
+
+### include\_clickstream\_data?
+
+> **`optional`** **include\_clickstream\_data**: `boolean`
+
+include or exclude data from clickstream-based metrics in the result
+optional field
+if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
+default value: false
+with this parameter enabled, you will be charged double the price for the request
+Note: clickstream data is available for roughly 15% of keywords in the response
+learn more about how clickstream-based metrics are calculated in this help center article
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md).[`include_clickstream_data`](../interfaces/IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo.md#include_clickstream_data)
+
+#### Source
+
+main.ts:100484
 
 ***
 
@@ -133,7 +155,7 @@ en
 
 #### Source
 
-main.ts:100009
+main.ts:100451
 
 ***
 
@@ -155,7 +177,7 @@ English
 
 #### Source
 
-main.ts:100001
+main.ts:100443
 
 ***
 
@@ -177,7 +199,7 @@ example:
 
 #### Source
 
-main.ts:99993
+main.ts:100435
 
 ***
 
@@ -199,7 +221,7 @@ United Kingdom
 
 #### Source
 
-main.ts:99985
+main.ts:100427
 
 ***
 
@@ -219,7 +241,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:100040
+main.ts:100490
 
 ***
 
@@ -238,7 +260,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:99977
+main.ts:100419
 
 ## Methods
 
@@ -256,7 +278,7 @@ main.ts:99977
 
 #### Source
 
-main.ts:100053
+main.ts:100503
 
 ***
 
@@ -274,7 +296,7 @@ main.ts:100053
 
 #### Source
 
-main.ts:100079
+main.ts:100530
 
 ***
 
@@ -292,4 +314,4 @@ main.ts:100079
 
 #### Source
 
-main.ts:100072
+main.ts:100523

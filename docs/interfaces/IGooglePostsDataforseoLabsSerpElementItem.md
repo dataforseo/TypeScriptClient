@@ -26,7 +26,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:98138
+main.ts:98580
 
 ***
 
@@ -38,7 +38,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:98134
+main.ts:98576
 
 ***
 
@@ -52,7 +52,7 @@ left, right
 
 #### Source
 
-main.ts:98128
+main.ts:98570
 
 ***
 
@@ -64,7 +64,7 @@ the identifier of the google_posts feature
 
 #### Source
 
-main.ts:98132
+main.ts:98574
 
 ***
 
@@ -77,7 +77,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98124
+main.ts:98566
 
 ***
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98121
+main.ts:98563
 
 ***
 
@@ -102,4 +102,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:98130
+main.ts:98572

@@ -328,7 +328,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c9ece069-eb8d-4826-a21d-4dc510fa7034
+          example: 14cc400a-6367-405f-a2aa-157423b7b78c
       responses:
         '200':
           description: Successful operation
@@ -646,7 +646,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e3814437-5435-4d76-acd4-46bbcc33a8d9
+          example: 942c9446-7b28-4a40-8bec-5b0bbc6e6408
       responses:
         '200':
           description: Successful operation
@@ -818,7 +818,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f96f1191-dde4-484d-9273-de53a1b9dece
+          example: cca9b1da-eed2-4023-bbf7-191d8826d307
       responses:
         '200':
           description: Successful operation
@@ -1108,7 +1108,7 @@ paths:
           required: true
           schema:
             type: string
-          example: fc7a7987-69bc-479c-8bfb-58a1691f2695
+          example: 784c13b4-4113-4e75-b658-236ce222702a
       responses:
         '200':
           description: Successful operation
@@ -1370,7 +1370,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 303bfd9d-c2f9-48da-8b3c-389ba5b7e74f
+          example: 10112ea1-f260-43ba-8a16-5f3b4f79e162
       responses:
         '200':
           description: Successful operation
@@ -1928,7 +1928,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 9f07a817-0c07-402b-9bdc-75bccd883024
+          example: 5dd5be14-953b-47d9-9416-12b16ded33e2
       responses:
         '200':
           description: Successful operation
@@ -2128,7 +2128,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 4fb7f892-b0bb-4c6c-b057-5452da2b5ebd
+          example: 6a086040-3793-40be-8d7b-7a9c2d30b6e3
       responses:
         '200':
           description: Successful operation
@@ -2804,7 +2804,7 @@ paths:
           required: true
           schema:
             type: string
-          example: bf2974cb-0c0f-4fc7-a3f0-37a4471570df
+          example: 92556b54-34ae-4b76-9baa-2a2ffb62c52c
       responses:
         '200':
           description: Successful operation
@@ -3092,7 +3092,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 183c5b8f-dfee-41f0-94c3-21cdb20f1420
+          example: 9d33144f-ed7e-4001-8908-7619bc9b041d
       responses:
         '200':
           description: Successful operation
@@ -3234,7 +3234,7 @@ paths:
           required: true
           schema:
             type: string
-          example: cd4b6218-2bdb-4f51-bc41-6322d07b543b
+          example: bce351e8-4ea5-40c9-9428-1f35fd4a3514
       responses:
         '200':
           description: Successful operation
@@ -3438,7 +3438,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c42900fd-2e52-4338-aa7b-787492e7a7fe
+          example: 2fa8b55f-2f5b-4648-8e4c-1bae8cec84ab
       responses:
         '200':
           description: Successful operation
@@ -5403,6 +5403,32 @@ paths:
                 nullable: true
       security:
         - basicAuth: [ ]
+  '/v3/keywords_data/google_ads/locations/{country}':
+    get:
+      tags:
+        - KeywordsData
+      description: "‌\nWe use Google Geographical Targeting. You can refer to Google Ads Target Types page to review the full list of possible location types. With Keywords Data API, you can select any location type supported by Google, except for “Okrug”.\nPostal Codes can be used to set a task, albeit API response will not return data for such tasks.\nfor more info please visit 'https://docs.dataforseo.com/v3/keywords_data/google_ads/locations/?bash'"
+      operationId: KeywordsDataGoogleAdsLocationsCountry
+      parameters:
+        - name: country
+          in: path
+          description: "country ISO code\noptional field\nspecify the ISO code if you want to filter the list of locations by country\nexample:\nus"
+          required: true
+          schema:
+            type: string
+          example: us
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/KeywordsDataGoogleAdsLocationsCountryResponseInfo'
+                nullable: true
+      security:
+        - basicAuth: [ ]
   /v3/keywords_data/google_ads/languages:
     get:
       tags:
@@ -5480,7 +5506,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 5b84c9fd-94f8-435f-acf0-1d090a6a355d
+          example: b66333fb-cea7-4162-a8ff-6a578590c78b
       responses:
         '200':
           description: Successful operation
@@ -5580,7 +5606,7 @@ paths:
           required: true
           schema:
             type: string
-          example: a9adaf8b-9a01-4cc2-9d3c-f0712850b6f9
+          example: 2fbe3952-e50c-4426-96fd-b8f1f68400b4
       responses:
         '200':
           description: Successful operation
@@ -5680,7 +5706,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 1407e9cb-69e4-45aa-83c2-218250c7768d
+          example: 0504405e-8e15-4144-8f43-1e8b70f12aff
       responses:
         '200':
           description: Successful operation
@@ -5780,7 +5806,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 3aff39fc-79b1-49e5-ba70-3acf3a60e804
+          example: ea8a19dc-134e-4e2e-9a95-fef7f33db08b
       responses:
         '200':
           description: Successful operation
@@ -5960,7 +5986,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 6f50b49e-7a7b-407a-9846-31a1b19a1e0a
+          example: 99562a97-c0de-4b6b-9226-57072d6fe67d
       responses:
         '200':
           description: Successful operation
@@ -6252,7 +6278,7 @@ paths:
           required: true
           schema:
             type: string
-          example: dda6c735-686a-41d3-b94b-a7f537a3bbc4
+          example: 9b973a6e-0dae-42d6-89f8-472b58232b29
       responses:
         '200':
           description: Successful operation
@@ -6352,7 +6378,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e8845b46-e866-4c2f-994b-c31be87fdb05
+          example: 947aaef8-6ad3-4346-a4c8-549ecfea3ddd
       responses:
         '200':
           description: Successful operation
@@ -6452,7 +6478,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 0678b041-425d-41f8-90e0-16de3b995192
+          example: bea706b9-f03e-4331-9080-de3fa8d49bc9
       responses:
         '200':
           description: Successful operation
@@ -6570,7 +6596,7 @@ paths:
           required: true
           schema:
             type: string
-          example: af84e5db-5540-4d4c-afb5-740a8419599c
+          example: b8653710-e1d9-4370-9b9c-6d28f0faa129
       responses:
         '200':
           description: Successful operation
@@ -8778,7 +8804,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ad9ca39e-7c12-4389-be61-9d6f6631f5c7
+          example: 5d6ce189-f4b0-471b-a6cb-e635151e130b
       responses:
         '200':
           description: Successful operation
@@ -8876,7 +8902,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 099d110e-a035-4b1d-84d1-bc88dd076722
+          example: 9940fd3c-0d3e-48ba-8dae-97bf90b75166
       responses:
         '200':
           description: Successful operation
@@ -8974,7 +9000,7 @@ paths:
           required: true
           schema:
             type: string
-          example: a84bff65-f508-4ebc-b7cb-cb61b75e03a6
+          example: 76c3df35-17e3-4a63-89a5-f9b466d083c7
       responses:
         '200':
           description: Successful operation
@@ -9232,7 +9258,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 5f9d78f0-c52b-42ab-985d-842d8f683745
+          example: 792185cd-420a-4ce8-96a4-5b118611999e
       responses:
         '200':
           description: Successful operation
@@ -9330,7 +9356,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 3349c84a-fe47-4276-a09a-e4a96461f4b4
+          example: 593a5b8b-a1b3-4903-abbf-08d72aae3717
       responses:
         '200':
           description: Successful operation
@@ -9428,7 +9454,7 @@ paths:
           required: true
           schema:
             type: string
-          example: fa71a608-27bd-4dce-9def-48e3f0471b33
+          example: be7b73c1-ce8c-4e09-9006-2d3f52b568fb
       responses:
         '200':
           description: Successful operation
@@ -9526,7 +9552,7 @@ paths:
           required: true
           schema:
             type: string
-          example: dd357655-0be0-474a-a2ce-6f038e6195b9
+          example: d812548b-b7d2-4e6d-bfed-53947b3ffd17
       responses:
         '200':
           description: Successful operation
@@ -9639,6 +9665,12 @@ paths:
       operationId: AppDataGoogleLocationsCountry
       parameters:
         - name: country
+          in: path
+          description: "country ISO code\noptional field\nspecify the ISO code if you want to filter the list of locations by country\nexample:\nus"
+          required: true
+          schema:
+            type: string
+          example: us
       responses:
         '200':
           description: Successful operation
@@ -9746,7 +9778,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b411360b-e937-45ff-a551-7f8a25bbc0b3
+          example: c5a84c5b-18ec-49b3-b79f-8285c3bef605
       responses:
         '200':
           description: Successful operation
@@ -9772,7 +9804,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b49667a5-f8e0-4033-8313-7a7b81540ceb
+          example: dfc988ff-d973-494a-85b7-a11d4f5139ba
       responses:
         '200':
           description: Successful operation
@@ -9844,7 +9876,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 0ae824f7-6655-4b9b-aa59-9bd4cb0c4343
+          example: 64a8a1c0-e748-4461-bb80-92cd207e1a21
       responses:
         '200':
           description: Successful operation
@@ -9870,7 +9902,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 89a69f5a-86f9-4d17-8d77-d3a773cc0d5c
+          example: ae911a0e-e788-4149-91b6-3b8e22c5e1ec
       responses:
         '200':
           description: Successful operation
@@ -9942,7 +9974,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 3152fa8d-18a1-439e-9b70-ce579cc9034a
+          example: 8264c4cd-5d03-49d1-915a-8337b11379f0
       responses:
         '200':
           description: Successful operation
@@ -9968,7 +10000,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 15c8af7c-9097-4dcf-ab0d-b03d3824697b
+          example: 83845af9-c32a-4d78-8960-e3a305ccd9dc
       responses:
         '200':
           description: Successful operation
@@ -10040,7 +10072,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 195538d4-1fb3-40ac-bfc6-34a9dca82a44
+          example: 71f49aac-a29b-45a9-bead-70c86f9d0bb7
       responses:
         '200':
           description: Successful operation
@@ -10066,7 +10098,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 0e10fb32-6d69-4848-9fe3-8360ac396c91
+          example: c40ea7e5-5622-4cf2-8e99-16e6d7f1156d
       responses:
         '200':
           description: Successful operation
@@ -10238,7 +10270,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 8036b8d9-8bfe-4f02-bcb5-00cc74563557
+          example: 6b74dcaa-51d3-4702-86e9-e4b2105f24dd
       responses:
         '200':
           description: Successful operation
@@ -10310,7 +10342,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d7ceb2c9-9ef3-42a6-acf2-5a185aab9114
+          example: 701f0203-50b0-4632-9279-d0e244d7838f
       responses:
         '200':
           description: Successful operation
@@ -10382,7 +10414,7 @@ paths:
           required: true
           schema:
             type: string
-          example: aefa60c3-022e-4489-9ff2-1f51d0a213a6
+          example: 81ffd7d8-8256-4aa6-add2-cc67ba23e557
       responses:
         '200':
           description: Successful operation
@@ -10454,7 +10486,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 1dd93216-a710-4e20-9775-47d850c36527
+          example: d6a81ea6-ab25-4fdf-b8c7-e27f5aab192e
       responses:
         '200':
           description: Successful operation
@@ -11088,7 +11120,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d5aa525c-70fc-44cc-99e7-2011973c429b
+          example: 19dfc58a-915f-4db9-9c5c-0e80b93b0cf9
       responses:
         '200':
           description: Successful operation
@@ -14870,6 +14902,10 @@ components:
         url:
           type: string
           description: URL
+          nullable: true
+        image_url:
+          type: string
+          description: URL of the image
           nullable: true
     TopStoriesSerpElementItem:
       type: object
@@ -29602,19 +29638,19 @@ components:
           nullable: true
         internal_groups_list_limit:
           type: integer
-          description: "maximum number of returned technology groups\noptional field\nyou can use this field to limit the number of items with identical \"group\" in the results\ndefault value: 5\nmaximum value: 10000"
+          description: "maximum number of returned technology groups\noptional field\nyou can use this field to limit the number of items with identical \"group\" in the results\ndefault value: 5\nminimum value: 1\nmaximum value: 10000"
           nullable: true
         internal_categories_list_limit:
           type: integer
-          description: "maximum number of returned technology categories within the same group\noptional field\nyou can use this field to limit the number of items with identical \"category\" in the results\ndefault value: 5\nmaximum value: 10000"
+          description: "maximum number of returned technology categories within the same group\noptional field\nyou can use this field to limit the number of items with identical \"category\" in the results\ndefault value: 5\nminimum value: 1\nmaximum value: 10000"
           nullable: true
         internal_technologies_list_limit:
           type: integer
-          description: "maximum number of returned technologies within the same category\noptional field\nyou can use this field to limit the number of items with identical \"technology\" in the results\ndefault value: 10\nmaximum value: 10000"
+          description: "maximum number of returned technologies within the same category\noptional field\nyou can use this field to limit the number of items with identical \"technology\" in the results\ndefault value: 10\nminimum value: 1\nmaximum value: 10000"
           nullable: true
         internal_list_limit:
           type: integer
-          description: "maximum number of items with identical \"category\", \"group\", and \"technology\"\noptional field\nif you use this field, the values specified in internal_groups_list_limit, internal_categories_list_limit and internal_technologies_list_limit will be ignored;\nyou can use this field to limit the number of items with identical \"category\", \"group\", or \"technology\"\ndefault value: 10\nmaximum value: 10000"
+          description: "maximum number of items with identical \"category\", \"group\", and \"technology\"\noptional field\nif you use this field, the values specified in internal_groups_list_limit, internal_categories_list_limit and internal_technologies_list_limit will be ignored;\nyou can use this field to limit the number of items with identical \"category\", \"group\", or \"technology\"\ndefault value: 10\nminimum value: 1\nmaximum value: 10000"
           nullable: true
         limit:
           type: integer
@@ -29732,25 +29768,25 @@ components:
           type: array
           items:
             type: string
-          description: "ids of the target technology groups\nrequired field if you don’t specify technologies, technology_paths or categories\nyou can find the full list of technology group ids on this page\nnote: you can specify up to 10 technology groups in this array\nexample:\n[\"sales\", \"marketing\"]"
+          description: "ids of the target technology groups\nrequired field if you don’t specify technologies, technology_paths, categories, or keywords\nyou can find the full list of technology group ids on this page\nnote: you can specify up to 10 technology groups in this array\nexample:\n[\"sales\", \"marketing\"]"
           nullable: true
         categories:
           type: array
           items:
             type: string
-          description: "ids of the target technology categories\nrequired field if you don’t specify groups, technology_paths or technologies\nyou can find the full list of technology category ids on this page\nnote: you can specify up to 10 technology categories in this array\nexample:\n[\"payment_processors\",\"crm\"]"
+          description: "ids of the target technology categories\nrequired field if you don’t specify groups, technology_paths, technologies, or keywords\nyou can find the full list of technology category ids on this page\nnote: you can specify up to 10 technology categories in this array\nexample:\n[\"payment_processors\",\"crm\"]"
           nullable: true
         technologies:
           type: array
           items:
             type: string
-          description: "target technologies\nrequired field if you don’t specify groups, technology_paths or categories\nyou can find the full list of technologies you can specify here on this page\nnote: you can specify up to 10 technologies in this array\nexample:\n[\"Google Pay\",\"Salesforce\"]"
+          description: "target technologies\nrequired field if you don’t specify groups, technology_paths, categories, or keywords\nyou can find the full list of technologies you can specify here on this page\nnote: you can specify up to 10 technologies in this array\nexample:\n[\"Google Pay\",\"Salesforce\"]"
           nullable: true
         keywords:
           type: array
           items:
             type: string
-          description: "target keywords in the domain’s title, description or meta keywords\noptional field\nUTF-8 encoding\nexample:\n[\"seo\",\"software\"]"
+          description: "target keywords in the domain’s title, description or meta keywords\nrequired field if you don’t specify groups, technology_paths, categories, or technologies\nyou can specify the maximum of 10 keywords;\nUTF-8 encoding;\nexample:\n[\"seo\",\"software\"]"
           nullable: true
         mode:
           type: string
@@ -29765,7 +29801,7 @@ components:
           nullable: true
         internal_list_limit:
           type: integer
-          description: "maximum number of elements within internal arrays\noptional field\nyou can use this field to limit the number of elements within the following arrays:\ncountries, languages, content_languages, keywords\ndefault value: 10\nmaximum value: 10000"
+          description: "maximum number of elements within internal arrays\noptional field\nyou can use this field to limit the number of elements within the following arrays:\ncountries, languages, content_languages, keywords\ndefault value: 10\nminimum value: 1\nmaximum value: 10000"
           nullable: true
         tag:
           type: string
@@ -29985,7 +30021,7 @@ components:
           type: array
           items:
             type: string
-          description: "target keywords in the domain’s title, description or meta keywords\nrequired field if you don’t specify groups, technology_paths, technologies or categories\noptional field\nUTF-8 encoding\nexample:\n[\"seo\",\"software\"]"
+          description: "target keywords in the domain’s title, description or meta keywords\nrequired field if you don’t specify groups, technology_paths, technologies or categories\noptional field\nyou can specify the maximum of 10 keywords;\nUTF-8 encoding;\nexample:\n[\"seo\",\"software\"]"
           nullable: true
         mode:
           type: string
@@ -31367,6 +31403,10 @@ components:
           type: boolean
           description: "indicates if the subdomains will be included in the search\noptional field\nif set to false, the subdomains will be ignored\ndefault value: true"
           nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
+          nullable: true
         ignore_synonyms:
           type: boolean
           description: "ignore highly similar keywords\noptional field\nif set to true only core keywords will be returned, all highly similar keywords will be excluded;\ndefault value: false"
@@ -31470,6 +31510,43 @@ components:
               - $ref: '#/components/schemas/MonthlySearches'
             nullable: true
           description: "monthly searches\nrepresents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations"
+          nullable: true
+    ClickstreamKeywordInfo:
+      type: object
+      properties:
+        search_volume:
+          type: integer
+          description: monthly average clickstream search volume rate
+          format: int64
+          nullable: true
+        last_updated_time:
+          type: string
+          description: "date and time when the clickstream dataset was updated\nin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”"
+          nullable: true
+        gender_distribution:
+          type: object
+          additionalProperties:
+            type: integer
+            format: int64
+            nullable: true
+          description: distribution of estimated clickstream-based metrics by gender
+          nullable: true
+        age_distribution:
+          type: object
+          additionalProperties:
+            type: integer
+            format: int64
+            nullable: true
+          description: distribution of clickstream-based metrics by age
+          nullable: true
+        monthly_searches:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/MonthlySearches'
+            nullable: true
+          description: "monthly clickstream search volume rates\narray of objects with clickstream search volume rates in a certain month of a year"
           nullable: true
     KeywordProperties:
       type: object
@@ -31716,6 +31793,12 @@ components:
             - $ref: '#/components/schemas/KeywordInfo'
           description: keyword data for the returned keyword idea
           nullable: true
+        clickstream_keyword_info:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/ClickstreamKeywordInfo'
+          description: "clickstream data for the returned keyword\nto retrieve results for this field, the parameter include_clickstream_data must be set to true"
+          nullable: true
         keyword_properties:
           type: object
           oneOf:
@@ -31855,6 +31938,10 @@ components:
         include_serp_info:
           type: boolean
           description: "include data from SERP for each keyword\noptional field\nif set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response\ndefault value: false"
+          nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
           nullable: true
         ignore_synonyms:
           type: boolean
@@ -32029,6 +32116,10 @@ components:
           type: boolean
           description: "include data from SERP for each keyword\noptional field\nif set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response\ndefault value: false"
           nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
+          nullable: true
         exact_match:
           type: boolean
           description: "search for the exact phrase\noptional field\nif set to true, the returned keywords will include the exact keyword phrase you specified, with potentially other words before or after that phrase\ndefault value: false"
@@ -32086,11 +32177,11 @@ components:
           nullable: true
         location_code:
           type: integer
-          description: location code in a POST array
+          description: "location code in a POST array\nif there is no data, then the value is null"
           nullable: true
         language_code:
           type: string
-          description: language code in a POST array
+          description: "language code in a POST array\nif there is no data, then the value is null"
           nullable: true
         total_count:
           type: integer
@@ -32184,6 +32275,10 @@ components:
         include_serp_info:
           type: boolean
           description: "include data from SERP for each keyword\noptional field\nif set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response\ndefault value: false"
+          nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
           nullable: true
         limit:
           type: integer
@@ -32321,6 +32416,10 @@ components:
           type: boolean
           description: "include data from SERP for each keyword\noptional field\nif set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response\ndefault value: false"
           nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
+          nullable: true
         tag:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
@@ -32353,6 +32452,12 @@ components:
           oneOf:
             - $ref: '#/components/schemas/KeywordInfo'
           description: keyword data for the returned keyword idea
+          nullable: true
+        clickstream_keyword_info:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/ClickstreamKeywordInfo'
+          description: "clickstream data for the returned keyword\nto retrieve results for this field, the parameter include_clickstream_data must be set to true"
           nullable: true
         keyword_properties:
           type: object
@@ -32669,11 +32774,15 @@ components:
           type: boolean
           description: "indicates if the subcategories will be included in the search\noptional field\nif set to false, the subcategories will be ignored\ndefault value: false\nlearn more about the parameter in this help center article"
           nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
+          nullable: true
         item_types:
           type: array
           items:
             type: string
-          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from the organic object, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]"
+          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from the organic object, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\"]"
           nullable: true
         filters:
           type: array
@@ -32818,6 +32927,10 @@ components:
         include_serp_info:
           type: boolean
           description: "include data from SERP for each keyword\noptional field\nif set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response\ndefault value: false"
+          nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
           nullable: true
         ignore_synonyms:
           type: boolean
@@ -33163,6 +33276,10 @@ components:
           type: boolean
           description: "include data from SERP for each keyword\noptional field\nif set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response\ndefault value: false"
           nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info object with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
+          nullable: true
         ignore_synonyms:
           type: boolean
           description: "ignore highly similar keywords\noptional field\nif set to true only core keywords will be returned, all highly similar keywords will be excluded;\ndefault value: false"
@@ -33444,7 +33561,11 @@ components:
           type: array
           items:
             type: string
-          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]"
+          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\"]"
+          nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info, clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
           nullable: true
         limit:
           type: integer
@@ -33637,6 +33758,10 @@ components:
               type: number
               description: "estimated cost of monthly search traffic\nrepresents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for\nlearn more about how the metric is calculated in this help center article"
               format: float
+              nullable: true
+            clickstream_etv:
+              type: integer
+              description: "estimated traffic volume based on clickstream data\ncalculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for\nto retrieve results for this field, the parameter include_clickstream_data must be set to true"
               nullable: true
             rank_changes:
               type: object
@@ -33832,6 +33957,10 @@ components:
               description: "estimated cost of monthly search traffic\nrepresents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for\nlearn more about how the metric is calculated in this help center article"
               format: float
               nullable: true
+            clickstream_etv:
+              type: integer
+              description: "estimated traffic volume based on clickstream data\ncalculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for\nto retrieve results for this field, the parameter include_clickstream_data must be set to true"
+              nullable: true
             rank_changes:
               type: object
               oneOf:
@@ -33976,7 +34105,7 @@ components:
           type: array
           items:
             type: string
-          description: "search results type\nindicates type of search results included in the response\noptional field\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]"
+          description: "search results type\nindicates type of search results included in the response\noptional field\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\"]"
           nullable: true
         limit:
           type: integer
@@ -34150,7 +34279,11 @@ components:
           type: array
           items:
             type: string
-          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]"
+          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\"]"
+          nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
           nullable: true
         filters:
           type: array
@@ -34340,6 +34473,10 @@ components:
           type: boolean
           description: "include data from SERP for each keyword\noptional field\nif set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response\ndefault value: false"
           nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
+          nullable: true
         limit:
           type: integer
           description: "the maximum number of returned keywords\noptional field\ndefault value: 100\nmaximum value: 1000"
@@ -34382,13 +34519,13 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/BaseDataforseoLabsSerpElementItem'
-          description: "contains data on the first domain’s SERP element found for the returned keyword\nthe list of supported SERP elements can be found below"
+          description: "contains data on the first domain's SERP element found for the returned keyword\nthe list of supported SERP elements can be found below"
           nullable: true
         second_domain_serp_element:
           type: object
           oneOf:
             - $ref: '#/components/schemas/BaseDataforseoLabsSerpElementItem'
-          description: "contains data on the second domain’s SERP element found for the returned keyword\nthe list of supported SERP elements can be found below"
+          description: "contains data on the second domain's SERP element found for the returned keyword\nthe list of supported SERP elements can be found below"
           nullable: true
     DataforseoLabsGoogleDomainIntersectionLiveResultInfo:
       type: object
@@ -34488,7 +34625,11 @@ components:
           type: array
           items:
             type: string
-          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]"
+          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\"]"
+          nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
           nullable: true
         historical_serp_mode:
           type: string
@@ -34630,11 +34771,15 @@ components:
           type: array
           items:
             type: string
-          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]"
+          description: "display results by item type\noptional field\nindicates the type of search results included in the response\nNote: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array; you will not be able to sort and filter results by the types of search results not included in the response;\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\"]"
           nullable: true
         limit:
           type: integer
           description: "the maximum number of returned pages\noptional field\ndefault value: 100\nmaximum value: 1000"
+          nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
           nullable: true
         offset:
           type: integer
@@ -36846,6 +36991,10 @@ components:
           type: boolean
           description: "ignore highly similar keywords\noptional field\nif set to true, only data based on core keywords will be returned, data for all highly similar keywords will be excluded;\ndefault value: false"
           nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
+          nullable: true
         tag:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
@@ -36975,7 +37124,7 @@ components:
           type: array
           items:
             type: string
-          description: "search results type\nindicates type of search results included in the response\noptional field\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]"
+          description: "search results type\nindicates type of search results included in the response\noptional field\npossible values:\n[\"organic\", \"paid\", \"featured_snippet\", \"local_pack\"]\ndefault value:\n[\"organic\", \"paid\"]"
           nullable: true
         limit:
           type: integer
@@ -36996,6 +37145,10 @@ components:
         include_serp_info:
           type: boolean
           description: "include data from SERP for each keyword\noptional field\nif set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response\ndefault value: false"
+          nullable: true
+        include_clickstream_data:
+          type: boolean
+          description: "include or exclude data from clickstream-based metrics in the result\noptional field\nif the parameter is set to true, you will receive clickstream_keyword_info, and clickstream_etv fields with clickstream data in the response\ndefault value: false\nwith this parameter enabled, you will be charged double the price for the request\nNote: clickstream data is available for roughly 15% of keywords in the response\nlearn more about how clickstream-based metrics are calculated in this help center article"
           nullable: true
         ignore_synonyms:
           type: boolean
@@ -37940,6 +38093,101 @@ components:
             - $ref: '#/components/schemas/AmazonRankedSerpElement'
           description: contains data on the products’s SERP element found for the returned keyword
           nullable: true
+    AmazonAmazonPaidSerpElementItem:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseAmazonSerpElementItem'
+        - type: object
+          properties:
+            se_type:
+              type: string
+              description: search engine type
+              nullable: true
+            rank_group:
+              type: integer
+              description: "position within a group of elements with identical type values\npositions of elements with different type values are omitted from rank_group"
+              nullable: true
+            rank_absolute:
+              type: integer
+              description: "absolute rank in Amazon SERP\nabsolute position among all the elements in SERP"
+              nullable: true
+            position:
+              type: string
+              description: "the alignment of the element in Amazon SERP\ncan take the following values:\nleft, right"
+              nullable: true
+            xpath:
+              type: string
+              description: the XPath of the element
+              nullable: true
+            domain:
+              type: string
+              description: Amazon domain
+              nullable: true
+            title:
+              type: string
+              description: product title
+              nullable: true
+            url:
+              type: string
+              description: URL of the product page
+              nullable: true
+            asin:
+              type: string
+              description: "ASIN of the product\nlearn more about ASIN in this help center guide"
+              nullable: true
+            image_url:
+              type: string
+              description: URL of the product image featured in the results
+              nullable: true
+            price_from:
+              type: number
+              description: "the regular price of a product\nexample:\n49.98"
+              format: float
+              nullable: true
+            price_to:
+              type: number
+              description: "the upper limit of the product price range\nexample:\n384.99"
+              format: float
+              nullable: true
+            currency:
+              type: string
+              description: "currency in the ISO format\nexample:\nUSD"
+              nullable: true
+            special_offers:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: "special offer details\ncontains special offer details, including coupon and Subscribe & Save discounts"
+              nullable: true
+            is_best_seller:
+              type: boolean
+              description: "“Best Seller” label\nif the value is true, the product is marked with the “Best Seller” label"
+              nullable: true
+            is_amazon_choice:
+              type: boolean
+              description: "“Amazon’s choice” label\nif the value is true, the product is marked with the “Amazon’s choice” label"
+              nullable: true
+            rating:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RatingInfo'
+              description: "the item’s rating \nthe popularity rate based on reviews and displayed in SERP"
+              nullable: true
+            delivery_info:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/AmazonDeliveryInfo'
+              description: "delivery information\ndelivery information including free and fast delivery date ranges"
+              nullable: true
+            bought_past_month:
+              type: integer
+              description: number of product purchases in the past month
+              nullable: true
+            data_asin:
+              type: string
+              description: "unique product identifier on Amazon\nnote that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon\nexample:\nB07G82D89J"
+              nullable: true
     DataforseoLabsAmazonRankedKeywordsLiveResultInfo:
       type: object
       properties:
@@ -41407,6 +41655,59 @@ components:
                 type: object
                 oneOf:
                   - $ref: '#/components/schemas/KeywordsDataGoogleAdsLocationsTaskInfo'
+                nullable: true
+              description: array of tasks
+              nullable: true
+    KeywordsDataGoogleAdsLocationsCountryResultInfo:
+      type: object
+      properties:
+        location_code:
+          type: integer
+          description: location code
+          nullable: true
+        location_name:
+          type: string
+          description: full name of the location
+          nullable: true
+        location_code_parent:
+          type: integer
+          description: "the code of the superordinate location\nexample:\n\"location_code\": 9041134,\n\"location_name\": \"Vienna International Airport,Lower Austria,Austria\",\n\"location_code_parent\": 20044\nwhere location_code_parent corresponds to:\n\"location_code\": 20044,\n\"location_name\": \"Lower Austria,Austria\""
+          nullable: true
+        country_iso_code:
+          type: string
+          description: ISO country code of the location
+          nullable: true
+        location_type:
+          type: string
+          description: "location type\npossible values according to Google’s target types"
+          nullable: true
+    KeywordsDataGoogleAdsLocationsCountryTaskInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseTaskInfo'
+        - type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/KeywordsDataGoogleAdsLocationsCountryResultInfo'
+                nullable: true
+              description: array of results
+              nullable: true
+    KeywordsDataGoogleAdsLocationsCountryResponseInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseInfo'
+        - type: object
+          properties:
+            tasks:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/KeywordsDataGoogleAdsLocationsCountryTaskInfo'
                 nullable: true
               description: array of tasks
               nullable: true
@@ -47107,21 +47408,6 @@ components:
           description: number of keywords for which the page is ranked in top 100 search results
           format: int64
           nullable: true
-    Redirect:
-      type: object
-      properties:
-        type:
-          type: string
-          description: type of element
-          nullable: true
-        status_code:
-          type: integer
-          description: HTTP status code of the URL
-          nullable: true
-        url:
-          type: string
-          description: indirect link URL
-          nullable: true
     BacklinksBacklinksLiveItem:
       type: object
       properties:
@@ -47245,10 +47531,7 @@ components:
           description: "link type\npossible values:\nanchor, image, meta, canonical, alternate, redirect"
           nullable: true
         attributes:
-          type: array
-          items:
-            type: string
-            nullable: true
+          type: object
           description: "link attributes of the referring links\nexample:\nnofollow"
           nullable: true
         dofollow:
@@ -47320,12 +47603,7 @@ components:
           description: "indicates whether the backlink is an indirect link\nif true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page"
           nullable: true
         indirect_link_path:
-          type: array
-          items:
-            type: object
-            oneOf:
-              - $ref: '#/components/schemas/Redirect'
-            nullable: true
+          type: object
           description: "indirect link path\nindicates a URL or a sequence of URLs that lead to url_to"
           nullable: true
     BacklinksBacklinksLiveResultInfo:
@@ -49289,6 +49567,21 @@ components:
         tag:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
+          nullable: true
+    Redirect:
+      type: object
+      properties:
+        type:
+          type: string
+          description: type of element
+          nullable: true
+        status_code:
+          type: integer
+          description: HTTP status code of the URL
+          nullable: true
+        url:
+          type: string
+          description: indirect link URL
           nullable: true
     BacklinksPageIntersectionInfo:
       type: object
@@ -52039,53 +52332,6 @@ components:
               type: boolean
               description: indicates whether the resource blocks rendering
               nullable: true
-    OnPageResourcesResultInfo:
-      type: object
-      properties:
-        crawl_progress:
-          type: string
-          description: "status of the crawling session\npossible values: in_progress, finished"
-          nullable: true
-        crawl_status:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/CrawlStatusInfo'
-          description: details of the crawling session
-          nullable: true
-        total_items_count:
-          type: integer
-          description: total number of relevant items crawled
-          format: int64
-          nullable: true
-        items_count:
-          type: integer
-          description: number of items in the results array
-          format: int64
-          nullable: true
-        items:
-          type: array
-          items:
-            type: object
-            oneOf:
-              - $ref: '#/components/schemas/BaseOnPageResourceItemInfo'
-            nullable: true
-          description: items array
-          nullable: true
-    OnPageResourcesTaskInfo:
-      type: object
-      allOf:
-        - $ref: '#/components/schemas/BaseResponseTaskInfo'
-        - type: object
-          properties:
-            result:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/OnPageResourcesResultInfo'
-                nullable: true
-              description: array of results
-              nullable: true
     ScriptResourceElementItem:
       type: object
       allOf:
@@ -52146,6 +52392,12 @@ components:
                 nullable: true
               description: "resource check-ups\ncontents of the array depend on the resource_type"
               nullable: true
+            resource_errors:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/OnPageResourceIssueInfo'
+              description: resource errors and warnings
+              nullable: true
             content_encoding:
               type: string
               description: type of encoding
@@ -52168,11 +52420,52 @@ components:
                 - $ref: '#/components/schemas/LastModified'
               description: "contains data on changes related to the resource\nif there is no data, the value will be null"
               nullable: true
-            resource_errors:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/OnPageResourceIssueInfo'
-              description: resource errors and warnings
+    OnPageResourcesResultInfo:
+      type: object
+      properties:
+        crawl_progress:
+          type: string
+          description: "status of the crawling session\npossible values: in_progress, finished"
+          nullable: true
+        crawl_status:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/CrawlStatusInfo'
+          description: details of the crawling session
+          nullable: true
+        total_items_count:
+          type: integer
+          description: total number of relevant items crawled
+          format: int64
+          nullable: true
+        items_count:
+          type: integer
+          description: number of items in the results array
+          format: int64
+          nullable: true
+        items:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/BaseOnPageResourceItemInfo'
+            nullable: true
+          description: items array
+          nullable: true
+    OnPageResourcesTaskInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseTaskInfo'
+        - type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/OnPageResourcesResultInfo'
+                nullable: true
+              description: array of results
               nullable: true
     ImageResourceElementItem:
       type: object
@@ -59251,89 +59544,6 @@ components:
                   - $ref: '#/components/schemas/MerchantAmazonProductsTasksReadyTaskInfo'
                 nullable: true
               description: array of tasks
-              nullable: true
-    AmazonAmazonPaidSerpElementItem:
-      type: object
-      allOf:
-        - $ref: '#/components/schemas/BaseAmazonSerpElementItem'
-        - type: object
-          properties:
-            rank_group:
-              type: integer
-              description: "position within a group of elements with identical type values\npositions of elements with different type values are omitted from rank_group"
-              nullable: true
-            rank_absolute:
-              type: integer
-              description: "absolute rank in SERP\nabsolute position among all the elements found in Amazon SERP"
-              nullable: true
-            xpath:
-              type: string
-              description: the XPath of the element
-              nullable: true
-            domain:
-              type: string
-              description: Amazon domain
-              nullable: true
-            title:
-              type: string
-              description: product title
-              nullable: true
-            url:
-              type: string
-              description: the URL of the product page
-              nullable: true
-            image_url:
-              type: string
-              description: URL of the product image featured in the results
-              nullable: true
-            bought_past_month:
-              type: integer
-              description: number of product purchases in the past month
-              nullable: true
-            price_from:
-              type: number
-              description: "the regular price of a product\nexample:\n49.98"
-              format: float
-              nullable: true
-            price_to:
-              type: number
-              description: "the upper limit of the product price range\nexample:\n384.99"
-              format: float
-              nullable: true
-            currency:
-              type: string
-              description: "currency in the ISO format\nexample:\nUSD"
-              nullable: true
-            special_offers:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: "special offer details\ncontains special offer details, including coupon and Subscribe & Save discounts"
-              nullable: true
-            data_asin:
-              type: string
-              description: "unique product identifier on Amazon\nnote that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon\nexample:\nB07G82D89J"
-              nullable: true
-            rating:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RatingElement'
-              description: product rating info
-              nullable: true
-            is_amazon_choice:
-              type: boolean
-              description: "“Amazon’s choice” label\nif the value is true, the product is marked with the “Amazon’s choice” label"
-              nullable: true
-            is_best_seller:
-              type: boolean
-              description: "“Best Seller” label\nif the value is true, the product is marked with the “Best Seller” label"
-              nullable: true
-            delivery_info:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/AmazonDeliveryInfo'
-              description: "delivery information\ndelivery information including free and fast delivery date ranges"
               nullable: true
     AmazonSerpElement:
       type: object
@@ -69700,6 +69910,15 @@ components:
                 nullable: true
               description: contains information about the owner’s response
               nullable: true
+            review_highlights:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/ReviewHighlights'
+                nullable: true
+              description: "review highlights\ncontains highlighted review criteria and assessments"
+              nullable: true
     BusinessDataTripadvisorReviewsTaskGetResultInfo:
       type: object
       properties:
@@ -69741,6 +69960,14 @@ components:
           oneOf:
             - $ref: '#/components/schemas/RatingInfo'
           description: "rating of the corresponding local establishment\npopularity rate based on reviews and displayed in SERP"
+          nullable: true
+        rating_distribution:
+          type: object
+          additionalProperties:
+            type: integer
+            format: Int64
+            nullable: true
+          description: "rating distribution by votes\nthe distribution of votes across the rating in the range from 1 to 5"
           nullable: true
         items_count:
           type: integer

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:83464
+main.ts:83653
 
 ## Properties
 
@@ -47,7 +47,24 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Source
 
-main.ts:83457
+main.ts:83646
+
+***
+
+### clickstream\_keyword\_info?
+
+> **`optional`** **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
+
+clickstream data for the returned keyword
+to retrieve results for this field, the parameter include_clickstream_data must be set to true
+
+#### Implementation of
+
+[`IKeywordDataInfo`](../interfaces/IKeywordDataInfo.md).[`clickstream_keyword_info`](../interfaces/IKeywordDataInfo.md#clickstream_keyword_info)
+
+#### Source
+
+main.ts:83633
 
 ***
 
@@ -66,7 +83,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:83451
+main.ts:83640
 
 ***
 
@@ -82,7 +99,7 @@ returned keyword idea
 
 #### Source
 
-main.ts:83438
+main.ts:83624
 
 ***
 
@@ -98,7 +115,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:83444
+main.ts:83630
 
 ***
 
@@ -114,7 +131,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:83446
+main.ts:83635
 
 ***
 
@@ -130,7 +147,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:83442
+main.ts:83628
 
 ***
 
@@ -146,7 +163,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:83440
+main.ts:83626
 
 ***
 
@@ -162,7 +179,7 @@ search engine type
 
 #### Source
 
-main.ts:83436
+main.ts:83622
 
 ***
 
@@ -179,7 +196,7 @@ learn about search intent in this help center article
 
 #### Source
 
-main.ts:83460
+main.ts:83649
 
 ***
 
@@ -196,7 +213,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:83454
+main.ts:83643
 
 ## Methods
 
@@ -214,7 +231,7 @@ main.ts:83454
 
 #### Source
 
-main.ts:83473
+main.ts:83662
 
 ***
 
@@ -232,7 +249,7 @@ main.ts:83473
 
 #### Source
 
-main.ts:83499
+main.ts:83689
 
 ***
 
@@ -250,4 +267,4 @@ main.ts:83499
 
 #### Source
 
-main.ts:83492
+main.ts:83682

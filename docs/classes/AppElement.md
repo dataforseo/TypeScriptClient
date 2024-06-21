@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:30808
+main.ts:30852
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Source
 
-main.ts:30800
+main.ts:30844
 
 ***
 
@@ -62,7 +62,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:30804
+main.ts:30848
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Source
 
-main.ts:30798
+main.ts:30842
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Source
 
-main.ts:30796
+main.ts:30840
 
 ***
 
@@ -110,7 +110,7 @@ URL
 
 #### Source
 
-main.ts:30802
+main.ts:30846
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:30802
 
 #### Source
 
-main.ts:30817
+main.ts:30861
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:30817
 
 #### Source
 
-main.ts:30838
+main.ts:30882
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:30838
 
 #### Source
 
-main.ts:30831
+main.ts:30875

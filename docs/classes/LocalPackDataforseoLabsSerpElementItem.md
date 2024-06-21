@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:97259
+main.ts:97701
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97259
 
 #### Source
 
-main.ts:20205
+main.ts:20243
 
 ***
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:97221
+main.ts:97663
 
 ***
 
@@ -84,7 +84,7 @@ domain where a link points
 
 #### Source
 
-main.ts:97223
+main.ts:97665
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97251
+main.ts:97693
 
 ***
 
@@ -122,7 +122,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97241
+main.ts:97683
 
 ***
 
@@ -141,7 +141,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97246
+main.ts:97688
 
 ***
 
@@ -157,7 +157,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:97229
+main.ts:97671
 
 ***
 
@@ -173,7 +173,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:97234
+main.ts:97676
 
 ***
 
@@ -189,7 +189,7 @@ phone number
 
 #### Source
 
-main.ts:97225
+main.ts:97667
 
 ***
 
@@ -207,7 +207,7 @@ left, right
 
 #### Source
 
-main.ts:97215
+main.ts:97657
 
 ***
 
@@ -224,7 +224,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97211
+main.ts:97653
 
 ***
 
@@ -242,7 +242,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Source
 
-main.ts:97255
+main.ts:97697
 
 ***
 
@@ -259,7 +259,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97208
+main.ts:97650
 
 ***
 
@@ -276,7 +276,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:97232
+main.ts:97674
 
 ***
 
@@ -292,7 +292,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:97236
+main.ts:97678
 
 ***
 
@@ -308,7 +308,7 @@ title of the item
 
 #### Source
 
-main.ts:97219
+main.ts:97661
 
 ***
 
@@ -324,7 +324,7 @@ URL link
 
 #### Source
 
-main.ts:97227
+main.ts:97669
 
 ***
 
@@ -340,7 +340,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:97217
+main.ts:97659
 
 ## Methods
 
@@ -362,7 +362,7 @@ main.ts:97217
 
 #### Source
 
-main.ts:97264
+main.ts:97706
 
 ***
 
@@ -384,7 +384,7 @@ main.ts:97264
 
 #### Source
 
-main.ts:97298
+main.ts:97740
 
 ***
 
@@ -406,4 +406,4 @@ main.ts:97298
 
 #### Source
 
-main.ts:97291
+main.ts:97733

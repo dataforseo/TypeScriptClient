@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:108382
+main.ts:109068
 
 ## Properties
 
@@ -57,7 +57,7 @@ example:
 
 #### Source
 
-main.ts:108262
+main.ts:108948
 
 ***
 
@@ -90,7 +90,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:108356
+main.ts:109042
 
 ***
 
@@ -109,7 +109,7 @@ default value: false
 
 #### Source
 
-main.ts:108309
+main.ts:108995
 
 ***
 
@@ -128,7 +128,7 @@ default value: false
 
 #### Source
 
-main.ts:108337
+main.ts:109023
 
 ***
 
@@ -147,7 +147,7 @@ default value: true
 
 #### Source
 
-main.ts:108324
+main.ts:109010
 
 ***
 
@@ -169,7 +169,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Source
 
-main.ts:108332
+main.ts:109018
 
 ***
 
@@ -191,7 +191,7 @@ default value:
 
 #### Source
 
-main.ts:108304
+main.ts:108990
 
 ***
 
@@ -213,7 +213,7 @@ en
 
 #### Source
 
-main.ts:108296
+main.ts:108982
 
 ***
 
@@ -235,7 +235,7 @@ English
 
 #### Source
 
-main.ts:108288
+main.ts:108974
 
 ***
 
@@ -254,7 +254,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:108314
+main.ts:109000
 
 ***
 
@@ -277,7 +277,7 @@ example:
 
 #### Source
 
-main.ts:108280
+main.ts:108966
 
 ***
 
@@ -300,7 +300,7 @@ United States
 
 #### Source
 
-main.ts:108271
+main.ts:108957
 
 ***
 
@@ -319,7 +319,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Source
 
-main.ts:108319
+main.ts:109005
 
 ***
 
@@ -349,7 +349,7 @@ example:
 
 #### Source
 
-main.ts:108372
+main.ts:109058
 
 ***
 
@@ -388,7 +388,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Source
 
-main.ts:108249
+main.ts:108935
 
 ***
 
@@ -408,7 +408,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:108378
+main.ts:109064
 
 ## Methods
 
@@ -426,7 +426,7 @@ main.ts:108378
 
 #### Source
 
-main.ts:108391
+main.ts:109077
 
 ***
 
@@ -444,7 +444,7 @@ main.ts:108391
 
 #### Source
 
-main.ts:108445
+main.ts:109131
 
 ***
 
@@ -462,4 +462,4 @@ main.ts:108445
 
 #### Source
 
-main.ts:108438
+main.ts:109124

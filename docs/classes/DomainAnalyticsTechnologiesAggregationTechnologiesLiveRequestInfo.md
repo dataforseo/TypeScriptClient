@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:76341
+main.ts:76389
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:76244
+main.ts:76288
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Source
 
-main.ts:76279
+main.ts:76323
 
 ***
 
@@ -100,7 +100,7 @@ example:
 
 #### Source
 
-main.ts:76237
+main.ts:76281
 
 ***
 
@@ -112,6 +112,7 @@ maximum number of returned technology categories within the same group
 optional field
 you can use this field to limit the number of items with identical "category" in the results
 default value: 5
+minimum value: 1
 maximum value: 10000
 
 #### Implementation of
@@ -120,7 +121,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76307
+main.ts:76353
 
 ***
 
@@ -132,6 +133,7 @@ maximum number of returned technology groups
 optional field
 you can use this field to limit the number of items with identical "group" in the results
 default value: 5
+minimum value: 1
 maximum value: 10000
 
 #### Implementation of
@@ -140,7 +142,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76301
+main.ts:76346
 
 ***
 
@@ -153,6 +155,7 @@ optional field
 if you use this field, the values specified in internal_groups_list_limit, internal_categories_list_limit and internal_technologies_list_limit will be ignored;
 you can use this field to limit the number of items with identical "category", "group", or "technology"
 default value: 10
+minimum value: 1
 maximum value: 10000
 
 #### Implementation of
@@ -161,7 +164,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76320
+main.ts:76368
 
 ***
 
@@ -173,6 +176,7 @@ maximum number of returned technologies within the same category
 optional field
 you can use this field to limit the number of items with identical "technology" in the results
 default value: 10
+minimum value: 1
 maximum value: 10000
 
 #### Implementation of
@@ -181,7 +185,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76313
+main.ts:76360
 
 ***
 
@@ -202,7 +206,7 @@ example:
 
 #### Source
 
-main.ts:76258
+main.ts:76302
 
 ***
 
@@ -221,7 +225,7 @@ maximum value: 10000
 
 #### Source
 
-main.ts:76325
+main.ts:76373
 
 ***
 
@@ -242,7 +246,7 @@ default value: as_is
 
 #### Source
 
-main.ts:76265
+main.ts:76309
 
 ***
 
@@ -262,7 +266,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Source
 
-main.ts:76331
+main.ts:76379
 
 ***
 
@@ -292,7 +296,7 @@ default value:
 
 #### Source
 
-main.ts:76295
+main.ts:76339
 
 ***
 
@@ -312,7 +316,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:76337
+main.ts:76385
 
 ***
 
@@ -333,7 +337,7 @@ example:
 
 #### Source
 
-main.ts:76251
+main.ts:76295
 
 ## Methods
 
@@ -351,7 +355,7 @@ main.ts:76251
 
 #### Source
 
-main.ts:76350
+main.ts:76398
 
 ***
 
@@ -369,7 +373,7 @@ main.ts:76350
 
 #### Source
 
-main.ts:76388
+main.ts:76436
 
 ***
 
@@ -387,4 +391,4 @@ main.ts:76388
 
 #### Source
 
-main.ts:76381
+main.ts:76429

@@ -12,6 +12,19 @@
 
 ## Properties
 
+### clickstream\_keyword\_info?
+
+> **`optional`** **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](../classes/ClickstreamKeywordInfo.md)
+
+clickstream data for the returned keyword
+to retrieve results for this field, the parameter include_clickstream_data must be set to true
+
+#### Source
+
+main.ts:86088
+
+***
+
 ### impressions\_info?
 
 > **`optional`** **impressions\_info**: [`ImpressionsInfo`](../classes/ImpressionsInfo.md)
@@ -24,7 +37,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:85818
+main.ts:86096
 
 ***
 
@@ -37,7 +50,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:85799
+main.ts:86074
 
 ***
 
@@ -49,7 +62,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:85810
+main.ts:86085
 
 ***
 
@@ -61,7 +74,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:85812
+main.ts:86090
 
 ***
 
@@ -73,7 +86,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:85804
+main.ts:86079
 
 ***
 
@@ -86,7 +99,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:85802
+main.ts:86077
 
 ***
 
@@ -98,7 +111,7 @@ search engine type
 
 #### Source
 
-main.ts:85796
+main.ts:86071
 
 ***
 
@@ -112,7 +125,7 @@ if false, the results are returned for Google search sites only
 
 #### Source
 
-main.ts:85808
+main.ts:86083
 
 ***
 
@@ -125,4 +138,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:85821
+main.ts:86099

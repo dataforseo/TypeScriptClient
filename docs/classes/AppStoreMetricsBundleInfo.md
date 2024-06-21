@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:115378
+main.ts:116064
 
 ## Properties
 
@@ -46,7 +46,7 @@ ranking data from App Store organic search
 
 #### Source
 
-main.ts:115374
+main.ts:116060
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:115374
 
 #### Source
 
-main.ts:115387
+main.ts:116073
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:115387
 
 #### Source
 
-main.ts:115404
+main.ts:116090
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:115404
 
 #### Source
 
-main.ts:115397
+main.ts:116083

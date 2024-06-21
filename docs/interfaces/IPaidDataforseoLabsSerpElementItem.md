@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:91031
+main.ts:91401
 
 ***
 
@@ -36,7 +36,21 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:90995
+main.ts:91361
+
+***
+
+### clickstream\_etv?
+
+> **`optional`** **clickstream\_etv**: `number`
+
+estimated traffic volume based on clickstream data
+calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
+to retrieve results for this field, the parameter include_clickstream_data must be set to true
+
+#### Source
+
+main.ts:91396
 
 ***
 
@@ -48,7 +62,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:90993
+main.ts:91359
 
 ***
 
@@ -61,7 +75,7 @@ if there is none, equals null
 
 #### Source
 
-main.ts:91004
+main.ts:91370
 
 ***
 
@@ -73,7 +87,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:90991
+main.ts:91357
 
 ***
 
@@ -87,7 +101,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91026
+main.ts:91392
 
 ***
 
@@ -102,7 +116,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91017
+main.ts:91383
 
 ***
 
@@ -118,7 +132,7 @@ additional information about the result
 
 #### Source
 
-main.ts:91001
+main.ts:91367
 
 ***
 
@@ -130,7 +144,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:90999
+main.ts:91365
 
 ***
 
@@ -145,7 +159,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91022
+main.ts:91388
 
 ***
 
@@ -159,7 +173,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:91008
+main.ts:91374
 
 ***
 
@@ -171,7 +185,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:91010
+main.ts:91376
 
 ***
 
@@ -185,7 +199,7 @@ left, right
 
 #### Source
 
-main.ts:90985
+main.ts:91351
 
 ***
 
@@ -198,7 +212,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:90981
+main.ts:91347
 
 ***
 
@@ -211,7 +225,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:91029
+main.ts:91399
 
 ***
 
@@ -224,7 +238,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:90978
+main.ts:91344
 
 ***
 
@@ -236,7 +250,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:91033
+main.ts:91403
 
 ***
 
@@ -248,7 +262,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:91012
+main.ts:91378
 
 ***
 
@@ -260,7 +274,7 @@ search engine type
 
 #### Source
 
-main.ts:90975
+main.ts:91341
 
 ***
 
@@ -272,7 +286,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:90989
+main.ts:91355
 
 ***
 
@@ -284,7 +298,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:90997
+main.ts:91363
 
 ***
 
@@ -296,4 +310,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:90987
+main.ts:91353

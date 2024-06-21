@@ -30,9 +30,26 @@
 
 #### Source
 
-main.ts:85741
+main.ts:86014
 
 ## Properties
+
+### clickstream\_keyword\_info?
+
+> **`optional`** **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
+
+clickstream data for the returned keyword
+to retrieve results for this field, the parameter include_clickstream_data must be set to true
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`clickstream_keyword_info`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#clickstream_keyword_info)
+
+#### Source
+
+main.ts:85999
+
+***
 
 ### impressions\_info?
 
@@ -50,7 +67,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:85734
+main.ts:86007
 
 ***
 
@@ -67,7 +84,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:85715
+main.ts:85985
 
 ***
 
@@ -83,7 +100,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:85726
+main.ts:85996
 
 ***
 
@@ -99,7 +116,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:85728
+main.ts:86001
 
 ***
 
@@ -115,7 +132,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:85720
+main.ts:85990
 
 ***
 
@@ -132,7 +149,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:85718
+main.ts:85988
 
 ***
 
@@ -148,7 +165,7 @@ search engine type
 
 #### Source
 
-main.ts:85712
+main.ts:85982
 
 ***
 
@@ -166,7 +183,7 @@ if false, the results are returned for Google search sites only
 
 #### Source
 
-main.ts:85724
+main.ts:85994
 
 ***
 
@@ -183,7 +200,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:85737
+main.ts:86010
 
 ## Methods
 
@@ -201,7 +218,7 @@ main.ts:85737
 
 #### Source
 
-main.ts:85750
+main.ts:86023
 
 ***
 
@@ -219,7 +236,7 @@ main.ts:85750
 
 #### Source
 
-main.ts:85775
+main.ts:86049
 
 ***
 
@@ -237,4 +254,4 @@ main.ts:85775
 
 #### Source
 
-main.ts:85768
+main.ts:86042

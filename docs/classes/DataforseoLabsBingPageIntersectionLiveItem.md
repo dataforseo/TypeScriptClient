@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:108662
+main.ts:109348
 
 ## Properties
 
@@ -52,7 +52,7 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Source
 
-main.ts:108658
+main.ts:109344
 
 ***
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:108654
+main.ts:109340
 
 ***
 
@@ -86,7 +86,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:108652
+main.ts:109338
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:108652
 
 #### Source
 
-main.ts:108671
+main.ts:109357
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:108671
 
 #### Source
 
-main.ts:108696
+main.ts:109382
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:108696
 
 #### Source
 
-main.ts:108689
+main.ts:109375

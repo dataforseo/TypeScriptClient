@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:126650
+main.ts:127536
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Source
 
-main.ts:126642
+main.ts:127528
 
 ***
 
@@ -65,7 +65,7 @@ contains keyword popularity and related data
 
 #### Source
 
-main.ts:126646
+main.ts:127532
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:126644
+main.ts:127530
 
 ***
 
@@ -97,7 +97,7 @@ keywords in a POST array
 
 #### Source
 
-main.ts:126629
+main.ts:127515
 
 ***
 
@@ -114,7 +114,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:126637
+main.ts:127523
 
 ***
 
@@ -131,7 +131,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:126634
+main.ts:127520
 
 ***
 
@@ -147,7 +147,7 @@ type of element
 
 #### Source
 
-main.ts:126631
+main.ts:127517
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:126631
 
 #### Source
 
-main.ts:126659
+main.ts:127545
 
 ***
 
@@ -183,7 +183,7 @@ main.ts:126659
 
 #### Source
 
-main.ts:126690
+main.ts:127576
 
 ***
 
@@ -201,4 +201,4 @@ main.ts:126690
 
 #### Source
 
-main.ts:126683
+main.ts:127569

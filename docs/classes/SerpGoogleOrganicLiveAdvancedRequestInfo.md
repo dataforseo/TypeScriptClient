@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:38667
+main.ts:38711
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:38636
+main.ts:38680
 
 ***
 
@@ -77,7 +77,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:38646
+main.ts:38690
 
 ***
 
@@ -100,7 +100,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Source
 
-main.ts:38627
+main.ts:38671
 
 ***
 
@@ -121,7 +121,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Source
 
-main.ts:38618
+main.ts:38662
 
 ***
 
@@ -144,7 +144,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:38528
+main.ts:38572
 
 ***
 
@@ -163,7 +163,7 @@ default value: desktop
 
 #### Source
 
-main.ts:38585
+main.ts:38629
 
 ***
 
@@ -183,7 +183,7 @@ default value: true
 
 #### Source
 
-main.ts:38611
+main.ts:38655
 
 ***
 
@@ -206,7 +206,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:38513
+main.ts:38557
 
 ***
 
@@ -227,7 +227,7 @@ en
 
 #### Source
 
-main.ts:38573
+main.ts:38617
 
 ***
 
@@ -248,7 +248,7 @@ English
 
 #### Source
 
-main.ts:38566
+main.ts:38610
 
 ***
 
@@ -269,7 +269,7 @@ example:
 
 #### Source
 
-main.ts:38549
+main.ts:38593
 
 ***
 
@@ -293,7 +293,7 @@ example:
 
 #### Source
 
-main.ts:38559
+main.ts:38603
 
 ***
 
@@ -314,7 +314,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:38542
+main.ts:38586
 
 ***
 
@@ -335,7 +335,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:38535
+main.ts:38579
 
 ***
 
@@ -356,7 +356,7 @@ default value: android
 
 #### Source
 
-main.ts:38592
+main.ts:38636
 
 ***
 
@@ -377,7 +377,7 @@ possible values: from 1 to 4
 
 #### Source
 
-main.ts:38653
+main.ts:38697
 
 ***
 
@@ -398,7 +398,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:38580
+main.ts:38624
 
 ***
 
@@ -416,7 +416,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:38657
+main.ts:38701
 
 ***
 
@@ -436,7 +436,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:38663
+main.ts:38707
 
 ***
 
@@ -463,7 +463,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Source
 
-main.ts:38605
+main.ts:38649
 
 ***
 
@@ -483,7 +483,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:38519
+main.ts:38563
 
 ## Methods
 
@@ -501,7 +501,7 @@ main.ts:38519
 
 #### Source
 
-main.ts:38676
+main.ts:38720
 
 ***
 
@@ -519,7 +519,7 @@ main.ts:38676
 
 #### Source
 
-main.ts:38713
+main.ts:38757
 
 ***
 
@@ -537,4 +537,4 @@ main.ts:38713
 
 #### Source
 
-main.ts:38706
+main.ts:38750

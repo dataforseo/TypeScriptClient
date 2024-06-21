@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:61551
+main.ts:61595
 
 ## Properties
 
@@ -48,7 +48,7 @@ only value: desktop
 
 #### Source
 
-main.ts:61510
+main.ts:61554
 
 ***
 
@@ -69,7 +69,7 @@ en
 
 #### Source
 
-main.ts:61506
+main.ts:61550
 
 ***
 
@@ -90,7 +90,7 @@ English
 
 #### Source
 
-main.ts:61499
+main.ts:61543
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Source
 
-main.ts:61492
+main.ts:61536
 
 ***
 
@@ -132,7 +132,7 @@ United States
 
 #### Source
 
-main.ts:61485
+main.ts:61529
 
 ***
 
@@ -151,7 +151,7 @@ default value: windows
 
 #### Source
 
-main.ts:61515
+main.ts:61559
 
 ***
 
@@ -175,7 +175,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:61547
+main.ts:61591
 
 ***
 
@@ -195,7 +195,7 @@ advanced
 
 #### Source
 
-main.ts:61537
+main.ts:61581
 
 ***
 
@@ -219,7 +219,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:61531
+main.ts:61575
 
 ***
 
@@ -241,7 +241,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:61478
+main.ts:61522
 
 ***
 
@@ -261,7 +261,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:61521
+main.ts:61565
 
 ***
 
@@ -281,7 +281,7 @@ vQXvyV0zIP4
 
 #### Source
 
-main.ts:61470
+main.ts:61514
 
 ## Methods
 
@@ -299,7 +299,7 @@ main.ts:61470
 
 #### Source
 
-main.ts:61560
+main.ts:61604
 
 ***
 
@@ -317,7 +317,7 @@ main.ts:61560
 
 #### Source
 
-main.ts:61588
+main.ts:61632
 
 ***
 
@@ -335,4 +335,4 @@ main.ts:61588
 
 #### Source
 
-main.ts:61581
+main.ts:61625

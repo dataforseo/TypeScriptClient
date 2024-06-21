@@ -29,7 +29,7 @@ example:
 
 #### Source
 
-main.ts:145927
+main.ts:146797
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Source
 
-main.ts:145936
+main.ts:146806
 
 ***
 
@@ -71,7 +71,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Source
 
-main.ts:145949
+main.ts:146819
 
 ***
 
@@ -86,7 +86,7 @@ default value: true
 
 #### Source
 
-main.ts:145954
+main.ts:146824
 
 ***
 
@@ -102,7 +102,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:145960
+main.ts:146830
 
 ***
 
@@ -118,4 +118,4 @@ example:
 
 #### Source
 
-main.ts:145916
+main.ts:146786
