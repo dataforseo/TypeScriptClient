@@ -25,7 +25,7 @@ for example: Africa, Global
 
 #### Source
 
-main.ts:54843
+main.ts:54945
 
 ***
 
@@ -37,7 +37,7 @@ the list of authors of the dataset
 
 #### Source
 
-main.ts:54833
+main.ts:54935
 
 ***
 
@@ -49,7 +49,7 @@ description of the dataset
 
 #### Source
 
-main.ts:54847
+main.ts:54949
 
 ***
 
@@ -61,7 +61,7 @@ ID of the dataset
 
 #### Source
 
-main.ts:54805
+main.ts:54907
 
 ***
 
@@ -73,7 +73,7 @@ the list of institutions that provided the dataset
 
 #### Source
 
-main.ts:54829
+main.ts:54931
 
 ***
 
@@ -85,7 +85,7 @@ the list of file formats of the dataset
 
 #### Source
 
-main.ts:54831
+main.ts:54933
 
 ***
 
@@ -98,7 +98,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:54810
+main.ts:54912
 
 ***
 
@@ -110,7 +110,7 @@ the list of licenses issued to the dataset
 
 #### Source
 
-main.ts:54835
+main.ts:54937
 
 ***
 
@@ -124,7 +124,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:54827
+main.ts:54929
 
 ***
 
@@ -136,7 +136,7 @@ period covered in the dataset
 
 #### Source
 
-main.ts:54845
+main.ts:54947
 
 ***
 
@@ -150,7 +150,7 @@ left, right
 
 #### Source
 
-main.ts:54801
+main.ts:54903
 
 ***
 
@@ -163,7 +163,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:54797
+main.ts:54899
 
 ***
 
@@ -177,7 +177,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:54794
+main.ts:54896
 
 ***
 
@@ -190,7 +190,7 @@ link to the published article that is related to the dataset
 
 #### Source
 
-main.ts:54823
+main.ts:54925
 
 ***
 
@@ -204,7 +204,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 #### Source
 
-main.ts:54816
+main.ts:54918
 
 ***
 
@@ -216,7 +216,7 @@ count of articles that refer to the dataset
 
 #### Source
 
-main.ts:54812
+main.ts:54914
 
 ***
 
@@ -228,7 +228,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:54807
+main.ts:54909
 
 ***
 
@@ -242,7 +242,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 #### Source
 
-main.ts:54820
+main.ts:54922
 
 ***
 
@@ -257,7 +257,7 @@ example:
 
 #### Source
 
-main.ts:54840
+main.ts:54942
 
 ***
 
@@ -269,4 +269,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:54803
+main.ts:54905

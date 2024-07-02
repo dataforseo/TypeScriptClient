@@ -20,7 +20,7 @@ name of the supported app category
 
 #### Source
 
-main.ts:191269
+main.ts:191699
 
 ***
 
@@ -32,4 +32,4 @@ number of app listings that make up the supported app category
 
 #### Source
 
-main.ts:191271
+main.ts:191701

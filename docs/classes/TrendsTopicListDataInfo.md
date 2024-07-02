@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:126616
+main.ts:126848
 
 ## Properties
 
@@ -47,7 +47,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Source
 
-main.ts:126612
+main.ts:126844
 
 ***
 
@@ -64,7 +64,7 @@ represents the list of the most popular related topics
 
 #### Source
 
-main.ts:126609
+main.ts:126841
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:126609
 
 #### Source
 
-main.ts:126625
+main.ts:126857
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:126625
 
 #### Source
 
-main.ts:126651
+main.ts:126883
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:126651
 
 #### Source
 
-main.ts:126644
+main.ts:126876

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:203429
+main.ts:203953
 
 ## Properties
 
@@ -48,7 +48,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Source
 
-main.ts:203408
+main.ts:203932
 
 ***
 
@@ -66,7 +66,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Source
 
-main.ts:203417
+main.ts:203941
 
 ***
 
@@ -82,7 +82,7 @@ GPS coordinates of the hotel’s location
 
 #### Source
 
-main.ts:203419
+main.ts:203943
 
 ***
 
@@ -98,7 +98,7 @@ featured images for a hotel
 
 #### Source
 
-main.ts:203423
+main.ts:203947
 
 ***
 
@@ -114,7 +114,7 @@ hotel price
 
 #### Source
 
-main.ts:203425
+main.ts:203949
 
 ***
 
@@ -130,7 +130,7 @@ hotel reviews and rating information
 
 #### Source
 
-main.ts:203421
+main.ts:203945
 
 ***
 
@@ -147,7 +147,7 @@ class rating that ranges between 1-5 stars
 
 #### Source
 
-main.ts:203413
+main.ts:203937
 
 ***
 
@@ -163,7 +163,7 @@ title of the hotel
 
 #### Source
 
-main.ts:203410
+main.ts:203934
 
 ***
 
@@ -179,7 +179,7 @@ type of element
 
 #### Source
 
-main.ts:203404
+main.ts:203928
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:203404
 
 #### Source
 
-main.ts:203438
+main.ts:203962
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:203438
 
 #### Source
 
-main.ts:203467
+main.ts:203991
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:203467
 
 #### Source
 
-main.ts:203460
+main.ts:203984

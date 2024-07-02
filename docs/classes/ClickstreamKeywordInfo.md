@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:82908
+main.ts:83012
 
 ## Properties
 
@@ -39,6 +39,7 @@ main.ts:82908
 > **`optional`** **age\_distribution**: `Object`
 
 distribution of clickstream-based metrics by age
+learn more about how the metric is calculated in this help center article
 
 #### Index signature
 
@@ -50,7 +51,7 @@ distribution of clickstream-based metrics by age
 
 #### Source
 
-main.ts:82901
+main.ts:83005
 
 ***
 
@@ -59,6 +60,7 @@ main.ts:82901
 > **`optional`** **gender\_distribution**: `Object`
 
 distribution of estimated clickstream-based metrics by gender
+learn more about how the metric is calculated in this help center article
 
 #### Index signature
 
@@ -70,7 +72,7 @@ distribution of estimated clickstream-based metrics by gender
 
 #### Source
 
-main.ts:82899
+main.ts:83002
 
 ***
 
@@ -87,7 +89,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 #### Source
 
-main.ts:82897
+main.ts:82999
 
 ***
 
@@ -104,7 +106,7 @@ array of objects with clickstream search volume rates in a certain month of a ye
 
 #### Source
 
-main.ts:82904
+main.ts:83008
 
 ***
 
@@ -120,7 +122,7 @@ monthly average clickstream search volume rate
 
 #### Source
 
-main.ts:82894
+main.ts:82996
 
 ## Methods
 
@@ -138,7 +140,7 @@ main.ts:82894
 
 #### Source
 
-main.ts:82917
+main.ts:83021
 
 ***
 
@@ -156,7 +158,7 @@ main.ts:82917
 
 #### Source
 
-main.ts:82954
+main.ts:83058
 
 ***
 
@@ -174,4 +176,4 @@ main.ts:82954
 
 #### Source
 
-main.ts:82947
+main.ts:83051

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:46650
+main.ts:46752
 
 ## Properties
 
@@ -46,7 +46,7 @@ address of the event’s venue
 
 #### Source
 
-main.ts:46638
+main.ts:46740
 
 ***
 
@@ -64,7 +64,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:46644
+main.ts:46746
 
 ***
 
@@ -80,7 +80,7 @@ the unique identifier of the element in SERP
 
 #### Source
 
-main.ts:46646
+main.ts:46748
 
 ***
 
@@ -96,7 +96,7 @@ name of the event’s venue
 
 #### Source
 
-main.ts:46636
+main.ts:46738
 
 ***
 
@@ -112,7 +112,7 @@ URL to the event’s venue on google maps
 
 #### Source
 
-main.ts:46640
+main.ts:46742
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:46640
 
 #### Source
 
-main.ts:46659
+main.ts:46761
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:46659
 
 #### Source
 
-main.ts:46680
+main.ts:46782
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:46680
 
 #### Source
 
-main.ts:46673
+main.ts:46775

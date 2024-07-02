@@ -23,7 +23,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:88004
+main.ts:88356
 
 ***
 
@@ -39,7 +39,7 @@ default value: true
 
 #### Source
 
-main.ts:88042
+main.ts:88394
 
 ***
 
@@ -68,7 +68,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:88097
+main.ts:88449
 
 ***
 
@@ -83,7 +83,7 @@ default value: false
 
 #### Source
 
-main.ts:88060
+main.ts:88412
 
 ***
 
@@ -101,7 +101,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:88055
+main.ts:88407
 
 ***
 
@@ -116,7 +116,7 @@ default value: false
 
 #### Source
 
-main.ts:88047
+main.ts:88399
 
 ***
 
@@ -134,7 +134,7 @@ en
 
 #### Source
 
-main.ts:88036
+main.ts:88388
 
 ***
 
@@ -152,7 +152,7 @@ English
 
 #### Source
 
-main.ts:88028
+main.ts:88380
 
 ***
 
@@ -167,7 +167,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:88065
+main.ts:88417
 
 ***
 
@@ -185,7 +185,7 @@ example:
 
 #### Source
 
-main.ts:88020
+main.ts:88372
 
 ***
 
@@ -203,7 +203,7 @@ United Kingdom
 
 #### Source
 
-main.ts:88012
+main.ts:88364
 
 ***
 
@@ -218,7 +218,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:88070
+main.ts:88422
 
 ***
 
@@ -236,7 +236,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:88078
+main.ts:88430
 
 ***
 
@@ -262,7 +262,7 @@ example:
 
 #### Source
 
-main.ts:88113
+main.ts:88465
 
 ***
 
@@ -278,4 +278,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:88119
+main.ts:88471

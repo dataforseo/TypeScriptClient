@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:79020
+main.ts:79122
 
 ## Properties
 
@@ -47,7 +47,7 @@ code of the language that content on the target domain is written in
 
 #### Source
 
-main.ts:79003
+main.ts:79105
 
 ***
 
@@ -64,7 +64,7 @@ ISO code of the country that the target domain is determined to belong to
 
 #### Source
 
-main.ts:78997
+main.ts:79099
 
 ***
 
@@ -80,7 +80,7 @@ domain meta description
 
 #### Source
 
-main.ts:78984
+main.ts:79086
 
 ***
 
@@ -96,7 +96,7 @@ specified domain name
 
 #### Source
 
-main.ts:78980
+main.ts:79082
 
 ***
 
@@ -113,7 +113,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:78989
+main.ts:79091
 
 ***
 
@@ -130,7 +130,7 @@ emails indicated on the target website
 
 #### Source
 
-main.ts:79009
+main.ts:79111
 
 ***
 
@@ -147,7 +147,7 @@ code of the language that the target domain is determined to be associated with
 
 #### Source
 
-main.ts:79000
+main.ts:79102
 
 ***
 
@@ -166,7 +166,7 @@ example:
 
 #### Source
 
-main.ts:78994
+main.ts:79096
 
 ***
 
@@ -182,7 +182,7 @@ domain meta keywords
 
 #### Source
 
-main.ts:78986
+main.ts:79088
 
 ***
 
@@ -199,7 +199,7 @@ contact phone numbers indicated on the target website
 
 #### Source
 
-main.ts:79006
+main.ts:79108
 
 ***
 
@@ -216,7 +216,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Source
 
-main.ts:79012
+main.ts:79114
 
 ***
 
@@ -234,7 +234,7 @@ see the full list of available technologies structured by groups and categories
 
 #### Source
 
-main.ts:79016
+main.ts:79118
 
 ***
 
@@ -250,7 +250,7 @@ domain meta title
 
 #### Source
 
-main.ts:78982
+main.ts:79084
 
 ***
 
@@ -266,7 +266,7 @@ type of element
 
 #### Source
 
-main.ts:78978
+main.ts:79080
 
 ## Methods
 
@@ -284,7 +284,7 @@ main.ts:78978
 
 #### Source
 
-main.ts:79029
+main.ts:79131
 
 ***
 
@@ -302,7 +302,7 @@ main.ts:79029
 
 #### Source
 
-main.ts:79075
+main.ts:79177
 
 ***
 
@@ -320,4 +320,4 @@ main.ts:79075
 
 #### Source
 
-main.ts:79068
+main.ts:79170

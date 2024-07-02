@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:219145
+main.ts:219569
 
 ## Properties
 
@@ -44,13 +44,13 @@ main.ts:219145
 
 #### Source
 
-main.ts:219133
+main.ts:219557
 
 ***
 
 ### jobs?
 
-> **`optional`** **jobs**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **jobs**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -58,7 +58,7 @@ main.ts:219133
 
 #### Source
 
-main.ts:219134
+main.ts:219558
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:219134
 
 #### Source
 
-main.ts:219135
+main.ts:219559
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:219135
 
 #### Source
 
-main.ts:219136
+main.ts:219560
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:219136
 
 #### Source
 
-main.ts:219137
+main.ts:219561
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:219137
 
 #### Source
 
-main.ts:219138
+main.ts:219562
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:219138
 
 #### Source
 
-main.ts:219139
+main.ts:219563
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:219139
 
 #### Source
 
-main.ts:219140
+main.ts:219564
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:219140
 
 #### Source
 
-main.ts:219132
+main.ts:219556
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:219132
 
 #### Source
 
-main.ts:219141
+main.ts:219565
 
 ## Methods
 
@@ -188,7 +188,7 @@ main.ts:219141
 
 #### Source
 
-main.ts:219154
+main.ts:219578
 
 ***
 
@@ -206,7 +206,7 @@ main.ts:219154
 
 #### Source
 
-main.ts:219180
+main.ts:219604
 
 ***
 
@@ -224,4 +224,4 @@ main.ts:219180
 
 #### Source
 
-main.ts:219173
+main.ts:219597

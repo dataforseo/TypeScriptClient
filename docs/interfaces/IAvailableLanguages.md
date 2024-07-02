@@ -22,7 +22,7 @@ only google and bing are currently available
 
 #### Source
 
-main.ts:81775
+main.ts:81877
 
 ***
 
@@ -34,7 +34,7 @@ the number of keywords available for the given location and language
 
 #### Source
 
-main.ts:81781
+main.ts:81883
 
 ***
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Source
 
-main.ts:81779
+main.ts:81881
 
 ***
 
@@ -58,7 +58,7 @@ language name
 
 #### Source
 
-main.ts:81777
+main.ts:81879
 
 ***
 
@@ -70,4 +70,4 @@ the number of SERP pages available for the given location and language
 
 #### Source
 
-main.ts:81783
+main.ts:81885

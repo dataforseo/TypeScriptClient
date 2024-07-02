@@ -14,11 +14,11 @@
 
 ### ad\_traffic\_by\_keywords?
 
-> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:218597
+main.ts:219020
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:218597
 
 #### Source
 
-main.ts:218598
+main.ts:219021
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:218598
 
 #### Source
 
-main.ts:218599
+main.ts:219022
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:218599
 
 #### Source
 
-main.ts:218609
+main.ts:219033
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:218609
 
 #### Source
 
-main.ts:218600
+main.ts:219023
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:218600
 
 #### Source
 
-main.ts:218610
+main.ts:219034
 
 ***
 
@@ -78,37 +78,37 @@ main.ts:218610
 
 #### Source
 
-main.ts:218601
+main.ts:219024
 
 ***
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixKeywordPerformanceKeywordsDataPriceData`](../classes/AppendixKeywordPerformanceKeywordsDataPriceData.md)
+> **`optional`** **keyword\_performance**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:218602
+main.ts:219025
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_keywords**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:218603
+main.ts:219026
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:218604
+main.ts:219027
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:218604
 
 #### Source
 
-main.ts:218605
+main.ts:219028
 
 ***
 
@@ -128,27 +128,37 @@ main.ts:218605
 
 #### Source
 
-main.ts:218606
+main.ts:219029
+
+***
+
+### locations\_and\_languages?
+
+> **`optional`** **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+
+#### Source
+
+main.ts:219030
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **search\_volume**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:218608
+main.ts:219032
 
 ***
 
 ### search\_volume\_history?
 
-> **`optional`** **search\_volume\_history**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **search\_volume\_history**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:218607
+main.ts:219031
 
 ***
 
@@ -158,4 +168,4 @@ main.ts:218607
 
 #### Source
 
-main.ts:218596
+main.ts:219019

@@ -23,7 +23,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Source
 
-main.ts:124912
+main.ts:125141
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Source
 
-main.ts:124921
+main.ts:125150
 
 ***
 
@@ -59,7 +59,7 @@ example:
 
 #### Source
 
-main.ts:124928
+main.ts:125157
 
 ***
 
@@ -69,8 +69,7 @@ main.ts:124928
 
 types of items returned
 optional field
-if you don’t specify this field, all items will be presented in the response;
-you can set only one item to speed up the execution of the request
+to speed up the execution of the request, specify one item at a time;
 possible values:
 "item_types": [
 "google_trends_graph",
@@ -78,10 +77,14 @@ possible values:
 "google_trends_topics_list",
 "google_trends_queries_list"
 ]
+default value:
+"item_types": [
+"google_trends_graph"
+]
 
 #### Source
 
-main.ts:124950
+main.ts:125182
 
 ***
 
@@ -96,7 +99,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Source
 
-main.ts:124873
+main.ts:125102
 
 ***
 
@@ -114,7 +117,7 @@ en
 
 #### Source
 
-main.ts:124905
+main.ts:125134
 
 ***
 
@@ -132,7 +135,7 @@ English
 
 #### Source
 
-main.ts:124897
+main.ts:125126
 
 ***
 
@@ -150,7 +153,7 @@ example:
 
 #### Source
 
-main.ts:124889
+main.ts:125118
 
 ***
 
@@ -168,7 +171,7 @@ United Kingdom
 
 #### Source
 
-main.ts:124881
+main.ts:125110
 
 ***
 
@@ -188,7 +191,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:124970
+main.ts:125202
 
 ***
 
@@ -208,7 +211,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:124960
+main.ts:125192
 
 ***
 
@@ -224,7 +227,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:124976
+main.ts:125208
 
 ***
 
@@ -244,7 +247,7 @@ possible values for news, youtube, images, froogle:
 
 #### Source
 
-main.ts:124938
+main.ts:125167
 
 ***
 
@@ -256,4 +259,4 @@ type of element
 
 #### Source
 
-main.ts:124907
+main.ts:125136

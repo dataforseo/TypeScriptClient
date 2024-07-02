@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:97290
+main.ts:97646
 
 ***
 
@@ -38,7 +38,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:97294
+main.ts:97650
 
 ***
 
@@ -52,7 +52,7 @@ left, right
 
 #### Source
 
-main.ts:97281
+main.ts:97637
 
 ***
 
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97277
+main.ts:97633
 
 ***
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97274
+main.ts:97630
 
 ***
 
@@ -92,7 +92,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Source
 
-main.ts:97288
+main.ts:97644
 
 ***
 
@@ -104,7 +104,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:97285
+main.ts:97641
 
 ***
 
@@ -116,4 +116,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97283
+main.ts:97639

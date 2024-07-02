@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:168410
+main.ts:168658
 
 ## Properties
 
@@ -52,7 +52,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Source
 
-main.ts:168387
+main.ts:168635
 
 ***
 
@@ -74,7 +74,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Source
 
-main.ts:168402
+main.ts:168650
 
 ***
 
@@ -90,7 +90,7 @@ date for which the data is provided
 
 #### Source
 
-main.ts:168371
+main.ts:168619
 
 ***
 
@@ -112,7 +112,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:168406
+main.ts:168654
 
 ***
 
@@ -130,7 +130,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:168395
+main.ts:168643
 
 ***
 
@@ -151,7 +151,7 @@ contains page types and citation count per each page type
 
 #### Source
 
-main.ts:168398
+main.ts:168646
 
 ***
 
@@ -168,7 +168,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Source
 
-main.ts:168376
+main.ts:168624
 
 ***
 
@@ -190,7 +190,7 @@ possible connotations: "anger", "fear", "happiness", "love", "sadness", "share",
 
 #### Source
 
-main.ts:168383
+main.ts:168631
 
 ***
 
@@ -208,7 +208,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:168391
+main.ts:168639
 
 ***
 
@@ -225,7 +225,7 @@ contains objects with top domains citing the target category and citation count 
 
 #### Source
 
-main.ts:168379
+main.ts:168627
 
 ***
 
@@ -241,7 +241,7 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:168373
+main.ts:168621
 
 ***
 
@@ -257,7 +257,7 @@ type of element
 
 #### Source
 
-main.ts:168369
+main.ts:168617
 
 ## Methods
 
@@ -275,7 +275,7 @@ main.ts:168369
 
 #### Source
 
-main.ts:168419
+main.ts:168667
 
 ***
 
@@ -293,7 +293,7 @@ main.ts:168419
 
 #### Source
 
-main.ts:168489
+main.ts:168737
 
 ***
 
@@ -311,4 +311,4 @@ main.ts:168489
 
 #### Source
 
-main.ts:168482
+main.ts:168730

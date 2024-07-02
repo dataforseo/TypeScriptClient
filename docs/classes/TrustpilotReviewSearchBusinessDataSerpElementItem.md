@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:211147
+main.ts:211671
 
 ## Properties
 
@@ -68,7 +68,7 @@ the language of the review
 
 #### Source
 
-main.ts:211126
+main.ts:211650
 
 ***
 
@@ -85,7 +85,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:211118
+main.ts:211642
 
 ***
 
@@ -102,7 +102,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:211115
+main.ts:211639
 
 ***
 
@@ -119,7 +119,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:211112
+main.ts:211636
 
 ***
 
@@ -135,7 +135,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:211122
+main.ts:211646
 
 ***
 
@@ -151,7 +151,7 @@ owner’s response to the submitted review
 
 #### Source
 
-main.ts:211143
+main.ts:211667
 
 ***
 
@@ -169,7 +169,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 #### Source
 
-main.ts:211139
+main.ts:211663
 
 ***
 
@@ -185,7 +185,7 @@ the content of the review
 
 #### Source
 
-main.ts:211135
+main.ts:211659
 
 ***
 
@@ -204,7 +204,7 @@ example:
 
 #### Source
 
-main.ts:211131
+main.ts:211655
 
 ***
 
@@ -220,7 +220,7 @@ the title of the review
 
 #### Source
 
-main.ts:211133
+main.ts:211657
 
 ***
 
@@ -236,7 +236,7 @@ the URL of the review
 
 #### Source
 
-main.ts:211120
+main.ts:211644
 
 ***
 
@@ -252,7 +252,7 @@ user profile of the reviewer
 
 #### Source
 
-main.ts:211141
+main.ts:211665
 
 ***
 
@@ -268,7 +268,7 @@ indicates whether the review has the “Verified” mark
 
 #### Source
 
-main.ts:211124
+main.ts:211648
 
 ## Methods
 
@@ -290,7 +290,7 @@ main.ts:211124
 
 #### Source
 
-main.ts:211152
+main.ts:211676
 
 ***
 
@@ -312,7 +312,7 @@ main.ts:211152
 
 #### Source
 
-main.ts:211190
+main.ts:211714
 
 ***
 
@@ -334,4 +334,4 @@ main.ts:211190
 
 #### Source
 
-main.ts:211183
+main.ts:211707

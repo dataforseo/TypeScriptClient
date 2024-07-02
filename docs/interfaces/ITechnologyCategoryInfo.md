@@ -22,7 +22,7 @@ crm, cart_abandonment
 
 #### Source
 
-main.ts:76017
+main.ts:76119
 
 ***
 
@@ -36,7 +36,7 @@ user_generated_content.content_curation
 
 #### Source
 
-main.ts:76021
+main.ts:76123
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:76027
+main.ts:76129
 
 ***
 
@@ -62,4 +62,4 @@ title of the technology category
 
 #### Source
 
-main.ts:76023
+main.ts:76125

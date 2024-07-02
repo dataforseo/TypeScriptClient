@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:189230
+main.ts:189660
 
 ## Properties
 
@@ -68,7 +68,7 @@ ID of the app
 
 #### Source
 
-main.ts:189153
+main.ts:189583
 
 ***
 
@@ -84,7 +84,7 @@ description of the app
 
 #### Source
 
-main.ts:189161
+main.ts:189591
 
 ***
 
@@ -100,7 +100,7 @@ name of the app developer
 
 #### Source
 
-main.ts:189179
+main.ts:189609
 
 ***
 
@@ -116,7 +116,7 @@ physical address of the developer
 
 #### Source
 
-main.ts:189187
+main.ts:189617
 
 ***
 
@@ -132,7 +132,7 @@ email address of the developer
 
 #### Source
 
-main.ts:189185
+main.ts:189615
 
 ***
 
@@ -148,7 +148,7 @@ ID of the app developer
 
 #### Source
 
-main.ts:189181
+main.ts:189611
 
 ***
 
@@ -164,7 +164,7 @@ URL to the developer page on Google Play
 
 #### Source
 
-main.ts:189183
+main.ts:189613
 
 ***
 
@@ -180,7 +180,7 @@ official website of the developer
 
 #### Source
 
-main.ts:189189
+main.ts:189619
 
 ***
 
@@ -197,7 +197,7 @@ contains relevant app categories
 
 #### Source
 
-main.ts:189223
+main.ts:189653
 
 ***
 
@@ -213,7 +213,7 @@ URL to the app icon
 
 #### Source
 
-main.ts:189159
+main.ts:189589
 
 ***
 
@@ -230,7 +230,7 @@ contains URLs to the images published on the app page on Google Play
 
 #### Source
 
-main.ts:189211
+main.ts:189641
 
 ***
 
@@ -247,7 +247,7 @@ approximate number of installs as displayed on the app page
 
 #### Source
 
-main.ts:189174
+main.ts:189604
 
 ***
 
@@ -264,7 +264,7 @@ the exact number of installs of the app
 
 #### Source
 
-main.ts:189177
+main.ts:189607
 
 ***
 
@@ -280,7 +280,7 @@ indicates whether the app is free
 
 #### Source
 
-main.ts:189169
+main.ts:189599
 
 ***
 
@@ -299,7 +299,7 @@ example:
 
 #### Source
 
-main.ts:189205
+main.ts:189635
 
 ***
 
@@ -315,7 +315,7 @@ main category of the app
 
 #### Source
 
-main.ts:189171
+main.ts:189601
 
 ***
 
@@ -331,7 +331,7 @@ minimum OS version required to install the app
 
 #### Source
 
-main.ts:189193
+main.ts:189623
 
 ***
 
@@ -348,7 +348,7 @@ information about apps built by the same developer
 
 #### Source
 
-main.ts:189220
+main.ts:189650
 
 ***
 
@@ -365,7 +365,7 @@ can take the following values: left
 
 #### Source
 
-main.ts:189151
+main.ts:189581
 
 ***
 
@@ -381,7 +381,7 @@ price of the app
 
 #### Source
 
-main.ts:189167
+main.ts:189597
 
 ***
 
@@ -398,7 +398,7 @@ absolute position among all apps on the list
 
 #### Source
 
-main.ts:189148
+main.ts:189578
 
 ***
 
@@ -415,7 +415,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:189145
+main.ts:189575
 
 ***
 
@@ -431,7 +431,7 @@ average rating of the app
 
 #### Source
 
-main.ts:189165
+main.ts:189595
 
 ***
 
@@ -450,7 +450,7 @@ example:
 
 #### Source
 
-main.ts:189200
+main.ts:189630
 
 ***
 
@@ -466,7 +466,7 @@ the total number of reviews the app has
 
 #### Source
 
-main.ts:189163
+main.ts:189593
 
 ***
 
@@ -483,7 +483,7 @@ displays apps similar to the app in a POST request
 
 #### Source
 
-main.ts:189217
+main.ts:189647
 
 ***
 
@@ -499,7 +499,7 @@ size of the app
 
 #### Source
 
-main.ts:189195
+main.ts:189625
 
 ***
 
@@ -516,7 +516,7 @@ contains relevant app tags
 
 #### Source
 
-main.ts:189226
+main.ts:189656
 
 ***
 
@@ -532,7 +532,7 @@ title of the app
 
 #### Source
 
-main.ts:189155
+main.ts:189585
 
 ***
 
@@ -549,7 +549,7 @@ contains the latest update notes from the developer
 
 #### Source
 
-main.ts:189208
+main.ts:189638
 
 ***
 
@@ -565,7 +565,7 @@ URL to the app page on Google Play
 
 #### Source
 
-main.ts:189157
+main.ts:189587
 
 ***
 
@@ -581,7 +581,7 @@ current version of the app
 
 #### Source
 
-main.ts:189191
+main.ts:189621
 
 ***
 
@@ -598,7 +598,7 @@ contains URLs to the video published on the app page on Google Play
 
 #### Source
 
-main.ts:189214
+main.ts:189644
 
 ## Methods
 
@@ -620,7 +620,7 @@ main.ts:189214
 
 #### Source
 
-main.ts:189235
+main.ts:189665
 
 ***
 
@@ -642,7 +642,7 @@ main.ts:189235
 
 #### Source
 
-main.ts:189309
+main.ts:189739
 
 ***
 
@@ -664,4 +664,4 @@ main.ts:189309
 
 #### Source
 
-main.ts:189302
+main.ts:189732

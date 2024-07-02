@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:160274
+main.ts:160522
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Source
 
-main.ts:160270
+main.ts:160518
 
 ***
 
@@ -71,7 +71,7 @@ https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-t
 
 #### Source
 
-main.ts:160263
+main.ts:160511
 
 ## Methods
 
@@ -89,7 +89,7 @@ main.ts:160263
 
 #### Source
 
-main.ts:160283
+main.ts:160531
 
 ***
 
@@ -107,7 +107,7 @@ main.ts:160283
 
 #### Source
 
-main.ts:160301
+main.ts:160549
 
 ***
 
@@ -125,4 +125,4 @@ main.ts:160301
 
 #### Source
 
-main.ts:160294
+main.ts:160542

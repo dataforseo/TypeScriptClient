@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:206980
+main.ts:207504
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:206962
+main.ts:207486
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Source
 
-main.ts:206944
+main.ts:207468
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Source
 
-main.ts:206951
+main.ts:207475
 
 ***
 
@@ -114,7 +114,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Source
 
-main.ts:206970
+main.ts:207494
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Source
 
-main.ts:206956
+main.ts:207480
 
 ***
 
@@ -154,7 +154,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Source
 
-main.ts:206892
+main.ts:207416
 
 ***
 
@@ -175,7 +175,7 @@ en
 
 #### Source
 
-main.ts:206937
+main.ts:207461
 
 ***
 
@@ -196,7 +196,7 @@ English
 
 #### Source
 
-main.ts:206930
+main.ts:207454
 
 ***
 
@@ -217,7 +217,7 @@ example:
 
 #### Source
 
-main.ts:206914
+main.ts:207438
 
 ***
 
@@ -240,7 +240,7 @@ example:
 
 #### Source
 
-main.ts:206923
+main.ts:207447
 
 ***
 
@@ -261,7 +261,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:206907
+main.ts:207431
 
 ***
 
@@ -283,7 +283,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:206900
+main.ts:207424
 
 ***
 
@@ -303,7 +303,7 @@ you will find the specified tag value in the data array of the response
 
 #### Source
 
-main.ts:206976
+main.ts:207500
 
 ## Methods
 
@@ -321,7 +321,7 @@ main.ts:206976
 
 #### Source
 
-main.ts:206989
+main.ts:207513
 
 ***
 
@@ -339,7 +339,7 @@ main.ts:206989
 
 #### Source
 
-main.ts:207022
+main.ts:207546
 
 ***
 
@@ -357,4 +357,4 @@ main.ts:207022
 
 #### Source
 
-main.ts:207015
+main.ts:207539

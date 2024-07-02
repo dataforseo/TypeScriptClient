@@ -22,7 +22,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Source
 
-main.ts:92814
+main.ts:93170
 
 ***
 
@@ -36,11 +36,11 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:92831
+main.ts:93187
 
 ***
 
@@ -52,7 +52,7 @@ domain name
 
 #### Source
 
-main.ts:92810
+main.ts:93166
 
 ***
 
@@ -65,11 +65,11 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:92823
+main.ts:93179
 
 ***
 
@@ -81,7 +81,7 @@ number of intersecting keywords
 
 #### Source
 
-main.ts:92820
+main.ts:93176
 
 ***
 
@@ -95,11 +95,11 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:92827
+main.ts:93183
 
 ***
 
@@ -111,7 +111,7 @@ search engine type
 
 #### Source
 
-main.ts:92808
+main.ts:93164
 
 ***
 
@@ -125,4 +125,4 @@ the value for a given domain may differ when combined with different target webs
 
 #### Source
 
-main.ts:92818
+main.ts:93174

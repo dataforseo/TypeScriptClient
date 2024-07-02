@@ -22,7 +22,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Source
 
-main.ts:203496
+main.ts:204020
 
 ***
 
@@ -36,7 +36,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Source
 
-main.ts:203505
+main.ts:204029
 
 ***
 
@@ -48,7 +48,7 @@ GPS coordinates of the hotel’s location
 
 #### Source
 
-main.ts:203507
+main.ts:204031
 
 ***
 
@@ -60,7 +60,7 @@ featured images for a hotel
 
 #### Source
 
-main.ts:203511
+main.ts:204035
 
 ***
 
@@ -72,7 +72,7 @@ hotel price
 
 #### Source
 
-main.ts:203513
+main.ts:204037
 
 ***
 
@@ -84,7 +84,7 @@ hotel reviews and rating information
 
 #### Source
 
-main.ts:203509
+main.ts:204033
 
 ***
 
@@ -97,7 +97,7 @@ class rating that ranges between 1-5 stars
 
 #### Source
 
-main.ts:203501
+main.ts:204025
 
 ***
 
@@ -109,7 +109,7 @@ title of the hotel
 
 #### Source
 
-main.ts:203498
+main.ts:204022
 
 ***
 
@@ -121,4 +121,4 @@ type of element
 
 #### Source
 
-main.ts:203492
+main.ts:204016

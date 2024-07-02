@@ -25,7 +25,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99754
+main.ts:100110
 
 ***
 
@@ -39,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:99749
+main.ts:100105
 
 ***
 
@@ -52,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99745
+main.ts:100101
 
 ***
 
@@ -65,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99742
+main.ts:100098
 
 ***
 
@@ -77,4 +77,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:99751
+main.ts:100107

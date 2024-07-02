@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:112076
+main.ts:112224
 
 ## Properties
 
@@ -58,7 +58,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:112039
+main.ts:112187
 
 ***
 
@@ -81,7 +81,7 @@ default value: live
 
 #### Source
 
-main.ts:112025
+main.ts:112173
 
 ***
 
@@ -104,7 +104,7 @@ default value:
 
 #### Source
 
-main.ts:112016
+main.ts:112164
 
 ***
 
@@ -127,7 +127,7 @@ en
 
 #### Source
 
-main.ts:112007
+main.ts:112155
 
 ***
 
@@ -150,7 +150,7 @@ English
 
 #### Source
 
-main.ts:111998
+main.ts:112146
 
 ***
 
@@ -169,7 +169,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:112061
+main.ts:112209
 
 ***
 
@@ -193,7 +193,7 @@ example:
 
 #### Source
 
-main.ts:111989
+main.ts:112137
 
 ***
 
@@ -217,7 +217,7 @@ United States
 
 #### Source
 
-main.ts:111979
+main.ts:112127
 
 ***
 
@@ -236,7 +236,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:112066
+main.ts:112214
 
 ***
 
@@ -267,7 +267,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:112056
+main.ts:112204
 
 ***
 
@@ -287,7 +287,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:112072
+main.ts:112220
 
 ***
 
@@ -306,7 +306,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:111969
+main.ts:112117
 
 ## Methods
 
@@ -324,7 +324,7 @@ main.ts:111969
 
 #### Source
 
-main.ts:112085
+main.ts:112233
 
 ***
 
@@ -342,7 +342,7 @@ main.ts:112085
 
 #### Source
 
-main.ts:112125
+main.ts:112273
 
 ***
 
@@ -360,4 +360,4 @@ main.ts:112125
 
 #### Source
 
-main.ts:112118
+main.ts:112266

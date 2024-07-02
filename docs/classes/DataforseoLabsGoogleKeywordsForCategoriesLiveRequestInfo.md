@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87910
+main.ts:88262
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:87791
+main.ts:88143
 
 ***
 
@@ -69,7 +69,7 @@ default value: true
 
 #### Source
 
-main.ts:87829
+main.ts:88181
 
 ***
 
@@ -102,7 +102,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:87884
+main.ts:88236
 
 ***
 
@@ -121,7 +121,7 @@ default value: false
 
 #### Source
 
-main.ts:87847
+main.ts:88199
 
 ***
 
@@ -143,7 +143,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:87842
+main.ts:88194
 
 ***
 
@@ -162,7 +162,7 @@ default value: false
 
 #### Source
 
-main.ts:87834
+main.ts:88186
 
 ***
 
@@ -184,7 +184,7 @@ en
 
 #### Source
 
-main.ts:87823
+main.ts:88175
 
 ***
 
@@ -206,7 +206,7 @@ English
 
 #### Source
 
-main.ts:87815
+main.ts:88167
 
 ***
 
@@ -225,7 +225,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:87852
+main.ts:88204
 
 ***
 
@@ -247,7 +247,7 @@ example:
 
 #### Source
 
-main.ts:87807
+main.ts:88159
 
 ***
 
@@ -269,7 +269,7 @@ United Kingdom
 
 #### Source
 
-main.ts:87799
+main.ts:88151
 
 ***
 
@@ -288,7 +288,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:87857
+main.ts:88209
 
 ***
 
@@ -310,7 +310,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:87865
+main.ts:88217
 
 ***
 
@@ -340,7 +340,7 @@ example:
 
 #### Source
 
-main.ts:87900
+main.ts:88252
 
 ***
 
@@ -360,7 +360,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87906
+main.ts:88258
 
 ## Methods
 
@@ -378,7 +378,7 @@ main.ts:87906
 
 #### Source
 
-main.ts:87919
+main.ts:88271
 
 ***
 
@@ -396,7 +396,7 @@ main.ts:87919
 
 #### Source
 
-main.ts:87962
+main.ts:88314
 
 ***
 
@@ -414,4 +414,4 @@ main.ts:87962
 
 #### Source
 
-main.ts:87955
+main.ts:88307

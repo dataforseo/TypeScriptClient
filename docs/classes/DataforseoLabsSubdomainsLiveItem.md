@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:93992
+main.ts:94348
 
 ## Properties
 
@@ -42,7 +42,7 @@ ranking data relevant to subdomain
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -50,7 +50,7 @@ ranking data relevant to subdomain
 
 #### Source
 
-main.ts:93988
+main.ts:94344
 
 ***
 
@@ -66,7 +66,7 @@ search engine type
 
 #### Source
 
-main.ts:93984
+main.ts:94340
 
 ***
 
@@ -82,7 +82,7 @@ returned subdomain
 
 #### Source
 
-main.ts:93986
+main.ts:94342
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:93986
 
 #### Source
 
-main.ts:94001
+main.ts:94357
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:94001
 
 #### Source
 
-main.ts:94026
+main.ts:94382
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:94026
 
 #### Source
 
-main.ts:94019
+main.ts:94375

@@ -21,7 +21,7 @@ legacy field, the value will always be null
 
 #### Source
 
-main.ts:133494
+main.ts:133726
 
 ***
 
@@ -39,7 +39,7 @@ if there is no data the value is null
 
 #### Source
 
-main.ts:133482
+main.ts:133714
 
 ***
 
@@ -53,7 +53,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:133486
+main.ts:133718
 
 ***
 
@@ -67,7 +67,7 @@ possible values: all, mobile, desktop, tablet
 
 #### Source
 
-main.ts:133474
+main.ts:133706
 
 ***
 
@@ -79,7 +79,7 @@ keyword in a POST array
 
 #### Source
 
-main.ts:133464
+main.ts:133696
 
 ***
 
@@ -91,7 +91,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:133468
+main.ts:133700
 
 ***
 
@@ -103,7 +103,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:133466
+main.ts:133698
 
 ***
 
@@ -117,7 +117,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:133498
+main.ts:133730
 
 ***
 
@@ -129,7 +129,7 @@ indicates whether data from partner networks included in the response
 
 #### Source
 
-main.ts:133470
+main.ts:133702
 
 ***
 
@@ -144,4 +144,4 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:133491
+main.ts:133723

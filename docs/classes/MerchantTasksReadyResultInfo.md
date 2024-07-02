@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:173410
+main.ts:173658
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:173400
+main.ts:173648
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 #### Source
 
-main.ts:173404
+main.ts:173652
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 #### Source
 
-main.ts:173406
+main.ts:173654
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:173394
+main.ts:173642
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:173396
+main.ts:173644
 
 ***
 
@@ -127,7 +127,7 @@ type of search engine
 
 #### Source
 
-main.ts:173398
+main.ts:173646
 
 ***
 
@@ -143,7 +143,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:173402
+main.ts:173650
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:173402
 
 #### Source
 
-main.ts:173419
+main.ts:173667
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:173419
 
 #### Source
 
-main.ts:173442
+main.ts:173690
 
 ***
 
@@ -197,4 +197,4 @@ main.ts:173442
 
 #### Source
 
-main.ts:173435
+main.ts:173683

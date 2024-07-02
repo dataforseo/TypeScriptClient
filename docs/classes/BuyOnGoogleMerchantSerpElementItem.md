@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:175745
+main.ts:175993
 
 ## Properties
 
@@ -68,7 +68,7 @@ product price without tax and shipping
 
 #### Source
 
-main.ts:175720
+main.ts:175968
 
 ***
 
@@ -86,7 +86,7 @@ USD
 
 #### Source
 
-main.ts:175731
+main.ts:175979
 
 ***
 
@@ -103,7 +103,7 @@ if there are no details, the value will be null
 
 #### Source
 
-main.ts:175718
+main.ts:175966
 
 ***
 
@@ -119,7 +119,7 @@ domain in SERP
 
 #### Source
 
-main.ts:175711
+main.ts:175959
 
 ***
 
@@ -137,7 +137,7 @@ left, right
 
 #### Source
 
-main.ts:175707
+main.ts:175955
 
 ***
 
@@ -154,7 +154,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Source
 
-main.ts:175703
+main.ts:175951
 
 ***
 
@@ -171,7 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:175700
+main.ts:175948
 
 ***
 
@@ -188,7 +188,7 @@ the shop popularity rate based on product reviews
 
 #### Source
 
-main.ts:175737
+main.ts:175985
 
 ***
 
@@ -205,7 +205,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Source
 
-main.ts:175734
+main.ts:175982
 
 ***
 
@@ -221,7 +221,7 @@ product shipping price
 
 #### Source
 
-main.ts:175725
+main.ts:175973
 
 ***
 
@@ -239,7 +239,7 @@ in this case, the value equals null
 
 #### Source
 
-main.ts:175741
+main.ts:175989
 
 ***
 
@@ -256,7 +256,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Source
 
-main.ts:175723
+main.ts:175971
 
 ***
 
@@ -272,7 +272,7 @@ product title
 
 #### Source
 
-main.ts:175713
+main.ts:175961
 
 ***
 
@@ -288,7 +288,7 @@ product price including tax and shipping
 
 #### Source
 
-main.ts:175727
+main.ts:175975
 
 ***
 
@@ -304,7 +304,7 @@ Google Shopping URL forwarding to the product page
 
 #### Source
 
-main.ts:175715
+main.ts:175963
 
 ***
 
@@ -320,7 +320,7 @@ XPath of the element
 
 #### Source
 
-main.ts:175709
+main.ts:175957
 
 ## Methods
 
@@ -342,7 +342,7 @@ main.ts:175709
 
 #### Source
 
-main.ts:175750
+main.ts:175998
 
 ***
 
@@ -364,7 +364,7 @@ main.ts:175750
 
 #### Source
 
-main.ts:175783
+main.ts:176031
 
 ***
 
@@ -386,4 +386,4 @@ main.ts:175783
 
 #### Source
 
-main.ts:175776
+main.ts:176024

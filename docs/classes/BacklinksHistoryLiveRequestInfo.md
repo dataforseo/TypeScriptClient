@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:137734
+main.ts:137966
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:137717
+main.ts:137949
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Source
 
-main.ts:137724
+main.ts:137956
 
 ***
 
@@ -93,7 +93,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:137730
+main.ts:137962
 
 ***
 
@@ -111,7 +111,7 @@ a domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:137709
+main.ts:137941
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:137709
 
 #### Source
 
-main.ts:137743
+main.ts:137975
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:137743
 
 #### Source
 
-main.ts:137763
+main.ts:137995
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:137763
 
 #### Source
 
-main.ts:137756
+main.ts:137988

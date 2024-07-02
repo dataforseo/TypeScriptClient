@@ -25,7 +25,7 @@ example:
 
 #### Source
 
-main.ts:80962
+main.ts:81064
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Source
 
-main.ts:80969
+main.ts:81071
 
 ***
 
@@ -58,7 +58,7 @@ example: dataforseo_labs/related_keywords/live
 
 #### Source
 
-main.ts:80955
+main.ts:81057
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:80944
+main.ts:81046
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Source
 
-main.ts:80949
+main.ts:81051

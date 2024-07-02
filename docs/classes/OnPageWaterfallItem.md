@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:158193
+main.ts:158441
 
 ## Properties
 
@@ -47,7 +47,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Source
 
-main.ts:158168
+main.ts:158416
 
 ***
 
@@ -64,7 +64,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Source
 
-main.ts:158165
+main.ts:158413
 
 ***
 
@@ -80,7 +80,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Source
 
-main.ts:158178
+main.ts:158426
 
 ***
 
@@ -96,7 +96,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Source
 
-main.ts:158180
+main.ts:158428
 
 ***
 
@@ -113,7 +113,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Source
 
-main.ts:158186
+main.ts:158434
 
 ***
 
@@ -130,7 +130,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Source
 
-main.ts:158183
+main.ts:158431
 
 ***
 
@@ -146,7 +146,7 @@ URL of the page
 
 #### Source
 
-main.ts:158159
+main.ts:158407
 
 ***
 
@@ -163,7 +163,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Source
 
-main.ts:158174
+main.ts:158422
 
 ***
 
@@ -180,7 +180,7 @@ contains separate arrays with timing for each resource found on the page
 
 #### Source
 
-main.ts:158189
+main.ts:158437
 
 ***
 
@@ -197,7 +197,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Source
 
-main.ts:158162
+main.ts:158410
 
 ***
 
@@ -214,7 +214,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Source
 
-main.ts:158171
+main.ts:158419
 
 ***
 
@@ -230,7 +230,7 @@ time to first byte (TTFB) in milliseconds
 
 #### Source
 
-main.ts:158176
+main.ts:158424
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:158176
 
 #### Source
 
-main.ts:158202
+main.ts:158450
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:158202
 
 #### Source
 
-main.ts:158234
+main.ts:158482
 
 ***
 
@@ -284,4 +284,4 @@ main.ts:158234
 
 #### Source
 
-main.ts:158227
+main.ts:158475

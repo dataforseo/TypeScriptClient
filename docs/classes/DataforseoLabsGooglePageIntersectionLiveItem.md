@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:101364
+main.ts:101720
 
 ## Properties
 
@@ -52,7 +52,7 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Source
 
-main.ts:101360
+main.ts:101716
 
 ***
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:101356
+main.ts:101712
 
 ***
 
@@ -84,7 +84,7 @@ search engine type
 
 #### Source
 
-main.ts:101354
+main.ts:101710
 
 ## Methods
 
@@ -102,7 +102,7 @@ main.ts:101354
 
 #### Source
 
-main.ts:101373
+main.ts:101729
 
 ***
 
@@ -120,7 +120,7 @@ main.ts:101373
 
 #### Source
 
-main.ts:101398
+main.ts:101754
 
 ***
 
@@ -138,4 +138,4 @@ main.ts:101398
 
 #### Source
 
-main.ts:101391
+main.ts:101747

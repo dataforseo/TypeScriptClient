@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:160080
+main.ts:160328
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:160068
+main.ts:160316
 
 ***
 
@@ -65,7 +65,7 @@ if no error is encountered, the value will be null
 
 #### Source
 
-main.ts:160072
+main.ts:160320
 
 ***
 
@@ -81,7 +81,7 @@ items array
 
 #### Source
 
-main.ts:160076
+main.ts:160324
 
 ***
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:160074
+main.ts:160322
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:160074
 
 #### Source
 
-main.ts:160089
+main.ts:160337
 
 ***
 
@@ -133,7 +133,7 @@ main.ts:160089
 
 #### Source
 
-main.ts:160113
+main.ts:160361
 
 ***
 
@@ -151,4 +151,4 @@ main.ts:160113
 
 #### Source
 
-main.ts:160106
+main.ts:160354

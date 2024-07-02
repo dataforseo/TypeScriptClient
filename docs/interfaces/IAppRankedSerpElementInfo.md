@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:113380
+main.ts:113528
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:113387
+main.ts:113535
 
 ***
 
@@ -52,7 +52,7 @@ in this case, will equal null
 
 #### Source
 
-main.ts:113393
+main.ts:113541
 
 ***
 
@@ -64,7 +64,7 @@ number of search results for the returned keyword
 
 #### Source
 
-main.ts:113382
+main.ts:113530
 
 ***
 
@@ -76,17 +76,17 @@ search engine type
 
 #### Source
 
-main.ts:113374
+main.ts:113522
 
 ***
 
 ### serp\_item?
 
-> **`optional`** **serp\_item**: [`BaseAppDataSerpElementItem`](../classes/BaseAppDataSerpElementItem.md)
+> **`optional`** **serp\_item**: [`AppDataGooglePlaySearchOrganicSerpElementItem`](../classes/AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:113377
+main.ts:113525

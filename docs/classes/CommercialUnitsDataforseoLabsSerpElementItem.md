@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:100086
+main.ts:100442
 
 ## Properties
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:100082
+main.ts:100438
 
 ***
 
@@ -87,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:100075
+main.ts:100431
 
 ***
 
@@ -104,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:100071
+main.ts:100427
 
 ***
 
@@ -121,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:100068
+main.ts:100424
 
 ***
 
@@ -137,7 +137,7 @@ title of the item
 
 #### Source
 
-main.ts:100079
+main.ts:100435
 
 ***
 
@@ -153,7 +153,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:100077
+main.ts:100433
 
 ## Methods
 
@@ -175,7 +175,7 @@ main.ts:100077
 
 #### Source
 
-main.ts:100091
+main.ts:100447
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:100091
 
 #### Source
 
-main.ts:100118
+main.ts:100474
 
 ***
 
@@ -219,4 +219,4 @@ main.ts:100118
 
 #### Source
 
-main.ts:100111
+main.ts:100467

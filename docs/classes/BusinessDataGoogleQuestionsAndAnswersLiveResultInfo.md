@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:209578
+main.ts:210102
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:209551
+main.ts:210075
 
 ***
 
@@ -65,7 +65,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:209560
+main.ts:210084
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Source
 
-main.ts:209556
+main.ts:210080
 
 ***
 
@@ -100,7 +100,7 @@ unique identifier of the SERP feature
 
 #### Source
 
-main.ts:209562
+main.ts:210086
 
 ***
 
@@ -118,7 +118,7 @@ possible item types: google_business_question_item
 
 #### Source
 
-main.ts:209566
+main.ts:210090
 
 ***
 
@@ -136,7 +136,7 @@ possible item types google_business_answer_element
 
 #### Source
 
-main.ts:209574
+main.ts:210098
 
 ***
 
@@ -152,7 +152,7 @@ the number of items in the items array
 
 #### Source
 
-main.ts:209570
+main.ts:210094
 
 ***
 
@@ -168,7 +168,7 @@ array of google business question items without answers
 
 #### Source
 
-main.ts:209568
+main.ts:210092
 
 ***
 
@@ -189,7 +189,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:209542
+main.ts:210066
 
 ***
 
@@ -205,7 +205,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:209548
+main.ts:210072
 
 ***
 
@@ -221,7 +221,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:209546
+main.ts:210070
 
 ***
 
@@ -237,7 +237,7 @@ search engine domain as specified in a POST array
 
 #### Source
 
-main.ts:209544
+main.ts:210068
 
 ## Methods
 
@@ -255,7 +255,7 @@ main.ts:209544
 
 #### Source
 
-main.ts:209587
+main.ts:210111
 
 ***
 
@@ -273,7 +273,7 @@ main.ts:209587
 
 #### Source
 
-main.ts:209627
+main.ts:210151
 
 ***
 
@@ -291,4 +291,4 @@ main.ts:209627
 
 #### Source
 
-main.ts:209620
+main.ts:210144

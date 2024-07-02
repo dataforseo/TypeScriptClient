@@ -23,7 +23,7 @@ US-NY
 
 #### Source
 
-main.ts:125725
+main.ts:125957
 
 ***
 
@@ -36,7 +36,7 @@ you can use this field for matching obtained results with location parameters sp
 
 #### Source
 
-main.ts:125728
+main.ts:125960
 
 ***
 
@@ -50,7 +50,7 @@ if you specified only one keyword, the value will be null
 
 #### Source
 
-main.ts:125739
+main.ts:125971
 
 ***
 
@@ -67,4 +67,4 @@ a value of 0 means there was not enough data for this term
 
 #### Source
 
-main.ts:125735
+main.ts:125967

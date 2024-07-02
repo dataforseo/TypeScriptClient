@@ -328,7 +328,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 14cc400a-6367-405f-a2aa-157423b7b78c
+          example: 9b5bea96-e1bf-46c9-bae0-4494a6597e2f
       responses:
         '200':
           description: Successful operation
@@ -646,7 +646,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 942c9446-7b28-4a40-8bec-5b0bbc6e6408
+          example: 357c327a-069a-44aa-b7d2-d693d580014d
       responses:
         '200':
           description: Successful operation
@@ -818,7 +818,7 @@ paths:
           required: true
           schema:
             type: string
-          example: cca9b1da-eed2-4023-bbf7-191d8826d307
+          example: 64076eb6-953b-47f6-b9c2-ed2e6d2fcc1d
       responses:
         '200':
           description: Successful operation
@@ -1108,7 +1108,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 784c13b4-4113-4e75-b658-236ce222702a
+          example: 940e15f3-876e-4bb4-aa27-103f8bfa4440
       responses:
         '200':
           description: Successful operation
@@ -1370,7 +1370,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 10112ea1-f260-43ba-8a16-5f3b4f79e162
+          example: 20f94630-7950-4042-a9b2-377db4750fbe
       responses:
         '200':
           description: Successful operation
@@ -1928,7 +1928,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 5dd5be14-953b-47d9-9416-12b16ded33e2
+          example: 230f56a1-cb85-4aa1-af69-4807bfd0f571
       responses:
         '200':
           description: Successful operation
@@ -2128,7 +2128,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 6a086040-3793-40be-8d7b-7a9c2d30b6e3
+          example: 65a173a5-aa8f-454d-a039-d89ef02927ce
       responses:
         '200':
           description: Successful operation
@@ -2804,7 +2804,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 92556b54-34ae-4b76-9baa-2a2ffb62c52c
+          example: 8b3c3f10-a016-4134-9e3b-bc420868ce4b
       responses:
         '200':
           description: Successful operation
@@ -3092,7 +3092,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 9d33144f-ed7e-4001-8908-7619bc9b041d
+          example: 237f305f-15dd-4074-9a9e-0f5699f3214a
       responses:
         '200':
           description: Successful operation
@@ -3234,7 +3234,7 @@ paths:
           required: true
           schema:
             type: string
-          example: bce351e8-4ea5-40c9-9428-1f35fd4a3514
+          example: f68d79a3-219f-4a0f-b0b4-581a8f1b72ad
       responses:
         '200':
           description: Successful operation
@@ -3438,7 +3438,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 2fa8b55f-2f5b-4648-8e4c-1bae8cec84ab
+          example: 710064fe-2127-4d13-be58-ca2b7fd95408
       responses:
         '200':
           description: Successful operation
@@ -5506,7 +5506,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b66333fb-cea7-4162-a8ff-6a578590c78b
+          example: d3d0f8c2-2144-4fb9-bb5a-6bd52cfdd2c1
       responses:
         '200':
           description: Successful operation
@@ -5606,7 +5606,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 2fbe3952-e50c-4426-96fd-b8f1f68400b4
+          example: 41fb731d-76aa-40f6-ba60-fcd371d1910b
       responses:
         '200':
           description: Successful operation
@@ -5706,7 +5706,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 0504405e-8e15-4144-8f43-1e8b70f12aff
+          example: efaf87de-0e7a-4650-b791-fa7dfa887ea0
       responses:
         '200':
           description: Successful operation
@@ -5806,7 +5806,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ea8a19dc-134e-4e2e-9a95-fef7f33db08b
+          example: 67547e7d-5842-41df-b7b2-35dec33bcba5
       responses:
         '200':
           description: Successful operation
@@ -5986,7 +5986,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 99562a97-c0de-4b6b-9226-57072d6fe67d
+          example: 2534fb66-135d-46b9-8ada-dcee247139a8
       responses:
         '200':
           description: Successful operation
@@ -6278,7 +6278,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 9b973a6e-0dae-42d6-89f8-472b58232b29
+          example: 880233f0-a727-46a7-83c7-bfcb910b7eaf
       responses:
         '200':
           description: Successful operation
@@ -6378,7 +6378,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 947aaef8-6ad3-4346-a4c8-549ecfea3ddd
+          example: c885712e-9c5e-4882-92b1-16b520afe90b
       responses:
         '200':
           description: Successful operation
@@ -6478,7 +6478,7 @@ paths:
           required: true
           schema:
             type: string
-          example: bea706b9-f03e-4331-9080-de3fa8d49bc9
+          example: 1ad3229d-7339-4caf-8884-03152b765178
       responses:
         '200':
           description: Successful operation
@@ -6596,7 +6596,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b8653710-e1d9-4370-9b9c-6d28f0faa129
+          example: f3fedae9-c73c-4e95-8854-d454a88d168d
       responses:
         '200':
           description: Successful operation
@@ -8804,7 +8804,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 5d6ce189-f4b0-471b-a6cb-e635151e130b
+          example: 3c48a661-b578-4efd-a33f-b574714c547d
       responses:
         '200':
           description: Successful operation
@@ -8902,7 +8902,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 9940fd3c-0d3e-48ba-8dae-97bf90b75166
+          example: df1b6707-3811-4600-89fa-8eb5c8208e4c
       responses:
         '200':
           description: Successful operation
@@ -9000,7 +9000,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 76c3df35-17e3-4a63-89a5-f9b466d083c7
+          example: c57c5bbc-db2b-4e04-a827-5b573c9a6d45
       responses:
         '200':
           description: Successful operation
@@ -9258,7 +9258,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 792185cd-420a-4ce8-96a4-5b118611999e
+          example: 0f95469c-eb4e-4930-b58e-436ed90e4a2f
       responses:
         '200':
           description: Successful operation
@@ -9356,7 +9356,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 593a5b8b-a1b3-4903-abbf-08d72aae3717
+          example: 6b404456-7c3d-40fd-aa72-bbf0f803fb7c
       responses:
         '200':
           description: Successful operation
@@ -9454,7 +9454,7 @@ paths:
           required: true
           schema:
             type: string
-          example: be7b73c1-ce8c-4e09-9006-2d3f52b568fb
+          example: ff2d6c7d-19b2-4b50-bcca-26b3e91a0d0e
       responses:
         '200':
           description: Successful operation
@@ -9552,7 +9552,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d812548b-b7d2-4e6d-bfed-53947b3ffd17
+          example: d267c8aa-a511-4bf8-8852-ad20d8445ba8
       responses:
         '200':
           description: Successful operation
@@ -9778,7 +9778,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c5a84c5b-18ec-49b3-b79f-8285c3bef605
+          example: ca8db4c3-334f-4be5-8c47-81b30eb11d80
       responses:
         '200':
           description: Successful operation
@@ -9804,7 +9804,7 @@ paths:
           required: true
           schema:
             type: string
-          example: dfc988ff-d973-494a-85b7-a11d4f5139ba
+          example: 7e8edc01-6864-4bd6-ab4b-da653ee1714a
       responses:
         '200':
           description: Successful operation
@@ -9876,7 +9876,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 64a8a1c0-e748-4461-bb80-92cd207e1a21
+          example: b83652c7-9519-4b92-8241-8bd7570e00d8
       responses:
         '200':
           description: Successful operation
@@ -9902,7 +9902,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ae911a0e-e788-4149-91b6-3b8e22c5e1ec
+          example: a6996b2c-9733-42d2-a2f7-20196e2296ce
       responses:
         '200':
           description: Successful operation
@@ -9974,7 +9974,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 8264c4cd-5d03-49d1-915a-8337b11379f0
+          example: 58d85a02-1789-436c-9568-aa50eb4b60b7
       responses:
         '200':
           description: Successful operation
@@ -10000,7 +10000,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 83845af9-c32a-4d78-8960-e3a305ccd9dc
+          example: ab3de591-f6a6-48c8-a68d-6982569bd2b1
       responses:
         '200':
           description: Successful operation
@@ -10072,7 +10072,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 71f49aac-a29b-45a9-bead-70c86f9d0bb7
+          example: 3379cd54-4e0a-4e34-bfb7-4f9374474742
       responses:
         '200':
           description: Successful operation
@@ -10098,7 +10098,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c40ea7e5-5622-4cf2-8e99-16e6d7f1156d
+          example: eb067995-1bd3-45bc-8942-dabf6a415801
       responses:
         '200':
           description: Successful operation
@@ -10270,7 +10270,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 6b74dcaa-51d3-4702-86e9-e4b2105f24dd
+          example: 07892f44-b965-4b12-9473-ec1ae549c504
       responses:
         '200':
           description: Successful operation
@@ -10342,7 +10342,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 701f0203-50b0-4632-9279-d0e244d7838f
+          example: 456f2b62-e176-4c32-b543-5a7028a1e71d
       responses:
         '200':
           description: Successful operation
@@ -10414,7 +10414,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 81ffd7d8-8256-4aa6-add2-cc67ba23e557
+          example: f2e443f7-ee7f-4de2-9802-d84fdbf04531
       responses:
         '200':
           description: Successful operation
@@ -10486,7 +10486,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d6a81ea6-ab25-4fdf-b8c7-e27f5aab192e
+          example: a74b50b7-6378-49dd-8031-085dde87886b
       responses:
         '200':
           description: Successful operation
@@ -10605,7 +10605,7 @@ paths:
     get:
       tags:
         - BusinessData
-      description: "You will receive the list of locations by this API call. You can also download the full list of supported locations in the CSV format (last updated 2024-04-04).\nfor more info please visit 'https://docs.dataforseo.com/v3/business_data/business_listings/locations/?bash'"
+      description: "You will receive the list of locations by this API call. You can also download the full list of supported locations in the CSV format (last updated 2024-06-17).\nfor more info please visit 'https://docs.dataforseo.com/v3/business_data/business_listings/locations/?bash'"
       operationId: BusinessDataBusinessListingsLocations
       responses:
         '200':
@@ -11120,7 +11120,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 19dfc58a-915f-4db9-9c5c-0e80b93b0cf9
+          example: 14f1967c-9503-427a-afca-c94ac7cd6519
       responses:
         '200':
           description: Successful operation
@@ -17772,6 +17772,47 @@ components:
                 - $ref: '#/components/schemas/Rectangle'
               description: "rectangle parameters\ncontains cartesian coordinates and pixel dimensions of the result’s snippet in SERP\nequals null if calculate_rectangles in the POST request is not set to true"
               nullable: true
+    CoursesElement:
+      type: object
+      properties:
+        type:
+          type: string
+          description: type of element
+          nullable: true
+        title:
+          type: string
+          description: title of a given link element
+          nullable: true
+        url:
+          type: string
+          description: URL
+          nullable: true
+        domain:
+          type: string
+          description: website domain
+          nullable: true
+        source:
+          type: string
+          description: "source of the element\nindicates the source of information included in the top_stories_element"
+          nullable: true
+        description:
+          type: string
+          description: description
+          nullable: true
+        date:
+          type: string
+          description: the date when the page source of the element was published
+          nullable: true
+        image_url:
+          type: string
+          description: URL of the image
+          nullable: true
+        rating:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/RatingInfo'
+          description: "the item’s rating \nthe popularity rate based on reviews and displayed in SERP"
+          nullable: true
     SerpGoogleOrganicTaskGetAdvancedResultInfo:
       type: object
       properties:
@@ -31529,7 +31570,7 @@ components:
             type: integer
             format: int64
             nullable: true
-          description: distribution of estimated clickstream-based metrics by gender
+          description: "distribution of estimated clickstream-based metrics by gender\nlearn more about how the metric is calculated in this help center article"
           nullable: true
         age_distribution:
           type: object
@@ -31537,7 +31578,7 @@ components:
             type: integer
             format: int64
             nullable: true
-          description: distribution of clickstream-based metrics by age
+          description: "distribution of clickstream-based metrics by age\nlearn more about how the metric is calculated in this help center article"
           nullable: true
         monthly_searches:
           type: array
@@ -32809,6 +32850,113 @@ components:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
           nullable: true
+    DataforseoLabsMetricsInfo:
+      type: object
+      properties:
+        pos_1:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #1'
+          nullable: true
+        pos_2_3:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #2-3'
+          nullable: true
+        pos_4_10:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #4-10'
+          nullable: true
+        pos_11_20:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #11-20'
+          nullable: true
+        pos_21_30:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #21-30'
+          nullable: true
+        pos_31_40:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #31-40'
+          nullable: true
+        pos_41_50:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #41-50'
+          nullable: true
+        pos_51_60:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #51-60'
+          nullable: true
+        pos_61_70:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #61-70'
+          nullable: true
+        pos_71_80:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #71-80'
+          nullable: true
+        pos_81_90:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #81-90'
+          nullable: true
+        pos_91_100:
+          type: integer
+          description: 'number of organic SERPs where the domain or subdomain ranks #91-100'
+          nullable: true
+        etv:
+          type: number
+          description: "estimated traffic volume\nestimated organic monthly traffic to the domain or subdomain\ncalculated as the product of CTR (click-through-rate) and search volume values of all keywords in the category that the domain or subdomain ranks for\nlearn more about how the metric is calculated in this help center article"
+          format: float
+          nullable: true
+        impressions_etv:
+          type: number
+          description: "estimated traffic volume based on impressions\nestimated organic monthly traffic to the domain or subdomain\ncalculated as the product of CTR (click-through-rate) and impressions values of all keywords in the category that the domain or subdomain ranks for\nlearn more about how the metric is calculated in this help center article"
+          format: float
+          nullable: true
+        count:
+          type: integer
+          description: total count of organic SERPs that contain the domain or subdomain
+          format: int64
+          nullable: true
+        estimated_paid_traffic_cost:
+          type: number
+          description: "estimated cost of converting organic search traffic into paid\nrepresents the estimated monthly cost (USD) of running ads for all keywords in the category that the domain or subdomain ranks for\nthe metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search\nlearn more about how the metric is calculated in this help center article"
+          format: float
+          nullable: true
+        is_new:
+          type: integer
+          description: "number of new ranked elements\nindicates how many new ranked elements were found for the indicated target"
+          nullable: true
+        is_up:
+          type: integer
+          description: "rank went up\nindicates how many ranked elements of the indicated target went up"
+          nullable: true
+        is_down:
+          type: integer
+          description: "rank went down\nindicates how many ranked elements of the indicated target went down"
+          nullable: true
+        is_lost:
+          type: integer
+          description: "lost ranked elements\nindicates how many ranked elements of the indicated target were previously presented in SERPs, but weren’t found during the last check"
+          nullable: true
+        clickstream_etv:
+          type: integer
+          description: "estimated traffic volume based on clickstream data\ncalculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for\nto retrieve results for this field, the parameter include_clickstream_data must be set to true\nlearn more about how the metric is calculated in this help center article"
+          nullable: true
+        clickstream_gender_distribution:
+          type: object
+          additionalProperties:
+            type: integer
+            format: int64
+            nullable: true
+          description: "distribution of estimated clickstream-based metrics by gender\nto retrieve results for this field, the parameter include_clickstream_data must be set to true\nlearn more about how the metric is calculated in this help center article"
+          nullable: true
+        clickstream_age_distribution:
+          type: object
+          additionalProperties:
+            type: integer
+            format: int64
+            nullable: true
+          description: "distribution of clickstream-based metrics by age\nto retrieve results for this field, the parameter include_clickstream_data must be set to true\nlearn more about how the metric is calculated in this help center article"
+          nullable: true
     DataforseoLabsGoogleCategoriesForDomainLiveItem:
       type: object
       properties:
@@ -32825,7 +32973,7 @@ components:
         metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: ranking data relevant to the specified domain or subdomain
           nullable: true
     DataforseoLabsGoogleCategoriesForDomainLiveResultInfo:
@@ -33173,14 +33321,14 @@ components:
             additionalProperties:
               type: object
               oneOf:
-                - $ref: '#/components/schemas/MetricsInfo'
+                - $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
               nullable: true
           description: historical ranking and traffic data of the domain
           nullable: true
         metrics_difference:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: "metrics difference between first_date and second_date\ncalculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date"
           nullable: true
     DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo:
@@ -33466,7 +33614,7 @@ components:
         metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: ranking data relevant to the specified domain
           nullable: true
         backlinks_info:
@@ -33761,7 +33909,7 @@ components:
               nullable: true
             clickstream_etv:
               type: integer
-              description: "estimated traffic volume based on clickstream data\ncalculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for\nto retrieve results for this field, the parameter include_clickstream_data must be set to true"
+              description: "estimated traffic volume based on clickstream data\ncalculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for\nto retrieve results for this field, the parameter include_clickstream_data must be set to true\nlearn more about how the metric is calculated in this help center article"
               nullable: true
             rank_changes:
               type: object
@@ -33959,7 +34107,7 @@ components:
               nullable: true
             clickstream_etv:
               type: integer
-              description: "estimated traffic volume based on clickstream data\ncalculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for\nto retrieve results for this field, the parameter include_clickstream_data must be set to true"
+              description: "estimated traffic volume based on clickstream data\ncalculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for\nto retrieve results for this field, the parameter include_clickstream_data must be set to true\nlearn more about how the metric is calculated in this help center article"
               nullable: true
             rank_changes:
               type: object
@@ -34025,13 +34173,13 @@ components:
         metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: "ranking data relevant to the specified domain\nranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements"
           nullable: true
         metrics_absolute:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: "ranking data relevant to the specified domain\nranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements"
           nullable: true
         items:
@@ -34351,19 +34499,19 @@ components:
         full_domain_metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: "metrics for all keywords of the domain\nfull overview of ranking and traffic data relevant to all keywords that the provided domain is ranking for"
           nullable: true
         metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: "metrics for intersecting keywords\nranking and traffic data relevant to the keywords that the provided domain shares with the target domain\nnote: in this array ranking and traffic data is provided for the target considering the keywords target shares in search with the competitor’s domain"
           nullable: true
         competitor_metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: "metrics for intersecting keywords\nranking and traffic data relevant to the keywords that the provided domain shares with the target domain\nnote: in this array ranking and traffic data is provided for the returned competitor’s domain"
           nullable: true
     DataforseoLabsGoogleCompetitorsDomainLiveResultInfo:
@@ -34674,7 +34822,7 @@ components:
         metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: ranking data relevant to subdomain
           nullable: true
     DataforseoLabsGoogleSubdomainsLiveResultInfo:
@@ -34820,7 +34968,7 @@ components:
         metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: rankings and traffic metrics for the relevant page
           nullable: true
     DataforseoLabsGoogleRelevantPagesLiveResultInfo:
@@ -34947,7 +35095,7 @@ components:
         metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: ranking data relevant to the specified domain
           nullable: true
     DataforseoLabsGoogleDomainRankOverviewLiveResultInfo:
@@ -37017,7 +37165,7 @@ components:
         metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: ranking data relevant to the specified domain
           nullable: true
     DataforseoLabsGoogleHistoricalRankOverviewLiveResultInfo:
@@ -38093,101 +38241,6 @@ components:
             - $ref: '#/components/schemas/AmazonRankedSerpElement'
           description: contains data on the products’s SERP element found for the returned keyword
           nullable: true
-    AmazonAmazonPaidSerpElementItem:
-      type: object
-      allOf:
-        - $ref: '#/components/schemas/BaseAmazonSerpElementItem'
-        - type: object
-          properties:
-            se_type:
-              type: string
-              description: search engine type
-              nullable: true
-            rank_group:
-              type: integer
-              description: "position within a group of elements with identical type values\npositions of elements with different type values are omitted from rank_group"
-              nullable: true
-            rank_absolute:
-              type: integer
-              description: "absolute rank in Amazon SERP\nabsolute position among all the elements in SERP"
-              nullable: true
-            position:
-              type: string
-              description: "the alignment of the element in Amazon SERP\ncan take the following values:\nleft, right"
-              nullable: true
-            xpath:
-              type: string
-              description: the XPath of the element
-              nullable: true
-            domain:
-              type: string
-              description: Amazon domain
-              nullable: true
-            title:
-              type: string
-              description: product title
-              nullable: true
-            url:
-              type: string
-              description: URL of the product page
-              nullable: true
-            asin:
-              type: string
-              description: "ASIN of the product\nlearn more about ASIN in this help center guide"
-              nullable: true
-            image_url:
-              type: string
-              description: URL of the product image featured in the results
-              nullable: true
-            price_from:
-              type: number
-              description: "the regular price of a product\nexample:\n49.98"
-              format: float
-              nullable: true
-            price_to:
-              type: number
-              description: "the upper limit of the product price range\nexample:\n384.99"
-              format: float
-              nullable: true
-            currency:
-              type: string
-              description: "currency in the ISO format\nexample:\nUSD"
-              nullable: true
-            special_offers:
-              type: array
-              items:
-                type: string
-                nullable: true
-              description: "special offer details\ncontains special offer details, including coupon and Subscribe & Save discounts"
-              nullable: true
-            is_best_seller:
-              type: boolean
-              description: "“Best Seller” label\nif the value is true, the product is marked with the “Best Seller” label"
-              nullable: true
-            is_amazon_choice:
-              type: boolean
-              description: "“Amazon’s choice” label\nif the value is true, the product is marked with the “Amazon’s choice” label"
-              nullable: true
-            rating:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/RatingInfo'
-              description: "the item’s rating \nthe popularity rate based on reviews and displayed in SERP"
-              nullable: true
-            delivery_info:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/AmazonDeliveryInfo'
-              description: "delivery information\ndelivery information including free and fast delivery date ranges"
-              nullable: true
-            bought_past_month:
-              type: integer
-              description: number of product purchases in the past month
-              nullable: true
-            data_asin:
-              type: string
-              description: "unique product identifier on Amazon\nnote that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon\nexample:\nB07G82D89J"
-              nullable: true
     DataforseoLabsAmazonRankedKeywordsLiveResultInfo:
       type: object
       properties:
@@ -39541,7 +39594,7 @@ components:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
           nullable: true
-    DataforseoLabsBingRankedKeywordsLiveItem:
+    DataforseoLabsLiveItem:
       type: object
       properties:
         se_type:
@@ -39592,13 +39645,13 @@ components:
         metrics:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: "ranking data relevant to the specified domain\nranking data is provided by the rank_group parameters that show the result’s rank considering only equivalent SERP elements"
           nullable: true
         metrics_absolute:
           type: object
           additionalProperties:
-            $ref: '#/components/schemas/MetricsInfo'
+            $ref: '#/components/schemas/DataforseoLabsMetricsInfo'
           description: "ranking data relevant to the specified domain\nranking data is provided by the rank_absolute parameters that indicate the result’s position among all SERP elements"
           nullable: true
         items:
@@ -39606,7 +39659,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/DataforseoLabsBingRankedKeywordsLiveItem'
+              - $ref: '#/components/schemas/DataforseoLabsLiveItem'
             nullable: true
           description: contains ranked keywords and related data
           nullable: true
@@ -40414,7 +40467,7 @@ components:
         serp_item:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/BaseAppDataSerpElementItem'
+            - $ref: '#/components/schemas/AppDataGooglePlaySearchOrganicSerpElementItem'
           description: "contains data on the SERP element\nthe list of supported SERP elements can be found below"
           nullable: true
         check_url:
@@ -40433,7 +40486,7 @@ components:
           type: string
           description: "previous to the most recent date and time when SERP data was updated\nin the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”\nexample:\n2019-10-15 12:57:46 +00:00;\nin this case, will equal null"
           nullable: true
-    DataforseoLabsleKeywordsForAppLiveItem:
+    DataforseoLabsGoogleKeywordsForAppLiveItem:
       type: object
       properties:
         se_type:
@@ -40486,7 +40539,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/DataforseoLabsleKeywordsForAppLiveItem'
+              - $ref: '#/components/schemas/DataforseoLabsGoogleKeywordsForAppLiveItem'
             nullable: true
           description: contains data related to the ranking keywords for the app specified in the app_id field
           nullable: true
@@ -40731,7 +40784,7 @@ components:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
           nullable: true
-    DataforseoLabsleAppIntersectionLiveItem:
+    DataforseoLabsGoogleAppIntersectionLiveItem:
       type: object
       properties:
         se_type:
@@ -40749,7 +40802,7 @@ components:
           additionalProperties:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/BaseAppDataSerpElementItem'
+              - $ref: '#/components/schemas/AppDataGooglePlaySearchOrganicSerpElementItem'
             description: "contains SERP data for the respective app ID\nfield name varies in the range from 1 to 20 according to the number of app IDs in the app_ids object;\npossible types of SERP elements:\ngoogle_play_search_organic"
             nullable: true
           description: "contains SERP data for the returned keyword\ndata will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;\ndepending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively"
@@ -40791,7 +40844,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/DataforseoLabsleAppIntersectionLiveItem'
+              - $ref: '#/components/schemas/DataforseoLabsGoogleAppIntersectionLiveItem'
             nullable: true
           description: contains data related to the ranking keywords for the app specified in the app_id field
           nullable: true
@@ -41053,7 +41106,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/DataforseoLabsleKeywordsForAppLiveItem'
+              - $ref: '#/components/schemas/DataforseoLabsLiveItem'
             nullable: true
           description: contains data related to the ranking keywords for the app specified in the app_id field
           nullable: true
@@ -41298,6 +41351,29 @@ components:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
           nullable: true
+    DataforseoLabsAppleAppIntersectionLiveItem:
+      type: object
+      properties:
+        se_type:
+          type: string
+          description: search engine type
+          nullable: true
+        keyword_data:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/KeywordDataKeywordDataInfo'
+          description: keyword data for the returned keyword
+          nullable: true
+        intersection_result:
+          type: object
+          additionalProperties:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/AppDataAppStoreSearchOrganicSerpElementItem'
+            description: "contains SERP data for the respective app ID\nfield name varies in the range from 1 to 20 according to the number of app IDs in the app_ids object;\npossible types of SERP elements:\napp_store_search_organic"
+            nullable: true
+          description: "contains SERP data for the returned keyword\ndata will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;\ndepending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively"
+          nullable: true
     DataforseoLabsAppleAppIntersectionLiveResultInfo:
       type: object
       properties:
@@ -41335,7 +41411,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/DataforseoLabsleAppIntersectionLiveItem'
+              - $ref: '#/components/schemas/DataforseoLabsAppleAppIntersectionLiveItem'
             nullable: true
           description: contains data related to the ranking keywords for the app specified in the app_id field
           nullable: true
@@ -43540,7 +43616,7 @@ components:
           type: array
           items:
             type: string
-          description: "types of items returned\noptional field\nif you don’t specify this field, all items will be presented in the response;\nyou can set only one item to speed up the execution of the request\npossible values:\n\"item_types\": [\n\"google_trends_graph\",\n\"google_trends_map\",\n\"google_trends_topics_list\",\n\"google_trends_queries_list\"\n]"
+          description: "types of items returned\noptional field\nto speed up the execution of the request, specify one item at a time;\npossible values:\n\"item_types\": [\n\"google_trends_graph\",\n\"google_trends_map\",\n\"google_trends_topics_list\",\n\"google_trends_queries_list\"\n]\ndefault value:\n\"item_types\": [\n\"google_trends_graph\"\n]"
           nullable: true
         postback_url:
           type: string
@@ -47408,6 +47484,21 @@ components:
           description: number of keywords for which the page is ranked in top 100 search results
           format: int64
           nullable: true
+    Redirect:
+      type: object
+      properties:
+        type:
+          type: string
+          description: type of element
+          nullable: true
+        status_code:
+          type: integer
+          description: HTTP status code of the URL
+          nullable: true
+        url:
+          type: string
+          description: indirect link URL
+          nullable: true
     BacklinksBacklinksLiveItem:
       type: object
       properties:
@@ -47531,7 +47622,10 @@ components:
           description: "link type\npossible values:\nanchor, image, meta, canonical, alternate, redirect"
           nullable: true
         attributes:
-          type: object
+          type: array
+          items:
+            type: string
+            nullable: true
           description: "link attributes of the referring links\nexample:\nnofollow"
           nullable: true
         dofollow:
@@ -47603,7 +47697,12 @@ components:
           description: "indicates whether the backlink is an indirect link\nif true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page"
           nullable: true
         indirect_link_path:
-          type: object
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/Redirect'
+            nullable: true
           description: "indirect link path\nindicates a URL or a sequence of URLs that lead to url_to"
           nullable: true
     BacklinksBacklinksLiveResultInfo:
@@ -49567,21 +49666,6 @@ components:
         tag:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
-          nullable: true
-    Redirect:
-      type: object
-      properties:
-        type:
-          type: string
-          description: type of element
-          nullable: true
-        status_code:
-          type: integer
-          description: HTTP status code of the URL
-          nullable: true
-        url:
-          type: string
-          description: indirect link URL
           nullable: true
     BacklinksPageIntersectionInfo:
       type: object
@@ -52332,6 +52416,53 @@ components:
               type: boolean
               description: indicates whether the resource blocks rendering
               nullable: true
+    OnPageResourcesResultInfo:
+      type: object
+      properties:
+        crawl_progress:
+          type: string
+          description: "status of the crawling session\npossible values: in_progress, finished"
+          nullable: true
+        crawl_status:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/CrawlStatusInfo'
+          description: details of the crawling session
+          nullable: true
+        total_items_count:
+          type: integer
+          description: total number of relevant items crawled
+          format: int64
+          nullable: true
+        items_count:
+          type: integer
+          description: number of items in the results array
+          format: int64
+          nullable: true
+        items:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/BaseOnPageResourceItemInfo'
+            nullable: true
+          description: items array
+          nullable: true
+    OnPageResourcesTaskInfo:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseResponseTaskInfo'
+        - type: object
+          properties:
+            result:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/OnPageResourcesResultInfo'
+                nullable: true
+              description: array of results
+              nullable: true
     ScriptResourceElementItem:
       type: object
       allOf:
@@ -52392,12 +52523,6 @@ components:
                 nullable: true
               description: "resource check-ups\ncontents of the array depend on the resource_type"
               nullable: true
-            resource_errors:
-              type: object
-              oneOf:
-                - $ref: '#/components/schemas/OnPageResourceIssueInfo'
-              description: resource errors and warnings
-              nullable: true
             content_encoding:
               type: string
               description: type of encoding
@@ -52420,52 +52545,11 @@ components:
                 - $ref: '#/components/schemas/LastModified'
               description: "contains data on changes related to the resource\nif there is no data, the value will be null"
               nullable: true
-    OnPageResourcesResultInfo:
-      type: object
-      properties:
-        crawl_progress:
-          type: string
-          description: "status of the crawling session\npossible values: in_progress, finished"
-          nullable: true
-        crawl_status:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/CrawlStatusInfo'
-          description: details of the crawling session
-          nullable: true
-        total_items_count:
-          type: integer
-          description: total number of relevant items crawled
-          format: int64
-          nullable: true
-        items_count:
-          type: integer
-          description: number of items in the results array
-          format: int64
-          nullable: true
-        items:
-          type: array
-          items:
-            type: object
-            oneOf:
-              - $ref: '#/components/schemas/BaseOnPageResourceItemInfo'
-            nullable: true
-          description: items array
-          nullable: true
-    OnPageResourcesTaskInfo:
-      type: object
-      allOf:
-        - $ref: '#/components/schemas/BaseResponseTaskInfo'
-        - type: object
-          properties:
-            result:
-              type: array
-              items:
-                type: object
-                oneOf:
-                  - $ref: '#/components/schemas/OnPageResourcesResultInfo'
-                nullable: true
-              description: array of results
+            resource_errors:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/OnPageResourceIssueInfo'
+              description: resource errors and warnings
               nullable: true
     ImageResourceElementItem:
       type: object
@@ -59545,6 +59629,89 @@ components:
                 nullable: true
               description: array of tasks
               nullable: true
+    AmazonAmazonPaidSerpElementItem:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseAmazonSerpElementItem'
+        - type: object
+          properties:
+            rank_group:
+              type: integer
+              description: "position within a group of elements with identical type values\npositions of elements with different type values are omitted from rank_group"
+              nullable: true
+            rank_absolute:
+              type: integer
+              description: "absolute rank in SERP\nabsolute position among all the elements found in Amazon SERP"
+              nullable: true
+            xpath:
+              type: string
+              description: the XPath of the element
+              nullable: true
+            domain:
+              type: string
+              description: Amazon domain
+              nullable: true
+            title:
+              type: string
+              description: product title
+              nullable: true
+            url:
+              type: string
+              description: the URL of the product page
+              nullable: true
+            image_url:
+              type: string
+              description: URL of the product image featured in the results
+              nullable: true
+            bought_past_month:
+              type: integer
+              description: number of product purchases in the past month
+              nullable: true
+            price_from:
+              type: number
+              description: "the regular price of a product\nexample:\n49.98"
+              format: float
+              nullable: true
+            price_to:
+              type: number
+              description: "the upper limit of the product price range\nexample:\n384.99"
+              format: float
+              nullable: true
+            currency:
+              type: string
+              description: "currency in the ISO format\nexample:\nUSD"
+              nullable: true
+            special_offers:
+              type: array
+              items:
+                type: string
+                nullable: true
+              description: "special offer details\ncontains special offer details, including coupon and Subscribe & Save discounts"
+              nullable: true
+            data_asin:
+              type: string
+              description: "unique product identifier on Amazon\nnote that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon\nexample:\nB07G82D89J"
+              nullable: true
+            rating:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/RatingElement'
+              description: product rating info
+              nullable: true
+            is_amazon_choice:
+              type: boolean
+              description: "“Amazon’s choice” label\nif the value is true, the product is marked with the “Amazon’s choice” label"
+              nullable: true
+            is_best_seller:
+              type: boolean
+              description: "“Best Seller” label\nif the value is true, the product is marked with the “Best Seller” label"
+              nullable: true
+            delivery_info:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/AmazonDeliveryInfo'
+              description: "delivery information\ndelivery information including free and fast delivery date ranges"
+              nullable: true
     AmazonSerpElement:
       type: object
       properties:
@@ -63190,7 +63357,7 @@ components:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
           nullable: true
-    AppDataleAppListingsSearchLiveItem:
+    AppDataGoogleAppListingsSearchLiveItem:
       type: object
       properties:
         app_id:
@@ -63220,7 +63387,7 @@ components:
         item:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/BaseAppDataSerpElementItem'
+            - $ref: '#/components/schemas/AppDataGooglePlayInfoOrganicSerpElementItem'
           description: detailed information about the app
           nullable: true
     AppDataGoogleAppListingsSearchLiveResultInfo:
@@ -63249,7 +63416,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/AppDataleAppListingsSearchLiveItem'
+              - $ref: '#/components/schemas/AppDataGoogleAppListingsSearchLiveItem'
             nullable: true
           description: array of apps and related data
           nullable: true
@@ -64545,6 +64712,39 @@ components:
           type: string
           description: "user-defined task identifier\noptional field\nthe character limit is 255\nyou can use this parameter to identify the task and match it with the result\nyou will find the specified tag value in the data object of the response"
           nullable: true
+    AppDataAppleAppListingsSearchLiveItem:
+      type: object
+      properties:
+        app_id:
+          type: string
+          description: ID of the returned app
+          nullable: true
+        se_domain:
+          type: string
+          description: search engine domain in a POST array
+          nullable: true
+        location_code:
+          type: integer
+          description: location code in a POST array
+          nullable: true
+        language_code:
+          type: string
+          description: language code in a POST array
+          nullable: true
+        check_url:
+          type: string
+          description: "direct URL to search engine results\nyou can use it to make sure that we provided accurate results"
+          nullable: true
+        time_update:
+          type: string
+          description: "date and time when SERP data was last updated\nin the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”\nexample:\n2023-05-23 10:16:19 +00:00"
+          nullable: true
+        item:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppDataAppStoreInfoOrganicSerpElementItem'
+          description: detailed information about the app
+          nullable: true
     AppDataAppleAppListingsSearchLiveResultInfo:
       type: object
       properties:
@@ -64571,7 +64771,7 @@ components:
           items:
             type: object
             oneOf:
-              - $ref: '#/components/schemas/AppDataleAppListingsSearchLiveItem'
+              - $ref: '#/components/schemas/AppDataAppleAppListingsSearchLiveItem'
             nullable: true
           description: array of apps and related data
           nullable: true
@@ -70339,21 +70539,6 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixInfo'
           nullable: true
-    AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo:
-      type: object
-      properties:
-        task_get:
-          type: number
-          format: double
-          nullable: true
-        task_post:
-          type: number
-          format: double
-          nullable: true
-        locations_and_languages:
-          type: number
-          format: double
-          nullable: true
     AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo:
       type: object
       properties:
@@ -70473,7 +70658,11 @@ components:
         keyword_performance:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo'
+            - $ref: '#/components/schemas/AppendixInfo'
+          nullable: true
+        locations_and_languages:
+          type: number
+          format: double
           nullable: true
         search_volume_history:
           type: object
@@ -71503,7 +71692,11 @@ components:
         keyword_performance:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo'
+            - $ref: '#/components/schemas/AppendixInfo'
+          nullable: true
+        locations_and_languages:
+          type: number
+          format: double
           nullable: true
         search_volume_history:
           type: object
@@ -71935,7 +72128,7 @@ components:
               - $ref: '#/components/schemas/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo'
             nullable: true
           nullable: true
-    AppendixKeywordsKeywordsDataPriceDataInfo:
+    AppendixKeywordsDataPriceDataInfo:
       type: object
       properties:
         task_get:
@@ -72012,24 +72205,6 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
           nullable: true
-    AppendixKeywordPerformanceKeywordsDataPriceData:
-      type: object
-      properties:
-        locations_and_languages:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
-          nullable: true
-        task_get:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
-          nullable: true
-        task_post:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
-          nullable: true
     AppendixDataforseoTrendsKeywordsDataPriceData:
       type: object
       properties:
@@ -72082,7 +72257,7 @@ components:
         ad_traffic_by_keywords:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordsKeywordsDataPriceDataInfo'
+            - $ref: '#/components/schemas/AppendixKeywordsDataPriceDataInfo'
           nullable: true
         bing:
           type: object
@@ -72107,17 +72282,17 @@ components:
         keyword_performance:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordPerformanceKeywordsDataPriceData'
+            - $ref: '#/components/schemas/AppendixKeywordsDataPriceDataInfo'
           nullable: true
         keywords_for_keywords:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordsKeywordsDataPriceDataInfo'
+            - $ref: '#/components/schemas/AppendixKeywordsDataPriceDataInfo'
           nullable: true
         keywords_for_site:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordsKeywordsDataPriceDataInfo'
+            - $ref: '#/components/schemas/AppendixKeywordsDataPriceDataInfo'
           nullable: true
         languages:
           type: object
@@ -72129,15 +72304,20 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
           nullable: true
+        locations_and_languages:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
+          nullable: true
         search_volume_history:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordsKeywordsDataPriceDataInfo'
+            - $ref: '#/components/schemas/AppendixKeywordsDataPriceDataInfo'
           nullable: true
         search_volume:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordsKeywordsDataPriceDataInfo'
+            - $ref: '#/components/schemas/AppendixKeywordsDataPriceDataInfo'
           nullable: true
         dataforseo_trends:
           type: object
@@ -72311,17 +72491,17 @@ components:
     AppendixSerpPriceDataInfo:
       type: object
       properties:
-        advanced:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
-          nullable: true
         regular:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
           nullable: true
         html:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
+          nullable: true
+        advanced:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixTaskKeywordsDataPriceDataInfo'
@@ -72342,7 +72522,7 @@ components:
         jobs:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordsKeywordsDataPriceDataInfo'
+            - $ref: '#/components/schemas/AppendixKeywordsDataPriceDataInfo'
           nullable: true
         languages:
           type: object

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:82473
+main.ts:82575
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:82447
+main.ts:82549
 
 ***
 
@@ -80,7 +80,7 @@ default value: false
 
 #### Source
 
-main.ts:82412
+main.ts:82514
 
 ***
 
@@ -102,7 +102,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:82407
+main.ts:82509
 
 ***
 
@@ -121,7 +121,7 @@ default value: false
 
 #### Source
 
-main.ts:82394
+main.ts:82496
 
 ***
 
@@ -140,7 +140,7 @@ default value: true
 
 #### Source
 
-main.ts:82399
+main.ts:82501
 
 ***
 
@@ -163,7 +163,7 @@ en
 
 #### Source
 
-main.ts:82389
+main.ts:82491
 
 ***
 
@@ -186,7 +186,7 @@ English
 
 #### Source
 
-main.ts:82380
+main.ts:82482
 
 ***
 
@@ -205,7 +205,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:82417
+main.ts:82519
 
 ***
 
@@ -227,7 +227,7 @@ example:
 
 #### Source
 
-main.ts:82371
+main.ts:82473
 
 ***
 
@@ -249,7 +249,7 @@ United Kingdom
 
 #### Source
 
-main.ts:82363
+main.ts:82465
 
 ***
 
@@ -268,7 +268,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:82422
+main.ts:82524
 
 ***
 
@@ -290,7 +290,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:82430
+main.ts:82532
 
 ***
 
@@ -320,7 +320,7 @@ example:
 
 #### Source
 
-main.ts:82463
+main.ts:82565
 
 ***
 
@@ -340,7 +340,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:82469
+main.ts:82571
 
 ***
 
@@ -359,7 +359,7 @@ the domain should be specified without https:// or www.
 
 #### Source
 
-main.ts:82355
+main.ts:82457
 
 ## Methods
 
@@ -377,7 +377,7 @@ main.ts:82355
 
 #### Source
 
-main.ts:82482
+main.ts:82584
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:82482
 
 #### Source
 
-main.ts:82521
+main.ts:82623
 
 ***
 
@@ -413,4 +413,4 @@ main.ts:82521
 
 #### Source
 
-main.ts:82514
+main.ts:82616

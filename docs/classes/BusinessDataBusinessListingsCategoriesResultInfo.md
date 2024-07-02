@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:197366
+main.ts:197890
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of businesses in the category
 
 #### Source
 
-main.ts:197362
+main.ts:197886
 
 ***
 
@@ -62,7 +62,7 @@ full name of the category
 
 #### Source
 
-main.ts:197360
+main.ts:197884
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:197360
 
 #### Source
 
-main.ts:197375
+main.ts:197899
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:197375
 
 #### Source
 
-main.ts:197393
+main.ts:197917
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:197393
 
 #### Source
 
-main.ts:197386
+main.ts:197910

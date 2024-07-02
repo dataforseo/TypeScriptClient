@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:149315
+main.ts:149563
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: true
 
 #### Source
 
-main.ts:149305
+main.ts:149553
 
 ***
 
@@ -69,7 +69,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:149311
+main.ts:149559
 
 ***
 
@@ -90,7 +90,7 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 #### Source
 
-main.ts:149300
+main.ts:149548
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:149300
 
 #### Source
 
-main.ts:149324
+main.ts:149572
 
 ***
 
@@ -126,7 +126,7 @@ main.ts:149324
 
 #### Source
 
-main.ts:149347
+main.ts:149595
 
 ***
 
@@ -144,4 +144,4 @@ main.ts:149347
 
 #### Source
 
-main.ts:149340
+main.ts:149588

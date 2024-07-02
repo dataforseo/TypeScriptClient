@@ -20,11 +20,11 @@ ranking data relevant to the specified domain
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:100707
+main.ts:101063
 
 ***
 
@@ -36,7 +36,7 @@ month for which the data is provided
 
 #### Source
 
-main.ts:100705
+main.ts:101061
 
 ***
 
@@ -48,7 +48,7 @@ search engine type
 
 #### Source
 
-main.ts:100701
+main.ts:101057
 
 ***
 
@@ -60,4 +60,4 @@ year for which the data is provided
 
 #### Source
 
-main.ts:100703
+main.ts:101059

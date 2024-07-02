@@ -20,7 +20,7 @@ resulting text
 
 #### Source
 
-main.ts:169414
+main.ts:169662
 
 ***
 
@@ -32,7 +32,7 @@ number of input tokens
 
 #### Source
 
-main.ts:169408
+main.ts:169656
 
 ***
 
@@ -44,7 +44,7 @@ number of new tokens
 
 #### Source
 
-main.ts:169412
+main.ts:169660
 
 ***
 
@@ -56,7 +56,7 @@ number of output tokens
 
 #### Source
 
-main.ts:169410
+main.ts:169658
 
 ***
 
@@ -70,4 +70,4 @@ supplement_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:169418
+main.ts:169666

@@ -18,7 +18,7 @@
 
 #### Source
 
-main.ts:215433
+main.ts:215904
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:215433
 
 #### Source
 
-main.ts:215440
+main.ts:215911
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:215440
 
 #### Source
 
-main.ts:215438
+main.ts:215909
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:215438
 
 #### Source
 
-main.ts:215444
+main.ts:215916
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:215444
 
 #### Source
 
-main.ts:215439
+main.ts:215910
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:215439
 
 #### Source
 
-main.ts:215437
+main.ts:215908
 
 ***
 
@@ -78,17 +78,17 @@ main.ts:215437
 
 #### Source
 
-main.ts:215443
+main.ts:215915
 
 ***
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](../classes/AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
+> **`optional`** **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:215441
+main.ts:215912
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:215441
 
 #### Source
 
-main.ts:215430
+main.ts:215901
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:215430
 
 #### Source
 
-main.ts:215431
+main.ts:215902
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:215431
 
 #### Source
 
-main.ts:215434
+main.ts:215905
 
 ***
 
@@ -128,7 +128,17 @@ main.ts:215434
 
 #### Source
 
-main.ts:215435
+main.ts:215906
+
+***
+
+### locations\_and\_languages?
+
+> **`optional`** **locations\_and\_languages**: `number`
+
+#### Source
+
+main.ts:215913
 
 ***
 
@@ -138,7 +148,7 @@ main.ts:215435
 
 #### Source
 
-main.ts:215432
+main.ts:215903
 
 ***
 
@@ -148,7 +158,7 @@ main.ts:215432
 
 #### Source
 
-main.ts:215442
+main.ts:215914
 
 ***
 
@@ -158,4 +168,4 @@ main.ts:215442
 
 #### Source
 
-main.ts:215436
+main.ts:215907

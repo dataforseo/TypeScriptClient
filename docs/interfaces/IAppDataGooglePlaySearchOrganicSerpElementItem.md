@@ -24,7 +24,7 @@ id of the app
 
 #### Source
 
-main.ts:113277
+main.ts:113425
 
 ***
 
@@ -36,7 +36,7 @@ name of the app developer
 
 #### Source
 
-main.ts:113293
+main.ts:113441
 
 ***
 
@@ -48,7 +48,7 @@ URL to the developer page on Google Play
 
 #### Source
 
-main.ts:113295
+main.ts:113443
 
 ***
 
@@ -60,7 +60,7 @@ URL to the app icon
 
 #### Source
 
-main.ts:113283
+main.ts:113431
 
 ***
 
@@ -72,7 +72,7 @@ indicates whether the app is free
 
 #### Source
 
-main.ts:113289
+main.ts:113437
 
 ***
 
@@ -86,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:113275
+main.ts:113423
 
 ***
 
@@ -98,7 +98,7 @@ price of the app
 
 #### Source
 
-main.ts:113291
+main.ts:113439
 
 ***
 
@@ -111,7 +111,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:113271
+main.ts:113419
 
 ***
 
@@ -124,7 +124,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:113268
+main.ts:113416
 
 ***
 
@@ -136,7 +136,7 @@ average rating of the app
 
 #### Source
 
-main.ts:113287
+main.ts:113435
 
 ***
 
@@ -148,7 +148,7 @@ the total number of reviews of the app
 
 #### Source
 
-main.ts:113285
+main.ts:113433
 
 ***
 
@@ -160,7 +160,7 @@ title of the app
 
 #### Source
 
-main.ts:113279
+main.ts:113427
 
 ***
 
@@ -172,4 +172,4 @@ URL to the app page on Google Play
 
 #### Source
 
-main.ts:113281
+main.ts:113429

@@ -24,7 +24,7 @@ Amazon product items
 
 #### Source
 
-main.ts:180093
+main.ts:180523
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:180089
+main.ts:180519
 
 ***
 
@@ -51,7 +51,7 @@ absolute position among all the elements found in Amazon SERP
 
 #### Source
 
-main.ts:180085
+main.ts:180515
 
 ***
 
@@ -64,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:180082
+main.ts:180512
 
 ***
 
@@ -76,4 +76,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:180091
+main.ts:180521

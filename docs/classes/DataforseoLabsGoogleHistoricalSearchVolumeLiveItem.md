@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:86014
+main.ts:86120
 
 ## Properties
 
@@ -47,7 +47,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Source
 
-main.ts:85999
+main.ts:86105
 
 ***
 
@@ -67,7 +67,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:86007
+main.ts:86113
 
 ***
 
@@ -84,7 +84,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:85985
+main.ts:86091
 
 ***
 
@@ -100,7 +100,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:85996
+main.ts:86102
 
 ***
 
@@ -116,7 +116,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:86001
+main.ts:86107
 
 ***
 
@@ -132,7 +132,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:85990
+main.ts:86096
 
 ***
 
@@ -149,7 +149,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:85988
+main.ts:86094
 
 ***
 
@@ -165,7 +165,7 @@ search engine type
 
 #### Source
 
-main.ts:85982
+main.ts:86088
 
 ***
 
@@ -183,7 +183,7 @@ if false, the results are returned for Google search sites only
 
 #### Source
 
-main.ts:85994
+main.ts:86100
 
 ***
 
@@ -200,7 +200,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:86010
+main.ts:86116
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:86010
 
 #### Source
 
-main.ts:86023
+main.ts:86129
 
 ***
 
@@ -236,7 +236,7 @@ main.ts:86023
 
 #### Source
 
-main.ts:86049
+main.ts:86155
 
 ***
 
@@ -254,4 +254,4 @@ main.ts:86049
 
 #### Source
 
-main.ts:86042
+main.ts:86148

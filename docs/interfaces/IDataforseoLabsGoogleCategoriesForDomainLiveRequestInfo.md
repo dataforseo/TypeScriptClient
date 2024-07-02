@@ -34,7 +34,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:87460
+main.ts:87566
 
 ***
 
@@ -52,7 +52,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:87435
+main.ts:87541
 
 ***
 
@@ -68,7 +68,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:87427
+main.ts:87533
 
 ***
 
@@ -87,7 +87,7 @@ default value:
 
 #### Source
 
-main.ts:87444
+main.ts:87550
 
 ***
 
@@ -105,7 +105,7 @@ en
 
 #### Source
 
-main.ts:87421
+main.ts:87527
 
 ***
 
@@ -123,7 +123,7 @@ English
 
 #### Source
 
-main.ts:87413
+main.ts:87519
 
 ***
 
@@ -138,7 +138,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:87482
+main.ts:87588
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Source
 
-main.ts:87405
+main.ts:87511
 
 ***
 
@@ -174,7 +174,7 @@ United Kingdom
 
 #### Source
 
-main.ts:87397
+main.ts:87503
 
 ***
 
@@ -189,7 +189,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Source
 
-main.ts:87487
+main.ts:87593
 
 ***
 
@@ -216,7 +216,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Source
 
-main.ts:87477
+main.ts:87583
 
 ***
 
@@ -232,7 +232,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87493
+main.ts:87599
 
 ***
 
@@ -247,4 +247,4 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Source
 
-main.ts:87389
+main.ts:87495

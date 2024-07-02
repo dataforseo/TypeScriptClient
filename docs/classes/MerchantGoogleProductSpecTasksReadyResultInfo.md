@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:176747
+main.ts:176995
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:176737
+main.ts:176985
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Google Shopping Product Specifications Adv
 
 #### Source
 
-main.ts:176741
+main.ts:176989
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of the Google Shopping Product Specifications HTM
 
 #### Source
 
-main.ts:176743
+main.ts:176991
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:176730
+main.ts:176978
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:176732
+main.ts:176980
 
 ***
 
@@ -128,7 +128,7 @@ can take the following values: shopping_specifications
 
 #### Source
 
-main.ts:176735
+main.ts:176983
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:176739
+main.ts:176987
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:176739
 
 #### Source
 
-main.ts:176756
+main.ts:177004
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:176756
 
 #### Source
 
-main.ts:176779
+main.ts:177027
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:176779
 
 #### Source
 
-main.ts:176772
+main.ts:177020

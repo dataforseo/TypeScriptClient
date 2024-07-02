@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:76690
+main.ts:76792
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Source
 
-main.ts:76686
+main.ts:76788
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:76682
+main.ts:76784
 
 ***
 
@@ -78,7 +78,7 @@ offset in the results array of returned domains
 
 #### Source
 
-main.ts:76684
+main.ts:76786
 
 ***
 
@@ -94,7 +94,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:76680
+main.ts:76782
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:76680
 
 #### Source
 
-main.ts:76699
+main.ts:76801
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:76699
 
 #### Source
 
-main.ts:76723
+main.ts:76825
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:76723
 
 #### Source
 
-main.ts:76716
+main.ts:76818

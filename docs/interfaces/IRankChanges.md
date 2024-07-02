@@ -21,7 +21,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 #### Source
 
-main.ts:90589
+main.ts:90941
 
 ***
 
@@ -34,7 +34,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 #### Source
 
-main.ts:90583
+main.ts:90935
 
 ***
 
@@ -47,7 +47,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 #### Source
 
-main.ts:90586
+main.ts:90938
 
 ***
 
@@ -61,4 +61,4 @@ if this element is new, the value will be null
 
 #### Source
 
-main.ts:90580
+main.ts:90932

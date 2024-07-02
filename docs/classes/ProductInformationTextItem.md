@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:181420
+main.ts:181850
 
 ## Properties
 
@@ -68,7 +68,7 @@ name of the section related to product information specified in the contents
 
 #### Source
 
-main.ts:181414
+main.ts:181844
 
 ***
 
@@ -84,7 +84,7 @@ text specified under the given title within the section_name
 
 #### Source
 
-main.ts:181416
+main.ts:181846
 
 ## Methods
 
@@ -106,7 +106,7 @@ main.ts:181416
 
 #### Source
 
-main.ts:181425
+main.ts:181855
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:181425
 
 #### Source
 
-main.ts:181444
+main.ts:181874
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:181444
 
 #### Source
 
-main.ts:181437
+main.ts:181867

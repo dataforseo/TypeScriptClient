@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:91434
+main.ts:91790
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains ranked keywords and related data
 
 #### Source
 
-main.ts:91430
+main.ts:91786
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:91422
+main.ts:91778
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:91418
+main.ts:91774
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:91415
+main.ts:91771
 
 ***
 
@@ -109,7 +109,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -117,7 +117,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Source
 
-main.ts:91425
+main.ts:91781
 
 ***
 
@@ -130,7 +130,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -138,7 +138,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Source
 
-main.ts:91428
+main.ts:91784
 
 ***
 
@@ -154,7 +154,7 @@ search engine type
 
 #### Source
 
-main.ts:91410
+main.ts:91766
 
 ***
 
@@ -170,7 +170,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:91412
+main.ts:91768
 
 ***
 
@@ -186,7 +186,7 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:91420
+main.ts:91776
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:91420
 
 #### Source
 
-main.ts:91443
+main.ts:91799
 
 ***
 
@@ -222,7 +222,7 @@ main.ts:91443
 
 #### Source
 
-main.ts:91484
+main.ts:91840
 
 ***
 
@@ -240,4 +240,4 @@ main.ts:91484
 
 #### Source
 
-main.ts:91477
+main.ts:91833

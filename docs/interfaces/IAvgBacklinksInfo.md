@@ -20,7 +20,7 @@ average number of backlinks
 
 #### Source
 
-main.ts:83508
+main.ts:83614
 
 ***
 
@@ -32,7 +32,7 @@ average number of dofollow links
 
 #### Source
 
-main.ts:83510
+main.ts:83616
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Source
 
-main.ts:83527
+main.ts:83633
 
 ***
 
@@ -60,7 +60,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Source
 
-main.ts:83522
+main.ts:83628
 
 ***
 
@@ -73,7 +73,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Source
 
-main.ts:83519
+main.ts:83625
 
 ***
 
@@ -85,7 +85,7 @@ average number of referring domains
 
 #### Source
 
-main.ts:83514
+main.ts:83620
 
 ***
 
@@ -97,7 +97,7 @@ average number of referring main domains
 
 #### Source
 
-main.ts:83516
+main.ts:83622
 
 ***
 
@@ -109,7 +109,7 @@ average number of referring pages
 
 #### Source
 
-main.ts:83512
+main.ts:83618
 
 ***
 
@@ -121,4 +121,4 @@ search engine type
 
 #### Source
 
-main.ts:83506
+main.ts:83612

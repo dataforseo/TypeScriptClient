@@ -18,7 +18,7 @@
 
 #### Source
 
-main.ts:217284
+main.ts:217759
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:217284
 
 #### Source
 
-main.ts:217291
+main.ts:217766
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:217291
 
 #### Source
 
-main.ts:217289
+main.ts:217764
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:217289
 
 #### Source
 
-main.ts:217295
+main.ts:217771
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:217295
 
 #### Source
 
-main.ts:217290
+main.ts:217765
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:217290
 
 #### Source
 
-main.ts:217288
+main.ts:217763
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:217288
 
 #### Source
 
-main.ts:217297
+main.ts:217773
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:217297
 
 #### Source
 
-main.ts:217294
+main.ts:217770
 
 ***
 
@@ -98,17 +98,17 @@ main.ts:217294
 
 #### Source
 
-main.ts:217298
+main.ts:217774
 
 ***
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](../classes/AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
+> **`optional`** **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
 #### Source
 
-main.ts:217292
+main.ts:217767
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:217292
 
 #### Source
 
-main.ts:217281
+main.ts:217756
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:217281
 
 #### Source
 
-main.ts:217282
+main.ts:217757
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:217282
 
 #### Source
 
-main.ts:217285
+main.ts:217760
 
 ***
 
@@ -148,7 +148,17 @@ main.ts:217285
 
 #### Source
 
-main.ts:217286
+main.ts:217761
+
+***
+
+### locations\_and\_languages?
+
+> **`optional`** **locations\_and\_languages**: `number`
+
+#### Source
+
+main.ts:217768
 
 ***
 
@@ -158,7 +168,7 @@ main.ts:217286
 
 #### Source
 
-main.ts:217296
+main.ts:217772
 
 ***
 
@@ -168,7 +178,7 @@ main.ts:217296
 
 #### Source
 
-main.ts:217283
+main.ts:217758
 
 ***
 
@@ -178,7 +188,7 @@ main.ts:217283
 
 #### Source
 
-main.ts:217293
+main.ts:217769
 
 ***
 
@@ -188,4 +198,4 @@ main.ts:217293
 
 #### Source
 
-main.ts:217287
+main.ts:217762

@@ -20,7 +20,7 @@ parsed content of the footer
 
 #### Source
 
-main.ts:161072
+main.ts:161320
 
 ***
 
@@ -32,7 +32,7 @@ content of the header of the table
 
 #### Source
 
-main.ts:161070
+main.ts:161318
 
 ***
 
@@ -45,7 +45,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Source
 
-main.ts:161075
+main.ts:161323
 
 ***
 
@@ -58,4 +58,4 @@ you can find more information about topic priority calculation in this help cent
 
 #### Source
 
-main.ts:161078
+main.ts:161326

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:116712
+main.ts:116938
 
 ## Properties
 
@@ -50,13 +50,13 @@ ids of the apps in a POST array
 
 #### Source
 
-main.ts:116698
+main.ts:116924
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsleAppIntersectionLiveItem`](DataforseoLabsleAppIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)[]
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -66,7 +66,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Source
 
-main.ts:116708
+main.ts:116934
 
 ***
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:116706
+main.ts:116932
 
 ***
 
@@ -98,7 +98,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:116702
+main.ts:116928
 
 ***
 
@@ -114,7 +114,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:116700
+main.ts:116926
 
 ***
 
@@ -130,7 +130,7 @@ search engine type
 
 #### Source
 
-main.ts:116696
+main.ts:116922
 
 ***
 
@@ -146,7 +146,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:116704
+main.ts:116930
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:116704
 
 #### Source
 
-main.ts:116721
+main.ts:116947
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:116721
 
 #### Source
 
-main.ts:116754
+main.ts:116980
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:116754
 
 #### Source
 
-main.ts:116747
+main.ts:116973

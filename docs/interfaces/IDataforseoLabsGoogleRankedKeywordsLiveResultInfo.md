@@ -20,7 +20,7 @@ contains ranked keywords and related data
 
 #### Source
 
-main.ts:91541
+main.ts:91897
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:91533
+main.ts:91889
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:91529
+main.ts:91885
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:91526
+main.ts:91882
 
 ***
 
@@ -71,11 +71,11 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:91536
+main.ts:91892
 
 ***
 
@@ -88,11 +88,11 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:91539
+main.ts:91895
 
 ***
 
@@ -104,7 +104,7 @@ search engine type
 
 #### Source
 
-main.ts:91521
+main.ts:91877
 
 ***
 
@@ -116,7 +116,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:91523
+main.ts:91879
 
 ***
 
@@ -128,4 +128,4 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:91531
+main.ts:91887

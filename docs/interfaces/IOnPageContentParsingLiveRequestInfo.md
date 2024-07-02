@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:161613
+main.ts:161861
 
 ***
 
@@ -52,7 +52,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:161573
+main.ts:161821
 
 ***
 
@@ -70,7 +70,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:161589
+main.ts:161837
 
 ***
 
@@ -88,7 +88,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:161597
+main.ts:161845
 
 ***
 
@@ -106,7 +106,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:161581
+main.ts:161829
 
 ***
 
@@ -128,7 +128,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161554
+main.ts:161802
 
 ***
 
@@ -145,7 +145,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:161542
+main.ts:161790
 
 ***
 
@@ -161,7 +161,7 @@ false
 
 #### Source
 
-main.ts:161608
+main.ts:161856
 
 ***
 
@@ -180,7 +180,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161628
+main.ts:161876
 
 ***
 
@@ -196,7 +196,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161619
+main.ts:161867
 
 ***
 
@@ -213,7 +213,7 @@ if you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:161635
+main.ts:161883
 
 ***
 
@@ -229,7 +229,7 @@ possible values: us, de
 
 #### Source
 
-main.ts:161646
+main.ts:161894
 
 ***
 
@@ -244,7 +244,7 @@ default value: false
 
 #### Source
 
-main.ts:161602
+main.ts:161850
 
 ***
 
@@ -259,7 +259,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Source
 
-main.ts:161640
+main.ts:161888
 
 ***
 
@@ -275,4 +275,4 @@ https://www.fujielectric.com/
 
 #### Source
 
-main.ts:161535
+main.ts:161783

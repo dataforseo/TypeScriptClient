@@ -20,11 +20,11 @@ rankings and traffic metrics for the relevant page
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:94651
+main.ts:95007
 
 ***
 
@@ -36,7 +36,7 @@ absolute URL of the relevant page
 
 #### Source
 
-main.ts:94649
+main.ts:95005
 
 ***
 
@@ -48,4 +48,4 @@ search engine type
 
 #### Source
 
-main.ts:94647
+main.ts:95003

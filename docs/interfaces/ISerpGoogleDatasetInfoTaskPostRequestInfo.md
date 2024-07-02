@@ -24,7 +24,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Source
 
-main.ts:55685
+main.ts:55787
 
 ***
 
@@ -38,7 +38,7 @@ possible value: desktop
 
 #### Source
 
-main.ts:55709
+main.ts:55811
 
 ***
 
@@ -54,7 +54,7 @@ en
 
 #### Source
 
-main.ts:55705
+main.ts:55807
 
 ***
 
@@ -70,7 +70,7 @@ English
 
 #### Source
 
-main.ts:55699
+main.ts:55801
 
 ***
 
@@ -85,7 +85,7 @@ default value: windows
 
 #### Source
 
-main.ts:55714
+main.ts:55816
 
 ***
 
@@ -105,7 +105,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:55745
+main.ts:55847
 
 ***
 
@@ -120,7 +120,7 @@ possible value: advanced
 
 #### Source
 
-main.ts:55735
+main.ts:55837
 
 ***
 
@@ -140,7 +140,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:55730
+main.ts:55832
 
 ***
 
@@ -158,7 +158,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:55693
+main.ts:55795
 
 ***
 
@@ -174,4 +174,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:55720
+main.ts:55822

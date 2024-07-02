@@ -16,19 +16,6 @@
 
 ## Properties
 
-### asin?
-
-> **`optional`** **asin**: `string`
-
-ASIN of the product
-learn more about ASIN in this help center guide
-
-#### Source
-
-main.ts:104705
-
-***
-
 ### bought\_past\_month?
 
 > **`optional`** **bought\_past\_month**: `number`
@@ -37,7 +24,7 @@ number of product purchases in the past month
 
 #### Source
 
-main.ts:104736
+main.ts:180142
 
 ***
 
@@ -51,7 +38,7 @@ USD
 
 #### Source
 
-main.ts:104719
+main.ts:180154
 
 ***
 
@@ -66,7 +53,7 @@ B07G82D89J
 
 #### Source
 
-main.ts:104741
+main.ts:180162
 
 ***
 
@@ -79,7 +66,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:104734
+main.ts:180173
 
 ***
 
@@ -91,7 +78,7 @@ Amazon domain
 
 #### Source
 
-main.ts:104698
+main.ts:180134
 
 ***
 
@@ -103,7 +90,7 @@ URL of the product image featured in the results
 
 #### Source
 
-main.ts:104707
+main.ts:180140
 
 ***
 
@@ -116,7 +103,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:104728
+main.ts:180167
 
 ***
 
@@ -129,21 +116,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Source
 
-main.ts:104725
-
-***
-
-### position?
-
-> **`optional`** **position**: `string`
-
-the alignment of the element in Amazon SERP
-can take the following values:
-left, right
-
-#### Source
-
-main.ts:104694
+main.ts:180170
 
 ***
 
@@ -157,7 +130,7 @@ example:
 
 #### Source
 
-main.ts:104711
+main.ts:180146
 
 ***
 
@@ -171,7 +144,7 @@ example:
 
 #### Source
 
-main.ts:104715
+main.ts:180150
 
 ***
 
@@ -179,12 +152,12 @@ main.ts:104715
 
 > **`optional`** **rank\_absolute**: `number`
 
-absolute rank in Amazon SERP
-absolute position among all the elements in SERP
+absolute rank in SERP
+absolute position among all the elements found in Amazon SERP
 
 #### Source
 
-main.ts:104690
+main.ts:180130
 
 ***
 
@@ -197,32 +170,19 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:104687
+main.ts:180127
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> **`optional`** **rating**: [`RatingElement`](../classes/RatingElement.md)
 
-the item’s rating 
-the popularity rate based on reviews and displayed in SERP
-
-#### Source
-
-main.ts:104731
-
-***
-
-### se\_type?
-
-> **`optional`** **se\_type**: `string`
-
-search engine type
+product rating info
 
 #### Source
 
-main.ts:104684
+main.ts:180164
 
 ***
 
@@ -235,7 +195,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Source
 
-main.ts:104722
+main.ts:180157
 
 ***
 
@@ -247,7 +207,7 @@ product title
 
 #### Source
 
-main.ts:104700
+main.ts:180136
 
 ***
 
@@ -255,11 +215,11 @@ main.ts:104700
 
 > **`optional`** **url**: `string`
 
-URL of the product page
+the URL of the product page
 
 #### Source
 
-main.ts:104702
+main.ts:180138
 
 ***
 
@@ -271,4 +231,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:104696
+main.ts:180132

@@ -23,7 +23,7 @@ example:
 
 #### Source
 
-main.ts:138239
+main.ts:138471
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Source
 
-main.ts:138244
+main.ts:138476
 
 ***
 
@@ -52,7 +52,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Source
 
-main.ts:138250
+main.ts:138482
 
 ***
 
@@ -64,7 +64,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:138246
+main.ts:138478
 
 ***
 
@@ -76,4 +76,4 @@ target from the POST array
 
 #### Source
 
-main.ts:138234
+main.ts:138466

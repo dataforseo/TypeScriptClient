@@ -38,7 +38,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:109975
+main.ts:110123
 
 ***
 
@@ -57,7 +57,7 @@ default value: live
 
 #### Source
 
-main.ts:109955
+main.ts:110103
 
 ***
 
@@ -72,7 +72,7 @@ default value: false
 
 #### Source
 
-main.ts:109931
+main.ts:110079
 
 ***
 
@@ -91,7 +91,7 @@ default value:
 
 #### Source
 
-main.ts:109926
+main.ts:110074
 
 ***
 
@@ -110,7 +110,7 @@ en
 
 #### Source
 
-main.ts:109917
+main.ts:110065
 
 ***
 
@@ -129,7 +129,7 @@ English
 
 #### Source
 
-main.ts:109908
+main.ts:110056
 
 ***
 
@@ -144,7 +144,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:109936
+main.ts:110084
 
 ***
 
@@ -159,7 +159,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Source
 
-main.ts:109946
+main.ts:110094
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Source
 
-main.ts:109899
+main.ts:110047
 
 ***
 
@@ -199,7 +199,7 @@ United States
 
 #### Source
 
-main.ts:109889
+main.ts:110037
 
 ***
 
@@ -214,7 +214,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:109941
+main.ts:110089
 
 ***
 
@@ -240,7 +240,7 @@ example:
 
 #### Source
 
-main.ts:109991
+main.ts:110139
 
 ***
 
@@ -256,7 +256,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:109997
+main.ts:110145
 
 ***
 
@@ -276,4 +276,4 @@ example:
 
 #### Source
 
-main.ts:109879
+main.ts:110027

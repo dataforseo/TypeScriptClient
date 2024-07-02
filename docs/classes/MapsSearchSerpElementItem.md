@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:40618
+main.ts:40720
 
 ## Properties
 
@@ -69,7 +69,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:40587
+main.ts:40689
 
 ***
 
@@ -86,7 +86,7 @@ address of the local establishment featured in the element
 
 #### Source
 
-main.ts:40569
+main.ts:40671
 
 ***
 
@@ -102,7 +102,7 @@ object containing address components of the local establishment
 
 #### Source
 
-main.ts:40571
+main.ts:40673
 
 ***
 
@@ -119,7 +119,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:40584
+main.ts:40686
 
 ***
 
@@ -136,7 +136,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:40590
+main.ts:40692
 
 ***
 
@@ -154,7 +154,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:40599
+main.ts:40701
 
 ***
 
@@ -170,7 +170,7 @@ URL of the preferred contact page
 
 #### Source
 
-main.ts:40549
+main.ts:40651
 
 ***
 
@@ -186,7 +186,7 @@ domain in the SERP element
 
 #### Source
 
-main.ts:40543
+main.ts:40645
 
 ***
 
@@ -202,7 +202,7 @@ the unique identifier of the element in SERP
 
 #### Source
 
-main.ts:40595
+main.ts:40697
 
 ***
 
@@ -220,7 +220,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Source
 
-main.ts:40556
+main.ts:40658
 
 ***
 
@@ -236,7 +236,7 @@ indicates whether ownership of this local establishment is claimed
 
 #### Source
 
-main.ts:40609
+main.ts:40711
 
 ***
 
@@ -252,7 +252,7 @@ indicates whether this local establishment is a directory
 
 #### Source
 
-main.ts:40614
+main.ts:40716
 
 ***
 
@@ -270,7 +270,7 @@ example:
 
 #### Source
 
-main.ts:40603
+main.ts:40705
 
 ***
 
@@ -287,7 +287,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 #### Source
 
-main.ts:40612
+main.ts:40714
 
 ***
 
@@ -305,7 +305,7 @@ example:
 
 #### Source
 
-main.ts:40607
+main.ts:40709
 
 ***
 
@@ -321,7 +321,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:40579
+main.ts:40681
 
 ***
 
@@ -338,7 +338,7 @@ phone number of the local establishment featured in the element
 
 #### Source
 
-main.ts:40577
+main.ts:40679
 
 ***
 
@@ -355,7 +355,7 @@ place id of the local establishment featured in the element
 
 #### Source
 
-main.ts:40574
+main.ts:40676
 
 ***
 
@@ -373,7 +373,7 @@ if there is no price level information, the value will be null
 
 #### Source
 
-main.ts:40560
+main.ts:40662
 
 ***
 
@@ -390,7 +390,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:40541
+main.ts:40643
 
 ***
 
@@ -408,7 +408,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:40538
+main.ts:40640
 
 ***
 
@@ -425,7 +425,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:40552
+main.ts:40654
 
 ***
 
@@ -446,7 +446,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:40563
+main.ts:40665
 
 ***
 
@@ -463,7 +463,7 @@ contains the address and other information about the local establishment feature
 
 #### Source
 
-main.ts:40566
+main.ts:40668
 
 ***
 
@@ -479,7 +479,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:40545
+main.ts:40647
 
 ***
 
@@ -495,7 +495,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:40581
+main.ts:40683
 
 ***
 
@@ -511,7 +511,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:40547
+main.ts:40649
 
 ***
 
@@ -528,7 +528,7 @@ information about work hours of the local establishment
 
 #### Source
 
-main.ts:40593
+main.ts:40695
 
 ## Methods
 
@@ -550,7 +550,7 @@ main.ts:40593
 
 #### Source
 
-main.ts:40623
+main.ts:40725
 
 ***
 
@@ -572,7 +572,7 @@ main.ts:40623
 
 #### Source
 
-main.ts:40686
+main.ts:40788
 
 ***
 
@@ -594,4 +594,4 @@ main.ts:40686
 
 #### Source
 
-main.ts:40679
+main.ts:40781

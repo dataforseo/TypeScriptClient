@@ -20,7 +20,7 @@ canonical page
 
 #### Source
 
-main.ts:140642
+main.ts:140952
 
 ***
 
@@ -34,7 +34,7 @@ utf-8
 
 #### Source
 
-main.ts:140678
+main.ts:140988
 
 ***
 
@@ -46,7 +46,7 @@ number of external links on the page
 
 #### Source
 
-main.ts:140646
+main.ts:140956
 
 ***
 
@@ -59,7 +59,7 @@ content of h1 tags
 
 #### Source
 
-main.ts:140660
+main.ts:140970
 
 ***
 
@@ -72,7 +72,7 @@ content of h2 tags
 
 #### Source
 
-main.ts:140663
+main.ts:140973
 
 ***
 
@@ -85,7 +85,7 @@ content of h3 tags
 
 #### Source
 
-main.ts:140666
+main.ts:140976
 
 ***
 
@@ -97,7 +97,7 @@ content of alt tags
 
 #### Source
 
-main.ts:140668
+main.ts:140978
 
 ***
 
@@ -109,7 +109,7 @@ number of images on the page
 
 #### Source
 
-main.ts:140648
+main.ts:140958
 
 ***
 
@@ -121,7 +121,7 @@ number of internal links on the page
 
 #### Source
 
-main.ts:140644
+main.ts:140954
 
 ***
 
@@ -135,7 +135,7 @@ en
 
 #### Source
 
-main.ts:140674
+main.ts:140984
 
 ***
 
@@ -148,7 +148,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:140653
+main.ts:140963
 
 ***
 
@@ -160,7 +160,7 @@ type of a platform
 
 #### Source
 
-main.ts:140680
+main.ts:140990
 
 ***
 
@@ -172,7 +172,7 @@ CMS details
 
 #### Source
 
-main.ts:140670
+main.ts:140980
 
 ***
 
@@ -190,7 +190,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Source
 
-main.ts:140657
+main.ts:140967
 
 ***
 
@@ -206,7 +206,7 @@ website technologies
 
 #### Source
 
-main.ts:140682
+main.ts:140992
 
 ***
 
@@ -218,7 +218,7 @@ page title
 
 #### Source
 
-main.ts:140640
+main.ts:140950
 
 ***
 
@@ -230,4 +230,4 @@ number of words on the page
 
 #### Source
 
-main.ts:140650
+main.ts:140960

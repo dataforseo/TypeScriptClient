@@ -20,7 +20,7 @@ number of serious microdata errors
 
 #### Source
 
-main.ts:159084
+main.ts:159332
 
 ***
 
@@ -32,7 +32,7 @@ number of fatal microdata errors
 
 #### Source
 
-main.ts:159082
+main.ts:159330
 
 ***
 
@@ -44,7 +44,7 @@ number of microdata information flags
 
 #### Source
 
-main.ts:159088
+main.ts:159336
 
 ***
 
@@ -56,4 +56,4 @@ number of microdata warnings
 
 #### Source
 
-main.ts:159086
+main.ts:159334

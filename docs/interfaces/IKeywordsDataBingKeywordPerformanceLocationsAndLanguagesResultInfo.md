@@ -21,7 +21,7 @@ contains locations supported in combination with a specific language
 
 #### Source
 
-main.ts:134270
+main.ts:134502
 
 ***
 
@@ -33,7 +33,7 @@ language code
 
 #### Source
 
-main.ts:134267
+main.ts:134499
 
 ***
 
@@ -45,4 +45,4 @@ language name
 
 #### Source
 
-main.ts:134265
+main.ts:134497

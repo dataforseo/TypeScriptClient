@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:103985
+main.ts:104341
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Source
 
-main.ts:103903
+main.ts:104259
 
 ***
 
@@ -74,7 +74,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:103954
+main.ts:104310
 
 ***
 
@@ -93,7 +93,7 @@ default value: false
 
 #### Source
 
-main.ts:103943
+main.ts:104299
 
 ***
 
@@ -114,7 +114,7 @@ en
 
 #### Source
 
-main.ts:103933
+main.ts:104289
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Source
 
-main.ts:103926
+main.ts:104282
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:103938
+main.ts:104294
 
 ***
 
@@ -176,7 +176,7 @@ example:
 
 #### Source
 
-main.ts:103919
+main.ts:104275
 
 ***
 
@@ -198,7 +198,7 @@ United States
 
 #### Source
 
-main.ts:103911
+main.ts:104267
 
 ***
 
@@ -217,7 +217,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:103975
+main.ts:104331
 
 ***
 
@@ -247,7 +247,7 @@ example:
 
 #### Source
 
-main.ts:103970
+main.ts:104326
 
 ***
 
@@ -267,7 +267,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:103981
+main.ts:104337
 
 ## Methods
 
@@ -285,7 +285,7 @@ main.ts:103981
 
 #### Source
 
-main.ts:103994
+main.ts:104350
 
 ***
 
@@ -303,7 +303,7 @@ main.ts:103994
 
 #### Source
 
-main.ts:104029
+main.ts:104385
 
 ***
 
@@ -321,4 +321,4 @@ main.ts:104029
 
 #### Source
 
-main.ts:104022
+main.ts:104378

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:40972
+main.ts:41074
 
 ## Properties
 
@@ -48,7 +48,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 #### Source
 
-main.ts:40949
+main.ts:41051
 
 ***
 
@@ -67,7 +67,7 @@ example:
 
 #### Source
 
-main.ts:40954
+main.ts:41056
 
 ***
 
@@ -86,7 +86,7 @@ maps_search, maps_paid_item
 
 #### Source
 
-main.ts:40962
+main.ts:41064
 
 ***
 
@@ -102,7 +102,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:40968
+main.ts:41070
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:40966
+main.ts:41068
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:40937
+main.ts:41039
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:40945
+main.ts:41047
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:40943
+main.ts:41045
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:40941
+main.ts:41043
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:40964
+main.ts:41066
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:40957
+main.ts:41059
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Source
 
-main.ts:40939
+main.ts:41041
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:40939
 
 #### Source
 
-main.ts:40981
+main.ts:41083
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:40981
 
 #### Source
 
-main.ts:41017
+main.ts:41119
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:41017
 
 #### Source
 
-main.ts:41010
+main.ts:41112

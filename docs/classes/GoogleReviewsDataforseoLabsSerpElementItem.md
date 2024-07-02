@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:98408
+main.ts:98764
 
 ## Properties
 
@@ -70,7 +70,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:98404
+main.ts:98760
 
 ***
 
@@ -86,7 +86,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:98400
+main.ts:98756
 
 ***
 
@@ -102,7 +102,7 @@ the identifier of a place
 
 #### Source
 
-main.ts:98398
+main.ts:98754
 
 ***
 
@@ -120,7 +120,7 @@ left, right
 
 #### Source
 
-main.ts:98389
+main.ts:98745
 
 ***
 
@@ -137,7 +137,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98385
+main.ts:98741
 
 ***
 
@@ -154,7 +154,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98382
+main.ts:98738
 
 ***
 
@@ -171,7 +171,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:98396
+main.ts:98752
 
 ***
 
@@ -187,7 +187,7 @@ the number of reviews
 
 #### Source
 
-main.ts:98393
+main.ts:98749
 
 ***
 
@@ -203,7 +203,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:98391
+main.ts:98747
 
 ## Methods
 
@@ -225,7 +225,7 @@ main.ts:98391
 
 #### Source
 
-main.ts:98413
+main.ts:98769
 
 ***
 
@@ -247,7 +247,7 @@ main.ts:98413
 
 #### Source
 
-main.ts:98439
+main.ts:98795
 
 ***
 
@@ -269,4 +269,4 @@ main.ts:98439
 
 #### Source
 
-main.ts:98432
+main.ts:98788

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:161464
+main.ts:161712
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:161427
+main.ts:161675
 
 ***
 
@@ -82,7 +82,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:161387
+main.ts:161635
 
 ***
 
@@ -104,7 +104,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:161403
+main.ts:161651
 
 ***
 
@@ -126,7 +126,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:161411
+main.ts:161659
 
 ***
 
@@ -148,7 +148,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:161395
+main.ts:161643
 
 ***
 
@@ -174,7 +174,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161368
+main.ts:161616
 
 ***
 
@@ -195,7 +195,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:161356
+main.ts:161604
 
 ***
 
@@ -215,7 +215,7 @@ false
 
 #### Source
 
-main.ts:161422
+main.ts:161670
 
 ***
 
@@ -238,7 +238,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161442
+main.ts:161690
 
 ***
 
@@ -258,7 +258,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:161433
+main.ts:161681
 
 ***
 
@@ -279,7 +279,7 @@ if you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:161449
+main.ts:161697
 
 ***
 
@@ -299,7 +299,7 @@ possible values: us, de
 
 #### Source
 
-main.ts:161460
+main.ts:161708
 
 ***
 
@@ -318,7 +318,7 @@ default value: false
 
 #### Source
 
-main.ts:161416
+main.ts:161664
 
 ***
 
@@ -337,7 +337,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Source
 
-main.ts:161454
+main.ts:161702
 
 ***
 
@@ -357,7 +357,7 @@ https://www.fujielectric.com/
 
 #### Source
 
-main.ts:161349
+main.ts:161597
 
 ## Methods
 
@@ -375,7 +375,7 @@ main.ts:161349
 
 #### Source
 
-main.ts:161473
+main.ts:161721
 
 ***
 
@@ -393,7 +393,7 @@ main.ts:161473
 
 #### Source
 
-main.ts:161504
+main.ts:161752
 
 ***
 
@@ -411,4 +411,4 @@ main.ts:161504
 
 #### Source
 
-main.ts:161497
+main.ts:161745

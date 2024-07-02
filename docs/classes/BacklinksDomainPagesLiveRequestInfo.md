@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:140279
+main.ts:140589
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:140264
+main.ts:140574
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Source
 
-main.ts:140225
+main.ts:140535
 
 ***
 
@@ -106,7 +106,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:140242
+main.ts:140552
 
 ***
 
@@ -125,7 +125,7 @@ default value: true
 
 #### Source
 
-main.ts:140269
+main.ts:140579
 
 ***
 
@@ -150,7 +150,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140216
+main.ts:140526
 
 ***
 
@@ -169,7 +169,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140200
+main.ts:140510
 
 ***
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:140205
+main.ts:140515
 
 ***
 
@@ -216,7 +216,7 @@ example:
 
 #### Source
 
-main.ts:140256
+main.ts:140566
 
 ***
 
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:140275
+main.ts:140585
 
 ***
 
@@ -256,7 +256,7 @@ forbes.com
 
 #### Source
 
-main.ts:140195
+main.ts:140505
 
 ## Methods
 
@@ -274,7 +274,7 @@ main.ts:140195
 
 #### Source
 
-main.ts:140288
+main.ts:140598
 
 ***
 
@@ -292,7 +292,7 @@ main.ts:140288
 
 #### Source
 
-main.ts:140326
+main.ts:140636
 
 ***
 
@@ -310,4 +310,4 @@ main.ts:140326
 
 #### Source
 
-main.ts:140319
+main.ts:140629

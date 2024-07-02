@@ -24,19 +24,19 @@ ids of the apps in a POST array
 
 #### Source
 
-main.ts:114731
+main.ts:114879
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsleAppIntersectionLiveItem`](../classes/DataforseoLabsleAppIntersectionLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsGoogleAppIntersectionLiveItem`](../classes/DataforseoLabsGoogleAppIntersectionLiveItem.md)[]
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
 #### Source
 
-main.ts:114741
+main.ts:114889
 
 ***
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:114739
+main.ts:114887
 
 ***
 
@@ -60,7 +60,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:114735
+main.ts:114883
 
 ***
 
@@ -72,7 +72,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:114733
+main.ts:114881
 
 ***
 
@@ -84,7 +84,7 @@ search engine type
 
 #### Source
 
-main.ts:114729
+main.ts:114877
 
 ***
 
@@ -96,4 +96,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:114737
+main.ts:114885

@@ -20,11 +20,11 @@ ranking data relevant to subdomain
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:94051
+main.ts:94407
 
 ***
 
@@ -36,7 +36,7 @@ search engine type
 
 #### Source
 
-main.ts:94047
+main.ts:94403
 
 ***
 
@@ -48,4 +48,4 @@ returned subdomain
 
 #### Source
 
-main.ts:94049
+main.ts:94405

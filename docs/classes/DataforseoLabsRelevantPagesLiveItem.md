@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:94592
+main.ts:94948
 
 ## Properties
 
@@ -42,7 +42,7 @@ rankings and traffic metrics for the relevant page
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -50,7 +50,7 @@ rankings and traffic metrics for the relevant page
 
 #### Source
 
-main.ts:94588
+main.ts:94944
 
 ***
 
@@ -66,7 +66,7 @@ absolute URL of the relevant page
 
 #### Source
 
-main.ts:94586
+main.ts:94942
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Source
 
-main.ts:94584
+main.ts:94940
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:94584
 
 #### Source
 
-main.ts:94601
+main.ts:94957
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:94601
 
 #### Source
 
-main.ts:94626
+main.ts:94982
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:94626
 
 #### Source
 
-main.ts:94619
+main.ts:94975

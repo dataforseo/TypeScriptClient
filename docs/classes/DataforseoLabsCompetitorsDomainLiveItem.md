@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92719
+main.ts:93075
 
 ## Properties
 
@@ -48,7 +48,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Source
 
-main.ts:92698
+main.ts:93054
 
 ***
 
@@ -62,7 +62,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -70,7 +70,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Source
 
-main.ts:92715
+main.ts:93071
 
 ***
 
@@ -86,7 +86,7 @@ domain name
 
 #### Source
 
-main.ts:92694
+main.ts:93050
 
 ***
 
@@ -99,7 +99,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -107,7 +107,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Source
 
-main.ts:92707
+main.ts:93063
 
 ***
 
@@ -123,7 +123,7 @@ number of intersecting keywords
 
 #### Source
 
-main.ts:92704
+main.ts:93060
 
 ***
 
@@ -137,7 +137,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -145,7 +145,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Source
 
-main.ts:92711
+main.ts:93067
 
 ***
 
@@ -161,7 +161,7 @@ search engine type
 
 #### Source
 
-main.ts:92692
+main.ts:93048
 
 ***
 
@@ -179,7 +179,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Source
 
-main.ts:92702
+main.ts:93058
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:92702
 
 #### Source
 
-main.ts:92728
+main.ts:93084
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:92728
 
 #### Source
 
-main.ts:92770
+main.ts:93126
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:92770
 
 #### Source
 
-main.ts:92763
+main.ts:93119

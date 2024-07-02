@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:108036
+main.ts:108184
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:108010
+main.ts:108158
 
 ***
 
@@ -80,7 +80,7 @@ default value: false
 
 #### Source
 
-main.ts:107983
+main.ts:108131
 
 ***
 
@@ -102,7 +102,7 @@ default value: true
 
 #### Source
 
-main.ts:107970
+main.ts:108118
 
 ***
 
@@ -124,7 +124,7 @@ default value:
 
 #### Source
 
-main.ts:107978
+main.ts:108126
 
 ***
 
@@ -146,7 +146,7 @@ en
 
 #### Source
 
-main.ts:107962
+main.ts:108110
 
 ***
 
@@ -168,7 +168,7 @@ English
 
 #### Source
 
-main.ts:107954
+main.ts:108102
 
 ***
 
@@ -187,7 +187,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:107988
+main.ts:108136
 
 ***
 
@@ -210,7 +210,7 @@ example:
 
 #### Source
 
-main.ts:107946
+main.ts:108094
 
 ***
 
@@ -233,7 +233,7 @@ United States
 
 #### Source
 
-main.ts:107937
+main.ts:108085
 
 ***
 
@@ -252,7 +252,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:107993
+main.ts:108141
 
 ***
 
@@ -282,7 +282,7 @@ example:
 
 #### Source
 
-main.ts:108026
+main.ts:108174
 
 ***
 
@@ -302,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:108032
+main.ts:108180
 
 ***
 
@@ -321,7 +321,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:107923
+main.ts:108071
 
 ***
 
@@ -340,7 +340,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:107928
+main.ts:108076
 
 ## Methods
 
@@ -358,7 +358,7 @@ main.ts:107928
 
 #### Source
 
-main.ts:108045
+main.ts:108193
 
 ***
 
@@ -376,7 +376,7 @@ main.ts:108045
 
 #### Source
 
-main.ts:108087
+main.ts:108235
 
 ***
 
@@ -394,4 +394,4 @@ main.ts:108087
 
 #### Source
 
-main.ts:108080
+main.ts:108228

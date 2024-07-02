@@ -27,7 +27,7 @@ default value: live
 
 #### Source
 
-main.ts:145332
+main.ts:145642
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Source
 
-main.ts:145323
+main.ts:145633
 
 ***
 
@@ -74,7 +74,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:145349
+main.ts:145659
 
 ***
 
@@ -90,7 +90,7 @@ default value: true
 
 #### Source
 
-main.ts:145392
+main.ts:145702
 
 ***
 
@@ -105,7 +105,7 @@ default value: true
 
 #### Source
 
-main.ts:145386
+main.ts:145696
 
 ***
 
@@ -123,7 +123,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:145381
+main.ts:145691
 
 ***
 
@@ -141,7 +141,7 @@ default value: all
 
 #### Source
 
-main.ts:145400
+main.ts:145710
 
 ***
 
@@ -156,7 +156,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:145373
+main.ts:145683
 
 ***
 
@@ -171,7 +171,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Source
 
-main.ts:145368
+main.ts:145678
 
 ***
 
@@ -195,7 +195,7 @@ example:
 
 #### Source
 
-main.ts:145363
+main.ts:145673
 
 ***
 
@@ -211,7 +211,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:145406
+main.ts:145716
 
 ***
 
@@ -236,4 +236,4 @@ example:
 
 #### Source
 
-main.ts:145313
+main.ts:145623

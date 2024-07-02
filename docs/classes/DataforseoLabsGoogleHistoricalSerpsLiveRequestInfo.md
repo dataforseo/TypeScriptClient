@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:95394
+main.ts:95750
 
 ## Properties
 
@@ -50,7 +50,7 @@ date format: "yyyy-mm-dd"
 
 #### Source
 
-main.ts:95347
+main.ts:95703
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Source
 
-main.ts:95354
+main.ts:95710
 
 ***
 
@@ -92,7 +92,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:95341
+main.ts:95697
 
 ***
 
@@ -114,7 +114,7 @@ en
 
 #### Source
 
-main.ts:95384
+main.ts:95740
 
 ***
 
@@ -136,7 +136,7 @@ English
 
 #### Source
 
-main.ts:95376
+main.ts:95732
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Source
 
-main.ts:95368
+main.ts:95724
 
 ***
 
@@ -178,7 +178,7 @@ United Kingdom
 
 #### Source
 
-main.ts:95361
+main.ts:95717
 
 ***
 
@@ -198,7 +198,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:95390
+main.ts:95746
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:95390
 
 #### Source
 
-main.ts:95403
+main.ts:95759
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:95403
 
 #### Source
 
-main.ts:95427
+main.ts:95783
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:95427
 
 #### Source
 
-main.ts:95420
+main.ts:95776

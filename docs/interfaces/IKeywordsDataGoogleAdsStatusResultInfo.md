@@ -23,7 +23,7 @@ if the value is false, we are not able to provide data for the previous month
 
 #### Source
 
-main.ts:117666
+main.ts:117892
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Source
 
-main.ts:117671
+main.ts:117897
 
 ***
 
@@ -50,7 +50,7 @@ the latest month for which search volume data is available
 
 #### Source
 
-main.ts:117675
+main.ts:117901
 
 ***
 
@@ -62,4 +62,4 @@ the latest year for which search volume data is available
 
 #### Source
 
-main.ts:117673
+main.ts:117899

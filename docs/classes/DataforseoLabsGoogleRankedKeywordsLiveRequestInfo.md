@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:90288
+main.ts:90640
 
 ## Properties
 
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:90262
+main.ts:90614
 
 ***
 
@@ -87,7 +87,7 @@ default value: live
 
 #### Source
 
-main.ts:90242
+main.ts:90594
 
 ***
 
@@ -106,7 +106,7 @@ default value: false
 
 #### Source
 
-main.ts:90201
+main.ts:90553
 
 ***
 
@@ -128,7 +128,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:90218
+main.ts:90570
 
 ***
 
@@ -151,7 +151,7 @@ default value:
 
 #### Source
 
-main.ts:90210
+main.ts:90562
 
 ***
 
@@ -174,7 +174,7 @@ en
 
 #### Source
 
-main.ts:90196
+main.ts:90548
 
 ***
 
@@ -197,7 +197,7 @@ English
 
 #### Source
 
-main.ts:90187
+main.ts:90539
 
 ***
 
@@ -216,7 +216,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:90223
+main.ts:90575
 
 ***
 
@@ -235,7 +235,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Source
 
-main.ts:90233
+main.ts:90585
 
 ***
 
@@ -258,7 +258,7 @@ example:
 
 #### Source
 
-main.ts:90178
+main.ts:90530
 
 ***
 
@@ -281,7 +281,7 @@ United Kingdom
 
 #### Source
 
-main.ts:90169
+main.ts:90521
 
 ***
 
@@ -300,7 +300,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:90228
+main.ts:90580
 
 ***
 
@@ -330,7 +330,7 @@ example:
 
 #### Source
 
-main.ts:90278
+main.ts:90630
 
 ***
 
@@ -350,7 +350,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:90284
+main.ts:90636
 
 ***
 
@@ -374,7 +374,7 @@ example:
 
 #### Source
 
-main.ts:90160
+main.ts:90512
 
 ## Methods
 
@@ -392,7 +392,7 @@ main.ts:90160
 
 #### Source
 
-main.ts:90297
+main.ts:90649
 
 ***
 
@@ -410,7 +410,7 @@ main.ts:90297
 
 #### Source
 
-main.ts:90340
+main.ts:90692
 
 ***
 
@@ -428,4 +428,4 @@ main.ts:90340
 
 #### Source
 
-main.ts:90333
+main.ts:90685

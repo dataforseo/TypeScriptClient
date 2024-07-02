@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:192139
+main.ts:192569
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Source
 
-main.ts:192126
+main.ts:192556
 
 ***
 
@@ -44,7 +44,7 @@ full name of the location
 
 #### Source
 
-main.ts:192128
+main.ts:192558
 
 ***
 
@@ -63,7 +63,7 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 #### Source
 
-main.ts:192137
+main.ts:192567
 
 ***
 
@@ -75,4 +75,4 @@ location type
 
 #### Source
 
-main.ts:192141
+main.ts:192571

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:188145
+main.ts:188575
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:188129
+main.ts:188559
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:188134
+main.ts:188564
 
 ***
 
@@ -82,7 +82,7 @@ found apps
 
 #### Source
 
-main.ts:188141
+main.ts:188571
 
 ***
 
@@ -99,7 +99,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:188139
+main.ts:188569
 
 ***
 
@@ -115,7 +115,7 @@ app collection received in a POST array
 
 #### Source
 
-main.ts:188120
+main.ts:188550
 
 ***
 
@@ -131,7 +131,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:188126
+main.ts:188556
 
 ***
 
@@ -147,7 +147,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:188124
+main.ts:188554
 
 ***
 
@@ -163,7 +163,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:188122
+main.ts:188552
 
 ***
 
@@ -179,7 +179,7 @@ the total number of results
 
 #### Source
 
-main.ts:188136
+main.ts:188566
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:188136
 
 #### Source
 
-main.ts:188154
+main.ts:188584
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:188154
 
 #### Source
 
-main.ts:188183
+main.ts:188613
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:188183
 
 #### Source
 
-main.ts:188176
+main.ts:188606

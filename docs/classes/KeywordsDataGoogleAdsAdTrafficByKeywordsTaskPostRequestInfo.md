@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:122581
+main.ts:122807
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more in this help center article
 
 #### Source
 
-main.ts:122475
+main.ts:122701
 
 ***
 
@@ -74,7 +74,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Source
 
-main.ts:122531
+main.ts:122757
 
 ***
 
@@ -94,7 +94,7 @@ default value: next_month
 
 #### Source
 
-main.ts:122546
+main.ts:122772
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Source
 
-main.ts:122540
+main.ts:122766
 
 ***
 
@@ -143,7 +143,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Source
 
-main.ts:122469
+main.ts:122695
 
 ***
 
@@ -163,7 +163,7 @@ en
 
 #### Source
 
-main.ts:122521
+main.ts:122747
 
 ***
 
@@ -183,7 +183,7 @@ English
 
 #### Source
 
-main.ts:122515
+main.ts:122741
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Source
 
-main.ts:122500
+main.ts:122726
 
 ***
 
@@ -228,7 +228,7 @@ example:
 
 #### Source
 
-main.ts:122509
+main.ts:122735
 
 ***
 
@@ -250,7 +250,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:122492
+main.ts:122718
 
 ***
 
@@ -268,7 +268,7 @@ can take the following values: exact, broad, phrase
 
 #### Source
 
-main.ts:122479
+main.ts:122705
 
 ***
 
@@ -292,7 +292,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:122571
+main.ts:122797
 
 ***
 
@@ -316,7 +316,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:122561
+main.ts:122787
 
 ***
 
@@ -335,7 +335,7 @@ default value: false – results are returned for Google search sites
 
 #### Source
 
-main.ts:122484
+main.ts:122710
 
 ***
 
@@ -354,7 +354,7 @@ default value: relevance
 
 #### Source
 
-main.ts:122551
+main.ts:122777
 
 ***
 
@@ -374,7 +374,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:122577
+main.ts:122803
 
 ## Methods
 
@@ -392,7 +392,7 @@ main.ts:122577
 
 #### Source
 
-main.ts:122590
+main.ts:122816
 
 ***
 
@@ -410,7 +410,7 @@ main.ts:122590
 
 #### Source
 
-main.ts:122626
+main.ts:122852
 
 ***
 
@@ -428,4 +428,4 @@ main.ts:122626
 
 #### Source
 
-main.ts:122619
+main.ts:122845

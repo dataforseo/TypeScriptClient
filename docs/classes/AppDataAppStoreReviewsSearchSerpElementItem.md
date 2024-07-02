@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:195585
+main.ts:196015
 
 ## Properties
 
@@ -68,7 +68,7 @@ id of the review
 
 #### Source
 
-main.ts:195575
+main.ts:196005
 
 ***
 
@@ -85,7 +85,7 @@ can take the following values: left
 
 #### Source
 
-main.ts:195563
+main.ts:195993
 
 ***
 
@@ -102,7 +102,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:195560
+main.ts:195990
 
 ***
 
@@ -119,7 +119,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:195557
+main.ts:195987
 
 ***
 
@@ -135,7 +135,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:195568
+main.ts:195998
 
 ***
 
@@ -151,7 +151,7 @@ content of the review
 
 #### Source
 
-main.ts:195579
+main.ts:196009
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Source
 
-main.ts:195573
+main.ts:196003
 
 ***
 
@@ -186,7 +186,7 @@ title of the review
 
 #### Source
 
-main.ts:195577
+main.ts:196007
 
 ***
 
@@ -202,7 +202,7 @@ user profile of the reviewer
 
 #### Source
 
-main.ts:195581
+main.ts:196011
 
 ***
 
@@ -219,7 +219,7 @@ version of the app for which the review is submitted
 
 #### Source
 
-main.ts:195566
+main.ts:195996
 
 ## Methods
 
@@ -241,7 +241,7 @@ main.ts:195566
 
 #### Source
 
-main.ts:195590
+main.ts:196020
 
 ***
 
@@ -263,7 +263,7 @@ main.ts:195590
 
 #### Source
 
-main.ts:195617
+main.ts:196047
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:195617
 
 #### Source
 
-main.ts:195610
+main.ts:196040

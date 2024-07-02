@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:42201
+main.ts:42303
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:42186
+main.ts:42288
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Source
 
-main.ts:42194
+main.ts:42296
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Source
 
-main.ts:42197
+main.ts:42299
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Source
 
-main.ts:42191
+main.ts:42293
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:42179
+main.ts:42281
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:42181
+main.ts:42283
 
 ***
 
@@ -147,7 +147,7 @@ example: local_finder
 
 #### Source
 
-main.ts:42184
+main.ts:42286
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:42188
+main.ts:42290
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:42188
 
 #### Source
 
-main.ts:42210
+main.ts:42312
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:42210
 
 #### Source
 
-main.ts:42234
+main.ts:42336
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:42234
 
 #### Source
 
-main.ts:42227
+main.ts:42329

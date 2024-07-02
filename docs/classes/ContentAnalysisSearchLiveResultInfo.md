@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:165823
+main.ts:166071
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains citations and related data
 
 #### Source
 
-main.ts:165819
+main.ts:166067
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:165817
+main.ts:166065
 
 ***
 
@@ -80,7 +80,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:165813
+main.ts:166061
 
 ***
 
@@ -96,7 +96,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:165815
+main.ts:166063
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:165815
 
 #### Source
 
-main.ts:165832
+main.ts:166080
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:165832
 
 #### Source
 
-main.ts:165856
+main.ts:166104
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:165856
 
 #### Source
 
-main.ts:165849
+main.ts:166097

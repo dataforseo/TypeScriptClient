@@ -24,7 +24,7 @@ product brand name
 
 #### Source
 
-main.ts:181905
+main.ts:182335
 
 ***
 
@@ -36,7 +36,7 @@ contains related product categories
 
 #### Source
 
-main.ts:181934
+main.ts:182364
 
 ***
 
@@ -50,7 +50,7 @@ USD
 
 #### Source
 
-main.ts:181923
+main.ts:182353
 
 ***
 
@@ -62,7 +62,7 @@ ASIN of the product received in a POST array
 
 #### Source
 
-main.ts:181907
+main.ts:182337
 
 ***
 
@@ -74,7 +74,7 @@ contains description of the product
 
 #### Source
 
-main.ts:181942
+main.ts:182372
 
 ***
 
@@ -86,7 +86,7 @@ product specs and other details
 
 #### Source
 
-main.ts:181901
+main.ts:182331
 
 ***
 
@@ -98,7 +98,7 @@ the URL of the product image
 
 #### Source
 
-main.ts:181903
+main.ts:182333
 
 ***
 
@@ -111,7 +111,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Source
 
-main.ts:181926
+main.ts:182356
 
 ***
 
@@ -124,7 +124,7 @@ if the value is true, the product can be ordered
 
 #### Source
 
-main.ts:181945
+main.ts:182375
 
 ***
 
@@ -136,7 +136,7 @@ indicates whether the newer model of the product is available
 
 #### Source
 
-main.ts:181930
+main.ts:182360
 
 ***
 
@@ -148,7 +148,7 @@ information about the newer model of the product
 
 #### Source
 
-main.ts:181932
+main.ts:182362
 
 ***
 
@@ -160,7 +160,7 @@ parent ASIN of the product
 
 #### Source
 
-main.ts:181909
+main.ts:182339
 
 ***
 
@@ -174,7 +174,7 @@ left, right
 
 #### Source
 
-main.ts:181895
+main.ts:182325
 
 ***
 
@@ -188,7 +188,7 @@ example:
 
 #### Source
 
-main.ts:181915
+main.ts:182345
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Source
 
-main.ts:181919
+main.ts:182349
 
 ***
 
@@ -214,7 +214,7 @@ ASINs of all found product modifications
 
 #### Source
 
-main.ts:181911
+main.ts:182341
 
 ***
 
@@ -226,7 +226,7 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 #### Source
 
-main.ts:181938
+main.ts:182368
 
 ***
 
@@ -238,7 +238,7 @@ contains related product information
 
 #### Source
 
-main.ts:181936
+main.ts:182366
 
 ***
 
@@ -250,7 +250,7 @@ contains URLs for all videos of the product displayed on the right side of the m
 
 #### Source
 
-main.ts:181940
+main.ts:182370
 
 ***
 
@@ -263,7 +263,7 @@ absolute position among all the elements in the response array
 
 #### Source
 
-main.ts:181891
+main.ts:182321
 
 ***
 
@@ -276,7 +276,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:181888
+main.ts:182318
 
 ***
 
@@ -288,7 +288,7 @@ product rating info
 
 #### Source
 
-main.ts:181928
+main.ts:182358
 
 ***
 
@@ -300,7 +300,7 @@ product title
 
 #### Source
 
-main.ts:181899
+main.ts:182329
 
 ***
 
@@ -312,4 +312,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:181897
+main.ts:182327

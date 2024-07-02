@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:199152
+main.ts:199676
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of unique entities
 
 #### Source
 
-main.ts:199142
+main.ts:199666
 
 ***
 
@@ -67,7 +67,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Source
 
-main.ts:199145
+main.ts:199669
 
 ***
 
@@ -88,7 +88,7 @@ top categories displayed with the number of businesses in each category
 
 #### Source
 
-main.ts:199135
+main.ts:199659
 
 ***
 
@@ -109,7 +109,7 @@ country codes with the biggest number of businesses in the category
 
 #### Source
 
-main.ts:199138
+main.ts:199662
 
 ***
 
@@ -130,7 +130,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Source
 
-main.ts:199148
+main.ts:199672
 
 ***
 
@@ -146,7 +146,7 @@ number of unique websites
 
 #### Source
 
-main.ts:199140
+main.ts:199664
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:199140
 
 #### Source
 
-main.ts:199161
+main.ts:199685
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:199161
 
 #### Source
 
-main.ts:199207
+main.ts:199731
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:199207
 
 #### Source
 
-main.ts:199200
+main.ts:199724

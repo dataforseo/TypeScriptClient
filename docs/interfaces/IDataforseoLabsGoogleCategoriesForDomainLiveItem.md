@@ -21,7 +21,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:87575
+main.ts:87927
 
 ***
 
@@ -33,11 +33,11 @@ ranking data relevant to the specified domain or subdomain
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:87577
+main.ts:87929
 
 ***
 
@@ -49,4 +49,4 @@ search engine type
 
 #### Source
 
-main.ts:87572
+main.ts:87924

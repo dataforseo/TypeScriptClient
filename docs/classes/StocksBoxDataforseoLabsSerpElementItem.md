@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99883
+main.ts:100239
 
 ## Properties
 
@@ -68,7 +68,7 @@ domain where a link points
 
 #### Source
 
-main.ts:99874
+main.ts:100230
 
 ***
 
@@ -84,7 +84,7 @@ contains data provided in the graph of the element
 
 #### Source
 
-main.ts:99879
+main.ts:100235
 
 ***
 
@@ -102,7 +102,7 @@ left, right
 
 #### Source
 
-main.ts:99859
+main.ts:100215
 
 ***
 
@@ -118,7 +118,7 @@ price of the shopping element
 
 #### Source
 
-main.ts:99870
+main.ts:100226
 
 ***
 
@@ -135,7 +135,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99855
+main.ts:100211
 
 ***
 
@@ -152,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99852
+main.ts:100208
 
 ***
 
@@ -168,7 +168,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:99868
+main.ts:100224
 
 ***
 
@@ -185,7 +185,7 @@ indicates the source of information included in the shopping_element
 
 #### Source
 
-main.ts:99866
+main.ts:100222
 
 ***
 
@@ -202,7 +202,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99877
+main.ts:100233
 
 ***
 
@@ -218,7 +218,7 @@ title of the item
 
 #### Source
 
-main.ts:99863
+main.ts:100219
 
 ***
 
@@ -234,7 +234,7 @@ URL link
 
 #### Source
 
-main.ts:99872
+main.ts:100228
 
 ***
 
@@ -250,7 +250,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99861
+main.ts:100217
 
 ## Methods
 
@@ -272,7 +272,7 @@ main.ts:99861
 
 #### Source
 
-main.ts:99888
+main.ts:100244
 
 ***
 
@@ -294,7 +294,7 @@ main.ts:99888
 
 #### Source
 
-main.ts:99917
+main.ts:100273
 
 ***
 
@@ -316,4 +316,4 @@ main.ts:99917
 
 #### Source
 
-main.ts:99910
+main.ts:100266

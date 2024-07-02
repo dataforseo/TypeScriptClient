@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87509
+main.ts:87861
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:87503
+main.ts:87855
 
 ***
 
@@ -59,7 +59,7 @@ ranking data relevant to the specified domain or subdomain
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -67,7 +67,7 @@ ranking data relevant to the specified domain or subdomain
 
 #### Source
 
-main.ts:87505
+main.ts:87857
 
 ***
 
@@ -83,7 +83,7 @@ search engine type
 
 #### Source
 
-main.ts:87500
+main.ts:87852
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:87500
 
 #### Source
 
-main.ts:87518
+main.ts:87870
 
 ***
 
@@ -119,7 +119,7 @@ main.ts:87518
 
 #### Source
 
-main.ts:87547
+main.ts:87899
 
 ***
 
@@ -137,4 +137,4 @@ main.ts:87547
 
 #### Source
 
-main.ts:87540
+main.ts:87892

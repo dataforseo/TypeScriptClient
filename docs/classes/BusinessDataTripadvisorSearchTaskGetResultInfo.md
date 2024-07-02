@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:212673
+main.ts:213197
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:212653
+main.ts:213177
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:212658
+main.ts:213182
 
 ***
 
@@ -83,7 +83,7 @@ possible item types: tripadvisor_search_organic
 
 #### Source
 
-main.ts:212661
+main.ts:213185
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:212669
+main.ts:213193
 
 ***
 
@@ -117,7 +117,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Source
 
-main.ts:212666
+main.ts:213190
 
 ***
 
@@ -134,7 +134,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Source
 
-main.ts:212644
+main.ts:213168
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:212650
+main.ts:213174
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:212648
+main.ts:213172
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:212646
+main.ts:213170
 
 ***
 
@@ -198,7 +198,7 @@ the total number of results
 
 #### Source
 
-main.ts:212663
+main.ts:213187
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:212663
 
 #### Source
 
-main.ts:212682
+main.ts:213206
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:212682
 
 #### Source
 
-main.ts:212716
+main.ts:213240
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:212716
 
 #### Source
 
-main.ts:212709
+main.ts:213233

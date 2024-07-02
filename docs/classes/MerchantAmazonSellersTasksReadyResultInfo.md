@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:182843
+main.ts:183273
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:182833
+main.ts:183263
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of Amazon Sellers Advanced task
 
 #### Source
 
-main.ts:182837
+main.ts:183267
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of Amazon Sellers HTML task
 
 #### Source
 
-main.ts:182839
+main.ts:183269
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:182827
+main.ts:183257
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:182829
+main.ts:183259
 
 ***
 
@@ -127,7 +127,7 @@ type of search engine
 
 #### Source
 
-main.ts:182831
+main.ts:183261
 
 ***
 
@@ -143,7 +143,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:182835
+main.ts:183265
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:182835
 
 #### Source
 
-main.ts:182852
+main.ts:183282
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:182852
 
 #### Source
 
-main.ts:182875
+main.ts:183305
 
 ***
 
@@ -197,4 +197,4 @@ main.ts:182875
 
 #### Source
 
-main.ts:182868
+main.ts:183298

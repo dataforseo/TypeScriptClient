@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:161009
+main.ts:161257
 
 ## Properties
 
@@ -46,7 +46,7 @@ parsed content of the footer
 
 #### Source
 
-main.ts:160999
+main.ts:161247
 
 ***
 
@@ -62,7 +62,7 @@ content of the header of the table
 
 #### Source
 
-main.ts:160997
+main.ts:161245
 
 ***
 
@@ -79,7 +79,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Source
 
-main.ts:161002
+main.ts:161250
 
 ***
 
@@ -96,7 +96,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Source
 
-main.ts:161005
+main.ts:161253
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:161005
 
 #### Source
 
-main.ts:161018
+main.ts:161266
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:161018
 
 #### Source
 
-main.ts:161046
+main.ts:161294
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:161046
 
 #### Source
 
-main.ts:161039
+main.ts:161287

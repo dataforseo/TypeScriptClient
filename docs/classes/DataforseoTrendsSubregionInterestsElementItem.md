@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:128256
+main.ts:128488
 
 ## Properties
 
@@ -68,7 +68,7 @@ subregional keyword popuarity data for each specified term
 
 #### Source
 
-main.ts:128249
+main.ts:128481
 
 ***
 
@@ -85,7 +85,7 @@ if you specified a single keyword, the value will be null
 
 #### Source
 
-main.ts:128252
+main.ts:128484
 
 ***
 
@@ -102,7 +102,7 @@ the data included in the interests and interests_comparison is based on the keyw
 
 #### Source
 
-main.ts:128247
+main.ts:128479
 
 ***
 
@@ -119,7 +119,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:128244
+main.ts:128476
 
 ## Methods
 
@@ -141,7 +141,7 @@ main.ts:128244
 
 #### Source
 
-main.ts:128261
+main.ts:128493
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:128261
 
 #### Source
 
-main.ts:128290
+main.ts:128522
 
 ***
 
@@ -185,4 +185,4 @@ main.ts:128290
 
 #### Source
 
-main.ts:128283
+main.ts:128515

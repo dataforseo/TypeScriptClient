@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:186121
+main.ts:186551
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Source
 
-main.ts:186109
+main.ts:186539
 
 ***
 
@@ -44,7 +44,7 @@ full name of the location
 
 #### Source
 
-main.ts:186111
+main.ts:186541
 
 ***
 
@@ -62,7 +62,7 @@ example:
 
 #### Source
 
-main.ts:186119
+main.ts:186549
 
 ***
 
@@ -74,4 +74,4 @@ location type
 
 #### Source
 
-main.ts:186123
+main.ts:186553

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:84752
+main.ts:84858
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: false
 
 #### Source
 
-main.ts:84685
+main.ts:84791
 
 ***
 
@@ -81,7 +81,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:84708
+main.ts:84814
 
 ***
 
@@ -100,7 +100,7 @@ default value: false
 
 #### Source
 
-main.ts:84690
+main.ts:84796
 
 ***
 
@@ -122,7 +122,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:84680
+main.ts:84786
 
 ***
 
@@ -141,7 +141,7 @@ default value: false
 
 #### Source
 
-main.ts:84667
+main.ts:84773
 
 ***
 
@@ -160,7 +160,7 @@ default value: false
 
 #### Source
 
-main.ts:84672
+main.ts:84778
 
 ***
 
@@ -180,7 +180,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:84626
+main.ts:84732
 
 ***
 
@@ -203,7 +203,7 @@ en
 
 #### Source
 
-main.ts:84662
+main.ts:84768
 
 ***
 
@@ -226,7 +226,7 @@ English
 
 #### Source
 
-main.ts:84653
+main.ts:84759
 
 ***
 
@@ -245,7 +245,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:84729
+main.ts:84835
 
 ***
 
@@ -268,7 +268,7 @@ example:
 
 #### Source
 
-main.ts:84644
+main.ts:84750
 
 ***
 
@@ -291,7 +291,7 @@ United Kingdom
 
 #### Source
 
-main.ts:84635
+main.ts:84741
 
 ***
 
@@ -310,7 +310,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:84734
+main.ts:84840
 
 ***
 
@@ -332,7 +332,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:84742
+main.ts:84848
 
 ***
 
@@ -362,7 +362,7 @@ example:
 
 #### Source
 
-main.ts:84724
+main.ts:84830
 
 ***
 
@@ -382,7 +382,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:84748
+main.ts:84854
 
 ## Methods
 
@@ -400,7 +400,7 @@ main.ts:84748
 
 #### Source
 
-main.ts:84761
+main.ts:84867
 
 ***
 
@@ -418,7 +418,7 @@ main.ts:84761
 
 #### Source
 
-main.ts:84801
+main.ts:84907
 
 ***
 
@@ -436,4 +436,4 @@ main.ts:84801
 
 #### Source
 
-main.ts:84794
+main.ts:84900

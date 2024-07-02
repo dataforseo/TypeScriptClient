@@ -20,7 +20,7 @@ starting date of the time range
 
 #### Source
 
-main.ts:77655
+main.ts:77757
 
 ***
 
@@ -32,7 +32,7 @@ ending date of the time range
 
 #### Source
 
-main.ts:77657
+main.ts:77759
 
 ***
 
@@ -44,7 +44,7 @@ items array
 
 #### Source
 
-main.ts:77661
+main.ts:77763
 
 ***
 
@@ -56,7 +56,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:77659
+main.ts:77761
 
 ***
 
@@ -68,4 +68,4 @@ target technology
 
 #### Source
 
-main.ts:77653
+main.ts:77755

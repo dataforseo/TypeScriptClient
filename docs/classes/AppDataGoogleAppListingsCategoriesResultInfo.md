@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:191228
+main.ts:191658
 
 ## Properties
 
@@ -46,7 +46,7 @@ name of the supported app category
 
 #### Source
 
-main.ts:191222
+main.ts:191652
 
 ***
 
@@ -62,7 +62,7 @@ number of app listings that make up the supported app category
 
 #### Source
 
-main.ts:191224
+main.ts:191654
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:191224
 
 #### Source
 
-main.ts:191237
+main.ts:191667
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:191237
 
 #### Source
 
-main.ts:191255
+main.ts:191685
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:191255
 
 #### Source
 
-main.ts:191248
+main.ts:191678

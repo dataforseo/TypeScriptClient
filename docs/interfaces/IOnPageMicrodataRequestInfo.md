@@ -24,7 +24,7 @@ example:
 
 #### Source
 
-main.ts:159008
+main.ts:159256
 
 ***
 
@@ -40,7 +40,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:159020
+main.ts:159268
 
 ***
 
@@ -56,4 +56,4 @@ https://dataforseo.com/apis
 
 #### Source
 
-main.ts:159014
+main.ts:159262

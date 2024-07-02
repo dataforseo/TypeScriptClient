@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:93164
+main.ts:93520
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:93138
+main.ts:93494
 
 ***
 
@@ -83,7 +83,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:93111
+main.ts:93467
 
 ***
 
@@ -102,7 +102,7 @@ default value: false
 
 #### Source
 
-main.ts:93103
+main.ts:93459
 
 ***
 
@@ -124,7 +124,7 @@ default value: true
 
 #### Source
 
-main.ts:93090
+main.ts:93446
 
 ***
 
@@ -146,7 +146,7 @@ default value:
 
 #### Source
 
-main.ts:93098
+main.ts:93454
 
 ***
 
@@ -168,7 +168,7 @@ en
 
 #### Source
 
-main.ts:93082
+main.ts:93438
 
 ***
 
@@ -190,7 +190,7 @@ English
 
 #### Source
 
-main.ts:93074
+main.ts:93430
 
 ***
 
@@ -209,7 +209,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:93116
+main.ts:93472
 
 ***
 
@@ -231,7 +231,7 @@ example:
 
 #### Source
 
-main.ts:93066
+main.ts:93422
 
 ***
 
@@ -253,7 +253,7 @@ United Kingdom
 
 #### Source
 
-main.ts:93058
+main.ts:93414
 
 ***
 
@@ -272,7 +272,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:93121
+main.ts:93477
 
 ***
 
@@ -302,7 +302,7 @@ example:
 
 #### Source
 
-main.ts:93154
+main.ts:93510
 
 ***
 
@@ -322,7 +322,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:93160
+main.ts:93516
 
 ***
 
@@ -341,7 +341,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:93045
+main.ts:93401
 
 ***
 
@@ -360,7 +360,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:93050
+main.ts:93406
 
 ## Methods
 
@@ -378,7 +378,7 @@ main.ts:93050
 
 #### Source
 
-main.ts:93173
+main.ts:93529
 
 ***
 
@@ -396,7 +396,7 @@ main.ts:93173
 
 #### Source
 
-main.ts:93216
+main.ts:93572
 
 ***
 
@@ -414,4 +414,4 @@ main.ts:93216
 
 #### Source
 
-main.ts:93209
+main.ts:93565

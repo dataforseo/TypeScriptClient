@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:199560
+main.ts:200084
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:199554
+main.ts:200078
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Source
 
-main.ts:199544
+main.ts:200068
 
 ***
 
@@ -78,7 +78,7 @@ full name of the location
 
 #### Source
 
-main.ts:199546
+main.ts:200070
 
 ***
 
@@ -98,7 +98,7 @@ example:
 
 #### Source
 
-main.ts:199552
+main.ts:200076
 
 ***
 
@@ -114,7 +114,7 @@ location type
 
 #### Source
 
-main.ts:199556
+main.ts:200080
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:199556
 
 #### Source
 
-main.ts:199569
+main.ts:200093
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:199569
 
 #### Source
 
-main.ts:199590
+main.ts:200114
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:199590
 
 #### Source
 
-main.ts:199583
+main.ts:200107

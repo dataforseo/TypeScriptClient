@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:95062
+main.ts:95418
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:95056
+main.ts:95412
 
 ***
 
@@ -62,7 +62,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:95054
+main.ts:95410
 
 ***
 
@@ -74,7 +74,7 @@ ranking data relevant to the specified domain
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -82,7 +82,7 @@ ranking data relevant to the specified domain
 
 #### Source
 
-main.ts:95058
+main.ts:95414
 
 ***
 
@@ -98,7 +98,7 @@ search engine type
 
 #### Source
 
-main.ts:95052
+main.ts:95408
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:95052
 
 #### Source
 
-main.ts:95071
+main.ts:95427
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:95071
 
 #### Source
 
-main.ts:95097
+main.ts:95453
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:95097
 
 #### Source
 
-main.ts:95090
+main.ts:95446

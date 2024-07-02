@@ -24,7 +24,7 @@ domain where a link points
 
 #### Source
 
-main.ts:100261
+main.ts:100617
 
 ***
 
@@ -37,7 +37,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:100264
+main.ts:100620
 
 ***
 
@@ -51,7 +51,7 @@ left, right
 
 #### Source
 
-main.ts:100253
+main.ts:100609
 
 ***
 
@@ -64,7 +64,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:100249
+main.ts:100605
 
 ***
 
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:100246
+main.ts:100602
 
 ***
 
@@ -89,7 +89,7 @@ title of the item
 
 #### Source
 
-main.ts:100257
+main.ts:100613
 
 ***
 
@@ -101,7 +101,7 @@ URL link
 
 #### Source
 
-main.ts:100259
+main.ts:100615
 
 ***
 
@@ -113,4 +113,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:100255
+main.ts:100611

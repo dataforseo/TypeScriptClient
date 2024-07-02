@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:113325
+main.ts:113473
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:113308
+main.ts:113456
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:113315
+main.ts:113463
 
 ***
 
@@ -86,7 +86,7 @@ in this case, will equal null
 
 #### Source
 
-main.ts:113321
+main.ts:113469
 
 ***
 
@@ -102,7 +102,7 @@ number of search results for the returned keyword
 
 #### Source
 
-main.ts:113310
+main.ts:113458
 
 ***
 
@@ -118,13 +118,13 @@ search engine type
 
 #### Source
 
-main.ts:113302
+main.ts:113450
 
 ***
 
 ### serp\_item?
 
-> **`optional`** **serp\_item**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+> **`optional`** **serp\_item**: [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -135,7 +135,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:113305
+main.ts:113453
 
 ## Methods
 
@@ -153,7 +153,7 @@ main.ts:113305
 
 #### Source
 
-main.ts:113334
+main.ts:113482
 
 ***
 
@@ -171,7 +171,7 @@ main.ts:113334
 
 #### Source
 
-main.ts:113356
+main.ts:113504
 
 ***
 
@@ -189,4 +189,4 @@ main.ts:113356
 
 #### Source
 
-main.ts:113349
+main.ts:113497

@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:161780
+main.ts:162028
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Source
 
-main.ts:161782
+main.ts:162030
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Source
 
-main.ts:161786
+main.ts:162034
 
 ***
 
@@ -57,4 +57,4 @@ number of items in the results array
 
 #### Source
 
-main.ts:161784
+main.ts:162032

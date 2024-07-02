@@ -30,7 +30,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:90922
+main.ts:91275
 
 ***
 
@@ -43,7 +43,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:90909
+main.ts:91262
 
 ***
 
@@ -55,7 +55,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:90949
+main.ts:91303
 
 ***
 
@@ -67,7 +67,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:90890
+main.ts:91243
 
 ***
 
@@ -78,10 +78,11 @@ main.ts:90890
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
+learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90944
+main.ts:91298
 
 ***
 
@@ -93,7 +94,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:90902
+main.ts:91255
 
 ***
 
@@ -105,7 +106,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:90884
+main.ts:91237
 
 ***
 
@@ -119,7 +120,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90940
+main.ts:91293
 
 ***
 
@@ -134,7 +135,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90931
+main.ts:91284
 
 ***
 
@@ -146,7 +147,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:90906
+main.ts:91259
 
 ***
 
@@ -158,7 +159,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:90914
+main.ts:91267
 
 ***
 
@@ -173,7 +174,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:90936
+main.ts:91289
 
 ***
 
@@ -185,7 +186,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:90898
+main.ts:91251
 
 ***
 
@@ -197,7 +198,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:90894
+main.ts:91247
 
 ***
 
@@ -209,7 +210,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:90900
+main.ts:91253
 
 ***
 
@@ -221,7 +222,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:90896
+main.ts:91249
 
 ***
 
@@ -235,7 +236,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:90918
+main.ts:91271
 
 ***
 
@@ -247,7 +248,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:90924
+main.ts:91277
 
 ***
 
@@ -261,7 +262,7 @@ left, right
 
 #### Source
 
-main.ts:90880
+main.ts:91233
 
 ***
 
@@ -273,7 +274,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:90904
+main.ts:91257
 
 ***
 
@@ -286,7 +287,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:90876
+main.ts:91229
 
 ***
 
@@ -299,7 +300,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:90947
+main.ts:91301
 
 ***
 
@@ -312,7 +313,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:90873
+main.ts:91226
 
 ***
 
@@ -324,7 +325,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:90951
+main.ts:91305
 
 ***
 
@@ -337,7 +338,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:90912
+main.ts:91265
 
 ***
 
@@ -349,7 +350,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:90926
+main.ts:91279
 
 ***
 
@@ -361,7 +362,7 @@ search engine type
 
 #### Source
 
-main.ts:90870
+main.ts:91223
 
 ***
 
@@ -373,7 +374,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:90886
+main.ts:91239
 
 ***
 
@@ -385,7 +386,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:90888
+main.ts:91241
 
 ***
 
@@ -397,7 +398,7 @@ relevant website name in SERP
 
 #### Source
 
-main.ts:90892
+main.ts:91245
 
 ***
 
@@ -409,4 +410,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:90882
+main.ts:91235

@@ -20,19 +20,19 @@ the number of items in the results array
 
 #### Source
 
-main.ts:196374
+main.ts:196898
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`AppDataleAppListingsSearchLiveItem`](../classes/AppDataleAppListingsSearchLiveItem.md)[]
+> **`optional`** **items**: [`AppDataAppleAppListingsSearchLiveItem`](../classes/AppDataAppleAppListingsSearchLiveItem.md)[]
 
 array of apps and related data
 
 #### Source
 
-main.ts:196381
+main.ts:196905
 
 ***
 
@@ -44,7 +44,7 @@ offset in the results array of returned apps
 
 #### Source
 
-main.ts:196376
+main.ts:196900
 
 ***
 
@@ -57,7 +57,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Source
 
-main.ts:196379
+main.ts:196903
 
 ***
 
@@ -69,4 +69,4 @@ the total number of relevant results in the database
 
 #### Source
 
-main.ts:196372
+main.ts:196896

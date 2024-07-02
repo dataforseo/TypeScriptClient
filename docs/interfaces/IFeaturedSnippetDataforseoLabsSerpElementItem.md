@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:97640
+main.ts:97996
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:97615
+main.ts:97971
 
 ***
 
@@ -48,7 +48,7 @@ domain where a link points
 
 #### Source
 
-main.ts:97609
+main.ts:97965
 
 ***
 
@@ -62,7 +62,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97635
+main.ts:97991
 
 ***
 
@@ -77,7 +77,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97631
+main.ts:97987
 
 ***
 
@@ -89,7 +89,7 @@ title of a given element
 
 #### Source
 
-main.ts:97613
+main.ts:97969
 
 ***
 
@@ -101,7 +101,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:97624
+main.ts:97980
 
 ***
 
@@ -115,7 +115,7 @@ left, right
 
 #### Source
 
-main.ts:97605
+main.ts:97961
 
 ***
 
@@ -128,7 +128,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97601
+main.ts:97957
 
 ***
 
@@ -141,7 +141,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:97638
+main.ts:97994
 
 ***
 
@@ -154,7 +154,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97598
+main.ts:97954
 
 ***
 
@@ -166,7 +166,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:97642
+main.ts:97998
 
 ***
 
@@ -178,7 +178,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:97626
+main.ts:97982
 
 ***
 
@@ -190,7 +190,7 @@ search engine type
 
 #### Source
 
-main.ts:97622
+main.ts:97978
 
 ***
 
@@ -203,7 +203,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:97620
+main.ts:97976
 
 ***
 
@@ -215,7 +215,7 @@ title of the item
 
 #### Source
 
-main.ts:97611
+main.ts:97967
 
 ***
 
@@ -227,7 +227,7 @@ URL link
 
 #### Source
 
-main.ts:97617
+main.ts:97973
 
 ***
 
@@ -239,4 +239,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97607
+main.ts:97963

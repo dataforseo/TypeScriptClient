@@ -20,7 +20,7 @@ content author name
 
 #### Source
 
-main.ts:160978
+main.ts:161226
 
 ***
 
@@ -32,7 +32,7 @@ meta title
 
 #### Source
 
-main.ts:160974
+main.ts:161222
 
 ***
 
@@ -44,7 +44,7 @@ content language
 
 #### Source
 
-main.ts:160980
+main.ts:161228
 
 ***
 
@@ -56,7 +56,7 @@ HTML level
 
 #### Source
 
-main.ts:160982
+main.ts:161230
 
 ***
 
@@ -68,7 +68,7 @@ main title of the block
 
 #### Source
 
-main.ts:160976
+main.ts:161224
 
 ***
 
@@ -81,7 +81,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Source
 
-main.ts:160985
+main.ts:161233
 
 ***
 
@@ -94,7 +94,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Source
 
-main.ts:160988
+main.ts:161236
 
 ***
 
@@ -106,4 +106,4 @@ content of the table on the page
 
 #### Source
 
-main.ts:160990
+main.ts:161238

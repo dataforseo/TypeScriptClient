@@ -24,7 +24,7 @@ author of the post
 
 #### Source
 
-main.ts:202053
+main.ts:202577
 
 ***
 
@@ -36,7 +36,7 @@ url of an image included in the post
 
 #### Source
 
-main.ts:202061
+main.ts:202585
 
 ***
 
@@ -48,7 +48,7 @@ links included in the post
 
 #### Source
 
-main.ts:202072
+main.ts:202596
 
 ***
 
@@ -61,7 +61,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:202049
+main.ts:202573
 
 ***
 
@@ -75,7 +75,7 @@ in the following format:
 
 #### Source
 
-main.ts:202065
+main.ts:202589
 
 ***
 
@@ -87,7 +87,7 @@ main content of a post
 
 #### Source
 
-main.ts:202057
+main.ts:202581
 
 ***
 
@@ -100,7 +100,7 @@ absolute position among all present elements
 
 #### Source
 
-main.ts:202046
+main.ts:202570
 
 ***
 
@@ -113,7 +113,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:202043
+main.ts:202567
 
 ***
 
@@ -125,7 +125,7 @@ additional content of a post
 
 #### Source
 
-main.ts:202055
+main.ts:202579
 
 ***
 
@@ -140,7 +140,7 @@ example:
 
 #### Source
 
-main.ts:202070
+main.ts:202594
 
 ***
 
@@ -152,7 +152,7 @@ url of a post
 
 #### Source
 
-main.ts:202059
+main.ts:202583
 
 ***
 
@@ -164,4 +164,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:202051
+main.ts:202575

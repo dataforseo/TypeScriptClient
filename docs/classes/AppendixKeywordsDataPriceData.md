@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:218530
+main.ts:218951
 
 ## Properties
 
 ### ad\_traffic\_by\_keywords?
 
-> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -44,7 +44,7 @@ main.ts:218530
 
 #### Source
 
-main.ts:218513
+main.ts:218933
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:218513
 
 #### Source
 
-main.ts:218514
+main.ts:218934
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:218514
 
 #### Source
 
-main.ts:218515
+main.ts:218935
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:218515
 
 #### Source
 
-main.ts:218525
+main.ts:218946
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:218525
 
 #### Source
 
-main.ts:218516
+main.ts:218936
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:218516
 
 #### Source
 
-main.ts:218526
+main.ts:218947
 
 ***
 
@@ -128,13 +128,13 @@ main.ts:218526
 
 #### Source
 
-main.ts:218517
+main.ts:218937
 
 ***
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixKeywordPerformanceKeywordsDataPriceData`](AppendixKeywordPerformanceKeywordsDataPriceData.md)
+> **`optional`** **keyword\_performance**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -142,13 +142,13 @@ main.ts:218517
 
 #### Source
 
-main.ts:218518
+main.ts:218938
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_keywords**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -156,13 +156,13 @@ main.ts:218518
 
 #### Source
 
-main.ts:218519
+main.ts:218939
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **keywords\_for\_site**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -170,7 +170,7 @@ main.ts:218519
 
 #### Source
 
-main.ts:218520
+main.ts:218940
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:218520
 
 #### Source
 
-main.ts:218521
+main.ts:218941
 
 ***
 
@@ -198,13 +198,27 @@ main.ts:218521
 
 #### Source
 
-main.ts:218522
+main.ts:218942
+
+***
+
+### locations\_and\_languages?
+
+> **`optional`** **locations\_and\_languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixKeywordsDataPriceData`](../interfaces/IAppendixKeywordsDataPriceData.md).[`locations_and_languages`](../interfaces/IAppendixKeywordsDataPriceData.md#locations_and_languages)
+
+#### Source
+
+main.ts:218943
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **search\_volume**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -212,13 +226,13 @@ main.ts:218522
 
 #### Source
 
-main.ts:218524
+main.ts:218945
 
 ***
 
 ### search\_volume\_history?
 
-> **`optional`** **search\_volume\_history**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **search\_volume\_history**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
@@ -226,7 +240,7 @@ main.ts:218524
 
 #### Source
 
-main.ts:218523
+main.ts:218944
 
 ***
 
@@ -240,7 +254,7 @@ main.ts:218523
 
 #### Source
 
-main.ts:218512
+main.ts:218932
 
 ## Methods
 
@@ -258,7 +272,7 @@ main.ts:218512
 
 #### Source
 
-main.ts:218539
+main.ts:218960
 
 ***
 
@@ -276,7 +290,7 @@ main.ts:218539
 
 #### Source
 
-main.ts:218570
+main.ts:218992
 
 ***
 
@@ -294,4 +308,4 @@ main.ts:218570
 
 #### Source
 
-main.ts:218563
+main.ts:218985

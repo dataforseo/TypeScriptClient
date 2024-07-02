@@ -18,17 +18,17 @@
 
 #### Source
 
-main.ts:219202
+main.ts:219626
 
 ***
 
 ### jobs?
 
-> **`optional`** **jobs**: [`AppendixKeywordsKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsKeywordsDataPriceDataInfo.md)
+> **`optional`** **jobs**: [`AppendixKeywordsDataPriceDataInfo`](../classes/AppendixKeywordsDataPriceDataInfo.md)
 
 #### Source
 
-main.ts:219203
+main.ts:219627
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:219203
 
 #### Source
 
-main.ts:219204
+main.ts:219628
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:219204
 
 #### Source
 
-main.ts:219205
+main.ts:219629
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:219205
 
 #### Source
 
-main.ts:219206
+main.ts:219630
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:219206
 
 #### Source
 
-main.ts:219207
+main.ts:219631
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:219207
 
 #### Source
 
-main.ts:219208
+main.ts:219632
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:219208
 
 #### Source
 
-main.ts:219209
+main.ts:219633
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:219209
 
 #### Source
 
-main.ts:219201
+main.ts:219625
 
 ***
 
@@ -108,4 +108,4 @@ main.ts:219201
 
 #### Source
 
-main.ts:219210
+main.ts:219634

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:152924
+main.ts:153172
 
 ## Properties
 
@@ -47,7 +47,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Source
 
-main.ts:152902
+main.ts:153150
 
 ***
 
@@ -64,7 +64,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Source
 
-main.ts:152893
+main.ts:153141
 
 ***
 
@@ -80,7 +80,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Source
 
-main.ts:152912
+main.ts:153160
 
 ***
 
@@ -96,7 +96,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Source
 
-main.ts:152914
+main.ts:153162
 
 ***
 
@@ -113,7 +113,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Source
 
-main.ts:152920
+main.ts:153168
 
 ***
 
@@ -130,7 +130,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Source
 
-main.ts:152917
+main.ts:153165
 
 ***
 
@@ -147,7 +147,7 @@ The time (in milliseconds) from when a user first interacts with your page to th
 
 #### Source
 
-main.ts:152899
+main.ts:153147
 
 ***
 
@@ -164,7 +164,7 @@ The amount of time (in milliseconds) to render the largest content element visib
 
 #### Source
 
-main.ts:152896
+main.ts:153144
 
 ***
 
@@ -181,7 +181,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Source
 
-main.ts:152908
+main.ts:153156
 
 ***
 
@@ -198,7 +198,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Source
 
-main.ts:152890
+main.ts:153138
 
 ***
 
@@ -215,7 +215,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Source
 
-main.ts:152905
+main.ts:153153
 
 ***
 
@@ -231,7 +231,7 @@ time to first byte (TTFB) in milliseconds
 
 #### Source
 
-main.ts:152910
+main.ts:153158
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:152910
 
 #### Source
 
-main.ts:152933
+main.ts:153181
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:152933
 
 #### Source
 
-main.ts:152961
+main.ts:153209
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:152961
 
 #### Source
 
-main.ts:152954
+main.ts:153202

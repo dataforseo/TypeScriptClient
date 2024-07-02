@@ -20,7 +20,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:95123
+main.ts:95479
 
 ***
 
@@ -32,7 +32,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:95121
+main.ts:95477
 
 ***
 
@@ -44,11 +44,11 @@ ranking data relevant to the specified domain
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](../classes/MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
 #### Source
 
-main.ts:95125
+main.ts:95481
 
 ***
 
@@ -60,4 +60,4 @@ search engine type
 
 #### Source
 
-main.ts:95119
+main.ts:95475

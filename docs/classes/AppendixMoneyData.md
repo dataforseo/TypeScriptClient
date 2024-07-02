@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:217913
+main.ts:218389
 
 ## Properties
 
@@ -46,7 +46,7 @@ amount of money left in your account
 
 #### Source
 
-main.ts:217905
+main.ts:218381
 
 ***
 
@@ -62,7 +62,7 @@ cost limits
 
 #### Source
 
-main.ts:217907
+main.ts:218383
 
 ***
 
@@ -78,7 +78,7 @@ statistics of your spending
 
 #### Source
 
-main.ts:217909
+main.ts:218385
 
 ***
 
@@ -94,7 +94,7 @@ total amount of money deposited to your account
 
 #### Source
 
-main.ts:217903
+main.ts:218379
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:217903
 
 #### Source
 
-main.ts:217922
+main.ts:218398
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:217922
 
 #### Source
 
-main.ts:217942
+main.ts:218418
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:217942
 
 #### Source
 
-main.ts:217935
+main.ts:218411

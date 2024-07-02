@@ -34,7 +34,7 @@ The full list of possible filters is available by this link.
 
 #### Source
 
-main.ts:157818
+main.ts:158066
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:157792
+main.ts:158040
 
 ***
 
@@ -65,7 +65,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:157797
+main.ts:158045
 
 ***
 
@@ -80,4 +80,4 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:157802
+main.ts:158050

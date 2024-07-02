@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:170569
+main.ts:170817
 
 ## Properties
 
@@ -46,7 +46,7 @@ initial text in the POST request
 
 #### Source
 
-main.ts:170559
+main.ts:170807
 
 ***
 
@@ -62,7 +62,7 @@ number of input tokens in the POST request
 
 #### Source
 
-main.ts:170553
+main.ts:170801
 
 ***
 
@@ -78,7 +78,7 @@ contains grammar or spelling errors and related data
 
 #### Source
 
-main.ts:170565
+main.ts:170813
 
 ***
 
@@ -94,7 +94,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:170563
+main.ts:170811
 
 ***
 
@@ -110,7 +110,7 @@ language code in the POST request
 
 #### Source
 
-main.ts:170561
+main.ts:170809
 
 ***
 
@@ -126,7 +126,7 @@ number of new tokens in the response
 
 #### Source
 
-main.ts:170557
+main.ts:170805
 
 ***
 
@@ -142,7 +142,7 @@ number of output tokens in the response
 
 #### Source
 
-main.ts:170555
+main.ts:170803
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:170555
 
 #### Source
 
-main.ts:170578
+main.ts:170826
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:170578
 
 #### Source
 
-main.ts:170605
+main.ts:170853
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:170605
 
 #### Source
 
-main.ts:170598
+main.ts:170846

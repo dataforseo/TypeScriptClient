@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:54484
+main.ts:54586
 
 ## Properties
 
@@ -48,7 +48,7 @@ Mar 2, 2020 - Dec 9, 2022
 
 #### Source
 
-main.ts:54480
+main.ts:54582
 
 ***
 
@@ -67,7 +67,7 @@ example:
 
 #### Source
 
-main.ts:54476
+main.ts:54578
 
 ***
 
@@ -86,7 +86,7 @@ example:
 
 #### Source
 
-main.ts:54471
+main.ts:54573
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:54471
 
 #### Source
 
-main.ts:54493
+main.ts:54595
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:54493
 
 #### Source
 
-main.ts:54512
+main.ts:54614
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:54512
 
 #### Source
 
-main.ts:54505
+main.ts:54607

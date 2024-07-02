@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:121941
+main.ts:122167
 
 ***
 
@@ -38,7 +38,7 @@ default value: false
 
 #### Source
 
-main.ts:122070
+main.ts:122296
 
 ***
 
@@ -55,7 +55,7 @@ otherwise, the content of allowed_subdomains field will be ignored and the resul
 
 #### Source
 
-main.ts:122077
+main.ts:122303
 
 ***
 
@@ -77,7 +77,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:121971
+main.ts:122197
 
 ***
 
@@ -94,7 +94,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:121985
+main.ts:122211
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:121992
+main.ts:122218
 
 ***
 
@@ -128,7 +128,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:121978
+main.ts:122204
 
 ***
 
@@ -145,7 +145,7 @@ once the crawl is completed, you can obtain keyword density values with the Keyw
 
 #### Source
 
-main.ts:122107
+main.ts:122333
 
 ***
 
@@ -160,7 +160,7 @@ default value: false
 
 #### Source
 
-main.ts:122088
+main.ts:122314
 
 ***
 
@@ -177,7 +177,7 @@ example: "SERP", "minifiers", "JavaScript"
 
 #### Source
 
-main.ts:122100
+main.ts:122326
 
 ***
 
@@ -192,7 +192,7 @@ Note: if no language is specified, it will be set automatically based on page co
 
 #### Source
 
-main.ts:122093
+main.ts:122319
 
 ***
 
@@ -231,7 +231,7 @@ if you want to change these thresholds to 1 second and 1000 kbytes, use the foll
 
 #### Source
 
-main.ts:122132
+main.ts:122358
 
 ***
 
@@ -246,7 +246,7 @@ default value: 2000
 
 #### Source
 
-main.ts:121921
+main.ts:122147
 
 ***
 
@@ -263,7 +263,7 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 #### Source
 
-main.ts:122011
+main.ts:122237
 
 ***
 
@@ -285,7 +285,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:122060
+main.ts:122286
 
 ***
 
@@ -299,7 +299,7 @@ example: Disallow: /directory1/
 
 #### Source
 
-main.ts:121945
+main.ts:122171
 
 ***
 
@@ -314,7 +314,7 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 #### Source
 
-main.ts:122004
+main.ts:122230
 
 ***
 
@@ -331,7 +331,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:121959
+main.ts:122185
 
 ***
 
@@ -347,7 +347,7 @@ false
 
 #### Source
 
-main.ts:122048
+main.ts:122274
 
 ***
 
@@ -362,7 +362,7 @@ specify certain checks to prevent them from running and impacting the onpage_sco
 
 #### Source
 
-main.ts:122146
+main.ts:122372
 
 ***
 
@@ -381,7 +381,7 @@ specify the following checks to prevent them from running on the target website:
 
 #### Source
 
-main.ts:122141
+main.ts:122367
 
 ***
 
@@ -397,7 +397,7 @@ Note: to use this parameter, the allow_subdomains parameter should be set to tru
 
 #### Source
 
-main.ts:122083
+main.ts:122309
 
 ***
 
@@ -416,7 +416,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:122042
+main.ts:122268
 
 ***
 
@@ -431,7 +431,7 @@ default value: false
 
 #### Source
 
-main.ts:121931
+main.ts:122157
 
 ***
 
@@ -447,7 +447,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:122028
+main.ts:122254
 
 ***
 
@@ -462,7 +462,7 @@ default value: false
 
 #### Source
 
-main.ts:122022
+main.ts:122248
 
 ***
 
@@ -477,7 +477,7 @@ default value: false;if you use this field, enable_javascript must be set to tru
 
 #### Source
 
-main.ts:122033
+main.ts:122259
 
 ***
 
@@ -492,7 +492,7 @@ default value: false
 
 #### Source
 
-main.ts:121899
+main.ts:122125
 
 ***
 
@@ -508,7 +508,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:122017
+main.ts:122243
 
 ***
 
@@ -523,7 +523,7 @@ for example, starting page of the crawl is level 0, pages that have links from t
 
 #### Source
 
-main.ts:121916
+main.ts:122142
 
 ***
 
@@ -542,7 +542,7 @@ to enable them anyway, set force_sitewide_checks to true
 
 #### Source
 
-main.ts:121888
+main.ts:122114
 
 ***
 
@@ -562,7 +562,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:122172
+main.ts:122398
 
 ***
 
@@ -584,7 +584,7 @@ subdomains will be ignored unless the allow_subdomains parameter is set to truee
 
 #### Source
 
-main.ts:121911
+main.ts:122137
 
 ***
 
@@ -601,7 +601,7 @@ the max_crawl_depth field of the request will be ignored, you can specify the nu
 
 #### Source
 
-main.ts:121999
+main.ts:122225
 
 ***
 
@@ -616,7 +616,7 @@ default value: false
 
 #### Source
 
-main.ts:122156
+main.ts:122382
 
 ***
 
@@ -633,7 +633,7 @@ Note: if set to override, specify the custom_robots_txt parameter
 
 #### Source
 
-main.ts:121952
+main.ts:122178
 
 ***
 
@@ -649,7 +649,7 @@ you can also use the live Instant Pages endpoint to get page-specific data
 
 #### Source
 
-main.ts:121894
+main.ts:122120
 
 ***
 
@@ -664,7 +664,7 @@ default value: false
 
 #### Source
 
-main.ts:121926
+main.ts:122152
 
 ***
 
@@ -679,7 +679,7 @@ default value: false
 
 #### Source
 
-main.ts:121936
+main.ts:122162
 
 ***
 
@@ -694,7 +694,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Source
 
-main.ts:122151
+main.ts:122377
 
 ***
 
@@ -710,7 +710,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:122162
+main.ts:122388
 
 ***
 
@@ -725,7 +725,7 @@ if you specify the page URL, the results will be returned for the domain include
 
 #### Source
 
-main.ts:121879
+main.ts:122105
 
 ***
 
@@ -740,4 +740,4 @@ default value: false
 
 #### Source
 
-main.ts:122065
+main.ts:122291

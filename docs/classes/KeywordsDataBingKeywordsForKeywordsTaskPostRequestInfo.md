@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:132864
+main.ts:133096
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:132819
+main.ts:133051
 
 ***
 
@@ -76,7 +76,7 @@ example:
 
 #### Source
 
-main.ts:132829
+main.ts:133061
 
 ***
 
@@ -96,7 +96,7 @@ default value: all
 
 #### Source
 
-main.ts:132811
+main.ts:133043
 
 ***
 
@@ -115,7 +115,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:132760
+main.ts:132992
 
 ***
 
@@ -135,7 +135,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:132805
+main.ts:133037
 
 ***
 
@@ -155,7 +155,7 @@ en, fr, de
 
 #### Source
 
-main.ts:132794
+main.ts:133026
 
 ***
 
@@ -175,7 +175,7 @@ English, French, German
 
 #### Source
 
-main.ts:132788
+main.ts:133020
 
 ***
 
@@ -196,7 +196,7 @@ example:
 
 #### Source
 
-main.ts:132774
+main.ts:133006
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:132782
+main.ts:133014
 
 ***
 
@@ -239,7 +239,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:132767
+main.ts:132999
 
 ***
 
@@ -263,7 +263,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:132854
+main.ts:133086
 
 ***
 
@@ -287,7 +287,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:132844
+main.ts:133076
 
 ***
 
@@ -306,7 +306,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:132834
+main.ts:133066
 
 ***
 
@@ -325,7 +325,7 @@ default value: relevance
 
 #### Source
 
-main.ts:132799
+main.ts:133031
 
 ***
 
@@ -345,7 +345,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:132860
+main.ts:133092
 
 ## Methods
 
@@ -363,7 +363,7 @@ main.ts:132860
 
 #### Source
 
-main.ts:132873
+main.ts:133105
 
 ***
 
@@ -381,7 +381,7 @@ main.ts:132873
 
 #### Source
 
-main.ts:132912
+main.ts:133144
 
 ***
 
@@ -399,4 +399,4 @@ main.ts:132912
 
 #### Source
 
-main.ts:132905
+main.ts:133137

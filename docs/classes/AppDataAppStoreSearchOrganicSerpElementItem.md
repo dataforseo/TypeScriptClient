@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:115506
+main.ts:115654
 
 ## Properties
 
@@ -68,7 +68,7 @@ id of the app
 
 #### Source
 
-main.ts:115488
+main.ts:115636
 
 ***
 
@@ -84,7 +84,7 @@ URL to the app icon
 
 #### Source
 
-main.ts:115494
+main.ts:115642
 
 ***
 
@@ -100,7 +100,7 @@ indicates whether the app is free
 
 #### Source
 
-main.ts:115500
+main.ts:115648
 
 ***
 
@@ -118,7 +118,7 @@ left, right
 
 #### Source
 
-main.ts:115486
+main.ts:115634
 
 ***
 
@@ -134,7 +134,7 @@ price of the app
 
 #### Source
 
-main.ts:115502
+main.ts:115650
 
 ***
 
@@ -151,7 +151,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:115482
+main.ts:115630
 
 ***
 
@@ -168,7 +168,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:115479
+main.ts:115627
 
 ***
 
@@ -184,7 +184,7 @@ average rating of the app
 
 #### Source
 
-main.ts:115498
+main.ts:115646
 
 ***
 
@@ -200,7 +200,7 @@ the total number of reviews of the app
 
 #### Source
 
-main.ts:115496
+main.ts:115644
 
 ***
 
@@ -216,7 +216,7 @@ title of the app
 
 #### Source
 
-main.ts:115490
+main.ts:115638
 
 ***
 
@@ -232,7 +232,7 @@ URL to the app page on App Store
 
 #### Source
 
-main.ts:115492
+main.ts:115640
 
 ## Methods
 
@@ -254,7 +254,7 @@ main.ts:115492
 
 #### Source
 
-main.ts:115511
+main.ts:115659
 
 ***
 
@@ -276,7 +276,7 @@ main.ts:115511
 
 #### Source
 
-main.ts:115539
+main.ts:115687
 
 ***
 
@@ -298,4 +298,4 @@ main.ts:115539
 
 #### Source
 
-main.ts:115532
+main.ts:115680

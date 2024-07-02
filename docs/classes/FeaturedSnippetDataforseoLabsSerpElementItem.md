@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:97526
+main.ts:97882
 
 ## Properties
 
@@ -68,7 +68,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:97520
+main.ts:97876
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:97495
+main.ts:97851
 
 ***
 
@@ -100,7 +100,7 @@ domain where a link points
 
 #### Source
 
-main.ts:97489
+main.ts:97845
 
 ***
 
@@ -118,7 +118,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97515
+main.ts:97871
 
 ***
 
@@ -137,7 +137,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97511
+main.ts:97867
 
 ***
 
@@ -153,7 +153,7 @@ title of a given element
 
 #### Source
 
-main.ts:97493
+main.ts:97849
 
 ***
 
@@ -169,7 +169,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:97504
+main.ts:97860
 
 ***
 
@@ -187,7 +187,7 @@ left, right
 
 #### Source
 
-main.ts:97485
+main.ts:97841
 
 ***
 
@@ -204,7 +204,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97481
+main.ts:97837
 
 ***
 
@@ -221,7 +221,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:97518
+main.ts:97874
 
 ***
 
@@ -238,7 +238,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97478
+main.ts:97834
 
 ***
 
@@ -254,7 +254,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:97522
+main.ts:97878
 
 ***
 
@@ -270,7 +270,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:97506
+main.ts:97862
 
 ***
 
@@ -286,7 +286,7 @@ search engine type
 
 #### Source
 
-main.ts:97502
+main.ts:97858
 
 ***
 
@@ -303,7 +303,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:97500
+main.ts:97856
 
 ***
 
@@ -319,7 +319,7 @@ title of the item
 
 #### Source
 
-main.ts:97491
+main.ts:97847
 
 ***
 
@@ -335,7 +335,7 @@ URL link
 
 #### Source
 
-main.ts:97497
+main.ts:97853
 
 ***
 
@@ -351,7 +351,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:97487
+main.ts:97843
 
 ## Methods
 
@@ -373,7 +373,7 @@ main.ts:97487
 
 #### Source
 
-main.ts:97531
+main.ts:97887
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:97531
 
 #### Source
 
-main.ts:97566
+main.ts:97922
 
 ***
 
@@ -417,4 +417,4 @@ main.ts:97566
 
 #### Source
 
-main.ts:97559
+main.ts:97915

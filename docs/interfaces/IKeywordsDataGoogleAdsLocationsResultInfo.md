@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Source
 
-main.ts:117872
+main.ts:118098
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Source
 
-main.ts:117859
+main.ts:118085
 
 ***
 
@@ -51,7 +51,7 @@ where location_code_parent corresponds to:
 
 #### Source
 
-main.ts:117870
+main.ts:118096
 
 ***
 
@@ -63,7 +63,7 @@ full name of the location
 
 #### Source
 
-main.ts:117861
+main.ts:118087
 
 ***
 
@@ -76,4 +76,4 @@ possible values according to Google’s target types
 
 #### Source
 
-main.ts:117875
+main.ts:118101

@@ -23,7 +23,7 @@ default value: false
 
 #### Source
 
-main.ts:84900
+main.ts:85006
 
 ***
 
@@ -51,7 +51,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:84923
+main.ts:85029
 
 ***
 
@@ -66,7 +66,7 @@ default value: false
 
 #### Source
 
-main.ts:84905
+main.ts:85011
 
 ***
 
@@ -84,7 +84,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:84895
+main.ts:85001
 
 ***
 
@@ -99,7 +99,7 @@ default value: false
 
 #### Source
 
-main.ts:84882
+main.ts:84988
 
 ***
 
@@ -114,7 +114,7 @@ default value: false
 
 #### Source
 
-main.ts:84887
+main.ts:84993
 
 ***
 
@@ -130,7 +130,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:84841
+main.ts:84947
 
 ***
 
@@ -149,7 +149,7 @@ en
 
 #### Source
 
-main.ts:84877
+main.ts:84983
 
 ***
 
@@ -168,7 +168,7 @@ English
 
 #### Source
 
-main.ts:84868
+main.ts:84974
 
 ***
 
@@ -183,7 +183,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:84944
+main.ts:85050
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Source
 
-main.ts:84859
+main.ts:84965
 
 ***
 
@@ -221,7 +221,7 @@ United Kingdom
 
 #### Source
 
-main.ts:84850
+main.ts:84956
 
 ***
 
@@ -236,7 +236,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:84949
+main.ts:85055
 
 ***
 
@@ -254,7 +254,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:84957
+main.ts:85063
 
 ***
 
@@ -280,7 +280,7 @@ example:
 
 #### Source
 
-main.ts:84939
+main.ts:85045
 
 ***
 
@@ -296,4 +296,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:84963
+main.ts:85069

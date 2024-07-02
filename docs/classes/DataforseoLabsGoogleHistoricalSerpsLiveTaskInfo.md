@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96741
+main.ts:97097
 
 ## Properties
 
@@ -140,7 +140,7 @@ the array includes objects with SERPs for each month within the specified time f
 
 #### Source
 
-main.ts:96737
+main.ts:97093
 
 ***
 
@@ -245,7 +245,7 @@ main.ts:23342
 
 #### Source
 
-main.ts:96745
+main.ts:97101
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:96745
 
 #### Source
 
-main.ts:96767
+main.ts:97123
 
 ***
 
@@ -289,4 +289,4 @@ main.ts:96767
 
 #### Source
 
-main.ts:96760
+main.ts:97116

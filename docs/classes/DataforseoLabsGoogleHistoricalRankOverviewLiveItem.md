@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:100644
+main.ts:101000
 
 ## Properties
 
@@ -42,7 +42,7 @@ ranking data relevant to the specified domain
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -50,7 +50,7 @@ ranking data relevant to the specified domain
 
 #### Source
 
-main.ts:100640
+main.ts:100996
 
 ***
 
@@ -66,7 +66,7 @@ month for which the data is provided
 
 #### Source
 
-main.ts:100638
+main.ts:100994
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Source
 
-main.ts:100634
+main.ts:100990
 
 ***
 
@@ -98,7 +98,7 @@ year for which the data is provided
 
 #### Source
 
-main.ts:100636
+main.ts:100992
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:100636
 
 #### Source
 
-main.ts:100653
+main.ts:101009
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:100653
 
 #### Source
 
-main.ts:100679
+main.ts:101035
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:100679
 
 #### Source
 
-main.ts:100672
+main.ts:101028

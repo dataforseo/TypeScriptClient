@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:62474
+main.ts:62576
 
 ## Properties
 
@@ -68,7 +68,7 @@ the category the video belongs to
 
 #### Source
 
-main.ts:62460
+main.ts:62562
 
 ***
 
@@ -84,7 +84,7 @@ the ID of the channel where the video is published
 
 #### Source
 
-main.ts:62435
+main.ts:62537
 
 ***
 
@@ -100,7 +100,7 @@ the URL of the page where the logo image of the channel is hosted
 
 #### Source
 
-main.ts:62441
+main.ts:62543
 
 ***
 
@@ -116,7 +116,7 @@ the name of the channel where the video is published
 
 #### Source
 
-main.ts:62437
+main.ts:62539
 
 ***
 
@@ -132,7 +132,7 @@ the URL of the channel where the video is published
 
 #### Source
 
-main.ts:62439
+main.ts:62541
 
 ***
 
@@ -148,7 +148,7 @@ number of comments on the video
 
 #### Source
 
-main.ts:62449
+main.ts:62551
 
 ***
 
@@ -164,7 +164,7 @@ description of the video
 
 #### Source
 
-main.ts:62443
+main.ts:62545
 
 ***
 
@@ -180,7 +180,7 @@ duration of the video
 
 #### Source
 
-main.ts:62464
+main.ts:62566
 
 ***
 
@@ -196,7 +196,7 @@ duration of the video in seconds
 
 #### Source
 
-main.ts:62466
+main.ts:62568
 
 ***
 
@@ -212,7 +212,7 @@ indicates whether the video is on live
 
 #### Source
 
-main.ts:62462
+main.ts:62564
 
 ***
 
@@ -228,7 +228,7 @@ keywords relevant to the video
 
 #### Source
 
-main.ts:62458
+main.ts:62560
 
 ***
 
@@ -244,7 +244,7 @@ number of likes on the video
 
 #### Source
 
-main.ts:62447
+main.ts:62549
 
 ***
 
@@ -260,7 +260,7 @@ the date when the video is published
 
 #### Source
 
-main.ts:62451
+main.ts:62553
 
 ***
 
@@ -277,7 +277,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:62425
+main.ts:62527
 
 ***
 
@@ -295,7 +295,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:62422
+main.ts:62524
 
 ***
 
@@ -311,7 +311,7 @@ array of elements that contain information about all possible streaming qualitie
 
 #### Source
 
-main.ts:62470
+main.ts:62572
 
 ***
 
@@ -327,7 +327,7 @@ array of elements describing properties of subtitles in the video
 
 #### Source
 
-main.ts:62468
+main.ts:62570
 
 ***
 
@@ -343,7 +343,7 @@ the URL of the page where the thumbnail is hosted
 
 #### Source
 
-main.ts:62433
+main.ts:62535
 
 ***
 
@@ -362,7 +362,7 @@ example:
 
 #### Source
 
-main.ts:62456
+main.ts:62558
 
 ***
 
@@ -378,7 +378,7 @@ title of the video
 
 #### Source
 
-main.ts:62429
+main.ts:62531
 
 ***
 
@@ -394,7 +394,7 @@ URL of the video
 
 #### Source
 
-main.ts:62431
+main.ts:62533
 
 ***
 
@@ -410,7 +410,7 @@ ID of the video received in a POST array
 
 #### Source
 
-main.ts:62427
+main.ts:62529
 
 ***
 
@@ -426,7 +426,7 @@ number of views of the video
 
 #### Source
 
-main.ts:62445
+main.ts:62547
 
 ## Methods
 
@@ -448,7 +448,7 @@ main.ts:62445
 
 #### Source
 
-main.ts:62479
+main.ts:62581
 
 ***
 
@@ -470,7 +470,7 @@ main.ts:62479
 
 #### Source
 
-main.ts:62531
+main.ts:62633
 
 ***
 
@@ -492,4 +492,4 @@ main.ts:62531
 
 #### Source
 
-main.ts:62524
+main.ts:62626

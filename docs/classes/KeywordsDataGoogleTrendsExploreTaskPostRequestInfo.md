@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:124789
+main.ts:125018
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Source
 
-main.ts:124721
+main.ts:124947
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Source
 
-main.ts:124730
+main.ts:124956
 
 ***
 
@@ -93,7 +93,7 @@ example:
 
 #### Source
 
-main.ts:124737
+main.ts:124963
 
 ***
 
@@ -103,14 +103,17 @@ main.ts:124737
 
 types of items returned
 optional field
-if you don’t specify this field, all items will be presented in the response;
-you can set only one item to speed up the execution of the request
+to speed up the execution of the request, specify one item at a time;
 possible values:
 "item_types": [
 "google_trends_graph",
 "google_trends_map",
 "google_trends_topics_list",
 "google_trends_queries_list"
+]
+default value:
+"item_types": [
+"google_trends_graph"
 ]
 
 #### Implementation of
@@ -119,7 +122,7 @@ possible values:
 
 #### Source
 
-main.ts:124759
+main.ts:124988
 
 ***
 
@@ -138,7 +141,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Source
 
-main.ts:124682
+main.ts:124908
 
 ***
 
@@ -160,7 +163,7 @@ en
 
 #### Source
 
-main.ts:124714
+main.ts:124940
 
 ***
 
@@ -182,7 +185,7 @@ English
 
 #### Source
 
-main.ts:124706
+main.ts:124932
 
 ***
 
@@ -204,7 +207,7 @@ example:
 
 #### Source
 
-main.ts:124698
+main.ts:124924
 
 ***
 
@@ -226,7 +229,7 @@ United Kingdom
 
 #### Source
 
-main.ts:124690
+main.ts:124916
 
 ***
 
@@ -250,7 +253,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:124779
+main.ts:125008
 
 ***
 
@@ -274,7 +277,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:124769
+main.ts:124998
 
 ***
 
@@ -294,7 +297,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:124785
+main.ts:125014
 
 ***
 
@@ -318,7 +321,7 @@ possible values for news, youtube, images, froogle:
 
 #### Source
 
-main.ts:124747
+main.ts:124973
 
 ***
 
@@ -334,7 +337,7 @@ type of element
 
 #### Source
 
-main.ts:124716
+main.ts:124942
 
 ## Methods
 
@@ -352,7 +355,7 @@ main.ts:124716
 
 #### Source
 
-main.ts:124798
+main.ts:125027
 
 ***
 
@@ -370,7 +373,7 @@ main.ts:124798
 
 #### Source
 
-main.ts:124836
+main.ts:125065
 
 ***
 
@@ -388,4 +391,4 @@ main.ts:124836
 
 #### Source
 
-main.ts:124829
+main.ts:125058

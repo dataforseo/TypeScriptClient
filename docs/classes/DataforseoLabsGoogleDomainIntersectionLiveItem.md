@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:93392
+main.ts:93748
 
 ## Properties
 
@@ -47,7 +47,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:93385
+main.ts:93741
 
 ***
 
@@ -63,7 +63,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:93382
+main.ts:93738
 
 ***
 
@@ -79,7 +79,7 @@ search engine type
 
 #### Source
 
-main.ts:93380
+main.ts:93736
 
 ***
 
@@ -96,7 +96,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:93388
+main.ts:93744
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:93388
 
 #### Source
 
-main.ts:93401
+main.ts:93757
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:93401
 
 #### Source
 
-main.ts:93421
+main.ts:93777
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:93421
 
 #### Source
 
-main.ts:93414
+main.ts:93770

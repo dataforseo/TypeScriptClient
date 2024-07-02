@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:159388
+main.ts:159636
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Source
 
-main.ts:159390
+main.ts:159638
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Source
 
-main.ts:159396
+main.ts:159644
 
 ***
 
@@ -57,7 +57,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:159394
+main.ts:159642
 
 ***
 
@@ -69,4 +69,4 @@ microdata validation test results
 
 #### Source
 
-main.ts:159392
+main.ts:159640

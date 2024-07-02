@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:88767
+main.ts:89119
 
 ## Properties
 
@@ -46,7 +46,7 @@ domain found for the specified category
 
 #### Source
 
-main.ts:88756
+main.ts:89108
 
 ***
 
@@ -62,7 +62,7 @@ primary domain
 
 #### Source
 
-main.ts:88758
+main.ts:89110
 
 ***
 
@@ -75,7 +75,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -83,7 +83,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Source
 
-main.ts:88763
+main.ts:89115
 
 ***
 
@@ -103,7 +103,7 @@ historical ranking and traffic data of the domain
 
 #### Source
 
-main.ts:88760
+main.ts:89112
 
 ***
 
@@ -119,7 +119,7 @@ current total count of organic SERPs that contain the domain
 
 #### Source
 
-main.ts:88748
+main.ts:89100
 
 ***
 
@@ -135,7 +135,7 @@ current organic ETV of the domain
 
 #### Source
 
-main.ts:88746
+main.ts:89098
 
 ***
 
@@ -152,7 +152,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Source
 
-main.ts:88751
+main.ts:89103
 
 ***
 
@@ -169,7 +169,7 @@ indicates how many new ranked elements were found for the domain
 
 #### Source
 
-main.ts:88754
+main.ts:89106
 
 ***
 
@@ -185,7 +185,7 @@ search engine type
 
 #### Source
 
-main.ts:88742
+main.ts:89094
 
 ***
 
@@ -201,7 +201,7 @@ categories for which domains are collected
 
 #### Source
 
-main.ts:88744
+main.ts:89096
 
 ## Methods
 
@@ -219,7 +219,7 @@ main.ts:88744
 
 #### Source
 
-main.ts:88776
+main.ts:89128
 
 ***
 
@@ -237,7 +237,7 @@ main.ts:88776
 
 #### Source
 
-main.ts:88818
+main.ts:89170
 
 ***
 
@@ -255,4 +255,4 @@ main.ts:88818
 
 #### Source
 
-main.ts:88811
+main.ts:89163

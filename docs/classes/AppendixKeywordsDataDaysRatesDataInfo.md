@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:215364
+main.ts:215833
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:215364
 
 #### Source
 
-main.ts:215349
+main.ts:215817
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:215349
 
 #### Source
 
-main.ts:215356
+main.ts:215824
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:215356
 
 #### Source
 
-main.ts:215354
+main.ts:215822
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:215354
 
 #### Source
 
-main.ts:215360
+main.ts:215829
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:215360
 
 #### Source
 
-main.ts:215355
+main.ts:215823
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:215355
 
 #### Source
 
-main.ts:215353
+main.ts:215821
 
 ***
 
@@ -128,13 +128,13 @@ main.ts:215353
 
 #### Source
 
-main.ts:215359
+main.ts:215828
 
 ***
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo`](AppendixKeywordPerformanceKeywordsDataLimitsRatesDataInfo.md)
+> **`optional`** **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
@@ -142,7 +142,7 @@ main.ts:215359
 
 #### Source
 
-main.ts:215357
+main.ts:215825
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:215357
 
 #### Source
 
-main.ts:215346
+main.ts:215814
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:215346
 
 #### Source
 
-main.ts:215347
+main.ts:215815
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:215347
 
 #### Source
 
-main.ts:215350
+main.ts:215818
 
 ***
 
@@ -198,7 +198,21 @@ main.ts:215350
 
 #### Source
 
-main.ts:215351
+main.ts:215819
+
+***
+
+### locations\_and\_languages?
+
+> **`optional`** **locations\_and\_languages**: `number`
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDaysRatesDataInfo`](../interfaces/IAppendixKeywordsDataDaysRatesDataInfo.md).[`locations_and_languages`](../interfaces/IAppendixKeywordsDataDaysRatesDataInfo.md#locations_and_languages)
+
+#### Source
+
+main.ts:215826
 
 ***
 
@@ -212,7 +226,7 @@ main.ts:215351
 
 #### Source
 
-main.ts:215348
+main.ts:215816
 
 ***
 
@@ -226,7 +240,7 @@ main.ts:215348
 
 #### Source
 
-main.ts:215358
+main.ts:215827
 
 ***
 
@@ -240,7 +254,7 @@ main.ts:215358
 
 #### Source
 
-main.ts:215352
+main.ts:215820
 
 ## Methods
 
@@ -258,7 +272,7 @@ main.ts:215352
 
 #### Source
 
-main.ts:215373
+main.ts:215842
 
 ***
 
@@ -276,7 +290,7 @@ main.ts:215373
 
 #### Source
 
-main.ts:215404
+main.ts:215874
 
 ***
 
@@ -294,4 +308,4 @@ main.ts:215404
 
 #### Source
 
-main.ts:215397
+main.ts:215867

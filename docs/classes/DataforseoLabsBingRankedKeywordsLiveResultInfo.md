@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:110090
+main.ts:110238
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)[]
 
 contains ranked keywords and related data
 
@@ -46,7 +46,7 @@ contains ranked keywords and related data
 
 #### Source
 
-main.ts:110086
+main.ts:110234
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:110078
+main.ts:110226
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:110074
+main.ts:110222
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:110071
+main.ts:110219
 
 ***
 
@@ -109,7 +109,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -117,7 +117,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Source
 
-main.ts:110081
+main.ts:110229
 
 ***
 
@@ -130,7 +130,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Index signature
 
- \[`key`: `string`\]: [`MetricsInfo`](MetricsInfo.md)
+ \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
 #### Implementation of
 
@@ -138,7 +138,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Source
 
-main.ts:110084
+main.ts:110232
 
 ***
 
@@ -154,7 +154,7 @@ search engine type
 
 #### Source
 
-main.ts:110066
+main.ts:110214
 
 ***
 
@@ -170,7 +170,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:110068
+main.ts:110216
 
 ***
 
@@ -186,7 +186,7 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:110076
+main.ts:110224
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:110076
 
 #### Source
 
-main.ts:110099
+main.ts:110247
 
 ***
 
@@ -222,7 +222,7 @@ main.ts:110099
 
 #### Source
 
-main.ts:110140
+main.ts:110288
 
 ***
 
@@ -240,4 +240,4 @@ main.ts:110140
 
 #### Source
 
-main.ts:110133
+main.ts:110281
