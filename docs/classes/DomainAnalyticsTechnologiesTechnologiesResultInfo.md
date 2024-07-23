@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:76214
+main.ts:76737
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of technology groups
 
 #### Source
 
-main.ts:76210
+main.ts:76733
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:76210
 
 #### Source
 
-main.ts:76223
+main.ts:76746
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:76223
 
 #### Source
 
-main.ts:76244
+main.ts:76767
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:76244
 
 #### Source
 
-main.ts:76237
+main.ts:76760

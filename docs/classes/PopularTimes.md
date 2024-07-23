@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:198753
+main.ts:201448
 
 ## Properties
 
@@ -51,7 +51,7 @@ information about busy hours of the local establishment on each day of the week
 
 #### Source
 
-main.ts:198749
+main.ts:201444
 
 ## Methods
 
@@ -69,7 +69,7 @@ main.ts:198749
 
 #### Source
 
-main.ts:198762
+main.ts:201457
 
 ***
 
@@ -87,7 +87,7 @@ main.ts:198762
 
 #### Source
 
-main.ts:198785
+main.ts:201480
 
 ***
 
@@ -105,4 +105,4 @@ main.ts:198785
 
 #### Source
 
-main.ts:198778
+main.ts:201473

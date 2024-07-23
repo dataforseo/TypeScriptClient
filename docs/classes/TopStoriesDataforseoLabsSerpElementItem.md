@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:97352
+main.ts:98406
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97352
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,7 +60,8 @@ main.ts:20243
 
 > **`optional`** **items**: [`TopStoriesElement`](TopStoriesElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -68,7 +69,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:97348
+main.ts:98402
 
 ***
 
@@ -86,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:97344
+main.ts:98397
 
 ***
 
@@ -103,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97340
+main.ts:98393
 
 ***
 
@@ -121,7 +122,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97337
+main.ts:98390
 
 ***
 
@@ -137,7 +138,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:97346
+main.ts:98399
 
 ## Methods
 
@@ -159,7 +160,7 @@ main.ts:97346
 
 #### Source
 
-main.ts:97357
+main.ts:98411
 
 ***
 
@@ -181,7 +182,7 @@ main.ts:97357
 
 #### Source
 
-main.ts:97383
+main.ts:98437
 
 ***
 
@@ -203,4 +204,4 @@ main.ts:97383
 
 #### Source
 
-main.ts:97376
+main.ts:98430

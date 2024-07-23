@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:94734
+main.ts:95793
 
 ## Properties
 
@@ -58,7 +58,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:94707
+main.ts:95766
 
 ***
 
@@ -81,7 +81,7 @@ default value: live
 
 #### Source
 
-main.ts:94693
+main.ts:95752
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:94679
+main.ts:95738
 
 ***
 
@@ -126,7 +126,7 @@ default value:
 
 #### Source
 
-main.ts:94666
+main.ts:95725
 
 ***
 
@@ -149,7 +149,7 @@ en
 
 #### Source
 
-main.ts:94657
+main.ts:95716
 
 ***
 
@@ -172,7 +172,7 @@ English
 
 #### Source
 
-main.ts:94648
+main.ts:95707
 
 ***
 
@@ -191,7 +191,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:94671
+main.ts:95730
 
 ***
 
@@ -214,7 +214,7 @@ example:
 
 #### Source
 
-main.ts:94639
+main.ts:95698
 
 ***
 
@@ -237,7 +237,7 @@ United Kingdom
 
 #### Source
 
-main.ts:94630
+main.ts:95689
 
 ***
 
@@ -256,7 +256,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:94684
+main.ts:95743
 
 ***
 
@@ -287,7 +287,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:94724
+main.ts:95783
 
 ***
 
@@ -307,7 +307,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:94730
+main.ts:95789
 
 ***
 
@@ -326,7 +326,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:94621
+main.ts:95680
 
 ## Methods
 
@@ -344,7 +344,7 @@ main.ts:94621
 
 #### Source
 
-main.ts:94743
+main.ts:95802
 
 ***
 
@@ -362,7 +362,7 @@ main.ts:94743
 
 #### Source
 
-main.ts:94784
+main.ts:95843
 
 ***
 
@@ -380,4 +380,4 @@ main.ts:94784
 
 #### Source
 
-main.ts:94777
+main.ts:95836

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:147519
+main.ts:150385
 
 ## Properties
 
@@ -39,6 +39,7 @@ main.ts:147519
 > **`optional`** **rank**: `number`
 
 rank of the target
+values represent real-time data for the date of the request
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article
 
@@ -48,7 +49,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:147515
+main.ts:150381
 
 ***
 
@@ -64,7 +65,7 @@ domain, subdomain or webpage from a POST array
 
 #### Source
 
-main.ts:147511
+main.ts:150376
 
 ## Methods
 
@@ -82,7 +83,7 @@ main.ts:147511
 
 #### Source
 
-main.ts:147528
+main.ts:150394
 
 ***
 
@@ -100,7 +101,7 @@ main.ts:147528
 
 #### Source
 
-main.ts:147546
+main.ts:150412
 
 ***
 
@@ -118,4 +119,4 @@ main.ts:147546
 
 #### Source
 
-main.ts:147539
+main.ts:150405

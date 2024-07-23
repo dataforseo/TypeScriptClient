@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`CarouselElement`](../classes/CarouselElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:97238
+main.ts:98289
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:97232
+main.ts:98282
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97228
+main.ts:98278
 
 ***
 
@@ -65,7 +66,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97225
+main.ts:98275
 
 ***
 
@@ -77,7 +78,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:97236
+main.ts:98286
 
 ***
 
@@ -89,4 +90,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97234
+main.ts:98284

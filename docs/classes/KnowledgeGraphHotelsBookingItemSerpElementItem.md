@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:28602
+main.ts:28999
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:28602
 
 #### Source
 
-main.ts:19855
+main.ts:20177
 
 ***
 
@@ -70,7 +70,7 @@ kc:/local:hotel booking
 
 #### Source
 
-main.ts:28591
+main.ts:28988
 
 ***
 
@@ -89,7 +89,7 @@ example:
 
 #### Source
 
-main.ts:28582
+main.ts:28979
 
 ***
 
@@ -108,7 +108,7 @@ example:
 
 #### Source
 
-main.ts:28587
+main.ts:28984
 
 ***
 
@@ -125,7 +125,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:28594
+main.ts:28991
 
 ***
 
@@ -143,7 +143,7 @@ left, right
 
 #### Source
 
-main.ts:28573
+main.ts:28970
 
 ***
 
@@ -160,7 +160,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:28569
+main.ts:28966
 
 ***
 
@@ -178,7 +178,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:28566
+main.ts:28963
 
 ***
 
@@ -196,7 +196,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:28598
+main.ts:28995
 
 ***
 
@@ -212,7 +212,7 @@ title of a given link element
 
 #### Source
 
-main.ts:28577
+main.ts:28974
 
 ***
 
@@ -228,7 +228,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:28575
+main.ts:28972
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:28575
 
 #### Source
 
-main.ts:28607
+main.ts:29004
 
 ***
 
@@ -272,7 +272,7 @@ main.ts:28607
 
 #### Source
 
-main.ts:28638
+main.ts:29035
 
 ***
 
@@ -294,4 +294,4 @@ main.ts:28638
 
 #### Source
 
-main.ts:28631
+main.ts:29028

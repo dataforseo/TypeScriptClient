@@ -37,7 +37,7 @@
 
 #### Source
 
-main.ts:20995
+main.ts:21322
 
 ## Properties
 
@@ -47,7 +47,7 @@ main.ts:20995
 
 #### Source
 
-main.ts:20993
+main.ts:21320
 
 ## Methods
 
@@ -65,7 +65,7 @@ main.ts:20993
 
 #### Source
 
-main.ts:21005
+main.ts:21332
 
 ***
 
@@ -83,7 +83,7 @@ main.ts:21005
 
 #### Source
 
-main.ts:21041
+main.ts:21368
 
 ***
 
@@ -101,4 +101,4 @@ main.ts:21041
 
 #### Source
 
-main.ts:21014
+main.ts:21341

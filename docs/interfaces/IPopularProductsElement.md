@@ -20,7 +20,7 @@ description
 
 #### Source
 
-main.ts:33366
+main.ts:33693
 
 ***
 
@@ -32,7 +32,7 @@ URL of the image
 
 #### Source
 
-main.ts:33370
+main.ts:33697
 
 ***
 
@@ -44,7 +44,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:33372
+main.ts:33699
 
 ***
 
@@ -57,7 +57,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:33375
+main.ts:33702
 
 ***
 
@@ -69,7 +69,7 @@ seller of the product
 
 #### Source
 
-main.ts:33368
+main.ts:33695
 
 ***
 
@@ -81,7 +81,7 @@ title of a given link element
 
 #### Source
 
-main.ts:33364
+main.ts:33691
 
 ***
 
@@ -93,4 +93,4 @@ type of element
 
 #### Source
 
-main.ts:33362
+main.ts:33689

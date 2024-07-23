@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:194213
+main.ts:196906
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:194213
 
 #### Source
 
-main.ts:21192
+main.ts:21519
 
 ***
 
@@ -68,7 +68,7 @@ age rating and age-based content advisories
 
 #### Source
 
-main.ts:194175
+main.ts:196868
 
 ***
 
@@ -84,7 +84,7 @@ ID of the app
 
 #### Source
 
-main.ts:194151
+main.ts:196844
 
 ***
 
@@ -100,7 +100,7 @@ all relevant categories/genres of the app
 
 #### Source
 
-main.ts:194171
+main.ts:196864
 
 ***
 
@@ -116,7 +116,7 @@ description of the app
 
 #### Source
 
-main.ts:194159
+main.ts:196852
 
 ***
 
@@ -132,7 +132,7 @@ name of the app developer
 
 #### Source
 
-main.ts:194177
+main.ts:196870
 
 ***
 
@@ -148,7 +148,7 @@ ID of the app developer
 
 #### Source
 
-main.ts:194179
+main.ts:196872
 
 ***
 
@@ -164,7 +164,7 @@ URL to the developer page on App Store
 
 #### Source
 
-main.ts:194181
+main.ts:196874
 
 ***
 
@@ -180,7 +180,7 @@ URL to the app icon
 
 #### Source
 
-main.ts:194157
+main.ts:196850
 
 ***
 
@@ -197,7 +197,7 @@ contains URLs to the images used on the app page on App Store
 
 #### Source
 
-main.ts:194203
+main.ts:196896
 
 ***
 
@@ -213,7 +213,7 @@ indicates whether the app is free
 
 #### Source
 
-main.ts:194167
+main.ts:196860
 
 ***
 
@@ -229,7 +229,7 @@ languages supported in the app
 
 #### Source
 
-main.ts:194173
+main.ts:196866
 
 ***
 
@@ -248,7 +248,7 @@ example:
 
 #### Source
 
-main.ts:194197
+main.ts:196890
 
 ***
 
@@ -264,7 +264,7 @@ main category/genre of the app
 
 #### Source
 
-main.ts:194169
+main.ts:196862
 
 ***
 
@@ -280,7 +280,7 @@ minimum OS version required to install the app
 
 #### Source
 
-main.ts:194185
+main.ts:196878
 
 ***
 
@@ -297,7 +297,7 @@ information about apps built by the same developer
 
 #### Source
 
-main.ts:194209
+main.ts:196902
 
 ***
 
@@ -314,13 +314,13 @@ can take the following values: left
 
 #### Source
 
-main.ts:194149
+main.ts:196842
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`Price`](Price.md)
 
 price of the app
 
@@ -330,7 +330,7 @@ price of the app
 
 #### Source
 
-main.ts:194165
+main.ts:196858
 
 ***
 
@@ -347,7 +347,7 @@ absolute position among all apps on the list
 
 #### Source
 
-main.ts:194146
+main.ts:196839
 
 ***
 
@@ -364,7 +364,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:194143
+main.ts:196836
 
 ***
 
@@ -380,7 +380,7 @@ average rating of the app
 
 #### Source
 
-main.ts:194163
+main.ts:196856
 
 ***
 
@@ -399,7 +399,7 @@ example:
 
 #### Source
 
-main.ts:194192
+main.ts:196885
 
 ***
 
@@ -415,7 +415,7 @@ the total number of reviews of the app
 
 #### Source
 
-main.ts:194161
+main.ts:196854
 
 ***
 
@@ -432,7 +432,7 @@ displays apps similar to the app in a POST request
 
 #### Source
 
-main.ts:194206
+main.ts:196899
 
 ***
 
@@ -448,7 +448,7 @@ size of the app
 
 #### Source
 
-main.ts:194187
+main.ts:196880
 
 ***
 
@@ -464,7 +464,7 @@ title of the app
 
 #### Source
 
-main.ts:194153
+main.ts:196846
 
 ***
 
@@ -481,7 +481,7 @@ contains the latest update notes from the developer
 
 #### Source
 
-main.ts:194200
+main.ts:196893
 
 ***
 
@@ -497,7 +497,7 @@ URL to the app page on App Store
 
 #### Source
 
-main.ts:194155
+main.ts:196848
 
 ***
 
@@ -513,7 +513,7 @@ current version of the app
 
 #### Source
 
-main.ts:194183
+main.ts:196876
 
 ## Methods
 
@@ -535,7 +535,7 @@ main.ts:194183
 
 #### Source
 
-main.ts:194218
+main.ts:196911
 
 ***
 
@@ -557,7 +557,7 @@ main.ts:194218
 
 #### Source
 
-main.ts:194287
+main.ts:196980
 
 ***
 
@@ -579,4 +579,4 @@ main.ts:194287
 
 #### Source
 
-main.ts:194280
+main.ts:196973

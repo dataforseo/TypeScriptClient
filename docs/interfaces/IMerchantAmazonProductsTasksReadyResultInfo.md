@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:179875
+main.ts:182568
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the Amazon Products Advanced task
 
 #### Source
 
-main.ts:179879
+main.ts:182572
 
 ***
 
@@ -44,7 +44,7 @@ URL for collecting the results of the Amazon Products HTML task
 
 #### Source
 
-main.ts:179881
+main.ts:182574
 
 ***
 
@@ -57,7 +57,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:179868
+main.ts:182561
 
 ***
 
@@ -69,7 +69,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:179870
+main.ts:182563
 
 ***
 
@@ -82,7 +82,7 @@ can take the following values: organic
 
 #### Source
 
-main.ts:179873
+main.ts:182566
 
 ***
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Source
 
-main.ts:179877
+main.ts:182570

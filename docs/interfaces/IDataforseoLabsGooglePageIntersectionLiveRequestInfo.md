@@ -31,7 +31,7 @@ example:
 
 #### Source
 
-main.ts:101580
+main.ts:102595
 
 ***
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:101681
+main.ts:102696
 
 ***
 
@@ -76,7 +76,7 @@ default value: false
 
 #### Source
 
-main.ts:101661
+main.ts:102676
 
 ***
 
@@ -94,7 +94,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:101656
+main.ts:102671
 
 ***
 
@@ -109,7 +109,7 @@ default value: false
 
 #### Source
 
-main.ts:101648
+main.ts:102663
 
 ***
 
@@ -124,7 +124,7 @@ default value: true
 
 #### Source
 
-main.ts:101635
+main.ts:102650
 
 ***
 
@@ -142,7 +142,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Source
 
-main.ts:101643
+main.ts:102658
 
 ***
 
@@ -160,7 +160,7 @@ default value:
 
 #### Source
 
-main.ts:101620
+main.ts:102635
 
 ***
 
@@ -178,7 +178,7 @@ en
 
 #### Source
 
-main.ts:101612
+main.ts:102627
 
 ***
 
@@ -196,7 +196,7 @@ English
 
 #### Source
 
-main.ts:101604
+main.ts:102619
 
 ***
 
@@ -211,7 +211,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:101625
+main.ts:102640
 
 ***
 
@@ -229,7 +229,7 @@ example:
 
 #### Source
 
-main.ts:101596
+main.ts:102611
 
 ***
 
@@ -247,7 +247,7 @@ United Kingdom
 
 #### Source
 
-main.ts:101588
+main.ts:102603
 
 ***
 
@@ -262,7 +262,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Source
 
-main.ts:101630
+main.ts:102645
 
 ***
 
@@ -288,7 +288,7 @@ example:
 
 #### Source
 
-main.ts:101697
+main.ts:102712
 
 ***
 
@@ -323,7 +323,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Source
 
-main.ts:101567
+main.ts:102582
 
 ***
 
@@ -339,4 +339,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:101703
+main.ts:102718

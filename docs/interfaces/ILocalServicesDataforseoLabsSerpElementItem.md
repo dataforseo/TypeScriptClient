@@ -24,7 +24,7 @@ domain where a link points
 
 #### Source
 
-main.ts:100617
+main.ts:101633
 
 ***
 
@@ -32,12 +32,11 @@ main.ts:100617
 
 > **`optional`** **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:100620
+main.ts:101635
 
 ***
 
@@ -51,7 +50,7 @@ left, right
 
 #### Source
 
-main.ts:100609
+main.ts:101625
 
 ***
 
@@ -64,7 +63,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:100605
+main.ts:101621
 
 ***
 
@@ -77,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:100602
+main.ts:101618
 
 ***
 
@@ -85,11 +84,11 @@ main.ts:100602
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Source
 
-main.ts:100613
+main.ts:101629
 
 ***
 
@@ -97,11 +96,11 @@ main.ts:100613
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:100615
+main.ts:101631
 
 ***
 
@@ -113,4 +112,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:100611
+main.ts:101627

@@ -26,7 +26,7 @@
 
 #### Source
 
-main.ts:8821
+main.ts:8900
 
 ## Properties
 
@@ -36,7 +36,7 @@ main.ts:8821
 
 #### Source
 
-main.ts:8818
+main.ts:8897
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:8818
 
 #### Source
 
-main.ts:8817
+main.ts:8896
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:8817
 
 #### Source
 
-main.ts:8819
+main.ts:8898
 
 ## Methods
 
@@ -100,7 +100,7 @@ Successful operation
 
 #### Source
 
-main.ts:11014
+main.ts:11093
 
 ***
 
@@ -124,7 +124,7 @@ Successful operation
 
 #### Source
 
-main.ts:10973
+main.ts:11052
 
 ***
 
@@ -146,7 +146,7 @@ Successful operation
 
 #### Source
 
-main.ts:10892
+main.ts:10971
 
 ***
 
@@ -162,7 +162,7 @@ Successful operation
 
 #### Source
 
-main.ts:10933
+main.ts:11012
 
 ***
 
@@ -184,7 +184,7 @@ Successful operation
 
 #### Source
 
-main.ts:10813
+main.ts:10892
 
 ***
 
@@ -208,7 +208,7 @@ Successful operation
 
 #### Source
 
-main.ts:10772
+main.ts:10851
 
 ***
 
@@ -230,7 +230,7 @@ Successful operation
 
 #### Source
 
-main.ts:10691
+main.ts:10770
 
 ***
 
@@ -246,7 +246,7 @@ Successful operation
 
 #### Source
 
-main.ts:10732
+main.ts:10811
 
 ***
 
@@ -268,7 +268,7 @@ Successful operation
 
 #### Source
 
-main.ts:10649
+main.ts:10728
 
 ***
 
@@ -292,7 +292,7 @@ Successful operation
 
 #### Source
 
-main.ts:10608
+main.ts:10687
 
 ***
 
@@ -314,7 +314,7 @@ Successful operation
 
 #### Source
 
-main.ts:10527
+main.ts:10606
 
 ***
 
@@ -330,7 +330,91 @@ Successful operation
 
 #### Source
 
-main.ts:10568
+main.ts:10647
+
+***
+
+### bingSearchVolumeHistoryLive()
+
+> **bingSearchVolumeHistoryLive**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`KeywordsDataBingSearchVolumeHistoryLiveRequestInfo`](KeywordsDataBingSearchVolumeHistoryLiveRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:11294
+
+***
+
+### bingSearchVolumeHistoryTaskGet()
+
+> **bingSearchVolumeHistoryTaskGet**(`id`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)\>
+
+#### Parameters
+
+• **id**: `string`
+
+task identifier
+unique task identifier in our system in the UUID format
+you will be able to use it within 30 days to request the results of the task at any time
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:11253
+
+***
+
+### bingSearchVolumeHistoryTaskPost()
+
+> **bingSearchVolumeHistoryTaskPost**(`body`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:11172
+
+***
+
+### bingSearchVolumeHistoryTasksReady()
+
+> **bingSearchVolumeHistoryTasksReady**(): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:11213
 
 ***
 
@@ -352,7 +436,7 @@ Successful operation
 
 #### Source
 
-main.ts:10485
+main.ts:10564
 
 ***
 
@@ -376,7 +460,7 @@ Successful operation
 
 #### Source
 
-main.ts:10444
+main.ts:10523
 
 ***
 
@@ -398,7 +482,7 @@ Successful operation
 
 #### Source
 
-main.ts:10363
+main.ts:10442
 
 ***
 
@@ -414,7 +498,7 @@ Successful operation
 
 #### Source
 
-main.ts:10404
+main.ts:10483
 
 ***
 
@@ -436,7 +520,7 @@ Successful operation
 
 #### Source
 
-main.ts:10205
+main.ts:10284
 
 ***
 
@@ -458,7 +542,7 @@ Successful operation
 
 #### Source
 
-main.ts:10121
+main.ts:10200
 
 ***
 
@@ -480,7 +564,7 @@ Successful operation
 
 #### Source
 
-main.ts:10247
+main.ts:10326
 
 ***
 
@@ -502,7 +586,7 @@ Successful operation
 
 #### Source
 
-main.ts:10163
+main.ts:10242
 
 ***
 
@@ -524,7 +608,7 @@ Successful operation
 
 #### Source
 
-main.ts:9677
+main.ts:9756
 
 ***
 
@@ -548,7 +632,7 @@ Successful operation
 
 #### Source
 
-main.ts:9636
+main.ts:9715
 
 ***
 
@@ -570,7 +654,7 @@ Successful operation
 
 #### Source
 
-main.ts:9555
+main.ts:9634
 
 ***
 
@@ -586,7 +670,7 @@ Successful operation
 
 #### Source
 
-main.ts:9596
+main.ts:9675
 
 ***
 
@@ -608,7 +692,7 @@ Successful operation
 
 #### Source
 
-main.ts:9513
+main.ts:9592
 
 ***
 
@@ -632,7 +716,7 @@ Successful operation
 
 #### Source
 
-main.ts:9472
+main.ts:9551
 
 ***
 
@@ -654,7 +738,7 @@ Successful operation
 
 #### Source
 
-main.ts:9391
+main.ts:9470
 
 ***
 
@@ -670,7 +754,7 @@ Successful operation
 
 #### Source
 
-main.ts:9432
+main.ts:9511
 
 ***
 
@@ -692,7 +776,7 @@ Successful operation
 
 #### Source
 
-main.ts:9349
+main.ts:9428
 
 ***
 
@@ -716,7 +800,7 @@ Successful operation
 
 #### Source
 
-main.ts:9308
+main.ts:9387
 
 ***
 
@@ -738,7 +822,7 @@ Successful operation
 
 #### Source
 
-main.ts:9227
+main.ts:9306
 
 ***
 
@@ -754,7 +838,7 @@ Successful operation
 
 #### Source
 
-main.ts:9268
+main.ts:9347
 
 ***
 
@@ -776,7 +860,7 @@ Successful operation
 
 #### Source
 
-main.ts:9185
+main.ts:9264
 
 ***
 
@@ -800,7 +884,7 @@ Successful operation
 
 #### Source
 
-main.ts:9144
+main.ts:9223
 
 ***
 
@@ -822,7 +906,7 @@ Successful operation
 
 #### Source
 
-main.ts:9063
+main.ts:9142
 
 ***
 
@@ -838,7 +922,7 @@ Successful operation
 
 #### Source
 
-main.ts:9104
+main.ts:9183
 
 ***
 
@@ -854,7 +938,7 @@ Successful operation
 
 #### Source
 
-main.ts:8913
+main.ts:8992
 
 ***
 
@@ -870,7 +954,7 @@ Successful operation
 
 #### Source
 
-main.ts:9837
+main.ts:9916
 
 ***
 
@@ -892,7 +976,7 @@ Successful operation
 
 #### Source
 
-main.ts:9997
+main.ts:10076
 
 ***
 
@@ -916,7 +1000,7 @@ Successful operation
 
 #### Source
 
-main.ts:9956
+main.ts:10035
 
 ***
 
@@ -938,7 +1022,7 @@ Successful operation
 
 #### Source
 
-main.ts:9875
+main.ts:9954
 
 ***
 
@@ -954,7 +1038,7 @@ Successful operation
 
 #### Source
 
-main.ts:9916
+main.ts:9995
 
 ***
 
@@ -970,7 +1054,7 @@ Successful operation
 
 #### Source
 
-main.ts:10854
+main.ts:10933
 
 ***
 
@@ -986,7 +1070,7 @@ Successful operation
 
 #### Source
 
-main.ts:10325
+main.ts:10404
 
 ***
 
@@ -1002,7 +1086,23 @@ Successful operation
 
 #### Source
 
-main.ts:10288
+main.ts:10367
+
+***
+
+### keywordsDataBingSearchVolumeHistoryLocationsAndLanguages()
+
+> **keywordsDataBingSearchVolumeHistoryLocationsAndLanguages**(): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:11134
 
 ***
 
@@ -1018,7 +1118,7 @@ Successful operation
 
 #### Source
 
-main.ts:10038
+main.ts:10117
 
 ***
 
@@ -1044,7 +1144,7 @@ Successful operation
 
 #### Source
 
-main.ts:10080
+main.ts:10159
 
 ***
 
@@ -1066,7 +1166,7 @@ Successful operation
 
 #### Source
 
-main.ts:8872
+main.ts:8951
 
 ***
 
@@ -1082,7 +1182,7 @@ Successful operation
 
 #### Source
 
-main.ts:9025
+main.ts:9104
 
 ***
 
@@ -1098,7 +1198,7 @@ Successful operation
 
 #### Source
 
-main.ts:8950
+main.ts:9029
 
 ***
 
@@ -1120,7 +1220,7 @@ Successful operation
 
 #### Source
 
-main.ts:8988
+main.ts:9067
 
 ***
 
@@ -1136,7 +1236,7 @@ Successful operation
 
 #### Source
 
-main.ts:9800
+main.ts:9879
 
 ***
 
@@ -1152,7 +1252,7 @@ Successful operation
 
 #### Source
 
-main.ts:9718
+main.ts:9797
 
 ***
 
@@ -1178,7 +1278,7 @@ Successful operation
 
 #### Source
 
-main.ts:9760
+main.ts:9839
 
 ***
 
@@ -1200,7 +1300,7 @@ Successful operation
 
 #### Source
 
-main.ts:8830
+main.ts:8909
 
 ***
 
@@ -1218,7 +1318,7 @@ main.ts:8830
 
 #### Source
 
-main.ts:11034
+main.ts:11113
 
 ***
 
@@ -1236,7 +1336,7 @@ main.ts:11034
 
 #### Source
 
-main.ts:10992
+main.ts:11071
 
 ***
 
@@ -1254,7 +1354,7 @@ main.ts:10992
 
 #### Source
 
-main.ts:10912
+main.ts:10991
 
 ***
 
@@ -1272,7 +1372,7 @@ main.ts:10912
 
 #### Source
 
-main.ts:10949
+main.ts:11028
 
 ***
 
@@ -1290,7 +1390,7 @@ main.ts:10949
 
 #### Source
 
-main.ts:10833
+main.ts:10912
 
 ***
 
@@ -1308,7 +1408,7 @@ main.ts:10833
 
 #### Source
 
-main.ts:10791
+main.ts:10870
 
 ***
 
@@ -1326,7 +1426,7 @@ main.ts:10791
 
 #### Source
 
-main.ts:10711
+main.ts:10790
 
 ***
 
@@ -1344,7 +1444,7 @@ main.ts:10711
 
 #### Source
 
-main.ts:10748
+main.ts:10827
 
 ***
 
@@ -1362,7 +1462,7 @@ main.ts:10748
 
 #### Source
 
-main.ts:10669
+main.ts:10748
 
 ***
 
@@ -1380,7 +1480,7 @@ main.ts:10669
 
 #### Source
 
-main.ts:10627
+main.ts:10706
 
 ***
 
@@ -1398,7 +1498,7 @@ main.ts:10627
 
 #### Source
 
-main.ts:10547
+main.ts:10626
 
 ***
 
@@ -1416,7 +1516,79 @@ main.ts:10547
 
 #### Source
 
-main.ts:10584
+main.ts:10663
+
+***
+
+### processBingSearchVolumeHistoryLive()
+
+> **`protected`** **processBingSearchVolumeHistoryLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)\>
+
+#### Source
+
+main.ts:11314
+
+***
+
+### processBingSearchVolumeHistoryTaskGet()
+
+> **`protected`** **processBingSearchVolumeHistoryTaskGet**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)\>
+
+#### Source
+
+main.ts:11272
+
+***
+
+### processBingSearchVolumeHistoryTaskPost()
+
+> **`protected`** **processBingSearchVolumeHistoryTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)\>
+
+#### Source
+
+main.ts:11192
+
+***
+
+### processBingSearchVolumeHistoryTasksReady()
+
+> **`protected`** **processBingSearchVolumeHistoryTasksReady**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)\>
+
+#### Source
+
+main.ts:11229
 
 ***
 
@@ -1434,7 +1606,7 @@ main.ts:10584
 
 #### Source
 
-main.ts:10505
+main.ts:10584
 
 ***
 
@@ -1452,7 +1624,7 @@ main.ts:10505
 
 #### Source
 
-main.ts:10463
+main.ts:10542
 
 ***
 
@@ -1470,7 +1642,7 @@ main.ts:10463
 
 #### Source
 
-main.ts:10383
+main.ts:10462
 
 ***
 
@@ -1488,7 +1660,7 @@ main.ts:10383
 
 #### Source
 
-main.ts:10420
+main.ts:10499
 
 ***
 
@@ -1506,7 +1678,7 @@ main.ts:10420
 
 #### Source
 
-main.ts:10225
+main.ts:10304
 
 ***
 
@@ -1524,7 +1696,7 @@ main.ts:10225
 
 #### Source
 
-main.ts:10141
+main.ts:10220
 
 ***
 
@@ -1542,7 +1714,7 @@ main.ts:10141
 
 #### Source
 
-main.ts:10267
+main.ts:10346
 
 ***
 
@@ -1560,7 +1732,7 @@ main.ts:10267
 
 #### Source
 
-main.ts:10183
+main.ts:10262
 
 ***
 
@@ -1578,7 +1750,7 @@ main.ts:10183
 
 #### Source
 
-main.ts:9697
+main.ts:9776
 
 ***
 
@@ -1596,7 +1768,7 @@ main.ts:9697
 
 #### Source
 
-main.ts:9655
+main.ts:9734
 
 ***
 
@@ -1614,7 +1786,7 @@ main.ts:9655
 
 #### Source
 
-main.ts:9575
+main.ts:9654
 
 ***
 
@@ -1632,7 +1804,7 @@ main.ts:9575
 
 #### Source
 
-main.ts:9612
+main.ts:9691
 
 ***
 
@@ -1650,7 +1822,7 @@ main.ts:9612
 
 #### Source
 
-main.ts:9533
+main.ts:9612
 
 ***
 
@@ -1668,7 +1840,7 @@ main.ts:9533
 
 #### Source
 
-main.ts:9491
+main.ts:9570
 
 ***
 
@@ -1686,7 +1858,7 @@ main.ts:9491
 
 #### Source
 
-main.ts:9411
+main.ts:9490
 
 ***
 
@@ -1704,7 +1876,7 @@ main.ts:9411
 
 #### Source
 
-main.ts:9448
+main.ts:9527
 
 ***
 
@@ -1722,7 +1894,7 @@ main.ts:9448
 
 #### Source
 
-main.ts:9369
+main.ts:9448
 
 ***
 
@@ -1740,7 +1912,7 @@ main.ts:9369
 
 #### Source
 
-main.ts:9327
+main.ts:9406
 
 ***
 
@@ -1758,7 +1930,7 @@ main.ts:9327
 
 #### Source
 
-main.ts:9247
+main.ts:9326
 
 ***
 
@@ -1776,7 +1948,7 @@ main.ts:9247
 
 #### Source
 
-main.ts:9284
+main.ts:9363
 
 ***
 
@@ -1794,7 +1966,7 @@ main.ts:9284
 
 #### Source
 
-main.ts:9205
+main.ts:9284
 
 ***
 
@@ -1812,7 +1984,7 @@ main.ts:9205
 
 #### Source
 
-main.ts:9163
+main.ts:9242
 
 ***
 
@@ -1830,7 +2002,7 @@ main.ts:9163
 
 #### Source
 
-main.ts:9083
+main.ts:9162
 
 ***
 
@@ -1848,7 +2020,7 @@ main.ts:9083
 
 #### Source
 
-main.ts:9120
+main.ts:9199
 
 ***
 
@@ -1866,7 +2038,7 @@ main.ts:9120
 
 #### Source
 
-main.ts:8929
+main.ts:9008
 
 ***
 
@@ -1884,7 +2056,7 @@ main.ts:8929
 
 #### Source
 
-main.ts:9853
+main.ts:9932
 
 ***
 
@@ -1902,7 +2074,7 @@ main.ts:9853
 
 #### Source
 
-main.ts:10017
+main.ts:10096
 
 ***
 
@@ -1920,7 +2092,7 @@ main.ts:10017
 
 #### Source
 
-main.ts:9975
+main.ts:10054
 
 ***
 
@@ -1938,7 +2110,7 @@ main.ts:9975
 
 #### Source
 
-main.ts:9895
+main.ts:9974
 
 ***
 
@@ -1956,7 +2128,7 @@ main.ts:9895
 
 #### Source
 
-main.ts:9932
+main.ts:10011
 
 ***
 
@@ -1974,7 +2146,7 @@ main.ts:9932
 
 #### Source
 
-main.ts:10870
+main.ts:10949
 
 ***
 
@@ -1992,7 +2164,7 @@ main.ts:10870
 
 #### Source
 
-main.ts:10341
+main.ts:10420
 
 ***
 
@@ -2010,7 +2182,25 @@ main.ts:10341
 
 #### Source
 
-main.ts:10304
+main.ts:10383
+
+***
+
+### processKeywordsDataBingSearchVolumeHistoryLocationsAndLanguages()
+
+> **`protected`** **processKeywordsDataBingSearchVolumeHistoryLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)\>
+
+#### Source
+
+main.ts:11150
 
 ***
 
@@ -2028,7 +2218,7 @@ main.ts:10304
 
 #### Source
 
-main.ts:10054
+main.ts:10133
 
 ***
 
@@ -2046,7 +2236,7 @@ main.ts:10054
 
 #### Source
 
-main.ts:10099
+main.ts:10178
 
 ***
 
@@ -2064,7 +2254,7 @@ main.ts:10099
 
 #### Source
 
-main.ts:8892
+main.ts:8971
 
 ***
 
@@ -2082,7 +2272,7 @@ main.ts:8892
 
 #### Source
 
-main.ts:9041
+main.ts:9120
 
 ***
 
@@ -2100,7 +2290,7 @@ main.ts:9041
 
 #### Source
 
-main.ts:8966
+main.ts:9045
 
 ***
 
@@ -2118,7 +2308,7 @@ main.ts:8966
 
 #### Source
 
-main.ts:9004
+main.ts:9083
 
 ***
 
@@ -2136,7 +2326,7 @@ main.ts:9004
 
 #### Source
 
-main.ts:9816
+main.ts:9895
 
 ***
 
@@ -2154,7 +2344,7 @@ main.ts:9816
 
 #### Source
 
-main.ts:9734
+main.ts:9813
 
 ***
 
@@ -2172,7 +2362,7 @@ main.ts:9734
 
 #### Source
 
-main.ts:9779
+main.ts:9858
 
 ***
 
@@ -2190,4 +2380,4 @@ main.ts:9779
 
 #### Source
 
-main.ts:8850
+main.ts:8929

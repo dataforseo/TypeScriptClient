@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:100350
+main.ts:101370
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:100350
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20243
 
 > **`optional`** **items**: [`LicensesElement`](LicensesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:100346
+main.ts:101366
 
 ***
 
@@ -87,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:100341
+main.ts:101362
 
 ***
 
@@ -104,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:100337
+main.ts:101358
 
 ***
 
@@ -121,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:100334
+main.ts:101355
 
 ***
 
@@ -137,7 +136,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:100343
+main.ts:101364
 
 ## Methods
 
@@ -159,7 +158,7 @@ main.ts:100343
 
 #### Source
 
-main.ts:100355
+main.ts:101375
 
 ***
 
@@ -181,7 +180,7 @@ main.ts:100355
 
 #### Source
 
-main.ts:100381
+main.ts:101401
 
 ***
 
@@ -203,4 +202,4 @@ main.ts:100381
 
 #### Source
 
-main.ts:100374
+main.ts:101394

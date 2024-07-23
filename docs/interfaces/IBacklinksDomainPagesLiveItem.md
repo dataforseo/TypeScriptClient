@@ -20,7 +20,7 @@ type of encoding
 
 #### Source
 
-main.ts:141460
+main.ts:144293
 
 ***
 
@@ -33,7 +33,7 @@ domain where the page was found
 
 #### Source
 
-main.ts:141424
+main.ts:144257
 
 ***
 
@@ -46,7 +46,7 @@ indicates the size of the encoded page, in bytes
 
 #### Source
 
-main.ts:141458
+main.ts:144291
 
 ***
 
@@ -61,7 +61,7 @@ example:
 
 #### Source
 
-main.ts:141448
+main.ts:144281
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Source
 
-main.ts:141438
+main.ts:144271
 
 ***
 
@@ -89,7 +89,7 @@ Internet Protocol address
 
 #### Source
 
-main.ts:141432
+main.ts:144265
 
 ***
 
@@ -102,7 +102,7 @@ indicates the URL to redirect a page to if exists
 
 #### Source
 
-main.ts:141453
+main.ts:144286
 
 ***
 
@@ -115,7 +115,7 @@ main website domain does not include subdomains
 
 #### Source
 
-main.ts:141421
+main.ts:144254
 
 ***
 
@@ -127,7 +127,7 @@ types of media used to display a page
 
 #### Source
 
-main.ts:141462
+main.ts:144295
 
 ***
 
@@ -139,7 +139,7 @@ page meta data
 
 #### Source
 
-main.ts:141466
+main.ts:144299
 
 ***
 
@@ -152,7 +152,7 @@ relevant page URL
 
 #### Source
 
-main.ts:141430
+main.ts:144263
 
 ***
 
@@ -164,7 +164,7 @@ contains backlink data for this page
 
 #### Source
 
-main.ts:141468
+main.ts:144301
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Source
 
-main.ts:141443
+main.ts:144276
 
 ***
 
@@ -191,7 +191,7 @@ server version
 
 #### Source
 
-main.ts:141464
+main.ts:144297
 
 ***
 
@@ -203,7 +203,7 @@ indicates the page size, in bytes
 
 #### Source
 
-main.ts:141455
+main.ts:144288
 
 ***
 
@@ -215,7 +215,7 @@ HTTP status code of the page
 
 #### Source
 
-main.ts:141450
+main.ts:144283
 
 ***
 
@@ -228,7 +228,7 @@ top-level domain in the DNS root zone
 
 #### Source
 
-main.ts:141427
+main.ts:144260
 
 ***
 
@@ -240,4 +240,4 @@ type of element
 
 #### Source
 
-main.ts:141418
+main.ts:144251

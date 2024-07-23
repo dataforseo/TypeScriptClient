@@ -20,7 +20,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Source
 
-main.ts:29145
+main.ts:29472
 
 ***
 
@@ -32,4 +32,4 @@ type of element
 
 #### Source
 
-main.ts:29143
+main.ts:29470

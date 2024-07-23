@@ -26,7 +26,7 @@ ss:/webfacts:net_worth
 
 #### Source
 
-main.ts:27686
+main.ts:28083
 
 ***
 
@@ -39,7 +39,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:27691
+main.ts:28088
 
 ***
 
@@ -51,7 +51,7 @@ link of the element
 
 #### Source
 
-main.ts:27688
+main.ts:28085
 
 ***
 
@@ -65,7 +65,7 @@ left, right
 
 #### Source
 
-main.ts:27678
+main.ts:28075
 
 ***
 
@@ -78,7 +78,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:27674
+main.ts:28071
 
 ***
 
@@ -92,7 +92,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:27671
+main.ts:28068
 
 ***
 
@@ -106,7 +106,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:27695
+main.ts:28092
 
 ***
 
@@ -118,7 +118,7 @@ title of the link element
 
 #### Source
 
-main.ts:27682
+main.ts:28079
 
 ***
 
@@ -130,4 +130,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:27680
+main.ts:28077

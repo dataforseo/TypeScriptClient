@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:201192
+main.ts:203887
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:201192
 
 #### Source
 
-main.ts:20770
+main.ts:21097
 
 ***
 
@@ -69,7 +69,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:201148
+main.ts:203843
 
 ***
 
@@ -85,7 +85,7 @@ address of the business entity
 
 #### Source
 
-main.ts:201130
+main.ts:203825
 
 ***
 
@@ -101,7 +101,7 @@ object containing address components of the business entity
 
 #### Source
 
-main.ts:201132
+main.ts:203827
 
 ***
 
@@ -118,7 +118,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:201145
+main.ts:203840
 
 ***
 
@@ -135,7 +135,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:201159
+main.ts:203854
 
 ***
 
@@ -154,7 +154,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:201170
+main.ts:203865
 
 ***
 
@@ -170,7 +170,7 @@ domain of the business entity
 
 #### Source
 
-main.ts:201115
+main.ts:203810
 
 ***
 
@@ -187,7 +187,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:201165
+main.ts:203860
 
 ***
 
@@ -205,7 +205,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Source
 
-main.ts:201156
+main.ts:203851
 
 ***
 
@@ -221,7 +221,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Source
 
-main.ts:201180
+main.ts:203875
 
 ***
 
@@ -240,7 +240,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 #### Source
 
-main.ts:201188
+main.ts:203883
 
 ***
 
@@ -258,7 +258,7 @@ example:
 
 #### Source
 
-main.ts:201174
+main.ts:203869
 
 ***
 
@@ -275,7 +275,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 #### Source
 
-main.ts:201183
+main.ts:203878
 
 ***
 
@@ -293,7 +293,7 @@ example:
 
 #### Source
 
-main.ts:201178
+main.ts:203873
 
 ***
 
@@ -309,7 +309,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:201140
+main.ts:203835
 
 ***
 
@@ -325,7 +325,7 @@ phone number of the business entity
 
 #### Source
 
-main.ts:201138
+main.ts:203833
 
 ***
 
@@ -343,7 +343,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:201136
+main.ts:203831
 
 ***
 
@@ -361,7 +361,7 @@ if there is no price level information, the value will be null
 
 #### Source
 
-main.ts:201152
+main.ts:203847
 
 ***
 
@@ -377,7 +377,7 @@ absolute rank among all the elements
 
 #### Source
 
-main.ts:201113
+main.ts:203808
 
 ***
 
@@ -394,7 +394,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Source
 
-main.ts:201111
+main.ts:203806
 
 ***
 
@@ -411,7 +411,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:201123
+main.ts:203818
 
 ***
 
@@ -432,7 +432,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:201126
+main.ts:203821
 
 ***
 
@@ -448,7 +448,7 @@ additional information about the business entity
 
 #### Source
 
-main.ts:201128
+main.ts:203823
 
 ***
 
@@ -465,7 +465,7 @@ can take the following values: At this place, Directory
 
 #### Source
 
-main.ts:201118
+main.ts:203813
 
 ***
 
@@ -481,7 +481,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:201142
+main.ts:203837
 
 ***
 
@@ -497,7 +497,7 @@ URL to view the menu
 
 #### Source
 
-main.ts:201120
+main.ts:203815
 
 ***
 
@@ -514,7 +514,7 @@ information about work hours of the local establishment
 
 #### Source
 
-main.ts:201162
+main.ts:203857
 
 ## Methods
 
@@ -536,7 +536,7 @@ main.ts:201162
 
 #### Source
 
-main.ts:201197
+main.ts:203892
 
 ***
 
@@ -558,7 +558,7 @@ main.ts:201197
 
 #### Source
 
-main.ts:201259
+main.ts:203954
 
 ***
 
@@ -580,4 +580,4 @@ main.ts:201259
 
 #### Source
 
-main.ts:201252
+main.ts:203947

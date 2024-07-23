@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:103977
+main.ts:104992
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword search depth
 
 #### Source
 
-main.ts:103970
+main.ts:104985
 
 ***
 
@@ -62,7 +62,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:103968
+main.ts:104983
 
 ***
 
@@ -79,7 +79,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Source
 
-main.ts:103973
+main.ts:104988
 
 ***
 
@@ -95,7 +95,7 @@ search engine type
 
 #### Source
 
-main.ts:103966
+main.ts:104981
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:103966
 
 #### Source
 
-main.ts:103986
+main.ts:105001
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:103986
 
 #### Source
 
-main.ts:104010
+main.ts:105025
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:104010
 
 #### Source
 
-main.ts:104003
+main.ts:105018

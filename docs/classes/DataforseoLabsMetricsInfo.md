@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87674
+main.ts:88371
 
 ## Properties
 
@@ -52,7 +52,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:87670
+main.ts:88367
 
 ***
 
@@ -71,7 +71,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:87662
+main.ts:88359
 
 ***
 
@@ -93,7 +93,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:87666
+main.ts:88363
 
 ***
 
@@ -109,7 +109,7 @@ total count of organic SERPs that contain the domain or subdomain
 
 #### Source
 
-main.ts:87640
+main.ts:88337
 
 ***
 
@@ -128,7 +128,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:87645
+main.ts:88342
 
 ***
 
@@ -147,7 +147,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:87633
+main.ts:88330
 
 ***
 
@@ -166,7 +166,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:87638
+main.ts:88335
 
 ***
 
@@ -183,7 +183,7 @@ indicates how many ranked elements of the indicated target went down
 
 #### Source
 
-main.ts:87654
+main.ts:88351
 
 ***
 
@@ -200,7 +200,7 @@ indicates how many ranked elements of the indicated target were previously prese
 
 #### Source
 
-main.ts:87657
+main.ts:88354
 
 ***
 
@@ -217,7 +217,7 @@ indicates how many new ranked elements were found for the indicated target
 
 #### Source
 
-main.ts:87648
+main.ts:88345
 
 ***
 
@@ -234,7 +234,7 @@ indicates how many ranked elements of the indicated target went up
 
 #### Source
 
-main.ts:87651
+main.ts:88348
 
 ***
 
@@ -250,7 +250,7 @@ number of organic SERPs where the domain or subdomain ranks #1
 
 #### Source
 
-main.ts:87606
+main.ts:88303
 
 ***
 
@@ -266,7 +266,7 @@ number of organic SERPs where the domain or subdomain ranks #11-20
 
 #### Source
 
-main.ts:87612
+main.ts:88309
 
 ***
 
@@ -282,7 +282,7 @@ number of organic SERPs where the domain or subdomain ranks #21-30
 
 #### Source
 
-main.ts:87614
+main.ts:88311
 
 ***
 
@@ -298,7 +298,7 @@ number of organic SERPs where the domain or subdomain ranks #2-3
 
 #### Source
 
-main.ts:87608
+main.ts:88305
 
 ***
 
@@ -314,7 +314,7 @@ number of organic SERPs where the domain or subdomain ranks #31-40
 
 #### Source
 
-main.ts:87616
+main.ts:88313
 
 ***
 
@@ -330,7 +330,7 @@ number of organic SERPs where the domain or subdomain ranks #41-50
 
 #### Source
 
-main.ts:87618
+main.ts:88315
 
 ***
 
@@ -346,7 +346,7 @@ number of organic SERPs where the domain or subdomain ranks #4-10
 
 #### Source
 
-main.ts:87610
+main.ts:88307
 
 ***
 
@@ -362,7 +362,7 @@ number of organic SERPs where the domain or subdomain ranks #51-60
 
 #### Source
 
-main.ts:87620
+main.ts:88317
 
 ***
 
@@ -378,7 +378,7 @@ number of organic SERPs where the domain or subdomain ranks #61-70
 
 #### Source
 
-main.ts:87622
+main.ts:88319
 
 ***
 
@@ -394,7 +394,7 @@ number of organic SERPs where the domain or subdomain ranks #71-80
 
 #### Source
 
-main.ts:87624
+main.ts:88321
 
 ***
 
@@ -410,7 +410,7 @@ number of organic SERPs where the domain or subdomain ranks #81-90
 
 #### Source
 
-main.ts:87626
+main.ts:88323
 
 ***
 
@@ -426,7 +426,7 @@ number of organic SERPs where the domain or subdomain ranks #91-100
 
 #### Source
 
-main.ts:87628
+main.ts:88325
 
 ## Methods
 
@@ -444,7 +444,7 @@ main.ts:87628
 
 #### Source
 
-main.ts:87683
+main.ts:88380
 
 ***
 
@@ -462,7 +462,7 @@ main.ts:87683
 
 #### Source
 
-main.ts:87734
+main.ts:88431
 
 ***
 
@@ -480,4 +480,4 @@ main.ts:87734
 
 #### Source
 
-main.ts:87727
+main.ts:88424

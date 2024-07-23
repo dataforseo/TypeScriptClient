@@ -20,7 +20,7 @@ answer included in the item
 
 #### Source
 
-main.ts:34220
+main.ts:34547
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Source
 
-main.ts:34225
+main.ts:34552
 
 ***
 
@@ -44,7 +44,7 @@ question included in the item
 
 #### Source
 
-main.ts:34218
+main.ts:34545
 
 ***
 
@@ -57,7 +57,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:34223
+main.ts:34550
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Source
 
-main.ts:34214
+main.ts:34541
 
 ***
 
@@ -81,7 +81,7 @@ URL
 
 #### Source
 
-main.ts:34216
+main.ts:34543
 
 ***
 
@@ -93,4 +93,4 @@ answer upvotes from the source
 
 #### Source
 
-main.ts:34227
+main.ts:34554

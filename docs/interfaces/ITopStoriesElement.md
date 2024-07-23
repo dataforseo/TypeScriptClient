@@ -21,7 +21,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:29446
+main.ts:29773
 
 ***
 
@@ -33,7 +33,7 @@ the date when the page source of the element was published
 
 #### Source
 
-main.ts:29443
+main.ts:29770
 
 ***
 
@@ -45,7 +45,7 @@ website domain
 
 #### Source
 
-main.ts:29439
+main.ts:29766
 
 ***
 
@@ -57,7 +57,7 @@ URL of the image
 
 #### Source
 
-main.ts:29455
+main.ts:29782
 
 ***
 
@@ -70,7 +70,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:29437
+main.ts:29764
 
 ***
 
@@ -85,7 +85,7 @@ example:
 
 #### Source
 
-main.ts:29451
+main.ts:29778
 
 ***
 
@@ -97,7 +97,7 @@ title of a given link element
 
 #### Source
 
-main.ts:29441
+main.ts:29768
 
 ***
 
@@ -109,7 +109,7 @@ type of element
 
 #### Source
 
-main.ts:29434
+main.ts:29761
 
 ***
 
@@ -121,4 +121,4 @@ URL
 
 #### Source
 
-main.ts:29453
+main.ts:29780

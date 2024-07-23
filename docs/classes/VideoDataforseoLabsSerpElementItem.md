@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:97674
+main.ts:98732
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97674
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,7 +60,8 @@ main.ts:20243
 
 > **`optional`** **items**: [`VideoElement`](VideoElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -68,7 +69,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:97670
+main.ts:98728
 
 ***
 
@@ -86,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:97666
+main.ts:98723
 
 ***
 
@@ -103,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97662
+main.ts:98719
 
 ***
 
@@ -121,7 +122,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97659
+main.ts:98716
 
 ***
 
@@ -137,7 +138,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:97668
+main.ts:98725
 
 ## Methods
 
@@ -159,7 +160,7 @@ main.ts:97668
 
 #### Source
 
-main.ts:97679
+main.ts:98737
 
 ***
 
@@ -181,7 +182,7 @@ main.ts:97679
 
 #### Source
 
-main.ts:97705
+main.ts:98763
 
 ***
 
@@ -203,4 +204,4 @@ main.ts:97705
 
 #### Source
 
-main.ts:97698
+main.ts:98756

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:55267
+main.ts:55722
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:55237
+main.ts:55692
 
 ***
 
@@ -71,7 +71,7 @@ possible value: desktop
 
 #### Source
 
-main.ts:55223
+main.ts:55678
 
 ***
 
@@ -89,7 +89,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Source
 
-main.ts:55245
+main.ts:55700
 
 ***
 
@@ -107,7 +107,7 @@ possible values: true, false
 
 #### Source
 
-main.ts:55253
+main.ts:55708
 
 ***
 
@@ -128,7 +128,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:55207
+main.ts:55662
 
 ***
 
@@ -148,7 +148,7 @@ en
 
 #### Source
 
-main.ts:55219
+main.ts:55674
 
 ***
 
@@ -168,7 +168,7 @@ English
 
 #### Source
 
-main.ts:55213
+main.ts:55668
 
 ***
 
@@ -186,7 +186,7 @@ possible values: 1m, 1y, 3y
 
 #### Source
 
-main.ts:55241
+main.ts:55696
 
 ***
 
@@ -205,7 +205,7 @@ default value: windows
 
 #### Source
 
-main.ts:55228
+main.ts:55683
 
 ***
 
@@ -225,7 +225,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:55263
+main.ts:55718
 
 ***
 
@@ -243,7 +243,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Source
 
-main.ts:55257
+main.ts:55712
 
 ***
 
@@ -261,7 +261,7 @@ possible values: commercial, noncommercial
 
 #### Source
 
-main.ts:55249
+main.ts:55704
 
 ## Methods
 
@@ -279,7 +279,7 @@ main.ts:55249
 
 #### Source
 
-main.ts:55276
+main.ts:55731
 
 ***
 
@@ -297,7 +297,7 @@ main.ts:55276
 
 #### Source
 
-main.ts:55312
+main.ts:55767
 
 ***
 
@@ -315,4 +315,4 @@ main.ts:55312
 
 #### Source
 
-main.ts:55305
+main.ts:55760

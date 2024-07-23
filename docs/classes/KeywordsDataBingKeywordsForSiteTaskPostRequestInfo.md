@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:131750
+main.ts:132934
 
 ## Properties
 
@@ -44,6 +44,7 @@ if you don’t specify this field, data will be provided for the last 12 months
 date format: "yyyy-mm-dd"
 example:
 "2020-01-01"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -51,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:131705
+main.ts:132889
 
 ***
 
@@ -64,10 +65,10 @@ optional field
 if you don’t specify this field, data will be provided for the last 12 months;
 minimum value: two years back from today’s date;
 maximum value: one month from today’s date;
-note: we do not recommend using a custom time range for the past year’s dates;
 date format: "yyyy-mm-dd"
 example:
 "2020-03-15"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -75,7 +76,7 @@ example:
 
 #### Source
 
-main.ts:131715
+main.ts:132899
 
 ***
 
@@ -95,7 +96,7 @@ default value: all
 
 #### Source
 
-main.ts:131693
+main.ts:132876
 
 ***
 
@@ -115,7 +116,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:131687
+main.ts:132870
 
 ***
 
@@ -135,7 +136,7 @@ en, fr, de
 
 #### Source
 
-main.ts:131681
+main.ts:132864
 
 ***
 
@@ -155,7 +156,7 @@ English, French, German
 
 #### Source
 
-main.ts:131675
+main.ts:132858
 
 ***
 
@@ -176,7 +177,7 @@ example:
 
 #### Source
 
-main.ts:131661
+main.ts:132844
 
 ***
 
@@ -198,7 +199,7 @@ example:
 
 #### Source
 
-main.ts:131669
+main.ts:132852
 
 ***
 
@@ -219,7 +220,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:131654
+main.ts:132837
 
 ***
 
@@ -243,7 +244,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131735
+main.ts:132919
 
 ***
 
@@ -267,7 +268,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131725
+main.ts:132909
 
 ***
 
@@ -286,7 +287,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:131740
+main.ts:132924
 
 ***
 
@@ -305,7 +306,7 @@ default value: relevance
 
 #### Source
 
-main.ts:131698
+main.ts:132881
 
 ***
 
@@ -325,7 +326,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:131746
+main.ts:132930
 
 ***
 
@@ -343,7 +344,7 @@ the URL of the webpage or the domain to scan for possible keywords
 
 #### Source
 
-main.ts:131647
+main.ts:132830
 
 ## Methods
 
@@ -361,7 +362,7 @@ main.ts:131647
 
 #### Source
 
-main.ts:131759
+main.ts:132943
 
 ***
 
@@ -379,7 +380,7 @@ main.ts:131759
 
 #### Source
 
-main.ts:131794
+main.ts:132978
 
 ***
 
@@ -397,4 +398,4 @@ main.ts:131794
 
 #### Source
 
-main.ts:131787
+main.ts:132971

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92810
+main.ts:93869
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Source
 
-main.ts:92794
+main.ts:93853
 
 ***
 
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:92740
+main.ts:93799
 
 ***
 
@@ -116,7 +116,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:92726
+main.ts:93785
 
 ***
 
@@ -136,7 +136,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Source
 
-main.ts:92800
+main.ts:93859
 
 ***
 
@@ -159,7 +159,7 @@ default value:
 
 #### Source
 
-main.ts:92718
+main.ts:93777
 
 ***
 
@@ -181,7 +181,7 @@ en
 
 #### Source
 
-main.ts:92709
+main.ts:93768
 
 ***
 
@@ -203,7 +203,7 @@ English
 
 #### Source
 
-main.ts:92701
+main.ts:93760
 
 ***
 
@@ -222,7 +222,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:92762
+main.ts:93821
 
 ***
 
@@ -244,7 +244,7 @@ example:
 
 #### Source
 
-main.ts:92693
+main.ts:93752
 
 ***
 
@@ -266,7 +266,7 @@ United Kingdom
 
 #### Source
 
-main.ts:92685
+main.ts:93744
 
 ***
 
@@ -285,7 +285,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Source
 
-main.ts:92772
+main.ts:93831
 
 ***
 
@@ -304,7 +304,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:92767
+main.ts:93826
 
 ***
 
@@ -335,7 +335,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Source
 
-main.ts:92757
+main.ts:93816
 
 ***
 
@@ -355,7 +355,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:92806
+main.ts:93865
 
 ***
 
@@ -374,7 +374,7 @@ the domain should be specified without https:// and www.
 
 #### Source
 
-main.ts:92677
+main.ts:93736
 
 ## Methods
 
@@ -392,7 +392,7 @@ main.ts:92677
 
 #### Source
 
-main.ts:92819
+main.ts:93878
 
 ***
 
@@ -410,7 +410,7 @@ main.ts:92819
 
 #### Source
 
-main.ts:92866
+main.ts:93925
 
 ***
 
@@ -428,4 +428,4 @@ main.ts:92866
 
 #### Source
 
-main.ts:92859
+main.ts:93918

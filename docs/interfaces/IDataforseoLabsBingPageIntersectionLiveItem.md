@@ -26,19 +26,19 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Source
 
-main.ts:109559
+main.ts:110574
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](../classes/KeywordDataKeywordDataInfo.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the returned keyword
 
 #### Source
 
-main.ts:109555
+main.ts:110570
 
 ***
 
@@ -52,4 +52,4 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:109553
+main.ts:110568

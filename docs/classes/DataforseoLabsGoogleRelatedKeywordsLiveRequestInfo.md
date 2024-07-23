@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:84205
+main.ts:84728
 
 ## Properties
 
@@ -56,7 +56,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:84120
+main.ts:84643
 
 ***
 
@@ -89,7 +89,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:84169
+main.ts:84692
 
 ***
 
@@ -108,7 +108,7 @@ default value: false
 
 #### Source
 
-main.ts:84143
+main.ts:84666
 
 ***
 
@@ -130,7 +130,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:84138
+main.ts:84661
 
 ***
 
@@ -149,7 +149,7 @@ default value: false
 
 #### Source
 
-main.ts:84125
+main.ts:84648
 
 ***
 
@@ -168,7 +168,7 @@ default value: false
 
 #### Source
 
-main.ts:84130
+main.ts:84653
 
 ***
 
@@ -188,7 +188,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:84076
+main.ts:84599
 
 ***
 
@@ -210,7 +210,7 @@ en
 
 #### Source
 
-main.ts:84108
+main.ts:84631
 
 ***
 
@@ -232,7 +232,7 @@ English
 
 #### Source
 
-main.ts:84100
+main.ts:84623
 
 ***
 
@@ -251,7 +251,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:84190
+main.ts:84713
 
 ***
 
@@ -273,7 +273,7 @@ example:
 
 #### Source
 
-main.ts:84092
+main.ts:84615
 
 ***
 
@@ -295,7 +295,7 @@ United Kingdom
 
 #### Source
 
-main.ts:84084
+main.ts:84607
 
 ***
 
@@ -314,7 +314,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:84195
+main.ts:84718
 
 ***
 
@@ -344,7 +344,7 @@ example:
 
 #### Source
 
-main.ts:84185
+main.ts:84708
 
 ***
 
@@ -365,7 +365,7 @@ default value: false
 
 #### Source
 
-main.ts:84150
+main.ts:84673
 
 ***
 
@@ -385,7 +385,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:84201
+main.ts:84724
 
 ## Methods
 
@@ -403,7 +403,7 @@ main.ts:84201
 
 #### Source
 
-main.ts:84214
+main.ts:84737
 
 ***
 
@@ -421,7 +421,7 @@ main.ts:84214
 
 #### Source
 
-main.ts:84254
+main.ts:84777
 
 ***
 
@@ -439,4 +439,4 @@ main.ts:84254
 
 #### Source
 
-main.ts:84247
+main.ts:84770

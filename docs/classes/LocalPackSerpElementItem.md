@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:31058
+main.ts:31385
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:31058
 
 #### Source
 
-main.ts:19855
+main.ts:20177
 
 ***
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Source
 
-main.ts:31050
+main.ts:31377
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:31037
+main.ts:31364
 
 ***
 
@@ -100,7 +100,7 @@ source domain
 
 #### Source
 
-main.ts:31039
+main.ts:31366
 
 ***
 
@@ -116,7 +116,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:31045
+main.ts:31372
 
 ***
 
@@ -132,7 +132,7 @@ phone number
 
 #### Source
 
-main.ts:31041
+main.ts:31368
 
 ***
 
@@ -150,7 +150,7 @@ left, right
 
 #### Source
 
-main.ts:31031
+main.ts:31358
 
 ***
 
@@ -168,7 +168,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:31027
+main.ts:31354
 
 ***
 
@@ -187,7 +187,7 @@ always equals 0 for desktop
 
 #### Source
 
-main.ts:31023
+main.ts:31350
 
 ***
 
@@ -204,7 +204,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:31048
+main.ts:31375
 
 ***
 
@@ -222,7 +222,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:31054
+main.ts:31381
 
 ***
 
@@ -238,7 +238,7 @@ title of the row
 
 #### Source
 
-main.ts:31035
+main.ts:31362
 
 ***
 
@@ -254,7 +254,7 @@ source URL
 
 #### Source
 
-main.ts:31043
+main.ts:31370
 
 ***
 
@@ -270,7 +270,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:31033
+main.ts:31360
 
 ## Methods
 
@@ -292,7 +292,7 @@ main.ts:31033
 
 #### Source
 
-main.ts:31063
+main.ts:31390
 
 ***
 
@@ -314,7 +314,7 @@ main.ts:31063
 
 #### Source
 
-main.ts:31093
+main.ts:31420
 
 ***
 
@@ -336,4 +336,4 @@ main.ts:31093
 
 #### Source
 
-main.ts:31086
+main.ts:31413

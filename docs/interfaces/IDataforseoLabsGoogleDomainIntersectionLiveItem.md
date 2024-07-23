@@ -16,12 +16,12 @@
 
 > **`optional`** **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
-contains data on the first domain's SERP element found for the returned keyword
+contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:93798
+main.ts:94857
 
 ***
 
@@ -33,7 +33,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:93795
+main.ts:94854
 
 ***
 
@@ -45,7 +45,7 @@ search engine type
 
 #### Source
 
-main.ts:93793
+main.ts:94852
 
 ***
 
@@ -53,9 +53,9 @@ main.ts:93793
 
 > **`optional`** **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
-contains data on the second domain's SERP element found for the returned keyword
+contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:93801
+main.ts:94860

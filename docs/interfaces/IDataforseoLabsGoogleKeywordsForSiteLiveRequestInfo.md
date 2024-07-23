@@ -35,7 +35,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:82753
+main.ts:83276
 
 ***
 
@@ -50,7 +50,7 @@ default value: false
 
 #### Source
 
-main.ts:82718
+main.ts:83241
 
 ***
 
@@ -68,7 +68,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:82713
+main.ts:83236
 
 ***
 
@@ -83,7 +83,7 @@ default value: false
 
 #### Source
 
-main.ts:82700
+main.ts:83223
 
 ***
 
@@ -98,7 +98,7 @@ default value: true
 
 #### Source
 
-main.ts:82705
+main.ts:83228
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Source
 
-main.ts:82695
+main.ts:83218
 
 ***
 
@@ -136,7 +136,7 @@ English
 
 #### Source
 
-main.ts:82686
+main.ts:83209
 
 ***
 
@@ -151,7 +151,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:82723
+main.ts:83246
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Source
 
-main.ts:82677
+main.ts:83200
 
 ***
 
@@ -187,7 +187,7 @@ United Kingdom
 
 #### Source
 
-main.ts:82669
+main.ts:83192
 
 ***
 
@@ -202,7 +202,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:82728
+main.ts:83251
 
 ***
 
@@ -220,7 +220,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:82736
+main.ts:83259
 
 ***
 
@@ -246,7 +246,7 @@ example:
 
 #### Source
 
-main.ts:82769
+main.ts:83292
 
 ***
 
@@ -262,7 +262,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:82775
+main.ts:83298
 
 ***
 
@@ -277,4 +277,4 @@ the domain should be specified without https:// or www.
 
 #### Source
 
-main.ts:82661
+main.ts:83184

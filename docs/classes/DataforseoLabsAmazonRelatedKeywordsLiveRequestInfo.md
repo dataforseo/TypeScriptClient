@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:103726
+main.ts:104741
 
 ## Properties
 
@@ -56,7 +56,7 @@ estimated number of keywords for each level (maximum):
 
 #### Source
 
-main.ts:103696
+main.ts:104711
 
 ***
 
@@ -75,7 +75,7 @@ default value: false
 
 #### Source
 
-main.ts:103706
+main.ts:104721
 
 ***
 
@@ -94,7 +94,7 @@ default value: false
 
 #### Source
 
-main.ts:103701
+main.ts:104716
 
 ***
 
@@ -114,7 +114,7 @@ the keywords should be specified in the lowercase format
 
 #### Source
 
-main.ts:103652
+main.ts:104667
 
 ***
 
@@ -135,7 +135,7 @@ en
 
 #### Source
 
-main.ts:103684
+main.ts:104699
 
 ***
 
@@ -156,7 +156,7 @@ English
 
 #### Source
 
-main.ts:103677
+main.ts:104692
 
 ***
 
@@ -175,7 +175,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:103711
+main.ts:104726
 
 ***
 
@@ -198,7 +198,7 @@ example:
 
 #### Source
 
-main.ts:103670
+main.ts:104685
 
 ***
 
@@ -221,7 +221,7 @@ United States
 
 #### Source
 
-main.ts:103661
+main.ts:104676
 
 ***
 
@@ -240,7 +240,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:103716
+main.ts:104731
 
 ***
 
@@ -260,7 +260,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:103722
+main.ts:104737
 
 ## Methods
 
@@ -278,7 +278,7 @@ main.ts:103722
 
 #### Source
 
-main.ts:103735
+main.ts:104750
 
 ***
 
@@ -296,7 +296,7 @@ main.ts:103735
 
 #### Source
 
-main.ts:103762
+main.ts:104777
 
 ***
 
@@ -314,4 +314,4 @@ main.ts:103762
 
 #### Source
 
-main.ts:103755
+main.ts:104770

@@ -181,7 +181,9 @@
 - [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)
 - [`DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)
 - [`DataforseoLabsGoogleSearchIntentLiveResponseInfo`](DataforseoLabsGoogleSearchIntentLiveResponseInfo.md)
+- [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)
 - [`DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo.md)
+- [`DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo.md)
 - [`DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo.md)
 - [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)
 - [`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)
@@ -278,6 +280,11 @@
 - [`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)
 - [`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)
 - [`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)
 - [`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)
 - [`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)
 - [`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)
@@ -450,6 +457,7 @@
 - [`BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)
 - [`BusinessDataTasksReadyResponseInfo`](BusinessDataTasksReadyResponseInfo.md)
 - [`BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](BusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)
+- [`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)
@@ -517,7 +525,7 @@
 
 #### Source
 
-main.ts:23260
+main.ts:23657
 
 ## Properties
 
@@ -533,7 +541,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23252
+main.ts:23649
 
 ***
 
@@ -550,7 +558,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23245
+main.ts:23642
 
 ***
 
@@ -567,7 +575,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23248
+main.ts:23645
 
 ***
 
@@ -583,7 +591,7 @@ the number of tasks in the tasks array
 
 #### Source
 
-main.ts:23254
+main.ts:23651
 
 ***
 
@@ -599,7 +607,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Source
 
-main.ts:23256
+main.ts:23653
 
 ***
 
@@ -615,7 +623,7 @@ total execution time, seconds
 
 #### Source
 
-main.ts:23250
+main.ts:23647
 
 ***
 
@@ -631,7 +639,7 @@ the current version of the API
 
 #### Source
 
-main.ts:23242
+main.ts:23639
 
 ## Methods
 
@@ -649,7 +657,7 @@ main.ts:23242
 
 #### Source
 
-main.ts:23269
+main.ts:23666
 
 ***
 
@@ -667,7 +675,7 @@ main.ts:23269
 
 #### Source
 
-main.ts:23292
+main.ts:23689
 
 ***
 
@@ -685,4 +693,4 @@ main.ts:23292
 
 #### Source
 
-main.ts:23285
+main.ts:23682

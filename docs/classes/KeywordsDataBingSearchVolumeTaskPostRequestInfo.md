@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:130416
+main.ts:131593
 
 ## Properties
 
@@ -45,6 +45,7 @@ minimum value: two years back from today’s date
 date format: "yyyy-mm-dd"
 example:
 "2020-01-01"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -52,7 +53,7 @@ example:
 
 #### Source
 
-main.ts:130371
+main.ts:131547
 
 ***
 
@@ -69,6 +70,7 @@ note: we do not recommend using a custom time range for the past year’s dates;
 date format: "yyyy-mm-dd"
 example:
 "2020-03-15"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -76,7 +78,7 @@ example:
 
 #### Source
 
-main.ts:130381
+main.ts:131558
 
 ***
 
@@ -95,7 +97,7 @@ default value: all
 
 #### Source
 
-main.ts:130358
+main.ts:131533
 
 ***
 
@@ -115,7 +117,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:130319
+main.ts:131494
 
 ***
 
@@ -135,7 +137,7 @@ en, fr, de
 
 #### Source
 
-main.ts:130353
+main.ts:131528
 
 ***
 
@@ -155,7 +157,7 @@ English, French, German
 
 #### Source
 
-main.ts:130347
+main.ts:131522
 
 ***
 
@@ -176,7 +178,7 @@ example:
 
 #### Source
 
-main.ts:130333
+main.ts:131508
 
 ***
 
@@ -198,7 +200,7 @@ example:
 
 #### Source
 
-main.ts:130341
+main.ts:131516
 
 ***
 
@@ -219,7 +221,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:130326
+main.ts:131501
 
 ***
 
@@ -243,7 +245,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:130401
+main.ts:131578
 
 ***
 
@@ -267,7 +269,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:130391
+main.ts:131568
 
 ***
 
@@ -286,7 +288,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:130406
+main.ts:131583
 
 ***
 
@@ -305,7 +307,7 @@ default value: relevance
 
 #### Source
 
-main.ts:130363
+main.ts:131538
 
 ***
 
@@ -325,7 +327,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:130412
+main.ts:131589
 
 ## Methods
 
@@ -343,7 +345,7 @@ main.ts:130412
 
 #### Source
 
-main.ts:130425
+main.ts:131602
 
 ***
 
@@ -361,7 +363,7 @@ main.ts:130425
 
 #### Source
 
-main.ts:130459
+main.ts:131636
 
 ***
 
@@ -379,4 +381,4 @@ main.ts:130459
 
 #### Source
 
-main.ts:130452
+main.ts:131629

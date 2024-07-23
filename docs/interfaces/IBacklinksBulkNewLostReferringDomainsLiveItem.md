@@ -21,7 +21,7 @@ number of lost referring domains of the target
 
 #### Source
 
-main.ts:149358
+main.ts:152225
 
 ***
 
@@ -33,7 +33,7 @@ number of lost referring main domains pointing to the target
 
 #### Source
 
-main.ts:149362
+main.ts:152229
 
 ***
 
@@ -46,7 +46,7 @@ number of new referring domains pointing to the target
 
 #### Source
 
-main.ts:149355
+main.ts:152222
 
 ***
 
@@ -58,7 +58,7 @@ number of new referring main domains pointing to the target
 
 #### Source
 
-main.ts:149360
+main.ts:152227
 
 ***
 
@@ -70,4 +70,4 @@ domain, subdomain or webpage from a POST array
 
 #### Source
 
-main.ts:149352
+main.ts:152219

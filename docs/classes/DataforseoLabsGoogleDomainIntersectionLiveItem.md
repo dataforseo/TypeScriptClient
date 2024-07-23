@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:93748
+main.ts:94807
 
 ## Properties
 
@@ -38,7 +38,7 @@ main.ts:93748
 
 > **`optional`** **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
-contains data on the first domain's SERP element found for the returned keyword
+contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
 #### Implementation of
@@ -47,7 +47,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:93741
+main.ts:94800
 
 ***
 
@@ -63,7 +63,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:93738
+main.ts:94797
 
 ***
 
@@ -79,7 +79,7 @@ search engine type
 
 #### Source
 
-main.ts:93736
+main.ts:94795
 
 ***
 
@@ -87,7 +87,7 @@ main.ts:93736
 
 > **`optional`** **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
-contains data on the second domain's SERP element found for the returned keyword
+contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
 #### Implementation of
@@ -96,7 +96,7 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:93744
+main.ts:94803
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:93744
 
 #### Source
 
-main.ts:93757
+main.ts:94816
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:93757
 
 #### Source
 
-main.ts:93777
+main.ts:94836
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:93777
 
 #### Source
 
-main.ts:93770
+main.ts:94829

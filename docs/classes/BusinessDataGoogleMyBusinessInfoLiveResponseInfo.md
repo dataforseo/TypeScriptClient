@@ -1,0 +1,265 @@
+**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+
+***
+
+[Documentation](../README.md) / BusinessDataGoogleMyBusinessInfoLiveResponseInfo
+
+# Class: BusinessDataGoogleMyBusinessInfoLiveResponseInfo
+
+## Extends
+
+- [`BaseResponseInfo`](BaseResponseInfo.md)
+
+## Implements
+
+- [`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)
+
+## Indexable
+
+ \[`key`: `string`\]: `any`
+
+## Constructors
+
+### new BusinessDataGoogleMyBusinessInfoLiveResponseInfo(data)
+
+> **new BusinessDataGoogleMyBusinessInfoLiveResponseInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)
+
+#### Parameters
+
+• **data?**: [`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)
+
+#### Returns
+
+[`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)
+
+#### Overrides
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
+
+#### Source
+
+main.ts:205006
+
+## Properties
+
+### cost?
+
+> **`optional`** **cost**: `number`
+
+total tasks cost, USD
+
+#### Implementation of
+
+[`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md).[`cost`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md#cost)
+
+#### Inherited from
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
+
+#### Source
+
+main.ts:23649
+
+***
+
+### status\_code?
+
+> **`optional`** **status\_code**: `number`
+
+general status code
+you can find the full list of the response codes here
+
+#### Implementation of
+
+[`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md).[`status_code`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md#status_code)
+
+#### Inherited from
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
+
+#### Source
+
+main.ts:23642
+
+***
+
+### status\_message?
+
+> **`optional`** **status\_message**: `string`
+
+general informational message
+you can find the full list of general informational messages here
+
+#### Implementation of
+
+[`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md).[`status_message`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md#status_message)
+
+#### Inherited from
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
+
+#### Source
+
+main.ts:23645
+
+***
+
+### tasks?
+
+> **`optional`** **tasks**: [`BusinessDataGoogleMyBusinessInfoLiveTaskInfo`](BusinessDataGoogleMyBusinessInfoLiveTaskInfo.md)[]
+
+array of tasks
+
+#### Implementation of
+
+[`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md).[`tasks`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md#tasks)
+
+#### Source
+
+main.ts:205002
+
+***
+
+### tasks\_count?
+
+> **`optional`** **tasks\_count**: `number`
+
+the number of tasks in the tasks array
+
+#### Implementation of
+
+[`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md).[`tasks_count`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md#tasks_count)
+
+#### Inherited from
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
+
+#### Source
+
+main.ts:23651
+
+***
+
+### tasks\_error?
+
+> **`optional`** **tasks\_error**: `number`
+
+the number of tasks in the tasks array returned with an error
+
+#### Implementation of
+
+[`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md).[`tasks_error`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md#tasks_error)
+
+#### Inherited from
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
+
+#### Source
+
+main.ts:23653
+
+***
+
+### time?
+
+> **`optional`** **time**: `string`
+
+total execution time, seconds
+
+#### Implementation of
+
+[`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md).[`time`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md#time)
+
+#### Inherited from
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
+
+#### Source
+
+main.ts:23647
+
+***
+
+### version?
+
+> **`optional`** **version**: `string`
+
+the current version of the API
+
+#### Implementation of
+
+[`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md).[`version`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md#version)
+
+#### Inherited from
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
+
+#### Source
+
+main.ts:23639
+
+## Methods
+
+### init()
+
+> **init**(`_data`?): `void`
+
+#### Parameters
+
+• **\_data?**: `any`
+
+#### Returns
+
+`void`
+
+#### Overrides
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
+
+#### Source
+
+main.ts:205010
+
+***
+
+### toJSON()
+
+> **toJSON**(`data`?): `any`
+
+#### Parameters
+
+• **data?**: `any`
+
+#### Returns
+
+`any`
+
+#### Overrides
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
+
+#### Source
+
+main.ts:205032
+
+***
+
+### fromJS()
+
+> **`static`** **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)
+
+#### Parameters
+
+• **data**: `any`
+
+#### Returns
+
+[`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)
+
+#### Overrides
+
+[`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
+
+#### Source
+
+main.ts:205025

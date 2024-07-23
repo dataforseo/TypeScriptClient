@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:155938
+main.ts:158805
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Source
 
-main.ts:155922
+main.ts:158789
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Source
 
-main.ts:155924
+main.ts:158791
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Source
 
-main.ts:155934
+main.ts:158801
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Source
 
-main.ts:155932
+main.ts:158799
 
 ***
 
@@ -112,7 +112,7 @@ displays the number of pages with duplicate tags returned in the response
 
 #### Source
 
-main.ts:155930
+main.ts:158797
 
 ***
 
@@ -129,7 +129,7 @@ displays the total number of pages with duplicate tags of the target website
 
 #### Source
 
-main.ts:155927
+main.ts:158794
 
 ## Methods
 
@@ -147,7 +147,7 @@ main.ts:155927
 
 #### Source
 
-main.ts:155947
+main.ts:158814
 
 ***
 
@@ -165,7 +165,7 @@ main.ts:155947
 
 #### Source
 
-main.ts:155973
+main.ts:158840
 
 ***
 
@@ -183,4 +183,4 @@ main.ts:155973
 
 #### Source
 
-main.ts:155966
+main.ts:158833

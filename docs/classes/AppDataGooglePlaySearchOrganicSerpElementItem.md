@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:113354
+main.ts:114369
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:113354
 
 #### Source
 
-main.ts:21192
+main.ts:21519
 
 ***
 
@@ -68,7 +68,7 @@ id of the app
 
 #### Source
 
-main.ts:113332
+main.ts:114347
 
 ***
 
@@ -84,7 +84,7 @@ name of the app developer
 
 #### Source
 
-main.ts:113348
+main.ts:114363
 
 ***
 
@@ -100,7 +100,7 @@ URL to the developer page on Google Play
 
 #### Source
 
-main.ts:113350
+main.ts:114365
 
 ***
 
@@ -116,7 +116,7 @@ URL to the app icon
 
 #### Source
 
-main.ts:113338
+main.ts:114353
 
 ***
 
@@ -132,7 +132,7 @@ indicates whether the app is free
 
 #### Source
 
-main.ts:113344
+main.ts:114359
 
 ***
 
@@ -150,13 +150,13 @@ left, right
 
 #### Source
 
-main.ts:113330
+main.ts:114345
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`Price`](Price.md)
 
 price of the app
 
@@ -166,7 +166,7 @@ price of the app
 
 #### Source
 
-main.ts:113346
+main.ts:114361
 
 ***
 
@@ -183,7 +183,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:113326
+main.ts:114341
 
 ***
 
@@ -200,7 +200,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:113323
+main.ts:114338
 
 ***
 
@@ -216,7 +216,7 @@ average rating of the app
 
 #### Source
 
-main.ts:113342
+main.ts:114357
 
 ***
 
@@ -232,7 +232,7 @@ the total number of reviews of the app
 
 #### Source
 
-main.ts:113340
+main.ts:114355
 
 ***
 
@@ -248,7 +248,7 @@ title of the app
 
 #### Source
 
-main.ts:113334
+main.ts:114349
 
 ***
 
@@ -264,7 +264,7 @@ URL to the app page on Google Play
 
 #### Source
 
-main.ts:113336
+main.ts:114351
 
 ## Methods
 
@@ -286,7 +286,7 @@ main.ts:113336
 
 #### Source
 
-main.ts:113359
+main.ts:114374
 
 ***
 
@@ -308,7 +308,7 @@ main.ts:113359
 
 #### Source
 
-main.ts:113389
+main.ts:114404
 
 ***
 
@@ -330,4 +330,4 @@ main.ts:113389
 
 #### Source
 
-main.ts:113382
+main.ts:114397

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:145517
+main.ts:148372
 
 ## Properties
 
@@ -53,7 +53,27 @@ default value: live
 
 #### Source
 
-main.ts:145439
+main.ts:148288
+
+***
+
+### exclude\_internal\_backlinks?
+
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+
+indicates if internal backlinks from subdomains to the target will be excluded from the results
+optional field
+if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
+if set to false, internal links will be included in the result
+default value: true
+
+#### Implementation of
+
+[`IBacklinksPageIntersectionLiveRequestInfo`](../interfaces/IBacklinksPageIntersectionLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksPageIntersectionLiveRequestInfo.md#exclude_internal_backlinks)
+
+#### Source
+
+main.ts:148354
 
 ***
 
@@ -77,7 +97,7 @@ example:
 
 #### Source
 
-main.ts:145430
+main.ts:148279
 
 ***
 
@@ -108,7 +128,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:145456
+main.ts:148305
 
 ***
 
@@ -128,7 +148,7 @@ default value: true
 
 #### Source
 
-main.ts:145499
+main.ts:148348
 
 ***
 
@@ -147,7 +167,7 @@ default value: true
 
 #### Source
 
-main.ts:145493
+main.ts:148342
 
 ***
 
@@ -169,7 +189,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:145488
+main.ts:148337
 
 ***
 
@@ -191,7 +211,7 @@ default value: all
 
 #### Source
 
-main.ts:145507
+main.ts:148362
 
 ***
 
@@ -210,7 +230,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:145480
+main.ts:148329
 
 ***
 
@@ -229,7 +249,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Source
 
-main.ts:145475
+main.ts:148324
 
 ***
 
@@ -257,7 +277,7 @@ example:
 
 #### Source
 
-main.ts:145470
+main.ts:148319
 
 ***
 
@@ -277,7 +297,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:145513
+main.ts:148368
 
 ***
 
@@ -306,7 +326,7 @@ example:
 
 #### Source
 
-main.ts:145420
+main.ts:148269
 
 ## Methods
 
@@ -324,7 +344,7 @@ main.ts:145420
 
 #### Source
 
-main.ts:145526
+main.ts:148381
 
 ***
 
@@ -342,7 +362,7 @@ main.ts:145526
 
 #### Source
 
-main.ts:145572
+main.ts:148428
 
 ***
 
@@ -360,4 +380,4 @@ main.ts:145572
 
 #### Source
 
-main.ts:145565
+main.ts:148421

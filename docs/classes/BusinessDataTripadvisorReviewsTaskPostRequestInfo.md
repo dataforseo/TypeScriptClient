@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:213527
+main.ts:216479
 
 ## Properties
 
@@ -50,7 +50,7 @@ default value: 10
 
 #### Source
 
-main.ts:213470
+main.ts:216416
 
 ***
 
@@ -71,7 +71,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:213426
+main.ts:216372
 
 ***
 
@@ -94,7 +94,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:213464
+main.ts:216410
 
 ***
 
@@ -117,7 +117,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:213455
+main.ts:216401
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Source
 
-main.ts:213438
+main.ts:216384
 
 ***
 
@@ -157,7 +157,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:213432
+main.ts:216378
 
 ***
 
@@ -176,7 +176,7 @@ you can specify several values at once
 
 #### Source
 
-main.ts:213486
+main.ts:216432
 
 ***
 
@@ -200,7 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:213523
+main.ts:216475
 
 ***
 
@@ -224,7 +224,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:213513
+main.ts:216465
 
 ***
 
@@ -246,7 +246,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:213446
+main.ts:216392
 
 ***
 
@@ -266,7 +266,7 @@ you can specify several values at once
 
 #### Source
 
-main.ts:213476
+main.ts:216422
 
 ***
 
@@ -284,7 +284,7 @@ dessert
 
 #### Source
 
-main.ts:213490
+main.ts:216436
 
 ***
 
@@ -305,7 +305,7 @@ detailed_reviews
 
 #### Source
 
-main.ts:213497
+main.ts:216443
 
 ***
 
@@ -325,7 +325,27 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:213503
+main.ts:216455
+
+***
+
+### translate\_reviews?
+
+> **`optional`** **translate\_reviews**: `boolean`
+
+translate reviews according to the URL path
+optional field
+if set to true, returned reviews will be translated to the language matching the specified url_path;
+for example, if url_path contains tripadvisor.it and translate_reviews is true, reviews will be translated to the Italian language;
+default value: true
+
+#### Implementation of
+
+[`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`translate_reviews`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#translate_reviews)
+
+#### Source
+
+main.ts:216449
 
 ***
 
@@ -336,8 +356,7 @@ main.ts:213503
 URL path of the business entity
 required field if you do not specify keyword
 URL path to the Tripadvisor page of the business entity;
-can be found in the URL of the business entity on Tripadvisor
-example:
+examples:
 Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html
 https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville_Times_Square-New_York_City_New_York.html
 
@@ -347,7 +366,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Source
 
-main.ts:213419
+main.ts:216365
 
 ***
 
@@ -366,7 +385,7 @@ you can specify several values at once
 
 #### Source
 
-main.ts:213481
+main.ts:216427
 
 ## Methods
 
@@ -384,7 +403,7 @@ main.ts:213481
 
 #### Source
 
-main.ts:213536
+main.ts:216488
 
 ***
 
@@ -402,7 +421,7 @@ main.ts:213536
 
 #### Source
 
-main.ts:213580
+main.ts:216533
 
 ***
 
@@ -420,4 +439,4 @@ main.ts:213580
 
 #### Source
 
-main.ts:213573
+main.ts:216526

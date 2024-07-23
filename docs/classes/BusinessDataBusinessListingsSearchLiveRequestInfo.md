@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:198310
+main.ts:201004
 
 ## Properties
 
@@ -50,7 +50,7 @@ you can specify up to 10 categories
 
 #### Source
 
-main.ts:198236
+main.ts:200929
 
 ***
 
@@ -69,7 +69,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:198241
+main.ts:200934
 
 ***
 
@@ -94,7 +94,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Source
 
-main.ts:198269
+main.ts:200963
 
 ***
 
@@ -111,7 +111,7 @@ optional field
 
 #### Source
 
-main.ts:198249
+main.ts:200942
 
 ***
 
@@ -130,7 +130,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:198287
+main.ts:200981
 
 ***
 
@@ -142,6 +142,7 @@ GPS coordinates of a location
 optional field
 location_coordinate parameter should be specified in the “latitude,longitude,radius” format
 the maximum number of decimal digits for “latitude” and “longitude”: 7
+the value of “radius” is specified in kilometres (km)
 the minimum value for “radius”: 1
 the maximum value for “radius”: 100000
 example:
@@ -153,7 +154,7 @@ example:
 
 #### Source
 
-main.ts:198258
+main.ts:200952
 
 ***
 
@@ -172,7 +173,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Source
 
-main.ts:198292
+main.ts:200986
 
 ***
 
@@ -194,7 +195,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:198300
+main.ts:200994
 
 ***
 
@@ -221,7 +222,7 @@ example:
 
 #### Source
 
-main.ts:198282
+main.ts:200976
 
 ***
 
@@ -241,7 +242,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:198306
+main.ts:201000
 
 ***
 
@@ -260,7 +261,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:198246
+main.ts:200939
 
 ## Methods
 
@@ -278,7 +279,7 @@ main.ts:198246
 
 #### Source
 
-main.ts:198319
+main.ts:201013
 
 ***
 
@@ -296,7 +297,7 @@ main.ts:198319
 
 #### Source
 
-main.ts:198358
+main.ts:201052
 
 ***
 
@@ -314,4 +315,4 @@ main.ts:198358
 
 #### Source
 
-main.ts:198351
+main.ts:201045

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:98210
+main.ts:99268
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98210
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Source
 
-main.ts:98198
+main.ts:99257
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Source
 
-main.ts:98203
+main.ts:99262
 
 ***
 
@@ -98,8 +98,7 @@ main.ts:98203
 
 > **`optional`** **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -107,7 +106,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:98206
+main.ts:99264
 
 ***
 
@@ -125,7 +124,7 @@ left, right
 
 #### Source
 
-main.ts:98189
+main.ts:99248
 
 ***
 
@@ -142,7 +141,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98185
+main.ts:99244
 
 ***
 
@@ -159,7 +158,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98182
+main.ts:99241
 
 ***
 
@@ -167,7 +166,7 @@ main.ts:98182
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -175,7 +174,7 @@ title of the item
 
 #### Source
 
-main.ts:98193
+main.ts:99252
 
 ***
 
@@ -191,7 +190,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:98191
+main.ts:99250
 
 ## Methods
 
@@ -213,7 +212,7 @@ main.ts:98191
 
 #### Source
 
-main.ts:98215
+main.ts:99273
 
 ***
 
@@ -235,7 +234,7 @@ main.ts:98215
 
 #### Source
 
-main.ts:98244
+main.ts:99302
 
 ***
 
@@ -257,4 +256,4 @@ main.ts:98244
 
 #### Source
 
-main.ts:98237
+main.ts:99295

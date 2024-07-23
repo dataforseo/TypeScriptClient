@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:91098
+main.ts:92157
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:91098
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -74,7 +74,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:91064
+main.ts:92123
 
 ***
 
@@ -91,7 +91,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:91051
+main.ts:92110
 
 ***
 
@@ -107,7 +107,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:91092
+main.ts:92151
 
 ***
 
@@ -123,7 +123,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:91032
+main.ts:92091
 
 ***
 
@@ -142,7 +142,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91087
+main.ts:92146
 
 ***
 
@@ -158,7 +158,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:91044
+main.ts:92103
 
 ***
 
@@ -174,7 +174,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:91026
+main.ts:92085
 
 ***
 
@@ -192,7 +192,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91082
+main.ts:92141
 
 ***
 
@@ -211,7 +211,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91073
+main.ts:92132
 
 ***
 
@@ -227,7 +227,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:91048
+main.ts:92107
 
 ***
 
@@ -243,7 +243,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:91056
+main.ts:92115
 
 ***
 
@@ -262,7 +262,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91078
+main.ts:92137
 
 ***
 
@@ -278,7 +278,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:91040
+main.ts:92099
 
 ***
 
@@ -294,7 +294,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:91036
+main.ts:92095
 
 ***
 
@@ -310,7 +310,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:91042
+main.ts:92101
 
 ***
 
@@ -326,7 +326,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:91038
+main.ts:92097
 
 ***
 
@@ -344,7 +344,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:91060
+main.ts:92119
 
 ***
 
@@ -360,7 +360,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:91066
+main.ts:92125
 
 ***
 
@@ -378,7 +378,7 @@ left, right
 
 #### Source
 
-main.ts:91022
+main.ts:92081
 
 ***
 
@@ -394,7 +394,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:91046
+main.ts:92105
 
 ***
 
@@ -411,7 +411,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:91018
+main.ts:92077
 
 ***
 
@@ -428,7 +428,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:91090
+main.ts:92149
 
 ***
 
@@ -445,7 +445,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:91015
+main.ts:92074
 
 ***
 
@@ -461,7 +461,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:91094
+main.ts:92153
 
 ***
 
@@ -478,7 +478,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:91054
+main.ts:92113
 
 ***
 
@@ -494,7 +494,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:91068
+main.ts:92127
 
 ***
 
@@ -510,7 +510,7 @@ search engine type
 
 #### Source
 
-main.ts:91012
+main.ts:92071
 
 ***
 
@@ -526,7 +526,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:91028
+main.ts:92087
 
 ***
 
@@ -542,7 +542,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:91030
+main.ts:92089
 
 ***
 
@@ -558,7 +558,7 @@ relevant website name in SERP
 
 #### Source
 
-main.ts:91034
+main.ts:92093
 
 ***
 
@@ -574,7 +574,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:91024
+main.ts:92083
 
 ## Methods
 
@@ -596,7 +596,7 @@ main.ts:91024
 
 #### Source
 
-main.ts:91103
+main.ts:92162
 
 ***
 
@@ -618,7 +618,7 @@ main.ts:91103
 
 #### Source
 
-main.ts:91165
+main.ts:92224
 
 ***
 
@@ -640,4 +640,4 @@ main.ts:91165
 
 #### Source
 
-main.ts:91158
+main.ts:92217

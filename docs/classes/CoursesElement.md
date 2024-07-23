@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:37450
+main.ts:37777
 
 ## Properties
 
@@ -46,7 +46,7 @@ the date when the page source of the element was published
 
 #### Source
 
-main.ts:37441
+main.ts:37768
 
 ***
 
@@ -62,7 +62,7 @@ description
 
 #### Source
 
-main.ts:37439
+main.ts:37766
 
 ***
 
@@ -78,7 +78,7 @@ website domain
 
 #### Source
 
-main.ts:37434
+main.ts:37761
 
 ***
 
@@ -94,7 +94,7 @@ URL of the image
 
 #### Source
 
-main.ts:37443
+main.ts:37770
 
 ***
 
@@ -111,7 +111,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:37446
+main.ts:37773
 
 ***
 
@@ -128,7 +128,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:37437
+main.ts:37764
 
 ***
 
@@ -144,7 +144,7 @@ title of a given link element
 
 #### Source
 
-main.ts:37430
+main.ts:37757
 
 ***
 
@@ -160,7 +160,7 @@ type of element
 
 #### Source
 
-main.ts:37428
+main.ts:37755
 
 ***
 
@@ -176,7 +176,7 @@ URL
 
 #### Source
 
-main.ts:37432
+main.ts:37759
 
 ## Methods
 
@@ -194,7 +194,7 @@ main.ts:37432
 
 #### Source
 
-main.ts:37459
+main.ts:37786
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:37459
 
 #### Source
 
-main.ts:37484
+main.ts:37811
 
 ***
 
@@ -230,4 +230,4 @@ main.ts:37484
 
 #### Source
 
-main.ts:37477
+main.ts:37804

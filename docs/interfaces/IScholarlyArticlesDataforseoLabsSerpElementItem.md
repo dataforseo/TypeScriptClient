@@ -20,12 +20,11 @@
 
 > **`optional`** **items**: [`ScholarlyArticlesElement`](../classes/ScholarlyArticlesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:99840
+main.ts:100869
 
 ***
 
@@ -39,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:99831
+main.ts:100861
 
 ***
 
@@ -52,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99827
+main.ts:100857
 
 ***
 
@@ -65,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99824
+main.ts:100854
 
 ***
 
@@ -73,11 +72,11 @@ main.ts:99824
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Source
 
-main.ts:99835
+main.ts:100865
 
 ***
 
@@ -85,11 +84,11 @@ main.ts:99835
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:99837
+main.ts:100867
 
 ***
 
@@ -101,4 +100,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:99833
+main.ts:100863

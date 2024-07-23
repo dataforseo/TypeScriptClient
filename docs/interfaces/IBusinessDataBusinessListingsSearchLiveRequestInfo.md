@@ -24,7 +24,7 @@ you can specify up to 10 categories
 
 #### Source
 
-main.ts:198397
+main.ts:201091
 
 ***
 
@@ -39,7 +39,7 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:198402
+main.ts:201096
 
 ***
 
@@ -60,7 +60,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Source
 
-main.ts:198430
+main.ts:201125
 
 ***
 
@@ -73,7 +73,7 @@ optional field
 
 #### Source
 
-main.ts:198410
+main.ts:201104
 
 ***
 
@@ -88,7 +88,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:198448
+main.ts:201143
 
 ***
 
@@ -100,6 +100,7 @@ GPS coordinates of a location
 optional field
 location_coordinate parameter should be specified in the “latitude,longitude,radius” format
 the maximum number of decimal digits for “latitude” and “longitude”: 7
+the value of “radius” is specified in kilometres (km)
 the minimum value for “radius”: 1
 the maximum value for “radius”: 100000
 example:
@@ -107,7 +108,7 @@ example:
 
 #### Source
 
-main.ts:198419
+main.ts:201114
 
 ***
 
@@ -122,7 +123,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Source
 
-main.ts:198453
+main.ts:201148
 
 ***
 
@@ -140,7 +141,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Source
 
-main.ts:198461
+main.ts:201156
 
 ***
 
@@ -163,7 +164,7 @@ example:
 
 #### Source
 
-main.ts:198443
+main.ts:201138
 
 ***
 
@@ -179,7 +180,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:198467
+main.ts:201162
 
 ***
 
@@ -194,4 +195,4 @@ can contain up to 200 symbols
 
 #### Source
 
-main.ts:198407
+main.ts:201101

@@ -33,7 +33,7 @@ content_generation
 
 #### Source
 
-main.ts:221822
+main.ts:224781
 
 ***
 
@@ -45,7 +45,7 @@ array of objects that contain status information for API endpoints
 
 #### Source
 
-main.ts:221834
+main.ts:224793
 
 ***
 
@@ -65,4 +65,4 @@ send_delay
 
 #### Source
 
-main.ts:221832
+main.ts:224791

@@ -26,19 +26,19 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Source
 
-main.ts:116915
+main.ts:118090
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](../classes/KeywordDataKeywordDataInfo.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the returned keyword
 
 #### Source
 
-main.ts:116911
+main.ts:118086
 
 ***
 
@@ -50,4 +50,4 @@ search engine type
 
 #### Source
 
-main.ts:116909
+main.ts:118084

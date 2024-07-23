@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:33511
+main.ts:33838
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Source
 
-main.ts:33500
+main.ts:33827
 
 ***
 
@@ -62,7 +62,7 @@ the total time it will take to play an episode
 
 #### Source
 
-main.ts:33507
+main.ts:33834
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Source
 
-main.ts:33505
+main.ts:33832
 
 ***
 
@@ -97,7 +97,7 @@ title of a given link element
 
 #### Source
 
-main.ts:33496
+main.ts:33823
 
 ***
 
@@ -113,7 +113,7 @@ type of element
 
 #### Source
 
-main.ts:33494
+main.ts:33821
 
 ***
 
@@ -129,7 +129,7 @@ URL
 
 #### Source
 
-main.ts:33498
+main.ts:33825
 
 ## Methods
 
@@ -147,7 +147,7 @@ main.ts:33498
 
 #### Source
 
-main.ts:33520
+main.ts:33847
 
 ***
 
@@ -165,7 +165,7 @@ main.ts:33520
 
 #### Source
 
-main.ts:33542
+main.ts:33869
 
 ***
 
@@ -183,4 +183,4 @@ main.ts:33542
 
 #### Source
 
-main.ts:33535
+main.ts:33862

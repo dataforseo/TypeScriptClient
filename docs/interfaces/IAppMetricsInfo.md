@@ -20,7 +20,7 @@ total count of Amazon organic SERPs that contain the product
 
 #### Source
 
-main.ts:105323
+main.ts:106338
 
 ***
 
@@ -32,7 +32,7 @@ number of organic SERPs where the product ranks #1
 
 #### Source
 
-main.ts:105315
+main.ts:106330
 
 ***
 
@@ -44,7 +44,7 @@ number of organic SERPs where the product ranks #11-100
 
 #### Source
 
-main.ts:105321
+main.ts:106336
 
 ***
 
@@ -56,7 +56,7 @@ number of organic SERPs where the product ranks #2-3
 
 #### Source
 
-main.ts:105317
+main.ts:106332
 
 ***
 
@@ -68,7 +68,7 @@ number of organic SERPs where the product ranks #4-10
 
 #### Source
 
-main.ts:105319
+main.ts:106334
 
 ***
 
@@ -80,4 +80,4 @@ total search volume of the product’s ranking keywords in organic SERP
 
 #### Source
 
-main.ts:105325
+main.ts:106340

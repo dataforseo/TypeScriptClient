@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:208413
+main.ts:211360
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:208413
 
 #### Source
 
-main.ts:20770
+main.ts:21097
 
 ***
 
@@ -68,7 +68,7 @@ images submitted by the reviewer
 
 #### Source
 
-main.ts:208406
+main.ts:211353
 
 ***
 
@@ -84,7 +84,7 @@ indicates whether the reviewer has a ‘local guide’ status
 
 #### Source
 
-main.ts:208378
+main.ts:211325
 
 ***
 
@@ -101,7 +101,7 @@ the original response to the review, no auto-translate applied
 
 #### Source
 
-main.ts:208392
+main.ts:211339
 
 ***
 
@@ -118,7 +118,7 @@ the original content of the review, no auto-translate applied
 
 #### Source
 
-main.ts:208362
+main.ts:211309
 
 ***
 
@@ -135,7 +135,7 @@ the owner’s response to the review
 
 #### Source
 
-main.ts:208389
+main.ts:211336
 
 ***
 
@@ -152,7 +152,7 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 #### Source
 
-main.ts:208395
+main.ts:211342
 
 ***
 
@@ -171,7 +171,7 @@ example:
 
 #### Source
 
-main.ts:208400
+main.ts:211347
 
 ***
 
@@ -187,7 +187,7 @@ total number of photos submitted by the reviewer
 
 #### Source
 
-main.ts:208376
+main.ts:211323
 
 ***
 
@@ -204,7 +204,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:208355
+main.ts:211302
 
 ***
 
@@ -220,7 +220,7 @@ URL of the reviewer’s profile image
 
 #### Source
 
-main.ts:208386
+main.ts:211333
 
 ***
 
@@ -236,7 +236,7 @@ profile name of the reviewer
 
 #### Source
 
-main.ts:208380
+main.ts:211327
 
 ***
 
@@ -252,7 +252,7 @@ URL of the reviewer’s profile
 
 #### Source
 
-main.ts:208382
+main.ts:211329
 
 ***
 
@@ -269,7 +269,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:208352
+main.ts:211299
 
 ***
 
@@ -286,7 +286,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:208349
+main.ts:211296
 
 ***
 
@@ -302,7 +302,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:208372
+main.ts:211319
 
 ***
 
@@ -319,7 +319,7 @@ contains highlighted review criteria and assessments
 
 #### Source
 
-main.ts:208409
+main.ts:211356
 
 ***
 
@@ -337,7 +337,7 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 #### Source
 
-main.ts:208404
+main.ts:211351
 
 ***
 
@@ -353,7 +353,7 @@ the content of the review
 
 #### Source
 
-main.ts:208359
+main.ts:211306
 
 ***
 
@@ -369,7 +369,7 @@ the URL of the review
 
 #### Source
 
-main.ts:208384
+main.ts:211331
 
 ***
 
@@ -385,7 +385,7 @@ total number of reviews submitted by the reviewer
 
 #### Source
 
-main.ts:208374
+main.ts:211321
 
 ***
 
@@ -402,7 +402,7 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 #### Source
 
-main.ts:208365
+main.ts:211312
 
 ***
 
@@ -421,7 +421,7 @@ example:
 
 #### Source
 
-main.ts:208370
+main.ts:211317
 
 ***
 
@@ -437,7 +437,7 @@ the XPath of the review
 
 #### Source
 
-main.ts:208357
+main.ts:211304
 
 ## Methods
 
@@ -459,7 +459,7 @@ main.ts:208357
 
 #### Source
 
-main.ts:208418
+main.ts:211365
 
 ***
 
@@ -481,7 +481,7 @@ main.ts:208418
 
 #### Source
 
-main.ts:208466
+main.ts:211413
 
 ***
 
@@ -503,4 +503,4 @@ main.ts:208466
 
 #### Source
 
-main.ts:208459
+main.ts:211406

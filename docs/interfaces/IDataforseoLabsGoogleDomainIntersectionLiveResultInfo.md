@@ -20,7 +20,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Source
 
-main.ts:93901
+main.ts:94960
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:93899
+main.ts:94958
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:93895
+main.ts:94954
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:93893
+main.ts:94952
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Source
 
-main.ts:93887
+main.ts:94946
 
 ***
 
@@ -80,7 +80,7 @@ the first target domain in a POST array
 
 #### Source
 
-main.ts:93889
+main.ts:94948
 
 ***
 
@@ -92,7 +92,7 @@ the second target domain in a POST array
 
 #### Source
 
-main.ts:93891
+main.ts:94950
 
 ***
 
@@ -104,4 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:93897
+main.ts:94956

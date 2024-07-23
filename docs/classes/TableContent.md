@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:160935
+main.ts:163802
 
 ## Properties
 
@@ -46,7 +46,7 @@ content of the body of the table
 
 #### Source
 
-main.ts:160929
+main.ts:163796
 
 ***
 
@@ -62,7 +62,7 @@ content of the footer of the table
 
 #### Source
 
-main.ts:160931
+main.ts:163798
 
 ***
 
@@ -78,7 +78,7 @@ parsed content of the header
 
 #### Source
 
-main.ts:160927
+main.ts:163794
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:160927
 
 #### Source
 
-main.ts:160944
+main.ts:163811
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:160944
 
 #### Source
 
-main.ts:160975
+main.ts:163842
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:160975
 
 #### Source
 
-main.ts:160968
+main.ts:163835

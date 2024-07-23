@@ -20,7 +20,7 @@ contains citations and related data
 
 #### Source
 
-main.ts:166132
+main.ts:168825
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:166130
+main.ts:168823
 
 ***
 
@@ -46,7 +46,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:166126
+main.ts:168819
 
 ***
 
@@ -58,4 +58,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:166128
+main.ts:168821

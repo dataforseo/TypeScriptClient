@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96225
+main.ts:97241
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:96225
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20243
 
 > **`optional`** **items**: `string`[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:96221
+main.ts:97237
 
 ***
 
@@ -87,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:96216
+main.ts:97233
 
 ***
 
@@ -104,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96212
+main.ts:97229
 
 ***
 
@@ -121,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96209
+main.ts:97226
 
 ***
 
@@ -137,7 +136,7 @@ search engine type
 
 #### Source
 
-main.ts:96206
+main.ts:97223
 
 ***
 
@@ -153,7 +152,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96218
+main.ts:97235
 
 ## Methods
 
@@ -175,7 +174,7 @@ main.ts:96218
 
 #### Source
 
-main.ts:96230
+main.ts:97246
 
 ***
 
@@ -197,7 +196,7 @@ main.ts:96230
 
 #### Source
 
-main.ts:96257
+main.ts:97273
 
 ***
 
@@ -219,4 +218,4 @@ main.ts:96257
 
 #### Source
 
-main.ts:96250
+main.ts:97266

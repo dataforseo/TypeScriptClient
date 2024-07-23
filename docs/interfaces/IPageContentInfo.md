@@ -20,7 +20,7 @@ parsed content of the footer
 
 #### Source
 
-main.ts:161320
+main.ts:164075
 
 ***
 
@@ -32,30 +32,30 @@ content of the header of the table
 
 #### Source
 
-main.ts:161318
+main.ts:164073
 
 ***
 
 ### main\_topic?
 
-> **`optional`** **main\_topic**: [`MainTopic`](../classes/MainTopic.md)[]
+> **`optional`** **main\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
 
 #### Source
 
-main.ts:161323
+main.ts:164078
 
 ***
 
 ### secondary\_topic?
 
-> **`optional`** **secondary\_topic**: [`SecondaryTopic`](../classes/SecondaryTopic.md)[]
+> **`optional`** **secondary\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
 
 #### Source
 
-main.ts:161326
+main.ts:164081

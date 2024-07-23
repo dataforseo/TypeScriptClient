@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:144204
+main.ts:147051
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates the number of backlink intersections with the target specified in the 
 
 #### Source
 
-main.ts:144200
+main.ts:147047
 
 ***
 
@@ -65,7 +65,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:144198
+main.ts:147045
 
 ***
 
@@ -81,7 +81,7 @@ competitor domain
 
 #### Source
 
-main.ts:144193
+main.ts:147040
 
 ***
 
@@ -97,7 +97,7 @@ type of element
 
 #### Source
 
-main.ts:144191
+main.ts:147038
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:144191
 
 #### Source
 
-main.ts:144213
+main.ts:147060
 
 ***
 
@@ -133,7 +133,7 @@ main.ts:144213
 
 #### Source
 
-main.ts:144233
+main.ts:147080
 
 ***
 
@@ -151,4 +151,4 @@ main.ts:144233
 
 #### Source
 
-main.ts:144226
+main.ts:147073

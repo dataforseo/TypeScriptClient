@@ -20,7 +20,7 @@ contains keywords and related data
 
 #### Source
 
-main.ts:110959
+main.ts:111974
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:110957
+main.ts:111972
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:110953
+main.ts:111968
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:110951
+main.ts:111966
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Source
 
-main.ts:110944
+main.ts:111959
 
 ***
 
@@ -80,20 +80,20 @@ keyword in a POST array
 
 #### Source
 
-main.ts:110946
+main.ts:111961
 
 ***
 
 ### seed\_keyword\_data?
 
-> **`optional`** **seed\_keyword\_data**: [`KeywordDataKeywordDataInfo`](../classes/KeywordDataKeywordDataInfo.md)
+> **`optional`** **seed\_keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
 
 #### Source
 
-main.ts:110949
+main.ts:111964
 
 ***
 
@@ -105,4 +105,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:110955
+main.ts:111970

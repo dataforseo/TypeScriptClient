@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:88262
+main.ts:89321
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:88143
+main.ts:89202
 
 ***
 
@@ -69,7 +69,7 @@ default value: true
 
 #### Source
 
-main.ts:88181
+main.ts:89240
 
 ***
 
@@ -102,7 +102,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:88236
+main.ts:89295
 
 ***
 
@@ -121,7 +121,7 @@ default value: false
 
 #### Source
 
-main.ts:88199
+main.ts:89258
 
 ***
 
@@ -143,7 +143,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:88194
+main.ts:89253
 
 ***
 
@@ -162,7 +162,7 @@ default value: false
 
 #### Source
 
-main.ts:88186
+main.ts:89245
 
 ***
 
@@ -184,7 +184,7 @@ en
 
 #### Source
 
-main.ts:88175
+main.ts:89234
 
 ***
 
@@ -206,7 +206,7 @@ English
 
 #### Source
 
-main.ts:88167
+main.ts:89226
 
 ***
 
@@ -216,7 +216,7 @@ main.ts:88167
 
 the maximum number of keywords in the results array
 optional field
-default value: 700
+default value: 100
 maximum value: 1000
 
 #### Implementation of
@@ -225,7 +225,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:88204
+main.ts:89263
 
 ***
 
@@ -247,7 +247,7 @@ example:
 
 #### Source
 
-main.ts:88159
+main.ts:89218
 
 ***
 
@@ -269,7 +269,7 @@ United Kingdom
 
 #### Source
 
-main.ts:88151
+main.ts:89210
 
 ***
 
@@ -288,7 +288,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:88209
+main.ts:89268
 
 ***
 
@@ -310,7 +310,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:88217
+main.ts:89276
 
 ***
 
@@ -340,7 +340,7 @@ example:
 
 #### Source
 
-main.ts:88252
+main.ts:89311
 
 ***
 
@@ -360,7 +360,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:88258
+main.ts:89317
 
 ## Methods
 
@@ -378,7 +378,7 @@ main.ts:88258
 
 #### Source
 
-main.ts:88271
+main.ts:89330
 
 ***
 
@@ -396,7 +396,7 @@ main.ts:88271
 
 #### Source
 
-main.ts:88314
+main.ts:89373
 
 ***
 
@@ -414,4 +414,4 @@ main.ts:88314
 
 #### Source
 
-main.ts:88307
+main.ts:89366

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:170612
+main.ts:173305
 
 ## Properties
 
@@ -48,7 +48,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Source
 
-main.ts:170598
+main.ts:173291
 
 ***
 
@@ -66,7 +66,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Source
 
-main.ts:170602
+main.ts:173295
 
 ***
 
@@ -86,7 +86,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:170608
+main.ts:173301
 
 ***
 
@@ -105,7 +105,7 @@ learn more about tokens on our help center
 
 #### Source
 
-main.ts:170594
+main.ts:173287
 
 ## Methods
 
@@ -123,7 +123,7 @@ main.ts:170594
 
 #### Source
 
-main.ts:170621
+main.ts:173314
 
 ***
 
@@ -141,7 +141,7 @@ main.ts:170621
 
 #### Source
 
-main.ts:170641
+main.ts:173334
 
 ***
 
@@ -159,4 +159,4 @@ main.ts:170641
 
 #### Source
 
-main.ts:170634
+main.ts:173327

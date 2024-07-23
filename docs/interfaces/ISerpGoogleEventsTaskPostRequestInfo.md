@@ -23,7 +23,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Source
 
-main.ts:46048
+main.ts:46503
 
 ***
 
@@ -42,7 +42,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:46070
+main.ts:46525
 
 ***
 
@@ -59,7 +59,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:45994
+main.ts:46449
 
 ***
 
@@ -77,7 +77,7 @@ en
 
 #### Source
 
-main.ts:46043
+main.ts:46498
 
 ***
 
@@ -95,7 +95,7 @@ English
 
 #### Source
 
-main.ts:46035
+main.ts:46490
 
 ***
 
@@ -112,7 +112,7 @@ example:
 
 #### Source
 
-main.ts:46016
+main.ts:46471
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Source
 
-main.ts:46027
+main.ts:46482
 
 ***
 
@@ -150,7 +150,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:46009
+main.ts:46464
 
 ***
 
@@ -167,7 +167,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:46077
+main.ts:46532
 
 ***
 
@@ -183,7 +183,7 @@ default value: windows
 
 #### Source
 
-main.ts:46054
+main.ts:46509
 
 ***
 
@@ -203,7 +203,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:46109
+main.ts:46564
 
 ***
 
@@ -219,7 +219,7 @@ advanced
 
 #### Source
 
-main.ts:46099
+main.ts:46554
 
 ***
 
@@ -239,7 +239,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:46093
+main.ts:46548
 
 ***
 
@@ -257,7 +257,7 @@ The cost can be calculated on the Pricing page
 
 #### Source
 
-main.ts:46002
+main.ts:46457
 
 ***
 
@@ -274,7 +274,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:46061
+main.ts:46516
 
 ***
 
@@ -290,4 +290,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:46083
+main.ts:46538

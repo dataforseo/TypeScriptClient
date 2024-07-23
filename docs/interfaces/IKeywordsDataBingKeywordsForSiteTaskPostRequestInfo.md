@@ -22,10 +22,11 @@ if you don’t specify this field, data will be provided for the last 12 months
 date format: "yyyy-mm-dd"
 example:
 "2020-01-01"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Source
 
-main.ts:131885
+main.ts:133070
 
 ***
 
@@ -38,14 +39,14 @@ optional field
 if you don’t specify this field, data will be provided for the last 12 months;
 minimum value: two years back from today’s date;
 maximum value: one month from today’s date;
-note: we do not recommend using a custom time range for the past year’s dates;
 date format: "yyyy-mm-dd"
 example:
 "2020-03-15"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Source
 
-main.ts:131895
+main.ts:133080
 
 ***
 
@@ -61,7 +62,7 @@ default value: all
 
 #### Source
 
-main.ts:131873
+main.ts:133057
 
 ***
 
@@ -77,7 +78,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:131867
+main.ts:133051
 
 ***
 
@@ -93,7 +94,7 @@ en, fr, de
 
 #### Source
 
-main.ts:131861
+main.ts:133045
 
 ***
 
@@ -109,7 +110,7 @@ English, French, German
 
 #### Source
 
-main.ts:131855
+main.ts:133039
 
 ***
 
@@ -126,7 +127,7 @@ example:
 
 #### Source
 
-main.ts:131841
+main.ts:133025
 
 ***
 
@@ -144,7 +145,7 @@ example:
 
 #### Source
 
-main.ts:131849
+main.ts:133033
 
 ***
 
@@ -161,7 +162,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:131834
+main.ts:133018
 
 ***
 
@@ -181,7 +182,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131915
+main.ts:133100
 
 ***
 
@@ -201,7 +202,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:131905
+main.ts:133090
 
 ***
 
@@ -216,7 +217,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:131920
+main.ts:133105
 
 ***
 
@@ -231,7 +232,7 @@ default value: relevance
 
 #### Source
 
-main.ts:131878
+main.ts:133062
 
 ***
 
@@ -247,7 +248,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:131926
+main.ts:133111
 
 ***
 
@@ -261,4 +262,4 @@ the URL of the webpage or the domain to scan for possible keywords
 
 #### Source
 
-main.ts:131827
+main.ts:133011

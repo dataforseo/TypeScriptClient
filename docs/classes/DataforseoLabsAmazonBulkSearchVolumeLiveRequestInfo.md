@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:103260
+main.ts:104275
 
 ## Properties
 
@@ -51,7 +51,7 @@ the keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:103203
+main.ts:104218
 
 ***
 
@@ -72,7 +72,7 @@ en
 
 #### Source
 
-main.ts:103250
+main.ts:104265
 
 ***
 
@@ -93,7 +93,7 @@ English
 
 #### Source
 
-main.ts:103243
+main.ts:104258
 
 ***
 
@@ -115,7 +115,7 @@ example:
 
 #### Source
 
-main.ts:103236
+main.ts:104251
 
 ***
 
@@ -154,7 +154,7 @@ United States
 
 #### Source
 
-main.ts:103228
+main.ts:104243
 
 ***
 
@@ -174,7 +174,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:103256
+main.ts:104271
 
 ## Methods
 
@@ -192,7 +192,7 @@ main.ts:103256
 
 #### Source
 
-main.ts:103269
+main.ts:104284
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:103269
 
 #### Source
 
-main.ts:103295
+main.ts:104310
 
 ***
 
@@ -228,4 +228,4 @@ main.ts:103295
 
 #### Source
 
-main.ts:103288
+main.ts:104303

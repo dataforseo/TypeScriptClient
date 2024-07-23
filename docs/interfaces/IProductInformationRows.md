@@ -20,7 +20,7 @@ rows containing related product information
 
 #### Source
 
-main.ts:182063
+main.ts:184756
 
 ***
 
@@ -32,7 +32,7 @@ title under which related product information appears on the Amazon product page
 
 #### Source
 
-main.ts:182061
+main.ts:184754
 
 ***
 
@@ -44,4 +44,4 @@ type of element
 
 #### Source
 
-main.ts:182059
+main.ts:184752

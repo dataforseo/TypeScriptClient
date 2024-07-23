@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:152769
+main.ts:155636
 
 ## Properties
 
@@ -46,7 +46,7 @@ Automated Readability Index
 
 #### Source
 
-main.ts:152748
+main.ts:155615
 
 ***
 
@@ -62,7 +62,7 @@ Coleman–Liau Index
 
 #### Source
 
-main.ts:152750
+main.ts:155617
 
 ***
 
@@ -78,7 +78,7 @@ Dale–Chall Readability Index
 
 #### Source
 
-main.ts:152752
+main.ts:155619
 
 ***
 
@@ -95,7 +95,7 @@ measured from 0 to 1
 
 #### Source
 
-main.ts:152759
+main.ts:155626
 
 ***
 
@@ -111,7 +111,7 @@ Flesch–Kincaid Readability Index
 
 #### Source
 
-main.ts:152754
+main.ts:155621
 
 ***
 
@@ -128,7 +128,7 @@ measured from 0 to 1
 
 #### Source
 
-main.ts:152765
+main.ts:155632
 
 ***
 
@@ -145,7 +145,7 @@ plain_text_size to size ratio
 
 #### Source
 
-main.ts:152744
+main.ts:155611
 
 ***
 
@@ -161,7 +161,7 @@ total size of the text on the page measured in bytes
 
 #### Source
 
-main.ts:152741
+main.ts:155608
 
 ***
 
@@ -177,7 +177,7 @@ number of words on the page
 
 #### Source
 
-main.ts:152746
+main.ts:155613
 
 ***
 
@@ -193,7 +193,7 @@ SMOG Readability Index
 
 #### Source
 
-main.ts:152756
+main.ts:155623
 
 ***
 
@@ -210,7 +210,7 @@ measured from 0 to 1
 
 #### Source
 
-main.ts:152762
+main.ts:155629
 
 ## Methods
 
@@ -228,7 +228,7 @@ main.ts:152762
 
 #### Source
 
-main.ts:152778
+main.ts:155645
 
 ***
 
@@ -246,7 +246,7 @@ main.ts:152778
 
 #### Source
 
-main.ts:152805
+main.ts:155672
 
 ***
 
@@ -264,4 +264,4 @@ main.ts:152805
 
 #### Source
 
-main.ts:152798
+main.ts:155665

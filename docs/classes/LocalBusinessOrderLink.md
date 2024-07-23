@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:23070
+main.ts:23467
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:23070
 
 #### Source
 
-main.ts:22949
+main.ts:23346
 
 ***
 
@@ -68,7 +68,7 @@ lists available delivery services
 
 #### Source
 
-main.ts:23066
+main.ts:23463
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:23066
 
 #### Source
 
-main.ts:23075
+main.ts:23472
 
 ***
 
@@ -112,7 +112,7 @@ main.ts:23075
 
 #### Source
 
-main.ts:23097
+main.ts:23494
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:23097
 
 #### Source
 
-main.ts:23090
+main.ts:23487

@@ -23,10 +23,11 @@ minimum value: two years back from today’s date
 date format: "yyyy-mm-dd"
 example:
 "2020-01-01"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Source
 
-main.ts:131355
+main.ts:132537
 
 ***
 
@@ -43,10 +44,11 @@ note: we do not recommend using a custom time range for the past year’s dates;
 date format: "yyyy-mm-dd"
 example:
 "2020-03-15"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Source
 
-main.ts:131365
+main.ts:132548
 
 ***
 
@@ -61,7 +63,7 @@ default value: all
 
 #### Source
 
-main.ts:131342
+main.ts:132523
 
 ***
 
@@ -77,7 +79,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:131303
+main.ts:132484
 
 ***
 
@@ -93,7 +95,7 @@ en, fr, de
 
 #### Source
 
-main.ts:131337
+main.ts:132518
 
 ***
 
@@ -109,7 +111,7 @@ English, French, German
 
 #### Source
 
-main.ts:131331
+main.ts:132512
 
 ***
 
@@ -126,7 +128,7 @@ example:
 
 #### Source
 
-main.ts:131317
+main.ts:132498
 
 ***
 
@@ -144,7 +146,7 @@ example:
 
 #### Source
 
-main.ts:131325
+main.ts:132506
 
 ***
 
@@ -161,7 +163,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:131310
+main.ts:132491
 
 ***
 
@@ -176,7 +178,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:131370
+main.ts:132553
 
 ***
 
@@ -191,7 +193,7 @@ default value: relevance
 
 #### Source
 
-main.ts:131347
+main.ts:132528
 
 ***
 
@@ -207,4 +209,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:131376
+main.ts:132559

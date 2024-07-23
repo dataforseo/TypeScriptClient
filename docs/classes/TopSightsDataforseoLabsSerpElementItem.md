@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99668
+main.ts:100700
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99668
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20243
 
 > **`optional`** **items**: [`TopSightsElement`](TopSightsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99664
+main.ts:100696
 
 ***
 
@@ -87,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:99657
+main.ts:100690
 
 ***
 
@@ -104,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99653
+main.ts:100686
 
 ***
 
@@ -121,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99650
+main.ts:100683
 
 ***
 
@@ -129,7 +128,7 @@ main.ts:99650
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -137,7 +136,7 @@ title of the item
 
 #### Source
 
-main.ts:99661
+main.ts:100694
 
 ***
 
@@ -153,7 +152,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99659
+main.ts:100692
 
 ## Methods
 
@@ -175,7 +174,7 @@ main.ts:99659
 
 #### Source
 
-main.ts:99673
+main.ts:100705
 
 ***
 
@@ -197,7 +196,7 @@ main.ts:99673
 
 #### Source
 
-main.ts:99700
+main.ts:100732
 
 ***
 
@@ -219,4 +218,4 @@ main.ts:99700
 
 #### Source
 
-main.ts:99693
+main.ts:100725

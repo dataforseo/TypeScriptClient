@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:205574
+main.ts:208521
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about hotel amenities
 
 #### Source
 
-main.ts:205567
+main.ts:208514
 
 ***
 
@@ -64,7 +64,7 @@ check-in time indicated in the hotel listing
 
 #### Source
 
-main.ts:205552
+main.ts:208499
 
 ***
 
@@ -81,7 +81,7 @@ check-out time indicated in the hotel listing
 
 #### Source
 
-main.ts:205555
+main.ts:208502
 
 ***
 
@@ -98,7 +98,7 @@ the description of the hotel entity for which the results are collected
 
 #### Source
 
-main.ts:205546
+main.ts:208493
 
 ***
 
@@ -115,7 +115,7 @@ domain of the hotel’s website
 
 #### Source
 
-main.ts:205561
+main.ts:208508
 
 ***
 
@@ -132,7 +132,7 @@ address of the hotel indicated in the standardised format
 
 #### Source
 
-main.ts:205558
+main.ts:208505
 
 ***
 
@@ -149,7 +149,7 @@ information about hotel amenities labelled as “popular”
 
 #### Source
 
-main.ts:205570
+main.ts:208517
 
 ***
 
@@ -166,7 +166,7 @@ details about the hotel provided in addition to the description
 
 #### Source
 
-main.ts:205549
+main.ts:208496
 
 ***
 
@@ -183,7 +183,7 @@ URL to the hotel’s website indicated in the listing
 
 #### Source
 
-main.ts:205564
+main.ts:208511
 
 ## Methods
 
@@ -201,7 +201,7 @@ main.ts:205564
 
 #### Source
 
-main.ts:205583
+main.ts:208530
 
 ***
 
@@ -219,7 +219,7 @@ main.ts:205583
 
 #### Source
 
-main.ts:205620
+main.ts:208567
 
 ***
 
@@ -237,4 +237,4 @@ main.ts:205620
 
 #### Source
 
-main.ts:205613
+main.ts:208560

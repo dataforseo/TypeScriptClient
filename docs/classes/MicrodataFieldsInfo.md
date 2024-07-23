@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:159360
+main.ts:162227
 
 ## Properties
 
@@ -47,7 +47,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Source
 
-main.ts:159356
+main.ts:162223
 
 ***
 
@@ -64,7 +64,7 @@ name of the data field
 
 #### Source
 
-main.ts:159344
+main.ts:162211
 
 ***
 
@@ -81,7 +81,7 @@ sub-type microdata test results that contain detected errors and related message
 
 #### Source
 
-main.ts:159353
+main.ts:162220
 
 ***
 
@@ -98,7 +98,7 @@ for a full list of available types, please visit schema.org
 
 #### Source
 
-main.ts:159347
+main.ts:162214
 
 ***
 
@@ -115,7 +115,7 @@ microdata value specified on a target web page
 
 #### Source
 
-main.ts:159350
+main.ts:162217
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:159350
 
 #### Source
 
-main.ts:159369
+main.ts:162236
 
 ***
 
@@ -151,7 +151,7 @@ main.ts:159369
 
 #### Source
 
-main.ts:159394
+main.ts:162261
 
 ***
 
@@ -169,4 +169,4 @@ main.ts:159394
 
 #### Source
 
-main.ts:159387
+main.ts:162254

@@ -25,7 +25,7 @@ condition of the product offered by the seller
 
 #### Source
 
-main.ts:183705
+main.ts:186398
 
 ***
 
@@ -38,7 +38,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Source
 
-main.ts:183708
+main.ts:186401
 
 ***
 
@@ -51,7 +51,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:183711
+main.ts:186404
 
 ***
 
@@ -65,20 +65,20 @@ left, right
 
 #### Source
 
-main.ts:183688
+main.ts:186381
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`Price`](../classes/Price.md)
 
 product pricing details
 if there are no details, the value will be null
 
 #### Source
 
-main.ts:183699
+main.ts:186392
 
 ***
 
@@ -91,7 +91,7 @@ absolute position among all the elements found in Amazon Sellers SERP
 
 #### Source
 
-main.ts:183684
+main.ts:186377
 
 ***
 
@@ -104,7 +104,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:183681
+main.ts:186374
 
 ***
 
@@ -117,7 +117,7 @@ seller popularity rate based on customer reviews
 
 #### Source
 
-main.ts:183702
+main.ts:186395
 
 ***
 
@@ -129,7 +129,7 @@ business name of the seller
 
 #### Source
 
-main.ts:183692
+main.ts:186385
 
 ***
 
@@ -141,7 +141,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Source
 
-main.ts:183694
+main.ts:186387
 
 ***
 
@@ -153,7 +153,7 @@ sender company name
 
 #### Source
 
-main.ts:183696
+main.ts:186389
 
 ***
 
@@ -165,4 +165,4 @@ XPath of the element
 
 #### Source
 
-main.ts:183690
+main.ts:186383

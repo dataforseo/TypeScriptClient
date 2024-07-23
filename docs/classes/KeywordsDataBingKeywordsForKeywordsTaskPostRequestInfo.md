@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:133096
+main.ts:134286
 
 ## Properties
 
@@ -45,6 +45,7 @@ if you don’t specify this field, data will be provided for the last 12 months
 date format: "yyyy-mm-dd"
 example:
 "2020-01-01"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -52,7 +53,7 @@ example:
 
 #### Source
 
-main.ts:133051
+main.ts:134241
 
 ***
 
@@ -65,10 +66,10 @@ optional field
 if you don’t specify this field, data will be provided for the last 12 months;
 minimum value: two years back from today’s date;
 maximum value: one month from today’s date;
-note: we do not recommend using a custom time range for the past year’s dates;
 date format: "yyyy-mm-dd"
 example:
 "2020-03-15"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -76,7 +77,7 @@ example:
 
 #### Source
 
-main.ts:133061
+main.ts:134251
 
 ***
 
@@ -96,7 +97,7 @@ default value: all
 
 #### Source
 
-main.ts:133043
+main.ts:134232
 
 ***
 
@@ -115,7 +116,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:132992
+main.ts:134181
 
 ***
 
@@ -135,7 +136,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:133037
+main.ts:134226
 
 ***
 
@@ -155,7 +156,7 @@ en, fr, de
 
 #### Source
 
-main.ts:133026
+main.ts:134215
 
 ***
 
@@ -175,7 +176,7 @@ English, French, German
 
 #### Source
 
-main.ts:133020
+main.ts:134209
 
 ***
 
@@ -196,7 +197,7 @@ example:
 
 #### Source
 
-main.ts:133006
+main.ts:134195
 
 ***
 
@@ -218,7 +219,7 @@ example:
 
 #### Source
 
-main.ts:133014
+main.ts:134203
 
 ***
 
@@ -239,7 +240,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:132999
+main.ts:134188
 
 ***
 
@@ -263,7 +264,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:133086
+main.ts:134276
 
 ***
 
@@ -287,7 +288,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:133076
+main.ts:134266
 
 ***
 
@@ -306,7 +307,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:133066
+main.ts:134256
 
 ***
 
@@ -325,7 +326,7 @@ default value: relevance
 
 #### Source
 
-main.ts:133031
+main.ts:134220
 
 ***
 
@@ -345,7 +346,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:133092
+main.ts:134282
 
 ## Methods
 
@@ -363,7 +364,7 @@ main.ts:133092
 
 #### Source
 
-main.ts:133105
+main.ts:134295
 
 ***
 
@@ -381,7 +382,7 @@ main.ts:133105
 
 #### Source
 
-main.ts:133144
+main.ts:134334
 
 ***
 
@@ -399,4 +400,4 @@ main.ts:133144
 
 #### Source
 
-main.ts:133137
+main.ts:134327

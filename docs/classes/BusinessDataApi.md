@@ -26,7 +26,7 @@
 
 #### Source
 
-main.ts:17570
+main.ts:17850
 
 ## Properties
 
@@ -36,7 +36,7 @@ main.ts:17570
 
 #### Source
 
-main.ts:17567
+main.ts:17847
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:17567
 
 #### Source
 
-main.ts:17566
+main.ts:17846
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:17566
 
 #### Source
 
-main.ts:17568
+main.ts:17848
 
 ## Methods
 
@@ -94,7 +94,7 @@ Successful operation
 
 #### Source
 
-main.ts:17662
+main.ts:17942
 
 ***
 
@@ -116,7 +116,7 @@ Successful operation
 
 #### Source
 
-main.ts:17621
+main.ts:17901
 
 ***
 
@@ -132,7 +132,7 @@ Successful operation
 
 #### Source
 
-main.ts:17939
+main.ts:18219
 
 ***
 
@@ -148,7 +148,7 @@ Successful operation
 
 #### Source
 
-main.ts:17857
+main.ts:18137
 
 ***
 
@@ -174,7 +174,7 @@ Successful operation
 
 #### Source
 
-main.ts:17899
+main.ts:18179
 
 ***
 
@@ -196,7 +196,7 @@ Successful operation
 
 #### Source
 
-main.ts:17579
+main.ts:17859
 
 ***
 
@@ -212,7 +212,7 @@ Successful operation
 
 #### Source
 
-main.ts:18055
+main.ts:18335
 
 ***
 
@@ -228,7 +228,7 @@ Successful operation
 
 #### Source
 
-main.ts:19282
+main.ts:19604
 
 ***
 
@@ -244,7 +244,7 @@ Successful operation
 
 #### Source
 
-main.ts:19200
+main.ts:19522
 
 ***
 
@@ -270,7 +270,7 @@ Successful operation
 
 #### Source
 
-main.ts:19242
+main.ts:19564
 
 ***
 
@@ -286,7 +286,7 @@ Successful operation
 
 #### Source
 
-main.ts:17736
+main.ts:18016
 
 ***
 
@@ -302,7 +302,7 @@ Successful operation
 
 #### Source
 
-main.ts:17699
+main.ts:17979
 
 ***
 
@@ -324,7 +324,7 @@ Successful operation
 
 #### Source
 
-main.ts:17816
+main.ts:18096
 
 ***
 
@@ -346,7 +346,7 @@ Successful operation
 
 #### Source
 
-main.ts:17774
+main.ts:18054
 
 ***
 
@@ -368,7 +368,7 @@ Successful operation
 
 #### Source
 
-main.ts:18587
+main.ts:18909
 
 ***
 
@@ -390,7 +390,7 @@ Successful operation
 
 #### Source
 
-main.ts:18629
+main.ts:18951
 
 ***
 
@@ -414,7 +414,7 @@ Successful operation
 
 #### Source
 
-main.ts:18503
+main.ts:18825
 
 ***
 
@@ -438,7 +438,7 @@ Successful operation
 
 #### Source
 
-main.ts:18546
+main.ts:18868
 
 ***
 
@@ -460,7 +460,7 @@ Successful operation
 
 #### Source
 
-main.ts:18422
+main.ts:18744
 
 ***
 
@@ -476,7 +476,7 @@ Successful operation
 
 #### Source
 
-main.ts:18463
+main.ts:18785
 
 ***
 
@@ -498,7 +498,7 @@ Successful operation
 
 #### Source
 
-main.ts:18380
+main.ts:18702
 
 ***
 
@@ -522,7 +522,7 @@ Successful operation
 
 #### Source
 
-main.ts:18339
+main.ts:18661
 
 ***
 
@@ -544,7 +544,7 @@ Successful operation
 
 #### Source
 
-main.ts:18258
+main.ts:18580
 
 ***
 
@@ -560,7 +560,29 @@ Successful operation
 
 #### Source
 
-main.ts:18299
+main.ts:18621
+
+***
+
+### googleMyBusinessInfoLive()
+
+> **googleMyBusinessInfoLive**(`body`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:18416
 
 ***
 
@@ -584,7 +606,7 @@ Successful operation
 
 #### Source
 
-main.ts:18095
+main.ts:18375
 
 ***
 
@@ -606,7 +628,7 @@ Successful operation
 
 #### Source
 
-main.ts:17977
+main.ts:18257
 
 ***
 
@@ -622,7 +644,7 @@ Successful operation
 
 #### Source
 
-main.ts:18018
+main.ts:18298
 
 ***
 
@@ -646,7 +668,7 @@ Successful operation
 
 #### Source
 
-main.ts:18217
+main.ts:18539
 
 ***
 
@@ -668,7 +690,7 @@ Successful operation
 
 #### Source
 
-main.ts:18136
+main.ts:18458
 
 ***
 
@@ -684,7 +706,7 @@ Successful operation
 
 #### Source
 
-main.ts:18177
+main.ts:18499
 
 ***
 
@@ -706,7 +728,7 @@ Successful operation
 
 #### Source
 
-main.ts:18915
+main.ts:19237
 
 ***
 
@@ -730,7 +752,7 @@ Successful operation
 
 #### Source
 
-main.ts:18874
+main.ts:19196
 
 ***
 
@@ -752,7 +774,7 @@ Successful operation
 
 #### Source
 
-main.ts:18793
+main.ts:19115
 
 ***
 
@@ -768,7 +790,7 @@ Successful operation
 
 #### Source
 
-main.ts:18834
+main.ts:19156
 
 ***
 
@@ -792,7 +814,7 @@ Successful operation
 
 #### Source
 
-main.ts:18752
+main.ts:19074
 
 ***
 
@@ -814,7 +836,7 @@ Successful operation
 
 #### Source
 
-main.ts:18671
+main.ts:18993
 
 ***
 
@@ -830,7 +852,7 @@ Successful operation
 
 #### Source
 
-main.ts:18712
+main.ts:19034
 
 ***
 
@@ -848,7 +870,7 @@ main.ts:18712
 
 #### Source
 
-main.ts:17678
+main.ts:17958
 
 ***
 
@@ -866,7 +888,7 @@ main.ts:17678
 
 #### Source
 
-main.ts:17641
+main.ts:17921
 
 ***
 
@@ -884,7 +906,7 @@ main.ts:17641
 
 #### Source
 
-main.ts:17955
+main.ts:18235
 
 ***
 
@@ -902,7 +924,7 @@ main.ts:17955
 
 #### Source
 
-main.ts:17873
+main.ts:18153
 
 ***
 
@@ -920,7 +942,7 @@ main.ts:17873
 
 #### Source
 
-main.ts:17918
+main.ts:18198
 
 ***
 
@@ -938,7 +960,7 @@ main.ts:17918
 
 #### Source
 
-main.ts:17599
+main.ts:17879
 
 ***
 
@@ -956,7 +978,7 @@ main.ts:17599
 
 #### Source
 
-main.ts:18071
+main.ts:18351
 
 ***
 
@@ -974,7 +996,7 @@ main.ts:18071
 
 #### Source
 
-main.ts:19298
+main.ts:19620
 
 ***
 
@@ -992,7 +1014,7 @@ main.ts:19298
 
 #### Source
 
-main.ts:19216
+main.ts:19538
 
 ***
 
@@ -1010,7 +1032,7 @@ main.ts:19216
 
 #### Source
 
-main.ts:19261
+main.ts:19583
 
 ***
 
@@ -1028,7 +1050,7 @@ main.ts:19261
 
 #### Source
 
-main.ts:17752
+main.ts:18032
 
 ***
 
@@ -1046,7 +1068,7 @@ main.ts:17752
 
 #### Source
 
-main.ts:17715
+main.ts:17995
 
 ***
 
@@ -1064,7 +1086,7 @@ main.ts:17715
 
 #### Source
 
-main.ts:17836
+main.ts:18116
 
 ***
 
@@ -1082,7 +1104,7 @@ main.ts:17836
 
 #### Source
 
-main.ts:17794
+main.ts:18074
 
 ***
 
@@ -1100,7 +1122,7 @@ main.ts:17794
 
 #### Source
 
-main.ts:18607
+main.ts:18929
 
 ***
 
@@ -1118,7 +1140,7 @@ main.ts:18607
 
 #### Source
 
-main.ts:18649
+main.ts:18971
 
 ***
 
@@ -1136,7 +1158,7 @@ main.ts:18649
 
 #### Source
 
-main.ts:18522
+main.ts:18844
 
 ***
 
@@ -1154,7 +1176,7 @@ main.ts:18522
 
 #### Source
 
-main.ts:18565
+main.ts:18887
 
 ***
 
@@ -1172,7 +1194,7 @@ main.ts:18565
 
 #### Source
 
-main.ts:18442
+main.ts:18764
 
 ***
 
@@ -1190,7 +1212,7 @@ main.ts:18442
 
 #### Source
 
-main.ts:18479
+main.ts:18801
 
 ***
 
@@ -1208,7 +1230,7 @@ main.ts:18479
 
 #### Source
 
-main.ts:18400
+main.ts:18722
 
 ***
 
@@ -1226,7 +1248,7 @@ main.ts:18400
 
 #### Source
 
-main.ts:18358
+main.ts:18680
 
 ***
 
@@ -1244,7 +1266,7 @@ main.ts:18358
 
 #### Source
 
-main.ts:18278
+main.ts:18600
 
 ***
 
@@ -1262,7 +1284,25 @@ main.ts:18278
 
 #### Source
 
-main.ts:18315
+main.ts:18637
+
+***
+
+### processGoogleMyBusinessInfoLive()
+
+> **`protected`** **processGoogleMyBusinessInfoLive**(`response`): `Promise`\<[`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`BusinessDataGoogleMyBusinessInfoLiveResponseInfo`](BusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)\>
+
+#### Source
+
+main.ts:18436
 
 ***
 
@@ -1280,7 +1320,7 @@ main.ts:18315
 
 #### Source
 
-main.ts:18114
+main.ts:18394
 
 ***
 
@@ -1298,7 +1338,7 @@ main.ts:18114
 
 #### Source
 
-main.ts:17997
+main.ts:18277
 
 ***
 
@@ -1316,7 +1356,7 @@ main.ts:17997
 
 #### Source
 
-main.ts:18034
+main.ts:18314
 
 ***
 
@@ -1334,7 +1374,7 @@ main.ts:18034
 
 #### Source
 
-main.ts:18236
+main.ts:18558
 
 ***
 
@@ -1352,7 +1392,7 @@ main.ts:18236
 
 #### Source
 
-main.ts:18156
+main.ts:18478
 
 ***
 
@@ -1370,7 +1410,7 @@ main.ts:18156
 
 #### Source
 
-main.ts:18193
+main.ts:18515
 
 ***
 
@@ -1388,7 +1428,7 @@ main.ts:18193
 
 #### Source
 
-main.ts:18935
+main.ts:19257
 
 ***
 
@@ -1406,7 +1446,7 @@ main.ts:18935
 
 #### Source
 
-main.ts:18893
+main.ts:19215
 
 ***
 
@@ -1424,7 +1464,7 @@ main.ts:18893
 
 #### Source
 
-main.ts:18813
+main.ts:19135
 
 ***
 
@@ -1442,7 +1482,7 @@ main.ts:18813
 
 #### Source
 
-main.ts:18850
+main.ts:19172
 
 ***
 
@@ -1460,7 +1500,7 @@ main.ts:18850
 
 #### Source
 
-main.ts:18771
+main.ts:19093
 
 ***
 
@@ -1478,7 +1518,7 @@ main.ts:18771
 
 #### Source
 
-main.ts:18691
+main.ts:19013
 
 ***
 
@@ -1496,7 +1536,7 @@ main.ts:18691
 
 #### Source
 
-main.ts:18728
+main.ts:19050
 
 ***
 
@@ -1514,7 +1554,7 @@ main.ts:18728
 
 #### Source
 
-main.ts:19626
+main.ts:19948
 
 ***
 
@@ -1532,7 +1572,7 @@ main.ts:19626
 
 #### Source
 
-main.ts:19584
+main.ts:19906
 
 ***
 
@@ -1550,7 +1590,7 @@ main.ts:19584
 
 #### Source
 
-main.ts:19668
+main.ts:19990
 
 ***
 
@@ -1568,7 +1608,7 @@ main.ts:19668
 
 #### Source
 
-main.ts:19542
+main.ts:19864
 
 ***
 
@@ -1586,7 +1626,7 @@ main.ts:19542
 
 #### Source
 
-main.ts:19462
+main.ts:19784
 
 ***
 
@@ -1604,7 +1644,7 @@ main.ts:19462
 
 #### Source
 
-main.ts:19499
+main.ts:19821
 
 ***
 
@@ -1622,7 +1662,7 @@ main.ts:19499
 
 #### Source
 
-main.ts:19420
+main.ts:19742
 
 ***
 
@@ -1640,7 +1680,7 @@ main.ts:19420
 
 #### Source
 
-main.ts:19340
+main.ts:19662
 
 ***
 
@@ -1658,7 +1698,7 @@ main.ts:19340
 
 #### Source
 
-main.ts:19377
+main.ts:19699
 
 ***
 
@@ -1676,7 +1716,7 @@ main.ts:19377
 
 #### Source
 
-main.ts:19179
+main.ts:19501
 
 ***
 
@@ -1694,7 +1734,7 @@ main.ts:19179
 
 #### Source
 
-main.ts:19099
+main.ts:19421
 
 ***
 
@@ -1712,7 +1752,7 @@ main.ts:19099
 
 #### Source
 
-main.ts:19136
+main.ts:19458
 
 ***
 
@@ -1730,7 +1770,7 @@ main.ts:19136
 
 #### Source
 
-main.ts:19057
+main.ts:19379
 
 ***
 
@@ -1748,7 +1788,7 @@ main.ts:19057
 
 #### Source
 
-main.ts:18977
+main.ts:19299
 
 ***
 
@@ -1766,7 +1806,7 @@ main.ts:18977
 
 #### Source
 
-main.ts:19014
+main.ts:19336
 
 ***
 
@@ -1788,7 +1828,7 @@ Successful operation
 
 #### Source
 
-main.ts:19606
+main.ts:19928
 
 ***
 
@@ -1810,7 +1850,7 @@ Successful operation
 
 #### Source
 
-main.ts:19564
+main.ts:19886
 
 ***
 
@@ -1832,7 +1872,7 @@ Successful operation
 
 #### Source
 
-main.ts:19648
+main.ts:19970
 
 ***
 
@@ -1856,7 +1896,7 @@ Successful operation
 
 #### Source
 
-main.ts:19523
+main.ts:19845
 
 ***
 
@@ -1878,7 +1918,7 @@ Successful operation
 
 #### Source
 
-main.ts:19442
+main.ts:19764
 
 ***
 
@@ -1894,7 +1934,7 @@ Successful operation
 
 #### Source
 
-main.ts:19483
+main.ts:19805
 
 ***
 
@@ -1918,7 +1958,7 @@ Successful operation
 
 #### Source
 
-main.ts:19401
+main.ts:19723
 
 ***
 
@@ -1940,7 +1980,7 @@ Successful operation
 
 #### Source
 
-main.ts:19320
+main.ts:19642
 
 ***
 
@@ -1956,7 +1996,7 @@ Successful operation
 
 #### Source
 
-main.ts:19361
+main.ts:19683
 
 ***
 
@@ -1980,7 +2020,7 @@ Successful operation
 
 #### Source
 
-main.ts:19160
+main.ts:19482
 
 ***
 
@@ -2002,7 +2042,7 @@ Successful operation
 
 #### Source
 
-main.ts:19079
+main.ts:19401
 
 ***
 
@@ -2018,7 +2058,7 @@ Successful operation
 
 #### Source
 
-main.ts:19120
+main.ts:19442
 
 ***
 
@@ -2042,7 +2082,7 @@ Successful operation
 
 #### Source
 
-main.ts:19038
+main.ts:19360
 
 ***
 
@@ -2064,7 +2104,7 @@ Successful operation
 
 #### Source
 
-main.ts:18957
+main.ts:19279
 
 ***
 
@@ -2080,4 +2120,4 @@ Successful operation
 
 #### Source
 
-main.ts:18998
+main.ts:19320

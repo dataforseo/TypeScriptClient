@@ -24,7 +24,7 @@ the category the video belongs to
 
 #### Source
 
-main.ts:62721
+main.ts:63176
 
 ***
 
@@ -36,7 +36,7 @@ the ID of the channel where the video is published
 
 #### Source
 
-main.ts:62696
+main.ts:63151
 
 ***
 
@@ -48,7 +48,7 @@ the URL of the page where the logo image of the channel is hosted
 
 #### Source
 
-main.ts:62702
+main.ts:63157
 
 ***
 
@@ -60,7 +60,7 @@ the name of the channel where the video is published
 
 #### Source
 
-main.ts:62698
+main.ts:63153
 
 ***
 
@@ -72,7 +72,7 @@ the URL of the channel where the video is published
 
 #### Source
 
-main.ts:62700
+main.ts:63155
 
 ***
 
@@ -84,7 +84,7 @@ number of comments on the video
 
 #### Source
 
-main.ts:62710
+main.ts:63165
 
 ***
 
@@ -96,7 +96,7 @@ description of the video
 
 #### Source
 
-main.ts:62704
+main.ts:63159
 
 ***
 
@@ -108,7 +108,7 @@ duration of the video
 
 #### Source
 
-main.ts:62725
+main.ts:63180
 
 ***
 
@@ -120,7 +120,7 @@ duration of the video in seconds
 
 #### Source
 
-main.ts:62727
+main.ts:63182
 
 ***
 
@@ -132,7 +132,7 @@ indicates whether the video is on live
 
 #### Source
 
-main.ts:62723
+main.ts:63178
 
 ***
 
@@ -144,7 +144,7 @@ keywords relevant to the video
 
 #### Source
 
-main.ts:62719
+main.ts:63174
 
 ***
 
@@ -156,7 +156,7 @@ number of likes on the video
 
 #### Source
 
-main.ts:62708
+main.ts:63163
 
 ***
 
@@ -168,7 +168,7 @@ the date when the video is published
 
 #### Source
 
-main.ts:62712
+main.ts:63167
 
 ***
 
@@ -181,7 +181,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:62686
+main.ts:63141
 
 ***
 
@@ -195,7 +195,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:62683
+main.ts:63138
 
 ***
 
@@ -207,7 +207,7 @@ array of elements that contain information about all possible streaming qualitie
 
 #### Source
 
-main.ts:62731
+main.ts:63186
 
 ***
 
@@ -219,7 +219,7 @@ array of elements describing properties of subtitles in the video
 
 #### Source
 
-main.ts:62729
+main.ts:63184
 
 ***
 
@@ -231,7 +231,7 @@ the URL of the page where the thumbnail is hosted
 
 #### Source
 
-main.ts:62694
+main.ts:63149
 
 ***
 
@@ -246,7 +246,7 @@ example:
 
 #### Source
 
-main.ts:62717
+main.ts:63172
 
 ***
 
@@ -258,7 +258,7 @@ title of the video
 
 #### Source
 
-main.ts:62690
+main.ts:63145
 
 ***
 
@@ -270,7 +270,7 @@ URL of the video
 
 #### Source
 
-main.ts:62692
+main.ts:63147
 
 ***
 
@@ -282,7 +282,7 @@ ID of the video received in a POST array
 
 #### Source
 
-main.ts:62688
+main.ts:63143
 
 ***
 
@@ -294,4 +294,4 @@ number of views of the video
 
 #### Source
 
-main.ts:62706
+main.ts:63161

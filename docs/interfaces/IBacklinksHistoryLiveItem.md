@@ -20,7 +20,7 @@ number of backlinks
 
 #### Source
 
-main.ts:138307
+main.ts:141112
 
 ***
 
@@ -33,7 +33,7 @@ number of broken backlinks pointing to the target
 
 #### Source
 
-main.ts:138340
+main.ts:141145
 
 ***
 
@@ -46,7 +46,7 @@ number of pages that receive backlinks but respond with 4xx or 5xx status codes
 
 #### Source
 
-main.ts:138343
+main.ts:141148
 
 ***
 
@@ -58,7 +58,7 @@ number of crawled pages for the target
 
 #### Source
 
-main.ts:138329
+main.ts:141134
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Source
 
-main.ts:138302
+main.ts:141107
 
 ***
 
@@ -86,7 +86,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Source
 
-main.ts:138337
+main.ts:141142
 
 ***
 
@@ -98,7 +98,7 @@ information about the target
 
 #### Source
 
-main.ts:138331
+main.ts:141136
 
 ***
 
@@ -111,7 +111,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Source
 
-main.ts:138334
+main.ts:141139
 
 ***
 
@@ -126,7 +126,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Source
 
-main.ts:138317
+main.ts:141122
 
 ***
 
@@ -141,7 +141,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Source
 
-main.ts:138327
+main.ts:141132
 
 ***
 
@@ -156,7 +156,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Source
 
-main.ts:138312
+main.ts:141117
 
 ***
 
@@ -171,7 +171,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Source
 
-main.ts:138322
+main.ts:141127
 
 ***
 
@@ -184,7 +184,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:138305
+main.ts:141110
 
 ***
 
@@ -197,7 +197,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Source
 
-main.ts:138346
+main.ts:141151
 
 ***
 
@@ -209,7 +209,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:138348
+main.ts:141153
 
 ***
 
@@ -222,7 +222,7 @@ number of IP addresses pointing to this page
 
 #### Source
 
-main.ts:138355
+main.ts:141160
 
 ***
 
@@ -239,7 +239,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Source
 
-main.ts:138372
+main.ts:141177
 
 ***
 
@@ -256,7 +256,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Source
 
-main.ts:138384
+main.ts:141189
 
 ***
 
@@ -273,7 +273,7 @@ indicates referring platform types and and link count per each platform
 
 #### Source
 
-main.ts:138375
+main.ts:141180
 
 ***
 
@@ -293,7 +293,7 @@ article, section, summary
 
 #### Source
 
-main.ts:138381
+main.ts:141186
 
 ***
 
@@ -310,7 +310,7 @@ contains top-level domains and referring link count per each
 
 #### Source
 
-main.ts:138364
+main.ts:141169
 
 ***
 
@@ -329,7 +329,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Source
 
-main.ts:138369
+main.ts:141174
 
 ***
 
@@ -341,7 +341,7 @@ number of referring main domains
 
 #### Source
 
-main.ts:138350
+main.ts:141155
 
 ***
 
@@ -353,7 +353,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:138352
+main.ts:141157
 
 ***
 
@@ -365,7 +365,7 @@ number of pages pointing to the target
 
 #### Source
 
-main.ts:138359
+main.ts:141164
 
 ***
 
@@ -377,7 +377,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Source
 
-main.ts:138361
+main.ts:141166
 
 ***
 
@@ -389,7 +389,7 @@ number of referring subnetworks
 
 #### Source
 
-main.ts:138357
+main.ts:141162
 
 ***
 
@@ -401,4 +401,4 @@ type of element
 
 #### Source
 
-main.ts:138297
+main.ts:141102

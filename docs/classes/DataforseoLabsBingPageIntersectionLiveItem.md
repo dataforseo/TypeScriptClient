@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:109496
+main.ts:110511
 
 ## Properties
 
@@ -52,13 +52,13 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Source
 
-main.ts:109492
+main.ts:110507
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](KeywordDataKeywordDataInfo.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:109488
+main.ts:110503
 
 ***
 
@@ -86,7 +86,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:109486
+main.ts:110501
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:109486
 
 #### Source
 
-main.ts:109505
+main.ts:110520
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:109505
 
 #### Source
 
-main.ts:109530
+main.ts:110545
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:109530
 
 #### Source
 
-main.ts:109523
+main.ts:110538

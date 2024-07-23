@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:38195
+main.ts:38650
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:38155
+main.ts:38610
 
 ***
 
@@ -72,7 +72,7 @@ default value: desktop
 
 #### Source
 
-main.ts:38132
+main.ts:38587
 
 ***
 
@@ -92,7 +92,7 @@ default value: true
 
 #### Source
 
-main.ts:38174
+main.ts:38629
 
 ***
 
@@ -115,7 +115,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Source
 
-main.ts:38089
+main.ts:38544
 
 ***
 
@@ -136,7 +136,7 @@ en
 
 #### Source
 
-main.ts:38127
+main.ts:38582
 
 ***
 
@@ -157,7 +157,7 @@ English
 
 #### Source
 
-main.ts:38120
+main.ts:38575
 
 ***
 
@@ -178,7 +178,7 @@ example:
 
 #### Source
 
-main.ts:38103
+main.ts:38558
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Source
 
-main.ts:38113
+main.ts:38568
 
 ***
 
@@ -223,7 +223,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:38096
+main.ts:38551
 
 ***
 
@@ -244,7 +244,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:38181
+main.ts:38636
 
 ***
 
@@ -265,7 +265,7 @@ default value: android
 
 #### Source
 
-main.ts:38139
+main.ts:38594
 
 ***
 
@@ -286,7 +286,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:38146
+main.ts:38601
 
 ***
 
@@ -304,7 +304,7 @@ get the list of available parameters and additional details here
 
 #### Source
 
-main.ts:38185
+main.ts:38640
 
 ***
 
@@ -324,7 +324,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:38191
+main.ts:38646
 
 ***
 
@@ -351,7 +351,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Source
 
-main.ts:38168
+main.ts:38623
 
 ***
 
@@ -371,7 +371,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Source
 
-main.ts:38080
+main.ts:38535
 
 ## Methods
 
@@ -389,7 +389,7 @@ main.ts:38080
 
 #### Source
 
-main.ts:38204
+main.ts:38659
 
 ***
 
@@ -407,7 +407,7 @@ main.ts:38204
 
 #### Source
 
-main.ts:38236
+main.ts:38691
 
 ***
 
@@ -425,4 +425,4 @@ main.ts:38236
 
 #### Source
 
-main.ts:38229
+main.ts:38684

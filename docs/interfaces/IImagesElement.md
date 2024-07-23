@@ -20,7 +20,7 @@ alt tag of the image
 
 #### Source
 
-main.ts:27882
+main.ts:28279
 
 ***
 
@@ -33,7 +33,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:27887
+main.ts:28284
 
 ***
 
@@ -45,7 +45,7 @@ type of element
 
 #### Source
 
-main.ts:27880
+main.ts:28277
 
 ***
 
@@ -57,4 +57,4 @@ URL link
 
 #### Source
 
-main.ts:27884
+main.ts:28281

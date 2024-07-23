@@ -64,6 +64,7 @@
 - [`PerspectivesSerpElementItem`](PerspectivesSerpElementItem.md)
 - [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
 - [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
+- [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
 - [`MapsSearchSerpElementItem`](MapsSearchSerpElementItem.md)
 - [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
 - [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
@@ -101,7 +102,7 @@
 
 #### Source
 
-main.ts:19857
+main.ts:20179
 
 ## Properties
 
@@ -111,7 +112,7 @@ main.ts:19857
 
 #### Source
 
-main.ts:19855
+main.ts:20177
 
 ## Methods
 
@@ -129,7 +130,7 @@ main.ts:19855
 
 #### Source
 
-main.ts:19867
+main.ts:20189
 
 ***
 
@@ -147,7 +148,7 @@ main.ts:19867
 
 #### Source
 
-main.ts:20223
+main.ts:20550
 
 ***
 
@@ -165,4 +166,4 @@ main.ts:20223
 
 #### Source
 
-main.ts:19876
+main.ts:20198

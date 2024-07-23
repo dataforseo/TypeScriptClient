@@ -21,20 +21,20 @@ product delivery information
 
 #### Source
 
-main.ts:178408
+main.ts:181101
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> **`optional`** **price**: [`Price`](../classes/Price.md)
 
 product price
 product price details on the seller’s website
 
 #### Source
 
-main.ts:178405
+main.ts:181098
 
 ***
 
@@ -46,7 +46,7 @@ rating of the seller
 
 #### Source
 
-main.ts:178399
+main.ts:181092
 
 ***
 
@@ -59,7 +59,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:178402
+main.ts:181095
 
 ***
 
@@ -71,7 +71,7 @@ product title
 
 #### Source
 
-main.ts:178394
+main.ts:181087
 
 ***
 
@@ -83,7 +83,7 @@ type of element
 
 #### Source
 
-main.ts:178392
+main.ts:181085
 
 ***
 
@@ -96,4 +96,4 @@ url of the page where the product is sold
 
 #### Source
 
-main.ts:178397
+main.ts:181090

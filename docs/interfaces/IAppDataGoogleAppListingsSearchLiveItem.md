@@ -20,7 +20,7 @@ ID of the returned app
 
 #### Source
 
-main.ts:192105
+main.ts:194798
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:192114
+main.ts:194807
 
 ***
 
@@ -45,7 +45,7 @@ detailed information about the app
 
 #### Source
 
-main.ts:192121
+main.ts:194814
 
 ***
 
@@ -57,7 +57,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:192111
+main.ts:194804
 
 ***
 
@@ -69,7 +69,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:192109
+main.ts:194802
 
 ***
 
@@ -81,7 +81,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:192107
+main.ts:194800
 
 ***
 
@@ -96,4 +96,4 @@ example:
 
 #### Source
 
-main.ts:192119
+main.ts:194812

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:201411
+main.ts:204106
 
 ## Properties
 
@@ -48,7 +48,7 @@ possible item types: google_business_info
 
 #### Source
 
-main.ts:201407
+main.ts:204102
 
 ***
 
@@ -65,7 +65,7 @@ domain of the online menu system
 
 #### Source
 
-main.ts:201403
+main.ts:204098
 
 ## Methods
 
@@ -83,7 +83,7 @@ main.ts:201403
 
 #### Source
 
-main.ts:201420
+main.ts:204115
 
 ***
 
@@ -101,7 +101,7 @@ main.ts:201420
 
 #### Source
 
-main.ts:201442
+main.ts:204137
 
 ***
 
@@ -119,4 +119,4 @@ main.ts:201442
 
 #### Source
 
-main.ts:201435
+main.ts:204130

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:39092
+main.ts:39547
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:39068
+main.ts:39523
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:39073
+main.ts:39528
 
 ***
 
@@ -77,7 +77,7 @@ main.ts:39073
 types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item types:
-answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box, product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites
+answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, google_posts, images, jobs, knowledge_graph, local_pack, hotels_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box, visual_stories, commercial_units, local_services, google_hotels, math_solver, currency_box, product_considerations, found_on_web, short_videos, refine_products, explore_brands, perspectives, discussions_and_forums, compare_sites, courses
 
 #### Implementation of
 
@@ -85,7 +85,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
 
 #### Source
 
-main.ts:39081
+main.ts:39536
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:39088
+main.ts:39543
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:39085
+main.ts:39540
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:39057
+main.ts:39512
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:39065
+main.ts:39520
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:39063
+main.ts:39518
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:39061
+main.ts:39516
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:39083
+main.ts:39538
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:39076
+main.ts:39531
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Source
 
-main.ts:39059
+main.ts:39514
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:39059
 
 #### Source
 
-main.ts:39101
+main.ts:39556
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:39101
 
 #### Source
 
-main.ts:39137
+main.ts:39592
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:39137
 
 #### Source
 
-main.ts:39130
+main.ts:39585

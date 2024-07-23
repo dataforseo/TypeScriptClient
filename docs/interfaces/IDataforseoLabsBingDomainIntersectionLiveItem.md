@@ -21,19 +21,19 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:108458
+main.ts:109473
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](../classes/KeywordDataKeywordDataInfo.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the returned keyword
 
 #### Source
 
-main.ts:108455
+main.ts:109470
 
 ***
 
@@ -47,7 +47,7 @@ for this endpoint, the field equals bing
 
 #### Source
 
-main.ts:108453
+main.ts:109468
 
 ***
 
@@ -60,4 +60,4 @@ the list of supported SERP elements can be found below
 
 #### Source
 
-main.ts:108461
+main.ts:109476

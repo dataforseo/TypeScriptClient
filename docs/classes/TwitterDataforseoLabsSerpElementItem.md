@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:96813
+main.ts:97039
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:96813
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20243
 
 > **`optional`** **items**: [`TwitterElement`](TwitterElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:96809
+main.ts:97035
 
 ***
 
@@ -87,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:96800
+main.ts:97027
 
 ***
 
@@ -104,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96796
+main.ts:97023
 
 ***
 
@@ -121,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96793
+main.ts:97020
 
 ***
 
@@ -137,7 +136,7 @@ search engine type
 
 #### Source
 
-main.ts:96790
+main.ts:97017
 
 ***
 
@@ -145,7 +144,7 @@ main.ts:96790
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -153,7 +152,7 @@ title of the item
 
 #### Source
 
-main.ts:96804
+main.ts:97031
 
 ***
 
@@ -161,7 +160,7 @@ main.ts:96804
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -169,7 +168,7 @@ URL link
 
 #### Source
 
-main.ts:96806
+main.ts:97033
 
 ***
 
@@ -185,7 +184,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:96802
+main.ts:97029
 
 ## Methods
 
@@ -207,7 +206,7 @@ main.ts:96802
 
 #### Source
 
-main.ts:96818
+main.ts:97044
 
 ***
 
@@ -229,7 +228,7 @@ main.ts:96818
 
 #### Source
 
-main.ts:96847
+main.ts:97073
 
 ***
 
@@ -251,4 +250,4 @@ main.ts:96847
 
 #### Source
 
-main.ts:96840
+main.ts:97066

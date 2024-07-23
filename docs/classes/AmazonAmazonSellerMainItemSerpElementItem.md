@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:183489
+main.ts:186182
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:183489
 
 #### Source
 
-main.ts:21498
+main.ts:21825
 
 ***
 
@@ -69,7 +69,7 @@ condition of the product offered by the seller
 
 #### Source
 
-main.ts:183479
+main.ts:186172
 
 ***
 
@@ -86,7 +86,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Source
 
-main.ts:183482
+main.ts:186175
 
 ***
 
@@ -103,7 +103,7 @@ delivery information including free and fast delivery date ranges
 
 #### Source
 
-main.ts:183485
+main.ts:186178
 
 ***
 
@@ -121,13 +121,13 @@ left, right
 
 #### Source
 
-main.ts:183462
+main.ts:186155
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`Price`](Price.md)
 
 product pricing details
 if there are no details, the value will be null
@@ -138,7 +138,7 @@ if there are no details, the value will be null
 
 #### Source
 
-main.ts:183473
+main.ts:186166
 
 ***
 
@@ -155,7 +155,7 @@ absolute position among all the elements found in Amazon Sellers SERP
 
 #### Source
 
-main.ts:183458
+main.ts:186151
 
 ***
 
@@ -172,7 +172,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:183455
+main.ts:186148
 
 ***
 
@@ -189,7 +189,7 @@ seller popularity rate based on customer reviews
 
 #### Source
 
-main.ts:183476
+main.ts:186169
 
 ***
 
@@ -205,7 +205,7 @@ business name of the seller
 
 #### Source
 
-main.ts:183466
+main.ts:186159
 
 ***
 
@@ -221,7 +221,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Source
 
-main.ts:183468
+main.ts:186161
 
 ***
 
@@ -237,7 +237,7 @@ sender company name
 
 #### Source
 
-main.ts:183470
+main.ts:186163
 
 ***
 
@@ -253,7 +253,7 @@ XPath of the element
 
 #### Source
 
-main.ts:183464
+main.ts:186157
 
 ## Methods
 
@@ -275,7 +275,7 @@ main.ts:183464
 
 #### Source
 
-main.ts:183494
+main.ts:186187
 
 ***
 
@@ -297,7 +297,7 @@ main.ts:183494
 
 #### Source
 
-main.ts:183523
+main.ts:186216
 
 ***
 
@@ -319,4 +319,4 @@ main.ts:183523
 
 #### Source
 
-main.ts:183516
+main.ts:186209

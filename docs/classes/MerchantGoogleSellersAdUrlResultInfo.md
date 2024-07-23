@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:178918
+main.ts:181611
 
 ## Properties
 
@@ -46,7 +46,7 @@ unique ad click referral parameter
 
 #### Source
 
-main.ts:178909
+main.ts:181602
 
 ***
 
@@ -62,7 +62,7 @@ full URL of the advertisement
 
 #### Source
 
-main.ts:178911
+main.ts:181604
 
 ***
 
@@ -79,7 +79,7 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 #### Source
 
-main.ts:178914
+main.ts:181607
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:178914
 
 #### Source
 
-main.ts:178927
+main.ts:181620
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:178927
 
 #### Source
 
-main.ts:178950
+main.ts:181643
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:178950
 
 #### Source
 
-main.ts:178943
+main.ts:181636

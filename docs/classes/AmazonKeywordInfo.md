@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:22138
+main.ts:22465
 
 ## Properties
 
@@ -48,7 +48,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 #### Source
 
-main.ts:22131
+main.ts:22458
 
 ***
 
@@ -64,7 +64,7 @@ search engine type
 
 #### Source
 
-main.ts:22127
+main.ts:22454
 
 ***
 
@@ -81,7 +81,7 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 #### Source
 
-main.ts:22134
+main.ts:22461
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:22134
 
 #### Source
 
-main.ts:22147
+main.ts:22474
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:22147
 
 #### Source
 
-main.ts:22166
+main.ts:22493
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:22166
 
 #### Source
 
-main.ts:22159
+main.ts:22486

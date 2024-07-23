@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:213857
+main.ts:216816
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Source
 
-main.ts:213849
+main.ts:216808
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Source
 
-main.ts:213853
+main.ts:216812
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:213842
+main.ts:216801
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: tripadvisor
 
 #### Source
 
-main.ts:213845
+main.ts:216804
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Source
 
-main.ts:213847
+main.ts:216806
 
 ***
 
@@ -128,7 +128,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:213851
+main.ts:216810
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:213851
 
 #### Source
 
-main.ts:213866
+main.ts:216825
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:213866
 
 #### Source
 
-main.ts:213888
+main.ts:216847
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:213888
 
 #### Source
 
-main.ts:213881
+main.ts:216840

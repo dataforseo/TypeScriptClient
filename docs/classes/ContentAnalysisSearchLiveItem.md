@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:165902
+main.ts:168595
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains data on citations from the given url
 
 #### Source
 
-main.ts:165898
+main.ts:168591
 
 ***
 
@@ -63,7 +63,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Source
 
-main.ts:165877
+main.ts:168570
 
 ***
 
@@ -79,7 +79,7 @@ domain name
 
 #### Source
 
-main.ts:165853
+main.ts:168546
 
 ***
 
@@ -98,7 +98,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:165869
+main.ts:168562
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Source
 
-main.ts:165874
+main.ts:168567
 
 ***
 
@@ -134,7 +134,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:165880
+main.ts:168573
 
 ***
 
@@ -150,7 +150,7 @@ main domain
 
 #### Source
 
-main.ts:165855
+main.ts:168548
 
 ***
 
@@ -168,7 +168,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:165888
+main.ts:168581
 
 ***
 
@@ -184,7 +184,7 @@ page types
 
 #### Source
 
-main.ts:165890
+main.ts:168583
 
 ***
 
@@ -201,7 +201,7 @@ all ratings found on the page based on microdata
 
 #### Source
 
-main.ts:165893
+main.ts:168586
 
 ***
 
@@ -219,7 +219,7 @@ the higher the score, the more value the related citation has
 
 #### Source
 
-main.ts:165884
+main.ts:168577
 
 ***
 
@@ -236,7 +236,7 @@ data on social media interactions associated with the content based on website e
 
 #### Source
 
-main.ts:165896
+main.ts:168589
 
 ***
 
@@ -254,7 +254,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:165864
+main.ts:168557
 
 ***
 
@@ -270,7 +270,7 @@ type of element
 
 #### Source
 
-main.ts:165849
+main.ts:168542
 
 ***
 
@@ -286,7 +286,7 @@ URL where the citation was found
 
 #### Source
 
-main.ts:165851
+main.ts:168544
 
 ***
 
@@ -305,7 +305,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:165860
+main.ts:168553
 
 ## Methods
 
@@ -323,7 +323,7 @@ main.ts:165860
 
 #### Source
 
-main.ts:165911
+main.ts:168604
 
 ***
 
@@ -341,7 +341,7 @@ main.ts:165911
 
 #### Source
 
-main.ts:165959
+main.ts:168652
 
 ***
 
@@ -359,4 +359,4 @@ main.ts:165959
 
 #### Source
 
-main.ts:165952
+main.ts:168645

@@ -26,7 +26,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Source
 
-main.ts:168265
+main.ts:170958
 
 ***
 
@@ -44,7 +44,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Source
 
-main.ts:168280
+main.ts:170973
 
 ***
 
@@ -56,7 +56,7 @@ date for which the data is provided
 
 #### Source
 
-main.ts:168249
+main.ts:170942
 
 ***
 
@@ -74,7 +74,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:168284
+main.ts:170977
 
 ***
 
@@ -88,7 +88,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:168273
+main.ts:170966
 
 ***
 
@@ -105,7 +105,7 @@ contains page types and citation count per each page type
 
 #### Source
 
-main.ts:168276
+main.ts:170969
 
 ***
 
@@ -118,7 +118,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Source
 
-main.ts:168254
+main.ts:170947
 
 ***
 
@@ -136,7 +136,7 @@ possible connotations: "anger", "happiness", "love", "sadness", "share", "fun"
 
 #### Source
 
-main.ts:168261
+main.ts:170954
 
 ***
 
@@ -150,7 +150,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:168269
+main.ts:170962
 
 ***
 
@@ -163,7 +163,7 @@ contains objects with top domains citing the target keyword and citation count p
 
 #### Source
 
-main.ts:168257
+main.ts:170950
 
 ***
 
@@ -175,7 +175,7 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:168251
+main.ts:170944
 
 ***
 
@@ -187,4 +187,4 @@ type of element
 
 #### Source
 
-main.ts:168247
+main.ts:170940

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:45920
+main.ts:46375
 
 ## Properties
 
@@ -49,7 +49,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Source
 
-main.ts:45855
+main.ts:46310
 
 ***
 
@@ -72,7 +72,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Source
 
-main.ts:45877
+main.ts:46332
 
 ***
 
@@ -93,7 +93,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:45801
+main.ts:46256
 
 ***
 
@@ -115,7 +115,7 @@ en
 
 #### Source
 
-main.ts:45850
+main.ts:46305
 
 ***
 
@@ -137,7 +137,7 @@ English
 
 #### Source
 
-main.ts:45842
+main.ts:46297
 
 ***
 
@@ -158,7 +158,7 @@ example:
 
 #### Source
 
-main.ts:45823
+main.ts:46278
 
 ***
 
@@ -183,7 +183,7 @@ example:
 
 #### Source
 
-main.ts:45834
+main.ts:46289
 
 ***
 
@@ -204,7 +204,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:45816
+main.ts:46271
 
 ***
 
@@ -225,7 +225,7 @@ learn more at our help center
 
 #### Source
 
-main.ts:45884
+main.ts:46339
 
 ***
 
@@ -245,7 +245,7 @@ default value: windows
 
 #### Source
 
-main.ts:45861
+main.ts:46316
 
 ***
 
@@ -269,7 +269,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:45916
+main.ts:46371
 
 ***
 
@@ -289,7 +289,7 @@ advanced
 
 #### Source
 
-main.ts:45906
+main.ts:46361
 
 ***
 
@@ -313,7 +313,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:45900
+main.ts:46355
 
 ***
 
@@ -335,7 +335,7 @@ The cost can be calculated on the Pricing page
 
 #### Source
 
-main.ts:45809
+main.ts:46264
 
 ***
 
@@ -356,7 +356,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Source
 
-main.ts:45868
+main.ts:46323
 
 ***
 
@@ -376,7 +376,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:45890
+main.ts:46345
 
 ## Methods
 
@@ -394,7 +394,7 @@ main.ts:45890
 
 #### Source
 
-main.ts:45929
+main.ts:46384
 
 ***
 
@@ -412,7 +412,7 @@ main.ts:45929
 
 #### Source
 
-main.ts:45961
+main.ts:46416
 
 ***
 
@@ -430,4 +430,4 @@ main.ts:45961
 
 #### Source
 
-main.ts:45954
+main.ts:46409

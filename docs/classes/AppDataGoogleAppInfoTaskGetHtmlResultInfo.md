@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:190143
+main.ts:192836
 
 ## Properties
 
@@ -46,7 +46,7 @@ application ID received in a POST request
 
 #### Source
 
-main.ts:190122
+main.ts:192815
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Source
 
-main.ts:190135
+main.ts:192828
 
 ***
 
@@ -81,7 +81,7 @@ HTML pages and related data
 
 #### Source
 
-main.ts:190139
+main.ts:192832
 
 ***
 
@@ -97,7 +97,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:190137
+main.ts:192830
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:190130
+main.ts:192823
 
 ***
 
@@ -129,7 +129,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:190128
+main.ts:192821
 
 ***
 
@@ -145,7 +145,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:190126
+main.ts:192819
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Source
 
-main.ts:190124
+main.ts:192817
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:190124
 
 #### Source
 
-main.ts:190152
+main.ts:192845
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:190152
 
 #### Source
 
-main.ts:190180
+main.ts:192873
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:190180
 
 #### Source
 
-main.ts:190173
+main.ts:192866

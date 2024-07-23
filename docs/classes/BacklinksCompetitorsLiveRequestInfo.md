@@ -30,9 +30,29 @@
 
 #### Source
 
-main.ts:144058
+main.ts:146897
 
 ## Properties
+
+### exclude\_internal\_backlinks?
+
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+
+indicates if internal backlinks from subdomains to the target will be excluded from the results
+optional field
+if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
+if set to false, internal links will be included in the results
+default value: true
+
+#### Implementation of
+
+[`IBacklinksCompetitorsLiveRequestInfo`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksCompetitorsLiveRequestInfo.md#exclude_internal_backlinks)
+
+#### Source
+
+main.ts:146887
+
+***
 
 ### exclude\_large\_domains?
 
@@ -49,7 +69,7 @@ default value: true
 
 #### Source
 
-main.ts:144048
+main.ts:146881
 
 ***
 
@@ -77,7 +97,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:144024
+main.ts:146857
 
 ***
 
@@ -96,7 +116,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:144005
+main.ts:146838
 
 ***
 
@@ -115,7 +135,7 @@ default value: true
 
 #### Source
 
-main.ts:144043
+main.ts:146876
 
 ***
 
@@ -134,7 +154,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Source
 
-main.ts:144010
+main.ts:146843
 
 ***
 
@@ -162,7 +182,7 @@ example:
 
 #### Source
 
-main.ts:144038
+main.ts:146871
 
 ***
 
@@ -182,7 +202,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:144054
+main.ts:146893
 
 ***
 
@@ -201,7 +221,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:144000
+main.ts:146833
 
 ## Methods
 
@@ -219,7 +239,7 @@ main.ts:144000
 
 #### Source
 
-main.ts:144067
+main.ts:146906
 
 ***
 
@@ -237,7 +257,7 @@ main.ts:144067
 
 #### Source
 
-main.ts:144099
+main.ts:146939
 
 ***
 
@@ -255,4 +275,4 @@ main.ts:144099
 
 #### Source
 
-main.ts:144092
+main.ts:146932

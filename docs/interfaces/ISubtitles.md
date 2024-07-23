@@ -20,7 +20,7 @@ defines if subtitles are auto generated
 
 #### Source
 
-main.ts:62429
+main.ts:62884
 
 ***
 
@@ -32,7 +32,7 @@ defines if subtitles are translatable
 
 #### Source
 
-main.ts:62427
+main.ts:62882
 
 ***
 
@@ -44,4 +44,4 @@ language of subtitles
 
 #### Source
 
-main.ts:62425
+main.ts:62880

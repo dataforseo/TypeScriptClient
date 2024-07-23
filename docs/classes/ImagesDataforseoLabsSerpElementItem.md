@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99069
+main.ts:100113
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99069
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20243
 
 > **`optional`** **items**: [`ImagesElement`](ImagesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99062
+main.ts:100106
 
 ***
 
@@ -87,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:99053
+main.ts:100098
 
 ***
 
@@ -104,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99049
+main.ts:100094
 
 ***
 
@@ -121,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99046
+main.ts:100091
 
 ***
 
@@ -138,7 +137,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99065
+main.ts:100109
 
 ***
 
@@ -146,7 +145,7 @@ main.ts:99065
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -154,7 +153,7 @@ title of the item
 
 #### Source
 
-main.ts:99057
+main.ts:100102
 
 ***
 
@@ -162,7 +161,7 @@ main.ts:99057
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -170,7 +169,7 @@ URL link
 
 #### Source
 
-main.ts:99059
+main.ts:100104
 
 ***
 
@@ -186,7 +185,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99055
+main.ts:100100
 
 ## Methods
 
@@ -208,7 +207,7 @@ main.ts:99055
 
 #### Source
 
-main.ts:99074
+main.ts:100118
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:99074
 
 #### Source
 
-main.ts:99107
+main.ts:100151
 
 ***
 
@@ -252,4 +251,4 @@ main.ts:99107
 
 #### Source
 
-main.ts:99100
+main.ts:100144

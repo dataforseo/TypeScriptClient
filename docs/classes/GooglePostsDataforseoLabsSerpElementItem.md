@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:98869
+main.ts:99918
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98869
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -61,8 +61,6 @@ main.ts:20243
 > **`optional`** **cid**: `string`
 
 google-defined client id
-unique id of a local establishment;
-can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
 
@@ -70,7 +68,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:98865
+main.ts:99914
 
 ***
 
@@ -86,7 +84,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:98861
+main.ts:99912
 
 ***
 
@@ -104,7 +102,7 @@ left, right
 
 #### Source
 
-main.ts:98855
+main.ts:99906
 
 ***
 
@@ -120,7 +118,7 @@ the identifier of the google_posts feature
 
 #### Source
 
-main.ts:98859
+main.ts:99910
 
 ***
 
@@ -137,7 +135,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98851
+main.ts:99902
 
 ***
 
@@ -154,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98848
+main.ts:99899
 
 ***
 
@@ -170,7 +168,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:98857
+main.ts:99908
 
 ## Methods
 
@@ -192,7 +190,7 @@ main.ts:98857
 
 #### Source
 
-main.ts:98874
+main.ts:99923
 
 ***
 
@@ -214,7 +212,7 @@ main.ts:98874
 
 #### Source
 
-main.ts:98898
+main.ts:99947
 
 ***
 
@@ -236,4 +234,4 @@ main.ts:98898
 
 #### Source
 
-main.ts:98891
+main.ts:99940

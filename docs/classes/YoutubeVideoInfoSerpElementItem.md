@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:62576
+main.ts:63031
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:62576
 
 #### Source
 
-main.ts:19855
+main.ts:20177
 
 ***
 
@@ -68,7 +68,7 @@ the category the video belongs to
 
 #### Source
 
-main.ts:62562
+main.ts:63017
 
 ***
 
@@ -84,7 +84,7 @@ the ID of the channel where the video is published
 
 #### Source
 
-main.ts:62537
+main.ts:62992
 
 ***
 
@@ -100,7 +100,7 @@ the URL of the page where the logo image of the channel is hosted
 
 #### Source
 
-main.ts:62543
+main.ts:62998
 
 ***
 
@@ -116,7 +116,7 @@ the name of the channel where the video is published
 
 #### Source
 
-main.ts:62539
+main.ts:62994
 
 ***
 
@@ -132,7 +132,7 @@ the URL of the channel where the video is published
 
 #### Source
 
-main.ts:62541
+main.ts:62996
 
 ***
 
@@ -148,7 +148,7 @@ number of comments on the video
 
 #### Source
 
-main.ts:62551
+main.ts:63006
 
 ***
 
@@ -164,7 +164,7 @@ description of the video
 
 #### Source
 
-main.ts:62545
+main.ts:63000
 
 ***
 
@@ -180,7 +180,7 @@ duration of the video
 
 #### Source
 
-main.ts:62566
+main.ts:63021
 
 ***
 
@@ -196,7 +196,7 @@ duration of the video in seconds
 
 #### Source
 
-main.ts:62568
+main.ts:63023
 
 ***
 
@@ -212,7 +212,7 @@ indicates whether the video is on live
 
 #### Source
 
-main.ts:62564
+main.ts:63019
 
 ***
 
@@ -228,7 +228,7 @@ keywords relevant to the video
 
 #### Source
 
-main.ts:62560
+main.ts:63015
 
 ***
 
@@ -244,7 +244,7 @@ number of likes on the video
 
 #### Source
 
-main.ts:62549
+main.ts:63004
 
 ***
 
@@ -260,7 +260,7 @@ the date when the video is published
 
 #### Source
 
-main.ts:62553
+main.ts:63008
 
 ***
 
@@ -277,7 +277,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:62527
+main.ts:62982
 
 ***
 
@@ -295,7 +295,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:62524
+main.ts:62979
 
 ***
 
@@ -311,7 +311,7 @@ array of elements that contain information about all possible streaming qualitie
 
 #### Source
 
-main.ts:62572
+main.ts:63027
 
 ***
 
@@ -327,7 +327,7 @@ array of elements describing properties of subtitles in the video
 
 #### Source
 
-main.ts:62570
+main.ts:63025
 
 ***
 
@@ -343,7 +343,7 @@ the URL of the page where the thumbnail is hosted
 
 #### Source
 
-main.ts:62535
+main.ts:62990
 
 ***
 
@@ -362,7 +362,7 @@ example:
 
 #### Source
 
-main.ts:62558
+main.ts:63013
 
 ***
 
@@ -378,7 +378,7 @@ title of the video
 
 #### Source
 
-main.ts:62531
+main.ts:62986
 
 ***
 
@@ -394,7 +394,7 @@ URL of the video
 
 #### Source
 
-main.ts:62533
+main.ts:62988
 
 ***
 
@@ -410,7 +410,7 @@ ID of the video received in a POST array
 
 #### Source
 
-main.ts:62529
+main.ts:62984
 
 ***
 
@@ -426,7 +426,7 @@ number of views of the video
 
 #### Source
 
-main.ts:62547
+main.ts:63002
 
 ## Methods
 
@@ -448,7 +448,7 @@ main.ts:62547
 
 #### Source
 
-main.ts:62581
+main.ts:63036
 
 ***
 
@@ -470,7 +470,7 @@ main.ts:62581
 
 #### Source
 
-main.ts:62633
+main.ts:63088
 
 ***
 
@@ -492,4 +492,4 @@ main.ts:62633
 
 #### Source
 
-main.ts:62626
+main.ts:63081

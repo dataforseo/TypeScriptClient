@@ -20,7 +20,7 @@ content text
 
 #### Source
 
-main.ts:160697
+main.ts:163564
 
 ***
 
@@ -33,7 +33,7 @@ displayed in case the text is a link anchor
 
 #### Source
 
-main.ts:160700
+main.ts:163567
 
 ***
 
@@ -45,4 +45,4 @@ contains other URLs and anchors found in the content element
 
 #### Source
 
-main.ts:160702
+main.ts:163569

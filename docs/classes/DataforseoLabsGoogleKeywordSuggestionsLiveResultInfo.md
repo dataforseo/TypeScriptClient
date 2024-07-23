@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:85103
+main.ts:85626
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Source
 
-main.ts:85099
+main.ts:85622
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:85091
+main.ts:85614
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:85087
+main.ts:85610
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:85084
+main.ts:85607
 
 ***
 
@@ -112,7 +112,7 @@ current offset value
 
 #### Source
 
-main.ts:85093
+main.ts:85616
 
 ***
 
@@ -130,7 +130,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:85097
+main.ts:85620
 
 ***
 
@@ -146,7 +146,7 @@ search engine type
 
 #### Source
 
-main.ts:85076
+main.ts:85599
 
 ***
 
@@ -162,7 +162,7 @@ keyword in a POST array
 
 #### Source
 
-main.ts:85078
+main.ts:85601
 
 ***
 
@@ -183,7 +183,7 @@ fields in this object are identical to those of the items array
 
 #### Source
 
-main.ts:85081
+main.ts:85604
 
 ***
 
@@ -199,7 +199,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:85089
+main.ts:85612
 
 ## Methods
 
@@ -217,7 +217,7 @@ main.ts:85089
 
 #### Source
 
-main.ts:85112
+main.ts:85635
 
 ***
 
@@ -235,7 +235,7 @@ main.ts:85112
 
 #### Source
 
-main.ts:85148
+main.ts:85671
 
 ***
 
@@ -253,4 +253,4 @@ main.ts:85148
 
 #### Source
 
-main.ts:85141
+main.ts:85664

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:154717
+main.ts:157584
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates how many milliseconds it took to fetch a resource
 
 #### Source
 
-main.ts:154707
+main.ts:157574
 
 ***
 
@@ -63,7 +63,7 @@ the amount of time a browser needs to complete downloading a resource
 
 #### Source
 
-main.ts:154713
+main.ts:157580
 
 ***
 
@@ -80,7 +80,7 @@ the amount of time a browser needs to start downloading a resource
 
 #### Source
 
-main.ts:154710
+main.ts:157577
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:154710
 
 #### Source
 
-main.ts:154726
+main.ts:157593
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:154726
 
 #### Source
 
-main.ts:154745
+main.ts:157612
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:154745
 
 #### Source
 
-main.ts:154738
+main.ts:157605

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:44874
+main.ts:45329
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:44850
+main.ts:45305
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:44855
+main.ts:45310
 
 ***
 
@@ -85,7 +85,7 @@ top_stories, news_search
 
 #### Source
 
-main.ts:44863
+main.ts:45318
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:44870
+main.ts:45325
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:44867
+main.ts:45322
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:44839
+main.ts:45294
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:44847
+main.ts:45302
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:44845
+main.ts:45300
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:44843
+main.ts:45298
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:44865
+main.ts:45320
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:44858
+main.ts:45313
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Source
 
-main.ts:44841
+main.ts:45296
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:44841
 
 #### Source
 
-main.ts:44883
+main.ts:45338
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:44883
 
 #### Source
 
-main.ts:44919
+main.ts:45374
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:44919
 
 #### Source
 
-main.ts:44912
+main.ts:45367

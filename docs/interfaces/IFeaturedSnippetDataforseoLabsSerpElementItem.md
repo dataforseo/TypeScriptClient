@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:97996
+main.ts:99055
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:97971
+main.ts:99030
 
 ***
 
@@ -48,7 +48,7 @@ domain where a link points
 
 #### Source
 
-main.ts:97965
+main.ts:99024
 
 ***
 
@@ -62,7 +62,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97991
+main.ts:99050
 
 ***
 
@@ -77,7 +77,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97987
+main.ts:99046
 
 ***
 
@@ -85,11 +85,11 @@ main.ts:97987
 
 > **`optional`** **featured\_title**: `string`
 
-title of a given element
+title
 
 #### Source
 
-main.ts:97969
+main.ts:99028
 
 ***
 
@@ -101,7 +101,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:97980
+main.ts:99039
 
 ***
 
@@ -115,7 +115,7 @@ left, right
 
 #### Source
 
-main.ts:97961
+main.ts:99020
 
 ***
 
@@ -128,7 +128,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97957
+main.ts:99016
 
 ***
 
@@ -141,7 +141,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:97994
+main.ts:99053
 
 ***
 
@@ -154,7 +154,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97954
+main.ts:99013
 
 ***
 
@@ -166,7 +166,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:97998
+main.ts:99057
 
 ***
 
@@ -178,7 +178,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:97982
+main.ts:99041
 
 ***
 
@@ -190,7 +190,7 @@ search engine type
 
 #### Source
 
-main.ts:97978
+main.ts:99037
 
 ***
 
@@ -203,7 +203,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:97976
+main.ts:99035
 
 ***
 
@@ -211,11 +211,11 @@ main.ts:97976
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Source
 
-main.ts:97967
+main.ts:99026
 
 ***
 
@@ -223,11 +223,11 @@ main.ts:97967
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:97973
+main.ts:99032
 
 ***
 
@@ -239,4 +239,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97963
+main.ts:99022

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:178341
+main.ts:181034
 
 ## Properties
 
@@ -47,13 +47,13 @@ product delivery information
 
 #### Source
 
-main.ts:178337
+main.ts:181030
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`Price`](Price.md)
 
 product price
 product price details on the seller’s website
@@ -64,7 +64,7 @@ product price details on the seller’s website
 
 #### Source
 
-main.ts:178334
+main.ts:181027
 
 ***
 
@@ -80,7 +80,7 @@ rating of the seller
 
 #### Source
 
-main.ts:178328
+main.ts:181021
 
 ***
 
@@ -97,7 +97,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:178331
+main.ts:181024
 
 ***
 
@@ -113,7 +113,7 @@ product title
 
 #### Source
 
-main.ts:178323
+main.ts:181016
 
 ***
 
@@ -129,7 +129,7 @@ type of element
 
 #### Source
 
-main.ts:178321
+main.ts:181014
 
 ***
 
@@ -146,7 +146,7 @@ url of the page where the product is sold
 
 #### Source
 
-main.ts:178326
+main.ts:181019
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:178326
 
 #### Source
 
-main.ts:178350
+main.ts:181043
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:178350
 
 #### Source
 
-main.ts:178373
+main.ts:181066
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:178373
 
 #### Source
 
-main.ts:178366
+main.ts:181059

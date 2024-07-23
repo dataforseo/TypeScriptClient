@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:44745
+main.ts:45200
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:44745
 
 #### Source
 
-main.ts:19855
+main.ts:20177
 
 ***
 
@@ -68,7 +68,7 @@ domain name of the result in SERP
 
 #### Source
 
-main.ts:44721
+main.ts:45176
 
 ***
 
@@ -85,7 +85,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Source
 
-main.ts:44728
+main.ts:45183
 
 ***
 
@@ -102,7 +102,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:44717
+main.ts:45172
 
 ***
 
@@ -120,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:44714
+main.ts:45169
 
 ***
 
@@ -138,7 +138,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:44741
+main.ts:45196
 
 ***
 
@@ -154,7 +154,7 @@ snippet of the result in SERP
 
 #### Source
 
-main.ts:44730
+main.ts:45185
 
 ***
 
@@ -170,7 +170,7 @@ indicates the time the result was published
 
 #### Source
 
-main.ts:44732
+main.ts:45187
 
 ***
 
@@ -189,7 +189,7 @@ example:
 
 #### Source
 
-main.ts:44737
+main.ts:45192
 
 ***
 
@@ -205,7 +205,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:44723
+main.ts:45178
 
 ***
 
@@ -221,7 +221,7 @@ URL of the result in SERP
 
 #### Source
 
-main.ts:44725
+main.ts:45180
 
 ***
 
@@ -237,7 +237,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:44719
+main.ts:45174
 
 ## Methods
 
@@ -259,7 +259,7 @@ main.ts:44719
 
 #### Source
 
-main.ts:44750
+main.ts:45205
 
 ***
 
@@ -281,7 +281,7 @@ main.ts:44750
 
 #### Source
 
-main.ts:44778
+main.ts:45233
 
 ***
 
@@ -303,4 +303,4 @@ main.ts:44778
 
 #### Source
 
-main.ts:44771
+main.ts:45226

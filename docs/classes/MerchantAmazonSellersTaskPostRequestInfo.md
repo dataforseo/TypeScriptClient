@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:182994
+main.ts:185687
 
 ## Properties
 
@@ -52,7 +52,7 @@ learn more about the identifier in this help center guide
 
 #### Source
 
-main.ts:182906
+main.ts:185599
 
 ***
 
@@ -73,7 +73,7 @@ en
 
 #### Source
 
-main.ts:182951
+main.ts:185644
 
 ***
 
@@ -94,7 +94,7 @@ English
 
 #### Source
 
-main.ts:182944
+main.ts:185637
 
 ***
 
@@ -115,7 +115,7 @@ example:
 
 #### Source
 
-main.ts:182928
+main.ts:185621
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Source
 
-main.ts:182937
+main.ts:185630
 
 ***
 
@@ -159,7 +159,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:182921
+main.ts:185614
 
 ***
 
@@ -183,7 +183,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:182990
+main.ts:185683
 
 ***
 
@@ -203,7 +203,7 @@ advanced, html
 
 #### Source
 
-main.ts:182980
+main.ts:185673
 
 ***
 
@@ -227,7 +227,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:182974
+main.ts:185667
 
 ***
 
@@ -249,7 +249,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:182914
+main.ts:185607
 
 ***
 
@@ -270,7 +270,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 #### Source
 
-main.ts:182958
+main.ts:185651
 
 ***
 
@@ -290,7 +290,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:182964
+main.ts:185657
 
 ## Methods
 
@@ -308,7 +308,7 @@ main.ts:182964
 
 #### Source
 
-main.ts:183003
+main.ts:185696
 
 ***
 
@@ -326,7 +326,7 @@ main.ts:183003
 
 #### Source
 
-main.ts:183031
+main.ts:185724
 
 ***
 
@@ -344,4 +344,4 @@ main.ts:183031
 
 #### Source
 
-main.ts:183024
+main.ts:185717

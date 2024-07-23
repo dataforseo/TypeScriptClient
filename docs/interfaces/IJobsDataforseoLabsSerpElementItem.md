@@ -20,12 +20,11 @@
 
 > **`optional`** **items**: [`JobsElement`](../classes/JobsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:99354
+main.ts:100393
 
 ***
 
@@ -39,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:99345
+main.ts:100385
 
 ***
 
@@ -52,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99341
+main.ts:100381
 
 ***
 
@@ -65,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99338
+main.ts:100378
 
 ***
 
@@ -73,11 +72,11 @@ main.ts:99338
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Source
 
-main.ts:99349
+main.ts:100389
 
 ***
 
@@ -85,11 +84,11 @@ main.ts:99349
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:99351
+main.ts:100391
 
 ***
 
@@ -101,4 +100,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:99347
+main.ts:100387

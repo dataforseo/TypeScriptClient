@@ -21,7 +21,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Source
 
-main.ts:159428
+main.ts:162295
 
 ***
 
@@ -34,7 +34,7 @@ name of the data field
 
 #### Source
 
-main.ts:159416
+main.ts:162283
 
 ***
 
@@ -47,7 +47,7 @@ sub-type microdata test results that contain detected errors and related message
 
 #### Source
 
-main.ts:159425
+main.ts:162292
 
 ***
 
@@ -60,7 +60,7 @@ for a full list of available types, please visit schema.org
 
 #### Source
 
-main.ts:159419
+main.ts:162286
 
 ***
 
@@ -73,4 +73,4 @@ microdata value specified on a target web page
 
 #### Source
 
-main.ts:159422
+main.ts:162289

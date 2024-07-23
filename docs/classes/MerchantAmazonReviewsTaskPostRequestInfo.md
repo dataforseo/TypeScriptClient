@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:184348
+main.ts:187041
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Source
 
-main.ts:184199
+main.ts:186892
 
 ***
 
@@ -70,7 +70,7 @@ default value: 10
 
 #### Source
 
-main.ts:184260
+main.ts:186953
 
 ***
 
@@ -89,7 +89,7 @@ if you use this field, the response will only include reviews that contain the s
 
 #### Source
 
-main.ts:184295
+main.ts:186988
 
 ***
 
@@ -117,7 +117,7 @@ default rule: all_stars
 
 #### Source
 
-main.ts:184290
+main.ts:186983
 
 ***
 
@@ -140,7 +140,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 #### Source
 
-main.ts:184312
+main.ts:187005
 
 ***
 
@@ -161,7 +161,7 @@ en_GB
 
 #### Source
 
-main.ts:184246
+main.ts:186939
 
 ***
 
@@ -183,7 +183,7 @@ English (United Kingdom)
 
 #### Source
 
-main.ts:184239
+main.ts:186932
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Source
 
-main.ts:184222
+main.ts:186915
 
 ***
 
@@ -228,7 +228,7 @@ example:
 
 #### Source
 
-main.ts:184231
+main.ts:186924
 
 ***
 
@@ -249,7 +249,7 @@ HA1,England,United Kingdom
 
 #### Source
 
-main.ts:184214
+main.ts:186907
 
 ***
 
@@ -271,7 +271,7 @@ default rule: all_contents
 
 #### Source
 
-main.ts:184303
+main.ts:186996
 
 ***
 
@@ -295,7 +295,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:184344
+main.ts:187037
 
 ***
 
@@ -315,7 +315,7 @@ advanced, html
 
 #### Source
 
-main.ts:184334
+main.ts:187027
 
 ***
 
@@ -339,7 +339,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:184328
+main.ts:187021
 
 ***
 
@@ -361,7 +361,7 @@ The cost can be calculated on the Pricing page.
 
 #### Source
 
-main.ts:184207
+main.ts:186900
 
 ***
 
@@ -383,7 +383,7 @@ default rule: all_reviews
 
 #### Source
 
-main.ts:184276
+main.ts:186969
 
 ***
 
@@ -404,7 +404,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Source
 
-main.ts:184253
+main.ts:186946
 
 ***
 
@@ -426,7 +426,7 @@ default rule: helpful
 
 #### Source
 
-main.ts:184268
+main.ts:186961
 
 ***
 
@@ -446,7 +446,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:184318
+main.ts:187011
 
 ## Methods
 
@@ -464,7 +464,7 @@ main.ts:184318
 
 #### Source
 
-main.ts:184357
+main.ts:187050
 
 ***
 
@@ -482,7 +482,7 @@ main.ts:184357
 
 #### Source
 
-main.ts:184392
+main.ts:187085
 
 ***
 
@@ -500,4 +500,4 @@ main.ts:184392
 
 #### Source
 
-main.ts:184385
+main.ts:187078

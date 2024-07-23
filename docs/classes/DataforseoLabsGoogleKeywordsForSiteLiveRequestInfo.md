@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:82575
+main.ts:83098
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:82549
+main.ts:83072
 
 ***
 
@@ -80,7 +80,7 @@ default value: false
 
 #### Source
 
-main.ts:82514
+main.ts:83037
 
 ***
 
@@ -102,7 +102,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:82509
+main.ts:83032
 
 ***
 
@@ -121,7 +121,7 @@ default value: false
 
 #### Source
 
-main.ts:82496
+main.ts:83019
 
 ***
 
@@ -140,7 +140,7 @@ default value: true
 
 #### Source
 
-main.ts:82501
+main.ts:83024
 
 ***
 
@@ -163,7 +163,7 @@ en
 
 #### Source
 
-main.ts:82491
+main.ts:83014
 
 ***
 
@@ -186,7 +186,7 @@ English
 
 #### Source
 
-main.ts:82482
+main.ts:83005
 
 ***
 
@@ -205,7 +205,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:82519
+main.ts:83042
 
 ***
 
@@ -227,7 +227,7 @@ example:
 
 #### Source
 
-main.ts:82473
+main.ts:82996
 
 ***
 
@@ -249,7 +249,7 @@ United Kingdom
 
 #### Source
 
-main.ts:82465
+main.ts:82988
 
 ***
 
@@ -268,7 +268,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:82524
+main.ts:83047
 
 ***
 
@@ -290,7 +290,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:82532
+main.ts:83055
 
 ***
 
@@ -320,7 +320,7 @@ example:
 
 #### Source
 
-main.ts:82565
+main.ts:83088
 
 ***
 
@@ -340,7 +340,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:82571
+main.ts:83094
 
 ***
 
@@ -359,7 +359,7 @@ the domain should be specified without https:// or www.
 
 #### Source
 
-main.ts:82457
+main.ts:82980
 
 ## Methods
 
@@ -377,7 +377,7 @@ main.ts:82457
 
 #### Source
 
-main.ts:82584
+main.ts:83107
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:82584
 
 #### Source
 
-main.ts:82623
+main.ts:83146
 
 ***
 
@@ -413,4 +413,4 @@ main.ts:82623
 
 #### Source
 
-main.ts:82616
+main.ts:83139

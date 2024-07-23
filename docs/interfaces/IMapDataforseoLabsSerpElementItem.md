@@ -26,7 +26,7 @@ left, right
 
 #### Source
 
-main.ts:97820
+main.ts:98879
 
 ***
 
@@ -39,7 +39,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97816
+main.ts:98875
 
 ***
 
@@ -52,7 +52,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97813
+main.ts:98872
 
 ***
 
@@ -60,11 +60,11 @@ main.ts:97813
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Source
 
-main.ts:97824
+main.ts:98883
 
 ***
 
@@ -72,11 +72,11 @@ main.ts:97824
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:97826
+main.ts:98885
 
 ***
 
@@ -88,4 +88,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97822
+main.ts:98881

@@ -181,7 +181,9 @@
 - [`DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo.md)
 - [`DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveTaskInfo.md)
 - [`DataforseoLabsGoogleSearchIntentLiveTaskInfo`](DataforseoLabsGoogleSearchIntentLiveTaskInfo.md)
+- [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo.md)
 - [`DataforseoLabsGoogleCategoriesForDomainLiveTaskInfo`](DataforseoLabsGoogleCategoriesForDomainLiveTaskInfo.md)
+- [`DataforseoLabsGoogleCategoriesForKeywordsLiveTaskInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveTaskInfo.md)
 - [`DataforseoLabsGoogleKeywordsForCategoriesLiveTaskInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveTaskInfo.md)
 - [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveTaskInfo.md)
 - [`DataforseoLabsGoogleTopSearchesLiveTaskInfo`](DataforseoLabsGoogleTopSearchesLiveTaskInfo.md)
@@ -278,6 +280,11 @@
 - [`KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo`](KeywordsDataBingKeywordPerformanceTasksReadyTaskInfo.md)
 - [`KeywordsDataBingKeywordPerformanceTaskGetTaskInfo`](KeywordsDataBingKeywordPerformanceTaskGetTaskInfo.md)
 - [`KeywordsDataBingKeywordPerformanceLiveTaskInfo`](KeywordsDataBingKeywordPerformanceLiveTaskInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesTaskInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryTaskPostTaskInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostTaskInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryTasksReadyTaskInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyTaskInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryTaskGetTaskInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetTaskInfo.md)
+- [`KeywordsDataBingSearchVolumeHistoryLiveTaskInfo`](KeywordsDataBingSearchVolumeHistoryLiveTaskInfo.md)
 - [`BacklinksIdListTaskInfo`](BacklinksIdListTaskInfo.md)
 - [`BacklinksErrorsTaskInfo`](BacklinksErrorsTaskInfo.md)
 - [`BacklinksAvailableFiltersTaskInfo`](BacklinksAvailableFiltersTaskInfo.md)
@@ -450,6 +457,7 @@
 - [`BusinessDataGoogleMyBusinessInfoTasksReadyTaskInfo`](BusinessDataGoogleMyBusinessInfoTasksReadyTaskInfo.md)
 - [`BusinessDataTasksReadyTaskInfo`](BusinessDataTasksReadyTaskInfo.md)
 - [`BusinessDataGoogleMyBusinessInfoTaskGetTaskInfo`](BusinessDataGoogleMyBusinessInfoTaskGetTaskInfo.md)
+- [`BusinessDataGoogleMyBusinessInfoLiveTaskInfo`](BusinessDataGoogleMyBusinessInfoLiveTaskInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTaskPostTaskInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo.md)
 - [`BusinessDataGoogleMyBusinessUpdatesTaskGetTaskInfo`](BusinessDataGoogleMyBusinessUpdatesTaskGetTaskInfo.md)
@@ -517,7 +525,7 @@
 
 #### Source
 
-main.ts:23354
+main.ts:23751
 
 ## Properties
 
@@ -533,7 +541,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23344
+main.ts:23741
 
 ***
 
@@ -553,7 +561,7 @@ contains the same parameters that you specified in the POST request
 
 #### Source
 
-main.ts:23350
+main.ts:23747
 
 ***
 
@@ -570,7 +578,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:23333
+main.ts:23730
 
 ***
 
@@ -586,7 +594,7 @@ URL path
 
 #### Source
 
-main.ts:23348
+main.ts:23745
 
 ***
 
@@ -602,7 +610,7 @@ number of elements in the result array
 
 #### Source
 
-main.ts:23346
+main.ts:23743
 
 ***
 
@@ -620,7 +628,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23337
+main.ts:23734
 
 ***
 
@@ -637,7 +645,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23340
+main.ts:23737
 
 ***
 
@@ -653,7 +661,7 @@ execution time, seconds
 
 #### Source
 
-main.ts:23342
+main.ts:23739
 
 ## Methods
 
@@ -671,7 +679,7 @@ main.ts:23342
 
 #### Source
 
-main.ts:23363
+main.ts:23760
 
 ***
 
@@ -689,7 +697,7 @@ main.ts:23363
 
 #### Source
 
-main.ts:23397
+main.ts:23794
 
 ***
 
@@ -707,4 +715,4 @@ main.ts:23397
 
 #### Source
 
-main.ts:23390
+main.ts:23787

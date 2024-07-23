@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:133934
+main.ts:135126
 
 ## Properties
 
@@ -45,6 +45,7 @@ if you don’t specify this field, data will be provided for the last 12 months
 date format: "yyyy-mm-dd"
 example:
 "2020-01-01"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -52,7 +53,7 @@ example:
 
 #### Source
 
-main.ts:133909
+main.ts:135101
 
 ***
 
@@ -65,10 +66,10 @@ optional field
 if you don’t specify this field, data will be provided for the last 12 months;
 minimum value: two years back from today’s date;
 maximum value: one month from today’s date;
-note: we do not recommend using a custom time range for the past year’s dates;
 date format: "yyyy-mm-dd"
 example:
 "2020-03-15"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -76,7 +77,7 @@ example:
 
 #### Source
 
-main.ts:133919
+main.ts:135111
 
 ***
 
@@ -96,7 +97,7 @@ default value: all
 
 #### Source
 
-main.ts:133901
+main.ts:135092
 
 ***
 
@@ -115,7 +116,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:133850
+main.ts:135041
 
 ***
 
@@ -135,7 +136,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:133895
+main.ts:135086
 
 ***
 
@@ -155,7 +156,7 @@ en, fr, de
 
 #### Source
 
-main.ts:133884
+main.ts:135075
 
 ***
 
@@ -175,7 +176,7 @@ English, French, German
 
 #### Source
 
-main.ts:133878
+main.ts:135069
 
 ***
 
@@ -196,7 +197,7 @@ example:
 
 #### Source
 
-main.ts:133864
+main.ts:135055
 
 ***
 
@@ -218,7 +219,7 @@ example:
 
 #### Source
 
-main.ts:133872
+main.ts:135063
 
 ***
 
@@ -239,7 +240,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:133857
+main.ts:135048
 
 ***
 
@@ -258,7 +259,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:133924
+main.ts:135116
 
 ***
 
@@ -277,7 +278,7 @@ default value: relevance
 
 #### Source
 
-main.ts:133889
+main.ts:135080
 
 ***
 
@@ -297,7 +298,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:133930
+main.ts:135122
 
 ## Methods
 
@@ -315,7 +316,7 @@ main.ts:133930
 
 #### Source
 
-main.ts:133943
+main.ts:135135
 
 ***
 
@@ -333,7 +334,7 @@ main.ts:133943
 
 #### Source
 
-main.ts:133980
+main.ts:135172
 
 ***
 
@@ -351,4 +352,4 @@ main.ts:133980
 
 #### Source
 
-main.ts:133973
+main.ts:135165

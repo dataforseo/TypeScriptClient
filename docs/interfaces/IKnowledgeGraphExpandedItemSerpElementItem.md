@@ -26,7 +26,7 @@ kc:/local:place qa
 
 #### Source
 
-main.ts:28111
+main.ts:28508
 
 ***
 
@@ -38,7 +38,7 @@ link of the element
 
 #### Source
 
-main.ts:28113
+main.ts:28510
 
 ***
 
@@ -52,7 +52,7 @@ left, right
 
 #### Source
 
-main.ts:28103
+main.ts:28500
 
 ***
 
@@ -65,7 +65,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:28099
+main.ts:28496
 
 ***
 
@@ -79,7 +79,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:28096
+main.ts:28493
 
 ***
 
@@ -93,7 +93,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:28117
+main.ts:28514
 
 ***
 
@@ -105,7 +105,7 @@ title of the link
 
 #### Source
 
-main.ts:28107
+main.ts:28504
 
 ***
 
@@ -117,4 +117,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:28105
+main.ts:28502

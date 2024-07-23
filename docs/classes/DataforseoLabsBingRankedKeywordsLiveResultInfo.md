@@ -30,13 +30,13 @@
 
 #### Source
 
-main.ts:110238
+main.ts:111253
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsLiveItem`](DataforseoLabsLiveItem.md)[]
+> **`optional`** **items**: [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)[]
 
 contains ranked keywords and related data
 
@@ -46,7 +46,7 @@ contains ranked keywords and related data
 
 #### Source
 
-main.ts:110234
+main.ts:111249
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:110226
+main.ts:111241
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:110222
+main.ts:111237
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:110219
+main.ts:111234
 
 ***
 
@@ -117,7 +117,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Source
 
-main.ts:110229
+main.ts:111244
 
 ***
 
@@ -138,7 +138,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Source
 
-main.ts:110232
+main.ts:111247
 
 ***
 
@@ -154,7 +154,7 @@ search engine type
 
 #### Source
 
-main.ts:110214
+main.ts:111229
 
 ***
 
@@ -170,7 +170,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:110216
+main.ts:111231
 
 ***
 
@@ -186,7 +186,7 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:110224
+main.ts:111239
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:110224
 
 #### Source
 
-main.ts:110247
+main.ts:111262
 
 ***
 
@@ -222,7 +222,7 @@ main.ts:110247
 
 #### Source
 
-main.ts:110288
+main.ts:111303
 
 ***
 
@@ -240,4 +240,4 @@ main.ts:110288
 
 #### Source
 
-main.ts:110281
+main.ts:111296

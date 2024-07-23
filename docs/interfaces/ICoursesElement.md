@@ -20,7 +20,7 @@ the date when the page source of the element was published
 
 #### Source
 
-main.ts:37518
+main.ts:37845
 
 ***
 
@@ -32,7 +32,7 @@ description
 
 #### Source
 
-main.ts:37516
+main.ts:37843
 
 ***
 
@@ -44,7 +44,7 @@ website domain
 
 #### Source
 
-main.ts:37511
+main.ts:37838
 
 ***
 
@@ -56,7 +56,7 @@ URL of the image
 
 #### Source
 
-main.ts:37520
+main.ts:37847
 
 ***
 
@@ -69,7 +69,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:37523
+main.ts:37850
 
 ***
 
@@ -82,7 +82,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:37514
+main.ts:37841
 
 ***
 
@@ -94,7 +94,7 @@ title of a given link element
 
 #### Source
 
-main.ts:37507
+main.ts:37834
 
 ***
 
@@ -106,7 +106,7 @@ type of element
 
 #### Source
 
-main.ts:37505
+main.ts:37832
 
 ***
 
@@ -118,4 +118,4 @@ URL
 
 #### Source
 
-main.ts:37509
+main.ts:37836

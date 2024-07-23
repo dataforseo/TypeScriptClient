@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Source
 
-main.ts:96097
+main.ts:97010
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:96093
+main.ts:97006
 
 ***
 
@@ -51,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96089
+main.ts:97002
 
 ***
 
@@ -59,13 +59,12 @@ main.ts:96089
 
 > **`optional`** **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96086
+main.ts:96999
 
 ***
 
@@ -77,7 +76,7 @@ search engine type
 
 #### Source
 
-main.ts:96082
+main.ts:96996
 
 ***
 
@@ -89,4 +88,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:96095
+main.ts:97008

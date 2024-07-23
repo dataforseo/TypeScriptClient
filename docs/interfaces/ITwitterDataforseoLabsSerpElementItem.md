@@ -20,12 +20,11 @@
 
 > **`optional`** **items**: [`TwitterElement`](../classes/TwitterElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:96891
+main.ts:97116
 
 ***
 
@@ -39,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:96882
+main.ts:97108
 
 ***
 
@@ -52,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:96878
+main.ts:97104
 
 ***
 
@@ -65,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:96875
+main.ts:97101
 
 ***
 
@@ -77,7 +76,7 @@ search engine type
 
 #### Source
 
-main.ts:96872
+main.ts:97098
 
 ***
 
@@ -85,11 +84,11 @@ main.ts:96872
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Source
 
-main.ts:96886
+main.ts:97112
 
 ***
 
@@ -97,11 +96,11 @@ main.ts:96886
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:96888
+main.ts:97114
 
 ***
 
@@ -113,4 +112,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:96884
+main.ts:97110

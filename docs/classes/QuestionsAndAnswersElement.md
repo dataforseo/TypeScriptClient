@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:34163
+main.ts:34490
 
 ## Properties
 
@@ -46,7 +46,7 @@ answer included in the item
 
 #### Source
 
-main.ts:34152
+main.ts:34479
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Source
 
-main.ts:34157
+main.ts:34484
 
 ***
 
@@ -78,7 +78,7 @@ question included in the item
 
 #### Source
 
-main.ts:34150
+main.ts:34477
 
 ***
 
@@ -95,7 +95,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:34155
+main.ts:34482
 
 ***
 
@@ -111,7 +111,7 @@ type of element
 
 #### Source
 
-main.ts:34146
+main.ts:34473
 
 ***
 
@@ -127,7 +127,7 @@ URL
 
 #### Source
 
-main.ts:34148
+main.ts:34475
 
 ***
 
@@ -143,7 +143,7 @@ answer upvotes from the source
 
 #### Source
 
-main.ts:34159
+main.ts:34486
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:34159
 
 #### Source
 
-main.ts:34172
+main.ts:34499
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:34172
 
 #### Source
 
-main.ts:34195
+main.ts:34522
 
 ***
 
@@ -197,4 +197,4 @@ main.ts:34195
 
 #### Source
 
-main.ts:34188
+main.ts:34515

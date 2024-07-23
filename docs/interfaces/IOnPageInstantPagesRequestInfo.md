@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Source
 
-main.ts:162433
+main.ts:165126
 
 ***
 
@@ -50,7 +50,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Source
 
-main.ts:162405
+main.ts:165098
 
 ***
 
@@ -66,7 +66,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:162417
+main.ts:165110
 
 ***
 
@@ -82,7 +82,7 @@ maximum value: 3
 
 #### Source
 
-main.ts:162423
+main.ts:165116
 
 ***
 
@@ -98,7 +98,7 @@ maximum value, in pixels: 9999
 
 #### Source
 
-main.ts:162411
+main.ts:165104
 
 ***
 
@@ -113,7 +113,7 @@ default value: false
 
 #### Source
 
-main.ts:162492
+main.ts:165185
 
 ***
 
@@ -132,7 +132,7 @@ Note: only integer threshold values can be modified;
 
 #### Source
 
-main.ts:162497
+main.ts:165190
 
 ***
 
@@ -153,7 +153,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:162482
+main.ts:165175
 
 ***
 
@@ -170,7 +170,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Source
 
-main.ts:162388
+main.ts:165081
 
 ***
 
@@ -186,7 +186,7 @@ false
 
 #### Source
 
-main.ts:162460
+main.ts:165153
 
 ***
 
@@ -205,7 +205,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:162454
+main.ts:165147
 
 ***
 
@@ -221,7 +221,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:162445
+main.ts:165138
 
 ***
 
@@ -237,7 +237,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Source
 
-main.ts:162471
+main.ts:165164
 
 ***
 
@@ -253,7 +253,7 @@ possible values: us, de
 
 #### Source
 
-main.ts:162508
+main.ts:165201
 
 ***
 
@@ -269,7 +269,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Source
 
-main.ts:162439
+main.ts:165132
 
 ***
 
@@ -284,7 +284,7 @@ default value: false
 
 #### Source
 
-main.ts:162465
+main.ts:165158
 
 ***
 
@@ -299,7 +299,7 @@ default value: false
 
 #### Source
 
-main.ts:162428
+main.ts:165121
 
 ***
 
@@ -314,7 +314,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Source
 
-main.ts:162502
+main.ts:165195
 
 ***
 
@@ -331,7 +331,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 #### Source
 
-main.ts:162381
+main.ts:165074
 
 ***
 
@@ -346,4 +346,4 @@ default value: false
 
 #### Source
 
-main.ts:162487
+main.ts:165180

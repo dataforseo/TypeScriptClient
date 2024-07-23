@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:138714
+main.ts:141525
 
 ## Properties
 
@@ -53,7 +53,7 @@ default value: live
 
 #### Source
 
-main.ts:138693
+main.ts:141498
 
 ***
 
@@ -78,7 +78,27 @@ example:
 
 #### Source
 
-main.ts:138617
+main.ts:141422
+
+***
+
+### exclude\_internal\_backlinks?
+
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+
+indicates if internal backlinks from subdomains to the target will be excluded from the results
+optional field
+if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
+if set to false, internal links will be included in the results
+default value: true
+
+#### Implementation of
+
+[`IBacklinksBacklinksLiveRequestInfo`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksBacklinksLiveRequestInfo.md#exclude_internal_backlinks)
+
+#### Source
+
+main.ts:141515
 
 ***
 
@@ -105,7 +125,7 @@ semantic_location
 
 #### Source
 
-main.ts:138630
+main.ts:141435
 
 ***
 
@@ -136,7 +156,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:138651
+main.ts:141456
 
 ***
 
@@ -156,7 +176,7 @@ default value: true
 
 #### Source
 
-main.ts:138704
+main.ts:141509
 
 ***
 
@@ -175,7 +195,7 @@ default value: true
 
 #### Source
 
-main.ts:138698
+main.ts:141503
 
 ***
 
@@ -194,7 +214,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:138684
+main.ts:141489
 
 ***
 
@@ -216,7 +236,7 @@ default value: as_is
 
 #### Source
 
-main.ts:138610
+main.ts:141415
 
 ***
 
@@ -236,7 +256,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 #### Source
 
-main.ts:138671
+main.ts:141476
 
 ***
 
@@ -264,7 +284,7 @@ example:
 
 #### Source
 
-main.ts:138665
+main.ts:141470
 
 ***
 
@@ -286,7 +306,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 #### Source
 
-main.ts:138679
+main.ts:141484
 
 ***
 
@@ -306,7 +326,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:138710
+main.ts:141521
 
 ***
 
@@ -325,7 +345,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:138602
+main.ts:141407
 
 ***
 
@@ -343,7 +363,7 @@ can be set from 1 to 1000
 
 #### Source
 
-main.ts:138634
+main.ts:141439
 
 ## Methods
 
@@ -361,7 +381,7 @@ main.ts:138634
 
 #### Source
 
-main.ts:138723
+main.ts:141534
 
 ***
 
@@ -379,7 +399,7 @@ main.ts:138723
 
 #### Source
 
-main.ts:138767
+main.ts:141579
 
 ***
 
@@ -397,4 +417,4 @@ main.ts:138767
 
 #### Source
 
-main.ts:138760
+main.ts:141572

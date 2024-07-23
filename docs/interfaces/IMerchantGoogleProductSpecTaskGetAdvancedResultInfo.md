@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:177420
+main.ts:180113
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Source
 
-main.ts:177425
+main.ts:180118
 
 ***
 
@@ -48,7 +48,7 @@ description of the product
 
 #### Source
 
-main.ts:177413
+main.ts:180106
 
 ***
 
@@ -60,7 +60,7 @@ URL of the product image
 
 #### Source
 
-main.ts:177415
+main.ts:180108
 
 ***
 
@@ -74,7 +74,7 @@ shopping_specification
 
 #### Source
 
-main.ts:177429
+main.ts:180122
 
 ***
 
@@ -87,7 +87,7 @@ contains all product attributes and related data listed on the product specifica
 
 #### Source
 
-main.ts:177434
+main.ts:180127
 
 ***
 
@@ -99,7 +99,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:177431
+main.ts:180124
 
 ***
 
@@ -111,7 +111,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:177409
+main.ts:180102
 
 ***
 
@@ -123,7 +123,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:177407
+main.ts:180100
 
 ***
 
@@ -136,7 +136,7 @@ learn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:177401
+main.ts:180094
 
 ***
 
@@ -148,7 +148,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:177405
+main.ts:180098
 
 ***
 
@@ -160,7 +160,7 @@ tags of the product
 
 #### Source
 
-main.ts:177417
+main.ts:180110
 
 ***
 
@@ -172,7 +172,7 @@ title of the product
 
 #### Source
 
-main.ts:177411
+main.ts:180104
 
 ***
 
@@ -184,4 +184,4 @@ type of element
 
 #### Source
 
-main.ts:177403
+main.ts:180096

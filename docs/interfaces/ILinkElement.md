@@ -20,7 +20,7 @@ description of the results element
 
 #### Source
 
-main.ts:21872
+main.ts:22199
 
 ***
 
@@ -32,7 +32,7 @@ domain where a link points
 
 #### Source
 
-main.ts:21876
+main.ts:22203
 
 ***
 
@@ -44,7 +44,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:21870
+main.ts:22197
 
 ***
 
@@ -56,7 +56,7 @@ title of a given link element
 
 #### Source
 
-main.ts:21868
+main.ts:22195
 
 ***
 
@@ -68,7 +68,7 @@ type of element
 
 #### Source
 
-main.ts:21866
+main.ts:22193
 
 ***
 
@@ -80,7 +80,7 @@ URL
 
 #### Source
 
-main.ts:21874
+main.ts:22201
 
 ***
 
@@ -92,4 +92,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:21878
+main.ts:22205

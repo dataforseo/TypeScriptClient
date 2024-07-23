@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:40953
+main.ts:41408
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:40953
 
 #### Source
 
-main.ts:19855
+main.ts:20177
 
 ***
 
@@ -68,7 +68,7 @@ domain in the SERP element
 
 #### Source
 
-main.ts:40939
+main.ts:41394
 
 ***
 
@@ -85,7 +85,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:40937
+main.ts:41392
 
 ***
 
@@ -103,7 +103,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:40934
+main.ts:41389
 
 ***
 
@@ -120,7 +120,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:40946
+main.ts:41401
 
 ***
 
@@ -141,7 +141,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:40949
+main.ts:41404
 
 ***
 
@@ -157,7 +157,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:40941
+main.ts:41396
 
 ***
 
@@ -173,7 +173,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:40943
+main.ts:41398
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:40943
 
 #### Source
 
-main.ts:40958
+main.ts:41413
 
 ***
 
@@ -217,7 +217,7 @@ main.ts:40958
 
 #### Source
 
-main.ts:40988
+main.ts:41443
 
 ***
 
@@ -239,4 +239,4 @@ main.ts:40988
 
 #### Source
 
-main.ts:40981
+main.ts:41436

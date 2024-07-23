@@ -20,12 +20,11 @@
 
 > **`optional`** **items**: [`TopSightsElement`](../classes/TopSightsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:99738
+main.ts:100769
 
 ***
 
@@ -39,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:99731
+main.ts:100763
 
 ***
 
@@ -52,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99727
+main.ts:100759
 
 ***
 
@@ -65,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99724
+main.ts:100756
 
 ***
 
@@ -73,11 +72,11 @@ main.ts:99724
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Source
 
-main.ts:99735
+main.ts:100767
 
 ***
 
@@ -89,4 +88,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:99733
+main.ts:100765

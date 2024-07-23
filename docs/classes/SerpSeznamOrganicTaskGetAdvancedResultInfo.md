@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:74368
+main.ts:74891
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Source
 
-main.ts:74344
+main.ts:74867
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Source
 
-main.ts:74349
+main.ts:74872
 
 ***
 
@@ -85,7 +85,7 @@ images, local_pack, organic, related_searches, top_stories, featured_snippet, vi
 
 #### Source
 
-main.ts:74357
+main.ts:74880
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:74364
+main.ts:74887
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:74361
+main.ts:74884
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Source
 
-main.ts:74333
+main.ts:74856
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:74341
+main.ts:74864
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:74339
+main.ts:74862
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Source
 
-main.ts:74337
+main.ts:74860
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Source
 
-main.ts:74359
+main.ts:74882
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Source
 
-main.ts:74352
+main.ts:74875
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Source
 
-main.ts:74335
+main.ts:74858
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:74335
 
 #### Source
 
-main.ts:74377
+main.ts:74900
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:74377
 
 #### Source
 
-main.ts:74413
+main.ts:74936
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:74413
 
 #### Source
 
-main.ts:74406
+main.ts:74929

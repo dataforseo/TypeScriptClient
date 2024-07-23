@@ -30,13 +30,30 @@
 
 #### Source
 
-main.ts:86120
+main.ts:86646
 
 ## Properties
 
+### avg\_backlinks\_info?
+
+> **`optional`** **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+
+backlink data for the returned keyword
+this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`avg_backlinks_info`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#avg_backlinks_info)
+
+#### Source
+
+main.ts:86642
+
+***
+
 ### clickstream\_keyword\_info?
 
-> **`optional`** **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](ClickstreamKeywordInfo.md)
+> **`optional`** **clickstream\_keyword\_info**: `any`
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -47,7 +64,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Source
 
-main.ts:86105
+main.ts:86628
 
 ***
 
@@ -67,7 +84,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:86113
+main.ts:86636
 
 ***
 
@@ -84,7 +101,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:86091
+main.ts:86614
 
 ***
 
@@ -100,7 +117,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:86102
+main.ts:86625
 
 ***
 
@@ -116,7 +133,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:86107
+main.ts:86630
 
 ***
 
@@ -132,7 +149,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:86096
+main.ts:86619
 
 ***
 
@@ -149,7 +166,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:86094
+main.ts:86617
 
 ***
 
@@ -165,7 +182,7 @@ search engine type
 
 #### Source
 
-main.ts:86088
+main.ts:86611
 
 ***
 
@@ -183,7 +200,7 @@ if false, the results are returned for Google search sites only
 
 #### Source
 
-main.ts:86100
+main.ts:86623
 
 ***
 
@@ -200,7 +217,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:86116
+main.ts:86639
 
 ## Methods
 
@@ -218,7 +235,7 @@ main.ts:86116
 
 #### Source
 
-main.ts:86129
+main.ts:86655
 
 ***
 
@@ -236,7 +253,7 @@ main.ts:86129
 
 #### Source
 
-main.ts:86155
+main.ts:86682
 
 ***
 
@@ -254,4 +271,4 @@ main.ts:86155
 
 #### Source
 
-main.ts:86148
+main.ts:86675

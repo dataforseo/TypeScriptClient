@@ -25,7 +25,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Source
 
-main.ts:191170
+main.ts:193863
 
 ***
 
@@ -37,7 +37,7 @@ id of the review
 
 #### Source
 
-main.ts:191167
+main.ts:193860
 
 ***
 
@@ -50,7 +50,7 @@ can take the following values: left
 
 #### Source
 
-main.ts:191155
+main.ts:193848
 
 ***
 
@@ -63,7 +63,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:191152
+main.ts:193845
 
 ***
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:191149
+main.ts:193842
 
 ***
 
@@ -88,7 +88,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:191160
+main.ts:193853
 
 ***
 
@@ -100,7 +100,7 @@ response from the developer
 
 #### Source
 
-main.ts:191179
+main.ts:193872
 
 ***
 
@@ -112,7 +112,7 @@ content of the review
 
 #### Source
 
-main.ts:191175
+main.ts:193868
 
 ***
 
@@ -127,7 +127,7 @@ example:
 
 #### Source
 
-main.ts:191165
+main.ts:193858
 
 ***
 
@@ -140,7 +140,7 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
 
 #### Source
 
-main.ts:191173
+main.ts:193866
 
 ***
 
@@ -152,7 +152,7 @@ user profile of the reviewer
 
 #### Source
 
-main.ts:191177
+main.ts:193870
 
 ***
 
@@ -165,4 +165,4 @@ version of the app for which the review is submitted
 
 #### Source
 
-main.ts:191158
+main.ts:193851

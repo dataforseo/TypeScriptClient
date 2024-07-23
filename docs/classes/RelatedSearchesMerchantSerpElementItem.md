@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:174622
+main.ts:177315
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:174622
 
 #### Source
 
-main.ts:20516
+main.ts:20843
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:174618
+main.ts:177311
 
 ***
 
@@ -87,7 +87,7 @@ left, right
 
 #### Source
 
-main.ts:174613
+main.ts:177306
 
 ***
 
@@ -104,7 +104,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Source
 
-main.ts:174609
+main.ts:177302
 
 ***
 
@@ -121,7 +121,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:174606
+main.ts:177299
 
 ***
 
@@ -137,7 +137,7 @@ XPath of the element
 
 #### Source
 
-main.ts:174615
+main.ts:177308
 
 ## Methods
 
@@ -159,7 +159,7 @@ main.ts:174615
 
 #### Source
 
-main.ts:174627
+main.ts:177320
 
 ***
 
@@ -181,7 +181,7 @@ main.ts:174627
 
 #### Source
 
-main.ts:174653
+main.ts:177346
 
 ***
 
@@ -203,4 +203,4 @@ main.ts:174653
 
 #### Source
 
-main.ts:174646
+main.ts:177339

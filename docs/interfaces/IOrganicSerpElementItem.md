@@ -26,7 +26,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:26624
+main.ts:27021
 
 ***
 
@@ -39,7 +39,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:26600
+main.ts:26997
 
 ***
 
@@ -51,7 +51,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:26577
+main.ts:26974
 
 ***
 
@@ -63,7 +63,7 @@ cached version of the page
 
 #### Source
 
-main.ts:26572
+main.ts:26969
 
 ***
 
@@ -75,7 +75,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:26591
+main.ts:26988
 
 ***
 
@@ -87,7 +87,7 @@ website domain
 
 #### Source
 
-main.ts:26566
+main.ts:26963
 
 ***
 
@@ -101,7 +101,7 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
 #### Source
 
-main.ts:26620
+main.ts:27017
 
 ***
 
@@ -113,7 +113,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:26595
+main.ts:26992
 
 ***
 
@@ -127,7 +127,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:26616
+main.ts:27013
 
 ***
 
@@ -139,7 +139,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:26608
+main.ts:27005
 
 ***
 
@@ -151,7 +151,7 @@ images of the element
 
 #### Source
 
-main.ts:26597
+main.ts:26994
 
 ***
 
@@ -163,7 +163,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:26585
+main.ts:26982
 
 ***
 
@@ -175,7 +175,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:26581
+main.ts:26978
 
 ***
 
@@ -187,7 +187,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:26587
+main.ts:26984
 
 ***
 
@@ -199,7 +199,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:26583
+main.ts:26980
 
 ***
 
@@ -211,7 +211,7 @@ indicates whether the element is marked as Google web story
 
 #### Source
 
-main.ts:26589
+main.ts:26986
 
 ***
 
@@ -225,7 +225,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:26612
+main.ts:27009
 
 ***
 
@@ -239,7 +239,7 @@ left, right
 
 #### Source
 
-main.ts:26562
+main.ts:26959
 
 ***
 
@@ -251,7 +251,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:26593
+main.ts:26990
 
 ***
 
@@ -264,7 +264,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Source
 
-main.ts:26606
+main.ts:27003
 
 ***
 
@@ -277,7 +277,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:26558
+main.ts:26955
 
 ***
 
@@ -291,7 +291,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:26555
+main.ts:26952
 
 ***
 
@@ -304,7 +304,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:26603
+main.ts:27000
 
 ***
 
@@ -318,7 +318,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Source
 
-main.ts:26637
+main.ts:27034
 
 ***
 
@@ -332,7 +332,7 @@ you can derive the related_result snippets as "type": "organic" results by setti
 
 #### Source
 
-main.ts:26628
+main.ts:27025
 
 ***
 
@@ -345,7 +345,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Source
 
-main.ts:26575
+main.ts:26972
 
 ***
 
@@ -360,7 +360,7 @@ example:
 
 #### Source
 
-main.ts:26633
+main.ts:27030
 
 ***
 
@@ -372,7 +372,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:26568
+main.ts:26965
 
 ***
 
@@ -384,7 +384,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:26570
+main.ts:26967
 
 ***
 
@@ -396,7 +396,7 @@ name of the website in SERP
 
 #### Source
 
-main.ts:26579
+main.ts:26976
 
 ***
 
@@ -408,4 +408,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:26564
+main.ts:26961

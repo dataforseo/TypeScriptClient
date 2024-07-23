@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:205417
+main.ts:208364
 
 ## Properties
 
@@ -46,7 +46,7 @@ standardised amenity name
 
 #### Source
 
-main.ts:205407
+main.ts:208354
 
 ***
 
@@ -62,7 +62,7 @@ displayed amenity name
 
 #### Source
 
-main.ts:205409
+main.ts:208356
 
 ***
 
@@ -78,7 +78,7 @@ standardised details about the amenity
 
 #### Source
 
-main.ts:205411
+main.ts:208358
 
 ***
 
@@ -94,7 +94,7 @@ displayed details about the amenity
 
 #### Source
 
-main.ts:205413
+main.ts:208360
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:205413
 
 #### Source
 
-main.ts:205426
+main.ts:208373
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:205426
 
 #### Source
 
-main.ts:205446
+main.ts:208393
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:205446
 
 #### Source
 
-main.ts:205439
+main.ts:208386

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92475
+main.ts:93534
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains detected SERP competitors and related data
 
 #### Source
 
-main.ts:92471
+main.ts:93530
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:92469
+main.ts:93528
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:92465
+main.ts:93524
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:92462
+main.ts:93521
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Source
 
-main.ts:92456
+main.ts:93515
 
 ***
 
@@ -129,7 +129,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:92459
+main.ts:93518
 
 ***
 
@@ -145,7 +145,7 @@ the total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:92467
+main.ts:93526
 
 ## Methods
 
@@ -163,7 +163,7 @@ main.ts:92467
 
 #### Source
 
-main.ts:92484
+main.ts:93543
 
 ***
 
@@ -181,7 +181,7 @@ main.ts:92484
 
 #### Source
 
-main.ts:92515
+main.ts:93574
 
 ***
 
@@ -199,4 +199,4 @@ main.ts:92515
 
 #### Source
 
-main.ts:92508
+main.ts:93567

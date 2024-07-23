@@ -23,10 +23,11 @@ if you don’t specify this field, data will be provided for the last 12 months
 date format: "yyyy-mm-dd"
 example:
 "2020-01-01"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Source
 
-main.ts:133241
+main.ts:134432
 
 ***
 
@@ -39,14 +40,14 @@ optional field
 if you don’t specify this field, data will be provided for the last 12 months;
 minimum value: two years back from today’s date;
 maximum value: one month from today’s date;
-note: we do not recommend using a custom time range for the past year’s dates;
 date format: "yyyy-mm-dd"
 example:
 "2020-03-15"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Source
 
-main.ts:133251
+main.ts:134442
 
 ***
 
@@ -62,7 +63,7 @@ default value: all
 
 #### Source
 
-main.ts:133233
+main.ts:134423
 
 ***
 
@@ -77,7 +78,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Source
 
-main.ts:133182
+main.ts:134372
 
 ***
 
@@ -93,7 +94,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:133227
+main.ts:134417
 
 ***
 
@@ -109,7 +110,7 @@ en, fr, de
 
 #### Source
 
-main.ts:133216
+main.ts:134406
 
 ***
 
@@ -125,7 +126,7 @@ English, French, German
 
 #### Source
 
-main.ts:133210
+main.ts:134400
 
 ***
 
@@ -142,7 +143,7 @@ example:
 
 #### Source
 
-main.ts:133196
+main.ts:134386
 
 ***
 
@@ -160,7 +161,7 @@ example:
 
 #### Source
 
-main.ts:133204
+main.ts:134394
 
 ***
 
@@ -177,7 +178,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:133189
+main.ts:134379
 
 ***
 
@@ -197,7 +198,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:133276
+main.ts:134467
 
 ***
 
@@ -217,7 +218,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Source
 
-main.ts:133266
+main.ts:134457
 
 ***
 
@@ -232,7 +233,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:133256
+main.ts:134447
 
 ***
 
@@ -247,7 +248,7 @@ default value: relevance
 
 #### Source
 
-main.ts:133221
+main.ts:134411
 
 ***
 
@@ -263,4 +264,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:133282
+main.ts:134473

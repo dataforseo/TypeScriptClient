@@ -12,16 +12,29 @@
 
 ## Properties
 
+### avg\_backlinks\_info?
+
+> **`optional`** **avg\_backlinks\_info**: [`AvgBacklinksInfo`](../classes/AvgBacklinksInfo.md)
+
+backlink data for the returned keyword
+this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword
+
+#### Source
+
+main.ts:86736
+
+***
+
 ### clickstream\_keyword\_info?
 
-> **`optional`** **clickstream\_keyword\_info**: [`ClickstreamKeywordInfo`](../classes/ClickstreamKeywordInfo.md)
+> **`optional`** **clickstream\_keyword\_info**: `any`
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
 
 #### Source
 
-main.ts:86194
+main.ts:86722
 
 ***
 
@@ -37,7 +50,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:86202
+main.ts:86730
 
 ***
 
@@ -50,7 +63,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Source
 
-main.ts:86180
+main.ts:86708
 
 ***
 
@@ -62,7 +75,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:86191
+main.ts:86719
 
 ***
 
@@ -74,7 +87,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:86196
+main.ts:86724
 
 ***
 
@@ -86,7 +99,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:86185
+main.ts:86713
 
 ***
 
@@ -99,7 +112,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:86183
+main.ts:86711
 
 ***
 
@@ -111,7 +124,7 @@ search engine type
 
 #### Source
 
-main.ts:86177
+main.ts:86705
 
 ***
 
@@ -125,7 +138,7 @@ if false, the results are returned for Google search sites only
 
 #### Source
 
-main.ts:86189
+main.ts:86717
 
 ***
 
@@ -138,4 +151,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:86205
+main.ts:86733

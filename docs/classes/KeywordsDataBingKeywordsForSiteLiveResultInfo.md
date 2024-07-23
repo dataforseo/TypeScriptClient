@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:132769
+main.ts:133958
 
 ## Properties
 
@@ -47,7 +47,7 @@ legacy field, the value will always be null
 
 #### Source
 
-main.ts:132761
+main.ts:133950
 
 ***
 
@@ -68,7 +68,7 @@ if there is no data the value is null
 
 #### Source
 
-main.ts:132751
+main.ts:133940
 
 ***
 
@@ -86,7 +86,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:132755
+main.ts:133944
 
 ***
 
@@ -103,7 +103,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:132744
+main.ts:133933
 
 ***
 
@@ -119,7 +119,7 @@ keyword in a POST array
 
 #### Source
 
-main.ts:132735
+main.ts:133924
 
 ***
 
@@ -135,7 +135,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:132739
+main.ts:133928
 
 ***
 
@@ -151,7 +151,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:132737
+main.ts:133926
 
 ***
 
@@ -169,7 +169,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:132765
+main.ts:133954
 
 ***
 
@@ -185,7 +185,7 @@ indicates whether data from partner networks included in the response
 
 #### Source
 
-main.ts:132741
+main.ts:133930
 
 ***
 
@@ -202,7 +202,7 @@ represents the (approximate) number of searches for the keyword on the Bing sear
 
 #### Source
 
-main.ts:132758
+main.ts:133947
 
 ## Methods
 
@@ -220,7 +220,7 @@ main.ts:132758
 
 #### Source
 
-main.ts:132778
+main.ts:133967
 
 ***
 
@@ -238,7 +238,7 @@ main.ts:132778
 
 #### Source
 
-main.ts:132812
+main.ts:134001
 
 ***
 
@@ -256,4 +256,4 @@ main.ts:132812
 
 #### Source
 
-main.ts:132805
+main.ts:133994

@@ -27,7 +27,7 @@ default value: live
 
 #### Source
 
-main.ts:138901
+main.ts:141714
 
 ***
 
@@ -48,7 +48,23 @@ example:
 
 #### Source
 
-main.ts:138825
+main.ts:141638
+
+***
+
+### exclude\_internal\_backlinks?
+
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+
+indicates if internal backlinks from subdomains to the target will be excluded from the results
+optional field
+if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
+if set to false, internal links will be included in the results
+default value: true
+
+#### Source
+
+main.ts:141731
 
 ***
 
@@ -71,7 +87,7 @@ semantic_location
 
 #### Source
 
-main.ts:138838
+main.ts:141651
 
 ***
 
@@ -98,7 +114,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:138859
+main.ts:141672
 
 ***
 
@@ -114,7 +130,7 @@ default value: true
 
 #### Source
 
-main.ts:138912
+main.ts:141725
 
 ***
 
@@ -129,7 +145,7 @@ default value: true
 
 #### Source
 
-main.ts:138906
+main.ts:141719
 
 ***
 
@@ -144,7 +160,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:138892
+main.ts:141705
 
 ***
 
@@ -162,7 +178,7 @@ default value: as_is
 
 #### Source
 
-main.ts:138818
+main.ts:141631
 
 ***
 
@@ -178,7 +194,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 #### Source
 
-main.ts:138879
+main.ts:141692
 
 ***
 
@@ -202,7 +218,7 @@ example:
 
 #### Source
 
-main.ts:138873
+main.ts:141686
 
 ***
 
@@ -220,7 +236,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 #### Source
 
-main.ts:138887
+main.ts:141700
 
 ***
 
@@ -236,7 +252,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:138918
+main.ts:141737
 
 ***
 
@@ -251,7 +267,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:138810
+main.ts:141623
 
 ***
 
@@ -265,4 +281,4 @@ can be set from 1 to 1000
 
 #### Source
 
-main.ts:138842
+main.ts:141655

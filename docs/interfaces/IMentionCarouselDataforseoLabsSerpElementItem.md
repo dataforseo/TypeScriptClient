@@ -20,12 +20,11 @@
 
 > **`optional`** **items**: [`MentionCarouselElement`](../classes/MentionCarouselElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:99552
+main.ts:100587
 
 ***
 
@@ -39,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:99545
+main.ts:100581
 
 ***
 
@@ -52,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99541
+main.ts:100577
 
 ***
 
@@ -65,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99538
+main.ts:100574
 
 ***
 
@@ -73,11 +72,11 @@ main.ts:99538
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Source
 
-main.ts:99549
+main.ts:100585
 
 ***
 
@@ -89,4 +88,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:99547
+main.ts:100583

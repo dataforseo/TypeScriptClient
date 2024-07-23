@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:184993
+main.ts:187686
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:184993
 
 #### Source
 
-main.ts:21498
+main.ts:21825
 
 ***
 
@@ -69,7 +69,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Source
 
-main.ts:184970
+main.ts:187663
 
 ***
 
@@ -85,7 +85,7 @@ images of the product submitted by the reviewer
 
 #### Source
 
-main.ts:184972
+main.ts:187665
 
 ***
 
@@ -102,7 +102,7 @@ can take the following values: right
 
 #### Source
 
-main.ts:184961
+main.ts:187654
 
 ***
 
@@ -121,7 +121,7 @@ example:
 
 #### Source
 
-main.ts:184987
+main.ts:187680
 
 ***
 
@@ -138,7 +138,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:184958
+main.ts:187651
 
 ***
 
@@ -155,7 +155,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:184955
+main.ts:187648
 
 ***
 
@@ -171,7 +171,7 @@ the rating score submitted by the reviewer
 
 #### Source
 
-main.ts:184989
+main.ts:187682
 
 ***
 
@@ -187,7 +187,7 @@ content of the review
 
 #### Source
 
-main.ts:184982
+main.ts:187675
 
 ***
 
@@ -203,7 +203,7 @@ subtitle of the review
 
 #### Source
 
-main.ts:184967
+main.ts:187660
 
 ***
 
@@ -219,7 +219,7 @@ title of the review
 
 #### Source
 
-main.ts:184978
+main.ts:187671
 
 ***
 
@@ -235,7 +235,7 @@ URL to the review
 
 #### Source
 
-main.ts:184980
+main.ts:187673
 
 ***
 
@@ -251,7 +251,7 @@ user profile of the reviewer
 
 #### Source
 
-main.ts:184976
+main.ts:187669
 
 ***
 
@@ -267,7 +267,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Source
 
-main.ts:184965
+main.ts:187658
 
 ***
 
@@ -283,7 +283,7 @@ videos of the product submitted by the reviewer
 
 #### Source
 
-main.ts:184974
+main.ts:187667
 
 ***
 
@@ -299,7 +299,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:184963
+main.ts:187656
 
 ## Methods
 
@@ -321,7 +321,7 @@ main.ts:184963
 
 #### Source
 
-main.ts:184998
+main.ts:187691
 
 ***
 
@@ -343,7 +343,7 @@ main.ts:184998
 
 #### Source
 
-main.ts:185038
+main.ts:187731
 
 ***
 
@@ -365,4 +365,4 @@ main.ts:185038
 
 #### Source
 
-main.ts:185031
+main.ts:187724

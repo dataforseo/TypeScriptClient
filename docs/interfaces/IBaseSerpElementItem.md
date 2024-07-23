@@ -64,6 +64,7 @@
 - [`IPerspectivesSerpElementItem`](IPerspectivesSerpElementItem.md)
 - [`IDiscussionsAndForumsSerpElementItem`](IDiscussionsAndForumsSerpElementItem.md)
 - [`ICompareSitesSerpElementItem`](ICompareSitesSerpElementItem.md)
+- [`ICoursesSerpElementItem`](ICoursesSerpElementItem.md)
 - [`IMapsSearchSerpElementItem`](IMapsSearchSerpElementItem.md)
 - [`IMapsPaidItemSerpElementItem`](IMapsPaidItemSerpElementItem.md)
 - [`INewsSearchSerpElementItem`](INewsSearchSerpElementItem.md)

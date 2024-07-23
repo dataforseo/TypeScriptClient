@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:32927
+main.ts:33254
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Source
 
-main.ts:32920
+main.ts:33247
 
 ***
 
@@ -63,7 +63,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:32923
+main.ts:33250
 
 ***
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Source
 
-main.ts:32916
+main.ts:33243
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Source
 
-main.ts:32914
+main.ts:33241
 
 ***
 
@@ -111,7 +111,7 @@ URL
 
 #### Source
 
-main.ts:32918
+main.ts:33245
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:32918
 
 #### Source
 
-main.ts:32936
+main.ts:33263
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:32936
 
 #### Source
 
-main.ts:32957
+main.ts:33284
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:32957
 
 #### Source
 
-main.ts:32950
+main.ts:33277

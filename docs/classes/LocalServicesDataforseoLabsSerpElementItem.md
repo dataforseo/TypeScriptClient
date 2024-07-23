@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:100542
+main.ts:101558
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:100542
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -68,7 +68,7 @@ domain where a link points
 
 #### Source
 
-main.ts:100535
+main.ts:101552
 
 ***
 
@@ -76,8 +76,7 @@ main.ts:100535
 
 > **`optional`** **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -85,7 +84,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:100538
+main.ts:101554
 
 ***
 
@@ -103,7 +102,7 @@ left, right
 
 #### Source
 
-main.ts:100527
+main.ts:101544
 
 ***
 
@@ -120,7 +119,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:100523
+main.ts:101540
 
 ***
 
@@ -137,7 +136,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:100520
+main.ts:101537
 
 ***
 
@@ -145,7 +144,7 @@ main.ts:100520
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -153,7 +152,7 @@ title of the item
 
 #### Source
 
-main.ts:100531
+main.ts:101548
 
 ***
 
@@ -161,7 +160,7 @@ main.ts:100531
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -169,7 +168,7 @@ URL link
 
 #### Source
 
-main.ts:100533
+main.ts:101550
 
 ***
 
@@ -185,7 +184,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:100529
+main.ts:101546
 
 ## Methods
 
@@ -207,7 +206,7 @@ main.ts:100529
 
 #### Source
 
-main.ts:100547
+main.ts:101563
 
 ***
 
@@ -229,7 +228,7 @@ main.ts:100547
 
 #### Source
 
-main.ts:100576
+main.ts:101592
 
 ***
 
@@ -251,4 +250,4 @@ main.ts:100576
 
 #### Source
 
-main.ts:100569
+main.ts:101585

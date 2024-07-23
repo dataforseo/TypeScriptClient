@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:139525
+main.ts:142344
 
 ## Properties
 
@@ -50,7 +50,7 @@ custom mode specified in a POST array
 
 #### Source
 
-main.ts:139511
+main.ts:142330
 
 ***
 
@@ -66,7 +66,7 @@ contains relevant backlinks and referring domains data
 
 #### Source
 
-main.ts:139517
+main.ts:142336
 
 ***
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:139515
+main.ts:142334
 
 ***
 
@@ -98,7 +98,7 @@ mode specified in a POST array
 
 #### Source
 
-main.ts:139509
+main.ts:142328
 
 ***
 
@@ -116,7 +116,7 @@ search_after_token values are unique for each subsequent task
 
 #### Source
 
-main.ts:139521
+main.ts:142340
 
 ***
 
@@ -132,7 +132,7 @@ target domain in a POST array
 
 #### Source
 
-main.ts:139507
+main.ts:142326
 
 ***
 
@@ -148,7 +148,7 @@ total amount of results relevant the request
 
 #### Source
 
-main.ts:139513
+main.ts:142332
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:139513
 
 #### Source
 
-main.ts:139534
+main.ts:142353
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:139534
 
 #### Source
 
-main.ts:139567
+main.ts:142386
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:139567
 
 #### Source
 
-main.ts:139560
+main.ts:142379

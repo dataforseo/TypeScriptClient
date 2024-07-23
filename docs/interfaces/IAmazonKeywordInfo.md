@@ -22,7 +22,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 #### Source
 
-main.ts:22185
+main.ts:22512
 
 ***
 
@@ -34,7 +34,7 @@ search engine type
 
 #### Source
 
-main.ts:22181
+main.ts:22508
 
 ***
 
@@ -47,4 +47,4 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 #### Source
 
-main.ts:22188
+main.ts:22515

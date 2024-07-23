@@ -23,7 +23,7 @@ example:
 
 #### Source
 
-main.ts:203910
+main.ts:206857
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Source
 
-main.ts:203915
+main.ts:206862
 
 ***
 
@@ -51,7 +51,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Source
 
-main.ts:203903
+main.ts:206850
 
 ***
 
@@ -63,7 +63,7 @@ text about a discount applied
 
 #### Source
 
-main.ts:203905
+main.ts:206852
 
 ***
 
@@ -77,7 +77,7 @@ possible item types: hotel_search_item
 
 #### Source
 
-main.ts:203921
+main.ts:206868
 
 ***
 
@@ -89,7 +89,7 @@ price per night
 
 #### Source
 
-main.ts:203898
+main.ts:206845
 
 ***
 
@@ -101,7 +101,7 @@ full price per night without a discount applied
 
 #### Source
 
-main.ts:203900
+main.ts:206847
 
 ***
 
@@ -113,4 +113,4 @@ number of hotel visitors for this price
 
 #### Source
 
-main.ts:203917
+main.ts:206864

@@ -25,7 +25,7 @@ possible values: internal, external
 
 #### Source
 
-main.ts:157676
+main.ts:160543
 
 ***
 
@@ -38,7 +38,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Source
 
-main.ts:157669
+main.ts:160536
 
 ***
 
@@ -51,7 +51,7 @@ the link was found on this domain
 
 #### Source
 
-main.ts:157651
+main.ts:160518
 
 ***
 
@@ -64,7 +64,7 @@ the link is pointing to this domain
 
 #### Source
 
-main.ts:157654
+main.ts:160521
 
 ***
 
@@ -77,7 +77,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Source
 
-main.ts:157679
+main.ts:160546
 
 ***
 
@@ -90,7 +90,7 @@ if true, at least one link pointing to the URL in link_to has a rel="nofollow" a
 
 #### Source
 
-main.ts:157682
+main.ts:160549
 
 ***
 
@@ -103,7 +103,7 @@ absolute URL of the page on which the link was found
 
 #### Source
 
-main.ts:157663
+main.ts:160530
 
 ***
 
@@ -116,7 +116,7 @@ absolute URL of the page to which the link is pointing
 
 #### Source
 
-main.ts:157666
+main.ts:160533
 
 ***
 
@@ -129,7 +129,7 @@ relative URL of the page on which the link was found
 
 #### Source
 
-main.ts:157657
+main.ts:160524
 
 ***
 
@@ -141,7 +141,7 @@ url scheme of the referring page
 
 #### Source
 
-main.ts:157671
+main.ts:160538
 
 ***
 
@@ -154,7 +154,7 @@ relative URL of the page to which the link is pointing
 
 #### Source
 
-main.ts:157660
+main.ts:160527
 
 ***
 
@@ -166,4 +166,4 @@ url scheme of the referenced page
 
 #### Source
 
-main.ts:157673
+main.ts:160540

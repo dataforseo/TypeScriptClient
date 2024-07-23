@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:100239
+main.ts:101260
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:100239
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -68,7 +68,7 @@ domain where a link points
 
 #### Source
 
-main.ts:100230
+main.ts:101251
 
 ***
 
@@ -84,7 +84,7 @@ contains data provided in the graph of the element
 
 #### Source
 
-main.ts:100235
+main.ts:101256
 
 ***
 
@@ -102,13 +102,13 @@ left, right
 
 #### Source
 
-main.ts:100215
+main.ts:101236
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> **`optional`** **price**: [`Price`](Price.md)
 
 price of the shopping element
 
@@ -118,7 +118,7 @@ price of the shopping element
 
 #### Source
 
-main.ts:100226
+main.ts:101247
 
 ***
 
@@ -135,7 +135,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:100211
+main.ts:101232
 
 ***
 
@@ -152,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:100208
+main.ts:101229
 
 ***
 
@@ -168,7 +168,7 @@ text alongside the link title
 
 #### Source
 
-main.ts:100224
+main.ts:101245
 
 ***
 
@@ -185,7 +185,7 @@ indicates the source of information included in the shopping_element
 
 #### Source
 
-main.ts:100222
+main.ts:101243
 
 ***
 
@@ -202,7 +202,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:100233
+main.ts:101254
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:100233
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -218,7 +218,7 @@ title of the item
 
 #### Source
 
-main.ts:100219
+main.ts:101240
 
 ***
 
@@ -226,7 +226,7 @@ main.ts:100219
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -234,7 +234,7 @@ URL link
 
 #### Source
 
-main.ts:100228
+main.ts:101249
 
 ***
 
@@ -250,7 +250,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:100217
+main.ts:101238
 
 ## Methods
 
@@ -272,7 +272,7 @@ main.ts:100217
 
 #### Source
 
-main.ts:100244
+main.ts:101265
 
 ***
 
@@ -294,7 +294,7 @@ main.ts:100244
 
 #### Source
 
-main.ts:100273
+main.ts:101294
 
 ***
 
@@ -316,4 +316,4 @@ main.ts:100273
 
 #### Source
 
-main.ts:100266
+main.ts:101287

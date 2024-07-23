@@ -20,7 +20,7 @@ items array
 
 #### Source
 
-main.ts:144328
+main.ts:147175
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the items array
 
 #### Source
 
-main.ts:144326
+main.ts:147173
 
 ***
 
@@ -44,4 +44,4 @@ total number of relevant items in the database
 
 #### Source
 
-main.ts:144324
+main.ts:147171

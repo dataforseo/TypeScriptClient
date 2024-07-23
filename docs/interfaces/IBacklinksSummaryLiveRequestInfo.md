@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:137380
+main.ts:140185
 
 ***
 
@@ -45,7 +45,23 @@ default value: live
 
 #### Source
 
-main.ts:137372
+main.ts:140177
+
+***
+
+### exclude\_internal\_backlinks?
+
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+
+indicates if internal backlinks from subdomains to the target will be excluded from the results
+optional field
+if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
+if set to false, internal links will be included in the results
+default value: true
+
+#### Source
+
+main.ts:140157
 
 ***
 
@@ -61,7 +77,7 @@ default value: true
 
 #### Source
 
-main.ts:137352
+main.ts:140151
 
 ***
 
@@ -76,7 +92,7 @@ default value: true
 
 #### Source
 
-main.ts:137346
+main.ts:140145
 
 ***
 
@@ -97,7 +113,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:137363
+main.ts:140168
 
 ***
 
@@ -113,7 +129,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:137386
+main.ts:140191
 
 ***
 
@@ -128,4 +144,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:137341
+main.ts:140140

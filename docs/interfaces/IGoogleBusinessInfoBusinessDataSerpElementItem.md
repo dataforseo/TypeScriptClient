@@ -25,7 +25,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Source
 
-main.ts:201768
+main.ts:204463
 
 ***
 
@@ -37,7 +37,7 @@ address of the business entity
 
 #### Source
 
-main.ts:201778
+main.ts:204473
 
 ***
 
@@ -49,7 +49,7 @@ object containing address components of the business entity
 
 #### Source
 
-main.ts:201780
+main.ts:204475
 
 ***
 
@@ -62,7 +62,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Source
 
-main.ts:201814
+main.ts:204509
 
 ***
 
@@ -75,7 +75,7 @@ Google My Business general category that best describes the services provided by
 
 #### Source
 
-main.ts:201762
+main.ts:204457
 
 ***
 
@@ -88,7 +88,7 @@ universal category IDs that do not change based on the selected country
 
 #### Source
 
-main.ts:201765
+main.ts:204460
 
 ***
 
@@ -103,7 +103,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:201773
+main.ts:204468
 
 ***
 
@@ -115,7 +115,7 @@ URL of the preferred contact page
 
 #### Source
 
-main.ts:201790
+main.ts:204485
 
 ***
 
@@ -128,7 +128,7 @@ the description of the business entity for which the results are collected
 
 #### Source
 
-main.ts:201759
+main.ts:204454
 
 ***
 
@@ -141,7 +141,7 @@ includes information about businesses that are located within the target busines
 
 #### Source
 
-main.ts:201855
+main.ts:204550
 
 ***
 
@@ -153,7 +153,7 @@ domain of the business entity
 
 #### Source
 
-main.ts:201792
+main.ts:204487
 
 ***
 
@@ -166,7 +166,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:201776
+main.ts:204471
 
 ***
 
@@ -180,7 +180,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Source
 
-main.ts:201829
+main.ts:204524
 
 ***
 
@@ -192,7 +192,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Source
 
-main.ts:201810
+main.ts:204505
 
 ***
 
@@ -207,7 +207,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 #### Source
 
-main.ts:201852
+main.ts:204547
 
 ***
 
@@ -221,7 +221,7 @@ example:
 
 #### Source
 
-main.ts:201804
+main.ts:204499
 
 ***
 
@@ -234,7 +234,7 @@ list of options to interact with the business directly from search results
 
 #### Source
 
-main.ts:201847
+main.ts:204542
 
 ***
 
@@ -246,7 +246,7 @@ URL of the logo featured in Google My Business profile
 
 #### Source
 
-main.ts:201794
+main.ts:204489
 
 ***
 
@@ -260,7 +260,7 @@ example:
 
 #### Source
 
-main.ts:201808
+main.ts:204503
 
 ***
 
@@ -272,7 +272,7 @@ URL of the main image featured in Google My Business profile
 
 #### Source
 
-main.ts:201796
+main.ts:204491
 
 ***
 
@@ -284,7 +284,7 @@ related business entities
 
 #### Source
 
-main.ts:201838
+main.ts:204533
 
 ***
 
@@ -296,7 +296,7 @@ phone number of the business entity
 
 #### Source
 
-main.ts:201786
+main.ts:204481
 
 ***
 
@@ -310,7 +310,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:201784
+main.ts:204479
 
 ***
 
@@ -328,11 +328,11 @@ example:
 
 #### Index signature
 
- \[`key`: `string`\]: `string`
+ \[`key`: `string`\]: `number`
 
 #### Source
 
-main.ts:201822
+main.ts:204517
 
 ***
 
@@ -345,7 +345,7 @@ information related to busy hours of the business entity
 
 #### Source
 
-main.ts:201844
+main.ts:204539
 
 ***
 
@@ -357,7 +357,7 @@ the alignment in SERP
 
 #### Source
 
-main.ts:201753
+main.ts:204448
 
 ***
 
@@ -371,7 +371,7 @@ if there is no price level information, the value will be null
 
 #### Source
 
-main.ts:201833
+main.ts:204528
 
 ***
 
@@ -381,7 +381,7 @@ main.ts:201833
 
 #### Source
 
-main.ts:201811
+main.ts:204506
 
 ***
 
@@ -393,7 +393,7 @@ absolute rank among all the elements
 
 #### Source
 
-main.ts:201751
+main.ts:204446
 
 ***
 
@@ -406,7 +406,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:201749
+main.ts:204444
 
 ***
 
@@ -419,7 +419,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:201825
+main.ts:204520
 
 ***
 
@@ -436,7 +436,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Source
 
-main.ts:201836
+main.ts:204531
 
 ***
 
@@ -448,7 +448,7 @@ additional information on the business entity
 
 #### Source
 
-main.ts:201800
+main.ts:204495
 
 ***
 
@@ -461,7 +461,7 @@ the name of the business entity for which the results are collected
 
 #### Source
 
-main.ts:201756
+main.ts:204451
 
 ***
 
@@ -473,7 +473,7 @@ total count of images featured in Google My Business profile
 
 #### Source
 
-main.ts:201798
+main.ts:204493
 
 ***
 
@@ -485,7 +485,7 @@ absolute url of the business entity
 
 #### Source
 
-main.ts:201788
+main.ts:204483
 
 ***
 
@@ -498,4 +498,4 @@ information related to operational hours of the business entity
 
 #### Source
 
-main.ts:201841
+main.ts:204536

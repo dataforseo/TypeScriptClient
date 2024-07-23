@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:92349
+main.ts:93408
 
 ## Properties
 
@@ -47,7 +47,7 @@ the arithmetic mean of values in the keywords_positions array
 
 #### Source
 
-main.ts:92319
+main.ts:93378
 
 ***
 
@@ -63,7 +63,7 @@ domain name of the detected SERP competitor
 
 #### Source
 
-main.ts:92316
+main.ts:93375
 
 ***
 
@@ -82,7 +82,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:92331
+main.ts:93390
 
 ***
 
@@ -98,7 +98,7 @@ the number of specified keywords the domain has positions for in SERPs
 
 #### Source
 
-main.ts:92333
+main.ts:93392
 
 ***
 
@@ -111,7 +111,7 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 #### Index signature
 
- \[`key`: `string`\]: `number`[]
+ \[`key`: `string`\]: (`number` \| `undefined`)[]
 
 #### Implementation of
 
@@ -119,7 +119,7 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 #### Source
 
-main.ts:92345
+main.ts:93404
 
 ***
 
@@ -136,7 +136,7 @@ the median of the values in the keywords_positions array
 
 #### Source
 
-main.ts:92322
+main.ts:93381
 
 ***
 
@@ -154,7 +154,7 @@ calculated as sum(100-keywords_positions)
 
 #### Source
 
-main.ts:92326
+main.ts:93385
 
 ***
 
@@ -171,7 +171,7 @@ represents the number of search results in SERP relevant to the domain for the s
 
 #### Source
 
-main.ts:92342
+main.ts:93401
 
 ***
 
@@ -187,7 +187,7 @@ search engine type
 
 #### Source
 
-main.ts:92314
+main.ts:93373
 
 ***
 
@@ -207,7 +207,7 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 #### Source
 
-main.ts:92339
+main.ts:93398
 
 ## Methods
 
@@ -225,7 +225,7 @@ main.ts:92339
 
 #### Source
 
-main.ts:92358
+main.ts:93417
 
 ***
 
@@ -243,7 +243,7 @@ main.ts:92358
 
 #### Source
 
-main.ts:92390
+main.ts:93449
 
 ***
 
@@ -261,4 +261,4 @@ main.ts:92390
 
 #### Source
 
-main.ts:92383
+main.ts:93442

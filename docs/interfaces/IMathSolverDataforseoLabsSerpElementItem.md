@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:97646
+main.ts:98703
 
 ***
 
@@ -38,7 +39,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:97650
+main.ts:98707
 
 ***
 
@@ -52,7 +53,7 @@ left, right
 
 #### Source
 
-main.ts:97637
+main.ts:98693
 
 ***
 
@@ -65,7 +66,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97633
+main.ts:98689
 
 ***
 
@@ -79,7 +80,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97630
+main.ts:98686
 
 ***
 
@@ -92,7 +93,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Source
 
-main.ts:97644
+main.ts:98700
 
 ***
 
@@ -104,7 +105,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:97641
+main.ts:98697
 
 ***
 
@@ -116,4 +117,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97639
+main.ts:98695

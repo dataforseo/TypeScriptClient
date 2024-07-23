@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:98764
+main.ts:99817
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98764
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -61,8 +61,6 @@ main.ts:20243
 > **`optional`** **cid**: `string`
 
 google-defined client id
-unique id of a local establishment;
-can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
 
@@ -70,7 +68,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Source
 
-main.ts:98760
+main.ts:99813
 
 ***
 
@@ -86,7 +84,7 @@ the additional feature of the review
 
 #### Source
 
-main.ts:98756
+main.ts:99811
 
 ***
 
@@ -102,7 +100,7 @@ the identifier of a place
 
 #### Source
 
-main.ts:98754
+main.ts:99809
 
 ***
 
@@ -120,7 +118,7 @@ left, right
 
 #### Source
 
-main.ts:98745
+main.ts:99800
 
 ***
 
@@ -137,7 +135,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98741
+main.ts:99796
 
 ***
 
@@ -154,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98738
+main.ts:99793
 
 ***
 
@@ -171,7 +169,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:98752
+main.ts:99807
 
 ***
 
@@ -187,7 +185,7 @@ the number of reviews
 
 #### Source
 
-main.ts:98749
+main.ts:99804
 
 ***
 
@@ -203,7 +201,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:98747
+main.ts:99802
 
 ## Methods
 
@@ -225,7 +223,7 @@ main.ts:98747
 
 #### Source
 
-main.ts:98769
+main.ts:99822
 
 ***
 
@@ -247,7 +245,7 @@ main.ts:98769
 
 #### Source
 
-main.ts:98795
+main.ts:99848
 
 ***
 
@@ -269,4 +267,4 @@ main.ts:98795
 
 #### Source
 
-main.ts:98788
+main.ts:99841

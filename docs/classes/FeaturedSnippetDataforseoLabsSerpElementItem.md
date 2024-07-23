@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:97882
+main.ts:98941
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97882
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -68,7 +68,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:97876
+main.ts:98935
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:97851
+main.ts:98910
 
 ***
 
@@ -100,7 +100,7 @@ domain where a link points
 
 #### Source
 
-main.ts:97845
+main.ts:98904
 
 ***
 
@@ -118,7 +118,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97871
+main.ts:98930
 
 ***
 
@@ -137,7 +137,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:97867
+main.ts:98926
 
 ***
 
@@ -145,7 +145,7 @@ main.ts:97867
 
 > **`optional`** **featured\_title**: `string`
 
-title of a given element
+title
 
 #### Implementation of
 
@@ -153,7 +153,7 @@ title of a given element
 
 #### Source
 
-main.ts:97849
+main.ts:98908
 
 ***
 
@@ -169,7 +169,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:97860
+main.ts:98919
 
 ***
 
@@ -187,7 +187,7 @@ left, right
 
 #### Source
 
-main.ts:97841
+main.ts:98900
 
 ***
 
@@ -204,7 +204,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97837
+main.ts:98896
 
 ***
 
@@ -221,7 +221,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:97874
+main.ts:98933
 
 ***
 
@@ -238,7 +238,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97834
+main.ts:98893
 
 ***
 
@@ -254,7 +254,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:97878
+main.ts:98937
 
 ***
 
@@ -270,7 +270,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:97862
+main.ts:98921
 
 ***
 
@@ -286,7 +286,7 @@ search engine type
 
 #### Source
 
-main.ts:97858
+main.ts:98917
 
 ***
 
@@ -303,7 +303,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:97856
+main.ts:98915
 
 ***
 
@@ -311,7 +311,7 @@ main.ts:97856
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -319,7 +319,7 @@ title of the item
 
 #### Source
 
-main.ts:97847
+main.ts:98906
 
 ***
 
@@ -327,7 +327,7 @@ main.ts:97847
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -335,7 +335,7 @@ URL link
 
 #### Source
 
-main.ts:97853
+main.ts:98912
 
 ***
 
@@ -351,7 +351,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:97843
+main.ts:98902
 
 ## Methods
 
@@ -373,7 +373,7 @@ main.ts:97843
 
 #### Source
 
-main.ts:97887
+main.ts:98946
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:97887
 
 #### Source
 
-main.ts:97922
+main.ts:98981
 
 ***
 
@@ -417,4 +417,4 @@ main.ts:97922
 
 #### Source
 
-main.ts:97915
+main.ts:98974

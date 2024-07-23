@@ -20,12 +20,11 @@
 
 > **`optional`** **items**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:99153
+main.ts:100196
 
 ***
 
@@ -39,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:99144
+main.ts:100188
 
 ***
 
@@ -52,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99140
+main.ts:100184
 
 ***
 
@@ -65,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99137
+main.ts:100181
 
 ***
 
@@ -78,7 +77,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99156
+main.ts:100199
 
 ***
 
@@ -86,11 +85,11 @@ main.ts:99156
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Source
 
-main.ts:99148
+main.ts:100192
 
 ***
 
@@ -98,11 +97,11 @@ main.ts:99148
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:99150
+main.ts:100194
 
 ***
 
@@ -114,4 +113,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:99146
+main.ts:100190

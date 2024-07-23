@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:151920
+main.ts:154787
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Source
 
-main.ts:151916
+main.ts:154783
 
 ***
 
@@ -67,7 +67,7 @@ the version of the ssl certificate’s hash function
 
 #### Source
 
-main.ts:151910
+main.ts:154777
 
 ***
 
@@ -84,7 +84,7 @@ the entity that issued the detected ssl certificate
 
 #### Source
 
-main.ts:151901
+main.ts:154768
 
 ***
 
@@ -101,7 +101,7 @@ the entity associated with the public key
 
 #### Source
 
-main.ts:151904
+main.ts:154771
 
 ***
 
@@ -118,7 +118,7 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Source
 
-main.ts:151907
+main.ts:154774
 
 ***
 
@@ -135,7 +135,7 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Source
 
-main.ts:151898
+main.ts:154765
 
 ## Methods
 
@@ -153,7 +153,7 @@ main.ts:151898
 
 #### Source
 
-main.ts:151929
+main.ts:154796
 
 ***
 
@@ -171,7 +171,7 @@ main.ts:151929
 
 #### Source
 
-main.ts:151951
+main.ts:154818
 
 ***
 
@@ -189,4 +189,4 @@ main.ts:151951
 
 #### Source
 
-main.ts:151944
+main.ts:154811

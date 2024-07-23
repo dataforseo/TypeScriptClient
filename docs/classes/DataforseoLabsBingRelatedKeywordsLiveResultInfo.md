@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:110883
+main.ts:111898
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Source
 
-main.ts:110879
+main.ts:111894
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:110877
+main.ts:111892
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:110873
+main.ts:111888
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:110871
+main.ts:111886
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Source
 
-main.ts:110864
+main.ts:111879
 
 ***
 
@@ -126,13 +126,13 @@ keyword in a POST array
 
 #### Source
 
-main.ts:110866
+main.ts:111881
 
 ***
 
 ### seed\_keyword\_data?
 
-> **`optional`** **seed\_keyword\_data**: [`KeywordDataKeywordDataInfo`](KeywordDataKeywordDataInfo.md)
+> **`optional`** **seed\_keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
@@ -143,7 +143,7 @@ fields in the array are identical to that of keyword_data
 
 #### Source
 
-main.ts:110869
+main.ts:111884
 
 ***
 
@@ -159,7 +159,7 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:110875
+main.ts:111890
 
 ## Methods
 
@@ -177,7 +177,7 @@ main.ts:110875
 
 #### Source
 
-main.ts:110892
+main.ts:111907
 
 ***
 
@@ -195,7 +195,7 @@ main.ts:110892
 
 #### Source
 
-main.ts:110920
+main.ts:111935
 
 ***
 
@@ -213,4 +213,4 @@ main.ts:110920
 
 #### Source
 
-main.ts:110913
+main.ts:111928

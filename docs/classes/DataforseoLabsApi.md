@@ -100,7 +100,7 @@ Successful operation
 
 #### Source
 
-main.ts:7769
+main.ts:7848
 
 ***
 
@@ -122,7 +122,7 @@ Successful operation
 
 #### Source
 
-main.ts:7937
+main.ts:8016
 
 ***
 
@@ -144,7 +144,7 @@ Successful operation
 
 #### Source
 
-main.ts:7979
+main.ts:8058
 
 ***
 
@@ -166,7 +166,7 @@ Successful operation
 
 #### Source
 
-main.ts:7895
+main.ts:7974
 
 ***
 
@@ -188,7 +188,7 @@ Successful operation
 
 #### Source
 
-main.ts:7853
+main.ts:7932
 
 ***
 
@@ -210,7 +210,7 @@ Successful operation
 
 #### Source
 
-main.ts:7811
+main.ts:7890
 
 ***
 
@@ -232,7 +232,7 @@ Successful operation
 
 #### Source
 
-main.ts:8735
+main.ts:8814
 
 ***
 
@@ -254,7 +254,7 @@ Successful operation
 
 #### Source
 
-main.ts:8777
+main.ts:8856
 
 ***
 
@@ -276,7 +276,7 @@ Successful operation
 
 #### Source
 
-main.ts:8651
+main.ts:8730
 
 ***
 
@@ -298,7 +298,7 @@ Successful operation
 
 #### Source
 
-main.ts:8693
+main.ts:8772
 
 ***
 
@@ -336,7 +336,7 @@ Successful operation
 
 #### Source
 
-main.ts:8021
+main.ts:8100
 
 ***
 
@@ -358,7 +358,7 @@ Successful operation
 
 #### Source
 
-main.ts:8063
+main.ts:8142
 
 ***
 
@@ -380,7 +380,7 @@ Successful operation
 
 #### Source
 
-main.ts:8105
+main.ts:8184
 
 ***
 
@@ -402,7 +402,7 @@ Successful operation
 
 #### Source
 
-main.ts:8147
+main.ts:8226
 
 ***
 
@@ -424,7 +424,7 @@ Successful operation
 
 #### Source
 
-main.ts:8189
+main.ts:8268
 
 ***
 
@@ -446,7 +446,7 @@ Successful operation
 
 #### Source
 
-main.ts:8231
+main.ts:8310
 
 ***
 
@@ -468,7 +468,7 @@ Successful operation
 
 #### Source
 
-main.ts:8273
+main.ts:8352
 
 ***
 
@@ -490,7 +490,7 @@ Successful operation
 
 #### Source
 
-main.ts:8315
+main.ts:8394
 
 ***
 
@@ -512,7 +512,7 @@ Successful operation
 
 #### Source
 
-main.ts:8357
+main.ts:8436
 
 ***
 
@@ -534,7 +534,7 @@ Successful operation
 
 #### Source
 
-main.ts:8399
+main.ts:8478
 
 ***
 
@@ -556,7 +556,7 @@ Successful operation
 
 #### Source
 
-main.ts:8441
+main.ts:8520
 
 ***
 
@@ -595,6 +595,22 @@ Successful operation
 #### Source
 
 main.ts:6571
+
+***
+
+### dataforseoLabsGoogleCategoriesForKeywordsLanguages()
+
+> **dataforseoLabsGoogleCategoriesForKeywordsLanguages**(): `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:7054
 
 ***
 
@@ -670,7 +686,7 @@ Successful operation
 
 #### Source
 
-main.ts:8567
+main.ts:8646
 
 ***
 
@@ -692,7 +708,7 @@ Successful operation
 
 #### Source
 
-main.ts:8609
+main.ts:8688
 
 ***
 
@@ -730,7 +746,7 @@ Successful operation
 
 #### Source
 
-main.ts:8483
+main.ts:8562
 
 ***
 
@@ -774,7 +790,7 @@ Successful operation
 
 #### Source
 
-main.ts:7685
+main.ts:7764
 
 ***
 
@@ -796,7 +812,29 @@ Successful operation
 
 #### Source
 
-main.ts:7055
+main.ts:7092
+
+***
+
+### googleCategoriesForKeywordsLive()
+
+> **googleCategoriesForKeywordsLive**(`body`): `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Source
+
+main.ts:7134
 
 ***
 
@@ -818,7 +856,7 @@ Successful operation
 
 #### Source
 
-main.ts:7349
+main.ts:7428
 
 ***
 
@@ -840,7 +878,7 @@ Successful operation
 
 #### Source
 
-main.ts:7391
+main.ts:7470
 
 ***
 
@@ -862,7 +900,7 @@ Successful operation
 
 #### Source
 
-main.ts:7139
+main.ts:7218
 
 ***
 
@@ -884,7 +922,7 @@ Successful operation
 
 #### Source
 
-main.ts:7517
+main.ts:7596
 
 ***
 
@@ -906,7 +944,7 @@ Successful operation
 
 #### Source
 
-main.ts:7223
+main.ts:7302
 
 ***
 
@@ -928,7 +966,7 @@ Successful operation
 
 #### Source
 
-main.ts:7727
+main.ts:7806
 
 ***
 
@@ -950,7 +988,7 @@ Successful operation
 
 #### Source
 
-main.ts:7601
+main.ts:7680
 
 ***
 
@@ -994,7 +1032,7 @@ Successful operation
 
 #### Source
 
-main.ts:7559
+main.ts:7638
 
 ***
 
@@ -1060,7 +1098,7 @@ Successful operation
 
 #### Source
 
-main.ts:8525
+main.ts:8604
 
 ***
 
@@ -1082,7 +1120,7 @@ Successful operation
 
 #### Source
 
-main.ts:7097
+main.ts:7176
 
 ***
 
@@ -1126,7 +1164,7 @@ Successful operation
 
 #### Source
 
-main.ts:7643
+main.ts:7722
 
 ***
 
@@ -1148,7 +1186,7 @@ Successful operation
 
 #### Source
 
-main.ts:7265
+main.ts:7344
 
 ***
 
@@ -1192,7 +1230,7 @@ Successful operation
 
 #### Source
 
-main.ts:7475
+main.ts:7554
 
 ***
 
@@ -1236,7 +1274,7 @@ Successful operation
 
 #### Source
 
-main.ts:7307
+main.ts:7386
 
 ***
 
@@ -1258,7 +1296,7 @@ Successful operation
 
 #### Source
 
-main.ts:7433
+main.ts:7512
 
 ***
 
@@ -1280,7 +1318,7 @@ Successful operation
 
 #### Source
 
-main.ts:7181
+main.ts:7260
 
 ***
 
@@ -1298,7 +1336,7 @@ main.ts:7181
 
 #### Source
 
-main.ts:7789
+main.ts:7868
 
 ***
 
@@ -1316,7 +1354,7 @@ main.ts:7789
 
 #### Source
 
-main.ts:7957
+main.ts:8036
 
 ***
 
@@ -1334,7 +1372,7 @@ main.ts:7957
 
 #### Source
 
-main.ts:7999
+main.ts:8078
 
 ***
 
@@ -1352,7 +1390,7 @@ main.ts:7999
 
 #### Source
 
-main.ts:7915
+main.ts:7994
 
 ***
 
@@ -1370,7 +1408,7 @@ main.ts:7915
 
 #### Source
 
-main.ts:7873
+main.ts:7952
 
 ***
 
@@ -1388,7 +1426,7 @@ main.ts:7873
 
 #### Source
 
-main.ts:7831
+main.ts:7910
 
 ***
 
@@ -1406,7 +1444,7 @@ main.ts:7831
 
 #### Source
 
-main.ts:8755
+main.ts:8834
 
 ***
 
@@ -1424,7 +1462,7 @@ main.ts:8755
 
 #### Source
 
-main.ts:8797
+main.ts:8876
 
 ***
 
@@ -1442,7 +1480,7 @@ main.ts:8797
 
 #### Source
 
-main.ts:8671
+main.ts:8750
 
 ***
 
@@ -1460,7 +1498,7 @@ main.ts:8671
 
 #### Source
 
-main.ts:8713
+main.ts:8792
 
 ***
 
@@ -1496,7 +1534,7 @@ main.ts:6628
 
 #### Source
 
-main.ts:8041
+main.ts:8120
 
 ***
 
@@ -1514,7 +1552,7 @@ main.ts:8041
 
 #### Source
 
-main.ts:8083
+main.ts:8162
 
 ***
 
@@ -1532,7 +1570,7 @@ main.ts:8083
 
 #### Source
 
-main.ts:8125
+main.ts:8204
 
 ***
 
@@ -1550,7 +1588,7 @@ main.ts:8125
 
 #### Source
 
-main.ts:8167
+main.ts:8246
 
 ***
 
@@ -1568,7 +1606,7 @@ main.ts:8167
 
 #### Source
 
-main.ts:8209
+main.ts:8288
 
 ***
 
@@ -1586,7 +1624,7 @@ main.ts:8209
 
 #### Source
 
-main.ts:8251
+main.ts:8330
 
 ***
 
@@ -1604,7 +1642,7 @@ main.ts:8251
 
 #### Source
 
-main.ts:8293
+main.ts:8372
 
 ***
 
@@ -1622,7 +1660,7 @@ main.ts:8293
 
 #### Source
 
-main.ts:8335
+main.ts:8414
 
 ***
 
@@ -1640,7 +1678,7 @@ main.ts:8335
 
 #### Source
 
-main.ts:8377
+main.ts:8456
 
 ***
 
@@ -1658,7 +1696,7 @@ main.ts:8377
 
 #### Source
 
-main.ts:8419
+main.ts:8498
 
 ***
 
@@ -1676,7 +1714,7 @@ main.ts:8419
 
 #### Source
 
-main.ts:8461
+main.ts:8540
 
 ***
 
@@ -1713,6 +1751,24 @@ main.ts:6702
 #### Source
 
 main.ts:6591
+
+***
+
+### processDataforseoLabsGoogleCategoriesForKeywordsLanguages()
+
+> **`protected`** **processDataforseoLabsGoogleCategoriesForKeywordsLanguages**(`response`): `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)\>
+
+#### Source
+
+main.ts:7070
 
 ***
 
@@ -1784,7 +1840,7 @@ main.ts:6549
 
 #### Source
 
-main.ts:8587
+main.ts:8666
 
 ***
 
@@ -1802,7 +1858,7 @@ main.ts:8587
 
 #### Source
 
-main.ts:8629
+main.ts:8708
 
 ***
 
@@ -1838,7 +1894,7 @@ main.ts:6739
 
 #### Source
 
-main.ts:8503
+main.ts:8582
 
 ***
 
@@ -1874,7 +1930,7 @@ main.ts:6991
 
 #### Source
 
-main.ts:7705
+main.ts:7784
 
 ***
 
@@ -1892,7 +1948,25 @@ main.ts:7705
 
 #### Source
 
-main.ts:7075
+main.ts:7112
+
+***
+
+### processGoogleCategoriesForKeywordsLive()
+
+> **`protected`** **processGoogleCategoriesForKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo.md)\>
+
+#### Source
+
+main.ts:7154
 
 ***
 
@@ -1910,7 +1984,7 @@ main.ts:7075
 
 #### Source
 
-main.ts:7369
+main.ts:7448
 
 ***
 
@@ -1928,7 +2002,7 @@ main.ts:7369
 
 #### Source
 
-main.ts:7411
+main.ts:7490
 
 ***
 
@@ -1946,7 +2020,7 @@ main.ts:7411
 
 #### Source
 
-main.ts:7159
+main.ts:7238
 
 ***
 
@@ -1964,7 +2038,7 @@ main.ts:7159
 
 #### Source
 
-main.ts:7537
+main.ts:7616
 
 ***
 
@@ -1982,7 +2056,7 @@ main.ts:7537
 
 #### Source
 
-main.ts:7243
+main.ts:7322
 
 ***
 
@@ -2000,7 +2074,7 @@ main.ts:7243
 
 #### Source
 
-main.ts:7747
+main.ts:7826
 
 ***
 
@@ -2018,7 +2092,7 @@ main.ts:7747
 
 #### Source
 
-main.ts:7621
+main.ts:7700
 
 ***
 
@@ -2054,7 +2128,7 @@ main.ts:6949
 
 #### Source
 
-main.ts:7579
+main.ts:7658
 
 ***
 
@@ -2108,7 +2182,7 @@ main.ts:6865
 
 #### Source
 
-main.ts:8545
+main.ts:8624
 
 ***
 
@@ -2126,7 +2200,7 @@ main.ts:8545
 
 #### Source
 
-main.ts:7117
+main.ts:7196
 
 ***
 
@@ -2162,7 +2236,7 @@ main.ts:6781
 
 #### Source
 
-main.ts:7663
+main.ts:7742
 
 ***
 
@@ -2180,7 +2254,7 @@ main.ts:7663
 
 #### Source
 
-main.ts:7285
+main.ts:7364
 
 ***
 
@@ -2216,7 +2290,7 @@ main.ts:6823
 
 #### Source
 
-main.ts:7495
+main.ts:7574
 
 ***
 
@@ -2252,7 +2326,7 @@ main.ts:7033
 
 #### Source
 
-main.ts:7327
+main.ts:7406
 
 ***
 
@@ -2270,7 +2344,7 @@ main.ts:7327
 
 #### Source
 
-main.ts:7453
+main.ts:7532
 
 ***
 
@@ -2288,4 +2362,4 @@ main.ts:7453
 
 #### Source
 
-main.ts:7201
+main.ts:7280

@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99182
+main.ts:100224
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99182
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20243
 
 > **`optional`** **items**: [`ShoppingElement`](ShoppingElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99178
+main.ts:100220
 
 ***
 
@@ -87,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:99171
+main.ts:100214
 
 ***
 
@@ -104,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99167
+main.ts:100210
 
 ***
 
@@ -121,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99164
+main.ts:100207
 
 ***
 
@@ -129,7 +128,7 @@ main.ts:99164
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -137,7 +136,7 @@ title of the item
 
 #### Source
 
-main.ts:99175
+main.ts:100218
 
 ***
 
@@ -153,7 +152,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99173
+main.ts:100216
 
 ## Methods
 
@@ -175,7 +174,7 @@ main.ts:99173
 
 #### Source
 
-main.ts:99187
+main.ts:100229
 
 ***
 
@@ -197,7 +196,7 @@ main.ts:99187
 
 #### Source
 
-main.ts:99214
+main.ts:100256
 
 ***
 
@@ -219,4 +218,4 @@ main.ts:99214
 
 #### Source
 
-main.ts:99207
+main.ts:100249

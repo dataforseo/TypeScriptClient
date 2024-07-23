@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:221146
+main.ts:224105
 
 ## Properties
 
@@ -46,7 +46,7 @@ your login
 
 #### Source
 
-main.ts:221133
+main.ts:224092
 
 ***
 
@@ -62,7 +62,7 @@ section of your spending, USD
 
 #### Source
 
-main.ts:221140
+main.ts:224099
 
 ***
 
@@ -78,7 +78,7 @@ pricing
 
 #### Source
 
-main.ts:221142
+main.ts:224101
 
 ***
 
@@ -94,7 +94,7 @@ your API rates
 
 #### Source
 
-main.ts:221138
+main.ts:224097
 
 ***
 
@@ -111,7 +111,7 @@ can be set in your profile settings
 
 #### Source
 
-main.ts:221136
+main.ts:224095
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:221136
 
 #### Source
 
-main.ts:221155
+main.ts:224114
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:221155
 
 #### Source
 
-main.ts:221176
+main.ts:224135
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:221176
 
 #### Source
 
-main.ts:221169
+main.ts:224128

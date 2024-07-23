@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87405
+main.ts:88102
 
 ## Properties
 
@@ -60,7 +60,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:87368
+main.ts:88065
 
 ***
 
@@ -82,7 +82,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:87343
+main.ts:88040
 
 ***
 
@@ -102,7 +102,7 @@ learn more about the parameter in this help center article
 
 #### Source
 
-main.ts:87335
+main.ts:88032
 
 ***
 
@@ -125,7 +125,7 @@ default value:
 
 #### Source
 
-main.ts:87352
+main.ts:88049
 
 ***
 
@@ -147,7 +147,7 @@ en
 
 #### Source
 
-main.ts:87329
+main.ts:88026
 
 ***
 
@@ -169,7 +169,7 @@ English
 
 #### Source
 
-main.ts:87321
+main.ts:88018
 
 ***
 
@@ -188,7 +188,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:87390
+main.ts:88087
 
 ***
 
@@ -210,7 +210,7 @@ example:
 
 #### Source
 
-main.ts:87313
+main.ts:88010
 
 ***
 
@@ -232,7 +232,7 @@ United Kingdom
 
 #### Source
 
-main.ts:87305
+main.ts:88002
 
 ***
 
@@ -251,7 +251,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Source
 
-main.ts:87395
+main.ts:88092
 
 ***
 
@@ -282,7 +282,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Source
 
-main.ts:87385
+main.ts:88082
 
 ***
 
@@ -302,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:87401
+main.ts:88098
 
 ***
 
@@ -321,7 +321,7 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Source
 
-main.ts:87297
+main.ts:87994
 
 ## Methods
 
@@ -339,7 +339,7 @@ main.ts:87297
 
 #### Source
 
-main.ts:87414
+main.ts:88111
 
 ***
 
@@ -357,7 +357,7 @@ main.ts:87414
 
 #### Source
 
-main.ts:87455
+main.ts:88152
 
 ***
 
@@ -375,4 +375,4 @@ main.ts:87455
 
 #### Source
 
-main.ts:87448
+main.ts:88145

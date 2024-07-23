@@ -20,7 +20,7 @@ array of items with relevant traffic estimation data
 
 #### Source
 
-main.ts:87177
+main.ts:87708
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:87175
+main.ts:87706
 
 ***
 
@@ -45,4 +45,4 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:87173
+main.ts:87704

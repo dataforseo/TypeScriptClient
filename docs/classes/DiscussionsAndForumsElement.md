@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:37044
+main.ts:37371
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Source
 
-main.ts:37033
+main.ts:37360
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Source
 
-main.ts:37028
+main.ts:37355
 
 ***
 
@@ -78,7 +78,7 @@ number of posts from the discussion on the related source
 
 #### Source
 
-main.ts:37040
+main.ts:37367
 
 ***
 
@@ -95,7 +95,7 @@ indicates the source of information included in the top_stories_element
 
 #### Source
 
-main.ts:37031
+main.ts:37358
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Source
 
-main.ts:37038
+main.ts:37365
 
 ***
 
@@ -130,7 +130,7 @@ title of a given link element
 
 #### Source
 
-main.ts:37024
+main.ts:37351
 
 ***
 
@@ -146,7 +146,7 @@ type of element
 
 #### Source
 
-main.ts:37022
+main.ts:37349
 
 ***
 
@@ -162,7 +162,7 @@ URL
 
 #### Source
 
-main.ts:37026
+main.ts:37353
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:37026
 
 #### Source
 
-main.ts:37053
+main.ts:37380
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:37053
 
 #### Source
 
-main.ts:37077
+main.ts:37404
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:37077
 
 #### Source
 
-main.ts:37070
+main.ts:37397

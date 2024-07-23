@@ -26,7 +26,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Source
 
-main.ts:100708
+main.ts:101723
 
 ***
 
@@ -40,7 +40,7 @@ left, right
 
 #### Source
 
-main.ts:100702
+main.ts:101717
 
 ***
 
@@ -53,7 +53,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:100698
+main.ts:101713
 
 ***
 
@@ -66,7 +66,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:100695
+main.ts:101710
 
 ***
 
@@ -74,11 +74,11 @@ main.ts:100695
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:100710
+main.ts:101725
 
 ***
 
@@ -90,4 +90,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:100704
+main.ts:101719

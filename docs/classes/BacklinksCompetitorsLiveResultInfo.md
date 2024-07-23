@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:144273
+main.ts:147120
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Source
 
-main.ts:144269
+main.ts:147116
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the items array
 
 #### Source
 
-main.ts:144267
+main.ts:147114
 
 ***
 
@@ -78,7 +78,7 @@ total number of relevant items in the database
 
 #### Source
 
-main.ts:144265
+main.ts:147112
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:144265
 
 #### Source
 
-main.ts:144282
+main.ts:147129
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:144282
 
 #### Source
 
-main.ts:144305
+main.ts:147152
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:144305
 
 #### Source
 
-main.ts:144298
+main.ts:147145

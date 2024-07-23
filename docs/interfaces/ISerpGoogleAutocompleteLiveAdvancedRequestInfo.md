@@ -35,7 +35,7 @@ products-cc — used in google shopping search
 
 #### Source
 
-main.ts:53355
+main.ts:53810
 
 ***
 
@@ -56,7 +56,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Source
 
-main.ts:53338
+main.ts:53793
 
 ***
 
@@ -73,7 +73,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Source
 
-main.ts:53300
+main.ts:53755
 
 ***
 
@@ -90,7 +90,7 @@ en
 
 #### Source
 
-main.ts:53327
+main.ts:53782
 
 ***
 
@@ -107,7 +107,7 @@ English
 
 #### Source
 
-main.ts:53320
+main.ts:53775
 
 ***
 
@@ -123,7 +123,7 @@ example:
 
 #### Source
 
-main.ts:53313
+main.ts:53768
 
 ***
 
@@ -140,7 +140,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:53307
+main.ts:53762
 
 ***
 
@@ -156,4 +156,4 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:53361
+main.ts:53816

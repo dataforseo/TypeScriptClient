@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:178527
+main.ts:181220
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:178527
 
 #### Source
 
-main.ts:20516
+main.ts:20843
 
 ***
 
@@ -68,7 +68,7 @@ description of the product
 
 #### Source
 
-main.ts:178502
+main.ts:181195
 
 ***
 
@@ -85,7 +85,7 @@ contains snippets with the description of product features
 
 #### Source
 
-main.ts:178511
+main.ts:181204
 
 ***
 
@@ -102,7 +102,7 @@ contains urls to product images
 
 #### Source
 
-main.ts:178508
+main.ts:181201
 
 ***
 
@@ -120,7 +120,7 @@ right, left
 
 #### Source
 
-main.ts:178495
+main.ts:181188
 
 ***
 
@@ -137,7 +137,7 @@ ilearn more about the parameter in this help center guide
 
 #### Source
 
-main.ts:178498
+main.ts:181191
 
 ***
 
@@ -154,7 +154,7 @@ absolute position among all the elements found on the product specification page
 
 #### Source
 
-main.ts:178491
+main.ts:181184
 
 ***
 
@@ -171,7 +171,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:178488
+main.ts:181181
 
 ***
 
@@ -188,7 +188,7 @@ the popularity rate based on reviews
 
 #### Source
 
-main.ts:178514
+main.ts:181207
 
 ***
 
@@ -205,7 +205,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:178517
+main.ts:181210
 
 ***
 
@@ -222,7 +222,7 @@ number of reviews on the product seller’s account
 
 #### Source
 
-main.ts:178520
+main.ts:181213
 
 ***
 
@@ -238,7 +238,7 @@ title of the product
 
 #### Source
 
-main.ts:178500
+main.ts:181193
 
 ***
 
@@ -255,7 +255,7 @@ url of the product on Google Shopping
 
 #### Source
 
-main.ts:178505
+main.ts:181198
 
 ***
 
@@ -272,7 +272,7 @@ contains brief information about different product variations
 
 #### Source
 
-main.ts:178523
+main.ts:181216
 
 ## Methods
 
@@ -294,7 +294,7 @@ main.ts:178523
 
 #### Source
 
-main.ts:178532
+main.ts:181225
 
 ***
 
@@ -316,7 +316,7 @@ main.ts:178532
 
 #### Source
 
-main.ts:178578
+main.ts:181271
 
 ***
 
@@ -338,4 +338,4 @@ main.ts:178578
 
 #### Source
 
-main.ts:178571
+main.ts:181264

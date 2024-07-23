@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:110797
+main.ts:111812
 
 ## Properties
 
@@ -46,13 +46,13 @@ keyword search depth
 
 #### Source
 
-main.ts:110790
+main.ts:111805
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataKeywordDataInfo`](KeywordDataKeywordDataInfo.md)
+> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
@@ -62,7 +62,7 @@ keyword data for the returned keyword
 
 #### Source
 
-main.ts:110788
+main.ts:111803
 
 ***
 
@@ -79,7 +79,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Source
 
-main.ts:110793
+main.ts:111808
 
 ***
 
@@ -95,7 +95,7 @@ search engine type
 
 #### Source
 
-main.ts:110786
+main.ts:111801
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:110786
 
 #### Source
 
-main.ts:110806
+main.ts:111821
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:110806
 
 #### Source
 
-main.ts:110830
+main.ts:111845
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:110830
 
 #### Source
 
-main.ts:110823
+main.ts:111838

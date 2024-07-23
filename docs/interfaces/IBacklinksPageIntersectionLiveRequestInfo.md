@@ -27,7 +27,23 @@ default value: live
 
 #### Source
 
-main.ts:145642
+main.ts:148499
+
+***
+
+### exclude\_internal\_backlinks?
+
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+
+indicates if internal backlinks from subdomains to the target will be excluded from the results
+optional field
+if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
+if set to false, internal links will be included in the result
+default value: true
+
+#### Source
+
+main.ts:148565
 
 ***
 
@@ -47,7 +63,7 @@ example:
 
 #### Source
 
-main.ts:145633
+main.ts:148490
 
 ***
 
@@ -74,7 +90,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:145659
+main.ts:148516
 
 ***
 
@@ -90,7 +106,7 @@ default value: true
 
 #### Source
 
-main.ts:145702
+main.ts:148559
 
 ***
 
@@ -105,7 +121,7 @@ default value: true
 
 #### Source
 
-main.ts:145696
+main.ts:148553
 
 ***
 
@@ -123,7 +139,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:145691
+main.ts:148548
 
 ***
 
@@ -141,7 +157,7 @@ default value: all
 
 #### Source
 
-main.ts:145710
+main.ts:148573
 
 ***
 
@@ -156,7 +172,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:145683
+main.ts:148540
 
 ***
 
@@ -171,7 +187,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Source
 
-main.ts:145678
+main.ts:148535
 
 ***
 
@@ -195,7 +211,7 @@ example:
 
 #### Source
 
-main.ts:145673
+main.ts:148530
 
 ***
 
@@ -211,7 +227,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:145716
+main.ts:148579
 
 ***
 
@@ -236,4 +252,4 @@ example:
 
 #### Source
 
-main.ts:145623
+main.ts:148480

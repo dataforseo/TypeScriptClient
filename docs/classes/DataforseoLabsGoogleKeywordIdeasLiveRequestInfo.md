@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:85448
+main.ts:85971
 
 ## Properties
 
@@ -50,7 +50,7 @@ default value: false
 
 #### Source
 
-main.ts:85365
+main.ts:85888
 
 ***
 
@@ -84,7 +84,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Source
 
-main.ts:85421
+main.ts:85944
 
 ***
 
@@ -103,7 +103,7 @@ default value: false
 
 #### Source
 
-main.ts:85370
+main.ts:85893
 
 ***
 
@@ -125,7 +125,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Source
 
-main.ts:85383
+main.ts:85906
 
 ***
 
@@ -144,7 +144,7 @@ default value: false
 
 #### Source
 
-main.ts:85375
+main.ts:85898
 
 ***
 
@@ -165,7 +165,7 @@ The keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:85325
+main.ts:85848
 
 ***
 
@@ -188,7 +188,7 @@ en
 
 #### Source
 
-main.ts:85359
+main.ts:85882
 
 ***
 
@@ -211,7 +211,7 @@ English
 
 #### Source
 
-main.ts:85350
+main.ts:85873
 
 ***
 
@@ -230,7 +230,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:85388
+main.ts:85911
 
 ***
 
@@ -252,7 +252,7 @@ example:
 
 #### Source
 
-main.ts:85341
+main.ts:85864
 
 ***
 
@@ -274,7 +274,7 @@ United Kingdom
 
 #### Source
 
-main.ts:85333
+main.ts:85856
 
 ***
 
@@ -293,7 +293,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Source
 
-main.ts:85393
+main.ts:85916
 
 ***
 
@@ -315,7 +315,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Source
 
-main.ts:85401
+main.ts:85924
 
 ***
 
@@ -346,7 +346,7 @@ example:
 
 #### Source
 
-main.ts:85438
+main.ts:85961
 
 ***
 
@@ -366,7 +366,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:85444
+main.ts:85967
 
 ## Methods
 
@@ -384,7 +384,7 @@ main.ts:85444
 
 #### Source
 
-main.ts:85457
+main.ts:85980
 
 ***
 
@@ -402,7 +402,7 @@ main.ts:85457
 
 #### Source
 
-main.ts:85500
+main.ts:86023
 
 ***
 
@@ -420,4 +420,4 @@ main.ts:85500
 
 #### Source
 
-main.ts:85493
+main.ts:86016

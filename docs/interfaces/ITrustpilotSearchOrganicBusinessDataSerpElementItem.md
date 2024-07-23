@@ -24,7 +24,7 @@ domain of the establishment
 
 #### Source
 
-main.ts:210868
+main.ts:213815
 
 ***
 
@@ -37,7 +37,7 @@ absolute position among all reviews on the list
 
 #### Source
 
-main.ts:210864
+main.ts:213811
 
 ***
 
@@ -50,7 +50,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:210861
+main.ts:213808
 
 ***
 
@@ -62,7 +62,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Source
 
-main.ts:210874
+main.ts:213821
 
 ***
 
@@ -74,7 +74,7 @@ the total number of reviews
 
 #### Source
 
-main.ts:210872
+main.ts:213819
 
 ***
 
@@ -86,7 +86,7 @@ title of the establishment
 
 #### Source
 
-main.ts:210866
+main.ts:213813
 
 ***
 
@@ -98,4 +98,4 @@ URL to the establishment
 
 #### Source
 
-main.ts:210870
+main.ts:213817

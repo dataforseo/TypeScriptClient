@@ -20,7 +20,7 @@ standardised amenity name
 
 #### Source
 
-main.ts:205462
+main.ts:208409
 
 ***
 
@@ -32,7 +32,7 @@ displayed amenity name
 
 #### Source
 
-main.ts:205464
+main.ts:208411
 
 ***
 
@@ -44,7 +44,7 @@ standardised details about the amenity
 
 #### Source
 
-main.ts:205466
+main.ts:208413
 
 ***
 
@@ -56,4 +56,4 @@ displayed details about the amenity
 
 #### Source
 
-main.ts:205468
+main.ts:208415

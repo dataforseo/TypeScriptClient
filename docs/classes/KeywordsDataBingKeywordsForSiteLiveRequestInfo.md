@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:132577
+main.ts:133764
 
 ## Properties
 
@@ -44,6 +44,7 @@ if you don’t specify this field, data will be provided for the last 12 months
 date format: "yyyy-mm-dd"
 example:
 "2020-01-01"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -51,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:132547
+main.ts:133733
 
 ***
 
@@ -68,6 +69,7 @@ note: we do not recommend using a custom time range for the past year’s dates;
 date format: "yyyy-mm-dd"
 example:
 "2020-03-15"
+Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Implementation of
 
@@ -75,7 +77,7 @@ example:
 
 #### Source
 
-main.ts:132557
+main.ts:133744
 
 ***
 
@@ -94,7 +96,7 @@ default value: all
 
 #### Source
 
-main.ts:132540
+main.ts:133725
 
 ***
 
@@ -114,7 +116,7 @@ the specified keywords will be converted to lowercase format
 
 #### Source
 
-main.ts:132535
+main.ts:133720
 
 ***
 
@@ -134,7 +136,7 @@ en, fr, de
 
 #### Source
 
-main.ts:132529
+main.ts:133714
 
 ***
 
@@ -154,7 +156,7 @@ English, French, German
 
 #### Source
 
-main.ts:132523
+main.ts:133708
 
 ***
 
@@ -175,7 +177,7 @@ example:
 
 #### Source
 
-main.ts:132509
+main.ts:133694
 
 ***
 
@@ -197,7 +199,7 @@ example:
 
 #### Source
 
-main.ts:132517
+main.ts:133702
 
 ***
 
@@ -218,7 +220,7 @@ London,England,United Kingdom
 
 #### Source
 
-main.ts:132502
+main.ts:133687
 
 ***
 
@@ -237,7 +239,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Source
 
-main.ts:132567
+main.ts:133754
 
 ***
 
@@ -256,7 +258,7 @@ default value: relevance
 
 #### Source
 
-main.ts:132562
+main.ts:133749
 
 ***
 
@@ -276,7 +278,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:132573
+main.ts:133760
 
 ***
 
@@ -294,7 +296,7 @@ the domain name or URL of the target website
 
 #### Source
 
-main.ts:132495
+main.ts:133680
 
 ## Methods
 
@@ -312,7 +314,7 @@ main.ts:132495
 
 #### Source
 
-main.ts:132586
+main.ts:133773
 
 ***
 
@@ -330,7 +332,7 @@ main.ts:132586
 
 #### Source
 
-main.ts:132619
+main.ts:133806
 
 ***
 
@@ -348,4 +350,4 @@ main.ts:132619
 
 #### Source
 
-main.ts:132612
+main.ts:133799

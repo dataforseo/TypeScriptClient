@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:87861
+main.ts:88558
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can download the full list of possible categories
 
 #### Source
 
-main.ts:87855
+main.ts:88552
 
 ***
 
@@ -67,7 +67,7 @@ ranking data relevant to the specified domain or subdomain
 
 #### Source
 
-main.ts:87857
+main.ts:88554
 
 ***
 
@@ -83,7 +83,7 @@ search engine type
 
 #### Source
 
-main.ts:87852
+main.ts:88549
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:87852
 
 #### Source
 
-main.ts:87870
+main.ts:88567
 
 ***
 
@@ -119,7 +119,7 @@ main.ts:87870
 
 #### Source
 
-main.ts:87899
+main.ts:88596
 
 ***
 
@@ -137,4 +137,4 @@ main.ts:87899
 
 #### Source
 
-main.ts:87892
+main.ts:88589

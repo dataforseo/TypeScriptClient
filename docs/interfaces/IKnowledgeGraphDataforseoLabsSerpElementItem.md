@@ -24,7 +24,7 @@ card id
 
 #### Source
 
-main.ts:95991
+main.ts:97870
 
 ***
 
@@ -36,7 +36,7 @@ google-defined client id
 
 #### Source
 
-main.ts:95999
+main.ts:97878
 
 ***
 
@@ -48,7 +48,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:95989
+main.ts:97868
 
 ***
 
@@ -60,19 +60,19 @@ URL of the image from knowledge graph
 
 #### Source
 
-main.ts:95995
+main.ts:97874
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`PeopleAlsoAskElement`](../classes/PeopleAlsoAskElement.md)[]
+> **`optional`** **items**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Source
 
-main.ts:96001
+main.ts:97880
 
 ***
 
@@ -84,7 +84,7 @@ URL of the logo from knowledge graph
 
 #### Source
 
-main.ts:95997
+main.ts:97876
 
 ***
 
@@ -98,7 +98,7 @@ left, right
 
 #### Source
 
-main.ts:95981
+main.ts:97860
 
 ***
 
@@ -111,7 +111,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:95977
+main.ts:97856
 
 ***
 
@@ -119,13 +119,12 @@ main.ts:95977
 
 > **`optional`** **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:95974
+main.ts:97853
 
 ***
 
@@ -137,7 +136,7 @@ search engine type
 
 #### Source
 
-main.ts:95970
+main.ts:97850
 
 ***
 
@@ -149,7 +148,7 @@ subtitle of the item
 
 #### Source
 
-main.ts:95987
+main.ts:97866
 
 ***
 
@@ -161,7 +160,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:95985
+main.ts:97864
 
 ***
 
@@ -169,11 +168,11 @@ main.ts:95985
 
 > **`optional`** **url**: `string`
 
-relevant URL in SERP
+relevant URL of the Ad element in SERP
 
 #### Source
 
-main.ts:95993
+main.ts:97872
 
 ***
 
@@ -185,4 +184,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:95983
+main.ts:97862

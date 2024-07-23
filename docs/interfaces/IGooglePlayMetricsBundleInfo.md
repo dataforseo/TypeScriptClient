@@ -20,4 +20,4 @@ ranking data from Google Play organic search
 
 #### Source
 
-main.ts:114119
+main.ts:115134

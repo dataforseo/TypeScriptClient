@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:125619
+main.ts:126794
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:125619
 
 #### Source
 
-main.ts:21061
+main.ts:21388
 
 ***
 
@@ -68,7 +68,7 @@ keyword popularity values averaged over the whole time range
 
 #### Source
 
-main.ts:125615
+main.ts:126790
 
 ***
 
@@ -84,7 +84,7 @@ Google Trends data for the specified parameters
 
 #### Source
 
-main.ts:125613
+main.ts:126788
 
 ***
 
@@ -101,7 +101,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Source
 
-main.ts:125611
+main.ts:126786
 
 ***
 
@@ -118,7 +118,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Source
 
-main.ts:125606
+main.ts:126781
 
 ***
 
@@ -134,7 +134,7 @@ title of the element in Google Trends
 
 #### Source
 
-main.ts:125608
+main.ts:126783
 
 ## Methods
 
@@ -156,7 +156,7 @@ main.ts:125608
 
 #### Source
 
-main.ts:125624
+main.ts:126799
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:125624
 
 #### Source
 
-main.ts:125658
+main.ts:126833
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:125658
 
 #### Source
 
-main.ts:125651
+main.ts:126826

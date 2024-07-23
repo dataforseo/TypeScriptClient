@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99576
+main.ts:100610
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99576
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20243
 
 > **`optional`** **items**: [`RecipesElement`](RecipesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99572
+main.ts:100606
 
 ***
 
@@ -87,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:99567
+main.ts:100602
 
 ***
 
@@ -104,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99563
+main.ts:100598
 
 ***
 
@@ -121,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99560
+main.ts:100595
 
 ***
 
@@ -137,7 +136,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99569
+main.ts:100604
 
 ## Methods
 
@@ -159,7 +158,7 @@ main.ts:99569
 
 #### Source
 
-main.ts:99581
+main.ts:100615
 
 ***
 
@@ -181,7 +180,7 @@ main.ts:99581
 
 #### Source
 
-main.ts:99607
+main.ts:100641
 
 ***
 
@@ -203,4 +202,4 @@ main.ts:99607
 
 #### Source
 
-main.ts:99600
+main.ts:100634

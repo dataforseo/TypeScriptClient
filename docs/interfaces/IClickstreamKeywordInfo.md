@@ -25,7 +25,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:83100
+main.ts:83623
 
 ***
 
@@ -42,7 +42,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:83097
+main.ts:83620
 
 ***
 
@@ -55,7 +55,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 #### Source
 
-main.ts:83094
+main.ts:83617
 
 ***
 
@@ -68,7 +68,7 @@ array of objects with clickstream search volume rates in a certain month of a ye
 
 #### Source
 
-main.ts:83103
+main.ts:83626
 
 ***
 
@@ -80,4 +80,4 @@ monthly average clickstream search volume rate
 
 #### Source
 
-main.ts:83091
+main.ts:83614

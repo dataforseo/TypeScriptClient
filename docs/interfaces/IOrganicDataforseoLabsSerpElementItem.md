@@ -30,7 +30,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Source
 
-main.ts:91275
+main.ts:92334
 
 ***
 
@@ -43,7 +43,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Source
 
-main.ts:91262
+main.ts:92321
 
 ***
 
@@ -55,7 +55,7 @@ backlinks information for the target website
 
 #### Source
 
-main.ts:91303
+main.ts:92362
 
 ***
 
@@ -67,7 +67,7 @@ breadcrumb in SERP
 
 #### Source
 
-main.ts:91243
+main.ts:92302
 
 ***
 
@@ -82,7 +82,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91298
+main.ts:92357
 
 ***
 
@@ -94,7 +94,7 @@ description of the results element in SERP
 
 #### Source
 
-main.ts:91255
+main.ts:92314
 
 ***
 
@@ -106,7 +106,7 @@ subdomain in SERP
 
 #### Source
 
-main.ts:91237
+main.ts:92296
 
 ***
 
@@ -120,7 +120,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91293
+main.ts:92352
 
 ***
 
@@ -135,7 +135,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91284
+main.ts:92343
 
 ***
 
@@ -147,7 +147,7 @@ includes additional information appended after the result description in SERP
 
 #### Source
 
-main.ts:91259
+main.ts:92318
 
 ***
 
@@ -159,7 +159,7 @@ words highlighted in bold within the results description
 
 #### Source
 
-main.ts:91267
+main.ts:92326
 
 ***
 
@@ -174,7 +174,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Source
 
-main.ts:91289
+main.ts:92348
 
 ***
 
@@ -186,7 +186,7 @@ indicates whether the element is a featured_snippet
 
 #### Source
 
-main.ts:91251
+main.ts:92310
 
 ***
 
@@ -198,7 +198,7 @@ indicates whether the element contains an image
 
 #### Source
 
-main.ts:91247
+main.ts:92306
 
 ***
 
@@ -210,7 +210,7 @@ indicates whether the element is marked as malicious
 
 #### Source
 
-main.ts:91253
+main.ts:92312
 
 ***
 
@@ -222,7 +222,7 @@ indicates whether the element contains a video
 
 #### Source
 
-main.ts:91249
+main.ts:92308
 
 ***
 
@@ -236,7 +236,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:91271
+main.ts:92330
 
 ***
 
@@ -248,7 +248,7 @@ primary domain name in SERP
 
 #### Source
 
-main.ts:91277
+main.ts:92336
 
 ***
 
@@ -262,7 +262,7 @@ left, right
 
 #### Source
 
-main.ts:91233
+main.ts:92292
 
 ***
 
@@ -274,7 +274,7 @@ includes additional information appended before the result description in SERP
 
 #### Source
 
-main.ts:91257
+main.ts:92316
 
 ***
 
@@ -287,7 +287,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:91229
+main.ts:92288
 
 ***
 
@@ -300,7 +300,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Source
 
-main.ts:91301
+main.ts:92360
 
 ***
 
@@ -313,7 +313,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:91226
+main.ts:92285
 
 ***
 
@@ -325,7 +325,7 @@ page and domain rank information
 
 #### Source
 
-main.ts:91305
+main.ts:92364
 
 ***
 
@@ -338,7 +338,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:91265
+main.ts:92324
 
 ***
 
@@ -350,7 +350,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Source
 
-main.ts:91279
+main.ts:92338
 
 ***
 
@@ -362,7 +362,7 @@ search engine type
 
 #### Source
 
-main.ts:91223
+main.ts:92282
 
 ***
 
@@ -374,7 +374,7 @@ title of the result in SERP
 
 #### Source
 
-main.ts:91239
+main.ts:92298
 
 ***
 
@@ -386,7 +386,7 @@ relevant URL in SERP
 
 #### Source
 
-main.ts:91241
+main.ts:92300
 
 ***
 
@@ -398,7 +398,7 @@ relevant website name in SERP
 
 #### Source
 
-main.ts:91245
+main.ts:92304
 
 ***
 
@@ -410,4 +410,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:91235
+main.ts:92294

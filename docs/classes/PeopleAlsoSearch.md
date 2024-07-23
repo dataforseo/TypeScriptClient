@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:198573
+main.ts:201268
 
 ## Properties
 
@@ -48,7 +48,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:198560
+main.ts:201255
 
 ***
 
@@ -65,7 +65,7 @@ learn more about the identifier in this help center article
 
 #### Source
 
-main.ts:198563
+main.ts:201258
 
 ***
 
@@ -82,7 +82,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:198569
+main.ts:201264
 
 ***
 
@@ -99,7 +99,7 @@ the name of the business entity for which the results are collected
 
 #### Source
 
-main.ts:198566
+main.ts:201261
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:198566
 
 #### Source
 
-main.ts:198582
+main.ts:201277
 
 ***
 
@@ -135,7 +135,7 @@ main.ts:198582
 
 #### Source
 
-main.ts:198602
+main.ts:201297
 
 ***
 
@@ -153,4 +153,4 @@ main.ts:198602
 
 #### Source
 
-main.ts:198595
+main.ts:201290

@@ -20,7 +20,7 @@ contains data on citations from the given url
 
 #### Source
 
-main.ts:166052
+main.ts:168745
 
 ***
 
@@ -33,7 +33,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Source
 
-main.ts:166031
+main.ts:168724
 
 ***
 
@@ -45,7 +45,7 @@ domain name
 
 #### Source
 
-main.ts:166007
+main.ts:168700
 
 ***
 
@@ -60,7 +60,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:166023
+main.ts:168716
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Source
 
-main.ts:166028
+main.ts:168721
 
 ***
 
@@ -88,7 +88,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:166034
+main.ts:168727
 
 ***
 
@@ -100,7 +100,7 @@ main domain
 
 #### Source
 
-main.ts:166009
+main.ts:168702
 
 ***
 
@@ -114,7 +114,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:166042
+main.ts:168735
 
 ***
 
@@ -126,7 +126,7 @@ page types
 
 #### Source
 
-main.ts:166044
+main.ts:168737
 
 ***
 
@@ -139,7 +139,7 @@ all ratings found on the page based on microdata
 
 #### Source
 
-main.ts:166047
+main.ts:168740
 
 ***
 
@@ -153,7 +153,7 @@ the higher the score, the more value the related citation has
 
 #### Source
 
-main.ts:166038
+main.ts:168731
 
 ***
 
@@ -166,7 +166,7 @@ data on social media interactions associated with the content based on website e
 
 #### Source
 
-main.ts:166050
+main.ts:168743
 
 ***
 
@@ -180,7 +180,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Source
 
-main.ts:166018
+main.ts:168711
 
 ***
 
@@ -192,7 +192,7 @@ type of element
 
 #### Source
 
-main.ts:166003
+main.ts:168696
 
 ***
 
@@ -204,7 +204,7 @@ URL where the citation was found
 
 #### Source
 
-main.ts:166005
+main.ts:168698
 
 ***
 
@@ -219,4 +219,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Source
 
-main.ts:166014
+main.ts:168707

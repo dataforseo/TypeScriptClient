@@ -20,11 +20,12 @@
 
 > **`optional`** **items**: [`TopStoriesElement`](../classes/TopStoriesElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Source
 
-main.ts:97418
+main.ts:98473
 
 ***
 
@@ -38,7 +39,7 @@ left, right
 
 #### Source
 
-main.ts:97414
+main.ts:98468
 
 ***
 
@@ -51,7 +52,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:97410
+main.ts:98464
 
 ***
 
@@ -65,7 +66,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:97407
+main.ts:98461
 
 ***
 
@@ -77,4 +78,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:97416
+main.ts:98470

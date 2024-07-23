@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99280
+main.ts:100320
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99280
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20243
 
 > **`optional`** **items**: [`JobsElement`](JobsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99276
+main.ts:100316
 
 ***
 
@@ -87,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:99267
+main.ts:100308
 
 ***
 
@@ -104,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99263
+main.ts:100304
 
 ***
 
@@ -121,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99260
+main.ts:100301
 
 ***
 
@@ -129,7 +128,7 @@ main.ts:99260
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -137,7 +136,7 @@ title of the item
 
 #### Source
 
-main.ts:99271
+main.ts:100312
 
 ***
 
@@ -145,7 +144,7 @@ main.ts:99271
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -153,7 +152,7 @@ URL link
 
 #### Source
 
-main.ts:99273
+main.ts:100314
 
 ***
 
@@ -169,7 +168,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99269
+main.ts:100310
 
 ## Methods
 
@@ -191,7 +190,7 @@ main.ts:99269
 
 #### Source
 
-main.ts:99285
+main.ts:100325
 
 ***
 
@@ -213,7 +212,7 @@ main.ts:99285
 
 #### Source
 
-main.ts:99313
+main.ts:100353
 
 ***
 
@@ -235,4 +234,4 @@ main.ts:99313
 
 #### Source
 
-main.ts:99306
+main.ts:100346

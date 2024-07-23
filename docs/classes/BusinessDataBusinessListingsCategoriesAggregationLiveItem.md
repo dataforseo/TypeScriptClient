@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:199803
+main.ts:202498
 
 ## Properties
 
@@ -46,7 +46,7 @@ aggregation of the category
 
 #### Source
 
-main.ts:199799
+main.ts:202494
 
 ***
 
@@ -63,7 +63,7 @@ Google My Business general category that best describes the cluster of related c
 
 #### Source
 
-main.ts:199797
+main.ts:202492
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Source
 
-main.ts:199794
+main.ts:202489
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:199794
 
 #### Source
 
-main.ts:199812
+main.ts:202507
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:199812
 
 #### Source
 
-main.ts:199835
+main.ts:202530
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:199835
 
 #### Source
 
-main.ts:199828
+main.ts:202523

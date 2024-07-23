@@ -21,7 +21,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 #### Source
 
-main.ts:35345
+main.ts:35672
 
 ***
 
@@ -33,7 +33,7 @@ title of the carousel item
 
 #### Source
 
-main.ts:35342
+main.ts:35669
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Source
 
-main.ts:35340
+main.ts:35667

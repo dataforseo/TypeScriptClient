@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:36434
+main.ts:36761
 
 ## Properties
 
@@ -46,7 +46,7 @@ URL of the image
 
 #### Source
 
-main.ts:36424
+main.ts:36751
 
 ***
 
@@ -62,7 +62,7 @@ keyword for the related refined search
 
 #### Source
 
-main.ts:36426
+main.ts:36753
 
 ***
 
@@ -78,7 +78,7 @@ type of search refinement
 
 #### Source
 
-main.ts:36428
+main.ts:36755
 
 ***
 
@@ -94,7 +94,7 @@ title of a given link element
 
 #### Source
 
-main.ts:36422
+main.ts:36749
 
 ***
 
@@ -110,7 +110,7 @@ type of element
 
 #### Source
 
-main.ts:36420
+main.ts:36747
 
 ***
 
@@ -126,7 +126,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:36430
+main.ts:36757
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:36430
 
 #### Source
 
-main.ts:36443
+main.ts:36770
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:36443
 
 #### Source
 
-main.ts:36465
+main.ts:36792
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:36465
 
 #### Source
 
-main.ts:36458
+main.ts:36785

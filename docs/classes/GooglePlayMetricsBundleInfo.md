@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:114080
+main.ts:115095
 
 ## Properties
 
@@ -46,7 +46,7 @@ ranking data from Google Play organic search
 
 #### Source
 
-main.ts:114076
+main.ts:115091
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:114076
 
 #### Source
 
-main.ts:114089
+main.ts:115104
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:114089
 
 #### Source
 
-main.ts:114106
+main.ts:115121
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:114106
 
 #### Source
 
-main.ts:114099
+main.ts:115114

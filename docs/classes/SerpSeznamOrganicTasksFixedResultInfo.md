@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:73877
+main.ts:74400
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was fixed (in the UTC format)
 
 #### Source
 
-main.ts:73862
+main.ts:74385
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Source
 
-main.ts:73870
+main.ts:74393
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Source
 
-main.ts:73873
+main.ts:74396
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Source
 
-main.ts:73867
+main.ts:74390
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Source
 
-main.ts:73855
+main.ts:74378
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Source
 
-main.ts:73857
+main.ts:74380
 
 ***
 
@@ -147,7 +147,7 @@ can take the following values: organic
 
 #### Source
 
-main.ts:73860
+main.ts:74383
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Source
 
-main.ts:73864
+main.ts:74387
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:73864
 
 #### Source
 
-main.ts:73886
+main.ts:74409
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:73886
 
 #### Source
 
-main.ts:73910
+main.ts:74433
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:73910
 
 #### Source
 
-main.ts:73903
+main.ts:74426

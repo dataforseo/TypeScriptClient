@@ -20,7 +20,7 @@ ID of the answer
 
 #### Source
 
-main.ts:209426
+main.ts:212373
 
 ***
 
@@ -32,7 +32,7 @@ current text of the answer
 
 #### Source
 
-main.ts:209434
+main.ts:212381
 
 ***
 
@@ -44,7 +44,7 @@ original text of the answer
 
 #### Source
 
-main.ts:209436
+main.ts:212383
 
 ***
 
@@ -56,7 +56,7 @@ URL of the user’s profile image
 
 #### Source
 
-main.ts:209428
+main.ts:212375
 
 ***
 
@@ -68,7 +68,7 @@ displayed name of the user
 
 #### Source
 
-main.ts:209432
+main.ts:212379
 
 ***
 
@@ -80,7 +80,7 @@ URL of the user’s profile
 
 #### Source
 
-main.ts:209430
+main.ts:212377
 
 ***
 
@@ -92,7 +92,7 @@ estimated time when the answer was posted
 
 #### Source
 
-main.ts:209438
+main.ts:212385
 
 ***
 
@@ -104,7 +104,7 @@ exact time when the answer was posted
 
 #### Source
 
-main.ts:209440
+main.ts:212387
 
 ***
 
@@ -116,4 +116,4 @@ type of element
 
 #### Source
 
-main.ts:209424
+main.ts:212371

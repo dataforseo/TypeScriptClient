@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:123353
+main.ts:124528
 
 ## Properties
 
@@ -48,7 +48,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:123341
+main.ts:124516
 
 ***
 
@@ -68,7 +68,7 @@ learn more in this help center article
 
 #### Source
 
-main.ts:123325
+main.ts:124500
 
 ***
 
@@ -86,7 +86,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:123349
+main.ts:124524
 
 ***
 
@@ -104,7 +104,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:123345
+main.ts:124520
 
 ***
 
@@ -122,7 +122,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:123337
+main.ts:124512
 
 ***
 
@@ -138,7 +138,7 @@ forecasting date interval in a POST array
 
 #### Source
 
-main.ts:123314
+main.ts:124489
 
 ***
 
@@ -157,7 +157,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:123333
+main.ts:124508
 
 ***
 
@@ -174,7 +174,7 @@ metrics are provided for all the keywords specified in the POST array
 
 #### Source
 
-main.ts:123306
+main.ts:124481
 
 ***
 
@@ -191,7 +191,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:123312
+main.ts:124487
 
 ***
 
@@ -208,7 +208,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:123309
+main.ts:124484
 
 ***
 
@@ -225,7 +225,7 @@ can take the following values: exact, broad, phrase
 
 #### Source
 
-main.ts:123328
+main.ts:124503
 
 ***
 
@@ -244,7 +244,7 @@ if false, the results are returned for Google search sites only
 
 #### Source
 
-main.ts:123319
+main.ts:124494
 
 ## Methods
 
@@ -262,7 +262,7 @@ main.ts:123319
 
 #### Source
 
-main.ts:123362
+main.ts:124537
 
 ***
 
@@ -280,7 +280,7 @@ main.ts:123362
 
 #### Source
 
-main.ts:123390
+main.ts:124565
 
 ***
 
@@ -298,4 +298,4 @@ main.ts:123390
 
 #### Source
 
-main.ts:123383
+main.ts:124558

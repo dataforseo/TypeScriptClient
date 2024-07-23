@@ -20,12 +20,11 @@
 
 > **`optional`** **items**: [`PodcastsElement`](../classes/PodcastsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Source
 
-main.ts:100020
+main.ts:101045
 
 ***
 
@@ -39,7 +38,7 @@ left, right
 
 #### Source
 
-main.ts:100015
+main.ts:101041
 
 ***
 
@@ -52,7 +51,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:100011
+main.ts:101037
 
 ***
 
@@ -65,7 +64,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:100008
+main.ts:101034
 
 ***
 
@@ -77,4 +76,4 @@ the XPath of the element
 
 #### Source
 
-main.ts:100017
+main.ts:101043

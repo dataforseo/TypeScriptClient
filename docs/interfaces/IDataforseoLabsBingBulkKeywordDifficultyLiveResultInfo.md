@@ -20,7 +20,7 @@ contains keywords and related keyword difficulty scores
 
 #### Source
 
-main.ts:107007
+main.ts:108022
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Source
 
-main.ts:107005
+main.ts:108020
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:107001
+main.ts:108016
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Source
 
-main.ts:106998
+main.ts:108013
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Source
 
-main.ts:106995
+main.ts:108010
 
 ***
 
@@ -82,4 +82,4 @@ total amount of results in our database relevant to your request
 
 #### Source
 
-main.ts:107003
+main.ts:108018

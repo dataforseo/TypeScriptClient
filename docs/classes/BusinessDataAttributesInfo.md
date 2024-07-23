@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:198482
+main.ts:201177
 
 ## Properties
 
@@ -51,7 +51,7 @@ indicates attributes a business entity can offer
 
 #### Source
 
-main.ts:198475
+main.ts:201170
 
 ***
 
@@ -72,7 +72,7 @@ indicates attributes a business entity cannot offer
 
 #### Source
 
-main.ts:198478
+main.ts:201173
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:198478
 
 #### Source
 
-main.ts:198491
+main.ts:201186
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:198491
 
 #### Source
 
-main.ts:198521
+main.ts:201216
 
 ***
 
@@ -126,4 +126,4 @@ main.ts:198521
 
 #### Source
 
-main.ts:198514
+main.ts:201209

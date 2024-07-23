@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:98654
+main.ts:99710
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98654
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -70,7 +70,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Source
 
-main.ts:98647
+main.ts:99704
 
 ***
 
@@ -78,8 +78,7 @@ main.ts:98647
 
 > **`optional`** **items**: [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -87,7 +86,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:98650
+main.ts:99706
 
 ***
 
@@ -105,7 +104,7 @@ left, right
 
 #### Source
 
-main.ts:98639
+main.ts:99696
 
 ***
 
@@ -122,7 +121,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:98635
+main.ts:99692
 
 ***
 
@@ -139,7 +138,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:98632
+main.ts:99689
 
 ***
 
@@ -147,7 +146,7 @@ main.ts:98632
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -155,7 +154,7 @@ title of the item
 
 #### Source
 
-main.ts:98643
+main.ts:99700
 
 ***
 
@@ -171,7 +170,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:98641
+main.ts:99698
 
 ## Methods
 
@@ -193,7 +192,7 @@ main.ts:98641
 
 #### Source
 
-main.ts:98659
+main.ts:99715
 
 ***
 
@@ -215,7 +214,7 @@ main.ts:98659
 
 #### Source
 
-main.ts:98687
+main.ts:99743
 
 ***
 
@@ -237,4 +236,4 @@ main.ts:98687
 
 #### Source
 
-main.ts:98680
+main.ts:99736

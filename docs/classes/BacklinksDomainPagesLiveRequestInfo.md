@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:140589
+main.ts:143414
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:140574
+main.ts:143393
 
 ***
 
@@ -75,7 +75,27 @@ default value: live
 
 #### Source
 
-main.ts:140535
+main.ts:143354
+
+***
+
+### exclude\_internal\_backlinks?
+
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+
+indicates if internal backlinks from subdomains to the target will be excluded from the results
+optional field
+if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
+if set to false, internal links will be included in the results
+default value: true
+
+#### Implementation of
+
+[`IBacklinksDomainPagesLiveRequestInfo`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksDomainPagesLiveRequestInfo.md#exclude_internal_backlinks)
+
+#### Source
+
+main.ts:143404
 
 ***
 
@@ -106,7 +126,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:140552
+main.ts:143371
 
 ***
 
@@ -125,7 +145,7 @@ default value: true
 
 #### Source
 
-main.ts:140579
+main.ts:143398
 
 ***
 
@@ -150,7 +170,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140526
+main.ts:143345
 
 ***
 
@@ -169,7 +189,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140510
+main.ts:143329
 
 ***
 
@@ -188,7 +208,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:140515
+main.ts:143334
 
 ***
 
@@ -216,7 +236,7 @@ example:
 
 #### Source
 
-main.ts:140566
+main.ts:143385
 
 ***
 
@@ -236,7 +256,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:140585
+main.ts:143410
 
 ***
 
@@ -256,7 +276,7 @@ forbes.com
 
 #### Source
 
-main.ts:140505
+main.ts:143324
 
 ## Methods
 
@@ -274,7 +294,7 @@ main.ts:140505
 
 #### Source
 
-main.ts:140598
+main.ts:143423
 
 ***
 
@@ -292,7 +312,7 @@ main.ts:140598
 
 #### Source
 
-main.ts:140636
+main.ts:143462
 
 ***
 
@@ -310,4 +330,4 @@ main.ts:140636
 
 #### Source
 
-main.ts:140629
+main.ts:143455

@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:168102
+main.ts:170795
 
 ## Properties
 
@@ -52,7 +52,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Source
 
-main.ts:168079
+main.ts:170772
 
 ***
 
@@ -74,7 +74,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Source
 
-main.ts:168094
+main.ts:170787
 
 ***
 
@@ -90,7 +90,7 @@ date for which the data is provided
 
 #### Source
 
-main.ts:168063
+main.ts:170756
 
 ***
 
@@ -112,7 +112,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Source
 
-main.ts:168098
+main.ts:170791
 
 ***
 
@@ -130,7 +130,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:168087
+main.ts:170780
 
 ***
 
@@ -151,7 +151,7 @@ contains page types and citation count per each page type
 
 #### Source
 
-main.ts:168090
+main.ts:170783
 
 ***
 
@@ -168,7 +168,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Source
 
-main.ts:168068
+main.ts:170761
 
 ***
 
@@ -190,7 +190,7 @@ possible connotations: "anger", "happiness", "love", "sadness", "share", "fun"
 
 #### Source
 
-main.ts:168075
+main.ts:170768
 
 ***
 
@@ -208,7 +208,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Source
 
-main.ts:168083
+main.ts:170776
 
 ***
 
@@ -225,7 +225,7 @@ contains objects with top domains citing the target keyword and citation count p
 
 #### Source
 
-main.ts:168071
+main.ts:170764
 
 ***
 
@@ -241,7 +241,7 @@ total number of results in our database relevant to your request
 
 #### Source
 
-main.ts:168065
+main.ts:170758
 
 ***
 
@@ -257,7 +257,7 @@ type of element
 
 #### Source
 
-main.ts:168061
+main.ts:170754
 
 ## Methods
 
@@ -275,7 +275,7 @@ main.ts:168061
 
 #### Source
 
-main.ts:168111
+main.ts:170804
 
 ***
 
@@ -293,7 +293,7 @@ main.ts:168111
 
 #### Source
 
-main.ts:168181
+main.ts:170874
 
 ***
 
@@ -311,4 +311,4 @@ main.ts:168181
 
 #### Source
 
-main.ts:168174
+main.ts:170867

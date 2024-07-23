@@ -21,7 +21,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Source
 
-main.ts:83842
+main.ts:84365
 
 ***
 
@@ -34,7 +34,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Source
 
-main.ts:83829
+main.ts:84352
 
 ***
 
@@ -49,7 +49,7 @@ learn more about impressions in this help center article
 
 #### Source
 
-main.ts:83836
+main.ts:84359
 
 ***
 
@@ -61,7 +61,7 @@ returned keyword idea
 
 #### Source
 
-main.ts:83820
+main.ts:84343
 
 ***
 
@@ -73,7 +73,7 @@ keyword data for the returned keyword idea
 
 #### Source
 
-main.ts:83826
+main.ts:84349
 
 ***
 
@@ -85,7 +85,7 @@ additional information about the keyword
 
 #### Source
 
-main.ts:83831
+main.ts:84354
 
 ***
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 #### Source
 
-main.ts:83824
+main.ts:84347
 
 ***
 
@@ -109,7 +109,7 @@ location code in a POST array
 
 #### Source
 
-main.ts:83822
+main.ts:84345
 
 ***
 
@@ -121,7 +121,7 @@ search engine type
 
 #### Source
 
-main.ts:83818
+main.ts:84341
 
 ***
 
@@ -134,7 +134,7 @@ learn about search intent in this help center article
 
 #### Source
 
-main.ts:83845
+main.ts:84368
 
 ***
 
@@ -147,4 +147,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Source
 
-main.ts:83839
+main.ts:84362

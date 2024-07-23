@@ -26,7 +26,7 @@ example:
 
 #### Source
 
-main.ts:140743
+main.ts:143570
 
 ***
 
@@ -45,7 +45,23 @@ default value: live
 
 #### Source
 
-main.ts:140704
+main.ts:143531
+
+***
+
+### exclude\_internal\_backlinks?
+
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+
+indicates if internal backlinks from subdomains to the target will be excluded from the results
+optional field
+if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
+if set to false, internal links will be included in the results
+default value: true
+
+#### Source
+
+main.ts:143581
 
 ***
 
@@ -72,7 +88,7 @@ The full list of possible filters is available here.
 
 #### Source
 
-main.ts:140721
+main.ts:143548
 
 ***
 
@@ -87,7 +103,7 @@ default value: true
 
 #### Source
 
-main.ts:140748
+main.ts:143575
 
 ***
 
@@ -108,7 +124,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140695
+main.ts:143522
 
 ***
 
@@ -123,7 +139,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:140679
+main.ts:143506
 
 ***
 
@@ -138,7 +154,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Source
 
-main.ts:140684
+main.ts:143511
 
 ***
 
@@ -162,7 +178,7 @@ example:
 
 #### Source
 
-main.ts:140735
+main.ts:143562
 
 ***
 
@@ -178,7 +194,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:140754
+main.ts:143587
 
 ***
 
@@ -194,4 +210,4 @@ forbes.com
 
 #### Source
 
-main.ts:140674
+main.ts:143501

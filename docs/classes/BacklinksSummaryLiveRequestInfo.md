@@ -30,7 +30,7 @@
 
 #### Source
 
-main.ts:137279
+main.ts:140076
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Source
 
-main.ts:137269
+main.ts:140066
 
 ***
 
@@ -75,7 +75,27 @@ default value: live
 
 #### Source
 
-main.ts:137261
+main.ts:140058
+
+***
+
+### exclude\_internal\_backlinks?
+
+> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+
+indicates if internal backlinks from subdomains to the target will be excluded from the results
+optional field
+if set to true, the results will not include data on internal backlinks from subdomains of the same domain as target
+if set to false, internal links will be included in the results
+default value: true
+
+#### Implementation of
+
+[`IBacklinksSummaryLiveRequestInfo`](../interfaces/IBacklinksSummaryLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksSummaryLiveRequestInfo.md#exclude_internal_backlinks)
+
+#### Source
+
+main.ts:140038
 
 ***
 
@@ -95,7 +115,7 @@ default value: true
 
 #### Source
 
-main.ts:137241
+main.ts:140032
 
 ***
 
@@ -114,7 +134,7 @@ default value: true
 
 #### Source
 
-main.ts:137235
+main.ts:140026
 
 ***
 
@@ -139,7 +159,7 @@ maximum value: 1000
 
 #### Source
 
-main.ts:137252
+main.ts:140049
 
 ***
 
@@ -159,7 +179,7 @@ you will find the specified tag value in the data object of the response
 
 #### Source
 
-main.ts:137275
+main.ts:140072
 
 ***
 
@@ -178,7 +198,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Source
 
-main.ts:137230
+main.ts:140021
 
 ## Methods
 
@@ -196,7 +216,7 @@ main.ts:137230
 
 #### Source
 
-main.ts:137288
+main.ts:140085
 
 ***
 
@@ -214,7 +234,7 @@ main.ts:137288
 
 #### Source
 
-main.ts:137315
+main.ts:140113
 
 ***
 
@@ -232,4 +252,4 @@ main.ts:137315
 
 #### Source
 
-main.ts:137308
+main.ts:140106

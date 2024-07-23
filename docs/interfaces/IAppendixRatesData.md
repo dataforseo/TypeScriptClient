@@ -20,7 +20,7 @@ rate limits for API calls per a certain period of time
 
 #### Source
 
-main.ts:218318
+main.ts:221277
 
 ***
 
@@ -32,4 +32,4 @@ statisctics for API calls
 
 #### Source
 
-main.ts:218320
+main.ts:221279

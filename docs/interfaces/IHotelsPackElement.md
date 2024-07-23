@@ -20,7 +20,7 @@ description
 
 #### Source
 
-main.ts:34424
+main.ts:34751
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Source
 
-main.ts:34430
+main.ts:34757
 
 ***
 
@@ -46,7 +46,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Source
 
-main.ts:34428
+main.ts:34755
 
 ***
 
@@ -58,7 +58,7 @@ indicates whether the element is an ad
 
 #### Source
 
-main.ts:34434
+main.ts:34761
 
 ***
 
@@ -70,7 +70,7 @@ price indicated in the element
 
 #### Source
 
-main.ts:34420
+main.ts:34747
 
 ***
 
@@ -83,7 +83,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Source
 
-main.ts:34437
+main.ts:34764
 
 ***
 
@@ -95,7 +95,7 @@ title of a given link element
 
 #### Source
 
-main.ts:34422
+main.ts:34749
 
 ***
 
@@ -107,7 +107,7 @@ type of element
 
 #### Source
 
-main.ts:34418
+main.ts:34745
 
 ***
 
@@ -119,4 +119,4 @@ URL
 
 #### Source
 
-main.ts:34432
+main.ts:34759

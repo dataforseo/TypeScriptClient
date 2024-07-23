@@ -38,7 +38,7 @@
 
 #### Source
 
-main.ts:99766
+main.ts:100796
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99766
 
 #### Source
 
-main.ts:20243
+main.ts:20570
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20243
 
 > **`optional`** **items**: [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Source
 
-main.ts:99762
+main.ts:100792
 
 ***
 
@@ -87,7 +86,7 @@ left, right
 
 #### Source
 
-main.ts:99753
+main.ts:100784
 
 ***
 
@@ -104,7 +103,7 @@ absolute position among all the elements in SERP
 
 #### Source
 
-main.ts:99749
+main.ts:100780
 
 ***
 
@@ -121,7 +120,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Source
 
-main.ts:99746
+main.ts:100777
 
 ***
 
@@ -129,7 +128,7 @@ main.ts:99746
 
 > **`optional`** **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -137,7 +136,7 @@ title of the item
 
 #### Source
 
-main.ts:99757
+main.ts:100788
 
 ***
 
@@ -145,7 +144,7 @@ main.ts:99757
 
 > **`optional`** **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -153,7 +152,7 @@ URL link
 
 #### Source
 
-main.ts:99759
+main.ts:100790
 
 ***
 
@@ -169,7 +168,7 @@ the XPath of the element
 
 #### Source
 
-main.ts:99755
+main.ts:100786
 
 ## Methods
 
@@ -191,7 +190,7 @@ main.ts:99755
 
 #### Source
 
-main.ts:99771
+main.ts:100801
 
 ***
 
@@ -213,7 +212,7 @@ main.ts:99771
 
 #### Source
 
-main.ts:99799
+main.ts:100829
 
 ***
 
@@ -235,4 +234,4 @@ main.ts:99799
 
 #### Source
 
-main.ts:99792
+main.ts:100822

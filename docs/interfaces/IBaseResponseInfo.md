@@ -181,7 +181,9 @@
 - [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](IDataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleSearchIntentLiveResponseInfo`](IDataforseoLabsGoogleSearchIntentLiveResponseInfo.md)
+- [`IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)
 - [`IDataforseoLabsGoogleCategoriesForDomainLiveResponseInfo`](IDataforseoLabsGoogleCategoriesForDomainLiveResponseInfo.md)
+- [`IDataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo`](IDataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo`](IDataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)
 - [`IDataforseoLabsGoogleTopSearchesLiveResponseInfo`](IDataforseoLabsGoogleTopSearchesLiveResponseInfo.md)
@@ -278,6 +280,11 @@
 - [`IKeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](IKeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)
 - [`IKeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](IKeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)
 - [`IKeywordsDataBingKeywordPerformanceLiveResponseInfo`](IKeywordsDataBingKeywordPerformanceLiveResponseInfo.md)
+- [`IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)
+- [`IKeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](IKeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)
+- [`IKeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](IKeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)
+- [`IKeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](IKeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)
+- [`IKeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](IKeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)
 - [`IBacklinksIdListResponseInfo`](IBacklinksIdListResponseInfo.md)
 - [`IBacklinksErrorsResponseInfo`](IBacklinksErrorsResponseInfo.md)
 - [`IBacklinksAvailableFiltersResponseInfo`](IBacklinksAvailableFiltersResponseInfo.md)
@@ -450,6 +457,7 @@
 - [`IBusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo`](IBusinessDataGoogleMyBusinessInfoTasksReadyResponseInfo.md)
 - [`IBusinessDataTasksReadyResponseInfo`](IBusinessDataTasksReadyResponseInfo.md)
 - [`IBusinessDataGoogleMyBusinessInfoTaskGetResponseInfo`](IBusinessDataGoogleMyBusinessInfoTaskGetResponseInfo.md)
+- [`IBusinessDataGoogleMyBusinessInfoLiveResponseInfo`](IBusinessDataGoogleMyBusinessInfoLiveResponseInfo.md)
 - [`IBusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo`](IBusinessDataGoogleMyBusinessUpdatesTaskPostResponseInfo.md)
 - [`IBusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo`](IBusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo.md)
 - [`IBusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo`](IBusinessDataGoogleMyBusinessUpdatesTaskGetResponseInfo.md)
@@ -507,7 +515,7 @@ total tasks cost, USD
 
 #### Source
 
-main.ts:23321
+main.ts:23718
 
 ***
 
@@ -520,7 +528,7 @@ you can find the full list of the response codes here
 
 #### Source
 
-main.ts:23314
+main.ts:23711
 
 ***
 
@@ -533,7 +541,7 @@ you can find the full list of general informational messages here
 
 #### Source
 
-main.ts:23317
+main.ts:23714
 
 ***
 
@@ -545,7 +553,7 @@ the number of tasks in the tasks array
 
 #### Source
 
-main.ts:23323
+main.ts:23720
 
 ***
 
@@ -557,7 +565,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Source
 
-main.ts:23325
+main.ts:23722
 
 ***
 
@@ -569,7 +577,7 @@ total execution time, seconds
 
 #### Source
 
-main.ts:23319
+main.ts:23716
 
 ***
 
@@ -581,4 +589,4 @@ the current version of the API
 
 #### Source
 
-main.ts:23311
+main.ts:23708
