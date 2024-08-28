@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new KnowledgeGraphExpandedItemSerpElementItem(data)
+### new KnowledgeGraphExpandedItemSerpElementItem()
 
 > **new KnowledgeGraphExpandedItemSerpElementItem**(`data`?): [`KnowledgeGraphExpandedItemSerpElementItem`](KnowledgeGraphExpandedItemSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:28432
+main.ts:28614
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### data\_attrid?
 
-> **`optional`** **data\_attrid**: `string`
+> `optional` **data\_attrid**: `string`
 
 google defined data attribute ID
 example:
@@ -68,15 +68,15 @@ kc:/local:place qa
 
 [`IKnowledgeGraphExpandedItemSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md).[`data_attrid`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md#data_attrid)
 
-#### Source
+#### Defined in
 
-main.ts:28422
+main.ts:28604
 
 ***
 
 ### expanded\_element?
 
-> **`optional`** **expanded\_element**: [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)[]
+> `optional` **expanded\_element**: [`KnowledgeGraphExpandedElement`](KnowledgeGraphExpandedElement.md)[]
 
 link of the element
 
@@ -84,15 +84,15 @@ link of the element
 
 [`IKnowledgeGraphExpandedItemSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md).[`expanded_element`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md#expanded_element)
 
-#### Source
+#### Defined in
 
-main.ts:28424
+main.ts:28606
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -102,15 +102,15 @@ left, right
 
 [`IKnowledgeGraphExpandedItemSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:28414
+main.ts:28596
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -119,15 +119,15 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphExpandedItemSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:28410
+main.ts:28592
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -137,15 +137,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphExpandedItemSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:28407
+main.ts:28589
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -155,15 +155,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IKnowledgeGraphExpandedItemSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md).[`rectangle`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:28428
+main.ts:28610
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the link
 
@@ -171,15 +171,15 @@ title of the link
 
 [`IKnowledgeGraphExpandedItemSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md).[`title`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:28418
+main.ts:28600
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -187,9 +187,9 @@ the XPath of the element
 
 [`IKnowledgeGraphExpandedItemSerpElementItem`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphExpandedItemSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:28416
+main.ts:28598
 
 ## Methods
 
@@ -209,9 +209,9 @@ main.ts:28416
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:28437
+main.ts:28619
 
 ***
 
@@ -231,15 +231,15 @@ main.ts:28437
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:28466
+main.ts:28648
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KnowledgeGraphExpandedItemSerpElementItem`](KnowledgeGraphExpandedItemSerpElementItem.md)
+> `static` **fromJS**(`data`): [`KnowledgeGraphExpandedItemSerpElementItem`](KnowledgeGraphExpandedItemSerpElementItem.md)
 
 #### Parameters
 
@@ -253,6 +253,6 @@ main.ts:28466
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:28459
+main.ts:28641

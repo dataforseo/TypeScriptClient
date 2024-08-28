@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,10 +14,10 @@
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 contains full list of supported app categories
 
-#### Source
+#### Defined in
 
-main.ts:195066
+main.ts:196898

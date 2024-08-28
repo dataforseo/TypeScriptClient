@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsWhoisOverviewLiveRequestInfo(data)
+### new DomainAnalyticsWhoisOverviewLiveRequestInfo()
 
 > **new DomainAnalyticsWhoisOverviewLiveRequestInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
@@ -28,22 +28,22 @@
 
 [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80112
+main.ts:80708
 
 ## Properties
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 examples:
 ["expiration_datetime", "<", "2021-02-15 01:00:00 +00:00"]
@@ -57,15 +57,15 @@ for more information about filters, please refer to Filters Page or this help ce
 
 [`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`filters`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:80086
+main.ts:80682
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned domains
 optional field
@@ -76,15 +76,15 @@ maximum value: 1000
 
 [`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`limit`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:80066
+main.ts:80662
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned items
 optional field
@@ -95,15 +95,15 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 [`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`offset`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:80071
+main.ts:80667
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -125,15 +125,15 @@ example:
 
 [`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`order_by`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:80102
+main.ts:80698
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -145,9 +145,9 @@ you will find the specified tag value in the data object of the response
 
 [`IDomainAnalyticsWhoisOverviewLiveRequestInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md).[`tag`](../interfaces/IDomainAnalyticsWhoisOverviewLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:80108
+main.ts:80704
 
 ## Methods
 
@@ -163,9 +163,9 @@ main.ts:80108
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:80121
+main.ts:80717
 
 ***
 
@@ -181,15 +181,15 @@ main.ts:80121
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:80150
+main.ts:80746
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
 #### Parameters
 
@@ -199,6 +199,6 @@ main.ts:80150
 
 [`DomainAnalyticsWhoisOverviewLiveRequestInfo`](DomainAnalyticsWhoisOverviewLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80143
+main.ts:80739

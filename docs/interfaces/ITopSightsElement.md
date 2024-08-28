@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,59 +14,59 @@
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
-#### Source
+#### Defined in
 
-main.ts:33307
+main.ts:33503
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Source
+#### Defined in
 
-main.ts:33310
+main.ts:33506
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:33303
+main.ts:33499
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:33301
+main.ts:33497
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
-#### Source
+#### Defined in
 
-main.ts:33305
+main.ts:33501

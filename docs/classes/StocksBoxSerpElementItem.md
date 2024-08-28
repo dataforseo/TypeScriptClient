@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new StocksBoxSerpElementItem(data)
+### new StocksBoxSerpElementItem()
 
 > **new StocksBoxSerpElementItem**(`data`?): [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:34188
+main.ts:34384
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 source domain
 
@@ -66,15 +66,15 @@ source domain
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`domain`](../interfaces/IStocksBoxSerpElementItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:34175
+main.ts:34371
 
 ***
 
 ### graph?
 
-> **`optional`** **graph**: [`Graph`](Graph.md)
+> `optional` **graph**: [`Graph`](Graph.md)
 
 contains data provided in the graph of the element
 
@@ -82,15 +82,15 @@ contains data provided in the graph of the element
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`graph`](../interfaces/IStocksBoxSerpElementItem.md#graph)
 
-#### Source
+#### Defined in
 
-main.ts:34184
+main.ts:34380
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -100,15 +100,15 @@ left, right
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`position`](../interfaces/IStocksBoxSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:34160
+main.ts:34356
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
@@ -116,15 +116,15 @@ price indicated in the element
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`price`](../interfaces/IStocksBoxSerpElementItem.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:34171
+main.ts:34367
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -134,15 +134,15 @@ always equals 0 for desktop
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`rank_absolute`](../interfaces/IStocksBoxSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:34156
+main.ts:34352
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -153,15 +153,15 @@ always equals 0 for desktop
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`rank_group`](../interfaces/IStocksBoxSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:34152
+main.ts:34348
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -171,15 +171,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`rectangle`](../interfaces/IStocksBoxSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:34179
+main.ts:34375
 
 ***
 
 ### snippet?
 
-> **`optional`** **snippet**: `string`
+> `optional` **snippet**: `string`
 
 text alongside the link title
 
@@ -187,15 +187,15 @@ text alongside the link title
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`snippet`](../interfaces/IStocksBoxSerpElementItem.md#snippet)
 
-#### Source
+#### Defined in
 
-main.ts:34169
+main.ts:34365
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of the video
@@ -204,15 +204,15 @@ indicates the source of the video
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`source`](../interfaces/IStocksBoxSerpElementItem.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:34167
+main.ts:34363
 
 ***
 
 ### table?
 
-> **`optional`** **table**: [`Table`](Table.md)
+> `optional` **table**: [`Table`](Table.md)
 
 results table
 if there are none, equals null
@@ -221,15 +221,15 @@ if there are none, equals null
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`table`](../interfaces/IStocksBoxSerpElementItem.md#table)
 
-#### Source
+#### Defined in
 
-main.ts:34182
+main.ts:34378
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the row
 
@@ -237,15 +237,15 @@ title of the row
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`title`](../interfaces/IStocksBoxSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:34164
+main.ts:34360
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 source URL
 
@@ -253,15 +253,15 @@ source URL
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`url`](../interfaces/IStocksBoxSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:34173
+main.ts:34369
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -269,9 +269,9 @@ the XPath of the element
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`xpath`](../interfaces/IStocksBoxSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:34162
+main.ts:34358
 
 ## Methods
 
@@ -291,9 +291,9 @@ main.ts:34162
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:34193
+main.ts:34389
 
 ***
 
@@ -313,15 +313,15 @@ main.ts:34193
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:34223
+main.ts:34419
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
+> `static` **fromJS**(`data`): [`StocksBoxSerpElementItem`](StocksBoxSerpElementItem.md)
 
 #### Parameters
 
@@ -335,6 +335,6 @@ main.ts:34223
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:34216
+main.ts:34412

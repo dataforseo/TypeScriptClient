@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantAmazonSellersTaskGetHtmlResultInfo(data)
+### new MerchantAmazonSellersTaskGetHtmlResultInfo()
 
 > **new MerchantAmazonSellersTaskGetHtmlResultInfo**(`data`?): [`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:186694
+main.ts:188526
 
 ## Properties
 
 ### asin?
 
-> **`optional`** **asin**: `string`
+> `optional` **asin**: `string`
 
 ASIN received in a POST array
 
@@ -44,15 +44,15 @@ ASIN received in a POST array
 
 [`IMerchantAmazonSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md).[`asin`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md#asin)
 
-#### Source
+#### Defined in
 
-main.ts:186673
+main.ts:188505
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +63,15 @@ example:
 
 [`IMerchantAmazonSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:186686
+main.ts:188518
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
+> `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found on Amazon
 
@@ -79,15 +79,15 @@ elements of search results found on Amazon
 
 [`IMerchantAmazonSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md).[`items`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:186690
+main.ts:188522
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -95,15 +95,15 @@ the number of results returned in the items array
 
 [`IMerchantAmazonSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:186688
+main.ts:188520
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -111,15 +111,15 @@ language code in a POST array
 
 [`IMerchantAmazonSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:186681
+main.ts:188513
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -127,15 +127,15 @@ location code in a POST array
 
 [`IMerchantAmazonSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:186679
+main.ts:188511
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
@@ -143,15 +143,15 @@ search engine domain in a POST array
 
 [`IMerchantAmazonSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:186677
+main.ts:188509
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -159,9 +159,9 @@ type of element
 
 [`IMerchantAmazonSellersTaskGetHtmlResultInfo`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md).[`type`](../interfaces/IMerchantAmazonSellersTaskGetHtmlResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:186675
+main.ts:188507
 
 ## Methods
 
@@ -177,9 +177,9 @@ main.ts:186675
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:186703
+main.ts:188535
 
 ***
 
@@ -195,15 +195,15 @@ main.ts:186703
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:186731
+main.ts:188563
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
@@ -213,6 +213,6 @@ main.ts:186731
 
 [`MerchantAmazonSellersTaskGetHtmlResultInfo`](MerchantAmazonSellersTaskGetHtmlResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:186724
+main.ts:188556

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAmazonRelatedKeywordsLiveResultInfo(data)
+### new DataforseoLabsAmazonRelatedKeywordsLiveResultInfo()
 
 > **new DataforseoLabsAmazonRelatedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:105078
+main.ts:105708
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)[]
 
 contains objects with keywords and related data
 
@@ -44,15 +44,15 @@ contains objects with keywords and related data
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:105074
+main.ts:105704
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,15 +60,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:105072
+main.ts:105702
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -76,15 +76,15 @@ language code in a POST array
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:105068
+main.ts:105698
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -92,15 +92,15 @@ location code in a POST array
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:105066
+main.ts:105696
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -108,15 +108,15 @@ search engine type
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:105059
+main.ts:105689
 
 ***
 
 ### seed\_keyword?
 
-> **`optional`** **seed\_keyword**: `string`
+> `optional` **seed\_keyword**: `string`
 
 keyword in a POST array
 
@@ -124,15 +124,15 @@ keyword in a POST array
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`seed_keyword`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword)
 
-#### Source
+#### Defined in
 
-main.ts:105061
+main.ts:105691
 
 ***
 
 ### seed\_keyword\_data?
 
-> **`optional`** **seed\_keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
+> `optional` **seed\_keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
 keyword data for the seed keyword
 fields in the object are identical to that of keyword_data
@@ -141,15 +141,15 @@ fields in the object are identical to that of keyword_data
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`seed_keyword_data`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#seed_keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:105064
+main.ts:105694
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
@@ -157,9 +157,9 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:105070
+main.ts:105700
 
 ## Methods
 
@@ -175,9 +175,9 @@ main.ts:105070
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:105087
+main.ts:105717
 
 ***
 
@@ -193,15 +193,15 @@ main.ts:105087
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:105115
+main.ts:105745
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
@@ -211,6 +211,6 @@ main.ts:105115
 
 [`DataforseoLabsAmazonRelatedKeywordsLiveResultInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:105108
+main.ts:105738

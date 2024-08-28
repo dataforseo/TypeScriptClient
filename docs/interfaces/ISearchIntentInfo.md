@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,52 +14,52 @@
 
 ### foreign\_intent?
 
-> **`optional`** **foreign\_intent**: `string`[]
+> `optional` **foreign\_intent**: `string`[]
 
 supplementary search intents
 possible values: informational, navigational, commercial, transactional
 
-#### Source
+#### Defined in
 
-main.ts:84239
+main.ts:84793
 
 ***
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
-date and time when search intent data was last updated
+date and time when the dataset was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:84244
+main.ts:84798
 
 ***
 
 ### main\_intent?
 
-> **`optional`** **main\_intent**: `string`
+> `optional` **main\_intent**: `string`
 
 main search intent
 possible values: informational, navigational, commercial, transactional
 
-#### Source
+#### Defined in
 
-main.ts:84236
+main.ts:84790
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 possible values: google
 
-#### Source
+#### Defined in
 
-main.ts:84233
+main.ts:84787

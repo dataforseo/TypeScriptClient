@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixBusinessDataPriceData(data)
+### new AppendixBusinessDataPriceData()
 
 > **new AppendixBusinessDataPriceData**(`data`?): [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
 
@@ -28,149 +28,149 @@
 
 [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:223228
+main.ts:227500
 
 ## Properties
 
 ### business\_listings?
 
-> **`optional`** **business\_listings**: [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
+> `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`business_listings`](../interfaces/IAppendixBusinessDataPriceData.md#business_listings)
 
-#### Source
+#### Defined in
 
-main.ts:223215
+main.ts:227487
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`errors`](../interfaces/IAppendixBusinessDataPriceData.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:223216
+main.ts:227488
 
 ***
 
 ### google?
 
-> **`optional`** **google**: [`AppendixGoogleBusinessDataPriceData`](AppendixGoogleBusinessDataPriceData.md)
+> `optional` **google**: [`AppendixGoogleBusinessDataPriceData`](AppendixGoogleBusinessDataPriceData.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`google`](../interfaces/IAppendixBusinessDataPriceData.md#google)
 
-#### Source
+#### Defined in
 
-main.ts:223218
+main.ts:227490
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`languages`](../interfaces/IAppendixBusinessDataPriceData.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:223219
+main.ts:227491
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`locations`](../interfaces/IAppendixBusinessDataPriceData.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:223220
+main.ts:227492
 
 ***
 
 ### social\_media?
 
-> **`optional`** **social\_media**: [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
+> `optional` **social\_media**: [`AppendixSocialMediaBusinessDataPriceData`](AppendixSocialMediaBusinessDataPriceData.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`social_media`](../interfaces/IAppendixBusinessDataPriceData.md#social_media)
 
-#### Source
+#### Defined in
 
-main.ts:223217
+main.ts:227489
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`tasks_ready`](../interfaces/IAppendixBusinessDataPriceData.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:223224
+main.ts:227496
 
 ***
 
 ### tripadvisor?
 
-> **`optional`** **tripadvisor**: [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+> `optional` **tripadvisor**: [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`tripadvisor`](../interfaces/IAppendixBusinessDataPriceData.md#tripadvisor)
 
-#### Source
+#### Defined in
 
-main.ts:223222
+main.ts:227494
 
 ***
 
 ### trustpilot?
 
-> **`optional`** **trustpilot**: [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+> `optional` **trustpilot**: [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`trustpilot`](../interfaces/IAppendixBusinessDataPriceData.md#trustpilot)
 
-#### Source
+#### Defined in
 
-main.ts:223221
+main.ts:227493
 
 ***
 
 ### yelp?
 
-> **`optional`** **yelp**: [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+> `optional` **yelp**: [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataPriceData`](../interfaces/IAppendixBusinessDataPriceData.md).[`yelp`](../interfaces/IAppendixBusinessDataPriceData.md#yelp)
 
-#### Source
+#### Defined in
 
-main.ts:223223
+main.ts:227495
 
 ## Methods
 
@@ -186,9 +186,9 @@ main.ts:223223
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:223237
+main.ts:227509
 
 ***
 
@@ -204,15 +204,15 @@ main.ts:223237
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:223263
+main.ts:227535
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
+> `static` **fromJS**(`data`): [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
 
 #### Parameters
 
@@ -222,6 +222,6 @@ main.ts:223263
 
 [`AppendixBusinessDataPriceData`](AppendixBusinessDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:223256
+main.ts:227528

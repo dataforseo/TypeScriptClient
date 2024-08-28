@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ImageUrlInfo(data)
+### new ImageUrlInfo()
 
 > **new ImageUrlInfo**(`data`?): [`ImageUrlInfo`](ImageUrlInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ImageUrlInfo`](ImageUrlInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:216998
+main.ts:218850
 
 ## Properties
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the image used in the review
 
@@ -44,9 +44,9 @@ URL of the image used in the review
 
 [`IImageUrlInfo`](../interfaces/IImageUrlInfo.md).[`url`](../interfaces/IImageUrlInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:216994
+main.ts:218846
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:216994
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:217007
+main.ts:218859
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:217007
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:217024
+main.ts:218876
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ImageUrlInfo`](ImageUrlInfo.md)
+> `static` **fromJS**(`data`): [`ImageUrlInfo`](ImageUrlInfo.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:217024
 
 [`ImageUrlInfo`](ImageUrlInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:217017
+main.ts:218869

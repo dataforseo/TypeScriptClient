@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleOrganicTasksFixedResultInfo(data)
+### new SerpGoogleOrganicTasksFixedResultInfo()
 
 > **new SerpGoogleOrganicTasksFixedResultInfo**(`data`?): [`SerpGoogleOrganicTasksFixedResultInfo`](SerpGoogleOrganicTasksFixedResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleOrganicTasksFixedResultInfo`](SerpGoogleOrganicTasksFixedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:26314
+main.ts:26496
 
 ## Properties
 
 ### date\_fixed?
 
-> **`optional`** **date\_fixed**: `string`
+> `optional` **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
@@ -44,15 +44,15 @@ date when the task was fixed (in the UTC format)
 
 [`ISerpGoogleOrganicTasksFixedResultInfo`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md#date_fixed)
 
-#### Source
+#### Defined in
 
-main.ts:26299
+main.ts:26481
 
 ***
 
 ### endpoint\_advanced?
 
-> **`optional`** **endpoint\_advanced**: `string`
+> `optional` **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -61,15 +61,15 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 [`ISerpGoogleOrganicTasksFixedResultInfo`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Source
+#### Defined in
 
-main.ts:26307
+main.ts:26489
 
 ***
 
 ### endpoint\_html?
 
-> **`optional`** **endpoint\_html**: `string`
+> `optional` **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -78,15 +78,15 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 [`ISerpGoogleOrganicTasksFixedResultInfo`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md#endpoint_html)
 
-#### Source
+#### Defined in
 
-main.ts:26310
+main.ts:26492
 
 ***
 
 ### endpoint\_regular?
 
-> **`optional`** **endpoint\_regular**: `string`
+> `optional` **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -95,15 +95,15 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 [`ISerpGoogleOrganicTasksFixedResultInfo`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md#endpoint_regular)
 
-#### Source
+#### Defined in
 
-main.ts:26304
+main.ts:26486
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -112,15 +112,15 @@ unique task identifier in our system in the UUID format
 
 [`ISerpGoogleOrganicTasksFixedResultInfo`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md).[`id`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:26292
+main.ts:26474
 
 ***
 
 ### se?
 
-> **`optional`** **se**: `string`
+> `optional` **se**: `string`
 
 search engine specified when setting the task
 
@@ -128,15 +128,15 @@ search engine specified when setting the task
 
 [`ISerpGoogleOrganicTasksFixedResultInfo`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md).[`se`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md#se)
 
-#### Source
+#### Defined in
 
-main.ts:26294
+main.ts:26476
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 type of search engine
 can take the following values: organic
@@ -145,15 +145,15 @@ can take the following values: organic
 
 [`ISerpGoogleOrganicTasksFixedResultInfo`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:26297
+main.ts:26479
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
@@ -161,9 +161,9 @@ user-defined task identifier
 
 [`ISerpGoogleOrganicTasksFixedResultInfo`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpGoogleOrganicTasksFixedResultInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:26301
+main.ts:26483
 
 ## Methods
 
@@ -179,9 +179,9 @@ main.ts:26301
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:26323
+main.ts:26505
 
 ***
 
@@ -197,15 +197,15 @@ main.ts:26323
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:26347
+main.ts:26529
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleOrganicTasksFixedResultInfo`](SerpGoogleOrganicTasksFixedResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleOrganicTasksFixedResultInfo`](SerpGoogleOrganicTasksFixedResultInfo.md)
 
 #### Parameters
 
@@ -215,6 +215,6 @@ main.ts:26347
 
 [`SerpGoogleOrganicTasksFixedResultInfo`](SerpGoogleOrganicTasksFixedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:26340
+main.ts:26522

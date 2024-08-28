@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,16 +14,16 @@
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in
 example:
-["metrics.organic.pos_1,">`",0]
+["metrics.organic.pos_1,">",0]
 [["metrics.organic.count",">=",100],
 "and",
 ["metrics.organic.impressions_etv","in",[10,100]]]
@@ -32,33 +32,32 @@ example:
 ["metrics.organic.impressions_etv","in",[10,100]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:88263
+main.ts:88827
 
 ***
 
 ### include\_clickstream\_data?
 
-> **`optional`** **include\_clickstream\_data**: `boolean`
+> `optional` **include\_clickstream\_data**: `boolean`
 
 include or exclude data from clickstream-based metrics in the result
 optional field
 if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
-Note: clickstream data is available for roughly 15% of keywords in the response
 learn more about how clickstream-based metrics are calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:88238
+main.ts:88802
 
 ***
 
 ### include\_subcategories?
 
-> **`optional`** **include\_subcategories**: `boolean`
+> `optional` **include\_subcategories**: `boolean`
 
 indicates if the subcategories will be included in the search
 optional field
@@ -66,15 +65,15 @@ if set to false, the subcategories will be ignored
 default value: false
 learn more about the parameter in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:88230
+main.ts:88795
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -85,15 +84,15 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Source
+#### Defined in
 
-main.ts:88247
+main.ts:88811
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -103,15 +102,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:88224
+main.ts:88789
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -121,30 +120,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:88216
+main.ts:88781
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned categories
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:88285
+main.ts:88849
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -154,15 +153,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:88208
+main.ts:88773
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -172,30 +171,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:88200
+main.ts:88765
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned categories 
 optional field
 default value: 0
 if you specify the 10 value, the first ten categories in the results array will be omitted and the data will be provided for the successive categories
 
-#### Source
+#### Defined in
 
-main.ts:88290
+main.ts:88854
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -214,15 +213,15 @@ default rule:
 ["metrics.organic.count,desc"]
 Note: if the item_types array contains item types that are different from the organic object, the results will be ordered by the first item type in the array
 
-#### Source
+#### Defined in
 
-main.ts:88280
+main.ts:88844
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -230,21 +229,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:88296
+main.ts:88860
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain or subdomain
 required field
 the domain or subdomain name of the target website
 the domain or subdomain should be specified without https:// and www.
 
-#### Source
+#### Defined in
 
-main.ts:88192
+main.ts:88757

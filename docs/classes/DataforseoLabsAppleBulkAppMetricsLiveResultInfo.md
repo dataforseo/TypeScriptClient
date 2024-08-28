@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAppleBulkAppMetricsLiveResultInfo(data)
+### new DataforseoLabsAppleBulkAppMetricsLiveResultInfo()
 
 > **new DataforseoLabsAppleBulkAppMetricsLiveResultInfo**(`data`?): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:116201
+main.ts:116833
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)[]
 
 contains data related to the ranking app metrics of the specified application
 
@@ -44,15 +44,15 @@ contains data related to the ranking app metrics of the specified application
 
 [`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:116197
+main.ts:116829
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,15 +60,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:116195
+main.ts:116827
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -76,15 +76,15 @@ language code in a POST array
 
 [`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:116191
+main.ts:116823
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -92,15 +92,15 @@ location code in a POST array
 
 [`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:116189
+main.ts:116821
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -108,15 +108,15 @@ search engine type
 
 [`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:116187
+main.ts:116819
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
@@ -124,9 +124,9 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsAppleBulkAppMetricsLiveResultInfo`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAppleBulkAppMetricsLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:116193
+main.ts:116825
 
 ## Methods
 
@@ -142,9 +142,9 @@ main.ts:116193
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:116210
+main.ts:116842
 
 ***
 
@@ -160,15 +160,15 @@ main.ts:116210
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:116236
+main.ts:116868
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
 #### Parameters
 
@@ -178,6 +178,6 @@ main.ts:116236
 
 [`DataforseoLabsAppleBulkAppMetricsLiveResultInfo`](DataforseoLabsAppleBulkAppMetricsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:116229
+main.ts:116861

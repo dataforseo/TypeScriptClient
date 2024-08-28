@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoTrendsDemographyInfo(data)
+### new DataforseoTrendsDemographyInfo()
 
 > **new DataforseoTrendsDemographyInfo**(`data`?): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130355
+main.ts:130179
 
 ## Properties
 
 ### demography?
 
-> **`optional`** **demography**: [`Demography`](Demography.md)
+> `optional` **demography**: [`Demography`](Demography.md)
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
@@ -45,15 +45,15 @@ conains keyword popularity data by age and gender
 
 [`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`demography`](../interfaces/IDataforseoTrendsDemographyInfo.md#demography)
 
-#### Source
+#### Defined in
 
-main.ts:130347
+main.ts:130171
 
 ***
 
 ### demography\_comparison?
 
-> **`optional`** **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
+> `optional` **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
@@ -63,15 +63,15 @@ if you specified a single keyword, the value will be null
 
 [`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`demography_comparison`](../interfaces/IDataforseoTrendsDemographyInfo.md#demography_comparison)
 
-#### Source
+#### Defined in
 
-main.ts:130351
+main.ts:130175
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the demography and demography_comparison is based on the keywords listed in this array
@@ -80,15 +80,15 @@ the data included in the demography and demography_comparison is based on the ke
 
 [`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`keywords`](../interfaces/IDataforseoTrendsDemographyInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:130344
+main.ts:130168
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -97,15 +97,15 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`position`](../interfaces/IDataforseoTrendsDemographyInfo.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:130339
+main.ts:130163
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -113,9 +113,9 @@ type of element
 
 [`IDataforseoTrendsDemographyInfo`](../interfaces/IDataforseoTrendsDemographyInfo.md).[`type`](../interfaces/IDataforseoTrendsDemographyInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:130341
+main.ts:130165
 
 ## Methods
 
@@ -131,9 +131,9 @@ main.ts:130341
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:130364
+main.ts:130188
 
 ***
 
@@ -149,15 +149,15 @@ main.ts:130364
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:130389
+main.ts:130213
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
 #### Parameters
 
@@ -167,6 +167,6 @@ main.ts:130389
 
 [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130382
+main.ts:130206

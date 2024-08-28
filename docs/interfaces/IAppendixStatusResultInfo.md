@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### api?
 
-> **`optional`** **api**: `string`
+> `optional` **api**: `string`
 
 name of the API
 the list of APIs:
@@ -31,27 +31,27 @@ app_data
 content_analysis
 content_generation
 
-#### Source
+#### Defined in
 
-main.ts:224781
+main.ts:229053
 
 ***
 
 ### endpoints?
 
-> **`optional`** **endpoints**: [`AppendixStatusEndpointsInfo`](../classes/AppendixStatusEndpointsInfo.md)[]
+> `optional` **endpoints**: [`AppendixStatusEndpointsInfo`](../classes/AppendixStatusEndpointsInfo.md)[]
 
 array of objects that contain status information for API endpoints
 
-#### Source
+#### Defined in
 
-main.ts:224793
+main.ts:229065
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `string`
+> `optional` **status**: `string`
 
 current status
 you can find all information about your API statuses for the last 60 days here
@@ -63,6 +63,6 @@ long_execution_time
 webhook_delay
 send_delay
 
-#### Source
+#### Defined in
 
-main.ts:224791
+main.ts:229063

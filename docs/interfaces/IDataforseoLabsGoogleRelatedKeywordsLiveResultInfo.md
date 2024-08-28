@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,99 +14,99 @@
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](../classes/DataforseoLabsGoogleRelatedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](../classes/DataforseoLabsGoogleRelatedKeywordsLiveItem.md)[]
 
 contains keywords and related data
 
-#### Source
+#### Defined in
 
-main.ts:85134
+main.ts:85698
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:85132
+main.ts:85696
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:85128
+main.ts:85692
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:85126
+main.ts:85690
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:85119
+main.ts:85683
 
 ***
 
 ### seed\_keyword?
 
-> **`optional`** **seed\_keyword**: `string`
+> `optional` **seed\_keyword**: `string`
 
 keyword in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:85121
+main.ts:85685
 
 ***
 
 ### seed\_keyword\_data?
 
-> **`optional`** **seed\_keyword\_data**: `Object`
+> `optional` **seed\_keyword\_data**: `object`
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:85124
+main.ts:85688
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:85130
+main.ts:85694

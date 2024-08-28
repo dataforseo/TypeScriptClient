@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ItemsRankedSerpElement(data)
+### new ItemsRankedSerpElement()
 
 > **new ItemsRankedSerpElement**(`data`?): [`ItemsRankedSerpElement`](ItemsRankedSerpElement.md)
 
@@ -28,15 +28,15 @@
 
 [`ItemsRankedSerpElement`](ItemsRankedSerpElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:116780
+main.ts:117412
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,15 @@ you can use it to make sure that we provided accurate results
 
 [`IItemsRankedSerpElement`](../interfaces/IItemsRankedSerpElement.md).[`check_url`](../interfaces/IItemsRankedSerpElement.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:116763
+main.ts:117395
 
 ***
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
 date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +64,15 @@ example:
 
 [`IItemsRankedSerpElement`](../interfaces/IItemsRankedSerpElement.md).[`last_updated_time`](../interfaces/IItemsRankedSerpElement.md#last_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:116770
+main.ts:117402
 
 ***
 
 ### previous\_updated\_time?
 
-> **`optional`** **previous\_updated\_time**: `string`
+> `optional` **previous\_updated\_time**: `string`
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -84,15 +84,15 @@ in this case, will equal null
 
 [`IItemsRankedSerpElement`](../interfaces/IItemsRankedSerpElement.md).[`previous_updated_time`](../interfaces/IItemsRankedSerpElement.md#previous_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:116776
+main.ts:117408
 
 ***
 
 ### se\_results\_count?
 
-> **`optional`** **se\_results\_count**: `string`
+> `optional` **se\_results\_count**: `string`
 
 number of search results for the returned keyword
 
@@ -100,15 +100,15 @@ number of search results for the returned keyword
 
 [`IItemsRankedSerpElement`](../interfaces/IItemsRankedSerpElement.md).[`se_results_count`](../interfaces/IItemsRankedSerpElement.md#se_results_count)
 
-#### Source
+#### Defined in
 
-main.ts:116765
+main.ts:117397
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -116,15 +116,15 @@ search engine type
 
 [`IItemsRankedSerpElement`](../interfaces/IItemsRankedSerpElement.md).[`se_type`](../interfaces/IItemsRankedSerpElement.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:116757
+main.ts:117389
 
 ***
 
 ### serp\_item?
 
-> **`optional`** **serp\_item**: [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
+> `optional` **serp\_item**: [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -133,9 +133,9 @@ the list of supported SERP elements can be found below
 
 [`IItemsRankedSerpElement`](../interfaces/IItemsRankedSerpElement.md).[`serp_item`](../interfaces/IItemsRankedSerpElement.md#serp_item)
 
-#### Source
+#### Defined in
 
-main.ts:116760
+main.ts:117392
 
 ## Methods
 
@@ -151,9 +151,9 @@ main.ts:116760
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:116789
+main.ts:117421
 
 ***
 
@@ -169,15 +169,15 @@ main.ts:116789
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:116811
+main.ts:117443
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ItemsRankedSerpElement`](ItemsRankedSerpElement.md)
+> `static` **fromJS**(`data`): [`ItemsRankedSerpElement`](ItemsRankedSerpElement.md)
 
 #### Parameters
 
@@ -187,6 +187,6 @@ main.ts:116811
 
 [`ItemsRankedSerpElement`](ItemsRankedSerpElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:116804
+main.ts:117436

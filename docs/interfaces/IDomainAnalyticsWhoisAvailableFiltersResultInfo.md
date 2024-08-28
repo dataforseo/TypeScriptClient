@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,12 +14,12 @@
 
 ### overview?
 
-> **`optional`** **overview**: `Object`
+> `optional` **overview**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:79950
+main.ts:80546

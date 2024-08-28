@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ResponseDataInfo(data)
+### new ResponseDataInfo()
 
 > **new ResponseDataInfo**(`data`?): [`ResponseDataInfo`](ResponseDataInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ResponseDataInfo`](ResponseDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:193677
+main.ts:195509
 
 ## Properties
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 author of the response
 
@@ -44,15 +44,15 @@ author of the response
 
 [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`author`](../interfaces/IResponseDataInfo.md#author)
 
-#### Source
+#### Defined in
 
-main.ts:193663
+main.ts:195495
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 content of the response
 
@@ -60,15 +60,15 @@ content of the response
 
 [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`text`](../interfaces/IResponseDataInfo.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:193668
+main.ts:195500
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the response was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -79,15 +79,15 @@ example:
 
 [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`timestamp`](../interfaces/IResponseDataInfo.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:193673
+main.ts:195505
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the response
 in this case, will equal null
@@ -96,9 +96,9 @@ in this case, will equal null
 
 [`IResponseDataInfo`](../interfaces/IResponseDataInfo.md).[`title`](../interfaces/IResponseDataInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:193666
+main.ts:195498
 
 ## Methods
 
@@ -114,9 +114,9 @@ main.ts:193666
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:193686
+main.ts:195518
 
 ***
 
@@ -132,15 +132,15 @@ main.ts:193686
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:193706
+main.ts:195538
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ResponseDataInfo`](ResponseDataInfo.md)
+> `static` **fromJS**(`data`): [`ResponseDataInfo`](ResponseDataInfo.md)
 
 #### Parameters
 
@@ -150,6 +150,6 @@ main.ts:193706
 
 [`ResponseDataInfo`](ResponseDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:193699
+main.ts:195531

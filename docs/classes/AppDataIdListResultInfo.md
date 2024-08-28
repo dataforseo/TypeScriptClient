@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataIdListResultInfo(data)
+### new AppDataIdListResultInfo()
 
 > **new AppDataIdListResultInfo**(`data`?): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:188457
+main.ts:190289
 
 ## Properties
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 cost of the task, USD
 
@@ -44,15 +44,15 @@ cost of the task, USD
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`cost`](../interfaces/IAppDataIdListResultInfo.md#cost)
 
-#### Source
+#### Defined in
 
-main.ts:188451
+main.ts:190283
 
 ***
 
 ### datetime\_done?
 
-> **`optional`** **datetime\_done**: `string`
+> `optional` **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +63,15 @@ example:
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`datetime_done`](../interfaces/IAppDataIdListResultInfo.md#datetime_done)
 
-#### Source
+#### Defined in
 
-main.ts:188446
+main.ts:190278
 
 ***
 
 ### datetime\_posted?
 
-> **`optional`** **datetime\_posted**: `string`
+> `optional` **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,15 @@ example:
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`datetime_posted`](../interfaces/IAppDataIdListResultInfo.md#datetime_posted)
 
-#### Source
+#### Defined in
 
-main.ts:188441
+main.ts:190273
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the task
 
@@ -98,19 +98,19 @@ id of the task
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`id`](../interfaces/IAppDataIdListResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:188433
+main.ts:190265
 
 ***
 
 ### metadata?
 
-> **`optional`** **metadata**: `Object`
+> `optional` **metadata**: `object`
 
 contains parameters you specified in the POST request
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `any`
 
@@ -118,15 +118,15 @@ contains parameters you specified in the POST request
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`metadata`](../interfaces/IAppDataIdListResultInfo.md#metadata)
 
-#### Source
+#### Defined in
 
-main.ts:188453
+main.ts:190285
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `string`
+> `optional` **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +135,15 @@ you can find the full list of general informational messages here
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`status`](../interfaces/IAppDataIdListResultInfo.md#status)
 
-#### Source
+#### Defined in
 
-main.ts:188449
+main.ts:190281
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the task
 URL you used for making an API call
@@ -152,9 +152,9 @@ URL you used for making an API call
 
 [`IAppDataIdListResultInfo`](../interfaces/IAppDataIdListResultInfo.md).[`url`](../interfaces/IAppDataIdListResultInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:188436
+main.ts:190268
 
 ## Methods
 
@@ -170,9 +170,9 @@ main.ts:188436
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:188466
+main.ts:190298
 
 ***
 
@@ -188,15 +188,15 @@ main.ts:188466
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:188495
+main.ts:190327
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
 #### Parameters
 
@@ -206,6 +206,6 @@ main.ts:188495
 
 [`AppDataIdListResultInfo`](AppDataIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:188488
+main.ts:190320

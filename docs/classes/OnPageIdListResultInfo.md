@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageIdListResultInfo(data)
+### new OnPageIdListResultInfo()
 
 > **new OnPageIdListResultInfo**(`data`?): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153146
+main.ts:154972
 
 ## Properties
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 cost of the task, USD
 
@@ -44,15 +44,15 @@ cost of the task, USD
 
 [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`cost`](../interfaces/IOnPageIdListResultInfo.md#cost)
 
-#### Source
+#### Defined in
 
-main.ts:153140
+main.ts:154966
 
 ***
 
 ### datetime\_done?
 
-> **`optional`** **datetime\_done**: `string`
+> `optional` **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +63,15 @@ example:
 
 [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`datetime_done`](../interfaces/IOnPageIdListResultInfo.md#datetime_done)
 
-#### Source
+#### Defined in
 
-main.ts:153135
+main.ts:154961
 
 ***
 
 ### datetime\_posted?
 
-> **`optional`** **datetime\_posted**: `string`
+> `optional` **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,15 @@ example:
 
 [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`datetime_posted`](../interfaces/IOnPageIdListResultInfo.md#datetime_posted)
 
-#### Source
+#### Defined in
 
-main.ts:153130
+main.ts:154956
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the task
 
@@ -98,35 +98,35 @@ id of the task
 
 [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`id`](../interfaces/IOnPageIdListResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:153122
+main.ts:154948
 
 ***
 
 ### metadata?
 
-> **`optional`** **metadata**: `Object`
+> `optional` **metadata**: `object`
 
 contains parameters you specified in the POST request
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `string`
+ \[`key`: `string`\]: `any`
 
 #### Implementation of
 
 [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`metadata`](../interfaces/IOnPageIdListResultInfo.md#metadata)
 
-#### Source
+#### Defined in
 
-main.ts:153142
+main.ts:154968
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `string`
+> `optional` **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +135,15 @@ you can find the full list of general informational messages here
 
 [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`status`](../interfaces/IOnPageIdListResultInfo.md#status)
 
-#### Source
+#### Defined in
 
-main.ts:153138
+main.ts:154964
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the task
 URL you used for making an API call
@@ -152,9 +152,9 @@ URL you used for making an API call
 
 [`IOnPageIdListResultInfo`](../interfaces/IOnPageIdListResultInfo.md).[`url`](../interfaces/IOnPageIdListResultInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:153125
+main.ts:154951
 
 ## Methods
 
@@ -170,9 +170,9 @@ main.ts:153125
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:153155
+main.ts:154981
 
 ***
 
@@ -188,15 +188,15 @@ main.ts:153155
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:153184
+main.ts:155010
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
 #### Parameters
 
@@ -206,6 +206,6 @@ main.ts:153184
 
 [`OnPageIdListResultInfo`](OnPageIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153177
+main.ts:155003

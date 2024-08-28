@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,118 +14,118 @@
 
 ### app\_data?
 
-> **`optional`** **app\_data**: [`AppendixAppDataPriceData`](../classes/AppendixAppDataPriceData.md)
+> `optional` **app\_data**: [`AppendixAppDataPriceData`](../classes/AppendixAppDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224078
+main.ts:228350
 
 ***
 
 ### appendix?
 
-> **`optional`** **appendix**: [`AppendixAppendixPriceData`](../classes/AppendixAppendixPriceData.md)
+> `optional` **appendix**: [`AppendixAppendixPriceData`](../classes/AppendixAppendixPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224077
+main.ts:228349
 
 ***
 
 ### backlinks?
 
-> **`optional`** **backlinks**: [`AppendixBacklinksPriceData`](../classes/AppendixBacklinksPriceData.md)
+> `optional` **backlinks**: [`AppendixBacklinksPriceData`](../classes/AppendixBacklinksPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224079
+main.ts:228351
 
 ***
 
 ### business\_data?
 
-> **`optional`** **business\_data**: [`AppendixBusinessDataPriceData`](../classes/AppendixBusinessDataPriceData.md)
+> `optional` **business\_data**: [`AppendixBusinessDataPriceData`](../classes/AppendixBusinessDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224080
+main.ts:228352
 
 ***
 
 ### content\_analysis?
 
-> **`optional`** **content\_analysis**: [`AppendixContentAnalysisPriceData`](../classes/AppendixContentAnalysisPriceData.md)
+> `optional` **content\_analysis**: [`AppendixContentAnalysisPriceData`](../classes/AppendixContentAnalysisPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224081
+main.ts:228353
 
 ***
 
 ### content\_generation?
 
-> **`optional`** **content\_generation**: [`AppendixContentGenerationPriceData`](../classes/AppendixContentGenerationPriceData.md)
+> `optional` **content\_generation**: [`AppendixContentGenerationPriceData`](../classes/AppendixContentGenerationPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224082
+main.ts:228354
 
 ***
 
 ### dataforseo\_labs?
 
-> **`optional`** **dataforseo\_labs**: [`AppendixDataforseoLabsPriceData`](../classes/AppendixDataforseoLabsPriceData.md)
+> `optional` **dataforseo\_labs**: [`AppendixDataforseoLabsPriceData`](../classes/AppendixDataforseoLabsPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224083
+main.ts:228355
 
 ***
 
 ### domain\_analytics?
 
-> **`optional`** **domain\_analytics**: [`AppendixDomainAnalyticsPriceData`](../classes/AppendixDomainAnalyticsPriceData.md)
+> `optional` **domain\_analytics**: [`AppendixDomainAnalyticsPriceData`](../classes/AppendixDomainAnalyticsPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224084
+main.ts:228356
 
 ***
 
 ### keywords\_data?
 
-> **`optional`** **keywords\_data**: [`AppendixKeywordsDataPriceData`](../classes/AppendixKeywordsDataPriceData.md)
+> `optional` **keywords\_data**: [`AppendixKeywordsDataPriceData`](../classes/AppendixKeywordsDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224074
+main.ts:228346
 
 ***
 
 ### merchant?
 
-> **`optional`** **merchant**: [`AppendixMerchantPriceData`](../classes/AppendixMerchantPriceData.md)
+> `optional` **merchant**: [`AppendixMerchantPriceData`](../classes/AppendixMerchantPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224075
+main.ts:228347
 
 ***
 
 ### on\_page?
 
-> **`optional`** **on\_page**: [`AppendixOnPagePriceData`](../classes/AppendixOnPagePriceData.md)
+> `optional` **on\_page**: [`AppendixOnPagePriceData`](../classes/AppendixOnPagePriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224085
+main.ts:228357
 
 ***
 
 ### serp?
 
-> **`optional`** **serp**: [`AppendixSerpPriceData`](../classes/AppendixSerpPriceData.md)
+> `optional` **serp**: [`AppendixSerpPriceData`](../classes/AppendixSerpPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:224076
+main.ts:228348

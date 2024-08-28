@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ProductVariation(data)
+### new ProductVariation()
 
 > **new ProductVariation**(`data`?): [`ProductVariation`](ProductVariation.md)
 
@@ -28,15 +28,15 @@
 
 [`ProductVariation`](ProductVariation.md)
 
-#### Source
+#### Defined in
 
-main.ts:181120
+main.ts:182952
 
 ## Properties
 
 ### product\_id?
 
-> **`optional`** **product\_id**: `string`
+> `optional` **product\_id**: `string`
 
 product ID in a POST array
 learn more about the parameter in this help center guide
@@ -45,15 +45,15 @@ learn more about the parameter in this help center guide
 
 [`IProductVariation`](../interfaces/IProductVariation.md).[`product_id`](../interfaces/IProductVariation.md#product_id)
 
-#### Source
+#### Defined in
 
-main.ts:181111
+main.ts:182943
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 name of the product seller
 
@@ -61,15 +61,15 @@ name of the product seller
 
 [`IProductVariation`](../interfaces/IProductVariation.md).[`title`](../interfaces/IProductVariation.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:181113
+main.ts:182945
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -77,15 +77,15 @@ type of element
 
 [`IProductVariation`](../interfaces/IProductVariation.md).[`type`](../interfaces/IProductVariation.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:181108
+main.ts:182940
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 seller url
 url of the webpage on the seller’s website where the product is sold
@@ -94,9 +94,9 @@ url of the webpage on the seller’s website where the product is sold
 
 [`IProductVariation`](../interfaces/IProductVariation.md).[`url`](../interfaces/IProductVariation.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:181116
+main.ts:182948
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:181116
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:181129
+main.ts:182961
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:181129
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:181149
+main.ts:182981
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ProductVariation`](ProductVariation.md)
+> `static` **fromJS**(`data`): [`ProductVariation`](ProductVariation.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:181149
 
 [`ProductVariation`](ProductVariation.md)
 
-#### Source
+#### Defined in
 
-main.ts:181142
+main.ts:182974

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,138 +18,138 @@
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
-#### Source
+#### Defined in
 
-main.ts:47457
+main.ts:47989
 
 ***
 
 ### event\_dates?
 
-> **`optional`** **event\_dates**: [`EventDates`](../classes/EventDates.md)
+> `optional` **event\_dates**: [`EventDates`](../classes/EventDates.md)
 
 dates when the event takes place
 if there are none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:47464
+main.ts:47996
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image featured in the element
 
-#### Source
+#### Defined in
 
-main.ts:47461
+main.ts:47993
 
 ***
 
 ### information\_and\_tickets?
 
-> **`optional`** **information\_and\_tickets**: [`InformationAndTicketsElement`](../classes/InformationAndTicketsElement.md)[]
+> `optional` **information\_and\_tickets**: [`InformationAndTicketsElement`](../classes/InformationAndTicketsElement.md)[]
 
 additional information and ticket purchase options
 if there is none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:47470
+main.ts:48002
 
 ***
 
 ### location\_info?
 
-> **`optional`** **location\_info**: [`LocationInfo`](../classes/LocationInfo.md)
+> `optional` **location\_info**: [`LocationInfo`](../classes/LocationInfo.md)
 
 information about the event’s venue
 if there is none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:47467
+main.ts:47999
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:47451
+main.ts:47983
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:47447
+main.ts:47979
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:47444
+main.ts:47976
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the result in SERP
 
-#### Source
+#### Defined in
 
-main.ts:47455
+main.ts:47987
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 relevant URL
 
-#### Source
+#### Defined in
 
-main.ts:47459
+main.ts:47991
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:47453
+main.ts:47985

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGooglePageIntersectionLiveItem(data)
+### new DataforseoLabsGooglePageIntersectionLiveItem()
 
 > **new DataforseoLabsGooglePageIntersectionLiveItem**(`data`?): [`DataforseoLabsGooglePageIntersectionLiveItem`](DataforseoLabsGooglePageIntersectionLiveItem.md)
 
@@ -28,21 +28,21 @@
 
 [`DataforseoLabsGooglePageIntersectionLiveItem`](DataforseoLabsGooglePageIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:102735
+main.ts:103341
 
 ## Properties
 
 ### intersection\_result?
 
-> **`optional`** **intersection\_result**: `Object`
+> `optional` **intersection\_result**: `object`
 
 contains data on the SERP elements found for the returned keyword
 data will be provided in separate arrays for each URL you specified in the pages object when setting a task;
 depending on the number of specified URLs, it can contain from 1 to 20 arrays named respectively
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
@@ -50,15 +50,15 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 [`IDataforseoLabsGooglePageIntersectionLiveItem`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveItem.md).[`intersection_result`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveItem.md#intersection_result)
 
-#### Source
+#### Defined in
 
-main.ts:102731
+main.ts:103337
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -66,15 +66,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsGooglePageIntersectionLiveItem`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:102727
+main.ts:103333
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -82,9 +82,9 @@ search engine type
 
 [`IDataforseoLabsGooglePageIntersectionLiveItem`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:102725
+main.ts:103331
 
 ## Methods
 
@@ -100,9 +100,9 @@ main.ts:102725
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:102744
+main.ts:103350
 
 ***
 
@@ -118,15 +118,15 @@ main.ts:102744
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:102769
+main.ts:103375
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveItem`](DataforseoLabsGooglePageIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveItem`](DataforseoLabsGooglePageIntersectionLiveItem.md)
 
 #### Parameters
 
@@ -136,6 +136,6 @@ main.ts:102769
 
 [`DataforseoLabsGooglePageIntersectionLiveItem`](DataforseoLabsGooglePageIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:102762
+main.ts:103368

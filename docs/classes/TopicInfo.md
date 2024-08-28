@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TopicInfo(data)
+### new TopicInfo()
 
 > **new TopicInfo**(`data`?): [`TopicInfo`](TopicInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`TopicInfo`](TopicInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163900
+main.ts:165732
 
 ## Properties
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 content author name
 
@@ -44,15 +44,15 @@ content author name
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`author`](../interfaces/ITopicInfo.md#author)
 
-#### Source
+#### Defined in
 
-main.ts:163884
+main.ts:165716
 
 ***
 
 ### h\_title?
 
-> **`optional`** **h\_title**: `string`
+> `optional` **h\_title**: `string`
 
 meta title
 
@@ -60,15 +60,15 @@ meta title
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`h_title`](../interfaces/ITopicInfo.md#h_title)
 
-#### Source
+#### Defined in
 
-main.ts:163880
+main.ts:165712
 
 ***
 
 ### language?
 
-> **`optional`** **language**: `string`
+> `optional` **language**: `string`
 
 content language
 
@@ -76,15 +76,15 @@ content language
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`language`](../interfaces/ITopicInfo.md#language)
 
-#### Source
+#### Defined in
 
-main.ts:163886
+main.ts:165718
 
 ***
 
 ### level?
 
-> **`optional`** **level**: `number`
+> `optional` **level**: `number`
 
 HTML level
 
@@ -92,15 +92,15 @@ HTML level
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`level`](../interfaces/ITopicInfo.md#level)
 
-#### Source
+#### Defined in
 
-main.ts:163888
+main.ts:165720
 
 ***
 
 ### main\_title?
 
-> **`optional`** **main\_title**: `string`
+> `optional` **main\_title**: `string`
 
 main title of the block
 
@@ -108,15 +108,15 @@ main title of the block
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`main_title`](../interfaces/ITopicInfo.md#main_title)
 
-#### Source
+#### Defined in
 
-main.ts:163882
+main.ts:165714
 
 ***
 
 ### primary\_content?
 
-> **`optional`** **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> `optional` **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -125,15 +125,15 @@ you can find more information about content priority calculation in this help ce
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`primary_content`](../interfaces/ITopicInfo.md#primary_content)
 
-#### Source
+#### Defined in
 
-main.ts:163891
+main.ts:165723
 
 ***
 
 ### secondary\_content?
 
-> **`optional`** **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> `optional` **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -142,15 +142,15 @@ you can find more information about content priority calculation in this help ce
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`secondary_content`](../interfaces/ITopicInfo.md#secondary_content)
 
-#### Source
+#### Defined in
 
-main.ts:163894
+main.ts:165726
 
 ***
 
 ### table\_content?
 
-> **`optional`** **table\_content**: [`TableContent`](TableContent.md)[]
+> `optional` **table\_content**: [`TableContent`](TableContent.md)[]
 
 content of the table on the page
 
@@ -158,9 +158,9 @@ content of the table on the page
 
 [`ITopicInfo`](../interfaces/ITopicInfo.md).[`table_content`](../interfaces/ITopicInfo.md#table_content)
 
-#### Source
+#### Defined in
 
-main.ts:163896
+main.ts:165728
 
 ## Methods
 
@@ -176,9 +176,9 @@ main.ts:163896
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163909
+main.ts:165741
 
 ***
 
@@ -194,15 +194,15 @@ main.ts:163909
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163945
+main.ts:165777
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TopicInfo`](TopicInfo.md)
+> `static` **fromJS**(`data`): [`TopicInfo`](TopicInfo.md)
 
 #### Parameters
 
@@ -212,6 +212,6 @@ main.ts:163945
 
 [`TopicInfo`](TopicInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163938
+main.ts:165770

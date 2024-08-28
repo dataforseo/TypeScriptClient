@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,59 +14,59 @@
 
 ### mentioned\_in?
 
-> **`optional`** **mentioned\_in**: [`LinkElement`](../classes/LinkElement.md)[]
+> `optional` **mentioned\_in**: [`LinkElement`](../classes/LinkElement.md)[]
 
 additional elements in the mention_carousel item
 
-#### Source
+#### Defined in
 
-main.ts:32452
+main.ts:32648
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price indicated in the element
 
-#### Source
+#### Defined in
 
-main.ts:32447
+main.ts:32643
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Source
+#### Defined in
 
-main.ts:32450
+main.ts:32646
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:32445
+main.ts:32641
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:32443
+main.ts:32639

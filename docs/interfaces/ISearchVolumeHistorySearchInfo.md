@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,50 +14,50 @@
 
 ### desktop?
 
-> **`optional`** **desktop**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
+> `optional` **desktop**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
 
 device type = desktop
 contains historical search volume data for searches made from desktop devices
 
-#### Source
+#### Defined in
 
-main.ts:138088
+main.ts:137914
 
 ***
 
 ### mobile?
 
-> **`optional`** **mobile**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
+> `optional` **mobile**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
 
 device type = mobile
 contains historical search volume data for searches made from mobile devices
 
-#### Source
+#### Defined in
 
-main.ts:138094
+main.ts:137920
 
 ***
 
 ### non\_smartphones?
 
-> **`optional`** **non\_smartphones**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
+> `optional` **non\_smartphones**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
 
 device type = non-smartphones
 contains historical search volume data for searches made from feature phones (non-smartphone mobile devices)
 
-#### Source
+#### Defined in
 
-main.ts:138091
+main.ts:137917
 
 ***
 
 ### tablet?
 
-> **`optional`** **tablet**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
+> `optional` **tablet**: [`SearchVolumeHistoryItemInfo`](../classes/SearchVolumeHistoryItemInfo.md)[]
 
 device type = tablet
 contains historical search volume data for searches made from tablets
 
-#### Source
+#### Defined in
 
-main.ts:138097
+main.ts:137923

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new GoogleShoppingSerpMerchantSerpElementItem(data)
+### new GoogleShoppingSerpMerchantSerpElementItem()
 
 > **new GoogleShoppingSerpMerchantSerpElementItem**(`data`?): [`GoogleShoppingSerpMerchantSerpElementItem`](GoogleShoppingSerpMerchantSerpElementItem.md)
 
@@ -36,34 +36,34 @@
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:176755
+main.ts:178587
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`_discriminator`](BaseMerchantSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20843
+main.ts:21025
 
 ***
 
 ### additional\_specifications?
 
-> **`optional`** **additional\_specifications**: `Object`
+> `optional` **additional\_specifications**: `object`
 
 object containing additional url parameters
 you can get more details about the product by using this object in the POST request to the Google Shopping Product Specification and Google Shopping Sellers endpoint
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -71,15 +71,15 @@ you can get more details about the product by using this object in the POST requ
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`additional_specifications`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#additional_specifications)
 
-#### Source
+#### Defined in
 
-main.ts:176725
+main.ts:178557
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency in the ISO format
 example:
@@ -89,15 +89,15 @@ USD
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`currency`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#currency)
 
-#### Source
+#### Defined in
 
-main.ts:176707
+main.ts:178539
 
 ***
 
 ### data\_docid?
 
-> **`optional`** **data\_docid**: `string`
+> `optional` **data\_docid**: `string`
 
 unique identifier of the SERP data element
 note that there is no full list of possible values as the data_docid is a dynamic value assigned by Google
@@ -108,15 +108,15 @@ example:
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`data_docid`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#data_docid)
 
-#### Source
+#### Defined in
 
-main.ts:176719
+main.ts:178551
 
 ***
 
 ### delivery\_info?
 
-> **`optional`** **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
+> `optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -125,15 +125,15 @@ delivery information including free and fast delivery date ranges
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`delivery_info`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#delivery_info)
 
-#### Source
+#### Defined in
 
-main.ts:176748
+main.ts:178580
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the product in Google Shopping SERP
 
@@ -141,15 +141,15 @@ description of the product in Google Shopping SERP
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`description`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:176688
+main.ts:178520
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain in SERP
 
@@ -157,15 +157,15 @@ domain in SERP
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`domain`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:176684
+main.ts:178516
 
 ***
 
 ### is\_best\_match?
 
-> **`optional`** **is\_best\_match**: `boolean`
+> `optional` **is\_best\_match**: `boolean`
 
 “best match” label
 if the value is true, the product is marked with the “best match” label
@@ -175,15 +175,15 @@ if there are no values, you will get null
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`is_best_match`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#is_best_match)
 
-#### Source
+#### Defined in
 
-main.ts:176733
+main.ts:178565
 
 ***
 
 ### old\_price?
 
-> **`optional`** **old\_price**: `number`
+> `optional` **old\_price**: `number`
 
 product old price
 displayed if the product price has been changed
@@ -194,15 +194,15 @@ example:
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`old_price`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#old_price)
 
-#### Source
+#### Defined in
 
-main.ts:176703
+main.ts:178535
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 alignment of the element in SERP
 can take the following values:
@@ -212,15 +212,15 @@ left, right
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`position`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:176680
+main.ts:178512
 
 ***
 
 ### price?
 
-> **`optional`** **price**: `number`
+> `optional` **price**: `number`
 
 product price
 example:
@@ -230,15 +230,15 @@ example:
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`price`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:176698
+main.ts:178530
 
 ***
 
 ### product\_id?
 
-> **`optional`** **product\_id**: `string`
+> `optional` **product\_id**: `string`
 
 unique product identifier on Google Shopping
 note that there is no full list of possible values as the product_id is a dynamic value assigned by Google
@@ -251,15 +251,15 @@ learn more about the parameter in this help center guide
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`product_id`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#product_id)
 
-#### Source
+#### Defined in
 
-main.ts:176714
+main.ts:178546
 
 ***
 
 ### product\_images?
 
-> **`optional`** **product\_images**: `string`[]
+> `optional` **product\_images**: `string`[]
 
 URLs to the images of the product
 the first URL in the array is the featured image of the product
@@ -268,15 +268,15 @@ the first URL in the array is the featured image of the product
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`product_images`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#product_images)
 
-#### Source
+#### Defined in
 
-main.ts:176742
+main.ts:178574
 
 ***
 
 ### product\_rating?
 
-> **`optional`** **product\_rating**: [`RatingElement`](RatingElement.md)
+> `optional` **product\_rating**: [`RatingElement`](RatingElement.md)
 
 product rating
 the product popularity rate based on product reviews
@@ -285,15 +285,15 @@ the product popularity rate based on product reviews
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`product_rating`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#product_rating)
 
-#### Source
+#### Defined in
 
-main.ts:176736
+main.ts:178568
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
@@ -302,15 +302,15 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:176676
+main.ts:178508
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -319,15 +319,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`rank_group`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:176673
+main.ts:178505
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 number of product reviews
 indicates the number of reviews left by users on Google Shopping
@@ -337,15 +337,15 @@ if there are no values, you will get null
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`reviews_count`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#reviews_count)
 
-#### Source
+#### Defined in
 
-main.ts:176729
+main.ts:178561
 
 ***
 
 ### seller?
 
-> **`optional`** **seller**: `string`
+> `optional` **seller**: `string`
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -354,15 +354,15 @@ the name of the company that placed a corresponding product on Google Shopping
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`seller`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#seller)
 
-#### Source
+#### Defined in
 
-main.ts:176722
+main.ts:178554
 
 ***
 
 ### shop\_ad\_aclk?
 
-> **`optional`** **shop\_ad\_aclk**: `string`
+> `optional` **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -371,15 +371,15 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`shop_ad_aclk`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#shop_ad_aclk)
 
-#### Source
+#### Defined in
 
-main.ts:176745
+main.ts:178577
 
 ***
 
 ### shop\_rating?
 
-> **`optional`** **shop\_rating**: [`RatingElement`](RatingElement.md)
+> `optional` **shop\_rating**: [`RatingElement`](RatingElement.md)
 
 shop rating
 the popularity rate of the seller based on user reviews
@@ -388,15 +388,15 @@ the popularity rate of the seller based on user reviews
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`shop_rating`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#shop_rating)
 
-#### Source
+#### Defined in
 
-main.ts:176739
+main.ts:178571
 
 ***
 
 ### shopping\_url?
 
-> **`optional`** **shopping\_url**: `string`
+> `optional` **shopping\_url**: `string`
 
 URL to the product page on Google Shopping
 
@@ -404,15 +404,15 @@ URL to the product page on Google Shopping
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`shopping_url`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#shopping_url)
 
-#### Source
+#### Defined in
 
-main.ts:176692
+main.ts:178524
 
 ***
 
 ### stores\_count\_info?
 
-> **`optional`** **stores\_count\_info**: [`StoresCountInfo`](StoresCountInfo.md)
+> `optional` **stores\_count\_info**: [`StoresCountInfo`](StoresCountInfo.md)
 
 stores count information
 contains information about the number of stores that offer the same product
@@ -421,15 +421,15 @@ contains information about the number of stores that offer the same product
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`stores_count_info`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#stores_count_info)
 
-#### Source
+#### Defined in
 
-main.ts:176751
+main.ts:178583
 
 ***
 
 ### tags?
 
-> **`optional`** **tags**: `string`[]
+> `optional` **tags**: `string`[]
 
 tags assigned to the product
 
@@ -437,15 +437,15 @@ tags assigned to the product
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`tags`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#tags)
 
-#### Source
+#### Defined in
 
-main.ts:176694
+main.ts:178526
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 
@@ -453,15 +453,15 @@ title of the element
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`title`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:176686
+main.ts:178518
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the product page on the seller’s website
 
@@ -469,15 +469,15 @@ URL to the product page on the seller’s website
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`url`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:176690
+main.ts:178522
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 XPath of the element
 
@@ -485,9 +485,9 @@ XPath of the element
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`xpath`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:176682
+main.ts:178514
 
 ## Methods
 
@@ -507,9 +507,9 @@ main.ts:176682
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`init`](BaseMerchantSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:176760
+main.ts:178592
 
 ***
 
@@ -529,15 +529,15 @@ main.ts:176760
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`toJSON`](BaseMerchantSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:176816
+main.ts:178648
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GoogleShoppingSerpMerchantSerpElementItem`](GoogleShoppingSerpMerchantSerpElementItem.md)
+> `static` **fromJS**(`data`): [`GoogleShoppingSerpMerchantSerpElementItem`](GoogleShoppingSerpMerchantSerpElementItem.md)
 
 #### Parameters
 
@@ -551,6 +551,6 @@ main.ts:176816
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`fromJS`](BaseMerchantSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:176809
+main.ts:178641

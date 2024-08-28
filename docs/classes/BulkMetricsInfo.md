@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BulkMetricsInfo(data)
+### new BulkMetricsInfo()
 
 > **new BulkMetricsInfo**(`data`?): [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
@@ -28,15 +28,34 @@
 
 [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:103224
+main.ts:103835
 
 ## Properties
 
+### clickstream\_etv?
+
+> `optional` **clickstream\_etv**: `number`
+
+estimated traffic volume based on clickstream data
+calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
+to retrieve results for this field, the parameter include_clickstream_data must be set to true
+learn more about how the metric is calculated in this help center article https://dataforseo.com/help-center/whats-clickstream-estimated-traffic-volume-and-how-is-it-calculated
+
+#### Implementation of
+
+[`IBulkMetricsInfo`](../interfaces/IBulkMetricsInfo.md).[`clickstream_etv`](../interfaces/IBulkMetricsInfo.md#clickstream_etv)
+
+#### Defined in
+
+main.ts:103831
+
+***
+
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 total count of organic SERPs that contain the domain
 
@@ -44,15 +63,15 @@ total count of organic SERPs that contain the domain
 
 [`IBulkMetricsInfo`](../interfaces/IBulkMetricsInfo.md).[`count`](../interfaces/IBulkMetricsInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:103220
+main.ts:103826
 
 ***
 
 ### etv?
 
-> **`optional`** **etv**: `number`
+> `optional` **etv**: `number`
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -63,9 +82,9 @@ learn more about how the metric is calculated in this help center article
 
 [`IBulkMetricsInfo`](../interfaces/IBulkMetricsInfo.md).[`etv`](../interfaces/IBulkMetricsInfo.md#etv)
 
-#### Source
+#### Defined in
 
-main.ts:103218
+main.ts:103824
 
 ## Methods
 
@@ -81,9 +100,9 @@ main.ts:103218
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:103233
+main.ts:103844
 
 ***
 
@@ -99,15 +118,15 @@ main.ts:103233
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:103251
+main.ts:103863
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BulkMetricsInfo`](BulkMetricsInfo.md)
+> `static` **fromJS**(`data`): [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
 #### Parameters
 
@@ -117,6 +136,6 @@ main.ts:103251
 
 [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:103244
+main.ts:103856

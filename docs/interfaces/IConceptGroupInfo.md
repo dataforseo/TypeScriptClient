@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 the concept group name
 
-#### Source
+#### Defined in
 
-main.ts:121238
+main.ts:121870
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:121240
+main.ts:121872

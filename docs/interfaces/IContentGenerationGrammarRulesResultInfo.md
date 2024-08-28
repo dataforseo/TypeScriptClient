@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,10 +14,10 @@
 
 ### rules?
 
-> **`optional`** **rules**: `string`[]
+> `optional` **rules**: `string`[]
 
 array of rules
 
-#### Source
+#### Defined in
 
-main.ts:173915
+main.ts:175747

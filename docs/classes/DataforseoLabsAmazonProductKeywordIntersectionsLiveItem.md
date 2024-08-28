@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem(data)
+### new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem()
 
 > **new DataforseoLabsAmazonProductKeywordIntersectionsLiveItem**(`data`?): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
@@ -28,19 +28,19 @@
 
 [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:107501
+main.ts:108131
 
 ## Properties
 
 ### intersection\_result?
 
-> **`optional`** **intersection\_result**: `Object`
+> `optional` **intersection\_result**: `object`
 
 data on the intersection
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
@@ -48,15 +48,15 @@ data on the intersection
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md).[`intersection_result`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#intersection_result)
 
-#### Source
+#### Defined in
 
-main.ts:107497
+main.ts:108127
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
+> `optional` **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
 keyword data for the returned keyword
 
@@ -64,15 +64,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:107495
+main.ts:108125
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -80,9 +80,9 @@ search engine type
 
 [`IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:107493
+main.ts:108123
 
 ## Methods
 
@@ -98,9 +98,9 @@ main.ts:107493
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:107510
+main.ts:108140
 
 ***
 
@@ -116,15 +116,15 @@ main.ts:107510
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:107535
+main.ts:108165
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
 #### Parameters
 
@@ -134,6 +134,6 @@ main.ts:107535
 
 [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:107528
+main.ts:108158

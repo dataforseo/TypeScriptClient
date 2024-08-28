@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new AppDataAppStoreSearchOrganicSerpElementItem(data)
+### new AppDataAppStoreSearchOrganicSerpElementItem()
 
 > **new AppDataAppStoreSearchOrganicSerpElementItem**(`data`?): [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:116669
+main.ts:117301
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`_discriminator`](BaseAppDataSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21519
+main.ts:21701
 
 ***
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the app
 
@@ -66,15 +66,15 @@ id of the app
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`app_id`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:116651
+main.ts:117283
 
 ***
 
 ### icon?
 
-> **`optional`** **icon**: `string`
+> `optional` **icon**: `string`
 
 URL to the app icon
 
@@ -82,15 +82,15 @@ URL to the app icon
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`icon`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#icon)
 
-#### Source
+#### Defined in
 
-main.ts:116657
+main.ts:117289
 
 ***
 
 ### is\_free?
 
-> **`optional`** **is\_free**: `boolean`
+> `optional` **is\_free**: `boolean`
 
 indicates whether the app is free
 
@@ -98,15 +98,15 @@ indicates whether the app is free
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`is_free`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#is_free)
 
-#### Source
+#### Defined in
 
-main.ts:116663
+main.ts:117295
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -116,15 +116,15 @@ left, right
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`position`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:116649
+main.ts:117281
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`Price`](Price.md)
+> `optional` **price**: [`Price`](Price.md)
 
 price of the app
 
@@ -132,15 +132,15 @@ price of the app
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`price`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:116665
+main.ts:117297
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -149,15 +149,15 @@ absolute position among all the elements in SERP
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:116645
+main.ts:117277
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -166,15 +166,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`rank_group`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:116642
+main.ts:117274
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 average rating of the app
 
@@ -182,15 +182,15 @@ average rating of the app
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`rating`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:116661
+main.ts:117293
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 the total number of reviews of the app
 
@@ -198,15 +198,15 @@ the total number of reviews of the app
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`reviews_count`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#reviews_count)
 
-#### Source
+#### Defined in
 
-main.ts:116659
+main.ts:117291
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the app
 
@@ -214,15 +214,15 @@ title of the app
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`title`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:116653
+main.ts:117285
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the app page on App Store
 
@@ -230,9 +230,9 @@ URL to the app page on App Store
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`url`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:116655
+main.ts:117287
 
 ## Methods
 
@@ -252,9 +252,9 @@ main.ts:116655
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`init`](BaseAppDataSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:116674
+main.ts:117306
 
 ***
 
@@ -274,15 +274,15 @@ main.ts:116674
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`toJSON`](BaseAppDataSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:116702
+main.ts:117334
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
+> `static` **fromJS**(`data`): [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
 
 #### Parameters
 
@@ -296,6 +296,6 @@ main.ts:116702
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`fromJS`](BaseAppDataSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:116695
+main.ts:117327

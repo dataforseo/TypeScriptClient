@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### available\_locations?
 
-> **`optional`** **available\_locations**: [`AvailableLocations`](../classes/AvailableLocations.md)[]
+> `optional` **available\_locations**: [`AvailableLocations`](../classes/AvailableLocations.md)[]
 
 supported locations
 contains locations supported in combination with a specific language
 
-#### Source
+#### Defined in
 
-main.ts:135695
+main.ts:135521
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 
-#### Source
+#### Defined in
 
-main.ts:135692
+main.ts:135518
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `number`
+> `optional` **language\_name**: `number`
 
 language name
 
-#### Source
+#### Defined in
 
-main.ts:135690
+main.ts:135516

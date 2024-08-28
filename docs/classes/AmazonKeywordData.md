@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AmazonKeywordData(data)
+### new AmazonKeywordData()
 
 > **new AmazonKeywordData**(`data`?): [`AmazonKeywordData`](AmazonKeywordData.md)
 
@@ -28,15 +28,15 @@
 
 [`AmazonKeywordData`](AmazonKeywordData.md)
 
-#### Source
+#### Defined in
 
-main.ts:22392
+main.ts:22574
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 related keyword
 
@@ -44,15 +44,15 @@ related keyword
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`keyword`](../interfaces/IAmazonKeywordData.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:22382
+main.ts:22564
 
 ***
 
 ### keyword\_info?
 
-> **`optional`** **keyword\_info**: [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
+> `optional` **keyword\_info**: [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
 keyword info for the returned keyword
 
@@ -60,15 +60,15 @@ keyword info for the returned keyword
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`keyword_info`](../interfaces/IAmazonKeywordData.md#keyword_info)
 
-#### Source
+#### Defined in
 
-main.ts:22388
+main.ts:22570
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -76,15 +76,15 @@ language code in a POST array
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`language_code`](../interfaces/IAmazonKeywordData.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:22386
+main.ts:22568
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -92,15 +92,15 @@ location code in a POST array
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`location_code`](../interfaces/IAmazonKeywordData.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:22384
+main.ts:22566
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -108,9 +108,9 @@ search engine type
 
 [`IAmazonKeywordData`](../interfaces/IAmazonKeywordData.md).[`se_type`](../interfaces/IAmazonKeywordData.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:22380
+main.ts:22562
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:22380
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22401
+main.ts:22583
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:22401
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22422
+main.ts:22604
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AmazonKeywordData`](AmazonKeywordData.md)
+> `static` **fromJS**(`data`): [`AmazonKeywordData`](AmazonKeywordData.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:22422
 
 [`AmazonKeywordData`](AmazonKeywordData.md)
 
-#### Source
+#### Defined in
 
-main.ts:22415
+main.ts:22597

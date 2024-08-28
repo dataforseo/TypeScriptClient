@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataTrustpilotSearchTaskPostRequestInfo(data)
+### new BusinessDataTrustpilotSearchTaskPostRequestInfo()
 
 > **new BusinessDataTrustpilotSearchTaskPostRequestInfo**(`data`?): [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:213339
+main.ts:215189
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -50,15 +50,15 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:213309
+main.ts:215159
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -71,15 +71,15 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:213293
+main.ts:215143
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -95,15 +95,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:213335
+main.ts:215185
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -119,15 +119,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:213325
+main.ts:215175
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -141,15 +141,15 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:213301
+main.ts:215151
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -161,9 +161,9 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataTrustpilotSearchTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataTrustpilotSearchTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:213315
+main.ts:215165
 
 ## Methods
 
@@ -179,9 +179,9 @@ main.ts:213315
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:213348
+main.ts:215198
 
 ***
 
@@ -197,15 +197,15 @@ main.ts:213348
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:213370
+main.ts:215220
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -215,6 +215,6 @@ main.ts:213370
 
 [`BusinessDataTrustpilotSearchTaskPostRequestInfo`](BusinessDataTrustpilotSearchTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:213363
+main.ts:215213

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,77 +18,77 @@
 
 ### links?
 
-> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:97410
+main.ts:97850
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:97402
+main.ts:97842
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:97398
+main.ts:97838
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:97395
+main.ts:97835
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 description content
 
-#### Source
+#### Defined in
 
-main.ts:97406
+main.ts:97846
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:97404
+main.ts:97844

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -27,7 +27,7 @@
 
 ## Constructors
 
-### new BaseBusinessDataSerpElementItem(data)
+### new BaseBusinessDataSerpElementItem()
 
 > **new BaseBusinessDataSerpElementItem**(`data`?): [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
 
@@ -39,19 +39,19 @@
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21099
+main.ts:21281
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:21097
+main.ts:21279
 
 ## Methods
 
@@ -67,9 +67,9 @@ main.ts:21097
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21109
+main.ts:21291
 
 ***
 
@@ -85,15 +85,15 @@ main.ts:21109
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21165
+main.ts:21347
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
 
 #### Parameters
 
@@ -103,6 +103,6 @@ main.ts:21165
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21118
+main.ts:21300

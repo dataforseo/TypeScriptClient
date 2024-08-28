@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,36 +14,36 @@
 
 ### density?
 
-> **`optional`** **density**: `number`
+> `optional` **density**: `number`
 
 keyword density
 calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website
 
-#### Source
+#### Defined in
 
-main.ts:161853
+main.ts:163685
 
 ***
 
 ### frequency?
 
-> **`optional`** **frequency**: `number`
+> `optional` **frequency**: `number`
 
 keyword frequency
 number of times the keyword appears on the website (or webpage if you specified a url)
 
-#### Source
+#### Defined in
 
-main.ts:161850
+main.ts:163682
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 returned keyword
 
-#### Source
+#### Defined in
 
-main.ts:161847
+main.ts:163679

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,73 +18,73 @@
 
 ### duration\_time?
 
-> **`optional`** **duration\_time**: `number`
+> `optional` **duration\_time**: `number`
 
 duration of subtitles in seconds
 
-#### Source
+#### Defined in
 
-main.ts:64700
+main.ts:65296
 
 ***
 
 ### end\_time?
 
-> **`optional`** **end\_time**: `number`
+> `optional` **end\_time**: `number`
 
 the second subtitled text ends
 
-#### Source
+#### Defined in
 
-main.ts:64698
+main.ts:65294
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:64692
+main.ts:65288
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:64689
+main.ts:65285
 
 ***
 
 ### start\_time?
 
-> **`optional`** **start\_time**: `number`
+> `optional` **start\_time**: `number`
 
 the second subtitled text starts
 
-#### Source
+#### Defined in
 
-main.ts:64696
+main.ts:65292
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 text translated in subtitles
 
-#### Source
+#### Defined in
 
-main.ts:64694
+main.ts:65290

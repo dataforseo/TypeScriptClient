@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,8 +14,8 @@
 
 ### overview?
 
-> **`optional`** **overview**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **overview**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219155
+main.ts:221063

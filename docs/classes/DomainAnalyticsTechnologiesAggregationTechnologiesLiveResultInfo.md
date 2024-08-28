@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo(data)
+### new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo()
 
 > **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:77315
+main.ts:77911
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
+> `optional` **items**: [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem.md)[]
 
 items array
 
@@ -44,15 +44,15 @@ items array
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md).[`items`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:77311
+main.ts:77907
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,15 +60,15 @@ the number of results returned in the items array
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md).[`items_count`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:77307
+main.ts:77903
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned domains
 
@@ -76,15 +76,15 @@ offset in the results array of returned domains
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md).[`offset`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:77309
+main.ts:77905
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
@@ -92,9 +92,9 @@ total amount of results in our database relevant to your request
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md).[`total_count`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:77305
+main.ts:77901
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:77305
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:77324
+main.ts:77920
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:77324
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:77348
+main.ts:77944
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:77348
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:77341
+main.ts:77937

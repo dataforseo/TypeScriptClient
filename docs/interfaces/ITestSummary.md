@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### error?
 
-> **`optional`** **error**: `number`
+> `optional` **error**: `number`
 
 number of serious microdata errors
 
-#### Source
+#### Defined in
 
-main.ts:162199
+main.ts:164031
 
 ***
 
 ### fatal?
 
-> **`optional`** **fatal**: `number`
+> `optional` **fatal**: `number`
 
 number of fatal microdata errors
 
-#### Source
+#### Defined in
 
-main.ts:162197
+main.ts:164029
 
 ***
 
 ### info?
 
-> **`optional`** **info**: `number`
+> `optional` **info**: `number`
 
 number of microdata information flags
 
-#### Source
+#### Defined in
 
-main.ts:162203
+main.ts:164035
 
 ***
 
 ### warning?
 
-> **`optional`** **warning**: `number`
+> `optional` **warning**: `number`
 
 number of microdata warnings
 
-#### Source
+#### Defined in
 
-main.ts:162201
+main.ts:164033

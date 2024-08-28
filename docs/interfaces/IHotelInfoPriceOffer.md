@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,100 +16,100 @@ featured price offers
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 price currency
 USD is applied by default, unless specified in the POST array
 
-#### Source
+#### Defined in
 
-main.ts:206617
+main.ts:208467
 
 ***
 
 ### free\_cancellation\_until?
 
-> **`optional`** **free\_cancellation\_until**: `string`
+> `optional` **free\_cancellation\_until**: `string`
 
 date until free cancellation is available
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 equals null if free cancellation is not available for the selected dates
 
-#### Source
+#### Defined in
 
-main.ts:206630
+main.ts:208480
 
 ***
 
 ### max\_visitors?
 
-> **`optional`** **max\_visitors**: `number`
+> `optional` **max\_visitors**: `number`
 
 the maximal number of visitors
 the maximum number of visitors for which the price offer is valid
 
-#### Source
+#### Defined in
 
-main.ts:206623
+main.ts:208473
 
 ***
 
 ### offer\_images?
 
-> **`optional`** **offer\_images**: `string`[]
+> `optional` **offer\_images**: `string`[]
 
 price offer images
 URLs of the images featured in the price offer
 
-#### Source
+#### Defined in
 
-main.ts:206626
+main.ts:208476
 
 ***
 
 ### price?
 
-> **`optional`** **price**: `number`
+> `optional` **price**: `number`
 
 price per night
 
-#### Source
+#### Defined in
 
-main.ts:206614
+main.ts:208464
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the hotel
 
-#### Source
+#### Defined in
 
-main.ts:206612
+main.ts:208462
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:206610
+main.ts:208460
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 url of the price offer
 URL to the page of the website where price offer appears
 
-#### Source
+#### Defined in
 
-main.ts:206620
+main.ts:208470

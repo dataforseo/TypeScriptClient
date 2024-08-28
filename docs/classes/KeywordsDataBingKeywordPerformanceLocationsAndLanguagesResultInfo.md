@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo(data)
+### new KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo()
 
 > **new KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:135639
+main.ts:135465
 
 ## Properties
 
 ### available\_locations?
 
-> **`optional`** **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
+> `optional` **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
 
 supported locations
 contains locations supported in combination with a specific language
@@ -45,15 +45,15 @@ contains locations supported in combination with a specific language
 
 [`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md).[`available_locations`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#available_locations)
 
-#### Source
+#### Defined in
 
-main.ts:135635
+main.ts:135461
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 
@@ -61,15 +61,15 @@ language code
 
 [`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:135632
+main.ts:135458
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `number`
+> `optional` **language\_name**: `number`
 
 language name
 
@@ -77,9 +77,9 @@ language name
 
 [`IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:135630
+main.ts:135456
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:135630
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:135648
+main.ts:135474
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:135648
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:135671
+main.ts:135497
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:135671
 
 [`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:135664
+main.ts:135490

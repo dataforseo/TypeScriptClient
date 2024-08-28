@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,61 +14,61 @@
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 the date when the page source of the element was published
 
-#### Source
+#### Defined in
 
-main.ts:30589
+main.ts:30785
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:30594
+main.ts:30790
 
 ***
 
 ### tweet?
 
-> **`optional`** **tweet**: `string`
+> `optional` **tweet**: `string`
 
 tweet message
 
-#### Source
+#### Defined in
 
-main.ts:30587
+main.ts:30783
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:30585
+main.ts:30781
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
-#### Source
+#### Defined in
 
-main.ts:30596
+main.ts:30792

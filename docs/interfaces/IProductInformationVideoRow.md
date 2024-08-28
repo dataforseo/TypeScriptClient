@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,22 +18,22 @@
 
 ### preview?
 
-> **`optional`** **preview**: `string`
+> `optional` **preview**: `string`
 
 URL of the preview image for the related video
 
-#### Source
+#### Defined in
 
-main.ts:185313
+main.ts:187145
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the image
 
-#### Source
+#### Defined in
 
-main.ts:185315
+main.ts:187147

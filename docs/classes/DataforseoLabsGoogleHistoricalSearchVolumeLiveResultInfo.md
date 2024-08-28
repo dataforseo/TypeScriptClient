@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo(data)
+### new DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo()
 
 > **new DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo**(`data`?): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:86755
+main.ts:87321
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
 
 contains keywords and related data
 
@@ -44,15 +44,15 @@ contains keywords and related data
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:86751
+main.ts:87317
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,15 +60,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:86749
+main.ts:87315
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -76,15 +76,15 @@ language code in a POST array
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:86747
+main.ts:87313
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -92,15 +92,15 @@ location code in a POST array
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:86745
+main.ts:87311
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -108,9 +108,9 @@ search engine type
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:86743
+main.ts:87309
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:86743
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:86764
+main.ts:87330
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:86764
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:86789
+main.ts:87355
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:86789
 
 [`DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:86782
+main.ts:87348

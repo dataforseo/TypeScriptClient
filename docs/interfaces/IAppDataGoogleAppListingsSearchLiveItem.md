@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,86 +14,86 @@
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 ID of the returned app
 
-#### Source
+#### Defined in
 
-main.ts:194798
+main.ts:196630
 
 ***
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Source
+#### Defined in
 
-main.ts:194807
+main.ts:196639
 
 ***
 
 ### item?
 
-> **`optional`** **item**: [`AppDataGooglePlayInfoOrganicSerpElementItem`](../classes/AppDataGooglePlayInfoOrganicSerpElementItem.md)
+> `optional` **item**: [`AppDataGooglePlayInfoOrganicSerpElementItem`](../classes/AppDataGooglePlayInfoOrganicSerpElementItem.md)
 
 detailed information about the app
 
-#### Source
+#### Defined in
 
-main.ts:194814
+main.ts:196646
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:194804
+main.ts:196636
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:194802
+main.ts:196634
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:194800
+main.ts:196632
 
 ***
 
 ### time\_update?
 
-> **`optional`** **time\_update**: `string`
+> `optional` **time\_update**: `string`
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
 example:
 2023-05-23 10:16:19 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:194812
+main.ts:196644

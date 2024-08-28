@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 target keyword in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:87632
+main.ts:88198
 
 ***
 
 ### keyword\_intent?
 
-> **`optional`** **keyword\_intent**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)
+> `optional` **keyword\_intent**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)
 
 search intent data relevant for the specified keyword
 
-#### Source
+#### Defined in
 
-main.ts:87634
+main.ts:88200
 
 ***
 
 ### secondary\_keyword\_intents?
 
-> **`optional`** **secondary\_keyword\_intents**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)[]
+> `optional` **secondary\_keyword\_intents**: [`KeywordIntentInfo`](../classes/KeywordIntentInfo.md)[]
 
 contains objects with other possible search intents for the specified keyword
 
-#### Source
+#### Defined in
 
-main.ts:87636
+main.ts:88202

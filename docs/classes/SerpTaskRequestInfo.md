@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpTaskRequestInfo(data)
+### new SerpTaskRequestInfo()
 
 > **new SerpTaskRequestInfo**(`data`?): [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:225091
+main.ts:229377
 
 ## Properties
 
 ### browser\_screen\_height?
 
-> **`optional`** **browser\_screen\_height**: `number`
+> `optional` **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -51,15 +51,15 @@ Note: to use this parameter, set calculate_rectangles to true
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`browser_screen_height`](../interfaces/ISerpTaskRequestInfo.md#browser_screen_height)
 
-#### Source
+#### Defined in
 
-main.ts:225035
+main.ts:229307
 
 ***
 
 ### browser\_screen\_resolution\_ratio?
 
-> **`optional`** **browser\_screen\_resolution\_ratio**: `number`
+> `optional` **browser\_screen\_resolution\_ratio**: `number`
 
 browser screen resolution ratio
 optional field
@@ -74,15 +74,15 @@ Note: to use this parameter, set calculate_rectangles to true
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`browser_screen_resolution_ratio`](../interfaces/ISerpTaskRequestInfo.md#browser_screen_resolution_ratio)
 
-#### Source
+#### Defined in
 
-main.ts:225044
+main.ts:229316
 
 ***
 
 ### browser\_screen\_width?
 
-> **`optional`** **browser\_screen\_width**: `number`
+> `optional` **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -97,15 +97,15 @@ Note: to use this parameter, set calculate_rectangles to true
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`browser_screen_width`](../interfaces/ISerpTaskRequestInfo.md#browser_screen_width)
 
-#### Source
+#### Defined in
 
-main.ts:225026
+main.ts:229298
 
 ***
 
 ### calculate\_rectangles?
 
-> **`optional`** **calculate\_rectangles**: `boolean`
+> `optional` **calculate\_rectangles**: `boolean`
 
 calcualte pixel rankings for SERP elements in advanced results
 optional field
@@ -118,15 +118,15 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`calculate_rectangles`](../interfaces/ISerpTaskRequestInfo.md#calculate_rectangles)
 
-#### Source
+#### Defined in
 
-main.ts:225017
+main.ts:229289
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -141,15 +141,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`depth`](../interfaces/ISerpTaskRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:224940
+main.ts:229212
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -160,15 +160,35 @@ default value: desktop
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`device`](../interfaces/ISerpTaskRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:224997
+main.ts:229269
+
+***
+
+### expand\_ai\_overview?
+
+> `optional` **expand\_ai\_overview**: `boolean`
+
+expand ai overview
+optional field
+set to true to expand the ai_overview item;
+default value: false;
+Note: this parameter applies only to HTML task results
+
+#### Implementation of
+
+[`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`expand_ai_overview`](../interfaces/ISerpTaskRequestInfo.md#expand_ai_overview)
+
+#### Defined in
+
+main.ts:229337
 
 ***
 
 ### group\_organic\_results?
 
-> **`optional`** **group\_organic\_results**: `boolean`
+> `optional` **group\_organic\_results**: `boolean`
 
 display related results
 optional field
@@ -180,15 +200,15 @@ default value: true
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`group_organic_results`](../interfaces/ISerpTaskRequestInfo.md#group_organic_results)
 
-#### Source
+#### Defined in
 
-main.ts:225010
+main.ts:229282
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -203,15 +223,15 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`keyword`](../interfaces/ISerpTaskRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:224917
+main.ts:229189
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -224,15 +244,15 @@ en
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`language_code`](../interfaces/ISerpTaskRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:224985
+main.ts:229257
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -245,15 +265,37 @@ English
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`language_name`](../interfaces/ISerpTaskRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:224978
+main.ts:229250
+
+***
+
+### load\_async\_ai\_overview?
+
+> `optional` **load\_async\_ai\_overview**: `boolean`
+
+load asynchronous ai overview
+optional field
+set to true to obtain ai_overview items is SERPs even if they are loaded asynchronically;
+if set to false, you will only obtain ai_overview items from cache;
+default value: false
+Note your account will be billed $0.0006-$0.0012 extra for each request, depending on the priority;
+if the element is absent or contains "asynchronous_ai_overview": false, all extra charges will be returned to your account balance
+
+#### Implementation of
+
+[`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`load_async_ai_overview`](../interfaces/ISerpTaskRequestInfo.md#load_async_ai_overview)
+
+#### Defined in
+
+main.ts:229331
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -266,15 +308,15 @@ example:
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`location_code`](../interfaces/ISerpTaskRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:224961
+main.ts:229233
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -290,15 +332,15 @@ example:
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`location_coordinate`](../interfaces/ISerpTaskRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:224971
+main.ts:229243
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -311,15 +353,15 @@ London,England,United Kingdom
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`location_name`](../interfaces/ISerpTaskRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:224954
+main.ts:229226
 
 ***
 
 ### max\_crawl\_pages?
 
-> **`optional`** **max\_crawl\_pages**: `number`
+> `optional` **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -332,15 +374,15 @@ learn more at our help center
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpTaskRequestInfo.md#max_crawl_pages)
 
-#### Source
+#### Defined in
 
-main.ts:224947
+main.ts:229219
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
@@ -353,15 +395,15 @@ default value: android
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`os`](../interfaces/ISerpTaskRequestInfo.md#os)
 
-#### Source
+#### Defined in
 
-main.ts:225004
+main.ts:229276
 
 ***
 
 ### people\_also\_ask\_click\_depth?
 
-> **`optional`** **people\_also\_ask\_click\_depth**: `number`
+> `optional` **people\_also\_ask\_click\_depth**: `number`
 
 clicks on the corresponding element
 optional field
@@ -374,15 +416,15 @@ possible values: from 1 to 4
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`people_also_ask_click_depth`](../interfaces/ISerpTaskRequestInfo.md#people_also_ask_click_depth)
 
-#### Source
+#### Defined in
 
-main.ts:225051
+main.ts:229323
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -398,15 +440,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`pingback_url`](../interfaces/ISerpTaskRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:225087
+main.ts:229373
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -418,15 +460,15 @@ regular, advanced, html
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`postback_data`](../interfaces/ISerpTaskRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:225077
+main.ts:229363
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -442,15 +484,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`postback_url`](../interfaces/ISerpTaskRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:225071
+main.ts:229357
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -464,15 +506,15 @@ The cost can be calculated on the Pricing page
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`priority`](../interfaces/ISerpTaskRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:224931
+main.ts:229203
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -485,15 +527,15 @@ google.co.uk, google.com.au, google.de, etc.
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`se_domain`](../interfaces/ISerpTaskRequestInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:224992
+main.ts:229264
 
 ***
 
 ### search\_param?
 
-> **`optional`** **search\_param**: `string`
+> `optional` **search\_param**: `string`
 
 additional parameters of the search query
 optional field
@@ -503,15 +545,15 @@ get the list of available parameters and additional details here
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`search_param`](../interfaces/ISerpTaskRequestInfo.md#search_param)
 
-#### Source
+#### Defined in
 
-main.ts:225055
+main.ts:229341
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -523,15 +565,15 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`tag`](../interfaces/ISerpTaskRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:225061
+main.ts:229347
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 direct URL of the search query
 optional field
@@ -543,9 +585,9 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 [`ISerpTaskRequestInfo`](../interfaces/ISerpTaskRequestInfo.md).[`url`](../interfaces/ISerpTaskRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:224923
+main.ts:229195
 
 ## Methods
 
@@ -561,9 +603,9 @@ main.ts:224923
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:225100
+main.ts:229386
 
 ***
 
@@ -579,15 +621,15 @@ main.ts:225100
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:225140
+main.ts:229428
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)
 
 #### Parameters
 
@@ -597,6 +639,6 @@ main.ts:225140
 
 [`SerpTaskRequestInfo`](SerpTaskRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:225133
+main.ts:229421

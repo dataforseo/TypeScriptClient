@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RankInfo(data)
+### new RankInfo()
 
 > **new RankInfo**(`data`?): [`RankInfo`](RankInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`RankInfo`](RankInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:92017
+main.ts:92575
 
 ## Properties
 
 ### main\_domain\_rank?
 
-> **`optional`** **main\_domain\_rank**: `number`
+> `optional` **main\_domain\_rank**: `number`
 
 main domain rank
 main_domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -46,15 +46,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IRankInfo`](../interfaces/IRankInfo.md).[`main_domain_rank`](../interfaces/IRankInfo.md#main_domain_rank)
 
-#### Source
+#### Defined in
 
-main.ts:92013
+main.ts:92571
 
 ***
 
 ### page\_rank?
 
-> **`optional`** **page\_rank**: `number`
+> `optional` **page\_rank**: `number`
 
 page rank
 page_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm;
@@ -64,9 +64,9 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IRankInfo`](../interfaces/IRankInfo.md).[`page_rank`](../interfaces/IRankInfo.md#page_rank)
 
-#### Source
+#### Defined in
 
-main.ts:92009
+main.ts:92567
 
 ## Methods
 
@@ -82,9 +82,9 @@ main.ts:92009
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:92026
+main.ts:92584
 
 ***
 
@@ -100,15 +100,15 @@ main.ts:92026
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:92044
+main.ts:92602
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RankInfo`](RankInfo.md)
+> `static` **fromJS**(`data`): [`RankInfo`](RankInfo.md)
 
 #### Parameters
 
@@ -118,6 +118,6 @@ main.ts:92044
 
 [`RankInfo`](RankInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:92037
+main.ts:92595

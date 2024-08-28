@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,15 +14,15 @@
 
 ### popular\_times\_by\_days?
 
-> **`optional`** **popular\_times\_by\_days**: `Object`
+> `optional` **popular\_times\_by\_days**: `object`
 
 popular hours
 information about busy hours of the local establishment on each day of the week
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: ([`BusyWorkingTimeInfo`](../classes/BusyWorkingTimeInfo.md) \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:201500
+main.ts:203332

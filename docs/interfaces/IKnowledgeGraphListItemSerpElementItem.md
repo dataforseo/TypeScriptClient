@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,116 +18,116 @@
 
 ### data\_attrid?
 
-> **`optional`** **data\_attrid**: `string`
+> `optional` **data\_attrid**: `string`
 
 google defined data attribute ID
 example:
 ss:/webfacts:net_worth
 
-#### Source
+#### Defined in
 
-main.ts:28083
+main.ts:28265
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
+> `optional` **items**: [`KnowledgeGraphListElement`](../classes/KnowledgeGraphListElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:28088
+main.ts:28270
 
 ***
 
 ### link?
 
-> **`optional`** **link**: [`LinkElement`](../classes/LinkElement.md)
+> `optional` **link**: [`LinkElement`](../classes/LinkElement.md)
 
 link of the element
 
-#### Source
+#### Defined in
 
-main.ts:28085
+main.ts:28267
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:28075
+main.ts:28257
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:28071
+main.ts:28253
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:28068
+main.ts:28250
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Source
+#### Defined in
 
-main.ts:28092
+main.ts:28274
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the link element
 
-#### Source
+#### Defined in
 
-main.ts:28079
+main.ts:28261
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:28077
+main.ts:28259

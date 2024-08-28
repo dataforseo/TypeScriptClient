@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,100 +14,100 @@
 
 ### exclude\_pages?
 
-> **`optional`** **exclude\_pages**: `string`[]
+> `optional` **exclude\_pages**: `string`[]
 
 URLs you specified in a POST array that will be excluded from the results
 
-#### Source
+#### Defined in
 
-main.ts:110688
+main.ts:111320
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsBingPageIntersectionLiveItem`](../classes/DataforseoLabsBingPageIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsBingPageIntersectionLiveItem`](../classes/DataforseoLabsBingPageIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
-#### Source
+#### Defined in
 
-main.ts:110698
+main.ts:111330
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:110696
+main.ts:111328
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:110692
+main.ts:111324
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:110690
+main.ts:111322
 
 ***
 
 ### pages?
 
-> **`optional`** **pages**: `Object`
+> `optional` **pages**: `object`
 
 URLs you specified a POST array
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:110686
+main.ts:111318
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 search engine type specified in a POST request;
 for this endpoint, the field equals bing
 
-#### Source
+#### Defined in
 
-main.ts:110684
+main.ts:111316
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:110694
+main.ts:111326

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationCheckGrammarLiveRequestInfo(data)
+### new ContentGenerationCheckGrammarLiveRequestInfo()
 
 > **new ContentGenerationCheckGrammarLiveRequestInfo**(`data`?): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173305
+main.ts:175137
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 code of the text language
 required field if you do not specify language_name
@@ -46,15 +46,15 @@ see the List of Languages for Content Generation Check Grammar API
 
 [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`language_code`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:173291
+main.ts:175123
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 name of the text language
 required field if you do not specify language_code
@@ -64,15 +64,15 @@ see the List of Languages for Content Generation Check Grammar API
 
 [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`language_name`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:173295
+main.ts:175127
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -84,15 +84,15 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:173301
+main.ts:175133
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 target text
 required field
@@ -103,9 +103,9 @@ learn more about tokens on our help center
 
 [`IContentGenerationCheckGrammarLiveRequestInfo`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationCheckGrammarLiveRequestInfo.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:173287
+main.ts:175119
 
 ## Methods
 
@@ -121,9 +121,9 @@ main.ts:173287
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:173314
+main.ts:175146
 
 ***
 
@@ -139,15 +139,15 @@ main.ts:173314
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:173334
+main.ts:175166
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
 #### Parameters
 
@@ -157,6 +157,6 @@ main.ts:173334
 
 [`ContentGenerationCheckGrammarLiveRequestInfo`](ContentGenerationCheckGrammarLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173327
+main.ts:175159

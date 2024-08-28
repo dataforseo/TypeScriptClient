@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationTextSummaryLiveResultInfo(data)
+### new ContentGenerationTextSummaryLiveResultInfo()
 
 > **new ContentGenerationTextSummaryLiveResultInfo**(`data`?): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:174167
+main.ts:175999
 
 ## Properties
 
 ### automated\_readability\_index?
 
-> **`optional`** **automated\_readability\_index**: `number`
+> `optional` **automated\_readability\_index**: `number`
 
 Automated Readability Index
 
@@ -44,15 +44,15 @@ Automated Readability Index
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`automated_readability_index`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#automated_readability_index)
 
-#### Source
+#### Defined in
 
-main.ts:174153
+main.ts:175985
 
 ***
 
 ### characters\_per\_word?
 
-> **`optional`** **characters\_per\_word**: `number`
+> `optional` **characters\_per\_word**: `number`
 
 average number of characters per word in the target text
 
@@ -60,15 +60,15 @@ average number of characters per word in the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`characters_per_word`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_per_word)
 
-#### Source
+#### Defined in
 
-main.ts:174146
+main.ts:175978
 
 ***
 
 ### characters\_with\_spaces?
 
-> **`optional`** **characters\_with\_spaces**: `number`
+> `optional` **characters\_with\_spaces**: `number`
 
 number of characters with spaces found in the target text
 
@@ -76,15 +76,15 @@ number of characters with spaces found in the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`characters_with_spaces`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_with_spaces)
 
-#### Source
+#### Defined in
 
-main.ts:174142
+main.ts:175974
 
 ***
 
 ### characters\_without\_spaces?
 
-> **`optional`** **characters\_without\_spaces**: `number`
+> `optional` **characters\_without\_spaces**: `number`
 
 number of characters without spaces found in the target text
 
@@ -92,15 +92,15 @@ number of characters without spaces found in the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`characters_without_spaces`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#characters_without_spaces)
 
-#### Source
+#### Defined in
 
-main.ts:174140
+main.ts:175972
 
 ***
 
 ### coleman\_liau\_index?
 
-> **`optional`** **coleman\_liau\_index**: `number`
+> `optional` **coleman\_liau\_index**: `number`
 
 Coleman–Liau Index
 
@@ -108,15 +108,15 @@ Coleman–Liau Index
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`coleman_liau_index`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#coleman_liau_index)
 
-#### Source
+#### Defined in
 
-main.ts:174155
+main.ts:175987
 
 ***
 
 ### flesch\_kincaid\_grade\_level?
 
-> **`optional`** **flesch\_kincaid\_grade\_level**: `number`
+> `optional` **flesch\_kincaid\_grade\_level**: `number`
 
 Flesch–Kincaid Readability Index
 
@@ -124,15 +124,15 @@ Flesch–Kincaid Readability Index
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`flesch_kincaid_grade_level`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#flesch_kincaid_grade_level)
 
-#### Source
+#### Defined in
 
-main.ts:174157
+main.ts:175989
 
 ***
 
 ### grammar\_errors?
 
-> **`optional`** **grammar\_errors**: `number`
+> `optional` **grammar\_errors**: `number`
 
 number of grammar errors found in the target text
 
@@ -140,20 +140,20 @@ number of grammar errors found in the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`grammar_errors`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#grammar_errors)
 
-#### Source
+#### Defined in
 
-main.ts:174163
+main.ts:175995
 
 ***
 
 ### keyword\_density?
 
-> **`optional`** **keyword\_density**: `Object`
+> `optional` **keyword\_density**: `object`
 
 keyword density of the target text
 contains most common words and their count
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -161,15 +161,15 @@ contains most common words and their count
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`keyword_density`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#keyword_density)
 
-#### Source
+#### Defined in
 
-main.ts:174151
+main.ts:175983
 
 ***
 
 ### paragraphs?
 
-> **`optional`** **paragraphs**: `number`
+> `optional` **paragraphs**: `number`
 
 number of paragraphs found in the target text
 
@@ -177,15 +177,15 @@ number of paragraphs found in the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`paragraphs`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#paragraphs)
 
-#### Source
+#### Defined in
 
-main.ts:174136
+main.ts:175968
 
 ***
 
 ### sentences?
 
-> **`optional`** **sentences**: `number`
+> `optional` **sentences**: `number`
 
 number of sentences found in the target text
 
@@ -193,15 +193,15 @@ number of sentences found in the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`sentences`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#sentences)
 
-#### Source
+#### Defined in
 
-main.ts:174134
+main.ts:175966
 
 ***
 
 ### smog\_readability\_index?
 
-> **`optional`** **smog\_readability\_index**: `number`
+> `optional` **smog\_readability\_index**: `number`
 
 SMOG Readability Index
 
@@ -209,15 +209,15 @@ SMOG Readability Index
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`smog_readability_index`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#smog_readability_index)
 
-#### Source
+#### Defined in
 
-main.ts:174159
+main.ts:175991
 
 ***
 
 ### spelling\_errors?
 
-> **`optional`** **spelling\_errors**: `number`
+> `optional` **spelling\_errors**: `number`
 
 number of spelling errors found in the target text
 
@@ -225,15 +225,15 @@ number of spelling errors found in the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`spelling_errors`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#spelling_errors)
 
-#### Source
+#### Defined in
 
-main.ts:174161
+main.ts:175993
 
 ***
 
 ### vocabulary\_density?
 
-> **`optional`** **vocabulary\_density**: `number`
+> `optional` **vocabulary\_density**: `number`
 
 vocabulary density of the target text
 
@@ -241,15 +241,15 @@ vocabulary density of the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`vocabulary_density`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#vocabulary_density)
 
-#### Source
+#### Defined in
 
-main.ts:174148
+main.ts:175980
 
 ***
 
 ### words?
 
-> **`optional`** **words**: `number`
+> `optional` **words**: `number`
 
 number of words found in the target text
 
@@ -257,15 +257,15 @@ number of words found in the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`words`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#words)
 
-#### Source
+#### Defined in
 
-main.ts:174138
+main.ts:175970
 
 ***
 
 ### words\_per\_sentence?
 
-> **`optional`** **words\_per\_sentence**: `number`
+> `optional` **words\_per\_sentence**: `number`
 
 average number of words per sentence in the target text
 
@@ -273,9 +273,9 @@ average number of words per sentence in the target text
 
 [`IContentGenerationTextSummaryLiveResultInfo`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md).[`words_per_sentence`](../interfaces/IContentGenerationTextSummaryLiveResultInfo.md#words_per_sentence)
 
-#### Source
+#### Defined in
 
-main.ts:174144
+main.ts:175976
 
 ## Methods
 
@@ -291,9 +291,9 @@ main.ts:174144
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:174176
+main.ts:176008
 
 ***
 
@@ -309,15 +309,15 @@ main.ts:174176
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:174213
+main.ts:176045
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
 #### Parameters
 
@@ -327,6 +327,6 @@ main.ts:174213
 
 [`ContentGenerationTextSummaryLiveResultInfo`](ContentGenerationTextSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:174206
+main.ts:176038

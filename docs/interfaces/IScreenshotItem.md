@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,12 +14,12 @@
 
 ### image?
 
-> **`optional`** **image**: `string`
+> `optional` **image**: `string`
 
 screenshot of the requested page
 URL of the page screenshot on the DataForSEO storage
 note: the page screenshot saved on the DataForSEO storage only remains accessible for one day after making the request
 
-#### Source
+#### Defined in
 
-main.ts:24686
+main.ts:24868

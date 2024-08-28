@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,85 +16,85 @@ items array
 
 ### categories\_count?
 
-> **`optional`** **categories\_count**: `number`
+> `optional` **categories\_count**: `number`
 
 technology categories count
 number of domains that match the parameters you specified and are using technologies from the indicated category
 
-#### Source
+#### Defined in
 
-main.ts:77295
+main.ts:77891
 
 ***
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 technology category id
 
-#### Source
+#### Defined in
 
-main.ts:77287
+main.ts:77883
 
 ***
 
 ### group?
 
-> **`optional`** **group**: `string`
+> `optional` **group**: `string`
 
 technology group id
 
-#### Source
+#### Defined in
 
-main.ts:77285
+main.ts:77881
 
 ***
 
 ### groups\_count?
 
-> **`optional`** **groups\_count**: `number`
+> `optional` **groups\_count**: `number`
 
 technology groups count
 number of domains that match the parameters you specified and are using technologies from the indicated group
 
-#### Source
+#### Defined in
 
-main.ts:77292
+main.ts:77888
 
 ***
 
 ### technologies\_count?
 
-> **`optional`** **technologies\_count**: `number`
+> `optional` **technologies\_count**: `number`
 
 technologies count
 number of domains that match the parameters you specified and are using the indicated technology
 
-#### Source
+#### Defined in
 
-main.ts:77298
+main.ts:77894
 
 ***
 
 ### technology?
 
-> **`optional`** **technology**: `string`
+> `optional` **technology**: `string`
 
 technology name
 
-#### Source
+#### Defined in
 
-main.ts:77289
+main.ts:77885
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:77283
+main.ts:77879

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### errors?
 
-> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223868
+main.ts:228140
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223869
+main.ts:228141
 
 ***
 
 ### technologies?
 
-> **`optional`** **technologies**: [`AppendixTechnologiesDomainAnalyticsPriceData`](../classes/AppendixTechnologiesDomainAnalyticsPriceData.md)
+> `optional` **technologies**: [`AppendixTechnologiesDomainAnalyticsPriceData`](../classes/AppendixTechnologiesDomainAnalyticsPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:223867
+main.ts:228139
 
 ***
 
 ### whois?
 
-> **`optional`** **whois**: [`AppendixWhoisDomainAnalyticsPriceData`](../classes/AppendixWhoisDomainAnalyticsPriceData.md)
+> `optional` **whois**: [`AppendixWhoisDomainAnalyticsPriceData`](../classes/AppendixWhoisDomainAnalyticsPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:223866
+main.ts:228138

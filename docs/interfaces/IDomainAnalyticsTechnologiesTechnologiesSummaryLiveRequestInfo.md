@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, technologies, or keywords
@@ -23,39 +23,39 @@ note: you can specify up to 10 technology categories in this array
 example:
 ["payment_processors","crm"]
 
-#### Source
+#### Defined in
 
-main.ts:77689
+main.ts:78285
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+<, <=, >, >=, =, <>, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 you can use the following parameters to filter the results: domain_rank, last_visited, country_iso_code, language_code, content_language_code
 example:
 [["country_iso_code","=","US"],
 "and",
-["domain_rank",">`",800]]
+["domain_rank",">",800]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters
 
-#### Source
+#### Defined in
 
-main.ts:77724
+main.ts:78320
 
 ***
 
 ### groups?
 
-> **`optional`** **groups**: `string`[]
+> `optional` **groups**: `string`[]
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, categories, or keywords
@@ -64,15 +64,15 @@ note: you can specify up to 10 technology groups in this array
 example:
 ["sales", "marketing"]
 
-#### Source
+#### Defined in
 
-main.ts:77682
+main.ts:78278
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -82,15 +82,15 @@ default value: 10
 minimum value: 1
 maximum value: 10000
 
-#### Source
+#### Defined in
 
-main.ts:77732
+main.ts:78328
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, categories, or technologies
@@ -99,15 +99,15 @@ UTF-8 encoding;
 example:
 ["seo","software"]
 
-#### Source
+#### Defined in
 
-main.ts:77703
+main.ts:78299
 
 ***
 
 ### mode?
 
-> **`optional`** **mode**: `string`
+> `optional` **mode**: `string`
 
 search mode
 optional field
@@ -116,15 +116,15 @@ as_is – search for results exactly matching the specified group ids, category 
 entry – search for results matching a part of the specified group ids, category ids, or technology names
 default value: as_is
 
-#### Source
+#### Defined in
 
-main.ts:77710
+main.ts:78306
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -132,15 +132,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:77738
+main.ts:78334
 
 ***
 
 ### technologies?
 
-> **`optional`** **technologies**: `string`[]
+> `optional` **technologies**: `string`[]
 
 target technologies
 required field if you don’t specify groups, technology_paths, categories, or keywords
@@ -149,15 +149,15 @@ note: you can specify up to 10 technologies in this array
 example:
 ["Google Pay","Salesforce"]
 
-#### Source
+#### Defined in
 
-main.ts:77696
+main.ts:78292
 
 ***
 
 ### technology\_paths?
 
-> **`optional`** **technology\_paths**: `string`[]
+> `optional` **technology\_paths**: `string`[]
 
 target technology paths
 required field if you don’t specify groups, technologies and categories
@@ -166,8 +166,8 @@ each object with a technology path should be separated with a comma
 you can find the full list of technology group ids, category ids and technology names on this page
 note: you can specify up to 10 technology paths in this array
 example:
-[\{"path": "content.cms","name": "wordpress"\}, \{"path": "marketing.crm","name": "salesforce"\}]
+[{"path": "content.cms","name": "wordpress"}, {"path": "marketing.crm","name": "salesforce"}]
 
-#### Source
+#### Defined in
 
-main.ts:77675
+main.ts:78271

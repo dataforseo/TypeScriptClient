@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,52 +14,52 @@
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the technology category
 example:
 crm, cart_abandonment
 
-#### Source
+#### Defined in
 
-main.ts:76642
+main.ts:77238
 
 ***
 
 ### path?
 
-> **`optional`** **path**: `string`
+> `optional` **path**: `string`
 
 path to the technology category
 example:
 user_generated_content.content_curation
 
-#### Source
+#### Defined in
 
-main.ts:76646
+main.ts:77242
 
 ***
 
 ### technologies?
 
-> **`optional`** **technologies**: `string`[]
+> `optional` **technologies**: `string`[]
 
 list of technologies in this category
 example:
 "Salesforce", "CareCart"
 
-#### Source
+#### Defined in
 
-main.ts:76652
+main.ts:77248
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the technology category
 
-#### Source
+#### Defined in
 
-main.ts:76648
+main.ts:77244

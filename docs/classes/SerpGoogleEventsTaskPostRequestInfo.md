@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleEventsTaskPostRequestInfo(data)
+### new SerpGoogleEventsTaskPostRequestInfo()
 
 > **new SerpGoogleEventsTaskPostRequestInfo**(`data`?): [`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:46375
+main.ts:46907
 
 ## Properties
 
 ### date\_range?
 
-> **`optional`** **date\_range**: `string`
+> `optional` **date\_range**: `string`
 
 date range to get events for
 optional field
@@ -47,15 +47,15 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`date_range`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#date_range)
 
-#### Source
+#### Defined in
 
-main.ts:46310
+main.ts:46842
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -70,15 +70,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:46332
+main.ts:46864
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -91,15 +91,15 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:46256
+main.ts:46788
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -113,15 +113,15 @@ en
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:46305
+main.ts:46837
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -135,15 +135,15 @@ English
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:46297
+main.ts:46829
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -156,15 +156,15 @@ example:
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:46278
+main.ts:46810
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -181,15 +181,15 @@ example:
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:46289
+main.ts:46821
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -202,15 +202,15 @@ London,England,United Kingdom
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:46271
+main.ts:46803
 
 ***
 
 ### max\_crawl\_pages?
 
-> **`optional`** **max\_crawl\_pages**: `number`
+> `optional` **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -223,15 +223,15 @@ learn more at our help center
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#max_crawl_pages)
 
-#### Source
+#### Defined in
 
-main.ts:46339
+main.ts:46871
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
@@ -243,15 +243,15 @@ default value: windows
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`os`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#os)
 
-#### Source
+#### Defined in
 
-main.ts:46316
+main.ts:46848
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -267,15 +267,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:46371
+main.ts:46903
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -287,15 +287,15 @@ advanced
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:46361
+main.ts:46893
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -311,15 +311,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:46355
+main.ts:46887
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -333,15 +333,15 @@ The cost can be calculated on the Pricing page
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:46264
+main.ts:46796
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -354,15 +354,15 @@ google.co.uk, google.com.au, google.de, etc.
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`se_domain`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:46323
+main.ts:46855
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -374,9 +374,9 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleEventsTaskPostRequestInfo`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleEventsTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:46345
+main.ts:46877
 
 ## Methods
 
@@ -392,9 +392,9 @@ main.ts:46345
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:46384
+main.ts:46916
 
 ***
 
@@ -410,15 +410,15 @@ main.ts:46384
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:46416
+main.ts:46948
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -428,6 +428,6 @@ main.ts:46416
 
 [`SerpGoogleEventsTaskPostRequestInfo`](SerpGoogleEventsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:46409
+main.ts:46941

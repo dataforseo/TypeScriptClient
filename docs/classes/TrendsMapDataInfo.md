@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TrendsMapDataInfo(data)
+### new TrendsMapDataInfo()
 
 > **new TrendsMapDataInfo**(`data`?): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:126901
+main.ts:126908
 
 ## Properties
 
 ### geo\_id?
 
-> **`optional`** **geo\_id**: `string`
+> `optional` **geo\_id**: `string`
 
 Google Trends location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -47,15 +47,15 @@ US-NY
 
 [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`geo_id`](../interfaces/ITrendsMapDataInfo.md#geo_id)
 
-#### Source
+#### Defined in
 
-main.ts:126883
+main.ts:126890
 
 ***
 
 ### geo\_name?
 
-> **`optional`** **geo\_name**: `string`
+> `optional` **geo\_name**: `string`
 
 Google Trends location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -64,15 +64,15 @@ you can use this field for matching obtained results with location parameters sp
 
 [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`geo_name`](../interfaces/ITrendsMapDataInfo.md#geo_name)
 
-#### Source
+#### Defined in
 
-main.ts:126886
+main.ts:126893
 
 ***
 
 ### max\_value\_index?
 
-> **`optional`** **max\_value\_index**: `number`
+> `optional` **max\_value\_index**: `number`
 
 max value among comparable terms
 represents the maximum value if you specified more than two keywords in a POST array
@@ -82,15 +82,15 @@ if you specified only one keyword, the value will be null
 
 [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`max_value_index`](../interfaces/ITrendsMapDataInfo.md#max_value_index)
 
-#### Source
+#### Defined in
 
-main.ts:126897
+main.ts:126904
 
 ***
 
 ### values?
 
-> **`optional`** **values**: `any`[]
+> `optional` **values**: `any`[]
 
 relative keyword popularity rate in a given location
 represents the location-specific keyword popularity rate over the given time range
@@ -103,9 +103,9 @@ a value of 0 means there was not enough data for this term
 
 [`ITrendsMapDataInfo`](../interfaces/ITrendsMapDataInfo.md).[`values`](../interfaces/ITrendsMapDataInfo.md#values)
 
-#### Source
+#### Defined in
 
-main.ts:126893
+main.ts:126900
 
 ## Methods
 
@@ -121,9 +121,9 @@ main.ts:126893
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:126910
+main.ts:126917
 
 ***
 
@@ -139,15 +139,15 @@ main.ts:126910
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:126934
+main.ts:126941
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
+> `static` **fromJS**(`data`): [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
 #### Parameters
 
@@ -157,6 +157,6 @@ main.ts:126934
 
 [`TrendsMapDataInfo`](TrendsMapDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:126927
+main.ts:126934

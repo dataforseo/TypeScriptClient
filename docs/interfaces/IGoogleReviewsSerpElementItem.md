@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,128 +18,128 @@
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 
-#### Source
+#### Defined in
 
-main.ts:30832
+main.ts:31028
 
 ***
 
 ### feature?
 
-> **`optional`** **feature**: `string`
+> `optional` **feature**: `string`
 
 the additional feature of the review
 
-#### Source
+#### Defined in
 
-main.ts:30830
+main.ts:31026
 
 ***
 
 ### place\_id?
 
-> **`optional`** **place\_id**: `string`
+> `optional` **place\_id**: `string`
 
 the identifier of a place
 
-#### Source
+#### Defined in
 
-main.ts:30828
+main.ts:31024
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:30819
+main.ts:31015
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Source
+#### Defined in
 
-main.ts:30815
+main.ts:31011
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Source
+#### Defined in
 
-main.ts:30811
+main.ts:31007
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Source
+#### Defined in
 
-main.ts:30826
+main.ts:31022
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Source
+#### Defined in
 
-main.ts:30836
+main.ts:31032
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 the number of reviews
 
-#### Source
+#### Defined in
 
-main.ts:30823
+main.ts:31019
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:30821
+main.ts:31017

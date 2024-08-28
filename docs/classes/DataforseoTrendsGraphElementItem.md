@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new DataforseoTrendsGraphElementItem(data)
+### new DataforseoTrendsGraphElementItem()
 
 > **new DataforseoTrendsGraphElementItem**(`data`?): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:128840
+main.ts:128664
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`_discriminator`](BaseDataforseoTrendsItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21456
+main.ts:21638
 
 ***
 
 ### averages?
 
-> **`optional`** **averages**: `number`[]
+> `optional` **averages**: `number`[]
 
 keyword popularity values averaged over the whole time range
 
@@ -66,15 +66,15 @@ keyword popularity values averaged over the whole time range
 
 [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`averages`](../interfaces/IDataforseoTrendsGraphElementItem.md#averages)
 
-#### Source
+#### Defined in
 
-main.ts:128836
+main.ts:128660
 
 ***
 
 ### data?
 
-> **`optional`** **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
+> `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
 DataForSEO Trends data for the specified parameters
 
@@ -82,15 +82,15 @@ DataForSEO Trends data for the specified parameters
 
 [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`data`](../interfaces/IDataforseoTrendsGraphElementItem.md#data)
 
-#### Source
+#### Defined in
 
-main.ts:128834
+main.ts:128658
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
@@ -99,15 +99,15 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`keywords`](../interfaces/IDataforseoTrendsGraphElementItem.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:128832
+main.ts:128656
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -116,9 +116,9 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`position`](../interfaces/IDataforseoTrendsGraphElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:128829
+main.ts:128653
 
 ## Methods
 
@@ -138,9 +138,9 @@ main.ts:128829
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`init`](BaseDataforseoTrendsItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:128845
+main.ts:128669
 
 ***
 
@@ -160,15 +160,15 @@ main.ts:128845
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`toJSON`](BaseDataforseoTrendsItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:128878
+main.ts:128702
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
+> `static` **fromJS**(`data`): [`DataforseoTrendsGraphElementItem`](DataforseoTrendsGraphElementItem.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:128878
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`fromJS`](BaseDataforseoTrendsItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:128871
+main.ts:128695

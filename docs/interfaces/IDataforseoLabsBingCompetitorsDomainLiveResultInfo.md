@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,82 +14,82 @@
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](../classes/DataforseoLabsCompetitorsDomainLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsCompetitorsDomainLiveItem`](../classes/DataforseoLabsCompetitorsDomainLiveItem.md)[]
 
 contains data related to the target and competitor domains
 
-#### Source
+#### Defined in
 
-main.ts:108966
+main.ts:109596
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:108964
+main.ts:109594
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:108960
+main.ts:109590
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:108958
+main.ts:109588
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:108954
+main.ts:109584
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:108956
+main.ts:109586
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:108962
+main.ts:109592

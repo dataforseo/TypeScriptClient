@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleNewsTaskGetHtmlResultInfo(data)
+### new SerpGoogleNewsTaskGetHtmlResultInfo()
 
 > **new SerpGoogleNewsTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleNewsTaskGetHtmlResultInfo`](SerpGoogleNewsTaskGetHtmlResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleNewsTaskGetHtmlResultInfo`](SerpGoogleNewsTaskGetHtmlResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:45577
+main.ts:46109
 
 ## Properties
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +47,15 @@ example:
 
 [`ISerpGoogleNewsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:45569
+main.ts:46101
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
+> `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
@@ -63,15 +63,15 @@ elements of search results found in SERP
 
 [`ISerpGoogleNewsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:45573
+main.ts:46105
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -79,15 +79,15 @@ the number of results returned in the items array
 
 [`ISerpGoogleNewsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:45571
+main.ts:46103
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -96,15 +96,15 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 [`ISerpGoogleNewsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:45556
+main.ts:46088
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -112,15 +112,15 @@ language code in a POST array
 
 [`ISerpGoogleNewsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:45564
+main.ts:46096
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -128,15 +128,15 @@ location code in a POST array
 
 [`ISerpGoogleNewsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:45562
+main.ts:46094
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
@@ -144,15 +144,15 @@ search engine domain in a POST array
 
 [`ISerpGoogleNewsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:45560
+main.ts:46092
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -160,9 +160,9 @@ type of element
 
 [`ISerpGoogleNewsTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpGoogleNewsTaskGetHtmlResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:45558
+main.ts:46090
 
 ## Methods
 
@@ -178,9 +178,9 @@ main.ts:45558
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:45586
+main.ts:46118
 
 ***
 
@@ -196,15 +196,15 @@ main.ts:45586
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:45614
+main.ts:46146
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleNewsTaskGetHtmlResultInfo`](SerpGoogleNewsTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleNewsTaskGetHtmlResultInfo`](SerpGoogleNewsTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
@@ -214,6 +214,6 @@ main.ts:45614
 
 [`SerpGoogleNewsTaskGetHtmlResultInfo`](SerpGoogleNewsTaskGetHtmlResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:45607
+main.ts:46139

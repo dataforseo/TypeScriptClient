@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPagePagesByResourceRequestInfo(data)
+### new OnPagePagesByResourceRequestInfo()
 
 > **new OnPagePagesByResourceRequestInfo**(`data`?): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
@@ -28,22 +28,22 @@
 
 [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:156950
+main.ts:158778
 
 ## Properties
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.external_links_count","<=",50]["url","like","https://dataforseo.com/apis/dataforseo-labs-api"]
@@ -56,15 +56,15 @@ The full list of possible filters is available by this link.
 
 [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`filters`](../interfaces/IOnPagePagesByResourceRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:156926
+main.ts:158754
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -76,15 +76,15 @@ example:
 
 [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`id`](../interfaces/IOnPagePagesByResourceRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:156896
+main.ts:158724
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -95,15 +95,15 @@ maximum value: 1000
 
 [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`limit`](../interfaces/IOnPagePagesByResourceRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:156907
+main.ts:158735
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -114,15 +114,15 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`offset`](../interfaces/IOnPagePagesByResourceRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:156912
+main.ts:158740
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -142,15 +142,15 @@ example:
 
 [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`order_by`](../interfaces/IOnPagePagesByResourceRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:156940
+main.ts:158768
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -162,15 +162,15 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`tag`](../interfaces/IOnPagePagesByResourceRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:156946
+main.ts:158774
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 resource URL
 required field
@@ -182,9 +182,9 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 [`IOnPagePagesByResourceRequestInfo`](../interfaces/IOnPagePagesByResourceRequestInfo.md).[`url`](../interfaces/IOnPagePagesByResourceRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:156902
+main.ts:158730
 
 ## Methods
 
@@ -200,9 +200,9 @@ main.ts:156902
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:156959
+main.ts:158787
 
 ***
 
@@ -218,15 +218,15 @@ main.ts:156959
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:156990
+main.ts:158818
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
 #### Parameters
 
@@ -236,6 +236,6 @@ main.ts:156990
 
 [`OnPagePagesByResourceRequestInfo`](OnPagePagesByResourceRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:156983
+main.ts:158811

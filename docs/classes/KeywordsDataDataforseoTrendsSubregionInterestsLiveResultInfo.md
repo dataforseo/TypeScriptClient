@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo(data)
+### new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo()
 
 > **new KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:129760
+main.ts:129584
 
 ## Properties
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +47,15 @@ example:
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`datetime`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:129751
+main.ts:129575
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
+> `optional` **items**: [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)[]
 
 keyword popularity values per location
 values in this array represent percentages relative to the maximum value within each region
@@ -64,15 +64,15 @@ values in this array represent percentages relative to the maximum value within 
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`items`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:129756
+main.ts:129580
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -80,15 +80,15 @@ the number of results returned in the items array
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`items_count`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:129753
+main.ts:129577
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords in a POST array
 
@@ -96,15 +96,15 @@ keywords in a POST array
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:129738
+main.ts:129562
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
@@ -113,15 +113,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:129746
+main.ts:129570
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -130,15 +130,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:129743
+main.ts:129567
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -146,9 +146,9 @@ type of element
 
 [`IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:129740
+main.ts:129564
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:129740
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:129769
+main.ts:129593
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:129769
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:129800
+main.ts:129624
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:129800
 
 [`KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:129793
+main.ts:129617

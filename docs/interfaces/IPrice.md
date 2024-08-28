@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:72736
+main.ts:73332
 
 ***
 
 ### current?
 
-> **`optional`** **current**: `number`
+> `optional` **current**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:72733
+main.ts:73329
 
 ***
 
 ### displayed\_price?
 
-> **`optional`** **displayed\_price**: `string`
+> `optional` **displayed\_price**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:72738
+main.ts:73334
 
 ***
 
 ### is\_price\_range?
 
-> **`optional`** **is\_price\_range**: `boolean`
+> `optional` **is\_price\_range**: `boolean`
 
-#### Source
+#### Defined in
 
-main.ts:72737
+main.ts:73333
 
 ***
 
 ### max\_value?
 
-> **`optional`** **max\_value**: `number`
+> `optional` **max\_value**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:72735
+main.ts:73331
 
 ***
 
 ### regular?
 
-> **`optional`** **regular**: `number`
+> `optional` **regular**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:72734
+main.ts:73330

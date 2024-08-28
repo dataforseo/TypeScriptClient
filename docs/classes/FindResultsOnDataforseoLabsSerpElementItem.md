@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new FindResultsOnDataforseoLabsSerpElementItem(data)
+### new FindResultsOnDataforseoLabsSerpElementItem()
 
 > **new FindResultsOnDataforseoLabsSerpElementItem**(`data`?): [`FindResultsOnDataforseoLabsSerpElementItem`](FindResultsOnDataforseoLabsSerpElementItem.md)
 
@@ -36,45 +36,46 @@
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:101156
+main.ts:101759
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20570
+main.ts:20752
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
+> `optional` **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
 [`IFindResultsOnDataforseoLabsSerpElementItem`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:101152
+main.ts:101755
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,15 +85,15 @@ left, right
 
 [`IFindResultsOnDataforseoLabsSerpElementItem`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:101148
+main.ts:101750
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -101,15 +102,15 @@ absolute position among all the elements in SERP
 
 [`IFindResultsOnDataforseoLabsSerpElementItem`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:101144
+main.ts:101746
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -118,15 +119,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IFindResultsOnDataforseoLabsSerpElementItem`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:101141
+main.ts:101743
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -134,9 +135,9 @@ the XPath of the element
 
 [`IFindResultsOnDataforseoLabsSerpElementItem`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IFindResultsOnDataforseoLabsSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:101150
+main.ts:101752
 
 ## Methods
 
@@ -156,9 +157,9 @@ main.ts:101150
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:101161
+main.ts:101764
 
 ***
 
@@ -178,15 +179,15 @@ main.ts:101161
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:101187
+main.ts:101790
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`FindResultsOnDataforseoLabsSerpElementItem`](FindResultsOnDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): [`FindResultsOnDataforseoLabsSerpElementItem`](FindResultsOnDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
@@ -200,6 +201,6 @@ main.ts:101187
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:101180
+main.ts:101783

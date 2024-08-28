@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 target keywords
 required field
@@ -22,15 +22,15 @@ UTF-8 encoding
 maximum number of keywords you can specify in this array: 1000;
 the keywords will be converted to lowercase format
 
-#### Source
+#### Defined in
 
-main.ts:87461
+main.ts:88027
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -39,15 +39,15 @@ Note: this endpoint currently supports these languages only;
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:87500
+main.ts:88066
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -81,15 +81,15 @@ Vietnamese, vi
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:87493
+main.ts:88059
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -97,6 +97,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:87506
+main.ts:88072

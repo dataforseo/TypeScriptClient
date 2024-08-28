@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -9,16 +9,15 @@
 ## Extended by
 
 - [`OrganicDataforseoLabsSerpElementItem`](OrganicDataforseoLabsSerpElementItem.md)
-- [`PaidDataforseoLabsSerpElementItem`](PaidDataforseoLabsSerpElementItem.md)
+- [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
 - [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
 - [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
 - [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 - [`RelatedSearchesDataforseoLabsSerpElementItem`](RelatedSearchesDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
-- [`KnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](KnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
-- [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
+- [`KnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](KnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 - [`CarouselDataforseoLabsSerpElementItem`](CarouselDataforseoLabsSerpElementItem.md)
 - [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
 - [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
@@ -33,6 +32,7 @@
 - [`KnowledgeGraphPartItemDataforseoLabsSerpElementItem`](KnowledgeGraphPartItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem`](KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md)
+- [`PaidDataforseoLabsSerpElementItem`](PaidDataforseoLabsSerpElementItem.md)
 - [`GoogleReviewsDataforseoLabsSerpElementItem`](GoogleReviewsDataforseoLabsSerpElementItem.md)
 - [`GooglePostsDataforseoLabsSerpElementItem`](GooglePostsDataforseoLabsSerpElementItem.md)
 - [`GoogleFlightsDataforseoLabsSerpElementItem`](GoogleFlightsDataforseoLabsSerpElementItem.md)
@@ -64,7 +64,7 @@
 
 ## Constructors
 
-### new BaseDataforseoLabsSerpElementItem(data)
+### new BaseDataforseoLabsSerpElementItem()
 
 > **new BaseDataforseoLabsSerpElementItem**(`data`?): [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
@@ -76,19 +76,19 @@
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:20572
+main.ts:20754
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:20570
+main.ts:20752
 
 ## Methods
 
@@ -104,9 +104,9 @@ main.ts:20570
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:20582
+main.ts:20764
 
 ***
 
@@ -122,15 +122,15 @@ main.ts:20582
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:20823
+main.ts:21005
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
@@ -140,6 +140,6 @@ main.ts:20823
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:20591
+main.ts:20773

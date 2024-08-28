@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### multi\_carousel\_snippets?
 
-> **`optional`** **multi\_carousel\_snippets**: [`CarouselElement`](../classes/CarouselElement.md)[]
+> `optional` **multi\_carousel\_snippets**: [`CarouselElement`](../classes/CarouselElement.md)[]
 
 multi_carousel_snippet results
 
-#### Source
+#### Defined in
 
-main.ts:32926
+main.ts:33122
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:32924
+main.ts:33120
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:32922
+main.ts:33118

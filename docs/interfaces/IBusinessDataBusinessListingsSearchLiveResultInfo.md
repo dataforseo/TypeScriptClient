@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,63 +14,63 @@
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 item types
 the number of items in the items array
 
-#### Source
+#### Defined in
 
-main.ts:202030
+main.ts:203874
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BusinessDataBusinessListingsSearchLiveItem`](../classes/BusinessDataBusinessListingsSearchLiveItem.md)[]
+> `optional` **items**: [`BusinessDataBusinessListingsSearchLiveItem`](../classes/BusinessDataBusinessListingsSearchLiveItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
 possible item types: business_listing
 
-#### Source
+#### Defined in
 
-main.ts:202040
+main.ts:203884
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned businesses
 
-#### Source
+#### Defined in
 
-main.ts:202032
+main.ts:203876
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 
-#### Source
+#### Defined in
 
-main.ts:202036
+main.ts:203880
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:202027
+main.ts:203871

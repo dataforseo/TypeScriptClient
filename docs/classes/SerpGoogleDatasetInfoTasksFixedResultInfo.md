@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleDatasetInfoTasksFixedResultInfo(data)
+### new SerpGoogleDatasetInfoTasksFixedResultInfo()
 
 > **new SerpGoogleDatasetInfoTasksFixedResultInfo**(`data`?): [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:56648
+main.ts:57180
 
 ## Properties
 
 ### date\_fixed?
 
-> **`optional`** **date\_fixed**: `string`
+> `optional` **date\_fixed**: `string`
 
 date when the task was fixed (in the UTC format)
 
@@ -44,15 +44,15 @@ date when the task was fixed (in the UTC format)
 
 [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`date_fixed`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#date_fixed)
 
-#### Source
+#### Defined in
 
-main.ts:56633
+main.ts:57165
 
 ***
 
 ### endpoint\_advanced?
 
-> **`optional`** **endpoint\_advanced**: `string`
+> `optional` **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -61,15 +61,15 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_advanced)
 
-#### Source
+#### Defined in
 
-main.ts:56641
+main.ts:57173
 
 ***
 
 ### endpoint\_html?
 
-> **`optional`** **endpoint\_html**: `string`
+> `optional` **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -78,15 +78,15 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_html)
 
-#### Source
+#### Defined in
 
-main.ts:56644
+main.ts:57176
 
 ***
 
 ### endpoint\_regular?
 
-> **`optional`** **endpoint\_regular**: `string`
+> `optional` **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -95,15 +95,15 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#endpoint_regular)
 
-#### Source
+#### Defined in
 
-main.ts:56638
+main.ts:57170
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -112,15 +112,15 @@ unique task identifier in our system in the UUID format
 
 [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`id`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:56626
+main.ts:57158
 
 ***
 
 ### se?
 
-> **`optional`** **se**: `string`
+> `optional` **se**: `string`
 
 search engine specified when setting the task
 
@@ -128,15 +128,15 @@ search engine specified when setting the task
 
 [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`se`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#se)
 
-#### Source
+#### Defined in
 
-main.ts:56628
+main.ts:57160
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 type of search engine
 can take the following values: dataset_info
@@ -145,15 +145,15 @@ can take the following values: dataset_info
 
 [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`se_type`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:56631
+main.ts:57163
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
@@ -161,9 +161,9 @@ user-defined task identifier
 
 [`ISerpGoogleDatasetInfoTasksFixedResultInfo`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetInfoTasksFixedResultInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:56635
+main.ts:57167
 
 ## Methods
 
@@ -179,9 +179,9 @@ main.ts:56635
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:56657
+main.ts:57189
 
 ***
 
@@ -197,15 +197,15 @@ main.ts:56657
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:56681
+main.ts:57213
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
 
 #### Parameters
 
@@ -215,6 +215,6 @@ main.ts:56681
 
 [`SerpGoogleDatasetInfoTasksFixedResultInfo`](SerpGoogleDatasetInfoTasksFixedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:56674
+main.ts:57206

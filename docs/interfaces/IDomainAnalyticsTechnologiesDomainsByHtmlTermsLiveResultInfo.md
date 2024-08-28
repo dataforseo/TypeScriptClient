@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,60 +14,60 @@
 
 ### items?
 
-> **`optional`** **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](../classes/DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
+> `optional` **items**: [`DomainAnalyticsTechnologiesDomainsByLiveItem`](../classes/DomainAnalyticsTechnologiesDomainsByLiveItem.md)[]
 
 items array
 
-#### Source
+#### Defined in
 
-main.ts:79430
+main.ts:80026
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
-#### Source
+#### Defined in
 
-main.ts:79422
+main.ts:80018
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 specified offset value
 
-#### Source
+#### Defined in
 
-main.ts:79424
+main.ts:80020
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
 offset_token values are unique for each subsequent task
 
-#### Source
+#### Defined in
 
-main.ts:79428
+main.ts:80024
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of relevant items in the database
 
-#### Source
+#### Defined in
 
-main.ts:79420
+main.ts:80016

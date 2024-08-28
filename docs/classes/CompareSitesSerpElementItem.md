@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new CompareSitesSerpElementItem(data)
+### new CompareSitesSerpElementItem()
 
 > **new CompareSitesSerpElementItem**(`data`?): [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:37669
+main.ts:37865
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`CompareSitesElement`](CompareSitesElement.md)[]
+> `optional` **items**: [`CompareSitesElement`](CompareSitesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -67,15 +67,15 @@ if there are none, equals null
 
 [`ICompareSitesSerpElementItem`](../interfaces/ICompareSitesSerpElementItem.md).[`items`](../interfaces/ICompareSitesSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:37661
+main.ts:37857
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -85,15 +85,15 @@ left, right
 
 [`ICompareSitesSerpElementItem`](../interfaces/ICompareSitesSerpElementItem.md).[`position`](../interfaces/ICompareSitesSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:37654
+main.ts:37850
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -103,15 +103,15 @@ always equals 0 for desktop
 
 [`ICompareSitesSerpElementItem`](../interfaces/ICompareSitesSerpElementItem.md).[`rank_absolute`](../interfaces/ICompareSitesSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:37650
+main.ts:37846
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -122,15 +122,15 @@ always equals 0 for desktop
 
 [`ICompareSitesSerpElementItem`](../interfaces/ICompareSitesSerpElementItem.md).[`rank_group`](../interfaces/ICompareSitesSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:37646
+main.ts:37842
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -140,15 +140,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`ICompareSitesSerpElementItem`](../interfaces/ICompareSitesSerpElementItem.md).[`rectangle`](../interfaces/ICompareSitesSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:37665
+main.ts:37861
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the row
 
@@ -156,15 +156,15 @@ title of the row
 
 [`ICompareSitesSerpElementItem`](../interfaces/ICompareSitesSerpElementItem.md).[`title`](../interfaces/ICompareSitesSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:37658
+main.ts:37854
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -172,9 +172,9 @@ the XPath of the element
 
 [`ICompareSitesSerpElementItem`](../interfaces/ICompareSitesSerpElementItem.md).[`xpath`](../interfaces/ICompareSitesSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:37656
+main.ts:37852
 
 ## Methods
 
@@ -194,9 +194,9 @@ main.ts:37656
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:37674
+main.ts:37870
 
 ***
 
@@ -216,15 +216,15 @@ main.ts:37674
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:37702
+main.ts:37898
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
+> `static` **fromJS**(`data`): [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
 
 #### Parameters
 
@@ -238,6 +238,6 @@ main.ts:37702
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:37695
+main.ts:37891

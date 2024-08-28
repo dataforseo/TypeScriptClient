@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### amazon?
 
-> **`optional`** **amazon**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
+> `optional` **amazon**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
 
 update information for the Amazon endpoints
 
-#### Source
+#### Defined in
 
-main.ts:81370
+main.ts:81966
 
 ***
 
 ### bing?
 
-> **`optional`** **bing**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
+> `optional` **bing**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
 
 update information for the Bing endpoints
 
-#### Source
+#### Defined in
 
-main.ts:81368
+main.ts:81964
 
 ***
 
 ### google?
 
-> **`optional`** **google**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
+> `optional` **google**: [`DataforseoLabsStatusInfo`](../classes/DataforseoLabsStatusInfo.md)
 
 update information for the Google endpoints
 
-#### Source
+#### Defined in
 
-main.ts:81366
+main.ts:81962

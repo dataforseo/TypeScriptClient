@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixInfo(data)
+### new AppendixInfo()
 
 > **new AppendixInfo**(`data`?): [`AppendixInfo`](AppendixInfo.md)
 
@@ -28,65 +28,65 @@
 
 [`AppendixInfo`](AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218532
+main.ts:220384
 
 ## Properties
 
 ### live?
 
-> **`optional`** **live**: `number`
+> `optional` **live**: `number`
 
 #### Implementation of
 
 [`IAppendixInfo`](../interfaces/IAppendixInfo.md).[`live`](../interfaces/IAppendixInfo.md#live)
 
-#### Source
+#### Defined in
 
-main.ts:218528
+main.ts:220380
 
 ***
 
 ### task\_get?
 
-> **`optional`** **task\_get**: `number`
+> `optional` **task\_get**: `number`
 
 #### Implementation of
 
 [`IAppendixInfo`](../interfaces/IAppendixInfo.md).[`task_get`](../interfaces/IAppendixInfo.md#task_get)
 
-#### Source
+#### Defined in
 
-main.ts:218526
+main.ts:220378
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: `number`
+> `optional` **task\_post**: `number`
 
 #### Implementation of
 
 [`IAppendixInfo`](../interfaces/IAppendixInfo.md).[`task_post`](../interfaces/IAppendixInfo.md#task_post)
 
-#### Source
+#### Defined in
 
-main.ts:218525
+main.ts:220377
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
 #### Implementation of
 
 [`IAppendixInfo`](../interfaces/IAppendixInfo.md).[`tasks_ready`](../interfaces/IAppendixInfo.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:218527
+main.ts:220379
 
 ## Methods
 
@@ -102,9 +102,9 @@ main.ts:218527
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:218541
+main.ts:220393
 
 ***
 
@@ -120,15 +120,15 @@ main.ts:218541
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:218561
+main.ts:220413
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixInfo`](AppendixInfo.md)
+> `static` **fromJS**(`data`): [`AppendixInfo`](AppendixInfo.md)
 
 #### Parameters
 
@@ -138,6 +138,6 @@ main.ts:218561
 
 [`AppendixInfo`](AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218554
+main.ts:220406

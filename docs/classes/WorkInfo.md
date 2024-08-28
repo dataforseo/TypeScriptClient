@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new WorkInfo(data)
+### new WorkInfo()
 
 > **new WorkInfo**(`data`?): [`WorkInfo`](WorkInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`WorkInfo`](WorkInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201336
+main.ts:203168
 
 ## Properties
 
 ### work\_hours?
 
-> **`optional`** **work\_hours**: [`WorkHours`](WorkHours.md)
+> `optional` **work\_hours**: [`WorkHours`](WorkHours.md)
 
 open hours
 information about work hours of the local establishment
@@ -45,9 +45,9 @@ information about work hours of the local establishment
 
 [`IWorkInfo`](../interfaces/IWorkInfo.md).[`work_hours`](../interfaces/IWorkInfo.md#work_hours)
 
-#### Source
+#### Defined in
 
-main.ts:201332
+main.ts:203164
 
 ## Methods
 
@@ -63,9 +63,9 @@ main.ts:201332
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:201345
+main.ts:203177
 
 ***
 
@@ -81,15 +81,15 @@ main.ts:201345
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:201362
+main.ts:203194
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`WorkInfo`](WorkInfo.md)
+> `static` **fromJS**(`data`): [`WorkInfo`](WorkInfo.md)
 
 #### Parameters
 
@@ -99,6 +99,6 @@ main.ts:201362
 
 [`WorkInfo`](WorkInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201355
+main.ts:203187

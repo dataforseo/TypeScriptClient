@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,88 +14,88 @@
 
 ### app\_info?
 
-> **`optional`** **app\_info**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
+> `optional` **app\_info**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222717
+main.ts:226989
 
 ***
 
 ### app\_list?
 
-> **`optional`** **app\_list**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
+> `optional` **app\_list**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222718
+main.ts:226990
 
 ***
 
 ### app\_reviews?
 
-> **`optional`** **app\_reviews**: [`AppendixPriceDataInfo`](../classes/AppendixPriceDataInfo.md)
+> `optional` **app\_reviews**: [`AppendixPriceDataInfo`](../classes/AppendixPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222719
+main.ts:226991
 
 ***
 
 ### app\_searches?
 
-> **`optional`** **app\_searches**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
+> `optional` **app\_searches**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222720
+main.ts:226992
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222721
+main.ts:226993
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222722
+main.ts:226994
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222723
+main.ts:226995
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222724
+main.ts:226996
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222725
+main.ts:226997

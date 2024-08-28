@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpIdListResultInfo(data)
+### new SerpIdListResultInfo()
 
 > **new SerpIdListResultInfo**(`data`?): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23997
+main.ts:24179
 
 ## Properties
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 cost of the task, USD
 
@@ -44,15 +44,15 @@ cost of the task, USD
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`cost`](../interfaces/ISerpIdListResultInfo.md#cost)
 
-#### Source
+#### Defined in
 
-main.ts:23991
+main.ts:24173
 
 ***
 
 ### datetime\_done?
 
-> **`optional`** **datetime\_done**: `string`
+> `optional` **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +63,15 @@ example:
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`datetime_done`](../interfaces/ISerpIdListResultInfo.md#datetime_done)
 
-#### Source
+#### Defined in
 
-main.ts:23986
+main.ts:24168
 
 ***
 
 ### datetime\_posted?
 
-> **`optional`** **datetime\_posted**: `string`
+> `optional` **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,15 @@ example:
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`datetime_posted`](../interfaces/ISerpIdListResultInfo.md#datetime_posted)
 
-#### Source
+#### Defined in
 
-main.ts:23981
+main.ts:24163
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the task
 
@@ -98,19 +98,19 @@ id of the task
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`id`](../interfaces/ISerpIdListResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:23973
+main.ts:24155
 
 ***
 
 ### metadata?
 
-> **`optional`** **metadata**: `Object`
+> `optional` **metadata**: `object`
 
 contains parameters you specified in the POST request
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `any`
 
@@ -118,15 +118,15 @@ contains parameters you specified in the POST request
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`metadata`](../interfaces/ISerpIdListResultInfo.md#metadata)
 
-#### Source
+#### Defined in
 
-main.ts:23993
+main.ts:24175
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `string`
+> `optional` **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +135,15 @@ you can find the full list of general informational messages here
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`status`](../interfaces/ISerpIdListResultInfo.md#status)
 
-#### Source
+#### Defined in
 
-main.ts:23989
+main.ts:24171
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the task
 URL you used for making an API call
@@ -152,9 +152,9 @@ URL you used for making an API call
 
 [`ISerpIdListResultInfo`](../interfaces/ISerpIdListResultInfo.md).[`url`](../interfaces/ISerpIdListResultInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:23976
+main.ts:24158
 
 ## Methods
 
@@ -170,9 +170,9 @@ main.ts:23976
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:24006
+main.ts:24188
 
 ***
 
@@ -188,15 +188,15 @@ main.ts:24006
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:24035
+main.ts:24217
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
 #### Parameters
 
@@ -206,6 +206,6 @@ main.ts:24035
 
 [`SerpIdListResultInfo`](SerpIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24028
+main.ts:24210

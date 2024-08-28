@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:104451
+main.ts:105081
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:104449
+main.ts:105079
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon
 
-#### Source
+#### Defined in
 
-main.ts:104454
+main.ts:105084

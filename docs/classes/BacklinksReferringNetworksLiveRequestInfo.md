@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksReferringNetworksLiveRequestInfo(data)
+### new BacklinksReferringNetworksLiveRequestInfo()
 
 > **new BacklinksReferringNetworksLiveRequestInfo**(`data`?): [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:146153
+main.ts:147979
 
 ## Properties
 
 ### backlinks\_filters?
 
-> **`optional`** **backlinks\_filters**: `any`[]
+> `optional` **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -50,15 +50,15 @@ example:
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`backlinks_filters`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#backlinks_filters)
 
-#### Source
+#### Defined in
 
-main.ts:146127
+main.ts:147953
 
 ***
 
 ### backlinks\_status\_type?
 
-> **`optional`** **backlinks\_status\_type**: `string`
+> `optional` **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -73,15 +73,15 @@ default value: live
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`backlinks_status_type`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#backlinks_status_type)
 
-#### Source
+#### Defined in
 
-main.ts:146088
+main.ts:147914
 
 ***
 
 ### exclude\_internal\_backlinks?
 
-> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+> `optional` **exclude\_internal\_backlinks**: `boolean`
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -92,25 +92,25 @@ default value: true
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#exclude_internal_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:146143
+main.ts:147969
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["referring_pages",">`","1"]
+["referring_pages",">","1"]
 [["referring_pages",">","2"],
 "and",
 ["backlinks",">","10"]]
@@ -123,15 +123,15 @@ The full list of possible filters is available here.
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`filters`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:146105
+main.ts:147931
 
 ***
 
 ### include\_indirect\_links?
 
-> **`optional`** **include\_indirect\_links**: `boolean`
+> `optional` **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -143,15 +143,15 @@ default value: true
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`include_indirect_links`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#include_indirect_links)
 
-#### Source
+#### Defined in
 
-main.ts:146138
+main.ts:147964
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -162,15 +162,15 @@ default value: true
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#include_subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:146132
+main.ts:147958
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -187,15 +187,15 @@ maximum value: 1000
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#internal_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:146079
+main.ts:147905
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned networks
 optional field
@@ -206,15 +206,15 @@ maximum value: 1000
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:146063
+main.ts:147889
 
 ***
 
 ### network\_address\_type?
 
-> **`optional`** **network\_address\_type**: `string`
+> `optional` **network\_address\_type**: `string`
 
 indicates the type of network to get data for
 optional field
@@ -225,15 +225,15 @@ default value: ip
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`network_address_type`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#network_address_type)
 
-#### Source
+#### Defined in
 
-main.ts:146058
+main.ts:147884
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned networks
 optional field
@@ -244,15 +244,15 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`offset`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:146068
+main.ts:147894
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -272,15 +272,15 @@ example:
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`order_by`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:146119
+main.ts:147945
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -292,15 +292,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:146149
+main.ts:147975
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage to get referring networks for
 required field
@@ -311,9 +311,9 @@ a page should be specified with absolute URL (including http:// or https://)
 
 [`IBacklinksReferringNetworksLiveRequestInfo`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md).[`target`](../interfaces/IBacklinksReferringNetworksLiveRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:146053
+main.ts:147879
 
 ## Methods
 
@@ -329,9 +329,9 @@ main.ts:146053
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:146162
+main.ts:147988
 
 ***
 
@@ -347,15 +347,15 @@ main.ts:146162
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:146203
+main.ts:148029
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
 
 #### Parameters
 
@@ -365,6 +365,6 @@ main.ts:146203
 
 [`BacklinksReferringNetworksLiveRequestInfo`](BacklinksReferringNetworksLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:146196
+main.ts:148022

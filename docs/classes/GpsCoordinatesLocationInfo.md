@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new GpsCoordinatesLocationInfo(data)
+### new GpsCoordinatesLocationInfo()
 
 > **new GpsCoordinatesLocationInfo**(`data`?): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:206469
+main.ts:208319
 
 ## Properties
 
 ### latitude?
 
-> **`optional`** **latitude**: `number`
+> `optional` **latitude**: `number`
 
 latitude coordinate of the hotel in google maps
 example:
@@ -46,15 +46,15 @@ example:
 
 [`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md).[`latitude`](../interfaces/IGpsCoordinatesLocationInfo.md#latitude)
 
-#### Source
+#### Defined in
 
-main.ts:206461
+main.ts:208311
 
 ***
 
 ### longitude?
 
-> **`optional`** **longitude**: `number`
+> `optional` **longitude**: `number`
 
 longitude coordinate of the hotel in google maps
 example:
@@ -64,9 +64,9 @@ example:
 
 [`IGpsCoordinatesLocationInfo`](../interfaces/IGpsCoordinatesLocationInfo.md).[`longitude`](../interfaces/IGpsCoordinatesLocationInfo.md#longitude)
 
-#### Source
+#### Defined in
 
-main.ts:206465
+main.ts:208315
 
 ## Methods
 
@@ -82,9 +82,9 @@ main.ts:206465
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:206478
+main.ts:208328
 
 ***
 
@@ -100,15 +100,15 @@ main.ts:206478
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:206496
+main.ts:208346
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
+> `static` **fromJS**(`data`): [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
 #### Parameters
 
@@ -118,6 +118,6 @@ main.ts:206496
 
 [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:206489
+main.ts:208339

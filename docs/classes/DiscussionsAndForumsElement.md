@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DiscussionsAndForumsElement(data)
+### new DiscussionsAndForumsElement()
 
 > **new DiscussionsAndForumsElement**(`data`?): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:37371
+main.ts:37567
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`description`](../interfaces/IDiscussionsAndForumsElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:37360
+main.ts:37556
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -60,15 +60,15 @@ website domain
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`domain`](../interfaces/IDiscussionsAndForumsElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:37355
+main.ts:37551
 
 ***
 
 ### posts\_count?
 
-> **`optional`** **posts\_count**: `number`
+> `optional` **posts\_count**: `number`
 
 number of posts from the discussion on the related source
 
@@ -76,15 +76,15 @@ number of posts from the discussion on the related source
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`posts_count`](../interfaces/IDiscussionsAndForumsElement.md#posts_count)
 
-#### Source
+#### Defined in
 
-main.ts:37367
+main.ts:37563
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -93,15 +93,15 @@ indicates the source of information included in the top_stories_element
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`source`](../interfaces/IDiscussionsAndForumsElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:37358
+main.ts:37554
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -112,15 +112,15 @@ example:
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`timestamp`](../interfaces/IDiscussionsAndForumsElement.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:37365
+main.ts:37561
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -128,15 +128,15 @@ title of a given link element
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`title`](../interfaces/IDiscussionsAndForumsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:37351
+main.ts:37547
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -144,15 +144,15 @@ type of element
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`type`](../interfaces/IDiscussionsAndForumsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:37349
+main.ts:37545
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -160,9 +160,9 @@ URL
 
 [`IDiscussionsAndForumsElement`](../interfaces/IDiscussionsAndForumsElement.md).[`url`](../interfaces/IDiscussionsAndForumsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:37353
+main.ts:37549
 
 ## Methods
 
@@ -178,9 +178,9 @@ main.ts:37353
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:37380
+main.ts:37576
 
 ***
 
@@ -196,15 +196,15 @@ main.ts:37380
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:37404
+main.ts:37600
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
+> `static` **fromJS**(`data`): [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
 #### Parameters
 
@@ -214,6 +214,6 @@ main.ts:37404
 
 [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:37397
+main.ts:37593

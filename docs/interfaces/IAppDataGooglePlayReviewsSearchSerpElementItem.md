@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,151 +18,151 @@
 
 ### helpful\_count?
 
-> **`optional`** **helpful\_count**: `number`
+> `optional` **helpful\_count**: `number`
 
 number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon
 
-#### Source
+#### Defined in
 
-main.ts:193863
+main.ts:195695
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the review
 
-#### Source
+#### Defined in
 
-main.ts:193860
+main.ts:195692
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: left
 
-#### Source
+#### Defined in
 
-main.ts:193848
+main.ts:195680
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
 
-#### Source
+#### Defined in
 
-main.ts:193845
+main.ts:195677
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:193842
+main.ts:195674
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score submitted by the reviewer
 
-#### Source
+#### Defined in
 
-main.ts:193853
+main.ts:195685
 
 ***
 
 ### responses?
 
-> **`optional`** **responses**: [`ResponseDataInfo`](../classes/ResponseDataInfo.md)[]
+> `optional` **responses**: [`ResponseDataInfo`](../classes/ResponseDataInfo.md)[]
 
 response from the developer
 
-#### Source
+#### Defined in
 
-main.ts:193872
+main.ts:195704
 
 ***
 
 ### review\_text?
 
-> **`optional`** **review\_text**: `string`
+> `optional` **review\_text**: `string`
 
 content of the review
 
-#### Source
+#### Defined in
 
-main.ts:193868
+main.ts:195700
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:193858
+main.ts:195690
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the review
 Google Play doesn’t provide an option to title reviews, so this parameter will always equal null
 
-#### Source
+#### Defined in
 
-main.ts:193866
+main.ts:195698
 
 ***
 
 ### user\_profile?
 
-> **`optional`** **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
+> `optional` **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
 
 user profile of the reviewer
 
-#### Source
+#### Defined in
 
-main.ts:193870
+main.ts:195702
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 version of the app
 version of the app for which the review is submitted
 
-#### Source
+#### Defined in
 
-main.ts:193851
+main.ts:195683

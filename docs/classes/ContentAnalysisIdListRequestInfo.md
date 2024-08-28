@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisIdListRequestInfo(data)
+### new ContentAnalysisIdListRequestInfo()
 
 > **new ContentAnalysisIdListRequestInfo**(`data`?): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:166940
+main.ts:168772
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -50,15 +50,15 @@ example:
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`datetime_from`](../interfaces/IContentAnalysisIdListRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:166910
+main.ts:168742
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -71,15 +71,15 @@ example:
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`datetime_to`](../interfaces/IContentAnalysisIdListRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:166917
+main.ts:168749
 
 ***
 
 ### include\_metadata?
 
-> **`optional`** **include\_metadata**: `boolean`
+> `optional` **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,15 @@ default value: false
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`include_metadata`](../interfaces/IContentAnalysisIdListRequestInfo.md#include_metadata)
 
-#### Source
+#### Defined in
 
-main.ts:166936
+main.ts:168768
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +108,15 @@ maximum value: 1000
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`limit`](../interfaces/IContentAnalysisIdListRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:166922
+main.ts:168754
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +127,15 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`offset`](../interfaces/IContentAnalysisIdListRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:166927
+main.ts:168759
 
 ***
 
 ### sort?
 
-> **`optional`** **sort**: `string`
+> `optional` **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -146,9 +146,9 @@ default value: "asc"
 
 [`IContentAnalysisIdListRequestInfo`](../interfaces/IContentAnalysisIdListRequestInfo.md).[`sort`](../interfaces/IContentAnalysisIdListRequestInfo.md#sort)
 
-#### Source
+#### Defined in
 
-main.ts:166932
+main.ts:168764
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:166932
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:166949
+main.ts:168781
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:166949
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:166971
+main.ts:168803
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:166971
 
 [`ContentAnalysisIdListRequestInfo`](ContentAnalysisIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:166964
+main.ts:168796

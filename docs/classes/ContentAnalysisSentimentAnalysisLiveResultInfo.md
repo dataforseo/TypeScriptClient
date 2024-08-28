@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisSentimentAnalysisLiveResultInfo(data)
+### new ContentAnalysisSentimentAnalysisLiveResultInfo()
 
 > **new ContentAnalysisSentimentAnalysisLiveResultInfo**(`data`?): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169890
+main.ts:171722
 
 ## Properties
 
 ### positive\_connotation\_distribution?
 
-> **`optional`** **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
+> `optional` **positive\_connotation\_distribution**: [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
 citation distribution by sentiment connotation types
 contains objects with citation counts and relevant data distributed by types of sentiments (sentiment polarity);
@@ -46,15 +46,15 @@ possible sentiment connotation types: positive, negative, neutral
 
 [`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md).[`positive_connotation_distribution`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md#positive_connotation_distribution)
 
-#### Source
+#### Defined in
 
-main.ts:169882
+main.ts:171714
 
 ***
 
 ### sentiment\_connotation\_distribution?
 
-> **`optional`** **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
+> `optional` **sentiment\_connotation\_distribution**: [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
 citation distribution by sentiment connotations
 contains objects with citation counts and relevant data distributed by sentiments (emotional reactions);
@@ -64,15 +64,15 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 [`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md).[`sentiment_connotation_distribution`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md#sentiment_connotation_distribution)
 
-#### Source
+#### Defined in
 
-main.ts:169886
+main.ts:171718
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -80,9 +80,9 @@ type of element
 
 [`IContentAnalysisSentimentAnalysisLiveResultInfo`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md).[`type`](../interfaces/IContentAnalysisSentimentAnalysisLiveResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:169878
+main.ts:171710
 
 ## Methods
 
@@ -98,9 +98,9 @@ main.ts:169878
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:169899
+main.ts:171731
 
 ***
 
@@ -116,15 +116,15 @@ main.ts:169899
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:169918
+main.ts:171750
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
 #### Parameters
 
@@ -134,6 +134,6 @@ main.ts:169918
 
 [`ContentAnalysisSentimentAnalysisLiveResultInfo`](ContentAnalysisSentimentAnalysisLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169911
+main.ts:171743

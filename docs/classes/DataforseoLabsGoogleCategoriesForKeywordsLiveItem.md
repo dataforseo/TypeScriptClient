@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleCategoriesForKeywordsLiveItem(data)
+### new DataforseoLabsGoogleCategoriesForKeywordsLiveItem()
 
 > **new DataforseoLabsGoogleCategoriesForKeywordsLiveItem**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:88958
+main.ts:89522
 
 ## Properties
 
 ### categories?
 
-> **`optional`** **categories**: `number`[]
+> `optional` **categories**: `number`[]
 
 product and service categories
 you can download the full list of possible categories
@@ -45,15 +45,15 @@ you can download the full list of possible categories
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md).[`categories`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:88954
+main.ts:89518
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
@@ -61,9 +61,9 @@ keyword in a POST array
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveItem.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:88951
+main.ts:89515
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:88951
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:88967
+main.ts:89531
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:88967
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:88989
+main.ts:89553
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:88989
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:88982
+main.ts:89546

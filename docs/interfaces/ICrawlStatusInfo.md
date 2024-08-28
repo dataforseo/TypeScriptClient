@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### max\_crawl\_pages?
 
-> **`optional`** **max\_crawl\_pages**: `number`
+> `optional` **max\_crawl\_pages**: `number`
 
 maximum number of pages to crawl
 indicates the max_crawl_pages limit you specified when setting a task
 
-#### Source
+#### Defined in
 
-main.ts:22041
+main.ts:22223
 
 ***
 
 ### pages\_crawled?
 
-> **`optional`** **pages\_crawled**: `number`
+> `optional` **pages\_crawled**: `number`
 
 number of crawled pages
 
-#### Source
+#### Defined in
 
-main.ts:22045
+main.ts:22227
 
 ***
 
 ### pages\_in\_queue?
 
-> **`optional`** **pages\_in\_queue**: `number`
+> `optional` **pages\_in\_queue**: `number`
 
 number of pages that are currently in the crawling queue
 
-#### Source
+#### Defined in
 
-main.ts:22043
+main.ts:22225

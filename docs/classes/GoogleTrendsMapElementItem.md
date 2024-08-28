@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new GoogleTrendsMapElementItem(data)
+### new GoogleTrendsMapElementItem()
 
 > **new GoogleTrendsMapElementItem**(`data`?): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`constructor`](BaseGoogleTrendsItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:126990
+main.ts:126997
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`_discriminator`](BaseGoogleTrendsItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21388
+main.ts:21570
 
 ***
 
 ### data?
 
-> **`optional`** **data**: [`TrendsMapDataInfo`](TrendsMapDataInfo.md)[]
+> `optional` **data**: [`TrendsMapDataInfo`](TrendsMapDataInfo.md)[]
 
 Google Trends data from the corresponding item
 
@@ -66,15 +66,15 @@ Google Trends data from the corresponding item
 
 [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`data`](../interfaces/IGoogleTrendsMapElementItem.md#data)
 
-#### Source
+#### Defined in
 
-main.ts:126986
+main.ts:126993
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_map element is based on the keywords listed in this array
@@ -83,15 +83,15 @@ the data included in the google_trends_map element is based on the keywords list
 
 [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`keywords`](../interfaces/IGoogleTrendsMapElementItem.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:126984
+main.ts:126991
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -100,15 +100,15 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`position`](../interfaces/IGoogleTrendsMapElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:126979
+main.ts:126986
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element in Google Trends
 
@@ -116,9 +116,9 @@ title of the element in Google Trends
 
 [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`title`](../interfaces/IGoogleTrendsMapElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:126981
+main.ts:126988
 
 ## Methods
 
@@ -138,9 +138,9 @@ main.ts:126981
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`init`](BaseGoogleTrendsItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:126995
+main.ts:127002
 
 ***
 
@@ -160,15 +160,15 @@ main.ts:126995
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`toJSON`](BaseGoogleTrendsItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:127024
+main.ts:127031
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
+> `static` **fromJS**(`data`): [`GoogleTrendsMapElementItem`](GoogleTrendsMapElementItem.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:127024
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`fromJS`](BaseGoogleTrendsItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:127017
+main.ts:127024

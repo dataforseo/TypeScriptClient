@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### inspection\_info?
 
-> **`optional`** **inspection\_info**: [`MicrodataInspectionInfo`](../classes/MicrodataInspectionInfo.md)
+> `optional` **inspection\_info**: [`MicrodataInspectionInfo`](../classes/MicrodataInspectionInfo.md)
 
 information related to microdata validation
 
-#### Source
+#### Defined in
 
-main.ts:162427
+main.ts:164259
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:162425
+main.ts:164257

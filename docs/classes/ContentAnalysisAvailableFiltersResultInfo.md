@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisAvailableFiltersResultInfo(data)
+### new ContentAnalysisAvailableFiltersResultInfo()
 
 > **new ContentAnalysisAvailableFiltersResultInfo**(`data`?): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
@@ -28,17 +28,17 @@
 
 [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:167255
+main.ts:169087
 
 ## Properties
 
 ### search?
 
-> **`optional`** **search**: `Object`
+> `optional` **search**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -46,9 +46,9 @@ main.ts:167255
 
 [`IContentAnalysisAvailableFiltersResultInfo`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md).[`search`](../interfaces/IContentAnalysisAvailableFiltersResultInfo.md#search)
 
-#### Source
+#### Defined in
 
-main.ts:167251
+main.ts:169083
 
 ## Methods
 
@@ -64,9 +64,9 @@ main.ts:167251
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:167264
+main.ts:169096
 
 ***
 
@@ -82,15 +82,15 @@ main.ts:167264
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:167287
+main.ts:169119
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
 #### Parameters
 
@@ -100,6 +100,6 @@ main.ts:167287
 
 [`ContentAnalysisAvailableFiltersResultInfo`](ContentAnalysisAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:167280
+main.ts:169112

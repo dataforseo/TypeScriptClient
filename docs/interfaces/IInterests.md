@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 relevant keyword
 the data included in the values element is based on this keyword
 
-#### Source
+#### Defined in
 
-main.ts:129467
+main.ts:129291
 
 ***
 
 ### values?
 
-> **`optional`** **values**: [`Values`](../classes/Values.md)[]
+> `optional` **values**: [`Values`](../classes/Values.md)[]
 
 contains data on relative keyword popularity by country or region
 
-#### Source
+#### Defined in
 
-main.ts:129469
+main.ts:129293

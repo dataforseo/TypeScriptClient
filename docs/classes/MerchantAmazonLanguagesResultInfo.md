@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantAmazonLanguagesResultInfo(data)
+### new MerchantAmazonLanguagesResultInfo()
 
 > **new MerchantAmazonLanguagesResultInfo**(`data`?): [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:182174
+main.ts:184006
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md).[`language_code`](../interfaces/IMerchantAmazonLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:182170
+main.ts:184002
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IMerchantAmazonLanguagesResultInfo`](../interfaces/IMerchantAmazonLanguagesResultInfo.md).[`language_name`](../interfaces/IMerchantAmazonLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:182168
+main.ts:184000
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:182168
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:182183
+main.ts:184015
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:182183
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:182201
+main.ts:184033
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:182201
 
 [`MerchantAmazonLanguagesResultInfo`](MerchantAmazonLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:182194
+main.ts:184026

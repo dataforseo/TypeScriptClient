@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo(data)
+### new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo()
 
 > **new DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:78223
+main.ts:78819
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 
@@ -44,15 +44,15 @@ starting date of the time range
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`date_from`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:78213
+main.ts:78809
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 
@@ -60,15 +60,15 @@ ending date of the time range
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`date_to`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:78215
+main.ts:78811
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
+> `optional` **items**: [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)[]
 
 items array
 
@@ -76,15 +76,15 @@ items array
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`items`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:78219
+main.ts:78815
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -92,15 +92,15 @@ number of items in the results array
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`items_count`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:78217
+main.ts:78813
 
 ***
 
 ### technology?
 
-> **`optional`** **technology**: `string`
+> `optional` **technology**: `string`
 
 target technology
 
@@ -108,9 +108,9 @@ target technology
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md).[`technology`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md#technology)
 
-#### Source
+#### Defined in
 
-main.ts:78211
+main.ts:78807
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:78211
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:78232
+main.ts:78828
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:78232
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:78257
+main.ts:78853
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:78257
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:78250
+main.ts:78846

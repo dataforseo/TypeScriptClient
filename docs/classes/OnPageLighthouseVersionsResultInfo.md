@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageLighthouseVersionsResultInfo(data)
+### new OnPageLighthouseVersionsResultInfo()
 
 > **new OnPageLighthouseVersionsResultInfo**(`data`?): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
@@ -28,23 +28,23 @@
 
 [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:165807
+main.ts:167639
 
 ## Properties
 
 ### availible\_versions?
 
-> **`optional`** **availible\_versions**: [`AvailibleVersions`](AvailibleVersions.md)[]
+> `optional` **availible\_versions**: [`AvailibleVersions`](AvailibleVersions.md)[]
 
 #### Implementation of
 
 [`IOnPageLighthouseVersionsResultInfo`](../interfaces/IOnPageLighthouseVersionsResultInfo.md).[`availible_versions`](../interfaces/IOnPageLighthouseVersionsResultInfo.md#availible_versions)
 
-#### Source
+#### Defined in
 
-main.ts:165803
+main.ts:167635
 
 ## Methods
 
@@ -60,9 +60,9 @@ main.ts:165803
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:165816
+main.ts:167648
 
 ***
 
@@ -78,15 +78,15 @@ main.ts:165816
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:165837
+main.ts:167669
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
 #### Parameters
 
@@ -96,6 +96,6 @@ main.ts:165837
 
 [`OnPageLighthouseVersionsResultInfo`](OnPageLighthouseVersionsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:165830
+main.ts:167662

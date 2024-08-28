@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -24,15 +24,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:140826
+main.ts:142652
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -41,15 +41,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:140833
+main.ts:142659
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -57,20 +57,20 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:140839
+main.ts:142665
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain
 required field
 a domain should be specified without https:// and www.
 
-#### Source
+#### Defined in
 
-main.ts:140818
+main.ts:142644

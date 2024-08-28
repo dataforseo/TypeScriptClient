@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### geo\_id?
 
-> **`optional`** **geo\_id**: `string`
+> `optional` **geo\_id**: `string`
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -22,15 +22,15 @@ see the full list of available locations with their geo_id here or by making a s
 example:
 US-NY
 
-#### Source
+#### Defined in
 
-main.ts:129389
+main.ts:129213
 
 ***
 
 ### geo\_name?
 
-> **`optional`** **geo\_name**: `string`
+> `optional` **geo\_name**: `string`
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -38,15 +38,15 @@ see the full list of available locations with their geo_name here or by making a
 example:
 Andorra
 
-#### Source
+#### Defined in
 
-main.ts:129395
+main.ts:129219
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 relative keyword popularity rate in a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -56,6 +56,6 @@ a value of 100 is the highest popularity for the term
 a value of 50 means that the term is half as popular
 a value of 0 means there was not enough data for this term
 
-#### Source
+#### Defined in
 
-main.ts:129403
+main.ts:129227

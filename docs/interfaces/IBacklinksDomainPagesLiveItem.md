@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,60 +14,60 @@
 
 ### content\_encoding?
 
-> **`optional`** **content\_encoding**: `string`
+> `optional` **content\_encoding**: `string`
 
 type of encoding
 
-#### Source
+#### Defined in
 
-main.ts:144293
+main.ts:146119
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain
 domain where the page was found
 
-#### Source
+#### Defined in
 
-main.ts:144257
+main.ts:146083
 
 ***
 
 ### encoded\_size?
 
-> **`optional`** **encoded\_size**: `number`
+> `optional` **encoded\_size**: `number`
 
 page size after encoding
 indicates the size of the encoded page, in bytes
 
-#### Source
+#### Defined in
 
-main.ts:144291
+main.ts:146117
 
 ***
 
 ### fetch\_time?
 
-> **`optional`** **fetch\_time**: `string`
+> `optional` **fetch\_time**: `string`
 
 most recent date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:144281
+main.ts:146107
 
 ***
 
 ### first\_visited?
 
-> **`optional`** **first\_visited**: `string`
+> `optional` **first\_visited**: `string`
 
 date and time of the first page visit
 date and time when our crawler visited this page for the first time
@@ -75,169 +75,169 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:144271
+main.ts:146097
 
 ***
 
 ### ip?
 
-> **`optional`** **ip**: `string`
+> `optional` **ip**: `string`
 
 Internet Protocol address
 
-#### Source
+#### Defined in
 
-main.ts:144265
+main.ts:146091
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `string`
+> `optional` **location**: `string`
 
 location header
 indicates the URL to redirect a page to if exists
 
-#### Source
+#### Defined in
 
-main.ts:144286
+main.ts:146112
 
 ***
 
 ### main\_domain?
 
-> **`optional`** **main\_domain**: `string`
+> `optional` **main\_domain**: `string`
 
 main website domain
 main website domain does not include subdomains
 
-#### Source
+#### Defined in
 
-main.ts:144254
+main.ts:146080
 
 ***
 
 ### media\_type?
 
-> **`optional`** **media\_type**: `string`
+> `optional` **media\_type**: `string`
 
 types of media used to display a page
 
-#### Source
+#### Defined in
 
-main.ts:144295
+main.ts:146121
 
 ***
 
 ### meta?
 
-> **`optional`** **meta**: [`BacklinksPageMeta`](../classes/BacklinksPageMeta.md)
+> `optional` **meta**: [`BacklinksPageMeta`](../classes/BacklinksPageMeta.md)
 
 page meta data
 
-#### Source
+#### Defined in
 
-main.ts:144299
+main.ts:146125
 
 ***
 
 ### page?
 
-> **`optional`** **page**: `string`
+> `optional` **page**: `string`
 
 page URL
 relevant page URL
 
-#### Source
+#### Defined in
 
-main.ts:144263
+main.ts:146089
 
 ***
 
 ### page\_summary?
 
-> **`optional`** **page\_summary**: [`PageSummary`](../classes/PageSummary.md)
+> `optional` **page\_summary**: [`PageSummary`](../classes/PageSummary.md)
 
 contains backlink data for this page
 
-#### Source
+#### Defined in
 
-main.ts:144301
+main.ts:146127
 
 ***
 
 ### prev\_visited?
 
-> **`optional`** **prev\_visited**: `string`
+> `optional` **prev\_visited**: `string`
 
 previous to the most recent date when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2017-01-24 13:20:59 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:144276
+main.ts:146102
 
 ***
 
 ### server?
 
-> **`optional`** **server**: `string`
+> `optional` **server**: `string`
 
 server version
 
-#### Source
+#### Defined in
 
-main.ts:144297
+main.ts:146123
 
 ***
 
 ### size?
 
-> **`optional`** **size**: `number`
+> `optional` **size**: `number`
 
 indicates the page size, in bytes
 
-#### Source
+#### Defined in
 
-main.ts:144288
+main.ts:146114
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 HTTP status code of the page
 
-#### Source
+#### Defined in
 
-main.ts:144283
+main.ts:146109
 
 ***
 
 ### tld?
 
-> **`optional`** **tld**: `string`
+> `optional` **tld**: `string`
 
 top-level domain
 top-level domain in the DNS root zone
 
-#### Source
+#### Defined in
 
-main.ts:144260
+main.ts:146086
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:144251
+main.ts:146077

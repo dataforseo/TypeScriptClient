@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpScreenshotResultInfo(data)
+### new SerpScreenshotResultInfo()
 
 > **new SerpScreenshotResultInfo**(`data`?): [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24699
+main.ts:24881
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
+> `optional` **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
 
 items array
 
@@ -44,15 +44,15 @@ items array
 
 [`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md).[`items`](../interfaces/ISerpScreenshotResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:24695
+main.ts:24877
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -60,9 +60,9 @@ number of items in the results array
 
 [`ISerpScreenshotResultInfo`](../interfaces/ISerpScreenshotResultInfo.md).[`items_count`](../interfaces/ISerpScreenshotResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:24693
+main.ts:24875
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:24693
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:24708
+main.ts:24890
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:24708
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:24730
+main.ts:24912
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:24730
 
 [`SerpScreenshotResultInfo`](SerpScreenshotResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24723
+main.ts:24905

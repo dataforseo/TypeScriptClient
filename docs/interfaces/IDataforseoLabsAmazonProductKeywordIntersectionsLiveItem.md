@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### intersection\_result?
 
-> **`optional`** **intersection\_result**: `Object`
+> `optional` **intersection\_result**: `object`
 
 data on the intersection
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`BaseAmazonSerpElementItem`](../classes/BaseAmazonSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:107560
+main.ts:108190
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
+> `optional` **keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
 
 keyword data for the returned keyword
 
-#### Source
+#### Defined in
 
-main.ts:107558
+main.ts:108188
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:107556
+main.ts:108186

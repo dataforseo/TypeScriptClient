@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,30 +14,30 @@
 
 ### age?
 
-> **`optional`** **age**: `Object`
+> `optional` **age**: `object`
 
 type of element
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`number` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:21000
+main.ts:21182
 
 ***
 
 ### gender?
 
-> **`optional`** **gender**: `Object`
+> `optional` **gender**: `object`
 
 type of element
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`number` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:21002
+main.ts:21184

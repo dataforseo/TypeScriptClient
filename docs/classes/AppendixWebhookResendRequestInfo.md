@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixWebhookResendRequestInfo(data)
+### new AppendixWebhookResendRequestInfo()
 
 > **new AppendixWebhookResendRequestInfo**(`data`?): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:224451
+main.ts:228723
 
 ## Properties
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
@@ -47,9 +47,9 @@ each identifier in the task array must be specified as a separate object
 
 [`IAppendixWebhookResendRequestInfo`](../interfaces/IAppendixWebhookResendRequestInfo.md).[`id`](../interfaces/IAppendixWebhookResendRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:224447
+main.ts:228719
 
 ## Methods
 
@@ -65,9 +65,9 @@ main.ts:224447
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:224460
+main.ts:228732
 
 ***
 
@@ -83,15 +83,15 @@ main.ts:224460
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:224477
+main.ts:228749
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
+> `static` **fromJS**(`data`): [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
 #### Parameters
 
@@ -101,6 +101,6 @@ main.ts:224477
 
 [`AppendixWebhookResendRequestInfo`](AppendixWebhookResendRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:224470
+main.ts:228742

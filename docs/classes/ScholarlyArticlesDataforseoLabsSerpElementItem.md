@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new ScholarlyArticlesDataforseoLabsSerpElementItem(data)
+### new ScholarlyArticlesDataforseoLabsSerpElementItem()
 
 > **new ScholarlyArticlesDataforseoLabsSerpElementItem**(`data`?): [`ScholarlyArticlesDataforseoLabsSerpElementItem`](ScholarlyArticlesDataforseoLabsSerpElementItem.md)
 
@@ -36,45 +36,46 @@
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:100796
+main.ts:101391
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20570
+main.ts:20752
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)[]
+> `optional` **items**: [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
 [`IScholarlyArticlesDataforseoLabsSerpElementItem`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md).[`items`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:100792
+main.ts:101387
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -84,15 +85,15 @@ left, right
 
 [`IScholarlyArticlesDataforseoLabsSerpElementItem`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:100784
+main.ts:101378
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -101,15 +102,15 @@ absolute position among all the elements in SERP
 
 [`IScholarlyArticlesDataforseoLabsSerpElementItem`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:100780
+main.ts:101374
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -118,47 +119,47 @@ positions of elements with different type values are omitted from rank_group
 
 [`IScholarlyArticlesDataforseoLabsSerpElementItem`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:100777
+main.ts:101371
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Implementation of
 
 [`IScholarlyArticlesDataforseoLabsSerpElementItem`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:100788
+main.ts:101382
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
 #### Implementation of
 
 [`IScholarlyArticlesDataforseoLabsSerpElementItem`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md).[`url`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:100790
+main.ts:101384
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -166,9 +167,9 @@ the XPath of the element
 
 [`IScholarlyArticlesDataforseoLabsSerpElementItem`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IScholarlyArticlesDataforseoLabsSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:100786
+main.ts:101380
 
 ## Methods
 
@@ -188,9 +189,9 @@ main.ts:100786
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:100801
+main.ts:101396
 
 ***
 
@@ -210,15 +211,15 @@ main.ts:100801
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:100829
+main.ts:101424
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ScholarlyArticlesDataforseoLabsSerpElementItem`](ScholarlyArticlesDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): [`ScholarlyArticlesDataforseoLabsSerpElementItem`](ScholarlyArticlesDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
@@ -232,6 +233,6 @@ main.ts:100829
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:100822
+main.ts:101417

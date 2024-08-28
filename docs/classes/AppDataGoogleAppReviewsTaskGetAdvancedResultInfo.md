@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataGoogleAppReviewsTaskGetAdvancedResultInfo(data)
+### new AppDataGoogleAppReviewsTaskGetAdvancedResultInfo()
 
 > **new AppDataGoogleAppReviewsTaskGetAdvancedResultInfo**(`data`?): [`AppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:193913
+main.ts:195745
 
 ## Properties
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 application id received in a POST array
 
@@ -44,15 +44,15 @@ application id received in a POST array
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`app_id`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:193879
+main.ts:195711
 
 ***
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -61,15 +61,15 @@ you can use it to make sure that we provided accurate results
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:193890
+main.ts:195722
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -80,15 +80,15 @@ example:
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:193895
+main.ts:195727
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
+> `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
 found reviews
 you can get more results by using the depth parameter when setting a task
@@ -97,15 +97,15 @@ you can get more results by using the depth parameter when setting a task
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:193909
+main.ts:195741
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -114,15 +114,15 @@ you can get more results by using the depth parameter when setting a task
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:193906
+main.ts:195738
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -130,15 +130,15 @@ language code in a POST array
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:193887
+main.ts:195719
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -146,15 +146,15 @@ location code in a POST array
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:193885
+main.ts:195717
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 rating of the app
 rating of the application for which the reviews are collected
@@ -163,15 +163,15 @@ rating of the application for which the reviews are collected
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`rating`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:193901
+main.ts:195733
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 the total number of reviews
 
@@ -179,15 +179,15 @@ the total number of reviews
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`reviews_count`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#reviews_count)
 
-#### Source
+#### Defined in
 
-main.ts:193903
+main.ts:195735
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
@@ -195,15 +195,15 @@ search engine domain in a POST array
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:193883
+main.ts:195715
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the app
 title of the application for which the reviews are collected
@@ -212,15 +212,15 @@ title of the application for which the reviews are collected
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`title`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:193898
+main.ts:195730
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -228,9 +228,9 @@ type of element
 
 [`IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md).[`type`](../interfaces/IAppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:193881
+main.ts:195713
 
 ## Methods
 
@@ -246,9 +246,9 @@ main.ts:193881
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:193922
+main.ts:195754
 
 ***
 
@@ -264,15 +264,15 @@ main.ts:193922
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:193954
+main.ts:195786
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
@@ -282,6 +282,6 @@ main.ts:193954
 
 [`AppDataGoogleAppReviewsTaskGetAdvancedResultInfo`](AppDataGoogleAppReviewsTaskGetAdvancedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:193947
+main.ts:195779

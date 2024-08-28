@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Demography(data)
+### new Demography()
 
 > **new Demography**(`data`?): [`Demography`](Demography.md)
 
@@ -28,15 +28,15 @@
 
 [`Demography`](Demography.md)
 
-#### Source
+#### Defined in
 
-main.ts:130272
+main.ts:130096
 
 ## Properties
 
 ### age?
 
-> **`optional`** **age**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
+> `optional` **age**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
 distribution of keyword popularity by age
 
@@ -44,15 +44,15 @@ distribution of keyword popularity by age
 
 [`IDemography`](../interfaces/IDemography.md).[`age`](../interfaces/IDemography.md#age)
 
-#### Source
+#### Defined in
 
-main.ts:130266
+main.ts:130090
 
 ***
 
 ### gender?
 
-> **`optional`** **gender**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
+> `optional` **gender**: [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)[]
 
 distribution of keyword popularity by gender
 
@@ -60,9 +60,9 @@ distribution of keyword popularity by gender
 
 [`IDemography`](../interfaces/IDemography.md).[`gender`](../interfaces/IDemography.md#gender)
 
-#### Source
+#### Defined in
 
-main.ts:130268
+main.ts:130092
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:130268
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:130281
+main.ts:130105
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:130281
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:130307
+main.ts:130131
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Demography`](Demography.md)
+> `static` **fromJS**(`data`): [`Demography`](Demography.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:130307
 
 [`Demography`](Demography.md)
 
-#### Source
+#### Defined in
 
-main.ts:130300
+main.ts:130124

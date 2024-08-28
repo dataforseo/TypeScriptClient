@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,27 +14,27 @@
 
 ### domain\_intersection?
 
-> **`optional`** **domain\_intersection**: `Object`
+> `optional` **domain\_intersection**: `object`
 
 contains data on domains that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`BacklinksDomainIntersectionInfo`](../classes/BacklinksDomainIntersectionInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:148053
+main.ts:149879
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
+> `optional` **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
 
 contains the domain intersections summary
 
-#### Source
+#### Defined in
 
-main.ts:148055
+main.ts:149881

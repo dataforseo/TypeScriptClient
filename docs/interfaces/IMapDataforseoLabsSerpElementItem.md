@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,74 +18,74 @@
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:98879
+main.ts:99179
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:98875
+main.ts:99175
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:98872
+main.ts:99172
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
-title of the result in SERP
+title of the item
 
-#### Source
+#### Defined in
 
-main.ts:98883
+main.ts:99183
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
-#### Source
+#### Defined in
 
-main.ts:98885
+main.ts:99185
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:98881
+main.ts:99181

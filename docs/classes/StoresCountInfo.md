@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new StoresCountInfo(data)
+### new StoresCountInfo()
 
 > **new StoresCountInfo**(`data`?): [`StoresCountInfo`](StoresCountInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`StoresCountInfo`](StoresCountInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:176614
+main.ts:178446
 
 ## Properties
 
 ### count?
 
-> **`optional`** **count**: `string`
+> `optional` **count**: `string`
 
 number of stores that offer the product
 
@@ -44,15 +44,15 @@ number of stores that offer the product
 
 [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md).[`count`](../interfaces/IStoresCountInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:176602
+main.ts:178434
 
 ***
 
 ### count\_from\_text?
 
-> **`optional`** **count\_from\_text**: `boolean`
+> `optional` **count\_from\_text**: `boolean`
 
 whether the number of stores is taken from text
 indicates whether the number of stores is taken from displayed_text;
@@ -64,15 +64,15 @@ in this case, the parameter is true
 
 [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md).[`count_from_text`](../interfaces/IStoresCountInfo.md#count_from_text)
 
-#### Source
+#### Defined in
 
-main.ts:176610
+main.ts:178442
 
 ***
 
 ### displayed\_text?
 
-> **`optional`** **displayed\_text**: `string`
+> `optional` **displayed\_text**: `string`
 
 text displayed on the Google Shopping page
 
@@ -80,9 +80,9 @@ text displayed on the Google Shopping page
 
 [`IStoresCountInfo`](../interfaces/IStoresCountInfo.md).[`displayed_text`](../interfaces/IStoresCountInfo.md#displayed_text)
 
-#### Source
+#### Defined in
 
-main.ts:176604
+main.ts:178436
 
 ## Methods
 
@@ -98,9 +98,9 @@ main.ts:176604
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:176623
+main.ts:178455
 
 ***
 
@@ -116,15 +116,15 @@ main.ts:176623
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:176642
+main.ts:178474
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`StoresCountInfo`](StoresCountInfo.md)
+> `static` **fromJS**(`data`): [`StoresCountInfo`](StoresCountInfo.md)
 
 #### Parameters
 
@@ -134,6 +134,6 @@ main.ts:176642
 
 [`StoresCountInfo`](StoresCountInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:176635
+main.ts:178467

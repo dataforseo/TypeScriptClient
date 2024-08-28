@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MicrodataFieldsInfo(data)
+### new MicrodataFieldsInfo()
 
 > **new MicrodataFieldsInfo**(`data`?): [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:162227
+main.ts:164059
 
 ## Properties
 
 ### fields?
 
-> **`optional`** **fields**: [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)[]
+> `optional` **fields**: [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)[]
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
@@ -45,15 +45,15 @@ an array of objects containing data fields related to the certain microdata type
 
 [`IMicrodataFieldsInfo`](../interfaces/IMicrodataFieldsInfo.md).[`fields`](../interfaces/IMicrodataFieldsInfo.md#fields)
 
-#### Source
+#### Defined in
 
-main.ts:162223
+main.ts:164055
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 field name
 name of the data field
@@ -62,15 +62,15 @@ name of the data field
 
 [`IMicrodataFieldsInfo`](../interfaces/IMicrodataFieldsInfo.md).[`name`](../interfaces/IMicrodataFieldsInfo.md#name)
 
-#### Source
+#### Defined in
 
-main.ts:162211
+main.ts:164043
 
 ***
 
 ### test\_results?
 
-> **`optional`** **test\_results**: `any`
+> `optional` **test\_results**: `any`
 
 microdata validation test results
 sub-type microdata test results that contain detected errors and related messages
@@ -79,15 +79,15 @@ sub-type microdata test results that contain detected errors and related message
 
 [`IMicrodataFieldsInfo`](../interfaces/IMicrodataFieldsInfo.md).[`test_results`](../interfaces/IMicrodataFieldsInfo.md#test_results)
 
-#### Source
+#### Defined in
 
-main.ts:162220
+main.ts:164052
 
 ***
 
 ### types?
 
-> **`optional`** **types**: `any`
+> `optional` **types**: `any`
 
 parent microdata types
 for a full list of available types, please visit schema.org
@@ -96,15 +96,15 @@ for a full list of available types, please visit schema.org
 
 [`IMicrodataFieldsInfo`](../interfaces/IMicrodataFieldsInfo.md).[`types`](../interfaces/IMicrodataFieldsInfo.md#types)
 
-#### Source
+#### Defined in
 
-main.ts:162214
+main.ts:164046
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `string`
+> `optional` **value**: `string`
 
 microdata value
 microdata value specified on a target web page
@@ -113,9 +113,9 @@ microdata value specified on a target web page
 
 [`IMicrodataFieldsInfo`](../interfaces/IMicrodataFieldsInfo.md).[`value`](../interfaces/IMicrodataFieldsInfo.md#value)
 
-#### Source
+#### Defined in
 
-main.ts:162217
+main.ts:164049
 
 ## Methods
 
@@ -131,9 +131,9 @@ main.ts:162217
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:162236
+main.ts:164068
 
 ***
 
@@ -149,15 +149,15 @@ main.ts:162236
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:162261
+main.ts:164093
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
+> `static` **fromJS**(`data`): [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
 
 #### Parameters
 
@@ -167,6 +167,6 @@ main.ts:162261
 
 [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:162254
+main.ts:164086

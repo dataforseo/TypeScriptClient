@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageNonIndexableResultInfo(data)
+### new OnPageNonIndexableResultInfo()
 
 > **new OnPageNonIndexableResultInfo**(`data`?): [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:161011
+main.ts:162843
 
 ## Properties
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
@@ -45,15 +45,15 @@ possible values: in_progress, finished
 
 [`IOnPageNonIndexableResultInfo`](../interfaces/IOnPageNonIndexableResultInfo.md).[`crawl_progress`](../interfaces/IOnPageNonIndexableResultInfo.md#crawl_progress)
 
-#### Source
+#### Defined in
 
-main.ts:160999
+main.ts:162831
 
 ***
 
 ### crawl\_status?
 
-> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
@@ -61,15 +61,15 @@ details of the crawling session
 
 [`IOnPageNonIndexableResultInfo`](../interfaces/IOnPageNonIndexableResultInfo.md).[`crawl_status`](../interfaces/IOnPageNonIndexableResultInfo.md#crawl_status)
 
-#### Source
+#### Defined in
 
-main.ts:161001
+main.ts:162833
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)[]
+> `optional` **items**: [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)[]
 
 items array
 
@@ -77,15 +77,15 @@ items array
 
 [`IOnPageNonIndexableResultInfo`](../interfaces/IOnPageNonIndexableResultInfo.md).[`items`](../interfaces/IOnPageNonIndexableResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:161007
+main.ts:162839
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -93,15 +93,15 @@ number of items in the results array
 
 [`IOnPageNonIndexableResultInfo`](../interfaces/IOnPageNonIndexableResultInfo.md).[`items_count`](../interfaces/IOnPageNonIndexableResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:161005
+main.ts:162837
 
 ***
 
 ### total\_items\_count?
 
-> **`optional`** **total\_items\_count**: `number`
+> `optional` **total\_items\_count**: `number`
 
 total number of relevant items in the database
 
@@ -109,9 +109,9 @@ total number of relevant items in the database
 
 [`IOnPageNonIndexableResultInfo`](../interfaces/IOnPageNonIndexableResultInfo.md).[`total_items_count`](../interfaces/IOnPageNonIndexableResultInfo.md#total_items_count)
 
-#### Source
+#### Defined in
 
-main.ts:161003
+main.ts:162835
 
 ## Methods
 
@@ -127,9 +127,9 @@ main.ts:161003
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:161020
+main.ts:162852
 
 ***
 
@@ -145,15 +145,15 @@ main.ts:161020
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:161045
+main.ts:162877
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
 
 #### Parameters
 
@@ -163,6 +163,6 @@ main.ts:161045
 
 [`OnPageNonIndexableResultInfo`](OnPageNonIndexableResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:161038
+main.ts:162870

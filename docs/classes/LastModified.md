@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new LastModified(data)
+### new LastModified()
 
 > **new LastModified**(`data`?): [`LastModified`](LastModified.md)
 
@@ -28,15 +28,15 @@
 
 [`LastModified`](LastModified.md)
 
-#### Source
+#### Defined in
 
-main.ts:156378
+main.ts:158206
 
 ## Properties
 
 ### header?
 
-> **`optional`** **header**: `string`
+> `optional` **header**: `string`
 
 date and time when the header was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -48,15 +48,15 @@ if there is no data, the value will be null
 
 [`ILastModified`](../interfaces/ILastModified.md).[`header`](../interfaces/ILastModified.md#header)
 
-#### Source
+#### Defined in
 
-main.ts:156362
+main.ts:158190
 
 ***
 
 ### meta\_tag?
 
-> **`optional`** **meta\_tag**: `string`
+> `optional` **meta\_tag**: `string`
 
 date and time when the meta tag was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -68,15 +68,15 @@ if there is no data, the value will be null
 
 [`ILastModified`](../interfaces/ILastModified.md).[`meta_tag`](../interfaces/ILastModified.md#meta_tag)
 
-#### Source
+#### Defined in
 
-main.ts:156374
+main.ts:158202
 
 ***
 
 ### sitemap?
 
-> **`optional`** **sitemap**: `string`
+> `optional` **sitemap**: `string`
 
 date and time when the sitemap was last modified
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -88,9 +88,9 @@ if there is no data, the value will be null
 
 [`ILastModified`](../interfaces/ILastModified.md).[`sitemap`](../interfaces/ILastModified.md#sitemap)
 
-#### Source
+#### Defined in
 
-main.ts:156368
+main.ts:158196
 
 ## Methods
 
@@ -106,9 +106,9 @@ main.ts:156368
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:156387
+main.ts:158215
 
 ***
 
@@ -124,15 +124,15 @@ main.ts:156387
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:156406
+main.ts:158234
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LastModified`](LastModified.md)
+> `static` **fromJS**(`data`): [`LastModified`](LastModified.md)
 
 #### Parameters
 
@@ -142,6 +142,6 @@ main.ts:156406
 
 [`LastModified`](LastModified.md)
 
-#### Source
+#### Defined in
 
-main.ts:156399
+main.ts:158227

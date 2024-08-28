@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksPageIntersectionLiveItem(data)
+### new BacklinksPageIntersectionLiveItem()
 
 > **new BacklinksPageIntersectionLiveItem**(`data`?): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
 
@@ -28,20 +28,20 @@
 
 [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:149037
+main.ts:150863
 
 ## Properties
 
 ### page\_intersection?
 
-> **`optional`** **page\_intersection**: `Object`
+> `optional` **page\_intersection**: `object`
 
 contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: ([`BacklinksPageIntersectionInfo`](BacklinksPageIntersectionInfo.md) \| `undefined`)[]
 
@@ -49,15 +49,15 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 [`IBacklinksPageIntersectionLiveItem`](../interfaces/IBacklinksPageIntersectionLiveItem.md).[`page_intersection`](../interfaces/IBacklinksPageIntersectionLiveItem.md#page_intersection)
 
-#### Source
+#### Defined in
 
-main.ts:149031
+main.ts:150857
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+> `optional` **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
 contains the page intersections summary
 
@@ -65,9 +65,9 @@ contains the page intersections summary
 
 [`IBacklinksPageIntersectionLiveItem`](../interfaces/IBacklinksPageIntersectionLiveItem.md).[`summary`](../interfaces/IBacklinksPageIntersectionLiveItem.md#summary)
 
-#### Source
+#### Defined in
 
-main.ts:149033
+main.ts:150859
 
 ## Methods
 
@@ -83,9 +83,9 @@ main.ts:149033
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:149046
+main.ts:150872
 
 ***
 
@@ -101,15 +101,15 @@ main.ts:149046
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:149070
+main.ts:150896
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
 
 #### Parameters
 
@@ -119,6 +119,6 @@ main.ts:149070
 
 [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:149063
+main.ts:150889

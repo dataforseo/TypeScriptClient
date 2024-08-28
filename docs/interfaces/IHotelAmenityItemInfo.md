@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### amenity?
 
-> **`optional`** **amenity**: `string`
+> `optional` **amenity**: `string`
 
 standardised amenity name
 
-#### Source
+#### Defined in
 
-main.ts:208409
+main.ts:210259
 
 ***
 
 ### amenity\_label?
 
-> **`optional`** **amenity\_label**: `string`
+> `optional` **amenity\_label**: `string`
 
 displayed amenity name
 
-#### Source
+#### Defined in
 
-main.ts:208411
+main.ts:210261
 
 ***
 
 ### hint?
 
-> **`optional`** **hint**: `string`
+> `optional` **hint**: `string`
 
 standardised details about the amenity
 
-#### Source
+#### Defined in
 
-main.ts:208413
+main.ts:210263
 
 ***
 
 ### hint\_label?
 
-> **`optional`** **hint\_label**: `string`
+> `optional` **hint\_label**: `string`
 
 displayed details about the amenity
 
-#### Source
+#### Defined in
 
-main.ts:208415
+main.ts:210265

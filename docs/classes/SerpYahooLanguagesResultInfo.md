@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpYahooLanguagesResultInfo(data)
+### new SerpYahooLanguagesResultInfo()
 
 > **new SerpYahooLanguagesResultInfo**(`data`?): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:67439
+main.ts:68035
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpYahooLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:67435
+main.ts:68031
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`ISerpYahooLanguagesResultInfo`](../interfaces/ISerpYahooLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpYahooLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:67433
+main.ts:68029
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:67433
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:67448
+main.ts:68044
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:67448
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:67466
+main.ts:68062
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:67466
 
 [`SerpYahooLanguagesResultInfo`](SerpYahooLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:67459
+main.ts:68055

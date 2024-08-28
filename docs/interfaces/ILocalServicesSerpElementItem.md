@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,116 +18,116 @@
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 source domain
 
-#### Source
+#### Defined in
 
-main.ts:35481
+main.ts:35677
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
+> `optional` **items**: [`LocalServicesElement`](../classes/LocalServicesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:35484
+main.ts:35680
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:35473
+main.ts:35669
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Source
+#### Defined in
 
-main.ts:35469
+main.ts:35665
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Source
+#### Defined in
 
-main.ts:35465
+main.ts:35661
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Source
+#### Defined in
 
-main.ts:35488
+main.ts:35684
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the row
 
-#### Source
+#### Defined in
 
-main.ts:35477
+main.ts:35673
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 source URL
 
-#### Source
+#### Defined in
 
-main.ts:35479
+main.ts:35675
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:35475
+main.ts:35671

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new QuestionsAndAnswersSerpElementItem(data)
+### new QuestionsAndAnswersSerpElementItem()
 
 > **new QuestionsAndAnswersSerpElementItem**(`data`?): [`QuestionsAndAnswersSerpElementItem`](QuestionsAndAnswersSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:34585
+main.ts:34781
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
+> `optional` **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -67,15 +67,15 @@ if there are none, equals null
 
 [`IQuestionsAndAnswersSerpElementItem`](../interfaces/IQuestionsAndAnswersSerpElementItem.md).[`items`](../interfaces/IQuestionsAndAnswersSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:34577
+main.ts:34773
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -85,15 +85,15 @@ left, right
 
 [`IQuestionsAndAnswersSerpElementItem`](../interfaces/IQuestionsAndAnswersSerpElementItem.md).[`position`](../interfaces/IQuestionsAndAnswersSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:34572
+main.ts:34768
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -103,15 +103,15 @@ always equals 0 for desktop
 
 [`IQuestionsAndAnswersSerpElementItem`](../interfaces/IQuestionsAndAnswersSerpElementItem.md).[`rank_absolute`](../interfaces/IQuestionsAndAnswersSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:34568
+main.ts:34764
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -122,15 +122,15 @@ always equals 0 for desktop
 
 [`IQuestionsAndAnswersSerpElementItem`](../interfaces/IQuestionsAndAnswersSerpElementItem.md).[`rank_group`](../interfaces/IQuestionsAndAnswersSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:34564
+main.ts:34760
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -140,15 +140,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IQuestionsAndAnswersSerpElementItem`](../interfaces/IQuestionsAndAnswersSerpElementItem.md).[`rectangle`](../interfaces/IQuestionsAndAnswersSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:34581
+main.ts:34777
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -156,9 +156,9 @@ the XPath of the element
 
 [`IQuestionsAndAnswersSerpElementItem`](../interfaces/IQuestionsAndAnswersSerpElementItem.md).[`xpath`](../interfaces/IQuestionsAndAnswersSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:34574
+main.ts:34770
 
 ## Methods
 
@@ -178,9 +178,9 @@ main.ts:34574
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:34590
+main.ts:34786
 
 ***
 
@@ -200,15 +200,15 @@ main.ts:34590
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:34617
+main.ts:34813
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`QuestionsAndAnswersSerpElementItem`](QuestionsAndAnswersSerpElementItem.md)
+> `static` **fromJS**(`data`): [`QuestionsAndAnswersSerpElementItem`](QuestionsAndAnswersSerpElementItem.md)
 
 #### Parameters
 
@@ -222,6 +222,6 @@ main.ts:34617
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:34610
+main.ts:34806

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,31 +14,31 @@
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["resource_type","=","stylesheet"]
 [["resource_type","=","image"],
 "and",["checks.is_https","=",false]]
-[["fetch_timing.duration_time",">`",1],"and",[["total_transfer_size",">",100],"or",["checks.high_loading_time","=",true]]]
+[["fetch_timing.duration_time",">",1],"and",[["total_transfer_size",">",100],"or",["checks.high_loading_time","=",true]]]
 The full list of possible filters is available by this link.
 
-#### Source
+#### Defined in
 
-main.ts:157453
+main.ts:159281
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -46,45 +46,45 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Source
+#### Defined in
 
-main.ts:157423
+main.ts:159251
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned resources
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:157434
+main.ts:159262
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned resources
 optional field
 default value: 0
 if you specify the 10 value, the first ten resources in the results array will be omitted and the data will be provided for the successive resources
 
-#### Source
+#### Defined in
 
-main.ts:157439
+main.ts:159267
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -100,15 +100,15 @@ you should use a comma to separate several sorting rules
 example:
 ["size,desc","fetch_timing.fetch_end,desc"]
 
-#### Source
+#### Defined in
 
-main.ts:157479
+main.ts:159307
 
 ***
 
 ### relevant\_pages\_filters?
 
-> **`optional`** **relevant\_pages\_filters**: `string`[]
+> `optional` **relevant\_pages\_filters**: `string`[]
 
 filter the resources by relevant pages
 optional field
@@ -117,20 +117,20 @@ you can apply the same filters here as available for the pages endpoint
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["checks.no_image_title","=",true]
 
-#### Source
+#### Defined in
 
-main.ts:157465
+main.ts:159293
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -138,15 +138,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:157485
+main.ts:159313
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page URL
 optional field
@@ -154,6 +154,6 @@ specify this field if you want to get the resources for a specific page
 note that to obtain resource’s meta from a particular URL, you should specify the URL in this field;
 if you do not indicate a url when setting a task, resource’s meta in the results will be returned based on the data from the page where our crawler first saw the resource
 
-#### Source
+#### Defined in
 
-main.ts:157429
+main.ts:159257

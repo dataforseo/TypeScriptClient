@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageRedirectChainsResultInfo(data)
+### new OnPageRedirectChainsResultInfo()
 
 > **new OnPageRedirectChainsResultInfo**(`data`?): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:160635
+main.ts:162467
 
 ## Properties
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
@@ -45,15 +45,15 @@ possible values: in_progress, finished
 
 [`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`crawl_progress`](../interfaces/IOnPageRedirectChainsResultInfo.md#crawl_progress)
 
-#### Source
+#### Defined in
 
-main.ts:160623
+main.ts:162455
 
 ***
 
 ### crawl\_status?
 
-> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
@@ -61,15 +61,15 @@ details of the crawling session
 
 [`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`crawl_status`](../interfaces/IOnPageRedirectChainsResultInfo.md#crawl_status)
 
-#### Source
+#### Defined in
 
-main.ts:160625
+main.ts:162457
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)[]
+> `optional` **items**: [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)[]
 
 items array
 
@@ -77,15 +77,15 @@ items array
 
 [`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`items`](../interfaces/IOnPageRedirectChainsResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:160631
+main.ts:162463
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -93,15 +93,15 @@ number of items in the results array
 
 [`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`items_count`](../interfaces/IOnPageRedirectChainsResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:160629
+main.ts:162461
 
 ***
 
 ### total\_items\_count?
 
-> **`optional`** **total\_items\_count**: `number`
+> `optional` **total\_items\_count**: `number`
 
 total number of relevant items in the database
 
@@ -109,9 +109,9 @@ total number of relevant items in the database
 
 [`IOnPageRedirectChainsResultInfo`](../interfaces/IOnPageRedirectChainsResultInfo.md).[`total_items_count`](../interfaces/IOnPageRedirectChainsResultInfo.md#total_items_count)
 
-#### Source
+#### Defined in
 
-main.ts:160627
+main.ts:162459
 
 ## Methods
 
@@ -127,9 +127,9 @@ main.ts:160627
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:160644
+main.ts:162476
 
 ***
 
@@ -145,15 +145,15 @@ main.ts:160644
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:160669
+main.ts:162501
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
 #### Parameters
 
@@ -163,6 +163,6 @@ main.ts:160669
 
 [`OnPageRedirectChainsResultInfo`](OnPageRedirectChainsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:160662
+main.ts:162494

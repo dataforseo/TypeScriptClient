@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,109 +14,109 @@
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
-#### Source
+#### Defined in
 
-main.ts:34751
+main.ts:34947
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
-#### Source
+#### Defined in
 
-main.ts:34757
+main.ts:34953
 
 ***
 
 ### hotel\_identifier?
 
-> **`optional`** **hotel\_identifier**: `string`
+> `optional` **hotel\_identifier**: `string`
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
 example: "CgoIjaeSlI6CnNpVEAE"
 
-#### Source
+#### Defined in
 
-main.ts:34755
+main.ts:34951
 
 ***
 
 ### is\_paid?
 
-> **`optional`** **is\_paid**: `boolean`
+> `optional` **is\_paid**: `boolean`
 
 indicates whether the element is an ad
 
-#### Source
+#### Defined in
 
-main.ts:34761
+main.ts:34957
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price indicated in the element
 
-#### Source
+#### Defined in
 
-main.ts:34747
+main.ts:34943
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Source
+#### Defined in
 
-main.ts:34764
+main.ts:34960
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:34749
+main.ts:34945
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:34745
+main.ts:34941
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
-#### Source
+#### Defined in
 
-main.ts:34759
+main.ts:34955

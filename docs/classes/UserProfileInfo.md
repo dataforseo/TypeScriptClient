@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new UserProfileInfo(data)
+### new UserProfileInfo()
 
 > **new UserProfileInfo**(`data`?): [`UserProfileInfo`](UserProfileInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`UserProfileInfo`](UserProfileInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:187585
+main.ts:189417
 
 ## Properties
 
 ### avatar?
 
-> **`optional`** **avatar**: `string`
+> `optional` **avatar**: `string`
 
 URL to the profile picture of the reviewer
 
@@ -44,15 +44,15 @@ URL to the profile picture of the reviewer
 
 [`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`avatar`](../interfaces/IUserProfileInfo.md#avatar)
 
-#### Source
+#### Defined in
 
-main.ts:187575
+main.ts:189407
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `string`
+> `optional` **locations**: `string`
 
 country of the reviewer
 
@@ -60,15 +60,15 @@ country of the reviewer
 
 [`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`locations`](../interfaces/IUserProfileInfo.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:187581
+main.ts:189413
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 the name of the reviewer
 
@@ -76,15 +76,15 @@ the name of the reviewer
 
 [`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`name`](../interfaces/IUserProfileInfo.md#name)
 
-#### Source
+#### Defined in
 
-main.ts:187573
+main.ts:189405
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 total number of reviews submitted by the reviewer
 
@@ -92,15 +92,15 @@ total number of reviews submitted by the reviewer
 
 [`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`reviews_count`](../interfaces/IUserProfileInfo.md#reviews_count)
 
-#### Source
+#### Defined in
 
-main.ts:187579
+main.ts:189411
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the reviewer’s profile
 
@@ -108,9 +108,9 @@ URL to the reviewer’s profile
 
 [`IUserProfileInfo`](../interfaces/IUserProfileInfo.md).[`url`](../interfaces/IUserProfileInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:187577
+main.ts:189409
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:187577
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:187594
+main.ts:189426
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:187594
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:187615
+main.ts:189447
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`UserProfileInfo`](UserProfileInfo.md)
+> `static` **fromJS**(`data`): [`UserProfileInfo`](UserProfileInfo.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:187615
 
 [`UserProfileInfo`](UserProfileInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:187608
+main.ts:189440

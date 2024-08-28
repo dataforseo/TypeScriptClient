@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new CoursesElement(data)
+### new CoursesElement()
 
 > **new CoursesElement**(`data`?): [`CoursesElement`](CoursesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`CoursesElement`](CoursesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:37777
+main.ts:37973
 
 ## Properties
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 the date when the page source of the element was published
 
@@ -44,15 +44,15 @@ the date when the page source of the element was published
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`date`](../interfaces/ICoursesElement.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:37768
+main.ts:37964
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -60,15 +60,15 @@ description
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`description`](../interfaces/ICoursesElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:37766
+main.ts:37962
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -76,15 +76,15 @@ website domain
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`domain`](../interfaces/ICoursesElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:37761
+main.ts:37957
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
@@ -92,15 +92,15 @@ URL of the image
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`image_url`](../interfaces/ICoursesElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:37770
+main.ts:37966
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -109,15 +109,15 @@ the popularity rate based on reviews and displayed in SERP
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`rating`](../interfaces/ICoursesElement.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:37773
+main.ts:37969
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -126,15 +126,15 @@ indicates the source of information included in the top_stories_element
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`source`](../interfaces/ICoursesElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:37764
+main.ts:37960
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -142,15 +142,15 @@ title of a given link element
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`title`](../interfaces/ICoursesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:37757
+main.ts:37953
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -158,15 +158,15 @@ type of element
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`type`](../interfaces/ICoursesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:37755
+main.ts:37951
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -174,9 +174,9 @@ URL
 
 [`ICoursesElement`](../interfaces/ICoursesElement.md).[`url`](../interfaces/ICoursesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:37759
+main.ts:37955
 
 ## Methods
 
@@ -192,9 +192,9 @@ main.ts:37759
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:37786
+main.ts:37982
 
 ***
 
@@ -210,15 +210,15 @@ main.ts:37786
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:37811
+main.ts:38007
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`CoursesElement`](CoursesElement.md)
+> `static` **fromJS**(`data`): [`CoursesElement`](CoursesElement.md)
 
 #### Parameters
 
@@ -228,6 +228,6 @@ main.ts:37811
 
 [`CoursesElement`](CoursesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:37804
+main.ts:38000

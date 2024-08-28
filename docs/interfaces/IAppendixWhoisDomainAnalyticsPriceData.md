@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,8 +14,8 @@
 
 ### overview?
 
-> **`optional`** **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](../classes/AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223729
+main.ts:228001

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### live?
 
-> **`optional`** **live**: `number`
+> `optional` **live**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218579
+main.ts:220431
 
 ***
 
 ### task\_get?
 
-> **`optional`** **task\_get**: `number`
+> `optional` **task\_get**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218577
+main.ts:220429
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: `number`
+> `optional` **task\_post**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218576
+main.ts:220428
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218578
+main.ts:220430

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppsInfo(data)
+### new AppsInfo()
 
 > **new AppsInfo**(`data`?): [`AppsInfo`](AppsInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppsInfo`](AppsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:192213
+main.ts:194045
 
 ## Properties
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 ID of the app
 
@@ -44,15 +44,15 @@ ID of the app
 
 [`IAppsInfo`](../interfaces/IAppsInfo.md).[`app_id`](../interfaces/IAppsInfo.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:192205
+main.ts:194037
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the app
 
@@ -60,15 +60,15 @@ title of the app
 
 [`IAppsInfo`](../interfaces/IAppsInfo.md).[`title`](../interfaces/IAppsInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:192207
+main.ts:194039
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the app page on Google Play
 
@@ -76,9 +76,9 @@ URL to the app page on Google Play
 
 [`IAppsInfo`](../interfaces/IAppsInfo.md).[`url`](../interfaces/IAppsInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:192209
+main.ts:194041
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:192209
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:192222
+main.ts:194054
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:192222
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:192241
+main.ts:194073
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppsInfo`](AppsInfo.md)
+> `static` **fromJS**(`data`): [`AppsInfo`](AppsInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:192241
 
 [`AppsInfo`](AppsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:192234
+main.ts:194066

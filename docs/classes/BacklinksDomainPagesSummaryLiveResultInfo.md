@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksDomainPagesSummaryLiveResultInfo(data)
+### new BacklinksDomainPagesSummaryLiveResultInfo()
 
 > **new BacklinksDomainPagesSummaryLiveResultInfo**(`data`?): [`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:145092
+main.ts:146918
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksDomainPagesSummaryLiveItem`](BacklinksDomainPagesSummaryLiveItem.md)[]
+> `optional` **items**: [`BacklinksDomainPagesSummaryLiveItem`](BacklinksDomainPagesSummaryLiveItem.md)[]
 
 items array
 
@@ -44,15 +44,15 @@ items array
 
 [`IBacklinksDomainPagesSummaryLiveResultInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResultInfo.md).[`items`](../interfaces/IBacklinksDomainPagesSummaryLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:145088
+main.ts:146914
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -60,15 +60,15 @@ number of items in the results array
 
 [`IBacklinksDomainPagesSummaryLiveResultInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksDomainPagesSummaryLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:145086
+main.ts:146912
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target in the post array
 
@@ -76,15 +76,15 @@ target in the post array
 
 [`IBacklinksDomainPagesSummaryLiveResultInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResultInfo.md).[`target`](../interfaces/IBacklinksDomainPagesSummaryLiveResultInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:145082
+main.ts:146908
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of relevant items in the database
 
@@ -92,9 +92,9 @@ total number of relevant items in the database
 
 [`IBacklinksDomainPagesSummaryLiveResultInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksDomainPagesSummaryLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:145084
+main.ts:146910
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:145084
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:145101
+main.ts:146927
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:145101
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:145125
+main.ts:146951
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:145125
 
 [`BacklinksDomainPagesSummaryLiveResultInfo`](BacklinksDomainPagesSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:145118
+main.ts:146944

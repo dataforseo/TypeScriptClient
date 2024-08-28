@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -22,15 +22,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:150369
+main.ts:152195
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 domains, subdomains or webpages to get rank for
 required field
@@ -51,6 +51,6 @@ example:
   "www.trustpilot.com"
 ]
 
-#### Source
+#### Defined in
 
-main.ts:150363
+main.ts:152189

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataGoogleTrendsExploreTaskGetResultInfo(data)
+### new KeywordsDataGoogleTrendsExploreTaskGetResultInfo()
 
 > **new KeywordsDataGoogleTrendsExploreTaskGetResultInfo**(`data`?): [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:127300
+main.ts:126736
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to the Google Trends results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,15 @@ you can use it to make sure that we provided accurate results
 
 [`IKeywordsDataGoogleTrendsExploreTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md).[`check_url`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:127287
+main.ts:126723
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +64,15 @@ example:
 
 [`IKeywordsDataGoogleTrendsExploreTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md).[`datetime`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:127292
+main.ts:126728
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)[]
+> `optional` **items**: [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)[]
 
 items on the Google Trends page
 
@@ -80,15 +80,15 @@ items on the Google Trends page
 
 [`IKeywordsDataGoogleTrendsExploreTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md).[`items`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:127296
+main.ts:126732
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -96,15 +96,15 @@ the number of results returned in the items array
 
 [`IKeywordsDataGoogleTrendsExploreTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md).[`items_count`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:127294
+main.ts:126730
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords in a POST array
 
@@ -112,15 +112,15 @@ keywords in a POST array
 
 [`IKeywordsDataGoogleTrendsExploreTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md).[`keywords`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:127276
+main.ts:126712
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
@@ -129,15 +129,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataGoogleTrendsExploreTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:127284
+main.ts:126720
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -146,15 +146,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataGoogleTrendsExploreTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md).[`location_code`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:127281
+main.ts:126717
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -162,9 +162,9 @@ type of element
 
 [`IKeywordsDataGoogleTrendsExploreTaskGetResultInfo`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md).[`type`](../interfaces/IKeywordsDataGoogleTrendsExploreTaskGetResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:127278
+main.ts:126714
 
 ## Methods
 
@@ -180,9 +180,9 @@ main.ts:127278
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:127309
+main.ts:126745
 
 ***
 
@@ -198,15 +198,15 @@ main.ts:127309
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:127341
+main.ts:126777
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
 
 #### Parameters
 
@@ -216,6 +216,6 @@ main.ts:127341
 
 [`KeywordsDataGoogleTrendsExploreTaskGetResultInfo`](KeywordsDataGoogleTrendsExploreTaskGetResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:127334
+main.ts:126770

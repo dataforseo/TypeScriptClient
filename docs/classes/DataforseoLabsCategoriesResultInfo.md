@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsCategoriesResultInfo(data)
+### new DataforseoLabsCategoriesResultInfo()
 
 > **new DataforseoLabsCategoriesResultInfo**(`data`?): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:82638
+main.ts:83234
 
 ## Properties
 
 ### category\_code?
 
-> **`optional`** **category\_code**: `number`
+> `optional` **category\_code**: `number`
 
 category code
 
@@ -44,15 +44,15 @@ category code
 
 [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[`category_code`](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_code)
 
-#### Source
+#### Defined in
 
-main.ts:82621
+main.ts:83217
 
 ***
 
 ### category\_code\_parent?
 
-> **`optional`** **category\_code\_parent**: `number`
+> `optional` **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -69,15 +69,15 @@ corresponds to:
 
 [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[`category_code_parent`](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_code_parent)
 
-#### Source
+#### Defined in
 
-main.ts:82634
+main.ts:83230
 
 ***
 
 ### category\_name?
 
-> **`optional`** **category\_name**: `string`
+> `optional` **category\_name**: `string`
 
 full name of the category
 
@@ -85,9 +85,9 @@ full name of the category
 
 [`IDataforseoLabsCategoriesResultInfo`](../interfaces/IDataforseoLabsCategoriesResultInfo.md).[`category_name`](../interfaces/IDataforseoLabsCategoriesResultInfo.md#category_name)
 
-#### Source
+#### Defined in
 
-main.ts:82623
+main.ts:83219
 
 ## Methods
 
@@ -103,9 +103,9 @@ main.ts:82623
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:82647
+main.ts:83243
 
 ***
 
@@ -121,15 +121,15 @@ main.ts:82647
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:82666
+main.ts:83262
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
 #### Parameters
 
@@ -139,6 +139,6 @@ main.ts:82666
 
 [`DataforseoLabsCategoriesResultInfo`](DataforseoLabsCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:82659
+main.ts:83255

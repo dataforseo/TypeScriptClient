@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,27 +14,27 @@
 
 ### current\_status?
 
-> **`optional`** **current\_status**: `string`
+> `optional` **current\_status**: `string`
 
 current status of the establishment
 indicates whether the establishment is opened or closed
 
-#### Source
+#### Defined in
 
-main.ts:41030
+main.ts:41556
 
 ***
 
 ### timetable?
 
-> **`optional`** **timetable**: `Object`
+> `optional` **timetable**: `object`
 
 work hours timetable
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: ([`WorkDayInfo`](../classes/WorkDayInfo.md) \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:41027
+main.ts:41553

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,76 +18,76 @@
 
 ### hotel\_identifier?
 
-> **`optional`** **hotel\_identifier**: `string`
+> `optional` **hotel\_identifier**: `string`
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
 example: "CgoIjaeSlI6CnNpVEAE"
 
-#### Source
+#### Defined in
 
-main.ts:101723
+main.ts:102333
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:101717
+main.ts:102327
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:101713
+main.ts:102323
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:101710
+main.ts:102320
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
-#### Source
+#### Defined in
 
-main.ts:101725
+main.ts:102335
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:101719
+main.ts:102329

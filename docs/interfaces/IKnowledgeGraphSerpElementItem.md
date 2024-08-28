@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,177 +18,177 @@
 
 ### card\_id?
 
-> **`optional`** **card\_id**: `string`
+> `optional` **card\_id**: `string`
 
 card id
 
-#### Source
+#### Defined in
 
-main.ts:29234
+main.ts:29416
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews
 
-#### Source
+#### Defined in
 
-main.ts:29245
+main.ts:29427
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29232
+main.ts:29414
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
-#### Source
+#### Defined in
 
-main.ts:29239
+main.ts:29421
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:29248
+main.ts:29430
 
 ***
 
 ### logo\_url?
 
-> **`optional`** **logo\_url**: `string`
+> `optional` **logo\_url**: `string`
 
 URL of the logo from knowledge graph
 
-#### Source
+#### Defined in
 
-main.ts:29241
+main.ts:29423
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:29224
+main.ts:29406
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29220
+main.ts:29402
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:29217
+main.ts:29399
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Source
+#### Defined in
 
-main.ts:29252
+main.ts:29434
 
 ***
 
 ### subtitle?
 
-> **`optional`** **subtitle**: `string`
+> `optional` **subtitle**: `string`
 
 subtitle of the item
 
-#### Source
+#### Defined in
 
-main.ts:29230
+main.ts:29412
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the result in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29228
+main.ts:29410
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 relevant URL in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29236
+main.ts:29418
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:29226
+main.ts:29408

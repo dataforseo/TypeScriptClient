@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PageSectionContentInfo(data)
+### new PageSectionContentInfo()
 
 > **new PageSectionContentInfo**(`data`?): [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163586
+main.ts:165418
 
 ## Properties
 
 ### primary\_content?
 
-> **`optional`** **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> `optional` **primary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
@@ -45,15 +45,15 @@ you can find more information about content priority calculation in this help ce
 
 [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md).[`primary_content`](../interfaces/IPageSectionContentInfo.md#primary_content)
 
-#### Source
+#### Defined in
 
-main.ts:163577
+main.ts:165409
 
 ***
 
 ### secondary\_content?
 
-> **`optional`** **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
+> `optional` **secondary\_content**: [`ContentItemInfo`](ContentItemInfo.md)[]
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
@@ -62,15 +62,15 @@ you can find more information about content priority calculation in this help ce
 
 [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md).[`secondary_content`](../interfaces/IPageSectionContentInfo.md#secondary_content)
 
-#### Source
+#### Defined in
 
-main.ts:163580
+main.ts:165412
 
 ***
 
 ### table\_content?
 
-> **`optional`** **table\_content**: [`TableContent`](TableContent.md)[]
+> `optional` **table\_content**: [`TableContent`](TableContent.md)[]
 
 content of the table on the page
 
@@ -78,9 +78,9 @@ content of the table on the page
 
 [`IPageSectionContentInfo`](../interfaces/IPageSectionContentInfo.md).[`table_content`](../interfaces/IPageSectionContentInfo.md#table_content)
 
-#### Source
+#### Defined in
 
-main.ts:163582
+main.ts:165414
 
 ## Methods
 
@@ -96,9 +96,9 @@ main.ts:163582
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163595
+main.ts:165427
 
 ***
 
@@ -114,15 +114,15 @@ main.ts:163595
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163626
+main.ts:165458
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PageSectionContentInfo`](PageSectionContentInfo.md)
+> `static` **fromJS**(`data`): [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
 #### Parameters
 
@@ -132,6 +132,6 @@ main.ts:163626
 
 [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163619
+main.ts:165451

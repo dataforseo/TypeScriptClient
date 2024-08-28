@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,18 +14,18 @@
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
-you can use the % operator with like and not_like to match any string of zero or more characters
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]]
-[["first_domain_serp_element.etv",">`",0],"and",["first_domain_serp_element.description","like","%goat%"]]
+[["first_domain_serp_element.etv",">",0],"and",["first_domain_serp_element.description","like","%goat%"]]
 [["keyword_data.keyword_info.search_volume",">",100],
 "and",
 [["first_domain_serp_element.description","like","%goat%"],
@@ -33,30 +33,30 @@ example:
 ["second_domain_serp_element.type","=","organic"]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:109378
+main.ts:110008
 
 ***
 
 ### include\_serp\_info?
 
-> **`optional`** **include\_serp\_info**: `boolean`
+> `optional` **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
 if set to true, we will return a serp_info array containing SERP data (number of search results, relevant URL, and SERP features) for every keyword in the response
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:109351
+main.ts:109981
 
 ***
 
 ### intersections?
 
-> **`optional`** **intersections**: `boolean`
+> `optional` **intersections**: `boolean`
 
 domain intersections in SERP
 optional field
@@ -66,15 +66,15 @@ if you specify intersections: false, you will get the keywords for which the dom
 thus, the corresponding SERP elements and other data will be provided for the domain specified as target1only
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:109338
+main.ts:109968
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 search results type
 indicates type of search results included in the response
@@ -84,15 +84,15 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Source
+#### Defined in
 
-main.ts:109346
+main.ts:109976
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -102,15 +102,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:109330
+main.ts:109960
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -120,30 +120,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:109322
+main.ts:109952
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:109356
+main.ts:109986
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -154,15 +154,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:109314
+main.ts:109944
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -173,30 +173,30 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Source
+#### Defined in
 
-main.ts:109305
+main.ts:109935
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the items array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Source
+#### Defined in
 
-main.ts:109361
+main.ts:109991
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -214,15 +214,15 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_data.keyword_info.search_volume,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Source
+#### Defined in
 
-main.ts:109394
+main.ts:110024
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -230,36 +230,36 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:109400
+main.ts:110030
 
 ***
 
 ### target1?
 
-> **`optional`** **target1**: `string`
+> `optional` **target1**: `string`
 
 domain
 required field
 the domain name of the first target website
 the domain should be specified without https:// and www.
 
-#### Source
+#### Defined in
 
-main.ts:109291
+main.ts:109921
 
 ***
 
 ### target2?
 
-> **`optional`** **target2**: `string`
+> `optional` **target2**: `string`
 
 domain
 required field
 the domain name of the second target website
 the domain should be specified without https:// and www.
 
-#### Source
+#### Defined in
 
-main.ts:109296
+main.ts:109926

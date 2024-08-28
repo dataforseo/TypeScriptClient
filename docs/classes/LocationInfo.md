@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new LocationInfo(data)
+### new LocationInfo()
 
 > **new LocationInfo**(`data`?): [`LocationInfo`](LocationInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`LocationInfo`](LocationInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:47207
+main.ts:47739
 
 ## Properties
 
 ### address?
 
-> **`optional`** **address**: `string`
+> `optional` **address**: `string`
 
 address of the event’s venue
 
@@ -44,15 +44,15 @@ address of the event’s venue
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`address`](../interfaces/ILocationInfo.md#address)
 
-#### Source
+#### Defined in
 
-main.ts:47195
+main.ts:47727
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
@@ -62,15 +62,15 @@ can be used with Google Reviews API to get a full list of reviews
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`cid`](../interfaces/ILocationInfo.md#cid)
 
-#### Source
+#### Defined in
 
-main.ts:47201
+main.ts:47733
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 
@@ -78,15 +78,15 @@ the unique identifier of the element in SERP
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`feature_id`](../interfaces/ILocationInfo.md#feature_id)
 
-#### Source
+#### Defined in
 
-main.ts:47203
+main.ts:47735
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 name of the event’s venue
 
@@ -94,15 +94,15 @@ name of the event’s venue
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`name`](../interfaces/ILocationInfo.md#name)
 
-#### Source
+#### Defined in
 
-main.ts:47193
+main.ts:47725
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the event’s venue on google maps
 
@@ -110,9 +110,9 @@ URL to the event’s venue on google maps
 
 [`ILocationInfo`](../interfaces/ILocationInfo.md).[`url`](../interfaces/ILocationInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:47197
+main.ts:47729
 
 ## Methods
 
@@ -128,9 +128,9 @@ main.ts:47197
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:47216
+main.ts:47748
 
 ***
 
@@ -146,15 +146,15 @@ main.ts:47216
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:47237
+main.ts:47769
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LocationInfo`](LocationInfo.md)
+> `static` **fromJS**(`data`): [`LocationInfo`](LocationInfo.md)
 
 #### Parameters
 
@@ -164,6 +164,6 @@ main.ts:47237
 
 [`LocationInfo`](LocationInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:47230
+main.ts:47762

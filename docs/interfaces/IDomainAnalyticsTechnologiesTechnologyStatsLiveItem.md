@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,86 +16,86 @@ items array
 
 ### countries?
 
-> **`optional`** **countries**: `Object`
+> `optional` **countries**: `object`
 
 distribution of websites by country
 contains country codes and number of websites per country
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:78197
+main.ts:78793
 
 ***
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 date for which the data is provided
 
-#### Source
+#### Defined in
 
-main.ts:78192
+main.ts:78788
 
 ***
 
 ### domains\_count?
 
-> **`optional`** **domains\_count**: `number`
+> `optional` **domains\_count**: `number`
 
 number of domains that use the specified technology
 
-#### Source
+#### Defined in
 
-main.ts:78194
+main.ts:78790
 
 ***
 
 ### domains\_rank?
 
-> **`optional`** **domains\_rank**: `Object`
+> `optional` **domains\_rank**: `object`
 
 distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
 learn more about rank and how it is calculated in this help center article
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:78204
+main.ts:78800
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `Object`
+> `optional` **languages**: `object`
 
 distribution of websites by language
 contains language codes and number of websites per language
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:78200
+main.ts:78796
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:78190
+main.ts:78786

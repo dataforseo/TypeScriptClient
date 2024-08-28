@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,10 +14,10 @@
 
 ### google\_play\_search\_organic?
 
-> **`optional`** **google\_play\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
+> `optional` **google\_play\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
 ranking data from Google Play organic search
 
-#### Source
+#### Defined in
 
-main.ts:115134
+main.ts:115766

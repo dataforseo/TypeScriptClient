@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixBacklinksLimitsRatesDataInfo(data)
+### new AppendixBacklinksLimitsRatesDataInfo()
 
 > **new AppendixBacklinksLimitsRatesDataInfo**(`data`?): [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
 
@@ -28,303 +28,303 @@
 
 [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220017
+main.ts:221925
 
 ## Properties
 
 ### anchors?
 
-> **`optional`** **anchors**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **anchors**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`anchors`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#anchors)
 
-#### Source
+#### Defined in
 
-main.ts:219999
+main.ts:221907
 
 ***
 
 ### backlinks?
 
-> **`optional`** **backlinks**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`backlinks`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:219997
+main.ts:221905
 
 ***
 
 ### bulk\_backlinks?
 
-> **`optional`** **bulk\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **bulk\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`bulk_backlinks`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#bulk_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:220004
+main.ts:221912
 
 ***
 
 ### bulk\_new\_lost\_backlinks?
 
-> **`optional`** **bulk\_new\_lost\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **bulk\_new\_lost\_backlinks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`bulk_new_lost_backlinks`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#bulk_new_lost_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:220005
+main.ts:221913
 
 ***
 
 ### bulk\_new\_lost\_referring\_domains?
 
-> **`optional`** **bulk\_new\_lost\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **bulk\_new\_lost\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`bulk_new_lost_referring_domains`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#bulk_new_lost_referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:220006
+main.ts:221914
 
 ***
 
 ### bulk\_pages\_summary?
 
-> **`optional`** **bulk\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **bulk\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`bulk_pages_summary`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#bulk_pages_summary)
 
-#### Source
+#### Defined in
 
-main.ts:220013
+main.ts:221921
 
 ***
 
 ### bulk\_ranks?
 
-> **`optional`** **bulk\_ranks**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **bulk\_ranks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`bulk_ranks`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#bulk_ranks)
 
-#### Source
+#### Defined in
 
-main.ts:220003
+main.ts:221911
 
 ***
 
 ### bulk\_referring\_domains?
 
-> **`optional`** **bulk\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **bulk\_referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`bulk_referring_domains`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#bulk_referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:220007
+main.ts:221915
 
 ***
 
 ### competitors?
 
-> **`optional`** **competitors**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **competitors**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`competitors`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#competitors)
 
-#### Source
+#### Defined in
 
-main.ts:220012
+main.ts:221920
 
 ***
 
 ### content\_duplicates?
 
-> **`optional`** **content\_duplicates**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **content\_duplicates**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`content_duplicates`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#content_duplicates)
 
-#### Source
+#### Defined in
 
-main.ts:219995
+main.ts:221903
 
 ***
 
 ### domain\_intersection?
 
-> **`optional`** **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **domain\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`domain_intersection`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#domain_intersection)
 
-#### Source
+#### Defined in
 
-main.ts:219996
+main.ts:221904
 
 ***
 
 ### domain\_pages?
 
-> **`optional`** **domain\_pages**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **domain\_pages**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`domain_pages`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#domain_pages)
 
-#### Source
+#### Defined in
 
-main.ts:219998
+main.ts:221906
 
 ***
 
 ### domain\_pages\_summary?
 
-> **`optional`** **domain\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **domain\_pages\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`domain_pages_summary`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#domain_pages_summary)
 
-#### Source
+#### Defined in
 
-main.ts:220009
+main.ts:221917
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:220008
+main.ts:221916
 
 ***
 
 ### history?
 
-> **`optional`** **history**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **history**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`history`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#history)
 
-#### Source
+#### Defined in
 
-main.ts:219994
+main.ts:221902
 
 ***
 
 ### page\_intersection?
 
-> **`optional`** **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **page\_intersection**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`page_intersection`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#page_intersection)
 
-#### Source
+#### Defined in
 
-main.ts:220001
+main.ts:221909
 
 ***
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **referring\_domains**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`referring_domains`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:220000
+main.ts:221908
 
 ***
 
 ### referring\_networks?
 
-> **`optional`** **referring\_networks**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **referring\_networks**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`referring_networks`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#referring_networks)
 
-#### Source
+#### Defined in
 
-main.ts:220002
+main.ts:221910
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`summary`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#summary)
 
-#### Source
+#### Defined in
 
-main.ts:219993
+main.ts:221901
 
 ***
 
 ### timeseries\_new\_lost\_summary?
 
-> **`optional`** **timeseries\_new\_lost\_summary**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **timeseries\_new\_lost\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`timeseries_new_lost_summary`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#timeseries_new_lost_summary)
 
-#### Source
+#### Defined in
 
-main.ts:220011
+main.ts:221919
 
 ***
 
 ### timeseries\_summary?
 
-> **`optional`** **timeseries\_summary**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **timeseries\_summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBacklinksLimitsRatesDataInfo`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md).[`timeseries_summary`](../interfaces/IAppendixBacklinksLimitsRatesDataInfo.md#timeseries_summary)
 
-#### Source
+#### Defined in
 
-main.ts:220010
+main.ts:221918
 
 ## Methods
 
@@ -340,9 +340,9 @@ main.ts:220010
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:220026
+main.ts:221934
 
 ***
 
@@ -358,15 +358,15 @@ main.ts:220026
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:220063
+main.ts:221971
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -376,6 +376,6 @@ main.ts:220063
 
 [`AppendixBacklinksLimitsRatesDataInfo`](AppendixBacklinksLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220056
+main.ts:221964

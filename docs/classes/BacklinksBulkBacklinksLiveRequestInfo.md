@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkBacklinksLiveRequestInfo(data)
+### new BacklinksBulkBacklinksLiveRequestInfo()
 
 > **new BacklinksBulkBacklinksLiveRequestInfo**(`data`?): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150639
+main.ts:152465
 
 ## Properties
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -48,15 +48,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:150635
+main.ts:152461
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 domains, subdomains or webpages to get the number of backlinks for
 required field
@@ -81,9 +81,9 @@ example:
 
 [`IBacklinksBulkBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkBacklinksLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:150629
+main.ts:152455
 
 ## Methods
 
@@ -99,9 +99,9 @@ main.ts:150629
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:150648
+main.ts:152474
 
 ***
 
@@ -117,15 +117,15 @@ main.ts:150648
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:150670
+main.ts:152496
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
 #### Parameters
 
@@ -135,6 +135,6 @@ main.ts:150670
 
 [`BacklinksBulkBacklinksLiveRequestInfo`](BacklinksBulkBacklinksLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150663
+main.ts:152489

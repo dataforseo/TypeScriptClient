@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantGoogleProductsTasksReadyResultInfo(data)
+### new MerchantGoogleProductsTasksReadyResultInfo()
 
 > **new MerchantGoogleProductsTasksReadyResultInfo**(`data`?): [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:176152
+main.ts:177984
 
 ## Properties
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
@@ -44,15 +44,15 @@ date when the task was posted (in the UTC format)
 
 [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`date_posted`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#date_posted)
 
-#### Source
+#### Defined in
 
-main.ts:176142
+main.ts:177974
 
 ***
 
 ### endpoint\_advanced?
 
-> **`optional`** **endpoint\_advanced**: `string`
+> `optional` **endpoint\_advanced**: `string`
 
 URL for collecting the results of Google Shopping Products Advanced task
 
@@ -60,15 +60,15 @@ URL for collecting the results of Google Shopping Products Advanced task
 
 [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Source
+#### Defined in
 
-main.ts:176146
+main.ts:177978
 
 ***
 
 ### endpoint\_html?
 
-> **`optional`** **endpoint\_html**: `string`
+> `optional` **endpoint\_html**: `string`
 
 URL for collecting the results of Google Shopping Products HTML task
 
@@ -76,15 +76,15 @@ URL for collecting the results of Google Shopping Products HTML task
 
 [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#endpoint_html)
 
-#### Source
+#### Defined in
 
-main.ts:176148
+main.ts:177980
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -93,15 +93,15 @@ unique task identifier in our system in the UUID format
 
 [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`id`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:176135
+main.ts:177967
 
 ***
 
 ### se?
 
-> **`optional`** **se**: `string`
+> `optional` **se**: `string`
 
 search engine specified when setting the task
 
@@ -109,15 +109,15 @@ search engine specified when setting the task
 
 [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`se`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#se)
 
-#### Source
+#### Defined in
 
-main.ts:176137
+main.ts:177969
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 type of search engine
 example: products
@@ -126,15 +126,15 @@ example: products
 
 [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`se_type`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:176140
+main.ts:177972
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
@@ -142,9 +142,9 @@ user-defined task identifier
 
 [`IMerchantGoogleProductsTasksReadyResultInfo`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md).[`tag`](../interfaces/IMerchantGoogleProductsTasksReadyResultInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:176144
+main.ts:177976
 
 ## Methods
 
@@ -160,9 +160,9 @@ main.ts:176144
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:176161
+main.ts:177993
 
 ***
 
@@ -178,15 +178,15 @@ main.ts:176161
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:176184
+main.ts:178016
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
 #### Parameters
 
@@ -196,6 +196,6 @@ main.ts:176184
 
 [`MerchantGoogleProductsTasksReadyResultInfo`](MerchantGoogleProductsTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:176177
+main.ts:178009

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,28 +14,28 @@
 
 ### task\_get?
 
-> **`optional`** **task\_get**: [`AppendixTaskGetPriceDataInfo`](../classes/AppendixTaskGetPriceDataInfo.md)
+> `optional` **task\_get**: [`AppendixTaskGetPriceDataInfo`](../classes/AppendixTaskGetPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222095
+main.ts:226367
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222097
+main.ts:226369
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222096
+main.ts:226368

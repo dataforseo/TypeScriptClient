@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### hotel\_info?
 
-> **`optional`** **hotel\_info**: [`AppendixHotelInfoGoogleBusinessDataPriceData`](../classes/AppendixHotelInfoGoogleBusinessDataPriceData.md)
+> `optional` **hotel\_info**: [`AppendixHotelInfoGoogleBusinessDataPriceData`](../classes/AppendixHotelInfoGoogleBusinessDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:223152
+main.ts:227424
 
 ***
 
 ### hotel\_searches?
 
-> **`optional`** **hotel\_searches**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
+> `optional` **hotel\_searches**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223153
+main.ts:227425
 
 ***
 
 ### my\_business\_info?
 
-> **`optional`** **my\_business\_info**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
+> `optional` **my\_business\_info**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223154
+main.ts:227426
 
 ***
 
 ### my\_business\_updates?
 
-> **`optional`** **my\_business\_updates**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
+> `optional` **my\_business\_updates**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223155
+main.ts:227427
 
 ***
 
 ### questions\_and\_answers?
 
-> **`optional`** **questions\_and\_answers**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
+> `optional` **questions\_and\_answers**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223156
+main.ts:227428
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
+> `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](../classes/AppendixGoogleBusinessDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223157
+main.ts:227429

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MathSolverElement(data)
+### new MathSolverElement()
 
 > **new MathSolverElement**(`data`?): [`MathSolverElement`](MathSolverElement.md)
 
@@ -28,15 +28,15 @@
 
 [`MathSolverElement`](MathSolverElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:35687
+main.ts:35883
 
 ## Properties
 
 ### expanded\_element?
 
-> **`optional`** **expanded\_element**: [`MathSolverExpandedElement`](MathSolverExpandedElement.md)[]
+> `optional` **expanded\_element**: [`MathSolverExpandedElement`](MathSolverExpandedElement.md)[]
 
 expanded element
 
@@ -44,15 +44,15 @@ expanded element
 
 [`IMathSolverElement`](../interfaces/IMathSolverElement.md).[`expanded_element`](../interfaces/IMathSolverElement.md#expanded_element)
 
-#### Source
+#### Defined in
 
-main.ts:35683
+main.ts:35879
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -60,15 +60,15 @@ title of a given link element
 
 [`IMathSolverElement`](../interfaces/IMathSolverElement.md).[`title`](../interfaces/IMathSolverElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:35681
+main.ts:35877
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -76,9 +76,9 @@ type of element
 
 [`IMathSolverElement`](../interfaces/IMathSolverElement.md).[`type`](../interfaces/IMathSolverElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:35679
+main.ts:35875
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:35679
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:35696
+main.ts:35892
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:35696
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:35719
+main.ts:35915
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MathSolverElement`](MathSolverElement.md)
+> `static` **fromJS**(`data`): [`MathSolverElement`](MathSolverElement.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:35719
 
 [`MathSolverElement`](MathSolverElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:35712
+main.ts:35908

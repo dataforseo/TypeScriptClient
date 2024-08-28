@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RecipesElement(data)
+### new RecipesElement()
 
 > **new RecipesElement**(`data`?): [`RecipesElement`](RecipesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`RecipesElement`](RecipesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33059
+main.ts:33255
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`description`](../interfaces/IRecipesElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:33050
+main.ts:33246
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -60,15 +60,15 @@ website domain
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`domain`](../interfaces/IRecipesElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:33045
+main.ts:33241
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -77,15 +77,15 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`rating`](../interfaces/IRecipesElement.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:33055
+main.ts:33251
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -94,15 +94,15 @@ indicates the source of information included in the top_stories_element
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`source`](../interfaces/IRecipesElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:33048
+main.ts:33244
 
 ***
 
 ### time?
 
-> **`optional`** **time**: `string`
+> `optional` **time**: `string`
 
 the total time it takes to prepare the cook the dish
 
@@ -110,15 +110,15 @@ the total time it takes to prepare the cook the dish
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`time`](../interfaces/IRecipesElement.md#time)
 
-#### Source
+#### Defined in
 
-main.ts:33052
+main.ts:33248
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -126,15 +126,15 @@ title of a given link element
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`title`](../interfaces/IRecipesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:33041
+main.ts:33237
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -142,15 +142,15 @@ type of element
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`type`](../interfaces/IRecipesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:33039
+main.ts:33235
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -158,9 +158,9 @@ URL
 
 [`IRecipesElement`](../interfaces/IRecipesElement.md).[`url`](../interfaces/IRecipesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:33043
+main.ts:33239
 
 ## Methods
 
@@ -176,9 +176,9 @@ main.ts:33043
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:33068
+main.ts:33264
 
 ***
 
@@ -194,15 +194,15 @@ main.ts:33068
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:33092
+main.ts:33288
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RecipesElement`](RecipesElement.md)
+> `static` **fromJS**(`data`): [`RecipesElement`](RecipesElement.md)
 
 #### Parameters
 
@@ -212,6 +212,6 @@ main.ts:33092
 
 [`RecipesElement`](RecipesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33085
+main.ts:33281

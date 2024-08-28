@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataAppleAppInfoTaskGetAdvancedResultInfo(data)
+### new AppDataAppleAppInfoTaskGetAdvancedResultInfo()
 
 > **new AppDataAppleAppInfoTaskGetAdvancedResultInfo**(`data`?): [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:197143
+main.ts:198975
 
 ## Properties
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 application id received in a POST request
 
@@ -44,15 +44,15 @@ application id received in a POST request
 
 [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`app_id`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:197119
+main.ts:198951
 
 ***
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -61,15 +61,15 @@ you can use it to make sure that we provided accurate results
 
 [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`check_url`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:197128
+main.ts:198960
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -80,15 +80,15 @@ example:
 
 [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`datetime`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:197133
+main.ts:198965
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
+> `optional` **items**: [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)[]
 
 found app info
 
@@ -96,15 +96,15 @@ found app info
 
 [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`items`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:197139
+main.ts:198971
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of items in the results array
 
@@ -112,15 +112,15 @@ the number of items in the results array
 
 [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`items_count`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:197137
+main.ts:198969
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -128,15 +128,15 @@ language code in a POST array
 
 [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`language_code`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:197125
+main.ts:198957
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -144,15 +144,15 @@ location code in a POST array
 
 [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`location_code`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:197123
+main.ts:198955
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
@@ -160,15 +160,15 @@ search engine domain in a POST array
 
 [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`se_domain`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:197121
+main.ts:198953
 
 ***
 
 ### se\_results\_count?
 
-> **`optional`** **se\_results\_count**: `number`
+> `optional` **se\_results\_count**: `number`
 
 the total number of results
 
@@ -176,9 +176,9 @@ the total number of results
 
 [`IAppDataAppleAppInfoTaskGetAdvancedResultInfo`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md).[`se_results_count`](../interfaces/IAppDataAppleAppInfoTaskGetAdvancedResultInfo.md#se_results_count)
 
-#### Source
+#### Defined in
 
-main.ts:197135
+main.ts:198967
 
 ## Methods
 
@@ -194,9 +194,9 @@ main.ts:197135
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:197152
+main.ts:198984
 
 ***
 
@@ -212,15 +212,15 @@ main.ts:197152
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:197181
+main.ts:199013
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
 #### Parameters
 
@@ -230,6 +230,6 @@ main.ts:197181
 
 [`AppDataAppleAppInfoTaskGetAdvancedResultInfo`](AppDataAppleAppInfoTaskGetAdvancedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:197174
+main.ts:199006

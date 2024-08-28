@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisSummaryLiveRequestInfo(data)
+### new ContentAnalysisSummaryLiveRequestInfo()
 
 > **new ContentAnalysisSummaryLiveRequestInfo**(`data`?): [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
 
@@ -28,29 +28,29 @@
 
 [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169020
+main.ts:170852
 
 ## Properties
 
 ### initial\_dataset\_filters?
 
-> **`optional`** **initial\_dataset\_filters**: `any`[]
+> `optional` **initial\_dataset\_filters**: `any`[]
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
-[["domain","`<>`","logitech.com"],"and",["content_info.connotation_types.negative",">`",1000]]
-[["domain","`<>`","logitech.com"]],
+[["domain","<>","logitech.com"],"and",["content_info.connotation_types.negative",">",1000]]
+[["domain","<>","logitech.com"]],
 "and",
-[["content_info.connotation_types.negative",">`",1000],
+[["content_info.connotation_types.negative",">",1000],
 "or",
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
@@ -59,15 +59,15 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`initial_dataset_filters`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#initial_dataset_filters)
 
-#### Source
+#### Defined in
 
-main.ts:169010
+main.ts:170842
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -84,15 +84,15 @@ maximum value: 20
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#internal_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:168978
+main.ts:170810
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 target keyword
 required field
@@ -107,15 +107,15 @@ example:
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`keyword`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:168949
+main.ts:170781
 
 ***
 
 ### keyword\_fields?
 
-> **`optional`** **keyword\_fields**: `Object`
+> `optional` **keyword\_fields**: `object`
 
 target keyword fields and target keywords
 optional field
@@ -124,12 +124,12 @@ fields you can specify: title, main_title, previous_title, snippet
 you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
-"keyword_fields": \{
+"keyword_fields": {
     "snippet": "\"logitech mouse\"",
     "main_title": "sale"
-\}
+}
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -137,15 +137,15 @@ example:
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`keyword_fields`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#keyword_fields)
 
-#### Source
+#### Defined in
 
-main.ts:168961
+main.ts:170793
 
 ***
 
 ### page\_type?
 
-> **`optional`** **page\_type**: `string`[]
+> `optional` **page\_type**: `string`[]
 
 target page types
 optional field
@@ -157,15 +157,15 @@ possible values:
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#page_type)
 
-#### Source
+#### Defined in
 
-main.ts:168967
+main.ts:170799
 
 ***
 
 ### positive\_connotation\_threshold?
 
-> **`optional`** **positive\_connotation\_threshold**: `number`
+> `optional` **positive\_connotation\_threshold**: `number`
 
 positive connotation threshold
 optional field
@@ -178,15 +178,15 @@ default value: 0.4
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`positive_connotation_threshold`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#positive_connotation_threshold)
 
-#### Source
+#### Defined in
 
-main.ts:168985
+main.ts:170817
 
 ***
 
 ### sentiments\_connotation\_threshold?
 
-> **`optional`** **sentiments\_connotation\_threshold**: `number`
+> `optional` **sentiments\_connotation\_threshold**: `number`
 
 sentiment connotation threshold
 optional field
@@ -200,15 +200,15 @@ default value: 0.4
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`sentiments_connotation_threshold`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#sentiments_connotation_threshold)
 
-#### Source
+#### Defined in
 
-main.ts:168993
+main.ts:170825
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -220,9 +220,9 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisSummaryLiveRequestInfo`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisSummaryLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:169016
+main.ts:170848
 
 ## Methods
 
@@ -238,9 +238,9 @@ main.ts:169016
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:169029
+main.ts:170861
 
 ***
 
@@ -256,15 +256,15 @@ main.ts:169029
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:169067
+main.ts:170899
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
 
 #### Parameters
 
@@ -274,6 +274,6 @@ main.ts:169067
 
 [`ContentAnalysisSummaryLiveRequestInfo`](ContentAnalysisSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169060
+main.ts:170892

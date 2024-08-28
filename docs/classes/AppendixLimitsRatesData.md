@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixLimitsRatesData(data)
+### new AppendixLimitsRatesData()
 
 > **new AppendixLimitsRatesData**(`data`?): [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
@@ -28,37 +28,37 @@
 
 [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
-#### Source
+#### Defined in
 
-main.ts:220974
+main.ts:222882
 
 ## Properties
 
 ### day?
 
-> **`optional`** **day**: [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
+> `optional` **day**: [`AppendixDayLimitsRatesData`](AppendixDayLimitsRatesData.md)
 
 #### Implementation of
 
 [`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md).[`day`](../interfaces/IAppendixLimitsRatesData.md#day)
 
-#### Source
+#### Defined in
 
-main.ts:220969
+main.ts:222877
 
 ***
 
 ### minute?
 
-> **`optional`** **minute**: [`AppendixDataInfo`](AppendixDataInfo.md)
+> `optional` **minute**: [`AppendixDataInfo`](AppendixDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixLimitsRatesData`](../interfaces/IAppendixLimitsRatesData.md).[`minute`](../interfaces/IAppendixLimitsRatesData.md#minute)
 
-#### Source
+#### Defined in
 
-main.ts:220970
+main.ts:222878
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:220970
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:220983
+main.ts:222891
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:220983
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221001
+main.ts:222909
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
+> `static` **fromJS**(`data`): [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:221001
 
 [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
-#### Source
+#### Defined in
 
-main.ts:220994
+main.ts:222902

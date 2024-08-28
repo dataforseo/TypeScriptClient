@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new GoogleBusinessPostBusinessDataSerpElementItem(data)
+### new GoogleBusinessPostBusinessDataSerpElementItem()
 
 > **new GoogleBusinessPostBusinessDataSerpElementItem**(`data`?): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:205446
+main.ts:207296
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21097
+main.ts:21279
 
 ***
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 author of the post
 
@@ -66,15 +66,15 @@ author of the post
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`author`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#author)
 
-#### Source
+#### Defined in
 
-main.ts:205423
+main.ts:207273
 
 ***
 
 ### images\_url?
 
-> **`optional`** **images\_url**: `string`
+> `optional` **images\_url**: `string`
 
 url of an image included in the post
 
@@ -82,15 +82,15 @@ url of an image included in the post
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`images_url`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#images_url)
 
-#### Source
+#### Defined in
 
-main.ts:205431
+main.ts:207281
 
 ***
 
 ### links?
 
-> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
+> `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
 links included in the post
 
@@ -98,15 +98,15 @@ links included in the post
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`links`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#links)
 
-#### Source
+#### Defined in
 
-main.ts:205442
+main.ts:207292
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values: right
@@ -115,15 +115,15 @@ can take the following values: right
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`position`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:205419
+main.ts:207269
 
 ***
 
 ### post\_date?
 
-> **`optional`** **post\_date**: `string`
+> `optional` **post\_date**: `string`
 
 date when a post was published
 in the following format:
@@ -133,15 +133,15 @@ in the following format:
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`post_date`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#post_date)
 
-#### Source
+#### Defined in
 
-main.ts:205435
+main.ts:207285
 
 ***
 
 ### post\_text?
 
-> **`optional`** **post\_text**: `string`
+> `optional` **post\_text**: `string`
 
 main content of a post
 
@@ -149,15 +149,15 @@ main content of a post
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`post_text`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#post_text)
 
-#### Source
+#### Defined in
 
-main.ts:205427
+main.ts:207277
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed updates
 absolute position among all present elements
@@ -166,15 +166,15 @@ absolute position among all present elements
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:205416
+main.ts:207266
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -183,15 +183,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:205413
+main.ts:207263
 
 ***
 
 ### snippet?
 
-> **`optional`** **snippet**: `string`
+> `optional` **snippet**: `string`
 
 additional content of a post
 
@@ -199,15 +199,15 @@ additional content of a post
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`snippet`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#snippet)
 
-#### Source
+#### Defined in
 
-main.ts:205425
+main.ts:207275
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -218,15 +218,15 @@ example:
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`timestamp`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:205440
+main.ts:207290
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 url of a post
 
@@ -234,15 +234,15 @@ url of a post
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`url`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:205429
+main.ts:207279
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -250,9 +250,9 @@ the XPath of the element
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`xpath`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:205421
+main.ts:207271
 
 ## Methods
 
@@ -272,9 +272,9 @@ main.ts:205421
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:205451
+main.ts:207301
 
 ***
 
@@ -294,15 +294,15 @@ main.ts:205451
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:205484
+main.ts:207334
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): [`GoogleBusinessPostBusinessDataSerpElementItem`](GoogleBusinessPostBusinessDataSerpElementItem.md)
 
 #### Parameters
 
@@ -316,6 +316,6 @@ main.ts:205484
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:205477
+main.ts:207327

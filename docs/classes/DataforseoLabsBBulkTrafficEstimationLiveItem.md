@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBBulkTrafficEstimationLiveItem(data)
+### new DataforseoLabsBBulkTrafficEstimationLiveItem()
 
 > **new DataforseoLabsBBulkTrafficEstimationLiveItem**(`data`?): [`DataforseoLabsBBulkTrafficEstimationLiveItem`](DataforseoLabsBBulkTrafficEstimationLiveItem.md)
 
@@ -28,19 +28,19 @@
 
 [`DataforseoLabsBBulkTrafficEstimationLiveItem`](DataforseoLabsBBulkTrafficEstimationLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:103285
+main.ts:103903
 
 ## Properties
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 traffic data relevant to the specified domain
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`BulkMetricsInfo`](BulkMetricsInfo.md)
 
@@ -48,15 +48,15 @@ traffic data relevant to the specified domain
 
 [`IDataforseoLabsBBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsBBulkTrafficEstimationLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsBBulkTrafficEstimationLiveItem.md#metrics)
 
-#### Source
+#### Defined in
 
-main.ts:103281
+main.ts:103899
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -64,15 +64,15 @@ search engine type
 
 [`IDataforseoLabsBBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsBBulkTrafficEstimationLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsBBulkTrafficEstimationLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:103277
+main.ts:103895
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain in a POST array
 
@@ -80,9 +80,9 @@ target domain in a POST array
 
 [`IDataforseoLabsBBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsBBulkTrafficEstimationLiveItem.md).[`target`](../interfaces/IDataforseoLabsBBulkTrafficEstimationLiveItem.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:103279
+main.ts:103897
 
 ## Methods
 
@@ -98,9 +98,9 @@ main.ts:103279
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:103294
+main.ts:103912
 
 ***
 
@@ -116,15 +116,15 @@ main.ts:103294
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:103319
+main.ts:103937
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBBulkTrafficEstimationLiveItem`](DataforseoLabsBBulkTrafficEstimationLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBBulkTrafficEstimationLiveItem`](DataforseoLabsBBulkTrafficEstimationLiveItem.md)
 
 #### Parameters
 
@@ -134,6 +134,6 @@ main.ts:103319
 
 [`DataforseoLabsBBulkTrafficEstimationLiveItem`](DataforseoLabsBBulkTrafficEstimationLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:103312
+main.ts:103930

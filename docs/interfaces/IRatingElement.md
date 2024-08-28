@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,73 +14,73 @@
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in Google Shopping SERP
 possible values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:21079
+main.ts:21261
 
 ***
 
 ### rating\_max?
 
-> **`optional`** **rating\_max**: `number`
+> `optional` **rating\_max**: `number`
 
 the maximum value for a rating_type
 
-#### Source
+#### Defined in
 
-main.ts:21088
+main.ts:21270
 
 ***
 
 ### rating\_type?
 
-> **`optional`** **rating\_type**: `string`
+> `optional` **rating\_type**: `string`
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
 
-#### Source
+#### Defined in
 
-main.ts:21082
+main.ts:21264
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:21075
+main.ts:21257
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `string`
+> `optional` **value**: `string`
 
 value of the rating
 
-#### Source
+#### Defined in
 
-main.ts:21084
+main.ts:21266
 
 ***
 
 ### votes\_count?
 
-> **`optional`** **votes\_count**: `number`
+> `optional` **votes\_count**: `number`
 
 the amount of feedback
 
-#### Source
+#### Defined in
 
-main.ts:21086
+main.ts:21268

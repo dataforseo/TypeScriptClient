@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataDataforseoTrendsDemographyLiveResultInfo(data)
+### new KeywordsDataDataforseoTrendsDemographyLiveResultInfo()
 
 > **new KeywordsDataDataforseoTrendsDemographyLiveResultInfo**(`data`?): [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130451
+main.ts:130275
 
 ## Properties
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +47,15 @@ example:
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`datetime`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:130443
+main.ts:130267
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)[]
+> `optional` **items**: [`DataforseoTrendsDemographyInfo`](DataforseoTrendsDemographyInfo.md)[]
 
 contains keyword popularity and related data
 
@@ -63,15 +63,15 @@ contains keyword popularity and related data
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`items`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:130447
+main.ts:130271
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -79,15 +79,15 @@ the number of results returned in the items array
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`items_count`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:130445
+main.ts:130269
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords in a POST array
 
@@ -95,15 +95,15 @@ keywords in a POST array
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:130430
+main.ts:130254
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
@@ -112,15 +112,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:130438
+main.ts:130262
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -129,15 +129,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:130435
+main.ts:130259
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -145,9 +145,9 @@ type of element
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveResultInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:130432
+main.ts:130256
 
 ## Methods
 
@@ -163,9 +163,9 @@ main.ts:130432
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:130460
+main.ts:130284
 
 ***
 
@@ -181,15 +181,15 @@ main.ts:130460
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:130491
+main.ts:130315
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
 
 #### Parameters
 
@@ -199,6 +199,6 @@ main.ts:130491
 
 [`KeywordsDataDataforseoTrendsDemographyLiveResultInfo`](KeywordsDataDataforseoTrendsDemographyLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130484
+main.ts:130308

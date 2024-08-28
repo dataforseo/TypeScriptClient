@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new TwitterSerpElementItem(data)
+### new TwitterSerpElementItem()
 
 > **new TwitterSerpElementItem**(`data`?): [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:30631
+main.ts:30827
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`TwitterElement`](TwitterElement.md)[]
+> `optional` **items**: [`TwitterElement`](TwitterElement.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -67,15 +67,15 @@ if there are none, equals null
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`items`](../interfaces/ITwitterSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:30623
+main.ts:30819
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -85,15 +85,15 @@ left, right
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`position`](../interfaces/ITwitterSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:30614
+main.ts:30810
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -103,15 +103,15 @@ always equals 0 for desktop
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`rank_absolute`](../interfaces/ITwitterSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:30610
+main.ts:30806
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -122,15 +122,15 @@ always equals 0 for desktop
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`rank_group`](../interfaces/ITwitterSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:30606
+main.ts:30802
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -140,15 +140,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`rectangle`](../interfaces/ITwitterSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:30627
+main.ts:30823
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the row
 
@@ -156,15 +156,15 @@ title of the row
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`title`](../interfaces/ITwitterSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:30618
+main.ts:30814
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 source URL
 
@@ -172,15 +172,15 @@ source URL
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`url`](../interfaces/ITwitterSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:30620
+main.ts:30816
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -188,9 +188,9 @@ the XPath of the element
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`xpath`](../interfaces/ITwitterSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:30616
+main.ts:30812
 
 ## Methods
 
@@ -210,9 +210,9 @@ main.ts:30616
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:30636
+main.ts:30832
 
 ***
 
@@ -232,15 +232,15 @@ main.ts:30636
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:30665
+main.ts:30861
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
+> `static` **fromJS**(`data`): [`TwitterSerpElementItem`](TwitterSerpElementItem.md)
 
 #### Parameters
 
@@ -254,6 +254,6 @@ main.ts:30665
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:30658
+main.ts:30854

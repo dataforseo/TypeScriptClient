@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksDomainPagesSummaryLiveItem`](../classes/BacklinksDomainPagesSummaryLiveItem.md)[]
+> `optional` **items**: [`BacklinksDomainPagesSummaryLiveItem`](../classes/BacklinksDomainPagesSummaryLiveItem.md)[]
 
 items array
 
-#### Source
+#### Defined in
 
-main.ts:145151
+main.ts:146977
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
-#### Source
+#### Defined in
 
-main.ts:145149
+main.ts:146975
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target in the post array
 
-#### Source
+#### Defined in
 
-main.ts:145145
+main.ts:146971
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of relevant items in the database
 
-#### Source
+#### Defined in
 
-main.ts:145147
+main.ts:146973

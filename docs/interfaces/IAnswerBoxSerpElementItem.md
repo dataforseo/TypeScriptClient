@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,92 +18,92 @@
 
 ### links?
 
-> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 link of the element
 
-#### Source
+#### Defined in
 
-main.ts:31970
+main.ts:32166
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:31963
+main.ts:32159
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Source
+#### Defined in
 
-main.ts:31959
+main.ts:32155
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Source
+#### Defined in
 
-main.ts:31955
+main.ts:32151
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Source
+#### Defined in
 
-main.ts:31974
+main.ts:32170
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`[]
+> `optional` **text**: `string`[]
 
 text
 if there is none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:31968
+main.ts:32164
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:31965
+main.ts:32161

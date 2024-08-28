@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,74 +14,74 @@
 
 ### available\_languages?
 
-> **`optional`** **available\_languages**: [`AvailableLanguages`](../classes/AvailableLanguages.md)[]
+> `optional` **available\_languages**: [`AvailableLanguages`](../classes/AvailableLanguages.md)[]
 
 supported languages
 contains the languages which are supported for a specific location
 
-#### Source
+#### Defined in
 
-main.ts:82504
+main.ts:83100
 
 ***
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Source
+#### Defined in
 
-main.ts:82497
+main.ts:83093
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
-#### Source
+#### Defined in
 
-main.ts:82490
+main.ts:83086
 
 ***
 
 ### location\_code\_parent?
 
-> **`optional`** **location\_code\_parent**: `number`
+> `optional` **location\_code\_parent**: `number`
 
 the code of the superordinate location
 the value will be null as Country is the only supported location_type for this API
 
-#### Source
+#### Defined in
 
-main.ts:82495
+main.ts:83091
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
-#### Source
+#### Defined in
 
-main.ts:82492
+main.ts:83088
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 possible values:
 Country
 
-#### Source
+#### Defined in
 
-main.ts:82501
+main.ts:83097

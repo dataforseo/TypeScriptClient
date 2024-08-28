@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisLocationsResultInfo(data)
+### new ContentAnalysisLocationsResultInfo()
 
 > **new ContentAnalysisLocationsResultInfo**(`data`?): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:167424
+main.ts:169256
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md).[`country_iso_code`](../interfaces/IContentAnalysisLocationsResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:167420
+main.ts:169252
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
@@ -60,9 +60,9 @@ full name of the location
 
 [`IContentAnalysisLocationsResultInfo`](../interfaces/IContentAnalysisLocationsResultInfo.md).[`location_name`](../interfaces/IContentAnalysisLocationsResultInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:167418
+main.ts:169250
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:167418
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:167433
+main.ts:169265
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:167433
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:167451
+main.ts:169283
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:167451
 
 [`ContentAnalysisLocationsResultInfo`](ContentAnalysisLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:167444
+main.ts:169276

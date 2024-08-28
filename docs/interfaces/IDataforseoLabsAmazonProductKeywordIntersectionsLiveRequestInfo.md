@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,53 +14,53 @@
 
 ### asins?
 
-> **`optional`** **asins**: `Object`
+> `optional` **asins**: `object`
 
 asins of target products
 required field
 product IDs of the products for which you need to find keyword intersections;
 specify the ASINs as in the following example:
-"asins": \{
+"asins": {
 "1": "019005476X",
 "2": "0190074442"
-\}
+}
 the maximum number of ASINs you can specify in this object is 20;
 learn more about the parameter on this help center page
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:107407
+main.ts:108037
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
-you can use the % operator with like and not_like to match any string of zero or more characters
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["avg_position","<", 10]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:107459
+main.ts:108089
 
 ***
 
 ### intersection\_mode?
 
-> **`optional`** **intersection\_mode**: `string`
+> `optional` **intersection\_mode**: `string`
 
 mode for finding asin intersections
 optional field
@@ -68,15 +68,15 @@ possible values: union, intersect;
 default value: intersect;
 learn more about the parameter in this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:107448
+main.ts:108078
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -85,15 +85,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:107437
+main.ts:108067
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -102,30 +102,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:107430
+main.ts:108060
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of products in the results array
 optional field
 default value: 100;
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:107442
+main.ts:108072
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -135,15 +135,15 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:107423
+main.ts:108053
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -153,30 +153,30 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:107415
+main.ts:108045
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Source
+#### Defined in
 
-main.ts:107480
+main.ts:108110
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -194,15 +194,15 @@ example:
 default rule:
 ["intersections,desc"]
 
-#### Source
+#### Defined in
 
-main.ts:107475
+main.ts:108105
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -210,6 +210,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:107486
+main.ts:108116

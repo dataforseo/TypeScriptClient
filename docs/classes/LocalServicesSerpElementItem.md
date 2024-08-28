@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new LocalServicesSerpElementItem(data)
+### new LocalServicesSerpElementItem()
 
 > **new LocalServicesSerpElementItem**(`data`?): [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:35401
+main.ts:35597
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 source domain
 
@@ -66,15 +66,15 @@ source domain
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`domain`](../interfaces/ILocalServicesSerpElementItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:35390
+main.ts:35586
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
+> `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -83,15 +83,15 @@ if there are none, equals null
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`items`](../interfaces/ILocalServicesSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:35393
+main.ts:35589
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -101,15 +101,15 @@ left, right
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`position`](../interfaces/ILocalServicesSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:35382
+main.ts:35578
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -119,15 +119,15 @@ always equals 0 for desktop
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`rank_absolute`](../interfaces/ILocalServicesSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:35378
+main.ts:35574
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -138,15 +138,15 @@ always equals 0 for desktop
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`rank_group`](../interfaces/ILocalServicesSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:35374
+main.ts:35570
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -156,15 +156,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`rectangle`](../interfaces/ILocalServicesSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:35397
+main.ts:35593
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the row
 
@@ -172,15 +172,15 @@ title of the row
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`title`](../interfaces/ILocalServicesSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:35386
+main.ts:35582
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 source URL
 
@@ -188,15 +188,15 @@ source URL
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`url`](../interfaces/ILocalServicesSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:35388
+main.ts:35584
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -204,9 +204,9 @@ the XPath of the element
 
 [`ILocalServicesSerpElementItem`](../interfaces/ILocalServicesSerpElementItem.md).[`xpath`](../interfaces/ILocalServicesSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:35384
+main.ts:35580
 
 ## Methods
 
@@ -226,9 +226,9 @@ main.ts:35384
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:35406
+main.ts:35602
 
 ***
 
@@ -248,15 +248,15 @@ main.ts:35406
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:35436
+main.ts:35632
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
+> `static` **fromJS**(`data`): [`LocalServicesSerpElementItem`](LocalServicesSerpElementItem.md)
 
 #### Parameters
 
@@ -270,6 +270,6 @@ main.ts:35436
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:35429
+main.ts:35625

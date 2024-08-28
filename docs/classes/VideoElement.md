@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new VideoElement(data)
+### new VideoElement()
 
 > **new VideoElement**(`data`?): [`VideoElement`](VideoElement.md)
 
@@ -28,15 +28,15 @@
 
 [`VideoElement`](VideoElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:31685
+main.ts:31881
 
 ## Properties
 
 ### preview?
 
-> **`optional`** **preview**: `string`
+> `optional` **preview**: `string`
 
 URL to the video preview image
 
@@ -44,15 +44,15 @@ URL to the video preview image
 
 [`IVideoElement`](../interfaces/IVideoElement.md).[`preview`](../interfaces/IVideoElement.md#preview)
 
-#### Source
+#### Defined in
 
-main.ts:31681
+main.ts:31877
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -61,15 +61,15 @@ indicates the source of information included in the top_stories_element
 
 [`IVideoElement`](../interfaces/IVideoElement.md).[`source`](../interfaces/IVideoElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:31670
+main.ts:31866
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -80,15 +80,15 @@ example:
 
 [`IVideoElement`](../interfaces/IVideoElement.md).[`timestamp`](../interfaces/IVideoElement.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:31677
+main.ts:31873
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -96,15 +96,15 @@ title of a given link element
 
 [`IVideoElement`](../interfaces/IVideoElement.md).[`title`](../interfaces/IVideoElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:31672
+main.ts:31868
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -112,15 +112,15 @@ type of element
 
 [`IVideoElement`](../interfaces/IVideoElement.md).[`type`](../interfaces/IVideoElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:31667
+main.ts:31863
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -128,9 +128,9 @@ URL
 
 [`IVideoElement`](../interfaces/IVideoElement.md).[`url`](../interfaces/IVideoElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:31679
+main.ts:31875
 
 ## Methods
 
@@ -146,9 +146,9 @@ main.ts:31679
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:31694
+main.ts:31890
 
 ***
 
@@ -164,15 +164,15 @@ main.ts:31694
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:31716
+main.ts:31912
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`VideoElement`](VideoElement.md)
+> `static` **fromJS**(`data`): [`VideoElement`](VideoElement.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:31716
 
 [`VideoElement`](VideoElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:31709
+main.ts:31905

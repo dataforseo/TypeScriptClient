@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesLanguagesResultInfo(data)
+### new DomainAnalyticsTechnologiesLanguagesResultInfo()
 
 > **new DomainAnalyticsTechnologiesLanguagesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76411
+main.ts:77007
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md).[`language_code`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:76407
+main.ts:77003
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IDomainAnalyticsTechnologiesLanguagesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md).[`language_name`](../interfaces/IDomainAnalyticsTechnologiesLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:76405
+main.ts:77001
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:76405
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:76420
+main.ts:77016
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:76420
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:76438
+main.ts:77034
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:76438
 
 [`DomainAnalyticsTechnologiesLanguagesResultInfo`](DomainAnalyticsTechnologiesLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76431
+main.ts:77027

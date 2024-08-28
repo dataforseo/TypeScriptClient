@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,178 +16,178 @@ items array
 
 ### content\_language\_code?
 
-> **`optional`** **content\_language\_code**: `string`
+> `optional` **content\_language\_code**: `string`
 
 content language
 code of the language that content on the target domain is written with
 
-#### Source
+#### Defined in
 
-main.ts:78891
+main.ts:79487
 
 ***
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 domain ISO code
 ISO code of the country that target domain is determined to belong to
 
-#### Source
+#### Defined in
 
-main.ts:78885
+main.ts:79481
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 domain meta description
 
-#### Source
+#### Defined in
 
-main.ts:78872
+main.ts:79468
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 specified domain name
 
-#### Source
+#### Defined in
 
-main.ts:78868
+main.ts:79464
 
 ***
 
 ### domain\_rank?
 
-> **`optional`** **domain\_rank**: `string`
+> `optional` **domain\_rank**: `string`
 
 backlink rank of the target domain
 learn more about the metric and how it is calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:78877
+main.ts:79473
 
 ***
 
 ### emails?
 
-> **`optional`** **emails**: `string`[]
+> `optional` **emails**: `string`[]
 
 emails of the target
 emails indicated on the target website
 
-#### Source
+#### Defined in
 
-main.ts:78897
+main.ts:79493
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 domain language
 code of the language that target domain is determined to be associated with
 
-#### Source
+#### Defined in
 
-main.ts:78888
+main.ts:79484
 
 ***
 
 ### last\_visited?
 
-> **`optional`** **last\_visited**: `string`
+> `optional` **last\_visited**: `string`
 
 most recent date when our crawler visited the domain
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2022-10-10 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:78882
+main.ts:79478
 
 ***
 
 ### meta\_keywords?
 
-> **`optional`** **meta\_keywords**: `string`[]
+> `optional` **meta\_keywords**: `string`[]
 
 domain meta keywords
 
-#### Source
+#### Defined in
 
-main.ts:78874
+main.ts:79470
 
 ***
 
 ### phone\_numbers?
 
-> **`optional`** **phone\_numbers**: `string`[]
+> `optional` **phone\_numbers**: `string`[]
 
 phone numbers of the target
 contact phone numbers indicated on the target website
 
-#### Source
+#### Defined in
 
-main.ts:78894
+main.ts:79490
 
 ***
 
 ### social\_graph\_urls?
 
-> **`optional`** **social\_graph\_urls**: `string`[]
+> `optional` **social\_graph\_urls**: `string`[]
 
 social media links and handles
 social media URLs detected in the social graphs of the target website
 
-#### Source
+#### Defined in
 
-main.ts:78900
+main.ts:79496
 
 ***
 
 ### technologies?
 
-> **`optional`** **technologies**: [`TechnologiesInfo`](../classes/TechnologiesInfo.md)
+> `optional` **technologies**: [`TechnologiesInfo`](../classes/TechnologiesInfo.md)
 
 technologies used by target domain
 contains objects with the names of technologies used on the website;
 to get a full list of technologies and their structure, refer to the technologies endpoint
 
-#### Source
+#### Defined in
 
-main.ts:78904
+main.ts:79500
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 domain meta title
 
-#### Source
+#### Defined in
 
-main.ts:78870
+main.ts:79466
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:78866
+main.ts:79462

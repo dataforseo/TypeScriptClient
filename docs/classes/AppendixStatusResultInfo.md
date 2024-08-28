@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixStatusResultInfo(data)
+### new AppendixStatusResultInfo()
 
 > **new AppendixStatusResultInfo**(`data`?): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:224717
+main.ts:228989
 
 ## Properties
 
 ### api?
 
-> **`optional`** **api**: `string`
+> `optional` **api**: `string`
 
 name of the API
 the list of APIs:
@@ -57,15 +57,15 @@ content_generation
 
 [`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md).[`api`](../interfaces/IAppendixStatusResultInfo.md#api)
 
-#### Source
+#### Defined in
 
-main.ts:224701
+main.ts:228973
 
 ***
 
 ### endpoints?
 
-> **`optional`** **endpoints**: [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)[]
+> `optional` **endpoints**: [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)[]
 
 array of objects that contain status information for API endpoints
 
@@ -73,15 +73,15 @@ array of objects that contain status information for API endpoints
 
 [`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md).[`endpoints`](../interfaces/IAppendixStatusResultInfo.md#endpoints)
 
-#### Source
+#### Defined in
 
-main.ts:224713
+main.ts:228985
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `string`
+> `optional` **status**: `string`
 
 current status
 you can find all information about your API statuses for the last 60 days here
@@ -97,9 +97,9 @@ send_delay
 
 [`IAppendixStatusResultInfo`](../interfaces/IAppendixStatusResultInfo.md).[`status`](../interfaces/IAppendixStatusResultInfo.md#status)
 
-#### Source
+#### Defined in
 
-main.ts:224711
+main.ts:228983
 
 ## Methods
 
@@ -115,9 +115,9 @@ main.ts:224711
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:224726
+main.ts:228998
 
 ***
 
@@ -133,15 +133,15 @@ main.ts:224726
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:224749
+main.ts:229021
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
+> `static` **fromJS**(`data`): [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
 #### Parameters
 
@@ -151,6 +151,6 @@ main.ts:224749
 
 [`AppendixStatusResultInfo`](AppendixStatusResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:224742
+main.ts:229014

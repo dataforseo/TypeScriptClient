@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,84 +14,84 @@
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Source
+#### Defined in
 
-main.ts:176211
+main.ts:178043
 
 ***
 
 ### endpoint\_advanced?
 
-> **`optional`** **endpoint\_advanced**: `string`
+> `optional` **endpoint\_advanced**: `string`
 
 URL for collecting the results of Google Shopping Products Advanced task
 
-#### Source
+#### Defined in
 
-main.ts:176215
+main.ts:178047
 
 ***
 
 ### endpoint\_html?
 
-> **`optional`** **endpoint\_html**: `string`
+> `optional` **endpoint\_html**: `string`
 
 URL for collecting the results of Google Shopping Products HTML task
 
-#### Source
+#### Defined in
 
-main.ts:176217
+main.ts:178049
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Source
+#### Defined in
 
-main.ts:176204
+main.ts:178036
 
 ***
 
 ### se?
 
-> **`optional`** **se**: `string`
+> `optional` **se**: `string`
 
 search engine specified when setting the task
 
-#### Source
+#### Defined in
 
-main.ts:176206
+main.ts:178038
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 type of search engine
 example: products
 
-#### Source
+#### Defined in
 
-main.ts:176209
+main.ts:178041
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
-#### Source
+#### Defined in
 
-main.ts:176213
+main.ts:178045

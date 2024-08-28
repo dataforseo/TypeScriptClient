@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### hour?
 
-> **`optional`** **hour**: `number`
+> `optional` **hour**: `number`
 
 hours in the 24-hour format
 
-#### Source
+#### Defined in
 
-main.ts:21698
+main.ts:21880
 
 ***
 
 ### minute?
 
-> **`optional`** **minute**: `number`
+> `optional` **minute**: `number`
 
 minutes
 
-#### Source
+#### Defined in
 
-main.ts:21700
+main.ts:21882

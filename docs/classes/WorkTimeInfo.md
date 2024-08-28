@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new WorkTimeInfo(data)
+### new WorkTimeInfo()
 
 > **new WorkTimeInfo**(`data`?): [`WorkTimeInfo`](WorkTimeInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`WorkTimeInfo`](WorkTimeInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21657
+main.ts:21839
 
 ## Properties
 
 ### hour?
 
-> **`optional`** **hour**: `number`
+> `optional` **hour**: `number`
 
 hours in the 24-hour format
 
@@ -44,15 +44,15 @@ hours in the 24-hour format
 
 [`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md).[`hour`](../interfaces/IWorkTimeInfo.md#hour)
 
-#### Source
+#### Defined in
 
-main.ts:21651
+main.ts:21833
 
 ***
 
 ### minute?
 
-> **`optional`** **minute**: `number`
+> `optional` **minute**: `number`
 
 minutes
 
@@ -60,9 +60,9 @@ minutes
 
 [`IWorkTimeInfo`](../interfaces/IWorkTimeInfo.md).[`minute`](../interfaces/IWorkTimeInfo.md#minute)
 
-#### Source
+#### Defined in
 
-main.ts:21653
+main.ts:21835
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:21653
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21666
+main.ts:21848
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:21666
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21684
+main.ts:21866
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`WorkTimeInfo`](WorkTimeInfo.md)
+> `static` **fromJS**(`data`): [`WorkTimeInfo`](WorkTimeInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:21684
 
 [`WorkTimeInfo`](WorkTimeInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21677
+main.ts:21859

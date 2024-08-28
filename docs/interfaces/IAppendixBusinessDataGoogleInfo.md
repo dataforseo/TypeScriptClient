@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### hotel\_info?
 
-> **`optional`** **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **hotel\_info**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219732
+main.ts:221640
 
 ***
 
 ### hotel\_searches?
 
-> **`optional`** **hotel\_searches**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **hotel\_searches**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219733
+main.ts:221641
 
 ***
 
 ### my\_business\_info?
 
-> **`optional`** **my\_business\_info**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **my\_business\_info**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219730
+main.ts:221638
 
 ***
 
 ### my\_business\_updates?
 
-> **`optional`** **my\_business\_updates**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **my\_business\_updates**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219731
+main.ts:221639
 
 ***
 
 ### questions\_and\_answers?
 
-> **`optional`** **questions\_and\_answers**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **questions\_and\_answers**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219735
+main.ts:221643
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219734
+main.ts:221642

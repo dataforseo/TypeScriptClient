@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,96 +14,96 @@
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 content author name
 
-#### Source
+#### Defined in
 
-main.ts:163981
+main.ts:165813
 
 ***
 
 ### h\_title?
 
-> **`optional`** **h\_title**: `string`
+> `optional` **h\_title**: `string`
 
 meta title
 
-#### Source
+#### Defined in
 
-main.ts:163977
+main.ts:165809
 
 ***
 
 ### language?
 
-> **`optional`** **language**: `string`
+> `optional` **language**: `string`
 
 content language
 
-#### Source
+#### Defined in
 
-main.ts:163983
+main.ts:165815
 
 ***
 
 ### level?
 
-> **`optional`** **level**: `number`
+> `optional` **level**: `number`
 
 HTML level
 
-#### Source
+#### Defined in
 
-main.ts:163985
+main.ts:165817
 
 ***
 
 ### main\_title?
 
-> **`optional`** **main\_title**: `string`
+> `optional` **main\_title**: `string`
 
 main title of the block
 
-#### Source
+#### Defined in
 
-main.ts:163979
+main.ts:165811
 
 ***
 
 ### primary\_content?
 
-> **`optional`** **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
+> `optional` **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:163988
+main.ts:165820
 
 ***
 
 ### secondary\_content?
 
-> **`optional`** **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
+> `optional` **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:163991
+main.ts:165823
 
 ***
 
 ### table\_content?
 
-> **`optional`** **table\_content**: [`TableContent`](../classes/TableContent.md)[]
+> `optional` **table\_content**: [`TableContent`](../classes/TableContent.md)[]
 
 content of the table on the page
 
-#### Source
+#### Defined in
 
-main.ts:163993
+main.ts:165825

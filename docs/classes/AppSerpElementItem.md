@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new AppSerpElementItem(data)
+### new AppSerpElementItem()
 
 > **new AppSerpElementItem**(`data`?): [`AppSerpElementItem`](AppSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:31265
+main.ts:31461
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`AppElement`](AppElement.md)[]
+> `optional` **items**: [`AppElement`](AppElement.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -67,15 +67,15 @@ if there are none, equals null
 
 [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`items`](../interfaces/IAppSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:31257
+main.ts:31453
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -85,15 +85,15 @@ left, right
 
 [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`position`](../interfaces/IAppSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:31252
+main.ts:31448
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -103,15 +103,15 @@ always equals 0 for desktop
 
 [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`rank_absolute`](../interfaces/IAppSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:31248
+main.ts:31444
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -122,15 +122,15 @@ always equals 0 for desktop
 
 [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`rank_group`](../interfaces/IAppSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:31244
+main.ts:31440
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -140,15 +140,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`rectangle`](../interfaces/IAppSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:31261
+main.ts:31457
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -156,9 +156,9 @@ the XPath of the element
 
 [`IAppSerpElementItem`](../interfaces/IAppSerpElementItem.md).[`xpath`](../interfaces/IAppSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:31254
+main.ts:31450
 
 ## Methods
 
@@ -178,9 +178,9 @@ main.ts:31254
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:31270
+main.ts:31466
 
 ***
 
@@ -200,15 +200,15 @@ main.ts:31270
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:31297
+main.ts:31493
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppSerpElementItem`](AppSerpElementItem.md)
+> `static` **fromJS**(`data`): [`AppSerpElementItem`](AppSerpElementItem.md)
 
 #### Parameters
 
@@ -222,6 +222,6 @@ main.ts:31297
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:31290
+main.ts:31486

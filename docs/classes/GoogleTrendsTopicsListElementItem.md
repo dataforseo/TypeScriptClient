@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new GoogleTrendsTopicsListElementItem(data)
+### new GoogleTrendsTopicsListElementItem()
 
 > **new GoogleTrendsTopicsListElementItem**(`data`?): [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`constructor`](BaseGoogleTrendsItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:128103
+main.ts:127927
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`_discriminator`](BaseGoogleTrendsItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21388
+main.ts:21570
 
 ***
 
 ### data?
 
-> **`optional`** **data**: [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
+> `optional` **data**: [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
 Google Trends data from the corresponding item
 
@@ -66,15 +66,15 @@ Google Trends data from the corresponding item
 
 [`IGoogleTrendsTopicsListElementItem`](../interfaces/IGoogleTrendsTopicsListElementItem.md).[`data`](../interfaces/IGoogleTrendsTopicsListElementItem.md#data)
 
-#### Source
+#### Defined in
 
-main.ts:128099
+main.ts:127923
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_topics_list element is based on the keywords listed in this array
@@ -83,15 +83,15 @@ the data included in the google_trends_topics_list element is based on the keywo
 
 [`IGoogleTrendsTopicsListElementItem`](../interfaces/IGoogleTrendsTopicsListElementItem.md).[`keywords`](../interfaces/IGoogleTrendsTopicsListElementItem.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:128097
+main.ts:127921
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -100,15 +100,15 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IGoogleTrendsTopicsListElementItem`](../interfaces/IGoogleTrendsTopicsListElementItem.md).[`position`](../interfaces/IGoogleTrendsTopicsListElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:128092
+main.ts:127916
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element in Google Trends
 
@@ -116,9 +116,9 @@ title of the element in Google Trends
 
 [`IGoogleTrendsTopicsListElementItem`](../interfaces/IGoogleTrendsTopicsListElementItem.md).[`title`](../interfaces/IGoogleTrendsTopicsListElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:128094
+main.ts:127918
 
 ## Methods
 
@@ -138,9 +138,9 @@ main.ts:128094
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`init`](BaseGoogleTrendsItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:128108
+main.ts:127932
 
 ***
 
@@ -160,15 +160,15 @@ main.ts:128108
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`toJSON`](BaseGoogleTrendsItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:128133
+main.ts:127957
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
+> `static` **fromJS**(`data`): [`GoogleTrendsTopicsListElementItem`](GoogleTrendsTopicsListElementItem.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:128133
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`fromJS`](BaseGoogleTrendsItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:128126
+main.ts:127950

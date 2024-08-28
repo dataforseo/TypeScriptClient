@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new LinkElement(data)
+### new LinkElement()
 
 > **new LinkElement**(`data`?): [`LinkElement`](LinkElement.md)
 
@@ -28,15 +28,15 @@
 
 [`LinkElement`](LinkElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:22142
+main.ts:22324
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element
 
@@ -44,15 +44,15 @@ description of the results element
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`description`](../interfaces/ILinkElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:22132
+main.ts:22314
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain where a link points
 
@@ -60,15 +60,15 @@ domain where a link points
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`domain`](../interfaces/ILinkElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:22136
+main.ts:22318
 
 ***
 
 ### snippet?
 
-> **`optional`** **snippet**: `string`
+> `optional` **snippet**: `string`
 
 text alongside the link title
 
@@ -76,15 +76,15 @@ text alongside the link title
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`snippet`](../interfaces/ILinkElement.md#snippet)
 
-#### Source
+#### Defined in
 
-main.ts:22130
+main.ts:22312
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -92,15 +92,15 @@ title of a given link element
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`title`](../interfaces/ILinkElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:22128
+main.ts:22310
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -108,15 +108,15 @@ type of element
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`type`](../interfaces/ILinkElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:22126
+main.ts:22308
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -124,15 +124,15 @@ URL
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`url`](../interfaces/ILinkElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:22134
+main.ts:22316
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -140,9 +140,9 @@ the XPath of the element
 
 [`ILinkElement`](../interfaces/ILinkElement.md).[`xpath`](../interfaces/ILinkElement.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:22138
+main.ts:22320
 
 ## Methods
 
@@ -158,9 +158,9 @@ main.ts:22138
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22151
+main.ts:22333
 
 ***
 
@@ -176,15 +176,15 @@ main.ts:22151
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22174
+main.ts:22356
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LinkElement`](LinkElement.md)
+> `static` **fromJS**(`data`): [`LinkElement`](LinkElement.md)
 
 #### Parameters
 
@@ -194,6 +194,6 @@ main.ts:22174
 
 [`LinkElement`](LinkElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:22167
+main.ts:22349

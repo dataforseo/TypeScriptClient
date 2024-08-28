@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,18 +14,18 @@
 
 ### advanced?
 
-> **`optional`** **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222148
+main.ts:226420
 
 ***
 
 ### html?
 
-> **`optional`** **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](../classes/AppendixTaskKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222149
+main.ts:226421

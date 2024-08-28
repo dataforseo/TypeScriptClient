@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -8,7 +8,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsApi(baseUrl, http)
+### new DomainAnalyticsApi()
 
 > **new DomainAnalyticsApi**(`baseUrl`?, `http`?): [`DomainAnalyticsApi`](DomainAnalyticsApi.md)
 
@@ -18,53 +18,21 @@
 
 • **http?**
 
-• **http\.fetch?**
+• **http.fetch?**
 
 #### Returns
 
 [`DomainAnalyticsApi`](DomainAnalyticsApi.md)
 
-#### Source
+#### Defined in
 
 main.ts:5909
 
 ## Properties
 
-### baseUrl
+### jsonParseReviver()
 
-> **`private`** **baseUrl**: `string`
-
-#### Source
-
-main.ts:5906
-
-***
-
-### http
-
-> **`private`** **http**: `Object`
-
-#### http.fetch()
-
-##### Parameters
-
-• **url**: `RequestInfo`
-
-• **init?**: `RequestInit`
-
-##### Returns
-
-`Promise`\<`Response`\>
-
-#### Source
-
-main.ts:5905
-
-***
-
-### jsonParseReviver
-
-> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+> `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
 #### Parameters
 
@@ -76,7 +44,7 @@ main.ts:5905
 
 `any`
 
-#### Source
+#### Defined in
 
 main.ts:5907
 
@@ -98,7 +66,7 @@ main.ts:5907
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:5960
 
@@ -120,7 +88,7 @@ main.ts:5960
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:5918
 
@@ -136,7 +104,7 @@ main.ts:5918
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6075
 
@@ -152,7 +120,7 @@ main.ts:6075
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6038
 
@@ -160,7 +128,7 @@ main.ts:6038
 
 ### processDomainAnalyticsErrors()
 
-> **`protected`** **processDomainAnalyticsErrors**(`response`): `Promise`\<[`DomainAnalyticsErrorsResponseInfo`](DomainAnalyticsErrorsResponseInfo.md)\>
+> `protected` **processDomainAnalyticsErrors**(`response`): `Promise`\<[`DomainAnalyticsErrorsResponseInfo`](DomainAnalyticsErrorsResponseInfo.md)\>
 
 #### Parameters
 
@@ -170,7 +138,7 @@ main.ts:6038
 
 `Promise`\<[`DomainAnalyticsErrorsResponseInfo`](DomainAnalyticsErrorsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:5980
 
@@ -178,7 +146,7 @@ main.ts:5980
 
 ### processDomainAnalyticsIdList()
 
-> **`protected`** **processDomainAnalyticsIdList**(`response`): `Promise`\<[`DomainAnalyticsIdListResponseInfo`](DomainAnalyticsIdListResponseInfo.md)\>
+> `protected` **processDomainAnalyticsIdList**(`response`): `Promise`\<[`DomainAnalyticsIdListResponseInfo`](DomainAnalyticsIdListResponseInfo.md)\>
 
 #### Parameters
 
@@ -188,7 +156,7 @@ main.ts:5980
 
 `Promise`\<[`DomainAnalyticsIdListResponseInfo`](DomainAnalyticsIdListResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:5938
 
@@ -196,7 +164,7 @@ main.ts:5938
 
 ### processDomainAnalyticsTechnologiesLanguages()
 
-> **`protected`** **processDomainAnalyticsTechnologiesLanguages**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesLanguagesResponseInfo`](DomainAnalyticsTechnologiesLanguagesResponseInfo.md)\>
+> `protected` **processDomainAnalyticsTechnologiesLanguages**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesLanguagesResponseInfo`](DomainAnalyticsTechnologiesLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -206,7 +174,7 @@ main.ts:5938
 
 `Promise`\<[`DomainAnalyticsTechnologiesLanguagesResponseInfo`](DomainAnalyticsTechnologiesLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6091
 
@@ -214,7 +182,7 @@ main.ts:6091
 
 ### processDomainAnalyticsTechnologiesLocations()
 
-> **`protected`** **processDomainAnalyticsTechnologiesLocations**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesLocationsResponseInfo`](DomainAnalyticsTechnologiesLocationsResponseInfo.md)\>
+> `protected` **processDomainAnalyticsTechnologiesLocations**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesLocationsResponseInfo`](DomainAnalyticsTechnologiesLocationsResponseInfo.md)\>
 
 #### Parameters
 
@@ -224,7 +192,7 @@ main.ts:6091
 
 `Promise`\<[`DomainAnalyticsTechnologiesLocationsResponseInfo`](DomainAnalyticsTechnologiesLocationsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6054
 
@@ -232,7 +200,7 @@ main.ts:6054
 
 ### processTechnologiesAggregationTechnologiesLive()
 
-> **`protected`** **processTechnologiesAggregationTechnologiesLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md)\>
+> `protected` **processTechnologiesAggregationTechnologiesLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -242,7 +210,7 @@ main.ts:6054
 
 `Promise`\<[`DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6170
 
@@ -250,7 +218,7 @@ main.ts:6170
 
 ### processTechnologiesAvailableFilters()
 
-> **`protected`** **processTechnologiesAvailableFilters**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesAvailableFiltersResponseInfo`](DomainAnalyticsTechnologiesAvailableFiltersResponseInfo.md)\>
+> `protected` **processTechnologiesAvailableFilters**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesAvailableFiltersResponseInfo`](DomainAnalyticsTechnologiesAvailableFiltersResponseInfo.md)\>
 
 #### Parameters
 
@@ -260,7 +228,7 @@ main.ts:6170
 
 `Promise`\<[`DomainAnalyticsTechnologiesAvailableFiltersResponseInfo`](DomainAnalyticsTechnologiesAvailableFiltersResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6017
 
@@ -268,7 +236,7 @@ main.ts:6017
 
 ### processTechnologiesDomainTechnologiesLive()
 
-> **`protected`** **processTechnologiesDomainTechnologiesLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo.md)\>
+> `protected` **processTechnologiesDomainTechnologiesLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -278,7 +246,7 @@ main.ts:6017
 
 `Promise`\<[`DomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6380
 
@@ -286,7 +254,7 @@ main.ts:6380
 
 ### processTechnologiesDomainsByHtmlTermsLive()
 
-> **`protected`** **processTechnologiesDomainsByHtmlTermsLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo.md)\>
+> `protected` **processTechnologiesDomainsByHtmlTermsLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -296,7 +264,7 @@ main.ts:6380
 
 `Promise`\<[`DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo`](DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6338
 
@@ -304,7 +272,7 @@ main.ts:6338
 
 ### processTechnologiesDomainsByTechnologyLive()
 
-> **`protected`** **processTechnologiesDomainsByTechnologyLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesDomainsByTechnologyLiveResponseInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveResponseInfo.md)\>
+> `protected` **processTechnologiesDomainsByTechnologyLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesDomainsByTechnologyLiveResponseInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -314,7 +282,7 @@ main.ts:6338
 
 `Promise`\<[`DomainAnalyticsTechnologiesDomainsByTechnologyLiveResponseInfo`](DomainAnalyticsTechnologiesDomainsByTechnologyLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6296
 
@@ -322,7 +290,7 @@ main.ts:6296
 
 ### processTechnologiesTechnologies()
 
-> **`protected`** **processTechnologiesTechnologies**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesTechnologiesResponseInfo`](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md)\>
+> `protected` **processTechnologiesTechnologies**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesTechnologiesResponseInfo`](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md)\>
 
 #### Parameters
 
@@ -332,7 +300,7 @@ main.ts:6296
 
 `Promise`\<[`DomainAnalyticsTechnologiesTechnologiesResponseInfo`](DomainAnalyticsTechnologiesTechnologiesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6128
 
@@ -340,7 +308,7 @@ main.ts:6128
 
 ### processTechnologiesTechnologiesSummaryLive()
 
-> **`protected`** **processTechnologiesTechnologiesSummaryLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResponseInfo.md)\>
+> `protected` **processTechnologiesTechnologiesSummaryLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -350,7 +318,7 @@ main.ts:6128
 
 `Promise`\<[`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6212
 
@@ -358,7 +326,7 @@ main.ts:6212
 
 ### processTechnologiesTechnologyStatsLive()
 
-> **`protected`** **processTechnologiesTechnologyStatsLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo.md)\>
+> `protected` **processTechnologiesTechnologyStatsLive**(`response`): `Promise`\<[`DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -368,7 +336,7 @@ main.ts:6212
 
 `Promise`\<[`DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6254
 
@@ -376,7 +344,7 @@ main.ts:6254
 
 ### processWhoisAvailableFilters()
 
-> **`protected`** **processWhoisAvailableFilters**(`response`): `Promise`\<[`DomainAnalyticsWhoisAvailableFiltersResponseInfo`](DomainAnalyticsWhoisAvailableFiltersResponseInfo.md)\>
+> `protected` **processWhoisAvailableFilters**(`response`): `Promise`\<[`DomainAnalyticsWhoisAvailableFiltersResponseInfo`](DomainAnalyticsWhoisAvailableFiltersResponseInfo.md)\>
 
 #### Parameters
 
@@ -386,7 +354,7 @@ main.ts:6254
 
 `Promise`\<[`DomainAnalyticsWhoisAvailableFiltersResponseInfo`](DomainAnalyticsWhoisAvailableFiltersResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6417
 
@@ -394,7 +362,7 @@ main.ts:6417
 
 ### processWhoisOverviewLive()
 
-> **`protected`** **processWhoisOverviewLive**(`response`): `Promise`\<[`DomainAnalyticsWhoisOverviewLiveResponseInfo`](DomainAnalyticsWhoisOverviewLiveResponseInfo.md)\>
+> `protected` **processWhoisOverviewLive**(`response`): `Promise`\<[`DomainAnalyticsWhoisOverviewLiveResponseInfo`](DomainAnalyticsWhoisOverviewLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -404,7 +372,7 @@ main.ts:6417
 
 `Promise`\<[`DomainAnalyticsWhoisOverviewLiveResponseInfo`](DomainAnalyticsWhoisOverviewLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6459
 
@@ -426,7 +394,7 @@ main.ts:6459
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6150
 
@@ -442,7 +410,7 @@ main.ts:6150
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6001
 
@@ -464,7 +432,7 @@ main.ts:6001
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6360
 
@@ -486,7 +454,7 @@ main.ts:6360
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6318
 
@@ -508,7 +476,7 @@ main.ts:6318
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6276
 
@@ -524,7 +492,7 @@ main.ts:6276
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6112
 
@@ -546,7 +514,7 @@ main.ts:6112
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6192
 
@@ -568,7 +536,7 @@ main.ts:6192
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6234
 
@@ -584,7 +552,7 @@ main.ts:6234
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6401
 
@@ -606,6 +574,6 @@ main.ts:6401
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6439

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new EventDates(data)
+### new EventDates()
 
 > **new EventDates**(`data`?): [`EventDates`](EventDates.md)
 
@@ -28,15 +28,15 @@
 
 [`EventDates`](EventDates.md)
 
-#### Source
+#### Defined in
 
-main.ts:47123
+main.ts:47655
 
 ## Properties
 
 ### displayed\_dates?
 
-> **`optional`** **displayed\_dates**: `string`
+> `optional` **displayed\_dates**: `string`
 
 date or date range as it is displayed in SERP
 
@@ -44,15 +44,15 @@ date or date range as it is displayed in SERP
 
 [`IEventDates`](../interfaces/IEventDates.md).[`displayed_dates`](../interfaces/IEventDates.md#displayed_dates)
 
-#### Source
+#### Defined in
 
-main.ts:47119
+main.ts:47651
 
 ***
 
 ### end\_datetime?
 
-> **`optional`** **end\_datetime**: `string`
+> `optional` **end\_datetime**: `string`
 
 date and time when the event ends
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -68,15 +68,15 @@ example:
 
 [`IEventDates`](../interfaces/IEventDates.md).[`end_datetime`](../interfaces/IEventDates.md#end_datetime)
 
-#### Source
+#### Defined in
 
-main.ts:47117
+main.ts:47649
 
 ***
 
 ### start\_datetime?
 
-> **`optional`** **start\_datetime**: `string`
+> `optional` **start\_datetime**: `string`
 
 date and time when the event starts
 if time zone is specified in the event, value will be returned in the UTC format:
@@ -92,9 +92,9 @@ example:
 
 [`IEventDates`](../interfaces/IEventDates.md).[`start_datetime`](../interfaces/IEventDates.md#start_datetime)
 
-#### Source
+#### Defined in
 
-main.ts:47107
+main.ts:47639
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:47107
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:47132
+main.ts:47664
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:47132
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:47151
+main.ts:47683
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`EventDates`](EventDates.md)
+> `static` **fromJS**(`data`): [`EventDates`](EventDates.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:47151
 
 [`EventDates`](EventDates.md)
 
-#### Source
+#### Defined in
 
-main.ts:47144
+main.ts:47676

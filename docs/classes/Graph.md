@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Graph(data)
+### new Graph()
 
 > **new Graph**(`data`?): [`Graph`](Graph.md)
 
@@ -28,15 +28,15 @@
 
 [`Graph`](Graph.md)
 
-#### Source
+#### Defined in
 
-main.ts:34082
+main.ts:34278
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`GraphElement`](GraphElement.md)[]
+> `optional` **items**: [`GraphElement`](GraphElement.md)[]
 
 contains arrays of specific images
 
@@ -44,15 +44,15 @@ contains arrays of specific images
 
 [`IGraph`](../interfaces/IGraph.md).[`items`](../interfaces/IGraph.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:34075
+main.ts:34271
 
 ***
 
 ### previous\_items?
 
-> **`optional`** **previous\_items**: [`GraphElement`](GraphElement.md)[]
+> `optional` **previous\_items**: [`GraphElement`](GraphElement.md)[]
 
 previous close data
 contains stock price data based on the preceding time period
@@ -61,9 +61,9 @@ contains stock price data based on the preceding time period
 
 [`IGraph`](../interfaces/IGraph.md).[`previous_items`](../interfaces/IGraph.md#previous_items)
 
-#### Source
+#### Defined in
 
-main.ts:34078
+main.ts:34274
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:34078
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:34091
+main.ts:34287
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:34091
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:34117
+main.ts:34313
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Graph`](Graph.md)
+> `static` **fromJS**(`data`): [`Graph`](Graph.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:34117
 
 [`Graph`](Graph.md)
 
-#### Source
+#### Defined in
 
-main.ts:34110
+main.ts:34306

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TopDomainInfo(data)
+### new TopDomainInfo()
 
 > **new TopDomainInfo**(`data`?): [`TopDomainInfo`](TopDomainInfo.md)
 
@@ -28,37 +28,37 @@
 
 [`TopDomainInfo`](TopDomainInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22744
+main.ts:22926
 
 ## Properties
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 #### Implementation of
 
 [`ITopDomainInfo`](../interfaces/ITopDomainInfo.md).[`count`](../interfaces/ITopDomainInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:22740
+main.ts:22922
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 #### Implementation of
 
 [`ITopDomainInfo`](../interfaces/ITopDomainInfo.md).[`domain`](../interfaces/ITopDomainInfo.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:22739
+main.ts:22921
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:22739
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22753
+main.ts:22935
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:22753
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22771
+main.ts:22953
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TopDomainInfo`](TopDomainInfo.md)
+> `static` **fromJS**(`data`): [`TopDomainInfo`](TopDomainInfo.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:22771
 
 [`TopDomainInfo`](TopDomainInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22764
+main.ts:22946

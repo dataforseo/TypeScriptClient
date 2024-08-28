@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpIdListRequestInfo(data)
+### new SerpIdListRequestInfo()
 
 > **new SerpIdListRequestInfo**(`data`?): [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23885
+main.ts:24067
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -50,15 +50,15 @@ example:
 
 [`ISerpIdListRequestInfo`](../interfaces/ISerpIdListRequestInfo.md).[`datetime_from`](../interfaces/ISerpIdListRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:23855
+main.ts:24037
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -71,15 +71,15 @@ example:
 
 [`ISerpIdListRequestInfo`](../interfaces/ISerpIdListRequestInfo.md).[`datetime_to`](../interfaces/ISerpIdListRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:23862
+main.ts:24044
 
 ***
 
 ### include\_metadata?
 
-> **`optional`** **include\_metadata**: `boolean`
+> `optional` **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,15 @@ default value: false
 
 [`ISerpIdListRequestInfo`](../interfaces/ISerpIdListRequestInfo.md).[`include_metadata`](../interfaces/ISerpIdListRequestInfo.md#include_metadata)
 
-#### Source
+#### Defined in
 
-main.ts:23881
+main.ts:24063
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +108,15 @@ maximum value: 1000
 
 [`ISerpIdListRequestInfo`](../interfaces/ISerpIdListRequestInfo.md).[`limit`](../interfaces/ISerpIdListRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:23867
+main.ts:24049
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +127,15 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`ISerpIdListRequestInfo`](../interfaces/ISerpIdListRequestInfo.md).[`offset`](../interfaces/ISerpIdListRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:23872
+main.ts:24054
 
 ***
 
 ### sort?
 
-> **`optional`** **sort**: `string`
+> `optional` **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -146,9 +146,9 @@ default value: "asc"
 
 [`ISerpIdListRequestInfo`](../interfaces/ISerpIdListRequestInfo.md).[`sort`](../interfaces/ISerpIdListRequestInfo.md#sort)
 
-#### Source
+#### Defined in
 
-main.ts:23877
+main.ts:24059
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:23877
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:23894
+main.ts:24076
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:23894
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:23916
+main.ts:24098
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:23916
 
 [`SerpIdListRequestInfo`](SerpIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23909
+main.ts:24091

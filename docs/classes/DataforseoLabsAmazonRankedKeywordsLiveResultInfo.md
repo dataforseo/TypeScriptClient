@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAmazonRankedKeywordsLiveResultInfo(data)
+### new DataforseoLabsAmazonRankedKeywordsLiveResultInfo()
 
 > **new DataforseoLabsAmazonRankedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:105929
+main.ts:106559
 
 ## Properties
 
 ### asin?
 
-> **`optional`** **asin**: `string`
+> `optional` **asin**: `string`
 
 ASIN in a POST array
 
@@ -44,15 +44,15 @@ ASIN in a POST array
 
 [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`asin`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#asin)
 
-#### Source
+#### Defined in
 
-main.ts:105913
+main.ts:106543
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsAmazonRankedKeywordsLiveItem`](DataforseoLabsAmazonRankedKeywordsLiveItem.md)[]
 
 contains detected Amazon product competitors and related data
 
@@ -60,15 +60,15 @@ contains detected Amazon product competitors and related data
 
 [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:105925
+main.ts:106555
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -76,15 +76,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:105923
+main.ts:106553
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
@@ -93,15 +93,15 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:105919
+main.ts:106549
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -110,15 +110,15 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:105916
+main.ts:106546
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -126,15 +126,15 @@ search engine type
 
 [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:105911
+main.ts:106541
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
@@ -142,9 +142,9 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsAmazonRankedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsAmazonRankedKeywordsLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:105921
+main.ts:106551
 
 ## Methods
 
@@ -160,9 +160,9 @@ main.ts:105921
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:105938
+main.ts:106568
 
 ***
 
@@ -178,15 +178,15 @@ main.ts:105938
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:105965
+main.ts:106595
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
@@ -196,6 +196,6 @@ main.ts:105965
 
 [`DataforseoLabsAmazonRankedKeywordsLiveResultInfo`](DataforseoLabsAmazonRankedKeywordsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:105958
+main.ts:106588

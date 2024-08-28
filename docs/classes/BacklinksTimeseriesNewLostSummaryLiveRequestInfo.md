@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksTimeseriesNewLostSummaryLiveRequestInfo(data)
+### new BacklinksTimeseriesNewLostSummaryLiveRequestInfo()
 
 > **new BacklinksTimeseriesNewLostSummaryLiveRequestInfo**(`data`?): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:149846
+main.ts:151672
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -53,15 +53,15 @@ example:
 
 [`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:149809
+main.ts:151635
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -76,15 +76,15 @@ example:
 
 [`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`date_to`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:149818
+main.ts:151644
 
 ***
 
 ### group\_range?
 
-> **`optional`** **group\_range**: `string`
+> `optional` **group\_range**: `string`
 
 time range which will be used to group the results
 optional field
@@ -103,15 +103,15 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 [`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`group_range`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#group_range)
 
-#### Source
+#### Defined in
 
-main.ts:149831
+main.ts:151657
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -122,15 +122,15 @@ default value: true
 
 [`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#include_subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:149836
+main.ts:151662
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -142,15 +142,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:149842
+main.ts:151668
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain to get data for
 required field
@@ -162,9 +162,9 @@ example:
 
 [`IBacklinksTimeseriesNewLostSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md).[`target`](../interfaces/IBacklinksTimeseriesNewLostSummaryLiveRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:149798
+main.ts:151624
 
 ## Methods
 
@@ -180,9 +180,9 @@ main.ts:149798
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:149855
+main.ts:151681
 
 ***
 
@@ -198,15 +198,15 @@ main.ts:149855
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:149877
+main.ts:151703
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
 #### Parameters
 
@@ -216,6 +216,6 @@ main.ts:149877
 
 [`BacklinksTimeseriesNewLostSummaryLiveRequestInfo`](BacklinksTimeseriesNewLostSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:149870
+main.ts:151696

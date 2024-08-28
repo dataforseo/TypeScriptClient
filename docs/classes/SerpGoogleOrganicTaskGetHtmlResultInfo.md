@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleOrganicTaskGetHtmlResultInfo(data)
+### new SerpGoogleOrganicTaskGetHtmlResultInfo()
 
 > **new SerpGoogleOrganicTaskGetHtmlResultInfo**(`data`?): [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:38335
+main.ts:38843
 
 ## Properties
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +47,15 @@ example:
 
 [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`datetime`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:38327
+main.ts:38835
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`HtmlItem`](HtmlItem.md)[]
+> `optional` **items**: [`HtmlItem`](HtmlItem.md)[]
 
 elements of search results found in SERP
 
@@ -63,15 +63,15 @@ elements of search results found in SERP
 
 [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`items`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:38331
+main.ts:38839
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -79,15 +79,15 @@ the number of results returned in the items array
 
 [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`items_count`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:38329
+main.ts:38837
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -96,15 +96,15 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`keyword`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:38314
+main.ts:38822
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -112,15 +112,15 @@ language code in a POST array
 
 [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`language_code`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:38322
+main.ts:38830
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -128,15 +128,15 @@ location code in a POST array
 
 [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`location_code`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:38320
+main.ts:38828
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
@@ -144,15 +144,15 @@ search engine domain in a POST array
 
 [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`se_domain`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:38318
+main.ts:38826
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -160,9 +160,9 @@ type of element
 
 [`ISerpGoogleOrganicTaskGetHtmlResultInfo`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md).[`type`](../interfaces/ISerpGoogleOrganicTaskGetHtmlResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:38316
+main.ts:38824
 
 ## Methods
 
@@ -178,9 +178,9 @@ main.ts:38316
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:38344
+main.ts:38852
 
 ***
 
@@ -196,15 +196,15 @@ main.ts:38344
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:38372
+main.ts:38880
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
 #### Parameters
 
@@ -214,6 +214,6 @@ main.ts:38372
 
 [`SerpGoogleOrganicTaskGetHtmlResultInfo`](SerpGoogleOrganicTaskGetHtmlResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:38365
+main.ts:38873

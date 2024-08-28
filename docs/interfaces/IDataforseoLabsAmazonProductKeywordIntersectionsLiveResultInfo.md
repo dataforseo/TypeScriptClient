@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,88 +14,88 @@
 
 ### asins?
 
-> **`optional`** **asins**: `Object`
+> `optional` **asins**: `object`
 
 ASINs in a POST array
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:107658
+main.ts:108288
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../classes/DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsAmazonProductKeywordIntersectionsLiveItem`](../classes/DataforseoLabsAmazonProductKeywordIntersectionsLiveItem.md)[]
 
 contains detected Amazon product competitors and related data
 
-#### Source
+#### Defined in
 
-main.ts:107670
+main.ts:108300
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:107668
+main.ts:108298
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:107664
+main.ts:108294
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:107661
+main.ts:108291
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:107656
+main.ts:108286
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:107666
+main.ts:108296

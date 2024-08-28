@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo(data)
+### new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo()
 
 > **new DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:78008
+main.ts:78604
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -50,15 +50,15 @@ example:
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[`date_from`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:77991
+main.ts:78587
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -71,15 +71,15 @@ example:
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[`date_to`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:77998
+main.ts:78594
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -91,15 +91,15 @@ you will find the specified tag value in the data object of the response
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[`tag`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:78004
+main.ts:78600
 
 ***
 
 ### technology?
 
-> **`optional`** **technology**: `string`
+> `optional` **technology**: `string`
 
 target technology
 required field
@@ -111,9 +111,9 @@ example:
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md).[`technology`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md#technology)
 
-#### Source
+#### Defined in
 
-main.ts:77983
+main.ts:78579
 
 ## Methods
 
@@ -129,9 +129,9 @@ main.ts:77983
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:78017
+main.ts:78613
 
 ***
 
@@ -147,15 +147,15 @@ main.ts:78017
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:78037
+main.ts:78633
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
 #### Parameters
 
@@ -165,6 +165,6 @@ main.ts:78037
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo`](DomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:78030
+main.ts:78626

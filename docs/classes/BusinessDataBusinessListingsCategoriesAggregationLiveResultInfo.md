@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo(data)
+### new BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo()
 
 > **new BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:202578
+main.ts:204422
 
 ## Properties
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 item types
 the number of items in the items array
@@ -45,15 +45,15 @@ the number of items in the items array
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md).[`count`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:202564
+main.ts:204408
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)[]
+> `optional` **items**: [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -63,15 +63,15 @@ possible item types: business_category
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md).[`items`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:202574
+main.ts:204418
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned categories
 
@@ -79,15 +79,15 @@ offset in the results array of returned categories
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md).[`offset`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:202566
+main.ts:204410
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -97,15 +97,15 @@ offset_token values are unique for each subsequent task
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md).[`offset_token`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md#offset_token)
 
-#### Source
+#### Defined in
 
-main.ts:202570
+main.ts:204414
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
@@ -113,9 +113,9 @@ total number of results in our database relevant to your request
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md).[`total_count`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:202561
+main.ts:204405
 
 ## Methods
 
@@ -131,9 +131,9 @@ main.ts:202561
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:202587
+main.ts:204431
 
 ***
 
@@ -149,15 +149,15 @@ main.ts:202587
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:202612
+main.ts:204456
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
 
 #### Parameters
 
@@ -167,6 +167,6 @@ main.ts:202612
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo`](BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:202605
+main.ts:204449

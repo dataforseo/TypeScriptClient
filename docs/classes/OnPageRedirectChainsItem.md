@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageRedirectChainsItem(data)
+### new OnPageRedirectChainsItem()
 
 > **new OnPageRedirectChainsItem**(`data`?): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:160563
+main.ts:162395
 
 ## Properties
 
 ### chain?
 
-> **`optional`** **chain**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
+> `optional` **chain**: [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)[]
 
 contains links that form a chain
 
@@ -44,15 +44,15 @@ contains links that form a chain
 
 [`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md).[`chain`](../interfaces/IOnPageRedirectChainsItem.md#chain)
 
-#### Source
+#### Defined in
 
-main.ts:160559
+main.ts:162391
 
 ***
 
 ### is\_redirect\_loop?
 
-> **`optional`** **is\_redirect\_loop**: `boolean`
+> `optional` **is\_redirect\_loop**: `boolean`
 
 indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL
@@ -61,9 +61,9 @@ if true, the last URL from the chain redirects back to the original URL
 
 [`IOnPageRedirectChainsItem`](../interfaces/IOnPageRedirectChainsItem.md).[`is_redirect_loop`](../interfaces/IOnPageRedirectChainsItem.md#is_redirect_loop)
 
-#### Source
+#### Defined in
 
-main.ts:160557
+main.ts:162389
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:160557
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:160572
+main.ts:162404
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:160572
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:160594
+main.ts:162426
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
+> `static` **fromJS**(`data`): [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:160594
 
 [`OnPageRedirectChainsItem`](OnPageRedirectChainsItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:160587
+main.ts:162419

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
@@ -27,21 +27,21 @@ example:
 ["keyword","=","%seo%"]
 [["keyword","=","%seo%"],
 "and",
-["frequency","`<","6"]]
+["frequency","<","6"]]
 [["keyword","not_like","%seo%"],
 "and",
-[["frequency",">`","6"],"or",["density",">","0.02"]]]
+[["frequency",">","6"],"or",["density",">","0.02"]]]
 The full list of possible filters is available by this link.
 
-#### Source
+#### Defined in
 
-main.ts:161767
+main.ts:163599
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -49,45 +49,45 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Source
+#### Defined in
 
-main.ts:161734
+main.ts:163566
 
 ***
 
 ### keyword\_length?
 
-> **`optional`** **keyword\_length**: `number`
+> `optional` **keyword\_length**: `number`
 
 number of words for a keyword
 required field
 possible values:
 1, 2, 3, 4, 5
 
-#### Source
+#### Defined in
 
-main.ts:161739
+main.ts:163571
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:161750
+main.ts:163582
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -103,15 +103,15 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword,asc","frequency,desc"]
 
-#### Source
+#### Defined in
 
-main.ts:161781
+main.ts:163613
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -119,15 +119,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:161787
+main.ts:163619
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page URL
 optional field
@@ -135,6 +135,6 @@ if you do not specify a page here, the results will be provided for the whole we
 if you use this field, the API response will contain only keywords from the specified page
 a page should be specified with absolute URL (including http:// or https://)
 
-#### Source
+#### Defined in
 
-main.ts:161745
+main.ts:163577

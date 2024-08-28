@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGooglePageIntersectionLiveResultInfo(data)
+### new DataforseoLabsGooglePageIntersectionLiveResultInfo()
 
 > **new DataforseoLabsGooglePageIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:102821
+main.ts:103427
 
 ## Properties
 
 ### exclude\_pages?
 
-> **`optional`** **exclude\_pages**: `string`[]
+> `optional` **exclude\_pages**: `string`[]
 
 URLs you specified in a POST array that will be excluded from the results
 
@@ -44,15 +44,15 @@ URLs you specified in a POST array that will be excluded from the results
 
 [`IDataforseoLabsGooglePageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md).[`exclude_pages`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#exclude_pages)
 
-#### Source
+#### Defined in
 
-main.ts:102807
+main.ts:103413
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsGooglePageIntersectionLiveItem`](DataforseoLabsGooglePageIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsGooglePageIntersectionLiveItem`](DataforseoLabsGooglePageIntersectionLiveItem.md)[]
 
 contains keywords, relevant SERP elements and related data
 
@@ -60,15 +60,15 @@ contains keywords, relevant SERP elements and related data
 
 [`IDataforseoLabsGooglePageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:102817
+main.ts:103423
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -76,15 +76,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsGooglePageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:102815
+main.ts:103421
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -92,15 +92,15 @@ language code in a POST array
 
 [`IDataforseoLabsGooglePageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:102811
+main.ts:103417
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -108,19 +108,19 @@ location code in a POST array
 
 [`IDataforseoLabsGooglePageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:102809
+main.ts:103415
 
 ***
 
 ### pages?
 
-> **`optional`** **pages**: `Object`
+> `optional` **pages**: `object`
 
 URLs you specified a POST array
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -128,15 +128,15 @@ URLs you specified a POST array
 
 [`IDataforseoLabsGooglePageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md).[`pages`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#pages)
 
-#### Source
+#### Defined in
 
-main.ts:102805
+main.ts:103411
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -144,15 +144,15 @@ search engine type
 
 [`IDataforseoLabsGooglePageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:102803
+main.ts:103409
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
@@ -160,9 +160,9 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsGooglePageIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGooglePageIntersectionLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:102813
+main.ts:103419
 
 ## Methods
 
@@ -178,9 +178,9 @@ main.ts:102813
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:102830
+main.ts:103436
 
 ***
 
@@ -196,15 +196,15 @@ main.ts:102830
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:102868
+main.ts:103474
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
 
 #### Parameters
 
@@ -214,6 +214,6 @@ main.ts:102868
 
 [`DataforseoLabsGooglePageIntersectionLiveResultInfo`](DataforseoLabsGooglePageIntersectionLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:102861
+main.ts:103467

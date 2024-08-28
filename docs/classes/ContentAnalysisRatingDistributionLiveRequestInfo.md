@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisRatingDistributionLiveRequestInfo(data)
+### new ContentAnalysisRatingDistributionLiveRequestInfo()
 
 > **new ContentAnalysisRatingDistributionLiveRequestInfo**(`data`?): [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
 
@@ -28,29 +28,29 @@
 
 [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:170142
+main.ts:171974
 
 ## Properties
 
 ### initial\_dataset\_filters?
 
-> **`optional`** **initial\_dataset\_filters**: `any`[]
+> `optional` **initial\_dataset\_filters**: `any`[]
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
-[["domain","`<>`","logitech.com"],"and",["content_info.connotation_types.negative",">`",1000]]
-[["domain","`<>`","logitech.com"]],
+[["domain","<>","logitech.com"],"and",["content_info.connotation_types.negative",">",1000]]
+[["domain","<>","logitech.com"]],
 "and",
-[["content_info.connotation_types.negative",">`",1000],
+[["content_info.connotation_types.negative",">",1000],
 "or",
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
@@ -59,15 +59,15 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`initial_dataset_filters`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#initial_dataset_filters)
 
-#### Source
+#### Defined in
 
-main.ts:170132
+main.ts:171964
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -84,15 +84,15 @@ maximum value: 20
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#internal_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:170094
+main.ts:171926
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 target keyword
 required field
@@ -107,15 +107,15 @@ example:
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`keyword`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:170065
+main.ts:171897
 
 ***
 
 ### keyword\_fields?
 
-> **`optional`** **keyword\_fields**: `Object`
+> `optional` **keyword\_fields**: `object`
 
 target keyword fields and target keywords
 optional field
@@ -124,12 +124,12 @@ fields you can specify: title, main_title, previous_title, snippet
 you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
-"keyword_fields": \{
+"keyword_fields": {
     "snippet": "\"logitech mouse\"",
     "main_title": "sale"
-\}
+}
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -137,15 +137,15 @@ example:
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`keyword_fields`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#keyword_fields)
 
-#### Source
+#### Defined in
 
-main.ts:170077
+main.ts:171909
 
 ***
 
 ### page\_type?
 
-> **`optional`** **page\_type**: `string`[]
+> `optional` **page\_type**: `string`[]
 
 target page types
 optional field
@@ -157,15 +157,15 @@ possible values:
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#page_type)
 
-#### Source
+#### Defined in
 
-main.ts:170083
+main.ts:171915
 
 ***
 
 ### positive\_connotation\_threshold?
 
-> **`optional`** **positive\_connotation\_threshold**: `number`
+> `optional` **positive\_connotation\_threshold**: `number`
 
 positive connotation threshold
 optional field
@@ -178,15 +178,15 @@ default value: 0.4
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`positive_connotation_threshold`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#positive_connotation_threshold)
 
-#### Source
+#### Defined in
 
-main.ts:170108
+main.ts:171940
 
 ***
 
 ### search\_mode?
 
-> **`optional`** **search\_mode**: `string`
+> `optional` **search\_mode**: `string`
 
 results grouping type
 optional field
@@ -199,15 +199,15 @@ default value: as_is
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`search_mode`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#search_mode)
 
-#### Source
+#### Defined in
 
-main.ts:170101
+main.ts:171933
 
 ***
 
 ### sentiments\_connotation\_threshold?
 
-> **`optional`** **sentiments\_connotation\_threshold**: `number`
+> `optional` **sentiments\_connotation\_threshold**: `number`
 
 sentiment connotation threshold
 optional field
@@ -220,15 +220,15 @@ default value: 0.4
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`sentiments_connotation_threshold`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#sentiments_connotation_threshold)
 
-#### Source
+#### Defined in
 
-main.ts:170115
+main.ts:171947
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -240,9 +240,9 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisRatingDistributionLiveRequestInfo`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisRatingDistributionLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:170138
+main.ts:171970
 
 ## Methods
 
@@ -258,9 +258,9 @@ main.ts:170138
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:170151
+main.ts:171983
 
 ***
 
@@ -276,15 +276,15 @@ main.ts:170151
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:170190
+main.ts:172022
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
 
 #### Parameters
 
@@ -294,6 +294,6 @@ main.ts:170190
 
 [`ContentAnalysisRatingDistributionLiveRequestInfo`](ContentAnalysisRatingDistributionLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:170183
+main.ts:172015

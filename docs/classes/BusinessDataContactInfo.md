@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataContactInfo(data)
+### new BusinessDataContactInfo()
 
 > **new BusinessDataContactInfo**(`data`?): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201517
+main.ts:203349
 
 ## Properties
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 data source
 
@@ -44,15 +44,15 @@ data source
 
 [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md).[`source`](../interfaces/IBusinessDataContactInfo.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:201513
+main.ts:203345
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -60,15 +60,15 @@ type of element
 
 [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md).[`type`](../interfaces/IBusinessDataContactInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:201507
+main.ts:203339
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `string`
+> `optional` **value**: `string`
 
 contact displayed in SERP 
 example:
@@ -78,9 +78,9 @@ example:
 
 [`IBusinessDataContactInfo`](../interfaces/IBusinessDataContactInfo.md).[`value`](../interfaces/IBusinessDataContactInfo.md#value)
 
-#### Source
+#### Defined in
 
-main.ts:201511
+main.ts:203343
 
 ## Methods
 
@@ -96,9 +96,9 @@ main.ts:201511
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:201526
+main.ts:203358
 
 ***
 
@@ -114,15 +114,15 @@ main.ts:201526
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:201545
+main.ts:203377
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
 #### Parameters
 
@@ -132,6 +132,6 @@ main.ts:201545
 
 [`BusinessDataContactInfo`](BusinessDataContactInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201538
+main.ts:203370

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageAvailableFiltersResultInfo(data)
+### new OnPageAvailableFiltersResultInfo()
 
 > **new OnPageAvailableFiltersResultInfo**(`data`?): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
 
@@ -28,17 +28,17 @@
 
 [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153859
+main.ts:155685
 
 ## Properties
 
 ### keyword\_density?
 
-> **`optional`** **keyword\_density**: `Object`
+> `optional` **keyword\_density**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -46,17 +46,17 @@ main.ts:153859
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`keyword_density`](../interfaces/IOnPageAvailableFiltersResultInfo.md#keyword_density)
 
-#### Source
+#### Defined in
 
-main.ts:153855
+main.ts:155681
 
 ***
 
 ### links?
 
-> **`optional`** **links**: `Object`
+> `optional` **links**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -64,17 +64,17 @@ main.ts:153855
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`links`](../interfaces/IOnPageAvailableFiltersResultInfo.md#links)
 
-#### Source
+#### Defined in
 
-main.ts:153852
+main.ts:155678
 
 ***
 
 ### non\_indexable?
 
-> **`optional`** **non\_indexable**: `Object`
+> `optional` **non\_indexable**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -82,17 +82,17 @@ main.ts:153852
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`non_indexable`](../interfaces/IOnPageAvailableFiltersResultInfo.md#non_indexable)
 
-#### Source
+#### Defined in
 
-main.ts:153851
+main.ts:155677
 
 ***
 
 ### pages?
 
-> **`optional`** **pages**: `Object`
+> `optional` **pages**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -100,17 +100,17 @@ main.ts:153851
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`pages`](../interfaces/IOnPageAvailableFiltersResultInfo.md#pages)
 
-#### Source
+#### Defined in
 
-main.ts:153850
+main.ts:155676
 
 ***
 
 ### pages\_by\_resource?
 
-> **`optional`** **pages\_by\_resource**: `Object`
+> `optional` **pages\_by\_resource**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -118,17 +118,17 @@ main.ts:153850
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`pages_by_resource`](../interfaces/IOnPageAvailableFiltersResultInfo.md#pages_by_resource)
 
-#### Source
+#### Defined in
 
-main.ts:153853
+main.ts:155679
 
 ***
 
 ### redirect\_chains?
 
-> **`optional`** **redirect\_chains**: `Object`
+> `optional` **redirect\_chains**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -136,17 +136,17 @@ main.ts:153853
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`redirect_chains`](../interfaces/IOnPageAvailableFiltersResultInfo.md#redirect_chains)
 
-#### Source
+#### Defined in
 
-main.ts:153854
+main.ts:155680
 
 ***
 
 ### resources?
 
-> **`optional`** **resources**: `Object`
+> `optional` **resources**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -154,9 +154,9 @@ main.ts:153854
 
 [`IOnPageAvailableFiltersResultInfo`](../interfaces/IOnPageAvailableFiltersResultInfo.md).[`resources`](../interfaces/IOnPageAvailableFiltersResultInfo.md#resources)
 
-#### Source
+#### Defined in
 
-main.ts:153849
+main.ts:155675
 
 ## Methods
 
@@ -172,9 +172,9 @@ main.ts:153849
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:153868
+main.ts:155694
 
 ***
 
@@ -190,15 +190,15 @@ main.ts:153868
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:153933
+main.ts:155759
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
 
 #### Parameters
 
@@ -208,6 +208,6 @@ main.ts:153933
 
 [`OnPageAvailableFiltersResultInfo`](OnPageAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153926
+main.ts:155752

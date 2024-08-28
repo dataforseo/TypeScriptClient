@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,47 +14,47 @@
 
 ### alt?
 
-> **`optional`** **alt**: `string`
+> `optional` **alt**: `string`
 
 alt tag of the image
 
-#### Source
+#### Defined in
 
-main.ts:28279
+main.ts:28461
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
-#### Source
+#### Defined in
 
-main.ts:28284
+main.ts:28466
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:28277
+main.ts:28459
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL link
 
-#### Source
+#### Defined in
 
-main.ts:28281
+main.ts:28463

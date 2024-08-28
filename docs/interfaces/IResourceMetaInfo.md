@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,71 +14,71 @@
 
 ### alternative\_text?
 
-> **`optional`** **alternative\_text**: `string`
+> `optional` **alternative\_text**: `string`
 
 content of the image alt attribute
 the value depends on the resource_type
 
-#### Source
+#### Defined in
 
-main.ts:157557
+main.ts:159385
 
 ***
 
 ### height?
 
-> **`optional`** **height**: `number`
+> `optional` **height**: `number`
 
 image height in px
 
-#### Source
+#### Defined in
 
-main.ts:157567
+main.ts:159395
 
 ***
 
 ### original\_height?
 
-> **`optional`** **original\_height**: `number`
+> `optional` **original\_height**: `number`
 
 original image height in px
 
-#### Source
+#### Defined in
 
-main.ts:157563
+main.ts:159391
 
 ***
 
 ### original\_width?
 
-> **`optional`** **original\_width**: `number`
+> `optional` **original\_width**: `number`
 
 original image width in px
 
-#### Source
+#### Defined in
 
-main.ts:157561
+main.ts:159389
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title
 
-#### Source
+#### Defined in
 
-main.ts:157559
+main.ts:159387
 
 ***
 
 ### width?
 
-> **`optional`** **width**: `number`
+> `optional` **width**: `number`
 
 image width in px
 
-#### Source
+#### Defined in
 
-main.ts:157565
+main.ts:159393

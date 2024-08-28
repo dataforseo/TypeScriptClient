@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBingDomainIntersectionLiveItem(data)
+### new DataforseoLabsBingDomainIntersectionLiveItem()
 
 > **new DataforseoLabsBingDomainIntersectionLiveItem**(`data`?): [`DataforseoLabsBingDomainIntersectionLiveItem`](DataforseoLabsBingDomainIntersectionLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsBingDomainIntersectionLiveItem`](DataforseoLabsBingDomainIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:109421
+main.ts:110051
 
 ## Properties
 
 ### first\_domain\_serp\_element?
 
-> **`optional`** **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> `optional` **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
@@ -45,15 +45,15 @@ the list of supported SERP elements can be found below
 
 [`IDataforseoLabsBingDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveItem.md).[`first_domain_serp_element`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveItem.md#first_domain_serp_element)
 
-#### Source
+#### Defined in
 
-main.ts:109414
+main.ts:110044
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
@@ -61,15 +61,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsBingDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:109411
+main.ts:110041
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 search engine type specified in a POST request;
@@ -79,15 +79,15 @@ for this endpoint, the field equals bing
 
 [`IDataforseoLabsBingDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:109409
+main.ts:110039
 
 ***
 
 ### second\_domain\_serp\_element?
 
-> **`optional`** **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> `optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
@@ -96,9 +96,9 @@ the list of supported SERP elements can be found below
 
 [`IDataforseoLabsBingDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveItem.md).[`second_domain_serp_element`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveItem.md#second_domain_serp_element)
 
-#### Source
+#### Defined in
 
-main.ts:109417
+main.ts:110047
 
 ## Methods
 
@@ -114,9 +114,9 @@ main.ts:109417
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:109430
+main.ts:110060
 
 ***
 
@@ -132,15 +132,15 @@ main.ts:109430
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:109450
+main.ts:110080
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveItem`](DataforseoLabsBingDomainIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveItem`](DataforseoLabsBingDomainIntersectionLiveItem.md)
 
 #### Parameters
 
@@ -150,6 +150,6 @@ main.ts:109450
 
 [`DataforseoLabsBingDomainIntersectionLiveItem`](DataforseoLabsBingDomainIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:109443
+main.ts:110073

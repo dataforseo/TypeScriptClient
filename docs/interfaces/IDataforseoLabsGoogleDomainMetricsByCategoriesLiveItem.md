@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,129 +14,129 @@
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain found for the specified category
 
-#### Source
+#### Defined in
 
-main.ts:90281
+main.ts:90843
 
 ***
 
 ### main\_domain?
 
-> **`optional`** **main\_domain**: `string`
+> `optional` **main\_domain**: `string`
 
 primary domain
 
-#### Source
+#### Defined in
 
-main.ts:90283
+main.ts:90845
 
 ***
 
 ### metrics\_difference?
 
-> **`optional`** **metrics\_difference**: `Object`
+> `optional` **metrics\_difference**: `object`
 
 metrics difference between first_date and second_date
 calculated by subtracting domain metrics as of the greater date from domain metrics as of the smaller date
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:90288
+main.ts:90850
 
 ***
 
 ### metrics\_history?
 
-> **`optional`** **metrics\_history**: `Object`
+> `optional` **metrics\_history**: `object`
 
 historical ranking and traffic data of the domain
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:90285
+main.ts:90847
 
 ***
 
 ### organic\_count?
 
-> **`optional`** **organic\_count**: `number`
+> `optional` **organic\_count**: `number`
 
 current total count of organic SERPs that contain the domain
 
-#### Source
+#### Defined in
 
-main.ts:90273
+main.ts:90835
 
 ***
 
 ### organic\_etv?
 
-> **`optional`** **organic\_etv**: `number`
+> `optional` **organic\_etv**: `number`
 
 current organic ETV of the domain
 
-#### Source
+#### Defined in
 
-main.ts:90271
+main.ts:90833
 
 ***
 
 ### organic\_is\_lost?
 
-> **`optional`** **organic\_is\_lost**: `number`
+> `optional` **organic\_is\_lost**: `number`
 
 current number of lost ranked elements
 indicates how many ranked elements of the domain were previously presented in SERPs, but weren’t found during the last check
 
-#### Source
+#### Defined in
 
-main.ts:90276
+main.ts:90838
 
 ***
 
 ### organic\_is\_new?
 
-> **`optional`** **organic\_is\_new**: `number`
+> `optional` **organic\_is\_new**: `number`
 
 current number of new ranked elements
 indicates how many new ranked elements were found for the domain
 
-#### Source
+#### Defined in
 
-main.ts:90279
+main.ts:90841
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:90267
+main.ts:90829
 
 ***
 
 ### top\_categories?
 
-> **`optional`** **top\_categories**: `number`[]
+> `optional` **top\_categories**: `number`[]
 
 categories for which domains are collected
 
-#### Source
+#### Defined in
 
-main.ts:90269
+main.ts:90831

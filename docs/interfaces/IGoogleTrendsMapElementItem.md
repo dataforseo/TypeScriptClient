@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,48 +18,48 @@
 
 ### data?
 
-> **`optional`** **data**: [`TrendsMapDataInfo`](../classes/TrendsMapDataInfo.md)[]
+> `optional` **data**: [`TrendsMapDataInfo`](../classes/TrendsMapDataInfo.md)[]
 
 Google Trends data from the corresponding item
 
-#### Source
+#### Defined in
 
-main.ts:127057
+main.ts:127064
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_map element is based on the keywords listed in this array
 
-#### Source
+#### Defined in
 
-main.ts:127055
+main.ts:127062
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
 
-#### Source
+#### Defined in
 
-main.ts:127050
+main.ts:127057
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element in Google Trends
 
-#### Source
+#### Defined in
 
-main.ts:127052
+main.ts:127059

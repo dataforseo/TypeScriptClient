@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleAppIntersectionLiveResultInfo(data)
+### new DataforseoLabsGoogleAppIntersectionLiveResultInfo()
 
 > **new DataforseoLabsGoogleAppIntersectionLiveResultInfo**(`data`?): [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
 
@@ -28,19 +28,19 @@
 
 [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:115821
+main.ts:116453
 
 ## Properties
 
 ### app\_ids?
 
-> **`optional`** **app\_ids**: `Object`
+> `optional` **app\_ids**: `object`
 
 ids of the apps in a POST array
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -48,15 +48,15 @@ ids of the apps in a POST array
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`app_ids`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#app_ids)
 
-#### Source
+#### Defined in
 
-main.ts:115807
+main.ts:116439
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)[]
 
 contains data related to the ranking keywords for the app specified in the app_id field
 
@@ -64,15 +64,15 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:115817
+main.ts:116449
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -80,15 +80,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:115815
+main.ts:116447
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -96,15 +96,15 @@ language code in a POST array
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:115811
+main.ts:116443
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -112,15 +112,15 @@ location code in a POST array
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:115809
+main.ts:116441
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -128,15 +128,15 @@ search engine type
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:115805
+main.ts:116437
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
@@ -144,9 +144,9 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsGoogleAppIntersectionLiveResultInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:115813
+main.ts:116445
 
 ## Methods
 
@@ -162,9 +162,9 @@ main.ts:115813
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:115830
+main.ts:116462
 
 ***
 
@@ -180,15 +180,15 @@ main.ts:115830
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:115863
+main.ts:116495
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
 
 #### Parameters
 
@@ -198,6 +198,6 @@ main.ts:115863
 
 [`DataforseoLabsGoogleAppIntersectionLiveResultInfo`](DataforseoLabsGoogleAppIntersectionLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:115856
+main.ts:116488

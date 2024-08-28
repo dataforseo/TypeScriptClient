@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### spam\_score?
 
-> **`optional`** **spam\_score**: `number`
+> `optional` **spam\_score**: `number`
 
 average spam score the target
 learn more about how the metric is calculated
 
-#### Source
+#### Defined in
 
-main.ts:151111
+main.ts:152937
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
-#### Source
+#### Defined in
 
-main.ts:151108
+main.ts:152934
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:151106
+main.ts:152932

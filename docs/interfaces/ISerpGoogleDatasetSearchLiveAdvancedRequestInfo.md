@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -25,57 +25,57 @@ Note: your account will be billed per each SERP containing up to 20 results;
 thus, setting a depth above 20 may result in additional charges if the search engine returns more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Source
+#### Defined in
 
-main.ts:55834
+main.ts:56366
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
 possible value: desktop
 
-#### Source
+#### Defined in
 
-main.ts:55820
+main.ts:56352
 
 ***
 
 ### file\_formats?
 
-> **`optional`** **file\_formats**: `string`[]
+> `optional` **file\_formats**: `string`[]
 
 file formats of the dataset
 optional field
 possible values: other, archive, text, image, document, tabular
 
-#### Source
+#### Defined in
 
-main.ts:55842
+main.ts:56374
 
 ***
 
 ### is\_free?
 
-> **`optional`** **is\_free**: `boolean`
+> `optional` **is\_free**: `boolean`
 
 indicates whether displayed datasets are free
 optional field
 possible values: true, false
 
-#### Source
+#### Defined in
 
-main.ts:55850
+main.ts:56382
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -84,15 +84,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
 
-#### Source
+#### Defined in
 
-main.ts:55804
+main.ts:56336
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field if you don’t specify language_name
@@ -100,15 +100,15 @@ if you use this field, you don’t need to specify language_name
 possible value:
 en
 
-#### Source
+#### Defined in
 
-main.ts:55816
+main.ts:56348
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -116,44 +116,44 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English
 
-#### Source
+#### Defined in
 
-main.ts:55810
+main.ts:56342
 
 ***
 
 ### last\_updated?
 
-> **`optional`** **last\_updated**: `string`
+> `optional` **last\_updated**: `string`
 
 last time the dataset was updated
 optional field
 possible values: 1m, 1y, 3y
 
-#### Source
+#### Defined in
 
-main.ts:55838
+main.ts:56370
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
 
-#### Source
+#### Defined in
 
-main.ts:55825
+main.ts:56357
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -161,34 +161,34 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:55860
+main.ts:56392
 
 ***
 
 ### topics?
 
-> **`optional`** **topics**: `string`[]
+> `optional` **topics**: `string`[]
 
 dataset topics
 optional field
 possible values: humanities, social_sciences, life_sciences, agriculture, natural_sciences, geo, computer, architecture_and_urban_planning, engineering
 
-#### Source
+#### Defined in
 
-main.ts:55854
+main.ts:56386
 
 ***
 
 ### usage\_rights?
 
-> **`optional`** **usage\_rights**: `string`
+> `optional` **usage\_rights**: `string`
 
 usage rights of the dataset
 optional field
 possible values: commercial, noncommercial
 
-#### Source
+#### Defined in
 
-main.ts:55846
+main.ts:56378

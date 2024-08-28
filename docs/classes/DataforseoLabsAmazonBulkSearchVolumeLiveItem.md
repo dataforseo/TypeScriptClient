@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAmazonBulkSearchVolumeLiveItem(data)
+### new DataforseoLabsAmazonBulkSearchVolumeLiveItem()
 
 > **new DataforseoLabsAmazonBulkSearchVolumeLiveItem**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:104406
+main.ts:105036
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
@@ -44,15 +44,15 @@ keyword in a POST array
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:104399
+main.ts:105029
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -60,15 +60,15 @@ search engine type
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:104397
+main.ts:105027
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 average monthly search volume rate
 represents the (approximate) number of searches for the returned keyword on Amazon
@@ -77,9 +77,9 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveItem`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md).[`search_volume`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveItem.md#search_volume)
 
-#### Source
+#### Defined in
 
-main.ts:104402
+main.ts:105032
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:104402
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:104415
+main.ts:105045
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:104415
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:104434
+main.ts:105064
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:104434
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveItem`](DataforseoLabsAmazonBulkSearchVolumeLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:104427
+main.ts:105057

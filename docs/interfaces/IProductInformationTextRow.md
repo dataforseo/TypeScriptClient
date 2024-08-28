@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,10 +18,10 @@
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 text specified under the given title within the section_name
 
-#### Source
+#### Defined in
 
-main.ts:184686
+main.ts:186518

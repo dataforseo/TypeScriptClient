@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleDatasetInfoTaskPostRequestInfo(data)
+### new SerpGoogleDatasetInfoTaskPostRequestInfo()
 
 > **new SerpGoogleDatasetInfoTaskPostRequestInfo**(`data`?): [`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:56181
+main.ts:56713
 
 ## Properties
 
 ### dataset\_id?
 
-> **`optional`** **dataset\_id**: `string`
+> `optional` **dataset\_id**: `string`
 
 ID of the dataset
 required field
@@ -48,15 +48,15 @@ L2cvMTFqbl85ZHN6MQ==
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`dataset_id`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#dataset_id)
 
-#### Source
+#### Defined in
 
-main.ts:56117
+main.ts:56649
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -66,15 +66,15 @@ possible value: desktop
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`device`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:56141
+main.ts:56673
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -86,15 +86,15 @@ en
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:56137
+main.ts:56669
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -106,15 +106,15 @@ English
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:56131
+main.ts:56663
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
@@ -125,15 +125,15 @@ default value: windows
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`os`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#os)
 
-#### Source
+#### Defined in
 
-main.ts:56146
+main.ts:56678
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -149,15 +149,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:56177
+main.ts:56709
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -168,15 +168,15 @@ possible value: advanced
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:56167
+main.ts:56699
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -192,15 +192,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:56162
+main.ts:56694
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -214,15 +214,15 @@ The cost can be calculated on the Pricing page.
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:56125
+main.ts:56657
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -234,9 +234,9 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleDatasetInfoTaskPostRequestInfo`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetInfoTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:56152
+main.ts:56684
 
 ## Methods
 
@@ -252,9 +252,9 @@ main.ts:56152
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:56190
+main.ts:56722
 
 ***
 
@@ -270,15 +270,15 @@ main.ts:56190
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:56216
+main.ts:56748
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -288,6 +288,6 @@ main.ts:56216
 
 [`SerpGoogleDatasetInfoTaskPostRequestInfo`](SerpGoogleDatasetInfoTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:56209
+main.ts:56741

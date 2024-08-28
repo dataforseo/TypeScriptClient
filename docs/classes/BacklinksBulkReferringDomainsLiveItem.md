@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkReferringDomainsLiveItem(data)
+### new BacklinksBulkReferringDomainsLiveItem()
 
 > **new BacklinksBulkReferringDomainsLiveItem**(`data`?): [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:151412
+main.ts:153238
 
 ## Properties
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: `number`
+> `optional` **referring\_domains**: `number`
 
 number of referring domains pointing to the target
 note that we calculate main domains (root domains, like example.com) and their subdomains (e.g. blog.example.com) separately for this metric
@@ -45,15 +45,15 @@ note that we calculate main domains (root domains, like example.com) and their s
 
 [`IBacklinksBulkReferringDomainsLiveItem`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md).[`referring_domains`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md#referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:151401
+main.ts:153227
 
 ***
 
 ### referring\_domains\_nofollow?
 
-> **`optional`** **referring\_domains\_nofollow**: `number`
+> `optional` **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the target
 
@@ -61,15 +61,15 @@ number of domains pointing at least one nofollow link to the target
 
 [`IBacklinksBulkReferringDomainsLiveItem`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md).[`referring_domains_nofollow`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md#referring_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:151403
+main.ts:153229
 
 ***
 
 ### referring\_main\_domains?
 
-> **`optional`** **referring\_main\_domains**: `number`
+> `optional` **referring\_main\_domains**: `number`
 
 number of referring main domains pointing to the target
 the number of primary (root) domains referring to your target
@@ -78,15 +78,15 @@ the number of primary (root) domains referring to your target
 
 [`IBacklinksBulkReferringDomainsLiveItem`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md).[`referring_main_domains`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md#referring_main_domains)
 
-#### Source
+#### Defined in
 
-main.ts:151406
+main.ts:153232
 
 ***
 
 ### referring\_main\_domains\_nofollow?
 
-> **`optional`** **referring\_main\_domains\_nofollow**: `number`
+> `optional` **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -94,15 +94,15 @@ number of main domains pointing at least one nofollow link to the target
 
 [`IBacklinksBulkReferringDomainsLiveItem`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md).[`referring_main_domains_nofollow`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md#referring_main_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:151408
+main.ts:153234
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
@@ -110,9 +110,9 @@ domain, subdomain or webpage from a POST array
 
 [`IBacklinksBulkReferringDomainsLiveItem`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md).[`target`](../interfaces/IBacklinksBulkReferringDomainsLiveItem.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:151398
+main.ts:153224
 
 ## Methods
 
@@ -128,9 +128,9 @@ main.ts:151398
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:151421
+main.ts:153247
 
 ***
 
@@ -146,15 +146,15 @@ main.ts:151421
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:151442
+main.ts:153268
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
 
 #### Parameters
 
@@ -164,6 +164,6 @@ main.ts:151442
 
 [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:151435
+main.ts:153261

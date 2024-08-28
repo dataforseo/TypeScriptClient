@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo(data)
+### new KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo()
 
 > **new KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130708
+main.ts:130532
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -51,15 +51,15 @@ example:
 
 [`IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:130685
+main.ts:130509
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -72,15 +72,15 @@ example:
 
 [`IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:130692
+main.ts:130516
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -92,15 +92,15 @@ specifying non-Latin characters, you’ll get data for the countries where they 
 
 [`IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:130656
+main.ts:130480
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 optional field
@@ -115,15 +115,15 @@ example:
 
 [`IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:130674
+main.ts:130498
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -138,15 +138,15 @@ United Kingdom
 
 [`IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:130665
+main.ts:130489
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -158,15 +158,15 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:130704
+main.ts:130528
 
 ***
 
 ### time\_range?
 
-> **`optional`** **time\_range**: `string`
+> `optional` **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -178,15 +178,15 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 [`IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md).[`time_range`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md#time_range)
 
-#### Source
+#### Defined in
 
-main.ts:130698
+main.ts:130522
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -194,9 +194,9 @@ type of element
 
 [`IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:130676
+main.ts:130500
 
 ## Methods
 
@@ -212,9 +212,9 @@ main.ts:130676
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:130717
+main.ts:130541
 
 ***
 
@@ -230,15 +230,15 @@ main.ts:130717
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:130745
+main.ts:130569
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
 
 #### Parameters
 
@@ -248,6 +248,6 @@ main.ts:130745
 
 [`KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo`](KeywordsDataDataforseoTrendsMergedDataLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130738
+main.ts:130562

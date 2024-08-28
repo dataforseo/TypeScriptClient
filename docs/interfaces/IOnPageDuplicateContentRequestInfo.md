@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -22,59 +22,59 @@ you can get this ID in the response of the Task POST endpoint
 example:
 “07131248-1535-0216-1000-17384017ad04”
 
-#### Source
+#### Defined in
 
-main.ts:159077
+main.ts:160909
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:159090
+main.ts:160922
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages
 
-#### Source
+#### Defined in
 
-main.ts:159095
+main.ts:160927
 
 ***
 
 ### similarity?
 
-> **`optional`** **similarity**: `number`
+> `optional` **similarity**: `number`
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
 you can specify any similarity score in the 0-to-10 range
 
-#### Source
+#### Defined in
 
-main.ts:159085
+main.ts:160917
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -82,20 +82,20 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:159101
+main.ts:160933
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page URL
 required field
 specify the initial page you want to receive duplicate content for
 
-#### Source
+#### Defined in
 
-main.ts:159081
+main.ts:160913

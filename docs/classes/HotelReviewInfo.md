@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new HotelReviewInfo(data)
+### new HotelReviewInfo()
 
 > **new HotelReviewInfo**(`data`?): [`HotelReviewInfo`](HotelReviewInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`HotelReviewInfo`](HotelReviewInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:209012
+main.ts:210862
 
 ## Properties
 
 ### mentions?
 
-> **`optional`** **mentions**: [`ReviewMentionInfo`](ReviewMentionInfo.md)[]
+> `optional` **mentions**: [`ReviewMentionInfo`](ReviewMentionInfo.md)[]
 
 hotel mentions
 information about hotel reviews by criteria
@@ -45,15 +45,15 @@ information about hotel reviews by criteria
 
 [`IHotelReviewInfo`](../interfaces/IHotelReviewInfo.md).[`mentions`](../interfaces/IHotelReviewInfo.md#mentions)
 
-#### Source
+#### Defined in
 
-main.ts:209002
+main.ts:210852
 
 ***
 
 ### other\_sites\_reviews?
 
-> **`optional`** **other\_sites\_reviews**: [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)[]
+> `optional` **other\_sites\_reviews**: [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)[]
 
 reviews on third-party sites
 reviews from third-paty sites
@@ -62,20 +62,20 @@ reviews from third-paty sites
 
 [`IHotelReviewInfo`](../interfaces/IHotelReviewInfo.md).[`other_sites_reviews`](../interfaces/IHotelReviewInfo.md#other_sites_reviews)
 
-#### Source
+#### Defined in
 
-main.ts:209008
+main.ts:210858
 
 ***
 
 ### rating\_distribution?
 
-> **`optional`** **rating\_distribution**: `Object`
+> `optional` **rating\_distribution**: `object`
 
 rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -83,15 +83,15 @@ the distribution of votes across the rating in the range from 1 to 5
 
 [`IHotelReviewInfo`](../interfaces/IHotelReviewInfo.md).[`rating_distribution`](../interfaces/IHotelReviewInfo.md#rating_distribution)
 
-#### Source
+#### Defined in
 
-main.ts:209005
+main.ts:210855
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 overall hotel rating based on customer votes
 
@@ -99,15 +99,15 @@ overall hotel rating based on customer votes
 
 [`IHotelReviewInfo`](../interfaces/IHotelReviewInfo.md).[`value`](../interfaces/IHotelReviewInfo.md#value)
 
-#### Source
+#### Defined in
 
-main.ts:208996
+main.ts:210846
 
 ***
 
 ### votes\_count?
 
-> **`optional`** **votes\_count**: `number`
+> `optional` **votes\_count**: `number`
 
 number of customer votes
 the number of customer votes included in the calculation of the hotel rating
@@ -116,9 +116,9 @@ the number of customer votes included in the calculation of the hotel rating
 
 [`IHotelReviewInfo`](../interfaces/IHotelReviewInfo.md).[`votes_count`](../interfaces/IHotelReviewInfo.md#votes_count)
 
-#### Source
+#### Defined in
 
-main.ts:208999
+main.ts:210849
 
 ## Methods
 
@@ -134,9 +134,9 @@ main.ts:208999
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:209021
+main.ts:210871
 
 ***
 
@@ -152,15 +152,15 @@ main.ts:209021
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:209056
+main.ts:210906
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`HotelReviewInfo`](HotelReviewInfo.md)
+> `static` **fromJS**(`data`): [`HotelReviewInfo`](HotelReviewInfo.md)
 
 #### Parameters
 
@@ -170,6 +170,6 @@ main.ts:209056
 
 [`HotelReviewInfo`](HotelReviewInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:209049
+main.ts:210899

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisLanguagesResultInfo(data)
+### new ContentAnalysisLanguagesResultInfo()
 
 > **new ContentAnalysisLanguagesResultInfo**(`data`?): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:167590
+main.ts:169422
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md).[`language_code`](../interfaces/IContentAnalysisLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:167586
+main.ts:169418
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IContentAnalysisLanguagesResultInfo`](../interfaces/IContentAnalysisLanguagesResultInfo.md).[`language_name`](../interfaces/IContentAnalysisLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:167584
+main.ts:169416
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:167584
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:167599
+main.ts:169431
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:167599
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:167617
+main.ts:169449
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:167617
 
 [`ContentAnalysisLanguagesResultInfo`](ContentAnalysisLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:167610
+main.ts:169442

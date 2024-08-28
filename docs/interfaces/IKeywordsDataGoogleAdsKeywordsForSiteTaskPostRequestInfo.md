@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -24,15 +24,15 @@ by default, data is returned for the past 12 months;
 Note: the indicated date cannot be greater than that specified in date_to and/or yesterday’s date;if Status endpoint returns false in the actual_data field, date_from can be set to the month before last and prior;
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior
 
-#### Source
+#### Defined in
 
-main.ts:120843
+main.ts:121475
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -42,15 +42,15 @@ date format: "yyyy-mm-dd"
 example:
 "2022-11-30"
 
-#### Source
+#### Defined in
 
-main.ts:120851
+main.ts:121483
 
 ***
 
 ### include\_adult\_keywords?
 
-> **`optional`** **include\_adult\_keywords**: `boolean`
+> `optional` **include\_adult\_keywords**: `boolean`
 
 include keywords associated with adult content
 optional field
@@ -58,15 +58,15 @@ if set to true, adult keywords will be included in the response
 default value: false
 note that the API may return no data for such keywords due to Google Ads restrictions
 
-#### Source
+#### Defined in
 
-main.ts:120857
+main.ts:121489
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -74,15 +74,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:120830
+main.ts:121462
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -90,15 +90,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:120824
+main.ts:121456
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 optional field
@@ -108,15 +108,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:120809
+main.ts:121441
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -127,15 +127,15 @@ the data will be provided for the country the specified coordinates belong to;
 example:
 52.6178549,-155.352142
 
-#### Source
+#### Defined in
 
-main.ts:120818
+main.ts:121450
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -145,15 +145,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:120801
+main.ts:121433
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -165,15 +165,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:120882
+main.ts:121514
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -185,45 +185,45 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:120872
+main.ts:121504
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 include Google search partners
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 default value: false – results are returned for Google search sites
 
-#### Source
+#### Defined in
 
-main.ts:120835
+main.ts:121467
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
 Use these parameters to sort the results by relevance, search_volume, competition_index, low_top_of_page_bid, or high_top_of_page_bid in descending order
 default value: relevance
 
-#### Source
+#### Defined in
 
-main.ts:120862
+main.ts:121494
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -231,30 +231,30 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:120888
+main.ts:121520
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain or page
 required field
 the domain name of the target website or the url of the target page;
 note: to obtain keywords for the target website, use the target_type parameter
 
-#### Source
+#### Defined in
 
-main.ts:120786
+main.ts:121418
 
 ***
 
 ### target\_type?
 
-> **`optional`** **target\_type**: `string`
+> `optional` **target\_type**: `string`
 
 search keywords for site or url
 optional field
@@ -263,6 +263,6 @@ default value: page
 if set to site, keywords will be provided for the entire site;
 if set to page, keywords will be provided for the specified webpage
 
-#### Source
+#### Defined in
 
-main.ts:120793
+main.ts:121425

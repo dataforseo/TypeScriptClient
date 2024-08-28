@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDirectoryInfo(data)
+### new BusinessDirectoryInfo()
 
 > **new BusinessDirectoryInfo**(`data`?): [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:204106
+main.ts:205950
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+> `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -46,15 +46,15 @@ possible item types: google_business_info
 
 [`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md).[`items`](../interfaces/IBusinessDirectoryInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:204102
+main.ts:205946
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 domain of the online menu system
@@ -63,9 +63,9 @@ domain of the online menu system
 
 [`IBusinessDirectoryInfo`](../interfaces/IBusinessDirectoryInfo.md).[`title`](../interfaces/IBusinessDirectoryInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:204098
+main.ts:205942
 
 ## Methods
 
@@ -81,9 +81,9 @@ main.ts:204098
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:204115
+main.ts:205959
 
 ***
 
@@ -99,15 +99,15 @@ main.ts:204115
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:204137
+main.ts:205981
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
 #### Parameters
 
@@ -117,6 +117,6 @@ main.ts:204137
 
 [`BusinessDirectoryInfo`](BusinessDirectoryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:204130
+main.ts:205974

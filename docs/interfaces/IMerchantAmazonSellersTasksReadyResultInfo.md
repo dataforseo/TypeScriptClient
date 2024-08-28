@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,83 +14,83 @@
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Source
+#### Defined in
 
-main.ts:186024
+main.ts:187856
 
 ***
 
 ### endpoint\_advanced?
 
-> **`optional`** **endpoint\_advanced**: `string`
+> `optional` **endpoint\_advanced**: `string`
 
 URL for collecting the results of Amazon Sellers Advanced task
 
-#### Source
+#### Defined in
 
-main.ts:186028
+main.ts:187860
 
 ***
 
 ### endpoint\_html?
 
-> **`optional`** **endpoint\_html**: `string`
+> `optional` **endpoint\_html**: `string`
 
 URL for collecting the results of Amazon Sellers HTML task
 
-#### Source
+#### Defined in
 
-main.ts:186030
+main.ts:187862
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Source
+#### Defined in
 
-main.ts:186018
+main.ts:187850
 
 ***
 
 ### se?
 
-> **`optional`** **se**: `string`
+> `optional` **se**: `string`
 
 search engine specified when setting the task
 
-#### Source
+#### Defined in
 
-main.ts:186020
+main.ts:187852
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 type of search engine
 
-#### Source
+#### Defined in
 
-main.ts:186022
+main.ts:187854
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
-#### Source
+#### Defined in
 
-main.ts:186026
+main.ts:187858

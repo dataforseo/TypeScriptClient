@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -22,15 +22,15 @@ if you don’t specify this field, the API will return all SERPs collected for 3
 minimal possible value: 365 days from the current datetime value;
 date format: "yyyy-mm-dd"
 
-#### Source
+#### Defined in
 
-main.ts:96873
+main.ts:97161
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -39,15 +39,15 @@ date format: "yyyy-mm-dd";
 example:
 "2021-09-01"
 
-#### Source
+#### Defined in
 
-main.ts:96880
+main.ts:97168
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -56,15 +56,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”
 
-#### Source
+#### Defined in
 
-main.ts:96867
+main.ts:97155
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 optional field
@@ -74,15 +74,15 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:96910
+main.ts:97198
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 optional field
@@ -92,15 +92,15 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:96902
+main.ts:97190
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -109,15 +109,15 @@ you can receive the list of available locations with their location_code by maki
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:96894
+main.ts:97182
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -126,15 +126,15 @@ you can receive the list of available locations with their location_name by maki
 example:
 United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:96887
+main.ts:97175
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -142,6 +142,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:96916
+main.ts:97204

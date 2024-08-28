@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisCategoriesInfo(data)
+### new ContentAnalysisCategoriesInfo()
 
 > **new ContentAnalysisCategoriesInfo**(`data`?): [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
@@ -28,37 +28,37 @@
 
 [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22796
+main.ts:22978
 
 ## Properties
 
 ### category?
 
-> **`optional`** **category**: `number`[]
+> `optional` **category**: `number`[]
 
 #### Implementation of
 
 [`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md).[`category`](../interfaces/IContentAnalysisCategoriesInfo.md#category)
 
-#### Source
+#### Defined in
 
-main.ts:22791
+main.ts:22973
 
 ***
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 #### Implementation of
 
 [`IContentAnalysisCategoriesInfo`](../interfaces/IContentAnalysisCategoriesInfo.md).[`count`](../interfaces/IContentAnalysisCategoriesInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:22792
+main.ts:22974
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:22792
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22805
+main.ts:22987
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:22805
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22827
+main.ts:23009
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:22827
 
 [`ContentAnalysisCategoriesInfo`](ContentAnalysisCategoriesInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22820
+main.ts:23002

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new KnowledgeGraphListItemSerpElementItem(data)
+### new KnowledgeGraphListItemSerpElementItem()
 
 > **new KnowledgeGraphListItemSerpElementItem**(`data`?): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:28005
+main.ts:28187
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### data\_attrid?
 
-> **`optional`** **data\_attrid**: `string`
+> `optional` **data\_attrid**: `string`
 
 google defined data attribute ID
 example:
@@ -68,15 +68,15 @@ ss:/webfacts:net_worth
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`data_attrid`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#data_attrid)
 
-#### Source
+#### Defined in
 
-main.ts:27992
+main.ts:28174
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
+> `optional` **items**: [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -85,15 +85,15 @@ if there are none, equals null
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`items`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:27997
+main.ts:28179
 
 ***
 
 ### link?
 
-> **`optional`** **link**: [`LinkElement`](LinkElement.md)
+> `optional` **link**: [`LinkElement`](LinkElement.md)
 
 link of the element
 
@@ -101,15 +101,15 @@ link of the element
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`link`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#link)
 
-#### Source
+#### Defined in
 
-main.ts:27994
+main.ts:28176
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -119,15 +119,15 @@ left, right
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:27984
+main.ts:28166
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -136,15 +136,15 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:27980
+main.ts:28162
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -154,15 +154,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:27977
+main.ts:28159
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -172,15 +172,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`rectangle`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:28001
+main.ts:28183
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the link element
 
@@ -188,15 +188,15 @@ title of the link element
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`title`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:27988
+main.ts:28170
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -204,9 +204,9 @@ the XPath of the element
 
 [`IKnowledgeGraphListItemSerpElementItem`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphListItemSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:27986
+main.ts:28168
 
 ## Methods
 
@@ -226,9 +226,9 @@ main.ts:27986
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:28010
+main.ts:28192
 
 ***
 
@@ -248,15 +248,15 @@ main.ts:28010
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:28040
+main.ts:28222
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
+> `static` **fromJS**(`data`): [`KnowledgeGraphListItemSerpElementItem`](KnowledgeGraphListItemSerpElementItem.md)
 
 #### Parameters
 
@@ -270,6 +270,6 @@ main.ts:28040
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:28033
+main.ts:28215

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo(data)
+### new DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo()
 
 > **new DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:89905
+main.ts:90467
 
 ## Properties
 
 ### category\_codes?
 
-> **`optional`** **category\_codes**: `string`[]
+> `optional` **category\_codes**: `string`[]
 
 product and service categories
 required field
@@ -47,15 +47,15 @@ you can download the full list of possible categories
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`category_codes`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#category_codes)
 
-#### Source
+#### Defined in
 
-main.ts:89768
+main.ts:90330
 
 ***
 
 ### correlate?
 
-> **`optional`** **correlate**: `boolean`
+> `optional` **correlate**: `boolean`
 
 correlate data with previously obtained datasets
 optional field
@@ -68,15 +68,15 @@ Note: we do not recommend setting correlate to false
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`correlate`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#correlate)
 
-#### Source
+#### Defined in
 
-main.ts:89859
+main.ts:90421
 
 ***
 
 ### etv\_max?
 
-> **`optional`** **etv\_max**: `number`
+> `optional` **etv\_max**: `number`
 
 maximum current organic ETV of the domain
 optional field
@@ -86,15 +86,15 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`etv_max`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#etv_max)
 
-#### Source
+#### Defined in
 
-main.ts:89852
+main.ts:90414
 
 ***
 
 ### etv\_min?
 
-> **`optional`** **etv\_min**: `number`
+> `optional` **etv\_min**: `number`
 
 minimum current organic ETV of the domain
 optional field
@@ -104,40 +104,40 @@ if specified, the API will return only domains with organic_etv greater than the
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`etv_min`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#etv_min)
 
-#### Source
+#### Defined in
 
-main.ts:89848
+main.ts:90410
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum);
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like;
-you can use the % operator with like and not_like to match any string of zero or more characters;
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like;
+you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters;
 example:
-["metrics_history.202110.organic.pos_1", ">`", 15];
+["metrics_history.202110.organic.pos_1", ">", 15];
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:89880
+main.ts:90442
 
 ***
 
 ### first\_date?
 
-> **`optional`** **first\_date**: `string`
+> `optional` **first\_date**: `string`
 
 first date of comparison period
 required field
@@ -154,15 +154,15 @@ minimum date: "2020-10-01"
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`first_date`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#first_date)
 
-#### Source
+#### Defined in
 
-main.ts:89779
+main.ts:90341
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 return subdomains in the API response
 optional field
@@ -174,15 +174,15 @@ default value: true
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`include_subdomains`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#include_subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:89844
+main.ts:90406
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -197,15 +197,15 @@ default value:
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:89830
+main.ts:90392
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 unique language identifier
 required field if you don’t specify language_name
@@ -218,15 +218,15 @@ en
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:89821
+main.ts:90383
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -240,15 +240,15 @@ English
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:89814
+main.ts:90376
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of domains in the results array
 optional field
@@ -259,15 +259,15 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:89864
+main.ts:90426
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -281,15 +281,15 @@ example:
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:89806
+main.ts:90368
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -303,15 +303,15 @@ United Kingdom
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:89798
+main.ts:90360
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned domains
 optional field
@@ -322,15 +322,15 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:89869
+main.ts:90431
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -351,15 +351,15 @@ example:
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:89895
+main.ts:90457
 
 ***
 
 ### second\_date?
 
-> **`optional`** **second\_date**: `string`
+> `optional` **second\_date**: `string`
 
 second date of comparison period
 required field
@@ -376,15 +376,15 @@ minimum date: "2020-10-01"
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`second_date`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#second_date)
 
-#### Source
+#### Defined in
 
-main.ts:89790
+main.ts:90352
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -396,15 +396,15 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:89901
+main.ts:90463
 
 ***
 
 ### top\_categories\_count?
 
-> **`optional`** **top\_categories\_count**: `number`
+> `optional` **top\_categories\_count**: `number`
 
 number of additional domain categories
 optional field
@@ -418,9 +418,9 @@ maximum value: 5
 
 [`IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md).[`top_categories_count`](../interfaces/IDataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md#top_categories_count)
 
-#### Source
+#### Defined in
 
-main.ts:89838
+main.ts:90400
 
 ## Methods
 
@@ -436,9 +436,9 @@ main.ts:89838
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:89914
+main.ts:90476
 
 ***
 
@@ -454,15 +454,15 @@ main.ts:89914
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:89964
+main.ts:90526
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
 #### Parameters
 
@@ -472,6 +472,6 @@ main.ts:89964
 
 [`DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:89957
+main.ts:90519

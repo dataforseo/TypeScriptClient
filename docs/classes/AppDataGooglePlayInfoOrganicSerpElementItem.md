@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new AppDataGooglePlayInfoOrganicSerpElementItem(data)
+### new AppDataGooglePlayInfoOrganicSerpElementItem()
 
 > **new AppDataGooglePlayInfoOrganicSerpElementItem**(`data`?): [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:192353
+main.ts:194185
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`_discriminator`](BaseAppDataSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21519
+main.ts:21701
 
 ***
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 ID of the app
 
@@ -66,15 +66,15 @@ ID of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`app_id`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:192276
+main.ts:194108
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the app
 
@@ -82,15 +82,15 @@ description of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`description`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:192284
+main.ts:194116
 
 ***
 
 ### developer?
 
-> **`optional`** **developer**: `string`
+> `optional` **developer**: `string`
 
 name of the app developer
 
@@ -98,15 +98,15 @@ name of the app developer
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`developer`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#developer)
 
-#### Source
+#### Defined in
 
-main.ts:192302
+main.ts:194134
 
 ***
 
 ### developer\_address?
 
-> **`optional`** **developer\_address**: `string`
+> `optional` **developer\_address**: `string`
 
 physical address of the developer
 
@@ -114,15 +114,15 @@ physical address of the developer
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`developer_address`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#developer_address)
 
-#### Source
+#### Defined in
 
-main.ts:192310
+main.ts:194142
 
 ***
 
 ### developer\_email?
 
-> **`optional`** **developer\_email**: `string`
+> `optional` **developer\_email**: `string`
 
 email address of the developer
 
@@ -130,15 +130,15 @@ email address of the developer
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`developer_email`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#developer_email)
 
-#### Source
+#### Defined in
 
-main.ts:192308
+main.ts:194140
 
 ***
 
 ### developer\_id?
 
-> **`optional`** **developer\_id**: `string`
+> `optional` **developer\_id**: `string`
 
 ID of the app developer
 
@@ -146,15 +146,15 @@ ID of the app developer
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`developer_id`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#developer_id)
 
-#### Source
+#### Defined in
 
-main.ts:192304
+main.ts:194136
 
 ***
 
 ### developer\_url?
 
-> **`optional`** **developer\_url**: `string`
+> `optional` **developer\_url**: `string`
 
 URL to the developer page on Google Play
 
@@ -162,15 +162,15 @@ URL to the developer page on Google Play
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`developer_url`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#developer_url)
 
-#### Source
+#### Defined in
 
-main.ts:192306
+main.ts:194138
 
 ***
 
 ### developer\_website?
 
-> **`optional`** **developer\_website**: `string`
+> `optional` **developer\_website**: `string`
 
 official website of the developer
 
@@ -178,15 +178,15 @@ official website of the developer
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`developer_website`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#developer_website)
 
-#### Source
+#### Defined in
 
-main.ts:192312
+main.ts:194144
 
 ***
 
 ### genres?
 
-> **`optional`** **genres**: `string`[]
+> `optional` **genres**: `string`[]
 
 app genres
 contains relevant app categories
@@ -195,15 +195,15 @@ contains relevant app categories
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`genres`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#genres)
 
-#### Source
+#### Defined in
 
-main.ts:192346
+main.ts:194178
 
 ***
 
 ### icon?
 
-> **`optional`** **icon**: `string`
+> `optional` **icon**: `string`
 
 URL to the app icon
 
@@ -211,15 +211,15 @@ URL to the app icon
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`icon`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#icon)
 
-#### Source
+#### Defined in
 
-main.ts:192282
+main.ts:194114
 
 ***
 
 ### images?
 
-> **`optional`** **images**: `string`[]
+> `optional` **images**: `string`[]
 
 app images
 contains URLs to the images published on the app page on Google Play
@@ -228,15 +228,15 @@ contains URLs to the images published on the app page on Google Play
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`images`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#images)
 
-#### Source
+#### Defined in
 
-main.ts:192334
+main.ts:194166
 
 ***
 
 ### installs?
 
-> **`optional`** **installs**: `string`
+> `optional` **installs**: `string`
 
 number of installs of the app
 approximate number of installs as displayed on the app page
@@ -245,15 +245,15 @@ approximate number of installs as displayed on the app page
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`installs`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#installs)
 
-#### Source
+#### Defined in
 
-main.ts:192297
+main.ts:194129
 
 ***
 
 ### installs\_count?
 
-> **`optional`** **installs\_count**: `number`
+> `optional` **installs\_count**: `number`
 
 number of installs of the app
 the exact number of installs of the app
@@ -262,15 +262,15 @@ the exact number of installs of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`installs_count`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#installs_count)
 
-#### Source
+#### Defined in
 
-main.ts:192300
+main.ts:194132
 
 ***
 
 ### is\_free?
 
-> **`optional`** **is\_free**: `boolean`
+> `optional` **is\_free**: `boolean`
 
 indicates whether the app is free
 
@@ -278,15 +278,15 @@ indicates whether the app is free
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`is_free`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#is_free)
 
-#### Source
+#### Defined in
 
-main.ts:192292
+main.ts:194124
 
 ***
 
 ### last\_update\_date?
 
-> **`optional`** **last\_update\_date**: `string`
+> `optional` **last\_update\_date**: `string`
 
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -297,15 +297,15 @@ example:
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`last_update_date`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#last_update_date)
 
-#### Source
+#### Defined in
 
-main.ts:192328
+main.ts:194160
 
 ***
 
 ### main\_category?
 
-> **`optional`** **main\_category**: `string`
+> `optional` **main\_category**: `string`
 
 main category of the app
 
@@ -313,15 +313,15 @@ main category of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`main_category`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#main_category)
 
-#### Source
+#### Defined in
 
-main.ts:192294
+main.ts:194126
 
 ***
 
 ### minimum\_os\_version?
 
-> **`optional`** **minimum\_os\_version**: `string`
+> `optional` **minimum\_os\_version**: `string`
 
 minimum OS version required to install the app
 
@@ -329,15 +329,15 @@ minimum OS version required to install the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`minimum_os_version`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#minimum_os_version)
 
-#### Source
+#### Defined in
 
-main.ts:192316
+main.ts:194148
 
 ***
 
 ### more\_apps\_by\_developer?
 
-> **`optional`** **more\_apps\_by\_developer**: [`AppsInfo`](AppsInfo.md)[]
+> `optional` **more\_apps\_by\_developer**: [`AppsInfo`](AppsInfo.md)[]
 
 similar apps
 information about apps built by the same developer
@@ -346,15 +346,15 @@ information about apps built by the same developer
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`more_apps_by_developer`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#more_apps_by_developer)
 
-#### Source
+#### Defined in
 
-main.ts:192343
+main.ts:194175
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values: left
@@ -363,15 +363,15 @@ can take the following values: left
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`position`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:192274
+main.ts:194106
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`Price`](Price.md)
+> `optional` **price**: [`Price`](Price.md)
 
 price of the app
 
@@ -379,15 +379,15 @@ price of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`price`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:192290
+main.ts:194122
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed apps
 absolute position among all apps on the list
@@ -396,15 +396,15 @@ absolute position among all apps on the list
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:192271
+main.ts:194103
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -413,15 +413,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`rank_group`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:192268
+main.ts:194100
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 average rating of the app
 
@@ -429,15 +429,15 @@ average rating of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`rating`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:192288
+main.ts:194120
 
 ***
 
 ### released\_date?
 
-> **`optional`** **released\_date**: `string`
+> `optional` **released\_date**: `string`
 
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -448,15 +448,15 @@ example:
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`released_date`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#released_date)
 
-#### Source
+#### Defined in
 
-main.ts:192323
+main.ts:194155
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 the total number of reviews the app has
 
@@ -464,15 +464,15 @@ the total number of reviews the app has
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`reviews_count`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#reviews_count)
 
-#### Source
+#### Defined in
 
-main.ts:192286
+main.ts:194118
 
 ***
 
 ### similar\_apps?
 
-> **`optional`** **similar\_apps**: [`AppsInfo`](AppsInfo.md)[]
+> `optional` **similar\_apps**: [`AppsInfo`](AppsInfo.md)[]
 
 similar apps
 displays apps similar to the app in a POST request
@@ -481,15 +481,15 @@ displays apps similar to the app in a POST request
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`similar_apps`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#similar_apps)
 
-#### Source
+#### Defined in
 
-main.ts:192340
+main.ts:194172
 
 ***
 
 ### size?
 
-> **`optional`** **size**: `string`
+> `optional` **size**: `string`
 
 size of the app
 
@@ -497,15 +497,15 @@ size of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`size`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#size)
 
-#### Source
+#### Defined in
 
-main.ts:192318
+main.ts:194150
 
 ***
 
 ### tags?
 
-> **`optional`** **tags**: `string`[]
+> `optional` **tags**: `string`[]
 
 app tags
 contains relevant app tags
@@ -514,15 +514,15 @@ contains relevant app tags
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`tags`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#tags)
 
-#### Source
+#### Defined in
 
-main.ts:192349
+main.ts:194181
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the app
 
@@ -530,15 +530,15 @@ title of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`title`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:192278
+main.ts:194110
 
 ***
 
 ### update\_notes?
 
-> **`optional`** **update\_notes**: `string`
+> `optional` **update\_notes**: `string`
 
 update notes
 contains the latest update notes from the developer
@@ -547,15 +547,15 @@ contains the latest update notes from the developer
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`update_notes`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#update_notes)
 
-#### Source
+#### Defined in
 
-main.ts:192331
+main.ts:194163
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the app page on Google Play
 
@@ -563,15 +563,15 @@ URL to the app page on Google Play
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`url`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:192280
+main.ts:194112
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 current version of the app
 
@@ -579,15 +579,15 @@ current version of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`version`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#version)
 
-#### Source
+#### Defined in
 
-main.ts:192314
+main.ts:194146
 
 ***
 
 ### videos?
 
-> **`optional`** **videos**: `string`[]
+> `optional` **videos**: `string`[]
 
 app videos
 contains URLs to the video published on the app page on Google Play
@@ -596,9 +596,9 @@ contains URLs to the video published on the app page on Google Play
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`videos`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#videos)
 
-#### Source
+#### Defined in
 
-main.ts:192337
+main.ts:194169
 
 ## Methods
 
@@ -618,9 +618,9 @@ main.ts:192337
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`init`](BaseAppDataSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:192358
+main.ts:194190
 
 ***
 
@@ -640,15 +640,15 @@ main.ts:192358
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`toJSON`](BaseAppDataSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:192432
+main.ts:194264
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
+> `static` **fromJS**(`data`): [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
 
 #### Parameters
 
@@ -662,6 +662,6 @@ main.ts:192432
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`fromJS`](BaseAppDataSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:192425
+main.ts:194257

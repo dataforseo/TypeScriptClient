@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new ProductInformationImageRow(data)
+### new ProductInformationImageRow()
 
 > **new ProductInformationImageRow**(`data`?): [`ProductInformationImageRow`](ProductInformationImageRow.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`constructor`](BaseProductInformationRowItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:184597
+main.ts:186429
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`_discriminator`](BaseProductInformationRowItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:22917
+main.ts:23099
 
 ***
 
 ### alt?
 
-> **`optional`** **alt**: `string`
+> `optional` **alt**: `string`
 
 alternative text of the related product image
 
@@ -66,15 +66,15 @@ alternative text of the related product image
 
 [`IProductInformationImageRow`](../interfaces/IProductInformationImageRow.md).[`alt`](../interfaces/IProductInformationImageRow.md#alt)
 
-#### Source
+#### Defined in
 
-main.ts:184591
+main.ts:186423
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the image
 
@@ -82,9 +82,9 @@ URL of the image
 
 [`IProductInformationImageRow`](../interfaces/IProductInformationImageRow.md).[`url`](../interfaces/IProductInformationImageRow.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:184593
+main.ts:186425
 
 ## Methods
 
@@ -104,9 +104,9 @@ main.ts:184593
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`init`](BaseProductInformationRowItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:184602
+main.ts:186434
 
 ***
 
@@ -126,15 +126,15 @@ main.ts:184602
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`toJSON`](BaseProductInformationRowItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:184621
+main.ts:186453
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ProductInformationImageRow`](ProductInformationImageRow.md)
+> `static` **fromJS**(`data`): [`ProductInformationImageRow`](ProductInformationImageRow.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:184621
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`fromJS`](BaseProductInformationRowItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:184614
+main.ts:186446

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MathSolverExpandedElement(data)
+### new MathSolverExpandedElement()
 
 > **new MathSolverExpandedElement**(`data`?): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
@@ -28,15 +28,15 @@
 
 [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:35616
+main.ts:35812
 
 ## Properties
 
 ### solution?
 
-> **`optional`** **solution**: `string`[]
+> `optional` **solution**: `string`[]
 
 solution of the element
 displays steps to solve the mathematical equation as specified in the element
@@ -45,15 +45,15 @@ displays steps to solve the mathematical equation as specified in the element
 
 [`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md).[`solution`](../interfaces/IMathSolverExpandedElement.md#solution)
 
-#### Source
+#### Defined in
 
-main.ts:35612
+main.ts:35808
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the carousel item
 
@@ -61,15 +61,15 @@ title of the carousel item
 
 [`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md).[`title`](../interfaces/IMathSolverExpandedElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:35609
+main.ts:35805
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -77,9 +77,9 @@ type of element
 
 [`IMathSolverExpandedElement`](../interfaces/IMathSolverExpandedElement.md).[`type`](../interfaces/IMathSolverExpandedElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:35607
+main.ts:35803
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:35607
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:35625
+main.ts:35821
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:35625
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:35648
+main.ts:35844
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
+> `static` **fromJS**(`data`): [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:35648
 
 [`MathSolverExpandedElement`](MathSolverExpandedElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:35641
+main.ts:35837

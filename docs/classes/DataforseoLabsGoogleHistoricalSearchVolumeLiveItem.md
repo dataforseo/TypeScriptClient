@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleHistoricalSearchVolumeLiveItem(data)
+### new DataforseoLabsGoogleHistoricalSearchVolumeLiveItem()
 
 > **new DataforseoLabsGoogleHistoricalSearchVolumeLiveItem**(`data`?): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:86646
+main.ts:87204
 
 ## Properties
 
 ### avg\_backlinks\_info?
 
-> **`optional`** **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+> `optional` **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
 
 backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword
@@ -45,15 +45,15 @@ this object provides the average number of backlinks, referring pages and domain
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`avg_backlinks_info`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#avg_backlinks_info)
 
-#### Source
+#### Defined in
 
-main.ts:86642
+main.ts:87200
 
 ***
 
 ### clickstream\_keyword\_info?
 
-> **`optional`** **clickstream\_keyword\_info**: `any`
+> `optional` **clickstream\_keyword\_info**: `any`
 
 clickstream data for the returned keyword
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
@@ -62,15 +62,15 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`clickstream_keyword_info`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#clickstream_keyword_info)
 
-#### Source
+#### Defined in
 
-main.ts:86628
+main.ts:87186
 
 ***
 
 ### impressions\_info?
 
-> **`optional`** **impressions\_info**: [`ImpressionsInfo`](ImpressionsInfo.md)
+> `optional` **impressions\_info**: [`ImpressionsInfo`](ImpressionsInfo.md)
 
 impressions data for the returned keyword idea
 Note that all data in the impressions_info object is deprecated and provided only as legacy to avoid maintenance issues
@@ -82,15 +82,15 @@ learn more about impressions in this help center article
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`impressions_info`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#impressions_info)
 
-#### Source
+#### Defined in
 
-main.ts:86636
+main.ts:87194
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -99,15 +99,15 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:86614
+main.ts:87168
 
 ***
 
 ### keyword\_info?
 
-> **`optional`** **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
+> `optional` **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
 
 keyword data for the returned keyword idea
 
@@ -115,15 +115,47 @@ keyword data for the returned keyword idea
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`keyword_info`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#keyword_info)
 
-#### Source
+#### Defined in
 
-main.ts:86625
+main.ts:87179
+
+***
+
+### keyword\_info\_normalized\_with\_bing?
+
+> `optional` **keyword\_info\_normalized\_with\_bing**: [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
+
+contains keyword search volume normalized with Bing search volume
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`keyword_info_normalized_with_bing`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#keyword_info_normalized_with_bing)
+
+#### Defined in
+
+main.ts:87181
+
+***
+
+### keyword\_info\_normalized\_with\_clickstream?
+
+> `optional` **keyword\_info\_normalized\_with\_clickstream**: [`KeywordInfoNormalizedWithInfo`](KeywordInfoNormalizedWithInfo.md)
+
+contains keyword search volume normalized with clickstream data
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`keyword_info_normalized_with_clickstream`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#keyword_info_normalized_with_clickstream)
+
+#### Defined in
+
+main.ts:87183
 
 ***
 
 ### keyword\_properties?
 
-> **`optional`** **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
+> `optional` **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
 
 additional information about the keyword
 
@@ -131,15 +163,15 @@ additional information about the keyword
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`keyword_properties`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#keyword_properties)
 
-#### Source
+#### Defined in
 
-main.ts:86630
+main.ts:87188
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -147,15 +179,15 @@ language code in a POST array
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:86619
+main.ts:87173
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -164,15 +196,15 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:86617
+main.ts:87171
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -180,15 +212,15 @@ search engine type
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:86611
+main.ts:87165
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 indicates data for Google and partner sites
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
@@ -198,15 +230,15 @@ if false, the results are returned for Google search sites only
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`search_partners`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#search_partners)
 
-#### Source
+#### Defined in
 
-main.ts:86623
+main.ts:87177
 
 ***
 
 ### serp\_info?
 
-> **`optional`** **serp\_info**: [`SerpInfo`](SerpInfo.md)
+> `optional` **serp\_info**: [`SerpInfo`](SerpInfo.md)
 
 SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database
@@ -215,9 +247,9 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 [`IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md).[`serp_info`](../interfaces/IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md#serp_info)
 
-#### Source
+#### Defined in
 
-main.ts:86639
+main.ts:87197
 
 ## Methods
 
@@ -233,9 +265,9 @@ main.ts:86639
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:86655
+main.ts:87213
 
 ***
 
@@ -251,15 +283,15 @@ main.ts:86655
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:86682
+main.ts:87242
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)
 
 #### Parameters
 
@@ -269,6 +301,6 @@ main.ts:86682
 
 [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:86675
+main.ts:87235

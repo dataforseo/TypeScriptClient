@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,73 +14,73 @@
 
 ### device?
 
-> **`optional`** **device**: `string`[]
+> `optional` **device**: `string`[]
 
-#### Source
+#### Defined in
 
-main.ts:138186
+main.ts:138012
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:138179
+main.ts:138005
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:138185
+main.ts:138011
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:138182
+main.ts:138008
 
 ***
 
 ### period?
 
-> **`optional`** **period**: `string`
+> `optional` **period**: `string`
 
 time period
 indicates if returned data is aggregated to a certain time period
 default value monthly
 
-#### Source
+#### Defined in
 
-main.ts:138190
+main.ts:138016
 
 ***
 
 ### searches?
 
-> **`optional`** **searches**: [`SearchVolumeHistorySearchInfo`](../classes/SearchVolumeHistorySearchInfo.md)
+> `optional` **searches**: [`SearchVolumeHistorySearchInfo`](../classes/SearchVolumeHistorySearchInfo.md)
 
 contains results distributed by device type
 if the device parameter is not specified, the data will be returned for all available device types
 
-#### Source
+#### Defined in
 
-main.ts:138193
+main.ts:138019

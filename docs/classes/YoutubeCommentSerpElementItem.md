@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new YoutubeCommentSerpElementItem(data)
+### new YoutubeCommentSerpElementItem()
 
 > **new YoutubeCommentSerpElementItem**(`data`?): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:66257
+main.ts:66853
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### author\_name?
 
-> **`optional`** **author\_name**: `string`
+> `optional` **author\_name**: `string`
 
 name of the author of the comment
 
@@ -66,15 +66,15 @@ name of the author of the comment
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`author_name`](../interfaces/IYoutubeCommentSerpElementItem.md#author_name)
 
-#### Source
+#### Defined in
 
-main.ts:66236
+main.ts:66832
 
 ***
 
 ### author\_thumbnail?
 
-> **`optional`** **author\_thumbnail**: `string`
+> `optional` **author\_thumbnail**: `string`
 
 the URL of the page where the author’s channel logo is hosted
 
@@ -82,15 +82,15 @@ the URL of the page where the author’s channel logo is hosted
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`author_thumbnail`](../interfaces/IYoutubeCommentSerpElementItem.md#author_thumbnail)
 
-#### Source
+#### Defined in
 
-main.ts:66238
+main.ts:66834
 
 ***
 
 ### author\_url?
 
-> **`optional`** **author\_url**: `string`
+> `optional` **author\_url**: `string`
 
 URL of the author’s channel
 
@@ -98,15 +98,15 @@ URL of the author’s channel
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`author_url`](../interfaces/IYoutubeCommentSerpElementItem.md#author_url)
 
-#### Source
+#### Defined in
 
-main.ts:66240
+main.ts:66836
 
 ***
 
 ### likes\_count?
 
-> **`optional`** **likes\_count**: `number`
+> `optional` **likes\_count**: `number`
 
 number of likes on the comment
 
@@ -114,15 +114,15 @@ number of likes on the comment
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`likes_count`](../interfaces/IYoutubeCommentSerpElementItem.md#likes_count)
 
-#### Source
+#### Defined in
 
-main.ts:66251
+main.ts:66847
 
 ***
 
 ### publication\_date?
 
-> **`optional`** **publication\_date**: `string`
+> `optional` **publication\_date**: `string`
 
 displayed publication date
 
@@ -130,15 +130,15 @@ displayed publication date
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`publication_date`](../interfaces/IYoutubeCommentSerpElementItem.md#publication_date)
 
-#### Source
+#### Defined in
 
-main.ts:66244
+main.ts:66840
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -147,15 +147,15 @@ absolute position among all the elements in SERP
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`rank_absolute`](../interfaces/IYoutubeCommentSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:66234
+main.ts:66830
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -165,15 +165,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`rank_group`](../interfaces/IYoutubeCommentSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:66231
+main.ts:66827
 
 ***
 
 ### reply\_count?
 
-> **`optional`** **reply\_count**: `number`
+> `optional` **reply\_count**: `number`
 
 number of replies on the comment
 
@@ -181,15 +181,15 @@ number of replies on the comment
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`reply_count`](../interfaces/IYoutubeCommentSerpElementItem.md#reply_count)
 
-#### Source
+#### Defined in
 
-main.ts:66253
+main.ts:66849
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 text of the comment
 
@@ -197,15 +197,15 @@ text of the comment
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`text`](../interfaces/IYoutubeCommentSerpElementItem.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:66242
+main.ts:66838
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -216,9 +216,9 @@ example:
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`timestamp`](../interfaces/IYoutubeCommentSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:66249
+main.ts:66845
 
 ## Methods
 
@@ -238,9 +238,9 @@ main.ts:66249
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:66262
+main.ts:66858
 
 ***
 
@@ -260,15 +260,15 @@ main.ts:66262
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:66289
+main.ts:66885
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
+> `static` **fromJS**(`data`): [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
 
 #### Parameters
 
@@ -282,6 +282,6 @@ main.ts:66289
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:66282
+main.ts:66878

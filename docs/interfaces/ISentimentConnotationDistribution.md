@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### anger?
 
-> **`optional`** **anger**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **anger**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169866
+main.ts:171698
 
 ***
 
 ### fun?
 
-> **`optional`** **fun**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **fun**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169871
+main.ts:171703
 
 ***
 
 ### happiness?
 
-> **`optional`** **happiness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **happiness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169867
+main.ts:171699
 
 ***
 
 ### love?
 
-> **`optional`** **love**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **love**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169868
+main.ts:171700
 
 ***
 
 ### sadness?
 
-> **`optional`** **sadness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **sadness**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169869
+main.ts:171701
 
 ***
 
 ### share?
 
-> **`optional`** **share**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **share**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169870
+main.ts:171702

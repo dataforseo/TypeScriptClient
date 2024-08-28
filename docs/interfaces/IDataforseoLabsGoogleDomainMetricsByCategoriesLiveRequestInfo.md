@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### category\_codes?
 
-> **`optional`** **category\_codes**: `string`[]
+> `optional` **category\_codes**: `string`[]
 
 product and service categories
 required field
 The maximum number of categories you can specify: 5
 you can download the full list of possible categories
 
-#### Source
+#### Defined in
 
-main.ts:90013
+main.ts:90575
 
 ***
 
 ### correlate?
 
-> **`optional`** **correlate**: `boolean`
+> `optional` **correlate**: `boolean`
 
 correlate data with previously obtained datasets
 optional field
@@ -38,64 +38,64 @@ if you use this parameter, our system will correlate data you obtain now with pr
 this parameter is intended to mitigate any inconsistencies that may result from changes to our database;
 Note: we do not recommend setting correlate to false
 
-#### Source
+#### Defined in
 
-main.ts:90104
+main.ts:90666
 
 ***
 
 ### etv\_max?
 
-> **`optional`** **etv\_max**: `number`
+> `optional` **etv\_max**: `number`
 
 maximum current organic ETV of the domain
 optional field
 if specified, the API will return only domains with organic_etv lesser than the specified value
 
-#### Source
+#### Defined in
 
-main.ts:90097
+main.ts:90659
 
 ***
 
 ### etv\_min?
 
-> **`optional`** **etv\_min**: `number`
+> `optional` **etv\_min**: `number`
 
 minimum current organic ETV of the domain
 optional field
 if specified, the API will return only domains with organic_etv greater than the specified value
 
-#### Source
+#### Defined in
 
-main.ts:90093
+main.ts:90655
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum);
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like;
-you can use the % operator with like and not_like to match any string of zero or more characters;
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like;
+you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters;
 example:
-["metrics_history.202110.organic.pos_1", ">`", 15];
+["metrics_history.202110.organic.pos_1", ">", 15];
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:90125
+main.ts:90687
 
 ***
 
 ### first\_date?
 
-> **`optional`** **first\_date**: `string`
+> `optional` **first\_date**: `string`
 
 first date of comparison period
 required field
@@ -108,15 +108,15 @@ Also note: the dates specified in first_date and second_date cannot point to the
 you can specify the dates in any order: first_date can be greater than second_date and vice versa;
 minimum date: "2020-10-01"
 
-#### Source
+#### Defined in
 
-main.ts:90024
+main.ts:90586
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 return subdomains in the API response
 optional field
@@ -124,15 +124,15 @@ if false, the API response will contain main_domain only;
 if true, the API will return main_domain plus its subdomains (if available);
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:90089
+main.ts:90651
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -143,15 +143,15 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Source
+#### Defined in
 
-main.ts:90075
+main.ts:90637
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 unique language identifier
 required field if you don’t specify language_name
@@ -160,15 +160,15 @@ you can receive the list of available languages with their language_code by maki
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:90066
+main.ts:90628
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -178,30 +178,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:90059
+main.ts:90621
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of domains in the results array
 optional field
 default value: 100;
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:90109
+main.ts:90671
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -211,15 +211,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:90051
+main.ts:90613
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -229,30 +229,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages;
 example:
 United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:90043
+main.ts:90605
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned domains
 optional field
 default value: 0;
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains
 
-#### Source
+#### Defined in
 
-main.ts:90114
+main.ts:90676
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -269,15 +269,15 @@ you should use a comma to separate several sorting rules;
 example:
 ["organic_etv,desc","organic_count,asc"]
 
-#### Source
+#### Defined in
 
-main.ts:90140
+main.ts:90702
 
 ***
 
 ### second\_date?
 
-> **`optional`** **second\_date**: `string`
+> `optional` **second\_date**: `string`
 
 second date of comparison period
 required field
@@ -290,15 +290,15 @@ Also note: the dates specified in first_date and second_date cannot point to the
 you can specify the dates in any order: second_date can be greater than first_date and vice versa;
 minimum date: "2020-10-01"
 
-#### Source
+#### Defined in
 
-main.ts:90035
+main.ts:90597
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -306,15 +306,15 @@ the character limit is 255;
 you can use this parameter to identify the task and match it with the result;
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:90146
+main.ts:90708
 
 ***
 
 ### top\_categories\_count?
 
-> **`optional`** **top\_categories\_count**: `number`
+> `optional` **top\_categories\_count**: `number`
 
 number of additional domain categories
 optional field
@@ -324,6 +324,6 @@ by default, top_categories_count is equal to the number of categories specified 
 Note: top_categories_count cannot be less than the number of categories in the category_codes array;
 maximum value: 5
 
-#### Source
+#### Defined in
 
-main.ts:90083
+main.ts:90645

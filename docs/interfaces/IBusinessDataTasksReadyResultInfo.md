@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,72 +14,72 @@
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Source
+#### Defined in
 
-main.ts:203684
+main.ts:205528
 
 ***
 
 ### endpoint?
 
-> **`optional`** **endpoint**: `string`
+> `optional` **endpoint**: `string`
 
 URL for collecting the results of the task
 
-#### Source
+#### Defined in
 
-main.ts:203688
+main.ts:205532
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Source
+#### Defined in
 
-main.ts:203677
+main.ts:205521
 
 ***
 
 ### se?
 
-> **`optional`** **se**: `string`
+> `optional` **se**: `string`
 
 search engine specified when setting the task
 can take the following values: tripadvisor
 
-#### Source
+#### Defined in
 
-main.ts:203680
+main.ts:205524
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:203682
+main.ts:205526
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
-#### Source
+#### Defined in
 
-main.ts:203686
+main.ts:205530

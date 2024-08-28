@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpBaiduLanguagesResultInfo(data)
+### new SerpBaiduLanguagesResultInfo()
 
 > **new SerpBaiduLanguagesResultInfo**(`data`?): [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:69991
+main.ts:70587
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`ISerpBaiduLanguagesResultInfo`](../interfaces/ISerpBaiduLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpBaiduLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:69987
+main.ts:70583
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`ISerpBaiduLanguagesResultInfo`](../interfaces/ISerpBaiduLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpBaiduLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:69985
+main.ts:70581
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:69985
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:70000
+main.ts:70596
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:70000
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:70018
+main.ts:70614
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:70018
 
 [`SerpBaiduLanguagesResultInfo`](SerpBaiduLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:70011
+main.ts:70607

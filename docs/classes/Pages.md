@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Pages(data)
+### new Pages()
 
 > **new Pages**(`data`?): [`Pages`](Pages.md)
 
@@ -28,15 +28,15 @@
 
 [`Pages`](Pages.md)
 
-#### Source
+#### Defined in
 
-main.ts:159116
+main.ts:160948
 
 ## Properties
 
 ### page?
 
-> **`optional`** **page**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
+> `optional` **page**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
 information about the page with duplicate content
 
@@ -44,15 +44,15 @@ information about the page with duplicate content
 
 [`IPages`](../interfaces/IPages.md).[`page`](../interfaces/IPages.md#page)
 
-#### Source
+#### Defined in
 
-main.ts:159112
+main.ts:160944
 
 ***
 
 ### similarity?
 
-> **`optional`** **similarity**: `number`
+> `optional` **similarity**: `number`
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -62,9 +62,9 @@ can take values from 0 to 10
 
 [`IPages`](../interfaces/IPages.md).[`similarity`](../interfaces/IPages.md#similarity)
 
-#### Source
+#### Defined in
 
-main.ts:159110
+main.ts:160942
 
 ## Methods
 
@@ -80,9 +80,9 @@ main.ts:159110
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:159125
+main.ts:160957
 
 ***
 
@@ -98,15 +98,15 @@ main.ts:159125
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:159147
+main.ts:160979
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Pages`](Pages.md)
+> `static` **fromJS**(`data`): [`Pages`](Pages.md)
 
 #### Parameters
 
@@ -116,6 +116,6 @@ main.ts:159147
 
 [`Pages`](Pages.md)
 
-#### Source
+#### Defined in
 
-main.ts:159140
+main.ts:160972

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ScoreByCategories(data)
+### new ScoreByCategories()
 
 > **new ScoreByCategories**(`data`?): [`ScoreByCategories`](ScoreByCategories.md)
 
@@ -28,15 +28,15 @@
 
 [`ScoreByCategories`](ScoreByCategories.md)
 
-#### Source
+#### Defined in
 
-main.ts:209879
+main.ts:211729
 
 ## Properties
 
 ### airport\_access?
 
-> **`optional`** **airport\_access**: `number`
+> `optional` **airport\_access**: `number`
 
 score relative to nearby airports
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -46,15 +46,15 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`airport_access`](../interfaces/IScoreByCategories.md#airport_access)
 
-#### Source
+#### Defined in
 
-main.ts:209875
+main.ts:211725
 
 ***
 
 ### overall?
 
-> **`optional`** **overall**: `number`
+> `optional` **overall**: `number`
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
@@ -65,15 +65,15 @@ note that the criteria are not weighted equally in the overall score
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`overall`](../interfaces/IScoreByCategories.md#overall)
 
-#### Source
+#### Defined in
 
-main.ts:209859
+main.ts:211709
 
 ***
 
 ### restaurants?
 
-> **`optional`** **restaurants**: `number`
+> `optional` **restaurants**: `number`
 
 score relative to nearby restaurants
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -83,15 +83,15 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`restaurants`](../interfaces/IScoreByCategories.md#restaurants)
 
-#### Source
+#### Defined in
 
-main.ts:209867
+main.ts:211717
 
 ***
 
 ### things\_to\_do?
 
-> **`optional`** **things\_to\_do**: `number`
+> `optional` **things\_to\_do**: `number`
 
 score relative to nearby things to do
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -101,15 +101,15 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`things_to_do`](../interfaces/IScoreByCategories.md#things_to_do)
 
-#### Source
+#### Defined in
 
-main.ts:209863
+main.ts:211713
 
 ***
 
 ### transit?
 
-> **`optional`** **transit**: `number`
+> `optional` **transit**: `number`
 
 score relative to nearby transit options
 indicates the score of the hotel’s location in the range from 1 to 5;
@@ -119,9 +119,9 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 [`IScoreByCategories`](../interfaces/IScoreByCategories.md).[`transit`](../interfaces/IScoreByCategories.md#transit)
 
-#### Source
+#### Defined in
 
-main.ts:209871
+main.ts:211721
 
 ## Methods
 
@@ -137,9 +137,9 @@ main.ts:209871
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:209888
+main.ts:211738
 
 ***
 
@@ -155,15 +155,15 @@ main.ts:209888
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:209909
+main.ts:211759
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ScoreByCategories`](ScoreByCategories.md)
+> `static` **fromJS**(`data`): [`ScoreByCategories`](ScoreByCategories.md)
 
 #### Parameters
 
@@ -173,6 +173,6 @@ main.ts:209909
 
 [`ScoreByCategories`](ScoreByCategories.md)
 
-#### Source
+#### Defined in
 
-main.ts:209902
+main.ts:211752

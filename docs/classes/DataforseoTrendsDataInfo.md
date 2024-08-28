@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoTrendsDataInfo(data)
+### new DataforseoTrendsDataInfo()
 
 > **new DataforseoTrendsDataInfo**(`data`?): [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130208
+main.ts:130032
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 relevant keyword for which demographic data is provided
 
@@ -44,15 +44,15 @@ relevant keyword for which demographic data is provided
 
 [`IDataforseoTrendsDataInfo`](../interfaces/IDataforseoTrendsDataInfo.md).[`keyword`](../interfaces/IDataforseoTrendsDataInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:130202
+main.ts:130026
 
 ***
 
 ### values?
 
-> **`optional`** **values**: [`DemographyItemValueInfo`](DemographyItemValueInfo.md)[]
+> `optional` **values**: [`DemographyItemValueInfo`](DemographyItemValueInfo.md)[]
 
 contains age range and corresponding keyword popularity values
 
@@ -60,9 +60,9 @@ contains age range and corresponding keyword popularity values
 
 [`IDataforseoTrendsDataInfo`](../interfaces/IDataforseoTrendsDataInfo.md).[`values`](../interfaces/IDataforseoTrendsDataInfo.md#values)
 
-#### Source
+#### Defined in
 
-main.ts:130204
+main.ts:130028
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:130204
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:130217
+main.ts:130041
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:130217
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:130239
+main.ts:130063
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:130239
 
 [`DataforseoTrendsDataInfo`](DataforseoTrendsDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130232
+main.ts:130056

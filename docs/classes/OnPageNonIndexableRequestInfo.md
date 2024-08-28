@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageNonIndexableRequestInfo(data)
+### new OnPageNonIndexableRequestInfo()
 
 > **new OnPageNonIndexableRequestInfo**(`data`?): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
 
@@ -28,22 +28,22 @@
 
 [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:160850
+main.ts:162682
 
 ## Properties
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["reason","=","robots_txt"][["reason","<>","robots_txt"],
@@ -58,15 +58,15 @@ The full list of possible filters is available by this link.
 
 [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md).[`filters`](../interfaces/IOnPageNonIndexableRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:160846
+main.ts:162678
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -78,15 +78,15 @@ example:
 
 [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md).[`id`](../interfaces/IOnPageNonIndexableRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:160820
+main.ts:162652
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -97,15 +97,15 @@ maximum value: 1000
 
 [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md).[`limit`](../interfaces/IOnPageNonIndexableRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:160825
+main.ts:162657
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -116,9 +116,9 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IOnPageNonIndexableRequestInfo`](../interfaces/IOnPageNonIndexableRequestInfo.md).[`offset`](../interfaces/IOnPageNonIndexableRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:160830
+main.ts:162662
 
 ## Methods
 
@@ -134,9 +134,9 @@ main.ts:160830
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:160859
+main.ts:162691
 
 ***
 
@@ -152,15 +152,15 @@ main.ts:160859
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:160883
+main.ts:162715
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
 
 #### Parameters
 
@@ -170,6 +170,6 @@ main.ts:160883
 
 [`OnPageNonIndexableRequestInfo`](OnPageNonIndexableRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:160876
+main.ts:162708

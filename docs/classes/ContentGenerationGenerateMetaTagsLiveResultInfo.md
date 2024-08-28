@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationGenerateMetaTagsLiveResultInfo(data)
+### new ContentGenerationGenerateMetaTagsLiveResultInfo()
 
 > **new ContentGenerationGenerateMetaTagsLiveResultInfo**(`data`?): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172576
+main.ts:174408
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 generated description
 
@@ -44,15 +44,15 @@ generated description
 
 [`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`description`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:172572
+main.ts:174404
 
 ***
 
 ### input\_tokens?
 
-> **`optional`** **input\_tokens**: `number`
+> `optional` **input\_tokens**: `number`
 
 number of input tokens
 
@@ -60,15 +60,15 @@ number of input tokens
 
 [`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`input_tokens`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#input_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:172564
+main.ts:174396
 
 ***
 
 ### new\_tokens?
 
-> **`optional`** **new\_tokens**: `number`
+> `optional` **new\_tokens**: `number`
 
 number of new tokens
 
@@ -76,15 +76,15 @@ number of new tokens
 
 [`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`new_tokens`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#new_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:172568
+main.ts:174400
 
 ***
 
 ### output\_tokens?
 
-> **`optional`** **output\_tokens**: `number`
+> `optional` **output\_tokens**: `number`
 
 number of output tokens
 
@@ -92,15 +92,15 @@ number of output tokens
 
 [`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`output_tokens`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#output_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:172566
+main.ts:174398
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 generated title
 
@@ -108,9 +108,9 @@ generated title
 
 [`IContentGenerationGenerateMetaTagsLiveResultInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md).[`title`](../interfaces/IContentGenerationGenerateMetaTagsLiveResultInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:172570
+main.ts:174402
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:172570
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:172585
+main.ts:174417
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:172585
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:172606
+main.ts:174438
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:172606
 
 [`ContentGenerationGenerateMetaTagsLiveResultInfo`](ContentGenerationGenerateMetaTagsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172599
+main.ts:174431

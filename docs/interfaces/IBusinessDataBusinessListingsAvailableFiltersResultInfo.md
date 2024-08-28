@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,26 +14,26 @@
 
 ### categories\_aggregation?
 
-> **`optional`** **categories\_aggregation**: `Object`
+> `optional` **categories\_aggregation**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:200812
+main.ts:202644
 
 ***
 
 ### search?
 
-> **`optional`** **search**: `Object`
+> `optional` **search**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:200811
+main.ts:202643

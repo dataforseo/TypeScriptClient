@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataGoogleLanguagesResultInfo(data)
+### new AppDataGoogleLanguagesResultInfo()
 
 > **new AppDataGoogleLanguagesResultInfo**(`data`?): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:189565
+main.ts:191397
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/IAppDataGoogleLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:189561
+main.ts:191393
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IAppDataGoogleLanguagesResultInfo`](../interfaces/IAppDataGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/IAppDataGoogleLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:189559
+main.ts:191391
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:189559
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:189574
+main.ts:191406
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:189574
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:189592
+main.ts:191424
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:189592
 
 [`AppDataGoogleLanguagesResultInfo`](AppDataGoogleLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:189585
+main.ts:191417

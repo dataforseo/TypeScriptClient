@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new TrustpilotReviewSearchBusinessDataSerpElementItem(data)
+### new TrustpilotReviewSearchBusinessDataSerpElementItem()
 
 > **new TrustpilotReviewSearchBusinessDataSerpElementItem**(`data`?): [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:214618
+main.ts:216468
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21097
+main.ts:21279
 
 ***
 
 ### language?
 
-> **`optional`** **language**: `string`
+> `optional` **language**: `string`
 
 the language of the review
 
@@ -66,15 +66,15 @@ the language of the review
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`language`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#language)
 
-#### Source
+#### Defined in
 
-main.ts:214597
+main.ts:216447
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: right
@@ -83,15 +83,15 @@ can take the following values: right
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`position`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:214589
+main.ts:216439
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
@@ -100,15 +100,15 @@ absolute position among all reviews on the list
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:214586
+main.ts:216436
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -117,15 +117,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:214583
+main.ts:216433
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the rating score submitted by the reviewer
 
@@ -133,15 +133,15 @@ the rating score submitted by the reviewer
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`rating`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:214593
+main.ts:216443
 
 ***
 
 ### responses?
 
-> **`optional`** **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
+> `optional` **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
 
 owner’s response to the submitted review
 
@@ -149,15 +149,15 @@ owner’s response to the submitted review
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`responses`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#responses)
 
-#### Source
+#### Defined in
 
-main.ts:214614
+main.ts:216464
 
 ***
 
 ### review\_images?
 
-> **`optional`** **review\_images**: `string`[]
+> `optional` **review\_images**: `string`[]
 
 images submitted by the reviewer
 displays URLs to the images provided by the author of the review;
@@ -167,15 +167,15 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`review_images`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#review_images)
 
-#### Source
+#### Defined in
 
-main.ts:214610
+main.ts:216460
 
 ***
 
 ### review\_text?
 
-> **`optional`** **review\_text**: `string`
+> `optional` **review\_text**: `string`
 
 the content of the review
 
@@ -183,15 +183,15 @@ the content of the review
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`review_text`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#review_text)
 
-#### Source
+#### Defined in
 
-main.ts:214606
+main.ts:216456
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -202,15 +202,15 @@ example:
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`timestamp`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:214602
+main.ts:216452
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 the title of the review
 
@@ -218,15 +218,15 @@ the title of the review
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`title`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:214604
+main.ts:216454
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 the URL of the review
 
@@ -234,15 +234,15 @@ the URL of the review
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`url`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:214591
+main.ts:216441
 
 ***
 
 ### user\_profile?
 
-> **`optional`** **user\_profile**: [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
+> `optional` **user\_profile**: [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
 user profile of the reviewer
 
@@ -250,15 +250,15 @@ user profile of the reviewer
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`user_profile`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#user_profile)
 
-#### Source
+#### Defined in
 
-main.ts:214612
+main.ts:216462
 
 ***
 
 ### verified?
 
-> **`optional`** **verified**: `boolean`
+> `optional` **verified**: `boolean`
 
 indicates whether the review has the “Verified” mark
 
@@ -266,9 +266,9 @@ indicates whether the review has the “Verified” mark
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`verified`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#verified)
 
-#### Source
+#### Defined in
 
-main.ts:214595
+main.ts:216445
 
 ## Methods
 
@@ -288,9 +288,9 @@ main.ts:214595
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:214623
+main.ts:216473
 
 ***
 
@@ -310,15 +310,15 @@ main.ts:214623
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:214661
+main.ts:216511
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): [`TrustpilotReviewSearchBusinessDataSerpElementItem`](TrustpilotReviewSearchBusinessDataSerpElementItem.md)
 
 #### Parameters
 
@@ -332,6 +332,6 @@ main.ts:214661
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:214654
+main.ts:216504

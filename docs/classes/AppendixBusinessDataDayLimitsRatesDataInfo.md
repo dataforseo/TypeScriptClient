@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixBusinessDataDayLimitsRatesDataInfo(data)
+### new AppendixBusinessDataDayLimitsRatesDataInfo()
 
 > **new AppendixBusinessDataDayLimitsRatesDataInfo**(`data`?): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
@@ -28,37 +28,37 @@
 
 [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219746
+main.ts:221654
 
 ## Properties
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **reviews**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md).[`reviews`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md#reviews)
 
-#### Source
+#### Defined in
 
-main.ts:219741
+main.ts:221649
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataDayLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md).[`search`](../interfaces/IAppendixBusinessDataDayLimitsRatesDataInfo.md#search)
 
-#### Source
+#### Defined in
 
-main.ts:219742
+main.ts:221650
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:219742
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:219755
+main.ts:221663
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:219755
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:219773
+main.ts:221681
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:219773
 
 [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219766
+main.ts:221674

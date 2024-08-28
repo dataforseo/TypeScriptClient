@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpErrorsRequestInfo(data)
+### new SerpErrorsRequestInfo()
 
 > **new SerpErrorsRequestInfo**(`data`?): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24229
+main.ts:24411
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -49,15 +49,15 @@ example:
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`datetime_from`](../interfaces/ISerpErrorsRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:24218
+main.ts:24400
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -70,15 +70,15 @@ example:
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`datetime_to`](../interfaces/ISerpErrorsRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:24225
+main.ts:24407
 
 ***
 
 ### filtered\_function?
 
-> **`optional`** **filtered\_function**: `string`
+> `optional` **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,15 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`filtered_function`](../interfaces/ISerpErrorsRequestInfo.md#filtered_function)
 
-#### Source
+#### Defined in
 
-main.ts:24211
+main.ts:24393
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +109,15 @@ maximum value: 1000
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`limit`](../interfaces/ISerpErrorsRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:24200
+main.ts:24382
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`ISerpErrorsRequestInfo`](../interfaces/ISerpErrorsRequestInfo.md).[`offset`](../interfaces/ISerpErrorsRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:24205
+main.ts:24387
 
 ## Methods
 
@@ -146,9 +146,9 @@ main.ts:24205
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:24238
+main.ts:24420
 
 ***
 
@@ -164,15 +164,15 @@ main.ts:24238
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:24259
+main.ts:24441
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:24259
 
 [`SerpErrorsRequestInfo`](SerpErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24252
+main.ts:24434

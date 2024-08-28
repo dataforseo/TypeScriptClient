@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,96 +14,96 @@
 
 ### keyword\_density?
 
-> **`optional`** **keyword\_density**: `Object`
+> `optional` **keyword\_density**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:153999
+main.ts:155825
 
 ***
 
 ### links?
 
-> **`optional`** **links**: `Object`
+> `optional` **links**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:153996
+main.ts:155822
 
 ***
 
 ### non\_indexable?
 
-> **`optional`** **non\_indexable**: `Object`
+> `optional` **non\_indexable**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:153995
+main.ts:155821
 
 ***
 
 ### pages?
 
-> **`optional`** **pages**: `Object`
+> `optional` **pages**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:153994
+main.ts:155820
 
 ***
 
 ### pages\_by\_resource?
 
-> **`optional`** **pages\_by\_resource**: `Object`
+> `optional` **pages\_by\_resource**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:153997
+main.ts:155823
 
 ***
 
 ### redirect\_chains?
 
-> **`optional`** **redirect\_chains**: `Object`
+> `optional` **redirect\_chains**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:153998
+main.ts:155824
 
 ***
 
 ### resources?
 
-> **`optional`** **resources**: `Object`
+> `optional` **resources**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:153993
+main.ts:155819

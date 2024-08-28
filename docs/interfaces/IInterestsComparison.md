@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### absolute\_items?
 
-> **`optional`** **absolute\_items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
+> `optional` **absolute\_items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
 
 keyword popularity rates across all locations
 values in this array represent percentages relative to the maximum value across all locations
 
-#### Source
+#### Defined in
 
-main.ts:129643
+main.ts:129467
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
+> `optional` **items**: [`AbsoluteItems`](../classes/AbsoluteItems.md)[]
 
 contains keyword popularity and related data
 
-#### Source
+#### Defined in
 
-main.ts:129640
+main.ts:129464

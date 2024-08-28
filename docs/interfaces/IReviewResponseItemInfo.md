@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 the content of response
 
-#### Source
+#### Defined in
 
-main.ts:21309
+main.ts:21491
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 the time of publication
 
-#### Source
+#### Defined in
 
-main.ts:21311
+main.ts:21493
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 the title of response
 
-#### Source
+#### Defined in
 
-main.ts:21307
+main.ts:21489

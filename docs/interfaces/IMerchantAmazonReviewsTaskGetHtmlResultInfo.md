@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,97 +14,97 @@
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:188188
+main.ts:190020
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
+> `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
 HTML pages and related data
 
-#### Source
+#### Defined in
 
-main.ts:188192
+main.ts:190024
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:188190
+main.ts:190022
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:188183
+main.ts:190015
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:188181
+main.ts:190013
 
 ***
 
 ### product\_id?
 
-> **`optional`** **product\_id**: `string`
+> `optional` **product\_id**: `string`
 
 ASIN received in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:188175
+main.ts:190007
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:188179
+main.ts:190011
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:188177
+main.ts:190009

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,83 +14,83 @@
 
 ### answer\_text?
 
-> **`optional`** **answer\_text**: `string`
+> `optional` **answer\_text**: `string`
 
 answer included in the item
 
-#### Source
+#### Defined in
 
-main.ts:34547
+main.ts:34743
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
-#### Source
+#### Defined in
 
-main.ts:34552
+main.ts:34748
 
 ***
 
 ### question\_text?
 
-> **`optional`** **question\_text**: `string`
+> `optional` **question\_text**: `string`
 
 question included in the item
 
-#### Source
+#### Defined in
 
-main.ts:34545
+main.ts:34741
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
-#### Source
+#### Defined in
 
-main.ts:34550
+main.ts:34746
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:34541
+main.ts:34737
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
-#### Source
+#### Defined in
 
-main.ts:34543
+main.ts:34739
 
 ***
 
 ### votes?
 
-> **`optional`** **votes**: `number`
+> `optional` **votes**: `number`
 
 answer upvotes from the source
 
-#### Source
+#### Defined in
 
-main.ts:34554
+main.ts:34750

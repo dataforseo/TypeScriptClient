@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new HotelAboutInfo(data)
+### new HotelAboutInfo()
 
 > **new HotelAboutInfo**(`data`?): [`HotelAboutInfo`](HotelAboutInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`HotelAboutInfo`](HotelAboutInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:208521
+main.ts:210371
 
 ## Properties
 
 ### amenities?
 
-> **`optional`** **amenities**: [`HotelAmenityInfo`](HotelAmenityInfo.md)[]
+> `optional` **amenities**: [`HotelAmenityInfo`](HotelAmenityInfo.md)[]
 
 hotel amenities
 information about hotel amenities
@@ -45,15 +45,15 @@ information about hotel amenities
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`amenities`](../interfaces/IHotelAboutInfo.md#amenities)
 
-#### Source
+#### Defined in
 
-main.ts:208514
+main.ts:210364
 
 ***
 
 ### check\_in\_time?
 
-> **`optional`** **check\_in\_time**: [`WorkTimeInfo`](WorkTimeInfo.md)
+> `optional` **check\_in\_time**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
 hotel check-in time
 check-in time indicated in the hotel listing
@@ -62,15 +62,15 @@ check-in time indicated in the hotel listing
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`check_in_time`](../interfaces/IHotelAboutInfo.md#check_in_time)
 
-#### Source
+#### Defined in
 
-main.ts:208499
+main.ts:210349
 
 ***
 
 ### check\_out\_time?
 
-> **`optional`** **check\_out\_time**: [`WorkTimeInfo`](WorkTimeInfo.md)
+> `optional` **check\_out\_time**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
 hotel check-out time
 check-out time indicated in the hotel listing
@@ -79,15 +79,15 @@ check-out time indicated in the hotel listing
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`check_out_time`](../interfaces/IHotelAboutInfo.md#check_out_time)
 
-#### Source
+#### Defined in
 
-main.ts:208502
+main.ts:210352
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the hotel
 the description of the hotel entity for which the results are collected
@@ -96,15 +96,15 @@ the description of the hotel entity for which the results are collected
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`description`](../interfaces/IHotelAboutInfo.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:208493
+main.ts:210343
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 hotel domain
 domain of the hotel’s website
@@ -113,15 +113,15 @@ domain of the hotel’s website
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`domain`](../interfaces/IHotelAboutInfo.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:208508
+main.ts:210358
 
 ***
 
 ### full\_address?
 
-> **`optional`** **full\_address**: `string`
+> `optional` **full\_address**: `string`
 
 full address of the hotel
 address of the hotel indicated in the standardised format
@@ -130,15 +130,15 @@ address of the hotel indicated in the standardised format
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`full_address`](../interfaces/IHotelAboutInfo.md#full_address)
 
-#### Source
+#### Defined in
 
-main.ts:208505
+main.ts:210355
 
 ***
 
 ### popular\_amenities?
 
-> **`optional`** **popular\_amenities**: [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)[]
+> `optional` **popular\_amenities**: [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)[]
 
 hotel amenities
 information about hotel amenities labelled as “popular”
@@ -147,15 +147,15 @@ information about hotel amenities labelled as “popular”
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`popular_amenities`](../interfaces/IHotelAboutInfo.md#popular_amenities)
 
-#### Source
+#### Defined in
 
-main.ts:208517
+main.ts:210367
 
 ***
 
 ### sub\_descriptions?
 
-> **`optional`** **sub\_descriptions**: `string`[]
+> `optional` **sub\_descriptions**: `string`[]
 
 additional description of the hotel
 details about the hotel provided in addition to the description
@@ -164,15 +164,15 @@ details about the hotel provided in addition to the description
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`sub_descriptions`](../interfaces/IHotelAboutInfo.md#sub_descriptions)
 
-#### Source
+#### Defined in
 
-main.ts:208496
+main.ts:210346
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 hotel url
 URL to the hotel’s website indicated in the listing
@@ -181,9 +181,9 @@ URL to the hotel’s website indicated in the listing
 
 [`IHotelAboutInfo`](../interfaces/IHotelAboutInfo.md).[`url`](../interfaces/IHotelAboutInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:208511
+main.ts:210361
 
 ## Methods
 
@@ -199,9 +199,9 @@ main.ts:208511
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:208530
+main.ts:210380
 
 ***
 
@@ -217,15 +217,15 @@ main.ts:208530
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:208567
+main.ts:210417
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`HotelAboutInfo`](HotelAboutInfo.md)
+> `static` **fromJS**(`data`): [`HotelAboutInfo`](HotelAboutInfo.md)
 
 #### Parameters
 
@@ -235,6 +235,6 @@ main.ts:208567
 
 [`HotelAboutInfo`](HotelAboutInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:208560
+main.ts:210410

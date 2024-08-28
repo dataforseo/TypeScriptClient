@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -23,15 +23,15 @@ we strongly recommend setting the parsing depth in the multiples of thirty becau
 default value: 30;
 maximum value: 210
 
-#### Source
+#### Defined in
 
-main.ts:215677
+main.ts:217527
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -40,15 +40,15 @@ you can specify up to 700 symbols in the keyword filed;
 all %## will be decoded (plus symbol ‘+’ will be decoded to a space character);
 if you need to use the “%” symbol for your keyword, please specify it as “%25”
 
-#### Source
+#### Defined in
 
-main.ts:215650
+main.ts:217500
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -56,15 +56,15 @@ you can receive the list of available locations with location_code by making a s
 example:
 1003854
 
-#### Source
+#### Defined in
 
-main.ts:215662
+main.ts:217512
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -72,15 +72,15 @@ you can receive the list of available locations with location_name by making a s
 example:
 London,England,United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:215656
+main.ts:217506
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -92,15 +92,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:215703
+main.ts:217553
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -112,15 +112,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:215693
+main.ts:217543
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -130,15 +130,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Source
+#### Defined in
 
-main.ts:215670
+main.ts:217520
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -146,6 +146,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:215683
+main.ts:217533

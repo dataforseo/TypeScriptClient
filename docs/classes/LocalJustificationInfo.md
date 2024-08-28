@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new LocalJustificationInfo(data)
+### new LocalJustificationInfo()
 
 > **new LocalJustificationInfo**(`data`?): [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:41043
+main.ts:41569
 
 ## Properties
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 text snippet of local justification
 
@@ -44,15 +44,15 @@ text snippet of local justification
 
 [`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md).[`text`](../interfaces/ILocalJustificationInfo.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:41039
+main.ts:41565
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -60,9 +60,9 @@ type of element
 
 [`ILocalJustificationInfo`](../interfaces/ILocalJustificationInfo.md).[`type`](../interfaces/ILocalJustificationInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:41037
+main.ts:41563
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:41037
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:41052
+main.ts:41578
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:41052
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:41070
+main.ts:41596
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LocalJustificationInfo`](LocalJustificationInfo.md)
+> `static` **fromJS**(`data`): [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:41070
 
 [`LocalJustificationInfo`](LocalJustificationInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:41063
+main.ts:41589

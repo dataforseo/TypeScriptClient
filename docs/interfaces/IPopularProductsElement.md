@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,83 +14,83 @@
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
-#### Source
+#### Defined in
 
-main.ts:33693
+main.ts:33889
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
-#### Source
+#### Defined in
 
-main.ts:33697
+main.ts:33893
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price indicated in the element
 
-#### Source
+#### Defined in
 
-main.ts:33699
+main.ts:33895
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Source
+#### Defined in
 
-main.ts:33702
+main.ts:33898
 
 ***
 
 ### seller?
 
-> **`optional`** **seller**: `string`
+> `optional` **seller**: `string`
 
 seller of the product
 
-#### Source
+#### Defined in
 
-main.ts:33695
+main.ts:33891
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:33691
+main.ts:33887
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:33689
+main.ts:33885

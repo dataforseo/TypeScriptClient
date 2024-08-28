@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ShortVideosElement(data)
+### new ShortVideosElement()
 
 > **new ShortVideosElement**(`data`?): [`ShortVideosElement`](ShortVideosElement.md)
 
@@ -28,15 +28,15 @@
 
 [`ShortVideosElement`](ShortVideosElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34304
+main.ts:34500
 
 ## Properties
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -44,15 +44,15 @@ website domain
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`domain`](../interfaces/IShortVideosElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:34295
+main.ts:34491
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -61,15 +61,15 @@ indicates the source of information included in the top_stories_element
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`source`](../interfaces/IShortVideosElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:34300
+main.ts:34496
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -77,15 +77,15 @@ title of a given link element
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`title`](../interfaces/IShortVideosElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:34293
+main.ts:34489
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -93,15 +93,15 @@ type of element
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`type`](../interfaces/IShortVideosElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:34291
+main.ts:34487
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -109,9 +109,9 @@ URL
 
 [`IShortVideosElement`](../interfaces/IShortVideosElement.md).[`url`](../interfaces/IShortVideosElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:34297
+main.ts:34493
 
 ## Methods
 
@@ -127,9 +127,9 @@ main.ts:34297
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:34313
+main.ts:34509
 
 ***
 
@@ -145,15 +145,15 @@ main.ts:34313
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:34334
+main.ts:34530
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ShortVideosElement`](ShortVideosElement.md)
+> `static` **fromJS**(`data`): [`ShortVideosElement`](ShortVideosElement.md)
 
 #### Parameters
 
@@ -163,6 +163,6 @@ main.ts:34334
 
 [`ShortVideosElement`](ShortVideosElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34327
+main.ts:34523

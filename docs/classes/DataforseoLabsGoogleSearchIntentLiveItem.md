@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleSearchIntentLiveItem(data)
+### new DataforseoLabsGoogleSearchIntentLiveItem()
 
 > **new DataforseoLabsGoogleSearchIntentLiveItem**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:87581
+main.ts:88147
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 target keyword in a POST array
 
@@ -44,15 +44,15 @@ target keyword in a POST array
 
 [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:87573
+main.ts:88139
 
 ***
 
 ### keyword\_intent?
 
-> **`optional`** **keyword\_intent**: [`KeywordIntentInfo`](KeywordIntentInfo.md)
+> `optional` **keyword\_intent**: [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
 search intent data relevant for the specified keyword
 
@@ -60,15 +60,15 @@ search intent data relevant for the specified keyword
 
 [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[`keyword_intent`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#keyword_intent)
 
-#### Source
+#### Defined in
 
-main.ts:87575
+main.ts:88141
 
 ***
 
 ### secondary\_keyword\_intents?
 
-> **`optional`** **secondary\_keyword\_intents**: [`KeywordIntentInfo`](KeywordIntentInfo.md)[]
+> `optional` **secondary\_keyword\_intents**: [`KeywordIntentInfo`](KeywordIntentInfo.md)[]
 
 contains objects with other possible search intents for the specified keyword
 
@@ -76,9 +76,9 @@ contains objects with other possible search intents for the specified keyword
 
 [`IDataforseoLabsGoogleSearchIntentLiveItem`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md).[`secondary_keyword_intents`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveItem.md#secondary_keyword_intents)
 
-#### Source
+#### Defined in
 
-main.ts:87577
+main.ts:88143
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:87577
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:87590
+main.ts:88156
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:87590
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:87613
+main.ts:88179
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:87613
 
 [`DataforseoLabsGoogleSearchIntentLiveItem`](DataforseoLabsGoogleSearchIntentLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:87606
+main.ts:88172

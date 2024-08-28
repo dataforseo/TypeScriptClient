@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataAppleAppListTaskPostRequestInfo(data)
+### new AppDataAppleAppListTaskPostRequestInfo()
 
 > **new AppDataAppleAppListTaskPostRequestInfo**(`data`?): [`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:197436
+main.ts:199268
 
 ## Properties
 
 ### app\_category?
 
-> **`optional`** **app\_category**: `string`
+> `optional` **app\_category**: `string`
 
 application category on the App Store
 optional field
@@ -49,15 +49,15 @@ you can review the full list of available categories here or by making a separat
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`app_category`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#app_category)
 
-#### Source
+#### Defined in
 
-main.ts:197400
+main.ts:199232
 
 ***
 
 ### app\_collection?
 
-> **`optional`** **app\_collection**: `string`
+> `optional` **app\_collection**: `string`
 
 app collection
 required field
@@ -69,15 +69,15 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`app_collection`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#app_collection)
 
-#### Source
+#### Defined in
 
-main.ts:197347
+main.ts:199179
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -93,15 +93,15 @@ maximum value: 1000
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`depth`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:197393
+main.ts:199225
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -114,15 +114,15 @@ en
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`language_code`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:197375
+main.ts:199207
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -135,15 +135,15 @@ English
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`language_name`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:197368
+main.ts:199200
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -156,15 +156,15 @@ example:
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`location_code`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:197361
+main.ts:199193
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -177,15 +177,15 @@ West Los Angeles,California,United States
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`location_name`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:197354
+main.ts:199186
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -201,15 +201,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:197432
+main.ts:199264
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -221,15 +221,15 @@ advanced
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`postback_data`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:197422
+main.ts:199254
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -245,15 +245,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`postback_url`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:197416
+main.ts:199248
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -267,15 +267,15 @@ The cost can be calculated on the Pricing page.
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`priority`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:197383
+main.ts:199215
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -287,9 +287,9 @@ you will find the specified tag value in the data object of the response
 
 [`IAppDataAppleAppListTaskPostRequestInfo`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md).[`tag`](../interfaces/IAppDataAppleAppListTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:197406
+main.ts:199238
 
 ## Methods
 
@@ -305,9 +305,9 @@ main.ts:197406
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:197445
+main.ts:199277
 
 ***
 
@@ -323,15 +323,15 @@ main.ts:197445
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:197473
+main.ts:199305
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -341,6 +341,6 @@ main.ts:197473
 
 [`AppDataAppleAppListTaskPostRequestInfo`](AppDataAppleAppListTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:197466
+main.ts:199298

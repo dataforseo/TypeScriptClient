@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new GoogleTrendsGraphElementItem(data)
+### new GoogleTrendsGraphElementItem()
 
 > **new GoogleTrendsGraphElementItem**(`data`?): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`constructor`](BaseGoogleTrendsItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:126794
+main.ts:126626
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`_discriminator`](BaseGoogleTrendsItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21388
+main.ts:21570
 
 ***
 
 ### averages?
 
-> **`optional`** **averages**: `number`[]
+> `optional` **averages**: `number`[]
 
 keyword popularity values averaged over the whole time range
 
@@ -66,15 +66,15 @@ keyword popularity values averaged over the whole time range
 
 [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`averages`](../interfaces/IGoogleTrendsGraphElementItem.md#averages)
 
-#### Source
+#### Defined in
 
-main.ts:126790
+main.ts:126622
 
 ***
 
 ### data?
 
-> **`optional`** **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
+> `optional` **data**: [`TrendsGraphDataInfo`](TrendsGraphDataInfo.md)[]
 
 Google Trends data for the specified parameters
 
@@ -82,15 +82,15 @@ Google Trends data for the specified parameters
 
 [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`data`](../interfaces/IGoogleTrendsGraphElementItem.md#data)
 
-#### Source
+#### Defined in
 
-main.ts:126788
+main.ts:126620
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
@@ -99,15 +99,15 @@ the data included in the google_trends_graph element is based on the keywords li
 
 [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`keywords`](../interfaces/IGoogleTrendsGraphElementItem.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:126786
+main.ts:126618
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
@@ -116,15 +116,15 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`position`](../interfaces/IGoogleTrendsGraphElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:126781
+main.ts:126613
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element in Google Trends
 
@@ -132,9 +132,9 @@ title of the element in Google Trends
 
 [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`title`](../interfaces/IGoogleTrendsGraphElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:126783
+main.ts:126615
 
 ## Methods
 
@@ -154,9 +154,9 @@ main.ts:126783
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`init`](BaseGoogleTrendsItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:126799
+main.ts:126631
 
 ***
 
@@ -176,15 +176,15 @@ main.ts:126799
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`toJSON`](BaseGoogleTrendsItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:126833
+main.ts:126665
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
+> `static` **fromJS**(`data`): [`GoogleTrendsGraphElementItem`](GoogleTrendsGraphElementItem.md)
 
 #### Parameters
 
@@ -198,6 +198,6 @@ main.ts:126833
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`fromJS`](BaseGoogleTrendsItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:126826
+main.ts:126658

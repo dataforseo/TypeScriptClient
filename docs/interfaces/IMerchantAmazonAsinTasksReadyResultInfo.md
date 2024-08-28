@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,84 +14,84 @@
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Source
+#### Defined in
 
-main.ts:184234
+main.ts:186066
 
 ***
 
 ### endpoint\_advanced?
 
-> **`optional`** **endpoint\_advanced**: `string`
+> `optional` **endpoint\_advanced**: `string`
 
 URL for collecting the results of the Amazon ASIN Advanced task
 
-#### Source
+#### Defined in
 
-main.ts:184238
+main.ts:186070
 
 ***
 
 ### endpoint\_html?
 
-> **`optional`** **endpoint\_html**: `string`
+> `optional` **endpoint\_html**: `string`
 
 URL for collecting the results of the Amazon ASIN HTML task
 
-#### Source
+#### Defined in
 
-main.ts:184240
+main.ts:186072
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Source
+#### Defined in
 
-main.ts:184227
+main.ts:186059
 
 ***
 
 ### se?
 
-> **`optional`** **se**: `string`
+> `optional` **se**: `string`
 
 search engine specified when setting the task
 
-#### Source
+#### Defined in
 
-main.ts:184229
+main.ts:186061
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 type of search engine
 can take the following values: shopping
 
-#### Source
+#### Defined in
 
-main.ts:184232
+main.ts:186064
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
-#### Source
+#### Defined in
 
-main.ts:184236
+main.ts:186068

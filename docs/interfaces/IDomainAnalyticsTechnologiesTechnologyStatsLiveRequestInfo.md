@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -24,15 +24,15 @@ date format: "yyyy-mm-dd"
 example:
 "2023-06-01"
 
-#### Source
+#### Defined in
 
-main.ts:78065
+main.ts:78661
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -41,15 +41,15 @@ date format: "yyyy-mm-dd"
 example:
 "2023-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:78072
+main.ts:78668
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -57,15 +57,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:78078
+main.ts:78674
 
 ***
 
 ### technology?
 
-> **`optional`** **technology**: `string`
+> `optional` **technology**: `string`
 
 target technology
 required field
@@ -73,6 +73,6 @@ you can find the full list of technologies you can specify here on this page
 example:
 "Salesforce"
 
-#### Source
+#### Defined in
 
-main.ts:78057
+main.ts:78653

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,91 +14,91 @@
 
 ### asin?
 
-> **`optional`** **asin**: `string`
+> `optional` **asin**: `string`
 
 ASIN of the product
 unique product identifier on Amazon;
 for more information, refer to this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:106987
+main.ts:107617
 
 ***
 
 ### avg\_position?
 
-> **`optional`** **avg\_position**: `number`
+> `optional` **avg\_position**: `number`
 
 average position of the product in Amazon SERP
 Note: average position is calculated for intersected keywords only;
 the value for a given product may differ when combined with different target products
 
-#### Source
+#### Defined in
 
-main.ts:106991
+main.ts:107621
 
 ***
 
 ### competitor\_metrics?
 
-> **`optional`** **competitor\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
+> `optional` **competitor\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided asin shares with the target asin;
 Note: in this object ranking data is provided for the returned competitor’s asin
 
-#### Source
+#### Defined in
 
-main.ts:107001
+main.ts:107631
 
 ***
 
 ### full\_metrics?
 
-> **`optional`** **full\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
+> `optional` **full\_metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
 metrics for all keywords of the product
 full overview of ranking data relevant to all keywords that the provided asin is ranking for
 
-#### Source
+#### Defined in
 
-main.ts:107004
+main.ts:107634
 
 ***
 
 ### intersections?
 
-> **`optional`** **intersections**: `number`
+> `optional` **intersections**: `number`
 
 number of intersecting keywords
 
-#### Source
+#### Defined in
 
-main.ts:106997
+main.ts:107627
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:106983
+main.ts:107613
 
 ***
 
 ### sum\_position?
 
-> **`optional`** **sum\_position**: `number`
+> `optional` **sum\_position**: `number`
 
 sum of all product positions in Amazon SERP
 Note: average position is calculated for intersected keywords only;
 the value for a given product may differ when combined with different target products
 
-#### Source
+#### Defined in
 
-main.ts:106995
+main.ts:107625

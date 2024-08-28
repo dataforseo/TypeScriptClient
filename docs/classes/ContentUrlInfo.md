@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentUrlInfo(data)
+### new ContentUrlInfo()
 
 > **new ContentUrlInfo**(`data`?): [`ContentUrlInfo`](ContentUrlInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentUrlInfo`](ContentUrlInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163454
+main.ts:165286
 
 ## Properties
 
 ### anchor\_text?
 
-> **`optional`** **anchor\_text**: `string`
+> `optional` **anchor\_text**: `string`
 
 text of the URL’s anchor
 
@@ -44,15 +44,15 @@ text of the URL’s anchor
 
 [`IContentUrlInfo`](../interfaces/IContentUrlInfo.md).[`anchor_text`](../interfaces/IContentUrlInfo.md#anchor_text)
 
-#### Source
+#### Defined in
 
-main.ts:163450
+main.ts:165282
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 other URL found in the content element
 
@@ -60,9 +60,9 @@ other URL found in the content element
 
 [`IContentUrlInfo`](../interfaces/IContentUrlInfo.md).[`url`](../interfaces/IContentUrlInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:163448
+main.ts:165280
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:163448
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163463
+main.ts:165295
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:163463
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163481
+main.ts:165313
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentUrlInfo`](ContentUrlInfo.md)
+> `static` **fromJS**(`data`): [`ContentUrlInfo`](ContentUrlInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:163481
 
 [`ContentUrlInfo`](ContentUrlInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163474
+main.ts:165306

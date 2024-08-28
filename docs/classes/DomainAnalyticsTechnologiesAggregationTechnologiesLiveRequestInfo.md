@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo(data)
+### new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo()
 
 > **new DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:77014
+main.ts:77610
 
 ## Properties
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 id of the target technology category
 required field if you don’t specify group, keyword or technology
@@ -49,43 +49,43 @@ example:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`category`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#category)
 
-#### Source
+#### Defined in
 
-main.ts:76913
+main.ts:77509
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+<, <=, >, >=, =, <>, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 you can use the following parameters to filter the results: domain_rank, last_visited, country_iso_code, language_code, content_language_code
 Note: all filtering parameters are taken from the domain_technology_item of the domain_technologies endpoint;
 example:
 [["country_iso_code","=","US"],
 "and",
-["domain_rank",">`",800]]for more information about filters, please refer to Domain Analytics Technologies API – Filters
+["domain_rank",">",800]]for more information about filters, please refer to Domain Analytics Technologies API – Filters
 
 #### Implementation of
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`filters`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:76948
+main.ts:77544
 
 ***
 
 ### group?
 
-> **`optional`** **group**: `string`
+> `optional` **group**: `string`
 
 id of the target technology group
 required field if you don’t specify technology, category  or keyword
@@ -98,15 +98,15 @@ example:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`group`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#group)
 
-#### Source
+#### Defined in
 
-main.ts:76906
+main.ts:77502
 
 ***
 
 ### internal\_categories\_list\_limit?
 
-> **`optional`** **internal\_categories\_list\_limit**: `number`
+> `optional` **internal\_categories\_list\_limit**: `number`
 
 maximum number of returned technology categories within the same group
 optional field
@@ -119,15 +119,15 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`internal_categories_list_limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_categories_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:76978
+main.ts:77574
 
 ***
 
 ### internal\_groups\_list\_limit?
 
-> **`optional`** **internal\_groups\_list\_limit**: `number`
+> `optional` **internal\_groups\_list\_limit**: `number`
 
 maximum number of returned technology groups
 optional field
@@ -140,15 +140,15 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`internal_groups_list_limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_groups_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:76971
+main.ts:77567
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of items with identical "category", "group", and "technology"
 optional field
@@ -162,15 +162,15 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:76993
+main.ts:77589
 
 ***
 
 ### internal\_technologies\_list\_limit?
 
-> **`optional`** **internal\_technologies\_list\_limit**: `number`
+> `optional` **internal\_technologies\_list\_limit**: `number`
 
 maximum number of returned technologies within the same category
 optional field
@@ -183,15 +183,15 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`internal_technologies_list_limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#internal_technologies_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:76985
+main.ts:77581
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 target keyword in the domain’s meta keywords
 required field if you don’t specify group, category or technology
@@ -204,15 +204,15 @@ example:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`keyword`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:76927
+main.ts:77523
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned technologies
 optional field
@@ -223,15 +223,15 @@ maximum value: 10000
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`limit`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:76998
+main.ts:77594
 
 ***
 
 ### mode?
 
-> **`optional`** **mode**: `string`
+> `optional` **mode**: `string`
 
 search mode
 optional field
@@ -244,15 +244,15 @@ default value: as_is
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`mode`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#mode)
 
-#### Source
+#### Defined in
 
-main.ts:76934
+main.ts:77530
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned domains
 optional field
@@ -264,15 +264,15 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`offset`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:77004
+main.ts:77600
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -294,15 +294,15 @@ default value:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`order_by`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:76964
+main.ts:77560
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -314,15 +314,15 @@ you will find the specified tag value in the data object of the response
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`tag`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:77010
+main.ts:77606
 
 ***
 
 ### technology?
 
-> **`optional`** **technology**: `string`
+> `optional` **technology**: `string`
 
 target technology
 required field if you don’t specify group, keyword or category
@@ -335,9 +335,9 @@ example:
 
 [`IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md).[`technology`](../interfaces/IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md#technology)
 
-#### Source
+#### Defined in
 
-main.ts:76920
+main.ts:77516
 
 ## Methods
 
@@ -353,9 +353,9 @@ main.ts:76920
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:77023
+main.ts:77619
 
 ***
 
@@ -371,15 +371,15 @@ main.ts:77023
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:77061
+main.ts:77657
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
 
 #### Parameters
 
@@ -389,6 +389,6 @@ main.ts:77061
 
 [`DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:77054
+main.ts:77650

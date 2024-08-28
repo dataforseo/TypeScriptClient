@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo(data)
+### new BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo()
 
 > **new BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:212570
+main.ts:214420
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,15 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:212542
+main.ts:214392
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
@@ -63,15 +63,15 @@ learn more about the identifier in this help center article
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`cid`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#cid)
 
-#### Source
+#### Defined in
 
-main.ts:212551
+main.ts:214401
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,15 @@ example:
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:212547
+main.ts:214397
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 unique identifier of the SERP feature
 
@@ -98,15 +98,15 @@ unique identifier of the SERP feature
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`feature_id`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#feature_id)
 
-#### Source
+#### Defined in
 
-main.ts:212553
+main.ts:214403
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 item types
 types of search engine results encountered in the items array;
@@ -116,15 +116,15 @@ possible item types: google_business_question_item
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`item_types`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:212557
+main.ts:214407
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)[]
+> `optional` **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)[]
 
 array of items within google_business_question_item
 contains answers to the google business questions;
@@ -135,15 +135,15 @@ possible item types google_business_answer_element
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:212566
+main.ts:214416
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of items in the items array
 
@@ -151,15 +151,15 @@ the number of items in the items array
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:212561
+main.ts:214411
 
 ***
 
 ### items\_without\_answers?
 
-> **`optional`** **items\_without\_answers**: [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)[]
+> `optional` **items\_without\_answers**: [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)[]
 
 array of google business question items without answers
 
@@ -167,15 +167,15 @@ array of google business question items without answers
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`items_without_answers`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#items_without_answers)
 
-#### Source
+#### Defined in
 
-main.ts:212559
+main.ts:214409
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -188,15 +188,15 @@ learn more about the parameter in this help center article
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:212533
+main.ts:214383
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -204,15 +204,15 @@ language code in a POST array
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:212539
+main.ts:214389
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -220,15 +220,15 @@ location code in a POST array
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:212537
+main.ts:214387
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain as specified in a POST array
 
@@ -236,9 +236,9 @@ search engine domain as specified in a POST array
 
 [`IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md).[`se_domain`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:212535
+main.ts:214385
 
 ## Methods
 
@@ -254,9 +254,9 @@ main.ts:212535
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:212579
+main.ts:214429
 
 ***
 
@@ -272,15 +272,15 @@ main.ts:212579
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:212619
+main.ts:214469
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)
 
 #### Parameters
 
@@ -290,6 +290,6 @@ main.ts:212619
 
 [`BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo`](BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:212612
+main.ts:214462

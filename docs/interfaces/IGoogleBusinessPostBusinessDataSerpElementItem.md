@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,150 +18,150 @@
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 author of the post
 
-#### Source
+#### Defined in
 
-main.ts:205524
+main.ts:207374
 
 ***
 
 ### images\_url?
 
-> **`optional`** **images\_url**: `string`
+> `optional` **images\_url**: `string`
 
 url of an image included in the post
 
-#### Source
+#### Defined in
 
-main.ts:205532
+main.ts:207382
 
 ***
 
 ### links?
 
-> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 links included in the post
 
-#### Source
+#### Defined in
 
-main.ts:205543
+main.ts:207393
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values: right
 
-#### Source
+#### Defined in
 
-main.ts:205520
+main.ts:207370
 
 ***
 
 ### post\_date?
 
-> **`optional`** **post\_date**: `string`
+> `optional` **post\_date**: `string`
 
 date when a post was published
 in the following format:
 "mm/dd/yyyy hh:mm:ss"
 
-#### Source
+#### Defined in
 
-main.ts:205536
+main.ts:207386
 
 ***
 
 ### post\_text?
 
-> **`optional`** **post\_text**: `string`
+> `optional` **post\_text**: `string`
 
 main content of a post
 
-#### Source
+#### Defined in
 
-main.ts:205528
+main.ts:207378
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed updates
 absolute position among all present elements
 
-#### Source
+#### Defined in
 
-main.ts:205517
+main.ts:207367
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:205514
+main.ts:207364
 
 ***
 
 ### snippet?
 
-> **`optional`** **snippet**: `string`
+> `optional` **snippet**: `string`
 
 additional content of a post
 
-#### Source
+#### Defined in
 
-main.ts:205526
+main.ts:207376
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 time when a post was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:205541
+main.ts:207391
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 url of a post
 
-#### Source
+#### Defined in
 
-main.ts:205530
+main.ts:207380
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:205522
+main.ts:207372

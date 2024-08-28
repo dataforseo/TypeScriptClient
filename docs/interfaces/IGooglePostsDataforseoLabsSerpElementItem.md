@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,86 +18,88 @@
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
+unique id of a local establishment;
+can be used with Google Reviews API to get a full list of reviews
 
-#### Source
+#### Defined in
 
-main.ts:99983
+main.ts:100561
 
 ***
 
 ### feature?
 
-> **`optional`** **feature**: `string`
+> `optional` **feature**: `string`
 
 the additional feature of the review
 
-#### Source
+#### Defined in
 
-main.ts:99981
+main.ts:100557
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:99975
+main.ts:100551
 
 ***
 
 ### posts\_id?
 
-> **`optional`** **posts\_id**: `string`
+> `optional` **posts\_id**: `string`
 
 the identifier of the google_posts feature
 
-#### Source
+#### Defined in
 
-main.ts:99979
+main.ts:100555
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:99971
+main.ts:100547
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:99968
+main.ts:100544
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:99977
+main.ts:100553

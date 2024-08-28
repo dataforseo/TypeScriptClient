@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageDuplicateTagsItem(data)
+### new OnPageDuplicateTagsItem()
 
 > **new OnPageDuplicateTagsItem**(`data`?): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:158726
+main.ts:160558
 
 ## Properties
 
 ### accumulator?
 
-> **`optional`** **accumulator**: `string`
+> `optional` **accumulator**: `string`
 
 contains the value of duplicated tag
 
@@ -44,15 +44,15 @@ contains the value of duplicated tag
 
 [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md).[`accumulator`](../interfaces/IOnPageDuplicateTagsItem.md#accumulator)
 
-#### Source
+#### Defined in
 
-main.ts:158718
+main.ts:160550
 
 ***
 
 ### pages?
 
-> **`optional`** **pages**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
+> `optional` **pages**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
 pages with duplicate tags
 
@@ -60,15 +60,15 @@ pages with duplicate tags
 
 [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md).[`pages`](../interfaces/IOnPageDuplicateTagsItem.md#pages)
 
-#### Source
+#### Defined in
 
-main.ts:158722
+main.ts:160554
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total count of duplicate pages
 
@@ -76,9 +76,9 @@ total count of duplicate pages
 
 [`IOnPageDuplicateTagsItem`](../interfaces/IOnPageDuplicateTagsItem.md).[`total_count`](../interfaces/IOnPageDuplicateTagsItem.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:158720
+main.ts:160552
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:158720
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:158735
+main.ts:160567
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:158735
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:158758
+main.ts:160590
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
+> `static` **fromJS**(`data`): [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:158758
 
 [`OnPageDuplicateTagsItem`](OnPageDuplicateTagsItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:158751
+main.ts:160583

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new DatasetSerpElementItem(data)
+### new DatasetSerpElementItem()
 
 > **new DatasetSerpElementItem**(`data`?): [`DatasetSerpElementItem`](DatasetSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:55226
+main.ts:55758
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### area\_covered?
 
-> **`optional`** **area\_covered**: `string`[]
+> `optional` **area\_covered**: `string`[]
 
 the list of areas covered in the dataset
 for example: Africa, Global
@@ -67,15 +67,15 @@ for example: Africa, Global
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`area_covered`](../interfaces/IDatasetSerpElementItem.md#area_covered)
 
-#### Source
+#### Defined in
 
-main.ts:55218
+main.ts:55750
 
 ***
 
 ### authors?
 
-> **`optional`** **authors**: [`AuthorsElement`](AuthorsElement.md)[]
+> `optional` **authors**: [`AuthorsElement`](AuthorsElement.md)[]
 
 the list of authors of the dataset
 
@@ -83,15 +83,15 @@ the list of authors of the dataset
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`authors`](../interfaces/IDatasetSerpElementItem.md#authors)
 
-#### Source
+#### Defined in
 
-main.ts:55208
+main.ts:55740
 
 ***
 
 ### dataset\_description?
 
-> **`optional`** **dataset\_description**: [`DatasetDescription`](DatasetDescription.md)
+> `optional` **dataset\_description**: [`DatasetDescription`](DatasetDescription.md)
 
 description of the dataset
 
@@ -99,15 +99,15 @@ description of the dataset
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`dataset_description`](../interfaces/IDatasetSerpElementItem.md#dataset_description)
 
-#### Source
+#### Defined in
 
-main.ts:55222
+main.ts:55754
 
 ***
 
 ### dataset\_id?
 
-> **`optional`** **dataset\_id**: `string`
+> `optional` **dataset\_id**: `string`
 
 ID of the dataset
 
@@ -115,15 +115,15 @@ ID of the dataset
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`dataset_id`](../interfaces/IDatasetSerpElementItem.md#dataset_id)
 
-#### Source
+#### Defined in
 
-main.ts:55180
+main.ts:55712
 
 ***
 
 ### dataset\_providers?
 
-> **`optional`** **dataset\_providers**: [`LicensesElement`](LicensesElement.md)[]
+> `optional` **dataset\_providers**: [`LicensesElement`](LicensesElement.md)[]
 
 the list of institutions that provided the dataset
 
@@ -131,15 +131,15 @@ the list of institutions that provided the dataset
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`dataset_providers`](../interfaces/IDatasetSerpElementItem.md#dataset_providers)
 
-#### Source
+#### Defined in
 
-main.ts:55204
+main.ts:55736
 
 ***
 
 ### formats?
 
-> **`optional`** **formats**: [`FormatsElement`](FormatsElement.md)[]
+> `optional` **formats**: [`FormatsElement`](FormatsElement.md)[]
 
 the list of file formats of the dataset
 
@@ -147,15 +147,15 @@ the list of file formats of the dataset
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`formats`](../interfaces/IDatasetSerpElementItem.md#formats)
 
-#### Source
+#### Defined in
 
-main.ts:55206
+main.ts:55738
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -164,15 +164,15 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`image_url`](../interfaces/IDatasetSerpElementItem.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:55185
+main.ts:55717
 
 ***
 
 ### licenses?
 
-> **`optional`** **licenses**: [`LicensesElement`](LicensesElement.md)[]
+> `optional` **licenses**: [`LicensesElement`](LicensesElement.md)[]
 
 the list of licenses issued to the dataset
 
@@ -180,15 +180,15 @@ the list of licenses issued to the dataset
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`licenses`](../interfaces/IDatasetSerpElementItem.md#licenses)
 
-#### Source
+#### Defined in
 
-main.ts:55210
+main.ts:55742
 
 ***
 
 ### links?
 
-> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
+> `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google Dataset’s search results
@@ -198,15 +198,15 @@ if there are none, equals null
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`links`](../interfaces/IDatasetSerpElementItem.md#links)
 
-#### Source
+#### Defined in
 
-main.ts:55202
+main.ts:55734
 
 ***
 
 ### period\_covered?
 
-> **`optional`** **period\_covered**: [`PeriodCovered`](PeriodCovered.md)
+> `optional` **period\_covered**: [`PeriodCovered`](PeriodCovered.md)
 
 period covered in the dataset
 
@@ -214,15 +214,15 @@ period covered in the dataset
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`period_covered`](../interfaces/IDatasetSerpElementItem.md#period_covered)
 
-#### Source
+#### Defined in
 
-main.ts:55220
+main.ts:55752
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -232,15 +232,15 @@ left, right
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`position`](../interfaces/IDatasetSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:55176
+main.ts:55708
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -249,15 +249,15 @@ absolute position among all the elements in SERP
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`rank_absolute`](../interfaces/IDatasetSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:55172
+main.ts:55704
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -267,15 +267,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`rank_group`](../interfaces/IDatasetSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:55169
+main.ts:55701
 
 ***
 
 ### related\_article?
 
-> **`optional`** **related\_article**: `string`
+> `optional` **related\_article**: `string`
 
 link to related article
 link to the published article that is related to the dataset
@@ -284,15 +284,15 @@ link to the published article that is related to the dataset
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`related_article`](../interfaces/IDatasetSerpElementItem.md#related_article)
 
-#### Source
+#### Defined in
 
-main.ts:55198
+main.ts:55730
 
 ***
 
 ### scholarly\_articles\_url?
 
-> **`optional`** **scholarly\_articles\_url**: `string`
+> `optional` **scholarly\_articles\_url**: `string`
 
 url of scholarly articles
 link to the list of scholarly articles on Google Scholar
@@ -302,15 +302,15 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`scholarly_articles_url`](../interfaces/IDatasetSerpElementItem.md#scholarly_articles_url)
 
-#### Source
+#### Defined in
 
-main.ts:55191
+main.ts:55723
 
 ***
 
 ### scholarly\_citations\_count?
 
-> **`optional`** **scholarly\_citations\_count**: `number`
+> `optional` **scholarly\_citations\_count**: `number`
 
 count of articles that refer to the dataset
 
@@ -318,15 +318,15 @@ count of articles that refer to the dataset
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`scholarly_citations_count`](../interfaces/IDatasetSerpElementItem.md#scholarly_citations_count)
 
-#### Source
+#### Defined in
 
-main.ts:55187
+main.ts:55719
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the result in SERP
 
@@ -334,15 +334,15 @@ title of the result in SERP
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`title`](../interfaces/IDatasetSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:55182
+main.ts:55714
 
 ***
 
 ### unique\_identifier?
 
-> **`optional`** **unique\_identifier**: `string`
+> `optional` **unique\_identifier**: `string`
 
 digital identifier of an object
 unique digital identifier of the dataset
@@ -352,15 +352,15 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`unique_identifier`](../interfaces/IDatasetSerpElementItem.md#unique_identifier)
 
-#### Source
+#### Defined in
 
-main.ts:55195
+main.ts:55727
 
 ***
 
 ### updated\_date?
 
-> **`optional`** **updated\_date**: `string`
+> `optional` **updated\_date**: `string`
 
 date and time when the result was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -371,15 +371,15 @@ example:
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`updated_date`](../interfaces/IDatasetSerpElementItem.md#updated_date)
 
-#### Source
+#### Defined in
 
-main.ts:55215
+main.ts:55747
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -387,9 +387,9 @@ the XPath of the element
 
 [`IDatasetSerpElementItem`](../interfaces/IDatasetSerpElementItem.md).[`xpath`](../interfaces/IDatasetSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:55178
+main.ts:55710
 
 ## Methods
 
@@ -409,9 +409,9 @@ main.ts:55178
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:55231
+main.ts:55763
 
 ***
 
@@ -431,15 +431,15 @@ main.ts:55231
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:55292
+main.ts:55824
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DatasetSerpElementItem`](DatasetSerpElementItem.md)
+> `static` **fromJS**(`data`): [`DatasetSerpElementItem`](DatasetSerpElementItem.md)
 
 #### Parameters
 
@@ -453,6 +453,6 @@ main.ts:55292
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:55285
+main.ts:55817

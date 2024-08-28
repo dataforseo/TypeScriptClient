@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,66 +14,66 @@
 
 ### mentions?
 
-> **`optional`** **mentions**: [`ReviewMentionInfo`](../classes/ReviewMentionInfo.md)[]
+> `optional` **mentions**: [`ReviewMentionInfo`](../classes/ReviewMentionInfo.md)[]
 
 hotel mentions
 information about hotel reviews by criteria
 
-#### Source
+#### Defined in
 
-main.ts:209093
+main.ts:210943
 
 ***
 
 ### other\_sites\_reviews?
 
-> **`optional`** **other\_sites\_reviews**: [`OtherSitesReviewsInfo`](../classes/OtherSitesReviewsInfo.md)[]
+> `optional` **other\_sites\_reviews**: [`OtherSitesReviewsInfo`](../classes/OtherSitesReviewsInfo.md)[]
 
 reviews on third-party sites
 reviews from third-paty sites
 
-#### Source
+#### Defined in
 
-main.ts:209099
+main.ts:210949
 
 ***
 
 ### rating\_distribution?
 
-> **`optional`** **rating\_distribution**: `Object`
+> `optional` **rating\_distribution**: `object`
 
 rating distribution by votes
 the distribution of votes across the rating in the range from 1 to 5
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:209096
+main.ts:210946
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 overall hotel rating based on customer votes
 
-#### Source
+#### Defined in
 
-main.ts:209087
+main.ts:210937
 
 ***
 
 ### votes\_count?
 
-> **`optional`** **votes\_count**: `number`
+> `optional` **votes\_count**: `number`
 
 number of customer votes
 the number of customer votes included in the calculation of the hotel rating
 
-#### Source
+#### Defined in
 
-main.ts:209090
+main.ts:210940

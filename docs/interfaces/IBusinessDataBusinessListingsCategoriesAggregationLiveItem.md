@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### aggregation?
 
-> **`optional`** **aggregation**: [`BusinessListingAggregationInfo`](../classes/BusinessListingAggregationInfo.md)
+> `optional` **aggregation**: [`BusinessListingAggregationInfo`](../classes/BusinessListingAggregationInfo.md)
 
 aggregation of the category
 
-#### Source
+#### Defined in
 
-main.ts:202554
+main.ts:204398
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 business categories
 Google My Business general category that best describes the cluster of related categories
 
-#### Source
+#### Defined in
 
-main.ts:202552
+main.ts:204396
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:202549
+main.ts:204393

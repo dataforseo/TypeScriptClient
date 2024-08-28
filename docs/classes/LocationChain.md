@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new LocationChain(data)
+### new LocationChain()
 
 > **new LocationChain**(`data`?): [`LocationChain`](LocationChain.md)
 
@@ -28,15 +28,15 @@
 
 [`LocationChain`](LocationChain.md)
 
-#### Source
+#### Defined in
 
-main.ts:208644
+main.ts:210494
 
 ## Properties
 
 ### card\_id?
 
-> **`optional`** **card\_id**: `string`
+> `optional` **card\_id**: `string`
 
 card identifier
 
@@ -44,15 +44,15 @@ card identifier
 
 [`ILocationChain`](../interfaces/ILocationChain.md).[`card_id`](../interfaces/ILocationChain.md#card_id)
 
-#### Source
+#### Defined in
 
-main.ts:208632
+main.ts:210482
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 client id
 learn more about the identifier in this help center article
@@ -61,15 +61,15 @@ learn more about the identifier in this help center article
 
 [`ILocationChain`](../interfaces/ILocationChain.md).[`cid`](../interfaces/ILocationChain.md#cid)
 
-#### Source
+#### Defined in
 
-main.ts:208638
+main.ts:210488
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 feature identifier
 learn more about the identifier in this help center article
@@ -78,15 +78,15 @@ learn more about the identifier in this help center article
 
 [`ILocationChain`](../interfaces/ILocationChain.md).[`feature_id`](../interfaces/ILocationChain.md#feature_id)
 
-#### Source
+#### Defined in
 
-main.ts:208635
+main.ts:210485
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element in the location chain
 
@@ -94,9 +94,9 @@ title of the element in the location chain
 
 [`ILocationChain`](../interfaces/ILocationChain.md).[`title`](../interfaces/ILocationChain.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:208640
+main.ts:210490
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:208640
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:208653
+main.ts:210503
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:208653
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:208673
+main.ts:210523
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LocationChain`](LocationChain.md)
+> `static` **fromJS**(`data`): [`LocationChain`](LocationChain.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:208673
 
 [`LocationChain`](LocationChain.md)
 
-#### Source
+#### Defined in
 
-main.ts:208666
+main.ts:210516

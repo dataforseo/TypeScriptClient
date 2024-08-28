@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,47 +14,47 @@
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
-you can use the % operator with like and not_like to match any string of zero or more characters
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["median_position","in",[1,10]]
 [["median_position","in",[1,10]],"and",["domain","not_like","%wikipedia.org%"]]
 [["domain","not_like","%wikipedia.org%"],
 "and",
-[["relevant_serp_items",">`",0],"or",["median_position","in",[1,10]]]]
+[["relevant_serp_items",">",0],"or",["median_position","in",[1,10]]]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:112882
+main.ts:113514
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:112849
+main.ts:113481
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 search results type
 indicates type of search results included in the response
@@ -64,15 +64,15 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Source
+#### Defined in
 
-main.ts:112857
+main.ts:113489
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords array
 required field
@@ -82,15 +82,15 @@ the keywords will be converted to lowercase format;
 a keyword should be at least 3 characters long;
 you can specify the maximum of 200 keywords
 
-#### Source
+#### Defined in
 
-main.ts:112810
+main.ts:113442
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 unique language identifier
 required field if you don’t specify language_name
@@ -100,15 +100,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:112844
+main.ts:113476
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -118,30 +118,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:112836
+main.ts:113468
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:112862
+main.ts:113494
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 unique location identifier
 required field if you don’t specify location_name
@@ -152,15 +152,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:112828
+main.ts:113460
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -171,30 +171,30 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Source
+#### Defined in
 
-main.ts:112819
+main.ts:113451
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive domains
 
-#### Source
+#### Defined in
 
-main.ts:112867
+main.ts:113499
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -212,15 +212,15 @@ you should use a comma to separate several sorting rules
 example:
 ["avg_position,asc","etv,desc"]
 
-#### Source
+#### Defined in
 
-main.ts:112898
+main.ts:113530
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -228,6 +228,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:112904
+main.ts:113536

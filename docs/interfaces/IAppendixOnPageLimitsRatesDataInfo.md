@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,198 +14,198 @@
 
 ### content\_parsing?
 
-> **`optional`** **content\_parsing**: `number`
+> `optional` **content\_parsing**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219666
+main.ts:221574
 
 ***
 
 ### content\_parsing\_live?
 
-> **`optional`** **content\_parsing\_live**: `number`
+> `optional` **content\_parsing\_live**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219667
+main.ts:221575
 
 ***
 
 ### duplicate\_content?
 
-> **`optional`** **duplicate\_content**: `number`
+> `optional` **duplicate\_content**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219659
+main.ts:221567
 
 ***
 
 ### duplicate\_tags?
 
-> **`optional`** **duplicate\_tags**: `number`
+> `optional` **duplicate\_tags**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219654
+main.ts:221562
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219657
+main.ts:221565
 
 ***
 
 ### instant\_pages?
 
-> **`optional`** **instant\_pages**: `number`
+> `optional` **instant\_pages**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219661
+main.ts:221569
 
 ***
 
 ### keyword\_density?
 
-> **`optional`** **keyword\_density**: `number`
+> `optional` **keyword\_density**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219664
+main.ts:221572
 
 ***
 
 ### lighthouse?
 
-> **`optional`** **lighthouse**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **lighthouse**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219663
+main.ts:221571
 
 ***
 
 ### links?
 
-> **`optional`** **links**: `number`
+> `optional` **links**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219655
+main.ts:221563
 
 ***
 
 ### non\_indexable?
 
-> **`optional`** **non\_indexable**: `number`
+> `optional` **non\_indexable**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219653
+main.ts:221561
 
 ***
 
 ### page\_screenshot?
 
-> **`optional`** **page\_screenshot**: `number`
+> `optional` **page\_screenshot**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219665
+main.ts:221573
 
 ***
 
 ### pages?
 
-> **`optional`** **pages**: `number`
+> `optional` **pages**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219652
+main.ts:221560
 
 ***
 
 ### pages\_by\_resource?
 
-> **`optional`** **pages\_by\_resource**: `number`
+> `optional` **pages\_by\_resource**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219658
+main.ts:221566
 
 ***
 
 ### raw\_html?
 
-> **`optional`** **raw\_html**: `number`
+> `optional` **raw\_html**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219660
+main.ts:221568
 
 ***
 
 ### redirect\_chains?
 
-> **`optional`** **redirect\_chains**: `number`
+> `optional` **redirect\_chains**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219662
+main.ts:221570
 
 ***
 
 ### resources?
 
-> **`optional`** **resources**: `number`
+> `optional` **resources**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219651
+main.ts:221559
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: `number`
+> `optional` **summary**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219650
+main.ts:221558
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: `number`
+> `optional` **task\_post**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219648
+main.ts:221556
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219649
+main.ts:221557
 
 ***
 
 ### waterfall?
 
-> **`optional`** **waterfall**: `number`
+> `optional` **waterfall**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219656
+main.ts:221564

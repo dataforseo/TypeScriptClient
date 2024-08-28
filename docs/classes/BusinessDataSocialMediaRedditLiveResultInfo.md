@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataSocialMediaRedditLiveResultInfo(data)
+### new BusinessDataSocialMediaRedditLiveResultInfo()
 
 > **new BusinessDataSocialMediaRedditLiveResultInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218165
+main.ts:220017
 
 ## Properties
 
 ### page\_url?
 
-> **`optional`** **page\_url**: `string`
+> `optional` **page\_url**: `string`
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -45,15 +45,15 @@ corresponding URL you specified in the targets array when setting a task
 
 [`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md).[`page_url`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md#page_url)
 
-#### Source
+#### Defined in
 
-main.ts:218159
+main.ts:220011
 
 ***
 
 ### reddit\_reviews?
 
-> **`optional`** **reddit\_reviews**: [`RedditReviews`](RedditReviews.md)[]
+> `optional` **reddit\_reviews**: [`RedditReviews`](RedditReviews.md)[]
 
 reddit reviews for the page_url
 
@@ -61,15 +61,15 @@ reddit reviews for the page_url
 
 [`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md).[`reddit_reviews`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md#reddit_reviews)
 
-#### Source
+#### Defined in
 
-main.ts:218161
+main.ts:220013
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -77,9 +77,9 @@ type of element
 
 [`IBusinessDataSocialMediaRedditLiveResultInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md).[`type`](../interfaces/IBusinessDataSocialMediaRedditLiveResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:218156
+main.ts:220008
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:218156
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:218174
+main.ts:220026
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:218174
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:218197
+main.ts:220049
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:218197
 
 [`BusinessDataSocialMediaRedditLiveResultInfo`](BusinessDataSocialMediaRedditLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218190
+main.ts:220042

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### image\_alt?
 
-> **`optional`** **image\_alt**: `string`
+> `optional` **image\_alt**: `string`
 
 the alt tag of the product image featured in the results
 
-#### Source
+#### Defined in
 
-main.ts:22117
+main.ts:22299
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the product image featured in the results
 
-#### Source
+#### Defined in
 
-main.ts:22119
+main.ts:22301
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
-#### Source
+#### Defined in
 
-main.ts:22113
+main.ts:22295
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:22111
+main.ts:22293
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 the URL of the product page
 
-#### Source
+#### Defined in
 
-main.ts:22115
+main.ts:22297

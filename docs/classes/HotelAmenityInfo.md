@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new HotelAmenityInfo(data)
+### new HotelAmenityInfo()
 
 > **new HotelAmenityInfo**(`data`?): [`HotelAmenityInfo`](HotelAmenityInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`HotelAmenityInfo`](HotelAmenityInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:208430
+main.ts:210280
 
 ## Properties
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 standardised category of the ammenity
 
@@ -44,15 +44,15 @@ standardised category of the ammenity
 
 [`IHotelAmenityInfo`](../interfaces/IHotelAmenityInfo.md).[`category`](../interfaces/IHotelAmenityInfo.md#category)
 
-#### Source
+#### Defined in
 
-main.ts:208422
+main.ts:210272
 
 ***
 
 ### category\_label?
 
-> **`optional`** **category\_label**: `string`
+> `optional` **category\_label**: `string`
 
 label of the category
 
@@ -60,15 +60,15 @@ label of the category
 
 [`IHotelAmenityInfo`](../interfaces/IHotelAmenityInfo.md).[`category_label`](../interfaces/IHotelAmenityInfo.md#category_label)
 
-#### Source
+#### Defined in
 
-main.ts:208424
+main.ts:210274
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)[]
+> `optional` **items**: [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)[]
 
 specific amenities and details
 
@@ -76,9 +76,9 @@ specific amenities and details
 
 [`IHotelAmenityInfo`](../interfaces/IHotelAmenityInfo.md).[`items`](../interfaces/IHotelAmenityInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:208426
+main.ts:210276
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:208426
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:208439
+main.ts:210289
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:208439
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:208462
+main.ts:210312
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`HotelAmenityInfo`](HotelAmenityInfo.md)
+> `static` **fromJS**(`data`): [`HotelAmenityInfo`](HotelAmenityInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:208462
 
 [`HotelAmenityInfo`](HotelAmenityInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:208455
+main.ts:210305

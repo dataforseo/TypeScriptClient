@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,47 +14,47 @@
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
-#### Source
+#### Defined in
 
-main.ts:154645
+main.ts:156471
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Source
+#### Defined in
 
-main.ts:154641
+main.ts:156467
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
-#### Source
+#### Defined in
 
-main.ts:154647
+main.ts:156473
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target website specified when setting a task
 
-#### Source
+#### Defined in
 
-main.ts:154643
+main.ts:156469

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,48 +14,48 @@
 
 ### topic\_id?
 
-> **`optional`** **topic\_id**: `string`
+> `optional` **topic\_id**: `string`
 
 unique topic identifier in Google Trends
 
-#### Source
+#### Defined in
 
-main.ts:128000
+main.ts:127824
 
 ***
 
 ### topic\_title?
 
-> **`optional`** **topic\_title**: `string`
+> `optional` **topic\_title**: `string`
 
 title of the topic
 
-#### Source
+#### Defined in
 
-main.ts:128002
+main.ts:127826
 
 ***
 
 ### topic\_type?
 
-> **`optional`** **topic\_type**: `string`
+> `optional` **topic\_type**: `string`
 
 type of the topic
 represents the general type of the topic
 
-#### Source
+#### Defined in
 
-main.ts:128005
+main.ts:127829
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `string`
+> `optional` **value**: `string`
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
 
-#### Source
+#### Defined in
 
-main.ts:128008
+main.ts:127832

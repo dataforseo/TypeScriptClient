@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### available\_locations?
 
-> **`optional`** **available\_locations**: [`AvailableLocations`](../classes/AvailableLocations.md)[]
+> `optional` **available\_locations**: [`AvailableLocations`](../classes/AvailableLocations.md)[]
 
 array of available locations for a certain language
 
-#### Source
+#### Defined in
 
-main.ts:137225
+main.ts:137051
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
-#### Source
+#### Defined in
 
-main.ts:137223
+main.ts:137049
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
-#### Source
+#### Defined in
 
-main.ts:137221
+main.ts:137047

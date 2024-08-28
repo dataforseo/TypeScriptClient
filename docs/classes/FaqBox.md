@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new FaqBox(data)
+### new FaqBox()
 
 > **new FaqBox**(`data`?): [`FaqBox`](FaqBox.md)
 
@@ -28,15 +28,15 @@
 
 [`FaqBox`](FaqBox.md)
 
-#### Source
+#### Defined in
 
-main.ts:29421
+main.ts:29603
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`FaqBoxElement`](FaqBoxElement.md)[]
+> `optional` **items**: [`FaqBoxElement`](FaqBoxElement.md)[]
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
@@ -44,15 +44,15 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 [`IFaqBox`](../interfaces/IFaqBox.md).[`items`](../interfaces/IFaqBox.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:29417
+main.ts:29599
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -60,9 +60,9 @@ type of element
 
 [`IFaqBox`](../interfaces/IFaqBox.md).[`type`](../interfaces/IFaqBox.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:29415
+main.ts:29597
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:29415
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:29430
+main.ts:29612
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:29430
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:29452
+main.ts:29634
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`FaqBox`](FaqBox.md)
+> `static` **fromJS**(`data`): [`FaqBox`](FaqBox.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:29452
 
 [`FaqBox`](FaqBox.md)
 
-#### Source
+#### Defined in
 
-main.ts:29445
+main.ts:29627

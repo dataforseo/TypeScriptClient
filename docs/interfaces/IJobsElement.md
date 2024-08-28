@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,109 +14,109 @@
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 author
 
-#### Source
+#### Defined in
 
-main.ts:30927
+main.ts:31123
 
 ***
 
 ### contract\_type?
 
-> **`optional`** **contract\_type**: `string`
+> `optional` **contract\_type**: `string`
 
 contract type
 
-#### Source
+#### Defined in
 
-main.ts:30936
+main.ts:31132
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
-#### Source
+#### Defined in
 
-main.ts:30925
+main.ts:31121
 
 ***
 
 ### job\_posted\_time?
 
-> **`optional`** **job\_posted\_time**: `string`
+> `optional` **job\_posted\_time**: `string`
 
 the time when the job was posted
 
-#### Source
+#### Defined in
 
-main.ts:30929
+main.ts:31125
 
 ***
 
 ### salary?
 
-> **`optional`** **salary**: `string`
+> `optional` **salary**: `string`
 
 salary
 
-#### Source
+#### Defined in
 
-main.ts:30938
+main.ts:31134
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:30934
+main.ts:31130
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:30923
+main.ts:31119
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:30921
+main.ts:31117
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
-#### Source
+#### Defined in
 
-main.ts:30940
+main.ts:31136

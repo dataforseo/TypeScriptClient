@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,104 +18,104 @@
 
 ### items?
 
-> **`optional`** **items**: [`FoundOnWebElement`](../classes/FoundOnWebElement.md)[]
+> `optional` **items**: [`FoundOnWebElement`](../classes/FoundOnWebElement.md)[]
 
 additional items present in the element
 if there are none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:36624
+main.ts:36820
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:36615
+main.ts:36811
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 always equals 0 for desktop
 
-#### Source
+#### Defined in
 
-main.ts:36611
+main.ts:36807
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
 positions of elements with different type values are omitted from rank_group;
 always equals 0 for desktop
 
-#### Source
+#### Defined in
 
-main.ts:36607
+main.ts:36803
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
 equals null if calculate_rectangles in the POST request is not set to true
 
-#### Source
+#### Defined in
 
-main.ts:36628
+main.ts:36824
 
 ***
 
 ### related\_searches?
 
-> **`optional`** **related\_searches**: `string`[]
+> `optional` **related\_searches**: `string`[]
 
 search queries related to the elment
 
-#### Source
+#### Defined in
 
-main.ts:36621
+main.ts:36817
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the row
 
-#### Source
+#### Defined in
 
-main.ts:36619
+main.ts:36815
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:36617
+main.ts:36813

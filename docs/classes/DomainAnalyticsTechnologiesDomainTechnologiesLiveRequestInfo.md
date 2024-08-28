@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo(data)
+### new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo()
 
 > **new DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:79554
+main.ts:80150
 
 ## Properties
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain
 required field
@@ -47,9 +47,9 @@ Note: results will be returned for the specified domain only
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md).[`target`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:79550
+main.ts:80146
 
 ## Methods
 
@@ -65,9 +65,9 @@ main.ts:79550
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:79563
+main.ts:80159
 
 ***
 
@@ -83,15 +83,15 @@ main.ts:79563
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:79580
+main.ts:80176
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
 #### Parameters
 
@@ -101,6 +101,6 @@ main.ts:79580
 
 [`DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:79573
+main.ts:80169

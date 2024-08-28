@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleAppCompetitorsLiveItem(data)
+### new DataforseoLabsGoogleAppCompetitorsLiveItem()
 
 > **new DataforseoLabsGoogleAppCompetitorsLiveItem**(`data`?): [`DataforseoLabsGoogleAppCompetitorsLiveItem`](DataforseoLabsGoogleAppCompetitorsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleAppCompetitorsLiveItem`](DataforseoLabsGoogleAppCompetitorsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:115164
+main.ts:115796
 
 ## Properties
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the competitor app
 
@@ -44,15 +44,15 @@ id of the competitor app
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md).[`app_id`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:115143
+main.ts:115775
 
 ***
 
 ### avg\_position?
 
-> **`optional`** **avg\_position**: `number`
+> `optional` **avg\_position**: `number`
 
 average position of the app in Google Play SERP
 Note: average position is calculated for intersected keywords only;
@@ -62,15 +62,15 @@ the value for a given application may differ when combined with different target
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md).[`avg_position`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md#avg_position)
 
-#### Source
+#### Defined in
 
-main.ts:115147
+main.ts:115779
 
 ***
 
 ### competitor\_metrics?
 
-> **`optional`** **competitor\_metrics**: [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
+> `optional` **competitor\_metrics**: [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided competitor application shares with the app in a POST request;
@@ -80,15 +80,15 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md).[`competitor_metrics`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md#competitor_metrics)
 
-#### Source
+#### Defined in
 
-main.ts:115157
+main.ts:115789
 
 ***
 
 ### full\_metrics?
 
-> **`optional`** **full\_metrics**: [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
+> `optional` **full\_metrics**: [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
 metrics for all keywords of the application
 full overview of ranking data relevant to all keywords that the provided app_id is ranking for
@@ -97,15 +97,15 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md).[`full_metrics`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md#full_metrics)
 
-#### Source
+#### Defined in
 
-main.ts:115160
+main.ts:115792
 
 ***
 
 ### intersections?
 
-> **`optional`** **intersections**: `number`
+> `optional` **intersections**: `number`
 
 number of intersecting keywords
 
@@ -113,15 +113,15 @@ number of intersecting keywords
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md).[`intersections`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md#intersections)
 
-#### Source
+#### Defined in
 
-main.ts:115153
+main.ts:115785
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -129,15 +129,15 @@ search engine type
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:115141
+main.ts:115773
 
 ***
 
 ### sum\_position?
 
-> **`optional`** **sum\_position**: `number`
+> `optional` **sum\_position**: `number`
 
 sum of all app positions in Google Play SERP
 Note: sum position is calculated for intersected keywords only;
@@ -147,9 +147,9 @@ the value for a given application may differ when combined with different target
 
 [`IDataforseoLabsGoogleAppCompetitorsLiveItem`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md).[`sum_position`](../interfaces/IDataforseoLabsGoogleAppCompetitorsLiveItem.md#sum_position)
 
-#### Source
+#### Defined in
 
-main.ts:115151
+main.ts:115783
 
 ## Methods
 
@@ -165,9 +165,9 @@ main.ts:115151
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:115173
+main.ts:115805
 
 ***
 
@@ -183,15 +183,15 @@ main.ts:115173
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:115196
+main.ts:115828
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleAppCompetitorsLiveItem`](DataforseoLabsGoogleAppCompetitorsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppCompetitorsLiveItem`](DataforseoLabsGoogleAppCompetitorsLiveItem.md)
 
 #### Parameters
 
@@ -201,6 +201,6 @@ main.ts:115196
 
 [`DataforseoLabsGoogleAppCompetitorsLiveItem`](DataforseoLabsGoogleAppCompetitorsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:115189
+main.ts:115821

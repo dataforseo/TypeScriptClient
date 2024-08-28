@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataIdListRequestInfo(data)
+### new BusinessDataIdListRequestInfo()
 
 > **new BusinessDataIdListRequestInfo**(`data`?): [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:199751
+main.ts:201583
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -50,15 +50,15 @@ example:
 
 [`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`datetime_from`](../interfaces/IBusinessDataIdListRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:199721
+main.ts:201553
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -71,15 +71,15 @@ example:
 
 [`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`datetime_to`](../interfaces/IBusinessDataIdListRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:199728
+main.ts:201560
 
 ***
 
 ### include\_metadata?
 
-> **`optional`** **include\_metadata**: `boolean`
+> `optional` **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,15 @@ default value: false
 
 [`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`include_metadata`](../interfaces/IBusinessDataIdListRequestInfo.md#include_metadata)
 
-#### Source
+#### Defined in
 
-main.ts:199747
+main.ts:201579
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +108,15 @@ maximum value: 1000
 
 [`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`limit`](../interfaces/IBusinessDataIdListRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:199733
+main.ts:201565
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +127,15 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`offset`](../interfaces/IBusinessDataIdListRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:199738
+main.ts:201570
 
 ***
 
 ### sort?
 
-> **`optional`** **sort**: `string`
+> `optional` **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -146,9 +146,9 @@ default value: "asc"
 
 [`IBusinessDataIdListRequestInfo`](../interfaces/IBusinessDataIdListRequestInfo.md).[`sort`](../interfaces/IBusinessDataIdListRequestInfo.md#sort)
 
-#### Source
+#### Defined in
 
-main.ts:199743
+main.ts:201575
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:199743
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:199760
+main.ts:201592
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:199760
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:199782
+main.ts:201614
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:199782
 
 [`BusinessDataIdListRequestInfo`](BusinessDataIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:199775
+main.ts:201607

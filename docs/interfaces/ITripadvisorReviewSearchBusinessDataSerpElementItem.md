@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,164 +18,164 @@
 
 ### date\_of\_visit?
 
-> **`optional`** **date\_of\_visit**: `string`
+> `optional` **date\_of\_visit**: `string`
 
 date of the reviewer’s visit to the local establishment
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:217183
+main.ts:219035
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: right
 
-#### Source
+#### Defined in
 
-main.ts:217174
+main.ts:219026
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
 
-#### Source
+#### Defined in
 
-main.ts:217171
+main.ts:219023
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:217168
+main.ts:219020
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score submitted by the reviewer
 
-#### Source
+#### Defined in
 
-main.ts:217178
+main.ts:219030
 
 ***
 
 ### responses?
 
-> **`optional`** **responses**: [`ReviewResponseItemInfo`](../classes/ReviewResponseItemInfo.md)[]
+> `optional` **responses**: [`ReviewResponseItemInfo`](../classes/ReviewResponseItemInfo.md)[]
 
 contains information about the owner’s response
 
-#### Source
+#### Defined in
 
-main.ts:217198
+main.ts:219050
 
 ***
 
 ### review\_highlights?
 
-> **`optional`** **review\_highlights**: [`ReviewHighlights`](../classes/ReviewHighlights.md)[]
+> `optional` **review\_highlights**: [`ReviewHighlights`](../classes/ReviewHighlights.md)[]
 
 review highlights
 contains highlighted review criteria and assessments
 
-#### Source
+#### Defined in
 
-main.ts:217201
+main.ts:219053
 
 ***
 
 ### review\_images?
 
-> **`optional`** **review\_images**: [`ImageUrlInfo`](../classes/ImageUrlInfo.md)[]
+> `optional` **review\_images**: [`ImageUrlInfo`](../classes/ImageUrlInfo.md)[]
 
 contains URLs of the images used in the review
 
-#### Source
+#### Defined in
 
-main.ts:217194
+main.ts:219046
 
 ***
 
 ### review\_text?
 
-> **`optional`** **review\_text**: `string`
+> `optional` **review\_text**: `string`
 
 content of the review
 
-#### Source
+#### Defined in
 
-main.ts:217192
+main.ts:219044
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:217188
+main.ts:219040
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the review
 
-#### Source
+#### Defined in
 
-main.ts:217190
+main.ts:219042
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the review
 
-#### Source
+#### Defined in
 
-main.ts:217176
+main.ts:219028
 
 ***
 
 ### user\_profile?
 
-> **`optional`** **user\_profile**: [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
+> `optional` **user\_profile**: [`BusinessDataUserProfileInfo`](../classes/BusinessDataUserProfileInfo.md)
 
 information from the reviewer’s profile
 
-#### Source
+#### Defined in
 
-main.ts:217196
+main.ts:219048

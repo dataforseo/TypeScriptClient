@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AuthorsElement(data)
+### new AuthorsElement()
 
 > **new AuthorsElement**(`data`?): [`AuthorsElement`](AuthorsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`AuthorsElement`](AuthorsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:54967
+main.ts:55499
 
 ## Properties
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 author’s link domain
 
@@ -44,15 +44,15 @@ author’s link domain
 
 [`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`domain`](../interfaces/IAuthorsElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:54963
+main.ts:55495
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 name of the dataset author
 
@@ -60,15 +60,15 @@ name of the dataset author
 
 [`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`name`](../interfaces/IAuthorsElement.md#name)
 
-#### Source
+#### Defined in
 
-main.ts:54959
+main.ts:55491
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -76,15 +76,15 @@ type of element
 
 [`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`type`](../interfaces/IAuthorsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:54957
+main.ts:55489
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 author’s link URL
 
@@ -92,9 +92,9 @@ author’s link URL
 
 [`IAuthorsElement`](../interfaces/IAuthorsElement.md).[`url`](../interfaces/IAuthorsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:54961
+main.ts:55493
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:54961
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:54976
+main.ts:55508
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:54976
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:54996
+main.ts:55528
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AuthorsElement`](AuthorsElement.md)
+> `static` **fromJS**(`data`): [`AuthorsElement`](AuthorsElement.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:54996
 
 [`AuthorsElement`](AuthorsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:54989
+main.ts:55521

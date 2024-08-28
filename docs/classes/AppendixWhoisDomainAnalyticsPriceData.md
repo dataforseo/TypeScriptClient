@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixWhoisDomainAnalyticsPriceData(data)
+### new AppendixWhoisDomainAnalyticsPriceData()
 
 > **new AppendixWhoisDomainAnalyticsPriceData**(`data`?): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
@@ -28,23 +28,23 @@
 
 [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:223691
+main.ts:227963
 
 ## Properties
 
 ### overview?
 
-> **`optional`** **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **overview**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixWhoisDomainAnalyticsPriceData`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md).[`overview`](../interfaces/IAppendixWhoisDomainAnalyticsPriceData.md#overview)
 
-#### Source
+#### Defined in
 
-main.ts:223687
+main.ts:227959
 
 ## Methods
 
@@ -60,9 +60,9 @@ main.ts:223687
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:223700
+main.ts:227972
 
 ***
 
@@ -78,15 +78,15 @@ main.ts:223700
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:223717
+main.ts:227989
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
+> `static` **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
 #### Parameters
 
@@ -96,6 +96,6 @@ main.ts:223717
 
 [`AppendixWhoisDomainAnalyticsPriceData`](AppendixWhoisDomainAnalyticsPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:223710
+main.ts:227982

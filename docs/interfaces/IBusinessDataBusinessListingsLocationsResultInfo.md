@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### business\_count?
 
-> **`optional`** **business\_count**: `number`
+> `optional` **business\_count**: `number`
 
 number of businesses in this location in our database
 
-#### Source
+#### Defined in
 
-main.ts:200460
+main.ts:202292
 
 ***
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Source
+#### Defined in
 
-main.ts:200458
+main.ts:202290
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
-#### Source
+#### Defined in
 
-main.ts:200456
+main.ts:202288

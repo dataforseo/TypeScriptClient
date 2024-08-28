@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new KnowledgeGraphSerpElementItem(data)
+### new KnowledgeGraphSerpElementItem()
 
 > **new KnowledgeGraphSerpElementItem**(`data`?): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:29144
+main.ts:29326
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### card\_id?
 
-> **`optional`** **card\_id**: `string`
+> `optional` **card\_id**: `string`
 
 card id
 
@@ -66,15 +66,15 @@ card id
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`card_id`](../interfaces/IKnowledgeGraphSerpElementItem.md#card_id)
 
-#### Source
+#### Defined in
 
-main.ts:29122
+main.ts:29304
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
@@ -84,15 +84,15 @@ can be used with Google Reviews API to get a full list of reviews
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`cid`](../interfaces/IKnowledgeGraphSerpElementItem.md#cid)
 
-#### Source
+#### Defined in
 
-main.ts:29133
+main.ts:29315
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
@@ -100,15 +100,15 @@ description of the results element in SERP
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`description`](../interfaces/IKnowledgeGraphSerpElementItem.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:29120
+main.ts:29302
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -117,15 +117,15 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`image_url`](../interfaces/IKnowledgeGraphSerpElementItem.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:29127
+main.ts:29309
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -134,15 +134,15 @@ if there are none, equals null
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`items`](../interfaces/IKnowledgeGraphSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:29136
+main.ts:29318
 
 ***
 
 ### logo\_url?
 
-> **`optional`** **logo\_url**: `string`
+> `optional` **logo\_url**: `string`
 
 URL of the logo from knowledge graph
 
@@ -150,15 +150,15 @@ URL of the logo from knowledge graph
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`logo_url`](../interfaces/IKnowledgeGraphSerpElementItem.md#logo_url)
 
-#### Source
+#### Defined in
 
-main.ts:29129
+main.ts:29311
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -168,15 +168,15 @@ left, right
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:29112
+main.ts:29294
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -185,15 +185,15 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:29108
+main.ts:29290
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -203,15 +203,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:29105
+main.ts:29287
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -221,15 +221,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`rectangle`](../interfaces/IKnowledgeGraphSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:29140
+main.ts:29322
 
 ***
 
 ### subtitle?
 
-> **`optional`** **subtitle**: `string`
+> `optional` **subtitle**: `string`
 
 subtitle of the item
 
@@ -237,15 +237,15 @@ subtitle of the item
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`subtitle`](../interfaces/IKnowledgeGraphSerpElementItem.md#subtitle)
 
-#### Source
+#### Defined in
 
-main.ts:29118
+main.ts:29300
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the result in SERP
 
@@ -253,15 +253,15 @@ title of the result in SERP
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`title`](../interfaces/IKnowledgeGraphSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:29116
+main.ts:29298
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 relevant URL in SERP
 
@@ -269,15 +269,15 @@ relevant URL in SERP
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`url`](../interfaces/IKnowledgeGraphSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:29124
+main.ts:29306
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -285,9 +285,9 @@ the XPath of the element
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:29114
+main.ts:29296
 
 ## Methods
 
@@ -307,9 +307,9 @@ main.ts:29114
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:29149
+main.ts:29331
 
 ***
 
@@ -329,15 +329,15 @@ main.ts:29149
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:29184
+main.ts:29366
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
+> `static` **fromJS**(`data`): [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 
 #### Parameters
 
@@ -351,6 +351,6 @@ main.ts:29184
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:29177
+main.ts:29359

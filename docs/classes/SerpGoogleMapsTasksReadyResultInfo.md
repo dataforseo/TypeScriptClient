@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleMapsTasksReadyResultInfo(data)
+### new SerpGoogleMapsTasksReadyResultInfo()
 
 > **new SerpGoogleMapsTasksReadyResultInfo**(`data`?): [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:40486
+main.ts:41012
 
 ## Properties
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
@@ -44,15 +44,15 @@ date when the task was posted (in the UTC format)
 
 [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`date_posted`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#date_posted)
 
-#### Source
+#### Defined in
 
-main.ts:40471
+main.ts:40997
 
 ***
 
 ### endpoint\_advanced?
 
-> **`optional`** **endpoint\_advanced**: `string`
+> `optional` **endpoint\_advanced**: `string`
 
 URL for collecting the results of the SERP Advanced task
 if SERP Advanced is not supported in the specified endpoint, the value will be null
@@ -61,15 +61,15 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Source
+#### Defined in
 
-main.ts:40479
+main.ts:41005
 
 ***
 
 ### endpoint\_html?
 
-> **`optional`** **endpoint\_html**: `string`
+> `optional` **endpoint\_html**: `string`
 
 URL for collecting the results of the SERP HTML task
 if SERP HTML is not supported in the specified endpoint, the value will be null
@@ -78,15 +78,15 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_html)
 
-#### Source
+#### Defined in
 
-main.ts:40482
+main.ts:41008
 
 ***
 
 ### endpoint\_regular?
 
-> **`optional`** **endpoint\_regular**: `string`
+> `optional` **endpoint\_regular**: `string`
 
 URL for collecting the results of the SERP Regular task
 if SERP Regular is not supported in the specified endpoint, the value will be null
@@ -95,15 +95,15 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`endpoint_regular`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#endpoint_regular)
 
-#### Source
+#### Defined in
 
-main.ts:40476
+main.ts:41002
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -112,15 +112,15 @@ unique task identifier in our system in the UUID format
 
 [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`id`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:40464
+main.ts:40990
 
 ***
 
 ### se?
 
-> **`optional`** **se**: `string`
+> `optional` **se**: `string`
 
 search engine specified when setting the task
 
@@ -128,15 +128,15 @@ search engine specified when setting the task
 
 [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`se`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#se)
 
-#### Source
+#### Defined in
 
-main.ts:40466
+main.ts:40992
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 type of search engine
 example: maps
@@ -145,15 +145,15 @@ example: maps
 
 [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`se_type`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:40469
+main.ts:40995
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
@@ -161,9 +161,9 @@ user-defined task identifier
 
 [`ISerpGoogleMapsTasksReadyResultInfo`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md).[`tag`](../interfaces/ISerpGoogleMapsTasksReadyResultInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:40473
+main.ts:40999
 
 ## Methods
 
@@ -179,9 +179,9 @@ main.ts:40473
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:40495
+main.ts:41021
 
 ***
 
@@ -197,15 +197,15 @@ main.ts:40495
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:40519
+main.ts:41045
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
 
 #### Parameters
 
@@ -215,6 +215,6 @@ main.ts:40519
 
 [`SerpGoogleMapsTasksReadyResultInfo`](SerpGoogleMapsTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:40512
+main.ts:41038

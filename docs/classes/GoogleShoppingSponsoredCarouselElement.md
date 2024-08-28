@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new GoogleShoppingSponsoredCarouselElement(data)
+### new GoogleShoppingSponsoredCarouselElement()
 
 > **new GoogleShoppingSponsoredCarouselElement**(`data`?): [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
 
@@ -28,15 +28,15 @@
 
 [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:177093
+main.ts:178925
 
 ## Properties
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency in the ISO format
 example:
@@ -46,15 +46,15 @@ USD
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`currency`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#currency)
 
-#### Source
+#### Defined in
 
-main.ts:177077
+main.ts:178909
 
 ***
 
 ### delivery\_info?
 
-> **`optional`** **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
+> `optional` **delivery\_info**: [`DeliveryInfo`](DeliveryInfo.md)
 
 delivery information
 delivery information including free and fast delivery date ranges
@@ -63,15 +63,15 @@ delivery information including free and fast delivery date ranges
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`delivery_info`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#delivery_info)
 
-#### Source
+#### Defined in
 
-main.ts:177089
+main.ts:178921
 
 ***
 
 ### price?
 
-> **`optional`** **price**: `number`
+> `optional` **price**: `number`
 
 product price
 example:
@@ -81,15 +81,15 @@ example:
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`price`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:177073
+main.ts:178905
 
 ***
 
 ### product\_images?
 
-> **`optional`** **product\_images**: `string`[]
+> `optional` **product\_images**: `string`[]
 
 URLs to the images of the product
 the first URL in the array is the featured image of the product
@@ -98,15 +98,15 @@ the first URL in the array is the featured image of the product
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`product_images`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#product_images)
 
-#### Source
+#### Defined in
 
-main.ts:177083
+main.ts:178915
 
 ***
 
 ### product\_rating?
 
-> **`optional`** **product\_rating**: [`RatingElement`](RatingElement.md)
+> `optional` **product\_rating**: [`RatingElement`](RatingElement.md)
 
 product rating
 the product popularity rate based on product reviews
@@ -115,15 +115,15 @@ the product popularity rate based on product reviews
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`product_rating`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#product_rating)
 
-#### Source
+#### Defined in
 
-main.ts:177080
+main.ts:178912
 
 ***
 
 ### seller?
 
-> **`optional`** **seller**: `string`
+> `optional` **seller**: `string`
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
@@ -132,15 +132,15 @@ the name of the company that placed a corresponding product on Google Shopping
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`seller`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#seller)
 
-#### Source
+#### Defined in
 
-main.ts:177069
+main.ts:178901
 
 ***
 
 ### shop\_ad\_aclk?
 
-> **`optional`** **shop\_ad\_aclk**: `string`
+> `optional` **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
@@ -149,15 +149,15 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`shop_ad_aclk`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#shop_ad_aclk)
 
-#### Source
+#### Defined in
 
-main.ts:177086
+main.ts:178918
 
 ***
 
 ### tags?
 
-> **`optional`** **tags**: `string`[]
+> `optional` **tags**: `string`[]
 
 tags assigned to the product
 
@@ -165,15 +165,15 @@ tags assigned to the product
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`tags`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#tags)
 
-#### Source
+#### Defined in
 
-main.ts:177066
+main.ts:178898
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
@@ -181,15 +181,15 @@ product title
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`title`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:177064
+main.ts:178896
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -197,15 +197,15 @@ type of element
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`type`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:177060
+main.ts:178892
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 XPath of the element
 
@@ -213,9 +213,9 @@ XPath of the element
 
 [`IGoogleShoppingSponsoredCarouselElement`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md).[`xpath`](../interfaces/IGoogleShoppingSponsoredCarouselElement.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:177062
+main.ts:178894
 
 ## Methods
 
@@ -231,9 +231,9 @@ main.ts:177062
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:177102
+main.ts:178934
 
 ***
 
@@ -249,15 +249,15 @@ main.ts:177102
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:177137
+main.ts:178969
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
+> `static` **fromJS**(`data`): [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
 
 #### Parameters
 
@@ -267,6 +267,6 @@ main.ts:177137
 
 [`GoogleShoppingSponsoredCarouselElement`](GoogleShoppingSponsoredCarouselElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:177130
+main.ts:178962

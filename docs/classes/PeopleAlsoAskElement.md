@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PeopleAlsoAskElement(data)
+### new PeopleAlsoAskElement()
 
 > **new PeopleAlsoAskElement**(`data`?): [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
 
@@ -28,15 +28,15 @@
 
 [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:30025
+main.ts:30221
 
 ## Properties
 
 ### expanded\_element?
 
-> **`optional`** **expanded\_element**: [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)[]
+> `optional` **expanded\_element**: [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)[]
 
 expanded element
 
@@ -44,15 +44,15 @@ expanded element
 
 [`IPeopleAlsoAskElement`](../interfaces/IPeopleAlsoAskElement.md).[`expanded_element`](../interfaces/IPeopleAlsoAskElement.md#expanded_element)
 
-#### Source
+#### Defined in
 
-main.ts:30021
+main.ts:30217
 
 ***
 
 ### seed\_question?
 
-> **`optional`** **seed\_question**: `string`
+> `optional` **seed\_question**: `string`
 
 question that triggered additional expanded elements
 
@@ -60,15 +60,15 @@ question that triggered additional expanded elements
 
 [`IPeopleAlsoAskElement`](../interfaces/IPeopleAlsoAskElement.md).[`seed_question`](../interfaces/IPeopleAlsoAskElement.md#seed_question)
 
-#### Source
+#### Defined in
 
-main.ts:30017
+main.ts:30213
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -76,15 +76,15 @@ title of a given link element
 
 [`IPeopleAlsoAskElement`](../interfaces/IPeopleAlsoAskElement.md).[`title`](../interfaces/IPeopleAlsoAskElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:30015
+main.ts:30211
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -92,15 +92,15 @@ type of element
 
 [`IPeopleAlsoAskElement`](../interfaces/IPeopleAlsoAskElement.md).[`type`](../interfaces/IPeopleAlsoAskElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:30013
+main.ts:30209
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -108,9 +108,9 @@ the XPath of the element
 
 [`IPeopleAlsoAskElement`](../interfaces/IPeopleAlsoAskElement.md).[`xpath`](../interfaces/IPeopleAlsoAskElement.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:30019
+main.ts:30215
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:30019
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:30034
+main.ts:30230
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:30034
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:30059
+main.ts:30255
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
+> `static` **fromJS**(`data`): [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:30059
 
 [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:30052
+main.ts:30248

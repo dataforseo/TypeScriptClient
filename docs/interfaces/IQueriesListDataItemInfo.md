@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### query?
 
-> **`optional`** **query**: `string`
+> `optional` **query**: `string`
 
 related query
 
-#### Source
+#### Defined in
 
-main.ts:127112
+main.ts:127119
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `string`
+> `optional` **value**: `string`
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
 
-#### Source
+#### Defined in
 
-main.ts:127115
+main.ts:127122

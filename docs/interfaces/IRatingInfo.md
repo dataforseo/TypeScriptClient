@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,47 +14,47 @@
 
 ### rating\_max?
 
-> **`optional`** **rating\_max**: `number`
+> `optional` **rating\_max**: `number`
 
 the maximum value for a rating_type
 
-#### Source
+#### Defined in
 
-main.ts:22677
+main.ts:22859
 
 ***
 
 ### rating\_type?
 
-> **`optional`** **rating\_type**: `string`
+> `optional` **rating\_type**: `string`
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
 
-#### Source
+#### Defined in
 
-main.ts:22671
+main.ts:22853
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 the value of the rating
 
-#### Source
+#### Defined in
 
-main.ts:22673
+main.ts:22855
 
 ***
 
 ### votes\_count?
 
-> **`optional`** **votes\_count**: `number`
+> `optional` **votes\_count**: `number`
 
 the amount of feedback
 
-#### Source
+#### Defined in
 
-main.ts:22675
+main.ts:22857

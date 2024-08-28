@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBingPageIntersectionLiveItem(data)
+### new DataforseoLabsBingPageIntersectionLiveItem()
 
 > **new DataforseoLabsBingPageIntersectionLiveItem**(`data`?): [`DataforseoLabsBingPageIntersectionLiveItem`](DataforseoLabsBingPageIntersectionLiveItem.md)
 
@@ -28,21 +28,21 @@
 
 [`DataforseoLabsBingPageIntersectionLiveItem`](DataforseoLabsBingPageIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:110511
+main.ts:111143
 
 ## Properties
 
 ### intersection\_result?
 
-> **`optional`** **intersection\_result**: `Object`
+> `optional` **intersection\_result**: `object`
 
 contains data on the SERP elements found for the returned keyword
 data will be provided in separate arrays for each URL you specified in the pages object when setting a task;
 depending on the number of specified URLs, it can contain from 1 to 20 arrays named respectively
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
@@ -50,15 +50,15 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 [`IDataforseoLabsBingPageIntersectionLiveItem`](../interfaces/IDataforseoLabsBingPageIntersectionLiveItem.md).[`intersection_result`](../interfaces/IDataforseoLabsBingPageIntersectionLiveItem.md#intersection_result)
 
-#### Source
+#### Defined in
 
-main.ts:110507
+main.ts:111139
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
@@ -66,15 +66,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsBingPageIntersectionLiveItem`](../interfaces/IDataforseoLabsBingPageIntersectionLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsBingPageIntersectionLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:110503
+main.ts:111135
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 search engine type specified in a POST request;
@@ -84,9 +84,9 @@ for this endpoint, the field equals bing
 
 [`IDataforseoLabsBingPageIntersectionLiveItem`](../interfaces/IDataforseoLabsBingPageIntersectionLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsBingPageIntersectionLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:110501
+main.ts:111133
 
 ## Methods
 
@@ -102,9 +102,9 @@ main.ts:110501
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:110520
+main.ts:111152
 
 ***
 
@@ -120,15 +120,15 @@ main.ts:110520
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:110545
+main.ts:111177
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBingPageIntersectionLiveItem`](DataforseoLabsBingPageIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBingPageIntersectionLiveItem`](DataforseoLabsBingPageIntersectionLiveItem.md)
 
 #### Parameters
 
@@ -138,6 +138,6 @@ main.ts:110545
 
 [`DataforseoLabsBingPageIntersectionLiveItem`](DataforseoLabsBingPageIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:110538
+main.ts:111170

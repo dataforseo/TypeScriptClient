@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpSeznamLocationsCountryResultInfo(data)
+### new SerpSeznamLocationsCountryResultInfo()
 
 > **new SerpSeznamLocationsCountryResultInfo**(`data`?): [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:73427
+main.ts:74023
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`ISerpSeznamLocationsCountryResultInfo`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:73421
+main.ts:74017
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
@@ -60,15 +60,15 @@ location code
 
 [`ISerpSeznamLocationsCountryResultInfo`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md).[`location_code`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:73413
+main.ts:74009
 
 ***
 
 ### location\_code\_parent?
 
-> **`optional`** **location\_code\_parent**: `number`
+> `optional` **location\_code\_parent**: `number`
 
 the code of the superordinate location
 only City location_type is supported for all countries except China (where Country is also supported);
@@ -78,15 +78,15 @@ don’t match locations by location_code_parent because the results for Region a
 
 [`ISerpSeznamLocationsCountryResultInfo`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md).[`location_code_parent`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md#location_code_parent)
 
-#### Source
+#### Defined in
 
-main.ts:73419
+main.ts:74015
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
@@ -94,15 +94,15 @@ full name of the location
 
 [`ISerpSeznamLocationsCountryResultInfo`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md).[`location_name`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:73415
+main.ts:74011
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 
@@ -110,9 +110,9 @@ location type
 
 [`ISerpSeznamLocationsCountryResultInfo`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md).[`location_type`](../interfaces/ISerpSeznamLocationsCountryResultInfo.md#location_type)
 
-#### Source
+#### Defined in
 
-main.ts:73423
+main.ts:74019
 
 ## Methods
 
@@ -128,9 +128,9 @@ main.ts:73423
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:73436
+main.ts:74032
 
 ***
 
@@ -146,15 +146,15 @@ main.ts:73436
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:73457
+main.ts:74053
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)
 
 #### Parameters
 
@@ -164,6 +164,6 @@ main.ts:73457
 
 [`SerpSeznamLocationsCountryResultInfo`](SerpSeznamLocationsCountryResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:73450
+main.ts:74046

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new FoundOnWebElement(data)
+### new FoundOnWebElement()
 
 > **new FoundOnWebElement**(`data`?): [`FoundOnWebElement`](FoundOnWebElement.md)
 
@@ -28,15 +28,15 @@
 
 [`FoundOnWebElement`](FoundOnWebElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:36451
+main.ts:36647
 
 ## Properties
 
 ### image?
 
-> **`optional`** **image**: [`ImagesElement`](ImagesElement.md)
+> `optional` **image**: [`ImagesElement`](ImagesElement.md)
 
 image of the element
 
@@ -44,15 +44,15 @@ image of the element
 
 [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`image`](../interfaces/IFoundOnWebElement.md#image)
 
-#### Source
+#### Defined in
 
-main.ts:36447
+main.ts:36643
 
 ***
 
 ### subtitle?
 
-> **`optional`** **subtitle**: `string`
+> `optional` **subtitle**: `string`
 
 subtitle of the element
 
@@ -60,15 +60,15 @@ subtitle of the element
 
 [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`subtitle`](../interfaces/IFoundOnWebElement.md#subtitle)
 
-#### Source
+#### Defined in
 
-main.ts:36445
+main.ts:36641
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -76,15 +76,15 @@ title of a given link element
 
 [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`title`](../interfaces/IFoundOnWebElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:36443
+main.ts:36639
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -92,9 +92,9 @@ type of element
 
 [`IFoundOnWebElement`](../interfaces/IFoundOnWebElement.md).[`type`](../interfaces/IFoundOnWebElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:36441
+main.ts:36637
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:36441
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:36460
+main.ts:36656
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:36460
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:36480
+main.ts:36676
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`FoundOnWebElement`](FoundOnWebElement.md)
+> `static` **fromJS**(`data`): [`FoundOnWebElement`](FoundOnWebElement.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:36480
 
 [`FoundOnWebElement`](FoundOnWebElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:36473
+main.ts:36669

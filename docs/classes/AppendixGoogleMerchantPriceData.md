@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixGoogleMerchantPriceData(data)
+### new AppendixGoogleMerchantPriceData()
 
 > **new AppendixGoogleMerchantPriceData**(`data`?): [`AppendixGoogleMerchantPriceData`](AppendixGoogleMerchantPriceData.md)
 
@@ -28,65 +28,65 @@
 
 [`AppendixGoogleMerchantPriceData`](AppendixGoogleMerchantPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:222278
+main.ts:226550
 
 ## Properties
 
 ### product\_info?
 
-> **`optional`** **product\_info**: [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
+> `optional` **product\_info**: [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixGoogleMerchantPriceData`](../interfaces/IAppendixGoogleMerchantPriceData.md).[`product_info`](../interfaces/IAppendixGoogleMerchantPriceData.md#product_info)
 
-#### Source
+#### Defined in
 
-main.ts:222271
+main.ts:226543
 
 ***
 
 ### product\_spec?
 
-> **`optional`** **product\_spec**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
+> `optional` **product\_spec**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixGoogleMerchantPriceData`](../interfaces/IAppendixGoogleMerchantPriceData.md).[`product_spec`](../interfaces/IAppendixGoogleMerchantPriceData.md#product_spec)
 
-#### Source
+#### Defined in
 
-main.ts:222272
+main.ts:226544
 
 ***
 
 ### products?
 
-> **`optional`** **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
+> `optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixGoogleMerchantPriceData`](../interfaces/IAppendixGoogleMerchantPriceData.md).[`products`](../interfaces/IAppendixGoogleMerchantPriceData.md#products)
 
-#### Source
+#### Defined in
 
-main.ts:222273
+main.ts:226545
 
 ***
 
 ### sellers?
 
-> **`optional`** **sellers**: [`AppendixSellersGoogleMerchantPriceData`](AppendixSellersGoogleMerchantPriceData.md)
+> `optional` **sellers**: [`AppendixSellersGoogleMerchantPriceData`](AppendixSellersGoogleMerchantPriceData.md)
 
 #### Implementation of
 
 [`IAppendixGoogleMerchantPriceData`](../interfaces/IAppendixGoogleMerchantPriceData.md).[`sellers`](../interfaces/IAppendixGoogleMerchantPriceData.md#sellers)
 
-#### Source
+#### Defined in
 
-main.ts:222274
+main.ts:226546
 
 ## Methods
 
@@ -102,9 +102,9 @@ main.ts:222274
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:222287
+main.ts:226559
 
 ***
 
@@ -120,15 +120,15 @@ main.ts:222287
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:222307
+main.ts:226579
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixGoogleMerchantPriceData`](AppendixGoogleMerchantPriceData.md)
+> `static` **fromJS**(`data`): [`AppendixGoogleMerchantPriceData`](AppendixGoogleMerchantPriceData.md)
 
 #### Parameters
 
@@ -138,6 +138,6 @@ main.ts:222307
 
 [`AppendixGoogleMerchantPriceData`](AppendixGoogleMerchantPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:222300
+main.ts:226572

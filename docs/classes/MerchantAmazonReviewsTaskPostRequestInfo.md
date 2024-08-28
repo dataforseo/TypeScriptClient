@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantAmazonReviewsTaskPostRequestInfo(data)
+### new MerchantAmazonReviewsTaskPostRequestInfo()
 
 > **new MerchantAmazonReviewsTaskPostRequestInfo**(`data`?): [`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:187041
+main.ts:188873
 
 ## Properties
 
 ### asin?
 
-> **`optional`** **asin**: `string`
+> `optional` **asin**: `string`
 
 product ID
 required field
@@ -47,15 +47,15 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`asin`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#asin)
 
-#### Source
+#### Defined in
 
-main.ts:186892
+main.ts:188724
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -68,15 +68,15 @@ default value: 10
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`depth`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:186953
+main.ts:188785
 
 ***
 
 ### filter\_by\_keyword?
 
-> **`optional`** **filter\_by\_keyword**: `string`
+> `optional` **filter\_by\_keyword**: `string`
 
 filter reviews by specified keyword
 optional field
@@ -87,15 +87,15 @@ if you use this field, the response will only include reviews that contain the s
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`filter_by_keyword`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#filter_by_keyword)
 
-#### Source
+#### Defined in
 
-main.ts:186988
+main.ts:188820
 
 ***
 
 ### filter\_by\_star?
 
-> **`optional`** **filter\_by\_star**: `string`
+> `optional` **filter\_by\_star**: `string`
 
 filter reviews by stars
 optional field
@@ -115,15 +115,15 @@ default rule: all_stars
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`filter_by_star`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#filter_by_star)
 
-#### Source
+#### Defined in
 
-main.ts:186983
+main.ts:188815
 
 ***
 
 ### format\_type?
 
-> **`optional`** **format\_type**: `string`
+> `optional` **format\_type**: `string`
 
 filter reviews by product modification
 optional field
@@ -138,15 +138,15 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`format_type`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#format_type)
 
-#### Source
+#### Defined in
 
-main.ts:187005
+main.ts:188837
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -159,15 +159,15 @@ en_GB
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`language_code`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:186939
+main.ts:188771
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -181,15 +181,15 @@ English (United Kingdom)
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`language_name`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:186932
+main.ts:188764
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -203,15 +203,15 @@ example:
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`location_code`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:186915
+main.ts:188747
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -226,15 +226,15 @@ example:
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:186924
+main.ts:188756
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -247,15 +247,15 @@ HA1,England,United Kingdom
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`location_name`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:186907
+main.ts:188739
 
 ***
 
 ### media\_type?
 
-> **`optional`** **media\_type**: `string`
+> `optional` **media\_type**: `string`
 
 filter reviews by media type
 optional field
@@ -269,15 +269,15 @@ default rule: all_contents
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`media_type`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#media_type)
 
-#### Source
+#### Defined in
 
-main.ts:186996
+main.ts:188828
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -293,15 +293,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:187037
+main.ts:188869
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -313,15 +313,15 @@ advanced, html
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`postback_data`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:187027
+main.ts:188859
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -337,15 +337,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:187021
+main.ts:188853
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -359,15 +359,15 @@ The cost can be calculated on the Pricing page.
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`priority`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:186900
+main.ts:188732
 
 ***
 
 ### reviewer\_type?
 
-> **`optional`** **reviewer\_type**: `string`
+> `optional` **reviewer\_type**: `string`
 
 filter reviews by reviewer type
 optional field
@@ -381,15 +381,15 @@ default rule: all_reviews
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`reviewer_type`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#reviewer_type)
 
-#### Source
+#### Defined in
 
-main.ts:186969
+main.ts:188801
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -402,15 +402,15 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`se_domain`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:186946
+main.ts:188778
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -424,15 +424,15 @@ default rule: helpful
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:186961
+main.ts:188793
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -444,9 +444,9 @@ you will find the specified tag value in the data object of the response
 
 [`IMerchantAmazonReviewsTaskPostRequestInfo`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md).[`tag`](../interfaces/IMerchantAmazonReviewsTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:187011
+main.ts:188843
 
 ## Methods
 
@@ -462,9 +462,9 @@ main.ts:187011
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:187050
+main.ts:188882
 
 ***
 
@@ -480,15 +480,15 @@ main.ts:187050
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:187085
+main.ts:188917
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -498,6 +498,6 @@ main.ts:187085
 
 [`MerchantAmazonReviewsTaskPostRequestInfo`](MerchantAmazonReviewsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:187078
+main.ts:188910

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleSearchIntentLiveRequestInfo(data)
+### new DataforseoLabsGoogleSearchIntentLiveRequestInfo()
 
 > **new DataforseoLabsGoogleSearchIntentLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:87404
+main.ts:87970
 
 ## Properties
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 target keywords
 required field
@@ -48,15 +48,15 @@ the keywords will be converted to lowercase format
 
 [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:87355
+main.ts:87921
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -69,15 +69,15 @@ en
 
 [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:87394
+main.ts:87960
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -115,15 +115,15 @@ English
 
 [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:87387
+main.ts:87953
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -135,9 +135,9 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleSearchIntentLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleSearchIntentLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:87400
+main.ts:87966
 
 ## Methods
 
@@ -153,9 +153,9 @@ main.ts:87400
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:87413
+main.ts:87979
 
 ***
 
@@ -171,15 +171,15 @@ main.ts:87413
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:87437
+main.ts:88003
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
 #### Parameters
 
@@ -189,6 +189,6 @@ main.ts:87437
 
 [`DataforseoLabsGoogleSearchIntentLiveRequestInfo`](DataforseoLabsGoogleSearchIntentLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:87430
+main.ts:87996

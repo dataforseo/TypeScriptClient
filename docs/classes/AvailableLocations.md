@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AvailableLocations(data)
+### new AvailableLocations()
 
 > **new AvailableLocations**(`data`?): [`AvailableLocations`](AvailableLocations.md)
 
@@ -28,15 +28,15 @@
 
 [`AvailableLocations`](AvailableLocations.md)
 
-#### Source
+#### Defined in
 
-main.ts:135570
+main.ts:135396
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`IAvailableLocations`](../interfaces/IAvailableLocations.md).[`country_iso_code`](../interfaces/IAvailableLocations.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:135562
+main.ts:135388
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `string`
+> `optional` **location\_code**: `string`
 
 location code
 
@@ -60,15 +60,15 @@ location code
 
 [`IAvailableLocations`](../interfaces/IAvailableLocations.md).[`location_code`](../interfaces/IAvailableLocations.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:135558
+main.ts:135384
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 location name
 
@@ -76,15 +76,15 @@ location name
 
 [`IAvailableLocations`](../interfaces/IAvailableLocations.md).[`location_name`](../interfaces/IAvailableLocations.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:135560
+main.ts:135386
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 possible values:
@@ -94,9 +94,9 @@ Country, Region
 
 [`IAvailableLocations`](../interfaces/IAvailableLocations.md).[`location_type`](../interfaces/IAvailableLocations.md#location_type)
 
-#### Source
+#### Defined in
 
-main.ts:135566
+main.ts:135392
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:135566
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:135579
+main.ts:135405
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:135579
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:135599
+main.ts:135425
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AvailableLocations`](AvailableLocations.md)
+> `static` **fromJS**(`data`): [`AvailableLocations`](AvailableLocations.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:135599
 
 [`AvailableLocations`](AvailableLocations.md)
 
-#### Source
+#### Defined in
 
-main.ts:135592
+main.ts:135418

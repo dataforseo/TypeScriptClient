@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MultiCarouselElement(data)
+### new MultiCarouselElement()
 
 > **new MultiCarouselElement**(`data`?): [`MultiCarouselElement`](MultiCarouselElement.md)
 
@@ -28,15 +28,15 @@
 
 [`MultiCarouselElement`](MultiCarouselElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:32871
+main.ts:33067
 
 ## Properties
 
 ### multi\_carousel\_snippets?
 
-> **`optional`** **multi\_carousel\_snippets**: [`CarouselElement`](CarouselElement.md)[]
+> `optional` **multi\_carousel\_snippets**: [`CarouselElement`](CarouselElement.md)[]
 
 multi_carousel_snippet results
 
@@ -44,15 +44,15 @@ multi_carousel_snippet results
 
 [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md).[`multi_carousel_snippets`](../interfaces/IMultiCarouselElement.md#multi_carousel_snippets)
 
-#### Source
+#### Defined in
 
-main.ts:32867
+main.ts:33063
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -60,15 +60,15 @@ title of a given link element
 
 [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md).[`title`](../interfaces/IMultiCarouselElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:32865
+main.ts:33061
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -76,9 +76,9 @@ type of element
 
 [`IMultiCarouselElement`](../interfaces/IMultiCarouselElement.md).[`type`](../interfaces/IMultiCarouselElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:32863
+main.ts:33059
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:32863
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:32880
+main.ts:33076
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:32880
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:32903
+main.ts:33099
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MultiCarouselElement`](MultiCarouselElement.md)
+> `static` **fromJS**(`data`): [`MultiCarouselElement`](MultiCarouselElement.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:32903
 
 [`MultiCarouselElement`](MultiCarouselElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:32896
+main.ts:33092

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixBingKeywordsDataPriceData(data)
+### new AppendixBingKeywordsDataPriceData()
 
 > **new AppendixBingKeywordsDataPriceData**(`data`?): [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
@@ -28,79 +28,65 @@
 
 [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221655
+main.ts:225870
 
 ## Properties
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keyword\_performance**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`keyword_performance`](../interfaces/IAppendixBingKeywordsDataPriceData.md#keyword_performance)
 
-#### Source
+#### Defined in
 
-main.ts:221647
+main.ts:225863
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_keywords**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`keywords_for_keywords`](../interfaces/IAppendixBingKeywordsDataPriceData.md#keywords_for_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:221648
+main.ts:225864
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **keywords\_for\_site**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`keywords_for_site`](../interfaces/IAppendixBingKeywordsDataPriceData.md#keywords_for_site)
 
-#### Source
+#### Defined in
 
-main.ts:221649
+main.ts:225865
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search\_volume**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`search_volume`](../interfaces/IAppendixBingKeywordsDataPriceData.md#search_volume)
 
-#### Source
+#### Defined in
 
-main.ts:221651
-
-***
-
-### search\_volume\_history?
-
-> **`optional`** **search\_volume\_history**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
-
-#### Implementation of
-
-[`IAppendixBingKeywordsDataPriceData`](../interfaces/IAppendixBingKeywordsDataPriceData.md).[`search_volume_history`](../interfaces/IAppendixBingKeywordsDataPriceData.md#search_volume_history)
-
-#### Source
-
-main.ts:221650
+main.ts:225866
 
 ## Methods
 
@@ -116,9 +102,9 @@ main.ts:221650
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:221664
+main.ts:225879
 
 ***
 
@@ -134,15 +120,15 @@ main.ts:221664
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221685
+main.ts:225899
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
+> `static` **fromJS**(`data`): [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
 #### Parameters
 
@@ -152,6 +138,6 @@ main.ts:221685
 
 [`AppendixBingKeywordsDataPriceData`](AppendixBingKeywordsDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221678
+main.ts:225892

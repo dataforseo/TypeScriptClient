@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsSubdomainsLiveItem(data)
+### new DataforseoLabsSubdomainsLiveItem()
 
 > **new DataforseoLabsSubdomainsLiveItem**(`data`?): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
@@ -28,19 +28,19 @@
 
 [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:95407
+main.ts:95697
 
 ## Properties
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 ranking data relevant to subdomain
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
@@ -48,15 +48,15 @@ ranking data relevant to subdomain
 
 [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#metrics)
 
-#### Source
+#### Defined in
 
-main.ts:95403
+main.ts:95693
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -64,15 +64,15 @@ search engine type
 
 [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:95399
+main.ts:95689
 
 ***
 
 ### subdomain?
 
-> **`optional`** **subdomain**: `string`
+> `optional` **subdomain**: `string`
 
 returned subdomain
 
@@ -80,9 +80,9 @@ returned subdomain
 
 [`IDataforseoLabsSubdomainsLiveItem`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md).[`subdomain`](../interfaces/IDataforseoLabsSubdomainsLiveItem.md#subdomain)
 
-#### Source
+#### Defined in
 
-main.ts:95401
+main.ts:95691
 
 ## Methods
 
@@ -98,9 +98,9 @@ main.ts:95401
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:95416
+main.ts:95706
 
 ***
 
@@ -116,15 +116,15 @@ main.ts:95416
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:95441
+main.ts:95731
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
 #### Parameters
 
@@ -134,6 +134,6 @@ main.ts:95441
 
 [`DataforseoLabsSubdomainsLiveItem`](DataforseoLabsSubdomainsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:95434
+main.ts:95724

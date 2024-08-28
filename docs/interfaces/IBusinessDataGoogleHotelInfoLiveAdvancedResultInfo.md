@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,194 +14,194 @@
 
 ### about?
 
-> **`optional`** **about**: [`HotelAboutInfo`](../classes/HotelAboutInfo.md)
+> `optional` **about**: [`HotelAboutInfo`](../classes/HotelAboutInfo.md)
 
 information about the hotel
 
-#### Source
+#### Defined in
 
-main.ts:210229
+main.ts:212079
 
 ***
 
 ### address?
 
-> **`optional`** **address**: `string`
+> `optional` **address**: `string`
 
 hotel address
 physical address of the hotel
 
-#### Source
+#### Defined in
 
-main.ts:210224
+main.ts:212074
 
 ***
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Source
+#### Defined in
 
-main.ts:210207
+main.ts:212057
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:210212
+main.ts:212062
 
 ***
 
 ### hotel\_identifier?
 
-> **`optional`** **hotel\_identifier**: `string`
+> `optional` **hotel\_identifier**: `string`
 
 identifier received in a POST array
 this field will contain the hotel_identifier parameter specified when setting a task;
 example:
 CgoI-KWyzenM_MV3EAE
 
-#### Source
+#### Defined in
 
-main.ts:210200
+main.ts:212050
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:210204
+main.ts:212054
 
 ***
 
 ### location?
 
-> **`optional`** **location**: [`Location`](../classes/Location.md)
+> `optional` **location**: [`Location`](../classes/Location.md)
 
 information about the hotel location
 information about the location where the hotel is located
 
-#### Source
+#### Defined in
 
-main.ts:210232
+main.ts:212082
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:210202
+main.ts:212052
 
 ***
 
 ### overview\_images?
 
-> **`optional`** **overview\_images**: `string`[]
+> `optional` **overview\_images**: `string`[]
 
 images displayed in the hotel overview
 array containing URLs to images displayed in the hotel overview
 
-#### Source
+#### Defined in
 
-main.ts:210238
+main.ts:212088
 
 ***
 
 ### phone?
 
-> **`optional`** **phone**: `string`
+> `optional` **phone**: `string`
 
 hotel phone number
 contact phone number of the hotel
 
-#### Source
+#### Defined in
 
-main.ts:210227
+main.ts:212077
 
 ***
 
 ### prices?
 
-> **`optional`** **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
+> `optional` **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
 
 pricing details of the hotel entity
 contains information about the hotel’s prices
 
-#### Source
+#### Defined in
 
-main.ts:210241
+main.ts:212091
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
+> `optional` **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
 
 hotel reviews by criteria
 information about reviews of the hotel entity
 
-#### Source
+#### Defined in
 
-main.ts:210235
+main.ts:212085
 
 ***
 
 ### stars?
 
-> **`optional`** **stars**: `number`
+> `optional` **stars**: `number`
 
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in hotel summary
 
-#### Source
+#### Defined in
 
-main.ts:210218
+main.ts:212068
 
 ***
 
 ### stars\_description?
 
-> **`optional`** **stars\_description**: `string`
+> `optional` **stars\_description**: `string`
 
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in the hotel summary
 
-#### Source
+#### Defined in
 
-main.ts:210221
+main.ts:212071
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 hotel title
 the title of the hotel entity for which the results are collected
 
-#### Source
+#### Defined in
 
-main.ts:210215
+main.ts:212065

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new CoursesSerpElementItem(data)
+### new CoursesSerpElementItem()
 
 > **new CoursesSerpElementItem**(`data`?): [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:37886
+main.ts:38082
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 array of course categories
 contains a list of categories relevant to courses
@@ -67,15 +67,15 @@ contains a list of categories relevant to courses
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`categories`](../interfaces/ICoursesSerpElementItem.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:37875
+main.ts:38071
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`CoursesElement`](CoursesElement.md)[]
+> `optional` **items**: [`CoursesElement`](CoursesElement.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -84,15 +84,15 @@ if there are none, equals null
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`items`](../interfaces/ICoursesSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:37878
+main.ts:38074
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -102,15 +102,15 @@ left, right
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`position`](../interfaces/ICoursesSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:37868
+main.ts:38064
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -120,15 +120,15 @@ always equals 0 for desktop
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`rank_absolute`](../interfaces/ICoursesSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:37864
+main.ts:38060
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -139,15 +139,15 @@ always equals 0 for desktop
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`rank_group`](../interfaces/ICoursesSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:37860
+main.ts:38056
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -157,15 +157,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`rectangle`](../interfaces/ICoursesSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:37882
+main.ts:38078
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the row
 
@@ -173,15 +173,15 @@ title of the row
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`title`](../interfaces/ICoursesSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:37872
+main.ts:38068
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -189,9 +189,9 @@ the XPath of the element
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`xpath`](../interfaces/ICoursesSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:37870
+main.ts:38066
 
 ## Methods
 
@@ -211,9 +211,9 @@ main.ts:37870
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:37891
+main.ts:38087
 
 ***
 
@@ -233,15 +233,15 @@ main.ts:37891
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:37924
+main.ts:38120
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
+> `static` **fromJS**(`data`): [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
 
 #### Parameters
 
@@ -255,6 +255,6 @@ main.ts:37924
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:37917
+main.ts:38113

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleCategoriesForDomainLiveResultInfo(data)
+### new DataforseoLabsGoogleCategoriesForDomainLiveResultInfo()
 
 > **new DataforseoLabsGoogleCategoriesForDomainLiveResultInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:88649
+main.ts:89213
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsGoogleCategoriesForDomainLiveItem`](DataforseoLabsGoogleCategoriesForDomainLiveItem.md)[]
 
 contains relevant categories and related ranking data
 
@@ -44,15 +44,15 @@ contains relevant categories and related ranking data
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:88645
+main.ts:89209
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,15 +60,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:88643
+main.ts:89207
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -76,15 +76,15 @@ language code in a POST array
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:88639
+main.ts:89203
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -92,15 +92,15 @@ location code in a POST array
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:88637
+main.ts:89201
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -108,15 +108,15 @@ search engine type
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:88633
+main.ts:89197
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain or subdomain in a POST array
 
@@ -124,15 +124,15 @@ target domain or subdomain in a POST array
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md).[`target`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:88635
+main.ts:89199
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
@@ -140,9 +140,9 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:88641
+main.ts:89205
 
 ## Methods
 
@@ -158,9 +158,9 @@ main.ts:88641
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:88658
+main.ts:89222
 
 ***
 
@@ -176,15 +176,15 @@ main.ts:88658
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:88685
+main.ts:89249
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md)
 
 #### Parameters
 
@@ -194,6 +194,6 @@ main.ts:88685
 
 [`DataforseoLabsGoogleCategoriesForDomainLiveResultInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:88678
+main.ts:89242

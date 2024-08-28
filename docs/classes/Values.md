@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Values(data)
+### new Values()
 
 > **new Values**(`data`?): [`Values`](Values.md)
 
@@ -28,15 +28,15 @@
 
 [`Values`](Values.md)
 
-#### Source
+#### Defined in
 
-main.ts:129342
+main.ts:129166
 
 ## Properties
 
 ### geo\_id?
 
-> **`optional`** **geo\_id**: `string`
+> `optional` **geo\_id**: `string`
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -48,15 +48,15 @@ US-NY
 
 [`IValues`](../interfaces/IValues.md).[`geo_id`](../interfaces/IValues.md#geo_id)
 
-#### Source
+#### Defined in
 
-main.ts:129324
+main.ts:129148
 
 ***
 
 ### geo\_name?
 
-> **`optional`** **geo\_name**: `string`
+> `optional` **geo\_name**: `string`
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -68,15 +68,15 @@ Andorra
 
 [`IValues`](../interfaces/IValues.md).[`geo_name`](../interfaces/IValues.md#geo_name)
 
-#### Source
+#### Defined in
 
-main.ts:129330
+main.ts:129154
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 relative keyword popularity rate in a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -90,9 +90,9 @@ a value of 0 means there was not enough data for this term
 
 [`IValues`](../interfaces/IValues.md).[`value`](../interfaces/IValues.md#value)
 
-#### Source
+#### Defined in
 
-main.ts:129338
+main.ts:129162
 
 ## Methods
 
@@ -108,9 +108,9 @@ main.ts:129338
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:129351
+main.ts:129175
 
 ***
 
@@ -126,15 +126,15 @@ main.ts:129351
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:129370
+main.ts:129194
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Values`](Values.md)
+> `static` **fromJS**(`data`): [`Values`](Values.md)
 
 #### Parameters
 
@@ -144,6 +144,6 @@ main.ts:129370
 
 [`Values`](Values.md)
 
-#### Source
+#### Defined in
 
-main.ts:129363
+main.ts:129187

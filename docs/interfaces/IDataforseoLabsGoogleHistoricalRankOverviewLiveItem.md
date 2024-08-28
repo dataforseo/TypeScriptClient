@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,50 +14,50 @@
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 ranking data relevant to the specified domain
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:102078
+main.ts:102686
 
 ***
 
 ### month?
 
-> **`optional`** **month**: `number`
+> `optional` **month**: `number`
 
 month for which the data is provided
 
-#### Source
+#### Defined in
 
-main.ts:102076
+main.ts:102684
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:102072
+main.ts:102680
 
 ***
 
 ### year?
 
-> **`optional`** **year**: `number`
+> `optional` **year**: `number`
 
 year for which the data is provided
 
-#### Source
+#### Defined in
 
-main.ts:102074
+main.ts:102682

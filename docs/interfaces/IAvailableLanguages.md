@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,60 +14,60 @@
 
 ### available\_sources?
 
-> **`optional`** **available\_sources**: `string`[]
+> `optional` **available\_sources**: `string`[]
 
 supported sources
 contains the sources of data supported for a specific location and language combination
 only google and bing are currently available
 
-#### Source
+#### Defined in
 
-main.ts:82400
+main.ts:82996
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `number`
+> `optional` **keywords**: `number`
 
 the number of keywords available for the given location and language
 
-#### Source
+#### Defined in
 
-main.ts:82406
+main.ts:83002
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
-#### Source
+#### Defined in
 
-main.ts:82404
+main.ts:83000
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
-#### Source
+#### Defined in
 
-main.ts:82402
+main.ts:82998
 
 ***
 
 ### serps?
 
-> **`optional`** **serps**: `number`
+> `optional` **serps**: `number`
 
 the number of SERP pages available for the given location and language
 
-#### Source
+#### Defined in
 
-main.ts:82408
+main.ts:83004

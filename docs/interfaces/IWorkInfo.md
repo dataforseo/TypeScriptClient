@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,11 +14,11 @@
 
 ### work\_hours?
 
-> **`optional`** **work\_hours**: [`WorkHours`](../classes/WorkHours.md)
+> `optional` **work\_hours**: [`WorkHours`](../classes/WorkHours.md)
 
 open hours
 information about work hours of the local establishment
 
-#### Source
+#### Defined in
 
-main.ts:201376
+main.ts:203208

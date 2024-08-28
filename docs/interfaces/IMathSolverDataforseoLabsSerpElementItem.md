@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,103 +18,102 @@
 
 ### items?
 
-> **`optional`** **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
+> `optional` **items**: [`MathSolverElement`](../classes/MathSolverElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
-#### Source
+#### Defined in
 
-main.ts:98703
+main.ts:99005
 
 ***
 
 ### links?
 
-> **`optional`** **links**: [`LinkElement`](../classes/LinkElement.md)[]
+> `optional` **links**: [`LinkElement`](../classes/LinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
 if there are none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:98707
+main.ts:99009
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:98693
+main.ts:98996
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:98689
+main.ts:98992
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:98686
+main.ts:98989
 
 ***
 
 ### result?
 
-> **`optional`** **result**: `string`
+> `optional` **result**: `string`
 
 solution to the equation
 solution to the mathematical equation specified in the keyword field when setting a task
 
-#### Source
+#### Defined in
 
-main.ts:98700
+main.ts:99003
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the result in SERP
 
-#### Source
+#### Defined in
 
-main.ts:98697
+main.ts:99000
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:98695
+main.ts:98998

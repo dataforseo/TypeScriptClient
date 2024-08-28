@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,28 +14,28 @@
 
 ### negative?
 
-> **`optional`** **negative**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **negative**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169802
+main.ts:171634
 
 ***
 
 ### neutral?
 
-> **`optional`** **neutral**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **neutral**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169803
+main.ts:171635
 
 ***
 
 ### positive?
 
-> **`optional`** **positive**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **positive**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:169801
+main.ts:171633

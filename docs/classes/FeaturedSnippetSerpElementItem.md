@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new FeaturedSnippetSerpElementItem(data)
+### new FeaturedSnippetSerpElementItem()
 
 > **new FeaturedSnippetSerpElementItem**(`data`?): [`FeaturedSnippetSerpElementItem`](FeaturedSnippetSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:27084
+main.ts:27266
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### breadcrumb?
 
-> **`optional`** **breadcrumb**: `string`
+> `optional` **breadcrumb**: `string`
 
 breadcrumb of the ad element in SERP
 
@@ -66,15 +66,15 @@ breadcrumb of the ad element in SERP
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`breadcrumb`](../interfaces/IFeaturedSnippetSerpElementItem.md#breadcrumb)
 
-#### Source
+#### Defined in
 
-main.ts:27058
+main.ts:27240
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the ad element in SERP
 
@@ -82,15 +82,15 @@ description of the ad element in SERP
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`description`](../interfaces/IFeaturedSnippetSerpElementItem.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:27054
+main.ts:27236
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain of the ad element in SERP
 
@@ -98,15 +98,15 @@ domain of the ad element in SERP
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`domain`](../interfaces/IFeaturedSnippetSerpElementItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:27050
+main.ts:27232
 
 ***
 
 ### featured\_title?
 
-> **`optional`** **featured\_title**: `string`
+> `optional` **featured\_title**: `string`
 
 title
 
@@ -114,15 +114,15 @@ title
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`featured_title`](../interfaces/IFeaturedSnippetSerpElementItem.md#featured_title)
 
-#### Source
+#### Defined in
 
-main.ts:27066
+main.ts:27248
 
 ***
 
 ### images?
 
-> **`optional`** **images**: [`ImagesElement`](ImagesElement.md)[]
+> `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
 images of the element
 
@@ -130,15 +130,15 @@ images of the element
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`images`](../interfaces/IFeaturedSnippetSerpElementItem.md#images)
 
-#### Source
+#### Defined in
 
-main.ts:27073
+main.ts:27255
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -148,15 +148,15 @@ left, right
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`position`](../interfaces/IFeaturedSnippetSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:27062
+main.ts:27244
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in SERP
@@ -167,15 +167,15 @@ to get all items (including SERP features and rich snippets) with their position
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`rank_absolute`](../interfaces/IFeaturedSnippetSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:27048
+main.ts:27230
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -185,15 +185,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`rank_group`](../interfaces/IFeaturedSnippetSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:27043
+main.ts:27225
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -203,15 +203,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`rectangle`](../interfaces/IFeaturedSnippetSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:27080
+main.ts:27262
 
 ***
 
 ### table?
 
-> **`optional`** **table**: [`Table`](Table.md)
+> `optional` **table**: [`Table`](Table.md)
 
 results table
 if there are none, equals null
@@ -220,15 +220,15 @@ if there are none, equals null
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`table`](../interfaces/IFeaturedSnippetSerpElementItem.md#table)
 
-#### Source
+#### Defined in
 
-main.ts:27076
+main.ts:27258
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -239,15 +239,15 @@ example:
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`timestamp`](../interfaces/IFeaturedSnippetSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:27071
+main.ts:27253
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the ad element in SERP
 
@@ -255,15 +255,15 @@ title of the ad element in SERP
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`title`](../interfaces/IFeaturedSnippetSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:27052
+main.ts:27234
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 relevant URL of the ad element in SERP
 
@@ -271,15 +271,15 @@ relevant URL of the ad element in SERP
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`url`](../interfaces/IFeaturedSnippetSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:27056
+main.ts:27238
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -287,9 +287,9 @@ the XPath of the element
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`xpath`](../interfaces/IFeaturedSnippetSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:27064
+main.ts:27246
 
 ## Methods
 
@@ -309,9 +309,9 @@ main.ts:27064
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:27089
+main.ts:27271
 
 ***
 
@@ -331,15 +331,15 @@ main.ts:27089
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:27124
+main.ts:27306
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`FeaturedSnippetSerpElementItem`](FeaturedSnippetSerpElementItem.md)
+> `static` **fromJS**(`data`): [`FeaturedSnippetSerpElementItem`](FeaturedSnippetSerpElementItem.md)
 
 #### Parameters
 
@@ -353,6 +353,6 @@ main.ts:27124
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:27117
+main.ts:27299

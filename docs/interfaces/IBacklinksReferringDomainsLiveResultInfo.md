@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,48 +14,48 @@
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksReferringDomainsLiveItem`](../classes/BacklinksReferringDomainsLiveItem.md)[]
+> `optional` **items**: [`BacklinksReferringDomainsLiveItem`](../classes/BacklinksReferringDomainsLiveItem.md)[]
 
 items array
 
-#### Source
+#### Defined in
 
-main.ts:145933
+main.ts:147759
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the items array
 
-#### Source
+#### Defined in
 
-main.ts:145931
+main.ts:147757
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:145925
+main.ts:147751
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of relevant items in the database
 total number of main domains referring to your target;
 example.com and blog.example.com are counted as one referring domain
 
-#### Source
+#### Defined in
 
-main.ts:145929
+main.ts:147755

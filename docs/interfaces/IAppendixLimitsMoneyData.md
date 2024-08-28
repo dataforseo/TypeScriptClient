@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,18 +14,18 @@
 
 ### day?
 
-> **`optional`** **day**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
+> `optional` **day**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:221330
+main.ts:224814
 
 ***
 
 ### minute?
 
-> **`optional`** **minute**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
+> `optional` **minute**: [`AppendixDataInfo`](../classes/AppendixDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:221331
+main.ts:224815

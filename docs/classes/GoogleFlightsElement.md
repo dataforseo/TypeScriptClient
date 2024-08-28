@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new GoogleFlightsElement(data)
+### new GoogleFlightsElement()
 
 > **new GoogleFlightsElement**(`data`?): [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:32203
+main.ts:32399
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md).[`description`](../interfaces/IGoogleFlightsElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:32197
+main.ts:32393
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -60,15 +60,15 @@ type of element
 
 [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md).[`type`](../interfaces/IGoogleFlightsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:32195
+main.ts:32391
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -76,9 +76,9 @@ URL
 
 [`IGoogleFlightsElement`](../interfaces/IGoogleFlightsElement.md).[`url`](../interfaces/IGoogleFlightsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:32199
+main.ts:32395
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:32199
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:32212
+main.ts:32408
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:32212
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:32231
+main.ts:32427
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GoogleFlightsElement`](GoogleFlightsElement.md)
+> `static` **fromJS**(`data`): [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:32231
 
 [`GoogleFlightsElement`](GoogleFlightsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:32224
+main.ts:32420

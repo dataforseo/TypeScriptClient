@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,48 +14,48 @@
 
 ### fetch\_time?
 
-> **`optional`** **fetch\_time**: `string`
+> `optional` **fetch\_time**: `string`
 
 date and time when the content was fethced
 example:
 "2022-11-01 10:02:52 +00:00"
 
-#### Source
+#### Defined in
 
-main.ts:164149
+main.ts:165981
 
 ***
 
 ### page\_content?
 
-> **`optional`** **page\_content**: [`PageContentInfo`](../classes/PageContentInfo.md)
+> `optional` **page\_content**: [`PageContentInfo`](../classes/PageContentInfo.md)
 
 parsed content of the page
 
-#### Source
+#### Defined in
 
-main.ts:164153
+main.ts:165985
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 status code of the page
 
-#### Source
+#### Defined in
 
-main.ts:164151
+main.ts:165983
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:164145
+main.ts:165977

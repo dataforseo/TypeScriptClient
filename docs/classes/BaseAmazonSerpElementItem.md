@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -28,7 +28,7 @@
 
 ## Constructors
 
-### new BaseAmazonSerpElementItem(data)
+### new BaseAmazonSerpElementItem()
 
 > **new BaseAmazonSerpElementItem**(`data`?): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
@@ -40,19 +40,19 @@
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21827
+main.ts:22009
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:21825
+main.ts:22007
 
 ## Methods
 
@@ -68,9 +68,9 @@ main.ts:21825
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21837
+main.ts:22019
 
 ***
 
@@ -86,15 +86,15 @@ main.ts:21837
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21898
+main.ts:22080
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+> `static` **fromJS**(`data`): [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
 #### Parameters
 
@@ -104,6 +104,6 @@ main.ts:21898
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21846
+main.ts:22028

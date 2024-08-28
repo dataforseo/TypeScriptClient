@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixKeywordBingKeywordsDataPriceDataInfo(data)
+### new AppendixKeywordBingKeywordsDataPriceDataInfo()
 
 > **new AppendixKeywordBingKeywordsDataPriceDataInfo**(`data`?): [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
@@ -28,23 +28,23 @@
 
 [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:221603
+main.ts:225819
 
 ## Properties
 
 ### live?
 
-> **`optional`** **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordBingKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordBingKeywordsDataPriceDataInfo.md).[`live`](../interfaces/IAppendixKeywordBingKeywordsDataPriceDataInfo.md#live)
 
-#### Source
+#### Defined in
 
-main.ts:221599
+main.ts:225815
 
 ## Methods
 
@@ -60,9 +60,9 @@ main.ts:221599
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:221612
+main.ts:225828
 
 ***
 
@@ -78,15 +78,15 @@ main.ts:221612
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221629
+main.ts:225845
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Parameters
 
@@ -96,6 +96,6 @@ main.ts:221629
 
 [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:221622
+main.ts:225838

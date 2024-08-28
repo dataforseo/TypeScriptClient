@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsRelevantPagesLiveItem(data)
+### new DataforseoLabsRelevantPagesLiveItem()
 
 > **new DataforseoLabsRelevantPagesLiveItem**(`data`?): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
@@ -28,19 +28,19 @@
 
 [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:96007
+main.ts:96295
 
 ## Properties
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 rankings and traffic metrics for the relevant page
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
@@ -48,15 +48,15 @@ rankings and traffic metrics for the relevant page
 
 [`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md#metrics)
 
-#### Source
+#### Defined in
 
-main.ts:96003
+main.ts:96291
 
 ***
 
 ### page\_address?
 
-> **`optional`** **page\_address**: `string`
+> `optional` **page\_address**: `string`
 
 absolute URL of the relevant page
 
@@ -64,15 +64,15 @@ absolute URL of the relevant page
 
 [`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md).[`page_address`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md#page_address)
 
-#### Source
+#### Defined in
 
-main.ts:96001
+main.ts:96289
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -80,9 +80,9 @@ search engine type
 
 [`IDataforseoLabsRelevantPagesLiveItem`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsRelevantPagesLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:95999
+main.ts:96287
 
 ## Methods
 
@@ -98,9 +98,9 @@ main.ts:95999
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:96016
+main.ts:96304
 
 ***
 
@@ -116,15 +116,15 @@ main.ts:96016
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:96041
+main.ts:96329
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
 #### Parameters
 
@@ -134,6 +134,6 @@ main.ts:96041
 
 [`DataforseoLabsRelevantPagesLiveItem`](DataforseoLabsRelevantPagesLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:96034
+main.ts:96322

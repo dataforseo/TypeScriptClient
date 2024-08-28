@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataSocialMediaPinterestLiveResultInfo(data)
+### new BusinessDataSocialMediaPinterestLiveResultInfo()
 
 > **new BusinessDataSocialMediaPinterestLiveResultInfo**(`data`?): [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:217573
+main.ts:219425
 
 ## Properties
 
 ### page\_url?
 
-> **`optional`** **page\_url**: `string`
+> `optional` **page\_url**: `string`
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
@@ -45,15 +45,15 @@ corresponding URL you specified in the targets array when setting a task
 
 [`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md).[`page_url`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md#page_url)
 
-#### Source
+#### Defined in
 
-main.ts:217565
+main.ts:219417
 
 ***
 
 ### pins\_count?
 
-> **`optional`** **pins\_count**: `number`
+> `optional` **pins\_count**: `number`
 
 number of pins for the related page_url
 pins on Pinterest correspond to content saves;
@@ -63,15 +63,15 @@ this field shows the number of content saves made from the related page_url usin
 
 [`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md).[`pins_count`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md#pins_count)
 
-#### Source
+#### Defined in
 
-main.ts:217569
+main.ts:219421
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -79,9 +79,9 @@ type of element
 
 [`IBusinessDataSocialMediaPinterestLiveResultInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md).[`type`](../interfaces/IBusinessDataSocialMediaPinterestLiveResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:217562
+main.ts:219414
 
 ## Methods
 
@@ -97,9 +97,9 @@ main.ts:217562
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:217582
+main.ts:219434
 
 ***
 
@@ -115,15 +115,15 @@ main.ts:217582
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:217601
+main.ts:219453
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
 
 #### Parameters
 
@@ -133,6 +133,6 @@ main.ts:217601
 
 [`BusinessDataSocialMediaPinterestLiveResultInfo`](BusinessDataSocialMediaPinterestLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:217594
+main.ts:219446

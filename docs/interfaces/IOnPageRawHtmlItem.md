@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,10 +14,10 @@
 
 ### html?
 
-> **`optional`** **html**: `string`
+> `optional` **html**: `string`
 
 HTML page
 
-#### Source
+#### Defined in
 
-main.ts:162741
+main.ts:164573

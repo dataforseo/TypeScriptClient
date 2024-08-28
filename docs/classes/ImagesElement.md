@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ImagesElement(data)
+### new ImagesElement()
 
 > **new ImagesElement**(`data`?): [`ImagesElement`](ImagesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`ImagesElement`](ImagesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:28232
+main.ts:28414
 
 ## Properties
 
 ### alt?
 
-> **`optional`** **alt**: `string`
+> `optional` **alt**: `string`
 
 alt tag of the image
 
@@ -44,15 +44,15 @@ alt tag of the image
 
 [`IImagesElement`](../interfaces/IImagesElement.md).[`alt`](../interfaces/IImagesElement.md#alt)
 
-#### Source
+#### Defined in
 
-main.ts:28223
+main.ts:28405
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -61,15 +61,15 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`IImagesElement`](../interfaces/IImagesElement.md).[`image_url`](../interfaces/IImagesElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:28228
+main.ts:28410
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -77,15 +77,15 @@ type of element
 
 [`IImagesElement`](../interfaces/IImagesElement.md).[`type`](../interfaces/IImagesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:28221
+main.ts:28403
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL link
 
@@ -93,9 +93,9 @@ URL link
 
 [`IImagesElement`](../interfaces/IImagesElement.md).[`url`](../interfaces/IImagesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:28225
+main.ts:28407
 
 ## Methods
 
@@ -111,9 +111,9 @@ main.ts:28225
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:28241
+main.ts:28423
 
 ***
 
@@ -129,15 +129,15 @@ main.ts:28241
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:28261
+main.ts:28443
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ImagesElement`](ImagesElement.md)
+> `static` **fromJS**(`data`): [`ImagesElement`](ImagesElement.md)
 
 #### Parameters
 
@@ -147,6 +147,6 @@ main.ts:28261
 
 [`ImagesElement`](ImagesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:28254
+main.ts:28436

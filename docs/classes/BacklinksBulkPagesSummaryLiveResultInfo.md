@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkPagesSummaryLiveResultInfo(data)
+### new BacklinksBulkPagesSummaryLiveResultInfo()
 
 > **new BacklinksBulkPagesSummaryLiveResultInfo**(`data`?): [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:152826
+main.ts:154652
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksBulkPagesSummaryLiveItem`](BacklinksBulkPagesSummaryLiveItem.md)[]
+> `optional` **items**: [`BacklinksBulkPagesSummaryLiveItem`](BacklinksBulkPagesSummaryLiveItem.md)[]
 
 items array
 
@@ -44,15 +44,15 @@ items array
 
 [`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:152822
+main.ts:154648
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -60,15 +60,15 @@ number of items in the results array
 
 [`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:152820
+main.ts:154646
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of relevant items in the database
 
@@ -76,9 +76,9 @@ total number of relevant items in the database
 
 [`IBacklinksBulkPagesSummaryLiveResultInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksBulkPagesSummaryLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:152818
+main.ts:154644
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:152818
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:152835
+main.ts:154661
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:152835
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:152858
+main.ts:154684
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:152858
 
 [`BacklinksBulkPagesSummaryLiveResultInfo`](BacklinksBulkPagesSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:152851
+main.ts:154677

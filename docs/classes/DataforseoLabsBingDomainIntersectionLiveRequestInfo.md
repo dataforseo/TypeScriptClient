@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBingDomainIntersectionLiveRequestInfo(data)
+### new DataforseoLabsBingDomainIntersectionLiveRequestInfo()
 
 > **new DataforseoLabsBingDomainIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsBingDomainIntersectionLiveRequestInfo`](DataforseoLabsBingDomainIntersectionLiveRequestInfo.md)
 
@@ -28,26 +28,26 @@
 
 [`DataforseoLabsBingDomainIntersectionLiveRequestInfo`](DataforseoLabsBingDomainIntersectionLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:109199
+main.ts:109829
 
 ## Properties
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
-you can use the % operator with like and not_like to match any string of zero or more characters
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["keyword_data.keyword_info.search_volume","in",[100,1000]]
-[["first_domain_serp_element.etv",">`",0],"and",["first_domain_serp_element.description","like","%goat%"]]
+[["first_domain_serp_element.etv",">",0],"and",["first_domain_serp_element.description","like","%goat%"]]
 [["keyword_data.keyword_info.search_volume",">",100],
 "and",
 [["first_domain_serp_element.description","like","%goat%"],
@@ -59,15 +59,15 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:109173
+main.ts:109803
 
 ***
 
 ### include\_serp\_info?
 
-> **`optional`** **include\_serp\_info**: `boolean`
+> `optional` **include\_serp\_info**: `boolean`
 
 include data from SERP for each keyword
 optional field
@@ -78,15 +78,15 @@ default value: false
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`include_serp_info`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#include_serp_info)
 
-#### Source
+#### Defined in
 
-main.ts:109146
+main.ts:109776
 
 ***
 
 ### intersections?
 
-> **`optional`** **intersections**: `boolean`
+> `optional` **intersections**: `boolean`
 
 domain intersections in SERP
 optional field
@@ -100,15 +100,15 @@ default value: true
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`intersections`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#intersections)
 
-#### Source
+#### Defined in
 
-main.ts:109133
+main.ts:109763
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 search results type
 indicates type of search results included in the response
@@ -122,15 +122,15 @@ default value:
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:109141
+main.ts:109771
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -144,15 +144,15 @@ en
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:109125
+main.ts:109755
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -166,15 +166,15 @@ English
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:109117
+main.ts:109747
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned keywords
 optional field
@@ -185,15 +185,15 @@ maximum value: 1000
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:109151
+main.ts:109781
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -208,15 +208,15 @@ example:
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:109109
+main.ts:109739
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -231,15 +231,15 @@ United States
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:109100
+main.ts:109730
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the items array of returned keywords
 optional field
@@ -250,15 +250,15 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:109156
+main.ts:109786
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -280,15 +280,15 @@ example:
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:109189
+main.ts:109819
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -300,15 +300,15 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:109195
+main.ts:109825
 
 ***
 
 ### target1?
 
-> **`optional`** **target1**: `string`
+> `optional` **target1**: `string`
 
 domain
 required field
@@ -319,15 +319,15 @@ the domain should be specified without https:// and www.
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`target1`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#target1)
 
-#### Source
+#### Defined in
 
-main.ts:109086
+main.ts:109716
 
 ***
 
 ### target2?
 
-> **`optional`** **target2**: `string`
+> `optional` **target2**: `string`
 
 domain
 required field
@@ -338,9 +338,9 @@ the domain should be specified without https:// and www.
 
 [`IDataforseoLabsBingDomainIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md).[`target2`](../interfaces/IDataforseoLabsBingDomainIntersectionLiveRequestInfo.md#target2)
 
-#### Source
+#### Defined in
 
-main.ts:109091
+main.ts:109721
 
 ## Methods
 
@@ -356,9 +356,9 @@ main.ts:109091
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:109208
+main.ts:109838
 
 ***
 
@@ -374,15 +374,15 @@ main.ts:109208
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:109250
+main.ts:109880
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveRequestInfo`](DataforseoLabsBingDomainIntersectionLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBingDomainIntersectionLiveRequestInfo`](DataforseoLabsBingDomainIntersectionLiveRequestInfo.md)
 
 #### Parameters
 
@@ -392,6 +392,6 @@ main.ts:109250
 
 [`DataforseoLabsBingDomainIntersectionLiveRequestInfo`](DataforseoLabsBingDomainIntersectionLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:109243
+main.ts:109873

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingKeywordPerformanceTaskGetResultInfo(data)
+### new KeywordsDataBingKeywordPerformanceTaskGetResultInfo()
 
 > **new KeywordsDataBingKeywordPerformanceTaskGetResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceTaskGetResultInfo`](KeywordsDataBingKeywordPerformanceTaskGetResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingKeywordPerformanceTaskGetResultInfo`](KeywordsDataBingKeywordPerformanceTaskGetResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:136583
+main.ts:136409
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
@@ -44,15 +44,15 @@ keyword in a POST array
 
 [`IKeywordsDataBingKeywordPerformanceTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md).[`keyword`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:136562
+main.ts:136388
 
 ***
 
 ### keyword\_kpi?
 
-> **`optional`** **keyword\_kpi**: [`KeywordKpi`](KeywordKpi.md)
+> `optional` **keyword\_kpi**: [`KeywordKpi`](KeywordKpi.md)
 
 object containing keyword metrics
 if there is no data, then the value is null
@@ -61,15 +61,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordPerformanceTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md).[`keyword_kpi`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#keyword_kpi)
 
-#### Source
+#### Defined in
 
-main.ts:136579
+main.ts:136405
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
@@ -78,15 +78,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordPerformanceTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:136568
+main.ts:136394
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -95,15 +95,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordPerformanceTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:136565
+main.ts:136391
 
 ***
 
 ### month?
 
-> **`optional`** **month**: `number`
+> `optional` **month**: `number`
 
 indicates the month for which the data is provided for
 example:
@@ -113,15 +113,15 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md).[`month`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#month)
 
-#### Source
+#### Defined in
 
-main.ts:136576
+main.ts:136402
 
 ***
 
 ### year?
 
-> **`optional`** **year**: `number`
+> `optional` **year**: `number`
 
 indicates the year for which the data is provided for
 example:
@@ -131,9 +131,9 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceTaskGetResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md).[`year`](../interfaces/IKeywordsDataBingKeywordPerformanceTaskGetResultInfo.md#year)
 
-#### Source
+#### Defined in
 
-main.ts:136572
+main.ts:136398
 
 ## Methods
 
@@ -149,9 +149,9 @@ main.ts:136572
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:136592
+main.ts:136418
 
 ***
 
@@ -167,15 +167,15 @@ main.ts:136592
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:136614
+main.ts:136440
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTaskGetResultInfo`](KeywordsDataBingKeywordPerformanceTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceTaskGetResultInfo`](KeywordsDataBingKeywordPerformanceTaskGetResultInfo.md)
 
 #### Parameters
 
@@ -185,6 +185,6 @@ main.ts:136614
 
 [`KeywordsDataBingKeywordPerformanceTaskGetResultInfo`](KeywordsDataBingKeywordPerformanceTaskGetResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:136607
+main.ts:136433

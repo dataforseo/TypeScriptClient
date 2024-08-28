@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,36 +14,36 @@
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 data source
 
-#### Source
+#### Defined in
 
-main.ts:201566
+main.ts:203398
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:201560
+main.ts:203392
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `string`
+> `optional` **value**: `string`
 
 contact displayed in SERP 
 example:
 "+119797979736"
 
-#### Source
+#### Defined in
 
-main.ts:201564
+main.ts:203396

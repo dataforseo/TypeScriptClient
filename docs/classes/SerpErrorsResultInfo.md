@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpErrorsResultInfo(data)
+### new SerpErrorsResultInfo()
 
 > **new SerpErrorsResultInfo**(`data`?): [`SerpErrorsResultInfo`](SerpErrorsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpErrorsResultInfo`](SerpErrorsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24340
+main.ts:24522
 
 ## Properties
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +47,15 @@ example:
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`datetime`](../interfaces/ISerpErrorsResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:24316
+main.ts:24498
 
 ***
 
 ### error\_code?
 
-> **`optional`** **error\_code**: `number`
+> `optional` **error\_code**: `number`
 
 error code
 
@@ -63,15 +63,15 @@ error code
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`error_code`](../interfaces/ISerpErrorsResultInfo.md#error_code)
 
-#### Source
+#### Defined in
 
-main.ts:24320
+main.ts:24502
 
 ***
 
 ### error\_message?
 
-> **`optional`** **error\_message**: `string`
+> `optional` **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -80,15 +80,15 @@ error message (see full list) or URL that caused an error
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`error_message`](../interfaces/ISerpErrorsResultInfo.md#error_message)
 
-#### Source
+#### Defined in
 
-main.ts:24323
+main.ts:24505
 
 ***
 
 ### function?
 
-> **`optional`** **function**: `string`
+> `optional` **function**: `string`
 
 corresponding API function
 
@@ -96,15 +96,15 @@ corresponding API function
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`function`](../interfaces/ISerpErrorsResultInfo.md#function)
 
-#### Source
+#### Defined in
 
-main.ts:24318
+main.ts:24500
 
 ***
 
 ### http\_code?
 
-> **`optional`** **http\_code**: `number`
+> `optional` **http\_code**: `number`
 
 HTTP status code
 
@@ -112,15 +112,15 @@ HTTP status code
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`http_code`](../interfaces/ISerpErrorsResultInfo.md#http_code)
 
-#### Source
+#### Defined in
 
-main.ts:24330
+main.ts:24512
 
 ***
 
 ### http\_method?
 
-> **`optional`** **http\_method**: `string`
+> `optional` **http\_method**: `string`
 
 HTTP method
 
@@ -128,15 +128,15 @@ HTTP method
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`http_method`](../interfaces/ISerpErrorsResultInfo.md#http_method)
 
-#### Source
+#### Defined in
 
-main.ts:24328
+main.ts:24510
 
 ***
 
 ### http\_response?
 
-> **`optional`** **http\_response**: `string`
+> `optional` **http\_response**: `string`
 
 HTTP response
 server response
@@ -145,15 +145,15 @@ server response
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`http_response`](../interfaces/ISerpErrorsResultInfo.md#http_response)
 
-#### Source
+#### Defined in
 
-main.ts:24336
+main.ts:24518
 
 ***
 
 ### http\_time?
 
-> **`optional`** **http\_time**: `number`
+> `optional` **http\_time**: `number`
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -162,15 +162,15 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`http_time`](../interfaces/ISerpErrorsResultInfo.md#http_time)
 
-#### Source
+#### Defined in
 
-main.ts:24333
+main.ts:24515
 
 ***
 
 ### http\_url?
 
-> **`optional`** **http\_url**: `string`
+> `optional` **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -179,15 +179,15 @@ URL you used for making an API call or pingback/postback URL
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`http_url`](../interfaces/ISerpErrorsResultInfo.md#http_url)
 
-#### Source
+#### Defined in
 
-main.ts:24326
+main.ts:24508
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the task
 
@@ -195,9 +195,9 @@ id of the task
 
 [`ISerpErrorsResultInfo`](../interfaces/ISerpErrorsResultInfo.md).[`id`](../interfaces/ISerpErrorsResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:24311
+main.ts:24493
 
 ## Methods
 
@@ -213,9 +213,9 @@ main.ts:24311
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:24349
+main.ts:24531
 
 ***
 
@@ -231,15 +231,15 @@ main.ts:24349
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:24375
+main.ts:24557
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpErrorsResultInfo`](SerpErrorsResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpErrorsResultInfo`](SerpErrorsResultInfo.md)
 
 #### Parameters
 
@@ -249,6 +249,6 @@ main.ts:24375
 
 [`SerpErrorsResultInfo`](SerpErrorsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24368
+main.ts:24550

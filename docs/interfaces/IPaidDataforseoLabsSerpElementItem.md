@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,297 +18,297 @@
 
 ### backlinks\_info?
 
-> **`optional`** **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
+> `optional` **backlinks\_info**: [`BacklinksInfo`](../classes/BacklinksInfo.md)
 
 backlinks information for the target website
 
-#### Source
+#### Defined in
 
-main.ts:92816
+main.ts:100353
 
 ***
 
 ### breadcrumb?
 
-> **`optional`** **breadcrumb**: `string`
+> `optional` **breadcrumb**: `string`
 
-breadcrumb in SERP
+breadcrumb of the Ad element in SERP
 
-#### Source
+#### Defined in
 
-main.ts:92775
+main.ts:100310
 
 ***
 
 ### clickstream\_etv?
 
-> **`optional`** **clickstream\_etv**: `number`
+> `optional` **clickstream\_etv**: `number`
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
-learn more about how the metric is calculated in this help center article
+learn more about how the metric is calculated in this help center article https://dataforseo.com/help-center/whats-clickstream-estimated-traffic-volume-and-how-is-it-calculated
 
-#### Source
+#### Defined in
 
-main.ts:92811
+main.ts:100349
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
-#### Source
+#### Defined in
 
-main.ts:92773
+main.ts:100308
 
 ***
 
 ### description\_rows?
 
-> **`optional`** **description\_rows**: `string`[]
+> `optional` **description\_rows**: `string`[]
 
 extended description
 if there is none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:92784
+main.ts:100319
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
-subdomain in SERP
+domain where a link points
 
-#### Source
+#### Defined in
 
-main.ts:92771
+main.ts:100306
 
 ***
 
 ### estimated\_paid\_traffic\_cost?
 
-> **`optional`** **estimated\_paid\_traffic\_cost**: `number`
+> `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-estimated cost of monthly search traffic
-represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for
+estimated cost of converting organic search traffic into paid
+represents the estimated monthly cost of running ads for the returned keyword
+the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
 learn more about how the metric is calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:92806
+main.ts:100340
 
 ***
 
 ### etv?
 
-> **`optional`** **etv**: `number`
+> `optional` **etv**: `number`
 
 estimated traffic volume
-estimated paid monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords in the category that the domain ranks for
+estimated organic monthly traffic to the domain
+calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword
 learn more about how the metric is calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:92797
+main.ts:100330
 
 ***
 
 ### extra?
 
-> **`optional`** **extra**: `Object`
+> `optional` **extra**: `object`
 
 additional information about the result
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:92781
+main.ts:100316
 
 ***
 
 ### highlighted?
 
-> **`optional`** **highlighted**: `string`[]
+> `optional` **highlighted**: `string`[]
 
 words highlighted in bold within the results description
 
-#### Source
+#### Defined in
 
-main.ts:92779
+main.ts:100314
 
 ***
 
 ### impressions\_etv?
 
-> **`optional`** **impressions\_etv**: `number`
+> `optional` **impressions\_etv**: `number`
 
 estimated traffic volume based on impressions
-estimated paid monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and impressions values of all keywords in the category that the domain ranks for
+estimated organic monthly traffic to the domain
+calculated as the product of CTR (click-through-rate) and impressions values of the returned keyword
 learn more about how the metric is calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:92802
+main.ts:100335
 
 ***
 
 ### links?
 
-> **`optional`** **links**: [`AdLinkElement`](../classes/AdLinkElement.md)[]
+> `optional` **links**: [`AdLinkElement`](../classes/AdLinkElement.md)[]
 
-sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null
+link of the element
 
-#### Source
+#### Defined in
 
-main.ts:92788
+main.ts:100321
 
 ***
 
 ### main\_domain?
 
-> **`optional`** **main\_domain**: `string`
+> `optional` **main\_domain**: `string`
 
 primary domain name in SERP
 
-#### Source
+#### Defined in
 
-main.ts:92790
+main.ts:100323
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:92765
+main.ts:100300
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:92761
+main.ts:100296
 
 ***
 
 ### rank\_changes?
 
-> **`optional`** **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
+> `optional` **rank\_changes**: [`RankChanges`](../classes/RankChanges.md)
 
 changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time
+ranking changes of the SERP element compared to the preceding month;
+Note: the changes are calculated even if the preceding month is not included in a POST request
 
-#### Source
+#### Defined in
 
-main.ts:92814
+main.ts:100344
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:92758
+main.ts:100293
 
 ***
 
 ### rank\_info?
 
-> **`optional`** **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
+> `optional` **rank\_info**: [`RankInfo`](../classes/RankInfo.md)
 
 page and domain rank information
 
-#### Source
+#### Defined in
 
-main.ts:92818
+main.ts:100355
 
 ***
 
 ### relative\_url?
 
-> **`optional`** **relative\_url**: `string`
+> `optional` **relative\_url**: `string`
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
-#### Source
+#### Defined in
 
-main.ts:92792
+main.ts:100325
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:92755
+main.ts:100351
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
-title of the result in SERP
+title of the item
 
-#### Source
+#### Defined in
 
-main.ts:92769
+main.ts:100304
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
-relevant URL in SERP
+URL link
 
-#### Source
+#### Defined in
 
-main.ts:92777
+main.ts:100312
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:92767
+main.ts:100302

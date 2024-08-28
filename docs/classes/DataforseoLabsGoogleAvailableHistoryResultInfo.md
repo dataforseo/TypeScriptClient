@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleAvailableHistoryResultInfo(data)
+### new DataforseoLabsGoogleAvailableHistoryResultInfo()
 
 > **new DataforseoLabsGoogleAvailableHistoryResultInfo**(`data`?): [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:82818
+main.ts:83414
 
 ## Properties
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 available date
 indicates the date of the range available for setting in the Domain Metrics by Categories endpoint
@@ -47,9 +47,9 @@ example:
 
 [`IDataforseoLabsGoogleAvailableHistoryResultInfo`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md).[`date`](../interfaces/IDataforseoLabsGoogleAvailableHistoryResultInfo.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:82814
+main.ts:83410
 
 ## Methods
 
@@ -65,9 +65,9 @@ main.ts:82814
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:82827
+main.ts:83423
 
 ***
 
@@ -83,15 +83,15 @@ main.ts:82827
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:82844
+main.ts:83440
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
 #### Parameters
 
@@ -101,6 +101,6 @@ main.ts:82844
 
 [`DataforseoLabsGoogleAvailableHistoryResultInfo`](DataforseoLabsGoogleAvailableHistoryResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:82837
+main.ts:83433

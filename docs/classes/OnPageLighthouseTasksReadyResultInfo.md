@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageLighthouseTasksReadyResultInfo(data)
+### new OnPageLighthouseTasksReadyResultInfo()
 
 > **new OnPageLighthouseTasksReadyResultInfo**(`data`?): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:166323
+main.ts:168155
 
 ## Properties
 
 ### endpoint\_json?
 
-> **`optional`** **endpoint\_json**: `string`
+> `optional` **endpoint\_json**: `string`
 
 URL for collecting the results of the OnPage Lighthouse JSON task
 
@@ -44,15 +44,15 @@ URL for collecting the results of the OnPage Lighthouse JSON task
 
 [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[`endpoint_json`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#endpoint_json)
 
-#### Source
+#### Defined in
 
-main.ts:166319
+main.ts:168151
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -61,15 +61,15 @@ unique task identifier in our system in the UUID format
 
 [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[`id`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:166315
+main.ts:168147
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
@@ -77,9 +77,9 @@ user-defined task identifier
 
 [`IOnPageLighthouseTasksReadyResultInfo`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md).[`tag`](../interfaces/IOnPageLighthouseTasksReadyResultInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:166317
+main.ts:168149
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:166317
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:166332
+main.ts:168164
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:166332
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:166351
+main.ts:168183
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:166351
 
 [`OnPageLighthouseTasksReadyResultInfo`](OnPageLighthouseTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:166344
+main.ts:168176

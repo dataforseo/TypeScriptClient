@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataErrorsResultInfo(data)
+### new AppDataErrorsResultInfo()
 
 > **new AppDataErrorsResultInfo**(`data`?): [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:188800
+main.ts:190632
 
 ## Properties
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +47,15 @@ example:
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`datetime`](../interfaces/IAppDataErrorsResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:188776
+main.ts:190608
 
 ***
 
 ### error\_code?
 
-> **`optional`** **error\_code**: `number`
+> `optional` **error\_code**: `number`
 
 error code
 
@@ -63,15 +63,15 @@ error code
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`error_code`](../interfaces/IAppDataErrorsResultInfo.md#error_code)
 
-#### Source
+#### Defined in
 
-main.ts:188780
+main.ts:190612
 
 ***
 
 ### error\_message?
 
-> **`optional`** **error\_message**: `string`
+> `optional` **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
@@ -80,15 +80,15 @@ error message (see full list) or URL that caused an error
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`error_message`](../interfaces/IAppDataErrorsResultInfo.md#error_message)
 
-#### Source
+#### Defined in
 
-main.ts:188783
+main.ts:190615
 
 ***
 
 ### function?
 
-> **`optional`** **function**: `string`
+> `optional` **function**: `string`
 
 corresponding API function
 
@@ -96,15 +96,15 @@ corresponding API function
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`function`](../interfaces/IAppDataErrorsResultInfo.md#function)
 
-#### Source
+#### Defined in
 
-main.ts:188778
+main.ts:190610
 
 ***
 
 ### http\_code?
 
-> **`optional`** **http\_code**: `number`
+> `optional` **http\_code**: `number`
 
 HTTP status code
 
@@ -112,15 +112,15 @@ HTTP status code
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_code`](../interfaces/IAppDataErrorsResultInfo.md#http_code)
 
-#### Source
+#### Defined in
 
-main.ts:188790
+main.ts:190622
 
 ***
 
 ### http\_method?
 
-> **`optional`** **http\_method**: `string`
+> `optional` **http\_method**: `string`
 
 HTTP method
 
@@ -128,15 +128,15 @@ HTTP method
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_method`](../interfaces/IAppDataErrorsResultInfo.md#http_method)
 
-#### Source
+#### Defined in
 
-main.ts:188788
+main.ts:190620
 
 ***
 
 ### http\_response?
 
-> **`optional`** **http\_response**: `string`
+> `optional` **http\_response**: `string`
 
 HTTP response
 server response
@@ -145,15 +145,15 @@ server response
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_response`](../interfaces/IAppDataErrorsResultInfo.md#http_response)
 
-#### Source
+#### Defined in
 
-main.ts:188796
+main.ts:190628
 
 ***
 
 ### http\_time?
 
-> **`optional`** **http\_time**: `number`
+> `optional` **http\_time**: `number`
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
@@ -162,15 +162,15 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_time`](../interfaces/IAppDataErrorsResultInfo.md#http_time)
 
-#### Source
+#### Defined in
 
-main.ts:188793
+main.ts:190625
 
 ***
 
 ### http\_url?
 
-> **`optional`** **http\_url**: `string`
+> `optional` **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
@@ -179,15 +179,15 @@ URL you used for making an API call or pingback/postback URL
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`http_url`](../interfaces/IAppDataErrorsResultInfo.md#http_url)
 
-#### Source
+#### Defined in
 
-main.ts:188786
+main.ts:190618
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the task
 
@@ -195,9 +195,9 @@ id of the task
 
 [`IAppDataErrorsResultInfo`](../interfaces/IAppDataErrorsResultInfo.md).[`id`](../interfaces/IAppDataErrorsResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:188771
+main.ts:190603
 
 ## Methods
 
@@ -213,9 +213,9 @@ main.ts:188771
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:188809
+main.ts:190641
 
 ***
 
@@ -231,15 +231,15 @@ main.ts:188809
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:188835
+main.ts:190667
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
 
 #### Parameters
 
@@ -249,6 +249,6 @@ main.ts:188835
 
 [`AppDataErrorsResultInfo`](AppDataErrorsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:188828
+main.ts:190660

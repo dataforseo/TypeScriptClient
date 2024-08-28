@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,60 +14,60 @@
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Source
+#### Defined in
 
-main.ts:161930
+main.ts:163762
 
 ***
 
 ### crawl\_status?
 
-> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Source
+#### Defined in
 
-main.ts:161932
+main.ts:163764
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`OnPageKeywordDensityItem`](../classes/OnPageKeywordDensityItem.md)[]
+> `optional` **items**: [`OnPageKeywordDensityItem`](../classes/OnPageKeywordDensityItem.md)[]
 
 items array
 
-#### Source
+#### Defined in
 
-main.ts:161939
+main.ts:163771
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
-#### Source
+#### Defined in
 
-main.ts:161937
+main.ts:163769
 
 ***
 
 ### total\_items\_count?
 
-> **`optional`** **total\_items\_count**: `number`
+> `optional` **total\_items\_count**: `number`
 
 total number of relevant items
 total number of keywords on the specified website or web page matching the set keyword_length and filters
 
-#### Source
+#### Defined in
 
-main.ts:161935
+main.ts:163767

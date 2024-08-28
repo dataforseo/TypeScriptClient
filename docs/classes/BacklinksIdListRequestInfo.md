@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksIdListRequestInfo(data)
+### new BacklinksIdListRequestInfo()
 
 > **new BacklinksIdListRequestInfo**(`data`?): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:138796
+main.ts:140622
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -50,15 +50,15 @@ example:
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`datetime_from`](../interfaces/IBacklinksIdListRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:138766
+main.ts:140592
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -71,15 +71,15 @@ example:
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`datetime_to`](../interfaces/IBacklinksIdListRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:138773
+main.ts:140599
 
 ***
 
 ### include\_metadata?
 
-> **`optional`** **include\_metadata**: `boolean`
+> `optional` **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,15 @@ default value: false
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`include_metadata`](../interfaces/IBacklinksIdListRequestInfo.md#include_metadata)
 
-#### Source
+#### Defined in
 
-main.ts:138792
+main.ts:140618
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +108,15 @@ maximum value: 1000
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`limit`](../interfaces/IBacklinksIdListRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:138778
+main.ts:140604
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +127,15 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`offset`](../interfaces/IBacklinksIdListRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:138783
+main.ts:140609
 
 ***
 
 ### sort?
 
-> **`optional`** **sort**: `string`
+> `optional` **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -146,9 +146,9 @@ default value: "asc"
 
 [`IBacklinksIdListRequestInfo`](../interfaces/IBacklinksIdListRequestInfo.md).[`sort`](../interfaces/IBacklinksIdListRequestInfo.md#sort)
 
-#### Source
+#### Defined in
 
-main.ts:138788
+main.ts:140614
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:138788
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:138805
+main.ts:140631
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:138805
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:138827
+main.ts:140653
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:138827
 
 [`BacklinksIdListRequestInfo`](BacklinksIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:138820
+main.ts:140646

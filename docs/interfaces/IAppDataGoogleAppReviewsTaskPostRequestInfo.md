@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the app
 required field
@@ -23,15 +23,15 @@ you can find the ID in the URL of every app listed on Google Play;
 example:
 https://play.google.com/store/apps/details?id=org.telegram.messenger
 
-#### Source
+#### Defined in
 
-main.ts:193202
+main.ts:195034
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -40,15 +40,15 @@ we strongly recommend setting the parsing depth in the multiples of 150, because
 default value: 150;
 maximum value: 100000
 
-#### Source
+#### Defined in
 
-main.ts:193245
+main.ts:195077
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -57,15 +57,15 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:193230
+main.ts:195062
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -74,15 +74,15 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:193223
+main.ts:195055
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -91,15 +91,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 9061121
 
-#### Source
+#### Defined in
 
-main.ts:193216
+main.ts:195048
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -108,15 +108,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 West Los Angeles,California,United States
 
-#### Source
+#### Defined in
 
-main.ts:193209
+main.ts:195041
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -128,15 +128,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:193296
+main.ts:195128
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -144,15 +144,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Source
+#### Defined in
 
-main.ts:193286
+main.ts:195118
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -164,15 +164,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:193280
+main.ts:195112
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -182,15 +182,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Source
+#### Defined in
 
-main.ts:193238
+main.ts:195070
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: `number`
+> `optional` **rating**: `number`
 
 filter reviews by rating
 optional field
@@ -203,15 +203,15 @@ possible types of filtering:
 1 — return reviews with one-star rating only;
 by default, the API returns all reviews regardless of the number of stars
 
-#### Source
+#### Defined in
 
-main.ts:193256
+main.ts:195088
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -221,15 +221,15 @@ newest — sort by the most recent reviews;
 most_relevant — sort by the most relevant reviews;
 default rule: most_relevant
 
-#### Source
+#### Defined in
 
-main.ts:193264
+main.ts:195096
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -237,6 +237,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:193270
+main.ts:195102

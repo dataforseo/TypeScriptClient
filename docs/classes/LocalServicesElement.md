@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new LocalServicesElement(data)
+### new LocalServicesElement()
 
 > **new LocalServicesElement**(`data`?): [`LocalServicesElement`](LocalServicesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`LocalServicesElement`](LocalServicesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:35300
+main.ts:35496
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`description`](../interfaces/ILocalServicesElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:35291
+main.ts:35487
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -60,15 +60,15 @@ website domain
 
 [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`domain`](../interfaces/ILocalServicesElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:35289
+main.ts:35485
 
 ***
 
 ### profile\_image\_url?
 
-> **`optional`** **profile\_image\_url**: `string`
+> `optional` **profile\_image\_url**: `string`
 
 URL of the image featured in the element
 
@@ -76,15 +76,15 @@ URL of the image featured in the element
 
 [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`profile_image_url`](../interfaces/ILocalServicesElement.md#profile_image_url)
 
-#### Source
+#### Defined in
 
-main.ts:35296
+main.ts:35492
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -93,15 +93,15 @@ the popularity rate based on reviews and displayed in SERP
 
 [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`rating`](../interfaces/ILocalServicesElement.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:35294
+main.ts:35490
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -109,15 +109,15 @@ title of a given link element
 
 [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`title`](../interfaces/ILocalServicesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:35285
+main.ts:35481
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -125,15 +125,15 @@ type of element
 
 [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`type`](../interfaces/ILocalServicesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:35283
+main.ts:35479
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -141,9 +141,9 @@ URL
 
 [`ILocalServicesElement`](../interfaces/ILocalServicesElement.md).[`url`](../interfaces/ILocalServicesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:35287
+main.ts:35483
 
 ## Methods
 
@@ -159,9 +159,9 @@ main.ts:35287
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:35309
+main.ts:35505
 
 ***
 
@@ -177,15 +177,15 @@ main.ts:35309
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:35332
+main.ts:35528
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LocalServicesElement`](LocalServicesElement.md)
+> `static` **fromJS**(`data`): [`LocalServicesElement`](LocalServicesElement.md)
 
 #### Parameters
 
@@ -195,6 +195,6 @@ main.ts:35332
 
 [`LocalServicesElement`](LocalServicesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:35325
+main.ts:35521

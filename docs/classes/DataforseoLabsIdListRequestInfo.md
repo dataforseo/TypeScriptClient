@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsIdListRequestInfo(data)
+### new DataforseoLabsIdListRequestInfo()
 
 > **new DataforseoLabsIdListRequestInfo**(`data`?): [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80947
+main.ts:81543
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -50,15 +50,15 @@ example:
 
 [`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`datetime_from`](../interfaces/IDataforseoLabsIdListRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:80917
+main.ts:81513
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -71,15 +71,15 @@ example:
 
 [`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`datetime_to`](../interfaces/IDataforseoLabsIdListRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:80924
+main.ts:81520
 
 ***
 
 ### include\_metadata?
 
-> **`optional`** **include\_metadata**: `boolean`
+> `optional` **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,15 @@ default value: false
 
 [`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`include_metadata`](../interfaces/IDataforseoLabsIdListRequestInfo.md#include_metadata)
 
-#### Source
+#### Defined in
 
-main.ts:80943
+main.ts:81539
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +108,15 @@ maximum value: 1000
 
 [`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsIdListRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:80929
+main.ts:81525
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +127,15 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsIdListRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:80934
+main.ts:81530
 
 ***
 
 ### sort?
 
-> **`optional`** **sort**: `string`
+> `optional` **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -146,9 +146,9 @@ default value: "asc"
 
 [`IDataforseoLabsIdListRequestInfo`](../interfaces/IDataforseoLabsIdListRequestInfo.md).[`sort`](../interfaces/IDataforseoLabsIdListRequestInfo.md#sort)
 
-#### Source
+#### Defined in
 
-main.ts:80939
+main.ts:81535
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:80939
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:80956
+main.ts:81552
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:80956
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:80978
+main.ts:81574
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:80978
 
 [`DataforseoLabsIdListRequestInfo`](DataforseoLabsIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80971
+main.ts:81567

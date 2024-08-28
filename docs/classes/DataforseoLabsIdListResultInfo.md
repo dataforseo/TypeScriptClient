@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsIdListResultInfo(data)
+### new DataforseoLabsIdListResultInfo()
 
 > **new DataforseoLabsIdListResultInfo**(`data`?): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:81059
+main.ts:81655
 
 ## Properties
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 cost of the task, USD
 
@@ -44,15 +44,15 @@ cost of the task, USD
 
 [`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`cost`](../interfaces/IDataforseoLabsIdListResultInfo.md#cost)
 
-#### Source
+#### Defined in
 
-main.ts:81053
+main.ts:81649
 
 ***
 
 ### datetime\_done?
 
-> **`optional`** **datetime\_done**: `string`
+> `optional` **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +63,15 @@ example:
 
 [`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`datetime_done`](../interfaces/IDataforseoLabsIdListResultInfo.md#datetime_done)
 
-#### Source
+#### Defined in
 
-main.ts:81048
+main.ts:81644
 
 ***
 
 ### datetime\_posted?
 
-> **`optional`** **datetime\_posted**: `string`
+> `optional` **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,15 @@ example:
 
 [`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`datetime_posted`](../interfaces/IDataforseoLabsIdListResultInfo.md#datetime_posted)
 
-#### Source
+#### Defined in
 
-main.ts:81043
+main.ts:81639
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the task
 
@@ -98,19 +98,19 @@ id of the task
 
 [`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`id`](../interfaces/IDataforseoLabsIdListResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:81035
+main.ts:81631
 
 ***
 
 ### metadata?
 
-> **`optional`** **metadata**: `Object`
+> `optional` **metadata**: `object`
 
 contains parameters you specified in the POST request
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `any`
 
@@ -118,15 +118,15 @@ contains parameters you specified in the POST request
 
 [`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`metadata`](../interfaces/IDataforseoLabsIdListResultInfo.md#metadata)
 
-#### Source
+#### Defined in
 
-main.ts:81055
+main.ts:81651
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `string`
+> `optional` **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +135,15 @@ you can find the full list of general informational messages here
 
 [`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`status`](../interfaces/IDataforseoLabsIdListResultInfo.md#status)
 
-#### Source
+#### Defined in
 
-main.ts:81051
+main.ts:81647
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the task
 URL you used for making an API call
@@ -152,9 +152,9 @@ URL you used for making an API call
 
 [`IDataforseoLabsIdListResultInfo`](../interfaces/IDataforseoLabsIdListResultInfo.md).[`url`](../interfaces/IDataforseoLabsIdListResultInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:81038
+main.ts:81634
 
 ## Methods
 
@@ -170,9 +170,9 @@ main.ts:81038
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:81068
+main.ts:81664
 
 ***
 
@@ -188,15 +188,15 @@ main.ts:81068
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:81097
+main.ts:81693
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
 #### Parameters
 
@@ -206,6 +206,6 @@ main.ts:81097
 
 [`DataforseoLabsIdListResultInfo`](DataforseoLabsIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:81090
+main.ts:81686

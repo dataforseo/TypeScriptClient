@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkBacklinksLiveItem(data)
+### new BacklinksBulkBacklinksLiveItem()
 
 > **new BacklinksBulkBacklinksLiveItem**(`data`?): [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:150724
+main.ts:152550
 
 ## Properties
 
 ### backlinks?
 
-> **`optional`** **backlinks**: `number`
+> `optional` **backlinks**: `number`
 
 number of backlinks pointing to the target
 
@@ -44,15 +44,15 @@ number of backlinks pointing to the target
 
 [`IBacklinksBulkBacklinksLiveItem`](../interfaces/IBacklinksBulkBacklinksLiveItem.md).[`backlinks`](../interfaces/IBacklinksBulkBacklinksLiveItem.md#backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:150720
+main.ts:152546
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
@@ -60,9 +60,9 @@ domain, subdomain or webpage from a POST array
 
 [`IBacklinksBulkBacklinksLiveItem`](../interfaces/IBacklinksBulkBacklinksLiveItem.md).[`target`](../interfaces/IBacklinksBulkBacklinksLiveItem.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:150718
+main.ts:152544
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:150718
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:150733
+main.ts:152559
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:150733
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:150751
+main.ts:152577
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:150751
 
 [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:150744
+main.ts:152570

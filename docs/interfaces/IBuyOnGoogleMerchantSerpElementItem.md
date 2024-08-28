@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,202 +18,202 @@
 
 ### base\_price?
 
-> **`optional`** **base\_price**: `number`
+> `optional` **base\_price**: `number`
 
 product price without tax and shipping
 
-#### Source
+#### Defined in
 
-main.ts:178774
+main.ts:180606
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency in the ISO format
 example:
 USD
 
-#### Source
+#### Defined in
 
-main.ts:178785
+main.ts:180617
 
 ***
 
 ### details?
 
-> **`optional`** **details**: `string`
+> `optional` **details**: `string`
 
 details and special offers
 if there are no details, the value will be null
 
-#### Source
+#### Defined in
 
-main.ts:178772
+main.ts:180604
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain in SERP
 
-#### Source
+#### Defined in
 
-main.ts:178765
+main.ts:180597
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:178761
+main.ts:180593
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
-#### Source
+#### Defined in
 
-main.ts:178757
+main.ts:180589
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:178754
+main.ts:180586
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingElement`](../classes/RatingElement.md)
+> `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
 shop rating
 the shop popularity rate based on product reviews
 
-#### Source
+#### Defined in
 
-main.ts:178791
+main.ts:180623
 
 ***
 
 ### seller\_name?
 
-> **`optional`** **seller\_name**: `string`
+> `optional` **seller\_name**: `string`
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
 
-#### Source
+#### Defined in
 
-main.ts:178788
+main.ts:180620
 
 ***
 
 ### shipping\_price?
 
-> **`optional`** **shipping\_price**: `number`
+> `optional` **shipping\_price**: `number`
 
 product shipping price
 
-#### Source
+#### Defined in
 
-main.ts:178779
+main.ts:180611
 
 ***
 
 ### shop\_ad\_aclk?
 
-> **`optional`** **shop\_ad\_aclk**: `string`
+> `optional` **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
 in this case, the value equals null
 
-#### Source
+#### Defined in
 
-main.ts:178795
+main.ts:180627
 
 ***
 
 ### tax?
 
-> **`optional`** **tax**: `number`
+> `optional` **tax**: `number`
 
 the amount of tax
 tax is specified as the actual amount of money, not as the percentage
 
-#### Source
+#### Defined in
 
-main.ts:178777
+main.ts:180609
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
-#### Source
+#### Defined in
 
-main.ts:178767
+main.ts:180599
 
 ***
 
 ### total\_price?
 
-> **`optional`** **total\_price**: `number`
+> `optional` **total\_price**: `number`
 
 product price including tax and shipping
 
-#### Source
+#### Defined in
 
-main.ts:178781
+main.ts:180613
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 Google Shopping URL forwarding to the product page
 
-#### Source
+#### Defined in
 
-main.ts:178769
+main.ts:180601
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:178763
+main.ts:180595

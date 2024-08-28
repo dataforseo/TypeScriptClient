@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### adults?
 
-> **`optional`** **adults**: `number`
+> `optional` **adults**: `number`
 
 number of adults
 optional field
@@ -23,15 +23,15 @@ note that you can specify up to 6 persons including both adults and children
 example:
 1
 
-#### Source
+#### Defined in
 
-main.ts:207573
+main.ts:209423
 
 ***
 
 ### amenities?
 
-> **`optional`** **amenities**: `string`[]
+> `optional` **amenities**: `string`[]
 
 hotel amenities
 optional field
@@ -62,15 +62,15 @@ possible values:
 "wheelchair_accessible",
 "beach_access"
 
-#### Source
+#### Defined in
 
-main.ts:207656
+main.ts:209506
 
 ***
 
 ### check\_in?
 
-> **`optional`** **check\_in**: `string`
+> `optional` **check\_in**: `string`
 
 check-in date
 optional field
@@ -80,15 +80,15 @@ example:
 "2019-01-15"
 Note: the value cannot precede the today’s date
 
-#### Source
+#### Defined in
 
-main.ts:207552
+main.ts:209402
 
 ***
 
 ### check\_out?
 
-> **`optional`** **check\_out**: `string`
+> `optional` **check\_out**: `string`
 
 check-out date
 optional field
@@ -99,15 +99,15 @@ example:
 Note: the value cannot be less than or equal to check_in;
 the range between check_in and check_out values cannot exceed 30 days
 
-#### Source
+#### Defined in
 
-main.ts:207561
+main.ts:209411
 
 ***
 
 ### children?
 
-> **`optional`** **children**: `string`[]
+> `optional` **children**: `string`[]
 
 number and age of children
 optional field
@@ -119,30 +119,30 @@ set the following value if you want to include one 14-year-old child:
 set the following value if you want to include one 13-year-old child and one 8-year-old child:
 [13,8]
 
-#### Source
+#### Defined in
 
-main.ts:207583
+main.ts:209433
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency
 optional field
 example:
 "USD"
 
-#### Source
+#### Defined in
 
-main.ts:207566
+main.ts:209416
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -153,45 +153,45 @@ Note: your account will be billed per each 20 organic results regardless of paid
 thus, setting a depth above 20 may result in additional charges if Google Hotels return more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Source
+#### Defined in
 
-main.ts:207544
+main.ts:209394
 
 ***
 
 ### free\_cancellation?
 
-> **`optional`** **free\_cancellation**: `boolean`
+> `optional` **free\_cancellation**: `boolean`
 
 hotels with a free cancellation
 optional field
 set this field to true if you want to get the list of hotels with free cancellation of reservations
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:207622
+main.ts:209472
 
 ***
 
 ### is\_vacation\_rentals?
 
-> **`optional`** **is\_vacation\_rentals**: `boolean`
+> `optional` **is\_vacation\_rentals**: `boolean`
 
 search for vacation rentals
 optional field
 set this field to true if you want to get the list of vacation rentals instead of hotels
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:207627
+main.ts:209477
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 optional field
@@ -202,15 +202,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 Note: in order to obtain accurate search results, the location name is appended to the keyword automatically
 
-#### Source
+#### Defined in
 
-main.ts:207497
+main.ts:209347
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -219,15 +219,15 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:207535
+main.ts:209385
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -236,15 +236,15 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:207528
+main.ts:209378
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -253,15 +253,15 @@ you can receive the list of available locations with location_code by making a s
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:207512
+main.ts:209362
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -272,15 +272,15 @@ Note: if the coordinates are used to set a location, the search will occur in th
 example:
 53.476225,-2.243572
 
-#### Source
+#### Defined in
 
-main.ts:207521
+main.ts:209371
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -290,15 +290,15 @@ example:
 London,England,United Kingdom
 Note: in order to obtain accurate search results, the location_name you specify will be automatically appended to the keyword
 
-#### Source
+#### Defined in
 
-main.ts:207505
+main.ts:209355
 
 ***
 
 ### max\_price?
 
-> **`optional`** **max\_price**: `number`
+> `optional` **max\_price**: `number`
 
 maximum price per night
 optional field
@@ -306,15 +306,15 @@ the currency of this value depends on the currency field
 example:
 600
 
-#### Source
+#### Defined in
 
-main.ts:207617
+main.ts:209467
 
 ***
 
 ### min\_price?
 
-> **`optional`** **min\_price**: `number`
+> `optional` **min\_price**: `number`
 
 minimum price per night
 optional field
@@ -322,15 +322,15 @@ the currency of this value depends on the currency field
 example:
 100
 
-#### Source
+#### Defined in
 
-main.ts:207611
+main.ts:209461
 
 ***
 
 ### min\_rating?
 
-> **`optional`** **min\_rating**: `number`
+> `optional` **min\_rating**: `number`
 
 minimum rating
 optional field
@@ -338,15 +338,15 @@ you can use this field to specify guest rating higher than a certain value
 example:
 2.5
 
-#### Source
+#### Defined in
 
-main.ts:207595
+main.ts:209445
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -358,15 +358,15 @@ highest_rating – sort by highest rating
 most_reviewed – sort by most reviewed
 default value: relevance
 
-#### Source
+#### Defined in
 
-main.ts:207605
+main.ts:209455
 
 ***
 
 ### stars?
 
-> **`optional`** **stars**: `string`[]
+> `optional` **stars**: `string`[]
 
 hotel stars
 optional field
@@ -374,15 +374,15 @@ set this field to [5] if you want to get the list of 5-star hotels only
 example:
 [3,4,5]
 
-#### Source
+#### Defined in
 
-main.ts:207589
+main.ts:209439
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -390,6 +390,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:207662
+main.ts:209512

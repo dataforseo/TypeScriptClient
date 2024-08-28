@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -23,7 +23,7 @@
 
 ## Constructors
 
-### new BaseOnPageLinkItemInfo(data)
+### new BaseOnPageLinkItemInfo()
 
 > **new BaseOnPageLinkItemInfo**(`data`?): [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
 
@@ -35,19 +35,19 @@
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21322
+main.ts:21504
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:21320
+main.ts:21502
 
 ## Methods
 
@@ -63,9 +63,9 @@ main.ts:21320
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21332
+main.ts:21514
 
 ***
 
@@ -81,15 +81,15 @@ main.ts:21332
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21368
+main.ts:21550
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
+> `static` **fromJS**(`data`): [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
 
 #### Parameters
 
@@ -99,6 +99,6 @@ main.ts:21368
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21341
+main.ts:21523

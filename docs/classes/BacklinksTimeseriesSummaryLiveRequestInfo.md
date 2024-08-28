@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksTimeseriesSummaryLiveRequestInfo(data)
+### new BacklinksTimeseriesSummaryLiveRequestInfo()
 
 > **new BacklinksTimeseriesSummaryLiveRequestInfo**(`data`?): [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:149348
+main.ts:151174
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -51,15 +51,15 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:149311
+main.ts:151137
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -74,15 +74,15 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`date_to`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:149320
+main.ts:151146
 
 ***
 
 ### group\_range?
 
-> **`optional`** **group\_range**: `string`
+> `optional` **group\_range**: `string`
 
 time range which will be used to group the results
 optional field
@@ -101,15 +101,15 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`group_range`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#group_range)
 
-#### Source
+#### Defined in
 
-main.ts:149333
+main.ts:151159
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -120,15 +120,15 @@ default value: true
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#include_subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:149338
+main.ts:151164
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -140,15 +140,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:149344
+main.ts:151170
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain to get data for
 required field
@@ -160,9 +160,9 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveRequestInfo`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md).[`target`](../interfaces/IBacklinksTimeseriesSummaryLiveRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:149302
+main.ts:151128
 
 ## Methods
 
@@ -178,9 +178,9 @@ main.ts:149302
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:149357
+main.ts:151183
 
 ***
 
@@ -196,15 +196,15 @@ main.ts:149357
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:149379
+main.ts:151205
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
 
 #### Parameters
 
@@ -214,6 +214,6 @@ main.ts:149379
 
 [`BacklinksTimeseriesSummaryLiveRequestInfo`](BacklinksTimeseriesSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:149372
+main.ts:151198

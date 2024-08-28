@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,354 +18,354 @@
 
 ### broken\_links?
 
-> **`optional`** **broken\_links**: `boolean`
+> `optional` **broken\_links**: `boolean`
 
 indicates whether a page contains broken links
 
-#### Source
+#### Defined in
 
-main.ts:156648
+main.ts:158476
 
 ***
 
 ### broken\_resources?
 
-> **`optional`** **broken\_resources**: `boolean`
+> `optional` **broken\_resources**: `boolean`
 
 indicates whether a page contains broken resources
 
-#### Source
+#### Defined in
 
-main.ts:156646
+main.ts:158474
 
 ***
 
 ### cache\_control?
 
-> **`optional`** **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
+> `optional` **cache\_control**: [`CacheControl`](../classes/CacheControl.md)
 
 instructions for caching
 
-#### Source
+#### Defined in
 
-main.ts:156673
+main.ts:158501
 
 ***
 
 ### checks?
 
-> **`optional`** **checks**: `Object`
+> `optional` **checks**: `object`
 
 website checks
 on-page check-ups related to the page
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `boolean`
 
-#### Source
+#### Defined in
 
-main.ts:156676
+main.ts:158504
 
 ***
 
 ### click\_depth?
 
-> **`optional`** **click\_depth**: `number`
+> `optional` **click\_depth**: `number`
 
 number of clicks it takes to get to the page
 indicates the number of clicks from the homepage needed before landing at the target page
 
-#### Source
+#### Defined in
 
-main.ts:156657
+main.ts:158485
 
 ***
 
 ### content\_encoding?
 
-> **`optional`** **content\_encoding**: `string`
+> `optional` **content\_encoding**: `string`
 
 type of encoding
 
-#### Source
+#### Defined in
 
-main.ts:156678
+main.ts:158506
 
 ***
 
 ### custom\_js\_response?
 
-> **`optional`** **custom\_js\_response**: `any`
+> `optional` **custom\_js\_response**: `any`
 
 the result of executing a specified JS script
 note that you should specify a custom_js field when setting a task to receive this data and the field type and its value will totally depend on the script you specified;you can also filter the results by this value specifying filters in the following way:
 ["custom_js_response.url", "like", "pixel"]
 
-#### Source
+#### Defined in
 
-main.ts:156642
+main.ts:158470
 
 ***
 
 ### duplicate\_content?
 
-> **`optional`** **duplicate\_content**: `boolean`
+> `optional` **duplicate\_content**: `boolean`
 
 indicates whether a page has duplicate content
 
-#### Source
+#### Defined in
 
-main.ts:156654
+main.ts:158482
 
 ***
 
 ### duplicate\_description?
 
-> **`optional`** **duplicate\_description**: `boolean`
+> `optional` **duplicate\_description**: `boolean`
 
 indicates whether a page has a duplicate description
 
-#### Source
+#### Defined in
 
-main.ts:156652
+main.ts:158480
 
 ***
 
 ### duplicate\_title?
 
-> **`optional`** **duplicate\_title**: `boolean`
+> `optional` **duplicate\_title**: `boolean`
 
 indicates whether a page has duplicate title tags
 
-#### Source
+#### Defined in
 
-main.ts:156650
+main.ts:158478
 
 ***
 
 ### encoded\_size?
 
-> **`optional`** **encoded\_size**: `number`
+> `optional` **encoded\_size**: `number`
 
 page size after encoding
 indicates the size of the encoded page measured in bytes
 
-#### Source
+#### Defined in
 
-main.ts:156663
+main.ts:158491
 
 ***
 
 ### fetch\_time?
 
-> **`optional`** **fetch\_time**: `string`
+> `optional` **fetch\_time**: `string`
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:156671
+main.ts:158499
 
 ***
 
 ### is\_resource?
 
-> **`optional`** **is\_resource**: `boolean`
+> `optional` **is\_resource**: `boolean`
 
 indicates whether a page is a single resource
 
-#### Source
+#### Defined in
 
-main.ts:156684
+main.ts:158512
 
 ***
 
 ### last\_modified?
 
-> **`optional`** **last\_modified**: [`LastModified`](../classes/LastModified.md)
+> `optional` **last\_modified**: [`LastModified`](../classes/LastModified.md)
 
 contains data on changes related to the resource
 if there is no data, the value will be null
 
-#### Source
+#### Defined in
 
-main.ts:156691
+main.ts:158519
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `string`
+> `optional` **location**: `string`
 
 location header
 indicates the URL to redirect a page to
 
-#### Source
+#### Defined in
 
-main.ts:156624
+main.ts:158452
 
 ***
 
 ### media\_type?
 
-> **`optional`** **media\_type**: `string`
+> `optional` **media\_type**: `string`
 
 types of media used to display a page
 
-#### Source
+#### Defined in
 
-main.ts:156680
+main.ts:158508
 
 ***
 
 ### meta?
 
-> **`optional`** **meta**: [`PageMetaInfo`](../classes/PageMetaInfo.md)
+> `optional` **meta**: [`PageMetaInfo`](../classes/PageMetaInfo.md)
 
 page properties
 the value depends on the resource_type
 
-#### Source
+#### Defined in
 
-main.ts:156629
+main.ts:158457
 
 ***
 
 ### onpage\_score?
 
-> **`optional`** **onpage\_score**: `number`
+> `optional` **onpage\_score**: `number`
 
 shows how page is optimized on a 100-point scale
 this field shows how page is optimized considering critical on-page issues and warnings detected;
 100 is the highest possible score that means the page does not have any critical on-page issues and important warnings;
 learn more about how the metric is calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:156636
+main.ts:158464
 
 ***
 
 ### page\_timing?
 
-> **`optional`** **page\_timing**: [`PageTiming`](../classes/PageTiming.md)
+> `optional` **page\_timing**: [`PageTiming`](../classes/PageTiming.md)
 
 object of page load metrics
 
-#### Source
+#### Defined in
 
-main.ts:156631
+main.ts:158459
 
 ***
 
 ### relative\_url\_length?
 
-> **`optional`** **relative\_url\_length**: `number`
+> `optional` **relative\_url\_length**: `number`
 
 relative URL length in characters
 
-#### Source
+#### Defined in
 
-main.ts:156688
+main.ts:158516
 
 ***
 
 ### resource\_errors?
 
-> **`optional`** **resource\_errors**: [`OnPageResourceIssueInfo`](../classes/OnPageResourceIssueInfo.md)
+> `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](../classes/OnPageResourceIssueInfo.md)
 
 resource errors and warnings
 
-#### Source
+#### Defined in
 
-main.ts:156644
+main.ts:158472
 
 ***
 
 ### server?
 
-> **`optional`** **server**: `string`
+> `optional` **server**: `string`
 
 server version
 
-#### Source
+#### Defined in
 
-main.ts:156682
+main.ts:158510
 
 ***
 
 ### size?
 
-> **`optional`** **size**: `number`
+> `optional` **size**: `number`
 
 resource size
 indicates the size of a given page measured in bytes
 
-#### Source
+#### Defined in
 
-main.ts:156660
+main.ts:158488
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 status code of the page
 
-#### Source
+#### Defined in
 
-main.ts:156621
+main.ts:158449
 
 ***
 
 ### total\_dom\_size?
 
-> **`optional`** **total\_dom\_size**: `number`
+> `optional` **total\_dom\_size**: `number`
 
 total DOM size of a page
 
-#### Source
+#### Defined in
 
-main.ts:156638
+main.ts:158466
 
 ***
 
 ### total\_transfer\_size?
 
-> **`optional`** **total\_transfer\_size**: `number`
+> `optional` **total\_transfer\_size**: `number`
 
 compressed page size
 indicates the compressed size of a given page
 
-#### Source
+#### Defined in
 
-main.ts:156666
+main.ts:158494
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page URL
 
-#### Source
+#### Defined in
 
-main.ts:156626
+main.ts:158454
 
 ***
 
 ### url\_length?
 
-> **`optional`** **url\_length**: `number`
+> `optional` **url\_length**: `number`
 
 page URL length in characters
 
-#### Source
+#### Defined in
 
-main.ts:156686
+main.ts:158514

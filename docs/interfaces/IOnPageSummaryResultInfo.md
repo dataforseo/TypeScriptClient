@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### crawl\_gateway\_address?
 
-> **`optional`** **crawl\_gateway\_address**: `string`
+> `optional` **crawl\_gateway\_address**: `string`
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
 you can find the full list of IPs used by our crawler in the Overview section
 
-#### Source
+#### Defined in
 
-main.ts:155311
+main.ts:157139
 
 ***
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Source
+#### Defined in
 
-main.ts:155305
+main.ts:157133
 
 ***
 
 ### crawl\_status?
 
-> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Source
+#### Defined in
 
-main.ts:155307
+main.ts:157135
 
 ***
 
 ### crawl\_stop\_reason?
 
-> **`optional`** **crawl\_stop\_reason**: `string`
+> `optional` **crawl\_stop\_reason**: `string`
 
 reason why the crawling stopped
 information about the reason why the crawling process stopped;
@@ -63,32 +63,32 @@ empty_queue – all URLs in the queue were crawled;
 force_stopped – the crawling process was halted using the On Page API Force Stop function;
 unexpected_exception – an internal error was encountered while crawling the target, contact support for more info
 
-#### Source
+#### Defined in
 
-main.ts:155319
+main.ts:157147
 
 ***
 
 ### domain\_info?
 
-> **`optional`** **domain\_info**: [`DomainInfo`](../classes/DomainInfo.md)
+> `optional` **domain\_info**: [`DomainInfo`](../classes/DomainInfo.md)
 
 domain-wide info
 on-page information about the target domain and crawling process
 
-#### Source
+#### Defined in
 
-main.ts:155322
+main.ts:157150
 
 ***
 
 ### page\_metrics?
 
-> **`optional`** **page\_metrics**: [`PageMetrics`](../classes/PageMetrics.md)
+> `optional` **page\_metrics**: [`PageMetrics`](../classes/PageMetrics.md)
 
 page-specific info
 metrics information on the target website pages
 
-#### Source
+#### Defined in
 
-main.ts:155325
+main.ts:157153

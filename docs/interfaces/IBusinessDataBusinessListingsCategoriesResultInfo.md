@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### business\_count?
 
-> **`optional`** **business\_count**: `number`
+> `optional` **business\_count**: `number`
 
 number of businesses in the category
 
-#### Source
+#### Defined in
 
-main.ts:200626
+main.ts:202458
 
 ***
 
 ### category\_name?
 
-> **`optional`** **category\_name**: `string`
+> `optional` **category\_name**: `string`
 
 full name of the category
 
-#### Source
+#### Defined in
 
-main.ts:200624
+main.ts:202456

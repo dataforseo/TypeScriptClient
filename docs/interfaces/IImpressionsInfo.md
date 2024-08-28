@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,252 +14,252 @@
 
 ### ad\_position\_average?
 
-> **`optional`** **ad\_position\_average**: `number`
+> `optional` **ad\_position\_average**: `number`
 
 the average ad position
 represents the average position of the advertisement
 
-#### Source
+#### Defined in
 
-main.ts:83896
+main.ts:84450
 
 ***
 
 ### ad\_position\_max?
 
-> **`optional`** **ad\_position\_max**: `number`
+> `optional` **ad\_position\_max**: `number`
 
 the maximum ad position
 represents the maximum position of the advertisement
 
-#### Source
+#### Defined in
 
-main.ts:83893
+main.ts:84447
 
 ***
 
 ### ad\_position\_min?
 
-> **`optional`** **ad\_position\_min**: `number`
+> `optional` **ad\_position\_min**: `number`
 
 the minimum ad position
 represents the minimum position of the advertisement
 
-#### Source
+#### Defined in
 
-main.ts:83890
+main.ts:84444
 
 ***
 
 ### bid?
 
-> **`optional`** **bid**: `number`
+> `optional` **bid**: `number`
 
 the maximum CPC
 it stands for the price you are willing to pay for an ad. The higher value, the higher positions and price you will getwe return the results for the 999 bid value to provide the highest number of impressions and level down the account-specific factors
 
-#### Source
+#### Defined in
 
-main.ts:83884
+main.ts:84438
 
 ***
 
 ### cpc\_average?
 
-> **`optional`** **cpc\_average**: `number`
+> `optional` **cpc\_average**: `number`
 
 the average value of cost-per-click
 the average cost-per-click (USD) for the keyword given that a bid is set to 999;
 note: this field does not represent an actual CPC value;
 you can find an actual CPC value for a keyword in the cpc field of the keyword_info object
 
-#### Source
+#### Defined in
 
-main.ts:83911
+main.ts:84465
 
 ***
 
 ### cpc\_max?
 
-> **`optional`** **cpc\_max**: `number`
+> `optional` **cpc\_max**: `number`
 
 the maximum value of cost-per-click
 the maximum cost-per-click (USD) for the keyword given that a bid is set to 999;
 note: this field does not represent an actual CPC value;
 you can find an actual CPC value for a keyword in the cpc field of the keyword_info object
 
-#### Source
+#### Defined in
 
-main.ts:83906
+main.ts:84460
 
 ***
 
 ### cpc\_min?
 
-> **`optional`** **cpc\_min**: `number`
+> `optional` **cpc\_min**: `number`
 
 the minimum value of cost-per-click
 the minimum cost-per-click (USD) for the keyword given that a bid is set to 999;
 note: this field does not represent an actual CPC value;
 you can find an actual CPC value for a keyword in the cpc field of the keyword_info object
 
-#### Source
+#### Defined in
 
-main.ts:83901
+main.ts:84455
 
 ***
 
 ### daily\_clicks\_average?
 
-> **`optional`** **daily\_clicks\_average**: `number`
+> `optional` **daily\_clicks\_average**: `number`
 
 the average value of daily clicks
 represents the average number of daily clicks on the advertisement
 
-#### Source
+#### Defined in
 
-main.ts:83929
+main.ts:84483
 
 ***
 
 ### daily\_clicks\_max?
 
-> **`optional`** **daily\_clicks\_max**: `number`
+> `optional` **daily\_clicks\_max**: `number`
 
 the maximum value of daily clicks
 represents the maximum number of daily clicks on the advertisement
 
-#### Source
+#### Defined in
 
-main.ts:83926
+main.ts:84480
 
 ***
 
 ### daily\_clicks\_min?
 
-> **`optional`** **daily\_clicks\_min**: `number`
+> `optional` **daily\_clicks\_min**: `number`
 
 the minimum value of daily clicks
 represents the minimum number of daily clicks on the advertisement
 
-#### Source
+#### Defined in
 
-main.ts:83923
+main.ts:84477
 
 ***
 
 ### daily\_cost\_average?
 
-> **`optional`** **daily\_cost\_average**: `number`
+> `optional` **daily\_cost\_average**: `number`
 
 the average daily charge value
 represents the average daily cost of the advertisement (USD)
 
-#### Source
+#### Defined in
 
-main.ts:83938
+main.ts:84492
 
 ***
 
 ### daily\_cost\_max?
 
-> **`optional`** **daily\_cost\_max**: `number`
+> `optional` **daily\_cost\_max**: `number`
 
 the maximum daily charge value
 represents the maximum daily cost of the advertisement (USD)
 
-#### Source
+#### Defined in
 
-main.ts:83935
+main.ts:84489
 
 ***
 
 ### daily\_cost\_min?
 
-> **`optional`** **daily\_cost\_min**: `number`
+> `optional` **daily\_cost\_min**: `number`
 
 the minimum daily charge value
 represents the minimum daily cost of the advertisement (USD)
 
-#### Source
+#### Defined in
 
-main.ts:83932
+main.ts:84486
 
 ***
 
 ### daily\_impressions\_average?
 
-> **`optional`** **daily\_impressions\_average**: `number`
+> `optional` **daily\_impressions\_average**: `number`
 
 the average value of daily impressions
 represents the average number of daily impressions of the advertisement given that that a bid is set to 999; provides a more accurate alternative to Google search volume data
 
-#### Source
+#### Defined in
 
-main.ts:83920
+main.ts:84474
 
 ***
 
 ### daily\_impressions\_max?
 
-> **`optional`** **daily\_impressions\_max**: `number`
+> `optional` **daily\_impressions\_max**: `number`
 
 the maximum value of daily impressions
 represents the maximum number of daily impressions of the advertisement given that that a bid is set to 999; provides a more accurate alternative to Google search volume data
 
-#### Source
+#### Defined in
 
-main.ts:83917
+main.ts:84471
 
 ***
 
 ### daily\_impressions\_min?
 
-> **`optional`** **daily\_impressions\_min**: `number`
+> `optional` **daily\_impressions\_min**: `number`
 
 the minimum value of daily impressions
 represents the minimum number of daily impressions of the advertisement given that that a bid is set to 999; provides a more accurate alternative to Google search volume data
 
-#### Source
+#### Defined in
 
-main.ts:83914
+main.ts:84468
 
 ***
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
-date and time when impressions data was updated
+date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:83881
+main.ts:84435
 
 ***
 
 ### match\_type?
 
-> **`optional`** **match\_type**: `string`
+> `optional` **match\_type**: `string`
 
 type of keyword match
 can take the following values: exact, broad, phrase
 
-#### Source
+#### Defined in
 
-main.ts:83887
+main.ts:84441
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:83876
+main.ts:84430

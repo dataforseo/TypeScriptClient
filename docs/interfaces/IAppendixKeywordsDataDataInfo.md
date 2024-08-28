@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,188 +14,188 @@
 
 ### ad\_traffic\_by\_keywords?
 
-> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220718
+main.ts:222626
 
 ***
 
 ### bing?
 
-> **`optional`** **bing**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](../classes/AppendixBingKeywordsDataLimitsRatesDataInfo.md)
+> `optional` **bing**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](../classes/AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220725
+main.ts:222633
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: `number`
+> `optional` **categories**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220723
+main.ts:222631
+
+***
+
+### clickstream\_data?
+
+> `optional` **clickstream\_data**: [`AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](../classes/AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
+
+#### Defined in
+
+main.ts:222638
 
 ***
 
 ### dataforseo\_trends?
 
-> **`optional`** **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
+> `optional` **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220730
+main.ts:222637
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220724
+main.ts:222632
 
 ***
 
 ### explore?
 
-> **`optional`** **explore**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **explore**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220722
+main.ts:222630
 
 ***
 
 ### google?
 
-> **`optional`** **google**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](../classes/AppendixBingKeywordsDataLimitsRatesDataInfo.md)
+> `optional` **google**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](../classes/AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220732
+main.ts:222640
 
 ***
 
 ### google\_ads?
 
-> **`optional`** **google\_ads**: [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
+> `optional` **google\_ads**: [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../classes/AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220729
+main.ts:222636
 
 ***
 
 ### keyword\_ideas\_ads\_api?
 
-> **`optional`** **keyword\_ideas\_ads\_api**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **keyword\_ideas\_ads\_api**: [`AppendixSerpLimitsRatesDataInfo`](../classes/AppendixSerpLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220733
+main.ts:222641
 
 ***
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220726
+main.ts:222634
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220715
+main.ts:222623
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220716
+main.ts:222624
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220719
+main.ts:222627
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220720
+main.ts:222628
 
 ***
 
 ### locations\_and\_languages?
 
-> **`optional`** **locations\_and\_languages**: `number`
+> `optional` **locations\_and\_languages**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220727
+main.ts:222635
 
 ***
 
 ### naver?
 
-> **`optional`** **naver**: [`AppendixNaverKeywordsDataDataInfo`](../classes/AppendixNaverKeywordsDataDataInfo.md)
+> `optional` **naver**: [`AppendixNaverKeywordsDataDataInfo`](../classes/AppendixNaverKeywordsDataDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220731
+main.ts:222639
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220717
-
-***
-
-### search\_volume\_history?
-
-> **`optional`** **search\_volume\_history**: [`AppendixInfo`](../classes/AppendixInfo.md)
-
-#### Source
-
-main.ts:220728
+main.ts:222625
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220721
+main.ts:222629

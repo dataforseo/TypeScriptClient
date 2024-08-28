@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,85 +14,85 @@
 
 ### cms?
 
-> **`optional`** **cms**: `string`
+> `optional` **cms**: `string`
 
 content management system
 
-#### Source
+#### Defined in
 
-main.ts:140278
+main.ts:142104
 
 ***
 
 ### country?
 
-> **`optional`** **country**: `string`
+> `optional` **country**: `string`
 
 country code that the target domain is determined to belong to
 
-#### Source
+#### Defined in
 
-main.ts:140284
+main.ts:142110
 
 ***
 
 ### ip\_address?
 
-> **`optional`** **ip\_address**: `string`
+> `optional` **ip\_address**: `string`
 
 IP address of the target
 
-#### Source
+#### Defined in
 
-main.ts:140282
+main.ts:142108
 
 ***
 
 ### is\_ip?
 
-> **`optional`** **is\_ip**: `boolean`
+> `optional` **is\_ip**: `boolean`
 
 indicates if the target is IP
 if true, the domain, subdomain or webpage functions as an IP address and does not have a domain name
 
-#### Source
+#### Defined in
 
-main.ts:140287
+main.ts:142113
 
 ***
 
 ### platform\_type?
 
-> **`optional`** **platform\_type**: `string`[]
+> `optional` **platform\_type**: `string`[]
 
 platform type
 
-#### Source
+#### Defined in
 
-main.ts:140280
+main.ts:142106
 
 ***
 
 ### server?
 
-> **`optional`** **server**: `string`
+> `optional` **server**: `string`
 
 server
 
-#### Source
+#### Defined in
 
-main.ts:140276
+main.ts:142102
 
 ***
 
 ### target\_spam\_score?
 
-> **`optional`** **target\_spam\_score**: `number`
+> `optional` **target\_spam\_score**: `number`
 
 spam score of the target
 if the target is a domain/subdomain, this fields indicates the average spam score of all pages of that domain/subdomain;
 learn more about how the metric is calculated on this help center page
 
-#### Source
+#### Defined in
 
-main.ts:140291
+main.ts:142117

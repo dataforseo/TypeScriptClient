@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,27 +14,27 @@
 
 ### page\_intersection?
 
-> **`optional`** **page\_intersection**: `Object`
+> `optional` **page\_intersection**: `object`
 
 contains data on pages that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to pages specified in the targets object
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: ([`BacklinksPageIntersectionInfo`](../classes/BacklinksPageIntersectionInfo.md) \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:149091
+main.ts:150917
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
+> `optional` **summary**: [`IntersectionSummaryInfo`](../classes/IntersectionSummaryInfo.md)
 
 contains the page intersections summary
 
-#### Source
+#### Defined in
 
-main.ts:149093
+main.ts:150919

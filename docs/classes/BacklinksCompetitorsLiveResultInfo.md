@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksCompetitorsLiveResultInfo(data)
+### new BacklinksCompetitorsLiveResultInfo()
 
 > **new BacklinksCompetitorsLiveResultInfo**(`data`?): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:147120
+main.ts:148946
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)[]
+> `optional` **items**: [`BacklinksCompetitorsLiveItem`](BacklinksCompetitorsLiveItem.md)[]
 
 items array
 
@@ -44,15 +44,15 @@ items array
 
 [`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md).[`items`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:147116
+main.ts:148942
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the items array
 
@@ -60,15 +60,15 @@ number of items in the items array
 
 [`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:147114
+main.ts:148940
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of relevant items in the database
 
@@ -76,9 +76,9 @@ total number of relevant items in the database
 
 [`IBacklinksCompetitorsLiveResultInfo`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksCompetitorsLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:147112
+main.ts:148938
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:147112
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:147129
+main.ts:148955
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:147129
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:147152
+main.ts:148978
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:147152
 
 [`BacklinksCompetitorsLiveResultInfo`](BacklinksCompetitorsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:147145
+main.ts:148971

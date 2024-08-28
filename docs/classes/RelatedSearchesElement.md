@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RelatedSearchesElement(data)
+### new RelatedSearchesElement()
 
 > **new RelatedSearchesElement**(`data`?): [`RelatedSearchesElement`](RelatedSearchesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`RelatedSearchesElement`](RelatedSearchesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:22064
+main.ts:22246
 
 ## Properties
 
 ### image\_alt?
 
-> **`optional`** **image\_alt**: `string`
+> `optional` **image\_alt**: `string`
 
 the alt tag of the product image featured in the results
 
@@ -44,15 +44,15 @@ the alt tag of the product image featured in the results
 
 [`IRelatedSearchesElement`](../interfaces/IRelatedSearchesElement.md).[`image_alt`](../interfaces/IRelatedSearchesElement.md#image_alt)
 
-#### Source
+#### Defined in
 
-main.ts:22058
+main.ts:22240
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the product image featured in the results
 
@@ -60,15 +60,15 @@ URL of the product image featured in the results
 
 [`IRelatedSearchesElement`](../interfaces/IRelatedSearchesElement.md).[`image_url`](../interfaces/IRelatedSearchesElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:22060
+main.ts:22242
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
@@ -76,15 +76,15 @@ product title
 
 [`IRelatedSearchesElement`](../interfaces/IRelatedSearchesElement.md).[`title`](../interfaces/IRelatedSearchesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:22054
+main.ts:22236
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -92,15 +92,15 @@ type of element
 
 [`IRelatedSearchesElement`](../interfaces/IRelatedSearchesElement.md).[`type`](../interfaces/IRelatedSearchesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:22052
+main.ts:22234
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 the URL of the product page
 
@@ -108,9 +108,9 @@ the URL of the product page
 
 [`IRelatedSearchesElement`](../interfaces/IRelatedSearchesElement.md).[`url`](../interfaces/IRelatedSearchesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:22056
+main.ts:22238
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:22056
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22073
+main.ts:22255
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:22073
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22094
+main.ts:22276
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RelatedSearchesElement`](RelatedSearchesElement.md)
+> `static` **fromJS**(`data`): [`RelatedSearchesElement`](RelatedSearchesElement.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:22094
 
 [`RelatedSearchesElement`](RelatedSearchesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:22087
+main.ts:22269

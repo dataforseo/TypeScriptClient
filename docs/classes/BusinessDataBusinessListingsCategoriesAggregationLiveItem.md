@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataBusinessListingsCategoriesAggregationLiveItem(data)
+### new BusinessDataBusinessListingsCategoriesAggregationLiveItem()
 
 > **new BusinessDataBusinessListingsCategoriesAggregationLiveItem**(`data`?): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:202498
+main.ts:204342
 
 ## Properties
 
 ### aggregation?
 
-> **`optional`** **aggregation**: [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
+> `optional` **aggregation**: [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
 aggregation of the category
 
@@ -44,15 +44,15 @@ aggregation of the category
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md).[`aggregation`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#aggregation)
 
-#### Source
+#### Defined in
 
-main.ts:202494
+main.ts:204338
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 business categories
 Google My Business general category that best describes the cluster of related categories
@@ -61,15 +61,15 @@ Google My Business general category that best describes the cluster of related c
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md).[`categories`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:202492
+main.ts:204336
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -77,9 +77,9 @@ type of element
 
 [`IBusinessDataBusinessListingsCategoriesAggregationLiveItem`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md).[`type`](../interfaces/IBusinessDataBusinessListingsCategoriesAggregationLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:202489
+main.ts:204333
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:202489
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:202507
+main.ts:204351
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:202507
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:202530
+main.ts:204374
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
+> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:202530
 
 [`BusinessDataBusinessListingsCategoriesAggregationLiveItem`](BusinessDataBusinessListingsCategoriesAggregationLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:202523
+main.ts:204367

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### chain?
 
-> **`optional`** **chain**: [`BaseOnPageLinkItemInfo`](../classes/BaseOnPageLinkItemInfo.md)[]
+> `optional` **chain**: [`BaseOnPageLinkItemInfo`](../classes/BaseOnPageLinkItemInfo.md)[]
 
 contains links that form a chain
 
-#### Source
+#### Defined in
 
-main.ts:160615
+main.ts:162447
 
 ***
 
 ### is\_redirect\_loop?
 
-> **`optional`** **is\_redirect\_loop**: `boolean`
+> `optional` **is\_redirect\_loop**: `boolean`
 
 indicates if redirects in chain start and end at the same URL
 if true, the last URL from the chain redirects back to the original URL
 
-#### Source
+#### Defined in
 
-main.ts:160613
+main.ts:162445

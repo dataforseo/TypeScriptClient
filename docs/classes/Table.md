@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Table(data)
+### new Table()
 
 > **new Table**(`data`?): [`Table`](Table.md)
 
@@ -28,15 +28,15 @@
 
 [`Table`](Table.md)
 
-#### Source
+#### Defined in
 
-main.ts:22307
+main.ts:22489
 
 ## Properties
 
 ### table\_content?
 
-> **`optional`** **table\_content**: `string`[][]
+> `optional` **table\_content**: `string`[][]
 
 the content of the table
 one line of the table in this element of the array
@@ -45,15 +45,15 @@ one line of the table in this element of the array
 
 [`ITable`](../interfaces/ITable.md).[`table_content`](../interfaces/ITable.md#table_content)
 
-#### Source
+#### Defined in
 
-main.ts:22303
+main.ts:22485
 
 ***
 
 ### table\_element?
 
-> **`optional`** **table\_element**: `string`
+> `optional` **table\_element**: `string`
 
 name assigned to the table element
 possible values:
@@ -63,15 +63,15 @@ table_element
 
 [`ITable`](../interfaces/ITable.md).[`table_element`](../interfaces/ITable.md#table_element)
 
-#### Source
+#### Defined in
 
-main.ts:22298
+main.ts:22480
 
 ***
 
 ### table\_header?
 
-> **`optional`** **table\_header**: `string`[]
+> `optional` **table\_header**: `string`[]
 
 column names
 
@@ -79,9 +79,9 @@ column names
 
 [`ITable`](../interfaces/ITable.md).[`table_header`](../interfaces/ITable.md#table_header)
 
-#### Source
+#### Defined in
 
-main.ts:22300
+main.ts:22482
 
 ## Methods
 
@@ -97,9 +97,9 @@ main.ts:22300
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22316
+main.ts:22498
 
 ***
 
@@ -115,15 +115,15 @@ main.ts:22316
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22343
+main.ts:22525
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Table`](Table.md)
+> `static` **fromJS**(`data`): [`Table`](Table.md)
 
 #### Parameters
 
@@ -133,6 +133,6 @@ main.ts:22343
 
 [`Table`](Table.md)
 
-#### Source
+#### Defined in
 
-main.ts:22336
+main.ts:22518

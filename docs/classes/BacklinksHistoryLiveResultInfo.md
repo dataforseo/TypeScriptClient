@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksHistoryLiveResultInfo(data)
+### new BacklinksHistoryLiveResultInfo()
 
 > **new BacklinksHistoryLiveResultInfo**(`data`?): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:141216
+main.ts:143042
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
@@ -47,15 +47,15 @@ example:
 
 [`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`date_from`](../interfaces/IBacklinksHistoryLiveResultInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:141201
+main.ts:143027
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
@@ -66,15 +66,15 @@ example:
 
 [`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`date_to`](../interfaces/IBacklinksHistoryLiveResultInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:141206
+main.ts:143032
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)[]
+> `optional` **items**: [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)[]
 
 contains historical backlink data for the specified domain
 the data is provided month-by-month;
@@ -84,15 +84,15 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 [`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`items`](../interfaces/IBacklinksHistoryLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:141212
+main.ts:143038
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -100,15 +100,15 @@ the number of results returned in the items array
 
 [`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksHistoryLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:141208
+main.ts:143034
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target from the POST array
 
@@ -116,9 +116,9 @@ target from the POST array
 
 [`IBacklinksHistoryLiveResultInfo`](../interfaces/IBacklinksHistoryLiveResultInfo.md).[`target`](../interfaces/IBacklinksHistoryLiveResultInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:141196
+main.ts:143022
 
 ## Methods
 
@@ -134,9 +134,9 @@ main.ts:141196
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:141225
+main.ts:143051
 
 ***
 
@@ -152,15 +152,15 @@ main.ts:141225
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:141250
+main.ts:143076
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
 #### Parameters
 
@@ -170,6 +170,6 @@ main.ts:141250
 
 [`BacklinksHistoryLiveResultInfo`](BacklinksHistoryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:141243
+main.ts:143069

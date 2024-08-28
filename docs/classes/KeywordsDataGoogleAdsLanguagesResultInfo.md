@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataGoogleAdsLanguagesResultInfo(data)
+### new KeywordsDataGoogleAdsLanguagesResultInfo()
 
 > **new KeywordsDataGoogleAdsLanguagesResultInfo**(`data`?): [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:119599
+main.ts:120231
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IKeywordsDataGoogleAdsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:119595
+main.ts:120227
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IKeywordsDataGoogleAdsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleAdsLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:119593
+main.ts:120225
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:119593
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:119608
+main.ts:120240
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:119608
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:119626
+main.ts:120258
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:119626
 
 [`KeywordsDataGoogleAdsLanguagesResultInfo`](KeywordsDataGoogleAdsLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:119619
+main.ts:120251

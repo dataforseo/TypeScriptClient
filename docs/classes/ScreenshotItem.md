@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ScreenshotItem(data)
+### new ScreenshotItem()
 
 > **new ScreenshotItem**(`data`?): [`ScreenshotItem`](ScreenshotItem.md)
 
@@ -28,15 +28,15 @@
 
 [`ScreenshotItem`](ScreenshotItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:24645
+main.ts:24827
 
 ## Properties
 
 ### image?
 
-> **`optional`** **image**: `string`
+> `optional` **image**: `string`
 
 screenshot of the requested page
 URL of the page screenshot on the DataForSEO storage
@@ -46,9 +46,9 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 [`IScreenshotItem`](../interfaces/IScreenshotItem.md).[`image`](../interfaces/IScreenshotItem.md#image)
 
-#### Source
+#### Defined in
 
-main.ts:24641
+main.ts:24823
 
 ## Methods
 
@@ -64,9 +64,9 @@ main.ts:24641
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:24654
+main.ts:24836
 
 ***
 
@@ -82,15 +82,15 @@ main.ts:24654
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:24671
+main.ts:24853
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ScreenshotItem`](ScreenshotItem.md)
+> `static` **fromJS**(`data`): [`ScreenshotItem`](ScreenshotItem.md)
 
 #### Parameters
 
@@ -100,6 +100,6 @@ main.ts:24671
 
 [`ScreenshotItem`](ScreenshotItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:24664
+main.ts:24846

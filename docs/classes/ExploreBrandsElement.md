@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ExploreBrandsElement(data)
+### new ExploreBrandsElement()
 
 > **new ExploreBrandsElement**(`data`?): [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:36955
+main.ts:37151
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`description`](../interfaces/IExploreBrandsElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:36947
+main.ts:37143
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -60,15 +60,15 @@ website domain
 
 [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`domain`](../interfaces/IExploreBrandsElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:36945
+main.ts:37141
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
@@ -76,15 +76,15 @@ URL of the image
 
 [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`image_url`](../interfaces/IExploreBrandsElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:36949
+main.ts:37145
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -92,15 +92,15 @@ title of a given link element
 
 [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`title`](../interfaces/IExploreBrandsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:36941
+main.ts:37137
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -108,15 +108,15 @@ type of element
 
 [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`type`](../interfaces/IExploreBrandsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:36939
+main.ts:37135
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -124,15 +124,15 @@ URL
 
 [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`url`](../interfaces/IExploreBrandsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:36943
+main.ts:37139
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -140,9 +140,9 @@ the XPath of the element
 
 [`IExploreBrandsElement`](../interfaces/IExploreBrandsElement.md).[`xpath`](../interfaces/IExploreBrandsElement.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:36951
+main.ts:37147
 
 ## Methods
 
@@ -158,9 +158,9 @@ main.ts:36951
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:36964
+main.ts:37160
 
 ***
 
@@ -176,15 +176,15 @@ main.ts:36964
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:36987
+main.ts:37183
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ExploreBrandsElement`](ExploreBrandsElement.md)
+> `static` **fromJS**(`data`): [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
 #### Parameters
 
@@ -194,6 +194,6 @@ main.ts:36987
 
 [`ExploreBrandsElement`](ExploreBrandsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:36980
+main.ts:37176

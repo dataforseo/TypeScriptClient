@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### asin?
 
-> **`optional`** **asin**: `string`
+> `optional` **asin**: `string`
 
 product ID
 required field
 unique product identifier (ASIN) in Amazon
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint
 
-#### Source
+#### Defined in
 
-main.ts:183960
+main.ts:185792
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -38,15 +38,15 @@ you can receive the list of available languages with their language_code parame
 example:
 en_GB
 
-#### Source
+#### Defined in
 
-main.ts:184007
+main.ts:185839
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -56,15 +56,15 @@ https://api.dataforseo.com/v3/merchant/amazon/languages
 example:
 English (United Kingdom)
 
-#### Source
+#### Defined in
 
-main.ts:184000
+main.ts:185832
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -74,15 +74,15 @@ https://api.dataforseo.com/v3/merchant/amazon/locations
 example:
 9045969
 
-#### Source
+#### Defined in
 
-main.ts:183983
+main.ts:185815
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -93,15 +93,15 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200
 
-#### Source
+#### Defined in
 
-main.ts:183992
+main.ts:185824
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -110,15 +110,15 @@ you can receive the list of available locations with their location_name paramet
 example:
 HA1,England,United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:183975
+main.ts:185807
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -130,15 +130,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:184046
+main.ts:185878
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -146,15 +146,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Source
+#### Defined in
 
-main.ts:184036
+main.ts:185868
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -166,15 +166,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:184030
+main.ts:185862
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -184,15 +184,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Source
+#### Defined in
 
-main.ts:183968
+main.ts:185800
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -201,15 +201,15 @@ however, you can set a custom search engine domain in this field
 example:
 amazon.com, amazon.co.uk, amazon.fr, etc.
 
-#### Source
+#### Defined in
 
-main.ts:184014
+main.ts:185846
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -217,6 +217,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:184020
+main.ts:185852

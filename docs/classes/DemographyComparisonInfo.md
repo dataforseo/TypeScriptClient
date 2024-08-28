@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DemographyComparisonInfo(data)
+### new DemographyComparisonInfo()
 
 > **new DemographyComparisonInfo**(`data`?): [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
@@ -28,19 +28,19 @@
 
 [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:20935
+main.ts:21117
 
 ## Properties
 
 ### age?
 
-> **`optional`** **age**: `Object`
+> `optional` **age**: `object`
 
 type of element
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`number` \| `undefined`)[]
 
@@ -48,19 +48,19 @@ type of element
 
 [`IDemographyComparisonInfo`](../interfaces/IDemographyComparisonInfo.md).[`age`](../interfaces/IDemographyComparisonInfo.md#age)
 
-#### Source
+#### Defined in
 
-main.ts:20929
+main.ts:21111
 
 ***
 
 ### gender?
 
-> **`optional`** **gender**: `Object`
+> `optional` **gender**: `object`
 
 type of element
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`number` \| `undefined`)[]
 
@@ -68,9 +68,9 @@ type of element
 
 [`IDemographyComparisonInfo`](../interfaces/IDemographyComparisonInfo.md).[`gender`](../interfaces/IDemographyComparisonInfo.md#gender)
 
-#### Source
+#### Defined in
 
-main.ts:20931
+main.ts:21113
 
 ## Methods
 
@@ -86,9 +86,9 @@ main.ts:20931
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:20944
+main.ts:21126
 
 ***
 
@@ -104,15 +104,15 @@ main.ts:20944
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:20974
+main.ts:21156
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
+> `static` **fromJS**(`data`): [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
 #### Parameters
 
@@ -122,6 +122,6 @@ main.ts:20974
 
 [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:20967
+main.ts:21149

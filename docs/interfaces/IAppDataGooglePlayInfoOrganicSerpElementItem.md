@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,412 +18,412 @@
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 ID of the app
 
-#### Source
+#### Defined in
 
-main.ts:192511
+main.ts:194343
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the app
 
-#### Source
+#### Defined in
 
-main.ts:192519
+main.ts:194351
 
 ***
 
 ### developer?
 
-> **`optional`** **developer**: `string`
+> `optional` **developer**: `string`
 
 name of the app developer
 
-#### Source
+#### Defined in
 
-main.ts:192537
+main.ts:194369
 
 ***
 
 ### developer\_address?
 
-> **`optional`** **developer\_address**: `string`
+> `optional` **developer\_address**: `string`
 
 physical address of the developer
 
-#### Source
+#### Defined in
 
-main.ts:192545
+main.ts:194377
 
 ***
 
 ### developer\_email?
 
-> **`optional`** **developer\_email**: `string`
+> `optional` **developer\_email**: `string`
 
 email address of the developer
 
-#### Source
+#### Defined in
 
-main.ts:192543
+main.ts:194375
 
 ***
 
 ### developer\_id?
 
-> **`optional`** **developer\_id**: `string`
+> `optional` **developer\_id**: `string`
 
 ID of the app developer
 
-#### Source
+#### Defined in
 
-main.ts:192539
+main.ts:194371
 
 ***
 
 ### developer\_url?
 
-> **`optional`** **developer\_url**: `string`
+> `optional` **developer\_url**: `string`
 
 URL to the developer page on Google Play
 
-#### Source
+#### Defined in
 
-main.ts:192541
+main.ts:194373
 
 ***
 
 ### developer\_website?
 
-> **`optional`** **developer\_website**: `string`
+> `optional` **developer\_website**: `string`
 
 official website of the developer
 
-#### Source
+#### Defined in
 
-main.ts:192547
+main.ts:194379
 
 ***
 
 ### genres?
 
-> **`optional`** **genres**: `string`[]
+> `optional` **genres**: `string`[]
 
 app genres
 contains relevant app categories
 
-#### Source
+#### Defined in
 
-main.ts:192581
+main.ts:194413
 
 ***
 
 ### icon?
 
-> **`optional`** **icon**: `string`
+> `optional` **icon**: `string`
 
 URL to the app icon
 
-#### Source
+#### Defined in
 
-main.ts:192517
+main.ts:194349
 
 ***
 
 ### images?
 
-> **`optional`** **images**: `string`[]
+> `optional` **images**: `string`[]
 
 app images
 contains URLs to the images published on the app page on Google Play
 
-#### Source
+#### Defined in
 
-main.ts:192569
+main.ts:194401
 
 ***
 
 ### installs?
 
-> **`optional`** **installs**: `string`
+> `optional` **installs**: `string`
 
 number of installs of the app
 approximate number of installs as displayed on the app page
 
-#### Source
+#### Defined in
 
-main.ts:192532
+main.ts:194364
 
 ***
 
 ### installs\_count?
 
-> **`optional`** **installs\_count**: `number`
+> `optional` **installs\_count**: `number`
 
 number of installs of the app
 the exact number of installs of the app
 
-#### Source
+#### Defined in
 
-main.ts:192535
+main.ts:194367
 
 ***
 
 ### is\_free?
 
-> **`optional`** **is\_free**: `boolean`
+> `optional` **is\_free**: `boolean`
 
 indicates whether the app is free
 
-#### Source
+#### Defined in
 
-main.ts:192527
+main.ts:194359
 
 ***
 
 ### last\_update\_date?
 
-> **`optional`** **last\_update\_date**: `string`
+> `optional` **last\_update\_date**: `string`
 
 date and time when the app was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:192563
+main.ts:194395
 
 ***
 
 ### main\_category?
 
-> **`optional`** **main\_category**: `string`
+> `optional` **main\_category**: `string`
 
 main category of the app
 
-#### Source
+#### Defined in
 
-main.ts:192529
+main.ts:194361
 
 ***
 
 ### minimum\_os\_version?
 
-> **`optional`** **minimum\_os\_version**: `string`
+> `optional` **minimum\_os\_version**: `string`
 
 minimum OS version required to install the app
 
-#### Source
+#### Defined in
 
-main.ts:192551
+main.ts:194383
 
 ***
 
 ### more\_apps\_by\_developer?
 
-> **`optional`** **more\_apps\_by\_developer**: [`AppsInfo`](../classes/AppsInfo.md)[]
+> `optional` **more\_apps\_by\_developer**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
 similar apps
 information about apps built by the same developer
 
-#### Source
+#### Defined in
 
-main.ts:192578
+main.ts:194410
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values: left
 
-#### Source
+#### Defined in
 
-main.ts:192509
+main.ts:194341
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`Price`](../classes/Price.md)
 
 price of the app
 
-#### Source
+#### Defined in
 
-main.ts:192525
+main.ts:194357
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed apps
 absolute position among all apps on the list
 
-#### Source
+#### Defined in
 
-main.ts:192506
+main.ts:194338
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:192503
+main.ts:194335
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 average rating of the app
 
-#### Source
+#### Defined in
 
-main.ts:192523
+main.ts:194355
 
 ***
 
 ### released\_date?
 
-> **`optional`** **released\_date**: `string`
+> `optional` **released\_date**: `string`
 
 date and time when the app was released
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:192558
+main.ts:194390
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 the total number of reviews the app has
 
-#### Source
+#### Defined in
 
-main.ts:192521
+main.ts:194353
 
 ***
 
 ### similar\_apps?
 
-> **`optional`** **similar\_apps**: [`AppsInfo`](../classes/AppsInfo.md)[]
+> `optional` **similar\_apps**: [`AppsInfo`](../classes/AppsInfo.md)[]
 
 similar apps
 displays apps similar to the app in a POST request
 
-#### Source
+#### Defined in
 
-main.ts:192575
+main.ts:194407
 
 ***
 
 ### size?
 
-> **`optional`** **size**: `string`
+> `optional` **size**: `string`
 
 size of the app
 
-#### Source
+#### Defined in
 
-main.ts:192553
+main.ts:194385
 
 ***
 
 ### tags?
 
-> **`optional`** **tags**: `string`[]
+> `optional` **tags**: `string`[]
 
 app tags
 contains relevant app tags
 
-#### Source
+#### Defined in
 
-main.ts:192584
+main.ts:194416
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the app
 
-#### Source
+#### Defined in
 
-main.ts:192513
+main.ts:194345
 
 ***
 
 ### update\_notes?
 
-> **`optional`** **update\_notes**: `string`
+> `optional` **update\_notes**: `string`
 
 update notes
 contains the latest update notes from the developer
 
-#### Source
+#### Defined in
 
-main.ts:192566
+main.ts:194398
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the app page on Google Play
 
-#### Source
+#### Defined in
 
-main.ts:192515
+main.ts:194347
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 current version of the app
 
-#### Source
+#### Defined in
 
-main.ts:192549
+main.ts:194381
 
 ***
 
 ### videos?
 
-> **`optional`** **videos**: `string`[]
+> `optional` **videos**: `string`[]
 
 app videos
 contains URLs to the video published on the app page on Google Play
 
-#### Source
+#### Defined in
 
-main.ts:192572
+main.ts:194404

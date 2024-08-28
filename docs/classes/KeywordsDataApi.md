@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -8,7 +8,7 @@
 
 ## Constructors
 
-### new KeywordsDataApi(baseUrl, http)
+### new KeywordsDataApi()
 
 > **new KeywordsDataApi**(`baseUrl`?, `http`?): [`KeywordsDataApi`](KeywordsDataApi.md)
 
@@ -18,53 +18,21 @@
 
 • **http?**
 
-• **http\.fetch?**
+• **http.fetch?**
 
 #### Returns
 
 [`KeywordsDataApi`](KeywordsDataApi.md)
 
-#### Source
+#### Defined in
 
 main.ts:8900
 
 ## Properties
 
-### baseUrl
+### jsonParseReviver()
 
-> **`private`** **baseUrl**: `string`
-
-#### Source
-
-main.ts:8897
-
-***
-
-### http
-
-> **`private`** **http**: `Object`
-
-#### http.fetch()
-
-##### Parameters
-
-• **url**: `RequestInfo`
-
-• **init?**: `RequestInit`
-
-##### Returns
-
-`Promise`\<`Response`\>
-
-#### Source
-
-main.ts:8896
-
-***
-
-### jsonParseReviver
-
-> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+> `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
 #### Parameters
 
@@ -76,7 +44,7 @@ main.ts:8896
 
 `any`
 
-#### Source
+#### Defined in
 
 main.ts:8898
 
@@ -98,9 +66,9 @@ main.ts:8898
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:11093
+main.ts:11100
 
 ***
 
@@ -122,9 +90,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:11052
+main.ts:11059
 
 ***
 
@@ -144,9 +112,9 @@ main.ts:11052
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10971
+main.ts:10978
 
 ***
 
@@ -160,9 +128,9 @@ main.ts:10971
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:11012
+main.ts:11019
 
 ***
 
@@ -182,9 +150,9 @@ main.ts:11012
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10892
+main.ts:10899
 
 ***
 
@@ -206,9 +174,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10851
+main.ts:10858
 
 ***
 
@@ -228,9 +196,9 @@ main.ts:10851
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10770
+main.ts:10777
 
 ***
 
@@ -244,9 +212,9 @@ main.ts:10770
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10811
+main.ts:10818
 
 ***
 
@@ -266,9 +234,9 @@ main.ts:10811
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10728
+main.ts:10735
 
 ***
 
@@ -290,9 +258,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10687
+main.ts:10694
 
 ***
 
@@ -312,9 +280,9 @@ main.ts:10687
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10606
+main.ts:10613
 
 ***
 
@@ -328,9 +296,9 @@ main.ts:10606
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10647
+main.ts:10654
 
 ***
 
@@ -350,9 +318,9 @@ main.ts:10647
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:11294
+main.ts:11301
 
 ***
 
@@ -374,9 +342,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:11253
+main.ts:11260
 
 ***
 
@@ -396,9 +364,9 @@ main.ts:11253
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:11172
+main.ts:11179
 
 ***
 
@@ -412,9 +380,9 @@ main.ts:11172
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:11213
+main.ts:11220
 
 ***
 
@@ -434,9 +402,9 @@ main.ts:11213
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10564
+main.ts:10571
 
 ***
 
@@ -458,9 +426,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10523
+main.ts:10530
 
 ***
 
@@ -480,9 +448,9 @@ main.ts:10523
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10442
+main.ts:10449
 
 ***
 
@@ -496,9 +464,75 @@ main.ts:10442
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10483
+main.ts:10490
+
+***
+
+### clickstreamDataBulkSearchVolumeLive()
+
+> **clickstreamDataBulkSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:11464
+
+***
+
+### clickstreamDataDataforseoSearchVolumeLive()
+
+> **clickstreamDataDataforseoSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:11380
+
+***
+
+### clickstreamDataGlobalSearchVolumeLive()
+
+> **clickstreamDataGlobalSearchVolumeLive**(`body`): `Promise`\<[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **body**: [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md)[]
+
+(optional)
+
+#### Returns
+
+`Promise`\<[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:11422
 
 ***
 
@@ -518,9 +552,9 @@ main.ts:10483
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10284
+main.ts:10291
 
 ***
 
@@ -540,9 +574,9 @@ main.ts:10284
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10200
+main.ts:10207
 
 ***
 
@@ -562,9 +596,9 @@ main.ts:10200
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10326
+main.ts:10333
 
 ***
 
@@ -584,9 +618,9 @@ main.ts:10326
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10242
+main.ts:10249
 
 ***
 
@@ -606,9 +640,9 @@ main.ts:10242
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9756
+main.ts:9763
 
 ***
 
@@ -630,9 +664,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9715
+main.ts:9722
 
 ***
 
@@ -652,9 +686,9 @@ main.ts:9715
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9634
+main.ts:9641
 
 ***
 
@@ -668,9 +702,9 @@ main.ts:9634
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9675
+main.ts:9682
 
 ***
 
@@ -690,9 +724,9 @@ main.ts:9675
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9592
+main.ts:9599
 
 ***
 
@@ -714,9 +748,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9551
+main.ts:9558
 
 ***
 
@@ -736,9 +770,9 @@ main.ts:9551
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9470
+main.ts:9477
 
 ***
 
@@ -752,9 +786,9 @@ main.ts:9470
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9511
+main.ts:9518
 
 ***
 
@@ -774,9 +808,9 @@ main.ts:9511
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9428
+main.ts:9435
 
 ***
 
@@ -798,9 +832,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9387
+main.ts:9394
 
 ***
 
@@ -820,9 +854,9 @@ main.ts:9387
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9306
+main.ts:9313
 
 ***
 
@@ -836,9 +870,9 @@ main.ts:9306
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9347
+main.ts:9354
 
 ***
 
@@ -858,9 +892,9 @@ main.ts:9347
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9264
+main.ts:9271
 
 ***
 
@@ -882,9 +916,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9223
+main.ts:9230
 
 ***
 
@@ -904,9 +938,9 @@ main.ts:9223
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9142
+main.ts:9149
 
 ***
 
@@ -920,9 +954,9 @@ main.ts:9142
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9183
+main.ts:9190
 
 ***
 
@@ -936,7 +970,7 @@ main.ts:9183
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8992
 
@@ -952,9 +986,9 @@ main.ts:8992
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9916
+main.ts:9923
 
 ***
 
@@ -974,9 +1008,9 @@ main.ts:9916
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10076
+main.ts:10083
 
 ***
 
@@ -998,9 +1032,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10035
+main.ts:10042
 
 ***
 
@@ -1020,9 +1054,9 @@ main.ts:10035
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9954
+main.ts:9961
 
 ***
 
@@ -1036,9 +1070,9 @@ main.ts:9954
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9995
+main.ts:10002
 
 ***
 
@@ -1052,9 +1086,9 @@ main.ts:9995
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10933
+main.ts:10940
 
 ***
 
@@ -1068,9 +1102,9 @@ main.ts:10933
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10404
+main.ts:10411
 
 ***
 
@@ -1084,9 +1118,9 @@ main.ts:10404
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10367
+main.ts:10374
 
 ***
 
@@ -1100,9 +1134,25 @@ main.ts:10367
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:11134
+main.ts:11141
+
+***
+
+### keywordsDataClickstreamDataLocationsAndLanguages()
+
+> **keywordsDataClickstreamDataLocationsAndLanguages**(): `Promise`\<[`KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.md)\>
+
+#### Returns
+
+`Promise`\<[`KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.md)\>
+
+Successful operation
+
+#### Defined in
+
+main.ts:11342
 
 ***
 
@@ -1116,9 +1166,9 @@ main.ts:11134
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10117
+main.ts:10124
 
 ***
 
@@ -1142,9 +1192,9 @@ us
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:10159
+main.ts:10166
 
 ***
 
@@ -1164,7 +1214,7 @@ main.ts:10159
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8951
 
@@ -1180,9 +1230,9 @@ main.ts:8951
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9104
+main.ts:9111
 
 ***
 
@@ -1196,7 +1246,7 @@ main.ts:9104
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:9029
 
@@ -1208,9 +1258,13 @@ main.ts:9029
 
 #### Parameters
 
-• **country**: `any`
+• **country**: `string`
 
-(optional)
+country ISO code
+optional field
+specify the ISO code if you want to filter the list of locations by country
+example:
+us
 
 #### Returns
 
@@ -1218,9 +1272,9 @@ main.ts:9029
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9067
+main.ts:9071
 
 ***
 
@@ -1234,9 +1288,9 @@ main.ts:9067
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9879
+main.ts:9886
 
 ***
 
@@ -1250,9 +1304,9 @@ main.ts:9879
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9797
+main.ts:9804
 
 ***
 
@@ -1276,9 +1330,9 @@ us
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:9839
+main.ts:9846
 
 ***
 
@@ -1298,7 +1352,7 @@ main.ts:9839
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8909
 
@@ -1306,7 +1360,7 @@ main.ts:8909
 
 ### processBingKeywordPerformanceLive()
 
-> **`protected`** **processBingKeywordPerformanceLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
+> `protected` **processBingKeywordPerformanceLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1316,15 +1370,15 @@ main.ts:8909
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceLiveResponseInfo`](KeywordsDataBingKeywordPerformanceLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:11113
+main.ts:11120
 
 ***
 
 ### processBingKeywordPerformanceTaskGet()
 
-> **`protected`** **processBingKeywordPerformanceTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
+> `protected` **processBingKeywordPerformanceTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -1334,15 +1388,15 @@ main.ts:11113
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskGetResponseInfo`](KeywordsDataBingKeywordPerformanceTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:11071
+main.ts:11078
 
 ***
 
 ### processBingKeywordPerformanceTaskPost()
 
-> **`protected`** **processBingKeywordPerformanceTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
+> `protected` **processBingKeywordPerformanceTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -1352,15 +1406,15 @@ main.ts:11071
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceTaskPostResponseInfo`](KeywordsDataBingKeywordPerformanceTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10991
+main.ts:10998
 
 ***
 
 ### processBingKeywordPerformanceTasksReady()
 
-> **`protected`** **processBingKeywordPerformanceTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
+> `protected` **processBingKeywordPerformanceTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -1370,15 +1424,15 @@ main.ts:10991
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo`](KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:11028
+main.ts:11035
 
 ***
 
 ### processBingKeywordsForKeywordsLive()
 
-> **`protected`** **processBingKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
+> `protected` **processBingKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1388,15 +1442,15 @@ main.ts:11028
 
 `Promise`\<[`KeywordsDataBingKeywordsForKeywordsLiveResponseInfo`](KeywordsDataBingKeywordsForKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10912
+main.ts:10919
 
 ***
 
 ### processBingKeywordsForKeywordsTaskGet()
 
-> **`protected`** **processBingKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
+> `protected` **processBingKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -1406,15 +1460,15 @@ main.ts:10912
 
 `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10870
+main.ts:10877
 
 ***
 
 ### processBingKeywordsForKeywordsTaskPost()
 
-> **`protected`** **processBingKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
+> `protected` **processBingKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -1424,15 +1478,15 @@ main.ts:10870
 
 `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataBingKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10790
+main.ts:10797
 
 ***
 
 ### processBingKeywordsForKeywordsTasksReady()
 
-> **`protected`** **processBingKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
+> `protected` **processBingKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -1442,15 +1496,15 @@ main.ts:10790
 
 `Promise`\<[`KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10827
+main.ts:10834
 
 ***
 
 ### processBingKeywordsForSiteLive()
 
-> **`protected`** **processBingKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
+> `protected` **processBingKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1460,15 +1514,15 @@ main.ts:10827
 
 `Promise`\<[`KeywordsDataBingKeywordsForSiteLiveResponseInfo`](KeywordsDataBingKeywordsForSiteLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10748
+main.ts:10755
 
 ***
 
 ### processBingKeywordsForSiteTaskGet()
 
-> **`protected`** **processBingKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
+> `protected` **processBingKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -1478,15 +1532,15 @@ main.ts:10748
 
 `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskGetResponseInfo`](KeywordsDataBingKeywordsForSiteTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10706
+main.ts:10713
 
 ***
 
 ### processBingKeywordsForSiteTaskPost()
 
-> **`protected`** **processBingKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
+> `protected` **processBingKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -1496,15 +1550,15 @@ main.ts:10706
 
 `Promise`\<[`KeywordsDataBingKeywordsForSiteTaskPostResponseInfo`](KeywordsDataBingKeywordsForSiteTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10626
+main.ts:10633
 
 ***
 
 ### processBingKeywordsForSiteTasksReady()
 
-> **`protected`** **processBingKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
+> `protected` **processBingKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -1514,15 +1568,15 @@ main.ts:10626
 
 `Promise`\<[`KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataBingKeywordsForSiteTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10663
+main.ts:10670
 
 ***
 
 ### processBingSearchVolumeHistoryLive()
 
-> **`protected`** **processBingSearchVolumeHistoryLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)\>
+> `protected` **processBingSearchVolumeHistoryLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1532,15 +1586,15 @@ main.ts:10663
 
 `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:11314
+main.ts:11321
 
 ***
 
 ### processBingSearchVolumeHistoryTaskGet()
 
-> **`protected`** **processBingSearchVolumeHistoryTaskGet**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)\>
+> `protected` **processBingSearchVolumeHistoryTaskGet**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -1550,15 +1604,15 @@ main.ts:11314
 
 `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:11272
+main.ts:11279
 
 ***
 
 ### processBingSearchVolumeHistoryTaskPost()
 
-> **`protected`** **processBingSearchVolumeHistoryTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)\>
+> `protected` **processBingSearchVolumeHistoryTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -1568,15 +1622,15 @@ main.ts:11272
 
 `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:11192
+main.ts:11199
 
 ***
 
 ### processBingSearchVolumeHistoryTasksReady()
 
-> **`protected`** **processBingSearchVolumeHistoryTasksReady**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)\>
+> `protected` **processBingSearchVolumeHistoryTasksReady**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -1586,15 +1640,15 @@ main.ts:11192
 
 `Promise`\<[`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:11229
+main.ts:11236
 
 ***
 
 ### processBingSearchVolumeLive()
 
-> **`protected`** **processBingSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
+> `protected` **processBingSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1604,15 +1658,15 @@ main.ts:11229
 
 `Promise`\<[`KeywordsDataBingSearchVolumeLiveResponseInfo`](KeywordsDataBingSearchVolumeLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10584
+main.ts:10591
 
 ***
 
 ### processBingSearchVolumeTaskGet()
 
-> **`protected`** **processBingSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
+> `protected` **processBingSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -1622,15 +1676,15 @@ main.ts:10584
 
 `Promise`\<[`KeywordsDataBingSearchVolumeTaskGetResponseInfo`](KeywordsDataBingSearchVolumeTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10542
+main.ts:10549
 
 ***
 
 ### processBingSearchVolumeTaskPost()
 
-> **`protected`** **processBingSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
+> `protected` **processBingSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -1640,15 +1694,15 @@ main.ts:10542
 
 `Promise`\<[`KeywordsDataBingSearchVolumeTaskPostResponseInfo`](KeywordsDataBingSearchVolumeTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10462
+main.ts:10469
 
 ***
 
 ### processBingSearchVolumeTasksReady()
 
-> **`protected`** **processBingSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
+> `protected` **processBingSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -1658,15 +1712,69 @@ main.ts:10462
 
 `Promise`\<[`KeywordsDataBingSearchVolumeTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10499
+main.ts:10506
+
+***
+
+### processClickstreamDataBulkSearchVolumeLive()
+
+> `protected` **processClickstreamDataBulkSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:11484
+
+***
+
+### processClickstreamDataDataforseoSearchVolumeLive()
+
+> `protected` **processClickstreamDataDataforseoSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:11400
+
+***
+
+### processClickstreamDataGlobalSearchVolumeLive()
+
+> `protected` **processClickstreamDataGlobalSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:11442
 
 ***
 
 ### processDataforseoTrendsDemographyLive()
 
-> **`protected`** **processDataforseoTrendsDemographyLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
+> `protected` **processDataforseoTrendsDemographyLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1676,15 +1784,15 @@ main.ts:10499
 
 `Promise`\<[`KeywordsDataDataforseoTrendsDemographyLiveResponseInfo`](KeywordsDataDataforseoTrendsDemographyLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10304
+main.ts:10311
 
 ***
 
 ### processDataforseoTrendsExploreLive()
 
-> **`protected`** **processDataforseoTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
+> `protected` **processDataforseoTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1694,15 +1802,15 @@ main.ts:10304
 
 `Promise`\<[`KeywordsDataDataforseoTrendsExploreLiveResponseInfo`](KeywordsDataDataforseoTrendsExploreLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10220
+main.ts:10227
 
 ***
 
 ### processDataforseoTrendsMergedDataLive()
 
-> **`protected`** **processDataforseoTrendsMergedDataLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
+> `protected` **processDataforseoTrendsMergedDataLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1712,15 +1820,15 @@ main.ts:10220
 
 `Promise`\<[`KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo`](KeywordsDataDataforseoTrendsMergedDataLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10346
+main.ts:10353
 
 ***
 
 ### processDataforseoTrendsSubregionInterestsLive()
 
-> **`protected`** **processDataforseoTrendsSubregionInterestsLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
+> `protected` **processDataforseoTrendsSubregionInterestsLive**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1730,15 +1838,15 @@ main.ts:10346
 
 `Promise`\<[`KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo`](KeywordsDataDataforseoTrendsSubregionInterestsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10262
+main.ts:10269
 
 ***
 
 ### processGoogleAdsAdTrafficByKeywordsLive()
 
-> **`protected`** **processGoogleAdsAdTrafficByKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
+> `protected` **processGoogleAdsAdTrafficByKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1748,15 +1856,15 @@ main.ts:10262
 
 `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9776
+main.ts:9783
 
 ***
 
 ### processGoogleAdsAdTrafficByKeywordsTaskGet()
 
-> **`protected`** **processGoogleAdsAdTrafficByKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
+> `protected` **processGoogleAdsAdTrafficByKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -1766,15 +1874,15 @@ main.ts:9776
 
 `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9734
+main.ts:9741
 
 ***
 
 ### processGoogleAdsAdTrafficByKeywordsTaskPost()
 
-> **`protected`** **processGoogleAdsAdTrafficByKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
+> `protected` **processGoogleAdsAdTrafficByKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -1784,15 +1892,15 @@ main.ts:9734
 
 `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9654
+main.ts:9661
 
 ***
 
 ### processGoogleAdsAdTrafficByKeywordsTasksReady()
 
-> **`protected`** **processGoogleAdsAdTrafficByKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
+> `protected` **processGoogleAdsAdTrafficByKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -1802,15 +1910,15 @@ main.ts:9654
 
 `Promise`\<[`KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9691
+main.ts:9698
 
 ***
 
 ### processGoogleAdsKeywordsForKeywordsLive()
 
-> **`protected`** **processGoogleAdsKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
+> `protected` **processGoogleAdsKeywordsForKeywordsLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1820,15 +1928,15 @@ main.ts:9691
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9612
+main.ts:9619
 
 ***
 
 ### processGoogleAdsKeywordsForKeywordsTaskGet()
 
-> **`protected`** **processGoogleAdsKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
+> `protected` **processGoogleAdsKeywordsForKeywordsTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -1838,15 +1946,15 @@ main.ts:9612
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9570
+main.ts:9577
 
 ***
 
 ### processGoogleAdsKeywordsForKeywordsTaskPost()
 
-> **`protected`** **processGoogleAdsKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
+> `protected` **processGoogleAdsKeywordsForKeywordsTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -1856,15 +1964,15 @@ main.ts:9570
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9490
+main.ts:9497
 
 ***
 
 ### processGoogleAdsKeywordsForKeywordsTasksReady()
 
-> **`protected`** **processGoogleAdsKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
+> `protected` **processGoogleAdsKeywordsForKeywordsTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -1874,15 +1982,15 @@ main.ts:9490
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9527
+main.ts:9534
 
 ***
 
 ### processGoogleAdsKeywordsForSiteLive()
 
-> **`protected`** **processGoogleAdsKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
+> `protected` **processGoogleAdsKeywordsForSiteLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1892,15 +2000,15 @@ main.ts:9527
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9448
+main.ts:9455
 
 ***
 
 ### processGoogleAdsKeywordsForSiteTaskGet()
 
-> **`protected`** **processGoogleAdsKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
+> `protected` **processGoogleAdsKeywordsForSiteTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -1910,15 +2018,15 @@ main.ts:9448
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9406
+main.ts:9413
 
 ***
 
 ### processGoogleAdsKeywordsForSiteTaskPost()
 
-> **`protected`** **processGoogleAdsKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
+> `protected` **processGoogleAdsKeywordsForSiteTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -1928,15 +2036,15 @@ main.ts:9406
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9326
+main.ts:9333
 
 ***
 
 ### processGoogleAdsKeywordsForSiteTasksReady()
 
-> **`protected`** **processGoogleAdsKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
+> `protected` **processGoogleAdsKeywordsForSiteTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -1946,15 +2054,15 @@ main.ts:9326
 
 `Promise`\<[`KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo`](KeywordsDataGoogleAdsKeywordsForSiteTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9363
+main.ts:9370
 
 ***
 
 ### processGoogleAdsSearchVolumeLive()
 
-> **`protected`** **processGoogleAdsSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
+> `protected` **processGoogleAdsSearchVolumeLive**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1964,15 +2072,15 @@ main.ts:9363
 
 `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo`](KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9284
+main.ts:9291
 
 ***
 
 ### processGoogleAdsSearchVolumeTaskGet()
 
-> **`protected`** **processGoogleAdsSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
+> `protected` **processGoogleAdsSearchVolumeTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -1982,15 +2090,15 @@ main.ts:9284
 
 `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9242
+main.ts:9249
 
 ***
 
 ### processGoogleAdsSearchVolumeTaskPost()
 
-> **`protected`** **processGoogleAdsSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
+> `protected` **processGoogleAdsSearchVolumeTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -2000,15 +2108,15 @@ main.ts:9242
 
 `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9162
+main.ts:9169
 
 ***
 
 ### processGoogleAdsSearchVolumeTasksReady()
 
-> **`protected`** **processGoogleAdsSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
+> `protected` **processGoogleAdsSearchVolumeTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -2018,15 +2126,15 @@ main.ts:9162
 
 `Promise`\<[`KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo`](KeywordsDataGoogleAdsSearchVolumeTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9199
+main.ts:9206
 
 ***
 
 ### processGoogleAdsStatus()
 
-> **`protected`** **processGoogleAdsStatus**(`response`): `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
+> `protected` **processGoogleAdsStatus**(`response`): `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
 
 #### Parameters
 
@@ -2036,7 +2144,7 @@ main.ts:9199
 
 `Promise`\<[`KeywordsDataGoogleAdsStatusResponseInfo`](KeywordsDataGoogleAdsStatusResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:9008
 
@@ -2044,7 +2152,7 @@ main.ts:9008
 
 ### processGoogleTrendsCategories()
 
-> **`protected`** **processGoogleTrendsCategories**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
+> `protected` **processGoogleTrendsCategories**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
 
 #### Parameters
 
@@ -2054,15 +2162,15 @@ main.ts:9008
 
 `Promise`\<[`KeywordsDataGoogleTrendsCategoriesResponseInfo`](KeywordsDataGoogleTrendsCategoriesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9932
+main.ts:9939
 
 ***
 
 ### processGoogleTrendsExploreLive()
 
-> **`protected`** **processGoogleTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
+> `protected` **processGoogleTrendsExploreLive**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2072,15 +2180,15 @@ main.ts:9932
 
 `Promise`\<[`KeywordsDataGoogleTrendsExploreLiveResponseInfo`](KeywordsDataGoogleTrendsExploreLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10096
+main.ts:10103
 
 ***
 
 ### processGoogleTrendsExploreTaskGet()
 
-> **`protected`** **processGoogleTrendsExploreTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
+> `protected` **processGoogleTrendsExploreTaskGet**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
 
 #### Parameters
 
@@ -2090,15 +2198,15 @@ main.ts:10096
 
 `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskGetResponseInfo`](KeywordsDataGoogleTrendsExploreTaskGetResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10054
+main.ts:10061
 
 ***
 
 ### processGoogleTrendsExploreTaskPost()
 
-> **`protected`** **processGoogleTrendsExploreTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
+> `protected` **processGoogleTrendsExploreTaskPost**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -2108,15 +2216,15 @@ main.ts:10054
 
 `Promise`\<[`KeywordsDataGoogleTrendsExploreTaskPostResponseInfo`](KeywordsDataGoogleTrendsExploreTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9974
+main.ts:9981
 
 ***
 
 ### processGoogleTrendsExploreTasksReady()
 
-> **`protected`** **processGoogleTrendsExploreTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
+> `protected` **processGoogleTrendsExploreTasksReady**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -2126,15 +2234,15 @@ main.ts:9974
 
 `Promise`\<[`KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo`](KeywordsDataGoogleTrendsExploreTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10011
+main.ts:10018
 
 ***
 
 ### processKeywordsDataBingKeywordPerformanceLocationsAndLanguages()
 
-> **`protected`** **processKeywordsDataBingKeywordPerformanceLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
+> `protected` **processKeywordsDataBingKeywordPerformanceLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -2144,15 +2252,15 @@ main.ts:10011
 
 `Promise`\<[`KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo`](KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10949
+main.ts:10956
 
 ***
 
 ### processKeywordsDataBingLanguages()
 
-> **`protected`** **processKeywordsDataBingLanguages**(`response`): `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
+> `protected` **processKeywordsDataBingLanguages**(`response`): `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -2162,15 +2270,15 @@ main.ts:10949
 
 `Promise`\<[`KeywordsDataBingLanguagesResponseInfo`](KeywordsDataBingLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10420
+main.ts:10427
 
 ***
 
 ### processKeywordsDataBingLocations()
 
-> **`protected`** **processKeywordsDataBingLocations**(`response`): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
+> `protected` **processKeywordsDataBingLocations**(`response`): `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
 
 #### Parameters
 
@@ -2180,15 +2288,15 @@ main.ts:10420
 
 `Promise`\<[`KeywordsDataBingLocationsResponseInfo`](KeywordsDataBingLocationsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10383
+main.ts:10390
 
 ***
 
 ### processKeywordsDataBingSearchVolumeHistoryLocationsAndLanguages()
 
-> **`protected`** **processKeywordsDataBingSearchVolumeHistoryLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)\>
+> `protected` **processKeywordsDataBingSearchVolumeHistoryLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -2198,15 +2306,33 @@ main.ts:10383
 
 `Promise`\<[`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:11150
+main.ts:11157
+
+***
+
+### processKeywordsDataClickstreamDataLocationsAndLanguages()
+
+> `protected` **processKeywordsDataClickstreamDataLocationsAndLanguages**(`response`): `Promise`\<[`KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.md)\>
+
+#### Parameters
+
+• **response**: `Response`
+
+#### Returns
+
+`Promise`\<[`KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.md)\>
+
+#### Defined in
+
+main.ts:11358
 
 ***
 
 ### processKeywordsDataDataforseoTrendsLocations()
 
-> **`protected`** **processKeywordsDataDataforseoTrendsLocations**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
+> `protected` **processKeywordsDataDataforseoTrendsLocations**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
 
 #### Parameters
 
@@ -2216,15 +2342,15 @@ main.ts:11150
 
 `Promise`\<[`KeywordsDataDataforseoTrendsLocationsResponseInfo`](KeywordsDataDataforseoTrendsLocationsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10133
+main.ts:10140
 
 ***
 
 ### processKeywordsDataDataforseoTrendsLocationsCountry()
 
-> **`protected`** **processKeywordsDataDataforseoTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
+> `protected` **processKeywordsDataDataforseoTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
@@ -2234,15 +2360,15 @@ main.ts:10133
 
 `Promise`\<[`KeywordsDataDataforseoTrendsLocationsCountryResponseInfo`](KeywordsDataDataforseoTrendsLocationsCountryResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:10178
+main.ts:10185
 
 ***
 
 ### processKeywordsDataErrors()
 
-> **`protected`** **processKeywordsDataErrors**(`response`): `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
+> `protected` **processKeywordsDataErrors**(`response`): `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
 
 #### Parameters
 
@@ -2252,7 +2378,7 @@ main.ts:10178
 
 `Promise`\<[`KeywordsDataErrorsResponseInfo`](KeywordsDataErrorsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8971
 
@@ -2260,7 +2386,7 @@ main.ts:8971
 
 ### processKeywordsDataGoogleAdsLanguages()
 
-> **`protected`** **processKeywordsDataGoogleAdsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
+> `protected` **processKeywordsDataGoogleAdsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -2270,15 +2396,15 @@ main.ts:8971
 
 `Promise`\<[`KeywordsDataGoogleAdsLanguagesResponseInfo`](KeywordsDataGoogleAdsLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9120
+main.ts:9127
 
 ***
 
 ### processKeywordsDataGoogleAdsLocations()
 
-> **`protected`** **processKeywordsDataGoogleAdsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
+> `protected` **processKeywordsDataGoogleAdsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
 
 #### Parameters
 
@@ -2288,7 +2414,7 @@ main.ts:9120
 
 `Promise`\<[`KeywordsDataGoogleAdsLocationsResponseInfo`](KeywordsDataGoogleAdsLocationsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:9045
 
@@ -2296,7 +2422,7 @@ main.ts:9045
 
 ### processKeywordsDataGoogleAdsLocationsCountry()
 
-> **`protected`** **processKeywordsDataGoogleAdsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)\>
+> `protected` **processKeywordsDataGoogleAdsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
@@ -2306,15 +2432,15 @@ main.ts:9045
 
 `Promise`\<[`KeywordsDataGoogleAdsLocationsCountryResponseInfo`](KeywordsDataGoogleAdsLocationsCountryResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9083
+main.ts:9090
 
 ***
 
 ### processKeywordsDataGoogleTrendsLanguages()
 
-> **`protected`** **processKeywordsDataGoogleTrendsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
+> `protected` **processKeywordsDataGoogleTrendsLanguages**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -2324,15 +2450,15 @@ main.ts:9083
 
 `Promise`\<[`KeywordsDataGoogleTrendsLanguagesResponseInfo`](KeywordsDataGoogleTrendsLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9895
+main.ts:9902
 
 ***
 
 ### processKeywordsDataGoogleTrendsLocations()
 
-> **`protected`** **processKeywordsDataGoogleTrendsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
+> `protected` **processKeywordsDataGoogleTrendsLocations**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
 
 #### Parameters
 
@@ -2342,15 +2468,15 @@ main.ts:9895
 
 `Promise`\<[`KeywordsDataGoogleTrendsLocationsResponseInfo`](KeywordsDataGoogleTrendsLocationsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9813
+main.ts:9820
 
 ***
 
 ### processKeywordsDataGoogleTrendsLocationsCountry()
 
-> **`protected`** **processKeywordsDataGoogleTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
+> `protected` **processKeywordsDataGoogleTrendsLocationsCountry**(`response`): `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
 
 #### Parameters
 
@@ -2360,15 +2486,15 @@ main.ts:9813
 
 `Promise`\<[`KeywordsDataGoogleTrendsLocationsCountryResponseInfo`](KeywordsDataGoogleTrendsLocationsCountryResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:9858
+main.ts:9865
 
 ***
 
 ### processKeywordsDataIdList()
 
-> **`protected`** **processKeywordsDataIdList**(`response`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
+> `protected` **processKeywordsDataIdList**(`response`): `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
 
 #### Parameters
 
@@ -2378,6 +2504,6 @@ main.ts:9858
 
 `Promise`\<[`KeywordsDataIdListResponseInfo`](KeywordsDataIdListResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8929

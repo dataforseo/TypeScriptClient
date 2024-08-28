@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,24 +14,24 @@
 
 ### popular\_index?
 
-> **`optional`** **popular\_index**: `number`
+> `optional` **popular\_index**: `number`
 
 popularity index
 relative time-bound popularity index measured from 0 to 100;
 higher value corresponds to a busier time of a day
 
-#### Source
+#### Defined in
 
-main.ts:201436
+main.ts:203268
 
 ***
 
 ### time?
 
-> **`optional`** **time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
+> `optional` **time**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
 busy hours
 
-#### Source
+#### Defined in
 
-main.ts:201432
+main.ts:203264

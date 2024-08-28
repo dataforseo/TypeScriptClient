@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,59 +14,59 @@
 
 ### author\_name?
 
-> **`optional`** **author\_name**: `string`
+> `optional` **author\_name**: `string`
 
 nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL
 
-#### Source
+#### Defined in
 
-main.ts:218143
+main.ts:219995
 
 ***
 
 ### permalink?
 
-> **`optional`** **permalink**: `string`
+> `optional` **permalink**: `string`
 
 URL to the subreddit post
 
-#### Source
+#### Defined in
 
-main.ts:218147
+main.ts:219999
 
 ***
 
 ### subreddit?
 
-> **`optional`** **subreddit**: `string`
+> `optional` **subreddit**: `string`
 
 the name of the subreddit
 
-#### Source
+#### Defined in
 
-main.ts:218140
+main.ts:219992
 
 ***
 
 ### subreddit\_members?
 
-> **`optional`** **subreddit\_members**: `number`
+> `optional` **subreddit\_members**: `number`
 
 number of subreddit members
 
-#### Source
+#### Defined in
 
-main.ts:218149
+main.ts:220001
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the subreddit post
 
-#### Source
+#### Defined in
 
-main.ts:218145
+main.ts:219997

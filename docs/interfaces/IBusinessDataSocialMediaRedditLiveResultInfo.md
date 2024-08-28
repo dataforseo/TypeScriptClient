@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### page\_url?
 
-> **`optional`** **page\_url**: `string`
+> `optional` **page\_url**: `string`
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
 
-#### Source
+#### Defined in
 
-main.ts:218219
+main.ts:220071
 
 ***
 
 ### reddit\_reviews?
 
-> **`optional`** **reddit\_reviews**: [`RedditReviews`](../classes/RedditReviews.md)[]
+> `optional` **reddit\_reviews**: [`RedditReviews`](../classes/RedditReviews.md)[]
 
 reddit reviews for the page_url
 
-#### Source
+#### Defined in
 
-main.ts:218221
+main.ts:220073
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:218216
+main.ts:220068

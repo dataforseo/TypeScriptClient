@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new HotelAmenityItemInfo(data)
+### new HotelAmenityItemInfo()
 
 > **new HotelAmenityItemInfo**(`data`?): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:208364
+main.ts:210214
 
 ## Properties
 
 ### amenity?
 
-> **`optional`** **amenity**: `string`
+> `optional` **amenity**: `string`
 
 standardised amenity name
 
@@ -44,15 +44,15 @@ standardised amenity name
 
 [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`amenity`](../interfaces/IHotelAmenityItemInfo.md#amenity)
 
-#### Source
+#### Defined in
 
-main.ts:208354
+main.ts:210204
 
 ***
 
 ### amenity\_label?
 
-> **`optional`** **amenity\_label**: `string`
+> `optional` **amenity\_label**: `string`
 
 displayed amenity name
 
@@ -60,15 +60,15 @@ displayed amenity name
 
 [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`amenity_label`](../interfaces/IHotelAmenityItemInfo.md#amenity_label)
 
-#### Source
+#### Defined in
 
-main.ts:208356
+main.ts:210206
 
 ***
 
 ### hint?
 
-> **`optional`** **hint**: `string`
+> `optional` **hint**: `string`
 
 standardised details about the amenity
 
@@ -76,15 +76,15 @@ standardised details about the amenity
 
 [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`hint`](../interfaces/IHotelAmenityItemInfo.md#hint)
 
-#### Source
+#### Defined in
 
-main.ts:208358
+main.ts:210208
 
 ***
 
 ### hint\_label?
 
-> **`optional`** **hint\_label**: `string`
+> `optional` **hint\_label**: `string`
 
 displayed details about the amenity
 
@@ -92,9 +92,9 @@ displayed details about the amenity
 
 [`IHotelAmenityItemInfo`](../interfaces/IHotelAmenityItemInfo.md).[`hint_label`](../interfaces/IHotelAmenityItemInfo.md#hint_label)
 
-#### Source
+#### Defined in
 
-main.ts:208360
+main.ts:210210
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:208360
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:208373
+main.ts:210223
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:208373
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:208393
+main.ts:210243
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
+> `static` **fromJS**(`data`): [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:208393
 
 [`HotelAmenityItemInfo`](HotelAmenityItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:208386
+main.ts:210236

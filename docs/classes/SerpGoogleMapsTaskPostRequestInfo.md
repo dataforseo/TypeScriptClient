@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleMapsTaskPostRequestInfo(data)
+### new SerpGoogleMapsTaskPostRequestInfo()
 
 > **new SerpGoogleMapsTaskPostRequestInfo**(`data`?): [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:40136
+main.ts:40662
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -51,15 +51,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:40080
+main.ts:40606
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -71,15 +71,15 @@ note: for mobile device, only 20 results are returned for every SERP
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`device`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:40057
+main.ts:40583
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -94,15 +94,15 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:40004
+main.ts:40530
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -115,15 +115,15 @@ en
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:40051
+main.ts:40577
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -136,15 +136,15 @@ English
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:40044
+main.ts:40570
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -157,15 +157,15 @@ example:
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:40026
+main.ts:40552
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -182,15 +182,15 @@ example:
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:40037
+main.ts:40563
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -203,15 +203,15 @@ London,England,United Kingdom
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:40019
+main.ts:40545
 
 ***
 
 ### max\_crawl\_pages?
 
-> **`optional`** **max\_crawl\_pages**: `number`
+> `optional` **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -224,15 +224,15 @@ learn more at our help center
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`max_crawl_pages`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#max_crawl_pages)
 
-#### Source
+#### Defined in
 
-main.ts:40087
+main.ts:40613
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
@@ -245,15 +245,15 @@ default value: android
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`os`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#os)
 
-#### Source
+#### Defined in
 
-main.ts:40064
+main.ts:40590
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -269,15 +269,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:40132
+main.ts:40658
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -289,15 +289,15 @@ advanced
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:40122
+main.ts:40648
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -313,15 +313,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:40116
+main.ts:40642
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -335,15 +335,15 @@ The cost can be calculated on the Pricing page.
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:40012
+main.ts:40538
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -356,15 +356,15 @@ google.co.uk, google.com.au, google.de, etc.
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`se_domain`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:40071
+main.ts:40597
 
 ***
 
 ### search\_places?
 
-> **`optional`** **search\_places**: `boolean`
+> `optional` **search\_places**: `boolean`
 
 search places mode
 optional field
@@ -377,15 +377,15 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`search_places`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#search_places)
 
-#### Source
+#### Defined in
 
-main.ts:40100
+main.ts:40626
 
 ***
 
 ### search\_this\_area?
 
-> **`optional`** **search\_this\_area**: `boolean`
+> `optional` **search\_this\_area**: `boolean`
 
 search this area
 optional field
@@ -397,15 +397,15 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`search_this_area`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#search_this_area)
 
-#### Source
+#### Defined in
 
-main.ts:40093
+main.ts:40619
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -417,15 +417,15 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:40106
+main.ts:40632
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 direct URL of the search query
 optional field
@@ -437,9 +437,9 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 [`ISerpGoogleMapsTaskPostRequestInfo`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md).[`url`](../interfaces/ISerpGoogleMapsTaskPostRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:39995
+main.ts:40521
 
 ## Methods
 
@@ -455,9 +455,9 @@ main.ts:39995
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:40145
+main.ts:40671
 
 ***
 
@@ -473,15 +473,15 @@ main.ts:40145
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:40180
+main.ts:40706
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -491,6 +491,6 @@ main.ts:40180
 
 [`SerpGoogleMapsTaskPostRequestInfo`](SerpGoogleMapsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:40173
+main.ts:40699

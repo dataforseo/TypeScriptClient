@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleAppIntersectionLiveRequestInfo(data)
+### new DataforseoLabsGoogleAppIntersectionLiveRequestInfo()
 
 > **new DataforseoLabsGoogleAppIntersectionLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:115542
+main.ts:116174
 
 ## Properties
 
 ### app\_ids?
 
-> **`optional`** **app\_ids**: `Object`
+> `optional` **app\_ids**: `object`
 
 ids of the target apps
 required field
@@ -46,14 +46,14 @@ example:
 in the URL https://play.google.com/store/apps/details?id=org.telegram.messenger
 the id is org.telegram.messenger;;
 the ids should be specified the following way:
-"app_ids": \{
+"app_ids": {
 "1": "org.telegram.messenger",
 "2": "com.zhiliaoapp.musically"
-\}
+}
 if you specify a single ID here, the API will return results only for one application;
 the maximum number of app IDs you can specify in this object is 20
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -61,40 +61,40 @@ the maximum number of app IDs you can specify in this object is 20
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`app_ids`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#app_ids)
 
-#### Source
+#### Defined in
 
-main.ts:115458
+main.ts:116090
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, `<=, >`, >=, =, `<>`, in, not_in
+<, <=, >, >=, =, <>, in, not_in
 example:
-["keyword_data.keyword_info.search_volume",">`",500]
-[["keyword_data.keyword_info.search_volume","`<>`",500],"and",[intersection_result.382617920.rank_group",">`=","10"]]
+["keyword_data.keyword_info.search_volume",">",500]
+[["keyword_data.keyword_info.search_volume","<>",500],"and",[intersection_result.382617920.rank_group",">=","10"]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
 #### Implementation of
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:115505
+main.ts:116137
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -109,15 +109,15 @@ en
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:115494
+main.ts:116126
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -132,15 +132,15 @@ English
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:115485
+main.ts:116117
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned keywords
 optional field
@@ -151,15 +151,15 @@ maximum value: 1000
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:115527
+main.ts:116159
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -174,15 +174,15 @@ example:
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:115476
+main.ts:116108
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -197,15 +197,15 @@ United States
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:115467
+main.ts:116099
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
@@ -216,15 +216,15 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:115532
+main.ts:116164
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -247,15 +247,15 @@ Note: if the item_types array contains item types that are different from organi
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:115522
+main.ts:116154
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -267,9 +267,9 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleAppIntersectionLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:115538
+main.ts:116170
 
 ## Methods
 
@@ -285,9 +285,9 @@ main.ts:115538
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:115551
+main.ts:116183
 
 ***
 
@@ -303,15 +303,15 @@ main.ts:115551
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:115591
+main.ts:116223
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
 #### Parameters
 
@@ -321,6 +321,6 @@ main.ts:115591
 
 [`DataforseoLabsGoogleAppIntersectionLiveRequestInfo`](DataforseoLabsGoogleAppIntersectionLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:115584
+main.ts:116216

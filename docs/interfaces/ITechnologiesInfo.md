@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,222 +14,222 @@
 
 ### add\_ons?
 
-> **`optional`** **add\_ons**: `Object`
+> `optional` **add\_ons**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23322
+main.ts:23504
 
 ***
 
 ### analytics?
 
-> **`optional`** **analytics**: `Object`
+> `optional` **analytics**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23323
+main.ts:23505
 
 ***
 
 ### business\_tools?
 
-> **`optional`** **business\_tools**: `Object`
+> `optional` **business\_tools**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23326
+main.ts:23508
 
 ***
 
 ### communication?
 
-> **`optional`** **communication**: `Object`
+> `optional` **communication**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23336
+main.ts:23518
 
 ***
 
 ### content?
 
-> **`optional`** **content**: `Object`
+> `optional` **content**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23333
+main.ts:23515
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `Object`
+> `optional` **location**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23332
+main.ts:23514
 
 ***
 
 ### marketing?
 
-> **`optional`** **marketing**: `Object`
+> `optional` **marketing**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23335
+main.ts:23517
 
 ***
 
 ### media?
 
-> **`optional`** **media**: `Object`
+> `optional` **media**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23334
+main.ts:23516
 
 ***
 
 ### other?
 
-> **`optional`** **other**: `Object`
+> `optional` **other**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23328
+main.ts:23510
 
 ***
 
 ### privacy?
 
-> **`optional`** **privacy**: `Object`
+> `optional` **privacy**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23330
+main.ts:23512
 
 ***
 
 ### sales?
 
-> **`optional`** **sales**: `Object`
+> `optional` **sales**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23327
+main.ts:23509
 
 ***
 
 ### security?
 
-> **`optional`** **security**: `Object`
+> `optional` **security**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23325
+main.ts:23507
 
 ***
 
 ### servers?
 
-> **`optional`** **servers**: `Object`
+> `optional` **servers**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23331
+main.ts:23513
 
 ***
 
 ### user\_generated\_content?
 
-> **`optional`** **user\_generated\_content**: `Object`
+> `optional` **user\_generated\_content**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23329
+main.ts:23511
 
 ***
 
 ### utilities?
 
-> **`optional`** **utilities**: `Object`
+> `optional` **utilities**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23337
+main.ts:23519
 
 ***
 
 ### web\_development?
 
-> **`optional`** **web\_development**: `Object`
+> `optional` **web\_development**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:23324
+main.ts:23506

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,109 +14,109 @@
 
 ### latitude?
 
-> **`optional`** **latitude**: `number`
+> `optional` **latitude**: `number`
 
 hotel latitude
 latitude coordinates of the hotel’s location
 example:
 39.4806397
 
-#### Source
+#### Defined in
 
-main.ts:208823
+main.ts:210673
 
 ***
 
 ### location\_chain?
 
-> **`optional`** **location\_chain**: [`LocationChain`](../classes/LocationChain.md)[]
+> `optional` **location\_chain**: [`LocationChain`](../classes/LocationChain.md)[]
 
 elements of the location chain
 additional parameters of each element of the location chain
 
-#### Source
+#### Defined in
 
-main.ts:208831
+main.ts:210681
 
 ***
 
 ### longitude?
 
-> **`optional`** **longitude**: `number`
+> `optional` **longitude**: `number`
 
 hotel longitude
 latitude coordinates of the hotel’s location
 example:
 -106.0512973
 
-#### Source
+#### Defined in
 
-main.ts:208828
+main.ts:210678
 
 ***
 
 ### maps\_url?
 
-> **`optional`** **maps\_url**: `string`
+> `optional` **maps\_url**: `string`
 
 url to the location of the hotel in google maps
 
-#### Source
+#### Defined in
 
-main.ts:208810
+main.ts:210660
 
 ***
 
 ### neighborhood?
 
-> **`optional`** **neighborhood**: `string`
+> `optional` **neighborhood**: `string`
 
 name of the neighborhood where the hotel is located
 
-#### Source
+#### Defined in
 
-main.ts:208806
+main.ts:210656
 
 ***
 
 ### neighborhood\_description?
 
-> **`optional`** **neighborhood\_description**: `string`
+> `optional` **neighborhood\_description**: `string`
 
 description of the neighborhood where the hotel is located
 
-#### Source
+#### Defined in
 
-main.ts:208808
+main.ts:210658
 
 ***
 
 ### overall\_score?
 
-> **`optional`** **overall\_score**: `number`
+> `optional` **overall\_score**: `number`
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby things to do and restaurants, transportation, and airports;
 note that the criteria are not weighted equally in the overall score
 
-#### Source
+#### Defined in
 
-main.ts:208815
+main.ts:210665
 
 ***
 
 ### score\_by\_categories?
 
-> **`optional`** **score\_by\_categories**: `Object`
+> `optional` **score\_by\_categories**: `object`
 
 category scores of the hotel location
 the scores of the hotel’s location tied to the categories that indicate the proximity to nearby things to do, restaurants, transportation, and airports;
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:208818
+main.ts:210668

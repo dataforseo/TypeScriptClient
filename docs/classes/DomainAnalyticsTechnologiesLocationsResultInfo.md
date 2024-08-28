@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesLocationsResultInfo(data)
+### new DomainAnalyticsTechnologiesLocationsResultInfo()
 
 > **new DomainAnalyticsTechnologiesLocationsResultInfo**(`data`?): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76245
+main.ts:76841
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md).[`country_iso_code`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:76241
+main.ts:76837
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
@@ -60,9 +60,9 @@ full name of the location
 
 [`IDomainAnalyticsTechnologiesLocationsResultInfo`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md).[`location_name`](../interfaces/IDomainAnalyticsTechnologiesLocationsResultInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:76239
+main.ts:76835
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:76239
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:76254
+main.ts:76850
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:76254
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:76272
+main.ts:76868
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:76272
 
 [`DomainAnalyticsTechnologiesLocationsResultInfo`](DomainAnalyticsTechnologiesLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76265
+main.ts:76861

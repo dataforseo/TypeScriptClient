@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,74 +18,75 @@
 
 ### items?
 
-> **`optional`** **items**: [`CommercialUnitsElement`](../classes/CommercialUnitsElement.md)[]
+> `optional` **items**: [`CommercialUnitsElement`](../classes/CommercialUnitsElement.md)[]
 
-elements of search results found in SERP
+additional items present in the element
+if there are none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:101529
+main.ts:102137
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:101523
+main.ts:102130
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:101519
+main.ts:102126
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:101516
+main.ts:102123
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
-title of the result in SERP
+title of the item
 
-#### Source
+#### Defined in
 
-main.ts:101527
+main.ts:102134
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:101525
+main.ts:102132

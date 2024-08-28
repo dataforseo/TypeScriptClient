@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new QueriesListDataInfo(data)
+### new QueriesListDataInfo()
 
 > **new QueriesListDataInfo**(`data`?): [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:127130
+main.ts:127137
 
 ## Properties
 
 ### rising?
 
-> **`optional`** **rising**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
+> `optional` **rising**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
@@ -45,15 +45,15 @@ represents the list of related topics with the biggest increase in search freque
 
 [`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md).[`rising`](../interfaces/IQueriesListDataInfo.md#rising)
 
-#### Source
+#### Defined in
 
-main.ts:127126
+main.ts:127133
 
 ***
 
 ### top?
 
-> **`optional`** **top**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
+> `optional` **top**: [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)[]
 
 the most popular related topics
 represents the list of the most popular related topics
@@ -62,9 +62,9 @@ represents the list of the most popular related topics
 
 [`IQueriesListDataInfo`](../interfaces/IQueriesListDataInfo.md).[`top`](../interfaces/IQueriesListDataInfo.md#top)
 
-#### Source
+#### Defined in
 
-main.ts:127123
+main.ts:127130
 
 ## Methods
 
@@ -80,9 +80,9 @@ main.ts:127123
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:127139
+main.ts:127146
 
 ***
 
@@ -98,15 +98,15 @@ main.ts:127139
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:127165
+main.ts:127172
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`QueriesListDataInfo`](QueriesListDataInfo.md)
+> `static` **fromJS**(`data`): [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
 #### Parameters
 
@@ -116,6 +116,6 @@ main.ts:127165
 
 [`QueriesListDataInfo`](QueriesListDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:127158
+main.ts:127165

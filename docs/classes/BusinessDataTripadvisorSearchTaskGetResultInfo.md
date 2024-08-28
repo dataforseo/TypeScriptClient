@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataTripadvisorSearchTaskGetResultInfo(data)
+### new BusinessDataTripadvisorSearchTaskGetResultInfo()
 
 > **new BusinessDataTripadvisorSearchTaskGetResultInfo**(`data`?): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:216144
+main.ts:217994
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to Tripadvisor results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,15 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`check_url`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:216124
+main.ts:217974
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +64,15 @@ example:
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`datetime`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:216129
+main.ts:217979
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 item types encountered in the result
 possible item types: tripadvisor_search_organic
@@ -81,15 +81,15 @@ possible item types: tripadvisor_search_organic
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`item_types`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:216132
+main.ts:217982
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+> `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
 Tripadvisor search listing results
 you can get more results by using the depth parameter when setting a task
@@ -98,15 +98,15 @@ you can get more results by using the depth parameter when setting a task
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`items`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:216140
+main.ts:217990
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of items in the results array
 you can get more results by using the depth parameter when setting a task
@@ -115,15 +115,15 @@ you can get more results by using the depth parameter when setting a task
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`items_count`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:216137
+main.ts:217987
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 this field will contain the alias parameter if it was specified in a POST array
@@ -132,15 +132,15 @@ this field will contain the alias parameter if it was specified in a POST array
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`keyword`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:216115
+main.ts:217965
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -148,15 +148,15 @@ language code in a POST array
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`language_code`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:216121
+main.ts:217971
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `string`
+> `optional` **location\_code**: `string`
 
 location code in a POST array
 
@@ -164,15 +164,15 @@ location code in a POST array
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`location_code`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:216119
+main.ts:217969
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
@@ -180,15 +180,15 @@ search engine domain in a POST array
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`se_domain`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:216117
+main.ts:217967
 
 ***
 
 ### se\_results\_count?
 
-> **`optional`** **se\_results\_count**: `number`
+> `optional` **se\_results\_count**: `number`
 
 the total number of results
 
@@ -196,9 +196,9 @@ the total number of results
 
 [`IBusinessDataTripadvisorSearchTaskGetResultInfo`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md).[`se_results_count`](../interfaces/IBusinessDataTripadvisorSearchTaskGetResultInfo.md#se_results_count)
 
-#### Source
+#### Defined in
 
-main.ts:216134
+main.ts:217984
 
 ## Methods
 
@@ -214,9 +214,9 @@ main.ts:216134
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:216153
+main.ts:218003
 
 ***
 
@@ -232,15 +232,15 @@ main.ts:216153
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:216187
+main.ts:218037
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
 #### Parameters
 
@@ -250,6 +250,6 @@ main.ts:216187
 
 [`BusinessDataTripadvisorSearchTaskGetResultInfo`](BusinessDataTripadvisorSearchTaskGetResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:216180
+main.ts:218030

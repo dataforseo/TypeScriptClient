@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,43 +14,43 @@
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Source
+#### Defined in
 
-main.ts:215053
+main.ts:216903
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
-#### Source
+#### Defined in
 
-main.ts:215043
+main.ts:216893
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
-#### Source
+#### Defined in
 
-main.ts:215045
+main.ts:216895
 
 ***
 
 ### location\_name\_parent?
 
-> **`optional`** **location\_name\_parent**: `string`
+> `optional` **location\_name\_parent**: `string`
 
 the name of the superordinate location
 example:
@@ -58,18 +58,18 @@ example:
 "location_name": "Vienna International Airport,Lower Austria,Austria",
 "location_name_parent": "Lower Austria,Austria"
 
-#### Source
+#### Defined in
 
-main.ts:215051
+main.ts:216901
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 
-#### Source
+#### Defined in
 
-main.ts:215055
+main.ts:216905

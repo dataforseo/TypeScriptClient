@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleSerpCompetitorsLiveResultInfo(data)
+### new DataforseoLabsGoogleSerpCompetitorsLiveResultInfo()
 
 > **new DataforseoLabsGoogleSerpCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:93534
+main.ts:93830
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
 contains detected SERP competitors and related data
 
@@ -44,15 +44,15 @@ contains detected SERP competitors and related data
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:93530
+main.ts:93826
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,15 +60,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:93528
+main.ts:93824
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
@@ -77,15 +77,15 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:93524
+main.ts:93820
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -94,15 +94,15 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:93521
+main.ts:93817
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -110,15 +110,15 @@ search engine type
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:93515
+main.ts:93811
 
 ***
 
 ### seed\_keywords?
 
-> **`optional`** **seed\_keywords**: `string`[]
+> `optional` **seed\_keywords**: `string`[]
 
 keywords specified in the request
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -127,15 +127,15 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md).[`seed_keywords`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md#seed_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:93518
+main.ts:93814
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 the total amount of results in our database relevant to your request
 
@@ -143,9 +143,9 @@ the total amount of results in our database relevant to your request
 
 [`IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:93526
+main.ts:93822
 
 ## Methods
 
@@ -161,9 +161,9 @@ main.ts:93526
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:93543
+main.ts:93839
 
 ***
 
@@ -179,15 +179,15 @@ main.ts:93543
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:93574
+main.ts:93870
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
 
 #### Parameters
 
@@ -197,6 +197,6 @@ main.ts:93574
 
 [`DataforseoLabsGoogleSerpCompetitorsLiveResultInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:93567
+main.ts:93863

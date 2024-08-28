@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,108 +14,108 @@
 
 ### items?
 
-> **`optional`** **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
+> `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
 contains keyword ideas and related data
 
-#### Source
+#### Defined in
 
-main.ts:84478
+main.ts:85046
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:84470
+main.ts:85038
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:84466
+main.ts:85034
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:84464
+main.ts:85032
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 current offset value
 
-#### Source
+#### Defined in
 
-main.ts:84472
+main.ts:85040
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
 
-#### Source
+#### Defined in
 
-main.ts:84476
+main.ts:85044
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:84460
+main.ts:85028
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:84462
+main.ts:85030
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:84468
+main.ts:85036

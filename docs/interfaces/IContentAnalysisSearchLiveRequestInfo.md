@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,18 +14,18 @@
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["country","=", "US"]
-[["domain_rank",">`",800],"and",["content_info.connotation_types.negative",">",0.9]]
+[["domain_rank",">",800],"and",["content_info.connotation_types.negative",">",0.9]]
 [["domain_rank",">",800],
 "and",
 [["page_types","has","ecommerce"],
@@ -33,15 +33,15 @@ example:
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
 
-#### Source
+#### Defined in
 
-main.ts:168178
+main.ts:170010
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 target keyword
 required field
@@ -52,15 +52,15 @@ Note: to match an exact phrase instead of a stand-alone keyword, use double quot
 example:
 "keyword": "\"tesla palo alto\""
 
-#### Source
+#### Defined in
 
-main.ts:168131
+main.ts:169963
 
 ***
 
 ### keyword\_fields?
 
-> **`optional`** **keyword\_fields**: `Object`
+> `optional` **keyword\_fields**: `object`
 
 target keyword fields and target keywords
 optional field
@@ -69,54 +69,54 @@ fields you can specify: title, main_title, previous_title, snippet
 you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
-"keyword_fields": \{
+"keyword_fields": {
     "snippet": "\"logitech mouse\"",
     "main_title": "sale"
-\}
+}
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:168143
+main.ts:169975
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned citations
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:168161
+main.ts:169993
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned citations
 optional field
 default value: 0
 if you specify the 10 value, the first ten citations in the results array will be omitted and the data will be provided for the successive citations
 
-#### Source
+#### Defined in
 
-main.ts:168199
+main.ts:170031
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 offset token for subsequent requests
 optional field
@@ -126,15 +126,15 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters except limit will not be taken into account when processing a task
 
-#### Source
+#### Defined in
 
-main.ts:168207
+main.ts:170039
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -152,15 +152,15 @@ you should use a comma to separate several sorting rules
 example:
 ["content_info.sentiment_connotations.anger,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Source
+#### Defined in
 
-main.ts:168194
+main.ts:170026
 
 ***
 
 ### page\_type?
 
-> **`optional`** **page\_type**: `string`[]
+> `optional` **page\_type**: `string`[]
 
 target page types
 optional field
@@ -168,15 +168,15 @@ use this parameter to filter the dataset by page types
 possible values:
 "ecommerce", "news", "blogs", "message-boards", "organization"
 
-#### Source
+#### Defined in
 
-main.ts:168149
+main.ts:169981
 
 ***
 
 ### search\_mode?
 
-> **`optional`** **search\_mode**: `string`
+> `optional` **search\_mode**: `string`
 
 results grouping type
 optional field
@@ -185,15 +185,15 @@ as_is – returns all citations for the target keyword
 one_per_domain – returns one citation of the keyword per domain
 default value: as_is
 
-#### Source
+#### Defined in
 
-main.ts:168156
+main.ts:169988
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -201,6 +201,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:168213
+main.ts:170045

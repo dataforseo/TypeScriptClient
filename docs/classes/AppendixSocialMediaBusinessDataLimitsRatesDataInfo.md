@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixSocialMediaBusinessDataLimitsRatesDataInfo(data)
+### new AppendixSocialMediaBusinessDataLimitsRatesDataInfo()
 
 > **new AppendixSocialMediaBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
@@ -28,51 +28,51 @@
 
 [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219799
+main.ts:221707
 
 ## Properties
 
 ### facebook?
 
-> **`optional`** **facebook**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **facebook**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md).[`facebook`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#facebook)
 
-#### Source
+#### Defined in
 
-main.ts:219793
+main.ts:221701
 
 ***
 
 ### pinterest?
 
-> **`optional`** **pinterest**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **pinterest**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md).[`pinterest`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#pinterest)
 
-#### Source
+#### Defined in
 
-main.ts:219794
+main.ts:221702
 
 ***
 
 ### reddit?
 
-> **`optional`** **reddit**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **reddit**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixSocialMediaBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md).[`reddit`](../interfaces/IAppendixSocialMediaBusinessDataLimitsRatesDataInfo.md#reddit)
 
-#### Source
+#### Defined in
 
-main.ts:219795
+main.ts:221703
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:219795
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:219808
+main.ts:221716
 
 ***
 
@@ -106,15 +106,15 @@ main.ts:219808
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:219827
+main.ts:221735
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -124,6 +124,6 @@ main.ts:219827
 
 [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219820
+main.ts:221728

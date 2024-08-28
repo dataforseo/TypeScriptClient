@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### format?
 
-> **`optional`** **format**: `string`
+> `optional` **format**: `string`
 
 type of file format of the dataset
 for example: zip, html, csv
 
-#### Source
+#### Defined in
 
-main.ts:54948
+main.ts:55480
 
 ***
 
 ### size?
 
-> **`optional`** **size**: `string`
+> `optional` **size**: `string`
 
 file size in bytes
 
-#### Source
+#### Defined in
 
-main.ts:54950
+main.ts:55482
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:54945
+main.ts:55477

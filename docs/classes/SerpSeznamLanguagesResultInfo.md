@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpSeznamLanguagesResultInfo(data)
+### new SerpSeznamLanguagesResultInfo()
 
 > **new SerpSeznamLanguagesResultInfo**(`data`?): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:73607
+main.ts:74203
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpSeznamLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:73603
+main.ts:74199
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`ISerpSeznamLanguagesResultInfo`](../interfaces/ISerpSeznamLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpSeznamLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:73601
+main.ts:74197
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:73601
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:73616
+main.ts:74212
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:73616
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:73634
+main.ts:74230
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:73634
 
 [`SerpSeznamLanguagesResultInfo`](SerpSeznamLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:73627
+main.ts:74223

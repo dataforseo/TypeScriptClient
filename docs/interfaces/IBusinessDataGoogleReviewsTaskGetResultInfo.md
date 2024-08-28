@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,204 +14,204 @@
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Source
+#### Defined in
 
-main.ts:211662
+main.ts:213512
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment
 learn more about the identifier in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:211686
+main.ts:213536
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:211667
+main.ts:213517
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 the unique identifier of the ‘reviews’ element in SERP
 learn more about the identifier in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:211679
+main.ts:213529
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
+> `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
 found reviews
 you can get more results by using the depth parameter when setting a task
 
-#### Source
+#### Defined in
 
-main.ts:211694
+main.ts:213544
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of reviews items in the results array
 you can get more results by using the depth parameter when setting a task
 
-#### Source
+#### Defined in
 
-main.ts:211691
+main.ts:213541
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
-#### Source
+#### Defined in
 
-main.ts:211651
+main.ts:213501
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:211659
+main.ts:213509
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:211657
+main.ts:213507
 
 ***
 
 ### place\_id?
 
-> **`optional`** **place\_id**: `string`
+> `optional` **place\_id**: `string`
 
 unique identifier of a business location assigned by Google
 learn more about the identifier in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:211682
+main.ts:213532
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 rating of the corresponding local establishment
 popularity rate based on reviews and displayed in SERP
 
-#### Source
+#### Defined in
 
-main.ts:211676
+main.ts:213526
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 the total number of reviews
 
-#### Source
+#### Defined in
 
-main.ts:211688
+main.ts:213538
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:211655
+main.ts:213505
 
 ***
 
 ### sub\_title?
 
-> **`optional`** **sub\_title**: `string`
+> `optional` **sub\_title**: `string`
 
 subtitle of the ‘reviews’ element in SERP
 additional information (e.g., address) on the ‘reviews’ element for which the reviews are collected
 
-#### Source
+#### Defined in
 
-main.ts:211673
+main.ts:213523
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the ‘reviews’ element in SERP
 the name of the local establishment for which the reviews are collected
 
-#### Source
+#### Defined in
 
-main.ts:211670
+main.ts:213520
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:211653
+main.ts:213503

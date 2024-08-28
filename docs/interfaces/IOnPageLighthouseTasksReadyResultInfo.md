@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### endpoint\_json?
 
-> **`optional`** **endpoint\_json**: `string`
+> `optional` **endpoint\_json**: `string`
 
 URL for collecting the results of the OnPage Lighthouse JSON task
 
-#### Source
+#### Defined in
 
-main.ts:166371
+main.ts:168203
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
 
-#### Source
+#### Defined in
 
-main.ts:166367
+main.ts:168199
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
-#### Source
+#### Defined in
 
-main.ts:166369
+main.ts:168201

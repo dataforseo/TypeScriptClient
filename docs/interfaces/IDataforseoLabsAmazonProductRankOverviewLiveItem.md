@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,36 +14,36 @@
 
 ### asin?
 
-> **`optional`** **asin**: `string`
+> `optional` **asin**: `string`
 
 ASIN of the product
 unique product identifier on Amazon;
 for more information, refer to this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:106460
+main.ts:107090
 
 ***
 
 ### metrics?
 
-> **`optional`** **metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
+> `optional` **metrics**: [`AmazonMetricsBundleInfo`](../classes/AmazonMetricsBundleInfo.md)
 
 average keyword position of the product
 
-#### Source
+#### Defined in
 
-main.ts:106462
+main.ts:107092
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:106456
+main.ts:107086

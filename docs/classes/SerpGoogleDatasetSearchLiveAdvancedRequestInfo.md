@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleDatasetSearchLiveAdvancedRequestInfo(data)
+### new SerpGoogleDatasetSearchLiveAdvancedRequestInfo()
 
 > **new SerpGoogleDatasetSearchLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:55722
+main.ts:56254
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -51,15 +51,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`depth`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:55692
+main.ts:56224
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -69,15 +69,15 @@ possible value: desktop
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:55678
+main.ts:56210
 
 ***
 
 ### file\_formats?
 
-> **`optional`** **file\_formats**: `string`[]
+> `optional` **file\_formats**: `string`[]
 
 file formats of the dataset
 optional field
@@ -87,15 +87,15 @@ possible values: other, archive, text, image, document, tabular
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`file_formats`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#file_formats)
 
-#### Source
+#### Defined in
 
-main.ts:55700
+main.ts:56232
 
 ***
 
 ### is\_free?
 
-> **`optional`** **is\_free**: `boolean`
+> `optional` **is\_free**: `boolean`
 
 indicates whether displayed datasets are free
 optional field
@@ -105,15 +105,15 @@ possible values: true, false
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`is_free`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#is_free)
 
-#### Source
+#### Defined in
 
-main.ts:55708
+main.ts:56240
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -126,15 +126,15 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:55662
+main.ts:56194
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field if you don’t specify language_name
@@ -146,15 +146,15 @@ en
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:55674
+main.ts:56206
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -166,15 +166,15 @@ English
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:55668
+main.ts:56200
 
 ***
 
 ### last\_updated?
 
-> **`optional`** **last\_updated**: `string`
+> `optional` **last\_updated**: `string`
 
 last time the dataset was updated
 optional field
@@ -184,15 +184,15 @@ possible values: 1m, 1y, 3y
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`last_updated`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#last_updated)
 
-#### Source
+#### Defined in
 
-main.ts:55696
+main.ts:56228
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
@@ -203,15 +203,15 @@ default value: windows
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#os)
 
-#### Source
+#### Defined in
 
-main.ts:55683
+main.ts:56215
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -223,15 +223,15 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:55718
+main.ts:56250
 
 ***
 
 ### topics?
 
-> **`optional`** **topics**: `string`[]
+> `optional` **topics**: `string`[]
 
 dataset topics
 optional field
@@ -241,15 +241,15 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`topics`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#topics)
 
-#### Source
+#### Defined in
 
-main.ts:55712
+main.ts:56244
 
 ***
 
 ### usage\_rights?
 
-> **`optional`** **usage\_rights**: `string`
+> `optional` **usage\_rights**: `string`
 
 usage rights of the dataset
 optional field
@@ -259,9 +259,9 @@ possible values: commercial, noncommercial
 
 [`ISerpGoogleDatasetSearchLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md).[`usage_rights`](../interfaces/ISerpGoogleDatasetSearchLiveAdvancedRequestInfo.md#usage_rights)
 
-#### Source
+#### Defined in
 
-main.ts:55704
+main.ts:56236
 
 ## Methods
 
@@ -277,9 +277,9 @@ main.ts:55704
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:55731
+main.ts:56263
 
 ***
 
@@ -295,15 +295,15 @@ main.ts:55731
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:55767
+main.ts:56299
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
@@ -313,6 +313,6 @@ main.ts:55767
 
 [`SerpGoogleDatasetSearchLiveAdvancedRequestInfo`](SerpGoogleDatasetSearchLiveAdvancedRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:55760
+main.ts:56292

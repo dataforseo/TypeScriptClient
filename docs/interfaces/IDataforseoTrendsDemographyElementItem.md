@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,47 +18,47 @@
 
 ### demography?
 
-> **`optional`** **demography**: [`Demography`](../classes/Demography.md)
+> `optional` **demography**: [`Demography`](../classes/Demography.md)
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
 
-#### Source
+#### Defined in
 
-main.ts:130898
+main.ts:130722
 
 ***
 
 ### demography\_comparison?
 
-> **`optional`** **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
+> `optional` **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130899
+main.ts:130723
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the interests and interests_comparison is based on the keywords listed in this array
 
-#### Source
+#### Defined in
 
-main.ts:130895
+main.ts:130719
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
 
-#### Source
+#### Defined in
 
-main.ts:130892
+main.ts:130716

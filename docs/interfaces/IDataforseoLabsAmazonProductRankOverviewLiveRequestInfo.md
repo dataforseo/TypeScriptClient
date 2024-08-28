@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### asins?
 
-> **`optional`** **asins**: `string`[]
+> `optional` **asins**: `string`[]
 
 product IDs to compare
 required field
@@ -22,15 +22,15 @@ product IDs to receive ranking data for;
 the maximum number of ASINs you can specify in this array is 1000;
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint
 
-#### Source
+#### Defined in
 
-main.ts:106224
+main.ts:106854
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -39,15 +39,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:106254
+main.ts:106884
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -56,15 +56,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:106247
+main.ts:106877
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -74,15 +74,15 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:106240
+main.ts:106870
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -92,15 +92,15 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States
 
-#### Source
+#### Defined in
 
-main.ts:106232
+main.ts:106862
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -108,6 +108,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:106260
+main.ts:106890

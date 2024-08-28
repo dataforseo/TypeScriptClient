@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PopularTimes(data)
+### new PopularTimes()
 
 > **new PopularTimes**(`data`?): [`PopularTimes`](PopularTimes.md)
 
@@ -28,20 +28,20 @@
 
 [`PopularTimes`](PopularTimes.md)
 
-#### Source
+#### Defined in
 
-main.ts:201448
+main.ts:203280
 
 ## Properties
 
 ### popular\_times\_by\_days?
 
-> **`optional`** **popular\_times\_by\_days**: `Object`
+> `optional` **popular\_times\_by\_days**: `object`
 
 popular hours
 information about busy hours of the local establishment on each day of the week
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: ([`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md) \| `undefined`)[]
 
@@ -49,9 +49,9 @@ information about busy hours of the local establishment on each day of the week
 
 [`IPopularTimes`](../interfaces/IPopularTimes.md).[`popular_times_by_days`](../interfaces/IPopularTimes.md#popular_times_by_days)
 
-#### Source
+#### Defined in
 
-main.ts:201444
+main.ts:203276
 
 ## Methods
 
@@ -67,9 +67,9 @@ main.ts:201444
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:201457
+main.ts:203289
 
 ***
 
@@ -85,15 +85,15 @@ main.ts:201457
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:201480
+main.ts:203312
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PopularTimes`](PopularTimes.md)
+> `static` **fromJS**(`data`): [`PopularTimes`](PopularTimes.md)
 
 #### Parameters
 
@@ -103,6 +103,6 @@ main.ts:201480
 
 [`PopularTimes`](PopularTimes.md)
 
-#### Source
+#### Defined in
 
-main.ts:201473
+main.ts:203305

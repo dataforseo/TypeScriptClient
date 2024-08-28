@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Interests(data)
+### new Interests()
 
 > **new Interests**(`data`?): [`Interests`](Interests.md)
 
@@ -28,15 +28,15 @@
 
 [`Interests`](Interests.md)
 
-#### Source
+#### Defined in
 
-main.ts:129417
+main.ts:129241
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 relevant keyword
 the data included in the values element is based on this keyword
@@ -45,15 +45,15 @@ the data included in the values element is based on this keyword
 
 [`IInterests`](../interfaces/IInterests.md).[`keyword`](../interfaces/IInterests.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:129411
+main.ts:129235
 
 ***
 
 ### values?
 
-> **`optional`** **values**: [`Values`](Values.md)[]
+> `optional` **values**: [`Values`](Values.md)[]
 
 contains data on relative keyword popularity by country or region
 
@@ -61,9 +61,9 @@ contains data on relative keyword popularity by country or region
 
 [`IInterests`](../interfaces/IInterests.md).[`values`](../interfaces/IInterests.md#values)
 
-#### Source
+#### Defined in
 
-main.ts:129413
+main.ts:129237
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:129413
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:129426
+main.ts:129250
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:129426
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:129448
+main.ts:129272
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Interests`](Interests.md)
+> `static` **fromJS**(`data`): [`Interests`](Interests.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:129448
 
 [`Interests`](Interests.md)
 
-#### Source
+#### Defined in
 
-main.ts:129441
+main.ts:129265

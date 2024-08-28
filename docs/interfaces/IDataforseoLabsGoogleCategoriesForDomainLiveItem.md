@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,39 +14,39 @@
 
 ### categories?
 
-> **`optional`** **categories**: `number`[]
+> `optional` **categories**: `number`[]
 
 product and service categories
 you can download the full list of possible categories
 
-#### Source
+#### Defined in
 
-main.ts:88624
+main.ts:89188
 
 ***
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 ranking data relevant to the specified domain or subdomain
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:88626
+main.ts:89190
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:88621
+main.ts:89185

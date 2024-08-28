@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo(data)
+### new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo()
 
 > **new DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:88866
+main.ts:89430
 
 ## Properties
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 target keywords
 required field
@@ -49,15 +49,15 @@ the keywords will be converted to lowercase format
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:88842
+main.ts:89406
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -70,15 +70,15 @@ en
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:88856
+main.ts:89420
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -91,15 +91,15 @@ English
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:88849
+main.ts:89413
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -111,9 +111,9 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:88862
+main.ts:89426
 
 ## Methods
 
@@ -129,9 +129,9 @@ main.ts:88862
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:88875
+main.ts:89439
 
 ***
 
@@ -147,15 +147,15 @@ main.ts:88875
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:88899
+main.ts:89463
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
 
 #### Parameters
 
@@ -165,6 +165,6 @@ main.ts:88899
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:88892
+main.ts:89456

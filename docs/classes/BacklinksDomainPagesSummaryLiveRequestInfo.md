@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksDomainPagesSummaryLiveRequestInfo(data)
+### new BacklinksDomainPagesSummaryLiveRequestInfo()
 
 > **new BacklinksDomainPagesSummaryLiveRequestInfo**(`data`?): [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:144592
+main.ts:146418
 
 ## Properties
 
 ### backlinks\_filters?
 
-> **`optional`** **backlinks\_filters**: `any`[]
+> `optional` **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -50,15 +50,15 @@ example:
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`backlinks_filters`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#backlinks_filters)
 
-#### Source
+#### Defined in
 
-main.ts:144566
+main.ts:146392
 
 ***
 
 ### backlinks\_status\_type?
 
-> **`optional`** **backlinks\_status\_type**: `string`
+> `optional` **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -73,15 +73,15 @@ default value: live
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`backlinks_status_type`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#backlinks_status_type)
 
-#### Source
+#### Defined in
 
-main.ts:144527
+main.ts:146353
 
 ***
 
 ### exclude\_internal\_backlinks?
 
-> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+> `optional` **exclude\_internal\_backlinks**: `boolean`
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
@@ -92,25 +92,25 @@ default value: true
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`exclude_internal_backlinks`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#exclude_internal_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:144582
+main.ts:146408
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["referring_links_types.anchors",">`","1"]
+["referring_links_types.anchors",">","1"]
 [["broken_pages",">","2"],
 "and",
 ["backlinks",">","10"]]
@@ -123,15 +123,15 @@ The full list of possible filters is available here.
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`filters`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:144544
+main.ts:146370
 
 ***
 
 ### include\_indirect\_links?
 
-> **`optional`** **include\_indirect\_links**: `boolean`
+> `optional` **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -143,15 +143,15 @@ default value: true
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`include_indirect_links`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#include_indirect_links)
 
-#### Source
+#### Defined in
 
-main.ts:144577
+main.ts:146403
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target domain will be included in the search
 optional field
@@ -162,15 +162,15 @@ default value: true
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#include_subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:144571
+main.ts:146397
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -187,15 +187,15 @@ maximum value: 1000
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#internal_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:144518
+main.ts:146344
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned anchors
 optional field
@@ -206,15 +206,15 @@ maximum value: 1000
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`limit`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:144502
+main.ts:146328
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned anchors
 optional field
@@ -225,15 +225,15 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`offset`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:144507
+main.ts:146333
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -253,15 +253,15 @@ example:
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`order_by`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:144558
+main.ts:146384
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -273,15 +273,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:144588
+main.ts:146414
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage to get summary data for
 required field
@@ -292,9 +292,9 @@ a page should be specified with absolute URL (including http:// or https://)
 
 [`IBacklinksDomainPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md).[`target`](../interfaces/IBacklinksDomainPagesSummaryLiveRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:144497
+main.ts:146323
 
 ## Methods
 
@@ -310,9 +310,9 @@ main.ts:144497
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:144601
+main.ts:146427
 
 ***
 
@@ -328,15 +328,15 @@ main.ts:144601
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:144641
+main.ts:146467
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
 
 #### Parameters
 
@@ -346,6 +346,6 @@ main.ts:144641
 
 [`BacklinksDomainPagesSummaryLiveRequestInfo`](BacklinksDomainPagesSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:144634
+main.ts:146460

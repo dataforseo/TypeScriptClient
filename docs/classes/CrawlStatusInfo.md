@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new CrawlStatusInfo(data)
+### new CrawlStatusInfo()
 
 > **new CrawlStatusInfo**(`data`?): [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21997
+main.ts:22179
 
 ## Properties
 
 ### max\_crawl\_pages?
 
-> **`optional`** **max\_crawl\_pages**: `number`
+> `optional` **max\_crawl\_pages**: `number`
 
 maximum number of pages to crawl
 indicates the max_crawl_pages limit you specified when setting a task
@@ -45,15 +45,15 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md).[`max_crawl_pages`](../interfaces/ICrawlStatusInfo.md#max_crawl_pages)
 
-#### Source
+#### Defined in
 
-main.ts:21989
+main.ts:22171
 
 ***
 
 ### pages\_crawled?
 
-> **`optional`** **pages\_crawled**: `number`
+> `optional` **pages\_crawled**: `number`
 
 number of crawled pages
 
@@ -61,15 +61,15 @@ number of crawled pages
 
 [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md).[`pages_crawled`](../interfaces/ICrawlStatusInfo.md#pages_crawled)
 
-#### Source
+#### Defined in
 
-main.ts:21993
+main.ts:22175
 
 ***
 
 ### pages\_in\_queue?
 
-> **`optional`** **pages\_in\_queue**: `number`
+> `optional` **pages\_in\_queue**: `number`
 
 number of pages that are currently in the crawling queue
 
@@ -77,9 +77,9 @@ number of pages that are currently in the crawling queue
 
 [`ICrawlStatusInfo`](../interfaces/ICrawlStatusInfo.md).[`pages_in_queue`](../interfaces/ICrawlStatusInfo.md#pages_in_queue)
 
-#### Source
+#### Defined in
 
-main.ts:21991
+main.ts:22173
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:21991
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22006
+main.ts:22188
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:22006
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22025
+main.ts:22207
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> `static` **fromJS**(`data`): [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:22025
 
 [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22018
+main.ts:22200

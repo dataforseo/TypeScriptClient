@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPagePagesRequestInfo(data)
+### new OnPagePagesRequestInfo()
 
 > **new OnPagePagesRequestInfo**(`data`?): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
@@ -28,22 +28,22 @@
 
 [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:155491
+main.ts:157319
 
 ## Properties
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["meta.external_links_count","<=",50]["url","like","https://dataforseo.com/apis/dataforseo-labs-api"][["checks.high_waiting_time","=",false],
@@ -53,15 +53,15 @@ example:
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`filters`](../interfaces/IOnPagePagesRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:155467
+main.ts:157295
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -73,15 +73,15 @@ example:
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`id`](../interfaces/IOnPagePagesRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:155446
+main.ts:157274
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -92,15 +92,15 @@ maximum value: 1000
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`limit`](../interfaces/IOnPagePagesRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:155451
+main.ts:157279
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -111,15 +111,15 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`offset`](../interfaces/IOnPagePagesRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:155456
+main.ts:157284
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -139,15 +139,15 @@ example:
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`order_by`](../interfaces/IOnPagePagesRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:155481
+main.ts:157309
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -159,9 +159,9 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPagePagesRequestInfo`](../interfaces/IOnPagePagesRequestInfo.md).[`tag`](../interfaces/IOnPagePagesRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:155487
+main.ts:157315
 
 ## Methods
 
@@ -177,9 +177,9 @@ main.ts:155487
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:155500
+main.ts:157328
 
 ***
 
@@ -195,15 +195,15 @@ main.ts:155500
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:155530
+main.ts:157358
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
 #### Parameters
 
@@ -213,6 +213,6 @@ main.ts:155530
 
 [`OnPagePagesRequestInfo`](OnPagePagesRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:155523
+main.ts:157351

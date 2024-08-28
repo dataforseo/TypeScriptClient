@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RedditReviews(data)
+### new RedditReviews()
 
 > **new RedditReviews**(`data`?): [`RedditReviews`](RedditReviews.md)
 
@@ -28,15 +28,15 @@
 
 [`RedditReviews`](RedditReviews.md)
 
-#### Source
+#### Defined in
 
-main.ts:218093
+main.ts:219945
 
 ## Properties
 
 ### author\_name?
 
-> **`optional`** **author\_name**: `string`
+> `optional` **author\_name**: `string`
 
 nickname of the author
 nicknname of the user who published the post in the subreddit and shared the URL
@@ -45,15 +45,15 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`author_name`](../interfaces/IRedditReviews.md#author_name)
 
-#### Source
+#### Defined in
 
-main.ts:218083
+main.ts:219935
 
 ***
 
 ### permalink?
 
-> **`optional`** **permalink**: `string`
+> `optional` **permalink**: `string`
 
 URL to the subreddit post
 
@@ -61,15 +61,15 @@ URL to the subreddit post
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`permalink`](../interfaces/IRedditReviews.md#permalink)
 
-#### Source
+#### Defined in
 
-main.ts:218087
+main.ts:219939
 
 ***
 
 ### subreddit?
 
-> **`optional`** **subreddit**: `string`
+> `optional` **subreddit**: `string`
 
 the name of the subreddit
 
@@ -77,15 +77,15 @@ the name of the subreddit
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`subreddit`](../interfaces/IRedditReviews.md#subreddit)
 
-#### Source
+#### Defined in
 
-main.ts:218080
+main.ts:219932
 
 ***
 
 ### subreddit\_members?
 
-> **`optional`** **subreddit\_members**: `number`
+> `optional` **subreddit\_members**: `number`
 
 number of subreddit members
 
@@ -93,15 +93,15 @@ number of subreddit members
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`subreddit_members`](../interfaces/IRedditReviews.md#subreddit_members)
 
-#### Source
+#### Defined in
 
-main.ts:218089
+main.ts:219941
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the subreddit post
 
@@ -109,9 +109,9 @@ title of the subreddit post
 
 [`IRedditReviews`](../interfaces/IRedditReviews.md).[`title`](../interfaces/IRedditReviews.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:218085
+main.ts:219937
 
 ## Methods
 
@@ -127,9 +127,9 @@ main.ts:218085
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:218102
+main.ts:219954
 
 ***
 
@@ -145,15 +145,15 @@ main.ts:218102
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:218123
+main.ts:219975
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RedditReviews`](RedditReviews.md)
+> `static` **fromJS**(`data`): [`RedditReviews`](RedditReviews.md)
 
 #### Parameters
 
@@ -163,6 +163,6 @@ main.ts:218123
 
 [`RedditReviews`](RedditReviews.md)
 
-#### Source
+#### Defined in
 
-main.ts:218116
+main.ts:219968

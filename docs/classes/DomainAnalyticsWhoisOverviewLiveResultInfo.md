@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsWhoisOverviewLiveResultInfo(data)
+### new DomainAnalyticsWhoisOverviewLiveResultInfo()
 
 > **new DomainAnalyticsWhoisOverviewLiveResultInfo**(`data`?): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80739
+main.ts:81335
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)[]
+> `optional` **items**: [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)[]
 
 contains ranking and traffic data
 
@@ -44,15 +44,15 @@ contains ranking and traffic data
 
 [`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md).[`items`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:80735
+main.ts:81331
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,15 +60,15 @@ the number of results returned in the items array
 
 [`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md).[`items_count`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:80733
+main.ts:81329
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
@@ -76,9 +76,9 @@ total amount of results in our database relevant to your request
 
 [`IDomainAnalyticsWhoisOverviewLiveResultInfo`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md).[`total_count`](../interfaces/IDomainAnalyticsWhoisOverviewLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:80731
+main.ts:81327
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:80731
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:80748
+main.ts:81344
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:80748
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:80771
+main.ts:81367
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:80771
 
 [`DomainAnalyticsWhoisOverviewLiveResultInfo`](DomainAnalyticsWhoisOverviewLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80764
+main.ts:81360

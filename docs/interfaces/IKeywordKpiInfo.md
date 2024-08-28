@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### ad\_position?
 
-> **`optional`** **ad\_position**: `string`
+> `optional` **ad\_position**: `string`
 
 represents the position of the relevant ad in SERP
 can take the following values:
@@ -33,83 +33,83 @@ MainLine2: The second ad to appear at the top of the search results page
 MainLine3: The third ad to appear at the top of the search results page
 MainLine4: The fourth ad to appear at the top of the search results page
 
-#### Source
+#### Defined in
 
-main.ts:136446
+main.ts:136272
 
 ***
 
 ### average\_bid?
 
-> **`optional`** **average\_bid**: `number`
+> `optional` **average\_bid**: `number`
 
 average bid of the keyword
 
-#### Source
+#### Defined in
 
-main.ts:136463
+main.ts:136289
 
 ***
 
 ### average\_cpc?
 
-> **`optional`** **average\_cpc**: `number`
+> `optional` **average\_cpc**: `number`
 
 average cost per click, USD
 calculated by dividing the cost of all clicks by the number of clicks
 
-#### Source
+#### Defined in
 
-main.ts:136455
+main.ts:136281
 
 ***
 
 ### clicks?
 
-> **`optional`** **clicks**: `number`
+> `optional` **clicks**: `number`
 
 ad clicks
 the number of clicks that the keyword and match type generated during the last month
 
-#### Source
+#### Defined in
 
-main.ts:136449
+main.ts:136275
 
 ***
 
 ### ctr?
 
-> **`optional`** **ctr**: `number`
+> `optional` **ctr**: `number`
 
 click-through rate as a percentage
 calculated by dividing the number of clicks by the number of impressions and multiplying the result by 100
 
-#### Source
+#### Defined in
 
-main.ts:136458
+main.ts:136284
 
 ***
 
 ### impressions?
 
-> **`optional`** **impressions**: `number`
+> `optional` **impressions**: `number`
 
 ad impressions
 the number of impressions that the keyword and match type generated during the last month
 
-#### Source
+#### Defined in
 
-main.ts:136452
+main.ts:136278
 
 ***
 
 ### total\_cost?
 
-> **`optional`** **total\_cost**: `number`
+> `optional` **total\_cost**: `number`
 
 total cost of an ad, USD
 the cost of using the specified keyword and match type during the last month
 
-#### Source
+#### Defined in
 
-main.ts:136461
+main.ts:136287

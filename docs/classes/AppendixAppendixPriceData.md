@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixAppendixPriceData(data)
+### new AppendixAppendixPriceData()
 
 > **new AppendixAppendixPriceData**(`data`?): [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
 
@@ -28,37 +28,37 @@
 
 [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:222604
+main.ts:226876
 
 ## Properties
 
 ### errors?
 
-> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixAppendixPriceData`](../interfaces/IAppendixAppendixPriceData.md).[`errors`](../interfaces/IAppendixAppendixPriceData.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:222599
+main.ts:226871
 
 ***
 
 ### user\_data?
 
-> **`optional`** **user\_data**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **user\_data**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixAppendixPriceData`](../interfaces/IAppendixAppendixPriceData.md).[`user_data`](../interfaces/IAppendixAppendixPriceData.md#user_data)
 
-#### Source
+#### Defined in
 
-main.ts:222600
+main.ts:226872
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:222600
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:222613
+main.ts:226885
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:222613
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:222631
+main.ts:226903
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
+> `static` **fromJS**(`data`): [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:222631
 
 [`AppendixAppendixPriceData`](AppendixAppendixPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:222624
+main.ts:226896

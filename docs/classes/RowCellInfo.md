@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RowCellInfo(data)
+### new RowCellInfo()
 
 > **new RowCellInfo**(`data`?): [`RowCellInfo`](RowCellInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`RowCellInfo`](RowCellInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163674
+main.ts:165506
 
 ## Properties
 
 ### is\_header?
 
-> **`optional`** **is\_header**: `boolean`
+> `optional` **is\_header**: `boolean`
 
 indicates if the text belongs to the header
 
@@ -44,15 +44,15 @@ indicates if the text belongs to the header
 
 [`IRowCellInfo`](../interfaces/IRowCellInfo.md).[`is_header`](../interfaces/IRowCellInfo.md#is_header)
 
-#### Source
+#### Defined in
 
-main.ts:163670
+main.ts:165502
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 content text
 
@@ -60,15 +60,15 @@ content text
 
 [`IRowCellInfo`](../interfaces/IRowCellInfo.md).[`text`](../interfaces/IRowCellInfo.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:163666
+main.ts:165498
 
 ***
 
 ### urls?
 
-> **`optional`** **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
+> `optional` **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
 
 contains other URLs and anchors found in the content element
 
@@ -76,9 +76,9 @@ contains other URLs and anchors found in the content element
 
 [`IRowCellInfo`](../interfaces/IRowCellInfo.md).[`urls`](../interfaces/IRowCellInfo.md#urls)
 
-#### Source
+#### Defined in
 
-main.ts:163668
+main.ts:165500
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:163668
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163683
+main.ts:165515
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:163683
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163706
+main.ts:165538
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RowCellInfo`](RowCellInfo.md)
+> `static` **fromJS**(`data`): [`RowCellInfo`](RowCellInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:163706
 
 [`RowCellInfo`](RowCellInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163699
+main.ts:165531

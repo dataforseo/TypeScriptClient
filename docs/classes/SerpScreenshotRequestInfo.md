@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpScreenshotRequestInfo(data)
+### new SerpScreenshotRequestInfo()
 
 > **new SerpScreenshotRequestInfo**(`data`?): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24564
+main.ts:24746
 
 ## Properties
 
 ### browser\_preset?
 
-> **`optional`** **browser\_preset**: `string`
+> `optional` **browser\_preset**: `string`
 
 browser resolution preset
 optional field
@@ -48,15 +48,15 @@ note: by default, browser preset corresponds to the device type specified in the
 
 [`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`browser_preset`](../interfaces/ISerpScreenshotRequestInfo.md#browser_preset)
 
-#### Source
+#### Defined in
 
-main.ts:24548
+main.ts:24730
 
 ***
 
 ### browser\_screen\_height?
 
-> **`optional`** **browser\_screen\_height**: `number`
+> `optional` **browser\_screen\_height**: `number`
 
 height of the browser resolution
 optional field
@@ -66,15 +66,15 @@ can be specified in the following range: 240-9999
 
 [`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`browser_screen_height`](../interfaces/ISerpScreenshotRequestInfo.md#browser_screen_height)
 
-#### Source
+#### Defined in
 
-main.ts:24556
+main.ts:24738
 
 ***
 
 ### browser\_screen\_scale\_factor?
 
-> **`optional`** **browser\_screen\_scale\_factor**: `number`
+> `optional` **browser\_screen\_scale\_factor**: `number`
 
 browser scale factor
 optional field
@@ -84,15 +84,15 @@ can be specified in the following range: 0.5-3
 
 [`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`browser_screen_scale_factor`](../interfaces/ISerpScreenshotRequestInfo.md#browser_screen_scale_factor)
 
-#### Source
+#### Defined in
 
-main.ts:24560
+main.ts:24742
 
 ***
 
 ### browser\_screen\_width?
 
-> **`optional`** **browser\_screen\_width**: `number`
+> `optional` **browser\_screen\_width**: `number`
 
 width of the browser resolution
 optional field
@@ -102,15 +102,15 @@ can be specified in the following range: 240-9999
 
 [`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`browser_screen_width`](../interfaces/ISerpScreenshotRequestInfo.md#browser_screen_width)
 
-#### Source
+#### Defined in
 
-main.ts:24552
+main.ts:24734
 
 ***
 
 ### task\_id?
 
-> **`optional`** **task\_id**: `string`
+> `optional` **task\_id**: `string`
 
 task identifier
 required field
@@ -121,9 +121,9 @@ you will be able to use it within 7 days to request the results of the task at a
 
 [`ISerpScreenshotRequestInfo`](../interfaces/ISerpScreenshotRequestInfo.md).[`task_id`](../interfaces/ISerpScreenshotRequestInfo.md#task_id)
 
-#### Source
+#### Defined in
 
-main.ts:24542
+main.ts:24724
 
 ## Methods
 
@@ -139,9 +139,9 @@ main.ts:24542
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:24573
+main.ts:24755
 
 ***
 
@@ -157,15 +157,15 @@ main.ts:24573
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:24594
+main.ts:24776
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
 #### Parameters
 
@@ -175,6 +175,6 @@ main.ts:24594
 
 [`SerpScreenshotRequestInfo`](SerpScreenshotRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24587
+main.ts:24769

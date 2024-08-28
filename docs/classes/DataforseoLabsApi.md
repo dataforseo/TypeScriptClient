@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -8,7 +8,7 @@
 
 ## Constructors
 
-### new DataforseoLabsApi(baseUrl, http)
+### new DataforseoLabsApi()
 
 > **new DataforseoLabsApi**(`baseUrl`?, `http`?): [`DataforseoLabsApi`](DataforseoLabsApi.md)
 
@@ -18,53 +18,21 @@
 
 • **http?**
 
-• **http\.fetch?**
+• **http.fetch?**
 
 #### Returns
 
 [`DataforseoLabsApi`](DataforseoLabsApi.md)
 
-#### Source
+#### Defined in
 
 main.ts:6483
 
 ## Properties
 
-### baseUrl
+### jsonParseReviver()
 
-> **`private`** **baseUrl**: `string`
-
-#### Source
-
-main.ts:6480
-
-***
-
-### http
-
-> **`private`** **http**: `Object`
-
-#### http.fetch()
-
-##### Parameters
-
-• **url**: `RequestInfo`
-
-• **init?**: `RequestInit`
-
-##### Returns
-
-`Promise`\<`Response`\>
-
-#### Source
-
-main.ts:6479
-
-***
-
-### jsonParseReviver
-
-> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+> `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
 #### Parameters
 
@@ -76,7 +44,7 @@ main.ts:6479
 
 `any`
 
-#### Source
+#### Defined in
 
 main.ts:6481
 
@@ -98,7 +66,7 @@ main.ts:6481
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7848
 
@@ -120,7 +88,7 @@ main.ts:7848
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8016
 
@@ -142,7 +110,7 @@ main.ts:8016
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8058
 
@@ -164,7 +132,7 @@ main.ts:8058
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7974
 
@@ -186,7 +154,7 @@ main.ts:7974
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7932
 
@@ -208,7 +176,7 @@ main.ts:7932
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7890
 
@@ -230,7 +198,7 @@ main.ts:7890
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8814
 
@@ -252,7 +220,7 @@ main.ts:8814
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8856
 
@@ -274,7 +242,7 @@ main.ts:8856
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8730
 
@@ -296,7 +264,7 @@ main.ts:8730
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8772
 
@@ -312,7 +280,7 @@ main.ts:8772
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6612
 
@@ -334,7 +302,7 @@ main.ts:6612
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8100
 
@@ -356,7 +324,7 @@ main.ts:8100
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8142
 
@@ -378,7 +346,7 @@ main.ts:8142
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8184
 
@@ -400,7 +368,7 @@ main.ts:8184
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8226
 
@@ -422,7 +390,7 @@ main.ts:8226
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8268
 
@@ -444,7 +412,7 @@ main.ts:8268
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8310
 
@@ -466,7 +434,7 @@ main.ts:8310
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8352
 
@@ -488,7 +456,7 @@ main.ts:8352
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8394
 
@@ -510,7 +478,7 @@ main.ts:8394
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8436
 
@@ -532,7 +500,7 @@ main.ts:8436
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8478
 
@@ -554,7 +522,7 @@ main.ts:8478
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8520
 
@@ -570,7 +538,7 @@ main.ts:8520
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6686
 
@@ -592,7 +560,7 @@ main.ts:6686
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6571
 
@@ -608,7 +576,7 @@ main.ts:6571
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7054
 
@@ -630,7 +598,7 @@ main.ts:7054
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6492
 
@@ -646,7 +614,7 @@ main.ts:6492
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6649
 
@@ -662,7 +630,7 @@ main.ts:6649
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6533
 
@@ -684,7 +652,7 @@ main.ts:6533
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8646
 
@@ -706,7 +674,7 @@ main.ts:8646
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8688
 
@@ -722,7 +690,7 @@ main.ts:8688
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6723
 
@@ -744,7 +712,7 @@ main.ts:6723
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8562
 
@@ -766,7 +734,7 @@ main.ts:8562
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6971
 
@@ -788,7 +756,7 @@ main.ts:6971
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7764
 
@@ -810,7 +778,7 @@ main.ts:7764
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7092
 
@@ -832,7 +800,7 @@ main.ts:7092
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7134
 
@@ -854,7 +822,7 @@ main.ts:7134
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7428
 
@@ -876,7 +844,7 @@ main.ts:7428
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7470
 
@@ -898,7 +866,7 @@ main.ts:7470
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7218
 
@@ -920,7 +888,7 @@ main.ts:7218
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7596
 
@@ -942,7 +910,7 @@ main.ts:7596
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7302
 
@@ -964,7 +932,7 @@ main.ts:7302
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7806
 
@@ -986,7 +954,7 @@ main.ts:7806
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7680
 
@@ -1008,7 +976,7 @@ main.ts:7680
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6929
 
@@ -1030,7 +998,7 @@ main.ts:6929
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7638
 
@@ -1052,7 +1020,7 @@ main.ts:7638
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6887
 
@@ -1074,7 +1042,7 @@ main.ts:6887
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6845
 
@@ -1096,7 +1064,7 @@ main.ts:6845
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:8604
 
@@ -1118,7 +1086,7 @@ main.ts:8604
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7176
 
@@ -1140,7 +1108,7 @@ main.ts:7176
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6761
 
@@ -1162,7 +1130,7 @@ main.ts:6761
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7722
 
@@ -1184,7 +1152,7 @@ main.ts:7722
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7344
 
@@ -1206,7 +1174,7 @@ main.ts:7344
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:6803
 
@@ -1228,7 +1196,7 @@ main.ts:6803
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7554
 
@@ -1250,7 +1218,7 @@ main.ts:7554
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7013
 
@@ -1272,7 +1240,7 @@ main.ts:7013
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7386
 
@@ -1294,7 +1262,7 @@ main.ts:7386
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7512
 
@@ -1316,7 +1284,7 @@ main.ts:7512
 
 Successful operation
 
-#### Source
+#### Defined in
 
 main.ts:7260
 
@@ -1324,7 +1292,7 @@ main.ts:7260
 
 ### processAmazonBulkSearchVolumeLive()
 
-> **`protected`** **processAmazonBulkSearchVolumeLive**(`response`): `Promise`\<[`DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo.md)\>
+> `protected` **processAmazonBulkSearchVolumeLive**(`response`): `Promise`\<[`DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1334,7 +1302,7 @@ main.ts:7260
 
 `Promise`\<[`DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7868
 
@@ -1342,7 +1310,7 @@ main.ts:7868
 
 ### processAmazonProductCompetitorsLive()
 
-> **`protected`** **processAmazonProductCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonProductCompetitorsLiveResponseInfo`](DataforseoLabsAmazonProductCompetitorsLiveResponseInfo.md)\>
+> `protected` **processAmazonProductCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonProductCompetitorsLiveResponseInfo`](DataforseoLabsAmazonProductCompetitorsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1352,7 +1320,7 @@ main.ts:7868
 
 `Promise`\<[`DataforseoLabsAmazonProductCompetitorsLiveResponseInfo`](DataforseoLabsAmazonProductCompetitorsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8036
 
@@ -1360,7 +1328,7 @@ main.ts:8036
 
 ### processAmazonProductKeywordIntersectionsLive()
 
-> **`protected`** **processAmazonProductKeywordIntersectionsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo.md)\>
+> `protected` **processAmazonProductKeywordIntersectionsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1370,7 +1338,7 @@ main.ts:8036
 
 `Promise`\<[`DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo`](DataforseoLabsAmazonProductKeywordIntersectionsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8078
 
@@ -1378,7 +1346,7 @@ main.ts:8078
 
 ### processAmazonProductRankOverviewLive()
 
-> **`protected`** **processAmazonProductRankOverviewLive**(`response`): `Promise`\<[`DataforseoLabsAmazonProductRankOverviewLiveResponseInfo`](DataforseoLabsAmazonProductRankOverviewLiveResponseInfo.md)\>
+> `protected` **processAmazonProductRankOverviewLive**(`response`): `Promise`\<[`DataforseoLabsAmazonProductRankOverviewLiveResponseInfo`](DataforseoLabsAmazonProductRankOverviewLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1388,7 +1356,7 @@ main.ts:8078
 
 `Promise`\<[`DataforseoLabsAmazonProductRankOverviewLiveResponseInfo`](DataforseoLabsAmazonProductRankOverviewLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7994
 
@@ -1396,7 +1364,7 @@ main.ts:7994
 
 ### processAmazonRankedKeywordsLive()
 
-> **`protected`** **processAmazonRankedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonRankedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRankedKeywordsLiveResponseInfo.md)\>
+> `protected` **processAmazonRankedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonRankedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRankedKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1406,7 +1374,7 @@ main.ts:7994
 
 `Promise`\<[`DataforseoLabsAmazonRankedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRankedKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7952
 
@@ -1414,7 +1382,7 @@ main.ts:7952
 
 ### processAmazonRelatedKeywordsLive()
 
-> **`protected`** **processAmazonRelatedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo.md)\>
+> `protected` **processAmazonRelatedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1424,7 +1392,7 @@ main.ts:7952
 
 `Promise`\<[`DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo`](DataforseoLabsAmazonRelatedKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7910
 
@@ -1432,7 +1400,7 @@ main.ts:7910
 
 ### processAppleAppCompetitorsLive()
 
-> **`protected`** **processAppleAppCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsAppleAppCompetitorsLiveResponseInfo`](DataforseoLabsAppleAppCompetitorsLiveResponseInfo.md)\>
+> `protected` **processAppleAppCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsAppleAppCompetitorsLiveResponseInfo`](DataforseoLabsAppleAppCompetitorsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1442,7 +1410,7 @@ main.ts:7910
 
 `Promise`\<[`DataforseoLabsAppleAppCompetitorsLiveResponseInfo`](DataforseoLabsAppleAppCompetitorsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8834
 
@@ -1450,7 +1418,7 @@ main.ts:8834
 
 ### processAppleAppIntersectionLive()
 
-> **`protected`** **processAppleAppIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsAppleAppIntersectionLiveResponseInfo`](DataforseoLabsAppleAppIntersectionLiveResponseInfo.md)\>
+> `protected` **processAppleAppIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsAppleAppIntersectionLiveResponseInfo`](DataforseoLabsAppleAppIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1460,7 +1428,7 @@ main.ts:8834
 
 `Promise`\<[`DataforseoLabsAppleAppIntersectionLiveResponseInfo`](DataforseoLabsAppleAppIntersectionLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8876
 
@@ -1468,7 +1436,7 @@ main.ts:8876
 
 ### processAppleBulkAppMetricsLive()
 
-> **`protected`** **processAppleBulkAppMetricsLive**(`response`): `Promise`\<[`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)\>
+> `protected` **processAppleBulkAppMetricsLive**(`response`): `Promise`\<[`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1478,7 +1446,7 @@ main.ts:8876
 
 `Promise`\<[`DataforseoLabsAppleBulkAppMetricsLiveResponseInfo`](DataforseoLabsAppleBulkAppMetricsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8750
 
@@ -1486,7 +1454,7 @@ main.ts:8750
 
 ### processAppleKeywordsForAppLive()
 
-> **`protected`** **processAppleKeywordsForAppLive**(`response`): `Promise`\<[`DataforseoLabsAppleKeywordsForAppLiveResponseInfo`](DataforseoLabsAppleKeywordsForAppLiveResponseInfo.md)\>
+> `protected` **processAppleKeywordsForAppLive**(`response`): `Promise`\<[`DataforseoLabsAppleKeywordsForAppLiveResponseInfo`](DataforseoLabsAppleKeywordsForAppLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1496,7 +1464,7 @@ main.ts:8750
 
 `Promise`\<[`DataforseoLabsAppleKeywordsForAppLiveResponseInfo`](DataforseoLabsAppleKeywordsForAppLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8792
 
@@ -1504,7 +1472,7 @@ main.ts:8792
 
 ### processAvailableFilters()
 
-> **`protected`** **processAvailableFilters**(`response`): `Promise`\<[`DataforseoLabsAvailableFiltersResponseInfo`](DataforseoLabsAvailableFiltersResponseInfo.md)\>
+> `protected` **processAvailableFilters**(`response`): `Promise`\<[`DataforseoLabsAvailableFiltersResponseInfo`](DataforseoLabsAvailableFiltersResponseInfo.md)\>
 
 #### Parameters
 
@@ -1514,7 +1482,7 @@ main.ts:8792
 
 `Promise`\<[`DataforseoLabsAvailableFiltersResponseInfo`](DataforseoLabsAvailableFiltersResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6628
 
@@ -1522,7 +1490,7 @@ main.ts:6628
 
 ### processBingBulkKeywordDifficultyLive()
 
-> **`protected`** **processBingBulkKeywordDifficultyLive**(`response`): `Promise`\<[`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)\>
+> `protected` **processBingBulkKeywordDifficultyLive**(`response`): `Promise`\<[`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1532,7 +1500,7 @@ main.ts:6628
 
 `Promise`\<[`DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsBingBulkKeywordDifficultyLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8120
 
@@ -1540,7 +1508,7 @@ main.ts:8120
 
 ### processBingBulkTrafficEstimationLive()
 
-> **`protected`** **processBingBulkTrafficEstimationLive**(`response`): `Promise`\<[`DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo.md)\>
+> `protected` **processBingBulkTrafficEstimationLive**(`response`): `Promise`\<[`DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1550,7 +1518,7 @@ main.ts:8120
 
 `Promise`\<[`DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8162
 
@@ -1558,7 +1526,7 @@ main.ts:8162
 
 ### processBingCompetitorsDomainLive()
 
-> **`protected`** **processBingCompetitorsDomainLive**(`response`): `Promise`\<[`DataforseoLabsBingCompetitorsDomainLiveResponseInfo`](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md)\>
+> `protected` **processBingCompetitorsDomainLive**(`response`): `Promise`\<[`DataforseoLabsBingCompetitorsDomainLiveResponseInfo`](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1568,7 +1536,7 @@ main.ts:8162
 
 `Promise`\<[`DataforseoLabsBingCompetitorsDomainLiveResponseInfo`](DataforseoLabsBingCompetitorsDomainLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8204
 
@@ -1576,7 +1544,7 @@ main.ts:8204
 
 ### processBingDomainIntersectionLive()
 
-> **`protected`** **processBingDomainIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsBingDomainIntersectionLiveResponseInfo`](DataforseoLabsBingDomainIntersectionLiveResponseInfo.md)\>
+> `protected` **processBingDomainIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsBingDomainIntersectionLiveResponseInfo`](DataforseoLabsBingDomainIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1586,7 +1554,7 @@ main.ts:8204
 
 `Promise`\<[`DataforseoLabsBingDomainIntersectionLiveResponseInfo`](DataforseoLabsBingDomainIntersectionLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8246
 
@@ -1594,7 +1562,7 @@ main.ts:8246
 
 ### processBingDomainRankOverviewLive()
 
-> **`protected`** **processBingDomainRankOverviewLive**(`response`): `Promise`\<[`DataforseoLabsBingDomainRankOverviewLiveResponseInfo`](DataforseoLabsBingDomainRankOverviewLiveResponseInfo.md)\>
+> `protected` **processBingDomainRankOverviewLive**(`response`): `Promise`\<[`DataforseoLabsBingDomainRankOverviewLiveResponseInfo`](DataforseoLabsBingDomainRankOverviewLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1604,7 +1572,7 @@ main.ts:8246
 
 `Promise`\<[`DataforseoLabsBingDomainRankOverviewLiveResponseInfo`](DataforseoLabsBingDomainRankOverviewLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8288
 
@@ -1612,7 +1580,7 @@ main.ts:8288
 
 ### processBingPageIntersectionLive()
 
-> **`protected`** **processBingPageIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsBingPageIntersectionLiveResponseInfo`](DataforseoLabsBingPageIntersectionLiveResponseInfo.md)\>
+> `protected` **processBingPageIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsBingPageIntersectionLiveResponseInfo`](DataforseoLabsBingPageIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1622,7 +1590,7 @@ main.ts:8288
 
 `Promise`\<[`DataforseoLabsBingPageIntersectionLiveResponseInfo`](DataforseoLabsBingPageIntersectionLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8330
 
@@ -1630,7 +1598,7 @@ main.ts:8330
 
 ### processBingRankedKeywordsLive()
 
-> **`protected`** **processBingRankedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsBingRankedKeywordsLiveResponseInfo`](DataforseoLabsBingRankedKeywordsLiveResponseInfo.md)\>
+> `protected` **processBingRankedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsBingRankedKeywordsLiveResponseInfo`](DataforseoLabsBingRankedKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1640,7 +1608,7 @@ main.ts:8330
 
 `Promise`\<[`DataforseoLabsBingRankedKeywordsLiveResponseInfo`](DataforseoLabsBingRankedKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8372
 
@@ -1648,7 +1616,7 @@ main.ts:8372
 
 ### processBingRelatedKeywordsLive()
 
-> **`protected`** **processBingRelatedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsBingRelatedKeywordsLiveResponseInfo`](DataforseoLabsBingRelatedKeywordsLiveResponseInfo.md)\>
+> `protected` **processBingRelatedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsBingRelatedKeywordsLiveResponseInfo`](DataforseoLabsBingRelatedKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1658,7 +1626,7 @@ main.ts:8372
 
 `Promise`\<[`DataforseoLabsBingRelatedKeywordsLiveResponseInfo`](DataforseoLabsBingRelatedKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8414
 
@@ -1666,7 +1634,7 @@ main.ts:8414
 
 ### processBingRelevantPagesLive()
 
-> **`protected`** **processBingRelevantPagesLive**(`response`): `Promise`\<[`DataforseoLabsBingRelevantPagesLiveResponseInfo`](DataforseoLabsBingRelevantPagesLiveResponseInfo.md)\>
+> `protected` **processBingRelevantPagesLive**(`response`): `Promise`\<[`DataforseoLabsBingRelevantPagesLiveResponseInfo`](DataforseoLabsBingRelevantPagesLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1676,7 +1644,7 @@ main.ts:8414
 
 `Promise`\<[`DataforseoLabsBingRelevantPagesLiveResponseInfo`](DataforseoLabsBingRelevantPagesLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8456
 
@@ -1684,7 +1652,7 @@ main.ts:8456
 
 ### processBingSerpCompetitorsLive()
 
-> **`protected`** **processBingSerpCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsBingSerpCompetitorsLiveResponseInfo`](DataforseoLabsBingSerpCompetitorsLiveResponseInfo.md)\>
+> `protected` **processBingSerpCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsBingSerpCompetitorsLiveResponseInfo`](DataforseoLabsBingSerpCompetitorsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1694,7 +1662,7 @@ main.ts:8456
 
 `Promise`\<[`DataforseoLabsBingSerpCompetitorsLiveResponseInfo`](DataforseoLabsBingSerpCompetitorsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8498
 
@@ -1702,7 +1670,7 @@ main.ts:8498
 
 ### processBingSubdomainsLive()
 
-> **`protected`** **processBingSubdomainsLive**(`response`): `Promise`\<[`DataforseoLabsBingSubdomainsLiveResponseInfo`](DataforseoLabsBingSubdomainsLiveResponseInfo.md)\>
+> `protected` **processBingSubdomainsLive**(`response`): `Promise`\<[`DataforseoLabsBingSubdomainsLiveResponseInfo`](DataforseoLabsBingSubdomainsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1712,7 +1680,7 @@ main.ts:8498
 
 `Promise`\<[`DataforseoLabsBingSubdomainsLiveResponseInfo`](DataforseoLabsBingSubdomainsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8540
 
@@ -1720,7 +1688,7 @@ main.ts:8540
 
 ### processCategories()
 
-> **`protected`** **processCategories**(`response`): `Promise`\<[`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)\>
+> `protected` **processCategories**(`response`): `Promise`\<[`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)\>
 
 #### Parameters
 
@@ -1730,7 +1698,7 @@ main.ts:8540
 
 `Promise`\<[`DataforseoLabsCategoriesResponseInfo`](DataforseoLabsCategoriesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6702
 
@@ -1738,7 +1706,7 @@ main.ts:6702
 
 ### processDataforseoLabsErrors()
 
-> **`protected`** **processDataforseoLabsErrors**(`response`): `Promise`\<[`DataforseoLabsErrorsResponseInfo`](DataforseoLabsErrorsResponseInfo.md)\>
+> `protected` **processDataforseoLabsErrors**(`response`): `Promise`\<[`DataforseoLabsErrorsResponseInfo`](DataforseoLabsErrorsResponseInfo.md)\>
 
 #### Parameters
 
@@ -1748,7 +1716,7 @@ main.ts:6702
 
 `Promise`\<[`DataforseoLabsErrorsResponseInfo`](DataforseoLabsErrorsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6591
 
@@ -1756,7 +1724,7 @@ main.ts:6591
 
 ### processDataforseoLabsGoogleCategoriesForKeywordsLanguages()
 
-> **`protected`** **processDataforseoLabsGoogleCategoriesForKeywordsLanguages**(`response`): `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)\>
+> `protected` **processDataforseoLabsGoogleCategoriesForKeywordsLanguages**(`response`): `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -1766,7 +1734,7 @@ main.ts:6591
 
 `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7070
 
@@ -1774,7 +1742,7 @@ main.ts:7070
 
 ### processDataforseoLabsIdList()
 
-> **`protected`** **processDataforseoLabsIdList**(`response`): `Promise`\<[`DataforseoLabsIdListResponseInfo`](DataforseoLabsIdListResponseInfo.md)\>
+> `protected` **processDataforseoLabsIdList**(`response`): `Promise`\<[`DataforseoLabsIdListResponseInfo`](DataforseoLabsIdListResponseInfo.md)\>
 
 #### Parameters
 
@@ -1784,7 +1752,7 @@ main.ts:7070
 
 `Promise`\<[`DataforseoLabsIdListResponseInfo`](DataforseoLabsIdListResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6512
 
@@ -1792,7 +1760,7 @@ main.ts:6512
 
 ### processDataforseoLabsLocationsAndLanguages()
 
-> **`protected`** **processDataforseoLabsLocationsAndLanguages**(`response`): `Promise`\<[`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)\>
+> `protected` **processDataforseoLabsLocationsAndLanguages**(`response`): `Promise`\<[`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -1802,7 +1770,7 @@ main.ts:6512
 
 `Promise`\<[`DataforseoLabsLocationsAndLanguagesResponseInfo`](DataforseoLabsLocationsAndLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6665
 
@@ -1810,7 +1778,7 @@ main.ts:6665
 
 ### processDataforseoLabsStatus()
 
-> **`protected`** **processDataforseoLabsStatus**(`response`): `Promise`\<[`DataforseoLabsStatusResponseInfo`](DataforseoLabsStatusResponseInfo.md)\>
+> `protected` **processDataforseoLabsStatus**(`response`): `Promise`\<[`DataforseoLabsStatusResponseInfo`](DataforseoLabsStatusResponseInfo.md)\>
 
 #### Parameters
 
@@ -1820,7 +1788,7 @@ main.ts:6665
 
 `Promise`\<[`DataforseoLabsStatusResponseInfo`](DataforseoLabsStatusResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6549
 
@@ -1828,7 +1796,7 @@ main.ts:6549
 
 ### processGoogleAppCompetitorsLive()
 
-> **`protected`** **processGoogleAppCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleAppCompetitorsLiveResponseInfo`](DataforseoLabsGoogleAppCompetitorsLiveResponseInfo.md)\>
+> `protected` **processGoogleAppCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleAppCompetitorsLiveResponseInfo`](DataforseoLabsGoogleAppCompetitorsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1838,7 +1806,7 @@ main.ts:6549
 
 `Promise`\<[`DataforseoLabsGoogleAppCompetitorsLiveResponseInfo`](DataforseoLabsGoogleAppCompetitorsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8666
 
@@ -1846,7 +1814,7 @@ main.ts:8666
 
 ### processGoogleAppIntersectionLive()
 
-> **`protected`** **processGoogleAppIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsGoogleAppIntersectionLiveResponseInfo`](DataforseoLabsGoogleAppIntersectionLiveResponseInfo.md)\>
+> `protected` **processGoogleAppIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsGoogleAppIntersectionLiveResponseInfo`](DataforseoLabsGoogleAppIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1856,7 +1824,7 @@ main.ts:8666
 
 `Promise`\<[`DataforseoLabsGoogleAppIntersectionLiveResponseInfo`](DataforseoLabsGoogleAppIntersectionLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8708
 
@@ -1864,7 +1832,7 @@ main.ts:8708
 
 ### processGoogleAvailableHistory()
 
-> **`protected`** **processGoogleAvailableHistory**(`response`): `Promise`\<[`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)\>
+> `protected` **processGoogleAvailableHistory**(`response`): `Promise`\<[`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)\>
 
 #### Parameters
 
@@ -1874,7 +1842,7 @@ main.ts:8708
 
 `Promise`\<[`DataforseoLabsGoogleAvailableHistoryResponseInfo`](DataforseoLabsGoogleAvailableHistoryResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6739
 
@@ -1882,7 +1850,7 @@ main.ts:6739
 
 ### processGoogleBulkAppMetricsLive()
 
-> **`protected`** **processGoogleBulkAppMetricsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo.md)\>
+> `protected` **processGoogleBulkAppMetricsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1892,7 +1860,7 @@ main.ts:6739
 
 `Promise`\<[`DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo`](DataforseoLabsGoogleBulkAppMetricsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8582
 
@@ -1900,7 +1868,7 @@ main.ts:8582
 
 ### processGoogleBulkKeywordDifficultyLive()
 
-> **`protected`** **processGoogleBulkKeywordDifficultyLive**(`response`): `Promise`\<[`DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)\>
+> `protected` **processGoogleBulkKeywordDifficultyLive**(`response`): `Promise`\<[`DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1910,7 +1878,7 @@ main.ts:8582
 
 `Promise`\<[`DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo`](DataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6991
 
@@ -1918,7 +1886,7 @@ main.ts:6991
 
 ### processGoogleBulkTrafficEstimationLive()
 
-> **`protected`** **processGoogleBulkTrafficEstimationLive**(`response`): `Promise`\<[`DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo.md)\>
+> `protected` **processGoogleBulkTrafficEstimationLive**(`response`): `Promise`\<[`DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1928,7 +1896,7 @@ main.ts:6991
 
 `Promise`\<[`DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7784
 
@@ -1936,7 +1904,7 @@ main.ts:7784
 
 ### processGoogleCategoriesForDomainLive()
 
-> **`protected`** **processGoogleCategoriesForDomainLive**(`response`): `Promise`\<[`DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo.md)\>
+> `protected` **processGoogleCategoriesForDomainLive**(`response`): `Promise`\<[`DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1946,7 +1914,7 @@ main.ts:7784
 
 `Promise`\<[`DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo`](DataforseoLabsGoogleCategoriesForDomainLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7112
 
@@ -1954,7 +1922,7 @@ main.ts:7112
 
 ### processGoogleCategoriesForKeywordsLive()
 
-> **`protected`** **processGoogleCategoriesForKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo.md)\>
+> `protected` **processGoogleCategoriesForKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1964,7 +1932,7 @@ main.ts:7112
 
 `Promise`\<[`DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo`](DataforseoLabsGoogleCategoriesForKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7154
 
@@ -1972,7 +1940,7 @@ main.ts:7154
 
 ### processGoogleCompetitorsDomainLive()
 
-> **`protected`** **processGoogleCompetitorsDomainLive**(`response`): `Promise`\<[`DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo.md)\>
+> `protected` **processGoogleCompetitorsDomainLive**(`response`): `Promise`\<[`DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -1982,7 +1950,7 @@ main.ts:7154
 
 `Promise`\<[`DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo`](DataforseoLabsGoogleCompetitorsDomainLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7448
 
@@ -1990,7 +1958,7 @@ main.ts:7448
 
 ### processGoogleDomainIntersectionLive()
 
-> **`protected`** **processGoogleDomainIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainIntersectionLiveResponseInfo`](DataforseoLabsGoogleDomainIntersectionLiveResponseInfo.md)\>
+> `protected` **processGoogleDomainIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainIntersectionLiveResponseInfo`](DataforseoLabsGoogleDomainIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2000,7 +1968,7 @@ main.ts:7448
 
 `Promise`\<[`DataforseoLabsGoogleDomainIntersectionLiveResponseInfo`](DataforseoLabsGoogleDomainIntersectionLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7490
 
@@ -2008,7 +1976,7 @@ main.ts:7490
 
 ### processGoogleDomainMetricsByCategoriesLive()
 
-> **`protected`** **processGoogleDomainMetricsByCategoriesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)\>
+> `protected` **processGoogleDomainMetricsByCategoriesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2018,7 +1986,7 @@ main.ts:7490
 
 `Promise`\<[`DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo`](DataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7238
 
@@ -2026,7 +1994,7 @@ main.ts:7238
 
 ### processGoogleDomainRankOverviewLive()
 
-> **`protected`** **processGoogleDomainRankOverviewLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md)\>
+> `protected` **processGoogleDomainRankOverviewLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2036,7 +2004,7 @@ main.ts:7238
 
 `Promise`\<[`DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainRankOverviewLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7616
 
@@ -2044,7 +2012,7 @@ main.ts:7616
 
 ### processGoogleDomainWhoisOverviewLive()
 
-> **`protected`** **processGoogleDomainWhoisOverviewLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo.md)\>
+> `protected` **processGoogleDomainWhoisOverviewLive**(`response`): `Promise`\<[`DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2054,7 +2022,7 @@ main.ts:7616
 
 `Promise`\<[`DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo`](DataforseoLabsGoogleDomainWhoisOverviewLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7322
 
@@ -2062,7 +2030,7 @@ main.ts:7322
 
 ### processGoogleHistoricalBulkTrafficEstimationLive()
 
-> **`protected`** **processGoogleHistoricalBulkTrafficEstimationLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo.md)\>
+> `protected` **processGoogleHistoricalBulkTrafficEstimationLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2072,7 +2040,7 @@ main.ts:7322
 
 `Promise`\<[`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7826
 
@@ -2080,7 +2048,7 @@ main.ts:7826
 
 ### processGoogleHistoricalRankOverviewLive()
 
-> **`protected`** **processGoogleHistoricalRankOverviewLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo.md)\>
+> `protected` **processGoogleHistoricalRankOverviewLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2090,7 +2058,7 @@ main.ts:7826
 
 `Promise`\<[`DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo`](DataforseoLabsGoogleHistoricalRankOverviewLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7700
 
@@ -2098,7 +2066,7 @@ main.ts:7700
 
 ### processGoogleHistoricalSearchVolumeLive()
 
-> **`protected`** **processGoogleHistoricalSearchVolumeLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)\>
+> `protected` **processGoogleHistoricalSearchVolumeLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2108,7 +2076,7 @@ main.ts:7700
 
 `Promise`\<[`DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo`](DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6949
 
@@ -2116,7 +2084,7 @@ main.ts:6949
 
 ### processGoogleHistoricalSerpsLive()
 
-> **`protected`** **processGoogleHistoricalSerpsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalSerpsLiveResponseInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResponseInfo.md)\>
+> `protected` **processGoogleHistoricalSerpsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleHistoricalSerpsLiveResponseInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2126,7 +2094,7 @@ main.ts:6949
 
 `Promise`\<[`DataforseoLabsGoogleHistoricalSerpsLiveResponseInfo`](DataforseoLabsGoogleHistoricalSerpsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7658
 
@@ -2134,7 +2102,7 @@ main.ts:7658
 
 ### processGoogleKeywordIdeasLive()
 
-> **`protected`** **processGoogleKeywordIdeasLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordIdeasLiveResponseInfo`](DataforseoLabsGoogleKeywordIdeasLiveResponseInfo.md)\>
+> `protected` **processGoogleKeywordIdeasLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordIdeasLiveResponseInfo`](DataforseoLabsGoogleKeywordIdeasLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2144,7 +2112,7 @@ main.ts:7658
 
 `Promise`\<[`DataforseoLabsGoogleKeywordIdeasLiveResponseInfo`](DataforseoLabsGoogleKeywordIdeasLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6907
 
@@ -2152,7 +2120,7 @@ main.ts:6907
 
 ### processGoogleKeywordSuggestionsLive()
 
-> **`protected`** **processGoogleKeywordSuggestionsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
+> `protected` **processGoogleKeywordSuggestionsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2162,7 +2130,7 @@ main.ts:6907
 
 `Promise`\<[`DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo`](DataforseoLabsGoogleKeywordSuggestionsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6865
 
@@ -2170,7 +2138,7 @@ main.ts:6865
 
 ### processGoogleKeywordsForAppLive()
 
-> **`protected`** **processGoogleKeywordsForAppLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordsForAppLiveResponseInfo`](DataforseoLabsGoogleKeywordsForAppLiveResponseInfo.md)\>
+> `protected` **processGoogleKeywordsForAppLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordsForAppLiveResponseInfo`](DataforseoLabsGoogleKeywordsForAppLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2180,7 +2148,7 @@ main.ts:6865
 
 `Promise`\<[`DataforseoLabsGoogleKeywordsForAppLiveResponseInfo`](DataforseoLabsGoogleKeywordsForAppLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:8624
 
@@ -2188,7 +2156,7 @@ main.ts:8624
 
 ### processGoogleKeywordsForCategoriesLive()
 
-> **`protected`** **processGoogleKeywordsForCategoriesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo.md)\>
+> `protected` **processGoogleKeywordsForCategoriesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2198,7 +2166,7 @@ main.ts:8624
 
 `Promise`\<[`DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo`](DataforseoLabsGoogleKeywordsForCategoriesLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7196
 
@@ -2206,7 +2174,7 @@ main.ts:7196
 
 ### processGoogleKeywordsForSiteLive()
 
-> **`protected`** **processGoogleKeywordsForSiteLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordsForSiteLiveResponseInfo`](DataforseoLabsGoogleKeywordsForSiteLiveResponseInfo.md)\>
+> `protected` **processGoogleKeywordsForSiteLive**(`response`): `Promise`\<[`DataforseoLabsGoogleKeywordsForSiteLiveResponseInfo`](DataforseoLabsGoogleKeywordsForSiteLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2216,7 +2184,7 @@ main.ts:7196
 
 `Promise`\<[`DataforseoLabsGoogleKeywordsForSiteLiveResponseInfo`](DataforseoLabsGoogleKeywordsForSiteLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6781
 
@@ -2224,7 +2192,7 @@ main.ts:6781
 
 ### processGooglePageIntersectionLive()
 
-> **`protected`** **processGooglePageIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsGooglePageIntersectionLiveResponseInfo`](DataforseoLabsGooglePageIntersectionLiveResponseInfo.md)\>
+> `protected` **processGooglePageIntersectionLive**(`response`): `Promise`\<[`DataforseoLabsGooglePageIntersectionLiveResponseInfo`](DataforseoLabsGooglePageIntersectionLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2234,7 +2202,7 @@ main.ts:6781
 
 `Promise`\<[`DataforseoLabsGooglePageIntersectionLiveResponseInfo`](DataforseoLabsGooglePageIntersectionLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7742
 
@@ -2242,7 +2210,7 @@ main.ts:7742
 
 ### processGoogleRankedKeywordsLive()
 
-> **`protected`** **processGoogleRankedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleRankedKeywordsLiveResponseInfo`](DataforseoLabsGoogleRankedKeywordsLiveResponseInfo.md)\>
+> `protected` **processGoogleRankedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleRankedKeywordsLiveResponseInfo`](DataforseoLabsGoogleRankedKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2252,7 +2220,7 @@ main.ts:7742
 
 `Promise`\<[`DataforseoLabsGoogleRankedKeywordsLiveResponseInfo`](DataforseoLabsGoogleRankedKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7364
 
@@ -2260,7 +2228,7 @@ main.ts:7364
 
 ### processGoogleRelatedKeywordsLive()
 
-> **`protected`** **processGoogleRelatedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo.md)\>
+> `protected` **processGoogleRelatedKeywordsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2270,7 +2238,7 @@ main.ts:7364
 
 `Promise`\<[`DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo`](DataforseoLabsGoogleRelatedKeywordsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:6823
 
@@ -2278,7 +2246,7 @@ main.ts:6823
 
 ### processGoogleRelevantPagesLive()
 
-> **`protected`** **processGoogleRelevantPagesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleRelevantPagesLiveResponseInfo`](DataforseoLabsGoogleRelevantPagesLiveResponseInfo.md)\>
+> `protected` **processGoogleRelevantPagesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleRelevantPagesLiveResponseInfo`](DataforseoLabsGoogleRelevantPagesLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2288,7 +2256,7 @@ main.ts:6823
 
 `Promise`\<[`DataforseoLabsGoogleRelevantPagesLiveResponseInfo`](DataforseoLabsGoogleRelevantPagesLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7574
 
@@ -2296,7 +2264,7 @@ main.ts:7574
 
 ### processGoogleSearchIntentLive()
 
-> **`protected`** **processGoogleSearchIntentLive**(`response`): `Promise`\<[`DataforseoLabsGoogleSearchIntentLiveResponseInfo`](DataforseoLabsGoogleSearchIntentLiveResponseInfo.md)\>
+> `protected` **processGoogleSearchIntentLive**(`response`): `Promise`\<[`DataforseoLabsGoogleSearchIntentLiveResponseInfo`](DataforseoLabsGoogleSearchIntentLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2306,7 +2274,7 @@ main.ts:7574
 
 `Promise`\<[`DataforseoLabsGoogleSearchIntentLiveResponseInfo`](DataforseoLabsGoogleSearchIntentLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7033
 
@@ -2314,7 +2282,7 @@ main.ts:7033
 
 ### processGoogleSerpCompetitorsLive()
 
-> **`protected`** **processGoogleSerpCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleSerpCompetitorsLiveResponseInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResponseInfo.md)\>
+> `protected` **processGoogleSerpCompetitorsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleSerpCompetitorsLiveResponseInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2324,7 +2292,7 @@ main.ts:7033
 
 `Promise`\<[`DataforseoLabsGoogleSerpCompetitorsLiveResponseInfo`](DataforseoLabsGoogleSerpCompetitorsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7406
 
@@ -2332,7 +2300,7 @@ main.ts:7406
 
 ### processGoogleSubdomainsLive()
 
-> **`protected`** **processGoogleSubdomainsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleSubdomainsLiveResponseInfo`](DataforseoLabsGoogleSubdomainsLiveResponseInfo.md)\>
+> `protected` **processGoogleSubdomainsLive**(`response`): `Promise`\<[`DataforseoLabsGoogleSubdomainsLiveResponseInfo`](DataforseoLabsGoogleSubdomainsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2342,7 +2310,7 @@ main.ts:7406
 
 `Promise`\<[`DataforseoLabsGoogleSubdomainsLiveResponseInfo`](DataforseoLabsGoogleSubdomainsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7532
 
@@ -2350,7 +2318,7 @@ main.ts:7532
 
 ### processGoogleTopSearchesLive()
 
-> **`protected`** **processGoogleTopSearchesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)\>
+> `protected` **processGoogleTopSearchesLive**(`response`): `Promise`\<[`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -2360,6 +2328,6 @@ main.ts:7532
 
 `Promise`\<[`DataforseoLabsGoogleTopSearchesLiveResponseInfo`](DataforseoLabsGoogleTopSearchesLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
 main.ts:7280

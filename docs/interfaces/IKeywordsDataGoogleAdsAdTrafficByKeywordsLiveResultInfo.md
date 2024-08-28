@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,21 +14,21 @@
 
 ### average\_cpc?
 
-> **`optional`** **average\_cpc**: `number`
+> `optional` **average\_cpc**: `number`
 
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:125171
+main.ts:125017
 
 ***
 
 ### bid?
 
-> **`optional`** **bid**: `number`
+> `optional` **bid**: `number`
 
 the maximum custom bid
 the bid you have specified when setting the task
@@ -36,141 +36,141 @@ represents the price you are willing to pay for an ad
 the higher value you have specified, the higher metrics and cost you receive in response
 learn more in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:125155
+main.ts:125001
 
 ***
 
 ### clicks?
 
-> **`optional`** **clicks**: `number`
+> `optional` **clicks**: `number`
 
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:125179
+main.ts:125025
 
 ***
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 charge for an ad
 amount that will be charged for running an ad within the specified time period
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:125175
+main.ts:125021
 
 ***
 
 ### ctr?
 
-> **`optional`** **ctr**: `number`
+> `optional` **ctr**: `number`
 
 projected click through rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:125167
+main.ts:125013
 
 ***
 
 ### date\_interval?
 
-> **`optional`** **date\_interval**: `string`
+> `optional` **date\_interval**: `string`
 
 forecasting date interval in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:125144
+main.ts:124990
 
 ***
 
 ### impressions?
 
-> **`optional`** **impressions**: `number`
+> `optional` **impressions**: `number`
 
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
 if there is no data, then the value is null
 learn more about impressions in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:125163
+main.ts:125009
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:125136
+main.ts:124982
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:125142
+main.ts:124988
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:125139
+main.ts:124985
 
 ***
 
 ### match?
 
-> **`optional`** **match**: `string`
+> `optional` **match**: `string`
 
 keywords match-type
 can take the following values: exact, broad, phrase
 
-#### Source
+#### Defined in
 
-main.ts:125158
+main.ts:125004
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 include Google search partners
 the value you specified when setting the task
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 if false, the results are returned for Google search sites only
 
-#### Source
+#### Defined in
 
-main.ts:125149
+main.ts:124995

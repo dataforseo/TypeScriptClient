@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantGoogleLocationsResultInfo(data)
+### new MerchantGoogleLocationsResultInfo()
 
 > **new MerchantGoogleLocationsResultInfo**(`data`?): [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:175429
+main.ts:177261
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`country_iso_code`](../interfaces/IMerchantGoogleLocationsResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:175423
+main.ts:177255
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
@@ -60,15 +60,15 @@ location code
 
 [`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`location_code`](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:175414
+main.ts:177246
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
@@ -76,15 +76,15 @@ full name of the location
 
 [`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`location_name`](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:175416
+main.ts:177248
 
 ***
 
 ### location\_name\_parent?
 
-> **`optional`** **location\_name\_parent**: `string`
+> `optional` **location\_name\_parent**: `string`
 
 the name of the superordinate location
 example:
@@ -95,15 +95,15 @@ example:
 
 [`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`location_name_parent`](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_name_parent)
 
-#### Source
+#### Defined in
 
-main.ts:175421
+main.ts:177253
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 
@@ -111,9 +111,9 @@ location type
 
 [`IMerchantGoogleLocationsResultInfo`](../interfaces/IMerchantGoogleLocationsResultInfo.md).[`location_type`](../interfaces/IMerchantGoogleLocationsResultInfo.md#location_type)
 
-#### Source
+#### Defined in
 
-main.ts:175425
+main.ts:177257
 
 ## Methods
 
@@ -129,9 +129,9 @@ main.ts:175425
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:175438
+main.ts:177270
 
 ***
 
@@ -147,15 +147,15 @@ main.ts:175438
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:175459
+main.ts:177291
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
+> `static` **fromJS**(`data`): [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
 
 #### Parameters
 
@@ -165,6 +165,6 @@ main.ts:175459
 
 [`MerchantGoogleLocationsResultInfo`](MerchantGoogleLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:175452
+main.ts:177284

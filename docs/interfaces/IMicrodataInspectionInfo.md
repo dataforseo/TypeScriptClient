@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,24 +14,24 @@
 
 ### fields?
 
-> **`optional`** **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
+> `optional` **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
 
-#### Source
+#### Defined in
 
-main.ts:162371
+main.ts:164203
 
 ***
 
 ### types?
 
-> **`optional`** **types**: `string`[]
+> `optional` **types**: `string`[]
 
 parent microdata types
 for a full list of available types, please visit schema.org
 
-#### Source
+#### Defined in
 
-main.ts:162368
+main.ts:164200

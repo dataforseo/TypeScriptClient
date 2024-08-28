@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ConceptInfo(data)
+### new ConceptInfo()
 
 > **new ConceptInfo**(`data`?): [`ConceptInfo`](ConceptInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ConceptInfo`](ConceptInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:121253
+main.ts:121885
 
 ## Properties
 
 ### concept\_group?
 
-> **`optional`** **concept\_group**: [`ConceptGroupInfo`](ConceptGroupInfo.md)
+> `optional` **concept\_group**: [`ConceptGroupInfo`](ConceptGroupInfo.md)
 
 the concept group of the concept details
 
@@ -44,15 +44,15 @@ the concept group of the concept details
 
 [`IConceptInfo`](../interfaces/IConceptInfo.md).[`concept_group`](../interfaces/IConceptInfo.md#concept_group)
 
-#### Source
+#### Defined in
 
-main.ts:121249
+main.ts:121881
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 the concept name for the keyword in the concept_group
 
@@ -60,9 +60,9 @@ the concept name for the keyword in the concept_group
 
 [`IConceptInfo`](../interfaces/IConceptInfo.md).[`name`](../interfaces/IConceptInfo.md#name)
 
-#### Source
+#### Defined in
 
-main.ts:121247
+main.ts:121879
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:121247
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:121262
+main.ts:121894
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:121262
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:121280
+main.ts:121912
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ConceptInfo`](ConceptInfo.md)
+> `static` **fromJS**(`data`): [`ConceptInfo`](ConceptInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:121280
 
 [`ConceptInfo`](ConceptInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:121273
+main.ts:121905

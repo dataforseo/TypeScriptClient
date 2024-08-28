@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TableContent(data)
+### new TableContent()
 
 > **new TableContent**(`data`?): [`TableContent`](TableContent.md)
 
@@ -28,15 +28,15 @@
 
 [`TableContent`](TableContent.md)
 
-#### Source
+#### Defined in
 
-main.ts:163802
+main.ts:165634
 
 ## Properties
 
 ### body?
 
-> **`optional`** **body**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
+> `optional` **body**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
 content of the body of the table
 
@@ -44,15 +44,15 @@ content of the body of the table
 
 [`ITableContent`](../interfaces/ITableContent.md).[`body`](../interfaces/ITableContent.md#body)
 
-#### Source
+#### Defined in
 
-main.ts:163796
+main.ts:165628
 
 ***
 
 ### footer?
 
-> **`optional`** **footer**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
+> `optional` **footer**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
 content of the footer of the table
 
@@ -60,15 +60,15 @@ content of the footer of the table
 
 [`ITableContent`](../interfaces/ITableContent.md).[`footer`](../interfaces/ITableContent.md#footer)
 
-#### Source
+#### Defined in
 
-main.ts:163798
+main.ts:165630
 
 ***
 
 ### header?
 
-> **`optional`** **header**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
+> `optional` **header**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
 parsed content of the header
 
@@ -76,9 +76,9 @@ parsed content of the header
 
 [`ITableContent`](../interfaces/ITableContent.md).[`header`](../interfaces/ITableContent.md#header)
 
-#### Source
+#### Defined in
 
-main.ts:163794
+main.ts:165626
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:163794
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163811
+main.ts:165643
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:163811
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163842
+main.ts:165674
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TableContent`](TableContent.md)
+> `static` **fromJS**(`data`): [`TableContent`](TableContent.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:163842
 
 [`TableContent`](TableContent.md)
 
-#### Source
+#### Defined in
 
-main.ts:163835
+main.ts:165667

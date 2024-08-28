@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageInstantPagesRequestInfo(data)
+### new OnPageInstantPagesRequestInfo()
 
 > **new OnPageInstantPagesRequestInfo**(`data`?): [`OnPageInstantPagesRequestInfo`](OnPageInstantPagesRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageInstantPagesRequestInfo`](OnPageInstantPagesRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:164980
+main.ts:166812
 
 ## Properties
 
 ### accept\_language?
 
-> **`optional`** **accept\_language**: `string`
+> `optional` **accept\_language**: `string`
 
 language header for accessing the website
 optional field
@@ -47,15 +47,15 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`accept_language`](../interfaces/IOnPageInstantPagesRequestInfo.md#accept_language)
 
-#### Source
+#### Defined in
 
-main.ts:164901
+main.ts:166733
 
 ***
 
 ### browser\_preset?
 
-> **`optional`** **browser\_preset**: `string`
+> `optional` **browser\_preset**: `string`
 
 preset for browser screen parameters
 optional field
@@ -78,15 +78,15 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`browser_preset`](../interfaces/IOnPageInstantPagesRequestInfo.md#browser_preset)
 
-#### Source
+#### Defined in
 
-main.ts:164873
+main.ts:166705
 
 ***
 
 ### browser\_screen\_height?
 
-> **`optional`** **browser\_screen\_height**: `number`
+> `optional` **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -98,15 +98,15 @@ maximum value, in pixels: 9999
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`browser_screen_height`](../interfaces/IOnPageInstantPagesRequestInfo.md#browser_screen_height)
 
-#### Source
+#### Defined in
 
-main.ts:164885
+main.ts:166717
 
 ***
 
 ### browser\_screen\_scale\_factor?
 
-> **`optional`** **browser\_screen\_scale\_factor**: `number`
+> `optional` **browser\_screen\_scale\_factor**: `number`
 
 browser screen scale factor
 optional field
@@ -118,15 +118,15 @@ maximum value: 3
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`browser_screen_scale_factor`](../interfaces/IOnPageInstantPagesRequestInfo.md#browser_screen_scale_factor)
 
-#### Source
+#### Defined in
 
-main.ts:164891
+main.ts:166723
 
 ***
 
 ### browser\_screen\_width?
 
-> **`optional`** **browser\_screen\_width**: `number`
+> `optional` **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -138,15 +138,15 @@ maximum value, in pixels: 9999
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`browser_screen_width`](../interfaces/IOnPageInstantPagesRequestInfo.md#browser_screen_width)
 
-#### Source
+#### Defined in
 
-main.ts:164879
+main.ts:166711
 
 ***
 
 ### check\_spell?
 
-> **`optional`** **check\_spell**: `boolean`
+> `optional` **check\_spell**: `boolean`
 
 check spelling
 optional field
@@ -157,22 +157,22 @@ default value: false
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`check_spell`](../interfaces/IOnPageInstantPagesRequestInfo.md#check_spell)
 
-#### Source
+#### Defined in
 
-main.ts:164960
+main.ts:166792
 
 ***
 
 ### checks\_threshold?
 
-> **`optional`** **checks\_threshold**: `Object`
+> `optional` **checks\_threshold**: `object`
 
 custom threshold values for checks
 optional field
 you can specify custom threshold values for the parameters included in the checks array of OnPage API responses;
 Note: only integer threshold values can be modified;
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -180,40 +180,40 @@ Note: only integer threshold values can be modified;
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`checks_threshold`](../interfaces/IOnPageInstantPagesRequestInfo.md#checks_threshold)
 
-#### Source
+#### Defined in
 
-main.ts:164965
+main.ts:166797
 
 ***
 
 ### custom\_js?
 
-> **`optional`** **custom\_js**: `string`
+> `optional` **custom\_js**: `string`
 
 custom javascript
 optional fieldNote that the execution time for the script you enter here should be 700 ms maximumfor example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
-let meta = \{ haveGoogleAnalytics: false, haveTagManager: false \};\r\nfor (var i = 0; i `< document.scripts.length; i++) \{\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) \{\r\n if (src.indexOf(\"analytics.js\") >`= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  \}\r\n\}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
-meta = \{\}; meta.url = document.URL; meta.test = 'test'; meta;
+let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) {\r\n if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
+meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
 as a response you will receive the following data:
-"custom_js_response": \{
+"custom_js_response": {
 "url": "https://dataforseo.com/",
 "test": "test"
-\}
+}
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
 #### Implementation of
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`custom_js`](../interfaces/IOnPageInstantPagesRequestInfo.md#custom_js)
 
-#### Source
+#### Defined in
 
-main.ts:164950
+main.ts:166782
 
 ***
 
 ### custom\_user\_agent?
 
-> **`optional`** **custom\_user\_agent**: `string`
+> `optional` **custom\_user\_agent**: `string`
 
 custom user agent
 optional field
@@ -226,15 +226,15 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`custom_user_agent`](../interfaces/IOnPageInstantPagesRequestInfo.md#custom_user_agent)
 
-#### Source
+#### Defined in
 
-main.ts:164856
+main.ts:166688
 
 ***
 
 ### disable\_cookie\_popup?
 
-> **`optional`** **disable\_cookie\_popup**: `boolean`
+> `optional` **disable\_cookie\_popup**: `boolean`
 
 disable the cookie popup 
 optional field
@@ -246,15 +246,15 @@ false
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`disable_cookie_popup`](../interfaces/IOnPageInstantPagesRequestInfo.md#disable_cookie_popup)
 
-#### Source
+#### Defined in
 
-main.ts:164928
+main.ts:166760
 
 ***
 
 ### enable\_browser\_rendering?
 
-> **`optional`** **enable\_browser\_rendering**: `boolean`
+> `optional` **enable\_browser\_rendering**: `boolean`
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -269,15 +269,15 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`enable_browser_rendering`](../interfaces/IOnPageInstantPagesRequestInfo.md#enable_browser_rendering)
 
-#### Source
+#### Defined in
 
-main.ts:164922
+main.ts:166754
 
 ***
 
 ### enable\_javascript?
 
-> **`optional`** **enable\_javascript**: `boolean`
+> `optional` **enable\_javascript**: `boolean`
 
 load javascript on a page
 optional field
@@ -289,15 +289,15 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`enable_javascript`](../interfaces/IOnPageInstantPagesRequestInfo.md#enable_javascript)
 
-#### Source
+#### Defined in
 
-main.ts:164913
+main.ts:166745
 
 ***
 
 ### enable\_xhr?
 
-> **`optional`** **enable\_xhr**: `boolean`
+> `optional` **enable\_xhr**: `boolean`
 
 enable XMLHttpRequest on a page
 optional field
@@ -309,15 +309,15 @@ falseif you use this field, enable_javascript must be set to true;
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`enable_xhr`](../interfaces/IOnPageInstantPagesRequestInfo.md#enable_xhr)
 
-#### Source
+#### Defined in
 
-main.ts:164939
+main.ts:166771
 
 ***
 
 ### ip\_pool\_for\_scan?
 
-> **`optional`** **ip\_pool\_for\_scan**: `string`
+> `optional` **ip\_pool\_for\_scan**: `string`
 
 proxy pool
 optional field
@@ -329,15 +329,15 @@ possible values: us, de
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`ip_pool_for_scan`](../interfaces/IOnPageInstantPagesRequestInfo.md#ip_pool_for_scan)
 
-#### Source
+#### Defined in
 
-main.ts:164976
+main.ts:166808
 
 ***
 
 ### load\_resources?
 
-> **`optional`** **load\_resources**: `boolean`
+> `optional` **load\_resources**: `boolean`
 
 load resources
 optional field
@@ -349,15 +349,15 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`load_resources`](../interfaces/IOnPageInstantPagesRequestInfo.md#load_resources)
 
-#### Source
+#### Defined in
 
-main.ts:164907
+main.ts:166739
 
 ***
 
 ### return\_despite\_timeout?
 
-> **`optional`** **return\_despite\_timeout**: `boolean`
+> `optional` **return\_despite\_timeout**: `boolean`
 
 return data on pages despite the timeout error
 optional field
@@ -368,15 +368,15 @@ default value: false
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`return_despite_timeout`](../interfaces/IOnPageInstantPagesRequestInfo.md#return_despite_timeout)
 
-#### Source
+#### Defined in
 
-main.ts:164933
+main.ts:166765
 
 ***
 
 ### store\_raw\_html?
 
-> **`optional`** **store\_raw\_html**: `boolean`
+> `optional` **store\_raw\_html**: `boolean`
 
 store HTML of a crawled page
 optional field
@@ -387,15 +387,15 @@ default value: false
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`store_raw_html`](../interfaces/IOnPageInstantPagesRequestInfo.md#store_raw_html)
 
-#### Source
+#### Defined in
 
-main.ts:164896
+main.ts:166728
 
 ***
 
 ### switch\_pool?
 
-> **`optional`** **switch\_pool**: `boolean`
+> `optional` **switch\_pool**: `boolean`
 
 switch proxy pool
 optional field
@@ -406,15 +406,15 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`switch_pool`](../interfaces/IOnPageInstantPagesRequestInfo.md#switch_pool)
 
-#### Source
+#### Defined in
 
-main.ts:164970
+main.ts:166802
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 target page url
 required field
@@ -427,15 +427,15 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`url`](../interfaces/IOnPageInstantPagesRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:164849
+main.ts:166681
 
 ***
 
 ### validate\_micromarkup?
 
-> **`optional`** **validate\_micromarkup**: `boolean`
+> `optional` **validate\_micromarkup**: `boolean`
 
 enable microdata validation
 optional field
@@ -446,9 +446,9 @@ default value: false
 
 [`IOnPageInstantPagesRequestInfo`](../interfaces/IOnPageInstantPagesRequestInfo.md).[`validate_micromarkup`](../interfaces/IOnPageInstantPagesRequestInfo.md#validate_micromarkup)
 
-#### Source
+#### Defined in
 
-main.ts:164955
+main.ts:166787
 
 ## Methods
 
@@ -464,9 +464,9 @@ main.ts:164955
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:164989
+main.ts:166821
 
 ***
 
@@ -482,15 +482,15 @@ main.ts:164989
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:165031
+main.ts:166863
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageInstantPagesRequestInfo`](OnPageInstantPagesRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageInstantPagesRequestInfo`](OnPageInstantPagesRequestInfo.md)
 
 #### Parameters
 
@@ -500,6 +500,6 @@ main.ts:165031
 
 [`OnPageInstantPagesRequestInfo`](OnPageInstantPagesRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:165024
+main.ts:166856

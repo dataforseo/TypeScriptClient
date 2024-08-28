@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,86 +14,86 @@
 
 ### delivery\_info?
 
-> **`optional`** **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
+> `optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
 delivery information
 product delivery information
 
-#### Source
+#### Defined in
 
-main.ts:181101
+main.ts:182933
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`Price`](../classes/Price.md)
 
 product price
 product price details on the seller’s website
 
-#### Source
+#### Defined in
 
-main.ts:181098
+main.ts:182930
 
 ***
 
 ### seller\_rating?
 
-> **`optional`** **seller\_rating**: [`RatingElement`](../classes/RatingElement.md)
+> `optional` **seller\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
 rating of the seller
 
-#### Source
+#### Defined in
 
-main.ts:181092
+main.ts:182924
 
 ***
 
 ### seller\_review\_count?
 
-> **`optional`** **seller\_review\_count**: `number`
+> `optional` **seller\_review\_count**: `number`
 
 number of seller reviews
 number of reviews on the product seller’s account
 
-#### Source
+#### Defined in
 
-main.ts:181095
+main.ts:182927
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
-#### Source
+#### Defined in
 
-main.ts:181087
+main.ts:182919
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:181085
+main.ts:182917
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 seller url
 url of the page where the product is sold
 
-#### Source
+#### Defined in
 
-main.ts:181090
+main.ts:182922

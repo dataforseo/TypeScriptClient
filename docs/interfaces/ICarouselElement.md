@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
-#### Source
+#### Defined in
 
-main.ts:31548
+main.ts:31744
 
 ***
 
 ### subtitle?
 
-> **`optional`** **subtitle**: `string`
+> `optional` **subtitle**: `string`
 
 subtitle of the element
 
-#### Source
+#### Defined in
 
-main.ts:31546
+main.ts:31742
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:31544
+main.ts:31740
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:31542
+main.ts:31738

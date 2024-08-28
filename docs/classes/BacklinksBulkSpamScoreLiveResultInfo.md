@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkSpamScoreLiveResultInfo(data)
+### new BacklinksBulkSpamScoreLiveResultInfo()
 
 > **new BacklinksBulkSpamScoreLiveResultInfo**(`data`?): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:151124
+main.ts:152950
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)[]
+> `optional` **items**: [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
@@ -44,15 +44,15 @@ contains relevant backlinks and referring domains data
 
 [`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:151120
+main.ts:152946
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,9 +60,9 @@ the number of results returned in the items array
 
 [`IBacklinksBulkSpamScoreLiveResultInfo`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkSpamScoreLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:151118
+main.ts:152944
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:151118
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:151133
+main.ts:152959
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:151133
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:151155
+main.ts:152981
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:151155
 
 [`BacklinksBulkSpamScoreLiveResultInfo`](BacklinksBulkSpamScoreLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:151148
+main.ts:152974

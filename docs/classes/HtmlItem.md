@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new HtmlItem(data)
+### new HtmlItem()
 
 > **new HtmlItem**(`data`?): [`HtmlItem`](HtmlItem.md)
 
@@ -28,15 +28,15 @@
 
 [`HtmlItem`](HtmlItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:38256
+main.ts:38764
 
 ## Properties
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 date and time when the HTML page was scanned
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -47,15 +47,15 @@ example:
 
 [`IHtmlItem`](../interfaces/IHtmlItem.md).[`date`](../interfaces/IHtmlItem.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:38250
+main.ts:38758
 
 ***
 
 ### html?
 
-> **`optional`** **html**: `string`
+> `optional` **html**: `string`
 
 HTML page
 
@@ -63,15 +63,15 @@ HTML page
 
 [`IHtmlItem`](../interfaces/IHtmlItem.md).[`html`](../interfaces/IHtmlItem.md#html)
 
-#### Source
+#### Defined in
 
-main.ts:38252
+main.ts:38760
 
 ***
 
 ### page?
 
-> **`optional`** **page**: `number`
+> `optional` **page**: `number`
 
 serial number of the returned HTML page
 
@@ -79,9 +79,9 @@ serial number of the returned HTML page
 
 [`IHtmlItem`](../interfaces/IHtmlItem.md).[`page`](../interfaces/IHtmlItem.md#page)
 
-#### Source
+#### Defined in
 
-main.ts:38245
+main.ts:38753
 
 ## Methods
 
@@ -97,9 +97,9 @@ main.ts:38245
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:38265
+main.ts:38773
 
 ***
 
@@ -115,15 +115,15 @@ main.ts:38265
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:38284
+main.ts:38792
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`HtmlItem`](HtmlItem.md)
+> `static` **fromJS**(`data`): [`HtmlItem`](HtmlItem.md)
 
 #### Parameters
 
@@ -133,6 +133,6 @@ main.ts:38284
 
 [`HtmlItem`](HtmlItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:38277
+main.ts:38785

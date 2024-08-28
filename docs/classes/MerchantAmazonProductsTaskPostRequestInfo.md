@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new MerchantAmazonProductsTaskPostRequestInfo(data)
+### new MerchantAmazonProductsTaskPostRequestInfo()
 
 > **new MerchantAmazonProductsTaskPostRequestInfo**(`data`?): [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
 
@@ -36,15 +36,15 @@
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`constructor`](MerchantTaskRequestInfo.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:182341
+main.ts:184173
 
 ## Properties
 
 ### department?
 
-> **`optional`** **department**: `string`
+> `optional` **department**: `string`
 
 amazon product department
 optional field
@@ -55,15 +55,15 @@ specify one of the following amazon departments for extracting product listings:
 
 [`IMerchantAmazonProductsTaskPostRequestInfo`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md).[`department`](../interfaces/IMerchantAmazonProductsTaskPostRequestInfo.md#department)
 
-#### Source
+#### Defined in
 
-main.ts:182337
+main.ts:184169
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -82,15 +82,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`depth`](MerchantTaskRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:154184
+main.ts:156010
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -107,15 +107,15 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`keyword`](MerchantTaskRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:154117
+main.ts:155943
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -132,15 +132,15 @@ en
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`language_code`](MerchantTaskRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:154168
+main.ts:155994
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -157,15 +157,15 @@ English
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`language_name`](MerchantTaskRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:154161
+main.ts:155987
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -182,15 +182,15 @@ example:
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`location_code`](MerchantTaskRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:154145
+main.ts:155971
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -209,15 +209,15 @@ example:
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`location_coordinate`](MerchantTaskRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:154154
+main.ts:155980
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -234,15 +234,15 @@ London,England,United Kingdom
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`location_name`](MerchantTaskRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:154138
+main.ts:155964
 
 ***
 
 ### max\_crawl\_pages?
 
-> **`optional`** **max\_crawl\_pages**: `number`
+> `optional` **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -259,15 +259,15 @@ learn more at our help center
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`max_crawl_pages`](MerchantTaskRequestInfo.md#max_crawl_pages)
 
-#### Source
+#### Defined in
 
-main.ts:154191
+main.ts:156017
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -287,15 +287,15 @@ i.a., the # symbol will be encoded into %23
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`pingback_url`](MerchantTaskRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:154253
+main.ts:156079
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -311,15 +311,15 @@ advanced, html
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`postback_data`](MerchantTaskRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:154243
+main.ts:156069
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -339,15 +339,15 @@ i.a., the # symbol will be encoded into %23
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`postback_url`](MerchantTaskRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:154237
+main.ts:156063
 
 ***
 
 ### price\_max?
 
-> **`optional`** **price\_max**: `number`
+> `optional` **price\_max**: `number`
 
 maximum product price
 optional field
@@ -363,15 +363,15 @@ example:
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`price_max`](MerchantTaskRequestInfo.md#price_max)
 
-#### Source
+#### Defined in
 
-main.ts:154214
+main.ts:156040
 
 ***
 
 ### price\_min?
 
-> **`optional`** **price\_min**: `number`
+> `optional` **price\_min**: `number`
 
 minimum product price
 optional field
@@ -387,15 +387,15 @@ example:
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`price_min`](MerchantTaskRequestInfo.md#price_min)
 
-#### Source
+#### Defined in
 
-main.ts:154208
+main.ts:156034
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -413,15 +413,15 @@ The cost can be calculated on the Pricing page.
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`priority`](MerchantTaskRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:154131
+main.ts:155957
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -438,15 +438,15 @@ google.co.uk, google.com.au, google.de, etc.
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`se_domain`](MerchantTaskRequestInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:154175
+main.ts:156001
 
 ***
 
 ### search\_param?
 
-> **`optional`** **search\_param**: `string`
+> `optional` **search\_param**: `string`
 
 additional parameters of the search query
 optional field
@@ -467,15 +467,15 @@ example:
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`search_param`](MerchantTaskRequestInfo.md#search_param)
 
-#### Source
+#### Defined in
 
-main.ts:154202
+main.ts:156028
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting rules
 optional field
@@ -492,15 +492,15 @@ sort_by:"review_score"
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`sort_by`](MerchantTaskRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:154221
+main.ts:156047
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -516,15 +516,15 @@ you will find the specified tag value in the data object of the response
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`tag`](MerchantTaskRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:154227
+main.ts:156053
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 direct URL of the search query
 optional field
@@ -540,9 +540,9 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`url`](MerchantTaskRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:154123
+main.ts:155949
 
 ## Methods
 
@@ -562,9 +562,9 @@ main.ts:154123
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`init`](MerchantTaskRequestInfo.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:182345
+main.ts:184177
 
 ***
 
@@ -584,15 +584,15 @@ main.ts:182345
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`toJSON`](MerchantTaskRequestInfo.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:182363
+main.ts:184195
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`MerchantAmazonProductsTaskPostRequestInfo`](MerchantAmazonProductsTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -606,6 +606,6 @@ main.ts:182363
 
 [`MerchantTaskRequestInfo`](MerchantTaskRequestInfo.md).[`fromJS`](MerchantTaskRequestInfo.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:182356
+main.ts:184188

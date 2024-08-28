@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageErrorsRequestInfo(data)
+### new OnPageErrorsRequestInfo()
 
 > **new OnPageErrorsRequestInfo**(`data`?): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153378
+main.ts:155204
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -49,15 +49,15 @@ example:
 
 [`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`datetime_from`](../interfaces/IOnPageErrorsRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:153367
+main.ts:155193
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -70,15 +70,15 @@ example:
 
 [`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`datetime_to`](../interfaces/IOnPageErrorsRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:153374
+main.ts:155200
 
 ***
 
 ### filtered\_function?
 
-> **`optional`** **filtered\_function**: `string`
+> `optional` **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,15 @@ example: on_page/task_post, postback_url, pingback_url
 
 [`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`filtered_function`](../interfaces/IOnPageErrorsRequestInfo.md#filtered_function)
 
-#### Source
+#### Defined in
 
-main.ts:153360
+main.ts:155186
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +109,15 @@ maximum value: 1000
 
 [`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`limit`](../interfaces/IOnPageErrorsRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:153349
+main.ts:155175
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IOnPageErrorsRequestInfo`](../interfaces/IOnPageErrorsRequestInfo.md).[`offset`](../interfaces/IOnPageErrorsRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:153354
+main.ts:155180
 
 ## Methods
 
@@ -146,9 +146,9 @@ main.ts:153354
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:153387
+main.ts:155213
 
 ***
 
@@ -164,15 +164,15 @@ main.ts:153387
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:153408
+main.ts:155234
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:153408
 
 [`OnPageErrorsRequestInfo`](OnPageErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153401
+main.ts:155227

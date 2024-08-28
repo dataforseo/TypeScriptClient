@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -22,15 +22,15 @@ if you don’t specify this field, the data will be provided for the previous 12
 minimal possible value: 2020-10-01
 date format: "yyyy-mm-dd"
 
-#### Source
+#### Defined in
 
-main.ts:103741
+main.ts:104359
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -39,30 +39,30 @@ date format: "yyyy-mm-dd"
 example:
 "2021-04-01"
 
-#### Source
+#### Defined in
 
-main.ts:103748
+main.ts:104366
 
 ***
 
 ### ignore\_synonyms?
 
-> **`optional`** **ignore\_synonyms**: `boolean`
+> `optional` **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:103753
+main.ts:104371
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -73,15 +73,15 @@ possible values:
 default value:
 ["organic", "paid"]
 
-#### Source
+#### Defined in
 
-main.ts:103762
+main.ts:104380
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -91,15 +91,15 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:103735
+main.ts:104353
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -109,15 +109,15 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:103727
+main.ts:104345
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -127,15 +127,15 @@ ignore this field to get the results for all available locations
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:103719
+main.ts:104337
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -145,15 +145,15 @@ ignore this field to get the results for all available locations
 example:
 United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:103711
+main.ts:104329
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -161,15 +161,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:103768
+main.ts:104386
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 target domains and subdomains
 required field
@@ -177,6 +177,6 @@ you can specify domains and subdomains in this field;
 domains and subdomains should be specified without https:// and www.;
 you can set up to 1000 domains or subdomains
 
-#### Source
+#### Defined in
 
-main.ts:103703
+main.ts:104321

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkNewLostBacklinksLiveItem(data)
+### new BacklinksBulkNewLostBacklinksLiveItem()
 
 > **new BacklinksBulkNewLostBacklinksLiveItem**(`data`?): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:151794
+main.ts:153620
 
 ## Properties
 
 ### lost\_backlinks?
 
-> **`optional`** **lost\_backlinks**: `number`
+> `optional` **lost\_backlinks**: `number`
 
 number of lost backlinks
 number of lost backlinks of the target
@@ -45,15 +45,15 @@ number of lost backlinks of the target
 
 [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[`lost_backlinks`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#lost_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:151790
+main.ts:153616
 
 ***
 
 ### new\_backlinks?
 
-> **`optional`** **new\_backlinks**: `number`
+> `optional` **new\_backlinks**: `number`
 
 number of new backlinks
 number of new backlinks pointing to the target
@@ -62,15 +62,15 @@ number of new backlinks pointing to the target
 
 [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[`new_backlinks`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#new_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:151787
+main.ts:153613
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
@@ -78,9 +78,9 @@ domain, subdomain or webpage from a POST array
 
 [`IBacklinksBulkNewLostBacklinksLiveItem`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md).[`target`](../interfaces/IBacklinksBulkNewLostBacklinksLiveItem.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:151784
+main.ts:153610
 
 ## Methods
 
@@ -96,9 +96,9 @@ main.ts:151784
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:151803
+main.ts:153629
 
 ***
 
@@ -114,15 +114,15 @@ main.ts:151803
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:151822
+main.ts:153648
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
 #### Parameters
 
@@ -132,6 +132,6 @@ main.ts:151822
 
 [`BacklinksBulkNewLostBacklinksLiveItem`](BacklinksBulkNewLostBacklinksLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:151815
+main.ts:153641

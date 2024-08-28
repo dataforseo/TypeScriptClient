@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the app
 required field
@@ -24,39 +24,39 @@ example:
 in the URL https://play.google.com/store/apps/details?id=org.telegram.messenger
 the id is org.telegram.messenger
 
-#### Source
+#### Defined in
 
-main.ts:115001
+main.ts:115633
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, `<=, >`, >=, =, `<>`, in, not_in
+<, <=, >, >=, =, <>, in, not_in
 example:
-["intersections",">`",500]
-[["competitor_metrics.google_play_search_organic.pos_1","`<>`",10],"and",["avg_position",">`=","10"]]
+["intersections",">",500]
+[["competitor_metrics.google_play_search_organic.pos_1","<>",10],"and",["avg_position",">=","10"]]
 [[["intersections",">=",50],"and",["competitor_metrics.google_play_search_organic.pos_1","in",[1,5]]],
 "or",
 ["sum_position",">=","10000"]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:115051
+main.ts:115683
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -67,15 +67,15 @@ Note: this endpoint currently supports the English language only
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:115037
+main.ts:115669
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -86,30 +86,30 @@ Note: this endpoint currently supports the English language only;
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:115028
+main.ts:115660
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned apps
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:115073
+main.ts:115705
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -120,15 +120,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:115019
+main.ts:115651
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -139,30 +139,30 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Source
+#### Defined in
 
-main.ts:115010
+main.ts:115642
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned apps
 optional field
 default value: 0
 if you specify the 10 value, the first ten apps in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Source
+#### Defined in
 
-main.ts:115078
+main.ts:115710
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -181,15 +181,15 @@ default rule:
 ["intersections,desc"]
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array
 
-#### Source
+#### Defined in
 
-main.ts:115068
+main.ts:115700
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -197,6 +197,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:115084
+main.ts:115716

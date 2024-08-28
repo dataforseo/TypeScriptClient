@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,82 +14,82 @@
 
 ### bitrate?
 
-> **`optional`** **bitrate**: `number`
+> `optional` **bitrate**: `number`
 
 bit rate of the video
 
-#### Source
+#### Defined in
 
-main.ts:62966
+main.ts:63556
 
 ***
 
 ### fps?
 
-> **`optional`** **fps**: `number`
+> `optional` **fps**: `number`
 
 frame rate of the video
 
-#### Source
+#### Defined in
 
-main.ts:62970
+main.ts:63560
 
 ***
 
 ### height?
 
-> **`optional`** **height**: `number`
+> `optional` **height**: `number`
 
 video height in pixels
 
-#### Source
+#### Defined in
 
-main.ts:62964
+main.ts:63554
 
 ***
 
 ### label?
 
-> **`optional`** **label**: `string`
+> `optional` **label**: `string`
 
 label of the quality element
 
-#### Source
+#### Defined in
 
-main.ts:62960
+main.ts:63550
 
 ***
 
 ### mime\_type?
 
-> **`optional`** **mime\_type**: `string`
+> `optional` **mime\_type**: `string`
 
 media type of the video
 
-#### Source
+#### Defined in
 
-main.ts:62968
+main.ts:63558
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:62958
+main.ts:63548
 
 ***
 
 ### width?
 
-> **`optional`** **width**: `number`
+> `optional` **width**: `number`
 
 video width in pixels
 
-#### Source
+#### Defined in
 
-main.ts:62962
+main.ts:63552

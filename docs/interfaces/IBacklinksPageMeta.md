@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,220 +14,220 @@
 
 ### canonical?
 
-> **`optional`** **canonical**: `string`
+> `optional` **canonical**: `string`
 
 canonical page
 
-#### Source
+#### Defined in
 
-main.ts:143785
+main.ts:145611
 
 ***
 
 ### charset?
 
-> **`optional`** **charset**: `string`
+> `optional` **charset**: `string`
 
 character encoding
 examples:
 utf-8
 
-#### Source
+#### Defined in
 
-main.ts:143821
+main.ts:145647
 
 ***
 
 ### external\_links\_count?
 
-> **`optional`** **external\_links\_count**: `number`
+> `optional` **external\_links\_count**: `number`
 
 number of external links on the page
 
-#### Source
+#### Defined in
 
-main.ts:143789
+main.ts:145615
 
 ***
 
 ### h1?
 
-> **`optional`** **h1**: `string`[]
+> `optional` **h1**: `string`[]
 
 h1 tag
 content of h1 tags
 
-#### Source
+#### Defined in
 
-main.ts:143803
+main.ts:145629
 
 ***
 
 ### h2?
 
-> **`optional`** **h2**: `string`[]
+> `optional` **h2**: `string`[]
 
 h2 tag
 content of h2 tags
 
-#### Source
+#### Defined in
 
-main.ts:143806
+main.ts:145632
 
 ***
 
 ### h3?
 
-> **`optional`** **h3**: `string`[]
+> `optional` **h3**: `string`[]
 
 h3 tag
 content of h3 tags
 
-#### Source
+#### Defined in
 
-main.ts:143809
+main.ts:145635
 
 ***
 
 ### images\_alt?
 
-> **`optional`** **images\_alt**: `string`[]
+> `optional` **images\_alt**: `string`[]
 
 content of alt tags
 
-#### Source
+#### Defined in
 
-main.ts:143811
+main.ts:145637
 
 ***
 
 ### images\_count?
 
-> **`optional`** **images\_count**: `number`
+> `optional` **images\_count**: `number`
 
 number of images on the page
 
-#### Source
+#### Defined in
 
-main.ts:143791
+main.ts:145617
 
 ***
 
 ### internal\_links\_count?
 
-> **`optional`** **internal\_links\_count**: `number`
+> `optional` **internal\_links\_count**: `number`
 
 number of internal links on the page
 
-#### Source
+#### Defined in
 
-main.ts:143787
+main.ts:145613
 
 ***
 
 ### language?
 
-> **`optional`** **language**: `string`
+> `optional` **language**: `string`
 
 page content language
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:143817
+main.ts:145643
 
 ***
 
 ### page\_spam\_score?
 
-> **`optional`** **page\_spam\_score**: `number`
+> `optional` **page\_spam\_score**: `number`
 
 spam score of the page
 learn more about how the metric is calculated on this help center page
 
-#### Source
+#### Defined in
 
-main.ts:143796
+main.ts:145622
 
 ***
 
 ### platform\_type?
 
-> **`optional`** **platform\_type**: `string`[]
+> `optional` **platform\_type**: `string`[]
 
 type of a platform
 
-#### Source
+#### Defined in
 
-main.ts:143823
+main.ts:145649
 
 ***
 
 ### powered\_by?
 
-> **`optional`** **powered\_by**: `string`[]
+> `optional` **powered\_by**: `string`[]
 
 CMS details
 
-#### Source
+#### Defined in
 
-main.ts:143813
+main.ts:145639
 
 ***
 
 ### social\_media\_tags?
 
-> **`optional`** **social\_media\_tags**: `Object`
+> `optional` **social\_media\_tags**: `object`
 
 array of social media tags found on the page
 contains social media tags and their content
 supported tags include but are not limited to Open Graph and Twitter card
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:143800
+main.ts:145626
 
 ***
 
 ### technologies?
 
-> **`optional`** **technologies**: `Object`
+> `optional` **technologies**: `object`
 
 website technologies
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:143825
+main.ts:145651
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 page title
 
-#### Source
+#### Defined in
 
-main.ts:143783
+main.ts:145609
 
 ***
 
 ### words\_count?
 
-> **`optional`** **words\_count**: `number`
+> `optional` **words\_count**: `number`
 
 number of words on the page
 
-#### Source
+#### Defined in
 
-main.ts:143793
+main.ts:145619

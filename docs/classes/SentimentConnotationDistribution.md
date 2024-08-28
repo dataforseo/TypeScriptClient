@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SentimentConnotationDistribution(data)
+### new SentimentConnotationDistribution()
 
 > **new SentimentConnotationDistribution**(`data`?): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
@@ -28,93 +28,93 @@
 
 [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
-#### Source
+#### Defined in
 
-main.ts:169818
+main.ts:171650
 
 ## Properties
 
 ### anger?
 
-> **`optional`** **anger**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> `optional` **anger**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`anger`](../interfaces/ISentimentConnotationDistribution.md#anger)
 
-#### Source
+#### Defined in
 
-main.ts:169809
+main.ts:171641
 
 ***
 
 ### fun?
 
-> **`optional`** **fun**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> `optional` **fun**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`fun`](../interfaces/ISentimentConnotationDistribution.md#fun)
 
-#### Source
+#### Defined in
 
-main.ts:169814
+main.ts:171646
 
 ***
 
 ### happiness?
 
-> **`optional`** **happiness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> `optional` **happiness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`happiness`](../interfaces/ISentimentConnotationDistribution.md#happiness)
 
-#### Source
+#### Defined in
 
-main.ts:169810
+main.ts:171642
 
 ***
 
 ### love?
 
-> **`optional`** **love**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> `optional` **love**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`love`](../interfaces/ISentimentConnotationDistribution.md#love)
 
-#### Source
+#### Defined in
 
-main.ts:169811
+main.ts:171643
 
 ***
 
 ### sadness?
 
-> **`optional`** **sadness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> `optional` **sadness**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`sadness`](../interfaces/ISentimentConnotationDistribution.md#sadness)
 
-#### Source
+#### Defined in
 
-main.ts:169812
+main.ts:171644
 
 ***
 
 ### share?
 
-> **`optional`** **share**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> `optional` **share**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
 [`ISentimentConnotationDistribution`](../interfaces/ISentimentConnotationDistribution.md).[`share`](../interfaces/ISentimentConnotationDistribution.md#share)
 
-#### Source
+#### Defined in
 
-main.ts:169813
+main.ts:171645
 
 ## Methods
 
@@ -130,9 +130,9 @@ main.ts:169813
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:169827
+main.ts:171659
 
 ***
 
@@ -148,15 +148,15 @@ main.ts:169827
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:169849
+main.ts:171681
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
+> `static` **fromJS**(`data`): [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
 #### Parameters
 
@@ -166,6 +166,6 @@ main.ts:169849
 
 [`SentimentConnotationDistribution`](SentimentConnotationDistribution.md)
 
-#### Source
+#### Defined in
 
-main.ts:169842
+main.ts:171674

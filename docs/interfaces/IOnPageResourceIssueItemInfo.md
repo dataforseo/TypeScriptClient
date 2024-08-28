@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,44 +14,44 @@
 
 ### column?
 
-> **`optional`** **column**: `number`
+> `optional` **column**: `number`
 
 column where the error was found
 
-#### Source
+#### Defined in
 
-main.ts:156205
+main.ts:158033
 
 ***
 
 ### line?
 
-> **`optional`** **line**: `number`
+> `optional` **line**: `number`
 
 line where the error was found
 
-#### Source
+#### Defined in
 
-main.ts:156203
+main.ts:158031
 
 ***
 
 ### message?
 
-> **`optional`** **message**: `string`
+> `optional` **message**: `string`
 
 text message of the error
 the full list of possible HTML errors can be found here
 
-#### Source
+#### Defined in
 
-main.ts:156208
+main.ts:158036
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 status code of the error
 possible values:
@@ -64,6 +64,6 @@ possible values:
 3503 — Image Size Is Zero;
 3504 — Image Format Invalid
 
-#### Source
+#### Defined in
 
-main.ts:156219
+main.ts:158047

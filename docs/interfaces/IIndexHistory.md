@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,49 +14,49 @@
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 date for which index volume data is provided
 in the UTC format: “yyyy-mm-dd”
 example:
 2021-10-01
 
-#### Source
+#### Defined in
 
-main.ts:139819
+main.ts:141645
 
 ***
 
 ### total\_backlinks?
 
-> **`optional`** **total\_backlinks**: `number`
+> `optional` **total\_backlinks**: `number`
 
 total number of backlinks our database contained on the given date
 
-#### Source
+#### Defined in
 
-main.ts:139821
+main.ts:141647
 
 ***
 
 ### total\_domains?
 
-> **`optional`** **total\_domains**: `number`
+> `optional` **total\_domains**: `number`
 
 total number of domains our database contained on the given date
 
-#### Source
+#### Defined in
 
-main.ts:139825
+main.ts:141651
 
 ***
 
 ### total\_pages?
 
-> **`optional`** **total\_pages**: `number`
+> `optional` **total\_pages**: `number`
 
 total number of pages our database contained on the given date
 
-#### Source
+#### Defined in
 
-main.ts:139823
+main.ts:141649

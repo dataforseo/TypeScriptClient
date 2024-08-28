@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### demography?
 
-> **`optional`** **demography**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **demography**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218766
+main.ts:220614
 
 ***
 
 ### explore?
 
-> **`optional`** **explore**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **explore**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218764
+main.ts:220612
 
 ***
 
 ### merged\_data?
 
-> **`optional`** **merged\_data**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **merged\_data**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218767
+main.ts:220615
 
 ***
 
 ### subregion\_interests?
 
-> **`optional`** **subregion\_interests**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **subregion\_interests**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218765
+main.ts:220613

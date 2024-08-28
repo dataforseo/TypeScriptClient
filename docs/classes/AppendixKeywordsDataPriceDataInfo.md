@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixKeywordsDataPriceDataInfo(data)
+### new AppendixKeywordsDataPriceDataInfo()
 
 > **new AppendixKeywordsDataPriceDataInfo**(`data`?): [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
@@ -28,37 +28,37 @@
 
 [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:221552
+main.ts:225768
 
 ## Properties
 
 ### task\_get?
 
-> **`optional`** **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md).[`task_get`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md#task_get)
 
-#### Source
+#### Defined in
 
-main.ts:221547
+main.ts:225763
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataPriceDataInfo`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md).[`task_post`](../interfaces/IAppendixKeywordsDataPriceDataInfo.md#task_post)
 
-#### Source
+#### Defined in
 
-main.ts:221548
+main.ts:225764
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:221548
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:221561
+main.ts:225777
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:221561
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221579
+main.ts:225795
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:221579
 
 [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:221572
+main.ts:225788

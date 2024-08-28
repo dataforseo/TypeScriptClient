@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,70 +14,70 @@
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 total count of Amazon organic SERPs that contain the product
 
-#### Source
+#### Defined in
 
-main.ts:106338
+main.ts:106968
 
 ***
 
 ### pos\_1?
 
-> **`optional`** **pos\_1**: `number`
+> `optional` **pos\_1**: `number`
 
 number of organic SERPs where the product ranks #1
 
-#### Source
+#### Defined in
 
-main.ts:106330
+main.ts:106960
 
 ***
 
 ### pos\_11\_100?
 
-> **`optional`** **pos\_11\_100**: `number`
+> `optional` **pos\_11\_100**: `number`
 
 number of organic SERPs where the product ranks #11-100
 
-#### Source
+#### Defined in
 
-main.ts:106336
+main.ts:106966
 
 ***
 
 ### pos\_2\_3?
 
-> **`optional`** **pos\_2\_3**: `number`
+> `optional` **pos\_2\_3**: `number`
 
 number of organic SERPs where the product ranks #2-3
 
-#### Source
+#### Defined in
 
-main.ts:106332
+main.ts:106962
 
 ***
 
 ### pos\_4\_10?
 
-> **`optional`** **pos\_4\_10**: `number`
+> `optional` **pos\_4\_10**: `number`
 
 number of organic SERPs where the product ranks #4-10
 
-#### Source
+#### Defined in
 
-main.ts:106334
+main.ts:106964
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 total search volume of the product’s ranking keywords in organic SERP
 
-#### Source
+#### Defined in
 
-main.ts:106340
+main.ts:106970

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,7 +18,7 @@
 
 ### highlighted?
 
-> **`optional`** **highlighted**: `string`[]
+> `optional` **highlighted**: `string`[]
 
 keywords highlighted in autocomplete
 contains a list of google autocomplete suggestions that are highlighted in the search bar;
@@ -27,42 +27,42 @@ gws-wiz
 psy-ab
 gws-wiz-local
 
-#### Source
+#### Defined in
 
-main.ts:53360
+main.ts:53892
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:53331
+main.ts:53863
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:53328
+main.ts:53860
 
 ***
 
 ### relevance?
 
-> **`optional`** **relevance**: `number`
+> `optional` **relevance**: `number`
 
 relevance of suggested keyword
 represents the relevant of the autocomplete suggestion to the target keyword
@@ -71,54 +71,54 @@ the higher the value, the more relevant is the suggestion
 Note: only available for the following client:
 chrome/chrome-omni
 
-#### Source
+#### Defined in
 
-main.ts:53338
+main.ts:53870
 
 ***
 
 ### search\_query\_url?
 
-> **`optional`** **search\_query\_url**: `string`
+> `optional` **search\_query\_url**: `string`
 
 url to search results
 url to search results relevant to the google autocomplete suggestion
 
-#### Source
+#### Defined in
 
-main.ts:53347
+main.ts:53879
 
 ***
 
 ### suggestion?
 
-> **`optional`** **suggestion**: `string`
+> `optional` **suggestion**: `string`
 
 google autocomplete keyword suggestion
 
-#### Source
+#### Defined in
 
-main.ts:53340
+main.ts:53872
 
 ***
 
 ### suggestion\_type?
 
-> **`optional`** **suggestion\_type**: `string`
+> `optional` **suggestion\_type**: `string`
 
 google autocomplete suggestion type
 Note: only available for the following client:
 chrome/chrome-omni
 
-#### Source
+#### Defined in
 
-main.ts:53344
+main.ts:53876
 
 ***
 
 ### thumbnail\_url?
 
-> **`optional`** **thumbnail\_url**: `string`
+> `optional` **thumbnail\_url**: `string`
 
 url of the thumbnail image
 url of the thumbnail image of the google autocomplete suggestion
@@ -126,6 +126,6 @@ Note: only available for the following client:
 gws-wiz
 gws-wiz-serp
 
-#### Source
+#### Defined in
 
-main.ts:53353
+main.ts:53885

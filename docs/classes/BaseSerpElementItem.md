@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -65,6 +65,7 @@
 - [`DiscussionsAndForumsSerpElementItem`](DiscussionsAndForumsSerpElementItem.md)
 - [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
 - [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
+- [`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
 - [`MapsSearchSerpElementItem`](MapsSearchSerpElementItem.md)
 - [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
 - [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
@@ -88,7 +89,7 @@
 
 ## Constructors
 
-### new BaseSerpElementItem(data)
+### new BaseSerpElementItem()
 
 > **new BaseSerpElementItem**(`data`?): [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
@@ -100,19 +101,19 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:20179
+main.ts:20356
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ## Methods
 
@@ -128,9 +129,9 @@ main.ts:20177
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:20189
+main.ts:20366
 
 ***
 
@@ -146,15 +147,15 @@ main.ts:20189
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:20550
+main.ts:20732
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseSerpElementItem`](BaseSerpElementItem.md)
+> `static` **fromJS**(`data`): [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
 #### Parameters
 
@@ -164,6 +165,6 @@ main.ts:20550
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:20198
+main.ts:20375

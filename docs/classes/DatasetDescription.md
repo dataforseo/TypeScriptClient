@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DatasetDescription(data)
+### new DatasetDescription()
 
 > **new DatasetDescription**(`data`?): [`DatasetDescription`](DatasetDescription.md)
 
@@ -28,15 +28,15 @@
 
 [`DatasetDescription`](DatasetDescription.md)
 
-#### Source
+#### Defined in
 
-main.ts:55109
+main.ts:55641
 
 ## Properties
 
 ### links?
 
-> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
+> `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
 links featured in the ‘dataset_description’
 
@@ -44,15 +44,15 @@ links featured in the ‘dataset_description’
 
 [`IDatasetDescription`](../interfaces/IDatasetDescription.md).[`links`](../interfaces/IDatasetDescription.md#links)
 
-#### Source
+#### Defined in
 
-main.ts:55105
+main.ts:55637
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 text of the description
 
@@ -60,9 +60,9 @@ text of the description
 
 [`IDatasetDescription`](../interfaces/IDatasetDescription.md).[`text`](../interfaces/IDatasetDescription.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:55103
+main.ts:55635
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:55103
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:55118
+main.ts:55650
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:55118
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:55140
+main.ts:55672
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DatasetDescription`](DatasetDescription.md)
+> `static` **fromJS**(`data`): [`DatasetDescription`](DatasetDescription.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:55140
 
 [`DatasetDescription`](DatasetDescription.md)
 
-#### Source
+#### Defined in
 
-main.ts:55133
+main.ts:55665

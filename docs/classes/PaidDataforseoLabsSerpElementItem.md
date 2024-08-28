@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new PaidDataforseoLabsSerpElementItem(data)
+### new PaidDataforseoLabsSerpElementItem()
 
 > **new PaidDataforseoLabsSerpElementItem**(`data`?): [`PaidDataforseoLabsSerpElementItem`](PaidDataforseoLabsSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`constructor`](BaseDataforseoLabsSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:92638
+main.ts:100175
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`_discriminator`](BaseDataforseoLabsSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20570
+main.ts:20752
 
 ***
 
 ### backlinks\_info?
 
-> **`optional`** **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
+> `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
 backlinks information for the target website
 
@@ -66,50 +66,50 @@ backlinks information for the target website
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`backlinks_info`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#backlinks_info)
 
-#### Source
+#### Defined in
 
-main.ts:92632
+main.ts:100169
 
 ***
 
 ### breadcrumb?
 
-> **`optional`** **breadcrumb**: `string`
+> `optional` **breadcrumb**: `string`
 
-breadcrumb in SERP
+breadcrumb of the Ad element in SERP
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`breadcrumb`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#breadcrumb)
 
-#### Source
+#### Defined in
 
-main.ts:92591
+main.ts:100126
 
 ***
 
 ### clickstream\_etv?
 
-> **`optional`** **clickstream\_etv**: `number`
+> `optional` **clickstream\_etv**: `number`
 
 estimated traffic volume based on clickstream data
 calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
 to retrieve results for this field, the parameter include_clickstream_data must be set to true
-learn more about how the metric is calculated in this help center article
+learn more about how the metric is calculated in this help center article https://dataforseo.com/help-center/whats-clickstream-estimated-traffic-volume-and-how-is-it-calculated
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`clickstream_etv`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#clickstream_etv)
 
-#### Source
+#### Defined in
 
-main.ts:92627
+main.ts:100165
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
@@ -117,15 +117,15 @@ description of the results element in SERP
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`description`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:92589
+main.ts:100124
 
 ***
 
 ### description\_rows?
 
-> **`optional`** **description\_rows**: `string`[]
+> `optional` **description\_rows**: `string`[]
 
 extended description
 if there is none, equals null
@@ -134,72 +134,73 @@ if there is none, equals null
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`description_rows`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#description_rows)
 
-#### Source
+#### Defined in
 
-main.ts:92600
+main.ts:100135
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
-subdomain in SERP
+domain where a link points
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`domain`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:92587
+main.ts:100122
 
 ***
 
 ### estimated\_paid\_traffic\_cost?
 
-> **`optional`** **estimated\_paid\_traffic\_cost**: `number`
+> `optional` **estimated\_paid\_traffic\_cost**: `number`
 
-estimated cost of monthly search traffic
-represents the estimated cost of paid monthly traffic (USD) based on etv and cpc values of all keywords in the category that the domain ranks for
+estimated cost of converting organic search traffic into paid
+represents the estimated monthly cost of running ads for the returned keyword
+the metric is calculated as the product of organic etv and paid cpc values and indicates the cost of driving the estimated volume of monthly organic traffic through PPC advertising in Google Search
 learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`estimated_paid_traffic_cost`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#estimated_paid_traffic_cost)
 
-#### Source
+#### Defined in
 
-main.ts:92622
+main.ts:100156
 
 ***
 
 ### etv?
 
-> **`optional`** **etv**: `number`
+> `optional` **etv**: `number`
 
 estimated traffic volume
-estimated paid monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and search volume values of all keywords in the category that the domain ranks for
+estimated organic monthly traffic to the domain
+calculated as the product of CTR (click-through-rate) and search volume values of the returned keyword
 learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`etv`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#etv)
 
-#### Source
+#### Defined in
 
-main.ts:92613
+main.ts:100146
 
 ***
 
 ### extra?
 
-> **`optional`** **extra**: `Object`
+> `optional` **extra**: `object`
 
 additional information about the result
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -207,15 +208,15 @@ additional information about the result
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`extra`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#extra)
 
-#### Source
+#### Defined in
 
-main.ts:92597
+main.ts:100132
 
 ***
 
 ### highlighted?
 
-> **`optional`** **highlighted**: `string`[]
+> `optional` **highlighted**: `string`[]
 
 words highlighted in bold within the results description
 
@@ -223,52 +224,50 @@ words highlighted in bold within the results description
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`highlighted`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#highlighted)
 
-#### Source
+#### Defined in
 
-main.ts:92595
+main.ts:100130
 
 ***
 
 ### impressions\_etv?
 
-> **`optional`** **impressions\_etv**: `number`
+> `optional` **impressions\_etv**: `number`
 
 estimated traffic volume based on impressions
-estimated paid monthly traffic to the domain
-calculated as the product of CTR (click-through-rate) and impressions values of all keywords in the category that the domain ranks for
+estimated organic monthly traffic to the domain
+calculated as the product of CTR (click-through-rate) and impressions values of the returned keyword
 learn more about how the metric is calculated in this help center article
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`impressions_etv`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#impressions_etv)
 
-#### Source
+#### Defined in
 
-main.ts:92618
+main.ts:100151
 
 ***
 
 ### links?
 
-> **`optional`** **links**: [`AdLinkElement`](AdLinkElement.md)[]
+> `optional` **links**: [`AdLinkElement`](AdLinkElement.md)[]
 
-sitelinks
-the links shown below some of Google’s search results
-if there are none, equals null
+link of the element
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`links`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#links)
 
-#### Source
+#### Defined in
 
-main.ts:92604
+main.ts:100137
 
 ***
 
 ### main\_domain?
 
-> **`optional`** **main\_domain**: `string`
+> `optional` **main\_domain**: `string`
 
 primary domain name in SERP
 
@@ -276,15 +275,15 @@ primary domain name in SERP
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`main_domain`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#main_domain)
 
-#### Source
+#### Defined in
 
-main.ts:92606
+main.ts:100139
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -294,15 +293,15 @@ left, right
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:92581
+main.ts:100116
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -311,32 +310,33 @@ absolute position among all the elements in SERP
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:92577
+main.ts:100112
 
 ***
 
 ### rank\_changes?
 
-> **`optional`** **rank\_changes**: [`RankChanges`](RankChanges.md)
+> `optional` **rank\_changes**: [`RankChanges`](RankChanges.md)
 
 changes in rankings
-contains information about the ranking changes of the SERP element since the previous_updated_time
+ranking changes of the SERP element compared to the preceding month;
+Note: the changes are calculated even if the preceding month is not included in a POST request
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`rank_changes`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#rank_changes)
 
-#### Source
+#### Defined in
 
-main.ts:92630
+main.ts:100160
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -345,15 +345,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:92574
+main.ts:100109
 
 ***
 
 ### rank\_info?
 
-> **`optional`** **rank\_info**: [`RankInfo`](RankInfo.md)
+> `optional` **rank\_info**: [`RankInfo`](RankInfo.md)
 
 page and domain rank information
 
@@ -361,15 +361,15 @@ page and domain rank information
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`rank_info`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#rank_info)
 
-#### Source
+#### Defined in
 
-main.ts:92634
+main.ts:100171
 
 ***
 
 ### relative\_url?
 
-> **`optional`** **relative\_url**: `string`
+> `optional` **relative\_url**: `string`
 
 URL in SERP that does not specify the HTTPs protocol and domain name
 
@@ -377,15 +377,15 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`relative_url`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#relative_url)
 
-#### Source
+#### Defined in
 
-main.ts:92608
+main.ts:100141
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -393,47 +393,47 @@ search engine type
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:92571
+main.ts:100167
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
-title of the result in SERP
+title of the item
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`title`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:92585
+main.ts:100120
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
-relevant URL in SERP
+URL link
 
 #### Implementation of
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`url`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:92593
+main.ts:100128
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -441,9 +441,9 @@ the XPath of the element
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:92583
+main.ts:100118
 
 ## Methods
 
@@ -463,9 +463,9 @@ main.ts:92583
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`init`](BaseDataforseoLabsSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:92643
+main.ts:100180
 
 ***
 
@@ -485,15 +485,15 @@ main.ts:92643
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`toJSON`](BaseDataforseoLabsSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:92701
+main.ts:100238
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PaidDataforseoLabsSerpElementItem`](PaidDataforseoLabsSerpElementItem.md)
+> `static` **fromJS**(`data`): [`PaidDataforseoLabsSerpElementItem`](PaidDataforseoLabsSerpElementItem.md)
 
 #### Parameters
 
@@ -507,6 +507,6 @@ main.ts:92701
 
 [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`fromJS`](BaseDataforseoLabsSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:92694
+main.ts:100231

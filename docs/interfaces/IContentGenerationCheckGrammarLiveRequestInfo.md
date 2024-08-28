@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 code of the text language
 required field if you do not specify language_name
 see the List of Languages for Content Generation Check Grammar API
 
-#### Source
+#### Defined in
 
-main.ts:173357
+main.ts:175189
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 name of the text language
 required field if you do not specify language_code
 see the List of Languages for Content Generation Check Grammar API
 
-#### Source
+#### Defined in
 
-main.ts:173361
+main.ts:175193
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -50,21 +50,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:173367
+main.ts:175199
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 target text
 required field
 can contain from 1 to 10000 tokens
 learn more about tokens on our help center
 
-#### Source
+#### Defined in
 
-main.ts:173353
+main.ts:175185

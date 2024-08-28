@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### backlinks?
 
-> **`optional`** **backlinks**: `number`
+> `optional` **backlinks**: `number`
 
 number of backlinks pointing to the target
 
-#### Source
+#### Defined in
 
-main.ts:150767
+main.ts:152593
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
-#### Source
+#### Defined in
 
-main.ts:150765
+main.ts:152591

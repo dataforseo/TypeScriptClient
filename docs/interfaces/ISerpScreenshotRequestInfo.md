@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### browser\_preset?
 
-> **`optional`** **browser\_preset**: `string`
+> `optional` **browser\_preset**: `string`
 
 browser resolution preset
 optional field
@@ -22,63 +22,63 @@ browser preset associated with a certain device type
 can take the following values: desktop, tablet, mobile
 note: by default, browser preset corresponds to the device type specified in the POST request
 
-#### Source
+#### Defined in
 
-main.ts:24620
+main.ts:24802
 
 ***
 
 ### browser\_screen\_height?
 
-> **`optional`** **browser\_screen\_height**: `number`
+> `optional` **browser\_screen\_height**: `number`
 
 height of the browser resolution
 optional field
 can be specified in the following range: 240-9999
 
-#### Source
+#### Defined in
 
-main.ts:24628
+main.ts:24810
 
 ***
 
 ### browser\_screen\_scale\_factor?
 
-> **`optional`** **browser\_screen\_scale\_factor**: `number`
+> `optional` **browser\_screen\_scale\_factor**: `number`
 
 browser scale factor
 optional field
 can be specified in the following range: 0.5-3
 
-#### Source
+#### Defined in
 
-main.ts:24632
+main.ts:24814
 
 ***
 
 ### browser\_screen\_width?
 
-> **`optional`** **browser\_screen\_width**: `number`
+> `optional` **browser\_screen\_width**: `number`
 
 width of the browser resolution
 optional field
 can be specified in the following range: 240-9999
 
-#### Source
+#### Defined in
 
-main.ts:24624
+main.ts:24806
 
 ***
 
 ### task\_id?
 
-> **`optional`** **task\_id**: `string`
+> `optional` **task\_id**: `string`
 
 task identifier
 required field
 unique identifier of the associated task in the UUID format
 you will be able to use it within 7 days to request the results of the task at any time
 
-#### Source
+#### Defined in
 
-main.ts:24614
+main.ts:24796

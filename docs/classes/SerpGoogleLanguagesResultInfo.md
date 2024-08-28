@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleLanguagesResultInfo(data)
+### new SerpGoogleLanguagesResultInfo()
 
 > **new SerpGoogleLanguagesResultInfo**(`data`?): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:25603
+main.ts:25785
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpGoogleLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:25599
+main.ts:25781
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`ISerpGoogleLanguagesResultInfo`](../interfaces/ISerpGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpGoogleLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:25597
+main.ts:25779
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:25597
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:25612
+main.ts:25794
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:25612
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:25630
+main.ts:25812
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:25630
 
 [`SerpGoogleLanguagesResultInfo`](SerpGoogleLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:25623
+main.ts:25805

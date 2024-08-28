@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new NewsSearchSerpElementItem(data)
+### new NewsSearchSerpElementItem()
 
 > **new NewsSearchSerpElementItem**(`data`?): [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:45200
+main.ts:45732
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain name of the result in SERP
 
@@ -66,15 +66,15 @@ domain name of the result in SERP
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`domain`](../interfaces/INewsSearchSerpElementItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:45176
+main.ts:45708
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -83,15 +83,15 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`image_url`](../interfaces/INewsSearchSerpElementItem.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:45183
+main.ts:45715
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -100,15 +100,15 @@ absolute position among all the elements in SERP
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`rank_absolute`](../interfaces/INewsSearchSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:45172
+main.ts:45704
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -118,15 +118,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`rank_group`](../interfaces/INewsSearchSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:45169
+main.ts:45701
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -136,15 +136,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`rectangle`](../interfaces/INewsSearchSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:45196
+main.ts:45728
 
 ***
 
 ### snippet?
 
-> **`optional`** **snippet**: `string`
+> `optional` **snippet**: `string`
 
 snippet of the result in SERP
 
@@ -152,15 +152,15 @@ snippet of the result in SERP
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`snippet`](../interfaces/INewsSearchSerpElementItem.md#snippet)
 
-#### Source
+#### Defined in
 
-main.ts:45185
+main.ts:45717
 
 ***
 
 ### time\_published?
 
-> **`optional`** **time\_published**: `string`
+> `optional` **time\_published**: `string`
 
 indicates the time the result was published
 
@@ -168,15 +168,15 @@ indicates the time the result was published
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`time_published`](../interfaces/INewsSearchSerpElementItem.md#time_published)
 
-#### Source
+#### Defined in
 
-main.ts:45187
+main.ts:45719
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the news was published
 in the format “year-month-date:minutes:UTC_difference_hours:UTC_difference_minutes”
@@ -187,15 +187,15 @@ example:
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`timestamp`](../interfaces/INewsSearchSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:45192
+main.ts:45724
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the result in SERP
 
@@ -203,15 +203,15 @@ title of the result in SERP
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`title`](../interfaces/INewsSearchSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:45178
+main.ts:45710
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the result in SERP
 
@@ -219,15 +219,15 @@ URL of the result in SERP
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`url`](../interfaces/INewsSearchSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:45180
+main.ts:45712
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -235,9 +235,9 @@ the XPath of the element
 
 [`INewsSearchSerpElementItem`](../interfaces/INewsSearchSerpElementItem.md).[`xpath`](../interfaces/INewsSearchSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:45174
+main.ts:45706
 
 ## Methods
 
@@ -257,9 +257,9 @@ main.ts:45174
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:45205
+main.ts:45737
 
 ***
 
@@ -279,15 +279,15 @@ main.ts:45205
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:45233
+main.ts:45765
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
+> `static` **fromJS**(`data`): [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
 
 #### Parameters
 
@@ -301,6 +301,6 @@ main.ts:45233
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:45226
+main.ts:45758

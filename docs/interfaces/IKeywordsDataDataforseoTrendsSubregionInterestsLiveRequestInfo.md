@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -25,15 +25,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:129294
+main.ts:129118
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -42,15 +42,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:129301
+main.ts:129125
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -58,15 +58,15 @@ the maximum number of keywords you can specify: 5
 avoid symbols and special characters (e.g., UTF symbols, emojis);
 specifying non-Latin characters, you’ll get data for the countries where they are used
 
-#### Source
+#### Defined in
 
-main.ts:129265
+main.ts:129089
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 optional field
@@ -77,15 +77,15 @@ note that the data will be provided for the country the specified location_code 
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:129283
+main.ts:129107
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -96,15 +96,15 @@ note that the data will be provided for the country the specified location_name 
 example:
 United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:129274
+main.ts:129098
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -112,15 +112,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:129313
+main.ts:129137
 
 ***
 
 ### time\_range?
 
-> **`optional`** **time\_range**: `string`
+> `optional` **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -128,18 +128,18 @@ if you specify date_from or date_to parameters, this field will be ignored when 
 possible values for all type parameters:
 past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months, past_5_years
 
-#### Source
+#### Defined in
 
-main.ts:129307
+main.ts:129131
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:129285
+main.ts:129109

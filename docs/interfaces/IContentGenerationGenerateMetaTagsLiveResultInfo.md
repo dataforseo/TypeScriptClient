@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 generated description
 
-#### Source
+#### Defined in
 
-main.ts:172631
+main.ts:174463
 
 ***
 
 ### input\_tokens?
 
-> **`optional`** **input\_tokens**: `number`
+> `optional` **input\_tokens**: `number`
 
 number of input tokens
 
-#### Source
+#### Defined in
 
-main.ts:172623
+main.ts:174455
 
 ***
 
 ### new\_tokens?
 
-> **`optional`** **new\_tokens**: `number`
+> `optional` **new\_tokens**: `number`
 
 number of new tokens
 
-#### Source
+#### Defined in
 
-main.ts:172627
+main.ts:174459
 
 ***
 
 ### output\_tokens?
 
-> **`optional`** **output\_tokens**: `number`
+> `optional` **output\_tokens**: `number`
 
 number of output tokens
 
-#### Source
+#### Defined in
 
-main.ts:172625
+main.ts:174457
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 generated title
 
-#### Source
+#### Defined in
 
-main.ts:172629
+main.ts:174461

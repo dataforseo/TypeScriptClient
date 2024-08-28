@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleLocalFinderLiveAdvancedRequestInfo(data)
+### new SerpGoogleLocalFinderLiveAdvancedRequestInfo()
 
 > **new SerpGoogleLocalFinderLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:43735
+main.ts:44267
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -53,15 +53,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`depth`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:43711
+main.ts:44243
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -72,15 +72,15 @@ default value: desktop
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:43693
+main.ts:44225
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -93,15 +93,15 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:43642
+main.ts:44174
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -113,15 +113,15 @@ example:en
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:43688
+main.ts:44220
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -134,15 +134,15 @@ English
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:43682
+main.ts:44214
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -155,15 +155,15 @@ example:
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:43664
+main.ts:44196
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -180,15 +180,15 @@ example:
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:43675
+main.ts:44207
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -201,15 +201,15 @@ London,England,United Kingdom
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:43657
+main.ts:44189
 
 ***
 
 ### min\_rating?
 
-> **`optional`** **min\_rating**: `number`
+> `optional` **min\_rating**: `number`
 
 filter results by minimum rating
 optional field
@@ -220,15 +220,15 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`min_rating`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#min_rating)
 
-#### Source
+#### Defined in
 
-main.ts:43716
+main.ts:44248
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
@@ -241,15 +241,15 @@ default value: android
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#os)
 
-#### Source
+#### Defined in
 
-main.ts:43700
+main.ts:44232
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -263,15 +263,15 @@ The cost can be calculated on the Pricing page.
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`priority`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:43650
+main.ts:44182
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -283,15 +283,15 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:43731
+main.ts:44263
 
 ***
 
 ### time\_filter?
 
-> **`optional`** **time\_filter**: `string`
+> `optional` **time\_filter**: `string`
 
 filter results by open hours
 optional field
@@ -306,9 +306,9 @@ example: "tuesday;18"
 
 [`ISerpGoogleLocalFinderLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md).[`time_filter`](../interfaces/ISerpGoogleLocalFinderLiveAdvancedRequestInfo.md#time_filter)
 
-#### Source
+#### Defined in
 
-main.ts:43725
+main.ts:44257
 
 ## Methods
 
@@ -324,9 +324,9 @@ main.ts:43725
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:43744
+main.ts:44276
 
 ***
 
@@ -342,15 +342,15 @@ main.ts:43744
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:43773
+main.ts:44305
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
@@ -360,6 +360,6 @@ main.ts:43773
 
 [`SerpGoogleLocalFinderLiveAdvancedRequestInfo`](SerpGoogleLocalFinderLiveAdvancedRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:43766
+main.ts:44298

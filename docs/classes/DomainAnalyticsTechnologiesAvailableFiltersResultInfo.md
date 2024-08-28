@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesAvailableFiltersResultInfo(data)
+### new DomainAnalyticsTechnologiesAvailableFiltersResultInfo()
 
 > **new DomainAnalyticsTechnologiesAvailableFiltersResultInfo**(`data`?): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
@@ -28,17 +28,17 @@
 
 [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76031
+main.ts:76627
 
 ## Properties
 
 ### aggregation\_technologies?
 
-> **`optional`** **aggregation\_technologies**: `Object`
+> `optional` **aggregation\_technologies**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -46,17 +46,17 @@ main.ts:76031
 
 [`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[`aggregation_technologies`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#aggregation_technologies)
 
-#### Source
+#### Defined in
 
-main.ts:76025
+main.ts:76621
 
 ***
 
 ### domains\_by\_html\_terms?
 
-> **`optional`** **domains\_by\_html\_terms**: `Object`
+> `optional` **domains\_by\_html\_terms**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -64,17 +64,17 @@ main.ts:76025
 
 [`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[`domains_by_html_terms`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#domains_by_html_terms)
 
-#### Source
+#### Defined in
 
-main.ts:76027
+main.ts:76623
 
 ***
 
 ### domains\_by\_technology?
 
-> **`optional`** **domains\_by\_technology**: `Object`
+> `optional` **domains\_by\_technology**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -82,17 +82,17 @@ main.ts:76027
 
 [`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[`domains_by_technology`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#domains_by_technology)
 
-#### Source
+#### Defined in
 
-main.ts:76024
+main.ts:76620
 
 ***
 
 ### technologies\_summary?
 
-> **`optional`** **technologies\_summary**: `Object`
+> `optional` **technologies\_summary**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -100,9 +100,9 @@ main.ts:76024
 
 [`IDomainAnalyticsTechnologiesAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md).[`technologies_summary`](../interfaces/IDomainAnalyticsTechnologiesAvailableFiltersResultInfo.md#technologies_summary)
 
-#### Source
+#### Defined in
 
-main.ts:76026
+main.ts:76622
 
 ## Methods
 
@@ -118,9 +118,9 @@ main.ts:76026
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:76040
+main.ts:76636
 
 ***
 
@@ -136,15 +136,15 @@ main.ts:76040
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:76084
+main.ts:76680
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
 #### Parameters
 
@@ -154,6 +154,6 @@ main.ts:76084
 
 [`DomainAnalyticsTechnologiesAvailableFiltersResultInfo`](DomainAnalyticsTechnologiesAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76077
+main.ts:76673

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageInstantPagesResultInfo(data)
+### new OnPageInstantPagesResultInfo()
 
 > **new OnPageInstantPagesResultInfo**(`data`?): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:165224
+main.ts:167056
 
 ## Properties
 
 ### crawl\_gateway\_address?
 
-> **`optional`** **crawl\_gateway\_address**: `string`
+> `optional` **crawl\_gateway\_address**: `string`
 
 crawler ip address
 displays the IP address used by the crawler to initiate the current crawling session
@@ -46,15 +46,15 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 [`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`crawl_gateway_address`](../interfaces/IOnPageInstantPagesResultInfo.md#crawl_gateway_address)
 
-#### Source
+#### Defined in
 
-main.ts:165216
+main.ts:167048
 
 ***
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
@@ -63,15 +63,15 @@ possible values: in_progress, finished
 
 [`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`crawl_progress`](../interfaces/IOnPageInstantPagesResultInfo.md#crawl_progress)
 
-#### Source
+#### Defined in
 
-main.ts:165209
+main.ts:167041
 
 ***
 
 ### crawl\_status?
 
-> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 in this case the value will be null
@@ -80,15 +80,15 @@ in this case the value will be null
 
 [`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`crawl_status`](../interfaces/IOnPageInstantPagesResultInfo.md#crawl_status)
 
-#### Source
+#### Defined in
 
-main.ts:165212
+main.ts:167044
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
+> `optional` **items**: [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)[]
 
 items array
 
@@ -96,15 +96,15 @@ items array
 
 [`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`items`](../interfaces/IOnPageInstantPagesResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:165220
+main.ts:167052
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -112,9 +112,9 @@ number of items in the results array
 
 [`IOnPageInstantPagesResultInfo`](../interfaces/IOnPageInstantPagesResultInfo.md).[`items_count`](../interfaces/IOnPageInstantPagesResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:165218
+main.ts:167050
 
 ## Methods
 
@@ -130,9 +130,9 @@ main.ts:165218
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:165233
+main.ts:167065
 
 ***
 
@@ -148,15 +148,15 @@ main.ts:165233
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:165258
+main.ts:167090
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
 #### Parameters
 
@@ -166,6 +166,6 @@ main.ts:165258
 
 [`OnPageInstantPagesResultInfo`](OnPageInstantPagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:165251
+main.ts:167083

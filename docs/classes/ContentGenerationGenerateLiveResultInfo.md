@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationGenerateLiveResultInfo(data)
+### new ContentGenerationGenerateLiveResultInfo()
 
 > **new ContentGenerationGenerateLiveResultInfo**(`data`?): [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:171936
+main.ts:173768
 
 ## Properties
 
 ### generated\_text?
 
-> **`optional`** **generated\_text**: `string`
+> `optional` **generated\_text**: `string`
 
 resulting text
 
@@ -44,15 +44,15 @@ resulting text
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`generated_text`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#generated_text)
 
-#### Source
+#### Defined in
 
-main.ts:171928
+main.ts:173760
 
 ***
 
 ### input\_tokens?
 
-> **`optional`** **input\_tokens**: `number`
+> `optional` **input\_tokens**: `number`
 
 number of input tokens
 
@@ -60,15 +60,15 @@ number of input tokens
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`input_tokens`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#input_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:171922
+main.ts:173754
 
 ***
 
 ### new\_tokens?
 
-> **`optional`** **new\_tokens**: `number`
+> `optional` **new\_tokens**: `number`
 
 number of new tokens
 
@@ -76,15 +76,15 @@ number of new tokens
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`new_tokens`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#new_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:171926
+main.ts:173758
 
 ***
 
 ### output\_tokens?
 
-> **`optional`** **output\_tokens**: `number`
+> `optional` **output\_tokens**: `number`
 
 number of output tokens
 
@@ -92,15 +92,15 @@ number of output tokens
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`output_tokens`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#output_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:171924
+main.ts:173756
 
 ***
 
 ### supplement\_token?
 
-> **`optional`** **supplement\_token**: `string`
+> `optional` **supplement\_token**: `string`
 
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
@@ -110,9 +110,9 @@ supplement_token values are unique for each subsequent task
 
 [`IContentGenerationGenerateLiveResultInfo`](../interfaces/IContentGenerationGenerateLiveResultInfo.md).[`supplement_token`](../interfaces/IContentGenerationGenerateLiveResultInfo.md#supplement_token)
 
-#### Source
+#### Defined in
 
-main.ts:171932
+main.ts:173764
 
 ## Methods
 
@@ -128,9 +128,9 @@ main.ts:171932
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:171945
+main.ts:173777
 
 ***
 
@@ -146,15 +146,15 @@ main.ts:171945
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:171966
+main.ts:173798
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
 
 #### Parameters
 
@@ -164,6 +164,6 @@ main.ts:171966
 
 [`ContentGenerationGenerateLiveResultInfo`](ContentGenerationGenerateLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:171959
+main.ts:173791

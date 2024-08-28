@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixFunctionTypeInfo(data)
+### new AppendixFunctionTypeInfo()
 
 > **new AppendixFunctionTypeInfo**(`data`?): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
@@ -28,51 +28,51 @@
 
 [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218343
+main.ts:220195
 
 ## Properties
 
 ### advanced?
 
-> **`optional`** **advanced**: `number`
+> `optional` **advanced**: `number`
 
 #### Implementation of
 
 [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md).[`advanced`](../interfaces/IAppendixFunctionTypeInfo.md#advanced)
 
-#### Source
+#### Defined in
 
-main.ts:218338
+main.ts:220190
 
 ***
 
 ### html?
 
-> **`optional`** **html**: `number`
+> `optional` **html**: `number`
 
 #### Implementation of
 
 [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md).[`html`](../interfaces/IAppendixFunctionTypeInfo.md#html)
 
-#### Source
+#### Defined in
 
-main.ts:218339
+main.ts:220191
 
 ***
 
 ### regular?
 
-> **`optional`** **regular**: `number`
+> `optional` **regular**: `number`
 
 #### Implementation of
 
 [`IAppendixFunctionTypeInfo`](../interfaces/IAppendixFunctionTypeInfo.md).[`regular`](../interfaces/IAppendixFunctionTypeInfo.md#regular)
 
-#### Source
+#### Defined in
 
-main.ts:218337
+main.ts:220189
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:218337
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:218352
+main.ts:220204
 
 ***
 
@@ -106,15 +106,15 @@ main.ts:218352
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:218371
+main.ts:220223
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
+> `static` **fromJS**(`data`): [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
 #### Parameters
 
@@ -124,6 +124,6 @@ main.ts:218371
 
 [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218364
+main.ts:220216

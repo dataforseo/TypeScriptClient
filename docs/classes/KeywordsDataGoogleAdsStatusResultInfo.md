@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataGoogleAdsStatusResultInfo(data)
+### new KeywordsDataGoogleAdsStatusResultInfo()
 
 > **new KeywordsDataGoogleAdsStatusResultInfo**(`data`?): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:119019
+main.ts:119651
 
 ## Properties
 
 ### actual\_data?
 
-> **`optional`** **actual\_data**: `boolean`
+> `optional` **actual\_data**: `boolean`
 
 indicates whether Google updated keyword data for the previous month
 generally, Google updates keyword data in the middle of the month
@@ -47,15 +47,15 @@ if the value is false, we are not able to provide data for the previous month
 
 [`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[`actual_data`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#actual_data)
 
-#### Source
+#### Defined in
 
-main.ts:119006
+main.ts:119638
 
 ***
 
 ### date\_update?
 
-> **`optional`** **date\_update**: `string`
+> `optional` **date\_update**: `string`
 
 date of the latest update of Google Ads data
 indicates the latest date when Google updated search volume, CPC, and other keyword metrics
@@ -66,15 +66,15 @@ example:
 
 [`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[`date_update`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#date_update)
 
-#### Source
+#### Defined in
 
-main.ts:119011
+main.ts:119643
 
 ***
 
 ### last\_month\_in\_monthly\_searches?
 
-> **`optional`** **last\_month\_in\_monthly\_searches**: `number`
+> `optional` **last\_month\_in\_monthly\_searches**: `number`
 
 the latest month for which search volume data is available
 
@@ -82,15 +82,15 @@ the latest month for which search volume data is available
 
 [`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[`last_month_in_monthly_searches`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#last_month_in_monthly_searches)
 
-#### Source
+#### Defined in
 
-main.ts:119015
+main.ts:119647
 
 ***
 
 ### last\_year\_in\_monthly\_searches?
 
-> **`optional`** **last\_year\_in\_monthly\_searches**: `number`
+> `optional` **last\_year\_in\_monthly\_searches**: `number`
 
 the latest year for which search volume data is available
 
@@ -98,9 +98,9 @@ the latest year for which search volume data is available
 
 [`IKeywordsDataGoogleAdsStatusResultInfo`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md).[`last_year_in_monthly_searches`](../interfaces/IKeywordsDataGoogleAdsStatusResultInfo.md#last_year_in_monthly_searches)
 
-#### Source
+#### Defined in
 
-main.ts:119013
+main.ts:119645
 
 ## Methods
 
@@ -116,9 +116,9 @@ main.ts:119013
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:119028
+main.ts:119660
 
 ***
 
@@ -134,15 +134,15 @@ main.ts:119028
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:119048
+main.ts:119680
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
 #### Parameters
 
@@ -152,6 +152,6 @@ main.ts:119048
 
 [`KeywordsDataGoogleAdsStatusResultInfo`](KeywordsDataGoogleAdsStatusResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:119041
+main.ts:119673

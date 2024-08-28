@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,28 +14,28 @@
 
 ### advanced?
 
-> **`optional`** **advanced**: `number`
+> `optional` **advanced**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218386
+main.ts:220238
 
 ***
 
 ### html?
 
-> **`optional`** **html**: `number`
+> `optional` **html**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218387
+main.ts:220239
 
 ***
 
 ### regular?
 
-> **`optional`** **regular**: `number`
+> `optional` **regular**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218385
+main.ts:220237

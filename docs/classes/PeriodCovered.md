@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PeriodCovered(data)
+### new PeriodCovered()
 
 > **new PeriodCovered**(`data`?): [`PeriodCovered`](PeriodCovered.md)
 
@@ -28,15 +28,15 @@
 
 [`PeriodCovered`](PeriodCovered.md)
 
-#### Source
+#### Defined in
 
-main.ts:55041
+main.ts:55573
 
 ## Properties
 
 ### displayed\_date?
 
-> **`optional`** **displayed\_date**: `string`
+> `optional` **displayed\_date**: `string`
 
 period displayed in SERP
 example:
@@ -46,15 +46,15 @@ Mar 2, 2020 - Dec 9, 2022
 
 [`IPeriodCovered`](../interfaces/IPeriodCovered.md).[`displayed_date`](../interfaces/IPeriodCovered.md#displayed_date)
 
-#### Source
+#### Defined in
 
-main.ts:55037
+main.ts:55569
 
 ***
 
 ### end\_date?
 
-> **`optional`** **end\_date**: `string`
+> `optional` **end\_date**: `string`
 
 date and time when the period ends
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -65,15 +65,15 @@ example:
 
 [`IPeriodCovered`](../interfaces/IPeriodCovered.md).[`end_date`](../interfaces/IPeriodCovered.md#end_date)
 
-#### Source
+#### Defined in
 
-main.ts:55033
+main.ts:55565
 
 ***
 
 ### start\_date?
 
-> **`optional`** **start\_date**: `string`
+> `optional` **start\_date**: `string`
 
 date and time when the period starts
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -84,9 +84,9 @@ example:
 
 [`IPeriodCovered`](../interfaces/IPeriodCovered.md).[`start_date`](../interfaces/IPeriodCovered.md#start_date)
 
-#### Source
+#### Defined in
 
-main.ts:55028
+main.ts:55560
 
 ## Methods
 
@@ -102,9 +102,9 @@ main.ts:55028
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:55050
+main.ts:55582
 
 ***
 
@@ -120,15 +120,15 @@ main.ts:55050
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:55069
+main.ts:55601
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PeriodCovered`](PeriodCovered.md)
+> `static` **fromJS**(`data`): [`PeriodCovered`](PeriodCovered.md)
 
 #### Parameters
 
@@ -138,6 +138,6 @@ main.ts:55069
 
 [`PeriodCovered`](PeriodCovered.md)
 
-#### Source
+#### Defined in
 
-main.ts:55062
+main.ts:55594

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### max?
 
-> **`optional`** **max**: `number`
+> `optional` **max**: `number`
 
 max rating on a distribution scale
 
-#### Source
+#### Defined in
 
-main.ts:170371
+main.ts:172203
 
 ***
 
 ### metrics?
 
-> **`optional`** **metrics**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
+> `optional` **metrics**: [`ContentAnalysisSummaryInfo`](../classes/ContentAnalysisSummaryInfo.md)
 
 contains rating distribution metrics
 
-#### Source
+#### Defined in
 
-main.ts:170373
+main.ts:172205
 
 ***
 
 ### min?
 
-> **`optional`** **min**: `number`
+> `optional` **min**: `number`
 
 min rating on a distribution scale
 
-#### Source
+#### Defined in
 
-main.ts:170369
+main.ts:172201
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:170367
+main.ts:172199

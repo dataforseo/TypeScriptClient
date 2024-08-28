@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,113 +14,113 @@
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Source
+#### Defined in
 
-main.ts:213148
+main.ts:214998
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
 learn more about the identifier in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:213157
+main.ts:215007
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:213153
+main.ts:215003
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 unique identifier of the SERP feature
 
-#### Source
+#### Defined in
 
-main.ts:213159
+main.ts:215009
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 item types
 types of search engine results encountered in the items array;
 possible item types: google_business_question_item
 
-#### Source
+#### Defined in
 
-main.ts:213163
+main.ts:215013
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](../classes/BusinessDataGoogleQuestionsAndAnswersItem.md)[]
+> `optional` **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](../classes/BusinessDataGoogleQuestionsAndAnswersItem.md)[]
 
 array of items within google_business_question_item
 contains answers to the google business questions;
 possible item types google_business_answer_element
 
-#### Source
+#### Defined in
 
-main.ts:213171
+main.ts:215021
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of items in the items array
 
-#### Source
+#### Defined in
 
-main.ts:213167
+main.ts:215017
 
 ***
 
 ### items\_without\_answers?
 
-> **`optional`** **items\_without\_answers**: [`ItemsWithoutAnswers`](../classes/ItemsWithoutAnswers.md)[]
+> `optional` **items\_without\_answers**: [`ItemsWithoutAnswers`](../classes/ItemsWithoutAnswers.md)[]
 
 array of google business question items without answers
 
-#### Source
+#### Defined in
 
-main.ts:213165
+main.ts:215015
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -129,42 +129,42 @@ example:
 cid:2946633002421908862
 learn more about the parameter in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:213139
+main.ts:214989
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:213145
+main.ts:214995
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:213143
+main.ts:214993
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain as specified in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:213141
+main.ts:214991

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,59 +14,59 @@
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Source
+#### Defined in
 
-main.ts:156767
+main.ts:158595
 
 ***
 
 ### crawl\_status?
 
-> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Source
+#### Defined in
 
-main.ts:156769
+main.ts:158597
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
+> `optional` **items**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
 items array
 
-#### Source
+#### Defined in
 
-main.ts:156775
+main.ts:158603
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
-#### Source
+#### Defined in
 
-main.ts:156773
+main.ts:158601
 
 ***
 
 ### total\_items\_count?
 
-> **`optional`** **total\_items\_count**: `number`
+> `optional` **total\_items\_count**: `number`
 
 total number of relevant items in the database
 
-#### Source
+#### Defined in
 
-main.ts:156771
+main.ts:158599

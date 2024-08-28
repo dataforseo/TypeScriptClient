@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -285,6 +285,10 @@
 - [`KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo`](KeywordsDataBingSearchVolumeHistoryTasksReadyResponseInfo.md)
 - [`KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo`](KeywordsDataBingSearchVolumeHistoryTaskGetResponseInfo.md)
 - [`KeywordsDataBingSearchVolumeHistoryLiveResponseInfo`](KeywordsDataBingSearchVolumeHistoryLiveResponseInfo.md)
+- [`KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo`](KeywordsDataClickstreamDataLocationsAndLanguagesResponseInfo.md)
+- [`KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo.md)
+- [`KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataGlobalSearchVolumeLiveResponseInfo.md)
+- [`KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo`](KeywordsDataClickstreamDataBulkSearchVolumeLiveResponseInfo.md)
 - [`BacklinksIdListResponseInfo`](BacklinksIdListResponseInfo.md)
 - [`BacklinksErrorsResponseInfo`](BacklinksErrorsResponseInfo.md)
 - [`BacklinksAvailableFiltersResponseInfo`](BacklinksAvailableFiltersResponseInfo.md)
@@ -511,7 +515,7 @@
 
 ## Constructors
 
-### new BaseResponseInfo(data)
+### new BaseResponseInfo()
 
 > **new BaseResponseInfo**(`data`?): [`BaseResponseInfo`](BaseResponseInfo.md)
 
@@ -523,15 +527,15 @@
 
 [`BaseResponseInfo`](BaseResponseInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23657
+main.ts:23839
 
 ## Properties
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 total tasks cost, USD
 
@@ -539,15 +543,15 @@ total tasks cost, USD
 
 [`IBaseResponseInfo`](../interfaces/IBaseResponseInfo.md).[`cost`](../interfaces/IBaseResponseInfo.md#cost)
 
-#### Source
+#### Defined in
 
-main.ts:23649
+main.ts:23831
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
@@ -556,15 +560,15 @@ you can find the full list of the response codes here
 
 [`IBaseResponseInfo`](../interfaces/IBaseResponseInfo.md).[`status_code`](../interfaces/IBaseResponseInfo.md#status_code)
 
-#### Source
+#### Defined in
 
-main.ts:23642
+main.ts:23824
 
 ***
 
 ### status\_message?
 
-> **`optional`** **status\_message**: `string`
+> `optional` **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
@@ -573,15 +577,15 @@ you can find the full list of general informational messages here
 
 [`IBaseResponseInfo`](../interfaces/IBaseResponseInfo.md).[`status_message`](../interfaces/IBaseResponseInfo.md#status_message)
 
-#### Source
+#### Defined in
 
-main.ts:23645
+main.ts:23827
 
 ***
 
 ### tasks\_count?
 
-> **`optional`** **tasks\_count**: `number`
+> `optional` **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
@@ -589,15 +593,15 @@ the number of tasks in the tasks array
 
 [`IBaseResponseInfo`](../interfaces/IBaseResponseInfo.md).[`tasks_count`](../interfaces/IBaseResponseInfo.md#tasks_count)
 
-#### Source
+#### Defined in
 
-main.ts:23651
+main.ts:23833
 
 ***
 
 ### tasks\_error?
 
-> **`optional`** **tasks\_error**: `number`
+> `optional` **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
@@ -605,15 +609,15 @@ the number of tasks in the tasks array returned with an error
 
 [`IBaseResponseInfo`](../interfaces/IBaseResponseInfo.md).[`tasks_error`](../interfaces/IBaseResponseInfo.md#tasks_error)
 
-#### Source
+#### Defined in
 
-main.ts:23653
+main.ts:23835
 
 ***
 
 ### time?
 
-> **`optional`** **time**: `string`
+> `optional` **time**: `string`
 
 total execution time, seconds
 
@@ -621,15 +625,15 @@ total execution time, seconds
 
 [`IBaseResponseInfo`](../interfaces/IBaseResponseInfo.md).[`time`](../interfaces/IBaseResponseInfo.md#time)
 
-#### Source
+#### Defined in
 
-main.ts:23647
+main.ts:23829
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 the current version of the API
 
@@ -637,9 +641,9 @@ the current version of the API
 
 [`IBaseResponseInfo`](../interfaces/IBaseResponseInfo.md).[`version`](../interfaces/IBaseResponseInfo.md#version)
 
-#### Source
+#### Defined in
 
-main.ts:23639
+main.ts:23821
 
 ## Methods
 
@@ -655,9 +659,9 @@ main.ts:23639
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:23666
+main.ts:23848
 
 ***
 
@@ -673,15 +677,15 @@ main.ts:23666
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:23689
+main.ts:23871
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseResponseInfo`](BaseResponseInfo.md)
+> `static` **fromJS**(`data`): [`BaseResponseInfo`](BaseResponseInfo.md)
 
 #### Parameters
 
@@ -691,6 +695,6 @@ main.ts:23689
 
 [`BaseResponseInfo`](BaseResponseInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23682
+main.ts:23864

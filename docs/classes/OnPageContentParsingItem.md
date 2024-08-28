@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageContentParsingItem(data)
+### new OnPageContentParsingItem()
 
 > **new OnPageContentParsingItem**(`data`?): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:164100
+main.ts:165932
 
 ## Properties
 
 ### fetch\_time?
 
-> **`optional`** **fetch\_time**: `string`
+> `optional` **fetch\_time**: `string`
 
 date and time when the content was fethced
 example:
@@ -46,15 +46,15 @@ example:
 
 [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`fetch_time`](../interfaces/IOnPageContentParsingItem.md#fetch_time)
 
-#### Source
+#### Defined in
 
-main.ts:164092
+main.ts:165924
 
 ***
 
 ### page\_content?
 
-> **`optional`** **page\_content**: [`PageContentInfo`](PageContentInfo.md)
+> `optional` **page\_content**: [`PageContentInfo`](PageContentInfo.md)
 
 parsed content of the page
 
@@ -62,15 +62,15 @@ parsed content of the page
 
 [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`page_content`](../interfaces/IOnPageContentParsingItem.md#page_content)
 
-#### Source
+#### Defined in
 
-main.ts:164096
+main.ts:165928
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 status code of the page
 
@@ -78,15 +78,15 @@ status code of the page
 
 [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`status_code`](../interfaces/IOnPageContentParsingItem.md#status_code)
 
-#### Source
+#### Defined in
 
-main.ts:164094
+main.ts:165926
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -94,9 +94,9 @@ type of element
 
 [`IOnPageContentParsingItem`](../interfaces/IOnPageContentParsingItem.md).[`type`](../interfaces/IOnPageContentParsingItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:164088
+main.ts:165920
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:164088
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:164109
+main.ts:165941
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:164109
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:164129
+main.ts:165961
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
+> `static` **fromJS**(`data`): [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:164129
 
 [`OnPageContentParsingItem`](OnPageContentParsingItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:164122
+main.ts:165954

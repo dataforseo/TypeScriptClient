@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,7 +18,7 @@
 
 ### adults?
 
-> **`optional`** **adults**: `number`
+> `optional` **adults**: `number`
 
 number of adults
 optional field
@@ -27,15 +27,15 @@ note that you can specify up to 6 persons including both adults and children
 example:
 1
 
-#### Source
+#### Defined in
 
-main.ts:206071
+main.ts:207921
 
 ***
 
 ### amenities?
 
-> **`optional`** **amenities**: `string`[]
+> `optional` **amenities**: `string`[]
 
 hotel amenities
 optional field
@@ -66,15 +66,15 @@ possible values:
 "wheelchair_accessible",
 "beach_access"
 
-#### Source
+#### Defined in
 
-main.ts:206154
+main.ts:208004
 
 ***
 
 ### check\_in?
 
-> **`optional`** **check\_in**: `string`
+> `optional` **check\_in**: `string`
 
 check-in date
 optional field
@@ -84,15 +84,15 @@ example:
 "2019-01-15"
 Note: the value cannot precede the today’s date
 
-#### Source
+#### Defined in
 
-main.ts:206050
+main.ts:207900
 
 ***
 
 ### check\_out?
 
-> **`optional`** **check\_out**: `string`
+> `optional` **check\_out**: `string`
 
 check-out date
 optional field
@@ -103,15 +103,15 @@ example:
 Note: the value cannot be less than or equal to check_in;
 the range between check_in and check_out values cannot exceed 30 days
 
-#### Source
+#### Defined in
 
-main.ts:206059
+main.ts:207909
 
 ***
 
 ### children?
 
-> **`optional`** **children**: `string`[]
+> `optional` **children**: `string`[]
 
 number and age of children
 optional field
@@ -123,30 +123,30 @@ set the following value if you want to include one 14-year-old child:
 set the following value if you want to include one 13-year-old child and one 8-year-old child:
 [13,8]
 
-#### Source
+#### Defined in
 
-main.ts:206081
+main.ts:207931
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency
 optional field
 example:
 "USD"
 
-#### Source
+#### Defined in
 
-main.ts:206064
+main.ts:207914
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -157,45 +157,45 @@ Note: your account will be billed per each 20 organic results regardless of paid
 thus, setting a depth above 20 may result in additional charges if Google Hotels return more than 20 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Source
+#### Defined in
 
-main.ts:206042
+main.ts:207892
 
 ***
 
 ### free\_cancellation?
 
-> **`optional`** **free\_cancellation**: `boolean`
+> `optional` **free\_cancellation**: `boolean`
 
 hotels with a free cancellation
 optional field
 set this field to true if you want to get the list of hotels with free cancellation of reservations
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:206120
+main.ts:207970
 
 ***
 
 ### is\_vacation\_rentals?
 
-> **`optional`** **is\_vacation\_rentals**: `boolean`
+> `optional` **is\_vacation\_rentals**: `boolean`
 
 search for vacation rentals
 optional field
 set this field to true if you want to get the list of vacation rentals instead of hotels
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:206125
+main.ts:207975
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -217,15 +217,15 @@ learn more about the cid and place_id identifiers in this help center article
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`keyword`](IBusinessDataTaskRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:195708
+main.ts:197540
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -238,15 +238,15 @@ en
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`language_code`](IBusinessDataTaskRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:195754
+main.ts:197586
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -259,15 +259,15 @@ English
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`language_name`](IBusinessDataTaskRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:195747
+main.ts:197579
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -280,15 +280,15 @@ example:
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_code`](IBusinessDataTaskRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:195730
+main.ts:197562
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -304,15 +304,15 @@ example:
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_coordinate`](IBusinessDataTaskRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:195740
+main.ts:197572
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -325,15 +325,15 @@ London,England,United Kingdom
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`location_name`](IBusinessDataTaskRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:195723
+main.ts:197555
 
 ***
 
 ### max\_price?
 
-> **`optional`** **max\_price**: `number`
+> `optional` **max\_price**: `number`
 
 maximum price per night
 optional field
@@ -341,15 +341,15 @@ the currency of this value depends on the currency field
 example:
 600
 
-#### Source
+#### Defined in
 
-main.ts:206115
+main.ts:207965
 
 ***
 
 ### min\_price?
 
-> **`optional`** **min\_price**: `number`
+> `optional` **min\_price**: `number`
 
 minimum price per night
 optional field
@@ -357,15 +357,15 @@ the currency of this value depends on the currency field
 example:
 100
 
-#### Source
+#### Defined in
 
-main.ts:206109
+main.ts:207959
 
 ***
 
 ### min\_rating?
 
-> **`optional`** **min\_rating**: `number`
+> `optional` **min\_rating**: `number`
 
 minimum rating
 optional field
@@ -373,15 +373,15 @@ you can use this field to specify guest rating higher than a certain value
 example:
 2.5
 
-#### Source
+#### Defined in
 
-main.ts:206093
+main.ts:207943
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -397,15 +397,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`pingback_url`](IBusinessDataTaskRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:195780
+main.ts:197612
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -421,15 +421,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`postback_url`](IBusinessDataTaskRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:195770
+main.ts:197602
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -443,15 +443,15 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`priority`](IBusinessDataTaskRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:195716
+main.ts:197548
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -463,15 +463,15 @@ highest_rating – sort by highest rating
 most_reviewed – sort by most reviewed
 default value: relevance
 
-#### Source
+#### Defined in
 
-main.ts:206103
+main.ts:207953
 
 ***
 
 ### stars?
 
-> **`optional`** **stars**: `string`[]
+> `optional` **stars**: `string`[]
 
 hotel stars
 optional field
@@ -479,15 +479,15 @@ set this field to [5] if you want to get the list of 5-star hotels only
 example:
 [3,4,5]
 
-#### Source
+#### Defined in
 
-main.ts:206087
+main.ts:207937
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -499,6 +499,6 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataTaskRequestInfo`](IBusinessDataTaskRequestInfo.md).[`tag`](IBusinessDataTaskRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:195760
+main.ts:197592

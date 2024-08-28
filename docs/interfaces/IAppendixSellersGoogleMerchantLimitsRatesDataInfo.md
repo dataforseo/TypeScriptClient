@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### ad\_url?
 
-> **`optional`** **ad\_url**: `number`
+> `optional` **ad\_url**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219355
+main.ts:221263
 
 ***
 
 ### task\_get?
 
-> **`optional`** **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
+> `optional` **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219354
+main.ts:221262
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: `number`
+> `optional` **task\_post**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219352
+main.ts:221260
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219353
+main.ts:221261

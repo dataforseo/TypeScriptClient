@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo(data)
+### new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo()
 
 > **new KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo**(`data`?): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:137170
+main.ts:136996
 
 ## Properties
 
 ### available\_locations?
 
-> **`optional`** **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
+> `optional` **available\_locations**: [`AvailableLocations`](AvailableLocations.md)[]
 
 array of available locations for a certain language
 
@@ -44,15 +44,15 @@ array of available locations for a certain language
 
 [`IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md).[`available_locations`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md#available_locations)
 
-#### Source
+#### Defined in
 
-main.ts:137166
+main.ts:136992
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -60,15 +60,15 @@ language code according to ISO 639-1
 
 [`IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:137164
+main.ts:136990
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -76,9 +76,9 @@ language name
 
 [`IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:137162
+main.ts:136988
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:137162
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:137179
+main.ts:137005
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:137179
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:137202
+main.ts:137028
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:137202
 
 [`KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo`](KeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:137195
+main.ts:137021

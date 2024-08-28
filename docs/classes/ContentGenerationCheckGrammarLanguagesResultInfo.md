@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationCheckGrammarLanguagesResultInfo(data)
+### new ContentGenerationCheckGrammarLanguagesResultInfo()
 
 > **new ContentGenerationCheckGrammarLanguagesResultInfo**(`data`?): [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173704
+main.ts:175536
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IContentGenerationCheckGrammarLanguagesResultInfo`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md).[`language_code`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:173700
+main.ts:175532
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IContentGenerationCheckGrammarLanguagesResultInfo`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md).[`language_name`](../interfaces/IContentGenerationCheckGrammarLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:173698
+main.ts:175530
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:173698
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:173713
+main.ts:175545
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:173713
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:173731
+main.ts:175563
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:173731
 
 [`ContentGenerationCheckGrammarLanguagesResultInfo`](ContentGenerationCheckGrammarLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173724
+main.ts:175556

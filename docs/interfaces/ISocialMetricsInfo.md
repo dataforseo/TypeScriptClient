@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### like\_count?
 
-> **`optional`** **like\_count**: `number`
+> `optional` **like\_count**: `number`
 
 likes count
 
-#### Source
+#### Defined in
 
-main.ts:22733
+main.ts:22915
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:22731
+main.ts:22913

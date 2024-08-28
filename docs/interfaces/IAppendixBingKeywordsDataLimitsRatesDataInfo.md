@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,48 +14,38 @@
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **keyword\_performance**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218639
+main.ts:220488
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **keywords\_for\_keywords**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218643
+main.ts:220491
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **keywords\_for\_site**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218642
+main.ts:220490
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218641
-
-***
-
-### search\_volume\_history?
-
-> **`optional`** **search\_volume\_history**: [`AppendixInfo`](../classes/AppendixInfo.md)
-
-#### Source
-
-main.ts:218640
+main.ts:220489

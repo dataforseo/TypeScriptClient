@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,36 +14,36 @@
 
 ### lost\_backlinks?
 
-> **`optional`** **lost\_backlinks**: `number`
+> `optional` **lost\_backlinks**: `number`
 
 number of lost backlinks
 number of lost backlinks of the target
 
-#### Source
+#### Defined in
 
-main.ts:151843
+main.ts:153669
 
 ***
 
 ### new\_backlinks?
 
-> **`optional`** **new\_backlinks**: `number`
+> `optional` **new\_backlinks**: `number`
 
 number of new backlinks
 number of new backlinks pointing to the target
 
-#### Source
+#### Defined in
 
-main.ts:151840
+main.ts:153666
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
-#### Source
+#### Defined in
 
-main.ts:151837
+main.ts:153663

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,24 +14,24 @@
 
 ### rising?
 
-> **`optional`** **rising**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
+> `optional` **rising**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
 
-#### Source
+#### Defined in
 
-main.ts:128084
+main.ts:127908
 
 ***
 
 ### top?
 
-> **`optional`** **top**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
+> `optional` **top**: [`TopicListDataItemInfo`](../classes/TopicListDataItemInfo.md)[]
 
 the most popular related topics
 represents the list of the most popular related topics
 
-#### Source
+#### Defined in
 
-main.ts:128081
+main.ts:127905

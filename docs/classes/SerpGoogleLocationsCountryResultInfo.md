@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleLocationsCountryResultInfo(data)
+### new SerpGoogleLocationsCountryResultInfo()
 
 > **new SerpGoogleLocationsCountryResultInfo**(`data`?): [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:25418
+main.ts:25600
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`country_iso_code`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:25412
+main.ts:25594
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
@@ -60,15 +60,15 @@ location code
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`location_code`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:25399
+main.ts:25581
 
 ***
 
 ### location\_code\_parent?
 
-> **`optional`** **location\_code\_parent**: `number`
+> `optional` **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -83,15 +83,15 @@ where location_code_parent corresponds to:
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`location_code_parent`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#location_code_parent)
 
-#### Source
+#### Defined in
 
-main.ts:25410
+main.ts:25592
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
@@ -99,15 +99,15 @@ full name of the location
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`location_name`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:25401
+main.ts:25583
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 
@@ -115,9 +115,9 @@ location type
 
 [`ISerpGoogleLocationsCountryResultInfo`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md).[`location_type`](../interfaces/ISerpGoogleLocationsCountryResultInfo.md#location_type)
 
-#### Source
+#### Defined in
 
-main.ts:25414
+main.ts:25596
 
 ## Methods
 
@@ -133,9 +133,9 @@ main.ts:25414
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:25427
+main.ts:25609
 
 ***
 
@@ -151,15 +151,15 @@ main.ts:25427
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:25448
+main.ts:25630
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
 
 #### Parameters
 
@@ -169,6 +169,6 @@ main.ts:25448
 
 [`SerpGoogleLocationsCountryResultInfo`](SerpGoogleLocationsCountryResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:25441
+main.ts:25623

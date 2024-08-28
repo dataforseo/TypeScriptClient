@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageContentParsingLiveResultInfo(data)
+### new OnPageContentParsingLiveResultInfo()
 
 > **new OnPageContentParsingLiveResultInfo**(`data`?): [`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:164667
+main.ts:166499
 
 ## Properties
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
@@ -45,15 +45,15 @@ possible values: in_progress, finished
 
 [`IOnPageContentParsingLiveResultInfo`](../interfaces/IOnPageContentParsingLiveResultInfo.md).[`crawl_progress`](../interfaces/IOnPageContentParsingLiveResultInfo.md#crawl_progress)
 
-#### Source
+#### Defined in
 
-main.ts:164657
+main.ts:166489
 
 ***
 
 ### crawl\_status?
 
-> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
+> `optional` **crawl\_status**: [`CrawlStatusInfo`](CrawlStatusInfo.md)
 
 details of the crawling session
 
@@ -61,15 +61,15 @@ details of the crawling session
 
 [`IOnPageContentParsingLiveResultInfo`](../interfaces/IOnPageContentParsingLiveResultInfo.md).[`crawl_status`](../interfaces/IOnPageContentParsingLiveResultInfo.md#crawl_status)
 
-#### Source
+#### Defined in
 
-main.ts:164659
+main.ts:166491
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`OnPageContentParsingItem`](OnPageContentParsingItem.md)[]
+> `optional` **items**: [`OnPageContentParsingItem`](OnPageContentParsingItem.md)[]
 
 items array
 
@@ -77,15 +77,15 @@ items array
 
 [`IOnPageContentParsingLiveResultInfo`](../interfaces/IOnPageContentParsingLiveResultInfo.md).[`items`](../interfaces/IOnPageContentParsingLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:164663
+main.ts:166495
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -93,9 +93,9 @@ number of items in the results array
 
 [`IOnPageContentParsingLiveResultInfo`](../interfaces/IOnPageContentParsingLiveResultInfo.md).[`items_count`](../interfaces/IOnPageContentParsingLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:164661
+main.ts:166493
 
 ## Methods
 
@@ -111,9 +111,9 @@ main.ts:164661
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:164676
+main.ts:166508
 
 ***
 
@@ -129,15 +129,15 @@ main.ts:164676
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:164700
+main.ts:166532
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)
 
 #### Parameters
 
@@ -147,6 +147,6 @@ main.ts:164700
 
 [`OnPageContentParsingLiveResultInfo`](OnPageContentParsingLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:164693
+main.ts:166525

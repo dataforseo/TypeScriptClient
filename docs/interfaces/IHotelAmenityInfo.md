@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 standardised category of the ammenity
 
-#### Source
+#### Defined in
 
-main.ts:208481
+main.ts:210331
 
 ***
 
 ### category\_label?
 
-> **`optional`** **category\_label**: `string`
+> `optional` **category\_label**: `string`
 
 label of the category
 
-#### Source
+#### Defined in
 
-main.ts:208483
+main.ts:210333
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`HotelAmenityItemInfo`](../classes/HotelAmenityItemInfo.md)[]
+> `optional` **items**: [`HotelAmenityItemInfo`](../classes/HotelAmenityItemInfo.md)[]
 
 specific amenities and details
 
-#### Source
+#### Defined in
 
-main.ts:208485
+main.ts:210335

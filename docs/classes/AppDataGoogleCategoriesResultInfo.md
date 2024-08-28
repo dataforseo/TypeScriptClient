@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataGoogleCategoriesResultInfo(data)
+### new AppDataGoogleCategoriesResultInfo()
 
 > **new AppDataGoogleCategoriesResultInfo**(`data`?): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:189003
+main.ts:190835
 
 ## Properties
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 contains full list of supported app categories
 
@@ -44,9 +44,9 @@ contains full list of supported app categories
 
 [`IAppDataGoogleCategoriesResultInfo`](../interfaces/IAppDataGoogleCategoriesResultInfo.md).[`categories`](../interfaces/IAppDataGoogleCategoriesResultInfo.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:188999
+main.ts:190831
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:188999
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:189012
+main.ts:190844
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:189012
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:189033
+main.ts:190865
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:189033
 
 [`AppDataGoogleCategoriesResultInfo`](AppDataGoogleCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:189026
+main.ts:190858

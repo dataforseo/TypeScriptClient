@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingLocationsResultInfo(data)
+### new KeywordsDataBingLocationsResultInfo()
 
 > **new KeywordsDataBingLocationsResultInfo**(`data`?): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:131146
+main.ts:130970
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`country_iso_code`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:131140
+main.ts:130964
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
@@ -60,15 +60,15 @@ location code
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:131128
+main.ts:130952
 
 ***
 
 ### location\_code\_parent?
 
-> **`optional`** **location\_code\_parent**: `number`
+> `optional` **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -82,15 +82,15 @@ example:
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`location_code_parent`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#location_code_parent)
 
-#### Source
+#### Defined in
 
-main.ts:131138
+main.ts:130962
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
@@ -98,15 +98,15 @@ full name of the location
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`location_name`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:131130
+main.ts:130954
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 
@@ -114,9 +114,9 @@ location type
 
 [`IKeywordsDataBingLocationsResultInfo`](../interfaces/IKeywordsDataBingLocationsResultInfo.md).[`location_type`](../interfaces/IKeywordsDataBingLocationsResultInfo.md#location_type)
 
-#### Source
+#### Defined in
 
-main.ts:131142
+main.ts:130966
 
 ## Methods
 
@@ -132,9 +132,9 @@ main.ts:131142
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:131155
+main.ts:130979
 
 ***
 
@@ -150,15 +150,15 @@ main.ts:131155
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:131176
+main.ts:131000
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
 
 #### Parameters
 
@@ -168,6 +168,6 @@ main.ts:131176
 
 [`KeywordsDataBingLocationsResultInfo`](KeywordsDataBingLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:131169
+main.ts:130993

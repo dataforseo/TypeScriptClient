@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataSocialMediaFacebookLiveRequestInfo(data)
+### new BusinessDataSocialMediaFacebookLiveRequestInfo()
 
 > **new BusinessDataSocialMediaFacebookLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:217755
+main.ts:219607
 
 ## Properties
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -48,15 +48,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataSocialMediaFacebookLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:217751
+main.ts:219603
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 target URLs
 required field
@@ -69,9 +69,9 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 [`IBusinessDataSocialMediaFacebookLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md).[`targets`](../interfaces/IBusinessDataSocialMediaFacebookLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:217745
+main.ts:219597
 
 ## Methods
 
@@ -87,9 +87,9 @@ main.ts:217745
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:217764
+main.ts:219616
 
 ***
 
@@ -105,15 +105,15 @@ main.ts:217764
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:217786
+main.ts:219638
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
 #### Parameters
 
@@ -123,6 +123,6 @@ main.ts:217786
 
 [`BusinessDataSocialMediaFacebookLiveRequestInfo`](BusinessDataSocialMediaFacebookLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:217779
+main.ts:219631

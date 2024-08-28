@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,47 +14,47 @@
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Source
+#### Defined in
 
-main.ts:162805
+main.ts:164637
 
 ***
 
 ### crawl\_status?
 
-> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Source
+#### Defined in
 
-main.ts:162807
+main.ts:164639
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`OnPageRawHtmlItem`](../classes/OnPageRawHtmlItem.md)
+> `optional` **items**: [`OnPageRawHtmlItem`](../classes/OnPageRawHtmlItem.md)
 
 items array
 
-#### Source
+#### Defined in
 
-main.ts:162811
+main.ts:164643
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
-#### Source
+#### Defined in
 
-main.ts:162809
+main.ts:164641

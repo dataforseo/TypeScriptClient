@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### generated\_text?
 
-> **`optional`** **generated\_text**: `string`
+> `optional` **generated\_text**: `string`
 
 paraphrased version of the given text
 
-#### Source
+#### Defined in
 
-main.ts:173167
+main.ts:174999
 
 ***
 
 ### input\_tokens?
 
-> **`optional`** **input\_tokens**: `number`
+> `optional` **input\_tokens**: `number`
 
 number of input tokens in the POST request
 
-#### Source
+#### Defined in
 
-main.ts:173161
+main.ts:174993
 
 ***
 
 ### new\_tokens?
 
-> **`optional`** **new\_tokens**: `number`
+> `optional` **new\_tokens**: `number`
 
 number of new tokens in the response
 
-#### Source
+#### Defined in
 
-main.ts:173165
+main.ts:174997
 
 ***
 
 ### output\_tokens?
 
-> **`optional`** **output\_tokens**: `number`
+> `optional` **output\_tokens**: `number`
 
 number of output tokens in the response
 
-#### Source
+#### Defined in
 
-main.ts:173163
+main.ts:174995

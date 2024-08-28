@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### organic?
 
-> **`optional`** **organic**: [`MetricsInfo`](../classes/MetricsInfo.md)
+> `optional` **organic**: [`MetricsInfo`](../classes/MetricsInfo.md)
 
 ranking and traffic data from organic search
 
-#### Source
+#### Defined in
 
-main.ts:80464
+main.ts:81060
 
 ***
 
 ### paid?
 
-> **`optional`** **paid**: [`MetricsInfo`](../classes/MetricsInfo.md)
+> `optional` **paid**: [`MetricsInfo`](../classes/MetricsInfo.md)
 
 ranking and traffic data from paid search
 
-#### Source
+#### Defined in
 
-main.ts:80466
+main.ts:81062

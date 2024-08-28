@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,22 +18,22 @@
 
 ### alt?
 
-> **`optional`** **alt**: `string`
+> `optional` **alt**: `string`
 
 alternative text of the related product image
 
-#### Source
+#### Defined in
 
-main.ts:184636
+main.ts:186468
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the image
 
-#### Source
+#### Defined in
 
-main.ts:184638
+main.ts:186470

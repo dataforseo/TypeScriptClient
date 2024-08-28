@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleAutocompleteLiveAdvancedRequestInfo(data)
+### new SerpGoogleAutocompleteLiveAdvancedRequestInfo()
 
 > **new SerpGoogleAutocompleteLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:53697
+main.ts:54229
 
 ## Properties
 
 ### client?
 
-> **`optional`** **client**: `string`
+> `optional` **client**: `string`
 
 search client for autocomplete
 optional field
@@ -59,15 +59,15 @@ products-cc — used in google shopping search
 
 [`ISerpGoogleAutocompleteLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md).[`client`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#client)
 
-#### Source
+#### Defined in
 
-main.ts:53687
+main.ts:54219
 
 ***
 
 ### cursor\_pointer?
 
-> **`optional`** **cursor\_pointer**: `number`
+> `optional` **cursor\_pointer**: `number`
 
 search bar cursor pointer
 optional field
@@ -84,15 +84,15 @@ which que|ry is s – "cursor_pointer": 9
 
 [`ISerpGoogleAutocompleteLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md).[`cursor_pointer`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#cursor_pointer)
 
-#### Source
+#### Defined in
 
-main.ts:53670
+main.ts:54202
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -105,15 +105,15 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 [`ISerpGoogleAutocompleteLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:53632
+main.ts:54164
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -126,15 +126,15 @@ en
 
 [`ISerpGoogleAutocompleteLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:53659
+main.ts:54191
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -147,15 +147,15 @@ English
 
 [`ISerpGoogleAutocompleteLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:53652
+main.ts:54184
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name;
@@ -167,15 +167,15 @@ example:
 
 [`ISerpGoogleAutocompleteLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:53645
+main.ts:54177
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -188,15 +188,15 @@ London,England,United Kingdom
 
 [`ISerpGoogleAutocompleteLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:53639
+main.ts:54171
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -208,9 +208,9 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleAutocompleteLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleAutocompleteLiveAdvancedRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:53693
+main.ts:54225
 
 ## Methods
 
@@ -226,9 +226,9 @@ main.ts:53693
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:53706
+main.ts:54238
 
 ***
 
@@ -244,15 +244,15 @@ main.ts:53706
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:53730
+main.ts:54262
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
@@ -262,6 +262,6 @@ main.ts:53730
 
 [`SerpGoogleAutocompleteLiveAdvancedRequestInfo`](SerpGoogleAutocompleteLiveAdvancedRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:53723
+main.ts:54255

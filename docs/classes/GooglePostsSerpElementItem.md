@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new GooglePostsSerpElementItem(data)
+### new GooglePostsSerpElementItem()
 
 > **new GooglePostsSerpElementItem**(`data`?): [`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:36056
+main.ts:36252
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 
@@ -66,15 +66,15 @@ google-defined client id
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`cid`](../interfaces/IGooglePostsSerpElementItem.md#cid)
 
-#### Source
+#### Defined in
 
-main.ts:36048
+main.ts:36244
 
 ***
 
 ### feature?
 
-> **`optional`** **feature**: `string`
+> `optional` **feature**: `string`
 
 the additional feature of the review
 
@@ -82,15 +82,15 @@ the additional feature of the review
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`feature`](../interfaces/IGooglePostsSerpElementItem.md#feature)
 
-#### Source
+#### Defined in
 
-main.ts:36046
+main.ts:36242
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -100,15 +100,15 @@ left, right
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`position`](../interfaces/IGooglePostsSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:36040
+main.ts:36236
 
 ***
 
 ### posts\_id?
 
-> **`optional`** **posts\_id**: `string`
+> `optional` **posts\_id**: `string`
 
 the identifier of the google_posts feature
 
@@ -116,15 +116,15 @@ the identifier of the google_posts feature
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`posts_id`](../interfaces/IGooglePostsSerpElementItem.md#posts_id)
 
-#### Source
+#### Defined in
 
-main.ts:36044
+main.ts:36240
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -134,15 +134,15 @@ always equals 0 for desktop
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`rank_absolute`](../interfaces/IGooglePostsSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:36036
+main.ts:36232
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -153,15 +153,15 @@ always equals 0 for desktop
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`rank_group`](../interfaces/IGooglePostsSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:36032
+main.ts:36228
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -171,15 +171,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`rectangle`](../interfaces/IGooglePostsSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:36052
+main.ts:36248
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -187,9 +187,9 @@ the XPath of the element
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`xpath`](../interfaces/IGooglePostsSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:36042
+main.ts:36238
 
 ## Methods
 
@@ -209,9 +209,9 @@ main.ts:36042
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:36061
+main.ts:36257
 
 ***
 
@@ -231,15 +231,15 @@ main.ts:36061
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:36086
+main.ts:36282
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
+> `static` **fromJS**(`data`): [`GooglePostsSerpElementItem`](GooglePostsSerpElementItem.md)
 
 #### Parameters
 
@@ -253,6 +253,6 @@ main.ts:36086
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:36079
+main.ts:36275

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -8,7 +8,7 @@
 
 ## Constructors
 
-### new AppendixApi(baseUrl, http)
+### new AppendixApi()
 
 > **new AppendixApi**(`baseUrl`?, `http`?): [`AppendixApi`](AppendixApi.md)
 
@@ -18,53 +18,21 @@
 
 • **http?**
 
-• **http\.fetch?**
+• **http.fetch?**
 
 #### Returns
 
 [`AppendixApi`](AppendixApi.md)
 
-#### Source
+#### Defined in
 
-main.ts:20014
+main.ts:20191
 
 ## Properties
 
-### baseUrl
+### jsonParseReviver()
 
-> **`private`** **baseUrl**: `string`
-
-#### Source
-
-main.ts:20011
-
-***
-
-### http
-
-> **`private`** **http**: `Object`
-
-#### http.fetch()
-
-##### Parameters
-
-• **url**: `RequestInfo`
-
-• **init?**: `RequestInit`
-
-##### Returns
-
-`Promise`\<`Response`\>
-
-#### Source
-
-main.ts:20010
-
-***
-
-### jsonParseReviver
-
-> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+> `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
 #### Parameters
 
@@ -76,9 +44,9 @@ main.ts:20010
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:20012
+main.ts:20189
 
 ## Methods
 
@@ -92,9 +60,9 @@ main.ts:20012
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:20059
+main.ts:20236
 
 ***
 
@@ -108,15 +76,15 @@ main.ts:20059
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:20138
+main.ts:20315
 
 ***
 
 ### processAppendixErrors()
 
-> **`protected`** **processAppendixErrors**(`response`): `Promise`\<[`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)\>
+> `protected` **processAppendixErrors**(`response`): `Promise`\<[`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)\>
 
 #### Parameters
 
@@ -126,15 +94,15 @@ main.ts:20138
 
 `Promise`\<[`AppendixErrorsResponseInfo`](AppendixErrorsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:20075
+main.ts:20252
 
 ***
 
 ### processAppendixStatus()
 
-> **`protected`** **processAppendixStatus**(`response`): `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
+> `protected` **processAppendixStatus**(`response`): `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
 
 #### Parameters
 
@@ -144,15 +112,15 @@ main.ts:20075
 
 `Promise`\<[`AppendixStatusResponseInfo`](AppendixStatusResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:20154
+main.ts:20331
 
 ***
 
 ### processUserData()
 
-> **`protected`** **processUserData**(`response`): `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
+> `protected` **processUserData**(`response`): `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
 
 #### Parameters
 
@@ -162,15 +130,15 @@ main.ts:20154
 
 `Promise`\<[`AppendixUserDataResponseInfo`](AppendixUserDataResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:20038
+main.ts:20215
 
 ***
 
 ### processWebhookResend()
 
-> **`protected`** **processWebhookResend**(`response`): `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
+> `protected` **processWebhookResend**(`response`): `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
 
 #### Parameters
 
@@ -180,9 +148,9 @@ main.ts:20038
 
 `Promise`\<[`AppendixWebhookResendResponseInfo`](AppendixWebhookResendResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:20117
+main.ts:20294
 
 ***
 
@@ -196,9 +164,9 @@ main.ts:20117
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:20022
+main.ts:20199
 
 ***
 
@@ -218,6 +186,6 @@ main.ts:20022
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:20097
+main.ts:20274

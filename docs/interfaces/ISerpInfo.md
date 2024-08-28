@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,74 +14,74 @@
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Source
+#### Defined in
 
-main.ts:84030
+main.ts:84584
 
 ***
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
-date and time when SERP data was updated
+date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:84043
+main.ts:84597
 
 ***
 
 ### previous\_updated\_time?
 
-> **`optional`** **previous\_updated\_time**: `string`
+> `optional` **previous\_updated\_time**: `string`
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-10-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:84048
+main.ts:84602
 
 ***
 
 ### se\_results\_count?
 
-> **`optional`** **se\_results\_count**: `string`
+> `optional` **se\_results\_count**: `string`
 
 number of search results for the returned keyword
 
-#### Source
+#### Defined in
 
-main.ts:84038
+main.ts:84592
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:84027
+main.ts:84581
 
 ***
 
 ### serp\_item\_types?
 
-> **`optional`** **serp\_item\_types**: `string`[]
+> `optional` **serp\_item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP
@@ -89,6 +89,6 @@ possible item types:
 answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, google_reviews, images, jobs, knowledge_graph, local_pack, map, organic, paid, people_also_ask, related_searches, people_also_search, shopping, top_stories, twitter, video, events, mention_carousel, recipes, top_sights, scholarly_articles, popular_products, podcasts, questions_and_answers, find_results_on, stocks_box;
 note that the actual results will be returned only for organic, paid, featured_snippet, and local_pack elements
 
-#### Source
+#### Defined in
 
-main.ts:84036
+main.ts:84590

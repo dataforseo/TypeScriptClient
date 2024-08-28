@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SocialMetricsInfo(data)
+### new SocialMetricsInfo()
 
 > **new SocialMetricsInfo**(`data`?): [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22690
+main.ts:22872
 
 ## Properties
 
 ### like\_count?
 
-> **`optional`** **like\_count**: `number`
+> `optional` **like\_count**: `number`
 
 likes count
 
@@ -44,15 +44,15 @@ likes count
 
 [`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md).[`like_count`](../interfaces/ISocialMetricsInfo.md#like_count)
 
-#### Source
+#### Defined in
 
-main.ts:22686
+main.ts:22868
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -60,9 +60,9 @@ type of element
 
 [`ISocialMetricsInfo`](../interfaces/ISocialMetricsInfo.md).[`type`](../interfaces/ISocialMetricsInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:22684
+main.ts:22866
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:22684
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22699
+main.ts:22881
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:22699
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22717
+main.ts:22899
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SocialMetricsInfo`](SocialMetricsInfo.md)
+> `static` **fromJS**(`data`): [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:22717
 
 [`SocialMetricsInfo`](SocialMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22710
+main.ts:22892

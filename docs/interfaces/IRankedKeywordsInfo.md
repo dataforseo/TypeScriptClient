@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### page\_from\_keywords\_count\_top\_10?
 
-> **`optional`** **page\_from\_keywords\_count\_top\_10**: `number`
+> `optional` **page\_from\_keywords\_count\_top\_10**: `number`
 
 number of keywords for which the page is ranked in top 10 search results
 
-#### Source
+#### Defined in
 
-main.ts:141797
+main.ts:143623
 
 ***
 
 ### page\_from\_keywords\_count\_top\_100?
 
-> **`optional`** **page\_from\_keywords\_count\_top\_100**: `number`
+> `optional` **page\_from\_keywords\_count\_top\_100**: `number`
 
 number of keywords for which the page is ranked in top 100 search results
 
-#### Source
+#### Defined in
 
-main.ts:141799
+main.ts:143625
 
 ***
 
 ### page\_from\_keywords\_count\_top\_3?
 
-> **`optional`** **page\_from\_keywords\_count\_top\_3**: `number`
+> `optional` **page\_from\_keywords\_count\_top\_3**: `number`
 
 number of keywords for which the page is ranked in top 3 search results
 
-#### Source
+#### Defined in
 
-main.ts:141795
+main.ts:143621

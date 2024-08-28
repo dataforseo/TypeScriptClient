@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,109 +14,109 @@
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29997
+main.ts:30193
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain where a link points
 
-#### Source
+#### Defined in
 
-main.ts:29993
+main.ts:30189
 
 ***
 
 ### featured\_title?
 
-> **`optional`** **featured\_title**: `string`
+> `optional` **featured\_title**: `string`
 
 the title of the featured snippets source page
 
-#### Source
+#### Defined in
 
-main.ts:29989
+main.ts:30185
 
 ***
 
 ### images?
 
-> **`optional`** **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
+> `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
 images of the element
 
-#### Source
+#### Defined in
 
-main.ts:29999
+main.ts:30195
 
 ***
 
 ### table?
 
-> **`optional`** **table**: [`Table`](../classes/Table.md)
+> `optional` **table**: [`Table`](../classes/Table.md)
 
 table element
 
-#### Source
+#### Defined in
 
-main.ts:30006
+main.ts:30202
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:30004
+main.ts:30200
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the carousel item
 
-#### Source
+#### Defined in
 
-main.ts:29995
+main.ts:30191
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:29987
+main.ts:30183
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of element
 
-#### Source
+#### Defined in
 
-main.ts:29991
+main.ts:30187

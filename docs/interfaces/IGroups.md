@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,36 +14,36 @@
 
 ### categories?
 
-> **`optional`** **categories**: [`TechnologyCategoryInfo`](../classes/TechnologyCategoryInfo.md)[]
+> `optional` **categories**: [`TechnologyCategoryInfo`](../classes/TechnologyCategoryInfo.md)[]
 
 technology categories in this group
 
-#### Source
+#### Defined in
 
-main.ts:76726
+main.ts:77322
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the technology group
 example:
 marketing, sales
 
-#### Source
+#### Defined in
 
-main.ts:76722
+main.ts:77318
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the technology group
 
-#### Source
+#### Defined in
 
-main.ts:76724
+main.ts:77320

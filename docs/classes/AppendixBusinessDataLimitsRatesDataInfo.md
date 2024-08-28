@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixBusinessDataLimitsRatesDataInfo(data)
+### new AppendixBusinessDataLimitsRatesDataInfo()
 
 > **new AppendixBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
@@ -28,149 +28,149 @@
 
 [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219922
+main.ts:221830
 
 ## Properties
 
 ### business\_listings?
 
-> **`optional`** **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+> `optional` **business\_listings**: [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`business_listings`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#business_listings)
 
-#### Source
+#### Defined in
 
-main.ts:219917
+main.ts:221825
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:219912
+main.ts:221820
 
 ***
 
 ### google?
 
-> **`optional`** **google**: [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
+> `optional` **google**: [`AppendixBusinessDataGoogleInfo`](AppendixBusinessDataGoogleInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`google`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#google)
 
-#### Source
+#### Defined in
 
-main.ts:219909
+main.ts:221817
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:219911
+main.ts:221819
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:219910
+main.ts:221818
 
 ***
 
 ### social\_media?
 
-> **`optional`** **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
+> `optional` **social\_media**: [`AppendixSocialMediaBusinessDataLimitsRatesDataInfo`](AppendixSocialMediaBusinessDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`social_media`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#social_media)
 
-#### Source
+#### Defined in
 
-main.ts:219914
+main.ts:221822
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:219918
+main.ts:221826
 
 ***
 
 ### tripadvisor?
 
-> **`optional`** **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> `optional` **tripadvisor**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`tripadvisor`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#tripadvisor)
 
-#### Source
+#### Defined in
 
-main.ts:219915
+main.ts:221823
 
 ***
 
 ### trustpilot?
 
-> **`optional`** **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> `optional` **trustpilot**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`trustpilot`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#trustpilot)
 
-#### Source
+#### Defined in
 
-main.ts:219916
+main.ts:221824
 
 ***
 
 ### yelp?
 
-> **`optional`** **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
+> `optional` **yelp**: [`AppendixBusinessDataDayLimitsRatesDataInfo`](AppendixBusinessDataDayLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md).[`yelp`](../interfaces/IAppendixBusinessDataLimitsRatesDataInfo.md#yelp)
 
-#### Source
+#### Defined in
 
-main.ts:219913
+main.ts:221821
 
 ## Methods
 
@@ -186,9 +186,9 @@ main.ts:219913
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:219931
+main.ts:221839
 
 ***
 
@@ -204,15 +204,15 @@ main.ts:219931
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:219957
+main.ts:221865
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -222,6 +222,6 @@ main.ts:219957
 
 [`AppendixBusinessDataLimitsRatesDataInfo`](AppendixBusinessDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219950
+main.ts:221858

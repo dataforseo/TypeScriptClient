@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpYoutubeLocationsResultInfo(data)
+### new SerpYoutubeLocationsResultInfo()
 
 > **new SerpYoutubeLocationsResultInfo**(`data`?): [`SerpYoutubeLocationsResultInfo`](SerpYoutubeLocationsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpYoutubeLocationsResultInfo`](SerpYoutubeLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:61524
+main.ts:62056
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`ISerpYoutubeLocationsResultInfo`](../interfaces/ISerpYoutubeLocationsResultInfo.md).[`country_iso_code`](../interfaces/ISerpYoutubeLocationsResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:61518
+main.ts:62050
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
@@ -60,15 +60,15 @@ location code
 
 [`ISerpYoutubeLocationsResultInfo`](../interfaces/ISerpYoutubeLocationsResultInfo.md).[`location_code`](../interfaces/ISerpYoutubeLocationsResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:61505
+main.ts:62037
 
 ***
 
 ### location\_code\_parent?
 
-> **`optional`** **location\_code\_parent**: `number`
+> `optional` **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -83,15 +83,15 @@ where location_code_parent corresponds to:
 
 [`ISerpYoutubeLocationsResultInfo`](../interfaces/ISerpYoutubeLocationsResultInfo.md).[`location_code_parent`](../interfaces/ISerpYoutubeLocationsResultInfo.md#location_code_parent)
 
-#### Source
+#### Defined in
 
-main.ts:61516
+main.ts:62048
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
@@ -99,15 +99,15 @@ full name of the location
 
 [`ISerpYoutubeLocationsResultInfo`](../interfaces/ISerpYoutubeLocationsResultInfo.md).[`location_name`](../interfaces/ISerpYoutubeLocationsResultInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:61507
+main.ts:62039
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 
@@ -115,9 +115,9 @@ location type
 
 [`ISerpYoutubeLocationsResultInfo`](../interfaces/ISerpYoutubeLocationsResultInfo.md).[`location_type`](../interfaces/ISerpYoutubeLocationsResultInfo.md#location_type)
 
-#### Source
+#### Defined in
 
-main.ts:61520
+main.ts:62052
 
 ## Methods
 
@@ -133,9 +133,9 @@ main.ts:61520
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:61533
+main.ts:62065
 
 ***
 
@@ -151,15 +151,15 @@ main.ts:61533
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:61554
+main.ts:62086
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpYoutubeLocationsResultInfo`](SerpYoutubeLocationsResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpYoutubeLocationsResultInfo`](SerpYoutubeLocationsResultInfo.md)
 
 #### Parameters
 
@@ -169,6 +169,6 @@ main.ts:61554
 
 [`SerpYoutubeLocationsResultInfo`](SerpYoutubeLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:61547
+main.ts:62079

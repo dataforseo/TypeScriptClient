@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,24 +14,24 @@
 
 ### rising?
 
-> **`optional`** **rising**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
+> `optional` **rising**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
 
-#### Source
+#### Defined in
 
-main.ts:127191
+main.ts:127198
 
 ***
 
 ### top?
 
-> **`optional`** **top**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
+> `optional` **top**: [`QueriesListDataItemInfo`](../classes/QueriesListDataItemInfo.md)[]
 
 the most popular related topics
 represents the list of the most popular related topics
 
-#### Source
+#### Defined in
 
-main.ts:127188
+main.ts:127195

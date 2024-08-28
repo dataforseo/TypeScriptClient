@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### product\_info?
 
-> **`optional`** **product\_info**: [`AppendixPriceDataInfo`](../classes/AppendixPriceDataInfo.md)
+> `optional` **product\_info**: [`AppendixPriceDataInfo`](../classes/AppendixPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222322
+main.ts:226594
 
 ***
 
 ### product\_spec?
 
-> **`optional`** **product\_spec**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
+> `optional` **product\_spec**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222323
+main.ts:226595
 
 ***
 
 ### products?
 
-> **`optional`** **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
+> `optional` **products**: [`AppendixProductGoogleMerchantPriceDataInfo`](../classes/AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222324
+main.ts:226596
 
 ***
 
 ### sellers?
 
-> **`optional`** **sellers**: [`AppendixSellersGoogleMerchantPriceData`](../classes/AppendixSellersGoogleMerchantPriceData.md)
+> `optional` **sellers**: [`AppendixSellersGoogleMerchantPriceData`](../classes/AppendixSellersGoogleMerchantPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:222325
+main.ts:226597

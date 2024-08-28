@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new MapSerpElementItem(data)
+### new MapSerpElementItem()
 
 > **new MapSerpElementItem**(`data`?): [`MapSerpElementItem`](MapSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:31090
+main.ts:31286
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -68,15 +68,15 @@ left, right
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`position`](../interfaces/IMapSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:31076
+main.ts:31272
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -86,15 +86,15 @@ always equals 0 for desktop
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`rank_absolute`](../interfaces/IMapSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:31072
+main.ts:31268
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values;
@@ -105,15 +105,15 @@ always equals 0 for desktop
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`rank_group`](../interfaces/IMapSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:31068
+main.ts:31264
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -123,15 +123,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`rectangle`](../interfaces/IMapSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:31086
+main.ts:31282
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the row
 
@@ -139,15 +139,15 @@ title of the row
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`title`](../interfaces/IMapSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:31080
+main.ts:31276
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 source URL
 
@@ -155,15 +155,15 @@ source URL
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`url`](../interfaces/IMapSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:31082
+main.ts:31278
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -171,9 +171,9 @@ the XPath of the element
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`xpath`](../interfaces/IMapSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:31078
+main.ts:31274
 
 ## Methods
 
@@ -193,9 +193,9 @@ main.ts:31078
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:31095
+main.ts:31291
 
 ***
 
@@ -215,15 +215,15 @@ main.ts:31095
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:31119
+main.ts:31315
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MapSerpElementItem`](MapSerpElementItem.md)
+> `static` **fromJS**(`data`): [`MapSerpElementItem`](MapSerpElementItem.md)
 
 #### Parameters
 
@@ -237,6 +237,6 @@ main.ts:31119
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:31112
+main.ts:31308

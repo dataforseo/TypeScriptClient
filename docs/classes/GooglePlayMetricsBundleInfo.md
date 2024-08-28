@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new GooglePlayMetricsBundleInfo(data)
+### new GooglePlayMetricsBundleInfo()
 
 > **new GooglePlayMetricsBundleInfo**(`data`?): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:115095
+main.ts:115727
 
 ## Properties
 
 ### google\_play\_search\_organic?
 
-> **`optional`** **google\_play\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
+> `optional` **google\_play\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
 ranking data from Google Play organic search
 
@@ -44,9 +44,9 @@ ranking data from Google Play organic search
 
 [`IGooglePlayMetricsBundleInfo`](../interfaces/IGooglePlayMetricsBundleInfo.md).[`google_play_search_organic`](../interfaces/IGooglePlayMetricsBundleInfo.md#google_play_search_organic)
 
-#### Source
+#### Defined in
 
-main.ts:115091
+main.ts:115723
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:115091
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:115104
+main.ts:115736
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:115104
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:115121
+main.ts:115753
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
+> `static` **fromJS**(`data`): [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:115121
 
 [`GooglePlayMetricsBundleInfo`](GooglePlayMetricsBundleInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:115114
+main.ts:115746

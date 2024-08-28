@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataIdListRequestInfo(data)
+### new AppDataIdListRequestInfo()
 
 > **new AppDataIdListRequestInfo**(`data`?): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:188345
+main.ts:190177
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -50,15 +50,15 @@ example:
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`datetime_from`](../interfaces/IAppDataIdListRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:188315
+main.ts:190147
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -71,15 +71,15 @@ example:
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`datetime_to`](../interfaces/IAppDataIdListRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:188322
+main.ts:190154
 
 ***
 
 ### include\_metadata?
 
-> **`optional`** **include\_metadata**: `boolean`
+> `optional` **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,15 @@ default value: false
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`include_metadata`](../interfaces/IAppDataIdListRequestInfo.md#include_metadata)
 
-#### Source
+#### Defined in
 
-main.ts:188341
+main.ts:190173
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +108,15 @@ maximum value: 1000
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`limit`](../interfaces/IAppDataIdListRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:188327
+main.ts:190159
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +127,15 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`offset`](../interfaces/IAppDataIdListRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:188332
+main.ts:190164
 
 ***
 
 ### sort?
 
-> **`optional`** **sort**: `string`
+> `optional` **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -146,9 +146,9 @@ default value: "asc"
 
 [`IAppDataIdListRequestInfo`](../interfaces/IAppDataIdListRequestInfo.md).[`sort`](../interfaces/IAppDataIdListRequestInfo.md#sort)
 
-#### Source
+#### Defined in
 
-main.ts:188337
+main.ts:190169
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:188337
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:188354
+main.ts:190186
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:188354
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:188376
+main.ts:190208
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
+> `static` **fromJS**(`data`): [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:188376
 
 [`AppDataIdListRequestInfo`](AppDataIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:188369
+main.ts:190201

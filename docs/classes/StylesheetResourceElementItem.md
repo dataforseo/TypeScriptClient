@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new StylesheetResourceElementItem(data)
+### new StylesheetResourceElementItem()
 
 > **new StylesheetResourceElementItem**(`data`?): [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`constructor`](BaseOnPageResourceItemInfo.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:157703
+main.ts:159531
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`_discriminator`](BaseOnPageResourceItemInfo.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21185
+main.ts:21367
 
 ***
 
 ### accept\_type?
 
-> **`optional`** **accept\_type**: `string`
+> `optional` **accept\_type**: `string`
 
 indicates the expected type of resource
 for example, if "resource_type": "broken", accept_type will indicate the type of the broken resource
@@ -69,15 +69,15 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`accept_type`](../interfaces/IStylesheetResourceElementItem.md#accept_type)
 
-#### Source
+#### Defined in
 
-main.ts:157682
+main.ts:159510
 
 ***
 
 ### cache\_control?
 
-> **`optional`** **cache\_control**: [`CacheControl`](CacheControl.md)
+> `optional` **cache\_control**: [`CacheControl`](CacheControl.md)
 
 instructions for caching
 
@@ -85,20 +85,20 @@ instructions for caching
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`cache_control`](../interfaces/IStylesheetResourceElementItem.md#cache_control)
 
-#### Source
+#### Defined in
 
-main.ts:157668
+main.ts:159496
 
 ***
 
 ### checks?
 
-> **`optional`** **checks**: `Object`
+> `optional` **checks**: `object`
 
 resource check-ups
 contents of the array depend on the resource_type
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `boolean`
 
@@ -106,15 +106,15 @@ contents of the array depend on the resource_type
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`checks`](../interfaces/IStylesheetResourceElementItem.md#checks)
 
-#### Source
+#### Defined in
 
-main.ts:157671
+main.ts:159499
 
 ***
 
 ### content\_encoding?
 
-> **`optional`** **content\_encoding**: `string`
+> `optional` **content\_encoding**: `string`
 
 type of encoding
 
@@ -122,15 +122,15 @@ type of encoding
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`content_encoding`](../interfaces/IStylesheetResourceElementItem.md#content_encoding)
 
-#### Source
+#### Defined in
 
-main.ts:157675
+main.ts:159503
 
 ***
 
 ### duration\_time?
 
-> **`optional`** **duration\_time**: `number`
+> `optional` **duration\_time**: `number`
 
 total time it takes until a browser receives a complete response from a server (in milliseconds)
 
@@ -138,15 +138,15 @@ total time it takes until a browser receives a complete response from a server (
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`duration_time`](../interfaces/IStylesheetResourceElementItem.md#duration_time)
 
-#### Source
+#### Defined in
 
-main.ts:157691
+main.ts:159519
 
 ***
 
 ### encoded\_size?
 
-> **`optional`** **encoded\_size**: `number`
+> `optional` **encoded\_size**: `number`
 
 resource size after encoding
 indicates the size of the encoded resource measured in bytes
@@ -155,15 +155,15 @@ indicates the size of the encoded resource measured in bytes
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`encoded_size`](../interfaces/IStylesheetResourceElementItem.md#encoded_size)
 
-#### Source
+#### Defined in
 
-main.ts:157656
+main.ts:159484
 
 ***
 
 ### fetch\_end?
 
-> **`optional`** **fetch\_end**: `number`
+> `optional` **fetch\_end**: `number`
 
 time to complete downloading the resource
 the amount of time the browser needs to complete downloading a resource
@@ -172,15 +172,15 @@ the amount of time the browser needs to complete downloading a resource
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`fetch_end`](../interfaces/IStylesheetResourceElementItem.md#fetch_end)
 
-#### Source
+#### Defined in
 
-main.ts:157697
+main.ts:159525
 
 ***
 
 ### fetch\_start?
 
-> **`optional`** **fetch\_start**: `number`
+> `optional` **fetch\_start**: `number`
 
 time to start downloading the resource
 the amount of time the browser needs to start downloading a resource
@@ -189,15 +189,15 @@ the amount of time the browser needs to start downloading a resource
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`fetch_start`](../interfaces/IStylesheetResourceElementItem.md#fetch_start)
 
-#### Source
+#### Defined in
 
-main.ts:157694
+main.ts:159522
 
 ***
 
 ### fetch\_time?
 
-> **`optional`** **fetch\_time**: `string`
+> `optional` **fetch\_time**: `string`
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -208,15 +208,15 @@ example:
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`fetch_time`](../interfaces/IStylesheetResourceElementItem.md#fetch_time)
 
-#### Source
+#### Defined in
 
-main.ts:157664
+main.ts:159492
 
 ***
 
 ### fetch\_timing?
 
-> **`optional`** **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
+> `optional` **fetch\_timing**: [`FetchTiming`](FetchTiming.md)
 
 resource fething time range
 
@@ -224,15 +224,15 @@ resource fething time range
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`fetch_timing`](../interfaces/IStylesheetResourceElementItem.md#fetch_timing)
 
-#### Source
+#### Defined in
 
-main.ts:157666
+main.ts:159494
 
 ***
 
 ### initiator?
 
-> **`optional`** **initiator**: `string`
+> `optional` **initiator**: `string`
 
 resource initiator
 
@@ -240,15 +240,15 @@ resource initiator
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`initiator`](../interfaces/IStylesheetResourceElementItem.md#initiator)
 
-#### Source
+#### Defined in
 
-main.ts:157689
+main.ts:159517
 
 ***
 
 ### is\_render\_blocking?
 
-> **`optional`** **is\_render\_blocking**: `boolean`
+> `optional` **is\_render\_blocking**: `boolean`
 
 indicates whether the resource blocks rendering
 
@@ -256,15 +256,15 @@ indicates whether the resource blocks rendering
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`is_render_blocking`](../interfaces/IStylesheetResourceElementItem.md#is_render_blocking)
 
-#### Source
+#### Defined in
 
-main.ts:157699
+main.ts:159527
 
 ***
 
 ### last\_modified?
 
-> **`optional`** **last\_modified**: [`LastModified`](LastModified.md)
+> `optional` **last\_modified**: [`LastModified`](LastModified.md)
 
 contains data on changes related to the resource
 if there is no data, the value will be null
@@ -273,15 +273,15 @@ if there is no data, the value will be null
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`last_modified`](../interfaces/IStylesheetResourceElementItem.md#last_modified)
 
-#### Source
+#### Defined in
 
-main.ts:157687
+main.ts:159515
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `string`
+> `optional` **location**: `string`
 
 location header
 indicates the URL to redirect a page to
@@ -290,15 +290,15 @@ indicates the URL to redirect a page to
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`location`](../interfaces/IStylesheetResourceElementItem.md#location)
 
-#### Source
+#### Defined in
 
-main.ts:157648
+main.ts:159476
 
 ***
 
 ### media\_type?
 
-> **`optional`** **media\_type**: `string`
+> `optional` **media\_type**: `string`
 
 types of media used to display a resource
 
@@ -306,15 +306,15 @@ types of media used to display a resource
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`media_type`](../interfaces/IStylesheetResourceElementItem.md#media_type)
 
-#### Source
+#### Defined in
 
-main.ts:157677
+main.ts:159505
 
 ***
 
 ### meta?
 
-> **`optional`** **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
+> `optional` **meta**: [`ResourceMetaInfo`](ResourceMetaInfo.md)
 
 resource properties
 the value depends on the resource_type
@@ -325,15 +325,15 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`meta`](../interfaces/IStylesheetResourceElementItem.md#meta)
 
-#### Source
+#### Defined in
 
-main.ts:157643
+main.ts:159471
 
 ***
 
 ### resource\_errors?
 
-> **`optional`** **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
 resource errors and warnings
 
@@ -341,15 +341,15 @@ resource errors and warnings
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`resource_errors`](../interfaces/IStylesheetResourceElementItem.md#resource_errors)
 
-#### Source
+#### Defined in
 
-main.ts:157673
+main.ts:159501
 
 ***
 
 ### server?
 
-> **`optional`** **server**: `string`
+> `optional` **server**: `string`
 
 server version
 
@@ -357,15 +357,15 @@ server version
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`server`](../interfaces/IStylesheetResourceElementItem.md#server)
 
-#### Source
+#### Defined in
 
-main.ts:157684
+main.ts:159512
 
 ***
 
 ### size?
 
-> **`optional`** **size**: `number`
+> `optional` **size**: `number`
 
 resource size
 indicates the size of a given resource measured in bytes
@@ -374,15 +374,15 @@ indicates the size of a given resource measured in bytes
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`size`](../interfaces/IStylesheetResourceElementItem.md#size)
 
-#### Source
+#### Defined in
 
-main.ts:157653
+main.ts:159481
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 status code of the page where a given resource is located
 
@@ -390,15 +390,15 @@ status code of the page where a given resource is located
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`status_code`](../interfaces/IStylesheetResourceElementItem.md#status_code)
 
-#### Source
+#### Defined in
 
-main.ts:157645
+main.ts:159473
 
 ***
 
 ### total\_transfer\_size?
 
-> **`optional`** **total\_transfer\_size**: `number`
+> `optional` **total\_transfer\_size**: `number`
 
 compressed resource size
 indicates the compressed size of a given resource in bytes
@@ -407,15 +407,15 @@ indicates the compressed size of a given resource in bytes
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`total_transfer_size`](../interfaces/IStylesheetResourceElementItem.md#total_transfer_size)
 
-#### Source
+#### Defined in
 
-main.ts:157659
+main.ts:159487
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 resource URL
 
@@ -423,9 +423,9 @@ resource URL
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`url`](../interfaces/IStylesheetResourceElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:157650
+main.ts:159478
 
 ## Methods
 
@@ -445,9 +445,9 @@ main.ts:157650
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`init`](BaseOnPageResourceItemInfo.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:157708
+main.ts:159536
 
 ***
 
@@ -467,15 +467,15 @@ main.ts:157708
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`toJSON`](BaseOnPageResourceItemInfo.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:157753
+main.ts:159581
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
+> `static` **fromJS**(`data`): [`StylesheetResourceElementItem`](StylesheetResourceElementItem.md)
 
 #### Parameters
 
@@ -489,6 +489,6 @@ main.ts:157753
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fromJS`](BaseOnPageResourceItemInfo.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:157746
+main.ts:159574

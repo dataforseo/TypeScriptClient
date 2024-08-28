@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo(data)
+### new DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo()
 
 > **new DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:79645
+main.ts:80241
 
 ## Properties
 
 ### content\_language\_code?
 
-> **`optional`** **content\_language\_code**: `string`
+> `optional` **content\_language\_code**: `string`
 
 content language
 code of the language that content on the target domain is written in
@@ -45,15 +45,15 @@ code of the language that content on the target domain is written in
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`content_language_code`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#content_language_code)
 
-#### Source
+#### Defined in
 
-main.ts:79628
+main.ts:80224
 
 ***
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 domain ISO code
 ISO code of the country that the target domain is determined to belong to
@@ -62,15 +62,15 @@ ISO code of the country that the target domain is determined to belong to
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`country_iso_code`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:79622
+main.ts:80218
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 domain meta description
 
@@ -78,15 +78,15 @@ domain meta description
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`description`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:79609
+main.ts:80205
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 specified domain name
 
@@ -94,15 +94,15 @@ specified domain name
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`domain`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:79605
+main.ts:80201
 
 ***
 
 ### domain\_rank?
 
-> **`optional`** **domain\_rank**: `string`
+> `optional` **domain\_rank**: `string`
 
 backlink rank of the target domain
 learn more about the metric and how it is calculated in this help center article
@@ -111,15 +111,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`domain_rank`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#domain_rank)
 
-#### Source
+#### Defined in
 
-main.ts:79614
+main.ts:80210
 
 ***
 
 ### emails?
 
-> **`optional`** **emails**: `string`[]
+> `optional` **emails**: `string`[]
 
 emails of the target
 emails indicated on the target website
@@ -128,15 +128,15 @@ emails indicated on the target website
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`emails`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#emails)
 
-#### Source
+#### Defined in
 
-main.ts:79634
+main.ts:80230
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 domain language
 code of the language that the target domain is determined to be associated with
@@ -145,15 +145,15 @@ code of the language that the target domain is determined to be associated with
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`language_code`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:79625
+main.ts:80221
 
 ***
 
 ### last\_visited?
 
-> **`optional`** **last\_visited**: `string`
+> `optional` **last\_visited**: `string`
 
 most recent date when our crawler visited the domain
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -164,15 +164,15 @@ example:
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`last_visited`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#last_visited)
 
-#### Source
+#### Defined in
 
-main.ts:79619
+main.ts:80215
 
 ***
 
 ### meta\_keywords?
 
-> **`optional`** **meta\_keywords**: `string`[]
+> `optional` **meta\_keywords**: `string`[]
 
 domain meta keywords
 
@@ -180,15 +180,15 @@ domain meta keywords
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`meta_keywords`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#meta_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:79611
+main.ts:80207
 
 ***
 
 ### phone\_numbers?
 
-> **`optional`** **phone\_numbers**: `string`[]
+> `optional` **phone\_numbers**: `string`[]
 
 phone numbers of the target
 contact phone numbers indicated on the target website
@@ -197,15 +197,15 @@ contact phone numbers indicated on the target website
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`phone_numbers`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#phone_numbers)
 
-#### Source
+#### Defined in
 
-main.ts:79631
+main.ts:80227
 
 ***
 
 ### social\_graph\_urls?
 
-> **`optional`** **social\_graph\_urls**: `string`[]
+> `optional` **social\_graph\_urls**: `string`[]
 
 social media links and handles
 social media URLs detected in the social graphs of the target website
@@ -214,15 +214,15 @@ social media URLs detected in the social graphs of the target website
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`social_graph_urls`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#social_graph_urls)
 
-#### Source
+#### Defined in
 
-main.ts:79637
+main.ts:80233
 
 ***
 
 ### technologies?
 
-> **`optional`** **technologies**: [`TechnologiesInfo`](TechnologiesInfo.md)
+> `optional` **technologies**: [`TechnologiesInfo`](TechnologiesInfo.md)
 
 technologies used by target domain
 contains objects with the names of technologies used on the website
@@ -232,15 +232,15 @@ see the full list of available technologies structured by groups and categories
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`technologies`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#technologies)
 
-#### Source
+#### Defined in
 
-main.ts:79641
+main.ts:80237
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 domain meta title
 
@@ -248,15 +248,15 @@ domain meta title
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`title`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:79607
+main.ts:80203
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -264,9 +264,9 @@ type of element
 
 [`IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md).[`type`](../interfaces/IDomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:79603
+main.ts:80199
 
 ## Methods
 
@@ -282,9 +282,9 @@ main.ts:79603
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:79654
+main.ts:80250
 
 ***
 
@@ -300,15 +300,15 @@ main.ts:79654
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:79700
+main.ts:80296
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md)
 
 #### Parameters
 
@@ -318,6 +318,6 @@ main.ts:79700
 
 [`DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo`](DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:79693
+main.ts:80289

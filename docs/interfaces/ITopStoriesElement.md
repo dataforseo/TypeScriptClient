@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,111 +14,123 @@
 
 ### amp\_version?
 
-> **`optional`** **amp\_version**: `boolean`
+> `optional` **amp\_version**: `boolean`
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
 
-#### Source
+#### Defined in
 
-main.ts:29773
+main.ts:29967
+
+***
+
+### badges?
+
+> `optional` **badges**: `string`[]
+
+badges relevant to the element
+
+#### Defined in
+
+main.ts:29978
 
 ***
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 the date when the page source of the element was published
 
-#### Source
+#### Defined in
 
-main.ts:29770
+main.ts:29964
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
-#### Source
+#### Defined in
 
-main.ts:29766
+main.ts:29960
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
-#### Source
+#### Defined in
 
-main.ts:29782
+main.ts:29976
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
 
-#### Source
+#### Defined in
 
-main.ts:29764
+main.ts:29958
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:29778
+main.ts:29972
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:29768
+main.ts:29962
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:29761
+main.ts:29955
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
-#### Source
+#### Defined in
 
-main.ts:29780
+main.ts:29974

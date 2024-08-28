@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,60 +14,60 @@
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: `number`
+> `optional` **referring\_domains**: `number`
 
 number of referring domains pointing to the target
 note that we calculate main domains (root domains, like example.com) and their subdomains (e.g. blog.example.com) separately for this metric
 
-#### Source
+#### Defined in
 
-main.ts:151462
+main.ts:153288
 
 ***
 
 ### referring\_domains\_nofollow?
 
-> **`optional`** **referring\_domains\_nofollow**: `number`
+> `optional` **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the target
 
-#### Source
+#### Defined in
 
-main.ts:151464
+main.ts:153290
 
 ***
 
 ### referring\_main\_domains?
 
-> **`optional`** **referring\_main\_domains**: `number`
+> `optional` **referring\_main\_domains**: `number`
 
 number of referring main domains pointing to the target
 the number of primary (root) domains referring to your target
 
-#### Source
+#### Defined in
 
-main.ts:151467
+main.ts:153293
 
 ***
 
 ### referring\_main\_domains\_nofollow?
 
-> **`optional`** **referring\_main\_domains\_nofollow**: `number`
+> `optional` **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target
 
-#### Source
+#### Defined in
 
-main.ts:151469
+main.ts:153295
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
-#### Source
+#### Defined in
 
-main.ts:151459
+main.ts:153285

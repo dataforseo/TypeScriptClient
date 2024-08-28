@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageDuplicateContentRequestInfo(data)
+### new OnPageDuplicateContentRequestInfo()
 
 > **new OnPageDuplicateContentRequestInfo**(`data`?): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:159024
+main.ts:160856
 
 ## Properties
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -48,15 +48,15 @@ example:
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`id`](../interfaces/IOnPageDuplicateContentRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:158996
+main.ts:160828
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -67,15 +67,15 @@ maximum value: 1000
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`limit`](../interfaces/IOnPageDuplicateContentRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:159009
+main.ts:160841
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -86,15 +86,15 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`offset`](../interfaces/IOnPageDuplicateContentRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:159014
+main.ts:160846
 
 ***
 
 ### similarity?
 
-> **`optional`** **similarity**: `number`
+> `optional` **similarity**: `number`
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
@@ -104,15 +104,15 @@ you can specify any similarity score in the 0-to-10 range
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`similarity`](../interfaces/IOnPageDuplicateContentRequestInfo.md#similarity)
 
-#### Source
+#### Defined in
 
-main.ts:159004
+main.ts:160836
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -124,15 +124,15 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`tag`](../interfaces/IOnPageDuplicateContentRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:159020
+main.ts:160852
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page URL
 required field
@@ -142,9 +142,9 @@ specify the initial page you want to receive duplicate content for
 
 [`IOnPageDuplicateContentRequestInfo`](../interfaces/IOnPageDuplicateContentRequestInfo.md).[`url`](../interfaces/IOnPageDuplicateContentRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:159000
+main.ts:160832
 
 ## Methods
 
@@ -160,9 +160,9 @@ main.ts:159000
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:159033
+main.ts:160865
 
 ***
 
@@ -178,15 +178,15 @@ main.ts:159033
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:159055
+main.ts:160887
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
 #### Parameters
 
@@ -196,6 +196,6 @@ main.ts:159055
 
 [`OnPageDuplicateContentRequestInfo`](OnPageDuplicateContentRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:159048
+main.ts:160880

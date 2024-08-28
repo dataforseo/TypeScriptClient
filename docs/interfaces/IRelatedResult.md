@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,258 +14,258 @@
 
 ### about\_this\_result?
 
-> **`optional`** **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
+> `optional` **about\_this\_result**: [`AboutThisResultElement`](../classes/AboutThisResultElement.md)
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
 this feature appears after clicking on the three dots next to most results
 
-#### Source
+#### Defined in
 
-main.ts:29669
+main.ts:29851
 
 ***
 
 ### amp\_version?
 
-> **`optional`** **amp\_version**: `boolean`
+> `optional` **amp\_version**: `boolean`
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
 
-#### Source
+#### Defined in
 
-main.ts:29658
+main.ts:29840
 
 ***
 
 ### breadcrumb?
 
-> **`optional`** **breadcrumb**: `string`
+> `optional` **breadcrumb**: `string`
 
 breadcrumb in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29641
+main.ts:29823
 
 ***
 
 ### cache\_url?
 
-> **`optional`** **cache\_url**: `string`
+> `optional` **cache\_url**: `string`
 
 cached version of the page
 
-#### Source
+#### Defined in
 
-main.ts:29636
+main.ts:29818
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the hotel booking element
 
-#### Source
+#### Defined in
 
-main.ts:29649
+main.ts:29831
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain where a link points
 
-#### Source
+#### Defined in
 
-main.ts:29630
+main.ts:29812
 
 ***
 
 ### extended\_snippet?
 
-> **`optional`** **extended\_snippet**: `string`
+> `optional` **extended\_snippet**: `string`
 
 includes additional information appended after the result description in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29653
+main.ts:29835
 
 ***
 
 ### highlighted?
 
-> **`optional`** **highlighted**: `string`[]
+> `optional` **highlighted**: `string`[]
 
 words highlighted in bold within the results description
 
-#### Source
+#### Defined in
 
-main.ts:29665
+main.ts:29847
 
 ***
 
 ### images?
 
-> **`optional`** **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
+> `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
 images of the element
 
-#### Source
+#### Defined in
 
-main.ts:29655
+main.ts:29837
 
 ***
 
 ### is\_image?
 
-> **`optional`** **is\_image**: `boolean`
+> `optional` **is\_image**: `boolean`
 
 indicates whether the element contains an image
 
-#### Source
+#### Defined in
 
-main.ts:29645
+main.ts:29827
 
 ***
 
 ### is\_video?
 
-> **`optional`** **is\_video**: `boolean`
+> `optional` **is\_video**: `boolean`
 
 indicates whether the element contains a video
 
-#### Source
+#### Defined in
 
-main.ts:29647
+main.ts:29829
 
 ***
 
 ### pre\_snippet?
 
-> **`optional`** **pre\_snippet**: `string`
+> `optional` **pre\_snippet**: `string`
 
 includes additional information appended before the result description in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29651
+main.ts:29833
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](../classes/PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price of booking a place for the specified dates of stay
 
-#### Source
+#### Defined in
 
-main.ts:29663
+main.ts:29845
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29661
+main.ts:29843
 
 ***
 
 ### related\_search\_url?
 
-> **`optional`** **related\_search\_url**: `string`
+> `optional` **related\_search\_url**: `string`
 
 URL to a similar search
 URL to a new search for the same keyword(s) on related sites
 
-#### Source
+#### Defined in
 
-main.ts:29639
+main.ts:29821
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:29674
+main.ts:29856
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:29632
+main.ts:29814
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:29626
+main.ts:29808
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of element
 
-#### Source
+#### Defined in
 
-main.ts:29634
+main.ts:29816
 
 ***
 
 ### website\_name?
 
-> **`optional`** **website\_name**: `string`
+> `optional` **website\_name**: `string`
 
 name of the website in SERP
 
-#### Source
+#### Defined in
 
-main.ts:29643
+main.ts:29825
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:29628
+main.ts:29810

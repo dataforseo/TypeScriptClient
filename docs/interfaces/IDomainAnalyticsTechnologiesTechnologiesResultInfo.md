@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,10 +14,10 @@
 
 ### groups?
 
-> **`optional`** **groups**: [`Groups`](../classes/Groups.md)[]
+> `optional` **groups**: [`Groups`](../classes/Groups.md)[]
 
 array of technology groups
 
-#### Source
+#### Defined in
 
-main.ts:76784
+main.ts:77380

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo(data)
+### new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo()
 
 > **new DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:104275
+main.ts:104905
 
 ## Properties
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 target keywords
 required field
@@ -49,15 +49,15 @@ the keywords will be converted to lowercase format
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`keywords`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:104218
+main.ts:104848
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -70,15 +70,15 @@ en
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:104265
+main.ts:104895
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -91,15 +91,15 @@ English
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:104258
+main.ts:104888
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -113,15 +113,15 @@ example:
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:104251
+main.ts:104881
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -152,15 +152,15 @@ United States
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:104243
+main.ts:104873
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -172,9 +172,9 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:104271
+main.ts:104901
 
 ## Methods
 
@@ -190,9 +190,9 @@ main.ts:104271
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:104284
+main.ts:104914
 
 ***
 
@@ -208,15 +208,15 @@ main.ts:104284
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:104310
+main.ts:104940
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
 
 #### Parameters
 
@@ -226,6 +226,6 @@ main.ts:104310
 
 [`DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo`](DataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:104303
+main.ts:104933

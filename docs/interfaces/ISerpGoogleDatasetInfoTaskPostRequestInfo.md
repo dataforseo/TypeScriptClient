@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### dataset\_id?
 
-> **`optional`** **dataset\_id**: `string`
+> `optional` **dataset\_id**: `string`
 
 ID of the dataset
 required field
@@ -22,29 +22,29 @@ you can find dataset ID in the dataset URL or dataset item of Google Dataset Sea
 example:
 L2cvMTFqbl85ZHN6MQ==
 
-#### Source
+#### Defined in
 
-main.ts:56242
+main.ts:56774
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
 possible value: desktop
 
-#### Source
+#### Defined in
 
-main.ts:56266
+main.ts:56798
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -52,15 +52,15 @@ if you use this field, you don’t need to specify language_name
 possible value:
 en
 
-#### Source
+#### Defined in
 
-main.ts:56262
+main.ts:56794
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -68,30 +68,30 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English
 
-#### Source
+#### Defined in
 
-main.ts:56256
+main.ts:56788
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
 choose from the following values: windows, macos
 default value: windows
 
-#### Source
+#### Defined in
 
-main.ts:56271
+main.ts:56803
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -103,30 +103,30 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:56302
+main.ts:56834
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
 corresponds to the datatype that will be sent to your server
 possible value: advanced
 
-#### Source
+#### Defined in
 
-main.ts:56292
+main.ts:56824
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -138,15 +138,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:56287
+main.ts:56819
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -156,15 +156,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Source
+#### Defined in
 
-main.ts:56250
+main.ts:56782
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -172,6 +172,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:56277
+main.ts:56809

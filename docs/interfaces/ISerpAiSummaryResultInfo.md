@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### items?
 
-> **`optional`** **items**: [`SerpAiSummaryItem`](../classes/SerpAiSummaryItem.md)[]
+> `optional` **items**: [`SerpAiSummaryItem`](../classes/SerpAiSummaryItem.md)[]
 
 items array
 
-#### Source
+#### Defined in
 
-main.ts:25084
+main.ts:25266
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
-#### Source
+#### Defined in
 
-main.ts:25082
+main.ts:25264

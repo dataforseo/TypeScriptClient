@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixContentAnalysisLimitsRatesDataInfo(data)
+### new AppendixContentAnalysisLimitsRatesDataInfo()
 
 > **new AppendixContentAnalysisLimitsRatesDataInfo**(`data`?): [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
 
@@ -28,149 +28,149 @@
 
 [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220214
+main.ts:222122
 
 ## Properties
 
 ### categories?
 
-> **`optional`** **categories**: `number`
+> `optional` **categories**: `number`
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`categories`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:220209
+main.ts:222117
 
 ***
 
 ### category\_trends?
 
-> **`optional`** **category\_trends**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **category\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`category_trends`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#category_trends)
 
-#### Source
+#### Defined in
 
-main.ts:220206
+main.ts:222114
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:220210
+main.ts:222118
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:220208
+main.ts:222116
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:220207
+main.ts:222115
 
 ***
 
 ### phrase\_trends?
 
-> **`optional`** **phrase\_trends**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **phrase\_trends**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`phrase_trends`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#phrase_trends)
 
-#### Source
+#### Defined in
 
-main.ts:220205
+main.ts:222113
 
 ***
 
 ### rating\_distribution?
 
-> **`optional`** **rating\_distribution**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **rating\_distribution**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`rating_distribution`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#rating_distribution)
 
-#### Source
+#### Defined in
 
-main.ts:220204
+main.ts:222112
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`search`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#search)
 
-#### Source
+#### Defined in
 
-main.ts:220201
+main.ts:222109
 
 ***
 
 ### sentiment\_analysis?
 
-> **`optional`** **sentiment\_analysis**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **sentiment\_analysis**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`sentiment_analysis`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#sentiment_analysis)
 
-#### Source
+#### Defined in
 
-main.ts:220203
+main.ts:222111
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **summary**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixContentAnalysisLimitsRatesDataInfo`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md).[`summary`](../interfaces/IAppendixContentAnalysisLimitsRatesDataInfo.md#summary)
 
-#### Source
+#### Defined in
 
-main.ts:220202
+main.ts:222110
 
 ## Methods
 
@@ -186,9 +186,9 @@ main.ts:220202
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:220223
+main.ts:222131
 
 ***
 
@@ -204,15 +204,15 @@ main.ts:220223
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:220249
+main.ts:222157
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -222,6 +222,6 @@ main.ts:220249
 
 [`AppendixContentAnalysisLimitsRatesDataInfo`](AppendixContentAnalysisLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220242
+main.ts:222150

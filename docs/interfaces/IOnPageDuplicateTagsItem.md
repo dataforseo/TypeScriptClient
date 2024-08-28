@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### accumulator?
 
-> **`optional`** **accumulator**: `string`
+> `optional` **accumulator**: `string`
 
 contains the value of duplicated tag
 
-#### Source
+#### Defined in
 
-main.ts:158777
+main.ts:160609
 
 ***
 
 ### pages?
 
-> **`optional`** **pages**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
+> `optional` **pages**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
 pages with duplicate tags
 
-#### Source
+#### Defined in
 
-main.ts:158781
+main.ts:160613
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total count of duplicate pages
 
-#### Source
+#### Defined in
 
-main.ts:158779
+main.ts:160611

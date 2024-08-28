@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### amazon\_paid?
 
-> **`optional`** **amazon\_paid**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
+> `optional` **amazon\_paid**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
 ranking data from Amazon paid SERP
 
-#### Source
+#### Defined in
 
-main.ts:106396
+main.ts:107026
 
 ***
 
 ### amazon\_serp?
 
-> **`optional`** **amazon\_serp**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
+> `optional` **amazon\_serp**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
 ranking data from Amazon organic SERP
 
-#### Source
+#### Defined in
 
-main.ts:106394
+main.ts:107024

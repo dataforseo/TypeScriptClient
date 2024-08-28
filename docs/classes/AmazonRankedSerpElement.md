@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AmazonRankedSerpElement(data)
+### new AmazonRankedSerpElement()
 
 > **new AmazonRankedSerpElement**(`data`?): [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
@@ -28,15 +28,15 @@
 
 [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:105760
+main.ts:106390
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to Amazon results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,15 @@ you can use it to make sure that we provided accurate results
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`check_url`](../interfaces/IAmazonRankedSerpElement.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:105739
+main.ts:106369
 
 ***
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
 date and time when SERP data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +64,15 @@ example:
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`last_updated_time`](../interfaces/IAmazonRankedSerpElement.md#last_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:105751
+main.ts:106381
 
 ***
 
 ### previous\_updated\_time?
 
-> **`optional`** **previous\_updated\_time**: `string`
+> `optional` **previous\_updated\_time**: `string`
 
 previous to the most recent update of SERP data
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -83,15 +83,15 @@ example:
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`previous_updated_time`](../interfaces/IAmazonRankedSerpElement.md#previous_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:105756
+main.ts:106386
 
 ***
 
 ### se\_results\_count?
 
-> **`optional`** **se\_results\_count**: `number`
+> `optional` **se\_results\_count**: `number`
 
 total number of results in Amazon SERP
 
@@ -99,15 +99,15 @@ total number of results in Amazon SERP
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`se_results_count`](../interfaces/IAmazonRankedSerpElement.md#se_results_count)
 
-#### Source
+#### Defined in
 
-main.ts:105746
+main.ts:106376
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -115,15 +115,15 @@ search engine type
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`se_type`](../interfaces/IAmazonRankedSerpElement.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:105733
+main.ts:106363
 
 ***
 
 ### serp\_item?
 
-> **`optional`** **serp\_item**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
+> `optional` **serp\_item**: [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md)
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -132,15 +132,15 @@ the list of supported SERP elements can be found below
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`serp_item`](../interfaces/IAmazonRankedSerpElement.md#serp_item)
 
-#### Source
+#### Defined in
 
-main.ts:105736
+main.ts:106366
 
 ***
 
 ### serp\_item\_types?
 
-> **`optional`** **serp\_item\_types**: `string`[]
+> `optional` **serp\_item\_types**: `string`[]
 
 direct URL to Amazon results
 contains types of all search results (items) found in the returned SERP;
@@ -151,9 +151,9 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 [`IAmazonRankedSerpElement`](../interfaces/IAmazonRankedSerpElement.md).[`serp_item_types`](../interfaces/IAmazonRankedSerpElement.md#serp_item_types)
 
-#### Source
+#### Defined in
 
-main.ts:105744
+main.ts:106374
 
 ## Methods
 
@@ -169,9 +169,9 @@ main.ts:105744
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:105769
+main.ts:106399
 
 ***
 
@@ -187,15 +187,15 @@ main.ts:105769
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:105796
+main.ts:106426
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
+> `static` **fromJS**(`data`): [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
 #### Parameters
 
@@ -205,6 +205,6 @@ main.ts:105796
 
 [`AmazonRankedSerpElement`](AmazonRankedSerpElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:105789
+main.ts:106419

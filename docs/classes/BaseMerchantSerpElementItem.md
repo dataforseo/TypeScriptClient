@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -27,7 +27,7 @@
 
 ## Constructors
 
-### new BaseMerchantSerpElementItem(data)
+### new BaseMerchantSerpElementItem()
 
 > **new BaseMerchantSerpElementItem**(`data`?): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
@@ -39,19 +39,19 @@
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:20845
+main.ts:21027
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:20843
+main.ts:21025
 
 ## Methods
 
@@ -67,9 +67,9 @@ main.ts:20843
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:20855
+main.ts:21037
 
 ***
 
@@ -85,15 +85,15 @@ main.ts:20855
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:20911
+main.ts:21093
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
+> `static` **fromJS**(`data`): [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
 #### Parameters
 
@@ -103,6 +103,6 @@ main.ts:20911
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:20864
+main.ts:21046

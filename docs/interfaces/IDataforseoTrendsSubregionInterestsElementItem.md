@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,49 +18,49 @@
 
 ### interests?
 
-> **`optional`** **interests**: [`Interests`](../classes/Interests.md)[]
+> `optional` **interests**: [`Interests`](../classes/Interests.md)[]
 
 subregional keyword popuarity data for each specified term
 
-#### Source
+#### Defined in
 
-main.ts:129728
+main.ts:129552
 
 ***
 
 ### interests\_comparison?
 
-> **`optional`** **interests\_comparison**: [`InterestsComparison`](../classes/InterestsComparison.md)
+> `optional` **interests\_comparison**: [`InterestsComparison`](../classes/InterestsComparison.md)
 
 comparison of data on subregional keyword popularity for the specified parameters
 if you specified a single keyword, the value will be null
 
-#### Source
+#### Defined in
 
-main.ts:129731
+main.ts:129555
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the interests and interests_comparison is based on the keywords listed in this array
 
-#### Source
+#### Defined in
 
-main.ts:129726
+main.ts:129550
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
 
-#### Source
+#### Defined in
 
-main.ts:129723
+main.ts:129547

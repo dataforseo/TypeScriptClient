@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### is\_auto\_generated?
 
-> **`optional`** **is\_auto\_generated**: `boolean`
+> `optional` **is\_auto\_generated**: `boolean`
 
 defines if subtitles are auto generated
 
-#### Source
+#### Defined in
 
-main.ts:62884
+main.ts:63474
 
 ***
 
 ### is\_translatable?
 
-> **`optional`** **is\_translatable**: `boolean`
+> `optional` **is\_translatable**: `boolean`
 
 defines if subtitles are translatable
 
-#### Source
+#### Defined in
 
-main.ts:62882
+main.ts:63472
 
 ***
 
 ### language?
 
-> **`optional`** **language**: `string`
+> `optional` **language**: `string`
 
 language of subtitles
 
-#### Source
+#### Defined in
 
-main.ts:62880
+main.ts:63470

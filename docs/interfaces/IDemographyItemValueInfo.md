@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,19 +14,19 @@
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:130189
+main.ts:130013
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 keyword popularity rate within the specified age range
 using this value you can understand how popular a keyword is within each age range;
@@ -34,6 +34,6 @@ calculation: we determine the highest popularity value for the relevant keyword 
 a value of 100 is the highest popularity for the term
 a value of 0 means there was not enough data for this term
 
-#### Source
+#### Defined in
 
-main.ts:130195
+main.ts:130019

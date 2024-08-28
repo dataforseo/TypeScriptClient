@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataGoogleAppListTaskPostRequestInfo(data)
+### new AppDataGoogleAppListTaskPostRequestInfo()
 
 > **new AppDataGoogleAppListTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:190771
+main.ts:192603
 
 ## Properties
 
 ### age\_rating?
 
-> **`optional`** **age\_rating**: `string`
+> `optional` **age\_rating**: `string`
 
 filter results by age rating
 optional field
@@ -52,15 +52,15 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`age_rating`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#age_rating)
 
-#### Source
+#### Defined in
 
-main.ts:190735
+main.ts:192567
 
 ***
 
 ### app\_category?
 
-> **`optional`** **app\_category**: `string`
+> `optional` **app\_category**: `string`
 
 application category on Google Play
 optional field
@@ -74,15 +74,15 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`app_category`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#app_category)
 
-#### Source
+#### Defined in
 
-main.ts:190725
+main.ts:192557
 
 ***
 
 ### app\_collection?
 
-> **`optional`** **app\_collection**: `string`
+> `optional` **app\_collection**: `string`
 
 app collection
 required field
@@ -95,15 +95,15 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`app_collection`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#app_collection)
 
-#### Source
+#### Defined in
 
-main.ts:190674
+main.ts:192506
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -116,15 +116,15 @@ maximum value: 200
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`depth`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:190717
+main.ts:192549
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -137,15 +137,15 @@ en
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`language_code`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:190702
+main.ts:192534
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -158,15 +158,15 @@ English
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`language_name`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:190695
+main.ts:192527
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -179,15 +179,15 @@ example:
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`location_code`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:190688
+main.ts:192520
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -200,15 +200,15 @@ West Los Angeles,California,United States
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`location_name`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:190681
+main.ts:192513
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -224,15 +224,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:190767
+main.ts:192599
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -244,15 +244,15 @@ advanced, html
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`postback_data`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:190757
+main.ts:192589
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -268,15 +268,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`postback_url`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:190751
+main.ts:192583
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -290,15 +290,15 @@ The cost can be calculated on the Pricing page.
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`priority`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:190710
+main.ts:192542
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -310,9 +310,9 @@ you will find the specified tag value in the data object of the response
 
 [`IAppDataGoogleAppListTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md).[`tag`](../interfaces/IAppDataGoogleAppListTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:190741
+main.ts:192573
 
 ## Methods
 
@@ -328,9 +328,9 @@ main.ts:190741
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:190780
+main.ts:192612
 
 ***
 
@@ -346,15 +346,15 @@ main.ts:190780
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:190809
+main.ts:192641
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -364,6 +364,6 @@ main.ts:190809
 
 [`AppDataGoogleAppListTaskPostRequestInfo`](AppDataGoogleAppListTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:190802
+main.ts:192634

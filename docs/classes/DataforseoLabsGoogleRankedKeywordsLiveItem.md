@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleRankedKeywordsLiveItem(data)
+### new DataforseoLabsGoogleRankedKeywordsLiveItem()
 
 > **new DataforseoLabsGoogleRankedKeywordsLiveItem**(`data`?): [`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:92517
+main.ts:93067
 
 ## Properties
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -44,15 +44,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:92511
+main.ts:93061
 
 ***
 
 ### ranked\_serp\_element?
 
-> **`optional`** **ranked\_serp\_element**: [`RankedSerpElement`](RankedSerpElement.md)
+> `optional` **ranked\_serp\_element**: [`RankedSerpElement`](RankedSerpElement.md)
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -60,15 +60,15 @@ contains data on the domain’s SERP element found for the returned keyword
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md).[`ranked_serp_element`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md#ranked_serp_element)
 
-#### Source
+#### Defined in
 
-main.ts:92513
+main.ts:93063
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -76,9 +76,9 @@ search engine type
 
 [`IDataforseoLabsGoogleRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleRankedKeywordsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:92509
+main.ts:93059
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:92509
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:92526
+main.ts:93076
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:92526
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:92545
+main.ts:93095
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:92545
 
 [`DataforseoLabsGoogleRankedKeywordsLiveItem`](DataforseoLabsGoogleRankedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:92538
+main.ts:93088

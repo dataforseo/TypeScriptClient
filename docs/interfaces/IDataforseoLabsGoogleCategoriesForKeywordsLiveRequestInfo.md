@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 target keywords
 required field
@@ -23,15 +23,15 @@ maximum number of keywords you can specify in this array: 1000
 each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
 
-#### Source
+#### Defined in
 
-main.ts:88924
+main.ts:89488
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -40,15 +40,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/google/categories_for_keywords/lan
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:88938
+main.ts:89502
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -57,15 +57,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/google/categories_for_keywords/lan
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:88931
+main.ts:89495
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -73,6 +73,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:88944
+main.ts:89508

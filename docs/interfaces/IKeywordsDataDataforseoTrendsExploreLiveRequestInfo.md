@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -25,15 +25,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:128802
+main.ts:128626
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -42,29 +42,29 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:128809
+main.ts:128633
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
 the maximum number of keywords you can specify: 5
 
-#### Source
+#### Defined in
 
-main.ts:128773
+main.ts:128597
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 optional field
@@ -75,15 +75,15 @@ note that the data will be provided for the country the specified location_code 
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:128791
+main.ts:128615
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -94,15 +94,15 @@ note that the data will be provided for the country the specified location_name 
 example:
 United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:128782
+main.ts:128606
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -110,15 +110,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:128821
+main.ts:128645
 
 ***
 
 ### time\_range?
 
-> **`optional`** **time\_range**: `string`
+> `optional` **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -126,18 +126,18 @@ if you specify date_from or date_to parameters, this field will be ignored when 
 possible values for all type parameters:
 past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months, past_5_years
 
-#### Source
+#### Defined in
 
-main.ts:128815
+main.ts:128639
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:128793
+main.ts:128617

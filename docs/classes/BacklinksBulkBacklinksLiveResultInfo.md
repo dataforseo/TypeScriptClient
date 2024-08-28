@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkBacklinksLiveResultInfo(data)
+### new BacklinksBulkBacklinksLiveResultInfo()
 
 > **new BacklinksBulkBacklinksLiveResultInfo**(`data`?): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150780
+main.ts:152606
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)[]
+> `optional` **items**: [`BacklinksBulkBacklinksLiveItem`](BacklinksBulkBacklinksLiveItem.md)[]
 
 contains relevant backlink data
 
@@ -44,15 +44,15 @@ contains relevant backlink data
 
 [`IBacklinksBulkBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:150776
+main.ts:152602
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,9 +60,9 @@ the number of results returned in the items array
 
 [`IBacklinksBulkBacklinksLiveResultInfo`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkBacklinksLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:150774
+main.ts:152600
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:150774
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:150789
+main.ts:152615
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:150789
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:150811
+main.ts:152637
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:150811
 
 [`BacklinksBulkBacklinksLiveResultInfo`](BacklinksBulkBacklinksLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150804
+main.ts:152630

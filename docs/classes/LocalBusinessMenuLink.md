@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new LocalBusinessMenuLink(data)
+### new LocalBusinessMenuLink()
 
 > **new LocalBusinessMenuLink**(`data`?): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:23590
+main.ts:23772
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`_discriminator`](BaseLocalBusinessLink.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:23346
+main.ts:23528
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 domain of the online menu system
@@ -67,15 +67,15 @@ domain of the online menu system
 
 [`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md).[`title`](../interfaces/ILocalBusinessMenuLink.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:23584
+main.ts:23766
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to view the menu
 
@@ -83,9 +83,9 @@ URL to view the menu
 
 [`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md).[`url`](../interfaces/ILocalBusinessMenuLink.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:23586
+main.ts:23768
 
 ## Methods
 
@@ -105,9 +105,9 @@ main.ts:23586
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`init`](BaseLocalBusinessLink.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:23595
+main.ts:23777
 
 ***
 
@@ -127,15 +127,15 @@ main.ts:23595
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`toJSON`](BaseLocalBusinessLink.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:23614
+main.ts:23796
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
+> `static` **fromJS**(`data`): [`LocalBusinessMenuLink`](LocalBusinessMenuLink.md)
 
 #### Parameters
 
@@ -149,6 +149,6 @@ main.ts:23614
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`fromJS`](BaseLocalBusinessLink.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:23607
+main.ts:23789

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### app\_ids?
 
-> **`optional`** **app\_ids**: `string`[]
+> `optional` **app\_ids**: `string`[]
 
 ids of the app
 required field
@@ -25,15 +25,15 @@ in the URL https://play.google.com/store/apps/details?id=org.telegram.messenger
 the id is org.telegram.messenger;
 the maximum number of IDs you can specify in this field is 1000
 
-#### Source
+#### Defined in
 
-main.ts:113758
+main.ts:114390
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -44,15 +44,15 @@ Note: this endpoint currently supports the English language only
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:113794
+main.ts:114426
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -63,15 +63,15 @@ Note: this endpoint currently supports the English language only;
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:113785
+main.ts:114417
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -82,15 +82,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:113776
+main.ts:114408
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -101,15 +101,15 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Source
+#### Defined in
 
-main.ts:113767
+main.ts:114399
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -117,6 +117,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:113800
+main.ts:114432

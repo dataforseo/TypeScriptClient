@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageDuplicateContentItem(data)
+### new OnPageDuplicateContentItem()
 
 > **new OnPageDuplicateContentItem**(`data`?): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:159184
+main.ts:161016
 
 ## Properties
 
 ### pages?
 
-> **`optional`** **pages**: [`Pages`](Pages.md)[]
+> `optional` **pages**: [`Pages`](Pages.md)[]
 
 pages with duplicate content
 
@@ -44,15 +44,15 @@ pages with duplicate content
 
 [`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md).[`pages`](../interfaces/IOnPageDuplicateContentItem.md#pages)
 
-#### Source
+#### Defined in
 
-main.ts:159180
+main.ts:161012
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total count of duplicate pages
 
@@ -60,15 +60,15 @@ total count of duplicate pages
 
 [`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md).[`total_count`](../interfaces/IOnPageDuplicateContentItem.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:159178
+main.ts:161010
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the specified page
 
@@ -76,9 +76,9 @@ URL of the specified page
 
 [`IOnPageDuplicateContentItem`](../interfaces/IOnPageDuplicateContentItem.md).[`url`](../interfaces/IOnPageDuplicateContentItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:159176
+main.ts:161008
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:159176
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:159193
+main.ts:161025
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:159193
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:159216
+main.ts:161048
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
+> `static` **fromJS**(`data`): [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:159216
 
 [`OnPageDuplicateContentItem`](OnPageDuplicateContentItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:159209
+main.ts:161041

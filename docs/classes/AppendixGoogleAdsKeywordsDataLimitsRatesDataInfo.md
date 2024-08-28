@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo(data)
+### new AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo()
 
 > **new AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo**(`data`?): [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
@@ -28,79 +28,79 @@
 
 [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218657
+main.ts:220505
 
 ## Properties
 
 ### ad\_traffic\_by\_keywords?
 
-> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md).[`ad_traffic_by_keywords`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md#ad_traffic_by_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:218653
+main.ts:220501
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md).[`keywords_for_keywords`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md#keywords_for_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:218651
+main.ts:220499
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md).[`keywords_for_site`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md#keywords_for_site)
 
-#### Source
+#### Defined in
 
-main.ts:218652
+main.ts:220500
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md).[`search_volume`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md#search_volume)
 
-#### Source
+#### Defined in
 
-main.ts:218650
+main.ts:220498
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `number`
+> `optional` **status**: `number`
 
 #### Implementation of
 
 [`IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md).[`status`](../interfaces/IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md#status)
 
-#### Source
+#### Defined in
 
-main.ts:218649
+main.ts:220497
 
 ## Methods
 
@@ -116,9 +116,9 @@ main.ts:218649
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:218666
+main.ts:220514
 
 ***
 
@@ -134,15 +134,15 @@ main.ts:218666
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:218687
+main.ts:220535
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -152,6 +152,6 @@ main.ts:218687
 
 [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218680
+main.ts:220528

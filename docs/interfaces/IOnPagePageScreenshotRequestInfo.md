@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### accept\_language?
 
-> **`optional`** **accept\_language**: `string`
+> `optional` **accept\_language**: `string`
 
 language header for accessing the website
 optional field
 all locale formats are supported (xx, xx-XX, xxx-XX, etc.)
 note: if you do not specify this parameter, some websites may deny access; in this case, you will obtain "error_message":"Screenshot is empty" in the response array
 
-#### Source
+#### Defined in
 
-main.ts:163092
+main.ts:164924
 
 ***
 
 ### browser\_preset?
 
-> **`optional`** **browser\_preset**: `string`
+> `optional` **browser\_preset**: `string`
 
 preset for browser screen parameters
 optional field
@@ -50,15 +50,15 @@ browser_screen_height: 1366
 browser_screen_scale_factor: 2
 Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_resources, and enable_xhr parameters are always enabled.
 
-#### Source
+#### Defined in
 
-main.ts:163118
+main.ts:164950
 
 ***
 
 ### browser\_screen\_height?
 
-> **`optional`** **browser\_screen\_height**: `number`
+> `optional` **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -67,15 +67,15 @@ if you use this field, you don’t need to indicate browser_preset as it will be
 minimum value, in pixels: 240
 maximum value, in pixels: 9999
 
-#### Source
+#### Defined in
 
-main.ts:163132
+main.ts:164964
 
 ***
 
 ### browser\_screen\_scale\_factor?
 
-> **`optional`** **browser\_screen\_scale\_factor**: `number`
+> `optional` **browser\_screen\_scale\_factor**: `number`
 
 browser screen scale factor
 optional field
@@ -84,15 +84,15 @@ if you use this field, you don’t need to indicate browser_preset as it will be
 minimum value: 0.5
 maximum value: 3
 
-#### Source
+#### Defined in
 
-main.ts:163139
+main.ts:164971
 
 ***
 
 ### browser\_screen\_width?
 
-> **`optional`** **browser\_screen\_width**: `number`
+> `optional` **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -101,39 +101,39 @@ if you use this field, you don’t need to indicate browser_preset as it will be
 minimum value, in pixels: 240
 maximum value, in pixels: 9999
 
-#### Source
+#### Defined in
 
-main.ts:163125
+main.ts:164957
 
 ***
 
 ### custom\_js?
 
-> **`optional`** **custom\_js**: `string`
+> `optional` **custom\_js**: `string`
 
 custom javascript
 optional field
 Note that the execution time for the script you enter here should be 700 ms maximum
 for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
-let meta = \{ haveGoogleAnalytics: false, haveTagManager: false \};\r\nfor (var i = 0; i `< document.scripts.length; i++) \{\r\n  let src = document.scripts[i].getAttribute(\"src\");\r\n  if (src != undefined) \{\r\n    if (src.indexOf(\"analytics.js\") >`= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  \}\r\n\}\r\nmeta;
+let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n  let src = document.scripts[i].getAttribute(\"src\");\r\n  if (src != undefined) {\r\n    if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;
 the returned value depends on what you specified in this field. For instance, if you specify the following script:
-meta = \{\}; meta.url = document.URL; meta.test = 'test'; meta;
+meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
 as a response you will receive the following data:
-"custom_js_response": \{
+"custom_js_response": {
   "url": "https://dataforseo.com/",
   "test": "test"
-\}
+}
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
-#### Source
+#### Defined in
 
-main.ts:163164
+main.ts:164996
 
 ***
 
 ### custom\_user\_agent?
 
-> **`optional`** **custom\_user\_agent**: `string`
+> `optional` **custom\_user\_agent**: `string`
 
 custom user agent
 optional field
@@ -142,15 +142,15 @@ example: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHT
 
 default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
-#### Source
+#### Defined in
 
-main.ts:163099
+main.ts:164931
 
 ***
 
 ### disable\_cookie\_popup?
 
-> **`optional`** **disable\_cookie\_popup**: `boolean`
+> `optional` **disable\_cookie\_popup**: `boolean`
 
 disable the cookie popup 
 optional field
@@ -158,30 +158,30 @@ set to true if you want to disable the popup requesting cookie consent from the 
 default value:
 false
 
-#### Source
+#### Defined in
 
-main.ts:163150
+main.ts:164982
 
 ***
 
 ### full\_page\_screenshot?
 
-> **`optional`** **full\_page\_screenshot**: `boolean`
+> `optional` **full\_page\_screenshot**: `boolean`
 
 take a screenshot of the full page
 optional field
 set to false if you want to capture only the part of the page displayed before scrolling
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:163144
+main.ts:164976
 
 ***
 
 ### ip\_pool\_for\_scan?
 
-> **`optional`** **ip\_pool\_for\_scan**: `string`
+> `optional` **ip\_pool\_for\_scan**: `string`
 
 proxy pool
 optional field
@@ -189,36 +189,36 @@ you can choose a location of the proxy pool that will be used to obtain the requ
 the parameter can be used if page content is inaccessible in one of the locations, resulting in occasional site_unreachable errors
 possible values: us, de
 
-#### Source
+#### Defined in
 
-main.ts:163175
+main.ts:165007
 
 ***
 
 ### switch\_pool?
 
-> **`optional`** **switch\_pool**: `boolean`
+> `optional` **switch\_pool**: `boolean`
 
 switch proxy pool
 optional field
 if true, additional proxy pools will be used to obtain the requested data;
 the parameter can be used if a multitude of tasks is set simultaneously, resulting in occasional rate-limit and/or site_unreachable errors
 
-#### Source
+#### Defined in
 
-main.ts:163169
+main.ts:165001
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page url
 required field
 absolute URL of the page to snap
 note: if the URL you indicate here returns a 404 status code or the indicated value is not a valid URL, you will obtain "error_message":"Screenshot is empty" in the response array
 
-#### Source
+#### Defined in
 
-main.ts:163087
+main.ts:164919

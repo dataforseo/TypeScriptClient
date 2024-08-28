@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixMerchantLimitsRatesDataInfo(data)
+### new AppendixMerchantLimitsRatesDataInfo()
 
 > **new AppendixMerchantLimitsRatesDataInfo**(`data`?): [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
@@ -28,107 +28,107 @@
 
 [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219487
+main.ts:221395
 
 ## Properties
 
 ### amazon?
 
-> **`optional`** **amazon**: [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
+> `optional` **amazon**: [`AppendixMerchantAmazonInfo`](AppendixMerchantAmazonInfo.md)
 
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`amazon`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#amazon)
 
-#### Source
+#### Defined in
 
-main.ts:219478
+main.ts:221386
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:219481
+main.ts:221389
 
 ***
 
 ### google?
 
-> **`optional`** **google**: [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
+> `optional` **google**: [`AppendixMerchantGoogleInfo`](AppendixMerchantGoogleInfo.md)
 
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`google`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#google)
 
-#### Source
+#### Defined in
 
-main.ts:219477
+main.ts:221385
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:219480
+main.ts:221388
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:219479
+main.ts:221387
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`reviews`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#reviews)
 
-#### Source
+#### Defined in
 
-main.ts:219482
+main.ts:221390
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
 #### Implementation of
 
 [`IAppendixMerchantLimitsRatesDataInfo`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixMerchantLimitsRatesDataInfo.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:219483
+main.ts:221391
 
 ## Methods
 
@@ -144,9 +144,9 @@ main.ts:219483
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:219496
+main.ts:221404
 
 ***
 
@@ -162,15 +162,15 @@ main.ts:219496
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:219519
+main.ts:221427
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -180,6 +180,6 @@ main.ts:219519
 
 [`AppendixMerchantLimitsRatesDataInfo`](AppendixMerchantLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219512
+main.ts:221420

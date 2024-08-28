@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RelatedResult(data)
+### new RelatedResult()
 
 > **new RelatedResult**(`data`?): [`RelatedResult`](RelatedResult.md)
 
@@ -28,15 +28,15 @@
 
 [`RelatedResult`](RelatedResult.md)
 
-#### Source
+#### Defined in
 
-main.ts:29531
+main.ts:29713
 
 ## Properties
 
 ### about\_this\_result?
 
-> **`optional`** **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
+> `optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -46,15 +46,15 @@ this feature appears after clicking on the three dots next to most results
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`about_this_result`](../interfaces/IRelatedResult.md#about_this_result)
 
-#### Source
+#### Defined in
 
-main.ts:29522
+main.ts:29704
 
 ***
 
 ### amp\_version?
 
-> **`optional`** **amp\_version**: `boolean`
+> `optional` **amp\_version**: `boolean`
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -63,15 +63,15 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`amp_version`](../interfaces/IRelatedResult.md#amp_version)
 
-#### Source
+#### Defined in
 
-main.ts:29511
+main.ts:29693
 
 ***
 
 ### breadcrumb?
 
-> **`optional`** **breadcrumb**: `string`
+> `optional` **breadcrumb**: `string`
 
 breadcrumb in SERP
 
@@ -79,15 +79,15 @@ breadcrumb in SERP
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`breadcrumb`](../interfaces/IRelatedResult.md#breadcrumb)
 
-#### Source
+#### Defined in
 
-main.ts:29494
+main.ts:29676
 
 ***
 
 ### cache\_url?
 
-> **`optional`** **cache\_url**: `string`
+> `optional` **cache\_url**: `string`
 
 cached version of the page
 
@@ -95,15 +95,15 @@ cached version of the page
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`cache_url`](../interfaces/IRelatedResult.md#cache_url)
 
-#### Source
+#### Defined in
 
-main.ts:29489
+main.ts:29671
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the hotel booking element
 
@@ -111,15 +111,15 @@ description of the hotel booking element
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`description`](../interfaces/IRelatedResult.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:29502
+main.ts:29684
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain where a link points
 
@@ -127,15 +127,15 @@ domain where a link points
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`domain`](../interfaces/IRelatedResult.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:29483
+main.ts:29665
 
 ***
 
 ### extended\_snippet?
 
-> **`optional`** **extended\_snippet**: `string`
+> `optional` **extended\_snippet**: `string`
 
 includes additional information appended after the result description in SERP
 
@@ -143,15 +143,15 @@ includes additional information appended after the result description in SERP
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`extended_snippet`](../interfaces/IRelatedResult.md#extended_snippet)
 
-#### Source
+#### Defined in
 
-main.ts:29506
+main.ts:29688
 
 ***
 
 ### highlighted?
 
-> **`optional`** **highlighted**: `string`[]
+> `optional` **highlighted**: `string`[]
 
 words highlighted in bold within the results description
 
@@ -159,15 +159,15 @@ words highlighted in bold within the results description
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`highlighted`](../interfaces/IRelatedResult.md#highlighted)
 
-#### Source
+#### Defined in
 
-main.ts:29518
+main.ts:29700
 
 ***
 
 ### images?
 
-> **`optional`** **images**: [`ImagesElement`](ImagesElement.md)[]
+> `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
 images of the element
 
@@ -175,15 +175,15 @@ images of the element
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`images`](../interfaces/IRelatedResult.md#images)
 
-#### Source
+#### Defined in
 
-main.ts:29508
+main.ts:29690
 
 ***
 
 ### is\_image?
 
-> **`optional`** **is\_image**: `boolean`
+> `optional` **is\_image**: `boolean`
 
 indicates whether the element contains an image
 
@@ -191,15 +191,15 @@ indicates whether the element contains an image
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`is_image`](../interfaces/IRelatedResult.md#is_image)
 
-#### Source
+#### Defined in
 
-main.ts:29498
+main.ts:29680
 
 ***
 
 ### is\_video?
 
-> **`optional`** **is\_video**: `boolean`
+> `optional` **is\_video**: `boolean`
 
 indicates whether the element contains a video
 
@@ -207,15 +207,15 @@ indicates whether the element contains a video
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`is_video`](../interfaces/IRelatedResult.md#is_video)
 
-#### Source
+#### Defined in
 
-main.ts:29500
+main.ts:29682
 
 ***
 
 ### pre\_snippet?
 
-> **`optional`** **pre\_snippet**: `string`
+> `optional` **pre\_snippet**: `string`
 
 includes additional information appended before the result description in SERP
 
@@ -223,15 +223,15 @@ includes additional information appended before the result description in SERP
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`pre_snippet`](../interfaces/IRelatedResult.md#pre_snippet)
 
-#### Source
+#### Defined in
 
-main.ts:29504
+main.ts:29686
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price of booking a place for the specified dates of stay
 
@@ -239,15 +239,15 @@ price of booking a place for the specified dates of stay
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`price`](../interfaces/IRelatedResult.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:29516
+main.ts:29698
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -256,15 +256,15 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`rating`](../interfaces/IRelatedResult.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:29514
+main.ts:29696
 
 ***
 
 ### related\_search\_url?
 
-> **`optional`** **related\_search\_url**: `string`
+> `optional` **related\_search\_url**: `string`
 
 URL to a similar search
 URL to a new search for the same keyword(s) on related sites
@@ -273,15 +273,15 @@ URL to a new search for the same keyword(s) on related sites
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`related_search_url`](../interfaces/IRelatedResult.md#related_search_url)
 
-#### Source
+#### Defined in
 
-main.ts:29492
+main.ts:29674
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -292,15 +292,15 @@ example:
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`timestamp`](../interfaces/IRelatedResult.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:29527
+main.ts:29709
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -308,15 +308,15 @@ title of a given link element
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`title`](../interfaces/IRelatedResult.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:29485
+main.ts:29667
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -324,15 +324,15 @@ type of element
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`type`](../interfaces/IRelatedResult.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:29479
+main.ts:29661
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of element
 
@@ -340,15 +340,15 @@ URL of element
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`url`](../interfaces/IRelatedResult.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:29487
+main.ts:29669
 
 ***
 
 ### website\_name?
 
-> **`optional`** **website\_name**: `string`
+> `optional` **website\_name**: `string`
 
 name of the website in SERP
 
@@ -356,15 +356,15 @@ name of the website in SERP
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`website_name`](../interfaces/IRelatedResult.md#website_name)
 
-#### Source
+#### Defined in
 
-main.ts:29496
+main.ts:29678
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -372,9 +372,9 @@ the XPath of the element
 
 [`IRelatedResult`](../interfaces/IRelatedResult.md).[`xpath`](../interfaces/IRelatedResult.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:29481
+main.ts:29663
 
 ## Methods
 
@@ -390,9 +390,9 @@ main.ts:29481
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:29540
+main.ts:29722
 
 ***
 
@@ -408,15 +408,15 @@ main.ts:29540
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:29585
+main.ts:29767
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RelatedResult`](RelatedResult.md)
+> `static` **fromJS**(`data`): [`RelatedResult`](RelatedResult.md)
 
 #### Parameters
 
@@ -426,6 +426,6 @@ main.ts:29585
 
 [`RelatedResult`](RelatedResult.md)
 
-#### Source
+#### Defined in
 
-main.ts:29578
+main.ts:29760

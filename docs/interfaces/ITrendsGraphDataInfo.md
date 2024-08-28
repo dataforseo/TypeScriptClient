@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,64 +14,64 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 start date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
 
-#### Source
+#### Defined in
 
-main.ts:126760
+main.ts:126592
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 end date of the corresponding time range
 in the UTC format: “yyyy-mm-dd”
 
-#### Source
+#### Defined in
 
-main.ts:126763
+main.ts:126595
 
 ***
 
 ### missing\_data?
 
-> **`optional`** **missing\_data**: `boolean`
+> `optional` **missing\_data**: `boolean`
 
 indicates whether the data is unavailable
 if true the data on the graph in the Google Trends interface is missing and thus labelled with a dotted line
 
-#### Source
+#### Defined in
 
-main.ts:126768
+main.ts:126600
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `number`
+> `optional` **timestamp**: `number`
 
 a point in time in the Unix time format
 
-#### Source
+#### Defined in
 
-main.ts:126765
+main.ts:126597
 
 ***
 
 ### values?
 
-> **`optional`** **values**: `number`[]
+> `optional` **values**: `number`[]
 
 relative keyword popularity rate at a specific timestamp
 represents the keyword popularity rate over the given time range
 if you specify more than one keyword, the values will be averaged to the highest value across all specified keywords
 a value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term
 
-#### Source
+#### Defined in
 
-main.ts:126773
+main.ts:126605

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataGoogleAppListingsSearchLiveItem(data)
+### new AppDataGoogleAppListingsSearchLiveItem()
 
 > **new AppDataGoogleAppListingsSearchLiveItem**(`data`?): [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:194747
+main.ts:196579
 
 ## Properties
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 ID of the returned app
 
@@ -44,15 +44,15 @@ ID of the returned app
 
 [`IAppDataGoogleAppListingsSearchLiveItem`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md).[`app_id`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:194727
+main.ts:196559
 
 ***
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -61,15 +61,15 @@ you can use it to make sure that we provided accurate results
 
 [`IAppDataGoogleAppListingsSearchLiveItem`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md).[`check_url`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:194736
+main.ts:196568
 
 ***
 
 ### item?
 
-> **`optional`** **item**: [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
+> `optional` **item**: [`AppDataGooglePlayInfoOrganicSerpElementItem`](AppDataGooglePlayInfoOrganicSerpElementItem.md)
 
 detailed information about the app
 
@@ -77,15 +77,15 @@ detailed information about the app
 
 [`IAppDataGoogleAppListingsSearchLiveItem`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md).[`item`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md#item)
 
-#### Source
+#### Defined in
 
-main.ts:194743
+main.ts:196575
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -93,15 +93,15 @@ language code in a POST array
 
 [`IAppDataGoogleAppListingsSearchLiveItem`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md).[`language_code`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:194733
+main.ts:196565
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -109,15 +109,15 @@ location code in a POST array
 
 [`IAppDataGoogleAppListingsSearchLiveItem`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md).[`location_code`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:194731
+main.ts:196563
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
@@ -125,15 +125,15 @@ search engine domain in a POST array
 
 [`IAppDataGoogleAppListingsSearchLiveItem`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md).[`se_domain`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:194729
+main.ts:196561
 
 ***
 
 ### time\_update?
 
-> **`optional`** **time\_update**: `string`
+> `optional` **time\_update**: `string`
 
 date and time when SERP data was last updated
 in the ISO 8601 format: “YYYY-MM-DDThh:mm:ss.sssssssZ”
@@ -144,9 +144,9 @@ example:
 
 [`IAppDataGoogleAppListingsSearchLiveItem`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md).[`time_update`](../interfaces/IAppDataGoogleAppListingsSearchLiveItem.md#time_update)
 
-#### Source
+#### Defined in
 
-main.ts:194741
+main.ts:196573
 
 ## Methods
 
@@ -162,9 +162,9 @@ main.ts:194741
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:194756
+main.ts:196588
 
 ***
 
@@ -180,15 +180,15 @@ main.ts:194756
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:194779
+main.ts:196611
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
+> `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
 
 #### Parameters
 
@@ -198,6 +198,6 @@ main.ts:194779
 
 [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:194772
+main.ts:196604

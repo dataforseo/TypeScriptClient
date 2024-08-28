@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBingRelatedKeywordsLiveResultInfo(data)
+### new DataforseoLabsBingRelatedKeywordsLiveResultInfo()
 
 > **new DataforseoLabsBingRelatedKeywordsLiveResultInfo**(`data`?): [`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:111898
+main.ts:112530
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsBingRelatedKeywordsLiveItem`](DataforseoLabsBingRelatedKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsBingRelatedKeywordsLiveItem`](DataforseoLabsBingRelatedKeywordsLiveItem.md)[]
 
 contains keywords and related data
 
@@ -44,15 +44,15 @@ contains keywords and related data
 
 [`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:111894
+main.ts:112526
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,15 +60,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:111892
+main.ts:112524
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -76,15 +76,15 @@ language code in a POST array
 
 [`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:111888
+main.ts:112520
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -92,15 +92,15 @@ location code in a POST array
 
 [`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:111886
+main.ts:112518
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -108,15 +108,15 @@ search engine type
 
 [`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:111879
+main.ts:112511
 
 ***
 
 ### seed\_keyword?
 
-> **`optional`** **seed\_keyword**: `string`
+> `optional` **seed\_keyword**: `string`
 
 keyword in a POST array
 
@@ -124,15 +124,15 @@ keyword in a POST array
 
 [`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md).[`seed_keyword`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md#seed_keyword)
 
-#### Source
+#### Defined in
 
-main.ts:111881
+main.ts:112513
 
 ***
 
 ### seed\_keyword\_data?
 
-> **`optional`** **seed\_keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **seed\_keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the seed keyword
 fields in the array are identical to that of keyword_data
@@ -141,15 +141,15 @@ fields in the array are identical to that of keyword_data
 
 [`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md).[`seed_keyword_data`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md#seed_keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:111884
+main.ts:112516
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
@@ -157,9 +157,9 @@ total amount of results in our database relevant to your request
 
 [`IDataforseoLabsBingRelatedKeywordsLiveResultInfo`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:111890
+main.ts:112522
 
 ## Methods
 
@@ -175,9 +175,9 @@ main.ts:111890
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:111907
+main.ts:112539
 
 ***
 
@@ -193,15 +193,15 @@ main.ts:111907
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:111935
+main.ts:112567
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
 
 #### Parameters
 
@@ -211,6 +211,6 @@ main.ts:111935
 
 [`DataforseoLabsBingRelatedKeywordsLiveResultInfo`](DataforseoLabsBingRelatedKeywordsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:111928
+main.ts:112560

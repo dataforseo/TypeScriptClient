@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,125 +18,125 @@
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the review
 
-#### Source
+#### Defined in
 
-main.ts:198782
+main.ts:200614
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: left
 
-#### Source
+#### Defined in
 
-main.ts:198770
+main.ts:200602
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
 
-#### Source
+#### Defined in
 
-main.ts:198767
+main.ts:200599
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:198764
+main.ts:200596
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score submitted by the reviewer
 
-#### Source
+#### Defined in
 
-main.ts:198775
+main.ts:200607
 
 ***
 
 ### review\_text?
 
-> **`optional`** **review\_text**: `string`
+> `optional` **review\_text**: `string`
 
 content of the review
 
-#### Source
+#### Defined in
 
-main.ts:198786
+main.ts:200618
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:198780
+main.ts:200612
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the review
 
-#### Source
+#### Defined in
 
-main.ts:198784
+main.ts:200616
 
 ***
 
 ### user\_profile?
 
-> **`optional`** **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
+> `optional` **user\_profile**: [`AppUserProfileInfo`](../classes/AppUserProfileInfo.md)
 
 user profile of the reviewer
 
-#### Source
+#### Defined in
 
-main.ts:198788
+main.ts:200620
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 version of the app
 version of the app for which the review is submitted
 
-#### Source
+#### Defined in
 
-main.ts:198773
+main.ts:200605

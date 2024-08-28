@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PriceInfo(data)
+### new PriceInfo()
 
 > **new PriceInfo**(`data`?): [`PriceInfo`](PriceInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`PriceInfo`](PriceInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22542
+main.ts:22724
 
 ## Properties
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency of the listed price
 ISO code of the currency applied to the price
@@ -45,15 +45,15 @@ ISO code of the currency applied to the price
 
 [`IPriceInfo`](../interfaces/IPriceInfo.md).[`currency`](../interfaces/IPriceInfo.md#currency)
 
-#### Source
+#### Defined in
 
-main.ts:22532
+main.ts:22714
 
 ***
 
 ### current?
 
-> **`optional`** **current**: `number`
+> `optional` **current**: `number`
 
 current price
 indicates the current price of the product or service featured in the result
@@ -62,15 +62,15 @@ indicates the current price of the product or service featured in the result
 
 [`IPriceInfo`](../interfaces/IPriceInfo.md).[`current`](../interfaces/IPriceInfo.md#current)
 
-#### Source
+#### Defined in
 
-main.ts:22523
+main.ts:22705
 
 ***
 
 ### displayed\_price?
 
-> **`optional`** **displayed\_price**: `string`
+> `optional` **displayed\_price**: `string`
 
 price string in the result
 raw price string as provided in the result
@@ -79,15 +79,15 @@ raw price string as provided in the result
 
 [`IPriceInfo`](../interfaces/IPriceInfo.md).[`displayed_price`](../interfaces/IPriceInfo.md#displayed_price)
 
-#### Source
+#### Defined in
 
-main.ts:22538
+main.ts:22720
 
 ***
 
 ### is\_price\_range?
 
-> **`optional`** **is\_price\_range**: `boolean`
+> `optional` **is\_price\_range**: `boolean`
 
 price is provided as a range
 indicates whether a price is provided in a range
@@ -96,15 +96,15 @@ indicates whether a price is provided in a range
 
 [`IPriceInfo`](../interfaces/IPriceInfo.md).[`is_price_range`](../interfaces/IPriceInfo.md#is_price_range)
 
-#### Source
+#### Defined in
 
-main.ts:22535
+main.ts:22717
 
 ***
 
 ### max\_value?
 
-> **`optional`** **max\_value**: `number`
+> `optional` **max\_value**: `number`
 
 the maximum price
 the maximum price of the product or service as indicated in the result
@@ -113,15 +113,15 @@ the maximum price of the product or service as indicated in the result
 
 [`IPriceInfo`](../interfaces/IPriceInfo.md).[`max_value`](../interfaces/IPriceInfo.md#max_value)
 
-#### Source
+#### Defined in
 
-main.ts:22529
+main.ts:22711
 
 ***
 
 ### regular?
 
-> **`optional`** **regular**: `number`
+> `optional` **regular**: `number`
 
 regular price
 indicates the regular price of the product or service with no discounts applied
@@ -130,9 +130,9 @@ indicates the regular price of the product or service with no discounts applied
 
 [`IPriceInfo`](../interfaces/IPriceInfo.md).[`regular`](../interfaces/IPriceInfo.md#regular)
 
-#### Source
+#### Defined in
 
-main.ts:22526
+main.ts:22708
 
 ## Methods
 
@@ -148,9 +148,9 @@ main.ts:22526
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22551
+main.ts:22733
 
 ***
 
@@ -166,15 +166,15 @@ main.ts:22551
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22573
+main.ts:22755
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PriceInfo`](PriceInfo.md)
+> `static` **fromJS**(`data`): [`PriceInfo`](PriceInfo.md)
 
 #### Parameters
 
@@ -184,6 +184,6 @@ main.ts:22573
 
 [`PriceInfo`](PriceInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22566
+main.ts:22748

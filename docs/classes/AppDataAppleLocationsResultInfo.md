@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataAppleLocationsResultInfo(data)
+### new AppDataAppleLocationsResultInfo()
 
 > **new AppDataAppleLocationsResultInfo**(`data`?): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:195202
+main.ts:197034
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`country_iso_code`](../interfaces/IAppDataAppleLocationsResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:195196
+main.ts:197028
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
@@ -60,15 +60,15 @@ location code
 
 [`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`location_code`](../interfaces/IAppDataAppleLocationsResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:195183
+main.ts:197015
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
@@ -76,15 +76,15 @@ full name of the location
 
 [`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`location_name`](../interfaces/IAppDataAppleLocationsResultInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:195185
+main.ts:197017
 
 ***
 
 ### location\_name\_parent?
 
-> **`optional`** **location\_name\_parent**: `number`
+> `optional` **location\_name\_parent**: `number`
 
 the name of the superordinate location
 example:
@@ -99,15 +99,15 @@ note: Apple App Data API currently supports countries only, that is why this val
 
 [`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`location_name_parent`](../interfaces/IAppDataAppleLocationsResultInfo.md#location_name_parent)
 
-#### Source
+#### Defined in
 
-main.ts:195194
+main.ts:197026
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 
@@ -115,9 +115,9 @@ location type
 
 [`IAppDataAppleLocationsResultInfo`](../interfaces/IAppDataAppleLocationsResultInfo.md).[`location_type`](../interfaces/IAppDataAppleLocationsResultInfo.md#location_type)
 
-#### Source
+#### Defined in
 
-main.ts:195198
+main.ts:197030
 
 ## Methods
 
@@ -133,9 +133,9 @@ main.ts:195198
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:195211
+main.ts:197043
 
 ***
 
@@ -151,15 +151,15 @@ main.ts:195211
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:195232
+main.ts:197064
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
 #### Parameters
 
@@ -169,6 +169,6 @@ main.ts:195232
 
 [`AppDataAppleLocationsResultInfo`](AppDataAppleLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:195225
+main.ts:197057

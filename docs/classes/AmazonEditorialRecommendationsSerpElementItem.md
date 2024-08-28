@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new AmazonEditorialRecommendationsSerpElementItem(data)
+### new AmazonEditorialRecommendationsSerpElementItem()
 
 > **new AmazonEditorialRecommendationsSerpElementItem**(`data`?): [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:183063
+main.ts:184895
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`_discriminator`](BaseAmazonSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21825
+main.ts:22007
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`AmazonSerpElement`](AmazonSerpElement.md)[]
+> `optional` **items**: [`AmazonSerpElement`](AmazonSerpElement.md)[]
 
 Amazon product items
 
@@ -66,15 +66,15 @@ Amazon product items
 
 [`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md).[`items`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:183059
+main.ts:184891
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -84,15 +84,15 @@ left, right
 
 [`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md).[`position`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:183055
+main.ts:184887
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Amazon SERP
@@ -101,15 +101,15 @@ absolute position among all the elements found in Amazon SERP
 
 [`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:183051
+main.ts:184883
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -118,15 +118,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md).[`rank_group`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:183048
+main.ts:184880
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -134,9 +134,9 @@ the XPath of the element
 
 [`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md).[`xpath`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:183057
+main.ts:184889
 
 ## Methods
 
@@ -156,9 +156,9 @@ main.ts:183057
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`init`](BaseAmazonSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:183068
+main.ts:184900
 
 ***
 
@@ -178,15 +178,15 @@ main.ts:183068
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`toJSON`](BaseAmazonSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:183094
+main.ts:184926
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
+> `static` **fromJS**(`data`): [`AmazonEditorialRecommendationsSerpElementItem`](AmazonEditorialRecommendationsSerpElementItem.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:183094
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`fromJS`](BaseAmazonSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:183087
+main.ts:184919

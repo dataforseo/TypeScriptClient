@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixJobsSerpLimitsRatesDataInfo(data)
+### new AppendixJobsSerpLimitsRatesDataInfo()
 
 > **new AppendixJobsSerpLimitsRatesDataInfo**(`data`?): [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
@@ -28,23 +28,23 @@
 
 [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218397
+main.ts:220249
 
 ## Properties
 
 ### task\_post?
 
-> **`optional`** **task\_post**: `number`
+> `optional` **task\_post**: `number`
 
 #### Implementation of
 
 [`IAppendixJobsSerpLimitsRatesDataInfo`](../interfaces/IAppendixJobsSerpLimitsRatesDataInfo.md).[`task_post`](../interfaces/IAppendixJobsSerpLimitsRatesDataInfo.md#task_post)
 
-#### Source
+#### Defined in
 
-main.ts:218393
+main.ts:220245
 
 ## Methods
 
@@ -60,9 +60,9 @@ main.ts:218393
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:218406
+main.ts:220258
 
 ***
 
@@ -78,15 +78,15 @@ main.ts:218406
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:218423
+main.ts:220275
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -96,6 +96,6 @@ main.ts:218423
 
 [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218416
+main.ts:220268

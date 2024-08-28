@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantTasksReadyResultInfo(data)
+### new MerchantTasksReadyResultInfo()
 
 > **new MerchantTasksReadyResultInfo**(`data`?): [`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:176351
+main.ts:178183
 
 ## Properties
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
@@ -44,15 +44,15 @@ date when the task was posted (in the UTC format)
 
 [`IMerchantTasksReadyResultInfo`](../interfaces/IMerchantTasksReadyResultInfo.md).[`date_posted`](../interfaces/IMerchantTasksReadyResultInfo.md#date_posted)
 
-#### Source
+#### Defined in
 
-main.ts:176341
+main.ts:178173
 
 ***
 
 ### endpoint\_advanced?
 
-> **`optional`** **endpoint\_advanced**: `string`
+> `optional` **endpoint\_advanced**: `string`
 
 URL for collecting the results of the Amazon Reviews Advanced task
 
@@ -60,15 +60,15 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 [`IMerchantTasksReadyResultInfo`](../interfaces/IMerchantTasksReadyResultInfo.md).[`endpoint_advanced`](../interfaces/IMerchantTasksReadyResultInfo.md#endpoint_advanced)
 
-#### Source
+#### Defined in
 
-main.ts:176345
+main.ts:178177
 
 ***
 
 ### endpoint\_html?
 
-> **`optional`** **endpoint\_html**: `string`
+> `optional` **endpoint\_html**: `string`
 
 URL for collecting the results of the Amazon Reviews HTML task
 
@@ -76,15 +76,15 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 [`IMerchantTasksReadyResultInfo`](../interfaces/IMerchantTasksReadyResultInfo.md).[`endpoint_html`](../interfaces/IMerchantTasksReadyResultInfo.md#endpoint_html)
 
-#### Source
+#### Defined in
 
-main.ts:176347
+main.ts:178179
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -93,15 +93,15 @@ unique task identifier in our system in the UUID format
 
 [`IMerchantTasksReadyResultInfo`](../interfaces/IMerchantTasksReadyResultInfo.md).[`id`](../interfaces/IMerchantTasksReadyResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:176335
+main.ts:178167
 
 ***
 
 ### se?
 
-> **`optional`** **se**: `string`
+> `optional` **se**: `string`
 
 search engine specified when setting the task
 
@@ -109,15 +109,15 @@ search engine specified when setting the task
 
 [`IMerchantTasksReadyResultInfo`](../interfaces/IMerchantTasksReadyResultInfo.md).[`se`](../interfaces/IMerchantTasksReadyResultInfo.md#se)
 
-#### Source
+#### Defined in
 
-main.ts:176337
+main.ts:178169
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 type of search engine
 
@@ -125,15 +125,15 @@ type of search engine
 
 [`IMerchantTasksReadyResultInfo`](../interfaces/IMerchantTasksReadyResultInfo.md).[`se_type`](../interfaces/IMerchantTasksReadyResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:176339
+main.ts:178171
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
@@ -141,9 +141,9 @@ user-defined task identifier
 
 [`IMerchantTasksReadyResultInfo`](../interfaces/IMerchantTasksReadyResultInfo.md).[`tag`](../interfaces/IMerchantTasksReadyResultInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:176343
+main.ts:178175
 
 ## Methods
 
@@ -159,9 +159,9 @@ main.ts:176343
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:176360
+main.ts:178192
 
 ***
 
@@ -177,15 +177,15 @@ main.ts:176360
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:176383
+main.ts:178215
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): [`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)
 
 #### Parameters
 
@@ -195,6 +195,6 @@ main.ts:176383
 
 [`MerchantTasksReadyResultInfo`](MerchantTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:176376
+main.ts:178208

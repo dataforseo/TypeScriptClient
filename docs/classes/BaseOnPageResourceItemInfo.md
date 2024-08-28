@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -24,7 +24,7 @@
 
 ## Constructors
 
-### new BaseOnPageResourceItemInfo(data)
+### new BaseOnPageResourceItemInfo()
 
 > **new BaseOnPageResourceItemInfo**(`data`?): [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
 
@@ -36,19 +36,19 @@
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21187
+main.ts:21369
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:21185
+main.ts:21367
 
 ## Methods
 
@@ -64,9 +64,9 @@ main.ts:21185
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21197
+main.ts:21379
 
 ***
 
@@ -82,15 +82,15 @@ main.ts:21197
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21238
+main.ts:21420
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
+> `static` **fromJS**(`data`): [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
 
 #### Parameters
 
@@ -100,6 +100,6 @@ main.ts:21238
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21206
+main.ts:21388

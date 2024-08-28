@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageRawHtmlRequestInfo(data)
+### new OnPageRawHtmlRequestInfo()
 
 > **new OnPageRawHtmlRequestInfo**(`data`?): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:162641
+main.ts:164473
 
 ## Properties
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -48,15 +48,15 @@ example:
 
 [`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md).[`id`](../interfaces/IOnPageRawHtmlRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:162632
+main.ts:164464
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page url
 required field
@@ -67,9 +67,9 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 [`IOnPageRawHtmlRequestInfo`](../interfaces/IOnPageRawHtmlRequestInfo.md).[`url`](../interfaces/IOnPageRawHtmlRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:162637
+main.ts:164469
 
 ## Methods
 
@@ -85,9 +85,9 @@ main.ts:162637
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:162650
+main.ts:164482
 
 ***
 
@@ -103,15 +103,15 @@ main.ts:162650
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:162668
+main.ts:164500
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
 #### Parameters
 
@@ -121,6 +121,6 @@ main.ts:162668
 
 [`OnPageRawHtmlRequestInfo`](OnPageRawHtmlRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:162661
+main.ts:164493

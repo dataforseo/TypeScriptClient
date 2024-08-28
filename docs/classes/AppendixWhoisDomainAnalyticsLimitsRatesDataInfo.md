@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo(data)
+### new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo()
 
 > **new AppendixWhoisDomainAnalyticsLimitsRatesDataInfo**(`data`?): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
@@ -28,23 +28,23 @@
 
 [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219117
+main.ts:221025
 
 ## Properties
 
 ### overview?
 
-> **`optional`** **overview**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **overview**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md).[`overview`](../interfaces/IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md#overview)
 
-#### Source
+#### Defined in
 
-main.ts:219113
+main.ts:221021
 
 ## Methods
 
@@ -60,9 +60,9 @@ main.ts:219113
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:219126
+main.ts:221034
 
 ***
 
@@ -78,15 +78,15 @@ main.ts:219126
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:219143
+main.ts:221051
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -96,6 +96,6 @@ main.ts:219143
 
 [`AppendixWhoisDomainAnalyticsLimitsRatesDataInfo`](AppendixWhoisDomainAnalyticsLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219136
+main.ts:221044

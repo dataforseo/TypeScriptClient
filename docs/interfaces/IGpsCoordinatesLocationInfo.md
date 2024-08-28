@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,26 +14,26 @@
 
 ### latitude?
 
-> **`optional`** **latitude**: `number`
+> `optional` **latitude**: `number`
 
 latitude coordinate of the hotel in google maps
 example:
 "latitude": 51.584091
 
-#### Source
+#### Defined in
 
-main.ts:206512
+main.ts:208362
 
 ***
 
 ### longitude?
 
-> **`optional`** **longitude**: `number`
+> `optional` **longitude**: `number`
 
 longitude coordinate of the hotel in google maps
 example:
 "longitude": -0.31365919999999997
 
-#### Source
+#### Defined in
 
-main.ts:206516
+main.ts:208366

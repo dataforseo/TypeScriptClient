@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkPagesSummaryLiveRequestInfo(data)
+### new BacklinksBulkPagesSummaryLiveRequestInfo()
 
 > **new BacklinksBulkPagesSummaryLiveRequestInfo**(`data`?): [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:152430
+main.ts:154256
 
 ## Properties
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
@@ -47,15 +47,15 @@ default value: true
 
 [`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md).[`include_subdomains`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md#include_subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:152420
+main.ts:154246
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -67,15 +67,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:152426
+main.ts:154252
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 domains, subdomains or webpages to get summary data for
 required field
@@ -88,9 +88,9 @@ note that the URLs you set in a single request cannot belong to more than 100 di
 
 [`IBacklinksBulkPagesSummaryLiveRequestInfo`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkPagesSummaryLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:152415
+main.ts:154241
 
 ## Methods
 
@@ -106,9 +106,9 @@ main.ts:152415
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:152439
+main.ts:154265
 
 ***
 
@@ -124,15 +124,15 @@ main.ts:152439
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:152462
+main.ts:154288
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
 
 #### Parameters
 
@@ -142,6 +142,6 @@ main.ts:152462
 
 [`BacklinksBulkPagesSummaryLiveRequestInfo`](BacklinksBulkPagesSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:152455
+main.ts:154281

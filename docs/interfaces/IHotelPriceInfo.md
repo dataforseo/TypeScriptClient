@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,103 +14,103 @@
 
 ### check\_in?
 
-> **`optional`** **check\_in**: `string`
+> `optional` **check\_in**: `string`
 
 check-in date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:206857
+main.ts:208707
 
 ***
 
 ### check\_out?
 
-> **`optional`** **check\_out**: `string`
+> `optional` **check\_out**: `string`
 
 check-out date and time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:206862
+main.ts:208712
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 price currency
 USD is applied by default, unless specified in the POST array
 
-#### Source
+#### Defined in
 
-main.ts:206850
+main.ts:208700
 
 ***
 
 ### discount\_text?
 
-> **`optional`** **discount\_text**: `string`
+> `optional` **discount\_text**: `string`
 
 text about a discount applied
 
-#### Source
+#### Defined in
 
-main.ts:206852
+main.ts:208702
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`HotelPriceItemInfo`](../classes/HotelPriceItemInfo.md)[]
+> `optional` **items**: [`HotelPriceItemInfo`](../classes/HotelPriceItemInfo.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
 possible item types: hotel_search_item
 
-#### Source
+#### Defined in
 
-main.ts:206868
+main.ts:208718
 
 ***
 
 ### price?
 
-> **`optional`** **price**: `number`
+> `optional` **price**: `number`
 
 price per night
 
-#### Source
+#### Defined in
 
-main.ts:206845
+main.ts:208695
 
 ***
 
 ### price\_without\_discount?
 
-> **`optional`** **price\_without\_discount**: `number`
+> `optional` **price\_without\_discount**: `number`
 
 full price per night without a discount applied
 
-#### Source
+#### Defined in
 
-main.ts:206847
+main.ts:208697
 
 ***
 
 ### visitors?
 
-> **`optional`** **visitors**: `number`
+> `optional` **visitors**: `number`
 
 number of hotel visitors for this price
 
-#### Source
+#### Defined in
 
-main.ts:206864
+main.ts:208714

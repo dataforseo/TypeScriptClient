@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataAppleCategoriesResultInfo(data)
+### new AppDataAppleCategoriesResultInfo()
 
 > **new AppDataAppleCategoriesResultInfo**(`data`?): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:195019
+main.ts:196851
 
 ## Properties
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 contains full list of supported app categories
 
@@ -44,9 +44,9 @@ contains full list of supported app categories
 
 [`IAppDataAppleCategoriesResultInfo`](../interfaces/IAppDataAppleCategoriesResultInfo.md).[`categories`](../interfaces/IAppDataAppleCategoriesResultInfo.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:195015
+main.ts:196847
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:195015
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:195028
+main.ts:196860
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:195028
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:195049
+main.ts:196881
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:195049
 
 [`AppDataAppleCategoriesResultInfo`](AppDataAppleCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:195042
+main.ts:196874

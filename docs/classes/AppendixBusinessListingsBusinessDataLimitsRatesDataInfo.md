@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo(data)
+### new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo()
 
 > **new AppendixBusinessListingsBusinessDataLimitsRatesDataInfo**(`data`?): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
@@ -28,65 +28,65 @@
 
 [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219856
+main.ts:221764
 
 ## Properties
 
 ### categories?
 
-> **`optional`** **categories**: `number`
+> `optional` **categories**: `number`
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`categories`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:219851
+main.ts:221759
 
 ***
 
 ### categories\_aggregation?
 
-> **`optional`** **categories\_aggregation**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **categories\_aggregation**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`categories_aggregation`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#categories_aggregation)
 
-#### Source
+#### Defined in
 
-main.ts:219850
+main.ts:221758
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:219852
+main.ts:221760
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **search**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md).[`search`](../interfaces/IAppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md#search)
 
-#### Source
+#### Defined in
 
-main.ts:219849
+main.ts:221757
 
 ## Methods
 
@@ -102,9 +102,9 @@ main.ts:219849
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:219865
+main.ts:221773
 
 ***
 
@@ -120,15 +120,15 @@ main.ts:219865
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:219885
+main.ts:221793
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -138,6 +138,6 @@ main.ts:219885
 
 [`AppendixBusinessListingsBusinessDataLimitsRatesDataInfo`](AppendixBusinessListingsBusinessDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219878
+main.ts:221786

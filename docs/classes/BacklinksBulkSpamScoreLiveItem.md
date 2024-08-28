@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkSpamScoreLiveItem(data)
+### new BacklinksBulkSpamScoreLiveItem()
 
 > **new BacklinksBulkSpamScoreLiveItem**(`data`?): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:151063
+main.ts:152889
 
 ## Properties
 
 ### spam\_score?
 
-> **`optional`** **spam\_score**: `number`
+> `optional` **spam\_score**: `number`
 
 average spam score the target
 learn more about how the metric is calculated
@@ -45,15 +45,15 @@ learn more about how the metric is calculated
 
 [`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md).[`spam_score`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md#spam_score)
 
-#### Source
+#### Defined in
 
-main.ts:151059
+main.ts:152885
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
@@ -61,15 +61,15 @@ domain, subdomain or webpage from a POST array
 
 [`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md).[`target`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:151056
+main.ts:152882
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -77,9 +77,9 @@ type of element
 
 [`IBacklinksBulkSpamScoreLiveItem`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md).[`type`](../interfaces/IBacklinksBulkSpamScoreLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:151054
+main.ts:152880
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:151054
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:151072
+main.ts:152898
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:151072
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:151091
+main.ts:152917
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:151091
 
 [`BacklinksBulkSpamScoreLiveItem`](BacklinksBulkSpamScoreLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:151084
+main.ts:152910

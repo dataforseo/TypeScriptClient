@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixLimitsMoneyData(data)
+### new AppendixLimitsMoneyData()
 
 > **new AppendixLimitsMoneyData**(`data`?): [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
@@ -28,37 +28,37 @@
 
 [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221290
+main.ts:224774
 
 ## Properties
 
 ### day?
 
-> **`optional`** **day**: [`AppendixDataInfo`](AppendixDataInfo.md)
+> `optional` **day**: [`AppendixDataInfo`](AppendixDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixLimitsMoneyData`](../interfaces/IAppendixLimitsMoneyData.md).[`day`](../interfaces/IAppendixLimitsMoneyData.md#day)
 
-#### Source
+#### Defined in
 
-main.ts:221285
+main.ts:224769
 
 ***
 
 ### minute?
 
-> **`optional`** **minute**: [`AppendixDataInfo`](AppendixDataInfo.md)
+> `optional` **minute**: [`AppendixDataInfo`](AppendixDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixLimitsMoneyData`](../interfaces/IAppendixLimitsMoneyData.md).[`minute`](../interfaces/IAppendixLimitsMoneyData.md#minute)
 
-#### Source
+#### Defined in
 
-main.ts:221286
+main.ts:224770
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:221286
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:221299
+main.ts:224783
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:221299
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221317
+main.ts:224801
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
+> `static` **fromJS**(`data`): [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:221317
 
 [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221310
+main.ts:224794

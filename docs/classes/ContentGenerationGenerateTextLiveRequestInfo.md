@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationGenerateTextLiveRequestInfo(data)
+### new ContentGenerationGenerateTextLiveRequestInfo()
 
 > **new ContentGenerationGenerateTextLiveRequestInfo**(`data`?): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172162
+main.ts:173994
 
 ## Properties
 
 ### creativity\_index?
 
-> **`optional`** **creativity\_index**: `number`
+> `optional` **creativity\_index**: `number`
 
 creativity of content generation
 optional field
@@ -49,15 +49,15 @@ learn more about this parameter on our help center
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#creativity_index)
 
-#### Source
+#### Defined in
 
-main.ts:172142
+main.ts:173974
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 meta description of the content to generate
 optional field
@@ -68,15 +68,15 @@ learn more about this parameter on our help center
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`description`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:172129
+main.ts:173961
 
 ***
 
 ### include\_conclusion?
 
-> **`optional`** **include\_conclusion**: `boolean`
+> `optional` **include\_conclusion**: `boolean`
 
 include conclusion in generated text
 optional field
@@ -86,15 +86,15 @@ if set to true, generated content will include a logical conclusion
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`include_conclusion`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#include_conclusion)
 
-#### Source
+#### Defined in
 
-main.ts:172146
+main.ts:173978
 
 ***
 
 ### meta\_keywords?
 
-> **`optional`** **meta\_keywords**: `string`[]
+> `optional` **meta\_keywords**: `string`[]
 
 keywords for the content to generate
 optional field
@@ -106,15 +106,15 @@ example: "meta_keywords": ["iPhone","sell","CEO"]
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`meta_keywords`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#meta_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:172135
+main.ts:173967
 
 ***
 
 ### sub\_topics?
 
-> **`optional`** **sub\_topics**: `string`[]
+> `optional` **sub\_topics**: `string`[]
 
 secondary topics of the content to generate
 optional field
@@ -126,15 +126,15 @@ example: "sub_topics": ["Apple","Pixar","Amazing Products"]
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`sub_topics`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#sub_topics)
 
-#### Source
+#### Defined in
 
-main.ts:172124
+main.ts:173956
 
 ***
 
 ### supplement\_token?
 
-> **`optional`** **supplement\_token**: `string`
+> `optional` **supplement\_token**: `string`
 
 token for generating subsequent results
 optional field
@@ -146,15 +146,15 @@ supplement_token values are unique for each subsequent task
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`supplement_token`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#supplement_token)
 
-#### Source
+#### Defined in
 
-main.ts:172152
+main.ts:173984
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -166,15 +166,15 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:172158
+main.ts:173990
 
 ***
 
 ### topic?
 
-> **`optional`** **topic**: `string`
+> `optional` **topic**: `string`
 
 main topic of the content to generate
 required field
@@ -185,15 +185,15 @@ can contain from 1 to 50 tokens
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`topic`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#topic)
 
-#### Source
+#### Defined in
 
-main.ts:172113
+main.ts:173945
 
 ***
 
 ### word\_count?
 
-> **`optional`** **word\_count**: `number`
+> `optional` **word\_count**: `number`
 
 number of words in content
 required field
@@ -204,9 +204,9 @@ can take values from 1 to 1000
 
 [`IContentGenerationGenerateTextLiveRequestInfo`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md).[`word_count`](../interfaces/IContentGenerationGenerateTextLiveRequestInfo.md#word_count)
 
-#### Source
+#### Defined in
 
-main.ts:172118
+main.ts:173950
 
 ## Methods
 
@@ -222,9 +222,9 @@ main.ts:172118
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:172171
+main.ts:174003
 
 ***
 
@@ -240,15 +240,15 @@ main.ts:172171
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:172204
+main.ts:174036
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
 #### Parameters
 
@@ -258,6 +258,6 @@ main.ts:172204
 
 [`ContentGenerationGenerateTextLiveRequestInfo`](ContentGenerationGenerateTextLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172197
+main.ts:174029

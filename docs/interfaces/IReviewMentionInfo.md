@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,71 +14,71 @@
 
 ### negative\_count?
 
-> **`optional`** **negative\_count**: `number`
+> `optional` **negative\_count**: `number`
 
 count of negative reviews by criterion
 
-#### Source
+#### Defined in
 
-main.ts:208908
+main.ts:210758
 
 ***
 
 ### positive\_count?
 
-> **`optional`** **positive\_count**: `number`
+> `optional` **positive\_count**: `number`
 
 count of positive reviews by criterion
 
-#### Source
+#### Defined in
 
-main.ts:208906
+main.ts:210756
 
 ***
 
 ### positive\_score?
 
-> **`optional`** **positive\_score**: `number`
+> `optional` **positive\_score**: `number`
 
 positive score by criterion
 
-#### Source
+#### Defined in
 
-main.ts:208904
+main.ts:210754
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the evaluated criterion
 
-#### Source
+#### Defined in
 
-main.ts:208902
+main.ts:210752
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 count of all reviews by criterion
 
-#### Source
+#### Defined in
 
-main.ts:208910
+main.ts:210760
 
 ***
 
 ### visible\_by\_default?
 
-> **`optional`** **visible\_by\_default**: `boolean`
+> `optional` **visible\_by\_default**: `boolean`
 
 element is visible by default
 indicates whether the review element is visible by default
 
-#### Source
+#### Defined in
 
-main.ts:208913
+main.ts:210763

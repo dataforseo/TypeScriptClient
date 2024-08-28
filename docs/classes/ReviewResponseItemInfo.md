@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ReviewResponseItemInfo(data)
+### new ReviewResponseItemInfo()
 
 > **new ReviewResponseItemInfo**(`data`?): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21264
+main.ts:21446
 
 ## Properties
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 the content of response
 
@@ -44,15 +44,15 @@ the content of response
 
 [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md).[`text`](../interfaces/IReviewResponseItemInfo.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:21258
+main.ts:21440
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 the time of publication
 
@@ -60,15 +60,15 @@ the time of publication
 
 [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md).[`timestamp`](../interfaces/IReviewResponseItemInfo.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:21260
+main.ts:21442
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 the title of response
 
@@ -76,9 +76,9 @@ the title of response
 
 [`IReviewResponseItemInfo`](../interfaces/IReviewResponseItemInfo.md).[`title`](../interfaces/IReviewResponseItemInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:21256
+main.ts:21438
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:21256
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21273
+main.ts:21455
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:21273
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21292
+main.ts:21474
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
+> `static` **fromJS**(`data`): [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:21292
 
 [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21285
+main.ts:21467

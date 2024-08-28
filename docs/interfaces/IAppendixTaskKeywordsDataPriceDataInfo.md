@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,28 +14,28 @@
 
 ### priority\_high?
 
-> **`optional`** **priority\_high**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
+> `optional` **priority\_high**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-#### Source
+#### Defined in
 
-main.ts:221541
+main.ts:225757
 
 ***
 
 ### priority\_low?
 
-> **`optional`** **priority\_low**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
+> `optional` **priority\_low**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-#### Source
+#### Defined in
 
-main.ts:221539
+main.ts:225755
 
 ***
 
 ### priority\_normal?
 
-> **`optional`** **priority\_normal**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
+> `optional` **priority\_normal**: [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../classes/AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)[]
 
-#### Source
+#### Defined in
 
-main.ts:221540
+main.ts:225756

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,68 +14,68 @@
 
 ### check\_grammar?
 
-> **`optional`** **check\_grammar**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
+> `optional` **check\_grammar**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220401
+main.ts:222309
 
 ***
 
 ### generate?
 
-> **`optional`** **generate**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **generate**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220397
+main.ts:222305
 
 ***
 
 ### generate\_meta\_tags?
 
-> **`optional`** **generate\_meta\_tags**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **generate\_meta\_tags**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220398
+main.ts:222306
 
 ***
 
 ### generate\_sub\_topics?
 
-> **`optional`** **generate\_sub\_topics**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **generate\_sub\_topics**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220403
+main.ts:222311
 
 ***
 
 ### generate\_text?
 
-> **`optional`** **generate\_text**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **generate\_text**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220399
+main.ts:222307
 
 ***
 
 ### paraphrase?
 
-> **`optional`** **paraphrase**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **paraphrase**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220400
+main.ts:222308
 
 ***
 
 ### text\_summary?
 
-> **`optional`** **text\_summary**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
+> `optional` **text\_summary**: [`AppendixContentGenerationDayLimitsRatesDataInfo`](../classes/AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220402
+main.ts:222310

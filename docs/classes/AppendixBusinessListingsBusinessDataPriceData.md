@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixBusinessListingsBusinessDataPriceData(data)
+### new AppendixBusinessListingsBusinessDataPriceData()
 
 > **new AppendixBusinessListingsBusinessDataPriceData**(`data`?): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
@@ -28,65 +28,65 @@
 
 [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:222866
+main.ts:227138
 
 ## Properties
 
 ### categories?
 
-> **`optional`** **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **categories**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`categories`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:222859
+main.ts:227131
 
 ***
 
 ### categories\_aggregation?
 
-> **`optional`** **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **categories\_aggregation**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`categories_aggregation`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#categories_aggregation)
 
-#### Source
+#### Defined in
 
-main.ts:222860
+main.ts:227132
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`locations`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:222861
+main.ts:227133
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **search**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixBusinessListingsBusinessDataPriceData`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md).[`search`](../interfaces/IAppendixBusinessListingsBusinessDataPriceData.md#search)
 
-#### Source
+#### Defined in
 
-main.ts:222862
+main.ts:227134
 
 ## Methods
 
@@ -102,9 +102,9 @@ main.ts:222862
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:222875
+main.ts:227147
 
 ***
 
@@ -120,15 +120,15 @@ main.ts:222875
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:222895
+main.ts:227167
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
+> `static` **fromJS**(`data`): [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
 #### Parameters
 
@@ -138,6 +138,6 @@ main.ts:222895
 
 [`AppendixBusinessListingsBusinessDataPriceData`](AppendixBusinessListingsBusinessDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:222888
+main.ts:227160

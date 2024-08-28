@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,52 +14,52 @@
 
 ### actual\_data?
 
-> **`optional`** **actual\_data**: `boolean`
+> `optional` **actual\_data**: `boolean`
 
 indicates whether Google updated keyword data for the previous month
 generally, Google updates keyword data in the middle of the month
 if the value is true, Google currently provides up-to-date data for the previous month
 if the value is false, we are not able to provide data for the previous month
 
-#### Source
+#### Defined in
 
-main.ts:119067
+main.ts:119699
 
 ***
 
 ### date\_update?
 
-> **`optional`** **date\_update**: `string`
+> `optional` **date\_update**: `string`
 
 date of the latest update of Google Ads data
 indicates the latest date when Google updated search volume, CPC, and other keyword metrics
 example:
 2020-05-15
 
-#### Source
+#### Defined in
 
-main.ts:119072
+main.ts:119704
 
 ***
 
 ### last\_month\_in\_monthly\_searches?
 
-> **`optional`** **last\_month\_in\_monthly\_searches**: `number`
+> `optional` **last\_month\_in\_monthly\_searches**: `number`
 
 the latest month for which search volume data is available
 
-#### Source
+#### Defined in
 
-main.ts:119076
+main.ts:119708
 
 ***
 
 ### last\_year\_in\_monthly\_searches?
 
-> **`optional`** **last\_year\_in\_monthly\_searches**: `number`
+> `optional` **last\_year\_in\_monthly\_searches**: `number`
 
 the latest year for which search volume data is available
 
-#### Source
+#### Defined in
 
-main.ts:119074
+main.ts:119706

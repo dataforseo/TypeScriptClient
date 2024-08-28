@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -8,7 +8,7 @@
 
 ## Constructors
 
-### new ContentAnalysisApi(baseUrl, http)
+### new ContentAnalysisApi()
 
 > **new ContentAnalysisApi**(`baseUrl`?, `http`?): [`ContentAnalysisApi`](ContentAnalysisApi.md)
 
@@ -18,53 +18,21 @@
 
 • **http?**
 
-• **http\.fetch?**
+• **http.fetch?**
 
 #### Returns
 
 [`ContentAnalysisApi`](ContentAnalysisApi.md)
 
-#### Source
+#### Defined in
 
-main.ts:13594
+main.ts:13764
 
 ## Properties
 
-### baseUrl
+### jsonParseReviver()
 
-> **`private`** **baseUrl**: `string`
-
-#### Source
-
-main.ts:13591
-
-***
-
-### http
-
-> **`private`** **http**: `Object`
-
-#### http.fetch()
-
-##### Parameters
-
-• **url**: `RequestInfo`
-
-• **init?**: `RequestInit`
-
-##### Returns
-
-`Promise`\<`Response`\>
-
-#### Source
-
-main.ts:13590
-
-***
-
-### jsonParseReviver
-
-> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+> `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
 #### Parameters
 
@@ -76,9 +44,9 @@ main.ts:13590
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:13592
+main.ts:13762
 
 ## Methods
 
@@ -98,9 +66,9 @@ main.ts:13592
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:14003
+main.ts:14173
 
 ***
 
@@ -114,9 +82,9 @@ main.ts:14003
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13644
+main.ts:13814
 
 ***
 
@@ -130,9 +98,9 @@ main.ts:13644
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13755
+main.ts:13925
 
 ***
 
@@ -152,9 +120,9 @@ main.ts:13755
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13603
+main.ts:13773
 
 ***
 
@@ -168,9 +136,9 @@ main.ts:13603
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13718
+main.ts:13888
 
 ***
 
@@ -184,9 +152,9 @@ main.ts:13718
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13681
+main.ts:13851
 
 ***
 
@@ -206,9 +174,9 @@ main.ts:13681
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13835
+main.ts:14005
 
 ***
 
@@ -228,15 +196,15 @@ main.ts:13835
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13961
+main.ts:14131
 
 ***
 
 ### processCategoryTrendsLive()
 
-> **`protected`** **processCategoryTrendsLive**(`response`): `Promise`\<[`ContentAnalysisCategoryTrendsLiveResponseInfo`](ContentAnalysisCategoryTrendsLiveResponseInfo.md)\>
+> `protected` **processCategoryTrendsLive**(`response`): `Promise`\<[`ContentAnalysisCategoryTrendsLiveResponseInfo`](ContentAnalysisCategoryTrendsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -246,15 +214,15 @@ main.ts:13961
 
 `Promise`\<[`ContentAnalysisCategoryTrendsLiveResponseInfo`](ContentAnalysisCategoryTrendsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:14023
+main.ts:14193
 
 ***
 
 ### processContentAnalysisAvailableFilters()
 
-> **`protected`** **processContentAnalysisAvailableFilters**(`response`): `Promise`\<[`ContentAnalysisAvailableFiltersResponseInfo`](ContentAnalysisAvailableFiltersResponseInfo.md)\>
+> `protected` **processContentAnalysisAvailableFilters**(`response`): `Promise`\<[`ContentAnalysisAvailableFiltersResponseInfo`](ContentAnalysisAvailableFiltersResponseInfo.md)\>
 
 #### Parameters
 
@@ -264,15 +232,15 @@ main.ts:14023
 
 `Promise`\<[`ContentAnalysisAvailableFiltersResponseInfo`](ContentAnalysisAvailableFiltersResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13660
+main.ts:13830
 
 ***
 
 ### processContentAnalysisCategories()
 
-> **`protected`** **processContentAnalysisCategories**(`response`): `Promise`\<[`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)\>
+> `protected` **processContentAnalysisCategories**(`response`): `Promise`\<[`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)\>
 
 #### Parameters
 
@@ -282,15 +250,15 @@ main.ts:13660
 
 `Promise`\<[`ContentAnalysisCategoriesResponseInfo`](ContentAnalysisCategoriesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13771
+main.ts:13941
 
 ***
 
 ### processContentAnalysisIdList()
 
-> **`protected`** **processContentAnalysisIdList**(`response`): `Promise`\<[`ContentAnalysisIdListResponseInfo`](ContentAnalysisIdListResponseInfo.md)\>
+> `protected` **processContentAnalysisIdList**(`response`): `Promise`\<[`ContentAnalysisIdListResponseInfo`](ContentAnalysisIdListResponseInfo.md)\>
 
 #### Parameters
 
@@ -300,15 +268,15 @@ main.ts:13771
 
 `Promise`\<[`ContentAnalysisIdListResponseInfo`](ContentAnalysisIdListResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13623
+main.ts:13793
 
 ***
 
 ### processContentAnalysisLanguages()
 
-> **`protected`** **processContentAnalysisLanguages**(`response`): `Promise`\<[`ContentAnalysisLanguagesResponseInfo`](ContentAnalysisLanguagesResponseInfo.md)\>
+> `protected` **processContentAnalysisLanguages**(`response`): `Promise`\<[`ContentAnalysisLanguagesResponseInfo`](ContentAnalysisLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -318,15 +286,15 @@ main.ts:13623
 
 `Promise`\<[`ContentAnalysisLanguagesResponseInfo`](ContentAnalysisLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13734
+main.ts:13904
 
 ***
 
 ### processContentAnalysisLocations()
 
-> **`protected`** **processContentAnalysisLocations**(`response`): `Promise`\<[`ContentAnalysisLocationsResponseInfo`](ContentAnalysisLocationsResponseInfo.md)\>
+> `protected` **processContentAnalysisLocations**(`response`): `Promise`\<[`ContentAnalysisLocationsResponseInfo`](ContentAnalysisLocationsResponseInfo.md)\>
 
 #### Parameters
 
@@ -336,15 +304,15 @@ main.ts:13734
 
 `Promise`\<[`ContentAnalysisLocationsResponseInfo`](ContentAnalysisLocationsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13697
+main.ts:13867
 
 ***
 
 ### processContentAnalysisSummaryLive()
 
-> **`protected`** **processContentAnalysisSummaryLive**(`response`): `Promise`\<[`ContentAnalysisSummaryLiveResponseInfo`](ContentAnalysisSummaryLiveResponseInfo.md)\>
+> `protected` **processContentAnalysisSummaryLive**(`response`): `Promise`\<[`ContentAnalysisSummaryLiveResponseInfo`](ContentAnalysisSummaryLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -354,15 +322,15 @@ main.ts:13697
 
 `Promise`\<[`ContentAnalysisSummaryLiveResponseInfo`](ContentAnalysisSummaryLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13855
+main.ts:14025
 
 ***
 
 ### processPhraseTrendsLive()
 
-> **`protected`** **processPhraseTrendsLive**(`response`): `Promise`\<[`ContentAnalysisPhraseTrendsLiveResponseInfo`](ContentAnalysisPhraseTrendsLiveResponseInfo.md)\>
+> `protected` **processPhraseTrendsLive**(`response`): `Promise`\<[`ContentAnalysisPhraseTrendsLiveResponseInfo`](ContentAnalysisPhraseTrendsLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -372,15 +340,15 @@ main.ts:13855
 
 `Promise`\<[`ContentAnalysisPhraseTrendsLiveResponseInfo`](ContentAnalysisPhraseTrendsLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13981
+main.ts:14151
 
 ***
 
 ### processRatingDistributionLive()
 
-> **`protected`** **processRatingDistributionLive**(`response`): `Promise`\<[`ContentAnalysisRatingDistributionLiveResponseInfo`](ContentAnalysisRatingDistributionLiveResponseInfo.md)\>
+> `protected` **processRatingDistributionLive**(`response`): `Promise`\<[`ContentAnalysisRatingDistributionLiveResponseInfo`](ContentAnalysisRatingDistributionLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -390,15 +358,15 @@ main.ts:13981
 
 `Promise`\<[`ContentAnalysisRatingDistributionLiveResponseInfo`](ContentAnalysisRatingDistributionLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13939
+main.ts:14109
 
 ***
 
 ### processSearchLive()
 
-> **`protected`** **processSearchLive**(`response`): `Promise`\<[`ContentAnalysisSearchLiveResponseInfo`](ContentAnalysisSearchLiveResponseInfo.md)\>
+> `protected` **processSearchLive**(`response`): `Promise`\<[`ContentAnalysisSearchLiveResponseInfo`](ContentAnalysisSearchLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -408,15 +376,15 @@ main.ts:13939
 
 `Promise`\<[`ContentAnalysisSearchLiveResponseInfo`](ContentAnalysisSearchLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13813
+main.ts:13983
 
 ***
 
 ### processSentimentAnalysisLive()
 
-> **`protected`** **processSentimentAnalysisLive**(`response`): `Promise`\<[`ContentAnalysisSentimentAnalysisLiveResponseInfo`](ContentAnalysisSentimentAnalysisLiveResponseInfo.md)\>
+> `protected` **processSentimentAnalysisLive**(`response`): `Promise`\<[`ContentAnalysisSentimentAnalysisLiveResponseInfo`](ContentAnalysisSentimentAnalysisLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -426,9 +394,9 @@ main.ts:13813
 
 `Promise`\<[`ContentAnalysisSentimentAnalysisLiveResponseInfo`](ContentAnalysisSentimentAnalysisLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13897
+main.ts:14067
 
 ***
 
@@ -448,9 +416,9 @@ main.ts:13897
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13919
+main.ts:14089
 
 ***
 
@@ -470,9 +438,9 @@ main.ts:13919
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13793
+main.ts:13963
 
 ***
 
@@ -492,6 +460,6 @@ main.ts:13793
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13877
+main.ts:14047

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpBingLocationsResultInfo(data)
+### new SerpBingLocationsResultInfo()
 
 > **new SerpBingLocationsResultInfo**(`data`?): [`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:57470
+main.ts:58002
 
 ## Properties
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
@@ -44,15 +44,15 @@ ISO country code of the location
 
 [`ISerpBingLocationsResultInfo`](../interfaces/ISerpBingLocationsResultInfo.md).[`country_iso_code`](../interfaces/ISerpBingLocationsResultInfo.md#country_iso_code)
 
-#### Source
+#### Defined in
 
-main.ts:57464
+main.ts:57996
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
@@ -60,15 +60,15 @@ location code
 
 [`ISerpBingLocationsResultInfo`](../interfaces/ISerpBingLocationsResultInfo.md).[`location_code`](../interfaces/ISerpBingLocationsResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:57451
+main.ts:57983
 
 ***
 
 ### location\_code\_parent?
 
-> **`optional`** **location\_code\_parent**: `number`
+> `optional` **location\_code\_parent**: `number`
 
 the code of the superordinate location
 example:
@@ -83,15 +83,15 @@ where location_code_parent corresponds to:
 
 [`ISerpBingLocationsResultInfo`](../interfaces/ISerpBingLocationsResultInfo.md).[`location_code_parent`](../interfaces/ISerpBingLocationsResultInfo.md#location_code_parent)
 
-#### Source
+#### Defined in
 
-main.ts:57462
+main.ts:57994
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
@@ -99,15 +99,15 @@ full name of the location
 
 [`ISerpBingLocationsResultInfo`](../interfaces/ISerpBingLocationsResultInfo.md).[`location_name`](../interfaces/ISerpBingLocationsResultInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:57453
+main.ts:57985
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 
@@ -115,9 +115,9 @@ location type
 
 [`ISerpBingLocationsResultInfo`](../interfaces/ISerpBingLocationsResultInfo.md).[`location_type`](../interfaces/ISerpBingLocationsResultInfo.md#location_type)
 
-#### Source
+#### Defined in
 
-main.ts:57466
+main.ts:57998
 
 ## Methods
 
@@ -133,9 +133,9 @@ main.ts:57466
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:57479
+main.ts:58011
 
 ***
 
@@ -151,15 +151,15 @@ main.ts:57479
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:57500
+main.ts:58032
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)
 
 #### Parameters
 
@@ -169,6 +169,6 @@ main.ts:57500
 
 [`SerpBingLocationsResultInfo`](SerpBingLocationsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:57493
+main.ts:58025

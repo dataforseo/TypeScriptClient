@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixRatesData(data)
+### new AppendixRatesData()
 
 > **new AppendixRatesData**(`data`?): [`AppendixRatesData`](AppendixRatesData.md)
 
@@ -28,15 +28,15 @@
 
 [`AppendixRatesData`](AppendixRatesData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221236
+main.ts:224720
 
 ## Properties
 
 ### limits?
 
-> **`optional`** **limits**: [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
+> `optional` **limits**: [`AppendixLimitsRatesData`](AppendixLimitsRatesData.md)
 
 rate limits for API calls per a certain period of time
 
@@ -44,15 +44,15 @@ rate limits for API calls per a certain period of time
 
 [`IAppendixRatesData`](../interfaces/IAppendixRatesData.md).[`limits`](../interfaces/IAppendixRatesData.md#limits)
 
-#### Source
+#### Defined in
 
-main.ts:221230
+main.ts:224714
 
 ***
 
 ### statistics?
 
-> **`optional`** **statistics**: [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
+> `optional` **statistics**: [`AppendixStatisticsRatesData`](AppendixStatisticsRatesData.md)
 
 statisctics for API calls
 
@@ -60,9 +60,9 @@ statisctics for API calls
 
 [`IAppendixRatesData`](../interfaces/IAppendixRatesData.md).[`statistics`](../interfaces/IAppendixRatesData.md#statistics)
 
-#### Source
+#### Defined in
 
-main.ts:221232
+main.ts:224716
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:221232
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:221245
+main.ts:224729
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:221245
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221263
+main.ts:224747
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixRatesData`](AppendixRatesData.md)
+> `static` **fromJS**(`data`): [`AppendixRatesData`](AppendixRatesData.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:221263
 
 [`AppendixRatesData`](AppendixRatesData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221256
+main.ts:224740

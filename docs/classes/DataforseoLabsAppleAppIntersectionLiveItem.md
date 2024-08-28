@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAppleAppIntersectionLiveItem(data)
+### new DataforseoLabsAppleAppIntersectionLiveItem()
 
 > **new DataforseoLabsAppleAppIntersectionLiveItem**(`data`?): [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
 
@@ -28,21 +28,21 @@
 
 [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:118029
+main.ts:118661
 
 ## Properties
 
 ### intersection\_result?
 
-> **`optional`** **intersection\_result**: `Object`
+> `optional` **intersection\_result**: `object`
 
 contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
 depending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`AppDataAppStoreSearchOrganicSerpElementItem`](AppDataAppStoreSearchOrganicSerpElementItem.md)
 
@@ -50,15 +50,15 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 [`IDataforseoLabsAppleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveItem.md).[`intersection_result`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveItem.md#intersection_result)
 
-#### Source
+#### Defined in
 
-main.ts:118025
+main.ts:118657
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
@@ -66,15 +66,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsAppleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:118021
+main.ts:118653
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -82,9 +82,9 @@ search engine type
 
 [`IDataforseoLabsAppleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAppleAppIntersectionLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:118019
+main.ts:118651
 
 ## Methods
 
@@ -100,9 +100,9 @@ main.ts:118019
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:118038
+main.ts:118670
 
 ***
 
@@ -118,15 +118,15 @@ main.ts:118038
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:118063
+main.ts:118695
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
 
 #### Parameters
 
@@ -136,6 +136,6 @@ main.ts:118063
 
 [`DataforseoLabsAppleAppIntersectionLiveItem`](DataforseoLabsAppleAppIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:118056
+main.ts:118688

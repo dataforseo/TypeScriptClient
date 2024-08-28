@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new FaqBoxElement(data)
+### new FaqBoxElement()
 
 > **new FaqBoxElement**(`data`?): [`FaqBoxElement`](FaqBoxElement.md)
 
@@ -28,15 +28,15 @@
 
 [`FaqBoxElement`](FaqBoxElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:29349
+main.ts:29531
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md).[`description`](../interfaces/IFaqBoxElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:29343
+main.ts:29525
 
 ***
 
 ### links?
 
-> **`optional`** **links**: [`LinkElement`](LinkElement.md)[]
+> `optional` **links**: [`LinkElement`](LinkElement.md)[]
 
 link of the element
 
@@ -60,15 +60,15 @@ link of the element
 
 [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md).[`links`](../interfaces/IFaqBoxElement.md#links)
 
-#### Source
+#### Defined in
 
-main.ts:29345
+main.ts:29527
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -76,15 +76,15 @@ title of a given link element
 
 [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md).[`title`](../interfaces/IFaqBoxElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:29341
+main.ts:29523
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -92,9 +92,9 @@ type of element
 
 [`IFaqBoxElement`](../interfaces/IFaqBoxElement.md).[`type`](../interfaces/IFaqBoxElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:29339
+main.ts:29521
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:29339
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:29358
+main.ts:29540
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:29358
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:29382
+main.ts:29564
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`FaqBoxElement`](FaqBoxElement.md)
+> `static` **fromJS**(`data`): [`FaqBoxElement`](FaqBoxElement.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:29382
 
 [`FaqBoxElement`](FaqBoxElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:29375
+main.ts:29557

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataGoogleQuestionsAndAnswersLiveResultInfo(data)
+### new BusinessDataGoogleQuestionsAndAnswersLiveResultInfo()
 
 > **new BusinessDataGoogleQuestionsAndAnswersLiveResultInfo**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:213049
+main.ts:214899
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,15 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:213022
+main.ts:214872
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
@@ -63,15 +63,15 @@ learn more about the identifier in this help center article
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`cid`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#cid)
 
-#### Source
+#### Defined in
 
-main.ts:213031
+main.ts:214881
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,15 @@ example:
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:213027
+main.ts:214877
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 unique identifier of the SERP feature
 
@@ -98,15 +98,15 @@ unique identifier of the SERP feature
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`feature_id`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#feature_id)
 
-#### Source
+#### Defined in
 
-main.ts:213033
+main.ts:214883
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 item types
 types of search engine results encountered in the items array;
@@ -116,15 +116,15 @@ possible item types: google_business_question_item
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`item_types`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:213037
+main.ts:214887
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)[]
+> `optional` **items**: [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)[]
 
 array of items within google_business_question_item
 contains answers to the google business questions;
@@ -134,15 +134,15 @@ possible item types google_business_answer_element
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:213045
+main.ts:214895
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of items in the items array
 
@@ -150,15 +150,15 @@ the number of items in the items array
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:213041
+main.ts:214891
 
 ***
 
 ### items\_without\_answers?
 
-> **`optional`** **items\_without\_answers**: [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)[]
+> `optional` **items\_without\_answers**: [`ItemsWithoutAnswers`](ItemsWithoutAnswers.md)[]
 
 array of google business question items without answers
 
@@ -166,15 +166,15 @@ array of google business question items without answers
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`items_without_answers`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#items_without_answers)
 
-#### Source
+#### Defined in
 
-main.ts:213039
+main.ts:214889
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -187,15 +187,15 @@ learn more about the parameter in this help center article
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:213013
+main.ts:214863
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -203,15 +203,15 @@ language code in a POST array
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:213019
+main.ts:214869
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -219,15 +219,15 @@ location code in a POST array
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:213017
+main.ts:214867
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain as specified in a POST array
 
@@ -235,9 +235,9 @@ search engine domain as specified in a POST array
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md).[`se_domain`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:213015
+main.ts:214865
 
 ## Methods
 
@@ -253,9 +253,9 @@ main.ts:213015
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:213058
+main.ts:214908
 
 ***
 
@@ -271,15 +271,15 @@ main.ts:213058
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:213098
+main.ts:214948
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
 
 #### Parameters
 
@@ -289,6 +289,6 @@ main.ts:213098
 
 [`BusinessDataGoogleQuestionsAndAnswersLiveResultInfo`](BusinessDataGoogleQuestionsAndAnswersLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:213091
+main.ts:214941

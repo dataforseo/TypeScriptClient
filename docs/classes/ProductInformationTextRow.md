@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new ProductInformationTextRow(data)
+### new ProductInformationTextRow()
 
 > **new ProductInformationTextRow**(`data`?): [`ProductInformationTextRow`](ProductInformationTextRow.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`constructor`](BaseProductInformationRowItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:184649
+main.ts:186481
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`_discriminator`](BaseProductInformationRowItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:22917
+main.ts:23099
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 text specified under the given title within the section_name
 
@@ -66,9 +66,9 @@ text specified under the given title within the section_name
 
 [`IProductInformationTextRow`](../interfaces/IProductInformationTextRow.md).[`text`](../interfaces/IProductInformationTextRow.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:184645
+main.ts:186477
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:184645
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`init`](BaseProductInformationRowItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:184654
+main.ts:186486
 
 ***
 
@@ -110,15 +110,15 @@ main.ts:184654
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`toJSON`](BaseProductInformationRowItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:184672
+main.ts:186504
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ProductInformationTextRow`](ProductInformationTextRow.md)
+> `static` **fromJS**(`data`): [`ProductInformationTextRow`](ProductInformationTextRow.md)
 
 #### Parameters
 
@@ -132,6 +132,6 @@ main.ts:184672
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`fromJS`](BaseProductInformationRowItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:184665
+main.ts:186497

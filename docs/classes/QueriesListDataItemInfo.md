@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new QueriesListDataItemInfo(data)
+### new QueriesListDataItemInfo()
 
 > **new QueriesListDataItemInfo**(`data`?): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:127071
+main.ts:127078
 
 ## Properties
 
 ### query?
 
-> **`optional`** **query**: `string`
+> `optional` **query**: `string`
 
 related query
 
@@ -44,15 +44,15 @@ related query
 
 [`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md).[`query`](../interfaces/IQueriesListDataItemInfo.md#query)
 
-#### Source
+#### Defined in
 
-main.ts:127064
+main.ts:127071
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `string`
+> `optional` **value**: `string`
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
@@ -61,9 +61,9 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 [`IQueriesListDataItemInfo`](../interfaces/IQueriesListDataItemInfo.md).[`value`](../interfaces/IQueriesListDataItemInfo.md#value)
 
-#### Source
+#### Defined in
 
-main.ts:127067
+main.ts:127074
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:127067
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:127080
+main.ts:127087
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:127080
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:127098
+main.ts:127105
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
+> `static` **fromJS**(`data`): [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:127098
 
 [`QueriesListDataItemInfo`](QueriesListDataItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:127091
+main.ts:127098

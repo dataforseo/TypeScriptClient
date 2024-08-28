@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkNewLostBacklinksLiveRequestInfo(data)
+### new BacklinksBulkNewLostBacklinksLiveRequestInfo()
 
 > **new BacklinksBulkNewLostBacklinksLiveRequestInfo**(`data`?): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:151690
+main.ts:153516
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -55,15 +55,15 @@ example:
 
 [`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:151680
+main.ts:153506
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -75,15 +75,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:151686
+main.ts:153512
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 domains, subdomains or webpages to get new & lost backlinks for
 required field
@@ -108,9 +108,9 @@ example:
 
 [`IBacklinksBulkNewLostBacklinksLiveRequestInfo`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkNewLostBacklinksLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:151667
+main.ts:153493
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:151667
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:151699
+main.ts:153525
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:151699
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:151722
+main.ts:153548
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:151722
 
 [`BacklinksBulkNewLostBacklinksLiveRequestInfo`](BacklinksBulkNewLostBacklinksLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:151715
+main.ts:153541

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,37 +14,37 @@
 
 ### table\_content?
 
-> **`optional`** **table\_content**: `string`[][]
+> `optional` **table\_content**: `string`[][]
 
 the content of the table
 one line of the table in this element of the array
 
-#### Source
+#### Defined in
 
-main.ts:22373
+main.ts:22555
 
 ***
 
 ### table\_element?
 
-> **`optional`** **table\_element**: `string`
+> `optional` **table\_element**: `string`
 
 name assigned to the table element
 possible values:
 table_element
 
-#### Source
+#### Defined in
 
-main.ts:22368
+main.ts:22550
 
 ***
 
 ### table\_header?
 
-> **`optional`** **table\_header**: `string`[]
+> `optional` **table\_header**: `string`[]
 
 column names
 
-#### Source
+#### Defined in
 
-main.ts:22370
+main.ts:22552

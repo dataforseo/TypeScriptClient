@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,24 +14,24 @@
 
 ### page?
 
-> **`optional`** **page**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
+> `optional` **page**: [`BaseOnPageResourceItemInfo`](../classes/BaseOnPageResourceItemInfo.md)[]
 
 information about the page with duplicate content
 
-#### Source
+#### Defined in
 
-main.ts:159169
+main.ts:161001
 
 ***
 
 ### similarity?
 
-> **`optional`** **similarity**: `number`
+> `optional` **similarity**: `number`
 
 content similarity score
 by default, the content is considered duplicate if the value is greater than or equals 6
 can take values from 0 to 10
 
-#### Source
+#### Defined in
 
-main.ts:159167
+main.ts:160999

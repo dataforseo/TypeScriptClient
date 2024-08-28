@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### creativity\_index?
 
-> **`optional`** **creativity\_index**: `number`
+> `optional` **creativity\_index**: `number`
 
 creativity of content generation
 optional field
@@ -23,15 +23,15 @@ can take values from 0 to 1
 default value: 0.8
 learn more about this parameter on our help center
 
-#### Source
+#### Defined in
 
-main.ts:172821
+main.ts:174653
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -39,21 +39,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:172827
+main.ts:174659
 
 ***
 
 ### topic?
 
-> **`optional`** **topic**: `string`
+> `optional` **topic**: `string`
 
 main topic of the content to generate
 required field
 main topic for content generation;
 can contain from 1 to 50 tokens
 
-#### Source
+#### Defined in
 
-main.ts:172814
+main.ts:174646

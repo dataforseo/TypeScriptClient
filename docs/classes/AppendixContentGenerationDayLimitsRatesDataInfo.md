@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixContentGenerationDayLimitsRatesDataInfo(data)
+### new AppendixContentGenerationDayLimitsRatesDataInfo()
 
 > **new AppendixContentGenerationDayLimitsRatesDataInfo**(`data`?): [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
@@ -28,37 +28,37 @@
 
 [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220290
+main.ts:222198
 
 ## Properties
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
 #### Implementation of
 
 [`IAppendixContentGenerationDayLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:220286
+main.ts:222194
 
 ***
 
 ### live?
 
-> **`optional`** **live**: `number`
+> `optional` **live**: `number`
 
 #### Implementation of
 
 [`IAppendixContentGenerationDayLimitsRatesDataInfo`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md).[`live`](../interfaces/IAppendixContentGenerationDayLimitsRatesDataInfo.md#live)
 
-#### Source
+#### Defined in
 
-main.ts:220285
+main.ts:222193
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:220285
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:220299
+main.ts:222207
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:220299
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:220317
+main.ts:222225
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:220317
 
 [`AppendixContentGenerationDayLimitsRatesDataInfo`](AppendixContentGenerationDayLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220310
+main.ts:222218

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo(data)
+### new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo()
 
 > **new DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:113694
+main.ts:114326
 
 ## Properties
 
 ### app\_ids?
 
-> **`optional`** **app\_ids**: `string`[]
+> `optional` **app\_ids**: `string`[]
 
 ids of the app
 required field
@@ -51,15 +51,15 @@ the maximum number of IDs you can specify in this field is 1000
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`app_ids`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#app_ids)
 
-#### Source
+#### Defined in
 
-main.ts:113648
+main.ts:114280
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -74,15 +74,15 @@ en
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:113684
+main.ts:114316
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -97,15 +97,15 @@ English
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:113675
+main.ts:114307
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -120,15 +120,15 @@ example:
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:113666
+main.ts:114298
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -143,15 +143,15 @@ United States
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:113657
+main.ts:114289
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -163,9 +163,9 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:113690
+main.ts:114322
 
 ## Methods
 
@@ -181,9 +181,9 @@ main.ts:113690
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:113703
+main.ts:114335
 
 ***
 
@@ -199,15 +199,15 @@ main.ts:113703
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:113729
+main.ts:114361
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
 #### Parameters
 
@@ -217,6 +217,6 @@ main.ts:113729
 
 [`DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo`](DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:113722
+main.ts:114354

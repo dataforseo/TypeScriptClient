@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixContentGenerationPriceDataInfo(data)
+### new AppendixContentGenerationPriceDataInfo()
 
 > **new AppendixContentGenerationPriceDataInfo**(`data`?): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
@@ -28,37 +28,37 @@
 
 [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223388
+main.ts:227660
 
 ## Properties
 
 ### languages?
 
-> **`optional`** **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md).[`languages`](../interfaces/IAppendixContentGenerationPriceDataInfo.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:223384
+main.ts:227656
 
 ***
 
 ### live?
 
-> **`optional`** **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixContentGenerationPriceDataInfo`](../interfaces/IAppendixContentGenerationPriceDataInfo.md).[`live`](../interfaces/IAppendixContentGenerationPriceDataInfo.md#live)
 
-#### Source
+#### Defined in
 
-main.ts:223383
+main.ts:227655
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:223383
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:223397
+main.ts:227669
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:223397
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:223415
+main.ts:227687
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:223415
 
 [`AppendixContentGenerationPriceDataInfo`](AppendixContentGenerationPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223408
+main.ts:227680

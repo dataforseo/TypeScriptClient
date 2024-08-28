@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,70 +14,70 @@
 
 ### address?
 
-> **`optional`** **address**: `string`
+> `optional` **address**: `string`
 
 street address of the local establishment
 
-#### Source
+#### Defined in
 
-main.ts:40952
+main.ts:41478
 
 ***
 
 ### borough?
 
-> **`optional`** **borough**: `string`
+> `optional` **borough**: `string`
 
 administrative unit or district the local establishment belongs to
 
-#### Source
+#### Defined in
 
-main.ts:40950
+main.ts:41476
 
 ***
 
 ### city?
 
-> **`optional`** **city**: `string`
+> `optional` **city**: `string`
 
 name of the city where the local establishment is located
 
-#### Source
+#### Defined in
 
-main.ts:40954
+main.ts:41480
 
 ***
 
 ### country\_code?
 
-> **`optional`** **country\_code**: `string`
+> `optional` **country\_code**: `string`
 
 ISO country code of the local establishment
 
-#### Source
+#### Defined in
 
-main.ts:40960
+main.ts:41486
 
 ***
 
 ### region?
 
-> **`optional`** **region**: `string`
+> `optional` **region**: `string`
 
 DMA region the local establishment belongs to
 
-#### Source
+#### Defined in
 
-main.ts:40958
+main.ts:41484
 
 ***
 
 ### zip?
 
-> **`optional`** **zip**: `string`
+> `optional` **zip**: `string`
 
 ZIP code of the local establishment
 
-#### Source
+#### Defined in
 
-main.ts:40956
+main.ts:41482

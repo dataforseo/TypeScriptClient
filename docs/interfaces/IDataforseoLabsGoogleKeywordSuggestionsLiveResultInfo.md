@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,127 +14,125 @@
 
 ### items?
 
-> **`optional`** **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
+> `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
 contains keywords and related data
 
-#### Source
+#### Defined in
 
-main.ts:85726
+main.ts:86284
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:85718
+main.ts:86276
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
-if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:85714
+main.ts:86272
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
-if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:85711
+main.ts:86270
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 current offset value
 
-#### Source
+#### Defined in
 
-main.ts:85720
+main.ts:86278
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
 
-#### Source
+#### Defined in
 
-main.ts:85724
+main.ts:86282
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:85703
+main.ts:86263
 
 ***
 
 ### seed\_keyword?
 
-> **`optional`** **seed\_keyword**: `string`
+> `optional` **seed\_keyword**: `string`
 
 keyword in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:85705
+main.ts:86265
 
 ***
 
 ### seed\_keyword\_data?
 
-> **`optional`** **seed\_keyword\_data**: `Object`
+> `optional` **seed\_keyword\_data**: `object`
 
 keyword data for the seed keyword
 fields in this object are identical to those of the items array
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:85708
+main.ts:86268
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results in our database relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:85716
+main.ts:86274

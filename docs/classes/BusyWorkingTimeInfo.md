@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusyWorkingTimeInfo(data)
+### new BusyWorkingTimeInfo()
 
 > **new BusyWorkingTimeInfo**(`data`?): [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201391
+main.ts:203223
 
 ## Properties
 
 ### popular\_index?
 
-> **`optional`** **popular\_index**: `number`
+> `optional` **popular\_index**: `number`
 
 popularity index
 relative time-bound popularity index measured from 0 to 100;
@@ -46,15 +46,15 @@ higher value corresponds to a busier time of a day
 
 [`IBusyWorkingTimeInfo`](../interfaces/IBusyWorkingTimeInfo.md).[`popular_index`](../interfaces/IBusyWorkingTimeInfo.md#popular_index)
 
-#### Source
+#### Defined in
 
-main.ts:201387
+main.ts:203219
 
 ***
 
 ### time?
 
-> **`optional`** **time**: [`WorkTimeInfo`](WorkTimeInfo.md)
+> `optional` **time**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
 busy hours
 
@@ -62,9 +62,9 @@ busy hours
 
 [`IBusyWorkingTimeInfo`](../interfaces/IBusyWorkingTimeInfo.md).[`time`](../interfaces/IBusyWorkingTimeInfo.md#time)
 
-#### Source
+#### Defined in
 
-main.ts:201383
+main.ts:203215
 
 ## Methods
 
@@ -80,9 +80,9 @@ main.ts:201383
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:201400
+main.ts:203232
 
 ***
 
@@ -98,15 +98,15 @@ main.ts:201400
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:201418
+main.ts:203250
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
+> `static` **fromJS**(`data`): [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
 
 #### Parameters
 
@@ -116,6 +116,6 @@ main.ts:201418
 
 [`BusyWorkingTimeInfo`](BusyWorkingTimeInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201411
+main.ts:203243

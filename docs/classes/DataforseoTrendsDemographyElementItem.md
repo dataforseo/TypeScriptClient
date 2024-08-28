@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new DataforseoTrendsDemographyElementItem(data)
+### new DataforseoTrendsDemographyElementItem()
 
 > **new DataforseoTrendsDemographyElementItem**(`data`?): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`constructor`](BaseDataforseoTrendsItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:130840
+main.ts:130664
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`_discriminator`](BaseDataforseoTrendsItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21456
+main.ts:21638
 
 ***
 
 ### demography?
 
-> **`optional`** **demography**: [`Demography`](Demography.md)
+> `optional` **demography**: [`Demography`](Demography.md)
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
@@ -67,29 +67,29 @@ conains keyword popularity data by age and gender
 
 [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`demography`](../interfaces/IDataforseoTrendsDemographyElementItem.md#demography)
 
-#### Source
+#### Defined in
 
-main.ts:130835
+main.ts:130659
 
 ***
 
 ### demography\_comparison?
 
-> **`optional`** **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
+> `optional` **demography\_comparison**: [`DemographyComparisonInfo`](DemographyComparisonInfo.md)
 
 #### Implementation of
 
 [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`demography_comparison`](../interfaces/IDataforseoTrendsDemographyElementItem.md#demography_comparison)
 
-#### Source
+#### Defined in
 
-main.ts:130836
+main.ts:130660
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the interests and interests_comparison is based on the keywords listed in this array
@@ -98,15 +98,15 @@ the data included in the interests and interests_comparison is based on the keyw
 
 [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`keywords`](../interfaces/IDataforseoTrendsDemographyElementItem.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:130832
+main.ts:130656
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
@@ -115,9 +115,9 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`position`](../interfaces/IDataforseoTrendsDemographyElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:130829
+main.ts:130653
 
 ## Methods
 
@@ -137,9 +137,9 @@ main.ts:130829
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`init`](BaseDataforseoTrendsItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:130845
+main.ts:130669
 
 ***
 
@@ -159,15 +159,15 @@ main.ts:130845
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`toJSON`](BaseDataforseoTrendsItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:130870
+main.ts:130694
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
+> `static` **fromJS**(`data`): [`DataforseoTrendsDemographyElementItem`](DataforseoTrendsDemographyElementItem.md)
 
 #### Parameters
 
@@ -181,6 +181,6 @@ main.ts:130870
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`fromJS`](BaseDataforseoTrendsItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:130863
+main.ts:130687

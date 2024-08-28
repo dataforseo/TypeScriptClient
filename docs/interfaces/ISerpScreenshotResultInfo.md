@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### items?
 
-> **`optional`** **items**: [`ScreenshotItem`](../classes/ScreenshotItem.md)[]
+> `optional` **items**: [`ScreenshotItem`](../classes/ScreenshotItem.md)[]
 
 items array
 
-#### Source
+#### Defined in
 
-main.ts:24750
+main.ts:24932
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
-#### Source
+#### Defined in
 
-main.ts:24748
+main.ts:24930

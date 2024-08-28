@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,63 +14,63 @@
 
 ### demography?
 
-> **`optional`** **demography**: [`Demography`](../classes/Demography.md)
+> `optional` **demography**: [`Demography`](../classes/Demography.md)
 
 demographic breakdown of keyword popularity data per each specified term
 conains keyword popularity data by age and gender
 
-#### Source
+#### Defined in
 
-main.ts:130419
+main.ts:130243
 
 ***
 
 ### demography\_comparison?
 
-> **`optional`** **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
+> `optional` **demography\_comparison**: [`DemographyComparisonInfo`](../classes/DemographyComparisonInfo.md)
 
 comparison of demographic data on keyword popularity for the specified parameters
 conains keyword popularity data by age and gender
 if you specified a single keyword, the value will be null
 
-#### Source
+#### Defined in
 
-main.ts:130423
+main.ts:130247
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 relevant keywords
 the data included in the demography and demography_comparison is based on the keywords listed in this array
 
-#### Source
+#### Defined in
 
-main.ts:130416
+main.ts:130240
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `number`
+> `optional` **position**: `number`
 
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
 
-#### Source
+#### Defined in
 
-main.ts:130411
+main.ts:130235
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:130413
+main.ts:130237

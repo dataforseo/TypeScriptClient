@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new TripadvisorReviewSearchBusinessDataSerpElementItem(data)
+### new TripadvisorReviewSearchBusinessDataSerpElementItem()
 
 > **new TripadvisorReviewSearchBusinessDataSerpElementItem**(`data`?): [`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:217082
+main.ts:218934
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21097
+main.ts:21279
 
 ***
 
 ### date\_of\_visit?
 
-> **`optional`** **date\_of\_visit**: `string`
+> `optional` **date\_of\_visit**: `string`
 
 date of the reviewer’s visit to the local establishment
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -69,15 +69,15 @@ example:
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`date_of_visit`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#date_of_visit)
 
-#### Source
+#### Defined in
 
-main.ts:217060
+main.ts:218912
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: right
@@ -86,15 +86,15 @@ can take the following values: right
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`position`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:217051
+main.ts:218903
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
@@ -103,15 +103,15 @@ absolute position among all reviews on the list
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:217048
+main.ts:218900
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -120,15 +120,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:217045
+main.ts:218897
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the rating score submitted by the reviewer
 
@@ -136,15 +136,15 @@ the rating score submitted by the reviewer
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`rating`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:217055
+main.ts:218907
 
 ***
 
 ### responses?
 
-> **`optional`** **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
+> `optional` **responses**: [`ReviewResponseItemInfo`](ReviewResponseItemInfo.md)[]
 
 contains information about the owner’s response
 
@@ -152,15 +152,15 @@ contains information about the owner’s response
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`responses`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#responses)
 
-#### Source
+#### Defined in
 
-main.ts:217075
+main.ts:218927
 
 ***
 
 ### review\_highlights?
 
-> **`optional`** **review\_highlights**: [`ReviewHighlights`](ReviewHighlights.md)[]
+> `optional` **review\_highlights**: [`ReviewHighlights`](ReviewHighlights.md)[]
 
 review highlights
 contains highlighted review criteria and assessments
@@ -169,15 +169,15 @@ contains highlighted review criteria and assessments
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`review_highlights`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#review_highlights)
 
-#### Source
+#### Defined in
 
-main.ts:217078
+main.ts:218930
 
 ***
 
 ### review\_images?
 
-> **`optional`** **review\_images**: [`ImageUrlInfo`](ImageUrlInfo.md)[]
+> `optional` **review\_images**: [`ImageUrlInfo`](ImageUrlInfo.md)[]
 
 contains URLs of the images used in the review
 
@@ -185,15 +185,15 @@ contains URLs of the images used in the review
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`review_images`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#review_images)
 
-#### Source
+#### Defined in
 
-main.ts:217071
+main.ts:218923
 
 ***
 
 ### review\_text?
 
-> **`optional`** **review\_text**: `string`
+> `optional` **review\_text**: `string`
 
 content of the review
 
@@ -201,15 +201,15 @@ content of the review
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`review_text`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#review_text)
 
-#### Source
+#### Defined in
 
-main.ts:217069
+main.ts:218921
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -220,15 +220,15 @@ example:
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`timestamp`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:217065
+main.ts:218917
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the review
 
@@ -236,15 +236,15 @@ title of the review
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`title`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:217067
+main.ts:218919
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the review
 
@@ -252,15 +252,15 @@ URL of the review
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`url`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:217053
+main.ts:218905
 
 ***
 
 ### user\_profile?
 
-> **`optional`** **user\_profile**: [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
+> `optional` **user\_profile**: [`BusinessDataUserProfileInfo`](BusinessDataUserProfileInfo.md)
 
 information from the reviewer’s profile
 
@@ -268,9 +268,9 @@ information from the reviewer’s profile
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`user_profile`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#user_profile)
 
-#### Source
+#### Defined in
 
-main.ts:217073
+main.ts:218925
 
 ## Methods
 
@@ -290,9 +290,9 @@ main.ts:217073
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:217087
+main.ts:218939
 
 ***
 
@@ -312,15 +312,15 @@ main.ts:217087
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:217129
+main.ts:218981
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): [`TripadvisorReviewSearchBusinessDataSerpElementItem`](TripadvisorReviewSearchBusinessDataSerpElementItem.md)
 
 #### Parameters
 
@@ -334,6 +334,6 @@ main.ts:217129
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:217122
+main.ts:218974

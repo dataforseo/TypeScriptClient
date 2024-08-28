@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,54 +14,54 @@
 
 ### aggregation\_technologies?
 
-> **`optional`** **aggregation\_technologies**: `Object`
+> `optional` **aggregation\_technologies**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:76124
+main.ts:76720
 
 ***
 
 ### domains\_by\_html\_terms?
 
-> **`optional`** **domains\_by\_html\_terms**: `Object`
+> `optional` **domains\_by\_html\_terms**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:76126
+main.ts:76722
 
 ***
 
 ### domains\_by\_technology?
 
-> **`optional`** **domains\_by\_technology**: `Object`
+> `optional` **domains\_by\_technology**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:76123
+main.ts:76719
 
 ***
 
 ### technologies\_summary?
 
-> **`optional`** **technologies\_summary**: `Object`
+> `optional` **technologies\_summary**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:76125
+main.ts:76721

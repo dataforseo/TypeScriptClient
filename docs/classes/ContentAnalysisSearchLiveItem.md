@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisSearchLiveItem(data)
+### new ContentAnalysisSearchLiveItem()
 
 > **new ContentAnalysisSearchLiveItem**(`data`?): [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:168595
+main.ts:170427
 
 ## Properties
 
 ### content\_info?
 
-> **`optional`** **content\_info**: [`AnalysisContentInfo`](AnalysisContentInfo.md)
+> `optional` **content\_info**: [`AnalysisContentInfo`](AnalysisContentInfo.md)
 
 contains data on citations from the given url
 
@@ -44,15 +44,15 @@ contains data on citations from the given url
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`content_info`](../interfaces/IContentAnalysisSearchLiveItem.md#content_info)
 
-#### Source
+#### Defined in
 
-main.ts:168591
+main.ts:170423
 
 ***
 
 ### country?
 
-> **`optional`** **country**: `string`
+> `optional` **country**: `string`
 
 country code of the domain registration
 to obtain a full list of available countries, refer to the Locations endpoint
@@ -61,15 +61,15 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`country`](../interfaces/IContentAnalysisSearchLiveItem.md#country)
 
-#### Source
+#### Defined in
 
-main.ts:168570
+main.ts:170402
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain name
 
@@ -77,15 +77,15 @@ domain name
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`domain`](../interfaces/IContentAnalysisSearchLiveItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:168546
+main.ts:170378
 
 ***
 
 ### domain\_rank?
 
-> **`optional`** **domain\_rank**: `string`
+> `optional` **domain\_rank**: `string`
 
 rank of the domain
 this value is based on backlink data for the given domain from DataForSEO Backlink Index;
@@ -96,15 +96,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`domain_rank`](../interfaces/IContentAnalysisSearchLiveItem.md#domain_rank)
 
-#### Source
+#### Defined in
 
-main.ts:168562
+main.ts:170394
 
 ***
 
 ### fetch\_time?
 
-> **`optional`** **fetch\_time**: `string`
+> `optional` **fetch\_time**: `string`
 
 date and time when our crawler visited the page
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -115,15 +115,15 @@ example:
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`fetch_time`](../interfaces/IContentAnalysisSearchLiveItem.md#fetch_time)
 
-#### Source
+#### Defined in
 
-main.ts:168567
+main.ts:170399
 
 ***
 
 ### language?
 
-> **`optional`** **language**: `string`
+> `optional` **language**: `string`
 
 main language of the domain
 to obtain a full list of available languages, refer to the Languages endpoint
@@ -132,15 +132,15 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`language`](../interfaces/IContentAnalysisSearchLiveItem.md#language)
 
-#### Source
+#### Defined in
 
-main.ts:168573
+main.ts:170405
 
 ***
 
 ### main\_domain?
 
-> **`optional`** **main\_domain**: `string`
+> `optional` **main\_domain**: `string`
 
 main domain
 
@@ -148,15 +148,15 @@ main domain
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`main_domain`](../interfaces/IContentAnalysisSearchLiveItem.md#main_domain)
 
-#### Source
+#### Defined in
 
-main.ts:168548
+main.ts:170380
 
 ***
 
 ### page\_category?
 
-> **`optional`** **page\_category**: `number`[]
+> `optional` **page\_category**: `number`[]
 
 contains all relevant page categories
 product and service categories relevant for the page
@@ -166,15 +166,15 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`page_category`](../interfaces/IContentAnalysisSearchLiveItem.md#page_category)
 
-#### Source
+#### Defined in
 
-main.ts:168581
+main.ts:170413
 
 ***
 
 ### page\_types?
 
-> **`optional`** **page\_types**: `string`[]
+> `optional` **page\_types**: `string`[]
 
 page types
 
@@ -182,15 +182,15 @@ page types
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`page_types`](../interfaces/IContentAnalysisSearchLiveItem.md#page_types)
 
-#### Source
+#### Defined in
 
-main.ts:168583
+main.ts:170415
 
 ***
 
 ### ratings?
 
-> **`optional`** **ratings**: [`RatingInfo`](RatingInfo.md)[]
+> `optional` **ratings**: [`RatingInfo`](RatingInfo.md)[]
 
 ratings found on the page
 all ratings found on the page based on microdata
@@ -199,15 +199,15 @@ all ratings found on the page based on microdata
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`ratings`](../interfaces/IContentAnalysisSearchLiveItem.md#ratings)
 
-#### Source
+#### Defined in
 
-main.ts:168586
+main.ts:170418
 
 ***
 
 ### score?
 
-> **`optional`** **score**: `string`
+> `optional` **score**: `string`
 
 citation prominence score
 this value is based on url_rank, domain_rank, keyword presence in title, main_title, url, snippet
@@ -217,15 +217,15 @@ the higher the score, the more value the related citation has
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`score`](../interfaces/IContentAnalysisSearchLiveItem.md#score)
 
-#### Source
+#### Defined in
 
-main.ts:168577
+main.ts:170409
 
 ***
 
 ### social\_metrics?
 
-> **`optional`** **social\_metrics**: [`SocialMetricsInfo`](SocialMetricsInfo.md)[]
+> `optional` **social\_metrics**: [`SocialMetricsInfo`](SocialMetricsInfo.md)[]
 
 social media engagement metrics
 data on social media interactions associated with the content based on website embeds developed and supported by social media platforms
@@ -234,15 +234,15 @@ data on social media interactions associated with the content based on website e
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`social_metrics`](../interfaces/IContentAnalysisSearchLiveItem.md#social_metrics)
 
-#### Source
+#### Defined in
 
-main.ts:168589
+main.ts:170421
 
 ***
 
 ### spam\_score?
 
-> **`optional`** **spam\_score**: `string`
+> `optional` **spam\_score**: `string`
 
 backlink spam score of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
@@ -252,15 +252,15 @@ learn more about how the metric is calculated on this help center page
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`spam_score`](../interfaces/IContentAnalysisSearchLiveItem.md#spam_score)
 
-#### Source
+#### Defined in
 
-main.ts:168557
+main.ts:170389
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -268,15 +268,15 @@ type of element
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`type`](../interfaces/IContentAnalysisSearchLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:168542
+main.ts:170374
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL where the citation was found
 
@@ -284,15 +284,15 @@ URL where the citation was found
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`url`](../interfaces/IContentAnalysisSearchLiveItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:168544
+main.ts:170376
 
 ***
 
 ### url\_rank?
 
-> **`optional`** **url\_rank**: `number`
+> `optional` **url\_rank**: `number`
 
 rank of the url
 this value is based on backlink data for the given URL from DataForSEO Backlink Index;
@@ -303,9 +303,9 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IContentAnalysisSearchLiveItem`](../interfaces/IContentAnalysisSearchLiveItem.md).[`url_rank`](../interfaces/IContentAnalysisSearchLiveItem.md#url_rank)
 
-#### Source
+#### Defined in
 
-main.ts:168553
+main.ts:170385
 
 ## Methods
 
@@ -321,9 +321,9 @@ main.ts:168553
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:168604
+main.ts:170436
 
 ***
 
@@ -339,15 +339,15 @@ main.ts:168604
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:168652
+main.ts:170484
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
 
 #### Parameters
 
@@ -357,6 +357,6 @@ main.ts:168652
 
 [`ContentAnalysisSearchLiveItem`](ContentAnalysisSearchLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:168645
+main.ts:170477

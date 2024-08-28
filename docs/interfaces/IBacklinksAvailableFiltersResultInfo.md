@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,138 +14,138 @@
 
 ### anchors?
 
-> **`optional`** **anchors**: `Object`
+> `optional` **anchors**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139639
+main.ts:141465
 
 ***
 
 ### backlinks?
 
-> **`optional`** **backlinks**: `Object`
+> `optional` **backlinks**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139637
+main.ts:141463
 
 ***
 
 ### competitors?
 
-> **`optional`** **competitors**: `Object`
+> `optional` **competitors**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139645
+main.ts:141471
 
 ***
 
 ### content\_duplicates?
 
-> **`optional`** **content\_duplicates**: `Object`
+> `optional` **content\_duplicates**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139636
+main.ts:141462
 
 ***
 
 ### domain\_intersection?
 
-> **`optional`** **domain\_intersection**: `Object`
+> `optional` **domain\_intersection**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139641
+main.ts:141467
 
 ***
 
 ### domain\_pages?
 
-> **`optional`** **domain\_pages**: `Object`
+> `optional` **domain\_pages**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139638
+main.ts:141464
 
 ***
 
 ### domain\_pages\_summary?
 
-> **`optional`** **domain\_pages\_summary**: `Object`
+> `optional` **domain\_pages\_summary**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139644
+main.ts:141470
 
 ***
 
 ### page\_intersection?
 
-> **`optional`** **page\_intersection**: `Object`
+> `optional` **page\_intersection**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139642
+main.ts:141468
 
 ***
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: `Object`
+> `optional` **referring\_domains**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139640
+main.ts:141466
 
 ***
 
 ### referring\_networks?
 
-> **`optional`** **referring\_networks**: `Object`
+> `optional` **referring\_networks**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:139643
+main.ts:141469

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,13 +14,13 @@
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 available date
 indicates the date of the range available for setting in the Domain Metrics by Categories endpoint
 example:
 2022-05-16
 
-#### Source
+#### Defined in
 
-main.ts:82860
+main.ts:83456

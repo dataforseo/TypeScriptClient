@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 ranking data relevant to subdomain
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](../classes/DataforseoLabsMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:95466
+main.ts:95756
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:95462
+main.ts:95752
 
 ***
 
 ### subdomain?
 
-> **`optional`** **subdomain**: `string`
+> `optional` **subdomain**: `string`
 
 returned subdomain
 
-#### Source
+#### Defined in
 
-main.ts:95464
+main.ts:95754

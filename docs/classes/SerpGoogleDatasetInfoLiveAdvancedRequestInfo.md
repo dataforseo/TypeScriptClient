@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleDatasetInfoLiveAdvancedRequestInfo(data)
+### new SerpGoogleDatasetInfoLiveAdvancedRequestInfo()
 
 > **new SerpGoogleDatasetInfoLiveAdvancedRequestInfo**(`data`?): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:57118
+main.ts:57650
 
 ## Properties
 
 ### dataset\_id?
 
-> **`optional`** **dataset\_id**: `string`
+> `optional` **dataset\_id**: `string`
 
 ID of the dataset
 required field
@@ -48,15 +48,15 @@ L2cvMTFqbl85ZHN6MQ==
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`dataset_id`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#dataset_id)
 
-#### Source
+#### Defined in
 
-main.ts:57087
+main.ts:57619
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -66,15 +66,15 @@ possible value: desktop
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`device`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:57103
+main.ts:57635
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -86,15 +86,15 @@ en
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:57099
+main.ts:57631
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -106,15 +106,15 @@ English
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:57093
+main.ts:57625
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
@@ -125,15 +125,15 @@ default value: windows
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`os`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#os)
 
-#### Source
+#### Defined in
 
-main.ts:57108
+main.ts:57640
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -145,9 +145,9 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleDatasetInfoLiveAdvancedRequestInfo`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md).[`tag`](../interfaces/ISerpGoogleDatasetInfoLiveAdvancedRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:57114
+main.ts:57646
 
 ## Methods
 
@@ -163,9 +163,9 @@ main.ts:57114
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:57127
+main.ts:57659
 
 ***
 
@@ -181,15 +181,15 @@ main.ts:57127
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:57149
+main.ts:57681
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
 #### Parameters
 
@@ -199,6 +199,6 @@ main.ts:57149
 
 [`SerpGoogleDatasetInfoLiveAdvancedRequestInfo`](SerpGoogleDatasetInfoLiveAdvancedRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:57142
+main.ts:57674

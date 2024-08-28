@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### correlate?
 
-> **`optional`** **correlate**: `boolean`
+> `optional` **correlate**: `boolean`
 
 correlate data with previously obtained datasets
 optional field
@@ -23,15 +23,15 @@ if you use this parameter, our system will correlate data you obtain now with pr
 this parameter is intended to mitigate any inconsistencies that may result from changes to our database
 we recommend always setting correlate to true
 
-#### Source
+#### Defined in
 
-main.ts:101979
+main.ts:102588
 
 ***
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -39,15 +39,15 @@ if you don’t specify this field, the data will be provided for the previous 6 
 minimal possible value: 2020-10-01
 date format: "yyyy-mm-dd"
 
-#### Source
+#### Defined in
 
-main.ts:101965
+main.ts:102574
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -56,48 +56,47 @@ date format: "yyyy-mm-dd"
 example:
 "2021-04-01"
 
-#### Source
+#### Defined in
 
-main.ts:101972
+main.ts:102581
 
 ***
 
 ### ignore\_synonyms?
 
-> **`optional`** **ignore\_synonyms**: `boolean`
+> `optional` **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true, only data based on core keywords will be returned, data for all highly similar keywords will be excluded;
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:101984
+main.ts:102593
 
 ***
 
 ### include\_clickstream\_data?
 
-> **`optional`** **include\_clickstream\_data**: `boolean`
+> `optional` **include\_clickstream\_data**: `boolean`
 
 include or exclude data from clickstream-based metrics in the result
 optional field
 if the parameter is set to true, you will receive clickstream_etv, clickstream_gender_distribution, and clickstream_age_distribution fields with clickstream data in the response
 default value: false
 with this parameter enabled, you will be charged double the price for the request
-Note: clickstream data is available for roughly 15% of keywords in the response
 learn more about how clickstream-based metrics are calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:101992
+main.ts:102600
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -107,15 +106,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:101959
+main.ts:102568
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -125,15 +124,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:101951
+main.ts:102560
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -143,15 +142,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:101943
+main.ts:102552
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -161,15 +160,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:101935
+main.ts:102544
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -177,21 +176,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:101998
+main.ts:102606
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain
 required field
 the domain name of the target website
 the domain should be specified without https:// and www.
 
-#### Source
+#### Defined in
 
-main.ts:101927
+main.ts:102536

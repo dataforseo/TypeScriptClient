@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataSocialMediaPinterestLiveRequestInfo(data)
+### new BusinessDataSocialMediaPinterestLiveRequestInfo()
 
 > **new BusinessDataSocialMediaPinterestLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:217495
+main.ts:219347
 
 ## Properties
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -48,15 +48,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataSocialMediaPinterestLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:217491
+main.ts:219343
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 target URLs
 required field
@@ -69,9 +69,9 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 [`IBusinessDataSocialMediaPinterestLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md).[`targets`](../interfaces/IBusinessDataSocialMediaPinterestLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:217485
+main.ts:219337
 
 ## Methods
 
@@ -87,9 +87,9 @@ main.ts:217485
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:217504
+main.ts:219356
 
 ***
 
@@ -105,15 +105,15 @@ main.ts:217504
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:217526
+main.ts:219378
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
 #### Parameters
 
@@ -123,6 +123,6 @@ main.ts:217526
 
 [`BusinessDataSocialMediaPinterestLiveRequestInfo`](BusinessDataSocialMediaPinterestLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:217519
+main.ts:219371

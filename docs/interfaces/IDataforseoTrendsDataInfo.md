@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 relevant keyword for which demographic data is provided
 
-#### Source
+#### Defined in
 
-main.ts:130257
+main.ts:130081
 
 ***
 
 ### values?
 
-> **`optional`** **values**: [`DemographyItemValueInfo`](../classes/DemographyItemValueInfo.md)[]
+> `optional` **values**: [`DemographyItemValueInfo`](../classes/DemographyItemValueInfo.md)[]
 
 contains age range and corresponding keyword popularity values
 
-#### Source
+#### Defined in
 
-main.ts:130259
+main.ts:130083

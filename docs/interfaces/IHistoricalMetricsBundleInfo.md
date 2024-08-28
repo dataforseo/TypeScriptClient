@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### featured\_snippet?
 
-> **`optional`** **featured\_snippet**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
+> `optional` **featured\_snippet**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
 traffic data from the local pack results in SERP
 
-#### Source
+#### Defined in
 
-main.ts:103942
+main.ts:104572
 
 ***
 
 ### local\_pack?
 
-> **`optional`** **local\_pack**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
+> `optional` **local\_pack**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
 traffic data from the featured snippet results in Google SERP
 
-#### Source
+#### Defined in
 
-main.ts:103940
+main.ts:104570
 
 ***
 
 ### organic?
 
-> **`optional`** **organic**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
+> `optional` **organic**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
 traffic data from organic search
 
-#### Source
+#### Defined in
 
-main.ts:103936
+main.ts:104566
 
 ***
 
 ### paid?
 
-> **`optional`** **paid**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
+> `optional` **paid**: [`HistoricalMetricsInfo`](../classes/HistoricalMetricsInfo.md)[]
 
 traffic data from paid search
 
-#### Source
+#### Defined in
 
-main.ts:103938
+main.ts:104568

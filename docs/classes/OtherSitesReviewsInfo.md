@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OtherSitesReviewsInfo(data)
+### new OtherSitesReviewsInfo()
 
 > **new OtherSitesReviewsInfo**(`data`?): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:208934
+main.ts:210784
 
 ## Properties
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 rating in the review
 information about the rating enclosed in the review on a third-party site
@@ -45,15 +45,15 @@ information about the rating enclosed in the review on a third-party site
 
 [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`rating`](../interfaces/IOtherSitesReviewsInfo.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:208930
+main.ts:210780
 
 ***
 
 ### review\_text?
 
-> **`optional`** **review\_text**: `string`
+> `optional` **review\_text**: `string`
 
 review text
 text of the review
@@ -62,15 +62,15 @@ text of the review
 
 [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`review_text`](../interfaces/IOtherSitesReviewsInfo.md#review_text)
 
-#### Source
+#### Defined in
 
-main.ts:208927
+main.ts:210777
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 review title
 contains a name of the third-party site where review initially appeared
@@ -79,15 +79,15 @@ contains a name of the third-party site where review initially appeared
 
 [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`title`](../interfaces/IOtherSitesReviewsInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:208921
+main.ts:210771
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 review url
 URL to the a third-party site where review initially appeared
@@ -96,9 +96,9 @@ URL to the a third-party site where review initially appeared
 
 [`IOtherSitesReviewsInfo`](../interfaces/IOtherSitesReviewsInfo.md).[`url`](../interfaces/IOtherSitesReviewsInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:208924
+main.ts:210774
 
 ## Methods
 
@@ -114,9 +114,9 @@ main.ts:208924
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:208943
+main.ts:210793
 
 ***
 
@@ -132,15 +132,15 @@ main.ts:208943
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:208963
+main.ts:210813
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
+> `static` **fromJS**(`data`): [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
 #### Parameters
 
@@ -150,6 +150,6 @@ main.ts:208963
 
 [`OtherSitesReviewsInfo`](OtherSitesReviewsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:208956
+main.ts:210806

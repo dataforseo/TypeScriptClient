@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBingSerpCompetitorsLiveResultInfo(data)
+### new DataforseoLabsBingSerpCompetitorsLiveResultInfo()
 
 > **new DataforseoLabsBingSerpCompetitorsLiveResultInfo**(`data`?): [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:112930
+main.ts:113562
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
 contains detected SERP competitors and related data
 
@@ -44,15 +44,15 @@ contains detected SERP competitors and related data
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`items`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:112926
+main.ts:113558
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,15 +60,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`items_count`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:112924
+main.ts:113556
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
@@ -77,15 +77,15 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:112920
+main.ts:113552
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -94,15 +94,15 @@ if there is no data, then the value is null
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:112917
+main.ts:113549
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -110,15 +110,15 @@ search engine type
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`se_type`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:112911
+main.ts:113543
 
 ***
 
 ### seed\_keywords?
 
-> **`optional`** **seed\_keywords**: `string`[]
+> `optional` **seed\_keywords**: `string`[]
 
 keywords specified in the request
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -127,15 +127,15 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`seed_keywords`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#seed_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:112914
+main.ts:113546
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 the total amount of results in our database relevant to your request
 
@@ -143,9 +143,9 @@ the total amount of results in our database relevant to your request
 
 [`IDataforseoLabsBingSerpCompetitorsLiveResultInfo`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md).[`total_count`](../interfaces/IDataforseoLabsBingSerpCompetitorsLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:112922
+main.ts:113554
 
 ## Methods
 
@@ -161,9 +161,9 @@ main.ts:112922
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:112939
+main.ts:113571
 
 ***
 
@@ -179,15 +179,15 @@ main.ts:112939
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:112970
+main.ts:113602
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
 
 #### Parameters
 
@@ -197,6 +197,6 @@ main.ts:112970
 
 [`DataforseoLabsBingSerpCompetitorsLiveResultInfo`](DataforseoLabsBingSerpCompetitorsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:112963
+main.ts:113595

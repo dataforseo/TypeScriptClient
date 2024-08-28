@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PeopleAlsoAskExpandedElement(data)
+### new PeopleAlsoAskExpandedElement()
 
 > **new PeopleAlsoAskExpandedElement**(`data`?): [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
 
@@ -28,15 +28,15 @@
 
 [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:29924
+main.ts:30120
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
@@ -44,15 +44,15 @@ description of the results element in SERP
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`description`](../interfaces/IPeopleAlsoAskExpandedElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:29911
+main.ts:30107
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain where a link points
 
@@ -60,15 +60,15 @@ domain where a link points
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`domain`](../interfaces/IPeopleAlsoAskExpandedElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:29907
+main.ts:30103
 
 ***
 
 ### featured\_title?
 
-> **`optional`** **featured\_title**: `string`
+> `optional` **featured\_title**: `string`
 
 the title of the featured snippets source page
 
@@ -76,15 +76,15 @@ the title of the featured snippets source page
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`featured_title`](../interfaces/IPeopleAlsoAskExpandedElement.md#featured_title)
 
-#### Source
+#### Defined in
 
-main.ts:29903
+main.ts:30099
 
 ***
 
 ### images?
 
-> **`optional`** **images**: [`ImagesElement`](ImagesElement.md)[]
+> `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
 images of the element
 
@@ -92,15 +92,15 @@ images of the element
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`images`](../interfaces/IPeopleAlsoAskExpandedElement.md#images)
 
-#### Source
+#### Defined in
 
-main.ts:29913
+main.ts:30109
 
 ***
 
 ### table?
 
-> **`optional`** **table**: [`Table`](Table.md)
+> `optional` **table**: [`Table`](Table.md)
 
 table element
 
@@ -108,15 +108,15 @@ table element
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`table`](../interfaces/IPeopleAlsoAskExpandedElement.md#table)
 
-#### Source
+#### Defined in
 
-main.ts:29920
+main.ts:30116
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -127,15 +127,15 @@ example:
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`timestamp`](../interfaces/IPeopleAlsoAskExpandedElement.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:29918
+main.ts:30114
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the carousel item
 
@@ -143,15 +143,15 @@ title of the carousel item
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`title`](../interfaces/IPeopleAlsoAskExpandedElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:29909
+main.ts:30105
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -159,15 +159,15 @@ type of element
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`type`](../interfaces/IPeopleAlsoAskExpandedElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:29901
+main.ts:30097
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of element
 
@@ -175,9 +175,9 @@ URL of element
 
 [`IPeopleAlsoAskExpandedElement`](../interfaces/IPeopleAlsoAskExpandedElement.md).[`url`](../interfaces/IPeopleAlsoAskExpandedElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:29905
+main.ts:30101
 
 ## Methods
 
@@ -193,9 +193,9 @@ main.ts:29905
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:29933
+main.ts:30129
 
 ***
 
@@ -211,15 +211,15 @@ main.ts:29933
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:29962
+main.ts:30158
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
+> `static` **fromJS**(`data`): [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
 
 #### Parameters
 
@@ -229,6 +229,6 @@ main.ts:29962
 
 [`PeopleAlsoAskExpandedElement`](PeopleAlsoAskExpandedElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:29955
+main.ts:30151

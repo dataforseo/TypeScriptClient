@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new AppDataGooglePlayReviewsSearchSerpElementItem(data)
+### new AppDataGooglePlayReviewsSearchSerpElementItem()
 
 > **new AppDataGooglePlayReviewsSearchSerpElementItem**(`data`?): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`constructor`](BaseAppDataSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:193774
+main.ts:195606
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`_discriminator`](BaseAppDataSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21519
+main.ts:21701
 
 ***
 
 ### helpful\_count?
 
-> **`optional`** **helpful\_count**: `number`
+> `optional` **helpful\_count**: `number`
 
 number of helpful votes
 indicates how many users considered the review helpful and voted with the thumbs up icon
@@ -67,15 +67,15 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`helpful_count`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#helpful_count)
 
-#### Source
+#### Defined in
 
-main.ts:193761
+main.ts:195593
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the review
 
@@ -83,15 +83,15 @@ id of the review
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`id`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:193758
+main.ts:195590
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: left
@@ -100,15 +100,15 @@ can take the following values: left
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`position`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:193746
+main.ts:195578
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
@@ -117,15 +117,15 @@ absolute position among all reviews on the list
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:193743
+main.ts:195575
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -134,15 +134,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`rank_group`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:193740
+main.ts:195572
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the rating score submitted by the reviewer
 
@@ -150,15 +150,15 @@ the rating score submitted by the reviewer
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`rating`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:193751
+main.ts:195583
 
 ***
 
 ### responses?
 
-> **`optional`** **responses**: [`ResponseDataInfo`](ResponseDataInfo.md)[]
+> `optional` **responses**: [`ResponseDataInfo`](ResponseDataInfo.md)[]
 
 response from the developer
 
@@ -166,15 +166,15 @@ response from the developer
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`responses`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#responses)
 
-#### Source
+#### Defined in
 
-main.ts:193770
+main.ts:195602
 
 ***
 
 ### review\_text?
 
-> **`optional`** **review\_text**: `string`
+> `optional` **review\_text**: `string`
 
 content of the review
 
@@ -182,15 +182,15 @@ content of the review
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`review_text`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#review_text)
 
-#### Source
+#### Defined in
 
-main.ts:193766
+main.ts:195598
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”;
@@ -201,15 +201,15 @@ example:
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`timestamp`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:193756
+main.ts:195588
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the review
 Google Play doesn’t provide an option to title reviews, so this parameter will always equal null
@@ -218,15 +218,15 @@ Google Play doesn’t provide an option to title reviews, so this parameter will
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`title`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:193764
+main.ts:195596
 
 ***
 
 ### user\_profile?
 
-> **`optional`** **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
+> `optional` **user\_profile**: [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
 user profile of the reviewer
 
@@ -234,15 +234,15 @@ user profile of the reviewer
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`user_profile`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#user_profile)
 
-#### Source
+#### Defined in
 
-main.ts:193768
+main.ts:195600
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 version of the app
 version of the app for which the review is submitted
@@ -251,9 +251,9 @@ version of the app for which the review is submitted
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`version`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#version)
 
-#### Source
+#### Defined in
 
-main.ts:193749
+main.ts:195581
 
 ## Methods
 
@@ -273,9 +273,9 @@ main.ts:193749
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`init`](BaseAppDataSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:193779
+main.ts:195611
 
 ***
 
@@ -295,15 +295,15 @@ main.ts:193779
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`toJSON`](BaseAppDataSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:193812
+main.ts:195644
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
+> `static` **fromJS**(`data`): [`AppDataGooglePlayReviewsSearchSerpElementItem`](AppDataGooglePlayReviewsSearchSerpElementItem.md)
 
 #### Parameters
 
@@ -317,6 +317,6 @@ main.ts:193812
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`fromJS`](BaseAppDataSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:193805
+main.ts:195637

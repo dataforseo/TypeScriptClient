@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new IntersectionSummaryInfo(data)
+### new IntersectionSummaryInfo()
 
 > **new IntersectionSummaryInfo**(`data`?): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:147946
+main.ts:149772
 
 ## Properties
 
 ### intersections\_count?
 
-> **`optional`** **intersections\_count**: `number`
+> `optional` **intersections\_count**: `number`
 
 total number of intersections
 
@@ -44,9 +44,9 @@ total number of intersections
 
 [`IIntersectionSummaryInfo`](../interfaces/IIntersectionSummaryInfo.md).[`intersections_count`](../interfaces/IIntersectionSummaryInfo.md#intersections_count)
 
-#### Source
+#### Defined in
 
-main.ts:147942
+main.ts:149768
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:147942
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:147955
+main.ts:149781
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:147955
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:147972
+main.ts:149798
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+> `static` **fromJS**(`data`): [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:147972
 
 [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:147965
+main.ts:149791

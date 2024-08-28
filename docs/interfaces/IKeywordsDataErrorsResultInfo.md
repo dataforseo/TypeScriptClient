@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,125 +14,125 @@
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when an error occurred
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:118866
+main.ts:119498
 
 ***
 
 ### error\_code?
 
-> **`optional`** **error\_code**: `number`
+> `optional` **error\_code**: `number`
 
 error code
 
-#### Source
+#### Defined in
 
-main.ts:118870
+main.ts:119502
 
 ***
 
 ### error\_message?
 
-> **`optional`** **error\_message**: `string`
+> `optional` **error\_message**: `string`
 
 error message or error URL
 error message (see full list) or URL that caused an error
 
-#### Source
+#### Defined in
 
-main.ts:118873
+main.ts:119505
 
 ***
 
 ### function?
 
-> **`optional`** **function**: `string`
+> `optional` **function**: `string`
 
 corresponding API function
 
-#### Source
+#### Defined in
 
-main.ts:118868
+main.ts:119500
 
 ***
 
 ### http\_code?
 
-> **`optional`** **http\_code**: `number`
+> `optional` **http\_code**: `number`
 
 HTTP status code
 
-#### Source
+#### Defined in
 
-main.ts:118880
+main.ts:119512
 
 ***
 
 ### http\_method?
 
-> **`optional`** **http\_method**: `string`
+> `optional` **http\_method**: `string`
 
 HTTP method
 
-#### Source
+#### Defined in
 
-main.ts:118878
+main.ts:119510
 
 ***
 
 ### http\_response?
 
-> **`optional`** **http\_response**: `string`
+> `optional` **http\_response**: `string`
 
 HTTP response
 server response
 
-#### Source
+#### Defined in
 
-main.ts:118886
+main.ts:119518
 
 ***
 
 ### http\_time?
 
-> **`optional`** **http\_time**: `number`
+> `optional` **http\_time**: `number`
 
 time taken by HTTP request
 for tasks set with a pingback/postback, this field will show the time it took your server to respond
 
-#### Source
+#### Defined in
 
-main.ts:118883
+main.ts:119515
 
 ***
 
 ### http\_url?
 
-> **`optional`** **http\_url**: `string`
+> `optional` **http\_url**: `string`
 
 URL that caused an error
 URL you used for making an API call or pingback/postback URL
 
-#### Source
+#### Defined in
 
-main.ts:118876
+main.ts:119508
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the task
 
-#### Source
+#### Defined in
 
-main.ts:118861
+main.ts:119493

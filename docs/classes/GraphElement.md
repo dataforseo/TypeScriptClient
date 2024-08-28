@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new GraphElement(data)
+### new GraphElement()
 
 > **new GraphElement**(`data`?): [`GraphElement`](GraphElement.md)
 
@@ -28,15 +28,15 @@
 
 [`GraphElement`](GraphElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34021
+main.ts:34217
 
 ## Properties
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 the posting date
 
@@ -44,15 +44,15 @@ the posting date
 
 [`IGraphElement`](../interfaces/IGraphElement.md).[`date`](../interfaces/IGraphElement.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:34015
+main.ts:34211
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -60,15 +60,15 @@ type of element
 
 [`IGraphElement`](../interfaces/IGraphElement.md).[`type`](../interfaces/IGraphElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:34013
+main.ts:34209
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 the value of the rating
 
@@ -76,9 +76,9 @@ the value of the rating
 
 [`IGraphElement`](../interfaces/IGraphElement.md).[`value`](../interfaces/IGraphElement.md#value)
 
-#### Source
+#### Defined in
 
-main.ts:34017
+main.ts:34213
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:34017
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:34030
+main.ts:34226
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:34030
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:34049
+main.ts:34245
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GraphElement`](GraphElement.md)
+> `static` **fromJS**(`data`): [`GraphElement`](GraphElement.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:34049
 
 [`GraphElement`](GraphElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34042
+main.ts:34238

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -22,7 +22,7 @@
 
 ## Constructors
 
-### new BaseProductInformationRowItem(data)
+### new BaseProductInformationRowItem()
 
 > **new BaseProductInformationRowItem**(`data`?): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
@@ -34,19 +34,19 @@
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:22919
+main.ts:23101
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:22917
+main.ts:23099
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:22917
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22929
+main.ts:23111
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:22929
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22960
+main.ts:23142
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
+> `static` **fromJS**(`data`): [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:22960
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:22938
+main.ts:23120

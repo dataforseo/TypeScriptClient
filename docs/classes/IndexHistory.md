@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new IndexHistory(data)
+### new IndexHistory()
 
 > **new IndexHistory**(`data`?): [`IndexHistory`](IndexHistory.md)
 
@@ -28,15 +28,15 @@
 
 [`IndexHistory`](IndexHistory.md)
 
-#### Source
+#### Defined in
 
-main.ts:139771
+main.ts:141597
 
 ## Properties
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 date for which index volume data is provided
 in the UTC format: “yyyy-mm-dd”
@@ -47,15 +47,15 @@ example:
 
 [`IIndexHistory`](../interfaces/IIndexHistory.md).[`date`](../interfaces/IIndexHistory.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:139761
+main.ts:141587
 
 ***
 
 ### total\_backlinks?
 
-> **`optional`** **total\_backlinks**: `number`
+> `optional` **total\_backlinks**: `number`
 
 total number of backlinks our database contained on the given date
 
@@ -63,15 +63,15 @@ total number of backlinks our database contained on the given date
 
 [`IIndexHistory`](../interfaces/IIndexHistory.md).[`total_backlinks`](../interfaces/IIndexHistory.md#total_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:139763
+main.ts:141589
 
 ***
 
 ### total\_domains?
 
-> **`optional`** **total\_domains**: `number`
+> `optional` **total\_domains**: `number`
 
 total number of domains our database contained on the given date
 
@@ -79,15 +79,15 @@ total number of domains our database contained on the given date
 
 [`IIndexHistory`](../interfaces/IIndexHistory.md).[`total_domains`](../interfaces/IIndexHistory.md#total_domains)
 
-#### Source
+#### Defined in
 
-main.ts:139767
+main.ts:141593
 
 ***
 
 ### total\_pages?
 
-> **`optional`** **total\_pages**: `number`
+> `optional` **total\_pages**: `number`
 
 total number of pages our database contained on the given date
 
@@ -95,9 +95,9 @@ total number of pages our database contained on the given date
 
 [`IIndexHistory`](../interfaces/IIndexHistory.md).[`total_pages`](../interfaces/IIndexHistory.md#total_pages)
 
-#### Source
+#### Defined in
 
-main.ts:139765
+main.ts:141591
 
 ## Methods
 
@@ -113,9 +113,9 @@ main.ts:139765
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:139780
+main.ts:141606
 
 ***
 
@@ -131,15 +131,15 @@ main.ts:139780
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:139800
+main.ts:141626
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`IndexHistory`](IndexHistory.md)
+> `static` **fromJS**(`data`): [`IndexHistory`](IndexHistory.md)
 
 #### Parameters
 
@@ -149,6 +149,6 @@ main.ts:139800
 
 [`IndexHistory`](IndexHistory.md)
 
-#### Source
+#### Defined in
 
-main.ts:139793
+main.ts:141619

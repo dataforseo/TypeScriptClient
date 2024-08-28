@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### dataset\_id?
 
-> **`optional`** **dataset\_id**: `string`
+> `optional` **dataset\_id**: `string`
 
 ID of the dataset
 required field
@@ -22,29 +22,29 @@ you can find dataset ID in the dataset URL or dataset item of Google Dataset Sea
 example:
 L2cvMTFqbl85ZHN6MQ==
 
-#### Source
+#### Defined in
 
-main.ts:57171
+main.ts:57703
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
 possible value: desktop
 
-#### Source
+#### Defined in
 
-main.ts:57187
+main.ts:57719
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -52,15 +52,15 @@ if you use this field, you don’t need to specify language_name
 possible value:
 en
 
-#### Source
+#### Defined in
 
-main.ts:57183
+main.ts:57715
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -68,30 +68,30 @@ if you use this field, you don’t need to specify language_code
 possible value:
 English
 
-#### Source
+#### Defined in
 
-main.ts:57177
+main.ts:57709
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
 possible values: windows, macos
 default value: windows
 
-#### Source
+#### Defined in
 
-main.ts:57192
+main.ts:57724
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -99,6 +99,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:57198
+main.ts:57730

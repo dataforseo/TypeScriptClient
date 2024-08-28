@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -12,7 +12,7 @@
 
 ## Constructors
 
-### new ApiException(message, status, response, headers, result)
+### new ApiException()
 
 > **new ApiException**(`message`, `status`, `response`, `headers`, `result`): [`ApiException`](ApiException.md)
 
@@ -36,33 +36,33 @@
 
 `Error.constructor`
 
-#### Source
+#### Defined in
 
-main.ts:225365
+main.ts:229669
 
 ## Properties
 
 ### headers
 
-> **headers**: `Object`
+> **headers**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `any`
 
-#### Source
+#### Defined in
 
-main.ts:225362
+main.ts:229666
 
 ***
 
 ### isApiException
 
-> **`protected`** **isApiException**: `boolean` = `true`
+> `protected` **isApiException**: `boolean` = `true`
 
-#### Source
+#### Defined in
 
-main.ts:225375
+main.ts:229679
 
 ***
 
@@ -74,9 +74,9 @@ main.ts:225375
 
 `Error.message`
 
-#### Source
+#### Defined in
 
-main.ts:225359
+main.ts:229663
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:225359
 
 `Error.name`
 
-#### Source
+#### Defined in
 
 C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescript/lib/lib.es5.d.ts:1076
 
@@ -98,9 +98,9 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 > **response**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:225361
+main.ts:229665
 
 ***
 
@@ -108,21 +108,21 @@ main.ts:225361
 
 > **result**: `any`
 
-#### Source
+#### Defined in
 
-main.ts:225363
+main.ts:229667
 
 ***
 
 ### stack?
 
-> **`optional`** **stack**: `string`
+> `optional` **stack**: `string`
 
 #### Inherited from
 
 `Error.stack`
 
-#### Source
+#### Defined in
 
 C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescript/lib/lib.es5.d.ts:1078
 
@@ -132,15 +132,15 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 > **status**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:225360
+main.ts:229664
 
 ## Methods
 
 ### isApiException()
 
-> **`static`** **isApiException**(`obj`): `obj is ApiException`
+> `static` **isApiException**(`obj`): `obj is ApiException`
 
 #### Parameters
 
@@ -150,6 +150,6 @@ main.ts:225360
 
 `obj is ApiException`
 
-#### Source
+#### Defined in
 
-main.ts:225377
+main.ts:229681

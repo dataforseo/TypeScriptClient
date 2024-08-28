@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new JobsElement(data)
+### new JobsElement()
 
 > **new JobsElement**(`data`?): [`JobsElement`](JobsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`JobsElement`](JobsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:30866
+main.ts:31062
 
 ## Properties
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 author
 
@@ -44,15 +44,15 @@ author
 
 [`IJobsElement`](../interfaces/IJobsElement.md).[`author`](../interfaces/IJobsElement.md#author)
 
-#### Source
+#### Defined in
 
-main.ts:30849
+main.ts:31045
 
 ***
 
 ### contract\_type?
 
-> **`optional`** **contract\_type**: `string`
+> `optional` **contract\_type**: `string`
 
 contract type
 
@@ -60,15 +60,15 @@ contract type
 
 [`IJobsElement`](../interfaces/IJobsElement.md).[`contract_type`](../interfaces/IJobsElement.md#contract_type)
 
-#### Source
+#### Defined in
 
-main.ts:30858
+main.ts:31054
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -76,15 +76,15 @@ description
 
 [`IJobsElement`](../interfaces/IJobsElement.md).[`description`](../interfaces/IJobsElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:30847
+main.ts:31043
 
 ***
 
 ### job\_posted\_time?
 
-> **`optional`** **job\_posted\_time**: `string`
+> `optional` **job\_posted\_time**: `string`
 
 the time when the job was posted
 
@@ -92,15 +92,15 @@ the time when the job was posted
 
 [`IJobsElement`](../interfaces/IJobsElement.md).[`job_posted_time`](../interfaces/IJobsElement.md#job_posted_time)
 
-#### Source
+#### Defined in
 
-main.ts:30851
+main.ts:31047
 
 ***
 
 ### salary?
 
-> **`optional`** **salary**: `string`
+> `optional` **salary**: `string`
 
 salary
 
@@ -108,15 +108,15 @@ salary
 
 [`IJobsElement`](../interfaces/IJobsElement.md).[`salary`](../interfaces/IJobsElement.md#salary)
 
-#### Source
+#### Defined in
 
-main.ts:30860
+main.ts:31056
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -127,15 +127,15 @@ example:
 
 [`IJobsElement`](../interfaces/IJobsElement.md).[`timestamp`](../interfaces/IJobsElement.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:30856
+main.ts:31052
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -143,15 +143,15 @@ title of a given link element
 
 [`IJobsElement`](../interfaces/IJobsElement.md).[`title`](../interfaces/IJobsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:30845
+main.ts:31041
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -159,15 +159,15 @@ type of element
 
 [`IJobsElement`](../interfaces/IJobsElement.md).[`type`](../interfaces/IJobsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:30843
+main.ts:31039
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -175,9 +175,9 @@ URL
 
 [`IJobsElement`](../interfaces/IJobsElement.md).[`url`](../interfaces/IJobsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:30862
+main.ts:31058
 
 ## Methods
 
@@ -193,9 +193,9 @@ main.ts:30862
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:30875
+main.ts:31071
 
 ***
 
@@ -211,15 +211,15 @@ main.ts:30875
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:30900
+main.ts:31096
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`JobsElement`](JobsElement.md)
+> `static` **fromJS**(`data`): [`JobsElement`](JobsElement.md)
 
 #### Parameters
 
@@ -229,6 +229,6 @@ main.ts:30900
 
 [`JobsElement`](JobsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:30893
+main.ts:31089

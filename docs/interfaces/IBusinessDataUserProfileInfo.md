@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL to the reviewer’s profile picture
 
-#### Source
+#### Defined in
 
-main.ts:214571
+main.ts:216421
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `string`
+> `optional` **location**: `string`
 
 country of the reviewer
 
-#### Source
+#### Defined in
 
-main.ts:214573
+main.ts:216423
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 the name of the reviewer
 
-#### Source
+#### Defined in
 
-main.ts:214567
+main.ts:216417
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 total number of reviews submitted by the reviewer
 
-#### Source
+#### Defined in
 
-main.ts:214575
+main.ts:216425
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the reviewer’s profile
 
-#### Source
+#### Defined in
 
-main.ts:214569
+main.ts:216419

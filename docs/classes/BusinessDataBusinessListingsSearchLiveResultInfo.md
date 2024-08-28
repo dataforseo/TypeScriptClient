@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataBusinessListingsSearchLiveResultInfo(data)
+### new BusinessDataBusinessListingsSearchLiveResultInfo()
 
 > **new BusinessDataBusinessListingsSearchLiveResultInfo**(`data`?): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201972
+main.ts:203816
 
 ## Properties
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 item types
 the number of items in the items array
@@ -45,15 +45,15 @@ the number of items in the items array
 
 [`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`count`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:201958
+main.ts:203802
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)[]
+> `optional` **items**: [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -63,15 +63,15 @@ possible item types: business_listing
 
 [`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`items`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:201968
+main.ts:203812
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned businesses
 
@@ -79,15 +79,15 @@ offset in the results array of returned businesses
 
 [`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`offset`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:201960
+main.ts:203804
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 token for subsequent requests
 by specifying the unique offset_token when setting a new task, you will get the subsequent results of the initial task;
@@ -97,15 +97,15 @@ offset_token values are unique for each subsequent task
 
 [`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`offset_token`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#offset_token)
 
-#### Source
+#### Defined in
 
-main.ts:201964
+main.ts:203808
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of results in our database relevant to your request
 
@@ -113,9 +113,9 @@ total number of results in our database relevant to your request
 
 [`IBusinessDataBusinessListingsSearchLiveResultInfo`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md).[`total_count`](../interfaces/IBusinessDataBusinessListingsSearchLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:201955
+main.ts:203799
 
 ## Methods
 
@@ -131,9 +131,9 @@ main.ts:201955
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:201981
+main.ts:203825
 
 ***
 
@@ -149,15 +149,15 @@ main.ts:201981
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:202006
+main.ts:203850
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
 #### Parameters
 
@@ -167,6 +167,6 @@ main.ts:202006
 
 [`BusinessDataBusinessListingsSearchLiveResultInfo`](BusinessDataBusinessListingsSearchLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201999
+main.ts:203843

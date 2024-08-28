@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkReferringDomainsLiveRequestInfo(data)
+### new BacklinksBulkReferringDomainsLiveRequestInfo()
 
 > **new BacklinksBulkReferringDomainsLiveRequestInfo**(`data`?): [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:151319
+main.ts:153145
 
 ## Properties
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -48,15 +48,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:151315
+main.ts:153141
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 domains, subdomains or webpages to get the number of referring domains for
 required field
@@ -81,9 +81,9 @@ example:
 
 [`IBacklinksBulkReferringDomainsLiveRequestInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkReferringDomainsLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:151309
+main.ts:153135
 
 ## Methods
 
@@ -99,9 +99,9 @@ main.ts:151309
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:151328
+main.ts:153154
 
 ***
 
@@ -117,15 +117,15 @@ main.ts:151328
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:151350
+main.ts:153176
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
 
 #### Parameters
 
@@ -135,6 +135,6 @@ main.ts:151350
 
 [`BacklinksBulkReferringDomainsLiveRequestInfo`](BacklinksBulkReferringDomainsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:151343
+main.ts:153169

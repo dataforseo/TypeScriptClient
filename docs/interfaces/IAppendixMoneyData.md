@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### balance?
 
-> **`optional`** **balance**: `number`
+> `optional` **balance**: `number`
 
 amount of money left in your account
 
-#### Source
+#### Defined in
 
-main.ts:221395
+main.ts:225611
 
 ***
 
 ### limits?
 
-> **`optional`** **limits**: [`AppendixLimitsMoneyData`](../classes/AppendixLimitsMoneyData.md)
+> `optional` **limits**: [`AppendixLimitsMoneyData`](../classes/AppendixLimitsMoneyData.md)
 
 cost limits
 
-#### Source
+#### Defined in
 
-main.ts:221397
+main.ts:225613
 
 ***
 
 ### statistics?
 
-> **`optional`** **statistics**: [`AppendixStatisticsDataInfo`](../classes/AppendixStatisticsDataInfo.md)
+> `optional` **statistics**: [`AppendixStatisticsMoneyData`](../classes/AppendixStatisticsMoneyData.md)
 
 statistics of your spending
 
-#### Source
+#### Defined in
 
-main.ts:221399
+main.ts:225615
 
 ***
 
 ### total?
 
-> **`optional`** **total**: `number`
+> `optional` **total**: `number`
 
 total amount of money deposited to your account
 
-#### Source
+#### Defined in
 
-main.ts:221393
+main.ts:225609

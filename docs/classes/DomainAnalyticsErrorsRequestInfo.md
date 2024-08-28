@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsErrorsRequestInfo(data)
+### new DomainAnalyticsErrorsRequestInfo()
 
 > **new DomainAnalyticsErrorsRequestInfo**(`data`?): [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:75715
+main.ts:76311
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -49,15 +49,15 @@ example:
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`datetime_from`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:75704
+main.ts:76300
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -70,15 +70,15 @@ example:
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`datetime_to`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:75711
+main.ts:76307
 
 ***
 
 ### filtered\_function?
 
-> **`optional`** **filtered\_function**: `string`
+> `optional` **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,15 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`filtered_function`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#filtered_function)
 
-#### Source
+#### Defined in
 
-main.ts:75697
+main.ts:76293
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +109,15 @@ maximum value: 1000
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`limit`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:75686
+main.ts:76282
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IDomainAnalyticsErrorsRequestInfo`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md).[`offset`](../interfaces/IDomainAnalyticsErrorsRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:75691
+main.ts:76287
 
 ## Methods
 
@@ -146,9 +146,9 @@ main.ts:75691
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:75724
+main.ts:76320
 
 ***
 
@@ -164,15 +164,15 @@ main.ts:75724
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:75745
+main.ts:76341
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:75745
 
 [`DomainAnalyticsErrorsRequestInfo`](DomainAnalyticsErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:75738
+main.ts:76334

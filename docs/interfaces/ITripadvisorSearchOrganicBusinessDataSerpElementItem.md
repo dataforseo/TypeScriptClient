@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,111 +18,111 @@
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 place category
 
-#### Source
+#### Defined in
 
-main.ts:216103
+main.ts:217953
 
 ***
 
 ### is\_sponsored?
 
-> **`optional`** **is\_sponsored**: `boolean`
+> `optional` **is\_sponsored**: `boolean`
 
 indicates a sponsored placement
 if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor
 
-#### Source
+#### Defined in
 
-main.ts:216099
+main.ts:217949
 
 ***
 
 ### price\_rate?
 
-> **`optional`** **price\_rate**: `string`
+> `optional` **price\_rate**: `string`
 
 average price rate
 
-#### Source
+#### Defined in
 
-main.ts:216105
+main.ts:217955
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed results
 absolute position among all reviews on the list
 
-#### Source
+#### Defined in
 
-main.ts:216090
+main.ts:217940
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:216087
+main.ts:217937
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 the rating score of the establishment submitted by the reviewers
 
-#### Source
+#### Defined in
 
-main.ts:216107
+main.ts:217957
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 the total number of reviews
 
-#### Source
+#### Defined in
 
-main.ts:216101
+main.ts:217951
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 name of the business entity
 
-#### Source
+#### Defined in
 
-main.ts:216092
+main.ts:217942
 
 ***
 
 ### url\_path?
 
-> **`optional`** **url\_path**: `string`
+> `optional` **url\_path**: `string`
 
 URL path of the business entity
 URL path to the Tripadvisor page of the business entity
 you can use this identifier to collect reviews for the business entity using Tripadvisor Reviews
 
-#### Source
+#### Defined in
 
-main.ts:216096
+main.ts:217946

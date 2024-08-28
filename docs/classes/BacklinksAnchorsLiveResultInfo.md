@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksAnchorsLiveResultInfo(data)
+### new BacklinksAnchorsLiveResultInfo()
 
 > **new BacklinksAnchorsLiveResultInfo**(`data`?): [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:143144
+main.ts:144970
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)[]
+> `optional` **items**: [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)[]
 
 items array
 
@@ -44,15 +44,15 @@ items array
 
 [`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md).[`items`](../interfaces/IBacklinksAnchorsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:143140
+main.ts:144966
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -60,15 +60,15 @@ number of items in the results array
 
 [`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksAnchorsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:143138
+main.ts:144964
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target in the post array
 
@@ -76,15 +76,15 @@ target in the post array
 
 [`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md).[`target`](../interfaces/IBacklinksAnchorsLiveResultInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:143134
+main.ts:144960
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of relevant items in the database
 
@@ -92,9 +92,9 @@ total number of relevant items in the database
 
 [`IBacklinksAnchorsLiveResultInfo`](../interfaces/IBacklinksAnchorsLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksAnchorsLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:143136
+main.ts:144962
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:143136
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:143153
+main.ts:144979
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:143153
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:143177
+main.ts:145003
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:143177
 
 [`BacklinksAnchorsLiveResultInfo`](BacklinksAnchorsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:143170
+main.ts:144996

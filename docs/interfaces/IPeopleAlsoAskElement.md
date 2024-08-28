@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### expanded\_element?
 
-> **`optional`** **expanded\_element**: [`PeopleAlsoAskExpandedElement`](../classes/PeopleAlsoAskExpandedElement.md)[]
+> `optional` **expanded\_element**: [`PeopleAlsoAskExpandedElement`](../classes/PeopleAlsoAskExpandedElement.md)[]
 
 expanded element
 
-#### Source
+#### Defined in
 
-main.ts:30088
+main.ts:30284
 
 ***
 
 ### seed\_question?
 
-> **`optional`** **seed\_question**: `string`
+> `optional` **seed\_question**: `string`
 
 question that triggered additional expanded elements
 
-#### Source
+#### Defined in
 
-main.ts:30084
+main.ts:30280
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:30082
+main.ts:30278
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:30080
+main.ts:30276
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:30086
+main.ts:30282

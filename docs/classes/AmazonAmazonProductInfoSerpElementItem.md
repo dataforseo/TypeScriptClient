@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new AmazonAmazonProductInfoSerpElementItem(data)
+### new AmazonAmazonProductInfoSerpElementItem()
 
 > **new AmazonAmazonProductInfoSerpElementItem**(`data`?): [`AmazonAmazonProductInfoSerpElementItem`](AmazonAmazonProductInfoSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`constructor`](BaseAmazonSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:184887
+main.ts:186719
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`_discriminator`](BaseAmazonSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21825
+main.ts:22007
 
 ***
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 product brand name
 
@@ -66,15 +66,15 @@ product brand name
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`author`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#author)
 
-#### Source
+#### Defined in
 
-main.ts:184843
+main.ts:186675
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: [`ProductCategoryInfo`](ProductCategoryInfo.md)[]
+> `optional` **categories**: [`ProductCategoryInfo`](ProductCategoryInfo.md)[]
 
 contains related product categories
 
@@ -82,15 +82,15 @@ contains related product categories
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`categories`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:184872
+main.ts:186704
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency in the ISO format
 example:
@@ -100,15 +100,15 @@ USD
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`currency`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#currency)
 
-#### Source
+#### Defined in
 
-main.ts:184861
+main.ts:186693
 
 ***
 
 ### data\_asin?
 
-> **`optional`** **data\_asin**: `string`
+> `optional` **data\_asin**: `string`
 
 ASIN of the product received in a POST array
 
@@ -116,15 +116,15 @@ ASIN of the product received in a POST array
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`data_asin`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#data_asin)
 
-#### Source
+#### Defined in
 
-main.ts:184845
+main.ts:186677
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 contains description of the product
 
@@ -132,15 +132,15 @@ contains description of the product
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`description`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:184880
+main.ts:186712
 
 ***
 
 ### details?
 
-> **`optional`** **details**: `string`
+> `optional` **details**: `string`
 
 product specs and other details
 
@@ -148,15 +148,15 @@ product specs and other details
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`details`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#details)
 
-#### Source
+#### Defined in
 
-main.ts:184839
+main.ts:186671
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 the URL of the product image
 
@@ -164,15 +164,15 @@ the URL of the product image
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`image_url`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:184841
+main.ts:186673
 
 ***
 
 ### is\_amazon\_choice?
 
-> **`optional`** **is\_amazon\_choice**: `boolean`
+> `optional` **is\_amazon\_choice**: `boolean`
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
@@ -181,15 +181,15 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`is_amazon_choice`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#is_amazon_choice)
 
-#### Source
+#### Defined in
 
-main.ts:184864
+main.ts:186696
 
 ***
 
 ### is\_available?
 
-> **`optional`** **is\_available**: `boolean`
+> `optional` **is\_available**: `boolean`
 
 indicates whether the product is available for ordering
 if the value is true, the product can be ordered
@@ -198,15 +198,15 @@ if the value is true, the product can be ordered
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`is_available`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#is_available)
 
-#### Source
+#### Defined in
 
-main.ts:184883
+main.ts:186715
 
 ***
 
 ### is\_newer\_model\_available?
 
-> **`optional`** **is\_newer\_model\_available**: `boolean`
+> `optional` **is\_newer\_model\_available**: `boolean`
 
 indicates whether the newer model of the product is available
 
@@ -214,15 +214,15 @@ indicates whether the newer model of the product is available
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`is_newer_model_available`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#is_newer_model_available)
 
-#### Source
+#### Defined in
 
-main.ts:184868
+main.ts:186700
 
 ***
 
 ### newer\_model?
 
-> **`optional`** **newer\_model**: [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
+> `optional` **newer\_model**: [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
 information about the newer model of the product
 
@@ -230,15 +230,15 @@ information about the newer model of the product
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`newer_model`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#newer_model)
 
-#### Source
+#### Defined in
 
-main.ts:184870
+main.ts:186702
 
 ***
 
 ### parent\_asin?
 
-> **`optional`** **parent\_asin**: `string`
+> `optional` **parent\_asin**: `string`
 
 parent ASIN of the product
 
@@ -246,15 +246,15 @@ parent ASIN of the product
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`parent_asin`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#parent_asin)
 
-#### Source
+#### Defined in
 
-main.ts:184847
+main.ts:186679
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in Amazon SERP
 possible values:
@@ -264,15 +264,15 @@ left, right
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`position`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:184833
+main.ts:186665
 
 ***
 
 ### price\_from?
 
-> **`optional`** **price\_from**: `number`
+> `optional` **price\_from**: `number`
 
 the lower limit of the product price range
 example:
@@ -282,15 +282,15 @@ example:
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`price_from`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#price_from)
 
-#### Source
+#### Defined in
 
-main.ts:184853
+main.ts:186685
 
 ***
 
 ### price\_to?
 
-> **`optional`** **price\_to**: `number`
+> `optional` **price\_to**: `number`
 
 the upper limit of the product price range
 example:
@@ -300,15 +300,15 @@ example:
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`price_to`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#price_to)
 
-#### Source
+#### Defined in
 
-main.ts:184857
+main.ts:186689
 
 ***
 
 ### product\_asins?
 
-> **`optional`** **product\_asins**: `string`[]
+> `optional` **product\_asins**: `string`[]
 
 ASINs of all found product modifications
 
@@ -316,15 +316,15 @@ ASINs of all found product modifications
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`product_asins`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#product_asins)
 
-#### Source
+#### Defined in
 
-main.ts:184849
+main.ts:186681
 
 ***
 
 ### product\_images\_list?
 
-> **`optional`** **product\_images\_list**: `string`[]
+> `optional` **product\_images\_list**: `string`[]
 
 contains URLs for all images of the product displayed on the left side of the main image
 
@@ -332,15 +332,15 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`product_images_list`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#product_images_list)
 
-#### Source
+#### Defined in
 
-main.ts:184876
+main.ts:186708
 
 ***
 
 ### product\_information?
 
-> **`optional`** **product\_information**: [`BaseProductInformationItem`](BaseProductInformationItem.md)[]
+> `optional` **product\_information**: [`BaseProductInformationItem`](BaseProductInformationItem.md)[]
 
 contains related product information
 
@@ -348,15 +348,15 @@ contains related product information
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`product_information`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#product_information)
 
-#### Source
+#### Defined in
 
-main.ts:184874
+main.ts:186706
 
 ***
 
 ### product\_videos\_list?
 
-> **`optional`** **product\_videos\_list**: `string`[]
+> `optional` **product\_videos\_list**: `string`[]
 
 contains URLs for all videos of the product displayed on the right side of the main video
 
@@ -364,15 +364,15 @@ contains URLs for all videos of the product displayed on the right side of the m
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`product_videos_list`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#product_videos_list)
 
-#### Source
+#### Defined in
 
-main.ts:184878
+main.ts:186710
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank
 absolute position among all the elements in the response array
@@ -381,15 +381,15 @@ absolute position among all the elements in the response array
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:184829
+main.ts:186661
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -398,15 +398,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`rank_group`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:184826
+main.ts:186658
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingElement`](RatingElement.md)
+> `optional` **rating**: [`RatingElement`](RatingElement.md)
 
 product rating info
 
@@ -414,15 +414,15 @@ product rating info
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`rating`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:184866
+main.ts:186698
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
@@ -430,15 +430,15 @@ product title
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`title`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:184837
+main.ts:186669
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -446,9 +446,9 @@ the XPath of the element
 
 [`IAmazonAmazonProductInfoSerpElementItem`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md).[`xpath`](../interfaces/IAmazonAmazonProductInfoSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:184835
+main.ts:186667
 
 ## Methods
 
@@ -468,9 +468,9 @@ main.ts:184835
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`init`](BaseAmazonSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:184892
+main.ts:186724
 
 ***
 
@@ -490,15 +490,15 @@ main.ts:184892
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`toJSON`](BaseAmazonSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:184953
+main.ts:186785
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AmazonAmazonProductInfoSerpElementItem`](AmazonAmazonProductInfoSerpElementItem.md)
+> `static` **fromJS**(`data`): [`AmazonAmazonProductInfoSerpElementItem`](AmazonAmazonProductInfoSerpElementItem.md)
 
 #### Parameters
 
@@ -512,6 +512,6 @@ main.ts:184953
 
 [`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`fromJS`](BaseAmazonSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:184946
+main.ts:186778

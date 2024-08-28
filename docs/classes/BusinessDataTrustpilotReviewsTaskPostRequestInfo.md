@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataTrustpilotReviewsTaskPostRequestInfo(data)
+### new BusinessDataTrustpilotReviewsTaskPostRequestInfo()
 
 > **new BusinessDataTrustpilotReviewsTaskPostRequestInfo**(`data`?): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:214097
+main.ts:215947
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -49,15 +49,15 @@ maximum value: 25000
 
 [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:214067
+main.ts:215917
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain of the local establishment
 required field
@@ -71,15 +71,15 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`domain`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:214044
+main.ts:215894
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -95,15 +95,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:214093
+main.ts:215943
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -119,15 +119,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:214083
+main.ts:215933
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -141,15 +141,15 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:214060
+main.ts:215910
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameter
 optional field
@@ -163,15 +163,15 @@ default value: relevance
 
 [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:214052
+main.ts:215902
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -183,9 +183,9 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataTrustpilotReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataTrustpilotReviewsTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:214073
+main.ts:215923
 
 ## Methods
 
@@ -201,9 +201,9 @@ main.ts:214073
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:214106
+main.ts:215956
 
 ***
 
@@ -219,15 +219,15 @@ main.ts:214106
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:214129
+main.ts:215979
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -237,6 +237,6 @@ main.ts:214129
 
 [`BusinessDataTrustpilotReviewsTaskPostRequestInfo`](BusinessDataTrustpilotReviewsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:214122
+main.ts:215972

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpAiSummaryResultInfo(data)
+### new SerpAiSummaryResultInfo()
 
 > **new SerpAiSummaryResultInfo**(`data`?): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:25033
+main.ts:25215
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`SerpAiSummaryItem`](SerpAiSummaryItem.md)[]
+> `optional` **items**: [`SerpAiSummaryItem`](SerpAiSummaryItem.md)[]
 
 items array
 
@@ -44,15 +44,15 @@ items array
 
 [`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md).[`items`](../interfaces/ISerpAiSummaryResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:25029
+main.ts:25211
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -60,9 +60,9 @@ number of items in the results array
 
 [`ISerpAiSummaryResultInfo`](../interfaces/ISerpAiSummaryResultInfo.md).[`items_count`](../interfaces/ISerpAiSummaryResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:25027
+main.ts:25209
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:25027
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:25042
+main.ts:25224
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:25042
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:25064
+main.ts:25246
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:25064
 
 [`SerpAiSummaryResultInfo`](SerpAiSummaryResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:25057
+main.ts:25239

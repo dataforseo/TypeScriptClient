@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,48 +14,48 @@
 
 ### footer?
 
-> **`optional`** **footer**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
+> `optional` **footer**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
 parsed content of the footer
 
-#### Source
+#### Defined in
 
-main.ts:164075
+main.ts:165907
 
 ***
 
 ### header?
 
-> **`optional`** **header**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
+> `optional` **header**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
 content of the header of the table
 
-#### Source
+#### Defined in
 
-main.ts:164073
+main.ts:165905
 
 ***
 
 ### main\_topic?
 
-> **`optional`** **main\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
+> `optional` **main\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:164078
+main.ts:165910
 
 ***
 
 ### secondary\_topic?
 
-> **`optional`** **secondary\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
+> `optional` **secondary\_topic**: [`TopicInfo`](../classes/TopicInfo.md)[]
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:164081
+main.ts:165913

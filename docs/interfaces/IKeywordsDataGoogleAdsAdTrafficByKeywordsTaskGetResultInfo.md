@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,21 +14,21 @@
 
 ### average\_cpc?
 
-> **`optional`** **average\_cpc**: `number`
+> `optional` **average\_cpc**: `number`
 
 the average cost-per-click value
 represents the cost-per-click (USD) estimated for a keyword based on the specified time period and historical data;
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:124625
+main.ts:124471
 
 ***
 
 ### bid?
 
-> **`optional`** **bid**: `number`
+> `optional` **bid**: `number`
 
 the maximum custom bid
 the bid you have specified when setting the task
@@ -36,142 +36,142 @@ represents the price you are willing to pay for an ad
 the higher value you have specified, the higher metrics and cost you receive in response
 learn more in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:124609
+main.ts:124455
 
 ***
 
 ### clicks?
 
-> **`optional`** **clicks**: `number`
+> `optional` **clicks**: `number`
 
 number of clicks on an ad
 number of clicks an ad is projected to get within the specified time period
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:124633
+main.ts:124479
 
 ***
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 charge for an ad
 amount that will be charged for running an ad within the specified time period
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:124629
+main.ts:124475
 
 ***
 
 ### ctr?
 
-> **`optional`** **ctr**: `number`
+> `optional` **ctr**: `number`
 
 projected clickthrough rate (CTR) of the advertisement
 number of clicks an ad is projected to receive divided by the number of ad impressions; the CTR is projected for the specified time period
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:124621
+main.ts:124467
 
 ***
 
 ### date\_interval?
 
-> **`optional`** **date\_interval**: `string`
+> `optional` **date\_interval**: `string`
 
 forecasting date interval in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:124598
+main.ts:124444
 
 ***
 
 ### impressions?
 
-> **`optional`** **impressions**: `number`
+> `optional` **impressions**: `number`
 
 projected number of ad impressions
 number of impressions an ad is projected to get within the specified time period
 if there is no data, then the value is null
 learn more about impressions in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:124617
+main.ts:124463
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 metrics are provided for all the keywords specified in the POST array
 
-#### Source
+#### Defined in
 
-main.ts:124590
+main.ts:124436
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:124596
+main.ts:124442
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:124593
+main.ts:124439
 
 ***
 
 ### match?
 
-> **`optional`** **match**: `string`
+> `optional` **match**: `string`
 
 keywords match-type
 can take the following values: exact, broad, phrase
 
-#### Source
+#### Defined in
 
-main.ts:124612
+main.ts:124458
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 include Google search partners
 the value you specified when setting the task
 if true, the results are returned for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 if false, the results are returned for Google search sites only
 
-#### Source
+#### Defined in
 
-main.ts:124603
+main.ts:124449

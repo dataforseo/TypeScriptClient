@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,26 +14,26 @@
 
 ### main\_domain\_rank?
 
-> **`optional`** **main\_domain\_rank**: `number`
+> `optional` **main\_domain\_rank**: `number`
 
 main domain rank
 main_domain_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:92064
+main.ts:92622
 
 ***
 
 ### page\_rank?
 
-> **`optional`** **page\_rank**: `number`
+> `optional` **page\_rank**: `number`
 
 page rank
 page_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm;
 learn more about the metric and how it is calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:92060
+main.ts:92618

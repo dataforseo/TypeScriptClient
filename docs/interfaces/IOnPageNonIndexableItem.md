@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### reason?
 
-> **`optional`** **reason**: `string`
+> `optional` **reason**: `string`
 
 the reason why the page is non-indexable
 can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects
 
-#### Source
+#### Defined in
 
-main.ts:160989
+main.ts:162821
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 url of the non-indexable page
 
-#### Source
+#### Defined in
 
-main.ts:160991
+main.ts:162823

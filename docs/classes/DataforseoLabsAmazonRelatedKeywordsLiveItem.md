@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAmazonRelatedKeywordsLiveItem(data)
+### new DataforseoLabsAmazonRelatedKeywordsLiveItem()
 
 > **new DataforseoLabsAmazonRelatedKeywordsLiveItem**(`data`?): [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:104992
+main.ts:105622
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 keyword search depth
 
@@ -44,15 +44,15 @@ keyword search depth
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md).[`depth`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:104985
+main.ts:105615
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
+> `optional` **keyword\_data**: [`AmazonKeywordData`](AmazonKeywordData.md)
 
 keyword data for the returned keyword
 
@@ -60,15 +60,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:104983
+main.ts:105613
 
 ***
 
 ### related\_keywords?
 
-> **`optional`** **related\_keywords**: `string`[]
+> `optional` **related\_keywords**: `string`[]
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
@@ -77,15 +77,15 @@ represents the list of search queries which are related to the keyword returned 
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md).[`related_keywords`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md#related_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:104988
+main.ts:105618
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -93,9 +93,9 @@ search engine type
 
 [`IDataforseoLabsAmazonRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsAmazonRelatedKeywordsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:104981
+main.ts:105611
 
 ## Methods
 
@@ -111,9 +111,9 @@ main.ts:104981
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:105001
+main.ts:105631
 
 ***
 
@@ -129,15 +129,15 @@ main.ts:105001
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:105025
+main.ts:105655
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
 
 #### Parameters
 
@@ -147,6 +147,6 @@ main.ts:105025
 
 [`DataforseoLabsAmazonRelatedKeywordsLiveItem`](DataforseoLabsAmazonRelatedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:105018
+main.ts:105648

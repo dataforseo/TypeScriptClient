@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologiesResultInfo(data)
+### new DomainAnalyticsTechnologiesTechnologiesResultInfo()
 
 > **new DomainAnalyticsTechnologiesTechnologiesResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76737
+main.ts:77333
 
 ## Properties
 
 ### groups?
 
-> **`optional`** **groups**: [`Groups`](Groups.md)[]
+> `optional` **groups**: [`Groups`](Groups.md)[]
 
 array of technology groups
 
@@ -44,9 +44,9 @@ array of technology groups
 
 [`IDomainAnalyticsTechnologiesTechnologiesResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md).[`groups`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesResultInfo.md#groups)
 
-#### Source
+#### Defined in
 
-main.ts:76733
+main.ts:77329
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:76733
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:76746
+main.ts:77342
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:76746
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:76767
+main.ts:77363
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:76767
 
 [`DomainAnalyticsTechnologiesTechnologiesResultInfo`](DomainAnalyticsTechnologiesTechnologiesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76760
+main.ts:77356

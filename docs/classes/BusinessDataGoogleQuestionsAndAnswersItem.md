@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataGoogleQuestionsAndAnswersItem(data)
+### new BusinessDataGoogleQuestionsAndAnswersItem()
 
 > **new BusinessDataGoogleQuestionsAndAnswersItem**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:212424
+main.ts:214274
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)[]
+> `optional` **items**: [`GoogleBusinessAnswerElement`](GoogleBusinessAnswerElement.md)[]
 
 array of google business question items with answers
 possible item types: google_business_question_item
@@ -45,15 +45,15 @@ possible item types: google_business_question_item
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`items`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:212420
+main.ts:214270
 
 ***
 
 ### original\_question\_text?
 
-> **`optional`** **original\_question\_text**: `string`
+> `optional` **original\_question\_text**: `string`
 
 original text of the question
 
@@ -61,15 +61,15 @@ original text of the question
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`original_question_text`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#original_question_text)
 
-#### Source
+#### Defined in
 
-main.ts:212413
+main.ts:214263
 
 ***
 
 ### profile\_image\_url?
 
-> **`optional`** **profile\_image\_url**: `string`
+> `optional` **profile\_image\_url**: `string`
 
 URL of the user’s profile image
 
@@ -77,15 +77,15 @@ URL of the user’s profile image
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`profile_image_url`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#profile_image_url)
 
-#### Source
+#### Defined in
 
-main.ts:212405
+main.ts:214255
 
 ***
 
 ### profile\_name?
 
-> **`optional`** **profile\_name**: `string`
+> `optional` **profile\_name**: `string`
 
 displayed name of the user
 
@@ -93,15 +93,15 @@ displayed name of the user
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`profile_name`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#profile_name)
 
-#### Source
+#### Defined in
 
-main.ts:212409
+main.ts:214259
 
 ***
 
 ### profile\_url?
 
-> **`optional`** **profile\_url**: `string`
+> `optional` **profile\_url**: `string`
 
 URL of the user’s profile
 
@@ -109,15 +109,15 @@ URL of the user’s profile
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`profile_url`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#profile_url)
 
-#### Source
+#### Defined in
 
-main.ts:212407
+main.ts:214257
 
 ***
 
 ### question\_id?
 
-> **`optional`** **question\_id**: `string`
+> `optional` **question\_id**: `string`
 
 ID of the question
 
@@ -125,15 +125,15 @@ ID of the question
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`question_id`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#question_id)
 
-#### Source
+#### Defined in
 
-main.ts:212401
+main.ts:214251
 
 ***
 
 ### question\_text?
 
-> **`optional`** **question\_text**: `string`
+> `optional` **question\_text**: `string`
 
 current text of the question
 
@@ -141,15 +141,15 @@ current text of the question
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`question_text`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#question_text)
 
-#### Source
+#### Defined in
 
-main.ts:212411
+main.ts:214261
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the elements
 
@@ -157,15 +157,15 @@ absolute rank among all the elements
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`rank_absolute`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:212399
+main.ts:214249
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -174,15 +174,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`rank_group`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:212397
+main.ts:214247
 
 ***
 
 ### time\_ago?
 
-> **`optional`** **time\_ago**: `string`
+> `optional` **time\_ago**: `string`
 
 estimated time when the question was posted
 
@@ -190,15 +190,15 @@ estimated time when the question was posted
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`time_ago`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#time_ago)
 
-#### Source
+#### Defined in
 
-main.ts:212415
+main.ts:214265
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 exact time when the question was posted
 
@@ -206,15 +206,15 @@ exact time when the question was posted
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`timestamp`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:212417
+main.ts:214267
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -222,15 +222,15 @@ type of element
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`type`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:212394
+main.ts:214244
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the question
 
@@ -238,9 +238,9 @@ URL of the question
 
 [`IBusinessDataGoogleQuestionsAndAnswersItem`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md).[`url`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:212403
+main.ts:214253
 
 ## Methods
 
@@ -256,9 +256,9 @@ main.ts:212403
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:212433
+main.ts:214283
 
 ***
 
@@ -274,15 +274,15 @@ main.ts:212433
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:212466
+main.ts:214316
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
+> `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
 
 #### Parameters
 
@@ -292,6 +292,6 @@ main.ts:212466
 
 [`BusinessDataGoogleQuestionsAndAnswersItem`](BusinessDataGoogleQuestionsAndAnswersItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:212459
+main.ts:214309

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new CacheControl(data)
+### new CacheControl()
 
 > **new CacheControl**(`data`?): [`CacheControl`](CacheControl.md)
 
@@ -28,15 +28,15 @@
 
 [`CacheControl`](CacheControl.md)
 
-#### Source
+#### Defined in
 
-main.ts:156307
+main.ts:158135
 
 ## Properties
 
 ### cachable?
 
-> **`optional`** **cachable**: `boolean`
+> `optional` **cachable**: `boolean`
 
 indicates whether the page is cacheable
 
@@ -44,15 +44,15 @@ indicates whether the page is cacheable
 
 [`ICacheControl`](../interfaces/ICacheControl.md).[`cachable`](../interfaces/ICacheControl.md#cachable)
 
-#### Source
+#### Defined in
 
-main.ts:156300
+main.ts:158128
 
 ***
 
 ### ttl?
 
-> **`optional`** **ttl**: `number`
+> `optional` **ttl**: `number`
 
 time to live
 the amount of time the browser caches a resource
@@ -61,9 +61,9 @@ the amount of time the browser caches a resource
 
 [`ICacheControl`](../interfaces/ICacheControl.md).[`ttl`](../interfaces/ICacheControl.md#ttl)
 
-#### Source
+#### Defined in
 
-main.ts:156303
+main.ts:158131
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:156303
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:156316
+main.ts:158144
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:156316
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:156334
+main.ts:158162
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`CacheControl`](CacheControl.md)
+> `static` **fromJS**(`data`): [`CacheControl`](CacheControl.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:156334
 
 [`CacheControl`](CacheControl.md)
 
-#### Source
+#### Defined in
 
-main.ts:156327
+main.ts:158155

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new LocalBusinessReservationLink(data)
+### new LocalBusinessReservationLink()
 
 > **new LocalBusinessReservationLink**(`data`?): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:23414
+main.ts:23596
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`_discriminator`](BaseLocalBusinessLink.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:23346
+main.ts:23528
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 domain of the reservation software
@@ -67,15 +67,15 @@ domain of the reservation software
 
 [`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md).[`title`](../interfaces/ILocalBusinessReservationLink.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:23408
+main.ts:23590
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to make a reservation
 
@@ -83,9 +83,9 @@ URL to make a reservation
 
 [`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md).[`url`](../interfaces/ILocalBusinessReservationLink.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:23410
+main.ts:23592
 
 ## Methods
 
@@ -105,9 +105,9 @@ main.ts:23410
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`init`](BaseLocalBusinessLink.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:23419
+main.ts:23601
 
 ***
 
@@ -127,15 +127,15 @@ main.ts:23419
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`toJSON`](BaseLocalBusinessLink.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:23438
+main.ts:23620
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
+> `static` **fromJS**(`data`): [`LocalBusinessReservationLink`](LocalBusinessReservationLink.md)
 
 #### Parameters
 
@@ -149,6 +149,6 @@ main.ts:23438
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`fromJS`](BaseLocalBusinessLink.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:23431
+main.ts:23613

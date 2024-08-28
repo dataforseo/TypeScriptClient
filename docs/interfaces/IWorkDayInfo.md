@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### close?
 
-> **`optional`** **close**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
+> `optional` **close**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
 closing time
 
-#### Source
+#### Defined in
 
-main.ts:21644
+main.ts:21826
 
 ***
 
 ### open?
 
-> **`optional`** **open**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
+> `optional` **open**: [`WorkTimeInfo`](../classes/WorkTimeInfo.md)
 
 opening time
 
-#### Source
+#### Defined in
 
-main.ts:21642
+main.ts:21824

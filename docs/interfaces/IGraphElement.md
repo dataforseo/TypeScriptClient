@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 the posting date
 
-#### Source
+#### Defined in
 
-main.ts:34066
+main.ts:34262
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:34064
+main.ts:34260
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 the value of the rating
 
-#### Source
+#### Defined in
 
-main.ts:34068
+main.ts:34264

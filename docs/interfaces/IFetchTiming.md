@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,36 +14,36 @@
 
 ### duration\_time?
 
-> **`optional`** **duration\_time**: `number`
+> `optional` **duration\_time**: `number`
 
 indicates how many milliseconds it took to fetch a resource
 
-#### Source
+#### Defined in
 
-main.ts:157627
+main.ts:159455
 
 ***
 
 ### fetch\_end?
 
-> **`optional`** **fetch\_end**: `number`
+> `optional` **fetch\_end**: `number`
 
 time to complete downloading the resource
 the amount of time a browser needs to complete downloading a resource
 
-#### Source
+#### Defined in
 
-main.ts:157633
+main.ts:159461
 
 ***
 
 ### fetch\_start?
 
-> **`optional`** **fetch\_start**: `number`
+> `optional` **fetch\_start**: `number`
 
 time to start downloading the resource
 the amount of time a browser needs to start downloading a resource
 
-#### Source
+#### Defined in
 
-main.ts:157630
+main.ts:159458

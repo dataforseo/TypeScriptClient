@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### items?
 
-> **`optional`** **items**: [`GraphElement`](../classes/GraphElement.md)[]
+> `optional` **items**: [`GraphElement`](../classes/GraphElement.md)[]
 
 contains arrays of specific images
 
-#### Source
+#### Defined in
 
-main.ts:34139
+main.ts:34335
 
 ***
 
 ### previous\_items?
 
-> **`optional`** **previous\_items**: [`GraphElement`](../classes/GraphElement.md)[]
+> `optional` **previous\_items**: [`GraphElement`](../classes/GraphElement.md)[]
 
 previous close data
 contains stock price data based on the preceding time period
 
-#### Source
+#### Defined in
 
-main.ts:34142
+main.ts:34338

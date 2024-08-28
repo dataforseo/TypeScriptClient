@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,69 +14,69 @@
 
 ### airport\_access?
 
-> **`optional`** **airport\_access**: `number`
+> `optional` **airport\_access**: `number`
 
 score relative to nearby airports
 indicates the score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby airports
 
-#### Source
+#### Defined in
 
-main.ts:209945
+main.ts:211795
 
 ***
 
 ### overall?
 
-> **`optional`** **overall**: `number`
+> `optional` **overall**: `number`
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby things to do and restaurants, transportation, and airports;
 note that the criteria are not weighted equally in the overall score
 
-#### Source
+#### Defined in
 
-main.ts:209929
+main.ts:211779
 
 ***
 
 ### restaurants?
 
-> **`optional`** **restaurants**: `number`
+> `optional` **restaurants**: `number`
 
 score relative to nearby restaurants
 indicates the score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby restaurants
 
-#### Source
+#### Defined in
 
-main.ts:209937
+main.ts:211787
 
 ***
 
 ### things\_to\_do?
 
-> **`optional`** **things\_to\_do**: `number`
+> `optional` **things\_to\_do**: `number`
 
 score relative to nearby things to do
 indicates the score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby things to do
 
-#### Source
+#### Defined in
 
-main.ts:209933
+main.ts:211783
 
 ***
 
 ### transit?
 
-> **`optional`** **transit**: `number`
+> `optional` **transit**: `number`
 
 score relative to nearby transit options
 indicates the score of the hotel’s location in the range from 1 to 5;
 calculated based on data from the hotel’s proximity to nearby transit options
 
-#### Source
+#### Defined in
 
-main.ts:209941
+main.ts:211791

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MetricsBundleInfo(data)
+### new MetricsBundleInfo()
 
 > **new MetricsBundleInfo**(`data`?): [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80423
+main.ts:81019
 
 ## Properties
 
 ### organic?
 
-> **`optional`** **organic**: [`MetricsInfo`](MetricsInfo.md)
+> `optional` **organic**: [`MetricsInfo`](MetricsInfo.md)
 
 ranking and traffic data from organic search
 
@@ -44,15 +44,15 @@ ranking and traffic data from organic search
 
 [`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md).[`organic`](../interfaces/IMetricsBundleInfo.md#organic)
 
-#### Source
+#### Defined in
 
-main.ts:80417
+main.ts:81013
 
 ***
 
 ### paid?
 
-> **`optional`** **paid**: [`MetricsInfo`](MetricsInfo.md)
+> `optional` **paid**: [`MetricsInfo`](MetricsInfo.md)
 
 ranking and traffic data from paid search
 
@@ -60,9 +60,9 @@ ranking and traffic data from paid search
 
 [`IMetricsBundleInfo`](../interfaces/IMetricsBundleInfo.md).[`paid`](../interfaces/IMetricsBundleInfo.md#paid)
 
-#### Source
+#### Defined in
 
-main.ts:80419
+main.ts:81015
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:80419
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:80432
+main.ts:81028
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:80432
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:80450
+main.ts:81046
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MetricsBundleInfo`](MetricsBundleInfo.md)
+> `static` **fromJS**(`data`): [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:80450
 
 [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80443
+main.ts:81039

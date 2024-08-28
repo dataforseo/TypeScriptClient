@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### assessment?
 
-> **`optional`** **assessment**: `string`
+> `optional` **assessment**: `string`
 
 feature assessment
 
-#### Source
+#### Defined in
 
-main.ts:211288
+main.ts:213138
 
 ***
 
 ### feature?
 
-> **`optional`** **feature**: `string`
+> `optional` **feature**: `string`
 
 reviewed feature
 
-#### Source
+#### Defined in
 
-main.ts:211286
+main.ts:213136

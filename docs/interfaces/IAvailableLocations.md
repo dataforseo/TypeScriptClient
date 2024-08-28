@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,48 +14,48 @@
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Source
+#### Defined in
 
-main.ts:135619
+main.ts:135445
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `string`
+> `optional` **location\_code**: `string`
 
 location code
 
-#### Source
+#### Defined in
 
-main.ts:135615
+main.ts:135441
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 location name
 
-#### Source
+#### Defined in
 
-main.ts:135617
+main.ts:135443
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 possible values:
 Country, Region
 
-#### Source
+#### Defined in
 
-main.ts:135623
+main.ts:135449

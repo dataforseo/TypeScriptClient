@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsWhoisAvailableFiltersResultInfo(data)
+### new DomainAnalyticsWhoisAvailableFiltersResultInfo()
 
 > **new DomainAnalyticsWhoisAvailableFiltersResultInfo**(`data`?): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
@@ -28,17 +28,17 @@
 
 [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:79900
+main.ts:80496
 
 ## Properties
 
 ### overview?
 
-> **`optional`** **overview**: `Object`
+> `optional` **overview**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -46,9 +46,9 @@ main.ts:79900
 
 [`IDomainAnalyticsWhoisAvailableFiltersResultInfo`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md).[`overview`](../interfaces/IDomainAnalyticsWhoisAvailableFiltersResultInfo.md#overview)
 
-#### Source
+#### Defined in
 
-main.ts:79896
+main.ts:80492
 
 ## Methods
 
@@ -64,9 +64,9 @@ main.ts:79896
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:79909
+main.ts:80505
 
 ***
 
@@ -82,15 +82,15 @@ main.ts:79909
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:79932
+main.ts:80528
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
 #### Parameters
 
@@ -100,6 +100,6 @@ main.ts:79932
 
 [`DomainAnalyticsWhoisAvailableFiltersResultInfo`](DomainAnalyticsWhoisAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:79925
+main.ts:80521

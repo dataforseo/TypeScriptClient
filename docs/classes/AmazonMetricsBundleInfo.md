@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AmazonMetricsBundleInfo(data)
+### new AmazonMetricsBundleInfo()
 
 > **new AmazonMetricsBundleInfo**(`data`?): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:106353
+main.ts:106983
 
 ## Properties
 
 ### amazon\_paid?
 
-> **`optional`** **amazon\_paid**: [`AppMetricsInfo`](AppMetricsInfo.md)
+> `optional` **amazon\_paid**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
 ranking data from Amazon paid SERP
 
@@ -44,15 +44,15 @@ ranking data from Amazon paid SERP
 
 [`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md).[`amazon_paid`](../interfaces/IAmazonMetricsBundleInfo.md#amazon_paid)
 
-#### Source
+#### Defined in
 
-main.ts:106349
+main.ts:106979
 
 ***
 
 ### amazon\_serp?
 
-> **`optional`** **amazon\_serp**: [`AppMetricsInfo`](AppMetricsInfo.md)
+> `optional` **amazon\_serp**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
 ranking data from Amazon organic SERP
 
@@ -60,9 +60,9 @@ ranking data from Amazon organic SERP
 
 [`IAmazonMetricsBundleInfo`](../interfaces/IAmazonMetricsBundleInfo.md).[`amazon_serp`](../interfaces/IAmazonMetricsBundleInfo.md#amazon_serp)
 
-#### Source
+#### Defined in
 
-main.ts:106347
+main.ts:106977
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:106347
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:106362
+main.ts:106992
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:106362
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:106380
+main.ts:107010
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
+> `static` **fromJS**(`data`): [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:106380
 
 [`AmazonMetricsBundleInfo`](AmazonMetricsBundleInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:106373
+main.ts:107003

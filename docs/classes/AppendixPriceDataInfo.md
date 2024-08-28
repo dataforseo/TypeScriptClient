@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixPriceDataInfo(data)
+### new AppendixPriceDataInfo()
 
 > **new AppendixPriceDataInfo**(`data`?): [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
 
@@ -28,51 +28,51 @@
 
 [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222053
+main.ts:226325
 
 ## Properties
 
 ### task\_get?
 
-> **`optional`** **task\_get**: [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
+> `optional` **task\_get**: [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixPriceDataInfo`](../interfaces/IAppendixPriceDataInfo.md).[`task_get`](../interfaces/IAppendixPriceDataInfo.md#task_get)
 
-#### Source
+#### Defined in
 
-main.ts:222047
+main.ts:226319
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixPriceDataInfo`](../interfaces/IAppendixPriceDataInfo.md).[`task_post`](../interfaces/IAppendixPriceDataInfo.md#task_post)
 
-#### Source
+#### Defined in
 
-main.ts:222049
+main.ts:226321
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixPriceDataInfo`](../interfaces/IAppendixPriceDataInfo.md).[`tasks_ready`](../interfaces/IAppendixPriceDataInfo.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:222048
+main.ts:226320
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:222048
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:222062
+main.ts:226334
 
 ***
 
@@ -106,15 +106,15 @@ main.ts:222062
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:222081
+main.ts:226353
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
 
 #### Parameters
 
@@ -124,6 +124,6 @@ main.ts:222081
 
 [`AppendixPriceDataInfo`](AppendixPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222074
+main.ts:226346

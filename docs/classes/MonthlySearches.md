@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MonthlySearches(data)
+### new MonthlySearches()
 
 > **new MonthlySearches**(`data`?): [`MonthlySearches`](MonthlySearches.md)
 
@@ -28,15 +28,15 @@
 
 [`MonthlySearches`](MonthlySearches.md)
 
-#### Source
+#### Defined in
 
-main.ts:83313
+main.ts:83907
 
 ## Properties
 
 ### month?
 
-> **`optional`** **month**: `number`
+> `optional` **month**: `number`
 
 month
 
@@ -44,15 +44,15 @@ month
 
 [`IMonthlySearches`](../interfaces/IMonthlySearches.md).[`month`](../interfaces/IMonthlySearches.md#month)
 
-#### Source
+#### Defined in
 
-main.ts:83307
+main.ts:83901
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 monthly average search volume rate
 
@@ -60,15 +60,15 @@ monthly average search volume rate
 
 [`IMonthlySearches`](../interfaces/IMonthlySearches.md).[`search_volume`](../interfaces/IMonthlySearches.md#search_volume)
 
-#### Source
+#### Defined in
 
-main.ts:83309
+main.ts:83903
 
 ***
 
 ### year?
 
-> **`optional`** **year**: `number`
+> `optional` **year**: `number`
 
 year
 
@@ -76,9 +76,9 @@ year
 
 [`IMonthlySearches`](../interfaces/IMonthlySearches.md).[`year`](../interfaces/IMonthlySearches.md#year)
 
-#### Source
+#### Defined in
 
-main.ts:83305
+main.ts:83899
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:83305
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:83322
+main.ts:83916
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:83322
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:83341
+main.ts:83935
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MonthlySearches`](MonthlySearches.md)
+> `static` **fromJS**(`data`): [`MonthlySearches`](MonthlySearches.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:83341
 
 [`MonthlySearches`](MonthlySearches.md)
 
-#### Source
+#### Defined in
 
-main.ts:83334
+main.ts:83928

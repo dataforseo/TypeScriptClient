@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsDomainRankOverviewLiveItem(data)
+### new DataforseoLabsDomainRankOverviewLiveItem()
 
 > **new DataforseoLabsDomainRankOverviewLiveItem**(`data`?): [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:96477
+main.ts:96765
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -44,15 +44,15 @@ language code in a POST array
 
 [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md).[`language_code`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:96471
+main.ts:96759
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -60,19 +60,19 @@ location code in a POST array
 
 [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md).[`location_code`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:96469
+main.ts:96757
 
 ***
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 ranking data relevant to the specified domain
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`DataforseoLabsMetricsInfo`](DataforseoLabsMetricsInfo.md)
 
@@ -80,15 +80,15 @@ ranking data relevant to the specified domain
 
 [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md#metrics)
 
-#### Source
+#### Defined in
 
-main.ts:96473
+main.ts:96761
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -96,9 +96,9 @@ search engine type
 
 [`IDataforseoLabsDomainRankOverviewLiveItem`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsDomainRankOverviewLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:96467
+main.ts:96755
 
 ## Methods
 
@@ -114,9 +114,9 @@ main.ts:96467
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:96486
+main.ts:96774
 
 ***
 
@@ -132,15 +132,15 @@ main.ts:96486
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:96512
+main.ts:96800
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
 
 #### Parameters
 
@@ -150,6 +150,6 @@ main.ts:96512
 
 [`DataforseoLabsDomainRankOverviewLiveItem`](DataforseoLabsDomainRankOverviewLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:96505
+main.ts:96793

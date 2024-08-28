@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### profile\_image\_url?
 
-> **`optional`** **profile\_image\_url**: `string`
+> `optional` **profile\_image\_url**: `string`
 
 URL to the reviewer’s profile image
 
-#### Source
+#### Defined in
 
-main.ts:193656
+main.ts:195488
 
 ***
 
 ### profile\_name?
 
-> **`optional`** **profile\_name**: `string`
+> `optional` **profile\_name**: `string`
 
 profile name of the reviewer
 
-#### Source
+#### Defined in
 
-main.ts:193654
+main.ts:195486

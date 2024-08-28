@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,96 +14,96 @@
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:209485
+main.ts:211335
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
+> `optional` **items**: [`HtmlItem`](../classes/HtmlItem.md)[]
 
 HTML pages
 
-#### Source
+#### Defined in
 
-main.ts:209489
+main.ts:211339
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:209487
+main.ts:211337
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 identifier received in a POST array
 this field will contain the hotel_identifier parameter specified when setting a task;
 example:
 CgoI-KWyzenM_MV3EAE
 
-#### Source
+#### Defined in
 
-main.ts:209476
+main.ts:211326
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:209480
+main.ts:211330
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:209478
+main.ts:211328
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:209491
+main.ts:211341
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:209490
+main.ts:211340

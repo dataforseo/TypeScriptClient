@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PopularProductsElement(data)
+### new PopularProductsElement()
 
 > **new PopularProductsElement**(`data`?): [`PopularProductsElement`](PopularProductsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`PopularProductsElement`](PopularProductsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33638
+main.ts:33834
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`description`](../interfaces/IPopularProductsElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:33625
+main.ts:33821
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
@@ -60,15 +60,15 @@ URL of the image
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`image_url`](../interfaces/IPopularProductsElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:33629
+main.ts:33825
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
@@ -76,15 +76,15 @@ price indicated in the element
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`price`](../interfaces/IPopularProductsElement.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:33631
+main.ts:33827
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -93,15 +93,15 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`rating`](../interfaces/IPopularProductsElement.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:33634
+main.ts:33830
 
 ***
 
 ### seller?
 
-> **`optional`** **seller**: `string`
+> `optional` **seller**: `string`
 
 seller of the product
 
@@ -109,15 +109,15 @@ seller of the product
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`seller`](../interfaces/IPopularProductsElement.md#seller)
 
-#### Source
+#### Defined in
 
-main.ts:33627
+main.ts:33823
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -125,15 +125,15 @@ title of a given link element
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`title`](../interfaces/IPopularProductsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:33623
+main.ts:33819
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -141,9 +141,9 @@ type of element
 
 [`IPopularProductsElement`](../interfaces/IPopularProductsElement.md).[`type`](../interfaces/IPopularProductsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:33621
+main.ts:33817
 
 ## Methods
 
@@ -159,9 +159,9 @@ main.ts:33621
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:33647
+main.ts:33843
 
 ***
 
@@ -177,15 +177,15 @@ main.ts:33647
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:33670
+main.ts:33866
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PopularProductsElement`](PopularProductsElement.md)
+> `static` **fromJS**(`data`): [`PopularProductsElement`](PopularProductsElement.md)
 
 #### Parameters
 
@@ -195,6 +195,6 @@ main.ts:33670
 
 [`PopularProductsElement`](PopularProductsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33663
+main.ts:33859

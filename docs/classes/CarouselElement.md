@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new CarouselElement(data)
+### new CarouselElement()
 
 > **new CarouselElement**(`data`?): [`CarouselElement`](CarouselElement.md)
 
@@ -28,15 +28,15 @@
 
 [`CarouselElement`](CarouselElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:31497
+main.ts:31693
 
 ## Properties
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
@@ -44,15 +44,15 @@ URL of the image
 
 [`ICarouselElement`](../interfaces/ICarouselElement.md).[`image_url`](../interfaces/ICarouselElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:31493
+main.ts:31689
 
 ***
 
 ### subtitle?
 
-> **`optional`** **subtitle**: `string`
+> `optional` **subtitle**: `string`
 
 subtitle of the element
 
@@ -60,15 +60,15 @@ subtitle of the element
 
 [`ICarouselElement`](../interfaces/ICarouselElement.md).[`subtitle`](../interfaces/ICarouselElement.md#subtitle)
 
-#### Source
+#### Defined in
 
-main.ts:31491
+main.ts:31687
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -76,15 +76,15 @@ title of a given link element
 
 [`ICarouselElement`](../interfaces/ICarouselElement.md).[`title`](../interfaces/ICarouselElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:31489
+main.ts:31685
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -92,9 +92,9 @@ type of element
 
 [`ICarouselElement`](../interfaces/ICarouselElement.md).[`type`](../interfaces/ICarouselElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:31487
+main.ts:31683
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:31487
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:31506
+main.ts:31702
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:31506
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:31526
+main.ts:31722
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`CarouselElement`](CarouselElement.md)
+> `static` **fromJS**(`data`): [`CarouselElement`](CarouselElement.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:31526
 
 [`CarouselElement`](CarouselElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:31519
+main.ts:31715

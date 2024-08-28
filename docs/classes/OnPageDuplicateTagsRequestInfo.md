@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageDuplicateTagsRequestInfo(data)
+### new OnPageDuplicateTagsRequestInfo()
 
 > **new OnPageDuplicateTagsRequestInfo**(`data`?): [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:158636
+main.ts:160468
 
 ## Properties
 
 ### accumulator?
 
-> **`optional`** **accumulator**: `string`
+> `optional` **accumulator**: `string`
 
 tag value
 optional field
@@ -46,15 +46,15 @@ specify a title or description here if you want to receive a list of duplicate p
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`accumulator`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#accumulator)
 
-#### Source
+#### Defined in
 
-main.ts:158616
+main.ts:160448
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -66,15 +66,15 @@ example:
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`id`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:158610
+main.ts:160442
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned pages
 optional field
@@ -85,15 +85,15 @@ maximum value: 1000
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`limit`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:158621
+main.ts:160453
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned pages
 optional field
@@ -104,15 +104,15 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`offset`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:158626
+main.ts:160458
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -124,15 +124,15 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`tag`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:158632
+main.ts:160464
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -140,9 +140,9 @@ type of element
 
 [`IOnPageDuplicateTagsRequestInfo`](../interfaces/IOnPageDuplicateTagsRequestInfo.md).[`type`](../interfaces/IOnPageDuplicateTagsRequestInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:158612
+main.ts:160444
 
 ## Methods
 
@@ -158,9 +158,9 @@ main.ts:158612
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:158645
+main.ts:160477
 
 ***
 
@@ -176,15 +176,15 @@ main.ts:158645
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:158667
+main.ts:160499
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
 
 #### Parameters
 
@@ -194,6 +194,6 @@ main.ts:158667
 
 [`OnPageDuplicateTagsRequestInfo`](OnPageDuplicateTagsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:158660
+main.ts:160492

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixMoneyData(data)
+### new AppendixMoneyData()
 
 > **new AppendixMoneyData**(`data`?): [`AppendixMoneyData`](AppendixMoneyData.md)
 
@@ -28,15 +28,15 @@
 
 [`AppendixMoneyData`](AppendixMoneyData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221348
+main.ts:225564
 
 ## Properties
 
 ### balance?
 
-> **`optional`** **balance**: `number`
+> `optional` **balance**: `number`
 
 amount of money left in your account
 
@@ -44,15 +44,15 @@ amount of money left in your account
 
 [`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md).[`balance`](../interfaces/IAppendixMoneyData.md#balance)
 
-#### Source
+#### Defined in
 
-main.ts:221340
+main.ts:225556
 
 ***
 
 ### limits?
 
-> **`optional`** **limits**: [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
+> `optional` **limits**: [`AppendixLimitsMoneyData`](AppendixLimitsMoneyData.md)
 
 cost limits
 
@@ -60,15 +60,15 @@ cost limits
 
 [`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md).[`limits`](../interfaces/IAppendixMoneyData.md#limits)
 
-#### Source
+#### Defined in
 
-main.ts:221342
+main.ts:225558
 
 ***
 
 ### statistics?
 
-> **`optional`** **statistics**: [`AppendixStatisticsDataInfo`](AppendixStatisticsDataInfo.md)
+> `optional` **statistics**: [`AppendixStatisticsMoneyData`](AppendixStatisticsMoneyData.md)
 
 statistics of your spending
 
@@ -76,15 +76,15 @@ statistics of your spending
 
 [`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md).[`statistics`](../interfaces/IAppendixMoneyData.md#statistics)
 
-#### Source
+#### Defined in
 
-main.ts:221344
+main.ts:225560
 
 ***
 
 ### total?
 
-> **`optional`** **total**: `number`
+> `optional` **total**: `number`
 
 total amount of money deposited to your account
 
@@ -92,9 +92,9 @@ total amount of money deposited to your account
 
 [`IAppendixMoneyData`](../interfaces/IAppendixMoneyData.md).[`total`](../interfaces/IAppendixMoneyData.md#total)
 
-#### Source
+#### Defined in
 
-main.ts:221338
+main.ts:225554
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:221338
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:221357
+main.ts:225573
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:221357
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221377
+main.ts:225593
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixMoneyData`](AppendixMoneyData.md)
+> `static` **fromJS**(`data`): [`AppendixMoneyData`](AppendixMoneyData.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:221377
 
 [`AppendixMoneyData`](AppendixMoneyData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221370
+main.ts:225586

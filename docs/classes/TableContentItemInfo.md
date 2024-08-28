@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TableContentItemInfo(data)
+### new TableContentItemInfo()
 
 > **new TableContentItemInfo**(`data`?): [`TableContentItemInfo`](TableContentItemInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`TableContentItemInfo`](TableContentItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163740
+main.ts:165572
 
 ## Properties
 
 ### row\_cells?
 
-> **`optional`** **row\_cells**: [`RowCellInfo`](RowCellInfo.md)[]
+> `optional` **row\_cells**: [`RowCellInfo`](RowCellInfo.md)[]
 
 content of the row cells of the header
 
@@ -44,9 +44,9 @@ content of the row cells of the header
 
 [`ITableContentItemInfo`](../interfaces/ITableContentItemInfo.md).[`row_cells`](../interfaces/ITableContentItemInfo.md#row_cells)
 
-#### Source
+#### Defined in
 
-main.ts:163736
+main.ts:165568
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:163736
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163749
+main.ts:165581
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:163749
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163770
+main.ts:165602
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TableContentItemInfo`](TableContentItemInfo.md)
+> `static` **fromJS**(`data`): [`TableContentItemInfo`](TableContentItemInfo.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:163770
 
 [`TableContentItemInfo`](TableContentItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163763
+main.ts:165595

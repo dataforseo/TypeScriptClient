@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixStatusEndpointsInfo(data)
+### new AppendixStatusEndpointsInfo()
 
 > **new AppendixStatusEndpointsInfo**(`data`?): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:224625
+main.ts:228897
 
 ## Properties
 
 ### endpoint?
 
-> **`optional`** **endpoint**: `string`
+> `optional` **endpoint**: `string`
 
 name of the endpoint
 the list of possible endpoints:
@@ -49,15 +49,15 @@ postback/pingback
 
 [`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md).[`endpoint`](../interfaces/IAppendixStatusEndpointsInfo.md#endpoint)
 
-#### Source
+#### Defined in
 
-main.ts:224611
+main.ts:228883
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `string`
+> `optional` **status**: `string`
 
 current status
 you can find all information about the statuses of our endpoints for the last 60 days here
@@ -73,9 +73,9 @@ send_delay
 
 [`IAppendixStatusEndpointsInfo`](../interfaces/IAppendixStatusEndpointsInfo.md).[`status`](../interfaces/IAppendixStatusEndpointsInfo.md#status)
 
-#### Source
+#### Defined in
 
-main.ts:224621
+main.ts:228893
 
 ## Methods
 
@@ -91,9 +91,9 @@ main.ts:224621
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:224634
+main.ts:228906
 
 ***
 
@@ -109,15 +109,15 @@ main.ts:224634
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:224652
+main.ts:228924
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
+> `static` **fromJS**(`data`): [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
 #### Parameters
 
@@ -127,6 +127,6 @@ main.ts:224652
 
 [`AppendixStatusEndpointsInfo`](AppendixStatusEndpointsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:224645
+main.ts:228917

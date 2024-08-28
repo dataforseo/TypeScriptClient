@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,126 +14,126 @@
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Source
+#### Defined in
 
-main.ts:63305
+main.ts:63901
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:63310
+main.ts:63906
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item:
 youtube_video_info
 
-#### Source
+#### Defined in
 
-main.ts:63318
+main.ts:63914
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
-#### Source
+#### Defined in
 
-main.ts:63322
+main.ts:63918
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:63320
+main.ts:63916
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:63302
+main.ts:63898
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:63300
+main.ts:63896
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:63298
+main.ts:63894
 
 ***
 
 ### spell?
 
-> **`optional`** **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
-#### Source
+#### Defined in
 
-main.ts:63313
+main.ts:63909
 
 ***
 
 ### video\_id?
 
-> **`optional`** **video\_id**: `string`
+> `optional` **video\_id**: `string`
 
 ID of the video received in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:63296
+main.ts:63892

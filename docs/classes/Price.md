@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Price(data)
+### new Price()
 
 > **new Price**(`data`?): [`Price`](Price.md)
 
@@ -28,93 +28,93 @@
 
 [`Price`](Price.md)
 
-#### Source
+#### Defined in
 
-main.ts:72685
+main.ts:73281
 
 ## Properties
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 #### Implementation of
 
 [`IPrice`](../interfaces/IPrice.md).[`currency`](../interfaces/IPrice.md#currency)
 
-#### Source
+#### Defined in
 
-main.ts:72679
+main.ts:73275
 
 ***
 
 ### current?
 
-> **`optional`** **current**: `number`
+> `optional` **current**: `number`
 
 #### Implementation of
 
 [`IPrice`](../interfaces/IPrice.md).[`current`](../interfaces/IPrice.md#current)
 
-#### Source
+#### Defined in
 
-main.ts:72676
+main.ts:73272
 
 ***
 
 ### displayed\_price?
 
-> **`optional`** **displayed\_price**: `string`
+> `optional` **displayed\_price**: `string`
 
 #### Implementation of
 
 [`IPrice`](../interfaces/IPrice.md).[`displayed_price`](../interfaces/IPrice.md#displayed_price)
 
-#### Source
+#### Defined in
 
-main.ts:72681
+main.ts:73277
 
 ***
 
 ### is\_price\_range?
 
-> **`optional`** **is\_price\_range**: `boolean`
+> `optional` **is\_price\_range**: `boolean`
 
 #### Implementation of
 
 [`IPrice`](../interfaces/IPrice.md).[`is_price_range`](../interfaces/IPrice.md#is_price_range)
 
-#### Source
+#### Defined in
 
-main.ts:72680
+main.ts:73276
 
 ***
 
 ### max\_value?
 
-> **`optional`** **max\_value**: `number`
+> `optional` **max\_value**: `number`
 
 #### Implementation of
 
 [`IPrice`](../interfaces/IPrice.md).[`max_value`](../interfaces/IPrice.md#max_value)
 
-#### Source
+#### Defined in
 
-main.ts:72678
+main.ts:73274
 
 ***
 
 ### regular?
 
-> **`optional`** **regular**: `number`
+> `optional` **regular**: `number`
 
 #### Implementation of
 
 [`IPrice`](../interfaces/IPrice.md).[`regular`](../interfaces/IPrice.md#regular)
 
-#### Source
+#### Defined in
 
-main.ts:72677
+main.ts:73273
 
 ## Methods
 
@@ -130,9 +130,9 @@ main.ts:72677
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:72694
+main.ts:73290
 
 ***
 
@@ -148,15 +148,15 @@ main.ts:72694
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:72716
+main.ts:73312
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Price`](Price.md)
+> `static` **fromJS**(`data`): [`Price`](Price.md)
 
 #### Parameters
 
@@ -166,6 +166,6 @@ main.ts:72716
 
 [`Price`](Price.md)
 
-#### Source
+#### Defined in
 
-main.ts:72709
+main.ts:73305

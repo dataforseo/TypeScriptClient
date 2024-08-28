@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ReviewHighlights(data)
+### new ReviewHighlights()
 
 > **new ReviewHighlights**(`data`?): [`ReviewHighlights`](ReviewHighlights.md)
 
@@ -28,15 +28,15 @@
 
 [`ReviewHighlights`](ReviewHighlights.md)
 
-#### Source
+#### Defined in
 
-main.ts:211245
+main.ts:213095
 
 ## Properties
 
 ### assessment?
 
-> **`optional`** **assessment**: `string`
+> `optional` **assessment**: `string`
 
 feature assessment
 
@@ -44,15 +44,15 @@ feature assessment
 
 [`IReviewHighlights`](../interfaces/IReviewHighlights.md).[`assessment`](../interfaces/IReviewHighlights.md#assessment)
 
-#### Source
+#### Defined in
 
-main.ts:211241
+main.ts:213091
 
 ***
 
 ### feature?
 
-> **`optional`** **feature**: `string`
+> `optional` **feature**: `string`
 
 reviewed feature
 
@@ -60,9 +60,9 @@ reviewed feature
 
 [`IReviewHighlights`](../interfaces/IReviewHighlights.md).[`feature`](../interfaces/IReviewHighlights.md#feature)
 
-#### Source
+#### Defined in
 
-main.ts:211239
+main.ts:213089
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:211239
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:211254
+main.ts:213104
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:211254
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:211272
+main.ts:213122
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ReviewHighlights`](ReviewHighlights.md)
+> `static` **fromJS**(`data`): [`ReviewHighlights`](ReviewHighlights.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:211272
 
 [`ReviewHighlights`](ReviewHighlights.md)
 
-#### Source
+#### Defined in
 
-main.ts:211265
+main.ts:213115

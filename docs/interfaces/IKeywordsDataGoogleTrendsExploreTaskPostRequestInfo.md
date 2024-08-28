@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### category\_code?
 
-> **`optional`** **category\_code**: `number`
+> `optional` **category\_code**: `number`
 
 google trends search category
 optional field
 if you don’t specify this field, the 0 value will be applied by default and the search will be carried out across all available categories
 you can receive the list of available categories with their category_code by making a separate request to the https://api.dataforseo.com/v3/keywords_data/google_trends/categories
 
-#### Source
+#### Defined in
 
-main.ts:126316
+main.ts:126155
 
 ***
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -40,15 +40,15 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:126325
+main.ts:126164
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -57,55 +57,48 @@ date format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:126332
+main.ts:126171
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 types of items returned
 optional field
 to speed up the execution of the request, specify one item at a time;
 possible values:
-"item_types": [
-"google_trends_graph",
-"google_trends_map",
-"google_trends_topics_list",
-"google_trends_queries_list"
-]
+"google_trends_graph", "google_trends_map", "google_trends_topics_list","google_trends_queries_list"
 default value:
-"item_types": [
 "google_trends_graph"
-]
 
-#### Source
+#### Defined in
 
-main.ts:126357
+main.ts:126189
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
 The maximum number of keywords you can specify: 5
 Note: comma symbols (,) in the specified keywords will be unset and ignored
 
-#### Source
+#### Defined in
 
-main.ts:126277
+main.ts:126116
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -115,15 +108,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:126309
+main.ts:126148
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -133,15 +126,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:126301
+main.ts:126140
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 optional field
@@ -151,15 +144,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:126293
+main.ts:126132
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -169,15 +162,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:126285
+main.ts:126124
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -189,15 +182,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:126377
+main.ts:126209
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -209,15 +202,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:126367
+main.ts:126199
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -225,15 +218,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:126383
+main.ts:126215
 
 ***
 
 ### time\_range?
 
-> **`optional`** **time\_range**: `string`
+> `optional` **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -245,18 +238,18 @@ possible values for web only:
 possible values for news, youtube, images, froogle:
 2008_present
 
-#### Source
+#### Defined in
 
-main.ts:126342
+main.ts:126181
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:126311
+main.ts:126150

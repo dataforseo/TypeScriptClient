@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new LocalBusinessDeliveryServiceInfo(data)
+### new LocalBusinessDeliveryServiceInfo()
 
 > **new LocalBusinessDeliveryServiceInfo**(`data`?): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23528
+main.ts:23710
 
 ## Properties
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 domain of the online food ordering system
@@ -45,15 +45,15 @@ domain of the online food ordering system
 
 [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[`title`](../interfaces/ILocalBusinessDeliveryServiceInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:23522
+main.ts:23704
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -61,15 +61,15 @@ type of element
 
 [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[`type`](../interfaces/ILocalBusinessDeliveryServiceInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:23519
+main.ts:23701
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to place an order
 
@@ -77,9 +77,9 @@ URL to place an order
 
 [`ILocalBusinessDeliveryServiceInfo`](../interfaces/ILocalBusinessDeliveryServiceInfo.md).[`url`](../interfaces/ILocalBusinessDeliveryServiceInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:23524
+main.ts:23706
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:23524
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:23537
+main.ts:23719
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:23537
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:23556
+main.ts:23738
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
+> `static` **fromJS**(`data`): [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:23556
 
 [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23549
+main.ts:23731

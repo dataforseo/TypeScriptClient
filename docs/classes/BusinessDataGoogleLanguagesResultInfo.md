@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataGoogleLanguagesResultInfo(data)
+### new BusinessDataGoogleLanguagesResultInfo()
 
 > **new BusinessDataGoogleLanguagesResultInfo**(`data`?): [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:203153
+main.ts:204997
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IBusinessDataGoogleLanguagesResultInfo`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:203149
+main.ts:204993
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IBusinessDataGoogleLanguagesResultInfo`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:203147
+main.ts:204991
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:203147
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:203162
+main.ts:205006
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:203162
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:203180
+main.ts:205024
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:203180
 
 [`BusinessDataGoogleLanguagesResultInfo`](BusinessDataGoogleLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:203173
+main.ts:205017

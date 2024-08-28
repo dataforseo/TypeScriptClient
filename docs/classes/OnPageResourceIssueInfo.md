@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,7 +18,7 @@ resource errors and warnings
 
 ## Constructors
 
-### new OnPageResourceIssueInfo(data)
+### new OnPageResourceIssueInfo()
 
 > **new OnPageResourceIssueInfo**(`data`?): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
@@ -30,15 +30,15 @@ resource errors and warnings
 
 [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:156233
+main.ts:158061
 
 ## Properties
 
 ### errors?
 
-> **`optional`** **errors**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
+> `optional` **errors**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
 
 resource errors
 
@@ -46,15 +46,15 @@ resource errors
 
 [`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md).[`errors`](../interfaces/IOnPageResourceIssueInfo.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:156227
+main.ts:158055
 
 ***
 
 ### warnings?
 
-> **`optional`** **warnings**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
+> `optional` **warnings**: [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)[]
 
 resource warnings
 
@@ -62,9 +62,9 @@ resource warnings
 
 [`IOnPageResourceIssueInfo`](../interfaces/IOnPageResourceIssueInfo.md).[`warnings`](../interfaces/IOnPageResourceIssueInfo.md#warnings)
 
-#### Source
+#### Defined in
 
-main.ts:156229
+main.ts:158057
 
 ## Methods
 
@@ -80,9 +80,9 @@ main.ts:156229
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:156242
+main.ts:158070
 
 ***
 
@@ -98,15 +98,15 @@ main.ts:156242
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:156268
+main.ts:158096
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> `static` **fromJS**(`data`): [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
 #### Parameters
 
@@ -116,6 +116,6 @@ main.ts:156268
 
 [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:156261
+main.ts:158089

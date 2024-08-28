@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 keyword search depth
 optional field
@@ -28,45 +28,45 @@ estimated number of keywords for each level (maximum):
 3 – 258 keywords
 4 – 1554 keywords
 
-#### Source
+#### Defined in
 
-main.ts:104848
+main.ts:105478
 
 ***
 
 ### ignore\_synonyms?
 
-> **`optional`** **ignore\_synonyms**: `boolean`
+> `optional` **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:104858
+main.ts:105488
 
 ***
 
 ### include\_seed\_keyword?
 
-> **`optional`** **include\_seed\_keyword**: `boolean`
+> `optional` **include\_seed\_keyword**: `boolean`
 
 include data for the seed keyword
 optional field
 if set to true, data for the seed keyword specified in the keyword field will be provided in the seed_keyword_data array of the response
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:104853
+main.ts:105483
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -74,15 +74,15 @@ UTF-8 encoding
 a keyword should be at least 3 characters long;
 the keywords should be specified in the lowercase format
 
-#### Source
+#### Defined in
 
-main.ts:104804
+main.ts:105434
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -91,15 +91,15 @@ you can receive the list of available locations with their language_code by maki
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:104836
+main.ts:105466
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -108,30 +108,30 @@ you can receive the list of available locations with their language_name by maki
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:104829
+main.ts:105459
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:104863
+main.ts:105493
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -142,15 +142,15 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:104822
+main.ts:105452
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -161,30 +161,30 @@ Note: this endpoint currently supports the US, Egypt, Saudi Arabia, and the Unit
 example:
 United States
 
-#### Source
+#### Defined in
 
-main.ts:104813
+main.ts:105443
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Source
+#### Defined in
 
-main.ts:104868
+main.ts:105498
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -192,6 +192,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:104874
+main.ts:105504

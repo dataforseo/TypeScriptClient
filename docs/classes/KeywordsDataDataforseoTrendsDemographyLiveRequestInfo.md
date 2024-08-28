@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo(data)
+### new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo()
 
 > **new KeywordsDataDataforseoTrendsDemographyLiveRequestInfo**(`data`?): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130018
+main.ts:129842
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -51,15 +51,15 @@ example:
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:129995
+main.ts:129819
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -72,15 +72,15 @@ example:
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:130002
+main.ts:129826
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -92,15 +92,15 @@ specifying non-Latin characters, you’ll get data for the countries where they 
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:129966
+main.ts:129790
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 optional field
@@ -115,15 +115,15 @@ example:
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:129984
+main.ts:129808
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -138,15 +138,15 @@ United Kingdom
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:129975
+main.ts:129799
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -158,15 +158,15 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:130014
+main.ts:129838
 
 ***
 
 ### time\_range?
 
-> **`optional`** **time\_range**: `string`
+> `optional` **time\_range**: `string`
 
 preset time ranges
 optional field
@@ -178,15 +178,15 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`time_range`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#time_range)
 
-#### Source
+#### Defined in
 
-main.ts:130008
+main.ts:129832
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -194,9 +194,9 @@ type of element
 
 [`IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md).[`type`](../interfaces/IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:129986
+main.ts:129810
 
 ## Methods
 
@@ -212,9 +212,9 @@ main.ts:129986
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:130027
+main.ts:129851
 
 ***
 
@@ -230,15 +230,15 @@ main.ts:130027
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:130055
+main.ts:129879
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
 #### Parameters
 
@@ -248,6 +248,6 @@ main.ts:130055
 
 [`KeywordsDataDataforseoTrendsDemographyLiveRequestInfo`](KeywordsDataDataforseoTrendsDemographyLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130048
+main.ts:129872

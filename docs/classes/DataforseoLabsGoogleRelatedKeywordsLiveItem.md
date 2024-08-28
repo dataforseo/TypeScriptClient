@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleRelatedKeywordsLiveItem(data)
+### new DataforseoLabsGoogleRelatedKeywordsLiveItem()
 
 > **new DataforseoLabsGoogleRelatedKeywordsLiveItem**(`data`?): [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:84960
+main.ts:85524
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 keyword search depth
 
@@ -44,15 +44,15 @@ keyword search depth
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[`depth`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:84953
+main.ts:85517
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -60,15 +60,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:84951
+main.ts:85515
 
 ***
 
 ### related\_keywords?
 
-> **`optional`** **related\_keywords**: `string`[]
+> `optional` **related\_keywords**: `string`[]
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
@@ -77,15 +77,15 @@ represents the list of search queries which are related to the keyword returned 
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[`related_keywords`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#related_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:84956
+main.ts:85520
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -93,9 +93,9 @@ search engine type
 
 [`IDataforseoLabsGoogleRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleRelatedKeywordsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:84949
+main.ts:85513
 
 ## Methods
 
@@ -111,9 +111,9 @@ main.ts:84949
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:84969
+main.ts:85533
 
 ***
 
@@ -129,15 +129,15 @@ main.ts:84969
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:84993
+main.ts:85557
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
 
 #### Parameters
 
@@ -147,6 +147,6 @@ main.ts:84993
 
 [`DataforseoLabsGoogleRelatedKeywordsLiveItem`](DataforseoLabsGoogleRelatedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:84986
+main.ts:85550

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AbsoluteItems(data)
+### new AbsoluteItems()
 
 > **new AbsoluteItems**(`data`?): [`AbsoluteItems`](AbsoluteItems.md)
 
@@ -28,15 +28,15 @@
 
 [`AbsoluteItems`](AbsoluteItems.md)
 
-#### Source
+#### Defined in
 
-main.ts:129499
+main.ts:129323
 
 ## Properties
 
 ### geo\_id?
 
-> **`optional`** **geo\_id**: `string`
+> `optional` **geo\_id**: `string`
 
 location identifier
 you can use this field for matching obtained results with location parameters specified in the request
@@ -48,15 +48,15 @@ US-NY
 
 [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md).[`geo_id`](../interfaces/IAbsoluteItems.md#geo_id)
 
-#### Source
+#### Defined in
 
-main.ts:129480
+main.ts:129304
 
 ***
 
 ### geo\_name?
 
-> **`optional`** **geo\_name**: `string`
+> `optional` **geo\_name**: `string`
 
 location name
 you can use this field for matching obtained results with location parameters specified in the request
@@ -68,15 +68,15 @@ Andorra
 
 [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md).[`geo_name`](../interfaces/IAbsoluteItems.md#geo_name)
 
-#### Source
+#### Defined in
 
-main.ts:129486
+main.ts:129310
 
 ***
 
 ### values?
 
-> **`optional`** **values**: `number`[]
+> `optional` **values**: `number`[]
 
 keyword popularity rates within a given location
 represents location-specific keyword popularity rate over the specified time range;
@@ -91,9 +91,9 @@ a value of 0 means there was not enough data for this term
 
 [`IAbsoluteItems`](../interfaces/IAbsoluteItems.md).[`values`](../interfaces/IAbsoluteItems.md#values)
 
-#### Source
+#### Defined in
 
-main.ts:129495
+main.ts:129319
 
 ## Methods
 
@@ -109,9 +109,9 @@ main.ts:129495
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:129508
+main.ts:129332
 
 ***
 
@@ -127,15 +127,15 @@ main.ts:129508
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:129531
+main.ts:129355
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AbsoluteItems`](AbsoluteItems.md)
+> `static` **fromJS**(`data`): [`AbsoluteItems`](AbsoluteItems.md)
 
 #### Parameters
 
@@ -145,6 +145,6 @@ main.ts:129531
 
 [`AbsoluteItems`](AbsoluteItems.md)
 
-#### Source
+#### Defined in
 
-main.ts:129524
+main.ts:129348

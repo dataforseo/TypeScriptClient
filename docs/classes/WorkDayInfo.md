@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new WorkDayInfo(data)
+### new WorkDayInfo()
 
 > **new WorkDayInfo**(`data`?): [`WorkDayInfo`](WorkDayInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`WorkDayInfo`](WorkDayInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21601
+main.ts:21783
 
 ## Properties
 
 ### close?
 
-> **`optional`** **close**: [`WorkTimeInfo`](WorkTimeInfo.md)
+> `optional` **close**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
 closing time
 
@@ -44,15 +44,15 @@ closing time
 
 [`IWorkDayInfo`](../interfaces/IWorkDayInfo.md).[`close`](../interfaces/IWorkDayInfo.md#close)
 
-#### Source
+#### Defined in
 
-main.ts:21597
+main.ts:21779
 
 ***
 
 ### open?
 
-> **`optional`** **open**: [`WorkTimeInfo`](WorkTimeInfo.md)
+> `optional` **open**: [`WorkTimeInfo`](WorkTimeInfo.md)
 
 opening time
 
@@ -60,9 +60,9 @@ opening time
 
 [`IWorkDayInfo`](../interfaces/IWorkDayInfo.md).[`open`](../interfaces/IWorkDayInfo.md#open)
 
-#### Source
+#### Defined in
 
-main.ts:21595
+main.ts:21777
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:21595
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21610
+main.ts:21792
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:21610
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21628
+main.ts:21810
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`WorkDayInfo`](WorkDayInfo.md)
+> `static` **fromJS**(`data`): [`WorkDayInfo`](WorkDayInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:21628
 
 [`WorkDayInfo`](WorkDayInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:21621
+main.ts:21803

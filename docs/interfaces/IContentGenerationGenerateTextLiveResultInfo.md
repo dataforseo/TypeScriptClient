@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,60 +14,60 @@
 
 ### generated\_text?
 
-> **`optional`** **generated\_text**: `string`
+> `optional` **generated\_text**: `string`
 
 resulting text
 
-#### Source
+#### Defined in
 
-main.ts:172355
+main.ts:174187
 
 ***
 
 ### input\_tokens?
 
-> **`optional`** **input\_tokens**: `number`
+> `optional` **input\_tokens**: `number`
 
 number of input tokens
 
-#### Source
+#### Defined in
 
-main.ts:172349
+main.ts:174181
 
 ***
 
 ### new\_tokens?
 
-> **`optional`** **new\_tokens**: `number`
+> `optional` **new\_tokens**: `number`
 
 number of new tokens
 
-#### Source
+#### Defined in
 
-main.ts:172353
+main.ts:174185
 
 ***
 
 ### output\_tokens?
 
-> **`optional`** **output\_tokens**: `number`
+> `optional` **output\_tokens**: `number`
 
 number of output tokens
 
-#### Source
+#### Defined in
 
-main.ts:172351
+main.ts:174183
 
 ***
 
 ### supplement\_token?
 
-> **`optional`** **supplement\_token**: `string`
+> `optional` **supplement\_token**: `string`
 
 token for generating subsequent results
 you can use this parameter to continue the generation from the end of the current result;
 supplement_token values are unique for each subsequent task
 
-#### Source
+#### Defined in
 
-main.ts:172359
+main.ts:174191

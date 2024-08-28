@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new GoogleJobsItemSerpElementItem(data)
+### new GoogleJobsItemSerpElementItem()
 
 > **new GoogleJobsItemSerpElementItem**(`data`?): [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:51832
+main.ts:52364
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### contract\_type?
 
-> **`optional`** **contract\_type**: `string`
+> `optional` **contract\_type**: `string`
 
 employment contract type
 
@@ -66,15 +66,15 @@ employment contract type
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`contract_type`](../interfaces/IGoogleJobsItemSerpElementItem.md#contract_type)
 
-#### Source
+#### Defined in
 
-main.ts:51817
+main.ts:52349
 
 ***
 
 ### employer\_image\_url?
 
-> **`optional`** **employer\_image\_url**: `string`
+> `optional` **employer\_image\_url**: `string`
 
 URL to the image used in the job posting
 
@@ -82,15 +82,15 @@ URL to the image used in the job posting
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`employer_image_url`](../interfaces/IGoogleJobsItemSerpElementItem.md#employer_image_url)
 
-#### Source
+#### Defined in
 
-main.ts:51806
+main.ts:52338
 
 ***
 
 ### employer\_name?
 
-> **`optional`** **employer\_name**: `string`
+> `optional` **employer\_name**: `string`
 
 name of the employer
 
@@ -98,15 +98,15 @@ name of the employer
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`employer_name`](../interfaces/IGoogleJobsItemSerpElementItem.md#employer_name)
 
-#### Source
+#### Defined in
 
-main.ts:51802
+main.ts:52334
 
 ***
 
 ### employer\_url?
 
-> **`optional`** **employer\_url**: `string`
+> `optional` **employer\_url**: `string`
 
 URL to the employer’s website
 
@@ -114,15 +114,15 @@ URL to the employer’s website
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`employer_url`](../interfaces/IGoogleJobsItemSerpElementItem.md#employer_url)
 
-#### Source
+#### Defined in
 
-main.ts:51804
+main.ts:52336
 
 ***
 
 ### job\_id?
 
-> **`optional`** **job\_id**: `string`
+> `optional` **job\_id**: `string`
 
 ID of the job on Google Jobs
 
@@ -130,15 +130,15 @@ ID of the job on Google Jobs
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`job_id`](../interfaces/IGoogleJobsItemSerpElementItem.md#job_id)
 
-#### Source
+#### Defined in
 
-main.ts:51798
+main.ts:52330
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `string`
+> `optional` **location**: `string`
 
 location for which the job vacancy is posted
 
@@ -146,15 +146,15 @@ location for which the job vacancy is posted
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`location`](../interfaces/IGoogleJobsItemSerpElementItem.md#location)
 
-#### Source
+#### Defined in
 
-main.ts:51808
+main.ts:52340
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -164,15 +164,15 @@ left, right
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`position`](../interfaces/IGoogleJobsItemSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:51794
+main.ts:52326
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -181,15 +181,15 @@ absolute position among all the elements in SERP
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleJobsItemSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:51790
+main.ts:52322
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -199,15 +199,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`rank_group`](../interfaces/IGoogleJobsItemSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:51787
+main.ts:52319
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
@@ -217,15 +217,15 @@ in this case, will equal null
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`rectangle`](../interfaces/IGoogleJobsItemSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:51828
+main.ts:52360
 
 ***
 
 ### salary?
 
-> **`optional`** **salary**: `string`
+> `optional` **salary**: `string`
 
 the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null
@@ -234,15 +234,15 @@ if the salary isn’t indicated, this field will equal null
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`salary`](../interfaces/IGoogleJobsItemSerpElementItem.md#salary)
 
-#### Source
+#### Defined in
 
-main.ts:51815
+main.ts:52347
 
 ***
 
 ### source\_name?
 
-> **`optional`** **source\_name**: `string`
+> `optional` **source\_name**: `string`
 
 original source of the job vacancy
 
@@ -250,15 +250,15 @@ original source of the job vacancy
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`source_name`](../interfaces/IGoogleJobsItemSerpElementItem.md#source_name)
 
-#### Source
+#### Defined in
 
-main.ts:51810
+main.ts:52342
 
 ***
 
 ### source\_url?
 
-> **`optional`** **source\_url**: `string`
+> `optional` **source\_url**: `string`
 
 URL to the original source of the job vacancy
 
@@ -266,15 +266,15 @@ URL to the original source of the job vacancy
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`source_url`](../interfaces/IGoogleJobsItemSerpElementItem.md#source_url)
 
-#### Source
+#### Defined in
 
-main.ts:51812
+main.ts:52344
 
 ***
 
 ### time\_ago?
 
-> **`optional`** **time\_ago**: `string`
+> `optional` **time\_ago**: `string`
 
 indicates how long ago the job vacancy was posted
 
@@ -282,15 +282,15 @@ indicates how long ago the job vacancy was posted
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`time_ago`](../interfaces/IGoogleJobsItemSerpElementItem.md#time_ago)
 
-#### Source
+#### Defined in
 
-main.ts:51824
+main.ts:52356
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -301,15 +301,15 @@ example:
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`timestamp`](../interfaces/IGoogleJobsItemSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:51822
+main.ts:52354
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the job
 
@@ -317,15 +317,15 @@ title of the job
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`title`](../interfaces/IGoogleJobsItemSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:51800
+main.ts:52332
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -333,9 +333,9 @@ the XPath of the element
 
 [`IGoogleJobsItemSerpElementItem`](../interfaces/IGoogleJobsItemSerpElementItem.md).[`xpath`](../interfaces/IGoogleJobsItemSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:51796
+main.ts:52328
 
 ## Methods
 
@@ -355,9 +355,9 @@ main.ts:51796
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:51837
+main.ts:52369
 
 ***
 
@@ -377,15 +377,15 @@ main.ts:51837
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:51871
+main.ts:52403
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
+> `static` **fromJS**(`data`): [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
 
 #### Parameters
 
@@ -399,6 +399,6 @@ main.ts:51871
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:51864
+main.ts:52396

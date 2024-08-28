@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### is\_header?
 
-> **`optional`** **is\_header**: `boolean`
+> `optional` **is\_header**: `boolean`
 
 indicates if the text belongs to the header
 
-#### Source
+#### Defined in
 
-main.ts:163729
+main.ts:165561
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 content text
 
-#### Source
+#### Defined in
 
-main.ts:163725
+main.ts:165557
 
 ***
 
 ### urls?
 
-> **`optional`** **urls**: [`ContentUrlInfo`](../classes/ContentUrlInfo.md)[]
+> `optional` **urls**: [`ContentUrlInfo`](../classes/ContentUrlInfo.md)[]
 
 contains other URLs and anchors found in the content element
 
-#### Source
+#### Defined in
 
-main.ts:163727
+main.ts:165559

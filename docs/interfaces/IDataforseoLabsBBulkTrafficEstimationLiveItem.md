@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 traffic data relevant to the specified domain
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`BulkMetricsInfo`](../classes/BulkMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:103344
+main.ts:103962
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:103340
+main.ts:103958
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:103342
+main.ts:103960

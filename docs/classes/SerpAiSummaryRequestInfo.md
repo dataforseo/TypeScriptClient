@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpAiSummaryRequestInfo(data)
+### new SerpAiSummaryRequestInfo()
 
 > **new SerpAiSummaryRequestInfo**(`data`?): [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24896
+main.ts:25078
 
 ## Properties
 
 ### fetch\_content?
 
-> **`optional`** **fetch\_content**: `boolean`
+> `optional` **fetch\_content**: `boolean`
 
 fetch content from pages in SERPs
 optional field
@@ -47,15 +47,15 @@ default value: false
 
 [`ISerpAiSummaryRequestInfo`](../interfaces/ISerpAiSummaryRequestInfo.md).[`fetch_content`](../interfaces/ISerpAiSummaryRequestInfo.md#fetch_content)
 
-#### Source
+#### Defined in
 
-main.ts:24887
+main.ts:25069
 
 ***
 
 ### include\_links?
 
-> **`optional`** **include\_links**: `boolean`
+> `optional` **include\_links**: `boolean`
 
 include source links in the summary
 optional field
@@ -66,15 +66,15 @@ default value: false
 
 [`ISerpAiSummaryRequestInfo`](../interfaces/ISerpAiSummaryRequestInfo.md).[`include_links`](../interfaces/ISerpAiSummaryRequestInfo.md#include_links)
 
-#### Source
+#### Defined in
 
-main.ts:24892
+main.ts:25074
 
 ***
 
 ### prompt?
 
-> **`optional`** **prompt**: `string`
+> `optional` **prompt**: `string`
 
 AI prompt
 optional field
@@ -87,15 +87,15 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 [`ISerpAiSummaryRequestInfo`](../interfaces/ISerpAiSummaryRequestInfo.md).[`prompt`](../interfaces/ISerpAiSummaryRequestInfo.md#prompt)
 
-#### Source
+#### Defined in
 
-main.ts:24877
+main.ts:25059
 
 ***
 
 ### support\_extra?
 
-> **`optional`** **support\_extra**: `boolean`
+> `optional` **support\_extra**: `boolean`
 
 support extra SERP features
 optional field
@@ -106,15 +106,15 @@ default value: true
 
 [`ISerpAiSummaryRequestInfo`](../interfaces/ISerpAiSummaryRequestInfo.md).[`support_extra`](../interfaces/ISerpAiSummaryRequestInfo.md#support_extra)
 
-#### Source
+#### Defined in
 
-main.ts:24882
+main.ts:25064
 
 ***
 
 ### task\_id?
 
-> **`optional`** **task\_id**: `string`
+> `optional` **task\_id**: `string`
 
 task identifier
 required field
@@ -125,9 +125,9 @@ you will be able to use it within 30 days to request the results of the task at 
 
 [`ISerpAiSummaryRequestInfo`](../interfaces/ISerpAiSummaryRequestInfo.md).[`task_id`](../interfaces/ISerpAiSummaryRequestInfo.md#task_id)
 
-#### Source
+#### Defined in
 
-main.ts:24870
+main.ts:25052
 
 ## Methods
 
@@ -143,9 +143,9 @@ main.ts:24870
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:24905
+main.ts:25087
 
 ***
 
@@ -161,15 +161,15 @@ main.ts:24905
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:24926
+main.ts:25108
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
 
 #### Parameters
 
@@ -179,6 +179,6 @@ main.ts:24926
 
 [`SerpAiSummaryRequestInfo`](SerpAiSummaryRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:24919
+main.ts:25101

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,23 +18,23 @@
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 domain of the reservation software
 
-#### Source
+#### Defined in
 
-main.ts:23454
+main.ts:23636
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to make a reservation
 
-#### Source
+#### Defined in
 
-main.ts:23456
+main.ts:23638

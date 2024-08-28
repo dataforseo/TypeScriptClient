@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingKeywordsForSiteLiveRequestInfo(data)
+### new KeywordsDataBingKeywordsForSiteLiveRequestInfo()
 
 > **new KeywordsDataBingKeywordsForSiteLiveRequestInfo**(`data`?): [`KeywordsDataBingKeywordsForSiteLiveRequestInfo`](KeywordsDataBingKeywordsForSiteLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingKeywordsForSiteLiveRequestInfo`](KeywordsDataBingKeywordsForSiteLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:133764
+main.ts:133590
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -50,15 +50,15 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:133733
+main.ts:133559
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -75,15 +75,15 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:133744
+main.ts:133570
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -94,15 +94,15 @@ default value: all
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:133725
+main.ts:133551
 
 ***
 
 ### keywords\_negative?
 
-> **`optional`** **keywords\_negative**: `string`[]
+> `optional` **keywords\_negative**: `string`[]
 
 keywords negative array
 optional field
@@ -114,15 +114,15 @@ the specified keywords will be converted to lowercase format
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`keywords_negative`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#keywords_negative)
 
-#### Source
+#### Defined in
 
-main.ts:133720
+main.ts:133546
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -134,15 +134,15 @@ en, fr, de
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:133714
+main.ts:133540
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -154,15 +154,15 @@ English, French, German
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:133708
+main.ts:133534
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -175,15 +175,15 @@ example:
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:133694
+main.ts:133520
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -197,15 +197,15 @@ example:
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:133702
+main.ts:133528
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -218,15 +218,15 @@ London,England,United Kingdom
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:133687
+main.ts:133513
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 Bing search partners type
 optional field
@@ -237,15 +237,15 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`search_partners`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#search_partners)
 
-#### Source
+#### Defined in
 
-main.ts:133754
+main.ts:133580
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -256,15 +256,15 @@ default value: relevance
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`sort_by`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:133749
+main.ts:133575
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -276,15 +276,15 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:133760
+main.ts:133586
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain or URL
 required field
@@ -294,9 +294,9 @@ the domain name or URL of the target website
 
 [`IKeywordsDataBingKeywordsForSiteLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md).[`target`](../interfaces/IKeywordsDataBingKeywordsForSiteLiveRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:133680
+main.ts:133506
 
 ## Methods
 
@@ -312,9 +312,9 @@ main.ts:133680
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:133773
+main.ts:133599
 
 ***
 
@@ -330,15 +330,15 @@ main.ts:133773
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:133806
+main.ts:133632
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteLiveRequestInfo`](KeywordsDataBingKeywordsForSiteLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForSiteLiveRequestInfo`](KeywordsDataBingKeywordsForSiteLiveRequestInfo.md)
 
 #### Parameters
 
@@ -348,6 +348,6 @@ main.ts:133806
 
 [`KeywordsDataBingKeywordsForSiteLiveRequestInfo`](KeywordsDataBingKeywordsForSiteLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:133799
+main.ts:133625

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### categories?
 
-> **`optional`** **categories**: `number`[]
+> `optional` **categories**: `number`[]
 
 product and service categories
 you can download the full list of possible categories
 
-#### Source
+#### Defined in
 
-main.ts:89010
+main.ts:89574
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:89007
+main.ts:89571

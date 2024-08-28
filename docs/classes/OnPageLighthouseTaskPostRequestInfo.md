@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageLighthouseTaskPostRequestInfo(data)
+### new OnPageLighthouseTaskPostRequestInfo()
 
 > **new OnPageLighthouseTaskPostRequestInfo**(`data`?): [`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:166048
+main.ts:167880
 
 ## Properties
 
 ### audits?
 
-> **`optional`** **audits**: `string`[]
+> `optional` **audits**: `string`[]
 
 Lighthouse audits
 optional field
@@ -55,15 +55,15 @@ you can get the full list of possible audits here
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`audits`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#audits)
 
-#### Source
+#### Defined in
 
-main.ts:166001
+main.ts:167833
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 categories of Lighthouse audits
 optional field
@@ -77,15 +77,15 @@ seo, pwa, performance, best_practices, accessibility
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`categories`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:165988
+main.ts:167820
 
 ***
 
 ### for\_mobile?
 
-> **`optional`** **for\_mobile**: `boolean`
+> `optional` **for\_mobile**: `boolean`
 
 applies mobile emulation
 optional field
@@ -97,15 +97,15 @@ default value: false
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`for_mobile`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#for_mobile)
 
-#### Source
+#### Defined in
 
-main.ts:165980
+main.ts:167812
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 lighthouse language code
 optional field
@@ -117,15 +117,15 @@ en
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`language_code`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:166018
+main.ts:167850
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 lighthouse language name
 optional field
@@ -137,15 +137,15 @@ English
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`language_name`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:166012
+main.ts:167844
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -161,15 +161,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:166034
+main.ts:167866
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -185,15 +185,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`postback_url`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:166044
+main.ts:167876
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -205,15 +205,15 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`tag`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:166024
+main.ts:167856
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 target URL
 required field
@@ -225,15 +225,15 @@ https://dataforseo.com/
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`url`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:165974
+main.ts:167806
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 lighthouse version
 optional field
@@ -244,9 +244,9 @@ the list of available versions is available through the Lighthouse Versions endp
 
 [`IOnPageLighthouseTaskPostRequestInfo`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md).[`version`](../interfaces/IOnPageLighthouseTaskPostRequestInfo.md#version)
 
-#### Source
+#### Defined in
 
-main.ts:166006
+main.ts:167838
 
 ## Methods
 
@@ -262,9 +262,9 @@ main.ts:166006
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:166057
+main.ts:167889
 
 ***
 
@@ -280,15 +280,15 @@ main.ts:166057
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:166091
+main.ts:167923
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -298,6 +298,6 @@ main.ts:166091
 
 [`OnPageLighthouseTaskPostRequestInfo`](OnPageLighthouseTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:166084
+main.ts:167916

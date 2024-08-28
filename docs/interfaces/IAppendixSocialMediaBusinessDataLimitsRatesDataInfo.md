@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,28 +14,28 @@
 
 ### facebook?
 
-> **`optional`** **facebook**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **facebook**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219841
+main.ts:221749
 
 ***
 
 ### pinterest?
 
-> **`optional`** **pinterest**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **pinterest**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219842
+main.ts:221750
 
 ***
 
 ### reddit?
 
-> **`optional`** **reddit**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **reddit**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219843
+main.ts:221751

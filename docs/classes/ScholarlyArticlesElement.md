@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ScholarlyArticlesElement(data)
+### new ScholarlyArticlesElement()
 
 > **new ScholarlyArticlesElement**(`data`?): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33441
+main.ts:33637
 
 ## Properties
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 author
 
@@ -44,15 +44,15 @@ author
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`author`](../interfaces/IScholarlyArticlesElement.md#author)
 
-#### Source
+#### Defined in
 
-main.ts:33435
+main.ts:33631
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -60,15 +60,15 @@ description
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`description`](../interfaces/IScholarlyArticlesElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:33437
+main.ts:33633
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -76,15 +76,15 @@ title of a given link element
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`title`](../interfaces/IScholarlyArticlesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:33431
+main.ts:33627
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -92,15 +92,15 @@ type of element
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`type`](../interfaces/IScholarlyArticlesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:33429
+main.ts:33625
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -108,9 +108,9 @@ URL
 
 [`IScholarlyArticlesElement`](../interfaces/IScholarlyArticlesElement.md).[`url`](../interfaces/IScholarlyArticlesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:33433
+main.ts:33629
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:33433
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:33450
+main.ts:33646
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:33450
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:33471
+main.ts:33667
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
+> `static` **fromJS**(`data`): [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:33471
 
 [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33464
+main.ts:33660

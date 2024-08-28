@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkSpamScoreLiveRequestInfo(data)
+### new BacklinksBulkSpamScoreLiveRequestInfo()
 
 > **new BacklinksBulkSpamScoreLiveRequestInfo**(`data`?): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150975
+main.ts:152801
 
 ## Properties
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -48,15 +48,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:150971
+main.ts:152797
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 domains, subdomains or webpages to get rank for
 required field
@@ -81,9 +81,9 @@ example:
 
 [`IBacklinksBulkSpamScoreLiveRequestInfo`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkSpamScoreLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:150965
+main.ts:152791
 
 ## Methods
 
@@ -99,9 +99,9 @@ main.ts:150965
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:150984
+main.ts:152810
 
 ***
 
@@ -117,15 +117,15 @@ main.ts:150984
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:151006
+main.ts:152832
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
 #### Parameters
 
@@ -135,6 +135,6 @@ main.ts:151006
 
 [`BacklinksBulkSpamScoreLiveRequestInfo`](BacklinksBulkSpamScoreLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150999
+main.ts:152825

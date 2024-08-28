@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,76 +14,76 @@
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency of the listed price
 ISO code of the currency applied to the price
 
-#### Source
+#### Defined in
 
-main.ts:22601
+main.ts:22783
 
 ***
 
 ### current?
 
-> **`optional`** **current**: `number`
+> `optional` **current**: `number`
 
 current price
 indicates the current price of the product or service featured in the result
 
-#### Source
+#### Defined in
 
-main.ts:22592
+main.ts:22774
 
 ***
 
 ### displayed\_price?
 
-> **`optional`** **displayed\_price**: `string`
+> `optional` **displayed\_price**: `string`
 
 price string in the result
 raw price string as provided in the result
 
-#### Source
+#### Defined in
 
-main.ts:22607
+main.ts:22789
 
 ***
 
 ### is\_price\_range?
 
-> **`optional`** **is\_price\_range**: `boolean`
+> `optional` **is\_price\_range**: `boolean`
 
 price is provided as a range
 indicates whether a price is provided in a range
 
-#### Source
+#### Defined in
 
-main.ts:22604
+main.ts:22786
 
 ***
 
 ### max\_value?
 
-> **`optional`** **max\_value**: `number`
+> `optional` **max\_value**: `number`
 
 the maximum price
 the maximum price of the product or service as indicated in the result
 
-#### Source
+#### Defined in
 
-main.ts:22598
+main.ts:22780
 
 ***
 
 ### regular?
 
-> **`optional`** **regular**: `number`
+> `optional` **regular**: `number`
 
 regular price
 indicates the regular price of the product or service with no discounts applied
 
-#### Source
+#### Defined in
 
-main.ts:22595
+main.ts:22777

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkReferringDomainsLiveResultInfo(data)
+### new BacklinksBulkReferringDomainsLiveResultInfo()
 
 > **new BacklinksBulkReferringDomainsLiveResultInfo**(`data`?): [`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:151482
+main.ts:153308
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)[]
+> `optional` **items**: [`BacklinksBulkReferringDomainsLiveItem`](BacklinksBulkReferringDomainsLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
@@ -44,15 +44,15 @@ contains relevant backlinks and referring domains data
 
 [`IBacklinksBulkReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkReferringDomainsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:151478
+main.ts:153304
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,9 +60,9 @@ the number of results returned in the items array
 
 [`IBacklinksBulkReferringDomainsLiveResultInfo`](../interfaces/IBacklinksBulkReferringDomainsLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkReferringDomainsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:151476
+main.ts:153302
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:151476
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:151491
+main.ts:153317
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:151491
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:151513
+main.ts:153339
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:151513
 
 [`BacklinksBulkReferringDomainsLiveResultInfo`](BacklinksBulkReferringDomainsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:151506
+main.ts:153332

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,36 +14,36 @@
 
 ### primary\_content?
 
-> **`optional`** **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
+> `optional` **primary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
 primary content on the page
 you can find more information about content priority calculation in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:163654
+main.ts:165486
 
 ***
 
 ### secondary\_content?
 
-> **`optional`** **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
+> `optional` **secondary\_content**: [`ContentItemInfo`](../classes/ContentItemInfo.md)[]
 
 secondary content on the page
 you can find more information about content priority calculation in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:163657
+main.ts:165489
 
 ***
 
 ### table\_content?
 
-> **`optional`** **table\_content**: [`TableContent`](../classes/TableContent.md)[]
+> `optional` **table\_content**: [`TableContent`](../classes/TableContent.md)[]
 
 content of the table on the page
 
-#### Source
+#### Defined in
 
-main.ts:163659
+main.ts:165491

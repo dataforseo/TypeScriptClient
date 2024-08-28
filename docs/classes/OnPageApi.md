@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -8,7 +8,7 @@
 
 ## Constructors
 
-### new OnPageApi(baseUrl, http)
+### new OnPageApi()
 
 > **new OnPageApi**(`baseUrl`?, `http`?): [`OnPageApi`](OnPageApi.md)
 
@@ -18,53 +18,21 @@
 
 • **http?**
 
-• **http\.fetch?**
+• **http.fetch?**
 
 #### Returns
 
 [`OnPageApi`](OnPageApi.md)
 
-#### Source
+#### Defined in
 
-main.ts:12347
+main.ts:12517
 
 ## Properties
 
-### baseUrl
+### jsonParseReviver()
 
-> **`private`** **baseUrl**: `string`
-
-#### Source
-
-main.ts:12344
-
-***
-
-### http
-
-> **`private`** **http**: `Object`
-
-#### http.fetch()
-
-##### Parameters
-
-• **url**: `RequestInfo`
-
-• **init?**: `RequestInit`
-
-##### Returns
-
-`Promise`\<`Response`\>
-
-#### Source
-
-main.ts:12343
-
-***
-
-### jsonParseReviver
-
-> **`protected`** **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
+> `protected` **jsonParseReviver**: (`key`, `value`) => `any` = `undefined`
 
 #### Parameters
 
@@ -76,9 +44,9 @@ main.ts:12343
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:12345
+main.ts:12515
 
 ## Methods
 
@@ -98,9 +66,9 @@ main.ts:12345
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13189
+main.ts:13359
 
 ***
 
@@ -120,9 +88,9 @@ main.ts:13189
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13231
+main.ts:13401
 
 ***
 
@@ -142,9 +110,9 @@ main.ts:13231
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12811
+main.ts:12981
 
 ***
 
@@ -164,9 +132,9 @@ main.ts:12811
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12769
+main.ts:12939
 
 ***
 
@@ -186,9 +154,9 @@ main.ts:12769
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12440
+main.ts:12610
 
 ***
 
@@ -208,9 +176,9 @@ main.ts:12440
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13273
+main.ts:13443
 
 ***
 
@@ -230,9 +198,9 @@ main.ts:13273
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13021
+main.ts:13191
 
 ***
 
@@ -246,9 +214,9 @@ main.ts:13021
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13351
+main.ts:13521
 
 ***
 
@@ -268,9 +236,9 @@ main.ts:13351
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13550
+main.ts:13720
 
 ***
 
@@ -294,9 +262,9 @@ example:
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13509
+main.ts:13679
 
 ***
 
@@ -316,9 +284,9 @@ main.ts:13509
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13426
+main.ts:13596
 
 ***
 
@@ -332,9 +300,9 @@ main.ts:13426
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13467
+main.ts:13637
 
 ***
 
@@ -348,9 +316,9 @@ main.ts:13467
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13388
+main.ts:13558
 
 ***
 
@@ -370,9 +338,9 @@ main.ts:13388
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12853
+main.ts:13023
 
 ***
 
@@ -392,9 +360,9 @@ main.ts:12853
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13063
+main.ts:13233
 
 ***
 
@@ -414,9 +382,9 @@ main.ts:13063
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12937
+main.ts:13107
 
 ***
 
@@ -430,9 +398,9 @@ main.ts:12937
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12481
+main.ts:12651
 
 ***
 
@@ -452,9 +420,9 @@ main.ts:12481
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12398
+main.ts:12568
 
 ***
 
@@ -474,9 +442,9 @@ main.ts:12398
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12356
+main.ts:12526
 
 ***
 
@@ -490,9 +458,9 @@ main.ts:12356
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13314
+main.ts:13484
 
 ***
 
@@ -506,9 +474,9 @@ main.ts:13314
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12560
+main.ts:12730
 
 ***
 
@@ -528,9 +496,9 @@ main.ts:12560
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13147
+main.ts:13317
 
 ***
 
@@ -550,9 +518,9 @@ main.ts:13147
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12643
+main.ts:12813
 
 ***
 
@@ -572,15 +540,15 @@ main.ts:12643
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12685
+main.ts:12855
 
 ***
 
 ### processContentParsing()
 
-> **`protected`** **processContentParsing**(`response`): `Promise`\<[`OnPageContentParsingResponseInfo`](OnPageContentParsingResponseInfo.md)\>
+> `protected` **processContentParsing**(`response`): `Promise`\<[`OnPageContentParsingResponseInfo`](OnPageContentParsingResponseInfo.md)\>
 
 #### Parameters
 
@@ -590,15 +558,15 @@ main.ts:12685
 
 `Promise`\<[`OnPageContentParsingResponseInfo`](OnPageContentParsingResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13209
+main.ts:13379
 
 ***
 
 ### processContentParsingLive()
 
-> **`protected`** **processContentParsingLive**(`response`): `Promise`\<[`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)\>
+> `protected` **processContentParsingLive**(`response`): `Promise`\<[`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)\>
 
 #### Parameters
 
@@ -608,15 +576,15 @@ main.ts:13209
 
 `Promise`\<[`OnPageContentParsingLiveResponseInfo`](OnPageContentParsingLiveResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13251
+main.ts:13421
 
 ***
 
 ### processDuplicateContent()
 
-> **`protected`** **processDuplicateContent**(`response`): `Promise`\<[`OnPageDuplicateContentResponseInfo`](OnPageDuplicateContentResponseInfo.md)\>
+> `protected` **processDuplicateContent**(`response`): `Promise`\<[`OnPageDuplicateContentResponseInfo`](OnPageDuplicateContentResponseInfo.md)\>
 
 #### Parameters
 
@@ -626,15 +594,15 @@ main.ts:13251
 
 `Promise`\<[`OnPageDuplicateContentResponseInfo`](OnPageDuplicateContentResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12831
+main.ts:13001
 
 ***
 
 ### processDuplicateTags()
 
-> **`protected`** **processDuplicateTags**(`response`): `Promise`\<[`OnPageDuplicateTagsResponseInfo`](OnPageDuplicateTagsResponseInfo.md)\>
+> `protected` **processDuplicateTags**(`response`): `Promise`\<[`OnPageDuplicateTagsResponseInfo`](OnPageDuplicateTagsResponseInfo.md)\>
 
 #### Parameters
 
@@ -644,15 +612,15 @@ main.ts:12831
 
 `Promise`\<[`OnPageDuplicateTagsResponseInfo`](OnPageDuplicateTagsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12789
+main.ts:12959
 
 ***
 
 ### processForceStop()
 
-> **`protected`** **processForceStop**(`response`): `Promise`\<[`OnPageForceStopResponseInfo`](OnPageForceStopResponseInfo.md)\>
+> `protected` **processForceStop**(`response`): `Promise`\<[`OnPageForceStopResponseInfo`](OnPageForceStopResponseInfo.md)\>
 
 #### Parameters
 
@@ -662,15 +630,15 @@ main.ts:12789
 
 `Promise`\<[`OnPageForceStopResponseInfo`](OnPageForceStopResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12460
+main.ts:12630
 
 ***
 
 ### processInstantPages()
 
-> **`protected`** **processInstantPages**(`response`): `Promise`\<[`OnPageInstantPagesResponseInfo`](OnPageInstantPagesResponseInfo.md)\>
+> `protected` **processInstantPages**(`response`): `Promise`\<[`OnPageInstantPagesResponseInfo`](OnPageInstantPagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -680,15 +648,15 @@ main.ts:12460
 
 `Promise`\<[`OnPageInstantPagesResponseInfo`](OnPageInstantPagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13293
+main.ts:13463
 
 ***
 
 ### processKeywordDensity()
 
-> **`protected`** **processKeywordDensity**(`response`): `Promise`\<[`OnPageKeywordDensityResponseInfo`](OnPageKeywordDensityResponseInfo.md)\>
+> `protected` **processKeywordDensity**(`response`): `Promise`\<[`OnPageKeywordDensityResponseInfo`](OnPageKeywordDensityResponseInfo.md)\>
 
 #### Parameters
 
@@ -698,15 +666,15 @@ main.ts:13293
 
 `Promise`\<[`OnPageKeywordDensityResponseInfo`](OnPageKeywordDensityResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13041
+main.ts:13211
 
 ***
 
 ### processLighthouseAudits()
 
-> **`protected`** **processLighthouseAudits**(`response`): `Promise`\<[`OnPageLighthouseAuditsResponseInfo`](OnPageLighthouseAuditsResponseInfo.md)\>
+> `protected` **processLighthouseAudits**(`response`): `Promise`\<[`OnPageLighthouseAuditsResponseInfo`](OnPageLighthouseAuditsResponseInfo.md)\>
 
 #### Parameters
 
@@ -716,15 +684,15 @@ main.ts:13041
 
 `Promise`\<[`OnPageLighthouseAuditsResponseInfo`](OnPageLighthouseAuditsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13367
+main.ts:13537
 
 ***
 
 ### processLighthouseLiveJson()
 
-> **`protected`** **processLighthouseLiveJson**(`response`): `Promise`\<[`OnPageLighthouseLiveJsonResponseInfo`](OnPageLighthouseLiveJsonResponseInfo.md)\>
+> `protected` **processLighthouseLiveJson**(`response`): `Promise`\<[`OnPageLighthouseLiveJsonResponseInfo`](OnPageLighthouseLiveJsonResponseInfo.md)\>
 
 #### Parameters
 
@@ -734,15 +702,15 @@ main.ts:13367
 
 `Promise`\<[`OnPageLighthouseLiveJsonResponseInfo`](OnPageLighthouseLiveJsonResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13570
+main.ts:13740
 
 ***
 
 ### processLighthouseTaskGetJson()
 
-> **`protected`** **processLighthouseTaskGetJson**(`response`): `Promise`\<[`OnPageLighthouseTaskGetJsonResponseInfo`](OnPageLighthouseTaskGetJsonResponseInfo.md)\>
+> `protected` **processLighthouseTaskGetJson**(`response`): `Promise`\<[`OnPageLighthouseTaskGetJsonResponseInfo`](OnPageLighthouseTaskGetJsonResponseInfo.md)\>
 
 #### Parameters
 
@@ -752,15 +720,15 @@ main.ts:13570
 
 `Promise`\<[`OnPageLighthouseTaskGetJsonResponseInfo`](OnPageLighthouseTaskGetJsonResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13528
+main.ts:13698
 
 ***
 
 ### processLighthouseTaskPost()
 
-> **`protected`** **processLighthouseTaskPost**(`response`): `Promise`\<[`OnPageLighthouseTaskPostResponseInfo`](OnPageLighthouseTaskPostResponseInfo.md)\>
+> `protected` **processLighthouseTaskPost**(`response`): `Promise`\<[`OnPageLighthouseTaskPostResponseInfo`](OnPageLighthouseTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -770,15 +738,15 @@ main.ts:13528
 
 `Promise`\<[`OnPageLighthouseTaskPostResponseInfo`](OnPageLighthouseTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13446
+main.ts:13616
 
 ***
 
 ### processLighthouseTasksReady()
 
-> **`protected`** **processLighthouseTasksReady**(`response`): `Promise`\<[`OnPageLighthouseTasksReadyResponseInfo`](OnPageLighthouseTasksReadyResponseInfo.md)\>
+> `protected` **processLighthouseTasksReady**(`response`): `Promise`\<[`OnPageLighthouseTasksReadyResponseInfo`](OnPageLighthouseTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -788,15 +756,15 @@ main.ts:13446
 
 `Promise`\<[`OnPageLighthouseTasksReadyResponseInfo`](OnPageLighthouseTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13483
+main.ts:13653
 
 ***
 
 ### processLighthouseVersions()
 
-> **`protected`** **processLighthouseVersions**(`response`): `Promise`\<[`OnPageLighthouseVersionsResponseInfo`](OnPageLighthouseVersionsResponseInfo.md)\>
+> `protected` **processLighthouseVersions**(`response`): `Promise`\<[`OnPageLighthouseVersionsResponseInfo`](OnPageLighthouseVersionsResponseInfo.md)\>
 
 #### Parameters
 
@@ -806,15 +774,15 @@ main.ts:13483
 
 `Promise`\<[`OnPageLighthouseVersionsResponseInfo`](OnPageLighthouseVersionsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13404
+main.ts:13574
 
 ***
 
 ### processLinks()
 
-> **`protected`** **processLinks**(`response`): `Promise`\<[`OnPageLinksResponseInfo`](OnPageLinksResponseInfo.md)\>
+> `protected` **processLinks**(`response`): `Promise`\<[`OnPageLinksResponseInfo`](OnPageLinksResponseInfo.md)\>
 
 #### Parameters
 
@@ -824,15 +792,15 @@ main.ts:13404
 
 `Promise`\<[`OnPageLinksResponseInfo`](OnPageLinksResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12873
+main.ts:13043
 
 ***
 
 ### processMicrodata()
 
-> **`protected`** **processMicrodata**(`response`): `Promise`\<[`OnPageMicrodataResponseInfo`](OnPageMicrodataResponseInfo.md)\>
+> `protected` **processMicrodata**(`response`): `Promise`\<[`OnPageMicrodataResponseInfo`](OnPageMicrodataResponseInfo.md)\>
 
 #### Parameters
 
@@ -842,15 +810,15 @@ main.ts:12873
 
 `Promise`\<[`OnPageMicrodataResponseInfo`](OnPageMicrodataResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13083
+main.ts:13253
 
 ***
 
 ### processNonIndexable()
 
-> **`protected`** **processNonIndexable**(`response`): `Promise`\<[`OnPageNonIndexableResponseInfo`](OnPageNonIndexableResponseInfo.md)\>
+> `protected` **processNonIndexable**(`response`): `Promise`\<[`OnPageNonIndexableResponseInfo`](OnPageNonIndexableResponseInfo.md)\>
 
 #### Parameters
 
@@ -860,15 +828,15 @@ main.ts:13083
 
 `Promise`\<[`OnPageNonIndexableResponseInfo`](OnPageNonIndexableResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12957
+main.ts:13127
 
 ***
 
 ### processOnPageAvailableFilters()
 
-> **`protected`** **processOnPageAvailableFilters**(`response`): `Promise`\<[`OnPageAvailableFiltersResponseInfo`](OnPageAvailableFiltersResponseInfo.md)\>
+> `protected` **processOnPageAvailableFilters**(`response`): `Promise`\<[`OnPageAvailableFiltersResponseInfo`](OnPageAvailableFiltersResponseInfo.md)\>
 
 #### Parameters
 
@@ -878,15 +846,15 @@ main.ts:12957
 
 `Promise`\<[`OnPageAvailableFiltersResponseInfo`](OnPageAvailableFiltersResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12497
+main.ts:12667
 
 ***
 
 ### processOnPageErrors()
 
-> **`protected`** **processOnPageErrors**(`response`): `Promise`\<[`OnPageErrorsResponseInfo`](OnPageErrorsResponseInfo.md)\>
+> `protected` **processOnPageErrors**(`response`): `Promise`\<[`OnPageErrorsResponseInfo`](OnPageErrorsResponseInfo.md)\>
 
 #### Parameters
 
@@ -896,15 +864,15 @@ main.ts:12497
 
 `Promise`\<[`OnPageErrorsResponseInfo`](OnPageErrorsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12418
+main.ts:12588
 
 ***
 
 ### processOnPageIdList()
 
-> **`protected`** **processOnPageIdList**(`response`): `Promise`\<[`OnPageIdListResponseInfo`](OnPageIdListResponseInfo.md)\>
+> `protected` **processOnPageIdList**(`response`): `Promise`\<[`OnPageIdListResponseInfo`](OnPageIdListResponseInfo.md)\>
 
 #### Parameters
 
@@ -914,15 +882,15 @@ main.ts:12418
 
 `Promise`\<[`OnPageIdListResponseInfo`](OnPageIdListResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12376
+main.ts:12546
 
 ***
 
 ### processOnPageLighthouseLanguages()
 
-> **`protected`** **processOnPageLighthouseLanguages**(`response`): `Promise`\<[`OnPageLighthouseLanguagesResponseInfo`](OnPageLighthouseLanguagesResponseInfo.md)\>
+> `protected` **processOnPageLighthouseLanguages**(`response`): `Promise`\<[`OnPageLighthouseLanguagesResponseInfo`](OnPageLighthouseLanguagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -932,15 +900,15 @@ main.ts:12376
 
 `Promise`\<[`OnPageLighthouseLanguagesResponseInfo`](OnPageLighthouseLanguagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13330
+main.ts:13500
 
 ***
 
 ### processOnPageTasksReady()
 
-> **`protected`** **processOnPageTasksReady**(`response`): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
+> `protected` **processOnPageTasksReady**(`response`): `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
 
 #### Parameters
 
@@ -950,15 +918,15 @@ main.ts:13330
 
 `Promise`\<[`OnPageTasksReadyResponseInfo`](OnPageTasksReadyResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12576
+main.ts:12746
 
 ***
 
 ### processPageScreenshot()
 
-> **`protected`** **processPageScreenshot**(`response`): `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
+> `protected` **processPageScreenshot**(`response`): `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
 
 #### Parameters
 
@@ -968,15 +936,15 @@ main.ts:12576
 
 `Promise`\<[`OnPagePageScreenshotResponseInfo`](OnPagePageScreenshotResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13167
+main.ts:13337
 
 ***
 
 ### processPages()
 
-> **`protected`** **processPages**(`response`): `Promise`\<[`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)\>
+> `protected` **processPages**(`response`): `Promise`\<[`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)\>
 
 #### Parameters
 
@@ -986,15 +954,15 @@ main.ts:13167
 
 `Promise`\<[`OnPagePagesResponseInfo`](OnPagePagesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12663
+main.ts:12833
 
 ***
 
 ### processPagesByResource()
 
-> **`protected`** **processPagesByResource**(`response`): `Promise`\<[`OnPagePagesByResourceResponseInfo`](OnPagePagesByResourceResponseInfo.md)\>
+> `protected` **processPagesByResource**(`response`): `Promise`\<[`OnPagePagesByResourceResponseInfo`](OnPagePagesByResourceResponseInfo.md)\>
 
 #### Parameters
 
@@ -1004,15 +972,15 @@ main.ts:12663
 
 `Promise`\<[`OnPagePagesByResourceResponseInfo`](OnPagePagesByResourceResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12705
+main.ts:12875
 
 ***
 
 ### processRawHtml()
 
-> **`protected`** **processRawHtml**(`response`): `Promise`\<[`OnPageRawHtmlResponseInfo`](OnPageRawHtmlResponseInfo.md)\>
+> `protected` **processRawHtml**(`response`): `Promise`\<[`OnPageRawHtmlResponseInfo`](OnPageRawHtmlResponseInfo.md)\>
 
 #### Parameters
 
@@ -1022,15 +990,15 @@ main.ts:12705
 
 `Promise`\<[`OnPageRawHtmlResponseInfo`](OnPageRawHtmlResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:13125
+main.ts:13295
 
 ***
 
 ### processRedirectChains()
 
-> **`protected`** **processRedirectChains**(`response`): `Promise`\<[`OnPageRedirectChainsResponseInfo`](OnPageRedirectChainsResponseInfo.md)\>
+> `protected` **processRedirectChains**(`response`): `Promise`\<[`OnPageRedirectChainsResponseInfo`](OnPageRedirectChainsResponseInfo.md)\>
 
 #### Parameters
 
@@ -1040,15 +1008,15 @@ main.ts:13125
 
 `Promise`\<[`OnPageRedirectChainsResponseInfo`](OnPageRedirectChainsResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12915
+main.ts:13085
 
 ***
 
 ### processResources()
 
-> **`protected`** **processResources**(`response`): `Promise`\<[`OnPageResourcesResponseInfo`](OnPageResourcesResponseInfo.md)\>
+> `protected` **processResources**(`response`): `Promise`\<[`OnPageResourcesResponseInfo`](OnPageResourcesResponseInfo.md)\>
 
 #### Parameters
 
@@ -1058,15 +1026,15 @@ main.ts:12915
 
 `Promise`\<[`OnPageResourcesResponseInfo`](OnPageResourcesResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12747
+main.ts:12917
 
 ***
 
 ### processSummary()
 
-> **`protected`** **processSummary**(`response`): `Promise`\<[`OnPageSummaryResponseInfo`](OnPageSummaryResponseInfo.md)\>
+> `protected` **processSummary**(`response`): `Promise`\<[`OnPageSummaryResponseInfo`](OnPageSummaryResponseInfo.md)\>
 
 #### Parameters
 
@@ -1076,15 +1044,15 @@ main.ts:12747
 
 `Promise`\<[`OnPageSummaryResponseInfo`](OnPageSummaryResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12621
+main.ts:12791
 
 ***
 
 ### processTaskPost()
 
-> **`protected`** **processTaskPost**(`response`): `Promise`\<[`OnPageTaskPostResponseInfo`](OnPageTaskPostResponseInfo.md)\>
+> `protected` **processTaskPost**(`response`): `Promise`\<[`OnPageTaskPostResponseInfo`](OnPageTaskPostResponseInfo.md)\>
 
 #### Parameters
 
@@ -1094,15 +1062,15 @@ main.ts:12621
 
 `Promise`\<[`OnPageTaskPostResponseInfo`](OnPageTaskPostResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12539
+main.ts:12709
 
 ***
 
 ### processWaterfall()
 
-> **`protected`** **processWaterfall**(`response`): `Promise`\<[`OnPageWaterfallResponseInfo`](OnPageWaterfallResponseInfo.md)\>
+> `protected` **processWaterfall**(`response`): `Promise`\<[`OnPageWaterfallResponseInfo`](OnPageWaterfallResponseInfo.md)\>
 
 #### Parameters
 
@@ -1112,9 +1080,9 @@ main.ts:12539
 
 `Promise`\<[`OnPageWaterfallResponseInfo`](OnPageWaterfallResponseInfo.md)\>
 
-#### Source
+#### Defined in
 
-main.ts:12999
+main.ts:13169
 
 ***
 
@@ -1134,9 +1102,9 @@ main.ts:12999
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:13105
+main.ts:13275
 
 ***
 
@@ -1156,9 +1124,9 @@ main.ts:13105
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12895
+main.ts:13065
 
 ***
 
@@ -1178,9 +1146,9 @@ main.ts:12895
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12727
+main.ts:12897
 
 ***
 
@@ -1204,9 +1172,9 @@ example:
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12602
+main.ts:12772
 
 ***
 
@@ -1226,9 +1194,9 @@ main.ts:12602
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12519
+main.ts:12689
 
 ***
 
@@ -1248,6 +1216,6 @@ main.ts:12519
 
 Successful operation
 
-#### Source
+#### Defined in
 
-main.ts:12979
+main.ts:13149

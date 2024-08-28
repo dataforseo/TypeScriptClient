@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem(data)
+### new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem()
 
 > **new DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem**(`data`?): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:103957
+main.ts:104587
 
 ## Properties
 
 ### metrics?
 
-> **`optional`** **metrics**: [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
+> `optional` **metrics**: [`HistoricalMetricsBundleInfo`](HistoricalMetricsBundleInfo.md)
 
 traffic data relevant to the specified domain
 
@@ -44,15 +44,15 @@ traffic data relevant to the specified domain
 
 [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md#metrics)
 
-#### Source
+#### Defined in
 
-main.ts:103953
+main.ts:104583
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -60,15 +60,15 @@ search engine type
 
 [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:103949
+main.ts:104579
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain in a POST array
 
@@ -76,9 +76,9 @@ target domain in a POST array
 
 [`IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md).[`target`](../interfaces/IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:103951
+main.ts:104581
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:103951
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:103966
+main.ts:104596
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:103966
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:103985
+main.ts:104615
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:103985
 
 [`DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem`](DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:103978
+main.ts:104608

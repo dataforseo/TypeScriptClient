@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### age?
 
-> **`optional`** **age**: [`DataforseoTrendsDataInfo`](../classes/DataforseoTrendsDataInfo.md)[]
+> `optional` **age**: [`DataforseoTrendsDataInfo`](../classes/DataforseoTrendsDataInfo.md)[]
 
 distribution of keyword popularity by age
 
-#### Source
+#### Defined in
 
-main.ts:130329
+main.ts:130153
 
 ***
 
 ### gender?
 
-> **`optional`** **gender**: [`DataforseoTrendsDataInfo`](../classes/DataforseoTrendsDataInfo.md)[]
+> `optional` **gender**: [`DataforseoTrendsDataInfo`](../classes/DataforseoTrendsDataInfo.md)[]
 
 distribution of keyword popularity by gender
 
-#### Source
+#### Defined in
 
-main.ts:130331
+main.ts:130155

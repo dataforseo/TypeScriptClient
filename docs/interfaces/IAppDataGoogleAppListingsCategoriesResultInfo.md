@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 name of the supported app category
 
-#### Source
+#### Defined in
 
-main.ts:194392
+main.ts:196224
 
 ***
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 number of app listings that make up the supported app category
 
-#### Source
+#### Defined in
 
-main.ts:194394
+main.ts:196226

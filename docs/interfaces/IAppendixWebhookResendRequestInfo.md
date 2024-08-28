@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,13 +14,13 @@
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier
 unique task identifier in our system in the UUID format
 you can specify up to 100 identifiers;
 each identifier in the task array must be specified as a separate object
 
-#### Source
+#### Defined in
 
-main.ts:224493
+main.ts:228765

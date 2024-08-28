@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -22,7 +22,7 @@
 
 ## Constructors
 
-### new BaseLocalBusinessLink(data)
+### new BaseLocalBusinessLink()
 
 > **new BaseLocalBusinessLink**(`data`?): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
@@ -34,19 +34,19 @@
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
-#### Source
+#### Defined in
 
-main.ts:23348
+main.ts:23530
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:23346
+main.ts:23528
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:23346
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:23358
+main.ts:23540
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:23358
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:23389
+main.ts:23571
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
+> `static` **fromJS**(`data`): [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:23389
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)
 
-#### Source
+#### Defined in
 
-main.ts:23367
+main.ts:23549

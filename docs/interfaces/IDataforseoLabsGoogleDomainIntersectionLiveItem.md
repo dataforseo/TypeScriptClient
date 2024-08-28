@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,48 +14,48 @@
 
 ### first\_domain\_serp\_element?
 
-> **`optional`** **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
+> `optional` **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
-#### Source
+#### Defined in
 
-main.ts:94857
+main.ts:95149
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
-#### Source
+#### Defined in
 
-main.ts:94854
+main.ts:95146
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:94852
+main.ts:95144
 
 ***
 
 ### second\_domain\_serp\_element?
 
-> **`optional`** **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
+> `optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
-#### Source
+#### Defined in
 
-main.ts:94860
+main.ts:95152

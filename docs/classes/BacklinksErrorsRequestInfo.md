@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksErrorsRequestInfo(data)
+### new BacklinksErrorsRequestInfo()
 
 > **new BacklinksErrorsRequestInfo**(`data`?): [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:139140
+main.ts:140966
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -49,15 +49,15 @@ example:
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`datetime_from`](../interfaces/IBacklinksErrorsRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:139129
+main.ts:140955
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -70,15 +70,15 @@ example:
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`datetime_to`](../interfaces/IBacklinksErrorsRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:139136
+main.ts:140962
 
 ***
 
 ### filtered\_function?
 
-> **`optional`** **filtered\_function**: `string`
+> `optional` **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,15 @@ example: backlinks/live
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`filtered_function`](../interfaces/IBacklinksErrorsRequestInfo.md#filtered_function)
 
-#### Source
+#### Defined in
 
-main.ts:139122
+main.ts:140948
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +109,15 @@ maximum value: 1000
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`limit`](../interfaces/IBacklinksErrorsRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:139111
+main.ts:140937
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IBacklinksErrorsRequestInfo`](../interfaces/IBacklinksErrorsRequestInfo.md).[`offset`](../interfaces/IBacklinksErrorsRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:139116
+main.ts:140942
 
 ## Methods
 
@@ -146,9 +146,9 @@ main.ts:139116
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:139149
+main.ts:140975
 
 ***
 
@@ -164,15 +164,15 @@ main.ts:139149
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:139170
+main.ts:140996
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:139170
 
 [`BacklinksErrorsRequestInfo`](BacklinksErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:139163
+main.ts:140989

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisPhraseTrendsLiveRequestInfo(data)
+### new ContentAnalysisPhraseTrendsLiveRequestInfo()
 
 > **new ContentAnalysisPhraseTrendsLiveRequestInfo**(`data`?): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:170578
+main.ts:172410
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 required field
@@ -48,15 +48,15 @@ example:
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`date_from`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:170539
+main.ts:172371
 
 ***
 
 ### date\_group?
 
-> **`optional`** **date\_group**: `string`
+> `optional` **date\_group**: `string`
 
 time range which will be used to group the results
 optional field
@@ -67,15 +67,15 @@ possible values: day, week, month
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`date_group`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#date_group)
 
-#### Source
+#### Defined in
 
-main.ts:170551
+main.ts:172383
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -88,29 +88,29 @@ example:
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`date_to`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:170546
+main.ts:172378
 
 ***
 
 ### initial\_dataset\_filter?
 
-> **`optional`** **initial\_dataset\_filter**: `string`[]
+> `optional` **initial\_dataset\_filter**: `string`[]
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
-[["domain","`<>`","logitech.com"],"and",["content_info.connotation_types.negative",">`",1000]]
-[["domain","`<>`","logitech.com"]],
+[["domain","<>","logitech.com"],"and",["content_info.connotation_types.negative",">",1000]]
+[["domain","<>","logitech.com"]],
 "and",
-[["content_info.connotation_types.negative",">`",1000],
+[["content_info.connotation_types.negative",">",1000],
 "or",
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
@@ -119,15 +119,15 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`initial_dataset_filter`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#initial_dataset_filter)
 
-#### Source
+#### Defined in
 
-main.ts:170568
+main.ts:172400
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -144,15 +144,15 @@ maximum value: 20
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#internal_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:170533
+main.ts:172365
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 target keyword
 required field
@@ -167,15 +167,15 @@ example:
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`keyword`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:170497
+main.ts:172329
 
 ***
 
 ### keyword\_fields?
 
-> **`optional`** **keyword\_fields**: `Object`
+> `optional` **keyword\_fields**: `object`
 
 target keyword fields and target keywords
 optional field
@@ -184,12 +184,12 @@ fields you can specify: title, main_title, previous_title, snippet
 you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
-"keyword_fields": \{
+"keyword_fields": {
     "snippet": "\"logitech mouse\"",
     "main_title": "sale"
-\}
+}
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -197,15 +197,15 @@ example:
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`keyword_fields`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#keyword_fields)
 
-#### Source
+#### Defined in
 
-main.ts:170509
+main.ts:172341
 
 ***
 
 ### page\_type?
 
-> **`optional`** **page\_type**: `string`[]
+> `optional` **page\_type**: `string`[]
 
 target page types
 optional field
@@ -217,15 +217,15 @@ possible values:
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#page_type)
 
-#### Source
+#### Defined in
 
-main.ts:170515
+main.ts:172347
 
 ***
 
 ### search\_mode?
 
-> **`optional`** **search\_mode**: `string`
+> `optional` **search\_mode**: `string`
 
 results grouping type
 optional field
@@ -238,15 +238,15 @@ default value: as_is
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`search_mode`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#search_mode)
 
-#### Source
+#### Defined in
 
-main.ts:170522
+main.ts:172354
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -258,9 +258,9 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisPhraseTrendsLiveRequestInfo`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisPhraseTrendsLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:170574
+main.ts:172406
 
 ## Methods
 
@@ -276,9 +276,9 @@ main.ts:170574
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:170587
+main.ts:172419
 
 ***
 
@@ -294,15 +294,15 @@ main.ts:170587
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:170627
+main.ts:172459
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
 #### Parameters
 
@@ -312,6 +312,6 @@ main.ts:170627
 
 [`ContentAnalysisPhraseTrendsLiveRequestInfo`](ContentAnalysisPhraseTrendsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:170620
+main.ts:172452

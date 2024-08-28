@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixOnPagePriceData(data)
+### new AppendixOnPagePriceData()
 
 > **new AppendixOnPagePriceData**(`data`?): [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
 
@@ -28,289 +28,289 @@
 
 [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:223898
+main.ts:228170
 
 ## Properties
 
 ### content\_parsing?
 
-> **`optional`** **content\_parsing**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **content\_parsing**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`content_parsing`](../interfaces/IAppendixOnPagePriceData.md#content_parsing)
 
-#### Source
+#### Defined in
 
-main.ts:223877
+main.ts:228149
 
 ***
 
 ### content\_parsing\_live?
 
-> **`optional`** **content\_parsing\_live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **content\_parsing\_live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`content_parsing_live`](../interfaces/IAppendixOnPagePriceData.md#content_parsing_live)
 
-#### Source
+#### Defined in
 
-main.ts:223878
+main.ts:228150
 
 ***
 
 ### duplicate\_content?
 
-> **`optional`** **duplicate\_content**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **duplicate\_content**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`duplicate_content`](../interfaces/IAppendixOnPagePriceData.md#duplicate_content)
 
-#### Source
+#### Defined in
 
-main.ts:223879
+main.ts:228151
 
 ***
 
 ### duplicate\_tags?
 
-> **`optional`** **duplicate\_tags**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **duplicate\_tags**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`duplicate_tags`](../interfaces/IAppendixOnPagePriceData.md#duplicate_tags)
 
-#### Source
+#### Defined in
 
-main.ts:223880
+main.ts:228152
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`errors`](../interfaces/IAppendixOnPagePriceData.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:223875
+main.ts:228147
 
 ***
 
 ### instant\_pages?
 
-> **`optional`** **instant\_pages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **instant\_pages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`instant_pages`](../interfaces/IAppendixOnPagePriceData.md#instant_pages)
 
-#### Source
+#### Defined in
 
-main.ts:223881
+main.ts:228153
 
 ***
 
 ### keyword\_density?
 
-> **`optional`** **keyword\_density**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **keyword\_density**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`keyword_density`](../interfaces/IAppendixOnPagePriceData.md#keyword_density)
 
-#### Source
+#### Defined in
 
-main.ts:223882
+main.ts:228154
 
 ***
 
 ### lighthouse?
 
-> **`optional`** **lighthouse**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
+> `optional` **lighthouse**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`lighthouse`](../interfaces/IAppendixOnPagePriceData.md#lighthouse)
 
-#### Source
+#### Defined in
 
-main.ts:223876
+main.ts:228148
 
 ***
 
 ### links?
 
-> **`optional`** **links**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **links**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`links`](../interfaces/IAppendixOnPagePriceData.md#links)
 
-#### Source
+#### Defined in
 
-main.ts:223883
+main.ts:228155
 
 ***
 
 ### non\_indexable?
 
-> **`optional`** **non\_indexable**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **non\_indexable**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`non_indexable`](../interfaces/IAppendixOnPagePriceData.md#non_indexable)
 
-#### Source
+#### Defined in
 
-main.ts:223884
+main.ts:228156
 
 ***
 
 ### page\_screenshot?
 
-> **`optional`** **page\_screenshot**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **page\_screenshot**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`page_screenshot`](../interfaces/IAppendixOnPagePriceData.md#page_screenshot)
 
-#### Source
+#### Defined in
 
-main.ts:223887
+main.ts:228159
 
 ***
 
 ### pages?
 
-> **`optional`** **pages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **pages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`pages`](../interfaces/IAppendixOnPagePriceData.md#pages)
 
-#### Source
+#### Defined in
 
-main.ts:223885
+main.ts:228157
 
 ***
 
 ### pages\_by\_resource?
 
-> **`optional`** **pages\_by\_resource**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **pages\_by\_resource**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`pages_by_resource`](../interfaces/IAppendixOnPagePriceData.md#pages_by_resource)
 
-#### Source
+#### Defined in
 
-main.ts:223886
+main.ts:228158
 
 ***
 
 ### raw\_html?
 
-> **`optional`** **raw\_html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **raw\_html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`raw_html`](../interfaces/IAppendixOnPagePriceData.md#raw_html)
 
-#### Source
+#### Defined in
 
-main.ts:223888
+main.ts:228160
 
 ***
 
 ### redirect\_chains?
 
-> **`optional`** **redirect\_chains**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **redirect\_chains**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`redirect_chains`](../interfaces/IAppendixOnPagePriceData.md#redirect_chains)
 
-#### Source
+#### Defined in
 
-main.ts:223889
+main.ts:228161
 
 ***
 
 ### resources?
 
-> **`optional`** **resources**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **resources**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`resources`](../interfaces/IAppendixOnPagePriceData.md#resources)
 
-#### Source
+#### Defined in
 
-main.ts:223890
+main.ts:228162
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **summary**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`summary`](../interfaces/IAppendixOnPagePriceData.md#summary)
 
-#### Source
+#### Defined in
 
-main.ts:223891
+main.ts:228163
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`task_post`](../interfaces/IAppendixOnPagePriceData.md#task_post)
 
-#### Source
+#### Defined in
 
-main.ts:223892
+main.ts:228164
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`tasks_ready`](../interfaces/IAppendixOnPagePriceData.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:223893
+main.ts:228165
 
 ***
 
 ### waterfall?
 
-> **`optional`** **waterfall**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **waterfall**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixOnPagePriceData`](../interfaces/IAppendixOnPagePriceData.md).[`waterfall`](../interfaces/IAppendixOnPagePriceData.md#waterfall)
 
-#### Source
+#### Defined in
 
-main.ts:223894
+main.ts:228166
 
 ## Methods
 
@@ -326,9 +326,9 @@ main.ts:223894
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:223907
+main.ts:228179
 
 ***
 
@@ -344,15 +344,15 @@ main.ts:223907
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:223943
+main.ts:228215
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
+> `static` **fromJS**(`data`): [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
 
 #### Parameters
 
@@ -362,6 +362,6 @@ main.ts:223943
 
 [`AppendixOnPagePriceData`](AppendixOnPagePriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:223936
+main.ts:228208

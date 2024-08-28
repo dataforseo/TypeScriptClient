@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksTimeseriesSummaryLiveItem(data)
+### new BacklinksTimeseriesSummaryLiveItem()
 
 > **new BacklinksTimeseriesSummaryLiveItem**(`data`?): [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:149484
+main.ts:151310
 
 ## Properties
 
 ### backlinks?
 
-> **`optional`** **backlinks**: `number`
+> `optional` **backlinks**: `number`
 
 number of backlinks for the given date
 
@@ -44,15 +44,15 @@ number of backlinks for the given date
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`backlinks`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:149460
+main.ts:151286
 
 ***
 
 ### backlinks\_nofollow?
 
-> **`optional`** **backlinks\_nofollow**: `number`
+> `optional` **backlinks\_nofollow**: `number`
 
 number of nofollow backlinks for the given date
 
@@ -60,15 +60,15 @@ number of nofollow backlinks for the given date
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`backlinks_nofollow`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#backlinks_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:149462
+main.ts:151288
 
 ***
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -79,15 +79,15 @@ example:
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`date`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:149455
+main.ts:151281
 
 ***
 
 ### rank?
 
-> **`optional`** **rank**: `number`
+> `optional` **rank**: `number`
 
 target rank for the given date
 learn more about the metric and how it is calculated in this help center article
@@ -96,15 +96,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`rank`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#rank)
 
-#### Source
+#### Defined in
 
-main.ts:149458
+main.ts:151284
 
 ***
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: `number`
+> `optional` **referring\_domains**: `number`
 
 number of referring domains for the given date
 referring domains include subdomains that are counted as separate domains for this metric
@@ -113,15 +113,15 @@ referring domains include subdomains that are counted as separate domains for th
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_domains`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:149469
+main.ts:151295
 
 ***
 
 ### referring\_domains\_nofollow?
 
-> **`optional`** **referring\_domains\_nofollow**: `number`
+> `optional` **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the target for the given date
 
@@ -129,15 +129,15 @@ number of domains pointing at least one nofollow link to the target for the give
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_domains_nofollow`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:149471
+main.ts:151297
 
 ***
 
 ### referring\_ips?
 
-> **`optional`** **referring\_ips**: `number`
+> `optional` **referring\_ips**: `number`
 
 number of referring IP addresses for the given date
 number of IP addresses pointing to this page
@@ -146,15 +146,15 @@ number of IP addresses pointing to this page
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_ips`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_ips)
 
-#### Source
+#### Defined in
 
-main.ts:149478
+main.ts:151304
 
 ***
 
 ### referring\_main\_domains?
 
-> **`optional`** **referring\_main\_domains**: `number`
+> `optional` **referring\_main\_domains**: `number`
 
 number of referring main domains for the given date
 
@@ -162,15 +162,15 @@ number of referring main domains for the given date
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_main_domains`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_main_domains)
 
-#### Source
+#### Defined in
 
-main.ts:149473
+main.ts:151299
 
 ***
 
 ### referring\_main\_domains\_nofollow?
 
-> **`optional`** **referring\_main\_domains\_nofollow**: `number`
+> `optional` **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target for the given date
 
@@ -178,15 +178,15 @@ number of main domains pointing at least one nofollow link to the target for the
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_main_domains_nofollow`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_main_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:149475
+main.ts:151301
 
 ***
 
 ### referring\_pages?
 
-> **`optional`** **referring\_pages**: `number`
+> `optional` **referring\_pages**: `number`
 
 number of pages pointing to target for the given date
 
@@ -194,15 +194,15 @@ number of pages pointing to target for the given date
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_pages`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_pages)
 
-#### Source
+#### Defined in
 
-main.ts:149464
+main.ts:151290
 
 ***
 
 ### referring\_pages\_nofollow?
 
-> **`optional`** **referring\_pages\_nofollow**: `number`
+> `optional` **referring\_pages\_nofollow**: `number`
 
 number of referring pages pointing at least one nofollow link to the target for the given date
 
@@ -210,15 +210,15 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_pages_nofollow`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_pages_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:149466
+main.ts:151292
 
 ***
 
 ### referring\_subnets?
 
-> **`optional`** **referring\_subnets**: `number`
+> `optional` **referring\_subnets**: `number`
 
 number of referring subnetworks for the given date
 
@@ -226,15 +226,15 @@ number of referring subnetworks for the given date
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`referring_subnets`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#referring_subnets)
 
-#### Source
+#### Defined in
 
-main.ts:149480
+main.ts:151306
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -242,9 +242,9 @@ type of element
 
 [`IBacklinksTimeseriesSummaryLiveItem`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md).[`type`](../interfaces/IBacklinksTimeseriesSummaryLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:149450
+main.ts:151276
 
 ## Methods
 
@@ -260,9 +260,9 @@ main.ts:149450
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:149493
+main.ts:151319
 
 ***
 
@@ -278,15 +278,15 @@ main.ts:149493
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:149522
+main.ts:151348
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
 
 #### Parameters
 
@@ -296,6 +296,6 @@ main.ts:149522
 
 [`BacklinksTimeseriesSummaryLiveItem`](BacklinksTimeseriesSummaryLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:149515
+main.ts:151341

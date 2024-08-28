@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationGenerateMetaTagsLiveRequestInfo(data)
+### new ContentGenerationGenerateMetaTagsLiveRequestInfo()
 
 > **new ContentGenerationGenerateMetaTagsLiveRequestInfo**(`data`?): [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172497
+main.ts:174329
 
 ## Properties
 
 ### creativity\_index?
 
-> **`optional`** **creativity\_index**: `number`
+> `optional` **creativity\_index**: `number`
 
 creativity of content generation
 optional field
@@ -49,15 +49,15 @@ learn more about this parameter on our help center
 
 [`IContentGenerationGenerateMetaTagsLiveRequestInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationGenerateMetaTagsLiveRequestInfo.md#creativity_index)
 
-#### Source
+#### Defined in
 
-main.ts:172487
+main.ts:174319
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -69,15 +69,15 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationGenerateMetaTagsLiveRequestInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationGenerateMetaTagsLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:172493
+main.ts:174325
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 initial target text
 required field
@@ -89,9 +89,9 @@ learn more about tokens on our help center
 
 [`IContentGenerationGenerateMetaTagsLiveRequestInfo`](../interfaces/IContentGenerationGenerateMetaTagsLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationGenerateMetaTagsLiveRequestInfo.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:172480
+main.ts:174312
 
 ## Methods
 
@@ -107,9 +107,9 @@ main.ts:172480
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:172506
+main.ts:174338
 
 ***
 
@@ -125,15 +125,15 @@ main.ts:172506
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:172525
+main.ts:174357
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)
 
 #### Parameters
 
@@ -143,6 +143,6 @@ main.ts:172525
 
 [`ContentGenerationGenerateMetaTagsLiveRequestInfo`](ContentGenerationGenerateMetaTagsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172518
+main.ts:174350

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### backlinks\_status\_type?
 
-> **`optional`** **backlinks\_status\_type**: `string`
+> `optional` **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -25,15 +25,15 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Source
+#### Defined in
 
-main.ts:148499
+main.ts:150325
 
 ***
 
 ### exclude\_internal\_backlinks?
 
-> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+> `optional` **exclude\_internal\_backlinks**: `boolean`
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -41,15 +41,15 @@ if set to true, the results will not include data on internal backlinks from sub
 if set to false, internal links will be included in the result
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:148565
+main.ts:150391
 
 ***
 
 ### exclude\_targets?
 
-> **`optional`** **exclude\_targets**: `string`[]
+> `optional` **exclude\_targets**: `string`[]
 
 domains, subdomains or webpages you want to exclude
 optional field
@@ -61,25 +61,25 @@ example:
 "https://www.apple.com/iphone/*",
 "https://dataforseo.com/apis/*"]
 
-#### Source
+#### Defined in
 
-main.ts:148490
+main.ts:150316
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["1.rank",">`","80"]
+["1.rank",">","80"]
 [["2.page_from_rank",">","55"],
 "and",
 ["1.original","=","true"]]
@@ -88,15 +88,15 @@ example:
 [["1.acnhor","like","%seo%"],"or",["1.text_pre","not_like","%seo%"]]]
 The full list of possible filters is available here.
 
-#### Source
+#### Defined in
 
-main.ts:148516
+main.ts:150342
 
 ***
 
 ### include\_indirect\_links?
 
-> **`optional`** **include\_indirect\_links**: `boolean`
+> `optional` **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the targets will be included in the results
 optional field
@@ -104,30 +104,30 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:148559
+main.ts:150385
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the targets will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:148553
+main.ts:150379
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -137,15 +137,15 @@ domain_from_platform_type
 default value: 10
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:148548
+main.ts:150374
 
 ***
 
 ### intersection\_mode?
 
-> **`optional`** **intersection\_mode**: `string`
+> `optional` **intersection\_mode**: `string`
 
 indicates whether to intersect backlinks
 optional field
@@ -155,45 +155,45 @@ all – results are based on all backlinks;
 partial – results are based on the intersecting backlinks only;
 default value: all
 
-#### Source
+#### Defined in
 
-main.ts:148573
+main.ts:150399
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned backlinks
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:148540
+main.ts:150366
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of the returned backlinks
 optional field
 default value: 0
 if you specify the 10 value, the first ten backlinks in the results array will be omitted and the data will be provided for the successive backlinks
 
-#### Source
+#### Defined in
 
-main.ts:148535
+main.ts:150361
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -209,15 +209,15 @@ you should use a comma to separate several sorting rules
 example:
 ["domain_from_rank,desc","page_from_rank,asc"]
 
-#### Source
+#### Defined in
 
-main.ts:148530
+main.ts:150356
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -225,15 +225,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:148579
+main.ts:150405
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `Object`
+> `optional` **targets**: `object`
 
 domains, subdomains or webpages to get links for
 required field
@@ -241,15 +241,15 @@ you can set up to 20 domains, subdomains or webpages
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
 example:
-"targets": \{
+"targets": {
 "1": "http://planet.postgresql.org/",
 "2": "http://gborg.postgresql.org/"
-\}
+}
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:148480
+main.ts:150306

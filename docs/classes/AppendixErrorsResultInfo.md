@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixErrorsResultInfo(data)
+### new AppendixErrorsResultInfo()
 
 > **new AppendixErrorsResultInfo**(`data`?): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:224284
+main.ts:228556
 
 ## Properties
 
 ### code?
 
-> **`optional`** **code**: `number`
+> `optional` **code**: `number`
 
 code
 
@@ -44,15 +44,15 @@ code
 
 [`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md).[`code`](../interfaces/IAppendixErrorsResultInfo.md#code)
 
-#### Source
+#### Defined in
 
-main.ts:224278
+main.ts:228550
 
 ***
 
 ### message?
 
-> **`optional`** **message**: `string`
+> `optional` **message**: `string`
 
 message
 
@@ -60,9 +60,9 @@ message
 
 [`IAppendixErrorsResultInfo`](../interfaces/IAppendixErrorsResultInfo.md).[`message`](../interfaces/IAppendixErrorsResultInfo.md#message)
 
-#### Source
+#### Defined in
 
-main.ts:224280
+main.ts:228552
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:224280
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:224293
+main.ts:228565
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:224293
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:224311
+main.ts:228583
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
+> `static` **fromJS**(`data`): [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:224311
 
 [`AppendixErrorsResultInfo`](AppendixErrorsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:224304
+main.ts:228576

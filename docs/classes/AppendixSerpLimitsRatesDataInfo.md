@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixSerpLimitsRatesDataInfo(data)
+### new AppendixSerpLimitsRatesDataInfo()
 
 > **new AppendixSerpLimitsRatesDataInfo**(`data`?): [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
@@ -28,149 +28,149 @@
 
 [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218454
+main.ts:220306
 
 ## Properties
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:218447
+main.ts:220299
 
 ***
 
 ### jobs?
 
-> **`optional`** **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](AppendixJobsSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`jobs`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#jobs)
 
-#### Source
+#### Defined in
 
-main.ts:218449
+main.ts:220301
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:218445
+main.ts:220297
 
 ***
 
 ### live?
 
-> **`optional`** **live**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
+> `optional` **live**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`live`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#live)
 
-#### Source
+#### Defined in
 
-main.ts:218446
+main.ts:220298
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:218444
+main.ts:220296
 
 ***
 
 ### screenshot?
 
-> **`optional`** **screenshot**: `number`
+> `optional` **screenshot**: `number`
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`screenshot`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#screenshot)
 
-#### Source
+#### Defined in
 
-main.ts:218450
+main.ts:220302
 
 ***
 
 ### task\_get?
 
-> **`optional`** **task\_get**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
+> `optional` **task\_get**: [`AppendixFunctionTypeInfo`](AppendixFunctionTypeInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`task_get`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#task_get)
 
-#### Source
+#### Defined in
 
-main.ts:218442
+main.ts:220294
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: `number`
+> `optional` **task\_post**: `number`
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`task_post`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#task_post)
 
-#### Source
+#### Defined in
 
-main.ts:218441
+main.ts:220293
 
 ***
 
 ### tasks\_fixed?
 
-> **`optional`** **tasks\_fixed**: `number`
+> `optional` **tasks\_fixed**: `number`
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`tasks_fixed`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#tasks_fixed)
 
-#### Source
+#### Defined in
 
-main.ts:218448
+main.ts:220300
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
 #### Implementation of
 
 [`IAppendixSerpLimitsRatesDataInfo`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixSerpLimitsRatesDataInfo.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:218443
+main.ts:220295
 
 ## Methods
 
@@ -186,9 +186,9 @@ main.ts:218443
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:218463
+main.ts:220315
 
 ***
 
@@ -204,15 +204,15 @@ main.ts:218463
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:218489
+main.ts:220341
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -222,6 +222,6 @@ main.ts:218489
 
 [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218482
+main.ts:220334

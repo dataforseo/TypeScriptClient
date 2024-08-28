@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataGoogleAppInfoTaskPostRequestInfo(data)
+### new AppDataGoogleAppInfoTaskPostRequestInfo()
 
 > **new AppDataGoogleAppInfoTaskPostRequestInfo**(`data`?): [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:191763
+main.ts:193595
 
 ## Properties
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the app
 required field
@@ -50,15 +50,15 @@ the id is org.telegram.messenger
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`app_id`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:191691
+main.ts:193523
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -71,15 +71,15 @@ en
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`language_code`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:191719
+main.ts:193551
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -92,15 +92,15 @@ English
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`language_name`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:191712
+main.ts:193544
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,15 +113,15 @@ example:
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`location_code`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:191705
+main.ts:193537
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -134,15 +134,15 @@ West Los Angeles,California,United States
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`location_name`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:191698
+main.ts:193530
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -158,15 +158,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:191759
+main.ts:193591
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -178,15 +178,15 @@ advanced, html
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`postback_data`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:191749
+main.ts:193581
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -202,15 +202,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`postback_url`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:191743
+main.ts:193575
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -224,15 +224,15 @@ The cost can be calculated on the Pricing page.
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`priority`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:191727
+main.ts:193559
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -244,9 +244,9 @@ you will find the specified tag value in the data object of the response
 
 [`IAppDataGoogleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md).[`tag`](../interfaces/IAppDataGoogleAppInfoTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:191733
+main.ts:193565
 
 ## Methods
 
@@ -262,9 +262,9 @@ main.ts:191733
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:191772
+main.ts:193604
 
 ***
 
@@ -280,15 +280,15 @@ main.ts:191772
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:191798
+main.ts:193630
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -298,6 +298,6 @@ main.ts:191798
 
 [`AppDataGoogleAppInfoTaskPostRequestInfo`](AppDataGoogleAppInfoTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:191791
+main.ts:193623

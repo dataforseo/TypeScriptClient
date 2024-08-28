@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,15 +14,15 @@
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like, not_like
-you can use the % operator with like and not_like to match any string of zero or more characters
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, ilike, not_ilike, like, not_like
+you can use the % operator with like and not_like, as well as ilike and not_ilike to match any string of zero or more characters
 example:
 ["ranked_serp_element.serp_item.rank_group","<=",10]
 [["ranked_serp_element.serp_item.rank_group","<=",10],
@@ -36,15 +36,15 @@ example:
 ["ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:111138
+main.ts:111770
 
 ***
 
 ### historical\_serp\_mode?
 
-> **`optional`** **historical\_serp\_mode**: `string`
+> `optional` **historical\_serp\_mode**: `string`
 
 data collection mode
 optional field
@@ -55,30 +55,30 @@ lost — return keywords for which the specified target had previously had ranki
 all — return both types of keywords.
 default value: live
 
-#### Source
+#### Defined in
 
-main.ts:111118
+main.ts:111750
 
 ***
 
 ### ignore\_synonyms?
 
-> **`optional`** **ignore\_synonyms**: `boolean`
+> `optional` **ignore\_synonyms**: `boolean`
 
 ignore highly similar keywords
 optional field
 if set to true only core keywords will be returned, all highly similar keywords will be excluded;
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:111094
+main.ts:111726
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -89,15 +89,15 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Source
+#### Defined in
 
-main.ts:111089
+main.ts:111721
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 optional field
@@ -108,15 +108,15 @@ ignore this field to get the results for all available languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:111080
+main.ts:111712
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 optional field
@@ -127,45 +127,45 @@ ignore this field to get the results for all available languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:111071
+main.ts:111703
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned keywords
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:111099
+main.ts:111731
 
 ***
 
 ### load\_rank\_absolute?
 
-> **`optional`** **load\_rank\_absolute**: `boolean`
+> `optional` **load\_rank\_absolute**: `boolean`
 
 return rankings distribution by rank_absolute
 optional field
 default value: false
 if set to true, we will return the field metrics_absolute containing rankings distribution by the rank_absolute parameter that indicates the result’s position among all SERP elements
 
-#### Source
+#### Defined in
 
-main.ts:111109
+main.ts:111741
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 optional field
@@ -177,15 +177,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:111062
+main.ts:111694
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 optional field
@@ -197,30 +197,30 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Source
+#### Defined in
 
-main.ts:111052
+main.ts:111684
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Source
+#### Defined in
 
-main.ts:111104
+main.ts:111736
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -238,15 +238,15 @@ you should use a comma to separate several sorting rules
 example:
 ["keyword_data.keyword_info.search_volume,desc","keyword_data.keyword_info.cpc,desc"]
 
-#### Source
+#### Defined in
 
-main.ts:111154
+main.ts:111786
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -254,15 +254,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:111160
+main.ts:111792
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain
 required field
@@ -274,6 +274,6 @@ example:
 "filters":[
 "ranked_serp_element.serp_item.relative_url", "=", "/apis/rank-tracker-api"]
 
-#### Source
+#### Defined in
 
-main.ts:111042
+main.ts:111674

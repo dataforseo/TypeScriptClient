@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageRawHtmlItem(data)
+### new OnPageRawHtmlItem()
 
 > **new OnPageRawHtmlItem**(`data`?): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:162702
+main.ts:164534
 
 ## Properties
 
 ### html?
 
-> **`optional`** **html**: `string`
+> `optional` **html**: `string`
 
 HTML page
 
@@ -44,9 +44,9 @@ HTML page
 
 [`IOnPageRawHtmlItem`](../interfaces/IOnPageRawHtmlItem.md).[`html`](../interfaces/IOnPageRawHtmlItem.md#html)
 
-#### Source
+#### Defined in
 
-main.ts:162698
+main.ts:164530
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:162698
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:162711
+main.ts:164543
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:162711
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:162728
+main.ts:164560
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
+> `static` **fromJS**(`data`): [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:162728
 
 [`OnPageRawHtmlItem`](OnPageRawHtmlItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:162721
+main.ts:164553

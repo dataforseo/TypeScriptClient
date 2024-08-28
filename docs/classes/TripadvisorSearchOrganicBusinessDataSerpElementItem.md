@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new TripadvisorSearchOrganicBusinessDataSerpElementItem(data)
+### new TripadvisorSearchOrganicBusinessDataSerpElementItem()
 
 > **new TripadvisorSearchOrganicBusinessDataSerpElementItem**(`data`?): [`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:216033
+main.ts:217883
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21097
+main.ts:21279
 
 ***
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 place category
 
@@ -66,15 +66,15 @@ place category
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`category`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#category)
 
-#### Source
+#### Defined in
 
-main.ts:216025
+main.ts:217875
 
 ***
 
 ### is\_sponsored?
 
-> **`optional`** **is\_sponsored**: `boolean`
+> `optional` **is\_sponsored**: `boolean`
 
 indicates a sponsored placement
 if true, related tripadvisor_search_organic item is a paid advertising on Tripadvisor
@@ -83,15 +83,15 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`is_sponsored`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#is_sponsored)
 
-#### Source
+#### Defined in
 
-main.ts:216021
+main.ts:217871
 
 ***
 
 ### price\_rate?
 
-> **`optional`** **price\_rate**: `string`
+> `optional` **price\_rate**: `string`
 
 average price rate
 
@@ -99,15 +99,15 @@ average price rate
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`price_rate`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#price_rate)
 
-#### Source
+#### Defined in
 
-main.ts:216027
+main.ts:217877
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed results
 absolute position among all reviews on the list
@@ -116,15 +116,15 @@ absolute position among all reviews on the list
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:216012
+main.ts:217862
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -133,15 +133,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:216009
+main.ts:217859
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the rating score of the establishment submitted by the reviewers
 
@@ -149,15 +149,15 @@ the rating score of the establishment submitted by the reviewers
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`rating`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:216029
+main.ts:217879
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 the total number of reviews
 
@@ -165,15 +165,15 @@ the total number of reviews
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`reviews_count`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#reviews_count)
 
-#### Source
+#### Defined in
 
-main.ts:216023
+main.ts:217873
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 name of the business entity
 
@@ -181,15 +181,15 @@ name of the business entity
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`title`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:216014
+main.ts:217864
 
 ***
 
 ### url\_path?
 
-> **`optional`** **url\_path**: `string`
+> `optional` **url\_path**: `string`
 
 URL path of the business entity
 URL path to the Tripadvisor page of the business entity
@@ -199,9 +199,9 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`url_path`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#url_path)
 
-#### Source
+#### Defined in
 
-main.ts:216018
+main.ts:217868
 
 ## Methods
 
@@ -221,9 +221,9 @@ main.ts:216018
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:216038
+main.ts:217888
 
 ***
 
@@ -243,15 +243,15 @@ main.ts:216038
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:216064
+main.ts:217914
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): [`TripadvisorSearchOrganicBusinessDataSerpElementItem`](TripadvisorSearchOrganicBusinessDataSerpElementItem.md)
 
 #### Parameters
 
@@ -265,6 +265,6 @@ main.ts:216064
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:216057
+main.ts:217907

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,306 +14,306 @@
 
 ### app\_competitors?
 
-> **`optional`** **app\_competitors**: `Object`
+> `optional` **app\_competitors**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82214
+main.ts:82810
 
 ***
 
 ### app\_intersection?
 
-> **`optional`** **app\_intersection**: `Object`
+> `optional` **app\_intersection**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82213
+main.ts:82809
 
 ***
 
 ### categories\_for\_domain?
 
-> **`optional`** **categories\_for\_domain**: `Object`
+> `optional` **categories\_for\_domain**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82203
+main.ts:82799
 
 ***
 
 ### competitors\_domain?
 
-> **`optional`** **competitors\_domain**: `Object`
+> `optional` **competitors\_domain**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82202
+main.ts:82798
 
 ***
 
 ### database\_rows\_count?
 
-> **`optional`** **database\_rows\_count**: `Object`
+> `optional` **database\_rows\_count**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:82216
+main.ts:82812
 
 ***
 
 ### domain\_intersection?
 
-> **`optional`** **domain\_intersection**: `Object`
+> `optional` **domain\_intersection**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82205
+main.ts:82801
 
 ***
 
 ### domain\_metrics\_by\_categories?
 
-> **`optional`** **domain\_metrics\_by\_categories**: `Object`
+> `optional` **domain\_metrics\_by\_categories**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82209
+main.ts:82805
 
 ***
 
 ### domain\_whois\_overview?
 
-> **`optional`** **domain\_whois\_overview**: `Object`
+> `optional` **domain\_whois\_overview**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82207
+main.ts:82803
 
 ***
 
 ### keyword\_ideas?
 
-> **`optional`** **keyword\_ideas**: `Object`
+> `optional` **keyword\_ideas**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82198
+main.ts:82794
 
 ***
 
 ### keyword\_suggestions?
 
-> **`optional`** **keyword\_suggestions**: `Object`
+> `optional` **keyword\_suggestions**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82196
+main.ts:82792
 
 ***
 
 ### keywords\_for\_app?
 
-> **`optional`** **keywords\_for\_app**: `Object`
+> `optional` **keywords\_for\_app**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82215
+main.ts:82811
 
 ***
 
 ### keywords\_for\_categories?
 
-> **`optional`** **keywords\_for\_categories**: `Object`
+> `optional` **keywords\_for\_categories**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82204
+main.ts:82800
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: `Object`
+> `optional` **keywords\_for\_site**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82210
+main.ts:82806
 
 ***
 
 ### page\_intersection?
 
-> **`optional`** **page\_intersection**: `Object`
+> `optional` **page\_intersection**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82206
+main.ts:82802
 
 ***
 
 ### product\_competitors?
 
-> **`optional`** **product\_competitors**: `Object`
+> `optional` **product\_competitors**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82211
+main.ts:82807
 
 ***
 
 ### product\_keyword\_intersections?
 
-> **`optional`** **product\_keyword\_intersections**: `Object`
+> `optional` **product\_keyword\_intersections**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82212
+main.ts:82808
 
 ***
 
 ### ranked\_keywords?
 
-> **`optional`** **ranked\_keywords**: `Object`
+> `optional` **ranked\_keywords**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82197
+main.ts:82793
 
 ***
 
 ### related\_keywords?
 
-> **`optional`** **related\_keywords**: `Object`
+> `optional` **related\_keywords**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82195
+main.ts:82791
 
 ***
 
 ### relevant\_pages?
 
-> **`optional`** **relevant\_pages**: `Object`
+> `optional` **relevant\_pages**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82200
+main.ts:82796
 
 ***
 
 ### serp\_competitors?
 
-> **`optional`** **serp\_competitors**: `Object`
+> `optional` **serp\_competitors**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82199
+main.ts:82795
 
 ***
 
 ### subdomains?
 
-> **`optional`** **subdomains**: `Object`
+> `optional` **subdomains**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82201
+main.ts:82797
 
 ***
 
 ### top\_searches?
 
-> **`optional`** **top\_searches**: `Object`
+> `optional` **top\_searches**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
-#### Source
+#### Defined in
 
-main.ts:82208
+main.ts:82804

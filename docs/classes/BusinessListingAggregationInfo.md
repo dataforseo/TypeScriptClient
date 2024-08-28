@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessListingAggregationInfo(data)
+### new BusinessListingAggregationInfo()
 
 > **new BusinessListingAggregationInfo**(`data`?): [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:202371
+main.ts:204215
 
 ## Properties
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 number of unique entities
 
@@ -44,20 +44,20 @@ number of unique entities
 
 [`IBusinessListingAggregationInfo`](../interfaces/IBusinessListingAggregationInfo.md).[`count`](../interfaces/IBusinessListingAggregationInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:202361
+main.ts:204205
 
 ***
 
 ### top\_attributes?
 
-> **`optional`** **top\_attributes**: `Object`
+> `optional` **top\_attributes**: `object`
 
 the most mentioned service details
 service details of a business entity displayed in a form of checks and the number of entities mentioning each attribute
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -65,20 +65,20 @@ service details of a business entity displayed in a form of checks and the numbe
 
 [`IBusinessListingAggregationInfo`](../interfaces/IBusinessListingAggregationInfo.md).[`top_attributes`](../interfaces/IBusinessListingAggregationInfo.md#top_attributes)
 
-#### Source
+#### Defined in
 
-main.ts:202364
+main.ts:204208
 
 ***
 
 ### top\_categories?
 
-> **`optional`** **top\_categories**: `Object`
+> `optional` **top\_categories**: `object`
 
 the most mentioned related categories
 top categories displayed with the number of businesses in each category
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -86,20 +86,20 @@ top categories displayed with the number of businesses in each category
 
 [`IBusinessListingAggregationInfo`](../interfaces/IBusinessListingAggregationInfo.md).[`top_categories`](../interfaces/IBusinessListingAggregationInfo.md#top_categories)
 
-#### Source
+#### Defined in
 
-main.ts:202354
+main.ts:204198
 
 ***
 
 ### top\_countries?
 
-> **`optional`** **top\_countries**: `Object`
+> `optional` **top\_countries**: `object`
 
 the most mentioned counties
 country codes with the biggest number of businesses in the category
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -107,20 +107,20 @@ country codes with the biggest number of businesses in the category
 
 [`IBusinessListingAggregationInfo`](../interfaces/IBusinessListingAggregationInfo.md).[`top_countries`](../interfaces/IBusinessListingAggregationInfo.md#top_countries)
 
-#### Source
+#### Defined in
 
-main.ts:202357
+main.ts:204201
 
 ***
 
 ### top\_place\_topics?
 
-> **`optional`** **top\_place\_topics**: `Object`
+> `optional` **top\_place\_topics**: `object`
 
 top keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -128,15 +128,15 @@ contains most popular keywords related to products/services mentioned in custome
 
 [`IBusinessListingAggregationInfo`](../interfaces/IBusinessListingAggregationInfo.md).[`top_place_topics`](../interfaces/IBusinessListingAggregationInfo.md#top_place_topics)
 
-#### Source
+#### Defined in
 
-main.ts:202367
+main.ts:204211
 
 ***
 
 ### websites\_count?
 
-> **`optional`** **websites\_count**: `number`
+> `optional` **websites\_count**: `number`
 
 number of unique websites
 
@@ -144,9 +144,9 @@ number of unique websites
 
 [`IBusinessListingAggregationInfo`](../interfaces/IBusinessListingAggregationInfo.md).[`websites_count`](../interfaces/IBusinessListingAggregationInfo.md#websites_count)
 
-#### Source
+#### Defined in
 
-main.ts:202359
+main.ts:204203
 
 ## Methods
 
@@ -162,9 +162,9 @@ main.ts:202359
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:202380
+main.ts:204224
 
 ***
 
@@ -180,15 +180,15 @@ main.ts:202380
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:202426
+main.ts:204270
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
+> `static` **fromJS**(`data`): [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
 #### Parameters
 
@@ -198,6 +198,6 @@ main.ts:202426
 
 [`BusinessListingAggregationInfo`](BusinessListingAggregationInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:202419
+main.ts:204263

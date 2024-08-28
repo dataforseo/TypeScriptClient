@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### anchor\_text?
 
-> **`optional`** **anchor\_text**: `string`
+> `optional` **anchor\_text**: `string`
 
 text of the URL’s anchor
 
-#### Source
+#### Defined in
 
-main.ts:163497
+main.ts:165329
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 other URL found in the content element
 
-#### Source
+#### Defined in
 
-main.ts:163495
+main.ts:165327

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,7 +18,7 @@ device type = desktop contains historical search volume data for searches made f
 
 ## Constructors
 
-### new SearchVolumeHistoryItemInfo(data)
+### new SearchVolumeHistoryItemInfo()
 
 > **new SearchVolumeHistoryItemInfo**(`data`?): [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)
 
@@ -30,15 +30,15 @@ device type = desktop contains historical search volume data for searches made f
 
 [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:137937
+main.ts:137763
 
 ## Properties
 
 ### day?
 
-> **`optional`** **day**: `number`
+> `optional` **day**: `number`
 
 day of the month
 
@@ -46,15 +46,15 @@ day of the month
 
 [`ISearchVolumeHistoryItemInfo`](../interfaces/ISearchVolumeHistoryItemInfo.md).[`day`](../interfaces/ISearchVolumeHistoryItemInfo.md#day)
 
-#### Source
+#### Defined in
 
-main.ts:137931
+main.ts:137757
 
 ***
 
 ### month?
 
-> **`optional`** **month**: `number`
+> `optional` **month**: `number`
 
 month
 
@@ -62,15 +62,15 @@ month
 
 [`ISearchVolumeHistoryItemInfo`](../interfaces/ISearchVolumeHistoryItemInfo.md).[`month`](../interfaces/ISearchVolumeHistoryItemInfo.md#month)
 
-#### Source
+#### Defined in
 
-main.ts:137929
+main.ts:137755
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 search volume rate
 
@@ -78,15 +78,15 @@ search volume rate
 
 [`ISearchVolumeHistoryItemInfo`](../interfaces/ISearchVolumeHistoryItemInfo.md).[`search_volume`](../interfaces/ISearchVolumeHistoryItemInfo.md#search_volume)
 
-#### Source
+#### Defined in
 
-main.ts:137933
+main.ts:137759
 
 ***
 
 ### year?
 
-> **`optional`** **year**: `number`
+> `optional` **year**: `number`
 
 year
 
@@ -94,9 +94,9 @@ year
 
 [`ISearchVolumeHistoryItemInfo`](../interfaces/ISearchVolumeHistoryItemInfo.md).[`year`](../interfaces/ISearchVolumeHistoryItemInfo.md#year)
 
-#### Source
+#### Defined in
 
-main.ts:137927
+main.ts:137753
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:137927
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:137946
+main.ts:137772
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:137946
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:137966
+main.ts:137792
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)
+> `static` **fromJS**(`data`): [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:137966
 
 [`SearchVolumeHistoryItemInfo`](SearchVolumeHistoryItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:137959
+main.ts:137785

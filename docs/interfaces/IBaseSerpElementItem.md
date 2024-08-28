@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -65,6 +65,7 @@
 - [`IDiscussionsAndForumsSerpElementItem`](IDiscussionsAndForumsSerpElementItem.md)
 - [`ICompareSitesSerpElementItem`](ICompareSitesSerpElementItem.md)
 - [`ICoursesSerpElementItem`](ICoursesSerpElementItem.md)
+- [`IAiOverviewSerpElementItem`](IAiOverviewSerpElementItem.md)
 - [`IMapsSearchSerpElementItem`](IMapsSearchSerpElementItem.md)
 - [`IMapsPaidItemSerpElementItem`](IMapsPaidItemSerpElementItem.md)
 - [`INewsSearchSerpElementItem`](INewsSearchSerpElementItem.md)

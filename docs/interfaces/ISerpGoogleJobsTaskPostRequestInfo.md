@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 job posting date
 optional field
@@ -25,15 +25,15 @@ today — return job vacancies posted today;
 week — return job vacancies posted no longer than a week ago;
 month — return job vacancies posted no longer than a month ago
 
-#### Source
+#### Defined in
 
-main.ts:51218
+main.ts:51750
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -44,15 +44,15 @@ Note: your account will be billed per each SERP containing up to 10 results;
 thus, setting the depth above 10 may result in additional charges if the search engine returns more than 10 results;
 if the specified depth is higher than the number of results in the response, the difference will be refunded automatically to your account balance
 
-#### Source
+#### Defined in
 
-main.ts:51203
+main.ts:51735
 
 ***
 
 ### employment\_type?
 
-> **`optional`** **employment\_type**: `string`[]
+> `optional` **employment\_type**: `string`[]
 
 employment contract type
 optional field
@@ -60,15 +60,15 @@ type of employment contract for which the search results will be returned;
 possible values:
 fulltime, partime, contractor, intern
 
-#### Source
+#### Defined in
 
-main.ts:51209
+main.ts:51741
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -79,15 +79,15 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 Note: the keyword you specify must indicate the job title;
 example: .net developer
 
-#### Source
+#### Defined in
 
-main.ts:51151
+main.ts:51683
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -96,15 +96,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:51194
+main.ts:51726
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -113,15 +113,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:51187
+main.ts:51719
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name;
@@ -129,15 +129,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:51172
+main.ts:51704
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -146,15 +146,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:51166
+main.ts:51698
 
 ***
 
 ### location\_radius?
 
-> **`optional`** **location\_radius**: `number`
+> `optional` **location\_radius**: `number`
 
 location search radius
 optional field
@@ -164,15 +164,15 @@ if value is not specified, search is executed anywhere within the specified loca
 maximal value: 300
 minimal value: > 0
 
-#### Source
+#### Defined in
 
-main.ts:51180
+main.ts:51712
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -184,15 +184,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:51250
+main.ts:51782
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -200,15 +200,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 regular, advanced, html
 
-#### Source
+#### Defined in
 
-main.ts:51240
+main.ts:51772
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -220,15 +220,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:51234
+main.ts:51766
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -238,15 +238,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority;
 The cost can be calculated on the Pricing page
 
-#### Source
+#### Defined in
 
-main.ts:51159
+main.ts:51691
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -254,6 +254,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:51224
+main.ts:51756

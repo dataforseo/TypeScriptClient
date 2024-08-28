@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new FetchTiming(data)
+### new FetchTiming()
 
 > **new FetchTiming**(`data`?): [`FetchTiming`](FetchTiming.md)
 
@@ -28,15 +28,15 @@
 
 [`FetchTiming`](FetchTiming.md)
 
-#### Source
+#### Defined in
 
-main.ts:157584
+main.ts:159412
 
 ## Properties
 
 ### duration\_time?
 
-> **`optional`** **duration\_time**: `number`
+> `optional` **duration\_time**: `number`
 
 indicates how many milliseconds it took to fetch a resource
 
@@ -44,15 +44,15 @@ indicates how many milliseconds it took to fetch a resource
 
 [`IFetchTiming`](../interfaces/IFetchTiming.md).[`duration_time`](../interfaces/IFetchTiming.md#duration_time)
 
-#### Source
+#### Defined in
 
-main.ts:157574
+main.ts:159402
 
 ***
 
 ### fetch\_end?
 
-> **`optional`** **fetch\_end**: `number`
+> `optional` **fetch\_end**: `number`
 
 time to complete downloading the resource
 the amount of time a browser needs to complete downloading a resource
@@ -61,15 +61,15 @@ the amount of time a browser needs to complete downloading a resource
 
 [`IFetchTiming`](../interfaces/IFetchTiming.md).[`fetch_end`](../interfaces/IFetchTiming.md#fetch_end)
 
-#### Source
+#### Defined in
 
-main.ts:157580
+main.ts:159408
 
 ***
 
 ### fetch\_start?
 
-> **`optional`** **fetch\_start**: `number`
+> `optional` **fetch\_start**: `number`
 
 time to start downloading the resource
 the amount of time a browser needs to start downloading a resource
@@ -78,9 +78,9 @@ the amount of time a browser needs to start downloading a resource
 
 [`IFetchTiming`](../interfaces/IFetchTiming.md).[`fetch_start`](../interfaces/IFetchTiming.md#fetch_start)
 
-#### Source
+#### Defined in
 
-main.ts:157577
+main.ts:159405
 
 ## Methods
 
@@ -96,9 +96,9 @@ main.ts:157577
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:157593
+main.ts:159421
 
 ***
 
@@ -114,15 +114,15 @@ main.ts:157593
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:157612
+main.ts:159440
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`FetchTiming`](FetchTiming.md)
+> `static` **fromJS**(`data`): [`FetchTiming`](FetchTiming.md)
 
 #### Parameters
 
@@ -132,6 +132,6 @@ main.ts:157612
 
 [`FetchTiming`](FetchTiming.md)
 
-#### Source
+#### Defined in
 
-main.ts:157605
+main.ts:159433

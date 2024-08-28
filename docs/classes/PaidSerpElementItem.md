@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new PaidSerpElementItem(data)
+### new PaidSerpElementItem()
 
 > **new PaidSerpElementItem**(`data`?): [`PaidSerpElementItem`](PaidSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:26554
+main.ts:26736
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### breadcrumb?
 
-> **`optional`** **breadcrumb**: `string`
+> `optional` **breadcrumb**: `string`
 
 breadcrumb in SERP
 
@@ -66,15 +66,15 @@ breadcrumb in SERP
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`breadcrumb`](../interfaces/IPaidSerpElementItem.md#breadcrumb)
 
-#### Source
+#### Defined in
 
-main.ts:26520
+main.ts:26702
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
@@ -82,15 +82,15 @@ description of the results element in SERP
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`description`](../interfaces/IPaidSerpElementItem.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:26534
+main.ts:26716
 
 ***
 
 ### description\_rows?
 
-> **`optional`** **description\_rows**: `string`[]
+> `optional` **description\_rows**: `string`[]
 
 extended description
 if there is none, equals null
@@ -99,15 +99,15 @@ if there is none, equals null
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`description_rows`](../interfaces/IPaidSerpElementItem.md#description_rows)
 
-#### Source
+#### Defined in
 
-main.ts:26537
+main.ts:26719
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -115,19 +115,19 @@ website domain
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`domain`](../interfaces/IPaidSerpElementItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:26518
+main.ts:26700
 
 ***
 
 ### extra?
 
-> **`optional`** **extra**: `Object`
+> `optional` **extra**: `object`
 
 additional information about the result
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -135,15 +135,15 @@ additional information about the result
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`extra`](../interfaces/IPaidSerpElementItem.md#extra)
 
-#### Source
+#### Defined in
 
-main.ts:26532
+main.ts:26714
 
 ***
 
 ### highlighted?
 
-> **`optional`** **highlighted**: `string`[]
+> `optional` **highlighted**: `string`[]
 
 words highlighted in bold within the results description
 
@@ -151,15 +151,15 @@ words highlighted in bold within the results description
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`highlighted`](../interfaces/IPaidSerpElementItem.md#highlighted)
 
-#### Source
+#### Defined in
 
-main.ts:26530
+main.ts:26712
 
 ***
 
 ### images?
 
-> **`optional`** **images**: [`ImagesElement`](ImagesElement.md)[]
+> `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
 images of the element
 
@@ -167,15 +167,15 @@ images of the element
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`images`](../interfaces/IPaidSerpElementItem.md#images)
 
-#### Source
+#### Defined in
 
-main.ts:26526
+main.ts:26708
 
 ***
 
 ### is\_image?
 
-> **`optional`** **is\_image**: `boolean`
+> `optional` **is\_image**: `boolean`
 
 indicates whether the element contains an image
 
@@ -183,15 +183,15 @@ indicates whether the element contains an image
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`is_image`](../interfaces/IPaidSerpElementItem.md#is_image)
 
-#### Source
+#### Defined in
 
-main.ts:26522
+main.ts:26704
 
 ***
 
 ### is\_video?
 
-> **`optional`** **is\_video**: `boolean`
+> `optional` **is\_video**: `boolean`
 
 indicates whether the element contains a video
 
@@ -199,15 +199,15 @@ indicates whether the element contains a video
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`is_video`](../interfaces/IPaidSerpElementItem.md#is_video)
 
-#### Source
+#### Defined in
 
-main.ts:26524
+main.ts:26706
 
 ***
 
 ### links?
 
-> **`optional`** **links**: [`AdLinkElement`](AdLinkElement.md)[]
+> `optional` **links**: [`AdLinkElement`](AdLinkElement.md)[]
 
 sitelinks
 the links shown below some of Google’s search results
@@ -217,15 +217,15 @@ if there are none, equals null
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`links`](../interfaces/IPaidSerpElementItem.md#links)
 
-#### Source
+#### Defined in
 
-main.ts:26541
+main.ts:26723
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
@@ -235,15 +235,15 @@ left, right
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`position`](../interfaces/IPaidSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:26512
+main.ts:26694
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 pricing details
 contains the pricing details of the product or service featured in the result
@@ -252,15 +252,15 @@ contains the pricing details of the product or service featured in the result
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`price`](../interfaces/IPaidSerpElementItem.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:26544
+main.ts:26726
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -269,15 +269,15 @@ absolute position among all the elements in SERP
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`rank_absolute`](../interfaces/IPaidSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:26508
+main.ts:26690
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -287,15 +287,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`rank_group`](../interfaces/IPaidSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:26505
+main.ts:26687
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP
@@ -305,15 +305,15 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`rectangle`](../interfaces/IPaidSerpElementItem.md#rectangle)
 
-#### Source
+#### Defined in
 
-main.ts:26548
+main.ts:26730
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the result in SERP
 
@@ -321,15 +321,15 @@ title of the result in SERP
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`title`](../interfaces/IPaidSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:26516
+main.ts:26698
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 relevant URL in SERP
 
@@ -337,15 +337,15 @@ relevant URL in SERP
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`url`](../interfaces/IPaidSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:26528
+main.ts:26710
 
 ***
 
 ### website\_name?
 
-> **`optional`** **website\_name**: `string`
+> `optional` **website\_name**: `string`
 
 website name in SERP
 
@@ -353,15 +353,15 @@ website name in SERP
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`website_name`](../interfaces/IPaidSerpElementItem.md#website_name)
 
-#### Source
+#### Defined in
 
-main.ts:26550
+main.ts:26732
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -369,9 +369,9 @@ the XPath of the element
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`xpath`](../interfaces/IPaidSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:26514
+main.ts:26696
 
 ## Methods
 
@@ -391,9 +391,9 @@ main.ts:26514
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:26559
+main.ts:26741
 
 ***
 
@@ -413,15 +413,15 @@ main.ts:26559
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:26617
+main.ts:26799
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PaidSerpElementItem`](PaidSerpElementItem.md)
+> `static` **fromJS**(`data`): [`PaidSerpElementItem`](PaidSerpElementItem.md)
 
 #### Parameters
 
@@ -435,6 +435,6 @@ main.ts:26617
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:26610
+main.ts:26792

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,59 +16,59 @@ content rating rating related to content_info
 
 ### max\_rating\_value?
 
-> **`optional`** **max\_rating\_value**: `string`
+> `optional` **max\_rating\_value**: `string`
 
 maximum value for the rating name
 
-#### Source
+#### Defined in
 
-main.ts:168289
+main.ts:170121
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 rating name
 here you can find the following elements: Max5, Percents, CustomMax
 
-#### Source
+#### Defined in
 
-main.ts:168283
+main.ts:170115
 
 ***
 
 ### rating\_count?
 
-> **`optional`** **rating\_count**: `number`
+> `optional` **rating\_count**: `number`
 
 number of votes
 
-#### Source
+#### Defined in
 
-main.ts:168287
+main.ts:170119
 
 ***
 
 ### rating\_value?
 
-> **`optional`** **rating\_value**: `number`
+> `optional` **rating\_value**: `number`
 
 the value of the rating
 
-#### Source
+#### Defined in
 
-main.ts:168285
+main.ts:170117
 
 ***
 
 ### relative\_rating?
 
-> **`optional`** **relative\_rating**: `number`
+> `optional` **relative\_rating**: `number`
 
 relative rating
 
-#### Source
+#### Defined in
 
-main.ts:168291
+main.ts:170123

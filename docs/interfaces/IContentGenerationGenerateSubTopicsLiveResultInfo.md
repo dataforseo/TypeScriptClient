@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### input\_tokens?
 
-> **`optional`** **input\_tokens**: `number`
+> `optional` **input\_tokens**: `number`
 
 number of input tokens
 
-#### Source
+#### Defined in
 
-main.ts:172897
+main.ts:174729
 
 ***
 
 ### new\_tokens?
 
-> **`optional`** **new\_tokens**: `number`
+> `optional` **new\_tokens**: `number`
 
 number of new tokens
 
-#### Source
+#### Defined in
 
-main.ts:172901
+main.ts:174733
 
 ***
 
 ### output\_tokens?
 
-> **`optional`** **output\_tokens**: `number`
+> `optional` **output\_tokens**: `number`
 
 number of output tokens
 
-#### Source
+#### Defined in
 
-main.ts:172899
+main.ts:174731
 
 ***
 
 ### sub\_topics?
 
-> **`optional`** **sub\_topics**: `string`[]
+> `optional` **sub\_topics**: `string`[]
 
 resulting subtopics
 
-#### Source
+#### Defined in
 
-main.ts:172903
+main.ts:174735

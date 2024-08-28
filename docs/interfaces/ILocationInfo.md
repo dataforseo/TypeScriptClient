@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,60 +14,60 @@
 
 ### address?
 
-> **`optional`** **address**: `string`
+> `optional` **address**: `string`
 
 address of the event’s venue
 
-#### Source
+#### Defined in
 
-main.ts:47256
+main.ts:47788
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment;
 can be used with Google Reviews API to get a full list of reviews
 
-#### Source
+#### Defined in
 
-main.ts:47262
+main.ts:47794
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 
-#### Source
+#### Defined in
 
-main.ts:47264
+main.ts:47796
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 name of the event’s venue
 
-#### Source
+#### Defined in
 
-main.ts:47254
+main.ts:47786
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the event’s venue on google maps
 
-#### Source
+#### Defined in
 
-main.ts:47258
+main.ts:47790

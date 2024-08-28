@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,13 +14,13 @@
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain
 required field
 domain name of the website to analyze
 Note: results will be returned for the specified domain only
 
-#### Source
+#### Defined in
 
-main.ts:79596
+main.ts:80192

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ShoppingElement(data)
+### new ShoppingElement()
 
 > **new ShoppingElement**(`data`?): [`ShoppingElement`](ShoppingElement.md)
 
@@ -28,15 +28,15 @@
 
 [`ShoppingElement`](ShoppingElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:32004
+main.ts:32200
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`description`](../interfaces/IShoppingElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:31990
+main.ts:32186
 
 ***
 
 ### marketplace?
 
-> **`optional`** **marketplace**: `string`
+> `optional` **marketplace**: `string`
 
 merchant account provider
 commerce site that hosts products or websites of individual sellers under the same merchant account
@@ -63,15 +63,15 @@ by Google
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`marketplace`](../interfaces/IShoppingElement.md#marketplace)
 
-#### Source
+#### Defined in
 
-main.ts:31995
+main.ts:32191
 
 ***
 
 ### marketplace\_url?
 
-> **`optional`** **marketplace\_url**: `string`
+> `optional` **marketplace\_url**: `string`
 
 relevant marketplace URL
 URL of the page on the marketplace website where the product is hosted
@@ -80,15 +80,15 @@ URL of the page on the marketplace website where the product is hosted
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`marketplace_url`](../interfaces/IShoppingElement.md#marketplace_url)
 
-#### Source
+#### Defined in
 
-main.ts:31998
+main.ts:32194
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
@@ -96,15 +96,15 @@ price indicated in the element
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`price`](../interfaces/IShoppingElement.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:31985
+main.ts:32181
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -113,15 +113,15 @@ indicates the source of information included in the top_stories_element
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`source`](../interfaces/IShoppingElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:31988
+main.ts:32184
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -129,15 +129,15 @@ title of a given link element
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`title`](../interfaces/IShoppingElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:31983
+main.ts:32179
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -145,15 +145,15 @@ type of element
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`type`](../interfaces/IShoppingElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:31981
+main.ts:32177
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -161,9 +161,9 @@ URL
 
 [`IShoppingElement`](../interfaces/IShoppingElement.md).[`url`](../interfaces/IShoppingElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:32000
+main.ts:32196
 
 ## Methods
 
@@ -179,9 +179,9 @@ main.ts:32000
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:32013
+main.ts:32209
 
 ***
 
@@ -197,15 +197,15 @@ main.ts:32013
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:32037
+main.ts:32233
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ShoppingElement`](ShoppingElement.md)
+> `static` **fromJS**(`data`): [`ShoppingElement`](ShoppingElement.md)
 
 #### Parameters
 
@@ -215,6 +215,6 @@ main.ts:32037
 
 [`ShoppingElement`](ShoppingElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:32030
+main.ts:32226

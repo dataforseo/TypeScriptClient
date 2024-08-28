@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksAnchorsLiveItem(data)
+### new BacklinksAnchorsLiveItem()
 
 > **new BacklinksAnchorsLiveItem**(`data`?): [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:142903
+main.ts:144729
 
 ## Properties
 
 ### anchor?
 
-> **`optional`** **anchor**: `string`
+> `optional` **anchor**: `string`
 
 anchor of the backlink
 
@@ -44,15 +44,15 @@ anchor of the backlink
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`anchor`](../interfaces/IBacklinksAnchorsLiveItem.md#anchor)
 
-#### Source
+#### Defined in
 
-main.ts:142832
+main.ts:144658
 
 ***
 
 ### backlinks?
 
-> **`optional`** **backlinks**: `number`
+> `optional` **backlinks**: `number`
 
 indicates the number of backlinks
 
@@ -60,15 +60,15 @@ indicates the number of backlinks
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`backlinks`](../interfaces/IBacklinksAnchorsLiveItem.md#backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:142839
+main.ts:144665
 
 ***
 
 ### backlinks\_spam\_score?
 
-> **`optional`** **backlinks\_spam\_score**: `number`
+> `optional` **backlinks\_spam\_score**: `number`
 
 average spam score of all backlinks with this anchor
 learn more about how the metric is calculated on this help center page
@@ -77,15 +77,15 @@ learn more about how the metric is calculated on this help center page
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`backlinks_spam_score`](../interfaces/IBacklinksAnchorsLiveItem.md#backlinks_spam_score)
 
-#### Source
+#### Defined in
 
-main.ts:142853
+main.ts:144679
 
 ***
 
 ### broken\_backlinks?
 
-> **`optional`** **broken\_backlinks**: `number`
+> `optional` **broken\_backlinks**: `number`
 
 number of broken backlinks
 number of broken backlinks pointing to the target
@@ -94,15 +94,15 @@ number of broken backlinks pointing to the target
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`broken_backlinks`](../interfaces/IBacklinksAnchorsLiveItem.md#broken_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:142856
+main.ts:144682
 
 ***
 
 ### broken\_pages?
 
-> **`optional`** **broken\_pages**: `number`
+> `optional` **broken\_pages**: `number`
 
 number of broken pages
 number of pages that respond with 4xx or 5xx status codes where backlinks are pointing to
@@ -111,15 +111,15 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`broken_pages`](../interfaces/IBacklinksAnchorsLiveItem.md#broken_pages)
 
-#### Source
+#### Defined in
 
-main.ts:142859
+main.ts:144685
 
 ***
 
 ### first\_seen?
 
-> **`optional`** **first\_seen**: `string`
+> `optional` **first\_seen**: `string`
 
 date and time when our crawler found the backlink with this anchor for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -130,15 +130,15 @@ example:
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`first_seen`](../interfaces/IBacklinksAnchorsLiveItem.md#first_seen)
 
-#### Source
+#### Defined in
 
-main.ts:142844
+main.ts:144670
 
 ***
 
 ### lost\_date?
 
-> **`optional`** **lost\_date**: `string`
+> `optional` **lost\_date**: `string`
 
 date and time when the last backlink with this anchor was lost
 indicates the date and time when our crawler visited the page and it responded with 4xx or 5xx status code or the last backlink was removed
@@ -150,15 +150,15 @@ example:
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`lost_date`](../interfaces/IBacklinksAnchorsLiveItem.md#lost_date)
 
-#### Source
+#### Defined in
 
-main.ts:142850
+main.ts:144676
 
 ***
 
 ### rank?
 
-> **`optional`** **rank**: `number`
+> `optional` **rank**: `number`
 
 rank of the anchor links
 rank volume that referring websites pass to the target through links with a particular anchor
@@ -169,15 +169,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`rank`](../interfaces/IBacklinksAnchorsLiveItem.md#rank)
 
-#### Source
+#### Defined in
 
-main.ts:142837
+main.ts:144663
 
 ***
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: `number`
+> `optional` **referring\_domains**: `number`
 
 indicates the number of referring domains
 
@@ -185,15 +185,15 @@ indicates the number of referring domains
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_domains`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:142861
+main.ts:144687
 
 ***
 
 ### referring\_domains\_nofollow?
 
-> **`optional`** **referring\_domains\_nofollow**: `number`
+> `optional` **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the target
 
@@ -201,15 +201,15 @@ number of domains pointing at least one nofollow link to the target
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_domains_nofollow`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:142863
+main.ts:144689
 
 ***
 
 ### referring\_ips?
 
-> **`optional`** **referring\_ips**: `number`
+> `optional` **referring\_ips**: `number`
 
 number of referring IP addresses
 number of IP addresses pointing to this page
@@ -218,20 +218,20 @@ number of IP addresses pointing to this page
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_ips`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_ips)
 
-#### Source
+#### Defined in
 
-main.ts:142870
+main.ts:144696
 
 ***
 
 ### referring\_links\_attributes?
 
-> **`optional`** **referring\_links\_attributes**: `Object`
+> `optional` **referring\_links\_attributes**: `object`
 
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -239,20 +239,20 @@ indicates link attributes of the referring links and link count per each attribu
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_links_attributes`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_links_attributes)
 
-#### Source
+#### Defined in
 
-main.ts:142887
+main.ts:144713
 
 ***
 
 ### referring\_links\_countries?
 
-> **`optional`** **referring\_links\_countries**: `Object`
+> `optional` **referring\_links\_countries**: `object`
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -260,20 +260,20 @@ indicates ISO country codes of the domains where the referring links are located
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_links_countries`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_links_countries)
 
-#### Source
+#### Defined in
 
-main.ts:142899
+main.ts:144725
 
 ***
 
 ### referring\_links\_platform\_types?
 
-> **`optional`** **referring\_links\_platform\_types**: `Object`
+> `optional` **referring\_links\_platform\_types**: `object`
 
 types of referring platforms
 indicates referring platform types and and link count per each platform
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -281,15 +281,15 @@ indicates referring platform types and and link count per each platform
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_links_platform_types`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_links_platform_types)
 
-#### Source
+#### Defined in
 
-main.ts:142890
+main.ts:144716
 
 ***
 
 ### referring\_links\_semantic\_locations?
 
-> **`optional`** **referring\_links\_semantic\_locations**: `Object`
+> `optional` **referring\_links\_semantic\_locations**: `object`
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -297,7 +297,7 @@ you can get the full list of semantic elements here
 examples:
 article, section, summary
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -305,20 +305,20 @@ article, section, summary
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_links_semantic_locations`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_links_semantic_locations)
 
-#### Source
+#### Defined in
 
-main.ts:142896
+main.ts:144722
 
 ***
 
 ### referring\_links\_tld?
 
-> **`optional`** **referring\_links\_tld**: `Object`
+> `optional` **referring\_links\_tld**: `object`
 
 top-level domains of the referring links
 contains top level domains and referring link count per each
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -326,22 +326,22 @@ contains top level domains and referring link count per each
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_links_tld`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_links_tld)
 
-#### Source
+#### Defined in
 
-main.ts:142879
+main.ts:144705
 
 ***
 
 ### referring\_links\_types?
 
-> **`optional`** **referring\_links\_types**: `Object`
+> `optional` **referring\_links\_types**: `object`
 
 types of referring links
 indicates the types of the referring links and link count per each type
 possible values:
 anchor, image, link, meta, canonical, alternate, redirect
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -349,15 +349,15 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_links_types`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_links_types)
 
-#### Source
+#### Defined in
 
-main.ts:142884
+main.ts:144710
 
 ***
 
 ### referring\_main\_domains?
 
-> **`optional`** **referring\_main\_domains**: `number`
+> `optional` **referring\_main\_domains**: `number`
 
 indicates the number of referring main domains
 
@@ -365,15 +365,15 @@ indicates the number of referring main domains
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_main_domains`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_main_domains)
 
-#### Source
+#### Defined in
 
-main.ts:142865
+main.ts:144691
 
 ***
 
 ### referring\_main\_domains\_nofollow?
 
-> **`optional`** **referring\_main\_domains\_nofollow**: `number`
+> `optional` **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -381,15 +381,15 @@ number of main domains pointing at least one nofollow link to the target
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_main_domains_nofollow`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_main_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:142867
+main.ts:144693
 
 ***
 
 ### referring\_pages?
 
-> **`optional`** **referring\_pages**: `number`
+> `optional` **referring\_pages**: `number`
 
 indicates the number of pages pointing to target with this anchor
 
@@ -397,15 +397,15 @@ indicates the number of pages pointing to target with this anchor
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_pages`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_pages)
 
-#### Source
+#### Defined in
 
-main.ts:142874
+main.ts:144700
 
 ***
 
 ### referring\_pages\_nofollow?
 
-> **`optional`** **referring\_pages\_nofollow**: `number`
+> `optional` **referring\_pages\_nofollow**: `number`
 
 number of referring pages pointing at least one nofollow link to the target with this anchor
 
@@ -413,15 +413,15 @@ number of referring pages pointing at least one nofollow link to the target with
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_pages_nofollow`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_pages_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:142876
+main.ts:144702
 
 ***
 
 ### referring\_subnets?
 
-> **`optional`** **referring\_subnets**: `number`
+> `optional` **referring\_subnets**: `number`
 
 number of referring subnetworks
 
@@ -429,15 +429,15 @@ number of referring subnetworks
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`referring_subnets`](../interfaces/IBacklinksAnchorsLiveItem.md#referring_subnets)
 
-#### Source
+#### Defined in
 
-main.ts:142872
+main.ts:144698
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -445,9 +445,9 @@ type of element
 
 [`IBacklinksAnchorsLiveItem`](../interfaces/IBacklinksAnchorsLiveItem.md).[`type`](../interfaces/IBacklinksAnchorsLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:142830
+main.ts:144656
 
 ## Methods
 
@@ -463,9 +463,9 @@ main.ts:142830
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:142912
+main.ts:144738
 
 ***
 
@@ -481,15 +481,15 @@ main.ts:142912
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:142987
+main.ts:144813
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)
 
 #### Parameters
 
@@ -499,6 +499,6 @@ main.ts:142987
 
 [`BacklinksAnchorsLiveItem`](BacklinksAnchorsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:142980
+main.ts:144806

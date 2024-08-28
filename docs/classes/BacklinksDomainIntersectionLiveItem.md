@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksDomainIntersectionLiveItem(data)
+### new BacklinksDomainIntersectionLiveItem()
 
 > **new BacklinksDomainIntersectionLiveItem**(`data`?): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
@@ -28,20 +28,20 @@
 
 [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:147999
+main.ts:149825
 
 ## Properties
 
 ### domain\_intersection?
 
-> **`optional`** **domain\_intersection**: `Object`
+> `optional` **domain\_intersection**: `object`
 
 contains data on domains that link to the corresponding targets specified in the POST array
 data is provided in separate objects corresponding to domains, subdomains or pages specified in the targets object
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`BacklinksDomainIntersectionInfo`](BacklinksDomainIntersectionInfo.md)
 
@@ -49,15 +49,15 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 [`IBacklinksDomainIntersectionLiveItem`](../interfaces/IBacklinksDomainIntersectionLiveItem.md).[`domain_intersection`](../interfaces/IBacklinksDomainIntersectionLiveItem.md#domain_intersection)
 
-#### Source
+#### Defined in
 
-main.ts:147993
+main.ts:149819
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
+> `optional` **summary**: [`IntersectionSummaryInfo`](IntersectionSummaryInfo.md)
 
 contains the domain intersections summary
 
@@ -65,9 +65,9 @@ contains the domain intersections summary
 
 [`IBacklinksDomainIntersectionLiveItem`](../interfaces/IBacklinksDomainIntersectionLiveItem.md).[`summary`](../interfaces/IBacklinksDomainIntersectionLiveItem.md#summary)
 
-#### Source
+#### Defined in
 
-main.ts:147995
+main.ts:149821
 
 ## Methods
 
@@ -83,9 +83,9 @@ main.ts:147995
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:148008
+main.ts:149834
 
 ***
 
@@ -101,15 +101,15 @@ main.ts:148008
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:148032
+main.ts:149858
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
 #### Parameters
 
@@ -119,6 +119,6 @@ main.ts:148032
 
 [`BacklinksDomainIntersectionLiveItem`](BacklinksDomainIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:148025
+main.ts:149851

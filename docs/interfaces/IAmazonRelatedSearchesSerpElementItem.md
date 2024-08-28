@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,62 +18,62 @@
 
 ### items?
 
-> **`optional`** **items**: [`RelatedSearchesElement`](../classes/RelatedSearchesElement.md)[]
+> `optional` **items**: [`RelatedSearchesElement`](../classes/RelatedSearchesElement.md)[]
 
 Amazon product items
 
-#### Source
+#### Defined in
 
-main.ts:183216
+main.ts:185048
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in Amazon SERP
 possible values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:183212
+main.ts:185044
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Amazon SERP
 
-#### Source
+#### Defined in
 
-main.ts:183208
+main.ts:185040
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:183205
+main.ts:185037
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:183214
+main.ts:185046

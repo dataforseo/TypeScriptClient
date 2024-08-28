@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Redirect(data)
+### new Redirect()
 
 > **new Redirect**(`data`?): [`Redirect`](Redirect.md)
 
@@ -28,15 +28,15 @@
 
 [`Redirect`](Redirect.md)
 
-#### Source
+#### Defined in
 
-main.ts:141814
+main.ts:143640
 
 ## Properties
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 HTTP status code of the URL
 
@@ -44,15 +44,15 @@ HTTP status code of the URL
 
 [`IRedirect`](../interfaces/IRedirect.md).[`status_code`](../interfaces/IRedirect.md#status_code)
 
-#### Source
+#### Defined in
 
-main.ts:141808
+main.ts:143634
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -60,15 +60,15 @@ type of element
 
 [`IRedirect`](../interfaces/IRedirect.md).[`type`](../interfaces/IRedirect.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:141806
+main.ts:143632
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 indirect link URL
 
@@ -76,9 +76,9 @@ indirect link URL
 
 [`IRedirect`](../interfaces/IRedirect.md).[`url`](../interfaces/IRedirect.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:141810
+main.ts:143636
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:141810
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:141823
+main.ts:143649
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:141823
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:141842
+main.ts:143668
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Redirect`](Redirect.md)
+> `static` **fromJS**(`data`): [`Redirect`](Redirect.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:141842
 
 [`Redirect`](Redirect.md)
 
-#### Source
+#### Defined in
 
-main.ts:141835
+main.ts:143661

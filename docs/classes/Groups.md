@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Groups(data)
+### new Groups()
 
 > **new Groups**(`data`?): [`Groups`](Groups.md)
 
@@ -28,15 +28,15 @@
 
 [`Groups`](Groups.md)
 
-#### Source
+#### Defined in
 
-main.ts:76669
+main.ts:77265
 
 ## Properties
 
 ### categories?
 
-> **`optional`** **categories**: [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)[]
+> `optional` **categories**: [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)[]
 
 technology categories in this group
 
@@ -44,15 +44,15 @@ technology categories in this group
 
 [`IGroups`](../interfaces/IGroups.md).[`categories`](../interfaces/IGroups.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:76665
+main.ts:77261
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the technology group
 example:
@@ -62,15 +62,15 @@ marketing, sales
 
 [`IGroups`](../interfaces/IGroups.md).[`id`](../interfaces/IGroups.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:76661
+main.ts:77257
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the technology group
 
@@ -78,9 +78,9 @@ title of the technology group
 
 [`IGroups`](../interfaces/IGroups.md).[`title`](../interfaces/IGroups.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:76663
+main.ts:77259
 
 ## Methods
 
@@ -96,9 +96,9 @@ main.ts:76663
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:76678
+main.ts:77274
 
 ***
 
@@ -114,15 +114,15 @@ main.ts:76678
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:76701
+main.ts:77297
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Groups`](Groups.md)
+> `static` **fromJS**(`data`): [`Groups`](Groups.md)
 
 #### Parameters
 
@@ -132,6 +132,6 @@ main.ts:76701
 
 [`Groups`](Groups.md)
 
-#### Source
+#### Defined in
 
-main.ts:76694
+main.ts:77290

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataBusinessListingsAvailableFiltersResultInfo(data)
+### new BusinessDataBusinessListingsAvailableFiltersResultInfo()
 
 > **new BusinessDataBusinessListingsAvailableFiltersResultInfo**(`data`?): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
@@ -28,17 +28,17 @@
 
 [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:200747
+main.ts:202579
 
 ## Properties
 
 ### categories\_aggregation?
 
-> **`optional`** **categories\_aggregation**: `Object`
+> `optional` **categories\_aggregation**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -46,17 +46,17 @@ main.ts:200747
 
 [`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md).[`categories_aggregation`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#categories_aggregation)
 
-#### Source
+#### Defined in
 
-main.ts:200743
+main.ts:202575
 
 ***
 
 ### search?
 
-> **`optional`** **search**: `Object`
+> `optional` **search**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -64,9 +64,9 @@ main.ts:200743
 
 [`IBusinessDataBusinessListingsAvailableFiltersResultInfo`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md).[`search`](../interfaces/IBusinessDataBusinessListingsAvailableFiltersResultInfo.md#search)
 
-#### Source
+#### Defined in
 
-main.ts:200742
+main.ts:202574
 
 ## Methods
 
@@ -82,9 +82,9 @@ main.ts:200742
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:200756
+main.ts:202588
 
 ***
 
@@ -100,15 +100,15 @@ main.ts:200756
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:200786
+main.ts:202618
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
 #### Parameters
 
@@ -118,6 +118,6 @@ main.ts:200786
 
 [`BusinessDataBusinessListingsAvailableFiltersResultInfo`](BusinessDataBusinessListingsAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:200779
+main.ts:202611

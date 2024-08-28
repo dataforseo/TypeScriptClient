@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisSearchLiveRequestInfo(data)
+### new ContentAnalysisSearchLiveRequestInfo()
 
 > **new ContentAnalysisSearchLiveRequestInfo**(`data`?): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
@@ -28,26 +28,26 @@
 
 [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:168031
+main.ts:169863
 
 ## Properties
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in, like,not_like
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["country","=", "US"]
-[["domain_rank",">`",800],"and",["content_info.connotation_types.negative",">",0.9]]
+[["domain_rank",">",800],"and",["content_info.connotation_types.negative",">",0.9]]
 [["domain_rank",">",800],
 "and",
 [["page_types","has","ecommerce"],
@@ -59,15 +59,15 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`filters`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:167992
+main.ts:169824
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 target keyword
 required field
@@ -82,15 +82,15 @@ example:
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`keyword`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:167945
+main.ts:169777
 
 ***
 
 ### keyword\_fields?
 
-> **`optional`** **keyword\_fields**: `Object`
+> `optional` **keyword\_fields**: `object`
 
 target keyword fields and target keywords
 optional field
@@ -99,12 +99,12 @@ fields you can specify: title, main_title, previous_title, snippet
 you can indicate several fields;
 Note: to match an exact phrase instead of a stand-alone keyword, use double quotes and backslashes;
 example:
-"keyword_fields": \{
+"keyword_fields": {
     "snippet": "\"logitech mouse\"",
     "main_title": "sale"
-\}
+}
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -112,15 +112,15 @@ example:
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`keyword_fields`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#keyword_fields)
 
-#### Source
+#### Defined in
 
-main.ts:167957
+main.ts:169789
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned citations
 optional field
@@ -131,15 +131,15 @@ maximum value: 1000
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`limit`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:167975
+main.ts:169807
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned citations
 optional field
@@ -150,15 +150,15 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`offset`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:168013
+main.ts:169845
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 offset token for subsequent requests
 optional field
@@ -172,15 +172,15 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`offset_token`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#offset_token)
 
-#### Source
+#### Defined in
 
-main.ts:168021
+main.ts:169853
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -202,15 +202,15 @@ example:
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`order_by`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:168008
+main.ts:169840
 
 ***
 
 ### page\_type?
 
-> **`optional`** **page\_type**: `string`[]
+> `optional` **page\_type**: `string`[]
 
 target page types
 optional field
@@ -222,15 +222,15 @@ possible values:
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#page_type)
 
-#### Source
+#### Defined in
 
-main.ts:167963
+main.ts:169795
 
 ***
 
 ### search\_mode?
 
-> **`optional`** **search\_mode**: `string`
+> `optional` **search\_mode**: `string`
 
 results grouping type
 optional field
@@ -243,15 +243,15 @@ default value: as_is
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`search_mode`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#search_mode)
 
-#### Source
+#### Defined in
 
-main.ts:167970
+main.ts:169802
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -263,9 +263,9 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisSearchLiveRequestInfo`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisSearchLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:168027
+main.ts:169859
 
 ## Methods
 
@@ -281,9 +281,9 @@ main.ts:168027
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:168040
+main.ts:169872
 
 ***
 
@@ -299,15 +299,15 @@ main.ts:168040
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:168084
+main.ts:169916
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
 #### Parameters
 
@@ -317,6 +317,6 @@ main.ts:168084
 
 [`ContentAnalysisSearchLiveRequestInfo`](ContentAnalysisSearchLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:168077
+main.ts:169909

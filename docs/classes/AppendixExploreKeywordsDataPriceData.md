@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixExploreKeywordsDataPriceData(data)
+### new AppendixExploreKeywordsDataPriceData()
 
 > **new AppendixExploreKeywordsDataPriceData**(`data`?): [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
 
@@ -28,51 +28,51 @@
 
 [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221841
+main.ts:226113
 
 ## Properties
 
 ### live?
 
-> **`optional`** **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **live**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixExploreKeywordsDataPriceData`](../interfaces/IAppendixExploreKeywordsDataPriceData.md).[`live`](../interfaces/IAppendixExploreKeywordsDataPriceData.md#live)
 
-#### Source
+#### Defined in
 
-main.ts:221835
+main.ts:226107
 
 ***
 
 ### task\_get?
 
-> **`optional`** **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **task\_get**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixExploreKeywordsDataPriceData`](../interfaces/IAppendixExploreKeywordsDataPriceData.md).[`task_get`](../interfaces/IAppendixExploreKeywordsDataPriceData.md#task_get)
 
-#### Source
+#### Defined in
 
-main.ts:221836
+main.ts:226108
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixExploreKeywordsDataPriceData`](../interfaces/IAppendixExploreKeywordsDataPriceData.md).[`task_post`](../interfaces/IAppendixExploreKeywordsDataPriceData.md#task_post)
 
-#### Source
+#### Defined in
 
-main.ts:221837
+main.ts:226109
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:221837
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:221850
+main.ts:226122
 
 ***
 
@@ -106,15 +106,15 @@ main.ts:221850
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221869
+main.ts:226141
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
+> `static` **fromJS**(`data`): [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
 
 #### Parameters
 
@@ -124,6 +124,6 @@ main.ts:221869
 
 [`AppendixExploreKeywordsDataPriceData`](AppendixExploreKeywordsDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221862
+main.ts:226134

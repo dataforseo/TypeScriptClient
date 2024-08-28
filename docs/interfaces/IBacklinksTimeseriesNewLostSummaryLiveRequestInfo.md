@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -27,15 +27,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-01"
 
-#### Source
+#### Defined in
 
-main.ts:149910
+main.ts:151736
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -46,15 +46,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:149919
+main.ts:151745
 
 ***
 
 ### group\_range?
 
-> **`optional`** **group\_range**: `string`
+> `optional` **group\_range**: `string`
 
 time range which will be used to group the results
 optional field
@@ -69,30 +69,30 @@ for example, if you specify:
 we will return items falling between 2022-03-01 and 2022-05-31, namely, three items corresponding to the following dates: 2022-03-31, 2022-04-30, 2022-05-31
 if there is no data for a certain  day/week/month/year, we will return 0
 
-#### Source
+#### Defined in
 
-main.ts:149932
+main.ts:151758
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:149937
+main.ts:151763
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -100,15 +100,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:149943
+main.ts:151769
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain to get data for
 required field
@@ -116,6 +116,6 @@ a domain should be specified without https:// and www.
 example:
 "forbes.com"
 
-#### Source
+#### Defined in
 
-main.ts:149899
+main.ts:151725

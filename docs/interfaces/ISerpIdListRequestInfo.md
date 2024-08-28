@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -24,15 +24,15 @@ must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:23940
+main.ts:24122
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -41,65 +41,65 @@ must be specified in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2023-01-31 13:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:23947
+main.ts:24129
 
 ***
 
 ### include\_metadata?
 
-> **`optional`** **include\_metadata**: `boolean`
+> `optional` **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:23966
+main.ts:24148
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
 default value: 1000
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:23952
+main.ts:24134
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
 default value: 0
 if you specify the 10 value, the first ten tasks in the results array will be omitted
 
-#### Source
+#### Defined in
 
-main.ts:23957
+main.ts:24139
 
 ***
 
 ### sort?
 
-> **`optional`** **sort**: `string`
+> `optional` **sort**: `string`
 
 sorting by task execution time
 optional field
 possible values: "asc", "desc"
 default value: "asc"
 
-#### Source
+#### Defined in
 
-main.ts:23962
+main.ts:24144

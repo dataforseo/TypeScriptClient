@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### exclude\_top\_domains?
 
-> **`optional`** **exclude\_top\_domains**: `boolean`
+> `optional` **exclude\_top\_domains**: `boolean`
 
 indicates whether to exclude world’s largest websites
 optional field
@@ -38,39 +38,39 @@ twitter.com
 linkedin.com
 slideshare.net
 
-#### Source
+#### Defined in
 
-main.ts:108860
+main.ts:109490
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in
 example:
-["metrics.organic.count",">`",50]
-[["metrics.organic.pos_1","`<>`",0],"and",["metrics.organic.etv",">`=","10"]]
+["metrics.organic.count",">",50]
+[["metrics.organic.pos_1","<>",0],"and",["metrics.organic.etv",">=","10"]]
 [[["metrics.organic.count",">=",50],"and",["metrics.organic.pos_1","in",[1,5]]],
 "or",
 ["metrics.organic.etv",">=","100"]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:108806
+main.ts:109436
 
 ***
 
 ### intersecting\_domains?
 
-> **`optional`** **intersecting\_domains**: `string`[]
+> `optional` **intersecting\_domains**: `string`[]
 
 additional domains for improving results accuracy
 optional field
@@ -78,15 +78,15 @@ to improve the accuracy of the result, you can specify domains that are known to
 if you use this array, metrics in the result will be based on SERPs where both target website and intersecting_domains appear;
 Note: you can specify up to 20 domains in this array
 
-#### Source
+#### Defined in
 
-main.ts:108866
+main.ts:109496
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -97,15 +97,15 @@ possible values:
 default value:
 ["organic", "paid", "featured_snippet", "local_pack"]
 
-#### Source
+#### Defined in
 
-main.ts:108792
+main.ts:109422
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -115,15 +115,15 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:108783
+main.ts:109413
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -133,30 +133,30 @@ https://api.dataforseo.com/v3/dataforseo_labs/locations_and_languages
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:108775
+main.ts:109405
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:108828
+main.ts:109458
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -167,15 +167,15 @@ Note: this endpoint currently supports the US location only;
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:108767
+main.ts:109397
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -186,45 +186,45 @@ Note: this endpoint currently supports the US location only;
 example:
 United States
 
-#### Source
+#### Defined in
 
-main.ts:108758
+main.ts:109388
 
 ***
 
 ### max\_rank\_group?
 
-> **`optional`** **max\_rank\_group**: `number`
+> `optional` **max\_rank\_group**: `number`
 
 maximum rank up to which competitors will be considered
 optional field
 default value: 100
 if you specify 10 here, we will extract competitors from the top 10 Bing search results only
 
-#### Source
+#### Defined in
 
-main.ts:108838
+main.ts:109468
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten keywords in the results array will be omitted and the data will be provided for the successive keywords
 
-#### Source
+#### Defined in
 
-main.ts:108833
+main.ts:109463
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -243,15 +243,15 @@ default rule:
 ["metrics.organic.count,desc"]
 Note: if the item_types array contains item types that are different from organic, the results will be ordered by the first item type in the array
 
-#### Source
+#### Defined in
 
-main.ts:108823
+main.ts:109453
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -259,21 +259,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:108872
+main.ts:109502
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain
 required field
 the domain name of the target website
 the domain should be specified without https:// and www.
 
-#### Source
+#### Defined in
 
-main.ts:108749
+main.ts:109379

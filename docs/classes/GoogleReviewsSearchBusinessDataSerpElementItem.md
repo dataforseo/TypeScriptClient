@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new GoogleReviewsSearchBusinessDataSerpElementItem(data)
+### new GoogleReviewsSearchBusinessDataSerpElementItem()
 
 > **new GoogleReviewsSearchBusinessDataSerpElementItem**(`data`?): [`GoogleReviewsSearchBusinessDataSerpElementItem`](GoogleReviewsSearchBusinessDataSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`constructor`](BaseBusinessDataSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:211360
+main.ts:213210
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`_discriminator`](BaseBusinessDataSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21097
+main.ts:21279
 
 ***
 
 ### images?
 
-> **`optional`** **images**: [`ImagesElement`](ImagesElement.md)[]
+> `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
 images submitted by the reviewer
 
@@ -66,15 +66,15 @@ images submitted by the reviewer
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`images`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#images)
 
-#### Source
+#### Defined in
 
-main.ts:211353
+main.ts:213203
 
 ***
 
 ### local\_guide?
 
-> **`optional`** **local\_guide**: `boolean`
+> `optional` **local\_guide**: `boolean`
 
 indicates whether the reviewer has a ‘local guide’ status
 
@@ -82,15 +82,15 @@ indicates whether the reviewer has a ‘local guide’ status
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`local_guide`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#local_guide)
 
-#### Source
+#### Defined in
 
-main.ts:211325
+main.ts:213175
 
 ***
 
 ### original\_owner\_answer?
 
-> **`optional`** **original\_owner\_answer**: `string`
+> `optional` **original\_owner\_answer**: `string`
 
 original text of the owner’s response
 the original response to the review, no auto-translate applied
@@ -99,15 +99,15 @@ the original response to the review, no auto-translate applied
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`original_owner_answer`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#original_owner_answer)
 
-#### Source
+#### Defined in
 
-main.ts:211339
+main.ts:213189
 
 ***
 
 ### original\_review\_text?
 
-> **`optional`** **original\_review\_text**: `string`
+> `optional` **original\_review\_text**: `string`
 
 original content of the review
 the original content of the review, no auto-translate applied
@@ -116,15 +116,15 @@ the original content of the review, no auto-translate applied
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`original_review_text`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#original_review_text)
 
-#### Source
+#### Defined in
 
-main.ts:211309
+main.ts:213159
 
 ***
 
 ### owner\_answer?
 
-> **`optional`** **owner\_answer**: `string`
+> `optional` **owner\_answer**: `string`
 
 text of the owner’s response
 the owner’s response to the review
@@ -133,15 +133,15 @@ the owner’s response to the review
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`owner_answer`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#owner_answer)
 
-#### Source
+#### Defined in
 
-main.ts:211336
+main.ts:213186
 
 ***
 
 ### owner\_time\_ago?
 
-> **`optional`** **owner\_time\_ago**: `string`
+> `optional` **owner\_time\_ago**: `string`
 
 publication time
 indicates the time (in the ‘time ago’ format) when the owner submitted the response to the review
@@ -150,15 +150,15 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`owner_time_ago`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#owner_time_ago)
 
-#### Source
+#### Defined in
 
-main.ts:211342
+main.ts:213192
 
 ***
 
 ### owner\_timestamp?
 
-> **`optional`** **owner\_timestamp**: `string`
+> `optional` **owner\_timestamp**: `string`
 
 date and time of the owner’s reply to the review
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -169,15 +169,15 @@ example:
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`owner_timestamp`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#owner_timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:211347
+main.ts:213197
 
 ***
 
 ### photos\_count?
 
-> **`optional`** **photos\_count**: `number`
+> `optional` **photos\_count**: `number`
 
 total number of photos submitted by the reviewer
 
@@ -185,15 +185,15 @@ total number of photos submitted by the reviewer
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`photos_count`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#photos_count)
 
-#### Source
+#### Defined in
 
-main.ts:211323
+main.ts:213173
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the review in SERP
 can take the following values: right
@@ -202,15 +202,15 @@ can take the following values: right
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`position`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:211302
+main.ts:213152
 
 ***
 
 ### profile\_image\_url?
 
-> **`optional`** **profile\_image\_url**: `string`
+> `optional` **profile\_image\_url**: `string`
 
 URL of the reviewer’s profile image
 
@@ -218,15 +218,15 @@ URL of the reviewer’s profile image
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`profile_image_url`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#profile_image_url)
 
-#### Source
+#### Defined in
 
-main.ts:211333
+main.ts:213183
 
 ***
 
 ### profile\_name?
 
-> **`optional`** **profile\_name**: `string`
+> `optional` **profile\_name**: `string`
 
 profile name of the reviewer
 
@@ -234,15 +234,15 @@ profile name of the reviewer
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`profile_name`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#profile_name)
 
-#### Source
+#### Defined in
 
-main.ts:211327
+main.ts:213177
 
 ***
 
 ### profile\_url?
 
-> **`optional`** **profile\_url**: `string`
+> `optional` **profile\_url**: `string`
 
 URL of the reviewer’s profile
 
@@ -250,15 +250,15 @@ URL of the reviewer’s profile
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`profile_url`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#profile_url)
 
-#### Source
+#### Defined in
 
-main.ts:211329
+main.ts:213179
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the listed reviews
 absolute position among all reviews on the list
@@ -267,15 +267,15 @@ absolute position among all reviews on the list
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:211299
+main.ts:213149
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -284,15 +284,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:211296
+main.ts:213146
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the rating score submitted by the reviewer
 
@@ -300,15 +300,15 @@ the rating score submitted by the reviewer
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`rating`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:211319
+main.ts:213169
 
 ***
 
 ### review\_highlights?
 
-> **`optional`** **review\_highlights**: [`ReviewHighlights`](ReviewHighlights.md)[]
+> `optional` **review\_highlights**: [`ReviewHighlights`](ReviewHighlights.md)[]
 
 review highlights
 contains highlighted review criteria and assessments
@@ -317,15 +317,15 @@ contains highlighted review criteria and assessments
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`review_highlights`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#review_highlights)
 
-#### Source
+#### Defined in
 
-main.ts:211356
+main.ts:213206
 
 ***
 
 ### review\_id?
 
-> **`optional`** **review\_id**: `string`
+> `optional` **review\_id**: `string`
 
 the unique identifier of a review on Google
 example:
@@ -335,15 +335,15 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`review_id`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#review_id)
 
-#### Source
+#### Defined in
 
-main.ts:211351
+main.ts:213201
 
 ***
 
 ### review\_text?
 
-> **`optional`** **review\_text**: `string`
+> `optional` **review\_text**: `string`
 
 the content of the review
 
@@ -351,15 +351,15 @@ the content of the review
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`review_text`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#review_text)
 
-#### Source
+#### Defined in
 
-main.ts:211306
+main.ts:213156
 
 ***
 
 ### review\_url?
 
-> **`optional`** **review\_url**: `string`
+> `optional` **review\_url**: `string`
 
 the URL of the review
 
@@ -367,15 +367,15 @@ the URL of the review
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`review_url`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#review_url)
 
-#### Source
+#### Defined in
 
-main.ts:211331
+main.ts:213181
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 total number of reviews submitted by the reviewer
 
@@ -383,15 +383,15 @@ total number of reviews submitted by the reviewer
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`reviews_count`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#reviews_count)
 
-#### Source
+#### Defined in
 
-main.ts:211321
+main.ts:213171
 
 ***
 
 ### time\_ago?
 
-> **`optional`** **time\_ago**: `string`
+> `optional` **time\_ago**: `string`
 
 the time of publication
 indicates the time (in the ‘time ago’ format) when the review was listed
@@ -400,15 +400,15 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`time_ago`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#time_ago)
 
-#### Source
+#### Defined in
 
-main.ts:211312
+main.ts:213162
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when a review was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -419,15 +419,15 @@ example:
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`timestamp`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:211317
+main.ts:213167
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the review
 
@@ -435,9 +435,9 @@ the XPath of the review
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`xpath`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:211304
+main.ts:213154
 
 ## Methods
 
@@ -457,9 +457,9 @@ main.ts:211304
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`init`](BaseBusinessDataSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:211365
+main.ts:213215
 
 ***
 
@@ -479,15 +479,15 @@ main.ts:211365
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`toJSON`](BaseBusinessDataSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:211413
+main.ts:213263
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`GoogleReviewsSearchBusinessDataSerpElementItem`](GoogleReviewsSearchBusinessDataSerpElementItem.md)
+> `static` **fromJS**(`data`): [`GoogleReviewsSearchBusinessDataSerpElementItem`](GoogleReviewsSearchBusinessDataSerpElementItem.md)
 
 #### Parameters
 
@@ -501,6 +501,6 @@ main.ts:211413
 
 [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`fromJS`](BaseBusinessDataSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:211406
+main.ts:213256

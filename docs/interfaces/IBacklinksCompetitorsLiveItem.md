@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,49 +14,49 @@
 
 ### intersections?
 
-> **`optional`** **intersections**: `number`
+> `optional` **intersections**: `number`
 
 indicates the number of backlink intersections with the target specified in the POST array
 
-#### Source
+#### Defined in
 
-main.ts:147105
+main.ts:148931
 
 ***
 
 ### rank?
 
-> **`optional`** **rank**: `number`
+> `optional` **rank**: `number`
 
 domain rank
 domain rank across all domains in the database
 rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
 learn more about the metric and how it is calculated in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:147103
+main.ts:148929
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 competitor domain
 
-#### Source
+#### Defined in
 
-main.ts:147098
+main.ts:148924
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:147096
+main.ts:148922

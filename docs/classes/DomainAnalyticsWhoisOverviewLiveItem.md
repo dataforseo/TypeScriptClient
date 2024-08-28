@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,7 +18,7 @@ items array
 
 ## Constructors
 
-### new DomainAnalyticsWhoisOverviewLiveItem(data)
+### new DomainAnalyticsWhoisOverviewLiveItem()
 
 > **new DomainAnalyticsWhoisOverviewLiveItem**(`data`?): [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
 
@@ -30,15 +30,15 @@ items array
 
 [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:80610
+main.ts:81206
 
 ## Properties
 
 ### backlinks\_info?
 
-> **`optional`** **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
+> `optional` **backlinks\_info**: [`BacklinksInfo`](BacklinksInfo.md)
 
 backlink data for the returned domain
 
@@ -46,15 +46,15 @@ backlink data for the returned domain
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`backlinks_info`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#backlinks_info)
 
-#### Source
+#### Defined in
 
-main.ts:80606
+main.ts:81202
 
 ***
 
 ### changed\_datetime?
 
-> **`optional`** **changed\_datetime**: `string`
+> `optional` **changed\_datetime**: `string`
 
 date and time when the domain entry was changed
 date and time (in the ISO 8601 format) when the domain entry was last modified
@@ -65,15 +65,15 @@ example:
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`changed_datetime`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#changed_datetime)
 
-#### Source
+#### Defined in
 
-main.ts:80572
+main.ts:81168
 
 ***
 
 ### created\_datetime?
 
-> **`optional`** **created\_datetime**: `string`
+> `optional` **created\_datetime**: `string`
 
 date and time of registration
 date and time (in the ISO 8601 format) when the domain was first registered
@@ -84,15 +84,15 @@ example:
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`created_datetime`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#created_datetime)
 
-#### Source
+#### Defined in
 
-main.ts:80567
+main.ts:81163
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain name
 
@@ -100,15 +100,15 @@ domain name
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`domain`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:80562
+main.ts:81158
 
 ***
 
 ### epp\_status\_codes?
 
-> **`optional`** **epp\_status\_codes**: `string`[]
+> `optional` **epp\_status\_codes**: `string`[]
 
 extensive provisioning protocol status codes
 the status of a domain name registration as defined by ICANN
@@ -117,15 +117,15 @@ the status of a domain name registration as defined by ICANN
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`epp_status_codes`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#epp_status_codes)
 
-#### Source
+#### Defined in
 
-main.ts:80590
+main.ts:81186
 
 ***
 
 ### expiration\_datetime?
 
-> **`optional`** **expiration\_datetime**: `string`
+> `optional` **expiration\_datetime**: `string`
 
 date and time when the domain will expire
 date and time (in the ISO 8601 format) when the domain is due to expire
@@ -136,15 +136,15 @@ example:
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`expiration_datetime`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#expiration_datetime)
 
-#### Source
+#### Defined in
 
-main.ts:80577
+main.ts:81173
 
 ***
 
 ### first\_seen?
 
-> **`optional`** **first\_seen**: `string`
+> `optional` **first\_seen**: `string`
 
 date and time when our crawler found the domain for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -155,15 +155,15 @@ example:
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`first_seen`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#first_seen)
 
-#### Source
+#### Defined in
 
-main.ts:80587
+main.ts:81183
 
 ***
 
 ### metrics?
 
-> **`optional`** **metrics**: [`MetricsBundleInfo`](MetricsBundleInfo.md)
+> `optional` **metrics**: [`MetricsBundleInfo`](MetricsBundleInfo.md)
 
 ranking data relevant to the specified domain
 
@@ -171,15 +171,15 @@ ranking data relevant to the specified domain
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`metrics`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#metrics)
 
-#### Source
+#### Defined in
 
-main.ts:80604
+main.ts:81200
 
 ***
 
 ### registered?
 
-> **`optional`** **registered**: `boolean`
+> `optional` **registered**: `boolean`
 
 domain registration status
 if false, the domain name registration has expired
@@ -189,15 +189,15 @@ Note: expired domains will remain in the database for only a short period of tim
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`registered`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#registered)
 
-#### Source
+#### Defined in
 
-main.ts:80597
+main.ts:81193
 
 ***
 
 ### registrar?
 
-> **`optional`** **registrar**: `string`
+> `optional` **registrar**: `string`
 
 domain registrar
 if null, the domain registrar is unknown
@@ -208,15 +208,15 @@ NameCheap, Inc.
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`registrar`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#registrar)
 
-#### Source
+#### Defined in
 
-main.ts:80602
+main.ts:81198
 
 ***
 
 ### tld?
 
-> **`optional`** **tld**: `string`
+> `optional` **tld**: `string`
 
 top-level domain
 top-level domain in the DNS root zone
@@ -225,15 +225,15 @@ top-level domain in the DNS root zone
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`tld`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#tld)
 
-#### Source
+#### Defined in
 
-main.ts:80593
+main.ts:81189
 
 ***
 
 ### updated\_datetime?
 
-> **`optional`** **updated\_datetime**: `string`
+> `optional` **updated\_datetime**: `string`
 
 date and time when the domain was updated
 date and time (in the ISO 8601 format) when the domain was last updated
@@ -244,9 +244,9 @@ example:
 
 [`IDomainAnalyticsWhoisOverviewLiveItem`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md).[`updated_datetime`](../interfaces/IDomainAnalyticsWhoisOverviewLiveItem.md#updated_datetime)
 
-#### Source
+#### Defined in
 
-main.ts:80582
+main.ts:81178
 
 ## Methods
 
@@ -262,9 +262,9 @@ main.ts:80582
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:80619
+main.ts:81215
 
 ***
 
@@ -280,15 +280,15 @@ main.ts:80619
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:80651
+main.ts:81247
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
 
 #### Parameters
 
@@ -298,6 +298,6 @@ main.ts:80651
 
 [`DomainAnalyticsWhoisOverviewLiveItem`](DomainAnalyticsWhoisOverviewLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:80644
+main.ts:81240

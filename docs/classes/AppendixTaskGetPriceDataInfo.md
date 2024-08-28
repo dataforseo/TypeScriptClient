@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixTaskGetPriceDataInfo(data)
+### new AppendixTaskGetPriceDataInfo()
 
 > **new AppendixTaskGetPriceDataInfo**(`data`?): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
@@ -28,23 +28,23 @@
 
 [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222003
+main.ts:226275
 
 ## Properties
 
 ### advanced?
 
-> **`optional`** **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixTaskGetPriceDataInfo`](../interfaces/IAppendixTaskGetPriceDataInfo.md).[`advanced`](../interfaces/IAppendixTaskGetPriceDataInfo.md#advanced)
 
-#### Source
+#### Defined in
 
-main.ts:221999
+main.ts:226271
 
 ## Methods
 
@@ -60,9 +60,9 @@ main.ts:221999
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:222012
+main.ts:226284
 
 ***
 
@@ -78,15 +78,15 @@ main.ts:222012
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:222029
+main.ts:226301
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
 #### Parameters
 
@@ -96,6 +96,6 @@ main.ts:222029
 
 [`AppendixTaskGetPriceDataInfo`](AppendixTaskGetPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222022
+main.ts:226294

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### audits?
 
-> **`optional`** **audits**: `string`[]
+> `optional` **audits**: `string`[]
 
 Lighthouse audits
 optional field
@@ -29,15 +29,15 @@ for example, if you ignore "categories" and specify "audits": ["metrics/cumulati
 for example, if you specify "categories": ["seo"] and "audits": ["metrics/cumulative-layout-shift","metrics/largest-contentful-paint","metrics/total-blocking-time"], you will get only these audits under “performance” and all audits under “seo”
 you can get the full list of possible audits here
 
-#### Source
+#### Defined in
 
-main.ts:166760
+main.ts:168592
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 categories of Lighthouse audits
 optional field
@@ -47,15 +47,15 @@ use this field to get data for specific categories you indicate here
 possible values:
 seo, pwa, performance, best_practices, accessibility
 
-#### Source
+#### Defined in
 
-main.ts:166747
+main.ts:168579
 
 ***
 
 ### for\_mobile?
 
-> **`optional`** **for\_mobile**: `boolean`
+> `optional` **for\_mobile**: `boolean`
 
 applies mobile emulation
 optional field
@@ -63,15 +63,15 @@ if set to true, Lighthouse will use mobile device and screen emulation to test t
 if set to false, the results will be provided for desktop
 default value: false
 
-#### Source
+#### Defined in
 
-main.ts:166739
+main.ts:168571
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 lighthouse language code
 optional field
@@ -79,15 +79,15 @@ you can receive the list of available languages of the search engine with their 
 default value:
 en
 
-#### Source
+#### Defined in
 
-main.ts:166777
+main.ts:168609
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 lighthouse language name
 optional field
@@ -95,15 +95,15 @@ you can receive the list of available languages of the search engine with their 
 default value:
 English
 
-#### Source
+#### Defined in
 
-main.ts:166771
+main.ts:168603
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -111,15 +111,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:166783
+main.ts:168615
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 target URL
 required field
@@ -127,21 +127,21 @@ target page should be specified with its absolute URL (including http:// or http
 example:
 https://dataforseo.com/
 
-#### Source
+#### Defined in
 
-main.ts:166733
+main.ts:168565
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 lighthouse version
 optional field
 you can obtain the results specific to a certain Lighthouse version by specifying its number
 the list of available versions is available through the Lighthouse Versions endpoint
 
-#### Source
+#### Defined in
 
-main.ts:166765
+main.ts:168597

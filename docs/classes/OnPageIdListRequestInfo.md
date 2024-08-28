@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageIdListRequestInfo(data)
+### new OnPageIdListRequestInfo()
 
 > **new OnPageIdListRequestInfo**(`data`?): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153034
+main.ts:154860
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -50,15 +50,15 @@ example:
 
 [`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`datetime_from`](../interfaces/IOnPageIdListRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:153004
+main.ts:154830
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -71,15 +71,15 @@ example:
 
 [`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`datetime_to`](../interfaces/IOnPageIdListRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:153011
+main.ts:154837
 
 ***
 
 ### include\_metadata?
 
-> **`optional`** **include\_metadata**: `boolean`
+> `optional` **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,15 @@ default value: false
 
 [`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`include_metadata`](../interfaces/IOnPageIdListRequestInfo.md#include_metadata)
 
-#### Source
+#### Defined in
 
-main.ts:153030
+main.ts:154856
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +108,15 @@ maximum value: 1000
 
 [`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`limit`](../interfaces/IOnPageIdListRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:153016
+main.ts:154842
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +127,15 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`offset`](../interfaces/IOnPageIdListRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:153021
+main.ts:154847
 
 ***
 
 ### sort?
 
-> **`optional`** **sort**: `string`
+> `optional` **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -146,9 +146,9 @@ default value: "asc"
 
 [`IOnPageIdListRequestInfo`](../interfaces/IOnPageIdListRequestInfo.md).[`sort`](../interfaces/IOnPageIdListRequestInfo.md#sort)
 
-#### Source
+#### Defined in
 
-main.ts:153026
+main.ts:154852
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:153026
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:153043
+main.ts:154869
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:153043
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:153065
+main.ts:154891
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:153065
 
 [`OnPageIdListRequestInfo`](OnPageIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153058
+main.ts:154884

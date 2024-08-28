@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Location(data)
+### new Location()
 
 > **new Location**(`data`?): [`Location`](Location.md)
 
@@ -28,15 +28,15 @@
 
 [`Location`](Location.md)
 
-#### Source
+#### Defined in
 
-main.ts:209981
+main.ts:211831
 
 ## Properties
 
 ### latitude?
 
-> **`optional`** **latitude**: `number`
+> `optional` **latitude**: `number`
 
 hotel latitude
 latitude coordinates of the hotel’s location
@@ -47,15 +47,15 @@ example:
 
 [`ILocation`](../interfaces/ILocation.md).[`latitude`](../interfaces/ILocation.md#latitude)
 
-#### Source
+#### Defined in
 
-main.ts:209969
+main.ts:211819
 
 ***
 
 ### location\_chain?
 
-> **`optional`** **location\_chain**: [`LocationChain`](LocationChain.md)[]
+> `optional` **location\_chain**: [`LocationChain`](LocationChain.md)[]
 
 elements of the location chain
 additional parameters of each element of the location chain
@@ -64,15 +64,15 @@ additional parameters of each element of the location chain
 
 [`ILocation`](../interfaces/ILocation.md).[`location_chain`](../interfaces/ILocation.md#location_chain)
 
-#### Source
+#### Defined in
 
-main.ts:209977
+main.ts:211827
 
 ***
 
 ### longitude?
 
-> **`optional`** **longitude**: `number`
+> `optional` **longitude**: `number`
 
 hotel longitude
 latitude coordinates of the hotel’s location
@@ -83,15 +83,15 @@ example:
 
 [`ILocation`](../interfaces/ILocation.md).[`longitude`](../interfaces/ILocation.md#longitude)
 
-#### Source
+#### Defined in
 
-main.ts:209974
+main.ts:211824
 
 ***
 
 ### maps\_url?
 
-> **`optional`** **maps\_url**: `string`
+> `optional` **maps\_url**: `string`
 
 url to the location of the hotel in google maps
 
@@ -99,15 +99,15 @@ url to the location of the hotel in google maps
 
 [`ILocation`](../interfaces/ILocation.md).[`maps_url`](../interfaces/ILocation.md#maps_url)
 
-#### Source
+#### Defined in
 
-main.ts:209956
+main.ts:211806
 
 ***
 
 ### neighborhood?
 
-> **`optional`** **neighborhood**: `string`
+> `optional` **neighborhood**: `string`
 
 name of the neighborhood where the hotel is located
 
@@ -115,15 +115,15 @@ name of the neighborhood where the hotel is located
 
 [`ILocation`](../interfaces/ILocation.md).[`neighborhood`](../interfaces/ILocation.md#neighborhood)
 
-#### Source
+#### Defined in
 
-main.ts:209952
+main.ts:211802
 
 ***
 
 ### neighborhood\_description?
 
-> **`optional`** **neighborhood\_description**: `string`
+> `optional` **neighborhood\_description**: `string`
 
 description of the neighborhood where the hotel is located
 
@@ -131,15 +131,15 @@ description of the neighborhood where the hotel is located
 
 [`ILocation`](../interfaces/ILocation.md).[`neighborhood_description`](../interfaces/ILocation.md#neighborhood_description)
 
-#### Source
+#### Defined in
 
-main.ts:209954
+main.ts:211804
 
 ***
 
 ### overall\_score?
 
-> **`optional`** **overall\_score**: `number`
+> `optional` **overall\_score**: `number`
 
 overall score of the hotel location
 indicates the overall score of the hotel’s location in the range from 1 to 5;
@@ -150,15 +150,15 @@ note that the criteria are not weighted equally in the overall score
 
 [`ILocation`](../interfaces/ILocation.md).[`overall_score`](../interfaces/ILocation.md#overall_score)
 
-#### Source
+#### Defined in
 
-main.ts:209961
+main.ts:211811
 
 ***
 
 ### score\_by\_categories?
 
-> **`optional`** **score\_by\_categories**: [`ScoreByCategories`](ScoreByCategories.md)
+> `optional` **score\_by\_categories**: [`ScoreByCategories`](ScoreByCategories.md)
 
 category scores of the hotel location
 the scores of the hotel’s location tied to the categories that indicate the proximity to nearby things to do, restaurants, transportation, and airports;
@@ -167,9 +167,9 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 [`ILocation`](../interfaces/ILocation.md).[`score_by_categories`](../interfaces/ILocation.md#score_by_categories)
 
-#### Source
+#### Defined in
 
-main.ts:209964
+main.ts:211814
 
 ## Methods
 
@@ -185,9 +185,9 @@ main.ts:209964
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:209990
+main.ts:211840
 
 ***
 
@@ -203,15 +203,15 @@ main.ts:209990
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:210018
+main.ts:211868
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Location`](Location.md)
+> `static` **fromJS**(`data`): [`Location`](Location.md)
 
 #### Parameters
 
@@ -221,6 +221,6 @@ main.ts:210018
 
 [`Location`](Location.md)
 
-#### Source
+#### Defined in
 
-main.ts:210011
+main.ts:211861

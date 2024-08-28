@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataBusinessListingsCategoriesResultInfo(data)
+### new BusinessDataBusinessListingsCategoriesResultInfo()
 
 > **new BusinessDataBusinessListingsCategoriesResultInfo**(`data`?): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:200583
+main.ts:202415
 
 ## Properties
 
 ### business\_count?
 
-> **`optional`** **business\_count**: `number`
+> `optional` **business\_count**: `number`
 
 number of businesses in the category
 
@@ -44,15 +44,15 @@ number of businesses in the category
 
 [`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md).[`business_count`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md#business_count)
 
-#### Source
+#### Defined in
 
-main.ts:200579
+main.ts:202411
 
 ***
 
 ### category\_name?
 
-> **`optional`** **category\_name**: `string`
+> `optional` **category\_name**: `string`
 
 full name of the category
 
@@ -60,9 +60,9 @@ full name of the category
 
 [`IBusinessDataBusinessListingsCategoriesResultInfo`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md).[`category_name`](../interfaces/IBusinessDataBusinessListingsCategoriesResultInfo.md#category_name)
 
-#### Source
+#### Defined in
 
-main.ts:200577
+main.ts:202409
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:200577
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:200592
+main.ts:202424
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:200592
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:200610
+main.ts:202442
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:200610
 
 [`BusinessDataBusinessListingsCategoriesResultInfo`](BusinessDataBusinessListingsCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:200603
+main.ts:202435

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -29,15 +29,15 @@ if you specify the period parameter:
 with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days
 
-#### Source
+#### Defined in
 
-main.ts:137584
+main.ts:137410
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -52,15 +52,15 @@ if you specify the period parameter:
 with value weekly, you will get results for the past 15 weeks
 with value daily, you will get results for the past 45 days
 
-#### Source
+#### Defined in
 
-main.ts:137597
+main.ts:137423
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -68,15 +68,15 @@ specify this field if you want to get the data for a particular device type
 possible values: mobile, desktop, tablet, non_smartphones
 default value:  mobile, desktop, tablet, non_smartphones
 
-#### Source
+#### Defined in
 
-main.ts:137562
+main.ts:137388
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -84,45 +84,45 @@ The maximum number of keywords you can specify: 1000
 The maximum number of characters for each keyword: 100
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 
-#### Source
+#### Defined in
 
-main.ts:137524
+main.ts:137350
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
 if you use this field, you don’t need to specify language_name
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages
 
-#### Source
+#### Defined in
 
-main.ts:137556
+main.ts:137382
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
 if you use this field, you don’t need to specify language_code
 you can receive the list of available languages of the search engines with their language_code by making a separate request to https://api.dataforseo.com/v3/keywords_data/bing/search_volume_history/locations_and_languages
 
-#### Source
+#### Defined in
 
-main.ts:137551
+main.ts:137377
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -131,15 +131,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:137538
+main.ts:137364
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -149,15 +149,15 @@ the data will be provided for the country the specified coordinates belong to
 example:
 52.6178549,-155.352142
 
-#### Source
+#### Defined in
 
-main.ts:137546
+main.ts:137372
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -166,15 +166,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:137531
+main.ts:137357
 
 ***
 
 ### period?
 
-> **`optional`** **period**: `string`
+> `optional` **period**: `string`
 
 aggregates the returned data to a certain time period
 optional field
@@ -185,15 +185,15 @@ weekly – returns data up to past 15 weeks
 daily – returns data up to past 45 days
 default value:  monthly
 
-#### Source
+#### Defined in
 
-main.ts:137571
+main.ts:137397
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -205,15 +205,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:137617
+main.ts:137443
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -225,15 +225,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:137607
+main.ts:137433
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -241,6 +241,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:137623
+main.ts:137449

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PerspectivesElement(data)
+### new PerspectivesElement()
 
 > **new PerspectivesElement**(`data`?): [`PerspectivesElement`](PerspectivesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`PerspectivesElement`](PerspectivesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:37159
+main.ts:37355
 
 ## Properties
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 the date when the page source of the element was published
 
@@ -44,15 +44,15 @@ the date when the page source of the element was published
 
 [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`date`](../interfaces/IPerspectivesElement.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:37147
+main.ts:37343
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -60,15 +60,15 @@ description
 
 [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`description`](../interfaces/IPerspectivesElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:37141
+main.ts:37337
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -76,15 +76,15 @@ website domain
 
 [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`domain`](../interfaces/IPerspectivesElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:37145
+main.ts:37341
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -93,15 +93,15 @@ indicates the source of information included in the top_stories_element
 
 [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`source`](../interfaces/IPerspectivesElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:37150
+main.ts:37346
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -112,15 +112,15 @@ example:
 
 [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`timestamp`](../interfaces/IPerspectivesElement.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:37155
+main.ts:37351
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -128,15 +128,15 @@ title of a given link element
 
 [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`title`](../interfaces/IPerspectivesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:37139
+main.ts:37335
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -144,15 +144,15 @@ type of element
 
 [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`type`](../interfaces/IPerspectivesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:37137
+main.ts:37333
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -160,9 +160,9 @@ URL
 
 [`IPerspectivesElement`](../interfaces/IPerspectivesElement.md).[`url`](../interfaces/IPerspectivesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:37143
+main.ts:37339
 
 ## Methods
 
@@ -178,9 +178,9 @@ main.ts:37143
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:37168
+main.ts:37364
 
 ***
 
@@ -196,15 +196,15 @@ main.ts:37168
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:37192
+main.ts:37388
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PerspectivesElement`](PerspectivesElement.md)
+> `static` **fromJS**(`data`): [`PerspectivesElement`](PerspectivesElement.md)
 
 #### Parameters
 
@@ -214,6 +214,6 @@ main.ts:37192
 
 [`PerspectivesElement`](PerspectivesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:37185
+main.ts:37381

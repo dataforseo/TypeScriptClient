@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,111 +14,111 @@
 
 ### hotel\_identifier?
 
-> **`optional`** **hotel\_identifier**: `string`
+> `optional` **hotel\_identifier**: `string`
 
 unique identifier of a hotel entity in Google search
 example:
 CgoI-KWyzenM_MV3EAE
 
-#### Source
+#### Defined in
 
-main.ts:206967
+main.ts:208817
 
 ***
 
 ### is\_paid?
 
-> **`optional`** **is\_paid**: `boolean`
+> `optional` **is\_paid**: `boolean`
 
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
 if false, related hotel_search_item is an organic hotel listing
 
-#### Source
+#### Defined in
 
-main.ts:206976
+main.ts:208826
 
 ***
 
 ### location?
 
-> **`optional`** **location**: [`GpsCoordinatesLocationInfo`](../classes/GpsCoordinatesLocationInfo.md)
+> `optional` **location**: [`GpsCoordinatesLocationInfo`](../classes/GpsCoordinatesLocationInfo.md)
 
 GPS coordinates of the hotel’s location
 
-#### Source
+#### Defined in
 
-main.ts:206978
+main.ts:208828
 
 ***
 
 ### overview\_images?
 
-> **`optional`** **overview\_images**: `string`[]
+> `optional` **overview\_images**: `string`[]
 
 featured images for a hotel
 
-#### Source
+#### Defined in
 
-main.ts:206982
+main.ts:208832
 
 ***
 
 ### prices?
 
-> **`optional`** **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
+> `optional` **prices**: [`HotelPriceInfo`](../classes/HotelPriceInfo.md)
 
 hotel price
 
-#### Source
+#### Defined in
 
-main.ts:206984
+main.ts:208834
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
+> `optional` **reviews**: [`HotelReviewInfo`](../classes/HotelReviewInfo.md)
 
 hotel reviews and rating information
 
-#### Source
+#### Defined in
 
-main.ts:206980
+main.ts:208830
 
 ***
 
 ### stars?
 
-> **`optional`** **stars**: `number`
+> `optional` **stars**: `number`
 
 hotel class rating
 class rating that ranges between 1-5 stars
 
-#### Source
+#### Defined in
 
-main.ts:206972
+main.ts:208822
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the hotel
 
-#### Source
+#### Defined in
 
-main.ts:206969
+main.ts:208819
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:206963
+main.ts:208813

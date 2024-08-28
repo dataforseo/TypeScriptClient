@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,10 +14,10 @@
 
 ### row\_cells?
 
-> **`optional`** **row\_cells**: [`RowCellInfo`](../classes/RowCellInfo.md)[]
+> `optional` **row\_cells**: [`RowCellInfo`](../classes/RowCellInfo.md)[]
 
 content of the row cells of the header
 
-#### Source
+#### Defined in
 
-main.ts:163787
+main.ts:165619

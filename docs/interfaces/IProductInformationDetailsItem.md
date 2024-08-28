@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,26 +18,26 @@
 
 ### body?
 
-> **`optional`** **body**: `Object`
+> `optional` **body**: `object`
 
 contains information specified about the product within the section_name
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:184530
+main.ts:186362
 
 ***
 
 ### section\_name?
 
-> **`optional`** **section\_name**: `string`
+> `optional` **section\_name**: `string`
 
 name of the section related to product information specified in the contents
 
-#### Source
+#### Defined in
 
-main.ts:184528
+main.ts:186360

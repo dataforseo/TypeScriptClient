@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### month?
 
-> **`optional`** **month**: `number`
+> `optional` **month**: `number`
 
 month
 
-#### Source
+#### Defined in
 
-main.ts:83358
+main.ts:83952
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 monthly average search volume rate
 
-#### Source
+#### Defined in
 
-main.ts:83360
+main.ts:83954
 
 ***
 
 ### year?
 
-> **`optional`** **year**: `number`
+> `optional` **year**: `number`
 
 year
 
-#### Source
+#### Defined in
 
-main.ts:83356
+main.ts:83950

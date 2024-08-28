@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,66 +14,66 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
 example:
 2019-01-01
 
-#### Source
+#### Defined in
 
-main.ts:141276
+main.ts:143102
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:141281
+main.ts:143107
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksHistoryLiveItem`](../classes/BacklinksHistoryLiveItem.md)[]
+> `optional` **items**: [`BacklinksHistoryLiveItem`](../classes/BacklinksHistoryLiveItem.md)[]
 
 contains historical backlink data for the specified domain
 the data is provided month-by-month;
 the metrics are aggregated according to the backlinks the specified domain had on the first day of each given month
 
-#### Source
+#### Defined in
 
-main.ts:141287
+main.ts:143113
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:141283
+main.ts:143109
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target from the POST array
 
-#### Source
+#### Defined in
 
-main.ts:141271
+main.ts:143097

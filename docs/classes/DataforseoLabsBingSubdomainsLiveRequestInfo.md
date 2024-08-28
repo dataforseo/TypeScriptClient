@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBingSubdomainsLiveRequestInfo(data)
+### new DataforseoLabsBingSubdomainsLiveRequestInfo()
 
 > **new DataforseoLabsBingSubdomainsLiveRequestInfo**(`data`?): [`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)
 
@@ -28,24 +28,24 @@
 
 [`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:113239
+main.ts:113871
 
 ## Properties
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, <, `<=, >`, >=, =, `<>`, in, not_in
+regex, <, <=, >, >=, =, <>, in, not_in
 example:
-["metrics.paid.count",">`",0]
+["metrics.paid.count",">",0]
 [["metrics.paid.count",">",0],"and",["metrics.paid.etv",">","50"]]
 [["metrics.organic.count",">","10"],
 "and",
@@ -56,15 +56,15 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:113202
+main.ts:113834
 
 ***
 
 ### historical\_serp\_mode?
 
-> **`optional`** **historical\_serp\_mode**: `string`
+> `optional` **historical\_serp\_mode**: `string`
 
 data collection mode
 optional field
@@ -79,15 +79,15 @@ default value: live
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`historical_serp_mode`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#historical_serp_mode)
 
-#### Source
+#### Defined in
 
-main.ts:113188
+main.ts:113820
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -102,15 +102,15 @@ default value:
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:113179
+main.ts:113811
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 optional field
@@ -125,15 +125,15 @@ en
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:113170
+main.ts:113802
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 optional field
@@ -148,15 +148,15 @@ English
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:113161
+main.ts:113793
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned keywords
 optional field
@@ -167,15 +167,15 @@ maximum value: 1000
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:113224
+main.ts:113856
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 optional field
@@ -191,15 +191,15 @@ example:
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:113152
+main.ts:113784
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 optional field
@@ -215,15 +215,15 @@ United States
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:113142
+main.ts:113774
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
@@ -234,15 +234,15 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:113229
+main.ts:113861
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -265,15 +265,15 @@ Note: if the item_types array contains item types that are different from organi
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:113219
+main.ts:113851
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -285,15 +285,15 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:113235
+main.ts:113867
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain
 required field
@@ -304,9 +304,9 @@ the domain should be specified without https:// and www.
 
 [`IDataforseoLabsBingSubdomainsLiveRequestInfo`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md).[`target`](../interfaces/IDataforseoLabsBingSubdomainsLiveRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:113132
+main.ts:113764
 
 ## Methods
 
@@ -322,9 +322,9 @@ main.ts:113132
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:113248
+main.ts:113880
 
 ***
 
@@ -340,15 +340,15 @@ main.ts:113248
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:113288
+main.ts:113920
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)
 
 #### Parameters
 
@@ -358,6 +358,6 @@ main.ts:113288
 
 [`DataforseoLabsBingSubdomainsLiveRequestInfo`](DataforseoLabsBingSubdomainsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:113281
+main.ts:113913

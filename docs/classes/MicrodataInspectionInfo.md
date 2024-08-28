@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MicrodataInspectionInfo(data)
+### new MicrodataInspectionInfo()
 
 > **new MicrodataInspectionInfo**(`data`?): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:162310
+main.ts:164142
 
 ## Properties
 
 ### fields?
 
-> **`optional`** **fields**: [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)[]
+> `optional` **fields**: [`MicrodataFieldsInfo`](MicrodataFieldsInfo.md)[]
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
@@ -45,15 +45,15 @@ an array of objects containing data fields related to the certain microdata type
 
 [`IMicrodataInspectionInfo`](../interfaces/IMicrodataInspectionInfo.md).[`fields`](../interfaces/IMicrodataInspectionInfo.md#fields)
 
-#### Source
+#### Defined in
 
-main.ts:162306
+main.ts:164138
 
 ***
 
 ### types?
 
-> **`optional`** **types**: `string`[]
+> `optional` **types**: `string`[]
 
 parent microdata types
 for a full list of available types, please visit schema.org
@@ -62,9 +62,9 @@ for a full list of available types, please visit schema.org
 
 [`IMicrodataInspectionInfo`](../interfaces/IMicrodataInspectionInfo.md).[`types`](../interfaces/IMicrodataInspectionInfo.md#types)
 
-#### Source
+#### Defined in
 
-main.ts:162303
+main.ts:164135
 
 ## Methods
 
@@ -80,9 +80,9 @@ main.ts:162303
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:162319
+main.ts:164151
 
 ***
 
@@ -98,15 +98,15 @@ main.ts:162319
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:162345
+main.ts:164177
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
+> `static` **fromJS**(`data`): [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
 #### Parameters
 
@@ -116,6 +116,6 @@ main.ts:162345
 
 [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:162338
+main.ts:164170

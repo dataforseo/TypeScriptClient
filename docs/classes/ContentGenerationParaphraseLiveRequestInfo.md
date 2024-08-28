@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationParaphraseLiveRequestInfo(data)
+### new ContentGenerationParaphraseLiveRequestInfo()
 
 > **new ContentGenerationParaphraseLiveRequestInfo**(`data`?): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173040
+main.ts:174872
 
 ## Properties
 
 ### creativity\_index?
 
-> **`optional`** **creativity\_index**: `number`
+> `optional` **creativity\_index**: `number`
 
 creativity of content generation
 required field
@@ -49,15 +49,15 @@ learn more about this parameter on our help center
 
 [`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#creativity_index)
 
-#### Source
+#### Defined in
 
-main.ts:173030
+main.ts:174862
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -69,15 +69,15 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:173036
+main.ts:174868
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 target text
 required field
@@ -88,9 +88,9 @@ learn more about tokens on our help center
 
 [`IContentGenerationParaphraseLiveRequestInfo`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationParaphraseLiveRequestInfo.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:173023
+main.ts:174855
 
 ## Methods
 
@@ -106,9 +106,9 @@ main.ts:173023
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:173049
+main.ts:174881
 
 ***
 
@@ -124,15 +124,15 @@ main.ts:173049
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:173068
+main.ts:174900
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
 #### Parameters
 
@@ -142,6 +142,6 @@ main.ts:173068
 
 [`ContentGenerationParaphraseLiveRequestInfo`](ContentGenerationParaphraseLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173061
+main.ts:174893

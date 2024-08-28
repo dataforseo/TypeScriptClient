@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new InterestsComparison(data)
+### new InterestsComparison()
 
 > **new InterestsComparison**(`data`?): [`InterestsComparison`](InterestsComparison.md)
 
@@ -28,15 +28,15 @@
 
 [`InterestsComparison`](InterestsComparison.md)
 
-#### Source
+#### Defined in
 
-main.ts:129583
+main.ts:129407
 
 ## Properties
 
 ### absolute\_items?
 
-> **`optional`** **absolute\_items**: [`AbsoluteItems`](AbsoluteItems.md)[]
+> `optional` **absolute\_items**: [`AbsoluteItems`](AbsoluteItems.md)[]
 
 keyword popularity rates across all locations
 values in this array represent percentages relative to the maximum value across all locations
@@ -45,15 +45,15 @@ values in this array represent percentages relative to the maximum value across 
 
 [`IInterestsComparison`](../interfaces/IInterestsComparison.md).[`absolute_items`](../interfaces/IInterestsComparison.md#absolute_items)
 
-#### Source
+#### Defined in
 
-main.ts:129579
+main.ts:129403
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`AbsoluteItems`](AbsoluteItems.md)[]
+> `optional` **items**: [`AbsoluteItems`](AbsoluteItems.md)[]
 
 contains keyword popularity and related data
 
@@ -61,9 +61,9 @@ contains keyword popularity and related data
 
 [`IInterestsComparison`](../interfaces/IInterestsComparison.md).[`items`](../interfaces/IInterestsComparison.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:129576
+main.ts:129400
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:129576
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:129592
+main.ts:129416
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:129592
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:129618
+main.ts:129442
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`InterestsComparison`](InterestsComparison.md)
+> `static` **fromJS**(`data`): [`InterestsComparison`](InterestsComparison.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:129618
 
 [`InterestsComparison`](InterestsComparison.md)
 
-#### Source
+#### Defined in
 
-main.ts:129611
+main.ts:129435

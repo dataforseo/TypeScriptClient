@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Rectangle(data)
+### new Rectangle()
 
 > **new Rectangle**(`data`?): [`Rectangle`](Rectangle.md)
 
@@ -28,15 +28,15 @@
 
 [`Rectangle`](Rectangle.md)
 
-#### Source
+#### Defined in
 
-main.ts:21928
+main.ts:22110
 
 ## Properties
 
 ### height?
 
-> **`optional`** **height**: `number`
+> `optional` **height**: `number`
 
 height of the element in pixels
 
@@ -44,15 +44,15 @@ height of the element in pixels
 
 [`IRectangle`](../interfaces/IRectangle.md).[`height`](../interfaces/IRectangle.md#height)
 
-#### Source
+#### Defined in
 
-main.ts:21924
+main.ts:22106
 
 ***
 
 ### width?
 
-> **`optional`** **width**: `number`
+> `optional` **width**: `number`
 
 width of the element in pixels
 
@@ -60,15 +60,15 @@ width of the element in pixels
 
 [`IRectangle`](../interfaces/IRectangle.md).[`width`](../interfaces/IRectangle.md#width)
 
-#### Source
+#### Defined in
 
-main.ts:21922
+main.ts:22104
 
 ***
 
 ### x?
 
-> **`optional`** **x**: `number`
+> `optional` **x**: `number`
 
 x-axis coordinate
 x-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
@@ -77,15 +77,15 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 [`IRectangle`](../interfaces/IRectangle.md).[`x`](../interfaces/IRectangle.md#x)
 
-#### Source
+#### Defined in
 
-main.ts:21917
+main.ts:22099
 
 ***
 
 ### y?
 
-> **`optional`** **y**: `number`
+> `optional` **y**: `number`
 
 y-axis coordinate
 y-axis coordinate of the top-left corner of the result’s snippet, where top-left corner of the screen is the origin
@@ -94,9 +94,9 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 [`IRectangle`](../interfaces/IRectangle.md).[`y`](../interfaces/IRectangle.md#y)
 
-#### Source
+#### Defined in
 
-main.ts:21920
+main.ts:22102
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:21920
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21937
+main.ts:22119
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:21937
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21957
+main.ts:22139
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Rectangle`](Rectangle.md)
+> `static` **fromJS**(`data`): [`Rectangle`](Rectangle.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:21957
 
 [`Rectangle`](Rectangle.md)
 
-#### Source
+#### Defined in
 
-main.ts:21950
+main.ts:22132

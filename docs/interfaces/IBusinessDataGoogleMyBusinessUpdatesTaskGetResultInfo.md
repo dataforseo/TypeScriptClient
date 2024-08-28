@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,115 +14,115 @@
 
 ### business\_updates\_id?
 
-> **`optional`** **business\_updates\_id**: `string`
+> `optional` **business\_updates\_id**: `string`
 
 identifier of the business updates element in SERP
 
-#### Source
+#### Defined in
 
-main.ts:205691
+main.ts:207541
 
 ***
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Source
+#### Defined in
 
-main.ts:205684
+main.ts:207534
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment
 learn more about the cid identifier in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:205695
+main.ts:207545
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:205689
+main.ts:207539
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:205698
+main.ts:207548
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 item types
 types of search engine results encountered in the items array;
 possible item types: google_business_post
 
-#### Source
+#### Defined in
 
-main.ts:205702
+main.ts:207552
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
+> `optional` **items**: [`BaseBusinessDataSerpElementItem`](../classes/BaseBusinessDataSerpElementItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
-possible item types: google_business_info
+possible item types: google_business_post
 
-#### Source
+#### Defined in
 
-main.ts:205709
+main.ts:207559
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 item types
 the number of items in the items array
 
-#### Source
+#### Defined in
 
-main.ts:205705
+main.ts:207555
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -131,42 +131,42 @@ example:
 cid:2946633002421908862
 learn more about the parameter in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:205675
+main.ts:207525
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:205681
+main.ts:207531
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:205679
+main.ts:207529
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain as specified in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:205677
+main.ts:207527

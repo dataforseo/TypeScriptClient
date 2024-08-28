@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### categories?
 
-> **`optional`** **categories**: `number`
+> `optional` **categories**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219902
+main.ts:221810
 
 ***
 
 ### categories\_aggregation?
 
-> **`optional`** **categories\_aggregation**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **categories\_aggregation**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219901
+main.ts:221809
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:219903
+main.ts:221811
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219900
+main.ts:221808

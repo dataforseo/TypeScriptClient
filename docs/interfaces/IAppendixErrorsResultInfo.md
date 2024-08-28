@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### code?
 
-> **`optional`** **code**: `number`
+> `optional` **code**: `number`
 
 code
 
-#### Source
+#### Defined in
 
-main.ts:224325
+main.ts:228597
 
 ***
 
 ### message?
 
-> **`optional`** **message**: `string`
+> `optional` **message**: `string`
 
 message
 
-#### Source
+#### Defined in
 
-main.ts:224327
+main.ts:228599

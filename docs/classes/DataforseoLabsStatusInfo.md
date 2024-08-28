@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsStatusInfo(data)
+### new DataforseoLabsStatusInfo()
 
 > **new DataforseoLabsStatusInfo**(`data`?): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:81266
+main.ts:81862
 
 ## Properties
 
 ### date\_update?
 
-> **`optional`** **date\_update**: `string`
+> `optional` **date\_update**: `string`
 
 update date of the Google endpoints
 indicates the last date when the Google endpoints of DataForSEO Labs API were updated;
@@ -47,9 +47,9 @@ example:
 
 [`IDataforseoLabsStatusInfo`](../interfaces/IDataforseoLabsStatusInfo.md).[`date_update`](../interfaces/IDataforseoLabsStatusInfo.md#date_update)
 
-#### Source
+#### Defined in
 
-main.ts:81262
+main.ts:81858
 
 ## Methods
 
@@ -65,9 +65,9 @@ main.ts:81262
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:81275
+main.ts:81871
 
 ***
 
@@ -83,15 +83,15 @@ main.ts:81275
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:81292
+main.ts:81888
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
 #### Parameters
 
@@ -101,6 +101,6 @@ main.ts:81292
 
 [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:81285
+main.ts:81881

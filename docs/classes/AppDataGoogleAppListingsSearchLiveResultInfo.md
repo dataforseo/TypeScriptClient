@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataGoogleAppListingsSearchLiveResultInfo(data)
+### new AppDataGoogleAppListingsSearchLiveResultInfo()
 
 > **new AppDataGoogleAppListingsSearchLiveResultInfo**(`data`?): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:194834
+main.ts:196666
 
 ## Properties
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 the number of items in the results array
 
@@ -44,15 +44,15 @@ the number of items in the results array
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`count`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:194823
+main.ts:196655
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)[]
+> `optional` **items**: [`AppDataGoogleAppListingsSearchLiveItem`](AppDataGoogleAppListingsSearchLiveItem.md)[]
 
 array of apps and related data
 
@@ -60,15 +60,15 @@ array of apps and related data
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`items`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:194830
+main.ts:196662
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned apps
 
@@ -76,15 +76,15 @@ offset in the results array of returned apps
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`offset`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:194825
+main.ts:196657
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -93,15 +93,15 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`offset_token`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#offset_token)
 
-#### Source
+#### Defined in
 
-main.ts:194828
+main.ts:196660
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 the total number of relevant results in the database
 
@@ -109,9 +109,9 @@ the total number of relevant results in the database
 
 [`IAppDataGoogleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md).[`total_count`](../interfaces/IAppDataGoogleAppListingsSearchLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:194821
+main.ts:196653
 
 ## Methods
 
@@ -127,9 +127,9 @@ main.ts:194821
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:194843
+main.ts:196675
 
 ***
 
@@ -145,15 +145,15 @@ main.ts:194843
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:194868
+main.ts:196700
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
 #### Parameters
 
@@ -163,6 +163,6 @@ main.ts:194868
 
 [`AppDataGoogleAppListingsSearchLiveResultInfo`](AppDataGoogleAppListingsSearchLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:194861
+main.ts:196693

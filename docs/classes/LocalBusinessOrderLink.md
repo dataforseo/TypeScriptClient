@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new LocalBusinessOrderLink(data)
+### new LocalBusinessOrderLink()
 
 > **new LocalBusinessOrderLink**(`data`?): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`constructor`](BaseLocalBusinessLink.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:23467
+main.ts:23649
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`_discriminator`](BaseLocalBusinessLink.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:23346
+main.ts:23528
 
 ***
 
 ### delivery\_services?
 
-> **`optional`** **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)[]
+> `optional` **delivery\_services**: [`LocalBusinessDeliveryServiceInfo`](LocalBusinessDeliveryServiceInfo.md)[]
 
 lists available delivery services
 
@@ -66,9 +66,9 @@ lists available delivery services
 
 [`ILocalBusinessOrderLink`](../interfaces/ILocalBusinessOrderLink.md).[`delivery_services`](../interfaces/ILocalBusinessOrderLink.md#delivery_services)
 
-#### Source
+#### Defined in
 
-main.ts:23463
+main.ts:23645
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:23463
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`init`](BaseLocalBusinessLink.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:23472
+main.ts:23654
 
 ***
 
@@ -110,15 +110,15 @@ main.ts:23472
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`toJSON`](BaseLocalBusinessLink.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:23494
+main.ts:23676
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
+> `static` **fromJS**(`data`): [`LocalBusinessOrderLink`](LocalBusinessOrderLink.md)
 
 #### Parameters
 
@@ -132,6 +132,6 @@ main.ts:23494
 
 [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`fromJS`](BaseLocalBusinessLink.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:23487
+main.ts:23669

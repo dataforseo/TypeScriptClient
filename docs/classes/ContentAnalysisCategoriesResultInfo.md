@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisCategoriesResultInfo(data)
+### new ContentAnalysisCategoriesResultInfo()
 
 > **new ContentAnalysisCategoriesResultInfo**(`data`?): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:167766
+main.ts:169598
 
 ## Properties
 
 ### category\_code?
 
-> **`optional`** **category\_code**: `number`
+> `optional` **category\_code**: `number`
 
 category code
 
@@ -44,15 +44,15 @@ category code
 
 [`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md).[`category_code`](../interfaces/IContentAnalysisCategoriesResultInfo.md#category_code)
 
-#### Source
+#### Defined in
 
-main.ts:167750
+main.ts:169582
 
 ***
 
 ### category\_code\_parent?
 
-> **`optional`** **category\_code\_parent**: `number`
+> `optional` **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -68,15 +68,15 @@ corresponds to:
 
 [`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md).[`category_code_parent`](../interfaces/IContentAnalysisCategoriesResultInfo.md#category_code_parent)
 
-#### Source
+#### Defined in
 
-main.ts:167762
+main.ts:169594
 
 ***
 
 ### category\_name?
 
-> **`optional`** **category\_name**: `string`
+> `optional` **category\_name**: `string`
 
 full name of the category
 
@@ -84,9 +84,9 @@ full name of the category
 
 [`IContentAnalysisCategoriesResultInfo`](../interfaces/IContentAnalysisCategoriesResultInfo.md).[`category_name`](../interfaces/IContentAnalysisCategoriesResultInfo.md#category_name)
 
-#### Source
+#### Defined in
 
-main.ts:167752
+main.ts:169584
 
 ## Methods
 
@@ -102,9 +102,9 @@ main.ts:167752
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:167775
+main.ts:169607
 
 ***
 
@@ -120,15 +120,15 @@ main.ts:167775
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:167794
+main.ts:169626
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
 #### Parameters
 
@@ -138,6 +138,6 @@ main.ts:167794
 
 [`ContentAnalysisCategoriesResultInfo`](ContentAnalysisCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:167787
+main.ts:169619

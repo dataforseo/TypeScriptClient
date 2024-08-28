@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordAnnotations(data)
+### new KeywordAnnotations()
 
 > **new KeywordAnnotations**(`data`?): [`KeywordAnnotations`](KeywordAnnotations.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordAnnotations`](KeywordAnnotations.md)
 
-#### Source
+#### Defined in
 
-main.ts:121307
+main.ts:121939
 
 ## Properties
 
 ### concepts?
 
-> **`optional`** **concepts**: [`ConceptInfo`](ConceptInfo.md)[]
+> `optional` **concepts**: [`ConceptInfo`](ConceptInfo.md)[]
 
 the list of concepts for the keyword
 
@@ -44,9 +44,9 @@ the list of concepts for the keyword
 
 [`IKeywordAnnotations`](../interfaces/IKeywordAnnotations.md).[`concepts`](../interfaces/IKeywordAnnotations.md#concepts)
 
-#### Source
+#### Defined in
 
-main.ts:121303
+main.ts:121935
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:121303
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:121316
+main.ts:121948
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:121316
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:121337
+main.ts:121969
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordAnnotations`](KeywordAnnotations.md)
+> `static` **fromJS**(`data`): [`KeywordAnnotations`](KeywordAnnotations.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:121337
 
 [`KeywordAnnotations`](KeywordAnnotations.md)
 
-#### Source
+#### Defined in
 
-main.ts:121330
+main.ts:121962

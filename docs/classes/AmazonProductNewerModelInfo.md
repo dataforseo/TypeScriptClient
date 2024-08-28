@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AmazonProductNewerModelInfo(data)
+### new AmazonProductNewerModelInfo()
 
 > **new AmazonProductNewerModelInfo**(`data`?): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:184363
+main.ts:186195
 
 ## Properties
 
 ### newer\_model\_asin?
 
-> **`optional`** **newer\_model\_asin**: `string`
+> `optional` **newer\_model\_asin**: `string`
 
 ASIN of the newer product model
 
@@ -44,15 +44,15 @@ ASIN of the newer product model
 
 [`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md).[`newer_model_asin`](../interfaces/IAmazonProductNewerModelInfo.md#newer_model_asin)
 
-#### Source
+#### Defined in
 
-main.ts:184359
+main.ts:186191
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
@@ -60,9 +60,9 @@ product title
 
 [`IAmazonProductNewerModelInfo`](../interfaces/IAmazonProductNewerModelInfo.md).[`title`](../interfaces/IAmazonProductNewerModelInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:184357
+main.ts:186189
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:184357
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:184372
+main.ts:186204
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:184372
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:184390
+main.ts:186222
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
+> `static` **fromJS**(`data`): [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:184390
 
 [`AmazonProductNewerModelInfo`](AmazonProductNewerModelInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:184383
+main.ts:186215

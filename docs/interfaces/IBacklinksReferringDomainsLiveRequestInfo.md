@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### backlinks\_filters?
 
-> **`optional`** **backlinks\_filters**: `any`[]
+> `optional` **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -24,15 +24,15 @@ using this parameter, you can include only dofollow backlinks in the response an
 example:
 "backlinks_filters": ["dofollow", "=", true]
 
-#### Source
+#### Defined in
 
-main.ts:145523
+main.ts:147349
 
 ***
 
 ### backlinks\_status\_type?
 
-> **`optional`** **backlinks\_status\_type**: `string`
+> `optional` **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -43,40 +43,40 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Source
+#### Defined in
 
-main.ts:145484
+main.ts:147310
 
 ***
 
 ### exclude\_internal\_backlinks?
 
-> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+> `optional` **exclude\_internal\_backlinks**: `boolean`
 
 indicates whether the backlinks from subdomains of the target are excluded
 optional field
 if set to false, the backlinks from subdomains of the target will be ommited and you won’t receive the same domain in the response;
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:145539
+main.ts:147365
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, `<>`, in, not_in, like, not_like
+regex, not_regex, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["referring_pages",">`","1"]
+["referring_pages",">","1"]
 [["referring_pages",">","2"],
 "and",
 ["backlinks",">","10"]]
@@ -85,15 +85,15 @@ example:
 [["domain","like","%dataforseo.com%"],"or",["referring_domains",">","10"]]]
 The full list of possible filters is available here.
 
-#### Source
+#### Defined in
 
-main.ts:145501
+main.ts:147327
 
 ***
 
 ### include\_indirect\_links?
 
-> **`optional`** **include\_indirect\_links**: `boolean`
+> `optional` **include\_indirect\_links**: `boolean`
 
 indicates if indirect links to the target will be included in the results
 optional field
@@ -101,30 +101,30 @@ if set to true, the results will include data on indirect links pointing to a pa
 if set to false, indirect links will be ignored
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:145534
+main.ts:147360
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:145528
+main.ts:147354
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -137,45 +137,45 @@ referring_links_semantic_locations
 default value: 10
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:145475
+main.ts:147301
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:145459
+main.ts:147285
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned domains
 optional field
 default value: 0
 if you specify the 10 value, the first ten domains in the results array will be omitted and the data will be provided for the successive pages
 
-#### Source
+#### Defined in
 
-main.ts:145464
+main.ts:147290
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -191,15 +191,15 @@ you should use a comma to separate several sorting rules
 example:
 ["backlinks,desc","rank,asc"]
 
-#### Source
+#### Defined in
 
-main.ts:145515
+main.ts:147341
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -207,21 +207,21 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:145545
+main.ts:147371
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage to get referring domains for
 required field
 a domain or a subdomain should be specified without https:// and www.
 a page should be specified with absolute URL (including http:// or https://)
 
-#### Source
+#### Defined in
 
-main.ts:145454
+main.ts:147280

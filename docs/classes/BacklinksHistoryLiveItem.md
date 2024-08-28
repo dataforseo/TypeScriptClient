@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksHistoryLiveItem(data)
+### new BacklinksHistoryLiveItem()
 
 > **new BacklinksHistoryLiveItem**(`data`?): [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:140937
+main.ts:142763
 
 ## Properties
 
 ### backlinks?
 
-> **`optional`** **backlinks**: `number`
+> `optional` **backlinks**: `number`
 
 number of backlinks
 
@@ -44,15 +44,15 @@ number of backlinks
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`backlinks`](../interfaces/IBacklinksHistoryLiveItem.md#backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:140856
+main.ts:142682
 
 ***
 
 ### broken\_backlinks?
 
-> **`optional`** **broken\_backlinks**: `number`
+> `optional` **broken\_backlinks**: `number`
 
 number of broken backlinks
 number of broken backlinks pointing to the target
@@ -61,15 +61,15 @@ number of broken backlinks pointing to the target
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`broken_backlinks`](../interfaces/IBacklinksHistoryLiveItem.md#broken_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:140889
+main.ts:142715
 
 ***
 
 ### broken\_pages?
 
-> **`optional`** **broken\_pages**: `number`
+> `optional` **broken\_pages**: `number`
 
 number of broken pages
 number of pages that receive backlinks but respond with 4xx or 5xx status codes
@@ -78,15 +78,15 @@ number of pages that receive backlinks but respond with 4xx or 5xx status codes
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`broken_pages`](../interfaces/IBacklinksHistoryLiveItem.md#broken_pages)
 
-#### Source
+#### Defined in
 
-main.ts:140892
+main.ts:142718
 
 ***
 
 ### crawled\_pages?
 
-> **`optional`** **crawled\_pages**: `number`
+> `optional` **crawled\_pages**: `number`
 
 number of crawled pages for the target
 
@@ -94,15 +94,15 @@ number of crawled pages for the target
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`crawled_pages`](../interfaces/IBacklinksHistoryLiveItem.md#crawled_pages)
 
-#### Source
+#### Defined in
 
-main.ts:140878
+main.ts:142704
 
 ***
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 date and time when the data for the target was stored
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -113,15 +113,15 @@ example:
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`date`](../interfaces/IBacklinksHistoryLiveItem.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:140851
+main.ts:142677
 
 ***
 
 ### external\_links\_count?
 
-> **`optional`** **external\_links\_count**: `number`
+> `optional` **external\_links\_count**: `number`
 
 number of external links on the page
 calculated as the sum of external links on the pages of the specified target
@@ -130,15 +130,15 @@ calculated as the sum of external links on the pages of the specified target
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`external_links_count`](../interfaces/IBacklinksHistoryLiveItem.md#external_links_count)
 
-#### Source
+#### Defined in
 
-main.ts:140886
+main.ts:142712
 
 ***
 
 ### info?
 
-> **`optional`** **info**: [`TargetInfo`](TargetInfo.md)
+> `optional` **info**: [`TargetInfo`](TargetInfo.md)
 
 information about the target
 
@@ -146,15 +146,15 @@ information about the target
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`info`](../interfaces/IBacklinksHistoryLiveItem.md#info)
 
-#### Source
+#### Defined in
 
-main.ts:140880
+main.ts:142706
 
 ***
 
 ### internal\_links\_count?
 
-> **`optional`** **internal\_links\_count**: `number`
+> `optional` **internal\_links\_count**: `number`
 
 number of internal links
 calculated as the sum of internal links on the pages of the specified target
@@ -163,15 +163,15 @@ calculated as the sum of internal links on the pages of the specified target
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`internal_links_count`](../interfaces/IBacklinksHistoryLiveItem.md#internal_links_count)
 
-#### Source
+#### Defined in
 
-main.ts:140883
+main.ts:142709
 
 ***
 
 ### lost\_backlinks?
 
-> **`optional`** **lost\_backlinks**: `number`
+> `optional` **lost\_backlinks**: `number`
 
 number of lost backlinks for the target
 data is provided based in a comparison with the previous period
@@ -182,15 +182,15 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`lost_backlinks`](../interfaces/IBacklinksHistoryLiveItem.md#lost_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:140866
+main.ts:142692
 
 ***
 
 ### lost\_referring\_domains?
 
-> **`optional`** **lost\_referring\_domains**: `number`
+> `optional` **lost\_referring\_domains**: `number`
 
 number of lost referring domains for the target
 data is provided based in a comparison with the previous period
@@ -201,15 +201,15 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`lost_referring_domains`](../interfaces/IBacklinksHistoryLiveItem.md#lost_referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:140876
+main.ts:142702
 
 ***
 
 ### new\_backlinks?
 
-> **`optional`** **new\_backlinks**: `number`
+> `optional` **new\_backlinks**: `number`
 
 number of new backlinks for the target
 data is provided based in a comparison with the previous period
@@ -220,15 +220,15 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`new_backlinks`](../interfaces/IBacklinksHistoryLiveItem.md#new_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:140861
+main.ts:142687
 
 ***
 
 ### new\_referring\_domains?
 
-> **`optional`** **new\_referring\_domains**: `number`
+> `optional` **new\_referring\_domains**: `number`
 
 number of new referring domains for the target
 data is provided based in a comparison with the previous period
@@ -239,15 +239,15 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`new_referring_domains`](../interfaces/IBacklinksHistoryLiveItem.md#new_referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:140871
+main.ts:142697
 
 ***
 
 ### rank?
 
-> **`optional`** **rank**: `number`
+> `optional` **rank**: `number`
 
 domain rank on the given date
 learn more about the metric and how it is calculated in this help center article
@@ -256,15 +256,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`rank`](../interfaces/IBacklinksHistoryLiveItem.md#rank)
 
-#### Source
+#### Defined in
 
-main.ts:140854
+main.ts:142680
 
 ***
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: `number`
+> `optional` **referring\_domains**: `number`
 
 number of referring domains
 referring domains include subdomains that are counted as separate domains for this metric
@@ -273,15 +273,15 @@ referring domains include subdomains that are counted as separate domains for th
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_domains`](../interfaces/IBacklinksHistoryLiveItem.md#referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:140895
+main.ts:142721
 
 ***
 
 ### referring\_domains\_nofollow?
 
-> **`optional`** **referring\_domains\_nofollow**: `number`
+> `optional` **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the target
 
@@ -289,15 +289,15 @@ number of domains pointing at least one nofollow link to the target
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_domains_nofollow`](../interfaces/IBacklinksHistoryLiveItem.md#referring_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:140897
+main.ts:142723
 
 ***
 
 ### referring\_ips?
 
-> **`optional`** **referring\_ips**: `number`
+> `optional` **referring\_ips**: `number`
 
 number of referring IP addresses
 number of IP addresses pointing to this page
@@ -306,20 +306,20 @@ number of IP addresses pointing to this page
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_ips`](../interfaces/IBacklinksHistoryLiveItem.md#referring_ips)
 
-#### Source
+#### Defined in
 
-main.ts:140904
+main.ts:142730
 
 ***
 
 ### referring\_links\_attributes?
 
-> **`optional`** **referring\_links\_attributes**: `Object`
+> `optional` **referring\_links\_attributes**: `object`
 
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -327,20 +327,20 @@ indicates link attributes of the referring links and link count per each attribu
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_links_attributes`](../interfaces/IBacklinksHistoryLiveItem.md#referring_links_attributes)
 
-#### Source
+#### Defined in
 
-main.ts:140921
+main.ts:142747
 
 ***
 
 ### referring\_links\_countries?
 
-> **`optional`** **referring\_links\_countries**: `Object`
+> `optional` **referring\_links\_countries**: `object`
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -348,20 +348,20 @@ indicates ISO country codes of the domains where the referring links are located
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_links_countries`](../interfaces/IBacklinksHistoryLiveItem.md#referring_links_countries)
 
-#### Source
+#### Defined in
 
-main.ts:140933
+main.ts:142759
 
 ***
 
 ### referring\_links\_platform\_types?
 
-> **`optional`** **referring\_links\_platform\_types**: `Object`
+> `optional` **referring\_links\_platform\_types**: `object`
 
 types of referring platforms
 indicates referring platform types and and link count per each platform
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -369,15 +369,15 @@ indicates referring platform types and and link count per each platform
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_links_platform_types`](../interfaces/IBacklinksHistoryLiveItem.md#referring_links_platform_types)
 
-#### Source
+#### Defined in
 
-main.ts:140924
+main.ts:142750
 
 ***
 
 ### referring\_links\_semantic\_locations?
 
-> **`optional`** **referring\_links\_semantic\_locations**: `Object`
+> `optional` **referring\_links\_semantic\_locations**: `object`
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -385,7 +385,7 @@ you can get the full list of semantic elements here
 examples:
 article, section, summary
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -393,20 +393,20 @@ article, section, summary
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_links_semantic_locations`](../interfaces/IBacklinksHistoryLiveItem.md#referring_links_semantic_locations)
 
-#### Source
+#### Defined in
 
-main.ts:140930
+main.ts:142756
 
 ***
 
 ### referring\_links\_tld?
 
-> **`optional`** **referring\_links\_tld**: `Object`
+> `optional` **referring\_links\_tld**: `object`
 
 top-level domains of the referring links
 contains top-level domains and referring link count per each
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -414,22 +414,22 @@ contains top-level domains and referring link count per each
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_links_tld`](../interfaces/IBacklinksHistoryLiveItem.md#referring_links_tld)
 
-#### Source
+#### Defined in
 
-main.ts:140913
+main.ts:142739
 
 ***
 
 ### referring\_links\_types?
 
-> **`optional`** **referring\_links\_types**: `Object`
+> `optional` **referring\_links\_types**: `object`
 
 types of referring links
 indicates the types of the referring links and link count per each type
 possible values:
 anchor, image, link, meta, canonical, alternate, redirect
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -437,15 +437,15 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_links_types`](../interfaces/IBacklinksHistoryLiveItem.md#referring_links_types)
 
-#### Source
+#### Defined in
 
-main.ts:140918
+main.ts:142744
 
 ***
 
 ### referring\_main\_domains?
 
-> **`optional`** **referring\_main\_domains**: `number`
+> `optional` **referring\_main\_domains**: `number`
 
 number of referring main domains
 
@@ -453,15 +453,15 @@ number of referring main domains
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_main_domains`](../interfaces/IBacklinksHistoryLiveItem.md#referring_main_domains)
 
-#### Source
+#### Defined in
 
-main.ts:140899
+main.ts:142725
 
 ***
 
 ### referring\_main\_domains\_nofollow?
 
-> **`optional`** **referring\_main\_domains\_nofollow**: `number`
+> `optional` **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -469,15 +469,15 @@ number of main domains pointing at least one nofollow link to the target
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_main_domains_nofollow`](../interfaces/IBacklinksHistoryLiveItem.md#referring_main_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:140901
+main.ts:142727
 
 ***
 
 ### referring\_pages?
 
-> **`optional`** **referring\_pages**: `number`
+> `optional` **referring\_pages**: `number`
 
 number of pages pointing to the target
 
@@ -485,15 +485,15 @@ number of pages pointing to the target
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_pages`](../interfaces/IBacklinksHistoryLiveItem.md#referring_pages)
 
-#### Source
+#### Defined in
 
-main.ts:140908
+main.ts:142734
 
 ***
 
 ### referring\_pages\_nofollow?
 
-> **`optional`** **referring\_pages\_nofollow**: `number`
+> `optional` **referring\_pages\_nofollow**: `number`
 
 number of referring pages pointing at least one nofollow link to the target
 
@@ -501,15 +501,15 @@ number of referring pages pointing at least one nofollow link to the target
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_pages_nofollow`](../interfaces/IBacklinksHistoryLiveItem.md#referring_pages_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:140910
+main.ts:142736
 
 ***
 
 ### referring\_subnets?
 
-> **`optional`** **referring\_subnets**: `number`
+> `optional` **referring\_subnets**: `number`
 
 number of referring subnetworks
 
@@ -517,15 +517,15 @@ number of referring subnetworks
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`referring_subnets`](../interfaces/IBacklinksHistoryLiveItem.md#referring_subnets)
 
-#### Source
+#### Defined in
 
-main.ts:140906
+main.ts:142732
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -533,9 +533,9 @@ type of element
 
 [`IBacklinksHistoryLiveItem`](../interfaces/IBacklinksHistoryLiveItem.md).[`type`](../interfaces/IBacklinksHistoryLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:140846
+main.ts:142672
 
 ## Methods
 
@@ -551,9 +551,9 @@ main.ts:140846
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:140946
+main.ts:142772
 
 ***
 
@@ -569,15 +569,15 @@ main.ts:140946
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:141026
+main.ts:142852
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)
 
 #### Parameters
 
@@ -587,6 +587,6 @@ main.ts:141026
 
 [`BacklinksHistoryLiveItem`](BacklinksHistoryLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:141019
+main.ts:142845

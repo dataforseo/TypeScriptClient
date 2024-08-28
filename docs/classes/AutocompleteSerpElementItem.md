@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new AutocompleteSerpElementItem(data)
+### new AutocompleteSerpElementItem()
 
 > **new AutocompleteSerpElementItem**(`data`?): [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:53267
+main.ts:53799
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### highlighted?
 
-> **`optional`** **highlighted**: `string`[]
+> `optional` **highlighted**: `string`[]
 
 keywords highlighted in autocomplete
 contains a list of google autocomplete suggestions that are highlighted in the search bar;
@@ -71,15 +71,15 @@ gws-wiz-local
 
 [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`highlighted`](../interfaces/IAutocompleteSerpElementItem.md#highlighted)
 
-#### Source
+#### Defined in
 
-main.ts:53263
+main.ts:53795
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
@@ -88,15 +88,15 @@ absolute position among all the elements in SERP
 
 [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`rank_absolute`](../interfaces/IAutocompleteSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:53234
+main.ts:53766
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -106,15 +106,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`rank_group`](../interfaces/IAutocompleteSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:53231
+main.ts:53763
 
 ***
 
 ### relevance?
 
-> **`optional`** **relevance**: `number`
+> `optional` **relevance**: `number`
 
 relevance of suggested keyword
 represents the relevant of the autocomplete suggestion to the target keyword
@@ -127,15 +127,15 @@ chrome/chrome-omni
 
 [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`relevance`](../interfaces/IAutocompleteSerpElementItem.md#relevance)
 
-#### Source
+#### Defined in
 
-main.ts:53241
+main.ts:53773
 
 ***
 
 ### search\_query\_url?
 
-> **`optional`** **search\_query\_url**: `string`
+> `optional` **search\_query\_url**: `string`
 
 url to search results
 url to search results relevant to the google autocomplete suggestion
@@ -144,15 +144,15 @@ url to search results relevant to the google autocomplete suggestion
 
 [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`search_query_url`](../interfaces/IAutocompleteSerpElementItem.md#search_query_url)
 
-#### Source
+#### Defined in
 
-main.ts:53250
+main.ts:53782
 
 ***
 
 ### suggestion?
 
-> **`optional`** **suggestion**: `string`
+> `optional` **suggestion**: `string`
 
 google autocomplete keyword suggestion
 
@@ -160,15 +160,15 @@ google autocomplete keyword suggestion
 
 [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`suggestion`](../interfaces/IAutocompleteSerpElementItem.md#suggestion)
 
-#### Source
+#### Defined in
 
-main.ts:53243
+main.ts:53775
 
 ***
 
 ### suggestion\_type?
 
-> **`optional`** **suggestion\_type**: `string`
+> `optional` **suggestion\_type**: `string`
 
 google autocomplete suggestion type
 Note: only available for the following client:
@@ -178,15 +178,15 @@ chrome/chrome-omni
 
 [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`suggestion_type`](../interfaces/IAutocompleteSerpElementItem.md#suggestion_type)
 
-#### Source
+#### Defined in
 
-main.ts:53247
+main.ts:53779
 
 ***
 
 ### thumbnail\_url?
 
-> **`optional`** **thumbnail\_url**: `string`
+> `optional` **thumbnail\_url**: `string`
 
 url of the thumbnail image
 url of the thumbnail image of the google autocomplete suggestion
@@ -198,9 +198,9 @@ gws-wiz-serp
 
 [`IAutocompleteSerpElementItem`](../interfaces/IAutocompleteSerpElementItem.md).[`thumbnail_url`](../interfaces/IAutocompleteSerpElementItem.md#thumbnail_url)
 
-#### Source
+#### Defined in
 
-main.ts:53256
+main.ts:53788
 
 ## Methods
 
@@ -220,9 +220,9 @@ main.ts:53256
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:53272
+main.ts:53804
 
 ***
 
@@ -242,15 +242,15 @@ main.ts:53272
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:53301
+main.ts:53833
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
+> `static` **fromJS**(`data`): [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
 
 #### Parameters
 
@@ -264,6 +264,6 @@ main.ts:53301
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:53294
+main.ts:53826

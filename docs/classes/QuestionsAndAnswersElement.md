@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new QuestionsAndAnswersElement(data)
+### new QuestionsAndAnswersElement()
 
 > **new QuestionsAndAnswersElement**(`data`?): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
@@ -28,15 +28,15 @@
 
 [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34490
+main.ts:34686
 
 ## Properties
 
 ### answer\_text?
 
-> **`optional`** **answer\_text**: `string`
+> `optional` **answer\_text**: `string`
 
 answer included in the item
 
@@ -44,15 +44,15 @@ answer included in the item
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`answer_text`](../interfaces/IQuestionsAndAnswersElement.md#answer_text)
 
-#### Source
+#### Defined in
 
-main.ts:34479
+main.ts:34675
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -60,15 +60,15 @@ website domain
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`domain`](../interfaces/IQuestionsAndAnswersElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:34484
+main.ts:34680
 
 ***
 
 ### question\_text?
 
-> **`optional`** **question\_text**: `string`
+> `optional` **question\_text**: `string`
 
 question included in the item
 
@@ -76,15 +76,15 @@ question included in the item
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`question_text`](../interfaces/IQuestionsAndAnswersElement.md#question_text)
 
-#### Source
+#### Defined in
 
-main.ts:34477
+main.ts:34673
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -93,15 +93,15 @@ indicates the source of information included in the top_stories_element
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`source`](../interfaces/IQuestionsAndAnswersElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:34482
+main.ts:34678
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -109,15 +109,15 @@ type of element
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`type`](../interfaces/IQuestionsAndAnswersElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:34473
+main.ts:34669
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -125,15 +125,15 @@ URL
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`url`](../interfaces/IQuestionsAndAnswersElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:34475
+main.ts:34671
 
 ***
 
 ### votes?
 
-> **`optional`** **votes**: `number`
+> `optional` **votes**: `number`
 
 answer upvotes from the source
 
@@ -141,9 +141,9 @@ answer upvotes from the source
 
 [`IQuestionsAndAnswersElement`](../interfaces/IQuestionsAndAnswersElement.md).[`votes`](../interfaces/IQuestionsAndAnswersElement.md#votes)
 
-#### Source
+#### Defined in
 
-main.ts:34486
+main.ts:34682
 
 ## Methods
 
@@ -159,9 +159,9 @@ main.ts:34486
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:34499
+main.ts:34695
 
 ***
 
@@ -177,15 +177,15 @@ main.ts:34499
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:34522
+main.ts:34718
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
+> `static` **fromJS**(`data`): [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
 #### Parameters
 
@@ -195,6 +195,6 @@ main.ts:34522
 
 [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34515
+main.ts:34711

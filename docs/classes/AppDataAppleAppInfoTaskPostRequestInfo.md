@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataAppleAppInfoTaskPostRequestInfo(data)
+### new AppDataAppleAppInfoTaskPostRequestInfo()
 
 > **new AppDataAppleAppInfoTaskPostRequestInfo**(`data`?): [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:196393
+main.ts:198225
 
 ## Properties
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the app
 required field
@@ -50,15 +50,15 @@ the id is 835599320
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`app_id`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:196321
+main.ts:198153
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -71,15 +71,15 @@ en
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`language_code`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:196349
+main.ts:198181
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -92,15 +92,15 @@ English
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`language_name`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:196342
+main.ts:198174
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -113,15 +113,15 @@ example:
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`location_code`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:196335
+main.ts:198167
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -134,15 +134,15 @@ West Los Angeles,California,United States
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`location_name`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:196328
+main.ts:198160
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -158,15 +158,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:196389
+main.ts:198221
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -178,15 +178,15 @@ advanced
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`postback_data`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:196379
+main.ts:198211
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -202,15 +202,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`postback_url`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:196373
+main.ts:198205
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -224,15 +224,15 @@ The cost can be calculated on the Pricing page.
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`priority`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:196357
+main.ts:198189
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -244,9 +244,9 @@ you will find the specified tag value in the data object of the response
 
 [`IAppDataAppleAppInfoTaskPostRequestInfo`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md).[`tag`](../interfaces/IAppDataAppleAppInfoTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:196363
+main.ts:198195
 
 ## Methods
 
@@ -262,9 +262,9 @@ main.ts:196363
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:196402
+main.ts:198234
 
 ***
 
@@ -280,15 +280,15 @@ main.ts:196402
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:196428
+main.ts:198260
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -298,6 +298,6 @@ main.ts:196428
 
 [`AppDataAppleAppInfoTaskPostRequestInfo`](AppDataAppleAppInfoTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:196421
+main.ts:198253

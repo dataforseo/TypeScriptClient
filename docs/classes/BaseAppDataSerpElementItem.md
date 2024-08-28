@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -25,7 +25,7 @@
 
 ## Constructors
 
-### new BaseAppDataSerpElementItem(data)
+### new BaseAppDataSerpElementItem()
 
 > **new BaseAppDataSerpElementItem**(`data`?): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
@@ -37,19 +37,19 @@
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21521
+main.ts:21703
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:21519
+main.ts:21701
 
 ## Methods
 
@@ -65,9 +65,9 @@ main.ts:21519
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21531
+main.ts:21713
 
 ***
 
@@ -83,15 +83,15 @@ main.ts:21531
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21577
+main.ts:21759
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
+> `static` **fromJS**(`data`): [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
 #### Parameters
 
@@ -101,6 +101,6 @@ main.ts:21577
 
 [`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21540
+main.ts:21722

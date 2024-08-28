@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageNonIndexableItem(data)
+### new OnPageNonIndexableItem()
 
 > **new OnPageNonIndexableItem**(`data`?): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:160947
+main.ts:162779
 
 ## Properties
 
 ### reason?
 
-> **`optional`** **reason**: `string`
+> `optional` **reason**: `string`
 
 the reason why the page is non-indexable
 can take the following values: robots_txt, meta_tag, http_header, attribute, too_many_redirects
@@ -45,15 +45,15 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 [`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md).[`reason`](../interfaces/IOnPageNonIndexableItem.md#reason)
 
-#### Source
+#### Defined in
 
-main.ts:160941
+main.ts:162773
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 url of the non-indexable page
 
@@ -61,9 +61,9 @@ url of the non-indexable page
 
 [`IOnPageNonIndexableItem`](../interfaces/IOnPageNonIndexableItem.md).[`url`](../interfaces/IOnPageNonIndexableItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:160943
+main.ts:162775
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:160943
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:160956
+main.ts:162788
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:160956
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:160974
+main.ts:162806
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
+> `static` **fromJS**(`data`): [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:160974
 
 [`OnPageNonIndexableItem`](OnPageNonIndexableItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:160967
+main.ts:162799

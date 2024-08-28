@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DemographyItemValueInfo(data)
+### new DemographyItemValueInfo()
 
 > **new DemographyItemValueInfo**(`data`?): [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130148
+main.ts:129972
 
 ## Properties
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -44,15 +44,15 @@ type of element
 
 [`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md).[`type`](../interfaces/IDemographyItemValueInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:130138
+main.ts:129962
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 keyword popularity rate within the specified age range
 using this value you can understand how popular a keyword is within each age range;
@@ -64,9 +64,9 @@ a value of 0 means there was not enough data for this term
 
 [`IDemographyItemValueInfo`](../interfaces/IDemographyItemValueInfo.md).[`value`](../interfaces/IDemographyItemValueInfo.md#value)
 
-#### Source
+#### Defined in
 
-main.ts:130144
+main.ts:129968
 
 ## Methods
 
@@ -82,9 +82,9 @@ main.ts:130144
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:130157
+main.ts:129981
 
 ***
 
@@ -100,15 +100,15 @@ main.ts:130157
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:130175
+main.ts:129999
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
+> `static` **fromJS**(`data`): [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
 #### Parameters
 
@@ -118,6 +118,6 @@ main.ts:130175
 
 [`DemographyItemValueInfo`](DemographyItemValueInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:130168
+main.ts:129992

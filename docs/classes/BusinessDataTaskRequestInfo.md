@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -24,7 +24,7 @@
 
 ## Constructors
 
-### new BusinessDataTaskRequestInfo(data)
+### new BusinessDataTaskRequestInfo()
 
 > **new BusinessDataTaskRequestInfo**(`data`?): [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
@@ -36,15 +36,15 @@
 
 [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:195637
+main.ts:197469
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -66,15 +66,15 @@ learn more about the cid and place_id identifiers in this help center article
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`keyword`](../interfaces/IBusinessDataTaskRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:195561
+main.ts:197393
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -87,15 +87,15 @@ en
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`language_code`](../interfaces/IBusinessDataTaskRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:195607
+main.ts:197439
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -108,15 +108,15 @@ English
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`language_name`](../interfaces/IBusinessDataTaskRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:195600
+main.ts:197432
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -129,15 +129,15 @@ example:
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`location_code`](../interfaces/IBusinessDataTaskRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:195583
+main.ts:197415
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -153,15 +153,15 @@ example:
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataTaskRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:195593
+main.ts:197425
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -174,15 +174,15 @@ London,England,United Kingdom
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`location_name`](../interfaces/IBusinessDataTaskRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:195576
+main.ts:197408
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -198,15 +198,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataTaskRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:195633
+main.ts:197465
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -222,15 +222,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataTaskRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:195623
+main.ts:197455
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -244,15 +244,15 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`priority`](../interfaces/IBusinessDataTaskRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:195569
+main.ts:197401
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -264,9 +264,9 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataTaskRequestInfo`](../interfaces/IBusinessDataTaskRequestInfo.md).[`tag`](../interfaces/IBusinessDataTaskRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:195613
+main.ts:197445
 
 ## Methods
 
@@ -282,9 +282,9 @@ main.ts:195613
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:195646
+main.ts:197478
 
 ***
 
@@ -300,15 +300,15 @@ main.ts:195646
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:195672
+main.ts:197504
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
 #### Parameters
 
@@ -318,6 +318,6 @@ main.ts:195672
 
 [`BusinessDataTaskRequestInfo`](BusinessDataTaskRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:195665
+main.ts:197497

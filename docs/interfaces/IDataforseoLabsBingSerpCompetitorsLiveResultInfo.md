@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,85 +14,85 @@
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](../classes/DataforseoLabsSerpCompetitorsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsSerpCompetitorsLiveItem`](../classes/DataforseoLabsSerpCompetitorsLiveItem.md)[]
 
 contains detected SERP competitors and related data
 
-#### Source
+#### Defined in
 
-main.ts:113012
+main.ts:113644
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:113010
+main.ts:113642
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:113006
+main.ts:113638
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:113003
+main.ts:113635
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:112997
+main.ts:113629
 
 ***
 
 ### seed\_keywords?
 
-> **`optional`** **seed\_keywords**: `string`[]
+> `optional` **seed\_keywords**: `string`[]
 
 keywords specified in the request
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
 
-#### Source
+#### Defined in
 
-main.ts:113000
+main.ts:113632
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 the total amount of results in our database relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:113008
+main.ts:113640

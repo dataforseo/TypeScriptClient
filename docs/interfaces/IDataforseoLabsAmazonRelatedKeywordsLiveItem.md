@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,47 +14,47 @@
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 keyword search depth
 
-#### Source
+#### Defined in
 
-main.ts:105049
+main.ts:105679
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
+> `optional` **keyword\_data**: [`AmazonKeywordData`](../classes/AmazonKeywordData.md)
 
 keyword data for the returned keyword
 
-#### Source
+#### Defined in
 
-main.ts:105047
+main.ts:105677
 
 ***
 
 ### related\_keywords?
 
-> **`optional`** **related\_keywords**: `string`[]
+> `optional` **related\_keywords**: `string`[]
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
 
-#### Source
+#### Defined in
 
-main.ts:105052
+main.ts:105682
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:105045
+main.ts:105675

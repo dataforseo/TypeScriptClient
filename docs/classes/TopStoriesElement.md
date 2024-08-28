@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TopStoriesElement(data)
+### new TopStoriesElement()
 
 > **new TopStoriesElement**(`data`?): [`TopStoriesElement`](TopStoriesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`TopStoriesElement`](TopStoriesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:29706
+main.ts:29890
 
 ## Properties
 
 ### amp\_version?
 
-> **`optional`** **amp\_version**: `boolean`
+> `optional` **amp\_version**: `boolean`
 
 Accelerated Mobile Pages
 indicates whether an item has the Accelerated Mobile Page (AMP) version
@@ -45,15 +45,31 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`amp_version`](../interfaces/ITopStoriesElement.md#amp_version)
 
-#### Source
+#### Defined in
 
-main.ts:29693
+main.ts:29875
+
+***
+
+### badges?
+
+> `optional` **badges**: `string`[]
+
+badges relevant to the element
+
+#### Implementation of
+
+[`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`badges`](../interfaces/ITopStoriesElement.md#badges)
+
+#### Defined in
+
+main.ts:29886
 
 ***
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 the date when the page source of the element was published
 
@@ -61,15 +77,15 @@ the date when the page source of the element was published
 
 [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`date`](../interfaces/ITopStoriesElement.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:29690
+main.ts:29872
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -77,15 +93,15 @@ website domain
 
 [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`domain`](../interfaces/ITopStoriesElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:29686
+main.ts:29868
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
@@ -93,15 +109,15 @@ URL of the image
 
 [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`image_url`](../interfaces/ITopStoriesElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:29702
+main.ts:29884
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -110,15 +126,15 @@ indicates the source of information included in the top_stories_element
 
 [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`source`](../interfaces/ITopStoriesElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:29684
+main.ts:29866
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -129,15 +145,15 @@ example:
 
 [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`timestamp`](../interfaces/ITopStoriesElement.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:29698
+main.ts:29880
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -145,15 +161,15 @@ title of a given link element
 
 [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`title`](../interfaces/ITopStoriesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:29688
+main.ts:29870
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -161,15 +177,15 @@ type of element
 
 [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`type`](../interfaces/ITopStoriesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:29681
+main.ts:29863
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -177,9 +193,9 @@ URL
 
 [`ITopStoriesElement`](../interfaces/ITopStoriesElement.md).[`url`](../interfaces/ITopStoriesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:29700
+main.ts:29882
 
 ## Methods
 
@@ -195,9 +211,9 @@ main.ts:29700
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:29715
+main.ts:29899
 
 ***
 
@@ -213,15 +229,15 @@ main.ts:29715
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:29740
+main.ts:29929
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TopStoriesElement`](TopStoriesElement.md)
+> `static` **fromJS**(`data`): [`TopStoriesElement`](TopStoriesElement.md)
 
 #### Parameters
 
@@ -231,6 +247,6 @@ main.ts:29740
 
 [`TopStoriesElement`](TopStoriesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:29733
+main.ts:29922

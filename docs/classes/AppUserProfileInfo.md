@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppUserProfileInfo(data)
+### new AppUserProfileInfo()
 
 > **new AppUserProfileInfo**(`data`?): [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:193613
+main.ts:195445
 
 ## Properties
 
 ### profile\_image\_url?
 
-> **`optional`** **profile\_image\_url**: `string`
+> `optional` **profile\_image\_url**: `string`
 
 URL to the reviewer’s profile image
 
@@ -44,15 +44,15 @@ URL to the reviewer’s profile image
 
 [`IAppUserProfileInfo`](../interfaces/IAppUserProfileInfo.md).[`profile_image_url`](../interfaces/IAppUserProfileInfo.md#profile_image_url)
 
-#### Source
+#### Defined in
 
-main.ts:193609
+main.ts:195441
 
 ***
 
 ### profile\_name?
 
-> **`optional`** **profile\_name**: `string`
+> `optional` **profile\_name**: `string`
 
 profile name of the reviewer
 
@@ -60,9 +60,9 @@ profile name of the reviewer
 
 [`IAppUserProfileInfo`](../interfaces/IAppUserProfileInfo.md).[`profile_name`](../interfaces/IAppUserProfileInfo.md#profile_name)
 
-#### Source
+#### Defined in
 
-main.ts:193607
+main.ts:195439
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:193607
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:193622
+main.ts:195454
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:193622
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:193640
+main.ts:195472
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppUserProfileInfo`](AppUserProfileInfo.md)
+> `static` **fromJS**(`data`): [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:193640
 
 [`AppUserProfileInfo`](AppUserProfileInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:193633
+main.ts:195465

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,7 +18,7 @@ items array
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologyStatsLiveItem(data)
+### new DomainAnalyticsTechnologiesTechnologyStatsLiveItem()
 
 > **new DomainAnalyticsTechnologiesTechnologyStatsLiveItem**(`data`?): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
@@ -30,20 +30,20 @@ items array
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:78104
+main.ts:78700
 
 ## Properties
 
 ### countries?
 
-> **`optional`** **countries**: `Object`
+> `optional` **countries**: `object`
 
 distribution of websites by country
 contains country codes and number of websites per country
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -51,15 +51,15 @@ contains country codes and number of websites per country
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`countries`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#countries)
 
-#### Source
+#### Defined in
 
-main.ts:78093
+main.ts:78689
 
 ***
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 date for which the data is provided
 
@@ -67,15 +67,15 @@ date for which the data is provided
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`date`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:78088
+main.ts:78684
 
 ***
 
 ### domains\_count?
 
-> **`optional`** **domains\_count**: `number`
+> `optional` **domains\_count**: `number`
 
 number of domains that use the specified technology
 
@@ -83,21 +83,21 @@ number of domains that use the specified technology
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`domains_count`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_count)
 
-#### Source
+#### Defined in
 
-main.ts:78090
+main.ts:78686
 
 ***
 
 ### domains\_rank?
 
-> **`optional`** **domains\_rank**: `Object`
+> `optional` **domains\_rank**: `object`
 
 distribution of websites by backlink rank
 contains domain rank ranges and number of websites per range
 learn more about rank and how it is calculated in this help center article
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -105,20 +105,20 @@ learn more about rank and how it is calculated in this help center article
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`domains_rank`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#domains_rank)
 
-#### Source
+#### Defined in
 
-main.ts:78100
+main.ts:78696
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `Object`
+> `optional` **languages**: `object`
 
 distribution of websites by language
 contains language codes and number of websites per language
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -126,15 +126,15 @@ contains language codes and number of websites per language
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`languages`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:78096
+main.ts:78692
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -142,9 +142,9 @@ type of element
 
 [`IDomainAnalyticsTechnologiesTechnologyStatsLiveItem`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md).[`type`](../interfaces/IDomainAnalyticsTechnologiesTechnologyStatsLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:78086
+main.ts:78682
 
 ## Methods
 
@@ -160,9 +160,9 @@ main.ts:78086
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:78113
+main.ts:78709
 
 ***
 
@@ -178,15 +178,15 @@ main.ts:78113
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:78153
+main.ts:78749
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
 #### Parameters
 
@@ -196,6 +196,6 @@ main.ts:78153
 
 [`DomainAnalyticsTechnologiesTechnologyStatsLiveItem`](DomainAnalyticsTechnologiesTechnologyStatsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:78146
+main.ts:78742

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PodcastsElement(data)
+### new PodcastsElement()
 
 > **new PodcastsElement**(`data`?): [`PodcastsElement`](PodcastsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`PodcastsElement`](PodcastsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33838
+main.ts:34034
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`description`](../interfaces/IPodcastsElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:33827
+main.ts:34023
 
 ***
 
 ### time\_to\_play?
 
-> **`optional`** **time\_to\_play**: `string`
+> `optional` **time\_to\_play**: `string`
 
 the total time it will take to play an episode
 
@@ -60,15 +60,15 @@ the total time it will take to play an episode
 
 [`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`time_to_play`](../interfaces/IPodcastsElement.md#time_to_play)
 
-#### Source
+#### Defined in
 
-main.ts:33834
+main.ts:34030
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -79,15 +79,15 @@ example:
 
 [`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`timestamp`](../interfaces/IPodcastsElement.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:33832
+main.ts:34028
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -95,15 +95,15 @@ title of a given link element
 
 [`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`title`](../interfaces/IPodcastsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:33823
+main.ts:34019
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -111,15 +111,15 @@ type of element
 
 [`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`type`](../interfaces/IPodcastsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:33821
+main.ts:34017
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -127,9 +127,9 @@ URL
 
 [`IPodcastsElement`](../interfaces/IPodcastsElement.md).[`url`](../interfaces/IPodcastsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:33825
+main.ts:34021
 
 ## Methods
 
@@ -145,9 +145,9 @@ main.ts:33825
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:33847
+main.ts:34043
 
 ***
 
@@ -163,15 +163,15 @@ main.ts:33847
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:33869
+main.ts:34065
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PodcastsElement`](PodcastsElement.md)
+> `static` **fromJS**(`data`): [`PodcastsElement`](PodcastsElement.md)
 
 #### Parameters
 
@@ -181,6 +181,6 @@ main.ts:33869
 
 [`PodcastsElement`](PodcastsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33862
+main.ts:34058

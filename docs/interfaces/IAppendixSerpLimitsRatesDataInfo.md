@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,98 +14,98 @@
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218516
+main.ts:220368
 
 ***
 
 ### jobs?
 
-> **`optional`** **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
+> `optional` **jobs**: [`AppendixJobsSerpLimitsRatesDataInfo`](../classes/AppendixJobsSerpLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218518
+main.ts:220370
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218514
+main.ts:220366
 
 ***
 
 ### live?
 
-> **`optional`** **live**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
+> `optional` **live**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218515
+main.ts:220367
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218513
+main.ts:220365
 
 ***
 
 ### screenshot?
 
-> **`optional`** **screenshot**: `number`
+> `optional` **screenshot**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218519
+main.ts:220371
 
 ***
 
 ### task\_get?
 
-> **`optional`** **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
+> `optional` **task\_get**: [`AppendixFunctionTypeInfo`](../classes/AppendixFunctionTypeInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218511
+main.ts:220363
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: `number`
+> `optional` **task\_post**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218510
+main.ts:220362
 
 ***
 
 ### tasks\_fixed?
 
-> **`optional`** **tasks\_fixed**: `number`
+> `optional` **tasks\_fixed**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218517
+main.ts:220369
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:218512
+main.ts:220364

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,70 +14,70 @@
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
-#### Source
+#### Defined in
 
-main.ts:36814
+main.ts:37010
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword for the related refined search
 
-#### Source
+#### Defined in
 
-main.ts:36816
+main.ts:37012
 
 ***
 
 ### refine\_type?
 
-> **`optional`** **refine\_type**: `string`
+> `optional` **refine\_type**: `string`
 
 type of search refinement
 
-#### Source
+#### Defined in
 
-main.ts:36818
+main.ts:37014
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:36812
+main.ts:37008
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:36810
+main.ts:37006
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:36820
+main.ts:37016

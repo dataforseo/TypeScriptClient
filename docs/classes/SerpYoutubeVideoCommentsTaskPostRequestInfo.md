@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpYoutubeVideoCommentsTaskPostRequestInfo(data)
+### new SerpYoutubeVideoCommentsTaskPostRequestInfo()
 
 > **new SerpYoutubeVideoCommentsTaskPostRequestInfo**(`data`?): [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:65541
+main.ts:66137
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -51,15 +51,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:65505
+main.ts:66101
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -69,15 +69,15 @@ only value: desktop
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`device`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:65491
+main.ts:66087
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -90,15 +90,15 @@ en
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:65487
+main.ts:66083
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -111,15 +111,15 @@ English
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:65480
+main.ts:66076
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -132,15 +132,15 @@ example:
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:65473
+main.ts:66069
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -153,15 +153,15 @@ United States
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:65466
+main.ts:66062
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
@@ -172,15 +172,15 @@ default value: windows
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`os`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#os)
 
-#### Source
+#### Defined in
 
-main.ts:65496
+main.ts:66092
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -196,15 +196,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:65537
+main.ts:66133
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -216,15 +216,15 @@ advanced
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:65527
+main.ts:66123
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -240,15 +240,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:65521
+main.ts:66117
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -262,15 +262,15 @@ The cost can be calculated on the Pricing page.
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:65459
+main.ts:66055
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -282,15 +282,15 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:65511
+main.ts:66107
 
 ***
 
 ### video\_id?
 
-> **`optional`** **video\_id**: `string`
+> `optional` **video\_id**: `string`
 
 ID of the video
 required field
@@ -302,9 +302,9 @@ vQXvyV0zIP4
 
 [`ISerpYoutubeVideoCommentsTaskPostRequestInfo`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md).[`video_id`](../interfaces/ISerpYoutubeVideoCommentsTaskPostRequestInfo.md#video_id)
 
-#### Source
+#### Defined in
 
-main.ts:65451
+main.ts:66047
 
 ## Methods
 
@@ -320,9 +320,9 @@ main.ts:65451
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:65550
+main.ts:66146
 
 ***
 
@@ -338,15 +338,15 @@ main.ts:65550
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:65579
+main.ts:66175
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -356,6 +356,6 @@ main.ts:65579
 
 [`SerpYoutubeVideoCommentsTaskPostRequestInfo`](SerpYoutubeVideoCommentsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:65572
+main.ts:66168

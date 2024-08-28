@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksSummaryLiveResultInfo(data)
+### new BacklinksSummaryLiveResultInfo()
 
 > **new BacklinksSummaryLiveResultInfo**(`data`?): [`BacklinksSummaryLiveResultInfo`](BacklinksSummaryLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksSummaryLiveResultInfo`](BacklinksSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:140384
+main.ts:142210
 
 ## Properties
 
 ### backlinks?
 
-> **`optional`** **backlinks**: `number`
+> `optional` **backlinks**: `number`
 
 indicates the number of backlinks
 
@@ -44,15 +44,15 @@ indicates the number of backlinks
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`backlinks`](../interfaces/IBacklinksSummaryLiveResultInfo.md#backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:140314
+main.ts:142140
 
 ***
 
 ### backlinks\_spam\_score?
 
-> **`optional`** **backlinks\_spam\_score**: `number`
+> `optional` **backlinks\_spam\_score**: `number`
 
 spam score of the backlinks
 displays the total spam score of all backlinks pointing to the target domain, subdomain, or webpage;
@@ -62,15 +62,15 @@ to learn more about how the metric is calculated, refer to this Help Center page
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`backlinks_spam_score`](../interfaces/IBacklinksSummaryLiveResultInfo.md#backlinks_spam_score)
 
-#### Source
+#### Defined in
 
-main.ts:140318
+main.ts:142144
 
 ***
 
 ### broken\_backlinks?
 
-> **`optional`** **broken\_backlinks**: `number`
+> `optional` **broken\_backlinks**: `number`
 
 number of broken backlinks
 number of broken backlinks pointing to the target
@@ -79,15 +79,15 @@ number of broken backlinks pointing to the target
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`broken_backlinks`](../interfaces/IBacklinksSummaryLiveResultInfo.md#broken_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:140331
+main.ts:142157
 
 ***
 
 ### broken\_pages?
 
-> **`optional`** **broken\_pages**: `number`
+> `optional` **broken\_pages**: `number`
 
 number of broken pages
 number of pages on the target that respond with 4xx or 5xx status codes
@@ -97,15 +97,15 @@ note that the number of broken pages includes pages on the target discovered by 
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`broken_pages`](../interfaces/IBacklinksSummaryLiveResultInfo.md#broken_pages)
 
-#### Source
+#### Defined in
 
-main.ts:140335
+main.ts:142161
 
 ***
 
 ### crawled\_pages?
 
-> **`optional`** **crawled\_pages**: `number`
+> `optional` **crawled\_pages**: `number`
 
 number of crawled pages for the target
 
@@ -113,15 +113,15 @@ number of crawled pages for the target
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`crawled_pages`](../interfaces/IBacklinksSummaryLiveResultInfo.md#crawled_pages)
 
-#### Source
+#### Defined in
 
-main.ts:140320
+main.ts:142146
 
 ***
 
 ### external\_links\_count?
 
-> **`optional`** **external\_links\_count**: `number`
+> `optional` **external\_links\_count**: `number`
 
 number of external links on the page
 calculated as the sum of external links on the pages of the specified target
@@ -130,15 +130,15 @@ calculated as the sum of external links on the pages of the specified target
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`external_links_count`](../interfaces/IBacklinksSummaryLiveResultInfo.md#external_links_count)
 
-#### Source
+#### Defined in
 
-main.ts:140328
+main.ts:142154
 
 ***
 
 ### first\_seen?
 
-> **`optional`** **first\_seen**: `string`
+> `optional` **first\_seen**: `string`
 
 date and time when our crawler found the backlink for the target for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -149,15 +149,15 @@ example:
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`first_seen`](../interfaces/IBacklinksSummaryLiveResultInfo.md#first_seen)
 
-#### Source
+#### Defined in
 
-main.ts:140303
+main.ts:142129
 
 ***
 
 ### info?
 
-> **`optional`** **info**: [`TargetInfo`](TargetInfo.md)
+> `optional` **info**: [`TargetInfo`](TargetInfo.md)
 
 information about the target
 
@@ -165,15 +165,15 @@ information about the target
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`info`](../interfaces/IBacklinksSummaryLiveResultInfo.md#info)
 
-#### Source
+#### Defined in
 
-main.ts:140322
+main.ts:142148
 
 ***
 
 ### internal\_links\_count?
 
-> **`optional`** **internal\_links\_count**: `number`
+> `optional` **internal\_links\_count**: `number`
 
 number of internal links
 calculated as the sum of internal links on the pages of the specified target
@@ -182,15 +182,15 @@ calculated as the sum of internal links on the pages of the specified target
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`internal_links_count`](../interfaces/IBacklinksSummaryLiveResultInfo.md#internal_links_count)
 
-#### Source
+#### Defined in
 
-main.ts:140325
+main.ts:142151
 
 ***
 
 ### lost\_date?
 
-> **`optional`** **lost\_date**: `string`
+> `optional` **lost\_date**: `string`
 
 date and time when the backlink was lost
 indicates the date and time when our crawler visited the target and it responded with a 4xx or 5xx status code or when its last backlink was removed
@@ -202,15 +202,15 @@ example:
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`lost_date`](../interfaces/IBacklinksSummaryLiveResultInfo.md#lost_date)
 
-#### Source
+#### Defined in
 
-main.ts:140309
+main.ts:142135
 
 ***
 
 ### rank?
 
-> **`optional`** **rank**: `number`
+> `optional` **rank**: `number`
 
 target rank
 learn more about the metric and how it is calculated in this help center article
@@ -219,15 +219,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`rank`](../interfaces/IBacklinksSummaryLiveResultInfo.md#rank)
 
-#### Source
+#### Defined in
 
-main.ts:140312
+main.ts:142138
 
 ***
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: `number`
+> `optional` **referring\_domains**: `number`
 
 indicates the number of referring domains
 referring domains include subdomains that are counted as separate domains for this metric
@@ -236,15 +236,15 @@ referring domains include subdomains that are counted as separate domains for th
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_domains`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_domains)
 
-#### Source
+#### Defined in
 
-main.ts:140338
+main.ts:142164
 
 ***
 
 ### referring\_domains\_nofollow?
 
-> **`optional`** **referring\_domains\_nofollow**: `number`
+> `optional` **referring\_domains\_nofollow**: `number`
 
 number of domains pointing at least one nofollow link to the target
 
@@ -252,15 +252,15 @@ number of domains pointing at least one nofollow link to the target
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_domains_nofollow`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:140340
+main.ts:142166
 
 ***
 
 ### referring\_ips?
 
-> **`optional`** **referring\_ips**: `number`
+> `optional` **referring\_ips**: `number`
 
 number of referring IP addresses
 number of IP addresses pointing to this page
@@ -269,22 +269,22 @@ number of IP addresses pointing to this page
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_ips`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_ips)
 
-#### Source
+#### Defined in
 
-main.ts:140347
+main.ts:142173
 
 ***
 
 ### referring\_links\_attributes?
 
-> **`optional`** **referring\_links\_attributes**: `Object`
+> `optional` **referring\_links\_attributes**: `object`
 
 link attributes of the referring links
 indicates link attributes of the referring links and link count per each attribute
 example values:
 nofollow, noopener, noreferrer, external, ugc, sponsored
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -292,20 +292,20 @@ nofollow, noopener, noreferrer, external, ugc, sponsored
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_links_attributes`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_links_attributes)
 
-#### Source
+#### Defined in
 
-main.ts:140364
+main.ts:142190
 
 ***
 
 ### referring\_links\_countries?
 
-> **`optional`** **referring\_links\_countries**: `Object`
+> `optional` **referring\_links\_countries**: `object`
 
 ISO country codes of the referring links
 indicates ISO country codes of the domains where the referring links are located and the link count per each country
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -313,22 +313,22 @@ indicates ISO country codes of the domains where the referring links are located
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_links_countries`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_links_countries)
 
-#### Source
+#### Defined in
 
-main.ts:140378
+main.ts:142204
 
 ***
 
 ### referring\_links\_platform\_types?
 
-> **`optional`** **referring\_links\_platform\_types**: `Object`
+> `optional` **referring\_links\_platform\_types**: `object`
 
 types of referring platforms
 indicates referring platform types and and link count per each platform
 example values:
 cms, blogs, unknown, ecommerce, message-boards
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -336,15 +336,15 @@ cms, blogs, unknown, ecommerce, message-boards
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_links_platform_types`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_links_platform_types)
 
-#### Source
+#### Defined in
 
-main.ts:140369
+main.ts:142195
 
 ***
 
 ### referring\_links\_semantic\_locations?
 
-> **`optional`** **referring\_links\_semantic\_locations**: `Object`
+> `optional` **referring\_links\_semantic\_locations**: `object`
 
 semantic locations of the referring links
 indicates semantic elements in HTML where the referring links are located and link count per each semantic location
@@ -352,7 +352,7 @@ you can get the full list of semantic elements here
 example values:
 article, section, summary, ""
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -360,20 +360,20 @@ article, section, summary, ""
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_links_semantic_locations`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_links_semantic_locations)
 
-#### Source
+#### Defined in
 
-main.ts:140375
+main.ts:142201
 
 ***
 
 ### referring\_links\_tld?
 
-> **`optional`** **referring\_links\_tld**: `Object`
+> `optional` **referring\_links\_tld**: `object`
 
 top-level domains of the referring links
 contains top level domains and referring link count per each
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -381,22 +381,22 @@ contains top level domains and referring link count per each
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_links_tld`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_links_tld)
 
-#### Source
+#### Defined in
 
-main.ts:140354
+main.ts:142180
 
 ***
 
 ### referring\_links\_types?
 
-> **`optional`** **referring\_links\_types**: `Object`
+> `optional` **referring\_links\_types**: `object`
 
 types of referring links
 indicates the types of the referring links and link count per each type
 possible values:
 anchor, image, link, meta, canonical, alternate, redirect
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -404,15 +404,15 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_links_types`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_links_types)
 
-#### Source
+#### Defined in
 
-main.ts:140359
+main.ts:142185
 
 ***
 
 ### referring\_main\_domains?
 
-> **`optional`** **referring\_main\_domains**: `number`
+> `optional` **referring\_main\_domains**: `number`
 
 indicates the number of referring main domains
 
@@ -420,15 +420,15 @@ indicates the number of referring main domains
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_main_domains`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_main_domains)
 
-#### Source
+#### Defined in
 
-main.ts:140342
+main.ts:142168
 
 ***
 
 ### referring\_main\_domains\_nofollow?
 
-> **`optional`** **referring\_main\_domains\_nofollow**: `number`
+> `optional` **referring\_main\_domains\_nofollow**: `number`
 
 number of main domains pointing at least one nofollow link to the target
 
@@ -436,15 +436,15 @@ number of main domains pointing at least one nofollow link to the target
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_main_domains_nofollow`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_main_domains_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:140344
+main.ts:142170
 
 ***
 
 ### referring\_pages?
 
-> **`optional`** **referring\_pages**: `number`
+> `optional` **referring\_pages**: `number`
 
 indicates the number of pages pointing to the target
 
@@ -452,15 +452,15 @@ indicates the number of pages pointing to the target
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_pages`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_pages)
 
-#### Source
+#### Defined in
 
-main.ts:140351
+main.ts:142177
 
 ***
 
 ### referring\_pages\_nofollow?
 
-> **`optional`** **referring\_pages\_nofollow**: `number`
+> `optional` **referring\_pages\_nofollow**: `number`
 
 number of referring pages pointing at least one nofollow link to the target
 
@@ -468,15 +468,15 @@ number of referring pages pointing at least one nofollow link to the target
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_pages_nofollow`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_pages_nofollow)
 
-#### Source
+#### Defined in
 
-main.ts:140380
+main.ts:142206
 
 ***
 
 ### referring\_subnets?
 
-> **`optional`** **referring\_subnets**: `number`
+> `optional` **referring\_subnets**: `number`
 
 number of referring subnetworks
 
@@ -484,15 +484,15 @@ number of referring subnetworks
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`referring_subnets`](../interfaces/IBacklinksSummaryLiveResultInfo.md#referring_subnets)
 
-#### Source
+#### Defined in
 
-main.ts:140349
+main.ts:142175
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target in a POST array
 
@@ -500,9 +500,9 @@ target in a POST array
 
 [`IBacklinksSummaryLiveResultInfo`](../interfaces/IBacklinksSummaryLiveResultInfo.md).[`target`](../interfaces/IBacklinksSummaryLiveResultInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:140298
+main.ts:142124
 
 ## Methods
 
@@ -518,9 +518,9 @@ main.ts:140298
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:140393
+main.ts:142219
 
 ***
 
@@ -536,15 +536,15 @@ main.ts:140393
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:140471
+main.ts:142297
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksSummaryLiveResultInfo`](BacklinksSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksSummaryLiveResultInfo`](BacklinksSummaryLiveResultInfo.md)
 
 #### Parameters
 
@@ -554,6 +554,6 @@ main.ts:140471
 
 [`BacklinksSummaryLiveResultInfo`](BacklinksSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:140464
+main.ts:142290

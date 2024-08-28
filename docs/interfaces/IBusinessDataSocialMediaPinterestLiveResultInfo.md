@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,37 +14,37 @@
 
 ### page\_url?
 
-> **`optional`** **page\_url**: `string`
+> `optional` **page\_url**: `string`
 
 URL of the page the data is provided for
 corresponding URL you specified in the targets array when setting a task
 
-#### Source
+#### Defined in
 
-main.ts:217619
+main.ts:219471
 
 ***
 
 ### pins\_count?
 
-> **`optional`** **pins\_count**: `number`
+> `optional` **pins\_count**: `number`
 
 number of pins for the related page_url
 pins on Pinterest correspond to content saves;
 this field shows the number of content saves made from the related page_url using the Pinterest Save Button
 
-#### Source
+#### Defined in
 
-main.ts:217623
+main.ts:219475
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:217616
+main.ts:219468

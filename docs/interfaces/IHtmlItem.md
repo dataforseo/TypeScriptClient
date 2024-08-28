@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,37 +14,37 @@
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 date and time when the HTML page was scanned
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:38304
+main.ts:38812
 
 ***
 
 ### html?
 
-> **`optional`** **html**: `string`
+> `optional` **html**: `string`
 
 HTML page
 
-#### Source
+#### Defined in
 
-main.ts:38306
+main.ts:38814
 
 ***
 
 ### page?
 
-> **`optional`** **page**: `number`
+> `optional` **page**: `number`
 
 serial number of the returned HTML page
 
-#### Source
+#### Defined in
 
-main.ts:38299
+main.ts:38807

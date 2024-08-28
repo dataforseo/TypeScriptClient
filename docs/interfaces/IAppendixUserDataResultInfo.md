@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,59 +14,59 @@
 
 ### login?
 
-> **`optional`** **login**: `string`
+> `optional` **login**: `string`
 
 your login
 
-#### Source
+#### Defined in
 
-main.ts:224152
+main.ts:228424
 
 ***
 
 ### money?
 
-> **`optional`** **money**: [`AppendixMoneyData`](../classes/AppendixMoneyData.md)
+> `optional` **money**: [`AppendixMoneyData`](../classes/AppendixMoneyData.md)
 
 section of your spending, USD
 
-#### Source
+#### Defined in
 
-main.ts:224159
+main.ts:228431
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`AppendixPriceData`](../classes/AppendixPriceData.md)
+> `optional` **price**: [`AppendixPriceData`](../classes/AppendixPriceData.md)
 
 pricing
 
-#### Source
+#### Defined in
 
-main.ts:224161
+main.ts:228433
 
 ***
 
 ### rates?
 
-> **`optional`** **rates**: [`AppendixRatesData`](../classes/AppendixRatesData.md)
+> `optional` **rates**: [`AppendixRatesData`](../classes/AppendixRatesData.md)
 
 your API rates
 
-#### Source
+#### Defined in
 
-main.ts:224157
+main.ts:228429
 
 ***
 
 ### timezone?
 
-> **`optional`** **timezone**: `string`
+> `optional` **timezone**: `string`
 
 your time zone
 can be set in your profile settings
 
-#### Source
+#### Defined in
 
-main.ts:224155
+main.ts:228427

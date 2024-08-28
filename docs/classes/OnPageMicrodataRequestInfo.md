@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageMicrodataRequestInfo(data)
+### new OnPageMicrodataRequestInfo()
 
 > **new OnPageMicrodataRequestInfo**(`data`?): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:162076
+main.ts:163908
 
 ## Properties
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -48,15 +48,15 @@ example:
 
 [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md).[`id`](../interfaces/IOnPageMicrodataRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:162060
+main.ts:163892
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -68,15 +68,15 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md).[`tag`](../interfaces/IOnPageMicrodataRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:162072
+main.ts:163904
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 resource URL
 required field
@@ -88,9 +88,9 @@ https://dataforseo.com/apis
 
 [`IOnPageMicrodataRequestInfo`](../interfaces/IOnPageMicrodataRequestInfo.md).[`url`](../interfaces/IOnPageMicrodataRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:162066
+main.ts:163898
 
 ## Methods
 
@@ -106,9 +106,9 @@ main.ts:162066
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:162085
+main.ts:163917
 
 ***
 
@@ -124,15 +124,15 @@ main.ts:162085
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:162104
+main.ts:163936
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
 #### Parameters
 
@@ -142,6 +142,6 @@ main.ts:162104
 
 [`OnPageMicrodataRequestInfo`](OnPageMicrodataRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:162097
+main.ts:163929

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageResourceIssueItemInfo(data)
+### new OnPageResourceIssueItemInfo()
 
 > **new OnPageResourceIssueItemInfo**(`data`?): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:156158
+main.ts:157986
 
 ## Properties
 
 ### column?
 
-> **`optional`** **column**: `number`
+> `optional` **column**: `number`
 
 column where the error was found
 
@@ -44,15 +44,15 @@ column where the error was found
 
 [`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md).[`column`](../interfaces/IOnPageResourceIssueItemInfo.md#column)
 
-#### Source
+#### Defined in
 
-main.ts:156140
+main.ts:157968
 
 ***
 
 ### line?
 
-> **`optional`** **line**: `number`
+> `optional` **line**: `number`
 
 line where the error was found
 
@@ -60,15 +60,15 @@ line where the error was found
 
 [`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md).[`line`](../interfaces/IOnPageResourceIssueItemInfo.md#line)
 
-#### Source
+#### Defined in
 
-main.ts:156138
+main.ts:157966
 
 ***
 
 ### message?
 
-> **`optional`** **message**: `string`
+> `optional` **message**: `string`
 
 text message of the error
 the full list of possible HTML errors can be found here
@@ -77,15 +77,15 @@ the full list of possible HTML errors can be found here
 
 [`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md).[`message`](../interfaces/IOnPageResourceIssueItemInfo.md#message)
 
-#### Source
+#### Defined in
 
-main.ts:156143
+main.ts:157971
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 status code of the error
 possible values:
@@ -102,9 +102,9 @@ possible values:
 
 [`IOnPageResourceIssueItemInfo`](../interfaces/IOnPageResourceIssueItemInfo.md).[`status_code`](../interfaces/IOnPageResourceIssueItemInfo.md#status_code)
 
-#### Source
+#### Defined in
 
-main.ts:156154
+main.ts:157982
 
 ## Methods
 
@@ -120,9 +120,9 @@ main.ts:156154
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:156167
+main.ts:157995
 
 ***
 
@@ -138,15 +138,15 @@ main.ts:156167
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:156187
+main.ts:158015
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
+> `static` **fromJS**(`data`): [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
 #### Parameters
 
@@ -156,6 +156,6 @@ main.ts:156187
 
 [`OnPageResourceIssueItemInfo`](OnPageResourceIssueItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:156180
+main.ts:158008

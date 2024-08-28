@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixTrBusinessDataPriceDataInfo(data)
+### new AppendixTrBusinessDataPriceDataInfo()
 
 > **new AppendixTrBusinessDataPriceDataInfo**(`data`?): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
@@ -28,37 +28,37 @@
 
 [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223168
+main.ts:227440
 
 ## Properties
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
+> `optional` **reviews**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md).[`reviews`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md#reviews)
 
-#### Source
+#### Defined in
 
-main.ts:223163
+main.ts:227435
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
+> `optional` **search**: [`AppendixGoogleBusinessDataPriceDataInfo`](AppendixGoogleBusinessDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixTrBusinessDataPriceDataInfo`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md).[`search`](../interfaces/IAppendixTrBusinessDataPriceDataInfo.md#search)
 
-#### Source
+#### Defined in
 
-main.ts:223164
+main.ts:227436
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:223164
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:223177
+main.ts:227449
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:223177
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:223195
+main.ts:227467
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:223195
 
 [`AppendixTrBusinessDataPriceDataInfo`](AppendixTrBusinessDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:223188
+main.ts:227460

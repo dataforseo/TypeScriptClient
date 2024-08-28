@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationGrammarRulesResultInfo(data)
+### new ContentGenerationGrammarRulesResultInfo()
 
 > **new ContentGenerationGrammarRulesResultInfo**(`data`?): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173868
+main.ts:175700
 
 ## Properties
 
 ### rules?
 
-> **`optional`** **rules**: `string`[]
+> `optional` **rules**: `string`[]
 
 array of rules
 
@@ -44,9 +44,9 @@ array of rules
 
 [`IContentGenerationGrammarRulesResultInfo`](../interfaces/IContentGenerationGrammarRulesResultInfo.md).[`rules`](../interfaces/IContentGenerationGrammarRulesResultInfo.md#rules)
 
-#### Source
+#### Defined in
 
-main.ts:173864
+main.ts:175696
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:173864
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:173877
+main.ts:175709
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:173877
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:173898
+main.ts:175730
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:173898
 
 [`ContentGenerationGrammarRulesResultInfo`](ContentGenerationGrammarRulesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173891
+main.ts:175723

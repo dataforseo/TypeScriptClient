@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TestSummary(data)
+### new TestSummary()
 
 > **new TestSummary**(`data`?): [`TestSummary`](TestSummary.md)
 
@@ -28,15 +28,15 @@
 
 [`TestSummary`](TestSummary.md)
 
-#### Source
+#### Defined in
 
-main.ts:162152
+main.ts:163984
 
 ## Properties
 
 ### error?
 
-> **`optional`** **error**: `number`
+> `optional` **error**: `number`
 
 number of serious microdata errors
 
@@ -44,15 +44,15 @@ number of serious microdata errors
 
 [`ITestSummary`](../interfaces/ITestSummary.md).[`error`](../interfaces/ITestSummary.md#error)
 
-#### Source
+#### Defined in
 
-main.ts:162144
+main.ts:163976
 
 ***
 
 ### fatal?
 
-> **`optional`** **fatal**: `number`
+> `optional` **fatal**: `number`
 
 number of fatal microdata errors
 
@@ -60,15 +60,15 @@ number of fatal microdata errors
 
 [`ITestSummary`](../interfaces/ITestSummary.md).[`fatal`](../interfaces/ITestSummary.md#fatal)
 
-#### Source
+#### Defined in
 
-main.ts:162142
+main.ts:163974
 
 ***
 
 ### info?
 
-> **`optional`** **info**: `number`
+> `optional` **info**: `number`
 
 number of microdata information flags
 
@@ -76,15 +76,15 @@ number of microdata information flags
 
 [`ITestSummary`](../interfaces/ITestSummary.md).[`info`](../interfaces/ITestSummary.md#info)
 
-#### Source
+#### Defined in
 
-main.ts:162148
+main.ts:163980
 
 ***
 
 ### warning?
 
-> **`optional`** **warning**: `number`
+> `optional` **warning**: `number`
 
 number of microdata warnings
 
@@ -92,9 +92,9 @@ number of microdata warnings
 
 [`ITestSummary`](../interfaces/ITestSummary.md).[`warning`](../interfaces/ITestSummary.md#warning)
 
-#### Source
+#### Defined in
 
-main.ts:162146
+main.ts:163978
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:162146
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:162161
+main.ts:163993
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:162161
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:162181
+main.ts:164013
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TestSummary`](TestSummary.md)
+> `static` **fromJS**(`data`): [`TestSummary`](TestSummary.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:162181
 
 [`TestSummary`](TestSummary.md)
 
-#### Source
+#### Defined in
 
-main.ts:162174
+main.ts:164006

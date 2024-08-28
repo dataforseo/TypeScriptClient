@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataAppleAppListingsSearchLiveResultInfo(data)
+### new AppDataAppleAppListingsSearchLiveResultInfo()
 
 > **new AppDataAppleAppListingsSearchLiveResultInfo**(`data`?): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:199534
+main.ts:201366
 
 ## Properties
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 the number of items in the results array
 
@@ -44,15 +44,15 @@ the number of items in the results array
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`count`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:199523
+main.ts:201355
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)[]
+> `optional` **items**: [`AppDataAppleAppListingsSearchLiveItem`](AppDataAppleAppListingsSearchLiveItem.md)[]
 
 array of apps and related data
 
@@ -60,15 +60,15 @@ array of apps and related data
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`items`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:199530
+main.ts:201362
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned apps
 
@@ -76,15 +76,15 @@ offset in the results array of returned apps
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`offset`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:199525
+main.ts:201357
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 token for subsequent requests
 you can use this parameter in the POST request to avoid timeouts while trying to obtain over 100,000 results in a single request
@@ -93,15 +93,15 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`offset_token`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#offset_token)
 
-#### Source
+#### Defined in
 
-main.ts:199528
+main.ts:201360
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 the total number of relevant results in the database
 
@@ -109,9 +109,9 @@ the total number of relevant results in the database
 
 [`IAppDataAppleAppListingsSearchLiveResultInfo`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md).[`total_count`](../interfaces/IAppDataAppleAppListingsSearchLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:199521
+main.ts:201353
 
 ## Methods
 
@@ -127,9 +127,9 @@ main.ts:199521
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:199543
+main.ts:201375
 
 ***
 
@@ -145,15 +145,15 @@ main.ts:199543
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:199568
+main.ts:201400
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
 
 #### Parameters
 
@@ -163,6 +163,6 @@ main.ts:199568
 
 [`AppDataAppleAppListingsSearchLiveResultInfo`](AppDataAppleAppListingsSearchLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:199561
+main.ts:201393

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo(data)
+### new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo()
 
 > **new DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo**(`data`?): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:103089
+main.ts:103695
 
 ## Properties
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 display results by item type
 optional field
@@ -51,15 +51,15 @@ default value:
 
 [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`item_types`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:103079
+main.ts:103685
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 if you use this field, you don’t need to specify language_name
@@ -73,15 +73,15 @@ en
 
 [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:103070
+main.ts:103676
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 if you use this field, you don’t need to specify language_code
@@ -95,15 +95,15 @@ English
 
 [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:103062
+main.ts:103668
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 if you use this field, you don’t have to specify location_name
@@ -117,15 +117,15 @@ example:
 
 [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:103054
+main.ts:103660
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 if you use this field, you don’t have to specify location_code
@@ -139,15 +139,15 @@ United Kingdom
 
 [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:103046
+main.ts:103652
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -159,15 +159,15 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:103085
+main.ts:103691
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 target domains and websites
 required field
@@ -180,9 +180,9 @@ you can set up to 1000 domains, subdomains or webpages
 
 [`IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md).[`targets`](../interfaces/IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:103038
+main.ts:103644
 
 ## Methods
 
@@ -198,9 +198,9 @@ main.ts:103038
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:103098
+main.ts:103704
 
 ***
 
@@ -216,15 +216,15 @@ main.ts:103098
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:103129
+main.ts:103735
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
 #### Parameters
 
@@ -234,6 +234,6 @@ main.ts:103129
 
 [`DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo`](DataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:103122
+main.ts:103728

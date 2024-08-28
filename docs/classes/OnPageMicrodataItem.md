@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageMicrodataItem(data)
+### new OnPageMicrodataItem()
 
 > **new OnPageMicrodataItem**(`data`?): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:162384
+main.ts:164216
 
 ## Properties
 
 ### inspection\_info?
 
-> **`optional`** **inspection\_info**: [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
+> `optional` **inspection\_info**: [`MicrodataInspectionInfo`](MicrodataInspectionInfo.md)
 
 information related to microdata validation
 
@@ -44,15 +44,15 @@ information related to microdata validation
 
 [`IOnPageMicrodataItem`](../interfaces/IOnPageMicrodataItem.md).[`inspection_info`](../interfaces/IOnPageMicrodataItem.md#inspection_info)
 
-#### Source
+#### Defined in
 
-main.ts:162380
+main.ts:164212
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -60,9 +60,9 @@ type of element
 
 [`IOnPageMicrodataItem`](../interfaces/IOnPageMicrodataItem.md).[`type`](../interfaces/IOnPageMicrodataItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:162378
+main.ts:164210
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:162378
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:162393
+main.ts:164225
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:162393
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:162411
+main.ts:164243
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
+> `static` **fromJS**(`data`): [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:162411
 
 [`OnPageMicrodataItem`](OnPageMicrodataItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:162404
+main.ts:164236

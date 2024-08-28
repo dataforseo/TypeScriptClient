@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new HotelsPackElement(data)
+### new HotelsPackElement()
 
 > **new HotelsPackElement**(`data`?): [`HotelsPackElement`](HotelsPackElement.md)
 
@@ -28,15 +28,15 @@
 
 [`HotelsPackElement`](HotelsPackElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34690
+main.ts:34886
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`description`](../interfaces/IHotelsPackElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:34673
+main.ts:34869
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -60,15 +60,15 @@ website domain
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`domain`](../interfaces/IHotelsPackElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:34679
+main.ts:34875
 
 ***
 
 ### hotel\_identifier?
 
-> **`optional`** **hotel\_identifier**: `string`
+> `optional` **hotel\_identifier**: `string`
 
 unique hotel identifier
 unique hotel identifier assigned by Google;
@@ -78,15 +78,15 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`hotel_identifier`](../interfaces/IHotelsPackElement.md#hotel_identifier)
 
-#### Source
+#### Defined in
 
-main.ts:34677
+main.ts:34873
 
 ***
 
 ### is\_paid?
 
-> **`optional`** **is\_paid**: `boolean`
+> `optional` **is\_paid**: `boolean`
 
 indicates whether the element is an ad
 
@@ -94,15 +94,15 @@ indicates whether the element is an ad
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`is_paid`](../interfaces/IHotelsPackElement.md#is_paid)
 
-#### Source
+#### Defined in
 
-main.ts:34683
+main.ts:34879
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
@@ -110,15 +110,15 @@ price indicated in the element
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`price`](../interfaces/IHotelsPackElement.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:34669
+main.ts:34865
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -127,15 +127,15 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`rating`](../interfaces/IHotelsPackElement.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:34686
+main.ts:34882
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -143,15 +143,15 @@ title of a given link element
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`title`](../interfaces/IHotelsPackElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:34671
+main.ts:34867
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -159,15 +159,15 @@ type of element
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`type`](../interfaces/IHotelsPackElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:34667
+main.ts:34863
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -175,9 +175,9 @@ URL
 
 [`IHotelsPackElement`](../interfaces/IHotelsPackElement.md).[`url`](../interfaces/IHotelsPackElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:34681
+main.ts:34877
 
 ## Methods
 
@@ -193,9 +193,9 @@ main.ts:34681
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:34699
+main.ts:34895
 
 ***
 
@@ -211,15 +211,15 @@ main.ts:34699
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:34724
+main.ts:34920
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`HotelsPackElement`](HotelsPackElement.md)
+> `static` **fromJS**(`data`): [`HotelsPackElement`](HotelsPackElement.md)
 
 #### Parameters
 
@@ -229,6 +229,6 @@ main.ts:34724
 
 [`HotelsPackElement`](HotelsPackElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34717
+main.ts:34913

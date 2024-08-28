@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataGoogleMyBusinessInfoLiveResultInfo(data)
+### new BusinessDataGoogleMyBusinessInfoLiveResultInfo()
 
 > **new BusinessDataGoogleMyBusinessInfoLiveResultInfo**(`data`?): [`BusinessDataGoogleMyBusinessInfoLiveResultInfo`](BusinessDataGoogleMyBusinessInfoLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataGoogleMyBusinessInfoLiveResultInfo`](BusinessDataGoogleMyBusinessInfoLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:204839
+main.ts:206689
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,15 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:204819
+main.ts:206669
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +64,15 @@ example:
 
 [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:204824
+main.ts:206674
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 item types
 types of search engine results encountered in the items array;
@@ -82,15 +82,15 @@ possible item types: google_business_info
 
 [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md).[`item_types`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:204828
+main.ts:206678
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
+> `optional` **items**: [`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md)[]
 
 encountered item types
 types of search engine results encountered in the items array;
@@ -100,15 +100,15 @@ possible item types: google_business_info
 
 [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md).[`items`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:204835
+main.ts:206685
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 item types
 the number of items in the items array
@@ -117,15 +117,15 @@ the number of items in the items array
 
 [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md).[`items_count`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:204831
+main.ts:206681
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -138,15 +138,15 @@ learn more about the parameter in this help center article
 
 [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:204810
+main.ts:206660
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -154,15 +154,15 @@ language code in a POST array
 
 [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:204816
+main.ts:206666
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -170,15 +170,15 @@ location code in a POST array
 
 [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:204814
+main.ts:206664
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain as specified in a POST array
 
@@ -186,9 +186,9 @@ search engine domain as specified in a POST array
 
 [`IBusinessDataGoogleMyBusinessInfoLiveResultInfo`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md).[`se_domain`](../interfaces/IBusinessDataGoogleMyBusinessInfoLiveResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:204812
+main.ts:206662
 
 ## Methods
 
@@ -204,9 +204,9 @@ main.ts:204812
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:204848
+main.ts:206698
 
 ***
 
@@ -222,15 +222,15 @@ main.ts:204848
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:204881
+main.ts:206731
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoLiveResultInfo`](BusinessDataGoogleMyBusinessInfoLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataGoogleMyBusinessInfoLiveResultInfo`](BusinessDataGoogleMyBusinessInfoLiveResultInfo.md)
 
 #### Parameters
 
@@ -240,6 +240,6 @@ main.ts:204881
 
 [`BusinessDataGoogleMyBusinessInfoLiveResultInfo`](BusinessDataGoogleMyBusinessInfoLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:204874
+main.ts:206724

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new Subtitles(data)
+### new Subtitles()
 
 > **new Subtitles**(`data`?): [`Subtitles`](Subtitles.md)
 
@@ -28,15 +28,15 @@
 
 [`Subtitles`](Subtitles.md)
 
-#### Source
+#### Defined in
 
-main.ts:62837
+main.ts:63427
 
 ## Properties
 
 ### is\_auto\_generated?
 
-> **`optional`** **is\_auto\_generated**: `boolean`
+> `optional` **is\_auto\_generated**: `boolean`
 
 defines if subtitles are auto generated
 
@@ -44,15 +44,15 @@ defines if subtitles are auto generated
 
 [`ISubtitles`](../interfaces/ISubtitles.md).[`is_auto_generated`](../interfaces/ISubtitles.md#is_auto_generated)
 
-#### Source
+#### Defined in
 
-main.ts:62833
+main.ts:63423
 
 ***
 
 ### is\_translatable?
 
-> **`optional`** **is\_translatable**: `boolean`
+> `optional` **is\_translatable**: `boolean`
 
 defines if subtitles are translatable
 
@@ -60,15 +60,15 @@ defines if subtitles are translatable
 
 [`ISubtitles`](../interfaces/ISubtitles.md).[`is_translatable`](../interfaces/ISubtitles.md#is_translatable)
 
-#### Source
+#### Defined in
 
-main.ts:62831
+main.ts:63421
 
 ***
 
 ### language?
 
-> **`optional`** **language**: `string`
+> `optional` **language**: `string`
 
 language of subtitles
 
@@ -76,9 +76,9 @@ language of subtitles
 
 [`ISubtitles`](../interfaces/ISubtitles.md).[`language`](../interfaces/ISubtitles.md#language)
 
-#### Source
+#### Defined in
 
-main.ts:62829
+main.ts:63419
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:62829
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:62846
+main.ts:63436
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:62846
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:62865
+main.ts:63455
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`Subtitles`](Subtitles.md)
+> `static` **fromJS**(`data`): [`Subtitles`](Subtitles.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:62865
 
 [`Subtitles`](Subtitles.md)
 
-#### Source
+#### Defined in
 
-main.ts:62858
+main.ts:63448

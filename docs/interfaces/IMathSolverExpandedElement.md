@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### solution?
 
-> **`optional`** **solution**: `string`[]
+> `optional` **solution**: `string`[]
 
 solution of the element
 displays steps to solve the mathematical equation as specified in the element
 
-#### Source
+#### Defined in
 
-main.ts:35672
+main.ts:35868
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the carousel item
 
-#### Source
+#### Defined in
 
-main.ts:35669
+main.ts:35865
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:35667
+main.ts:35863

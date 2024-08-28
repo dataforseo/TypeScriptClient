@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,35 +14,35 @@
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../classes/DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsGoogleCategoriesForKeywordsLiveItem`](../classes/DataforseoLabsGoogleCategoriesForKeywordsLiveItem.md)[]
 
 contains keywords and related keyword difficulty scores
 
-#### Source
+#### Defined in
 
-main.ts:89082
+main.ts:89646
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:89080
+main.ts:89644
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:89078
+main.ts:89642

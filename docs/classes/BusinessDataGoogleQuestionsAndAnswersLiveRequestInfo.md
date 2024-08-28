@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo(data)
+### new BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo()
 
 > **new BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo**(`data`?): [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:212881
+main.ts:214731
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -51,15 +51,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`depth`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:212871
+main.ts:214721
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -81,15 +81,15 @@ learn more about the cid and place_id identifiers in this help center article
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:212824
+main.ts:214674
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -102,15 +102,15 @@ en
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:212862
+main.ts:214712
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -123,15 +123,15 @@ English
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:212855
+main.ts:214705
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -144,15 +144,15 @@ example:
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:212838
+main.ts:214688
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -168,15 +168,15 @@ example:
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:212848
+main.ts:214698
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -189,15 +189,15 @@ London,England,United Kingdom
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:212831
+main.ts:214681
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -209,9 +209,9 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:212877
+main.ts:214727
 
 ## Methods
 
@@ -227,9 +227,9 @@ main.ts:212877
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:212890
+main.ts:214740
 
 ***
 
@@ -245,15 +245,15 @@ main.ts:212890
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:212914
+main.ts:214764
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
 
 #### Parameters
 
@@ -263,6 +263,6 @@ main.ts:212914
 
 [`BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo`](BusinessDataGoogleQuestionsAndAnswersLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:212907
+main.ts:214757

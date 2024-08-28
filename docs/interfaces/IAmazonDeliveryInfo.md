@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,72 +14,72 @@
 
 ### delivery\_date\_from?
 
-> **`optional`** **delivery\_date\_from**: `string`
+> `optional` **delivery\_date\_from**: `string`
 
 the earliest date when the product can be shipped
 
-#### Source
+#### Defined in
 
-main.ts:22279
+main.ts:22461
 
 ***
 
 ### delivery\_date\_to?
 
-> **`optional`** **delivery\_date\_to**: `string`
+> `optional` **delivery\_date\_to**: `string`
 
 the latest date when the product can be delivered
 
-#### Source
+#### Defined in
 
-main.ts:22281
+main.ts:22463
 
 ***
 
 ### delivery\_message?
 
-> **`optional`** **delivery\_message**: `string`
+> `optional` **delivery\_message**: `string`
 
 message accompanying the delivery information as posted by the seller
 
-#### Source
+#### Defined in
 
-main.ts:22277
+main.ts:22459
 
 ***
 
 ### delivery\_price?
 
-> **`optional`** **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
+> `optional` **delivery\_price**: [`PriceInfo`](../classes/PriceInfo.md)
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
 if free delivery is available, the value is null
 
-#### Source
+#### Defined in
 
-main.ts:22289
+main.ts:22471
 
 ***
 
 ### fastest\_delivery\_date\_from?
 
-> **`optional`** **fastest\_delivery\_date\_from**: `string`
+> `optional` **fastest\_delivery\_date\_from**: `string`
 
 the earliest date when the product can be delivered with a fast delivery option
 
-#### Source
+#### Defined in
 
-main.ts:22283
+main.ts:22465
 
 ***
 
 ### fastest\_delivery\_date\_to?
 
-> **`optional`** **fastest\_delivery\_date\_to**: `string`
+> `optional` **fastest\_delivery\_date\_to**: `string`
 
 the latest date when the product can be delivered with a fast delivery option
 
-#### Source
+#### Defined in
 
-main.ts:22285
+main.ts:22467

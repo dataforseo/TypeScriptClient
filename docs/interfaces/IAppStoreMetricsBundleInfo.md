@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,10 +14,10 @@
 
 ### app\_store\_search\_organic?
 
-> **`optional`** **app\_store\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
+> `optional` **app\_store\_search\_organic**: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
 ranking data from App Store organic search
 
-#### Source
+#### Defined in
 
-main.ts:117426
+main.ts:118058

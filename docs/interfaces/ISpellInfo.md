@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,20 +14,20 @@
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
 
-#### Source
+#### Defined in
 
-main.ts:23031
+main.ts:23213
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of autocorrection
 possible values:
@@ -35,6 +35,6 @@ did_you_mean, showing_results_for, no_results_found_for, including_results_for
 note: Yahoo and Yandex support only the following autocorrection type:
 including_results_for
 
-#### Source
+#### Defined in
 
-main.ts:23037
+main.ts:23219

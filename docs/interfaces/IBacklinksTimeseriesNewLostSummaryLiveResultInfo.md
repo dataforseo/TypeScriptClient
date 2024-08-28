@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,76 +14,76 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 in the UTC format: “yyyy-mm-dd”
 example:
 2019-01-01
 
-#### Source
+#### Defined in
 
-main.ts:150142
+main.ts:151968
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 in the UTC format: "yyyy-mm-dd"
 example:
 "2019-01-15"
 
-#### Source
+#### Defined in
 
-main.ts:150147
+main.ts:151973
 
 ***
 
 ### group\_range?
 
-> **`optional`** **group\_range**: `string`
+> `optional` **group\_range**: `string`
 
 group_range from the POST array
 
-#### Source
+#### Defined in
 
-main.ts:150149
+main.ts:151975
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksTimeseriesNewLostSummaryLiveItem`](../classes/BacklinksTimeseriesNewLostSummaryLiveItem.md)[]
+> `optional` **items**: [`BacklinksTimeseriesNewLostSummaryLiveItem`](../classes/BacklinksTimeseriesNewLostSummaryLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
-#### Source
+#### Defined in
 
-main.ts:150153
+main.ts:151979
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:150151
+main.ts:151977
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target from a POST array
 
-#### Source
+#### Defined in
 
-main.ts:150137
+main.ts:151963

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new CommercialUnitsElement(data)
+### new CommercialUnitsElement()
 
 > **new CommercialUnitsElement**(`data`?): [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:35099
+main.ts:35295
 
 ## Properties
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -44,15 +44,15 @@ website domain
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`domain`](../interfaces/ICommercialUnitsElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:35087
+main.ts:35283
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
@@ -60,15 +60,15 @@ price indicated in the element
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`price`](../interfaces/ICommercialUnitsElement.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:35089
+main.ts:35285
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -77,15 +77,15 @@ the popularity rate based on reviews and displayed in SERP
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`rating`](../interfaces/ICommercialUnitsElement.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:35095
+main.ts:35291
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -94,15 +94,15 @@ indicates the source of information included in the top_stories_element
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`source`](../interfaces/ICommercialUnitsElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:35092
+main.ts:35288
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -110,15 +110,15 @@ title of a given link element
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`title`](../interfaces/ICommercialUnitsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:35083
+main.ts:35279
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -126,15 +126,15 @@ type of element
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`type`](../interfaces/ICommercialUnitsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:35081
+main.ts:35277
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -142,9 +142,9 @@ URL
 
 [`ICommercialUnitsElement`](../interfaces/ICommercialUnitsElement.md).[`url`](../interfaces/ICommercialUnitsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:35085
+main.ts:35281
 
 ## Methods
 
@@ -160,9 +160,9 @@ main.ts:35085
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:35108
+main.ts:35304
 
 ***
 
@@ -178,15 +178,15 @@ main.ts:35108
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:35131
+main.ts:35327
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`CommercialUnitsElement`](CommercialUnitsElement.md)
+> `static` **fromJS**(`data`): [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
 #### Parameters
 
@@ -196,6 +196,6 @@ main.ts:35131
 
 [`CommercialUnitsElement`](CommercialUnitsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:35124
+main.ts:35320

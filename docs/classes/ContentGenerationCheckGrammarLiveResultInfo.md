@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationCheckGrammarLiveResultInfo(data)
+### new ContentGenerationCheckGrammarLiveResultInfo()
 
 > **new ContentGenerationCheckGrammarLiveResultInfo**(`data`?): [`ContentGenerationCheckGrammarLiveResultInfo`](ContentGenerationCheckGrammarLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationCheckGrammarLiveResultInfo`](ContentGenerationCheckGrammarLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173510
+main.ts:175342
 
 ## Properties
 
 ### initial\_text?
 
-> **`optional`** **initial\_text**: `string`
+> `optional` **initial\_text**: `string`
 
 initial text in the POST request
 
@@ -44,15 +44,15 @@ initial text in the POST request
 
 [`IContentGenerationCheckGrammarLiveResultInfo`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md).[`initial_text`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md#initial_text)
 
-#### Source
+#### Defined in
 
-main.ts:173500
+main.ts:175332
 
 ***
 
 ### input\_tokens?
 
-> **`optional`** **input\_tokens**: `number`
+> `optional` **input\_tokens**: `number`
 
 number of input tokens in the POST request
 
@@ -60,15 +60,15 @@ number of input tokens in the POST request
 
 [`IContentGenerationCheckGrammarLiveResultInfo`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md).[`input_tokens`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md#input_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:173494
+main.ts:175326
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)[]
+> `optional` **items**: [`ContentGenerationCheckGrammarLiveItem`](ContentGenerationCheckGrammarLiveItem.md)[]
 
 contains grammar or spelling errors and related data
 
@@ -76,15 +76,15 @@ contains grammar or spelling errors and related data
 
 [`IContentGenerationCheckGrammarLiveResultInfo`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md).[`items`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:173506
+main.ts:175338
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -92,15 +92,15 @@ the number of results returned in the items array
 
 [`IContentGenerationCheckGrammarLiveResultInfo`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md).[`items_count`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:173504
+main.ts:175336
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in the POST request
 
@@ -108,15 +108,15 @@ language code in the POST request
 
 [`IContentGenerationCheckGrammarLiveResultInfo`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md).[`language_code`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:173502
+main.ts:175334
 
 ***
 
 ### new\_tokens?
 
-> **`optional`** **new\_tokens**: `number`
+> `optional` **new\_tokens**: `number`
 
 number of new tokens in the response
 
@@ -124,15 +124,15 @@ number of new tokens in the response
 
 [`IContentGenerationCheckGrammarLiveResultInfo`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md).[`new_tokens`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md#new_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:173498
+main.ts:175330
 
 ***
 
 ### output\_tokens?
 
-> **`optional`** **output\_tokens**: `number`
+> `optional` **output\_tokens**: `number`
 
 number of output tokens in the response
 
@@ -140,9 +140,9 @@ number of output tokens in the response
 
 [`IContentGenerationCheckGrammarLiveResultInfo`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md).[`output_tokens`](../interfaces/IContentGenerationCheckGrammarLiveResultInfo.md#output_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:173496
+main.ts:175328
 
 ## Methods
 
@@ -158,9 +158,9 @@ main.ts:173496
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:173519
+main.ts:175351
 
 ***
 
@@ -176,15 +176,15 @@ main.ts:173519
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:173546
+main.ts:175378
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveResultInfo`](ContentGenerationCheckGrammarLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationCheckGrammarLiveResultInfo`](ContentGenerationCheckGrammarLiveResultInfo.md)
 
 #### Parameters
 
@@ -194,6 +194,6 @@ main.ts:173546
 
 [`ContentGenerationCheckGrammarLiveResultInfo`](ContentGenerationCheckGrammarLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:173539
+main.ts:175371

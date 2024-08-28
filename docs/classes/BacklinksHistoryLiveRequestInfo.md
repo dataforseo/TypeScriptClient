@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksHistoryLiveRequestInfo(data)
+### new BacklinksHistoryLiveRequestInfo()
 
 > **new BacklinksHistoryLiveRequestInfo**(`data`?): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:140771
+main.ts:142597
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -50,15 +50,15 @@ example:
 
 [`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[`date_from`](../interfaces/IBacklinksHistoryLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:140754
+main.ts:142580
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -71,15 +71,15 @@ example:
 
 [`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[`date_to`](../interfaces/IBacklinksHistoryLiveRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:140761
+main.ts:142587
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -91,15 +91,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksHistoryLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:140767
+main.ts:142593
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain
 required field
@@ -109,9 +109,9 @@ a domain should be specified without https:// and www.
 
 [`IBacklinksHistoryLiveRequestInfo`](../interfaces/IBacklinksHistoryLiveRequestInfo.md).[`target`](../interfaces/IBacklinksHistoryLiveRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:140746
+main.ts:142572
 
 ## Methods
 
@@ -127,9 +127,9 @@ main.ts:140746
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:140780
+main.ts:142606
 
 ***
 
@@ -145,15 +145,15 @@ main.ts:140780
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:140800
+main.ts:142626
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
 #### Parameters
 
@@ -163,6 +163,6 @@ main.ts:140800
 
 [`BacklinksHistoryLiveRequestInfo`](BacklinksHistoryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:140793
+main.ts:142619

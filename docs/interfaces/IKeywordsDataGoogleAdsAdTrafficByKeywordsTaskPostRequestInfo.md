@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### bid?
 
-> **`optional`** **bid**: `number`
+> `optional` **bid**: `number`
 
 the maximum custom bid
 required field
@@ -22,15 +22,15 @@ the collected data will be based on this value
 it stands for the price you are willing to pay for an ad; the higher value you specify here, the higher values you will get in the returned metrics
 learn more in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:124075
+main.ts:123921
 
 ***
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the forecasting time range
 required field if you specify date_to
@@ -42,15 +42,15 @@ example:
 "2021-10-30"if Status endpoint returns false in the actual_data field, date_from can be set to the month before last and prior;
 if Status endpoint returns true in the actual_data field, date_from can be set to the last month and prior
 
-#### Source
+#### Defined in
 
-main.ts:124131
+main.ts:123977
 
 ***
 
 ### date\_interval?
 
-> **`optional`** **date\_interval**: `string`
+> `optional` **date\_interval**: `string`
 
 forecasting date interval
 optional field
@@ -58,15 +58,15 @@ if you specify date_interval, you don’t need to indicate date_from and date_to
 possible values: next_week, next_month, next_quarter
 default value: next_month
 
-#### Source
+#### Defined in
 
-main.ts:124146
+main.ts:123992
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the forecasting time range
 required field if you specify date_from
@@ -77,15 +77,15 @@ date format: "yyyy-mm-dd"
 example:
 "2022-10-30"
 
-#### Source
+#### Defined in
 
-main.ts:124140
+main.ts:123986
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -99,15 +99,15 @@ to obtain search volume for similar keywords, we recommend submitting such keywo
 Note #3: Google Ads doesn’t allow using certain symbols and characters (e.g., UTF symbols, emojis), so you can’t use them when setting a task;
 to learn more about which symbols can be used, please refer to this article
 
-#### Source
+#### Defined in
 
-main.ts:124069
+main.ts:123915
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -115,15 +115,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:124121
+main.ts:123967
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -131,15 +131,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:124115
+main.ts:123961
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 optional field
@@ -149,15 +149,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:124100
+main.ts:123946
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -168,15 +168,15 @@ the data will be provided for the country the specified coordinates belong to;
 example:
 52.6178549,-155.352142
 
-#### Source
+#### Defined in
 
-main.ts:124109
+main.ts:123955
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -186,29 +186,29 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:124092
+main.ts:123938
 
 ***
 
 ### match?
 
-> **`optional`** **match**: `string`
+> `optional` **match**: `string`
 
 keywords match-type
 required field
 can take the following values: exact, broad, phrase
 
-#### Source
+#### Defined in
 
-main.ts:124079
+main.ts:123925
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -220,15 +220,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:124171
+main.ts:124017
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -240,45 +240,45 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:124161
+main.ts:124007
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 include Google search partners
 optional field
 if you specify true, the results will be delivered for owned, operated, and syndicated networks across Google and partner sites that host Google search;
 default value: false – results are returned for Google search sites
 
-#### Source
+#### Defined in
 
-main.ts:124084
+main.ts:123930
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
 Use these parameters to sort the results by relevance, impressions, ctr, average_cpc, cost, or clicks in the descending order
 default value: relevance
 
-#### Source
+#### Defined in
 
-main.ts:124151
+main.ts:123997
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -286,6 +286,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:124177
+main.ts:124023

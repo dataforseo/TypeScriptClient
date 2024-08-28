@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,298 +18,298 @@
 
 ### author?
 
-> **`optional`** **author**: `string`
+> `optional` **author**: `string`
 
 product brand name
 
-#### Source
+#### Defined in
 
-main.ts:185028
+main.ts:186860
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: [`ProductCategoryInfo`](../classes/ProductCategoryInfo.md)[]
+> `optional` **categories**: [`ProductCategoryInfo`](../classes/ProductCategoryInfo.md)[]
 
 contains related product categories
 
-#### Source
+#### Defined in
 
-main.ts:185057
+main.ts:186889
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency in the ISO format
 example:
 USD
 
-#### Source
+#### Defined in
 
-main.ts:185046
+main.ts:186878
 
 ***
 
 ### data\_asin?
 
-> **`optional`** **data\_asin**: `string`
+> `optional` **data\_asin**: `string`
 
 ASIN of the product received in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:185030
+main.ts:186862
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 contains description of the product
 
-#### Source
+#### Defined in
 
-main.ts:185065
+main.ts:186897
 
 ***
 
 ### details?
 
-> **`optional`** **details**: `string`
+> `optional` **details**: `string`
 
 product specs and other details
 
-#### Source
+#### Defined in
 
-main.ts:185024
+main.ts:186856
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 the URL of the product image
 
-#### Source
+#### Defined in
 
-main.ts:185026
+main.ts:186858
 
 ***
 
 ### is\_amazon\_choice?
 
-> **`optional`** **is\_amazon\_choice**: `boolean`
+> `optional` **is\_amazon\_choice**: `boolean`
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
 
-#### Source
+#### Defined in
 
-main.ts:185049
+main.ts:186881
 
 ***
 
 ### is\_available?
 
-> **`optional`** **is\_available**: `boolean`
+> `optional` **is\_available**: `boolean`
 
 indicates whether the product is available for ordering
 if the value is true, the product can be ordered
 
-#### Source
+#### Defined in
 
-main.ts:185068
+main.ts:186900
 
 ***
 
 ### is\_newer\_model\_available?
 
-> **`optional`** **is\_newer\_model\_available**: `boolean`
+> `optional` **is\_newer\_model\_available**: `boolean`
 
 indicates whether the newer model of the product is available
 
-#### Source
+#### Defined in
 
-main.ts:185053
+main.ts:186885
 
 ***
 
 ### newer\_model?
 
-> **`optional`** **newer\_model**: [`AmazonProductNewerModelInfo`](../classes/AmazonProductNewerModelInfo.md)
+> `optional` **newer\_model**: [`AmazonProductNewerModelInfo`](../classes/AmazonProductNewerModelInfo.md)
 
 information about the newer model of the product
 
-#### Source
+#### Defined in
 
-main.ts:185055
+main.ts:186887
 
 ***
 
 ### parent\_asin?
 
-> **`optional`** **parent\_asin**: `string`
+> `optional` **parent\_asin**: `string`
 
 parent ASIN of the product
 
-#### Source
+#### Defined in
 
-main.ts:185032
+main.ts:186864
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in Amazon SERP
 possible values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:185018
+main.ts:186850
 
 ***
 
 ### price\_from?
 
-> **`optional`** **price\_from**: `number`
+> `optional` **price\_from**: `number`
 
 the lower limit of the product price range
 example:
 49.98
 
-#### Source
+#### Defined in
 
-main.ts:185038
+main.ts:186870
 
 ***
 
 ### price\_to?
 
-> **`optional`** **price\_to**: `number`
+> `optional` **price\_to**: `number`
 
 the upper limit of the product price range
 example:
 384.99
 
-#### Source
+#### Defined in
 
-main.ts:185042
+main.ts:186874
 
 ***
 
 ### product\_asins?
 
-> **`optional`** **product\_asins**: `string`[]
+> `optional` **product\_asins**: `string`[]
 
 ASINs of all found product modifications
 
-#### Source
+#### Defined in
 
-main.ts:185034
+main.ts:186866
 
 ***
 
 ### product\_images\_list?
 
-> **`optional`** **product\_images\_list**: `string`[]
+> `optional` **product\_images\_list**: `string`[]
 
 contains URLs for all images of the product displayed on the left side of the main image
 
-#### Source
+#### Defined in
 
-main.ts:185061
+main.ts:186893
 
 ***
 
 ### product\_information?
 
-> **`optional`** **product\_information**: [`BaseProductInformationItem`](../classes/BaseProductInformationItem.md)[]
+> `optional` **product\_information**: [`BaseProductInformationItem`](../classes/BaseProductInformationItem.md)[]
 
 contains related product information
 
-#### Source
+#### Defined in
 
-main.ts:185059
+main.ts:186891
 
 ***
 
 ### product\_videos\_list?
 
-> **`optional`** **product\_videos\_list**: `string`[]
+> `optional` **product\_videos\_list**: `string`[]
 
 contains URLs for all videos of the product displayed on the right side of the main video
 
-#### Source
+#### Defined in
 
-main.ts:185063
+main.ts:186895
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank
 absolute position among all the elements in the response array
 
-#### Source
+#### Defined in
 
-main.ts:185014
+main.ts:186846
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:185011
+main.ts:186843
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingElement`](../classes/RatingElement.md)
+> `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
 product rating info
 
-#### Source
+#### Defined in
 
-main.ts:185051
+main.ts:186883
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
-#### Source
+#### Defined in
 
-main.ts:185022
+main.ts:186854
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:185020
+main.ts:186852

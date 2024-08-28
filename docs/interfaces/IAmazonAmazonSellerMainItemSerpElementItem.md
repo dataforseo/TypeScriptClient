@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,151 +18,151 @@
 
 ### condition?
 
-> **`optional`** **condition**: `string`
+> `optional` **condition**: `string`
 
 product condition
 condition of the product offered by the seller
 
-#### Source
+#### Defined in
 
-main.ts:186266
+main.ts:188098
 
 ***
 
 ### condition\_description?
 
-> **`optional`** **condition\_description**: `string`
+> `optional` **condition\_description**: `string`
 
 product condition details
 expanded details on the condition of the product offered by the seller
 
-#### Source
+#### Defined in
 
-main.ts:186269
+main.ts:188101
 
 ***
 
 ### delivery\_info?
 
-> **`optional`** **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
+> `optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
 
 delivery information
 delivery information including free and fast delivery date ranges
 
-#### Source
+#### Defined in
 
-main.ts:186272
+main.ts:188104
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 alignment of the element in SERP
 possible values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:186249
+main.ts:188081
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`Price`](../classes/Price.md)
 
 product pricing details
 if there are no details, the value will be null
 
-#### Source
+#### Defined in
 
-main.ts:186260
+main.ts:188092
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Amazon Sellers SERP
 
-#### Source
+#### Defined in
 
-main.ts:186245
+main.ts:188077
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:186242
+main.ts:188074
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingElement`](../classes/RatingElement.md)
+> `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
 seller rating details
 seller popularity rate based on customer reviews
 
-#### Source
+#### Defined in
 
-main.ts:186263
+main.ts:188095
 
 ***
 
 ### seller\_name?
 
-> **`optional`** **seller\_name**: `string`
+> `optional` **seller\_name**: `string`
 
 business name of the seller
 
-#### Source
+#### Defined in
 
-main.ts:186253
+main.ts:188085
 
 ***
 
 ### seller\_url?
 
-> **`optional`** **seller\_url**: `string`
+> `optional` **seller\_url**: `string`
 
 url forwarding to the seller’s page on Amazon
 
-#### Source
+#### Defined in
 
-main.ts:186255
+main.ts:188087
 
 ***
 
 ### ships\_from?
 
-> **`optional`** **ships\_from**: `string`
+> `optional` **ships\_from**: `string`
 
 sender company name
 
-#### Source
+#### Defined in
 
-main.ts:186257
+main.ts:188089
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:186251
+main.ts:188083

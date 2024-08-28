@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,158 +18,158 @@
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the app
 
-#### Source
+#### Defined in
 
-main.ts:114440
+main.ts:115072
 
 ***
 
 ### developer?
 
-> **`optional`** **developer**: `string`
+> `optional` **developer**: `string`
 
 name of the app developer
 
-#### Source
+#### Defined in
 
-main.ts:114456
+main.ts:115088
 
 ***
 
 ### developer\_url?
 
-> **`optional`** **developer\_url**: `string`
+> `optional` **developer\_url**: `string`
 
 URL to the developer page on Google Play
 
-#### Source
+#### Defined in
 
-main.ts:114458
+main.ts:115090
 
 ***
 
 ### icon?
 
-> **`optional`** **icon**: `string`
+> `optional` **icon**: `string`
 
 URL to the app icon
 
-#### Source
+#### Defined in
 
-main.ts:114446
+main.ts:115078
 
 ***
 
 ### is\_free?
 
-> **`optional`** **is\_free**: `boolean`
+> `optional` **is\_free**: `boolean`
 
 indicates whether the app is free
 
-#### Source
+#### Defined in
 
-main.ts:114452
+main.ts:115084
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:114438
+main.ts:115070
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`Price`](../classes/Price.md)
 
 price of the app
 
-#### Source
+#### Defined in
 
-main.ts:114454
+main.ts:115086
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:114434
+main.ts:115066
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:114431
+main.ts:115063
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 average rating of the app
 
-#### Source
+#### Defined in
 
-main.ts:114450
+main.ts:115082
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 the total number of reviews of the app
 
-#### Source
+#### Defined in
 
-main.ts:114448
+main.ts:115080
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the app
 
-#### Source
+#### Defined in
 
-main.ts:114442
+main.ts:115074
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the app page on Google Play
 
-#### Source
+#### Defined in
 
-main.ts:114444
+main.ts:115076

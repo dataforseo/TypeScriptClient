@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentAnalysisCategoryTrendsLiveRequestInfo(data)
+### new ContentAnalysisCategoryTrendsLiveRequestInfo()
 
 > **new ContentAnalysisCategoryTrendsLiveRequestInfo**(`data`?): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:171165
+main.ts:172997
 
 ## Properties
 
 ### category\_code?
 
-> **`optional`** **category\_code**: `string`
+> `optional` **category\_code**: `string`
 
 target category code
 required field
@@ -46,15 +46,15 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`category_code`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#category_code)
 
-#### Source
+#### Defined in
 
-main.ts:171096
+main.ts:172928
 
 ***
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 required field
@@ -66,15 +66,15 @@ example:
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`date_from`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:171126
+main.ts:172958
 
 ***
 
 ### date\_group?
 
-> **`optional`** **date\_group**: `string`
+> `optional` **date\_group**: `string`
 
 time range which will be used to group the results
 optional field
@@ -85,15 +85,15 @@ possible values: day, week, month
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`date_group`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#date_group)
 
-#### Source
+#### Defined in
 
-main.ts:171138
+main.ts:172970
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -106,29 +106,29 @@ example:
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`date_to`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:171133
+main.ts:172965
 
 ***
 
 ### initial\_dataset\_filters?
 
-> **`optional`** **initial\_dataset\_filters**: `any`[]
+> `optional` **initial\_dataset\_filters**: `any`[]
 
 initial dataset filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, <, `<=, >`, >=, =, <>, in, not_in, like,not_like, has, has_not
+regex, not_regex, <, <=, >, >=, =, <>, in, not_in, like,not_like, has, has_not
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["domain","<>", "logitech.com"]
-[["domain","`<>`","logitech.com"],"and",["content_info.connotation_types.negative",">`",1000]]
-[["domain","`<>`","logitech.com"]],
+[["domain","<>","logitech.com"],"and",["content_info.connotation_types.negative",">",1000]]
+[["domain","<>","logitech.com"]],
 "and",
-[["content_info.connotation_types.negative",">`",1000],
+[["content_info.connotation_types.negative",">",1000],
 "or",
 ["content_info.text_category","has",10994]]]
 for more information about filters, please refer to Content Analysis API – Filters
@@ -137,15 +137,15 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`initial_dataset_filters`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#initial_dataset_filters)
 
-#### Source
+#### Defined in
 
-main.ts:171155
+main.ts:172987
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -162,15 +162,15 @@ maximum value: 20
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#internal_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:171120
+main.ts:172952
 
 ***
 
 ### page\_type?
 
-> **`optional`** **page\_type**: `string`[]
+> `optional` **page\_type**: `string`[]
 
 target page types
 optional field
@@ -182,15 +182,15 @@ possible values:
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`page_type`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#page_type)
 
-#### Source
+#### Defined in
 
-main.ts:171102
+main.ts:172934
 
 ***
 
 ### search\_mode?
 
-> **`optional`** **search\_mode**: `string`
+> `optional` **search\_mode**: `string`
 
 results grouping type
 optional field
@@ -203,15 +203,15 @@ default value: as_is
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`search_mode`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#search_mode)
 
-#### Source
+#### Defined in
 
-main.ts:171109
+main.ts:172941
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -223,9 +223,9 @@ you will find the specified tag value in the data object of the response
 
 [`IContentAnalysisCategoryTrendsLiveRequestInfo`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md).[`tag`](../interfaces/IContentAnalysisCategoryTrendsLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:171161
+main.ts:172993
 
 ## Methods
 
@@ -241,9 +241,9 @@ main.ts:171161
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:171174
+main.ts:173006
 
 ***
 
@@ -259,15 +259,15 @@ main.ts:171174
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:171207
+main.ts:173039
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
 #### Parameters
 
@@ -277,6 +277,6 @@ main.ts:171207
 
 [`ContentAnalysisCategoryTrendsLiveRequestInfo`](ContentAnalysisCategoryTrendsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:171200
+main.ts:173032

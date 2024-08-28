@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantAmazonSellersTaskPostRequestInfo(data)
+### new MerchantAmazonSellersTaskPostRequestInfo()
 
 > **new MerchantAmazonSellersTaskPostRequestInfo**(`data`?): [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:185687
+main.ts:187519
 
 ## Properties
 
 ### asin?
 
-> **`optional`** **asin**: `string`
+> `optional` **asin**: `string`
 
 unique product identifier on Amazon
 required field
@@ -50,15 +50,15 @@ learn more about the identifier in this help center guide
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`asin`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#asin)
 
-#### Source
+#### Defined in
 
-main.ts:185599
+main.ts:187431
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -71,15 +71,15 @@ en
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`language_code`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:185644
+main.ts:187476
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -92,15 +92,15 @@ English
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`language_name`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:185637
+main.ts:187469
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -113,15 +113,15 @@ example:
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`location_code`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:185621
+main.ts:187453
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -136,15 +136,15 @@ example:
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:185630
+main.ts:187462
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -157,15 +157,15 @@ London,England,United Kingdom
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`location_name`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:185614
+main.ts:187446
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -181,15 +181,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:185683
+main.ts:187515
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -201,15 +201,15 @@ advanced, html
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`postback_data`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:185673
+main.ts:187505
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -225,15 +225,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`postback_url`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:185667
+main.ts:187499
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -247,15 +247,15 @@ The cost can be calculated on the Pricing page.
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`priority`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:185607
+main.ts:187439
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -268,15 +268,15 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`se_domain`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:185651
+main.ts:187483
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -288,9 +288,9 @@ you will find the specified tag value in the data object of the response
 
 [`IMerchantAmazonSellersTaskPostRequestInfo`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md).[`tag`](../interfaces/IMerchantAmazonSellersTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:185657
+main.ts:187489
 
 ## Methods
 
@@ -306,9 +306,9 @@ main.ts:185657
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:185696
+main.ts:187528
 
 ***
 
@@ -324,15 +324,15 @@ main.ts:185696
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:185724
+main.ts:187556
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -342,6 +342,6 @@ main.ts:185724
 
 [`MerchantAmazonSellersTaskPostRequestInfo`](MerchantAmazonSellersTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:185717
+main.ts:187549

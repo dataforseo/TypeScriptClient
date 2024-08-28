@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### client?
 
-> **`optional`** **client**: `string`
+> `optional` **client**: `string`
 
 search client for autocomplete
 optional field
@@ -33,15 +33,15 @@ gws-wiz-local — used in google local;
 img — used in google’s image search;
 products-cc — used in google shopping search
 
-#### Source
+#### Defined in
 
-main.ts:53810
+main.ts:54342
 
 ***
 
 ### cursor\_pointer?
 
-> **`optional`** **cursor\_pointer**: `number`
+> `optional` **cursor\_pointer**: `number`
 
 search bar cursor pointer
 optional field
@@ -54,15 +54,15 @@ example:
 which query is s| – "cursor_pointer": 16
 which que|ry is s – "cursor_pointer": 9
 
-#### Source
+#### Defined in
 
-main.ts:53793
+main.ts:54325
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -71,15 +71,15 @@ all %## will be decoded (plus symbol ‘+’ will be decoded to a space characte
 if you need to use the “%” symbol for your keyword, please specify it as “%25”;
 if you need to use the “+” symbol for your keyword, please specify it as “%2B”;
 
-#### Source
+#### Defined in
 
-main.ts:53755
+main.ts:54287
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,15 +88,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:53782
+main.ts:54314
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -105,15 +105,15 @@ you can receive the list of available languages of the search engine with their 
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:53775
+main.ts:54307
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name;
@@ -121,15 +121,15 @@ you can receive the list of available locations of the search engines with their
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:53768
+main.ts:54300
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -138,15 +138,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 London,England,United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:53762
+main.ts:54294
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -154,6 +154,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:53816
+main.ts:54348

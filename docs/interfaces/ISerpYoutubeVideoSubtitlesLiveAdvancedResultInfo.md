@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,198 +14,198 @@
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 the category the video belongs to
 
-#### Source
+#### Defined in
 
-main.ts:65322
+main.ts:65918
 
 ***
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
 
-#### Source
+#### Defined in
 
-main.ts:65301
+main.ts:65897
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:65306
+main.ts:65902
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
 possible item:
 youtube_subtitles
 
-#### Source
+#### Defined in
 
-main.ts:65314
+main.ts:65910
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
 elements of search results found in SERP
 
-#### Source
+#### Defined in
 
-main.ts:65330
+main.ts:65926
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:65328
+main.ts:65924
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:65298
+main.ts:65894
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:65296
+main.ts:65892
 
 ***
 
 ### origin\_language?
 
-> **`optional`** **origin\_language**: `string`
+> `optional` **origin\_language**: `string`
 
 language code of original text
 
-#### Source
+#### Defined in
 
-main.ts:65320
+main.ts:65916
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:65294
+main.ts:65890
 
 ***
 
 ### spell?
 
-> **`optional`** **spell**: [`SpellInfo`](../classes/SpellInfo.md)
+> `optional` **spell**: [`SpellInfo`](../classes/SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
 
-#### Source
+#### Defined in
 
-main.ts:65309
+main.ts:65905
 
 ***
 
 ### subtitles\_count?
 
-> **`optional`** **subtitles\_count**: `number`
+> `optional` **subtitles\_count**: `number`
 
 number of subtitles in the video
 
-#### Source
+#### Defined in
 
-main.ts:65324
+main.ts:65920
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the video
 
-#### Source
+#### Defined in
 
-main.ts:65326
+main.ts:65922
 
 ***
 
 ### translate\_language?
 
-> **`optional`** **translate\_language**: `string`
+> `optional` **translate\_language**: `string`
 
 language code of translated text
 
-#### Source
+#### Defined in
 
-main.ts:65318
+main.ts:65914
 
 ***
 
 ### unsupported\_language?
 
-> **`optional`** **unsupported\_language**: `boolean`
+> `optional` **unsupported\_language**: `boolean`
 
 indicates whether the language is unsupported by the system
 
-#### Source
+#### Defined in
 
-main.ts:65316
+main.ts:65912
 
 ***
 
 ### video\_id?
 
-> **`optional`** **video\_id**: `string`
+> `optional` **video\_id**: `string`
 
 ID of the video received in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:65292
+main.ts:65888

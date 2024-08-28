@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageLighthouseAuditsResultInfo(data)
+### new OnPageLighthouseAuditsResultInfo()
 
 > **new OnPageLighthouseAuditsResultInfo**(`data`?): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:165580
+main.ts:167412
 
 ## Properties
 
 ### audits?
 
-> **`optional`** **audits**: `string`[]
+> `optional` **audits**: `string`[]
 
 the list of available lighthouse audits
 an array containing the titles of available audits
@@ -46,9 +46,9 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 [`IOnPageLighthouseAuditsResultInfo`](../interfaces/IOnPageLighthouseAuditsResultInfo.md).[`audits`](../interfaces/IOnPageLighthouseAuditsResultInfo.md#audits)
 
-#### Source
+#### Defined in
 
-main.ts:165576
+main.ts:167408
 
 ## Methods
 
@@ -64,9 +64,9 @@ main.ts:165576
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:165589
+main.ts:167421
 
 ***
 
@@ -82,15 +82,15 @@ main.ts:165589
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:165610
+main.ts:167442
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
 #### Parameters
 
@@ -100,6 +100,6 @@ main.ts:165610
 
 [`OnPageLighthouseAuditsResultInfo`](OnPageLighthouseAuditsResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:165603
+main.ts:167435

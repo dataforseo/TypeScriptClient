@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,50 +14,50 @@
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](../classes/RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
 rating in the review
 information about the rating enclosed in the review on a third-party site
 
-#### Source
+#### Defined in
 
-main.ts:208989
+main.ts:210839
 
 ***
 
 ### review\_text?
 
-> **`optional`** **review\_text**: `string`
+> `optional` **review\_text**: `string`
 
 review text
 text of the review
 
-#### Source
+#### Defined in
 
-main.ts:208986
+main.ts:210836
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 review title
 contains a name of the third-party site where review initially appeared
 
-#### Source
+#### Defined in
 
-main.ts:208980
+main.ts:210830
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 review url
 URL to the a third-party site where review initially appeared
 
-#### Source
+#### Defined in
 
-main.ts:208983
+main.ts:210833

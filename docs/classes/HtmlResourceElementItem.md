@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new HtmlResourceElementItem(data)
+### new HtmlResourceElementItem()
 
 > **new HtmlResourceElementItem**(`data`?): [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`constructor`](BaseOnPageResourceItemInfo.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:156518
+main.ts:158346
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`_discriminator`](BaseOnPageResourceItemInfo.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21185
+main.ts:21367
 
 ***
 
 ### broken\_links?
 
-> **`optional`** **broken\_links**: `boolean`
+> `optional` **broken\_links**: `boolean`
 
 indicates whether a page contains broken links
 
@@ -66,15 +66,15 @@ indicates whether a page contains broken links
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`broken_links`](../interfaces/IHtmlResourceElementItem.md#broken_links)
 
-#### Source
+#### Defined in
 
-main.ts:156471
+main.ts:158299
 
 ***
 
 ### broken\_resources?
 
-> **`optional`** **broken\_resources**: `boolean`
+> `optional` **broken\_resources**: `boolean`
 
 indicates whether a page contains broken resources
 
@@ -82,15 +82,15 @@ indicates whether a page contains broken resources
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`broken_resources`](../interfaces/IHtmlResourceElementItem.md#broken_resources)
 
-#### Source
+#### Defined in
 
-main.ts:156469
+main.ts:158297
 
 ***
 
 ### cache\_control?
 
-> **`optional`** **cache\_control**: [`CacheControl`](CacheControl.md)
+> `optional` **cache\_control**: [`CacheControl`](CacheControl.md)
 
 instructions for caching
 
@@ -98,20 +98,20 @@ instructions for caching
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`cache_control`](../interfaces/IHtmlResourceElementItem.md#cache_control)
 
-#### Source
+#### Defined in
 
-main.ts:156496
+main.ts:158324
 
 ***
 
 ### checks?
 
-> **`optional`** **checks**: `Object`
+> `optional` **checks**: `object`
 
 website checks
 on-page check-ups related to the page
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `boolean`
 
@@ -119,15 +119,15 @@ on-page check-ups related to the page
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`checks`](../interfaces/IHtmlResourceElementItem.md#checks)
 
-#### Source
+#### Defined in
 
-main.ts:156499
+main.ts:158327
 
 ***
 
 ### click\_depth?
 
-> **`optional`** **click\_depth**: `number`
+> `optional` **click\_depth**: `number`
 
 number of clicks it takes to get to the page
 indicates the number of clicks from the homepage needed before landing at the target page
@@ -136,15 +136,15 @@ indicates the number of clicks from the homepage needed before landing at the ta
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`click_depth`](../interfaces/IHtmlResourceElementItem.md#click_depth)
 
-#### Source
+#### Defined in
 
-main.ts:156480
+main.ts:158308
 
 ***
 
 ### content\_encoding?
 
-> **`optional`** **content\_encoding**: `string`
+> `optional` **content\_encoding**: `string`
 
 type of encoding
 
@@ -152,15 +152,15 @@ type of encoding
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`content_encoding`](../interfaces/IHtmlResourceElementItem.md#content_encoding)
 
-#### Source
+#### Defined in
 
-main.ts:156501
+main.ts:158329
 
 ***
 
 ### custom\_js\_response?
 
-> **`optional`** **custom\_js\_response**: `any`
+> `optional` **custom\_js\_response**: `any`
 
 the result of executing a specified JS script
 note that you should specify a custom_js field when setting a task to receive this data and the field type and its value will totally depend on the script you specified;you can also filter the results by this value specifying filters in the following way:
@@ -170,15 +170,15 @@ note that you should specify a custom_js field when setting a task to receive th
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`custom_js_response`](../interfaces/IHtmlResourceElementItem.md#custom_js_response)
 
-#### Source
+#### Defined in
 
-main.ts:156465
+main.ts:158293
 
 ***
 
 ### duplicate\_content?
 
-> **`optional`** **duplicate\_content**: `boolean`
+> `optional` **duplicate\_content**: `boolean`
 
 indicates whether a page has duplicate content
 
@@ -186,15 +186,15 @@ indicates whether a page has duplicate content
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`duplicate_content`](../interfaces/IHtmlResourceElementItem.md#duplicate_content)
 
-#### Source
+#### Defined in
 
-main.ts:156477
+main.ts:158305
 
 ***
 
 ### duplicate\_description?
 
-> **`optional`** **duplicate\_description**: `boolean`
+> `optional` **duplicate\_description**: `boolean`
 
 indicates whether a page has a duplicate description
 
@@ -202,15 +202,15 @@ indicates whether a page has a duplicate description
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`duplicate_description`](../interfaces/IHtmlResourceElementItem.md#duplicate_description)
 
-#### Source
+#### Defined in
 
-main.ts:156475
+main.ts:158303
 
 ***
 
 ### duplicate\_title?
 
-> **`optional`** **duplicate\_title**: `boolean`
+> `optional` **duplicate\_title**: `boolean`
 
 indicates whether a page has duplicate title tags
 
@@ -218,15 +218,15 @@ indicates whether a page has duplicate title tags
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`duplicate_title`](../interfaces/IHtmlResourceElementItem.md#duplicate_title)
 
-#### Source
+#### Defined in
 
-main.ts:156473
+main.ts:158301
 
 ***
 
 ### encoded\_size?
 
-> **`optional`** **encoded\_size**: `number`
+> `optional` **encoded\_size**: `number`
 
 page size after encoding
 indicates the size of the encoded page measured in bytes
@@ -235,15 +235,15 @@ indicates the size of the encoded page measured in bytes
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`encoded_size`](../interfaces/IHtmlResourceElementItem.md#encoded_size)
 
-#### Source
+#### Defined in
 
-main.ts:156486
+main.ts:158314
 
 ***
 
 ### fetch\_time?
 
-> **`optional`** **fetch\_time**: `string`
+> `optional` **fetch\_time**: `string`
 
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -254,15 +254,15 @@ example:
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`fetch_time`](../interfaces/IHtmlResourceElementItem.md#fetch_time)
 
-#### Source
+#### Defined in
 
-main.ts:156494
+main.ts:158322
 
 ***
 
 ### is\_resource?
 
-> **`optional`** **is\_resource**: `boolean`
+> `optional` **is\_resource**: `boolean`
 
 indicates whether a page is a single resource
 
@@ -270,15 +270,15 @@ indicates whether a page is a single resource
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`is_resource`](../interfaces/IHtmlResourceElementItem.md#is_resource)
 
-#### Source
+#### Defined in
 
-main.ts:156507
+main.ts:158335
 
 ***
 
 ### last\_modified?
 
-> **`optional`** **last\_modified**: [`LastModified`](LastModified.md)
+> `optional` **last\_modified**: [`LastModified`](LastModified.md)
 
 contains data on changes related to the resource
 if there is no data, the value will be null
@@ -287,15 +287,15 @@ if there is no data, the value will be null
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`last_modified`](../interfaces/IHtmlResourceElementItem.md#last_modified)
 
-#### Source
+#### Defined in
 
-main.ts:156514
+main.ts:158342
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `string`
+> `optional` **location**: `string`
 
 location header
 indicates the URL to redirect a page to
@@ -304,15 +304,15 @@ indicates the URL to redirect a page to
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`location`](../interfaces/IHtmlResourceElementItem.md#location)
 
-#### Source
+#### Defined in
 
-main.ts:156447
+main.ts:158275
 
 ***
 
 ### media\_type?
 
-> **`optional`** **media\_type**: `string`
+> `optional` **media\_type**: `string`
 
 types of media used to display a page
 
@@ -320,15 +320,15 @@ types of media used to display a page
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`media_type`](../interfaces/IHtmlResourceElementItem.md#media_type)
 
-#### Source
+#### Defined in
 
-main.ts:156503
+main.ts:158331
 
 ***
 
 ### meta?
 
-> **`optional`** **meta**: [`PageMetaInfo`](PageMetaInfo.md)
+> `optional` **meta**: [`PageMetaInfo`](PageMetaInfo.md)
 
 page properties
 the value depends on the resource_type
@@ -337,15 +337,15 @@ the value depends on the resource_type
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`meta`](../interfaces/IHtmlResourceElementItem.md#meta)
 
-#### Source
+#### Defined in
 
-main.ts:156452
+main.ts:158280
 
 ***
 
 ### onpage\_score?
 
-> **`optional`** **onpage\_score**: `number`
+> `optional` **onpage\_score**: `number`
 
 shows how page is optimized on a 100-point scale
 this field shows how page is optimized considering critical on-page issues and warnings detected;
@@ -356,15 +356,15 @@ learn more about how the metric is calculated in this help center article
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`onpage_score`](../interfaces/IHtmlResourceElementItem.md#onpage_score)
 
-#### Source
+#### Defined in
 
-main.ts:156459
+main.ts:158287
 
 ***
 
 ### page\_timing?
 
-> **`optional`** **page\_timing**: [`PageTiming`](PageTiming.md)
+> `optional` **page\_timing**: [`PageTiming`](PageTiming.md)
 
 object of page load metrics
 
@@ -372,15 +372,15 @@ object of page load metrics
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`page_timing`](../interfaces/IHtmlResourceElementItem.md#page_timing)
 
-#### Source
+#### Defined in
 
-main.ts:156454
+main.ts:158282
 
 ***
 
 ### relative\_url\_length?
 
-> **`optional`** **relative\_url\_length**: `number`
+> `optional` **relative\_url\_length**: `number`
 
 relative URL length in characters
 
@@ -388,15 +388,15 @@ relative URL length in characters
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`relative_url_length`](../interfaces/IHtmlResourceElementItem.md#relative_url_length)
 
-#### Source
+#### Defined in
 
-main.ts:156511
+main.ts:158339
 
 ***
 
 ### resource\_errors?
 
-> **`optional`** **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
+> `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
 resource errors and warnings
 
@@ -404,15 +404,15 @@ resource errors and warnings
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`resource_errors`](../interfaces/IHtmlResourceElementItem.md#resource_errors)
 
-#### Source
+#### Defined in
 
-main.ts:156467
+main.ts:158295
 
 ***
 
 ### server?
 
-> **`optional`** **server**: `string`
+> `optional` **server**: `string`
 
 server version
 
@@ -420,15 +420,15 @@ server version
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`server`](../interfaces/IHtmlResourceElementItem.md#server)
 
-#### Source
+#### Defined in
 
-main.ts:156505
+main.ts:158333
 
 ***
 
 ### size?
 
-> **`optional`** **size**: `number`
+> `optional` **size**: `number`
 
 resource size
 indicates the size of a given page measured in bytes
@@ -437,15 +437,15 @@ indicates the size of a given page measured in bytes
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`size`](../interfaces/IHtmlResourceElementItem.md#size)
 
-#### Source
+#### Defined in
 
-main.ts:156483
+main.ts:158311
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 status code of the page
 
@@ -453,15 +453,15 @@ status code of the page
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`status_code`](../interfaces/IHtmlResourceElementItem.md#status_code)
 
-#### Source
+#### Defined in
 
-main.ts:156444
+main.ts:158272
 
 ***
 
 ### total\_dom\_size?
 
-> **`optional`** **total\_dom\_size**: `number`
+> `optional` **total\_dom\_size**: `number`
 
 total DOM size of a page
 
@@ -469,15 +469,15 @@ total DOM size of a page
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`total_dom_size`](../interfaces/IHtmlResourceElementItem.md#total_dom_size)
 
-#### Source
+#### Defined in
 
-main.ts:156461
+main.ts:158289
 
 ***
 
 ### total\_transfer\_size?
 
-> **`optional`** **total\_transfer\_size**: `number`
+> `optional` **total\_transfer\_size**: `number`
 
 compressed page size
 indicates the compressed size of a given page
@@ -486,15 +486,15 @@ indicates the compressed size of a given page
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`total_transfer_size`](../interfaces/IHtmlResourceElementItem.md#total_transfer_size)
 
-#### Source
+#### Defined in
 
-main.ts:156489
+main.ts:158317
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page URL
 
@@ -502,15 +502,15 @@ page URL
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`url`](../interfaces/IHtmlResourceElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:156449
+main.ts:158277
 
 ***
 
 ### url\_length?
 
-> **`optional`** **url\_length**: `number`
+> `optional` **url\_length**: `number`
 
 page URL length in characters
 
@@ -518,9 +518,9 @@ page URL length in characters
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`url_length`](../interfaces/IHtmlResourceElementItem.md#url_length)
 
-#### Source
+#### Defined in
 
-main.ts:156509
+main.ts:158337
 
 ## Methods
 
@@ -540,9 +540,9 @@ main.ts:156509
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`init`](BaseOnPageResourceItemInfo.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:156523
+main.ts:158351
 
 ***
 
@@ -562,15 +562,15 @@ main.ts:156523
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`toJSON`](BaseOnPageResourceItemInfo.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:156574
+main.ts:158402
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
+> `static` **fromJS**(`data`): [`HtmlResourceElementItem`](HtmlResourceElementItem.md)
 
 #### Parameters
 
@@ -584,6 +584,6 @@ main.ts:156574
 
 [`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fromJS`](BaseOnPageResourceItemInfo.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:156567
+main.ts:158395

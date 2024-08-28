@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PositiveConnotationDistribution(data)
+### new PositiveConnotationDistribution()
 
 > **new PositiveConnotationDistribution**(`data`?): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
@@ -28,51 +28,51 @@
 
 [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
-#### Source
+#### Defined in
 
-main.ts:169759
+main.ts:171591
 
 ## Properties
 
 ### negative?
 
-> **`optional`** **negative**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> `optional` **negative**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
 [`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md).[`negative`](../interfaces/IPositiveConnotationDistribution.md#negative)
 
-#### Source
+#### Defined in
 
-main.ts:169754
+main.ts:171586
 
 ***
 
 ### neutral?
 
-> **`optional`** **neutral**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> `optional` **neutral**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
 [`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md).[`neutral`](../interfaces/IPositiveConnotationDistribution.md#neutral)
 
-#### Source
+#### Defined in
 
-main.ts:169755
+main.ts:171587
 
 ***
 
 ### positive?
 
-> **`optional`** **positive**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
+> `optional` **positive**: [`ContentAnalysisSummaryInfo`](ContentAnalysisSummaryInfo.md)
 
 #### Implementation of
 
 [`IPositiveConnotationDistribution`](../interfaces/IPositiveConnotationDistribution.md).[`positive`](../interfaces/IPositiveConnotationDistribution.md#positive)
 
-#### Source
+#### Defined in
 
-main.ts:169753
+main.ts:171585
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:169753
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:169768
+main.ts:171600
 
 ***
 
@@ -106,15 +106,15 @@ main.ts:169768
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:169787
+main.ts:171619
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
+> `static` **fromJS**(`data`): [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
 #### Parameters
 
@@ -124,6 +124,6 @@ main.ts:169787
 
 [`PositiveConnotationDistribution`](PositiveConnotationDistribution.md)
 
-#### Source
+#### Defined in
 
-main.ts:169780
+main.ts:171612

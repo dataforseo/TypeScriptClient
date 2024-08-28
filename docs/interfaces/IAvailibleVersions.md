@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### default?
 
-> **`optional`** **default**: `boolean`
+> `optional` **default**: `boolean`
 
 the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary
 
-#### Source
+#### Defined in
 
-main.ts:165797
+main.ts:167629
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 lighthouse version
 
-#### Source
+#### Defined in
 
-main.ts:165794
+main.ts:167626

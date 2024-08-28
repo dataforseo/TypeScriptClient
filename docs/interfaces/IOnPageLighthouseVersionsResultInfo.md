@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,8 +14,8 @@
 
 ### availible\_versions?
 
-> **`optional`** **availible\_versions**: [`AvailibleVersions`](../classes/AvailibleVersions.md)[]
+> `optional` **availible\_versions**: [`AvailibleVersions`](../classes/AvailibleVersions.md)[]
 
-#### Source
+#### Defined in
 
-main.ts:165853
+main.ts:167685

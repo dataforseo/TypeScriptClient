@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RatingInfo(data)
+### new RatingInfo()
 
 > **new RatingInfo**(`data`?): [`RatingInfo`](RatingInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`RatingInfo`](RatingInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22625
+main.ts:22807
 
 ## Properties
 
 ### rating\_max?
 
-> **`optional`** **rating\_max**: `number`
+> `optional` **rating\_max**: `number`
 
 the maximum value for a rating_type
 
@@ -44,15 +44,15 @@ the maximum value for a rating_type
 
 [`IRatingInfo`](../interfaces/IRatingInfo.md).[`rating_max`](../interfaces/IRatingInfo.md#rating_max)
 
-#### Source
+#### Defined in
 
-main.ts:22621
+main.ts:22803
 
 ***
 
 ### rating\_type?
 
-> **`optional`** **rating\_type**: `string`
+> `optional` **rating\_type**: `string`
 
 the type of rating
 here you can find the following elements: Max5, Percents, CustomMax
@@ -61,15 +61,15 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 [`IRatingInfo`](../interfaces/IRatingInfo.md).[`rating_type`](../interfaces/IRatingInfo.md#rating_type)
 
-#### Source
+#### Defined in
 
-main.ts:22615
+main.ts:22797
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `number`
+> `optional` **value**: `number`
 
 the value of the rating
 
@@ -77,15 +77,15 @@ the value of the rating
 
 [`IRatingInfo`](../interfaces/IRatingInfo.md).[`value`](../interfaces/IRatingInfo.md#value)
 
-#### Source
+#### Defined in
 
-main.ts:22617
+main.ts:22799
 
 ***
 
 ### votes\_count?
 
-> **`optional`** **votes\_count**: `number`
+> `optional` **votes\_count**: `number`
 
 the amount of feedback
 
@@ -93,9 +93,9 @@ the amount of feedback
 
 [`IRatingInfo`](../interfaces/IRatingInfo.md).[`votes_count`](../interfaces/IRatingInfo.md#votes_count)
 
-#### Source
+#### Defined in
 
-main.ts:22619
+main.ts:22801
 
 ## Methods
 
@@ -111,9 +111,9 @@ main.ts:22619
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22634
+main.ts:22816
 
 ***
 
@@ -129,15 +129,15 @@ main.ts:22634
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22654
+main.ts:22836
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RatingInfo`](RatingInfo.md)
+> `static` **fromJS**(`data`): [`RatingInfo`](RatingInfo.md)
 
 #### Parameters
 
@@ -147,6 +147,6 @@ main.ts:22654
 
 [`RatingInfo`](RatingInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22647
+main.ts:22829

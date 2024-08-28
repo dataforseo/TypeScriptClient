@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantIdListRequestInfo(data)
+### new MerchantIdListRequestInfo()
 
 > **new MerchantIdListRequestInfo**(`data`?): [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:174594
+main.ts:176426
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 required field
@@ -50,15 +50,15 @@ example:
 
 [`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`datetime_from`](../interfaces/IMerchantIdListRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:174564
+main.ts:176396
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 required field
@@ -71,15 +71,15 @@ example:
 
 [`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`datetime_to`](../interfaces/IMerchantIdListRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:174571
+main.ts:176403
 
 ***
 
 ### include\_metadata?
 
-> **`optional`** **include\_metadata**: `boolean`
+> `optional` **include\_metadata**: `boolean`
 
 include task metadata in the respond
 optional field
@@ -89,15 +89,15 @@ default value: false
 
 [`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`include_metadata`](../interfaces/IMerchantIdListRequestInfo.md#include_metadata)
 
-#### Source
+#### Defined in
 
-main.ts:174590
+main.ts:176422
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned task IDs
 optional field
@@ -108,15 +108,15 @@ maximum value: 1000
 
 [`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`limit`](../interfaces/IMerchantIdListRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:174576
+main.ts:176408
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned task IDs
 optional field
@@ -127,15 +127,15 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`offset`](../interfaces/IMerchantIdListRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:174581
+main.ts:176413
 
 ***
 
 ### sort?
 
-> **`optional`** **sort**: `string`
+> `optional` **sort**: `string`
 
 sorting by task execution time
 optional field
@@ -146,9 +146,9 @@ default value: "asc"
 
 [`IMerchantIdListRequestInfo`](../interfaces/IMerchantIdListRequestInfo.md).[`sort`](../interfaces/IMerchantIdListRequestInfo.md#sort)
 
-#### Source
+#### Defined in
 
-main.ts:174586
+main.ts:176418
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:174586
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:174603
+main.ts:176435
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:174603
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:174625
+main.ts:176457
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
+> `static` **fromJS**(`data`): [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:174625
 
 [`MerchantIdListRequestInfo`](MerchantIdListRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:174618
+main.ts:176450

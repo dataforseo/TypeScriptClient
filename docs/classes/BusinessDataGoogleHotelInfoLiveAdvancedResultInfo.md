@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataGoogleHotelInfoLiveAdvancedResultInfo(data)
+### new BusinessDataGoogleHotelInfoLiveAdvancedResultInfo()
 
 > **new BusinessDataGoogleHotelInfoLiveAdvancedResultInfo**(`data`?): [`BusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:210122
+main.ts:211972
 
 ## Properties
 
 ### about?
 
-> **`optional`** **about**: [`HotelAboutInfo`](HotelAboutInfo.md)
+> `optional` **about**: [`HotelAboutInfo`](HotelAboutInfo.md)
 
 information about the hotel
 
@@ -44,15 +44,15 @@ information about the hotel
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`about`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#about)
 
-#### Source
+#### Defined in
 
-main.ts:210106
+main.ts:211956
 
 ***
 
 ### address?
 
-> **`optional`** **address**: `string`
+> `optional` **address**: `string`
 
 hotel address
 physical address of the hotel
@@ -61,15 +61,15 @@ physical address of the hotel
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`address`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#address)
 
-#### Source
+#### Defined in
 
-main.ts:210101
+main.ts:211951
 
 ***
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -78,15 +78,15 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`check_url`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:210084
+main.ts:211934
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -97,15 +97,15 @@ example:
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`datetime`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:210089
+main.ts:211939
 
 ***
 
 ### hotel\_identifier?
 
-> **`optional`** **hotel\_identifier**: `string`
+> `optional` **hotel\_identifier**: `string`
 
 identifier received in a POST array
 this field will contain the hotel_identifier parameter specified when setting a task;
@@ -116,15 +116,15 @@ CgoI-KWyzenM_MV3EAE
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`hotel_identifier`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#hotel_identifier)
 
-#### Source
+#### Defined in
 
-main.ts:210077
+main.ts:211927
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -132,15 +132,15 @@ language code in a POST array
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:210081
+main.ts:211931
 
 ***
 
 ### location?
 
-> **`optional`** **location**: [`Location`](Location.md)
+> `optional` **location**: [`Location`](Location.md)
 
 information about the hotel location
 information about the location where the hotel is located
@@ -149,15 +149,15 @@ information about the location where the hotel is located
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`location`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#location)
 
-#### Source
+#### Defined in
 
-main.ts:210109
+main.ts:211959
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -165,15 +165,15 @@ location code in a POST array
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:210079
+main.ts:211929
 
 ***
 
 ### overview\_images?
 
-> **`optional`** **overview\_images**: `string`[]
+> `optional` **overview\_images**: `string`[]
 
 images displayed in the hotel overview
 array containing URLs to images displayed in the hotel overview
@@ -182,15 +182,15 @@ array containing URLs to images displayed in the hotel overview
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`overview_images`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#overview_images)
 
-#### Source
+#### Defined in
 
-main.ts:210115
+main.ts:211965
 
 ***
 
 ### phone?
 
-> **`optional`** **phone**: `string`
+> `optional` **phone**: `string`
 
 hotel phone number
 contact phone number of the hotel
@@ -199,15 +199,15 @@ contact phone number of the hotel
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`phone`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#phone)
 
-#### Source
+#### Defined in
 
-main.ts:210104
+main.ts:211954
 
 ***
 
 ### prices?
 
-> **`optional`** **prices**: [`HotelPriceInfo`](HotelPriceInfo.md)
+> `optional` **prices**: [`HotelPriceInfo`](HotelPriceInfo.md)
 
 pricing details of the hotel entity
 contains information about the hotel’s prices
@@ -216,15 +216,15 @@ contains information about the hotel’s prices
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`prices`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#prices)
 
-#### Source
+#### Defined in
 
-main.ts:210118
+main.ts:211968
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`HotelReviewInfo`](HotelReviewInfo.md)
+> `optional` **reviews**: [`HotelReviewInfo`](HotelReviewInfo.md)
 
 hotel reviews by criteria
 information about reviews of the hotel entity
@@ -233,15 +233,15 @@ information about reviews of the hotel entity
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`reviews`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#reviews)
 
-#### Source
+#### Defined in
 
-main.ts:210112
+main.ts:211962
 
 ***
 
 ### stars?
 
-> **`optional`** **stars**: `number`
+> `optional` **stars**: `number`
 
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in hotel summary
@@ -250,15 +250,15 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`stars`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#stars)
 
-#### Source
+#### Defined in
 
-main.ts:210095
+main.ts:211945
 
 ***
 
 ### stars\_description?
 
-> **`optional`** **stars\_description**: `string`
+> `optional` **stars\_description**: `string`
 
 hotel class rating
 class rating that ranges between 1-5 stars and displayed after review ratings in the hotel summary
@@ -267,15 +267,15 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`stars_description`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#stars_description)
 
-#### Source
+#### Defined in
 
-main.ts:210098
+main.ts:211948
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 hotel title
 the title of the hotel entity for which the results are collected
@@ -284,9 +284,9 @@ the title of the hotel entity for which the results are collected
 
 [`IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md).[`title`](../interfaces/IBusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:210092
+main.ts:211942
 
 ## Methods
 
@@ -302,9 +302,9 @@ main.ts:210092
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:210131
+main.ts:211981
 
 ***
 
@@ -320,15 +320,15 @@ main.ts:210131
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:210166
+main.ts:212016
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md)
 
 #### Parameters
 
@@ -338,6 +338,6 @@ main.ts:210166
 
 [`BusinessDataGoogleHotelInfoLiveAdvancedResultInfo`](BusinessDataGoogleHotelInfoLiveAdvancedResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:210159
+main.ts:212009

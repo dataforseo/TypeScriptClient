@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -23,6 +23,6 @@ example:
 “07131248-1535-0216-1000-17384017ad04”
 note: you can set up to 1000 id values as separate objects in the POST array
 
-#### Source
+#### Defined in
 
-main.ts:153741
+main.ts:155567

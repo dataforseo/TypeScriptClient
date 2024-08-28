@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,50 +14,50 @@
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksDomainIntersectionLiveItem`](../classes/BacklinksDomainIntersectionLiveItem.md)[]
+> `optional` **items**: [`BacklinksDomainIntersectionLiveItem`](../classes/BacklinksDomainIntersectionLiveItem.md)[]
 
 contains domain that link to all targets from the POST array
 
-#### Source
+#### Defined in
 
-main.ts:148143
+main.ts:149969
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:148141
+main.ts:149967
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `Object`
+> `optional` **targets**: `object`
 
 target domains, subdomains or webpages in a POST array
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:148137
+main.ts:149963
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:148139
+main.ts:149965

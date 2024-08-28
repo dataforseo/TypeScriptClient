@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantIdListResultInfo(data)
+### new MerchantIdListResultInfo()
 
 > **new MerchantIdListResultInfo**(`data`?): [`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:174706
+main.ts:176538
 
 ## Properties
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 cost of the task, USD
 
@@ -44,15 +44,15 @@ cost of the task, USD
 
 [`IMerchantIdListResultInfo`](../interfaces/IMerchantIdListResultInfo.md).[`cost`](../interfaces/IMerchantIdListResultInfo.md#cost)
 
-#### Source
+#### Defined in
 
-main.ts:174700
+main.ts:176532
 
 ***
 
 ### datetime\_done?
 
-> **`optional`** **datetime\_done**: `string`
+> `optional` **datetime\_done**: `string`
 
 date and time when the task was completed
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +63,15 @@ example:
 
 [`IMerchantIdListResultInfo`](../interfaces/IMerchantIdListResultInfo.md).[`datetime_done`](../interfaces/IMerchantIdListResultInfo.md#datetime_done)
 
-#### Source
+#### Defined in
 
-main.ts:174695
+main.ts:176527
 
 ***
 
 ### datetime\_posted?
 
-> **`optional`** **datetime\_posted**: `string`
+> `optional` **datetime\_posted**: `string`
 
 date and time when the task was made
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -82,15 +82,15 @@ example:
 
 [`IMerchantIdListResultInfo`](../interfaces/IMerchantIdListResultInfo.md).[`datetime_posted`](../interfaces/IMerchantIdListResultInfo.md#datetime_posted)
 
-#### Source
+#### Defined in
 
-main.ts:174690
+main.ts:176522
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the task
 
@@ -98,19 +98,19 @@ id of the task
 
 [`IMerchantIdListResultInfo`](../interfaces/IMerchantIdListResultInfo.md).[`id`](../interfaces/IMerchantIdListResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:174682
+main.ts:176514
 
 ***
 
 ### metadata?
 
-> **`optional`** **metadata**: `Object`
+> `optional` **metadata**: `object`
 
 contains parameters you specified in the POST request
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `any`
 
@@ -118,15 +118,15 @@ contains parameters you specified in the POST request
 
 [`IMerchantIdListResultInfo`](../interfaces/IMerchantIdListResultInfo.md).[`metadata`](../interfaces/IMerchantIdListResultInfo.md#metadata)
 
-#### Source
+#### Defined in
 
-main.ts:174702
+main.ts:176534
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `string`
+> `optional` **status**: `string`
 
 informational message of the task
 you can find the full list of general informational messages here
@@ -135,15 +135,15 @@ you can find the full list of general informational messages here
 
 [`IMerchantIdListResultInfo`](../interfaces/IMerchantIdListResultInfo.md).[`status`](../interfaces/IMerchantIdListResultInfo.md#status)
 
-#### Source
+#### Defined in
 
-main.ts:174698
+main.ts:176530
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the task
 URL you used for making an API call
@@ -152,9 +152,9 @@ URL you used for making an API call
 
 [`IMerchantIdListResultInfo`](../interfaces/IMerchantIdListResultInfo.md).[`url`](../interfaces/IMerchantIdListResultInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:174685
+main.ts:176517
 
 ## Methods
 
@@ -170,9 +170,9 @@ main.ts:174685
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:174715
+main.ts:176547
 
 ***
 
@@ -188,15 +188,15 @@ main.ts:174715
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:174744
+main.ts:176576
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)
+> `static` **fromJS**(`data`): [`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)
 
 #### Parameters
 
@@ -206,6 +206,6 @@ main.ts:174744
 
 [`MerchantIdListResultInfo`](MerchantIdListResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:174737
+main.ts:176569

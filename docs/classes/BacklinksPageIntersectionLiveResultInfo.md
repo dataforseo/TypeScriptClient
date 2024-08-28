@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksPageIntersectionLiveResultInfo(data)
+### new BacklinksPageIntersectionLiveResultInfo()
 
 > **new BacklinksPageIntersectionLiveResultInfo**(`data`?): [`BacklinksPageIntersectionLiveResultInfo`](BacklinksPageIntersectionLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksPageIntersectionLiveResultInfo`](BacklinksPageIntersectionLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:149110
+main.ts:150936
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)[]
+> `optional` **items**: [`BacklinksPageIntersectionLiveItem`](BacklinksPageIntersectionLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
@@ -44,15 +44,15 @@ contains relevant backlinks and referring domains data
 
 [`IBacklinksPageIntersectionLiveResultInfo`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md).[`items`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:149106
+main.ts:150932
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,19 +60,19 @@ the number of results returned in the items array
 
 [`IBacklinksPageIntersectionLiveResultInfo`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:149104
+main.ts:150930
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `Object`
+> `optional` **targets**: `object`
 
 targets from a POST array
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -80,15 +80,15 @@ targets from a POST array
 
 [`IBacklinksPageIntersectionLiveResultInfo`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md).[`targets`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:149100
+main.ts:150926
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results relevant the request
 
@@ -96,9 +96,9 @@ total amount of results relevant the request
 
 [`IBacklinksPageIntersectionLiveResultInfo`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksPageIntersectionLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:149102
+main.ts:150928
 
 ## Methods
 
@@ -114,9 +114,9 @@ main.ts:149102
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:149119
+main.ts:150945
 
 ***
 
@@ -132,15 +132,15 @@ main.ts:149119
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:149149
+main.ts:150975
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksPageIntersectionLiveResultInfo`](BacklinksPageIntersectionLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksPageIntersectionLiveResultInfo`](BacklinksPageIntersectionLiveResultInfo.md)
 
 #### Parameters
 
@@ -150,6 +150,6 @@ main.ts:149149
 
 [`BacklinksPageIntersectionLiveResultInfo`](BacklinksPageIntersectionLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:149142
+main.ts:150968

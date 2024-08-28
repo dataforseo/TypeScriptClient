@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AddressInfo(data)
+### new AddressInfo()
 
 > **new AddressInfo**(`data`?): [`AddressInfo`](AddressInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AddressInfo`](AddressInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:40901
+main.ts:41427
 
 ## Properties
 
 ### address?
 
-> **`optional`** **address**: `string`
+> `optional` **address**: `string`
 
 street address of the local establishment
 
@@ -44,15 +44,15 @@ street address of the local establishment
 
 [`IAddressInfo`](../interfaces/IAddressInfo.md).[`address`](../interfaces/IAddressInfo.md#address)
 
-#### Source
+#### Defined in
 
-main.ts:40889
+main.ts:41415
 
 ***
 
 ### borough?
 
-> **`optional`** **borough**: `string`
+> `optional` **borough**: `string`
 
 administrative unit or district the local establishment belongs to
 
@@ -60,15 +60,15 @@ administrative unit or district the local establishment belongs to
 
 [`IAddressInfo`](../interfaces/IAddressInfo.md).[`borough`](../interfaces/IAddressInfo.md#borough)
 
-#### Source
+#### Defined in
 
-main.ts:40887
+main.ts:41413
 
 ***
 
 ### city?
 
-> **`optional`** **city**: `string`
+> `optional` **city**: `string`
 
 name of the city where the local establishment is located
 
@@ -76,15 +76,15 @@ name of the city where the local establishment is located
 
 [`IAddressInfo`](../interfaces/IAddressInfo.md).[`city`](../interfaces/IAddressInfo.md#city)
 
-#### Source
+#### Defined in
 
-main.ts:40891
+main.ts:41417
 
 ***
 
 ### country\_code?
 
-> **`optional`** **country\_code**: `string`
+> `optional` **country\_code**: `string`
 
 ISO country code of the local establishment
 
@@ -92,15 +92,15 @@ ISO country code of the local establishment
 
 [`IAddressInfo`](../interfaces/IAddressInfo.md).[`country_code`](../interfaces/IAddressInfo.md#country_code)
 
-#### Source
+#### Defined in
 
-main.ts:40897
+main.ts:41423
 
 ***
 
 ### region?
 
-> **`optional`** **region**: `string`
+> `optional` **region**: `string`
 
 DMA region the local establishment belongs to
 
@@ -108,15 +108,15 @@ DMA region the local establishment belongs to
 
 [`IAddressInfo`](../interfaces/IAddressInfo.md).[`region`](../interfaces/IAddressInfo.md#region)
 
-#### Source
+#### Defined in
 
-main.ts:40895
+main.ts:41421
 
 ***
 
 ### zip?
 
-> **`optional`** **zip**: `string`
+> `optional` **zip**: `string`
 
 ZIP code of the local establishment
 
@@ -124,9 +124,9 @@ ZIP code of the local establishment
 
 [`IAddressInfo`](../interfaces/IAddressInfo.md).[`zip`](../interfaces/IAddressInfo.md#zip)
 
-#### Source
+#### Defined in
 
-main.ts:40893
+main.ts:41419
 
 ## Methods
 
@@ -142,9 +142,9 @@ main.ts:40893
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:40910
+main.ts:41436
 
 ***
 
@@ -160,15 +160,15 @@ main.ts:40910
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:40932
+main.ts:41458
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AddressInfo`](AddressInfo.md)
+> `static` **fromJS**(`data`): [`AddressInfo`](AddressInfo.md)
 
 #### Parameters
 
@@ -178,6 +178,6 @@ main.ts:40932
 
 [`AddressInfo`](AddressInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:40925
+main.ts:41451

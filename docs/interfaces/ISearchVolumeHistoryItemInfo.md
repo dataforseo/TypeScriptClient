@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,46 +16,46 @@ device type = desktop contains historical search volume data for searches made f
 
 ### day?
 
-> **`optional`** **day**: `number`
+> `optional` **day**: `number`
 
 day of the month
 
-#### Source
+#### Defined in
 
-main.ts:137987
+main.ts:137813
 
 ***
 
 ### month?
 
-> **`optional`** **month**: `number`
+> `optional` **month**: `number`
 
 month
 
-#### Source
+#### Defined in
 
-main.ts:137985
+main.ts:137811
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 search volume rate
 
-#### Source
+#### Defined in
 
-main.ts:137989
+main.ts:137815
 
 ***
 
 ### year?
 
-> **`optional`** **year**: `number`
+> `optional` **year**: `number`
 
 year
 
-#### Source
+#### Defined in
 
-main.ts:137983
+main.ts:137809

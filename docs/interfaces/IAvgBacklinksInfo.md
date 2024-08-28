@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,111 +14,111 @@
 
 ### backlinks?
 
-> **`optional`** **backlinks**: `number`
+> `optional` **backlinks**: `number`
 
 average number of backlinks
 
-#### Source
+#### Defined in
 
-main.ts:84137
+main.ts:84691
 
 ***
 
 ### dofollow?
 
-> **`optional`** **dofollow**: `number`
+> `optional` **dofollow**: `number`
 
 average number of dofollow links
 
-#### Source
+#### Defined in
 
-main.ts:84139
+main.ts:84693
 
 ***
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
-date and time when backlink data was updated
+date and time when search intent data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:84156
+main.ts:84710
 
 ***
 
 ### main\_domain\_rank?
 
-> **`optional`** **main\_domain\_rank**: `number`
+> `optional` **main\_domain\_rank**: `number`
 
 average main domain rank
 learn more about the metric and its calculation formula in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:84151
+main.ts:84705
 
 ***
 
 ### rank?
 
-> **`optional`** **rank**: `number`
+> `optional` **rank**: `number`
 
 average rank
 learn more about the metric and its calculation formula in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:84148
+main.ts:84702
 
 ***
 
 ### referring\_domains?
 
-> **`optional`** **referring\_domains**: `number`
+> `optional` **referring\_domains**: `number`
 
 average number of referring domains
 
-#### Source
+#### Defined in
 
-main.ts:84143
+main.ts:84697
 
 ***
 
 ### referring\_main\_domains?
 
-> **`optional`** **referring\_main\_domains**: `number`
+> `optional` **referring\_main\_domains**: `number`
 
 average number of referring main domains
 
-#### Source
+#### Defined in
 
-main.ts:84145
+main.ts:84699
 
 ***
 
 ### referring\_pages?
 
-> **`optional`** **referring\_pages**: `number`
+> `optional` **referring\_pages**: `number`
 
 average number of referring pages
 
-#### Source
+#### Defined in
 
-main.ts:84141
+main.ts:84695
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:84135
+main.ts:84689

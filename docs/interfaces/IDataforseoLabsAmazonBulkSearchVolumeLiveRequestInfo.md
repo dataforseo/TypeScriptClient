@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 target keywords
 required field
@@ -23,15 +23,15 @@ maximum number of keywords you can specify in this array: 1000;
 each keyword should be at least 3 characters long;
 the keywords will be converted to lowercase format
 
-#### Source
+#### Defined in
 
-main.ts:104337
+main.ts:104967
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -40,15 +40,15 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:104384
+main.ts:105014
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -57,15 +57,15 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:104377
+main.ts:105007
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -75,15 +75,15 @@ Note: this endpoint currently supports these locations and languages only;
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:104370
+main.ts:105000
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -110,15 +110,15 @@ United States – 2840, en
 example:
 United States
 
-#### Source
+#### Defined in
 
-main.ts:104362
+main.ts:104992
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -126,6 +126,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:104390
+main.ts:105020

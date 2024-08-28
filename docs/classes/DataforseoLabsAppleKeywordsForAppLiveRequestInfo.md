@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAppleKeywordsForAppLiveRequestInfo(data)
+### new DataforseoLabsAppleKeywordsForAppLiveRequestInfo()
 
 > **new DataforseoLabsAppleKeywordsForAppLiveRequestInfo**(`data`?): [`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:116475
+main.ts:117107
 
 ## Properties
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the app
 required field
@@ -50,40 +50,40 @@ the id is 835599320
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`app_id`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:116391
+main.ts:117023
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, `<=, >`, >=, =, `<>`, in, not_in
+<, <=, >, >=, =, <>, in, not_in
 example:
-["keyword_data.keyword_info.search_volume",">`",500]
-[["keyword_data.keyword_info.search_volume","`<>`",500],"and",["ranked_serp_element.serp_item.rank_group",">`=","10"]]
+["keyword_data.keyword_info.search_volume",">",500]
+[["keyword_data.keyword_info.search_volume","<>",500],"and",["ranked_serp_element.serp_item.rank_group",">=","10"]]
 for more information about filters, please refer to Dataforseo Labs – Filters or this help center guide
 
 #### Implementation of
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`filters`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:116438
+main.ts:117070
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -98,15 +98,15 @@ en
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:116427
+main.ts:117059
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -121,15 +121,15 @@ English
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:116418
+main.ts:117050
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned keywords
 optional field
@@ -140,15 +140,15 @@ maximum value: 1000
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`limit`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:116460
+main.ts:117092
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name
@@ -163,15 +163,15 @@ example:
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:116409
+main.ts:117041
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code
@@ -186,15 +186,15 @@ United States
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:116400
+main.ts:117032
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned keywords
 optional field
@@ -205,15 +205,15 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`offset`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:116465
+main.ts:117097
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -236,15 +236,15 @@ Note: if the item_types array contains item types that are different from organi
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`order_by`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#order_by)
 
-#### Source
+#### Defined in
 
-main.ts:116455
+main.ts:117087
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -256,9 +256,9 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsAppleKeywordsForAppLiveRequestInfo`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAppleKeywordsForAppLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:116471
+main.ts:117103
 
 ## Methods
 
@@ -274,9 +274,9 @@ main.ts:116471
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:116484
+main.ts:117116
 
 ***
 
@@ -292,15 +292,15 @@ main.ts:116484
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:116518
+main.ts:117150
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)
 
 #### Parameters
 
@@ -310,6 +310,6 @@ main.ts:116518
 
 [`DataforseoLabsAppleKeywordsForAppLiveRequestInfo`](DataforseoLabsAppleKeywordsForAppLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:116511
+main.ts:117143

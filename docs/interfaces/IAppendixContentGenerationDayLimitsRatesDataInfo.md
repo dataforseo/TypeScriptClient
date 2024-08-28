@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,18 +14,18 @@
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220331
+main.ts:222239
 
 ***
 
 ### live?
 
-> **`optional`** **live**: `number`
+> `optional` **live**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220330
+main.ts:222238

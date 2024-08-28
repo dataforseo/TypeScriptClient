@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,170 +18,171 @@
 
 ### card\_id?
 
-> **`optional`** **card\_id**: `string`
+> `optional` **card\_id**: `string`
 
 card id
 
-#### Source
+#### Defined in
 
-main.ts:97870
+main.ts:97338
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 
-#### Source
+#### Defined in
 
-main.ts:97878
+main.ts:97346
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
-#### Source
+#### Defined in
 
-main.ts:97868
+main.ts:97336
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image from knowledge graph
 
-#### Source
+#### Defined in
 
-main.ts:97874
+main.ts:97342
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)[]
+> `optional` **items**: [`PeopleAlsoAskElement`](../classes/PeopleAlsoAskElement.md)[]
 
 elements of search results found in SERP
 
-#### Source
+#### Defined in
 
-main.ts:97880
+main.ts:97348
 
 ***
 
 ### logo\_url?
 
-> **`optional`** **logo\_url**: `string`
+> `optional` **logo\_url**: `string`
 
 URL of the logo from knowledge graph
 
-#### Source
+#### Defined in
 
-main.ts:97876
+main.ts:97344
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:97860
+main.ts:97328
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:97856
+main.ts:97324
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
+group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:97853
+main.ts:97321
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:97850
+main.ts:97317
 
 ***
 
 ### sub\_title?
 
-> **`optional`** **sub\_title**: `string`
+> `optional` **sub\_title**: `string`
 
 subtitle of the item
 
-#### Source
+#### Defined in
 
-main.ts:97866
+main.ts:97334
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the result in SERP
 
-#### Source
+#### Defined in
 
-main.ts:97864
+main.ts:97332
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
-relevant URL of the Ad element in SERP
+relevant URL in SERP
 
-#### Source
+#### Defined in
 
-main.ts:97872
+main.ts:97340
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:97862
+main.ts:97330

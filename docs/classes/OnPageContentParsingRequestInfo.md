@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageContentParsingRequestInfo(data)
+### new OnPageContentParsingRequestInfo()
 
 > **new OnPageContentParsingRequestInfo**(`data`?): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163389
+main.ts:165221
 
 ## Properties
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -49,15 +49,15 @@ example:
 
 [`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md).[`id`](../interfaces/IOnPageContentParsingRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:163385
+main.ts:165217
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the content to parse
 required field
@@ -69,9 +69,9 @@ https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-t
 
 [`IOnPageContentParsingRequestInfo`](../interfaces/IOnPageContentParsingRequestInfo.md).[`url`](../interfaces/IOnPageContentParsingRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:163378
+main.ts:165210
 
 ## Methods
 
@@ -87,9 +87,9 @@ main.ts:163378
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163398
+main.ts:165230
 
 ***
 
@@ -105,15 +105,15 @@ main.ts:163398
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163416
+main.ts:165248
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
 #### Parameters
 
@@ -123,6 +123,6 @@ main.ts:163416
 
 [`OnPageContentParsingRequestInfo`](OnPageContentParsingRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163409
+main.ts:165241

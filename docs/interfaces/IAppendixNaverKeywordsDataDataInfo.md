@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,18 +14,18 @@
 
 ### keywords\_for\_category?
 
-> **`optional`** **keywords\_for\_category**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **keywords\_for\_category**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220612
+main.ts:222520
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **search\_volume**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220613
+main.ts:222521

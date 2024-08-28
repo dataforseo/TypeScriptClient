@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### items?
 
-> **`optional`** **items**: [`FaqBoxElement`](../classes/FaqBoxElement.md)[]
+> `optional` **items**: [`FaqBoxElement`](../classes/FaqBoxElement.md)[]
 
 contains results featured in the ‘hotels_pack’ element of SERP
 
-#### Source
+#### Defined in
 
-main.ts:29472
+main.ts:29654
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:29470
+main.ts:29652

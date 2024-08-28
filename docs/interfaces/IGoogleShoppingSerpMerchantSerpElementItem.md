@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,147 +18,147 @@
 
 ### additional\_specifications?
 
-> **`optional`** **additional\_specifications**: `Object`
+> `optional` **additional\_specifications**: `object`
 
 object containing additional url parameters
 you can get more details about the product by using this object in the POST request to the Google Shopping Product Specification and Google Shopping Sellers endpoint
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:176921
+main.ts:178753
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency in the ISO format
 example:
 USD
 
-#### Source
+#### Defined in
 
-main.ts:176903
+main.ts:178735
 
 ***
 
 ### data\_docid?
 
-> **`optional`** **data\_docid**: `string`
+> `optional` **data\_docid**: `string`
 
 unique identifier of the SERP data element
 note that there is no full list of possible values as the data_docid is a dynamic value assigned by Google
 example:
 17363035694596624076
 
-#### Source
+#### Defined in
 
-main.ts:176915
+main.ts:178747
 
 ***
 
 ### delivery\_info?
 
-> **`optional`** **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
+> `optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
 delivery information
 delivery information including free and fast delivery date ranges
 
-#### Source
+#### Defined in
 
-main.ts:176944
+main.ts:178776
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the product in Google Shopping SERP
 
-#### Source
+#### Defined in
 
-main.ts:176884
+main.ts:178716
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain in SERP
 
-#### Source
+#### Defined in
 
-main.ts:176880
+main.ts:178712
 
 ***
 
 ### is\_best\_match?
 
-> **`optional`** **is\_best\_match**: `boolean`
+> `optional` **is\_best\_match**: `boolean`
 
 “best match” label
 if the value is true, the product is marked with the “best match” label
 if there are no values, you will get null
 
-#### Source
+#### Defined in
 
-main.ts:176929
+main.ts:178761
 
 ***
 
 ### old\_price?
 
-> **`optional`** **old\_price**: `number`
+> `optional` **old\_price**: `number`
 
 product old price
 displayed if the product price has been changed
 example:
 499
 
-#### Source
+#### Defined in
 
-main.ts:176899
+main.ts:178731
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:176876
+main.ts:178708
 
 ***
 
 ### price?
 
-> **`optional`** **price**: `number`
+> `optional` **price**: `number`
 
 product price
 example:
 384.99
 
-#### Source
+#### Defined in
 
-main.ts:176894
+main.ts:178726
 
 ***
 
 ### product\_id?
 
-> **`optional`** **product\_id**: `string`
+> `optional` **product\_id**: `string`
 
 unique product identifier on Google Shopping
 note that there is no full list of possible values as the product_id is a dynamic value assigned by Google
@@ -167,184 +167,184 @@ example:
 4485466949985702538
 learn more about the parameter in this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:176910
+main.ts:178742
 
 ***
 
 ### product\_images?
 
-> **`optional`** **product\_images**: `string`[]
+> `optional` **product\_images**: `string`[]
 
 URLs to the images of the product
 the first URL in the array is the featured image of the product
 
-#### Source
+#### Defined in
 
-main.ts:176938
+main.ts:178770
 
 ***
 
 ### product\_rating?
 
-> **`optional`** **product\_rating**: [`RatingElement`](../classes/RatingElement.md)
+> `optional` **product\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
 product rating
 the product popularity rate based on product reviews
 
-#### Source
+#### Defined in
 
-main.ts:176932
+main.ts:178764
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
-#### Source
+#### Defined in
 
-main.ts:176872
+main.ts:178704
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:176869
+main.ts:178701
 
 ***
 
 ### reviews\_count?
 
-> **`optional`** **reviews\_count**: `number`
+> `optional` **reviews\_count**: `number`
 
 number of product reviews
 indicates the number of reviews left by users on Google Shopping
 if there are no values, you will get null
 
-#### Source
+#### Defined in
 
-main.ts:176925
+main.ts:178757
 
 ***
 
 ### seller?
 
-> **`optional`** **seller**: `string`
+> `optional` **seller**: `string`
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
 
-#### Source
+#### Defined in
 
-main.ts:176918
+main.ts:178750
 
 ***
 
 ### shop\_ad\_aclk?
 
-> **`optional`** **shop\_ad\_aclk**: `string`
+> `optional` **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
 
-#### Source
+#### Defined in
 
-main.ts:176941
+main.ts:178773
 
 ***
 
 ### shop\_rating?
 
-> **`optional`** **shop\_rating**: [`RatingElement`](../classes/RatingElement.md)
+> `optional` **shop\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
 shop rating
 the popularity rate of the seller based on user reviews
 
-#### Source
+#### Defined in
 
-main.ts:176935
+main.ts:178767
 
 ***
 
 ### shopping\_url?
 
-> **`optional`** **shopping\_url**: `string`
+> `optional` **shopping\_url**: `string`
 
 URL to the product page on Google Shopping
 
-#### Source
+#### Defined in
 
-main.ts:176888
+main.ts:178720
 
 ***
 
 ### stores\_count\_info?
 
-> **`optional`** **stores\_count\_info**: [`StoresCountInfo`](../classes/StoresCountInfo.md)
+> `optional` **stores\_count\_info**: [`StoresCountInfo`](../classes/StoresCountInfo.md)
 
 stores count information
 contains information about the number of stores that offer the same product
 
-#### Source
+#### Defined in
 
-main.ts:176947
+main.ts:178779
 
 ***
 
 ### tags?
 
-> **`optional`** **tags**: `string`[]
+> `optional` **tags**: `string`[]
 
 tags assigned to the product
 
-#### Source
+#### Defined in
 
-main.ts:176890
+main.ts:178722
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 
-#### Source
+#### Defined in
 
-main.ts:176882
+main.ts:178714
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to the product page on the seller’s website
 
-#### Source
+#### Defined in
 
-main.ts:176886
+main.ts:178718
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:176878
+main.ts:178710

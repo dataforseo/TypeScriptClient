@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingKeywordPerformanceLiveRequestInfo(data)
+### new KeywordsDataBingKeywordPerformanceLiveRequestInfo()
 
 > **new KeywordsDataBingKeywordPerformanceLiveRequestInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:136829
+main.ts:136655
 
 ## Properties
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -47,15 +47,15 @@ default value: all
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:136776
+main.ts:136602
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -68,15 +68,15 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:136771
+main.ts:136597
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -88,15 +88,15 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:136819
+main.ts:136645
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -109,15 +109,15 @@ English
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:136813
+main.ts:136639
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -130,15 +130,15 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:136798
+main.ts:136624
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -152,15 +152,15 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:136806
+main.ts:136632
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -173,15 +173,15 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:136791
+main.ts:136617
 
 ***
 
 ### match?
 
-> **`optional`** **match**: `string`
+> `optional` **match**: `string`
 
 keywords match type
 optional field
@@ -195,15 +195,15 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`match`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#match)
 
-#### Source
+#### Defined in
 
-main.ts:136784
+main.ts:136610
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -215,9 +215,9 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataBingKeywordPerformanceLiveRequestInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md).[`tag`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:136825
+main.ts:136651
 
 ## Methods
 
@@ -233,9 +233,9 @@ main.ts:136825
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:136838
+main.ts:136664
 
 ***
 
@@ -251,15 +251,15 @@ main.ts:136838
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:136867
+main.ts:136693
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
 
 #### Parameters
 
@@ -269,6 +269,6 @@ main.ts:136867
 
 [`KeywordsDataBingKeywordPerformanceLiveRequestInfo`](KeywordsDataBingKeywordPerformanceLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:136860
+main.ts:136686

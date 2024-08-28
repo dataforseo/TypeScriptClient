@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,216 +18,216 @@
 
 ### direction?
 
-> **`optional`** **direction**: `string`
+> `optional` **direction**: `string`
 
 direction of the link
 possible values: internal, external
 
-#### Source
+#### Defined in
 
-main.ts:160063
+main.ts:161895
 
 ***
 
 ### dofollow?
 
-> **`optional`** **dofollow**: `boolean`
+> `optional` **dofollow**: `boolean`
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
 
-#### Source
+#### Defined in
 
-main.ts:160056
+main.ts:161888
 
 ***
 
 ### domain\_from?
 
-> **`optional`** **domain\_from**: `string`
+> `optional` **domain\_from**: `string`
 
 referring domain
 the link was found on this domain
 
-#### Source
+#### Defined in
 
-main.ts:160033
+main.ts:161865
 
 ***
 
 ### domain\_to?
 
-> **`optional`** **domain\_to**: `string`
+> `optional` **domain\_to**: `string`
 
 referenced domain
 the link is pointing to this domain
 
-#### Source
+#### Defined in
 
-main.ts:160036
+main.ts:161868
 
 ***
 
 ### image\_alt?
 
-> **`optional`** **image\_alt**: `string`
+> `optional` **image\_alt**: `string`
 
 alternative text for the image
 
-#### Source
+#### Defined in
 
-main.ts:160070
+main.ts:161902
 
 ***
 
 ### image\_src?
 
-> **`optional`** **image\_src**: `string`
+> `optional` **image\_src**: `string`
 
 url of the image
 
-#### Source
+#### Defined in
 
-main.ts:160072
+main.ts:161904
 
 ***
 
 ### is\_broken?
 
-> **`optional`** **is\_broken**: `boolean`
+> `optional` **is\_broken**: `boolean`
 
 link is broken
 indicates whether a link is directing to a broken page or resource
 
-#### Source
+#### Defined in
 
-main.ts:160066
+main.ts:161898
 
 ***
 
 ### is\_link\_relation\_conflict?
 
-> **`optional`** **is\_link\_relation\_conflict**: `boolean`
+> `optional` **is\_link\_relation\_conflict**: `boolean`
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
 
-#### Source
+#### Defined in
 
-main.ts:160075
+main.ts:161907
 
 ***
 
 ### link\_attribute?
 
-> **`optional`** **link\_attribute**: `string`[]
+> `optional` **link\_attribute**: `string`[]
 
 link attribute added to external link
 indicates link attributes added to the link_to on the page_from
 example:
 ["ugc","noopener"]
 
-#### Source
+#### Defined in
 
-main.ts:160053
+main.ts:161885
 
 ***
 
 ### link\_from?
 
-> **`optional`** **link\_from**: `string`
+> `optional` **link\_from**: `string`
 
 referring page
 absolute URL of the page on which the link was found
 
-#### Source
+#### Defined in
 
-main.ts:160045
+main.ts:161877
 
 ***
 
 ### link\_to?
 
-> **`optional`** **link\_to**: `string`
+> `optional` **link\_to**: `string`
 
 referenced page
 absolute URL of the page to which the link is pointing
 
-#### Source
+#### Defined in
 
-main.ts:160048
+main.ts:161880
 
 ***
 
 ### page\_from?
 
-> **`optional`** **page\_from**: `string`
+> `optional` **page\_from**: `string`
 
 referring page
 relative URL of the page on which the link was found
 
-#### Source
+#### Defined in
 
-main.ts:160039
+main.ts:161871
 
 ***
 
 ### page\_from\_scheme?
 
-> **`optional`** **page\_from\_scheme**: `string`
+> `optional` **page\_from\_scheme**: `string`
 
 url scheme of the referring page
 
-#### Source
+#### Defined in
 
-main.ts:160058
+main.ts:161890
 
 ***
 
 ### page\_to?
 
-> **`optional`** **page\_to**: `string`
+> `optional` **page\_to**: `string`
 
 referenced page
 relative URL of the page to which the link is pointing
 
-#### Source
+#### Defined in
 
-main.ts:160042
+main.ts:161874
 
 ***
 
 ### page\_to\_scheme?
 
-> **`optional`** **page\_to\_scheme**: `string`
+> `optional` **page\_to\_scheme**: `string`
 
 url scheme of the referenced page
 
-#### Source
+#### Defined in
 
-main.ts:160060
+main.ts:161892
 
 ***
 
 ### page\_to\_status\_code?
 
-> **`optional`** **page\_to\_status\_code**: `number`
+> `optional` **page\_to\_status\_code**: `number`
 
 status code of the referenced page
 status code of the page to which the link is pointing
 
-#### Source
+#### Defined in
 
-main.ts:160078
+main.ts:161910
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 anchor text
 
-#### Source
+#### Defined in
 
-main.ts:160068
+main.ts:161900

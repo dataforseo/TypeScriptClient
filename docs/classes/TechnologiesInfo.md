@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TechnologiesInfo(data)
+### new TechnologiesInfo()
 
 > **new TechnologiesInfo**(`data`?): [`TechnologiesInfo`](TechnologiesInfo.md)
 
@@ -28,17 +28,17 @@
 
 [`TechnologiesInfo`](TechnologiesInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23062
+main.ts:23244
 
 ## Properties
 
 ### add\_ons?
 
-> **`optional`** **add\_ons**: `Object`
+> `optional` **add\_ons**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -46,17 +46,17 @@ main.ts:23062
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`add_ons`](../interfaces/ITechnologiesInfo.md#add_ons)
 
-#### Source
+#### Defined in
 
-main.ts:23043
+main.ts:23225
 
 ***
 
 ### analytics?
 
-> **`optional`** **analytics**: `Object`
+> `optional` **analytics**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -64,17 +64,17 @@ main.ts:23043
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`analytics`](../interfaces/ITechnologiesInfo.md#analytics)
 
-#### Source
+#### Defined in
 
-main.ts:23044
+main.ts:23226
 
 ***
 
 ### business\_tools?
 
-> **`optional`** **business\_tools**: `Object`
+> `optional` **business\_tools**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -82,17 +82,17 @@ main.ts:23044
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`business_tools`](../interfaces/ITechnologiesInfo.md#business_tools)
 
-#### Source
+#### Defined in
 
-main.ts:23047
+main.ts:23229
 
 ***
 
 ### communication?
 
-> **`optional`** **communication**: `Object`
+> `optional` **communication**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -100,17 +100,17 @@ main.ts:23047
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`communication`](../interfaces/ITechnologiesInfo.md#communication)
 
-#### Source
+#### Defined in
 
-main.ts:23057
+main.ts:23239
 
 ***
 
 ### content?
 
-> **`optional`** **content**: `Object`
+> `optional` **content**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -118,17 +118,17 @@ main.ts:23057
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`content`](../interfaces/ITechnologiesInfo.md#content)
 
-#### Source
+#### Defined in
 
-main.ts:23054
+main.ts:23236
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `Object`
+> `optional` **location**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -136,17 +136,17 @@ main.ts:23054
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`location`](../interfaces/ITechnologiesInfo.md#location)
 
-#### Source
+#### Defined in
 
-main.ts:23053
+main.ts:23235
 
 ***
 
 ### marketing?
 
-> **`optional`** **marketing**: `Object`
+> `optional` **marketing**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -154,17 +154,17 @@ main.ts:23053
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`marketing`](../interfaces/ITechnologiesInfo.md#marketing)
 
-#### Source
+#### Defined in
 
-main.ts:23056
+main.ts:23238
 
 ***
 
 ### media?
 
-> **`optional`** **media**: `Object`
+> `optional` **media**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -172,17 +172,17 @@ main.ts:23056
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`media`](../interfaces/ITechnologiesInfo.md#media)
 
-#### Source
+#### Defined in
 
-main.ts:23055
+main.ts:23237
 
 ***
 
 ### other?
 
-> **`optional`** **other**: `Object`
+> `optional` **other**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -190,17 +190,17 @@ main.ts:23055
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`other`](../interfaces/ITechnologiesInfo.md#other)
 
-#### Source
+#### Defined in
 
-main.ts:23049
+main.ts:23231
 
 ***
 
 ### privacy?
 
-> **`optional`** **privacy**: `Object`
+> `optional` **privacy**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -208,17 +208,17 @@ main.ts:23049
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`privacy`](../interfaces/ITechnologiesInfo.md#privacy)
 
-#### Source
+#### Defined in
 
-main.ts:23051
+main.ts:23233
 
 ***
 
 ### sales?
 
-> **`optional`** **sales**: `Object`
+> `optional` **sales**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -226,17 +226,17 @@ main.ts:23051
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`sales`](../interfaces/ITechnologiesInfo.md#sales)
 
-#### Source
+#### Defined in
 
-main.ts:23048
+main.ts:23230
 
 ***
 
 ### security?
 
-> **`optional`** **security**: `Object`
+> `optional` **security**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -244,17 +244,17 @@ main.ts:23048
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`security`](../interfaces/ITechnologiesInfo.md#security)
 
-#### Source
+#### Defined in
 
-main.ts:23046
+main.ts:23228
 
 ***
 
 ### servers?
 
-> **`optional`** **servers**: `Object`
+> `optional` **servers**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -262,17 +262,17 @@ main.ts:23046
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`servers`](../interfaces/ITechnologiesInfo.md#servers)
 
-#### Source
+#### Defined in
 
-main.ts:23052
+main.ts:23234
 
 ***
 
 ### user\_generated\_content?
 
-> **`optional`** **user\_generated\_content**: `Object`
+> `optional` **user\_generated\_content**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -280,17 +280,17 @@ main.ts:23052
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`user_generated_content`](../interfaces/ITechnologiesInfo.md#user_generated_content)
 
-#### Source
+#### Defined in
 
-main.ts:23050
+main.ts:23232
 
 ***
 
 ### utilities?
 
-> **`optional`** **utilities**: `Object`
+> `optional` **utilities**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -298,17 +298,17 @@ main.ts:23050
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`utilities`](../interfaces/ITechnologiesInfo.md#utilities)
 
-#### Source
+#### Defined in
 
-main.ts:23058
+main.ts:23240
 
 ***
 
 ### web\_development?
 
-> **`optional`** **web\_development**: `Object`
+> `optional` **web\_development**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -316,9 +316,9 @@ main.ts:23058
 
 [`ITechnologiesInfo`](../interfaces/ITechnologiesInfo.md).[`web_development`](../interfaces/ITechnologiesInfo.md#web_development)
 
-#### Source
+#### Defined in
 
-main.ts:23045
+main.ts:23227
 
 ## Methods
 
@@ -334,9 +334,9 @@ main.ts:23045
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:23071
+main.ts:23253
 
 ***
 
@@ -352,15 +352,15 @@ main.ts:23071
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:23199
+main.ts:23381
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TechnologiesInfo`](TechnologiesInfo.md)
+> `static` **fromJS**(`data`): [`TechnologiesInfo`](TechnologiesInfo.md)
 
 #### Parameters
 
@@ -370,6 +370,6 @@ main.ts:23199
 
 [`TechnologiesInfo`](TechnologiesInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23192
+main.ts:23374

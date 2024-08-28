@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixSerpPriceDataInfo(data)
+### new AppendixSerpPriceDataInfo()
 
 > **new AppendixSerpPriceDataInfo**(`data`?): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
@@ -28,51 +28,51 @@
 
 [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222465
+main.ts:226737
 
 ## Properties
 
 ### advanced?
 
-> **`optional`** **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **advanced**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md).[`advanced`](../interfaces/IAppendixSerpPriceDataInfo.md#advanced)
 
-#### Source
+#### Defined in
 
-main.ts:222460
+main.ts:226731
 
 ***
 
 ### html?
 
-> **`optional`** **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **html**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md).[`html`](../interfaces/IAppendixSerpPriceDataInfo.md#html)
 
-#### Source
+#### Defined in
 
-main.ts:222461
+main.ts:226733
 
 ***
 
 ### regular?
 
-> **`optional`** **regular**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **regular**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceDataInfo`](../interfaces/IAppendixSerpPriceDataInfo.md).[`regular`](../interfaces/IAppendixSerpPriceDataInfo.md#regular)
 
-#### Source
+#### Defined in
 
-main.ts:222459
+main.ts:226732
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:222459
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:222474
+main.ts:226746
 
 ***
 
@@ -106,15 +106,15 @@ main.ts:222474
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:222493
+main.ts:226765
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
 #### Parameters
 
@@ -124,6 +124,6 @@ main.ts:222493
 
 [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222486
+main.ts:226758

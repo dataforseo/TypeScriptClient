@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataBusinessListingsSearchLiveItem(data)
+### new BusinessDataBusinessListingsSearchLiveItem()
 
 > **new BusinessDataBusinessListingsSearchLiveItem**(`data`?): [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:201678
+main.ts:203515
 
 ## Properties
 
 ### additional\_categories?
 
-> **`optional`** **additional\_categories**: `string`[]
+> `optional` **additional\_categories**: `string`[]
 
 additional business categories
 additional Google My Business categories that describe the services provided by the business entity in more detail
@@ -45,15 +45,15 @@ additional Google My Business categories that describe the services provided by 
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`additional_categories`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#additional_categories)
 
-#### Source
+#### Defined in
 
-main.ts:201588
+main.ts:203420
 
 ***
 
 ### address?
 
-> **`optional`** **address**: `string`
+> `optional` **address**: `string`
 
 address of the business entity
 
@@ -61,15 +61,15 @@ address of the business entity
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`address`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#address)
 
-#### Source
+#### Defined in
 
-main.ts:201597
+main.ts:203429
 
 ***
 
 ### address\_info?
 
-> **`optional`** **address\_info**: [`AddressInfo`](AddressInfo.md)
+> `optional` **address\_info**: [`AddressInfo`](AddressInfo.md)
 
 object containing address components of the business entity
 
@@ -77,15 +77,15 @@ object containing address components of the business entity
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`address_info`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#address_info)
 
-#### Source
+#### Defined in
 
-main.ts:201599
+main.ts:203431
 
 ***
 
 ### attributes?
 
-> **`optional`** **attributes**: [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
+> `optional` **attributes**: [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
 service details in a form of user-reviewed checks;
 service details of a business entity displayed in a form of checks and based on user feedback and business category
@@ -94,15 +94,15 @@ service details of a business entity displayed in a form of checks and based on 
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`attributes`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#attributes)
 
-#### Source
+#### Defined in
 
-main.ts:201630
+main.ts:203462
 
 ***
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 business category
 Google My Business general category that best describes the services provided by the business entity
@@ -111,15 +111,15 @@ Google My Business general category that best describes the services provided by
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`category`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#category)
 
-#### Source
+#### Defined in
 
-main.ts:201582
+main.ts:203414
 
 ***
 
 ### category\_ids?
 
-> **`optional`** **category\_ids**: `string`[]
+> `optional` **category\_ids**: `string`[]
 
 global category IDs
 universal category IDs that do not change based on the selected country
@@ -128,15 +128,15 @@ universal category IDs that do not change based on the selected country
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`category_ids`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#category_ids)
 
-#### Source
+#### Defined in
 
-main.ts:201585
+main.ts:203417
 
 ***
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -145,15 +145,15 @@ you can use it to make sure that we provided accurate results
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`check_url`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:201669
+main.ts:203501
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment
@@ -163,15 +163,15 @@ learn more about the identifier in this help center article
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`cid`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#cid)
 
-#### Source
+#### Defined in
 
-main.ts:201592
+main.ts:203424
 
 ***
 
 ### contact\_info?
 
-> **`optional`** **contact\_info**: [`BusinessDataContactInfo`](BusinessDataContactInfo.md)[]
+> `optional` **contact\_info**: [`BusinessDataContactInfo`](BusinessDataContactInfo.md)[]
 
 available contacts of the business
 list of contacts to interact with the business
@@ -180,15 +180,15 @@ list of contacts to interact with the business
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`contact_info`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#contact_info)
 
-#### Source
+#### Defined in
 
-main.ts:201666
+main.ts:203498
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the element in SERP
 the description of the business entity for which the results are collected
@@ -197,15 +197,15 @@ the description of the business entity for which the results are collected
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`description`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:201579
+main.ts:203411
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain of the business entity
 
@@ -213,15 +213,15 @@ domain of the business entity
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`domain`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:201609
+main.ts:203441
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -230,15 +230,34 @@ learn more about the identifier in this help center article
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`feature_id`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#feature_id)
 
-#### Source
+#### Defined in
 
-main.ts:201595
+main.ts:203427
+
+***
+
+### first\_seen?
+
+> `optional` **first\_seen**: `string`
+
+date and time when our crawler found the business listing element for the first time
+in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
+example:
+2023-03-11 10:04:11 +00:00
+
+#### Implementation of
+
+[`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`first_seen`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#first_seen)
+
+#### Defined in
+
+main.ts:203511
 
 ***
 
 ### hotel\_rating?
 
-> **`optional`** **hotel\_rating**: `number`
+> `optional` **hotel\_rating**: `number`
 
 hotel class rating
 class ratings range between 1-5 stars, learn more
@@ -248,15 +267,15 @@ if there is no hotel class rating information, the value will be null
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`hotel_rating`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#hotel_rating)
 
-#### Source
+#### Defined in
 
-main.ts:201645
+main.ts:203477
 
 ***
 
 ### is\_claimed?
 
-> **`optional`** **is\_claimed**: `boolean`
+> `optional` **is\_claimed**: `boolean`
 
 shows whether the entity is verified by its owner on Google Maps
 
@@ -264,15 +283,15 @@ shows whether the entity is verified by its owner on Google Maps
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`is_claimed`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#is_claimed)
 
-#### Source
+#### Defined in
 
-main.ts:201627
+main.ts:203459
 
 ***
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
 date and time when the data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -283,15 +302,15 @@ example:
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`last_updated_time`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#last_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:201674
+main.ts:203506
 
 ***
 
 ### latitude?
 
-> **`optional`** **latitude**: `number`
+> `optional` **latitude**: `number`
 
 latitude coordinate of the local establishments in google maps
 example:
@@ -301,15 +320,15 @@ example:
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`latitude`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#latitude)
 
-#### Source
+#### Defined in
 
-main.ts:201621
+main.ts:203453
 
 ***
 
 ### local\_business\_links?
 
-> **`optional`** **local\_business\_links**: [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)[]
+> `optional` **local\_business\_links**: [`BaseLocalBusinessLink`](BaseLocalBusinessLink.md)[]
 
 available interactions with the business
 list of options to interact with the business directly from search results
@@ -318,15 +337,15 @@ list of options to interact with the business directly from search results
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`local_business_links`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#local_business_links)
 
-#### Source
+#### Defined in
 
-main.ts:201663
+main.ts:203495
 
 ***
 
 ### logo?
 
-> **`optional`** **logo**: `string`
+> `optional` **logo**: `string`
 
 URL of the logo featured in Google My Business profile
 
@@ -334,15 +353,15 @@ URL of the logo featured in Google My Business profile
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`logo`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#logo)
 
-#### Source
+#### Defined in
 
-main.ts:201611
+main.ts:203443
 
 ***
 
 ### longitude?
 
-> **`optional`** **longitude**: `number`
+> `optional` **longitude**: `number`
 
 longitude coordinate of the local establishment in google maps
 example:
@@ -352,15 +371,15 @@ example:
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`longitude`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#longitude)
 
-#### Source
+#### Defined in
 
-main.ts:201625
+main.ts:203457
 
 ***
 
 ### main\_image?
 
-> **`optional`** **main\_image**: `string`
+> `optional` **main\_image**: `string`
 
 URL of the main image featured in Google My Business profile
 
@@ -368,15 +387,15 @@ URL of the main image featured in Google My Business profile
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`main_image`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#main_image)
 
-#### Source
+#### Defined in
 
-main.ts:201613
+main.ts:203445
 
 ***
 
 ### people\_also\_search?
 
-> **`optional`** **people\_also\_search**: [`PeopleAlsoSearch`](PeopleAlsoSearch.md)[]
+> `optional` **people\_also\_search**: [`PeopleAlsoSearch`](PeopleAlsoSearch.md)[]
 
 related business entities
 
@@ -384,15 +403,15 @@ related business entities
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`people_also_search`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#people_also_search)
 
-#### Source
+#### Defined in
 
-main.ts:201654
+main.ts:203486
 
 ***
 
 ### phone?
 
-> **`optional`** **phone**: `string`
+> `optional` **phone**: `string`
 
 phone number of the business entity
 
@@ -400,15 +419,15 @@ phone number of the business entity
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`phone`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#phone)
 
-#### Source
+#### Defined in
 
-main.ts:201605
+main.ts:203437
 
 ***
 
 ### place\_id?
 
-> **`optional`** **place\_id**: `string`
+> `optional` **place\_id**: `string`
 
 unique place identifier
 place id of the local establishment featured in the element
@@ -418,25 +437,25 @@ learn more about the identifier in this help center article
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`place_id`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#place_id)
 
-#### Source
+#### Defined in
 
-main.ts:201603
+main.ts:203435
 
 ***
 
 ### place\_topics?
 
-> **`optional`** **place\_topics**: `Object`
+> `optional` **place\_topics**: `object`
 
 keywords mentioned in customer reviews
 contains most popular keywords related to products/services mentioned in customer reviews of a business entity and the number of reviews mentioning each keyword
 example: 
-"place_topics": \{
+"place_topics": {
 "egg roll": 48,
 "birthday": 33
-\}
+}
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -444,15 +463,15 @@ example:
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`place_topics`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#place_topics)
 
-#### Source
+#### Defined in
 
-main.ts:201638
+main.ts:203470
 
 ***
 
 ### popular\_times?
 
-> **`optional`** **popular\_times**: [`PopularTimes`](PopularTimes.md)
+> `optional` **popular\_times**: [`PopularTimes`](PopularTimes.md)
 
 popular times
 information related to busy hours of the business entity
@@ -461,15 +480,15 @@ information related to busy hours of the business entity
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`popular_times`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#popular_times)
 
-#### Source
+#### Defined in
 
-main.ts:201660
+main.ts:203492
 
 ***
 
 ### price\_level?
 
-> **`optional`** **price\_level**: `string`
+> `optional` **price\_level**: `string`
 
 property price level
 can take values: inexpensive, moderate, expensive, very_expensive
@@ -479,15 +498,15 @@ if there is no price level information, the value will be null
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`price_level`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#price_level)
 
-#### Source
+#### Defined in
 
-main.ts:201649
+main.ts:203481
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -496,20 +515,20 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`rating`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:201641
+main.ts:203473
 
 ***
 
 ### rating\_distribution?
 
-> **`optional`** **rating\_distribution**: `Object`
+> `optional` **rating\_distribution**: `object`
 
 the distribution of ratings of the business entity
 the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -517,15 +536,15 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`rating_distribution`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#rating_distribution)
 
-#### Source
+#### Defined in
 
-main.ts:201652
+main.ts:203484
 
 ***
 
 ### snippet?
 
-> **`optional`** **snippet**: `string`
+> `optional` **snippet**: `string`
 
 additional information on the business entity
 
@@ -533,15 +552,15 @@ additional information on the business entity
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`snippet`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#snippet)
 
-#### Source
+#### Defined in
 
-main.ts:201617
+main.ts:203449
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element in SERP
 the name of the business entity for which the results are collected
@@ -550,15 +569,15 @@ the name of the business entity for which the results are collected
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`title`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:201576
+main.ts:203408
 
 ***
 
 ### total\_photos?
 
-> **`optional`** **total\_photos**: `number`
+> `optional` **total\_photos**: `number`
 
 total count of images featured in Google My Business profile
 
@@ -566,15 +585,15 @@ total count of images featured in Google My Business profile
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`total_photos`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#total_photos)
 
-#### Source
+#### Defined in
 
-main.ts:201615
+main.ts:203447
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -582,15 +601,15 @@ type of element
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`type`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:201573
+main.ts:203405
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 absolute url of the business entity
 
@@ -598,15 +617,15 @@ absolute url of the business entity
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`url`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:201607
+main.ts:203439
 
 ***
 
 ### work\_time?
 
-> **`optional`** **work\_time**: [`WorkInfo`](WorkInfo.md)
+> `optional` **work\_time**: [`WorkInfo`](WorkInfo.md)
 
 work time details
 information related to operational hours of the business entity
@@ -615,9 +634,9 @@ information related to operational hours of the business entity
 
 [`IBusinessDataBusinessListingsSearchLiveItem`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md).[`work_time`](../interfaces/IBusinessDataBusinessListingsSearchLiveItem.md#work_time)
 
-#### Source
+#### Defined in
 
-main.ts:201657
+main.ts:203489
 
 ## Methods
 
@@ -633,9 +652,9 @@ main.ts:201657
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:201687
+main.ts:203524
 
 ***
 
@@ -651,15 +670,15 @@ main.ts:201687
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:201769
+main.ts:203607
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)
+> `static` **fromJS**(`data`): [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)
 
 #### Parameters
 
@@ -669,6 +688,6 @@ main.ts:201769
 
 [`BusinessDataBusinessListingsSearchLiveItem`](BusinessDataBusinessListingsSearchLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:201762
+main.ts:203600

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBacklinksLiveResultInfo(data)
+### new BacklinksBacklinksLiveResultInfo()
 
 > **new BacklinksBacklinksLiveResultInfo**(`data`?): [`BacklinksBacklinksLiveResultInfo`](BacklinksBacklinksLiveResultInfo.md)
 
@@ -28,19 +28,19 @@
 
 [`BacklinksBacklinksLiveResultInfo`](BacklinksBacklinksLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:142344
+main.ts:144170
 
 ## Properties
 
 ### custom\_mode?
 
-> **`optional`** **custom\_mode**: `Object`
+> `optional` **custom\_mode**: `object`
 
 custom mode specified in a POST array
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `any`
 
@@ -48,15 +48,15 @@ custom mode specified in a POST array
 
 [`IBacklinksBacklinksLiveResultInfo`](../interfaces/IBacklinksBacklinksLiveResultInfo.md).[`custom_mode`](../interfaces/IBacklinksBacklinksLiveResultInfo.md#custom_mode)
 
-#### Source
+#### Defined in
 
-main.ts:142330
+main.ts:144156
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksBacklinksLiveItem`](BacklinksBacklinksLiveItem.md)[]
+> `optional` **items**: [`BacklinksBacklinksLiveItem`](BacklinksBacklinksLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
@@ -64,15 +64,15 @@ contains relevant backlinks and referring domains data
 
 [`IBacklinksBacklinksLiveResultInfo`](../interfaces/IBacklinksBacklinksLiveResultInfo.md).[`items`](../interfaces/IBacklinksBacklinksLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:142336
+main.ts:144162
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -80,15 +80,15 @@ the number of results returned in the items array
 
 [`IBacklinksBacklinksLiveResultInfo`](../interfaces/IBacklinksBacklinksLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBacklinksLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:142334
+main.ts:144160
 
 ***
 
 ### mode?
 
-> **`optional`** **mode**: `string`
+> `optional` **mode**: `string`
 
 mode specified in a POST array
 
@@ -96,15 +96,15 @@ mode specified in a POST array
 
 [`IBacklinksBacklinksLiveResultInfo`](../interfaces/IBacklinksBacklinksLiveResultInfo.md).[`mode`](../interfaces/IBacklinksBacklinksLiveResultInfo.md#mode)
 
-#### Source
+#### Defined in
 
-main.ts:142328
+main.ts:144154
 
 ***
 
 ### search\_after\_token?
 
-> **`optional`** **search\_after\_token**: `string`
+> `optional` **search\_after\_token**: `string`
 
 token for subsequent requests
 by specifying the unique search_after_token when setting a new task, you will get the subsequent results of the initial task;
@@ -114,15 +114,15 @@ search_after_token values are unique for each subsequent task
 
 [`IBacklinksBacklinksLiveResultInfo`](../interfaces/IBacklinksBacklinksLiveResultInfo.md).[`search_after_token`](../interfaces/IBacklinksBacklinksLiveResultInfo.md#search_after_token)
 
-#### Source
+#### Defined in
 
-main.ts:142340
+main.ts:144166
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain in a POST array
 
@@ -130,15 +130,15 @@ target domain in a POST array
 
 [`IBacklinksBacklinksLiveResultInfo`](../interfaces/IBacklinksBacklinksLiveResultInfo.md).[`target`](../interfaces/IBacklinksBacklinksLiveResultInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:142326
+main.ts:144152
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total amount of results relevant the request
 
@@ -146,9 +146,9 @@ total amount of results relevant the request
 
 [`IBacklinksBacklinksLiveResultInfo`](../interfaces/IBacklinksBacklinksLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksBacklinksLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:142332
+main.ts:144158
 
 ## Methods
 
@@ -164,9 +164,9 @@ main.ts:142332
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:142353
+main.ts:144179
 
 ***
 
@@ -182,15 +182,15 @@ main.ts:142353
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:142386
+main.ts:144212
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBacklinksLiveResultInfo`](BacklinksBacklinksLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBacklinksLiveResultInfo`](BacklinksBacklinksLiveResultInfo.md)
 
 #### Parameters
 
@@ -200,6 +200,6 @@ main.ts:142386
 
 [`BacklinksBacklinksLiveResultInfo`](BacklinksBacklinksLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:142379
+main.ts:144205

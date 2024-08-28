@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ProductInformationRows(data)
+### new ProductInformationRows()
 
 > **new ProductInformationRows**(`data`?): [`ProductInformationRows`](ProductInformationRows.md)
 
@@ -28,15 +28,15 @@
 
 [`ProductInformationRows`](ProductInformationRows.md)
 
-#### Source
+#### Defined in
 
-main.ts:184701
+main.ts:186533
 
 ## Properties
 
 ### rows?
 
-> **`optional`** **rows**: [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)[]
+> `optional` **rows**: [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md)[]
 
 rows containing related product information
 
@@ -44,15 +44,15 @@ rows containing related product information
 
 [`IProductInformationRows`](../interfaces/IProductInformationRows.md).[`rows`](../interfaces/IProductInformationRows.md#rows)
 
-#### Source
+#### Defined in
 
-main.ts:184697
+main.ts:186529
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title under which related product information appears on the Amazon product page
 
@@ -60,15 +60,15 @@ title under which related product information appears on the Amazon product page
 
 [`IProductInformationRows`](../interfaces/IProductInformationRows.md).[`title`](../interfaces/IProductInformationRows.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:184695
+main.ts:186527
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -76,9 +76,9 @@ type of element
 
 [`IProductInformationRows`](../interfaces/IProductInformationRows.md).[`type`](../interfaces/IProductInformationRows.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:184693
+main.ts:186525
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:184693
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:184710
+main.ts:186542
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:184710
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:184733
+main.ts:186565
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ProductInformationRows`](ProductInformationRows.md)
+> `static` **fromJS**(`data`): [`ProductInformationRows`](ProductInformationRows.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:184733
 
 [`ProductInformationRows`](ProductInformationRows.md)
 
-#### Source
+#### Defined in
 
-main.ts:184726
+main.ts:186558

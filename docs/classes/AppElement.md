@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppElement(data)
+### new AppElement()
 
 > **new AppElement**(`data`?): [`AppElement`](AppElement.md)
 
@@ -28,15 +28,15 @@
 
 [`AppElement`](AppElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:31179
+main.ts:31375
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`IAppElement`](../interfaces/IAppElement.md).[`description`](../interfaces/IAppElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:31171
+main.ts:31367
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **price**: [`PriceInfo`](PriceInfo.md)
 
 price indicated in the element
 
@@ -60,15 +60,15 @@ price indicated in the element
 
 [`IAppElement`](../interfaces/IAppElement.md).[`price`](../interfaces/IAppElement.md#price)
 
-#### Source
+#### Defined in
 
-main.ts:31175
+main.ts:31371
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -76,15 +76,15 @@ title of a given link element
 
 [`IAppElement`](../interfaces/IAppElement.md).[`title`](../interfaces/IAppElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:31169
+main.ts:31365
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -92,15 +92,15 @@ type of element
 
 [`IAppElement`](../interfaces/IAppElement.md).[`type`](../interfaces/IAppElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:31167
+main.ts:31363
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -108,9 +108,9 @@ URL
 
 [`IAppElement`](../interfaces/IAppElement.md).[`url`](../interfaces/IAppElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:31173
+main.ts:31369
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:31173
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:31188
+main.ts:31384
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:31188
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:31209
+main.ts:31405
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppElement`](AppElement.md)
+> `static` **fromJS**(`data`): [`AppElement`](AppElement.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:31209
 
 [`AppElement`](AppElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:31202
+main.ts:31398

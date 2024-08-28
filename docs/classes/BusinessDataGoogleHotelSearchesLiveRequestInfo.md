@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataGoogleHotelSearchesLiveRequestInfo(data)
+### new BusinessDataGoogleHotelSearchesLiveRequestInfo()
 
 > **new BusinessDataGoogleHotelSearchesLiveRequestInfo**(`data`?): [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:207387
+main.ts:209237
 
 ## Properties
 
 ### adults?
 
-> **`optional`** **adults**: `number`
+> `optional` **adults**: `number`
 
 number of adults
 optional field
@@ -49,15 +49,15 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`adults`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#adults)
 
-#### Source
+#### Defined in
 
-main.ts:207294
+main.ts:209144
 
 ***
 
 ### amenities?
 
-> **`optional`** **amenities**: `string`[]
+> `optional` **amenities**: `string`[]
 
 hotel amenities
 optional field
@@ -92,15 +92,15 @@ possible values:
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`amenities`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#amenities)
 
-#### Source
+#### Defined in
 
-main.ts:207377
+main.ts:209227
 
 ***
 
 ### check\_in?
 
-> **`optional`** **check\_in**: `string`
+> `optional` **check\_in**: `string`
 
 check-in date
 optional field
@@ -114,15 +114,15 @@ Note: the value cannot precede the today’s date
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`check_in`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#check_in)
 
-#### Source
+#### Defined in
 
-main.ts:207273
+main.ts:209123
 
 ***
 
 ### check\_out?
 
-> **`optional`** **check\_out**: `string`
+> `optional` **check\_out**: `string`
 
 check-out date
 optional field
@@ -137,15 +137,15 @@ the range between check_in and check_out values cannot exceed 30 days
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`check_out`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#check_out)
 
-#### Source
+#### Defined in
 
-main.ts:207282
+main.ts:209132
 
 ***
 
 ### children?
 
-> **`optional`** **children**: `string`[]
+> `optional` **children**: `string`[]
 
 number and age of children
 optional field
@@ -161,15 +161,15 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`children`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#children)
 
-#### Source
+#### Defined in
 
-main.ts:207304
+main.ts:209154
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency
 optional field
@@ -180,15 +180,15 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`currency`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#currency)
 
-#### Source
+#### Defined in
 
-main.ts:207287
+main.ts:209137
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -203,15 +203,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`depth`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:207265
+main.ts:209115
 
 ***
 
 ### free\_cancellation?
 
-> **`optional`** **free\_cancellation**: `boolean`
+> `optional` **free\_cancellation**: `boolean`
 
 hotels with a free cancellation
 optional field
@@ -222,15 +222,15 @@ default value: false
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`free_cancellation`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#free_cancellation)
 
-#### Source
+#### Defined in
 
-main.ts:207343
+main.ts:209193
 
 ***
 
 ### is\_vacation\_rentals?
 
-> **`optional`** **is\_vacation\_rentals**: `boolean`
+> `optional` **is\_vacation\_rentals**: `boolean`
 
 search for vacation rentals
 optional field
@@ -241,15 +241,15 @@ default value: false
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`is_vacation_rentals`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#is_vacation_rentals)
 
-#### Source
+#### Defined in
 
-main.ts:207348
+main.ts:209198
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 optional field
@@ -264,15 +264,15 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`keyword`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:207218
+main.ts:209068
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -285,15 +285,15 @@ en
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`language_code`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:207256
+main.ts:209106
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -306,15 +306,15 @@ English
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`language_name`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:207249
+main.ts:209099
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -327,15 +327,15 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`location_code`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:207233
+main.ts:209083
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -350,15 +350,15 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`location_coordinate`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:207242
+main.ts:209092
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -372,15 +372,15 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`location_name`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:207226
+main.ts:209076
 
 ***
 
 ### max\_price?
 
-> **`optional`** **max\_price**: `number`
+> `optional` **max\_price**: `number`
 
 maximum price per night
 optional field
@@ -392,15 +392,15 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`max_price`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#max_price)
 
-#### Source
+#### Defined in
 
-main.ts:207338
+main.ts:209188
 
 ***
 
 ### min\_price?
 
-> **`optional`** **min\_price**: `number`
+> `optional` **min\_price**: `number`
 
 minimum price per night
 optional field
@@ -412,15 +412,15 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`min_price`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#min_price)
 
-#### Source
+#### Defined in
 
-main.ts:207332
+main.ts:209182
 
 ***
 
 ### min\_rating?
 
-> **`optional`** **min\_rating**: `number`
+> `optional` **min\_rating**: `number`
 
 minimum rating
 optional field
@@ -432,15 +432,15 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`min_rating`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#min_rating)
 
-#### Source
+#### Defined in
 
-main.ts:207316
+main.ts:209166
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -456,15 +456,15 @@ default value: relevance
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`sort_by`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:207326
+main.ts:209176
 
 ***
 
 ### stars?
 
-> **`optional`** **stars**: `string`[]
+> `optional` **stars**: `string`[]
 
 hotel stars
 optional field
@@ -476,15 +476,15 @@ example:
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`stars`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#stars)
 
-#### Source
+#### Defined in
 
-main.ts:207310
+main.ts:209160
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -496,9 +496,9 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataGoogleHotelSearchesLiveRequestInfo`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataGoogleHotelSearchesLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:207383
+main.ts:209233
 
 ## Methods
 
@@ -514,9 +514,9 @@ main.ts:207383
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:207396
+main.ts:209246
 
 ***
 
@@ -532,15 +532,15 @@ main.ts:207396
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:207445
+main.ts:209295
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
 
 #### Parameters
 
@@ -550,6 +550,6 @@ main.ts:207445
 
 [`BusinessDataGoogleHotelSearchesLiveRequestInfo`](BusinessDataGoogleHotelSearchesLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:207438
+main.ts:209288

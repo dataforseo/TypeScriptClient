@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,32 +14,32 @@
 
 ### available\_attributes?
 
-> **`optional`** **available\_attributes**: `Object`
+> `optional` **available\_attributes**: `object`
 
 available attributes
 indicates attributes a business entity can offer
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:201243
+main.ts:203075
 
 ***
 
 ### unavailable\_attributes?
 
-> **`optional`** **unavailable\_attributes**: `Object`
+> `optional` **unavailable\_attributes**: `object`
 
 unavailable attributes
 indicates attributes a business entity cannot offer
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
-#### Source
+#### Defined in
 
-main.ts:201246
+main.ts:203078

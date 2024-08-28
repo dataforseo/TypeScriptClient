@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,148 +18,148 @@
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain where a link points
 
-#### Source
+#### Defined in
 
-main.ts:101342
+main.ts:101946
 
 ***
 
 ### graph?
 
-> **`optional`** **graph**: [`Graph`](../classes/Graph.md)
+> `optional` **graph**: [`Graph`](../classes/Graph.md)
 
 contains data provided in the graph of the element
 
-#### Source
+#### Defined in
 
-main.ts:101347
+main.ts:101951
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:101327
+main.ts:101931
 
 ***
 
 ### price?
 
-> **`optional`** **price**: [`Price`](../classes/Price.md)
+> `optional` **price**: [`Price`](../classes/Price.md)
 
 price of the shopping element
 
-#### Source
+#### Defined in
 
-main.ts:101338
+main.ts:101942
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:101323
+main.ts:101927
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:101320
+main.ts:101924
 
 ***
 
 ### snippet?
 
-> **`optional`** **snippet**: `string`
+> `optional` **snippet**: `string`
 
 text alongside the link title
 
-#### Source
+#### Defined in
 
-main.ts:101336
+main.ts:101940
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the shopping_element
 
-#### Source
+#### Defined in
 
-main.ts:101334
+main.ts:101938
 
 ***
 
 ### table?
 
-> **`optional`** **table**: [`Table`](../classes/Table.md)
+> `optional` **table**: [`Table`](../classes/Table.md)
 
 results table
 if there are none, equals null
 
-#### Source
+#### Defined in
 
-main.ts:101345
+main.ts:101949
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
-title of the result in SERP
+title of the item
 
-#### Source
+#### Defined in
 
-main.ts:101331
+main.ts:101935
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
-relevant URL of the Ad element in SERP
+URL link
 
-#### Source
+#### Defined in
 
-main.ts:101340
+main.ts:101944
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:101329
+main.ts:101933

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,47 +14,47 @@
 
 ### consideration\_category?
 
-> **`optional`** **consideration\_category**: `string`
+> `optional` **consideration\_category**: `string`
 
 category of the consideration element
 the category is indicated just above the title fo the consideration element
 
-#### Source
+#### Defined in
 
-main.ts:36320
+main.ts:36516
 
 ***
 
 ### expanded\_element?
 
-> **`optional`** **expanded\_element**: [`ProductConsiderationsExpandedElement`](../classes/ProductConsiderationsExpandedElement.md)
+> `optional` **expanded\_element**: [`ProductConsiderationsExpandedElement`](../classes/ProductConsiderationsExpandedElement.md)
 
 expanded element
 
-#### Source
+#### Defined in
 
-main.ts:36322
+main.ts:36518
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:36317
+main.ts:36513
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:36315
+main.ts:36511

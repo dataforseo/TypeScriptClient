@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new YoutubeVideoInfoSerpElementItem(data)
+### new YoutubeVideoInfoSerpElementItem()
 
 > **new YoutubeVideoInfoSerpElementItem**(`data`?): [`YoutubeVideoInfoSerpElementItem`](YoutubeVideoInfoSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:63031
+main.ts:63623
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20177
+main.ts:20354
 
 ***
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 the category the video belongs to
 
@@ -66,15 +66,15 @@ the category the video belongs to
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`category`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#category)
 
-#### Source
+#### Defined in
 
-main.ts:63017
+main.ts:63609
 
 ***
 
 ### channel\_id?
 
-> **`optional`** **channel\_id**: `string`
+> `optional` **channel\_id**: `string`
 
 the ID of the channel where the video is published
 
@@ -82,15 +82,15 @@ the ID of the channel where the video is published
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`channel_id`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#channel_id)
 
-#### Source
+#### Defined in
 
-main.ts:62992
+main.ts:63582
 
 ***
 
 ### channel\_logo?
 
-> **`optional`** **channel\_logo**: `string`
+> `optional` **channel\_logo**: `string`
 
 the URL of the page where the logo image of the channel is hosted
 
@@ -98,15 +98,15 @@ the URL of the page where the logo image of the channel is hosted
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`channel_logo`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#channel_logo)
 
-#### Source
+#### Defined in
 
-main.ts:62998
+main.ts:63588
 
 ***
 
 ### channel\_name?
 
-> **`optional`** **channel\_name**: `string`
+> `optional` **channel\_name**: `string`
 
 the name of the channel where the video is published
 
@@ -114,15 +114,31 @@ the name of the channel where the video is published
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`channel_name`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#channel_name)
 
-#### Source
+#### Defined in
 
-main.ts:62994
+main.ts:63584
+
+***
+
+### channel\_subscribers\_count?
+
+> `optional` **channel\_subscribers\_count**: [`ChannelSubscribersCount`](ChannelSubscribersCount.md)
+
+number of subscribers of the channel
+
+#### Implementation of
+
+[`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`channel_subscribers_count`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#channel_subscribers_count)
+
+#### Defined in
+
+main.ts:63598
 
 ***
 
 ### channel\_url?
 
-> **`optional`** **channel\_url**: `string`
+> `optional` **channel\_url**: `string`
 
 the URL of the channel where the video is published
 
@@ -130,15 +146,15 @@ the URL of the channel where the video is published
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`channel_url`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#channel_url)
 
-#### Source
+#### Defined in
 
-main.ts:62996
+main.ts:63586
 
 ***
 
 ### comments\_count?
 
-> **`optional`** **comments\_count**: `number`
+> `optional` **comments\_count**: `number`
 
 number of comments on the video
 
@@ -146,15 +162,15 @@ number of comments on the video
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`comments_count`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#comments_count)
 
-#### Source
+#### Defined in
 
-main.ts:63006
+main.ts:63596
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the video
 
@@ -162,15 +178,15 @@ description of the video
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`description`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:63000
+main.ts:63590
 
 ***
 
 ### duration\_time?
 
-> **`optional`** **duration\_time**: `string`
+> `optional` **duration\_time**: `string`
 
 duration of the video
 
@@ -178,15 +194,15 @@ duration of the video
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`duration_time`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#duration_time)
 
-#### Source
+#### Defined in
 
-main.ts:63021
+main.ts:63613
 
 ***
 
 ### duration\_time\_seconds?
 
-> **`optional`** **duration\_time\_seconds**: `number`
+> `optional` **duration\_time\_seconds**: `number`
 
 duration of the video in seconds
 
@@ -194,15 +210,15 @@ duration of the video in seconds
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`duration_time_seconds`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#duration_time_seconds)
 
-#### Source
+#### Defined in
 
-main.ts:63023
+main.ts:63615
 
 ***
 
 ### is\_live?
 
-> **`optional`** **is\_live**: `boolean`
+> `optional` **is\_live**: `boolean`
 
 indicates whether the video is on live
 
@@ -210,15 +226,15 @@ indicates whether the video is on live
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`is_live`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#is_live)
 
-#### Source
+#### Defined in
 
-main.ts:63019
+main.ts:63611
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords relevant to the video
 
@@ -226,15 +242,15 @@ keywords relevant to the video
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`keywords`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:63015
+main.ts:63607
 
 ***
 
 ### likes\_count?
 
-> **`optional`** **likes\_count**: `number`
+> `optional` **likes\_count**: `number`
 
 number of likes on the video
 
@@ -242,15 +258,15 @@ number of likes on the video
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`likes_count`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#likes_count)
 
-#### Source
+#### Defined in
 
-main.ts:63004
+main.ts:63594
 
 ***
 
 ### publication\_date?
 
-> **`optional`** **publication\_date**: `string`
+> `optional` **publication\_date**: `string`
 
 the date when the video is published
 
@@ -258,15 +274,15 @@ the date when the video is published
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`publication_date`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#publication_date)
 
-#### Source
+#### Defined in
 
-main.ts:63008
+main.ts:63600
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
@@ -275,15 +291,15 @@ absolute position among all the elements in SERP
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`rank_absolute`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:62982
+main.ts:63572
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
@@ -293,15 +309,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`rank_group`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:62979
+main.ts:63569
 
 ***
 
 ### streaming\_quality?
 
-> **`optional`** **streaming\_quality**: [`StreamingQualityElement`](StreamingQualityElement.md)[]
+> `optional` **streaming\_quality**: [`StreamingQualityElement`](StreamingQualityElement.md)[]
 
 array of elements that contain information about all possible streaming qualities of the video
 
@@ -309,15 +325,15 @@ array of elements that contain information about all possible streaming qualitie
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`streaming_quality`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#streaming_quality)
 
-#### Source
+#### Defined in
 
-main.ts:63027
+main.ts:63619
 
 ***
 
 ### subtitles?
 
-> **`optional`** **subtitles**: [`Subtitles`](Subtitles.md)[]
+> `optional` **subtitles**: [`Subtitles`](Subtitles.md)[]
 
 array of elements describing properties of subtitles in the video
 
@@ -325,15 +341,15 @@ array of elements describing properties of subtitles in the video
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`subtitles`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#subtitles)
 
-#### Source
+#### Defined in
 
-main.ts:63025
+main.ts:63617
 
 ***
 
 ### thumbnail\_url?
 
-> **`optional`** **thumbnail\_url**: `string`
+> `optional` **thumbnail\_url**: `string`
 
 the URL of the page where the thumbnail is hosted
 
@@ -341,15 +357,15 @@ the URL of the page where the thumbnail is hosted
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`thumbnail_url`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#thumbnail_url)
 
-#### Source
+#### Defined in
 
-main.ts:62990
+main.ts:63580
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result is published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -360,15 +376,15 @@ example:
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`timestamp`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:63013
+main.ts:63605
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the video
 
@@ -376,15 +392,15 @@ title of the video
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`title`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:62986
+main.ts:63576
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the video
 
@@ -392,15 +408,15 @@ URL of the video
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`url`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:62988
+main.ts:63578
 
 ***
 
 ### video\_id?
 
-> **`optional`** **video\_id**: `string`
+> `optional` **video\_id**: `string`
 
 ID of the video received in a POST array
 
@@ -408,15 +424,15 @@ ID of the video received in a POST array
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`video_id`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#video_id)
 
-#### Source
+#### Defined in
 
-main.ts:62984
+main.ts:63574
 
 ***
 
 ### views\_count?
 
-> **`optional`** **views\_count**: `number`
+> `optional` **views\_count**: `number`
 
 number of views of the video
 
@@ -424,9 +440,9 @@ number of views of the video
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`views_count`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#views_count)
 
-#### Source
+#### Defined in
 
-main.ts:63002
+main.ts:63592
 
 ## Methods
 
@@ -446,9 +462,9 @@ main.ts:63002
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:63036
+main.ts:63628
 
 ***
 
@@ -468,15 +484,15 @@ main.ts:63036
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:63088
+main.ts:63681
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`YoutubeVideoInfoSerpElementItem`](YoutubeVideoInfoSerpElementItem.md)
+> `static` **fromJS**(`data`): [`YoutubeVideoInfoSerpElementItem`](YoutubeVideoInfoSerpElementItem.md)
 
 #### Parameters
 
@@ -490,6 +506,6 @@ main.ts:63088
 
 [`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:63081
+main.ts:63674

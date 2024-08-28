@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,18 +14,18 @@
 
 ### reviews?
 
-> **`optional`** **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **reviews**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219786
+main.ts:221694
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:219787
+main.ts:221695

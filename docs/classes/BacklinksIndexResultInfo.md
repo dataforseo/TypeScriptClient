@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksIndexResultInfo(data)
+### new BacklinksIndexResultInfo()
 
 > **new BacklinksIndexResultInfo**(`data`?): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:139842
+main.ts:141668
 
 ## Properties
 
 ### index\_history?
 
-> **`optional`** **index\_history**: [`IndexHistory`](IndexHistory.md)[]
+> `optional` **index\_history**: [`IndexHistory`](IndexHistory.md)[]
 
 index volume data for the past 12 months
 
@@ -44,15 +44,15 @@ index volume data for the past 12 months
 
 [`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md).[`index_history`](../interfaces/IBacklinksIndexResultInfo.md#index_history)
 
-#### Source
+#### Defined in
 
-main.ts:139838
+main.ts:141664
 
 ***
 
 ### total\_backlinks?
 
-> **`optional`** **total\_backlinks**: `number`
+> `optional` **total\_backlinks**: `number`
 
 total number of backlinks our database contains for the moment of checking
 
@@ -60,15 +60,15 @@ total number of backlinks our database contains for the moment of checking
 
 [`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md).[`total_backlinks`](../interfaces/IBacklinksIndexResultInfo.md#total_backlinks)
 
-#### Source
+#### Defined in
 
-main.ts:139832
+main.ts:141658
 
 ***
 
 ### total\_domains?
 
-> **`optional`** **total\_domains**: `number`
+> `optional` **total\_domains**: `number`
 
 total number of domains our database contains for the moment of checking
 
@@ -76,15 +76,15 @@ total number of domains our database contains for the moment of checking
 
 [`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md).[`total_domains`](../interfaces/IBacklinksIndexResultInfo.md#total_domains)
 
-#### Source
+#### Defined in
 
-main.ts:139836
+main.ts:141662
 
 ***
 
 ### total\_pages?
 
-> **`optional`** **total\_pages**: `number`
+> `optional` **total\_pages**: `number`
 
 total number of pages our database contains for the moment of checking
 
@@ -92,9 +92,9 @@ total number of pages our database contains for the moment of checking
 
 [`IBacklinksIndexResultInfo`](../interfaces/IBacklinksIndexResultInfo.md).[`total_pages`](../interfaces/IBacklinksIndexResultInfo.md#total_pages)
 
-#### Source
+#### Defined in
 
-main.ts:139834
+main.ts:141660
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:139834
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:139851
+main.ts:141677
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:139851
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:139875
+main.ts:141701
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:139875
 
 [`BacklinksIndexResultInfo`](BacklinksIndexResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:139868
+main.ts:141694

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new ProductInformationVideoRow(data)
+### new ProductInformationVideoRow()
 
 > **new ProductInformationVideoRow**(`data`?): [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`constructor`](BaseProductInformationRowItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:185274
+main.ts:187106
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`_discriminator`](BaseProductInformationRowItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:22917
+main.ts:23099
 
 ***
 
 ### preview?
 
-> **`optional`** **preview**: `string`
+> `optional` **preview**: `string`
 
 URL of the preview image for the related video
 
@@ -66,15 +66,15 @@ URL of the preview image for the related video
 
 [`IProductInformationVideoRow`](../interfaces/IProductInformationVideoRow.md).[`preview`](../interfaces/IProductInformationVideoRow.md#preview)
 
-#### Source
+#### Defined in
 
-main.ts:185268
+main.ts:187100
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the image
 
@@ -82,9 +82,9 @@ URL of the image
 
 [`IProductInformationVideoRow`](../interfaces/IProductInformationVideoRow.md).[`url`](../interfaces/IProductInformationVideoRow.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:185270
+main.ts:187102
 
 ## Methods
 
@@ -104,9 +104,9 @@ main.ts:185270
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`init`](BaseProductInformationRowItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:185279
+main.ts:187111
 
 ***
 
@@ -126,15 +126,15 @@ main.ts:185279
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`toJSON`](BaseProductInformationRowItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:185298
+main.ts:187130
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
+> `static` **fromJS**(`data`): [`ProductInformationVideoRow`](ProductInformationVideoRow.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:185298
 
 [`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`fromJS`](BaseProductInformationRowItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:185291
+main.ts:187123

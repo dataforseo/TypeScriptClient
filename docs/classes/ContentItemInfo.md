@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentItemInfo(data)
+### new ContentItemInfo()
 
 > **new ContentItemInfo**(`data`?): [`ContentItemInfo`](ContentItemInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentItemInfo`](ContentItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163513
+main.ts:165345
 
 ## Properties
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 content text
 
@@ -44,15 +44,15 @@ content text
 
 [`IContentItemInfo`](../interfaces/IContentItemInfo.md).[`text`](../interfaces/IContentItemInfo.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:163504
+main.ts:165336
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page URL
 displayed in case the text is a link anchor
@@ -61,15 +61,15 @@ displayed in case the text is a link anchor
 
 [`IContentItemInfo`](../interfaces/IContentItemInfo.md).[`url`](../interfaces/IContentItemInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:163507
+main.ts:165339
 
 ***
 
 ### urls?
 
-> **`optional`** **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
+> `optional` **urls**: [`ContentUrlInfo`](ContentUrlInfo.md)[]
 
 contains other URLs and anchors found in the content element
 
@@ -77,9 +77,9 @@ contains other URLs and anchors found in the content element
 
 [`IContentItemInfo`](../interfaces/IContentItemInfo.md).[`urls`](../interfaces/IContentItemInfo.md#urls)
 
-#### Source
+#### Defined in
 
-main.ts:163509
+main.ts:165341
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:163509
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163522
+main.ts:165354
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:163522
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163545
+main.ts:165377
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentItemInfo`](ContentItemInfo.md)
+> `static` **fromJS**(`data`): [`ContentItemInfo`](ContentItemInfo.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:163545
 
 [`ContentItemInfo`](ContentItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163538
+main.ts:165370

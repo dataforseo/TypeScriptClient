@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### body?
 
-> **`optional`** **body**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
+> `optional` **body**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
 content of the body of the table
 
-#### Source
+#### Defined in
 
-main.ts:163871
+main.ts:165703
 
 ***
 
 ### footer?
 
-> **`optional`** **footer**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
+> `optional` **footer**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
 content of the footer of the table
 
-#### Source
+#### Defined in
 
-main.ts:163873
+main.ts:165705
 
 ***
 
 ### header?
 
-> **`optional`** **header**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
+> `optional` **header**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
 parsed content of the header
 
-#### Source
+#### Defined in
 
-main.ts:163869
+main.ts:165701

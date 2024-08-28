@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TopicListDataItemInfo(data)
+### new TopicListDataItemInfo()
 
 > **new TopicListDataItemInfo**(`data`?): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:127955
+main.ts:127779
 
 ## Properties
 
 ### topic\_id?
 
-> **`optional`** **topic\_id**: `string`
+> `optional` **topic\_id**: `string`
 
 unique topic identifier in Google Trends
 
@@ -44,15 +44,15 @@ unique topic identifier in Google Trends
 
 [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`topic_id`](../interfaces/ITopicListDataItemInfo.md#topic_id)
 
-#### Source
+#### Defined in
 
-main.ts:127943
+main.ts:127767
 
 ***
 
 ### topic\_title?
 
-> **`optional`** **topic\_title**: `string`
+> `optional` **topic\_title**: `string`
 
 title of the topic
 
@@ -60,15 +60,15 @@ title of the topic
 
 [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`topic_title`](../interfaces/ITopicListDataItemInfo.md#topic_title)
 
-#### Source
+#### Defined in
 
-main.ts:127945
+main.ts:127769
 
 ***
 
 ### topic\_type?
 
-> **`optional`** **topic\_type**: `string`
+> `optional` **topic\_type**: `string`
 
 type of the topic
 represents the general type of the topic
@@ -77,15 +77,15 @@ represents the general type of the topic
 
 [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`topic_type`](../interfaces/ITopicListDataItemInfo.md#topic_type)
 
-#### Source
+#### Defined in
 
-main.ts:127948
+main.ts:127772
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `string`
+> `optional` **value**: `string`
 
 search term popularity
 represents the popularity of the topic. Scoring is on a relative scale where a value of 100 is the most commonly searched topic and a value of 50 is a topic searched half as often as the most popular term, and so on.
@@ -94,9 +94,9 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 [`ITopicListDataItemInfo`](../interfaces/ITopicListDataItemInfo.md).[`value`](../interfaces/ITopicListDataItemInfo.md#value)
 
-#### Source
+#### Defined in
 
-main.ts:127951
+main.ts:127775
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:127951
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:127964
+main.ts:127788
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:127964
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:127984
+main.ts:127808
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
+> `static` **fromJS**(`data`): [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:127984
 
 [`TopicListDataItemInfo`](TopicListDataItemInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:127977
+main.ts:127801

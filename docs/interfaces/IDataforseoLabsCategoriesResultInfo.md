@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,19 +14,19 @@
 
 ### category\_code?
 
-> **`optional`** **category\_code**: `number`
+> `optional` **category\_code**: `number`
 
 category code
 
-#### Source
+#### Defined in
 
-main.ts:82681
+main.ts:83277
 
 ***
 
 ### category\_code\_parent?
 
-> **`optional`** **category\_code\_parent**: `number`
+> `optional` **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -39,18 +39,18 @@ corresponds to:
 "category_name": "Apparel"
 "category_code_parent": null
 
-#### Source
+#### Defined in
 
-main.ts:82694
+main.ts:83290
 
 ***
 
 ### category\_name?
 
-> **`optional`** **category\_name**: `string`
+> `optional` **category\_name**: `string`
 
 full name of the category
 
-#### Source
+#### Defined in
 
-main.ts:82683
+main.ts:83279

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TrendsTopicListDataInfo(data)
+### new TrendsTopicListDataInfo()
 
 > **new TrendsTopicListDataInfo**(`data`?): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:128023
+main.ts:127847
 
 ## Properties
 
 ### rising?
 
-> **`optional`** **rising**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
+> `optional` **rising**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
 
 emerging related topics
 represents the list of related topics with the biggest increase in search frequency since the last time period
@@ -45,15 +45,15 @@ represents the list of related topics with the biggest increase in search freque
 
 [`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md).[`rising`](../interfaces/ITrendsTopicListDataInfo.md#rising)
 
-#### Source
+#### Defined in
 
-main.ts:128019
+main.ts:127843
 
 ***
 
 ### top?
 
-> **`optional`** **top**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
+> `optional` **top**: [`TopicListDataItemInfo`](TopicListDataItemInfo.md)[]
 
 the most popular related topics
 represents the list of the most popular related topics
@@ -62,9 +62,9 @@ represents the list of the most popular related topics
 
 [`ITrendsTopicListDataInfo`](../interfaces/ITrendsTopicListDataInfo.md).[`top`](../interfaces/ITrendsTopicListDataInfo.md#top)
 
-#### Source
+#### Defined in
 
-main.ts:128016
+main.ts:127840
 
 ## Methods
 
@@ -80,9 +80,9 @@ main.ts:128016
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:128032
+main.ts:127856
 
 ***
 
@@ -98,15 +98,15 @@ main.ts:128032
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:128058
+main.ts:127882
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
+> `static` **fromJS**(`data`): [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
 #### Parameters
 
@@ -116,6 +116,6 @@ main.ts:128058
 
 [`TrendsTopicListDataInfo`](TrendsTopicListDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:128051
+main.ts:127875

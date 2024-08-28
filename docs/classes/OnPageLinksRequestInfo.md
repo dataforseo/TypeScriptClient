@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageLinksRequestInfo(data)
+### new OnPageLinksRequestInfo()
 
 > **new OnPageLinksRequestInfo**(`data`?): [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:159485
+main.ts:161317
 
 ## Properties
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
@@ -59,15 +59,15 @@ The full list of possible filters is available by this link.
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`filters`](../interfaces/IOnPageLinksRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:159475
+main.ts:161307
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -79,15 +79,15 @@ example:
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`id`](../interfaces/IOnPageLinksRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:159438
+main.ts:161270
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned links
 optional field
@@ -98,15 +98,15 @@ maximum value: 1000
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`limit`](../interfaces/IOnPageLinksRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:159453
+main.ts:161285
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned links
 optional field
@@ -117,15 +117,15 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`offset`](../interfaces/IOnPageLinksRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:159458
+main.ts:161290
 
 ***
 
 ### page\_from?
 
-> **`optional`** **page\_from**: `string`
+> `optional` **page\_from**: `string`
 
 relative page URL
 optional field
@@ -136,15 +136,15 @@ note that in this field you can specify relative URLs only
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`page_from`](../interfaces/IOnPageLinksRequestInfo.md#page_from)
 
-#### Source
+#### Defined in
 
-main.ts:159443
+main.ts:161275
 
 ***
 
 ### page\_to?
 
-> **`optional`** **page\_to**: `string`
+> `optional` **page\_to**: `string`
 
 relative page URL
 optional field
@@ -155,15 +155,15 @@ note that in this field you can specify relative URLs only
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`page_to`](../interfaces/IOnPageLinksRequestInfo.md#page_to)
 
-#### Source
+#### Defined in
 
-main.ts:159448
+main.ts:161280
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -175,9 +175,9 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageLinksRequestInfo`](../interfaces/IOnPageLinksRequestInfo.md).[`tag`](../interfaces/IOnPageLinksRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:159481
+main.ts:161313
 
 ## Methods
 
@@ -193,9 +193,9 @@ main.ts:159481
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:159494
+main.ts:161326
 
 ***
 
@@ -211,15 +211,15 @@ main.ts:159494
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:159521
+main.ts:161353
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
 
 #### Parameters
 
@@ -229,6 +229,6 @@ main.ts:159521
 
 [`OnPageLinksRequestInfo`](OnPageLinksRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:159514
+main.ts:161346

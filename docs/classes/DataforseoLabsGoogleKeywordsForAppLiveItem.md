@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleKeywordsForAppLiveItem(data)
+### new DataforseoLabsGoogleKeywordsForAppLiveItem()
 
 > **new DataforseoLabsGoogleKeywordsForAppLiveItem**(`data`?): [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:114571
+main.ts:115203
 
 ## Properties
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
@@ -44,15 +44,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:114565
+main.ts:115197
 
 ***
 
 ### ranked\_serp\_element?
 
-> **`optional`** **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
+> `optional` **ranked\_serp\_element**: [`AppRankedSerpElementInfo`](AppRankedSerpElementInfo.md)
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -60,15 +60,15 @@ contains data on the domain’s SERP element found for the returned keyword
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveItem.md).[`ranked_serp_element`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveItem.md#ranked_serp_element)
 
-#### Source
+#### Defined in
 
-main.ts:114567
+main.ts:115199
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -76,9 +76,9 @@ search engine type
 
 [`IDataforseoLabsGoogleKeywordsForAppLiveItem`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleKeywordsForAppLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:114563
+main.ts:115195
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:114563
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:114580
+main.ts:115212
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:114580
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:114599
+main.ts:115231
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:114599
 
 [`DataforseoLabsGoogleKeywordsForAppLiveItem`](DataforseoLabsGoogleKeywordsForAppLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:114592
+main.ts:115224

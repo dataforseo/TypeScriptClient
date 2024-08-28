@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataErrorsRequestInfo(data)
+### new BusinessDataErrorsRequestInfo()
 
 > **new BusinessDataErrorsRequestInfo**(`data`?): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:200095
+main.ts:201927
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -49,15 +49,15 @@ example:
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`datetime_from`](../interfaces/IBusinessDataErrorsRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:200084
+main.ts:201916
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -70,15 +70,15 @@ example:
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`datetime_to`](../interfaces/IBusinessDataErrorsRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:200091
+main.ts:201923
 
 ***
 
 ### filtered\_function?
 
-> **`optional`** **filtered\_function**: `string`
+> `optional` **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,15 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`filtered_function`](../interfaces/IBusinessDataErrorsRequestInfo.md#filtered_function)
 
-#### Source
+#### Defined in
 
-main.ts:200077
+main.ts:201909
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +109,15 @@ maximum value: 1000
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`limit`](../interfaces/IBusinessDataErrorsRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:200066
+main.ts:201898
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IBusinessDataErrorsRequestInfo`](../interfaces/IBusinessDataErrorsRequestInfo.md).[`offset`](../interfaces/IBusinessDataErrorsRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:200071
+main.ts:201903
 
 ## Methods
 
@@ -146,9 +146,9 @@ main.ts:200071
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:200104
+main.ts:201936
 
 ***
 
@@ -164,15 +164,15 @@ main.ts:200104
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:200125
+main.ts:201957
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:200125
 
 [`BusinessDataErrorsRequestInfo`](BusinessDataErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:200118
+main.ts:201950

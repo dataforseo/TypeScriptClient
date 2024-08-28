@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkRanksLiveItem(data)
+### new BacklinksBulkRanksLiveItem()
 
 > **new BacklinksBulkRanksLiveItem**(`data`?): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:150385
+main.ts:152211
 
 ## Properties
 
 ### rank?
 
-> **`optional`** **rank**: `number`
+> `optional` **rank**: `number`
 
 rank of the target
 values represent real-time data for the date of the request
@@ -47,15 +47,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md).[`rank`](../interfaces/IBacklinksBulkRanksLiveItem.md#rank)
 
-#### Source
+#### Defined in
 
-main.ts:150381
+main.ts:152207
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain, subdomain or webpage from a POST array
 
@@ -63,9 +63,9 @@ domain, subdomain or webpage from a POST array
 
 [`IBacklinksBulkRanksLiveItem`](../interfaces/IBacklinksBulkRanksLiveItem.md).[`target`](../interfaces/IBacklinksBulkRanksLiveItem.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:150376
+main.ts:152202
 
 ## Methods
 
@@ -81,9 +81,9 @@ main.ts:150376
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:150394
+main.ts:152220
 
 ***
 
@@ -99,15 +99,15 @@ main.ts:150394
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:150412
+main.ts:152238
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
 #### Parameters
 
@@ -117,6 +117,6 @@ main.ts:150412
 
 [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:150405
+main.ts:152231

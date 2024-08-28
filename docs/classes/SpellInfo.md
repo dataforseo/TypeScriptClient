@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SpellInfo(data)
+### new SpellInfo()
 
 > **new SpellInfo**(`data`?): [`SpellInfo`](SpellInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SpellInfo`](SpellInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22989
+main.ts:23171
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
@@ -45,15 +45,15 @@ the results will be provided for the corrected keyword
 
 [`ISpellInfo`](../interfaces/ISpellInfo.md).[`keyword`](../interfaces/ISpellInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:22979
+main.ts:23161
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of autocorrection
 possible values:
@@ -65,9 +65,9 @@ including_results_for
 
 [`ISpellInfo`](../interfaces/ISpellInfo.md).[`type`](../interfaces/ISpellInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:22985
+main.ts:23167
 
 ## Methods
 
@@ -83,9 +83,9 @@ main.ts:22985
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22998
+main.ts:23180
 
 ***
 
@@ -101,15 +101,15 @@ main.ts:22998
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:23016
+main.ts:23198
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SpellInfo`](SpellInfo.md)
+> `static` **fromJS**(`data`): [`SpellInfo`](SpellInfo.md)
 
 #### Parameters
 
@@ -119,6 +119,6 @@ main.ts:23016
 
 [`SpellInfo`](SpellInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:23009
+main.ts:23191

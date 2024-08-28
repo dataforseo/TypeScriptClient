@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -29,15 +29,15 @@ date format: "yyyy-mm-dd"
 example:
 "2021-01-01"
 
-#### Source
+#### Defined in
 
-main.ts:151771
+main.ts:153597
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -45,15 +45,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:151777
+main.ts:153603
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 domains, subdomains or webpages to get new & lost backlinks for
 required field
@@ -74,6 +74,6 @@ example:
   "www.trustpilot.com"
 ]
 
-#### Source
+#### Defined in
 
-main.ts:151758
+main.ts:153584

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new ShoppingSpecificationMerchantSerpElementItem(data)
+### new ShoppingSpecificationMerchantSerpElementItem()
 
 > **new ShoppingSpecificationMerchantSerpElementItem**(`data`?): [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`constructor`](BaseMerchantSerpElementItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:179892
+main.ts:181724
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`_discriminator`](BaseMerchantSerpElementItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:20843
+main.ts:21025
 
 ***
 
 ### block\_name?
 
-> **`optional`** **block\_name**: `string`
+> `optional` **block\_name**: `string`
 
 name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed
@@ -67,15 +67,15 @@ indicates the name of the product specification section in which the related ele
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`block_name`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#block_name)
 
-#### Source
+#### Defined in
 
-main.ts:179883
+main.ts:181715
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 alignment of the element on the product specification page
 can take the following values:
@@ -85,15 +85,15 @@ right
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`position`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#position)
 
-#### Source
+#### Defined in
 
-main.ts:179878
+main.ts:181710
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank on the product specification page
 absolute position among all the elements found on the product specification page
@@ -102,15 +102,15 @@ absolute position among all the elements found on the product specification page
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#rank_absolute)
 
-#### Source
+#### Defined in
 
-main.ts:179874
+main.ts:181706
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
@@ -119,15 +119,15 @@ positions of elements with different type values are omitted from rank_group
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`rank_group`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#rank_group)
 
-#### Source
+#### Defined in
 
-main.ts:179871
+main.ts:181703
 
 ***
 
 ### specification\_name?
 
-> **`optional`** **specification\_name**: `string`
+> `optional` **specification\_name**: `string`
 
 product attribute
 attribute name of the product data specification
@@ -136,15 +136,15 @@ attribute name of the product data specification
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`specification_name`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#specification_name)
 
-#### Source
+#### Defined in
 
-main.ts:179886
+main.ts:181718
 
 ***
 
 ### specification\_value?
 
-> **`optional`** **specification\_value**: `string`
+> `optional` **specification\_value**: `string`
 
 content of the specification
 
@@ -152,15 +152,15 @@ content of the specification
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`specification_value`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#specification_value)
 
-#### Source
+#### Defined in
 
-main.ts:179888
+main.ts:181720
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 XPath of the element
 
@@ -168,9 +168,9 @@ XPath of the element
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`xpath`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:179880
+main.ts:181712
 
 ## Methods
 
@@ -190,9 +190,9 @@ main.ts:179880
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`init`](BaseMerchantSerpElementItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:179897
+main.ts:181729
 
 ***
 
@@ -212,15 +212,15 @@ main.ts:179897
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`toJSON`](BaseMerchantSerpElementItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:179921
+main.ts:181753
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
+> `static` **fromJS**(`data`): [`ShoppingSpecificationMerchantSerpElementItem`](ShoppingSpecificationMerchantSerpElementItem.md)
 
 #### Parameters
 
@@ -234,6 +234,6 @@ main.ts:179921
 
 [`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`fromJS`](BaseMerchantSerpElementItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:179914
+main.ts:181746

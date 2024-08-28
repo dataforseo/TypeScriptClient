@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new WorkHours(data)
+### new WorkHours()
 
 > **new WorkHours**(`data`?): [`WorkHours`](WorkHours.md)
 
@@ -28,15 +28,15 @@
 
 [`WorkHours`](WorkHours.md)
 
-#### Source
+#### Defined in
 
-main.ts:40974
+main.ts:41500
 
 ## Properties
 
 ### current\_status?
 
-> **`optional`** **current\_status**: `string`
+> `optional` **current\_status**: `string`
 
 current status of the establishment
 indicates whether the establishment is opened or closed
@@ -45,19 +45,19 @@ indicates whether the establishment is opened or closed
 
 [`IWorkHours`](../interfaces/IWorkHours.md).[`current_status`](../interfaces/IWorkHours.md#current_status)
 
-#### Source
+#### Defined in
 
-main.ts:40970
+main.ts:41496
 
 ***
 
 ### timetable?
 
-> **`optional`** **timetable**: `Object`
+> `optional` **timetable**: `object`
 
 work hours timetable
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: ([`WorkDayInfo`](WorkDayInfo.md) \| `undefined`)[]
 
@@ -65,9 +65,9 @@ work hours timetable
 
 [`IWorkHours`](../interfaces/IWorkHours.md).[`timetable`](../interfaces/IWorkHours.md#timetable)
 
-#### Source
+#### Defined in
 
-main.ts:40967
+main.ts:41493
 
 ## Methods
 
@@ -83,9 +83,9 @@ main.ts:40967
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:40983
+main.ts:41509
 
 ***
 
@@ -101,15 +101,15 @@ main.ts:40983
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:41007
+main.ts:41533
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`WorkHours`](WorkHours.md)
+> `static` **fromJS**(`data`): [`WorkHours`](WorkHours.md)
 
 #### Parameters
 
@@ -119,6 +119,6 @@ main.ts:41007
 
 [`WorkHours`](WorkHours.md)
 
-#### Source
+#### Defined in
 
-main.ts:41000
+main.ts:41526

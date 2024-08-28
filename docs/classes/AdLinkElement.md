@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AdLinkElement(data)
+### new AdLinkElement()
 
 > **new AdLinkElement**(`data`?): [`AdLinkElement`](AdLinkElement.md)
 
@@ -28,15 +28,15 @@
 
 [`AdLinkElement`](AdLinkElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:29273
+main.ts:29455
 
 ## Properties
 
 ### ad\_aclk?
 
-> **`optional`** **ad\_aclk**: `string`
+> `optional` **ad\_aclk**: `string`
 
 the identifier of the ad
 
@@ -44,15 +44,15 @@ the identifier of the ad
 
 [`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`ad_aclk`](../interfaces/IAdLinkElement.md#ad_aclk)
 
-#### Source
+#### Defined in
 
-main.ts:29269
+main.ts:29451
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the results element in SERP
 
@@ -60,15 +60,15 @@ description of the results element in SERP
 
 [`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`description`](../interfaces/IAdLinkElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:29263
+main.ts:29445
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain where a link points
 
@@ -76,15 +76,15 @@ domain where a link points
 
 [`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`domain`](../interfaces/IAdLinkElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:29267
+main.ts:29449
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 
@@ -92,15 +92,15 @@ title of the element
 
 [`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`title`](../interfaces/IAdLinkElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:29261
+main.ts:29443
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -108,15 +108,15 @@ type of element
 
 [`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`type`](../interfaces/IAdLinkElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:29259
+main.ts:29441
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -124,9 +124,9 @@ URL
 
 [`IAdLinkElement`](../interfaces/IAdLinkElement.md).[`url`](../interfaces/IAdLinkElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:29265
+main.ts:29447
 
 ## Methods
 
@@ -142,9 +142,9 @@ main.ts:29265
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:29282
+main.ts:29464
 
 ***
 
@@ -160,15 +160,15 @@ main.ts:29282
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:29304
+main.ts:29486
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AdLinkElement`](AdLinkElement.md)
+> `static` **fromJS**(`data`): [`AdLinkElement`](AdLinkElement.md)
 
 #### Parameters
 
@@ -178,6 +178,6 @@ main.ts:29304
 
 [`AdLinkElement`](AdLinkElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:29297
+main.ts:29479

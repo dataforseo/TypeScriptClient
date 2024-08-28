@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RankedSerpElement(data)
+### new RankedSerpElement()
 
 > **new RankedSerpElement**(`data`?): [`RankedSerpElement`](RankedSerpElement.md)
 
@@ -28,15 +28,15 @@
 
 [`RankedSerpElement`](RankedSerpElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:92407
+main.ts:92957
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,15 @@ you can use it to make sure that we provided accurate results
 
 [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md).[`check_url`](../interfaces/IRankedSerpElement.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:92377
+main.ts:92927
 
 ***
 
 ### is\_lost?
 
-> **`optional`** **is\_lost**: `boolean`
+> `optional` **is\_lost**: `boolean`
 
 lost ranked elements
 indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check
@@ -62,15 +62,15 @@ indicates how many ranked elements of this domain were previously presented in S
 
 [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md).[`is_lost`](../interfaces/IRankedSerpElement.md#is_lost)
 
-#### Source
+#### Defined in
 
-main.ts:92393
+main.ts:92943
 
 ***
 
 ### keyword\_difficulty?
 
-> **`optional`** **keyword\_difficulty**: `number`
+> `optional` **keyword\_difficulty**: `number`
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -81,17 +81,17 @@ learn more about the metric in this help center guide
 
 [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md).[`keyword_difficulty`](../interfaces/IRankedSerpElement.md#keyword_difficulty)
 
-#### Source
+#### Defined in
 
-main.ts:92390
+main.ts:92940
 
 ***
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
-date and time when keyword data was updated
+date and time when search intent data was last updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
@@ -100,15 +100,15 @@ example:
 
 [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md).[`last_updated_time`](../interfaces/IRankedSerpElement.md#last_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:92398
+main.ts:92948
 
 ***
 
 ### previous\_updated\_time?
 
-> **`optional`** **previous\_updated\_time**: `string`
+> `optional` **previous\_updated\_time**: `string`
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -119,15 +119,15 @@ example:
 
 [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md).[`previous_updated_time`](../interfaces/IRankedSerpElement.md#previous_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:92403
+main.ts:92953
 
 ***
 
 ### se\_results\_count?
 
-> **`optional`** **se\_results\_count**: `string`
+> `optional` **se\_results\_count**: `string`
 
 number of search results for the returned keyword
 
@@ -135,15 +135,15 @@ number of search results for the returned keyword
 
 [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md).[`se_results_count`](../interfaces/IRankedSerpElement.md#se_results_count)
 
-#### Source
+#### Defined in
 
-main.ts:92385
+main.ts:92935
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -151,15 +151,15 @@ search engine type
 
 [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md).[`se_type`](../interfaces/IRankedSerpElement.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:92371
+main.ts:92921
 
 ***
 
 ### serp\_item?
 
-> **`optional`** **serp\_item**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> `optional` **serp\_item**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the SERP element
 the list of supported SERP elements can be found below
@@ -168,15 +168,15 @@ the list of supported SERP elements can be found below
 
 [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md).[`serp_item`](../interfaces/IRankedSerpElement.md#serp_item)
 
-#### Source
+#### Defined in
 
-main.ts:92374
+main.ts:92924
 
 ***
 
 ### serp\_item\_types?
 
-> **`optional`** **serp\_item\_types**: `string`[]
+> `optional` **serp\_item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP
@@ -188,9 +188,9 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 [`IRankedSerpElement`](../interfaces/IRankedSerpElement.md).[`serp_item_types`](../interfaces/IRankedSerpElement.md#serp_item_types)
 
-#### Source
+#### Defined in
 
-main.ts:92383
+main.ts:92933
 
 ## Methods
 
@@ -206,9 +206,9 @@ main.ts:92383
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:92416
+main.ts:92966
 
 ***
 
@@ -224,15 +224,15 @@ main.ts:92416
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:92445
+main.ts:92995
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RankedSerpElement`](RankedSerpElement.md)
+> `static` **fromJS**(`data`): [`RankedSerpElement`](RankedSerpElement.md)
 
 #### Parameters
 
@@ -242,6 +242,6 @@ main.ts:92445
 
 [`RankedSerpElement`](RankedSerpElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:92438
+main.ts:92988

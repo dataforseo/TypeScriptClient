@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,63 +14,63 @@
 
 ### fields?
 
-> **`optional`** **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
+> `optional` **fields**: [`MicrodataFieldsInfo`](../classes/MicrodataFieldsInfo.md)[]
 
 microdata fields
 an array of objects containing data fields related to the certain microdata type
 
-#### Source
+#### Defined in
 
-main.ts:162295
+main.ts:164127
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 field name
 name of the data field
 
-#### Source
+#### Defined in
 
-main.ts:162283
+main.ts:164115
 
 ***
 
 ### test\_results?
 
-> **`optional`** **test\_results**: `any`
+> `optional` **test\_results**: `any`
 
 microdata validation test results
 sub-type microdata test results that contain detected errors and related messages
 
-#### Source
+#### Defined in
 
-main.ts:162292
+main.ts:164124
 
 ***
 
 ### types?
 
-> **`optional`** **types**: `any`
+> `optional` **types**: `any`
 
 parent microdata types
 for a full list of available types, please visit schema.org
 
-#### Source
+#### Defined in
 
-main.ts:162286
+main.ts:164118
 
 ***
 
 ### value?
 
-> **`optional`** **value**: `string`
+> `optional` **value**: `string`
 
 microdata value
 microdata value specified on a target web page
 
-#### Source
+#### Defined in
 
-main.ts:162289
+main.ts:164121

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixSerpPriceData(data)
+### new AppendixSerpPriceData()
 
 > **new AppendixSerpPriceData**(`data`?): [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
 
@@ -28,149 +28,149 @@
 
 [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:222528
+main.ts:226800
 
 ## Properties
 
 ### errors?
 
-> **`optional`** **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **errors**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`errors`](../interfaces/IAppendixSerpPriceData.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:222516
+main.ts:226788
 
 ***
 
 ### jobs?
 
-> **`optional`** **jobs**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
+> `optional` **jobs**: [`AppendixKeywordsDataPriceDataInfo`](AppendixKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`jobs`](../interfaces/IAppendixSerpPriceData.md#jobs)
 
-#### Source
+#### Defined in
 
-main.ts:222517
+main.ts:226789
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **languages**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`languages`](../interfaces/IAppendixSerpPriceData.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:222518
+main.ts:226790
 
 ***
 
 ### live?
 
-> **`optional`** **live**: [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
+> `optional` **live**: [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`live`](../interfaces/IAppendixSerpPriceData.md#live)
 
-#### Source
+#### Defined in
 
-main.ts:222519
+main.ts:226791
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **locations**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`locations`](../interfaces/IAppendixSerpPriceData.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:222520
+main.ts:226792
 
 ***
 
 ### screenshot?
 
-> **`optional`** **screenshot**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **screenshot**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`screenshot`](../interfaces/IAppendixSerpPriceData.md#screenshot)
 
-#### Source
+#### Defined in
 
-main.ts:222521
+main.ts:226793
 
 ***
 
 ### task\_get?
 
-> **`optional`** **task\_get**: [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
+> `optional` **task\_get**: [`AppendixSerpPriceDataInfo`](AppendixSerpPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`task_get`](../interfaces/IAppendixSerpPriceData.md#task_get)
 
-#### Source
+#### Defined in
 
-main.ts:222522
+main.ts:226794
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`task_post`](../interfaces/IAppendixSerpPriceData.md#task_post)
 
-#### Source
+#### Defined in
 
-main.ts:222523
+main.ts:226795
 
 ***
 
 ### tasks\_fixed?
 
-> **`optional`** **tasks\_fixed**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **tasks\_fixed**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`tasks_fixed`](../interfaces/IAppendixSerpPriceData.md#tasks_fixed)
 
-#### Source
+#### Defined in
 
-main.ts:222515
+main.ts:226787
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixSerpPriceData`](../interfaces/IAppendixSerpPriceData.md).[`tasks_ready`](../interfaces/IAppendixSerpPriceData.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:222524
+main.ts:226796
 
 ## Methods
 
@@ -186,9 +186,9 @@ main.ts:222524
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:222537
+main.ts:226809
 
 ***
 
@@ -204,15 +204,15 @@ main.ts:222537
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:222563
+main.ts:226835
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
+> `static` **fromJS**(`data`): [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
 
 #### Parameters
 
@@ -222,6 +222,6 @@ main.ts:222563
 
 [`AppendixSerpPriceData`](AppendixSerpPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:222556
+main.ts:226828

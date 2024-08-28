@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationTextSummaryLiveRequestInfo(data)
+### new ContentGenerationTextSummaryLiveRequestInfo()
 
 > **new ContentGenerationTextSummaryLiveRequestInfo**(`data`?): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:174058
+main.ts:175890
 
 ## Properties
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -47,15 +47,15 @@ default value: 10
 
 [`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`internal_list_limit`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#internal_list_limit)
 
-#### Source
+#### Defined in
 
-main.ts:174048
+main.ts:175880
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 code of the text language
 required field if you do not specify language_name
@@ -65,15 +65,15 @@ see the List of Languages for Content Generation Text Summary API
 
 [`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`language_code`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:174043
+main.ts:175875
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 name of the text language
 required field if you do not specify language_code
@@ -83,15 +83,15 @@ see the List of Languages for Content Generation Text Summary API
 
 [`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`language_name`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:174039
+main.ts:175871
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -103,15 +103,15 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:174054
+main.ts:175886
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 target text
 required field
@@ -122,9 +122,9 @@ learn more about tokens on our help center
 
 [`IContentGenerationTextSummaryLiveRequestInfo`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md).[`text`](../interfaces/IContentGenerationTextSummaryLiveRequestInfo.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:174035
+main.ts:175867
 
 ## Methods
 
@@ -140,9 +140,9 @@ main.ts:174035
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:174067
+main.ts:175899
 
 ***
 
@@ -158,15 +158,15 @@ main.ts:174067
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:174088
+main.ts:175920
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
 #### Parameters
 
@@ -176,6 +176,6 @@ main.ts:174088
 
 [`ContentGenerationTextSummaryLiveRequestInfo`](ContentGenerationTextSummaryLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:174081
+main.ts:175913

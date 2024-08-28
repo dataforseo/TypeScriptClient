@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,88 +18,88 @@
 
 ### block\_name?
 
-> **`optional`** **block\_name**: `string`
+> `optional` **block\_name**: `string`
 
 name of the block of product attributes
 indicates the name of the product specification section in which the related element is listed
 
-#### Source
+#### Defined in
 
-main.ts:179954
+main.ts:181786
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 alignment of the element on the product specification page
 can take the following values:
 right
 
-#### Source
+#### Defined in
 
-main.ts:179949
+main.ts:181781
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank on the product specification page
 absolute position among all the elements found on the product specification page
 
-#### Source
+#### Defined in
 
-main.ts:179945
+main.ts:181777
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:179942
+main.ts:181774
 
 ***
 
 ### specification\_name?
 
-> **`optional`** **specification\_name**: `string`
+> `optional` **specification\_name**: `string`
 
 product attribute
 attribute name of the product data specification
 
-#### Source
+#### Defined in
 
-main.ts:179957
+main.ts:181789
 
 ***
 
 ### specification\_value?
 
-> **`optional`** **specification\_value**: `string`
+> `optional` **specification\_value**: `string`
 
 content of the specification
 
-#### Source
+#### Defined in
 
-main.ts:179959
+main.ts:181791
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:179951
+main.ts:181783

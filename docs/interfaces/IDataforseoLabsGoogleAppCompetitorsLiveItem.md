@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,89 +14,89 @@
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the competitor app
 
-#### Source
+#### Defined in
 
-main.ts:115217
+main.ts:115849
 
 ***
 
 ### avg\_position?
 
-> **`optional`** **avg\_position**: `number`
+> `optional` **avg\_position**: `number`
 
 average position of the app in Google Play SERP
 Note: average position is calculated for intersected keywords only;
 the value for a given application may differ when combined with different target applications
 
-#### Source
+#### Defined in
 
-main.ts:115221
+main.ts:115853
 
 ***
 
 ### competitor\_metrics?
 
-> **`optional`** **competitor\_metrics**: [`GooglePlayMetricsBundleInfo`](../classes/GooglePlayMetricsBundleInfo.md)
+> `optional` **competitor\_metrics**: [`GooglePlayMetricsBundleInfo`](../classes/GooglePlayMetricsBundleInfo.md)
 
 metrics for intersecting keywords
 ranking data relevant to the keywords that the provided competitor application shares with the app in a POST request;
 note: in this array ranking data is provided for the returned competitor’s app_id
 
-#### Source
+#### Defined in
 
-main.ts:115231
+main.ts:115863
 
 ***
 
 ### full\_metrics?
 
-> **`optional`** **full\_metrics**: [`GooglePlayMetricsBundleInfo`](../classes/GooglePlayMetricsBundleInfo.md)
+> `optional` **full\_metrics**: [`GooglePlayMetricsBundleInfo`](../classes/GooglePlayMetricsBundleInfo.md)
 
 metrics for all keywords of the application
 full overview of ranking data relevant to all keywords that the provided app_id is ranking for
 
-#### Source
+#### Defined in
 
-main.ts:115234
+main.ts:115866
 
 ***
 
 ### intersections?
 
-> **`optional`** **intersections**: `number`
+> `optional` **intersections**: `number`
 
 number of intersecting keywords
 
-#### Source
+#### Defined in
 
-main.ts:115227
+main.ts:115859
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:115215
+main.ts:115847
 
 ***
 
 ### sum\_position?
 
-> **`optional`** **sum\_position**: `number`
+> `optional` **sum\_position**: `number`
 
 sum of all app positions in Google Play SERP
 Note: sum position is calculated for intersected keywords only;
 the value for a given application may differ when combined with different target applications
 
-#### Source
+#### Defined in
 
-main.ts:115225
+main.ts:115857

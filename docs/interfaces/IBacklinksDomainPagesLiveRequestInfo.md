@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### backlinks\_filters?
 
-> **`optional`** **backlinks\_filters**: `any`[]
+> `optional` **backlinks\_filters**: `any`[]
 
 filter the backlinks of your target
 optional field
@@ -24,15 +24,15 @@ using this parameter, you can include only dofollow backlinks in the response an
 example:
 "backlinks_filters": ["dofollow", "=", true]
 
-#### Source
+#### Defined in
 
-main.ts:143570
+main.ts:145396
 
 ***
 
 ### backlinks\_status\_type?
 
-> **`optional`** **backlinks\_status\_type**: `string`
+> `optional` **backlinks\_status\_type**: `string`
 
 set what backlinks to return and count
 optional field
@@ -43,15 +43,15 @@ live – backlinks found during the last check will be returned and counted;
 lost – lost backlinks will be returned and counted;
 default value: live
 
-#### Source
+#### Defined in
 
-main.ts:143531
+main.ts:145357
 
 ***
 
 ### exclude\_internal\_backlinks?
 
-> **`optional`** **exclude\_internal\_backlinks**: `boolean`
+> `optional` **exclude\_internal\_backlinks**: `boolean`
 
 indicates if internal backlinks from subdomains to the target will be excluded from the results
 optional field
@@ -59,25 +59,25 @@ if set to true, the results will not include data on internal backlinks from sub
 if set to false, internal links will be included in the results
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:143581
+main.ts:145407
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-regex, not_regex, =, `<>`, in, not_in, like, not_like, ilike, not_ilike
+regex, not_regex, =, <>, in, not_in, like, not_like, ilike, not_ilike
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
-["meta.internal_links_count",">`","1"]
+["meta.internal_links_count",">","1"]
 [["meta.external_links_count",">","2"],
 "and",
 ["backlinks",">","10"]]
@@ -86,30 +86,30 @@ example:
 [["title","like","%seo%"],"or",["referring_domains",">","10"]]]
 The full list of possible filters is available here.
 
-#### Source
+#### Defined in
 
-main.ts:143548
+main.ts:145374
 
 ***
 
 ### include\_subdomains?
 
-> **`optional`** **include\_subdomains**: `boolean`
+> `optional` **include\_subdomains**: `boolean`
 
 indicates if the subdomains of the target will be included in the search
 optional field
 if set to false, the subdomains will be ignored
 default value: true
 
-#### Source
+#### Defined in
 
-main.ts:143575
+main.ts:145401
 
 ***
 
 ### internal\_list\_limit?
 
-> **`optional`** **internal\_list\_limit**: `number`
+> `optional` **internal\_list\_limit**: `number`
 
 maximum number of elements within internal arrays
 optional field
@@ -122,45 +122,45 @@ referring_links_semantic_locations
 default value: 10
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:143522
+main.ts:145348
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned pages
 optional field
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:143506
+main.ts:145332
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned pages
 optional field
 default value: 0
 if you specify the 10 value, the first ten pages in the results array will be omitted and the data will be provided for the successive pages
 
-#### Source
+#### Defined in
 
-main.ts:143511
+main.ts:145337
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -176,15 +176,15 @@ you should use a comma to separate several sorting rules
 example:
 ["page_summary.backlinks,desc","page_summary.rank,asc"]
 
-#### Source
+#### Defined in
 
-main.ts:143562
+main.ts:145388
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -192,15 +192,15 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:143587
+main.ts:145413
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 domain or subdomain
 required field
@@ -208,6 +208,6 @@ a domain or a subdomain should be specified without https:// and www.
 example:
 forbes.com
 
-#### Source
+#### Defined in
 
-main.ts:143501
+main.ts:145327

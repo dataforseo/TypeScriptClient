@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixDataforseoTrendsKeywordsDataPriceData(data)
+### new AppendixDataforseoTrendsKeywordsDataPriceData()
 
 > **new AppendixDataforseoTrendsKeywordsDataPriceData**(`data`?): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
@@ -28,65 +28,65 @@
 
 [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221782
+main.ts:226054
 
 ## Properties
 
 ### demography?
 
-> **`optional`** **demography**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **demography**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[`demography`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#demography)
 
-#### Source
+#### Defined in
 
-main.ts:221775
+main.ts:226047
 
 ***
 
 ### explore?
 
-> **`optional`** **explore**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **explore**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[`explore`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#explore)
 
-#### Source
+#### Defined in
 
-main.ts:221776
+main.ts:226048
 
 ***
 
 ### merged\_data?
 
-> **`optional`** **merged\_data**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **merged\_data**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[`merged_data`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#merged_data)
 
-#### Source
+#### Defined in
 
-main.ts:221777
+main.ts:226049
 
 ***
 
 ### subregion\_interests?
 
-> **`optional`** **subregion\_interests**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
+> `optional` **subregion\_interests**: [`AppendixKeywordBingKeywordsDataPriceDataInfo`](AppendixKeywordBingKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixDataforseoTrendsKeywordsDataPriceData`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md).[`subregion_interests`](../interfaces/IAppendixDataforseoTrendsKeywordsDataPriceData.md#subregion_interests)
 
-#### Source
+#### Defined in
 
-main.ts:221778
+main.ts:226050
 
 ## Methods
 
@@ -102,9 +102,9 @@ main.ts:221778
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:221791
+main.ts:226063
 
 ***
 
@@ -120,15 +120,15 @@ main.ts:221791
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221811
+main.ts:226083
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
+> `static` **fromJS**(`data`): [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
 #### Parameters
 
@@ -138,6 +138,6 @@ main.ts:221811
 
 [`AppendixDataforseoTrendsKeywordsDataPriceData`](AppendixDataforseoTrendsKeywordsDataPriceData.md)
 
-#### Source
+#### Defined in
 
-main.ts:221804
+main.ts:226076

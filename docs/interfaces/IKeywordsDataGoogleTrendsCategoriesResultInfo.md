@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,19 +14,19 @@
 
 ### category\_code?
 
-> **`optional`** **category\_code**: `number`
+> `optional` **category\_code**: `number`
 
 unique google trends category identifier
 
-#### Source
+#### Defined in
 
-main.ts:125952
+main.ts:125798
 
 ***
 
 ### category\_code\_parent?
 
-> **`optional`** **category\_code\_parent**: `number`
+> `optional` **category\_code\_parent**: `number`
 
 the code of the superordinate category
 example:
@@ -37,18 +37,18 @@ where category_code_parent corresponds to:
 "category_code": 1097,
 "category_name": "Action & Adventure Films"
 
-#### Source
+#### Defined in
 
-main.ts:125963
+main.ts:125809
 
 ***
 
 ### category\_name?
 
-> **`optional`** **category\_name**: `string`
+> `optional` **category\_name**: `string`
 
 name of the google trends category
 
-#### Source
+#### Defined in
 
-main.ts:125954
+main.ts:125800

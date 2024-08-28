@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new InformationAndTicketsElement(data)
+### new InformationAndTicketsElement()
 
 > **new InformationAndTicketsElement**(`data`?): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:47283
+main.ts:47815
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the element
 
@@ -44,15 +44,15 @@ description of the element
 
 [`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`description`](../interfaces/IInformationAndTicketsElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:47275
+main.ts:47807
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain in SERP
 
@@ -60,15 +60,15 @@ domain in SERP
 
 [`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`domain`](../interfaces/IInformationAndTicketsElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:47279
+main.ts:47811
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 
@@ -76,15 +76,15 @@ title of the element
 
 [`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`title`](../interfaces/IInformationAndTicketsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:47273
+main.ts:47805
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -92,15 +92,15 @@ type of element
 
 [`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`type`](../interfaces/IInformationAndTicketsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:47271
+main.ts:47803
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 relevant URL
 
@@ -108,9 +108,9 @@ relevant URL
 
 [`IInformationAndTicketsElement`](../interfaces/IInformationAndTicketsElement.md).[`url`](../interfaces/IInformationAndTicketsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:47277
+main.ts:47809
 
 ## Methods
 
@@ -126,9 +126,9 @@ main.ts:47277
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:47292
+main.ts:47824
 
 ***
 
@@ -144,15 +144,15 @@ main.ts:47292
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:47313
+main.ts:47845
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
+> `static` **fromJS**(`data`): [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
 #### Parameters
 
@@ -162,6 +162,6 @@ main.ts:47313
 
 [`InformationAndTicketsElement`](InformationAndTicketsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:47306
+main.ts:47838

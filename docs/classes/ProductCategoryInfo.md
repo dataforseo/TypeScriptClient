@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ProductCategoryInfo(data)
+### new ProductCategoryInfo()
 
 > **new ProductCategoryInfo**(`data`?): [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:184420
+main.ts:186252
 
 ## Properties
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 product category name
 
@@ -44,15 +44,15 @@ product category name
 
 [`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md).[`category`](../interfaces/IProductCategoryInfo.md#category)
 
-#### Source
+#### Defined in
 
-main.ts:184413
+main.ts:186245
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon)
@@ -61,9 +61,9 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 [`IProductCategoryInfo`](../interfaces/IProductCategoryInfo.md).[`url`](../interfaces/IProductCategoryInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:184416
+main.ts:186248
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:184416
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:184429
+main.ts:186261
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:184429
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:184447
+main.ts:186279
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ProductCategoryInfo`](ProductCategoryInfo.md)
+> `static` **fromJS**(`data`): [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:184447
 
 [`ProductCategoryInfo`](ProductCategoryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:184440
+main.ts:186272

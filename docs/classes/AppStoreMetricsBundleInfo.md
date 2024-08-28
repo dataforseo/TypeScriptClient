@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppStoreMetricsBundleInfo(data)
+### new AppStoreMetricsBundleInfo()
 
 > **new AppStoreMetricsBundleInfo**(`data`?): [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:117387
+main.ts:118019
 
 ## Properties
 
 ### app\_store\_search\_organic?
 
-> **`optional`** **app\_store\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
+> `optional` **app\_store\_search\_organic**: [`AppMetricsInfo`](AppMetricsInfo.md)
 
 ranking data from App Store organic search
 
@@ -44,9 +44,9 @@ ranking data from App Store organic search
 
 [`IAppStoreMetricsBundleInfo`](../interfaces/IAppStoreMetricsBundleInfo.md).[`app_store_search_organic`](../interfaces/IAppStoreMetricsBundleInfo.md#app_store_search_organic)
 
-#### Source
+#### Defined in
 
-main.ts:117383
+main.ts:118015
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:117383
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:117396
+main.ts:118028
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:117396
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:117413
+main.ts:118045
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
+> `static` **fromJS**(`data`): [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:117413
 
 [`AppStoreMetricsBundleInfo`](AppStoreMetricsBundleInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:117406
+main.ts:118038

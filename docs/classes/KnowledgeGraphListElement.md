@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KnowledgeGraphListElement(data)
+### new KnowledgeGraphListElement()
 
 > **new KnowledgeGraphListElement**(`data`?): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
@@ -28,15 +28,15 @@
 
 [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:27484
+main.ts:27666
 
 ## Properties
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain in SERP
 
@@ -44,15 +44,15 @@ domain in SERP
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`domain`](../interfaces/IKnowledgeGraphListElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:27475
+main.ts:27657
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -61,15 +61,15 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`image_url`](../interfaces/IKnowledgeGraphListElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:27478
+main.ts:27660
 
 ***
 
 ### subtitle?
 
-> **`optional`** **subtitle**: `string`
+> `optional` **subtitle**: `string`
 
 subtitle of the item
 
@@ -77,15 +77,15 @@ subtitle of the item
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`subtitle`](../interfaces/IKnowledgeGraphListElement.md#subtitle)
 
-#### Source
+#### Defined in
 
-main.ts:27471
+main.ts:27653
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 link anchor text
 
@@ -93,15 +93,15 @@ link anchor text
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`title`](../interfaces/IKnowledgeGraphListElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:27469
+main.ts:27651
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -109,15 +109,15 @@ type of element
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`type`](../interfaces/IKnowledgeGraphListElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:27467
+main.ts:27649
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 sitelink URL
 
@@ -125,15 +125,15 @@ sitelink URL
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`url`](../interfaces/IKnowledgeGraphListElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:27473
+main.ts:27655
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -141,9 +141,9 @@ the XPath of the element
 
 [`IKnowledgeGraphListElement`](../interfaces/IKnowledgeGraphListElement.md).[`xpath`](../interfaces/IKnowledgeGraphListElement.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:27480
+main.ts:27662
 
 ## Methods
 
@@ -159,9 +159,9 @@ main.ts:27480
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:27493
+main.ts:27675
 
 ***
 
@@ -177,15 +177,15 @@ main.ts:27493
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:27516
+main.ts:27698
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
+> `static` **fromJS**(`data`): [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
 #### Parameters
 
@@ -195,6 +195,6 @@ main.ts:27516
 
 [`KnowledgeGraphListElement`](KnowledgeGraphListElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:27509
+main.ts:27691

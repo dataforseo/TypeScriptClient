@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AboutThisResultElement(data)
+### new AboutThisResultElement()
 
 > **new AboutThisResultElement**(`data`?): [`AboutThisResultElement`](AboutThisResultElement.md)
 
@@ -28,15 +28,15 @@
 
 [`AboutThisResultElement`](AboutThisResultElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:21728
+main.ts:21910
 
 ## Properties
 
 ### language?
 
-> **`optional`** **language**: `string`
+> `optional` **language**: `string`
 
 the language of the result
 
@@ -44,15 +44,15 @@ the language of the result
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`language`](../interfaces/IAboutThisResultElement.md#language)
 
-#### Source
+#### Defined in
 
-main.ts:21718
+main.ts:21900
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `string`
+> `optional` **location**: `string`
 
 location for which the result is relevant
 
@@ -60,15 +60,15 @@ location for which the result is relevant
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`location`](../interfaces/IAboutThisResultElement.md#location)
 
-#### Source
+#### Defined in
 
-main.ts:21720
+main.ts:21902
 
 ***
 
 ### related\_terms?
 
-> **`optional`** **related\_terms**: `string`[]
+> `optional` **related\_terms**: `string`[]
 
 related search terms that appear in the result
 
@@ -76,15 +76,15 @@ related search terms that appear in the result
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`related_terms`](../interfaces/IAboutThisResultElement.md#related_terms)
 
-#### Source
+#### Defined in
 
-main.ts:21724
+main.ts:21906
 
 ***
 
 ### search\_terms?
 
-> **`optional`** **search\_terms**: `string`[]
+> `optional` **search\_terms**: `string`[]
 
 matching search terms that appear in the result
 
@@ -92,15 +92,15 @@ matching search terms that appear in the result
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`search_terms`](../interfaces/IAboutThisResultElement.md#search_terms)
 
-#### Source
+#### Defined in
 
-main.ts:21722
+main.ts:21904
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of additional information about the result
 
@@ -108,15 +108,15 @@ source of additional information about the result
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`source`](../interfaces/IAboutThisResultElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:21711
+main.ts:21893
 
 ***
 
 ### source\_info?
 
-> **`optional`** **source\_info**: `string`
+> `optional` **source\_info**: `string`
 
 additional information about the result
 description of the website from Wikipedia or another additional context
@@ -125,15 +125,15 @@ description of the website from Wikipedia or another additional context
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`source_info`](../interfaces/IAboutThisResultElement.md#source_info)
 
-#### Source
+#### Defined in
 
-main.ts:21714
+main.ts:21896
 
 ***
 
 ### source\_url?
 
-> **`optional`** **source\_url**: `string`
+> `optional` **source\_url**: `string`
 
 URL to full information from the 'source'
 
@@ -141,15 +141,15 @@ URL to full information from the 'source'
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`source_url`](../interfaces/IAboutThisResultElement.md#source_url)
 
-#### Source
+#### Defined in
 
-main.ts:21716
+main.ts:21898
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -157,15 +157,15 @@ type of element
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`type`](../interfaces/IAboutThisResultElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:21707
+main.ts:21889
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 result’s URL
 
@@ -173,9 +173,9 @@ result’s URL
 
 [`IAboutThisResultElement`](../interfaces/IAboutThisResultElement.md).[`url`](../interfaces/IAboutThisResultElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:21709
+main.ts:21891
 
 ## Methods
 
@@ -191,9 +191,9 @@ main.ts:21709
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21737
+main.ts:21919
 
 ***
 
@@ -209,15 +209,15 @@ main.ts:21737
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21770
+main.ts:21952
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AboutThisResultElement`](AboutThisResultElement.md)
+> `static` **fromJS**(`data`): [`AboutThisResultElement`](AboutThisResultElement.md)
 
 #### Parameters
 
@@ -227,6 +227,6 @@ main.ts:21770
 
 [`AboutThisResultElement`](AboutThisResultElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:21763
+main.ts:21945

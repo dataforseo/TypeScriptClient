@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TwitterElement(data)
+### new TwitterElement()
 
 > **new TwitterElement**(`data`?): [`TwitterElement`](TwitterElement.md)
 
@@ -28,15 +28,15 @@
 
 [`TwitterElement`](TwitterElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:30538
+main.ts:30734
 
 ## Properties
 
 ### date?
 
-> **`optional`** **date**: `string`
+> `optional` **date**: `string`
 
 the date when the page source of the element was published
 
@@ -44,15 +44,15 @@ the date when the page source of the element was published
 
 [`ITwitterElement`](../interfaces/ITwitterElement.md).[`date`](../interfaces/ITwitterElement.md#date)
 
-#### Source
+#### Defined in
 
-main.ts:30527
+main.ts:30723
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -63,15 +63,15 @@ example:
 
 [`ITwitterElement`](../interfaces/ITwitterElement.md).[`timestamp`](../interfaces/ITwitterElement.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:30532
+main.ts:30728
 
 ***
 
 ### tweet?
 
-> **`optional`** **tweet**: `string`
+> `optional` **tweet**: `string`
 
 tweet message
 
@@ -79,15 +79,15 @@ tweet message
 
 [`ITwitterElement`](../interfaces/ITwitterElement.md).[`tweet`](../interfaces/ITwitterElement.md#tweet)
 
-#### Source
+#### Defined in
 
-main.ts:30525
+main.ts:30721
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -95,15 +95,15 @@ type of element
 
 [`ITwitterElement`](../interfaces/ITwitterElement.md).[`type`](../interfaces/ITwitterElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:30523
+main.ts:30719
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -111,9 +111,9 @@ URL
 
 [`ITwitterElement`](../interfaces/ITwitterElement.md).[`url`](../interfaces/ITwitterElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:30534
+main.ts:30730
 
 ## Methods
 
@@ -129,9 +129,9 @@ main.ts:30534
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:30547
+main.ts:30743
 
 ***
 
@@ -147,15 +147,15 @@ main.ts:30547
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:30568
+main.ts:30764
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TwitterElement`](TwitterElement.md)
+> `static` **fromJS**(`data`): [`TwitterElement`](TwitterElement.md)
 
 #### Parameters
 
@@ -165,6 +165,6 @@ main.ts:30568
 
 [`TwitterElement`](TwitterElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:30561
+main.ts:30757

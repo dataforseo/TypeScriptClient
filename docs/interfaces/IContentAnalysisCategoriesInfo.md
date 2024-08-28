@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,18 +14,18 @@
 
 ### category?
 
-> **`optional`** **category**: `number`[]
+> `optional` **category**: `number`[]
 
-#### Source
+#### Defined in
 
-main.ts:22844
+main.ts:23026
 
 ***
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:22845
+main.ts:23027

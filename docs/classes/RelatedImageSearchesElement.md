@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RelatedImageSearchesElement(data)
+### new RelatedImageSearchesElement()
 
 > **new RelatedImageSearchesElement**(`data`?): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:30326
+main.ts:30522
 
 ## Properties
 
 ### alt?
 
-> **`optional`** **alt**: `string`
+> `optional` **alt**: `string`
 
 alt tag of the image
 
@@ -44,15 +44,15 @@ alt tag of the image
 
 [`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`alt`](../interfaces/IRelatedImageSearchesElement.md#alt)
 
-#### Source
+#### Defined in
 
-main.ts:30317
+main.ts:30513
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -61,15 +61,15 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`image_url`](../interfaces/IRelatedImageSearchesElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:30322
+main.ts:30518
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -77,15 +77,15 @@ title of a given link element
 
 [`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`title`](../interfaces/IRelatedImageSearchesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:30315
+main.ts:30511
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -93,15 +93,15 @@ type of element
 
 [`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`type`](../interfaces/IRelatedImageSearchesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:30313
+main.ts:30509
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 relevant URL
 
@@ -109,9 +109,9 @@ relevant URL
 
 [`IRelatedImageSearchesElement`](../interfaces/IRelatedImageSearchesElement.md).[`url`](../interfaces/IRelatedImageSearchesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:30319
+main.ts:30515
 
 ## Methods
 
@@ -127,9 +127,9 @@ main.ts:30319
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:30335
+main.ts:30531
 
 ***
 
@@ -145,15 +145,15 @@ main.ts:30335
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:30356
+main.ts:30552
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
+> `static` **fromJS**(`data`): [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
 #### Parameters
 
@@ -163,6 +163,6 @@ main.ts:30356
 
 [`RelatedImageSearchesElement`](RelatedImageSearchesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:30349
+main.ts:30545

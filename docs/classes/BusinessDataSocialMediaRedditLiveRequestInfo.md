@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataSocialMediaRedditLiveRequestInfo(data)
+### new BusinessDataSocialMediaRedditLiveRequestInfo()
 
 > **new BusinessDataSocialMediaRedditLiveRequestInfo**(`data`?): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218013
+main.ts:219865
 
 ## Properties
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -48,15 +48,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataSocialMediaRedditLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md).[`tag`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:218009
+main.ts:219861
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 target URLs
 required field
@@ -69,9 +69,9 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 [`IBusinessDataSocialMediaRedditLiveRequestInfo`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md).[`targets`](../interfaces/IBusinessDataSocialMediaRedditLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:218003
+main.ts:219855
 
 ## Methods
 
@@ -87,9 +87,9 @@ main.ts:218003
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:218022
+main.ts:219874
 
 ***
 
@@ -105,15 +105,15 @@ main.ts:218022
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:218044
+main.ts:219896
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
 #### Parameters
 
@@ -123,6 +123,6 @@ main.ts:218044
 
 [`BusinessDataSocialMediaRedditLiveRequestInfo`](BusinessDataSocialMediaRedditLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:218037
+main.ts:219889

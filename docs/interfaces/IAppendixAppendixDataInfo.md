@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,38 +14,38 @@
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220791
+main.ts:222699
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `number`
+> `optional` **status**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220793
+main.ts:222700
 
 ***
 
 ### test?
 
-> **`optional`** **test**: `number`
+> `optional` **test**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220792
+main.ts:222701
 
 ***
 
 ### user\_data?
 
-> **`optional`** **user\_data**: `number`
+> `optional` **user\_data**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220790
+main.ts:222698

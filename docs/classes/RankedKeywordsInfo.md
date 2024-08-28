@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RankedKeywordsInfo(data)
+### new RankedKeywordsInfo()
 
 > **new RankedKeywordsInfo**(`data`?): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:141752
+main.ts:143578
 
 ## Properties
 
 ### page\_from\_keywords\_count\_top\_10?
 
-> **`optional`** **page\_from\_keywords\_count\_top\_10**: `number`
+> `optional` **page\_from\_keywords\_count\_top\_10**: `number`
 
 number of keywords for which the page is ranked in top 10 search results
 
@@ -44,15 +44,15 @@ number of keywords for which the page is ranked in top 10 search results
 
 [`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md).[`page_from_keywords_count_top_10`](../interfaces/IRankedKeywordsInfo.md#page_from_keywords_count_top_10)
 
-#### Source
+#### Defined in
 
-main.ts:141746
+main.ts:143572
 
 ***
 
 ### page\_from\_keywords\_count\_top\_100?
 
-> **`optional`** **page\_from\_keywords\_count\_top\_100**: `number`
+> `optional` **page\_from\_keywords\_count\_top\_100**: `number`
 
 number of keywords for which the page is ranked in top 100 search results
 
@@ -60,15 +60,15 @@ number of keywords for which the page is ranked in top 100 search results
 
 [`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md).[`page_from_keywords_count_top_100`](../interfaces/IRankedKeywordsInfo.md#page_from_keywords_count_top_100)
 
-#### Source
+#### Defined in
 
-main.ts:141748
+main.ts:143574
 
 ***
 
 ### page\_from\_keywords\_count\_top\_3?
 
-> **`optional`** **page\_from\_keywords\_count\_top\_3**: `number`
+> `optional` **page\_from\_keywords\_count\_top\_3**: `number`
 
 number of keywords for which the page is ranked in top 3 search results
 
@@ -76,9 +76,9 @@ number of keywords for which the page is ranked in top 3 search results
 
 [`IRankedKeywordsInfo`](../interfaces/IRankedKeywordsInfo.md).[`page_from_keywords_count_top_3`](../interfaces/IRankedKeywordsInfo.md#page_from_keywords_count_top_3)
 
-#### Source
+#### Defined in
 
-main.ts:141744
+main.ts:143570
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:141744
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:141761
+main.ts:143587
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:141761
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:141780
+main.ts:143606
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
+> `static` **fromJS**(`data`): [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:141780
 
 [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:141773
+main.ts:143599

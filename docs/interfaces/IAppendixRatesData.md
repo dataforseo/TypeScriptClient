@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### limits?
 
-> **`optional`** **limits**: [`AppendixLimitsRatesData`](../classes/AppendixLimitsRatesData.md)
+> `optional` **limits**: [`AppendixLimitsRatesData`](../classes/AppendixLimitsRatesData.md)
 
 rate limits for API calls per a certain period of time
 
-#### Source
+#### Defined in
 
-main.ts:221277
+main.ts:224761
 
 ***
 
 ### statistics?
 
-> **`optional`** **statistics**: [`AppendixStatisticsDataInfo`](../classes/AppendixStatisticsDataInfo.md)
+> `optional` **statistics**: [`AppendixStatisticsRatesData`](../classes/AppendixStatisticsRatesData.md)
 
 statisctics for API calls
 
-#### Source
+#### Defined in
 
-main.ts:221279
+main.ts:224763

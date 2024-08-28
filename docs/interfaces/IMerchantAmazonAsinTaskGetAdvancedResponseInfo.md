@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,7 +18,7 @@
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 total tasks cost, USD
 
@@ -26,15 +26,15 @@ total tasks cost, USD
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`cost`](IBaseResponseInfo.md#cost)
 
-#### Source
+#### Defined in
 
-main.ts:23718
+main.ts:23900
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
@@ -43,15 +43,15 @@ you can find the full list of the response codes here
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`status_code`](IBaseResponseInfo.md#status_code)
 
-#### Source
+#### Defined in
 
-main.ts:23711
+main.ts:23893
 
 ***
 
 ### status\_message?
 
-> **`optional`** **status\_message**: `string`
+> `optional` **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
@@ -60,27 +60,27 @@ you can find the full list of general informational messages here
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`status_message`](IBaseResponseInfo.md#status_message)
 
-#### Source
+#### Defined in
 
-main.ts:23714
+main.ts:23896
 
 ***
 
 ### tasks?
 
-> **`optional`** **tasks**: [`MerchantAmazonAsinTaskGetAdvancedTaskInfo`](../classes/MerchantAmazonAsinTaskGetAdvancedTaskInfo.md)[]
+> `optional` **tasks**: [`MerchantAmazonAsinTaskGetAdvancedTaskInfo`](../classes/MerchantAmazonAsinTaskGetAdvancedTaskInfo.md)[]
 
 array of tasks
 
-#### Source
+#### Defined in
 
-main.ts:185370
+main.ts:187202
 
 ***
 
 ### tasks\_count?
 
-> **`optional`** **tasks\_count**: `number`
+> `optional` **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
@@ -88,15 +88,15 @@ the number of tasks in the tasks array
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`tasks_count`](IBaseResponseInfo.md#tasks_count)
 
-#### Source
+#### Defined in
 
-main.ts:23720
+main.ts:23902
 
 ***
 
 ### tasks\_error?
 
-> **`optional`** **tasks\_error**: `number`
+> `optional` **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
@@ -104,15 +104,15 @@ the number of tasks in the tasks array returned with an error
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`tasks_error`](IBaseResponseInfo.md#tasks_error)
 
-#### Source
+#### Defined in
 
-main.ts:23722
+main.ts:23904
 
 ***
 
 ### time?
 
-> **`optional`** **time**: `string`
+> `optional` **time**: `string`
 
 total execution time, seconds
 
@@ -120,15 +120,15 @@ total execution time, seconds
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`time`](IBaseResponseInfo.md#time)
 
-#### Source
+#### Defined in
 
-main.ts:23716
+main.ts:23898
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 the current version of the API
 
@@ -136,6 +136,6 @@ the current version of the API
 
 [`IBaseResponseInfo`](IBaseResponseInfo.md).[`version`](IBaseResponseInfo.md#version)
 
-#### Source
+#### Defined in
 
-main.ts:23708
+main.ts:23890

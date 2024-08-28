@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### pages?
 
-> **`optional`** **pages**: [`Pages`](../classes/Pages.md)[]
+> `optional` **pages**: [`Pages`](../classes/Pages.md)[]
 
 pages with duplicate content
 
-#### Source
+#### Defined in
 
-main.ts:159239
+main.ts:161071
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total count of duplicate pages
 
-#### Source
+#### Defined in
 
-main.ts:159237
+main.ts:161069
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the specified page
 
-#### Source
+#### Defined in
 
-main.ts:159235
+main.ts:161067

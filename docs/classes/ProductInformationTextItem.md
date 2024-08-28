@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new ProductInformationTextItem(data)
+### new ProductInformationTextItem()
 
 > **new ProductInformationTextItem**(`data`?): [`ProductInformationTextItem`](ProductInformationTextItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`constructor`](BaseProductInformationItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:184543
+main.ts:186375
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`_discriminator`](BaseProductInformationItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:22854
+main.ts:23036
 
 ***
 
 ### section\_name?
 
-> **`optional`** **section\_name**: `string`
+> `optional` **section\_name**: `string`
 
 name of the section related to product information specified in the contents
 
@@ -66,15 +66,15 @@ name of the section related to product information specified in the contents
 
 [`IProductInformationTextItem`](../interfaces/IProductInformationTextItem.md).[`section_name`](../interfaces/IProductInformationTextItem.md#section_name)
 
-#### Source
+#### Defined in
 
-main.ts:184537
+main.ts:186369
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 text specified under the given title within the section_name
 
@@ -82,9 +82,9 @@ text specified under the given title within the section_name
 
 [`IProductInformationTextItem`](../interfaces/IProductInformationTextItem.md).[`text`](../interfaces/IProductInformationTextItem.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:184539
+main.ts:186371
 
 ## Methods
 
@@ -104,9 +104,9 @@ main.ts:184539
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`init`](BaseProductInformationItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:184548
+main.ts:186380
 
 ***
 
@@ -126,15 +126,15 @@ main.ts:184548
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`toJSON`](BaseProductInformationItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:184567
+main.ts:186399
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ProductInformationTextItem`](ProductInformationTextItem.md)
+> `static` **fromJS**(`data`): [`ProductInformationTextItem`](ProductInformationTextItem.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:184567
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`fromJS`](BaseProductInformationItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:184560
+main.ts:186392

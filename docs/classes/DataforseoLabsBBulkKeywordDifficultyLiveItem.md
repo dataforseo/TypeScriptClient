@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBBulkKeywordDifficultyLiveItem(data)
+### new DataforseoLabsBBulkKeywordDifficultyLiveItem()
 
 > **new DataforseoLabsBBulkKeywordDifficultyLiveItem**(`data`?): [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:87092
+main.ts:87658
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
@@ -44,15 +44,15 @@ keyword in a POST array
 
 [`IDataforseoLabsBBulkKeywordDifficultyLiveItem`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:87083
+main.ts:87649
 
 ***
 
 ### keyword\_difficulty?
 
-> **`optional`** **keyword\_difficulty**: `number`
+> `optional` **keyword\_difficulty**: `number`
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -63,15 +63,15 @@ learn more about the metric in this help center guide
 
 [`IDataforseoLabsBBulkKeywordDifficultyLiveItem`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md).[`keyword_difficulty`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#keyword_difficulty)
 
-#### Source
+#### Defined in
 
-main.ts:87088
+main.ts:87654
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -79,9 +79,9 @@ search engine type
 
 [`IDataforseoLabsBBulkKeywordDifficultyLiveItem`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsBBulkKeywordDifficultyLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:87081
+main.ts:87647
 
 ## Methods
 
@@ -97,9 +97,9 @@ main.ts:87081
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:87101
+main.ts:87667
 
 ***
 
@@ -115,15 +115,15 @@ main.ts:87101
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:87120
+main.ts:87686
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
 
 #### Parameters
 
@@ -133,6 +133,6 @@ main.ts:87120
 
 [`DataforseoLabsBBulkKeywordDifficultyLiveItem`](DataforseoLabsBBulkKeywordDifficultyLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:87113
+main.ts:87679

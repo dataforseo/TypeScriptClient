@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBingRelatedKeywordsLiveItem(data)
+### new DataforseoLabsBingRelatedKeywordsLiveItem()
 
 > **new DataforseoLabsBingRelatedKeywordsLiveItem**(`data`?): [`DataforseoLabsBingRelatedKeywordsLiveItem`](DataforseoLabsBingRelatedKeywordsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsBingRelatedKeywordsLiveItem`](DataforseoLabsBingRelatedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:111812
+main.ts:112444
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 keyword search depth
 
@@ -44,15 +44,15 @@ keyword search depth
 
 [`IDataforseoLabsBingRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveItem.md).[`depth`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveItem.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:111805
+main.ts:112437
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
@@ -60,15 +60,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsBingRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:111803
+main.ts:112435
 
 ***
 
 ### related\_keywords?
 
-> **`optional`** **related\_keywords**: `string`[]
+> `optional` **related\_keywords**: `string`[]
 
 list of related keywords
 represents the list of search queries which are related to the keyword returned in the array above
@@ -77,15 +77,15 @@ represents the list of search queries which are related to the keyword returned 
 
 [`IDataforseoLabsBingRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveItem.md).[`related_keywords`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveItem.md#related_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:111808
+main.ts:112440
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -93,9 +93,9 @@ search engine type
 
 [`IDataforseoLabsBingRelatedKeywordsLiveItem`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsBingRelatedKeywordsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:111801
+main.ts:112433
 
 ## Methods
 
@@ -111,9 +111,9 @@ main.ts:111801
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:111821
+main.ts:112453
 
 ***
 
@@ -129,15 +129,15 @@ main.ts:111821
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:111845
+main.ts:112477
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveItem`](DataforseoLabsBingRelatedKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBingRelatedKeywordsLiveItem`](DataforseoLabsBingRelatedKeywordsLiveItem.md)
 
 #### Parameters
 
@@ -147,6 +147,6 @@ main.ts:111845
 
 [`DataforseoLabsBingRelatedKeywordsLiveItem`](DataforseoLabsBingRelatedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:111838
+main.ts:112470

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,43 +14,43 @@
 
 ### additional\_specifications?
 
-> **`optional`** **additional\_specifications**: `Object`
+> `optional` **additional\_specifications**: `object`
 
 object containing additional url parameters
 you can get additional information about the product by using the "additional_specifications object, which you can get by making a separate request to the Google Shopping Products endpoint
 example:
-"additional_specifications": \{
+"additional_specifications": {
 "eto": "16157121050167572763_0"
-\}
+}
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
-#### Source
+#### Defined in
 
-main.ts:178117
+main.ts:179949
 
 ***
 
 ### get\_shops\_on\_google?
 
-> **`optional`** **get\_shops\_on\_google**: `boolean`
+> `optional` **get\_shops\_on\_google**: `boolean`
 
 include “buy on Google” shops
 optional field
 if set to true, the response will contain the list of sellers that allow to purchase a given product directly on Google
 Note: if set to true, the cost of a task will be doubled
 
-#### Source
+#### Defined in
 
-main.ts:178110
+main.ts:179942
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -59,15 +59,15 @@ you can receive the list of available Google Shopping languages with their langu
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:178098
+main.ts:179930
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -76,15 +76,15 @@ you can receive the list of available Google Shopping languages with their langu
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:178091
+main.ts:179923
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -93,15 +93,15 @@ you can receive the list of available Google Shopping locations with their locat
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:178075
+main.ts:179907
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -112,15 +112,15 @@ the minimum value for “radius”: 199.9
 example:
 53.476225,-2.243572,200
 
-#### Source
+#### Defined in
 
-main.ts:178084
+main.ts:179916
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -129,15 +129,15 @@ you can receive the list of available Google Shopping locations with their locat
 example:
 London,England,United Kingdom
 
-#### Source
+#### Defined in
 
-main.ts:178068
+main.ts:179900
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -149,15 +149,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:178149
+main.ts:179981
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -165,15 +165,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced, html
 
-#### Source
+#### Defined in
 
-main.ts:178139
+main.ts:179971
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -185,15 +185,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:178133
+main.ts:179965
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -203,15 +203,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Source
+#### Defined in
 
-main.ts:178061
+main.ts:179893
 
 ***
 
 ### product\_id?
 
-> **`optional`** **product\_id**: `string`
+> `optional` **product\_id**: `string`
 
 unique product identifier on Google Shopping
 required field
@@ -221,15 +221,15 @@ example:
 4485466949985702538
 learn more about the parameter in this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:178053
+main.ts:179885
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -238,15 +238,15 @@ however, you can set a custom search engine domain in this field
 example:
 google.co.uk, google.com.au, google.de, etc.
 
-#### Source
+#### Defined in
 
-main.ts:178105
+main.ts:179937
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -254,6 +254,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:178123
+main.ts:179955

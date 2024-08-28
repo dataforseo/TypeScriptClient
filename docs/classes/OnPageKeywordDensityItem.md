@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageKeywordDensityItem(data)
+### new OnPageKeywordDensityItem()
 
 > **new OnPageKeywordDensityItem**(`data`?): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:161804
+main.ts:163636
 
 ## Properties
 
 ### density?
 
-> **`optional`** **density**: `number`
+> `optional` **density**: `number`
 
 keyword density
 calculated as a ratio of frequency to the total count of keywords with the set keyword_length on the web page or website
@@ -45,15 +45,15 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md).[`density`](../interfaces/IOnPageKeywordDensityItem.md#density)
 
-#### Source
+#### Defined in
 
-main.ts:161800
+main.ts:163632
 
 ***
 
 ### frequency?
 
-> **`optional`** **frequency**: `number`
+> `optional` **frequency**: `number`
 
 keyword frequency
 number of times the keyword appears on the website (or webpage if you specified a url)
@@ -62,15 +62,15 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md).[`frequency`](../interfaces/IOnPageKeywordDensityItem.md#frequency)
 
-#### Source
+#### Defined in
 
-main.ts:161797
+main.ts:163629
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 returned keyword
 
@@ -78,9 +78,9 @@ returned keyword
 
 [`IOnPageKeywordDensityItem`](../interfaces/IOnPageKeywordDensityItem.md).[`keyword`](../interfaces/IOnPageKeywordDensityItem.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:161794
+main.ts:163626
 
 ## Methods
 
@@ -96,9 +96,9 @@ main.ts:161794
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:161813
+main.ts:163645
 
 ***
 
@@ -114,15 +114,15 @@ main.ts:161813
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:161832
+main.ts:163664
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
+> `static` **fromJS**(`data`): [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
 #### Parameters
 
@@ -132,6 +132,6 @@ main.ts:161832
 
 [`OnPageKeywordDensityItem`](OnPageKeywordDensityItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:161825
+main.ts:163657

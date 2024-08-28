@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,82 +14,82 @@
 
 ### initial\_text?
 
-> **`optional`** **initial\_text**: `string`
+> `optional` **initial\_text**: `string`
 
 initial text in the POST request
 
-#### Source
+#### Defined in
 
-main.ts:173575
+main.ts:175407
 
 ***
 
 ### input\_tokens?
 
-> **`optional`** **input\_tokens**: `number`
+> `optional` **input\_tokens**: `number`
 
 number of input tokens in the POST request
 
-#### Source
+#### Defined in
 
-main.ts:173569
+main.ts:175401
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`ContentGenerationCheckGrammarLiveItem`](../classes/ContentGenerationCheckGrammarLiveItem.md)[]
+> `optional` **items**: [`ContentGenerationCheckGrammarLiveItem`](../classes/ContentGenerationCheckGrammarLiveItem.md)[]
 
 contains grammar or spelling errors and related data
 
-#### Source
+#### Defined in
 
-main.ts:173581
+main.ts:175413
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:173579
+main.ts:175411
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in the POST request
 
-#### Source
+#### Defined in
 
-main.ts:173577
+main.ts:175409
 
 ***
 
 ### new\_tokens?
 
-> **`optional`** **new\_tokens**: `number`
+> `optional` **new\_tokens**: `number`
 
 number of new tokens in the response
 
-#### Source
+#### Defined in
 
-main.ts:173573
+main.ts:175405
 
 ***
 
 ### output\_tokens?
 
-> **`optional`** **output\_tokens**: `number`
+> `optional` **output\_tokens**: `number`
 
 number of output tokens in the response
 
-#### Source
+#### Defined in
 
-main.ts:173571
+main.ts:175403

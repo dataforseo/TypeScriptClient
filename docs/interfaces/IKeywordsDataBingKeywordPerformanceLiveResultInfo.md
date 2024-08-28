@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,77 +14,77 @@
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:137028
+main.ts:136854
 
 ***
 
 ### keyword\_kpi?
 
-> **`optional`** **keyword\_kpi**: [`KeywordKpi`](../classes/KeywordKpi.md)
+> `optional` **keyword\_kpi**: [`KeywordKpi`](../classes/KeywordKpi.md)
 
 object containing keyword metrics
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:137045
+main.ts:136871
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:137034
+main.ts:136860
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:137031
+main.ts:136857
 
 ***
 
 ### month?
 
-> **`optional`** **month**: `number`
+> `optional` **month**: `number`
 
 indicates the month for which the data is provided for
 example:
 10
 
-#### Source
+#### Defined in
 
-main.ts:137042
+main.ts:136868
 
 ***
 
 ### year?
 
-> **`optional`** **year**: `number`
+> `optional` **year**: `number`
 
 indicates the year for which the data is provided for
 example:
 2020
 
-#### Source
+#### Defined in
 
-main.ts:137038
+main.ts:136864

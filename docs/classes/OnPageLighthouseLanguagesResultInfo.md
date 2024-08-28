@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageLighthouseLanguagesResultInfo(data)
+### new OnPageLighthouseLanguagesResultInfo()
 
 > **new OnPageLighthouseLanguagesResultInfo**(`data`?): [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:165414
+main.ts:167246
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IOnPageLighthouseLanguagesResultInfo`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md).[`language_code`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:165410
+main.ts:167242
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IOnPageLighthouseLanguagesResultInfo`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md).[`language_name`](../interfaces/IOnPageLighthouseLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:165408
+main.ts:167240
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:165408
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:165423
+main.ts:167255
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:165423
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:165441
+main.ts:167273
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:165441
 
 [`OnPageLighthouseLanguagesResultInfo`](OnPageLighthouseLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:165434
+main.ts:167266

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new RefineProductsElement(data)
+### new RefineProductsElement()
 
 > **new RefineProductsElement**(`data`?): [`RefineProductsElement`](RefineProductsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`RefineProductsElement`](RefineProductsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:36761
+main.ts:36957
 
 ## Properties
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
@@ -44,15 +44,15 @@ URL of the image
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`image_url`](../interfaces/IRefineProductsElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:36751
+main.ts:36947
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword for the related refined search
 
@@ -60,15 +60,15 @@ keyword for the related refined search
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`keyword`](../interfaces/IRefineProductsElement.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:36753
+main.ts:36949
 
 ***
 
 ### refine\_type?
 
-> **`optional`** **refine\_type**: `string`
+> `optional` **refine\_type**: `string`
 
 type of search refinement
 
@@ -76,15 +76,15 @@ type of search refinement
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`refine_type`](../interfaces/IRefineProductsElement.md#refine_type)
 
-#### Source
+#### Defined in
 
-main.ts:36755
+main.ts:36951
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -92,15 +92,15 @@ title of a given link element
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`title`](../interfaces/IRefineProductsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:36749
+main.ts:36945
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -108,15 +108,15 @@ type of element
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`type`](../interfaces/IRefineProductsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:36747
+main.ts:36943
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
@@ -124,9 +124,9 @@ the XPath of the element
 
 [`IRefineProductsElement`](../interfaces/IRefineProductsElement.md).[`xpath`](../interfaces/IRefineProductsElement.md#xpath)
 
-#### Source
+#### Defined in
 
-main.ts:36757
+main.ts:36953
 
 ## Methods
 
@@ -142,9 +142,9 @@ main.ts:36757
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:36770
+main.ts:36966
 
 ***
 
@@ -160,15 +160,15 @@ main.ts:36770
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:36792
+main.ts:36988
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RefineProductsElement`](RefineProductsElement.md)
+> `static` **fromJS**(`data`): [`RefineProductsElement`](RefineProductsElement.md)
 
 #### Parameters
 
@@ -178,6 +178,6 @@ main.ts:36792
 
 [`RefineProductsElement`](RefineProductsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:36785
+main.ts:36981

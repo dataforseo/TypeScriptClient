@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpInfo(data)
+### new SerpInfo()
 
 > **new SerpInfo**(`data`?): [`SerpInfo`](SerpInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpInfo`](SerpInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:83970
+main.ts:84524
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,17 +45,17 @@ you can use it to make sure that we provided accurate results
 
 [`ISerpInfo`](../interfaces/ISerpInfo.md).[`check_url`](../interfaces/ISerpInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:83948
+main.ts:84502
 
 ***
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
-date and time when SERP data was updated
+date and time when backlink data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
@@ -64,15 +64,15 @@ example:
 
 [`ISerpInfo`](../interfaces/ISerpInfo.md).[`last_updated_time`](../interfaces/ISerpInfo.md#last_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:83961
+main.ts:84515
 
 ***
 
 ### previous\_updated\_time?
 
-> **`optional`** **previous\_updated\_time**: `string`
+> `optional` **previous\_updated\_time**: `string`
 
 previous to the most recent date and time when SERP data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -83,15 +83,15 @@ example:
 
 [`ISerpInfo`](../interfaces/ISerpInfo.md).[`previous_updated_time`](../interfaces/ISerpInfo.md#previous_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:83966
+main.ts:84520
 
 ***
 
 ### se\_results\_count?
 
-> **`optional`** **se\_results\_count**: `string`
+> `optional` **se\_results\_count**: `string`
 
 number of search results for the returned keyword
 
@@ -99,15 +99,15 @@ number of search results for the returned keyword
 
 [`ISerpInfo`](../interfaces/ISerpInfo.md).[`se_results_count`](../interfaces/ISerpInfo.md#se_results_count)
 
-#### Source
+#### Defined in
 
-main.ts:83956
+main.ts:84510
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -115,15 +115,15 @@ search engine type
 
 [`ISerpInfo`](../interfaces/ISerpInfo.md).[`se_type`](../interfaces/ISerpInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:83945
+main.ts:84499
 
 ***
 
 ### serp\_item\_types?
 
-> **`optional`** **serp\_item\_types**: `string`[]
+> `optional` **serp\_item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP
@@ -135,9 +135,9 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 [`ISerpInfo`](../interfaces/ISerpInfo.md).[`serp_item_types`](../interfaces/ISerpInfo.md#serp_item_types)
 
-#### Source
+#### Defined in
 
-main.ts:83954
+main.ts:84508
 
 ## Methods
 
@@ -153,9 +153,9 @@ main.ts:83954
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:83979
+main.ts:84533
 
 ***
 
@@ -171,15 +171,15 @@ main.ts:83979
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:84005
+main.ts:84559
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpInfo`](SerpInfo.md)
+> `static` **fromJS**(`data`): [`SerpInfo`](SerpInfo.md)
 
 #### Parameters
 
@@ -189,6 +189,6 @@ main.ts:84005
 
 [`SerpInfo`](SerpInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:83998
+main.ts:84552

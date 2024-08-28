@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataErrorsRequestInfo(data)
+### new AppDataErrorsRequestInfo()
 
 > **new AppDataErrorsRequestInfo**(`data`?): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:188689
+main.ts:190521
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -49,15 +49,15 @@ example:
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`datetime_from`](../interfaces/IAppDataErrorsRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:188678
+main.ts:190510
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -70,15 +70,15 @@ example:
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`datetime_to`](../interfaces/IAppDataErrorsRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:188685
+main.ts:190517
 
 ***
 
 ### filtered\_function?
 
-> **`optional`** **filtered\_function**: `string`
+> `optional` **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,15 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`filtered_function`](../interfaces/IAppDataErrorsRequestInfo.md#filtered_function)
 
-#### Source
+#### Defined in
 
-main.ts:188671
+main.ts:190503
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +109,15 @@ maximum value: 1000
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`limit`](../interfaces/IAppDataErrorsRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:188660
+main.ts:190492
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IAppDataErrorsRequestInfo`](../interfaces/IAppDataErrorsRequestInfo.md).[`offset`](../interfaces/IAppDataErrorsRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:188665
+main.ts:190497
 
 ## Methods
 
@@ -146,9 +146,9 @@ main.ts:188665
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:188698
+main.ts:190530
 
 ***
 
@@ -164,15 +164,15 @@ main.ts:188698
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:188719
+main.ts:190551
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:188719
 
 [`AppDataErrorsRequestInfo`](AppDataErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:188712
+main.ts:190544

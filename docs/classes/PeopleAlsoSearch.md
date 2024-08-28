@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PeopleAlsoSearch(data)
+### new PeopleAlsoSearch()
 
 > **new PeopleAlsoSearch**(`data`?): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
@@ -28,15 +28,15 @@
 
 [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
-#### Source
+#### Defined in
 
-main.ts:201268
+main.ts:203100
 
 ## Properties
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 google-defined client id
 unique id of a local establishment
@@ -46,15 +46,15 @@ learn more about the identifier in this help center article
 
 [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`cid`](../interfaces/IPeopleAlsoSearch.md#cid)
 
-#### Source
+#### Defined in
 
-main.ts:201255
+main.ts:203087
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 the unique identifier of the element in SERP
 learn more about the identifier in this help center article
@@ -63,15 +63,15 @@ learn more about the identifier in this help center article
 
 [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`feature_id`](../interfaces/IPeopleAlsoSearch.md#feature_id)
 
-#### Source
+#### Defined in
 
-main.ts:201258
+main.ts:203090
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the element’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -80,15 +80,15 @@ the popularity rate based on reviews and displayed in SERP
 
 [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`rating`](../interfaces/IPeopleAlsoSearch.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:201264
+main.ts:203096
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element in SERP
 the name of the business entity for which the results are collected
@@ -97,9 +97,9 @@ the name of the business entity for which the results are collected
 
 [`IPeopleAlsoSearch`](../interfaces/IPeopleAlsoSearch.md).[`title`](../interfaces/IPeopleAlsoSearch.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:201261
+main.ts:203093
 
 ## Methods
 
@@ -115,9 +115,9 @@ main.ts:201261
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:201277
+main.ts:203109
 
 ***
 
@@ -133,15 +133,15 @@ main.ts:201277
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:201297
+main.ts:203129
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
+> `static` **fromJS**(`data`): [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
 #### Parameters
 
@@ -151,6 +151,6 @@ main.ts:201297
 
 [`PeopleAlsoSearch`](PeopleAlsoSearch.md)
 
-#### Source
+#### Defined in
 
-main.ts:201290
+main.ts:203122

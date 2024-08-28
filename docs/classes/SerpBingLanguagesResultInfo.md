@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpBingLanguagesResultInfo(data)
+### new SerpBingLanguagesResultInfo()
 
 > **new SerpBingLanguagesResultInfo**(`data`?): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:57853
+main.ts:58385
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpBingLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:57849
+main.ts:58381
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`ISerpBingLanguagesResultInfo`](../interfaces/ISerpBingLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpBingLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:57847
+main.ts:58379
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:57847
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:57862
+main.ts:58394
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:57862
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:57880
+main.ts:58412
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:57880
 
 [`SerpBingLanguagesResultInfo`](SerpBingLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:57873
+main.ts:58405

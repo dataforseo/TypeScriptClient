@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksReferringDomainsLiveResultInfo(data)
+### new BacklinksReferringDomainsLiveResultInfo()
 
 > **new BacklinksReferringDomainsLiveResultInfo**(`data`?): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:145872
+main.ts:147698
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksReferringDomainsLiveItem`](BacklinksReferringDomainsLiveItem.md)[]
+> `optional` **items**: [`BacklinksReferringDomainsLiveItem`](BacklinksReferringDomainsLiveItem.md)[]
 
 items array
 
@@ -44,15 +44,15 @@ items array
 
 [`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[`items`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:145868
+main.ts:147694
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the items array
 
@@ -60,15 +60,15 @@ number of items in the items array
 
 [`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:145866
+main.ts:147692
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target in a POST array
 
@@ -76,15 +76,15 @@ target in a POST array
 
 [`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[`target`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:145860
+main.ts:147686
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of relevant items in the database
 total number of main domains referring to your target;
@@ -94,9 +94,9 @@ example.com and blog.example.com are counted as one referring domain
 
 [`IBacklinksReferringDomainsLiveResultInfo`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksReferringDomainsLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:145864
+main.ts:147690
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:145864
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:145881
+main.ts:147707
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:145881
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:145905
+main.ts:147731
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:145905
 
 [`BacklinksReferringDomainsLiveResultInfo`](BacklinksReferringDomainsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:145898
+main.ts:147724

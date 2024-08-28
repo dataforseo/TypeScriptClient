@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo(data)
+### new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo()
 
 > **new DataforseoLabsAmazonProductRankOverviewLiveRequestInfo**(`data`?): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:106163
+main.ts:106793
 
 ## Properties
 
 ### asins?
 
-> **`optional`** **asins**: `string`[]
+> `optional` **asins**: `string`[]
 
 product IDs to compare
 required field
@@ -48,15 +48,15 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 [`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`asins`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#asins)
 
-#### Source
+#### Defined in
 
-main.ts:106123
+main.ts:106753
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if don’t specify language_name
@@ -69,15 +69,15 @@ en
 
 [`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`language_code`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:106153
+main.ts:106783
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if don’t specify language_code
@@ -90,15 +90,15 @@ English
 
 [`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`language_name`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:106146
+main.ts:106776
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if don’t specify location_name
@@ -112,15 +112,15 @@ example:
 
 [`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`location_code`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:106139
+main.ts:106769
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if don’t specify location_code
@@ -134,15 +134,15 @@ United States
 
 [`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`location_name`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:106131
+main.ts:106761
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -154,9 +154,9 @@ you will find the specified tag value in the data object of the response
 
 [`IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md).[`tag`](../interfaces/IDataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:106159
+main.ts:106789
 
 ## Methods
 
@@ -172,9 +172,9 @@ main.ts:106159
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:106172
+main.ts:106802
 
 ***
 
@@ -190,15 +190,15 @@ main.ts:106172
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:106198
+main.ts:106828
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
 #### Parameters
 
@@ -208,6 +208,6 @@ main.ts:106198
 
 [`DataforseoLabsAmazonProductRankOverviewLiveRequestInfo`](DataforseoLabsAmazonProductRankOverviewLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:106191
+main.ts:106821

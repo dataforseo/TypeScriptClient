@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsSerpCompetitorsLiveItem(data)
+### new DataforseoLabsSerpCompetitorsLiveItem()
 
 > **new DataforseoLabsSerpCompetitorsLiveItem**(`data`?): [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:93408
+main.ts:93704
 
 ## Properties
 
 ### avg\_position?
 
-> **`optional`** **avg\_position**: `number`
+> `optional` **avg\_position**: `number`
 
 the average position of the domain for the specified keywords
 the arithmetic mean of values in the keywords_positions array
@@ -45,15 +45,15 @@ the arithmetic mean of values in the keywords_positions array
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`avg_position`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#avg_position)
 
-#### Source
+#### Defined in
 
-main.ts:93378
+main.ts:93674
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain name of the detected SERP competitor
 
@@ -61,15 +61,15 @@ domain name of the detected SERP competitor
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`domain`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:93375
+main.ts:93671
 
 ***
 
 ### etv?
 
-> **`optional`** **etv**: `number`
+> `optional` **etv**: `number`
 
 estimated traffic volume
 represents the estimated monthly traffic that specified keywords are driving to the website
@@ -80,15 +80,15 @@ learn more about how the metric is calculated in this help center article
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`etv`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#etv)
 
-#### Source
+#### Defined in
 
-main.ts:93390
+main.ts:93686
 
 ***
 
 ### keywords\_count?
 
-> **`optional`** **keywords\_count**: `number`
+> `optional` **keywords\_count**: `number`
 
 the number of specified keywords the domain has positions for in SERPs
 
@@ -96,20 +96,20 @@ the number of specified keywords the domain has positions for in SERPs
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`keywords_count`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#keywords_count)
 
-#### Source
+#### Defined in
 
-main.ts:93392
+main.ts:93688
 
 ***
 
 ### keywords\_positions?
 
-> **`optional`** **keywords\_positions**: `Object`
+> `optional` **keywords\_positions**: `object`
 
 keyword positions
 SERP positions the related domain holds in SERP for the specified keywords
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`number` \| `undefined`)[]
 
@@ -117,15 +117,15 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`keywords_positions`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#keywords_positions)
 
-#### Source
+#### Defined in
 
-main.ts:93404
+main.ts:93700
 
 ***
 
 ### median\_position?
 
-> **`optional`** **median\_position**: `number`
+> `optional` **median\_position**: `number`
 
 the median position of the domain for the specified keywords
 the median of the values in the keywords_positions array
@@ -134,15 +134,15 @@ the median of the values in the keywords_positions array
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`median_position`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#median_position)
 
-#### Source
+#### Defined in
 
-main.ts:93381
+main.ts:93677
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: `number`
+> `optional` **rating**: `number`
 
 the margin between the greatest possible and actual keyword positions
 represents the relative visibility rate of the domain in SERP for the specified keywords
@@ -152,15 +152,15 @@ calculated as sum(100-keywords_positions)
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`rating`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:93385
+main.ts:93681
 
 ***
 
 ### relevant\_serp\_items?
 
-> **`optional`** **relevant\_serp\_items**: `number`
+> `optional` **relevant\_serp\_items**: `number`
 
 the number of SERP elements relevant to the domain
 represents the number of search results in SERP relevant to the domain for the specified keywords
@@ -169,15 +169,15 @@ represents the number of search results in SERP relevant to the domain for the s
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`relevant_serp_items`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#relevant_serp_items)
 
-#### Source
+#### Defined in
 
-main.ts:93401
+main.ts:93697
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -185,15 +185,15 @@ search engine type
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:93373
+main.ts:93669
 
 ***
 
 ### visibility?
 
-> **`optional`** **visibility**: `number`
+> `optional` **visibility**: `number`
 
 SERP visibility rate
 represents the website visibility rate based on the SERP positions of the specified keywords
@@ -205,9 +205,9 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 [`IDataforseoLabsSerpCompetitorsLiveItem`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md).[`visibility`](../interfaces/IDataforseoLabsSerpCompetitorsLiveItem.md#visibility)
 
-#### Source
+#### Defined in
 
-main.ts:93398
+main.ts:93694
 
 ## Methods
 
@@ -223,9 +223,9 @@ main.ts:93398
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:93417
+main.ts:93713
 
 ***
 
@@ -241,15 +241,15 @@ main.ts:93417
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:93449
+main.ts:93745
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
 #### Parameters
 
@@ -259,6 +259,6 @@ main.ts:93449
 
 [`DataforseoLabsSerpCompetitorsLiveItem`](DataforseoLabsSerpCompetitorsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:93442
+main.ts:93738

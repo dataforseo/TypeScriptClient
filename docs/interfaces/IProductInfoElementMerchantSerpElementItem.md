@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,166 +18,166 @@
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the product
 
-#### Source
+#### Defined in
 
-main.ts:181328
+main.ts:183160
 
 ***
 
 ### features?
 
-> **`optional`** **features**: `string`[]
+> `optional` **features**: `string`[]
 
 product features
 contains snippets with the description of product features
 
-#### Source
+#### Defined in
 
-main.ts:181337
+main.ts:183169
 
 ***
 
 ### images?
 
-> **`optional`** **images**: `string`[]
+> `optional` **images**: `string`[]
 
 product images
 contains urls to product images
 
-#### Source
+#### Defined in
 
-main.ts:181334
+main.ts:183166
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 alignment of the element on the product specification page
 can take the following values:
 right, left
 
-#### Source
+#### Defined in
 
-main.ts:181321
+main.ts:183153
 
 ***
 
 ### product\_id?
 
-> **`optional`** **product\_id**: `string`
+> `optional` **product\_id**: `string`
 
 product_id received in a POST array
 ilearn more about the parameter in this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:181324
+main.ts:183156
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank on the product specification page
 absolute position among all the elements found on the product specification page
 
-#### Source
+#### Defined in
 
-main.ts:181317
+main.ts:183149
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:181314
+main.ts:183146
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingElement`](../classes/RatingElement.md)
+> `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
 product rating 
 the popularity rate based on reviews
 
-#### Source
+#### Defined in
 
-main.ts:181340
+main.ts:183172
 
 ***
 
 ### seller\_reviews\_count?
 
-> **`optional`** **seller\_reviews\_count**: `number`
+> `optional` **seller\_reviews\_count**: `number`
 
 number of seller reviews
 number of reviews on the product seller’s account
 
-#### Source
+#### Defined in
 
-main.ts:181343
+main.ts:183175
 
 ***
 
 ### sellers?
 
-> **`optional`** **sellers**: [`ProductSeller`](../classes/ProductSeller.md)[]
+> `optional` **sellers**: [`ProductSeller`](../classes/ProductSeller.md)[]
 
 sellers of the product
 number of reviews on the product seller’s account
 
-#### Source
+#### Defined in
 
-main.ts:181346
+main.ts:183178
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the product
 
-#### Source
+#### Defined in
 
-main.ts:181326
+main.ts:183158
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 product url
 url of the product on Google Shopping
 
-#### Source
+#### Defined in
 
-main.ts:181331
+main.ts:183163
 
 ***
 
 ### variations?
 
-> **`optional`** **variations**: [`ProductVariation`](../classes/ProductVariation.md)[]
+> `optional` **variations**: [`ProductVariation`](../classes/ProductVariation.md)[]
 
 variations of the product
 contains brief information about different product variations
 
-#### Source
+#### Defined in
 
-main.ts:181349
+main.ts:183181

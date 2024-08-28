@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### app\_category?
 
-> **`optional`** **app\_category**: `string`
+> `optional` **app\_category**: `string`
 
 application category on the App Store
 optional field
@@ -23,15 +23,15 @@ example:
 lifestyle;
 you can review the full list of available categories here or by making a separate request to https://api.dataforseo.com/v3/app_data/apple/categories
 
-#### Source
+#### Defined in
 
-main.ts:197554
+main.ts:199386
 
 ***
 
 ### app\_collection?
 
-> **`optional`** **app\_collection**: `string`
+> `optional` **app\_collection**: `string`
 
 app collection
 required field
@@ -39,15 +39,15 @@ app collection on App Store from which apps will be collected;
 you can specify the following values:
 top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_ios
 
-#### Source
+#### Defined in
 
-main.ts:197501
+main.ts:199333
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -59,15 +59,15 @@ if the specified depth is higher than the number of results in the response, the
 default value: 100
 maximum value: 1000
 
-#### Source
+#### Defined in
 
-main.ts:197547
+main.ts:199379
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -76,15 +76,15 @@ you can receive the list of available languages with their language_code by mak
 example:
 en
 
-#### Source
+#### Defined in
 
-main.ts:197529
+main.ts:199361
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -93,15 +93,15 @@ you can receive the list of available languages with language_name by making a s
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:197522
+main.ts:199354
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name
@@ -110,15 +110,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 9061121
 
-#### Source
+#### Defined in
 
-main.ts:197515
+main.ts:199347
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code
@@ -127,15 +127,15 @@ you can receive the list of available locations of the search engine with their 
 example:
 West Los Angeles,California,United States
 
-#### Source
+#### Defined in
 
-main.ts:197508
+main.ts:199340
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -147,15 +147,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:197586
+main.ts:199418
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -163,15 +163,15 @@ corresponds to the datatype that will be sent to your server
 possible values:
 advanced
 
-#### Source
+#### Defined in
 
-main.ts:197576
+main.ts:199408
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -183,15 +183,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:197570
+main.ts:199402
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -201,15 +201,15 @@ can take the following values:
 You will be additionally charged for the tasks with high execution priority.
 The cost can be calculated on the Pricing page.
 
-#### Source
+#### Defined in
 
-main.ts:197537
+main.ts:199369
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -217,6 +217,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:197560
+main.ts:199392

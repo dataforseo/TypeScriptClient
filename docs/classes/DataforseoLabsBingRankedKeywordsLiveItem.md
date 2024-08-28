@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsBingRankedKeywordsLiveItem(data)
+### new DataforseoLabsBingRankedKeywordsLiveItem()
 
 > **new DataforseoLabsBingRankedKeywordsLiveItem**(`data`?): [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:111175
+main.ts:111807
 
 ## Properties
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
@@ -44,15 +44,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsBingRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:111169
+main.ts:111801
 
 ***
 
 ### ranked\_serp\_element?
 
-> **`optional`** **ranked\_serp\_element**: [`RankedSerpElement`](RankedSerpElement.md)
+> `optional` **ranked\_serp\_element**: [`RankedSerpElement`](RankedSerpElement.md)
 
 contains data on the domain’s SERP element found for the returned keyword
 
@@ -60,15 +60,15 @@ contains data on the domain’s SERP element found for the returned keyword
 
 [`IDataforseoLabsBingRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveItem.md).[`ranked_serp_element`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveItem.md#ranked_serp_element)
 
-#### Source
+#### Defined in
 
-main.ts:111171
+main.ts:111803
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -76,9 +76,9 @@ search engine type
 
 [`IDataforseoLabsBingRankedKeywordsLiveItem`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsBingRankedKeywordsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:111167
+main.ts:111799
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:111167
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:111184
+main.ts:111816
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:111184
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:111203
+main.ts:111835
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:111203
 
 [`DataforseoLabsBingRankedKeywordsLiveItem`](DataforseoLabsBingRankedKeywordsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:111196
+main.ts:111828

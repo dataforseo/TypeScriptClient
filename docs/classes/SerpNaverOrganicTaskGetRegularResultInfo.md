@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpNaverOrganicTaskGetRegularResultInfo(data)
+### new SerpNaverOrganicTaskGetRegularResultInfo()
 
 > **new SerpNaverOrganicTaskGetRegularResultInfo**(`data`?): [`SerpNaverOrganicTaskGetRegularResultInfo`](SerpNaverOrganicTaskGetRegularResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpNaverOrganicTaskGetRegularResultInfo`](SerpNaverOrganicTaskGetRegularResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:72449
+main.ts:73045
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,15 @@ you can use it to make sure that we provided accurate results
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`check_url`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:72423
+main.ts:73019
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +64,15 @@ example:
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`datetime`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:72428
+main.ts:73024
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 types of search results found in SERP
 contains types of all search results (items) found in the returned SERP
@@ -86,15 +86,15 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`item_types`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:72439
+main.ts:73035
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
 items in SERP
 
@@ -102,15 +102,15 @@ items in SERP
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`items`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:72445
+main.ts:73041
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -118,15 +118,15 @@ the number of results returned in the items array
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`items_count`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:72443
+main.ts:73039
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword received in a POST array
 keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a space character)
@@ -135,15 +135,15 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`keyword`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:72412
+main.ts:73008
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -151,15 +151,15 @@ language code in a POST array
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`language_code`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:72420
+main.ts:73016
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -167,15 +167,15 @@ location code in a POST array
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`location_code`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:72418
+main.ts:73014
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
@@ -183,15 +183,15 @@ search engine domain in a POST array
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`se_domain`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:72416
+main.ts:73012
 
 ***
 
 ### se\_results\_count?
 
-> **`optional`** **se\_results\_count**: `number`
+> `optional` **se\_results\_count**: `number`
 
 total number of results in SERP
 
@@ -199,15 +199,15 @@ total number of results in SERP
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`se_results_count`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#se_results_count)
 
-#### Source
+#### Defined in
 
-main.ts:72441
+main.ts:73037
 
 ***
 
 ### spell?
 
-> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
+> `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -216,15 +216,15 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`spell`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#spell)
 
-#### Source
+#### Defined in
 
-main.ts:72431
+main.ts:73027
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -232,9 +232,9 @@ type of element
 
 [`ISerpNaverOrganicTaskGetRegularResultInfo`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md).[`type`](../interfaces/ISerpNaverOrganicTaskGetRegularResultInfo.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:72414
+main.ts:73010
 
 ## Methods
 
@@ -250,9 +250,9 @@ main.ts:72414
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:72458
+main.ts:73054
 
 ***
 
@@ -268,15 +268,15 @@ main.ts:72458
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:72494
+main.ts:73090
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpNaverOrganicTaskGetRegularResultInfo`](SerpNaverOrganicTaskGetRegularResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpNaverOrganicTaskGetRegularResultInfo`](SerpNaverOrganicTaskGetRegularResultInfo.md)
 
 #### Parameters
 
@@ -286,6 +286,6 @@ main.ts:72494
 
 [`SerpNaverOrganicTaskGetRegularResultInfo`](SerpNaverOrganicTaskGetRegularResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:72487
+main.ts:73083

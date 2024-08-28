@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataGoogleTrendsLanguagesResultInfo(data)
+### new KeywordsDataGoogleTrendsLanguagesResultInfo()
 
 > **new KeywordsDataGoogleTrendsLanguagesResultInfo**(`data`?): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:125734
+main.ts:125580
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:125730
+main.ts:125576
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IKeywordsDataGoogleTrendsLanguagesResultInfo`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataGoogleTrendsLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:125728
+main.ts:125574
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:125728
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:125743
+main.ts:125589
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:125743
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:125761
+main.ts:125607
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:125761
 
 [`KeywordsDataGoogleTrendsLanguagesResultInfo`](KeywordsDataGoogleTrendsLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:125754
+main.ts:125600

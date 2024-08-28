@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,23 +18,23 @@
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element
 domain of the online menu system
 
-#### Source
+#### Defined in
 
-main.ts:23630
+main.ts:23812
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL to view the menu
 
-#### Source
+#### Defined in
 
-main.ts:23632
+main.ts:23814

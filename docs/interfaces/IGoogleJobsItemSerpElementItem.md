@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,213 +18,213 @@
 
 ### contract\_type?
 
-> **`optional`** **contract\_type**: `string`
+> `optional` **contract\_type**: `string`
 
 employment contract type
 
-#### Source
+#### Defined in
 
-main.ts:51933
+main.ts:52465
 
 ***
 
 ### employer\_image\_url?
 
-> **`optional`** **employer\_image\_url**: `string`
+> `optional` **employer\_image\_url**: `string`
 
 URL to the image used in the job posting
 
-#### Source
+#### Defined in
 
-main.ts:51922
+main.ts:52454
 
 ***
 
 ### employer\_name?
 
-> **`optional`** **employer\_name**: `string`
+> `optional` **employer\_name**: `string`
 
 name of the employer
 
-#### Source
+#### Defined in
 
-main.ts:51918
+main.ts:52450
 
 ***
 
 ### employer\_url?
 
-> **`optional`** **employer\_url**: `string`
+> `optional` **employer\_url**: `string`
 
 URL to the employer’s website
 
-#### Source
+#### Defined in
 
-main.ts:51920
+main.ts:52452
 
 ***
 
 ### job\_id?
 
-> **`optional`** **job\_id**: `string`
+> `optional` **job\_id**: `string`
 
 ID of the job on Google Jobs
 
-#### Source
+#### Defined in
 
-main.ts:51914
+main.ts:52446
 
 ***
 
 ### location?
 
-> **`optional`** **location**: `string`
+> `optional` **location**: `string`
 
 location for which the job vacancy is posted
 
-#### Source
+#### Defined in
 
-main.ts:51924
+main.ts:52456
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:51910
+main.ts:52442
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:51906
+main.ts:52438
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:51903
+main.ts:52435
 
 ***
 
 ### rectangle?
 
-> **`optional`** **rectangle**: [`Rectangle`](../classes/Rectangle.md)
+> `optional` **rectangle**: [`Rectangle`](../classes/Rectangle.md)
 
 rectangle parameters
 contains cartesian coordinates and pixel dimensions of the result’s snippet in SERP;
 in this case, will equal null
 
-#### Source
+#### Defined in
 
-main.ts:51944
+main.ts:52476
 
 ***
 
 ### salary?
 
-> **`optional`** **salary**: `string`
+> `optional` **salary**: `string`
 
 the salary indicated in the job vacancy
 if the salary isn’t indicated, this field will equal null
 
-#### Source
+#### Defined in
 
-main.ts:51931
+main.ts:52463
 
 ***
 
 ### source\_name?
 
-> **`optional`** **source\_name**: `string`
+> `optional` **source\_name**: `string`
 
 original source of the job vacancy
 
-#### Source
+#### Defined in
 
-main.ts:51926
+main.ts:52458
 
 ***
 
 ### source\_url?
 
-> **`optional`** **source\_url**: `string`
+> `optional` **source\_url**: `string`
 
 URL to the original source of the job vacancy
 
-#### Source
+#### Defined in
 
-main.ts:51928
+main.ts:52460
 
 ***
 
 ### time\_ago?
 
-> **`optional`** **time\_ago**: `string`
+> `optional` **time\_ago**: `string`
 
 indicates how long ago the job vacancy was posted
 
-#### Source
+#### Defined in
 
-main.ts:51940
+main.ts:52472
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
-#### Source
+#### Defined in
 
-main.ts:51938
+main.ts:52470
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the job
 
-#### Source
+#### Defined in
 
-main.ts:51916
+main.ts:52448
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:51912
+main.ts:52444

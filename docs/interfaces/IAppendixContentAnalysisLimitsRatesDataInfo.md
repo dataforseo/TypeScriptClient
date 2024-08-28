@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,98 +14,98 @@
 
 ### categories?
 
-> **`optional`** **categories**: `number`
+> `optional` **categories**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220278
+main.ts:222186
 
 ***
 
 ### category\_trends?
 
-> **`optional`** **category\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **category\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220275
+main.ts:222183
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220279
+main.ts:222187
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220277
+main.ts:222185
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:220276
+main.ts:222184
 
 ***
 
 ### phrase\_trends?
 
-> **`optional`** **phrase\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **phrase\_trends**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220274
+main.ts:222182
 
 ***
 
 ### rating\_distribution?
 
-> **`optional`** **rating\_distribution**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **rating\_distribution**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220273
+main.ts:222181
 
 ***
 
 ### search?
 
-> **`optional`** **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **search**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220270
+main.ts:222178
 
 ***
 
 ### sentiment\_analysis?
 
-> **`optional`** **sentiment\_analysis**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **sentiment\_analysis**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220272
+main.ts:222180
 
 ***
 
 ### summary?
 
-> **`optional`** **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
+> `optional` **summary**: [`AppendixInfo`](../classes/AppendixInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220271
+main.ts:222179

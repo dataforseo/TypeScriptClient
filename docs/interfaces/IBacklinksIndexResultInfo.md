@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### index\_history?
 
-> **`optional`** **index\_history**: [`IndexHistory`](../classes/IndexHistory.md)[]
+> `optional` **index\_history**: [`IndexHistory`](../classes/IndexHistory.md)[]
 
 index volume data for the past 12 months
 
-#### Source
+#### Defined in
 
-main.ts:139901
+main.ts:141727
 
 ***
 
 ### total\_backlinks?
 
-> **`optional`** **total\_backlinks**: `number`
+> `optional` **total\_backlinks**: `number`
 
 total number of backlinks our database contains for the moment of checking
 
-#### Source
+#### Defined in
 
-main.ts:139895
+main.ts:141721
 
 ***
 
 ### total\_domains?
 
-> **`optional`** **total\_domains**: `number`
+> `optional` **total\_domains**: `number`
 
 total number of domains our database contains for the moment of checking
 
-#### Source
+#### Defined in
 
-main.ts:139899
+main.ts:141725
 
 ***
 
 ### total\_pages?
 
-> **`optional`** **total\_pages**: `number`
+> `optional` **total\_pages**: `number`
 
 total number of pages our database contains for the moment of checking
 
-#### Source
+#### Defined in
 
-main.ts:139897
+main.ts:141723

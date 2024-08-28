@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,20 +14,20 @@
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 product and service categories
 our API doesn’t return categories for this endpoint: the parameter will always equal null
 
-#### Source
+#### Defined in
 
-main.ts:132207
+main.ts:132031
 
 ***
 
 ### competition?
 
-> **`optional`** **competition**: `number`
+> `optional` **competition**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -37,110 +37,110 @@ Possible values: 0.1, 0.5,0.9
 0.9 – high competition;
 if there is no data the value is null
 
-#### Source
+#### Defined in
 
-main.ts:132195
+main.ts:132019
 
 ***
 
 ### cpc?
 
-> **`optional`** **cpc**: `number`
+> `optional` **cpc**: `number`
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
 if there is no data then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:132199
+main.ts:132023
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type in a POST array
 if there is no data, then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:132187
+main.ts:132011
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:132178
+main.ts:132002
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:132182
+main.ts:132006
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:132180
+main.ts:132004
 
 ***
 
 ### monthly\_searches?
 
-> **`optional`** **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
+> `optional` **monthly\_searches**: [`MonthlySearches`](../classes/MonthlySearches.md)[]
 
 monthly searches
 represents the (approximate) number of searches on this keyword idea (as available for the past twelve months), targeted to the specified geographic locations
 if there is no data then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:132211
+main.ts:132035
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 indicates whether data from partner networks included in the response
 
-#### Source
+#### Defined in
 
-main.ts:132184
+main.ts:132008
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 monthly average search volume rate
 represents either the (approximate) number of searches for the given keyword idea on bing search engine, depending on the user’s targeting
 search volume is rounded to the nearest tens
 if there is no data then the value is null
 
-#### Source
+#### Defined in
 
-main.ts:132204
+main.ts:132028

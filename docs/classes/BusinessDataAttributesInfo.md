@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataAttributesInfo(data)
+### new BusinessDataAttributesInfo()
 
 > **new BusinessDataAttributesInfo**(`data`?): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
@@ -28,20 +28,20 @@
 
 [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201177
+main.ts:203009
 
 ## Properties
 
 ### available\_attributes?
 
-> **`optional`** **available\_attributes**: `Object`
+> `optional` **available\_attributes**: `object`
 
 available attributes
 indicates attributes a business entity can offer
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -49,20 +49,20 @@ indicates attributes a business entity can offer
 
 [`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md).[`available_attributes`](../interfaces/IBusinessDataAttributesInfo.md#available_attributes)
 
-#### Source
+#### Defined in
 
-main.ts:201170
+main.ts:203002
 
 ***
 
 ### unavailable\_attributes?
 
-> **`optional`** **unavailable\_attributes**: `Object`
+> `optional` **unavailable\_attributes**: `object`
 
 unavailable attributes
 indicates attributes a business entity cannot offer
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: (`string` \| `undefined`)[]
 
@@ -70,9 +70,9 @@ indicates attributes a business entity cannot offer
 
 [`IBusinessDataAttributesInfo`](../interfaces/IBusinessDataAttributesInfo.md).[`unavailable_attributes`](../interfaces/IBusinessDataAttributesInfo.md#unavailable_attributes)
 
-#### Source
+#### Defined in
 
-main.ts:201173
+main.ts:203005
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:201173
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:201186
+main.ts:203018
 
 ***
 
@@ -106,15 +106,15 @@ main.ts:201186
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:201216
+main.ts:203048
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
 #### Parameters
 
@@ -124,6 +124,6 @@ main.ts:201216
 
 [`BusinessDataAttributesInfo`](BusinessDataAttributesInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:201209
+main.ts:203041

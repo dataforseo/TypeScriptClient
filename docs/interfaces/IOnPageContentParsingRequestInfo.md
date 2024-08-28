@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -23,15 +23,15 @@ note: the enable_content_parsing parameter in the POST request must be set to tr
 example:
 "07131248-1535-0216-1000-17384017ad04"
 
-#### Source
+#### Defined in
 
-main.ts:163441
+main.ts:165273
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the content to parse
 required field
@@ -39,6 +39,6 @@ URL of the page to parse
 example:
 https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-the-power-of-dataforseo-trends-api
 
-#### Source
+#### Defined in
 
-main.ts:163434
+main.ts:165266

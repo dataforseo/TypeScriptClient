@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataAppleLanguagesResultInfo(data)
+### new AppDataAppleLanguagesResultInfo()
 
 > **new AppDataAppleLanguagesResultInfo**(`data`?): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:195387
+main.ts:197219
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md).[`language_code`](../interfaces/IAppDataAppleLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:195383
+main.ts:197215
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IAppDataAppleLanguagesResultInfo`](../interfaces/IAppDataAppleLanguagesResultInfo.md).[`language_name`](../interfaces/IAppDataAppleLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:195381
+main.ts:197213
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:195381
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:195396
+main.ts:197228
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:195396
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:195414
+main.ts:197246
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:195414
 
 [`AppDataAppleLanguagesResultInfo`](AppDataAppleLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:195407
+main.ts:197239

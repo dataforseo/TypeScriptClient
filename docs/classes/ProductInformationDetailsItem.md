@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new ProductInformationDetailsItem(data)
+### new ProductInformationDetailsItem()
 
 > **new ProductInformationDetailsItem**(`data`?): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
 
@@ -36,33 +36,33 @@
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`constructor`](BaseProductInformationItem.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:184477
+main.ts:186309
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`_discriminator`](BaseProductInformationItem.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:22854
+main.ts:23036
 
 ***
 
 ### body?
 
-> **`optional`** **body**: `Object`
+> `optional` **body**: `object`
 
 contains information specified about the product within the section_name
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -70,15 +70,15 @@ contains information specified about the product within the section_name
 
 [`IProductInformationDetailsItem`](../interfaces/IProductInformationDetailsItem.md).[`body`](../interfaces/IProductInformationDetailsItem.md#body)
 
-#### Source
+#### Defined in
 
-main.ts:184473
+main.ts:186305
 
 ***
 
 ### section\_name?
 
-> **`optional`** **section\_name**: `string`
+> `optional` **section\_name**: `string`
 
 name of the section related to product information specified in the contents
 
@@ -86,9 +86,9 @@ name of the section related to product information specified in the contents
 
 [`IProductInformationDetailsItem`](../interfaces/IProductInformationDetailsItem.md).[`section_name`](../interfaces/IProductInformationDetailsItem.md#section_name)
 
-#### Source
+#### Defined in
 
-main.ts:184471
+main.ts:186303
 
 ## Methods
 
@@ -108,9 +108,9 @@ main.ts:184471
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`init`](BaseProductInformationItem.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:184482
+main.ts:186314
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:184482
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`toJSON`](BaseProductInformationItem.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:184507
+main.ts:186339
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
+> `static` **fromJS**(`data`): [`ProductInformationDetailsItem`](ProductInformationDetailsItem.md)
 
 #### Parameters
 
@@ -152,6 +152,6 @@ main.ts:184507
 
 [`BaseProductInformationItem`](BaseProductInformationItem.md).[`fromJS`](BaseProductInformationItem.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:184500
+main.ts:186332

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MerchantGoogleSellersAdUrlResultInfo(data)
+### new MerchantGoogleSellersAdUrlResultInfo()
 
 > **new MerchantGoogleSellersAdUrlResultInfo**(`data`?): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:181611
+main.ts:183443
 
 ## Properties
 
 ### ad\_aclk?
 
-> **`optional`** **ad\_aclk**: `string`
+> `optional` **ad\_aclk**: `string`
 
 unique ad click referral parameter
 
@@ -44,15 +44,15 @@ unique ad click referral parameter
 
 [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[`ad_aclk`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_aclk)
 
-#### Source
+#### Defined in
 
-main.ts:181602
+main.ts:183434
 
 ***
 
 ### ad\_url?
 
-> **`optional`** **ad\_url**: `string`
+> `optional` **ad\_url**: `string`
 
 full URL of the advertisement
 
@@ -60,15 +60,15 @@ full URL of the advertisement
 
 [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[`ad_url`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_url)
 
-#### Source
+#### Defined in
 
-main.ts:181604
+main.ts:183436
 
 ***
 
 ### ad\_url\_redirects?
 
-> **`optional`** **ad\_url\_redirects**: `string`[]
+> `optional` **ad\_url\_redirects**: `string`[]
 
 URLs where the link from Google Shopping redirects before reaching a final URL
 includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
@@ -77,9 +77,9 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 [`IMerchantGoogleSellersAdUrlResultInfo`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md).[`ad_url_redirects`](../interfaces/IMerchantGoogleSellersAdUrlResultInfo.md#ad_url_redirects)
 
-#### Source
+#### Defined in
 
-main.ts:181607
+main.ts:183439
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:181607
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:181620
+main.ts:183452
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:181620
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:181643
+main.ts:183475
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
+> `static` **fromJS**(`data`): [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:181643
 
 [`MerchantGoogleSellersAdUrlResultInfo`](MerchantGoogleSellersAdUrlResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:181636
+main.ts:183468

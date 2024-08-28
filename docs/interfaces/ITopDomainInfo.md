@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,18 +14,18 @@
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
-#### Source
+#### Defined in
 
-main.ts:22785
+main.ts:22967
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:22784
+main.ts:22966

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AvailableLanguages(data)
+### new AvailableLanguages()
 
 > **new AvailableLanguages**(`data`?): [`AvailableLanguages`](AvailableLanguages.md)
 
@@ -28,15 +28,15 @@
 
 [`AvailableLanguages`](AvailableLanguages.md)
 
-#### Source
+#### Defined in
 
-main.ts:82343
+main.ts:82939
 
 ## Properties
 
 ### available\_sources?
 
-> **`optional`** **available\_sources**: `string`[]
+> `optional` **available\_sources**: `string`[]
 
 supported sources
 contains the sources of data supported for a specific location and language combination
@@ -46,15 +46,15 @@ only google and bing are currently available
 
 [`IAvailableLanguages`](../interfaces/IAvailableLanguages.md).[`available_sources`](../interfaces/IAvailableLanguages.md#available_sources)
 
-#### Source
+#### Defined in
 
-main.ts:82331
+main.ts:82927
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `number`
+> `optional` **keywords**: `number`
 
 the number of keywords available for the given location and language
 
@@ -62,15 +62,15 @@ the number of keywords available for the given location and language
 
 [`IAvailableLanguages`](../interfaces/IAvailableLanguages.md).[`keywords`](../interfaces/IAvailableLanguages.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:82337
+main.ts:82933
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -78,15 +78,15 @@ language code according to ISO 639-1
 
 [`IAvailableLanguages`](../interfaces/IAvailableLanguages.md).[`language_code`](../interfaces/IAvailableLanguages.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:82335
+main.ts:82931
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -94,15 +94,15 @@ language name
 
 [`IAvailableLanguages`](../interfaces/IAvailableLanguages.md).[`language_name`](../interfaces/IAvailableLanguages.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:82333
+main.ts:82929
 
 ***
 
 ### serps?
 
-> **`optional`** **serps**: `number`
+> `optional` **serps**: `number`
 
 the number of SERP pages available for the given location and language
 
@@ -110,9 +110,9 @@ the number of SERP pages available for the given location and language
 
 [`IAvailableLanguages`](../interfaces/IAvailableLanguages.md).[`serps`](../interfaces/IAvailableLanguages.md#serps)
 
-#### Source
+#### Defined in
 
-main.ts:82339
+main.ts:82935
 
 ## Methods
 
@@ -128,9 +128,9 @@ main.ts:82339
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:82352
+main.ts:82948
 
 ***
 
@@ -146,15 +146,15 @@ main.ts:82352
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:82377
+main.ts:82973
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AvailableLanguages`](AvailableLanguages.md)
+> `static` **fromJS**(`data`): [`AvailableLanguages`](AvailableLanguages.md)
 
 #### Parameters
 
@@ -164,6 +164,6 @@ main.ts:82377
 
 [`AvailableLanguages`](AvailableLanguages.md)
 
-#### Source
+#### Defined in
 
-main.ts:82370
+main.ts:82966

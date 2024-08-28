@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageRedirectChainsRequestInfo(data)
+### new OnPageRedirectChainsRequestInfo()
 
 > **new OnPageRedirectChainsRequestInfo**(`data`?): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:160322
+main.ts:162154
 
 ## Properties
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
@@ -53,15 +53,15 @@ examples:
 
 [`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`filters`](../interfaces/IOnPageRedirectChainsRequestInfo.md#filters)
 
-#### Source
+#### Defined in
 
-main.ts:160312
+main.ts:162144
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -73,15 +73,15 @@ example:
 
 [`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`id`](../interfaces/IOnPageRedirectChainsRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:160286
+main.ts:162118
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned redirect chains
 optional field
@@ -92,15 +92,15 @@ maximum value: 1000
 
 [`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`limit`](../interfaces/IOnPageRedirectChainsRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:160296
+main.ts:162128
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned redirect chains
 optional field
@@ -111,15 +111,15 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 [`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`offset`](../interfaces/IOnPageRedirectChainsRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:160301
+main.ts:162133
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -131,15 +131,15 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`tag`](../interfaces/IOnPageRedirectChainsRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:160318
+main.ts:162150
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page URL
 optional field
@@ -150,9 +150,9 @@ if you use this field, the API response will return only redirect chains which c
 
 [`IOnPageRedirectChainsRequestInfo`](../interfaces/IOnPageRedirectChainsRequestInfo.md).[`url`](../interfaces/IOnPageRedirectChainsRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:160291
+main.ts:162123
 
 ## Methods
 
@@ -168,9 +168,9 @@ main.ts:160291
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:160331
+main.ts:162163
 
 ***
 
@@ -186,15 +186,15 @@ main.ts:160331
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:160357
+main.ts:162189
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
 #### Parameters
 
@@ -204,6 +204,6 @@ main.ts:160357
 
 [`OnPageRedirectChainsRequestInfo`](OnPageRedirectChainsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:160350
+main.ts:162182

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixAppendixDataInfo(data)
+### new AppendixAppendixDataInfo()
 
 > **new AppendixAppendixDataInfo**(`data`?): [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
 
@@ -28,65 +28,65 @@
 
 [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220746
+main.ts:222654
 
 ## Properties
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
 #### Implementation of
 
 [`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md).[`errors`](../interfaces/IAppendixAppendixDataInfo.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:220740
+main.ts:222648
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `number`
+> `optional` **status**: `number`
 
 #### Implementation of
 
 [`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md).[`status`](../interfaces/IAppendixAppendixDataInfo.md#status)
 
-#### Source
+#### Defined in
 
-main.ts:220742
+main.ts:222649
 
 ***
 
 ### test?
 
-> **`optional`** **test**: `number`
+> `optional` **test**: `number`
 
 #### Implementation of
 
 [`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md).[`test`](../interfaces/IAppendixAppendixDataInfo.md#test)
 
-#### Source
+#### Defined in
 
-main.ts:220741
+main.ts:222650
 
 ***
 
 ### user\_data?
 
-> **`optional`** **user\_data**: `number`
+> `optional` **user\_data**: `number`
 
 #### Implementation of
 
 [`IAppendixAppendixDataInfo`](../interfaces/IAppendixAppendixDataInfo.md).[`user_data`](../interfaces/IAppendixAppendixDataInfo.md#user_data)
 
-#### Source
+#### Defined in
 
-main.ts:220739
+main.ts:222647
 
 ## Methods
 
@@ -102,9 +102,9 @@ main.ts:220739
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:220755
+main.ts:222663
 
 ***
 
@@ -120,15 +120,15 @@ main.ts:220755
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:220775
+main.ts:222683
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
 
 #### Parameters
 
@@ -138,6 +138,6 @@ main.ts:220775
 
 [`AppendixAppendixDataInfo`](AppendixAppendixDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220768
+main.ts:222676

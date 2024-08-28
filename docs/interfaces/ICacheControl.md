@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### cachable?
 
-> **`optional`** **cachable**: `boolean`
+> `optional` **cachable**: `boolean`
 
 indicates whether the page is cacheable
 
-#### Source
+#### Defined in
 
-main.ts:156348
+main.ts:158176
 
 ***
 
 ### ttl?
 
-> **`optional`** **ttl**: `number`
+> `optional` **ttl**: `number`
 
 time to live
 the amount of time the browser caches a resource
 
-#### Source
+#### Defined in
 
-main.ts:156351
+main.ts:158179

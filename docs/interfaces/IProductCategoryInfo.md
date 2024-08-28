@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,23 +14,23 @@
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 product category name
 
-#### Source
+#### Defined in
 
-main.ts:184461
+main.ts:186293
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 product category URL
 indicates the browse path on Amazon with the unique browse node ID (product category ID on Amazon)
 
-#### Source
+#### Defined in
 
-main.ts:184464
+main.ts:186296

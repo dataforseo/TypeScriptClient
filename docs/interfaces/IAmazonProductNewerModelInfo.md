@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### newer\_model\_asin?
 
-> **`optional`** **newer\_model\_asin**: `string`
+> `optional` **newer\_model\_asin**: `string`
 
 ASIN of the newer product model
 
-#### Source
+#### Defined in
 
-main.ts:184406
+main.ts:186238
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
-#### Source
+#### Defined in
 
-main.ts:184404
+main.ts:186236

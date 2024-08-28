@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleHistoricalSerpsLiveItem(data)
+### new DataforseoLabsGoogleHistoricalSerpsLiveItem()
 
 > **new DataforseoLabsGoogleHistoricalSerpsLiveItem**(`data`?): [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:97925
+main.ts:98130
 
 ## Properties
 
 ### check\_url?
 
-> **`optional`** **check\_url**: `string`
+> `optional` **check\_url**: `string`
 
 direct URL to search engine results
 you can use it to make sure that we provided accurate results
@@ -45,15 +45,34 @@ you can use it to make sure that we provided accurate results
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`check_url`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#check_url)
 
-#### Source
+#### Defined in
 
-main.ts:97901
+main.ts:98101
+
+***
+
+### clickstream\_etv?
+
+> `optional` **clickstream\_etv**: `number`
+
+estimated traffic volume based on clickstream data
+calculated as the product of click-through-rate and clickstream search volume values of all keywords the domain ranks for
+to retrieve results for this field, the parameter include_clickstream_data must be set to true
+learn more about how the metric is calculated in this help center article https://dataforseo.com/help-center/whats-clickstream-estimated-traffic-volume-and-how-is-it-calculated
+
+#### Implementation of
+
+[`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`clickstream_etv`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#clickstream_etv)
+
+#### Defined in
+
+main.ts:98126
 
 ***
 
 ### datetime?
 
-> **`optional`** **datetime**: `string`
+> `optional` **datetime**: `string`
 
 date and time when the result was received
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -64,15 +83,15 @@ example:
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`datetime`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#datetime)
 
-#### Source
+#### Defined in
 
-main.ts:97906
+main.ts:98106
 
 ***
 
 ### item\_types?
 
-> **`optional`** **item\_types**: `string`[]
+> `optional` **item\_types**: `string`[]
 
 types of search results in SERP
 contains types of search results (items) found in SERP.
@@ -83,15 +102,15 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`item_types`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#item_types)
 
-#### Source
+#### Defined in
 
-main.ts:97914
+main.ts:98114
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)[]
+> `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -100,15 +119,15 @@ if there are none, equals null
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`items`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:97921
+main.ts:98121
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -116,15 +135,15 @@ the number of results returned in the items array
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`items_count`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:97918
+main.ts:98118
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword obtained as a result of search engine autocorrection
 the results will be provided for the corrected keyword
@@ -133,15 +152,15 @@ the results will be provided for the corrected keyword
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`keyword`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:97890
+main.ts:98090
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -149,15 +168,15 @@ language code in a POST array
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`language_code`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:97898
+main.ts:98098
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -165,15 +184,15 @@ location code in a POST array
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`location_code`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:97896
+main.ts:98096
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain in a POST array
 
@@ -181,15 +200,15 @@ search engine domain in a POST array
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`se_domain`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:97894
+main.ts:98094
 
 ***
 
 ### se\_results\_count?
 
-> **`optional`** **se\_results\_count**: `number`
+> `optional` **se\_results\_count**: `number`
 
 total number of results in SERP
 
@@ -197,15 +216,15 @@ total number of results in SERP
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`se_results_count`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#se_results_count)
 
-#### Source
+#### Defined in
 
-main.ts:97916
+main.ts:98116
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -213,15 +232,15 @@ search engine type
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:97887
+main.ts:98087
 
 ***
 
 ### spell?
 
-> **`optional`** **spell**: [`SpellInfo`](SpellInfo.md)
+> `optional` **spell**: [`SpellInfo`](SpellInfo.md)
 
 autocorrection of the search engine
 if the search engine provided results for a keyword that was corrected, we will specify the keyword corrected by the search engine and the type of autocorrection
@@ -230,15 +249,15 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`spell`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#spell)
 
-#### Source
+#### Defined in
 
-main.ts:97909
+main.ts:98109
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -246,9 +265,9 @@ type of element
 
 [`IDataforseoLabsGoogleHistoricalSerpsLiveItem`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md).[`type`](../interfaces/IDataforseoLabsGoogleHistoricalSerpsLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:97892
+main.ts:98092
 
 ## Methods
 
@@ -264,9 +283,9 @@ main.ts:97892
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:97934
+main.ts:98139
 
 ***
 
@@ -282,15 +301,15 @@ main.ts:97934
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:97971
+main.ts:98177
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)
 
 #### Parameters
 
@@ -300,6 +319,6 @@ main.ts:97971
 
 [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:97964
+main.ts:98170

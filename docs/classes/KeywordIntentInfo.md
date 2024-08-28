@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordIntentInfo(data)
+### new KeywordIntentInfo()
 
 > **new KeywordIntentInfo**(`data`?): [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:87521
+main.ts:88087
 
 ## Properties
 
 ### label?
 
-> **`optional`** **label**: `string`
+> `optional` **label**: `string`
 
 search intent name
 possible values: informational, navigational, commercial, transactional
@@ -45,15 +45,15 @@ possible values: informational, navigational, commercial, transactional
 
 [`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md).[`label`](../interfaces/IKeywordIntentInfo.md#label)
 
-#### Source
+#### Defined in
 
-main.ts:87514
+main.ts:88080
 
 ***
 
 ### probability?
 
-> **`optional`** **probability**: `number`
+> `optional` **probability**: `number`
 
 search intent probability
 1 indicates the highest probability
@@ -62,9 +62,9 @@ search intent probability
 
 [`IKeywordIntentInfo`](../interfaces/IKeywordIntentInfo.md).[`probability`](../interfaces/IKeywordIntentInfo.md#probability)
 
-#### Source
+#### Defined in
 
-main.ts:87517
+main.ts:88083
 
 ## Methods
 
@@ -80,9 +80,9 @@ main.ts:87517
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:87530
+main.ts:88096
 
 ***
 
@@ -98,15 +98,15 @@ main.ts:87530
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:87548
+main.ts:88114
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordIntentInfo`](KeywordIntentInfo.md)
+> `static` **fromJS**(`data`): [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
 #### Parameters
 
@@ -116,6 +116,6 @@ main.ts:87548
 
 [`KeywordIntentInfo`](KeywordIntentInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:87541
+main.ts:88107

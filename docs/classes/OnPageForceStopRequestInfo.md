@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageForceStopRequestInfo(data)
+### new OnPageForceStopRequestInfo()
 
 > **new OnPageForceStopRequestInfo**(`data`?): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153697
+main.ts:155523
 
 ## Properties
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -49,9 +49,9 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 [`IOnPageForceStopRequestInfo`](../interfaces/IOnPageForceStopRequestInfo.md).[`id`](../interfaces/IOnPageForceStopRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:153693
+main.ts:155519
 
 ## Methods
 
@@ -67,9 +67,9 @@ main.ts:153693
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:153706
+main.ts:155532
 
 ***
 
@@ -85,15 +85,15 @@ main.ts:153706
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:153723
+main.ts:155549
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
 #### Parameters
 
@@ -103,6 +103,6 @@ main.ts:153723
 
 [`OnPageForceStopRequestInfo`](OnPageForceStopRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:153716
+main.ts:155542

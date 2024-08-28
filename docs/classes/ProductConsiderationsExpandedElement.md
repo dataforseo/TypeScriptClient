@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ProductConsiderationsExpandedElement(data)
+### new ProductConsiderationsExpandedElement()
 
 > **new ProductConsiderationsExpandedElement**(`data`?): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
@@ -28,15 +28,15 @@
 
 [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:36164
+main.ts:36360
 
 ## Properties
 
 ### about\_this\_result?
 
-> **`optional`** **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
+> `optional` **about\_this\_result**: [`AboutThisResultElement`](AboutThisResultElement.md)
 
 contains information from the ‘About this result’ panel
 ‘About this result’ panel provides additional context about why Google returned this result for the given query;
@@ -46,15 +46,15 @@ this feature appears after clicking on the three dots next to most results
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`about_this_result`](../interfaces/IProductConsiderationsExpandedElement.md#about_this_result)
 
-#### Source
+#### Defined in
 
-main.ts:36160
+main.ts:36356
 
 ***
 
 ### breadcrumb?
 
-> **`optional`** **breadcrumb**: `string`
+> `optional` **breadcrumb**: `string`
 
 breadcrumb of the Ad element in SERP
 
@@ -62,15 +62,15 @@ breadcrumb of the Ad element in SERP
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`breadcrumb`](../interfaces/IProductConsiderationsExpandedElement.md#breadcrumb)
 
-#### Source
+#### Defined in
 
-main.ts:36143
+main.ts:36339
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 domain where a link points
 
@@ -78,15 +78,15 @@ domain where a link points
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`domain`](../interfaces/IProductConsiderationsExpandedElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:36147
+main.ts:36343
 
 ***
 
 ### featured\_title?
 
-> **`optional`** **featured\_title**: `string`
+> `optional` **featured\_title**: `string`
 
 the title of the featured snippets source page
 
@@ -94,15 +94,15 @@ the title of the featured snippets source page
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`featured_title`](../interfaces/IProductConsiderationsExpandedElement.md#featured_title)
 
-#### Source
+#### Defined in
 
-main.ts:36141
+main.ts:36337
 
 ***
 
 ### related\_searches?
 
-> **`optional`** **related\_searches**: `string`[]
+> `optional` **related\_searches**: `string`[]
 
 search queries related to the elment
 
@@ -110,15 +110,15 @@ search queries related to the elment
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`related_searches`](../interfaces/IProductConsiderationsExpandedElement.md#related_searches)
 
-#### Source
+#### Defined in
 
-main.ts:36156
+main.ts:36352
 
 ***
 
 ### snippet?
 
-> **`optional`** **snippet**: `string`
+> `optional` **snippet**: `string`
 
 text alongside the link title
 
@@ -126,15 +126,15 @@ text alongside the link title
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`snippet`](../interfaces/IProductConsiderationsExpandedElement.md#snippet)
 
-#### Source
+#### Defined in
 
-main.ts:36145
+main.ts:36341
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 date and time when the result was published
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -145,15 +145,15 @@ example:
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`timestamp`](../interfaces/IProductConsiderationsExpandedElement.md#timestamp)
 
-#### Source
+#### Defined in
 
-main.ts:36154
+main.ts:36350
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the carousel item
 
@@ -161,15 +161,15 @@ title of the carousel item
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`title`](../interfaces/IProductConsiderationsExpandedElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:36139
+main.ts:36335
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -177,15 +177,15 @@ type of element
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`type`](../interfaces/IProductConsiderationsExpandedElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:36137
+main.ts:36333
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of element
 
@@ -193,9 +193,9 @@ URL of element
 
 [`IProductConsiderationsExpandedElement`](../interfaces/IProductConsiderationsExpandedElement.md).[`url`](../interfaces/IProductConsiderationsExpandedElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:36149
+main.ts:36345
 
 ## Methods
 
@@ -211,9 +211,9 @@ main.ts:36149
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:36173
+main.ts:36369
 
 ***
 
@@ -229,15 +229,15 @@ main.ts:36173
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:36203
+main.ts:36399
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
+> `static` **fromJS**(`data`): [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
 #### Parameters
 
@@ -247,6 +247,6 @@ main.ts:36203
 
 [`ProductConsiderationsExpandedElement`](ProductConsiderationsExpandedElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:36196
+main.ts:36392

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,10 +14,10 @@
 
 ### intersections\_count?
 
-> **`optional`** **intersections\_count**: `number`
+> `optional` **intersections\_count**: `number`
 
 total number of intersections
 
-#### Source
+#### Defined in
 
-main.ts:147985
+main.ts:149811

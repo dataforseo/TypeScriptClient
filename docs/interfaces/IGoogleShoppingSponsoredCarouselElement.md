@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,139 +14,139 @@
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency in the ISO format
 example:
 USD
 
-#### Source
+#### Defined in
 
-main.ts:177185
+main.ts:179017
 
 ***
 
 ### delivery\_info?
 
-> **`optional`** **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
+> `optional` **delivery\_info**: [`DeliveryInfo`](../classes/DeliveryInfo.md)
 
 delivery information
 delivery information including free and fast delivery date ranges
 
-#### Source
+#### Defined in
 
-main.ts:177197
+main.ts:179029
 
 ***
 
 ### price?
 
-> **`optional`** **price**: `number`
+> `optional` **price**: `number`
 
 product price
 example:
 384.99
 
-#### Source
+#### Defined in
 
-main.ts:177181
+main.ts:179013
 
 ***
 
 ### product\_images?
 
-> **`optional`** **product\_images**: `string`[]
+> `optional` **product\_images**: `string`[]
 
 URLs to the images of the product
 the first URL in the array is the featured image of the product
 
-#### Source
+#### Defined in
 
-main.ts:177191
+main.ts:179023
 
 ***
 
 ### product\_rating?
 
-> **`optional`** **product\_rating**: [`RatingElement`](../classes/RatingElement.md)
+> `optional` **product\_rating**: [`RatingElement`](../classes/RatingElement.md)
 
 product rating
 the product popularity rate based on product reviews
 
-#### Source
+#### Defined in
 
-main.ts:177188
+main.ts:179020
 
 ***
 
 ### seller?
 
-> **`optional`** **seller**: `string`
+> `optional` **seller**: `string`
 
 name of the seller
 the name of the company that placed a corresponding product on Google Shopping
 
-#### Source
+#### Defined in
 
-main.ts:177177
+main.ts:179009
 
 ***
 
 ### shop\_ad\_aclk?
 
-> **`optional`** **shop\_ad\_aclk**: `string`
+> `optional` **shop\_ad\_aclk**: `string`
 
 unique ad click referral parameter
 using this parameter you can get a URL of the advertisement in Google Shopping Sellers Ad URL
 
-#### Source
+#### Defined in
 
-main.ts:177194
+main.ts:179026
 
 ***
 
 ### tags?
 
-> **`optional`** **tags**: `string`[]
+> `optional` **tags**: `string`[]
 
 tags assigned to the product
 
-#### Source
+#### Defined in
 
-main.ts:177174
+main.ts:179006
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
-#### Source
+#### Defined in
 
-main.ts:177172
+main.ts:179004
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:177168
+main.ts:179000
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:177170
+main.ts:179002

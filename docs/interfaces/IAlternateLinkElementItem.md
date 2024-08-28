@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,165 +18,165 @@
 
 ### direction?
 
-> **`optional`** **direction**: `string`
+> `optional` **direction**: `string`
 
 direction of the link
 possible values: internal, external
 
-#### Source
+#### Defined in
 
-main.ts:160211
+main.ts:162043
 
 ***
 
 ### dofollow?
 
-> **`optional`** **dofollow**: `boolean`
+> `optional` **dofollow**: `boolean`
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
 
-#### Source
+#### Defined in
 
-main.ts:160204
+main.ts:162036
 
 ***
 
 ### domain\_from?
 
-> **`optional`** **domain\_from**: `string`
+> `optional` **domain\_from**: `string`
 
 referring domain
 the link was found on this domain
 
-#### Source
+#### Defined in
 
-main.ts:160186
+main.ts:162018
 
 ***
 
 ### domain\_to?
 
-> **`optional`** **domain\_to**: `string`
+> `optional` **domain\_to**: `string`
 
 referenced domain
 the link is pointing to this domain
 
-#### Source
+#### Defined in
 
-main.ts:160189
+main.ts:162021
 
 ***
 
 ### is\_broken?
 
-> **`optional`** **is\_broken**: `boolean`
+> `optional` **is\_broken**: `boolean`
 
 link is broken
 indicates whether a link is directing to a broken page or resource
 
-#### Source
+#### Defined in
 
-main.ts:160214
+main.ts:162046
 
 ***
 
 ### is\_link\_relation\_conflict?
 
-> **`optional`** **is\_link\_relation\_conflict**: `boolean`
+> `optional` **is\_link\_relation\_conflict**: `boolean`
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
 
-#### Source
+#### Defined in
 
-main.ts:160217
+main.ts:162049
 
 ***
 
 ### link\_from?
 
-> **`optional`** **link\_from**: `string`
+> `optional` **link\_from**: `string`
 
 referring page
 absolute URL of the page on which the link was found
 
-#### Source
+#### Defined in
 
-main.ts:160198
+main.ts:162030
 
 ***
 
 ### link\_to?
 
-> **`optional`** **link\_to**: `string`
+> `optional` **link\_to**: `string`
 
 referenced page
 absolute URL of the page to which the link is pointing
 
-#### Source
+#### Defined in
 
-main.ts:160201
+main.ts:162033
 
 ***
 
 ### page\_from?
 
-> **`optional`** **page\_from**: `string`
+> `optional` **page\_from**: `string`
 
 referring page
 relative URL of the page on which the link was found
 
-#### Source
+#### Defined in
 
-main.ts:160192
+main.ts:162024
 
 ***
 
 ### page\_from\_scheme?
 
-> **`optional`** **page\_from\_scheme**: `string`
+> `optional` **page\_from\_scheme**: `string`
 
 url scheme of the referring page
 
-#### Source
+#### Defined in
 
-main.ts:160206
+main.ts:162038
 
 ***
 
 ### page\_to?
 
-> **`optional`** **page\_to**: `string`
+> `optional` **page\_to**: `string`
 
 referenced page
 relative URL of the page to which the link is pointing
 
-#### Source
+#### Defined in
 
-main.ts:160195
+main.ts:162027
 
 ***
 
 ### page\_to\_scheme?
 
-> **`optional`** **page\_to\_scheme**: `string`
+> `optional` **page\_to\_scheme**: `string`
 
 url scheme of the referenced page
 
-#### Source
+#### Defined in
 
-main.ts:160208
+main.ts:162040
 
 ***
 
 ### page\_to\_status\_code?
 
-> **`optional`** **page\_to\_status\_code**: `number`
+> `optional` **page\_to\_status\_code**: `number`
 
 status code of the referenced page
 status code of the page to which the link is pointing
 
-#### Source
+#### Defined in
 
-main.ts:160220
+main.ts:162052

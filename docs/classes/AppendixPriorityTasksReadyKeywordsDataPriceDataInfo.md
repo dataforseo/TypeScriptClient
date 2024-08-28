@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixPriorityTasksReadyKeywordsDataPriceDataInfo(data)
+### new AppendixPriorityTasksReadyKeywordsDataPriceDataInfo()
 
 > **new AppendixPriorityTasksReadyKeywordsDataPriceDataInfo**(`data`?): [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:221415
+main.ts:225631
 
 ## Properties
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 cost, USD
 
@@ -44,15 +44,15 @@ cost, USD
 
 [`IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md).[`cost`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md#cost)
 
-#### Source
+#### Defined in
 
-main.ts:221411
+main.ts:225627
 
 ***
 
 ### cost\_type?
 
-> **`optional`** **cost\_type**: `string`
+> `optional` **cost\_type**: `string`
 
 charge type
 can take the following values:
@@ -63,9 +63,9 @@ per_request – charge for a GET or POST request
 
 [`IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md).[`cost_type`](../interfaces/IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md#cost_type)
 
-#### Source
+#### Defined in
 
-main.ts:221409
+main.ts:225625
 
 ## Methods
 
@@ -81,9 +81,9 @@ main.ts:221409
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:221424
+main.ts:225640
 
 ***
 
@@ -99,15 +99,15 @@ main.ts:221424
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:221442
+main.ts:225658
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
 
 #### Parameters
 
@@ -117,6 +117,6 @@ main.ts:221442
 
 [`AppendixPriorityTasksReadyKeywordsDataPriceDataInfo`](AppendixPriorityTasksReadyKeywordsDataPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:221435
+main.ts:225651

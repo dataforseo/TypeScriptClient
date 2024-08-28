@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### items?
 
-> **`optional`** **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../classes/DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
+> `optional` **items**: [`DataforseoLabsGoogleHistoricalSearchVolumeLiveItem`](../classes/DataforseoLabsGoogleHistoricalSearchVolumeLiveItem.md)[]
 
 contains keywords and related data
 
-#### Source
+#### Defined in
 
-main.ts:86818
+main.ts:87384
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:86816
+main.ts:87382
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:86814
+main.ts:87380
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:86812
+main.ts:87378
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:86810
+main.ts:87376

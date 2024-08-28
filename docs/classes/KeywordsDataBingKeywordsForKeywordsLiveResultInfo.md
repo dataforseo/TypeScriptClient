@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingKeywordsForKeywordsLiveResultInfo(data)
+### new KeywordsDataBingKeywordsForKeywordsLiveResultInfo()
 
 > **new KeywordsDataBingKeywordsForKeywordsLiveResultInfo**(`data`?): [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:135334
+main.ts:135160
 
 ## Properties
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 product and service categories
 legacy field, the value will always be null
@@ -45,15 +45,15 @@ legacy field, the value will always be null
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`categories`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:135326
+main.ts:135152
 
 ***
 
 ### competition?
 
-> **`optional`** **competition**: `number`
+> `optional` **competition**: `number`
 
 competition
 represents the relative amount of competition associated with the given keyword in paid SERP only. This value is based on Bing Ads data.
@@ -66,15 +66,15 @@ if there is no data the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`competition`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#competition)
 
-#### Source
+#### Defined in
 
-main.ts:135315
+main.ts:135141
 
 ***
 
 ### cpc?
 
-> **`optional`** **cpc**: `number`
+> `optional` **cpc**: `number`
 
 cost-per-click
 represents the average cost per click (USD) historically paid for the keyword.
@@ -84,15 +84,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`cpc`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#cpc)
 
-#### Source
+#### Defined in
 
-main.ts:135319
+main.ts:135145
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 indicates for what device type the data is provided;
@@ -102,15 +102,15 @@ possible values: all, mobile, desktop, tablet
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`device`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:135308
+main.ts:135134
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
@@ -118,15 +118,15 @@ keyword in a POST array
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`keyword`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:135296
+main.ts:135122
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
@@ -135,15 +135,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:135302
+main.ts:135128
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -152,15 +152,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:135299
+main.ts:135125
 
 ***
 
 ### monthly\_searches?
 
-> **`optional`** **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
+> `optional` **monthly\_searches**: [`MonthlySearches`](MonthlySearches.md)[]
 
 monthly searches
 represents the (approximate) number of searches on this keyword (as available for the past twelve months), targeted to the specified geographic locations.
@@ -170,15 +170,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`monthly_searches`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#monthly_searches)
 
-#### Source
+#### Defined in
 
-main.ts:135330
+main.ts:135156
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 indicates whether data from partner networks is included in the response
 
@@ -186,15 +186,15 @@ indicates whether data from partner networks is included in the response
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`search_partners`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#search_partners)
 
-#### Source
+#### Defined in
 
-main.ts:135304
+main.ts:135130
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 monthly average search volume rate
 represents the (approximate) number of searches for the keyword on the Bing search engine, depending on the user’s targetingsearch volume is rounded to the closest decimal values
@@ -204,9 +204,9 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordsForKeywordsLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md).[`search_volume`](../interfaces/IKeywordsDataBingKeywordsForKeywordsLiveResultInfo.md#search_volume)
 
-#### Source
+#### Defined in
 
-main.ts:135323
+main.ts:135149
 
 ## Methods
 
@@ -222,9 +222,9 @@ main.ts:135323
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:135343
+main.ts:135169
 
 ***
 
@@ -240,15 +240,15 @@ main.ts:135343
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:135377
+main.ts:135203
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
 
 #### Parameters
 
@@ -258,6 +258,6 @@ main.ts:135377
 
 [`KeywordsDataBingKeywordsForKeywordsLiveResultInfo`](KeywordsDataBingKeywordsForKeywordsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:135370
+main.ts:135196

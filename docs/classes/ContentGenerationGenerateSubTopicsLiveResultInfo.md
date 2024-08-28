@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationGenerateSubTopicsLiveResultInfo(data)
+### new ContentGenerationGenerateSubTopicsLiveResultInfo()
 
 > **new ContentGenerationGenerateSubTopicsLiveResultInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172844
+main.ts:174676
 
 ## Properties
 
 ### input\_tokens?
 
-> **`optional`** **input\_tokens**: `number`
+> `optional` **input\_tokens**: `number`
 
 number of input tokens
 
@@ -44,15 +44,15 @@ number of input tokens
 
 [`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[`input_tokens`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#input_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:172834
+main.ts:174666
 
 ***
 
 ### new\_tokens?
 
-> **`optional`** **new\_tokens**: `number`
+> `optional` **new\_tokens**: `number`
 
 number of new tokens
 
@@ -60,15 +60,15 @@ number of new tokens
 
 [`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[`new_tokens`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#new_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:172838
+main.ts:174670
 
 ***
 
 ### output\_tokens?
 
-> **`optional`** **output\_tokens**: `number`
+> `optional` **output\_tokens**: `number`
 
 number of output tokens
 
@@ -76,15 +76,15 @@ number of output tokens
 
 [`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[`output_tokens`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#output_tokens)
 
-#### Source
+#### Defined in
 
-main.ts:172836
+main.ts:174668
 
 ***
 
 ### sub\_topics?
 
-> **`optional`** **sub\_topics**: `string`[]
+> `optional` **sub\_topics**: `string`[]
 
 resulting subtopics
 
@@ -92,9 +92,9 @@ resulting subtopics
 
 [`IContentGenerationGenerateSubTopicsLiveResultInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md).[`sub_topics`](../interfaces/IContentGenerationGenerateSubTopicsLiveResultInfo.md#sub_topics)
 
-#### Source
+#### Defined in
 
-main.ts:172840
+main.ts:174672
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:172840
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:172853
+main.ts:174685
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:172853
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:172877
+main.ts:174709
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:172877
 
 [`ContentGenerationGenerateSubTopicsLiveResultInfo`](ContentGenerationGenerateSubTopicsLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172870
+main.ts:174702

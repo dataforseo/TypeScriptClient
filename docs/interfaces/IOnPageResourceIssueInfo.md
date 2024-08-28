@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,22 +16,22 @@ resource errors and warnings
 
 ### errors?
 
-> **`optional`** **errors**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
+> `optional` **errors**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
 
 resource errors
 
-#### Source
+#### Defined in
 
-main.ts:156291
+main.ts:158119
 
 ***
 
 ### warnings?
 
-> **`optional`** **warnings**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
+> `optional` **warnings**: [`OnPageResourceIssueItemInfo`](../classes/OnPageResourceIssueItemInfo.md)[]
 
 resource warnings
 
-#### Source
+#### Defined in
 
-main.ts:156293
+main.ts:158121

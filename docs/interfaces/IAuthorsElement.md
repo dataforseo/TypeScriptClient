@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,46 +14,46 @@
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 author’s link domain
 
-#### Source
+#### Defined in
 
-main.ts:55018
+main.ts:55550
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 name of the dataset author
 
-#### Source
+#### Defined in
 
-main.ts:55014
+main.ts:55546
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:55012
+main.ts:55544
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 author’s link URL
 
-#### Source
+#### Defined in
 
-main.ts:55016
+main.ts:55548

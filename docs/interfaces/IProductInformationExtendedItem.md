@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,22 +18,22 @@
 
 ### contents?
 
-> **`optional`** **contents**: [`ProductInformationRows`](../classes/ProductInformationRows.md)[]
+> `optional` **contents**: [`ProductInformationRows`](../classes/ProductInformationRows.md)[]
 
 contains information specified about the product within the section_name
 
-#### Source
+#### Defined in
 
-main.ts:184818
+main.ts:186650
 
 ***
 
 ### section\_name?
 
-> **`optional`** **section\_name**: `string`
+> `optional` **section\_name**: `string`
 
 name of the section related to product information specified in the contents
 
-#### Source
+#### Defined in
 
-main.ts:184816
+main.ts:186648

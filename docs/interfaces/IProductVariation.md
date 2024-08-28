@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,48 +14,48 @@
 
 ### product\_id?
 
-> **`optional`** **product\_id**: `string`
+> `optional` **product\_id**: `string`
 
 product ID in a POST array
 learn more about the parameter in this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:181168
+main.ts:183000
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 name of the product seller
 
-#### Source
+#### Defined in
 
-main.ts:181170
+main.ts:183002
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:181165
+main.ts:182997
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 seller url
 url of the webpage on the seller’s website where the product is sold
 
-#### Source
+#### Defined in
 
-main.ts:181173
+main.ts:183005

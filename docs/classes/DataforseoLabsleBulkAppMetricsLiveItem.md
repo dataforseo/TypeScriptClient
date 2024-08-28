@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsleBulkAppMetricsLiveItem(data)
+### new DataforseoLabsleBulkAppMetricsLiveItem()
 
 > **new DataforseoLabsleBulkAppMetricsLiveItem**(`data`?): [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:113816
+main.ts:114448
 
 ## Properties
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the app in a POST array
 
@@ -44,20 +44,20 @@ id of the app in a POST array
 
 [`IDataforseoLabsleBulkAppMetricsLiveItem`](../interfaces/IDataforseoLabsleBulkAppMetricsLiveItem.md).[`app_id`](../interfaces/IDataforseoLabsleBulkAppMetricsLiveItem.md#app_id)
 
-#### Source
+#### Defined in
 
-main.ts:113809
+main.ts:114441
 
 ***
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 metrics for the ranking keywords of the app
 ranking data relevant to the keywords that the provided application ranks for on Google Play
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`AppMetricsInfo`](AppMetricsInfo.md)
 
@@ -65,15 +65,15 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 [`IDataforseoLabsleBulkAppMetricsLiveItem`](../interfaces/IDataforseoLabsleBulkAppMetricsLiveItem.md).[`metrics`](../interfaces/IDataforseoLabsleBulkAppMetricsLiveItem.md#metrics)
 
-#### Source
+#### Defined in
 
-main.ts:113812
+main.ts:114444
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -81,9 +81,9 @@ search engine type
 
 [`IDataforseoLabsleBulkAppMetricsLiveItem`](../interfaces/IDataforseoLabsleBulkAppMetricsLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsleBulkAppMetricsLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:113807
+main.ts:114439
 
 ## Methods
 
@@ -99,9 +99,9 @@ main.ts:113807
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:113825
+main.ts:114457
 
 ***
 
@@ -117,15 +117,15 @@ main.ts:113825
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:113850
+main.ts:114482
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
 
 #### Parameters
 
@@ -135,6 +135,6 @@ main.ts:113850
 
 [`DataforseoLabsleBulkAppMetricsLiveItem`](DataforseoLabsleBulkAppMetricsLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:113843
+main.ts:114475

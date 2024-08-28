@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### categories?
 
-> **`optional`** **categories**: `string`[]
+> `optional` **categories**: `string`[]
 
 ids of the target technology categories
 required field if you don’t specify groups, technology_paths, keywords or technologies
@@ -23,42 +23,42 @@ note: you can specify up to 10 technology categories in this array
 example:
 ["payment_processors","crm"]
 
-#### Source
+#### Defined in
 
-main.ts:78642
+main.ts:79238
 
 ***
 
 ### filters?
 
-> **`optional`** **filters**: `any`[]
+> `optional` **filters**: `any`[]
 
 array of results filtering parameters
 optional field
 you can add several filters at once (8 filters maximum)
 you should set a logical operator and, or between the conditions
 the following operators are supported:
-<, `<=, >`, >=, =, `<>`, in, not_in, like, not_like
+<, <=, >, >=, =, <>, in, not_in, like, not_like
 you can use the % operator with like and not_like to match any string of zero or more characters
 example:
 ["country_iso_code","=","US"]
 [["country_iso_code","=","US"],
 "and",
-["domain_rank",">`",100]]
+["domain_rank",">",100]]
 [["domain_rank",">",100],
 "and",
 [["country_iso_code","=","US"],"or",["country_iso_code","=","CA"]]]
 for more information about filters, please refer to Domain Analytics Technologies API – Filters
 
-#### Source
+#### Defined in
 
-main.ts:78681
+main.ts:79277
 
 ***
 
 ### groups?
 
-> **`optional`** **groups**: `string`[]
+> `optional` **groups**: `string`[]
 
 ids of the target technology groups
 required field if you don’t specify technologies, technology_paths, keywords or categories
@@ -67,15 +67,15 @@ note: you can specify up to 10 technology groups in this array
 example:
 ["sales", "marketing"]
 
-#### Source
+#### Defined in
 
-main.ts:78635
+main.ts:79231
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 target keywords in the domain’s title, description or meta keywords
 required field if you don’t specify groups, technology_paths, technologies or categories
@@ -85,30 +85,30 @@ UTF-8 encoding;
 example:
 ["seo","software"]
 
-#### Source
+#### Defined in
 
-main.ts:78657
+main.ts:79253
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned domains
 optional field
 default value: 100
 maximum value: 10000
 
-#### Source
+#### Defined in
 
-main.ts:78703
+main.ts:79299
 
 ***
 
 ### mode?
 
-> **`optional`** **mode**: `string`
+> `optional` **mode**: `string`
 
 search mode
 optional field
@@ -117,15 +117,15 @@ as_is – search for results exactly matching the specified group ids, category 
 entry – search for results matching a part of the specified group ids, category ids, or technology names
 default value: as_is
 
-#### Source
+#### Defined in
 
-main.ts:78664
+main.ts:79260
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned domains
 optional field
@@ -134,15 +134,15 @@ if you specify the 10 value, the first ten domains in the results array will be 
 Note: the maximum value is 9999, the sum of limit and offset must not exceed 10000;
 use the offset_token if you would like to offset more results
 
-#### Source
+#### Defined in
 
-main.ts:78710
+main.ts:79306
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 token for subsequent requests
 optional field
@@ -152,15 +152,15 @@ by specifying the unique offset_token value from the response array, you will ge
 offset_token values are unique for each subsequent task
 Note: if the offset_token is specified in the request, all other parameters should be identical to the previous request
 
-#### Source
+#### Defined in
 
-main.ts:78718
+main.ts:79314
 
 ***
 
 ### order\_by?
 
-> **`optional`** **order\_by**: `string`[]
+> `optional` **order\_by**: `string`[]
 
 results sorting rules
 optional field
@@ -179,15 +179,15 @@ you should use a comma to separate several sorting rules
 example:
 ["last_visited,desc","domain_rank,desc"]
 
-#### Source
+#### Defined in
 
-main.ts:78698
+main.ts:79294
 
 ***
 
 ### technologies?
 
-> **`optional`** **technologies**: `string`[]
+> `optional` **technologies**: `string`[]
 
 target technologies
 required field if you don’t specify groups, technology_paths, keywords or categories
@@ -196,15 +196,15 @@ note: you can specify up to 10 technologies in this array
 example:
 ["Google Pay","Salesforce"]
 
-#### Source
+#### Defined in
 
-main.ts:78649
+main.ts:79245
 
 ***
 
 ### technology\_paths?
 
-> **`optional`** **technology\_paths**: `string`[]
+> `optional` **technology\_paths**: `string`[]
 
 target technology paths
 required field if you don’t specify groups, technologies, keywords or categories
@@ -214,8 +214,8 @@ each object with a technology path should be separated with a comma
 you can find the full list of technology group ids, category ids and technology names on this page
 note: you can specify up to 10 technology paths in this array
 example:
-[\{"path": "content.cms","name": "wordpress"\}, \{"path": "marketing.crm","name": "salesforce"\}]
+[{"path": "content.cms","name": "wordpress"}, {"path": "marketing.crm","name": "salesforce"}]
 
-#### Source
+#### Defined in
 
-main.ts:78628
+main.ts:79224

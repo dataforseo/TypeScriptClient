@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,22 +18,22 @@
 
 ### department?
 
-> **`optional`** **department**: `string`
+> `optional` **department**: `string`
 
 amazon product department
 optional field
 specify one of the following amazon departments for extracting product listings:
 "Arts & Crafts", "Automotive", "Baby", "Beauty & Personal Care", "Books", "Computers", "Digital Music", "Electronics", "Kindle Store", "Prime Video", "Women's Fashion", "Men's Fashion", "Girls' Fashion", "Boys' Fashion", "Deals", "Health & Household", "Home & Kitchen", "Industrial & Scientific", "Luggage", "Movies & TV", "Music, CDs & Vinyl", "Pet Supplies", "Software", "Sports & Outdoors", "Tools & Home Improvement", "Toys & Games", "Video Games"
 
-#### Source
+#### Defined in
 
-main.ts:182380
+main.ts:184212
 
 ***
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -48,15 +48,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`depth`](IMerchantTaskRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:154404
+main.ts:156230
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -69,15 +69,15 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`keyword`](IMerchantTaskRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:154337
+main.ts:156163
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code
 required field if you don’t specify language_name
@@ -90,15 +90,15 @@ en
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`language_code`](IMerchantTaskRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:154388
+main.ts:156214
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of the language
 required field if you don’t specify language_code
@@ -111,15 +111,15 @@ English
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`language_name`](IMerchantTaskRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:154381
+main.ts:156207
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 required field if you don’t specify location_name or location_coordinate
@@ -132,15 +132,15 @@ example:
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`location_code`](IMerchantTaskRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:154365
+main.ts:156191
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -155,15 +155,15 @@ example:
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`location_coordinate`](IMerchantTaskRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:154374
+main.ts:156200
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 required field if you don’t specify location_code or location_coordinate
@@ -176,15 +176,15 @@ London,England,United Kingdom
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`location_name`](IMerchantTaskRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:154358
+main.ts:156184
 
 ***
 
 ### max\_crawl\_pages?
 
-> **`optional`** **max\_crawl\_pages**: `number`
+> `optional` **max\_crawl\_pages**: `number`
 
 page crawl limit
 optional field
@@ -197,15 +197,15 @@ learn more at our help center
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`max_crawl_pages`](IMerchantTaskRequestInfo.md#max_crawl_pages)
 
-#### Source
+#### Defined in
 
-main.ts:154411
+main.ts:156237
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -221,15 +221,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`pingback_url`](IMerchantTaskRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:154473
+main.ts:156299
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -241,15 +241,15 @@ advanced, html
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`postback_data`](IMerchantTaskRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:154463
+main.ts:156289
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -265,15 +265,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`postback_url`](IMerchantTaskRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:154457
+main.ts:156283
 
 ***
 
 ### price\_max?
 
-> **`optional`** **price\_max**: `number`
+> `optional` **price\_max**: `number`
 
 maximum product price
 optional field
@@ -285,15 +285,15 @@ example:
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`price_max`](IMerchantTaskRequestInfo.md#price_max)
 
-#### Source
+#### Defined in
 
-main.ts:154434
+main.ts:156260
 
 ***
 
 ### price\_min?
 
-> **`optional`** **price\_min**: `number`
+> `optional` **price\_min**: `number`
 
 minimum product price
 optional field
@@ -305,15 +305,15 @@ example:
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`price_min`](IMerchantTaskRequestInfo.md#price_min)
 
-#### Source
+#### Defined in
 
-main.ts:154428
+main.ts:156254
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -327,15 +327,15 @@ The cost can be calculated on the Pricing page.
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`priority`](IMerchantTaskRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:154351
+main.ts:156177
 
 ***
 
 ### se\_domain?
 
-> **`optional`** **se\_domain**: `string`
+> `optional` **se\_domain**: `string`
 
 search engine domain
 optional field
@@ -348,15 +348,15 @@ google.co.uk, google.com.au, google.de, etc.
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`se_domain`](IMerchantTaskRequestInfo.md#se_domain)
 
-#### Source
+#### Defined in
 
-main.ts:154395
+main.ts:156221
 
 ***
 
 ### search\_param?
 
-> **`optional`** **search\_param**: `string`
+> `optional` **search\_param**: `string`
 
 additional parameters of the search query
 optional field
@@ -373,15 +373,15 @@ example:
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`search_param`](IMerchantTaskRequestInfo.md#search_param)
 
-#### Source
+#### Defined in
 
-main.ts:154422
+main.ts:156248
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting rules
 optional field
@@ -394,15 +394,15 @@ sort_by:"review_score"
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`sort_by`](IMerchantTaskRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:154441
+main.ts:156267
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -414,15 +414,15 @@ you will find the specified tag value in the data object of the response
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`tag`](IMerchantTaskRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:154447
+main.ts:156273
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 direct URL of the search query
 optional field
@@ -434,6 +434,6 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 [`IMerchantTaskRequestInfo`](IMerchantTaskRequestInfo.md).[`url`](IMerchantTaskRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:154343
+main.ts:156169

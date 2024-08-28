@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -22,7 +22,7 @@
 
 ## Constructors
 
-### new BaseDataforseoTrendsItem(data)
+### new BaseDataforseoTrendsItem()
 
 > **new BaseDataforseoTrendsItem**(`data`?): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
@@ -34,19 +34,19 @@
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21458
+main.ts:21640
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:21456
+main.ts:21638
 
 ## Methods
 
@@ -62,9 +62,9 @@ main.ts:21456
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21468
+main.ts:21650
 
 ***
 
@@ -80,15 +80,15 @@ main.ts:21468
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21499
+main.ts:21681
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
+> `static` **fromJS**(`data`): [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
 #### Parameters
 
@@ -98,6 +98,6 @@ main.ts:21499
 
 [`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21477
+main.ts:21659

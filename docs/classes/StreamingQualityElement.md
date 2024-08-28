@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new StreamingQualityElement(data)
+### new StreamingQualityElement()
 
 > **new StreamingQualityElement**(`data`?): [`StreamingQualityElement`](StreamingQualityElement.md)
 
@@ -28,15 +28,15 @@
 
 [`StreamingQualityElement`](StreamingQualityElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:62907
+main.ts:63497
 
 ## Properties
 
 ### bitrate?
 
-> **`optional`** **bitrate**: `number`
+> `optional` **bitrate**: `number`
 
 bit rate of the video
 
@@ -44,15 +44,15 @@ bit rate of the video
 
 [`IStreamingQualityElement`](../interfaces/IStreamingQualityElement.md).[`bitrate`](../interfaces/IStreamingQualityElement.md#bitrate)
 
-#### Source
+#### Defined in
 
-main.ts:62899
+main.ts:63489
 
 ***
 
 ### fps?
 
-> **`optional`** **fps**: `number`
+> `optional` **fps**: `number`
 
 frame rate of the video
 
@@ -60,15 +60,15 @@ frame rate of the video
 
 [`IStreamingQualityElement`](../interfaces/IStreamingQualityElement.md).[`fps`](../interfaces/IStreamingQualityElement.md#fps)
 
-#### Source
+#### Defined in
 
-main.ts:62903
+main.ts:63493
 
 ***
 
 ### height?
 
-> **`optional`** **height**: `number`
+> `optional` **height**: `number`
 
 video height in pixels
 
@@ -76,15 +76,15 @@ video height in pixels
 
 [`IStreamingQualityElement`](../interfaces/IStreamingQualityElement.md).[`height`](../interfaces/IStreamingQualityElement.md#height)
 
-#### Source
+#### Defined in
 
-main.ts:62897
+main.ts:63487
 
 ***
 
 ### label?
 
-> **`optional`** **label**: `string`
+> `optional` **label**: `string`
 
 label of the quality element
 
@@ -92,15 +92,15 @@ label of the quality element
 
 [`IStreamingQualityElement`](../interfaces/IStreamingQualityElement.md).[`label`](../interfaces/IStreamingQualityElement.md#label)
 
-#### Source
+#### Defined in
 
-main.ts:62893
+main.ts:63483
 
 ***
 
 ### mime\_type?
 
-> **`optional`** **mime\_type**: `string`
+> `optional` **mime\_type**: `string`
 
 media type of the video
 
@@ -108,15 +108,15 @@ media type of the video
 
 [`IStreamingQualityElement`](../interfaces/IStreamingQualityElement.md).[`mime_type`](../interfaces/IStreamingQualityElement.md#mime_type)
 
-#### Source
+#### Defined in
 
-main.ts:62901
+main.ts:63491
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -124,15 +124,15 @@ type of element
 
 [`IStreamingQualityElement`](../interfaces/IStreamingQualityElement.md).[`type`](../interfaces/IStreamingQualityElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:62891
+main.ts:63481
 
 ***
 
 ### width?
 
-> **`optional`** **width**: `number`
+> `optional` **width**: `number`
 
 video width in pixels
 
@@ -140,9 +140,9 @@ video width in pixels
 
 [`IStreamingQualityElement`](../interfaces/IStreamingQualityElement.md).[`width`](../interfaces/IStreamingQualityElement.md#width)
 
-#### Source
+#### Defined in
 
-main.ts:62895
+main.ts:63485
 
 ## Methods
 
@@ -158,9 +158,9 @@ main.ts:62895
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:62916
+main.ts:63506
 
 ***
 
@@ -176,15 +176,15 @@ main.ts:62916
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:62939
+main.ts:63529
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`StreamingQualityElement`](StreamingQualityElement.md)
+> `static` **fromJS**(`data`): [`StreamingQualityElement`](StreamingQualityElement.md)
 
 #### Parameters
 
@@ -194,6 +194,6 @@ main.ts:62939
 
 [`StreamingQualityElement`](StreamingQualityElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:62932
+main.ts:63522

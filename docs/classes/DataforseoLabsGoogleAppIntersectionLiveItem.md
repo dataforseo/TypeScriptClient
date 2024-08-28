@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleAppIntersectionLiveItem(data)
+### new DataforseoLabsGoogleAppIntersectionLiveItem()
 
 > **new DataforseoLabsGoogleAppIntersectionLiveItem**(`data`?): [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)
 
@@ -28,21 +28,21 @@
 
 [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:115737
+main.ts:116369
 
 ## Properties
 
 ### intersection\_result?
 
-> **`optional`** **intersection\_result**: `Object`
+> `optional` **intersection\_result**: `object`
 
 contains SERP data for the returned keyword
 data will be provided in separate arrays for each app ID you specified in the app_ids object when setting a task;
 depending on the number of specified app IDs, it can contain from 1 to 20 arrays named respectively
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`AppDataGooglePlaySearchOrganicSerpElementItem`](AppDataGooglePlaySearchOrganicSerpElementItem.md)
 
@@ -50,15 +50,15 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 [`IDataforseoLabsGoogleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveItem.md).[`intersection_result`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveItem.md#intersection_result)
 
-#### Source
+#### Defined in
 
-main.ts:115733
+main.ts:116365
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordData`](KeywordData.md)
 
 keyword data for the returned keyword
 
@@ -66,15 +66,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsGoogleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:115729
+main.ts:116361
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -82,9 +82,9 @@ search engine type
 
 [`IDataforseoLabsGoogleAppIntersectionLiveItem`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleAppIntersectionLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:115727
+main.ts:116359
 
 ## Methods
 
@@ -100,9 +100,9 @@ main.ts:115727
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:115746
+main.ts:116378
 
 ***
 
@@ -118,15 +118,15 @@ main.ts:115746
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:115771
+main.ts:116403
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)
 
 #### Parameters
 
@@ -136,6 +136,6 @@ main.ts:115771
 
 [`DataforseoLabsGoogleAppIntersectionLiveItem`](DataforseoLabsGoogleAppIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:115764
+main.ts:116396

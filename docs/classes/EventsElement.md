@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new EventsElement(data)
+### new EventsElement()
 
 > **new EventsElement**(`data`?): [`EventsElement`](EventsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`EventsElement`](EventsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:32581
+main.ts:32777
 
 ## Properties
 
 ### snippet?
 
-> **`optional`** **snippet**: `string`
+> `optional` **snippet**: `string`
 
 text alongside the link title
 
@@ -44,15 +44,15 @@ text alongside the link title
 
 [`IEventsElement`](../interfaces/IEventsElement.md).[`snippet`](../interfaces/IEventsElement.md#snippet)
 
-#### Source
+#### Defined in
 
-main.ts:32575
+main.ts:32771
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -60,15 +60,15 @@ title of a given link element
 
 [`IEventsElement`](../interfaces/IEventsElement.md).[`title`](../interfaces/IEventsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:32573
+main.ts:32769
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -76,15 +76,15 @@ type of element
 
 [`IEventsElement`](../interfaces/IEventsElement.md).[`type`](../interfaces/IEventsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:32571
+main.ts:32767
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -92,9 +92,9 @@ URL
 
 [`IEventsElement`](../interfaces/IEventsElement.md).[`url`](../interfaces/IEventsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:32577
+main.ts:32773
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:32577
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:32590
+main.ts:32786
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:32590
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:32610
+main.ts:32806
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`EventsElement`](EventsElement.md)
+> `static` **fromJS**(`data`): [`EventsElement`](EventsElement.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:32610
 
 [`EventsElement`](EventsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:32603
+main.ts:32799

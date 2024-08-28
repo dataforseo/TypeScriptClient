@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo(data)
+### new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo()
 
 > **new DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo**(`data`?): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
@@ -28,20 +28,20 @@
 
 [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:77759
+main.ts:78355
 
 ## Properties
 
 ### content\_languages?
 
-> **`optional`** **content\_languages**: `Object`
+> `optional` **content\_languages**: `object`
 
 distribution of websites by content language
 contains content language codes and number of websites per language
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -49,20 +49,20 @@ contains content language codes and number of websites per language
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[`content_languages`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#content_languages)
 
-#### Source
+#### Defined in
 
-main.ts:77752
+main.ts:78348
 
 ***
 
 ### countries?
 
-> **`optional`** **countries**: `Object`
+> `optional` **countries**: `object`
 
 distribution of websites by country
 contains country codes and number of websites per country
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -70,20 +70,20 @@ contains country codes and number of websites per country
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[`countries`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#countries)
 
-#### Source
+#### Defined in
 
-main.ts:77746
+main.ts:78342
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `Object`
+> `optional` **keywords**: `object`
 
 distribution of websites by keywords
 contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -91,20 +91,20 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[`keywords`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:77755
+main.ts:78351
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `Object`
+> `optional` **languages**: `object`
 
 distribution of websites by language
 contains language codes and number of websites per language
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -112,9 +112,9 @@ contains language codes and number of websites per language
 
 [`IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md).[`languages`](../interfaces/IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:77749
+main.ts:78345
 
 ## Methods
 
@@ -130,9 +130,9 @@ main.ts:77749
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:77768
+main.ts:78364
 
 ***
 
@@ -148,15 +148,15 @@ main.ts:77768
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:77812
+main.ts:78408
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
 #### Parameters
 
@@ -166,6 +166,6 @@ main.ts:77812
 
 [`DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo`](DomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:77805
+main.ts:78401

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,50 +14,50 @@
 
 ### first\_domain\_serp\_element?
 
-> **`optional`** **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
+> `optional` **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
-#### Source
+#### Defined in
 
-main.ts:109473
+main.ts:110103
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
+> `optional` **keyword\_data**: [`KeywordData`](../classes/KeywordData.md)
 
 keyword data for the returned keyword
 
-#### Source
+#### Defined in
 
-main.ts:109470
+main.ts:110100
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 search engine type specified in a POST request;
 for this endpoint, the field equals bing
 
-#### Source
+#### Defined in
 
-main.ts:109468
+main.ts:110098
 
 ***
 
 ### second\_domain\_serp\_element?
 
-> **`optional`** **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
+> `optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](../classes/BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
 
-#### Source
+#### Defined in
 
-main.ts:109476
+main.ts:110106

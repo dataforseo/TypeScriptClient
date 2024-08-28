@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingSearchVolumeTaskPostRequestInfo(data)
+### new KeywordsDataBingSearchVolumeTaskPostRequestInfo()
 
 > **new KeywordsDataBingSearchVolumeTaskPostRequestInfo**(`data`?): [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:131593
+main.ts:131417
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -51,15 +51,15 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`date_from`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:131547
+main.ts:131371
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -76,15 +76,15 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`date_to`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:131558
+main.ts:131382
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -95,15 +95,15 @@ default value: all
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`device`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:131533
+main.ts:131357
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -115,15 +115,15 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`keywords`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:131494
+main.ts:131318
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -135,15 +135,15 @@ en, fr, de
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`language_code`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:131528
+main.ts:131352
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -155,15 +155,15 @@ English, French, German
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`language_name`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:131522
+main.ts:131346
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -176,15 +176,15 @@ example:
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`location_code`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:131508
+main.ts:131332
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -198,15 +198,15 @@ example:
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:131516
+main.ts:131340
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -219,15 +219,15 @@ London,England,United Kingdom
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`location_name`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:131501
+main.ts:131325
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -243,15 +243,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:131578
+main.ts:131402
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -267,15 +267,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`postback_url`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:131568
+main.ts:131392
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 Bing search partners type
 optional field
@@ -286,15 +286,15 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`search_partners`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#search_partners)
 
-#### Source
+#### Defined in
 
-main.ts:131583
+main.ts:131407
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -305,15 +305,15 @@ default value: relevance
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`sort_by`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:131538
+main.ts:131362
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -325,9 +325,9 @@ you will find the specified tag value in the data object of the response
 
 [`IKeywordsDataBingSearchVolumeTaskPostRequestInfo`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md).[`tag`](../interfaces/IKeywordsDataBingSearchVolumeTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:131589
+main.ts:131413
 
 ## Methods
 
@@ -343,9 +343,9 @@ main.ts:131589
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:131602
+main.ts:131426
 
 ***
 
@@ -361,15 +361,15 @@ main.ts:131602
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:131636
+main.ts:131460
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -379,6 +379,6 @@ main.ts:131636
 
 [`KeywordsDataBingSearchVolumeTaskPostRequestInfo`](KeywordsDataBingSearchVolumeTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:131629
+main.ts:131453

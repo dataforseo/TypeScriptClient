@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixAppDataLimitsRatesDataInfo(data)
+### new AppendixAppDataLimitsRatesDataInfo()
 
 > **new AppendixAppDataLimitsRatesDataInfo**(`data`?): [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
 
@@ -28,135 +28,135 @@
 
 [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220133
+main.ts:222041
 
 ## Properties
 
 ### app\_info?
 
-> **`optional`** **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_info**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`app_info`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#app_info)
 
-#### Source
+#### Defined in
 
-main.ts:220121
+main.ts:222029
 
 ***
 
 ### app\_list?
 
-> **`optional`** **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_list**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`app_list`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#app_list)
 
-#### Source
+#### Defined in
 
-main.ts:220122
+main.ts:222030
 
 ***
 
 ### app\_reviews?
 
-> **`optional`** **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_reviews**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`app_reviews`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#app_reviews)
 
-#### Source
+#### Defined in
 
-main.ts:220123
+main.ts:222031
 
 ***
 
 ### app\_searches?
 
-> **`optional`** **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **app\_searches**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`app_searches`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#app_searches)
 
-#### Source
+#### Defined in
 
-main.ts:220124
+main.ts:222032
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: `number`
+> `optional` **categories**: `number`
 
 #### Implementation of
 
 [`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`categories`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:220128
+main.ts:222036
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
 #### Implementation of
 
 [`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`errors`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:220125
+main.ts:222033
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
 #### Implementation of
 
 [`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`languages`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:220126
+main.ts:222034
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
 #### Implementation of
 
 [`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`locations`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:220127
+main.ts:222035
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
 #### Implementation of
 
 [`IAppendixAppDataLimitsRatesDataInfo`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md).[`tasks_ready`](../interfaces/IAppendixAppDataLimitsRatesDataInfo.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:220129
+main.ts:222037
 
 ## Methods
 
@@ -172,9 +172,9 @@ main.ts:220129
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:220142
+main.ts:222050
 
 ***
 
@@ -190,15 +190,15 @@ main.ts:220142
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:220167
+main.ts:222075
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
 
 #### Parameters
 
@@ -208,6 +208,6 @@ main.ts:220167
 
 [`AppendixAppDataLimitsRatesDataInfo`](AppendixAppDataLimitsRatesDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220160
+main.ts:222068

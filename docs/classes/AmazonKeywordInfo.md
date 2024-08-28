@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AmazonKeywordInfo(data)
+### new AmazonKeywordInfo()
 
 > **new AmazonKeywordInfo**(`data`?): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22465
+main.ts:22647
 
 ## Properties
 
 ### last\_updated\_time?
 
-> **`optional`** **last\_updated\_time**: `string`
+> `optional` **last\_updated\_time**: `string`
 
 date and time when keyword data was updated
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -46,15 +46,15 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 [`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md).[`last_updated_time`](../interfaces/IAmazonKeywordInfo.md#last_updated_time)
 
-#### Source
+#### Defined in
 
-main.ts:22458
+main.ts:22640
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -62,15 +62,15 @@ search engine type
 
 [`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md).[`se_type`](../interfaces/IAmazonKeywordInfo.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:22454
+main.ts:22636
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: `number`
+> `optional` **search\_volume**: `number`
 
 average monthly search volume rate
 represents the (approximate) number of searches for the provided keyword idea on Amazon
@@ -79,9 +79,9 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 [`IAmazonKeywordInfo`](../interfaces/IAmazonKeywordInfo.md).[`search_volume`](../interfaces/IAmazonKeywordInfo.md#search_volume)
 
-#### Source
+#### Defined in
 
-main.ts:22461
+main.ts:22643
 
 ## Methods
 
@@ -97,9 +97,9 @@ main.ts:22461
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22474
+main.ts:22656
 
 ***
 
@@ -115,15 +115,15 @@ main.ts:22474
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22493
+main.ts:22675
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
+> `static` **fromJS**(`data`): [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
 #### Parameters
 
@@ -133,6 +133,6 @@ main.ts:22493
 
 [`AmazonKeywordInfo`](AmazonKeywordInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22486
+main.ts:22668

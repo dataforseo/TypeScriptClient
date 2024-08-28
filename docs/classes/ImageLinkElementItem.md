@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new ImageLinkElementItem(data)
+### new ImageLinkElementItem()
 
 > **new ImageLinkElementItem**(`data`?): [`ImageLinkElementItem`](ImageLinkElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`constructor`](BaseOnPageLinkItemInfo.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:159955
+main.ts:161787
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`_discriminator`](BaseOnPageLinkItemInfo.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21320
+main.ts:21502
 
 ***
 
 ### direction?
 
-> **`optional`** **direction**: `string`
+> `optional` **direction**: `string`
 
 direction of the link
 possible values: internal, external
@@ -67,15 +67,15 @@ possible values: internal, external
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`direction`](../interfaces/IImageLinkElementItem.md#direction)
 
-#### Source
+#### Defined in
 
-main.ts:159936
+main.ts:161768
 
 ***
 
 ### dofollow?
 
-> **`optional`** **dofollow**: `boolean`
+> `optional` **dofollow**: `boolean`
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
@@ -84,15 +84,15 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`dofollow`](../interfaces/IImageLinkElementItem.md#dofollow)
 
-#### Source
+#### Defined in
 
-main.ts:159929
+main.ts:161761
 
 ***
 
 ### domain\_from?
 
-> **`optional`** **domain\_from**: `string`
+> `optional` **domain\_from**: `string`
 
 referring domain
 the link was found on this domain
@@ -101,15 +101,15 @@ the link was found on this domain
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`domain_from`](../interfaces/IImageLinkElementItem.md#domain_from)
 
-#### Source
+#### Defined in
 
-main.ts:159906
+main.ts:161738
 
 ***
 
 ### domain\_to?
 
-> **`optional`** **domain\_to**: `string`
+> `optional` **domain\_to**: `string`
 
 referenced domain
 the link is pointing to this domain
@@ -118,15 +118,15 @@ the link is pointing to this domain
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`domain_to`](../interfaces/IImageLinkElementItem.md#domain_to)
 
-#### Source
+#### Defined in
 
-main.ts:159909
+main.ts:161741
 
 ***
 
 ### image\_alt?
 
-> **`optional`** **image\_alt**: `string`
+> `optional` **image\_alt**: `string`
 
 alternative text for the image
 
@@ -134,15 +134,15 @@ alternative text for the image
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`image_alt`](../interfaces/IImageLinkElementItem.md#image_alt)
 
-#### Source
+#### Defined in
 
-main.ts:159943
+main.ts:161775
 
 ***
 
 ### image\_src?
 
-> **`optional`** **image\_src**: `string`
+> `optional` **image\_src**: `string`
 
 url of the image
 
@@ -150,15 +150,15 @@ url of the image
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`image_src`](../interfaces/IImageLinkElementItem.md#image_src)
 
-#### Source
+#### Defined in
 
-main.ts:159945
+main.ts:161777
 
 ***
 
 ### is\_broken?
 
-> **`optional`** **is\_broken**: `boolean`
+> `optional` **is\_broken**: `boolean`
 
 link is broken
 indicates whether a link is directing to a broken page or resource
@@ -167,15 +167,15 @@ indicates whether a link is directing to a broken page or resource
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`is_broken`](../interfaces/IImageLinkElementItem.md#is_broken)
 
-#### Source
+#### Defined in
 
-main.ts:159939
+main.ts:161771
 
 ***
 
 ### is\_link\_relation\_conflict?
 
-> **`optional`** **is\_link\_relation\_conflict**: `boolean`
+> `optional` **is\_link\_relation\_conflict**: `boolean`
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
@@ -184,15 +184,15 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`is_link_relation_conflict`](../interfaces/IImageLinkElementItem.md#is_link_relation_conflict)
 
-#### Source
+#### Defined in
 
-main.ts:159948
+main.ts:161780
 
 ***
 
 ### link\_attribute?
 
-> **`optional`** **link\_attribute**: `string`[]
+> `optional` **link\_attribute**: `string`[]
 
 link attribute added to external link
 indicates link attributes added to the link_to on the page_from
@@ -203,15 +203,15 @@ example:
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`link_attribute`](../interfaces/IImageLinkElementItem.md#link_attribute)
 
-#### Source
+#### Defined in
 
-main.ts:159926
+main.ts:161758
 
 ***
 
 ### link\_from?
 
-> **`optional`** **link\_from**: `string`
+> `optional` **link\_from**: `string`
 
 referring page
 absolute URL of the page on which the link was found
@@ -220,15 +220,15 @@ absolute URL of the page on which the link was found
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`link_from`](../interfaces/IImageLinkElementItem.md#link_from)
 
-#### Source
+#### Defined in
 
-main.ts:159918
+main.ts:161750
 
 ***
 
 ### link\_to?
 
-> **`optional`** **link\_to**: `string`
+> `optional` **link\_to**: `string`
 
 referenced page
 absolute URL of the page to which the link is pointing
@@ -237,15 +237,15 @@ absolute URL of the page to which the link is pointing
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`link_to`](../interfaces/IImageLinkElementItem.md#link_to)
 
-#### Source
+#### Defined in
 
-main.ts:159921
+main.ts:161753
 
 ***
 
 ### page\_from?
 
-> **`optional`** **page\_from**: `string`
+> `optional` **page\_from**: `string`
 
 referring page
 relative URL of the page on which the link was found
@@ -254,15 +254,15 @@ relative URL of the page on which the link was found
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_from`](../interfaces/IImageLinkElementItem.md#page_from)
 
-#### Source
+#### Defined in
 
-main.ts:159912
+main.ts:161744
 
 ***
 
 ### page\_from\_scheme?
 
-> **`optional`** **page\_from\_scheme**: `string`
+> `optional` **page\_from\_scheme**: `string`
 
 url scheme of the referring page
 
@@ -270,15 +270,15 @@ url scheme of the referring page
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_from_scheme`](../interfaces/IImageLinkElementItem.md#page_from_scheme)
 
-#### Source
+#### Defined in
 
-main.ts:159931
+main.ts:161763
 
 ***
 
 ### page\_to?
 
-> **`optional`** **page\_to**: `string`
+> `optional` **page\_to**: `string`
 
 referenced page
 relative URL of the page to which the link is pointing
@@ -287,15 +287,15 @@ relative URL of the page to which the link is pointing
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_to`](../interfaces/IImageLinkElementItem.md#page_to)
 
-#### Source
+#### Defined in
 
-main.ts:159915
+main.ts:161747
 
 ***
 
 ### page\_to\_scheme?
 
-> **`optional`** **page\_to\_scheme**: `string`
+> `optional` **page\_to\_scheme**: `string`
 
 url scheme of the referenced page
 
@@ -303,15 +303,15 @@ url scheme of the referenced page
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_to_scheme`](../interfaces/IImageLinkElementItem.md#page_to_scheme)
 
-#### Source
+#### Defined in
 
-main.ts:159933
+main.ts:161765
 
 ***
 
 ### page\_to\_status\_code?
 
-> **`optional`** **page\_to\_status\_code**: `number`
+> `optional` **page\_to\_status\_code**: `number`
 
 status code of the referenced page
 status code of the page to which the link is pointing
@@ -320,15 +320,15 @@ status code of the page to which the link is pointing
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`page_to_status_code`](../interfaces/IImageLinkElementItem.md#page_to_status_code)
 
-#### Source
+#### Defined in
 
-main.ts:159951
+main.ts:161783
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 anchor text
 
@@ -336,9 +336,9 @@ anchor text
 
 [`IImageLinkElementItem`](../interfaces/IImageLinkElementItem.md).[`text`](../interfaces/IImageLinkElementItem.md#text)
 
-#### Source
+#### Defined in
 
-main.ts:159941
+main.ts:161773
 
 ## Methods
 
@@ -358,9 +358,9 @@ main.ts:159941
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`init`](BaseOnPageLinkItemInfo.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:159960
+main.ts:161792
 
 ***
 
@@ -380,15 +380,15 @@ main.ts:159960
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`toJSON`](BaseOnPageLinkItemInfo.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:159998
+main.ts:161830
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ImageLinkElementItem`](ImageLinkElementItem.md)
+> `static` **fromJS**(`data`): [`ImageLinkElementItem`](ImageLinkElementItem.md)
 
 #### Parameters
 
@@ -402,6 +402,6 @@ main.ts:159998
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`fromJS`](BaseOnPageLinkItemInfo.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:159991
+main.ts:161823

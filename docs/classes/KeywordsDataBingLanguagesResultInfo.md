@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingLanguagesResultInfo(data)
+### new KeywordsDataBingLanguagesResultInfo()
 
 > **new KeywordsDataBingLanguagesResultInfo**(`data`?): [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:131330
+main.ts:131154
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IKeywordsDataBingLanguagesResultInfo`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:131326
+main.ts:131150
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IKeywordsDataBingLanguagesResultInfo`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md).[`language_name`](../interfaces/IKeywordsDataBingLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:131324
+main.ts:131148
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:131324
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:131339
+main.ts:131163
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:131339
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:131357
+main.ts:131181
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:131357
 
 [`KeywordsDataBingLanguagesResultInfo`](KeywordsDataBingLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:131350
+main.ts:131174

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageTaskRequestInfo(data)
+### new OnPageTaskRequestInfo()
 
 > **new OnPageTaskRequestInfo**(`data`?): [`OnPageTaskRequestInfo`](OnPageTaskRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageTaskRequestInfo`](OnPageTaskRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:123094
+main.ts:139842
 
 ## Properties
 
 ### accept\_language?
 
-> **`optional`** **accept\_language**: `string`
+> `optional` **accept\_language**: `string`
 
 language header for accessing the website
 optional field
@@ -47,15 +47,15 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`accept_language`](../interfaces/IOnPageTaskRequestInfo.md#accept_language)
 
-#### Source
+#### Defined in
 
-main.ts:122859
+main.ts:139607
 
 ***
 
 ### allow\_subdomains?
 
-> **`optional`** **allow\_subdomains**: `boolean`
+> `optional` **allow\_subdomains**: `boolean`
 
 include pages on subdomains
 optional field
@@ -66,15 +66,15 @@ default value: false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`allow_subdomains`](../interfaces/IOnPageTaskRequestInfo.md#allow_subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:122988
+main.ts:139736
 
 ***
 
 ### allowed\_subdomains?
 
-> **`optional`** **allowed\_subdomains**: `string`[]
+> `optional` **allowed\_subdomains**: `string`[]
 
 subdomains to crawl
 optional field
@@ -87,15 +87,15 @@ otherwise, the content of allowed_subdomains field will be ignored and the resul
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`allowed_subdomains`](../interfaces/IOnPageTaskRequestInfo.md#allowed_subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:122995
+main.ts:139743
 
 ***
 
 ### browser\_preset?
 
-> **`optional`** **browser\_preset**: `string`
+> `optional` **browser\_preset**: `string`
 
 preset for browser screen parameters
 optional field
@@ -113,15 +113,15 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`browser_preset`](../interfaces/IOnPageTaskRequestInfo.md#browser_preset)
 
-#### Source
+#### Defined in
 
-main.ts:122889
+main.ts:139637
 
 ***
 
 ### browser\_screen\_height?
 
-> **`optional`** **browser\_screen\_height**: `number`
+> `optional` **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -134,15 +134,15 @@ maximum value, in pixels: 9999
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`browser_screen_height`](../interfaces/IOnPageTaskRequestInfo.md#browser_screen_height)
 
-#### Source
+#### Defined in
 
-main.ts:122903
+main.ts:139651
 
 ***
 
 ### browser\_screen\_scale\_factor?
 
-> **`optional`** **browser\_screen\_scale\_factor**: `number`
+> `optional` **browser\_screen\_scale\_factor**: `number`
 
 browser screen scale factor
 optional field
@@ -155,15 +155,15 @@ maximum value: 3
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`browser_screen_scale_factor`](../interfaces/IOnPageTaskRequestInfo.md#browser_screen_scale_factor)
 
-#### Source
+#### Defined in
 
-main.ts:122910
+main.ts:139658
 
 ***
 
 ### browser\_screen\_width?
 
-> **`optional`** **browser\_screen\_width**: `number`
+> `optional` **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -176,15 +176,15 @@ maximum value, in pixels: 9999
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`browser_screen_width`](../interfaces/IOnPageTaskRequestInfo.md#browser_screen_width)
 
-#### Source
+#### Defined in
 
-main.ts:122896
+main.ts:139644
 
 ***
 
 ### calculate\_keyword\_density?
 
-> **`optional`** **calculate\_keyword\_density**: `boolean`
+> `optional` **calculate\_keyword\_density**: `boolean`
 
 calculate keyword density for the target domain
 optional field
@@ -197,15 +197,15 @@ once the crawl is completed, you can obtain keyword density values with the Keyw
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`calculate_keyword_density`](../interfaces/IOnPageTaskRequestInfo.md#calculate_keyword_density)
 
-#### Source
+#### Defined in
 
-main.ts:123025
+main.ts:139773
 
 ***
 
 ### check\_spell?
 
-> **`optional`** **check\_spell**: `boolean`
+> `optional` **check\_spell**: `boolean`
 
 check spelling
 optional field
@@ -216,15 +216,15 @@ default value: false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`check_spell`](../interfaces/IOnPageTaskRequestInfo.md#check_spell)
 
-#### Source
+#### Defined in
 
-main.ts:123006
+main.ts:139754
 
 ***
 
 ### check\_spell\_exceptions?
 
-> **`optional`** **check\_spell\_exceptions**: `string`[]
+> `optional` **check\_spell\_exceptions**: `string`[]
 
 words excluded from spell check
 optional field
@@ -237,15 +237,15 @@ example: "SERP", "minifiers", "JavaScript"
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`check_spell_exceptions`](../interfaces/IOnPageTaskRequestInfo.md#check_spell_exceptions)
 
-#### Source
+#### Defined in
 
-main.ts:123018
+main.ts:139766
 
 ***
 
 ### check\_spell\_language?
 
-> **`optional`** **check\_spell\_language**: `string`
+> `optional` **check\_spell\_language**: `string`
 
 language of the spell check
 optional field
@@ -256,15 +256,15 @@ Note: if no language is specified, it will be set automatically based on page co
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`check_spell_language`](../interfaces/IOnPageTaskRequestInfo.md#check_spell_language)
 
-#### Source
+#### Defined in
 
-main.ts:123011
+main.ts:139759
 
 ***
 
 ### checks\_threshold?
 
-> **`optional`** **checks\_threshold**: `Object`
+> `optional` **checks\_threshold**: `object`
 
 custom threshold values for checks
 optional field
@@ -272,10 +272,10 @@ you can specify custom threshold values for the parameters included in the check
 Note: only integer threshold values can be modified;
 for example, the high_loading_time and large_page_size parameters are set to 3 seconds and 1 megabyte respectively by default;
 if you want to change these thresholds to 1 second and 1000 kbytes, use the following snippet:
-"checks_threshold": \{
+"checks_threshold": {
 "high_loading_time": 1,
 "large_page_size": 1000
-\}available customizable parameters with default values:
+}available customizable parameters with default values:
 "title_too_short", default value: 30, type: "int"
 "title_too_long", default value: 65, type: "int"
 "small_page_size", default value: 1024, type: "int"
@@ -291,7 +291,7 @@ if you want to change these thresholds to 1 second and 1000 kbytes, use the foll
 "irrelevant_title", default value: 0.3, type: "float"
 "irrelevant_meta_keywords", default value: 0.6, type: "float"
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
@@ -299,15 +299,15 @@ if you want to change these thresholds to 1 second and 1000 kbytes, use the foll
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`checks_threshold`](../interfaces/IOnPageTaskRequestInfo.md#checks_threshold)
 
-#### Source
+#### Defined in
 
-main.ts:123050
+main.ts:139798
 
 ***
 
 ### crawl\_delay?
 
-> **`optional`** **crawl\_delay**: `number`
+> `optional` **crawl\_delay**: `number`
 
 delay between hits, ms
 optional field
@@ -318,15 +318,15 @@ default value: 2000
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`crawl_delay`](../interfaces/IOnPageTaskRequestInfo.md#crawl_delay)
 
-#### Source
+#### Defined in
 
-main.ts:122839
+main.ts:139587
 
 ***
 
 ### crawl\_sitemap\_only?
 
-> **`optional`** **crawl\_sitemap\_only**: `boolean`
+> `optional` **crawl\_sitemap\_only**: `boolean`
 
 crawl only pages indicated in the sitemap
 optional field
@@ -339,41 +339,41 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`crawl_sitemap_only`](../interfaces/IOnPageTaskRequestInfo.md#crawl_sitemap_only)
 
-#### Source
+#### Defined in
 
-main.ts:122929
+main.ts:139677
 
 ***
 
 ### custom\_js?
 
-> **`optional`** **custom\_js**: `string`
+> `optional` **custom\_js**: `string`
 
 custom javascript
 optional field
 Note that the execution time for the script you enter here should be 700 ms maximum, for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
-let meta = \{ haveGoogleAnalytics: false, haveTagManager: false \};\r\nfor (var i = 0; i `< document.scripts.length; i++) \{\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) \{\r\n if (src.indexOf(\"analytics.js\") >`= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  \}\r\n\}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
-meta = \{\}; meta.url = document.URL; meta.test = 'test'; meta;
+let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n let src = document.scripts[i].getAttribute(\"src\");\r\n if (src != undefined) {\r\n if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;the returned value depends on what you specified in this field. For instance, if you specify the following script:
+meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
 as a response you will receive the following data:
-"custom_js_response": \{
+"custom_js_response": {
 "url": "https://dataforseo.com/",
 "test": "test"
-\}
+}
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
 #### Implementation of
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`custom_js`](../interfaces/IOnPageTaskRequestInfo.md#custom_js)
 
-#### Source
+#### Defined in
 
-main.ts:122978
+main.ts:139726
 
 ***
 
 ### custom\_robots\_txt?
 
-> **`optional`** **custom\_robots\_txt**: `string`
+> `optional` **custom\_robots\_txt**: `string`
 
 custom robots.txt settings
 optional field
@@ -383,15 +383,15 @@ example: Disallow: /directory1/
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`custom_robots_txt`](../interfaces/IOnPageTaskRequestInfo.md#custom_robots_txt)
 
-#### Source
+#### Defined in
 
-main.ts:122863
+main.ts:139611
 
 ***
 
 ### custom\_sitemap?
 
-> **`optional`** **custom\_sitemap**: `string`
+> `optional` **custom\_sitemap**: `string`
 
 custom sitemap url
 optional field
@@ -402,15 +402,15 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`custom_sitemap`](../interfaces/IOnPageTaskRequestInfo.md#custom_sitemap)
 
-#### Source
+#### Defined in
 
-main.ts:122922
+main.ts:139670
 
 ***
 
 ### custom\_user\_agent?
 
-> **`optional`** **custom\_user\_agent**: `string`
+> `optional` **custom\_user\_agent**: `string`
 
 custom user agent
 optional field
@@ -423,15 +423,15 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`custom_user_agent`](../interfaces/IOnPageTaskRequestInfo.md#custom_user_agent)
 
-#### Source
+#### Defined in
 
-main.ts:122877
+main.ts:139625
 
 ***
 
 ### disable\_cookie\_popup?
 
-> **`optional`** **disable\_cookie\_popup**: `boolean`
+> `optional` **disable\_cookie\_popup**: `boolean`
 
 disable the cookie popup
 optional field
@@ -443,15 +443,15 @@ false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`disable_cookie_popup`](../interfaces/IOnPageTaskRequestInfo.md#disable_cookie_popup)
 
-#### Source
+#### Defined in
 
-main.ts:122966
+main.ts:139714
 
 ***
 
 ### disable\_page\_checks?
 
-> **`optional`** **disable\_page\_checks**: `string`[]
+> `optional` **disable\_page\_checks**: `string`[]
 
 prevent certain page checks from running
 optional field
@@ -462,15 +462,15 @@ specify certain checks to prevent them from running and impacting the onpage_sco
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`disable_page_checks`](../interfaces/IOnPageTaskRequestInfo.md#disable_page_checks)
 
-#### Source
+#### Defined in
 
-main.ts:123064
+main.ts:139812
 
 ***
 
 ### disable\_sitewide\_checks?
 
-> **`optional`** **disable\_sitewide\_checks**: `string`[]
+> `optional` **disable\_sitewide\_checks**: `string`[]
 
 prevent certain sitewide checks from running
 optional field
@@ -485,15 +485,15 @@ specify the following checks to prevent them from running on the target website:
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`disable_sitewide_checks`](../interfaces/IOnPageTaskRequestInfo.md#disable_sitewide_checks)
 
-#### Source
+#### Defined in
 
-main.ts:123059
+main.ts:139807
 
 ***
 
 ### disallowed\_subdomains?
 
-> **`optional`** **disallowed\_subdomains**: `string`[]
+> `optional` **disallowed\_subdomains**: `string`[]
 
 subdomains not to crawl
 optional field
@@ -505,15 +505,15 @@ Note: to use this parameter, the allow_subdomains parameter should be set to tru
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`disallowed_subdomains`](../interfaces/IOnPageTaskRequestInfo.md#disallowed_subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:123001
+main.ts:139749
 
 ***
 
 ### enable\_browser\_rendering?
 
-> **`optional`** **enable\_browser\_rendering**: `boolean`
+> `optional` **enable\_browser\_rendering**: `boolean`
 
 emulate browser rendering to measure Core Web Vitals
 optional field
@@ -528,15 +528,15 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`enable_browser_rendering`](../interfaces/IOnPageTaskRequestInfo.md#enable_browser_rendering)
 
-#### Source
+#### Defined in
 
-main.ts:122960
+main.ts:139708
 
 ***
 
 ### enable\_content\_parsing?
 
-> **`optional`** **enable\_content\_parsing**: `boolean`
+> `optional` **enable\_content\_parsing**: `boolean`
 
 parse content on crawled pages
 optional field
@@ -547,15 +547,15 @@ default value: false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`enable_content_parsing`](../interfaces/IOnPageTaskRequestInfo.md#enable_content_parsing)
 
-#### Source
+#### Defined in
 
-main.ts:122849
+main.ts:139597
 
 ***
 
 ### enable\_javascript?
 
-> **`optional`** **enable\_javascript**: `boolean`
+> `optional` **enable\_javascript**: `boolean`
 
 load javascript on a page
 optional field
@@ -567,15 +567,15 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`enable_javascript`](../interfaces/IOnPageTaskRequestInfo.md#enable_javascript)
 
-#### Source
+#### Defined in
 
-main.ts:122946
+main.ts:139694
 
 ***
 
 ### enable\_www\_redirect\_check?
 
-> **`optional`** **enable\_www\_redirect\_check**: `boolean`
+> `optional` **enable\_www\_redirect\_check**: `boolean`
 
 check if the domain implemented the www redirection
 optional field
@@ -586,15 +586,15 @@ default value: false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`enable_www_redirect_check`](../interfaces/IOnPageTaskRequestInfo.md#enable_www_redirect_check)
 
-#### Source
+#### Defined in
 
-main.ts:122940
+main.ts:139688
 
 ***
 
 ### enable\_xhr?
 
-> **`optional`** **enable\_xhr**: `boolean`
+> `optional` **enable\_xhr**: `boolean`
 
 enable XMLHttpRequest on a page
 optional field
@@ -605,15 +605,15 @@ default value: false;if you use this field, enable_javascript must be set to tru
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`enable_xhr`](../interfaces/IOnPageTaskRequestInfo.md#enable_xhr)
 
-#### Source
+#### Defined in
 
-main.ts:122951
+main.ts:139699
 
 ***
 
 ### force\_sitewide\_checks?
 
-> **`optional`** **force\_sitewide\_checks**: `boolean`
+> `optional` **force\_sitewide\_checks**: `boolean`
 
 enable sitewide checks when crawling a single page
 optional field
@@ -624,15 +624,15 @@ default value: false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`force_sitewide_checks`](../interfaces/IOnPageTaskRequestInfo.md#force_sitewide_checks)
 
-#### Source
+#### Defined in
 
-main.ts:122817
+main.ts:139565
 
 ***
 
 ### load\_resources?
 
-> **`optional`** **load\_resources**: `boolean`
+> `optional` **load\_resources**: `boolean`
 
 load resources
 optional field
@@ -644,15 +644,15 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`load_resources`](../interfaces/IOnPageTaskRequestInfo.md#load_resources)
 
-#### Source
+#### Defined in
 
-main.ts:122935
+main.ts:139683
 
 ***
 
 ### max\_crawl\_depth?
 
-> **`optional`** **max\_crawl\_depth**: `number`
+> `optional` **max\_crawl\_depth**: `number`
 
 crawl depth
 optional field
@@ -663,15 +663,15 @@ for example, starting page of the crawl is level 0, pages that have links from t
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`max_crawl_depth`](../interfaces/IOnPageTaskRequestInfo.md#max_crawl_depth)
 
-#### Source
+#### Defined in
 
-main.ts:122834
+main.ts:139582
 
 ***
 
 ### max\_crawl\_pages?
 
-> **`optional`** **max\_crawl\_pages**: `number`
+> `optional` **max\_crawl\_pages**: `number`
 
 crawled pages limit
 required field
@@ -686,15 +686,15 @@ to enable them anyway, set force_sitewide_checks to true
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`max_crawl_pages`](../interfaces/IOnPageTaskRequestInfo.md#max_crawl_pages)
 
-#### Source
+#### Defined in
 
-main.ts:122806
+main.ts:139554
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -710,15 +710,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`pingback_url`](../interfaces/IOnPageTaskRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:123090
+main.ts:139838
 
 ***
 
 ### priority\_urls?
 
-> **`optional`** **priority\_urls**: `string`[]
+> `optional` **priority\_urls**: `string`[]
 
 urls to be crawled bypassing the queue
 optional field
@@ -736,15 +736,15 @@ subdomains will be ignored unless the allow_subdomains parameter is set to truee
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`priority_urls`](../interfaces/IOnPageTaskRequestInfo.md#priority_urls)
 
-#### Source
+#### Defined in
 
-main.ts:122829
+main.ts:139577
 
 ***
 
 ### respect\_sitemap?
 
-> **`optional`** **respect\_sitemap**: `boolean`
+> `optional` **respect\_sitemap**: `boolean`
 
 respect sitemap when crawling
 optional field
@@ -757,15 +757,15 @@ the max_crawl_depth field of the request will be ignored, you can specify the nu
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`respect_sitemap`](../interfaces/IOnPageTaskRequestInfo.md#respect_sitemap)
 
-#### Source
+#### Defined in
 
-main.ts:122917
+main.ts:139665
 
 ***
 
 ### return\_despite\_timeout?
 
-> **`optional`** **return\_despite\_timeout**: `boolean`
+> `optional` **return\_despite\_timeout**: `boolean`
 
 return data on pages despite the timeout error
 optional field
@@ -776,15 +776,15 @@ default value: false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`return_despite_timeout`](../interfaces/IOnPageTaskRequestInfo.md#return_despite_timeout)
 
-#### Source
+#### Defined in
 
-main.ts:123074
+main.ts:139822
 
 ***
 
 ### robots\_txt\_merge\_mode?
 
-> **`optional`** **robots\_txt\_merge\_mode**: `string`
+> `optional` **robots\_txt\_merge\_mode**: `string`
 
 merge with or override robots.txt settings
 optional field
@@ -797,15 +797,15 @@ Note: if set to override, specify the custom_robots_txt parameter
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`robots_txt_merge_mode`](../interfaces/IOnPageTaskRequestInfo.md#robots_txt_merge_mode)
 
-#### Source
+#### Defined in
 
-main.ts:122870
+main.ts:139618
 
 ***
 
 ### start\_url?
 
-> **`optional`** **start\_url**: `string`
+> `optional` **start\_url**: `string`
 
 the first url to crawl 
 optional field
@@ -817,15 +817,15 @@ you can also use the live Instant Pages endpoint to get page-specific data
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`start_url`](../interfaces/IOnPageTaskRequestInfo.md#start_url)
 
-#### Source
+#### Defined in
 
-main.ts:122812
+main.ts:139560
 
 ***
 
 ### store\_raw\_html?
 
-> **`optional`** **store\_raw\_html**: `boolean`
+> `optional` **store\_raw\_html**: `boolean`
 
 store HTML of crawled pages
 optional field
@@ -836,15 +836,15 @@ default value: false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`store_raw_html`](../interfaces/IOnPageTaskRequestInfo.md#store_raw_html)
 
-#### Source
+#### Defined in
 
-main.ts:122844
+main.ts:139592
 
 ***
 
 ### support\_cookies?
 
-> **`optional`** **support\_cookies**: `boolean`
+> `optional` **support\_cookies**: `boolean`
 
 support cookies on crawled pages
 optional field
@@ -855,15 +855,15 @@ default value: false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`support_cookies`](../interfaces/IOnPageTaskRequestInfo.md#support_cookies)
 
-#### Source
+#### Defined in
 
-main.ts:122854
+main.ts:139602
 
 ***
 
 ### switch\_pool?
 
-> **`optional`** **switch\_pool**: `boolean`
+> `optional` **switch\_pool**: `boolean`
 
 switch proxy pool
 optional field
@@ -874,15 +874,15 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`switch_pool`](../interfaces/IOnPageTaskRequestInfo.md#switch_pool)
 
-#### Source
+#### Defined in
 
-main.ts:123069
+main.ts:139817
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -894,15 +894,15 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`tag`](../interfaces/IOnPageTaskRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:123080
+main.ts:139828
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target domain
 required field
@@ -913,15 +913,15 @@ if you specify the page URL, the results will be returned for the domain include
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`target`](../interfaces/IOnPageTaskRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:122797
+main.ts:139545
 
 ***
 
 ### validate\_micromarkup?
 
-> **`optional`** **validate\_micromarkup**: `boolean`
+> `optional` **validate\_micromarkup**: `boolean`
 
 enable microdata validation
 optional field
@@ -932,9 +932,9 @@ default value: false
 
 [`IOnPageTaskRequestInfo`](../interfaces/IOnPageTaskRequestInfo.md).[`validate_micromarkup`](../interfaces/IOnPageTaskRequestInfo.md#validate_micromarkup)
 
-#### Source
+#### Defined in
 
-main.ts:122983
+main.ts:139731
 
 ## Methods
 
@@ -950,9 +950,9 @@ main.ts:122983
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:123103
+main.ts:139851
 
 ***
 
@@ -968,15 +968,15 @@ main.ts:123103
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:123192
+main.ts:139940
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageTaskRequestInfo`](OnPageTaskRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageTaskRequestInfo`](OnPageTaskRequestInfo.md)
 
 #### Parameters
 
@@ -986,6 +986,6 @@ main.ts:123192
 
 [`OnPageTaskRequestInfo`](OnPageTaskRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:123185
+main.ts:139933

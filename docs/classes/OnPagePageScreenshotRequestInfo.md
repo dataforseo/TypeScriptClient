@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPagePageScreenshotRequestInfo(data)
+### new OnPagePageScreenshotRequestInfo()
 
 > **new OnPagePageScreenshotRequestInfo**(`data`?): [`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163023
+main.ts:164855
 
 ## Properties
 
 ### accept\_language?
 
-> **`optional`** **accept\_language**: `string`
+> `optional` **accept\_language**: `string`
 
 language header for accessing the website
 optional field
@@ -47,15 +47,15 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`accept_language`](../interfaces/IOnPagePageScreenshotRequestInfo.md#accept_language)
 
-#### Source
+#### Defined in
 
-main.ts:162936
+main.ts:164768
 
 ***
 
 ### browser\_preset?
 
-> **`optional`** **browser\_preset**: `string`
+> `optional` **browser\_preset**: `string`
 
 preset for browser screen parameters
 optional field
@@ -80,15 +80,15 @@ Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_re
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`browser_preset`](../interfaces/IOnPagePageScreenshotRequestInfo.md#browser_preset)
 
-#### Source
+#### Defined in
 
-main.ts:162962
+main.ts:164794
 
 ***
 
 ### browser\_screen\_height?
 
-> **`optional`** **browser\_screen\_height**: `number`
+> `optional` **browser\_screen\_height**: `number`
 
 browser screen height
 optional field
@@ -101,15 +101,15 @@ maximum value, in pixels: 9999
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`browser_screen_height`](../interfaces/IOnPagePageScreenshotRequestInfo.md#browser_screen_height)
 
-#### Source
+#### Defined in
 
-main.ts:162976
+main.ts:164808
 
 ***
 
 ### browser\_screen\_scale\_factor?
 
-> **`optional`** **browser\_screen\_scale\_factor**: `number`
+> `optional` **browser\_screen\_scale\_factor**: `number`
 
 browser screen scale factor
 optional field
@@ -122,15 +122,15 @@ maximum value: 3
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`browser_screen_scale_factor`](../interfaces/IOnPagePageScreenshotRequestInfo.md#browser_screen_scale_factor)
 
-#### Source
+#### Defined in
 
-main.ts:162983
+main.ts:164815
 
 ***
 
 ### browser\_screen\_width?
 
-> **`optional`** **browser\_screen\_width**: `number`
+> `optional` **browser\_screen\_width**: `number`
 
 browser screen width
 optional field
@@ -143,43 +143,43 @@ maximum value, in pixels: 9999
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`browser_screen_width`](../interfaces/IOnPagePageScreenshotRequestInfo.md#browser_screen_width)
 
-#### Source
+#### Defined in
 
-main.ts:162969
+main.ts:164801
 
 ***
 
 ### custom\_js?
 
-> **`optional`** **custom\_js**: `string`
+> `optional` **custom\_js**: `string`
 
 custom javascript
 optional field
 Note that the execution time for the script you enter here should be 700 ms maximum
 for example, you can use the following JS snippet to check if the website contains Google Tag Manager as a scr attribute:
-let meta = \{ haveGoogleAnalytics: false, haveTagManager: false \};\r\nfor (var i = 0; i `< document.scripts.length; i++) \{\r\n  let src = document.scripts[i].getAttribute(\"src\");\r\n  if (src != undefined) \{\r\n    if (src.indexOf(\"analytics.js\") >`= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  \}\r\n\}\r\nmeta;
+let meta = { haveGoogleAnalytics: false, haveTagManager: false };\r\nfor (var i = 0; i < document.scripts.length; i++) {\r\n  let src = document.scripts[i].getAttribute(\"src\");\r\n  if (src != undefined) {\r\n    if (src.indexOf(\"analytics.js\") >= 0)\r\n      meta.haveGoogleAnalytics = true;\r\n\tif (src.indexOf(\"gtm.js\") >= 0)\r\n      meta.haveTagManager = true;\r\n  }\r\n}\r\nmeta;
 the returned value depends on what you specified in this field. For instance, if you specify the following script:
-meta = \{\}; meta.url = document.URL; meta.test = 'test'; meta;
+meta = {}; meta.url = document.URL; meta.test = 'test'; meta;
 as a response you will receive the following data:
-"custom_js_response": \{
+"custom_js_response": {
   "url": "https://dataforseo.com/",
   "test": "test"
-\}
+}
 Note: if you use this parameter, additional charges will apply; learn more about the cost of tasks with this parameter in our help article; the cost can be calculated on the Pricing Page
 
 #### Implementation of
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`custom_js`](../interfaces/IOnPagePageScreenshotRequestInfo.md#custom_js)
 
-#### Source
+#### Defined in
 
-main.ts:163008
+main.ts:164840
 
 ***
 
 ### custom\_user\_agent?
 
-> **`optional`** **custom\_user\_agent**: `string`
+> `optional` **custom\_user\_agent**: `string`
 
 custom user agent
 optional field
@@ -192,15 +192,15 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`custom_user_agent`](../interfaces/IOnPagePageScreenshotRequestInfo.md#custom_user_agent)
 
-#### Source
+#### Defined in
 
-main.ts:162943
+main.ts:164775
 
 ***
 
 ### disable\_cookie\_popup?
 
-> **`optional`** **disable\_cookie\_popup**: `boolean`
+> `optional` **disable\_cookie\_popup**: `boolean`
 
 disable the cookie popup 
 optional field
@@ -212,15 +212,15 @@ false
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`disable_cookie_popup`](../interfaces/IOnPagePageScreenshotRequestInfo.md#disable_cookie_popup)
 
-#### Source
+#### Defined in
 
-main.ts:162994
+main.ts:164826
 
 ***
 
 ### full\_page\_screenshot?
 
-> **`optional`** **full\_page\_screenshot**: `boolean`
+> `optional` **full\_page\_screenshot**: `boolean`
 
 take a screenshot of the full page
 optional field
@@ -231,15 +231,15 @@ default value: true
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`full_page_screenshot`](../interfaces/IOnPagePageScreenshotRequestInfo.md#full_page_screenshot)
 
-#### Source
+#### Defined in
 
-main.ts:162988
+main.ts:164820
 
 ***
 
 ### ip\_pool\_for\_scan?
 
-> **`optional`** **ip\_pool\_for\_scan**: `string`
+> `optional` **ip\_pool\_for\_scan**: `string`
 
 proxy pool
 optional field
@@ -251,15 +251,15 @@ possible values: us, de
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`ip_pool_for_scan`](../interfaces/IOnPagePageScreenshotRequestInfo.md#ip_pool_for_scan)
 
-#### Source
+#### Defined in
 
-main.ts:163019
+main.ts:164851
 
 ***
 
 ### switch\_pool?
 
-> **`optional`** **switch\_pool**: `boolean`
+> `optional` **switch\_pool**: `boolean`
 
 switch proxy pool
 optional field
@@ -270,15 +270,15 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`switch_pool`](../interfaces/IOnPagePageScreenshotRequestInfo.md#switch_pool)
 
-#### Source
+#### Defined in
 
-main.ts:163013
+main.ts:164845
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page url
 required field
@@ -289,9 +289,9 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 [`IOnPagePageScreenshotRequestInfo`](../interfaces/IOnPagePageScreenshotRequestInfo.md).[`url`](../interfaces/IOnPagePageScreenshotRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:162931
+main.ts:164763
 
 ## Methods
 
@@ -307,9 +307,9 @@ main.ts:162931
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163032
+main.ts:164864
 
 ***
 
@@ -325,15 +325,15 @@ main.ts:163032
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163060
+main.ts:164892
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)
 
 #### Parameters
 
@@ -343,6 +343,6 @@ main.ts:163060
 
 [`OnPagePageScreenshotRequestInfo`](OnPagePageScreenshotRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163053
+main.ts:164885

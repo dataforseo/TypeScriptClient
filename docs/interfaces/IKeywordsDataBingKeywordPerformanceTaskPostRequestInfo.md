@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
 specify this field if you want to get the data for a particular device typepossible values: desktop, mobile, tablet, all
 default value: all
 
-#### Source
+#### Defined in
 
-main.ts:135972
+main.ts:135798
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -38,15 +38,15 @@ The maximum number of characters for each keyword: 80
 The maximum number of words for each keyword phrase: 10
 the specified keywords will be converted to lowercase, data will be provided in a separate array
 
-#### Source
+#### Defined in
 
-main.ts:135967
+main.ts:135793
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -54,15 +54,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 "en"
 
-#### Source
+#### Defined in
 
-main.ts:136015
+main.ts:135841
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -71,15 +71,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 English
 
-#### Source
+#### Defined in
 
-main.ts:136009
+main.ts:135835
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -88,15 +88,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 2840
 
-#### Source
+#### Defined in
 
-main.ts:135994
+main.ts:135820
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -106,15 +106,15 @@ the data will be provided for the country the specified coordinates belong to
 example:
 52.6178549,-155.352142
 
-#### Source
+#### Defined in
 
-main.ts:136002
+main.ts:135828
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -123,15 +123,15 @@ you can receive the list of available locations and languages by making a separa
 example:
 "United States"
 
-#### Source
+#### Defined in
 
-main.ts:135987
+main.ts:135813
 
 ***
 
 ### match?
 
-> **`optional`** **match**: `string`
+> `optional` **match**: `string`
 
 keywords match type
 optional field
@@ -141,15 +141,15 @@ broad returns data for all user queries containing the specified keyword with va
 phrase returns data for all user queries containing the specified keyword with identical word order;
 exact returns data for user query that matches the specified keyword;Note: the aggregate match type is applied by default
 
-#### Source
+#### Defined in
 
-main.ts:135980
+main.ts:135806
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -161,15 +161,15 @@ http://your-server.com/pingscript?id=$id&tag=$tag
 Note: special symbols in pingback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:136035
+main.ts:135861
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -181,15 +181,15 @@ http://your-server.com/postbackscript?id=$id&tag=$tag
 Note: special symbols in postback_url will be urlencoded;
 i.a., the # symbol will be encoded into %23
 
-#### Source
+#### Defined in
 
-main.ts:136025
+main.ts:135851
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -197,6 +197,6 @@ the character limit is 255
 you can use this parameter to identify the task and match it with the result
 you will find the specified tag value in the data object of the response
 
-#### Source
+#### Defined in
 
-main.ts:136041
+main.ts:135867

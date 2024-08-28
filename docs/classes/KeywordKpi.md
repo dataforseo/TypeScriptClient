@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordKpi(data)
+### new KeywordKpi()
 
 > **new KeywordKpi**(`data`?): [`KeywordKpi`](KeywordKpi.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordKpi`](KeywordKpi.md)
 
-#### Source
+#### Defined in
 
-main.ts:136481
+main.ts:136307
 
 ## Properties
 
 ### desktop?
 
-> **`optional`** **desktop**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
+> `optional` **desktop**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
 keyword data aggregated for desktop devices
 if there is no data, then the value is null
@@ -45,15 +45,15 @@ if there is no data, then the value is null
 
 [`IKeywordKpi`](../interfaces/IKeywordKpi.md).[`desktop`](../interfaces/IKeywordKpi.md#desktop)
 
-#### Source
+#### Defined in
 
-main.ts:136471
+main.ts:136297
 
 ***
 
 ### mobile?
 
-> **`optional`** **mobile**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
+> `optional` **mobile**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
 keyword data aggregated for mobile devices
 if there is no data, then the value is null
@@ -62,15 +62,15 @@ if there is no data, then the value is null
 
 [`IKeywordKpi`](../interfaces/IKeywordKpi.md).[`mobile`](../interfaces/IKeywordKpi.md#mobile)
 
-#### Source
+#### Defined in
 
-main.ts:136474
+main.ts:136300
 
 ***
 
 ### tablet?
 
-> **`optional`** **tablet**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
+> `optional` **tablet**: [`KeywordKpiInfo`](KeywordKpiInfo.md)[]
 
 keyword data aggregated for tablet devices
 if there is no data, then the value is null
@@ -79,9 +79,9 @@ if there is no data, then the value is null
 
 [`IKeywordKpi`](../interfaces/IKeywordKpi.md).[`tablet`](../interfaces/IKeywordKpi.md#tablet)
 
-#### Source
+#### Defined in
 
-main.ts:136477
+main.ts:136303
 
 ## Methods
 
@@ -97,9 +97,9 @@ main.ts:136477
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:136490
+main.ts:136316
 
 ***
 
@@ -115,15 +115,15 @@ main.ts:136490
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:136521
+main.ts:136347
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordKpi`](KeywordKpi.md)
+> `static` **fromJS**(`data`): [`KeywordKpi`](KeywordKpi.md)
 
 #### Parameters
 
@@ -133,6 +133,6 @@ main.ts:136521
 
 [`KeywordKpi`](KeywordKpi.md)
 
-#### Source
+#### Defined in
 
-main.ts:136514
+main.ts:136340

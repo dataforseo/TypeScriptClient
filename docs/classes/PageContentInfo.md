@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new PageContentInfo(data)
+### new PageContentInfo()
 
 > **new PageContentInfo**(`data`?): [`PageContentInfo`](PageContentInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`PageContentInfo`](PageContentInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:164012
+main.ts:165844
 
 ## Properties
 
 ### footer?
 
-> **`optional`** **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
+> `optional` **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
 parsed content of the footer
 
@@ -44,15 +44,15 @@ parsed content of the footer
 
 [`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`footer`](../interfaces/IPageContentInfo.md#footer)
 
-#### Source
+#### Defined in
 
-main.ts:164002
+main.ts:165834
 
 ***
 
 ### header?
 
-> **`optional`** **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
+> `optional` **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
 content of the header of the table
 
@@ -60,15 +60,15 @@ content of the header of the table
 
 [`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`header`](../interfaces/IPageContentInfo.md#header)
 
-#### Source
+#### Defined in
 
-main.ts:164000
+main.ts:165832
 
 ***
 
 ### main\_topic?
 
-> **`optional`** **main\_topic**: [`TopicInfo`](TopicInfo.md)[]
+> `optional` **main\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
 main topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -77,15 +77,15 @@ you can find more information about topic priority calculation in this help cent
 
 [`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`main_topic`](../interfaces/IPageContentInfo.md#main_topic)
 
-#### Source
+#### Defined in
 
-main.ts:164005
+main.ts:165837
 
 ***
 
 ### secondary\_topic?
 
-> **`optional`** **secondary\_topic**: [`TopicInfo`](TopicInfo.md)[]
+> `optional` **secondary\_topic**: [`TopicInfo`](TopicInfo.md)[]
 
 secondary topic on the page
 you can find more information about topic priority calculation in this help center article
@@ -94,9 +94,9 @@ you can find more information about topic priority calculation in this help cent
 
 [`IPageContentInfo`](../interfaces/IPageContentInfo.md).[`secondary_topic`](../interfaces/IPageContentInfo.md#secondary_topic)
 
-#### Source
+#### Defined in
 
-main.ts:164008
+main.ts:165840
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:164008
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:164021
+main.ts:165853
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:164021
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:164049
+main.ts:165881
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`PageContentInfo`](PageContentInfo.md)
+> `static` **fromJS**(`data`): [`PageContentInfo`](PageContentInfo.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:164049
 
 [`PageContentInfo`](PageContentInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:164042
+main.ts:165874

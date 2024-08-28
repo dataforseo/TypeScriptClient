@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo(data)
+### new DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo()
 
 > **new DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo**(`data`?): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:87831
+main.ts:88397
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md).[`language_code`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:87827
+main.ts:88393
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md).[`language_name`](../interfaces/IDataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:87825
+main.ts:88391
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:87825
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:87840
+main.ts:88406
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:87840
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:87858
+main.ts:88424
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:87858
 
 [`DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo`](DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:87851
+main.ts:88417

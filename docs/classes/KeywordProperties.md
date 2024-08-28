@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordProperties(data)
+### new KeywordProperties()
 
 > **new KeywordProperties**(`data`?): [`KeywordProperties`](KeywordProperties.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordProperties`](KeywordProperties.md)
 
-#### Source
+#### Defined in
 
-main.ts:83658
+main.ts:84212
 
 ## Properties
 
 ### core\_keyword?
 
-> **`optional`** **core\_keyword**: `string`
+> `optional` **core\_keyword**: `string`
 
 main keyword in a group
 contains the main keyword in a group determined by the synonym clustering algorithm
@@ -46,15 +46,15 @@ if the value is null, our database does not contain any keywords the correspondi
 
 [`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`core_keyword`](../interfaces/IKeywordProperties.md#core_keyword)
 
-#### Source
+#### Defined in
 
-main.ts:83637
+main.ts:84191
 
 ***
 
 ### detected\_language?
 
-> **`optional`** **detected\_language**: `string`
+> `optional` **detected\_language**: `string`
 
 detected language of the keyword
 indicates the language of the keyword as identified by our system
@@ -63,15 +63,15 @@ indicates the language of the keyword as identified by our system
 
 [`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`detected_language`](../interfaces/IKeywordProperties.md#detected_language)
 
-#### Source
+#### Defined in
 
-main.ts:83651
+main.ts:84205
 
 ***
 
 ### is\_another\_language?
 
-> **`optional`** **is\_another\_language**: `boolean`
+> `optional` **is\_another\_language**: `boolean`
 
 detected language of the keyword is different from the set language
 if true, the language set in the request does not match the language determined by our system for a given keyword
@@ -80,15 +80,15 @@ if true, the language set in the request does not match the language determined 
 
 [`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`is_another_language`](../interfaces/IKeywordProperties.md#is_another_language)
 
-#### Source
+#### Defined in
 
-main.ts:83654
+main.ts:84208
 
 ***
 
 ### keyword\_difficulty?
 
-> **`optional`** **keyword\_difficulty**: `number`
+> `optional` **keyword\_difficulty**: `number`
 
 difficulty of ranking in the first top-10 organic results for a keyword
 indicates the chance of getting in top-10 organic results for a keyword on a logarithmic scale from 0 to 100;
@@ -99,15 +99,15 @@ learn more about the metric in this help center guide
 
 [`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`keyword_difficulty`](../interfaces/IKeywordProperties.md#keyword_difficulty)
 
-#### Source
+#### Defined in
 
-main.ts:83648
+main.ts:84202
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -115,15 +115,15 @@ search engine type
 
 [`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`se_type`](../interfaces/IKeywordProperties.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:83633
+main.ts:84187
 
 ***
 
 ### synonym\_clustering\_algorithm?
 
-> **`optional`** **synonym\_clustering\_algorithm**: `string`
+> `optional` **synonym\_clustering\_algorithm**: `string`
 
 the algorithm used to identify synonyms
 possible values:
@@ -135,9 +135,9 @@ if the value is null, our database does not contain any keywords the correspondi
 
 [`IKeywordProperties`](../interfaces/IKeywordProperties.md).[`synonym_clustering_algorithm`](../interfaces/IKeywordProperties.md#synonym_clustering_algorithm)
 
-#### Source
+#### Defined in
 
-main.ts:83643
+main.ts:84197
 
 ## Methods
 
@@ -153,9 +153,9 @@ main.ts:83643
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:83667
+main.ts:84221
 
 ***
 
@@ -171,15 +171,15 @@ main.ts:83667
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:83689
+main.ts:84243
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordProperties`](KeywordProperties.md)
+> `static` **fromJS**(`data`): [`KeywordProperties`](KeywordProperties.md)
 
 #### Parameters
 
@@ -189,6 +189,6 @@ main.ts:83689
 
 [`KeywordProperties`](KeywordProperties.md)
 
-#### Source
+#### Defined in
 
-main.ts:83682
+main.ts:84236

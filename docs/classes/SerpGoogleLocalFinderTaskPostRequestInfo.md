@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpGoogleLocalFinderTaskPostRequestInfo(data)
+### new SerpGoogleLocalFinderTaskPostRequestInfo()
 
 > **new SerpGoogleLocalFinderTaskPostRequestInfo**(`data`?): [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:42436
+main.ts:42968
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -52,15 +52,15 @@ if the specified depth is higher than the number of results in the response, the
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`depth`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:42386
+main.ts:42918
 
 ***
 
 ### device?
 
-> **`optional`** **device**: `string`
+> `optional` **device**: `string`
 
 device type
 optional field
@@ -71,15 +71,15 @@ default value: desktop
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`device`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#device)
 
-#### Source
+#### Defined in
 
-main.ts:42369
+main.ts:42901
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field
@@ -92,15 +92,15 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`keyword`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:42318
+main.ts:42850
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 required field if you don’t specify language_name
@@ -112,15 +112,15 @@ example:en
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`language_code`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:42364
+main.ts:42896
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 required field if you don’t specify language_code
@@ -133,15 +133,15 @@ English
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`language_name`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:42358
+main.ts:42890
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or location_coordinate
@@ -154,15 +154,15 @@ example:
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`location_code`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:42340
+main.ts:42872
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 required field if you don’t specify location_name or location_code
@@ -179,15 +179,15 @@ example:
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`location_coordinate`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:42351
+main.ts:42883
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or location_coordinate
@@ -200,15 +200,15 @@ London,England,United Kingdom
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`location_name`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:42333
+main.ts:42865
 
 ***
 
 ### min\_rating?
 
-> **`optional`** **min\_rating**: `number`
+> `optional` **min\_rating**: `number`
 
 filter results by minimum rating
 optional field
@@ -219,15 +219,15 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`min_rating`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#min_rating)
 
-#### Source
+#### Defined in
 
-main.ts:42391
+main.ts:42923
 
 ***
 
 ### os?
 
-> **`optional`** **os**: `string`
+> `optional` **os**: `string`
 
 device operating system
 optional field
@@ -240,15 +240,15 @@ default value: android
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`os`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#os)
 
-#### Source
+#### Defined in
 
-main.ts:42376
+main.ts:42908
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -264,15 +264,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`pingback_url`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:42432
+main.ts:42964
 
 ***
 
 ### postback\_data?
 
-> **`optional`** **postback\_data**: `string`
+> `optional` **postback\_data**: `string`
 
 postback_url datatype
 required field if you specify postback_url
@@ -284,15 +284,15 @@ advanced, html
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`postback_data`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#postback_data)
 
-#### Source
+#### Defined in
 
-main.ts:42422
+main.ts:42954
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -308,15 +308,15 @@ i.a., the # symbol will be encoded into %23
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`postback_url`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:42416
+main.ts:42948
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -330,15 +330,15 @@ The cost can be calculated on the Pricing page.
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`priority`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:42326
+main.ts:42858
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -350,15 +350,15 @@ you will find the specified tag value in the data object of the response
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`tag`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:42406
+main.ts:42938
 
 ***
 
 ### time\_filter?
 
-> **`optional`** **time\_filter**: `string`
+> `optional` **time\_filter**: `string`
 
 filter results by open hours
 optional field
@@ -373,9 +373,9 @@ example: "tuesday;18"
 
 [`ISerpGoogleLocalFinderTaskPostRequestInfo`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md).[`time_filter`](../interfaces/ISerpGoogleLocalFinderTaskPostRequestInfo.md#time_filter)
 
-#### Source
+#### Defined in
 
-main.ts:42400
+main.ts:42932
 
 ## Methods
 
@@ -391,9 +391,9 @@ main.ts:42400
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:42445
+main.ts:42977
 
 ***
 
@@ -409,15 +409,15 @@ main.ts:42445
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:42477
+main.ts:43009
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -427,6 +427,6 @@ main.ts:42477
 
 [`SerpGoogleLocalFinderTaskPostRequestInfo`](SerpGoogleLocalFinderTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:42470
+main.ts:43002

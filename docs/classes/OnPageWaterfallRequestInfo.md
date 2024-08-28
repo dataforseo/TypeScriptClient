@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageWaterfallRequestInfo(data)
+### new OnPageWaterfallRequestInfo()
 
 > **new OnPageWaterfallRequestInfo**(`data`?): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:161210
+main.ts:163042
 
 ## Properties
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 ID of the task
 required field
@@ -48,15 +48,15 @@ example:
 
 [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md).[`id`](../interfaces/IOnPageWaterfallRequestInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:161196
+main.ts:163028
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -68,15 +68,15 @@ you will find the specified tag value in the data object of the response
 
 [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md).[`tag`](../interfaces/IOnPageWaterfallRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:161206
+main.ts:163038
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 page URL
 required field
@@ -86,9 +86,9 @@ specify the pages you want to receive timing for
 
 [`IOnPageWaterfallRequestInfo`](../interfaces/IOnPageWaterfallRequestInfo.md).[`url`](../interfaces/IOnPageWaterfallRequestInfo.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:161200
+main.ts:163032
 
 ## Methods
 
@@ -104,9 +104,9 @@ main.ts:161200
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:161219
+main.ts:163051
 
 ***
 
@@ -122,15 +122,15 @@ main.ts:161219
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:161238
+main.ts:163070
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
+> `static` **fromJS**(`data`): [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
 #### Parameters
 
@@ -140,6 +140,6 @@ main.ts:161238
 
 [`OnPageWaterfallRequestInfo`](OnPageWaterfallRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:161231
+main.ts:163063

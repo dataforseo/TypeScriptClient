@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordData(data)
+### new KeywordData()
 
 > **new KeywordData**(`data`?): [`KeywordData`](KeywordData.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordData`](KeywordData.md)
 
-#### Source
+#### Defined in
 
-main.ts:104903
+main.ts:105533
 
 ## Properties
 
 ### avg\_backlinks\_info?
 
-> **`optional`** **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
+> `optional` **avg\_backlinks\_info**: [`AvgBacklinksInfo`](AvgBacklinksInfo.md)
 
 backlink data for the returned keyword
 this object provides the average number of backlinks, referring pages and domains, as well as the average rank values among the top-10 websites ranking organically for the keyword
@@ -45,15 +45,15 @@ this object provides the average number of backlinks, referring pages and domain
 
 [`IKeywordData`](../interfaces/IKeywordData.md).[`avg_backlinks_info`](../interfaces/IKeywordData.md#avg_backlinks_info)
 
-#### Source
+#### Defined in
 
-main.ts:104899
+main.ts:105529
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 returned keyword
 
@@ -61,15 +61,15 @@ returned keyword
 
 [`IKeywordData`](../interfaces/IKeywordData.md).[`keyword`](../interfaces/IKeywordData.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:104885
+main.ts:105515
 
 ***
 
 ### keyword\_info?
 
-> **`optional`** **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
+> `optional` **keyword\_info**: [`KeywordInfo`](KeywordInfo.md)
 
 keyword data for the returned keyword
 
@@ -77,15 +77,15 @@ keyword data for the returned keyword
 
 [`IKeywordData`](../interfaces/IKeywordData.md).[`keyword_info`](../interfaces/IKeywordData.md#keyword_info)
 
-#### Source
+#### Defined in
 
-main.ts:104891
+main.ts:105521
 
 ***
 
 ### keyword\_properties?
 
-> **`optional`** **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
+> `optional` **keyword\_properties**: [`KeywordProperties`](KeywordProperties.md)
 
 additional information about the keyword
 
@@ -93,15 +93,15 @@ additional information about the keyword
 
 [`IKeywordData`](../interfaces/IKeywordData.md).[`keyword_properties`](../interfaces/IKeywordData.md#keyword_properties)
 
-#### Source
+#### Defined in
 
-main.ts:104893
+main.ts:105523
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
@@ -109,15 +109,15 @@ language code in a POST array
 
 [`IKeywordData`](../interfaces/IKeywordData.md).[`language_code`](../interfaces/IKeywordData.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:104889
+main.ts:105519
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
@@ -125,15 +125,15 @@ location code in a POST array
 
 [`IKeywordData`](../interfaces/IKeywordData.md).[`location_code`](../interfaces/IKeywordData.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:104887
+main.ts:105517
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 search engine type specified in a POST request;
@@ -143,15 +143,15 @@ for this endpoint, the field equals bing
 
 [`IKeywordData`](../interfaces/IKeywordData.md).[`se_type`](../interfaces/IKeywordData.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:104883
+main.ts:105513
 
 ***
 
 ### serp\_info?
 
-> **`optional`** **serp\_info**: [`SerpInfo`](SerpInfo.md)
+> `optional` **serp\_info**: [`SerpInfo`](SerpInfo.md)
 
 SERP data
 the value will be null if you didn’t set the field include_serp_info to true in the POST array or if there is no SERP data for this keyword in our database
@@ -160,9 +160,9 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 [`IKeywordData`](../interfaces/IKeywordData.md).[`serp_info`](../interfaces/IKeywordData.md#serp_info)
 
-#### Source
+#### Defined in
 
-main.ts:104896
+main.ts:105526
 
 ## Methods
 
@@ -178,9 +178,9 @@ main.ts:104896
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:104912
+main.ts:105542
 
 ***
 
@@ -196,15 +196,15 @@ main.ts:104912
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:104936
+main.ts:105566
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordData`](KeywordData.md)
+> `static` **fromJS**(`data`): [`KeywordData`](KeywordData.md)
 
 #### Parameters
 
@@ -214,6 +214,6 @@ main.ts:104936
 
 [`KeywordData`](KeywordData.md)
 
-#### Source
+#### Defined in
 
-main.ts:104929
+main.ts:105559

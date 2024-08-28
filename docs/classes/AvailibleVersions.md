@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AvailibleVersions(data)
+### new AvailibleVersions()
 
 > **new AvailibleVersions**(`data`?): [`AvailibleVersions`](AvailibleVersions.md)
 
@@ -28,15 +28,15 @@
 
 [`AvailibleVersions`](AvailibleVersions.md)
 
-#### Source
+#### Defined in
 
-main.ts:165753
+main.ts:167585
 
 ## Properties
 
 ### default?
 
-> **`optional`** **default**: `boolean`
+> `optional` **default**: `boolean`
 
 the version is used by default
 if false, the version is not used by default and should be specified in the corresponding field of the POST request if necessary
@@ -45,15 +45,15 @@ if false, the version is not used by default and should be specified in the corr
 
 [`IAvailibleVersions`](../interfaces/IAvailibleVersions.md).[`default`](../interfaces/IAvailibleVersions.md#default)
 
-#### Source
+#### Defined in
 
-main.ts:165749
+main.ts:167581
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 lighthouse version
 
@@ -61,9 +61,9 @@ lighthouse version
 
 [`IAvailibleVersions`](../interfaces/IAvailibleVersions.md).[`version`](../interfaces/IAvailibleVersions.md#version)
 
-#### Source
+#### Defined in
 
-main.ts:165746
+main.ts:167578
 
 ## Methods
 
@@ -79,9 +79,9 @@ main.ts:165746
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:165762
+main.ts:167594
 
 ***
 
@@ -97,15 +97,15 @@ main.ts:165762
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:165780
+main.ts:167612
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AvailibleVersions`](AvailibleVersions.md)
+> `static` **fromJS**(`data`): [`AvailibleVersions`](AvailibleVersions.md)
 
 #### Parameters
 
@@ -115,6 +115,6 @@ main.ts:165780
 
 [`AvailibleVersions`](AvailibleVersions.md)
 
-#### Source
+#### Defined in
 
-main.ts:165773
+main.ts:167605

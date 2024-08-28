@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,269 +18,269 @@
 
 ### asin?
 
-> **`optional`** **asin**: `string`
+> `optional` **asin**: `string`
 
 ASIN of the product
 learn more about ASIN in this help center guide
 
-#### Source
+#### Defined in
 
-main.ts:105690
+main.ts:106318
 
 ***
 
 ### bought\_past\_month?
 
-> **`optional`** **bought\_past\_month**: `number`
+> `optional` **bought\_past\_month**: `number`
 
 number of product purchases in the past month
 
-#### Source
+#### Defined in
 
-main.ts:105721
+main.ts:106349
 
 ***
 
 ### currency?
 
-> **`optional`** **currency**: `string`
+> `optional` **currency**: `string`
 
 currency in the ISO format
 example:
 USD
 
-#### Source
+#### Defined in
 
-main.ts:105704
+main.ts:106332
 
 ***
 
 ### data\_asin?
 
-> **`optional`** **data\_asin**: `string`
+> `optional` **data\_asin**: `string`
 
 unique product identifier on Amazon
 note that there is no full list of possible values as the data_asin is a dynamic value assigned by Amazon
 example:
 B07G82D89J
 
-#### Source
+#### Defined in
 
-main.ts:105726
+main.ts:106356
 
 ***
 
 ### delivery\_info?
 
-> **`optional`** **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
+> `optional` **delivery\_info**: [`AmazonDeliveryInfo`](../classes/AmazonDeliveryInfo.md)
 
 delivery information
 delivery information including free and fast delivery date ranges
 
-#### Source
+#### Defined in
 
-main.ts:105719
+main.ts:106347
 
 ***
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description of the product
 
-#### Source
+#### Defined in
 
-main.ts:105687
+main.ts:106351
 
 ***
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 Amazon domain
 
-#### Source
+#### Defined in
 
-main.ts:105681
+main.ts:106311
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the product image featured in the results
 
-#### Source
+#### Defined in
 
-main.ts:105692
+main.ts:106320
 
 ***
 
 ### is\_amazon\_choice?
 
-> **`optional`** **is\_amazon\_choice**: `boolean`
+> `optional` **is\_amazon\_choice**: `boolean`
 
 “Amazon’s choice” label
 if the value is true, the product is marked with the “Amazon’s choice” label
 
-#### Source
+#### Defined in
 
-main.ts:105713
+main.ts:106341
 
 ***
 
 ### is\_best\_seller?
 
-> **`optional`** **is\_best\_seller**: `boolean`
+> `optional` **is\_best\_seller**: `boolean`
 
 “Best Seller” label
 if the value is true, the product is marked with the “Best Seller” label
 
-#### Source
+#### Defined in
 
-main.ts:105710
+main.ts:106338
 
 ***
 
 ### position?
 
-> **`optional`** **position**: `string`
+> `optional` **position**: `string`
 
 the alignment of the element in Amazon SERP
 can take the following values:
 left, right
 
-#### Source
+#### Defined in
 
-main.ts:105677
+main.ts:106307
 
 ***
 
 ### price\_from?
 
-> **`optional`** **price\_from**: `number`
+> `optional` **price\_from**: `number`
 
 the regular price of a product
 example:
 49.98
 
-#### Source
+#### Defined in
 
-main.ts:105696
+main.ts:106324
 
 ***
 
 ### price\_to?
 
-> **`optional`** **price\_to**: `number`
+> `optional` **price\_to**: `number`
 
 the upper limit of the product price range
 example:
 384.99
 
-#### Source
+#### Defined in
 
-main.ts:105700
+main.ts:106328
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
 
-#### Source
+#### Defined in
 
-main.ts:105673
+main.ts:106303
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:105670
+main.ts:106300
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingElement`](../classes/RatingElement.md)
+> `optional` **rating**: [`RatingElement`](../classes/RatingElement.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
 
-#### Source
+#### Defined in
 
-main.ts:105716
+main.ts:106344
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:105667
+main.ts:106297
 
 ***
 
 ### special\_offers?
 
-> **`optional`** **special\_offers**: `string`[]
+> `optional` **special\_offers**: `string`[]
 
 special offer details
 contains special offer details, including coupon and Subscribe & Save discounts
 
-#### Source
+#### Defined in
 
-main.ts:105707
+main.ts:106335
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 product title
 
-#### Source
+#### Defined in
 
-main.ts:105683
+main.ts:106313
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the product page
 
-#### Source
+#### Defined in
 
-main.ts:105685
+main.ts:106315
 
 ***
 
 ### xpath?
 
-> **`optional`** **xpath**: `string`
+> `optional` **xpath**: `string`
 
 the XPath of the element
 
-#### Source
+#### Defined in
 
-main.ts:105679
+main.ts:106309

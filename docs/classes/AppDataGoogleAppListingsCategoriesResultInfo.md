@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataGoogleAppListingsCategoriesResultInfo(data)
+### new AppDataGoogleAppListingsCategoriesResultInfo()
 
 > **new AppDataGoogleAppListingsCategoriesResultInfo**(`data`?): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:194351
+main.ts:196183
 
 ## Properties
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 name of the supported app category
 
@@ -44,15 +44,15 @@ name of the supported app category
 
 [`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md).[`category`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md#category)
 
-#### Source
+#### Defined in
 
-main.ts:194345
+main.ts:196177
 
 ***
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 number of app listings that make up the supported app category
 
@@ -60,9 +60,9 @@ number of app listings that make up the supported app category
 
 [`IAppDataGoogleAppListingsCategoriesResultInfo`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md).[`count`](../interfaces/IAppDataGoogleAppListingsCategoriesResultInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:194347
+main.ts:196179
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:194347
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:194360
+main.ts:196192
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:194360
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:194378
+main.ts:196210
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:194378
 
 [`AppDataGoogleAppListingsCategoriesResultInfo`](AppDataGoogleAppListingsCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:194371
+main.ts:196203

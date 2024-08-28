@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TopSightsElement(data)
+### new TopSightsElement()
 
 > **new TopSightsElement**(`data`?): [`TopSightsElement`](TopSightsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`TopSightsElement`](TopSightsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33254
+main.ts:33450
 
 ## Properties
 
 ### description?
 
-> **`optional`** **description**: `string`
+> `optional` **description**: `string`
 
 description
 
@@ -44,15 +44,15 @@ description
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`description`](../interfaces/ITopSightsElement.md#description)
 
-#### Source
+#### Defined in
 
-main.ts:33247
+main.ts:33443
 
 ***
 
 ### rating?
 
-> **`optional`** **rating**: [`RatingInfo`](RatingInfo.md)
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
 the item’s rating 
 the popularity rate based on reviews and displayed in SERP
@@ -61,15 +61,15 @@ the popularity rate based on reviews and displayed in SERP
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`rating`](../interfaces/ITopSightsElement.md#rating)
 
-#### Source
+#### Defined in
 
-main.ts:33250
+main.ts:33446
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -77,15 +77,15 @@ title of a given link element
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`title`](../interfaces/ITopSightsElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:33243
+main.ts:33439
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -93,15 +93,15 @@ type of element
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`type`](../interfaces/ITopSightsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:33241
+main.ts:33437
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -109,9 +109,9 @@ URL
 
 [`ITopSightsElement`](../interfaces/ITopSightsElement.md).[`url`](../interfaces/ITopSightsElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:33245
+main.ts:33441
 
 ## Methods
 
@@ -127,9 +127,9 @@ main.ts:33245
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:33263
+main.ts:33459
 
 ***
 
@@ -145,15 +145,15 @@ main.ts:33263
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:33284
+main.ts:33480
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TopSightsElement`](TopSightsElement.md)
+> `static` **fromJS**(`data`): [`TopSightsElement`](TopSightsElement.md)
 
 #### Parameters
 
@@ -163,6 +163,6 @@ main.ts:33284
 
 [`TopSightsElement`](TopSightsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:33277
+main.ts:33473

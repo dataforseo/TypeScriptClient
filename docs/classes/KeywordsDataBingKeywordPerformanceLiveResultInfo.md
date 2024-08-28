@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataBingKeywordPerformanceLiveResultInfo(data)
+### new KeywordsDataBingKeywordPerformanceLiveResultInfo()
 
 > **new KeywordsDataBingKeywordPerformanceLiveResultInfo**(`data`?): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:136979
+main.ts:136805
 
 ## Properties
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword in a POST array
 
@@ -44,15 +44,15 @@ keyword in a POST array
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`keyword`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:136958
+main.ts:136784
 
 ***
 
 ### keyword\_kpi?
 
-> **`optional`** **keyword\_kpi**: [`KeywordKpi`](KeywordKpi.md)
+> `optional` **keyword\_kpi**: [`KeywordKpi`](KeywordKpi.md)
 
 object containing keyword metrics
 if there is no data, then the value is null
@@ -61,15 +61,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`keyword_kpi`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#keyword_kpi)
 
-#### Source
+#### Defined in
 
-main.ts:136975
+main.ts:136801
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 if there is no data, then the value is null
@@ -78,15 +78,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`language_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:136964
+main.ts:136790
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 if there is no data, then the value is null
@@ -95,15 +95,15 @@ if there is no data, then the value is null
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`location_code`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:136961
+main.ts:136787
 
 ***
 
 ### month?
 
-> **`optional`** **month**: `number`
+> `optional` **month**: `number`
 
 indicates the month for which the data is provided for
 example:
@@ -113,15 +113,15 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`month`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#month)
 
-#### Source
+#### Defined in
 
-main.ts:136972
+main.ts:136798
 
 ***
 
 ### year?
 
-> **`optional`** **year**: `number`
+> `optional` **year**: `number`
 
 indicates the year for which the data is provided for
 example:
@@ -131,9 +131,9 @@ example:
 
 [`IKeywordsDataBingKeywordPerformanceLiveResultInfo`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md).[`year`](../interfaces/IKeywordsDataBingKeywordPerformanceLiveResultInfo.md#year)
 
-#### Source
+#### Defined in
 
-main.ts:136968
+main.ts:136794
 
 ## Methods
 
@@ -149,9 +149,9 @@ main.ts:136968
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:136988
+main.ts:136814
 
 ***
 
@@ -167,15 +167,15 @@ main.ts:136988
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:137010
+main.ts:136836
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
 #### Parameters
 
@@ -185,6 +185,6 @@ main.ts:137010
 
 [`KeywordsDataBingKeywordPerformanceLiveResultInfo`](KeywordsDataBingKeywordPerformanceLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:137003
+main.ts:136829

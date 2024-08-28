@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo(data)
+### new KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo()
 
 > **new KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo**(`data`?): [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)
 
@@ -36,15 +36,15 @@
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`constructor`](KeywordsDataTaskRequestInfo.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:122172
+main.ts:122804
 
 ## Properties
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -62,15 +62,15 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`date_from`](KeywordsDataTaskRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:73827
+main.ts:74423
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -88,15 +88,15 @@ example:
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`date_to`](KeywordsDataTaskRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:73835
+main.ts:74431
 
 ***
 
 ### include\_adult\_keywords?
 
-> **`optional`** **include\_adult\_keywords**: `boolean`
+> `optional` **include\_adult\_keywords**: `boolean`
 
 include keywords associated with adult content
 optional field
@@ -112,15 +112,15 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`include_adult_keywords`](KeywordsDataTaskRequestInfo.md#include_adult_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:73841
+main.ts:74437
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -142,15 +142,15 @@ to learn more about which symbols can be used, please refer to this article
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`keywords`](KeywordsDataTaskRequestInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:73777
+main.ts:74373
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -166,15 +166,15 @@ en
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`language_code`](KeywordsDataTaskRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:73814
+main.ts:74410
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -190,15 +190,15 @@ English
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`language_name`](KeywordsDataTaskRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:73808
+main.ts:74404
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 optional field
@@ -216,15 +216,15 @@ example:
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`location_code`](KeywordsDataTaskRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:73793
+main.ts:74389
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -243,15 +243,15 @@ example:
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`location_coordinate`](KeywordsDataTaskRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:73802
+main.ts:74398
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -269,15 +269,15 @@ London,England,United Kingdom
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`location_name`](KeywordsDataTaskRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:73785
+main.ts:74381
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -297,15 +297,15 @@ i.a., the # symbol will be encoded into %23
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`pingback_url`](KeywordsDataTaskRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:73866
+main.ts:74462
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -325,15 +325,15 @@ i.a., the # symbol will be encoded into %23
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`postback_url`](KeywordsDataTaskRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:73856
+main.ts:74452
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 include Google search partners
 optional field
@@ -348,15 +348,15 @@ default value: false – results are returned for Google search sites
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`search_partners`](KeywordsDataTaskRequestInfo.md#search_partners)
 
-#### Source
+#### Defined in
 
-main.ts:73819
+main.ts:74415
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -371,15 +371,15 @@ default value: relevance
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`sort_by`](KeywordsDataTaskRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:73846
+main.ts:74442
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -395,15 +395,15 @@ you will find the specified tag value in the data array of the response
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`tag`](KeywordsDataTaskRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:73872
+main.ts:74468
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target website
 optional field
@@ -414,9 +414,9 @@ Note: if a website url is specified, you will still get keywords relevant for th
 
 [`IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md).[`target`](../interfaces/IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:122168
+main.ts:122800
 
 ## Methods
 
@@ -436,9 +436,9 @@ main.ts:122168
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`init`](KeywordsDataTaskRequestInfo.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:122176
+main.ts:122808
 
 ***
 
@@ -458,15 +458,15 @@ main.ts:122176
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`toJSON`](KeywordsDataTaskRequestInfo.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:122194
+main.ts:122826
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo`](KeywordsDataGoogleAdsKeywordsForKeywordsTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -480,6 +480,6 @@ main.ts:122194
 
 [`KeywordsDataTaskRequestInfo`](KeywordsDataTaskRequestInfo.md).[`fromJS`](KeywordsDataTaskRequestInfo.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:122187
+main.ts:122819

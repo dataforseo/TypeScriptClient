@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### rows?
 
-> **`optional`** **rows**: [`BaseProductInformationRowItem`](../classes/BaseProductInformationRowItem.md)[]
+> `optional` **rows**: [`BaseProductInformationRowItem`](../classes/BaseProductInformationRowItem.md)[]
 
 rows containing related product information
 
-#### Source
+#### Defined in
 
-main.ts:184756
+main.ts:186588
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title under which related product information appears on the Amazon product page
 
-#### Source
+#### Defined in
 
-main.ts:184754
+main.ts:186586
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:184752
+main.ts:186584

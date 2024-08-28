@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new CompareSitesElement(data)
+### new CompareSitesElement()
 
 > **new CompareSitesElement**(`data`?): [`CompareSitesElement`](CompareSitesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`CompareSitesElement`](CompareSitesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:37576
+main.ts:37772
 
 ## Properties
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -44,15 +44,15 @@ website domain
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`domain`](../interfaces/ICompareSitesElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:37567
+main.ts:37763
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 
@@ -60,15 +60,15 @@ URL of the image
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`image_url`](../interfaces/ICompareSitesElement.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:37569
+main.ts:37765
 
 ***
 
 ### source?
 
-> **`optional`** **source**: `string`
+> `optional` **source**: `string`
 
 source of the element
 indicates the source of information included in the top_stories_element
@@ -77,15 +77,15 @@ indicates the source of information included in the top_stories_element
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`source`](../interfaces/ICompareSitesElement.md#source)
 
-#### Source
+#### Defined in
 
-main.ts:37572
+main.ts:37768
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -93,15 +93,15 @@ title of a given link element
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`title`](../interfaces/ICompareSitesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:37563
+main.ts:37759
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -109,15 +109,15 @@ type of element
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`type`](../interfaces/ICompareSitesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:37561
+main.ts:37757
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -125,9 +125,9 @@ URL
 
 [`ICompareSitesElement`](../interfaces/ICompareSitesElement.md).[`url`](../interfaces/ICompareSitesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:37565
+main.ts:37761
 
 ## Methods
 
@@ -143,9 +143,9 @@ main.ts:37565
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:37585
+main.ts:37781
 
 ***
 
@@ -161,15 +161,15 @@ main.ts:37585
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:37607
+main.ts:37803
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`CompareSitesElement`](CompareSitesElement.md)
+> `static` **fromJS**(`data`): [`CompareSitesElement`](CompareSitesElement.md)
 
 #### Parameters
 
@@ -179,6 +179,6 @@ main.ts:37607
 
 [`CompareSitesElement`](CompareSitesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:37600
+main.ts:37796

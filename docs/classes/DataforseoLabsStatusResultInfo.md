@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsStatusResultInfo(data)
+### new DataforseoLabsStatusResultInfo()
 
 > **new DataforseoLabsStatusResultInfo**(`data`?): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:81323
+main.ts:81919
 
 ## Properties
 
 ### amazon?
 
-> **`optional`** **amazon**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> `optional` **amazon**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
 update information for the Amazon endpoints
 
@@ -44,15 +44,15 @@ update information for the Amazon endpoints
 
 [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md).[`amazon`](../interfaces/IDataforseoLabsStatusResultInfo.md#amazon)
 
-#### Source
+#### Defined in
 
-main.ts:81319
+main.ts:81915
 
 ***
 
 ### bing?
 
-> **`optional`** **bing**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> `optional` **bing**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
 update information for the Bing endpoints
 
@@ -60,15 +60,15 @@ update information for the Bing endpoints
 
 [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md).[`bing`](../interfaces/IDataforseoLabsStatusResultInfo.md#bing)
 
-#### Source
+#### Defined in
 
-main.ts:81317
+main.ts:81913
 
 ***
 
 ### google?
 
-> **`optional`** **google**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
+> `optional` **google**: [`DataforseoLabsStatusInfo`](DataforseoLabsStatusInfo.md)
 
 update information for the Google endpoints
 
@@ -76,9 +76,9 @@ update information for the Google endpoints
 
 [`IDataforseoLabsStatusResultInfo`](../interfaces/IDataforseoLabsStatusResultInfo.md).[`google`](../interfaces/IDataforseoLabsStatusResultInfo.md#google)
 
-#### Source
+#### Defined in
 
-main.ts:81315
+main.ts:81911
 
 ## Methods
 
@@ -94,9 +94,9 @@ main.ts:81315
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:81332
+main.ts:81928
 
 ***
 
@@ -112,15 +112,15 @@ main.ts:81332
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:81351
+main.ts:81947
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
 #### Parameters
 
@@ -130,6 +130,6 @@ main.ts:81351
 
 [`DataforseoLabsStatusResultInfo`](DataforseoLabsStatusResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:81344
+main.ts:81940

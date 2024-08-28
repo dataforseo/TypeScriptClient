@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new RedirectLinkElementItem(data)
+### new RedirectLinkElementItem()
 
 > **new RedirectLinkElementItem**(`data`?): [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
 
@@ -36,29 +36,29 @@
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`constructor`](BaseOnPageLinkItemInfo.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:160458
+main.ts:162290
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
 #### Inherited from
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`_discriminator`](BaseOnPageLinkItemInfo.md#_discriminator)
 
-#### Source
+#### Defined in
 
-main.ts:21320
+main.ts:21502
 
 ***
 
 ### direction?
 
-> **`optional`** **direction**: `string`
+> `optional` **direction**: `string`
 
 direction of the link
 possible values: internal, external
@@ -67,15 +67,15 @@ possible values: internal, external
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`direction`](../interfaces/IRedirectLinkElementItem.md#direction)
 
-#### Source
+#### Defined in
 
-main.ts:160448
+main.ts:162280
 
 ***
 
 ### dofollow?
 
-> **`optional`** **dofollow**: `boolean`
+> `optional` **dofollow**: `boolean`
 
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
@@ -84,15 +84,15 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`dofollow`](../interfaces/IRedirectLinkElementItem.md#dofollow)
 
-#### Source
+#### Defined in
 
-main.ts:160441
+main.ts:162273
 
 ***
 
 ### domain\_from?
 
-> **`optional`** **domain\_from**: `string`
+> `optional` **domain\_from**: `string`
 
 referring domain
 the link was found on this domain
@@ -101,15 +101,15 @@ the link was found on this domain
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`domain_from`](../interfaces/IRedirectLinkElementItem.md#domain_from)
 
-#### Source
+#### Defined in
 
-main.ts:160423
+main.ts:162255
 
 ***
 
 ### domain\_to?
 
-> **`optional`** **domain\_to**: `string`
+> `optional` **domain\_to**: `string`
 
 referenced domain
 the link is pointing to this domain
@@ -118,15 +118,15 @@ the link is pointing to this domain
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`domain_to`](../interfaces/IRedirectLinkElementItem.md#domain_to)
 
-#### Source
+#### Defined in
 
-main.ts:160426
+main.ts:162258
 
 ***
 
 ### is\_broken?
 
-> **`optional`** **is\_broken**: `boolean`
+> `optional` **is\_broken**: `boolean`
 
 link is broken
 indicates whether a link is directing to a broken page or resource
@@ -135,15 +135,15 @@ indicates whether a link is directing to a broken page or resource
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`is_broken`](../interfaces/IRedirectLinkElementItem.md#is_broken)
 
-#### Source
+#### Defined in
 
-main.ts:160451
+main.ts:162283
 
 ***
 
 ### is\_link\_relation\_conflict?
 
-> **`optional`** **is\_link\_relation\_conflict**: `boolean`
+> `optional` **is\_link\_relation\_conflict**: `boolean`
 
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to the URL in link_to has a rel="nofollow" attribute and at least one is dofollow
@@ -152,15 +152,15 @@ if true, at least one link pointing to the URL in link_to has a rel="nofollow" a
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`is_link_relation_conflict`](../interfaces/IRedirectLinkElementItem.md#is_link_relation_conflict)
 
-#### Source
+#### Defined in
 
-main.ts:160454
+main.ts:162286
 
 ***
 
 ### link\_from?
 
-> **`optional`** **link\_from**: `string`
+> `optional` **link\_from**: `string`
 
 referring page
 absolute URL of the page on which the link was found
@@ -169,15 +169,15 @@ absolute URL of the page on which the link was found
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`link_from`](../interfaces/IRedirectLinkElementItem.md#link_from)
 
-#### Source
+#### Defined in
 
-main.ts:160435
+main.ts:162267
 
 ***
 
 ### link\_to?
 
-> **`optional`** **link\_to**: `string`
+> `optional` **link\_to**: `string`
 
 referenced page
 absolute URL of the page to which the link is pointing
@@ -186,15 +186,15 @@ absolute URL of the page to which the link is pointing
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`link_to`](../interfaces/IRedirectLinkElementItem.md#link_to)
 
-#### Source
+#### Defined in
 
-main.ts:160438
+main.ts:162270
 
 ***
 
 ### page\_from?
 
-> **`optional`** **page\_from**: `string`
+> `optional` **page\_from**: `string`
 
 referring page
 relative URL of the page on which the link was found
@@ -203,15 +203,15 @@ relative URL of the page on which the link was found
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_from`](../interfaces/IRedirectLinkElementItem.md#page_from)
 
-#### Source
+#### Defined in
 
-main.ts:160429
+main.ts:162261
 
 ***
 
 ### page\_from\_scheme?
 
-> **`optional`** **page\_from\_scheme**: `string`
+> `optional` **page\_from\_scheme**: `string`
 
 url scheme of the referring page
 
@@ -219,15 +219,15 @@ url scheme of the referring page
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_from_scheme`](../interfaces/IRedirectLinkElementItem.md#page_from_scheme)
 
-#### Source
+#### Defined in
 
-main.ts:160443
+main.ts:162275
 
 ***
 
 ### page\_to?
 
-> **`optional`** **page\_to**: `string`
+> `optional` **page\_to**: `string`
 
 referenced page
 relative URL of the page to which the link is pointing
@@ -236,15 +236,15 @@ relative URL of the page to which the link is pointing
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_to`](../interfaces/IRedirectLinkElementItem.md#page_to)
 
-#### Source
+#### Defined in
 
-main.ts:160432
+main.ts:162264
 
 ***
 
 ### page\_to\_scheme?
 
-> **`optional`** **page\_to\_scheme**: `string`
+> `optional` **page\_to\_scheme**: `string`
 
 url scheme of the referenced page
 
@@ -252,9 +252,9 @@ url scheme of the referenced page
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_to_scheme`](../interfaces/IRedirectLinkElementItem.md#page_to_scheme)
 
-#### Source
+#### Defined in
 
-main.ts:160445
+main.ts:162277
 
 ## Methods
 
@@ -274,9 +274,9 @@ main.ts:160445
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`init`](BaseOnPageLinkItemInfo.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:160463
+main.ts:162295
 
 ***
 
@@ -296,15 +296,15 @@ main.ts:160463
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`toJSON`](BaseOnPageLinkItemInfo.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:160492
+main.ts:162324
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
+> `static` **fromJS**(`data`): [`RedirectLinkElementItem`](RedirectLinkElementItem.md)
 
 #### Parameters
 
@@ -318,6 +318,6 @@ main.ts:160492
 
 [`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`fromJS`](BaseOnPageLinkItemInfo.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:160485
+main.ts:162317

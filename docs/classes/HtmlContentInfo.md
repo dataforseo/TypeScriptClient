@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new HtmlContentInfo(data)
+### new HtmlContentInfo()
 
 > **new HtmlContentInfo**(`data`?): [`HtmlContentInfo`](HtmlContentInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`HtmlContentInfo`](HtmlContentInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:155636
+main.ts:157464
 
 ## Properties
 
 ### automated\_readability\_index?
 
-> **`optional`** **automated\_readability\_index**: `number`
+> `optional` **automated\_readability\_index**: `number`
 
 Automated Readability Index
 
@@ -44,15 +44,15 @@ Automated Readability Index
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`automated_readability_index`](../interfaces/IHtmlContentInfo.md#automated_readability_index)
 
-#### Source
+#### Defined in
 
-main.ts:155615
+main.ts:157443
 
 ***
 
 ### coleman\_liau\_readability\_index?
 
-> **`optional`** **coleman\_liau\_readability\_index**: `number`
+> `optional` **coleman\_liau\_readability\_index**: `number`
 
 Coleman–Liau Index
 
@@ -60,15 +60,15 @@ Coleman–Liau Index
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`coleman_liau_readability_index`](../interfaces/IHtmlContentInfo.md#coleman_liau_readability_index)
 
-#### Source
+#### Defined in
 
-main.ts:155617
+main.ts:157445
 
 ***
 
 ### dale\_chall\_readability\_index?
 
-> **`optional`** **dale\_chall\_readability\_index**: `number`
+> `optional` **dale\_chall\_readability\_index**: `number`
 
 Dale–Chall Readability Index
 
@@ -76,15 +76,15 @@ Dale–Chall Readability Index
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`dale_chall_readability_index`](../interfaces/IHtmlContentInfo.md#dale_chall_readability_index)
 
-#### Source
+#### Defined in
 
-main.ts:155619
+main.ts:157447
 
 ***
 
 ### description\_to\_content\_consistency?
 
-> **`optional`** **description\_to\_content\_consistency**: `number`
+> `optional` **description\_to\_content\_consistency**: `number`
 
 consistency of the meta description tag with the page content
 measured from 0 to 1
@@ -93,15 +93,15 @@ measured from 0 to 1
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`description_to_content_consistency`](../interfaces/IHtmlContentInfo.md#description_to_content_consistency)
 
-#### Source
+#### Defined in
 
-main.ts:155626
+main.ts:157454
 
 ***
 
 ### flesch\_kincaid\_readability\_index?
 
-> **`optional`** **flesch\_kincaid\_readability\_index**: `number`
+> `optional` **flesch\_kincaid\_readability\_index**: `number`
 
 Flesch–Kincaid Readability Index
 
@@ -109,15 +109,15 @@ Flesch–Kincaid Readability Index
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`flesch_kincaid_readability_index`](../interfaces/IHtmlContentInfo.md#flesch_kincaid_readability_index)
 
-#### Source
+#### Defined in
 
-main.ts:155621
+main.ts:157449
 
 ***
 
 ### meta\_keywords\_to\_content\_consistency?
 
-> **`optional`** **meta\_keywords\_to\_content\_consistency**: `number`
+> `optional` **meta\_keywords\_to\_content\_consistency**: `number`
 
 consistency of meta keywordstag with the page content
 measured from 0 to 1
@@ -126,15 +126,15 @@ measured from 0 to 1
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`meta_keywords_to_content_consistency`](../interfaces/IHtmlContentInfo.md#meta_keywords_to_content_consistency)
 
-#### Source
+#### Defined in
 
-main.ts:155632
+main.ts:157460
 
 ***
 
 ### plain\_text\_rate?
 
-> **`optional`** **plain\_text\_rate**: `number`
+> `optional` **plain\_text\_rate**: `number`
 
 plaintext rate value
 plain_text_size to size ratio
@@ -143,15 +143,15 @@ plain_text_size to size ratio
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`plain_text_rate`](../interfaces/IHtmlContentInfo.md#plain_text_rate)
 
-#### Source
+#### Defined in
 
-main.ts:155611
+main.ts:157439
 
 ***
 
 ### plain\_text\_size?
 
-> **`optional`** **plain\_text\_size**: `number`
+> `optional` **plain\_text\_size**: `number`
 
 total size of the text on the page measured in bytes
 
@@ -159,15 +159,15 @@ total size of the text on the page measured in bytes
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`plain_text_size`](../interfaces/IHtmlContentInfo.md#plain_text_size)
 
-#### Source
+#### Defined in
 
-main.ts:155608
+main.ts:157436
 
 ***
 
 ### plain\_text\_word\_count?
 
-> **`optional`** **plain\_text\_word\_count**: `number`
+> `optional` **plain\_text\_word\_count**: `number`
 
 number of words on the page
 
@@ -175,15 +175,15 @@ number of words on the page
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`plain_text_word_count`](../interfaces/IHtmlContentInfo.md#plain_text_word_count)
 
-#### Source
+#### Defined in
 
-main.ts:155613
+main.ts:157441
 
 ***
 
 ### smog\_readability\_index?
 
-> **`optional`** **smog\_readability\_index**: `number`
+> `optional` **smog\_readability\_index**: `number`
 
 SMOG Readability Index
 
@@ -191,15 +191,15 @@ SMOG Readability Index
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`smog_readability_index`](../interfaces/IHtmlContentInfo.md#smog_readability_index)
 
-#### Source
+#### Defined in
 
-main.ts:155623
+main.ts:157451
 
 ***
 
 ### title\_to\_content\_consistency?
 
-> **`optional`** **title\_to\_content\_consistency**: `number`
+> `optional` **title\_to\_content\_consistency**: `number`
 
 consistency of the meta title tag with the page content
 measured from 0 to 1
@@ -208,9 +208,9 @@ measured from 0 to 1
 
 [`IHtmlContentInfo`](../interfaces/IHtmlContentInfo.md).[`title_to_content_consistency`](../interfaces/IHtmlContentInfo.md#title_to_content_consistency)
 
-#### Source
+#### Defined in
 
-main.ts:155629
+main.ts:157457
 
 ## Methods
 
@@ -226,9 +226,9 @@ main.ts:155629
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:155645
+main.ts:157473
 
 ***
 
@@ -244,15 +244,15 @@ main.ts:155645
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:155672
+main.ts:157500
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`HtmlContentInfo`](HtmlContentInfo.md)
+> `static` **fromJS**(`data`): [`HtmlContentInfo`](HtmlContentInfo.md)
 
 #### Parameters
 
@@ -262,6 +262,6 @@ main.ts:155672
 
 [`HtmlContentInfo`](HtmlContentInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:155665
+main.ts:157493

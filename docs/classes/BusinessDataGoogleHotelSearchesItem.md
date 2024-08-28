@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataGoogleHotelSearchesItem(data)
+### new BusinessDataGoogleHotelSearchesItem()
 
 > **new BusinessDataGoogleHotelSearchesItem**(`data`?): [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:206900
+main.ts:208750
 
 ## Properties
 
 ### hotel\_identifier?
 
-> **`optional`** **hotel\_identifier**: `string`
+> `optional` **hotel\_identifier**: `string`
 
 unique identifier of a hotel entity in Google search
 example:
@@ -46,15 +46,15 @@ CgoI-KWyzenM_MV3EAE
 
 [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md).[`hotel_identifier`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md#hotel_identifier)
 
-#### Source
+#### Defined in
 
-main.ts:206879
+main.ts:208729
 
 ***
 
 ### is\_paid?
 
-> **`optional`** **is\_paid**: `boolean`
+> `optional` **is\_paid**: `boolean`
 
 indicates a paid hotel listing
 if true, related hotel_search_item is a paid ad
@@ -64,15 +64,15 @@ if false, related hotel_search_item is an organic hotel listing
 
 [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md).[`is_paid`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md#is_paid)
 
-#### Source
+#### Defined in
 
-main.ts:206888
+main.ts:208738
 
 ***
 
 ### location?
 
-> **`optional`** **location**: [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
+> `optional` **location**: [`GpsCoordinatesLocationInfo`](GpsCoordinatesLocationInfo.md)
 
 GPS coordinates of the hotel’s location
 
@@ -80,15 +80,15 @@ GPS coordinates of the hotel’s location
 
 [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md).[`location`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md#location)
 
-#### Source
+#### Defined in
 
-main.ts:206890
+main.ts:208740
 
 ***
 
 ### overview\_images?
 
-> **`optional`** **overview\_images**: `string`[]
+> `optional` **overview\_images**: `string`[]
 
 featured images for a hotel
 
@@ -96,15 +96,15 @@ featured images for a hotel
 
 [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md).[`overview_images`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md#overview_images)
 
-#### Source
+#### Defined in
 
-main.ts:206894
+main.ts:208744
 
 ***
 
 ### prices?
 
-> **`optional`** **prices**: [`HotelPriceInfo`](HotelPriceInfo.md)
+> `optional` **prices**: [`HotelPriceInfo`](HotelPriceInfo.md)
 
 hotel price
 
@@ -112,15 +112,15 @@ hotel price
 
 [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md).[`prices`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md#prices)
 
-#### Source
+#### Defined in
 
-main.ts:206896
+main.ts:208746
 
 ***
 
 ### reviews?
 
-> **`optional`** **reviews**: [`HotelReviewInfo`](HotelReviewInfo.md)
+> `optional` **reviews**: [`HotelReviewInfo`](HotelReviewInfo.md)
 
 hotel reviews and rating information
 
@@ -128,15 +128,15 @@ hotel reviews and rating information
 
 [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md).[`reviews`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md#reviews)
 
-#### Source
+#### Defined in
 
-main.ts:206892
+main.ts:208742
 
 ***
 
 ### stars?
 
-> **`optional`** **stars**: `number`
+> `optional` **stars**: `number`
 
 hotel class rating
 class rating that ranges between 1-5 stars
@@ -145,15 +145,15 @@ class rating that ranges between 1-5 stars
 
 [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md).[`stars`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md#stars)
 
-#### Source
+#### Defined in
 
-main.ts:206884
+main.ts:208734
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the hotel
 
@@ -161,15 +161,15 @@ title of the hotel
 
 [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md).[`title`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:206881
+main.ts:208731
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -177,9 +177,9 @@ type of element
 
 [`IBusinessDataGoogleHotelSearchesItem`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md).[`type`](../interfaces/IBusinessDataGoogleHotelSearchesItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:206875
+main.ts:208725
 
 ## Methods
 
@@ -195,9 +195,9 @@ main.ts:206875
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:206909
+main.ts:208759
 
 ***
 
@@ -213,15 +213,15 @@ main.ts:206909
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:206938
+main.ts:208788
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)
+> `static` **fromJS**(`data`): [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)
 
 #### Parameters
 
@@ -231,6 +231,6 @@ main.ts:206938
 
 [`BusinessDataGoogleHotelSearchesItem`](BusinessDataGoogleHotelSearchesItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:206931
+main.ts:208781

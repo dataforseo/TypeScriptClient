@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,7 +14,7 @@
 
 ### endpoint?
 
-> **`optional`** **endpoint**: `string`
+> `optional` **endpoint**: `string`
 
 name of the endpoint
 the list of possible endpoints:
@@ -23,15 +23,15 @@ task_post
 live
 postback/pingback
 
-#### Source
+#### Defined in
 
-main.ts:224671
+main.ts:228943
 
 ***
 
 ### status?
 
-> **`optional`** **status**: `string`
+> `optional` **status**: `string`
 
 current status
 you can find all information about the statuses of our endpoints for the last 60 days here
@@ -43,6 +43,6 @@ long_execution_time
 webhook_delay
 send_delay
 
-#### Source
+#### Defined in
 
-main.ts:224681
+main.ts:228953

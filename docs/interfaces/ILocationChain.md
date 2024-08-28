@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,48 +14,48 @@
 
 ### card\_id?
 
-> **`optional`** **card\_id**: `string`
+> `optional` **card\_id**: `string`
 
 card identifier
 
-#### Source
+#### Defined in
 
-main.ts:208689
+main.ts:210539
 
 ***
 
 ### cid?
 
-> **`optional`** **cid**: `string`
+> `optional` **cid**: `string`
 
 client id
 learn more about the identifier in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:208695
+main.ts:210545
 
 ***
 
 ### feature\_id?
 
-> **`optional`** **feature\_id**: `string`
+> `optional` **feature\_id**: `string`
 
 feature identifier
 learn more about the identifier in this help center article
 
-#### Source
+#### Defined in
 
-main.ts:208692
+main.ts:210542
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the element in the location chain
 
-#### Source
+#### Defined in
 
-main.ts:208697
+main.ts:210547

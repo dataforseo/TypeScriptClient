@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AmazonDeliveryInfo(data)
+### new AmazonDeliveryInfo()
 
 > **new AmazonDeliveryInfo**(`data`?): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22228
+main.ts:22410
 
 ## Properties
 
 ### delivery\_date\_from?
 
-> **`optional`** **delivery\_date\_from**: `string`
+> `optional` **delivery\_date\_from**: `string`
 
 the earliest date when the product can be shipped
 
@@ -44,15 +44,15 @@ the earliest date when the product can be shipped
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`delivery_date_from`](../interfaces/IAmazonDeliveryInfo.md#delivery_date_from)
 
-#### Source
+#### Defined in
 
-main.ts:22214
+main.ts:22396
 
 ***
 
 ### delivery\_date\_to?
 
-> **`optional`** **delivery\_date\_to**: `string`
+> `optional` **delivery\_date\_to**: `string`
 
 the latest date when the product can be delivered
 
@@ -60,15 +60,15 @@ the latest date when the product can be delivered
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`delivery_date_to`](../interfaces/IAmazonDeliveryInfo.md#delivery_date_to)
 
-#### Source
+#### Defined in
 
-main.ts:22216
+main.ts:22398
 
 ***
 
 ### delivery\_message?
 
-> **`optional`** **delivery\_message**: `string`
+> `optional` **delivery\_message**: `string`
 
 message accompanying the delivery information as posted by the seller
 
@@ -76,15 +76,15 @@ message accompanying the delivery information as posted by the seller
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`delivery_message`](../interfaces/IAmazonDeliveryInfo.md#delivery_message)
 
-#### Source
+#### Defined in
 
-main.ts:22212
+main.ts:22394
 
 ***
 
 ### delivery\_price?
 
-> **`optional`** **delivery\_price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **delivery\_price**: [`PriceInfo`](PriceInfo.md)
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
@@ -94,15 +94,15 @@ if free delivery is available, the value is null
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`delivery_price`](../interfaces/IAmazonDeliveryInfo.md#delivery_price)
 
-#### Source
+#### Defined in
 
-main.ts:22224
+main.ts:22406
 
 ***
 
 ### fastest\_delivery\_date\_from?
 
-> **`optional`** **fastest\_delivery\_date\_from**: `string`
+> `optional` **fastest\_delivery\_date\_from**: `string`
 
 the earliest date when the product can be delivered with a fast delivery option
 
@@ -110,15 +110,15 @@ the earliest date when the product can be delivered with a fast delivery option
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`fastest_delivery_date_from`](../interfaces/IAmazonDeliveryInfo.md#fastest_delivery_date_from)
 
-#### Source
+#### Defined in
 
-main.ts:22218
+main.ts:22400
 
 ***
 
 ### fastest\_delivery\_date\_to?
 
-> **`optional`** **fastest\_delivery\_date\_to**: `string`
+> `optional` **fastest\_delivery\_date\_to**: `string`
 
 the latest date when the product can be delivered with a fast delivery option
 
@@ -126,9 +126,9 @@ the latest date when the product can be delivered with a fast delivery option
 
 [`IAmazonDeliveryInfo`](../interfaces/IAmazonDeliveryInfo.md).[`fastest_delivery_date_to`](../interfaces/IAmazonDeliveryInfo.md#fastest_delivery_date_to)
 
-#### Source
+#### Defined in
 
-main.ts:22220
+main.ts:22402
 
 ## Methods
 
@@ -144,9 +144,9 @@ main.ts:22220
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:22237
+main.ts:22419
 
 ***
 
@@ -162,15 +162,15 @@ main.ts:22237
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:22259
+main.ts:22441
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
+> `static` **fromJS**(`data`): [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
 #### Parameters
 
@@ -180,6 +180,6 @@ main.ts:22259
 
 [`AmazonDeliveryInfo`](AmazonDeliveryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:22252
+main.ts:22434

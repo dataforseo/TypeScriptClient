@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DeliveryInfo(data)
+### new DeliveryInfo()
 
 > **new DeliveryInfo**(`data`?): [`DeliveryInfo`](DeliveryInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`DeliveryInfo`](DeliveryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:176544
+main.ts:178376
 
 ## Properties
 
 ### delivery\_message?
 
-> **`optional`** **delivery\_message**: `string`
+> `optional` **delivery\_message**: `string`
 
 delivery information
 message accompanying the delivery information as posted by the seller
@@ -45,15 +45,15 @@ message accompanying the delivery information as posted by the seller
 
 [`IDeliveryInfo`](../interfaces/IDeliveryInfo.md).[`delivery_message`](../interfaces/IDeliveryInfo.md#delivery_message)
 
-#### Source
+#### Defined in
 
-main.ts:176533
+main.ts:178365
 
 ***
 
 ### delivery\_price?
 
-> **`optional`** **delivery\_price**: [`PriceInfo`](PriceInfo.md)
+> `optional` **delivery\_price**: [`PriceInfo`](PriceInfo.md)
 
 price for the delivery
 price of the delivery based on the location you specified in the POST request;
@@ -63,15 +63,15 @@ if free delivery is available, the value is null
 
 [`IDeliveryInfo`](../interfaces/IDeliveryInfo.md).[`delivery_price`](../interfaces/IDeliveryInfo.md#delivery_price)
 
-#### Source
+#### Defined in
 
-main.ts:176537
+main.ts:178369
 
 ***
 
 ### stores\_count\_info?
 
-> **`optional`** **stores\_count\_info**: [`StoresCountInfo`](StoresCountInfo.md)
+> `optional` **stores\_count\_info**: [`StoresCountInfo`](StoresCountInfo.md)
 
 stores count information
 contains information about the number of stores that offer the same product
@@ -80,9 +80,9 @@ contains information about the number of stores that offer the same product
 
 [`IDeliveryInfo`](../interfaces/IDeliveryInfo.md).[`stores_count_info`](../interfaces/IDeliveryInfo.md#stores_count_info)
 
-#### Source
+#### Defined in
 
-main.ts:176540
+main.ts:178372
 
 ## Methods
 
@@ -98,9 +98,9 @@ main.ts:176540
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:176553
+main.ts:178385
 
 ***
 
@@ -116,15 +116,15 @@ main.ts:176553
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:176572
+main.ts:178404
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DeliveryInfo`](DeliveryInfo.md)
+> `static` **fromJS**(`data`): [`DeliveryInfo`](DeliveryInfo.md)
 
 #### Parameters
 
@@ -134,6 +134,6 @@ main.ts:176572
 
 [`DeliveryInfo`](DeliveryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:176565
+main.ts:178397

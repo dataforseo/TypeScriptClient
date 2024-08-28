@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,13 +14,13 @@
 
 ### date\_update?
 
-> **`optional`** **date\_update**: `string`
+> `optional` **date\_update**: `string`
 
 update date of the Google endpoints
 indicates the last date when the Google endpoints of DataForSEO Labs API were updated;
 example:
 2022-05-16
 
-#### Source
+#### Defined in
 
-main.ts:81308
+main.ts:81904

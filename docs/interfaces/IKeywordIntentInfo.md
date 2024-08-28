@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,24 +14,24 @@
 
 ### label?
 
-> **`optional`** **label**: `string`
+> `optional` **label**: `string`
 
 search intent name
 possible values: informational, navigational, commercial, transactional
 
-#### Source
+#### Defined in
 
-main.ts:87563
+main.ts:88129
 
 ***
 
 ### probability?
 
-> **`optional`** **probability**: `number`
+> `optional` **probability**: `number`
 
 search intent probability
 1 indicates the highest probability
 
-#### Source
+#### Defined in
 
-main.ts:87566
+main.ts:88132

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixProductGoogleMerchantPriceDataInfo(data)
+### new AppendixProductGoogleMerchantPriceDataInfo()
 
 > **new AppendixProductGoogleMerchantPriceDataInfo**(`data`?): [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
@@ -28,51 +28,51 @@
 
 [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222161
+main.ts:226433
 
 ## Properties
 
 ### task\_get?
 
-> **`optional`** **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
+> `optional` **task\_get**: [`AppendixTaskGetProductGoogleMerchantPriceDataInfo`](AppendixTaskGetProductGoogleMerchantPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixProductGoogleMerchantPriceDataInfo`](../interfaces/IAppendixProductGoogleMerchantPriceDataInfo.md).[`task_get`](../interfaces/IAppendixProductGoogleMerchantPriceDataInfo.md#task_get)
 
-#### Source
+#### Defined in
 
-main.ts:222155
+main.ts:226427
 
 ***
 
 ### task\_post?
 
-> **`optional`** **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **task\_post**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixProductGoogleMerchantPriceDataInfo`](../interfaces/IAppendixProductGoogleMerchantPriceDataInfo.md).[`task_post`](../interfaces/IAppendixProductGoogleMerchantPriceDataInfo.md#task_post)
 
-#### Source
+#### Defined in
 
-main.ts:222156
+main.ts:226428
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
+> `optional` **tasks\_ready**: [`AppendixTaskKeywordsDataPriceDataInfo`](AppendixTaskKeywordsDataPriceDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixProductGoogleMerchantPriceDataInfo`](../interfaces/IAppendixProductGoogleMerchantPriceDataInfo.md).[`tasks_ready`](../interfaces/IAppendixProductGoogleMerchantPriceDataInfo.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:222157
+main.ts:226429
 
 ## Methods
 
@@ -88,9 +88,9 @@ main.ts:222157
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:222170
+main.ts:226442
 
 ***
 
@@ -106,15 +106,15 @@ main.ts:222170
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:222189
+main.ts:226461
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
 #### Parameters
 
@@ -124,6 +124,6 @@ main.ts:222189
 
 [`AppendixProductGoogleMerchantPriceDataInfo`](AppendixProductGoogleMerchantPriceDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:222182
+main.ts:226454

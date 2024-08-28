@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new SerpYoutubeLanguagesResultInfo(data)
+### new SerpYoutubeLanguagesResultInfo()
 
 > **new SerpYoutubeLanguagesResultInfo**(`data`?): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:61907
+main.ts:62439
 
 ## Properties
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code according to ISO 639-1
 
@@ -44,15 +44,15 @@ language code according to ISO 639-1
 
 [`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md).[`language_code`](../interfaces/ISerpYoutubeLanguagesResultInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:61903
+main.ts:62435
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 language name
 
@@ -60,9 +60,9 @@ language name
 
 [`ISerpYoutubeLanguagesResultInfo`](../interfaces/ISerpYoutubeLanguagesResultInfo.md).[`language_name`](../interfaces/ISerpYoutubeLanguagesResultInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:61901
+main.ts:62433
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:61901
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:61916
+main.ts:62448
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:61916
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:61934
+main.ts:62466
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
+> `static` **fromJS**(`data`): [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:61934
 
 [`SerpYoutubeLanguagesResultInfo`](SerpYoutubeLanguagesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:61927
+main.ts:62459

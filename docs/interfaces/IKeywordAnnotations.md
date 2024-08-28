@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,10 +14,10 @@
 
 ### concepts?
 
-> **`optional`** **concepts**: [`ConceptInfo`](../classes/ConceptInfo.md)[]
+> `optional` **concepts**: [`ConceptInfo`](../classes/ConceptInfo.md)[]
 
 the list of concepts for the keyword
 
-#### Source
+#### Defined in
 
-main.ts:121354
+main.ts:121986

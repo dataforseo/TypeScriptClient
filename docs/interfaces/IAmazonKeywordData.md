@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,58 +14,58 @@
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 related keyword
 
-#### Source
+#### Defined in
 
-main.ts:22441
+main.ts:22623
 
 ***
 
 ### keyword\_info?
 
-> **`optional`** **keyword\_info**: [`AmazonKeywordInfo`](../classes/AmazonKeywordInfo.md)
+> `optional` **keyword\_info**: [`AmazonKeywordInfo`](../classes/AmazonKeywordInfo.md)
 
 keyword info for the returned keyword
 
-#### Source
+#### Defined in
 
-main.ts:22447
+main.ts:22629
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:22445
+main.ts:22627
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:22443
+main.ts:22625
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:22439
+main.ts:22621

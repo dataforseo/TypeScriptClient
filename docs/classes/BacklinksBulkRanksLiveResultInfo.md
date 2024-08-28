@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkRanksLiveResultInfo(data)
+### new BacklinksBulkRanksLiveResultInfo()
 
 > **new BacklinksBulkRanksLiveResultInfo**(`data`?): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150444
+main.ts:152270
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)[]
+> `optional` **items**: [`BacklinksBulkRanksLiveItem`](BacklinksBulkRanksLiveItem.md)[]
 
 contains relevant backlinks and referring domains data
 
@@ -44,15 +44,15 @@ contains relevant backlinks and referring domains data
 
 [`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md).[`items`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:150440
+main.ts:152266
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
@@ -60,9 +60,9 @@ the number of results returned in the items array
 
 [`IBacklinksBulkRanksLiveResultInfo`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksBulkRanksLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:150438
+main.ts:152264
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:150438
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:150453
+main.ts:152279
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:150453
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:150475
+main.ts:152301
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:150475
 
 [`BacklinksBulkRanksLiveResultInfo`](BacklinksBulkRanksLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150468
+main.ts:152294

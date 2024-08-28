@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPageTasksReadyResultInfo(data)
+### new OnPageTasksReadyResultInfo()
 
 > **new OnPageTasksReadyResultInfo**(`data`?): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:154595
+main.ts:156421
 
 ## Properties
 
 ### date\_posted?
 
-> **`optional`** **date\_posted**: `string`
+> `optional` **date\_posted**: `string`
 
 date when the task was posted (in the UTC format)
 
@@ -44,15 +44,15 @@ date when the task was posted (in the UTC format)
 
 [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md).[`date_posted`](../interfaces/IOnPageTasksReadyResultInfo.md#date_posted)
 
-#### Source
+#### Defined in
 
-main.ts:154589
+main.ts:156415
 
 ***
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 task identifier of the completed task
 unique task identifier in our system in the UUID format
@@ -61,15 +61,15 @@ unique task identifier in our system in the UUID format
 
 [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md).[`id`](../interfaces/IOnPageTasksReadyResultInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:154585
+main.ts:156411
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 
@@ -77,15 +77,15 @@ user-defined task identifier
 
 [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md).[`tag`](../interfaces/IOnPageTasksReadyResultInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:154591
+main.ts:156417
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target website specified when setting a task
 
@@ -93,9 +93,9 @@ target website specified when setting a task
 
 [`IOnPageTasksReadyResultInfo`](../interfaces/IOnPageTasksReadyResultInfo.md).[`target`](../interfaces/IOnPageTasksReadyResultInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:154587
+main.ts:156413
 
 ## Methods
 
@@ -111,9 +111,9 @@ main.ts:154587
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:154604
+main.ts:156430
 
 ***
 
@@ -129,15 +129,15 @@ main.ts:154604
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:154624
+main.ts:156450
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
 
 #### Parameters
 
@@ -147,6 +147,6 @@ main.ts:154624
 
 [`OnPageTasksReadyResultInfo`](OnPageTasksReadyResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:154617
+main.ts:156443

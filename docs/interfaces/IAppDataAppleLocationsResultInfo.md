@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,43 +14,43 @@
 
 ### country\_iso\_code?
 
-> **`optional`** **country\_iso\_code**: `string`
+> `optional` **country\_iso\_code**: `string`
 
 ISO country code of the location
 
-#### Source
+#### Defined in
 
-main.ts:195262
+main.ts:197094
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code
 
-#### Source
+#### Defined in
 
-main.ts:195249
+main.ts:197081
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of the location
 
-#### Source
+#### Defined in
 
-main.ts:195251
+main.ts:197083
 
 ***
 
 ### location\_name\_parent?
 
-> **`optional`** **location\_name\_parent**: `number`
+> `optional` **location\_name\_parent**: `number`
 
 the name of the superordinate location
 example:
@@ -61,18 +61,18 @@ example:
 "location_name": "England,United Kingdom"
 note: Apple App Data API currently supports countries only, that is why this value will always be null
 
-#### Source
+#### Defined in
 
-main.ts:195260
+main.ts:197092
 
 ***
 
 ### location\_type?
 
-> **`optional`** **location\_type**: `string`
+> `optional` **location\_type**: `string`
 
 location type
 
-#### Source
+#### Defined in
 
-main.ts:195264
+main.ts:197096

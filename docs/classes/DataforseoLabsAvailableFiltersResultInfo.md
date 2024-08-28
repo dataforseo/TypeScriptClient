@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsAvailableFiltersResultInfo(data)
+### new DataforseoLabsAvailableFiltersResultInfo()
 
 > **new DataforseoLabsAvailableFiltersResultInfo**(`data`?): [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)
 
@@ -28,89 +28,89 @@
 
 [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:81851
+main.ts:82447
 
 ## Properties
 
 ### app\_competitors?
 
-> **`optional`** **app\_competitors**: `Object`
+> `optional` **app\_competitors**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`app_competitors`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#app_competitors)
 
-#### Source
+#### Defined in
 
-main.ts:81845
+main.ts:82441
 
 ***
 
 ### app\_intersection?
 
-> **`optional`** **app\_intersection**: `Object`
+> `optional` **app\_intersection**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`app_intersection`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#app_intersection)
 
-#### Source
+#### Defined in
 
-main.ts:81844
+main.ts:82440
 
 ***
 
 ### categories\_for\_domain?
 
-> **`optional`** **categories\_for\_domain**: `Object`
+> `optional` **categories\_for\_domain**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`categories_for_domain`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#categories_for_domain)
 
-#### Source
+#### Defined in
 
-main.ts:81834
+main.ts:82430
 
 ***
 
 ### competitors\_domain?
 
-> **`optional`** **competitors\_domain**: `Object`
+> `optional` **competitors\_domain**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`competitors_domain`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#competitors_domain)
 
-#### Source
+#### Defined in
 
-main.ts:81833
+main.ts:82429
 
 ***
 
 ### database\_rows\_count?
 
-> **`optional`** **database\_rows\_count**: `Object`
+> `optional` **database\_rows\_count**: `object`
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `string`
 
@@ -118,315 +118,315 @@ main.ts:81833
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`database_rows_count`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#database_rows_count)
 
-#### Source
+#### Defined in
 
-main.ts:81847
+main.ts:82443
 
 ***
 
 ### domain\_intersection?
 
-> **`optional`** **domain\_intersection**: `Object`
+> `optional` **domain\_intersection**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`domain_intersection`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#domain_intersection)
 
-#### Source
+#### Defined in
 
-main.ts:81836
+main.ts:82432
 
 ***
 
 ### domain\_metrics\_by\_categories?
 
-> **`optional`** **domain\_metrics\_by\_categories**: `Object`
+> `optional` **domain\_metrics\_by\_categories**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`domain_metrics_by_categories`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#domain_metrics_by_categories)
 
-#### Source
+#### Defined in
 
-main.ts:81840
+main.ts:82436
 
 ***
 
 ### domain\_whois\_overview?
 
-> **`optional`** **domain\_whois\_overview**: `Object`
+> `optional` **domain\_whois\_overview**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`domain_whois_overview`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#domain_whois_overview)
 
-#### Source
+#### Defined in
 
-main.ts:81838
+main.ts:82434
 
 ***
 
 ### keyword\_ideas?
 
-> **`optional`** **keyword\_ideas**: `Object`
+> `optional` **keyword\_ideas**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keyword_ideas`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keyword_ideas)
 
-#### Source
+#### Defined in
 
-main.ts:81829
+main.ts:82425
 
 ***
 
 ### keyword\_suggestions?
 
-> **`optional`** **keyword\_suggestions**: `Object`
+> `optional` **keyword\_suggestions**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keyword_suggestions`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keyword_suggestions)
 
-#### Source
+#### Defined in
 
-main.ts:81827
+main.ts:82423
 
 ***
 
 ### keywords\_for\_app?
 
-> **`optional`** **keywords\_for\_app**: `Object`
+> `optional` **keywords\_for\_app**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keywords_for_app`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keywords_for_app)
 
-#### Source
+#### Defined in
 
-main.ts:81846
+main.ts:82442
 
 ***
 
 ### keywords\_for\_categories?
 
-> **`optional`** **keywords\_for\_categories**: `Object`
+> `optional` **keywords\_for\_categories**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keywords_for_categories`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keywords_for_categories)
 
-#### Source
+#### Defined in
 
-main.ts:81835
+main.ts:82431
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: `Object`
+> `optional` **keywords\_for\_site**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`keywords_for_site`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#keywords_for_site)
 
-#### Source
+#### Defined in
 
-main.ts:81841
+main.ts:82437
 
 ***
 
 ### page\_intersection?
 
-> **`optional`** **page\_intersection**: `Object`
+> `optional` **page\_intersection**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`page_intersection`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#page_intersection)
 
-#### Source
+#### Defined in
 
-main.ts:81837
+main.ts:82433
 
 ***
 
 ### product\_competitors?
 
-> **`optional`** **product\_competitors**: `Object`
+> `optional` **product\_competitors**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`product_competitors`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#product_competitors)
 
-#### Source
+#### Defined in
 
-main.ts:81842
+main.ts:82438
 
 ***
 
 ### product\_keyword\_intersections?
 
-> **`optional`** **product\_keyword\_intersections**: `Object`
+> `optional` **product\_keyword\_intersections**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`product_keyword_intersections`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#product_keyword_intersections)
 
-#### Source
+#### Defined in
 
-main.ts:81843
+main.ts:82439
 
 ***
 
 ### ranked\_keywords?
 
-> **`optional`** **ranked\_keywords**: `Object`
+> `optional` **ranked\_keywords**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`ranked_keywords`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#ranked_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:81828
+main.ts:82424
 
 ***
 
 ### related\_keywords?
 
-> **`optional`** **related\_keywords**: `Object`
+> `optional` **related\_keywords**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`related_keywords`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#related_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:81826
+main.ts:82422
 
 ***
 
 ### relevant\_pages?
 
-> **`optional`** **relevant\_pages**: `Object`
+> `optional` **relevant\_pages**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`relevant_pages`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#relevant_pages)
 
-#### Source
+#### Defined in
 
-main.ts:81831
+main.ts:82427
 
 ***
 
 ### serp\_competitors?
 
-> **`optional`** **serp\_competitors**: `Object`
+> `optional` **serp\_competitors**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`serp_competitors`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#serp_competitors)
 
-#### Source
+#### Defined in
 
-main.ts:81830
+main.ts:82426
 
 ***
 
 ### subdomains?
 
-> **`optional`** **subdomains**: `Object`
+> `optional` **subdomains**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`subdomains`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#subdomains)
 
-#### Source
+#### Defined in
 
-main.ts:81832
+main.ts:82428
 
 ***
 
 ### top\_searches?
 
-> **`optional`** **top\_searches**: `Object`
+> `optional` **top\_searches**: `object`
 
-#### Index signature
+#### Index Signature
 
- \[`key`: `string`\]: `Object`
+ \[`key`: `string`\]: `object`
 
 #### Implementation of
 
 [`IDataforseoLabsAvailableFiltersResultInfo`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md).[`top_searches`](../interfaces/IDataforseoLabsAvailableFiltersResultInfo.md#top_searches)
 
-#### Source
+#### Defined in
 
-main.ts:81839
+main.ts:82435
 
 ## Methods
 
@@ -442,9 +442,9 @@ main.ts:81839
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:81860
+main.ts:82456
 
 ***
 
@@ -460,15 +460,15 @@ main.ts:81860
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:82030
+main.ts:82626
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)
 
 #### Parameters
 
@@ -478,6 +478,6 @@ main.ts:82030
 
 [`DataforseoLabsAvailableFiltersResultInfo`](DataforseoLabsAvailableFiltersResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:82023
+main.ts:82619

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,22 +14,22 @@
 
 ### concept\_group?
 
-> **`optional`** **concept\_group**: [`ConceptGroupInfo`](../classes/ConceptGroupInfo.md)
+> `optional` **concept\_group**: [`ConceptGroupInfo`](../classes/ConceptGroupInfo.md)
 
 the concept group of the concept details
 
-#### Source
+#### Defined in
 
-main.ts:121296
+main.ts:121928
 
 ***
 
 ### name?
 
-> **`optional`** **name**: `string`
+> `optional` **name**: `string`
 
 the concept name for the keyword in the concept_group
 
-#### Source
+#### Defined in
 
-main.ts:121294
+main.ts:121926

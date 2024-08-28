@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new MetricsInfo(data)
+### new MetricsInfo()
 
 > **new MetricsInfo**(`data`?): [`MetricsInfo`](MetricsInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`MetricsInfo`](MetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80282
+main.ts:80878
 
 ## Properties
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 total count of organic SERPs that contain the domain
 
@@ -44,15 +44,15 @@ total count of organic SERPs that contain the domain
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`count`](../interfaces/IMetricsInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:80261
+main.ts:80857
 
 ***
 
 ### estimated\_paid\_traffic\_cost?
 
-> **`optional`** **estimated\_paid\_traffic\_cost**: `number`
+> `optional` **estimated\_paid\_traffic\_cost**: `number`
 
 estimated cost of converting organic search traffic into paid
 represents the estimated monthly cost of running ads (USD) for all keywords a domain ranks for
@@ -63,15 +63,15 @@ learn more about how the metric is calculated in this help center article
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`estimated_paid_traffic_cost`](../interfaces/IMetricsInfo.md#estimated_paid_traffic_cost)
 
-#### Source
+#### Defined in
 
-main.ts:80266
+main.ts:80862
 
 ***
 
 ### etv?
 
-> **`optional`** **etv**: `number`
+> `optional` **etv**: `number`
 
 estimated traffic volume
 estimated organic monthly traffic to the domain
@@ -82,15 +82,15 @@ learn more about how the metric is calculated in this help center article
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`etv`](../interfaces/IMetricsInfo.md#etv)
 
-#### Source
+#### Defined in
 
-main.ts:80254
+main.ts:80850
 
 ***
 
 ### impressions\_etv?
 
-> **`optional`** **impressions\_etv**: `number`
+> `optional` **impressions\_etv**: `number`
 
 estimated traffic volume based on impressions
 estimated organic monthly traffic to the domain
@@ -101,15 +101,15 @@ learn more about how the metric is calculated in this help center article
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`impressions_etv`](../interfaces/IMetricsInfo.md#impressions_etv)
 
-#### Source
+#### Defined in
 
-main.ts:80259
+main.ts:80855
 
 ***
 
 ### is\_down?
 
-> **`optional`** **is\_down**: `number`
+> `optional` **is\_down**: `number`
 
 rank went down
 indicates how many ranked elements of this domain went down in Google Search
@@ -118,15 +118,15 @@ indicates how many ranked elements of this domain went down in Google Search
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`is_down`](../interfaces/IMetricsInfo.md#is_down)
 
-#### Source
+#### Defined in
 
-main.ts:80275
+main.ts:80871
 
 ***
 
 ### is\_lost?
 
-> **`optional`** **is\_lost**: `number`
+> `optional` **is\_lost**: `number`
 
 lost ranked elements
 indicates how many ranked elements of this domain were previously presented in SERPs, but weren’t found during the last check
@@ -135,15 +135,15 @@ indicates how many ranked elements of this domain were previously presented in S
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`is_lost`](../interfaces/IMetricsInfo.md#is_lost)
 
-#### Source
+#### Defined in
 
-main.ts:80278
+main.ts:80874
 
 ***
 
 ### is\_new?
 
-> **`optional`** **is\_new**: `number`
+> `optional` **is\_new**: `number`
 
 number of new ranked elements
 indicates how many new ranked elements were found for this domain
@@ -152,15 +152,15 @@ indicates how many new ranked elements were found for this domain
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`is_new`](../interfaces/IMetricsInfo.md#is_new)
 
-#### Source
+#### Defined in
 
-main.ts:80269
+main.ts:80865
 
 ***
 
 ### is\_up?
 
-> **`optional`** **is\_up**: `number`
+> `optional` **is\_up**: `number`
 
 rank went up
 indicates how many ranked elements of this domain went up in Google Search
@@ -169,15 +169,15 @@ indicates how many ranked elements of this domain went up in Google Search
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`is_up`](../interfaces/IMetricsInfo.md#is_up)
 
-#### Source
+#### Defined in
 
-main.ts:80272
+main.ts:80868
 
 ***
 
 ### pos\_1?
 
-> **`optional`** **pos\_1**: `number`
+> `optional` **pos\_1**: `number`
 
 number of organic SERPs where the domain ranks #1
 
@@ -185,15 +185,15 @@ number of organic SERPs where the domain ranks #1
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_1`](../interfaces/IMetricsInfo.md#pos_1)
 
-#### Source
+#### Defined in
 
-main.ts:80227
+main.ts:80823
 
 ***
 
 ### pos\_11\_20?
 
-> **`optional`** **pos\_11\_20**: `number`
+> `optional` **pos\_11\_20**: `number`
 
 number of organic SERPs where the domain ranks #11-20
 
@@ -201,15 +201,15 @@ number of organic SERPs where the domain ranks #11-20
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_11_20`](../interfaces/IMetricsInfo.md#pos_11_20)
 
-#### Source
+#### Defined in
 
-main.ts:80233
+main.ts:80829
 
 ***
 
 ### pos\_21\_30?
 
-> **`optional`** **pos\_21\_30**: `number`
+> `optional` **pos\_21\_30**: `number`
 
 number of organic SERPs where the domain ranks #21-30
 
@@ -217,15 +217,15 @@ number of organic SERPs where the domain ranks #21-30
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_21_30`](../interfaces/IMetricsInfo.md#pos_21_30)
 
-#### Source
+#### Defined in
 
-main.ts:80235
+main.ts:80831
 
 ***
 
 ### pos\_2\_3?
 
-> **`optional`** **pos\_2\_3**: `number`
+> `optional` **pos\_2\_3**: `number`
 
 number of organic SERPs where the domain ranks #2-3
 
@@ -233,15 +233,15 @@ number of organic SERPs where the domain ranks #2-3
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_2_3`](../interfaces/IMetricsInfo.md#pos_2_3)
 
-#### Source
+#### Defined in
 
-main.ts:80229
+main.ts:80825
 
 ***
 
 ### pos\_31\_40?
 
-> **`optional`** **pos\_31\_40**: `number`
+> `optional` **pos\_31\_40**: `number`
 
 number of organic SERPs where the domain ranks #31-40
 
@@ -249,15 +249,15 @@ number of organic SERPs where the domain ranks #31-40
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_31_40`](../interfaces/IMetricsInfo.md#pos_31_40)
 
-#### Source
+#### Defined in
 
-main.ts:80237
+main.ts:80833
 
 ***
 
 ### pos\_41\_50?
 
-> **`optional`** **pos\_41\_50**: `number`
+> `optional` **pos\_41\_50**: `number`
 
 number of organic SERPs where the domain ranks #41-50
 
@@ -265,15 +265,15 @@ number of organic SERPs where the domain ranks #41-50
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_41_50`](../interfaces/IMetricsInfo.md#pos_41_50)
 
-#### Source
+#### Defined in
 
-main.ts:80239
+main.ts:80835
 
 ***
 
 ### pos\_4\_10?
 
-> **`optional`** **pos\_4\_10**: `number`
+> `optional` **pos\_4\_10**: `number`
 
 number of organic SERPs where the domain ranks #4-10
 
@@ -281,15 +281,15 @@ number of organic SERPs where the domain ranks #4-10
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_4_10`](../interfaces/IMetricsInfo.md#pos_4_10)
 
-#### Source
+#### Defined in
 
-main.ts:80231
+main.ts:80827
 
 ***
 
 ### pos\_51\_60?
 
-> **`optional`** **pos\_51\_60**: `number`
+> `optional` **pos\_51\_60**: `number`
 
 number of organic SERPs where the domain ranks #51-60
 
@@ -297,15 +297,15 @@ number of organic SERPs where the domain ranks #51-60
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_51_60`](../interfaces/IMetricsInfo.md#pos_51_60)
 
-#### Source
+#### Defined in
 
-main.ts:80241
+main.ts:80837
 
 ***
 
 ### pos\_61\_70?
 
-> **`optional`** **pos\_61\_70**: `number`
+> `optional` **pos\_61\_70**: `number`
 
 number of organic SERPs where the domain ranks #61-70
 
@@ -313,15 +313,15 @@ number of organic SERPs where the domain ranks #61-70
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_61_70`](../interfaces/IMetricsInfo.md#pos_61_70)
 
-#### Source
+#### Defined in
 
-main.ts:80243
+main.ts:80839
 
 ***
 
 ### pos\_71\_80?
 
-> **`optional`** **pos\_71\_80**: `number`
+> `optional` **pos\_71\_80**: `number`
 
 number of organic SERPs where the domain ranks #71-80
 
@@ -329,15 +329,15 @@ number of organic SERPs where the domain ranks #71-80
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_71_80`](../interfaces/IMetricsInfo.md#pos_71_80)
 
-#### Source
+#### Defined in
 
-main.ts:80245
+main.ts:80841
 
 ***
 
 ### pos\_81\_90?
 
-> **`optional`** **pos\_81\_90**: `number`
+> `optional` **pos\_81\_90**: `number`
 
 number of organic SERPs where the domain ranks #81-90
 
@@ -345,15 +345,15 @@ number of organic SERPs where the domain ranks #81-90
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_81_90`](../interfaces/IMetricsInfo.md#pos_81_90)
 
-#### Source
+#### Defined in
 
-main.ts:80247
+main.ts:80843
 
 ***
 
 ### pos\_91\_100?
 
-> **`optional`** **pos\_91\_100**: `number`
+> `optional` **pos\_91\_100**: `number`
 
 number of organic SERPs where the domain ranks #91-100
 
@@ -361,9 +361,9 @@ number of organic SERPs where the domain ranks #91-100
 
 [`IMetricsInfo`](../interfaces/IMetricsInfo.md).[`pos_91_100`](../interfaces/IMetricsInfo.md#pos_91_100)
 
-#### Source
+#### Defined in
 
-main.ts:80249
+main.ts:80845
 
 ## Methods
 
@@ -379,9 +379,9 @@ main.ts:80249
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:80291
+main.ts:80887
 
 ***
 
@@ -397,15 +397,15 @@ main.ts:80291
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:80327
+main.ts:80923
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`MetricsInfo`](MetricsInfo.md)
+> `static` **fromJS**(`data`): [`MetricsInfo`](MetricsInfo.md)
 
 #### Parameters
 
@@ -415,6 +415,6 @@ main.ts:80327
 
 [`MetricsInfo`](MetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:80320
+main.ts:80916

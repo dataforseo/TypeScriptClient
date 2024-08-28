@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,7 +18,7 @@
 
 ### date\_from?
 
-> **`optional`** **date\_from**: `string`
+> `optional` **date\_from**: `string`
 
 starting date of the time range
 optional field
@@ -32,15 +32,15 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`date_from`](IKeywordsDataTaskRequestInfo.md#date_from)
 
-#### Source
+#### Defined in
 
-main.ts:74009
+main.ts:74605
 
 ***
 
 ### date\_to?
 
-> **`optional`** **date\_to**: `string`
+> `optional` **date\_to**: `string`
 
 ending date of the time range
 optional field
@@ -54,15 +54,15 @@ example:
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`date_to`](IKeywordsDataTaskRequestInfo.md#date_to)
 
-#### Source
+#### Defined in
 
-main.ts:74017
+main.ts:74613
 
 ***
 
 ### include\_adult\_keywords?
 
-> **`optional`** **include\_adult\_keywords**: `boolean`
+> `optional` **include\_adult\_keywords**: `boolean`
 
 include keywords associated with adult content
 optional field
@@ -74,15 +74,15 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`include_adult_keywords`](IKeywordsDataTaskRequestInfo.md#include_adult_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:74023
+main.ts:74619
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `string`[]
+> `optional` **keywords**: `string`[]
 
 keywords
 required field
@@ -100,15 +100,15 @@ to learn more about which symbols can be used, please refer to this article
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`keywords`](IKeywordsDataTaskRequestInfo.md#keywords)
 
-#### Source
+#### Defined in
 
-main.ts:73959
+main.ts:74555
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -120,15 +120,15 @@ en
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`language_code`](IKeywordsDataTaskRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:73996
+main.ts:74592
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -140,15 +140,15 @@ English
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`language_name`](IKeywordsDataTaskRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:73990
+main.ts:74586
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 optional field
@@ -162,15 +162,15 @@ example:
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`location_code`](IKeywordsDataTaskRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:73975
+main.ts:74571
 
 ***
 
 ### location\_coordinate?
 
-> **`optional`** **location\_coordinate**: `string`
+> `optional` **location\_coordinate**: `string`
 
 GPS coordinates of a location
 optional field
@@ -185,15 +185,15 @@ example:
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`location_coordinate`](IKeywordsDataTaskRequestInfo.md#location_coordinate)
 
-#### Source
+#### Defined in
 
-main.ts:73984
+main.ts:74580
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 optional field
@@ -207,15 +207,15 @@ London,England,United Kingdom
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`location_name`](IKeywordsDataTaskRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:73967
+main.ts:74563
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -231,15 +231,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`pingback_url`](IKeywordsDataTaskRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:74048
+main.ts:74644
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -255,15 +255,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`postback_url`](IKeywordsDataTaskRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:74038
+main.ts:74634
 
 ***
 
 ### search\_partners?
 
-> **`optional`** **search\_partners**: `boolean`
+> `optional` **search\_partners**: `boolean`
 
 include Google search partners
 optional field
@@ -274,15 +274,15 @@ default value: false – results are returned for Google search sites
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`search_partners`](IKeywordsDataTaskRequestInfo.md#search_partners)
 
-#### Source
+#### Defined in
 
-main.ts:74001
+main.ts:74597
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -293,15 +293,15 @@ default value: relevance
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`sort_by`](IKeywordsDataTaskRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:74028
+main.ts:74624
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -313,21 +313,21 @@ you will find the specified tag value in the data array of the response
 
 [`IKeywordsDataTaskRequestInfo`](IKeywordsDataTaskRequestInfo.md).[`tag`](IKeywordsDataTaskRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:74054
+main.ts:74650
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target website
 optional field
 specify a website or URL to get a list of keywords relevant to it;
 Note: if a website url is specified, you will still get keywords relevant for the entire website
 
-#### Source
+#### Defined in
 
-main.ts:122211
+main.ts:122843

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksReferringNetworksLiveResultInfo(data)
+### new BacklinksReferringNetworksLiveResultInfo()
 
 > **new BacklinksReferringNetworksLiveResultInfo**(`data`?): [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:146654
+main.ts:148480
 
 ## Properties
 
 ### items?
 
-> **`optional`** **items**: [`BacklinksReferringNetworksLiveItem`](BacklinksReferringNetworksLiveItem.md)[]
+> `optional` **items**: [`BacklinksReferringNetworksLiveItem`](BacklinksReferringNetworksLiveItem.md)[]
 
 items array
 
@@ -44,15 +44,15 @@ items array
 
 [`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[`items`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:146650
+main.ts:148476
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the items array
 
@@ -60,15 +60,15 @@ number of items in the items array
 
 [`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[`items_count`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:146648
+main.ts:148474
 
 ***
 
 ### target?
 
-> **`optional`** **target**: `string`
+> `optional` **target**: `string`
 
 target in a POST array
 
@@ -76,15 +76,15 @@ target in a POST array
 
 [`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[`target`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#target)
 
-#### Source
+#### Defined in
 
-main.ts:146644
+main.ts:148470
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 total number of relevant items in the database
 
@@ -92,9 +92,9 @@ total number of relevant items in the database
 
 [`IBacklinksReferringNetworksLiveResultInfo`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md).[`total_count`](../interfaces/IBacklinksReferringNetworksLiveResultInfo.md#total_count)
 
-#### Source
+#### Defined in
 
-main.ts:146646
+main.ts:148472
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:146646
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:146663
+main.ts:148489
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:146663
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:146687
+main.ts:148513
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:146687
 
 [`BacklinksReferringNetworksLiveResultInfo`](BacklinksReferringNetworksLiveResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:146680
+main.ts:148506

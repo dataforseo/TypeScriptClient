@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new LicensesElement(data)
+### new LicensesElement()
 
 > **new LicensesElement**(`data`?): [`LicensesElement`](LicensesElement.md)
 
@@ -28,15 +28,15 @@
 
 [`LicensesElement`](LicensesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34917
+main.ts:35113
 
 ## Properties
 
 ### domain?
 
-> **`optional`** **domain**: `string`
+> `optional` **domain**: `string`
 
 website domain
 
@@ -44,15 +44,15 @@ website domain
 
 [`ILicensesElement`](../interfaces/ILicensesElement.md).[`domain`](../interfaces/ILicensesElement.md#domain)
 
-#### Source
+#### Defined in
 
-main.ts:34913
+main.ts:35109
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
@@ -60,15 +60,15 @@ title of a given link element
 
 [`ILicensesElement`](../interfaces/ILicensesElement.md).[`title`](../interfaces/ILicensesElement.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:34909
+main.ts:35105
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -76,15 +76,15 @@ type of element
 
 [`ILicensesElement`](../interfaces/ILicensesElement.md).[`type`](../interfaces/ILicensesElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:34907
+main.ts:35103
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL
 
@@ -92,9 +92,9 @@ URL
 
 [`ILicensesElement`](../interfaces/ILicensesElement.md).[`url`](../interfaces/ILicensesElement.md#url)
 
-#### Source
+#### Defined in
 
-main.ts:34911
+main.ts:35107
 
 ## Methods
 
@@ -110,9 +110,9 @@ main.ts:34911
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:34926
+main.ts:35122
 
 ***
 
@@ -128,15 +128,15 @@ main.ts:34926
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:34946
+main.ts:35142
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`LicensesElement`](LicensesElement.md)
+> `static` **fromJS**(`data`): [`LicensesElement`](LicensesElement.md)
 
 #### Parameters
 
@@ -146,6 +146,6 @@ main.ts:34946
 
 [`LicensesElement`](LicensesElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:34939
+main.ts:35135

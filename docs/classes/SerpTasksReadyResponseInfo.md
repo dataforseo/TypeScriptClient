@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -20,7 +20,7 @@
 
 ## Constructors
 
-### new SerpTasksReadyResponseInfo(data)
+### new SerpTasksReadyResponseInfo()
 
 > **new SerpTasksReadyResponseInfo**(`data`?): [`SerpTasksReadyResponseInfo`](SerpTasksReadyResponseInfo.md)
 
@@ -36,15 +36,15 @@
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`constructor`](BaseResponseInfo.md#constructors)
 
-#### Source
+#### Defined in
 
-main.ts:26240
+main.ts:26422
 
 ## Properties
 
 ### cost?
 
-> **`optional`** **cost**: `number`
+> `optional` **cost**: `number`
 
 total tasks cost, USD
 
@@ -56,15 +56,15 @@ total tasks cost, USD
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`cost`](BaseResponseInfo.md#cost)
 
-#### Source
+#### Defined in
 
-main.ts:23649
+main.ts:23831
 
 ***
 
 ### status\_code?
 
-> **`optional`** **status\_code**: `number`
+> `optional` **status\_code**: `number`
 
 general status code
 you can find the full list of the response codes here
@@ -77,15 +77,15 @@ you can find the full list of the response codes here
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`status_code`](BaseResponseInfo.md#status_code)
 
-#### Source
+#### Defined in
 
-main.ts:23642
+main.ts:23824
 
 ***
 
 ### status\_message?
 
-> **`optional`** **status\_message**: `string`
+> `optional` **status\_message**: `string`
 
 general informational message
 you can find the full list of general informational messages here
@@ -98,15 +98,15 @@ you can find the full list of general informational messages here
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`status_message`](BaseResponseInfo.md#status_message)
 
-#### Source
+#### Defined in
 
-main.ts:23645
+main.ts:23827
 
 ***
 
 ### tasks?
 
-> **`optional`** **tasks**: [`SerpTasksReadyTaskInfo`](SerpTasksReadyTaskInfo.md)[]
+> `optional` **tasks**: [`SerpTasksReadyTaskInfo`](SerpTasksReadyTaskInfo.md)[]
 
 array of tasks
 
@@ -114,15 +114,15 @@ array of tasks
 
 [`ISerpTasksReadyResponseInfo`](../interfaces/ISerpTasksReadyResponseInfo.md).[`tasks`](../interfaces/ISerpTasksReadyResponseInfo.md#tasks)
 
-#### Source
+#### Defined in
 
-main.ts:26236
+main.ts:26418
 
 ***
 
 ### tasks\_count?
 
-> **`optional`** **tasks\_count**: `number`
+> `optional` **tasks\_count**: `number`
 
 the number of tasks in the tasks array
 
@@ -134,15 +134,15 @@ the number of tasks in the tasks array
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_count`](BaseResponseInfo.md#tasks_count)
 
-#### Source
+#### Defined in
 
-main.ts:23651
+main.ts:23833
 
 ***
 
 ### tasks\_error?
 
-> **`optional`** **tasks\_error**: `number`
+> `optional` **tasks\_error**: `number`
 
 the number of tasks in the tasks array returned with an error
 
@@ -154,15 +154,15 @@ the number of tasks in the tasks array returned with an error
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`tasks_error`](BaseResponseInfo.md#tasks_error)
 
-#### Source
+#### Defined in
 
-main.ts:23653
+main.ts:23835
 
 ***
 
 ### time?
 
-> **`optional`** **time**: `string`
+> `optional` **time**: `string`
 
 total execution time, seconds
 
@@ -174,15 +174,15 @@ total execution time, seconds
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`time`](BaseResponseInfo.md#time)
 
-#### Source
+#### Defined in
 
-main.ts:23647
+main.ts:23829
 
 ***
 
 ### version?
 
-> **`optional`** **version**: `string`
+> `optional` **version**: `string`
 
 the current version of the API
 
@@ -194,9 +194,9 @@ the current version of the API
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`version`](BaseResponseInfo.md#version)
 
-#### Source
+#### Defined in
 
-main.ts:23639
+main.ts:23821
 
 ## Methods
 
@@ -216,9 +216,9 @@ main.ts:23639
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`init`](BaseResponseInfo.md#init)
 
-#### Source
+#### Defined in
 
-main.ts:26244
+main.ts:26426
 
 ***
 
@@ -238,15 +238,15 @@ main.ts:26244
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`toJSON`](BaseResponseInfo.md#tojson)
 
-#### Source
+#### Defined in
 
-main.ts:26266
+main.ts:26448
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`SerpTasksReadyResponseInfo`](SerpTasksReadyResponseInfo.md)
+> `static` **fromJS**(`data`): [`SerpTasksReadyResponseInfo`](SerpTasksReadyResponseInfo.md)
 
 #### Parameters
 
@@ -260,6 +260,6 @@ main.ts:26266
 
 [`BaseResponseInfo`](BaseResponseInfo.md).[`fromJS`](BaseResponseInfo.md#fromjs)
 
-#### Source
+#### Defined in
 
-main.ts:26259
+main.ts:26441

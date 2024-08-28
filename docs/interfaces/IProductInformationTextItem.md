@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -18,22 +18,22 @@
 
 ### section\_name?
 
-> **`optional`** **section\_name**: `string`
+> `optional` **section\_name**: `string`
 
 name of the section related to product information specified in the contents
 
-#### Source
+#### Defined in
 
-main.ts:184582
+main.ts:186414
 
 ***
 
 ### text?
 
-> **`optional`** **text**: `string`
+> `optional` **text**: `string`
 
 text specified under the given title within the section_name
 
-#### Source
+#### Defined in
 
-main.ts:184584
+main.ts:186416

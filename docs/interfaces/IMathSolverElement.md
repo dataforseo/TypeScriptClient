@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,34 +14,34 @@
 
 ### expanded\_element?
 
-> **`optional`** **expanded\_element**: [`MathSolverExpandedElement`](../classes/MathSolverExpandedElement.md)[]
+> `optional` **expanded\_element**: [`MathSolverExpandedElement`](../classes/MathSolverExpandedElement.md)[]
 
 expanded element
 
-#### Source
+#### Defined in
 
-main.ts:35742
+main.ts:35938
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of a given link element
 
-#### Source
+#### Defined in
 
-main.ts:35740
+main.ts:35936
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:35738
+main.ts:35934

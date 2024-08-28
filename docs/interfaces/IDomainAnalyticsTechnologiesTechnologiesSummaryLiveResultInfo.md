@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,66 +14,66 @@
 
 ### content\_languages?
 
-> **`optional`** **content\_languages**: `Object`
+> `optional` **content\_languages**: `object`
 
 distribution of websites by content language
 contains content language codes and number of websites per language
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:77859
+main.ts:78455
 
 ***
 
 ### countries?
 
-> **`optional`** **countries**: `Object`
+> `optional` **countries**: `object`
 
 distribution of websites by country
 contains country codes and number of websites per country
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:77853
+main.ts:78449
 
 ***
 
 ### keywords?
 
-> **`optional`** **keywords**: `Object`
+> `optional` **keywords**: `object`
 
 distribution of websites by keywords
 contains keywords found in the websites’ titles, descriptions or meta keywords, and number of websites using each keyword
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:77862
+main.ts:78458
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `Object`
+> `optional` **languages**: `object`
 
 distribution of websites by language
 contains language codes and number of websites per language
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:77856
+main.ts:78452

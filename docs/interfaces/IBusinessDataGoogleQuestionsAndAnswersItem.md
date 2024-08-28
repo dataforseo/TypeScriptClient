@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,156 +14,156 @@
 
 ### items?
 
-> **`optional`** **items**: [`GoogleBusinessAnswerElement`](../classes/GoogleBusinessAnswerElement.md)[]
+> `optional` **items**: [`GoogleBusinessAnswerElement`](../classes/GoogleBusinessAnswerElement.md)[]
 
 array of google business question items with answers
 possible item types: google_business_question_item
 
-#### Source
+#### Defined in
 
-main.ts:212521
+main.ts:214371
 
 ***
 
 ### original\_question\_text?
 
-> **`optional`** **original\_question\_text**: `string`
+> `optional` **original\_question\_text**: `string`
 
 original text of the question
 
-#### Source
+#### Defined in
 
-main.ts:212514
+main.ts:214364
 
 ***
 
 ### profile\_image\_url?
 
-> **`optional`** **profile\_image\_url**: `string`
+> `optional` **profile\_image\_url**: `string`
 
 URL of the user’s profile image
 
-#### Source
+#### Defined in
 
-main.ts:212506
+main.ts:214356
 
 ***
 
 ### profile\_name?
 
-> **`optional`** **profile\_name**: `string`
+> `optional` **profile\_name**: `string`
 
 displayed name of the user
 
-#### Source
+#### Defined in
 
-main.ts:212510
+main.ts:214360
 
 ***
 
 ### profile\_url?
 
-> **`optional`** **profile\_url**: `string`
+> `optional` **profile\_url**: `string`
 
 URL of the user’s profile
 
-#### Source
+#### Defined in
 
-main.ts:212508
+main.ts:214358
 
 ***
 
 ### question\_id?
 
-> **`optional`** **question\_id**: `string`
+> `optional` **question\_id**: `string`
 
 ID of the question
 
-#### Source
+#### Defined in
 
-main.ts:212502
+main.ts:214352
 
 ***
 
 ### question\_text?
 
-> **`optional`** **question\_text**: `string`
+> `optional` **question\_text**: `string`
 
 current text of the question
 
-#### Source
+#### Defined in
 
-main.ts:212512
+main.ts:214362
 
 ***
 
 ### rank\_absolute?
 
-> **`optional`** **rank\_absolute**: `number`
+> `optional` **rank\_absolute**: `number`
 
 absolute rank among all the elements
 
-#### Source
+#### Defined in
 
-main.ts:212500
+main.ts:214350
 
 ***
 
 ### rank\_group?
 
-> **`optional`** **rank\_group**: `number`
+> `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
-#### Source
+#### Defined in
 
-main.ts:212498
+main.ts:214348
 
 ***
 
 ### time\_ago?
 
-> **`optional`** **time\_ago**: `string`
+> `optional` **time\_ago**: `string`
 
 estimated time when the question was posted
 
-#### Source
+#### Defined in
 
-main.ts:212516
+main.ts:214366
 
 ***
 
 ### timestamp?
 
-> **`optional`** **timestamp**: `string`
+> `optional` **timestamp**: `string`
 
 exact time when the question was posted
 
-#### Source
+#### Defined in
 
-main.ts:212518
+main.ts:214368
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
-#### Source
+#### Defined in
 
-main.ts:212495
+main.ts:214345
 
 ***
 
 ### url?
 
-> **`optional`** **url**: `string`
+> `optional` **url**: `string`
 
 URL of the question
 
-#### Source
+#### Defined in
 
-main.ts:212504
+main.ts:214354

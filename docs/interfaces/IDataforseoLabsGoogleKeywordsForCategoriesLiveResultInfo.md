@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,108 +14,108 @@
 
 ### items?
 
-> **`optional`** **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
+> `optional` **items**: [`KeywordDataInfo`](../classes/KeywordDataInfo.md)[]
 
 contains keyword ideas and related data
 
-#### Source
+#### Defined in
 
-main.ts:89648
+main.ts:90210
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 the number of results returned in the items array
 
-#### Source
+#### Defined in
 
-main.ts:89640
+main.ts:90202
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 language code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:89636
+main.ts:90198
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 location code in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:89634
+main.ts:90196
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 current offset value
 
-#### Source
+#### Defined in
 
-main.ts:89642
+main.ts:90204
 
 ***
 
 ### offset\_token?
 
-> **`optional`** **offset\_token**: `string`
+> `optional` **offset\_token**: `string`
 
 offset token for subsequent requests
 you can use the string provided in this field to get the subsequent results of the initial task;
 note: offset_token values are unique for each subsequent task
 
-#### Source
+#### Defined in
 
-main.ts:89646
+main.ts:90208
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:89630
+main.ts:90192
 
 ***
 
 ### seed\_categories?
 
-> **`optional`** **seed\_categories**: `number`[]
+> `optional` **seed\_categories**: `number`[]
 
 categories in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:89632
+main.ts:90194
 
 ***
 
 ### total\_count?
 
-> **`optional`** **total\_count**: `number`
+> `optional` **total\_count**: `number`
 
 the total amount of results in our database relevant to your request
 
-#### Source
+#### Defined in
 
-main.ts:89638
+main.ts:90200

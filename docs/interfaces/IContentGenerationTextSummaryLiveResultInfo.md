@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,183 +14,183 @@
 
 ### automated\_readability\_index?
 
-> **`optional`** **automated\_readability\_index**: `number`
+> `optional` **automated\_readability\_index**: `number`
 
 Automated Readability Index
 
-#### Source
+#### Defined in
 
-main.ts:174265
+main.ts:176097
 
 ***
 
 ### characters\_per\_word?
 
-> **`optional`** **characters\_per\_word**: `number`
+> `optional` **characters\_per\_word**: `number`
 
 average number of characters per word in the target text
 
-#### Source
+#### Defined in
 
-main.ts:174258
+main.ts:176090
 
 ***
 
 ### characters\_with\_spaces?
 
-> **`optional`** **characters\_with\_spaces**: `number`
+> `optional` **characters\_with\_spaces**: `number`
 
 number of characters with spaces found in the target text
 
-#### Source
+#### Defined in
 
-main.ts:174254
+main.ts:176086
 
 ***
 
 ### characters\_without\_spaces?
 
-> **`optional`** **characters\_without\_spaces**: `number`
+> `optional` **characters\_without\_spaces**: `number`
 
 number of characters without spaces found in the target text
 
-#### Source
+#### Defined in
 
-main.ts:174252
+main.ts:176084
 
 ***
 
 ### coleman\_liau\_index?
 
-> **`optional`** **coleman\_liau\_index**: `number`
+> `optional` **coleman\_liau\_index**: `number`
 
 Coleman–Liau Index
 
-#### Source
+#### Defined in
 
-main.ts:174267
+main.ts:176099
 
 ***
 
 ### flesch\_kincaid\_grade\_level?
 
-> **`optional`** **flesch\_kincaid\_grade\_level**: `number`
+> `optional` **flesch\_kincaid\_grade\_level**: `number`
 
 Flesch–Kincaid Readability Index
 
-#### Source
+#### Defined in
 
-main.ts:174269
+main.ts:176101
 
 ***
 
 ### grammar\_errors?
 
-> **`optional`** **grammar\_errors**: `number`
+> `optional` **grammar\_errors**: `number`
 
 number of grammar errors found in the target text
 
-#### Source
+#### Defined in
 
-main.ts:174275
+main.ts:176107
 
 ***
 
 ### keyword\_density?
 
-> **`optional`** **keyword\_density**: `Object`
+> `optional` **keyword\_density**: `object`
 
 keyword density of the target text
 contains most common words and their count
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: `number`
 
-#### Source
+#### Defined in
 
-main.ts:174263
+main.ts:176095
 
 ***
 
 ### paragraphs?
 
-> **`optional`** **paragraphs**: `number`
+> `optional` **paragraphs**: `number`
 
 number of paragraphs found in the target text
 
-#### Source
+#### Defined in
 
-main.ts:174248
+main.ts:176080
 
 ***
 
 ### sentences?
 
-> **`optional`** **sentences**: `number`
+> `optional` **sentences**: `number`
 
 number of sentences found in the target text
 
-#### Source
+#### Defined in
 
-main.ts:174246
+main.ts:176078
 
 ***
 
 ### smog\_readability\_index?
 
-> **`optional`** **smog\_readability\_index**: `number`
+> `optional` **smog\_readability\_index**: `number`
 
 SMOG Readability Index
 
-#### Source
+#### Defined in
 
-main.ts:174271
+main.ts:176103
 
 ***
 
 ### spelling\_errors?
 
-> **`optional`** **spelling\_errors**: `number`
+> `optional` **spelling\_errors**: `number`
 
 number of spelling errors found in the target text
 
-#### Source
+#### Defined in
 
-main.ts:174273
+main.ts:176105
 
 ***
 
 ### vocabulary\_density?
 
-> **`optional`** **vocabulary\_density**: `number`
+> `optional` **vocabulary\_density**: `number`
 
 vocabulary density of the target text
 
-#### Source
+#### Defined in
 
-main.ts:174260
+main.ts:176092
 
 ***
 
 ### words?
 
-> **`optional`** **words**: `number`
+> `optional` **words**: `number`
 
 number of words found in the target text
 
-#### Source
+#### Defined in
 
-main.ts:174250
+main.ts:176082
 
 ***
 
 ### words\_per\_sentence?
 
-> **`optional`** **words\_per\_sentence**: `number`
+> `optional` **words\_per\_sentence**: `number`
 
 average number of words per sentence in the target text
 
-#### Source
+#### Defined in
 
-main.ts:174256
+main.ts:176088

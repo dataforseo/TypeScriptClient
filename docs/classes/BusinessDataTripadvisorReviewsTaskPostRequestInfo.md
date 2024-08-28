@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BusinessDataTripadvisorReviewsTaskPostRequestInfo(data)
+### new BusinessDataTripadvisorReviewsTaskPostRequestInfo()
 
 > **new BusinessDataTripadvisorReviewsTaskPostRequestInfo**(`data`?): [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:216479
+main.ts:218330
 
 ## Properties
 
 ### depth?
 
-> **`optional`** **depth**: `number`
+> `optional` **depth**: `number`
 
 parsing depth
 optional field
@@ -48,15 +48,15 @@ default value: 10
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`depth`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#depth)
 
-#### Source
+#### Defined in
 
-main.ts:216416
+main.ts:218266
 
 ***
 
 ### keyword?
 
-> **`optional`** **keyword**: `string`
+> `optional` **keyword**: `string`
 
 keyword
 required field if you do not specify url_path
@@ -69,15 +69,15 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`keyword`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#keyword)
 
-#### Source
+#### Defined in
 
-main.ts:216372
+main.ts:218222
 
 ***
 
 ### language\_code?
 
-> **`optional`** **language\_code**: `string`
+> `optional` **language\_code**: `string`
 
 search engine language code
 optional field
@@ -92,15 +92,15 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`language_code`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#language_code)
 
-#### Source
+#### Defined in
 
-main.ts:216410
+main.ts:218260
 
 ***
 
 ### language\_name?
 
-> **`optional`** **language\_name**: `string`
+> `optional` **language\_name**: `string`
 
 full name of search engine language
 optional field
@@ -115,15 +115,15 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`language_name`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#language_name)
 
-#### Source
+#### Defined in
 
-main.ts:216401
+main.ts:218251
 
 ***
 
 ### location\_code?
 
-> **`optional`** **location\_code**: `number`
+> `optional` **location\_code**: `number`
 
 search engine location code
 required field if you don’t specify location_name or url_path
@@ -135,15 +135,15 @@ example:
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`location_code`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#location_code)
 
-#### Source
+#### Defined in
 
-main.ts:216384
+main.ts:218234
 
 ***
 
 ### location\_name?
 
-> **`optional`** **location\_name**: `string`
+> `optional` **location\_name**: `string`
 
 full name of search engine location
 required field if you don’t specify location_code or url_path
@@ -155,15 +155,15 @@ London,England,United Kingdom
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`location_name`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#location_name)
 
-#### Source
+#### Defined in
 
-main.ts:216378
+main.ts:218228
 
 ***
 
 ### months?
 
-> **`optional`** **months**: `string`[]
+> `optional` **months**: `string`[]
 
 filter by months when a traveler made a visit
 optional field
@@ -174,15 +174,15 @@ you can specify several values at once
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`months`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#months)
 
-#### Source
+#### Defined in
 
-main.ts:216432
+main.ts:218282
 
 ***
 
 ### pingback\_url?
 
-> **`optional`** **pingback\_url**: `string`
+> `optional` **pingback\_url**: `string`
 
 notification URL of a completed task
 optional field
@@ -198,15 +198,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`pingback_url`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#pingback_url)
 
-#### Source
+#### Defined in
 
-main.ts:216475
+main.ts:218326
 
 ***
 
 ### postback\_url?
 
-> **`optional`** **postback\_url**: `string`
+> `optional` **postback\_url**: `string`
 
 return URL for sending task results
 optional field
@@ -222,15 +222,15 @@ i.a., the # symbol will be encoded into %23
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`postback_url`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#postback_url)
 
-#### Source
+#### Defined in
 
-main.ts:216465
+main.ts:218316
 
 ***
 
 ### priority?
 
-> **`optional`** **priority**: `number`
+> `optional` **priority**: `number`
 
 task priority
 optional field
@@ -244,15 +244,15 @@ The cost can be calculated on the Pricing page.
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`priority`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#priority)
 
-#### Source
+#### Defined in
 
-main.ts:216392
+main.ts:218242
 
 ***
 
 ### ratings?
 
-> **`optional`** **ratings**: `string`[]
+> `optional` **ratings**: `string`[]
 
 Tripadvisor traveler rating for a place of interest
 optional field
@@ -264,15 +264,15 @@ you can specify several values at once
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`ratings`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#ratings)
 
-#### Source
+#### Defined in
 
-main.ts:216422
+main.ts:218272
 
 ***
 
 ### search\_reviews\_keyword?
 
-> **`optional`** **search\_reviews\_keyword**: `string`
+> `optional` **search\_reviews\_keyword**: `string`
 
 search reviews containing a specified keyword
 example:
@@ -282,15 +282,15 @@ dessert
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`search_reviews_keyword`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#search_reviews_keyword)
 
-#### Source
+#### Defined in
 
-main.ts:216436
+main.ts:218286
 
 ***
 
 ### sort\_by?
 
-> **`optional`** **sort\_by**: `string`
+> `optional` **sort\_by**: `string`
 
 results sorting parameters
 optional field
@@ -303,15 +303,15 @@ detailed_reviews
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`sort_by`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#sort_by)
 
-#### Source
+#### Defined in
 
-main.ts:216443
+main.ts:218293
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -323,35 +323,36 @@ you will find the specified tag value in the data object of the response
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`tag`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:216455
+main.ts:218306
 
 ***
 
 ### translate\_reviews?
 
-> **`optional`** **translate\_reviews**: `boolean`
+> `optional` **translate\_reviews**: `boolean`
 
 translate reviews according to the URL path
 optional field
 if set to true, returned reviews will be translated to the language matching the specified url_path;
 for example, if url_path contains tripadvisor.it and translate_reviews is true, reviews will be translated to the Italian language;
 default value: true
+you can learn more about how reviews are translated in this Help Center article
 
 #### Implementation of
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`translate_reviews`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#translate_reviews)
 
-#### Source
+#### Defined in
 
-main.ts:216449
+main.ts:218300
 
 ***
 
 ### url\_path?
 
-> **`optional`** **url\_path**: `string`
+> `optional` **url\_path**: `string`
 
 URL path of the business entity
 required field if you do not specify keyword
@@ -364,15 +365,15 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`url_path`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#url_path)
 
-#### Source
+#### Defined in
 
-main.ts:216365
+main.ts:218215
 
 ***
 
 ### visit\_type?
 
-> **`optional`** **visit\_type**: `string`[]
+> `optional` **visit\_type**: `string`[]
 
 filter by type of travelers who left a review
 optional field
@@ -383,9 +384,9 @@ you can specify several values at once
 
 [`IBusinessDataTripadvisorReviewsTaskPostRequestInfo`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md).[`visit_type`](../interfaces/IBusinessDataTripadvisorReviewsTaskPostRequestInfo.md#visit_type)
 
-#### Source
+#### Defined in
 
-main.ts:216427
+main.ts:218277
 
 ## Methods
 
@@ -401,9 +402,9 @@ main.ts:216427
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:216488
+main.ts:218339
 
 ***
 
@@ -419,15 +420,15 @@ main.ts:216488
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:216533
+main.ts:218384
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
+> `static` **fromJS**(`data`): [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
 
 #### Parameters
 
@@ -437,6 +438,6 @@ main.ts:216533
 
 [`BusinessDataTripadvisorReviewsTaskPostRequestInfo`](BusinessDataTripadvisorReviewsTaskPostRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:216526
+main.ts:218377

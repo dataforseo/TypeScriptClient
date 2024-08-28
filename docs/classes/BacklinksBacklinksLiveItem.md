@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBacklinksLiveItem(data)
+### new BacklinksBacklinksLiveItem()
 
 > **new BacklinksBacklinksLiveItem**(`data`?): [`BacklinksBacklinksLiveItem`](BacklinksBacklinksLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBacklinksLiveItem`](BacklinksBacklinksLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:142018
+main.ts:143844
 
 ## Properties
 
 ### alt?
 
-> **`optional`** **alt**: `string`
+> `optional` **alt**: `string`
 
 alternative text of the image
 this field will be null if backlink type is not image
@@ -45,15 +45,15 @@ this field will be null if backlink type is not image
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`alt`](../interfaces/IBacklinksBacklinksLiveItem.md#alt)
 
-#### Source
+#### Defined in
 
-main.ts:141972
+main.ts:143798
 
 ***
 
 ### anchor?
 
-> **`optional`** **anchor**: `string`
+> `optional` **anchor**: `string`
 
 anchor text of the backlink
 
@@ -61,15 +61,15 @@ anchor text of the backlink
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`anchor`](../interfaces/IBacklinksBacklinksLiveItem.md#anchor)
 
-#### Source
+#### Defined in
 
-main.ts:141977
+main.ts:143803
 
 ***
 
 ### attributes?
 
-> **`optional`** **attributes**: `string`[]
+> `optional` **attributes**: `string`[]
 
 link attributes of the referring links
 example:
@@ -79,15 +79,15 @@ nofollow
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`attributes`](../interfaces/IBacklinksBacklinksLiveItem.md#attributes)
 
-#### Source
+#### Defined in
 
-main.ts:141964
+main.ts:143790
 
 ***
 
 ### backlink\_spam\_score?
 
-> **`optional`** **backlink\_spam\_score**: `number`
+> `optional` **backlink\_spam\_score**: `number`
 
 spam score of the backlink
 learn more about how the metric is calculated on this help center page
@@ -96,15 +96,15 @@ learn more about how the metric is calculated on this help center page
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`backlink_spam_score`](../interfaces/IBacklinksBacklinksLiveItem.md#backlink_spam_score)
 
-#### Source
+#### Defined in
 
-main.ts:141893
+main.ts:143719
 
 ***
 
 ### dofollow?
 
-> **`optional`** **dofollow**: `boolean`
+> `optional` **dofollow**: `boolean`
 
 indicates whether the backlink is dofollow
 if false, the backlink is nofollow
@@ -113,15 +113,15 @@ if false, the backlink is nofollow
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`dofollow`](../interfaces/IBacklinksBacklinksLiveItem.md#dofollow)
 
-#### Source
+#### Defined in
 
-main.ts:141967
+main.ts:143793
 
 ***
 
 ### domain\_from?
 
-> **`optional`** **domain\_from**: `string`
+> `optional` **domain\_from**: `string`
 
 domain referring to the target domain or webpage
 
@@ -129,15 +129,15 @@ domain referring to the target domain or webpage
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`domain_from`](../interfaces/IBacklinksBacklinksLiveItem.md#domain_from)
 
-#### Source
+#### Defined in
 
-main.ts:141870
+main.ts:143696
 
 ***
 
 ### domain\_from\_country?
 
-> **`optional`** **domain\_from\_country**: `string`
+> `optional` **domain\_from\_country**: `string`
 
 ISO country code of the referring domain
 
@@ -145,15 +145,15 @@ ISO country code of the referring domain
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`domain_from_country`](../interfaces/IBacklinksBacklinksLiveItem.md#domain_from_country)
 
-#### Source
+#### Defined in
 
-main.ts:141918
+main.ts:143744
 
 ***
 
 ### domain\_from\_ip?
 
-> **`optional`** **domain\_from\_ip**: `string`
+> `optional` **domain\_from\_ip**: `string`
 
 IP address of the referring domain
 
@@ -161,15 +161,15 @@ IP address of the referring domain
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`domain_from_ip`](../interfaces/IBacklinksBacklinksLiveItem.md#domain_from_ip)
 
-#### Source
+#### Defined in
 
-main.ts:141916
+main.ts:143742
 
 ***
 
 ### domain\_from\_is\_ip?
 
-> **`optional`** **domain\_from\_is\_ip**: `boolean`
+> `optional` **domain\_from\_is\_ip**: `boolean`
 
 indicates if the domain is IP
 if true, the domain functions as an IP address and does not have a domain name
@@ -178,15 +178,15 @@ if true, the domain functions as an IP address and does not have a domain name
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`domain_from_is_ip`](../interfaces/IBacklinksBacklinksLiveItem.md#domain_from_is_ip)
 
-#### Source
+#### Defined in
 
-main.ts:141914
+main.ts:143740
 
 ***
 
 ### domain\_from\_platform\_type?
 
-> **`optional`** **domain\_from\_platform\_type**: `string`[]
+> `optional` **domain\_from\_platform\_type**: `string`[]
 
 platform types of the referring domain
 example:
@@ -197,15 +197,15 @@ example:
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`domain_from_platform_type`](../interfaces/IBacklinksBacklinksLiveItem.md#domain_from_platform_type)
 
-#### Source
+#### Defined in
 
-main.ts:141911
+main.ts:143737
 
 ***
 
 ### domain\_from\_rank?
 
-> **`optional`** **domain\_from\_rank**: `number`
+> `optional` **domain\_from\_rank**: `number`
 
 domain rank of the referring domain
 domain_from_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -215,15 +215,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`domain_from_rank`](../interfaces/IBacklinksBacklinksLiveItem.md#domain_from_rank)
 
-#### Source
+#### Defined in
 
-main.ts:141906
+main.ts:143732
 
 ***
 
 ### domain\_to?
 
-> **`optional`** **domain\_to**: `string`
+> `optional` **domain\_to**: `string`
 
 domain the backlink is pointing to
 
@@ -231,15 +231,15 @@ domain the backlink is pointing to
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`domain_to`](../interfaces/IBacklinksBacklinksLiveItem.md#domain_to)
 
-#### Source
+#### Defined in
 
-main.ts:141877
+main.ts:143703
 
 ***
 
 ### first\_seen?
 
-> **`optional`** **first\_seen**: `string`
+> `optional` **first\_seen**: `string`
 
 date and time when our crawler found the backlink for the first time
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -250,15 +250,15 @@ example:
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`first_seen`](../interfaces/IBacklinksBacklinksLiveItem.md#first_seen)
 
-#### Source
+#### Defined in
 
-main.ts:141946
+main.ts:143772
 
 ***
 
 ### group\_count?
 
-> **`optional`** **group\_count**: `number`
+> `optional` **group\_count**: `number`
 
 indicates total number of backlinks from this domain
 for example, if mode is set to one_per_domain, this field will indicate the total number of backlinks coming from this domain
@@ -267,15 +267,15 @@ for example, if mode is set to one_per_domain, this field will indicate the tota
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`group_count`](../interfaces/IBacklinksBacklinksLiveItem.md#group_count)
 
-#### Source
+#### Defined in
 
-main.ts:141991
+main.ts:143817
 
 ***
 
 ### image\_url?
 
-> **`optional`** **image\_url**: `string`
+> `optional` **image\_url**: `string`
 
 URL of the image
 the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
@@ -284,15 +284,15 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`image_url`](../interfaces/IBacklinksBacklinksLiveItem.md#image_url)
 
-#### Source
+#### Defined in
 
-main.ts:141975
+main.ts:143801
 
 ***
 
 ### indirect\_link\_path?
 
-> **`optional`** **indirect\_link\_path**: [`Redirect`](Redirect.md)[]
+> `optional` **indirect\_link\_path**: [`Redirect`](Redirect.md)[]
 
 indirect link path
 indicates a URL or a sequence of URLs that lead to url_to
@@ -301,15 +301,15 @@ indicates a URL or a sequence of URLs that lead to url_to
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`indirect_link_path`](../interfaces/IBacklinksBacklinksLiveItem.md#indirect_link_path)
 
-#### Source
+#### Defined in
 
-main.ts:142014
+main.ts:143840
 
 ***
 
 ### is\_broken?
 
-> **`optional`** **is\_broken**: `boolean`
+> `optional` **is\_broken**: `boolean`
 
 indicates whether the backlink is broken
 if true, the backlink is pointing to a page responding with a 4xx or 5xx status code
@@ -318,15 +318,15 @@ if true, the backlink is pointing to a page responding with a 4xx or 5xx status 
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`is_broken`](../interfaces/IBacklinksBacklinksLiveItem.md#is_broken)
 
-#### Source
+#### Defined in
 
-main.ts:141994
+main.ts:143820
 
 ***
 
 ### is\_indirect\_link?
 
-> **`optional`** **is\_indirect\_link**: `boolean`
+> `optional` **is\_indirect\_link**: `boolean`
 
 indicates whether the backlink is an indirect link
 if true, the backlink is an indirect link pointing to a page that either redirects to url_to, or points to a canonical page
@@ -335,15 +335,15 @@ if true, the backlink is an indirect link pointing to a page that either redirec
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`is_indirect_link`](../interfaces/IBacklinksBacklinksLiveItem.md#is_indirect_link)
 
-#### Source
+#### Defined in
 
-main.ts:142011
+main.ts:143837
 
 ***
 
 ### is\_lost?
 
-> **`optional`** **is\_lost**: `boolean`
+> `optional` **is\_lost**: `boolean`
 
 indicates whether the backlink was removed
 if true, the backlink or the entire page was removed
@@ -352,15 +352,15 @@ if true, the backlink or the entire page was removed
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`is_lost`](../interfaces/IBacklinksBacklinksLiveItem.md#is_lost)
 
-#### Source
+#### Defined in
 
-main.ts:141890
+main.ts:143716
 
 ***
 
 ### is\_new?
 
-> **`optional`** **is\_new**: `boolean`
+> `optional` **is\_new**: `boolean`
 
 indicates whether the backlink is new
 if true, the backlink was found on the page last time our crawler visited it
@@ -369,15 +369,15 @@ if true, the backlink was found on the page last time our crawler visited it
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`is_new`](../interfaces/IBacklinksBacklinksLiveItem.md#is_new)
 
-#### Source
+#### Defined in
 
-main.ts:141887
+main.ts:143713
 
 ***
 
 ### item\_type?
 
-> **`optional`** **item\_type**: `string`
+> `optional` **item\_type**: `string`
 
 link type
 possible values:
@@ -387,15 +387,15 @@ anchor, image, meta, canonical, alternate, redirect
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`item_type`](../interfaces/IBacklinksBacklinksLiveItem.md#item_type)
 
-#### Source
+#### Defined in
 
-main.ts:141960
+main.ts:143786
 
 ***
 
 ### last\_seen?
 
-> **`optional`** **last\_seen**: `string`
+> `optional` **last\_seen**: `string`
 
 most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -406,15 +406,15 @@ example:
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`last_seen`](../interfaces/IBacklinksBacklinksLiveItem.md#last_seen)
 
-#### Source
+#### Defined in
 
-main.ts:141956
+main.ts:143782
 
 ***
 
 ### links\_count?
 
-> **`optional`** **links\_count**: `number`
+> `optional` **links\_count**: `number`
 
 number of identical backlinks found on the referring page
 
@@ -422,15 +422,15 @@ number of identical backlinks found on the referring page
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`links_count`](../interfaces/IBacklinksBacklinksLiveItem.md#links_count)
 
-#### Source
+#### Defined in
 
-main.ts:141988
+main.ts:143814
 
 ***
 
 ### original?
 
-> **`optional`** **original**: `boolean`
+> `optional` **original**: `boolean`
 
 indicates whether the backlink was present on the referring page when our crawler first visited it
 
@@ -438,15 +438,15 @@ indicates whether the backlink was present on the referring page when our crawle
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`original`](../interfaces/IBacklinksBacklinksLiveItem.md#original)
 
-#### Source
+#### Defined in
 
-main.ts:141969
+main.ts:143795
 
 ***
 
 ### page\_from\_encoding?
 
-> **`optional`** **page\_from\_encoding**: `string`
+> `optional` **page\_from\_encoding**: `string`
 
 character encoding of the referring page
 example:
@@ -456,15 +456,15 @@ utf-8
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`page_from_encoding`](../interfaces/IBacklinksBacklinksLiveItem.md#page_from_encoding)
 
-#### Source
+#### Defined in
 
-main.ts:141930
+main.ts:143756
 
 ***
 
 ### page\_from\_external\_links?
 
-> **`optional`** **page\_from\_external\_links**: `number`
+> `optional` **page\_from\_external\_links**: `number`
 
 number of external links found on the referring page
 
@@ -472,15 +472,15 @@ number of external links found on the referring page
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`page_from_external_links`](../interfaces/IBacklinksBacklinksLiveItem.md#page_from_external_links)
 
-#### Source
+#### Defined in
 
-main.ts:141920
+main.ts:143746
 
 ***
 
 ### page\_from\_internal\_links?
 
-> **`optional`** **page\_from\_internal\_links**: `number`
+> `optional` **page\_from\_internal\_links**: `number`
 
 number of internal links found on the referring page
 
@@ -488,15 +488,15 @@ number of internal links found on the referring page
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`page_from_internal_links`](../interfaces/IBacklinksBacklinksLiveItem.md#page_from_internal_links)
 
-#### Source
+#### Defined in
 
-main.ts:141922
+main.ts:143748
 
 ***
 
 ### page\_from\_language?
 
-> **`optional`** **page\_from\_language**: `string`
+> `optional` **page\_from\_language**: `string`
 
 language of the referring page
 in ISO 639-1 format
@@ -507,15 +507,15 @@ en
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`page_from_language`](../interfaces/IBacklinksBacklinksLiveItem.md#page_from_language)
 
-#### Source
+#### Defined in
 
-main.ts:141935
+main.ts:143761
 
 ***
 
 ### page\_from\_rank?
 
-> **`optional`** **page\_from\_rank**: `number`
+> `optional` **page\_from\_rank**: `number`
 
 page rank of the referring page
 page_from_rank is calculated based on the method for node ranking in a linked database – a principle used in the original Google PageRank algorithm
@@ -525,15 +525,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`page_from_rank`](../interfaces/IBacklinksBacklinksLiveItem.md#page_from_rank)
 
-#### Source
+#### Defined in
 
-main.ts:141902
+main.ts:143728
 
 ***
 
 ### page\_from\_size?
 
-> **`optional`** **page\_from\_size**: `number`
+> `optional` **page\_from\_size**: `number`
 
 size of the referring page, in bytes
 example:
@@ -543,15 +543,15 @@ example:
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`page_from_size`](../interfaces/IBacklinksBacklinksLiveItem.md#page_from_size)
 
-#### Source
+#### Defined in
 
-main.ts:141926
+main.ts:143752
 
 ***
 
 ### page\_from\_status\_code?
 
-> **`optional`** **page\_from\_status\_code**: `number`
+> `optional` **page\_from\_status\_code**: `number`
 
 HTTP status code returned by the referring page
 example:
@@ -561,15 +561,15 @@ example:
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`page_from_status_code`](../interfaces/IBacklinksBacklinksLiveItem.md#page_from_status_code)
 
-#### Source
+#### Defined in
 
-main.ts:141941
+main.ts:143767
 
 ***
 
 ### page\_from\_title?
 
-> **`optional`** **page\_from\_title**: `string`
+> `optional` **page\_from\_title**: `string`
 
 title of the referring page
 
@@ -577,15 +577,15 @@ title of the referring page
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`page_from_title`](../interfaces/IBacklinksBacklinksLiveItem.md#page_from_title)
 
-#### Source
+#### Defined in
 
-main.ts:141937
+main.ts:143763
 
 ***
 
 ### prev\_seen?
 
-> **`optional`** **prev\_seen**: `string`
+> `optional` **prev\_seen**: `string`
 
 previous to the most recent date when our crawler visited the backlink
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
@@ -596,15 +596,15 @@ example:
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`prev_seen`](../interfaces/IBacklinksBacklinksLiveItem.md#prev_seen)
 
-#### Source
+#### Defined in
 
-main.ts:141951
+main.ts:143777
 
 ***
 
 ### rank?
 
-> **`optional`** **rank**: `number`
+> `optional` **rank**: `number`
 
 backlink rank
 rank that the given backlink passes to the target
@@ -615,15 +615,15 @@ learn more about the metric and how it is calculated in this help center article
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`rank`](../interfaces/IBacklinksBacklinksLiveItem.md#rank)
 
-#### Source
+#### Defined in
 
-main.ts:141898
+main.ts:143724
 
 ***
 
 ### ranked\_keywords\_info?
 
-> **`optional`** **ranked\_keywords\_info**: [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
+> `optional` **ranked\_keywords\_info**: [`RankedKeywordsInfo`](RankedKeywordsInfo.md)
 
 number of keywords for which the page is ranked in top search results
 
@@ -631,15 +631,15 @@ number of keywords for which the page is ranked in top search results
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`ranked_keywords_info`](../interfaces/IBacklinksBacklinksLiveItem.md#ranked_keywords_info)
 
-#### Source
+#### Defined in
 
-main.ts:142008
+main.ts:143834
 
 ***
 
 ### semantic\_location?
 
-> **`optional`** **semantic\_location**: `string`
+> `optional` **semantic\_location**: `string`
 
 indicates semantic element in HTML where the backlink is found
 you can get the full list of semantic elements here
@@ -650,15 +650,15 @@ article, section, summary
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`semantic_location`](../interfaces/IBacklinksBacklinksLiveItem.md#semantic_location)
 
-#### Source
+#### Defined in
 
-main.ts:141986
+main.ts:143812
 
 ***
 
 ### text\_post?
 
-> **`optional`** **text\_post**: `string`
+> `optional` **text\_post**: `string`
 
 snippet after the anchor text
 
@@ -666,15 +666,15 @@ snippet after the anchor text
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`text_post`](../interfaces/IBacklinksBacklinksLiveItem.md#text_post)
 
-#### Source
+#### Defined in
 
-main.ts:141981
+main.ts:143807
 
 ***
 
 ### text\_pre?
 
-> **`optional`** **text\_pre**: `string`
+> `optional` **text\_pre**: `string`
 
 snippet before the anchor text
 
@@ -682,15 +682,15 @@ snippet before the anchor text
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`text_pre`](../interfaces/IBacklinksBacklinksLiveItem.md#text_pre)
 
-#### Source
+#### Defined in
 
-main.ts:141979
+main.ts:143805
 
 ***
 
 ### tld\_from?
 
-> **`optional`** **tld\_from**: `string`
+> `optional` **tld\_from**: `string`
 
 top-level domain of the referring URL
 
@@ -698,15 +698,15 @@ top-level domain of the referring URL
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`tld_from`](../interfaces/IBacklinksBacklinksLiveItem.md#tld_from)
 
-#### Source
+#### Defined in
 
-main.ts:141884
+main.ts:143710
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -714,15 +714,15 @@ type of element
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`type`](../interfaces/IBacklinksBacklinksLiveItem.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:141868
+main.ts:143694
 
 ***
 
 ### url\_from?
 
-> **`optional`** **url\_from**: `string`
+> `optional` **url\_from**: `string`
 
 URL of the page where the backlink is found
 
@@ -730,15 +730,15 @@ URL of the page where the backlink is found
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`url_from`](../interfaces/IBacklinksBacklinksLiveItem.md#url_from)
 
-#### Source
+#### Defined in
 
-main.ts:141872
+main.ts:143698
 
 ***
 
 ### url\_from\_https?
 
-> **`optional`** **url\_from\_https**: `boolean`
+> `optional` **url\_from\_https**: `boolean`
 
 indicates whether the referring URL is secured with HTTPS
 if true, the referring URL is secured with HTTPS
@@ -747,15 +747,15 @@ if true, the referring URL is secured with HTTPS
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`url_from_https`](../interfaces/IBacklinksBacklinksLiveItem.md#url_from_https)
 
-#### Source
+#### Defined in
 
-main.ts:141875
+main.ts:143701
 
 ***
 
 ### url\_to?
 
-> **`optional`** **url\_to**: `string`
+> `optional` **url\_to**: `string`
 
 URL the backlink is pointing to
 
@@ -763,15 +763,15 @@ URL the backlink is pointing to
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`url_to`](../interfaces/IBacklinksBacklinksLiveItem.md#url_to)
 
-#### Source
+#### Defined in
 
-main.ts:141879
+main.ts:143705
 
 ***
 
 ### url\_to\_https?
 
-> **`optional`** **url\_to\_https**: `boolean`
+> `optional` **url\_to\_https**: `boolean`
 
 indicates if the URL the backlink is pointing to is secured with HTTPS
 if true, the URL is secured with HTTPS
@@ -780,15 +780,15 @@ if true, the URL is secured with HTTPS
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`url_to_https`](../interfaces/IBacklinksBacklinksLiveItem.md#url_to_https)
 
-#### Source
+#### Defined in
 
-main.ts:141882
+main.ts:143708
 
 ***
 
 ### url\_to\_redirect\_target?
 
-> **`optional`** **url\_to\_redirect\_target**: `string`
+> `optional` **url\_to\_redirect\_target**: `string`
 
 target url of the redirect
 target page the redirect is pointing to
@@ -797,15 +797,15 @@ target page the redirect is pointing to
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`url_to_redirect_target`](../interfaces/IBacklinksBacklinksLiveItem.md#url_to_redirect_target)
 
-#### Source
+#### Defined in
 
-main.ts:142006
+main.ts:143832
 
 ***
 
 ### url\_to\_spam\_score?
 
-> **`optional`** **url\_to\_spam\_score**: `number`
+> `optional` **url\_to\_spam\_score**: `number`
 
 spam score of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to;
@@ -815,15 +815,15 @@ learn more about how the metric is calculated on this help center page
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`url_to_spam_score`](../interfaces/IBacklinksBacklinksLiveItem.md#url_to_spam_score)
 
-#### Source
+#### Defined in
 
-main.ts:142003
+main.ts:143829
 
 ***
 
 ### url\_to\_status\_code?
 
-> **`optional`** **url\_to\_status\_code**: `number`
+> `optional` **url\_to\_status\_code**: `number`
 
 status code of the referenced page
 if the value is null, our crawler hasn’t yet visited the webpage the link is pointing to
@@ -834,9 +834,9 @@ example:
 
 [`IBacklinksBacklinksLiveItem`](../interfaces/IBacklinksBacklinksLiveItem.md).[`url_to_status_code`](../interfaces/IBacklinksBacklinksLiveItem.md#url_to_status_code)
 
-#### Source
+#### Defined in
 
-main.ts:141999
+main.ts:143825
 
 ## Methods
 
@@ -852,9 +852,9 @@ main.ts:141999
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:142027
+main.ts:143853
 
 ***
 
@@ -870,15 +870,15 @@ main.ts:142027
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:142102
+main.ts:143928
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBacklinksLiveItem`](BacklinksBacklinksLiveItem.md)
+> `static` **fromJS**(`data`): [`BacklinksBacklinksLiveItem`](BacklinksBacklinksLiveItem.md)
 
 #### Parameters
 
@@ -888,6 +888,6 @@ main.ts:142102
 
 [`BacklinksBacklinksLiveItem`](BacklinksBacklinksLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:142095
+main.ts:143921

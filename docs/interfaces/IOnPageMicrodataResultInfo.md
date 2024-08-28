@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,59 +14,59 @@
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
 
-#### Source
+#### Defined in
 
-main.ts:162503
+main.ts:164335
 
 ***
 
 ### crawl\_status?
 
-> **`optional`** **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
+> `optional` **crawl\_status**: [`CrawlStatusInfo`](../classes/CrawlStatusInfo.md)
 
 details of the crawling session
 
-#### Source
+#### Defined in
 
-main.ts:162505
+main.ts:164337
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`OnPageMicrodataItem`](../classes/OnPageMicrodataItem.md)[]
+> `optional` **items**: [`OnPageMicrodataItem`](../classes/OnPageMicrodataItem.md)[]
 
 items array
 
-#### Source
+#### Defined in
 
-main.ts:162511
+main.ts:164343
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
-#### Source
+#### Defined in
 
-main.ts:162509
+main.ts:164341
 
 ***
 
 ### test\_summary?
 
-> **`optional`** **test\_summary**: [`TestSummary`](../classes/TestSummary.md)
+> `optional` **test\_summary**: [`TestSummary`](../classes/TestSummary.md)
 
 microdata validation test results
 
-#### Source
+#### Defined in
 
-main.ts:162507
+main.ts:164339

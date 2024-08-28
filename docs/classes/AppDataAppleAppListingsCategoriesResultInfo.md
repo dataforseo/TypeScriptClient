@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppDataAppleAppListingsCategoriesResultInfo(data)
+### new AppDataAppleAppListingsCategoriesResultInfo()
 
 > **new AppDataAppleAppListingsCategoriesResultInfo**(`data`?): [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:199051
+main.ts:200883
 
 ## Properties
 
 ### category?
 
-> **`optional`** **category**: `string`
+> `optional` **category**: `string`
 
 name of the supported app category
 
@@ -44,15 +44,15 @@ name of the supported app category
 
 [`IAppDataAppleAppListingsCategoriesResultInfo`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md).[`category`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md#category)
 
-#### Source
+#### Defined in
 
-main.ts:199045
+main.ts:200877
 
 ***
 
 ### count?
 
-> **`optional`** **count**: `number`
+> `optional` **count**: `number`
 
 number of app listings that make up the supported app category
 
@@ -60,9 +60,9 @@ number of app listings that make up the supported app category
 
 [`IAppDataAppleAppListingsCategoriesResultInfo`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md).[`count`](../interfaces/IAppDataAppleAppListingsCategoriesResultInfo.md#count)
 
-#### Source
+#### Defined in
 
-main.ts:199047
+main.ts:200879
 
 ## Methods
 
@@ -78,9 +78,9 @@ main.ts:199047
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:199060
+main.ts:200892
 
 ***
 
@@ -96,15 +96,15 @@ main.ts:199060
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:199078
+main.ts:200910
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
+> `static` **fromJS**(`data`): [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
 
 #### Parameters
 
@@ -114,6 +114,6 @@ main.ts:199078
 
 [`AppDataAppleAppListingsCategoriesResultInfo`](AppDataAppleAppListingsCategoriesResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:199071
+main.ts:200903

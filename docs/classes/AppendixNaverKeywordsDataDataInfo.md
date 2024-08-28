@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixNaverKeywordsDataDataInfo(data)
+### new AppendixNaverKeywordsDataDataInfo()
 
 > **new AppendixNaverKeywordsDataDataInfo**(`data`?): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
@@ -28,37 +28,37 @@
 
 [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220572
+main.ts:222480
 
 ## Properties
 
 ### keywords\_for\_category?
 
-> **`optional`** **keywords\_for\_category**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **keywords\_for\_category**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md).[`keywords_for_category`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md#keywords_for_category)
 
-#### Source
+#### Defined in
 
-main.ts:220567
+main.ts:222475
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixNaverKeywordsDataDataInfo`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md).[`search_volume`](../interfaces/IAppendixNaverKeywordsDataDataInfo.md#search_volume)
 
-#### Source
+#### Defined in
 
-main.ts:220568
+main.ts:222476
 
 ## Methods
 
@@ -74,9 +74,9 @@ main.ts:220568
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:220581
+main.ts:222489
 
 ***
 
@@ -92,15 +92,15 @@ main.ts:220581
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:220599
+main.ts:222507
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
 #### Parameters
 
@@ -110,6 +110,6 @@ main.ts:220599
 
 [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220592
+main.ts:222500

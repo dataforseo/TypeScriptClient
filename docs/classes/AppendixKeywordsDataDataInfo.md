@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new AppendixKeywordsDataDataInfo(data)
+### new AppendixKeywordsDataDataInfo()
 
 > **new AppendixKeywordsDataDataInfo**(`data`?): [`AppendixKeywordsDataDataInfo`](AppendixKeywordsDataDataInfo.md)
 
@@ -28,275 +28,275 @@
 
 [`AppendixKeywordsDataDataInfo`](AppendixKeywordsDataDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220641
+main.ts:222549
 
 ## Properties
 
 ### ad\_traffic\_by\_keywords?
 
-> **`optional`** **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **ad\_traffic\_by\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`ad_traffic_by_keywords`](../interfaces/IAppendixKeywordsDataDataInfo.md#ad_traffic_by_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:220622
+main.ts:222530
 
 ***
 
 ### bing?
 
-> **`optional`** **bing**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
+> `optional` **bing**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`bing`](../interfaces/IAppendixKeywordsDataDataInfo.md#bing)
 
-#### Source
+#### Defined in
 
-main.ts:220629
+main.ts:222537
 
 ***
 
 ### categories?
 
-> **`optional`** **categories**: `number`
+> `optional` **categories**: `number`
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`categories`](../interfaces/IAppendixKeywordsDataDataInfo.md#categories)
 
-#### Source
+#### Defined in
 
-main.ts:220627
+main.ts:222535
+
+***
+
+### clickstream\_data?
+
+> `optional` **clickstream\_data**: [`AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo`](AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo.md)
+
+#### Implementation of
+
+[`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`clickstream_data`](../interfaces/IAppendixKeywordsDataDataInfo.md#clickstream_data)
+
+#### Defined in
+
+main.ts:222542
 
 ***
 
 ### dataforseo\_trends?
 
-> **`optional`** **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
+> `optional` **dataforseo\_trends**: [`AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo`](AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`dataforseo_trends`](../interfaces/IAppendixKeywordsDataDataInfo.md#dataforseo_trends)
 
-#### Source
+#### Defined in
 
-main.ts:220634
+main.ts:222541
 
 ***
 
 ### errors?
 
-> **`optional`** **errors**: `number`
+> `optional` **errors**: `number`
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`errors`](../interfaces/IAppendixKeywordsDataDataInfo.md#errors)
 
-#### Source
+#### Defined in
 
-main.ts:220628
+main.ts:222536
 
 ***
 
 ### explore?
 
-> **`optional`** **explore**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **explore**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`explore`](../interfaces/IAppendixKeywordsDataDataInfo.md#explore)
 
-#### Source
+#### Defined in
 
-main.ts:220626
+main.ts:222534
 
 ***
 
 ### google?
 
-> **`optional`** **google**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
+> `optional` **google**: [`AppendixBingKeywordsDataLimitsRatesDataInfo`](AppendixBingKeywordsDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`google`](../interfaces/IAppendixKeywordsDataDataInfo.md#google)
 
-#### Source
+#### Defined in
 
-main.ts:220636
+main.ts:222544
 
 ***
 
 ### google\_ads?
 
-> **`optional`** **google\_ads**: [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
+> `optional` **google\_ads**: [`AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo`](AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`google_ads`](../interfaces/IAppendixKeywordsDataDataInfo.md#google_ads)
 
-#### Source
+#### Defined in
 
-main.ts:220633
+main.ts:222540
 
 ***
 
 ### keyword\_ideas\_ads\_api?
 
-> **`optional`** **keyword\_ideas\_ads\_api**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
+> `optional` **keyword\_ideas\_ads\_api**: [`AppendixSerpLimitsRatesDataInfo`](AppendixSerpLimitsRatesDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`keyword_ideas_ads_api`](../interfaces/IAppendixKeywordsDataDataInfo.md#keyword_ideas_ads_api)
 
-#### Source
+#### Defined in
 
-main.ts:220637
+main.ts:222545
 
 ***
 
 ### keyword\_performance?
 
-> **`optional`** **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **keyword\_performance**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`keyword_performance`](../interfaces/IAppendixKeywordsDataDataInfo.md#keyword_performance)
 
-#### Source
+#### Defined in
 
-main.ts:220630
+main.ts:222538
 
 ***
 
 ### keywords\_for\_keywords?
 
-> **`optional`** **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **keywords\_for\_keywords**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`keywords_for_keywords`](../interfaces/IAppendixKeywordsDataDataInfo.md#keywords_for_keywords)
 
-#### Source
+#### Defined in
 
-main.ts:220619
+main.ts:222527
 
 ***
 
 ### keywords\_for\_site?
 
-> **`optional`** **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **keywords\_for\_site**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`keywords_for_site`](../interfaces/IAppendixKeywordsDataDataInfo.md#keywords_for_site)
 
-#### Source
+#### Defined in
 
-main.ts:220620
+main.ts:222528
 
 ***
 
 ### languages?
 
-> **`optional`** **languages**: `number`
+> `optional` **languages**: `number`
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`languages`](../interfaces/IAppendixKeywordsDataDataInfo.md#languages)
 
-#### Source
+#### Defined in
 
-main.ts:220623
+main.ts:222531
 
 ***
 
 ### locations?
 
-> **`optional`** **locations**: `number`
+> `optional` **locations**: `number`
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`locations`](../interfaces/IAppendixKeywordsDataDataInfo.md#locations)
 
-#### Source
+#### Defined in
 
-main.ts:220624
+main.ts:222532
 
 ***
 
 ### locations\_and\_languages?
 
-> **`optional`** **locations\_and\_languages**: `number`
+> `optional` **locations\_and\_languages**: `number`
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`locations_and_languages`](../interfaces/IAppendixKeywordsDataDataInfo.md#locations_and_languages)
 
-#### Source
+#### Defined in
 
-main.ts:220631
+main.ts:222539
 
 ***
 
 ### naver?
 
-> **`optional`** **naver**: [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
+> `optional` **naver**: [`AppendixNaverKeywordsDataDataInfo`](AppendixNaverKeywordsDataDataInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`naver`](../interfaces/IAppendixKeywordsDataDataInfo.md#naver)
 
-#### Source
+#### Defined in
 
-main.ts:220635
+main.ts:222543
 
 ***
 
 ### search\_volume?
 
-> **`optional`** **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
+> `optional` **search\_volume**: [`AppendixInfo`](AppendixInfo.md)
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`search_volume`](../interfaces/IAppendixKeywordsDataDataInfo.md#search_volume)
 
-#### Source
+#### Defined in
 
-main.ts:220621
-
-***
-
-### search\_volume\_history?
-
-> **`optional`** **search\_volume\_history**: [`AppendixInfo`](AppendixInfo.md)
-
-#### Implementation of
-
-[`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`search_volume_history`](../interfaces/IAppendixKeywordsDataDataInfo.md#search_volume_history)
-
-#### Source
-
-main.ts:220632
+main.ts:222529
 
 ***
 
 ### tasks\_ready?
 
-> **`optional`** **tasks\_ready**: `number`
+> `optional` **tasks\_ready**: `number`
 
 #### Implementation of
 
 [`IAppendixKeywordsDataDataInfo`](../interfaces/IAppendixKeywordsDataDataInfo.md).[`tasks_ready`](../interfaces/IAppendixKeywordsDataDataInfo.md#tasks_ready)
 
-#### Source
+#### Defined in
 
-main.ts:220625
+main.ts:222533
 
 ## Methods
 
@@ -312,9 +312,9 @@ main.ts:220625
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:220650
+main.ts:222558
 
 ***
 
@@ -330,15 +330,15 @@ main.ts:220650
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:220685
+main.ts:222593
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`AppendixKeywordsDataDataInfo`](AppendixKeywordsDataDataInfo.md)
+> `static` **fromJS**(`data`): [`AppendixKeywordsDataDataInfo`](AppendixKeywordsDataDataInfo.md)
 
 #### Parameters
 
@@ -348,6 +348,6 @@ main.ts:220685
 
 [`AppendixKeywordsDataDataInfo`](AppendixKeywordsDataDataInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:220678
+main.ts:222586

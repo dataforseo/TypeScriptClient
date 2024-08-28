@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new ContentGenerationGenerateSubTopicsLiveRequestInfo(data)
+### new ContentGenerationGenerateSubTopicsLiveRequestInfo()
 
 > **new ContentGenerationGenerateSubTopicsLiveRequestInfo**(`data`?): [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172768
+main.ts:174600
 
 ## Properties
 
 ### creativity\_index?
 
-> **`optional`** **creativity\_index**: `number`
+> `optional` **creativity\_index**: `number`
 
 creativity of content generation
 optional field
@@ -49,15 +49,15 @@ learn more about this parameter on our help center
 
 [`IContentGenerationGenerateSubTopicsLiveRequestInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md).[`creativity_index`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md#creativity_index)
 
-#### Source
+#### Defined in
 
-main.ts:172758
+main.ts:174590
 
 ***
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -69,15 +69,15 @@ you will find the specified tag value in the data object of the response
 
 [`IContentGenerationGenerateSubTopicsLiveRequestInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md).[`tag`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:172764
+main.ts:174596
 
 ***
 
 ### topic?
 
-> **`optional`** **topic**: `string`
+> `optional` **topic**: `string`
 
 main topic of the content to generate
 required field
@@ -88,9 +88,9 @@ can contain from 1 to 50 tokens
 
 [`IContentGenerationGenerateSubTopicsLiveRequestInfo`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md).[`topic`](../interfaces/IContentGenerationGenerateSubTopicsLiveRequestInfo.md#topic)
 
-#### Source
+#### Defined in
 
-main.ts:172751
+main.ts:174583
 
 ## Methods
 
@@ -106,9 +106,9 @@ main.ts:172751
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:172777
+main.ts:174609
 
 ***
 
@@ -124,15 +124,15 @@ main.ts:172777
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:172796
+main.ts:174628
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
 
 #### Parameters
 
@@ -142,6 +142,6 @@ main.ts:172796
 
 [`ContentGenerationGenerateSubTopicsLiveRequestInfo`](ContentGenerationGenerateSubTopicsLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:172789
+main.ts:174621

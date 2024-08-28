@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new TechnologyCategoryInfo(data)
+### new TechnologyCategoryInfo()
 
 > **new TechnologyCategoryInfo**(`data`?): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76587
+main.ts:77183
 
 ## Properties
 
 ### id?
 
-> **`optional`** **id**: `string`
+> `optional` **id**: `string`
 
 id of the technology category
 example:
@@ -46,15 +46,15 @@ crm, cart_abandonment
 
 [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`id`](../interfaces/ITechnologyCategoryInfo.md#id)
 
-#### Source
+#### Defined in
 
-main.ts:76573
+main.ts:77169
 
 ***
 
 ### path?
 
-> **`optional`** **path**: `string`
+> `optional` **path**: `string`
 
 path to the technology category
 example:
@@ -64,15 +64,15 @@ user_generated_content.content_curation
 
 [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`path`](../interfaces/ITechnologyCategoryInfo.md#path)
 
-#### Source
+#### Defined in
 
-main.ts:76577
+main.ts:77173
 
 ***
 
 ### technologies?
 
-> **`optional`** **technologies**: `string`[]
+> `optional` **technologies**: `string`[]
 
 list of technologies in this category
 example:
@@ -82,15 +82,15 @@ example:
 
 [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`technologies`](../interfaces/ITechnologyCategoryInfo.md#technologies)
 
-#### Source
+#### Defined in
 
-main.ts:76583
+main.ts:77179
 
 ***
 
 ### title?
 
-> **`optional`** **title**: `string`
+> `optional` **title**: `string`
 
 title of the technology category
 
@@ -98,9 +98,9 @@ title of the technology category
 
 [`ITechnologyCategoryInfo`](../interfaces/ITechnologyCategoryInfo.md).[`title`](../interfaces/ITechnologyCategoryInfo.md#title)
 
-#### Source
+#### Defined in
 
-main.ts:76579
+main.ts:77175
 
 ## Methods
 
@@ -116,9 +116,9 @@ main.ts:76579
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:76596
+main.ts:77192
 
 ***
 
@@ -134,15 +134,15 @@ main.ts:76596
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:76620
+main.ts:77216
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
+> `static` **fromJS**(`data`): [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
 #### Parameters
 
@@ -152,6 +152,6 @@ main.ts:76620
 
 [`TechnologyCategoryInfo`](TechnologyCategoryInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:76613
+main.ts:77209

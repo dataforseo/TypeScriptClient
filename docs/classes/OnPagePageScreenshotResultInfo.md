@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new OnPagePageScreenshotResultInfo(data)
+### new OnPagePageScreenshotResultInfo()
 
 > **new OnPagePageScreenshotResultInfo**(`data`?): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163195
+main.ts:165027
 
 ## Properties
 
 ### crawl\_progress?
 
-> **`optional`** **crawl\_progress**: `string`
+> `optional` **crawl\_progress**: `string`
 
 status of the crawling session
 possible values: in_progress, finished
@@ -45,15 +45,15 @@ possible values: in_progress, finished
 
 [`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md).[`crawl_progress`](../interfaces/IOnPagePageScreenshotResultInfo.md#crawl_progress)
 
-#### Source
+#### Defined in
 
-main.ts:163183
+main.ts:165015
 
 ***
 
 ### error\_message?
 
-> **`optional`** **error\_message**: `string`
+> `optional` **error\_message**: `string`
 
 error message
 if the url you indicated returns a 404 status code or is not a valid URL, you will obtain "error_message":"Screenshot is empty"
@@ -63,15 +63,15 @@ if no error is encountered, the value will be null
 
 [`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md).[`error_message`](../interfaces/IOnPagePageScreenshotResultInfo.md#error_message)
 
-#### Source
+#### Defined in
 
-main.ts:163187
+main.ts:165019
 
 ***
 
 ### items?
 
-> **`optional`** **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
+> `optional` **items**: [`ScreenshotItem`](ScreenshotItem.md)[]
 
 items array
 
@@ -79,15 +79,15 @@ items array
 
 [`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md).[`items`](../interfaces/IOnPagePageScreenshotResultInfo.md#items)
 
-#### Source
+#### Defined in
 
-main.ts:163191
+main.ts:165023
 
 ***
 
 ### items\_count?
 
-> **`optional`** **items\_count**: `number`
+> `optional` **items\_count**: `number`
 
 number of items in the results array
 
@@ -95,9 +95,9 @@ number of items in the results array
 
 [`IOnPagePageScreenshotResultInfo`](../interfaces/IOnPagePageScreenshotResultInfo.md).[`items_count`](../interfaces/IOnPagePageScreenshotResultInfo.md#items_count)
 
-#### Source
+#### Defined in
 
-main.ts:163189
+main.ts:165021
 
 ## Methods
 
@@ -113,9 +113,9 @@ main.ts:163189
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:163204
+main.ts:165036
 
 ***
 
@@ -131,15 +131,15 @@ main.ts:163204
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:163228
+main.ts:165060
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
+> `static` **fromJS**(`data`): [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
 #### Parameters
 
@@ -149,6 +149,6 @@ main.ts:163228
 
 [`OnPagePageScreenshotResultInfo`](OnPagePageScreenshotResultInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:163221
+main.ts:165053

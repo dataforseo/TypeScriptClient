@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new KeywordsDataErrorsRequestInfo(data)
+### new KeywordsDataErrorsRequestInfo()
 
 > **new KeywordsDataErrorsRequestInfo**(`data`?): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:118693
+main.ts:119325
 
 ## Properties
 
 ### datetime\_from?
 
-> **`optional`** **datetime\_from**: `string`
+> `optional` **datetime\_from**: `string`
 
 start time for filtering results
 optional field
@@ -49,15 +49,15 @@ example:
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`datetime_from`](../interfaces/IKeywordsDataErrorsRequestInfo.md#datetime_from)
 
-#### Source
+#### Defined in
 
-main.ts:118682
+main.ts:119314
 
 ***
 
 ### datetime\_to?
 
-> **`optional`** **datetime\_to**: `string`
+> `optional` **datetime\_to**: `string`
 
 finish time for filtering results
 optional field
@@ -70,15 +70,15 @@ example:
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`datetime_to`](../interfaces/IKeywordsDataErrorsRequestInfo.md#datetime_to)
 
-#### Source
+#### Defined in
 
-main.ts:118689
+main.ts:119321
 
 ***
 
 ### filtered\_function?
 
-> **`optional`** **filtered\_function**: `string`
+> `optional` **filtered\_function**: `string`
 
 return tasks with a certain function
 use this field to obtain a list of tasks that returned an error filtered by a certain function
@@ -90,15 +90,15 @@ example: keywords_data/keywords_for_site/task_post, postback_url, pingback_url
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`filtered_function`](../interfaces/IKeywordsDataErrorsRequestInfo.md#filtered_function)
 
-#### Source
+#### Defined in
 
-main.ts:118675
+main.ts:119307
 
 ***
 
 ### limit?
 
-> **`optional`** **limit**: `number`
+> `optional` **limit**: `number`
 
 the maximum number of returned tasks that responded with an error
 optional field
@@ -109,15 +109,15 @@ maximum value: 1000
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`limit`](../interfaces/IKeywordsDataErrorsRequestInfo.md#limit)
 
-#### Source
+#### Defined in
 
-main.ts:118664
+main.ts:119296
 
 ***
 
 ### offset?
 
-> **`optional`** **offset**: `number`
+> `optional` **offset**: `number`
 
 offset in the results array of returned tasks
 optional field
@@ -128,9 +128,9 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 [`IKeywordsDataErrorsRequestInfo`](../interfaces/IKeywordsDataErrorsRequestInfo.md).[`offset`](../interfaces/IKeywordsDataErrorsRequestInfo.md#offset)
 
-#### Source
+#### Defined in
 
-main.ts:118669
+main.ts:119301
 
 ## Methods
 
@@ -146,9 +146,9 @@ main.ts:118669
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:118702
+main.ts:119334
 
 ***
 
@@ -164,15 +164,15 @@ main.ts:118702
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:118723
+main.ts:119355
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
+> `static` **fromJS**(`data`): [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
 #### Parameters
 
@@ -182,6 +182,6 @@ main.ts:118723
 
 [`KeywordsDataErrorsRequestInfo`](KeywordsDataErrorsRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:118716
+main.ts:119348

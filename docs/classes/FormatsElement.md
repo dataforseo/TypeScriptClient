@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new FormatsElement(data)
+### new FormatsElement()
 
 > **new FormatsElement**(`data`?): [`FormatsElement`](FormatsElement.md)
 
@@ -28,15 +28,15 @@
 
 [`FormatsElement`](FormatsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:54902
+main.ts:55434
 
 ## Properties
 
 ### format?
 
-> **`optional`** **format**: `string`
+> `optional` **format**: `string`
 
 type of file format of the dataset
 for example: zip, html, csv
@@ -45,15 +45,15 @@ for example: zip, html, csv
 
 [`IFormatsElement`](../interfaces/IFormatsElement.md).[`format`](../interfaces/IFormatsElement.md#format)
 
-#### Source
+#### Defined in
 
-main.ts:54896
+main.ts:55428
 
 ***
 
 ### size?
 
-> **`optional`** **size**: `string`
+> `optional` **size**: `string`
 
 file size in bytes
 
@@ -61,15 +61,15 @@ file size in bytes
 
 [`IFormatsElement`](../interfaces/IFormatsElement.md).[`size`](../interfaces/IFormatsElement.md#size)
 
-#### Source
+#### Defined in
 
-main.ts:54898
+main.ts:55430
 
 ***
 
 ### type?
 
-> **`optional`** **type**: `string`
+> `optional` **type**: `string`
 
 type of element
 
@@ -77,9 +77,9 @@ type of element
 
 [`IFormatsElement`](../interfaces/IFormatsElement.md).[`type`](../interfaces/IFormatsElement.md#type)
 
-#### Source
+#### Defined in
 
-main.ts:54893
+main.ts:55425
 
 ## Methods
 
@@ -95,9 +95,9 @@ main.ts:54893
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:54911
+main.ts:55443
 
 ***
 
@@ -113,15 +113,15 @@ main.ts:54911
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:54930
+main.ts:55462
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`FormatsElement`](FormatsElement.md)
+> `static` **fromJS**(`data`): [`FormatsElement`](FormatsElement.md)
 
 #### Parameters
 
@@ -131,6 +131,6 @@ main.ts:54930
 
 [`FormatsElement`](FormatsElement.md)
 
-#### Source
+#### Defined in
 
-main.ts:54923
+main.ts:55455

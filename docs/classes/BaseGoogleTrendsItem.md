@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -23,7 +23,7 @@
 
 ## Constructors
 
-### new BaseGoogleTrendsItem(data)
+### new BaseGoogleTrendsItem()
 
 > **new BaseGoogleTrendsItem**(`data`?): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
@@ -35,19 +35,19 @@
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21390
+main.ts:21572
 
 ## Properties
 
 ### \_discriminator
 
-> **`protected`** **\_discriminator**: `string`
+> `protected` **\_discriminator**: `string`
 
-#### Source
+#### Defined in
 
-main.ts:21388
+main.ts:21570
 
 ## Methods
 
@@ -63,9 +63,9 @@ main.ts:21388
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:21400
+main.ts:21582
 
 ***
 
@@ -81,15 +81,15 @@ main.ts:21400
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:21436
+main.ts:21618
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
+> `static` **fromJS**(`data`): [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
 #### Parameters
 
@@ -99,6 +99,6 @@ main.ts:21436
 
 [`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:21409
+main.ts:21591

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -14,39 +14,39 @@
 
 ### app\_id?
 
-> **`optional`** **app\_id**: `string`
+> `optional` **app\_id**: `string`
 
 id of the app in a POST array
 
-#### Source
+#### Defined in
 
-main.ts:113873
+main.ts:114505
 
 ***
 
 ### metrics?
 
-> **`optional`** **metrics**: `Object`
+> `optional` **metrics**: `object`
 
 metrics for the ranking keywords of the app
 ranking data relevant to the keywords that the provided application ranks for on Google Play
 
-#### Index signature
+#### Index Signature
 
  \[`key`: `string`\]: [`AppMetricsInfo`](../classes/AppMetricsInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:113876
+main.ts:114508
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
-#### Source
+#### Defined in
 
-main.ts:113871
+main.ts:114503

@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new BacklinksBulkRanksLiveRequestInfo(data)
+### new BacklinksBulkRanksLiveRequestInfo()
 
 > **new BacklinksBulkRanksLiveRequestInfo**(`data`?): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
@@ -28,15 +28,15 @@
 
 [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150297
+main.ts:152123
 
 ## Properties
 
 ### tag?
 
-> **`optional`** **tag**: `string`
+> `optional` **tag**: `string`
 
 user-defined task identifier
 optional field
@@ -48,15 +48,15 @@ you will find the specified tag value in the data object of the response
 
 [`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md).[`tag`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md#tag)
 
-#### Source
+#### Defined in
 
-main.ts:150293
+main.ts:152119
 
 ***
 
 ### targets?
 
-> **`optional`** **targets**: `string`[]
+> `optional` **targets**: `string`[]
 
 domains, subdomains or webpages to get rank for
 required field
@@ -81,9 +81,9 @@ example:
 
 [`IBacklinksBulkRanksLiveRequestInfo`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md).[`targets`](../interfaces/IBacklinksBulkRanksLiveRequestInfo.md#targets)
 
-#### Source
+#### Defined in
 
-main.ts:150287
+main.ts:152113
 
 ## Methods
 
@@ -99,9 +99,9 @@ main.ts:150287
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:150306
+main.ts:152132
 
 ***
 
@@ -117,15 +117,15 @@ main.ts:150306
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:150328
+main.ts:152154
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
+> `static` **fromJS**(`data`): [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
 #### Parameters
 
@@ -135,6 +135,6 @@ main.ts:150328
 
 [`BacklinksBulkRanksLiveRequestInfo`](BacklinksBulkRanksLiveRequestInfo.md)
 
-#### Source
+#### Defined in
 
-main.ts:150321
+main.ts:152147

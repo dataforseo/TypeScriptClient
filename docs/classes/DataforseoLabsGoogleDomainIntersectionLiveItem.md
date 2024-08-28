@@ -1,4 +1,4 @@
-**Documentation** • [Readme](../README.md) \| [API](../globals.md)
+[**Documentation**](../README.md) • **Docs**
 
 ***
 
@@ -16,7 +16,7 @@
 
 ## Constructors
 
-### new DataforseoLabsGoogleDomainIntersectionLiveItem(data)
+### new DataforseoLabsGoogleDomainIntersectionLiveItem()
 
 > **new DataforseoLabsGoogleDomainIntersectionLiveItem**(`data`?): [`DataforseoLabsGoogleDomainIntersectionLiveItem`](DataforseoLabsGoogleDomainIntersectionLiveItem.md)
 
@@ -28,15 +28,15 @@
 
 [`DataforseoLabsGoogleDomainIntersectionLiveItem`](DataforseoLabsGoogleDomainIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:94807
+main.ts:95099
 
 ## Properties
 
 ### first\_domain\_serp\_element?
 
-> **`optional`** **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> `optional` **first\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the first domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
@@ -45,15 +45,15 @@ the list of supported SERP elements can be found below
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveItem.md).[`first_domain_serp_element`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveItem.md#first_domain_serp_element)
 
-#### Source
+#### Defined in
 
-main.ts:94800
+main.ts:95092
 
 ***
 
 ### keyword\_data?
 
-> **`optional`** **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
+> `optional` **keyword\_data**: [`KeywordDataInfo`](KeywordDataInfo.md)
 
 keyword data for the returned keyword
 
@@ -61,15 +61,15 @@ keyword data for the returned keyword
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveItem.md).[`keyword_data`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveItem.md#keyword_data)
 
-#### Source
+#### Defined in
 
-main.ts:94797
+main.ts:95089
 
 ***
 
 ### se\_type?
 
-> **`optional`** **se\_type**: `string`
+> `optional` **se\_type**: `string`
 
 search engine type
 
@@ -77,15 +77,15 @@ search engine type
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveItem.md).[`se_type`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveItem.md#se_type)
 
-#### Source
+#### Defined in
 
-main.ts:94795
+main.ts:95087
 
 ***
 
 ### second\_domain\_serp\_element?
 
-> **`optional`** **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
+> `optional` **second\_domain\_serp\_element**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)
 
 contains data on the second domain’s SERP element found for the returned keyword
 the list of supported SERP elements can be found below
@@ -94,9 +94,9 @@ the list of supported SERP elements can be found below
 
 [`IDataforseoLabsGoogleDomainIntersectionLiveItem`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveItem.md).[`second_domain_serp_element`](../interfaces/IDataforseoLabsGoogleDomainIntersectionLiveItem.md#second_domain_serp_element)
 
-#### Source
+#### Defined in
 
-main.ts:94803
+main.ts:95095
 
 ## Methods
 
@@ -112,9 +112,9 @@ main.ts:94803
 
 `void`
 
-#### Source
+#### Defined in
 
-main.ts:94816
+main.ts:95108
 
 ***
 
@@ -130,15 +130,15 @@ main.ts:94816
 
 `any`
 
-#### Source
+#### Defined in
 
-main.ts:94836
+main.ts:95128
 
 ***
 
 ### fromJS()
 
-> **`static`** **fromJS**(`data`): [`DataforseoLabsGoogleDomainIntersectionLiveItem`](DataforseoLabsGoogleDomainIntersectionLiveItem.md)
+> `static` **fromJS**(`data`): [`DataforseoLabsGoogleDomainIntersectionLiveItem`](DataforseoLabsGoogleDomainIntersectionLiveItem.md)
 
 #### Parameters
 
@@ -148,6 +148,6 @@ main.ts:94836
 
 [`DataforseoLabsGoogleDomainIntersectionLiveItem`](DataforseoLabsGoogleDomainIntersectionLiveItem.md)
 
-#### Source
+#### Defined in
 
-main.ts:94829
+main.ts:95121
