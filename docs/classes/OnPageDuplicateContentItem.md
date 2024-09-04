@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageDuplicateContentItem
+[Documentation](../globals.md) / OnPageDuplicateContentItem
 
 # Class: OnPageDuplicateContentItem
 

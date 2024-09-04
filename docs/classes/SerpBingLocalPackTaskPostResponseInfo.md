@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLocalPackTaskPostResponseInfo
+[Documentation](../globals.md) / SerpBingLocalPackTaskPostResponseInfo
 
 # Class: SerpBingLocalPackTaskPostResponseInfo
 

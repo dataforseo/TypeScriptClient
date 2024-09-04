@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseAppDataSerpElementItem
+[Documentation](../globals.md) / IBaseAppDataSerpElementItem
 
 # Interface: IBaseAppDataSerpElementItem
 

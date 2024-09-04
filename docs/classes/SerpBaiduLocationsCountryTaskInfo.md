@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduLocationsCountryTaskInfo
+[Documentation](../globals.md) / SerpBaiduLocationsCountryTaskInfo
 
 # Class: SerpBaiduLocationsCountryTaskInfo
 

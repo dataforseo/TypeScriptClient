@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisSearchLiveItem
+[Documentation](../globals.md) / IContentAnalysisSearchLiveItem
 
 # Interface: IContentAnalysisSearchLiveItem
 

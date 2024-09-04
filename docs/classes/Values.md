@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Values
+[Documentation](../globals.md) / Values
 
 # Class: Values
 

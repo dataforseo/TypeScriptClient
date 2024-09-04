@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordAnnotations
+[Documentation](../globals.md) / KeywordAnnotations
 
 # Class: KeywordAnnotations
 

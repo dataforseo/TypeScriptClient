@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Interests
+[Documentation](../globals.md) / Interests
 
 # Class: Interests
 

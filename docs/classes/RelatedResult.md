@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RelatedResult
+[Documentation](../globals.md) / RelatedResult
 
 # Class: RelatedResult
 

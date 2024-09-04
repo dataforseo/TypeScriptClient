@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AvailibleVersions
+[Documentation](../globals.md) / AvailibleVersions
 
 # Class: AvailibleVersions
 

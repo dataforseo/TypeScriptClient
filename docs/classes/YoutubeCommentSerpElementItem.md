@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / YoutubeCommentSerpElementItem
+[Documentation](../globals.md) / YoutubeCommentSerpElementItem
 
 # Class: YoutubeCommentSerpElementItem
 

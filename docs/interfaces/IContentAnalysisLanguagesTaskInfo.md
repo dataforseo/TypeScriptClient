@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisLanguagesTaskInfo
+[Documentation](../globals.md) / IContentAnalysisLanguagesTaskInfo
 
 # Interface: IContentAnalysisLanguagesTaskInfo
 

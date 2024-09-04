@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentItemInfo
+[Documentation](../globals.md) / ContentItemInfo
 
 # Class: ContentItemInfo
 

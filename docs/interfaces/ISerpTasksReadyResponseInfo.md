@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpTasksReadyResponseInfo
+[Documentation](../globals.md) / ISerpTasksReadyResponseInfo
 
 # Interface: ISerpTasksReadyResponseInfo
 

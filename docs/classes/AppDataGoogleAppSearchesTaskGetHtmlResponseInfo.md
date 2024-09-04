@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppSearchesTaskGetHtmlResponseInfo
+[Documentation](../globals.md) / AppDataGoogleAppSearchesTaskGetHtmlResponseInfo
 
 # Class: AppDataGoogleAppSearchesTaskGetHtmlResponseInfo
 

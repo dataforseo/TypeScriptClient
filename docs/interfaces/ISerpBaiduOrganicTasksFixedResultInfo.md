@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBaiduOrganicTasksFixedResultInfo
+[Documentation](../globals.md) / ISerpBaiduOrganicTasksFixedResultInfo
 
 # Interface: ISerpBaiduOrganicTasksFixedResultInfo
 

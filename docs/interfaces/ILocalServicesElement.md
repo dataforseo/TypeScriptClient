@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocalServicesElement
+[Documentation](../globals.md) / ILocalServicesElement
 
 # Interface: ILocalServicesElement
 

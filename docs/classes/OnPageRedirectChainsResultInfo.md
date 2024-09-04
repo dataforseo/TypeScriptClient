@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageRedirectChainsResultInfo
+[Documentation](../globals.md) / OnPageRedirectChainsResultInfo
 
 # Class: OnPageRedirectChainsResultInfo
 

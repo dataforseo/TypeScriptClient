@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IInterests
+[Documentation](../globals.md) / IInterests
 
 # Interface: IInterests
 

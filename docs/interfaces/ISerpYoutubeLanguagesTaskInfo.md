@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeLanguagesTaskInfo
+[Documentation](../globals.md) / ISerpYoutubeLanguagesTaskInfo
 
 # Interface: ISerpYoutubeLanguagesTaskInfo
 

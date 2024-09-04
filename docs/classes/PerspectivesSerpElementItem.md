@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PerspectivesSerpElementItem
+[Documentation](../globals.md) / PerspectivesSerpElementItem
 
 # Class: PerspectivesSerpElementItem
 

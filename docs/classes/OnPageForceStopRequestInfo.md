@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageForceStopRequestInfo
+[Documentation](../globals.md) / OnPageForceStopRequestInfo
 
 # Class: OnPageForceStopRequestInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocalFinderLiveAdvancedResultInfo
+[Documentation](../globals.md) / ISerpGoogleLocalFinderLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleLocalFinderLiveAdvancedResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TechnologiesInfo
+[Documentation](../globals.md) / TechnologiesInfo
 
 # Class: TechnologiesInfo
 

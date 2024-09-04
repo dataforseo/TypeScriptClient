@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoCommentsLiveAdvancedResultInfo
+[Documentation](../globals.md) / SerpYoutubeVideoCommentsLiveAdvancedResultInfo
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedResultInfo
 

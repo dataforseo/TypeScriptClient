@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPodcastsSerpElementItem
+[Documentation](../globals.md) / IPodcastsSerpElementItem
 
 # Interface: IPodcastsSerpElementItem
 

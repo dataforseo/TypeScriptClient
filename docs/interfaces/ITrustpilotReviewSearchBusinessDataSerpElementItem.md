@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITrustpilotReviewSearchBusinessDataSerpElementItem
 

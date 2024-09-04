@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDiscussionsAndForumsElement
+[Documentation](../globals.md) / IDiscussionsAndForumsElement
 
 # Interface: IDiscussionsAndForumsElement
 

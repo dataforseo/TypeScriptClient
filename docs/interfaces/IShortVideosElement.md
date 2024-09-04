@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IShortVideosElement
+[Documentation](../globals.md) / IShortVideosElement
 
 # Interface: IShortVideosElement
 

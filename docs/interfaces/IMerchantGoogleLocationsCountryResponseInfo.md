@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleLocationsCountryResponseInfo
+[Documentation](../globals.md) / IMerchantGoogleLocationsCountryResponseInfo
 
 # Interface: IMerchantGoogleLocationsCountryResponseInfo
 

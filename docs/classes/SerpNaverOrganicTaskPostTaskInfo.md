@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpNaverOrganicTaskPostTaskInfo
+[Documentation](../globals.md) / SerpNaverOrganicTaskPostTaskInfo
 
 # Class: SerpNaverOrganicTaskPostTaskInfo
 

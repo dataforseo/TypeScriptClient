@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleLanguagesResponseInfo
+[Documentation](../globals.md) / IBusinessDataGoogleLanguagesResponseInfo
 
 # Interface: IBusinessDataGoogleLanguagesResponseInfo
 

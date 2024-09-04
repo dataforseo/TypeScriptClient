@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleLanguagesTaskInfo
+[Documentation](../globals.md) / AppDataAppleLanguagesTaskInfo
 
 # Class: AppDataAppleLanguagesTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPodcastsElement
+[Documentation](../globals.md) / IPodcastsElement
 
 # Interface: IPodcastsElement
 

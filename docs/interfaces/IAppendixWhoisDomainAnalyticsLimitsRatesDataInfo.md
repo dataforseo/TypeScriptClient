@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
 # Interface: IAppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationCheckGrammarLanguagesResponseInfo
+[Documentation](../globals.md) / IContentGenerationCheckGrammarLanguagesResponseInfo
 
 # Interface: IContentGenerationCheckGrammarLanguagesResponseInfo
 

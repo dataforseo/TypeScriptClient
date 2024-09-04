@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAvailableLocations
+[Documentation](../globals.md) / IAvailableLocations
 
 # Interface: IAvailableLocations
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageContentParsingResultInfo
+[Documentation](../globals.md) / IOnPageContentParsingResultInfo
 
 # Interface: IOnPageContentParsingResultInfo
 

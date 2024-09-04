@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITable
+[Documentation](../globals.md) / ITable
 
 # Interface: ITable
 

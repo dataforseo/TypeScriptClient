@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleNewsTaskGetHtmlResponseInfo
+[Documentation](../globals.md) / ISerpGoogleNewsTaskGetHtmlResponseInfo
 
 # Interface: ISerpGoogleNewsTaskGetHtmlResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppReviewsTasksReadyResultInfo
+[Documentation](../globals.md) / IAppDataGoogleAppReviewsTasksReadyResultInfo
 
 # Interface: IAppDataGoogleAppReviewsTasksReadyResultInfo
 

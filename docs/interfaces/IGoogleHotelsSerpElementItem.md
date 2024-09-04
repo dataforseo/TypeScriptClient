@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleHotelsSerpElementItem
+[Documentation](../globals.md) / IGoogleHotelsSerpElementItem
 
 # Interface: IGoogleHotelsSerpElementItem
 

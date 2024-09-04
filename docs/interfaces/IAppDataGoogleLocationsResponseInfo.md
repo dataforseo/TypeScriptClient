@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleLocationsResponseInfo
+[Documentation](../globals.md) / IAppDataGoogleLocationsResponseInfo
 
 # Interface: IAppDataGoogleLocationsResponseInfo
 

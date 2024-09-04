@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppUserProfileInfo
+[Documentation](../globals.md) / AppUserProfileInfo
 
 # Class: AppUserProfileInfo
 

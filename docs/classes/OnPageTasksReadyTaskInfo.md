@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageTasksReadyTaskInfo
+[Documentation](../globals.md) / OnPageTasksReadyTaskInfo
 
 # Class: OnPageTasksReadyTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGraph
+[Documentation](../globals.md) / IGraph
 
 # Interface: IGraph
 

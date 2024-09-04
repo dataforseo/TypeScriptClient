@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITopDomainInfo
+[Documentation](../globals.md) / ITopDomainInfo
 
 # Interface: ITopDomainInfo
 

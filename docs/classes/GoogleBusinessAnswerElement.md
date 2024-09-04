@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleBusinessAnswerElement
+[Documentation](../globals.md) / GoogleBusinessAnswerElement
 
 # Class: GoogleBusinessAnswerElement
 

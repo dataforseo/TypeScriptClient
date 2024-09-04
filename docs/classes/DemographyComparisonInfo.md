@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DemographyComparisonInfo
+[Documentation](../globals.md) / DemographyComparisonInfo
 
 # Class: DemographyComparisonInfo
 

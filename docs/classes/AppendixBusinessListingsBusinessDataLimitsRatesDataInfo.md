@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixBusinessListingsBusinessDataLimitsRatesDataInfo
 

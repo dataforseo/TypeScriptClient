@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / StocksBoxSerpElementItem
+[Documentation](../globals.md) / StocksBoxSerpElementItem
 
 # Class: StocksBoxSerpElementItem
 

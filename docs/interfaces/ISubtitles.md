@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISubtitles
+[Documentation](../globals.md) / ISubtitles
 
 # Interface: ISubtitles
 

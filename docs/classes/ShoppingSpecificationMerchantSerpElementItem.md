@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ShoppingSpecificationMerchantSerpElementItem
+[Documentation](../globals.md) / ShoppingSpecificationMerchantSerpElementItem
 
 # Class: ShoppingSpecificationMerchantSerpElementItem
 

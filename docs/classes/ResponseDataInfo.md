@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ResponseDataInfo
+[Documentation](../globals.md) / ResponseDataInfo
 
 # Class: ResponseDataInfo
 

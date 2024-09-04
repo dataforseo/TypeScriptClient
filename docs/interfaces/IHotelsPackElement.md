@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHotelsPackElement
+[Documentation](../globals.md) / IHotelsPackElement
 
 # Interface: IHotelsPackElement
 

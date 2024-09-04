@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseDataforseoTrendsItem
+[Documentation](../globals.md) / BaseDataforseoTrendsItem
 
 # Class: BaseDataforseoTrendsItem
 

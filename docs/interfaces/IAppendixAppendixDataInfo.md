@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixAppendixDataInfo
+[Documentation](../globals.md) / IAppendixAppendixDataInfo
 
 # Interface: IAppendixAppendixDataInfo
 

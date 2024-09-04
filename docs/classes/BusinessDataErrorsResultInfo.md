@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataErrorsResultInfo
+[Documentation](../globals.md) / BusinessDataErrorsResultInfo
 
 # Class: BusinessDataErrorsResultInfo
 

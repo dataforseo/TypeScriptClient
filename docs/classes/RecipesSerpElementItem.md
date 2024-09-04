@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RecipesSerpElementItem
+[Documentation](../globals.md) / RecipesSerpElementItem
 
 # Class: RecipesSerpElementItem
 

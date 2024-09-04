@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PageMetrics
+[Documentation](../globals.md) / PageMetrics
 
 # Class: PageMetrics
 

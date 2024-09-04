@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleImagesTasksReadyResultInfo
+[Documentation](../globals.md) / ISerpGoogleImagesTasksReadyResultInfo
 
 # Interface: ISerpGoogleImagesTasksReadyResultInfo
 

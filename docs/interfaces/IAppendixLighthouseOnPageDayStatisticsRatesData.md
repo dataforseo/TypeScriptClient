@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixLighthouseOnPageDayStatisticsRatesData
+[Documentation](../globals.md) / IAppendixLighthouseOnPageDayStatisticsRatesData
 
 # Interface: IAppendixLighthouseOnPageDayStatisticsRatesData
 

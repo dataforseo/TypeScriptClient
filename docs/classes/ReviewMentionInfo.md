@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ReviewMentionInfo
+[Documentation](../globals.md) / ReviewMentionInfo
 
 # Class: ReviewMentionInfo
 

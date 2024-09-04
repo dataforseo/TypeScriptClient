@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDemographyComparisonInfo
+[Documentation](../globals.md) / IDemographyComparisonInfo
 
 # Interface: IDemographyComparisonInfo
 

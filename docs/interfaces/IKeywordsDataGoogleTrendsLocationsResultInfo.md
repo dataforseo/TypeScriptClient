@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleTrendsLocationsResultInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleTrendsLocationsResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsLocationsResultInfo
 

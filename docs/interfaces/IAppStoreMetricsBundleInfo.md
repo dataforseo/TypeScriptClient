@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppStoreMetricsBundleInfo
+[Documentation](../globals.md) / IAppStoreMetricsBundleInfo
 
 # Interface: IAppStoreMetricsBundleInfo
 

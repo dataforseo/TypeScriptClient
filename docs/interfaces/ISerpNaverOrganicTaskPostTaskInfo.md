@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpNaverOrganicTaskPostTaskInfo
+[Documentation](../globals.md) / ISerpNaverOrganicTaskPostTaskInfo
 
 # Interface: ISerpNaverOrganicTaskPostTaskInfo
 

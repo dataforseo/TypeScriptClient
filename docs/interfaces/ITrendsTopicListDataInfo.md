@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITrendsTopicListDataInfo
+[Documentation](../globals.md) / ITrendsTopicListDataInfo
 
 # Interface: ITrendsTopicListDataInfo
 

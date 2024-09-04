@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppMetricsInfo
+[Documentation](../globals.md) / IAppMetricsInfo
 
 # Interface: IAppMetricsInfo
 

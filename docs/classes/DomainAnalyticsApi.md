@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsApi
+[Documentation](../globals.md) / DomainAnalyticsApi
 
 # Class: DomainAnalyticsApi
 

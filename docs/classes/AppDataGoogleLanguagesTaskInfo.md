@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleLanguagesTaskInfo
+[Documentation](../globals.md) / AppDataGoogleLanguagesTaskInfo
 
 # Class: AppDataGoogleLanguagesTaskInfo
 

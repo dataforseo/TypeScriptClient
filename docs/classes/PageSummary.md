@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PageSummary
+[Documentation](../globals.md) / PageSummary
 
 # Class: PageSummary
 

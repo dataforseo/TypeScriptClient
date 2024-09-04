@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageDuplicateTagsItem
+[Documentation](../globals.md) / IOnPageDuplicateTagsItem
 
 # Interface: IOnPageDuplicateTagsItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ScreenshotItem
+[Documentation](../globals.md) / ScreenshotItem
 
 # Class: ScreenshotItem
 

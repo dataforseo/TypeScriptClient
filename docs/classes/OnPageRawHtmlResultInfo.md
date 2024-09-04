@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageRawHtmlResultInfo
+[Documentation](../globals.md) / OnPageRawHtmlResultInfo
 
 # Class: OnPageRawHtmlResultInfo
 

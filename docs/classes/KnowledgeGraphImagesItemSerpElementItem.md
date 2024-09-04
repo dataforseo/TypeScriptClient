@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphImagesItemSerpElementItem
+[Documentation](../globals.md) / KnowledgeGraphImagesItemSerpElementItem
 
 # Class: KnowledgeGraphImagesItemSerpElementItem
 

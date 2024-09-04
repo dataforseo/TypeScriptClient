@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusyWorkingTimeInfo
+[Documentation](../globals.md) / BusyWorkingTimeInfo
 
 # Class: BusyWorkingTimeInfo
 

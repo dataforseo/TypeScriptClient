@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo
+[Documentation](../globals.md) / DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo
 
 # Class: DataforseoLabsAmazonBulkSearchVolumeLiveTaskInfo
 

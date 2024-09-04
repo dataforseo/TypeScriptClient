@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAlternateLinkElementItem
+[Documentation](../globals.md) / IAlternateLinkElementItem
 
 # Interface: IAlternateLinkElementItem
 

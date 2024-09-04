@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLocalPackTasksReadyTaskInfo
+[Documentation](../globals.md) / ISerpBingLocalPackTasksReadyTaskInfo
 
 # Interface: ISerpBingLocalPackTasksReadyTaskInfo
 

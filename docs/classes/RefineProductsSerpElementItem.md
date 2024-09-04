@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RefineProductsSerpElementItem
+[Documentation](../globals.md) / RefineProductsSerpElementItem
 
 # Class: RefineProductsSerpElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IScholarlyArticlesSerpElementItem
+[Documentation](../globals.md) / IScholarlyArticlesSerpElementItem
 
 # Interface: IScholarlyArticlesSerpElementItem
 

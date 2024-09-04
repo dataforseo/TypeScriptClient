@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppSearchesTasksReadyResponseInfo
+[Documentation](../globals.md) / IAppDataGoogleAppSearchesTasksReadyResponseInfo
 
 # Interface: IAppDataGoogleAppSearchesTasksReadyResponseInfo
 

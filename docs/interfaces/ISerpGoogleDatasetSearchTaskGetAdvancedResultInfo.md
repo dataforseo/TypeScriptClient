@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo
 

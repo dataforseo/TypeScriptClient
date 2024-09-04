@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTripadvisorLocationsTaskInfo
+[Documentation](../globals.md) / BusinessDataTripadvisorLocationsTaskInfo
 
 # Class: BusinessDataTripadvisorLocationsTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageNonIndexableTaskInfo
+[Documentation](../globals.md) / OnPageNonIndexableTaskInfo
 
 # Class: OnPageNonIndexableTaskInfo
 

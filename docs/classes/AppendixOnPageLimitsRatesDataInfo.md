@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixOnPageLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixOnPageLimitsRatesDataInfo
 
 # Class: AppendixOnPageLimitsRatesDataInfo
 

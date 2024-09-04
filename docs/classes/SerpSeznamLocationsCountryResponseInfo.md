@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamLocationsCountryResponseInfo
+[Documentation](../globals.md) / SerpSeznamLocationsCountryResponseInfo
 
 # Class: SerpSeznamLocationsCountryResponseInfo
 

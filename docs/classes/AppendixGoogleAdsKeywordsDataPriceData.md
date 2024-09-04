@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixGoogleAdsKeywordsDataPriceData
+[Documentation](../globals.md) / AppendixGoogleAdsKeywordsDataPriceData
 
 # Class: AppendixGoogleAdsKeywordsDataPriceData
 

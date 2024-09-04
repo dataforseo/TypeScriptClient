@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AuthorsElement
+[Documentation](../globals.md) / AuthorsElement
 
 # Class: AuthorsElement
 

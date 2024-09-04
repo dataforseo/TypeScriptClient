@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo
 
 # Class: KeywordsDataGoogleAdsSearchVolumeTaskPostTaskInfo
 

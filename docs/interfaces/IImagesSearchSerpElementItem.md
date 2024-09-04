@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IImagesSearchSerpElementItem
+[Documentation](../globals.md) / IImagesSearchSerpElementItem
 
 # Interface: IImagesSearchSerpElementItem
 

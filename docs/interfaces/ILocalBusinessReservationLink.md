@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocalBusinessReservationLink
+[Documentation](../globals.md) / ILocalBusinessReservationLink
 
 # Interface: ILocalBusinessReservationLink
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooLanguagesTaskInfo
+[Documentation](../globals.md) / SerpYahooLanguagesTaskInfo
 
 # Class: SerpYahooLanguagesTaskInfo
 

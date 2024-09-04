@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveTaskInfo
 

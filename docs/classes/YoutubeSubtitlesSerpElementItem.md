@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / YoutubeSubtitlesSerpElementItem
+[Documentation](../globals.md) / YoutubeSubtitlesSerpElementItem
 
 # Class: YoutubeSubtitlesSerpElementItem
 

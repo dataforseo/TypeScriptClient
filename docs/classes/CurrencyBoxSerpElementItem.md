@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CurrencyBoxSerpElementItem
+[Documentation](../globals.md) / CurrencyBoxSerpElementItem
 
 # Class: CurrencyBoxSerpElementItem
 

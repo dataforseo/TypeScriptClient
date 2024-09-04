@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DiscussionsAndForumsElement
+[Documentation](../globals.md) / DiscussionsAndForumsElement
 
 # Class: DiscussionsAndForumsElement
 

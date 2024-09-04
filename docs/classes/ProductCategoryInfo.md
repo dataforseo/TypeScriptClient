@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductCategoryInfo
+[Documentation](../globals.md) / ProductCategoryInfo
 
 # Class: ProductCategoryInfo
 

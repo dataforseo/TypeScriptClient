@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleBusinessPostBusinessDataSerpElementItem
+[Documentation](../globals.md) / GoogleBusinessPostBusinessDataSerpElementItem
 
 # Class: GoogleBusinessPostBusinessDataSerpElementItem
 

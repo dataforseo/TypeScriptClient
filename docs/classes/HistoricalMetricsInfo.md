@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HistoricalMetricsInfo
+[Documentation](../globals.md) / HistoricalMetricsInfo
 
 # Class: HistoricalMetricsInfo
 

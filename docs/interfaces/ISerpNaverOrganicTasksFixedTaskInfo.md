@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpNaverOrganicTasksFixedTaskInfo
+[Documentation](../globals.md) / ISerpNaverOrganicTasksFixedTaskInfo
 
 # Interface: ISerpNaverOrganicTasksFixedTaskInfo
 

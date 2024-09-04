@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduOrganicTaskPostRequestInfo
+[Documentation](../globals.md) / SerpBaiduOrganicTaskPostRequestInfo
 
 # Class: SerpBaiduOrganicTaskPostRequestInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingDomainIntersectionLiveResponseInfo
+[Documentation](../globals.md) / DataforseoLabsBingDomainIntersectionLiveResponseInfo
 
 # Class: DataforseoLabsBingDomainIntersectionLiveResponseInfo
 

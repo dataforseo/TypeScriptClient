@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeLanguagesTaskInfo
+[Documentation](../globals.md) / SerpYoutubeLanguagesTaskInfo
 
 # Class: SerpYoutubeLanguagesTaskInfo
 

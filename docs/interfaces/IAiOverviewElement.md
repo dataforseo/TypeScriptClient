@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAiOverviewElement
+[Documentation](../globals.md) / IAiOverviewElement
 
 # Interface: IAiOverviewElement
 

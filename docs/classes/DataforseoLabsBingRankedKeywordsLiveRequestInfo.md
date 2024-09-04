@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsBingRankedKeywordsLiveRequestInfo
 

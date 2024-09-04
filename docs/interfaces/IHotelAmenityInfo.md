@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHotelAmenityInfo
+[Documentation](../globals.md) / IHotelAmenityInfo
 
 # Interface: IHotelAmenityInfo
 

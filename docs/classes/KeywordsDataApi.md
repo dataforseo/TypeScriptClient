@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataApi
+[Documentation](../globals.md) / KeywordsDataApi
 
 # Class: KeywordsDataApi
 

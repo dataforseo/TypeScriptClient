@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MonthlySearches
+[Documentation](../globals.md) / MonthlySearches
 
 # Class: MonthlySearches
 

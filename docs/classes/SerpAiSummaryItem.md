@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpAiSummaryItem
+[Documentation](../globals.md) / SerpAiSummaryItem
 
 # Class: SerpAiSummaryItem
 

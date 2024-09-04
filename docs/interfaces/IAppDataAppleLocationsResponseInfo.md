@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleLocationsResponseInfo
+[Documentation](../globals.md) / IAppDataAppleLocationsResponseInfo
 
 # Interface: IAppDataAppleLocationsResponseInfo
 

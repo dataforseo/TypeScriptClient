@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixLimitsMoneyData
+[Documentation](../globals.md) / IAppendixLimitsMoneyData
 
 # Interface: IAppendixLimitsMoneyData
 

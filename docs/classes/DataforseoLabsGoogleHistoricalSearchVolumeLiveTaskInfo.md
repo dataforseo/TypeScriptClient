@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveTaskInfo
 

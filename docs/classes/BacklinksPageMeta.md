@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksPageMeta
+[Documentation](../globals.md) / BacklinksPageMeta
 
 # Class: BacklinksPageMeta
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOrganicDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IOrganicDataforseoLabsSerpElementItem
 
 # Interface: IOrganicDataforseoLabsSerpElementItem
 

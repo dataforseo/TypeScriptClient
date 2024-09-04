@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixUserDataResultInfo
+[Documentation](../globals.md) / IAppendixUserDataResultInfo
 
 # Interface: IAppendixUserDataResultInfo
 

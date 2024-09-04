@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveItem
 

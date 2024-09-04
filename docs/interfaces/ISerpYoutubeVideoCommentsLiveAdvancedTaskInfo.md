@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoCommentsLiveAdvancedTaskInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoCommentsLiveAdvancedTaskInfo
 
 # Interface: ISerpYoutubeVideoCommentsLiveAdvancedTaskInfo
 

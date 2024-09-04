@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixSellersGoogleMerchantLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixSellersGoogleMerchantLimitsRatesDataInfo
 
 # Class: AppendixSellersGoogleMerchantLimitsRatesDataInfo
 

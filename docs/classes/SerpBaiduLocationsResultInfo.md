@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduLocationsResultInfo
+[Documentation](../globals.md) / SerpBaiduLocationsResultInfo
 
 # Class: SerpBaiduLocationsResultInfo
 

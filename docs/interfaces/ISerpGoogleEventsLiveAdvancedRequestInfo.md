@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleEventsLiveAdvancedRequestInfo
+[Documentation](../globals.md) / ISerpGoogleEventsLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleEventsLiveAdvancedRequestInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleReviewsSerpElementItem
+[Documentation](../globals.md) / IGoogleReviewsSerpElementItem
 
 # Interface: IGoogleReviewsSerpElementItem
 

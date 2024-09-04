@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleOrganicLiveHtmlResultInfo
+[Documentation](../globals.md) / ISerpGoogleOrganicLiveHtmlResultInfo
 
 # Interface: ISerpGoogleOrganicLiveHtmlResultInfo
 

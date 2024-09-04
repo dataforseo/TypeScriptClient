@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksErrorsTaskInfo
+[Documentation](../globals.md) / BacklinksErrorsTaskInfo
 
 # Class: BacklinksErrorsTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DictionarySerpElementItem
+[Documentation](../globals.md) / DictionarySerpElementItem
 
 # Class: DictionarySerpElementItem
 

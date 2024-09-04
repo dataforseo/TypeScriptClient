@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo
 
 # Class: SerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo
 

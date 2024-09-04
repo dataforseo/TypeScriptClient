@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphListElement
+[Documentation](../globals.md) / IKnowledgeGraphListElement
 
 # Interface: IKnowledgeGraphListElement
 

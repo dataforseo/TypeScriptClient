@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksPageIntersectionInfo
+[Documentation](../globals.md) / BacklinksPageIntersectionInfo
 
 # Class: BacklinksPageIntersectionInfo
 

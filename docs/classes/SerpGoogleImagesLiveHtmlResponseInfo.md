@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleImagesLiveHtmlResponseInfo
+[Documentation](../globals.md) / SerpGoogleImagesLiveHtmlResponseInfo
 
 # Class: SerpGoogleImagesLiveHtmlResponseInfo
 

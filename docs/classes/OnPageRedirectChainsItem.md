@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageRedirectChainsItem
+[Documentation](../globals.md) / OnPageRedirectChainsItem
 
 # Class: OnPageRedirectChainsItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAppleKeywordsForAppLiveResponseInfo
+[Documentation](../globals.md) / DataforseoLabsAppleKeywordsForAppLiveResponseInfo
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveResponseInfo
 

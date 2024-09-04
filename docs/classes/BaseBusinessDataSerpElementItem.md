@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseBusinessDataSerpElementItem
+[Documentation](../globals.md) / BaseBusinessDataSerpElementItem
 
 # Class: BaseBusinessDataSerpElementItem
 

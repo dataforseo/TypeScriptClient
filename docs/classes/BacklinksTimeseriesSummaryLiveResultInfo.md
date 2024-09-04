@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveResultInfo
+[Documentation](../globals.md) / BacklinksTimeseriesSummaryLiveResultInfo
 
 # Class: BacklinksTimeseriesSummaryLiveResultInfo
 

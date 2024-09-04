@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IStylesheetResourceElementItem
+[Documentation](../globals.md) / IStylesheetResourceElementItem
 
 # Interface: IStylesheetResourceElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataIdListResponseInfo
+[Documentation](../globals.md) / IAppDataIdListResponseInfo
 
 # Interface: IAppDataIdListResponseInfo
 

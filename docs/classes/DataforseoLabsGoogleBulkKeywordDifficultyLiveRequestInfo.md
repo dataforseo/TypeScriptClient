@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkKeywordDifficultyLiveRequestInfo
 

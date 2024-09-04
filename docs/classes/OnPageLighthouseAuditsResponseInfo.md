@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseAuditsResponseInfo
+[Documentation](../globals.md) / OnPageLighthouseAuditsResponseInfo
 
 # Class: OnPageLighthouseAuditsResponseInfo
 

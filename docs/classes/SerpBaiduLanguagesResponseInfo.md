@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduLanguagesResponseInfo
+[Documentation](../globals.md) / SerpBaiduLanguagesResponseInfo
 
 # Class: SerpBaiduLanguagesResponseInfo
 

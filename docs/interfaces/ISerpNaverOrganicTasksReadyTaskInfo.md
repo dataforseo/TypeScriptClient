@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpNaverOrganicTasksReadyTaskInfo
+[Documentation](../globals.md) / ISerpNaverOrganicTasksReadyTaskInfo
 
 # Interface: ISerpNaverOrganicTasksReadyTaskInfo
 

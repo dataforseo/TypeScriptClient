@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageWaterfallItem
+[Documentation](../globals.md) / IOnPageWaterfallItem
 
 # Interface: IOnPageWaterfallItem
 

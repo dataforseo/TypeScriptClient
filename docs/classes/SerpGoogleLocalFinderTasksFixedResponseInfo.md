@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleLocalFinderTasksFixedResponseInfo
+[Documentation](../globals.md) / SerpGoogleLocalFinderTasksFixedResponseInfo
 
 # Class: SerpGoogleLocalFinderTasksFixedResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageContentParsingLiveRequestInfo
+[Documentation](../globals.md) / OnPageContentParsingLiveRequestInfo
 
 # Class: OnPageContentParsingLiveRequestInfo
 

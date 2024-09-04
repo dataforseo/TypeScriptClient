@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppListTaskPostResponseInfo
+[Documentation](../globals.md) / AppDataAppleAppListTaskPostResponseInfo
 
 # Class: AppDataAppleAppListTaskPostResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
 # Class: SerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 

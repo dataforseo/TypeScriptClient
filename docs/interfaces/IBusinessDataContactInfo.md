@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataContactInfo
+[Documentation](../globals.md) / IBusinessDataContactInfo
 
 # Interface: IBusinessDataContactInfo
 

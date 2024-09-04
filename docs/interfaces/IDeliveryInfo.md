@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDeliveryInfo
+[Documentation](../globals.md) / IDeliveryInfo
 
 # Interface: IDeliveryInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonMetricsBundleInfo
+[Documentation](../globals.md) / IAmazonMetricsBundleInfo
 
 # Interface: IAmazonMetricsBundleInfo
 

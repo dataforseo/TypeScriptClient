@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IQuestionsAndAnswersElement
+[Documentation](../globals.md) / IQuestionsAndAnswersElement
 
 # Interface: IQuestionsAndAnswersElement
 

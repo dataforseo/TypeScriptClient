@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo
 
 # Interface: IDataforseoLabsGoogleDomainMetricsByCategoriesLiveResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAboutThisResultElement
+[Documentation](../globals.md) / IAboutThisResultElement
 
 # Interface: IAboutThisResultElement
 

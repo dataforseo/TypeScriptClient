@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataSocialMediaPinterestLiveRequestInfo
+[Documentation](../globals.md) / IBusinessDataSocialMediaPinterestLiveRequestInfo
 
 # Interface: IBusinessDataSocialMediaPinterestLiveRequestInfo
 

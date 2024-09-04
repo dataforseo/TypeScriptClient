@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PeriodCovered
+[Documentation](../globals.md) / PeriodCovered
 
 # Class: PeriodCovered
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDemography
+[Documentation](../globals.md) / IDemography
 
 # Interface: IDemography
 

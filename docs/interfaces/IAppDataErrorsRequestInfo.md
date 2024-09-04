@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataErrorsRequestInfo
+[Documentation](../globals.md) / IAppDataErrorsRequestInfo
 
 # Interface: IAppDataErrorsRequestInfo
 

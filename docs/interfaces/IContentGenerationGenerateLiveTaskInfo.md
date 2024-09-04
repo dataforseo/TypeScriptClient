@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationGenerateLiveTaskInfo
+[Documentation](../globals.md) / IContentGenerationGenerateLiveTaskInfo
 
 # Interface: IContentGenerationGenerateLiveTaskInfo
 

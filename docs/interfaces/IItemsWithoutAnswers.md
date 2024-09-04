@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IItemsWithoutAnswers
+[Documentation](../globals.md) / IItemsWithoutAnswers
 
 # Interface: IItemsWithoutAnswers
 

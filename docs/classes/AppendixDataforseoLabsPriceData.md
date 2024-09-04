@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixDataforseoLabsPriceData
+[Documentation](../globals.md) / AppendixDataforseoLabsPriceData
 
 # Class: AppendixDataforseoLabsPriceData
 

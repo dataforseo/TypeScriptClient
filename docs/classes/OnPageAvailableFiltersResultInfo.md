@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageAvailableFiltersResultInfo
+[Documentation](../globals.md) / OnPageAvailableFiltersResultInfo
 
 # Class: OnPageAvailableFiltersResultInfo
 

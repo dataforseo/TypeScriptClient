@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooOrganicTasksFixedResultInfo
+[Documentation](../globals.md) / SerpYahooOrganicTasksFixedResultInfo
 
 # Class: SerpYahooOrganicTasksFixedResultInfo
 

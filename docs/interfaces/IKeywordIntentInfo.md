@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordIntentInfo
+[Documentation](../globals.md) / IKeywordIntentInfo
 
 # Interface: IKeywordIntentInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageKeywordDensityTaskInfo
+[Documentation](../globals.md) / OnPageKeywordDensityTaskInfo
 
 # Class: OnPageKeywordDensityTaskInfo
 

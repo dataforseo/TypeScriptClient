@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonRelatedSearchesSerpElementItem
+[Documentation](../globals.md) / AmazonRelatedSearchesSerpElementItem
 
 # Class: AmazonRelatedSearchesSerpElementItem
 

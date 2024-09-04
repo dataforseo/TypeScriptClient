@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingKeywordsForSiteLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataBingKeywordsForSiteLiveRequestInfo
 
 # Class: KeywordsDataBingKeywordsForSiteLiveRequestInfo
 

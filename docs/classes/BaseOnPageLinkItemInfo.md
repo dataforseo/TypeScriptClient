@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseOnPageLinkItemInfo
+[Documentation](../globals.md) / BaseOnPageLinkItemInfo
 
 # Class: BaseOnPageLinkItemInfo
 

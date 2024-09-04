@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixWebhookResendRequestInfo
+[Documentation](../globals.md) / IAppendixWebhookResendRequestInfo
 
 # Interface: IAppendixWebhookResendRequestInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppListTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / AppDataGoogleAppListTaskGetAdvancedResponseInfo
 
 # Class: AppDataGoogleAppListTaskGetAdvancedResponseInfo
 

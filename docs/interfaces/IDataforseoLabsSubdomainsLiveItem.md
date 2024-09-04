@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsSubdomainsLiveItem
+[Documentation](../globals.md) / IDataforseoLabsSubdomainsLiveItem
 
 # Interface: IDataforseoLabsSubdomainsLiveItem
 

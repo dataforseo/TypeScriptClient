@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLanguagesResponseInfo
+[Documentation](../globals.md) / ISerpBingLanguagesResponseInfo
 
 # Interface: ISerpBingLanguagesResponseInfo
 

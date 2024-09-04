@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPagePagesResponseInfo
+[Documentation](../globals.md) / OnPagePagesResponseInfo
 
 # Class: OnPagePagesResponseInfo
 

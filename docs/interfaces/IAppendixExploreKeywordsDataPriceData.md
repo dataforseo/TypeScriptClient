@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixExploreKeywordsDataPriceData
+[Documentation](../globals.md) / IAppendixExploreKeywordsDataPriceData
 
 # Interface: IAppendixExploreKeywordsDataPriceData
 

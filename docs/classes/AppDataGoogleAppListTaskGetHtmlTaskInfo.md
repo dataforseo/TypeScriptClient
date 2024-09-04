@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppListTaskGetHtmlTaskInfo
+[Documentation](../globals.md) / AppDataGoogleAppListTaskGetHtmlTaskInfo
 
 # Class: AppDataGoogleAppListTaskGetHtmlTaskInfo
 

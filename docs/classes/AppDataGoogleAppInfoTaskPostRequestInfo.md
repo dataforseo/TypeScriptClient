@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppInfoTaskPostRequestInfo
+[Documentation](../globals.md) / AppDataGoogleAppInfoTaskPostRequestInfo
 
 # Class: AppDataGoogleAppInfoTaskPostRequestInfo
 

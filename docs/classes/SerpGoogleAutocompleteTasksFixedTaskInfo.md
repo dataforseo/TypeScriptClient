@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleAutocompleteTasksFixedTaskInfo
+[Documentation](../globals.md) / SerpGoogleAutocompleteTasksFixedTaskInfo
 
 # Class: SerpGoogleAutocompleteTasksFixedTaskInfo
 

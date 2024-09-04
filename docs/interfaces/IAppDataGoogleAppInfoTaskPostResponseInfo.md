@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppInfoTaskPostResponseInfo
+[Documentation](../globals.md) / IAppDataGoogleAppInfoTaskPostResponseInfo
 
 # Interface: IAppDataGoogleAppInfoTaskPostResponseInfo
 

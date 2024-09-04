@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppRankedSerpElementInfo
+[Documentation](../globals.md) / AppRankedSerpElementInfo
 
 # Class: AppRankedSerpElementInfo
 

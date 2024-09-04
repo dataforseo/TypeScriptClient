@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksAnchorsLiveItem
+[Documentation](../globals.md) / BacklinksAnchorsLiveItem
 
 # Class: BacklinksAnchorsLiveItem
 

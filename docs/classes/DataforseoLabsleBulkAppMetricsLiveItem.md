@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsleBulkAppMetricsLiveItem
+[Documentation](../globals.md) / DataforseoLabsleBulkAppMetricsLiveItem
 
 # Class: DataforseoLabsleBulkAppMetricsLiveItem
 

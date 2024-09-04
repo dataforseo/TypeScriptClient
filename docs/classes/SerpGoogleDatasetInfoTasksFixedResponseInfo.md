@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleDatasetInfoTasksFixedResponseInfo
+[Documentation](../globals.md) / SerpGoogleDatasetInfoTasksFixedResponseInfo
 
 # Class: SerpGoogleDatasetInfoTasksFixedResponseInfo
 

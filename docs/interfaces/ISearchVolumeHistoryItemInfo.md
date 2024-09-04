@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISearchVolumeHistoryItemInfo
+[Documentation](../globals.md) / ISearchVolumeHistoryItemInfo
 
 # Interface: ISearchVolumeHistoryItemInfo
 

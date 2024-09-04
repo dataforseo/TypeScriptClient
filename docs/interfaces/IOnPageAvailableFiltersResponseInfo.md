@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageAvailableFiltersResponseInfo
+[Documentation](../globals.md) / IOnPageAvailableFiltersResponseInfo
 
 # Interface: IOnPageAvailableFiltersResponseInfo
 

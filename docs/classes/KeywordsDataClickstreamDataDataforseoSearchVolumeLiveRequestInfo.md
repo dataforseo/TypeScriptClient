@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 

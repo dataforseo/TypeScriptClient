@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISslInfo
+[Documentation](../globals.md) / ISslInfo
 
 # Interface: ISslInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAbsoluteItems
+[Documentation](../globals.md) / IAbsoluteItems
 
 # Interface: IAbsoluteItems
 

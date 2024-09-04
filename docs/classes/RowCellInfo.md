@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RowCellInfo
+[Documentation](../globals.md) / RowCellInfo
 
 # Class: RowCellInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGooglePlayReviewsSearchSerpElementItem
+[Documentation](../globals.md) / AppDataGooglePlayReviewsSearchSerpElementItem
 
 # Class: AppDataGooglePlayReviewsSearchSerpElementItem
 

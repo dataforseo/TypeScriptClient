@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLocationsAndLanguagesResultInfo
 

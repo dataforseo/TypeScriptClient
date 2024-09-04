@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixGoogleBusinessDataPriceDataInfo
+[Documentation](../globals.md) / IAppendixGoogleBusinessDataPriceDataInfo
 
 # Interface: IAppendixGoogleBusinessDataPriceDataInfo
 

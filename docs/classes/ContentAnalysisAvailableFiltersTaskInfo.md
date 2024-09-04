@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisAvailableFiltersTaskInfo
+[Documentation](../globals.md) / ContentAnalysisAvailableFiltersTaskInfo
 
 # Class: ContentAnalysisAvailableFiltersTaskInfo
 

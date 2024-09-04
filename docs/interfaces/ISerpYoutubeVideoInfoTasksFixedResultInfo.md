@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoInfoTasksFixedResultInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoInfoTasksFixedResultInfo
 
 # Interface: ISerpYoutubeVideoInfoTasksFixedResultInfo
 

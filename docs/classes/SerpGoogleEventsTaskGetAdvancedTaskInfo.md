@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleEventsTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / SerpGoogleEventsTaskGetAdvancedTaskInfo
 
 # Class: SerpGoogleEventsTaskGetAdvancedTaskInfo
 

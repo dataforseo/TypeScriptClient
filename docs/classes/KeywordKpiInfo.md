@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordKpiInfo
+[Documentation](../globals.md) / KeywordKpiInfo
 
 # Class: KeywordKpiInfo
 

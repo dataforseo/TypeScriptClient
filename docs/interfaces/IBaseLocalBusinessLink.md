@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseLocalBusinessLink
+[Documentation](../globals.md) / IBaseLocalBusinessLink
 
 # Interface: IBaseLocalBusinessLink
 

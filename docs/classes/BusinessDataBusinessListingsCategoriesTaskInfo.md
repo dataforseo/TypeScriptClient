@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesTaskInfo
+[Documentation](../globals.md) / BusinessDataBusinessListingsCategoriesTaskInfo
 
 # Class: BusinessDataBusinessListingsCategoriesTaskInfo
 

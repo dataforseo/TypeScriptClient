@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMultiCarouselElement
+[Documentation](../globals.md) / IMultiCarouselElement
 
 # Interface: IMultiCarouselElement
 

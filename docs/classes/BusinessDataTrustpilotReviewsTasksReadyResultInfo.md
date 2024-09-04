@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTrustpilotReviewsTasksReadyResultInfo
+[Documentation](../globals.md) / BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTasksReadyResultInfo
 

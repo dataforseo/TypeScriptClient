@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTrustpilotReviewsTaskGetResultInfo
+[Documentation](../globals.md) / IBusinessDataTrustpilotReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskGetResultInfo
 

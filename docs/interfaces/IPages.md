@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPages
+[Documentation](../globals.md) / IPages
 
 # Interface: IPages
 

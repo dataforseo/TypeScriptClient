@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GooglePostsSerpElementItem
+[Documentation](../globals.md) / GooglePostsSerpElementItem
 
 # Class: GooglePostsSerpElementItem
 

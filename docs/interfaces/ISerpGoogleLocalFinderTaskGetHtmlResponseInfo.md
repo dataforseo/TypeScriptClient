@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocalFinderTaskGetHtmlResponseInfo
+[Documentation](../globals.md) / ISerpGoogleLocalFinderTaskGetHtmlResponseInfo
 
 # Interface: ISerpGoogleLocalFinderTaskGetHtmlResponseInfo
 

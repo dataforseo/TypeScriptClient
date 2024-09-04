@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationGenerateSubTopicsLiveResponseInfo
+[Documentation](../globals.md) / ContentGenerationGenerateSubTopicsLiveResponseInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveResponseInfo
 

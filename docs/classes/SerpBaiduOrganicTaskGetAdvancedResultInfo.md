@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduOrganicTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpBaiduOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpBaiduOrganicTaskGetAdvancedResultInfo
 

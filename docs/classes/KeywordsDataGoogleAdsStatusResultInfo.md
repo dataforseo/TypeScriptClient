@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsStatusResultInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsStatusResultInfo
 
 # Class: KeywordsDataGoogleAdsStatusResultInfo
 

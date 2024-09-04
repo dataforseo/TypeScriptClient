@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseLiveJsonResponseInfo
+[Documentation](../globals.md) / IOnPageLighthouseLiveJsonResponseInfo
 
 # Interface: IOnPageLighthouseLiveJsonResponseInfo
 

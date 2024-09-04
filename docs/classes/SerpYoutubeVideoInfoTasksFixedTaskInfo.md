@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoInfoTasksFixedTaskInfo
+[Documentation](../globals.md) / SerpYoutubeVideoInfoTasksFixedTaskInfo
 
 # Class: SerpYoutubeVideoInfoTasksFixedTaskInfo
 

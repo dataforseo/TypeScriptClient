@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageAvailableFiltersTaskInfo
+[Documentation](../globals.md) / IOnPageAvailableFiltersTaskInfo
 
 # Interface: IOnPageAvailableFiltersTaskInfo
 

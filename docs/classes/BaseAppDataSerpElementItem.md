@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseAppDataSerpElementItem
+[Documentation](../globals.md) / BaseAppDataSerpElementItem
 
 # Class: BaseAppDataSerpElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / JobsSerpElementItem
+[Documentation](../globals.md) / JobsSerpElementItem
 
 # Class: JobsSerpElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISentimentConnotationDistribution
+[Documentation](../globals.md) / ISentimentConnotationDistribution
 
 # Interface: ISentimentConnotationDistribution
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleLocationsCountryTaskInfo
+[Documentation](../globals.md) / SerpGoogleLocationsCountryTaskInfo
 
 # Class: SerpGoogleLocationsCountryTaskInfo
 

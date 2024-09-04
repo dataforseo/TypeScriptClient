@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleOrganicLiveRegularRequestInfo
+[Documentation](../globals.md) / SerpGoogleOrganicLiveRegularRequestInfo
 
 # Class: SerpGoogleOrganicLiveRegularRequestInfo
 

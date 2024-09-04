@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageIdListResponseInfo
+[Documentation](../globals.md) / OnPageIdListResponseInfo
 
 # Class: OnPageIdListResponseInfo
 

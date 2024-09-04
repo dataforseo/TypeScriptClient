@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 

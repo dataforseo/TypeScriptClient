@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleAutocompleteTasksReadyTaskInfo
+[Documentation](../globals.md) / ISerpGoogleAutocompleteTasksReadyTaskInfo
 
 # Interface: ISerpGoogleAutocompleteTasksReadyTaskInfo
 

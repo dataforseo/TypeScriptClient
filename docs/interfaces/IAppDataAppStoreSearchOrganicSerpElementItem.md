@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppStoreSearchOrganicSerpElementItem
+[Documentation](../globals.md) / IAppDataAppStoreSearchOrganicSerpElementItem
 
 # Interface: IAppDataAppStoreSearchOrganicSerpElementItem
 

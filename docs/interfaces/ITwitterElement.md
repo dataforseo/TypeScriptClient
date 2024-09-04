@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITwitterElement
+[Documentation](../globals.md) / ITwitterElement
 
 # Interface: ITwitterElement
 

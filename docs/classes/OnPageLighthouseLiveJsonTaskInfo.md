@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseLiveJsonTaskInfo
+[Documentation](../globals.md) / OnPageLighthouseLiveJsonTaskInfo
 
 # Class: OnPageLighthouseLiveJsonTaskInfo
 

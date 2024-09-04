@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingLocationsTaskInfo
+[Documentation](../globals.md) / IKeywordsDataBingLocationsTaskInfo
 
 # Interface: IKeywordsDataBingLocationsTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixDataforseoLabsLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixDataforseoLabsLimitsRatesDataInfo
 
 # Interface: IAppendixDataforseoLabsLimitsRatesDataInfo
 

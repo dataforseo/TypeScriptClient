@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
+[Documentation](../globals.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveItem
 

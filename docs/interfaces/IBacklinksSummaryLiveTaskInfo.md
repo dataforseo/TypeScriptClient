@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksSummaryLiveTaskInfo
+[Documentation](../globals.md) / IBacklinksSummaryLiveTaskInfo
 
 # Interface: IBacklinksSummaryLiveTaskInfo
 

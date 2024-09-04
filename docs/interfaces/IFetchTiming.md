@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IFetchTiming
+[Documentation](../globals.md) / IFetchTiming
 
 # Interface: IFetchTiming
 

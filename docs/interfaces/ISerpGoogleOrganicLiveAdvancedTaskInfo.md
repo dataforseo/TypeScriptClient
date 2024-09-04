@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleOrganicLiveAdvancedTaskInfo
+[Documentation](../globals.md) / ISerpGoogleOrganicLiveAdvancedTaskInfo
 
 # Interface: ISerpGoogleOrganicLiveAdvancedTaskInfo
 

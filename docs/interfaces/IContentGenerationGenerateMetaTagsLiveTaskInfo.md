@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationGenerateMetaTagsLiveTaskInfo
+[Documentation](../globals.md) / IContentGenerationGenerateMetaTagsLiveTaskInfo
 
 # Interface: IContentGenerationGenerateMetaTagsLiveTaskInfo
 

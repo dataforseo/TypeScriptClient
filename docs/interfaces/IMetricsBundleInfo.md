@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMetricsBundleInfo
+[Documentation](../globals.md) / IMetricsBundleInfo
 
 # Interface: IMetricsBundleInfo
 

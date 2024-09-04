@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MentionCarouselElement
+[Documentation](../globals.md) / MentionCarouselElement
 
 # Class: MentionCarouselElement
 

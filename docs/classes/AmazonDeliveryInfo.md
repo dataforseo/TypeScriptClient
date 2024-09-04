@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonDeliveryInfo
+[Documentation](../globals.md) / AmazonDeliveryInfo
 
 # Class: AmazonDeliveryInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageForceStopTaskInfo
+[Documentation](../globals.md) / OnPageForceStopTaskInfo
 
 # Class: OnPageForceStopTaskInfo
 

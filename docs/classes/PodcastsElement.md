@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PodcastsElement
+[Documentation](../globals.md) / PodcastsElement
 
 # Class: PodcastsElement
 

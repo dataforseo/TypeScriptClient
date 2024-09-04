@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseResponseTaskInfo
+[Documentation](../globals.md) / BaseResponseTaskInfo
 
 # Class: BaseResponseTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleMapsTaskPostTaskInfo
+[Documentation](../globals.md) / SerpGoogleMapsTaskPostTaskInfo
 
 # Class: SerpGoogleMapsTaskPostTaskInfo
 

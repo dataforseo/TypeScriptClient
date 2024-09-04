@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksIdListRequestInfo
+[Documentation](../globals.md) / BacklinksIdListRequestInfo
 
 # Class: BacklinksIdListRequestInfo
 

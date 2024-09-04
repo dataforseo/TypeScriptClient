@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
+[Documentation](../globals.md) / IContentAnalysisCategoryTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisCategoryTrendsLiveRequestInfo
 

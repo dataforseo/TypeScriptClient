@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleTrendsQueriesListElementItem
+[Documentation](../globals.md) / GoogleTrendsQueriesListElementItem
 
 # Class: GoogleTrendsQueriesListElementItem
 

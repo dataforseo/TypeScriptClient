@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PopularProductsElement
+[Documentation](../globals.md) / PopularProductsElement
 
 # Class: PopularProductsElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseTaskGetJsonResponseInfo
+[Documentation](../globals.md) / IOnPageLighthouseTaskGetJsonResponseInfo
 
 # Interface: IOnPageLighthouseTaskGetJsonResponseInfo
 

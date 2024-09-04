@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixBacklinksLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixBacklinksLimitsRatesDataInfo
 
 # Class: AppendixBacklinksLimitsRatesDataInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 

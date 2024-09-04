@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / StylesheetResourceElementItem
+[Documentation](../globals.md) / StylesheetResourceElementItem
 
 # Class: StylesheetResourceElementItem
 

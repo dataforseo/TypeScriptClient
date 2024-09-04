@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseTasksReadyResultInfo
+[Documentation](../globals.md) / OnPageLighthouseTasksReadyResultInfo
 
 # Class: OnPageLighthouseTasksReadyResultInfo
 

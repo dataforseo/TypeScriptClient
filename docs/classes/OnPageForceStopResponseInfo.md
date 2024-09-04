@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageForceStopResponseInfo
+[Documentation](../globals.md) / OnPageForceStopResponseInfo
 
 # Class: OnPageForceStopResponseInfo
 

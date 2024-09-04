@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationTextSummaryLiveResultInfo
+[Documentation](../globals.md) / IContentGenerationTextSummaryLiveResultInfo
 
 # Interface: IContentGenerationTextSummaryLiveResultInfo
 

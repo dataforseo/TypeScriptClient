@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RankedSerpElement
+[Documentation](../globals.md) / RankedSerpElement
 
 # Class: RankedSerpElement
 

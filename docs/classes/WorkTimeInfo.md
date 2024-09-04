@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / WorkTimeInfo
+[Documentation](../globals.md) / WorkTimeInfo
 
 # Class: WorkTimeInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYahooOrganicTasksReadyResultInfo
+[Documentation](../globals.md) / ISerpYahooOrganicTasksReadyResultInfo
 
 # Interface: ISerpYahooOrganicTasksReadyResultInfo
 

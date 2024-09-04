@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeLocationsCountryTaskInfo
+[Documentation](../globals.md) / ISerpYoutubeLocationsCountryTaskInfo
 
 # Interface: ISerpYoutubeLocationsCountryTaskInfo
 

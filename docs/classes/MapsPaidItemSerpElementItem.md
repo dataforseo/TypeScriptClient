@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MapsPaidItemSerpElementItem
+[Documentation](../globals.md) / MapsPaidItemSerpElementItem
 
 # Class: MapsPaidItemSerpElementItem
 

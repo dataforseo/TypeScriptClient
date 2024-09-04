@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RefineProductsElement
+[Documentation](../globals.md) / RefineProductsElement
 
 # Class: RefineProductsElement
 

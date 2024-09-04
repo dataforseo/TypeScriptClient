@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CoursesElement
+[Documentation](../globals.md) / CoursesElement
 
 # Class: CoursesElement
 

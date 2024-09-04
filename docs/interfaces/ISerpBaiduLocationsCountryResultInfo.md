@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBaiduLocationsCountryResultInfo
+[Documentation](../globals.md) / ISerpBaiduLocationsCountryResultInfo
 
 # Interface: ISerpBaiduLocationsCountryResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageAvailableFiltersTaskInfo
+[Documentation](../globals.md) / OnPageAvailableFiltersTaskInfo
 
 # Class: OnPageAvailableFiltersTaskInfo
 

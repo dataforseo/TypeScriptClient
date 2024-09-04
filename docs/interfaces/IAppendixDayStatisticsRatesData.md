@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixDayStatisticsRatesData
+[Documentation](../globals.md) / IAppendixDayStatisticsRatesData
 
 # Interface: IAppendixDayStatisticsRatesData
 

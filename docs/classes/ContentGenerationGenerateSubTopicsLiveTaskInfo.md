@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationGenerateSubTopicsLiveTaskInfo
+[Documentation](../globals.md) / ContentGenerationGenerateSubTopicsLiveTaskInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsErrorsResponseInfo
+[Documentation](../globals.md) / IDomainAnalyticsErrorsResponseInfo
 
 # Interface: IDomainAnalyticsErrorsResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Table
+[Documentation](../globals.md) / Table
 
 # Class: Table
 

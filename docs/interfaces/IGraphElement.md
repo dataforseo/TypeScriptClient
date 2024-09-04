@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGraphElement
+[Documentation](../globals.md) / IGraphElement
 
 # Interface: IGraphElement
 

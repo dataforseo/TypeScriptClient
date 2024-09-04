@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantAmazonLanguagesTaskInfo
+[Documentation](../globals.md) / IMerchantAmazonLanguagesTaskInfo
 
 # Interface: IMerchantAmazonLanguagesTaskInfo
 

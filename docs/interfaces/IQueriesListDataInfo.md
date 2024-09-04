@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IQueriesListDataInfo
+[Documentation](../globals.md) / IQueriesListDataInfo
 
 # Interface: IQueriesListDataInfo
 

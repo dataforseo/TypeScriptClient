@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ScholarlyArticlesElement
+[Documentation](../globals.md) / ScholarlyArticlesElement
 
 # Class: ScholarlyArticlesElement
 

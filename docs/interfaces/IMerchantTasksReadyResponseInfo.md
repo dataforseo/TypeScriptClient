@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantTasksReadyResponseInfo
+[Documentation](../globals.md) / IMerchantTasksReadyResponseInfo
 
 # Interface: IMerchantTasksReadyResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYahooLocationsResultInfo
+[Documentation](../globals.md) / ISerpYahooLocationsResultInfo
 
 # Interface: ISerpYahooLocationsResultInfo
 

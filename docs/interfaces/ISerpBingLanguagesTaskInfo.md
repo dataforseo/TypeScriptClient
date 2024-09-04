@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLanguagesTaskInfo
+[Documentation](../globals.md) / ISerpBingLanguagesTaskInfo
 
 # Interface: ISerpBingLanguagesTaskInfo
 

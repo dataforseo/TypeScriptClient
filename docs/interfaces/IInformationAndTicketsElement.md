@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IInformationAndTicketsElement
+[Documentation](../globals.md) / IInformationAndTicketsElement
 
 # Interface: IInformationAndTicketsElement
 

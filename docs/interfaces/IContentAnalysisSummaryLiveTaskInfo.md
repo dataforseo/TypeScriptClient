@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisSummaryLiveTaskInfo
+[Documentation](../globals.md) / IContentAnalysisSummaryLiveTaskInfo
 
 # Interface: IContentAnalysisSummaryLiveTaskInfo
 

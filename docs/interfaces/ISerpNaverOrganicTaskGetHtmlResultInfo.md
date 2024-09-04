@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpNaverOrganicTaskGetHtmlResultInfo
+[Documentation](../globals.md) / ISerpNaverOrganicTaskGetHtmlResultInfo
 
 # Interface: ISerpNaverOrganicTaskGetHtmlResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataSocialMediaFacebookLiveTaskInfo
+[Documentation](../globals.md) / IBusinessDataSocialMediaFacebookLiveTaskInfo
 
 # Interface: IBusinessDataSocialMediaFacebookLiveTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksIdListTaskInfo
+[Documentation](../globals.md) / IBacklinksIdListTaskInfo
 
 # Interface: IBacklinksIdListTaskInfo
 

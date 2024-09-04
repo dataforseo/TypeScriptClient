@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMicrodataInspectionInfo
+[Documentation](../globals.md) / IMicrodataInspectionInfo
 
 # Interface: IMicrodataInspectionInfo
 

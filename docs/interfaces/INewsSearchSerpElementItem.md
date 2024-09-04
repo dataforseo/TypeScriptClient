@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / INewsSearchSerpElementItem
+[Documentation](../globals.md) / INewsSearchSerpElementItem
 
 # Interface: INewsSearchSerpElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo
+[Documentation](../globals.md) / KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo
 
 # Class: KeywordsDataClickstreamDataLocationsAndLanguagesTaskInfo
 

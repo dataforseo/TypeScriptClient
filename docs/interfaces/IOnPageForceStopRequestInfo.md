@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageForceStopRequestInfo
+[Documentation](../globals.md) / IOnPageForceStopRequestInfo
 
 # Interface: IOnPageForceStopRequestInfo
 

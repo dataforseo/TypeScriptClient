@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelsPackDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / HotelsPackDataforseoLabsSerpElementItem
 
 # Class: HotelsPackDataforseoLabsSerpElementItem
 

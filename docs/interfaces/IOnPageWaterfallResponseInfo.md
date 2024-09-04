@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageWaterfallResponseInfo
+[Documentation](../globals.md) / IOnPageWaterfallResponseInfo
 
 # Interface: IOnPageWaterfallResponseInfo
 

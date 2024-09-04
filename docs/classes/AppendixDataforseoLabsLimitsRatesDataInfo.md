@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixDataforseoLabsLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixDataforseoLabsLimitsRatesDataInfo
 
 # Class: AppendixDataforseoLabsLimitsRatesDataInfo
 

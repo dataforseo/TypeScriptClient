@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleBulkAppMetricsLiveResponseInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleBulkAppMetricsLiveResponseInfo
 
 # Interface: IDataforseoLabsGoogleBulkAppMetricsLiveResponseInfo
 

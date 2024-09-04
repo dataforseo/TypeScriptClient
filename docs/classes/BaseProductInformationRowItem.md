@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseProductInformationRowItem
+[Documentation](../globals.md) / BaseProductInformationRowItem
 
 # Class: BaseProductInformationRowItem
 

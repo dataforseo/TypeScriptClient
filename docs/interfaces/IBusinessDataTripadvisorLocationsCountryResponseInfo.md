@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTripadvisorLocationsCountryResponseInfo
+[Documentation](../globals.md) / IBusinessDataTripadvisorLocationsCountryResponseInfo
 
 # Interface: IBusinessDataTripadvisorLocationsCountryResponseInfo
 

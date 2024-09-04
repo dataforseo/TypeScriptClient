@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixBusinessDataGoogleInfo
+[Documentation](../globals.md) / IAppendixBusinessDataGoogleInfo
 
 # Interface: IAppendixBusinessDataGoogleInfo
 

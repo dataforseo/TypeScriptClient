@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppReviewsTaskPostTaskInfo
+[Documentation](../globals.md) / IAppDataAppleAppReviewsTaskPostTaskInfo
 
 # Interface: IAppDataAppleAppReviewsTaskPostTaskInfo
 

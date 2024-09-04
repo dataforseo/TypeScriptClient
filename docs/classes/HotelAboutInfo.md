@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelAboutInfo
+[Documentation](../globals.md) / HotelAboutInfo
 
 # Class: HotelAboutInfo
 

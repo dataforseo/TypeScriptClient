@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBaiduOrganicTaskPostResponseInfo
+[Documentation](../globals.md) / ISerpBaiduOrganicTaskPostResponseInfo
 
 # Interface: ISerpBaiduOrganicTaskPostResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IJobsElement
+[Documentation](../globals.md) / IJobsElement
 
 # Interface: IJobsElement
 

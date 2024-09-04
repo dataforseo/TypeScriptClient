@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisAvailableFiltersResponseInfo
+[Documentation](../globals.md) / IContentAnalysisAvailableFiltersResponseInfo
 
 # Interface: IContentAnalysisAvailableFiltersResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMathSolverSerpElementItem
+[Documentation](../globals.md) / IMathSolverSerpElementItem
 
 # Interface: IMathSolverSerpElementItem
 

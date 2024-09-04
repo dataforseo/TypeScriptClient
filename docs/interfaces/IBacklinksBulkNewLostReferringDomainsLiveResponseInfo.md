@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksBulkNewLostReferringDomainsLiveResponseInfo
+[Documentation](../globals.md) / IBacklinksBulkNewLostReferringDomainsLiveResponseInfo
 
 # Interface: IBacklinksBulkNewLostReferringDomainsLiveResponseInfo
 

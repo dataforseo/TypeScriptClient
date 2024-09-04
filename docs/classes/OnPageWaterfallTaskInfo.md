@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageWaterfallTaskInfo
+[Documentation](../globals.md) / OnPageWaterfallTaskInfo
 
 # Class: OnPageWaterfallTaskInfo
 

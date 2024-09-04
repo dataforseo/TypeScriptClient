@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TopSightsElement
+[Documentation](../globals.md) / TopSightsElement
 
 # Class: TopSightsElement
 

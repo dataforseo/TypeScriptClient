@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveTaskInfo
 

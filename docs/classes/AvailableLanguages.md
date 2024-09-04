@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AvailableLanguages
+[Documentation](../globals.md) / AvailableLanguages
 
 # Class: AvailableLanguages
 

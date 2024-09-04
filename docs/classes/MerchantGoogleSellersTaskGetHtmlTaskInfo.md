@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleSellersTaskGetHtmlTaskInfo
+[Documentation](../globals.md) / MerchantGoogleSellersTaskGetHtmlTaskInfo
 
 # Class: MerchantGoogleSellersTaskGetHtmlTaskInfo
 

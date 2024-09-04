@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ApiException
+[Documentation](../globals.md) / ApiException
 
 # Class: ApiException
 

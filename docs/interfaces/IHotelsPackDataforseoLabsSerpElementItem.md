@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHotelsPackDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IHotelsPackDataforseoLabsSerpElementItem
 
 # Interface: IHotelsPackDataforseoLabsSerpElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITargetInfo
+[Documentation](../globals.md) / ITargetInfo
 
 # Interface: ITargetInfo
 

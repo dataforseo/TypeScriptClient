@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleCategoriesTaskInfo
+[Documentation](../globals.md) / IAppDataAppleCategoriesTaskInfo
 
 # Interface: IAppDataAppleCategoriesTaskInfo
 

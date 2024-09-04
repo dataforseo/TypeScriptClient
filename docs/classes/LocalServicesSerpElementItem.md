@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalServicesSerpElementItem
+[Documentation](../globals.md) / LocalServicesSerpElementItem
 
 # Class: LocalServicesSerpElementItem
 

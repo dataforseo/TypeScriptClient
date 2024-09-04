@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleFlightsElement
+[Documentation](../globals.md) / GoogleFlightsElement
 
 # Class: GoogleFlightsElement
 

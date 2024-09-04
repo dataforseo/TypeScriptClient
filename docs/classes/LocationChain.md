@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocationChain
+[Documentation](../globals.md) / LocationChain
 
 # Class: LocationChain
 

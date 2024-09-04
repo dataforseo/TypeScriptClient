@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ExploreBrandsSerpElementItem
+[Documentation](../globals.md) / ExploreBrandsSerpElementItem
 
 # Class: ExploreBrandsSerpElementItem
 

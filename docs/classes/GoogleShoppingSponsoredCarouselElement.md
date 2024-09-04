@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleShoppingSponsoredCarouselElement
+[Documentation](../globals.md) / GoogleShoppingSponsoredCarouselElement
 
 # Class: GoogleShoppingSponsoredCarouselElement
 

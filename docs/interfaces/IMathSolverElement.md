@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMathSolverElement
+[Documentation](../globals.md) / IMathSolverElement
 
 # Interface: IMathSolverElement
 

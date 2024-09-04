@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageMicrodataItem
+[Documentation](../globals.md) / OnPageMicrodataItem
 
 # Class: OnPageMicrodataItem
 

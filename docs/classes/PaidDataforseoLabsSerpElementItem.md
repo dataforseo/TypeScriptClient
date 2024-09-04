@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PaidDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / PaidDataforseoLabsSerpElementItem
 
 # Class: PaidDataforseoLabsSerpElementItem
 

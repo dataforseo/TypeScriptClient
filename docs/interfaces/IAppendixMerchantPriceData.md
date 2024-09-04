@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixMerchantPriceData
+[Documentation](../globals.md) / IAppendixMerchantPriceData
 
 # Interface: IAppendixMerchantPriceData
 

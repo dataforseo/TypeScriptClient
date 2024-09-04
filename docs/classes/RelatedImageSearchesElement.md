@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RelatedImageSearchesElement
+[Documentation](../globals.md) / RelatedImageSearchesElement
 
 # Class: RelatedImageSearchesElement
 

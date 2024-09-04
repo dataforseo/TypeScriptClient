@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MathSolverDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / MathSolverDataforseoLabsSerpElementItem
 
 # Class: MathSolverDataforseoLabsSerpElementItem
 

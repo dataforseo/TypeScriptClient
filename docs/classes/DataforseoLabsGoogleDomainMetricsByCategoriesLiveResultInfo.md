@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
 
 # Class: DataforseoLabsGoogleDomainMetricsByCategoriesLiveResultInfo
 

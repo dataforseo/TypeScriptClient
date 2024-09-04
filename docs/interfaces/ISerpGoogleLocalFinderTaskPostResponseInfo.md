@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocalFinderTaskPostResponseInfo
+[Documentation](../globals.md) / ISerpGoogleLocalFinderTaskPostResponseInfo
 
 # Interface: ISerpGoogleLocalFinderTaskPostResponseInfo
 

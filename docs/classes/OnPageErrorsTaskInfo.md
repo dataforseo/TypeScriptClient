@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageErrorsTaskInfo
+[Documentation](../globals.md) / OnPageErrorsTaskInfo
 
 # Class: OnPageErrorsTaskInfo
 

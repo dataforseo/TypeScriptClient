@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBaiduLocationsCountryTaskInfo
+[Documentation](../globals.md) / ISerpBaiduLocationsCountryTaskInfo
 
 # Interface: ISerpBaiduLocationsCountryTaskInfo
 

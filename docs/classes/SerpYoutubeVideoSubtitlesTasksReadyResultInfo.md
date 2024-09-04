@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTasksReadyResultInfo
+[Documentation](../globals.md) / SerpYoutubeVideoSubtitlesTasksReadyResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTasksReadyResultInfo
 

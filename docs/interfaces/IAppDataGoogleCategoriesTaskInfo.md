@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleCategoriesTaskInfo
+[Documentation](../globals.md) / IAppDataGoogleCategoriesTaskInfo
 
 # Interface: IAppDataGoogleCategoriesTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseResponseInfo
+[Documentation](../globals.md) / IBaseResponseInfo
 
 # Interface: IBaseResponseInfo
 

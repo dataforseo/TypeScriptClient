@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleLocationsResultInfo
+[Documentation](../globals.md) / MerchantGoogleLocationsResultInfo
 
 # Class: MerchantGoogleLocationsResultInfo
 

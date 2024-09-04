@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
+[Documentation](../globals.md) / IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 
 # Interface: IGoogleShoppingSponsoredCarouselMerchantSerpElementItem
 

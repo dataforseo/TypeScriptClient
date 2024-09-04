@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsCategoriesResultInfo
+[Documentation](../globals.md) / IDataforseoLabsCategoriesResultInfo
 
 # Interface: IDataforseoLabsCategoriesResultInfo
 

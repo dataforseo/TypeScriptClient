@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleProductInfoTasksReadyResultInfo
+[Documentation](../globals.md) / MerchantGoogleProductInfoTasksReadyResultInfo
 
 # Class: MerchantGoogleProductInfoTasksReadyResultInfo
 

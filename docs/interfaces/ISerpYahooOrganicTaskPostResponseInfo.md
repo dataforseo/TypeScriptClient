@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYahooOrganicTaskPostResponseInfo
+[Documentation](../globals.md) / ISerpYahooOrganicTaskPostResponseInfo
 
 # Interface: ISerpYahooOrganicTaskPostResponseInfo
 

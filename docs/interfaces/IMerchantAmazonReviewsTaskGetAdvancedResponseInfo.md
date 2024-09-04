@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantAmazonReviewsTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / IMerchantAmazonReviewsTaskGetAdvancedResponseInfo
 
 # Interface: IMerchantAmazonReviewsTaskGetAdvancedResponseInfo
 

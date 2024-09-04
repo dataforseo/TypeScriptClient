@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleLocationsTaskInfo
+[Documentation](../globals.md) / AppDataAppleLocationsTaskInfo
 
 # Class: AppDataAppleLocationsTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
+[Documentation](../globals.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
 
 # Class: BusinessDataSocialMediaPinterestLiveRequestInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MultiCarouselElement
+[Documentation](../globals.md) / MultiCarouselElement
 
 # Class: MultiCarouselElement
 

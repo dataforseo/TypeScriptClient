@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelAmenityItemInfo
+[Documentation](../globals.md) / HotelAmenityItemInfo
 
 # Class: HotelAmenityItemInfo
 

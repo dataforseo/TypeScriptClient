@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleReviewsTaskGetTaskInfo
+[Documentation](../globals.md) / IBusinessDataGoogleReviewsTaskGetTaskInfo
 
 # Interface: IBusinessDataGoogleReviewsTaskGetTaskInfo
 

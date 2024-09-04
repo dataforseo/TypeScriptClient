@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleEventsLiveAdvancedRequestInfo
+[Documentation](../globals.md) / SerpGoogleEventsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleEventsLiveAdvancedRequestInfo
 

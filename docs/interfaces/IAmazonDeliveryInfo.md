@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonDeliveryInfo
+[Documentation](../globals.md) / IAmazonDeliveryInfo
 
 # Interface: IAmazonDeliveryInfo
 

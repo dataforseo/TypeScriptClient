@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataErrorsResponseInfo
+[Documentation](../globals.md) / IBusinessDataErrorsResponseInfo
 
 # Interface: IBusinessDataErrorsResponseInfo
 

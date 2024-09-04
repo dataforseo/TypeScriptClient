@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTrustpilotSearchTaskPostTaskInfo
+[Documentation](../globals.md) / IBusinessDataTrustpilotSearchTaskPostTaskInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskPostTaskInfo
 

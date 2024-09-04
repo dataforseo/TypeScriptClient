@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 

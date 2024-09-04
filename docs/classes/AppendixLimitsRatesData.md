@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixLimitsRatesData
+[Documentation](../globals.md) / AppendixLimitsRatesData
 
 # Class: AppendixLimitsRatesData
 

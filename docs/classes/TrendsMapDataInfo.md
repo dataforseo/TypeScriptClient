@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TrendsMapDataInfo
+[Documentation](../globals.md) / TrendsMapDataInfo
 
 # Class: TrendsMapDataInfo
 

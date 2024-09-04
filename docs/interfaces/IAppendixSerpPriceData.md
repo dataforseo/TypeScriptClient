@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixSerpPriceData
+[Documentation](../globals.md) / IAppendixSerpPriceData
 
 # Interface: IAppendixSerpPriceData
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleLanguagesResultInfo
+[Documentation](../globals.md) / MerchantGoogleLanguagesResultInfo
 
 # Class: MerchantGoogleLanguagesResultInfo
 

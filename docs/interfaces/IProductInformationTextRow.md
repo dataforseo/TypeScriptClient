@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductInformationTextRow
+[Documentation](../globals.md) / IProductInformationTextRow
 
 # Interface: IProductInformationTextRow
 

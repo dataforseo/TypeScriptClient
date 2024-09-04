@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AboutThisResultElement
+[Documentation](../globals.md) / AboutThisResultElement
 
 # Class: AboutThisResultElement
 

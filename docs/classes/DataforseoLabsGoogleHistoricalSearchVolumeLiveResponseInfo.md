@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveResponseInfo
 

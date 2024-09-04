@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleDatasetInfoTaskPostTaskInfo
+[Documentation](../globals.md) / SerpGoogleDatasetInfoTaskPostTaskInfo
 
 # Class: SerpGoogleDatasetInfoTaskPostTaskInfo
 

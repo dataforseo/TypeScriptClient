@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ScholarlyArticlesDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / ScholarlyArticlesDataforseoLabsSerpElementItem
 
 # Class: ScholarlyArticlesDataforseoLabsSerpElementItem
 

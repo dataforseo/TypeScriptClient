@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooOrganicTasksReadyTaskInfo
+[Documentation](../globals.md) / SerpYahooOrganicTasksReadyTaskInfo
 
 # Class: SerpYahooOrganicTasksReadyTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDatasetDescription
+[Documentation](../globals.md) / IDatasetDescription
 
 # Interface: IDatasetDescription
 

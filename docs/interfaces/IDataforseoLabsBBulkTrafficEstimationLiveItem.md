@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBBulkTrafficEstimationLiveItem
+[Documentation](../globals.md) / IDataforseoLabsBBulkTrafficEstimationLiveItem
 
 # Interface: IDataforseoLabsBBulkTrafficEstimationLiveItem
 

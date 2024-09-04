@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisLanguagesResponseInfo
+[Documentation](../globals.md) / ContentAnalysisLanguagesResponseInfo
 
 # Class: ContentAnalysisLanguagesResponseInfo
 

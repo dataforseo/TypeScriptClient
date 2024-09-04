@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleLanguagesResultInfo
+[Documentation](../globals.md) / IMerchantGoogleLanguagesResultInfo
 
 # Interface: IMerchantGoogleLanguagesResultInfo
 

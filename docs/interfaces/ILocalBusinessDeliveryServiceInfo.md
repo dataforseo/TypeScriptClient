@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocalBusinessDeliveryServiceInfo
+[Documentation](../globals.md) / ILocalBusinessDeliveryServiceInfo
 
 # Interface: ILocalBusinessDeliveryServiceInfo
 

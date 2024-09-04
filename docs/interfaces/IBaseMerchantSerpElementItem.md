@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseMerchantSerpElementItem
+[Documentation](../globals.md) / IBaseMerchantSerpElementItem
 
 # Interface: IBaseMerchantSerpElementItem
 

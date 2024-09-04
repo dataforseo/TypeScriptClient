@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DemographyItemValueInfo
+[Documentation](../globals.md) / DemographyItemValueInfo
 
 # Class: DemographyItemValueInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationCheckGrammarLanguagesTaskInfo
+[Documentation](../globals.md) / ContentGenerationCheckGrammarLanguagesTaskInfo
 
 # Class: ContentGenerationCheckGrammarLanguagesTaskInfo
 

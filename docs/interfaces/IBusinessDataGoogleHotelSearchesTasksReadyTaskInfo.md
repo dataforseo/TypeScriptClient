@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleHotelSearchesTasksReadyTaskInfo
+[Documentation](../globals.md) / IBusinessDataGoogleHotelSearchesTasksReadyTaskInfo
 
 # Interface: IBusinessDataGoogleHotelSearchesTasksReadyTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo
 
 # Class: AppDataGoogleAppSearchesTaskGetAdvancedTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelsPackElement
+[Documentation](../globals.md) / HotelsPackElement
 
 # Class: HotelsPackElement
 

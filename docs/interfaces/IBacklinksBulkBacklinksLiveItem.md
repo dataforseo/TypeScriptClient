@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksBulkBacklinksLiveItem
+[Documentation](../globals.md) / IBacklinksBulkBacklinksLiveItem
 
 # Interface: IBacklinksBulkBacklinksLiveItem
 

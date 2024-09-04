@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamLanguagesResponseInfo
+[Documentation](../globals.md) / SerpSeznamLanguagesResponseInfo
 
 # Class: SerpSeznamLanguagesResponseInfo
 

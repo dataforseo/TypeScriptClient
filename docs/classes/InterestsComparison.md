@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / InterestsComparison
+[Documentation](../globals.md) / InterestsComparison
 
 # Class: InterestsComparison
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleAppIntersectionLiveTaskInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleAppIntersectionLiveTaskInfo
 
 # Interface: IDataforseoLabsGoogleAppIntersectionLiveTaskInfo
 

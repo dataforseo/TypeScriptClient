@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppSearchesTasksReadyTaskInfo
+[Documentation](../globals.md) / AppDataAppleAppSearchesTasksReadyTaskInfo
 
 # Class: AppDataAppleAppSearchesTasksReadyTaskInfo
 

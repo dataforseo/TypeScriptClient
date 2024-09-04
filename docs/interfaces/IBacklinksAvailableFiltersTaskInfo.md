@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksAvailableFiltersTaskInfo
+[Documentation](../globals.md) / IBacklinksAvailableFiltersTaskInfo
 
 # Interface: IBacklinksAvailableFiltersTaskInfo
 

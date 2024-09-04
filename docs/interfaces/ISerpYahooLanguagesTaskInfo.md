@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYahooLanguagesTaskInfo
+[Documentation](../globals.md) / ISerpYahooLanguagesTaskInfo
 
 # Interface: ISerpYahooLanguagesTaskInfo
 

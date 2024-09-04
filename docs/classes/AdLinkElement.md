@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AdLinkElement
+[Documentation](../globals.md) / AdLinkElement
 
 # Class: AdLinkElement
 

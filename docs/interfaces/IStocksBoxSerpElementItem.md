@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IStocksBoxSerpElementItem
+[Documentation](../globals.md) / IStocksBoxSerpElementItem
 
 # Interface: IStocksBoxSerpElementItem
 

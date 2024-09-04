@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPageTiming
+[Documentation](../globals.md) / IPageTiming
 
 # Interface: IPageTiming
 

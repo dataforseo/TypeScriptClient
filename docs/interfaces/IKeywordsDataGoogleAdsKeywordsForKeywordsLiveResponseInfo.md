@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo
 

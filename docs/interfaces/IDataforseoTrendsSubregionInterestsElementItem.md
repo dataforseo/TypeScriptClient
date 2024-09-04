@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoTrendsSubregionInterestsElementItem
+[Documentation](../globals.md) / IDataforseoTrendsSubregionInterestsElementItem
 
 # Interface: IDataforseoTrendsSubregionInterestsElementItem
 

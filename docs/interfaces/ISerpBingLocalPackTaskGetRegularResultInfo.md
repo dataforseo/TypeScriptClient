@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLocalPackTaskGetRegularResultInfo
+[Documentation](../globals.md) / ISerpBingLocalPackTaskGetRegularResultInfo
 
 # Interface: ISerpBingLocalPackTaskGetRegularResultInfo
 

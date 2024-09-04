@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageResourceIssueItemInfo
+[Documentation](../globals.md) / IOnPageResourceIssueItemInfo
 
 # Interface: IOnPageResourceIssueItemInfo
 

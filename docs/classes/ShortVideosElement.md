@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ShortVideosElement
+[Documentation](../globals.md) / ShortVideosElement
 
 # Class: ShortVideosElement
 

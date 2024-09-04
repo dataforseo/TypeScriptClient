@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixContentAnalysisPriceData
+[Documentation](../globals.md) / IAppendixContentAnalysisPriceData
 
 # Interface: IAppendixContentAnalysisPriceData
 

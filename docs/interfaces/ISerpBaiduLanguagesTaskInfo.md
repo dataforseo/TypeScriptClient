@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBaiduLanguagesTaskInfo
+[Documentation](../globals.md) / ISerpBaiduLanguagesTaskInfo
 
 # Interface: ISerpBaiduLanguagesTaskInfo
 

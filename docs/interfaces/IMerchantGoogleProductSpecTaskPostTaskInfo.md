@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleProductSpecTaskPostTaskInfo
+[Documentation](../globals.md) / IMerchantGoogleProductSpecTaskPostTaskInfo
 
 # Interface: IMerchantGoogleProductSpecTaskPostTaskInfo
 

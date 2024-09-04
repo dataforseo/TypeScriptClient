@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ImagesElement
+[Documentation](../globals.md) / ImagesElement
 
 # Class: ImagesElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsErrorsResponseInfo
+[Documentation](../globals.md) / DataforseoLabsErrorsResponseInfo
 
 # Class: DataforseoLabsErrorsResponseInfo
 

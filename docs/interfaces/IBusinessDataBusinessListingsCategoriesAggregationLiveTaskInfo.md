@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo
+[Documentation](../globals.md) / IBusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo
 
 # Interface: IBusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo
 

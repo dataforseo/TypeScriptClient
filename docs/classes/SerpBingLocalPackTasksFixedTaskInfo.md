@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLocalPackTasksFixedTaskInfo
+[Documentation](../globals.md) / SerpBingLocalPackTasksFixedTaskInfo
 
 # Class: SerpBingLocalPackTasksFixedTaskInfo
 

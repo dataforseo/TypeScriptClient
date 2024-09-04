@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalBusinessOrderLink
+[Documentation](../globals.md) / LocalBusinessOrderLink
 
 # Class: LocalBusinessOrderLink
 

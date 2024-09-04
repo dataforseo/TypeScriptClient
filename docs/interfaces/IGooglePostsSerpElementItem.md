@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGooglePostsSerpElementItem
+[Documentation](../globals.md) / IGooglePostsSerpElementItem
 
 # Interface: IGooglePostsSerpElementItem
 

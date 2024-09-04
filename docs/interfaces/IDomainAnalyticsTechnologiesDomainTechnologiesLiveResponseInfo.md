@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainTechnologiesLiveResponseInfo
 

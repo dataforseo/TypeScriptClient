@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseOnPageResourceItemInfo
+[Documentation](../globals.md) / BaseOnPageResourceItemInfo
 
 # Class: BaseOnPageResourceItemInfo
 

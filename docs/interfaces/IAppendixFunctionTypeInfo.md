@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixFunctionTypeInfo
+[Documentation](../globals.md) / IAppendixFunctionTypeInfo
 
 # Interface: IAppendixFunctionTypeInfo
 

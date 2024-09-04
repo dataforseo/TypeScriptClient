@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleOrganicTasksFixedTaskInfo
+[Documentation](../globals.md) / ISerpGoogleOrganicTasksFixedTaskInfo
 
 # Interface: ISerpGoogleOrganicTasksFixedTaskInfo
 

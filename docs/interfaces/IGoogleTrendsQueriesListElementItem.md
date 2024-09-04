@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleTrendsQueriesListElementItem
+[Documentation](../globals.md) / IGoogleTrendsQueriesListElementItem
 
 # Interface: IGoogleTrendsQueriesListElementItem
 

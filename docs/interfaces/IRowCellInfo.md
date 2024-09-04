@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRowCellInfo
+[Documentation](../globals.md) / IRowCellInfo
 
 # Interface: IRowCellInfo
 

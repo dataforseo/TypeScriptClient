@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleNewsTasksFixedResponseInfo
+[Documentation](../globals.md) / SerpGoogleNewsTasksFixedResponseInfo
 
 # Class: SerpGoogleNewsTasksFixedResponseInfo
 

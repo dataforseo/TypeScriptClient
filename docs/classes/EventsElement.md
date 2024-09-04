@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / EventsElement
+[Documentation](../globals.md) / EventsElement
 
 # Class: EventsElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsIdListTaskInfo
+[Documentation](../globals.md) / DomainAnalyticsIdListTaskInfo
 
 # Class: DomainAnalyticsIdListTaskInfo
 

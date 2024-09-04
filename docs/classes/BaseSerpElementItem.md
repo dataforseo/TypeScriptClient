@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseSerpElementItem
+[Documentation](../globals.md) / BaseSerpElementItem
 
 # Class: BaseSerpElementItem
 

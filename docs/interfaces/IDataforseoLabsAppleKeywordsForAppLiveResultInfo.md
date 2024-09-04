@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 

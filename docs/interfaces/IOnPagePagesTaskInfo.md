@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPagePagesTaskInfo
+[Documentation](../globals.md) / IOnPagePagesTaskInfo
 
 # Interface: IOnPagePagesTaskInfo
 

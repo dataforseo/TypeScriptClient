@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataAttributesInfo
+[Documentation](../globals.md) / IBusinessDataAttributesInfo
 
 # Interface: IBusinessDataAttributesInfo
 

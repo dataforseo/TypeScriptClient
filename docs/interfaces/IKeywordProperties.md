@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordProperties
+[Documentation](../globals.md) / IKeywordProperties
 
 # Interface: IKeywordProperties
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPeriodCovered
+[Documentation](../globals.md) / IPeriodCovered
 
 # Interface: IPeriodCovered
 

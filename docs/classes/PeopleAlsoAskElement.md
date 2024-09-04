@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PeopleAlsoAskElement
+[Documentation](../globals.md) / PeopleAlsoAskElement
 
 # Class: PeopleAlsoAskElement
 

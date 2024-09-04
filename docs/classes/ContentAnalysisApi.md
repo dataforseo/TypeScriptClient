@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisApi
+[Documentation](../globals.md) / ContentAnalysisApi
 
 # Class: ContentAnalysisApi
 

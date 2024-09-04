@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingRankedKeywordsLiveResponseInfo
+[Documentation](../globals.md) / IDataforseoLabsBingRankedKeywordsLiveResponseInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveResponseInfo
 

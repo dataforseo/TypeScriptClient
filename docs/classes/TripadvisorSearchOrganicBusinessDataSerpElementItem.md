@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TripadvisorSearchOrganicBusinessDataSerpElementItem
+[Documentation](../globals.md) / TripadvisorSearchOrganicBusinessDataSerpElementItem
 
 # Class: TripadvisorSearchOrganicBusinessDataSerpElementItem
 

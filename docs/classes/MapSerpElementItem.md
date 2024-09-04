@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MapSerpElementItem
+[Documentation](../globals.md) / MapSerpElementItem
 
 # Class: MapSerpElementItem
 

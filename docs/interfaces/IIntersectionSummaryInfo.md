@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IIntersectionSummaryInfo
+[Documentation](../globals.md) / IIntersectionSummaryInfo
 
 # Interface: IIntersectionSummaryInfo
 

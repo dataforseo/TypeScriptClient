@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SentimentConnotationDistribution
+[Documentation](../globals.md) / SentimentConnotationDistribution
 
 # Class: SentimentConnotationDistribution
 

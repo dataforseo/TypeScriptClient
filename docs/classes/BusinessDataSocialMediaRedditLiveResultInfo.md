@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataSocialMediaRedditLiveResultInfo
+[Documentation](../globals.md) / BusinessDataSocialMediaRedditLiveResultInfo
 
 # Class: BusinessDataSocialMediaRedditLiveResultInfo
 

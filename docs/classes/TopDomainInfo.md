@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TopDomainInfo
+[Documentation](../globals.md) / TopDomainInfo
 
 # Class: TopDomainInfo
 

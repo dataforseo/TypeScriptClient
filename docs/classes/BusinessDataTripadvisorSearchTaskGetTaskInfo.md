@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTripadvisorSearchTaskGetTaskInfo
+[Documentation](../globals.md) / BusinessDataTripadvisorSearchTaskGetTaskInfo
 
 # Class: BusinessDataTripadvisorSearchTaskGetTaskInfo
 

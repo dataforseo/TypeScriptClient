@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppListingsCategoriesResultInfo
+[Documentation](../globals.md) / AppDataAppleAppListingsCategoriesResultInfo
 
 # Class: AppDataAppleAppListingsCategoriesResultInfo
 

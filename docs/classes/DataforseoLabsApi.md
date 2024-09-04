@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsApi
+[Documentation](../globals.md) / DataforseoLabsApi
 
 # Class: DataforseoLabsApi
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ChannelSubscribersCount
+[Documentation](../globals.md) / ChannelSubscribersCount
 
 # Class: ChannelSubscribersCount
 

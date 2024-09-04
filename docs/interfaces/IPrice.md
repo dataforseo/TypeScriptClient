@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPrice
+[Documentation](../globals.md) / IPrice
 
 # Interface: IPrice
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingOrganicTasksReadyResultInfo
+[Documentation](../globals.md) / ISerpBingOrganicTasksReadyResultInfo
 
 # Interface: ISerpBingOrganicTasksReadyResultInfo
 

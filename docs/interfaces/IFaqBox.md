@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IFaqBox
+[Documentation](../globals.md) / IFaqBox
 
 # Interface: IFaqBox
 

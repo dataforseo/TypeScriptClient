@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductConsiderationsExpandedElement
+[Documentation](../globals.md) / ProductConsiderationsExpandedElement
 
 # Class: ProductConsiderationsExpandedElement
 

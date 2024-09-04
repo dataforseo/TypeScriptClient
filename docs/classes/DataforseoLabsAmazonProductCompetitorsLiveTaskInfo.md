@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAmazonProductCompetitorsLiveTaskInfo
+[Documentation](../globals.md) / DataforseoLabsAmazonProductCompetitorsLiveTaskInfo
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveTaskInfo
 

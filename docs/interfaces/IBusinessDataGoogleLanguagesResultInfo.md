@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleLanguagesResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleLanguagesResultInfo
 
 # Interface: IBusinessDataGoogleLanguagesResultInfo
 

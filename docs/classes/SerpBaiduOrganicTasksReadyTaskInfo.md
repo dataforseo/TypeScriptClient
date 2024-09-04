@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduOrganicTasksReadyTaskInfo
+[Documentation](../globals.md) / SerpBaiduOrganicTasksReadyTaskInfo
 
 # Class: SerpBaiduOrganicTasksReadyTaskInfo
 

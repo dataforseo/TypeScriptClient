@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsIdListResponseInfo
+[Documentation](../globals.md) / DomainAnalyticsIdListResponseInfo
 
 # Class: DomainAnalyticsIdListResponseInfo
 

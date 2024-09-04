@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataTasksReadyTaskInfo
+[Documentation](../globals.md) / IAppDataTasksReadyTaskInfo
 
 # Interface: IAppDataTasksReadyTaskInfo
 

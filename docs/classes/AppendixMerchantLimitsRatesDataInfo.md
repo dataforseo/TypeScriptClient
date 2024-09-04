@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixMerchantLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixMerchantLimitsRatesDataInfo
 
 # Class: AppendixMerchantLimitsRatesDataInfo
 

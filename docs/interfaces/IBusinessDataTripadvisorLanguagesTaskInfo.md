@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTripadvisorLanguagesTaskInfo
+[Documentation](../globals.md) / IBusinessDataTripadvisorLanguagesTaskInfo
 
 # Interface: IBusinessDataTripadvisorLanguagesTaskInfo
 

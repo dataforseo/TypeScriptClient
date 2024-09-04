@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PeopleAlsoSearch
+[Documentation](../globals.md) / PeopleAlsoSearch
 
 # Class: PeopleAlsoSearch
 

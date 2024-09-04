@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageNonIndexableResultInfo
+[Documentation](../globals.md) / OnPageNonIndexableResultInfo
 
 # Class: OnPageNonIndexableResultInfo
 

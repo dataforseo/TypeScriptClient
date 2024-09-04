@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleNewsLiveAdvancedTaskInfo
+[Documentation](../globals.md) / ISerpGoogleNewsLiveAdvancedTaskInfo
 
 # Interface: ISerpGoogleNewsLiveAdvancedTaskInfo
 

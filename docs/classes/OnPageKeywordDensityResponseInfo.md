@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageKeywordDensityResponseInfo
+[Documentation](../globals.md) / OnPageKeywordDensityResponseInfo
 
 # Class: OnPageKeywordDensityResponseInfo
 

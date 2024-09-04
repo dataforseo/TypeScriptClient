@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 

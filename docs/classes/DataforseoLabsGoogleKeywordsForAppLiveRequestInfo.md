@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveRequestInfo
 

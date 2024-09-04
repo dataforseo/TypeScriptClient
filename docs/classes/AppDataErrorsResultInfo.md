@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataErrorsResultInfo
+[Documentation](../globals.md) / AppDataErrorsResultInfo
 
 # Class: AppDataErrorsResultInfo
 

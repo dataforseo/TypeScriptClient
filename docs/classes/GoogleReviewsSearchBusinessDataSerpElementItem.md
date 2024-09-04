@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleReviewsSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / GoogleReviewsSearchBusinessDataSerpElementItem
 
 # Class: GoogleReviewsSearchBusinessDataSerpElementItem
 

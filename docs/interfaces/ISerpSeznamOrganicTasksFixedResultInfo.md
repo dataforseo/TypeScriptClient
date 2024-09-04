@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpSeznamOrganicTasksFixedResultInfo
+[Documentation](../globals.md) / ISerpSeznamOrganicTasksFixedResultInfo
 
 # Interface: ISerpSeznamOrganicTasksFixedResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingSearchVolumeTasksReadyResultInfo
+[Documentation](../globals.md) / KeywordsDataBingSearchVolumeTasksReadyResultInfo
 
 # Class: KeywordsDataBingSearchVolumeTasksReadyResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IResourceMetaInfo
+[Documentation](../globals.md) / IResourceMetaInfo
 
 # Interface: IResourceMetaInfo
 

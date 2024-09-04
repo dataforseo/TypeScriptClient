@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduOrganicTaskGetRegularResponseInfo
+[Documentation](../globals.md) / SerpBaiduOrganicTaskGetRegularResponseInfo
 
 # Class: SerpBaiduOrganicTaskGetRegularResponseInfo
 

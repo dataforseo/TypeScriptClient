@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICoursesElement
+[Documentation](../globals.md) / ICoursesElement
 
 # Interface: ICoursesElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppListingsSearchLiveItem
+[Documentation](../globals.md) / IAppDataAppleAppListingsSearchLiveItem
 
 # Interface: IAppDataAppleAppListingsSearchLiveItem
 

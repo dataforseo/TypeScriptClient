@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAddressInfo
+[Documentation](../globals.md) / IAddressInfo
 
 # Interface: IAddressInfo
 

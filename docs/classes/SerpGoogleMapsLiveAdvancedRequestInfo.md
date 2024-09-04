@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleMapsLiveAdvancedRequestInfo
+[Documentation](../globals.md) / SerpGoogleMapsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleMapsLiveAdvancedRequestInfo
 

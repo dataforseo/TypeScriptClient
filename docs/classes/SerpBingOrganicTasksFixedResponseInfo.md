@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingOrganicTasksFixedResponseInfo
+[Documentation](../globals.md) / SerpBingOrganicTasksFixedResponseInfo
 
 # Class: SerpBingOrganicTasksFixedResponseInfo
 

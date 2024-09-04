@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixContentGenerationPriceDataInfo
+[Documentation](../globals.md) / AppendixContentGenerationPriceDataInfo
 
 # Class: AppendixContentGenerationPriceDataInfo
 

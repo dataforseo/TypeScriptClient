@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo
+[Documentation](../globals.md) / BusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveTaskInfo
 

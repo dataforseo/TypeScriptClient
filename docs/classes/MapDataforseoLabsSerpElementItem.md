@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MapDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / MapDataforseoLabsSerpElementItem
 
 # Class: MapDataforseoLabsSerpElementItem
 

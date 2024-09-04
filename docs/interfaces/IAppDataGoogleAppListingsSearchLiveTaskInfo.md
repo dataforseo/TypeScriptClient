@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppListingsSearchLiveTaskInfo
+[Documentation](../globals.md) / IAppDataGoogleAppListingsSearchLiveTaskInfo
 
 # Interface: IAppDataGoogleAppListingsSearchLiveTaskInfo
 

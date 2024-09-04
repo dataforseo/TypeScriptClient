@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleMapsLiveAdvancedRequestInfo
+[Documentation](../globals.md) / ISerpGoogleMapsLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleMapsLiveAdvancedRequestInfo
 

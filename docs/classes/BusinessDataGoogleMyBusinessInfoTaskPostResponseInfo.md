@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo
+[Documentation](../globals.md) / BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo
 
 # Class: BusinessDataGoogleMyBusinessInfoTaskPostResponseInfo
 

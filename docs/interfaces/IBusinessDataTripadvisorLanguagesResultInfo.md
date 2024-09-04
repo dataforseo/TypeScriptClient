@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTripadvisorLanguagesResultInfo
+[Documentation](../globals.md) / IBusinessDataTripadvisorLanguagesResultInfo
 
 # Interface: IBusinessDataTripadvisorLanguagesResultInfo
 

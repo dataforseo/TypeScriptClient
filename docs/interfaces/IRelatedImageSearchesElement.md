@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRelatedImageSearchesElement
+[Documentation](../globals.md) / IRelatedImageSearchesElement
 
 # Interface: IRelatedImageSearchesElement
 

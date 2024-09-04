@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixClickstreamDataKeywordsDataPriceData
+[Documentation](../globals.md) / IAppendixClickstreamDataKeywordsDataPriceData
 
 # Interface: IAppendixClickstreamDataKeywordsDataPriceData
 

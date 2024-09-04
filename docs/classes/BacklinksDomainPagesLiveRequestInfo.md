@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksDomainPagesLiveRequestInfo
+[Documentation](../globals.md) / BacklinksDomainPagesLiveRequestInfo
 
 # Class: BacklinksDomainPagesLiveRequestInfo
 

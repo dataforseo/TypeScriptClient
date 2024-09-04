@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreTaskGetTaskInfo
+[Documentation](../globals.md) / KeywordsDataGoogleTrendsExploreTaskGetTaskInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetTaskInfo
 

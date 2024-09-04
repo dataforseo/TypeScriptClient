@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILastModified
+[Documentation](../globals.md) / ILastModified
 
 # Interface: ILastModified
 

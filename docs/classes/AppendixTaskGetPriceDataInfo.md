@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixTaskGetPriceDataInfo
+[Documentation](../globals.md) / AppendixTaskGetPriceDataInfo
 
 # Class: AppendixTaskGetPriceDataInfo
 

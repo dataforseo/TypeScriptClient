@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleLanguagesTaskInfo
+[Documentation](../globals.md) / IAppDataGoogleLanguagesTaskInfo
 
 # Interface: IAppDataGoogleLanguagesTaskInfo
 

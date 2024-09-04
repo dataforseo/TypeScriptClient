@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelSearchesLiveRequestInfo
+[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesLiveRequestInfo
 
 # Class: BusinessDataGoogleHotelSearchesLiveRequestInfo
 

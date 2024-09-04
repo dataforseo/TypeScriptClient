@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonProductNewerModelInfo
+[Documentation](../globals.md) / AmazonProductNewerModelInfo
 
 # Class: AmazonProductNewerModelInfo
 

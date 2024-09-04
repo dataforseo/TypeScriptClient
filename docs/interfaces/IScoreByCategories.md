@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IScoreByCategories
+[Documentation](../globals.md) / IScoreByCategories
 
 # Interface: IScoreByCategories
 

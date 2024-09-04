@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / FetchTiming
+[Documentation](../globals.md) / FetchTiming
 
 # Class: FetchTiming
 

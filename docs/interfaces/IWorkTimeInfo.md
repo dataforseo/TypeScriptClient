@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IWorkTimeInfo
+[Documentation](../globals.md) / IWorkTimeInfo
 
 # Interface: IWorkTimeInfo
 

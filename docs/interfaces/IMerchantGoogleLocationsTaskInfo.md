@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleLocationsTaskInfo
+[Documentation](../globals.md) / IMerchantGoogleLocationsTaskInfo
 
 # Interface: IMerchantGoogleLocationsTaskInfo
 

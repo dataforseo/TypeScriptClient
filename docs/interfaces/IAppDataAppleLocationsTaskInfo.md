@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleLocationsTaskInfo
+[Documentation](../globals.md) / IAppDataAppleLocationsTaskInfo
 
 # Interface: IAppDataAppleLocationsTaskInfo
 

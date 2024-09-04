@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GpsCoordinatesLocationInfo
+[Documentation](../globals.md) / GpsCoordinatesLocationInfo
 
 # Class: GpsCoordinatesLocationInfo
 

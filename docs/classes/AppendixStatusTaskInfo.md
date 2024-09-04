@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixStatusTaskInfo
+[Documentation](../globals.md) / AppendixStatusTaskInfo
 
 # Class: AppendixStatusTaskInfo
 

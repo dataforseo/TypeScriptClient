@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphHotelsBookingItemSerpElementItem
+[Documentation](../globals.md) / IKnowledgeGraphHotelsBookingItemSerpElementItem
 
 # Interface: IKnowledgeGraphHotelsBookingItemSerpElementItem
 

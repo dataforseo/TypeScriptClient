@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOtherSitesReviewsInfo
+[Documentation](../globals.md) / IOtherSitesReviewsInfo
 
 # Interface: IOtherSitesReviewsInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductInformationImageRow
+[Documentation](../globals.md) / ProductInformationImageRow
 
 # Class: ProductInformationImageRow
 

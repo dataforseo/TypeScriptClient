@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICountryDistribution
+[Documentation](../globals.md) / ICountryDistribution
 
 # Interface: ICountryDistribution
 

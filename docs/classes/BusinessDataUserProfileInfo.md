@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataUserProfileInfo
+[Documentation](../globals.md) / BusinessDataUserProfileInfo
 
 # Class: BusinessDataUserProfileInfo
 

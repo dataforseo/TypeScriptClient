@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMultiCarouselDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IMultiCarouselDataforseoLabsSerpElementItem
 
 # Interface: IMultiCarouselDataforseoLabsSerpElementItem
 

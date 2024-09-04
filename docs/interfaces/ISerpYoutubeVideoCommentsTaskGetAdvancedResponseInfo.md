@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo
 
 # Interface: ISerpYoutubeVideoCommentsTaskGetAdvancedResponseInfo
 

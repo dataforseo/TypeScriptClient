@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / StocksBoxDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / StocksBoxDataforseoLabsSerpElementItem
 
 # Class: StocksBoxDataforseoLabsSerpElementItem
 

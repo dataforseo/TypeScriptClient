@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 

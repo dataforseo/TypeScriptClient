@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPageMetaInfo
+[Documentation](../globals.md) / IPageMetaInfo
 
 # Interface: IPageMetaInfo
 

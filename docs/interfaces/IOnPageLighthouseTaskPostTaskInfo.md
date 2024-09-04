@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseTaskPostTaskInfo
+[Documentation](../globals.md) / IOnPageLighthouseTaskPostTaskInfo
 
 # Interface: IOnPageLighthouseTaskPostTaskInfo
 

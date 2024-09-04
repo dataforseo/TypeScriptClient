@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisLanguagesTaskInfo
+[Documentation](../globals.md) / ContentAnalysisLanguagesTaskInfo
 
 # Class: ContentAnalysisLanguagesTaskInfo
 

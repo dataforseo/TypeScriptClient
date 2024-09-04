@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 

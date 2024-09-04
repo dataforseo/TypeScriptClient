@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageDuplicateTagsResponseInfo
+[Documentation](../globals.md) / IOnPageDuplicateTagsResponseInfo
 
 # Interface: IOnPageDuplicateTagsResponseInfo
 

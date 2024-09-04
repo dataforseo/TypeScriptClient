@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 

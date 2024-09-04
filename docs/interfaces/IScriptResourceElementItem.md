@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IScriptResourceElementItem
+[Documentation](../globals.md) / IScriptResourceElementItem
 
 # Interface: IScriptResourceElementItem
 

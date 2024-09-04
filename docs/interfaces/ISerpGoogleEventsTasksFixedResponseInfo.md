@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleEventsTasksFixedResponseInfo
+[Documentation](../globals.md) / ISerpGoogleEventsTasksFixedResponseInfo
 
 # Interface: ISerpGoogleEventsTasksFixedResponseInfo
 

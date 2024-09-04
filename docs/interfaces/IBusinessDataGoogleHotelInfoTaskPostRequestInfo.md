@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleHotelInfoTaskPostRequestInfo
+[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoTaskPostRequestInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTaskPostRequestInfo
 

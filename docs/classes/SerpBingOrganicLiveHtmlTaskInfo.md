@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingOrganicLiveHtmlTaskInfo
+[Documentation](../globals.md) / SerpBingOrganicLiveHtmlTaskInfo
 
 # Class: SerpBingOrganicLiveHtmlTaskInfo
 

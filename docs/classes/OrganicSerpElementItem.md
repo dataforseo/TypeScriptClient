@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OrganicSerpElementItem
+[Documentation](../globals.md) / OrganicSerpElementItem
 
 # Class: OrganicSerpElementItem
 

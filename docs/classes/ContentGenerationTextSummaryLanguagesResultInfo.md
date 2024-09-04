@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationTextSummaryLanguagesResultInfo
+[Documentation](../globals.md) / ContentGenerationTextSummaryLanguagesResultInfo
 
 # Class: ContentGenerationTextSummaryLanguagesResultInfo
 

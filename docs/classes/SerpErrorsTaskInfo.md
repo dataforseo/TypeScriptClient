@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpErrorsTaskInfo
+[Documentation](../globals.md) / SerpErrorsTaskInfo
 
 # Class: SerpErrorsTaskInfo
 

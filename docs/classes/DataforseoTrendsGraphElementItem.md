@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoTrendsGraphElementItem
+[Documentation](../globals.md) / DataforseoTrendsGraphElementItem
 
 # Class: DataforseoTrendsGraphElementItem
 

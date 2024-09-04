@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduOrganicTasksFixedResponseInfo
+[Documentation](../globals.md) / SerpBaiduOrganicTasksFixedResponseInfo
 
 # Class: SerpBaiduOrganicTasksFixedResponseInfo
 

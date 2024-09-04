@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantIdListResponseInfo
+[Documentation](../globals.md) / MerchantIdListResponseInfo
 
 # Class: MerchantIdListResponseInfo
 

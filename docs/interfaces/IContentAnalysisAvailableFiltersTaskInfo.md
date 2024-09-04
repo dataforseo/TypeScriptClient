@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisAvailableFiltersTaskInfo
+[Documentation](../globals.md) / IContentAnalysisAvailableFiltersTaskInfo
 
 # Interface: IContentAnalysisAvailableFiltersTaskInfo
 

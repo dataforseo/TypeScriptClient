@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocation
+[Documentation](../globals.md) / ILocation
 
 # Interface: ILocation
 

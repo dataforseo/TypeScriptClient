@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ResourceMetaInfo
+[Documentation](../globals.md) / ResourceMetaInfo
 
 # Class: ResourceMetaInfo
 

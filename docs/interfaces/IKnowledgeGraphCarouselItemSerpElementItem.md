@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphCarouselItemSerpElementItem
+[Documentation](../globals.md) / IKnowledgeGraphCarouselItemSerpElementItem
 
 # Interface: IKnowledgeGraphCarouselItemSerpElementItem
 

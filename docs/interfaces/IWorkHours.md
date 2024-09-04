@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IWorkHours
+[Documentation](../globals.md) / IWorkHours
 
 # Interface: IWorkHours
 

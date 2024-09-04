@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPagePagesByResourceTaskInfo
+[Documentation](../globals.md) / OnPagePagesByResourceTaskInfo
 
 # Class: OnPagePagesByResourceTaskInfo
 

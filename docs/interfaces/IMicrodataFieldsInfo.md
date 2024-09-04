@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMicrodataFieldsInfo
+[Documentation](../globals.md) / IMicrodataFieldsInfo
 
 # Interface: IMicrodataFieldsInfo
 

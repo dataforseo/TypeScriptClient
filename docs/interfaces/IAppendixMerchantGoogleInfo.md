@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixMerchantGoogleInfo
+[Documentation](../globals.md) / IAppendixMerchantGoogleInfo
 
 # Interface: IAppendixMerchantGoogleInfo
 

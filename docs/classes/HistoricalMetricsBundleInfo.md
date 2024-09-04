@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HistoricalMetricsBundleInfo
+[Documentation](../globals.md) / HistoricalMetricsBundleInfo
 
 # Class: HistoricalMetricsBundleInfo
 

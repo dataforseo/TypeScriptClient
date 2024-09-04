@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleRelevantPagesLiveTaskInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleRelevantPagesLiveTaskInfo
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveTaskInfo
 

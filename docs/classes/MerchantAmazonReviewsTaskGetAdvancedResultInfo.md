@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonReviewsTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / MerchantAmazonReviewsTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonReviewsTaskGetAdvancedResultInfo
 

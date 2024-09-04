@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleNewsTaskGetHtmlResponseInfo
+[Documentation](../globals.md) / SerpGoogleNewsTaskGetHtmlResponseInfo
 
 # Class: SerpGoogleNewsTaskGetHtmlResponseInfo
 

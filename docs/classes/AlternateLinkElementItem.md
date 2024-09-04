@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AlternateLinkElementItem
+[Documentation](../globals.md) / AlternateLinkElementItem
 
 # Class: AlternateLinkElementItem
 

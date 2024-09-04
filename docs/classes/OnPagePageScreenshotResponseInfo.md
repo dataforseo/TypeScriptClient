@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPagePageScreenshotResponseInfo
+[Documentation](../globals.md) / OnPagePageScreenshotResponseInfo
 
 # Class: OnPagePageScreenshotResponseInfo
 

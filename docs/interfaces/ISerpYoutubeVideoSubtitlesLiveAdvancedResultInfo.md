@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
 

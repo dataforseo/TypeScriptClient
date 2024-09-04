@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleImagesTasksFixedResultInfo
+[Documentation](../globals.md) / SerpGoogleImagesTasksFixedResultInfo
 
 # Class: SerpGoogleImagesTasksFixedResultInfo
 

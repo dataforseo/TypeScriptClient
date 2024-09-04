@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpInfo
+[Documentation](../globals.md) / ISerpInfo
 
 # Interface: ISerpInfo
 

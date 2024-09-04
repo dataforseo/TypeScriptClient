@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseLanguagesResultInfo
+[Documentation](../globals.md) / IOnPageLighthouseLanguagesResultInfo
 
 # Interface: IOnPageLighthouseLanguagesResultInfo
 

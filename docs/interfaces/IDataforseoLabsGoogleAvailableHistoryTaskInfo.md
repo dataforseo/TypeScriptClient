@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleAvailableHistoryTaskInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleAvailableHistoryTaskInfo
 
 # Interface: IDataforseoLabsGoogleAvailableHistoryTaskInfo
 

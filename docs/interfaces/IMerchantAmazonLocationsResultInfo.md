@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantAmazonLocationsResultInfo
+[Documentation](../globals.md) / IMerchantAmazonLocationsResultInfo
 
 # Interface: IMerchantAmazonLocationsResultInfo
 

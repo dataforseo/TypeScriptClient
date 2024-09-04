@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleSellersAdUrlResponseInfo
+[Documentation](../globals.md) / MerchantGoogleSellersAdUrlResponseInfo
 
 # Class: MerchantGoogleSellersAdUrlResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAdLinkElement
+[Documentation](../globals.md) / IAdLinkElement
 
 # Interface: IAdLinkElement
 

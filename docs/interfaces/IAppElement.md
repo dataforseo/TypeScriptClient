@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppElement
+[Documentation](../globals.md) / IAppElement
 
 # Interface: IAppElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleSellersTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / IMerchantGoogleSellersTaskGetAdvancedTaskInfo
 
 # Interface: IMerchantGoogleSellersTaskGetAdvancedTaskInfo
 

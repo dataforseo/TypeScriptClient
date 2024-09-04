@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingOrganicLiveHtmlTaskInfo
+[Documentation](../globals.md) / ISerpBingOrganicLiveHtmlTaskInfo
 
 # Interface: ISerpBingOrganicLiveHtmlTaskInfo
 

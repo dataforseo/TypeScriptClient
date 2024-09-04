@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Demography
+[Documentation](../globals.md) / Demography
 
 # Class: Demography
 

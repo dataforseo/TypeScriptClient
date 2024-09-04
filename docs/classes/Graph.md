@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Graph
+[Documentation](../globals.md) / Graph
 
 # Class: Graph
 

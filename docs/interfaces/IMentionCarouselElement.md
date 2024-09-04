@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMentionCarouselElement
+[Documentation](../globals.md) / IMentionCarouselElement
 
 # Interface: IMentionCarouselElement
 

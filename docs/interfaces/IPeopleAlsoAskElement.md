@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPeopleAlsoAskElement
+[Documentation](../globals.md) / IPeopleAlsoAskElement
 
 # Interface: IPeopleAlsoAskElement
 

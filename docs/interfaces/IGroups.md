@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGroups
+[Documentation](../globals.md) / IGroups
 
 # Interface: IGroups
 

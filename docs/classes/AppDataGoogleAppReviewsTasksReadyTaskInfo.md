@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppReviewsTasksReadyTaskInfo
+[Documentation](../globals.md) / AppDataGoogleAppReviewsTasksReadyTaskInfo
 
 # Class: AppDataGoogleAppReviewsTasksReadyTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksErrorsResponseInfo
+[Documentation](../globals.md) / IBacklinksErrorsResponseInfo
 
 # Interface: IBacklinksErrorsResponseInfo
 

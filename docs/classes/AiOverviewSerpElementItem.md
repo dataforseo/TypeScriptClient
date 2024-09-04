@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AiOverviewSerpElementItem
+[Documentation](../globals.md) / AiOverviewSerpElementItem
 
 # Class: AiOverviewSerpElementItem
 

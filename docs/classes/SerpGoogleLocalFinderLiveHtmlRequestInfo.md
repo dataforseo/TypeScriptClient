@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
+[Documentation](../globals.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
 
 # Class: SerpGoogleLocalFinderLiveHtmlRequestInfo
 

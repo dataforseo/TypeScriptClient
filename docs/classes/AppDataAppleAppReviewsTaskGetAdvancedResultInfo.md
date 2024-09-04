@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppReviewsTaskGetAdvancedResultInfo
 

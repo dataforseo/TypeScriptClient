@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpSeznamOrganicTaskPostResponseInfo
+[Documentation](../globals.md) / ISerpSeznamOrganicTaskPostResponseInfo
 
 # Interface: ISerpSeznamOrganicTaskPostResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRecipesSerpElementItem
+[Documentation](../globals.md) / IRecipesSerpElementItem
 
 # Interface: IRecipesSerpElementItem
 

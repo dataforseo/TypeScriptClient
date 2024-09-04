@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAnswerBoxSerpElementItem
+[Documentation](../globals.md) / IAnswerBoxSerpElementItem
 
 # Interface: IAnswerBoxSerpElementItem
 

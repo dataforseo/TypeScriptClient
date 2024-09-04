@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo
 

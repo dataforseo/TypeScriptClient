@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageForceStopTaskInfo
+[Documentation](../globals.md) / IOnPageForceStopTaskInfo
 
 # Interface: IOnPageForceStopTaskInfo
 

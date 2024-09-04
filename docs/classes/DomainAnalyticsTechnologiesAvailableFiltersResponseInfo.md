@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesAvailableFiltersResponseInfo
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesAvailableFiltersResponseInfo
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersResponseInfo
 

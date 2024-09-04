@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IInterestsComparison
+[Documentation](../globals.md) / IInterestsComparison
 
 # Interface: IInterestsComparison
 

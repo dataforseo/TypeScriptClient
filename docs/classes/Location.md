@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Location
+[Documentation](../globals.md) / Location
 
 # Class: Location
 

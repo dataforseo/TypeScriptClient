@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleBusinessInfoBusinessDataSerpElementItem
+[Documentation](../globals.md) / IGoogleBusinessInfoBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessInfoBusinessDataSerpElementItem
 

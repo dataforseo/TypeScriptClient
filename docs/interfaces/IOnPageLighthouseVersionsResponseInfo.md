@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseVersionsResponseInfo
+[Documentation](../globals.md) / IOnPageLighthouseVersionsResponseInfo
 
 # Interface: IOnPageLighthouseVersionsResponseInfo
 

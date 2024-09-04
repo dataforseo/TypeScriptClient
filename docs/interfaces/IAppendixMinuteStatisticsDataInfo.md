@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixMinuteStatisticsDataInfo
+[Documentation](../globals.md) / IAppendixMinuteStatisticsDataInfo
 
 # Interface: IAppendixMinuteStatisticsDataInfo
 

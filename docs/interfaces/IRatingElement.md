@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRatingElement
+[Documentation](../globals.md) / IRatingElement
 
 # Interface: IRatingElement
 

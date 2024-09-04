@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleNewsLiveAdvancedResponseInfo
+[Documentation](../globals.md) / ISerpGoogleNewsLiveAdvancedResponseInfo
 
 # Interface: ISerpGoogleNewsLiveAdvancedResponseInfo
 

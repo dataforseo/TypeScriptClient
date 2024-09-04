@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAvailableFiltersTaskInfo
+[Documentation](../globals.md) / IDataforseoLabsAvailableFiltersTaskInfo
 
 # Interface: IDataforseoLabsAvailableFiltersTaskInfo
 

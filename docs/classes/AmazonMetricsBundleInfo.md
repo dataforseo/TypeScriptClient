@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonMetricsBundleInfo
+[Documentation](../globals.md) / AmazonMetricsBundleInfo
 
 # Class: AmazonMetricsBundleInfo
 

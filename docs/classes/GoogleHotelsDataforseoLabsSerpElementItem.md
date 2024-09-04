@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleHotelsDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / GoogleHotelsDataforseoLabsSerpElementItem
 
 # Class: GoogleHotelsDataforseoLabsSerpElementItem
 

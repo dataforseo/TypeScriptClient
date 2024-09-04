@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingOrganicTaskGetHtmlResultInfo
+[Documentation](../globals.md) / ISerpBingOrganicTaskGetHtmlResultInfo
 
 # Interface: ISerpBingOrganicTaskGetHtmlResultInfo
 

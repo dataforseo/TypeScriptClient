@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataBusinessListingsSearchLiveItem
+[Documentation](../globals.md) / IBusinessDataBusinessListingsSearchLiveItem
 
 # Interface: IBusinessDataBusinessListingsSearchLiveItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataIdListTaskInfo
+[Documentation](../globals.md) / IBusinessDataIdListTaskInfo
 
 # Interface: IBusinessDataIdListTaskInfo
 

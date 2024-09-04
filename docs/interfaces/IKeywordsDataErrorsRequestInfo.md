@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataErrorsRequestInfo
+[Documentation](../globals.md) / IKeywordsDataErrorsRequestInfo
 
 # Interface: IKeywordsDataErrorsRequestInfo
 

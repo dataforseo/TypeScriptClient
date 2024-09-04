@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleLanguagesTaskInfo
+[Documentation](../globals.md) / MerchantGoogleLanguagesTaskInfo
 
 # Class: MerchantGoogleLanguagesTaskInfo
 

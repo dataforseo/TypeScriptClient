@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TopSightsDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / TopSightsDataforseoLabsSerpElementItem
 
 # Class: TopSightsDataforseoLabsSerpElementItem
 

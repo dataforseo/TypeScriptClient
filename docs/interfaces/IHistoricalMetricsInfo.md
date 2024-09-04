@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHistoricalMetricsInfo
+[Documentation](../globals.md) / IHistoricalMetricsInfo
 
 # Interface: IHistoricalMetricsInfo
 

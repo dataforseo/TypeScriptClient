@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IImageUrlInfo
+[Documentation](../globals.md) / IImageUrlInfo
 
 # Interface: IImageUrlInfo
 

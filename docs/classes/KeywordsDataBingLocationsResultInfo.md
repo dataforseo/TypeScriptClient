@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingLocationsResultInfo
+[Documentation](../globals.md) / KeywordsDataBingLocationsResultInfo
 
 # Class: KeywordsDataBingLocationsResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataErrorsResponseInfo
+[Documentation](../globals.md) / IKeywordsDataErrorsResponseInfo
 
 # Interface: IKeywordsDataErrorsResponseInfo
 

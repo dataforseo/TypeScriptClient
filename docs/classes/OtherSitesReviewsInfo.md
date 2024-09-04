@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OtherSitesReviewsInfo
+[Documentation](../globals.md) / OtherSitesReviewsInfo
 
 # Class: OtherSitesReviewsInfo
 

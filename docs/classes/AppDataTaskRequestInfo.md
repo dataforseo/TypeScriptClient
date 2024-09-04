@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataTaskRequestInfo
+[Documentation](../globals.md) / AppDataTaskRequestInfo
 
 # Class: AppDataTaskRequestInfo
 

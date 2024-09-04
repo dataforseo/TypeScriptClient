@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveItem
+[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 

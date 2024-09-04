@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleLanguagesTaskInfo
+[Documentation](../globals.md) / IBusinessDataGoogleLanguagesTaskInfo
 
 # Interface: IBusinessDataGoogleLanguagesTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleOrganicTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / ISerpGoogleOrganicTaskGetAdvancedTaskInfo
 
 # Interface: ISerpGoogleOrganicTaskGetAdvancedTaskInfo
 

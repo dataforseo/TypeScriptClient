@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SearchIntentInfo
+[Documentation](../globals.md) / SearchIntentInfo
 
 # Class: SearchIntentInfo
 

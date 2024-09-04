@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonRankedSerpElement
+[Documentation](../globals.md) / AmazonRankedSerpElement
 
 # Class: AmazonRankedSerpElement
 

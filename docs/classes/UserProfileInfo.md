@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / UserProfileInfo
+[Documentation](../globals.md) / UserProfileInfo
 
 # Class: UserProfileInfo
 

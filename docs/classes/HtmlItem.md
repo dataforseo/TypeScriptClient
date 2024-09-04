@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HtmlItem
+[Documentation](../globals.md) / HtmlItem
 
 # Class: HtmlItem
 

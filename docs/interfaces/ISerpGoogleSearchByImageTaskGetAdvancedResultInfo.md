@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleSearchByImageTaskGetAdvancedResultInfo
 

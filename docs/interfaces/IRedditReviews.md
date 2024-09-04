@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRedditReviews
+[Documentation](../globals.md) / IRedditReviews
 
 # Interface: IRedditReviews
 

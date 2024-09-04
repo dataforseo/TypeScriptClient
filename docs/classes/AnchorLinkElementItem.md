@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AnchorLinkElementItem
+[Documentation](../globals.md) / AnchorLinkElementItem
 
 # Class: AnchorLinkElementItem
 

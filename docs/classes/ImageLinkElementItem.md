@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ImageLinkElementItem
+[Documentation](../globals.md) / ImageLinkElementItem
 
 # Class: ImageLinkElementItem
 

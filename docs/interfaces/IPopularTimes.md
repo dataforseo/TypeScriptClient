@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPopularTimes
+[Documentation](../globals.md) / IPopularTimes
 
 # Interface: IPopularTimes
 

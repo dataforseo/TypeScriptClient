@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantAmazonProductsTasksReadyResponseInfo
+[Documentation](../globals.md) / IMerchantAmazonProductsTasksReadyResponseInfo
 
 # Interface: IMerchantAmazonProductsTasksReadyResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IValues
+[Documentation](../globals.md) / IValues
 
 # Interface: IValues
 

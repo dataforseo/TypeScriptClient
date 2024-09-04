@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseVersionsTaskInfo
+[Documentation](../globals.md) / IOnPageLighthouseVersionsTaskInfo
 
 # Interface: IOnPageLighthouseVersionsTaskInfo
 

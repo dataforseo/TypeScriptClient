@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationGenerateTextLiveResponseInfo
+[Documentation](../globals.md) / ContentGenerationGenerateTextLiveResponseInfo
 
 # Class: ContentGenerationGenerateTextLiveResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixMerchantGoogleInfo
+[Documentation](../globals.md) / AppendixMerchantGoogleInfo
 
 # Class: AppendixMerchantGoogleInfo
 

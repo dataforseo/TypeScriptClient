@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageContentParsingResponseInfo
+[Documentation](../globals.md) / OnPageContentParsingResponseInfo
 
 # Class: OnPageContentParsingResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITopStoriesElement
+[Documentation](../globals.md) / ITopStoriesElement
 
 # Interface: ITopStoriesElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppListingsSearchLiveTaskInfo
+[Documentation](../globals.md) / AppDataGoogleAppListingsSearchLiveTaskInfo
 
 # Class: AppDataGoogleAppListingsSearchLiveTaskInfo
 

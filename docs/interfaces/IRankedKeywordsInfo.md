@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRankedKeywordsInfo
+[Documentation](../globals.md) / IRankedKeywordsInfo
 
 # Interface: IRankedKeywordsInfo
 

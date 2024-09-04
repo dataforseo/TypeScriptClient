@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpTaskRequestInfo
+[Documentation](../globals.md) / SerpTaskRequestInfo
 
 # Class: SerpTaskRequestInfo
 

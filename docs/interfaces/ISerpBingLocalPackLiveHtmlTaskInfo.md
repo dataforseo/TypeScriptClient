@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLocalPackLiveHtmlTaskInfo
+[Documentation](../globals.md) / ISerpBingLocalPackLiveHtmlTaskInfo
 
 # Interface: ISerpBingLocalPackLiveHtmlTaskInfo
 

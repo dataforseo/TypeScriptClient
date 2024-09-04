@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITwitterSerpElementItem
+[Documentation](../globals.md) / ITwitterSerpElementItem
 
 # Interface: ITwitterSerpElementItem
 

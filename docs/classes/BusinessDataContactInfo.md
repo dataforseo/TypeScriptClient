@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataContactInfo
+[Documentation](../globals.md) / BusinessDataContactInfo
 
 # Class: BusinessDataContactInfo
 

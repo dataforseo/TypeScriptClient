@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 
 # Class: BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 

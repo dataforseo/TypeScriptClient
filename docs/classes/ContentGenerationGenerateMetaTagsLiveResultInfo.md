@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationGenerateMetaTagsLiveResultInfo
+[Documentation](../globals.md) / ContentGenerationGenerateMetaTagsLiveResultInfo
 
 # Class: ContentGenerationGenerateMetaTagsLiveResultInfo
 

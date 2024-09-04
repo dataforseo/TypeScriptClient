@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLanguagesResultInfo
+[Documentation](../globals.md) / SerpBingLanguagesResultInfo
 
 # Class: SerpBingLanguagesResultInfo
 

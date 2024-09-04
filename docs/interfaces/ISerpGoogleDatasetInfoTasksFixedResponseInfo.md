@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleDatasetInfoTasksFixedResponseInfo
+[Documentation](../globals.md) / ISerpGoogleDatasetInfoTasksFixedResponseInfo
 
 # Interface: ISerpGoogleDatasetInfoTasksFixedResponseInfo
 

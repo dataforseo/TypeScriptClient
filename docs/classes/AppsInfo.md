@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppsInfo
+[Documentation](../globals.md) / AppsInfo
 
 # Class: AppsInfo
 

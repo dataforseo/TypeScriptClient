@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILinkElement
+[Documentation](../globals.md) / ILinkElement
 
 # Interface: ILinkElement
 

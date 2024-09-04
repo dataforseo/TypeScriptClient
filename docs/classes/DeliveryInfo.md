@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DeliveryInfo
+[Documentation](../globals.md) / DeliveryInfo
 
 # Class: DeliveryInfo
 

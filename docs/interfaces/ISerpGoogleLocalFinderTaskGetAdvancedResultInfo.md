@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocalFinderTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / ISerpGoogleLocalFinderTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleLocalFinderTaskGetAdvancedResultInfo
 

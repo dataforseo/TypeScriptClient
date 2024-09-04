@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IYoutubeSubtitlesSerpElementItem
+[Documentation](../globals.md) / IYoutubeSubtitlesSerpElementItem
 
 # Interface: IYoutubeSubtitlesSerpElementItem
 

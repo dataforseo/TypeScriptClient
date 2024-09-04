@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IShortVideosSerpElementItem
+[Documentation](../globals.md) / IShortVideosSerpElementItem
 
 # Interface: IShortVideosSerpElementItem
 

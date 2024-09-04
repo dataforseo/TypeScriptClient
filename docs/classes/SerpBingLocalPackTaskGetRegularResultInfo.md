@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLocalPackTaskGetRegularResultInfo
+[Documentation](../globals.md) / SerpBingLocalPackTaskGetRegularResultInfo
 
 # Class: SerpBingLocalPackTaskGetRegularResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBulkPagesSummaryLiveItem
+[Documentation](../globals.md) / BacklinksBulkPagesSummaryLiveItem
 
 # Class: BacklinksBulkPagesSummaryLiveItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonTopRatedFromOurBrandsSerpElementItem
+[Documentation](../globals.md) / IAmazonTopRatedFromOurBrandsSerpElementItem
 
 # Interface: IAmazonTopRatedFromOurBrandsSerpElementItem
 

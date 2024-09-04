@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ConceptGroupInfo
+[Documentation](../globals.md) / ConceptGroupInfo
 
 # Class: ConceptGroupInfo
 

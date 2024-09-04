@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsleBulkAppMetricsLiveItem
+[Documentation](../globals.md) / IDataforseoLabsleBulkAppMetricsLiveItem
 
 # Interface: IDataforseoLabsleBulkAppMetricsLiveItem
 

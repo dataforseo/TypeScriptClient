@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessListingAggregationInfo
+[Documentation](../globals.md) / BusinessListingAggregationInfo
 
 # Class: BusinessListingAggregationInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordIntentInfo
+[Documentation](../globals.md) / KeywordIntentInfo
 
 # Class: KeywordIntentInfo
 

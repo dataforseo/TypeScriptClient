@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TargetInfo
+[Documentation](../globals.md) / TargetInfo
 
 # Class: TargetInfo
 

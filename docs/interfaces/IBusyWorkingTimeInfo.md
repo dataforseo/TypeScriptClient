@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusyWorkingTimeInfo
+[Documentation](../globals.md) / IBusyWorkingTimeInfo
 
 # Interface: IBusyWorkingTimeInfo
 

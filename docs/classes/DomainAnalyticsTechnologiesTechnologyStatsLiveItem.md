@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 

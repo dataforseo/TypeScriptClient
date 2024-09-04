@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo
 
 # Class: DomainAnalyticsTechnologiesDomainsByHtmlTermsLiveTaskInfo
 

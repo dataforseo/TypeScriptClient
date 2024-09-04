@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksDomainIntersectionLiveResultInfo
+[Documentation](../globals.md) / BacklinksDomainIntersectionLiveResultInfo
 
 # Class: BacklinksDomainIntersectionLiveResultInfo
 

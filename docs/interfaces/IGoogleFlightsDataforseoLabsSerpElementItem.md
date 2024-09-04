@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleFlightsDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IGoogleFlightsDataforseoLabsSerpElementItem
 
 # Interface: IGoogleFlightsDataforseoLabsSerpElementItem
 

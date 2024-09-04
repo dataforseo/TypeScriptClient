@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainInfo
+[Documentation](../globals.md) / IDomainInfo
 
 # Interface: IDomainInfo
 

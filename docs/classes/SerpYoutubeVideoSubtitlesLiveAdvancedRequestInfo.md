@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
+[Documentation](../globals.md) / SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 

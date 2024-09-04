@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGpsCoordinatesLocationInfo
+[Documentation](../globals.md) / IGpsCoordinatesLocationInfo
 
 # Interface: IGpsCoordinatesLocationInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / QuestionsAndAnswersSerpElementItem
+[Documentation](../globals.md) / QuestionsAndAnswersSerpElementItem
 
 # Class: QuestionsAndAnswersSerpElementItem
 

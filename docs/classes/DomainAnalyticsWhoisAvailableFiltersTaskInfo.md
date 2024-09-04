@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsWhoisAvailableFiltersTaskInfo
+[Documentation](../globals.md) / DomainAnalyticsWhoisAvailableFiltersTaskInfo
 
 # Class: DomainAnalyticsWhoisAvailableFiltersTaskInfo
 

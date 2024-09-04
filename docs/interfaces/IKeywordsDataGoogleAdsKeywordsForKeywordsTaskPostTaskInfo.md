@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostTaskInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostTaskInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsTaskPostTaskInfo
 

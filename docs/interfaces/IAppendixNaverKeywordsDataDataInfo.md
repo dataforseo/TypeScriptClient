@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixNaverKeywordsDataDataInfo
+[Documentation](../globals.md) / IAppendixNaverKeywordsDataDataInfo
 
 # Interface: IAppendixNaverKeywordsDataDataInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRankChanges
+[Documentation](../globals.md) / IRankChanges
 
 # Interface: IRankChanges
 

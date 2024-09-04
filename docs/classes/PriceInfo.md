@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PriceInfo
+[Documentation](../globals.md) / PriceInfo
 
 # Class: PriceInfo
 

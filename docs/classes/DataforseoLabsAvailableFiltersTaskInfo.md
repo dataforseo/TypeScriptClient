@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAvailableFiltersTaskInfo
+[Documentation](../globals.md) / DataforseoLabsAvailableFiltersTaskInfo
 
 # Class: DataforseoLabsAvailableFiltersTaskInfo
 

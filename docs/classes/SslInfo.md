@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SslInfo
+[Documentation](../globals.md) / SslInfo
 
 # Class: SslInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
+[Documentation](../globals.md) / IDomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Interface: IDomainAnalyticsWhoisAvailableFiltersResultInfo
 

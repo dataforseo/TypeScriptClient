@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixErrorsTaskInfo
+[Documentation](../globals.md) / IAppendixErrorsTaskInfo
 
 # Interface: IAppendixErrorsTaskInfo
 

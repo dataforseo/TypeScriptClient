@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICompareSitesSerpElementItem
+[Documentation](../globals.md) / ICompareSitesSerpElementItem
 
 # Interface: ICompareSitesSerpElementItem
 

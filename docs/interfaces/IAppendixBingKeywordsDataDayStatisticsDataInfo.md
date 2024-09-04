@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixBingKeywordsDataDayStatisticsDataInfo
+[Documentation](../globals.md) / IAppendixBingKeywordsDataDayStatisticsDataInfo
 
 # Interface: IAppendixBingKeywordsDataDayStatisticsDataInfo
 

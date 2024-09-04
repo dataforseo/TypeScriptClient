@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IJobsDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IJobsDataforseoLabsSerpElementItem
 
 # Interface: IJobsDataforseoLabsSerpElementItem
 

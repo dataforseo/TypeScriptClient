@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductCategoryInfo
+[Documentation](../globals.md) / IProductCategoryInfo
 
 # Interface: IProductCategoryInfo
 

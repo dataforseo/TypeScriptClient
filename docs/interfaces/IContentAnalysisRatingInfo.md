@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisRatingInfo
+[Documentation](../globals.md) / IContentAnalysisRatingInfo
 
 # Interface: IContentAnalysisRatingInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PopularTimes
+[Documentation](../globals.md) / PopularTimes
 
 # Class: PopularTimes
 

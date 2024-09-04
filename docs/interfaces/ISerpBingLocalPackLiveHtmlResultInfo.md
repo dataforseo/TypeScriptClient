@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLocalPackLiveHtmlResultInfo
+[Documentation](../globals.md) / ISerpBingLocalPackLiveHtmlResultInfo
 
 # Interface: ISerpBingLocalPackLiveHtmlResultInfo
 

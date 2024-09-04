@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GraphElement
+[Documentation](../globals.md) / GraphElement
 
 # Class: GraphElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleFlightsSerpElementItem
+[Documentation](../globals.md) / IGoogleFlightsSerpElementItem
 
 # Interface: IGoogleFlightsSerpElementItem
 

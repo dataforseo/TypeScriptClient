@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IFeaturedSnippetSerpElementItem
+[Documentation](../globals.md) / IFeaturedSnippetSerpElementItem
 
 # Interface: IFeaturedSnippetSerpElementItem
 

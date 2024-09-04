@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
+[Documentation](../globals.md) / IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 

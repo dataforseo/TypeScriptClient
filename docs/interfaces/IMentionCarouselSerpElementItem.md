@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMentionCarouselSerpElementItem
+[Documentation](../globals.md) / IMentionCarouselSerpElementItem
 
 # Interface: IMentionCarouselSerpElementItem
 

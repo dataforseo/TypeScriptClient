@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleLocationsCountryResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleLocationsCountryResultInfo
 
 # Class: BusinessDataGoogleLocationsCountryResultInfo
 

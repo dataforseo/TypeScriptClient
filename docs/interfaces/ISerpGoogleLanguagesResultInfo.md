@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLanguagesResultInfo
+[Documentation](../globals.md) / ISerpGoogleLanguagesResultInfo
 
 # Interface: ISerpGoogleLanguagesResultInfo
 

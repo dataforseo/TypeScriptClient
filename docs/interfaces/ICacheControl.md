@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICacheControl
+[Documentation](../globals.md) / ICacheControl
 
 # Interface: ICacheControl
 

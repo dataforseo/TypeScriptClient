@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataIdListResponseInfo
+[Documentation](../globals.md) / AppDataIdListResponseInfo
 
 # Class: AppDataIdListResponseInfo
 

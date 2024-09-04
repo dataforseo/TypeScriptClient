@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo
+[Documentation](../globals.md) / BusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTasksReadyTaskInfo
 

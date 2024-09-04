@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MultiCarouselDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / MultiCarouselDataforseoLabsSerpElementItem
 
 # Class: MultiCarouselDataforseoLabsSerpElementItem
 

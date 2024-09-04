@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 

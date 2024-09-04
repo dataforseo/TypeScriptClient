@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantAmazonAsinTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / IMerchantAmazonAsinTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonAsinTaskGetAdvancedResultInfo
 

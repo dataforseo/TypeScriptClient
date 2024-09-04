@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageTasksReadyResultInfo
+[Documentation](../globals.md) / OnPageTasksReadyResultInfo
 
 # Class: OnPageTasksReadyResultInfo
 

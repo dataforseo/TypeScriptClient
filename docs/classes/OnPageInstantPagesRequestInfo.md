@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageInstantPagesRequestInfo
+[Documentation](../globals.md) / OnPageInstantPagesRequestInfo
 
 # Class: OnPageInstantPagesRequestInfo
 

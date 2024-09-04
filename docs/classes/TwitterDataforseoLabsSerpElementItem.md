@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TwitterDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / TwitterDataforseoLabsSerpElementItem
 
 # Class: TwitterDataforseoLabsSerpElementItem
 

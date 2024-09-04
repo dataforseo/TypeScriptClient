@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleSearchByImageTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / SerpGoogleSearchByImageTaskGetAdvancedTaskInfo
 
 # Class: SerpGoogleSearchByImageTaskGetAdvancedTaskInfo
 

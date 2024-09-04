@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IStoresCountInfo
+[Documentation](../globals.md) / IStoresCountInfo
 
 # Interface: IStoresCountInfo
 

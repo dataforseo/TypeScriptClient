@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRecipesElement
+[Documentation](../globals.md) / IRecipesElement
 
 # Interface: IRecipesElement
 

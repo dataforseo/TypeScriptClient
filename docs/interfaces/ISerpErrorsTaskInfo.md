@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpErrorsTaskInfo
+[Documentation](../globals.md) / ISerpErrorsTaskInfo
 
 # Interface: ISerpErrorsTaskInfo
 

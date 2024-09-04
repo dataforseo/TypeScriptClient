@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataSocialMediaFacebookLiveResponseInfo
+[Documentation](../globals.md) / BusinessDataSocialMediaFacebookLiveResponseInfo
 
 # Class: BusinessDataSocialMediaFacebookLiveResponseInfo
 

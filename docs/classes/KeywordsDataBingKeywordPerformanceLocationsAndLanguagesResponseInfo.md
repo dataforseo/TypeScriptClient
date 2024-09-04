@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo
+[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo
 
 # Class: KeywordsDataBingKeywordPerformanceLocationsAndLanguagesResponseInfo
 

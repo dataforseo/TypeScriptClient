@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageRawHtmlResultInfo
+[Documentation](../globals.md) / IOnPageRawHtmlResultInfo
 
 # Interface: IOnPageRawHtmlResultInfo
 

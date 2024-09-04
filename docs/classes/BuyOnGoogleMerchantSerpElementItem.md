@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BuyOnGoogleMerchantSerpElementItem
+[Documentation](../globals.md) / BuyOnGoogleMerchantSerpElementItem
 
 # Class: BuyOnGoogleMerchantSerpElementItem
 

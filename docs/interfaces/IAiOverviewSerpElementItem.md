@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAiOverviewSerpElementItem
+[Documentation](../globals.md) / IAiOverviewSerpElementItem
 
 # Interface: IAiOverviewSerpElementItem
 

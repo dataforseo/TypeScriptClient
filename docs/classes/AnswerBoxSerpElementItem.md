@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AnswerBoxSerpElementItem
+[Documentation](../globals.md) / AnswerBoxSerpElementItem
 
 # Class: AnswerBoxSerpElementItem
 

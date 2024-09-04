@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleImagesTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / ISerpGoogleImagesTaskGetAdvancedTaskInfo
 
 # Interface: ISerpGoogleImagesTaskGetAdvancedTaskInfo
 

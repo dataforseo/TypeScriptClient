@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTripadvisorReviewsTaskPostTaskInfo
+[Documentation](../globals.md) / IBusinessDataTripadvisorReviewsTaskPostTaskInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTaskPostTaskInfo
 

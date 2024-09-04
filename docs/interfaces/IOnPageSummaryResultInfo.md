@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageSummaryResultInfo
+[Documentation](../globals.md) / IOnPageSummaryResultInfo
 
 # Interface: IOnPageSummaryResultInfo
 

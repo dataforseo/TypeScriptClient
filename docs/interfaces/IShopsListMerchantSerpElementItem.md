@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IShopsListMerchantSerpElementItem
+[Documentation](../globals.md) / IShopsListMerchantSerpElementItem
 
 # Interface: IShopsListMerchantSerpElementItem
 

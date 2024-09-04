@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MetricsInfo
+[Documentation](../globals.md) / MetricsInfo
 
 # Class: MetricsInfo
 

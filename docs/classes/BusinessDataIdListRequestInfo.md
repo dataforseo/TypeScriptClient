@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataIdListRequestInfo
+[Documentation](../globals.md) / BusinessDataIdListRequestInfo
 
 # Class: BusinessDataIdListRequestInfo
 

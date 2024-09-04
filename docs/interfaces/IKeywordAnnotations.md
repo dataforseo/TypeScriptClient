@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordAnnotations
+[Documentation](../globals.md) / IKeywordAnnotations
 
 # Interface: IKeywordAnnotations
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisCategoriesInfo
+[Documentation](../globals.md) / IContentAnalysisCategoriesInfo
 
 # Interface: IContentAnalysisCategoriesInfo
 

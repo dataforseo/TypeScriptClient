@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksReferringNetworksLiveItem
+[Documentation](../globals.md) / IBacklinksReferringNetworksLiveItem
 
 # Interface: IBacklinksReferringNetworksLiveItem
 

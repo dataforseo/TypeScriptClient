@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonKeywordData
+[Documentation](../globals.md) / AmazonKeywordData
 
 # Class: AmazonKeywordData
 

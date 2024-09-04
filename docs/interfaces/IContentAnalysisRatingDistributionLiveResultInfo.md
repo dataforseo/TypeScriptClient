@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisRatingDistributionLiveResultInfo
+[Documentation](../globals.md) / IContentAnalysisRatingDistributionLiveResultInfo
 
 # Interface: IContentAnalysisRatingDistributionLiveResultInfo
 

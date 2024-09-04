@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductSeller
+[Documentation](../globals.md) / ProductSeller
 
 # Class: ProductSeller
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
 
 # Interface: IAppendixContentGenerationDayLimitsRatesDataInfo
 

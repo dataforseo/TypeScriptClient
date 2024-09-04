@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisIdListTaskInfo
+[Documentation](../globals.md) / ContentAnalysisIdListTaskInfo
 
 # Class: ContentAnalysisIdListTaskInfo
 

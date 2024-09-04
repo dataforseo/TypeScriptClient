@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleTopSearchesLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleTopSearchesLiveResultInfo
 
 # Class: DataforseoLabsGoogleTopSearchesLiveResultInfo
 

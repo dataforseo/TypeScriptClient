@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageNonIndexableItem
+[Documentation](../globals.md) / IOnPageNonIndexableItem
 
 # Interface: IOnPageNonIndexableItem
 

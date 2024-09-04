@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / StoresCountInfo
+[Documentation](../globals.md) / StoresCountInfo
 
 # Class: StoresCountInfo
 

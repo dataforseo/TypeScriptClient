@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleDatasetSearchLiveAdvancedTaskInfo
+[Documentation](../globals.md) / SerpGoogleDatasetSearchLiveAdvancedTaskInfo
 
 # Class: SerpGoogleDatasetSearchLiveAdvancedTaskInfo
 

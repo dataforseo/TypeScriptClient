@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonLanguagesTaskInfo
+[Documentation](../globals.md) / MerchantAmazonLanguagesTaskInfo
 
 # Class: MerchantAmazonLanguagesTaskInfo
 

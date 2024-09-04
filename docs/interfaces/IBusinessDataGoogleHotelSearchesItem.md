@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleHotelSearchesItem
+[Documentation](../globals.md) / IBusinessDataGoogleHotelSearchesItem
 
 # Interface: IBusinessDataGoogleHotelSearchesItem
 

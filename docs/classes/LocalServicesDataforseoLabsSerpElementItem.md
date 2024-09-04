@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalServicesDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / LocalServicesDataforseoLabsSerpElementItem
 
 # Class: LocalServicesDataforseoLabsSerpElementItem
 

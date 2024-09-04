@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageKeywordDensityResultInfo
+[Documentation](../globals.md) / IOnPageKeywordDensityResultInfo
 
 # Interface: IOnPageKeywordDensityResultInfo
 

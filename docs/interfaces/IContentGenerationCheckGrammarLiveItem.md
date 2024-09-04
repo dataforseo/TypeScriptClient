@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationCheckGrammarLiveItem
+[Documentation](../globals.md) / IContentGenerationCheckGrammarLiveItem
 
 # Interface: IContentGenerationCheckGrammarLiveItem
 

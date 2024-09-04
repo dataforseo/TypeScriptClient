@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleLocalFinderTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpGoogleLocalFinderTaskGetHtmlResultInfo
 
 # Class: SerpGoogleLocalFinderTaskGetHtmlResultInfo
 

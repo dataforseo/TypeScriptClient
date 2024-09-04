@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TwitterElement
+[Documentation](../globals.md) / TwitterElement
 
 # Class: TwitterElement
 

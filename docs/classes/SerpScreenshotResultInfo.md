@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpScreenshotResultInfo
+[Documentation](../globals.md) / SerpScreenshotResultInfo
 
 # Class: SerpScreenshotResultInfo
 

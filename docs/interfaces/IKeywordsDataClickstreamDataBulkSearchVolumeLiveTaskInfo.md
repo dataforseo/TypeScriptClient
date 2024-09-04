@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataClickstreamDataBulkSearchVolumeLiveTaskInfo
+[Documentation](../globals.md) / IKeywordsDataClickstreamDataBulkSearchVolumeLiveTaskInfo
 
 # Interface: IKeywordsDataClickstreamDataBulkSearchVolumeLiveTaskInfo
 

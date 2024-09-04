@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ScoreByCategories
+[Documentation](../globals.md) / ScoreByCategories
 
 # Class: ScoreByCategories
 

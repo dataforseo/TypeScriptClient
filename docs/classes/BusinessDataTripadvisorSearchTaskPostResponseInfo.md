@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTripadvisorSearchTaskPostResponseInfo
+[Documentation](../globals.md) / BusinessDataTripadvisorSearchTaskPostResponseInfo
 
 # Class: BusinessDataTripadvisorSearchTaskPostResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IFoundOnWebElement
+[Documentation](../globals.md) / IFoundOnWebElement
 
 # Interface: IFoundOnWebElement
 

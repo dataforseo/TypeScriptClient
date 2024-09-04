@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveRequestInfo
 

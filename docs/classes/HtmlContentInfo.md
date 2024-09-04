@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HtmlContentInfo
+[Documentation](../globals.md) / HtmlContentInfo
 
 # Class: HtmlContentInfo
 

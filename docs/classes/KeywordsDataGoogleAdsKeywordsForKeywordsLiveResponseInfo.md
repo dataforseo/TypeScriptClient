@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForKeywordsLiveResponseInfo
 

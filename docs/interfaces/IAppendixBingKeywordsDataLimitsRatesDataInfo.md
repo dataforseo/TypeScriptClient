@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixBingKeywordsDataLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixBingKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixBingKeywordsDataLimitsRatesDataInfo
 

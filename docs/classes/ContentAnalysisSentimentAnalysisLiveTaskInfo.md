@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisSentimentAnalysisLiveTaskInfo
+[Documentation](../globals.md) / ContentAnalysisSentimentAnalysisLiveTaskInfo
 
 # Class: ContentAnalysisSentimentAnalysisLiveTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleMapsTasksFixedResultInfo
+[Documentation](../globals.md) / SerpGoogleMapsTasksFixedResultInfo
 
 # Class: SerpGoogleMapsTasksFixedResultInfo
 

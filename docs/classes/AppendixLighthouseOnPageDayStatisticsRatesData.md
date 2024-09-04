@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixLighthouseOnPageDayStatisticsRatesData
+[Documentation](../globals.md) / AppendixLighthouseOnPageDayStatisticsRatesData
 
 # Class: AppendixLighthouseOnPageDayStatisticsRatesData
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocalBusinessOrderLink
+[Documentation](../globals.md) / ILocalBusinessOrderLink
 
 # Interface: ILocalBusinessOrderLink
 

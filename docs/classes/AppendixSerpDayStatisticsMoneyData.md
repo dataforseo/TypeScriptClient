@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixSerpDayStatisticsMoneyData
+[Documentation](../globals.md) / AppendixSerpDayStatisticsMoneyData
 
 # Class: AppendixSerpDayStatisticsMoneyData
 

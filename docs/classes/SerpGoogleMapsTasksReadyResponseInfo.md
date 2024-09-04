@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleMapsTasksReadyResponseInfo
+[Documentation](../globals.md) / SerpGoogleMapsTasksReadyResponseInfo
 
 # Class: SerpGoogleMapsTasksReadyResponseInfo
 

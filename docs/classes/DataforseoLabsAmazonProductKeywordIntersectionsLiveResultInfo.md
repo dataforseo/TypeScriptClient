@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveResultInfo
 

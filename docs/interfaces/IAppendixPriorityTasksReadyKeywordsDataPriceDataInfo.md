@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
+[Documentation](../globals.md) / IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 
 # Interface: IAppendixPriorityTasksReadyKeywordsDataPriceDataInfo
 

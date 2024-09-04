@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleNewsTasksFixedResultInfo
+[Documentation](../globals.md) / ISerpGoogleNewsTasksFixedResultInfo
 
 # Interface: ISerpGoogleNewsTasksFixedResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAvailableFiltersResultInfo
+[Documentation](../globals.md) / DataforseoLabsAvailableFiltersResultInfo
 
 # Class: DataforseoLabsAvailableFiltersResultInfo
 

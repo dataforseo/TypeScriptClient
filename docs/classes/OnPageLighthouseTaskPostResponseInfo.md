@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseTaskPostResponseInfo
+[Documentation](../globals.md) / OnPageLighthouseTaskPostResponseInfo
 
 # Class: OnPageLighthouseTaskPostResponseInfo
 

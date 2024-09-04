@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphImagesElement
+[Documentation](../globals.md) / KnowledgeGraphImagesElement
 
 # Class: KnowledgeGraphImagesElement
 

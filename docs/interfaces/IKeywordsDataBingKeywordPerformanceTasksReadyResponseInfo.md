@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceTasksReadyResponseInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceTasksReadyResponseInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTasksReadyResponseInfo
 

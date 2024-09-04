@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisRatingDistributionLiveResultInfo
+[Documentation](../globals.md) / ContentAnalysisRatingDistributionLiveResultInfo
 
 # Class: ContentAnalysisRatingDistributionLiveResultInfo
 

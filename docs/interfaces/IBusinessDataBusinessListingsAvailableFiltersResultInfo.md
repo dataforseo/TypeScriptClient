@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
+[Documentation](../globals.md) / IBusinessDataBusinessListingsAvailableFiltersResultInfo
 
 # Interface: IBusinessDataBusinessListingsAvailableFiltersResultInfo
 

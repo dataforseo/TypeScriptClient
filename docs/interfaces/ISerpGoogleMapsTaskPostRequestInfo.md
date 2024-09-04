@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleMapsTaskPostRequestInfo
+[Documentation](../globals.md) / ISerpGoogleMapsTaskPostRequestInfo
 
 # Interface: ISerpGoogleMapsTaskPostRequestInfo
 

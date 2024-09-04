@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixMinuteStatisticsDataInfo
+[Documentation](../globals.md) / AppendixMinuteStatisticsDataInfo
 
 # Class: AppendixMinuteStatisticsDataInfo
 

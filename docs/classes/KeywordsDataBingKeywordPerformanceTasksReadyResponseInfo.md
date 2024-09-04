@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo
+[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTasksReadyResponseInfo
 

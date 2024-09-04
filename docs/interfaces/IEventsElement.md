@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IEventsElement
+[Documentation](../globals.md) / IEventsElement
 
 # Interface: IEventsElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonLocationsResponseInfo
+[Documentation](../globals.md) / MerchantAmazonLocationsResponseInfo
 
 # Class: MerchantAmazonLocationsResponseInfo
 

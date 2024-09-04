@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 

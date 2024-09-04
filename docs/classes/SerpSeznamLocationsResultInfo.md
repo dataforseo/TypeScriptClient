@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamLocationsResultInfo
+[Documentation](../globals.md) / SerpSeznamLocationsResultInfo
 
 # Class: SerpSeznamLocationsResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleImagesLiveHtmlResultInfo
+[Documentation](../globals.md) / ISerpGoogleImagesLiveHtmlResultInfo
 
 # Interface: ISerpGoogleImagesLiveHtmlResultInfo
 

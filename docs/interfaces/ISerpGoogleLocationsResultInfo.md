@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocationsResultInfo
+[Documentation](../globals.md) / ISerpGoogleLocationsResultInfo
 
 # Interface: ISerpGoogleLocationsResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LicensesElement
+[Documentation](../globals.md) / LicensesElement
 
 # Class: LicensesElement
 

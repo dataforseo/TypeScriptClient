@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixSellersGoogleMerchantLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixSellersGoogleMerchantLimitsRatesDataInfo
 
 # Interface: IAppendixSellersGoogleMerchantLimitsRatesDataInfo
 

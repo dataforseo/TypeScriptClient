@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpTasksReadyResponseInfo
+[Documentation](../globals.md) / SerpTasksReadyResponseInfo
 
 # Class: SerpTasksReadyResponseInfo
 

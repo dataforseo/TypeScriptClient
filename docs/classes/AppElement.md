@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppElement
+[Documentation](../globals.md) / AppElement
 
 # Class: AppElement
 

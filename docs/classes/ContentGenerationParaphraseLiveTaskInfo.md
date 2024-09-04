@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationParaphraseLiveTaskInfo
+[Documentation](../globals.md) / ContentGenerationParaphraseLiveTaskInfo
 
 # Class: ContentGenerationParaphraseLiveTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppStoreMetricsBundleInfo
+[Documentation](../globals.md) / AppStoreMetricsBundleInfo
 
 # Class: AppStoreMetricsBundleInfo
 

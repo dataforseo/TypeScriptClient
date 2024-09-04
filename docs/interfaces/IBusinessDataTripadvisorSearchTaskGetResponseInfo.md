@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTripadvisorSearchTaskGetResponseInfo
+[Documentation](../globals.md) / IBusinessDataTripadvisorSearchTaskGetResponseInfo
 
 # Interface: IBusinessDataTripadvisorSearchTaskGetResponseInfo
 

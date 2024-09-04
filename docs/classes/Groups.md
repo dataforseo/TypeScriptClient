@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Groups
+[Documentation](../globals.md) / Groups
 
 # Class: Groups
 

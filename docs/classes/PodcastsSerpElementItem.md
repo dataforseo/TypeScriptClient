@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PodcastsSerpElementItem
+[Documentation](../globals.md) / PodcastsSerpElementItem
 
 # Class: PodcastsSerpElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordInfoNormalizedWithInfo
+[Documentation](../globals.md) / KeywordInfoNormalizedWithInfo
 
 # Class: KeywordInfoNormalizedWithInfo
 

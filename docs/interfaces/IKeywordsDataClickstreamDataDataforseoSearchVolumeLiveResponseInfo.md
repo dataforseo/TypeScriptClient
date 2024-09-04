@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo
+[Documentation](../globals.md) / IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo
 
 # Interface: IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveResponseInfo
 

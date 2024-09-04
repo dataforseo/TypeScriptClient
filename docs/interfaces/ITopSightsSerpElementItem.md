@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITopSightsSerpElementItem
+[Documentation](../globals.md) / ITopSightsSerpElementItem
 
 # Interface: ITopSightsSerpElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocalJustificationInfo
+[Documentation](../globals.md) / ILocalJustificationInfo
 
 # Interface: ILocalJustificationInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppMetricsInfo
+[Documentation](../globals.md) / AppMetricsInfo
 
 # Class: AppMetricsInfo
 

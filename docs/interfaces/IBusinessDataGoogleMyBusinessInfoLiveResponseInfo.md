@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleMyBusinessInfoLiveResponseInfo
+[Documentation](../globals.md) / IBusinessDataGoogleMyBusinessInfoLiveResponseInfo
 
 # Interface: IBusinessDataGoogleMyBusinessInfoLiveResponseInfo
 

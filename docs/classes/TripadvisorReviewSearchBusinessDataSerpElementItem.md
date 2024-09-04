@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TripadvisorReviewSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / TripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Class: TripadvisorReviewSearchBusinessDataSerpElementItem
 

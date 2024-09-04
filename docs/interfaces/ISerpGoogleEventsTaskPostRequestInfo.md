@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleEventsTaskPostRequestInfo
+[Documentation](../globals.md) / ISerpGoogleEventsTaskPostRequestInfo
 
 # Interface: ISerpGoogleEventsTaskPostRequestInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IYoutubeCommentSerpElementItem
+[Documentation](../globals.md) / IYoutubeCommentSerpElementItem
 
 # Interface: IYoutubeCommentSerpElementItem
 

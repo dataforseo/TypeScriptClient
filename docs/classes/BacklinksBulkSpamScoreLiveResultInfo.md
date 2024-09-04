@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBulkSpamScoreLiveResultInfo
+[Documentation](../globals.md) / BacklinksBulkSpamScoreLiveResultInfo
 
 # Class: BacklinksBulkSpamScoreLiveResultInfo
 

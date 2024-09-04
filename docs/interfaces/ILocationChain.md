@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocationChain
+[Documentation](../globals.md) / ILocationChain
 
 # Interface: ILocationChain
 

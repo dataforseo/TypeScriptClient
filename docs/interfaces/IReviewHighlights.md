@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IReviewHighlights
+[Documentation](../globals.md) / IReviewHighlights
 
 # Interface: IReviewHighlights
 

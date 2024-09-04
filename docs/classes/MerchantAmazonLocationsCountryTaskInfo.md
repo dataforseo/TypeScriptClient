@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonLocationsCountryTaskInfo
+[Documentation](../globals.md) / MerchantAmazonLocationsCountryTaskInfo
 
 # Class: MerchantAmazonLocationsCountryTaskInfo
 

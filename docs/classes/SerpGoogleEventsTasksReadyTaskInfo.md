@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleEventsTasksReadyTaskInfo
+[Documentation](../globals.md) / SerpGoogleEventsTasksReadyTaskInfo
 
 # Class: SerpGoogleEventsTasksReadyTaskInfo
 

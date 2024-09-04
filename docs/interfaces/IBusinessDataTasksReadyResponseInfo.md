@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTasksReadyResponseInfo
+[Documentation](../globals.md) / IBusinessDataTasksReadyResponseInfo
 
 # Interface: IBusinessDataTasksReadyResponseInfo
 

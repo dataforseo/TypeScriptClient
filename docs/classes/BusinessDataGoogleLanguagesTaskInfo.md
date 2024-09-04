@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleLanguagesTaskInfo
+[Documentation](../globals.md) / BusinessDataGoogleLanguagesTaskInfo
 
 # Class: BusinessDataGoogleLanguagesTaskInfo
 

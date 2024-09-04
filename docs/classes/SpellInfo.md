@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SpellInfo
+[Documentation](../globals.md) / SpellInfo
 
 # Class: SpellInfo
 

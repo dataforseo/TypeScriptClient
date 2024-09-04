@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAutocompleteSerpElementItem
+[Documentation](../globals.md) / IAutocompleteSerpElementItem
 
 # Interface: IAutocompleteSerpElementItem
 

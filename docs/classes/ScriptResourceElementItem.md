@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ScriptResourceElementItem
+[Documentation](../globals.md) / ScriptResourceElementItem
 
 # Class: ScriptResourceElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleJobsTasksReadyResultInfo
+[Documentation](../globals.md) / SerpGoogleJobsTasksReadyResultInfo
 
 # Class: SerpGoogleJobsTasksReadyResultInfo
 

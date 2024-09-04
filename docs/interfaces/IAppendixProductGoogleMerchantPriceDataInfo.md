@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixProductGoogleMerchantPriceDataInfo
+[Documentation](../globals.md) / IAppendixProductGoogleMerchantPriceDataInfo
 
 # Interface: IAppendixProductGoogleMerchantPriceDataInfo
 

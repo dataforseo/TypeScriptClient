@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IScholarlyArticlesElement
+[Documentation](../globals.md) / IScholarlyArticlesElement
 
 # Interface: IScholarlyArticlesElement
 

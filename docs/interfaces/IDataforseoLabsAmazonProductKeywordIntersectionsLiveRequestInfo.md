@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 

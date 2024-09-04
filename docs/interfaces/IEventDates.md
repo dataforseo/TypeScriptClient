@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IEventDates
+[Documentation](../globals.md) / IEventDates
 
 # Interface: IEventDates
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleReviewsDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / GoogleReviewsDataforseoLabsSerpElementItem
 
 # Class: GoogleReviewsDataforseoLabsSerpElementItem
 

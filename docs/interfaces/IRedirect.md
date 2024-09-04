@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRedirect
+[Documentation](../globals.md) / IRedirect
 
 # Interface: IRedirect
 

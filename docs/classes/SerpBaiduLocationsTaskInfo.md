@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduLocationsTaskInfo
+[Documentation](../globals.md) / SerpBaiduLocationsTaskInfo
 
 # Class: SerpBaiduLocationsTaskInfo
 

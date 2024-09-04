@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleMapsTasksFixedTaskInfo
+[Documentation](../globals.md) / ISerpGoogleMapsTasksFixedTaskInfo
 
 # Interface: ISerpGoogleMapsTasksFixedTaskInfo
 

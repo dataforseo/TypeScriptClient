@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYahooOrganicLiveHtmlResponseInfo
+[Documentation](../globals.md) / ISerpYahooOrganicLiveHtmlResponseInfo
 
 # Interface: ISerpYahooOrganicLiveHtmlResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisLanguagesResultInfo
+[Documentation](../globals.md) / IContentAnalysisLanguagesResultInfo
 
 # Interface: IContentAnalysisLanguagesResultInfo
 

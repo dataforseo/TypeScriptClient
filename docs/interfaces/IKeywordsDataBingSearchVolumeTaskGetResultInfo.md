@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingSearchVolumeTaskGetResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeTaskGetResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTaskGetResultInfo
 

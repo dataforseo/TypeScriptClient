@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppStoreReviewsSearchSerpElementItem
+[Documentation](../globals.md) / IAppDataAppStoreReviewsSearchSerpElementItem
 
 # Interface: IAppDataAppStoreReviewsSearchSerpElementItem
 

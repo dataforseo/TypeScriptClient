@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsLocationsCountryResponseInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsLocationsCountryResponseInfo
 
 # Interface: IKeywordsDataGoogleAdsLocationsCountryResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocalFinderTasksFixedResponseInfo
+[Documentation](../globals.md) / ISerpGoogleLocalFinderTasksFixedResponseInfo
 
 # Interface: ISerpGoogleLocalFinderTasksFixedResponseInfo
 

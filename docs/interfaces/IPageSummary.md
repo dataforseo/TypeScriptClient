@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPageSummary
+[Documentation](../globals.md) / IPageSummary
 
 # Interface: IPageSummary
 

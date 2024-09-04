@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPositiveConnotationDistribution
+[Documentation](../globals.md) / IPositiveConnotationDistribution
 
 # Interface: IPositiveConnotationDistribution
 

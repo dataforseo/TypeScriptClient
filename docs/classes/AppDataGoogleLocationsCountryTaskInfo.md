@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleLocationsCountryTaskInfo
+[Documentation](../globals.md) / AppDataGoogleLocationsCountryTaskInfo
 
 # Class: AppDataGoogleLocationsCountryTaskInfo
 

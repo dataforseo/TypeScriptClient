@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonKeywordData
+[Documentation](../globals.md) / IAmazonKeywordData
 
 # Interface: IAmazonKeywordData
 

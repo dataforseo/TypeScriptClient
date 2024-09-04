@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MicrodataFieldsInfo
+[Documentation](../globals.md) / MicrodataFieldsInfo
 
 # Class: MicrodataFieldsInfo
 

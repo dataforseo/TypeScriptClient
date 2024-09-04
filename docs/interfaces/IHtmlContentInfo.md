@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHtmlContentInfo
+[Documentation](../globals.md) / IHtmlContentInfo
 
 # Interface: IHtmlContentInfo
 

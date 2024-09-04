@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Redirect
+[Documentation](../globals.md) / Redirect
 
 # Class: Redirect
 

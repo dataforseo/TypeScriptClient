@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleAvailableHistoryResponseInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleAvailableHistoryResponseInfo
 
 # Class: DataforseoLabsGoogleAvailableHistoryResponseInfo
 

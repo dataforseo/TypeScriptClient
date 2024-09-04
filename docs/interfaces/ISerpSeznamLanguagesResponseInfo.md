@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpSeznamLanguagesResponseInfo
+[Documentation](../globals.md) / ISerpSeznamLanguagesResponseInfo
 
 # Interface: ISerpSeznamLanguagesResponseInfo
 

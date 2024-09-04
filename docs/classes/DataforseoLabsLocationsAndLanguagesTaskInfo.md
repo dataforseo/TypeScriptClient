@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsLocationsAndLanguagesTaskInfo
+[Documentation](../globals.md) / DataforseoLabsLocationsAndLanguagesTaskInfo
 
 # Class: DataforseoLabsLocationsAndLanguagesTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IConceptInfo
+[Documentation](../globals.md) / IConceptInfo
 
 # Interface: IConceptInfo
 

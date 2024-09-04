@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPageMetrics
+[Documentation](../globals.md) / IPageMetrics
 
 # Interface: IPageMetrics
 

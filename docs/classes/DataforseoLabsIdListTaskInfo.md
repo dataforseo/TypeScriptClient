@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsIdListTaskInfo
+[Documentation](../globals.md) / DataforseoLabsIdListTaskInfo
 
 # Class: DataforseoLabsIdListTaskInfo
 

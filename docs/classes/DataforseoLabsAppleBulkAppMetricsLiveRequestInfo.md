@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 

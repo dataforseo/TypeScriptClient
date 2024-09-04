@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / VideoElement
+[Documentation](../globals.md) / VideoElement
 
 # Class: VideoElement
 

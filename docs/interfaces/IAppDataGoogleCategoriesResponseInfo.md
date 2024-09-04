@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleCategoriesResponseInfo
+[Documentation](../globals.md) / IAppDataGoogleCategoriesResponseInfo
 
 # Interface: IAppDataGoogleCategoriesResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IWorkInfo
+[Documentation](../globals.md) / IWorkInfo
 
 # Interface: IWorkInfo
 

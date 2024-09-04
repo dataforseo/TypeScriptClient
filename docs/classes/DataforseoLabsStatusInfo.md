@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsStatusInfo
+[Documentation](../globals.md) / DataforseoLabsStatusInfo
 
 # Class: DataforseoLabsStatusInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingOrganicTasksReadyResultInfo
+[Documentation](../globals.md) / SerpBingOrganicTasksReadyResultInfo
 
 # Class: SerpBingOrganicTasksReadyResultInfo
 

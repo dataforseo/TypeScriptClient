@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageContentParsingLiveResultInfo
+[Documentation](../globals.md) / OnPageContentParsingLiveResultInfo
 
 # Class: OnPageContentParsingLiveResultInfo
 

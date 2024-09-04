@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesTasksReadyResultInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoSubtitlesTasksReadyResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTasksReadyResultInfo
 

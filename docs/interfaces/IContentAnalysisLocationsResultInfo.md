@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisLocationsResultInfo
+[Documentation](../globals.md) / IContentAnalysisLocationsResultInfo
 
 # Interface: IContentAnalysisLocationsResultInfo
 

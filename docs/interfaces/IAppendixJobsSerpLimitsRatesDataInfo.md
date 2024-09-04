@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixJobsSerpLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixJobsSerpLimitsRatesDataInfo
 
 # Interface: IAppendixJobsSerpLimitsRatesDataInfo
 

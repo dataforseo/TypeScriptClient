@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BrokenResourceElementItem
+[Documentation](../globals.md) / BrokenResourceElementItem
 
 # Class: BrokenResourceElementItem
 

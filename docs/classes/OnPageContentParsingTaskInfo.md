@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageContentParsingTaskInfo
+[Documentation](../globals.md) / OnPageContentParsingTaskInfo
 
 # Class: OnPageContentParsingTaskInfo
 

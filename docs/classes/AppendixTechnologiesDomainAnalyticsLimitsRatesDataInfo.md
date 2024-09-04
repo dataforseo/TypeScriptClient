@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 

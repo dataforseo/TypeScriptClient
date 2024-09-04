@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsTasksReadyResponseInfo
 

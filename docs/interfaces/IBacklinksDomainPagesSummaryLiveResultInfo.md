@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksDomainPagesSummaryLiveResultInfo
+[Documentation](../globals.md) / IBacklinksDomainPagesSummaryLiveResultInfo
 
 # Interface: IBacklinksDomainPagesSummaryLiveResultInfo
 

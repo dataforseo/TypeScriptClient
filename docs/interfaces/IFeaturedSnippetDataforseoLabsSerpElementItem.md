@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IFeaturedSnippetDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IFeaturedSnippetDataforseoLabsSerpElementItem
 
 # Interface: IFeaturedSnippetDataforseoLabsSerpElementItem
 

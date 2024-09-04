@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixErrorsResponseInfo
+[Documentation](../globals.md) / IAppendixErrorsResponseInfo
 
 # Interface: IAppendixErrorsResponseInfo
 

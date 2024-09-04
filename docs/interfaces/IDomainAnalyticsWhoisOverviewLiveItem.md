@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsWhoisOverviewLiveItem
+[Documentation](../globals.md) / IDomainAnalyticsWhoisOverviewLiveItem
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveItem
 

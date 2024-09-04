@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoTrendsDataInfo
+[Documentation](../globals.md) / IDataforseoTrendsDataInfo
 
 # Interface: IDataforseoTrendsDataInfo
 

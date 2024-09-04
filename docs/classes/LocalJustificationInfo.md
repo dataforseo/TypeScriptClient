@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalJustificationInfo
+[Documentation](../globals.md) / LocalJustificationInfo
 
 # Class: LocalJustificationInfo
 

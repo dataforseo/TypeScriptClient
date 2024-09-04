@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductSeller
+[Documentation](../globals.md) / IProductSeller
 
 # Interface: IProductSeller
 

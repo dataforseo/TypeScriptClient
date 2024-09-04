@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 

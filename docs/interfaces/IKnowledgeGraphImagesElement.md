@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphImagesElement
+[Documentation](../globals.md) / IKnowledgeGraphImagesElement
 
 # Interface: IKnowledgeGraphImagesElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseMerchantSerpElementItem
+[Documentation](../globals.md) / BaseMerchantSerpElementItem
 
 # Class: BaseMerchantSerpElementItem
 

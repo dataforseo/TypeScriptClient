@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GooglePlayMetricsBundleInfo
+[Documentation](../globals.md) / GooglePlayMetricsBundleInfo
 
 # Class: GooglePlayMetricsBundleInfo
 

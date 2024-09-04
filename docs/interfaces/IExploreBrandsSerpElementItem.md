@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IExploreBrandsSerpElementItem
+[Documentation](../globals.md) / IExploreBrandsSerpElementItem
 
 # Interface: IExploreBrandsSerpElementItem
 

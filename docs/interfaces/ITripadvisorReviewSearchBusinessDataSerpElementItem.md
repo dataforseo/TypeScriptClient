@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / ITripadvisorReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITripadvisorReviewSearchBusinessDataSerpElementItem
 

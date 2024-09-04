@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingOrganicLiveRegularResultInfo
+[Documentation](../globals.md) / SerpBingOrganicLiveRegularResultInfo
 
 # Class: SerpBingOrganicLiveRegularResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGooglePlayInfoOrganicSerpElementItem
+[Documentation](../globals.md) / IAppDataGooglePlayInfoOrganicSerpElementItem
 
 # Interface: IAppDataGooglePlayInfoOrganicSerpElementItem
 

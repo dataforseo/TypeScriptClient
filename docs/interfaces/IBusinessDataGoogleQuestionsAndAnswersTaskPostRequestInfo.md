@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
+[Documentation](../globals.md) / IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
 
 # Interface: IBusinessDataGoogleQuestionsAndAnswersTaskPostRequestInfo
 

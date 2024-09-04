@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IResponseDataInfo
+[Documentation](../globals.md) / IResponseDataInfo
 
 # Interface: IResponseDataInfo
 

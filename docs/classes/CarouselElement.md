@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CarouselElement
+[Documentation](../globals.md) / CarouselElement
 
 # Class: CarouselElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppSearchesTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / IAppDataGoogleAppSearchesTaskGetAdvancedTaskInfo
 
 # Interface: IAppDataGoogleAppSearchesTaskGetAdvancedTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleLanguagesTaskInfo
+[Documentation](../globals.md) / IMerchantGoogleLanguagesTaskInfo
 
 # Interface: IMerchantGoogleLanguagesTaskInfo
 

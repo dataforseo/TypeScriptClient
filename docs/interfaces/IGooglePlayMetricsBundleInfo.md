@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGooglePlayMetricsBundleInfo
+[Documentation](../globals.md) / IGooglePlayMetricsBundleInfo
 
 # Interface: IGooglePlayMetricsBundleInfo
 

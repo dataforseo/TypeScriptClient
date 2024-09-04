@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Rectangle
+[Documentation](../globals.md) / Rectangle
 
 # Class: Rectangle
 

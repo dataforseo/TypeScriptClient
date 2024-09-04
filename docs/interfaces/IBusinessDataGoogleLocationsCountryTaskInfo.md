@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleLocationsCountryTaskInfo
+[Documentation](../globals.md) / IBusinessDataGoogleLocationsCountryTaskInfo
 
 # Interface: IBusinessDataGoogleLocationsCountryTaskInfo
 

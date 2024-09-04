@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RatingElement
+[Documentation](../globals.md) / RatingElement
 
 # Class: RatingElement
 

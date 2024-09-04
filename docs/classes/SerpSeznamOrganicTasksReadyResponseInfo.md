@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamOrganicTasksReadyResponseInfo
+[Documentation](../globals.md) / SerpSeznamOrganicTasksReadyResponseInfo
 
 # Class: SerpSeznamOrganicTasksReadyResponseInfo
 

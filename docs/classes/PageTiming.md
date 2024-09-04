@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PageTiming
+[Documentation](../globals.md) / PageTiming
 
 # Class: PageTiming
 

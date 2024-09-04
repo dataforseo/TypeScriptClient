@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseGoogleTrendsItem
+[Documentation](../globals.md) / BaseGoogleTrendsItem
 
 # Class: BaseGoogleTrendsItem
 

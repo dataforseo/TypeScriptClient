@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAvailableLanguages
+[Documentation](../globals.md) / IAvailableLanguages
 
 # Interface: IAvailableLanguages
 

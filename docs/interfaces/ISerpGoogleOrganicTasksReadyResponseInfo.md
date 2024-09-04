@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleOrganicTasksReadyResponseInfo
+[Documentation](../globals.md) / ISerpGoogleOrganicTasksReadyResponseInfo
 
 # Interface: ISerpGoogleOrganicTasksReadyResponseInfo
 

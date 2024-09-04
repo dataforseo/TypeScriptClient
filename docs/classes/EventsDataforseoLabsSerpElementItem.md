@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / EventsDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / EventsDataforseoLabsSerpElementItem
 
 # Class: EventsDataforseoLabsSerpElementItem
 

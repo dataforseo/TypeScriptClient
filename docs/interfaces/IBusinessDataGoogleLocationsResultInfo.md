@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleLocationsResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleLocationsResultInfo
 
 # Interface: IBusinessDataGoogleLocationsResultInfo
 

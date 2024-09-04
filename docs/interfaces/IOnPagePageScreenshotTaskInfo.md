@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPagePageScreenshotTaskInfo
+[Documentation](../globals.md) / IOnPagePageScreenshotTaskInfo
 
 # Interface: IOnPagePageScreenshotTaskInfo
 

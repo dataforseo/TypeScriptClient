@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RelatedSearchesMerchantSerpElementItem
+[Documentation](../globals.md) / RelatedSearchesMerchantSerpElementItem
 
 # Class: RelatedSearchesMerchantSerpElementItem
 

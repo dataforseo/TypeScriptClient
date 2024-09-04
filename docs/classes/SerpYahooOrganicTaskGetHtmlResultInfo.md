@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooOrganicTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpYahooOrganicTaskGetHtmlResultInfo
 
 # Class: SerpYahooOrganicTaskGetHtmlResultInfo
 

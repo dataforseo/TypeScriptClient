@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageWaterfallItem
+[Documentation](../globals.md) / OnPageWaterfallItem
 
 # Class: OnPageWaterfallItem
 

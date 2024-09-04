@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTrustpilotSearchTasksReadyResponseInfo
+[Documentation](../globals.md) / IBusinessDataTrustpilotSearchTasksReadyResponseInfo
 
 # Interface: IBusinessDataTrustpilotSearchTasksReadyResponseInfo
 

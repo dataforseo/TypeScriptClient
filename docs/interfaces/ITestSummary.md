@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITestSummary
+[Documentation](../globals.md) / ITestSummary
 
 # Interface: ITestSummary
 

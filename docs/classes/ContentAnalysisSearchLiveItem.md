@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisSearchLiveItem
+[Documentation](../globals.md) / ContentAnalysisSearchLiveItem
 
 # Class: ContentAnalysisSearchLiveItem
 

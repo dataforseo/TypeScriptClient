@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 

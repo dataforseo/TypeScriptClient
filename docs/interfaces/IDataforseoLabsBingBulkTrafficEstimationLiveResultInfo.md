@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
 # Interface: IDataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 

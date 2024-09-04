@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisLocationsResponseInfo
+[Documentation](../globals.md) / ContentAnalysisLocationsResponseInfo
 
 # Class: ContentAnalysisLocationsResponseInfo
 

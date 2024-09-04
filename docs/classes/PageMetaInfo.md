@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PageMetaInfo
+[Documentation](../globals.md) / PageMetaInfo
 
 # Class: PageMetaInfo
 

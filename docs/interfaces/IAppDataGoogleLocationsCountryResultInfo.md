@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleLocationsCountryResultInfo
+[Documentation](../globals.md) / IAppDataGoogleLocationsCountryResultInfo
 
 # Interface: IAppDataGoogleLocationsCountryResultInfo
 

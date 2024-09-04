@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / WorkHours
+[Documentation](../globals.md) / WorkHours
 
 # Class: WorkHours
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMetricsInfo
+[Documentation](../globals.md) / IMetricsInfo
 
 # Interface: IMetricsInfo
 

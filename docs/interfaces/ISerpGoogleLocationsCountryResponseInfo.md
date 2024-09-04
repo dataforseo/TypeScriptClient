@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocationsCountryResponseInfo
+[Documentation](../globals.md) / ISerpGoogleLocationsCountryResponseInfo
 
 # Interface: ISerpGoogleLocationsCountryResponseInfo
 

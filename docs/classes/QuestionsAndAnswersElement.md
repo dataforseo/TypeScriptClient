@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / QuestionsAndAnswersElement
+[Documentation](../globals.md) / QuestionsAndAnswersElement
 
 # Class: QuestionsAndAnswersElement
 

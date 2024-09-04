@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseLiveJsonResponseInfo
+[Documentation](../globals.md) / OnPageLighthouseLiveJsonResponseInfo
 
 # Class: OnPageLighthouseLiveJsonResponseInfo
 

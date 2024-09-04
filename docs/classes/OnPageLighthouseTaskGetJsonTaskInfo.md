@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseTaskGetJsonTaskInfo
+[Documentation](../globals.md) / OnPageLighthouseTaskGetJsonTaskInfo
 
 # Class: OnPageLighthouseTaskGetJsonTaskInfo
 

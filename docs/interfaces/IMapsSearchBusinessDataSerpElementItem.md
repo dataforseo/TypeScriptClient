@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMapsSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / IMapsSearchBusinessDataSerpElementItem
 
 # Interface: IMapsSearchBusinessDataSerpElementItem
 

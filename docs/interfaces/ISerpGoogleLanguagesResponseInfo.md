@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLanguagesResponseInfo
+[Documentation](../globals.md) / ISerpGoogleLanguagesResponseInfo
 
 # Interface: ISerpGoogleLanguagesResponseInfo
 

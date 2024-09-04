@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Subtitles
+[Documentation](../globals.md) / Subtitles
 
 # Class: Subtitles
 

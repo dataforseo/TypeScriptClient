@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksAvailableFiltersTaskInfo
+[Documentation](../globals.md) / BacklinksAvailableFiltersTaskInfo
 
 # Class: BacklinksAvailableFiltersTaskInfo
 

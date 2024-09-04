@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RankedKeywordsInfo
+[Documentation](../globals.md) / RankedKeywordsInfo
 
 # Class: RankedKeywordsInfo
 

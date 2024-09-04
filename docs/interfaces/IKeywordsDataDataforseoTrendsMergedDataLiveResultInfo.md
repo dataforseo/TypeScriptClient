@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo
+[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 

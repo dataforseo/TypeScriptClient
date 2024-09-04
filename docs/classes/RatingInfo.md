@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RatingInfo
+[Documentation](../globals.md) / RatingInfo
 
 # Class: RatingInfo
 

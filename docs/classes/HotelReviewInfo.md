@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelReviewInfo
+[Documentation](../globals.md) / HotelReviewInfo
 
 # Class: HotelReviewInfo
 

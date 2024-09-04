@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo
+[Documentation](../globals.md) / BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo
 
 # Class: BusinessDataGoogleHotelInfoTaskGetHtmlResponseInfo
 

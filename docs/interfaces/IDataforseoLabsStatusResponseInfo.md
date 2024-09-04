@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsStatusResponseInfo
+[Documentation](../globals.md) / IDataforseoLabsStatusResponseInfo
 
 # Interface: IDataforseoLabsStatusResponseInfo
 

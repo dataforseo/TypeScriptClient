@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonAmazonPaidSerpElementItem
+[Documentation](../globals.md) / IAmazonAmazonPaidSerpElementItem
 
 # Interface: IAmazonAmazonPaidSerpElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeLocationsCountryResponseInfo
+[Documentation](../globals.md) / ISerpYoutubeLocationsCountryResponseInfo
 
 # Interface: ISerpYoutubeLocationsCountryResponseInfo
 

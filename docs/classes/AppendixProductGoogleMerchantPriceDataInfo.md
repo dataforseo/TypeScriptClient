@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixProductGoogleMerchantPriceDataInfo
+[Documentation](../globals.md) / AppendixProductGoogleMerchantPriceDataInfo
 
 # Class: AppendixProductGoogleMerchantPriceDataInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITrendsGraphDataInfo
+[Documentation](../globals.md) / ITrendsGraphDataInfo
 
 # Interface: ITrendsGraphDataInfo
 

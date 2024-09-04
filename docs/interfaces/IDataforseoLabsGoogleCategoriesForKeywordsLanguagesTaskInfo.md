@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLanguagesTaskInfo
 

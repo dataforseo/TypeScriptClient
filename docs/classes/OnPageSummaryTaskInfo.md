@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageSummaryTaskInfo
+[Documentation](../globals.md) / OnPageSummaryTaskInfo
 
 # Class: OnPageSummaryTaskInfo
 

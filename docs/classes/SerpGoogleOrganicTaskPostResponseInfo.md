@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleOrganicTaskPostResponseInfo
+[Documentation](../globals.md) / SerpGoogleOrganicTaskPostResponseInfo
 
 # Class: SerpGoogleOrganicTaskPostResponseInfo
 

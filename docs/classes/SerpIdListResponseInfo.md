@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpIdListResponseInfo
+[Documentation](../globals.md) / SerpIdListResponseInfo
 
 # Class: SerpIdListResponseInfo
 

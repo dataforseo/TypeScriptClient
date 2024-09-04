@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
+[Documentation](../globals.md) / IContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Interface: IContentGenerationGenerateSubTopicsLiveRequestInfo
 

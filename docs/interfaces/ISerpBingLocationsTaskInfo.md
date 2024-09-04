@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLocationsTaskInfo
+[Documentation](../globals.md) / ISerpBingLocationsTaskInfo
 
 # Interface: ISerpBingLocationsTaskInfo
 

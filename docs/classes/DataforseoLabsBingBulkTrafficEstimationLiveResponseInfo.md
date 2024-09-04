@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo
+[Documentation](../globals.md) / DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductInformationExtendedItem
+[Documentation](../globals.md) / IProductInformationExtendedItem
 
 # Interface: IProductInformationExtendedItem
 

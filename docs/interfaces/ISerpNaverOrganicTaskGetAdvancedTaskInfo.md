@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpNaverOrganicTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / ISerpNaverOrganicTaskGetAdvancedTaskInfo
 
 # Interface: ISerpNaverOrganicTaskGetAdvancedTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMonthlySearches
+[Documentation](../globals.md) / IMonthlySearches
 
 # Interface: IMonthlySearches
 

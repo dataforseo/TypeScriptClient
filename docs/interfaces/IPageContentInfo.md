@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPageContentInfo
+[Documentation](../globals.md) / IPageContentInfo
 
 # Interface: IPageContentInfo
 

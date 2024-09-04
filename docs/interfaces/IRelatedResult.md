@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRelatedResult
+[Documentation](../globals.md) / IRelatedResult
 
 # Interface: IRelatedResult
 

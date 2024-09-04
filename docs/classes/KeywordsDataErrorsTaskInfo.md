@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataErrorsTaskInfo
+[Documentation](../globals.md) / KeywordsDataErrorsTaskInfo
 
 # Class: KeywordsDataErrorsTaskInfo
 

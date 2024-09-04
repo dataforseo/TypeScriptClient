@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageNonIndexableRequestInfo
+[Documentation](../globals.md) / OnPageNonIndexableRequestInfo
 
 # Class: OnPageNonIndexableRequestInfo
 

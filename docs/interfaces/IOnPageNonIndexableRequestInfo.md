@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageNonIndexableRequestInfo
+[Documentation](../globals.md) / IOnPageNonIndexableRequestInfo
 
 # Interface: IOnPageNonIndexableRequestInfo
 

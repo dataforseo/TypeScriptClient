@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsIdListRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsIdListRequestInfo
 
 # Interface: IDataforseoLabsIdListRequestInfo
 

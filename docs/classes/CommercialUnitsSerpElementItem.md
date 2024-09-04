@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CommercialUnitsSerpElementItem
+[Documentation](../globals.md) / CommercialUnitsSerpElementItem
 
 # Class: CommercialUnitsSerpElementItem
 

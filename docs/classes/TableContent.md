@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TableContent
+[Documentation](../globals.md) / TableContent
 
 # Class: TableContent
 

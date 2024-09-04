@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPagePageScreenshotResultInfo
+[Documentation](../globals.md) / IOnPagePageScreenshotResultInfo
 
 # Interface: IOnPagePageScreenshotResultInfo
 

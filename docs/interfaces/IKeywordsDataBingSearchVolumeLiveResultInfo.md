@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingSearchVolumeLiveResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeLiveResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeLiveResultInfo
 

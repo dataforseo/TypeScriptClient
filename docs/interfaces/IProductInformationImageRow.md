@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductInformationImageRow
+[Documentation](../globals.md) / IProductInformationImageRow
 
 # Interface: IProductInformationImageRow
 

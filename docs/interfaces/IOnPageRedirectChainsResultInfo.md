@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageRedirectChainsResultInfo
+[Documentation](../globals.md) / IOnPageRedirectChainsResultInfo
 
 # Interface: IOnPageRedirectChainsResultInfo
 

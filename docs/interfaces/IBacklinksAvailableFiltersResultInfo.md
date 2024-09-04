@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksAvailableFiltersResultInfo
+[Documentation](../globals.md) / IBacklinksAvailableFiltersResultInfo
 
 # Interface: IBacklinksAvailableFiltersResultInfo
 

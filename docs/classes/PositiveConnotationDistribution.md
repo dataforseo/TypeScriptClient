@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PositiveConnotationDistribution
+[Documentation](../globals.md) / PositiveConnotationDistribution
 
 # Class: PositiveConnotationDistribution
 

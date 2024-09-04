@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppListingsCategoriesResultInfo
+[Documentation](../globals.md) / AppDataGoogleAppListingsCategoriesResultInfo
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordsForSiteTaskPostResponseInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordsForSiteTaskPostResponseInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteTaskPostResponseInfo
 

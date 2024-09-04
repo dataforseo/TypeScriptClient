@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPeopleAlsoSearch
+[Documentation](../globals.md) / IPeopleAlsoSearch
 
 # Interface: IPeopleAlsoSearch
 

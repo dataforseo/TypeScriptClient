@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoCommentsTasksFixedResponseInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoCommentsTasksFixedResponseInfo
 
 # Interface: ISerpYoutubeVideoCommentsTasksFixedResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDiscussionsAndForumsSerpElementItem
+[Documentation](../globals.md) / IDiscussionsAndForumsSerpElementItem
 
 # Interface: IDiscussionsAndForumsSerpElementItem
 

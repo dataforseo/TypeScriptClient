@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CountryDistribution
+[Documentation](../globals.md) / CountryDistribution
 
 # Class: CountryDistribution
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRatingInfo
+[Documentation](../globals.md) / IRatingInfo
 
 # Interface: IRatingInfo
 

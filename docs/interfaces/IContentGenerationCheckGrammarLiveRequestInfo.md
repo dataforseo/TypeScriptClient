@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationCheckGrammarLiveRequestInfo
+[Documentation](../globals.md) / IContentGenerationCheckGrammarLiveRequestInfo
 
 # Interface: IContentGenerationCheckGrammarLiveRequestInfo
 

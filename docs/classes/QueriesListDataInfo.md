@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / QueriesListDataInfo
+[Documentation](../globals.md) / QueriesListDataInfo
 
 # Class: QueriesListDataInfo
 

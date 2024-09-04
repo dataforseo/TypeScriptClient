@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsMetricsInfo
+[Documentation](../globals.md) / IDataforseoLabsMetricsInfo
 
 # Interface: IDataforseoLabsMetricsInfo
 

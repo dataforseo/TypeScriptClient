@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseGoogleTrendsItem
+[Documentation](../globals.md) / IBaseGoogleTrendsItem
 
 # Interface: IBaseGoogleTrendsItem
 

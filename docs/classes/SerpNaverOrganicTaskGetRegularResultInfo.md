@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpNaverOrganicTaskGetRegularResultInfo
+[Documentation](../globals.md) / SerpNaverOrganicTaskGetRegularResultInfo
 
 # Class: SerpNaverOrganicTaskGetRegularResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TopicInfo
+[Documentation](../globals.md) / TopicInfo
 
 # Class: TopicInfo
 

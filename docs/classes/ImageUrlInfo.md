@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ImageUrlInfo
+[Documentation](../globals.md) / ImageUrlInfo
 
 # Class: ImageUrlInfo
 

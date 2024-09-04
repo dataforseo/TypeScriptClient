@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataIdListResultInfo
+[Documentation](../globals.md) / IKeywordsDataIdListResultInfo
 
 # Interface: IKeywordsDataIdListResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MathSolverExpandedElement
+[Documentation](../globals.md) / MathSolverExpandedElement
 
 # Class: MathSolverExpandedElement
 

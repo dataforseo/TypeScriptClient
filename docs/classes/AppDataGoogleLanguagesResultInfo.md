@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleLanguagesResultInfo
+[Documentation](../globals.md) / AppDataGoogleLanguagesResultInfo
 
 # Class: AppDataGoogleLanguagesResultInfo
 

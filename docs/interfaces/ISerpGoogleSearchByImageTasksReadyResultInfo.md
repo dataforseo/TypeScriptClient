@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleSearchByImageTasksReadyResultInfo
+[Documentation](../globals.md) / ISerpGoogleSearchByImageTasksReadyResultInfo
 
 # Interface: ISerpGoogleSearchByImageTasksReadyResultInfo
 

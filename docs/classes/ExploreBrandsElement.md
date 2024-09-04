@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ExploreBrandsElement
+[Documentation](../globals.md) / ExploreBrandsElement
 
 # Class: ExploreBrandsElement
 

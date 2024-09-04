@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageIdListRequestInfo
+[Documentation](../globals.md) / OnPageIdListRequestInfo
 
 # Class: OnPageIdListRequestInfo
 

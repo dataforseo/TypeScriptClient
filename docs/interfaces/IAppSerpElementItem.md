@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppSerpElementItem
+[Documentation](../globals.md) / IAppSerpElementItem
 
 # Interface: IAppSerpElementItem
 

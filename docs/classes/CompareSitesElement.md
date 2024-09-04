@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CompareSitesElement
+[Documentation](../globals.md) / CompareSitesElement
 
 # Class: CompareSitesElement
 

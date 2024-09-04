@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PageSectionContentInfo
+[Documentation](../globals.md) / PageSectionContentInfo
 
 # Class: PageSectionContentInfo
 

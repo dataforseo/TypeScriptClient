@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisCategoryTrendsLiveTaskInfo
+[Documentation](../globals.md) / ContentAnalysisCategoryTrendsLiveTaskInfo
 
 # Class: ContentAnalysisCategoryTrendsLiveTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IExploreBrandsElement
+[Documentation](../globals.md) / IExploreBrandsElement
 
 # Interface: IExploreBrandsElement
 

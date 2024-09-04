@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoTrendsSubregionInterestsElementItem
+[Documentation](../globals.md) / DataforseoTrendsSubregionInterestsElementItem
 
 # Class: DataforseoTrendsSubregionInterestsElementItem
 

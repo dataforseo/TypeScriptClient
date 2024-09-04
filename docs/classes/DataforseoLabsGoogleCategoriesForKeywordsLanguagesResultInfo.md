@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 

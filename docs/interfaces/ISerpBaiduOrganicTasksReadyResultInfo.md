@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBaiduOrganicTasksReadyResultInfo
+[Documentation](../globals.md) / ISerpBaiduOrganicTasksReadyResultInfo
 
 # Interface: ISerpBaiduOrganicTasksReadyResultInfo
 

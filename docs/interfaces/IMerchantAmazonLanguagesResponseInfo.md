@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantAmazonLanguagesResponseInfo
+[Documentation](../globals.md) / IMerchantAmazonLanguagesResponseInfo
 
 # Interface: IMerchantAmazonLanguagesResponseInfo
 

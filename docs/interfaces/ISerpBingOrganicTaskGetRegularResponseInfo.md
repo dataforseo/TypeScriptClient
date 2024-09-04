@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingOrganicTaskGetRegularResponseInfo
+[Documentation](../globals.md) / ISerpBingOrganicTaskGetRegularResponseInfo
 
 # Interface: ISerpBingOrganicTaskGetRegularResponseInfo
 

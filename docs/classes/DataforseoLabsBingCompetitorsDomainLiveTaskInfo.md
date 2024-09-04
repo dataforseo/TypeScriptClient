@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingCompetitorsDomainLiveTaskInfo
+[Documentation](../globals.md) / DataforseoLabsBingCompetitorsDomainLiveTaskInfo
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveTaskInfo
 

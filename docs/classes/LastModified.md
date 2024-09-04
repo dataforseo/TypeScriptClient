@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LastModified
+[Documentation](../globals.md) / LastModified
 
 # Class: LastModified
 

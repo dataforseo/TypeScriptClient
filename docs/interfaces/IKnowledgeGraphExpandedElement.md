@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphExpandedElement
+[Documentation](../globals.md) / IKnowledgeGraphExpandedElement
 
 # Interface: IKnowledgeGraphExpandedElement
 

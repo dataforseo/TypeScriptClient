@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo
 

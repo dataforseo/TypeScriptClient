@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsIdListTaskInfo
+[Documentation](../globals.md) / IDomainAnalyticsIdListTaskInfo
 
 # Interface: IDomainAnalyticsIdListTaskInfo
 

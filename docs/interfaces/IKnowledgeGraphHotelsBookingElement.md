@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphHotelsBookingElement
+[Documentation](../globals.md) / IKnowledgeGraphHotelsBookingElement
 
 # Interface: IKnowledgeGraphHotelsBookingElement
 

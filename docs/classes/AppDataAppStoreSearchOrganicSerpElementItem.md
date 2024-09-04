@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppStoreSearchOrganicSerpElementItem
+[Documentation](../globals.md) / AppDataAppStoreSearchOrganicSerpElementItem
 
 # Class: AppDataAppStoreSearchOrganicSerpElementItem
 

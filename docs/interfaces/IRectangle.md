@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRectangle
+[Documentation](../globals.md) / IRectangle
 
 # Interface: IRectangle
 

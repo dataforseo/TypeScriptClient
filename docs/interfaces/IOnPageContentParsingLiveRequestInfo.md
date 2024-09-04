@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageContentParsingLiveRequestInfo
+[Documentation](../globals.md) / IOnPageContentParsingLiveRequestInfo
 
 # Interface: IOnPageContentParsingLiveRequestInfo
 

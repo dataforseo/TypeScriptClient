@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataIdListResponseInfo
+[Documentation](../globals.md) / BusinessDataIdListResponseInfo
 
 # Class: BusinessDataIdListResponseInfo
 

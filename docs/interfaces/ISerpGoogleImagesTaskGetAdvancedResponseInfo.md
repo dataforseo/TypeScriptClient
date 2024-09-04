@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleImagesTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / ISerpGoogleImagesTaskGetAdvancedResponseInfo
 
 # Interface: ISerpGoogleImagesTaskGetAdvancedResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooLocationsResultInfo
+[Documentation](../globals.md) / SerpYahooLocationsResultInfo
 
 # Class: SerpYahooLocationsResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IShoppingDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IShoppingDataforseoLabsSerpElementItem
 
 # Interface: IShoppingDataforseoLabsSerpElementItem
 

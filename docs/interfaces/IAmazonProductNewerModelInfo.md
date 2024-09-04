@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonProductNewerModelInfo
+[Documentation](../globals.md) / IAmazonProductNewerModelInfo
 
 # Interface: IAmazonProductNewerModelInfo
 

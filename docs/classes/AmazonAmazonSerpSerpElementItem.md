@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonAmazonSerpSerpElementItem
+[Documentation](../globals.md) / AmazonAmazonSerpSerpElementItem
 
 # Class: AmazonAmazonSerpSerpElementItem
 

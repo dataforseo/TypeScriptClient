@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonSellersTaskGetHtmlResultInfo
+[Documentation](../globals.md) / MerchantAmazonSellersTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonSellersTaskGetHtmlResultInfo
 

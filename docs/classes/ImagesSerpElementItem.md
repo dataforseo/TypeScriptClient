@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ImagesSerpElementItem
+[Documentation](../globals.md) / ImagesSerpElementItem
 
 # Class: ImagesSerpElementItem
 

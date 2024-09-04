@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAvgBacklinksInfo
+[Documentation](../globals.md) / IAvgBacklinksInfo
 
 # Interface: IAvgBacklinksInfo
 

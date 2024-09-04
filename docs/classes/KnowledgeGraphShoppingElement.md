@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphShoppingElement
+[Documentation](../globals.md) / KnowledgeGraphShoppingElement
 
 # Class: KnowledgeGraphShoppingElement
 

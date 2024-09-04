@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageMicrodataRequestInfo
+[Documentation](../globals.md) / IOnPageMicrodataRequestInfo
 
 # Interface: IOnPageMicrodataRequestInfo
 

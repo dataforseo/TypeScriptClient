@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleRankedKeywordsLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OrganicDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / OrganicDataforseoLabsSerpElementItem
 
 # Class: OrganicDataforseoLabsSerpElementItem
 

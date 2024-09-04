@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / StreamingQualityElement
+[Documentation](../globals.md) / StreamingQualityElement
 
 # Class: StreamingQualityElement
 

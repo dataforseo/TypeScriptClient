@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RankChanges
+[Documentation](../globals.md) / RankChanges
 
 # Class: RankChanges
 

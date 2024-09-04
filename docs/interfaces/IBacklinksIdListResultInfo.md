@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksIdListResultInfo
+[Documentation](../globals.md) / IBacklinksIdListResultInfo
 
 # Interface: IBacklinksIdListResultInfo
 

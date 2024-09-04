@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
 
 # Class: DomainAnalyticsTechnologiesLanguagesResultInfo
 

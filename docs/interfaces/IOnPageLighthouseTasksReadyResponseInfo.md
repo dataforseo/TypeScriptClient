@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseTasksReadyResponseInfo
+[Documentation](../globals.md) / IOnPageLighthouseTasksReadyResponseInfo
 
 # Interface: IOnPageLighthouseTasksReadyResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IConceptGroupInfo
+[Documentation](../globals.md) / IConceptGroupInfo
 
 # Interface: IConceptGroupInfo
 

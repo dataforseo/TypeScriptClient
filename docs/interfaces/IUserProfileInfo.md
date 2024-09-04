@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IUserProfileInfo
+[Documentation](../globals.md) / IUserProfileInfo
 
 # Interface: IUserProfileInfo
 

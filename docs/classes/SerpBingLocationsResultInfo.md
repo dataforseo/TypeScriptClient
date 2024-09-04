@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLocationsResultInfo
+[Documentation](../globals.md) / SerpBingLocationsResultInfo
 
 # Class: SerpBingLocationsResultInfo
 

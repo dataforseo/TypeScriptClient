@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreTaskPostTaskInfo
 

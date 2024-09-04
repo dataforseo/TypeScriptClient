@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordDataInfo
+[Documentation](../globals.md) / IKeywordDataInfo
 
 # Interface: IKeywordDataInfo
 

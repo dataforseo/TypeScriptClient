@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainInfo
+[Documentation](../globals.md) / DomainInfo
 
 # Class: DomainInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IYoutubeVideoInfoSerpElementItem
+[Documentation](../globals.md) / IYoutubeVideoInfoSerpElementItem
 
 # Interface: IYoutubeVideoInfoSerpElementItem
 

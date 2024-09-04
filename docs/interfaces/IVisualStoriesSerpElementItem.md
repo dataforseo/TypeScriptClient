@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IVisualStoriesSerpElementItem
+[Documentation](../globals.md) / IVisualStoriesSerpElementItem
 
 # Interface: IVisualStoriesSerpElementItem
 

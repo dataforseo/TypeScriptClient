@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationGrammarRulesTaskInfo
+[Documentation](../globals.md) / ContentGenerationGrammarRulesTaskInfo
 
 # Class: ContentGenerationGrammarRulesTaskInfo
 

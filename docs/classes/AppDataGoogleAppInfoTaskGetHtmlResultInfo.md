@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppInfoTaskGetHtmlResultInfo
+[Documentation](../globals.md) / AppDataGoogleAppInfoTaskGetHtmlResultInfo
 
 # Class: AppDataGoogleAppInfoTaskGetHtmlResultInfo
 

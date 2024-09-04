@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceLiveRequestInfo
 

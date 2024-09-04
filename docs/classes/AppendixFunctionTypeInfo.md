@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixFunctionTypeInfo
+[Documentation](../globals.md) / AppendixFunctionTypeInfo
 
 # Class: AppendixFunctionTypeInfo
 

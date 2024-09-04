@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisPhraseTrendsLiveResponseInfo
+[Documentation](../globals.md) / IContentAnalysisPhraseTrendsLiveResponseInfo
 
 # Interface: IContentAnalysisPhraseTrendsLiveResponseInfo
 

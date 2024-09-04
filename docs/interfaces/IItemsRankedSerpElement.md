@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IItemsRankedSerpElement
+[Documentation](../globals.md) / IItemsRankedSerpElement
 
 # Interface: IItemsRankedSerpElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixWebhookResendResponseInfo
+[Documentation](../globals.md) / AppendixWebhookResendResponseInfo
 
 # Class: AppendixWebhookResendResponseInfo
 

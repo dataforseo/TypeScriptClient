@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleJobsTaskGetHtmlResultInfo
+[Documentation](../globals.md) / ISerpGoogleJobsTaskGetHtmlResultInfo
 
 # Interface: ISerpGoogleJobsTaskGetHtmlResultInfo
 

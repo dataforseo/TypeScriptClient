@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleSellersAdUrlResultInfo
+[Documentation](../globals.md) / IMerchantGoogleSellersAdUrlResultInfo
 
 # Interface: IMerchantGoogleSellersAdUrlResultInfo
 

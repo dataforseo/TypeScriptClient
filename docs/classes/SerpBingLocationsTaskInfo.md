@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLocationsTaskInfo
+[Documentation](../globals.md) / SerpBingLocationsTaskInfo
 
 # Class: SerpBingLocationsTaskInfo
 

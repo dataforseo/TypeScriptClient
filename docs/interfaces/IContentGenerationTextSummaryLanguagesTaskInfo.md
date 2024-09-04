@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationTextSummaryLanguagesTaskInfo
+[Documentation](../globals.md) / IContentGenerationTextSummaryLanguagesTaskInfo
 
 # Interface: IContentGenerationTextSummaryLanguagesTaskInfo
 

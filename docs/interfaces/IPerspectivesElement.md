@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPerspectivesElement
+[Documentation](../globals.md) / IPerspectivesElement
 
 # Interface: IPerspectivesElement
 

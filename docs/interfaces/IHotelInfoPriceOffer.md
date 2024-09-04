@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHotelInfoPriceOffer
+[Documentation](../globals.md) / IHotelInfoPriceOffer
 
 # Interface: IHotelInfoPriceOffer
 

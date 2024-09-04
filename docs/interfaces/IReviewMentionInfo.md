@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IReviewMentionInfo
+[Documentation](../globals.md) / IReviewMentionInfo
 
 # Interface: IReviewMentionInfo
 

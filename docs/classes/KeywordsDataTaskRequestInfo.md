@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataTaskRequestInfo
+[Documentation](../globals.md) / KeywordsDataTaskRequestInfo
 
 # Class: KeywordsDataTaskRequestInfo
 

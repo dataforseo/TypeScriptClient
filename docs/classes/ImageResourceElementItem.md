@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ImageResourceElementItem
+[Documentation](../globals.md) / ImageResourceElementItem
 
 # Class: ImageResourceElementItem
 

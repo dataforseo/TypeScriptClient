@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonRankedSerpElement
+[Documentation](../globals.md) / IAmazonRankedSerpElement
 
 # Interface: IAmazonRankedSerpElement
 

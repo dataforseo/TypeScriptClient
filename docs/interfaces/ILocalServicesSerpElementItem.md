@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocalServicesSerpElementItem
+[Documentation](../globals.md) / ILocalServicesSerpElementItem
 
 # Interface: ILocalServicesSerpElementItem
 

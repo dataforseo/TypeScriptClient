@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleFlightsElement
+[Documentation](../globals.md) / IGoogleFlightsElement
 
 # Interface: IGoogleFlightsElement
 

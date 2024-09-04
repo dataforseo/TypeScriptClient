@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleSearchIntentLiveItem
+[Documentation](../globals.md) / DataforseoLabsGoogleSearchIntentLiveItem
 
 # Class: DataforseoLabsGoogleSearchIntentLiveItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataIdListTaskInfo
+[Documentation](../globals.md) / IAppDataIdListTaskInfo
 
 # Interface: IAppDataIdListTaskInfo
 

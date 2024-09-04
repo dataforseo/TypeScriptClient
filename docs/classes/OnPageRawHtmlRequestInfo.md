@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageRawHtmlRequestInfo
+[Documentation](../globals.md) / OnPageRawHtmlRequestInfo
 
 # Class: OnPageRawHtmlRequestInfo
 

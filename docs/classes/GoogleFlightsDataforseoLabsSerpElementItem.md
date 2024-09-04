@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleFlightsDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / GoogleFlightsDataforseoLabsSerpElementItem
 
 # Class: GoogleFlightsDataforseoLabsSerpElementItem
 

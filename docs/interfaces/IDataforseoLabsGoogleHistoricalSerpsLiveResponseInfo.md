@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSerpsLiveResponseInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSerpsLiveResponseInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalSerpsLiveResponseInfo
 

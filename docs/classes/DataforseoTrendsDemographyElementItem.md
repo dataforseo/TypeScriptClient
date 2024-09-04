@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoTrendsDemographyElementItem
+[Documentation](../globals.md) / DataforseoTrendsDemographyElementItem
 
 # Class: DataforseoTrendsDemographyElementItem
 

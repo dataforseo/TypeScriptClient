@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleEventsTasksReadyResultInfo
+[Documentation](../globals.md) / ISerpGoogleEventsTasksReadyResultInfo
 
 # Interface: ISerpGoogleEventsTasksReadyResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageDuplicateTagsResultInfo
+[Documentation](../globals.md) / OnPageDuplicateTagsResultInfo
 
 # Class: OnPageDuplicateTagsResultInfo
 

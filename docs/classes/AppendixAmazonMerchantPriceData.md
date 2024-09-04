@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixAmazonMerchantPriceData
+[Documentation](../globals.md) / AppendixAmazonMerchantPriceData
 
 # Class: AppendixAmazonMerchantPriceData
 

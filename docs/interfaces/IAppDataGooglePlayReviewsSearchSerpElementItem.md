@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
+[Documentation](../globals.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
 
 # Interface: IAppDataGooglePlayReviewsSearchSerpElementItem
 

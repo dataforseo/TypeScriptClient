@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITopSightsElement
+[Documentation](../globals.md) / ITopSightsElement
 
 # Interface: ITopSightsElement
 

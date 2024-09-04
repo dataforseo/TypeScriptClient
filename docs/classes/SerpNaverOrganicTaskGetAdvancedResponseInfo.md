@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpNaverOrganicTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / SerpNaverOrganicTaskGetAdvancedResponseInfo
 
 # Class: SerpNaverOrganicTaskGetAdvancedResponseInfo
 

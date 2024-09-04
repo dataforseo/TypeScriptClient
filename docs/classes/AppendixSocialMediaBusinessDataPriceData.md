@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixSocialMediaBusinessDataPriceData
+[Documentation](../globals.md) / AppendixSocialMediaBusinessDataPriceData
 
 # Class: AppendixSocialMediaBusinessDataPriceData
 

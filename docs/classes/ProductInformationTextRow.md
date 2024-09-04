@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductInformationTextRow
+[Documentation](../globals.md) / ProductInformationTextRow
 
 # Class: ProductInformationTextRow
 

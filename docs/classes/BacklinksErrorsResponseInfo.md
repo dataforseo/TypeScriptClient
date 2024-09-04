@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksErrorsResponseInfo
+[Documentation](../globals.md) / BacklinksErrorsResponseInfo
 
 # Class: BacklinksErrorsResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingOrganicTaskPostResponseInfo
+[Documentation](../globals.md) / ISerpBingOrganicTaskPostResponseInfo
 
 # Interface: ISerpBingOrganicTaskPostResponseInfo
 

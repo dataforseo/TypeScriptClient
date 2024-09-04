@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBacklinksLiveTaskInfo
+[Documentation](../globals.md) / BacklinksBacklinksLiveTaskInfo
 
 # Class: BacklinksBacklinksLiveTaskInfo
 

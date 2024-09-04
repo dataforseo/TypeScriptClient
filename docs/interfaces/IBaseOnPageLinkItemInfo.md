@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseOnPageLinkItemInfo
+[Documentation](../globals.md) / IBaseOnPageLinkItemInfo
 
 # Interface: IBaseOnPageLinkItemInfo
 

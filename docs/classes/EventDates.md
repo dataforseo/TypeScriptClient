@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / EventDates
+[Documentation](../globals.md) / EventDates
 
 # Class: EventDates
 

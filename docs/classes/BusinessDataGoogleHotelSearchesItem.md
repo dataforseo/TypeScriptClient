@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelSearchesItem
+[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesItem
 
 # Class: BusinessDataGoogleHotelSearchesItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsLocationsAndLanguagesTaskInfo
+[Documentation](../globals.md) / IDataforseoLabsLocationsAndLanguagesTaskInfo
 
 # Interface: IDataforseoLabsLocationsAndLanguagesTaskInfo
 

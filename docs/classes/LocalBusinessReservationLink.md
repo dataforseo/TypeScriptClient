@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalBusinessReservationLink
+[Documentation](../globals.md) / LocalBusinessReservationLink
 
 # Class: LocalBusinessReservationLink
 

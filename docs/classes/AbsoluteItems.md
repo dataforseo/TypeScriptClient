@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AbsoluteItems
+[Documentation](../globals.md) / AbsoluteItems
 
 # Class: AbsoluteItems
 

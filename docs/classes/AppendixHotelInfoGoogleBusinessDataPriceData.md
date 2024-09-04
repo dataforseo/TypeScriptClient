@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixHotelInfoGoogleBusinessDataPriceData
+[Documentation](../globals.md) / AppendixHotelInfoGoogleBusinessDataPriceData
 
 # Class: AppendixHotelInfoGoogleBusinessDataPriceData
 

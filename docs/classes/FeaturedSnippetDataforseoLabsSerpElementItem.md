@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / FeaturedSnippetDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / FeaturedSnippetDataforseoLabsSerpElementItem
 
 # Class: FeaturedSnippetDataforseoLabsSerpElementItem
 

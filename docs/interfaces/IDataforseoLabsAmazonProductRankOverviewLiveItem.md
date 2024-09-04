@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
+[Documentation](../globals.md) / IDataforseoLabsAmazonProductRankOverviewLiveItem
 
 # Interface: IDataforseoLabsAmazonProductRankOverviewLiveItem
 

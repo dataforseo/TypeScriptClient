@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageDuplicateContentTaskInfo
+[Documentation](../globals.md) / OnPageDuplicateContentTaskInfo
 
 # Class: OnPageDuplicateContentTaskInfo
 

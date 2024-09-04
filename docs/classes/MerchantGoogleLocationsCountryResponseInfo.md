@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleLocationsCountryResponseInfo
+[Documentation](../globals.md) / MerchantGoogleLocationsCountryResponseInfo
 
 # Class: MerchantGoogleLocationsCountryResponseInfo
 

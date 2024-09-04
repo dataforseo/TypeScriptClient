@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TrendsTopicListDataInfo
+[Documentation](../globals.md) / TrendsTopicListDataInfo
 
 # Class: TrendsTopicListDataInfo
 

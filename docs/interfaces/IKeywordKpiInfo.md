@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordKpiInfo
+[Documentation](../globals.md) / IKeywordKpiInfo
 
 # Interface: IKeywordKpiInfo
 

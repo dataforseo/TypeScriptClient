@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixUserDataResponseInfo
+[Documentation](../globals.md) / AppendixUserDataResponseInfo
 
 # Class: AppendixUserDataResponseInfo
 

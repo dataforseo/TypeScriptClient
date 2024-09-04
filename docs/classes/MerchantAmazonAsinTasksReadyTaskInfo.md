@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonAsinTasksReadyTaskInfo
+[Documentation](../globals.md) / MerchantAmazonAsinTasksReadyTaskInfo
 
 # Class: MerchantAmazonAsinTasksReadyTaskInfo
 

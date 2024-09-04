@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageDuplicateContentRequestInfo
+[Documentation](../globals.md) / IOnPageDuplicateContentRequestInfo
 
 # Interface: IOnPageDuplicateContentRequestInfo
 

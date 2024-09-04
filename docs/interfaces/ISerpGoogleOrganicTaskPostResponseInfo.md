@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleOrganicTaskPostResponseInfo
+[Documentation](../globals.md) / ISerpGoogleOrganicTaskPostResponseInfo
 
 # Interface: ISerpGoogleOrganicTaskPostResponseInfo
 

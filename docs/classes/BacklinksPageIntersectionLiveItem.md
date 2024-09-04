@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksPageIntersectionLiveItem
+[Documentation](../globals.md) / BacklinksPageIntersectionLiveItem
 
 # Class: BacklinksPageIntersectionLiveItem
 

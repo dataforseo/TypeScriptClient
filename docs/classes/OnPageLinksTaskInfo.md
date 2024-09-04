@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLinksTaskInfo
+[Documentation](../globals.md) / OnPageLinksTaskInfo
 
 # Class: OnPageLinksTaskInfo
 

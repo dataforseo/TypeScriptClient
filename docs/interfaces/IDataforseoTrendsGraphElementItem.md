@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoTrendsGraphElementItem
+[Documentation](../globals.md) / IDataforseoTrendsGraphElementItem
 
 # Interface: IDataforseoTrendsGraphElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MapsSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / MapsSearchBusinessDataSerpElementItem
 
 # Class: MapsSearchBusinessDataSerpElementItem
 

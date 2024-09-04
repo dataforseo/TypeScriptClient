@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseVersionsResponseInfo
+[Documentation](../globals.md) / OnPageLighthouseVersionsResponseInfo
 
 # Class: OnPageLighthouseVersionsResponseInfo
 

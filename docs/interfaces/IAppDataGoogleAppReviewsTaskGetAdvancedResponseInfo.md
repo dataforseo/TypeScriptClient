@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppReviewsTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / IAppDataGoogleAppReviewsTaskGetAdvancedResponseInfo
 
 # Interface: IAppDataGoogleAppReviewsTaskGetAdvancedResponseInfo
 

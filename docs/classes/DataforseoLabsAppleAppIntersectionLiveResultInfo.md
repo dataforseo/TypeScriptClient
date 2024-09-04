@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAppleAppIntersectionLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsAppleAppIntersectionLiveResultInfo
 
 # Class: DataforseoLabsAppleAppIntersectionLiveResultInfo
 

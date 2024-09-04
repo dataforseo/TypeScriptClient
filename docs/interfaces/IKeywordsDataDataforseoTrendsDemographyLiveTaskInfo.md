@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataDataforseoTrendsDemographyLiveTaskInfo
+[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsDemographyLiveTaskInfo
 
 # Interface: IKeywordsDataDataforseoTrendsDemographyLiveTaskInfo
 

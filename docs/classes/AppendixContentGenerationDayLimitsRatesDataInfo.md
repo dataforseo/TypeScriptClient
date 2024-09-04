@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixContentGenerationDayLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixContentGenerationDayLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationDayLimitsRatesDataInfo
 

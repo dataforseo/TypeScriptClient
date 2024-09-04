@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsBingPageIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppListingsCategoriesResponseInfo
+[Documentation](../globals.md) / IAppDataAppleAppListingsCategoriesResponseInfo
 
 # Interface: IAppDataAppleAppListingsCategoriesResponseInfo
 

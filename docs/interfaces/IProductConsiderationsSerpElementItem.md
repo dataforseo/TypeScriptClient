@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductConsiderationsSerpElementItem
+[Documentation](../globals.md) / IProductConsiderationsSerpElementItem
 
 # Interface: IProductConsiderationsSerpElementItem
 

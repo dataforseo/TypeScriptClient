@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
 

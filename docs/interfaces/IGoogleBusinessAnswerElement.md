@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleBusinessAnswerElement
+[Documentation](../globals.md) / IGoogleBusinessAnswerElement
 
 # Interface: IGoogleBusinessAnswerElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo
 
 # Class: KeywordsDataGoogleAdsSearchVolumeLiveResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITechnologiesInfo
+[Documentation](../globals.md) / ITechnologiesInfo
 
 # Interface: ITechnologiesInfo
 

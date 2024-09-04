@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveResultInfo
 

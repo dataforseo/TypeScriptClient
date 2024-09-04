@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RecipesElement
+[Documentation](../globals.md) / RecipesElement
 
 # Class: RecipesElement
 

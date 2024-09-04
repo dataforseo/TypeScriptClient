@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
+[Documentation](../globals.md) / IContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Interface: IContentAnalysisSentimentAnalysisLiveResultInfo
 

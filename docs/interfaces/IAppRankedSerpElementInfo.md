@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppRankedSerpElementInfo
+[Documentation](../globals.md) / IAppRankedSerpElementInfo
 
 # Interface: IAppRankedSerpElementInfo
 

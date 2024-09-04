@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationGrammarRulesTaskInfo
+[Documentation](../globals.md) / IContentGenerationGrammarRulesTaskInfo
 
 # Interface: IContentGenerationGrammarRulesTaskInfo
 

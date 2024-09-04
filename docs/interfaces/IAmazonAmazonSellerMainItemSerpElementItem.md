@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonAmazonSellerMainItemSerpElementItem
+[Documentation](../globals.md) / IAmazonAmazonSellerMainItemSerpElementItem
 
 # Interface: IAmazonAmazonSellerMainItemSerpElementItem
 

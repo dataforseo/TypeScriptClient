@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IImageResourceElementItem
+[Documentation](../globals.md) / IImageResourceElementItem
 
 # Interface: IImageResourceElementItem
 

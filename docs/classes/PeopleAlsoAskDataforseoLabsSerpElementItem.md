@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PeopleAlsoAskDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / PeopleAlsoAskDataforseoLabsSerpElementItem
 
 # Class: PeopleAlsoAskDataforseoLabsSerpElementItem
 

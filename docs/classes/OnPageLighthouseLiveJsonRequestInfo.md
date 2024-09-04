@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseLiveJsonRequestInfo
+[Documentation](../globals.md) / OnPageLighthouseLiveJsonRequestInfo
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixErrorsResponseInfo
+[Documentation](../globals.md) / AppendixErrorsResponseInfo
 
 # Class: AppendixErrorsResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleLocationsCountryResultInfo
+[Documentation](../globals.md) / AppDataGoogleLocationsCountryResultInfo
 
 # Class: AppDataGoogleLocationsCountryResultInfo
 

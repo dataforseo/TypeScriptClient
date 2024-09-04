@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixMoneyData
+[Documentation](../globals.md) / AppendixMoneyData
 
 # Class: AppendixMoneyData
 

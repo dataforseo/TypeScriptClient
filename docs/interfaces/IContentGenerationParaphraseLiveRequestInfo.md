@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationParaphraseLiveRequestInfo
+[Documentation](../globals.md) / IContentGenerationParaphraseLiveRequestInfo
 
 # Interface: IContentGenerationParaphraseLiveRequestInfo
 

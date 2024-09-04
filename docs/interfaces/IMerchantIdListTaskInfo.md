@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantIdListTaskInfo
+[Documentation](../globals.md) / IMerchantIdListTaskInfo
 
 # Interface: IMerchantIdListTaskInfo
 

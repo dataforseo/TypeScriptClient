@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppListingsSearchLiveResultInfo
+[Documentation](../globals.md) / IAppDataAppleAppListingsSearchLiveResultInfo
 
 # Interface: IAppDataAppleAppListingsSearchLiveResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataTaskRequestInfo
+[Documentation](../globals.md) / IAppDataTaskRequestInfo
 
 # Interface: IAppDataTaskRequestInfo
 

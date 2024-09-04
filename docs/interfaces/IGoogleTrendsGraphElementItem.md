@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleTrendsGraphElementItem
+[Documentation](../globals.md) / IGoogleTrendsGraphElementItem
 
 # Interface: IGoogleTrendsGraphElementItem
 

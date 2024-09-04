@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPagePagesRequestInfo
+[Documentation](../globals.md) / IOnPagePagesRequestInfo
 
 # Interface: IOnPagePagesRequestInfo
 

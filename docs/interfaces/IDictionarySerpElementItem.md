@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDictionarySerpElementItem
+[Documentation](../globals.md) / IDictionarySerpElementItem
 
 # Interface: IDictionarySerpElementItem
 

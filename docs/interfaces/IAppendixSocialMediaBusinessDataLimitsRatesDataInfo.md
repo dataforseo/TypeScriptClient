@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
 # Interface: IAppendixSocialMediaBusinessDataLimitsRatesDataInfo
 

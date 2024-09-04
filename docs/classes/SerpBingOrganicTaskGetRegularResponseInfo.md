@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingOrganicTaskGetRegularResponseInfo
+[Documentation](../globals.md) / SerpBingOrganicTaskGetRegularResponseInfo
 
 # Class: SerpBingOrganicTaskGetRegularResponseInfo
 

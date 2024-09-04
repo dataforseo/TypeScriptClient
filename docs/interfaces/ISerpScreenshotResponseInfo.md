@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpScreenshotResponseInfo
+[Documentation](../globals.md) / ISerpScreenshotResponseInfo
 
 # Interface: ISerpScreenshotResponseInfo
 

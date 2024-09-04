@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IReviewResponseItemInfo
+[Documentation](../globals.md) / IReviewResponseItemInfo
 
 # Interface: IReviewResponseItemInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAvailibleVersions
+[Documentation](../globals.md) / IAvailibleVersions
 
 # Interface: IAvailibleVersions
 

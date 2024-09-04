@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MentionCarouselDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / MentionCarouselDataforseoLabsSerpElementItem
 
 # Class: MentionCarouselDataforseoLabsSerpElementItem
 

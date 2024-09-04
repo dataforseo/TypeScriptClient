@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / FaqBox
+[Documentation](../globals.md) / FaqBox
 
 # Class: FaqBox
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISpellInfo
+[Documentation](../globals.md) / ISpellInfo
 
 # Interface: ISpellInfo
 

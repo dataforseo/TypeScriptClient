@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeLocationsTaskInfo
+[Documentation](../globals.md) / SerpYoutubeLocationsTaskInfo
 
 # Class: SerpYoutubeLocationsTaskInfo
 

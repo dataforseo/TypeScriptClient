@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo
+[Documentation](../globals.md) / IBusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo
 
 # Interface: IBusinessDataGoogleMyBusinessUpdatesTasksReadyResponseInfo
 

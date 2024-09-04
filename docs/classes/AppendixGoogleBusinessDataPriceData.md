@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixGoogleBusinessDataPriceData
+[Documentation](../globals.md) / AppendixGoogleBusinessDataPriceData
 
 # Class: AppendixGoogleBusinessDataPriceData
 

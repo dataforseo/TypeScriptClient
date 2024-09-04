@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleEventsTasksFixedResultInfo
+[Documentation](../globals.md) / SerpGoogleEventsTasksFixedResultInfo
 
 # Class: SerpGoogleEventsTasksFixedResultInfo
 

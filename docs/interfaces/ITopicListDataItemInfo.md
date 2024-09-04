@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITopicListDataItemInfo
+[Documentation](../globals.md) / ITopicListDataItemInfo
 
 # Interface: ITopicListDataItemInfo
 

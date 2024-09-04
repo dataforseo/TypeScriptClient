@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpAiSummaryResultInfo
+[Documentation](../globals.md) / ISerpAiSummaryResultInfo
 
 # Interface: ISerpAiSummaryResultInfo
 

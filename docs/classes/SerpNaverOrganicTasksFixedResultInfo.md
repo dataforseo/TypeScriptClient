@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpNaverOrganicTasksFixedResultInfo
+[Documentation](../globals.md) / SerpNaverOrganicTasksFixedResultInfo
 
 # Class: SerpNaverOrganicTasksFixedResultInfo
 

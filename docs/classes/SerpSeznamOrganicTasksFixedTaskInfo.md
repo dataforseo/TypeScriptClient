@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamOrganicTasksFixedTaskInfo
+[Documentation](../globals.md) / SerpSeznamOrganicTasksFixedTaskInfo
 
 # Class: SerpSeznamOrganicTasksFixedTaskInfo
 

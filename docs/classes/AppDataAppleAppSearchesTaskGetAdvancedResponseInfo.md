@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppSearchesTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / AppDataAppleAppSearchesTaskGetAdvancedResponseInfo
 
 # Class: AppDataAppleAppSearchesTaskGetAdvancedResponseInfo
 

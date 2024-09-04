@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleMapsTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / ISerpGoogleMapsTaskGetAdvancedResponseInfo
 
 # Interface: ISerpGoogleMapsTaskGetAdvancedResponseInfo
 

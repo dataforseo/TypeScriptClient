@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseResponseTaskInfo
+[Documentation](../globals.md) / IBaseResponseTaskInfo
 
 # Interface: IBaseResponseTaskInfo
 

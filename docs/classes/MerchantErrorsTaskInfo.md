@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantErrorsTaskInfo
+[Documentation](../globals.md) / MerchantErrorsTaskInfo
 
 # Class: MerchantErrorsTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAppleAppIntersectionLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsAppleAppIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveRequestInfo
 

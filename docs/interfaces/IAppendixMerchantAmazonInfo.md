@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixMerchantAmazonInfo
+[Documentation](../globals.md) / IAppendixMerchantAmazonInfo
 
 # Interface: IAppendixMerchantAmazonInfo
 

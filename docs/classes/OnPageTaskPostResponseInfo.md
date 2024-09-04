@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageTaskPostResponseInfo
+[Documentation](../globals.md) / OnPageTaskPostResponseInfo
 
 # Class: OnPageTaskPostResponseInfo
 

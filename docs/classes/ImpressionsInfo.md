@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ImpressionsInfo
+[Documentation](../globals.md) / ImpressionsInfo
 
 # Class: ImpressionsInfo
 

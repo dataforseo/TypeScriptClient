@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooOrganicLiveHtmlResponseInfo
+[Documentation](../globals.md) / SerpYahooOrganicLiveHtmlResponseInfo
 
 # Class: SerpYahooOrganicLiveHtmlResponseInfo
 

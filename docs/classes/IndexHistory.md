@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IndexHistory
+[Documentation](../globals.md) / IndexHistory
 
 # Class: IndexHistory
 

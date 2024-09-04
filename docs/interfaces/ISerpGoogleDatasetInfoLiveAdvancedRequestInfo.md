@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
+[Documentation](../globals.md) / ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetInfoLiveAdvancedRequestInfo
 

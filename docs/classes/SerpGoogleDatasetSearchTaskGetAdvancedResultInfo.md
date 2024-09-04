@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleDatasetSearchTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpGoogleDatasetSearchTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleDatasetSearchTaskGetAdvancedResultInfo
 

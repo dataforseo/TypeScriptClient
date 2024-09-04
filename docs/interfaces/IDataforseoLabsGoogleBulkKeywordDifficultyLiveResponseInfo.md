@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo
 
 # Interface: IDataforseoLabsGoogleBulkKeywordDifficultyLiveResponseInfo
 

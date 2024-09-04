@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TrustpilotReviewSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / TrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Class: TrustpilotReviewSearchBusinessDataSerpElementItem
 

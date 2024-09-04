@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseOnPageResourceItemInfo
+[Documentation](../globals.md) / IBaseOnPageResourceItemInfo
 
 # Interface: IBaseOnPageResourceItemInfo
 

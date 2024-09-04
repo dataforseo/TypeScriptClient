@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleNewsTaskPostResponseInfo
+[Documentation](../globals.md) / ISerpGoogleNewsTaskPostResponseInfo
 
 # Interface: ISerpGoogleNewsTaskPostResponseInfo
 

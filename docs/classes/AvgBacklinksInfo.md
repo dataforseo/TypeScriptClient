@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AvgBacklinksInfo
+[Documentation](../globals.md) / AvgBacklinksInfo
 
 # Class: AvgBacklinksInfo
 

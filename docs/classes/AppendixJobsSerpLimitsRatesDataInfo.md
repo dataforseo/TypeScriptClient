@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixJobsSerpLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixJobsSerpLimitsRatesDataInfo
 
 # Class: AppendixJobsSerpLimitsRatesDataInfo
 

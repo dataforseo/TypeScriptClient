@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductInformationTextItem
+[Documentation](../globals.md) / ProductInformationTextItem
 
 # Class: ProductInformationTextItem
 

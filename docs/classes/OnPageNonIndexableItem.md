@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageNonIndexableItem
+[Documentation](../globals.md) / OnPageNonIndexableItem
 
 # Class: OnPageNonIndexableItem
 

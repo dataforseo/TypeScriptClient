@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataAttributesInfo
+[Documentation](../globals.md) / BusinessDataAttributesInfo
 
 # Class: BusinessDataAttributesInfo
 

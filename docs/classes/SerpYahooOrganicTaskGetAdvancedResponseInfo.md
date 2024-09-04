@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooOrganicTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / SerpYahooOrganicTaskGetAdvancedResponseInfo
 
 # Class: SerpYahooOrganicTaskGetAdvancedResponseInfo
 

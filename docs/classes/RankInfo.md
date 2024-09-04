@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RankInfo
+[Documentation](../globals.md) / RankInfo
 
 # Class: RankInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForKeywordsLiveResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksDomainIntersectionInfo
+[Documentation](../globals.md) / IBacklinksDomainIntersectionInfo
 
 # Interface: IBacklinksDomainIntersectionInfo
 

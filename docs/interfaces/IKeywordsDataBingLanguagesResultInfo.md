@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingLanguagesResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingLanguagesResultInfo
 
 # Interface: IKeywordsDataBingLanguagesResultInfo
 

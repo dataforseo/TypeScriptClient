@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PerspectivesElement
+[Documentation](../globals.md) / PerspectivesElement
 
 # Class: PerspectivesElement
 

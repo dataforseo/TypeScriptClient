@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantErrorsResponseInfo
+[Documentation](../globals.md) / IMerchantErrorsResponseInfo
 
 # Interface: IMerchantErrorsResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixAppDataDayStatisticsRatesData
+[Documentation](../globals.md) / AppendixAppDataDayStatisticsRatesData
 
 # Class: AppendixAppDataDayStatisticsRatesData
 

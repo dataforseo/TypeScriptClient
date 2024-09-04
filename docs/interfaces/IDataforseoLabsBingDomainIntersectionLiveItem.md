@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingDomainIntersectionLiveItem
+[Documentation](../globals.md) / IDataforseoLabsBingDomainIntersectionLiveItem
 
 # Interface: IDataforseoLabsBingDomainIntersectionLiveItem
 

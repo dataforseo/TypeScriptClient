@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IScreenshotItem
+[Documentation](../globals.md) / IScreenshotItem
 
 # Interface: IScreenshotItem
 

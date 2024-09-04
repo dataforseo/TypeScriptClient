@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleTrendsGraphElementItem
+[Documentation](../globals.md) / GoogleTrendsGraphElementItem
 
 # Class: GoogleTrendsGraphElementItem
 

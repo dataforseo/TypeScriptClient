@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsWhoisOverviewLiveItem
+[Documentation](../globals.md) / DomainAnalyticsWhoisOverviewLiveItem
 
 # Class: DomainAnalyticsWhoisOverviewLiveItem
 

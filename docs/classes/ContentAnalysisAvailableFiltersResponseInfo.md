@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisAvailableFiltersResponseInfo
+[Documentation](../globals.md) / ContentAnalysisAvailableFiltersResponseInfo
 
 # Class: ContentAnalysisAvailableFiltersResponseInfo
 

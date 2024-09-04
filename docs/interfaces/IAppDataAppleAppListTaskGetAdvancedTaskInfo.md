@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppListTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / IAppDataAppleAppListTaskGetAdvancedTaskInfo
 
 # Interface: IAppDataAppleAppListTaskGetAdvancedTaskInfo
 

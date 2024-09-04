@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / VideoSerpElementItem
+[Documentation](../globals.md) / VideoSerpElementItem
 
 # Class: VideoSerpElementItem
 

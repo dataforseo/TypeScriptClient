@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseSerpElementItem
+[Documentation](../globals.md) / IBaseSerpElementItem
 
 # Interface: IBaseSerpElementItem
 

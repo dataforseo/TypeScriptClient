@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductSpecTaskGetAdvancedResultInfo
 

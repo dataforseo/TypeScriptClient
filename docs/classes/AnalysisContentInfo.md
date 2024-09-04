@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AnalysisContentInfo
+[Documentation](../globals.md) / AnalysisContentInfo
 
 # Class: AnalysisContentInfo
 

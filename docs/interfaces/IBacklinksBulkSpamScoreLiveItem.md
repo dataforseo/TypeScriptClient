@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksBulkSpamScoreLiveItem
+[Documentation](../globals.md) / IBacklinksBulkSpamScoreLiveItem
 
 # Interface: IBacklinksBulkSpamScoreLiveItem
 

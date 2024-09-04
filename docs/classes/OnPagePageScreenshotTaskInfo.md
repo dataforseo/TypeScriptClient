@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPagePageScreenshotTaskInfo
+[Documentation](../globals.md) / OnPagePageScreenshotTaskInfo
 
 # Class: OnPagePageScreenshotTaskInfo
 

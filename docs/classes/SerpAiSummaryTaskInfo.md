@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpAiSummaryTaskInfo
+[Documentation](../globals.md) / SerpAiSummaryTaskInfo
 
 # Class: SerpAiSummaryTaskInfo
 

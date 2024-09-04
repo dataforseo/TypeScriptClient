@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationTextSummaryLiveResultInfo
+[Documentation](../globals.md) / ContentGenerationTextSummaryLiveResultInfo
 
 # Class: ContentGenerationTextSummaryLiveResultInfo
 

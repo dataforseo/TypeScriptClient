@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RedditReviews
+[Documentation](../globals.md) / RedditReviews
 
 # Class: RedditReviews
 

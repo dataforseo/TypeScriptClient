@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYahooLanguagesResultInfo
+[Documentation](../globals.md) / ISerpYahooLanguagesResultInfo
 
 # Interface: ISerpYahooLanguagesResultInfo
 

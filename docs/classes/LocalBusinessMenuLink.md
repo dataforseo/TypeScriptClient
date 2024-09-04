@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalBusinessMenuLink
+[Documentation](../globals.md) / LocalBusinessMenuLink
 
 # Class: LocalBusinessMenuLink
 

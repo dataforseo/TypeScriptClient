@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTasksReadyResultInfo
+[Documentation](../globals.md) / BusinessDataTasksReadyResultInfo
 
 # Class: BusinessDataTasksReadyResultInfo
 

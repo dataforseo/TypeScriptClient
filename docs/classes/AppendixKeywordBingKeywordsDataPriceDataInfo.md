@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixKeywordBingKeywordsDataPriceDataInfo
+[Documentation](../globals.md) / AppendixKeywordBingKeywordsDataPriceDataInfo
 
 # Class: AppendixKeywordBingKeywordsDataPriceDataInfo
 

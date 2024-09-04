@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Pages
+[Documentation](../globals.md) / Pages
 
 # Class: Pages
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBaiduOrganicTaskGetAdvancedTaskInfo
+[Documentation](../globals.md) / ISerpBaiduOrganicTaskGetAdvancedTaskInfo
 
 # Interface: ISerpBaiduOrganicTaskGetAdvancedTaskInfo
 

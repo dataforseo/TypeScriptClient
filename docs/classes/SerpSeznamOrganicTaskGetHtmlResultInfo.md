@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamOrganicTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpSeznamOrganicTaskGetHtmlResultInfo
 
 # Class: SerpSeznamOrganicTaskGetHtmlResultInfo
 

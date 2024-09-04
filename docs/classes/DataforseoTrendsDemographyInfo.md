@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoTrendsDemographyInfo
+[Documentation](../globals.md) / DataforseoTrendsDemographyInfo
 
 # Class: DataforseoTrendsDemographyInfo
 

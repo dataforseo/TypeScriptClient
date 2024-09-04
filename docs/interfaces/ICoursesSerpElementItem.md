@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICoursesSerpElementItem
+[Documentation](../globals.md) / ICoursesSerpElementItem
 
 # Interface: ICoursesSerpElementItem
 

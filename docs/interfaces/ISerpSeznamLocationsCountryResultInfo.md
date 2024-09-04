@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpSeznamLocationsCountryResultInfo
+[Documentation](../globals.md) / ISerpSeznamLocationsCountryResultInfo
 
 # Interface: ISerpSeznamLocationsCountryResultInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixTaskGetPriceDataInfo
+[Documentation](../globals.md) / IAppendixTaskGetPriceDataInfo
 
 # Interface: IAppendixTaskGetPriceDataInfo
 

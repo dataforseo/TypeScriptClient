@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
+[Documentation](../globals.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
 
 # Class: KnowledgeGraphHotelsBookingItemSerpElementItem
 

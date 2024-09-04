@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductVariation
+[Documentation](../globals.md) / IProductVariation
 
 # Interface: IProductVariation
 

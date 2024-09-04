@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleImagesTasksFixedResponseInfo
+[Documentation](../globals.md) / ISerpGoogleImagesTasksFixedResponseInfo
 
 # Interface: ISerpGoogleImagesTasksFixedResponseInfo
 

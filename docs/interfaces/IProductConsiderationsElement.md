@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductConsiderationsElement
+[Documentation](../globals.md) / IProductConsiderationsElement
 
 # Interface: IProductConsiderationsElement
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BulkMetricsInfo
+[Documentation](../globals.md) / BulkMetricsInfo
 
 # Class: BulkMetricsInfo
 

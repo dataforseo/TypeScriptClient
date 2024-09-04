@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleJobsTaskPostResponseInfo
+[Documentation](../globals.md) / ISerpGoogleJobsTaskPostResponseInfo
 
 # Interface: ISerpGoogleJobsTaskPostResponseInfo
 

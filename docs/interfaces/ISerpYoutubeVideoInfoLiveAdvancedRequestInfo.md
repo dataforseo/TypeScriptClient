@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 

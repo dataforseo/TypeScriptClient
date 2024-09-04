@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LinkElement
+[Documentation](../globals.md) / LinkElement
 
 # Class: LinkElement
 

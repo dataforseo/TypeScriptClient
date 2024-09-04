@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITableContent
+[Documentation](../globals.md) / ITableContent
 
 # Interface: ITableContent
 

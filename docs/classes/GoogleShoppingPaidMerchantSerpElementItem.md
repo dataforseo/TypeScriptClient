@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleShoppingPaidMerchantSerpElementItem
+[Documentation](../globals.md) / GoogleShoppingPaidMerchantSerpElementItem
 
 # Class: GoogleShoppingPaidMerchantSerpElementItem
 

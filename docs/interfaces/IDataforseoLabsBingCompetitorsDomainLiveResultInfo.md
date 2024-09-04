@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingCompetitorsDomainLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsBingCompetitorsDomainLiveResultInfo
 
 # Interface: IDataforseoLabsBingCompetitorsDomainLiveResultInfo
 

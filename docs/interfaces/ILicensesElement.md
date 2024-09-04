@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILicensesElement
+[Documentation](../globals.md) / ILicensesElement
 
 # Interface: ILicensesElement
 

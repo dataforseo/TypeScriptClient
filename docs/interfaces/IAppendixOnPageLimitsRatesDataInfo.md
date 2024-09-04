@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixOnPageLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixOnPageLimitsRatesDataInfo
 
 # Interface: IAppendixOnPageLimitsRatesDataInfo
 

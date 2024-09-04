@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleOrganicTaskGetHtmlTaskInfo
+[Documentation](../globals.md) / SerpGoogleOrganicTaskGetHtmlTaskInfo
 
 # Class: SerpGoogleOrganicTaskGetHtmlTaskInfo
 

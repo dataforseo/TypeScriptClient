@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleMyBusinessInfoLiveResponseInfo
+[Documentation](../globals.md) / BusinessDataGoogleMyBusinessInfoLiveResponseInfo
 
 # Class: BusinessDataGoogleMyBusinessInfoLiveResponseInfo
 

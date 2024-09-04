@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IFormatsElement
+[Documentation](../globals.md) / IFormatsElement
 
 # Interface: IFormatsElement
 

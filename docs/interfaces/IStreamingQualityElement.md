@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IStreamingQualityElement
+[Documentation](../globals.md) / IStreamingQualityElement
 
 # Interface: IStreamingQualityElement
 

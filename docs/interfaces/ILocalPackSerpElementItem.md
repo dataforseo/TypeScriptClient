@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocalPackSerpElementItem
+[Documentation](../globals.md) / ILocalPackSerpElementItem
 
 # Interface: ILocalPackSerpElementItem
 

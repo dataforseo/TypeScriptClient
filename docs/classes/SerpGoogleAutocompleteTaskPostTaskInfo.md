@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleAutocompleteTaskPostTaskInfo
+[Documentation](../globals.md) / SerpGoogleAutocompleteTaskPostTaskInfo
 
 # Class: SerpGoogleAutocompleteTaskPostTaskInfo
 

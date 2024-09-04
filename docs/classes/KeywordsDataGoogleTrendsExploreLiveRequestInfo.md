@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreLiveRequestInfo
 

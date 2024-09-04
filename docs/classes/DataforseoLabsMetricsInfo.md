@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsMetricsInfo
+[Documentation](../globals.md) / DataforseoLabsMetricsInfo
 
 # Class: DataforseoLabsMetricsInfo
 

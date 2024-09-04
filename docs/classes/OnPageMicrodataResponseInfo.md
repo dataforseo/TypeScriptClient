@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageMicrodataResponseInfo
+[Documentation](../globals.md) / OnPageMicrodataResponseInfo
 
 # Class: OnPageMicrodataResponseInfo
 

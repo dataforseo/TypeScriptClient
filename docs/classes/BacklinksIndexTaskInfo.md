@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksIndexTaskInfo
+[Documentation](../globals.md) / BacklinksIndexTaskInfo
 
 # Class: BacklinksIndexTaskInfo
 

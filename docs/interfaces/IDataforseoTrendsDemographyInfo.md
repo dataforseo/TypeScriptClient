@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoTrendsDemographyInfo
+[Documentation](../globals.md) / IDataforseoTrendsDemographyInfo
 
 # Interface: IDataforseoTrendsDemographyInfo
 

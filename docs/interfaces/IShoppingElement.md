@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IShoppingElement
+[Documentation](../globals.md) / IShoppingElement
 
 # Interface: IShoppingElement
 

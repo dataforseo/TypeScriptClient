@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleSerpCompetitorsLiveRequestInfo
 

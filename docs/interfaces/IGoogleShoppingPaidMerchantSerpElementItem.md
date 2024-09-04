@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleShoppingPaidMerchantSerpElementItem
+[Documentation](../globals.md) / IGoogleShoppingPaidMerchantSerpElementItem
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
 

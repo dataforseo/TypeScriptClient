@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeLocationsCountryResponseInfo
+[Documentation](../globals.md) / SerpYoutubeLocationsCountryResponseInfo
 
 # Class: SerpYoutubeLocationsCountryResponseInfo
 

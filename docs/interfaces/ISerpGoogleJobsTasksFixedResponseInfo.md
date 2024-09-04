@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleJobsTasksFixedResponseInfo
+[Documentation](../globals.md) / ISerpGoogleJobsTasksFixedResponseInfo
 
 # Interface: ISerpGoogleJobsTasksFixedResponseInfo
 

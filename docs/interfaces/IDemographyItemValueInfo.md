@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDemographyItemValueInfo
+[Documentation](../globals.md) / IDemographyItemValueInfo
 
 # Interface: IDemographyItemValueInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseLanguagesResultInfo
+[Documentation](../globals.md) / OnPageLighthouseLanguagesResultInfo
 
 # Class: OnPageLighthouseLanguagesResultInfo
 

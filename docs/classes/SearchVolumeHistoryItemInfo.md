@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SearchVolumeHistoryItemInfo
+[Documentation](../globals.md) / SearchVolumeHistoryItemInfo
 
 # Class: SearchVolumeHistoryItemInfo
 

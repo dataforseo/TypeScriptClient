@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGooglePageIntersectionLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGooglePageIntersectionLiveResultInfo
 
 # Class: DataforseoLabsGooglePageIntersectionLiveResultInfo
 

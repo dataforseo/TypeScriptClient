@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseProductInformationItem
+[Documentation](../globals.md) / IBaseProductInformationItem
 
 # Interface: IBaseProductInformationItem
 

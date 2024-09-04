@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppListTasksReadyResponseInfo
+[Documentation](../globals.md) / AppDataGoogleAppListTasksReadyResponseInfo
 
 # Class: AppDataGoogleAppListTasksReadyResponseInfo
 

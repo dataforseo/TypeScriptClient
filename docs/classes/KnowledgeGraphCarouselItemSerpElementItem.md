@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphCarouselItemSerpElementItem
+[Documentation](../globals.md) / KnowledgeGraphCarouselItemSerpElementItem
 
 # Class: KnowledgeGraphCarouselItemSerpElementItem
 

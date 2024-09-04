@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixSocialMediaBusinessDataPriceData
+[Documentation](../globals.md) / IAppendixSocialMediaBusinessDataPriceData
 
 # Interface: IAppendixSocialMediaBusinessDataPriceData
 

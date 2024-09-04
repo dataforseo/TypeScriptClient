@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / FormatsElement
+[Documentation](../globals.md) / FormatsElement
 
 # Class: FormatsElement
 

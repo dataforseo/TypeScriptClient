@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleLanguagesTaskInfo
+[Documentation](../globals.md) / SerpGoogleLanguagesTaskInfo
 
 # Class: SerpGoogleLanguagesTaskInfo
 

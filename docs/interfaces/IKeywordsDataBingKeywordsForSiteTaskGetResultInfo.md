@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordsForSiteTaskGetResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteTaskGetResultInfo
 

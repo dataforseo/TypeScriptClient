@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataIdListResultInfo
+[Documentation](../globals.md) / KeywordsDataIdListResultInfo
 
 # Class: KeywordsDataIdListResultInfo
 

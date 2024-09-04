@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTrustpilotSearchTaskGetTaskInfo
+[Documentation](../globals.md) / BusinessDataTrustpilotSearchTaskGetTaskInfo
 
 # Class: BusinessDataTrustpilotSearchTaskGetTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITableContentItemInfo
+[Documentation](../globals.md) / ITableContentItemInfo
 
 # Interface: ITableContentItemInfo
 

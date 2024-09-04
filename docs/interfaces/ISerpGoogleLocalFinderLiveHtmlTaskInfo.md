@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocalFinderLiveHtmlTaskInfo
+[Documentation](../globals.md) / ISerpGoogleLocalFinderLiveHtmlTaskInfo
 
 # Interface: ISerpGoogleLocalFinderLiveHtmlTaskInfo
 

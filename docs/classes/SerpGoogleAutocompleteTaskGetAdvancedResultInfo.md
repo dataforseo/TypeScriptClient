@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleAutocompleteTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleAutocompleteTaskGetAdvancedResultInfo
 

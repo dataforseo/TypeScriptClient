@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantTasksReadyTaskInfo
+[Documentation](../globals.md) / MerchantTasksReadyTaskInfo
 
 # Class: MerchantTasksReadyTaskInfo
 

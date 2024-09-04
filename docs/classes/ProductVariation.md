@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductVariation
+[Documentation](../globals.md) / ProductVariation
 
 # Class: ProductVariation
 

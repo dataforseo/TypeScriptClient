@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 

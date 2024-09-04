@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseBusinessDataSerpElementItem
+[Documentation](../globals.md) / IBaseBusinessDataSerpElementItem
 
 # Interface: IBaseBusinessDataSerpElementItem
 

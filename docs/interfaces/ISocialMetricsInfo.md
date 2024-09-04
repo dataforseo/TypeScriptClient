@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISocialMetricsInfo
+[Documentation](../globals.md) / ISocialMetricsInfo
 
 # Interface: ISocialMetricsInfo
 

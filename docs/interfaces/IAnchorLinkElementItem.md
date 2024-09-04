@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAnchorLinkElementItem
+[Documentation](../globals.md) / IAnchorLinkElementItem
 
 # Interface: IAnchorLinkElementItem
 

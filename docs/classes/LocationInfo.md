@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocationInfo
+[Documentation](../globals.md) / LocationInfo
 
 # Class: LocationInfo
 

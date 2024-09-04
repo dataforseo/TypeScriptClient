@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IChannelSubscribersCount
+[Documentation](../globals.md) / IChannelSubscribersCount
 
 # Interface: IChannelSubscribersCount
 

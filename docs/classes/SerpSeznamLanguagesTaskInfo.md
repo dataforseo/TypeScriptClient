@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamLanguagesTaskInfo
+[Documentation](../globals.md) / SerpSeznamLanguagesTaskInfo
 
 # Class: SerpSeznamLanguagesTaskInfo
 

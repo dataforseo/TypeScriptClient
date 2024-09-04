@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RelatedSearchesElement
+[Documentation](../globals.md) / RelatedSearchesElement
 
 # Class: RelatedSearchesElement
 

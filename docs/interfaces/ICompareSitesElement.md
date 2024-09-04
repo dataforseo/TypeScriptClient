@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICompareSitesElement
+[Documentation](../globals.md) / ICompareSitesElement
 
 # Interface: ICompareSitesElement
 

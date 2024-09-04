@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IIndexHistory
+[Documentation](../globals.md) / IIndexHistory
 
 # Interface: IIndexHistory
 

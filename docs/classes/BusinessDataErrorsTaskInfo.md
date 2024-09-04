@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataErrorsTaskInfo
+[Documentation](../globals.md) / BusinessDataErrorsTaskInfo
 
 # Class: BusinessDataErrorsTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CrawlStatusInfo
+[Documentation](../globals.md) / CrawlStatusInfo
 
 # Class: CrawlStatusInfo
 

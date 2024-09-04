@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLocationsCountryResultInfo
+[Documentation](../globals.md) / ISerpBingLocationsCountryResultInfo
 
 # Interface: ISerpBingLocationsCountryResultInfo
 

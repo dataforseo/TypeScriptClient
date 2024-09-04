@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IVideoElement
+[Documentation](../globals.md) / IVideoElement
 
 # Interface: IVideoElement
 

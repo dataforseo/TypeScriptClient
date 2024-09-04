@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRelatedSearchesElement
+[Documentation](../globals.md) / IRelatedSearchesElement
 
 # Interface: IRelatedSearchesElement
 

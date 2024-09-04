@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLocalPackTasksFixedResponseInfo
+[Documentation](../globals.md) / ISerpBingLocalPackTasksFixedResponseInfo
 
 # Interface: ISerpBingLocalPackTasksFixedResponseInfo
 

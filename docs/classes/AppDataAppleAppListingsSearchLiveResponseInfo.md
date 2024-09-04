@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppListingsSearchLiveResponseInfo
+[Documentation](../globals.md) / AppDataAppleAppListingsSearchLiveResponseInfo
 
 # Class: AppDataAppleAppListingsSearchLiveResponseInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphImagesItemSerpElementItem
+[Documentation](../globals.md) / IKnowledgeGraphImagesItemSerpElementItem
 
 # Interface: IKnowledgeGraphImagesItemSerpElementItem
 

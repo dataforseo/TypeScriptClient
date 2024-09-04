@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleImagesTaskPostTaskInfo
+[Documentation](../globals.md) / SerpGoogleImagesTaskPostTaskInfo
 
 # Class: SerpGoogleImagesTaskPostTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleTopSearchesLiveTaskInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleTopSearchesLiveTaskInfo
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveTaskInfo
 

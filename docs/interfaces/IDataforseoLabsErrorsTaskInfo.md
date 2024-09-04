@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsErrorsTaskInfo
+[Documentation](../globals.md) / IDataforseoLabsErrorsTaskInfo
 
 # Interface: IDataforseoLabsErrorsTaskInfo
 

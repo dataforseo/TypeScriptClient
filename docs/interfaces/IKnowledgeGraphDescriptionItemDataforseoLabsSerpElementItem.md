@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem
 

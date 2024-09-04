@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleLanguagesResponseInfo
+[Documentation](../globals.md) / SerpGoogleLanguagesResponseInfo
 
 # Class: SerpGoogleLanguagesResponseInfo
 

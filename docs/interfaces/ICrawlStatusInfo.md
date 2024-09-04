@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICrawlStatusInfo
+[Documentation](../globals.md) / ICrawlStatusInfo
 
 # Interface: ICrawlStatusInfo
 

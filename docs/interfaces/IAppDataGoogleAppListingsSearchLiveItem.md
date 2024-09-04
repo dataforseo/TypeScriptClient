@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppListingsSearchLiveItem
+[Documentation](../globals.md) / IAppDataGoogleAppListingsSearchLiveItem
 
 # Interface: IAppDataGoogleAppListingsSearchLiveItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleDatasetInfoTaskPostResponseInfo
+[Documentation](../globals.md) / ISerpGoogleDatasetInfoTaskPostResponseInfo
 
 # Interface: ISerpGoogleDatasetInfoTaskPostResponseInfo
 

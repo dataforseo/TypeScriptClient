@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataTaskRequestInfo
+[Documentation](../globals.md) / IKeywordsDataTaskRequestInfo
 
 # Interface: IKeywordsDataTaskRequestInfo
 

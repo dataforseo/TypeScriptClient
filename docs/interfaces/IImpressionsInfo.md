@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IImpressionsInfo
+[Documentation](../globals.md) / IImpressionsInfo
 
 # Interface: IImpressionsInfo
 

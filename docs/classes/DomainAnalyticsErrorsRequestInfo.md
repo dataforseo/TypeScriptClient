@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsErrorsRequestInfo
+[Documentation](../globals.md) / DomainAnalyticsErrorsRequestInfo
 
 # Class: DomainAnalyticsErrorsRequestInfo
 

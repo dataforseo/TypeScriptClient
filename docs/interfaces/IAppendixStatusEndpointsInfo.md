@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixStatusEndpointsInfo
+[Documentation](../globals.md) / IAppendixStatusEndpointsInfo
 
 # Interface: IAppendixStatusEndpointsInfo
 

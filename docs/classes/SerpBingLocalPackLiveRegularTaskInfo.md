@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLocalPackLiveRegularTaskInfo
+[Documentation](../globals.md) / SerpBingLocalPackLiveRegularTaskInfo
 
 # Class: SerpBingLocalPackLiveRegularTaskInfo
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalPackSerpElementItem
+[Documentation](../globals.md) / LocalPackSerpElementItem
 
 # Class: LocalPackSerpElementItem
 

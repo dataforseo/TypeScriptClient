@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TopicListDataItemInfo
+[Documentation](../globals.md) / TopicListDataItemInfo
 
 # Class: TopicListDataItemInfo
 

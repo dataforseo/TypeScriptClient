@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataBusinessListingsSearchLiveResultInfo
+[Documentation](../globals.md) / BusinessDataBusinessListingsSearchLiveResultInfo
 
 # Class: BusinessDataBusinessListingsSearchLiveResultInfo
 

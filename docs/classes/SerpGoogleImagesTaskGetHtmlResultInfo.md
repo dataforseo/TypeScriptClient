@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleImagesTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpGoogleImagesTaskGetHtmlResultInfo
 
 # Class: SerpGoogleImagesTaskGetHtmlResultInfo
 

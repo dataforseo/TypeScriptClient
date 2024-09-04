@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationCheckGrammarLiveRequestInfo
+[Documentation](../globals.md) / ContentGenerationCheckGrammarLiveRequestInfo
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
 

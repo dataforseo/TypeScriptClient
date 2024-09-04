@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksPageMeta
+[Documentation](../globals.md) / IBacklinksPageMeta
 
 # Interface: IBacklinksPageMeta
 

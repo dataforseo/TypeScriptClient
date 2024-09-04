@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocationInfo
+[Documentation](../globals.md) / ILocationInfo
 
 # Interface: ILocationInfo
 

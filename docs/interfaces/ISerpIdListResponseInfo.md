@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpIdListResponseInfo
+[Documentation](../globals.md) / ISerpIdListResponseInfo
 
 # Interface: ISerpIdListResponseInfo
 

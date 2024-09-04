@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleImagesTasksFixedTaskInfo
+[Documentation](../globals.md) / ISerpGoogleImagesTasksFixedTaskInfo
 
 # Interface: ISerpGoogleImagesTasksFixedTaskInfo
 

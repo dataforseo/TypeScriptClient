@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleLanguagesResponseInfo
+[Documentation](../globals.md) / IAppDataAppleLanguagesResponseInfo
 
 # Interface: IAppDataAppleLanguagesResponseInfo
 

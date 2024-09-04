@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IFindResultsOnSerpElementItem
+[Documentation](../globals.md) / IFindResultsOnSerpElementItem
 
 # Interface: IFindResultsOnSerpElementItem
 

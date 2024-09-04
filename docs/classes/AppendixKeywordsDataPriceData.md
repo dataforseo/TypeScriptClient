@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixKeywordsDataPriceData
+[Documentation](../globals.md) / AppendixKeywordsDataPriceData
 
 # Class: AppendixKeywordsDataPriceData
 

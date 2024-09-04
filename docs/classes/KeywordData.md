@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordData
+[Documentation](../globals.md) / KeywordData
 
 # Class: KeywordData
 

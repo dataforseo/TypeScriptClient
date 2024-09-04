@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphExpandedItemDataforseoLabsSerpElementItem
 

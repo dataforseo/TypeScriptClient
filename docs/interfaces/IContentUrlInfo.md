@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentUrlInfo
+[Documentation](../globals.md) / IContentUrlInfo
 
 # Interface: IContentUrlInfo
 

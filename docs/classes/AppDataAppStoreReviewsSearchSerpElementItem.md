@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppStoreReviewsSearchSerpElementItem
+[Documentation](../globals.md) / AppDataAppStoreReviewsSearchSerpElementItem
 
 # Class: AppDataAppStoreReviewsSearchSerpElementItem
 

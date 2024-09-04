@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITechnologyCategoryInfo
+[Documentation](../globals.md) / ITechnologyCategoryInfo
 
 # Interface: ITechnologyCategoryInfo
 

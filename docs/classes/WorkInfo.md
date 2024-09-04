@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / WorkInfo
+[Documentation](../globals.md) / WorkInfo
 
 # Class: WorkInfo
 

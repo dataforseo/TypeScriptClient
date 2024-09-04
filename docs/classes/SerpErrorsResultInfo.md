@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpErrorsResultInfo
+[Documentation](../globals.md) / SerpErrorsResultInfo
 
 # Class: SerpErrorsResultInfo
 

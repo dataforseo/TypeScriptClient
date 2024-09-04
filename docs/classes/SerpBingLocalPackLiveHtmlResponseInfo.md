@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLocalPackLiveHtmlResponseInfo
+[Documentation](../globals.md) / SerpBingLocalPackLiveHtmlResponseInfo
 
 # Class: SerpBingLocalPackLiveHtmlResponseInfo
 

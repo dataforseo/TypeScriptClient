@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksAvailableFiltersResultInfo
+[Documentation](../globals.md) / BacklinksAvailableFiltersResultInfo
 
 # Class: BacklinksAvailableFiltersResultInfo
 

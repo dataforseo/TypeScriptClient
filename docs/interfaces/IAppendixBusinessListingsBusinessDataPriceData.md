@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixBusinessListingsBusinessDataPriceData
+[Documentation](../globals.md) / IAppendixBusinessListingsBusinessDataPriceData
 
 # Interface: IAppendixBusinessListingsBusinessDataPriceData
 

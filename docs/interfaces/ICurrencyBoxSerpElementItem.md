@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICurrencyBoxSerpElementItem
+[Documentation](../globals.md) / ICurrencyBoxSerpElementItem
 
 # Interface: ICurrencyBoxSerpElementItem
 

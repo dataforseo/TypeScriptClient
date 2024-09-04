@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixBusinessDataDayLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixBusinessDataDayLimitsRatesDataInfo
 
 # Class: AppendixBusinessDataDayLimitsRatesDataInfo
 

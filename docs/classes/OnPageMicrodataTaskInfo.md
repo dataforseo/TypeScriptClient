@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageMicrodataTaskInfo
+[Documentation](../globals.md) / OnPageMicrodataTaskInfo
 
 # Class: OnPageMicrodataTaskInfo
 

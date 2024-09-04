@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / EventItemSerpElementItem
+[Documentation](../globals.md) / EventItemSerpElementItem
 
 # Class: EventItemSerpElementItem
 

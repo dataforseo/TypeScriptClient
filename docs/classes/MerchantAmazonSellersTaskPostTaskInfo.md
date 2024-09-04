@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonSellersTaskPostTaskInfo
+[Documentation](../globals.md) / MerchantAmazonSellersTaskPostTaskInfo
 
 # Class: MerchantAmazonSellersTaskPostTaskInfo
 

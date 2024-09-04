@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleNewsTaskPostTaskInfo
+[Documentation](../globals.md) / ISerpGoogleNewsTaskPostTaskInfo
 
 # Interface: ISerpGoogleNewsTaskPostTaskInfo
 
