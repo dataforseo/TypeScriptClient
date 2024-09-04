@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:130032
+main.ts:126922
 
 ## Properties
 
@@ -46,7 +46,7 @@ relevant keyword for which demographic data is provided
 
 #### Defined in
 
-main.ts:130026
+main.ts:126916
 
 ***
 
@@ -62,7 +62,7 @@ contains age range and corresponding keyword popularity values
 
 #### Defined in
 
-main.ts:130028
+main.ts:126918
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:130028
 
 #### Defined in
 
-main.ts:130041
+main.ts:126931
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:130041
 
 #### Defined in
 
-main.ts:130063
+main.ts:126953
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:130063
 
 #### Defined in
 
-main.ts:130056
+main.ts:126946

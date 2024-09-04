@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:163495
+main.ts:159425
 
 ## Properties
 
@@ -61,7 +61,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:163471
+main.ts:159401
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:163438
+main.ts:159368
 
 ***
 
@@ -100,7 +100,7 @@ possible values:
 
 #### Defined in
 
-main.ts:163443
+main.ts:159373
 
 ***
 
@@ -119,7 +119,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:163454
+main.ts:159384
 
 ***
 
@@ -147,7 +147,7 @@ example:
 
 #### Defined in
 
-main.ts:163485
+main.ts:159415
 
 ***
 
@@ -167,7 +167,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:163491
+main.ts:159421
 
 ***
 
@@ -187,7 +187,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:163449
+main.ts:159379
 
 ## Methods
 
@@ -205,7 +205,7 @@ main.ts:163449
 
 #### Defined in
 
-main.ts:163504
+main.ts:159434
 
 ***
 
@@ -223,7 +223,7 @@ main.ts:163504
 
 #### Defined in
 
-main.ts:163535
+main.ts:159465
 
 ***
 
@@ -241,4 +241,4 @@ main.ts:163535
 
 #### Defined in
 
-main.ts:163528
+main.ts:159458

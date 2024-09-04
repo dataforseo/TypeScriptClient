@@ -31,7 +31,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:156230
+main.ts:153096
 
 ***
 
@@ -48,7 +48,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:156163
+main.ts:153029
 
 ***
 
@@ -65,7 +65,7 @@ en
 
 #### Defined in
 
-main.ts:156214
+main.ts:153080
 
 ***
 
@@ -82,7 +82,7 @@ English
 
 #### Defined in
 
-main.ts:156207
+main.ts:153073
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:156191
+main.ts:153057
 
 ***
 
@@ -118,7 +118,7 @@ example:
 
 #### Defined in
 
-main.ts:156200
+main.ts:153066
 
 ***
 
@@ -135,7 +135,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:156184
+main.ts:153050
 
 ***
 
@@ -152,7 +152,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:156237
+main.ts:153103
 
 ***
 
@@ -172,7 +172,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:156299
+main.ts:153165
 
 ***
 
@@ -188,7 +188,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:156289
+main.ts:153155
 
 ***
 
@@ -208,7 +208,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:156283
+main.ts:153149
 
 ***
 
@@ -224,7 +224,7 @@ example:
 
 #### Defined in
 
-main.ts:156260
+main.ts:153126
 
 ***
 
@@ -240,7 +240,7 @@ example:
 
 #### Defined in
 
-main.ts:156254
+main.ts:153120
 
 ***
 
@@ -258,7 +258,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:156177
+main.ts:153043
 
 ***
 
@@ -275,7 +275,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:156221
+main.ts:153087
 
 ***
 
@@ -296,7 +296,7 @@ example:
 
 #### Defined in
 
-main.ts:156248
+main.ts:153114
 
 ***
 
@@ -313,7 +313,7 @@ sort_by:"review_score"
 
 #### Defined in
 
-main.ts:156267
+main.ts:153133
 
 ***
 
@@ -329,7 +329,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:156273
+main.ts:153139
 
 ***
 
@@ -345,4 +345,4 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
-main.ts:156169
+main.ts:153035

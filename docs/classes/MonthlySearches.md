@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:83907
+main.ts:82579
 
 ## Properties
 
@@ -46,7 +46,7 @@ month
 
 #### Defined in
 
-main.ts:83901
+main.ts:82573
 
 ***
 
@@ -62,7 +62,7 @@ monthly average search volume rate
 
 #### Defined in
 
-main.ts:83903
+main.ts:82575
 
 ***
 
@@ -78,7 +78,7 @@ year
 
 #### Defined in
 
-main.ts:83899
+main.ts:82571
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:83899
 
 #### Defined in
 
-main.ts:83916
+main.ts:82588
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:83916
 
 #### Defined in
 
-main.ts:83935
+main.ts:82607
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:83935
 
 #### Defined in
 
-main.ts:83928
+main.ts:82600

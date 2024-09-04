@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:78819
+main.ts:77491
 
 ## Properties
 
@@ -46,7 +46,7 @@ starting date of the time range
 
 #### Defined in
 
-main.ts:78809
+main.ts:77481
 
 ***
 
@@ -62,7 +62,7 @@ ending date of the time range
 
 #### Defined in
 
-main.ts:78811
+main.ts:77483
 
 ***
 
@@ -78,7 +78,7 @@ items array
 
 #### Defined in
 
-main.ts:78815
+main.ts:77487
 
 ***
 
@@ -94,7 +94,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:78813
+main.ts:77485
 
 ***
 
@@ -110,7 +110,7 @@ target technology
 
 #### Defined in
 
-main.ts:78807
+main.ts:77479
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:78807
 
 #### Defined in
 
-main.ts:78828
+main.ts:77500
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:78828
 
 #### Defined in
 
-main.ts:78853
+main.ts:77525
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:78853
 
 #### Defined in
 
-main.ts:78846
+main.ts:77518

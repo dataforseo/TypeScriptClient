@@ -21,7 +21,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:38351
+main.ts:36549
 
 ***
 
@@ -34,7 +34,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
 
 #### Defined in
 
-main.ts:38354
+main.ts:36552
 
 ***
 
@@ -47,7 +47,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 #### Defined in
 
-main.ts:38348
+main.ts:36546
 
 ***
 
@@ -59,7 +59,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:38345
+main.ts:36543
 
 ***
 
@@ -71,4 +71,4 @@ type of element
 
 #### Defined in
 
-main.ts:38343
+main.ts:36541

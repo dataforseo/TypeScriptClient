@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:139302
+main.ts:136168
 
 ## Properties
 
@@ -47,7 +47,7 @@ represents clickstream-based search volume in available countries, as well as it
 
 #### Defined in
 
-main.ts:139298
+main.ts:136164
 
 ***
 
@@ -64,7 +64,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:139291
+main.ts:136157
 
 ***
 
@@ -82,7 +82,7 @@ you can learn more about clickstream search volume in this Help Center article
 
 #### Defined in
 
-main.ts:139295
+main.ts:136161
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:139295
 
 #### Defined in
 
-main.ts:139311
+main.ts:136177
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:139311
 
 #### Defined in
 
-main.ts:139334
+main.ts:136200
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:139334
 
 #### Defined in
 
-main.ts:139327
+main.ts:136193

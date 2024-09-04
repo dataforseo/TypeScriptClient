@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:77911
+main.ts:76583
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Defined in
 
-main.ts:77907
+main.ts:76579
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:77903
+main.ts:76575
 
 ***
 
@@ -78,7 +78,7 @@ offset in the results array of returned domains
 
 #### Defined in
 
-main.ts:77905
+main.ts:76577
 
 ***
 
@@ -94,7 +94,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:77901
+main.ts:76573
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:77901
 
 #### Defined in
 
-main.ts:77920
+main.ts:76592
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:77920
 
 #### Defined in
 
-main.ts:77944
+main.ts:76616
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:77944
 
 #### Defined in
 
-main.ts:77937
+main.ts:76609

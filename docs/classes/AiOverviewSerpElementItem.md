@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:38392
+main.ts:36575
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:38392
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -70,7 +70,7 @@ if false, the ai_overview element is loaded from cache;
 
 #### Defined in
 
-main.ts:38378
+main.ts:36561
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:38381
+main.ts:36564
 
 ***
 
@@ -103,9 +103,13 @@ left, right
 
 [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md).[`position`](../interfaces/IAiOverviewSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:38372
+main.ts:20363
 
 ***
 
@@ -115,15 +119,18 @@ main.ts:38372
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md).[`rank_absolute`](../interfaces/IAiOverviewSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:38368
+main.ts:20359
 
 ***
 
@@ -132,17 +139,20 @@ main.ts:38368
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md).[`rank_group`](../interfaces/IAiOverviewSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:38364
+main.ts:20356
 
 ***
 
@@ -160,7 +170,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:38388
+main.ts:36571
 
 ***
 
@@ -177,7 +187,27 @@ includes references to webpages that may have been used to generate the ai_overv
 
 #### Defined in
 
-main.ts:38384
+main.ts:36567
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md).[`type`](../interfaces/IAiOverviewSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -191,9 +221,13 @@ the XPath of the element
 
 [`IAiOverviewSerpElementItem`](../interfaces/IAiOverviewSerpElementItem.md).[`xpath`](../interfaces/IAiOverviewSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:38374
+main.ts:20365
 
 ## Methods
 
@@ -215,7 +249,7 @@ main.ts:38374
 
 #### Defined in
 
-main.ts:38397
+main.ts:36580
 
 ***
 
@@ -237,7 +271,7 @@ main.ts:38397
 
 #### Defined in
 
-main.ts:38430
+main.ts:36609
 
 ***
 
@@ -259,4 +293,4 @@ main.ts:38430
 
 #### Defined in
 
-main.ts:38423
+main.ts:36602

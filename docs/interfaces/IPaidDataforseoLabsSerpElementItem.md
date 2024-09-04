@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:100353
+main.ts:98183
 
 ***
 
@@ -36,7 +36,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:100310
+main.ts:98140
 
 ***
 
@@ -51,7 +51,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:100349
+main.ts:98179
 
 ***
 
@@ -63,7 +63,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:100308
+main.ts:98138
 
 ***
 
@@ -76,7 +76,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:100319
+main.ts:98149
 
 ***
 
@@ -84,11 +84,11 @@ main.ts:100319
 
 > `optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-main.ts:100306
+main.ts:98136
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:100340
+main.ts:98170
 
 ***
 
@@ -118,7 +118,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:100330
+main.ts:98160
 
 ***
 
@@ -134,7 +134,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:100316
+main.ts:98146
 
 ***
 
@@ -146,7 +146,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:100314
+main.ts:98144
 
 ***
 
@@ -161,7 +161,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:100335
+main.ts:98165
 
 ***
 
@@ -173,7 +173,7 @@ link of the element
 
 #### Defined in
 
-main.ts:100321
+main.ts:98151
 
 ***
 
@@ -185,7 +185,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:100323
+main.ts:98153
 
 ***
 
@@ -197,9 +197,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:100300
+main.ts:21020
 
 ***
 
@@ -210,9 +214,13 @@ main.ts:100300
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:100296
+main.ts:21016
 
 ***
 
@@ -226,7 +234,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Defined in
 
-main.ts:100344
+main.ts:98174
 
 ***
 
@@ -237,9 +245,13 @@ main.ts:100344
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:100293
+main.ts:21013
 
 ***
 
@@ -251,7 +263,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:100355
+main.ts:98185
 
 ***
 
@@ -263,7 +275,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:100325
+main.ts:98155
 
 ***
 
@@ -275,7 +287,7 @@ search engine type
 
 #### Defined in
 
-main.ts:100351
+main.ts:98181
 
 ***
 
@@ -283,11 +295,27 @@ main.ts:100351
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Defined in
 
-main.ts:100304
+main.ts:98134
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -295,11 +323,11 @@ main.ts:100304
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:100312
+main.ts:98142
 
 ***
 
@@ -309,6 +337,10 @@ main.ts:100312
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:100302
+main.ts:21022

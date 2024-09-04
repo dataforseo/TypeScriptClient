@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:81335
+main.ts:80007
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:81331
+main.ts:80003
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:81329
+main.ts:80001
 
 ***
 
@@ -78,7 +78,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:81327
+main.ts:79999
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:81327
 
 #### Defined in
 
-main.ts:81344
+main.ts:80016
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:81344
 
 #### Defined in
 
-main.ts:81367
+main.ts:80039
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:81367
 
 #### Defined in
 
-main.ts:81360
+main.ts:80032

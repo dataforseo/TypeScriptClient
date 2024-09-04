@@ -24,7 +24,7 @@ description of the product
 
 #### Defined in
 
-main.ts:183160
+main.ts:178882
 
 ***
 
@@ -37,7 +37,7 @@ contains snippets with the description of product features
 
 #### Defined in
 
-main.ts:183169
+main.ts:178891
 
 ***
 
@@ -50,7 +50,7 @@ contains urls to product images
 
 #### Defined in
 
-main.ts:183166
+main.ts:178888
 
 ***
 
@@ -58,13 +58,17 @@ main.ts:183166
 
 > `optional` **position**: `string`
 
-alignment of the element on the product specification page
+alignment of the element in SERP
 can take the following values:
-right, left
+left, right
+
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
 
 #### Defined in
 
-main.ts:183153
+main.ts:21130
 
 ***
 
@@ -77,7 +81,7 @@ ilearn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:183156
+main.ts:178878
 
 ***
 
@@ -85,12 +89,16 @@ main.ts:183156
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank on the product specification page
-absolute position among all the elements found on the product specification page
+absolute rank in SERP
+absolute position among all the elements found in Google Shopping SERP
+
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:183149
+main.ts:21126
 
 ***
 
@@ -101,9 +109,13 @@ main.ts:183149
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:183146
+main.ts:21123
 
 ***
 
@@ -116,7 +128,7 @@ the popularity rate based on reviews
 
 #### Defined in
 
-main.ts:183172
+main.ts:178894
 
 ***
 
@@ -129,7 +141,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:183175
+main.ts:178897
 
 ***
 
@@ -142,7 +154,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:183178
+main.ts:178900
 
 ***
 
@@ -154,7 +166,23 @@ title of the product
 
 #### Defined in
 
-main.ts:183158
+main.ts:178880
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21120
 
 ***
 
@@ -167,7 +195,7 @@ url of the product on Google Shopping
 
 #### Defined in
 
-main.ts:183163
+main.ts:178885
 
 ***
 
@@ -180,4 +208,4 @@ contains brief information about different product variations
 
 #### Defined in
 
-main.ts:183181
+main.ts:178903

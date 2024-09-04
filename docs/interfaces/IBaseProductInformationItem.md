@@ -12,6 +12,26 @@
 - [`IProductInformationTextItem`](IProductInformationTextItem.md)
 - [`IProductInformationExtendedItem`](IProductInformationExtendedItem.md)
 
-## Indexable
+## Properties
 
- \[`key`: `string`\]: `any`
+### section\_name?
+
+> `optional` **section\_name**: `string`
+
+name of the section related to product information specified in the contents
+
+#### Defined in
+
+main.ts:23408
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Defined in
+
+main.ts:23406

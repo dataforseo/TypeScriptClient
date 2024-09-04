@@ -20,7 +20,7 @@ URL to the reviewer’s profile image
 
 #### Defined in
 
-main.ts:195488
+main.ts:190980
 
 ***
 
@@ -32,4 +32,4 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:195486
+main.ts:190978

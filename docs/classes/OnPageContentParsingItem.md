@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:165932
+main.ts:161862
 
 ## Properties
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:165924
+main.ts:161854
 
 ***
 
@@ -64,7 +64,7 @@ parsed content of the page
 
 #### Defined in
 
-main.ts:165928
+main.ts:161858
 
 ***
 
@@ -80,7 +80,7 @@ status code of the page
 
 #### Defined in
 
-main.ts:165926
+main.ts:161856
 
 ***
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:165920
+main.ts:161850
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:165920
 
 #### Defined in
 
-main.ts:165941
+main.ts:161871
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:165941
 
 #### Defined in
 
-main.ts:165961
+main.ts:161891
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:165961
 
 #### Defined in
 
-main.ts:165954
+main.ts:161884

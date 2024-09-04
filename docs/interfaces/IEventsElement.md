@@ -20,7 +20,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:32826
+main.ts:32088
 
 ***
 
@@ -32,7 +32,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32824
+main.ts:32086
 
 ***
 
@@ -44,7 +44,7 @@ type of element
 
 #### Defined in
 
-main.ts:32822
+main.ts:32084
 
 ***
 
@@ -56,4 +56,4 @@ URL
 
 #### Defined in
 
-main.ts:32828
+main.ts:32090

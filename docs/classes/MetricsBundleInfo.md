@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:81019
+main.ts:79691
 
 ## Properties
 
@@ -46,7 +46,7 @@ ranking and traffic data from organic search
 
 #### Defined in
 
-main.ts:81013
+main.ts:79685
 
 ***
 
@@ -62,7 +62,7 @@ ranking and traffic data from paid search
 
 #### Defined in
 
-main.ts:81015
+main.ts:79687
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:81015
 
 #### Defined in
 
-main.ts:81028
+main.ts:79700
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:81028
 
 #### Defined in
 
-main.ts:81046
+main.ts:79718
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:81046
 
 #### Defined in
 
-main.ts:81039
+main.ts:79711

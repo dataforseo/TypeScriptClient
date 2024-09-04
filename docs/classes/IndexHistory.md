@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:141597
+main.ts:138463
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:141587
+main.ts:138453
 
 ***
 
@@ -65,7 +65,7 @@ total number of backlinks our database contained on the given date
 
 #### Defined in
 
-main.ts:141589
+main.ts:138455
 
 ***
 
@@ -81,7 +81,7 @@ total number of domains our database contained on the given date
 
 #### Defined in
 
-main.ts:141593
+main.ts:138459
 
 ***
 
@@ -97,7 +97,7 @@ total number of pages our database contained on the given date
 
 #### Defined in
 
-main.ts:141591
+main.ts:138457
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:141591
 
 #### Defined in
 
-main.ts:141606
+main.ts:138472
 
 ***
 
@@ -133,7 +133,7 @@ main.ts:141606
 
 #### Defined in
 
-main.ts:141626
+main.ts:138492
 
 ***
 
@@ -151,4 +151,4 @@ main.ts:141626
 
 #### Defined in
 
-main.ts:141619
+main.ts:138485

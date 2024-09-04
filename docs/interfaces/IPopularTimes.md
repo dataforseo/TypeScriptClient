@@ -25,4 +25,4 @@ information about busy hours of the local establishment on each day of the week
 
 #### Defined in
 
-main.ts:203332
+main.ts:198714

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:194447
+main.ts:189939
 
 ## Properties
 
@@ -46,7 +46,7 @@ application id received in a POST request
 
 #### Defined in
 
-main.ts:194423
+main.ts:189915
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:194432
+main.ts:189924
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:194437
+main.ts:189929
 
 ***
 
@@ -98,7 +98,7 @@ found app info
 
 #### Defined in
 
-main.ts:194443
+main.ts:189935
 
 ***
 
@@ -114,7 +114,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:194441
+main.ts:189933
 
 ***
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:194429
+main.ts:189921
 
 ***
 
@@ -146,7 +146,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:194427
+main.ts:189919
 
 ***
 
@@ -162,7 +162,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:194425
+main.ts:189917
 
 ***
 
@@ -178,7 +178,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:194439
+main.ts:189931
 
 ## Methods
 
@@ -196,7 +196,7 @@ main.ts:194439
 
 #### Defined in
 
-main.ts:194456
+main.ts:189948
 
 ***
 
@@ -214,7 +214,7 @@ main.ts:194456
 
 #### Defined in
 
-main.ts:194485
+main.ts:189977
 
 ***
 
@@ -232,4 +232,4 @@ main.ts:194485
 
 #### Defined in
 
-main.ts:194478
+main.ts:189970

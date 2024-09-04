@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:151968
+main.ts:148834
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:151973
+main.ts:148839
 
 ***
 
@@ -50,7 +50,7 @@ group_range from the POST array
 
 #### Defined in
 
-main.ts:151975
+main.ts:148841
 
 ***
 
@@ -62,7 +62,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:151979
+main.ts:148845
 
 ***
 
@@ -74,7 +74,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:151977
+main.ts:148843
 
 ***
 
@@ -86,4 +86,4 @@ target from a POST array
 
 #### Defined in
 
-main.ts:151963
+main.ts:148829

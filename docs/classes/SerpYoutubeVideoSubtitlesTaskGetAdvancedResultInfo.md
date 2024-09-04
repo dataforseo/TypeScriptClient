@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:65345
+main.ts:64069
 
 ## Properties
 
@@ -46,7 +46,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:65333
+main.ts:64057
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:65312
+main.ts:64036
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:65317
+main.ts:64041
 
 ***
 
@@ -101,13 +101,13 @@ youtube_subtitles
 
 #### Defined in
 
-main.ts:65325
+main.ts:64049
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)[]
 
 elements of search results found in SERP
 
@@ -117,7 +117,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:65341
+main.ts:64065
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:65339
+main.ts:64063
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:65309
+main.ts:64033
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:65307
+main.ts:64031
 
 ***
 
@@ -181,7 +181,7 @@ language code of original text
 
 #### Defined in
 
-main.ts:65331
+main.ts:64055
 
 ***
 
@@ -197,7 +197,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:65305
+main.ts:64029
 
 ***
 
@@ -214,7 +214,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:65320
+main.ts:64044
 
 ***
 
@@ -230,7 +230,7 @@ number of subtitles in the video
 
 #### Defined in
 
-main.ts:65335
+main.ts:64059
 
 ***
 
@@ -246,7 +246,7 @@ title of the video
 
 #### Defined in
 
-main.ts:65337
+main.ts:64061
 
 ***
 
@@ -262,7 +262,7 @@ language code of translated text
 
 #### Defined in
 
-main.ts:65329
+main.ts:64053
 
 ***
 
@@ -278,7 +278,7 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-main.ts:65327
+main.ts:64051
 
 ***
 
@@ -294,7 +294,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:65303
+main.ts:64027
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:65303
 
 #### Defined in
 
-main.ts:65354
+main.ts:64078
 
 ***
 
@@ -330,7 +330,7 @@ main.ts:65354
 
 #### Defined in
 
-main.ts:65394
+main.ts:64118
 
 ***
 
@@ -348,4 +348,4 @@ main.ts:65394
 
 #### Defined in
 
-main.ts:65387
+main.ts:64111

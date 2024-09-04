@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:106212
+main.ts:103354
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:106212
 
 #### Defined in
 
-main.ts:22007
+main.ts:22315
 
 ***
 
@@ -69,7 +69,7 @@ learn more about ASIN in this help center guide
 
 #### Defined in
 
-main.ts:106170
+main.ts:103312
 
 ***
 
@@ -85,7 +85,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:106201
+main.ts:103343
 
 ***
 
@@ -103,7 +103,7 @@ USD
 
 #### Defined in
 
-main.ts:106184
+main.ts:103326
 
 ***
 
@@ -122,7 +122,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:106208
+main.ts:103350
 
 ***
 
@@ -139,7 +139,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:106199
+main.ts:103341
 
 ***
 
@@ -155,7 +155,7 @@ description of the product
 
 #### Defined in
 
-main.ts:106203
+main.ts:103345
 
 ***
 
@@ -171,7 +171,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:106163
+main.ts:103305
 
 ***
 
@@ -187,7 +187,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:106172
+main.ts:103314
 
 ***
 
@@ -204,7 +204,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:106193
+main.ts:103335
 
 ***
 
@@ -221,7 +221,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:106190
+main.ts:103332
 
 ***
 
@@ -239,7 +239,7 @@ left, right
 
 #### Defined in
 
-main.ts:106159
+main.ts:103303
 
 ***
 
@@ -257,7 +257,7 @@ example:
 
 #### Defined in
 
-main.ts:106176
+main.ts:103318
 
 ***
 
@@ -275,7 +275,7 @@ example:
 
 #### Defined in
 
-main.ts:106180
+main.ts:103322
 
 ***
 
@@ -290,9 +290,13 @@ absolute position among all the elements in SERP
 
 [`IAmazonAmazonSerpSerpElementItem`](../interfaces/IAmazonAmazonSerpSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonAmazonSerpSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_absolute`](BaseAmazonSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:106155
+main.ts:22311
 
 ***
 
@@ -307,9 +311,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAmazonAmazonSerpSerpElementItem`](../interfaces/IAmazonAmazonSerpSerpElementItem.md).[`rank_group`](../interfaces/IAmazonAmazonSerpSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_group`](BaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:106152
+main.ts:22308
 
 ***
 
@@ -326,7 +334,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:106196
+main.ts:103338
 
 ***
 
@@ -342,7 +350,7 @@ search engine type
 
 #### Defined in
 
-main.ts:106149
+main.ts:103299
 
 ***
 
@@ -359,7 +367,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:106187
+main.ts:103329
 
 ***
 
@@ -375,7 +383,27 @@ product title
 
 #### Defined in
 
-main.ts:106165
+main.ts:103307
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAmazonAmazonSerpSerpElementItem`](../interfaces/IAmazonAmazonSerpSerpElementItem.md).[`type`](../interfaces/IAmazonAmazonSerpSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`type`](BaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22305
 
 ***
 
@@ -391,7 +419,7 @@ URL of the product page
 
 #### Defined in
 
-main.ts:106167
+main.ts:103309
 
 ***
 
@@ -405,9 +433,13 @@ the XPath of the element
 
 [`IAmazonAmazonSerpSerpElementItem`](../interfaces/IAmazonAmazonSerpSerpElementItem.md).[`xpath`](../interfaces/IAmazonAmazonSerpSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`xpath`](BaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:106161
+main.ts:22313
 
 ## Methods
 
@@ -429,7 +461,7 @@ main.ts:106161
 
 #### Defined in
 
-main.ts:106217
+main.ts:103359
 
 ***
 
@@ -451,7 +483,7 @@ main.ts:106217
 
 #### Defined in
 
-main.ts:106259
+main.ts:103398
 
 ***
 
@@ -473,4 +505,4 @@ main.ts:106259
 
 #### Defined in
 
-main.ts:106252
+main.ts:103391

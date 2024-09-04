@@ -24,7 +24,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:179123
+main.ts:174975
 
 ***
 
@@ -32,13 +32,17 @@ main.ts:179123
 
 > `optional` **position**: `string`
 
-alignment of the element in Google Shopping SERP
-possible values:
+alignment of the element in SERP
+can take the following values:
 left, right
+
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
 
 #### Defined in
 
-main.ts:179117
+main.ts:21130
 
 ***
 
@@ -49,9 +53,13 @@ main.ts:179117
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:179113
+main.ts:21126
 
 ***
 
@@ -62,9 +70,13 @@ main.ts:179113
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:179110
+main.ts:21123
 
 ***
 
@@ -76,7 +88,23 @@ product title
 
 #### Defined in
 
-main.ts:179121
+main.ts:174973
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21120
 
 ***
 
@@ -88,4 +116,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:179119
+main.ts:174971

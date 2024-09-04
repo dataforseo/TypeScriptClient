@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:200883
+main.ts:196265
 
 ## Properties
 
@@ -46,7 +46,7 @@ name of the supported app category
 
 #### Defined in
 
-main.ts:200877
+main.ts:196259
 
 ***
 
@@ -62,7 +62,7 @@ number of app listings that make up the supported app category
 
 #### Defined in
 
-main.ts:200879
+main.ts:196261
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:200879
 
 #### Defined in
 
-main.ts:200892
+main.ts:196274
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:200892
 
 #### Defined in
 
-main.ts:200910
+main.ts:196292
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:200910
 
 #### Defined in
 
-main.ts:200903
+main.ts:196285

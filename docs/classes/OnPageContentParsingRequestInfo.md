@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:165221
+main.ts:161151
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:165217
+main.ts:161147
 
 ***
 
@@ -71,7 +71,7 @@ https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-t
 
 #### Defined in
 
-main.ts:165210
+main.ts:161140
 
 ## Methods
 
@@ -89,7 +89,7 @@ main.ts:165210
 
 #### Defined in
 
-main.ts:165230
+main.ts:161160
 
 ***
 
@@ -107,7 +107,7 @@ main.ts:165230
 
 #### Defined in
 
-main.ts:165248
+main.ts:161178
 
 ***
 
@@ -125,4 +125,4 @@ main.ts:165248
 
 #### Defined in
 
-main.ts:165241
+main.ts:161171

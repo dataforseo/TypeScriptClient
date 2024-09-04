@@ -25,7 +25,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32560
+main.ts:31860
 
 ***
 
@@ -37,9 +37,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:32551
+main.ts:20721
 
 ***
 
@@ -49,11 +53,14 @@ main.ts:32551
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:32547
+main.ts:20717
 
 ***
 
@@ -62,13 +69,16 @@ main.ts:32547
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:32543
+main.ts:20714
 
 ***
 
@@ -82,7 +92,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32564
+main.ts:31864
 
 ***
 
@@ -94,7 +104,23 @@ title of the row
 
 #### Defined in
 
-main.ts:32555
+main.ts:31855
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -106,7 +132,7 @@ source URL
 
 #### Defined in
 
-main.ts:32557
+main.ts:31857
 
 ***
 
@@ -116,6 +142,10 @@ main.ts:32557
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:32553
+main.ts:20723

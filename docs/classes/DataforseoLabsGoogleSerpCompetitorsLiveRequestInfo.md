@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:93471
+main.ts:92111
 
 ## Properties
 
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:93445
+main.ts:92085
 
 ***
 
@@ -78,7 +78,7 @@ default value: true
 
 #### Defined in
 
-main.ts:93412
+main.ts:92052
 
 ***
 
@@ -100,7 +100,7 @@ default value:
 
 #### Defined in
 
-main.ts:93420
+main.ts:92060
 
 ***
 
@@ -122,7 +122,7 @@ you can specify the maximum of 200 keywords
 
 #### Defined in
 
-main.ts:93375
+main.ts:92015
 
 ***
 
@@ -144,7 +144,7 @@ en
 
 #### Defined in
 
-main.ts:93407
+main.ts:92047
 
 ***
 
@@ -166,7 +166,7 @@ English
 
 #### Defined in
 
-main.ts:93399
+main.ts:92039
 
 ***
 
@@ -185,7 +185,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:93425
+main.ts:92065
 
 ***
 
@@ -207,7 +207,7 @@ example:
 
 #### Defined in
 
-main.ts:93391
+main.ts:92031
 
 ***
 
@@ -229,7 +229,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:93383
+main.ts:92023
 
 ***
 
@@ -248,7 +248,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:93430
+main.ts:92070
 
 ***
 
@@ -278,7 +278,7 @@ example:
 
 #### Defined in
 
-main.ts:93461
+main.ts:92101
 
 ***
 
@@ -298,7 +298,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:93467
+main.ts:92107
 
 ## Methods
 
@@ -316,7 +316,7 @@ main.ts:93467
 
 #### Defined in
 
-main.ts:93480
+main.ts:92120
 
 ***
 
@@ -334,7 +334,7 @@ main.ts:93480
 
 #### Defined in
 
-main.ts:93524
+main.ts:92164
 
 ***
 
@@ -352,4 +352,4 @@ main.ts:93524
 
 #### Defined in
 
-main.ts:93517
+main.ts:92157

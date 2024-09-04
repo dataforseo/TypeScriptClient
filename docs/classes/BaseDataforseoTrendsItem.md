@@ -16,10 +16,6 @@
 
 - [`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md)
 
-## Indexable
-
- \[`key`: `string`\]: `any`
-
 ## Constructors
 
 ### new BaseDataforseoTrendsItem()
@@ -36,7 +32,7 @@
 
 #### Defined in
 
-main.ts:21640
+main.ts:21896
 
 ## Properties
 
@@ -46,7 +42,57 @@ main.ts:21640
 
 #### Defined in
 
-main.ts:21638
+main.ts:21894
+
+***
+
+### keywords?
+
+> `optional` **keywords**: `string`[]
+
+relevant keywords
+the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
+
+#### Implementation of
+
+[`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md).[`keywords`](../interfaces/IBaseDataforseoTrendsItem.md#keywords)
+
+#### Defined in
+
+main.ts:21892
+
+***
+
+### position?
+
+> `optional` **position**: `number`
+
+the alignment of the element
+can take the following values: 1, 2, 3, 4, etc.
+
+#### Implementation of
+
+[`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md).[`position`](../interfaces/IBaseDataforseoTrendsItem.md#position)
+
+#### Defined in
+
+main.ts:21889
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseDataforseoTrendsItem`](../interfaces/IBaseDataforseoTrendsItem.md).[`type`](../interfaces/IBaseDataforseoTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21886
 
 ## Methods
 
@@ -64,7 +110,7 @@ main.ts:21638
 
 #### Defined in
 
-main.ts:21650
+main.ts:21906
 
 ***
 
@@ -82,7 +128,7 @@ main.ts:21650
 
 #### Defined in
 
-main.ts:21681
+main.ts:21940
 
 ***
 
@@ -100,4 +146,4 @@ main.ts:21681
 
 #### Defined in
 
-main.ts:21659
+main.ts:21918

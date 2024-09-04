@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:29326
+main.ts:29215
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:29326
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ card id
 
 #### Defined in
 
-main.ts:29304
+main.ts:29193
 
 ***
 
@@ -86,7 +86,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:29315
+main.ts:29204
 
 ***
 
@@ -102,7 +102,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29302
+main.ts:29191
 
 ***
 
@@ -119,7 +119,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:29309
+main.ts:29198
 
 ***
 
@@ -136,7 +136,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29318
+main.ts:29207
 
 ***
 
@@ -152,7 +152,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:29311
+main.ts:29200
 
 ***
 
@@ -168,9 +168,13 @@ left, right
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:29294
+main.ts:20363
 
 ***
 
@@ -185,9 +189,13 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:29290
+main.ts:20359
 
 ***
 
@@ -203,9 +211,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:29287
+main.ts:20356
 
 ***
 
@@ -223,7 +235,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29322
+main.ts:29211
 
 ***
 
@@ -239,7 +251,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:29300
+main.ts:29189
 
 ***
 
@@ -255,7 +267,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:29298
+main.ts:29187
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`type`](../interfaces/IKnowledgeGraphSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -271,7 +303,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:29306
+main.ts:29195
 
 ***
 
@@ -285,9 +317,13 @@ the XPath of the element
 
 [`IKnowledgeGraphSerpElementItem`](../interfaces/IKnowledgeGraphSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:29296
+main.ts:20365
 
 ## Methods
 
@@ -309,7 +345,7 @@ main.ts:29296
 
 #### Defined in
 
-main.ts:29331
+main.ts:29220
 
 ***
 
@@ -331,7 +367,7 @@ main.ts:29331
 
 #### Defined in
 
-main.ts:29366
+main.ts:29251
 
 ***
 
@@ -353,4 +389,4 @@ main.ts:29366
 
 #### Defined in
 
-main.ts:29359
+main.ts:29244

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:124921
+main.ts:121979
 
 ## Properties
 
@@ -48,7 +48,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124909
+main.ts:121967
 
 ***
 
@@ -68,7 +68,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:124893
+main.ts:121951
 
 ***
 
@@ -86,7 +86,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124917
+main.ts:121975
 
 ***
 
@@ -104,7 +104,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124913
+main.ts:121971
 
 ***
 
@@ -122,7 +122,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124905
+main.ts:121963
 
 ***
 
@@ -138,7 +138,7 @@ forecasting date interval in a POST array
 
 #### Defined in
 
-main.ts:124882
+main.ts:121940
 
 ***
 
@@ -157,7 +157,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:124901
+main.ts:121959
 
 ***
 
@@ -173,7 +173,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:124874
+main.ts:121932
 
 ***
 
@@ -190,7 +190,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124880
+main.ts:121938
 
 ***
 
@@ -207,7 +207,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124877
+main.ts:121935
 
 ***
 
@@ -224,7 +224,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:124896
+main.ts:121954
 
 ***
 
@@ -243,7 +243,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:124887
+main.ts:121945
 
 ## Methods
 
@@ -261,7 +261,7 @@ main.ts:124887
 
 #### Defined in
 
-main.ts:124930
+main.ts:121988
 
 ***
 
@@ -279,7 +279,7 @@ main.ts:124930
 
 #### Defined in
 
-main.ts:124958
+main.ts:122016
 
 ***
 
@@ -297,4 +297,4 @@ main.ts:124958
 
 #### Defined in
 
-main.ts:124951
+main.ts:122009

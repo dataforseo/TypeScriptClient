@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:37772
+main.ts:36046
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Defined in
 
-main.ts:37763
+main.ts:36037
 
 ***
 
@@ -62,7 +62,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:37765
+main.ts:36039
 
 ***
 
@@ -79,7 +79,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:37768
+main.ts:36042
 
 ***
 
@@ -95,7 +95,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:37759
+main.ts:36033
 
 ***
 
@@ -111,7 +111,7 @@ type of element
 
 #### Defined in
 
-main.ts:37757
+main.ts:36031
 
 ***
 
@@ -127,7 +127,7 @@ URL
 
 #### Defined in
 
-main.ts:37761
+main.ts:36035
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:37761
 
 #### Defined in
 
-main.ts:37781
+main.ts:36055
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:37781
 
 #### Defined in
 
-main.ts:37803
+main.ts:36077
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:37803
 
 #### Defined in
 
-main.ts:37796
+main.ts:36070

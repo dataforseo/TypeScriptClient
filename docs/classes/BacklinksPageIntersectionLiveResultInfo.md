@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:150936
+main.ts:147802
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:150932
+main.ts:147798
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:150930
+main.ts:147796
 
 ***
 
@@ -82,7 +82,7 @@ targets from a POST array
 
 #### Defined in
 
-main.ts:150926
+main.ts:147792
 
 ***
 
@@ -98,7 +98,7 @@ total amount of results relevant the request
 
 #### Defined in
 
-main.ts:150928
+main.ts:147794
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:150928
 
 #### Defined in
 
-main.ts:150945
+main.ts:147811
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:150945
 
 #### Defined in
 
-main.ts:150975
+main.ts:147841
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:150975
 
 #### Defined in
 
-main.ts:150968
+main.ts:147834

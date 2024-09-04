@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:39784
+main.ts:37944
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:39745
+main.ts:37905
 
 ***
 
@@ -77,7 +77,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:39755
+main.ts:37915
 
 ***
 
@@ -100,7 +100,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:39736
+main.ts:37896
 
 ***
 
@@ -121,7 +121,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:39727
+main.ts:37887
 
 ***
 
@@ -144,7 +144,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:39637
+main.ts:37797
 
 ***
 
@@ -163,7 +163,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:39694
+main.ts:37854
 
 ***
 
@@ -183,7 +183,7 @@ default value: true
 
 #### Defined in
 
-main.ts:39720
+main.ts:37880
 
 ***
 
@@ -206,7 +206,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:39622
+main.ts:37782
 
 ***
 
@@ -227,7 +227,7 @@ en
 
 #### Defined in
 
-main.ts:39682
+main.ts:37842
 
 ***
 
@@ -248,7 +248,7 @@ English
 
 #### Defined in
 
-main.ts:39675
+main.ts:37835
 
 ***
 
@@ -270,7 +270,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 #### Defined in
 
-main.ts:39770
+main.ts:37930
 
 ***
 
@@ -291,7 +291,7 @@ example:
 
 #### Defined in
 
-main.ts:39658
+main.ts:37818
 
 ***
 
@@ -315,7 +315,7 @@ example:
 
 #### Defined in
 
-main.ts:39668
+main.ts:37828
 
 ***
 
@@ -336,7 +336,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:39651
+main.ts:37811
 
 ***
 
@@ -357,7 +357,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:39644
+main.ts:37804
 
 ***
 
@@ -378,7 +378,7 @@ default value: android
 
 #### Defined in
 
-main.ts:39701
+main.ts:37861
 
 ***
 
@@ -399,7 +399,7 @@ possible values: from 1 to 4
 
 #### Defined in
 
-main.ts:39762
+main.ts:37922
 
 ***
 
@@ -420,7 +420,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:39689
+main.ts:37849
 
 ***
 
@@ -438,7 +438,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:39774
+main.ts:37934
 
 ***
 
@@ -458,7 +458,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:39780
+main.ts:37940
 
 ***
 
@@ -485,7 +485,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Defined in
 
-main.ts:39714
+main.ts:37874
 
 ***
 
@@ -505,7 +505,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-main.ts:39628
+main.ts:37788
 
 ## Methods
 
@@ -523,7 +523,7 @@ main.ts:39628
 
 #### Defined in
 
-main.ts:39793
+main.ts:37953
 
 ***
 
@@ -541,7 +541,7 @@ main.ts:39793
 
 #### Defined in
 
-main.ts:39831
+main.ts:37991
 
 ***
 
@@ -559,4 +559,4 @@ main.ts:39831
 
 #### Defined in
 
-main.ts:39824
+main.ts:37984

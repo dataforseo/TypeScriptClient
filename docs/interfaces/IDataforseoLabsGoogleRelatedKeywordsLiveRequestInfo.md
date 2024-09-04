@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:85426
+main.ts:84098
 
 ***
 
@@ -59,7 +59,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:85474
+main.ts:84146
 
 ***
 
@@ -74,7 +74,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85448
+main.ts:84120
 
 ***
 
@@ -91,7 +91,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:85443
+main.ts:84115
 
 ***
 
@@ -106,7 +106,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85431
+main.ts:84103
 
 ***
 
@@ -121,7 +121,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85436
+main.ts:84108
 
 ***
 
@@ -136,7 +136,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:85382
+main.ts:84054
 
 ***
 
@@ -154,7 +154,7 @@ en
 
 #### Defined in
 
-main.ts:85414
+main.ts:84086
 
 ***
 
@@ -172,7 +172,7 @@ English
 
 #### Defined in
 
-main.ts:85406
+main.ts:84078
 
 ***
 
@@ -187,7 +187,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:85495
+main.ts:84167
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Defined in
 
-main.ts:85398
+main.ts:84070
 
 ***
 
@@ -223,7 +223,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:85390
+main.ts:84062
 
 ***
 
@@ -238,7 +238,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:85500
+main.ts:84172
 
 ***
 
@@ -264,7 +264,7 @@ example:
 
 #### Defined in
 
-main.ts:85490
+main.ts:84162
 
 ***
 
@@ -281,7 +281,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85455
+main.ts:84127
 
 ***
 
@@ -297,4 +297,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:85506
+main.ts:84178

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:128534
+main.ts:125472
 
 ## Properties
 
@@ -53,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:128511
+main.ts:125449
 
 ***
 
@@ -74,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:128518
+main.ts:125456
 
 ***
 
@@ -92,7 +92,7 @@ the maximum number of keywords you can specify: 5
 
 #### Defined in
 
-main.ts:128482
+main.ts:125420
 
 ***
 
@@ -115,7 +115,7 @@ example:
 
 #### Defined in
 
-main.ts:128500
+main.ts:125438
 
 ***
 
@@ -138,7 +138,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:128491
+main.ts:125429
 
 ***
 
@@ -158,7 +158,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:128530
+main.ts:125468
 
 ***
 
@@ -178,7 +178,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Defined in
 
-main.ts:128524
+main.ts:125462
 
 ***
 
@@ -194,7 +194,7 @@ type of element
 
 #### Defined in
 
-main.ts:128502
+main.ts:125440
 
 ## Methods
 
@@ -212,7 +212,7 @@ main.ts:128502
 
 #### Defined in
 
-main.ts:128543
+main.ts:125481
 
 ***
 
@@ -230,7 +230,7 @@ main.ts:128543
 
 #### Defined in
 
-main.ts:128571
+main.ts:125509
 
 ***
 
@@ -248,4 +248,4 @@ main.ts:128571
 
 #### Defined in
 
-main.ts:128564
+main.ts:125502

@@ -26,7 +26,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:99774
+main.ts:97736
 
 ***
 
@@ -39,7 +39,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:99779
+main.ts:97741
 
 ***
 
@@ -51,7 +51,7 @@ link of the element
 
 #### Defined in
 
-main.ts:99776
+main.ts:97738
 
 ***
 
@@ -63,9 +63,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:99766
+main.ts:21020
 
 ***
 
@@ -76,9 +80,13 @@ main.ts:99766
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:99762
+main.ts:21016
 
 ***
 
@@ -86,13 +94,16 @@ main.ts:99762
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:99759
+main.ts:21013
 
 ***
 
@@ -104,7 +115,23 @@ title of a given link element
 
 #### Defined in
 
-main.ts:99770
+main.ts:97732
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -114,6 +141,10 @@ main.ts:99770
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:99768
+main.ts:21022

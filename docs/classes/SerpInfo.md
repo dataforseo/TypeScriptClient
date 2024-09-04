@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:84524
+main.ts:83196
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:84502
+main.ts:83174
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:84515
+main.ts:83187
 
 ***
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:84520
+main.ts:83192
 
 ***
 
@@ -101,7 +101,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:84510
+main.ts:83182
 
 ***
 
@@ -117,7 +117,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84499
+main.ts:83171
 
 ***
 
@@ -137,7 +137,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:84508
+main.ts:83180
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:84508
 
 #### Defined in
 
-main.ts:84533
+main.ts:83205
 
 ***
 
@@ -173,7 +173,7 @@ main.ts:84533
 
 #### Defined in
 
-main.ts:84559
+main.ts:83231
 
 ***
 
@@ -191,4 +191,4 @@ main.ts:84559
 
 #### Defined in
 
-main.ts:84552
+main.ts:83224

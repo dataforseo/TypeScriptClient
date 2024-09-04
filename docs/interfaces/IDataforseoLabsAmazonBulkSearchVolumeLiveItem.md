@@ -20,7 +20,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:105081
+main.ts:102231
 
 ***
 
@@ -32,7 +32,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105079
+main.ts:102229
 
 ***
 
@@ -45,4 +45,4 @@ represents the (approximate) number of searches for the returned keyword on Amaz
 
 #### Defined in
 
-main.ts:105084
+main.ts:102234

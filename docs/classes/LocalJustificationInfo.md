@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:41569
+main.ts:39729
 
 ## Properties
 
@@ -46,7 +46,7 @@ text snippet of local justification
 
 #### Defined in
 
-main.ts:41565
+main.ts:39725
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:41563
+main.ts:39723
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:41563
 
 #### Defined in
 
-main.ts:41578
+main.ts:39738
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:41578
 
 #### Defined in
 
-main.ts:41596
+main.ts:39756
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:41596
 
 #### Defined in
 
-main.ts:41589
+main.ts:39749

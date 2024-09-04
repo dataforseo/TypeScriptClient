@@ -26,7 +26,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:29041
+main.ts:28977
 
 ***
 
@@ -39,7 +39,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29044
+main.ts:28980
 
 ***
 
@@ -51,9 +51,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:29033
+main.ts:20721
 
 ***
 
@@ -64,9 +68,13 @@ main.ts:29033
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:29029
+main.ts:20717
 
 ***
 
@@ -78,9 +86,13 @@ group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:29026
+main.ts:20714
 
 ***
 
@@ -94,7 +106,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29048
+main.ts:28984
 
 ***
 
@@ -106,7 +118,23 @@ title of the place
 
 #### Defined in
 
-main.ts:29037
+main.ts:28973
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -116,6 +144,10 @@ main.ts:29037
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:29035
+main.ts:20723

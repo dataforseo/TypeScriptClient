@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:112228
+main.ts:109362
 
 ## Properties
 
@@ -56,7 +56,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:112159
+main.ts:109293
 
 ***
 
@@ -81,7 +81,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:112192
+main.ts:109326
 
 ***
 
@@ -100,7 +100,7 @@ default value: false
 
 #### Defined in
 
-main.ts:112181
+main.ts:109315
 
 ***
 
@@ -119,7 +119,7 @@ default value: false
 
 #### Defined in
 
-main.ts:112164
+main.ts:109298
 
 ***
 
@@ -138,7 +138,7 @@ default value: false
 
 #### Defined in
 
-main.ts:112169
+main.ts:109303
 
 ***
 
@@ -158,7 +158,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:112113
+main.ts:109247
 
 ***
 
@@ -180,7 +180,7 @@ en
 
 #### Defined in
 
-main.ts:112147
+main.ts:109281
 
 ***
 
@@ -202,7 +202,7 @@ English
 
 #### Defined in
 
-main.ts:112139
+main.ts:109273
 
 ***
 
@@ -221,7 +221,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:112213
+main.ts:109347
 
 ***
 
@@ -244,7 +244,7 @@ example:
 
 #### Defined in
 
-main.ts:112131
+main.ts:109265
 
 ***
 
@@ -267,7 +267,7 @@ United States
 
 #### Defined in
 
-main.ts:112122
+main.ts:109256
 
 ***
 
@@ -286,7 +286,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:112218
+main.ts:109352
 
 ***
 
@@ -316,7 +316,7 @@ example:
 
 #### Defined in
 
-main.ts:112208
+main.ts:109342
 
 ***
 
@@ -337,7 +337,7 @@ default value: false
 
 #### Defined in
 
-main.ts:112176
+main.ts:109310
 
 ***
 
@@ -357,7 +357,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:112224
+main.ts:109358
 
 ## Methods
 
@@ -375,7 +375,7 @@ main.ts:112224
 
 #### Defined in
 
-main.ts:112237
+main.ts:109371
 
 ***
 
@@ -393,7 +393,7 @@ main.ts:112237
 
 #### Defined in
 
-main.ts:112276
+main.ts:109410
 
 ***
 
@@ -411,4 +411,4 @@ main.ts:112276
 
 #### Defined in
 
-main.ts:112269
+main.ts:109403

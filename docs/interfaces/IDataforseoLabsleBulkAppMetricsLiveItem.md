@@ -20,7 +20,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:114505
+main.ts:111639
 
 ***
 
@@ -37,7 +37,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 #### Defined in
 
-main.ts:114508
+main.ts:111642
 
 ***
 
@@ -49,4 +49,4 @@ search engine type
 
 #### Defined in
 
-main.ts:114503
+main.ts:111637

@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:181001
+main.ts:176775
 
 ***
 
@@ -35,7 +35,7 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-main.ts:181005
+main.ts:176779
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:181003
+main.ts:176777
 
 ***
 
@@ -59,7 +59,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:180996
+main.ts:176770
 
 ***
 
@@ -71,7 +71,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:180994
+main.ts:176768
 
 ***
 
@@ -83,7 +83,7 @@ product_id received in a POST array
 
 #### Defined in
 
-main.ts:180988
+main.ts:176762
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:180992
+main.ts:176766
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:180990
+main.ts:176764

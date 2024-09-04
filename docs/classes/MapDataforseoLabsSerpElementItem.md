@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:99124
+main.ts:97238
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99124
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -68,9 +68,13 @@ left, right
 
 [`IMapDataforseoLabsSerpElementItem`](../interfaces/IMapDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IMapDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:99114
+main.ts:20738
 
 ***
 
@@ -85,9 +89,13 @@ absolute position among all the elements in SERP
 
 [`IMapDataforseoLabsSerpElementItem`](../interfaces/IMapDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IMapDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:99110
+main.ts:20734
 
 ***
 
@@ -102,9 +110,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IMapDataforseoLabsSerpElementItem`](../interfaces/IMapDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IMapDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:99107
+main.ts:20731
 
 ***
 
@@ -112,7 +124,7 @@ main.ts:99107
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -120,7 +132,27 @@ title of the item
 
 #### Defined in
 
-main.ts:99118
+main.ts:97232
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IMapDataforseoLabsSerpElementItem`](../interfaces/IMapDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IMapDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -128,7 +160,7 @@ main.ts:99118
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -136,7 +168,7 @@ URL link
 
 #### Defined in
 
-main.ts:99120
+main.ts:97234
 
 ***
 
@@ -150,9 +182,13 @@ the XPath of the element
 
 [`IMapDataforseoLabsSerpElementItem`](../interfaces/IMapDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IMapDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:99116
+main.ts:20740
 
 ## Methods
 
@@ -174,7 +210,7 @@ main.ts:99116
 
 #### Defined in
 
-main.ts:99129
+main.ts:97243
 
 ***
 
@@ -196,7 +232,7 @@ main.ts:99129
 
 #### Defined in
 
-main.ts:99152
+main.ts:97262
 
 ***
 
@@ -218,4 +254,4 @@ main.ts:99152
 
 #### Defined in
 
-main.ts:99145
+main.ts:97255

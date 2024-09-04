@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:30120
+main.ts:29951
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:30107
+main.ts:29937
 
 ***
 
@@ -62,7 +62,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:30103
+main.ts:29933
 
 ***
 
@@ -78,7 +78,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:30099
+main.ts:29929
 
 ***
 
@@ -94,7 +94,7 @@ images of the element
 
 #### Defined in
 
-main.ts:30109
+main.ts:29939
 
 ***
 
@@ -102,7 +102,8 @@ main.ts:30109
 
 > `optional` **table**: [`Table`](Table.md)
 
-table element
+results table
+if there are none, equals null
 
 #### Implementation of
 
@@ -110,7 +111,7 @@ table element
 
 #### Defined in
 
-main.ts:30116
+main.ts:29947
 
 ***
 
@@ -129,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:30114
+main.ts:29944
 
 ***
 
@@ -145,7 +146,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:30105
+main.ts:29935
 
 ***
 
@@ -161,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:30097
+main.ts:29927
 
 ***
 
@@ -177,7 +178,7 @@ URL of element
 
 #### Defined in
 
-main.ts:30101
+main.ts:29931
 
 ## Methods
 
@@ -195,7 +196,7 @@ main.ts:30101
 
 #### Defined in
 
-main.ts:30129
+main.ts:29960
 
 ***
 
@@ -213,7 +214,7 @@ main.ts:30129
 
 #### Defined in
 
-main.ts:30158
+main.ts:29989
 
 ***
 
@@ -231,4 +232,4 @@ main.ts:30158
 
 #### Defined in
 
-main.ts:30151
+main.ts:29982

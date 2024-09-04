@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:76884
+main.ts:75556
 
 ***
 
@@ -32,4 +32,4 @@ full name of the location
 
 #### Defined in
 
-main.ts:76882
+main.ts:75554

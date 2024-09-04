@@ -21,12 +21,10 @@
 > `optional` **cid**: `string`
 
 google-defined client id
-unique id of a local establishment;
-can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:100561
+main.ts:98319
 
 ***
 
@@ -38,7 +36,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:100557
+main.ts:98317
 
 ***
 
@@ -50,9 +48,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:100551
+main.ts:21020
 
 ***
 
@@ -64,7 +66,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:100555
+main.ts:98315
 
 ***
 
@@ -75,9 +77,13 @@ main.ts:100555
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:100547
+main.ts:21016
 
 ***
 
@@ -88,9 +94,29 @@ main.ts:100547
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:100544
+main.ts:21013
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -100,6 +126,10 @@ main.ts:100544
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:100553
+main.ts:21022

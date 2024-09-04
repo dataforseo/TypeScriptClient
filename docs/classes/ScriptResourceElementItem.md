@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:159878
+main.ts:156340
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:159878
 
 #### Defined in
 
-main.ts:21367
+main.ts:21436
 
 ***
 
@@ -71,7 +71,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Defined in
 
-main.ts:159867
+main.ts:156336
 
 ***
 
@@ -85,9 +85,13 @@ instructions for caching
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`cache_control`](../interfaces/IScriptResourceElementItem.md#cache_control)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`cache_control`](BaseOnPageResourceItemInfo.md#cache_control)
+
 #### Defined in
 
-main.ts:159855
+main.ts:21422
 
 ***
 
@@ -95,8 +99,8 @@ main.ts:159855
 
 > `optional` **checks**: `object`
 
-resource check-ups
-contents of the array depend on the resource_type
+website checks
+on-page check-ups related to the page
 
 #### Index Signature
 
@@ -106,9 +110,13 @@ contents of the array depend on the resource_type
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`checks`](../interfaces/IScriptResourceElementItem.md#checks)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`checks`](BaseOnPageResourceItemInfo.md#checks)
+
 #### Defined in
 
-main.ts:159858
+main.ts:21425
 
 ***
 
@@ -122,9 +130,13 @@ type of encoding
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`content_encoding`](../interfaces/IScriptResourceElementItem.md#content_encoding)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`content_encoding`](BaseOnPageResourceItemInfo.md#content_encoding)
+
 #### Defined in
 
-main.ts:159860
+main.ts:21427
 
 ***
 
@@ -132,16 +144,20 @@ main.ts:159860
 
 > `optional` **encoded\_size**: `number`
 
-resource size after encoding
-indicates the size of the encoded resource measured in bytes
+page size after encoding
+indicates the size of the encoded page measured in bytes
 
 #### Implementation of
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`encoded_size`](../interfaces/IScriptResourceElementItem.md#encoded_size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`encoded_size`](BaseOnPageResourceItemInfo.md#encoded_size)
+
 #### Defined in
 
-main.ts:159843
+main.ts:21412
 
 ***
 
@@ -152,15 +168,19 @@ main.ts:159843
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
-2021-02-17 13:54:15 +00:00
+2019-11-15 12:57:46 +00:00
 
 #### Implementation of
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`fetch_time`](../interfaces/IScriptResourceElementItem.md#fetch_time)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fetch_time`](BaseOnPageResourceItemInfo.md#fetch_time)
+
 #### Defined in
 
-main.ts:159851
+main.ts:21420
 
 ***
 
@@ -176,7 +196,7 @@ resource fething time range
 
 #### Defined in
 
-main.ts:159853
+main.ts:156331
 
 ***
 
@@ -191,9 +211,13 @@ if there is no data, the value will be null
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`last_modified`](../interfaces/IScriptResourceElementItem.md#last_modified)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`last_modified`](BaseOnPageResourceItemInfo.md#last_modified)
+
 #### Defined in
 
-main.ts:159872
+main.ts:21434
 
 ***
 
@@ -208,9 +232,13 @@ indicates the URL to redirect a page to
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`location`](../interfaces/IScriptResourceElementItem.md#location)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`location`](BaseOnPageResourceItemInfo.md#location)
+
 #### Defined in
 
-main.ts:159835
+main.ts:21402
 
 ***
 
@@ -218,15 +246,19 @@ main.ts:159835
 
 > `optional` **media\_type**: `string`
 
-types of media used to display a resource
+types of media used to display a page
 
 #### Implementation of
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`media_type`](../interfaces/IScriptResourceElementItem.md#media_type)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`media_type`](BaseOnPageResourceItemInfo.md#media_type)
+
 #### Defined in
 
-main.ts:159862
+main.ts:21429
 
 ***
 
@@ -245,7 +277,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Defined in
 
-main.ts:159830
+main.ts:156329
 
 ***
 
@@ -259,9 +291,33 @@ resource errors and warnings
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`resource_errors`](../interfaces/IScriptResourceElementItem.md#resource_errors)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_errors`](BaseOnPageResourceItemInfo.md#resource_errors)
+
 #### Defined in
 
-main.ts:159874
+main.ts:21406
+
+***
+
+### resource\_type?
+
+> `optional` **resource\_type**: `string`
+
+type of the returned resource
+
+#### Implementation of
+
+[`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`resource_type`](../interfaces/IScriptResourceElementItem.md#resource_type)
+
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_type`](BaseOnPageResourceItemInfo.md#resource_type)
+
+#### Defined in
+
+main.ts:21397
 
 ***
 
@@ -275,9 +331,13 @@ server version
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`server`](../interfaces/IScriptResourceElementItem.md#server)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`server`](BaseOnPageResourceItemInfo.md#server)
+
 #### Defined in
 
-main.ts:159869
+main.ts:21431
 
 ***
 
@@ -286,15 +346,19 @@ main.ts:159869
 > `optional` **size**: `number`
 
 resource size
-indicates the size of a given resource measured in bytes
+indicates the size of a given page measured in bytes
 
 #### Implementation of
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`size`](../interfaces/IScriptResourceElementItem.md#size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`size`](BaseOnPageResourceItemInfo.md#size)
+
 #### Defined in
 
-main.ts:159840
+main.ts:21409
 
 ***
 
@@ -302,15 +366,19 @@ main.ts:159840
 
 > `optional` **status\_code**: `number`
 
-status code of the page where a given resource is located
+status code of the page
 
 #### Implementation of
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`status_code`](../interfaces/IScriptResourceElementItem.md#status_code)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`status_code`](BaseOnPageResourceItemInfo.md#status_code)
+
 #### Defined in
 
-main.ts:159832
+main.ts:21399
 
 ***
 
@@ -318,16 +386,20 @@ main.ts:159832
 
 > `optional` **total\_transfer\_size**: `number`
 
-compressed resource size
-indicates the compressed size of a given resource in bytes
+compressed page size
+indicates the compressed size of a given page
 
 #### Implementation of
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`total_transfer_size`](../interfaces/IScriptResourceElementItem.md#total_transfer_size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`total_transfer_size`](BaseOnPageResourceItemInfo.md#total_transfer_size)
+
 #### Defined in
 
-main.ts:159846
+main.ts:21415
 
 ***
 
@@ -335,15 +407,19 @@ main.ts:159846
 
 > `optional` **url**: `string`
 
-resource URL
+page URL
 
 #### Implementation of
 
 [`IScriptResourceElementItem`](../interfaces/IScriptResourceElementItem.md).[`url`](../interfaces/IScriptResourceElementItem.md#url)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`url`](BaseOnPageResourceItemInfo.md#url)
+
 #### Defined in
 
-main.ts:159837
+main.ts:21404
 
 ## Methods
 
@@ -365,7 +441,7 @@ main.ts:159837
 
 #### Defined in
 
-main.ts:159883
+main.ts:156345
 
 ***
 
@@ -387,7 +463,7 @@ main.ts:159883
 
 #### Defined in
 
-main.ts:159923
+main.ts:156365
 
 ***
 
@@ -409,4 +485,4 @@ main.ts:159923
 
 #### Defined in
 
-main.ts:159916
+main.ts:156358

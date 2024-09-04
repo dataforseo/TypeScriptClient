@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:209789
+main.ts:205127
 
 ## Properties
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:209771
+main.ts:205109
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:209751
+main.ts:205089
 
 ***
 
@@ -103,7 +103,7 @@ example:
 
 #### Defined in
 
-main.ts:209760
+main.ts:205098
 
 ***
 
@@ -125,7 +125,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:209779
+main.ts:205117
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:209765
+main.ts:205103
 
 ***
 
@@ -166,7 +166,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:209743
+main.ts:205081
 
 ***
 
@@ -200,7 +200,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:197393
+main.ts:192847
 
 ***
 
@@ -225,7 +225,7 @@ en
 
 #### Defined in
 
-main.ts:197439
+main.ts:192893
 
 ***
 
@@ -250,7 +250,7 @@ English
 
 #### Defined in
 
-main.ts:197432
+main.ts:192886
 
 ***
 
@@ -275,7 +275,7 @@ example:
 
 #### Defined in
 
-main.ts:197415
+main.ts:192869
 
 ***
 
@@ -303,7 +303,7 @@ example:
 
 #### Defined in
 
-main.ts:197425
+main.ts:192879
 
 ***
 
@@ -328,7 +328,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:197408
+main.ts:192862
 
 ***
 
@@ -356,7 +356,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197465
+main.ts:192919
 
 ***
 
@@ -376,7 +376,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:209785
+main.ts:205123
 
 ***
 
@@ -404,7 +404,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197455
+main.ts:192909
 
 ***
 
@@ -430,7 +430,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:197401
+main.ts:192855
 
 ***
 
@@ -454,7 +454,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:197445
+main.ts:192899
 
 ## Methods
 
@@ -476,7 +476,7 @@ main.ts:197445
 
 #### Defined in
 
-main.ts:209793
+main.ts:205131
 
 ***
 
@@ -498,7 +498,7 @@ main.ts:209793
 
 #### Defined in
 
-main.ts:209821
+main.ts:205159
 
 ***
 
@@ -520,4 +520,4 @@ main.ts:209821
 
 #### Defined in
 
-main.ts:209814
+main.ts:205152

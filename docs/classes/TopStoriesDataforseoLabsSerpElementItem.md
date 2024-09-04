@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:98711
+main.ts:96898
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98711
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -60,7 +60,7 @@ main.ts:20752
 
 > `optional` **items**: [`TopStoriesElement`](TopStoriesElement.md)[]
 
-elements of search results found in SERP
+contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:98707
+main.ts:96894
 
 ***
 
@@ -84,9 +84,13 @@ left, right
 
 [`ITopStoriesDataforseoLabsSerpElementItem`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md).[`position`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:98703
+main.ts:20738
 
 ***
 
@@ -101,9 +105,13 @@ absolute position among all the elements in SERP
 
 [`ITopStoriesDataforseoLabsSerpElementItem`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:98699
+main.ts:20734
 
 ***
 
@@ -111,7 +119,6 @@ main.ts:98699
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
@@ -119,9 +126,33 @@ positions of elements with different type values are omitted from rank_group
 
 [`ITopStoriesDataforseoLabsSerpElementItem`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:98696
+main.ts:20731
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ITopStoriesDataforseoLabsSerpElementItem`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md).[`type`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -135,9 +166,13 @@ the XPath of the element
 
 [`ITopStoriesDataforseoLabsSerpElementItem`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/ITopStoriesDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:98705
+main.ts:20740
 
 ## Methods
 
@@ -159,7 +194,7 @@ main.ts:98705
 
 #### Defined in
 
-main.ts:98716
+main.ts:96903
 
 ***
 
@@ -181,7 +216,7 @@ main.ts:98716
 
 #### Defined in
 
-main.ts:98742
+main.ts:96925
 
 ***
 
@@ -203,4 +238,4 @@ main.ts:98742
 
 #### Defined in
 
-main.ts:98735
+main.ts:96918

@@ -26,7 +26,7 @@ action:listen_artist
 
 #### Defined in
 
-main.ts:97960
+main.ts:96248
 
 ***
 
@@ -40,7 +40,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97966
+main.ts:96254
 
 ***
 
@@ -52,9 +52,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:97952
+main.ts:21020
 
 ***
 
@@ -65,9 +69,13 @@ main.ts:97952
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:97948
+main.ts:21016
 
 ***
 
@@ -75,13 +83,16 @@ main.ts:97948
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:97945
+main.ts:21013
 
 ***
 
@@ -93,7 +104,7 @@ row content
 
 #### Defined in
 
-main.ts:97962
+main.ts:96250
 
 ***
 
@@ -101,11 +112,27 @@ main.ts:97962
 
 > `optional` **title**: `string`
 
-title of the link
+title of the item
 
 #### Defined in
 
-main.ts:97956
+main.ts:96244
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -115,6 +142,10 @@ main.ts:97956
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:97954
+main.ts:21022

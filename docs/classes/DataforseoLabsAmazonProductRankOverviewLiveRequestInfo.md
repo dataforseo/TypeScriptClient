@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:106793
+main.ts:103924
 
 ## Properties
 
@@ -43,6 +43,9 @@ required field
 product IDs to receive ranking data for;
 the maximum number of ASINs you can specify in this array is 1000;
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint
+Note: all letters in ASIN code must be specified in uppercase format;
+example:
+B01LW2SL7R
 
 #### Implementation of
 
@@ -50,7 +53,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:106753
+main.ts:103884
 
 ***
 
@@ -71,7 +74,7 @@ en
 
 #### Defined in
 
-main.ts:106783
+main.ts:103914
 
 ***
 
@@ -92,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:106776
+main.ts:103907
 
 ***
 
@@ -114,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:106769
+main.ts:103900
 
 ***
 
@@ -136,7 +139,7 @@ United States
 
 #### Defined in
 
-main.ts:106761
+main.ts:103892
 
 ***
 
@@ -156,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:106789
+main.ts:103920
 
 ## Methods
 
@@ -174,7 +177,7 @@ main.ts:106789
 
 #### Defined in
 
-main.ts:106802
+main.ts:103933
 
 ***
 
@@ -192,7 +195,7 @@ main.ts:106802
 
 #### Defined in
 
-main.ts:106828
+main.ts:103959
 
 ***
 
@@ -210,4 +213,4 @@ main.ts:106828
 
 #### Defined in
 
-main.ts:106821
+main.ts:103952

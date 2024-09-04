@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:147698
+main.ts:144564
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Defined in
 
-main.ts:147694
+main.ts:144560
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:147692
+main.ts:144558
 
 ***
 
@@ -78,7 +78,7 @@ target in a POST array
 
 #### Defined in
 
-main.ts:147686
+main.ts:144552
 
 ***
 
@@ -96,7 +96,7 @@ example.com and blog.example.com are counted as one referring domain
 
 #### Defined in
 
-main.ts:147690
+main.ts:144556
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:147690
 
 #### Defined in
 
-main.ts:147707
+main.ts:144573
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:147707
 
 #### Defined in
 
-main.ts:147731
+main.ts:144597
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:147731
 
 #### Defined in
 
-main.ts:147724
+main.ts:144590

@@ -20,7 +20,7 @@ ID of the returned app
 
 #### Defined in
 
-main.ts:201330
+main.ts:196712
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:201339
+main.ts:196721
 
 ***
 
@@ -45,7 +45,7 @@ detailed information about the app
 
 #### Defined in
 
-main.ts:201346
+main.ts:196728
 
 ***
 
@@ -57,7 +57,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:201336
+main.ts:196718
 
 ***
 
@@ -69,7 +69,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:201334
+main.ts:196716
 
 ***
 
@@ -81,7 +81,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:201332
+main.ts:196714
 
 ***
 
@@ -96,4 +96,4 @@ example:
 
 #### Defined in
 
-main.ts:201344
+main.ts:196726

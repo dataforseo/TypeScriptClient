@@ -23,7 +23,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:103888
+main.ts:101038
 
 ***
 
@@ -35,7 +35,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:103883
+main.ts:101033
 
 ***
 
@@ -50,4 +50,4 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:103881
+main.ts:101031

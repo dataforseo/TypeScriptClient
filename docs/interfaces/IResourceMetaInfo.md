@@ -21,7 +21,7 @@ the value depends on the resource_type
 
 #### Defined in
 
-main.ts:159385
+main.ts:156137
 
 ***
 
@@ -33,7 +33,7 @@ image height in px
 
 #### Defined in
 
-main.ts:159395
+main.ts:156147
 
 ***
 
@@ -45,7 +45,7 @@ original image height in px
 
 #### Defined in
 
-main.ts:159391
+main.ts:156143
 
 ***
 
@@ -57,7 +57,7 @@ original image width in px
 
 #### Defined in
 
-main.ts:159389
+main.ts:156141
 
 ***
 
@@ -69,7 +69,7 @@ title
 
 #### Defined in
 
-main.ts:159387
+main.ts:156139
 
 ***
 
@@ -81,4 +81,4 @@ image width in px
 
 #### Defined in
 
-main.ts:159393
+main.ts:156145

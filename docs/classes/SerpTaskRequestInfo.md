@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:229377
+main.ts:224637
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:229307
+main.ts:224567
 
 ***
 
@@ -76,7 +76,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:229316
+main.ts:224576
 
 ***
 
@@ -99,7 +99,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:229298
+main.ts:224558
 
 ***
 
@@ -120,7 +120,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:229289
+main.ts:224549
 
 ***
 
@@ -143,7 +143,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:229212
+main.ts:224472
 
 ***
 
@@ -162,7 +162,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:229269
+main.ts:224529
 
 ***
 
@@ -182,7 +182,7 @@ Note: this parameter applies only to HTML task results
 
 #### Defined in
 
-main.ts:229337
+main.ts:224597
 
 ***
 
@@ -202,7 +202,7 @@ default value: true
 
 #### Defined in
 
-main.ts:229282
+main.ts:224542
 
 ***
 
@@ -225,7 +225,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:229189
+main.ts:224449
 
 ***
 
@@ -246,7 +246,7 @@ en
 
 #### Defined in
 
-main.ts:229257
+main.ts:224517
 
 ***
 
@@ -267,7 +267,7 @@ English
 
 #### Defined in
 
-main.ts:229250
+main.ts:224510
 
 ***
 
@@ -289,7 +289,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 #### Defined in
 
-main.ts:229331
+main.ts:224591
 
 ***
 
@@ -310,7 +310,7 @@ example:
 
 #### Defined in
 
-main.ts:229233
+main.ts:224493
 
 ***
 
@@ -334,7 +334,7 @@ example:
 
 #### Defined in
 
-main.ts:229243
+main.ts:224503
 
 ***
 
@@ -355,7 +355,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:229226
+main.ts:224486
 
 ***
 
@@ -376,7 +376,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:229219
+main.ts:224479
 
 ***
 
@@ -397,7 +397,7 @@ default value: android
 
 #### Defined in
 
-main.ts:229276
+main.ts:224536
 
 ***
 
@@ -418,7 +418,7 @@ possible values: from 1 to 4
 
 #### Defined in
 
-main.ts:229323
+main.ts:224583
 
 ***
 
@@ -442,7 +442,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:229373
+main.ts:224633
 
 ***
 
@@ -462,7 +462,7 @@ regular, advanced, html
 
 #### Defined in
 
-main.ts:229363
+main.ts:224623
 
 ***
 
@@ -486,7 +486,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:229357
+main.ts:224617
 
 ***
 
@@ -508,7 +508,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:229203
+main.ts:224463
 
 ***
 
@@ -529,7 +529,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:229264
+main.ts:224524
 
 ***
 
@@ -547,7 +547,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:229341
+main.ts:224601
 
 ***
 
@@ -567,7 +567,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:229347
+main.ts:224607
 
 ***
 
@@ -587,7 +587,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-main.ts:229195
+main.ts:224455
 
 ## Methods
 
@@ -605,7 +605,7 @@ main.ts:229195
 
 #### Defined in
 
-main.ts:229386
+main.ts:224646
 
 ***
 
@@ -623,7 +623,7 @@ main.ts:229386
 
 #### Defined in
 
-main.ts:229428
+main.ts:224688
 
 ***
 
@@ -641,4 +641,4 @@ main.ts:229428
 
 #### Defined in
 
-main.ts:229421
+main.ts:224681

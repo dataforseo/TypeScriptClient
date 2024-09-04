@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:100389
+main.ts:98205
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:100389
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -61,8 +61,6 @@ main.ts:20752
 > `optional` **cid**: `string`
 
 google-defined client id
-unique id of a local establishment;
-can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
 
@@ -70,7 +68,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:100385
+main.ts:98201
 
 ***
 
@@ -86,7 +84,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:100381
+main.ts:98199
 
 ***
 
@@ -102,7 +100,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:100379
+main.ts:98197
 
 ***
 
@@ -118,9 +116,13 @@ left, right
 
 [`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:100370
+main.ts:20738
 
 ***
 
@@ -135,9 +137,13 @@ absolute position among all the elements in SERP
 
 [`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:100366
+main.ts:20734
 
 ***
 
@@ -152,9 +158,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:100363
+main.ts:20731
 
 ***
 
@@ -171,7 +181,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:100377
+main.ts:98195
 
 ***
 
@@ -187,7 +197,27 @@ the number of reviews
 
 #### Defined in
 
-main.ts:100374
+main.ts:98192
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -201,9 +231,13 @@ the XPath of the element
 
 [`IGoogleReviewsDataforseoLabsSerpElementItem`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IGoogleReviewsDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:100372
+main.ts:20740
 
 ## Methods
 
@@ -225,7 +259,7 @@ main.ts:100372
 
 #### Defined in
 
-main.ts:100394
+main.ts:98210
 
 ***
 
@@ -247,7 +281,7 @@ main.ts:100394
 
 #### Defined in
 
-main.ts:100420
+main.ts:98232
 
 ***
 
@@ -269,4 +303,4 @@ main.ts:100420
 
 #### Defined in
 
-main.ts:100413
+main.ts:98225

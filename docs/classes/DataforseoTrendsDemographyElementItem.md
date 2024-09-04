@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:130664
+main.ts:127548
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:130664
 
 #### Defined in
 
-main.ts:21638
+main.ts:21894
 
 ***
 
@@ -69,7 +69,7 @@ conains keyword popularity data by age and gender
 
 #### Defined in
 
-main.ts:130659
+main.ts:127543
 
 ***
 
@@ -83,7 +83,7 @@ main.ts:130659
 
 #### Defined in
 
-main.ts:130660
+main.ts:127544
 
 ***
 
@@ -92,15 +92,19 @@ main.ts:130660
 > `optional` **keywords**: `string`[]
 
 relevant keywords
-the data included in the interests and interests_comparison is based on the keywords listed in this array
+the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
 
 #### Implementation of
 
 [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`keywords`](../interfaces/IDataforseoTrendsDemographyElementItem.md#keywords)
 
+#### Inherited from
+
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`keywords`](BaseDataforseoTrendsItem.md#keywords)
+
 #### Defined in
 
-main.ts:130656
+main.ts:21892
 
 ***
 
@@ -115,9 +119,33 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`position`](../interfaces/IDataforseoTrendsDemographyElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`position`](BaseDataforseoTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:130653
+main.ts:21889
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IDataforseoTrendsDemographyElementItem`](../interfaces/IDataforseoTrendsDemographyElementItem.md).[`type`](../interfaces/IDataforseoTrendsDemographyElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`type`](BaseDataforseoTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21886
 
 ## Methods
 
@@ -139,7 +167,7 @@ main.ts:130653
 
 #### Defined in
 
-main.ts:130669
+main.ts:127553
 
 ***
 
@@ -161,7 +189,7 @@ main.ts:130669
 
 #### Defined in
 
-main.ts:130694
+main.ts:127572
 
 ***
 
@@ -183,4 +211,4 @@ main.ts:130694
 
 #### Defined in
 
-main.ts:130687
+main.ts:127565

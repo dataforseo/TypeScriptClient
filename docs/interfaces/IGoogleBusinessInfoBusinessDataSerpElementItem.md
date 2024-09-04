@@ -25,7 +25,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:206311
+main.ts:201665
 
 ***
 
@@ -37,7 +37,7 @@ address of the business entity
 
 #### Defined in
 
-main.ts:206321
+main.ts:201675
 
 ***
 
@@ -49,7 +49,7 @@ object containing address components of the business entity
 
 #### Defined in
 
-main.ts:206323
+main.ts:201677
 
 ***
 
@@ -62,7 +62,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Defined in
 
-main.ts:206359
+main.ts:201713
 
 ***
 
@@ -75,7 +75,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:206305
+main.ts:201659
 
 ***
 
@@ -88,7 +88,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:206308
+main.ts:201662
 
 ***
 
@@ -103,7 +103,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:206316
+main.ts:201670
 
 ***
 
@@ -115,7 +115,7 @@ URL of the preferred contact page
 
 #### Defined in
 
-main.ts:206333
+main.ts:201687
 
 ***
 
@@ -127,7 +127,7 @@ URL of the user’s or entity’s Local Guides profile, if available
 
 #### Defined in
 
-main.ts:206335
+main.ts:201689
 
 ***
 
@@ -140,7 +140,7 @@ the description of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:206302
+main.ts:201656
 
 ***
 
@@ -153,7 +153,7 @@ includes information about businesses that are located within the target busines
 
 #### Defined in
 
-main.ts:206400
+main.ts:201754
 
 ***
 
@@ -165,7 +165,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:206337
+main.ts:201691
 
 ***
 
@@ -178,7 +178,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:206319
+main.ts:201673
 
 ***
 
@@ -192,7 +192,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:206374
+main.ts:201728
 
 ***
 
@@ -204,7 +204,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Defined in
 
-main.ts:206355
+main.ts:201709
 
 ***
 
@@ -219,7 +219,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 #### Defined in
 
-main.ts:206397
+main.ts:201751
 
 ***
 
@@ -233,7 +233,7 @@ example:
 
 #### Defined in
 
-main.ts:206349
+main.ts:201703
 
 ***
 
@@ -246,7 +246,7 @@ list of options to interact with the business directly from search results
 
 #### Defined in
 
-main.ts:206392
+main.ts:201746
 
 ***
 
@@ -258,7 +258,7 @@ URL of the logo featured in Google My Business profile
 
 #### Defined in
 
-main.ts:206339
+main.ts:201693
 
 ***
 
@@ -272,7 +272,7 @@ example:
 
 #### Defined in
 
-main.ts:206353
+main.ts:201707
 
 ***
 
@@ -284,7 +284,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:206341
+main.ts:201695
 
 ***
 
@@ -296,7 +296,7 @@ related business entities
 
 #### Defined in
 
-main.ts:206383
+main.ts:201737
 
 ***
 
@@ -308,7 +308,7 @@ phone number of the business entity
 
 #### Defined in
 
-main.ts:206329
+main.ts:201683
 
 ***
 
@@ -322,7 +322,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:206327
+main.ts:201681
 
 ***
 
@@ -344,7 +344,7 @@ example:
 
 #### Defined in
 
-main.ts:206367
+main.ts:201721
 
 ***
 
@@ -357,7 +357,7 @@ information related to busy hours of the business entity
 
 #### Defined in
 
-main.ts:206389
+main.ts:201743
 
 ***
 
@@ -369,7 +369,7 @@ the alignment in SERP
 
 #### Defined in
 
-main.ts:206296
+main.ts:201650
 
 ***
 
@@ -383,7 +383,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:206378
+main.ts:201732
 
 ***
 
@@ -393,7 +393,7 @@ main.ts:206378
 
 #### Defined in
 
-main.ts:206356
+main.ts:201710
 
 ***
 
@@ -403,9 +403,13 @@ main.ts:206356
 
 absolute rank among all the elements
 
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:206294
+main.ts:21392
 
 ***
 
@@ -414,11 +418,15 @@ main.ts:206294
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:206292
+main.ts:21390
 
 ***
 
@@ -431,7 +439,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:206370
+main.ts:201724
 
 ***
 
@@ -448,7 +456,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:206381
+main.ts:201735
 
 ***
 
@@ -460,7 +468,7 @@ additional information on the business entity
 
 #### Defined in
 
-main.ts:206345
+main.ts:201699
 
 ***
 
@@ -473,7 +481,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:206299
+main.ts:201653
 
 ***
 
@@ -485,7 +493,23 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:206343
+main.ts:201697
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21387
 
 ***
 
@@ -497,7 +521,7 @@ absolute url of the business entity
 
 #### Defined in
 
-main.ts:206331
+main.ts:201685
 
 ***
 
@@ -510,4 +534,4 @@ information related to operational hours of the business entity
 
 #### Defined in
 
-main.ts:206386
+main.ts:201740

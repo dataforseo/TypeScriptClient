@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:21783
+main.ts:22083
 
 ## Properties
 
@@ -46,7 +46,7 @@ closing time
 
 #### Defined in
 
-main.ts:21779
+main.ts:22079
 
 ***
 
@@ -62,7 +62,7 @@ opening time
 
 #### Defined in
 
-main.ts:21777
+main.ts:22077
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:21777
 
 #### Defined in
 
-main.ts:21792
+main.ts:22092
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:21792
 
 #### Defined in
 
-main.ts:21810
+main.ts:22110
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:21810
 
 #### Defined in
 
-main.ts:21803
+main.ts:22103

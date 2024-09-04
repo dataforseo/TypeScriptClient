@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:55499
+main.ts:53962
 
 ## Properties
 
@@ -46,7 +46,7 @@ author’s link domain
 
 #### Defined in
 
-main.ts:55495
+main.ts:53958
 
 ***
 
@@ -62,7 +62,7 @@ name of the dataset author
 
 #### Defined in
 
-main.ts:55491
+main.ts:53954
 
 ***
 
@@ -78,7 +78,7 @@ type of element
 
 #### Defined in
 
-main.ts:55489
+main.ts:53952
 
 ***
 
@@ -94,7 +94,7 @@ author’s link URL
 
 #### Defined in
 
-main.ts:55493
+main.ts:53956
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:55493
 
 #### Defined in
 
-main.ts:55508
+main.ts:53971
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:55508
 
 #### Defined in
 
-main.ts:55528
+main.ts:53991
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:55528
 
 #### Defined in
 
-main.ts:55521
+main.ts:53984

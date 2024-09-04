@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:23596
+main.ts:23912
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:23596
 
 #### Defined in
 
-main.ts:23528
+main.ts:23850
 
 ***
 
@@ -69,7 +69,27 @@ domain of the reservation software
 
 #### Defined in
 
-main.ts:23590
+main.ts:23906
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ILocalBusinessReservationLink`](../interfaces/ILocalBusinessReservationLink.md).[`type`](../interfaces/ILocalBusinessReservationLink.md#type)
+
+#### Inherited from
+
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`type`](BaseLocalBusinessLink.md#type)
+
+#### Defined in
+
+main.ts:23848
 
 ***
 
@@ -85,7 +105,7 @@ URL to make a reservation
 
 #### Defined in
 
-main.ts:23592
+main.ts:23908
 
 ## Methods
 
@@ -107,7 +127,7 @@ main.ts:23592
 
 #### Defined in
 
-main.ts:23601
+main.ts:23917
 
 ***
 
@@ -129,7 +149,7 @@ main.ts:23601
 
 #### Defined in
 
-main.ts:23620
+main.ts:23936
 
 ***
 
@@ -151,4 +171,4 @@ main.ts:23620
 
 #### Defined in
 
-main.ts:23613
+main.ts:23929

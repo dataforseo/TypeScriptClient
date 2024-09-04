@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:114448
+main.ts:111582
 
 ## Properties
 
@@ -46,7 +46,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:114441
+main.ts:111575
 
 ***
 
@@ -67,7 +67,7 @@ ranking data relevant to the keywords that the provided application ranks for on
 
 #### Defined in
 
-main.ts:114444
+main.ts:111578
 
 ***
 
@@ -83,7 +83,7 @@ search engine type
 
 #### Defined in
 
-main.ts:114439
+main.ts:111573
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:114439
 
 #### Defined in
 
-main.ts:114457
+main.ts:111591
 
 ***
 
@@ -119,7 +119,7 @@ main.ts:114457
 
 #### Defined in
 
-main.ts:114482
+main.ts:111616
 
 ***
 
@@ -137,4 +137,4 @@ main.ts:114482
 
 #### Defined in
 
-main.ts:114475
+main.ts:111609

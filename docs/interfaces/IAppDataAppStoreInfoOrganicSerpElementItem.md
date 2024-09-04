@@ -24,7 +24,7 @@ age rating and age-based content advisories
 
 #### Defined in
 
-main.ts:198910
+main.ts:194328
 
 ***
 
@@ -36,7 +36,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:198886
+main.ts:194308
 
 ***
 
@@ -48,7 +48,7 @@ all relevant categories/genres of the app
 
 #### Defined in
 
-main.ts:198906
+main.ts:194324
 
 ***
 
@@ -60,7 +60,7 @@ description of the app
 
 #### Defined in
 
-main.ts:198894
+main.ts:194314
 
 ***
 
@@ -72,7 +72,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:198912
+main.ts:194330
 
 ***
 
@@ -84,7 +84,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:198914
+main.ts:194332
 
 ***
 
@@ -96,7 +96,7 @@ URL to the developer page on App Store
 
 #### Defined in
 
-main.ts:198916
+main.ts:194334
 
 ***
 
@@ -108,7 +108,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:198892
+main.ts:194312
 
 ***
 
@@ -121,7 +121,7 @@ contains URLs to the images used on the app page on App Store
 
 #### Defined in
 
-main.ts:198938
+main.ts:194356
 
 ***
 
@@ -133,7 +133,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:198902
+main.ts:194320
 
 ***
 
@@ -145,7 +145,7 @@ languages supported in the app
 
 #### Defined in
 
-main.ts:198908
+main.ts:194326
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Defined in
 
-main.ts:198932
+main.ts:194350
 
 ***
 
@@ -172,7 +172,7 @@ main category/genre of the app
 
 #### Defined in
 
-main.ts:198904
+main.ts:194322
 
 ***
 
@@ -184,7 +184,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:198920
+main.ts:194338
 
 ***
 
@@ -197,7 +197,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:198944
+main.ts:194362
 
 ***
 
@@ -206,11 +206,16 @@ main.ts:198944
 > `optional` **position**: `string`
 
 the alignment of the element in SERP
-can take the following values: left
+can take the following values:
+left, right
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
 
 #### Defined in
 
-main.ts:198884
+main.ts:22068
 
 ***
 
@@ -222,7 +227,7 @@ price of the app
 
 #### Defined in
 
-main.ts:198900
+main.ts:194318
 
 ***
 
@@ -230,12 +235,16 @@ main.ts:198900
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed apps
-absolute position among all apps on the list
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:198881
+main.ts:22064
 
 ***
 
@@ -246,9 +255,13 @@ main.ts:198881
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:198878
+main.ts:22061
 
 ***
 
@@ -258,9 +271,13 @@ main.ts:198878
 
 average rating of the app
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:198898
+main.ts:22072
 
 ***
 
@@ -275,7 +292,7 @@ example:
 
 #### Defined in
 
-main.ts:198927
+main.ts:194345
 
 ***
 
@@ -287,7 +304,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:198896
+main.ts:194316
 
 ***
 
@@ -300,7 +317,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:198941
+main.ts:194359
 
 ***
 
@@ -312,7 +329,7 @@ size of the app
 
 #### Defined in
 
-main.ts:198922
+main.ts:194340
 
 ***
 
@@ -322,9 +339,29 @@ main.ts:198922
 
 title of the app
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:198888
+main.ts:22070
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22058
 
 ***
 
@@ -337,7 +374,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:198935
+main.ts:194353
 
 ***
 
@@ -349,7 +386,7 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:198890
+main.ts:194310
 
 ***
 
@@ -361,4 +398,4 @@ current version of the app
 
 #### Defined in
 
-main.ts:198918
+main.ts:194336

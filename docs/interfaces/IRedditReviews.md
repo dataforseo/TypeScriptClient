@@ -21,7 +21,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Defined in
 
-main.ts:219995
+main.ts:215255
 
 ***
 
@@ -33,7 +33,7 @@ URL to the subreddit post
 
 #### Defined in
 
-main.ts:219999
+main.ts:215259
 
 ***
 
@@ -45,7 +45,7 @@ the name of the subreddit
 
 #### Defined in
 
-main.ts:219992
+main.ts:215252
 
 ***
 
@@ -57,7 +57,7 @@ number of subreddit members
 
 #### Defined in
 
-main.ts:220001
+main.ts:215261
 
 ***
 
@@ -69,4 +69,4 @@ title of the subreddit post
 
 #### Defined in
 
-main.ts:219997
+main.ts:215257

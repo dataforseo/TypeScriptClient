@@ -8,7 +8,7 @@
 
 ## Extends
 
-- [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
+- [`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md)
 
 ## Indexable
 
@@ -24,7 +24,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:63772
+main.ts:62512
 
 ***
 
@@ -36,7 +36,7 @@ the ID of the channel where the video is published
 
 #### Defined in
 
-main.ts:63745
+main.ts:62485
 
 ***
 
@@ -48,7 +48,7 @@ the URL of the page where the logo image of the channel is hosted
 
 #### Defined in
 
-main.ts:63751
+main.ts:62491
 
 ***
 
@@ -60,7 +60,7 @@ the name of the channel where the video is published
 
 #### Defined in
 
-main.ts:63747
+main.ts:62487
 
 ***
 
@@ -72,7 +72,7 @@ number of subscribers of the channel
 
 #### Defined in
 
-main.ts:63761
+main.ts:62501
 
 ***
 
@@ -84,7 +84,7 @@ the URL of the channel where the video is published
 
 #### Defined in
 
-main.ts:63749
+main.ts:62489
 
 ***
 
@@ -96,7 +96,7 @@ number of comments on the video
 
 #### Defined in
 
-main.ts:63759
+main.ts:62499
 
 ***
 
@@ -108,7 +108,7 @@ description of the video
 
 #### Defined in
 
-main.ts:63753
+main.ts:62493
 
 ***
 
@@ -120,7 +120,7 @@ duration of the video
 
 #### Defined in
 
-main.ts:63776
+main.ts:62518
 
 ***
 
@@ -132,7 +132,19 @@ duration of the video in seconds
 
 #### Defined in
 
-main.ts:63778
+main.ts:62520
+
+***
+
+### is\_embeddable?
+
+> `optional` **is\_embeddable**: `boolean`
+
+indicates whether the video is embeddable
+
+#### Defined in
+
+main.ts:62516
 
 ***
 
@@ -144,7 +156,7 @@ indicates whether the video is on live
 
 #### Defined in
 
-main.ts:63774
+main.ts:62514
 
 ***
 
@@ -156,7 +168,7 @@ keywords relevant to the video
 
 #### Defined in
 
-main.ts:63770
+main.ts:62510
 
 ***
 
@@ -168,7 +180,7 @@ number of likes on the video
 
 #### Defined in
 
-main.ts:63757
+main.ts:62497
 
 ***
 
@@ -180,7 +192,7 @@ the date when the video is published
 
 #### Defined in
 
-main.ts:63763
+main.ts:62503
 
 ***
 
@@ -191,9 +203,13 @@ main.ts:63763
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`rank_absolute`](IBaseYoutubeSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:63735
+main.ts:62316
 
 ***
 
@@ -205,9 +221,13 @@ group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`rank_group`](IBaseYoutubeSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:63732
+main.ts:62313
 
 ***
 
@@ -219,7 +239,7 @@ array of elements that contain information about all possible streaming qualitie
 
 #### Defined in
 
-main.ts:63782
+main.ts:62524
 
 ***
 
@@ -231,7 +251,7 @@ array of elements describing properties of subtitles in the video
 
 #### Defined in
 
-main.ts:63780
+main.ts:62522
 
 ***
 
@@ -243,7 +263,7 @@ the URL of the page where the thumbnail is hosted
 
 #### Defined in
 
-main.ts:63743
+main.ts:62483
 
 ***
 
@@ -258,7 +278,7 @@ example:
 
 #### Defined in
 
-main.ts:63768
+main.ts:62508
 
 ***
 
@@ -270,7 +290,23 @@ title of the video
 
 #### Defined in
 
-main.ts:63739
+main.ts:62479
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`type`](IBaseYoutubeSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:62309
 
 ***
 
@@ -282,7 +318,7 @@ URL of the video
 
 #### Defined in
 
-main.ts:63741
+main.ts:62481
 
 ***
 
@@ -294,7 +330,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:63737
+main.ts:62477
 
 ***
 
@@ -306,4 +342,4 @@ number of views of the video
 
 #### Defined in
 
-main.ts:63755
+main.ts:62495

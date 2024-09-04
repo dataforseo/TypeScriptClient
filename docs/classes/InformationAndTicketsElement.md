@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:47815
+main.ts:46081
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the element
 
 #### Defined in
 
-main.ts:47807
+main.ts:46073
 
 ***
 
@@ -62,7 +62,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:47811
+main.ts:46077
 
 ***
 
@@ -78,7 +78,7 @@ title of the element
 
 #### Defined in
 
-main.ts:47805
+main.ts:46071
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:47803
+main.ts:46069
 
 ***
 
@@ -110,7 +110,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:47809
+main.ts:46075
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:47809
 
 #### Defined in
 
-main.ts:47824
+main.ts:46090
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:47824
 
 #### Defined in
 
-main.ts:47845
+main.ts:46111
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:47845
 
 #### Defined in
 
-main.ts:47838
+main.ts:46104

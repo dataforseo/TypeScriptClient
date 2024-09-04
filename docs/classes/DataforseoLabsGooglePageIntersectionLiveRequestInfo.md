@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:103055
+main.ts:100205
 
 ## Properties
 
@@ -57,7 +57,7 @@ example:
 
 #### Defined in
 
-main.ts:102929
+main.ts:100079
 
 ***
 
@@ -91,7 +91,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:103029
+main.ts:100179
 
 ***
 
@@ -110,7 +110,7 @@ default value: false
 
 #### Defined in
 
-main.ts:103009
+main.ts:100159
 
 ***
 
@@ -131,7 +131,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:103004
+main.ts:100154
 
 ***
 
@@ -150,7 +150,7 @@ default value: false
 
 #### Defined in
 
-main.ts:102997
+main.ts:100147
 
 ***
 
@@ -169,7 +169,7 @@ default value: true
 
 #### Defined in
 
-main.ts:102984
+main.ts:100134
 
 ***
 
@@ -191,7 +191,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:102992
+main.ts:100142
 
 ***
 
@@ -213,7 +213,7 @@ default value:
 
 #### Defined in
 
-main.ts:102969
+main.ts:100119
 
 ***
 
@@ -235,7 +235,7 @@ en
 
 #### Defined in
 
-main.ts:102961
+main.ts:100111
 
 ***
 
@@ -257,7 +257,7 @@ English
 
 #### Defined in
 
-main.ts:102953
+main.ts:100103
 
 ***
 
@@ -276,7 +276,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:102974
+main.ts:100124
 
 ***
 
@@ -298,7 +298,7 @@ example:
 
 #### Defined in
 
-main.ts:102945
+main.ts:100095
 
 ***
 
@@ -320,7 +320,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:102937
+main.ts:100087
 
 ***
 
@@ -339,7 +339,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:102979
+main.ts:100129
 
 ***
 
@@ -369,7 +369,7 @@ example:
 
 #### Defined in
 
-main.ts:103045
+main.ts:100195
 
 ***
 
@@ -408,7 +408,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:102916
+main.ts:100066
 
 ***
 
@@ -428,7 +428,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:103051
+main.ts:100201
 
 ## Methods
 
@@ -446,7 +446,7 @@ main.ts:103051
 
 #### Defined in
 
-main.ts:103064
+main.ts:100214
 
 ***
 
@@ -464,7 +464,7 @@ main.ts:103064
 
 #### Defined in
 
-main.ts:103119
+main.ts:100269
 
 ***
 
@@ -482,4 +482,4 @@ main.ts:103119
 
 #### Defined in
 
-main.ts:103112
+main.ts:100262

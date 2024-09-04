@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:26736
+main.ts:27039
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:26736
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:26702
+main.ts:27005
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:26716
+main.ts:27019
 
 ***
 
@@ -101,7 +101,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:26719
+main.ts:27022
 
 ***
 
@@ -117,7 +117,7 @@ website domain
 
 #### Defined in
 
-main.ts:26700
+main.ts:27003
 
 ***
 
@@ -137,7 +137,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:26714
+main.ts:27017
 
 ***
 
@@ -153,7 +153,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:26712
+main.ts:27015
 
 ***
 
@@ -169,7 +169,7 @@ images of the element
 
 #### Defined in
 
-main.ts:26708
+main.ts:27011
 
 ***
 
@@ -185,7 +185,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:26704
+main.ts:27007
 
 ***
 
@@ -201,7 +201,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:26706
+main.ts:27009
 
 ***
 
@@ -219,7 +219,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:26723
+main.ts:27026
 
 ***
 
@@ -235,9 +235,13 @@ left, right
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`position`](../interfaces/IPaidSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:26694
+main.ts:20363
 
 ***
 
@@ -254,7 +258,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:26726
+main.ts:27029
 
 ***
 
@@ -269,9 +273,13 @@ absolute position among all the elements in SERP
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`rank_absolute`](../interfaces/IPaidSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:26690
+main.ts:20359
 
 ***
 
@@ -287,9 +295,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`rank_group`](../interfaces/IPaidSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:26687
+main.ts:20356
 
 ***
 
@@ -307,7 +319,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:26730
+main.ts:27033
 
 ***
 
@@ -323,7 +335,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:26698
+main.ts:27001
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`type`](../interfaces/IPaidSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -339,7 +371,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:26710
+main.ts:27013
 
 ***
 
@@ -355,7 +387,7 @@ website name in SERP
 
 #### Defined in
 
-main.ts:26732
+main.ts:27035
 
 ***
 
@@ -369,9 +401,13 @@ the XPath of the element
 
 [`IPaidSerpElementItem`](../interfaces/IPaidSerpElementItem.md).[`xpath`](../interfaces/IPaidSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:26696
+main.ts:20365
 
 ## Methods
 
@@ -393,7 +429,7 @@ main.ts:26696
 
 #### Defined in
 
-main.ts:26741
+main.ts:27044
 
 ***
 
@@ -415,7 +451,7 @@ main.ts:26741
 
 #### Defined in
 
-main.ts:26799
+main.ts:27098
 
 ***
 
@@ -437,4 +473,4 @@ main.ts:26799
 
 #### Defined in
 
-main.ts:26792
+main.ts:27091

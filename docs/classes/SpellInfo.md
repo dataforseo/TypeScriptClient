@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:23171
+main.ts:23493
 
 ## Properties
 
@@ -47,7 +47,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:23161
+main.ts:23483
 
 ***
 
@@ -67,7 +67,7 @@ including_results_for
 
 #### Defined in
 
-main.ts:23167
+main.ts:23489
 
 ## Methods
 
@@ -85,7 +85,7 @@ main.ts:23167
 
 #### Defined in
 
-main.ts:23180
+main.ts:23502
 
 ***
 
@@ -103,7 +103,7 @@ main.ts:23180
 
 #### Defined in
 
-main.ts:23198
+main.ts:23520
 
 ***
 
@@ -121,4 +121,4 @@ main.ts:23198
 
 #### Defined in
 
-main.ts:23191
+main.ts:23513

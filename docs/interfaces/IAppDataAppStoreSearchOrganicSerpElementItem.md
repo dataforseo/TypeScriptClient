@@ -24,7 +24,7 @@ id of the app
 
 #### Defined in
 
-main.ts:117368
+main.ts:114430
 
 ***
 
@@ -36,7 +36,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:117374
+main.ts:114434
 
 ***
 
@@ -48,7 +48,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:117380
+main.ts:114438
 
 ***
 
@@ -60,9 +60,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:117366
+main.ts:22068
 
 ***
 
@@ -74,7 +78,7 @@ price of the app
 
 #### Defined in
 
-main.ts:117382
+main.ts:114440
 
 ***
 
@@ -85,9 +89,13 @@ main.ts:117382
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:117362
+main.ts:22064
 
 ***
 
@@ -98,9 +106,13 @@ main.ts:117362
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:117359
+main.ts:22061
 
 ***
 
@@ -110,9 +122,13 @@ main.ts:117359
 
 average rating of the app
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:117378
+main.ts:22072
 
 ***
 
@@ -124,7 +140,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:117376
+main.ts:114436
 
 ***
 
@@ -134,9 +150,29 @@ main.ts:117376
 
 title of the app
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:117370
+main.ts:22070
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22058
 
 ***
 
@@ -148,4 +184,4 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:117372
+main.ts:114432

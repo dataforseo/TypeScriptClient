@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:190521
+main.ts:186049
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:190510
+main.ts:186038
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:190517
+main.ts:186045
 
 ***
 
@@ -92,7 +92,7 @@ example: app_data/task_get/advanced, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:190503
+main.ts:186031
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:190492
+main.ts:186020
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:190497
+main.ts:186025
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:190497
 
 #### Defined in
 
-main.ts:190530
+main.ts:186058
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:190530
 
 #### Defined in
 
-main.ts:190551
+main.ts:186079
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:190551
 
 #### Defined in
 
-main.ts:190544
+main.ts:186072

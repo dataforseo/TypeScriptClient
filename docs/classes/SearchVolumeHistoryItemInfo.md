@@ -32,7 +32,7 @@ device type = desktop contains historical search volume data for searches made f
 
 #### Defined in
 
-main.ts:137763
+main.ts:134629
 
 ## Properties
 
@@ -48,7 +48,7 @@ day of the month
 
 #### Defined in
 
-main.ts:137757
+main.ts:134623
 
 ***
 
@@ -64,7 +64,7 @@ month
 
 #### Defined in
 
-main.ts:137755
+main.ts:134621
 
 ***
 
@@ -80,7 +80,7 @@ search volume rate
 
 #### Defined in
 
-main.ts:137759
+main.ts:134625
 
 ***
 
@@ -96,7 +96,7 @@ year
 
 #### Defined in
 
-main.ts:137753
+main.ts:134619
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:137753
 
 #### Defined in
 
-main.ts:137772
+main.ts:134638
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:137772
 
 #### Defined in
 
-main.ts:137792
+main.ts:134658
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:137792
 
 #### Defined in
 
-main.ts:137785
+main.ts:134651

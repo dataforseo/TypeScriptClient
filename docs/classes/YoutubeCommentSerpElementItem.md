@@ -8,7 +8,7 @@
 
 ## Extends
 
-- [`BaseSerpElementItem`](BaseSerpElementItem.md)
+- [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
 
 ## Implements
 
@@ -34,11 +34,11 @@
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`constructor`](BaseYoutubeSerpElementItem.md#constructors)
 
 #### Defined in
 
-main.ts:66853
+main.ts:65570
 
 ## Properties
 
@@ -48,11 +48,11 @@ main.ts:66853
 
 #### Inherited from
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`_discriminator`](BaseYoutubeSerpElementItem.md#_discriminator)
 
 #### Defined in
 
-main.ts:20354
+main.ts:62255
 
 ***
 
@@ -68,7 +68,7 @@ name of the author of the comment
 
 #### Defined in
 
-main.ts:66832
+main.ts:65549
 
 ***
 
@@ -84,7 +84,7 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Defined in
 
-main.ts:66834
+main.ts:65551
 
 ***
 
@@ -100,7 +100,7 @@ URL of the author’s channel
 
 #### Defined in
 
-main.ts:66836
+main.ts:65553
 
 ***
 
@@ -116,7 +116,7 @@ number of likes on the comment
 
 #### Defined in
 
-main.ts:66847
+main.ts:65564
 
 ***
 
@@ -132,7 +132,7 @@ displayed publication date
 
 #### Defined in
 
-main.ts:66840
+main.ts:65557
 
 ***
 
@@ -147,9 +147,13 @@ absolute position among all the elements in SERP
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`rank_absolute`](../interfaces/IYoutubeCommentSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`rank_absolute`](BaseYoutubeSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:66830
+main.ts:62253
 
 ***
 
@@ -165,9 +169,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`rank_group`](../interfaces/IYoutubeCommentSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`rank_group`](BaseYoutubeSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:66827
+main.ts:62250
 
 ***
 
@@ -183,7 +191,7 @@ number of replies on the comment
 
 #### Defined in
 
-main.ts:66849
+main.ts:65566
 
 ***
 
@@ -199,7 +207,7 @@ text of the comment
 
 #### Defined in
 
-main.ts:66838
+main.ts:65555
 
 ***
 
@@ -218,7 +226,27 @@ example:
 
 #### Defined in
 
-main.ts:66845
+main.ts:65562
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IYoutubeCommentSerpElementItem`](../interfaces/IYoutubeCommentSerpElementItem.md).[`type`](../interfaces/IYoutubeCommentSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`type`](BaseYoutubeSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:62246
 
 ## Methods
 
@@ -236,11 +264,11 @@ main.ts:66845
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`init`](BaseYoutubeSerpElementItem.md#init)
 
 #### Defined in
 
-main.ts:66858
+main.ts:65575
 
 ***
 
@@ -258,11 +286,11 @@ main.ts:66858
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`toJSON`](BaseYoutubeSerpElementItem.md#tojson)
 
 #### Defined in
 
-main.ts:66885
+main.ts:65600
 
 ***
 
@@ -280,8 +308,8 @@ main.ts:66885
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`fromJS`](BaseYoutubeSerpElementItem.md#fromjs)
 
 #### Defined in
 
-main.ts:66878
+main.ts:65593

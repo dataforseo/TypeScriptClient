@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:184574
+main.ts:180288
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:184574
 
 #### Defined in
 
-main.ts:22007
+main.ts:22315
 
 ***
 
@@ -68,7 +68,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:184539
+main.ts:180253
 
 ***
 
@@ -86,7 +86,7 @@ USD
 
 #### Defined in
 
-main.ts:184551
+main.ts:180265
 
 ***
 
@@ -105,7 +105,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:184559
+main.ts:180273
 
 ***
 
@@ -122,7 +122,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:184570
+main.ts:180284
 
 ***
 
@@ -138,7 +138,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:184531
+main.ts:180245
 
 ***
 
@@ -154,7 +154,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:184537
+main.ts:180251
 
 ***
 
@@ -171,7 +171,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:184564
+main.ts:180278
 
 ***
 
@@ -188,7 +188,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:184567
+main.ts:180281
 
 ***
 
@@ -206,7 +206,7 @@ example:
 
 #### Defined in
 
-main.ts:184543
+main.ts:180257
 
 ***
 
@@ -224,7 +224,7 @@ example:
 
 #### Defined in
 
-main.ts:184547
+main.ts:180261
 
 ***
 
@@ -232,16 +232,20 @@ main.ts:184547
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank in SERP
-absolute position among all the elements found in Amazon SERP
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IAmazonAmazonPaidSerpElementItem`](../interfaces/IAmazonAmazonPaidSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonAmazonPaidSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_absolute`](BaseAmazonSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:184527
+main.ts:22311
 
 ***
 
@@ -256,9 +260,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAmazonAmazonPaidSerpElementItem`](../interfaces/IAmazonAmazonPaidSerpElementItem.md).[`rank_group`](../interfaces/IAmazonAmazonPaidSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_group`](BaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:184524
+main.ts:22308
 
 ***
 
@@ -274,7 +282,7 @@ product rating info
 
 #### Defined in
 
-main.ts:184561
+main.ts:180275
 
 ***
 
@@ -291,7 +299,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:184554
+main.ts:180268
 
 ***
 
@@ -307,7 +315,27 @@ product title
 
 #### Defined in
 
-main.ts:184533
+main.ts:180247
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAmazonAmazonPaidSerpElementItem`](../interfaces/IAmazonAmazonPaidSerpElementItem.md).[`type`](../interfaces/IAmazonAmazonPaidSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`type`](BaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22305
 
 ***
 
@@ -323,7 +351,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:184535
+main.ts:180249
 
 ***
 
@@ -337,9 +365,13 @@ the XPath of the element
 
 [`IAmazonAmazonPaidSerpElementItem`](../interfaces/IAmazonAmazonPaidSerpElementItem.md).[`xpath`](../interfaces/IAmazonAmazonPaidSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`xpath`](BaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:184529
+main.ts:22313
 
 ## Methods
 
@@ -361,7 +393,7 @@ main.ts:184529
 
 #### Defined in
 
-main.ts:184579
+main.ts:180293
 
 ***
 
@@ -383,7 +415,7 @@ main.ts:184579
 
 #### Defined in
 
-main.ts:184617
+main.ts:180328
 
 ***
 
@@ -405,4 +437,4 @@ main.ts:184617
 
 #### Defined in
 
-main.ts:184610
+main.ts:180321

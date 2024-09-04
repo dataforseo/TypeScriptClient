@@ -24,7 +24,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:180438
+main.ts:176238
 
 ***
 
@@ -38,7 +38,7 @@ USD
 
 #### Defined in
 
-main.ts:180449
+main.ts:176249
 
 ***
 
@@ -51,7 +51,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:180436
+main.ts:176236
 
 ***
 
@@ -63,7 +63,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:180428
+main.ts:176228
 
 ***
 
@@ -75,9 +75,13 @@ alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:180424
+main.ts:21130
 
 ***
 
@@ -91,7 +95,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 #### Defined in
 
-main.ts:180465
+main.ts:176265
 
 ***
 
@@ -104,7 +108,7 @@ possible values: Used, Refurbished, New, null
 
 #### Defined in
 
-main.ts:180461
+main.ts:176261
 
 ***
 
@@ -115,9 +119,13 @@ main.ts:180461
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:180420
+main.ts:21126
 
 ***
 
@@ -128,9 +136,13 @@ main.ts:180420
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:180417
+main.ts:21123
 
 ***
 
@@ -143,7 +155,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:180455
+main.ts:176255
 
 ***
 
@@ -156,7 +168,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:180452
+main.ts:176252
 
 ***
 
@@ -168,7 +180,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:180443
+main.ts:176243
 
 ***
 
@@ -181,7 +193,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:180458
+main.ts:176258
 
 ***
 
@@ -194,7 +206,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:180441
+main.ts:176241
 
 ***
 
@@ -206,7 +218,7 @@ product title
 
 #### Defined in
 
-main.ts:180430
+main.ts:176230
 
 ***
 
@@ -218,7 +230,23 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:180445
+main.ts:176245
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21120
 
 ***
 
@@ -231,7 +259,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 #### Defined in
 
-main.ts:180433
+main.ts:176233
 
 ***
 
@@ -243,4 +271,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:180426
+main.ts:176226

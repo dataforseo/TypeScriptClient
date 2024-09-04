@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:97580
+main.ts:97176
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97580
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20752
 
 > `optional` **items**: `string`[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97576
+main.ts:97172
 
 ***
 
@@ -85,9 +84,13 @@ left, right
 
 [`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:97569
+main.ts:20738
 
 ***
 
@@ -102,9 +105,13 @@ absolute position among all the elements in SERP
 
 [`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:97565
+main.ts:20734
 
 ***
 
@@ -119,25 +126,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md#rank_group)
 
-#### Defined in
+#### Inherited from
 
-main.ts:97562
-
-***
-
-### se\_type?
-
-> `optional` **se\_type**: `string`
-
-search engine type
-
-#### Implementation of
-
-[`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md).[`se_type`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md#se_type)
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:97559
+main.ts:20731
 
 ***
 
@@ -145,7 +140,7 @@ main.ts:97559
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -153,7 +148,27 @@ title of the item
 
 #### Defined in
 
-main.ts:97573
+main.ts:97170
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -167,9 +182,13 @@ the XPath of the element
 
 [`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IPeopleAlsoSearchDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:97571
+main.ts:20740
 
 ## Methods
 
@@ -191,7 +210,7 @@ main.ts:97571
 
 #### Defined in
 
-main.ts:97585
+main.ts:97181
 
 ***
 
@@ -213,7 +232,7 @@ main.ts:97585
 
 #### Defined in
 
-main.ts:97613
+main.ts:97204
 
 ***
 
@@ -235,4 +254,4 @@ main.ts:97613
 
 #### Defined in
 
-main.ts:97606
+main.ts:97197

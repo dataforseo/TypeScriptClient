@@ -22,4 +22,4 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Defined in
 
-main.ts:24868
+main.ts:25184

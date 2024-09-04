@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:189946
+main.ts:185474
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:189938
+main.ts:185466
 
 ***
 
@@ -65,7 +65,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:189942
+main.ts:185470
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:189940
+main.ts:185468
 
 ***
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:189933
+main.ts:185461
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:189931
+main.ts:185459
 
 ***
 
@@ -129,7 +129,7 @@ ASIN received in a POST array
 
 #### Defined in
 
-main.ts:189925
+main.ts:185453
 
 ***
 
@@ -145,7 +145,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:189929
+main.ts:185457
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:189927
+main.ts:185455
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:189927
 
 #### Defined in
 
-main.ts:189955
+main.ts:185483
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:189955
 
 #### Defined in
 
-main.ts:189983
+main.ts:185511
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:189983
 
 #### Defined in
 
-main.ts:189976
+main.ts:185504

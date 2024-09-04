@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:116453
+main.ts:113549
 
 ## Properties
 
@@ -50,7 +50,7 @@ ids of the apps in a POST array
 
 #### Defined in
 
-main.ts:116439
+main.ts:113535
 
 ***
 
@@ -66,7 +66,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Defined in
 
-main.ts:116449
+main.ts:113545
 
 ***
 
@@ -82,7 +82,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:116447
+main.ts:113543
 
 ***
 
@@ -98,7 +98,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:116443
+main.ts:113539
 
 ***
 
@@ -114,7 +114,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:116441
+main.ts:113537
 
 ***
 
@@ -130,7 +130,7 @@ search engine type
 
 #### Defined in
 
-main.ts:116437
+main.ts:113533
 
 ***
 
@@ -146,7 +146,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:116445
+main.ts:113541
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:116445
 
 #### Defined in
 
-main.ts:116462
+main.ts:113558
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:116462
 
 #### Defined in
 
-main.ts:116495
+main.ts:113591
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:116495
 
 #### Defined in
 
-main.ts:116488
+main.ts:113584

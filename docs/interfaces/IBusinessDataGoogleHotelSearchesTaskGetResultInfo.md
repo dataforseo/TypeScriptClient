@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:208933
+main.ts:204271
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:208938
+main.ts:204276
 
 ***
 
@@ -49,7 +49,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-main.ts:208944
+main.ts:204282
 
 ***
 
@@ -62,7 +62,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:208941
+main.ts:204279
 
 ***
 
@@ -76,7 +76,7 @@ in order to obtain accurate search results, the location name is appended to the
 
 #### Defined in
 
-main.ts:208926
+main.ts:204264
 
 ***
 
@@ -88,7 +88,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:208930
+main.ts:204268
 
 ***
 
@@ -100,4 +100,4 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:208928
+main.ts:204266

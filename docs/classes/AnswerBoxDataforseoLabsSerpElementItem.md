@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:98806
+main.ts:96959
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98806
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -70,7 +70,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:98802
+main.ts:96955
 
 ***
 
@@ -86,9 +86,13 @@ left, right
 
 [`IAnswerBoxDataforseoLabsSerpElementItem`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:98793
+main.ts:20738
 
 ***
 
@@ -103,9 +107,13 @@ absolute position among all the elements in SERP
 
 [`IAnswerBoxDataforseoLabsSerpElementItem`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:98789
+main.ts:20734
 
 ***
 
@@ -113,7 +121,6 @@ main.ts:98789
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
@@ -121,9 +128,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAnswerBoxDataforseoLabsSerpElementItem`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:98786
+main.ts:20731
 
 ***
 
@@ -140,7 +151,27 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:98798
+main.ts:96951
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAnswerBoxDataforseoLabsSerpElementItem`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -154,9 +185,13 @@ the XPath of the element
 
 [`IAnswerBoxDataforseoLabsSerpElementItem`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IAnswerBoxDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:98795
+main.ts:20740
 
 ## Methods
 
@@ -178,7 +213,7 @@ main.ts:98795
 
 #### Defined in
 
-main.ts:98811
+main.ts:96964
 
 ***
 
@@ -200,7 +235,7 @@ main.ts:98811
 
 #### Defined in
 
-main.ts:98842
+main.ts:96991
 
 ***
 
@@ -222,4 +257,4 @@ main.ts:98842
 
 #### Defined in
 
-main.ts:98835
+main.ts:96984

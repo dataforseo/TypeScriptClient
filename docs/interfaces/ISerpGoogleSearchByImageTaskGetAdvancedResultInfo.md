@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:51355
+main.ts:49802
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:51360
+main.ts:49807
 
 ***
 
@@ -48,7 +48,7 @@ URL specified in a POST array
 
 #### Defined in
 
-main.ts:51342
+main.ts:49789
 
 ***
 
@@ -64,7 +64,7 @@ images
 
 #### Defined in
 
-main.ts:51369
+main.ts:49816
 
 ***
 
@@ -77,7 +77,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:51376
+main.ts:49823
 
 ***
 
@@ -89,7 +89,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:51373
+main.ts:49820
 
 ***
 
@@ -101,7 +101,7 @@ keyword Google associated with the specified image
 
 #### Defined in
 
-main.ts:51344
+main.ts:49791
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:51352
+main.ts:49799
 
 ***
 
@@ -125,7 +125,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:51350
+main.ts:49797
 
 ***
 
@@ -137,7 +137,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:51348
+main.ts:49795
 
 ***
 
@@ -149,7 +149,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:51371
+main.ts:49818
 
 ***
 
@@ -162,7 +162,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:51363
+main.ts:49810
 
 ***
 
@@ -174,4 +174,4 @@ type of element
 
 #### Defined in
 
-main.ts:51346
+main.ts:49793

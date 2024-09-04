@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:102272
+main.ts:99442
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:102272
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -70,7 +70,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:102266
+main.ts:99436
 
 ***
 
@@ -86,9 +86,13 @@ left, right
 
 [`IGoogleHotelsDataforseoLabsSerpElementItem`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:102260
+main.ts:20738
 
 ***
 
@@ -103,9 +107,13 @@ absolute position among all the elements in SERP
 
 [`IGoogleHotelsDataforseoLabsSerpElementItem`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:102256
+main.ts:20734
 
 ***
 
@@ -120,9 +128,33 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGoogleHotelsDataforseoLabsSerpElementItem`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:102253
+main.ts:20731
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleHotelsDataforseoLabsSerpElementItem`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -130,7 +162,7 @@ main.ts:102253
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -138,7 +170,7 @@ URL link
 
 #### Defined in
 
-main.ts:102268
+main.ts:99438
 
 ***
 
@@ -152,9 +184,13 @@ the XPath of the element
 
 [`IGoogleHotelsDataforseoLabsSerpElementItem`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IGoogleHotelsDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:102262
+main.ts:20740
 
 ## Methods
 
@@ -176,7 +212,7 @@ main.ts:102262
 
 #### Defined in
 
-main.ts:102277
+main.ts:99447
 
 ***
 
@@ -198,7 +234,7 @@ main.ts:102277
 
 #### Defined in
 
-main.ts:102300
+main.ts:99466
 
 ***
 
@@ -220,4 +256,4 @@ main.ts:102300
 
 #### Defined in
 
-main.ts:102293
+main.ts:99459

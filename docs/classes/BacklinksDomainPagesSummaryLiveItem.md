@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:146677
+main.ts:143543
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of backlinks
 
 #### Defined in
 
-main.ts:146613
+main.ts:143479
 
 ***
 
@@ -63,7 +63,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:146627
+main.ts:143493
 
 ***
 
@@ -80,7 +80,7 @@ number of broken backlinks pointing to the page
 
 #### Defined in
 
-main.ts:146630
+main.ts:143496
 
 ***
 
@@ -97,7 +97,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Defined in
 
-main.ts:146633
+main.ts:143499
 
 ***
 
@@ -116,7 +116,7 @@ example:
 
 #### Defined in
 
-main.ts:146618
+main.ts:143484
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:146624
+main.ts:143490
 
 ***
 
@@ -155,7 +155,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:146611
+main.ts:143477
 
 ***
 
@@ -171,7 +171,7 @@ indicates the number domains referring to the page
 
 #### Defined in
 
-main.ts:146635
+main.ts:143501
 
 ***
 
@@ -187,7 +187,7 @@ number of domains pointing at least one nofollow link to the page
 
 #### Defined in
 
-main.ts:146637
+main.ts:143503
 
 ***
 
@@ -204,7 +204,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:146644
+main.ts:143510
 
 ***
 
@@ -225,7 +225,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:146659
+main.ts:143525
 
 ***
 
@@ -246,7 +246,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:146671
+main.ts:143537
 
 ***
 
@@ -267,7 +267,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:146662
+main.ts:143528
 
 ***
 
@@ -291,7 +291,7 @@ article, section, footer
 
 #### Defined in
 
-main.ts:146668
+main.ts:143534
 
 ***
 
@@ -312,7 +312,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:146651
+main.ts:143517
 
 ***
 
@@ -335,7 +335,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:146656
+main.ts:143522
 
 ***
 
@@ -351,7 +351,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:146639
+main.ts:143505
 
 ***
 
@@ -367,7 +367,7 @@ number of main domains pointing at least one nofollow link to the page
 
 #### Defined in
 
-main.ts:146641
+main.ts:143507
 
 ***
 
@@ -383,7 +383,7 @@ indicates the number of pages pointing to the relevant url
 
 #### Defined in
 
-main.ts:146648
+main.ts:143514
 
 ***
 
@@ -399,7 +399,7 @@ number of referring pages pointing at least one nofollow link to the page
 
 #### Defined in
 
-main.ts:146673
+main.ts:143539
 
 ***
 
@@ -415,7 +415,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:146646
+main.ts:143512
 
 ***
 
@@ -431,7 +431,7 @@ type of element
 
 #### Defined in
 
-main.ts:146604
+main.ts:143470
 
 ***
 
@@ -447,7 +447,7 @@ page URL
 
 #### Defined in
 
-main.ts:146606
+main.ts:143472
 
 ## Methods
 
@@ -465,7 +465,7 @@ main.ts:146606
 
 #### Defined in
 
-main.ts:146686
+main.ts:143552
 
 ***
 
@@ -483,7 +483,7 @@ main.ts:146686
 
 #### Defined in
 
-main.ts:146761
+main.ts:143627
 
 ***
 
@@ -501,4 +501,4 @@ main.ts:146761
 
 #### Defined in
 
-main.ts:146754
+main.ts:143620

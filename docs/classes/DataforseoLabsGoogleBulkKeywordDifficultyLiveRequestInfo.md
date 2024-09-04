@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:87544
+main.ts:86216
 
 ## Properties
 
@@ -51,7 +51,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:87506
+main.ts:86178
 
 ***
 
@@ -72,7 +72,7 @@ en
 
 #### Defined in
 
-main.ts:87534
+main.ts:86206
 
 ***
 
@@ -93,7 +93,7 @@ English
 
 #### Defined in
 
-main.ts:87527
+main.ts:86199
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:87520
+main.ts:86192
 
 ***
 
@@ -135,7 +135,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:87513
+main.ts:86185
 
 ***
 
@@ -155,7 +155,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:87540
+main.ts:86212
 
 ## Methods
 
@@ -173,7 +173,7 @@ main.ts:87540
 
 #### Defined in
 
-main.ts:87553
+main.ts:86225
 
 ***
 
@@ -191,7 +191,7 @@ main.ts:87553
 
 #### Defined in
 
-main.ts:87579
+main.ts:86251
 
 ***
 
@@ -209,4 +209,4 @@ main.ts:87579
 
 #### Defined in
 
-main.ts:87572
+main.ts:86244

@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:219188
+main.ts:214448
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:219193
+main.ts:214453
 
 ***
 
@@ -49,7 +49,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:219213
+main.ts:214473
 
 ***
 
@@ -62,7 +62,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:219210
+main.ts:214470
 
 ***
 
@@ -74,7 +74,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:219215
+main.ts:214475
 
 ***
 
@@ -87,7 +87,7 @@ address of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:219199
+main.ts:214459
 
 ***
 
@@ -100,7 +100,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:219204
+main.ts:214464
 
 ***
 
@@ -117,7 +117,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-main.ts:219207
+main.ts:214467
 
 ***
 
@@ -129,7 +129,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:219201
+main.ts:214461
 
 ***
 
@@ -141,7 +141,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:219185
+main.ts:214445
 
 ***
 
@@ -154,7 +154,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:219196
+main.ts:214456
 
 ***
 
@@ -166,7 +166,7 @@ type of element
 
 #### Defined in
 
-main.ts:219183
+main.ts:214443
 
 ***
 
@@ -178,4 +178,4 @@ URL path received in a POST array
 
 #### Defined in
 
-main.ts:219181
+main.ts:214441

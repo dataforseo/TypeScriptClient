@@ -20,7 +20,7 @@ the alt tag of the product image featured in the results
 
 #### Defined in
 
-main.ts:22299
+main.ts:22615
 
 ***
 
@@ -32,7 +32,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:22301
+main.ts:22617
 
 ***
 
@@ -44,7 +44,7 @@ product title
 
 #### Defined in
 
-main.ts:22295
+main.ts:22611
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:22293
+main.ts:22609
 
 ***
 
@@ -68,4 +68,4 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:22297
+main.ts:22613

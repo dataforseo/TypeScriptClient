@@ -24,4 +24,20 @@ lists available delivery services
 
 #### Defined in
 
-main.ts:23694
+main.ts:24010
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md).[`type`](IBaseLocalBusinessLink.md#type)
+
+#### Defined in
+
+main.ts:23900

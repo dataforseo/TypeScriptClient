@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:107043
+main.ts:104177
 
 ## Properties
 
@@ -48,7 +48,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:107037
+main.ts:104171
 
 ***
 
@@ -64,7 +64,7 @@ average keyword position of the product
 
 #### Defined in
 
-main.ts:107039
+main.ts:104173
 
 ***
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:107033
+main.ts:104167
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:107033
 
 #### Defined in
 
-main.ts:107052
+main.ts:104186
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:107052
 
 #### Defined in
 
-main.ts:107071
+main.ts:104205
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:107071
 
 #### Defined in
 
-main.ts:107064
+main.ts:104198

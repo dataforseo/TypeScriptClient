@@ -20,7 +20,7 @@ subscriber count
 
 #### Defined in
 
-main.ts:63412
+main.ts:62091
 
 ***
 
@@ -33,4 +33,4 @@ subscriber count as displayed on YouTube
 
 #### Defined in
 
-main.ts:63410
+main.ts:62089

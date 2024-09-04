@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:216691
+main.ts:211981
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:216696
+main.ts:211986
 
 ***
 
@@ -48,7 +48,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:216684
+main.ts:211974
 
 ***
 
@@ -61,7 +61,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:216713
+main.ts:212003
 
 ***
 
@@ -74,7 +74,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:216710
+main.ts:212000
 
 ***
 
@@ -87,7 +87,7 @@ address of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:216702
+main.ts:211992
 
 ***
 
@@ -100,7 +100,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:216707
+main.ts:211997
 
 ***
 
@@ -112,7 +112,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:216704
+main.ts:211994
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:216688
+main.ts:211978
 
 ***
 
@@ -137,7 +137,7 @@ the name of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:216699
+main.ts:211989
 
 ***
 
@@ -149,4 +149,4 @@ type of element
 
 #### Defined in
 
-main.ts:216686
+main.ts:211976

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:207443
+main.ts:202781
 
 ## Properties
 
@@ -46,7 +46,7 @@ identifier of the business updates element in SERP
 
 #### Defined in
 
-main.ts:207421
+main.ts:202759
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:207414
+main.ts:202752
 
 ***
 
@@ -81,7 +81,7 @@ learn more about the cid identifier in this help center article
 
 #### Defined in
 
-main.ts:207425
+main.ts:202763
 
 ***
 
@@ -100,7 +100,7 @@ example:
 
 #### Defined in
 
-main.ts:207419
+main.ts:202757
 
 ***
 
@@ -117,7 +117,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:207428
+main.ts:202766
 
 ***
 
@@ -135,7 +135,7 @@ possible item types: google_business_post
 
 #### Defined in
 
-main.ts:207432
+main.ts:202770
 
 ***
 
@@ -153,7 +153,7 @@ possible item types: google_business_post
 
 #### Defined in
 
-main.ts:207439
+main.ts:202777
 
 ***
 
@@ -170,7 +170,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:207435
+main.ts:202773
 
 ***
 
@@ -191,7 +191,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:207405
+main.ts:202743
 
 ***
 
@@ -207,7 +207,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:207411
+main.ts:202749
 
 ***
 
@@ -223,7 +223,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:207409
+main.ts:202747
 
 ***
 
@@ -239,7 +239,7 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:207407
+main.ts:202745
 
 ## Methods
 
@@ -257,7 +257,7 @@ main.ts:207407
 
 #### Defined in
 
-main.ts:207452
+main.ts:202790
 
 ***
 
@@ -275,7 +275,7 @@ main.ts:207452
 
 #### Defined in
 
-main.ts:207488
+main.ts:202826
 
 ***
 
@@ -293,4 +293,4 @@ main.ts:207488
 
 #### Defined in
 
-main.ts:207481
+main.ts:202819

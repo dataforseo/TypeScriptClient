@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:21117
+main.ts:21141
 
 ## Properties
 
@@ -50,7 +50,7 @@ type of element
 
 #### Defined in
 
-main.ts:21111
+main.ts:21135
 
 ***
 
@@ -70,7 +70,7 @@ type of element
 
 #### Defined in
 
-main.ts:21113
+main.ts:21137
 
 ## Methods
 
@@ -88,7 +88,7 @@ main.ts:21113
 
 #### Defined in
 
-main.ts:21126
+main.ts:21150
 
 ***
 
@@ -106,7 +106,7 @@ main.ts:21126
 
 #### Defined in
 
-main.ts:21156
+main.ts:21180
 
 ***
 
@@ -124,4 +124,4 @@ main.ts:21156
 
 #### Defined in
 
-main.ts:21149
+main.ts:21173

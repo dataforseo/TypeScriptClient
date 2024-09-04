@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:203223
+main.ts:198605
 
 ## Properties
 
@@ -48,7 +48,7 @@ higher value corresponds to a busier time of a day
 
 #### Defined in
 
-main.ts:203219
+main.ts:198601
 
 ***
 
@@ -64,7 +64,7 @@ busy hours
 
 #### Defined in
 
-main.ts:203215
+main.ts:198597
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:203215
 
 #### Defined in
 
-main.ts:203232
+main.ts:198614
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:203232
 
 #### Defined in
 
-main.ts:203250
+main.ts:198632
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:203250
 
 #### Defined in
 
-main.ts:203243
+main.ts:198625

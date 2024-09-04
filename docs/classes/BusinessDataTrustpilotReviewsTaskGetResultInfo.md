@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:216617
+main.ts:211907
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:216591
+main.ts:211881
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:216596
+main.ts:211886
 
 ***
 
@@ -82,7 +82,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:216584
+main.ts:211874
 
 ***
 
@@ -99,7 +99,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:216613
+main.ts:211903
 
 ***
 
@@ -116,7 +116,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:216610
+main.ts:211900
 
 ***
 
@@ -133,7 +133,7 @@ address of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:216602
+main.ts:211892
 
 ***
 
@@ -150,7 +150,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:216607
+main.ts:211897
 
 ***
 
@@ -166,7 +166,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:216604
+main.ts:211894
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:216588
+main.ts:211878
 
 ***
 
@@ -199,7 +199,7 @@ the name of the business entity for which the reviews are collected
 
 #### Defined in
 
-main.ts:216599
+main.ts:211889
 
 ***
 
@@ -215,7 +215,7 @@ type of element
 
 #### Defined in
 
-main.ts:216586
+main.ts:211876
 
 ## Methods
 
@@ -233,7 +233,7 @@ main.ts:216586
 
 #### Defined in
 
-main.ts:216626
+main.ts:211916
 
 ***
 
@@ -251,7 +251,7 @@ main.ts:216626
 
 #### Defined in
 
-main.ts:216657
+main.ts:211947
 
 ***
 
@@ -269,4 +269,4 @@ main.ts:216657
 
 #### Defined in
 
-main.ts:216650
+main.ts:211940

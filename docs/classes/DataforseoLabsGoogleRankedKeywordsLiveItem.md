@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:93067
+main.ts:91707
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:93061
+main.ts:91701
 
 ***
 
@@ -62,7 +62,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:93063
+main.ts:91703
 
 ***
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93059
+main.ts:91699
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:93059
 
 #### Defined in
 
-main.ts:93076
+main.ts:91716
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:93076
 
 #### Defined in
 
-main.ts:93095
+main.ts:91735
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:93095
 
 #### Defined in
 
-main.ts:93088
+main.ts:91728

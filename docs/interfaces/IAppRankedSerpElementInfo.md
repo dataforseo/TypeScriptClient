@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:115175
+main.ts:112271
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:115182
+main.ts:112278
 
 ***
 
@@ -52,7 +52,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:115188
+main.ts:112284
 
 ***
 
@@ -64,7 +64,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:115177
+main.ts:112273
 
 ***
 
@@ -76,7 +76,7 @@ search engine type
 
 #### Defined in
 
-main.ts:115169
+main.ts:112265
 
 ***
 
@@ -89,4 +89,4 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:115172
+main.ts:112268

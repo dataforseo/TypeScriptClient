@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:106983
+main.ts:104117
 
 ## Properties
 
@@ -46,7 +46,7 @@ ranking data from Amazon paid SERP
 
 #### Defined in
 
-main.ts:106979
+main.ts:104113
 
 ***
 
@@ -62,7 +62,7 @@ ranking data from Amazon organic SERP
 
 #### Defined in
 
-main.ts:106977
+main.ts:104111
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:106977
 
 #### Defined in
 
-main.ts:106992
+main.ts:104126
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:106992
 
 #### Defined in
 
-main.ts:107010
+main.ts:104144
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:107010
 
 #### Defined in
 
-main.ts:107003
+main.ts:104137

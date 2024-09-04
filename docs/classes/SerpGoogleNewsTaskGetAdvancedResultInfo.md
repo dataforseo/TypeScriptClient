@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:45861
+main.ts:44127
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:45837
+main.ts:44103
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:45842
+main.ts:44108
 
 ***
 
@@ -85,13 +85,13 @@ top_stories, news_search
 
 #### Defined in
 
-main.ts:45850
+main.ts:44116
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md)[]
 
 additional items present in the element
 if there are none, equals null
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:45857
+main.ts:44123
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:45854
+main.ts:44120
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:45826
+main.ts:44092
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:45834
+main.ts:44100
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:45832
+main.ts:44098
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:45830
+main.ts:44096
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:45852
+main.ts:44118
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:45845
+main.ts:44111
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:45828
+main.ts:44094
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:45828
 
 #### Defined in
 
-main.ts:45870
+main.ts:44136
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:45870
 
 #### Defined in
 
-main.ts:45906
+main.ts:44172
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:45906
 
 #### Defined in
 
-main.ts:45899
+main.ts:44165

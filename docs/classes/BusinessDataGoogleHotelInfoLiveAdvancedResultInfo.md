@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:211972
+main.ts:207310
 
 ## Properties
 
@@ -46,7 +46,7 @@ information about the hotel
 
 #### Defined in
 
-main.ts:211956
+main.ts:207294
 
 ***
 
@@ -63,7 +63,7 @@ physical address of the hotel
 
 #### Defined in
 
-main.ts:211951
+main.ts:207289
 
 ***
 
@@ -80,7 +80,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:211934
+main.ts:207272
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:211939
+main.ts:207277
 
 ***
 
@@ -118,7 +118,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:211927
+main.ts:207265
 
 ***
 
@@ -134,7 +134,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:211931
+main.ts:207269
 
 ***
 
@@ -151,7 +151,7 @@ information about the location where the hotel is located
 
 #### Defined in
 
-main.ts:211959
+main.ts:207297
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:211929
+main.ts:207267
 
 ***
 
@@ -184,7 +184,7 @@ array containing URLs to images displayed in the hotel overview
 
 #### Defined in
 
-main.ts:211965
+main.ts:207303
 
 ***
 
@@ -201,7 +201,7 @@ contact phone number of the hotel
 
 #### Defined in
 
-main.ts:211954
+main.ts:207292
 
 ***
 
@@ -218,7 +218,7 @@ contains information about the hotel’s prices
 
 #### Defined in
 
-main.ts:211968
+main.ts:207306
 
 ***
 
@@ -235,7 +235,7 @@ information about reviews of the hotel entity
 
 #### Defined in
 
-main.ts:211962
+main.ts:207300
 
 ***
 
@@ -252,7 +252,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:211945
+main.ts:207283
 
 ***
 
@@ -269,7 +269,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:211948
+main.ts:207286
 
 ***
 
@@ -286,7 +286,7 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:211942
+main.ts:207280
 
 ## Methods
 
@@ -304,7 +304,7 @@ main.ts:211942
 
 #### Defined in
 
-main.ts:211981
+main.ts:207319
 
 ***
 
@@ -322,7 +322,7 @@ main.ts:211981
 
 #### Defined in
 
-main.ts:212016
+main.ts:207354
 
 ***
 
@@ -340,4 +340,4 @@ main.ts:212016
 
 #### Defined in
 
-main.ts:212009
+main.ts:207347

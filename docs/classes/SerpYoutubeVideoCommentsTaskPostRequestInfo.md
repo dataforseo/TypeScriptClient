@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:66137
+main.ts:64861
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:66101
+main.ts:64825
 
 ***
 
@@ -71,7 +71,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:66087
+main.ts:64811
 
 ***
 
@@ -92,7 +92,7 @@ en
 
 #### Defined in
 
-main.ts:66083
+main.ts:64807
 
 ***
 
@@ -113,7 +113,7 @@ English
 
 #### Defined in
 
-main.ts:66076
+main.ts:64800
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:66069
+main.ts:64793
 
 ***
 
@@ -155,7 +155,7 @@ United States
 
 #### Defined in
 
-main.ts:66062
+main.ts:64786
 
 ***
 
@@ -174,7 +174,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:66092
+main.ts:64816
 
 ***
 
@@ -198,7 +198,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:66133
+main.ts:64857
 
 ***
 
@@ -218,7 +218,7 @@ advanced
 
 #### Defined in
 
-main.ts:66123
+main.ts:64847
 
 ***
 
@@ -242,7 +242,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:66117
+main.ts:64841
 
 ***
 
@@ -264,7 +264,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:66055
+main.ts:64779
 
 ***
 
@@ -284,7 +284,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:66107
+main.ts:64831
 
 ***
 
@@ -304,7 +304,7 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:66047
+main.ts:64771
 
 ## Methods
 
@@ -322,7 +322,7 @@ main.ts:66047
 
 #### Defined in
 
-main.ts:66146
+main.ts:64870
 
 ***
 
@@ -340,7 +340,7 @@ main.ts:66146
 
 #### Defined in
 
-main.ts:66175
+main.ts:64899
 
 ***
 
@@ -358,4 +358,4 @@ main.ts:66175
 
 #### Defined in
 
-main.ts:66168
+main.ts:64892

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:34500
+main.ts:33420
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Defined in
 
-main.ts:34491
+main.ts:33411
 
 ***
 
@@ -63,7 +63,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:34496
+main.ts:33416
 
 ***
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34489
+main.ts:33409
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:34487
+main.ts:33407
 
 ***
 
@@ -111,7 +111,7 @@ URL
 
 #### Defined in
 
-main.ts:34493
+main.ts:33413
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:34493
 
 #### Defined in
 
-main.ts:34509
+main.ts:33429
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:34509
 
 #### Defined in
 
-main.ts:34530
+main.ts:33450
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:34530
 
 #### Defined in
 
-main.ts:34523
+main.ts:33443

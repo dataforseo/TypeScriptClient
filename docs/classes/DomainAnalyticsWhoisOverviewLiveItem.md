@@ -32,7 +32,7 @@ items array
 
 #### Defined in
 
-main.ts:81206
+main.ts:79878
 
 ## Properties
 
@@ -48,7 +48,7 @@ backlink data for the returned domain
 
 #### Defined in
 
-main.ts:81202
+main.ts:79874
 
 ***
 
@@ -67,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:81168
+main.ts:79840
 
 ***
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:81163
+main.ts:79835
 
 ***
 
@@ -102,7 +102,7 @@ domain name
 
 #### Defined in
 
-main.ts:81158
+main.ts:79830
 
 ***
 
@@ -119,7 +119,7 @@ the status of a domain name registration as defined by ICANN
 
 #### Defined in
 
-main.ts:81186
+main.ts:79858
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:81173
+main.ts:79845
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Defined in
 
-main.ts:81183
+main.ts:79855
 
 ***
 
@@ -173,7 +173,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:81200
+main.ts:79872
 
 ***
 
@@ -191,7 +191,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Defined in
 
-main.ts:81193
+main.ts:79865
 
 ***
 
@@ -210,7 +210,7 @@ NameCheap, Inc.
 
 #### Defined in
 
-main.ts:81198
+main.ts:79870
 
 ***
 
@@ -227,7 +227,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:81189
+main.ts:79861
 
 ***
 
@@ -246,7 +246,7 @@ example:
 
 #### Defined in
 
-main.ts:81178
+main.ts:79850
 
 ## Methods
 
@@ -264,7 +264,7 @@ main.ts:81178
 
 #### Defined in
 
-main.ts:81215
+main.ts:79887
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:81215
 
 #### Defined in
 
-main.ts:81247
+main.ts:79919
 
 ***
 
@@ -300,4 +300,4 @@ main.ts:81247
 
 #### Defined in
 
-main.ts:81240
+main.ts:79912

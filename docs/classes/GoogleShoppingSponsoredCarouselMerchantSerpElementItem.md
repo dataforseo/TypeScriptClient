@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:179054
+main.ts:174922
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:179054
 
 #### Defined in
 
-main.ts:21025
+main.ts:21039
 
 ***
 
@@ -68,7 +68,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:179050
+main.ts:174918
 
 ***
 
@@ -76,17 +76,21 @@ main.ts:179050
 
 > `optional` **position**: `string`
 
-alignment of the element in Google Shopping SERP
-possible values:
+alignment of the element in SERP
+can take the following values:
 left, right
 
 #### Implementation of
 
 [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`position`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:179044
+main.ts:21037
 
 ***
 
@@ -101,9 +105,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:179040
+main.ts:21033
 
 ***
 
@@ -118,9 +126,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`rank_group`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:179037
+main.ts:21030
 
 ***
 
@@ -136,7 +148,27 @@ product title
 
 #### Defined in
 
-main.ts:179048
+main.ts:174916
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleShoppingSponsoredCarouselMerchantSerpElementItem`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md).[`type`](../interfaces/IGoogleShoppingSponsoredCarouselMerchantSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21027
 
 ***
 
@@ -152,7 +184,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:179046
+main.ts:174914
 
 ## Methods
 
@@ -174,7 +206,7 @@ main.ts:179046
 
 #### Defined in
 
-main.ts:179059
+main.ts:174927
 
 ***
 
@@ -196,7 +228,7 @@ main.ts:179059
 
 #### Defined in
 
-main.ts:179086
+main.ts:174951
 
 ***
 
@@ -218,4 +250,4 @@ main.ts:179086
 
 #### Defined in
 
-main.ts:179079
+main.ts:174944

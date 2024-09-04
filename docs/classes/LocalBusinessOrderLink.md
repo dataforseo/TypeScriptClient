@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:23649
+main.ts:23965
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:23649
 
 #### Defined in
 
-main.ts:23528
+main.ts:23850
 
 ***
 
@@ -68,7 +68,27 @@ lists available delivery services
 
 #### Defined in
 
-main.ts:23645
+main.ts:23961
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ILocalBusinessOrderLink`](../interfaces/ILocalBusinessOrderLink.md).[`type`](../interfaces/ILocalBusinessOrderLink.md#type)
+
+#### Inherited from
+
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`type`](BaseLocalBusinessLink.md#type)
+
+#### Defined in
+
+main.ts:23848
 
 ## Methods
 
@@ -90,7 +110,7 @@ main.ts:23645
 
 #### Defined in
 
-main.ts:23654
+main.ts:23970
 
 ***
 
@@ -112,7 +132,7 @@ main.ts:23654
 
 #### Defined in
 
-main.ts:23676
+main.ts:23992
 
 ***
 
@@ -134,4 +154,4 @@ main.ts:23676
 
 #### Defined in
 
-main.ts:23669
+main.ts:23985

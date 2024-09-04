@@ -24,7 +24,7 @@ place category
 
 #### Defined in
 
-main.ts:217953
+main.ts:213227
 
 ***
 
@@ -37,7 +37,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 #### Defined in
 
-main.ts:217949
+main.ts:213223
 
 ***
 
@@ -49,7 +49,7 @@ average price rate
 
 #### Defined in
 
-main.ts:217955
+main.ts:213229
 
 ***
 
@@ -57,12 +57,15 @@ main.ts:217955
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed results
-absolute position among all reviews on the list
+absolute rank among all the elements
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:217940
+main.ts:21392
 
 ***
 
@@ -71,11 +74,15 @@ main.ts:217940
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:217937
+main.ts:21390
 
 ***
 
@@ -87,7 +94,7 @@ the rating score of the establishment submitted by the reviewers
 
 #### Defined in
 
-main.ts:217957
+main.ts:213231
 
 ***
 
@@ -99,7 +106,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:217951
+main.ts:213225
 
 ***
 
@@ -111,7 +118,23 @@ name of the business entity
 
 #### Defined in
 
-main.ts:217942
+main.ts:213216
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21387
 
 ***
 
@@ -125,4 +148,4 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Defined in
 
-main.ts:217946
+main.ts:213220

@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:40826
+main.ts:38986
 
 ***
 
@@ -43,7 +43,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-main.ts:40803
+main.ts:38963
 
 ***
 
@@ -62,7 +62,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:40750
+main.ts:38910
 
 ***
 
@@ -79,7 +79,7 @@ en
 
 #### Defined in
 
-main.ts:40797
+main.ts:38957
 
 ***
 
@@ -96,7 +96,7 @@ English
 
 #### Defined in
 
-main.ts:40790
+main.ts:38950
 
 ***
 
@@ -113,7 +113,7 @@ example:
 
 #### Defined in
 
-main.ts:40772
+main.ts:38932
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:40783
+main.ts:38943
 
 ***
 
@@ -151,7 +151,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:40765
+main.ts:38925
 
 ***
 
@@ -168,7 +168,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:40833
+main.ts:38993
 
 ***
 
@@ -185,7 +185,7 @@ default value: android
 
 #### Defined in
 
-main.ts:40810
+main.ts:38970
 
 ***
 
@@ -205,7 +205,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:40878
+main.ts:39038
 
 ***
 
@@ -221,7 +221,7 @@ advanced
 
 #### Defined in
 
-main.ts:40868
+main.ts:39028
 
 ***
 
@@ -241,7 +241,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:40862
+main.ts:39022
 
 ***
 
@@ -259,7 +259,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:40758
+main.ts:38918
 
 ***
 
@@ -276,7 +276,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:40817
+main.ts:38977
 
 ***
 
@@ -293,7 +293,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-main.ts:40846
+main.ts:39006
 
 ***
 
@@ -309,7 +309,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-main.ts:40839
+main.ts:38999
 
 ***
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:40852
+main.ts:39012
 
 ***
 
@@ -341,4 +341,4 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-main.ts:40741
+main.ts:38901

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:203280
+main.ts:198662
 
 ## Properties
 
@@ -51,7 +51,7 @@ information about busy hours of the local establishment on each day of the week
 
 #### Defined in
 
-main.ts:203276
+main.ts:198658
 
 ## Methods
 
@@ -69,7 +69,7 @@ main.ts:203276
 
 #### Defined in
 
-main.ts:203289
+main.ts:198671
 
 ***
 
@@ -87,7 +87,7 @@ main.ts:203289
 
 #### Defined in
 
-main.ts:203312
+main.ts:198694
 
 ***
 
@@ -105,4 +105,4 @@ main.ts:203312
 
 #### Defined in
 
-main.ts:203305
+main.ts:198687

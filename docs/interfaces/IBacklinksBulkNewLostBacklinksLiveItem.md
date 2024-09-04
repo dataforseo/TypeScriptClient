@@ -21,7 +21,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:153669
+main.ts:150535
 
 ***
 
@@ -34,7 +34,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:153666
+main.ts:150532
 
 ***
 
@@ -46,4 +46,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:153663
+main.ts:150529

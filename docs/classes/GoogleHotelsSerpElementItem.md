@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:35720
+main.ts:34397
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:35720
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:35712
+main.ts:34389
 
 ***
 
@@ -86,7 +86,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:35708
+main.ts:34385
 
 ***
 
@@ -102,9 +102,13 @@ left, right
 
 [`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`position`](../interfaces/IGoogleHotelsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:35702
+main.ts:20363
 
 ***
 
@@ -114,15 +118,18 @@ main.ts:35702
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleHotelsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:35698
+main.ts:20359
 
 ***
 
@@ -131,17 +138,20 @@ main.ts:35698
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`rank_group`](../interfaces/IGoogleHotelsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:35694
+main.ts:20356
 
 ***
 
@@ -159,7 +169,27 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35716
+main.ts:34393
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`type`](../interfaces/IGoogleHotelsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -175,7 +205,7 @@ source URL
 
 #### Defined in
 
-main.ts:35710
+main.ts:34387
 
 ***
 
@@ -189,9 +219,13 @@ the XPath of the element
 
 [`IGoogleHotelsSerpElementItem`](../interfaces/IGoogleHotelsSerpElementItem.md).[`xpath`](../interfaces/IGoogleHotelsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:35704
+main.ts:20365
 
 ## Methods
 
@@ -213,7 +247,7 @@ main.ts:35704
 
 #### Defined in
 
-main.ts:35725
+main.ts:34402
 
 ***
 
@@ -235,7 +269,7 @@ main.ts:35725
 
 #### Defined in
 
-main.ts:35750
+main.ts:34423
 
 ***
 
@@ -257,4 +291,4 @@ main.ts:35750
 
 #### Defined in
 
-main.ts:35743
+main.ts:34416

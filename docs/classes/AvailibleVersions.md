@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:167585
+main.ts:163515
 
 ## Properties
 
@@ -47,7 +47,7 @@ if false, the version is not used by default and should be specified in the corr
 
 #### Defined in
 
-main.ts:167581
+main.ts:163511
 
 ***
 
@@ -63,7 +63,7 @@ lighthouse version
 
 #### Defined in
 
-main.ts:167578
+main.ts:163508
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:167578
 
 #### Defined in
 
-main.ts:167594
+main.ts:163524
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:167594
 
 #### Defined in
 
-main.ts:167612
+main.ts:163542
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:167612
 
 #### Defined in
 
-main.ts:167605
+main.ts:163535

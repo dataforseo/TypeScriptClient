@@ -15,3 +15,15 @@
 ## Indexable
 
  \[`key`: `string`\]: `any`
+
+## Properties
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Defined in
+
+main.ts:23475

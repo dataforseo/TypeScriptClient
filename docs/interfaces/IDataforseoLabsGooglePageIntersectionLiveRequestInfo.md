@@ -31,7 +31,7 @@ example:
 
 #### Defined in
 
-main.ts:103202
+main.ts:100352
 
 ***
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:103302
+main.ts:100452
 
 ***
 
@@ -76,7 +76,7 @@ default value: false
 
 #### Defined in
 
-main.ts:103282
+main.ts:100432
 
 ***
 
@@ -93,7 +93,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:103277
+main.ts:100427
 
 ***
 
@@ -108,7 +108,7 @@ default value: false
 
 #### Defined in
 
-main.ts:103270
+main.ts:100420
 
 ***
 
@@ -123,7 +123,7 @@ default value: true
 
 #### Defined in
 
-main.ts:103257
+main.ts:100407
 
 ***
 
@@ -141,7 +141,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:103265
+main.ts:100415
 
 ***
 
@@ -159,7 +159,7 @@ default value:
 
 #### Defined in
 
-main.ts:103242
+main.ts:100392
 
 ***
 
@@ -177,7 +177,7 @@ en
 
 #### Defined in
 
-main.ts:103234
+main.ts:100384
 
 ***
 
@@ -195,7 +195,7 @@ English
 
 #### Defined in
 
-main.ts:103226
+main.ts:100376
 
 ***
 
@@ -210,7 +210,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:103247
+main.ts:100397
 
 ***
 
@@ -228,7 +228,7 @@ example:
 
 #### Defined in
 
-main.ts:103218
+main.ts:100368
 
 ***
 
@@ -246,7 +246,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:103210
+main.ts:100360
 
 ***
 
@@ -261,7 +261,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:103252
+main.ts:100402
 
 ***
 
@@ -287,7 +287,7 @@ example:
 
 #### Defined in
 
-main.ts:103318
+main.ts:100468
 
 ***
 
@@ -322,7 +322,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:103189
+main.ts:100339
 
 ***
 
@@ -338,4 +338,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:103324
+main.ts:100474

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:84634
+main.ts:83306
 
 ## Properties
 
@@ -46,7 +46,7 @@ average number of backlinks
 
 #### Defined in
 
-main.ts:84611
+main.ts:83283
 
 ***
 
@@ -62,7 +62,7 @@ average number of dofollow links
 
 #### Defined in
 
-main.ts:84613
+main.ts:83285
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:84630
+main.ts:83302
 
 ***
 
@@ -98,7 +98,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:84625
+main.ts:83297
 
 ***
 
@@ -115,7 +115,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:84622
+main.ts:83294
 
 ***
 
@@ -131,7 +131,7 @@ average number of referring domains
 
 #### Defined in
 
-main.ts:84617
+main.ts:83289
 
 ***
 
@@ -147,7 +147,7 @@ average number of referring main domains
 
 #### Defined in
 
-main.ts:84619
+main.ts:83291
 
 ***
 
@@ -163,7 +163,7 @@ average number of referring pages
 
 #### Defined in
 
-main.ts:84615
+main.ts:83287
 
 ***
 
@@ -179,7 +179,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84609
+main.ts:83281
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:84609
 
 #### Defined in
 
-main.ts:84643
+main.ts:83315
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:84643
 
 #### Defined in
 
-main.ts:84668
+main.ts:83340
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:84668
 
 #### Defined in
 
-main.ts:84661
+main.ts:83333

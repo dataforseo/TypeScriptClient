@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:218330
+main.ts:213605
 
 ## Properties
 
@@ -40,9 +40,10 @@ main.ts:218330
 
 parsing depth
 optional field
-number of reviews in SERP
-we strongly recommend setting the parsing depth in the multiples of ten, because our systems processes ten reviews in a row
-default value: 10
+number of reviews in SERP;
+we strongly recommend setting the parsing depth in the multiples of ten, because our systems processes ten reviews in a row;
+default value: 10;
+max value: 4490
 
 #### Implementation of
 
@@ -50,7 +51,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:218266
+main.ts:213541
 
 ***
 
@@ -71,7 +72,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:218222
+main.ts:213496
 
 ***
 
@@ -94,7 +95,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:218260
+main.ts:213534
 
 ***
 
@@ -117,7 +118,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:218251
+main.ts:213525
 
 ***
 
@@ -137,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:218234
+main.ts:213508
 
 ***
 
@@ -157,7 +158,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:218228
+main.ts:213502
 
 ***
 
@@ -176,7 +177,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:218282
+main.ts:213557
 
 ***
 
@@ -200,7 +201,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:218326
+main.ts:213601
 
 ***
 
@@ -224,7 +225,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:218316
+main.ts:213591
 
 ***
 
@@ -246,7 +247,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:218242
+main.ts:213516
 
 ***
 
@@ -266,7 +267,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:218272
+main.ts:213547
 
 ***
 
@@ -284,7 +285,7 @@ dessert
 
 #### Defined in
 
-main.ts:218286
+main.ts:213561
 
 ***
 
@@ -305,7 +306,7 @@ detailed_reviews
 
 #### Defined in
 
-main.ts:218293
+main.ts:213568
 
 ***
 
@@ -325,7 +326,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:218306
+main.ts:213581
 
 ***
 
@@ -346,7 +347,7 @@ you can learn more about how reviews are translated in this Help Center article
 
 #### Defined in
 
-main.ts:218300
+main.ts:213575
 
 ***
 
@@ -367,7 +368,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Defined in
 
-main.ts:218215
+main.ts:213489
 
 ***
 
@@ -386,7 +387,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:218277
+main.ts:213552
 
 ## Methods
 
@@ -404,7 +405,7 @@ main.ts:218277
 
 #### Defined in
 
-main.ts:218339
+main.ts:213614
 
 ***
 
@@ -422,7 +423,7 @@ main.ts:218339
 
 #### Defined in
 
-main.ts:218384
+main.ts:213659
 
 ***
 
@@ -440,4 +441,4 @@ main.ts:218384
 
 #### Defined in
 
-main.ts:218377
+main.ts:213652

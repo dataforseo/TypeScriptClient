@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:156944
+main.ts:153810
 
 ## Properties
 
@@ -47,7 +47,7 @@ number of broken links across all crawled pages on a target website
 
 #### Defined in
 
-main.ts:156919
+main.ts:153785
 
 ***
 
@@ -64,7 +64,7 @@ the number of images and other resources with broken links
 
 #### Defined in
 
-main.ts:156922
+main.ts:153788
 
 ***
 
@@ -84,7 +84,7 @@ page-specific on-page check-ups
 
 #### Defined in
 
-main.ts:156940
+main.ts:153806
 
 ***
 
@@ -100,7 +100,7 @@ number of pages with duplicate content
 
 #### Defined in
 
-main.ts:156916
+main.ts:153782
 
 ***
 
@@ -116,7 +116,7 @@ number of pages with duplicate descriptions
 
 #### Defined in
 
-main.ts:156914
+main.ts:153780
 
 ***
 
@@ -132,7 +132,7 @@ number of pages with duplicate titles
 
 #### Defined in
 
-main.ts:156912
+main.ts:153778
 
 ***
 
@@ -149,7 +149,7 @@ the number of links pointing to other websites
 
 #### Defined in
 
-main.ts:156907
+main.ts:153773
 
 ***
 
@@ -166,7 +166,7 @@ the number of links pointing to other pages within the target website
 
 #### Defined in
 
-main.ts:156910
+main.ts:153776
 
 ***
 
@@ -183,7 +183,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 #### Defined in
 
-main.ts:156925
+main.ts:153791
 
 ***
 
@@ -201,7 +201,7 @@ you can receive a list of non-indexable URLs using this endpoint
 
 #### Defined in
 
-main.ts:156938
+main.ts:153804
 
 ***
 
@@ -221,7 +221,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:156934
+main.ts:153800
 
 ***
 
@@ -238,7 +238,7 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Defined in
 
-main.ts:156928
+main.ts:153794
 
 ## Methods
 
@@ -256,7 +256,7 @@ main.ts:156928
 
 #### Defined in
 
-main.ts:156953
+main.ts:153819
 
 ***
 
@@ -274,7 +274,7 @@ main.ts:156953
 
 #### Defined in
 
-main.ts:156987
+main.ts:153853
 
 ***
 
@@ -292,4 +292,4 @@ main.ts:156987
 
 #### Defined in
 
-main.ts:156980
+main.ts:153846

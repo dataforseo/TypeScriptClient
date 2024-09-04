@@ -20,7 +20,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:34335
+main.ts:33293
 
 ***
 
@@ -33,4 +33,4 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-main.ts:34338
+main.ts:33296

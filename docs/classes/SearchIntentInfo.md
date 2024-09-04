@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:84733
+main.ts:83405
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:84724
+main.ts:83396
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:84729
+main.ts:83401
 
 ***
 
@@ -83,7 +83,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:84721
+main.ts:83393
 
 ***
 
@@ -100,7 +100,7 @@ possible values: google
 
 #### Defined in
 
-main.ts:84718
+main.ts:83390
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:84718
 
 #### Defined in
 
-main.ts:84742
+main.ts:83414
 
 ***
 
@@ -136,7 +136,7 @@ main.ts:84742
 
 #### Defined in
 
-main.ts:84766
+main.ts:83438
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:84766
 
 #### Defined in
 
-main.ts:84759
+main.ts:83431

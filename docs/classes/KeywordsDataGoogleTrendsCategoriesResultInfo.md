@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:125755
+main.ts:122813
 
 ## Properties
 
@@ -46,7 +46,7 @@ unique google trends category identifier
 
 #### Defined in
 
-main.ts:125740
+main.ts:122798
 
 ***
 
@@ -69,7 +69,7 @@ where category_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:125751
+main.ts:122809
 
 ***
 
@@ -85,7 +85,7 @@ name of the google trends category
 
 #### Defined in
 
-main.ts:125742
+main.ts:122800
 
 ## Methods
 
@@ -103,7 +103,7 @@ main.ts:125742
 
 #### Defined in
 
-main.ts:125764
+main.ts:122822
 
 ***
 
@@ -121,7 +121,7 @@ main.ts:125764
 
 #### Defined in
 
-main.ts:125783
+main.ts:122841
 
 ***
 
@@ -139,4 +139,4 @@ main.ts:125783
 
 #### Defined in
 
-main.ts:125776
+main.ts:122834

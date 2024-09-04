@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:46340
+main.ts:44606
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:46317
+main.ts:44583
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:46322
+main.ts:44588
 
 ***
 
@@ -85,13 +85,13 @@ top_stories, news_search
 
 #### Defined in
 
-main.ts:46330
+main.ts:44596
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseGoogleNewsSerpElementItem`](BaseGoogleNewsSerpElementItem.md)[]
 
 elements of search results found in SERP
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:46336
+main.ts:44602
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:46334
+main.ts:44600
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:46306
+main.ts:44572
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:46314
+main.ts:44580
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:46312
+main.ts:44578
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:46310
+main.ts:44576
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:46332
+main.ts:44598
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:46325
+main.ts:44591
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:46308
+main.ts:44574
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:46308
 
 #### Defined in
 
-main.ts:46349
+main.ts:44615
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:46349
 
 #### Defined in
 
-main.ts:46385
+main.ts:44651
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:46385
 
 #### Defined in
 
-main.ts:46378
+main.ts:44644

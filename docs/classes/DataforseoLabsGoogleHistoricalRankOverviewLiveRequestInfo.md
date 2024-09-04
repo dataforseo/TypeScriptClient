@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:102474
+main.ts:99624
 
 ## Properties
 
@@ -51,7 +51,7 @@ we recommend always setting correlate to true
 
 #### Defined in
 
-main.ts:102452
+main.ts:99602
 
 ***
 
@@ -71,7 +71,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:102438
+main.ts:99588
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:102445
+main.ts:99595
 
 ***
 
@@ -111,7 +111,7 @@ default value: false
 
 #### Defined in
 
-main.ts:102457
+main.ts:99607
 
 ***
 
@@ -132,7 +132,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:102464
+main.ts:99614
 
 ***
 
@@ -154,7 +154,7 @@ en
 
 #### Defined in
 
-main.ts:102432
+main.ts:99582
 
 ***
 
@@ -176,7 +176,7 @@ English
 
 #### Defined in
 
-main.ts:102424
+main.ts:99574
 
 ***
 
@@ -198,7 +198,7 @@ example:
 
 #### Defined in
 
-main.ts:102416
+main.ts:99566
 
 ***
 
@@ -220,7 +220,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:102408
+main.ts:99558
 
 ***
 
@@ -240,7 +240,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:102470
+main.ts:99620
 
 ***
 
@@ -259,7 +259,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:102400
+main.ts:99550
 
 ## Methods
 
@@ -277,7 +277,7 @@ main.ts:102400
 
 #### Defined in
 
-main.ts:102483
+main.ts:99633
 
 ***
 
@@ -295,7 +295,7 @@ main.ts:102483
 
 #### Defined in
 
-main.ts:102510
+main.ts:99660
 
 ***
 
@@ -313,4 +313,4 @@ main.ts:102510
 
 #### Defined in
 
-main.ts:102503
+main.ts:99653

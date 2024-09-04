@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:110051
+main.ts:107185
 
 ## Properties
 
@@ -47,7 +47,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:110044
+main.ts:107178
 
 ***
 
@@ -63,7 +63,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:110041
+main.ts:107175
 
 ***
 
@@ -81,7 +81,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:110039
+main.ts:107173
 
 ***
 
@@ -98,7 +98,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:110047
+main.ts:107181
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:110047
 
 #### Defined in
 
-main.ts:110060
+main.ts:107194
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:110060
 
 #### Defined in
 
-main.ts:110080
+main.ts:107214
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:110080
 
 #### Defined in
 
-main.ts:110073
+main.ts:107207

@@ -20,7 +20,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:38041
+main.ts:36277
 
 ***
 
@@ -32,7 +32,7 @@ description
 
 #### Defined in
 
-main.ts:38039
+main.ts:36275
 
 ***
 
@@ -44,7 +44,7 @@ website domain
 
 #### Defined in
 
-main.ts:38034
+main.ts:36270
 
 ***
 
@@ -56,7 +56,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:38043
+main.ts:36279
 
 ***
 
@@ -69,7 +69,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:38046
+main.ts:36282
 
 ***
 
@@ -82,7 +82,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:38037
+main.ts:36273
 
 ***
 
@@ -94,7 +94,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:38030
+main.ts:36266
 
 ***
 
@@ -106,7 +106,7 @@ type of element
 
 #### Defined in
 
-main.ts:38028
+main.ts:36264
 
 ***
 
@@ -118,4 +118,4 @@ URL
 
 #### Defined in
 
-main.ts:38032
+main.ts:36268

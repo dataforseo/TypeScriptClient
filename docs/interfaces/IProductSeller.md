@@ -21,7 +21,7 @@ product delivery information
 
 #### Defined in
 
-main.ts:182933
+main.ts:178681
 
 ***
 
@@ -34,7 +34,7 @@ product price details on the seller’s website
 
 #### Defined in
 
-main.ts:182930
+main.ts:178678
 
 ***
 
@@ -46,7 +46,7 @@ rating of the seller
 
 #### Defined in
 
-main.ts:182924
+main.ts:178672
 
 ***
 
@@ -59,7 +59,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:182927
+main.ts:178675
 
 ***
 
@@ -71,7 +71,7 @@ product title
 
 #### Defined in
 
-main.ts:182919
+main.ts:178667
 
 ***
 
@@ -83,7 +83,7 @@ type of element
 
 #### Defined in
 
-main.ts:182917
+main.ts:178665
 
 ***
 
@@ -96,4 +96,4 @@ url of the page where the product is sold
 
 #### Defined in
 
-main.ts:182922
+main.ts:178670

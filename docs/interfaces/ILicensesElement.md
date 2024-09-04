@@ -20,7 +20,7 @@ website domain
 
 #### Defined in
 
-main.ts:35164
+main.ts:33970
 
 ***
 
@@ -32,7 +32,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35160
+main.ts:33966
 
 ***
 
@@ -44,7 +44,7 @@ type of element
 
 #### Defined in
 
-main.ts:35158
+main.ts:33964
 
 ***
 
@@ -56,4 +56,4 @@ URL
 
 #### Defined in
 
-main.ts:35162
+main.ts:33968

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:160637
+main.ts:156935
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:160621
+main.ts:156919
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:160623
+main.ts:156921
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Defined in
 
-main.ts:160633
+main.ts:156931
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:160631
+main.ts:156929
 
 ***
 
@@ -112,7 +112,7 @@ displays the number of pages with duplicate tags returned in the response
 
 #### Defined in
 
-main.ts:160629
+main.ts:156927
 
 ***
 
@@ -129,7 +129,7 @@ displays the total number of pages with duplicate tags of the target website
 
 #### Defined in
 
-main.ts:160626
+main.ts:156924
 
 ## Methods
 
@@ -147,7 +147,7 @@ main.ts:160626
 
 #### Defined in
 
-main.ts:160646
+main.ts:156944
 
 ***
 
@@ -165,7 +165,7 @@ main.ts:160646
 
 #### Defined in
 
-main.ts:160672
+main.ts:156970
 
 ***
 
@@ -183,4 +183,4 @@ main.ts:160672
 
 #### Defined in
 
-main.ts:160665
+main.ts:156963

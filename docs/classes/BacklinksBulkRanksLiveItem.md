@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:152211
+main.ts:149077
 
 ## Properties
 
@@ -49,7 +49,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:152207
+main.ts:149073
 
 ***
 
@@ -65,7 +65,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:152202
+main.ts:149068
 
 ## Methods
 
@@ -83,7 +83,7 @@ main.ts:152202
 
 #### Defined in
 
-main.ts:152220
+main.ts:149086
 
 ***
 
@@ -101,7 +101,7 @@ main.ts:152220
 
 #### Defined in
 
-main.ts:152238
+main.ts:149104
 
 ***
 
@@ -119,4 +119,4 @@ main.ts:152238
 
 #### Defined in
 
-main.ts:152231
+main.ts:149097

@@ -20,7 +20,7 @@ number of backlinks
 
 #### Defined in
 
-main.ts:142938
+main.ts:139804
 
 ***
 
@@ -33,7 +33,7 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-main.ts:142971
+main.ts:139837
 
 ***
 
@@ -46,7 +46,7 @@ number of pages that receive backlinks but respond with 4xx or 5xx status codes
 
 #### Defined in
 
-main.ts:142974
+main.ts:139840
 
 ***
 
@@ -58,7 +58,7 @@ number of crawled pages for the target
 
 #### Defined in
 
-main.ts:142960
+main.ts:139826
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:142933
+main.ts:139799
 
 ***
 
@@ -86,7 +86,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Defined in
 
-main.ts:142968
+main.ts:139834
 
 ***
 
@@ -98,7 +98,7 @@ information about the target
 
 #### Defined in
 
-main.ts:142962
+main.ts:139828
 
 ***
 
@@ -111,7 +111,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Defined in
 
-main.ts:142965
+main.ts:139831
 
 ***
 
@@ -126,7 +126,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:142948
+main.ts:139814
 
 ***
 
@@ -141,7 +141,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:142958
+main.ts:139824
 
 ***
 
@@ -156,7 +156,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:142943
+main.ts:139809
 
 ***
 
@@ -171,7 +171,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:142953
+main.ts:139819
 
 ***
 
@@ -184,7 +184,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:142936
+main.ts:139802
 
 ***
 
@@ -197,7 +197,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:142977
+main.ts:139843
 
 ***
 
@@ -209,7 +209,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:142979
+main.ts:139845
 
 ***
 
@@ -222,7 +222,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:142986
+main.ts:139852
 
 ***
 
@@ -239,7 +239,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:143003
+main.ts:139869
 
 ***
 
@@ -256,7 +256,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:143015
+main.ts:139881
 
 ***
 
@@ -273,7 +273,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:143006
+main.ts:139872
 
 ***
 
@@ -293,7 +293,7 @@ article, section, summary
 
 #### Defined in
 
-main.ts:143012
+main.ts:139878
 
 ***
 
@@ -310,7 +310,7 @@ contains top-level domains and referring link count per each
 
 #### Defined in
 
-main.ts:142995
+main.ts:139861
 
 ***
 
@@ -329,7 +329,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:143000
+main.ts:139866
 
 ***
 
@@ -341,7 +341,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:142981
+main.ts:139847
 
 ***
 
@@ -353,7 +353,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:142983
+main.ts:139849
 
 ***
 
@@ -365,7 +365,7 @@ number of pages pointing to the target
 
 #### Defined in
 
-main.ts:142990
+main.ts:139856
 
 ***
 
@@ -377,7 +377,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:142992
+main.ts:139858
 
 ***
 
@@ -389,7 +389,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:142988
+main.ts:139854
 
 ***
 
@@ -401,4 +401,4 @@ type of element
 
 #### Defined in
 
-main.ts:142928
+main.ts:139794

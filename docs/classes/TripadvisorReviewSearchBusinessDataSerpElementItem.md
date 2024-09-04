@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:218934
+main.ts:214204
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:218934
 
 #### Defined in
 
-main.ts:21279
+main.ts:21308
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:218912
+main.ts:214182
 
 ***
 
@@ -88,7 +88,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:218903
+main.ts:214173
 
 ***
 
@@ -96,16 +96,19 @@ main.ts:218903
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank among all the elements
 
 #### Implementation of
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_absolute`](BaseBusinessDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:218900
+main.ts:21306
 
 ***
 
@@ -114,15 +117,19 @@ main.ts:218900
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
 
 #### Implementation of
 
 [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_group`](BaseBusinessDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:218897
+main.ts:21304
 
 ***
 
@@ -138,7 +145,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:218907
+main.ts:214177
 
 ***
 
@@ -154,7 +161,7 @@ contains information about the owner’s response
 
 #### Defined in
 
-main.ts:218927
+main.ts:214197
 
 ***
 
@@ -171,7 +178,7 @@ contains highlighted review criteria and assessments
 
 #### Defined in
 
-main.ts:218930
+main.ts:214200
 
 ***
 
@@ -187,7 +194,7 @@ contains URLs of the images used in the review
 
 #### Defined in
 
-main.ts:218923
+main.ts:214193
 
 ***
 
@@ -203,7 +210,7 @@ content of the review
 
 #### Defined in
 
-main.ts:218921
+main.ts:214191
 
 ***
 
@@ -222,7 +229,7 @@ example:
 
 #### Defined in
 
-main.ts:218917
+main.ts:214187
 
 ***
 
@@ -238,7 +245,27 @@ title of the review
 
 #### Defined in
 
-main.ts:218919
+main.ts:214189
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ITripadvisorReviewSearchBusinessDataSerpElementItem`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md).[`type`](../interfaces/ITripadvisorReviewSearchBusinessDataSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`type`](BaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21301
 
 ***
 
@@ -254,7 +281,7 @@ URL of the review
 
 #### Defined in
 
-main.ts:218905
+main.ts:214175
 
 ***
 
@@ -270,7 +297,7 @@ information from the reviewer’s profile
 
 #### Defined in
 
-main.ts:218925
+main.ts:214195
 
 ## Methods
 
@@ -292,7 +319,7 @@ main.ts:218925
 
 #### Defined in
 
-main.ts:218939
+main.ts:214209
 
 ***
 
@@ -314,7 +341,7 @@ main.ts:218939
 
 #### Defined in
 
-main.ts:218981
+main.ts:214249
 
 ***
 
@@ -336,4 +363,4 @@ main.ts:218981
 
 #### Defined in
 
-main.ts:218974
+main.ts:214242

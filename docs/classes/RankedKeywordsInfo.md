@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:143578
+main.ts:140444
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 #### Defined in
 
-main.ts:143572
+main.ts:140438
 
 ***
 
@@ -62,7 +62,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 #### Defined in
 
-main.ts:143574
+main.ts:140440
 
 ***
 
@@ -78,7 +78,7 @@ number of keywords for which the page is ranked in top 3 search results
 
 #### Defined in
 
-main.ts:143570
+main.ts:140436
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:143570
 
 #### Defined in
 
-main.ts:143587
+main.ts:140453
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:143587
 
 #### Defined in
 
-main.ts:143606
+main.ts:140472
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:143606
 
 #### Defined in
 
-main.ts:143599
+main.ts:140465

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:36733
+main.ts:35220
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:36733
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:36725
+main.ts:35212
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`position`](../interfaces/IFoundOnWebSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:36716
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:36716
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`rank_absolute`](../interfaces/IFoundOnWebSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:36712
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:36712
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`rank_group`](../interfaces/IFoundOnWebSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:36708
+main.ts:20356
 
 ***
 
@@ -142,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36729
+main.ts:35216
 
 ***
 
@@ -158,7 +168,7 @@ search queries related to the elment
 
 #### Defined in
 
-main.ts:36722
+main.ts:35209
 
 ***
 
@@ -174,7 +184,27 @@ title of the row
 
 #### Defined in
 
-main.ts:36720
+main.ts:35207
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`type`](../interfaces/IFoundOnWebSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -188,9 +218,13 @@ the XPath of the element
 
 [`IFoundOnWebSerpElementItem`](../interfaces/IFoundOnWebSerpElementItem.md).[`xpath`](../interfaces/IFoundOnWebSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:36718
+main.ts:20365
 
 ## Methods
 
@@ -212,7 +246,7 @@ main.ts:36718
 
 #### Defined in
 
-main.ts:36738
+main.ts:35225
 
 ***
 
@@ -234,7 +268,7 @@ main.ts:36738
 
 #### Defined in
 
-main.ts:36771
+main.ts:35254
 
 ***
 
@@ -256,4 +290,4 @@ main.ts:36771
 
 #### Defined in
 
-main.ts:36764
+main.ts:35247

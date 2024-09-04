@@ -23,7 +23,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:90575
+main.ts:89247
 
 ***
 
@@ -40,7 +40,7 @@ Note: we do not recommend setting correlate to false
 
 #### Defined in
 
-main.ts:90666
+main.ts:89338
 
 ***
 
@@ -54,7 +54,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Defined in
 
-main.ts:90659
+main.ts:89331
 
 ***
 
@@ -68,7 +68,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Defined in
 
-main.ts:90655
+main.ts:89327
 
 ***
 
@@ -89,7 +89,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:90687
+main.ts:89359
 
 ***
 
@@ -110,7 +110,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:90586
+main.ts:89258
 
 ***
 
@@ -126,7 +126,7 @@ default value: true
 
 #### Defined in
 
-main.ts:90651
+main.ts:89323
 
 ***
 
@@ -145,7 +145,7 @@ default value:
 
 #### Defined in
 
-main.ts:90637
+main.ts:89309
 
 ***
 
@@ -162,7 +162,7 @@ en
 
 #### Defined in
 
-main.ts:90628
+main.ts:89300
 
 ***
 
@@ -180,7 +180,7 @@ English
 
 #### Defined in
 
-main.ts:90621
+main.ts:89293
 
 ***
 
@@ -195,7 +195,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:90671
+main.ts:89343
 
 ***
 
@@ -213,7 +213,7 @@ example:
 
 #### Defined in
 
-main.ts:90613
+main.ts:89285
 
 ***
 
@@ -231,7 +231,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:90605
+main.ts:89277
 
 ***
 
@@ -246,7 +246,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:90676
+main.ts:89348
 
 ***
 
@@ -271,7 +271,7 @@ example:
 
 #### Defined in
 
-main.ts:90702
+main.ts:89374
 
 ***
 
@@ -292,7 +292,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:90597
+main.ts:89269
 
 ***
 
@@ -308,7 +308,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:90708
+main.ts:89380
 
 ***
 
@@ -326,4 +326,4 @@ maximum value: 5
 
 #### Defined in
 
-main.ts:90645
+main.ts:89317

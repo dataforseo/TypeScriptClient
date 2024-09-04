@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:90467
+main.ts:89139
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:90330
+main.ts:89002
 
 ***
 
@@ -70,7 +70,7 @@ Note: we do not recommend setting correlate to false
 
 #### Defined in
 
-main.ts:90421
+main.ts:89093
 
 ***
 
@@ -88,7 +88,7 @@ if specified, the API will return only domains with organic_etv lesser than the 
 
 #### Defined in
 
-main.ts:90414
+main.ts:89086
 
 ***
 
@@ -106,7 +106,7 @@ if specified, the API will return only domains with organic_etv greater than the
 
 #### Defined in
 
-main.ts:90410
+main.ts:89082
 
 ***
 
@@ -131,7 +131,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:90442
+main.ts:89114
 
 ***
 
@@ -156,7 +156,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:90341
+main.ts:89013
 
 ***
 
@@ -176,7 +176,7 @@ default value: true
 
 #### Defined in
 
-main.ts:90406
+main.ts:89078
 
 ***
 
@@ -199,7 +199,7 @@ default value:
 
 #### Defined in
 
-main.ts:90392
+main.ts:89064
 
 ***
 
@@ -220,7 +220,7 @@ en
 
 #### Defined in
 
-main.ts:90383
+main.ts:89055
 
 ***
 
@@ -242,7 +242,7 @@ English
 
 #### Defined in
 
-main.ts:90376
+main.ts:89048
 
 ***
 
@@ -261,7 +261,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:90426
+main.ts:89098
 
 ***
 
@@ -283,7 +283,7 @@ example:
 
 #### Defined in
 
-main.ts:90368
+main.ts:89040
 
 ***
 
@@ -305,7 +305,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:90360
+main.ts:89032
 
 ***
 
@@ -324,7 +324,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:90431
+main.ts:89103
 
 ***
 
@@ -353,7 +353,7 @@ example:
 
 #### Defined in
 
-main.ts:90457
+main.ts:89129
 
 ***
 
@@ -378,7 +378,7 @@ minimum date: "2020-10-01"
 
 #### Defined in
 
-main.ts:90352
+main.ts:89024
 
 ***
 
@@ -398,7 +398,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:90463
+main.ts:89135
 
 ***
 
@@ -420,7 +420,7 @@ maximum value: 5
 
 #### Defined in
 
-main.ts:90400
+main.ts:89072
 
 ## Methods
 
@@ -438,7 +438,7 @@ main.ts:90400
 
 #### Defined in
 
-main.ts:90476
+main.ts:89148
 
 ***
 
@@ -456,7 +456,7 @@ main.ts:90476
 
 #### Defined in
 
-main.ts:90526
+main.ts:89198
 
 ***
 
@@ -474,4 +474,4 @@ main.ts:90526
 
 #### Defined in
 
-main.ts:90519
+main.ts:89191

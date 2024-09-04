@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:30221
+main.ts:30053
 
 ## Properties
 
@@ -46,7 +46,7 @@ expanded element
 
 #### Defined in
 
-main.ts:30217
+main.ts:30049
 
 ***
 
@@ -62,7 +62,7 @@ question that triggered additional expanded elements
 
 #### Defined in
 
-main.ts:30213
+main.ts:30045
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30211
+main.ts:30043
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:30209
+main.ts:30041
 
 ***
 
@@ -110,7 +110,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:30215
+main.ts:30047
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:30215
 
 #### Defined in
 
-main.ts:30230
+main.ts:30062
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:30230
 
 #### Defined in
 
-main.ts:30255
+main.ts:30087
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:30255
 
 #### Defined in
 
-main.ts:30248
+main.ts:30080

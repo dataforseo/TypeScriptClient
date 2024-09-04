@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:34384
+main.ts:33327
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:34384
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ source domain
 
 #### Defined in
 
-main.ts:34371
+main.ts:33314
 
 ***
 
@@ -84,7 +84,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:34380
+main.ts:33323
 
 ***
 
@@ -100,9 +100,13 @@ left, right
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`position`](../interfaces/IStocksBoxSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:34356
+main.ts:20363
 
 ***
 
@@ -118,7 +122,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:34367
+main.ts:33310
 
 ***
 
@@ -128,15 +132,18 @@ main.ts:34367
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`rank_absolute`](../interfaces/IStocksBoxSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:34352
+main.ts:20359
 
 ***
 
@@ -145,17 +152,20 @@ main.ts:34352
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`rank_group`](../interfaces/IStocksBoxSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:34348
+main.ts:20356
 
 ***
 
@@ -173,7 +183,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34375
+main.ts:33318
 
 ***
 
@@ -189,7 +199,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:34365
+main.ts:33308
 
 ***
 
@@ -206,7 +216,7 @@ indicates the source of the video
 
 #### Defined in
 
-main.ts:34363
+main.ts:33306
 
 ***
 
@@ -223,7 +233,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34378
+main.ts:33321
 
 ***
 
@@ -239,7 +249,27 @@ title of the row
 
 #### Defined in
 
-main.ts:34360
+main.ts:33303
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`type`](../interfaces/IStocksBoxSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -255,7 +285,7 @@ source URL
 
 #### Defined in
 
-main.ts:34369
+main.ts:33312
 
 ***
 
@@ -269,9 +299,13 @@ the XPath of the element
 
 [`IStocksBoxSerpElementItem`](../interfaces/IStocksBoxSerpElementItem.md).[`xpath`](../interfaces/IStocksBoxSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:34358
+main.ts:20365
 
 ## Methods
 
@@ -293,7 +327,7 @@ main.ts:34358
 
 #### Defined in
 
-main.ts:34389
+main.ts:33332
 
 ***
 
@@ -315,7 +349,7 @@ main.ts:34389
 
 #### Defined in
 
-main.ts:34419
+main.ts:33358
 
 ***
 
@@ -337,4 +371,4 @@ main.ts:34419
 
 #### Defined in
 
-main.ts:34412
+main.ts:33351

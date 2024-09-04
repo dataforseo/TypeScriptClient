@@ -24,7 +24,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:184667
+main.ts:180367
 
 ***
 
@@ -38,7 +38,7 @@ USD
 
 #### Defined in
 
-main.ts:184679
+main.ts:180379
 
 ***
 
@@ -53,7 +53,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:184687
+main.ts:180387
 
 ***
 
@@ -66,7 +66,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:184698
+main.ts:180398
 
 ***
 
@@ -78,7 +78,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:184659
+main.ts:180359
 
 ***
 
@@ -90,7 +90,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:184665
+main.ts:180365
 
 ***
 
@@ -103,7 +103,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:184692
+main.ts:180392
 
 ***
 
@@ -116,7 +116,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:184695
+main.ts:180395
 
 ***
 
@@ -130,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:184671
+main.ts:180371
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:184675
+main.ts:180375
 
 ***
 
@@ -152,12 +152,16 @@ main.ts:184675
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank in SERP
-absolute position among all the elements found in Amazon SERP
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_absolute`](IBaseAmazonSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:184655
+main.ts:22407
 
 ***
 
@@ -168,9 +172,13 @@ main.ts:184655
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_group`](IBaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:184652
+main.ts:22404
 
 ***
 
@@ -182,7 +190,7 @@ product rating info
 
 #### Defined in
 
-main.ts:184689
+main.ts:180389
 
 ***
 
@@ -195,7 +203,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:184682
+main.ts:180382
 
 ***
 
@@ -207,7 +215,23 @@ product title
 
 #### Defined in
 
-main.ts:184661
+main.ts:180361
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`type`](IBaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22401
 
 ***
 
@@ -219,7 +243,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:184663
+main.ts:180363
 
 ***
 
@@ -229,6 +253,10 @@ main.ts:184663
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`xpath`](IBaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:184657
+main.ts:22409

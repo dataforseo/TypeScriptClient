@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:38280
+main.ts:36478
 
 ## Properties
 
@@ -47,7 +47,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:38273
+main.ts:36471
 
 ***
 
@@ -64,7 +64,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
 
 #### Defined in
 
-main.ts:38276
+main.ts:36474
 
 ***
 
@@ -81,7 +81,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 #### Defined in
 
-main.ts:38270
+main.ts:36468
 
 ***
 
@@ -97,7 +97,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:38267
+main.ts:36465
 
 ***
 
@@ -113,7 +113,7 @@ type of element
 
 #### Defined in
 
-main.ts:38265
+main.ts:36463
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:38265
 
 #### Defined in
 
-main.ts:38289
+main.ts:36487
 
 ***
 
@@ -149,7 +149,7 @@ main.ts:38289
 
 #### Defined in
 
-main.ts:38318
+main.ts:36516
 
 ***
 
@@ -167,4 +167,4 @@ main.ts:38318
 
 #### Defined in
 
-main.ts:38311
+main.ts:36509

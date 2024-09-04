@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:71890
+main.ts:70583
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:71890
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:71872
+main.ts:70565
 
 ***
 
@@ -84,7 +84,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:71870
+main.ts:70563
 
 ***
 
@@ -100,7 +100,7 @@ keyword highlighted in the result
 
 #### Defined in
 
-main.ts:71874
+main.ts:70567
 
 ***
 
@@ -118,7 +118,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:71882
+main.ts:70575
 
 ***
 
@@ -134,9 +134,13 @@ left, right
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`position`](../interfaces/IDictionarySerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:71862
+main.ts:20363
 
 ***
 
@@ -151,9 +155,13 @@ absolute position among all the elements in SERP
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`rank_absolute`](../interfaces/IDictionarySerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:71858
+main.ts:20359
 
 ***
 
@@ -169,9 +177,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`rank_group`](../interfaces/IDictionarySerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:71855
+main.ts:20356
 
 ***
 
@@ -189,7 +201,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:71886
+main.ts:70579
 
 ***
 
@@ -205,7 +217,7 @@ snippet of the element
 
 #### Defined in
 
-main.ts:71876
+main.ts:70569
 
 ***
 
@@ -221,7 +233,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:71878
+main.ts:70571
 
 ***
 
@@ -237,7 +249,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:71866
+main.ts:70559
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`type`](../interfaces/IDictionarySerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -253,7 +285,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:71868
+main.ts:70561
 
 ***
 
@@ -267,9 +299,13 @@ the XPath of the element
 
 [`IDictionarySerpElementItem`](../interfaces/IDictionarySerpElementItem.md).[`xpath`](../interfaces/IDictionarySerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:71864
+main.ts:20365
 
 ## Methods
 
@@ -291,7 +327,7 @@ main.ts:71864
 
 #### Defined in
 
-main.ts:71895
+main.ts:70588
 
 ***
 
@@ -313,7 +349,7 @@ main.ts:71895
 
 #### Defined in
 
-main.ts:71929
+main.ts:70618
 
 ***
 
@@ -335,4 +371,4 @@ main.ts:71929
 
 #### Defined in
 
-main.ts:71922
+main.ts:70611

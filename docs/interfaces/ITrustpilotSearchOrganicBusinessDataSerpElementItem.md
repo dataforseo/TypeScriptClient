@@ -24,7 +24,7 @@ domain of the establishment
 
 #### Defined in
 
-main.ts:215665
+main.ts:210971
 
 ***
 
@@ -32,12 +32,15 @@ main.ts:215665
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank among all the elements
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:215661
+main.ts:21392
 
 ***
 
@@ -46,11 +49,15 @@ main.ts:215661
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:215658
+main.ts:21390
 
 ***
 
@@ -62,7 +69,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-main.ts:215671
+main.ts:210977
 
 ***
 
@@ -74,7 +81,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:215669
+main.ts:210975
 
 ***
 
@@ -86,7 +93,23 @@ title of the establishment
 
 #### Defined in
 
-main.ts:215663
+main.ts:210969
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21387
 
 ***
 
@@ -98,4 +121,4 @@ URL to the establishment
 
 #### Defined in
 
-main.ts:215667
+main.ts:210973

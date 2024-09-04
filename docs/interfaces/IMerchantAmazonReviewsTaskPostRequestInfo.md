@@ -23,7 +23,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:188951
+main.ts:184501
 
 ***
 
@@ -40,7 +40,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:189012
+main.ts:184562
 
 ***
 
@@ -55,7 +55,7 @@ if you use this field, the response will only include reviews that contain the s
 
 #### Defined in
 
-main.ts:189047
+main.ts:184597
 
 ***
 
@@ -79,7 +79,7 @@ default rule: all_stars
 
 #### Defined in
 
-main.ts:189042
+main.ts:184592
 
 ***
 
@@ -98,7 +98,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 #### Defined in
 
-main.ts:189064
+main.ts:184614
 
 ***
 
@@ -115,7 +115,7 @@ en_GB
 
 #### Defined in
 
-main.ts:188998
+main.ts:184548
 
 ***
 
@@ -133,7 +133,7 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:188991
+main.ts:184541
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:188974
+main.ts:184524
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Defined in
 
-main.ts:188983
+main.ts:184533
 
 ***
 
@@ -187,7 +187,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:188966
+main.ts:184516
 
 ***
 
@@ -205,7 +205,7 @@ default rule: all_contents
 
 #### Defined in
 
-main.ts:189055
+main.ts:184605
 
 ***
 
@@ -225,7 +225,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:189096
+main.ts:184646
 
 ***
 
@@ -241,7 +241,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:189086
+main.ts:184636
 
 ***
 
@@ -261,7 +261,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:189080
+main.ts:184630
 
 ***
 
@@ -279,7 +279,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:188959
+main.ts:184509
 
 ***
 
@@ -297,7 +297,7 @@ default rule: all_reviews
 
 #### Defined in
 
-main.ts:189028
+main.ts:184578
 
 ***
 
@@ -314,7 +314,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:189005
+main.ts:184555
 
 ***
 
@@ -332,7 +332,7 @@ default rule: helpful
 
 #### Defined in
 
-main.ts:189020
+main.ts:184570
 
 ***
 
@@ -348,4 +348,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:189070
+main.ts:184620

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30949
+main.ts:30614
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:30949
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:30941
+main.ts:30606
 
 ***
 
@@ -84,7 +84,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:30939
+main.ts:30604
 
 ***
 
@@ -100,7 +100,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:30937
+main.ts:30602
 
 ***
 
@@ -116,9 +116,13 @@ left, right
 
 [`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`position`](../interfaces/IGoogleReviewsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:30928
+main.ts:20363
 
 ***
 
@@ -128,15 +132,18 @@ main.ts:30928
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleReviewsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:30924
+main.ts:20359
 
 ***
 
@@ -145,17 +152,20 @@ main.ts:30924
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`rank_group`](../interfaces/IGoogleReviewsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:30920
+main.ts:20356
 
 ***
 
@@ -172,7 +182,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:30935
+main.ts:30600
 
 ***
 
@@ -190,7 +200,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30945
+main.ts:30610
 
 ***
 
@@ -206,7 +216,27 @@ the number of reviews
 
 #### Defined in
 
-main.ts:30932
+main.ts:30597
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`type`](../interfaces/IGoogleReviewsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -220,9 +250,13 @@ the XPath of the element
 
 [`IGoogleReviewsSerpElementItem`](../interfaces/IGoogleReviewsSerpElementItem.md).[`xpath`](../interfaces/IGoogleReviewsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:30930
+main.ts:20365
 
 ## Methods
 
@@ -244,7 +278,7 @@ main.ts:30930
 
 #### Defined in
 
-main.ts:30954
+main.ts:30619
 
 ***
 
@@ -266,7 +300,7 @@ main.ts:30954
 
 #### Defined in
 
-main.ts:30981
+main.ts:30642
 
 ***
 
@@ -288,4 +322,4 @@ main.ts:30981
 
 #### Defined in
 
-main.ts:30974
+main.ts:30635

@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:156681
+main.ts:153547
 
 ***
 
@@ -37,7 +37,7 @@ the version of the ssl certificate’s hash function
 
 #### Defined in
 
-main.ts:156675
+main.ts:153541
 
 ***
 
@@ -50,7 +50,7 @@ the entity that issued the detected ssl certificate
 
 #### Defined in
 
-main.ts:156666
+main.ts:153532
 
 ***
 
@@ -63,7 +63,7 @@ the entity associated with the public key
 
 #### Defined in
 
-main.ts:156669
+main.ts:153535
 
 ***
 
@@ -76,7 +76,7 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Defined in
 
-main.ts:156672
+main.ts:153538
 
 ***
 
@@ -89,4 +89,4 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Defined in
 
-main.ts:156663
+main.ts:153529

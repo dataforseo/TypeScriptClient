@@ -27,7 +27,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:132363
+main.ts:129229
 
 ***
 
@@ -48,7 +48,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:132374
+main.ts:129240
 
 ***
 
@@ -64,7 +64,7 @@ default value: all
 
 #### Defined in
 
-main.ts:132349
+main.ts:129215
 
 ***
 
@@ -80,7 +80,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:132309
+main.ts:129175
 
 ***
 
@@ -96,7 +96,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:132343
+main.ts:129209
 
 ***
 
@@ -112,7 +112,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:132337
+main.ts:129203
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:132323
+main.ts:129189
 
 ***
 
@@ -147,7 +147,7 @@ example:
 
 #### Defined in
 
-main.ts:132331
+main.ts:129197
 
 ***
 
@@ -164,7 +164,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:132316
+main.ts:129182
 
 ***
 
@@ -179,7 +179,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:132379
+main.ts:129245
 
 ***
 
@@ -194,7 +194,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:132354
+main.ts:129220
 
 ***
 
@@ -210,4 +210,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:132385
+main.ts:129251

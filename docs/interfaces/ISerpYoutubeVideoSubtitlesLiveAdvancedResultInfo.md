@@ -20,7 +20,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:65918
+main.ts:64642
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:65897
+main.ts:64621
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:65902
+main.ts:64626
 
 ***
 
@@ -63,19 +63,19 @@ youtube_subtitles
 
 #### Defined in
 
-main.ts:65910
+main.ts:64634
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseYoutubeSerpElementItem`](../classes/BaseYoutubeSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Defined in
 
-main.ts:65926
+main.ts:64650
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:65924
+main.ts:64648
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:65894
+main.ts:64618
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:65892
+main.ts:64616
 
 ***
 
@@ -123,7 +123,7 @@ language code of original text
 
 #### Defined in
 
-main.ts:65916
+main.ts:64640
 
 ***
 
@@ -135,7 +135,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:65890
+main.ts:64614
 
 ***
 
@@ -148,7 +148,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:65905
+main.ts:64629
 
 ***
 
@@ -160,7 +160,7 @@ number of subtitles in the video
 
 #### Defined in
 
-main.ts:65920
+main.ts:64644
 
 ***
 
@@ -172,7 +172,7 @@ title of the video
 
 #### Defined in
 
-main.ts:65922
+main.ts:64646
 
 ***
 
@@ -184,7 +184,7 @@ language code of translated text
 
 #### Defined in
 
-main.ts:65914
+main.ts:64638
 
 ***
 
@@ -196,7 +196,7 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-main.ts:65912
+main.ts:64636
 
 ***
 
@@ -208,4 +208,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:65888
+main.ts:64612

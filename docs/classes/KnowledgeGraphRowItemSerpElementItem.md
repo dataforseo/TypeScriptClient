@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:28310
+main.ts:28371
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:28310
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -70,7 +70,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:28298
+main.ts:28359
 
 ***
 
@@ -86,7 +86,7 @@ links featured in the faq_box_element
 
 #### Defined in
 
-main.ts:28302
+main.ts:28363
 
 ***
 
@@ -102,9 +102,13 @@ left, right
 
 [`IKnowledgeGraphRowItemSerpElementItem`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:28290
+main.ts:20363
 
 ***
 
@@ -119,9 +123,13 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphRowItemSerpElementItem`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:28286
+main.ts:20359
 
 ***
 
@@ -137,9 +145,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphRowItemSerpElementItem`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:28283
+main.ts:20356
 
 ***
 
@@ -157,7 +169,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28306
+main.ts:28367
 
 ***
 
@@ -173,7 +185,7 @@ row content
 
 #### Defined in
 
-main.ts:28300
+main.ts:28361
 
 ***
 
@@ -189,7 +201,27 @@ title of the item
 
 #### Defined in
 
-main.ts:28294
+main.ts:28355
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IKnowledgeGraphRowItemSerpElementItem`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md).[`type`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -203,9 +235,13 @@ the XPath of the element
 
 [`IKnowledgeGraphRowItemSerpElementItem`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphRowItemSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:28292
+main.ts:20365
 
 ## Methods
 
@@ -227,7 +263,7 @@ main.ts:28292
 
 #### Defined in
 
-main.ts:28315
+main.ts:28376
 
 ***
 
@@ -249,7 +285,7 @@ main.ts:28315
 
 #### Defined in
 
-main.ts:28345
+main.ts:28402
 
 ***
 
@@ -271,4 +307,4 @@ main.ts:28345
 
 #### Defined in
 
-main.ts:28338
+main.ts:28395

@@ -20,7 +20,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:38251
+main.ts:36449
 
 ***
 
@@ -33,7 +33,7 @@ indicates the source of information included in the questions_and_answers_elemen
 
 #### Defined in
 
-main.ts:38249
+main.ts:36447
 
 ***
 
@@ -46,7 +46,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 #### Defined in
 
-main.ts:38258
+main.ts:36456
 
 ***
 
@@ -58,7 +58,7 @@ title of a given shopping element
 
 #### Defined in
 
-main.ts:38255
+main.ts:36453
 
 ***
 
@@ -70,7 +70,7 @@ type of element
 
 #### Defined in
 
-main.ts:38246
+main.ts:36444
 
 ***
 
@@ -82,4 +82,4 @@ URL
 
 #### Defined in
 
-main.ts:38253
+main.ts:36451

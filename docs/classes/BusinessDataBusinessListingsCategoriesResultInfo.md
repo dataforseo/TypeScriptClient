@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:202415
+main.ts:197797
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of businesses in the category
 
 #### Defined in
 
-main.ts:202411
+main.ts:197793
 
 ***
 
@@ -62,7 +62,7 @@ full name of the category
 
 #### Defined in
 
-main.ts:202409
+main.ts:197791
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:202409
 
 #### Defined in
 
-main.ts:202424
+main.ts:197806
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:202424
 
 #### Defined in
 
-main.ts:202442
+main.ts:197824
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:202442
 
 #### Defined in
 
-main.ts:202435
+main.ts:197817

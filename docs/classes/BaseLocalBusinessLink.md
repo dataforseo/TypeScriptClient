@@ -16,10 +16,6 @@
 
 - [`IBaseLocalBusinessLink`](../interfaces/IBaseLocalBusinessLink.md)
 
-## Indexable
-
- \[`key`: `string`\]: `any`
-
 ## Constructors
 
 ### new BaseLocalBusinessLink()
@@ -36,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23530
+main.ts:23852
 
 ## Properties
 
@@ -46,7 +42,23 @@ main.ts:23530
 
 #### Defined in
 
-main.ts:23528
+main.ts:23850
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseLocalBusinessLink`](../interfaces/IBaseLocalBusinessLink.md).[`type`](../interfaces/IBaseLocalBusinessLink.md#type)
+
+#### Defined in
+
+main.ts:23848
 
 ## Methods
 
@@ -64,7 +76,7 @@ main.ts:23528
 
 #### Defined in
 
-main.ts:23540
+main.ts:23862
 
 ***
 
@@ -82,7 +94,7 @@ main.ts:23540
 
 #### Defined in
 
-main.ts:23571
+main.ts:23890
 
 ***
 
@@ -100,4 +112,4 @@ main.ts:23571
 
 #### Defined in
 
-main.ts:23549
+main.ts:23868

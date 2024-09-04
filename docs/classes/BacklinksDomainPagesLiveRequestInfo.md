@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:145240
+main.ts:142106
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:145219
+main.ts:142085
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Defined in
 
-main.ts:145180
+main.ts:142046
 
 ***
 
@@ -95,7 +95,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145230
+main.ts:142096
 
 ***
 
@@ -126,7 +126,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:145197
+main.ts:142063
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Defined in
 
-main.ts:145224
+main.ts:142090
 
 ***
 
@@ -170,7 +170,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:145171
+main.ts:142037
 
 ***
 
@@ -189,7 +189,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:145155
+main.ts:142021
 
 ***
 
@@ -208,7 +208,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:145160
+main.ts:142026
 
 ***
 
@@ -236,7 +236,7 @@ example:
 
 #### Defined in
 
-main.ts:145211
+main.ts:142077
 
 ***
 
@@ -256,7 +256,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:145236
+main.ts:142102
 
 ***
 
@@ -276,7 +276,7 @@ forbes.com
 
 #### Defined in
 
-main.ts:145150
+main.ts:142016
 
 ## Methods
 
@@ -294,7 +294,7 @@ main.ts:145150
 
 #### Defined in
 
-main.ts:145249
+main.ts:142115
 
 ***
 
@@ -312,7 +312,7 @@ main.ts:145249
 
 #### Defined in
 
-main.ts:145288
+main.ts:142154
 
 ***
 
@@ -330,4 +330,4 @@ main.ts:145288
 
 #### Defined in
 
-main.ts:145281
+main.ts:142147

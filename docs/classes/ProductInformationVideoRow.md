@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:187106
+main.ts:182700
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:187106
 
 #### Defined in
 
-main.ts:23099
+main.ts:23417
 
 ***
 
@@ -68,7 +68,27 @@ URL of the preview image for the related video
 
 #### Defined in
 
-main.ts:187100
+main.ts:182694
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IProductInformationVideoRow`](../interfaces/IProductInformationVideoRow.md).[`type`](../interfaces/IProductInformationVideoRow.md#type)
+
+#### Inherited from
+
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`type`](BaseProductInformationRowItem.md#type)
+
+#### Defined in
+
+main.ts:23413
 
 ***
 
@@ -84,7 +104,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:187102
+main.ts:182696
 
 ## Methods
 
@@ -106,7 +126,7 @@ main.ts:187102
 
 #### Defined in
 
-main.ts:187111
+main.ts:182705
 
 ***
 
@@ -128,7 +148,7 @@ main.ts:187111
 
 #### Defined in
 
-main.ts:187130
+main.ts:182724
 
 ***
 
@@ -150,4 +170,4 @@ main.ts:187130
 
 #### Defined in
 
-main.ts:187123
+main.ts:182717

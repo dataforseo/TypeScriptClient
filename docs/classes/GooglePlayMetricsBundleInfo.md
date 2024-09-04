@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:115727
+main.ts:112823
 
 ## Properties
 
@@ -46,7 +46,7 @@ ranking data from Google Play organic search
 
 #### Defined in
 
-main.ts:115723
+main.ts:112819
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:115723
 
 #### Defined in
 
-main.ts:115736
+main.ts:112832
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:115736
 
 #### Defined in
 
-main.ts:115753
+main.ts:112849
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:115753
 
 #### Defined in
 
-main.ts:115746
+main.ts:112842

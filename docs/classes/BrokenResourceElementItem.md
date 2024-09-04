@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:160249
+main.ts:156623
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:160249
 
 #### Defined in
 
-main.ts:21367
+main.ts:21436
 
 ***
 
@@ -71,7 +71,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Defined in
 
-main.ts:160239
+main.ts:156619
 
 ***
 
@@ -85,9 +85,13 @@ instructions for caching
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`cache_control`](../interfaces/IBrokenResourceElementItem.md#cache_control)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`cache_control`](BaseOnPageResourceItemInfo.md#cache_control)
+
 #### Defined in
 
-main.ts:160227
+main.ts:21422
 
 ***
 
@@ -95,8 +99,8 @@ main.ts:160227
 
 > `optional` **checks**: `object`
 
-resource check-ups
-contents of the array depend on the resource_type
+website checks
+on-page check-ups related to the page
 
 #### Index Signature
 
@@ -106,9 +110,13 @@ contents of the array depend on the resource_type
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`checks`](../interfaces/IBrokenResourceElementItem.md#checks)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`checks`](BaseOnPageResourceItemInfo.md#checks)
+
 #### Defined in
 
-main.ts:160230
+main.ts:21425
 
 ***
 
@@ -122,9 +130,13 @@ type of encoding
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`content_encoding`](../interfaces/IBrokenResourceElementItem.md#content_encoding)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`content_encoding`](BaseOnPageResourceItemInfo.md#content_encoding)
+
 #### Defined in
 
-main.ts:160232
+main.ts:21427
 
 ***
 
@@ -132,16 +144,20 @@ main.ts:160232
 
 > `optional` **encoded\_size**: `number`
 
-resource size after encoding
-indicates the size of the encoded resource measured in bytes
+page size after encoding
+indicates the size of the encoded page measured in bytes
 
 #### Implementation of
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`encoded_size`](../interfaces/IBrokenResourceElementItem.md#encoded_size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`encoded_size`](BaseOnPageResourceItemInfo.md#encoded_size)
+
 #### Defined in
 
-main.ts:160215
+main.ts:21412
 
 ***
 
@@ -152,15 +168,19 @@ main.ts:160215
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
-2021-02-17 13:54:15 +00:00
+2019-11-15 12:57:46 +00:00
 
 #### Implementation of
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`fetch_time`](../interfaces/IBrokenResourceElementItem.md#fetch_time)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fetch_time`](BaseOnPageResourceItemInfo.md#fetch_time)
+
 #### Defined in
 
-main.ts:160223
+main.ts:21420
 
 ***
 
@@ -176,7 +196,7 @@ resource fething time range
 
 #### Defined in
 
-main.ts:160225
+main.ts:156614
 
 ***
 
@@ -191,9 +211,13 @@ if there is no data, the value will be null
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`last_modified`](../interfaces/IBrokenResourceElementItem.md#last_modified)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`last_modified`](BaseOnPageResourceItemInfo.md#last_modified)
+
 #### Defined in
 
-main.ts:160244
+main.ts:21434
 
 ***
 
@@ -208,9 +232,13 @@ indicates the URL to redirect a page to
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`location`](../interfaces/IBrokenResourceElementItem.md#location)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`location`](BaseOnPageResourceItemInfo.md#location)
+
 #### Defined in
 
-main.ts:160207
+main.ts:21402
 
 ***
 
@@ -218,15 +246,19 @@ main.ts:160207
 
 > `optional` **media\_type**: `string`
 
-types of media used to display a resource
+types of media used to display a page
 
 #### Implementation of
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`media_type`](../interfaces/IBrokenResourceElementItem.md#media_type)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`media_type`](BaseOnPageResourceItemInfo.md#media_type)
+
 #### Defined in
 
-main.ts:160234
+main.ts:21429
 
 ***
 
@@ -245,7 +277,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Defined in
 
-main.ts:160202
+main.ts:156612
 
 ***
 
@@ -253,13 +285,39 @@ main.ts:160202
 
 > `optional` **resource\_errors**: [`OnPageResourceIssueInfo`](OnPageResourceIssueInfo.md)
 
+resource errors and warnings
+
 #### Implementation of
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`resource_errors`](../interfaces/IBrokenResourceElementItem.md#resource_errors)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_errors`](BaseOnPageResourceItemInfo.md#resource_errors)
+
 #### Defined in
 
-main.ts:160245
+main.ts:21406
+
+***
+
+### resource\_type?
+
+> `optional` **resource\_type**: `string`
+
+type of the returned resource
+
+#### Implementation of
+
+[`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`resource_type`](../interfaces/IBrokenResourceElementItem.md#resource_type)
+
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_type`](BaseOnPageResourceItemInfo.md#resource_type)
+
+#### Defined in
+
+main.ts:21397
 
 ***
 
@@ -273,9 +331,13 @@ server version
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`server`](../interfaces/IBrokenResourceElementItem.md#server)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`server`](BaseOnPageResourceItemInfo.md#server)
+
 #### Defined in
 
-main.ts:160241
+main.ts:21431
 
 ***
 
@@ -284,15 +346,19 @@ main.ts:160241
 > `optional` **size**: `number`
 
 resource size
-indicates the size of a given resource measured in bytes
+indicates the size of a given page measured in bytes
 
 #### Implementation of
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`size`](../interfaces/IBrokenResourceElementItem.md#size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`size`](BaseOnPageResourceItemInfo.md#size)
+
 #### Defined in
 
-main.ts:160212
+main.ts:21409
 
 ***
 
@@ -300,15 +366,19 @@ main.ts:160212
 
 > `optional` **status\_code**: `number`
 
-status code of the page where a given resource is located
+status code of the page
 
 #### Implementation of
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`status_code`](../interfaces/IBrokenResourceElementItem.md#status_code)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`status_code`](BaseOnPageResourceItemInfo.md#status_code)
+
 #### Defined in
 
-main.ts:160204
+main.ts:21399
 
 ***
 
@@ -316,16 +386,20 @@ main.ts:160204
 
 > `optional` **total\_transfer\_size**: `number`
 
-compressed resource size
-indicates the compressed size of a given resource in bytes
+compressed page size
+indicates the compressed size of a given page
 
 #### Implementation of
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`total_transfer_size`](../interfaces/IBrokenResourceElementItem.md#total_transfer_size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`total_transfer_size`](BaseOnPageResourceItemInfo.md#total_transfer_size)
+
 #### Defined in
 
-main.ts:160218
+main.ts:21415
 
 ***
 
@@ -333,15 +407,19 @@ main.ts:160218
 
 > `optional` **url**: `string`
 
-resource URL
+page URL
 
 #### Implementation of
 
 [`IBrokenResourceElementItem`](../interfaces/IBrokenResourceElementItem.md).[`url`](../interfaces/IBrokenResourceElementItem.md#url)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`url`](BaseOnPageResourceItemInfo.md#url)
+
 #### Defined in
 
-main.ts:160209
+main.ts:21404
 
 ## Methods
 
@@ -363,7 +441,7 @@ main.ts:160209
 
 #### Defined in
 
-main.ts:160254
+main.ts:156628
 
 ***
 
@@ -385,7 +463,7 @@ main.ts:160254
 
 #### Defined in
 
-main.ts:160294
+main.ts:156648
 
 ***
 
@@ -407,4 +485,4 @@ main.ts:160294
 
 #### Defined in
 
-main.ts:160287
+main.ts:156641

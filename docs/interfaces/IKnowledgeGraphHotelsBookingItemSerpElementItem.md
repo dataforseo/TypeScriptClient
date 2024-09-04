@@ -26,7 +26,7 @@ kc:/local:hotel booking
 
 #### Defined in
 
-main.ts:29271
+main.ts:29173
 
 ***
 
@@ -41,7 +41,7 @@ example:
 
 #### Defined in
 
-main.ts:29262
+main.ts:29164
 
 ***
 
@@ -56,7 +56,7 @@ example:
 
 #### Defined in
 
-main.ts:29267
+main.ts:29169
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29274
+main.ts:29176
 
 ***
 
@@ -81,9 +81,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:29253
+main.ts:20721
 
 ***
 
@@ -94,9 +98,13 @@ main.ts:29253
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:29249
+main.ts:20717
 
 ***
 
@@ -108,9 +116,13 @@ group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:29246
+main.ts:20714
 
 ***
 
@@ -124,7 +136,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29278
+main.ts:29180
 
 ***
 
@@ -136,7 +148,23 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29257
+main.ts:29159
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -146,6 +174,10 @@ main.ts:29257
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:29255
+main.ts:20723

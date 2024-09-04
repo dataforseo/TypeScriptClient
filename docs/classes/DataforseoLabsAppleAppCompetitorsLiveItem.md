@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:118088
+main.ts:115146
 
 ## Properties
 
@@ -46,7 +46,7 @@ id of the competitor app
 
 #### Defined in
 
-main.ts:118067
+main.ts:115125
 
 ***
 
@@ -64,7 +64,7 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:118071
+main.ts:115129
 
 ***
 
@@ -82,7 +82,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 #### Defined in
 
-main.ts:118081
+main.ts:115139
 
 ***
 
@@ -99,7 +99,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 #### Defined in
 
-main.ts:118084
+main.ts:115142
 
 ***
 
@@ -115,7 +115,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:118077
+main.ts:115135
 
 ***
 
@@ -131,7 +131,7 @@ search engine type
 
 #### Defined in
 
-main.ts:118065
+main.ts:115123
 
 ***
 
@@ -149,7 +149,7 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:118075
+main.ts:115133
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:118075
 
 #### Defined in
 
-main.ts:118097
+main.ts:115155
 
 ***
 
@@ -185,7 +185,7 @@ main.ts:118097
 
 #### Defined in
 
-main.ts:118120
+main.ts:115178
 
 ***
 
@@ -203,4 +203,4 @@ main.ts:118120
 
 #### Defined in
 
-main.ts:118113
+main.ts:115171

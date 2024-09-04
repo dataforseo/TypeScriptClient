@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:88147
+main.ts:86819
 
 ## Properties
 
@@ -46,7 +46,7 @@ target keyword in a POST array
 
 #### Defined in
 
-main.ts:88139
+main.ts:86811
 
 ***
 
@@ -62,7 +62,7 @@ search intent data relevant for the specified keyword
 
 #### Defined in
 
-main.ts:88141
+main.ts:86813
 
 ***
 
@@ -78,7 +78,7 @@ contains objects with other possible search intents for the specified keyword
 
 #### Defined in
 
-main.ts:88143
+main.ts:86815
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:88143
 
 #### Defined in
 
-main.ts:88156
+main.ts:86828
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:88156
 
 #### Defined in
 
-main.ts:88179
+main.ts:86851
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:88179
 
 #### Defined in
 
-main.ts:88172
+main.ts:86844

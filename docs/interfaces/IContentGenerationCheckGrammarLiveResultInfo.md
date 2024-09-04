@@ -20,7 +20,7 @@ initial text in the POST request
 
 #### Defined in
 
-main.ts:175407
+main.ts:171337
 
 ***
 
@@ -32,7 +32,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:175401
+main.ts:171331
 
 ***
 
@@ -44,7 +44,7 @@ contains grammar or spelling errors and related data
 
 #### Defined in
 
-main.ts:175413
+main.ts:171343
 
 ***
 
@@ -56,7 +56,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:175411
+main.ts:171341
 
 ***
 
@@ -68,7 +68,7 @@ language code in the POST request
 
 #### Defined in
 
-main.ts:175409
+main.ts:171339
 
 ***
 
@@ -80,7 +80,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:175405
+main.ts:171335
 
 ***
 
@@ -92,4 +92,4 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:175403
+main.ts:171333

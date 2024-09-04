@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:121348
+main.ts:118406
 
 ## Properties
 
@@ -52,7 +52,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:121299
+main.ts:118357
 
 ***
 
@@ -74,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:121307
+main.ts:118365
 
 ***
 
@@ -94,7 +94,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-main.ts:121313
+main.ts:118371
 
 ***
 
@@ -114,7 +114,7 @@ en
 
 #### Defined in
 
-main.ts:121286
+main.ts:118344
 
 ***
 
@@ -134,7 +134,7 @@ English
 
 #### Defined in
 
-main.ts:121280
+main.ts:118338
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:121265
+main.ts:118323
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:121274
+main.ts:118332
 
 ***
 
@@ -201,7 +201,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:121257
+main.ts:118315
 
 ***
 
@@ -225,7 +225,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:121338
+main.ts:118396
 
 ***
 
@@ -249,7 +249,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:121328
+main.ts:118386
 
 ***
 
@@ -268,7 +268,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:121291
+main.ts:118349
 
 ***
 
@@ -287,7 +287,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:121318
+main.ts:118376
 
 ***
 
@@ -307,7 +307,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:121344
+main.ts:118402
 
 ***
 
@@ -326,7 +326,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-main.ts:121242
+main.ts:118300
 
 ***
 
@@ -347,7 +347,7 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-main.ts:121249
+main.ts:118307
 
 ## Methods
 
@@ -365,7 +365,7 @@ main.ts:121249
 
 #### Defined in
 
-main.ts:121357
+main.ts:118415
 
 ***
 
@@ -383,7 +383,7 @@ main.ts:121357
 
 #### Defined in
 
-main.ts:121388
+main.ts:118446
 
 ***
 
@@ -401,4 +401,4 @@ main.ts:121388
 
 #### Defined in
 
-main.ts:121381
+main.ts:118439

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30827
+main.ts:30530
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:30827
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:30819
+main.ts:30522
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`position`](../interfaces/ITwitterSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:30810
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:30810
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`rank_absolute`](../interfaces/ITwitterSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:30806
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:30806
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`rank_group`](../interfaces/ITwitterSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:30802
+main.ts:20356
 
 ***
 
@@ -142,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30823
+main.ts:30526
 
 ***
 
@@ -158,7 +168,27 @@ title of the row
 
 #### Defined in
 
-main.ts:30814
+main.ts:30517
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`type`](../interfaces/ITwitterSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -174,7 +204,7 @@ source URL
 
 #### Defined in
 
-main.ts:30816
+main.ts:30519
 
 ***
 
@@ -188,9 +218,13 @@ the XPath of the element
 
 [`ITwitterSerpElementItem`](../interfaces/ITwitterSerpElementItem.md).[`xpath`](../interfaces/ITwitterSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:30812
+main.ts:20365
 
 ## Methods
 
@@ -212,7 +246,7 @@ main.ts:30812
 
 #### Defined in
 
-main.ts:30832
+main.ts:30535
 
 ***
 
@@ -234,7 +268,7 @@ main.ts:30832
 
 #### Defined in
 
-main.ts:30861
+main.ts:30560
 
 ***
 
@@ -256,4 +290,4 @@ main.ts:30861
 
 #### Defined in
 
-main.ts:30854
+main.ts:30553

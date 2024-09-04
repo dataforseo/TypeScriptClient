@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:64223
+main.ts:62965
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:64202
+main.ts:62944
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:64207
+main.ts:62949
 
 ***
 
@@ -85,13 +85,13 @@ youtube_video_info
 
 #### Defined in
 
-main.ts:64215
+main.ts:62957
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)[]
 
 elements of search results found in SERP
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:64219
+main.ts:62961
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:64217
+main.ts:62959
 
 ***
 
@@ -133,7 +133,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:64199
+main.ts:62941
 
 ***
 
@@ -149,7 +149,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:64197
+main.ts:62939
 
 ***
 
@@ -165,7 +165,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:64195
+main.ts:62937
 
 ***
 
@@ -182,7 +182,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:64210
+main.ts:62952
 
 ***
 
@@ -198,7 +198,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:64193
+main.ts:62935
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:64193
 
 #### Defined in
 
-main.ts:64232
+main.ts:62974
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:64232
 
 #### Defined in
 
-main.ts:64266
+main.ts:63008
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:64266
 
 #### Defined in
 
-main.ts:64259
+main.ts:63001

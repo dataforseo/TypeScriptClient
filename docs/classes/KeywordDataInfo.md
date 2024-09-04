@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:84841
+main.ts:83513
 
 ## Properties
 
@@ -47,7 +47,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:84834
+main.ts:83506
 
 ***
 
@@ -64,7 +64,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Defined in
 
-main.ts:84820
+main.ts:83492
 
 ***
 
@@ -84,7 +84,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:84828
+main.ts:83500
 
 ***
 
@@ -100,7 +100,7 @@ returned keyword idea
 
 #### Defined in
 
-main.ts:84807
+main.ts:83479
 
 ***
 
@@ -116,7 +116,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:84813
+main.ts:83485
 
 ***
 
@@ -132,7 +132,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:84815
+main.ts:83487
 
 ***
 
@@ -148,7 +148,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:84817
+main.ts:83489
 
 ***
 
@@ -164,7 +164,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:84822
+main.ts:83494
 
 ***
 
@@ -180,7 +180,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:84811
+main.ts:83483
 
 ***
 
@@ -196,7 +196,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:84809
+main.ts:83481
 
 ***
 
@@ -212,7 +212,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84805
+main.ts:83477
 
 ***
 
@@ -229,7 +229,7 @@ learn about search intent in this help center article
 
 #### Defined in
 
-main.ts:84837
+main.ts:83509
 
 ***
 
@@ -246,7 +246,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:84831
+main.ts:83503
 
 ## Methods
 
@@ -264,7 +264,7 @@ main.ts:84831
 
 #### Defined in
 
-main.ts:84850
+main.ts:83522
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:84850
 
 #### Defined in
 
-main.ts:84879
+main.ts:83551
 
 ***
 
@@ -300,4 +300,4 @@ main.ts:84879
 
 #### Defined in
 
-main.ts:84872
+main.ts:83544

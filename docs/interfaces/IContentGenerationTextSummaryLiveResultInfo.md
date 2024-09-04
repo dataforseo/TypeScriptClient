@@ -20,7 +20,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:176097
+main.ts:172027
 
 ***
 
@@ -32,7 +32,7 @@ average number of characters per word in the target text
 
 #### Defined in
 
-main.ts:176090
+main.ts:172020
 
 ***
 
@@ -44,7 +44,7 @@ number of characters with spaces found in the target text
 
 #### Defined in
 
-main.ts:176086
+main.ts:172016
 
 ***
 
@@ -56,7 +56,7 @@ number of characters without spaces found in the target text
 
 #### Defined in
 
-main.ts:176084
+main.ts:172014
 
 ***
 
@@ -68,7 +68,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:176099
+main.ts:172029
 
 ***
 
@@ -80,7 +80,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:176101
+main.ts:172031
 
 ***
 
@@ -92,7 +92,7 @@ number of grammar errors found in the target text
 
 #### Defined in
 
-main.ts:176107
+main.ts:172037
 
 ***
 
@@ -109,7 +109,7 @@ contains most common words and their count
 
 #### Defined in
 
-main.ts:176095
+main.ts:172025
 
 ***
 
@@ -121,7 +121,7 @@ number of paragraphs found in the target text
 
 #### Defined in
 
-main.ts:176080
+main.ts:172010
 
 ***
 
@@ -133,7 +133,7 @@ number of sentences found in the target text
 
 #### Defined in
 
-main.ts:176078
+main.ts:172008
 
 ***
 
@@ -145,7 +145,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:176103
+main.ts:172033
 
 ***
 
@@ -157,7 +157,7 @@ number of spelling errors found in the target text
 
 #### Defined in
 
-main.ts:176105
+main.ts:172035
 
 ***
 
@@ -169,7 +169,7 @@ vocabulary density of the target text
 
 #### Defined in
 
-main.ts:176092
+main.ts:172022
 
 ***
 
@@ -181,7 +181,7 @@ number of words found in the target text
 
 #### Defined in
 
-main.ts:176082
+main.ts:172012
 
 ***
 
@@ -193,4 +193,4 @@ average number of words per sentence in the target text
 
 #### Defined in
 
-main.ts:176088
+main.ts:172018

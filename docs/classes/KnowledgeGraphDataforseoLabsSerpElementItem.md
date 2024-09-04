@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:97246
+main.ts:96363
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97246
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -68,7 +68,7 @@ card id
 
 #### Defined in
 
-main.ts:97232
+main.ts:96349
 
 ***
 
@@ -84,7 +84,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:97240
+main.ts:96357
 
 ***
 
@@ -100,7 +100,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:97230
+main.ts:96347
 
 ***
 
@@ -116,13 +116,13 @@ URL of the image from knowledge graph
 
 #### Defined in
 
-main.ts:97236
+main.ts:96353
 
 ***
 
 ### items?
 
-> `optional` **items**: [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)[]
+> `optional` **items**: [`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md)[]
 
 elements of search results found in SERP
 
@@ -132,7 +132,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:97242
+main.ts:96359
 
 ***
 
@@ -148,7 +148,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:97238
+main.ts:96355
 
 ***
 
@@ -164,9 +164,13 @@ left, right
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:97222
+main.ts:20738
 
 ***
 
@@ -181,9 +185,13 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:97218
+main.ts:20734
 
 ***
 
@@ -191,7 +199,6 @@ main.ts:97218
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
@@ -199,9 +206,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:97215
+main.ts:20731
 
 ***
 
@@ -217,7 +228,7 @@ search engine type
 
 #### Defined in
 
-main.ts:97211
+main.ts:96341
 
 ***
 
@@ -233,7 +244,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:97228
+main.ts:96345
 
 ***
 
@@ -249,7 +260,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97226
+main.ts:96343
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -257,7 +288,7 @@ main.ts:97226
 
 > `optional` **url**: `string`
 
-relevant URL in SERP
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -265,7 +296,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:97234
+main.ts:96351
 
 ***
 
@@ -279,9 +310,13 @@ the XPath of the element
 
 [`IKnowledgeGraphDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:97224
+main.ts:20740
 
 ## Methods
 
@@ -303,7 +338,7 @@ main.ts:97224
 
 #### Defined in
 
-main.ts:97251
+main.ts:96368
 
 ***
 
@@ -325,7 +360,7 @@ main.ts:97251
 
 #### Defined in
 
-main.ts:97286
+main.ts:96399
 
 ***
 
@@ -347,4 +382,4 @@ main.ts:97286
 
 #### Defined in
 
-main.ts:97279
+main.ts:96392

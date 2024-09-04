@@ -26,7 +26,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:28388
+main.ts:28428
 
 ***
 
@@ -38,7 +38,7 @@ links featured in the faq_box_element
 
 #### Defined in
 
-main.ts:28392
+main.ts:28432
 
 ***
 
@@ -50,9 +50,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:28380
+main.ts:20721
 
 ***
 
@@ -63,9 +67,13 @@ main.ts:28380
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:28376
+main.ts:20717
 
 ***
 
@@ -77,9 +85,13 @@ group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:28373
+main.ts:20714
 
 ***
 
@@ -93,7 +105,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28396
+main.ts:28436
 
 ***
 
@@ -105,7 +117,7 @@ row content
 
 #### Defined in
 
-main.ts:28390
+main.ts:28430
 
 ***
 
@@ -117,7 +129,23 @@ title of the item
 
 #### Defined in
 
-main.ts:28384
+main.ts:28424
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -127,6 +155,10 @@ main.ts:28384
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:28382
+main.ts:20723

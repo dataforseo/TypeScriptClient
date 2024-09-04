@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:186938
+main.ts:182532
 
 ## Properties
 
@@ -48,7 +48,7 @@ learn more about the identified in this help center guide
 
 #### Defined in
 
-main.ts:186909
+main.ts:182503
 
 ***
 
@@ -65,7 +65,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:186920
+main.ts:182514
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:186925
+main.ts:182519
 
 ***
 
@@ -103,7 +103,7 @@ amazon_product_info
 
 #### Defined in
 
-main.ts:186930
+main.ts:182524
 
 ***
 
@@ -119,7 +119,7 @@ Amazon product info items
 
 #### Defined in
 
-main.ts:186934
+main.ts:182528
 
 ***
 
@@ -135,7 +135,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:186932
+main.ts:182526
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:186917
+main.ts:182511
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:186915
+main.ts:182509
 
 ***
 
@@ -183,7 +183,7 @@ Amazon domain in a POST array
 
 #### Defined in
 
-main.ts:186913
+main.ts:182507
 
 ***
 
@@ -199,7 +199,7 @@ type of element
 
 #### Defined in
 
-main.ts:186911
+main.ts:182505
 
 ## Methods
 
@@ -217,7 +217,7 @@ main.ts:186911
 
 #### Defined in
 
-main.ts:186947
+main.ts:182541
 
 ***
 
@@ -235,7 +235,7 @@ main.ts:186947
 
 #### Defined in
 
-main.ts:186981
+main.ts:182575
 
 ***
 
@@ -253,4 +253,4 @@ main.ts:186981
 
 #### Defined in
 
-main.ts:186974
+main.ts:182568

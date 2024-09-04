@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:31881
+main.ts:31333
 
 ## Properties
 
@@ -46,7 +46,7 @@ URL to the video preview image
 
 #### Defined in
 
-main.ts:31877
+main.ts:31329
 
 ***
 
@@ -63,7 +63,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:31866
+main.ts:31318
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:31873
+main.ts:31325
 
 ***
 
@@ -98,7 +98,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31868
+main.ts:31320
 
 ***
 
@@ -114,7 +114,7 @@ type of element
 
 #### Defined in
 
-main.ts:31863
+main.ts:31315
 
 ***
 
@@ -130,7 +130,7 @@ URL
 
 #### Defined in
 
-main.ts:31875
+main.ts:31327
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:31875
 
 #### Defined in
 
-main.ts:31890
+main.ts:31342
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:31890
 
 #### Defined in
 
-main.ts:31912
+main.ts:31364
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:31912
 
 #### Defined in
 
-main.ts:31905
+main.ts:31357

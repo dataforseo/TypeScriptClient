@@ -20,7 +20,7 @@ amazon product departments and subcategories
 
 #### Defined in
 
-main.ts:185296
+main.ts:180930
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:185279
+main.ts:180913
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:185284
+main.ts:180918
 
 ***
 
@@ -63,7 +63,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:185292
+main.ts:180926
 
 ***
 
@@ -75,7 +75,7 @@ Amazon product items within the editorial_recommendations element
 
 #### Defined in
 
-main.ts:185300
+main.ts:180934
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:185298
+main.ts:180932
 
 ***
 
@@ -100,7 +100,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:185268
+main.ts:180902
 
 ***
 
@@ -112,7 +112,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185276
+main.ts:180910
 
 ***
 
@@ -124,7 +124,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185274
+main.ts:180908
 
 ***
 
@@ -136,7 +136,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185272
+main.ts:180906
 
 ***
 
@@ -148,7 +148,7 @@ search engine results count
 
 #### Defined in
 
-main.ts:185294
+main.ts:180928
 
 ***
 
@@ -161,7 +161,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:185287
+main.ts:180921
 
 ***
 
@@ -173,4 +173,4 @@ type of element
 
 #### Defined in
 
-main.ts:185270
+main.ts:180904

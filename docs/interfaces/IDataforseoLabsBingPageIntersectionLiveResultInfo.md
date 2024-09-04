@@ -20,7 +20,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-main.ts:111320
+main.ts:108454
 
 ***
 
@@ -32,7 +32,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:111330
+main.ts:108464
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:111328
+main.ts:108462
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:111324
+main.ts:108458
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:111322
+main.ts:108456
 
 ***
 
@@ -84,7 +84,7 @@ URLs you specified a POST array
 
 #### Defined in
 
-main.ts:111318
+main.ts:108452
 
 ***
 
@@ -98,7 +98,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:111316
+main.ts:108450
 
 ***
 
@@ -110,4 +110,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:111326
+main.ts:108460

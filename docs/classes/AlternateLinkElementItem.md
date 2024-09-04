@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:161956
+main.ts:158036
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:161956
 
 #### Defined in
 
-main.ts:21502
+main.ts:21676
 
 ***
 
@@ -67,9 +67,13 @@ possible values: internal, external
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`direction`](../interfaces/IAlternateLinkElementItem.md#direction)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`direction`](BaseOnPageLinkItemInfo.md#direction)
+
 #### Defined in
 
-main.ts:161943
+main.ts:21668
 
 ***
 
@@ -84,9 +88,13 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`dofollow`](../interfaces/IAlternateLinkElementItem.md#dofollow)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`dofollow`](BaseOnPageLinkItemInfo.md#dofollow)
+
 #### Defined in
 
-main.ts:161936
+main.ts:21661
 
 ***
 
@@ -101,9 +109,13 @@ the link was found on this domain
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`domain_from`](../interfaces/IAlternateLinkElementItem.md#domain_from)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`domain_from`](BaseOnPageLinkItemInfo.md#domain_from)
+
 #### Defined in
 
-main.ts:161918
+main.ts:21643
 
 ***
 
@@ -118,9 +130,13 @@ the link is pointing to this domain
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`domain_to`](../interfaces/IAlternateLinkElementItem.md#domain_to)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`domain_to`](BaseOnPageLinkItemInfo.md#domain_to)
+
 #### Defined in
 
-main.ts:161921
+main.ts:21646
 
 ***
 
@@ -135,9 +151,13 @@ indicates whether a link is directing to a broken page or resource
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`is_broken`](../interfaces/IAlternateLinkElementItem.md#is_broken)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`is_broken`](BaseOnPageLinkItemInfo.md#is_broken)
+
 #### Defined in
 
-main.ts:161946
+main.ts:21671
 
 ***
 
@@ -152,9 +172,13 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`is_link_relation_conflict`](../interfaces/IAlternateLinkElementItem.md#is_link_relation_conflict)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`is_link_relation_conflict`](BaseOnPageLinkItemInfo.md#is_link_relation_conflict)
+
 #### Defined in
 
-main.ts:161949
+main.ts:21674
 
 ***
 
@@ -169,9 +193,13 @@ absolute URL of the page on which the link was found
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`link_from`](../interfaces/IAlternateLinkElementItem.md#link_from)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`link_from`](BaseOnPageLinkItemInfo.md#link_from)
+
 #### Defined in
 
-main.ts:161930
+main.ts:21655
 
 ***
 
@@ -186,9 +214,13 @@ absolute URL of the page to which the link is pointing
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`link_to`](../interfaces/IAlternateLinkElementItem.md#link_to)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`link_to`](BaseOnPageLinkItemInfo.md#link_to)
+
 #### Defined in
 
-main.ts:161933
+main.ts:21658
 
 ***
 
@@ -203,9 +235,13 @@ relative URL of the page on which the link was found
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`page_from`](../interfaces/IAlternateLinkElementItem.md#page_from)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_from`](BaseOnPageLinkItemInfo.md#page_from)
+
 #### Defined in
 
-main.ts:161924
+main.ts:21649
 
 ***
 
@@ -219,9 +255,13 @@ url scheme of the referring page
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`page_from_scheme`](../interfaces/IAlternateLinkElementItem.md#page_from_scheme)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_from_scheme`](BaseOnPageLinkItemInfo.md#page_from_scheme)
+
 #### Defined in
 
-main.ts:161938
+main.ts:21663
 
 ***
 
@@ -236,9 +276,13 @@ relative URL of the page to which the link is pointing
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`page_to`](../interfaces/IAlternateLinkElementItem.md#page_to)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_to`](BaseOnPageLinkItemInfo.md#page_to)
+
 #### Defined in
 
-main.ts:161927
+main.ts:21652
 
 ***
 
@@ -252,9 +296,13 @@ url scheme of the referenced page
 
 [`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`page_to_scheme`](../interfaces/IAlternateLinkElementItem.md#page_to_scheme)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_to_scheme`](BaseOnPageLinkItemInfo.md#page_to_scheme)
+
 #### Defined in
 
-main.ts:161940
+main.ts:21665
 
 ***
 
@@ -271,7 +319,27 @@ status code of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:161952
+main.ts:158032
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAlternateLinkElementItem`](../interfaces/IAlternateLinkElementItem.md).[`type`](../interfaces/IAlternateLinkElementItem.md#type)
+
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`type`](BaseOnPageLinkItemInfo.md#type)
+
+#### Defined in
+
+main.ts:21640
 
 ## Methods
 
@@ -293,7 +361,7 @@ main.ts:161952
 
 #### Defined in
 
-main.ts:161961
+main.ts:158041
 
 ***
 
@@ -315,7 +383,7 @@ main.ts:161961
 
 #### Defined in
 
-main.ts:161991
+main.ts:158059
 
 ***
 
@@ -337,4 +405,4 @@ main.ts:161991
 
 #### Defined in
 
-main.ts:161984
+main.ts:158052

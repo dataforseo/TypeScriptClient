@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:31426
+main.ts:30992
 
 ***
 
@@ -32,7 +32,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:31430
+main.ts:30996
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31424
+main.ts:30990
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:31422
+main.ts:30988
 
 ***
 
@@ -68,4 +68,4 @@ URL
 
 #### Defined in
 
-main.ts:31428
+main.ts:30994

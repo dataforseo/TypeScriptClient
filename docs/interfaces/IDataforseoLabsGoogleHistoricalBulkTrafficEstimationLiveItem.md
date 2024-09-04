@@ -20,7 +20,7 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-main.ts:104634
+main.ts:101784
 
 ***
 
@@ -32,7 +32,7 @@ search engine type
 
 #### Defined in
 
-main.ts:104630
+main.ts:101780
 
 ***
 
@@ -44,4 +44,4 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:104632
+main.ts:101782

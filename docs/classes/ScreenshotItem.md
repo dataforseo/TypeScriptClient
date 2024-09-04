@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:24827
+main.ts:25143
 
 ## Properties
 
@@ -48,7 +48,7 @@ note: the page screenshot saved on the DataForSEO storage only remains accessibl
 
 #### Defined in
 
-main.ts:24823
+main.ts:25139
 
 ## Methods
 
@@ -66,7 +66,7 @@ main.ts:24823
 
 #### Defined in
 
-main.ts:24836
+main.ts:25152
 
 ***
 
@@ -84,7 +84,7 @@ main.ts:24836
 
 #### Defined in
 
-main.ts:24853
+main.ts:25169
 
 ***
 
@@ -102,4 +102,4 @@ main.ts:24853
 
 #### Defined in
 
-main.ts:24846
+main.ts:25162

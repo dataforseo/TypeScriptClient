@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:32681
+main.ts:31966
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:32681
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32673
+main.ts:31958
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`position`](../interfaces/IMentionCarouselSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:32666
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:32666
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`rank_absolute`](../interfaces/IMentionCarouselSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:32662
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:32662
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`rank_group`](../interfaces/IMentionCarouselSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:32658
+main.ts:20356
 
 ***
 
@@ -142,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32677
+main.ts:31962
 
 ***
 
@@ -158,7 +168,27 @@ title of the row
 
 #### Defined in
 
-main.ts:32670
+main.ts:31955
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`type`](../interfaces/IMentionCarouselSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -172,9 +202,13 @@ the XPath of the element
 
 [`IMentionCarouselSerpElementItem`](../interfaces/IMentionCarouselSerpElementItem.md).[`xpath`](../interfaces/IMentionCarouselSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:32668
+main.ts:20365
 
 ## Methods
 
@@ -196,7 +230,7 @@ main.ts:32668
 
 #### Defined in
 
-main.ts:32686
+main.ts:31971
 
 ***
 
@@ -218,7 +252,7 @@ main.ts:32686
 
 #### Defined in
 
-main.ts:32714
+main.ts:31995
 
 ***
 
@@ -240,4 +274,4 @@ main.ts:32714
 
 #### Defined in
 
-main.ts:32707
+main.ts:31988

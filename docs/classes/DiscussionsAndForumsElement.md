@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:37567
+main.ts:35879
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:37556
+main.ts:35868
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Defined in
 
-main.ts:37551
+main.ts:35863
 
 ***
 
@@ -78,7 +78,7 @@ number of posts from the discussion on the related source
 
 #### Defined in
 
-main.ts:37563
+main.ts:35875
 
 ***
 
@@ -95,7 +95,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:37554
+main.ts:35866
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:37561
+main.ts:35873
 
 ***
 
@@ -130,7 +130,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:37547
+main.ts:35859
 
 ***
 
@@ -146,7 +146,7 @@ type of element
 
 #### Defined in
 
-main.ts:37545
+main.ts:35857
 
 ***
 
@@ -162,7 +162,7 @@ URL
 
 #### Defined in
 
-main.ts:37549
+main.ts:35861
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:37549
 
 #### Defined in
 
-main.ts:37576
+main.ts:35888
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:37576
 
 #### Defined in
 
-main.ts:37600
+main.ts:35912
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:37600
 
 #### Defined in
 
-main.ts:37593
+main.ts:35905

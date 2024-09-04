@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:213672
+main.ts:208994
 
 ## Properties
 
@@ -61,7 +61,7 @@ if the specified depth is higher than the number of questions in the response, t
 
 #### Defined in
 
-main.ts:213668
+main.ts:208990
 
 ***
 
@@ -95,7 +95,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:197393
+main.ts:192847
 
 ***
 
@@ -120,7 +120,7 @@ en
 
 #### Defined in
 
-main.ts:197439
+main.ts:192893
 
 ***
 
@@ -145,7 +145,7 @@ English
 
 #### Defined in
 
-main.ts:197432
+main.ts:192886
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Defined in
 
-main.ts:197415
+main.ts:192869
 
 ***
 
@@ -198,7 +198,7 @@ example:
 
 #### Defined in
 
-main.ts:197425
+main.ts:192879
 
 ***
 
@@ -223,7 +223,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:197408
+main.ts:192862
 
 ***
 
@@ -251,7 +251,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197465
+main.ts:192919
 
 ***
 
@@ -279,7 +279,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197455
+main.ts:192909
 
 ***
 
@@ -305,7 +305,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:197401
+main.ts:192855
 
 ***
 
@@ -329,7 +329,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:197445
+main.ts:192899
 
 ## Methods
 
@@ -351,7 +351,7 @@ main.ts:197445
 
 #### Defined in
 
-main.ts:213676
+main.ts:208998
 
 ***
 
@@ -373,7 +373,7 @@ main.ts:213676
 
 #### Defined in
 
-main.ts:213694
+main.ts:209016
 
 ***
 
@@ -395,4 +395,4 @@ main.ts:213694
 
 #### Defined in
 
-main.ts:213687
+main.ts:209009

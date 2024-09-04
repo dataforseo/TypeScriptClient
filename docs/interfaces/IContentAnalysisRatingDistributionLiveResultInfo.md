@@ -20,7 +20,7 @@ max rating on a distribution scale
 
 #### Defined in
 
-main.ts:172203
+main.ts:168133
 
 ***
 
@@ -32,7 +32,7 @@ contains rating distribution metrics
 
 #### Defined in
 
-main.ts:172205
+main.ts:168135
 
 ***
 
@@ -44,7 +44,7 @@ min rating on a distribution scale
 
 #### Defined in
 
-main.ts:172201
+main.ts:168131
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:172199
+main.ts:168129

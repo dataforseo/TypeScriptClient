@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:209423
+main.ts:204761
 
 ***
 
@@ -64,7 +64,7 @@ possible values:
 
 #### Defined in
 
-main.ts:209506
+main.ts:204844
 
 ***
 
@@ -82,7 +82,7 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-main.ts:209402
+main.ts:204740
 
 ***
 
@@ -101,7 +101,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-main.ts:209411
+main.ts:204749
 
 ***
 
@@ -121,7 +121,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-main.ts:209433
+main.ts:204771
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:209416
+main.ts:204754
 
 ***
 
@@ -155,7 +155,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:209394
+main.ts:204732
 
 ***
 
@@ -170,7 +170,7 @@ default value: false
 
 #### Defined in
 
-main.ts:209472
+main.ts:204810
 
 ***
 
@@ -185,7 +185,7 @@ default value: false
 
 #### Defined in
 
-main.ts:209477
+main.ts:204815
 
 ***
 
@@ -204,7 +204,7 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 #### Defined in
 
-main.ts:209347
+main.ts:204685
 
 ***
 
@@ -221,7 +221,7 @@ en
 
 #### Defined in
 
-main.ts:209385
+main.ts:204723
 
 ***
 
@@ -238,7 +238,7 @@ English
 
 #### Defined in
 
-main.ts:209378
+main.ts:204716
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Defined in
 
-main.ts:209362
+main.ts:204700
 
 ***
 
@@ -274,7 +274,7 @@ example:
 
 #### Defined in
 
-main.ts:209371
+main.ts:204709
 
 ***
 
@@ -292,7 +292,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 #### Defined in
 
-main.ts:209355
+main.ts:204693
 
 ***
 
@@ -308,7 +308,7 @@ example:
 
 #### Defined in
 
-main.ts:209467
+main.ts:204805
 
 ***
 
@@ -324,7 +324,7 @@ example:
 
 #### Defined in
 
-main.ts:209461
+main.ts:204799
 
 ***
 
@@ -340,7 +340,7 @@ example:
 
 #### Defined in
 
-main.ts:209445
+main.ts:204783
 
 ***
 
@@ -360,7 +360,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:209455
+main.ts:204793
 
 ***
 
@@ -376,7 +376,7 @@ example:
 
 #### Defined in
 
-main.ts:209439
+main.ts:204777
 
 ***
 
@@ -392,4 +392,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:209512
+main.ts:204850

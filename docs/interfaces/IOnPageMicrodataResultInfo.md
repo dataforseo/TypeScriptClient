@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:164335
+main.ts:160265
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:164337
+main.ts:160267
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Defined in
 
-main.ts:164343
+main.ts:160273
 
 ***
 
@@ -57,7 +57,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:164341
+main.ts:160271
 
 ***
 
@@ -69,4 +69,4 @@ microdata validation test results
 
 #### Defined in
 
-main.ts:164339
+main.ts:160269

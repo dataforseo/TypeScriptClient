@@ -24,7 +24,7 @@ product brand name
 
 #### Defined in
 
-main.ts:186860
+main.ts:182454
 
 ***
 
@@ -36,7 +36,7 @@ contains related product categories
 
 #### Defined in
 
-main.ts:186889
+main.ts:182483
 
 ***
 
@@ -50,7 +50,7 @@ USD
 
 #### Defined in
 
-main.ts:186878
+main.ts:182472
 
 ***
 
@@ -62,7 +62,7 @@ ASIN of the product received in a POST array
 
 #### Defined in
 
-main.ts:186862
+main.ts:182456
 
 ***
 
@@ -74,7 +74,7 @@ contains description of the product
 
 #### Defined in
 
-main.ts:186897
+main.ts:182491
 
 ***
 
@@ -86,7 +86,7 @@ product specs and other details
 
 #### Defined in
 
-main.ts:186856
+main.ts:182450
 
 ***
 
@@ -98,7 +98,7 @@ the URL of the product image
 
 #### Defined in
 
-main.ts:186858
+main.ts:182452
 
 ***
 
@@ -111,7 +111,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:186881
+main.ts:182475
 
 ***
 
@@ -124,7 +124,7 @@ if the value is true, the product can be ordered
 
 #### Defined in
 
-main.ts:186900
+main.ts:182494
 
 ***
 
@@ -136,7 +136,7 @@ indicates whether the newer model of the product is available
 
 #### Defined in
 
-main.ts:186885
+main.ts:182479
 
 ***
 
@@ -148,7 +148,7 @@ information about the newer model of the product
 
 #### Defined in
 
-main.ts:186887
+main.ts:182481
 
 ***
 
@@ -160,7 +160,7 @@ parent ASIN of the product
 
 #### Defined in
 
-main.ts:186864
+main.ts:182458
 
 ***
 
@@ -174,7 +174,7 @@ left, right
 
 #### Defined in
 
-main.ts:186850
+main.ts:182446
 
 ***
 
@@ -188,7 +188,7 @@ example:
 
 #### Defined in
 
-main.ts:186870
+main.ts:182464
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Defined in
 
-main.ts:186874
+main.ts:182468
 
 ***
 
@@ -214,7 +214,7 @@ ASINs of all found product modifications
 
 #### Defined in
 
-main.ts:186866
+main.ts:182460
 
 ***
 
@@ -226,7 +226,7 @@ contains URLs for all images of the product displayed on the left side of the ma
 
 #### Defined in
 
-main.ts:186893
+main.ts:182487
 
 ***
 
@@ -238,7 +238,7 @@ contains related product information
 
 #### Defined in
 
-main.ts:186891
+main.ts:182485
 
 ***
 
@@ -250,7 +250,7 @@ contains URLs for all videos of the product displayed on the right side of the m
 
 #### Defined in
 
-main.ts:186895
+main.ts:182489
 
 ***
 
@@ -258,12 +258,16 @@ main.ts:186895
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank
-absolute position among all the elements in the response array
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_absolute`](IBaseAmazonSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:186846
+main.ts:22407
 
 ***
 
@@ -274,9 +278,13 @@ main.ts:186846
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_group`](IBaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:186843
+main.ts:22404
 
 ***
 
@@ -288,7 +296,7 @@ product rating info
 
 #### Defined in
 
-main.ts:186883
+main.ts:182477
 
 ***
 
@@ -300,7 +308,23 @@ product title
 
 #### Defined in
 
-main.ts:186854
+main.ts:182448
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`type`](IBaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22401
 
 ***
 
@@ -310,6 +334,10 @@ main.ts:186854
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`xpath`](IBaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:186852
+main.ts:22409

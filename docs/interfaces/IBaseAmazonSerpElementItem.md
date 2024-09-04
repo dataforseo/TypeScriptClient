@@ -18,6 +18,52 @@
 - [`IAmazonAmazonSellerItemSerpElementItem`](IAmazonAmazonSellerItemSerpElementItem.md)
 - [`IAmazonAmazonReviewItemSerpElementItem`](IAmazonAmazonReviewItemSerpElementItem.md)
 
-## Indexable
+## Properties
 
- \[`key`: `string`\]: `any`
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
+
+#### Defined in
+
+main.ts:22407
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Defined in
+
+main.ts:22404
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Defined in
+
+main.ts:22401
+
+***
+
+### xpath?
+
+> `optional` **xpath**: `string`
+
+the XPath of the element
+
+#### Defined in
+
+main.ts:22409

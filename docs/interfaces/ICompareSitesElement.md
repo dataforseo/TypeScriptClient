@@ -20,7 +20,7 @@ website domain
 
 #### Defined in
 
-main.ts:37827
+main.ts:36101
 
 ***
 
@@ -32,7 +32,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:37829
+main.ts:36103
 
 ***
 
@@ -45,7 +45,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:37832
+main.ts:36106
 
 ***
 
@@ -57,7 +57,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:37823
+main.ts:36097
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:37821
+main.ts:36095
 
 ***
 
@@ -81,4 +81,4 @@ URL
 
 #### Defined in
 
-main.ts:37825
+main.ts:36099

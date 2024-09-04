@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:162290
+main.ts:158278
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:162290
 
 #### Defined in
 
-main.ts:21502
+main.ts:21676
 
 ***
 
@@ -67,9 +67,13 @@ possible values: internal, external
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`direction`](../interfaces/IRedirectLinkElementItem.md#direction)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`direction`](BaseOnPageLinkItemInfo.md#direction)
+
 #### Defined in
 
-main.ts:162280
+main.ts:21668
 
 ***
 
@@ -84,9 +88,13 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`dofollow`](../interfaces/IRedirectLinkElementItem.md#dofollow)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`dofollow`](BaseOnPageLinkItemInfo.md#dofollow)
+
 #### Defined in
 
-main.ts:162273
+main.ts:21661
 
 ***
 
@@ -101,9 +109,13 @@ the link was found on this domain
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`domain_from`](../interfaces/IRedirectLinkElementItem.md#domain_from)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`domain_from`](BaseOnPageLinkItemInfo.md#domain_from)
+
 #### Defined in
 
-main.ts:162255
+main.ts:21643
 
 ***
 
@@ -118,9 +130,13 @@ the link is pointing to this domain
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`domain_to`](../interfaces/IRedirectLinkElementItem.md#domain_to)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`domain_to`](BaseOnPageLinkItemInfo.md#domain_to)
+
 #### Defined in
 
-main.ts:162258
+main.ts:21646
 
 ***
 
@@ -135,9 +151,13 @@ indicates whether a link is directing to a broken page or resource
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`is_broken`](../interfaces/IRedirectLinkElementItem.md#is_broken)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`is_broken`](BaseOnPageLinkItemInfo.md#is_broken)
+
 #### Defined in
 
-main.ts:162283
+main.ts:21671
 
 ***
 
@@ -146,15 +166,19 @@ main.ts:162283
 > `optional` **is\_link\_relation\_conflict**: `boolean`
 
 indicates that the link may have a conflict with another link
-if true, at least one link pointing to the URL in link_to has a rel="nofollow" attribute and at least one is dofollow
+if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
 
 #### Implementation of
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`is_link_relation_conflict`](../interfaces/IRedirectLinkElementItem.md#is_link_relation_conflict)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`is_link_relation_conflict`](BaseOnPageLinkItemInfo.md#is_link_relation_conflict)
+
 #### Defined in
 
-main.ts:162286
+main.ts:21674
 
 ***
 
@@ -169,9 +193,13 @@ absolute URL of the page on which the link was found
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`link_from`](../interfaces/IRedirectLinkElementItem.md#link_from)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`link_from`](BaseOnPageLinkItemInfo.md#link_from)
+
 #### Defined in
 
-main.ts:162267
+main.ts:21655
 
 ***
 
@@ -186,9 +214,13 @@ absolute URL of the page to which the link is pointing
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`link_to`](../interfaces/IRedirectLinkElementItem.md#link_to)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`link_to`](BaseOnPageLinkItemInfo.md#link_to)
+
 #### Defined in
 
-main.ts:162270
+main.ts:21658
 
 ***
 
@@ -203,9 +235,13 @@ relative URL of the page on which the link was found
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_from`](../interfaces/IRedirectLinkElementItem.md#page_from)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_from`](BaseOnPageLinkItemInfo.md#page_from)
+
 #### Defined in
 
-main.ts:162261
+main.ts:21649
 
 ***
 
@@ -219,9 +255,13 @@ url scheme of the referring page
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_from_scheme`](../interfaces/IRedirectLinkElementItem.md#page_from_scheme)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_from_scheme`](BaseOnPageLinkItemInfo.md#page_from_scheme)
+
 #### Defined in
 
-main.ts:162275
+main.ts:21663
 
 ***
 
@@ -236,9 +276,13 @@ relative URL of the page to which the link is pointing
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_to`](../interfaces/IRedirectLinkElementItem.md#page_to)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_to`](BaseOnPageLinkItemInfo.md#page_to)
+
 #### Defined in
 
-main.ts:162264
+main.ts:21652
 
 ***
 
@@ -252,9 +296,33 @@ url scheme of the referenced page
 
 [`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`page_to_scheme`](../interfaces/IRedirectLinkElementItem.md#page_to_scheme)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_to_scheme`](BaseOnPageLinkItemInfo.md#page_to_scheme)
+
 #### Defined in
 
-main.ts:162277
+main.ts:21665
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IRedirectLinkElementItem`](../interfaces/IRedirectLinkElementItem.md).[`type`](../interfaces/IRedirectLinkElementItem.md#type)
+
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`type`](BaseOnPageLinkItemInfo.md#type)
+
+#### Defined in
+
+main.ts:21640
 
 ## Methods
 
@@ -276,7 +344,7 @@ main.ts:162277
 
 #### Defined in
 
-main.ts:162295
+main.ts:158283
 
 ***
 
@@ -298,7 +366,7 @@ main.ts:162295
 
 #### Defined in
 
-main.ts:162324
+main.ts:158300
 
 ***
 
@@ -320,4 +388,4 @@ main.ts:162324
 
 #### Defined in
 
-main.ts:162317
+main.ts:158293

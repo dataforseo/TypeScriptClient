@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:212563
+main.ts:207901
 
 ***
 
@@ -35,7 +35,7 @@ HTML pages
 
 #### Defined in
 
-main.ts:212567
+main.ts:207905
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:212565
+main.ts:207903
 
 ***
 
@@ -59,7 +59,7 @@ unique hotel identifier specified as "hotel_id:$"
 
 #### Defined in
 
-main.ts:212550
+main.ts:207888
 
 ***
 
@@ -71,7 +71,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:212558
+main.ts:207896
 
 ***
 
@@ -83,7 +83,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:212556
+main.ts:207894
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:212554
+main.ts:207892
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:212552
+main.ts:207890

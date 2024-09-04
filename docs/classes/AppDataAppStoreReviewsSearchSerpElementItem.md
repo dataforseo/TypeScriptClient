@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:200540
+main.ts:195945
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:200540
 
 #### Defined in
 
-main.ts:21701
+main.ts:21983
 
 ***
 
@@ -68,7 +68,7 @@ id of the review
 
 #### Defined in
 
-main.ts:200530
+main.ts:195937
 
 ***
 
@@ -76,16 +76,21 @@ main.ts:200530
 
 > `optional` **position**: `string`
 
-the alignment of the review in SERP
-can take the following values: left
+the alignment of the element in SERP
+can take the following values:
+left, right
 
 #### Implementation of
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`position`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`position`](BaseAppDataSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:200518
+main.ts:21977
 
 ***
 
@@ -93,16 +98,20 @@ main.ts:200518
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank in SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_absolute`](BaseAppDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:200515
+main.ts:21973
 
 ***
 
@@ -117,9 +126,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`rank_group`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_group`](BaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:200512
+main.ts:21970
 
 ***
 
@@ -127,15 +140,19 @@ main.ts:200512
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the rating score submitted by the reviewer
+average rating of the app
 
 #### Implementation of
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`rating`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#rating)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rating`](BaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:200523
+main.ts:21981
 
 ***
 
@@ -151,7 +168,7 @@ content of the review
 
 #### Defined in
 
-main.ts:200534
+main.ts:195939
 
 ***
 
@@ -170,7 +187,7 @@ example:
 
 #### Defined in
 
-main.ts:200528
+main.ts:195935
 
 ***
 
@@ -178,15 +195,39 @@ main.ts:200528
 
 > `optional` **title**: `string`
 
-title of the review
+title of the app
 
 #### Implementation of
 
 [`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`title`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#title)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`title`](BaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:200532
+main.ts:21979
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAppDataAppStoreReviewsSearchSerpElementItem`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md).[`type`](../interfaces/IAppDataAppStoreReviewsSearchSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`type`](BaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21967
 
 ***
 
@@ -202,7 +243,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:200536
+main.ts:195941
 
 ***
 
@@ -219,7 +260,7 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:200521
+main.ts:195930
 
 ## Methods
 
@@ -241,7 +282,7 @@ main.ts:200521
 
 #### Defined in
 
-main.ts:200545
+main.ts:195950
 
 ***
 
@@ -263,7 +304,7 @@ main.ts:200545
 
 #### Defined in
 
-main.ts:200572
+main.ts:195972
 
 ***
 
@@ -285,4 +326,4 @@ main.ts:200572
 
 #### Defined in
 
-main.ts:200565
+main.ts:195965

@@ -20,7 +20,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:31744
+main.ts:31234
 
 ***
 
@@ -32,7 +32,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:31742
+main.ts:31232
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31740
+main.ts:31230
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:31738
+main.ts:31228

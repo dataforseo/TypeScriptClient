@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:138956
+main.ts:135822
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword provided in the POST array
 
 #### Defined in
 
-main.ts:138944
+main.ts:135810
 
 ***
 
@@ -63,7 +63,7 @@ array of objects with search volume rates in a certain month of a year
 
 #### Defined in
 
-main.ts:138952
+main.ts:135818
 
 ***
 
@@ -79,7 +79,7 @@ current search volume rate of a keyword
 
 #### Defined in
 
-main.ts:138949
+main.ts:135815
 
 ***
 
@@ -96,7 +96,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:138947
+main.ts:135813
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:138947
 
 #### Defined in
 
-main.ts:138965
+main.ts:135831
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:138965
 
 #### Defined in
 
-main.ts:138989
+main.ts:135855
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:138989
 
 #### Defined in
 
-main.ts:138982
+main.ts:135848

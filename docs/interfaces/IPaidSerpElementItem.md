@@ -24,7 +24,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:26870
+main.ts:27152
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:26884
+main.ts:27166
 
 ***
 
@@ -49,7 +49,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:26887
+main.ts:27169
 
 ***
 
@@ -61,7 +61,7 @@ website domain
 
 #### Defined in
 
-main.ts:26868
+main.ts:27150
 
 ***
 
@@ -77,7 +77,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:26882
+main.ts:27164
 
 ***
 
@@ -89,7 +89,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:26880
+main.ts:27162
 
 ***
 
@@ -101,7 +101,7 @@ images of the element
 
 #### Defined in
 
-main.ts:26876
+main.ts:27158
 
 ***
 
@@ -113,7 +113,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:26872
+main.ts:27154
 
 ***
 
@@ -125,7 +125,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:26874
+main.ts:27156
 
 ***
 
@@ -139,7 +139,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:26891
+main.ts:27173
 
 ***
 
@@ -151,9 +151,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:26862
+main.ts:20721
 
 ***
 
@@ -166,7 +170,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:26894
+main.ts:27176
 
 ***
 
@@ -177,9 +181,13 @@ main.ts:26894
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:26858
+main.ts:20717
 
 ***
 
@@ -191,9 +199,13 @@ group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:26855
+main.ts:20714
 
 ***
 
@@ -207,7 +219,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:26898
+main.ts:27180
 
 ***
 
@@ -219,7 +231,23 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:26866
+main.ts:27148
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -231,7 +259,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:26878
+main.ts:27160
 
 ***
 
@@ -243,7 +271,7 @@ website name in SERP
 
 #### Defined in
 
-main.ts:26900
+main.ts:27182
 
 ***
 
@@ -253,6 +281,10 @@ main.ts:26900
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:26864
+main.ts:20723

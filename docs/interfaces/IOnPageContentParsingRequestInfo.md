@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:165273
+main.ts:161203
 
 ***
 
@@ -41,4 +41,4 @@ https://dataforseo.com/blog/a-versatile-alternative-to-google-trends-exploring-t
 
 #### Defined in
 
-main.ts:165266
+main.ts:161196

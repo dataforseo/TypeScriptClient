@@ -8,7 +8,7 @@
 
 ## Extends
 
-- [`BaseSerpElementItem`](BaseSerpElementItem.md)
+- [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
 
 ## Implements
 
@@ -34,11 +34,11 @@
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`constructor`](BaseYoutubeSerpElementItem.md#constructors)
 
 #### Defined in
 
-main.ts:65236
+main.ts:63971
 
 ## Properties
 
@@ -48,11 +48,11 @@ main.ts:65236
 
 #### Inherited from
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`_discriminator`](BaseYoutubeSerpElementItem.md#_discriminator)
 
 #### Defined in
 
-main.ts:20354
+main.ts:62255
 
 ***
 
@@ -68,7 +68,7 @@ duration of subtitles in seconds
 
 #### Defined in
 
-main.ts:65232
+main.ts:63967
 
 ***
 
@@ -84,7 +84,7 @@ the second subtitled text ends
 
 #### Defined in
 
-main.ts:65230
+main.ts:63965
 
 ***
 
@@ -99,9 +99,13 @@ absolute position among all the elements in SERP
 
 [`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[`rank_absolute`](../interfaces/IYoutubeSubtitlesSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`rank_absolute`](BaseYoutubeSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:65224
+main.ts:62253
 
 ***
 
@@ -117,9 +121,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[`rank_group`](../interfaces/IYoutubeSubtitlesSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`rank_group`](BaseYoutubeSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:65221
+main.ts:62250
 
 ***
 
@@ -135,7 +143,7 @@ the second subtitled text starts
 
 #### Defined in
 
-main.ts:65228
+main.ts:63963
 
 ***
 
@@ -151,7 +159,27 @@ text translated in subtitles
 
 #### Defined in
 
-main.ts:65226
+main.ts:63961
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IYoutubeSubtitlesSerpElementItem`](../interfaces/IYoutubeSubtitlesSerpElementItem.md).[`type`](../interfaces/IYoutubeSubtitlesSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`type`](BaseYoutubeSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:62246
 
 ## Methods
 
@@ -169,11 +197,11 @@ main.ts:65226
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`init`](BaseYoutubeSerpElementItem.md#init)
 
 #### Defined in
 
-main.ts:65241
+main.ts:63976
 
 ***
 
@@ -191,11 +219,11 @@ main.ts:65241
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`toJSON`](BaseYoutubeSerpElementItem.md#tojson)
 
 #### Defined in
 
-main.ts:65264
+main.ts:63997
 
 ***
 
@@ -213,8 +241,8 @@ main.ts:65264
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`fromJS`](BaseYoutubeSerpElementItem.md#fromjs)
 
 #### Defined in
 
-main.ts:65257
+main.ts:63990

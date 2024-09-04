@@ -20,7 +20,7 @@ hours in the 24-hour format
 
 #### Defined in
 
-main.ts:21880
+main.ts:22180
 
 ***
 
@@ -32,4 +32,4 @@ minutes
 
 #### Defined in
 
-main.ts:21882
+main.ts:22182

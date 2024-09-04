@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:137836
+main.ts:134702
 
 ## Properties
 
@@ -47,7 +47,7 @@ contains historical search volume data for searches made from desktop devices
 
 #### Defined in
 
-main.ts:137823
+main.ts:134689
 
 ***
 
@@ -64,7 +64,7 @@ contains historical search volume data for searches made from mobile devices
 
 #### Defined in
 
-main.ts:137829
+main.ts:134695
 
 ***
 
@@ -81,7 +81,7 @@ contains historical search volume data for searches made from feature phones (no
 
 #### Defined in
 
-main.ts:137826
+main.ts:134692
 
 ***
 
@@ -98,7 +98,7 @@ contains historical search volume data for searches made from tablets
 
 #### Defined in
 
-main.ts:137832
+main.ts:134698
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:137832
 
 #### Defined in
 
-main.ts:137845
+main.ts:134711
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:137845
 
 #### Defined in
 
-main.ts:137881
+main.ts:134747
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:137881
 
 #### Defined in
 
-main.ts:137874
+main.ts:134740

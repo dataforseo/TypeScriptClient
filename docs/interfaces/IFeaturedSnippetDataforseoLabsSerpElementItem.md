@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:99355
+main.ts:97417
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:99330
+main.ts:97392
 
 ***
 
@@ -44,11 +44,11 @@ main.ts:99330
 
 > `optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-main.ts:99324
+main.ts:97386
 
 ***
 
@@ -62,7 +62,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:99350
+main.ts:97412
 
 ***
 
@@ -77,7 +77,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:99346
+main.ts:97408
 
 ***
 
@@ -85,11 +85,11 @@ main.ts:99346
 
 > `optional` **featured\_title**: `string`
 
-title
+the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:99328
+main.ts:97390
 
 ***
 
@@ -101,7 +101,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:99339
+main.ts:97401
 
 ***
 
@@ -113,9 +113,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:99320
+main.ts:21020
 
 ***
 
@@ -126,9 +130,13 @@ main.ts:99320
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:99316
+main.ts:21016
 
 ***
 
@@ -141,7 +149,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-main.ts:99353
+main.ts:97415
 
 ***
 
@@ -152,9 +160,13 @@ main.ts:99353
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:99313
+main.ts:21013
 
 ***
 
@@ -166,7 +178,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:99357
+main.ts:97419
 
 ***
 
@@ -178,7 +190,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:99341
+main.ts:97403
 
 ***
 
@@ -190,7 +202,7 @@ search engine type
 
 #### Defined in
 
-main.ts:99337
+main.ts:97399
 
 ***
 
@@ -203,7 +215,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:99335
+main.ts:97397
 
 ***
 
@@ -211,11 +223,27 @@ main.ts:99335
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Defined in
 
-main.ts:99326
+main.ts:97388
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -223,11 +251,11 @@ main.ts:99326
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:99332
+main.ts:97394
 
 ***
 
@@ -237,6 +265,10 @@ main.ts:99332
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:99322
+main.ts:21022

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:159531
+main.ts:156246
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:159531
 
 #### Defined in
 
-main.ts:21367
+main.ts:21436
 
 ***
 
@@ -71,7 +71,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Defined in
 
-main.ts:159510
+main.ts:156230
 
 ***
 
@@ -85,9 +85,13 @@ instructions for caching
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`cache_control`](../interfaces/IStylesheetResourceElementItem.md#cache_control)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`cache_control`](BaseOnPageResourceItemInfo.md#cache_control)
+
 #### Defined in
 
-main.ts:159496
+main.ts:21422
 
 ***
 
@@ -95,8 +99,8 @@ main.ts:159496
 
 > `optional` **checks**: `object`
 
-resource check-ups
-contents of the array depend on the resource_type
+website checks
+on-page check-ups related to the page
 
 #### Index Signature
 
@@ -106,9 +110,13 @@ contents of the array depend on the resource_type
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`checks`](../interfaces/IStylesheetResourceElementItem.md#checks)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`checks`](BaseOnPageResourceItemInfo.md#checks)
+
 #### Defined in
 
-main.ts:159499
+main.ts:21425
 
 ***
 
@@ -122,9 +130,13 @@ type of encoding
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`content_encoding`](../interfaces/IStylesheetResourceElementItem.md#content_encoding)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`content_encoding`](BaseOnPageResourceItemInfo.md#content_encoding)
+
 #### Defined in
 
-main.ts:159503
+main.ts:21427
 
 ***
 
@@ -140,7 +152,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:159519
+main.ts:156234
 
 ***
 
@@ -148,16 +160,20 @@ main.ts:159519
 
 > `optional` **encoded\_size**: `number`
 
-resource size after encoding
-indicates the size of the encoded resource measured in bytes
+page size after encoding
+indicates the size of the encoded page measured in bytes
 
 #### Implementation of
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`encoded_size`](../interfaces/IStylesheetResourceElementItem.md#encoded_size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`encoded_size`](BaseOnPageResourceItemInfo.md#encoded_size)
+
 #### Defined in
 
-main.ts:159484
+main.ts:21412
 
 ***
 
@@ -174,7 +190,7 @@ the amount of time the browser needs to complete downloading a resource
 
 #### Defined in
 
-main.ts:159525
+main.ts:156240
 
 ***
 
@@ -191,7 +207,7 @@ the amount of time the browser needs to start downloading a resource
 
 #### Defined in
 
-main.ts:159522
+main.ts:156237
 
 ***
 
@@ -202,15 +218,19 @@ main.ts:159522
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
-2021-02-17 13:54:15 +00:00
+2019-11-15 12:57:46 +00:00
 
 #### Implementation of
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`fetch_time`](../interfaces/IStylesheetResourceElementItem.md#fetch_time)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fetch_time`](BaseOnPageResourceItemInfo.md#fetch_time)
+
 #### Defined in
 
-main.ts:159492
+main.ts:21420
 
 ***
 
@@ -226,7 +246,7 @@ resource fething time range
 
 #### Defined in
 
-main.ts:159494
+main.ts:156225
 
 ***
 
@@ -242,7 +262,7 @@ resource initiator
 
 #### Defined in
 
-main.ts:159517
+main.ts:156232
 
 ***
 
@@ -258,7 +278,7 @@ indicates whether the resource blocks rendering
 
 #### Defined in
 
-main.ts:159527
+main.ts:156242
 
 ***
 
@@ -273,9 +293,13 @@ if there is no data, the value will be null
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`last_modified`](../interfaces/IStylesheetResourceElementItem.md#last_modified)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`last_modified`](BaseOnPageResourceItemInfo.md#last_modified)
+
 #### Defined in
 
-main.ts:159515
+main.ts:21434
 
 ***
 
@@ -290,9 +314,13 @@ indicates the URL to redirect a page to
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`location`](../interfaces/IStylesheetResourceElementItem.md#location)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`location`](BaseOnPageResourceItemInfo.md#location)
+
 #### Defined in
 
-main.ts:159476
+main.ts:21402
 
 ***
 
@@ -300,15 +328,19 @@ main.ts:159476
 
 > `optional` **media\_type**: `string`
 
-types of media used to display a resource
+types of media used to display a page
 
 #### Implementation of
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`media_type`](../interfaces/IStylesheetResourceElementItem.md#media_type)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`media_type`](BaseOnPageResourceItemInfo.md#media_type)
+
 #### Defined in
 
-main.ts:159505
+main.ts:21429
 
 ***
 
@@ -327,7 +359,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Defined in
 
-main.ts:159471
+main.ts:156223
 
 ***
 
@@ -341,9 +373,33 @@ resource errors and warnings
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`resource_errors`](../interfaces/IStylesheetResourceElementItem.md#resource_errors)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_errors`](BaseOnPageResourceItemInfo.md#resource_errors)
+
 #### Defined in
 
-main.ts:159501
+main.ts:21406
+
+***
+
+### resource\_type?
+
+> `optional` **resource\_type**: `string`
+
+type of the returned resource
+
+#### Implementation of
+
+[`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`resource_type`](../interfaces/IStylesheetResourceElementItem.md#resource_type)
+
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_type`](BaseOnPageResourceItemInfo.md#resource_type)
+
+#### Defined in
+
+main.ts:21397
 
 ***
 
@@ -357,9 +413,13 @@ server version
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`server`](../interfaces/IStylesheetResourceElementItem.md#server)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`server`](BaseOnPageResourceItemInfo.md#server)
+
 #### Defined in
 
-main.ts:159512
+main.ts:21431
 
 ***
 
@@ -368,15 +428,19 @@ main.ts:159512
 > `optional` **size**: `number`
 
 resource size
-indicates the size of a given resource measured in bytes
+indicates the size of a given page measured in bytes
 
 #### Implementation of
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`size`](../interfaces/IStylesheetResourceElementItem.md#size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`size`](BaseOnPageResourceItemInfo.md#size)
+
 #### Defined in
 
-main.ts:159481
+main.ts:21409
 
 ***
 
@@ -384,15 +448,19 @@ main.ts:159481
 
 > `optional` **status\_code**: `number`
 
-status code of the page where a given resource is located
+status code of the page
 
 #### Implementation of
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`status_code`](../interfaces/IStylesheetResourceElementItem.md#status_code)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`status_code`](BaseOnPageResourceItemInfo.md#status_code)
+
 #### Defined in
 
-main.ts:159473
+main.ts:21399
 
 ***
 
@@ -400,16 +468,20 @@ main.ts:159473
 
 > `optional` **total\_transfer\_size**: `number`
 
-compressed resource size
-indicates the compressed size of a given resource in bytes
+compressed page size
+indicates the compressed size of a given page
 
 #### Implementation of
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`total_transfer_size`](../interfaces/IStylesheetResourceElementItem.md#total_transfer_size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`total_transfer_size`](BaseOnPageResourceItemInfo.md#total_transfer_size)
+
 #### Defined in
 
-main.ts:159487
+main.ts:21415
 
 ***
 
@@ -417,15 +489,19 @@ main.ts:159487
 
 > `optional` **url**: `string`
 
-resource URL
+page URL
 
 #### Implementation of
 
 [`IStylesheetResourceElementItem`](../interfaces/IStylesheetResourceElementItem.md).[`url`](../interfaces/IStylesheetResourceElementItem.md#url)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`url`](BaseOnPageResourceItemInfo.md#url)
+
 #### Defined in
 
-main.ts:159478
+main.ts:21404
 
 ## Methods
 
@@ -447,7 +523,7 @@ main.ts:159478
 
 #### Defined in
 
-main.ts:159536
+main.ts:156251
 
 ***
 
@@ -469,7 +545,7 @@ main.ts:159536
 
 #### Defined in
 
-main.ts:159581
+main.ts:156276
 
 ***
 
@@ -491,4 +567,4 @@ main.ts:159581
 
 #### Defined in
 
-main.ts:159574
+main.ts:156269

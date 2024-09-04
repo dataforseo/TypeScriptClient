@@ -25,7 +25,23 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:23812
+main.ts:24128
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md).[`type`](IBaseLocalBusinessLink.md#type)
+
+#### Defined in
+
+main.ts:23900
 
 ***
 
@@ -37,4 +53,4 @@ URL to view the menu
 
 #### Defined in
 
-main.ts:23814
+main.ts:24130

@@ -27,7 +27,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:99545
+main.ts:97575
 
 ***
 
@@ -39,7 +39,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:99506
+main.ts:97536
 
 ***
 
@@ -47,11 +47,11 @@ main.ts:99506
 
 > `optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Defined in
 
-main.ts:99508
+main.ts:97538
 
 ***
 
@@ -66,7 +66,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:99536
+main.ts:97566
 
 ***
 
@@ -81,7 +81,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:99526
+main.ts:97556
 
 ***
 
@@ -96,7 +96,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:99531
+main.ts:97561
 
 ***
 
@@ -108,7 +108,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:99514
+main.ts:97544
 
 ***
 
@@ -120,7 +120,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:99519
+main.ts:97549
 
 ***
 
@@ -132,7 +132,7 @@ phone number
 
 #### Defined in
 
-main.ts:99510
+main.ts:97540
 
 ***
 
@@ -144,9 +144,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:99500
+main.ts:21020
 
 ***
 
@@ -157,9 +161,13 @@ main.ts:99500
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:99496
+main.ts:21016
 
 ***
 
@@ -173,7 +181,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Defined in
 
-main.ts:99540
+main.ts:97570
 
 ***
 
@@ -184,9 +192,13 @@ main.ts:99540
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:99493
+main.ts:21013
 
 ***
 
@@ -199,7 +211,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:99517
+main.ts:97547
 
 ***
 
@@ -211,7 +223,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:99521
+main.ts:97551
 
 ***
 
@@ -219,11 +231,27 @@ main.ts:99521
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Defined in
 
-main.ts:99504
+main.ts:97534
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -231,11 +259,11 @@ main.ts:99504
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:99512
+main.ts:97542
 
 ***
 
@@ -245,6 +273,10 @@ main.ts:99512
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:99502
+main.ts:21022

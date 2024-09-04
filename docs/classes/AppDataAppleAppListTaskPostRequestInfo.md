@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:199268
+main.ts:194686
 
 ## Properties
 
@@ -51,7 +51,7 @@ you can review the full list of available categories here or by making a separat
 
 #### Defined in
 
-main.ts:199232
+main.ts:194650
 
 ***
 
@@ -71,7 +71,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 #### Defined in
 
-main.ts:199179
+main.ts:194597
 
 ***
 
@@ -95,7 +95,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:199225
+main.ts:194643
 
 ***
 
@@ -116,7 +116,7 @@ en
 
 #### Defined in
 
-main.ts:199207
+main.ts:194625
 
 ***
 
@@ -137,7 +137,7 @@ English
 
 #### Defined in
 
-main.ts:199200
+main.ts:194618
 
 ***
 
@@ -158,7 +158,7 @@ example:
 
 #### Defined in
 
-main.ts:199193
+main.ts:194611
 
 ***
 
@@ -179,7 +179,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:199186
+main.ts:194604
 
 ***
 
@@ -203,7 +203,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:199264
+main.ts:194682
 
 ***
 
@@ -223,7 +223,7 @@ advanced
 
 #### Defined in
 
-main.ts:199254
+main.ts:194672
 
 ***
 
@@ -247,7 +247,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:199248
+main.ts:194666
 
 ***
 
@@ -269,7 +269,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:199215
+main.ts:194633
 
 ***
 
@@ -289,7 +289,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:199238
+main.ts:194656
 
 ## Methods
 
@@ -307,7 +307,7 @@ main.ts:199238
 
 #### Defined in
 
-main.ts:199277
+main.ts:194695
 
 ***
 
@@ -325,7 +325,7 @@ main.ts:199277
 
 #### Defined in
 
-main.ts:199305
+main.ts:194723
 
 ***
 
@@ -343,4 +343,4 @@ main.ts:199305
 
 #### Defined in
 
-main.ts:199298
+main.ts:194716

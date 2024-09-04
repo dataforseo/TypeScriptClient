@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:84584
+main.ts:83256
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:84597
+main.ts:83269
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:84602
+main.ts:83274
 
 ***
 
@@ -63,7 +63,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:84592
+main.ts:83264
 
 ***
 
@@ -75,7 +75,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84581
+main.ts:83253
 
 ***
 
@@ -91,4 +91,4 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:84590
+main.ts:83262

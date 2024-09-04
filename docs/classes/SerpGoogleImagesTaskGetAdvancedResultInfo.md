@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:49442
+main.ts:47889
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:49419
+main.ts:47866
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:49424
+main.ts:47871
 
 ***
 
@@ -85,13 +85,13 @@ carousel, images_search, related_searches
 
 #### Defined in
 
-main.ts:49432
+main.ts:47879
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseGoogleImagesSerpElementItem`](BaseGoogleImagesSerpElementItem.md)[]
 
 contains keywords and images related to the specified search term
 
@@ -101,7 +101,7 @@ contains keywords and images related to the specified search term
 
 #### Defined in
 
-main.ts:49438
+main.ts:47885
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:49436
+main.ts:47883
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:49408
+main.ts:47855
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:49416
+main.ts:47863
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:49414
+main.ts:47861
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:49412
+main.ts:47859
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:49434
+main.ts:47881
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:49427
+main.ts:47874
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:49410
+main.ts:47857
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:49410
 
 #### Defined in
 
-main.ts:49451
+main.ts:47898
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:49451
 
 #### Defined in
 
-main.ts:49487
+main.ts:47934
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:49487
 
 #### Defined in
 
-main.ts:49480
+main.ts:47927

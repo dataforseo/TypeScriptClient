@@ -20,7 +20,7 @@ the language of the result
 
 #### Defined in
 
-main.ts:21992
+main.ts:22292
 
 ***
 
@@ -32,7 +32,7 @@ location for which the result is relevant
 
 #### Defined in
 
-main.ts:21994
+main.ts:22294
 
 ***
 
@@ -44,7 +44,7 @@ related search terms that appear in the result
 
 #### Defined in
 
-main.ts:21998
+main.ts:22298
 
 ***
 
@@ -56,7 +56,7 @@ matching search terms that appear in the result
 
 #### Defined in
 
-main.ts:21996
+main.ts:22296
 
 ***
 
@@ -68,7 +68,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:21985
+main.ts:22285
 
 ***
 
@@ -81,7 +81,7 @@ description of the website from Wikipedia or another additional context
 
 #### Defined in
 
-main.ts:21988
+main.ts:22288
 
 ***
 
@@ -93,7 +93,7 @@ URL to full information from the 'source'
 
 #### Defined in
 
-main.ts:21990
+main.ts:22290
 
 ***
 
@@ -105,7 +105,7 @@ type of element
 
 #### Defined in
 
-main.ts:21981
+main.ts:22281
 
 ***
 
@@ -117,4 +117,4 @@ result’s URL
 
 #### Defined in
 
-main.ts:21983
+main.ts:22283

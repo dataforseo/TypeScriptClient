@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:126997
+main.ts:124017
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:126997
 
 #### Defined in
 
-main.ts:21570
+main.ts:21804
 
 ***
 
@@ -68,7 +68,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:126993
+main.ts:124013
 
 ***
 
@@ -77,15 +77,19 @@ main.ts:126993
 > `optional` **keywords**: `string`[]
 
 relevant keywords
-the data included in the google_trends_map element is based on the keywords listed in this array
+the data included in the google_trends_graph element is based on the keywords listed in this array
 
 #### Implementation of
 
 [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`keywords`](../interfaces/IGoogleTrendsMapElementItem.md#keywords)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`keywords`](BaseGoogleTrendsItem.md#keywords)
+
 #### Defined in
 
-main.ts:126991
+main.ts:21802
 
 ***
 
@@ -100,9 +104,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`position`](../interfaces/IGoogleTrendsMapElementItem.md#position)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`position`](BaseGoogleTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:126986
+main.ts:21797
 
 ***
 
@@ -116,9 +124,33 @@ title of the element in Google Trends
 
 [`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`title`](../interfaces/IGoogleTrendsMapElementItem.md#title)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`title`](BaseGoogleTrendsItem.md#title)
+
 #### Defined in
 
-main.ts:126988
+main.ts:21799
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleTrendsMapElementItem`](../interfaces/IGoogleTrendsMapElementItem.md).[`type`](../interfaces/IGoogleTrendsMapElementItem.md#type)
+
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`type`](BaseGoogleTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21794
 
 ## Methods
 
@@ -140,7 +172,7 @@ main.ts:126988
 
 #### Defined in
 
-main.ts:127002
+main.ts:124022
 
 ***
 
@@ -162,7 +194,7 @@ main.ts:127002
 
 #### Defined in
 
-main.ts:127031
+main.ts:124044
 
 ***
 
@@ -184,4 +216,4 @@ main.ts:127031
 
 #### Defined in
 
-main.ts:127024
+main.ts:124037

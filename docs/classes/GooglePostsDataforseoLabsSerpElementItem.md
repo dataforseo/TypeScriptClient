@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:100494
+main.ts:98274
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:100494
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -61,8 +61,6 @@ main.ts:20752
 > `optional` **cid**: `string`
 
 google-defined client id
-unique id of a local establishment;
-can be used with Google Reviews API to get a full list of reviews
 
 #### Implementation of
 
@@ -70,7 +68,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:100490
+main.ts:98270
 
 ***
 
@@ -86,7 +84,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:100486
+main.ts:98268
 
 ***
 
@@ -102,9 +100,13 @@ left, right
 
 [`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:100480
+main.ts:20738
 
 ***
 
@@ -120,7 +122,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:100484
+main.ts:98266
 
 ***
 
@@ -135,9 +137,13 @@ absolute position among all the elements in SERP
 
 [`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:100476
+main.ts:20734
 
 ***
 
@@ -152,9 +158,33 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:100473
+main.ts:20731
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -168,9 +198,13 @@ the XPath of the element
 
 [`IGooglePostsDataforseoLabsSerpElementItem`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IGooglePostsDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:100482
+main.ts:20740
 
 ## Methods
 
@@ -192,7 +226,7 @@ main.ts:100482
 
 #### Defined in
 
-main.ts:100499
+main.ts:98279
 
 ***
 
@@ -214,7 +248,7 @@ main.ts:100499
 
 #### Defined in
 
-main.ts:100523
+main.ts:98299
 
 ***
 
@@ -236,4 +270,4 @@ main.ts:100523
 
 #### Defined in
 
-main.ts:100516
+main.ts:98292

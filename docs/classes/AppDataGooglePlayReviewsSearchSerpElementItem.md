@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:195606
+main.ts:191084
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:195606
 
 #### Defined in
 
-main.ts:21701
+main.ts:21983
 
 ***
 
@@ -69,7 +69,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Defined in
 
-main.ts:195593
+main.ts:191074
 
 ***
 
@@ -85,7 +85,7 @@ id of the review
 
 #### Defined in
 
-main.ts:195590
+main.ts:191071
 
 ***
 
@@ -93,16 +93,21 @@ main.ts:195590
 
 > `optional` **position**: `string`
 
-the alignment of the review in SERP
-can take the following values: left
+the alignment of the element in SERP
+can take the following values:
+left, right
 
 #### Implementation of
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`position`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`position`](BaseAppDataSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:195578
+main.ts:21977
 
 ***
 
@@ -110,16 +115,20 @@ main.ts:195578
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank in SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_absolute`](BaseAppDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:195575
+main.ts:21973
 
 ***
 
@@ -134,9 +143,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`rank_group`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_group`](BaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:195572
+main.ts:21970
 
 ***
 
@@ -144,15 +157,19 @@ main.ts:195572
 
 > `optional` **rating**: [`RatingInfo`](RatingInfo.md)
 
-the rating score submitted by the reviewer
+average rating of the app
 
 #### Implementation of
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`rating`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#rating)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rating`](BaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:195583
+main.ts:21981
 
 ***
 
@@ -168,7 +185,7 @@ response from the developer
 
 #### Defined in
 
-main.ts:195602
+main.ts:191080
 
 ***
 
@@ -184,7 +201,7 @@ content of the review
 
 #### Defined in
 
-main.ts:195598
+main.ts:191076
 
 ***
 
@@ -203,7 +220,7 @@ example:
 
 #### Defined in
 
-main.ts:195588
+main.ts:191069
 
 ***
 
@@ -211,16 +228,39 @@ main.ts:195588
 
 > `optional` **title**: `string`
 
-title of the review
-Google Play doesn’t provide an option to title reviews, so this parameter will always equal null
+title of the app
 
 #### Implementation of
 
 [`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`title`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#title)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`title`](BaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:195596
+main.ts:21979
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAppDataGooglePlayReviewsSearchSerpElementItem`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md).[`type`](../interfaces/IAppDataGooglePlayReviewsSearchSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`type`](BaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21967
 
 ***
 
@@ -236,7 +276,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:195600
+main.ts:191078
 
 ***
 
@@ -253,7 +293,7 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:195581
+main.ts:191064
 
 ## Methods
 
@@ -275,7 +315,7 @@ main.ts:195581
 
 #### Defined in
 
-main.ts:195611
+main.ts:191089
 
 ***
 
@@ -297,7 +337,7 @@ main.ts:195611
 
 #### Defined in
 
-main.ts:195644
+main.ts:191117
 
 ***
 
@@ -319,4 +359,4 @@ main.ts:195644
 
 #### Defined in
 
-main.ts:195637
+main.ts:191110

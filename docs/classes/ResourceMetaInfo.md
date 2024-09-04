@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:159335
+main.ts:156087
 
 ## Properties
 
@@ -47,7 +47,7 @@ the value depends on the resource_type
 
 #### Defined in
 
-main.ts:159321
+main.ts:156073
 
 ***
 
@@ -63,7 +63,7 @@ image height in px
 
 #### Defined in
 
-main.ts:159331
+main.ts:156083
 
 ***
 
@@ -79,7 +79,7 @@ original image height in px
 
 #### Defined in
 
-main.ts:159327
+main.ts:156079
 
 ***
 
@@ -95,7 +95,7 @@ original image width in px
 
 #### Defined in
 
-main.ts:159325
+main.ts:156077
 
 ***
 
@@ -111,7 +111,7 @@ title
 
 #### Defined in
 
-main.ts:159323
+main.ts:156075
 
 ***
 
@@ -127,7 +127,7 @@ image width in px
 
 #### Defined in
 
-main.ts:159329
+main.ts:156081
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:159329
 
 #### Defined in
 
-main.ts:159344
+main.ts:156096
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:159344
 
 #### Defined in
 
-main.ts:159366
+main.ts:156118
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:159366
 
 #### Defined in
 
-main.ts:159359
+main.ts:156111

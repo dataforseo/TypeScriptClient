@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:163140
+main.ts:159070
 
 ## Properties
 
@@ -47,7 +47,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-main.ts:163115
+main.ts:159045
 
 ***
 
@@ -64,7 +64,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-main.ts:163112
+main.ts:159042
 
 ***
 
@@ -80,7 +80,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-main.ts:163125
+main.ts:159055
 
 ***
 
@@ -96,7 +96,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:163127
+main.ts:159057
 
 ***
 
@@ -113,7 +113,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-main.ts:163133
+main.ts:159063
 
 ***
 
@@ -130,7 +130,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-main.ts:163130
+main.ts:159060
 
 ***
 
@@ -146,7 +146,7 @@ URL of the page
 
 #### Defined in
 
-main.ts:163106
+main.ts:159036
 
 ***
 
@@ -163,7 +163,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-main.ts:163121
+main.ts:159051
 
 ***
 
@@ -180,7 +180,7 @@ contains separate arrays with timing for each resource found on the page
 
 #### Defined in
 
-main.ts:163136
+main.ts:159066
 
 ***
 
@@ -197,7 +197,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-main.ts:163109
+main.ts:159039
 
 ***
 
@@ -214,7 +214,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-main.ts:163118
+main.ts:159048
 
 ***
 
@@ -230,7 +230,7 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-main.ts:163123
+main.ts:159053
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:163123
 
 #### Defined in
 
-main.ts:163149
+main.ts:159079
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:163149
 
 #### Defined in
 
-main.ts:163181
+main.ts:159111
 
 ***
 
@@ -284,4 +284,4 @@ main.ts:163181
 
 #### Defined in
 
-main.ts:163174
+main.ts:159104

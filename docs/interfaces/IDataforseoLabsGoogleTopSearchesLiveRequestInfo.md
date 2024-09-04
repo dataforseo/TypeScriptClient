@@ -37,7 +37,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:91325
+main.ts:89997
 
 ***
 
@@ -52,7 +52,7 @@ default value: false
 
 #### Defined in
 
-main.ts:91306
+main.ts:89978
 
 ***
 
@@ -69,7 +69,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:91301
+main.ts:89973
 
 ***
 
@@ -84,7 +84,7 @@ default value: false
 
 #### Defined in
 
-main.ts:91294
+main.ts:89966
 
 ***
 
@@ -102,7 +102,7 @@ en
 
 #### Defined in
 
-main.ts:91289
+main.ts:89961
 
 ***
 
@@ -120,7 +120,7 @@ English
 
 #### Defined in
 
-main.ts:91281
+main.ts:89953
 
 ***
 
@@ -136,7 +136,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:91353
+main.ts:90025
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:91273
+main.ts:89945
 
 ***
 
@@ -172,7 +172,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:91265
+main.ts:89937
 
 ***
 
@@ -187,7 +187,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:91358
+main.ts:90030
 
 ***
 
@@ -205,7 +205,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:91366
+main.ts:90038
 
 ***
 
@@ -231,7 +231,7 @@ example:
 
 #### Defined in
 
-main.ts:91341
+main.ts:90013
 
 ***
 
@@ -247,4 +247,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:91347
+main.ts:90019

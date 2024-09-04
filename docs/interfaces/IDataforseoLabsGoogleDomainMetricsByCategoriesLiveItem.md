@@ -20,7 +20,7 @@ domain found for the specified category
 
 #### Defined in
 
-main.ts:90843
+main.ts:89515
 
 ***
 
@@ -32,7 +32,7 @@ primary domain
 
 #### Defined in
 
-main.ts:90845
+main.ts:89517
 
 ***
 
@@ -49,7 +49,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Defined in
 
-main.ts:90850
+main.ts:89522
 
 ***
 
@@ -65,7 +65,7 @@ historical ranking and traffic data of the domain
 
 #### Defined in
 
-main.ts:90847
+main.ts:89519
 
 ***
 
@@ -77,7 +77,7 @@ current total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:90835
+main.ts:89507
 
 ***
 
@@ -89,7 +89,7 @@ current organic ETV of the domain
 
 #### Defined in
 
-main.ts:90833
+main.ts:89505
 
 ***
 
@@ -102,7 +102,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Defined in
 
-main.ts:90838
+main.ts:89510
 
 ***
 
@@ -115,7 +115,7 @@ indicates how many new ranked elements were found for the domain
 
 #### Defined in
 
-main.ts:90841
+main.ts:89513
 
 ***
 
@@ -127,7 +127,7 @@ search engine type
 
 #### Defined in
 
-main.ts:90829
+main.ts:89501
 
 ***
 
@@ -139,4 +139,4 @@ categories for which domains are collected
 
 #### Defined in
 
-main.ts:90831
+main.ts:89503

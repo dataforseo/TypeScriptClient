@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:194668
+main.ts:190160
 
 ## Properties
 
@@ -46,7 +46,7 @@ application ID received in a POST request
 
 #### Defined in
 
-main.ts:194647
+main.ts:190139
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:194660
+main.ts:190152
 
 ***
 
@@ -81,7 +81,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:194664
+main.ts:190156
 
 ***
 
@@ -97,7 +97,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:194662
+main.ts:190154
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:194655
+main.ts:190147
 
 ***
 
@@ -129,7 +129,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:194653
+main.ts:190145
 
 ***
 
@@ -145,7 +145,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:194651
+main.ts:190143
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:194649
+main.ts:190141
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:194649
 
 #### Defined in
 
-main.ts:194677
+main.ts:190169
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:194677
 
 #### Defined in
 
-main.ts:194705
+main.ts:190197
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:194705
 
 #### Defined in
 
-main.ts:194698
+main.ts:190190

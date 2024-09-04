@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:156613
+main.ts:153479
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:156609
+main.ts:153475
 
 ***
 
@@ -67,7 +67,7 @@ the version of the ssl certificate’s hash function
 
 #### Defined in
 
-main.ts:156603
+main.ts:153469
 
 ***
 
@@ -84,7 +84,7 @@ the entity that issued the detected ssl certificate
 
 #### Defined in
 
-main.ts:156594
+main.ts:153460
 
 ***
 
@@ -101,7 +101,7 @@ the entity associated with the public key
 
 #### Defined in
 
-main.ts:156597
+main.ts:153463
 
 ***
 
@@ -118,7 +118,7 @@ indicates the version of X.509 used by an ssl certificate
 
 #### Defined in
 
-main.ts:156600
+main.ts:153466
 
 ***
 
@@ -135,7 +135,7 @@ indicates whether the ssl certificate detected on a website is not expired, susp
 
 #### Defined in
 
-main.ts:156591
+main.ts:153457
 
 ## Methods
 
@@ -153,7 +153,7 @@ main.ts:156591
 
 #### Defined in
 
-main.ts:156622
+main.ts:153488
 
 ***
 
@@ -171,7 +171,7 @@ main.ts:156622
 
 #### Defined in
 
-main.ts:156644
+main.ts:153510
 
 ***
 
@@ -189,4 +189,4 @@ main.ts:156644
 
 #### Defined in
 
-main.ts:156637
+main.ts:153503

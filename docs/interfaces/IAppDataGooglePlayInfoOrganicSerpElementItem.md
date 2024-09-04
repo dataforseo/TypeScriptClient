@@ -24,7 +24,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:194343
+main.ts:189839
 
 ***
 
@@ -36,7 +36,7 @@ description of the app
 
 #### Defined in
 
-main.ts:194351
+main.ts:189845
 
 ***
 
@@ -48,7 +48,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:194369
+main.ts:189861
 
 ***
 
@@ -60,7 +60,7 @@ physical address of the developer
 
 #### Defined in
 
-main.ts:194377
+main.ts:189869
 
 ***
 
@@ -72,7 +72,7 @@ email address of the developer
 
 #### Defined in
 
-main.ts:194375
+main.ts:189867
 
 ***
 
@@ -84,7 +84,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:194371
+main.ts:189863
 
 ***
 
@@ -96,7 +96,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:194373
+main.ts:189865
 
 ***
 
@@ -108,7 +108,7 @@ official website of the developer
 
 #### Defined in
 
-main.ts:194379
+main.ts:189871
 
 ***
 
@@ -121,7 +121,7 @@ contains relevant app categories
 
 #### Defined in
 
-main.ts:194413
+main.ts:189905
 
 ***
 
@@ -133,7 +133,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:194349
+main.ts:189843
 
 ***
 
@@ -146,7 +146,7 @@ contains URLs to the images published on the app page on Google Play
 
 #### Defined in
 
-main.ts:194401
+main.ts:189893
 
 ***
 
@@ -159,7 +159,7 @@ approximate number of installs as displayed on the app page
 
 #### Defined in
 
-main.ts:194364
+main.ts:189856
 
 ***
 
@@ -172,7 +172,7 @@ the exact number of installs of the app
 
 #### Defined in
 
-main.ts:194367
+main.ts:189859
 
 ***
 
@@ -184,7 +184,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:194359
+main.ts:189851
 
 ***
 
@@ -199,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:194395
+main.ts:189887
 
 ***
 
@@ -211,7 +211,7 @@ main category of the app
 
 #### Defined in
 
-main.ts:194361
+main.ts:189853
 
 ***
 
@@ -223,7 +223,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:194383
+main.ts:189875
 
 ***
 
@@ -236,7 +236,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:194410
+main.ts:189902
 
 ***
 
@@ -245,11 +245,16 @@ main.ts:194410
 > `optional` **position**: `string`
 
 the alignment of the element in SERP
-can take the following values: left
+can take the following values:
+left, right
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
 
 #### Defined in
 
-main.ts:194341
+main.ts:22068
 
 ***
 
@@ -261,7 +266,7 @@ price of the app
 
 #### Defined in
 
-main.ts:194357
+main.ts:189849
 
 ***
 
@@ -269,12 +274,16 @@ main.ts:194357
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed apps
-absolute position among all apps on the list
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:194338
+main.ts:22064
 
 ***
 
@@ -285,9 +294,13 @@ main.ts:194338
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:194335
+main.ts:22061
 
 ***
 
@@ -297,9 +310,13 @@ main.ts:194335
 
 average rating of the app
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:194355
+main.ts:22072
 
 ***
 
@@ -314,7 +331,7 @@ example:
 
 #### Defined in
 
-main.ts:194390
+main.ts:189882
 
 ***
 
@@ -326,7 +343,7 @@ the total number of reviews the app has
 
 #### Defined in
 
-main.ts:194353
+main.ts:189847
 
 ***
 
@@ -339,7 +356,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:194407
+main.ts:189899
 
 ***
 
@@ -351,7 +368,7 @@ size of the app
 
 #### Defined in
 
-main.ts:194385
+main.ts:189877
 
 ***
 
@@ -364,7 +381,7 @@ contains relevant app tags
 
 #### Defined in
 
-main.ts:194416
+main.ts:189908
 
 ***
 
@@ -374,9 +391,29 @@ main.ts:194416
 
 title of the app
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:194345
+main.ts:22070
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22058
 
 ***
 
@@ -389,7 +426,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:194398
+main.ts:189890
 
 ***
 
@@ -401,7 +438,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:194347
+main.ts:189841
 
 ***
 
@@ -413,7 +450,7 @@ current version of the app
 
 #### Defined in
 
-main.ts:194381
+main.ts:189873
 
 ***
 
@@ -426,4 +463,4 @@ contains URLs to the video published on the app page on Google Play
 
 #### Defined in
 
-main.ts:194404
+main.ts:189896

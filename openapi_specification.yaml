@@ -328,7 +328,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 94fe5472-1c0d-460e-92f4-6dd8cf4fc833
+          example: df1ba22e-3bcc-40c4-993a-5373e4bf65cb
       responses:
         '200':
           description: Successful operation
@@ -646,7 +646,7 @@ paths:
           required: true
           schema:
             type: string
-          example: eb05b76a-7519-490e-b5c5-685160e36d69
+          example: a952e63f-b48c-4ed2-b7fc-7ca08fe696a9
       responses:
         '200':
           description: Successful operation
@@ -818,7 +818,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e2aa6454-e57b-4a2c-b4b8-0859f124e06f
+          example: 473571b8-f58a-4b5a-af6c-6250aec9f55b
       responses:
         '200':
           description: Successful operation
@@ -1108,7 +1108,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f767cdf0-27ad-466c-b52c-bfe90fca7a1e
+          example: 9113a8b1-75c2-401e-a365-81cf6bfd234c
       responses:
         '200':
           description: Successful operation
@@ -1370,7 +1370,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 4a2152b1-e16f-4b39-8fb2-3e0d3201100a
+          example: 962ca180-b4c7-4e6e-b592-3727e95f2d56
       responses:
         '200':
           description: Successful operation
@@ -1928,7 +1928,7 @@ paths:
           required: true
           schema:
             type: string
-          example: cd9cb809-c1ba-4af2-92b4-9bc589dd5339
+          example: f001bcfc-65d9-49e5-b287-a418d41d5b8e
       responses:
         '200':
           description: Successful operation
@@ -2128,7 +2128,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 995b4305-9adb-4b9b-8b94-bcf071ee88ec
+          example: 9fda136a-a031-461e-ad70-36c2afe2a594
       responses:
         '200':
           description: Successful operation
@@ -2804,7 +2804,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d4d05a5a-b9d0-44e2-b3e2-36514e19d441
+          example: f6558ebe-001f-46ae-bf4d-90e5025c43f2
       responses:
         '200':
           description: Successful operation
@@ -3092,7 +3092,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 64dd4b74-295f-4e1b-9a57-a2bd245b270c
+          example: 24a4ab89-458e-46a7-a49c-4b4124788669
       responses:
         '200':
           description: Successful operation
@@ -3234,7 +3234,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ab283027-6983-47d5-abe6-9f63ba854bf5
+          example: 47817762-9ac4-405b-bec8-024d03018f58
       responses:
         '200':
           description: Successful operation
@@ -3438,7 +3438,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 333a69e4-bfdc-4987-8c15-4c7ae105972e
+          example: 8c423059-0200-43ac-998e-8500dcfe5a08
       responses:
         '200':
           description: Successful operation
@@ -5553,7 +5553,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 60fe52fa-a790-4cb2-a960-b66c26826e81
+          example: aa28e70e-b5c9-43a5-9c18-34f0e127dbf1
       responses:
         '200':
           description: Successful operation
@@ -5653,7 +5653,7 @@ paths:
           required: true
           schema:
             type: string
-          example: fa20faa9-70ac-4076-9307-54740621c7c3
+          example: 664146e7-3291-4e0d-90d9-1b4fc7a77a97
       responses:
         '200':
           description: Successful operation
@@ -5753,7 +5753,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 7a8aedaa-b3a6-420e-9932-f4a407dc24a5
+          example: 341557fe-1c59-45df-8a3f-fc4a064f4c27
       responses:
         '200':
           description: Successful operation
@@ -5853,7 +5853,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 29fb4ffd-5f75-47ed-b92c-4f74c8b54752
+          example: 7e26a2c4-07f6-4bbd-ab7f-12cd211ad2b0
       responses:
         '200':
           description: Successful operation
@@ -6033,7 +6033,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 8a0a28fd-94a3-4eba-9f83-c9e963220473
+          example: 61bed510-aaad-427d-8c7b-d1badbe2c3d7
       responses:
         '200':
           description: Successful operation
@@ -6325,7 +6325,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b94d570e-5586-441c-a79c-20071a22bbd1
+          example: 20bce0d3-248a-4eae-b883-7e3983890967
       responses:
         '200':
           description: Successful operation
@@ -6425,7 +6425,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 7beffb7b-c14e-4c9d-9c2d-14f2f20a271c
+          example: c0850618-90a8-48d1-bb3c-0f8525a6372a
       responses:
         '200':
           description: Successful operation
@@ -6525,7 +6525,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c9374a4b-5223-404e-9718-651563dec775
+          example: 2d6ba7c4-cddf-4275-a5b6-72fbbd9480fe
       responses:
         '200':
           description: Successful operation
@@ -6643,7 +6643,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 0f6cf700-c531-4424-8268-a3b89b5c898a
+          example: a60c3404-99ed-42b1-b476-3aa5d0ad3aad
       responses:
         '200':
           description: Successful operation
@@ -6761,7 +6761,7 @@ paths:
           required: true
           schema:
             type: string
-          example: bbe184cb-a5e2-4505-9534-aa6d2bd8b97a
+          example: d3321d5e-59ee-4558-ad38-5d2422616640
       responses:
         '200':
           description: Successful operation
@@ -9071,7 +9071,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 64189eda-4b00-4a2d-b688-1d55be1db76b
+          example: 8cae71e6-23b4-4c00-aabe-b5ff4a837cb2
       responses:
         '200':
           description: Successful operation
@@ -9169,7 +9169,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ed73f429-52db-48ab-82bc-8983f75ce3dd
+          example: 82348824-1b9f-4c24-ad9b-c764dcfa31fc
       responses:
         '200':
           description: Successful operation
@@ -9267,7 +9267,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 734c2e7f-7e66-45fb-bf09-7ca46ae83e01
+          example: 3626a0f5-e114-40f9-9961-08bb7a8837cf
       responses:
         '200':
           description: Successful operation
@@ -9525,7 +9525,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 1cdc1eda-70e0-422d-9089-8b56bddc8745
+          example: 3a899b02-b31f-465c-9f0f-ae84ce98e6d1
       responses:
         '200':
           description: Successful operation
@@ -9623,7 +9623,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 4bcfbc77-64f3-42b9-99cd-ccd33f659bcf
+          example: eac26a1a-e8c8-4198-bdca-7f5960269577
       responses:
         '200':
           description: Successful operation
@@ -9721,7 +9721,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 1bac1692-cb78-4653-a82b-776fa7fe1a8d
+          example: 4fd349a1-edc5-433a-adbe-decb635ed869
       responses:
         '200':
           description: Successful operation
@@ -9819,7 +9819,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d6d7ab04-148c-4b2f-b025-88e733b3d134
+          example: c163063e-849c-44ce-9ca6-18ccdf01137d
       responses:
         '200':
           description: Successful operation
@@ -10046,7 +10046,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 7ff896c3-f8ec-4419-aca2-20527ad84d72
+          example: 70903015-e23f-4218-9cc1-c89dff5de54e
       responses:
         '200':
           description: Successful operation
@@ -10072,7 +10072,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e017f55a-8824-4701-b60d-d6bf0a5bd689
+          example: 74c0757d-4165-41a2-934a-04d7f28de77a
       responses:
         '200':
           description: Successful operation
@@ -10144,7 +10144,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 03defa53-1f29-438c-b1b7-bd7c31718d62
+          example: c0063177-95f3-4977-8b46-e113cefb40fc
       responses:
         '200':
           description: Successful operation
@@ -10170,7 +10170,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 5a7283c2-8d71-4055-a4d6-0077a657e7e5
+          example: e060a10b-6543-4fa0-b6d3-36636c68d0c9
       responses:
         '200':
           description: Successful operation
@@ -10242,7 +10242,7 @@ paths:
           required: true
           schema:
             type: string
-          example: ecc21836-d3d7-4c88-bddb-0c518ac8affe
+          example: d2d39b40-0fa8-4093-8c99-121508fbc687
       responses:
         '200':
           description: Successful operation
@@ -10268,7 +10268,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 35cb9f28-ae50-449a-b4cc-4c9c6bc789ce
+          example: abfe5873-ba5f-4e71-a737-69196e93854e
       responses:
         '200':
           description: Successful operation
@@ -10340,7 +10340,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d928e093-0089-407e-a87d-deb321a507bc
+          example: 19231ce5-fb15-4818-ba4f-e6ea2171a2c8
       responses:
         '200':
           description: Successful operation
@@ -10366,7 +10366,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 1cfeae30-5bd2-4a7e-b182-f3f6740fe3ac
+          example: 39ca7e39-048a-411d-a303-cb01e5ef00e5
       responses:
         '200':
           description: Successful operation
@@ -10538,7 +10538,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 0c38f099-0c24-4746-b088-400f3c4b51c1
+          example: b48124fc-4692-4526-a312-5b43266d4454
       responses:
         '200':
           description: Successful operation
@@ -10610,7 +10610,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 3be493ca-bd18-42f7-ab83-f33e96803412
+          example: 089c9bbf-0b5b-4ead-9df6-8ccda63a0ee3
       responses:
         '200':
           description: Successful operation
@@ -10682,7 +10682,7 @@ paths:
           required: true
           schema:
             type: string
-          example: beb6195d-8157-4d91-8921-797fbb496b1d
+          example: 375fb49a-cc93-4037-b7db-3aab7e1d331e
       responses:
         '200':
           description: Successful operation
@@ -10754,7 +10754,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 63009321-5af7-4302-857c-15b1cf71fa74
+          example: b758929a-c7f4-49bc-97db-4d273a2115c5
       responses:
         '200':
           description: Successful operation
@@ -11416,7 +11416,7 @@ paths:
           required: true
           schema:
             type: string
-          example: a4d0b0e4-3e29-47da-90a4-0c9e0d55f63e
+          example: eea2bf96-9dff-4576-99ac-29e13912b0a0
       responses:
         '200':
           description: Successful operation
@@ -14766,7 +14766,7 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/Table'
-          description: "results table\nif there are none, equals null"
+          description: table element
           nullable: true
     KnowledgeGraphExpandedItemSerpElementItem:
       type: object
@@ -15306,7 +15306,7 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/Table'
-          description: table element
+          description: "results table\nif there are none, equals null"
           nullable: true
     PeopleAlsoAskElement:
       type: object
@@ -53746,7 +53746,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/TableContentItemInfo'
             nullable: true
-          description: parsed content of the header
+          description: content of the header of the table
           nullable: true
         body:
           type: array
@@ -53764,7 +53764,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/TableContentItemInfo'
             nullable: true
-          description: content of the footer of the table
+          description: parsed content of the footer
           nullable: true
     TopicInfo:
       type: object
@@ -53823,13 +53823,13 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/PageSectionContentInfo'
-          description: content of the header of the table
+          description: parsed content of the header
           nullable: true
         footer:
           type: object
           oneOf:
             - $ref: '#/components/schemas/PageSectionContentInfo'
-          description: parsed content of the footer
+          description: content of the footer of the table
           nullable: true
         main_topic:
           type: array
@@ -72175,7 +72175,7 @@ components:
           type: number
           format: double
           nullable: true
-    AppendixMinuteStatisticsRatesData:
+    AppendixMinuteStatisticsDataInfo:
       type: object
       properties:
         serp:
@@ -72306,7 +72306,7 @@ components:
         minute:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixMinuteStatisticsRatesData'
+            - $ref: '#/components/schemas/AppendixMinuteStatisticsDataInfo'
           nullable: true
     AppendixRatesData:
       type: object
@@ -72477,7 +72477,7 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixJobsSerpLimitsRatesDataInfo'
           nullable: true
-    AppendixOnPageStatisticsMoneyDataInfo:
+    AppendixOnPageDayStatisticsMoneyData:
       type: object
       properties:
         task_post:
@@ -72735,7 +72735,7 @@ components:
         on_page:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixOnPageStatisticsMoneyDataInfo'
+            - $ref: '#/components/schemas/AppendixOnPageDayStatisticsMoneyData'
           nullable: true
         total_on_page:
           type: number
@@ -72803,126 +72803,6 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixJobsSerpLimitsRatesDataInfo'
           nullable: true
-    AppendixMinuteStatisticsMoneyData:
-      type: object
-      properties:
-        serp:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixSerpDayStatisticsMoneyData'
-          nullable: true
-        total:
-          type: number
-          description: total amount of money deposited to your account
-          format: double
-          nullable: true
-        total_serp:
-          type: number
-          format: double
-          nullable: true
-        keywords_data:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixKeywordsDatasRatesDataInfo'
-          nullable: true
-        total_keywords_data:
-          type: number
-          format: double
-          nullable: true
-        appendix:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixAppendixsRatesDataInfo'
-          nullable: true
-        total_appendix:
-          type: number
-          format: double
-          nullable: true
-        dataforseo_labs:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixDataforseoLabsLimitsRatesDataInfo'
-          nullable: true
-        total_dataforseo_labs:
-          type: number
-          format: double
-          nullable: true
-        domain_analytics:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixDomainAnalyticsLimitsRatesDataInfo'
-          nullable: true
-        total_domain_analytics:
-          type: number
-          format: double
-          nullable: true
-        merchant:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixMerchantLimitsRatesDataInfo'
-          nullable: true
-        total_merchant:
-          type: number
-          format: double
-          nullable: true
-        on_page:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixOnPageStatisticsMoneyDataInfo'
-          nullable: true
-        total_on_page:
-          type: number
-          format: double
-          nullable: true
-        business_data:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixBusinessDataLimitsRatesDataInfo'
-          nullable: true
-        total_business_data:
-          type: number
-          format: double
-          nullable: true
-        backlinks:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixBacklinksLimitsRatesDataInfo'
-          nullable: true
-        total_backlinks:
-          type: number
-          format: double
-          nullable: true
-        app_data:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixAppDataLimitsRatesDataInfo'
-          nullable: true
-        total_app_data:
-          type: number
-          format: double
-          nullable: true
-        content_analysis:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixContentAnalysisLimitsRatesDataInfo'
-          nullable: true
-        total_content_analysis:
-          type: number
-          format: double
-          nullable: true
-        content_generation:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixContentGenerationLimitsRatesDataInfo'
-          nullable: true
-        total_content_generation:
-          type: number
-          format: double
-          nullable: true
-        value:
-          type: string
-          description: "time period for grouping\nday in the yyyy-MM-dd format\nminute in the yyyy-MM-dd HH:mm format"
-          nullable: true
     AppendixStatisticsMoneyData:
       type: object
       properties:
@@ -72934,7 +72814,7 @@ components:
         minute:
           type: object
           oneOf:
-            - $ref: '#/components/schemas/AppendixMinuteStatisticsMoneyData'
+            - $ref: '#/components/schemas/AppendixMinuteStatisticsDataInfo'
           nullable: true
     AppendixMoneyData:
       type: object

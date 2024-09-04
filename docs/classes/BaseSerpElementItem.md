@@ -66,26 +66,12 @@
 - [`CompareSitesSerpElementItem`](CompareSitesSerpElementItem.md)
 - [`CoursesSerpElementItem`](CoursesSerpElementItem.md)
 - [`AiOverviewSerpElementItem`](AiOverviewSerpElementItem.md)
-- [`MapsSearchSerpElementItem`](MapsSearchSerpElementItem.md)
-- [`MapsPaidItemSerpElementItem`](MapsPaidItemSerpElementItem.md)
-- [`NewsSearchSerpElementItem`](NewsSearchSerpElementItem.md)
 - [`EventItemSerpElementItem`](EventItemSerpElementItem.md)
-- [`ImagesSearchSerpElementItem`](ImagesSearchSerpElementItem.md)
-- [`GoogleJobsItemSerpElementItem`](GoogleJobsItemSerpElementItem.md)
-- [`AutocompleteSerpElementItem`](AutocompleteSerpElementItem.md)
-- [`DatasetSerpElementItem`](DatasetSerpElementItem.md)
-- [`YoutubeVideoInfoSerpElementItem`](YoutubeVideoInfoSerpElementItem.md)
-- [`YoutubeSubtitlesSerpElementItem`](YoutubeSubtitlesSerpElementItem.md)
-- [`YoutubeCommentSerpElementItem`](YoutubeCommentSerpElementItem.md)
 - [`DictionarySerpElementItem`](DictionarySerpElementItem.md)
 
 ## Implements
 
 - [`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md)
-
-## Indexable
-
- \[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -103,7 +89,7 @@
 
 #### Defined in
 
-main.ts:20356
+main.ts:20369
 
 ## Properties
 
@@ -113,7 +99,92 @@ main.ts:20356
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
+
+***
+
+### position?
+
+> `optional` **position**: `string`
+
+the alignment of the element in SERP
+can take the following values:
+left, right
+
+#### Implementation of
+
+[`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`position`](../interfaces/IBaseSerpElementItem.md#position)
+
+#### Defined in
+
+main.ts:20363
+
+***
+
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Implementation of
+
+[`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseSerpElementItem.md#rank_absolute)
+
+#### Defined in
+
+main.ts:20359
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+group rank in SERP
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Implementation of
+
+[`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`rank_group`](../interfaces/IBaseSerpElementItem.md#rank_group)
+
+#### Defined in
+
+main.ts:20356
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`type`](../interfaces/IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
+
+***
+
+### xpath?
+
+> `optional` **xpath**: `string`
+
+the XPath of the element
+
+#### Implementation of
+
+[`IBaseSerpElementItem`](../interfaces/IBaseSerpElementItem.md).[`xpath`](../interfaces/IBaseSerpElementItem.md#xpath)
+
+#### Defined in
+
+main.ts:20365
 
 ## Methods
 
@@ -131,7 +202,7 @@ main.ts:20354
 
 #### Defined in
 
-main.ts:20366
+main.ts:20379
 
 ***
 
@@ -149,7 +220,7 @@ main.ts:20366
 
 #### Defined in
 
-main.ts:20732
+main.ts:20696
 
 ***
 
@@ -167,4 +238,4 @@ main.ts:20732
 
 #### Defined in
 
-main.ts:20375
+main.ts:20389

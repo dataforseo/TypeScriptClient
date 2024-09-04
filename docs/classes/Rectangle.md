@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22110
+main.ts:22426
 
 ## Properties
 
@@ -46,7 +46,7 @@ height of the element in pixels
 
 #### Defined in
 
-main.ts:22106
+main.ts:22422
 
 ***
 
@@ -62,7 +62,7 @@ width of the element in pixels
 
 #### Defined in
 
-main.ts:22104
+main.ts:22420
 
 ***
 
@@ -79,7 +79,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22099
+main.ts:22415
 
 ***
 
@@ -96,7 +96,7 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22102
+main.ts:22418
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:22102
 
 #### Defined in
 
-main.ts:22119
+main.ts:22435
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:22119
 
 #### Defined in
 
-main.ts:22139
+main.ts:22455
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:22139
 
 #### Defined in
 
-main.ts:22132
+main.ts:22448

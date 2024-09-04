@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:32262
+main.ts:31638
 
 ***
 
@@ -35,7 +35,7 @@ by Google
 
 #### Defined in
 
-main.ts:32267
+main.ts:31643
 
 ***
 
@@ -48,7 +48,7 @@ URL of the page on the marketplace website where the product is hosted
 
 #### Defined in
 
-main.ts:32270
+main.ts:31646
 
 ***
 
@@ -60,7 +60,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:32257
+main.ts:31633
 
 ***
 
@@ -73,7 +73,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:32260
+main.ts:31636
 
 ***
 
@@ -85,7 +85,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32255
+main.ts:31631
 
 ***
 
@@ -97,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:32253
+main.ts:31629
 
 ***
 
@@ -109,4 +109,4 @@ URL
 
 #### Defined in
 
-main.ts:32272
+main.ts:31648

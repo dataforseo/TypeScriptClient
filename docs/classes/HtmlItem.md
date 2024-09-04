@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:38764
+main.ts:36924
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:38758
+main.ts:36918
 
 ***
 
@@ -65,7 +65,7 @@ HTML page
 
 #### Defined in
 
-main.ts:38760
+main.ts:36920
 
 ***
 
@@ -81,7 +81,7 @@ serial number of the returned HTML page
 
 #### Defined in
 
-main.ts:38753
+main.ts:36913
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:38753
 
 #### Defined in
 
-main.ts:38773
+main.ts:36933
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:38773
 
 #### Defined in
 
-main.ts:38792
+main.ts:36952
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:38792
 
 #### Defined in
 
-main.ts:38785
+main.ts:36945

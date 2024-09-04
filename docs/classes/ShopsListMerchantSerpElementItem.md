@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:180345
+main.ts:176161
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:180345
 
 #### Defined in
 
-main.ts:21025
+main.ts:21039
 
 ***
 
@@ -68,7 +68,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:180314
+main.ts:176130
 
 ***
 
@@ -86,7 +86,7 @@ USD
 
 #### Defined in
 
-main.ts:180325
+main.ts:176141
 
 ***
 
@@ -103,7 +103,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:180312
+main.ts:176128
 
 ***
 
@@ -119,7 +119,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:180304
+main.ts:176120
 
 ***
 
@@ -135,9 +135,13 @@ left, right
 
 [`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`position`](../interfaces/IShopsListMerchantSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:180300
+main.ts:21037
 
 ***
 
@@ -155,7 +159,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 #### Defined in
 
-main.ts:180341
+main.ts:176157
 
 ***
 
@@ -172,7 +176,7 @@ possible values: Used, Refurbished, New, null
 
 #### Defined in
 
-main.ts:180337
+main.ts:176153
 
 ***
 
@@ -187,9 +191,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IShopsListMerchantSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:180296
+main.ts:21033
 
 ***
 
@@ -204,9 +212,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`rank_group`](../interfaces/IShopsListMerchantSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:180293
+main.ts:21030
 
 ***
 
@@ -223,7 +235,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:180331
+main.ts:176147
 
 ***
 
@@ -240,7 +252,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:180328
+main.ts:176144
 
 ***
 
@@ -256,7 +268,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:180319
+main.ts:176135
 
 ***
 
@@ -273,7 +285,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:180334
+main.ts:176150
 
 ***
 
@@ -290,7 +302,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:180317
+main.ts:176133
 
 ***
 
@@ -306,7 +318,7 @@ product title
 
 #### Defined in
 
-main.ts:180306
+main.ts:176122
 
 ***
 
@@ -322,7 +334,27 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:180321
+main.ts:176137
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IShopsListMerchantSerpElementItem`](../interfaces/IShopsListMerchantSerpElementItem.md).[`type`](../interfaces/IShopsListMerchantSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21027
 
 ***
 
@@ -339,7 +371,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 #### Defined in
 
-main.ts:180309
+main.ts:176125
 
 ***
 
@@ -355,7 +387,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:180302
+main.ts:176118
 
 ## Methods
 
@@ -377,7 +409,7 @@ main.ts:180302
 
 #### Defined in
 
-main.ts:180350
+main.ts:176166
 
 ***
 
@@ -399,7 +431,7 @@ main.ts:180350
 
 #### Defined in
 
-main.ts:180385
+main.ts:176198
 
 ***
 
@@ -421,4 +453,4 @@ main.ts:180385
 
 #### Defined in
 
-main.ts:180378
+main.ts:176191

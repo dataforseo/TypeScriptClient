@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:101864
+main.ts:99168
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:101864
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -60,7 +60,7 @@ main.ts:20752
 
 > `optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:101855
+main.ts:99159
 
 ***
 
@@ -84,7 +84,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:101860
+main.ts:99164
 
 ***
 
@@ -100,9 +100,13 @@ left, right
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:101840
+main.ts:20738
 
 ***
 
@@ -118,7 +122,7 @@ price of the shopping element
 
 #### Defined in
 
-main.ts:101851
+main.ts:99155
 
 ***
 
@@ -133,9 +137,13 @@ absolute position among all the elements in SERP
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:101836
+main.ts:20734
 
 ***
 
@@ -150,9 +158,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:101833
+main.ts:20731
 
 ***
 
@@ -168,7 +180,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:101849
+main.ts:99153
 
 ***
 
@@ -185,7 +197,7 @@ indicates the source of information included in the shopping_element
 
 #### Defined in
 
-main.ts:101847
+main.ts:99151
 
 ***
 
@@ -202,7 +214,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:101858
+main.ts:99162
 
 ***
 
@@ -210,7 +222,7 @@ main.ts:101858
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -218,7 +230,27 @@ title of the item
 
 #### Defined in
 
-main.ts:101844
+main.ts:99148
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -226,7 +258,7 @@ main.ts:101844
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -234,7 +266,7 @@ URL link
 
 #### Defined in
 
-main.ts:101853
+main.ts:99157
 
 ***
 
@@ -248,9 +280,13 @@ the XPath of the element
 
 [`IStocksBoxDataforseoLabsSerpElementItem`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IStocksBoxDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:101842
+main.ts:20740
 
 ## Methods
 
@@ -272,7 +308,7 @@ main.ts:101842
 
 #### Defined in
 
-main.ts:101869
+main.ts:99173
 
 ***
 
@@ -294,7 +330,7 @@ main.ts:101869
 
 #### Defined in
 
-main.ts:101898
+main.ts:99198
 
 ***
 
@@ -316,4 +352,4 @@ main.ts:101898
 
 #### Defined in
 
-main.ts:101891
+main.ts:99191

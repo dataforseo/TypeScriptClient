@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:130179
+main.ts:127069
 
 ## Properties
 
@@ -47,7 +47,7 @@ conains keyword popularity data by age and gender
 
 #### Defined in
 
-main.ts:130171
+main.ts:127061
 
 ***
 
@@ -65,7 +65,7 @@ if you specified a single keyword, the value will be null
 
 #### Defined in
 
-main.ts:130175
+main.ts:127065
 
 ***
 
@@ -82,7 +82,7 @@ the data included in the demography and demography_comparison is based on the ke
 
 #### Defined in
 
-main.ts:130168
+main.ts:127058
 
 ***
 
@@ -99,7 +99,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:130163
+main.ts:127053
 
 ***
 
@@ -115,7 +115,7 @@ type of element
 
 #### Defined in
 
-main.ts:130165
+main.ts:127055
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:130165
 
 #### Defined in
 
-main.ts:130188
+main.ts:127078
 
 ***
 
@@ -151,7 +151,7 @@ main.ts:130188
 
 #### Defined in
 
-main.ts:130213
+main.ts:127103
 
 ***
 
@@ -169,4 +169,4 @@ main.ts:130213
 
 #### Defined in
 
-main.ts:130206
+main.ts:127096

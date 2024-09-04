@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:143102
+main.ts:139968
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:143107
+main.ts:139973
 
 ***
 
@@ -52,7 +52,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Defined in
 
-main.ts:143113
+main.ts:139979
 
 ***
 
@@ -64,7 +64,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:143109
+main.ts:139975
 
 ***
 
@@ -76,4 +76,4 @@ target from the POST array
 
 #### Defined in
 
-main.ts:143097
+main.ts:139963

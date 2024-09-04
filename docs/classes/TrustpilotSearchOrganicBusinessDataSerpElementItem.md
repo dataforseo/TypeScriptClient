@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:215608
+main.ts:210924
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:215608
 
 #### Defined in
 
-main.ts:21279
+main.ts:21308
 
 ***
 
@@ -68,7 +68,7 @@ domain of the establishment
 
 #### Defined in
 
-main.ts:215598
+main.ts:210914
 
 ***
 
@@ -76,16 +76,19 @@ main.ts:215598
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank among all the elements
 
 #### Implementation of
 
 [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_absolute`](BaseBusinessDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:215594
+main.ts:21306
 
 ***
 
@@ -94,15 +97,19 @@ main.ts:215594
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
 
 #### Implementation of
 
 [`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_group`](BaseBusinessDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:215591
+main.ts:21304
 
 ***
 
@@ -118,7 +125,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-main.ts:215604
+main.ts:210920
 
 ***
 
@@ -134,7 +141,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:215602
+main.ts:210918
 
 ***
 
@@ -150,7 +157,27 @@ title of the establishment
 
 #### Defined in
 
-main.ts:215596
+main.ts:210912
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ITrustpilotSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md).[`type`](../interfaces/ITrustpilotSearchOrganicBusinessDataSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`type`](BaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21301
 
 ***
 
@@ -166,7 +193,7 @@ URL to the establishment
 
 #### Defined in
 
-main.ts:215600
+main.ts:210916
 
 ## Methods
 
@@ -188,7 +215,7 @@ main.ts:215600
 
 #### Defined in
 
-main.ts:215613
+main.ts:210929
 
 ***
 
@@ -210,7 +237,7 @@ main.ts:215613
 
 #### Defined in
 
-main.ts:215637
+main.ts:210951
 
 ***
 
@@ -232,4 +259,4 @@ main.ts:215637
 
 #### Defined in
 
-main.ts:215630
+main.ts:210944

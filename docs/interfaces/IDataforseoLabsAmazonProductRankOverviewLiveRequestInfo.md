@@ -21,10 +21,13 @@ required field
 product IDs to receive ranking data for;
 the maximum number of ASINs you can specify in this array is 1000;
 you can receive the asin parameter by making a separate request to the Amazon Products endpoint
+Note: all letters in ASIN code must be specified in uppercase format;
+example:
+B01LW2SL7R
 
 #### Defined in
 
-main.ts:106854
+main.ts:103988
 
 ***
 
@@ -41,7 +44,7 @@ en
 
 #### Defined in
 
-main.ts:106884
+main.ts:104018
 
 ***
 
@@ -58,7 +61,7 @@ English
 
 #### Defined in
 
-main.ts:106877
+main.ts:104011
 
 ***
 
@@ -76,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:106870
+main.ts:104004
 
 ***
 
@@ -94,7 +97,7 @@ United States
 
 #### Defined in
 
-main.ts:106862
+main.ts:103996
 
 ***
 
@@ -110,4 +113,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:106890
+main.ts:104024

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:134640
+main.ts:131506
 
 ## Properties
 
@@ -47,7 +47,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:134632
+main.ts:131498
 
 ***
 
@@ -69,7 +69,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:134620
+main.ts:131486
 
 ***
 
@@ -87,7 +87,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:134624
+main.ts:131490
 
 ***
 
@@ -105,7 +105,7 @@ possible values: all, mobile, desktop, tablet
 
 #### Defined in
 
-main.ts:134612
+main.ts:131478
 
 ***
 
@@ -121,7 +121,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:134602
+main.ts:131468
 
 ***
 
@@ -137,7 +137,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:134606
+main.ts:131472
 
 ***
 
@@ -153,7 +153,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:134604
+main.ts:131470
 
 ***
 
@@ -171,7 +171,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:134636
+main.ts:131502
 
 ***
 
@@ -187,7 +187,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:134608
+main.ts:131474
 
 ***
 
@@ -206,7 +206,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:134629
+main.ts:131495
 
 ## Methods
 
@@ -224,7 +224,7 @@ main.ts:134629
 
 #### Defined in
 
-main.ts:134649
+main.ts:131515
 
 ***
 
@@ -242,7 +242,7 @@ main.ts:134649
 
 #### Defined in
 
-main.ts:134683
+main.ts:131549
 
 ***
 
@@ -260,4 +260,4 @@ main.ts:134683
 
 #### Defined in
 
-main.ts:134676
+main.ts:131542

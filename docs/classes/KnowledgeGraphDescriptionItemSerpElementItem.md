@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:27884
+main.ts:28047
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:27884
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -70,7 +70,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27876
+main.ts:28039
 
 ***
 
@@ -86,9 +86,13 @@ left, right
 
 [`IKnowledgeGraphDescriptionItemSerpElementItem`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:27868
+main.ts:20363
 
 ***
 
@@ -103,9 +107,13 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphDescriptionItemSerpElementItem`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:27864
+main.ts:20359
 
 ***
 
@@ -121,9 +129,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphDescriptionItemSerpElementItem`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:27861
+main.ts:20356
 
 ***
 
@@ -141,7 +153,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27880
+main.ts:28043
 
 ***
 
@@ -157,7 +169,27 @@ description content
 
 #### Defined in
 
-main.ts:27872
+main.ts:28035
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IKnowledgeGraphDescriptionItemSerpElementItem`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md).[`type`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -171,9 +203,13 @@ the XPath of the element
 
 [`IKnowledgeGraphDescriptionItemSerpElementItem`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphDescriptionItemSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:27870
+main.ts:20365
 
 ## Methods
 
@@ -195,7 +231,7 @@ main.ts:27870
 
 #### Defined in
 
-main.ts:27889
+main.ts:28052
 
 ***
 
@@ -217,7 +253,7 @@ main.ts:27889
 
 #### Defined in
 
-main.ts:27917
+main.ts:28076
 
 ***
 
@@ -239,4 +275,4 @@ main.ts:27917
 
 #### Defined in
 
-main.ts:27910
+main.ts:28069

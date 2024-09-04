@@ -25,7 +25,23 @@ domain of the reservation software
 
 #### Defined in
 
-main.ts:23636
+main.ts:23952
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseLocalBusinessLink`](IBaseLocalBusinessLink.md).[`type`](IBaseLocalBusinessLink.md#type)
+
+#### Defined in
+
+main.ts:23900
 
 ***
 
@@ -37,4 +53,4 @@ URL to make a reservation
 
 #### Defined in
 
-main.ts:23638
+main.ts:23954

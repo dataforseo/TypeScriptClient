@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:157083
+main.ts:153949
 
 ## Properties
 
@@ -48,7 +48,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:157065
+main.ts:153931
 
 ***
 
@@ -65,7 +65,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:157059
+main.ts:153925
 
 ***
 
@@ -81,7 +81,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:157061
+main.ts:153927
 
 ***
 
@@ -103,7 +103,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 #### Defined in
 
-main.ts:157073
+main.ts:153939
 
 ***
 
@@ -120,7 +120,7 @@ on-page information about the target domain and crawling process
 
 #### Defined in
 
-main.ts:157076
+main.ts:153942
 
 ***
 
@@ -137,7 +137,7 @@ metrics information on the target website pages
 
 #### Defined in
 
-main.ts:157079
+main.ts:153945
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:157079
 
 #### Defined in
 
-main.ts:157092
+main.ts:153958
 
 ***
 
@@ -173,7 +173,7 @@ main.ts:157092
 
 #### Defined in
 
-main.ts:157114
+main.ts:153980
 
 ***
 
@@ -191,4 +191,4 @@ main.ts:157114
 
 #### Defined in
 
-main.ts:157107
+main.ts:153973

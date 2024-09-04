@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:38528
+main.ts:36688
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:38505
+main.ts:36665
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:38510
+main.ts:36670
 
 ***
 
@@ -85,7 +85,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
 
 #### Defined in
 
-main.ts:38518
+main.ts:36678
 
 ***
 
@@ -101,7 +101,7 @@ contains arrays of elements available in the list
 
 #### Defined in
 
-main.ts:38524
+main.ts:36684
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:38522
+main.ts:36682
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:38494
+main.ts:36654
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:38502
+main.ts:36662
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:38500
+main.ts:36660
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:38498
+main.ts:36658
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:38520
+main.ts:36680
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:38513
+main.ts:36673
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:38496
+main.ts:36656
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:38496
 
 #### Defined in
 
-main.ts:38537
+main.ts:36697
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:38537
 
 #### Defined in
 
-main.ts:38573
+main.ts:36733
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:38573
 
 #### Defined in
 
-main.ts:38566
+main.ts:36726

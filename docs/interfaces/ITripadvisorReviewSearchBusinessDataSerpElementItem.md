@@ -27,7 +27,7 @@ example:
 
 #### Defined in
 
-main.ts:219035
+main.ts:214295
 
 ***
 
@@ -40,7 +40,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:219026
+main.ts:214286
 
 ***
 
@@ -48,12 +48,15 @@ main.ts:219026
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank among all the elements
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:219023
+main.ts:21392
 
 ***
 
@@ -62,11 +65,15 @@ main.ts:219023
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:219020
+main.ts:21390
 
 ***
 
@@ -78,7 +85,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:219030
+main.ts:214290
 
 ***
 
@@ -90,7 +97,7 @@ contains information about the owner’s response
 
 #### Defined in
 
-main.ts:219050
+main.ts:214310
 
 ***
 
@@ -103,7 +110,7 @@ contains highlighted review criteria and assessments
 
 #### Defined in
 
-main.ts:219053
+main.ts:214313
 
 ***
 
@@ -115,7 +122,7 @@ contains URLs of the images used in the review
 
 #### Defined in
 
-main.ts:219046
+main.ts:214306
 
 ***
 
@@ -127,7 +134,7 @@ content of the review
 
 #### Defined in
 
-main.ts:219044
+main.ts:214304
 
 ***
 
@@ -142,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:219040
+main.ts:214300
 
 ***
 
@@ -154,7 +161,23 @@ title of the review
 
 #### Defined in
 
-main.ts:219042
+main.ts:214302
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21387
 
 ***
 
@@ -166,7 +189,7 @@ URL of the review
 
 #### Defined in
 
-main.ts:219028
+main.ts:214288
 
 ***
 
@@ -178,4 +201,4 @@ information from the reviewer’s profile
 
 #### Defined in
 
-main.ts:219048
+main.ts:214308

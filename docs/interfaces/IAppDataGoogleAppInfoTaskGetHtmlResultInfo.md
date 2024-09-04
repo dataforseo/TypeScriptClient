@@ -20,7 +20,7 @@ application ID received in a POST request
 
 #### Defined in
 
-main.ts:194729
+main.ts:190221
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:194742
+main.ts:190234
 
 ***
 
@@ -47,7 +47,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:194746
+main.ts:190238
 
 ***
 
@@ -59,7 +59,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:194744
+main.ts:190236
 
 ***
 
@@ -71,7 +71,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:194737
+main.ts:190229
 
 ***
 
@@ -83,7 +83,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:194735
+main.ts:190227
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:194733
+main.ts:190225
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:194731
+main.ts:190223

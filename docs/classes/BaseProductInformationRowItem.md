@@ -36,7 +36,7 @@
 
 #### Defined in
 
-main.ts:23101
+main.ts:23419
 
 ## Properties
 
@@ -46,7 +46,23 @@ main.ts:23101
 
 #### Defined in
 
-main.ts:23099
+main.ts:23417
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseProductInformationRowItem`](../interfaces/IBaseProductInformationRowItem.md).[`type`](../interfaces/IBaseProductInformationRowItem.md#type)
+
+#### Defined in
+
+main.ts:23413
 
 ## Methods
 
@@ -64,7 +80,7 @@ main.ts:23099
 
 #### Defined in
 
-main.ts:23111
+main.ts:23429
 
 ***
 
@@ -82,7 +98,7 @@ main.ts:23111
 
 #### Defined in
 
-main.ts:23142
+main.ts:23461
 
 ***
 
@@ -100,4 +116,4 @@ main.ts:23142
 
 #### Defined in
 
-main.ts:23120
+main.ts:23439

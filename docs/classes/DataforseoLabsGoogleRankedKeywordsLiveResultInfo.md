@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:93145
+main.ts:91785
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains ranked keywords and related data
 
 #### Defined in
 
-main.ts:93141
+main.ts:91781
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:93133
+main.ts:91773
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:93129
+main.ts:91769
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:93126
+main.ts:91766
 
 ***
 
@@ -117,7 +117,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Defined in
 
-main.ts:93136
+main.ts:91776
 
 ***
 
@@ -138,7 +138,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Defined in
 
-main.ts:93139
+main.ts:91779
 
 ***
 
@@ -154,7 +154,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93121
+main.ts:91761
 
 ***
 
@@ -170,7 +170,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:93123
+main.ts:91763
 
 ***
 
@@ -186,7 +186,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:93131
+main.ts:91771
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:93131
 
 #### Defined in
 
-main.ts:93154
+main.ts:91794
 
 ***
 
@@ -222,7 +222,7 @@ main.ts:93154
 
 #### Defined in
 
-main.ts:93195
+main.ts:91835
 
 ***
 
@@ -240,4 +240,4 @@ main.ts:93195
 
 #### Defined in
 
-main.ts:93188
+main.ts:91828

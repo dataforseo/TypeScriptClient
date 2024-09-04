@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:27766
+main.ts:27963
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:27766
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -70,7 +70,7 @@ action:listen_artist
 
 #### Defined in
 
-main.ts:27754
+main.ts:27951
 
 ***
 
@@ -86,7 +86,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:27758
+main.ts:27955
 
 ***
 
@@ -102,7 +102,7 @@ link of the element
 
 #### Defined in
 
-main.ts:27756
+main.ts:27953
 
 ***
 
@@ -118,9 +118,13 @@ left, right
 
 [`IKnowledgeGraphCarouselItemSerpElementItem`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:27746
+main.ts:20363
 
 ***
 
@@ -135,9 +139,13 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphCarouselItemSerpElementItem`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:27742
+main.ts:20359
 
 ***
 
@@ -153,9 +161,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphCarouselItemSerpElementItem`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:27739
+main.ts:20356
 
 ***
 
@@ -173,7 +185,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27762
+main.ts:27959
 
 ***
 
@@ -189,7 +201,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27750
+main.ts:27947
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IKnowledgeGraphCarouselItemSerpElementItem`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md).[`type`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -203,9 +235,13 @@ the XPath of the element
 
 [`IKnowledgeGraphCarouselItemSerpElementItem`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphCarouselItemSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:27748
+main.ts:20365
 
 ## Methods
 
@@ -227,7 +263,7 @@ main.ts:27748
 
 #### Defined in
 
-main.ts:27771
+main.ts:27968
 
 ***
 
@@ -249,7 +285,7 @@ main.ts:27771
 
 #### Defined in
 
-main.ts:27801
+main.ts:27994
 
 ***
 
@@ -271,4 +307,4 @@ main.ts:27801
 
 #### Defined in
 
-main.ts:27794
+main.ts:27987

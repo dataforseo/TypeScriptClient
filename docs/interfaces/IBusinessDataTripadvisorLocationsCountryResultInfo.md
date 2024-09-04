@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:217095
+main.ts:212385
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:217085
+main.ts:212375
 
 ***
 
@@ -44,7 +44,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:217087
+main.ts:212377
 
 ***
 
@@ -60,7 +60,7 @@ example:
 
 #### Defined in
 
-main.ts:217093
+main.ts:212383
 
 ***
 
@@ -72,4 +72,4 @@ location type
 
 #### Defined in
 
-main.ts:217097
+main.ts:212387

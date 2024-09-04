@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:200661
+main.ts:196043
 
 ## Properties
 
@@ -46,7 +46,7 @@ application id received in a POST array
 
 #### Defined in
 
-main.ts:200627
+main.ts:196009
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:200638
+main.ts:196020
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:200643
+main.ts:196025
 
 ***
 
@@ -98,7 +98,7 @@ found reviews
 
 #### Defined in
 
-main.ts:200657
+main.ts:196039
 
 ***
 
@@ -115,7 +115,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:200655
+main.ts:196037
 
 ***
 
@@ -131,7 +131,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:200635
+main.ts:196017
 
 ***
 
@@ -147,7 +147,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:200633
+main.ts:196015
 
 ***
 
@@ -164,7 +164,7 @@ rating of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:200649
+main.ts:196031
 
 ***
 
@@ -181,7 +181,7 @@ in this case, the value will be null as App Store does not indicate the total nu
 
 #### Defined in
 
-main.ts:200652
+main.ts:196034
 
 ***
 
@@ -197,7 +197,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:200631
+main.ts:196013
 
 ***
 
@@ -214,7 +214,7 @@ title of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:200646
+main.ts:196028
 
 ***
 
@@ -230,7 +230,7 @@ type of element
 
 #### Defined in
 
-main.ts:200629
+main.ts:196011
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:200629
 
 #### Defined in
 
-main.ts:200670
+main.ts:196052
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:200670
 
 #### Defined in
 
-main.ts:200702
+main.ts:196084
 
 ***
 
@@ -284,4 +284,4 @@ main.ts:200702
 
 #### Defined in
 
-main.ts:200695
+main.ts:196077

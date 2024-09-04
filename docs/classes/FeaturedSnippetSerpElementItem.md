@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:27266
+main.ts:27499
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:27266
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ breadcrumb of the ad element in SERP
 
 #### Defined in
 
-main.ts:27240
+main.ts:27479
 
 ***
 
@@ -84,7 +84,7 @@ description of the ad element in SERP
 
 #### Defined in
 
-main.ts:27236
+main.ts:27475
 
 ***
 
@@ -100,7 +100,7 @@ domain of the ad element in SERP
 
 #### Defined in
 
-main.ts:27232
+main.ts:27471
 
 ***
 
@@ -116,7 +116,7 @@ title
 
 #### Defined in
 
-main.ts:27248
+main.ts:27481
 
 ***
 
@@ -132,7 +132,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27255
+main.ts:27488
 
 ***
 
@@ -148,9 +148,13 @@ left, right
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`position`](../interfaces/IFeaturedSnippetSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:27244
+main.ts:20363
 
 ***
 
@@ -159,17 +163,19 @@ main.ts:27244
 > `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
-absolute position among all the elements found in SERP
-note values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
-to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`rank_absolute`](../interfaces/IFeaturedSnippetSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:27230
+main.ts:20359
 
 ***
 
@@ -185,9 +191,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`rank_group`](../interfaces/IFeaturedSnippetSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:27225
+main.ts:20356
 
 ***
 
@@ -205,7 +215,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27262
+main.ts:27495
 
 ***
 
@@ -222,7 +232,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27258
+main.ts:27491
 
 ***
 
@@ -241,7 +251,7 @@ example:
 
 #### Defined in
 
-main.ts:27253
+main.ts:27486
 
 ***
 
@@ -257,7 +267,27 @@ title of the ad element in SERP
 
 #### Defined in
 
-main.ts:27234
+main.ts:27473
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`type`](../interfaces/IFeaturedSnippetSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -273,7 +303,7 @@ relevant URL of the ad element in SERP
 
 #### Defined in
 
-main.ts:27238
+main.ts:27477
 
 ***
 
@@ -287,9 +317,13 @@ the XPath of the element
 
 [`IFeaturedSnippetSerpElementItem`](../interfaces/IFeaturedSnippetSerpElementItem.md).[`xpath`](../interfaces/IFeaturedSnippetSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:27246
+main.ts:20365
 
 ## Methods
 
@@ -311,7 +345,7 @@ main.ts:27246
 
 #### Defined in
 
-main.ts:27271
+main.ts:27504
 
 ***
 
@@ -333,7 +367,7 @@ main.ts:27271
 
 #### Defined in
 
-main.ts:27306
+main.ts:27535
 
 ***
 
@@ -355,4 +389,4 @@ main.ts:27306
 
 #### Defined in
 
-main.ts:27299
+main.ts:27528

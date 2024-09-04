@@ -16,11 +16,12 @@
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](../classes/DataforseoLabsGoogleHistoricalSerpsLiveItem.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Defined in
 
-main.ts:98444
+main.ts:96712
 
 ***
 
@@ -32,7 +33,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:98442
+main.ts:96709
 
 ***
 
@@ -45,7 +46,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:98434
+main.ts:96701
 
 ***
 
@@ -57,7 +58,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:98438
+main.ts:96705
 
 ***
 
@@ -69,7 +70,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:98436
+main.ts:96703
 
 ***
 
@@ -81,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98431
+main.ts:96698
 
 ***
 
@@ -93,4 +94,4 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:98440
+main.ts:96707

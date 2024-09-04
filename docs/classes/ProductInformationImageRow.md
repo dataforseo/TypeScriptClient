@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:186429
+main.ts:182051
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:186429
 
 #### Defined in
 
-main.ts:23099
+main.ts:23417
 
 ***
 
@@ -68,7 +68,27 @@ alternative text of the related product image
 
 #### Defined in
 
-main.ts:186423
+main.ts:182045
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IProductInformationImageRow`](../interfaces/IProductInformationImageRow.md).[`type`](../interfaces/IProductInformationImageRow.md#type)
+
+#### Inherited from
+
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`type`](BaseProductInformationRowItem.md#type)
+
+#### Defined in
+
+main.ts:23413
 
 ***
 
@@ -84,7 +104,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:186425
+main.ts:182047
 
 ## Methods
 
@@ -106,7 +126,7 @@ main.ts:186425
 
 #### Defined in
 
-main.ts:186434
+main.ts:182056
 
 ***
 
@@ -128,7 +148,7 @@ main.ts:186434
 
 #### Defined in
 
-main.ts:186453
+main.ts:182075
 
 ***
 
@@ -150,4 +170,4 @@ main.ts:186453
 
 #### Defined in
 
-main.ts:186446
+main.ts:182068

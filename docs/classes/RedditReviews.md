@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:219945
+main.ts:215205
 
 ## Properties
 
@@ -47,7 +47,7 @@ nicknname of the user who published the post in the subreddit and shared the URL
 
 #### Defined in
 
-main.ts:219935
+main.ts:215195
 
 ***
 
@@ -63,7 +63,7 @@ URL to the subreddit post
 
 #### Defined in
 
-main.ts:219939
+main.ts:215199
 
 ***
 
@@ -79,7 +79,7 @@ the name of the subreddit
 
 #### Defined in
 
-main.ts:219932
+main.ts:215192
 
 ***
 
@@ -95,7 +95,7 @@ number of subreddit members
 
 #### Defined in
 
-main.ts:219941
+main.ts:215201
 
 ***
 
@@ -111,7 +111,7 @@ title of the subreddit post
 
 #### Defined in
 
-main.ts:219937
+main.ts:215197
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:219937
 
 #### Defined in
 
-main.ts:219954
+main.ts:215214
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:219954
 
 #### Defined in
 
-main.ts:219975
+main.ts:215235
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:219975
 
 #### Defined in
 
-main.ts:219968
+main.ts:215228

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:178811
+main.ts:174705
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:178811
 
 #### Defined in
 
-main.ts:21025
+main.ts:21039
 
 ***
 
@@ -68,7 +68,7 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-main.ts:178802
+main.ts:174696
 
 ***
 
@@ -84,7 +84,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:178798
+main.ts:174692
 
 ***
 
@@ -100,9 +100,13 @@ left, right
 
 [`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`position`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:178794
+main.ts:21037
 
 ***
 
@@ -117,9 +121,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:178790
+main.ts:21033
 
 ***
 
@@ -134,9 +142,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`rank_group`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:178787
+main.ts:21030
 
 ***
 
@@ -153,7 +165,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:178807
+main.ts:174701
 
 ***
 
@@ -169,7 +181,27 @@ product title
 
 #### Defined in
 
-main.ts:178800
+main.ts:174694
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleShoppingPaidMerchantSerpElementItem`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md).[`type`](../interfaces/IGoogleShoppingPaidMerchantSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21027
 
 ***
 
@@ -185,7 +217,7 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-main.ts:178804
+main.ts:174698
 
 ***
 
@@ -201,7 +233,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:178796
+main.ts:174690
 
 ## Methods
 
@@ -223,7 +255,7 @@ main.ts:178796
 
 #### Defined in
 
-main.ts:178816
+main.ts:174710
 
 ***
 
@@ -245,7 +277,7 @@ main.ts:178816
 
 #### Defined in
 
-main.ts:178842
+main.ts:174733
 
 ***
 
@@ -267,4 +299,4 @@ main.ts:178842
 
 #### Defined in
 
-main.ts:178835
+main.ts:174726

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:210214
+main.ts:205552
 
 ## Properties
 
@@ -46,7 +46,7 @@ standardised amenity name
 
 #### Defined in
 
-main.ts:210204
+main.ts:205542
 
 ***
 
@@ -62,7 +62,7 @@ displayed amenity name
 
 #### Defined in
 
-main.ts:210206
+main.ts:205544
 
 ***
 
@@ -78,7 +78,7 @@ standardised details about the amenity
 
 #### Defined in
 
-main.ts:210208
+main.ts:205546
 
 ***
 
@@ -94,7 +94,7 @@ displayed details about the amenity
 
 #### Defined in
 
-main.ts:210210
+main.ts:205548
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:210210
 
 #### Defined in
 
-main.ts:210223
+main.ts:205561
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:210223
 
 #### Defined in
 
-main.ts:210243
+main.ts:205581
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:210243
 
 #### Defined in
 
-main.ts:210236
+main.ts:205574

@@ -27,7 +27,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:39995
+main.ts:38155
 
 ***
 
@@ -47,7 +47,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:40005
+main.ts:38165
 
 ***
 
@@ -66,7 +66,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:39986
+main.ts:38146
 
 ***
 
@@ -83,7 +83,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:39977
+main.ts:38137
 
 ***
 
@@ -102,7 +102,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:39887
+main.ts:38047
 
 ***
 
@@ -117,7 +117,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:39944
+main.ts:38104
 
 ***
 
@@ -133,7 +133,7 @@ default value: true
 
 #### Defined in
 
-main.ts:39970
+main.ts:38130
 
 ***
 
@@ -152,7 +152,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:39872
+main.ts:38032
 
 ***
 
@@ -169,7 +169,7 @@ en
 
 #### Defined in
 
-main.ts:39932
+main.ts:38092
 
 ***
 
@@ -186,7 +186,7 @@ English
 
 #### Defined in
 
-main.ts:39925
+main.ts:38085
 
 ***
 
@@ -204,7 +204,7 @@ if the element is absent or contains "asynchronous_ai_overview": false, all extr
 
 #### Defined in
 
-main.ts:40020
+main.ts:38180
 
 ***
 
@@ -221,7 +221,7 @@ example:
 
 #### Defined in
 
-main.ts:39908
+main.ts:38068
 
 ***
 
@@ -241,7 +241,7 @@ example:
 
 #### Defined in
 
-main.ts:39918
+main.ts:38078
 
 ***
 
@@ -258,7 +258,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:39901
+main.ts:38061
 
 ***
 
@@ -275,7 +275,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:39894
+main.ts:38054
 
 ***
 
@@ -292,7 +292,7 @@ default value: android
 
 #### Defined in
 
-main.ts:39951
+main.ts:38111
 
 ***
 
@@ -309,7 +309,7 @@ possible values: from 1 to 4
 
 #### Defined in
 
-main.ts:40012
+main.ts:38172
 
 ***
 
@@ -326,7 +326,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:39939
+main.ts:38099
 
 ***
 
@@ -340,7 +340,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:40024
+main.ts:38184
 
 ***
 
@@ -356,7 +356,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:40030
+main.ts:38190
 
 ***
 
@@ -379,7 +379,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Defined in
 
-main.ts:39964
+main.ts:38124
 
 ***
 
@@ -395,4 +395,4 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-main.ts:39878
+main.ts:38038

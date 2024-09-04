@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:194185
+main.ts:189700
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:194185
 
 #### Defined in
 
-main.ts:21701
+main.ts:21983
 
 ***
 
@@ -68,7 +68,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:194108
+main.ts:189627
 
 ***
 
@@ -84,7 +84,7 @@ description of the app
 
 #### Defined in
 
-main.ts:194116
+main.ts:189633
 
 ***
 
@@ -100,7 +100,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:194134
+main.ts:189649
 
 ***
 
@@ -116,7 +116,7 @@ physical address of the developer
 
 #### Defined in
 
-main.ts:194142
+main.ts:189657
 
 ***
 
@@ -132,7 +132,7 @@ email address of the developer
 
 #### Defined in
 
-main.ts:194140
+main.ts:189655
 
 ***
 
@@ -148,7 +148,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:194136
+main.ts:189651
 
 ***
 
@@ -164,7 +164,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:194138
+main.ts:189653
 
 ***
 
@@ -180,7 +180,7 @@ official website of the developer
 
 #### Defined in
 
-main.ts:194144
+main.ts:189659
 
 ***
 
@@ -197,7 +197,7 @@ contains relevant app categories
 
 #### Defined in
 
-main.ts:194178
+main.ts:189693
 
 ***
 
@@ -213,7 +213,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:194114
+main.ts:189631
 
 ***
 
@@ -230,7 +230,7 @@ contains URLs to the images published on the app page on Google Play
 
 #### Defined in
 
-main.ts:194166
+main.ts:189681
 
 ***
 
@@ -247,7 +247,7 @@ approximate number of installs as displayed on the app page
 
 #### Defined in
 
-main.ts:194129
+main.ts:189644
 
 ***
 
@@ -264,7 +264,7 @@ the exact number of installs of the app
 
 #### Defined in
 
-main.ts:194132
+main.ts:189647
 
 ***
 
@@ -280,7 +280,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:194124
+main.ts:189639
 
 ***
 
@@ -299,7 +299,7 @@ example:
 
 #### Defined in
 
-main.ts:194160
+main.ts:189675
 
 ***
 
@@ -315,7 +315,7 @@ main category of the app
 
 #### Defined in
 
-main.ts:194126
+main.ts:189641
 
 ***
 
@@ -331,7 +331,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:194148
+main.ts:189663
 
 ***
 
@@ -348,7 +348,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:194175
+main.ts:189690
 
 ***
 
@@ -357,15 +357,20 @@ main.ts:194175
 > `optional` **position**: `string`
 
 the alignment of the element in SERP
-can take the following values: left
+can take the following values:
+left, right
 
 #### Implementation of
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`position`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`position`](BaseAppDataSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:194106
+main.ts:21977
 
 ***
 
@@ -381,7 +386,7 @@ price of the app
 
 #### Defined in
 
-main.ts:194122
+main.ts:189637
 
 ***
 
@@ -389,16 +394,20 @@ main.ts:194122
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed apps
-absolute position among all apps on the list
+absolute rank in SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_absolute`](BaseAppDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:194103
+main.ts:21973
 
 ***
 
@@ -413,9 +422,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`rank_group`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_group`](BaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:194100
+main.ts:21970
 
 ***
 
@@ -429,9 +442,13 @@ average rating of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`rating`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#rating)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rating`](BaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:194120
+main.ts:21981
 
 ***
 
@@ -450,7 +467,7 @@ example:
 
 #### Defined in
 
-main.ts:194155
+main.ts:189670
 
 ***
 
@@ -466,7 +483,7 @@ the total number of reviews the app has
 
 #### Defined in
 
-main.ts:194118
+main.ts:189635
 
 ***
 
@@ -483,7 +500,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:194172
+main.ts:189687
 
 ***
 
@@ -499,7 +516,7 @@ size of the app
 
 #### Defined in
 
-main.ts:194150
+main.ts:189665
 
 ***
 
@@ -516,7 +533,7 @@ contains relevant app tags
 
 #### Defined in
 
-main.ts:194181
+main.ts:189696
 
 ***
 
@@ -530,9 +547,33 @@ title of the app
 
 [`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`title`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#title)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`title`](BaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:194110
+main.ts:21979
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAppDataGooglePlayInfoOrganicSerpElementItem`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md).[`type`](../interfaces/IAppDataGooglePlayInfoOrganicSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`type`](BaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21967
 
 ***
 
@@ -549,7 +590,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:194163
+main.ts:189678
 
 ***
 
@@ -565,7 +606,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:194112
+main.ts:189629
 
 ***
 
@@ -581,7 +622,7 @@ current version of the app
 
 #### Defined in
 
-main.ts:194146
+main.ts:189661
 
 ***
 
@@ -598,7 +639,7 @@ contains URLs to the video published on the app page on Google Play
 
 #### Defined in
 
-main.ts:194169
+main.ts:189684
 
 ## Methods
 
@@ -620,7 +661,7 @@ main.ts:194169
 
 #### Defined in
 
-main.ts:194190
+main.ts:189705
 
 ***
 
@@ -642,7 +683,7 @@ main.ts:194190
 
 #### Defined in
 
-main.ts:194264
+main.ts:189774
 
 ***
 
@@ -664,4 +705,4 @@ main.ts:194264
 
 #### Defined in
 
-main.ts:194257
+main.ts:189767

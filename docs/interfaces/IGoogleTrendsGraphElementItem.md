@@ -24,7 +24,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:126705
+main.ts:123733
 
 ***
 
@@ -36,7 +36,7 @@ Google Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:126703
+main.ts:123731
 
 ***
 
@@ -47,9 +47,13 @@ main.ts:126703
 relevant keywords
 the data included in the google_trends_graph element is based on the keywords listed in this array
 
+#### Inherited from
+
+[`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`keywords`](IBaseGoogleTrendsItem.md#keywords)
+
 #### Defined in
 
-main.ts:126701
+main.ts:21881
 
 ***
 
@@ -60,9 +64,13 @@ main.ts:126701
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
 
+#### Inherited from
+
+[`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`position`](IBaseGoogleTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:126696
+main.ts:21876
 
 ***
 
@@ -72,6 +80,26 @@ main.ts:126696
 
 title of the element in Google Trends
 
+#### Inherited from
+
+[`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`title`](IBaseGoogleTrendsItem.md#title)
+
 #### Defined in
 
-main.ts:126698
+main.ts:21878
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`type`](IBaseGoogleTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21873

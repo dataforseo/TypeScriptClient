@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:184895
+main.ts:180587
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:184895
 
 #### Defined in
 
-main.ts:22007
+main.ts:22315
 
 ***
 
@@ -68,7 +68,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:184891
+main.ts:180583
 
 ***
 
@@ -86,7 +86,7 @@ left, right
 
 #### Defined in
 
-main.ts:184887
+main.ts:180581
 
 ***
 
@@ -94,16 +94,20 @@ main.ts:184887
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank in SERP
-absolute position among all the elements found in Amazon SERP
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_absolute`](BaseAmazonSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:184883
+main.ts:22311
 
 ***
 
@@ -118,9 +122,33 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md).[`rank_group`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_group`](BaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:184880
+main.ts:22308
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md).[`type`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`type`](BaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22305
 
 ***
 
@@ -134,9 +162,13 @@ the XPath of the element
 
 [`IAmazonEditorialRecommendationsSerpElementItem`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md).[`xpath`](../interfaces/IAmazonEditorialRecommendationsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`xpath`](BaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:184889
+main.ts:22313
 
 ## Methods
 
@@ -158,7 +190,7 @@ main.ts:184889
 
 #### Defined in
 
-main.ts:184900
+main.ts:180592
 
 ***
 
@@ -180,7 +212,7 @@ main.ts:184900
 
 #### Defined in
 
-main.ts:184926
+main.ts:180615
 
 ***
 
@@ -202,4 +234,4 @@ main.ts:184926
 
 #### Defined in
 
-main.ts:184919
+main.ts:180608

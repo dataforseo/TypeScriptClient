@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:170427
+main.ts:166357
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains data on citations from the given url
 
 #### Defined in
 
-main.ts:170423
+main.ts:166353
 
 ***
 
@@ -63,7 +63,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:170402
+main.ts:166332
 
 ***
 
@@ -79,7 +79,7 @@ domain name
 
 #### Defined in
 
-main.ts:170378
+main.ts:166308
 
 ***
 
@@ -98,7 +98,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:170394
+main.ts:166324
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:170399
+main.ts:166329
 
 ***
 
@@ -134,7 +134,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:170405
+main.ts:166335
 
 ***
 
@@ -150,7 +150,7 @@ main domain
 
 #### Defined in
 
-main.ts:170380
+main.ts:166310
 
 ***
 
@@ -168,7 +168,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:170413
+main.ts:166343
 
 ***
 
@@ -184,7 +184,7 @@ page types
 
 #### Defined in
 
-main.ts:170415
+main.ts:166345
 
 ***
 
@@ -201,7 +201,7 @@ all ratings found on the page based on microdata
 
 #### Defined in
 
-main.ts:170418
+main.ts:166348
 
 ***
 
@@ -219,7 +219,7 @@ the higher the score, the more value the related citation has
 
 #### Defined in
 
-main.ts:170409
+main.ts:166339
 
 ***
 
@@ -236,7 +236,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:170421
+main.ts:166351
 
 ***
 
@@ -254,7 +254,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:170389
+main.ts:166319
 
 ***
 
@@ -270,7 +270,7 @@ type of element
 
 #### Defined in
 
-main.ts:170374
+main.ts:166304
 
 ***
 
@@ -286,7 +286,7 @@ URL where the citation was found
 
 #### Defined in
 
-main.ts:170376
+main.ts:166306
 
 ***
 
@@ -305,7 +305,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:170385
+main.ts:166315
 
 ## Methods
 
@@ -323,7 +323,7 @@ main.ts:170385
 
 #### Defined in
 
-main.ts:170436
+main.ts:166366
 
 ***
 
@@ -341,7 +341,7 @@ main.ts:170436
 
 #### Defined in
 
-main.ts:170484
+main.ts:166414
 
 ***
 
@@ -359,4 +359,4 @@ main.ts:170484
 
 #### Defined in
 
-main.ts:170477
+main.ts:166407

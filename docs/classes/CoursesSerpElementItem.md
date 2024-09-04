@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:38082
+main.ts:36303
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:38082
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ contains a list of categories relevant to courses
 
 #### Defined in
 
-main.ts:38071
+main.ts:36292
 
 ***
 
@@ -86,7 +86,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:38074
+main.ts:36295
 
 ***
 
@@ -102,9 +102,13 @@ left, right
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`position`](../interfaces/ICoursesSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:38064
+main.ts:20363
 
 ***
 
@@ -114,15 +118,18 @@ main.ts:38064
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`rank_absolute`](../interfaces/ICoursesSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:38060
+main.ts:20359
 
 ***
 
@@ -131,17 +138,20 @@ main.ts:38060
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`rank_group`](../interfaces/ICoursesSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:38056
+main.ts:20356
 
 ***
 
@@ -159,7 +169,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:38078
+main.ts:36299
 
 ***
 
@@ -175,7 +185,27 @@ title of the row
 
 #### Defined in
 
-main.ts:38068
+main.ts:36289
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`type`](../interfaces/ICoursesSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -189,9 +219,13 @@ the XPath of the element
 
 [`ICoursesSerpElementItem`](../interfaces/ICoursesSerpElementItem.md).[`xpath`](../interfaces/ICoursesSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:38066
+main.ts:20365
 
 ## Methods
 
@@ -213,7 +247,7 @@ main.ts:38066
 
 #### Defined in
 
-main.ts:38087
+main.ts:36308
 
 ***
 
@@ -235,7 +269,7 @@ main.ts:38087
 
 #### Defined in
 
-main.ts:38120
+main.ts:36337
 
 ***
 
@@ -257,4 +291,4 @@ main.ts:38120
 
 #### Defined in
 
-main.ts:38113
+main.ts:36330

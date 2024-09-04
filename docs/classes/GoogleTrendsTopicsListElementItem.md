@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:127927
+main.ts:124887
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:127927
 
 #### Defined in
 
-main.ts:21570
+main.ts:21804
 
 ***
 
@@ -68,7 +68,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:127923
+main.ts:124883
 
 ***
 
@@ -77,15 +77,19 @@ main.ts:127923
 > `optional` **keywords**: `string`[]
 
 relevant keywords
-the data included in the google_trends_topics_list element is based on the keywords listed in this array
+the data included in the google_trends_graph element is based on the keywords listed in this array
 
 #### Implementation of
 
 [`IGoogleTrendsTopicsListElementItem`](../interfaces/IGoogleTrendsTopicsListElementItem.md).[`keywords`](../interfaces/IGoogleTrendsTopicsListElementItem.md#keywords)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`keywords`](BaseGoogleTrendsItem.md#keywords)
+
 #### Defined in
 
-main.ts:127921
+main.ts:21802
 
 ***
 
@@ -100,9 +104,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IGoogleTrendsTopicsListElementItem`](../interfaces/IGoogleTrendsTopicsListElementItem.md).[`position`](../interfaces/IGoogleTrendsTopicsListElementItem.md#position)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`position`](BaseGoogleTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:127916
+main.ts:21797
 
 ***
 
@@ -116,9 +124,33 @@ title of the element in Google Trends
 
 [`IGoogleTrendsTopicsListElementItem`](../interfaces/IGoogleTrendsTopicsListElementItem.md).[`title`](../interfaces/IGoogleTrendsTopicsListElementItem.md#title)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`title`](BaseGoogleTrendsItem.md#title)
+
 #### Defined in
 
-main.ts:127918
+main.ts:21799
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleTrendsTopicsListElementItem`](../interfaces/IGoogleTrendsTopicsListElementItem.md).[`type`](../interfaces/IGoogleTrendsTopicsListElementItem.md#type)
+
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`type`](BaseGoogleTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21794
 
 ## Methods
 
@@ -140,7 +172,7 @@ main.ts:127918
 
 #### Defined in
 
-main.ts:127932
+main.ts:124892
 
 ***
 
@@ -162,7 +194,7 @@ main.ts:127932
 
 #### Defined in
 
-main.ts:127957
+main.ts:124910
 
 ***
 
@@ -184,4 +216,4 @@ main.ts:127957
 
 #### Defined in
 
-main.ts:127950
+main.ts:124903

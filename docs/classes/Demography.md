@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:130096
+main.ts:126986
 
 ## Properties
 
@@ -46,7 +46,7 @@ distribution of keyword popularity by age
 
 #### Defined in
 
-main.ts:130090
+main.ts:126980
 
 ***
 
@@ -62,7 +62,7 @@ distribution of keyword popularity by gender
 
 #### Defined in
 
-main.ts:130092
+main.ts:126982
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:130092
 
 #### Defined in
 
-main.ts:130105
+main.ts:126995
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:130105
 
 #### Defined in
 
-main.ts:130131
+main.ts:127021
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:130131
 
 #### Defined in
 
-main.ts:130124
+main.ts:127014

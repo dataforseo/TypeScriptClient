@@ -40,7 +40,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:94382
+main.ts:93022
 
 ***
 
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:94328
+main.ts:92968
 
 ***
 
@@ -81,7 +81,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:94314
+main.ts:92954
 
 ***
 
@@ -97,7 +97,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:94388
+main.ts:93028
 
 ***
 
@@ -116,7 +116,7 @@ default value:
 
 #### Defined in
 
-main.ts:94307
+main.ts:92947
 
 ***
 
@@ -134,7 +134,7 @@ en
 
 #### Defined in
 
-main.ts:94298
+main.ts:92938
 
 ***
 
@@ -152,7 +152,7 @@ English
 
 #### Defined in
 
-main.ts:94290
+main.ts:92930
 
 ***
 
@@ -167,7 +167,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:94350
+main.ts:92990
 
 ***
 
@@ -185,7 +185,7 @@ example:
 
 #### Defined in
 
-main.ts:94282
+main.ts:92922
 
 ***
 
@@ -203,7 +203,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:94274
+main.ts:92914
 
 ***
 
@@ -218,7 +218,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Defined in
 
-main.ts:94360
+main.ts:93000
 
 ***
 
@@ -233,7 +233,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:94355
+main.ts:92995
 
 ***
 
@@ -260,7 +260,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:94345
+main.ts:92985
 
 ***
 
@@ -276,7 +276,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:94394
+main.ts:93034
 
 ***
 
@@ -291,4 +291,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:94266
+main.ts:92906

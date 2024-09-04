@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:33889
+main.ts:32923
 
 ***
 
@@ -32,7 +32,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:33893
+main.ts:32927
 
 ***
 
@@ -44,7 +44,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:33895
+main.ts:32929
 
 ***
 
@@ -57,7 +57,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33898
+main.ts:32932
 
 ***
 
@@ -69,7 +69,7 @@ seller of the product
 
 #### Defined in
 
-main.ts:33891
+main.ts:32925
 
 ***
 
@@ -81,7 +81,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33887
+main.ts:32921
 
 ***
 
@@ -93,4 +93,4 @@ type of element
 
 #### Defined in
 
-main.ts:33885
+main.ts:32919

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:47909
+main.ts:46162
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:47909
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:47892
+main.ts:46145
 
 ***
 
@@ -85,7 +85,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:47899
+main.ts:46152
 
 ***
 
@@ -101,7 +101,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:47896
+main.ts:46149
 
 ***
 
@@ -118,7 +118,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:47905
+main.ts:46158
 
 ***
 
@@ -135,7 +135,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:47902
+main.ts:46155
 
 ***
 
@@ -151,9 +151,13 @@ left, right
 
 [`IEventItemSerpElementItem`](../interfaces/IEventItemSerpElementItem.md).[`position`](../interfaces/IEventItemSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:47886
+main.ts:20363
 
 ***
 
@@ -168,9 +172,13 @@ absolute position among all the elements in SERP
 
 [`IEventItemSerpElementItem`](../interfaces/IEventItemSerpElementItem.md).[`rank_absolute`](../interfaces/IEventItemSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:47882
+main.ts:20359
 
 ***
 
@@ -186,9 +194,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IEventItemSerpElementItem`](../interfaces/IEventItemSerpElementItem.md).[`rank_group`](../interfaces/IEventItemSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:47879
+main.ts:20356
 
 ***
 
@@ -204,7 +216,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:47890
+main.ts:46143
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IEventItemSerpElementItem`](../interfaces/IEventItemSerpElementItem.md).[`type`](../interfaces/IEventItemSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -220,7 +252,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:47894
+main.ts:46147
 
 ***
 
@@ -234,9 +266,13 @@ the XPath of the element
 
 [`IEventItemSerpElementItem`](../interfaces/IEventItemSerpElementItem.md).[`xpath`](../interfaces/IEventItemSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:47888
+main.ts:20365
 
 ## Methods
 
@@ -258,7 +294,7 @@ main.ts:47888
 
 #### Defined in
 
-main.ts:47914
+main.ts:46167
 
 ***
 
@@ -280,7 +316,7 @@ main.ts:47914
 
 #### Defined in
 
-main.ts:47946
+main.ts:46195
 
 ***
 
@@ -302,4 +338,4 @@ main.ts:47946
 
 #### Defined in
 
-main.ts:47939
+main.ts:46188

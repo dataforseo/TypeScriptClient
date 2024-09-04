@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:186309
+main.ts:181941
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:186309
 
 #### Defined in
 
-main.ts:23036
+main.ts:23354
 
 ***
 
@@ -72,7 +72,7 @@ contains information specified about the product within the section_name
 
 #### Defined in
 
-main.ts:186305
+main.ts:181937
 
 ***
 
@@ -86,9 +86,33 @@ name of the section related to product information specified in the contents
 
 [`IProductInformationDetailsItem`](../interfaces/IProductInformationDetailsItem.md).[`section_name`](../interfaces/IProductInformationDetailsItem.md#section_name)
 
+#### Inherited from
+
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`section_name`](BaseProductInformationItem.md#section_name)
+
 #### Defined in
 
-main.ts:186303
+main.ts:23352
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IProductInformationDetailsItem`](../interfaces/IProductInformationDetailsItem.md).[`type`](../interfaces/IProductInformationDetailsItem.md#type)
+
+#### Inherited from
+
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`type`](BaseProductInformationItem.md#type)
+
+#### Defined in
+
+main.ts:23350
 
 ## Methods
 
@@ -110,7 +134,7 @@ main.ts:186303
 
 #### Defined in
 
-main.ts:186314
+main.ts:181946
 
 ***
 
@@ -132,7 +156,7 @@ main.ts:186314
 
 #### Defined in
 
-main.ts:186339
+main.ts:181970
 
 ***
 
@@ -154,4 +178,4 @@ main.ts:186339
 
 #### Defined in
 
-main.ts:186332
+main.ts:181963

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:42061
+main.ts:40209
 
 ## Properties
 
@@ -48,7 +48,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 #### Defined in
 
-main.ts:42038
+main.ts:40186
 
 ***
 
@@ -67,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:42043
+main.ts:40191
 
 ***
 
@@ -86,13 +86,13 @@ maps_search, maps_paid_item
 
 #### Defined in
 
-main.ts:42051
+main.ts:40199
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseGoogleMapsSerpElementItem`](BaseGoogleMapsSerpElementItem.md)[]
 
 elements of search results found in SERP
 
@@ -102,7 +102,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:42057
+main.ts:40205
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:42055
+main.ts:40203
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:42026
+main.ts:40174
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:42034
+main.ts:40182
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:42032
+main.ts:40180
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:42030
+main.ts:40178
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:42053
+main.ts:40201
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:42046
+main.ts:40194
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:42028
+main.ts:40176
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:42028
 
 #### Defined in
 
-main.ts:42070
+main.ts:40218
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:42070
 
 #### Defined in
 
-main.ts:42106
+main.ts:40254
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:42106
 
 #### Defined in
 
-main.ts:42099
+main.ts:40247

@@ -17,10 +17,6 @@
 
 - [`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md)
 
-## Indexable
-
- \[`key`: `string`\]: `any`
-
 ## Constructors
 
 ### new BaseGoogleTrendsItem()
@@ -37,7 +33,7 @@
 
 #### Defined in
 
-main.ts:21572
+main.ts:21806
 
 ## Properties
 
@@ -47,7 +43,73 @@ main.ts:21572
 
 #### Defined in
 
-main.ts:21570
+main.ts:21804
+
+***
+
+### keywords?
+
+> `optional` **keywords**: `string`[]
+
+relevant keywords
+the data included in the google_trends_graph element is based on the keywords listed in this array
+
+#### Implementation of
+
+[`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md).[`keywords`](../interfaces/IBaseGoogleTrendsItem.md#keywords)
+
+#### Defined in
+
+main.ts:21802
+
+***
+
+### position?
+
+> `optional` **position**: `number`
+
+the alignment of the element in Google Trends
+can take the following values: 1, 2, 3, 4, etc.
+
+#### Implementation of
+
+[`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md).[`position`](../interfaces/IBaseGoogleTrendsItem.md#position)
+
+#### Defined in
+
+main.ts:21797
+
+***
+
+### title?
+
+> `optional` **title**: `string`
+
+title of the element in Google Trends
+
+#### Implementation of
+
+[`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md).[`title`](../interfaces/IBaseGoogleTrendsItem.md#title)
+
+#### Defined in
+
+main.ts:21799
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseGoogleTrendsItem`](../interfaces/IBaseGoogleTrendsItem.md).[`type`](../interfaces/IBaseGoogleTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21794
 
 ## Methods
 
@@ -65,7 +127,7 @@ main.ts:21570
 
 #### Defined in
 
-main.ts:21582
+main.ts:21816
 
 ***
 
@@ -83,7 +145,7 @@ main.ts:21582
 
 #### Defined in
 
-main.ts:21618
+main.ts:21856
 
 ***
 
@@ -101,4 +163,4 @@ main.ts:21618
 
 #### Defined in
 
-main.ts:21591
+main.ts:21829

@@ -24,7 +24,7 @@ breadcrumb of the ad element in SERP
 
 #### Defined in
 
-main.ts:27354
+main.ts:27570
 
 ***
 
@@ -36,7 +36,7 @@ description of the ad element in SERP
 
 #### Defined in
 
-main.ts:27350
+main.ts:27566
 
 ***
 
@@ -48,7 +48,7 @@ domain of the ad element in SERP
 
 #### Defined in
 
-main.ts:27346
+main.ts:27562
 
 ***
 
@@ -60,7 +60,7 @@ title
 
 #### Defined in
 
-main.ts:27362
+main.ts:27572
 
 ***
 
@@ -72,7 +72,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27369
+main.ts:27579
 
 ***
 
@@ -84,9 +84,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:27358
+main.ts:20721
 
 ***
 
@@ -95,13 +99,15 @@ main.ts:27358
 > `optional` **rank\_absolute**: `number`
 
 absolute rank in SERP
-absolute position among all the elements found in SERP
-note values are returned in the ascending order, with values corresponding to advanced SERP features omitted from the results;
-to get all items (including SERP features and rich snippets) with their positions, please refer to the Google Organiс Advanced SERP endpoint
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:27344
+main.ts:20717
 
 ***
 
@@ -113,9 +119,13 @@ group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:27339
+main.ts:20714
 
 ***
 
@@ -129,7 +139,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27376
+main.ts:27586
 
 ***
 
@@ -142,7 +152,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27372
+main.ts:27582
 
 ***
 
@@ -157,7 +167,7 @@ example:
 
 #### Defined in
 
-main.ts:27367
+main.ts:27577
 
 ***
 
@@ -169,7 +179,23 @@ title of the ad element in SERP
 
 #### Defined in
 
-main.ts:27348
+main.ts:27564
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -181,7 +207,7 @@ relevant URL of the ad element in SERP
 
 #### Defined in
 
-main.ts:27352
+main.ts:27568
 
 ***
 
@@ -191,6 +217,10 @@ main.ts:27352
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:27360
+main.ts:20723

@@ -29,7 +29,7 @@ example:
 
 #### Defined in
 
-main.ts:207921
+main.ts:203259
 
 ***
 
@@ -68,7 +68,7 @@ possible values:
 
 #### Defined in
 
-main.ts:208004
+main.ts:203342
 
 ***
 
@@ -86,7 +86,7 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-main.ts:207900
+main.ts:203238
 
 ***
 
@@ -105,7 +105,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-main.ts:207909
+main.ts:203247
 
 ***
 
@@ -125,7 +125,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-main.ts:207931
+main.ts:203269
 
 ***
 
@@ -140,7 +140,7 @@ example:
 
 #### Defined in
 
-main.ts:207914
+main.ts:203252
 
 ***
 
@@ -159,7 +159,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:207892
+main.ts:203230
 
 ***
 
@@ -174,7 +174,7 @@ default value: false
 
 #### Defined in
 
-main.ts:207970
+main.ts:203308
 
 ***
 
@@ -189,7 +189,7 @@ default value: false
 
 #### Defined in
 
-main.ts:207975
+main.ts:203313
 
 ***
 
@@ -219,7 +219,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:197540
+main.ts:192994
 
 ***
 
@@ -240,7 +240,7 @@ en
 
 #### Defined in
 
-main.ts:197586
+main.ts:193040
 
 ***
 
@@ -261,7 +261,7 @@ English
 
 #### Defined in
 
-main.ts:197579
+main.ts:193033
 
 ***
 
@@ -282,7 +282,7 @@ example:
 
 #### Defined in
 
-main.ts:197562
+main.ts:193016
 
 ***
 
@@ -306,7 +306,7 @@ example:
 
 #### Defined in
 
-main.ts:197572
+main.ts:193026
 
 ***
 
@@ -327,7 +327,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:197555
+main.ts:193009
 
 ***
 
@@ -343,7 +343,7 @@ example:
 
 #### Defined in
 
-main.ts:207965
+main.ts:203303
 
 ***
 
@@ -359,7 +359,7 @@ example:
 
 #### Defined in
 
-main.ts:207959
+main.ts:203297
 
 ***
 
@@ -375,7 +375,7 @@ example:
 
 #### Defined in
 
-main.ts:207943
+main.ts:203281
 
 ***
 
@@ -399,7 +399,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197612
+main.ts:193066
 
 ***
 
@@ -423,7 +423,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197602
+main.ts:193056
 
 ***
 
@@ -445,7 +445,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:197548
+main.ts:193002
 
 ***
 
@@ -465,7 +465,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:207953
+main.ts:203291
 
 ***
 
@@ -481,7 +481,7 @@ example:
 
 #### Defined in
 
-main.ts:207937
+main.ts:203275
 
 ***
 
@@ -501,4 +501,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:197592
+main.ts:193046

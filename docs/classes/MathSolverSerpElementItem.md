@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:35976
+main.ts:34615
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:35976
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:35966
+main.ts:34605
 
 ***
 
@@ -85,7 +85,7 @@ link of the element
 
 #### Defined in
 
-main.ts:35968
+main.ts:34607
 
 ***
 
@@ -101,9 +101,13 @@ left, right
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`position`](../interfaces/IMathSolverSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:35956
+main.ts:20363
 
 ***
 
@@ -113,15 +117,18 @@ main.ts:35956
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`rank_absolute`](../interfaces/IMathSolverSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:35952
+main.ts:20359
 
 ***
 
@@ -130,17 +137,20 @@ main.ts:35952
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`rank_group`](../interfaces/IMathSolverSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:35948
+main.ts:20356
 
 ***
 
@@ -158,7 +168,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35972
+main.ts:34611
 
 ***
 
@@ -175,7 +185,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:35963
+main.ts:34602
 
 ***
 
@@ -191,7 +201,27 @@ title of the row
 
 #### Defined in
 
-main.ts:35960
+main.ts:34599
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`type`](../interfaces/IMathSolverSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -205,9 +235,13 @@ the XPath of the element
 
 [`IMathSolverSerpElementItem`](../interfaces/IMathSolverSerpElementItem.md).[`xpath`](../interfaces/IMathSolverSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:35958
+main.ts:20365
 
 ## Methods
 
@@ -229,7 +263,7 @@ main.ts:35958
 
 #### Defined in
 
-main.ts:35981
+main.ts:34620
 
 ***
 
@@ -251,7 +285,7 @@ main.ts:35981
 
 #### Defined in
 
-main.ts:36015
+main.ts:34650
 
 ***
 
@@ -273,4 +307,4 @@ main.ts:36015
 
 #### Defined in
 
-main.ts:36008
+main.ts:34643

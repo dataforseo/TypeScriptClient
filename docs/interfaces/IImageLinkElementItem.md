@@ -23,9 +23,13 @@
 direction of the link
 possible values: internal, external
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`direction`](IBaseOnPageLinkItemInfo.md#direction)
+
 #### Defined in
 
-main.ts:161895
+main.ts:21783
 
 ***
 
@@ -36,9 +40,13 @@ main.ts:161895
 indicates whether the link is dofollow
 if the value is true, the link doesn’t have a rel="nofollow" attribute
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`dofollow`](IBaseOnPageLinkItemInfo.md#dofollow)
+
 #### Defined in
 
-main.ts:161888
+main.ts:21776
 
 ***
 
@@ -49,9 +57,13 @@ main.ts:161888
 referring domain
 the link was found on this domain
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`domain_from`](IBaseOnPageLinkItemInfo.md#domain_from)
+
 #### Defined in
 
-main.ts:161865
+main.ts:21758
 
 ***
 
@@ -62,9 +74,13 @@ main.ts:161865
 referenced domain
 the link is pointing to this domain
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`domain_to`](IBaseOnPageLinkItemInfo.md#domain_to)
+
 #### Defined in
 
-main.ts:161868
+main.ts:21761
 
 ***
 
@@ -76,7 +92,7 @@ alternative text for the image
 
 #### Defined in
 
-main.ts:161902
+main.ts:158019
 
 ***
 
@@ -88,7 +104,7 @@ url of the image
 
 #### Defined in
 
-main.ts:161904
+main.ts:158021
 
 ***
 
@@ -99,9 +115,13 @@ main.ts:161904
 link is broken
 indicates whether a link is directing to a broken page or resource
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`is_broken`](IBaseOnPageLinkItemInfo.md#is_broken)
+
 #### Defined in
 
-main.ts:161898
+main.ts:21786
 
 ***
 
@@ -112,9 +132,13 @@ main.ts:161898
 indicates that the link may have a conflict with another link
 if true, at least one link pointing to link_to has a rel="nofollow" attribute and at least one is dofollow
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`is_link_relation_conflict`](IBaseOnPageLinkItemInfo.md#is_link_relation_conflict)
+
 #### Defined in
 
-main.ts:161907
+main.ts:21789
 
 ***
 
@@ -129,7 +153,7 @@ example:
 
 #### Defined in
 
-main.ts:161885
+main.ts:158015
 
 ***
 
@@ -140,9 +164,13 @@ main.ts:161885
 referring page
 absolute URL of the page on which the link was found
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`link_from`](IBaseOnPageLinkItemInfo.md#link_from)
+
 #### Defined in
 
-main.ts:161877
+main.ts:21770
 
 ***
 
@@ -153,9 +181,13 @@ main.ts:161877
 referenced page
 absolute URL of the page to which the link is pointing
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`link_to`](IBaseOnPageLinkItemInfo.md#link_to)
+
 #### Defined in
 
-main.ts:161880
+main.ts:21773
 
 ***
 
@@ -166,9 +198,13 @@ main.ts:161880
 referring page
 relative URL of the page on which the link was found
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`page_from`](IBaseOnPageLinkItemInfo.md#page_from)
+
 #### Defined in
 
-main.ts:161871
+main.ts:21764
 
 ***
 
@@ -178,9 +214,13 @@ main.ts:161871
 
 url scheme of the referring page
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`page_from_scheme`](IBaseOnPageLinkItemInfo.md#page_from_scheme)
+
 #### Defined in
 
-main.ts:161890
+main.ts:21778
 
 ***
 
@@ -191,9 +231,13 @@ main.ts:161890
 referenced page
 relative URL of the page to which the link is pointing
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`page_to`](IBaseOnPageLinkItemInfo.md#page_to)
+
 #### Defined in
 
-main.ts:161874
+main.ts:21767
 
 ***
 
@@ -203,9 +247,13 @@ main.ts:161874
 
 url scheme of the referenced page
 
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`page_to_scheme`](IBaseOnPageLinkItemInfo.md#page_to_scheme)
+
 #### Defined in
 
-main.ts:161892
+main.ts:21780
 
 ***
 
@@ -218,7 +266,7 @@ status code of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:161910
+main.ts:158024
 
 ***
 
@@ -230,4 +278,20 @@ anchor text
 
 #### Defined in
 
-main.ts:161900
+main.ts:158017
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseOnPageLinkItemInfo`](IBaseOnPageLinkItemInfo.md).[`type`](IBaseOnPageLinkItemInfo.md#type)
+
+#### Defined in
+
+main.ts:21755

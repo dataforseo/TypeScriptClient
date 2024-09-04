@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22324
+main.ts:22640
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the results element
 
 #### Defined in
 
-main.ts:22314
+main.ts:22630
 
 ***
 
@@ -62,7 +62,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:22318
+main.ts:22634
 
 ***
 
@@ -78,7 +78,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:22312
+main.ts:22628
 
 ***
 
@@ -94,7 +94,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:22310
+main.ts:22626
 
 ***
 
@@ -110,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:22308
+main.ts:22624
 
 ***
 
@@ -126,7 +126,7 @@ URL
 
 #### Defined in
 
-main.ts:22316
+main.ts:22632
 
 ***
 
@@ -142,7 +142,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22320
+main.ts:22636
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:22320
 
 #### Defined in
 
-main.ts:22333
+main.ts:22649
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:22333
 
 #### Defined in
 
-main.ts:22356
+main.ts:22672
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:22356
 
 #### Defined in
 
-main.ts:22349
+main.ts:22665

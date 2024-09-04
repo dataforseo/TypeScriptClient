@@ -20,7 +20,7 @@ the identifier of the ad
 
 #### Defined in
 
-main.ts:29514
+main.ts:29382
 
 ***
 
@@ -32,7 +32,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29508
+main.ts:29376
 
 ***
 
@@ -44,7 +44,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29512
+main.ts:29380
 
 ***
 
@@ -56,7 +56,7 @@ title of the element
 
 #### Defined in
 
-main.ts:29506
+main.ts:29374
 
 ***
 
@@ -68,7 +68,7 @@ type of element
 
 #### Defined in
 
-main.ts:29504
+main.ts:29372
 
 ***
 
@@ -80,4 +80,4 @@ URL
 
 #### Defined in
 
-main.ts:29510
+main.ts:29378

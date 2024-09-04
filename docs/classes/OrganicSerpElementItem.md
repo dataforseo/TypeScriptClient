@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:26995
+main.ts:27264
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:26995
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -70,7 +70,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:26978
+main.ts:27247
 
 ***
 
@@ -87,7 +87,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:26954
+main.ts:27223
 
 ***
 
@@ -103,7 +103,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:26931
+main.ts:27200
 
 ***
 
@@ -119,7 +119,7 @@ cached version of the page
 
 #### Defined in
 
-main.ts:26926
+main.ts:27195
 
 ***
 
@@ -135,7 +135,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:26945
+main.ts:27214
 
 ***
 
@@ -151,7 +151,7 @@ website domain
 
 #### Defined in
 
-main.ts:26920
+main.ts:27189
 
 ***
 
@@ -169,7 +169,7 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
 #### Defined in
 
-main.ts:26974
+main.ts:27243
 
 ***
 
@@ -185,7 +185,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:26949
+main.ts:27218
 
 ***
 
@@ -203,7 +203,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:26970
+main.ts:27239
 
 ***
 
@@ -219,7 +219,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:26962
+main.ts:27231
 
 ***
 
@@ -235,7 +235,7 @@ images of the element
 
 #### Defined in
 
-main.ts:26951
+main.ts:27220
 
 ***
 
@@ -251,7 +251,7 @@ indicates whether the element is a featured_snippet
 
 #### Defined in
 
-main.ts:26939
+main.ts:27208
 
 ***
 
@@ -267,7 +267,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:26935
+main.ts:27204
 
 ***
 
@@ -283,7 +283,7 @@ indicates whether the element is marked as malicious
 
 #### Defined in
 
-main.ts:26941
+main.ts:27210
 
 ***
 
@@ -299,7 +299,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:26937
+main.ts:27206
 
 ***
 
@@ -315,7 +315,7 @@ indicates whether the element is marked as Google web story
 
 #### Defined in
 
-main.ts:26943
+main.ts:27212
 
 ***
 
@@ -333,7 +333,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:26966
+main.ts:27235
 
 ***
 
@@ -349,9 +349,13 @@ left, right
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`position`](../interfaces/IOrganicSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:26916
+main.ts:20363
 
 ***
 
@@ -367,7 +371,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:26947
+main.ts:27216
 
 ***
 
@@ -384,7 +388,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:26960
+main.ts:27229
 
 ***
 
@@ -399,9 +403,13 @@ absolute position among all the elements in SERP
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`rank_absolute`](../interfaces/IOrganicSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:26912
+main.ts:20359
 
 ***
 
@@ -417,9 +425,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`rank_group`](../interfaces/IOrganicSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:26909
+main.ts:20356
 
 ***
 
@@ -436,7 +448,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:26957
+main.ts:27226
 
 ***
 
@@ -454,7 +466,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:26991
+main.ts:27260
 
 ***
 
@@ -472,7 +484,7 @@ you can derive the related_result snippets as "type": "organic" results by setti
 
 #### Defined in
 
-main.ts:26982
+main.ts:27251
 
 ***
 
@@ -489,7 +501,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-main.ts:26929
+main.ts:27198
 
 ***
 
@@ -508,7 +520,7 @@ example:
 
 #### Defined in
 
-main.ts:26987
+main.ts:27256
 
 ***
 
@@ -524,7 +536,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:26922
+main.ts:27191
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`type`](../interfaces/IOrganicSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -540,7 +572,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:26924
+main.ts:27193
 
 ***
 
@@ -556,7 +588,7 @@ name of the website in SERP
 
 #### Defined in
 
-main.ts:26933
+main.ts:27202
 
 ***
 
@@ -570,9 +602,13 @@ the XPath of the element
 
 [`IOrganicSerpElementItem`](../interfaces/IOrganicSerpElementItem.md).[`xpath`](../interfaces/IOrganicSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:26918
+main.ts:20365
 
 ## Methods
 
@@ -594,7 +630,7 @@ main.ts:26918
 
 #### Defined in
 
-main.ts:27000
+main.ts:27269
 
 ***
 
@@ -616,7 +652,7 @@ main.ts:27000
 
 #### Defined in
 
-main.ts:27068
+main.ts:27333
 
 ***
 
@@ -638,4 +674,4 @@ main.ts:27068
 
 #### Defined in
 
-main.ts:27061
+main.ts:27326

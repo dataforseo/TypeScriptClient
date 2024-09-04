@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:36647
+main.ts:35149
 
 ## Properties
 
@@ -46,7 +46,7 @@ image of the element
 
 #### Defined in
 
-main.ts:36643
+main.ts:35145
 
 ***
 
@@ -62,7 +62,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:36641
+main.ts:35143
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36639
+main.ts:35141
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:36637
+main.ts:35139
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:36637
 
 #### Defined in
 
-main.ts:36656
+main.ts:35158
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:36656
 
 #### Defined in
 
-main.ts:36676
+main.ts:35178
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:36676
 
 #### Defined in
 
-main.ts:36669
+main.ts:35171

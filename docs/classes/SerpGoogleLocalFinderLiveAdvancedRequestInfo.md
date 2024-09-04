@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:44267
+main.ts:42415
 
 ## Properties
 
@@ -55,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:44243
+main.ts:42391
 
 ***
 
@@ -74,7 +74,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:44225
+main.ts:42373
 
 ***
 
@@ -95,7 +95,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:44174
+main.ts:42322
 
 ***
 
@@ -115,7 +115,7 @@ example:en
 
 #### Defined in
 
-main.ts:44220
+main.ts:42368
 
 ***
 
@@ -136,7 +136,7 @@ English
 
 #### Defined in
 
-main.ts:44214
+main.ts:42362
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Defined in
 
-main.ts:44196
+main.ts:42344
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:44207
+main.ts:42355
 
 ***
 
@@ -203,7 +203,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:44189
+main.ts:42337
 
 ***
 
@@ -222,7 +222,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-main.ts:44248
+main.ts:42396
 
 ***
 
@@ -243,7 +243,7 @@ default value: android
 
 #### Defined in
 
-main.ts:44232
+main.ts:42380
 
 ***
 
@@ -265,7 +265,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:44182
+main.ts:42330
 
 ***
 
@@ -285,7 +285,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:44263
+main.ts:42411
 
 ***
 
@@ -308,7 +308,7 @@ example: "tuesday;18"
 
 #### Defined in
 
-main.ts:44257
+main.ts:42405
 
 ## Methods
 
@@ -326,7 +326,7 @@ main.ts:44257
 
 #### Defined in
 
-main.ts:44276
+main.ts:42424
 
 ***
 
@@ -344,7 +344,7 @@ main.ts:44276
 
 #### Defined in
 
-main.ts:44305
+main.ts:42453
 
 ***
 
@@ -362,4 +362,4 @@ main.ts:44305
 
 #### Defined in
 
-main.ts:44298
+main.ts:42446

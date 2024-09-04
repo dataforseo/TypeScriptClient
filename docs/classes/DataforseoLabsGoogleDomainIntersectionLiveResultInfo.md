@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:95177
+main.ts:93817
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:95173
+main.ts:93813
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:95171
+main.ts:93811
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:95167
+main.ts:93807
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:95165
+main.ts:93805
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95159
+main.ts:93799
 
 ***
 
@@ -126,7 +126,7 @@ the first target domain in a POST array
 
 #### Defined in
 
-main.ts:95161
+main.ts:93801
 
 ***
 
@@ -142,7 +142,7 @@ the second target domain in a POST array
 
 #### Defined in
 
-main.ts:95163
+main.ts:93803
 
 ***
 
@@ -158,7 +158,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:95169
+main.ts:93809
 
 ## Methods
 
@@ -176,7 +176,7 @@ main.ts:95169
 
 #### Defined in
 
-main.ts:95186
+main.ts:93826
 
 ***
 
@@ -194,7 +194,7 @@ main.ts:95186
 
 #### Defined in
 
-main.ts:95214
+main.ts:93854
 
 ***
 
@@ -212,4 +212,4 @@ main.ts:95214
 
 #### Defined in
 
-main.ts:95207
+main.ts:93847

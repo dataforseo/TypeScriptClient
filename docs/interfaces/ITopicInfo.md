@@ -20,7 +20,7 @@ content author name
 
 #### Defined in
 
-main.ts:165813
+main.ts:161743
 
 ***
 
@@ -32,7 +32,7 @@ meta title
 
 #### Defined in
 
-main.ts:165809
+main.ts:161739
 
 ***
 
@@ -44,7 +44,7 @@ content language
 
 #### Defined in
 
-main.ts:165815
+main.ts:161745
 
 ***
 
@@ -56,7 +56,7 @@ HTML level
 
 #### Defined in
 
-main.ts:165817
+main.ts:161747
 
 ***
 
@@ -68,7 +68,7 @@ main title of the block
 
 #### Defined in
 
-main.ts:165811
+main.ts:161741
 
 ***
 
@@ -81,7 +81,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:165820
+main.ts:161750
 
 ***
 
@@ -94,7 +94,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:165823
+main.ts:161753
 
 ***
 
@@ -106,4 +106,4 @@ content of the table on the page
 
 #### Defined in
 
-main.ts:165825
+main.ts:161755

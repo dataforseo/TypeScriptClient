@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:46907
+main.ts:45173
 
 ## Properties
 
@@ -49,7 +49,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Defined in
 
-main.ts:46842
+main.ts:45108
 
 ***
 
@@ -72,7 +72,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:46864
+main.ts:45130
 
 ***
 
@@ -93,7 +93,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:46788
+main.ts:45054
 
 ***
 
@@ -115,7 +115,7 @@ en
 
 #### Defined in
 
-main.ts:46837
+main.ts:45103
 
 ***
 
@@ -137,7 +137,7 @@ English
 
 #### Defined in
 
-main.ts:46829
+main.ts:45095
 
 ***
 
@@ -158,7 +158,7 @@ example:
 
 #### Defined in
 
-main.ts:46810
+main.ts:45076
 
 ***
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:46821
+main.ts:45087
 
 ***
 
@@ -204,7 +204,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:46803
+main.ts:45069
 
 ***
 
@@ -225,7 +225,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:46871
+main.ts:45137
 
 ***
 
@@ -245,7 +245,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:46848
+main.ts:45114
 
 ***
 
@@ -269,7 +269,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:46903
+main.ts:45169
 
 ***
 
@@ -289,7 +289,7 @@ advanced
 
 #### Defined in
 
-main.ts:46893
+main.ts:45159
 
 ***
 
@@ -313,7 +313,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:46887
+main.ts:45153
 
 ***
 
@@ -335,7 +335,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:46796
+main.ts:45062
 
 ***
 
@@ -356,7 +356,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:46855
+main.ts:45121
 
 ***
 
@@ -376,7 +376,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:46877
+main.ts:45143
 
 ## Methods
 
@@ -394,7 +394,7 @@ main.ts:46877
 
 #### Defined in
 
-main.ts:46916
+main.ts:45182
 
 ***
 
@@ -412,7 +412,7 @@ main.ts:46916
 
 #### Defined in
 
-main.ts:46948
+main.ts:45214
 
 ***
 
@@ -430,4 +430,4 @@ main.ts:46948
 
 #### Defined in
 
-main.ts:46941
+main.ts:45207

@@ -20,7 +20,7 @@ information related to microdata validation
 
 #### Defined in
 
-main.ts:164259
+main.ts:160189
 
 ***
 
@@ -32,4 +32,4 @@ type of element
 
 #### Defined in
 
-main.ts:164257
+main.ts:160187
