@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
+[Documentation](../globals.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:108131
+main.ts:105265
 
 ## Properties
 
@@ -50,7 +50,7 @@ data on the intersection
 
 #### Defined in
 
-main.ts:108127
+main.ts:105261
 
 ***
 
@@ -66,7 +66,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:108125
+main.ts:105259
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:108123
+main.ts:105257
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:108123
 
 #### Defined in
 
-main.ts:108140
+main.ts:105274
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:108140
 
 #### Defined in
 
-main.ts:108165
+main.ts:105299
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:108165
 
 #### Defined in
 
-main.ts:108158
+main.ts:105292

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageNonIndexableItem
+[Documentation](../globals.md) / OnPageNonIndexableItem
 
 # Class: OnPageNonIndexableItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:162779
+main.ts:158709
 
 ## Properties
 
@@ -47,7 +47,7 @@ can take the following values: robots_txt, meta_tag, http_header, attribute, too
 
 #### Defined in
 
-main.ts:162773
+main.ts:158703
 
 ***
 
@@ -63,7 +63,7 @@ url of the non-indexable page
 
 #### Defined in
 
-main.ts:162775
+main.ts:158705
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:162775
 
 #### Defined in
 
-main.ts:162788
+main.ts:158718
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:162788
 
 #### Defined in
 
-main.ts:162806
+main.ts:158736
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:162806
 
 #### Defined in
 
-main.ts:162799
+main.ts:158729

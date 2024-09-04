@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
 # Class: KeywordsDataGoogleTrendsExploreLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:127425
+main.ts:124393
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Defined in
 
-main.ts:127381
+main.ts:124349
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:127390
+main.ts:124358
 
 ***
 
@@ -93,7 +93,7 @@ example:
 
 #### Defined in
 
-main.ts:127397
+main.ts:124365
 
 ***
 
@@ -115,7 +115,7 @@ default value:
 
 #### Defined in
 
-main.ts:127415
+main.ts:124383
 
 ***
 
@@ -135,7 +135,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Defined in
 
-main.ts:127342
+main.ts:124310
 
 ***
 
@@ -157,7 +157,7 @@ en
 
 #### Defined in
 
-main.ts:127374
+main.ts:124342
 
 ***
 
@@ -179,7 +179,7 @@ English
 
 #### Defined in
 
-main.ts:127366
+main.ts:124334
 
 ***
 
@@ -201,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:127358
+main.ts:124326
 
 ***
 
@@ -223,7 +223,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:127350
+main.ts:124318
 
 ***
 
@@ -243,7 +243,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:127421
+main.ts:124389
 
 ***
 
@@ -267,7 +267,7 @@ possible values for news, youtube, images, froogle:
 
 #### Defined in
 
-main.ts:127407
+main.ts:124375
 
 ***
 
@@ -283,7 +283,7 @@ type of element
 
 #### Defined in
 
-main.ts:127376
+main.ts:124344
 
 ## Methods
 
@@ -301,7 +301,7 @@ main.ts:127376
 
 #### Defined in
 
-main.ts:127434
+main.ts:124402
 
 ***
 
@@ -319,7 +319,7 @@ main.ts:127434
 
 #### Defined in
 
-main.ts:127470
+main.ts:124438
 
 ***
 
@@ -337,4 +337,4 @@ main.ts:127470
 
 #### Defined in
 
-main.ts:127463
+main.ts:124431

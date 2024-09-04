@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Pages
+[Documentation](../globals.md) / Pages
 
 # Class: Pages
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:160948
+main.ts:157246
 
 ## Properties
 
@@ -46,7 +46,7 @@ information about the page with duplicate content
 
 #### Defined in
 
-main.ts:160944
+main.ts:157242
 
 ***
 
@@ -64,7 +64,7 @@ can take values from 0 to 10
 
 #### Defined in
 
-main.ts:160942
+main.ts:157240
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:160942
 
 #### Defined in
 
-main.ts:160957
+main.ts:157255
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:160957
 
 #### Defined in
 
-main.ts:160979
+main.ts:157277
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:160979
 
 #### Defined in
 
-main.ts:160972
+main.ts:157270

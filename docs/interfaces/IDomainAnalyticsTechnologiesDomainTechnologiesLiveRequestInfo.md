@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
@@ -23,4 +23,4 @@ Note: results will be returned for the specified domain only
 
 #### Defined in
 
-main.ts:80192
+main.ts:78864

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BulkMetricsInfo
+[Documentation](../globals.md) / BulkMetricsInfo
 
 # Class: BulkMetricsInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:103835
+main.ts:100985
 
 ## Properties
 
@@ -49,7 +49,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:103831
+main.ts:100981
 
 ***
 
@@ -65,7 +65,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:103826
+main.ts:100976
 
 ***
 
@@ -84,7 +84,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:103824
+main.ts:100974
 
 ## Methods
 
@@ -102,7 +102,7 @@ main.ts:103824
 
 #### Defined in
 
-main.ts:103844
+main.ts:100994
 
 ***
 
@@ -120,7 +120,7 @@ main.ts:103844
 
 #### Defined in
 
-main.ts:103863
+main.ts:101013
 
 ***
 
@@ -138,4 +138,4 @@ main.ts:103863
 
 #### Defined in
 
-main.ts:103856
+main.ts:101006

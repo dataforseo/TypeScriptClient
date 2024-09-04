@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseLanguagesResultInfo
+[Documentation](../globals.md) / IOnPageLighthouseLanguagesResultInfo
 
 # Interface: IOnPageLighthouseLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:167289
+main.ts:163219
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:167287
+main.ts:163217

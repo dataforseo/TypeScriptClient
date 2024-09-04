@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleAppCompetitorsLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleAppCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleAppCompetitorsLiveResultInfo
 
@@ -20,7 +20,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:115950
+main.ts:113046
 
 ***
 
@@ -32,7 +32,7 @@ contains data related to the app_id and competitor applications
 
 #### Defined in
 
-main.ts:115960
+main.ts:113056
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:115958
+main.ts:113054
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:115954
+main.ts:113050
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:115952
+main.ts:113048
 
 ***
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:115948
+main.ts:113044
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:115956
+main.ts:113052

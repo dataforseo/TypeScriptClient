@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisLocationsResultInfo
+[Documentation](../globals.md) / IContentAnalysisLocationsResultInfo
 
 # Interface: IContentAnalysisLocationsResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:169299
+main.ts:165229
 
 ***
 
@@ -32,4 +32,4 @@ full name of the location
 
 #### Defined in
 
-main.ts:169297
+main.ts:165227

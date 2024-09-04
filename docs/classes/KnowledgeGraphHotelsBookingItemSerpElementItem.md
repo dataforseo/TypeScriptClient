@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
+[Documentation](../globals.md) / KnowledgeGraphHotelsBookingItemSerpElementItem
 
 # Class: KnowledgeGraphHotelsBookingItemSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:29181
+main.ts:29104
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:29181
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -70,7 +70,7 @@ kc:/local:hotel booking
 
 #### Defined in
 
-main.ts:29170
+main.ts:29093
 
 ***
 
@@ -89,7 +89,7 @@ example:
 
 #### Defined in
 
-main.ts:29161
+main.ts:29084
 
 ***
 
@@ -108,7 +108,7 @@ example:
 
 #### Defined in
 
-main.ts:29166
+main.ts:29089
 
 ***
 
@@ -125,7 +125,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29173
+main.ts:29096
 
 ***
 
@@ -141,9 +141,13 @@ left, right
 
 [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:29152
+main.ts:20363
 
 ***
 
@@ -158,9 +162,13 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:29148
+main.ts:20359
 
 ***
 
@@ -176,9 +184,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:29145
+main.ts:20356
 
 ***
 
@@ -196,7 +208,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29177
+main.ts:29100
 
 ***
 
@@ -212,7 +224,27 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29156
+main.ts:29079
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`type`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -226,9 +258,13 @@ the XPath of the element
 
 [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphHotelsBookingItemSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:29154
+main.ts:20365
 
 ## Methods
 
@@ -250,7 +286,7 @@ main.ts:29154
 
 #### Defined in
 
-main.ts:29186
+main.ts:29109
 
 ***
 
@@ -272,7 +308,7 @@ main.ts:29186
 
 #### Defined in
 
-main.ts:29217
+main.ts:29136
 
 ***
 
@@ -294,4 +330,4 @@ main.ts:29217
 
 #### Defined in
 
-main.ts:29210
+main.ts:29129

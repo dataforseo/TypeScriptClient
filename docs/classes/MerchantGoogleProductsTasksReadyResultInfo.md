@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleProductsTasksReadyResultInfo
+[Documentation](../globals.md) / MerchantGoogleProductsTasksReadyResultInfo
 
 # Class: MerchantGoogleProductsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:177984
+main.ts:173914
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:177974
+main.ts:173904
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of Google Shopping Products Advanced task
 
 #### Defined in
 
-main.ts:177978
+main.ts:173908
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of Google Shopping Products HTML task
 
 #### Defined in
 
-main.ts:177980
+main.ts:173910
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:177967
+main.ts:173897
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:177969
+main.ts:173899
 
 ***
 
@@ -128,7 +128,7 @@ example: products
 
 #### Defined in
 
-main.ts:177972
+main.ts:173902
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:177976
+main.ts:173906
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:177976
 
 #### Defined in
 
-main.ts:177993
+main.ts:173923
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:177993
 
 #### Defined in
 
-main.ts:178016
+main.ts:173946
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:178016
 
 #### Defined in
 
-main.ts:178009
+main.ts:173939

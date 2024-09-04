@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixSerpDayStatisticsMoneyData
+[Documentation](../globals.md) / AppendixSerpDayStatisticsMoneyData
 
 # Class: AppendixSerpDayStatisticsMoneyData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:224836
+main.ts:220096
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:224836
 
 #### Defined in
 
-main.ts:224831
+main.ts:220092
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:224831
 
 #### Defined in
 
-main.ts:224827
+main.ts:220087
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:224827
 
 #### Defined in
 
-main.ts:224829
+main.ts:220089
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:224829
 
 #### Defined in
 
-main.ts:224825
+main.ts:220085
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:224825
 
 #### Defined in
 
-main.ts:224826
+main.ts:220086
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:224826
 
 #### Defined in
 
-main.ts:224824
+main.ts:220084
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:224824
 
 #### Defined in
 
-main.ts:224832
+main.ts:220091
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:224832
 
 #### Defined in
 
-main.ts:224830
+main.ts:220090
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:224830
 
 #### Defined in
 
-main.ts:224822
+main.ts:220082
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:224822
 
 #### Defined in
 
-main.ts:224821
+main.ts:220081
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:224821
 
 #### Defined in
 
-main.ts:224828
+main.ts:220088
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:224828
 
 #### Defined in
 
-main.ts:224823
+main.ts:220083
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:224823
 
 #### Defined in
 
-main.ts:224845
+main.ts:220105
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:224845
 
 #### Defined in
 
-main.ts:224873
+main.ts:220133
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:224873
 
 #### Defined in
 
-main.ts:224866
+main.ts:220126

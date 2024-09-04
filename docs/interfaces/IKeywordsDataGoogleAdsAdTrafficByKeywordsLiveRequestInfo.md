@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
@@ -24,7 +24,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:124785
+main.ts:121843
 
 ***
 
@@ -44,7 +44,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:124841
+main.ts:121899
 
 ***
 
@@ -60,7 +60,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:124856
+main.ts:121914
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:124850
+main.ts:121908
 
 ***
 
@@ -100,7 +100,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:124779
+main.ts:121837
 
 ***
 
@@ -116,7 +116,7 @@ en
 
 #### Defined in
 
-main.ts:124831
+main.ts:121889
 
 ***
 
@@ -132,7 +132,7 @@ English
 
 #### Defined in
 
-main.ts:124825
+main.ts:121883
 
 ***
 
@@ -150,7 +150,7 @@ example:
 
 #### Defined in
 
-main.ts:124810
+main.ts:121868
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Defined in
 
-main.ts:124819
+main.ts:121877
 
 ***
 
@@ -187,7 +187,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:124802
+main.ts:121860
 
 ***
 
@@ -201,7 +201,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:124789
+main.ts:121847
 
 ***
 
@@ -216,7 +216,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:124794
+main.ts:121852
 
 ***
 
@@ -231,7 +231,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:124861
+main.ts:121919
 
 ***
 
@@ -247,4 +247,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:124867
+main.ts:121925

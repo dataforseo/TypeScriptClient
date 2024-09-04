@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooOrganicTasksFixedResultInfo
+[Documentation](../globals.md) / SerpYahooOrganicTasksFixedResultInfo
 
 # Class: SerpYahooOrganicTasksFixedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:68534
+main.ts:67240
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:68519
+main.ts:67225
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:68527
+main.ts:67233
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:68530
+main.ts:67236
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:68524
+main.ts:67230
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:68512
+main.ts:67218
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:68514
+main.ts:67220
 
 ***
 
@@ -147,7 +147,7 @@ can take the following values: organic
 
 #### Defined in
 
-main.ts:68517
+main.ts:67223
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:68521
+main.ts:67227
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:68521
 
 #### Defined in
 
-main.ts:68543
+main.ts:67249
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:68543
 
 #### Defined in
 
-main.ts:68567
+main.ts:67273
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:68567
 
 #### Defined in
 
-main.ts:68560
+main.ts:67266

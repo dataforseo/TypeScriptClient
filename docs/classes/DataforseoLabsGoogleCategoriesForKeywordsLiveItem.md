@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveItem
+[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:89522
+main.ts:88194
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:89518
+main.ts:88190
 
 ***
 
@@ -63,7 +63,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:89515
+main.ts:88187
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:89515
 
 #### Defined in
 
-main.ts:89531
+main.ts:88203
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:89531
 
 #### Defined in
 
-main.ts:89553
+main.ts:88225
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:89553
 
 #### Defined in
 
-main.ts:89546
+main.ts:88218

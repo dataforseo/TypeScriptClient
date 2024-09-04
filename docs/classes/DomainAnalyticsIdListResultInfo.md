@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsIdListResultInfo
+[Documentation](../globals.md) / DomainAnalyticsIdListResultInfo
 
 # Class: DomainAnalyticsIdListResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:76079
+main.ts:74751
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:76073
+main.ts:74745
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:76068
+main.ts:74740
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:76063
+main.ts:74735
 
 ***
 
@@ -100,7 +100,7 @@ id of the task
 
 #### Defined in
 
-main.ts:76055
+main.ts:74727
 
 ***
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:76075
+main.ts:74747
 
 ***
 
@@ -137,7 +137,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:76071
+main.ts:74743
 
 ***
 
@@ -154,7 +154,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:76058
+main.ts:74730
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:76058
 
 #### Defined in
 
-main.ts:76088
+main.ts:74760
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:76088
 
 #### Defined in
 
-main.ts:76117
+main.ts:74789
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:76117
 
 #### Defined in
 
-main.ts:76110
+main.ts:74782

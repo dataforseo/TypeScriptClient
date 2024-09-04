@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHtmlContentInfo
+[Documentation](../globals.md) / IHtmlContentInfo
 
 # Interface: IHtmlContentInfo
 
@@ -20,7 +20,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:157530
+main.ts:154396
 
 ***
 
@@ -32,7 +32,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:157532
+main.ts:154398
 
 ***
 
@@ -44,7 +44,7 @@ Dale–Chall Readability Index
 
 #### Defined in
 
-main.ts:157534
+main.ts:154400
 
 ***
 
@@ -57,7 +57,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:157541
+main.ts:154407
 
 ***
 
@@ -69,7 +69,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:157536
+main.ts:154402
 
 ***
 
@@ -82,7 +82,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:157547
+main.ts:154413
 
 ***
 
@@ -95,7 +95,7 @@ plain_text_size to size ratio
 
 #### Defined in
 
-main.ts:157526
+main.ts:154392
 
 ***
 
@@ -107,7 +107,7 @@ total size of the text on the page measured in bytes
 
 #### Defined in
 
-main.ts:157523
+main.ts:154389
 
 ***
 
@@ -119,7 +119,7 @@ number of words on the page
 
 #### Defined in
 
-main.ts:157528
+main.ts:154394
 
 ***
 
@@ -131,7 +131,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:157538
+main.ts:154404
 
 ***
 
@@ -144,4 +144,4 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:157544
+main.ts:154410

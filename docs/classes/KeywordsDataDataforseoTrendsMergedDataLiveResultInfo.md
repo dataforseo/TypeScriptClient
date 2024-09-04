@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
+[Documentation](../globals.md) / KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
 # Class: KeywordsDataDataforseoTrendsMergedDataLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:130751
+main.ts:127617
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:130743
+main.ts:127609
 
 ***
 
@@ -65,7 +65,7 @@ contains keyword popularity and related data
 
 #### Defined in
 
-main.ts:130747
+main.ts:127613
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:130745
+main.ts:127611
 
 ***
 
@@ -97,7 +97,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:130730
+main.ts:127596
 
 ***
 
@@ -114,7 +114,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130738
+main.ts:127604
 
 ***
 
@@ -131,7 +131,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130735
+main.ts:127601
 
 ***
 
@@ -147,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:130732
+main.ts:127598
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:130732
 
 #### Defined in
 
-main.ts:130760
+main.ts:127626
 
 ***
 
@@ -183,7 +183,7 @@ main.ts:130760
 
 #### Defined in
 
-main.ts:130791
+main.ts:127657
 
 ***
 
@@ -201,4 +201,4 @@ main.ts:130791
 
 #### Defined in
 
-main.ts:130784
+main.ts:127650

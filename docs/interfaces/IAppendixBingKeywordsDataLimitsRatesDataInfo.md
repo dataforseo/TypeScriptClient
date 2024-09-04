@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixBingKeywordsDataLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixBingKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixBingKeywordsDataLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:220488
+main.ts:215748
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:220488
 
 #### Defined in
 
-main.ts:220491
+main.ts:215751
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:220491
 
 #### Defined in
 
-main.ts:220490
+main.ts:215750
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:220490
 
 #### Defined in
 
-main.ts:220489
+main.ts:215749

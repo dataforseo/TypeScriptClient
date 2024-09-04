@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationGenerateLiveRequestInfo
+[Documentation](../globals.md) / ContentGenerationGenerateLiveRequestInfo
 
 # Class: ContentGenerationGenerateLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:173573
+main.ts:169503
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:173551
+main.ts:169481
 
 ***
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:173545
+main.ts:169475
 
 ***
 
@@ -92,7 +92,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:173508
+main.ts:169438
 
 ***
 
@@ -113,7 +113,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:173493
+main.ts:169423
 
 ***
 
@@ -134,7 +134,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:173500
+main.ts:169430
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:173557
+main.ts:169487
 
 ***
 
@@ -174,7 +174,7 @@ supplement_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:173563
+main.ts:169493
 
 ***
 
@@ -194,7 +194,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:173569
+main.ts:169499
 
 ***
 
@@ -216,7 +216,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:173539
+main.ts:169469
 
 ***
 
@@ -236,7 +236,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:173486
+main.ts:169416
 
 ***
 
@@ -256,7 +256,7 @@ default value: 1
 
 #### Defined in
 
-main.ts:173514
+main.ts:169444
 
 ***
 
@@ -278,7 +278,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:173522
+main.ts:169452
 
 ***
 
@@ -301,7 +301,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:173531
+main.ts:169461
 
 ## Methods
 
@@ -319,7 +319,7 @@ main.ts:173531
 
 #### Defined in
 
-main.ts:173582
+main.ts:169512
 
 ***
 
@@ -337,7 +337,7 @@ main.ts:173582
 
 #### Defined in
 
-main.ts:173623
+main.ts:169553
 
 ***
 
@@ -355,4 +355,4 @@ main.ts:173623
 
 #### Defined in
 
-main.ts:173616
+main.ts:169546

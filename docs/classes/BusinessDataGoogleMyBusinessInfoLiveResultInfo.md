@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleMyBusinessInfoLiveResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleMyBusinessInfoLiveResultInfo
 
 # Class: BusinessDataGoogleMyBusinessInfoLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:206689
+main.ts:202043
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:206669
+main.ts:202023
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:206674
+main.ts:202028
 
 ***
 
@@ -84,7 +84,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:206678
+main.ts:202032
 
 ***
 
@@ -102,7 +102,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:206685
+main.ts:202039
 
 ***
 
@@ -119,7 +119,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:206681
+main.ts:202035
 
 ***
 
@@ -140,7 +140,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:206660
+main.ts:202014
 
 ***
 
@@ -156,7 +156,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:206666
+main.ts:202020
 
 ***
 
@@ -172,7 +172,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:206664
+main.ts:202018
 
 ***
 
@@ -188,7 +188,7 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:206662
+main.ts:202016
 
 ## Methods
 
@@ -206,7 +206,7 @@ main.ts:206662
 
 #### Defined in
 
-main.ts:206698
+main.ts:202052
 
 ***
 
@@ -224,7 +224,7 @@ main.ts:206698
 
 #### Defined in
 
-main.ts:206731
+main.ts:202085
 
 ***
 
@@ -242,4 +242,4 @@ main.ts:206731
 
 #### Defined in
 
-main.ts:206724
+main.ts:202078

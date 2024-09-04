@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Redirect
+[Documentation](../globals.md) / Redirect
 
 # Class: Redirect
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:143640
+main.ts:140506
 
 ## Properties
 
@@ -46,7 +46,7 @@ HTTP status code of the URL
 
 #### Defined in
 
-main.ts:143634
+main.ts:140500
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:143632
+main.ts:140498
 
 ***
 
@@ -78,7 +78,7 @@ indirect link URL
 
 #### Defined in
 
-main.ts:143636
+main.ts:140502
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:143636
 
 #### Defined in
 
-main.ts:143649
+main.ts:140515
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:143649
 
 #### Defined in
 
-main.ts:143668
+main.ts:140534
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:143668
 
 #### Defined in
 
-main.ts:143661
+main.ts:140527

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleKeywordSuggestionsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:86284
+main.ts:84956
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:86276
+main.ts:84948
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:86272
+main.ts:84944
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:86270
+main.ts:84942
 
 ***
 
@@ -68,7 +68,7 @@ current offset value
 
 #### Defined in
 
-main.ts:86278
+main.ts:84950
 
 ***
 
@@ -82,7 +82,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:86282
+main.ts:84954
 
 ***
 
@@ -94,7 +94,7 @@ search engine type
 
 #### Defined in
 
-main.ts:86263
+main.ts:84935
 
 ***
 
@@ -106,7 +106,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:86265
+main.ts:84937
 
 ***
 
@@ -123,7 +123,7 @@ fields in this object are identical to those of the items array
 
 #### Defined in
 
-main.ts:86268
+main.ts:84940
 
 ***
 
@@ -135,4 +135,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:86274
+main.ts:84946

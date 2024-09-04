@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageRedirectChainsRequestInfo
+[Documentation](../globals.md) / OnPageRedirectChainsRequestInfo
 
 # Class: OnPageRedirectChainsRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:162154
+main.ts:158176
 
 ## Properties
 
@@ -55,7 +55,7 @@ examples:
 
 #### Defined in
 
-main.ts:162144
+main.ts:158166
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:162118
+main.ts:158140
 
 ***
 
@@ -94,7 +94,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:162128
+main.ts:158150
 
 ***
 
@@ -113,7 +113,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Defined in
 
-main.ts:162133
+main.ts:158155
 
 ***
 
@@ -133,7 +133,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:162150
+main.ts:158172
 
 ***
 
@@ -152,7 +152,7 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Defined in
 
-main.ts:162123
+main.ts:158145
 
 ## Methods
 
@@ -170,7 +170,7 @@ main.ts:162123
 
 #### Defined in
 
-main.ts:162163
+main.ts:158185
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:162163
 
 #### Defined in
 
-main.ts:162189
+main.ts:158211
 
 ***
 
@@ -206,4 +206,4 @@ main.ts:162189
 
 #### Defined in
 
-main.ts:162182
+main.ts:158204

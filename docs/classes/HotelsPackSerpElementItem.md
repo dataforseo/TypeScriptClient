@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelsPackSerpElementItem
+[Documentation](../globals.md) / HotelsPackSerpElementItem
 
 # Class: HotelsPackSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:35003
+main.ts:33832
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:35003
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:34987
+main.ts:33816
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:34992
+main.ts:33821
 
 ***
 
@@ -107,7 +107,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34995
+main.ts:33824
 
 ***
 
@@ -123,9 +123,13 @@ left, right
 
 [`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`position`](../interfaces/IHotelsPackSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:34978
+main.ts:20363
 
 ***
 
@@ -135,15 +139,18 @@ main.ts:34978
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`rank_absolute`](../interfaces/IHotelsPackSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:34974
+main.ts:20359
 
 ***
 
@@ -152,17 +159,20 @@ main.ts:34974
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`rank_group`](../interfaces/IHotelsPackSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:34970
+main.ts:20356
 
 ***
 
@@ -180,7 +190,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34999
+main.ts:33828
 
 ***
 
@@ -196,7 +206,27 @@ title of the row
 
 #### Defined in
 
-main.ts:34982
+main.ts:33811
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`type`](../interfaces/IHotelsPackSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -210,9 +240,13 @@ the XPath of the element
 
 [`IHotelsPackSerpElementItem`](../interfaces/IHotelsPackSerpElementItem.md).[`xpath`](../interfaces/IHotelsPackSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:34980
+main.ts:20365
 
 ## Methods
 
@@ -234,7 +268,7 @@ main.ts:34980
 
 #### Defined in
 
-main.ts:35008
+main.ts:33837
 
 ***
 
@@ -256,7 +290,7 @@ main.ts:35008
 
 #### Defined in
 
-main.ts:35038
+main.ts:33863
 
 ***
 
@@ -278,4 +312,4 @@ main.ts:35038
 
 #### Defined in
 
-main.ts:35031
+main.ts:33856

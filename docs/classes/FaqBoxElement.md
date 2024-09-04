@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / FaqBoxElement
+[Documentation](../globals.md) / FaqBoxElement
 
 # Class: FaqBoxElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:29531
+main.ts:29399
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:29525
+main.ts:29393
 
 ***
 
@@ -62,7 +62,7 @@ link of the element
 
 #### Defined in
 
-main.ts:29527
+main.ts:29395
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29523
+main.ts:29391
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:29521
+main.ts:29389
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:29521
 
 #### Defined in
 
-main.ts:29540
+main.ts:29408
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:29540
 
 #### Defined in
 
-main.ts:29564
+main.ts:29432
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:29564
 
 #### Defined in
 
-main.ts:29557
+main.ts:29425

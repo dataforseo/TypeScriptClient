@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MicrodataFieldsInfo
+[Documentation](../globals.md) / MicrodataFieldsInfo
 
 # Class: MicrodataFieldsInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:164059
+main.ts:159989
 
 ## Properties
 
@@ -47,7 +47,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:164055
+main.ts:159985
 
 ***
 
@@ -64,7 +64,7 @@ name of the data field
 
 #### Defined in
 
-main.ts:164043
+main.ts:159973
 
 ***
 
@@ -81,7 +81,7 @@ sub-type microdata test results that contain detected errors and related message
 
 #### Defined in
 
-main.ts:164052
+main.ts:159982
 
 ***
 
@@ -98,7 +98,7 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:164046
+main.ts:159976
 
 ***
 
@@ -115,7 +115,7 @@ microdata value specified on a target web page
 
 #### Defined in
 
-main.ts:164049
+main.ts:159979
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:164049
 
 #### Defined in
 
-main.ts:164068
+main.ts:159998
 
 ***
 
@@ -151,7 +151,7 @@ main.ts:164068
 
 #### Defined in
 
-main.ts:164093
+main.ts:160023
 
 ***
 
@@ -169,4 +169,4 @@ main.ts:164093
 
 #### Defined in
 
-main.ts:164086
+main.ts:160016

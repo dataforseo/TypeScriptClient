@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsBingDomainIntersectionLiveResultInfo
 
 # Class: DataforseoLabsBingDomainIntersectionLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:110133
+main.ts:107267
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:110129
+main.ts:107263
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:110127
+main.ts:107261
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:110123
+main.ts:107257
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:110121
+main.ts:107255
 
 ***
 
@@ -112,7 +112,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:110115
+main.ts:107249
 
 ***
 
@@ -128,7 +128,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:110117
+main.ts:107251
 
 ***
 
@@ -144,7 +144,7 @@ target specified in a POST array
 
 #### Defined in
 
-main.ts:110119
+main.ts:107253
 
 ***
 
@@ -160,7 +160,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:110125
+main.ts:107259
 
 ## Methods
 
@@ -178,7 +178,7 @@ main.ts:110125
 
 #### Defined in
 
-main.ts:110142
+main.ts:107276
 
 ***
 
@@ -196,7 +196,7 @@ main.ts:110142
 
 #### Defined in
 
-main.ts:110170
+main.ts:107304
 
 ***
 
@@ -214,4 +214,4 @@ main.ts:110170
 
 #### Defined in
 
-main.ts:110163
+main.ts:107297

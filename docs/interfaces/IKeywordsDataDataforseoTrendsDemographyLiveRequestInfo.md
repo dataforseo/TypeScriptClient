@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo
+[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
 # Interface: IKeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
@@ -27,7 +27,7 @@ example:
 
 #### Defined in
 
-main.ts:129936
+main.ts:126826
 
 ***
 
@@ -44,7 +44,7 @@ example:
 
 #### Defined in
 
-main.ts:129943
+main.ts:126833
 
 ***
 
@@ -60,7 +60,7 @@ specifying non-Latin characters, you’ll get data for the countries where they 
 
 #### Defined in
 
-main.ts:129907
+main.ts:126797
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:129925
+main.ts:126815
 
 ***
 
@@ -98,7 +98,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:129916
+main.ts:126806
 
 ***
 
@@ -114,7 +114,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:129955
+main.ts:126845
 
 ***
 
@@ -130,7 +130,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Defined in
 
-main.ts:129949
+main.ts:126839
 
 ***
 
@@ -142,4 +142,4 @@ type of element
 
 #### Defined in
 
-main.ts:129927
+main.ts:126817

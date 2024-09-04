@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:97097
+main.ts:95737
 
 ## Properties
 
@@ -50,7 +50,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:97050
+main.ts:95690
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:97057
+main.ts:95697
 
 ***
 
@@ -92,7 +92,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:97044
+main.ts:95684
 
 ***
 
@@ -114,7 +114,7 @@ en
 
 #### Defined in
 
-main.ts:97087
+main.ts:95727
 
 ***
 
@@ -136,7 +136,7 @@ English
 
 #### Defined in
 
-main.ts:97079
+main.ts:95719
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Defined in
 
-main.ts:97071
+main.ts:95711
 
 ***
 
@@ -178,7 +178,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:97064
+main.ts:95704
 
 ***
 
@@ -198,7 +198,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:97093
+main.ts:95733
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:97093
 
 #### Defined in
 
-main.ts:97106
+main.ts:95746
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:97106
 
 #### Defined in
 
-main.ts:97130
+main.ts:95770
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:97130
 
 #### Defined in
 
-main.ts:97123
+main.ts:95763

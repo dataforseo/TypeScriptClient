@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:122566
+main.ts:119624
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:122534
+main.ts:119592
 
 ***
 
@@ -71,7 +71,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:122541
+main.ts:119599
 
 ***
 
@@ -88,7 +88,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:122556
+main.ts:119614
 
 ***
 
@@ -106,7 +106,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:122553
+main.ts:119611
 
 ***
 
@@ -122,7 +122,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:122517
+main.ts:119575
 
 ***
 
@@ -138,7 +138,7 @@ the annotations for the keyword
 
 #### Defined in
 
-main.ts:122562
+main.ts:119620
 
 ***
 
@@ -155,7 +155,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:122523
+main.ts:119581
 
 ***
 
@@ -172,7 +172,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:122520
+main.ts:119578
 
 ***
 
@@ -190,7 +190,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:122549
+main.ts:119607
 
 ***
 
@@ -208,7 +208,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:122560
+main.ts:119618
 
 ***
 
@@ -227,7 +227,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:122528
+main.ts:119586
 
 ***
 
@@ -245,7 +245,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:122545
+main.ts:119603
 
 ## Methods
 
@@ -263,7 +263,7 @@ main.ts:122545
 
 #### Defined in
 
-main.ts:122575
+main.ts:119633
 
 ***
 
@@ -281,7 +281,7 @@ main.ts:122575
 
 #### Defined in
 
-main.ts:122607
+main.ts:119665
 
 ***
 
@@ -299,4 +299,4 @@ main.ts:122607
 
 #### Defined in
 
-main.ts:122600
+main.ts:119658

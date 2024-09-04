@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / FaqBox
+[Documentation](../globals.md) / FaqBox
 
 # Class: FaqBox
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:29603
+main.ts:29471
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:29599
+main.ts:29467
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:29597
+main.ts:29465
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:29597
 
 #### Defined in
 
-main.ts:29612
+main.ts:29480
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:29612
 
 #### Defined in
 
-main.ts:29634
+main.ts:29502
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:29634
 
 #### Defined in
 
-main.ts:29627
+main.ts:29495

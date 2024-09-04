@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingOrganicLiveAdvancedResultInfo
+[Documentation](../globals.md) / SerpBingOrganicLiveAdvancedResultInfo
 
 # Class: SerpBingOrganicLiveAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:60109
+main.ts:58788
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:60085
+main.ts:58764
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:60090
+main.ts:58769
 
 ***
 
@@ -85,7 +85,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
 #### Defined in
 
-main.ts:60098
+main.ts:58777
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:60105
+main.ts:58784
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:60102
+main.ts:58781
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:60074
+main.ts:58753
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:60082
+main.ts:58761
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:60080
+main.ts:58759
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:60078
+main.ts:58757
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:60100
+main.ts:58779
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:60093
+main.ts:58772
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:60076
+main.ts:58755
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:60076
 
 #### Defined in
 
-main.ts:60118
+main.ts:58797
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:60118
 
 #### Defined in
 
-main.ts:60154
+main.ts:58833
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:60154
 
 #### Defined in
 
-main.ts:60147
+main.ts:58826

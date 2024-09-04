@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IntersectionSummaryInfo
+[Documentation](../globals.md) / IntersectionSummaryInfo
 
 # Class: IntersectionSummaryInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:149772
+main.ts:146638
 
 ## Properties
 
@@ -46,7 +46,7 @@ total number of intersections
 
 #### Defined in
 
-main.ts:149768
+main.ts:146634
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:149768
 
 #### Defined in
 
-main.ts:149781
+main.ts:146647
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:149781
 
 #### Defined in
 
-main.ts:149798
+main.ts:146664
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:149798
 
 #### Defined in
 
-main.ts:149791
+main.ts:146657

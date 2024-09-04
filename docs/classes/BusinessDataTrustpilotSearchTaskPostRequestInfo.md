@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
+[Documentation](../globals.md) / BusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Class: BusinessDataTrustpilotSearchTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:215189
+main.ts:210511
 
 ## Properties
 
@@ -52,7 +52,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 #### Defined in
 
-main.ts:215159
+main.ts:210481
 
 ***
 
@@ -73,7 +73,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:215143
+main.ts:210465
 
 ***
 
@@ -97,7 +97,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:215185
+main.ts:210507
 
 ***
 
@@ -121,7 +121,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:215175
+main.ts:210497
 
 ***
 
@@ -143,7 +143,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:215151
+main.ts:210473
 
 ***
 
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:215165
+main.ts:210487
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:215165
 
 #### Defined in
 
-main.ts:215198
+main.ts:210520
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:215198
 
 #### Defined in
 
-main.ts:215220
+main.ts:210542
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:215220
 
 #### Defined in
 
-main.ts:215213
+main.ts:210535

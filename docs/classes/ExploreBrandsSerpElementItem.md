@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ExploreBrandsSerpElementItem
+[Documentation](../globals.md) / ExploreBrandsSerpElementItem
 
 # Class: ExploreBrandsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:37247
+main.ts:35620
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:37247
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:37239
+main.ts:35612
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`position`](../interfaces/IExploreBrandsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:37232
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:37232
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`rank_absolute`](../interfaces/IExploreBrandsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:37228
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:37228
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`rank_group`](../interfaces/IExploreBrandsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:37224
+main.ts:20356
 
 ***
 
@@ -142,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:37243
+main.ts:35616
 
 ***
 
@@ -158,7 +168,27 @@ title of the row
 
 #### Defined in
 
-main.ts:37236
+main.ts:35609
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`type`](../interfaces/IExploreBrandsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -172,9 +202,13 @@ the XPath of the element
 
 [`IExploreBrandsSerpElementItem`](../interfaces/IExploreBrandsSerpElementItem.md).[`xpath`](../interfaces/IExploreBrandsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:37234
+main.ts:20365
 
 ## Methods
 
@@ -196,7 +230,7 @@ main.ts:37234
 
 #### Defined in
 
-main.ts:37252
+main.ts:35625
 
 ***
 
@@ -218,7 +252,7 @@ main.ts:37252
 
 #### Defined in
 
-main.ts:37280
+main.ts:35649
 
 ***
 
@@ -240,4 +274,4 @@ main.ts:37280
 
 #### Defined in
 
-main.ts:37273
+main.ts:35642

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTrustpilotReviewsTasksReadyResultInfo
+[Documentation](../globals.md) / BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
 # Class: BusinessDataTrustpilotReviewsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:216180
+main.ts:211486
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:216172
+main.ts:211478
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:216176
+main.ts:211482
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:216165
+main.ts:211471
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: trustpilot
 
 #### Defined in
 
-main.ts:216168
+main.ts:211474
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:216170
+main.ts:211476
 
 ***
 
@@ -128,7 +128,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:216174
+main.ts:211480
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:216174
 
 #### Defined in
 
-main.ts:216189
+main.ts:211495
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:216189
 
 #### Defined in
 
-main.ts:216211
+main.ts:211517
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:216211
 
 #### Defined in
 
-main.ts:216204
+main.ts:211510

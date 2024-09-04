@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisSearchLiveResultInfo
+[Documentation](../globals.md) / IContentAnalysisSearchLiveResultInfo
 
 # Interface: IContentAnalysisSearchLiveResultInfo
 
@@ -20,7 +20,7 @@ contains citations and related data
 
 #### Defined in
 
-main.ts:170657
+main.ts:166587
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:170655
+main.ts:166585
 
 ***
 
@@ -46,7 +46,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:170651
+main.ts:166581
 
 ***
 
@@ -58,4 +58,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:170653
+main.ts:166583

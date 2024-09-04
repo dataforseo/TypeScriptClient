@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppElement
+[Documentation](../globals.md) / AppElement
 
 # Class: AppElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:31375
+main.ts:30941
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:31367
+main.ts:30933
 
 ***
 
@@ -62,7 +62,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:31371
+main.ts:30937
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31365
+main.ts:30931
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:31363
+main.ts:30929
 
 ***
 
@@ -110,7 +110,7 @@ URL
 
 #### Defined in
 
-main.ts:31369
+main.ts:30935
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:31369
 
 #### Defined in
 
-main.ts:31384
+main.ts:30950
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:31384
 
 #### Defined in
 
-main.ts:31405
+main.ts:30971
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:31405
 
 #### Defined in
 
-main.ts:31398
+main.ts:30964

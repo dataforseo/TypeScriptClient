@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixAppDataDayStatisticsRatesData
+[Documentation](../globals.md) / AppendixAppDataDayStatisticsRatesData
 
 # Class: AppendixAppDataDayStatisticsRatesData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:224095
+main.ts:219355
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:224095
 
 #### Defined in
 
-main.ts:224081
+main.ts:219341
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:224081
 
 #### Defined in
 
-main.ts:224082
+main.ts:219342
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:224082
 
 #### Defined in
 
-main.ts:224091
+main.ts:219350
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:224091
 
 #### Defined in
 
-main.ts:224083
+main.ts:219343
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:224083
 
 #### Defined in
 
-main.ts:224084
+main.ts:219344
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:224084
 
 #### Defined in
 
-main.ts:224088
+main.ts:219348
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:224088
 
 #### Defined in
 
-main.ts:224085
+main.ts:219345
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:224085
 
 #### Defined in
 
-main.ts:224090
+main.ts:219351
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:224090
 
 #### Defined in
 
-main.ts:224086
+main.ts:219346
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:224086
 
 #### Defined in
 
-main.ts:224087
+main.ts:219347
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:224087
 
 #### Defined in
 
-main.ts:224089
+main.ts:219349
 
 ## Methods
 
@@ -202,7 +202,7 @@ main.ts:224089
 
 #### Defined in
 
-main.ts:224104
+main.ts:219364
 
 ***
 
@@ -220,7 +220,7 @@ main.ts:224104
 
 #### Defined in
 
-main.ts:224131
+main.ts:219391
 
 ***
 
@@ -238,4 +238,4 @@ main.ts:224131
 
 #### Defined in
 
-main.ts:224124
+main.ts:219384

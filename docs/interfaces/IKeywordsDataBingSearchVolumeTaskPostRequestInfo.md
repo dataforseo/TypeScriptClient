@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingSearchVolumeTaskPostRequestInfo
+[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTaskPostRequestInfo
 
@@ -27,7 +27,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:131547
+main.ts:128413
 
 ***
 
@@ -48,7 +48,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:131558
+main.ts:128424
 
 ***
 
@@ -63,7 +63,7 @@ default value: all
 
 #### Defined in
 
-main.ts:131533
+main.ts:128399
 
 ***
 
@@ -79,7 +79,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:131494
+main.ts:128360
 
 ***
 
@@ -95,7 +95,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:131528
+main.ts:128394
 
 ***
 
@@ -111,7 +111,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:131522
+main.ts:128388
 
 ***
 
@@ -128,7 +128,7 @@ example:
 
 #### Defined in
 
-main.ts:131508
+main.ts:128374
 
 ***
 
@@ -146,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:131516
+main.ts:128382
 
 ***
 
@@ -163,7 +163,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:131501
+main.ts:128367
 
 ***
 
@@ -183,7 +183,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:131578
+main.ts:128444
 
 ***
 
@@ -203,7 +203,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:131568
+main.ts:128434
 
 ***
 
@@ -218,7 +218,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:131583
+main.ts:128449
 
 ***
 
@@ -233,7 +233,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:131538
+main.ts:128404
 
 ***
 
@@ -249,4 +249,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:131589
+main.ts:128455

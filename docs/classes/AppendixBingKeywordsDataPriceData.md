@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixBingKeywordsDataPriceData
+[Documentation](../globals.md) / AppendixBingKeywordsDataPriceData
 
 # Class: AppendixBingKeywordsDataPriceData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:225870
+main.ts:221130
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:225870
 
 #### Defined in
 
-main.ts:225863
+main.ts:221123
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:225863
 
 #### Defined in
 
-main.ts:225864
+main.ts:221124
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:225864
 
 #### Defined in
 
-main.ts:225865
+main.ts:221125
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:225865
 
 #### Defined in
 
-main.ts:225866
+main.ts:221126
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:225866
 
 #### Defined in
 
-main.ts:225879
+main.ts:221139
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:225879
 
 #### Defined in
 
-main.ts:225899
+main.ts:221159
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:225899
 
 #### Defined in
 
-main.ts:225892
+main.ts:221152

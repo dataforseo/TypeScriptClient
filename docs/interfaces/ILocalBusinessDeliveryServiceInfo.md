@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocalBusinessDeliveryServiceInfo
+[Documentation](../globals.md) / ILocalBusinessDeliveryServiceInfo
 
 # Interface: ILocalBusinessDeliveryServiceInfo
 
@@ -21,7 +21,7 @@ domain of the online food ordering system
 
 #### Defined in
 
-main.ts:23756
+main.ts:24072
 
 ***
 
@@ -33,7 +33,7 @@ type of element
 
 #### Defined in
 
-main.ts:23753
+main.ts:24069
 
 ***
 
@@ -45,4 +45,4 @@ URL to place an order
 
 #### Defined in
 
-main.ts:23758
+main.ts:24074

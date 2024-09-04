@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAppleAppCompetitorsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsAppleAppCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsAppleAppCompetitorsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:118181
+main.ts:115239
 
 ## Properties
 
@@ -46,7 +46,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:118167
+main.ts:115225
 
 ***
 
@@ -62,7 +62,7 @@ contains data related to the app_id and competitor applications
 
 #### Defined in
 
-main.ts:118177
+main.ts:115235
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:118175
+main.ts:115233
 
 ***
 
@@ -94,7 +94,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:118171
+main.ts:115229
 
 ***
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:118169
+main.ts:115227
 
 ***
 
@@ -126,7 +126,7 @@ search engine type
 
 #### Defined in
 
-main.ts:118165
+main.ts:115223
 
 ***
 
@@ -142,7 +142,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:118173
+main.ts:115231
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:118173
 
 #### Defined in
 
-main.ts:118190
+main.ts:115248
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:118190
 
 #### Defined in
 
-main.ts:118217
+main.ts:115275
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:118217
 
 #### Defined in
 
-main.ts:118210
+main.ts:115268

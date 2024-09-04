@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleLanguagesResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleLanguagesResultInfo
 
 # Interface: IBusinessDataGoogleLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:205040
+main.ts:200422
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:205038
+main.ts:200420

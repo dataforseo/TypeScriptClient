@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleBulkTrafficEstimationLiveRequestInfo
 
@@ -27,7 +27,7 @@ default value:
 
 #### Defined in
 
-main.ts:103808
+main.ts:100958
 
 ***
 
@@ -45,7 +45,7 @@ en
 
 #### Defined in
 
-main.ts:103799
+main.ts:100949
 
 ***
 
@@ -63,7 +63,7 @@ English
 
 #### Defined in
 
-main.ts:103791
+main.ts:100941
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:103783
+main.ts:100933
 
 ***
 
@@ -99,7 +99,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:103775
+main.ts:100925
 
 ***
 
@@ -115,7 +115,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:103814
+main.ts:100964
 
 ***
 
@@ -132,4 +132,4 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-main.ts:103767
+main.ts:100917

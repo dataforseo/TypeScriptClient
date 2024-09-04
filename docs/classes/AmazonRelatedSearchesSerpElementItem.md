@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonRelatedSearchesSerpElementItem
+[Documentation](../globals.md) / AmazonRelatedSearchesSerpElementItem
 
 # Class: AmazonRelatedSearchesSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:184983
+main.ts:180653
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:184983
 
 #### Defined in
 
-main.ts:22007
+main.ts:22315
 
 ***
 
@@ -68,7 +68,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:184979
+main.ts:180649
 
 ***
 
@@ -86,7 +86,7 @@ left, right
 
 #### Defined in
 
-main.ts:184975
+main.ts:180647
 
 ***
 
@@ -94,16 +94,20 @@ main.ts:184975
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank in SERP
-absolute position among all the elements found in Amazon SERP
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_absolute`](BaseAmazonSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:184971
+main.ts:22311
 
 ***
 
@@ -118,9 +122,33 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[`rank_group`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_group`](BaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:184968
+main.ts:22308
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[`type`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`type`](BaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22305
 
 ***
 
@@ -134,9 +162,13 @@ the XPath of the element
 
 [`IAmazonRelatedSearchesSerpElementItem`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md).[`xpath`](../interfaces/IAmazonRelatedSearchesSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`xpath`](BaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:184977
+main.ts:22313
 
 ## Methods
 
@@ -158,7 +190,7 @@ main.ts:184977
 
 #### Defined in
 
-main.ts:184988
+main.ts:180658
 
 ***
 
@@ -180,7 +212,7 @@ main.ts:184988
 
 #### Defined in
 
-main.ts:185014
+main.ts:180681
 
 ***
 
@@ -202,4 +234,4 @@ main.ts:185014
 
 #### Defined in
 
-main.ts:185007
+main.ts:180674

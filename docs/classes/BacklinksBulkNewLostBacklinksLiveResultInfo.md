@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBulkNewLostBacklinksLiveResultInfo
+[Documentation](../globals.md) / BacklinksBulkNewLostBacklinksLiveResultInfo
 
 # Class: BacklinksBulkNewLostBacklinksLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:153682
+main.ts:150548
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:153678
+main.ts:150544
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:153676
+main.ts:150542
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:153676
 
 #### Defined in
 
-main.ts:153691
+main.ts:150557
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:153691
 
 #### Defined in
 
-main.ts:153713
+main.ts:150579
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:153713
 
 #### Defined in
 
-main.ts:153706
+main.ts:150572

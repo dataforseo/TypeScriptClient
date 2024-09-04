@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageKeywordDensityResultInfo
+[Documentation](../globals.md) / OnPageKeywordDensityResultInfo
 
 # Class: OnPageKeywordDensityResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:163706
+main.ts:159636
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:163693
+main.ts:159623
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:163695
+main.ts:159625
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Defined in
 
-main.ts:163702
+main.ts:159632
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:163700
+main.ts:159630
 
 ***
 
@@ -112,7 +112,7 @@ total number of keywords on the specified website or web page matching the set k
 
 #### Defined in
 
-main.ts:163698
+main.ts:159628
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:163698
 
 #### Defined in
 
-main.ts:163715
+main.ts:159645
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:163715
 
 #### Defined in
 
-main.ts:163740
+main.ts:159670
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:163740
 
 #### Defined in
 
-main.ts:163733
+main.ts:159663

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonAsinTaskPostRequestInfo
+[Documentation](../globals.md) / MerchantAmazonAsinTaskPostRequestInfo
 
 # Class: MerchantAmazonAsinTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:185728
+main.ts:181362
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:185638
+main.ts:181272
 
 ***
 
@@ -70,7 +70,7 @@ en_GB
 
 #### Defined in
 
-main.ts:185685
+main.ts:181319
 
 ***
 
@@ -92,7 +92,7 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:185678
+main.ts:181312
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:185661
+main.ts:181295
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Defined in
 
-main.ts:185670
+main.ts:181304
 
 ***
 
@@ -158,7 +158,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:185653
+main.ts:181287
 
 ***
 
@@ -182,7 +182,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:185724
+main.ts:181358
 
 ***
 
@@ -202,7 +202,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:185714
+main.ts:181348
 
 ***
 
@@ -226,7 +226,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:185708
+main.ts:181342
 
 ***
 
@@ -248,7 +248,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:185646
+main.ts:181280
 
 ***
 
@@ -269,7 +269,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:185692
+main.ts:181326
 
 ***
 
@@ -289,7 +289,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:185698
+main.ts:181332
 
 ## Methods
 
@@ -307,7 +307,7 @@ main.ts:185698
 
 #### Defined in
 
-main.ts:185737
+main.ts:181371
 
 ***
 
@@ -325,7 +325,7 @@ main.ts:185737
 
 #### Defined in
 
-main.ts:185765
+main.ts:181399
 
 ***
 
@@ -343,4 +343,4 @@ main.ts:185765
 
 #### Defined in
 
-main.ts:185758
+main.ts:181392

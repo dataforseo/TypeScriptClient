@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordsForSiteLiveResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordsForSiteLiveResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteLiveResultInfo
 
@@ -21,7 +21,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:133883
+main.ts:130749
 
 ***
 
@@ -38,7 +38,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:133873
+main.ts:130739
 
 ***
 
@@ -52,7 +52,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133877
+main.ts:130743
 
 ***
 
@@ -65,7 +65,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133866
+main.ts:130732
 
 ***
 
@@ -77,7 +77,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:133857
+main.ts:130723
 
 ***
 
@@ -89,7 +89,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:133861
+main.ts:130727
 
 ***
 
@@ -101,7 +101,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:133859
+main.ts:130725
 
 ***
 
@@ -115,7 +115,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133887
+main.ts:130753
 
 ***
 
@@ -127,7 +127,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:133863
+main.ts:130729
 
 ***
 
@@ -140,4 +140,4 @@ represents the (approximate) number of searches for the keyword on the Bing sear
 
 #### Defined in
 
-main.ts:133880
+main.ts:130746

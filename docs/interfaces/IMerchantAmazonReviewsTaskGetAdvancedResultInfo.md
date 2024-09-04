@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantAmazonReviewsTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantAmazonReviewsTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ asin received in a POST array
 
 #### Defined in
 
-main.ts:189768
+main.ts:185296
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:189779
+main.ts:185307
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:189784
+main.ts:185312
 
 ***
 
@@ -60,7 +60,7 @@ product image data
 
 #### Defined in
 
-main.ts:189792
+main.ts:185320
 
 ***
 
@@ -75,7 +75,7 @@ amazon_review_item
 
 #### Defined in
 
-main.ts:189802
+main.ts:185330
 
 ***
 
@@ -88,7 +88,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:189808
+main.ts:185336
 
 ***
 
@@ -101,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:189805
+main.ts:185333
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:189776
+main.ts:185304
 
 ***
 
@@ -125,7 +125,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:189774
+main.ts:185302
 
 ***
 
@@ -138,7 +138,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:189795
+main.ts:185323
 
 ***
 
@@ -150,7 +150,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:189797
+main.ts:185325
 
 ***
 
@@ -162,7 +162,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:189772
+main.ts:185300
 
 ***
 
@@ -175,7 +175,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:189787
+main.ts:185315
 
 ***
 
@@ -188,7 +188,7 @@ the title of the product for which the reviews are collected
 
 #### Defined in
 
-main.ts:189790
+main.ts:185318
 
 ***
 
@@ -200,4 +200,4 @@ type of element
 
 #### Defined in
 
-main.ts:189770
+main.ts:185298

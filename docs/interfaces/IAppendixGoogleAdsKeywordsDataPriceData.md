@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixGoogleAdsKeywordsDataPriceData
+[Documentation](../globals.md) / IAppendixGoogleAdsKeywordsDataPriceData
 
 # Interface: IAppendixGoogleAdsKeywordsDataPriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:226037
+main.ts:221297
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:226037
 
 #### Defined in
 
-main.ts:226038
+main.ts:221298
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:226038
 
 #### Defined in
 
-main.ts:226039
+main.ts:221299
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:226039
 
 #### Defined in
 
-main.ts:226040
+main.ts:221300
 
 ***
 
@@ -58,4 +58,4 @@ main.ts:226040
 
 #### Defined in
 
-main.ts:226041
+main.ts:221301

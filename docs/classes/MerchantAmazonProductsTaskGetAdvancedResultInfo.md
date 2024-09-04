@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonProductsTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / MerchantAmazonProductsTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonProductsTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:185180
+main.ts:180814
 
 ## Properties
 
@@ -46,7 +46,7 @@ amazon product departments and subcategories
 
 #### Defined in
 
-main.ts:185172
+main.ts:180806
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:185155
+main.ts:180789
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:185160
+main.ts:180794
 
 ***
 
@@ -101,7 +101,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:185168
+main.ts:180802
 
 ***
 
@@ -117,7 +117,7 @@ Amazon product items within the editorial_recommendations element
 
 #### Defined in
 
-main.ts:185176
+main.ts:180810
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:185174
+main.ts:180808
 
 ***
 
@@ -150,7 +150,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:185144
+main.ts:180778
 
 ***
 
@@ -166,7 +166,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185152
+main.ts:180786
 
 ***
 
@@ -182,7 +182,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185150
+main.ts:180784
 
 ***
 
@@ -198,7 +198,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185148
+main.ts:180782
 
 ***
 
@@ -214,7 +214,7 @@ search engine results count
 
 #### Defined in
 
-main.ts:185170
+main.ts:180804
 
 ***
 
@@ -231,7 +231,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:185163
+main.ts:180797
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Defined in
 
-main.ts:185146
+main.ts:180780
 
 ## Methods
 
@@ -265,7 +265,7 @@ main.ts:185146
 
 #### Defined in
 
-main.ts:185189
+main.ts:180823
 
 ***
 
@@ -283,7 +283,7 @@ main.ts:185189
 
 #### Defined in
 
-main.ts:185230
+main.ts:180864
 
 ***
 
@@ -301,4 +301,4 @@ main.ts:185230
 
 #### Defined in
 
-main.ts:185223
+main.ts:180857

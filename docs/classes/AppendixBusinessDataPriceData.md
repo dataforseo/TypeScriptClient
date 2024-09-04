@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixBusinessDataPriceData
+[Documentation](../globals.md) / AppendixBusinessDataPriceData
 
 # Class: AppendixBusinessDataPriceData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:227500
+main.ts:222760
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:227500
 
 #### Defined in
 
-main.ts:227487
+main.ts:222747
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:227487
 
 #### Defined in
 
-main.ts:227488
+main.ts:222748
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:227488
 
 #### Defined in
 
-main.ts:227490
+main.ts:222750
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:227490
 
 #### Defined in
 
-main.ts:227491
+main.ts:222751
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:227491
 
 #### Defined in
 
-main.ts:227492
+main.ts:222752
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:227492
 
 #### Defined in
 
-main.ts:227489
+main.ts:222749
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:227489
 
 #### Defined in
 
-main.ts:227496
+main.ts:222756
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:227496
 
 #### Defined in
 
-main.ts:227494
+main.ts:222754
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:227494
 
 #### Defined in
 
-main.ts:227493
+main.ts:222753
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:227493
 
 #### Defined in
 
-main.ts:227495
+main.ts:222755
 
 ## Methods
 
@@ -188,7 +188,7 @@ main.ts:227495
 
 #### Defined in
 
-main.ts:227509
+main.ts:222769
 
 ***
 
@@ -206,7 +206,7 @@ main.ts:227509
 
 #### Defined in
 
-main.ts:227535
+main.ts:222795
 
 ***
 
@@ -224,4 +224,4 @@ main.ts:227535
 
 #### Defined in
 
-main.ts:227528
+main.ts:222788

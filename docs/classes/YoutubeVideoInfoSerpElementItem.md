@@ -2,13 +2,13 @@
 
 ***
 
-[Documentation](../README.md) / YoutubeVideoInfoSerpElementItem
+[Documentation](../globals.md) / YoutubeVideoInfoSerpElementItem
 
 # Class: YoutubeVideoInfoSerpElementItem
 
 ## Extends
 
-- [`BaseSerpElementItem`](BaseSerpElementItem.md)
+- [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)
 
 ## Implements
 
@@ -34,11 +34,11 @@
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`constructor`](BaseSerpElementItem.md#constructors)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`constructor`](BaseYoutubeSerpElementItem.md#constructors)
 
 #### Defined in
 
-main.ts:63623
+main.ts:62372
 
 ## Properties
 
@@ -48,11 +48,11 @@ main.ts:63623
 
 #### Inherited from
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`_discriminator`](BaseSerpElementItem.md#_discriminator)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`_discriminator`](BaseYoutubeSerpElementItem.md#_discriminator)
 
 #### Defined in
 
-main.ts:20354
+main.ts:62255
 
 ***
 
@@ -68,7 +68,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:63609
+main.ts:62356
 
 ***
 
@@ -84,7 +84,7 @@ the ID of the channel where the video is published
 
 #### Defined in
 
-main.ts:63582
+main.ts:62329
 
 ***
 
@@ -100,7 +100,7 @@ the URL of the page where the logo image of the channel is hosted
 
 #### Defined in
 
-main.ts:63588
+main.ts:62335
 
 ***
 
@@ -116,7 +116,7 @@ the name of the channel where the video is published
 
 #### Defined in
 
-main.ts:63584
+main.ts:62331
 
 ***
 
@@ -132,7 +132,7 @@ number of subscribers of the channel
 
 #### Defined in
 
-main.ts:63598
+main.ts:62345
 
 ***
 
@@ -148,7 +148,7 @@ the URL of the channel where the video is published
 
 #### Defined in
 
-main.ts:63586
+main.ts:62333
 
 ***
 
@@ -164,7 +164,7 @@ number of comments on the video
 
 #### Defined in
 
-main.ts:63596
+main.ts:62343
 
 ***
 
@@ -180,7 +180,7 @@ description of the video
 
 #### Defined in
 
-main.ts:63590
+main.ts:62337
 
 ***
 
@@ -196,7 +196,7 @@ duration of the video
 
 #### Defined in
 
-main.ts:63613
+main.ts:62362
 
 ***
 
@@ -212,7 +212,23 @@ duration of the video in seconds
 
 #### Defined in
 
-main.ts:63615
+main.ts:62364
+
+***
+
+### is\_embeddable?
+
+> `optional` **is\_embeddable**: `boolean`
+
+indicates whether the video is embeddable
+
+#### Implementation of
+
+[`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`is_embeddable`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#is_embeddable)
+
+#### Defined in
+
+main.ts:62360
 
 ***
 
@@ -228,7 +244,7 @@ indicates whether the video is on live
 
 #### Defined in
 
-main.ts:63611
+main.ts:62358
 
 ***
 
@@ -244,7 +260,7 @@ keywords relevant to the video
 
 #### Defined in
 
-main.ts:63607
+main.ts:62354
 
 ***
 
@@ -260,7 +276,7 @@ number of likes on the video
 
 #### Defined in
 
-main.ts:63594
+main.ts:62341
 
 ***
 
@@ -276,7 +292,7 @@ the date when the video is published
 
 #### Defined in
 
-main.ts:63600
+main.ts:62347
 
 ***
 
@@ -291,9 +307,13 @@ absolute position among all the elements in SERP
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`rank_absolute`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`rank_absolute`](BaseYoutubeSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:63572
+main.ts:62253
 
 ***
 
@@ -309,9 +329,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`rank_group`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`rank_group`](BaseYoutubeSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:63569
+main.ts:62250
 
 ***
 
@@ -327,7 +351,7 @@ array of elements that contain information about all possible streaming qualitie
 
 #### Defined in
 
-main.ts:63619
+main.ts:62368
 
 ***
 
@@ -343,7 +367,7 @@ array of elements describing properties of subtitles in the video
 
 #### Defined in
 
-main.ts:63617
+main.ts:62366
 
 ***
 
@@ -359,7 +383,7 @@ the URL of the page where the thumbnail is hosted
 
 #### Defined in
 
-main.ts:63580
+main.ts:62327
 
 ***
 
@@ -378,7 +402,7 @@ example:
 
 #### Defined in
 
-main.ts:63605
+main.ts:62352
 
 ***
 
@@ -394,7 +418,27 @@ title of the video
 
 #### Defined in
 
-main.ts:63576
+main.ts:62323
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IYoutubeVideoInfoSerpElementItem`](../interfaces/IYoutubeVideoInfoSerpElementItem.md).[`type`](../interfaces/IYoutubeVideoInfoSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`type`](BaseYoutubeSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:62246
 
 ***
 
@@ -410,7 +454,7 @@ URL of the video
 
 #### Defined in
 
-main.ts:63578
+main.ts:62325
 
 ***
 
@@ -426,7 +470,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:63574
+main.ts:62321
 
 ***
 
@@ -442,7 +486,7 @@ number of views of the video
 
 #### Defined in
 
-main.ts:63592
+main.ts:62339
 
 ## Methods
 
@@ -460,11 +504,11 @@ main.ts:63592
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`init`](BaseSerpElementItem.md#init)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`init`](BaseYoutubeSerpElementItem.md#init)
 
 #### Defined in
 
-main.ts:63628
+main.ts:62377
 
 ***
 
@@ -482,11 +526,11 @@ main.ts:63628
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`toJSON`](BaseSerpElementItem.md#tojson)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`toJSON`](BaseYoutubeSerpElementItem.md#tojson)
 
 #### Defined in
 
-main.ts:63681
+main.ts:62429
 
 ***
 
@@ -504,8 +548,8 @@ main.ts:63681
 
 #### Overrides
 
-[`BaseSerpElementItem`](BaseSerpElementItem.md).[`fromJS`](BaseSerpElementItem.md#fromjs)
+[`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md).[`fromJS`](BaseYoutubeSerpElementItem.md#fromjs)
 
 #### Defined in
 
-main.ts:63674
+main.ts:62422

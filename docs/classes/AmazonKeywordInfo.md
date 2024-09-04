@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonKeywordInfo
+[Documentation](../globals.md) / AmazonKeywordInfo
 
 # Class: AmazonKeywordInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22647
+main.ts:22963
 
 ## Properties
 
@@ -48,7 +48,7 @@ example:    '2019-11-15 12:57:46 +00:00'
 
 #### Defined in
 
-main.ts:22640
+main.ts:22956
 
 ***
 
@@ -64,7 +64,7 @@ search engine type
 
 #### Defined in
 
-main.ts:22636
+main.ts:22952
 
 ***
 
@@ -81,7 +81,7 @@ represents the (approximate) number of searches for the provided keyword idea on
 
 #### Defined in
 
-main.ts:22643
+main.ts:22959
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:22643
 
 #### Defined in
 
-main.ts:22656
+main.ts:22972
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:22656
 
 #### Defined in
 
-main.ts:22675
+main.ts:22991
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:22675
 
 #### Defined in
 
-main.ts:22668
+main.ts:22984

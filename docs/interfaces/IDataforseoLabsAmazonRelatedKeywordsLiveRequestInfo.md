@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveRequestInfo
 
@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:105478
+main.ts:102628
 
 ***
 
@@ -45,7 +45,7 @@ default value: false
 
 #### Defined in
 
-main.ts:105488
+main.ts:102638
 
 ***
 
@@ -60,7 +60,7 @@ default value: false
 
 #### Defined in
 
-main.ts:105483
+main.ts:102633
 
 ***
 
@@ -76,7 +76,7 @@ the keywords should be specified in the lowercase format
 
 #### Defined in
 
-main.ts:105434
+main.ts:102584
 
 ***
 
@@ -93,7 +93,7 @@ en
 
 #### Defined in
 
-main.ts:105466
+main.ts:102616
 
 ***
 
@@ -110,7 +110,7 @@ English
 
 #### Defined in
 
-main.ts:105459
+main.ts:102609
 
 ***
 
@@ -125,7 +125,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:105493
+main.ts:102643
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:105452
+main.ts:102602
 
 ***
 
@@ -163,7 +163,7 @@ United States
 
 #### Defined in
 
-main.ts:105443
+main.ts:102593
 
 ***
 
@@ -178,7 +178,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:105498
+main.ts:102648
 
 ***
 
@@ -194,4 +194,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:105504
+main.ts:102654

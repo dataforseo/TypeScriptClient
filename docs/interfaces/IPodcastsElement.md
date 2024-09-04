@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPodcastsElement
+[Documentation](../globals.md) / IPodcastsElement
 
 # Interface: IPodcastsElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:34089
+main.ts:33085
 
 ***
 
@@ -32,7 +32,7 @@ the total time it will take to play an episode
 
 #### Defined in
 
-main.ts:34096
+main.ts:33092
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:34094
+main.ts:33090
 
 ***
 
@@ -59,7 +59,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34085
+main.ts:33081
 
 ***
 
@@ -71,7 +71,7 @@ type of element
 
 #### Defined in
 
-main.ts:34083
+main.ts:33079
 
 ***
 
@@ -83,4 +83,4 @@ URL
 
 #### Defined in
 
-main.ts:34087
+main.ts:33083

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingSubdomainsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsBingSubdomainsLiveResultInfo
 
 # Class: DataforseoLabsBingSubdomainsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:114085
+main.ts:111219
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains subdomains and related data
 
 #### Defined in
 
-main.ts:114081
+main.ts:111215
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:114079
+main.ts:111213
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:114075
+main.ts:111209
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:114073
+main.ts:111207
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:114069
+main.ts:111203
 
 ***
 
@@ -126,7 +126,7 @@ domain in a POST array
 
 #### Defined in
 
-main.ts:114071
+main.ts:111205
 
 ***
 
@@ -142,7 +142,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:114077
+main.ts:111211
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:114077
 
 #### Defined in
 
-main.ts:114094
+main.ts:111228
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:114094
 
 #### Defined in
 
-main.ts:114121
+main.ts:111255
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:114121
 
 #### Defined in
 
-main.ts:114114
+main.ts:111248

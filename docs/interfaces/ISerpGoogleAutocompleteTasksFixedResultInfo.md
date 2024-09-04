@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleAutocompleteTasksFixedResultInfo
+[Documentation](../globals.md) / ISerpGoogleAutocompleteTasksFixedResultInfo
 
 # Interface: ISerpGoogleAutocompleteTasksFixedResultInfo
 
@@ -20,7 +20,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:53633
+main.ts:52088
 
 ***
 
@@ -33,7 +33,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:53641
+main.ts:52096
 
 ***
 
@@ -46,7 +46,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:53644
+main.ts:52099
 
 ***
 
@@ -59,7 +59,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:53638
+main.ts:52093
 
 ***
 
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:53626
+main.ts:52081
 
 ***
 
@@ -84,7 +84,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:53628
+main.ts:52083
 
 ***
 
@@ -97,7 +97,7 @@ can take the following values: autocomplete
 
 #### Defined in
 
-main.ts:53631
+main.ts:52086
 
 ***
 
@@ -109,4 +109,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:53635
+main.ts:52090

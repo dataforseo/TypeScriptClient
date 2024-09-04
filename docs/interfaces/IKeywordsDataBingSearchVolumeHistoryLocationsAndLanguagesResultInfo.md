@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLocationsAndLanguagesResultInfo
 
@@ -20,7 +20,7 @@ array of available locations for a certain language
 
 #### Defined in
 
-main.ts:137051
+main.ts:133917
 
 ***
 
@@ -32,7 +32,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:137049
+main.ts:133915
 
 ***
 
@@ -44,4 +44,4 @@ language name
 
 #### Defined in
 
-main.ts:137047
+main.ts:133913

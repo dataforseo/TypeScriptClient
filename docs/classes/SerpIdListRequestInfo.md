@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpIdListRequestInfo
+[Documentation](../globals.md) / SerpIdListRequestInfo
 
 # Class: SerpIdListRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:24067
+main.ts:24383
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:24037
+main.ts:24353
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:24044
+main.ts:24360
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:24063
+main.ts:24379
 
 ***
 
@@ -110,7 +110,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:24049
+main.ts:24365
 
 ***
 
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:24054
+main.ts:24370
 
 ***
 
@@ -148,7 +148,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:24059
+main.ts:24375
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:24059
 
 #### Defined in
 
-main.ts:24076
+main.ts:24392
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:24076
 
 #### Defined in
 
-main.ts:24098
+main.ts:24414
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:24098
 
 #### Defined in
 
-main.ts:24091
+main.ts:24407

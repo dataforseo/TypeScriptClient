@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationGrammarRulesResultInfo
+[Documentation](../globals.md) / ContentGenerationGrammarRulesResultInfo
 
 # Class: ContentGenerationGrammarRulesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:175700
+main.ts:171630
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of rules
 
 #### Defined in
 
-main.ts:175696
+main.ts:171626
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:175696
 
 #### Defined in
 
-main.ts:175709
+main.ts:171639
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:175709
 
 #### Defined in
 
-main.ts:175730
+main.ts:171660
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:175730
 
 #### Defined in
 
-main.ts:175723
+main.ts:171653

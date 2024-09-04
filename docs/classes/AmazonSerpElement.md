@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonSerpElement
+[Documentation](../globals.md) / AmazonSerpElement
 
 # Class: AmazonSerpElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:184752
+main.ts:180452
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:184717
+main.ts:180417
 
 ***
 
@@ -64,7 +64,7 @@ USD
 
 #### Defined in
 
-main.ts:184729
+main.ts:180429
 
 ***
 
@@ -83,7 +83,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:184737
+main.ts:180437
 
 ***
 
@@ -100,7 +100,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:184748
+main.ts:180448
 
 ***
 
@@ -116,7 +116,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:184709
+main.ts:180409
 
 ***
 
@@ -132,7 +132,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:184715
+main.ts:180415
 
 ***
 
@@ -149,7 +149,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:184742
+main.ts:180442
 
 ***
 
@@ -166,7 +166,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:184745
+main.ts:180445
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:184721
+main.ts:180421
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Defined in
 
-main.ts:184725
+main.ts:180425
 
 ***
 
@@ -218,7 +218,7 @@ product rating info
 
 #### Defined in
 
-main.ts:184739
+main.ts:180439
 
 ***
 
@@ -235,7 +235,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:184732
+main.ts:180432
 
 ***
 
@@ -251,7 +251,7 @@ product title
 
 #### Defined in
 
-main.ts:184711
+main.ts:180411
 
 ***
 
@@ -267,7 +267,7 @@ type of element
 
 #### Defined in
 
-main.ts:184705
+main.ts:180405
 
 ***
 
@@ -283,7 +283,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:184713
+main.ts:180413
 
 ***
 
@@ -299,7 +299,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:184707
+main.ts:180407
 
 ## Methods
 
@@ -317,7 +317,7 @@ main.ts:184707
 
 #### Defined in
 
-main.ts:184761
+main.ts:180461
 
 ***
 
@@ -335,7 +335,7 @@ main.ts:184761
 
 #### Defined in
 
-main.ts:184797
+main.ts:180497
 
 ***
 
@@ -353,4 +353,4 @@ main.ts:184797
 
 #### Defined in
 
-main.ts:184790
+main.ts:180490

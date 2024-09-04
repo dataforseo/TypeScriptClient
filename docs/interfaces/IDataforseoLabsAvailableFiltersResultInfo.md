@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAvailableFiltersResultInfo
+[Documentation](../globals.md) / IDataforseoLabsAvailableFiltersResultInfo
 
 # Interface: IDataforseoLabsAvailableFiltersResultInfo
 
@@ -22,7 +22,7 @@
 
 #### Defined in
 
-main.ts:82810
+main.ts:81482
 
 ***
 
@@ -36,7 +36,7 @@ main.ts:82810
 
 #### Defined in
 
-main.ts:82809
+main.ts:81481
 
 ***
 
@@ -50,7 +50,7 @@ main.ts:82809
 
 #### Defined in
 
-main.ts:82799
+main.ts:81471
 
 ***
 
@@ -64,7 +64,7 @@ main.ts:82799
 
 #### Defined in
 
-main.ts:82798
+main.ts:81470
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:82798
 
 #### Defined in
 
-main.ts:82812
+main.ts:81484
 
 ***
 
@@ -92,7 +92,7 @@ main.ts:82812
 
 #### Defined in
 
-main.ts:82801
+main.ts:81473
 
 ***
 
@@ -106,7 +106,7 @@ main.ts:82801
 
 #### Defined in
 
-main.ts:82805
+main.ts:81477
 
 ***
 
@@ -120,7 +120,7 @@ main.ts:82805
 
 #### Defined in
 
-main.ts:82803
+main.ts:81475
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:82803
 
 #### Defined in
 
-main.ts:82794
+main.ts:81466
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:82794
 
 #### Defined in
 
-main.ts:82792
+main.ts:81464
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:82792
 
 #### Defined in
 
-main.ts:82811
+main.ts:81483
 
 ***
 
@@ -176,7 +176,7 @@ main.ts:82811
 
 #### Defined in
 
-main.ts:82800
+main.ts:81472
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:82800
 
 #### Defined in
 
-main.ts:82806
+main.ts:81478
 
 ***
 
@@ -204,7 +204,7 @@ main.ts:82806
 
 #### Defined in
 
-main.ts:82802
+main.ts:81474
 
 ***
 
@@ -218,7 +218,7 @@ main.ts:82802
 
 #### Defined in
 
-main.ts:82807
+main.ts:81479
 
 ***
 
@@ -232,7 +232,7 @@ main.ts:82807
 
 #### Defined in
 
-main.ts:82808
+main.ts:81480
 
 ***
 
@@ -246,7 +246,7 @@ main.ts:82808
 
 #### Defined in
 
-main.ts:82793
+main.ts:81465
 
 ***
 
@@ -260,7 +260,7 @@ main.ts:82793
 
 #### Defined in
 
-main.ts:82791
+main.ts:81463
 
 ***
 
@@ -274,7 +274,7 @@ main.ts:82791
 
 #### Defined in
 
-main.ts:82796
+main.ts:81468
 
 ***
 
@@ -288,7 +288,7 @@ main.ts:82796
 
 #### Defined in
 
-main.ts:82795
+main.ts:81467
 
 ***
 
@@ -302,7 +302,7 @@ main.ts:82795
 
 #### Defined in
 
-main.ts:82797
+main.ts:81469
 
 ***
 
@@ -316,4 +316,4 @@ main.ts:82797
 
 #### Defined in
 
-main.ts:82804
+main.ts:81476

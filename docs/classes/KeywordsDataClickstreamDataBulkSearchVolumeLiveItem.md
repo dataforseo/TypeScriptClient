@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataClickstreamDataBulkSearchVolumeLiveItem
+[Documentation](../globals.md) / KeywordsDataClickstreamDataBulkSearchVolumeLiveItem
 
 # Class: KeywordsDataClickstreamDataBulkSearchVolumeLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:140340
+main.ts:137206
 
 ## Properties
 
@@ -47,7 +47,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:140329
+main.ts:137195
 
 ***
 
@@ -64,7 +64,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
-main.ts:140336
+main.ts:137202
 
 ***
 
@@ -82,7 +82,7 @@ you can learn more about clickstream search volume in this Help Center article
 
 #### Defined in
 
-main.ts:140333
+main.ts:137199
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:140333
 
 #### Defined in
 
-main.ts:140349
+main.ts:137215
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:140349
 
 #### Defined in
 
-main.ts:140372
+main.ts:137238
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:140372
 
 #### Defined in
 
-main.ts:140365
+main.ts:137231

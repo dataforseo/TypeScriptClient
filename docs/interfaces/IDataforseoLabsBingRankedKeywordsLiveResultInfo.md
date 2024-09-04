@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingRankedKeywordsLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains ranked keywords and related data
 
 #### Defined in
 
-main.ts:111992
+main.ts:109126
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:111984
+main.ts:109118
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:111980
+main.ts:109114
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:111977
+main.ts:109111
 
 ***
 
@@ -75,7 +75,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Defined in
 
-main.ts:111987
+main.ts:109121
 
 ***
 
@@ -92,7 +92,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Defined in
 
-main.ts:111990
+main.ts:109124
 
 ***
 
@@ -104,7 +104,7 @@ search engine type
 
 #### Defined in
 
-main.ts:111972
+main.ts:109106
 
 ***
 
@@ -116,7 +116,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:111974
+main.ts:109108
 
 ***
 
@@ -128,4 +128,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:111982
+main.ts:109116

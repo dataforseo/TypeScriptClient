@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ScoreByCategories
+[Documentation](../globals.md) / ScoreByCategories
 
 # Class: ScoreByCategories
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:211729
+main.ts:207067
 
 ## Properties
 
@@ -48,7 +48,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 #### Defined in
 
-main.ts:211725
+main.ts:207063
 
 ***
 
@@ -67,7 +67,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:211709
+main.ts:207047
 
 ***
 
@@ -85,7 +85,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 #### Defined in
 
-main.ts:211717
+main.ts:207055
 
 ***
 
@@ -103,7 +103,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 #### Defined in
 
-main.ts:211713
+main.ts:207051
 
 ***
 
@@ -121,7 +121,7 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 #### Defined in
 
-main.ts:211721
+main.ts:207059
 
 ## Methods
 
@@ -139,7 +139,7 @@ main.ts:211721
 
 #### Defined in
 
-main.ts:211738
+main.ts:207076
 
 ***
 
@@ -157,7 +157,7 @@ main.ts:211738
 
 #### Defined in
 
-main.ts:211759
+main.ts:207097
 
 ***
 
@@ -175,4 +175,4 @@ main.ts:211759
 
 #### Defined in
 
-main.ts:211752
+main.ts:207090

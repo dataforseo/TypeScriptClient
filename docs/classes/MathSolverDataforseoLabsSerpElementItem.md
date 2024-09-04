@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MathSolverDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / MathSolverDataforseoLabsSerpElementItem
 
 # Class: MathSolverDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:98920
+main.ts:97039
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98920
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -60,7 +60,7 @@ main.ts:20752
 
 > `optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-elements of search results found in SERP
+contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:98912
+main.ts:97031
 
 ***
 
@@ -86,7 +86,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:98916
+main.ts:97035
 
 ***
 
@@ -102,9 +102,13 @@ left, right
 
 [`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:98903
+main.ts:20738
 
 ***
 
@@ -119,9 +123,13 @@ absolute position among all the elements in SERP
 
 [`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:98899
+main.ts:20734
 
 ***
 
@@ -129,7 +137,6 @@ main.ts:98899
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
@@ -137,9 +144,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:98896
+main.ts:20731
 
 ***
 
@@ -156,7 +167,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:98910
+main.ts:97029
 
 ***
 
@@ -172,7 +183,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:98907
+main.ts:97026
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -186,9 +217,13 @@ the XPath of the element
 
 [`IMathSolverDataforseoLabsSerpElementItem`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IMathSolverDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:98905
+main.ts:20740
 
 ## Methods
 
@@ -210,7 +245,7 @@ main.ts:98905
 
 #### Defined in
 
-main.ts:98925
+main.ts:97044
 
 ***
 
@@ -232,7 +267,7 @@ main.ts:98925
 
 #### Defined in
 
-main.ts:98958
+main.ts:97073
 
 ***
 
@@ -254,4 +289,4 @@ main.ts:98958
 
 #### Defined in
 
-main.ts:98951
+main.ts:97066

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksBacklinksLiveRequestInfo
+[Documentation](../globals.md) / IBacklinksBacklinksLiveRequestInfo
 
 # Interface: IBacklinksBacklinksLiveRequestInfo
 
@@ -27,7 +27,7 @@ default value: live
 
 #### Defined in
 
-main.ts:143540
+main.ts:140406
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:143464
+main.ts:140330
 
 ***
 
@@ -64,7 +64,7 @@ default value: true
 
 #### Defined in
 
-main.ts:143557
+main.ts:140423
 
 ***
 
@@ -87,7 +87,7 @@ semantic_location
 
 #### Defined in
 
-main.ts:143477
+main.ts:140343
 
 ***
 
@@ -114,7 +114,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:143498
+main.ts:140364
 
 ***
 
@@ -130,7 +130,7 @@ default value: true
 
 #### Defined in
 
-main.ts:143551
+main.ts:140417
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Defined in
 
-main.ts:143545
+main.ts:140411
 
 ***
 
@@ -160,7 +160,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:143531
+main.ts:140397
 
 ***
 
@@ -178,7 +178,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:143457
+main.ts:140323
 
 ***
 
@@ -194,7 +194,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 #### Defined in
 
-main.ts:143518
+main.ts:140384
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Defined in
 
-main.ts:143512
+main.ts:140378
 
 ***
 
@@ -236,7 +236,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 #### Defined in
 
-main.ts:143526
+main.ts:140392
 
 ***
 
@@ -252,7 +252,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:143563
+main.ts:140429
 
 ***
 
@@ -267,7 +267,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:143449
+main.ts:140315
 
 ***
 
@@ -281,4 +281,4 @@ can be set from 1 to 1000
 
 #### Defined in
 
-main.ts:143481
+main.ts:140347

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TrendsMapDataInfo
+[Documentation](../globals.md) / TrendsMapDataInfo
 
 # Class: TrendsMapDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:126908
+main.ts:123936
 
 ## Properties
 
@@ -49,7 +49,7 @@ US-NY
 
 #### Defined in
 
-main.ts:126890
+main.ts:123918
 
 ***
 
@@ -66,7 +66,7 @@ you can use this field for matching obtained results with location parameters sp
 
 #### Defined in
 
-main.ts:126893
+main.ts:123921
 
 ***
 
@@ -84,7 +84,7 @@ if you specified only one keyword, the value will be null
 
 #### Defined in
 
-main.ts:126904
+main.ts:123932
 
 ***
 
@@ -105,7 +105,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:126900
+main.ts:123928
 
 ## Methods
 
@@ -123,7 +123,7 @@ main.ts:126900
 
 #### Defined in
 
-main.ts:126917
+main.ts:123945
 
 ***
 
@@ -141,7 +141,7 @@ main.ts:126917
 
 #### Defined in
 
-main.ts:126941
+main.ts:123969
 
 ***
 
@@ -159,4 +159,4 @@ main.ts:126941
 
 #### Defined in
 
-main.ts:126934
+main.ts:123962

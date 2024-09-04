@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoInfoLiveAdvancedRequestInfo
 
@@ -22,7 +22,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:64175
+main.ts:62917
 
 ***
 
@@ -39,7 +39,7 @@ en
 
 #### Defined in
 
-main.ts:64171
+main.ts:62913
 
 ***
 
@@ -56,7 +56,7 @@ English
 
 #### Defined in
 
-main.ts:64164
+main.ts:62906
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:64157
+main.ts:62899
 
 ***
 
@@ -90,7 +90,7 @@ United States
 
 #### Defined in
 
-main.ts:64150
+main.ts:62892
 
 ***
 
@@ -105,7 +105,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:64180
+main.ts:62922
 
 ***
 
@@ -121,7 +121,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:64186
+main.ts:62928
 
 ***
 
@@ -137,4 +137,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:64143
+main.ts:62885

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonReviewsTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / MerchantAmazonReviewsTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonReviewsTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:189685
+main.ts:185213
 
 ## Properties
 
@@ -46,7 +46,7 @@ asin received in a POST array
 
 #### Defined in
 
-main.ts:189641
+main.ts:185169
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:189652
+main.ts:185180
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:189657
+main.ts:185185
 
 ***
 
@@ -98,7 +98,7 @@ product image data
 
 #### Defined in
 
-main.ts:189665
+main.ts:185193
 
 ***
 
@@ -117,7 +117,7 @@ amazon_review_item
 
 #### Defined in
 
-main.ts:189675
+main.ts:185203
 
 ***
 
@@ -134,7 +134,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:189681
+main.ts:185209
 
 ***
 
@@ -151,7 +151,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:189678
+main.ts:185206
 
 ***
 
@@ -167,7 +167,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:189649
+main.ts:185177
 
 ***
 
@@ -183,7 +183,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:189647
+main.ts:185175
 
 ***
 
@@ -200,7 +200,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:189668
+main.ts:185196
 
 ***
 
@@ -216,7 +216,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:189670
+main.ts:185198
 
 ***
 
@@ -232,7 +232,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:189645
+main.ts:185173
 
 ***
 
@@ -249,7 +249,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:189660
+main.ts:185188
 
 ***
 
@@ -266,7 +266,7 @@ the title of the product for which the reviews are collected
 
 #### Defined in
 
-main.ts:189663
+main.ts:185191
 
 ***
 
@@ -282,7 +282,7 @@ type of element
 
 #### Defined in
 
-main.ts:189643
+main.ts:185171
 
 ## Methods
 
@@ -300,7 +300,7 @@ main.ts:189643
 
 #### Defined in
 
-main.ts:189694
+main.ts:185222
 
 ***
 
@@ -318,7 +318,7 @@ main.ts:189694
 
 #### Defined in
 
-main.ts:189733
+main.ts:185261
 
 ***
 
@@ -336,4 +336,4 @@ main.ts:189733
 
 #### Defined in
 
-main.ts:189726
+main.ts:185254

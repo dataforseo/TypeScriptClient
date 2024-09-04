@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationTextSummaryLanguagesResultInfo
+[Documentation](../globals.md) / IContentGenerationTextSummaryLanguagesResultInfo
 
 # Interface: IContentGenerationTextSummaryLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:176273
+main.ts:172203
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:176271
+main.ts:172201

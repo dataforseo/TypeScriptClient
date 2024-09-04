@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingRelatedKeywordsLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsBingRelatedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingRelatedKeywordsLiveRequestInfo
 
@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:112361
+main.ts:109495
 
 ***
 
@@ -51,7 +51,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:112394
+main.ts:109528
 
 ***
 
@@ -66,7 +66,7 @@ default value: false
 
 #### Defined in
 
-main.ts:112383
+main.ts:109517
 
 ***
 
@@ -81,7 +81,7 @@ default value: false
 
 #### Defined in
 
-main.ts:112366
+main.ts:109500
 
 ***
 
@@ -96,7 +96,7 @@ default value: false
 
 #### Defined in
 
-main.ts:112371
+main.ts:109505
 
 ***
 
@@ -112,7 +112,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:112315
+main.ts:109449
 
 ***
 
@@ -130,7 +130,7 @@ en
 
 #### Defined in
 
-main.ts:112349
+main.ts:109483
 
 ***
 
@@ -148,7 +148,7 @@ English
 
 #### Defined in
 
-main.ts:112341
+main.ts:109475
 
 ***
 
@@ -163,7 +163,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:112415
+main.ts:109549
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:112333
+main.ts:109467
 
 ***
 
@@ -201,7 +201,7 @@ United States
 
 #### Defined in
 
-main.ts:112324
+main.ts:109458
 
 ***
 
@@ -216,7 +216,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:112420
+main.ts:109554
 
 ***
 
@@ -242,7 +242,7 @@ example:
 
 #### Defined in
 
-main.ts:112410
+main.ts:109544
 
 ***
 
@@ -259,7 +259,7 @@ default value: false
 
 #### Defined in
 
-main.ts:112378
+main.ts:109512
 
 ***
 
@@ -275,4 +275,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:112426
+main.ts:109560

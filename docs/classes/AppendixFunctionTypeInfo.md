@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixFunctionTypeInfo
+[Documentation](../globals.md) / AppendixFunctionTypeInfo
 
 # Class: AppendixFunctionTypeInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:220195
+main.ts:215455
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:220195
 
 #### Defined in
 
-main.ts:220190
+main.ts:215450
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:220190
 
 #### Defined in
 
-main.ts:220191
+main.ts:215451
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:220191
 
 #### Defined in
 
-main.ts:220189
+main.ts:215449
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:220189
 
 #### Defined in
 
-main.ts:220204
+main.ts:215464
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:220204
 
 #### Defined in
 
-main.ts:220223
+main.ts:215483
 
 ***
 
@@ -126,4 +126,4 @@ main.ts:220223
 
 #### Defined in
 
-main.ts:220216
+main.ts:215476

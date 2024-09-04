@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationCheckGrammarLiveRequestInfo
+[Documentation](../globals.md) / ContentGenerationCheckGrammarLiveRequestInfo
 
 # Class: ContentGenerationCheckGrammarLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:175137
+main.ts:171067
 
 ## Properties
 
@@ -48,7 +48,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:175123
+main.ts:171053
 
 ***
 
@@ -66,7 +66,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:175127
+main.ts:171057
 
 ***
 
@@ -86,7 +86,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:175133
+main.ts:171063
 
 ***
 
@@ -105,7 +105,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:175119
+main.ts:171049
 
 ## Methods
 
@@ -123,7 +123,7 @@ main.ts:175119
 
 #### Defined in
 
-main.ts:175146
+main.ts:171076
 
 ***
 
@@ -141,7 +141,7 @@ main.ts:175146
 
 #### Defined in
 
-main.ts:175166
+main.ts:171096
 
 ***
 
@@ -159,4 +159,4 @@ main.ts:175166
 
 #### Defined in
 
-main.ts:175159
+main.ts:171089

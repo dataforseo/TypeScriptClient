@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:89430
+main.ts:88102
 
 ## Properties
 
@@ -51,7 +51,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:89406
+main.ts:88078
 
 ***
 
@@ -72,7 +72,7 @@ en
 
 #### Defined in
 
-main.ts:89420
+main.ts:88092
 
 ***
 
@@ -93,7 +93,7 @@ English
 
 #### Defined in
 
-main.ts:89413
+main.ts:88085
 
 ***
 
@@ -113,7 +113,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:89426
+main.ts:88098
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:89426
 
 #### Defined in
 
-main.ts:89439
+main.ts:88111
 
 ***
 
@@ -149,7 +149,7 @@ main.ts:89439
 
 #### Defined in
 
-main.ts:89463
+main.ts:88135
 
 ***
 
@@ -167,4 +167,4 @@ main.ts:89463
 
 #### Defined in
 
-main.ts:89456
+main.ts:88128

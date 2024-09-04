@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / EventDates
+[Documentation](../globals.md) / EventDates
 
 # Class: EventDates
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:47655
+main.ts:45921
 
 ## Properties
 
@@ -46,7 +46,7 @@ date or date range as it is displayed in SERP
 
 #### Defined in
 
-main.ts:47651
+main.ts:45917
 
 ***
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:47649
+main.ts:45915
 
 ***
 
@@ -94,7 +94,7 @@ example:
 
 #### Defined in
 
-main.ts:47639
+main.ts:45905
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:47639
 
 #### Defined in
 
-main.ts:47664
+main.ts:45930
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:47664
 
 #### Defined in
 
-main.ts:47683
+main.ts:45949
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:47683
 
 #### Defined in
 
-main.ts:47676
+main.ts:45942

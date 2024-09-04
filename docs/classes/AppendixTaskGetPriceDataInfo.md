@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixTaskGetPriceDataInfo
+[Documentation](../globals.md) / AppendixTaskGetPriceDataInfo
 
 # Class: AppendixTaskGetPriceDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:226275
+main.ts:221535
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:226275
 
 #### Defined in
 
-main.ts:226271
+main.ts:221531
 
 ## Methods
 
@@ -62,7 +62,7 @@ main.ts:226271
 
 #### Defined in
 
-main.ts:226284
+main.ts:221544
 
 ***
 
@@ -80,7 +80,7 @@ main.ts:226284
 
 #### Defined in
 
-main.ts:226301
+main.ts:221561
 
 ***
 
@@ -98,4 +98,4 @@ main.ts:226301
 
 #### Defined in
 
-main.ts:226294
+main.ts:221554

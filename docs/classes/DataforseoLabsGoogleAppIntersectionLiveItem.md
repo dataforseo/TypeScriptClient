@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleAppIntersectionLiveItem
+[Documentation](../globals.md) / DataforseoLabsGoogleAppIntersectionLiveItem
 
 # Class: DataforseoLabsGoogleAppIntersectionLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:116369
+main.ts:113465
 
 ## Properties
 
@@ -52,7 +52,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Defined in
 
-main.ts:116365
+main.ts:113461
 
 ***
 
@@ -68,7 +68,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:116361
+main.ts:113457
 
 ***
 
@@ -84,7 +84,7 @@ search engine type
 
 #### Defined in
 
-main.ts:116359
+main.ts:113455
 
 ## Methods
 
@@ -102,7 +102,7 @@ main.ts:116359
 
 #### Defined in
 
-main.ts:116378
+main.ts:113474
 
 ***
 
@@ -120,7 +120,7 @@ main.ts:116378
 
 #### Defined in
 
-main.ts:116403
+main.ts:113499
 
 ***
 
@@ -138,4 +138,4 @@ main.ts:116403
 
 #### Defined in
 
-main.ts:116396
+main.ts:113492

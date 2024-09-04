@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDictionarySerpElementItem
+[Documentation](../globals.md) / IDictionarySerpElementItem
 
 # Interface: IDictionarySerpElementItem
 
@@ -24,7 +24,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:71978
+main.ts:70650
 
 ***
 
@@ -36,7 +36,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:71976
+main.ts:70648
 
 ***
 
@@ -48,7 +48,7 @@ keyword highlighted in the result
 
 #### Defined in
 
-main.ts:71980
+main.ts:70652
 
 ***
 
@@ -62,7 +62,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:71988
+main.ts:70660
 
 ***
 
@@ -74,9 +74,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:71968
+main.ts:20721
 
 ***
 
@@ -87,9 +91,13 @@ main.ts:71968
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:71964
+main.ts:20717
 
 ***
 
@@ -101,9 +109,13 @@ group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:71961
+main.ts:20714
 
 ***
 
@@ -117,7 +129,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:71992
+main.ts:70664
 
 ***
 
@@ -129,7 +141,7 @@ snippet of the element
 
 #### Defined in
 
-main.ts:71982
+main.ts:70654
 
 ***
 
@@ -141,7 +153,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:71984
+main.ts:70656
 
 ***
 
@@ -153,7 +165,23 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:71972
+main.ts:70644
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -165,7 +193,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:71974
+main.ts:70646
 
 ***
 
@@ -175,6 +203,10 @@ main.ts:71974
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:71970
+main.ts:20723

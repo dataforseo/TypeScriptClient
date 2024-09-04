@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsStatusInfo
+[Documentation](../globals.md) / DataforseoLabsStatusInfo
 
 # Class: DataforseoLabsStatusInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:81862
+main.ts:80534
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:81858
+main.ts:80530
 
 ## Methods
 
@@ -67,7 +67,7 @@ main.ts:81858
 
 #### Defined in
 
-main.ts:81871
+main.ts:80543
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:81871
 
 #### Defined in
 
-main.ts:81888
+main.ts:80560
 
 ***
 
@@ -103,4 +103,4 @@ main.ts:81888
 
 #### Defined in
 
-main.ts:81881
+main.ts:80553

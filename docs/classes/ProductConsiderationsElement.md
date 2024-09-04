@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductConsiderationsElement
+[Documentation](../globals.md) / ProductConsiderationsElement
 
 # Class: ProductConsiderationsElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:36466
+main.ts:35006
 
 ## Properties
 
@@ -47,7 +47,7 @@ the category is indicated just above the title fo the consideration element
 
 #### Defined in
 
-main.ts:36460
+main.ts:35000
 
 ***
 
@@ -63,7 +63,7 @@ expanded element
 
 #### Defined in
 
-main.ts:36462
+main.ts:35002
 
 ***
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36457
+main.ts:34997
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:36455
+main.ts:34995
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:36455
 
 #### Defined in
 
-main.ts:36475
+main.ts:35015
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:36475
 
 #### Defined in
 
-main.ts:36495
+main.ts:35035
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:36495
 
 #### Defined in
 
-main.ts:36488
+main.ts:35028

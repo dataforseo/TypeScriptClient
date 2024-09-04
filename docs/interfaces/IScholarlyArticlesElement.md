@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IScholarlyArticlesElement
+[Documentation](../globals.md) / IScholarlyArticlesElement
 
 # Interface: IScholarlyArticlesElement
 
@@ -20,7 +20,7 @@ author
 
 #### Defined in
 
-main.ts:33690
+main.ts:32762
 
 ***
 
@@ -32,7 +32,7 @@ description
 
 #### Defined in
 
-main.ts:33692
+main.ts:32764
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33686
+main.ts:32758
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:33684
+main.ts:32756
 
 ***
 
@@ -68,4 +68,4 @@ URL
 
 #### Defined in
 
-main.ts:33688
+main.ts:32760

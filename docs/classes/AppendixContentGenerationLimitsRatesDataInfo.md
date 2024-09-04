@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixContentGenerationLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixContentGenerationLimitsRatesDataInfo
 
 # Class: AppendixContentGenerationLimitsRatesDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:222255
+main.ts:217515
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:222255
 
 #### Defined in
 
-main.ts:222249
+main.ts:217509
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:222249
 
 #### Defined in
 
-main.ts:222245
+main.ts:217505
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:222245
 
 #### Defined in
 
-main.ts:222246
+main.ts:217506
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:222246
 
 #### Defined in
 
-main.ts:222251
+main.ts:217511
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:222251
 
 #### Defined in
 
-main.ts:222247
+main.ts:217507
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:222247
 
 #### Defined in
 
-main.ts:222248
+main.ts:217508
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:222248
 
 #### Defined in
 
-main.ts:222250
+main.ts:217510
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:222250
 
 #### Defined in
 
-main.ts:222264
+main.ts:217524
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:222264
 
 #### Defined in
 
-main.ts:222287
+main.ts:217547
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:222287
 
 #### Defined in
 
-main.ts:222280
+main.ts:217540

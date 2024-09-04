@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
 
 # Class: BusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:211004
+main.ts:206342
 
 ## Properties
 
@@ -46,7 +46,7 @@ information about the hotel
 
 #### Defined in
 
-main.ts:210988
+main.ts:206326
 
 ***
 
@@ -63,7 +63,7 @@ physical address of the hotel
 
 #### Defined in
 
-main.ts:210983
+main.ts:206321
 
 ***
 
@@ -80,7 +80,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:210966
+main.ts:206304
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:210971
+main.ts:206309
 
 ***
 
@@ -118,7 +118,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:210959
+main.ts:206297
 
 ***
 
@@ -134,7 +134,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:210963
+main.ts:206301
 
 ***
 
@@ -151,7 +151,7 @@ information about the location where the hotel is located
 
 #### Defined in
 
-main.ts:210991
+main.ts:206329
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:210961
+main.ts:206299
 
 ***
 
@@ -184,7 +184,7 @@ array containing URLs to images displayed in the hotel overview
 
 #### Defined in
 
-main.ts:210997
+main.ts:206335
 
 ***
 
@@ -201,7 +201,7 @@ contact phone number of the hotel
 
 #### Defined in
 
-main.ts:210986
+main.ts:206324
 
 ***
 
@@ -218,7 +218,7 @@ contains information about the hotel’s prices
 
 #### Defined in
 
-main.ts:211000
+main.ts:206338
 
 ***
 
@@ -235,7 +235,7 @@ information about reviews of the hotel entity
 
 #### Defined in
 
-main.ts:210994
+main.ts:206332
 
 ***
 
@@ -252,7 +252,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:210977
+main.ts:206315
 
 ***
 
@@ -269,7 +269,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:210980
+main.ts:206318
 
 ***
 
@@ -286,7 +286,7 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:210974
+main.ts:206312
 
 ## Methods
 
@@ -304,7 +304,7 @@ main.ts:210974
 
 #### Defined in
 
-main.ts:211013
+main.ts:206351
 
 ***
 
@@ -322,7 +322,7 @@ main.ts:211013
 
 #### Defined in
 
-main.ts:211048
+main.ts:206386
 
 ***
 
@@ -340,4 +340,4 @@ main.ts:211048
 
 #### Defined in
 
-main.ts:211041
+main.ts:206379

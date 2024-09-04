@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBBulkKeywordDifficultyLiveItem
+[Documentation](../globals.md) / IDataforseoLabsBBulkKeywordDifficultyLiveItem
 
 # Interface: IDataforseoLabsBBulkKeywordDifficultyLiveItem
 
@@ -20,7 +20,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:87703
+main.ts:86375
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:87708
+main.ts:86380
 
 ***
 
@@ -47,4 +47,4 @@ search engine type
 
 #### Defined in
 
-main.ts:87701
+main.ts:86373

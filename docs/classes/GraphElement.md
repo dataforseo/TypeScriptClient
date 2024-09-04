@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GraphElement
+[Documentation](../globals.md) / GraphElement
 
 # Class: GraphElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:34217
+main.ts:33175
 
 ## Properties
 
@@ -46,7 +46,7 @@ the posting date
 
 #### Defined in
 
-main.ts:34211
+main.ts:33169
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:34209
+main.ts:33167
 
 ***
 
@@ -78,7 +78,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:34213
+main.ts:33171
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:34213
 
 #### Defined in
 
-main.ts:34226
+main.ts:33184
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:34226
 
 #### Defined in
 
-main.ts:34245
+main.ts:33203
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:34245
 
 #### Defined in
 
-main.ts:34238
+main.ts:33196

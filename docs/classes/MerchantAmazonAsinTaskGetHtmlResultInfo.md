@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonAsinTaskGetHtmlResultInfo
+[Documentation](../globals.md) / MerchantAmazonAsinTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonAsinTaskGetHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:187230
+main.ts:182824
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:187222
+main.ts:182816
 
 ***
 
@@ -65,7 +65,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:187226
+main.ts:182820
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:187224
+main.ts:182818
 
 ***
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:187217
+main.ts:182811
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:187215
+main.ts:182809
 
 ***
 
@@ -129,7 +129,7 @@ ASIN received in a POST array
 
 #### Defined in
 
-main.ts:187209
+main.ts:182803
 
 ***
 
@@ -145,7 +145,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:187213
+main.ts:182807
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:187211
+main.ts:182805
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:187211
 
 #### Defined in
 
-main.ts:187239
+main.ts:182833
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:187239
 
 #### Defined in
 
-main.ts:187267
+main.ts:182861
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:187267
 
 #### Defined in
 
-main.ts:187260
+main.ts:182854

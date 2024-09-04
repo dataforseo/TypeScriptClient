@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseDataforseoTrendsItem
+[Documentation](../globals.md) / IBaseDataforseoTrendsItem
 
 # Interface: IBaseDataforseoTrendsItem
 
@@ -12,6 +12,40 @@
 - [`IDataforseoTrendsSubregionInterestsElementItem`](IDataforseoTrendsSubregionInterestsElementItem.md)
 - [`IDataforseoTrendsDemographyElementItem`](IDataforseoTrendsDemographyElementItem.md)
 
-## Indexable
+## Properties
 
- \[`key`: `string`\]: `any`
+### keywords?
+
+> `optional` **keywords**: `string`[]
+
+relevant keywords
+the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
+
+#### Defined in
+
+main.ts:21962
+
+***
+
+### position?
+
+> `optional` **position**: `number`
+
+the alignment of the element
+can take the following values: 1, 2, 3, 4, etc.
+
+#### Defined in
+
+main.ts:21959
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Defined in
+
+main.ts:21956

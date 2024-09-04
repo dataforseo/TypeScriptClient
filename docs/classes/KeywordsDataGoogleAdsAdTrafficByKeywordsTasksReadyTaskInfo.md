@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyTaskInfo
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:124220
+main.ts:121278
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:23923
+main.ts:24239
 
 ***
 
@@ -82,7 +82,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:23929
+main.ts:24245
 
 ***
 
@@ -103,7 +103,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:23912
+main.ts:24228
 
 ***
 
@@ -123,7 +123,7 @@ URL path
 
 #### Defined in
 
-main.ts:23927
+main.ts:24243
 
 ***
 
@@ -139,7 +139,7 @@ array of results
 
 #### Defined in
 
-main.ts:124216
+main.ts:121274
 
 ***
 
@@ -159,7 +159,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:23925
+main.ts:24241
 
 ***
 
@@ -181,7 +181,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:23916
+main.ts:24232
 
 ***
 
@@ -202,7 +202,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:23919
+main.ts:24235
 
 ***
 
@@ -222,7 +222,7 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:23921
+main.ts:24237
 
 ## Methods
 
@@ -244,7 +244,7 @@ main.ts:23921
 
 #### Defined in
 
-main.ts:124224
+main.ts:121282
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:124224
 
 #### Defined in
 
-main.ts:124246
+main.ts:121304
 
 ***
 
@@ -288,4 +288,4 @@ main.ts:124246
 
 #### Defined in
 
-main.ts:124239
+main.ts:121297

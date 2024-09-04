@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleProductsTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / MerchantGoogleProductsTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleProductsTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:179255
+main.ts:175081
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:179232
+main.ts:175058
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:179237
+main.ts:175063
 
 ***
 
@@ -85,7 +85,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 #### Defined in
 
-main.ts:179245
+main.ts:175071
 
 ***
 
@@ -103,7 +103,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:179251
+main.ts:175077
 
 ***
 
@@ -119,7 +119,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:179247
+main.ts:175073
 
 ***
 
@@ -136,7 +136,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:179221
+main.ts:175047
 
 ***
 
@@ -152,7 +152,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:179229
+main.ts:175055
 
 ***
 
@@ -168,7 +168,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:179227
+main.ts:175053
 
 ***
 
@@ -184,7 +184,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:179225
+main.ts:175051
 
 ***
 
@@ -201,7 +201,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:179240
+main.ts:175066
 
 ***
 
@@ -217,7 +217,7 @@ type of element
 
 #### Defined in
 
-main.ts:179223
+main.ts:175049
 
 ## Methods
 
@@ -235,7 +235,7 @@ main.ts:179223
 
 #### Defined in
 
-main.ts:179264
+main.ts:175090
 
 ***
 
@@ -253,7 +253,7 @@ main.ts:179264
 
 #### Defined in
 
-main.ts:179299
+main.ts:175125
 
 ***
 
@@ -271,4 +271,4 @@ main.ts:179299
 
 #### Defined in
 
-main.ts:179292
+main.ts:175118

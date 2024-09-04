@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonReviewsTaskPostRequestInfo
+[Documentation](../globals.md) / MerchantAmazonReviewsTaskPostRequestInfo
 
 # Class: MerchantAmazonReviewsTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:188873
+main.ts:184423
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:188724
+main.ts:184274
 
 ***
 
@@ -70,7 +70,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:188785
+main.ts:184335
 
 ***
 
@@ -89,7 +89,7 @@ if you use this field, the response will only include reviews that contain the s
 
 #### Defined in
 
-main.ts:188820
+main.ts:184370
 
 ***
 
@@ -117,7 +117,7 @@ default rule: all_stars
 
 #### Defined in
 
-main.ts:188815
+main.ts:184365
 
 ***
 
@@ -140,7 +140,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 #### Defined in
 
-main.ts:188837
+main.ts:184387
 
 ***
 
@@ -161,7 +161,7 @@ en_GB
 
 #### Defined in
 
-main.ts:188771
+main.ts:184321
 
 ***
 
@@ -183,7 +183,7 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:188764
+main.ts:184314
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Defined in
 
-main.ts:188747
+main.ts:184297
 
 ***
 
@@ -228,7 +228,7 @@ example:
 
 #### Defined in
 
-main.ts:188756
+main.ts:184306
 
 ***
 
@@ -249,7 +249,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:188739
+main.ts:184289
 
 ***
 
@@ -271,7 +271,7 @@ default rule: all_contents
 
 #### Defined in
 
-main.ts:188828
+main.ts:184378
 
 ***
 
@@ -295,7 +295,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:188869
+main.ts:184419
 
 ***
 
@@ -315,7 +315,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:188859
+main.ts:184409
 
 ***
 
@@ -339,7 +339,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:188853
+main.ts:184403
 
 ***
 
@@ -361,7 +361,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:188732
+main.ts:184282
 
 ***
 
@@ -383,7 +383,7 @@ default rule: all_reviews
 
 #### Defined in
 
-main.ts:188801
+main.ts:184351
 
 ***
 
@@ -404,7 +404,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:188778
+main.ts:184328
 
 ***
 
@@ -426,7 +426,7 @@ default rule: helpful
 
 #### Defined in
 
-main.ts:188793
+main.ts:184343
 
 ***
 
@@ -446,7 +446,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:188843
+main.ts:184393
 
 ## Methods
 
@@ -464,7 +464,7 @@ main.ts:188843
 
 #### Defined in
 
-main.ts:188882
+main.ts:184432
 
 ***
 
@@ -482,7 +482,7 @@ main.ts:188882
 
 #### Defined in
 
-main.ts:188917
+main.ts:184467
 
 ***
 
@@ -500,4 +500,4 @@ main.ts:188917
 
 #### Defined in
 
-main.ts:188910
+main.ts:184460

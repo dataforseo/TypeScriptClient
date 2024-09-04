@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseVersionsResultInfo
+[Documentation](../globals.md) / IOnPageLighthouseVersionsResultInfo
 
 # Interface: IOnPageLighthouseVersionsResultInfo
 
@@ -18,4 +18,4 @@
 
 #### Defined in
 
-main.ts:167685
+main.ts:163615

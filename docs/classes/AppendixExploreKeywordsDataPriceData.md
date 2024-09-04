@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixExploreKeywordsDataPriceData
+[Documentation](../globals.md) / AppendixExploreKeywordsDataPriceData
 
 # Class: AppendixExploreKeywordsDataPriceData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:226113
+main.ts:221373
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:226113
 
 #### Defined in
 
-main.ts:226107
+main.ts:221367
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:226107
 
 #### Defined in
 
-main.ts:226108
+main.ts:221368
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:226108
 
 #### Defined in
 
-main.ts:226109
+main.ts:221369
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:226109
 
 #### Defined in
 
-main.ts:226122
+main.ts:221382
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:226122
 
 #### Defined in
 
-main.ts:226141
+main.ts:221401
 
 ***
 
@@ -126,4 +126,4 @@ main.ts:226141
 
 #### Defined in
 
-main.ts:226134
+main.ts:221394

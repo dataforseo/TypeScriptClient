@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixDataforseoTrendsKeywordsDataLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:220614
+main.ts:215874
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:220614
 
 #### Defined in
 
-main.ts:220612
+main.ts:215872
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:220612
 
 #### Defined in
 
-main.ts:220615
+main.ts:215875
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:220615
 
 #### Defined in
 
-main.ts:220613
+main.ts:215873

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsErrorsResultInfo
+[Documentation](../globals.md) / IDataforseoLabsErrorsResultInfo
 
 # Interface: IDataforseoLabsErrorsResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:82287
+main.ts:80959
 
 ***
 
@@ -35,7 +35,7 @@ error code
 
 #### Defined in
 
-main.ts:82291
+main.ts:80963
 
 ***
 
@@ -48,7 +48,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:82294
+main.ts:80966
 
 ***
 
@@ -60,7 +60,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:82289
+main.ts:80961
 
 ***
 
@@ -72,7 +72,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:82301
+main.ts:80973
 
 ***
 
@@ -84,7 +84,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:82299
+main.ts:80971
 
 ***
 
@@ -97,7 +97,7 @@ server response
 
 #### Defined in
 
-main.ts:82306
+main.ts:80978
 
 ***
 
@@ -109,7 +109,7 @@ time taken by HTTP request
 
 #### Defined in
 
-main.ts:82303
+main.ts:80975
 
 ***
 
@@ -122,7 +122,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:82297
+main.ts:80969
 
 ***
 
@@ -134,4 +134,4 @@ id of the task
 
 #### Defined in
 
-main.ts:82282
+main.ts:80954

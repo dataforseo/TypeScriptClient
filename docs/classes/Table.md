@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Table
+[Documentation](../globals.md) / Table
 
 # Class: Table
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22489
+main.ts:22805
 
 ## Properties
 
@@ -47,7 +47,7 @@ one line of the table in this element of the array
 
 #### Defined in
 
-main.ts:22485
+main.ts:22801
 
 ***
 
@@ -65,7 +65,7 @@ table_element
 
 #### Defined in
 
-main.ts:22480
+main.ts:22796
 
 ***
 
@@ -81,7 +81,7 @@ column names
 
 #### Defined in
 
-main.ts:22482
+main.ts:22798
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:22482
 
 #### Defined in
 
-main.ts:22498
+main.ts:22814
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:22498
 
 #### Defined in
 
-main.ts:22525
+main.ts:22841
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:22525
 
 #### Defined in
 
-main.ts:22518
+main.ts:22834

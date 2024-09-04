@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductInformationTextRow
+[Documentation](../globals.md) / IProductInformationTextRow
 
 # Interface: IProductInformationTextRow
 
@@ -24,4 +24,20 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:186518
+main.ts:182140
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md).[`type`](IBaseProductInformationRowItem.md#type)
+
+#### Defined in
+
+main.ts:23475

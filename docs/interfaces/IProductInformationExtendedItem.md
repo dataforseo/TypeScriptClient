@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductInformationExtendedItem
+[Documentation](../globals.md) / IProductInformationExtendedItem
 
 # Interface: IProductInformationExtendedItem
 
@@ -24,7 +24,7 @@ contains information specified about the product within the section_name
 
 #### Defined in
 
-main.ts:186650
+main.ts:182266
 
 ***
 
@@ -34,6 +34,26 @@ main.ts:186650
 
 name of the section related to product information specified in the contents
 
+#### Inherited from
+
+[`IBaseProductInformationItem`](IBaseProductInformationItem.md).[`section_name`](IBaseProductInformationItem.md#section_name)
+
 #### Defined in
 
-main.ts:186648
+main.ts:23408
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseProductInformationItem`](IBaseProductInformationItem.md).[`type`](IBaseProductInformationItem.md#type)
+
+#### Defined in
+
+main.ts:23406

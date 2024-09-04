@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksDomainPagesSummaryLiveRequestInfo
+[Documentation](../globals.md) / BacklinksDomainPagesSummaryLiveRequestInfo
 
 # Class: BacklinksDomainPagesSummaryLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:146418
+main.ts:143284
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:146392
+main.ts:143258
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Defined in
 
-main.ts:146353
+main.ts:143219
 
 ***
 
@@ -94,7 +94,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146408
+main.ts:143274
 
 ***
 
@@ -125,7 +125,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:146370
+main.ts:143236
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146403
+main.ts:143269
 
 ***
 
@@ -164,7 +164,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146397
+main.ts:143263
 
 ***
 
@@ -189,7 +189,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:146344
+main.ts:143210
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:146328
+main.ts:143194
 
 ***
 
@@ -227,7 +227,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 #### Defined in
 
-main.ts:146333
+main.ts:143199
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Defined in
 
-main.ts:146384
+main.ts:143250
 
 ***
 
@@ -275,7 +275,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:146414
+main.ts:143280
 
 ***
 
@@ -294,7 +294,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:146323
+main.ts:143189
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:146323
 
 #### Defined in
 
-main.ts:146427
+main.ts:143293
 
 ***
 
@@ -330,7 +330,7 @@ main.ts:146427
 
 #### Defined in
 
-main.ts:146467
+main.ts:143333
 
 ***
 
@@ -348,4 +348,4 @@ main.ts:146467
 
 #### Defined in
 
-main.ts:146460
+main.ts:143326

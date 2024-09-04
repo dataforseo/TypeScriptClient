@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MapsSearchSerpElementItem
+[Documentation](../globals.md) / MapsSearchSerpElementItem
 
 # Class: MapsSearchSerpElementItem
 

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleTrendsLocationsCountryResultInfo
+[Documentation](../globals.md) / KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
 # Class: KeywordsDataGoogleTrendsLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:125384
+main.ts:122442
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:125371
+main.ts:122429
 
 ***
 
@@ -63,7 +63,7 @@ you can use this field for matching obtained results with the location_code para
 
 #### Defined in
 
-main.ts:125380
+main.ts:122438
 
 ***
 
@@ -80,7 +80,7 @@ you can use this field for matching obtained results with the location_name para
 
 #### Defined in
 
-main.ts:125377
+main.ts:122435
 
 ***
 
@@ -96,7 +96,7 @@ location code
 
 #### Defined in
 
-main.ts:125358
+main.ts:122416
 
 ***
 
@@ -119,7 +119,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:125369
+main.ts:122427
 
 ***
 
@@ -135,7 +135,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:125360
+main.ts:122418
 
 ***
 
@@ -152,7 +152,7 @@ possible values according to Google’s target types
 
 #### Defined in
 
-main.ts:125374
+main.ts:122432
 
 ## Methods
 
@@ -170,7 +170,7 @@ main.ts:125374
 
 #### Defined in
 
-main.ts:125393
+main.ts:122451
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:125393
 
 #### Defined in
 
-main.ts:125416
+main.ts:122474
 
 ***
 
@@ -206,4 +206,4 @@ main.ts:125416
 
 #### Defined in
 
-main.ts:125409
+main.ts:122467

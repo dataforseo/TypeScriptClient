@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
+[Documentation](../globals.md) / IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotSearchTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ Note: your account will be charged for every 10 search results returned, e.g. if
 
 #### Defined in
 
-main.ts:215259
+main.ts:210581
 
 ***
 
@@ -43,7 +43,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:215243
+main.ts:210565
 
 ***
 
@@ -63,7 +63,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:215285
+main.ts:210607
 
 ***
 
@@ -83,7 +83,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:215275
+main.ts:210597
 
 ***
 
@@ -101,7 +101,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:215251
+main.ts:210573
 
 ***
 
@@ -117,4 +117,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:215265
+main.ts:210587

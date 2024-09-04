@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForKeywordsTaskGetResultInfo
 
@@ -24,7 +24,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:123281
+main.ts:120339
 
 ***
 
@@ -41,7 +41,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:123288
+main.ts:120346
 
 ***
 
@@ -54,7 +54,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:123303
+main.ts:120361
 
 ***
 
@@ -68,7 +68,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:123300
+main.ts:120358
 
 ***
 
@@ -80,7 +80,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:123264
+main.ts:120322
 
 ***
 
@@ -92,7 +92,7 @@ the annotations for the keyword
 
 #### Defined in
 
-main.ts:123309
+main.ts:120367
 
 ***
 
@@ -105,7 +105,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:123270
+main.ts:120328
 
 ***
 
@@ -118,7 +118,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:123267
+main.ts:120325
 
 ***
 
@@ -132,7 +132,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:123296
+main.ts:120354
 
 ***
 
@@ -146,7 +146,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:123307
+main.ts:120365
 
 ***
 
@@ -161,7 +161,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:123275
+main.ts:120333
 
 ***
 
@@ -175,4 +175,4 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:123292
+main.ts:120350

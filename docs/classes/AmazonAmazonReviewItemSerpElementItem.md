@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonAmazonReviewItemSerpElementItem
+[Documentation](../globals.md) / AmazonAmazonReviewItemSerpElementItem
 
 # Class: AmazonAmazonReviewItemSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:189518
+main.ts:185060
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:189518
 
 #### Defined in
 
-main.ts:22007
+main.ts:22315
 
 ***
 
@@ -69,7 +69,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Defined in
 
-main.ts:189495
+main.ts:185037
 
 ***
 
@@ -85,7 +85,7 @@ images of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:189497
+main.ts:185039
 
 ***
 
@@ -102,7 +102,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:189486
+main.ts:185030
 
 ***
 
@@ -121,7 +121,7 @@ example:
 
 #### Defined in
 
-main.ts:189512
+main.ts:185054
 
 ***
 
@@ -129,16 +129,20 @@ main.ts:189512
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_absolute`](BaseAmazonSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:189483
+main.ts:22311
 
 ***
 
@@ -153,9 +157,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`rank_group`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_group`](BaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:189480
+main.ts:22308
 
 ***
 
@@ -171,7 +179,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:189514
+main.ts:185056
 
 ***
 
@@ -187,7 +195,7 @@ content of the review
 
 #### Defined in
 
-main.ts:189507
+main.ts:185049
 
 ***
 
@@ -203,7 +211,7 @@ subtitle of the review
 
 #### Defined in
 
-main.ts:189492
+main.ts:185034
 
 ***
 
@@ -219,7 +227,27 @@ title of the review
 
 #### Defined in
 
-main.ts:189503
+main.ts:185045
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`type`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`type`](BaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22305
 
 ***
 
@@ -235,7 +263,7 @@ URL to the review
 
 #### Defined in
 
-main.ts:189505
+main.ts:185047
 
 ***
 
@@ -251,7 +279,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:189501
+main.ts:185043
 
 ***
 
@@ -267,7 +295,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Defined in
 
-main.ts:189490
+main.ts:185032
 
 ***
 
@@ -283,7 +311,7 @@ videos of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:189499
+main.ts:185041
 
 ***
 
@@ -297,9 +325,13 @@ the XPath of the element
 
 [`IAmazonAmazonReviewItemSerpElementItem`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md).[`xpath`](../interfaces/IAmazonAmazonReviewItemSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`xpath`](BaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:189488
+main.ts:22313
 
 ## Methods
 
@@ -321,7 +353,7 @@ main.ts:189488
 
 #### Defined in
 
-main.ts:189523
+main.ts:185065
 
 ***
 
@@ -343,7 +375,7 @@ main.ts:189523
 
 #### Defined in
 
-main.ts:189563
+main.ts:185102
 
 ***
 
@@ -365,4 +397,4 @@ main.ts:189563
 
 #### Defined in
 
-main.ts:189556
+main.ts:185095

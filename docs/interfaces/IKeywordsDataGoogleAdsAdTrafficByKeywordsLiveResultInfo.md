@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
 # Interface: IKeywordsDataGoogleAdsAdTrafficByKeywordsLiveResultInfo
 
@@ -22,7 +22,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:125017
+main.ts:122075
 
 ***
 
@@ -38,7 +38,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:125001
+main.ts:122059
 
 ***
 
@@ -52,7 +52,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:125025
+main.ts:122083
 
 ***
 
@@ -66,7 +66,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:125021
+main.ts:122079
 
 ***
 
@@ -80,7 +80,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:125013
+main.ts:122071
 
 ***
 
@@ -92,7 +92,7 @@ forecasting date interval in a POST array
 
 #### Defined in
 
-main.ts:124990
+main.ts:122048
 
 ***
 
@@ -107,7 +107,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:125009
+main.ts:122067
 
 ***
 
@@ -119,7 +119,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:124982
+main.ts:122040
 
 ***
 
@@ -132,7 +132,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124988
+main.ts:122046
 
 ***
 
@@ -145,7 +145,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124985
+main.ts:122043
 
 ***
 
@@ -158,7 +158,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:125004
+main.ts:122062
 
 ***
 
@@ -173,4 +173,4 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:124995
+main.ts:122053

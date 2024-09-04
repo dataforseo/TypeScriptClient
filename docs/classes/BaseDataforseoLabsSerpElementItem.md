@@ -2,28 +2,28 @@
 
 ***
 
-[Documentation](../README.md) / BaseDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / BaseDataforseoLabsSerpElementItem
 
 # Class: BaseDataforseoLabsSerpElementItem
 
 ## Extended by
 
 - [`OrganicDataforseoLabsSerpElementItem`](OrganicDataforseoLabsSerpElementItem.md)
-- [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
 - [`PeopleAlsoAskDataforseoLabsSerpElementItem`](PeopleAlsoAskDataforseoLabsSerpElementItem.md)
 - [`TwitterDataforseoLabsSerpElementItem`](TwitterDataforseoLabsSerpElementItem.md)
-- [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 - [`RelatedSearchesDataforseoLabsSerpElementItem`](RelatedSearchesDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](KnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
+- [`KnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](KnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphRowItemDataforseoLabsSerpElementItem`](KnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 - [`KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](KnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
-- [`KnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](KnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
+- [`KnowledgeGraphDataforseoLabsSerpElementItem`](KnowledgeGraphDataforseoLabsSerpElementItem.md)
 - [`CarouselDataforseoLabsSerpElementItem`](CarouselDataforseoLabsSerpElementItem.md)
 - [`MultiCarouselDataforseoLabsSerpElementItem`](MultiCarouselDataforseoLabsSerpElementItem.md)
 - [`TopStoriesDataforseoLabsSerpElementItem`](TopStoriesDataforseoLabsSerpElementItem.md)
 - [`AnswerBoxDataforseoLabsSerpElementItem`](AnswerBoxDataforseoLabsSerpElementItem.md)
 - [`MathSolverDataforseoLabsSerpElementItem`](MathSolverDataforseoLabsSerpElementItem.md)
 - [`VideoDataforseoLabsSerpElementItem`](VideoDataforseoLabsSerpElementItem.md)
+- [`PeopleAlsoSearchDataforseoLabsSerpElementItem`](PeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 - [`MapDataforseoLabsSerpElementItem`](MapDataforseoLabsSerpElementItem.md)
 - [`FeaturedSnippetDataforseoLabsSerpElementItem`](FeaturedSnippetDataforseoLabsSerpElementItem.md)
 - [`LocalPackDataforseoLabsSerpElementItem`](LocalPackDataforseoLabsSerpElementItem.md)
@@ -58,10 +58,6 @@
 
 - [`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md)
 
-## Indexable
-
- \[`key`: `string`\]: `any`
-
 ## Constructors
 
 ### new BaseDataforseoLabsSerpElementItem()
@@ -78,7 +74,7 @@
 
 #### Defined in
 
-main.ts:20754
+main.ts:20744
 
 ## Properties
 
@@ -88,7 +84,91 @@ main.ts:20754
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
+
+***
+
+### position?
+
+> `optional` **position**: `string`
+
+the alignment of the element in SERP
+can take the following values:
+left, right
+
+#### Implementation of
+
+[`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#position)
+
+#### Defined in
+
+main.ts:20738
+
+***
+
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Implementation of
+
+[`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
+#### Defined in
+
+main.ts:20734
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Implementation of
+
+[`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
+#### Defined in
+
+main.ts:20731
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
+
+***
+
+### xpath?
+
+> `optional` **xpath**: `string`
+
+the XPath of the element
+
+#### Implementation of
+
+[`IBaseDataforseoLabsSerpElementItem`](../interfaces/IBaseDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IBaseDataforseoLabsSerpElementItem.md#xpath)
+
+#### Defined in
+
+main.ts:20740
 
 ## Methods
 
@@ -106,7 +186,7 @@ main.ts:20752
 
 #### Defined in
 
-main.ts:20764
+main.ts:20754
 
 ***
 
@@ -124,7 +204,7 @@ main.ts:20764
 
 #### Defined in
 
-main.ts:21005
+main.ts:20996
 
 ***
 
@@ -142,4 +222,4 @@ main.ts:21005
 
 #### Defined in
 
-main.ts:20773
+main.ts:20764

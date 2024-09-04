@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataApi
+[Documentation](../globals.md) / AppDataApi
 
 # Class: AppDataApi
 

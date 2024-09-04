@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AnswerBoxSerpElementItem
+[Documentation](../globals.md) / AnswerBoxSerpElementItem
 
 # Class: AnswerBoxSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:32083
+main.ts:31482
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:32083
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ link of the element
 
 #### Defined in
 
-main.ts:32075
+main.ts:31474
 
 ***
 
@@ -84,9 +84,13 @@ left, right
 
 [`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`position`](../interfaces/IAnswerBoxSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:32068
+main.ts:20363
 
 ***
 
@@ -96,15 +100,18 @@ main.ts:32068
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`rank_absolute`](../interfaces/IAnswerBoxSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:32064
+main.ts:20359
 
 ***
 
@@ -113,17 +120,20 @@ main.ts:32064
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`rank_group`](../interfaces/IAnswerBoxSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:32060
+main.ts:20356
 
 ***
 
@@ -141,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32079
+main.ts:31478
 
 ***
 
@@ -158,7 +168,27 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:32073
+main.ts:31472
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`type`](../interfaces/IAnswerBoxSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -172,9 +202,13 @@ the XPath of the element
 
 [`IAnswerBoxSerpElementItem`](../interfaces/IAnswerBoxSerpElementItem.md).[`xpath`](../interfaces/IAnswerBoxSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:32070
+main.ts:20365
 
 ## Methods
 
@@ -196,7 +230,7 @@ main.ts:32070
 
 #### Defined in
 
-main.ts:32088
+main.ts:31487
 
 ***
 
@@ -218,7 +252,7 @@ main.ts:32088
 
 #### Defined in
 
-main.ts:32120
+main.ts:31515
 
 ***
 
@@ -240,4 +274,4 @@ main.ts:32120
 
 #### Defined in
 
-main.ts:32113
+main.ts:31508

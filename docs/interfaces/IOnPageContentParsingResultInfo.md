@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageContentParsingResultInfo
+[Documentation](../globals.md) / IOnPageContentParsingResultInfo
 
 # Interface: IOnPageContentParsingResultInfo
 
@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:166057
+main.ts:161987
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:166059
+main.ts:161989
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Defined in
 
-main.ts:166063
+main.ts:161993
 
 ***
 
@@ -57,4 +57,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:166061
+main.ts:161991

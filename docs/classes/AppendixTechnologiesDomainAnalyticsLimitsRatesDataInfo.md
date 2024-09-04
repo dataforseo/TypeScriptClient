@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:221081
+main.ts:216341
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:221081
 
 #### Defined in
 
-main.ts:221074
+main.ts:216334
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:221074
 
 #### Defined in
 
-main.ts:221069
+main.ts:216329
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:221069
 
 #### Defined in
 
-main.ts:221076
+main.ts:216336
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:221076
 
 #### Defined in
 
-main.ts:221070
+main.ts:216330
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:221070
 
 #### Defined in
 
-main.ts:221071
+main.ts:216331
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:221071
 
 #### Defined in
 
-main.ts:221072
+main.ts:216332
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:221072
 
 #### Defined in
 
-main.ts:221073
+main.ts:216333
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:221073
 
 #### Defined in
 
-main.ts:221075
+main.ts:216335
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:221075
 
 #### Defined in
 
-main.ts:221077
+main.ts:216337
 
 ## Methods
 
@@ -174,7 +174,7 @@ main.ts:221077
 
 #### Defined in
 
-main.ts:221090
+main.ts:216350
 
 ***
 
@@ -192,7 +192,7 @@ main.ts:221090
 
 #### Defined in
 
-main.ts:221115
+main.ts:216375
 
 ***
 
@@ -210,4 +210,4 @@ main.ts:221115
 
 #### Defined in
 
-main.ts:221108
+main.ts:216368

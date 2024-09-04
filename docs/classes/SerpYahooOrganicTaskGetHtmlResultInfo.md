@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooOrganicTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpYahooOrganicTaskGetHtmlResultInfo
 
 # Class: SerpYahooOrganicTaskGetHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:69269
+main.ts:67975
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:69261
+main.ts:67967
 
 ***
 
@@ -65,7 +65,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:69265
+main.ts:67971
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:69263
+main.ts:67969
 
 ***
 
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:69248
+main.ts:67954
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:69256
+main.ts:67962
 
 ***
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:69254
+main.ts:67960
 
 ***
 
@@ -146,7 +146,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:69252
+main.ts:67958
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:69250
+main.ts:67956
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:69250
 
 #### Defined in
 
-main.ts:69278
+main.ts:67984
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:69278
 
 #### Defined in
 
-main.ts:69306
+main.ts:68012
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:69306
 
 #### Defined in
 
-main.ts:69299
+main.ts:68005

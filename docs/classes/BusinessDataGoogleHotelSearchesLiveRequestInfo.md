@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelSearchesLiveRequestInfo
+[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesLiveRequestInfo
 
 # Class: BusinessDataGoogleHotelSearchesLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:209237
+main.ts:204575
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:209144
+main.ts:204482
 
 ***
 
@@ -94,7 +94,7 @@ possible values:
 
 #### Defined in
 
-main.ts:209227
+main.ts:204565
 
 ***
 
@@ -116,7 +116,7 @@ Note: the value cannot precede the today’s date
 
 #### Defined in
 
-main.ts:209123
+main.ts:204461
 
 ***
 
@@ -139,7 +139,7 @@ the range between check_in and check_out values cannot exceed 30 days
 
 #### Defined in
 
-main.ts:209132
+main.ts:204470
 
 ***
 
@@ -163,7 +163,7 @@ set the following value if you want to include one 13-year-old child and one 8-y
 
 #### Defined in
 
-main.ts:209154
+main.ts:204492
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:209137
+main.ts:204475
 
 ***
 
@@ -205,7 +205,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:209115
+main.ts:204453
 
 ***
 
@@ -224,7 +224,7 @@ default value: false
 
 #### Defined in
 
-main.ts:209193
+main.ts:204531
 
 ***
 
@@ -243,7 +243,7 @@ default value: false
 
 #### Defined in
 
-main.ts:209198
+main.ts:204536
 
 ***
 
@@ -266,7 +266,7 @@ Note: in order to obtain accurate search results, the location name is appended 
 
 #### Defined in
 
-main.ts:209068
+main.ts:204406
 
 ***
 
@@ -287,7 +287,7 @@ en
 
 #### Defined in
 
-main.ts:209106
+main.ts:204444
 
 ***
 
@@ -308,7 +308,7 @@ English
 
 #### Defined in
 
-main.ts:209099
+main.ts:204437
 
 ***
 
@@ -329,7 +329,7 @@ example:
 
 #### Defined in
 
-main.ts:209083
+main.ts:204421
 
 ***
 
@@ -352,7 +352,7 @@ example:
 
 #### Defined in
 
-main.ts:209092
+main.ts:204430
 
 ***
 
@@ -374,7 +374,7 @@ Note: in order to obtain accurate search results, the location_name you specify 
 
 #### Defined in
 
-main.ts:209076
+main.ts:204414
 
 ***
 
@@ -394,7 +394,7 @@ example:
 
 #### Defined in
 
-main.ts:209188
+main.ts:204526
 
 ***
 
@@ -414,7 +414,7 @@ example:
 
 #### Defined in
 
-main.ts:209182
+main.ts:204520
 
 ***
 
@@ -434,7 +434,7 @@ example:
 
 #### Defined in
 
-main.ts:209166
+main.ts:204504
 
 ***
 
@@ -458,7 +458,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:209176
+main.ts:204514
 
 ***
 
@@ -478,7 +478,7 @@ example:
 
 #### Defined in
 
-main.ts:209160
+main.ts:204498
 
 ***
 
@@ -498,7 +498,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:209233
+main.ts:204571
 
 ## Methods
 
@@ -516,7 +516,7 @@ main.ts:209233
 
 #### Defined in
 
-main.ts:209246
+main.ts:204584
 
 ***
 
@@ -534,7 +534,7 @@ main.ts:209246
 
 #### Defined in
 
-main.ts:209295
+main.ts:204633
 
 ***
 
@@ -552,4 +552,4 @@ main.ts:209295
 
 #### Defined in
 
-main.ts:209288
+main.ts:204626

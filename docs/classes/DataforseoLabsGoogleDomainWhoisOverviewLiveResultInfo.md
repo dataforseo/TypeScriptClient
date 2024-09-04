@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:91947
+main.ts:90619
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:91943
+main.ts:90615
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:91941
+main.ts:90613
 
 ***
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91937
+main.ts:90609
 
 ***
 
@@ -94,7 +94,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:91939
+main.ts:90611
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:91939
 
 #### Defined in
 
-main.ts:91956
+main.ts:90628
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:91956
 
 #### Defined in
 
-main.ts:91980
+main.ts:90652
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:91980
 
 #### Defined in
 
-main.ts:91973
+main.ts:90645

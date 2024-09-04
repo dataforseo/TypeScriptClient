@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHotelInfoPriceOffer
+[Documentation](../globals.md) / IHotelInfoPriceOffer
 
 # Interface: IHotelInfoPriceOffer
 
@@ -23,7 +23,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:208467
+main.ts:203805
 
 ***
 
@@ -37,7 +37,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-main.ts:208480
+main.ts:203818
 
 ***
 
@@ -50,7 +50,7 @@ the maximum number of visitors for which the price offer is valid
 
 #### Defined in
 
-main.ts:208473
+main.ts:203811
 
 ***
 
@@ -63,7 +63,7 @@ URLs of the images featured in the price offer
 
 #### Defined in
 
-main.ts:208476
+main.ts:203814
 
 ***
 
@@ -75,7 +75,7 @@ price per night
 
 #### Defined in
 
-main.ts:208464
+main.ts:203802
 
 ***
 
@@ -87,7 +87,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:208462
+main.ts:203800
 
 ***
 
@@ -99,7 +99,7 @@ type of element
 
 #### Defined in
 
-main.ts:208460
+main.ts:203798
 
 ***
 
@@ -112,4 +112,4 @@ URL to the page of the website where price offer appears
 
 #### Defined in
 
-main.ts:208470
+main.ts:203808

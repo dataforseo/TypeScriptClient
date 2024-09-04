@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForAppLiveItem
+[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForAppLiveItem
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:115203
+main.ts:112299
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:115197
+main.ts:112293
 
 ***
 
@@ -62,7 +62,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:115199
+main.ts:112295
 
 ***
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Defined in
 
-main.ts:115195
+main.ts:112291
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:115195
 
 #### Defined in
 
-main.ts:115212
+main.ts:112308
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:115212
 
 #### Defined in
 
-main.ts:115231
+main.ts:112327
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:115231
 
 #### Defined in
 
-main.ts:115224
+main.ts:112320

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RecipesSerpElementItem
+[Documentation](../globals.md) / RecipesSerpElementItem
 
 # Class: RecipesSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:33355
+main.ts:32488
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:33355
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33347
+main.ts:32480
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`position`](../interfaces/IRecipesSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:33342
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:33342
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`rank_absolute`](../interfaces/IRecipesSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:33338
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:33338
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`rank_group`](../interfaces/IRecipesSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:33334
+main.ts:20356
 
 ***
 
@@ -142,7 +152,27 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33351
+main.ts:32484
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`type`](../interfaces/IRecipesSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -156,9 +186,13 @@ the XPath of the element
 
 [`IRecipesSerpElementItem`](../interfaces/IRecipesSerpElementItem.md).[`xpath`](../interfaces/IRecipesSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:33344
+main.ts:20365
 
 ## Methods
 
@@ -180,7 +214,7 @@ main.ts:33344
 
 #### Defined in
 
-main.ts:33360
+main.ts:32493
 
 ***
 
@@ -202,7 +236,7 @@ main.ts:33360
 
 #### Defined in
 
-main.ts:33387
+main.ts:32516
 
 ***
 
@@ -224,4 +258,4 @@ main.ts:33387
 
 #### Defined in
 
-main.ts:33380
+main.ts:32509

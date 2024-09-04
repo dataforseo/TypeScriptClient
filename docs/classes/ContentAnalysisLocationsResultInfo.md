@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisLocationsResultInfo
+[Documentation](../globals.md) / ContentAnalysisLocationsResultInfo
 
 # Class: ContentAnalysisLocationsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:169256
+main.ts:165186
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:169252
+main.ts:165182
 
 ***
 
@@ -62,7 +62,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:169250
+main.ts:165180
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:169250
 
 #### Defined in
 
-main.ts:169265
+main.ts:165195
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:169265
 
 #### Defined in
 
-main.ts:169283
+main.ts:165213
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:169283
 
 #### Defined in
 
-main.ts:169276
+main.ts:165206

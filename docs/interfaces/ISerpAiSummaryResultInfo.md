@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpAiSummaryResultInfo
+[Documentation](../globals.md) / ISerpAiSummaryResultInfo
 
 # Interface: ISerpAiSummaryResultInfo
 
@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:25266
+main.ts:25582
 
 ***
 
@@ -32,4 +32,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:25264
+main.ts:25580

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleJobsItemSerpElementItem
+[Documentation](../globals.md) / GoogleJobsItemSerpElementItem
 
 # Class: GoogleJobsItemSerpElementItem
 

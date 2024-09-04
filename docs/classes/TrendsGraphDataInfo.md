@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TrendsGraphDataInfo
+[Documentation](../globals.md) / TrendsGraphDataInfo
 
 # Class: TrendsGraphDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:126536
+main.ts:123594
 
 ## Properties
 
@@ -47,7 +47,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:126519
+main.ts:123577
 
 ***
 
@@ -64,7 +64,7 @@ in the UTC format: “yyyy-mm-dd”
 
 #### Defined in
 
-main.ts:126522
+main.ts:123580
 
 ***
 
@@ -81,7 +81,7 @@ if true the data on the graph in the Google Trends interface is missing and thus
 
 #### Defined in
 
-main.ts:126527
+main.ts:123585
 
 ***
 
@@ -97,7 +97,7 @@ a point in time in the Unix time format
 
 #### Defined in
 
-main.ts:126524
+main.ts:123582
 
 ***
 
@@ -116,7 +116,7 @@ a value of 100 is the peak popularity for the term. A value of 50 means that the
 
 #### Defined in
 
-main.ts:126532
+main.ts:123590
 
 ## Methods
 
@@ -134,7 +134,7 @@ main.ts:126532
 
 #### Defined in
 
-main.ts:126545
+main.ts:123603
 
 ***
 
@@ -152,7 +152,7 @@ main.ts:126545
 
 #### Defined in
 
-main.ts:126570
+main.ts:123628
 
 ***
 
@@ -170,4 +170,4 @@ main.ts:126570
 
 #### Defined in
 
-main.ts:126563
+main.ts:123621

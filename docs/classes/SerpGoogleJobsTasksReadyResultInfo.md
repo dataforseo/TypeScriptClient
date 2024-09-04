@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleJobsTasksReadyResultInfo
+[Documentation](../globals.md) / SerpGoogleJobsTasksReadyResultInfo
 
 # Class: SerpGoogleJobsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:51916
+main.ts:50363
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:51901
+main.ts:50348
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:51909
+main.ts:50356
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:51912
+main.ts:50359
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:51906
+main.ts:50353
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:51894
+main.ts:50341
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:51896
+main.ts:50343
 
 ***
 
@@ -147,7 +147,7 @@ example: jobs
 
 #### Defined in
 
-main.ts:51899
+main.ts:50346
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:51903
+main.ts:50350
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:51903
 
 #### Defined in
 
-main.ts:51925
+main.ts:50372
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:51925
 
 #### Defined in
 
-main.ts:51949
+main.ts:50396
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:51949
 
 #### Defined in
 
-main.ts:51942
+main.ts:50389

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
+[Documentation](../globals.md) / IBacklinksTimeseriesNewLostSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesNewLostSummaryLiveItem
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:151861
+main.ts:148727
 
 ***
 
@@ -36,7 +36,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:151867
+main.ts:148733
 
 ***
 
@@ -49,7 +49,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:151873
+main.ts:148739
 
 ***
 
@@ -62,7 +62,7 @@ number of lost referring main domains of the target
 
 #### Defined in
 
-main.ts:151879
+main.ts:148745
 
 ***
 
@@ -75,7 +75,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:151864
+main.ts:148730
 
 ***
 
@@ -88,7 +88,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:151870
+main.ts:148736
 
 ***
 
@@ -101,7 +101,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:151876
+main.ts:148742
 
 ***
 
@@ -113,4 +113,4 @@ type of element
 
 #### Defined in
 
-main.ts:151856
+main.ts:148722

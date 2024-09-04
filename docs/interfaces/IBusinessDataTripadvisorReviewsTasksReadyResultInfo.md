@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTripadvisorReviewsTasksReadyResultInfo
+[Documentation](../globals.md) / IBusinessDataTripadvisorReviewsTasksReadyResultInfo
 
 # Interface: IBusinessDataTripadvisorReviewsTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:218725
+main.ts:214001
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:218729
+main.ts:214005
 
 ***
 
@@ -45,7 +45,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:218718
+main.ts:213994
 
 ***
 
@@ -58,7 +58,7 @@ can take the following values: tripadvisor
 
 #### Defined in
 
-main.ts:218721
+main.ts:213997
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:218723
+main.ts:213999
 
 ***
 
@@ -82,4 +82,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:218727
+main.ts:214003

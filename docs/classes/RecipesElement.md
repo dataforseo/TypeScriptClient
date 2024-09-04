@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RecipesElement
+[Documentation](../globals.md) / RecipesElement
 
 # Class: RecipesElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:33255
+main.ts:32403
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:33246
+main.ts:32394
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Defined in
 
-main.ts:33241
+main.ts:32389
 
 ***
 
@@ -79,7 +79,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33251
+main.ts:32399
 
 ***
 
@@ -96,7 +96,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:33244
+main.ts:32392
 
 ***
 
@@ -112,7 +112,7 @@ the total time it takes to prepare the cook the dish
 
 #### Defined in
 
-main.ts:33248
+main.ts:32396
 
 ***
 
@@ -128,7 +128,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33237
+main.ts:32385
 
 ***
 
@@ -144,7 +144,7 @@ type of element
 
 #### Defined in
 
-main.ts:33235
+main.ts:32383
 
 ***
 
@@ -160,7 +160,7 @@ URL
 
 #### Defined in
 
-main.ts:33239
+main.ts:32387
 
 ## Methods
 
@@ -178,7 +178,7 @@ main.ts:33239
 
 #### Defined in
 
-main.ts:33264
+main.ts:32412
 
 ***
 
@@ -196,7 +196,7 @@ main.ts:33264
 
 #### Defined in
 
-main.ts:33288
+main.ts:32436
 
 ***
 
@@ -214,4 +214,4 @@ main.ts:33288
 
 #### Defined in
 
-main.ts:33281
+main.ts:32429

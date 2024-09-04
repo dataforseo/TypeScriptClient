@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixRatesData
+[Documentation](../globals.md) / AppendixRatesData
 
 # Class: AppendixRatesData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:224720
+main.ts:219980
 
 ## Properties
 
@@ -46,7 +46,7 @@ rate limits for API calls per a certain period of time
 
 #### Defined in
 
-main.ts:224714
+main.ts:219974
 
 ***
 
@@ -62,7 +62,7 @@ statisctics for API calls
 
 #### Defined in
 
-main.ts:224716
+main.ts:219976
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:224716
 
 #### Defined in
 
-main.ts:224729
+main.ts:219989
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:224729
 
 #### Defined in
 
-main.ts:224747
+main.ts:220007
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:224747
 
 #### Defined in
 
-main.ts:224740
+main.ts:220000

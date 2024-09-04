@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAmazonRelatedKeywordsLiveItem
+[Documentation](../globals.md) / DataforseoLabsAmazonRelatedKeywordsLiveItem
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:105622
+main.ts:102772
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword search depth
 
 #### Defined in
 
-main.ts:105615
+main.ts:102765
 
 ***
 
@@ -62,7 +62,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:105613
+main.ts:102763
 
 ***
 
@@ -79,7 +79,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-main.ts:105618
+main.ts:102768
 
 ***
 
@@ -95,7 +95,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105611
+main.ts:102761
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:105611
 
 #### Defined in
 
-main.ts:105631
+main.ts:102781
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:105631
 
 #### Defined in
 
-main.ts:105655
+main.ts:102805
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:105655
 
 #### Defined in
 
-main.ts:105648
+main.ts:102798

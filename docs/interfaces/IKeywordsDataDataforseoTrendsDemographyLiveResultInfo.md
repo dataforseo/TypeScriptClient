@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataDataforseoTrendsDemographyLiveResultInfo
+[Documentation](../globals.md) / IKeywordsDataDataforseoTrendsDemographyLiveResultInfo
 
 # Interface: IKeywordsDataDataforseoTrendsDemographyLiveResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:130355
+main.ts:127245
 
 ***
 
@@ -35,7 +35,7 @@ contains keyword popularity and related data
 
 #### Defined in
 
-main.ts:130359
+main.ts:127249
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:130357
+main.ts:127247
 
 ***
 
@@ -59,7 +59,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:130342
+main.ts:127232
 
 ***
 
@@ -72,7 +72,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130350
+main.ts:127240
 
 ***
 
@@ -85,7 +85,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130347
+main.ts:127237
 
 ***
 
@@ -97,4 +97,4 @@ type of element
 
 #### Defined in
 
-main.ts:130344
+main.ts:127234

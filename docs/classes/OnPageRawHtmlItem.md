@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageRawHtmlItem
+[Documentation](../globals.md) / OnPageRawHtmlItem
 
 # Class: OnPageRawHtmlItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:164534
+main.ts:160464
 
 ## Properties
 
@@ -46,7 +46,7 @@ HTML page
 
 #### Defined in
 
-main.ts:164530
+main.ts:160460
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:164530
 
 #### Defined in
 
-main.ts:164543
+main.ts:160473
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:164543
 
 #### Defined in
 
-main.ts:164560
+main.ts:160490
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:164560
 
 #### Defined in
 
-main.ts:164553
+main.ts:160483

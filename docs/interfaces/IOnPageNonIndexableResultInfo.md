@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageNonIndexableResultInfo
+[Documentation](../globals.md) / IOnPageNonIndexableResultInfo
 
 # Interface: IOnPageNonIndexableResultInfo
 
@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:162899
+main.ts:158829
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:162901
+main.ts:158831
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Defined in
 
-main.ts:162907
+main.ts:158837
 
 ***
 
@@ -57,7 +57,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:162905
+main.ts:158835
 
 ***
 
@@ -69,4 +69,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:162903
+main.ts:158833

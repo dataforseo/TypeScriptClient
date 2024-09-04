@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppListingsSearchLiveRequestInfo
+[Documentation](../globals.md) / IAppDataGoogleAppListingsSearchLiveRequestInfo
 
 # Interface: IAppDataGoogleAppListingsSearchLiveRequestInfo
 
@@ -24,7 +24,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:196493
+main.ts:191947
 
 ***
 
@@ -39,7 +39,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:196498
+main.ts:191952
 
 ***
 
@@ -60,7 +60,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:196514
+main.ts:191968
 
 ***
 
@@ -75,7 +75,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:196533
+main.ts:191987
 
 ***
 
@@ -90,7 +90,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-main.ts:196538
+main.ts:191992
 
 ***
 
@@ -108,7 +108,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:196546
+main.ts:192000
 
 ***
 
@@ -132,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:196528
+main.ts:191982
 
 ***
 
@@ -148,7 +148,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:196552
+main.ts:192006
 
 ***
 
@@ -163,4 +163,4 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:196503
+main.ts:191957

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
 
 # Interface: IAppDataAppleAppSearchesTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:198019
+main.ts:193473
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:198024
+main.ts:193478
 
 ***
 
@@ -48,7 +48,7 @@ found apps
 
 #### Defined in
 
-main.ts:198030
+main.ts:193484
 
 ***
 
@@ -60,7 +60,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:198028
+main.ts:193482
 
 ***
 
@@ -72,7 +72,7 @@ keyword received in a POST request
 
 #### Defined in
 
-main.ts:198010
+main.ts:193464
 
 ***
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:198016
+main.ts:193470
 
 ***
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:198014
+main.ts:193468
 
 ***
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:198012
+main.ts:193466
 
 ***
 
@@ -120,4 +120,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:198026
+main.ts:193480

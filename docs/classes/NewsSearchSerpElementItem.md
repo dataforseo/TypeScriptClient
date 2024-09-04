@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / NewsSearchSerpElementItem
+[Documentation](../globals.md) / NewsSearchSerpElementItem
 
 # Class: NewsSearchSerpElementItem
 

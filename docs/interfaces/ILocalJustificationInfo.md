@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ILocalJustificationInfo
+[Documentation](../globals.md) / ILocalJustificationInfo
 
 # Interface: ILocalJustificationInfo
 
@@ -20,7 +20,7 @@ text snippet of local justification
 
 #### Defined in
 
-main.ts:41612
+main.ts:39772
 
 ***
 
@@ -32,4 +32,4 @@ type of element
 
 #### Defined in
 
-main.ts:41610
+main.ts:39770

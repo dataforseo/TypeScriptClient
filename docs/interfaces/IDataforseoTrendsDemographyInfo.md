@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoTrendsDemographyInfo
+[Documentation](../globals.md) / IDataforseoTrendsDemographyInfo
 
 # Interface: IDataforseoTrendsDemographyInfo
 
@@ -21,7 +21,7 @@ conains keyword popularity data by age and gender
 
 #### Defined in
 
-main.ts:130243
+main.ts:127133
 
 ***
 
@@ -35,7 +35,7 @@ if you specified a single keyword, the value will be null
 
 #### Defined in
 
-main.ts:130247
+main.ts:127137
 
 ***
 
@@ -48,7 +48,7 @@ the data included in the demography and demography_comparison is based on the ke
 
 #### Defined in
 
-main.ts:130240
+main.ts:127130
 
 ***
 
@@ -61,7 +61,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:130235
+main.ts:127125
 
 ***
 
@@ -73,4 +73,4 @@ type of element
 
 #### Defined in
 
-main.ts:130237
+main.ts:127127

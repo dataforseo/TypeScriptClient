@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleAutocompleteTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:53934
+main.ts:52397
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:53911
+main.ts:52374
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:53916
+main.ts:52379
 
 ***
 
@@ -85,13 +85,13 @@ autocomplete
 
 #### Defined in
 
-main.ts:53924
+main.ts:52387
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`SerpGoogleAutocompleteeAdvancedItem`](SerpGoogleAutocompleteeAdvancedItem.md)[]
 
 elements of search results found in SERP
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:53930
+main.ts:52393
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:53928
+main.ts:52391
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:53900
+main.ts:52363
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:53908
+main.ts:52371
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:53906
+main.ts:52369
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:53904
+main.ts:52367
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:53926
+main.ts:52389
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:53919
+main.ts:52382
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:53902
+main.ts:52365
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:53902
 
 #### Defined in
 
-main.ts:53943
+main.ts:52406
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:53943
 
 #### Defined in
 
-main.ts:53979
+main.ts:52442
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:53979
 
 #### Defined in
 
-main.ts:53972
+main.ts:52435

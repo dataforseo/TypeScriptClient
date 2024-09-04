@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleReviewsTaskGetResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleReviewsTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleReviewsTaskGetResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:213512
+main.ts:208834
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:213536
+main.ts:208858
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:213517
+main.ts:208839
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:213529
+main.ts:208851
 
 ***
 
@@ -76,7 +76,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:213544
+main.ts:208866
 
 ***
 
@@ -89,7 +89,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:213541
+main.ts:208863
 
 ***
 
@@ -102,7 +102,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:213501
+main.ts:208823
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:213509
+main.ts:208831
 
 ***
 
@@ -126,7 +126,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:213507
+main.ts:208829
 
 ***
 
@@ -139,7 +139,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:213532
+main.ts:208854
 
 ***
 
@@ -152,7 +152,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:213526
+main.ts:208848
 
 ***
 
@@ -164,7 +164,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:213538
+main.ts:208860
 
 ***
 
@@ -176,7 +176,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:213505
+main.ts:208827
 
 ***
 
@@ -189,7 +189,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Defined in
 
-main.ts:213523
+main.ts:208845
 
 ***
 
@@ -202,7 +202,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:213520
+main.ts:208842
 
 ***
 
@@ -214,4 +214,4 @@ type of element
 
 #### Defined in
 
-main.ts:213503
+main.ts:208825

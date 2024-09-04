@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / FormatsElement
+[Documentation](../globals.md) / FormatsElement
 
 # Class: FormatsElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:55434
+main.ts:53897
 
 ## Properties
 
@@ -47,7 +47,7 @@ for example: zip, html, csv
 
 #### Defined in
 
-main.ts:55428
+main.ts:53891
 
 ***
 
@@ -63,7 +63,7 @@ file size in bytes
 
 #### Defined in
 
-main.ts:55430
+main.ts:53893
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Defined in
 
-main.ts:55425
+main.ts:53888
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:55425
 
 #### Defined in
 
-main.ts:55443
+main.ts:53906
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:55443
 
 #### Defined in
 
-main.ts:55462
+main.ts:53925
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:55462
 
 #### Defined in
 
-main.ts:55455
+main.ts:53918

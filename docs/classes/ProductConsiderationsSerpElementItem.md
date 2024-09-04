@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductConsiderationsSerpElementItem
+[Documentation](../globals.md) / ProductConsiderationsSerpElementItem
 
 # Class: ProductConsiderationsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:36551
+main.ts:35076
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:36551
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:36543
+main.ts:35068
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`position`](../interfaces/IProductConsiderationsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:36536
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:36536
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`rank_absolute`](../interfaces/IProductConsiderationsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:36532
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:36532
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`rank_group`](../interfaces/IProductConsiderationsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:36528
+main.ts:20356
 
 ***
 
@@ -142,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36547
+main.ts:35072
 
 ***
 
@@ -158,7 +168,27 @@ title of the row
 
 #### Defined in
 
-main.ts:36540
+main.ts:35065
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`type`](../interfaces/IProductConsiderationsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -172,9 +202,13 @@ the XPath of the element
 
 [`IProductConsiderationsSerpElementItem`](../interfaces/IProductConsiderationsSerpElementItem.md).[`xpath`](../interfaces/IProductConsiderationsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:36538
+main.ts:20365
 
 ## Methods
 
@@ -196,7 +230,7 @@ main.ts:36538
 
 #### Defined in
 
-main.ts:36556
+main.ts:35081
 
 ***
 
@@ -218,7 +252,7 @@ main.ts:36556
 
 #### Defined in
 
-main.ts:36584
+main.ts:35105
 
 ***
 
@@ -240,4 +274,4 @@ main.ts:36584
 
 #### Defined in
 
-main.ts:36577
+main.ts:35098

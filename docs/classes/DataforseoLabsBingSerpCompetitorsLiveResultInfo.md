@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingSerpCompetitorsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsBingSerpCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsBingSerpCompetitorsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:113562
+main.ts:110696
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains detected SERP competitors and related data
 
 #### Defined in
 
-main.ts:113558
+main.ts:110692
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:113556
+main.ts:110690
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:113552
+main.ts:110686
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:113549
+main.ts:110683
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:113543
+main.ts:110677
 
 ***
 
@@ -129,7 +129,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:113546
+main.ts:110680
 
 ***
 
@@ -145,7 +145,7 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:113554
+main.ts:110688
 
 ## Methods
 
@@ -163,7 +163,7 @@ main.ts:113554
 
 #### Defined in
 
-main.ts:113571
+main.ts:110705
 
 ***
 
@@ -181,7 +181,7 @@ main.ts:113571
 
 #### Defined in
 
-main.ts:113602
+main.ts:110736
 
 ***
 
@@ -199,4 +199,4 @@ main.ts:113602
 
 #### Defined in
 
-main.ts:113595
+main.ts:110729

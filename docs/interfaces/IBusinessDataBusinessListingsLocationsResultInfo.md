@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataBusinessListingsLocationsResultInfo
+[Documentation](../globals.md) / IBusinessDataBusinessListingsLocationsResultInfo
 
 # Interface: IBusinessDataBusinessListingsLocationsResultInfo
 
@@ -20,7 +20,7 @@ number of businesses in this location in our database
 
 #### Defined in
 
-main.ts:202292
+main.ts:197674
 
 ***
 
@@ -32,7 +32,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:202290
+main.ts:197672
 
 ***
 
@@ -44,4 +44,4 @@ full name of the location
 
 #### Defined in
 
-main.ts:202288
+main.ts:197670

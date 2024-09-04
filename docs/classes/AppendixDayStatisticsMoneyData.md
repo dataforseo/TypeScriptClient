@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixDayStatisticsMoneyData
+[Documentation](../globals.md) / AppendixDayStatisticsMoneyData
 
 # Class: AppendixDayStatisticsMoneyData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:225369
+main.ts:220629
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:225369
 
 #### Defined in
 
-main.ts:225353
+main.ts:220613
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:225353
 
 #### Defined in
 
-main.ts:225339
+main.ts:220599
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:225339
 
 #### Defined in
 
-main.ts:225351
+main.ts:220611
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:225351
 
 #### Defined in
 
-main.ts:225349
+main.ts:220609
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:225349
 
 #### Defined in
 
-main.ts:225355
+main.ts:220615
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:225355
 
 #### Defined in
 
-main.ts:225357
+main.ts:220617
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:225357
 
 #### Defined in
 
-main.ts:225341
+main.ts:220601
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:225341
 
 #### Defined in
 
-main.ts:225343
+main.ts:220603
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:225343
 
 #### Defined in
 
-main.ts:225337
+main.ts:220597
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:225337
 
 #### Defined in
 
-main.ts:225345
+main.ts:220605
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:225345
 
 #### Defined in
 
-main.ts:225347
+main.ts:220607
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:225347
 
 #### Defined in
 
-main.ts:225365
+main.ts:220625
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:225365
 
 #### Defined in
 
-main.ts:225333
+main.ts:220593
 
 ***
 
@@ -228,7 +228,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:225335
+main.ts:220595
 
 ***
 
@@ -242,7 +242,7 @@ main.ts:225335
 
 #### Defined in
 
-main.ts:225354
+main.ts:220614
 
 ***
 
@@ -256,7 +256,7 @@ main.ts:225354
 
 #### Defined in
 
-main.ts:225340
+main.ts:220600
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:225340
 
 #### Defined in
 
-main.ts:225352
+main.ts:220612
 
 ***
 
@@ -284,7 +284,7 @@ main.ts:225352
 
 #### Defined in
 
-main.ts:225350
+main.ts:220610
 
 ***
 
@@ -298,7 +298,7 @@ main.ts:225350
 
 #### Defined in
 
-main.ts:225356
+main.ts:220616
 
 ***
 
@@ -312,7 +312,7 @@ main.ts:225356
 
 #### Defined in
 
-main.ts:225358
+main.ts:220618
 
 ***
 
@@ -326,7 +326,7 @@ main.ts:225358
 
 #### Defined in
 
-main.ts:225342
+main.ts:220602
 
 ***
 
@@ -340,7 +340,7 @@ main.ts:225342
 
 #### Defined in
 
-main.ts:225344
+main.ts:220604
 
 ***
 
@@ -354,7 +354,7 @@ main.ts:225344
 
 #### Defined in
 
-main.ts:225338
+main.ts:220598
 
 ***
 
@@ -368,7 +368,7 @@ main.ts:225338
 
 #### Defined in
 
-main.ts:225346
+main.ts:220606
 
 ***
 
@@ -382,7 +382,7 @@ main.ts:225346
 
 #### Defined in
 
-main.ts:225348
+main.ts:220608
 
 ***
 
@@ -396,7 +396,7 @@ main.ts:225348
 
 #### Defined in
 
-main.ts:225364
+main.ts:220624
 
 ***
 
@@ -410,7 +410,7 @@ main.ts:225364
 
 #### Defined in
 
-main.ts:225336
+main.ts:220596
 
 ***
 
@@ -424,7 +424,7 @@ main.ts:225336
 
 #### Defined in
 
-main.ts:225363
+main.ts:220623
 
 ***
 
@@ -442,7 +442,7 @@ minute in the yyyy-MM-dd HH:mm format
 
 #### Defined in
 
-main.ts:225362
+main.ts:220622
 
 ## Methods
 
@@ -460,7 +460,7 @@ main.ts:225362
 
 #### Defined in
 
-main.ts:225378
+main.ts:220638
 
 ***
 
@@ -478,7 +478,7 @@ main.ts:225378
 
 #### Defined in
 
-main.ts:225423
+main.ts:220683
 
 ***
 
@@ -496,4 +496,4 @@ main.ts:225423
 
 #### Defined in
 
-main.ts:225416
+main.ts:220676

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordKpiInfo
+[Documentation](../globals.md) / KeywordKpiInfo
 
 # Class: KeywordKpiInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:136206
+main.ts:133072
 
 ## Properties
 
@@ -61,7 +61,7 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 #### Defined in
 
-main.ts:136185
+main.ts:133051
 
 ***
 
@@ -77,7 +77,7 @@ average bid of the keyword
 
 #### Defined in
 
-main.ts:136202
+main.ts:133068
 
 ***
 
@@ -94,7 +94,7 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 #### Defined in
 
-main.ts:136194
+main.ts:133060
 
 ***
 
@@ -111,7 +111,7 @@ the number of clicks that the keyword and match type generated during the last m
 
 #### Defined in
 
-main.ts:136188
+main.ts:133054
 
 ***
 
@@ -128,7 +128,7 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 #### Defined in
 
-main.ts:136197
+main.ts:133063
 
 ***
 
@@ -145,7 +145,7 @@ the number of impressions that the keyword and match type generated during the l
 
 #### Defined in
 
-main.ts:136191
+main.ts:133057
 
 ***
 
@@ -162,7 +162,7 @@ the cost of using the specified keyword and match type during the last month
 
 #### Defined in
 
-main.ts:136200
+main.ts:133066
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:136200
 
 #### Defined in
 
-main.ts:136215
+main.ts:133081
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:136215
 
 #### Defined in
 
-main.ts:136238
+main.ts:133104
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:136238
 
 #### Defined in
 
-main.ts:136231
+main.ts:133097

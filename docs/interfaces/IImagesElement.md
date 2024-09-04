@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IImagesElement
+[Documentation](../globals.md) / IImagesElement
 
 # Interface: IImagesElement
 
@@ -20,7 +20,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:28461
+main.ts:28501
 
 ***
 
@@ -33,7 +33,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:28466
+main.ts:28506
 
 ***
 
@@ -45,7 +45,7 @@ type of element
 
 #### Defined in
 
-main.ts:28459
+main.ts:28499
 
 ***
 
@@ -57,4 +57,4 @@ URL link
 
 #### Defined in
 
-main.ts:28463
+main.ts:28503

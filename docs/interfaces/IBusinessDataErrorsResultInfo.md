@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataErrorsResultInfo
+[Documentation](../globals.md) / IBusinessDataErrorsResultInfo
 
 # Interface: IBusinessDataErrorsResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:202100
+main.ts:197482
 
 ***
 
@@ -35,7 +35,7 @@ error code
 
 #### Defined in
 
-main.ts:202104
+main.ts:197486
 
 ***
 
@@ -48,7 +48,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:202107
+main.ts:197489
 
 ***
 
@@ -60,7 +60,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:202102
+main.ts:197484
 
 ***
 
@@ -72,7 +72,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:202114
+main.ts:197496
 
 ***
 
@@ -84,7 +84,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:202112
+main.ts:197494
 
 ***
 
@@ -97,7 +97,7 @@ server response
 
 #### Defined in
 
-main.ts:202120
+main.ts:197502
 
 ***
 
@@ -110,7 +110,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:202117
+main.ts:197499
 
 ***
 
@@ -123,7 +123,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:202110
+main.ts:197492
 
 ***
 
@@ -135,4 +135,4 @@ id of the task
 
 #### Defined in
 
-main.ts:202095
+main.ts:197477

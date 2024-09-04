@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppReviewsTasksReadyResultInfo
+[Documentation](../globals.md) / IAppDataAppleAppReviewsTasksReadyResultInfo
 
 # Interface: IAppDataAppleAppReviewsTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:200387
+main.ts:195805
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the Apple App Reviews task
 
 #### Defined in
 
-main.ts:200391
+main.ts:195809
 
 ***
 
@@ -45,7 +45,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:200394
+main.ts:195812
 
 ***
 
@@ -58,7 +58,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:200381
+main.ts:195799
 
 ***
 
@@ -70,7 +70,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:200383
+main.ts:195801
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:200385
+main.ts:195803
 
 ***
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:200389
+main.ts:195807

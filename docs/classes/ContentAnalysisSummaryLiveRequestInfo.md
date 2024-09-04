@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisSummaryLiveRequestInfo
+[Documentation](../globals.md) / ContentAnalysisSummaryLiveRequestInfo
 
 # Class: ContentAnalysisSummaryLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:170852
+main.ts:166782
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:170842
+main.ts:166772
 
 ***
 
@@ -86,7 +86,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:170810
+main.ts:166740
 
 ***
 
@@ -109,7 +109,7 @@ example:
 
 #### Defined in
 
-main.ts:170781
+main.ts:166711
 
 ***
 
@@ -139,7 +139,7 @@ example:
 
 #### Defined in
 
-main.ts:170793
+main.ts:166723
 
 ***
 
@@ -159,7 +159,7 @@ possible values:
 
 #### Defined in
 
-main.ts:170799
+main.ts:166729
 
 ***
 
@@ -180,7 +180,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:170817
+main.ts:166747
 
 ***
 
@@ -202,7 +202,7 @@ default value: 0.4
 
 #### Defined in
 
-main.ts:170825
+main.ts:166755
 
 ***
 
@@ -222,7 +222,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:170848
+main.ts:166778
 
 ## Methods
 
@@ -240,7 +240,7 @@ main.ts:170848
 
 #### Defined in
 
-main.ts:170861
+main.ts:166791
 
 ***
 
@@ -258,7 +258,7 @@ main.ts:170861
 
 #### Defined in
 
-main.ts:170899
+main.ts:166829
 
 ***
 
@@ -276,4 +276,4 @@ main.ts:170899
 
 #### Defined in
 
-main.ts:170892
+main.ts:166822

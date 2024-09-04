@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleDatasetSearchTasksReadyResultInfo
+[Documentation](../globals.md) / ISerpGoogleDatasetSearchTasksReadyResultInfo
 
 # Interface: ISerpGoogleDatasetSearchTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:55085
+main.ts:53548
 
 ***
 
@@ -33,7 +33,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:55093
+main.ts:53556
 
 ***
 
@@ -46,7 +46,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:55096
+main.ts:53559
 
 ***
 
@@ -59,7 +59,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:55090
+main.ts:53553
 
 ***
 
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:55078
+main.ts:53541
 
 ***
 
@@ -84,7 +84,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:55080
+main.ts:53543
 
 ***
 
@@ -97,7 +97,7 @@ example: dataset_search
 
 #### Defined in
 
-main.ts:55083
+main.ts:53546
 
 ***
 
@@ -109,4 +109,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:55087
+main.ts:53550

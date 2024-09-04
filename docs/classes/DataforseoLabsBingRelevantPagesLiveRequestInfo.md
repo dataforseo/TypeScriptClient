@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingRelevantPagesLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsBingRelevantPagesLiveRequestInfo
 
 # Class: DataforseoLabsBingRelevantPagesLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:112833
+main.ts:109967
 
 ## Properties
 
@@ -58,7 +58,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:112806
+main.ts:109940
 
 ***
 
@@ -81,7 +81,7 @@ default value: live
 
 #### Defined in
 
-main.ts:112792
+main.ts:109926
 
 ***
 
@@ -104,7 +104,7 @@ default value:
 
 #### Defined in
 
-main.ts:112773
+main.ts:109907
 
 ***
 
@@ -127,7 +127,7 @@ en
 
 #### Defined in
 
-main.ts:112764
+main.ts:109898
 
 ***
 
@@ -150,7 +150,7 @@ English
 
 #### Defined in
 
-main.ts:112755
+main.ts:109889
 
 ***
 
@@ -169,7 +169,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:112778
+main.ts:109912
 
 ***
 
@@ -193,7 +193,7 @@ example:
 
 #### Defined in
 
-main.ts:112746
+main.ts:109880
 
 ***
 
@@ -217,7 +217,7 @@ United States
 
 #### Defined in
 
-main.ts:112736
+main.ts:109870
 
 ***
 
@@ -236,7 +236,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:112783
+main.ts:109917
 
 ***
 
@@ -267,7 +267,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:112823
+main.ts:109957
 
 ***
 
@@ -287,7 +287,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:112829
+main.ts:109963
 
 ***
 
@@ -306,7 +306,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:112726
+main.ts:109860
 
 ## Methods
 
@@ -324,7 +324,7 @@ main.ts:112726
 
 #### Defined in
 
-main.ts:112842
+main.ts:109976
 
 ***
 
@@ -342,7 +342,7 @@ main.ts:112842
 
 #### Defined in
 
-main.ts:112882
+main.ts:110016
 
 ***
 
@@ -360,4 +360,4 @@ main.ts:112882
 
 #### Defined in
 
-main.ts:112875
+main.ts:110009

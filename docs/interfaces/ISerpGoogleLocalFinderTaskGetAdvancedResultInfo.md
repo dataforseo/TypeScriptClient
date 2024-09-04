@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocalFinderTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / ISerpGoogleLocalFinderTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleLocalFinderTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:43815
+main.ts:41963
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:43820
+main.ts:41968
 
 ***
 
@@ -51,7 +51,7 @@ local_pack
 
 #### Defined in
 
-main.ts:43828
+main.ts:41976
 
 ***
 
@@ -63,7 +63,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:43834
+main.ts:41982
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:43832
+main.ts:41980
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:43804
+main.ts:41952
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:43812
+main.ts:41960
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:43810
+main.ts:41958
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:43808
+main.ts:41956
 
 ***
 
@@ -136,7 +136,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:43830
+main.ts:41978
 
 ***
 
@@ -149,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:43823
+main.ts:41971
 
 ***
 
@@ -161,4 +161,4 @@ type of element
 
 #### Defined in
 
-main.ts:43806
+main.ts:41954

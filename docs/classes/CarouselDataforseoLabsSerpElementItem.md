@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CarouselDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / CarouselDataforseoLabsSerpElementItem
 
 # Class: CarouselDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:98527
+main.ts:96782
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98527
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -60,7 +60,7 @@ main.ts:20752
 
 > `optional` **items**: [`CarouselElement`](CarouselElement.md)[]
 
-elements of search results found in SERP
+contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:98523
+main.ts:96778
 
 ***
 
@@ -84,9 +84,13 @@ left, right
 
 [`ICarouselDataforseoLabsSerpElementItem`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md).[`position`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:98517
+main.ts:20738
 
 ***
 
@@ -101,9 +105,13 @@ absolute position among all the elements in SERP
 
 [`ICarouselDataforseoLabsSerpElementItem`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:98513
+main.ts:20734
 
 ***
 
@@ -111,7 +119,6 @@ main.ts:98513
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
@@ -119,9 +126,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`ICarouselDataforseoLabsSerpElementItem`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:98510
+main.ts:20731
 
 ***
 
@@ -137,7 +148,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:98521
+main.ts:96776
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ICarouselDataforseoLabsSerpElementItem`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md).[`type`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -151,9 +182,13 @@ the XPath of the element
 
 [`ICarouselDataforseoLabsSerpElementItem`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/ICarouselDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:98519
+main.ts:20740
 
 ## Methods
 
@@ -175,7 +210,7 @@ main.ts:98519
 
 #### Defined in
 
-main.ts:98532
+main.ts:96787
 
 ***
 
@@ -197,7 +232,7 @@ main.ts:98532
 
 #### Defined in
 
-main.ts:98559
+main.ts:96810
 
 ***
 
@@ -219,4 +254,4 @@ main.ts:98559
 
 #### Defined in
 
-main.ts:98552
+main.ts:96803

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixAppendixPriceData
+[Documentation](../globals.md) / IAppendixAppendixPriceData
 
 # Interface: IAppendixAppendixPriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:226916
+main.ts:222176
 
 ***
 
@@ -28,4 +28,4 @@ main.ts:226916
 
 #### Defined in
 
-main.ts:226917
+main.ts:222177

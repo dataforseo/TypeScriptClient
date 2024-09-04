@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RatingElement
+[Documentation](../globals.md) / RatingElement
 
 # Class: RatingElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:21208
+main.ts:21232
 
 ## Properties
 
@@ -48,7 +48,7 @@ left, right
 
 #### Defined in
 
-main.ts:21195
+main.ts:21219
 
 ***
 
@@ -64,7 +64,7 @@ the maximum value for a rating_type
 
 #### Defined in
 
-main.ts:21204
+main.ts:21228
 
 ***
 
@@ -81,7 +81,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:21198
+main.ts:21222
 
 ***
 
@@ -97,7 +97,7 @@ type of element
 
 #### Defined in
 
-main.ts:21191
+main.ts:21215
 
 ***
 
@@ -113,7 +113,7 @@ value of the rating
 
 #### Defined in
 
-main.ts:21200
+main.ts:21224
 
 ***
 
@@ -129,7 +129,7 @@ the amount of feedback
 
 #### Defined in
 
-main.ts:21202
+main.ts:21226
 
 ## Methods
 
@@ -147,7 +147,7 @@ main.ts:21202
 
 #### Defined in
 
-main.ts:21217
+main.ts:21241
 
 ***
 
@@ -165,7 +165,7 @@ main.ts:21217
 
 #### Defined in
 
-main.ts:21239
+main.ts:21263
 
 ***
 
@@ -183,4 +183,4 @@ main.ts:21239
 
 #### Defined in
 
-main.ts:21232
+main.ts:21256

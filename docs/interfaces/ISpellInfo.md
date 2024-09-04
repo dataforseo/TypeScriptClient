@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISpellInfo
+[Documentation](../globals.md) / ISpellInfo
 
 # Interface: ISpellInfo
 
@@ -21,7 +21,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:23213
+main.ts:23535
 
 ***
 
@@ -37,4 +37,4 @@ including_results_for
 
 #### Defined in
 
-main.ts:23219
+main.ts:23541

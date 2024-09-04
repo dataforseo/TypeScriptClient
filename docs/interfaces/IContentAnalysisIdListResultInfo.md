@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisIdListResultInfo
+[Documentation](../globals.md) / IContentAnalysisIdListResultInfo
 
 # Interface: IContentAnalysisIdListResultInfo
 
@@ -20,7 +20,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:168965
+main.ts:164895
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:168960
+main.ts:164890
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:168955
+main.ts:164885
 
 ***
 
@@ -62,7 +62,7 @@ id of the task
 
 #### Defined in
 
-main.ts:168947
+main.ts:164877
 
 ***
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:168967
+main.ts:164897
 
 ***
 
@@ -91,7 +91,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:168963
+main.ts:164893
 
 ***
 
@@ -104,4 +104,4 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:168950
+main.ts:164880

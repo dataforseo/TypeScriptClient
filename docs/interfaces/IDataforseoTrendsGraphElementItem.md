@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoTrendsGraphElementItem
+[Documentation](../globals.md) / IDataforseoTrendsGraphElementItem
 
 # Interface: IDataforseoTrendsGraphElementItem
 
@@ -24,7 +24,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:128739
+main.ts:125653
 
 ***
 
@@ -36,7 +36,7 @@ DataForSEO Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:128737
+main.ts:125651
 
 ***
 
@@ -47,9 +47,13 @@ main.ts:128737
 relevant keywords
 the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
 
+#### Inherited from
+
+[`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md).[`keywords`](IBaseDataforseoTrendsItem.md#keywords)
+
 #### Defined in
 
-main.ts:128735
+main.ts:21962
 
 ***
 
@@ -60,6 +64,26 @@ main.ts:128735
 the alignment of the element
 can take the following values: 1, 2, 3, 4, etc.
 
+#### Inherited from
+
+[`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md).[`position`](IBaseDataforseoTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:128732
+main.ts:21959
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoTrendsItem`](IBaseDataforseoTrendsItem.md).[`type`](IBaseDataforseoTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21956

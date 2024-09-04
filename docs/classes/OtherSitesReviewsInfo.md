@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OtherSitesReviewsInfo
+[Documentation](../globals.md) / OtherSitesReviewsInfo
 
 # Class: OtherSitesReviewsInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:210784
+main.ts:206122
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about the rating enclosed in the review on a third-party site
 
 #### Defined in
 
-main.ts:210780
+main.ts:206118
 
 ***
 
@@ -64,7 +64,7 @@ text of the review
 
 #### Defined in
 
-main.ts:210777
+main.ts:206115
 
 ***
 
@@ -81,7 +81,7 @@ contains a name of the third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:210771
+main.ts:206109
 
 ***
 
@@ -98,7 +98,7 @@ URL to the a third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:210774
+main.ts:206112
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:210774
 
 #### Defined in
 
-main.ts:210793
+main.ts:206131
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:210793
 
 #### Defined in
 
-main.ts:210813
+main.ts:206151
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:210813
 
 #### Defined in
 
-main.ts:210806
+main.ts:206144

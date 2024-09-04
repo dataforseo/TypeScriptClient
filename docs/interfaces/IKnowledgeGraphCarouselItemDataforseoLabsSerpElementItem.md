@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
 # Interface: IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem
 
@@ -26,7 +26,7 @@ ss:/webfacts:net_worth
 
 #### Defined in
 
-main.ts:98075
+main.ts:96329
 
 ***
 
@@ -39,7 +39,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:98080
+main.ts:96334
 
 ***
 
@@ -51,7 +51,7 @@ link of the element
 
 #### Defined in
 
-main.ts:98077
+main.ts:96331
 
 ***
 
@@ -63,9 +63,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:98067
+main.ts:21020
 
 ***
 
@@ -76,9 +80,13 @@ main.ts:98067
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:98063
+main.ts:21016
 
 ***
 
@@ -86,13 +94,16 @@ main.ts:98063
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:98060
+main.ts:21013
 
 ***
 
@@ -100,11 +111,27 @@ main.ts:98060
 
 > `optional` **title**: `string`
 
-title of the result in SERP
+title of the link
 
 #### Defined in
 
-main.ts:98071
+main.ts:96325
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -114,6 +141,10 @@ main.ts:98071
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:98069
+main.ts:21022

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixKeywordBingKeywordsDataPriceDataInfo
+[Documentation](../globals.md) / IAppendixKeywordBingKeywordsDataPriceDataInfo
 
 # Interface: IAppendixKeywordBingKeywordsDataPriceDataInfo
 
@@ -18,4 +18,4 @@
 
 #### Defined in
 
-main.ts:225857
+main.ts:221117

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
+[Documentation](../globals.md) / SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesLiveAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:65803
+main.ts:64527
 
 ## Properties
 
@@ -46,7 +46,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:65791
+main.ts:64515
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:65770
+main.ts:64494
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:65775
+main.ts:64499
 
 ***
 
@@ -101,13 +101,13 @@ youtube_subtitles
 
 #### Defined in
 
-main.ts:65783
+main.ts:64507
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseYoutubeSerpElementItem`](BaseYoutubeSerpElementItem.md)[]
 
 elements of search results found in SERP
 
@@ -117,7 +117,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:65799
+main.ts:64523
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:65797
+main.ts:64521
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:65767
+main.ts:64491
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:65765
+main.ts:64489
 
 ***
 
@@ -181,7 +181,7 @@ language code of original text
 
 #### Defined in
 
-main.ts:65789
+main.ts:64513
 
 ***
 
@@ -197,7 +197,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:65763
+main.ts:64487
 
 ***
 
@@ -214,7 +214,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:65778
+main.ts:64502
 
 ***
 
@@ -230,7 +230,7 @@ number of subtitles in the video
 
 #### Defined in
 
-main.ts:65793
+main.ts:64517
 
 ***
 
@@ -246,7 +246,7 @@ title of the video
 
 #### Defined in
 
-main.ts:65795
+main.ts:64519
 
 ***
 
@@ -262,7 +262,7 @@ language code of translated text
 
 #### Defined in
 
-main.ts:65787
+main.ts:64511
 
 ***
 
@@ -278,7 +278,7 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-main.ts:65785
+main.ts:64509
 
 ***
 
@@ -294,7 +294,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:65761
+main.ts:64485
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:65761
 
 #### Defined in
 
-main.ts:65812
+main.ts:64536
 
 ***
 
@@ -330,7 +330,7 @@ main.ts:65812
 
 #### Defined in
 
-main.ts:65852
+main.ts:64576
 
 ***
 
@@ -348,4 +348,4 @@ main.ts:65852
 
 #### Defined in
 
-main.ts:65845
+main.ts:64569

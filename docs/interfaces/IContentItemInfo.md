@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentItemInfo
+[Documentation](../globals.md) / IContentItemInfo
 
 # Interface: IContentItemInfo
 
@@ -20,7 +20,7 @@ content text
 
 #### Defined in
 
-main.ts:165396
+main.ts:161326
 
 ***
 
@@ -33,7 +33,7 @@ displayed in case the text is a link anchor
 
 #### Defined in
 
-main.ts:165399
+main.ts:161329
 
 ***
 
@@ -45,4 +45,4 @@ contains other URLs and anchors found in the content element
 
 #### Defined in
 
-main.ts:165401
+main.ts:161331

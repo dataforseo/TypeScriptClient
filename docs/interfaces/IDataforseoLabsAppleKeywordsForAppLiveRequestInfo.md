@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveRequestInfo
 
@@ -26,7 +26,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:117186
+main.ts:114282
 
 ***
 
@@ -47,7 +47,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:117233
+main.ts:114329
 
 ***
 
@@ -66,7 +66,7 @@ en
 
 #### Defined in
 
-main.ts:117222
+main.ts:114318
 
 ***
 
@@ -85,7 +85,7 @@ English
 
 #### Defined in
 
-main.ts:117213
+main.ts:114309
 
 ***
 
@@ -100,7 +100,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:117255
+main.ts:114351
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:117204
+main.ts:114300
 
 ***
 
@@ -138,7 +138,7 @@ United States
 
 #### Defined in
 
-main.ts:117195
+main.ts:114291
 
 ***
 
@@ -153,7 +153,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:117260
+main.ts:114356
 
 ***
 
@@ -180,7 +180,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:117250
+main.ts:114346
 
 ***
 
@@ -196,4 +196,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:117266
+main.ts:114362

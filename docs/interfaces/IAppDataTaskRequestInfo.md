@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataTaskRequestInfo
+[Documentation](../globals.md) / IAppDataTaskRequestInfo
 
 # Interface: IAppDataTaskRequestInfo
 
@@ -28,7 +28,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:177823
+main.ts:173753
 
 ***
 
@@ -45,7 +45,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:177777
+main.ts:173707
 
 ***
 
@@ -62,7 +62,7 @@ en
 
 #### Defined in
 
-main.ts:177805
+main.ts:173735
 
 ***
 
@@ -79,7 +79,7 @@ English
 
 #### Defined in
 
-main.ts:177798
+main.ts:173728
 
 ***
 
@@ -96,7 +96,7 @@ example:
 
 #### Defined in
 
-main.ts:177791
+main.ts:173721
 
 ***
 
@@ -113,7 +113,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:177784
+main.ts:173714
 
 ***
 
@@ -133,7 +133,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:177855
+main.ts:173785
 
 ***
 
@@ -149,7 +149,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:177845
+main.ts:173775
 
 ***
 
@@ -169,7 +169,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:177839
+main.ts:173769
 
 ***
 
@@ -187,7 +187,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:177813
+main.ts:173743
 
 ***
 
@@ -203,4 +203,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:177829
+main.ts:173759

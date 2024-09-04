@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixSocialMediaBusinessDataPriceData
+[Documentation](../globals.md) / IAppendixSocialMediaBusinessDataPriceData
 
 # Interface: IAppendixSocialMediaBusinessDataPriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:227239
+main.ts:222499
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:227239
 
 #### Defined in
 
-main.ts:227240
+main.ts:222500
 
 ***
 
@@ -38,4 +38,4 @@ main.ts:227240
 
 #### Defined in
 
-main.ts:227241
+main.ts:222501

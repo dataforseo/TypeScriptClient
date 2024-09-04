@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
 # Interface: IDataforseoLabsAmazonBulkSearchVolumeLiveResultInfo
 
@@ -20,7 +20,7 @@ contains keyword search volume data data
 
 #### Defined in
 
-main.ts:105176
+main.ts:102326
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:105174
+main.ts:102324
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:105170
+main.ts:102320
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:105167
+main.ts:102317
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105164
+main.ts:102314
 
 ***
 
@@ -82,4 +82,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:105172
+main.ts:102322

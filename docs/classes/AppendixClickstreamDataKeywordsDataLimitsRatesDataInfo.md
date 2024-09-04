@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
 # Class: AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:220628
+main.ts:215888
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:220628
 
 #### Defined in
 
-main.ts:220623
+main.ts:215883
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:220623
 
 #### Defined in
 
-main.ts:220621
+main.ts:215881
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:220621
 
 #### Defined in
 
-main.ts:220624
+main.ts:215884
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:220624
 
 #### Defined in
 
-main.ts:220622
+main.ts:215882
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:220622
 
 #### Defined in
 
-main.ts:220637
+main.ts:215897
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:220637
 
 #### Defined in
 
-main.ts:220657
+main.ts:215917
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:220657
 
 #### Defined in
 
-main.ts:220650
+main.ts:215910

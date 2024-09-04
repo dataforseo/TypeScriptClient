@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelInfoLiveHtmlResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:212489
+main.ts:207827
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:212481
+main.ts:207819
 
 ***
 
@@ -65,7 +65,7 @@ HTML pages
 
 #### Defined in
 
-main.ts:212485
+main.ts:207823
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:212483
+main.ts:207821
 
 ***
 
@@ -97,7 +97,7 @@ unique hotel identifier specified as "hotel_id:$"
 
 #### Defined in
 
-main.ts:212468
+main.ts:207806
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:212476
+main.ts:207814
 
 ***
 
@@ -129,7 +129,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:212474
+main.ts:207812
 
 ***
 
@@ -145,7 +145,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:212472
+main.ts:207810
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:212470
+main.ts:207808
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:212470
 
 #### Defined in
 
-main.ts:212498
+main.ts:207836
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:212498
 
 #### Defined in
 
-main.ts:212526
+main.ts:207864
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:212526
 
 #### Defined in
 
-main.ts:212519
+main.ts:207857

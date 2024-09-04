@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoCommentsTaskPostTaskInfo
+[Documentation](../globals.md) / SerpYoutubeVideoCommentsTaskPostTaskInfo
 
 # Class: SerpYoutubeVideoCommentsTaskPostTaskInfo
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:66302
+main.ts:65026
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:23923
+main.ts:24239
 
 ***
 
@@ -82,7 +82,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:23929
+main.ts:24245
 
 ***
 
@@ -103,7 +103,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:23912
+main.ts:24228
 
 ***
 
@@ -123,7 +123,7 @@ URL path
 
 #### Defined in
 
-main.ts:23927
+main.ts:24243
 
 ***
 
@@ -140,7 +140,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:66298
+main.ts:65022
 
 ***
 
@@ -160,7 +160,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:23925
+main.ts:24241
 
 ***
 
@@ -182,7 +182,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:23916
+main.ts:24232
 
 ***
 
@@ -203,7 +203,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:23919
+main.ts:24235
 
 ***
 
@@ -223,7 +223,7 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:23921
+main.ts:24237
 
 ## Methods
 
@@ -245,7 +245,7 @@ main.ts:23921
 
 #### Defined in
 
-main.ts:66306
+main.ts:65030
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:66306
 
 #### Defined in
 
-main.ts:66324
+main.ts:65048
 
 ***
 
@@ -289,4 +289,4 @@ main.ts:66324
 
 #### Defined in
 
-main.ts:66317
+main.ts:65041

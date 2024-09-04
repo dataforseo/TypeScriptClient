@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainInfo
+[Documentation](../globals.md) / DomainInfo
 
 # Class: DomainInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:156756
+main.ts:153622
 
 ## Properties
 
@@ -48,7 +48,7 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 #### Defined in
 
-main.ts:156742
+main.ts:153608
 
 ***
 
@@ -69,7 +69,7 @@ other on-page check-ups related to the website
 
 #### Defined in
 
-main.ts:156732
+main.ts:153598
 
 ***
 
@@ -89,7 +89,7 @@ if our crawler was unable to identify the cms, the value would be null
 
 #### Defined in
 
-main.ts:156694
+main.ts:153560
 
 ***
 
@@ -110,7 +110,7 @@ if "crawl_progress" is in_progress, the value will be null
 
 #### Defined in
 
-main.ts:156714
+main.ts:153580
 
 ***
 
@@ -130,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:156707
+main.ts:153573
 
 ***
 
@@ -148,7 +148,7 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 #### Defined in
 
-main.ts:156746
+main.ts:153612
 
 ***
 
@@ -174,7 +174,7 @@ unknown – the reason is unknown
 
 #### Defined in
 
-main.ts:156726
+main.ts:153592
 
 ***
 
@@ -190,7 +190,7 @@ domain ip address
 
 #### Defined in
 
-main.ts:156696
+main.ts:153562
 
 ***
 
@@ -206,7 +206,7 @@ root domain name
 
 #### Defined in
 
-main.ts:156752
+main.ts:153618
 
 ***
 
@@ -222,7 +222,7 @@ domain name
 
 #### Defined in
 
-main.ts:156688
+main.ts:153554
 
 ***
 
@@ -239,7 +239,7 @@ in most cases, it is recommended a server returns a 404 response code
 
 #### Defined in
 
-main.ts:156738
+main.ts:153604
 
 ***
 
@@ -258,7 +258,7 @@ the information is taken from the first page which response code is 200
 
 #### Defined in
 
-main.ts:156701
+main.ts:153567
 
 ***
 
@@ -275,7 +275,7 @@ information about the Secure Sockets Layer protocol detected on a website
 
 #### Defined in
 
-main.ts:156729
+main.ts:153595
 
 ***
 
@@ -292,7 +292,7 @@ the total number of crawled pages
 
 #### Defined in
 
-main.ts:156735
+main.ts:153601
 
 ***
 
@@ -310,7 +310,7 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 #### Defined in
 
-main.ts:156750
+main.ts:153616
 
 ## Methods
 
@@ -328,7 +328,7 @@ main.ts:156750
 
 #### Defined in
 
-main.ts:156765
+main.ts:153631
 
 ***
 
@@ -346,7 +346,7 @@ main.ts:156765
 
 #### Defined in
 
-main.ts:156802
+main.ts:153668
 
 ***
 
@@ -364,4 +364,4 @@ main.ts:156802
 
 #### Defined in
 
-main.ts:156795
+main.ts:153661

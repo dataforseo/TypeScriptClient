@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
@@ -27,7 +27,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:78793
+main.ts:77465
 
 ***
 
@@ -39,7 +39,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:78788
+main.ts:77460
 
 ***
 
@@ -51,7 +51,7 @@ number of domains that use the specified technology
 
 #### Defined in
 
-main.ts:78790
+main.ts:77462
 
 ***
 
@@ -69,7 +69,7 @@ learn more about rank and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:78800
+main.ts:77472
 
 ***
 
@@ -86,7 +86,7 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:78796
+main.ts:77468
 
 ***
 
@@ -98,4 +98,4 @@ type of element
 
 #### Defined in
 
-main.ts:78786
+main.ts:77458

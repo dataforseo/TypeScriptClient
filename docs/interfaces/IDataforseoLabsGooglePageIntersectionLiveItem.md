@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGooglePageIntersectionLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGooglePageIntersectionLiveItem
 
 # Interface: IDataforseoLabsGooglePageIntersectionLiveItem
 
@@ -26,7 +26,7 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Defined in
 
-main.ts:103402
+main.ts:100552
 
 ***
 
@@ -38,7 +38,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:103398
+main.ts:100548
 
 ***
 
@@ -50,4 +50,4 @@ search engine type
 
 #### Defined in
 
-main.ts:103396
+main.ts:100546

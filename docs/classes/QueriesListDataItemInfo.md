@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / QueriesListDataItemInfo
+[Documentation](../globals.md) / QueriesListDataItemInfo
 
 # Class: QueriesListDataItemInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:127078
+main.ts:124076
 
 ## Properties
 
@@ -46,7 +46,7 @@ related query
 
 #### Defined in
 
-main.ts:127071
+main.ts:124069
 
 ***
 
@@ -63,7 +63,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-main.ts:127074
+main.ts:124072
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:127074
 
 #### Defined in
 
-main.ts:127087
+main.ts:124085
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:127087
 
 #### Defined in
 
-main.ts:127105
+main.ts:124103
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:127105
 
 #### Defined in
 
-main.ts:127098
+main.ts:124096

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisSearchLiveResultInfo
+[Documentation](../globals.md) / ContentAnalysisSearchLiveResultInfo
 
 # Class: ContentAnalysisSearchLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:170596
+main.ts:166526
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains citations and related data
 
 #### Defined in
 
-main.ts:170592
+main.ts:166522
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:170590
+main.ts:166520
 
 ***
 
@@ -80,7 +80,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:170586
+main.ts:166516
 
 ***
 
@@ -96,7 +96,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:170588
+main.ts:166518
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:170588
 
 #### Defined in
 
-main.ts:170605
+main.ts:166535
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:170605
 
 #### Defined in
 
-main.ts:170629
+main.ts:166559
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:170629
 
 #### Defined in
 
-main.ts:170622
+main.ts:166552

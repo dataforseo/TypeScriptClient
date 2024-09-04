@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleDomainIntersectionLiveResultInfo
 
@@ -20,7 +20,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:95252
+main.ts:93892
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:95250
+main.ts:93890
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:95246
+main.ts:93886
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:95244
+main.ts:93884
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95238
+main.ts:93878
 
 ***
 
@@ -80,7 +80,7 @@ the first target domain in a POST array
 
 #### Defined in
 
-main.ts:95240
+main.ts:93880
 
 ***
 
@@ -92,7 +92,7 @@ the second target domain in a POST array
 
 #### Defined in
 
-main.ts:95242
+main.ts:93882
 
 ***
 
@@ -104,4 +104,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:95248
+main.ts:93888

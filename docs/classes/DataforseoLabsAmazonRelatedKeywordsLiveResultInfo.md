@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsAmazonRelatedKeywordsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:105708
+main.ts:102858
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains objects with keywords and related data
 
 #### Defined in
 
-main.ts:105704
+main.ts:102854
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:105702
+main.ts:102852
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:105698
+main.ts:102848
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:105696
+main.ts:102846
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105689
+main.ts:102839
 
 ***
 
@@ -126,7 +126,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:105691
+main.ts:102841
 
 ***
 
@@ -143,7 +143,7 @@ fields in the object are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:105694
+main.ts:102844
 
 ***
 
@@ -159,7 +159,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:105700
+main.ts:102850
 
 ## Methods
 
@@ -177,7 +177,7 @@ main.ts:105700
 
 #### Defined in
 
-main.ts:105717
+main.ts:102867
 
 ***
 
@@ -195,7 +195,7 @@ main.ts:105717
 
 #### Defined in
 
-main.ts:105745
+main.ts:102895
 
 ***
 
@@ -213,4 +213,4 @@ main.ts:105745
 
 #### Defined in
 
-main.ts:105738
+main.ts:102888

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataIdListResultInfo
+[Documentation](../globals.md) / IAppDataIdListResultInfo
 
 # Interface: IAppDataIdListResultInfo
 
@@ -20,7 +20,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:190370
+main.ts:185898
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:190365
+main.ts:185893
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:190360
+main.ts:185888
 
 ***
 
@@ -62,7 +62,7 @@ id of the task
 
 #### Defined in
 
-main.ts:190352
+main.ts:185880
 
 ***
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:190372
+main.ts:185900
 
 ***
 
@@ -91,7 +91,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:190368
+main.ts:185896
 
 ***
 
@@ -104,4 +104,4 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:190355
+main.ts:185883

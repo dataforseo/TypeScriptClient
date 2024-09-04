@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphShoppingItemSerpElementItem
+[Documentation](../globals.md) / KnowledgeGraphShoppingItemSerpElementItem
 
 # Class: KnowledgeGraphShoppingItemSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:28965
+main.ts:28922
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:28965
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -70,7 +70,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:28954
+main.ts:28911
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28957
+main.ts:28914
 
 ***
 
@@ -103,9 +103,13 @@ left, right
 
 [`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:28946
+main.ts:20363
 
 ***
 
@@ -120,9 +124,13 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:28942
+main.ts:20359
 
 ***
 
@@ -138,9 +146,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:28939
+main.ts:20356
 
 ***
 
@@ -158,7 +170,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28961
+main.ts:28918
 
 ***
 
@@ -174,7 +186,27 @@ title of the place
 
 #### Defined in
 
-main.ts:28950
+main.ts:28907
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`type`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -188,9 +220,13 @@ the XPath of the element
 
 [`IKnowledgeGraphShoppingItemSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphShoppingItemSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:28948
+main.ts:20365
 
 ## Methods
 
@@ -212,7 +248,7 @@ main.ts:28948
 
 #### Defined in
 
-main.ts:28970
+main.ts:28927
 
 ***
 
@@ -234,7 +270,7 @@ main.ts:28970
 
 #### Defined in
 
-main.ts:28999
+main.ts:28952
 
 ***
 
@@ -256,4 +292,4 @@ main.ts:28999
 
 #### Defined in
 
-main.ts:28992
+main.ts:28945

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixAppendixsRatesDataInfo
+[Documentation](../globals.md) / AppendixAppendixsRatesDataInfo
 
 # Class: AppendixAppendixsRatesDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:220794
+main.ts:216054
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:220794
 
 #### Defined in
 
-main.ts:220790
+main.ts:216050
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:220790
 
 #### Defined in
 
-main.ts:220789
+main.ts:216049
 
 ## Methods
 
@@ -76,7 +76,7 @@ main.ts:220789
 
 #### Defined in
 
-main.ts:220803
+main.ts:216063
 
 ***
 
@@ -94,7 +94,7 @@ main.ts:220803
 
 #### Defined in
 
-main.ts:220821
+main.ts:216081
 
 ***
 
@@ -112,4 +112,4 @@ main.ts:220821
 
 #### Defined in
 
-main.ts:220814
+main.ts:216074

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleSearchIntentLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleSearchIntentLiveItem
 
 # Interface: IDataforseoLabsGoogleSearchIntentLiveItem
 
@@ -20,7 +20,7 @@ target keyword in a POST array
 
 #### Defined in
 
-main.ts:88198
+main.ts:86870
 
 ***
 
@@ -32,7 +32,7 @@ search intent data relevant for the specified keyword
 
 #### Defined in
 
-main.ts:88200
+main.ts:86872
 
 ***
 
@@ -44,4 +44,4 @@ contains objects with other possible search intents for the specified keyword
 
 #### Defined in
 
-main.ts:88202
+main.ts:86874

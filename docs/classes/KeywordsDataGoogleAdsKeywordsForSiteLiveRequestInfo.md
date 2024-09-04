@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
 # Class: KeywordsDataGoogleAdsKeywordsForSiteLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:122362
+main.ts:119420
 
 ## Properties
 
@@ -52,7 +52,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:122333
+main.ts:119391
 
 ***
 
@@ -74,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:122341
+main.ts:119399
 
 ***
 
@@ -94,7 +94,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-main.ts:122347
+main.ts:119405
 
 ***
 
@@ -114,7 +114,7 @@ en
 
 #### Defined in
 
-main.ts:122320
+main.ts:119378
 
 ***
 
@@ -134,7 +134,7 @@ English
 
 #### Defined in
 
-main.ts:122314
+main.ts:119372
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:122299
+main.ts:119357
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:122308
+main.ts:119366
 
 ***
 
@@ -201,7 +201,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:122291
+main.ts:119349
 
 ***
 
@@ -220,7 +220,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:122325
+main.ts:119383
 
 ***
 
@@ -239,7 +239,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:122352
+main.ts:119410
 
 ***
 
@@ -259,7 +259,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:122358
+main.ts:119416
 
 ***
 
@@ -278,7 +278,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-main.ts:122276
+main.ts:119334
 
 ***
 
@@ -299,7 +299,7 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-main.ts:122283
+main.ts:119341
 
 ## Methods
 
@@ -317,7 +317,7 @@ main.ts:122283
 
 #### Defined in
 
-main.ts:122371
+main.ts:119429
 
 ***
 
@@ -335,7 +335,7 @@ main.ts:122371
 
 #### Defined in
 
-main.ts:122400
+main.ts:119458
 
 ***
 
@@ -353,4 +353,4 @@ main.ts:122400
 
 #### Defined in
 
-main.ts:122393
+main.ts:119451

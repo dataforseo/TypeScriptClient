@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingDomainIntersectionLiveItem
+[Documentation](../globals.md) / IDataforseoLabsBingDomainIntersectionLiveItem
 
 # Interface: IDataforseoLabsBingDomainIntersectionLiveItem
 
@@ -21,7 +21,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:110103
+main.ts:107237
 
 ***
 
@@ -33,7 +33,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:110100
+main.ts:107234
 
 ***
 
@@ -47,7 +47,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:110098
+main.ts:107232
 
 ***
 
@@ -60,4 +60,4 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:110106
+main.ts:107240

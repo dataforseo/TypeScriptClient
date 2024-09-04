@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppListingsSearchLiveResultInfo
+[Documentation](../globals.md) / AppDataGoogleAppListingsSearchLiveResultInfo
 
 # Class: AppDataGoogleAppListingsSearchLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:196666
+main.ts:192120
 
 ## Properties
 
@@ -46,7 +46,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:196655
+main.ts:192109
 
 ***
 
@@ -62,7 +62,7 @@ array of apps and related data
 
 #### Defined in
 
-main.ts:196662
+main.ts:192116
 
 ***
 
@@ -78,7 +78,7 @@ offset in the results array of returned apps
 
 #### Defined in
 
-main.ts:196657
+main.ts:192111
 
 ***
 
@@ -95,7 +95,7 @@ you can use this parameter in the POST request to avoid timeouts while trying to
 
 #### Defined in
 
-main.ts:196660
+main.ts:192114
 
 ***
 
@@ -111,7 +111,7 @@ the total number of relevant results in the database
 
 #### Defined in
 
-main.ts:196653
+main.ts:192107
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:196653
 
 #### Defined in
 
-main.ts:196675
+main.ts:192129
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:196675
 
 #### Defined in
 
-main.ts:196700
+main.ts:192154
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:196700
 
 #### Defined in
 
-main.ts:196693
+main.ts:192147

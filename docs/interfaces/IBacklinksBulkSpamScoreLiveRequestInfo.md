@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksBulkSpamScoreLiveRequestInfo
+[Documentation](../globals.md) / IBacklinksBulkSpamScoreLiveRequestInfo
 
 # Interface: IBacklinksBulkSpamScoreLiveRequestInfo
 
@@ -24,7 +24,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:152873
+main.ts:149739
 
 ***
 
@@ -53,4 +53,4 @@ example:
 
 #### Defined in
 
-main.ts:152867
+main.ts:149733

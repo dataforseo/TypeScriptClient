@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleEventsLiveAdvancedRequestInfo
+[Documentation](../globals.md) / SerpGoogleEventsLiveAdvancedRequestInfo
 
 # Class: SerpGoogleEventsLiveAdvancedRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:48361
+main.ts:46593
 
 ## Properties
 
@@ -49,7 +49,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Defined in
 
-main.ts:48322
+main.ts:46554
 
 ***
 
@@ -72,7 +72,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:48344
+main.ts:46576
 
 ***
 
@@ -93,7 +93,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:48276
+main.ts:46508
 
 ***
 
@@ -115,7 +115,7 @@ en
 
 #### Defined in
 
-main.ts:48317
+main.ts:46549
 
 ***
 
@@ -137,7 +137,7 @@ English
 
 #### Defined in
 
-main.ts:48309
+main.ts:46541
 
 ***
 
@@ -158,7 +158,7 @@ example:
 
 #### Defined in
 
-main.ts:48290
+main.ts:46522
 
 ***
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:48301
+main.ts:46533
 
 ***
 
@@ -204,7 +204,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:48283
+main.ts:46515
 
 ***
 
@@ -225,7 +225,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:48351
+main.ts:46583
 
 ***
 
@@ -245,7 +245,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:48328
+main.ts:46560
 
 ***
 
@@ -266,7 +266,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:48335
+main.ts:46567
 
 ***
 
@@ -286,7 +286,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:48357
+main.ts:46589
 
 ## Methods
 
@@ -304,7 +304,7 @@ main.ts:48357
 
 #### Defined in
 
-main.ts:48370
+main.ts:46602
 
 ***
 
@@ -322,7 +322,7 @@ main.ts:48370
 
 #### Defined in
 
-main.ts:48398
+main.ts:46630
 
 ***
 
@@ -340,4 +340,4 @@ main.ts:48398
 
 #### Defined in
 
-main.ts:48391
+main.ts:46623

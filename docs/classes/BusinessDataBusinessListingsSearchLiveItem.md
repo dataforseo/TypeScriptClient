@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataBusinessListingsSearchLiveItem
+[Documentation](../globals.md) / BusinessDataBusinessListingsSearchLiveItem
 
 # Class: BusinessDataBusinessListingsSearchLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:203515
+main.ts:198897
 
 ## Properties
 
@@ -47,7 +47,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:203420
+main.ts:198802
 
 ***
 
@@ -63,7 +63,7 @@ address of the business entity
 
 #### Defined in
 
-main.ts:203429
+main.ts:198811
 
 ***
 
@@ -79,7 +79,7 @@ object containing address components of the business entity
 
 #### Defined in
 
-main.ts:203431
+main.ts:198813
 
 ***
 
@@ -96,7 +96,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Defined in
 
-main.ts:203462
+main.ts:198844
 
 ***
 
@@ -113,7 +113,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:203414
+main.ts:198796
 
 ***
 
@@ -130,7 +130,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:203417
+main.ts:198799
 
 ***
 
@@ -147,7 +147,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:203501
+main.ts:198883
 
 ***
 
@@ -165,7 +165,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:203424
+main.ts:198806
 
 ***
 
@@ -182,7 +182,7 @@ list of contacts to interact with the business
 
 #### Defined in
 
-main.ts:203498
+main.ts:198880
 
 ***
 
@@ -199,7 +199,7 @@ the description of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:203411
+main.ts:198793
 
 ***
 
@@ -215,7 +215,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:203441
+main.ts:198823
 
 ***
 
@@ -232,7 +232,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:203427
+main.ts:198809
 
 ***
 
@@ -251,7 +251,7 @@ example:
 
 #### Defined in
 
-main.ts:203511
+main.ts:198893
 
 ***
 
@@ -269,7 +269,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:203477
+main.ts:198859
 
 ***
 
@@ -285,7 +285,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Defined in
 
-main.ts:203459
+main.ts:198841
 
 ***
 
@@ -304,7 +304,7 @@ example:
 
 #### Defined in
 
-main.ts:203506
+main.ts:198888
 
 ***
 
@@ -322,7 +322,7 @@ example:
 
 #### Defined in
 
-main.ts:203453
+main.ts:198835
 
 ***
 
@@ -339,7 +339,7 @@ list of options to interact with the business directly from search results
 
 #### Defined in
 
-main.ts:203495
+main.ts:198877
 
 ***
 
@@ -355,7 +355,7 @@ URL of the logo featured in Google My Business profile
 
 #### Defined in
 
-main.ts:203443
+main.ts:198825
 
 ***
 
@@ -373,7 +373,7 @@ example:
 
 #### Defined in
 
-main.ts:203457
+main.ts:198839
 
 ***
 
@@ -389,7 +389,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:203445
+main.ts:198827
 
 ***
 
@@ -405,7 +405,7 @@ related business entities
 
 #### Defined in
 
-main.ts:203486
+main.ts:198868
 
 ***
 
@@ -421,7 +421,7 @@ phone number of the business entity
 
 #### Defined in
 
-main.ts:203437
+main.ts:198819
 
 ***
 
@@ -439,7 +439,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:203435
+main.ts:198817
 
 ***
 
@@ -465,7 +465,7 @@ example:
 
 #### Defined in
 
-main.ts:203470
+main.ts:198852
 
 ***
 
@@ -482,7 +482,7 @@ information related to busy hours of the business entity
 
 #### Defined in
 
-main.ts:203492
+main.ts:198874
 
 ***
 
@@ -500,7 +500,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:203481
+main.ts:198863
 
 ***
 
@@ -517,7 +517,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:203473
+main.ts:198855
 
 ***
 
@@ -538,7 +538,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:203484
+main.ts:198866
 
 ***
 
@@ -554,7 +554,7 @@ additional information on the business entity
 
 #### Defined in
 
-main.ts:203449
+main.ts:198831
 
 ***
 
@@ -571,7 +571,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:203408
+main.ts:198790
 
 ***
 
@@ -587,7 +587,7 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:203447
+main.ts:198829
 
 ***
 
@@ -603,7 +603,7 @@ type of element
 
 #### Defined in
 
-main.ts:203405
+main.ts:198787
 
 ***
 
@@ -619,7 +619,7 @@ absolute url of the business entity
 
 #### Defined in
 
-main.ts:203439
+main.ts:198821
 
 ***
 
@@ -636,7 +636,7 @@ information related to operational hours of the business entity
 
 #### Defined in
 
-main.ts:203489
+main.ts:198871
 
 ## Methods
 
@@ -654,7 +654,7 @@ main.ts:203489
 
 #### Defined in
 
-main.ts:203524
+main.ts:198906
 
 ***
 
@@ -672,7 +672,7 @@ main.ts:203524
 
 #### Defined in
 
-main.ts:203607
+main.ts:198989
 
 ***
 
@@ -690,4 +690,4 @@ main.ts:203607
 
 #### Defined in
 
-main.ts:203600
+main.ts:198982

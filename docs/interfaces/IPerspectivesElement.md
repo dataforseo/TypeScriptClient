@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPerspectivesElement
+[Documentation](../globals.md) / IPerspectivesElement
 
 # Interface: IPerspectivesElement
 
@@ -20,7 +20,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:37418
+main.ts:35768
 
 ***
 
@@ -32,7 +32,7 @@ description
 
 #### Defined in
 
-main.ts:37412
+main.ts:35762
 
 ***
 
@@ -44,7 +44,7 @@ website domain
 
 #### Defined in
 
-main.ts:37416
+main.ts:35766
 
 ***
 
@@ -57,7 +57,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:37421
+main.ts:35771
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:37426
+main.ts:35776
 
 ***
 
@@ -84,7 +84,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:37410
+main.ts:35760
 
 ***
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:37408
+main.ts:35758
 
 ***
 
@@ -108,4 +108,4 @@ URL
 
 #### Defined in
 
-main.ts:37414
+main.ts:35764

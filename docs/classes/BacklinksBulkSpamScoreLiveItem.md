@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBulkSpamScoreLiveItem
+[Documentation](../globals.md) / BacklinksBulkSpamScoreLiveItem
 
 # Class: BacklinksBulkSpamScoreLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:152889
+main.ts:149755
 
 ## Properties
 
@@ -47,7 +47,7 @@ learn more about how the metric is calculated
 
 #### Defined in
 
-main.ts:152885
+main.ts:149751
 
 ***
 
@@ -63,7 +63,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:152882
+main.ts:149748
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Defined in
 
-main.ts:152880
+main.ts:149746
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:152880
 
 #### Defined in
 
-main.ts:152898
+main.ts:149764
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:152898
 
 #### Defined in
 
-main.ts:152917
+main.ts:149783
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:152917
 
 #### Defined in
 
-main.ts:152910
+main.ts:149776

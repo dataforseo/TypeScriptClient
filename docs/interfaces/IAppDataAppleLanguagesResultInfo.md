@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleLanguagesResultInfo
+[Documentation](../globals.md) / IAppDataAppleLanguagesResultInfo
 
 # Interface: IAppDataAppleLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:197262
+main.ts:192716
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:197260
+main.ts:192714

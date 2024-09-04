@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppStoreMetricsBundleInfo
+[Documentation](../globals.md) / IAppStoreMetricsBundleInfo
 
 # Interface: IAppStoreMetricsBundleInfo
 
@@ -20,4 +20,4 @@ ranking data from App Store organic search
 
 #### Defined in
 
-main.ts:118058
+main.ts:115116

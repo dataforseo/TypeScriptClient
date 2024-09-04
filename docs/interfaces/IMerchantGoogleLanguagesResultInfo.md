@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleLanguagesResultInfo
+[Documentation](../globals.md) / IMerchantGoogleLanguagesResultInfo
 
 # Interface: IMerchantGoogleLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:177129
+main.ts:173059
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:177127
+main.ts:173057

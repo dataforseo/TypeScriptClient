@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixGoogleBusinessDataPriceDataInfo
+[Documentation](../globals.md) / AppendixGoogleBusinessDataPriceDataInfo
 
 # Class: AppendixGoogleBusinessDataPriceDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:227314
+main.ts:222574
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:227314
 
 #### Defined in
 
-main.ts:227307
+main.ts:222567
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:227307
 
 #### Defined in
 
-main.ts:227308
+main.ts:222568
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:227308
 
 #### Defined in
 
-main.ts:227309
+main.ts:222569
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:227309
 
 #### Defined in
 
-main.ts:227310
+main.ts:222570
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:227310
 
 #### Defined in
 
-main.ts:227323
+main.ts:222583
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:227323
 
 #### Defined in
 
-main.ts:227343
+main.ts:222603
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:227343
 
 #### Defined in
 
-main.ts:227336
+main.ts:222596

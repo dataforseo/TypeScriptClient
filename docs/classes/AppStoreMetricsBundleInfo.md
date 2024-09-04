@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppStoreMetricsBundleInfo
+[Documentation](../globals.md) / AppStoreMetricsBundleInfo
 
 # Class: AppStoreMetricsBundleInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:118019
+main.ts:115077
 
 ## Properties
 
@@ -46,7 +46,7 @@ ranking data from App Store organic search
 
 #### Defined in
 
-main.ts:118015
+main.ts:115073
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:118015
 
 #### Defined in
 
-main.ts:118028
+main.ts:115086
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:118028
 
 #### Defined in
 
-main.ts:118045
+main.ts:115103
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:118045
 
 #### Defined in
 
-main.ts:118038
+main.ts:115096

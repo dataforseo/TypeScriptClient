@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveItem
 
@@ -32,7 +32,7 @@ items array
 
 #### Defined in
 
-main.ts:77827
+main.ts:76499
 
 ## Properties
 
@@ -49,7 +49,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:77820
+main.ts:76492
 
 ***
 
@@ -65,7 +65,7 @@ technology category id
 
 #### Defined in
 
-main.ts:77812
+main.ts:76484
 
 ***
 
@@ -81,7 +81,7 @@ technology group id
 
 #### Defined in
 
-main.ts:77810
+main.ts:76482
 
 ***
 
@@ -98,7 +98,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:77817
+main.ts:76489
 
 ***
 
@@ -115,7 +115,7 @@ number of domains that match the parameters you specified and are using the indi
 
 #### Defined in
 
-main.ts:77823
+main.ts:76495
 
 ***
 
@@ -131,7 +131,7 @@ technology name
 
 #### Defined in
 
-main.ts:77814
+main.ts:76486
 
 ***
 
@@ -147,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:77808
+main.ts:76480
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:77808
 
 #### Defined in
 
-main.ts:77836
+main.ts:76508
 
 ***
 
@@ -183,7 +183,7 @@ main.ts:77836
 
 #### Defined in
 
-main.ts:77859
+main.ts:76531
 
 ***
 
@@ -201,4 +201,4 @@ main.ts:77859
 
 #### Defined in
 
-main.ts:77852
+main.ts:76524

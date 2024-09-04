@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseAmazonSerpElementItem
+[Documentation](../globals.md) / BaseAmazonSerpElementItem
 
 # Class: BaseAmazonSerpElementItem
 
@@ -22,10 +22,6 @@
 
 - [`IBaseAmazonSerpElementItem`](../interfaces/IBaseAmazonSerpElementItem.md)
 
-## Indexable
-
- \[`key`: `string`\]: `any`
-
 ## Constructors
 
 ### new BaseAmazonSerpElementItem()
@@ -42,7 +38,7 @@
 
 #### Defined in
 
-main.ts:22009
+main.ts:22317
 
 ## Properties
 
@@ -52,7 +48,73 @@ main.ts:22009
 
 #### Defined in
 
-main.ts:22007
+main.ts:22315
+
+***
+
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
+
+#### Implementation of
+
+[`IBaseAmazonSerpElementItem`](../interfaces/IBaseAmazonSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseAmazonSerpElementItem.md#rank_absolute)
+
+#### Defined in
+
+main.ts:22311
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Implementation of
+
+[`IBaseAmazonSerpElementItem`](../interfaces/IBaseAmazonSerpElementItem.md).[`rank_group`](../interfaces/IBaseAmazonSerpElementItem.md#rank_group)
+
+#### Defined in
+
+main.ts:22308
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseAmazonSerpElementItem`](../interfaces/IBaseAmazonSerpElementItem.md).[`type`](../interfaces/IBaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22305
+
+***
+
+### xpath?
+
+> `optional` **xpath**: `string`
+
+the XPath of the element
+
+#### Implementation of
+
+[`IBaseAmazonSerpElementItem`](../interfaces/IBaseAmazonSerpElementItem.md).[`xpath`](../interfaces/IBaseAmazonSerpElementItem.md#xpath)
+
+#### Defined in
+
+main.ts:22313
 
 ## Methods
 
@@ -70,7 +132,7 @@ main.ts:22007
 
 #### Defined in
 
-main.ts:22019
+main.ts:22327
 
 ***
 
@@ -88,7 +150,7 @@ main.ts:22019
 
 #### Defined in
 
-main.ts:22080
+main.ts:22388
 
 ***
 
@@ -106,4 +168,4 @@ main.ts:22080
 
 #### Defined in
 
-main.ts:22028
+main.ts:22336

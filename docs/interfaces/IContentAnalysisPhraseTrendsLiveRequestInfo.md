@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisPhraseTrendsLiveRequestInfo
+[Documentation](../globals.md) / IContentAnalysisPhraseTrendsLiveRequestInfo
 
 # Interface: IContentAnalysisPhraseTrendsLiveRequestInfo
 
@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:172544
+main.ts:168474
 
 ***
 
@@ -39,7 +39,7 @@ possible values: day, week, month
 
 #### Defined in
 
-main.ts:172556
+main.ts:168486
 
 ***
 
@@ -56,7 +56,7 @@ example:
 
 #### Defined in
 
-main.ts:172551
+main.ts:168481
 
 ***
 
@@ -83,7 +83,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:172573
+main.ts:168503
 
 ***
 
@@ -104,7 +104,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:172538
+main.ts:168468
 
 ***
 
@@ -123,7 +123,7 @@ example:
 
 #### Defined in
 
-main.ts:172502
+main.ts:168432
 
 ***
 
@@ -149,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:172514
+main.ts:168444
 
 ***
 
@@ -165,7 +165,7 @@ possible values:
 
 #### Defined in
 
-main.ts:172520
+main.ts:168450
 
 ***
 
@@ -182,7 +182,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:172527
+main.ts:168457
 
 ***
 
@@ -198,4 +198,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:172579
+main.ts:168509

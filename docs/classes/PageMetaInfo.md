@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PageMetaInfo
+[Documentation](../globals.md) / PageMetaInfo
 
 # Class: PageMetaInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:157623
+main.ts:154489
 
 ## Properties
 
@@ -46,7 +46,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:157619
+main.ts:154485
 
 ***
 
@@ -62,7 +62,7 @@ canonical page
 
 #### Defined in
 
-main.ts:157572
+main.ts:154438
 
 ***
 
@@ -79,7 +79,7 @@ example: 65001
 
 #### Defined in
 
-main.ts:157557
+main.ts:154423
 
 ***
 
@@ -95,7 +95,7 @@ overall information about content of the page
 
 #### Defined in
 
-main.ts:157606
+main.ts:154472
 
 ***
 
@@ -112,7 +112,7 @@ measures the sum total of all individual layout shift scores for every unexpecte
 
 #### Defined in
 
-main.ts:157601
+main.ts:154467
 
 ***
 
@@ -128,7 +128,7 @@ deprecated tags on the page
 
 #### Defined in
 
-main.ts:157608
+main.ts:154474
 
 ***
 
@@ -144,7 +144,7 @@ content of the meta description tag
 
 #### Defined in
 
-main.ts:157566
+main.ts:154432
 
 ***
 
@@ -160,7 +160,7 @@ length of the description tag in characters
 
 #### Defined in
 
-main.ts:157594
+main.ts:154460
 
 ***
 
@@ -176,7 +176,7 @@ duplicate meta tags on the page
 
 #### Defined in
 
-main.ts:157610
+main.ts:154476
 
 ***
 
@@ -192,7 +192,7 @@ number of external links on the page
 
 #### Defined in
 
-main.ts:157576
+main.ts:154442
 
 ***
 
@@ -208,7 +208,7 @@ favicon of the page
 
 #### Defined in
 
-main.ts:157568
+main.ts:154434
 
 ***
 
@@ -225,7 +225,7 @@ if false, the page’s ‘meta robots’ tag contains “nofollow” parameter i
 
 #### Defined in
 
-main.ts:157560
+main.ts:154426
 
 ***
 
@@ -241,7 +241,7 @@ meta tag generator
 
 #### Defined in
 
-main.ts:157562
+main.ts:154428
 
 ***
 
@@ -261,7 +261,7 @@ HTML header tags
 
 #### Defined in
 
-main.ts:157564
+main.ts:154430
 
 ***
 
@@ -277,7 +277,7 @@ number of images on the page
 
 #### Defined in
 
-main.ts:157580
+main.ts:154446
 
 ***
 
@@ -293,7 +293,7 @@ total size of images on the page measured in bytes
 
 #### Defined in
 
-main.ts:157582
+main.ts:154448
 
 ***
 
@@ -309,7 +309,7 @@ number of internal links pointing at the page
 
 #### Defined in
 
-main.ts:157578
+main.ts:154444
 
 ***
 
@@ -325,7 +325,7 @@ number of internal links on the page
 
 #### Defined in
 
-main.ts:157574
+main.ts:154440
 
 ***
 
@@ -341,7 +341,7 @@ content of the keywords meta tag
 
 #### Defined in
 
-main.ts:157570
+main.ts:154436
 
 ***
 
@@ -358,7 +358,7 @@ meta tag in the head section of an HTML document that defines the title of a pag
 
 #### Defined in
 
-main.ts:157604
+main.ts:154470
 
 ***
 
@@ -374,7 +374,7 @@ number of scripts on the page that block page rendering
 
 #### Defined in
 
-main.ts:157596
+main.ts:154462
 
 ***
 
@@ -390,7 +390,7 @@ number of CSS styles on the page that block page rendering
 
 #### Defined in
 
-main.ts:157598
+main.ts:154464
 
 ***
 
@@ -406,7 +406,7 @@ number of scripts on the page
 
 #### Defined in
 
-main.ts:157584
+main.ts:154450
 
 ***
 
@@ -422,7 +422,7 @@ total size of scripts on the page measured in bytes
 
 #### Defined in
 
-main.ts:157586
+main.ts:154452
 
 ***
 
@@ -444,7 +444,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Defined in
 
-main.ts:157617
+main.ts:154483
 
 ***
 
@@ -461,7 +461,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:157613
+main.ts:154479
 
 ***
 
@@ -477,7 +477,7 @@ number of stylesheets on the page
 
 #### Defined in
 
-main.ts:157588
+main.ts:154454
 
 ***
 
@@ -493,7 +493,7 @@ total size of stylesheets on the page measured in bytes
 
 #### Defined in
 
-main.ts:157590
+main.ts:154456
 
 ***
 
@@ -509,7 +509,7 @@ page title
 
 #### Defined in
 
-main.ts:157554
+main.ts:154420
 
 ***
 
@@ -525,7 +525,7 @@ length of the title tag in characters
 
 #### Defined in
 
-main.ts:157592
+main.ts:154458
 
 ## Methods
 
@@ -543,7 +543,7 @@ main.ts:157592
 
 #### Defined in
 
-main.ts:157632
+main.ts:154498
 
 ***
 
@@ -561,7 +561,7 @@ main.ts:157632
 
 #### Defined in
 
-main.ts:157698
+main.ts:154564
 
 ***
 
@@ -579,4 +579,4 @@ main.ts:157698
 
 #### Defined in
 
-main.ts:157691
+main.ts:154557

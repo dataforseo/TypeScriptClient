@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleLanguagesResultInfo
+[Documentation](../globals.md) / AppDataAppleLanguagesResultInfo
 
 # Class: AppDataAppleLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:197219
+main.ts:192673
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:197215
+main.ts:192669
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:197213
+main.ts:192667
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:197213
 
 #### Defined in
 
-main.ts:197228
+main.ts:192682
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:197228
 
 #### Defined in
 
-main.ts:197246
+main.ts:192700
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:197246
 
 #### Defined in
 
-main.ts:197239
+main.ts:192693

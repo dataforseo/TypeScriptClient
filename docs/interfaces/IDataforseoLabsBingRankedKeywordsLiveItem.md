@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingRankedKeywordsLiveItem
+[Documentation](../globals.md) / IDataforseoLabsBingRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveItem
 
@@ -20,7 +20,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:111852
+main.ts:108986
 
 ***
 
@@ -32,7 +32,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:111854
+main.ts:108988
 
 ***
 
@@ -44,4 +44,4 @@ search engine type
 
 #### Defined in
 
-main.ts:111850
+main.ts:108984

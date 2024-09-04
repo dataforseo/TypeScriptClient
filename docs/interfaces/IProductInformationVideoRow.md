@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductInformationVideoRow
+[Documentation](../globals.md) / IProductInformationVideoRow
 
 # Interface: IProductInformationVideoRow
 
@@ -24,7 +24,23 @@ URL of the preview image for the related video
 
 #### Defined in
 
-main.ts:187145
+main.ts:182739
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md).[`type`](IBaseProductInformationRowItem.md#type)
+
+#### Defined in
+
+main.ts:23475
 
 ***
 
@@ -36,4 +52,4 @@ URL of the image
 
 #### Defined in
 
-main.ts:187147
+main.ts:182741

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TwitterDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / TwitterDataforseoLabsSerpElementItem
 
 # Class: TwitterDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:97474
+main.ts:95923
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97474
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20752
 
 > `optional` **items**: [`TwitterElement`](TwitterElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97470
+main.ts:95919
 
 ***
 
@@ -85,9 +84,13 @@ left, right
 
 [`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`position`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:97461
+main.ts:20738
 
 ***
 
@@ -102,9 +105,13 @@ absolute position among all the elements in SERP
 
 [`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:97457
+main.ts:20734
 
 ***
 
@@ -119,9 +126,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:97454
+main.ts:20731
 
 ***
 
@@ -137,7 +148,7 @@ search engine type
 
 #### Defined in
 
-main.ts:97451
+main.ts:95913
 
 ***
 
@@ -145,7 +156,7 @@ main.ts:97451
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -153,7 +164,27 @@ title of the item
 
 #### Defined in
 
-main.ts:97465
+main.ts:95915
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`type`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -161,7 +192,7 @@ main.ts:97465
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -169,7 +200,7 @@ URL link
 
 #### Defined in
 
-main.ts:97467
+main.ts:95917
 
 ***
 
@@ -183,9 +214,13 @@ the XPath of the element
 
 [`ITwitterDataforseoLabsSerpElementItem`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/ITwitterDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:97463
+main.ts:20740
 
 ## Methods
 
@@ -207,7 +242,7 @@ main.ts:97463
 
 #### Defined in
 
-main.ts:97479
+main.ts:95928
 
 ***
 
@@ -229,7 +264,7 @@ main.ts:97479
 
 #### Defined in
 
-main.ts:97508
+main.ts:95953
 
 ***
 
@@ -251,4 +286,4 @@ main.ts:97508
 
 #### Defined in
 
-main.ts:97501
+main.ts:95946

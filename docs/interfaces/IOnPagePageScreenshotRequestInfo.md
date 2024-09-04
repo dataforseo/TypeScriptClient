@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPagePageScreenshotRequestInfo
+[Documentation](../globals.md) / IOnPagePageScreenshotRequestInfo
 
 # Interface: IOnPagePageScreenshotRequestInfo
 
@@ -23,7 +23,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:164924
+main.ts:160854
 
 ***
 
@@ -52,7 +52,7 @@ Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_re
 
 #### Defined in
 
-main.ts:164950
+main.ts:160880
 
 ***
 
@@ -69,7 +69,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:164964
+main.ts:160894
 
 ***
 
@@ -86,7 +86,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:164971
+main.ts:160901
 
 ***
 
@@ -103,7 +103,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:164957
+main.ts:160887
 
 ***
 
@@ -127,7 +127,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:164996
+main.ts:160926
 
 ***
 
@@ -144,7 +144,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:164931
+main.ts:160861
 
 ***
 
@@ -160,7 +160,7 @@ false
 
 #### Defined in
 
-main.ts:164982
+main.ts:160912
 
 ***
 
@@ -175,7 +175,7 @@ default value: true
 
 #### Defined in
 
-main.ts:164976
+main.ts:160906
 
 ***
 
@@ -191,7 +191,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:165007
+main.ts:160937
 
 ***
 
@@ -206,7 +206,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:165001
+main.ts:160931
 
 ***
 
@@ -221,4 +221,4 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Defined in
 
-main.ts:164919
+main.ts:160849

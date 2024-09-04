@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordData
+[Documentation](../globals.md) / IKeywordData
 
 # Interface: IKeywordData
 
@@ -21,7 +21,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:105604
+main.ts:102754
 
 ***
 
@@ -33,7 +33,7 @@ returned keyword
 
 #### Defined in
 
-main.ts:105590
+main.ts:102740
 
 ***
 
@@ -45,7 +45,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:105596
+main.ts:102746
 
 ***
 
@@ -57,7 +57,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:105598
+main.ts:102748
 
 ***
 
@@ -69,7 +69,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:105594
+main.ts:102744
 
 ***
 
@@ -81,7 +81,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:105592
+main.ts:102742
 
 ***
 
@@ -95,7 +95,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:105588
+main.ts:102738
 
 ***
 
@@ -108,4 +108,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:105601
+main.ts:102751

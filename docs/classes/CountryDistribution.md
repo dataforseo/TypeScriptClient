@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CountryDistribution
+[Documentation](../globals.md) / CountryDistribution
 
 # Class: CountryDistribution
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:139236
+main.ts:136102
 
 ## Properties
 
@@ -46,7 +46,7 @@ country ISO code
 
 #### Defined in
 
-main.ts:139228
+main.ts:136094
 
 ***
 
@@ -62,7 +62,7 @@ percentage of global search volume
 
 #### Defined in
 
-main.ts:139232
+main.ts:136098
 
 ***
 
@@ -78,7 +78,7 @@ search volume in a given country
 
 #### Defined in
 
-main.ts:139230
+main.ts:136096
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:139230
 
 #### Defined in
 
-main.ts:139245
+main.ts:136111
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:139245
 
 #### Defined in
 
-main.ts:139264
+main.ts:136130
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:139264
 
 #### Defined in
 
-main.ts:139257
+main.ts:136123

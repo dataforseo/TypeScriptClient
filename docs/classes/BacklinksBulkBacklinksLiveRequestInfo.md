@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBulkBacklinksLiveRequestInfo
+[Documentation](../globals.md) / BacklinksBulkBacklinksLiveRequestInfo
 
 # Class: BacklinksBulkBacklinksLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:152465
+main.ts:149331
 
 ## Properties
 
@@ -50,7 +50,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:152461
+main.ts:149327
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:152455
+main.ts:149321
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:152455
 
 #### Defined in
 
-main.ts:152474
+main.ts:149340
 
 ***
 
@@ -119,7 +119,7 @@ main.ts:152474
 
 #### Defined in
 
-main.ts:152496
+main.ts:149362
 
 ***
 
@@ -137,4 +137,4 @@ main.ts:152496
 
 #### Defined in
 
-main.ts:152489
+main.ts:149355

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingOrganicLiveRegularResultInfo
+[Documentation](../globals.md) / SerpBingOrganicLiveRegularResultInfo
 
 # Class: SerpBingOrganicLiveRegularResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:59848
+main.ts:58527
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:59825
+main.ts:58504
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:59830
+main.ts:58509
 
 ***
 
@@ -84,7 +84,7 @@ possible item types: organic, paid
 
 #### Defined in
 
-main.ts:59837
+main.ts:58516
 
 ***
 
@@ -101,7 +101,7 @@ array of 8 search queries related to the keyword
 
 #### Defined in
 
-main.ts:59844
+main.ts:58523
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:59841
+main.ts:58520
 
 ***
 
@@ -134,7 +134,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:59814
+main.ts:58493
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:59822
+main.ts:58501
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:59820
+main.ts:58499
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:59818
+main.ts:58497
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:59839
+main.ts:58518
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:59833
+main.ts:58512
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:59816
+main.ts:58495
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:59816
 
 #### Defined in
 
-main.ts:59857
+main.ts:58536
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:59857
 
 #### Defined in
 
-main.ts:59893
+main.ts:58572
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:59893
 
 #### Defined in
 
-main.ts:59886
+main.ts:58565

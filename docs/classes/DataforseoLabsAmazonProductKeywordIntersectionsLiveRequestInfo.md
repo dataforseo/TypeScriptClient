@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
 # Class: DataforseoLabsAmazonProductKeywordIntersectionsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:107941
+main.ts:105075
 
 ## Properties
 
@@ -59,7 +59,7 @@ learn more about the parameter on this help center page
 
 #### Defined in
 
-main.ts:107858
+main.ts:104992
 
 ***
 
@@ -84,7 +84,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:107910
+main.ts:105044
 
 ***
 
@@ -104,7 +104,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:107899
+main.ts:105033
 
 ***
 
@@ -125,7 +125,7 @@ en
 
 #### Defined in
 
-main.ts:107888
+main.ts:105022
 
 ***
 
@@ -146,7 +146,7 @@ English
 
 #### Defined in
 
-main.ts:107881
+main.ts:105015
 
 ***
 
@@ -165,7 +165,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:107893
+main.ts:105027
 
 ***
 
@@ -187,7 +187,7 @@ example:
 
 #### Defined in
 
-main.ts:107874
+main.ts:105008
 
 ***
 
@@ -209,7 +209,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:107866
+main.ts:105000
 
 ***
 
@@ -228,7 +228,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:107931
+main.ts:105065
 
 ***
 
@@ -258,7 +258,7 @@ default rule:
 
 #### Defined in
 
-main.ts:107926
+main.ts:105060
 
 ***
 
@@ -278,7 +278,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:107937
+main.ts:105071
 
 ## Methods
 
@@ -296,7 +296,7 @@ main.ts:107937
 
 #### Defined in
 
-main.ts:107950
+main.ts:105084
 
 ***
 
@@ -314,7 +314,7 @@ main.ts:107950
 
 #### Defined in
 
-main.ts:107991
+main.ts:105125
 
 ***
 
@@ -332,4 +332,4 @@ main.ts:107991
 
 #### Defined in
 
-main.ts:107984
+main.ts:105118

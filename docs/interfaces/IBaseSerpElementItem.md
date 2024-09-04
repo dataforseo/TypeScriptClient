@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseSerpElementItem
+[Documentation](../globals.md) / IBaseSerpElementItem
 
 # Interface: IBaseSerpElementItem
 
@@ -66,19 +66,70 @@
 - [`ICompareSitesSerpElementItem`](ICompareSitesSerpElementItem.md)
 - [`ICoursesSerpElementItem`](ICoursesSerpElementItem.md)
 - [`IAiOverviewSerpElementItem`](IAiOverviewSerpElementItem.md)
-- [`IMapsSearchSerpElementItem`](IMapsSearchSerpElementItem.md)
-- [`IMapsPaidItemSerpElementItem`](IMapsPaidItemSerpElementItem.md)
-- [`INewsSearchSerpElementItem`](INewsSearchSerpElementItem.md)
 - [`IEventItemSerpElementItem`](IEventItemSerpElementItem.md)
-- [`IImagesSearchSerpElementItem`](IImagesSearchSerpElementItem.md)
-- [`IGoogleJobsItemSerpElementItem`](IGoogleJobsItemSerpElementItem.md)
-- [`IAutocompleteSerpElementItem`](IAutocompleteSerpElementItem.md)
-- [`IDatasetSerpElementItem`](IDatasetSerpElementItem.md)
-- [`IYoutubeVideoInfoSerpElementItem`](IYoutubeVideoInfoSerpElementItem.md)
-- [`IYoutubeSubtitlesSerpElementItem`](IYoutubeSubtitlesSerpElementItem.md)
-- [`IYoutubeCommentSerpElementItem`](IYoutubeCommentSerpElementItem.md)
 - [`IDictionarySerpElementItem`](IDictionarySerpElementItem.md)
 
-## Indexable
+## Properties
 
- \[`key`: `string`\]: `any`
+### position?
+
+> `optional` **position**: `string`
+
+the alignment of the element in SERP
+can take the following values:
+left, right
+
+#### Defined in
+
+main.ts:20721
+
+***
+
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Defined in
+
+main.ts:20717
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+group rank in SERP
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Defined in
+
+main.ts:20714
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Defined in
+
+main.ts:20710
+
+***
+
+### xpath?
+
+> `optional` **xpath**: `string`
+
+the XPath of the element
+
+#### Defined in
+
+main.ts:20723

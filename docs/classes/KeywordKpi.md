@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordKpi
+[Documentation](../globals.md) / KeywordKpi
 
 # Class: KeywordKpi
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:136307
+main.ts:133173
 
 ## Properties
 
@@ -47,7 +47,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:136297
+main.ts:133163
 
 ***
 
@@ -64,7 +64,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:136300
+main.ts:133166
 
 ***
 
@@ -81,7 +81,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:136303
+main.ts:133169
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:136303
 
 #### Defined in
 
-main.ts:136316
+main.ts:133182
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:136316
 
 #### Defined in
 
-main.ts:136347
+main.ts:133213
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:136347
 
 #### Defined in
 
-main.ts:136340
+main.ts:133206

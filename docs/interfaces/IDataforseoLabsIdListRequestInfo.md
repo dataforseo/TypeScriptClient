@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsIdListRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsIdListRequestInfo
 
 # Interface: IDataforseoLabsIdListRequestInfo
 
@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:81598
+main.ts:80270
 
 ***
 
@@ -43,7 +43,7 @@ example:
 
 #### Defined in
 
-main.ts:81605
+main.ts:80277
 
 ***
 
@@ -57,7 +57,7 @@ default value: false
 
 #### Defined in
 
-main.ts:81624
+main.ts:80296
 
 ***
 
@@ -72,7 +72,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:81610
+main.ts:80282
 
 ***
 
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:81615
+main.ts:80287
 
 ***
 
@@ -102,4 +102,4 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:81620
+main.ts:80292

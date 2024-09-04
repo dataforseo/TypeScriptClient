@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HtmlContentInfo
+[Documentation](../globals.md) / HtmlContentInfo
 
 # Class: HtmlContentInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:157464
+main.ts:154330
 
 ## Properties
 
@@ -46,7 +46,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:157443
+main.ts:154309
 
 ***
 
@@ -62,7 +62,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:157445
+main.ts:154311
 
 ***
 
@@ -78,7 +78,7 @@ Dale–Chall Readability Index
 
 #### Defined in
 
-main.ts:157447
+main.ts:154313
 
 ***
 
@@ -95,7 +95,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:157454
+main.ts:154320
 
 ***
 
@@ -111,7 +111,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:157449
+main.ts:154315
 
 ***
 
@@ -128,7 +128,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:157460
+main.ts:154326
 
 ***
 
@@ -145,7 +145,7 @@ plain_text_size to size ratio
 
 #### Defined in
 
-main.ts:157439
+main.ts:154305
 
 ***
 
@@ -161,7 +161,7 @@ total size of the text on the page measured in bytes
 
 #### Defined in
 
-main.ts:157436
+main.ts:154302
 
 ***
 
@@ -177,7 +177,7 @@ number of words on the page
 
 #### Defined in
 
-main.ts:157441
+main.ts:154307
 
 ***
 
@@ -193,7 +193,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:157451
+main.ts:154317
 
 ***
 
@@ -210,7 +210,7 @@ measured from 0 to 1
 
 #### Defined in
 
-main.ts:157457
+main.ts:154323
 
 ## Methods
 
@@ -228,7 +228,7 @@ main.ts:157457
 
 #### Defined in
 
-main.ts:157473
+main.ts:154339
 
 ***
 
@@ -246,7 +246,7 @@ main.ts:157473
 
 #### Defined in
 
-main.ts:157500
+main.ts:154366
 
 ***
 
@@ -264,4 +264,4 @@ main.ts:157500
 
 #### Defined in
 
-main.ts:157493
+main.ts:154359

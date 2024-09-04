@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordsForSiteTaskGetResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteTaskGetResultInfo
 
@@ -21,7 +21,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:133382
+main.ts:130248
 
 ***
 
@@ -39,7 +39,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:133371
+main.ts:130237
 
 ***
 
@@ -53,7 +53,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:133375
+main.ts:130241
 
 ***
 
@@ -66,7 +66,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:133363
+main.ts:130229
 
 ***
 
@@ -78,7 +78,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:133352
+main.ts:130218
 
 ***
 
@@ -91,7 +91,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:133358
+main.ts:130224
 
 ***
 
@@ -104,7 +104,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:133355
+main.ts:130221
 
 ***
 
@@ -119,7 +119,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:133387
+main.ts:130253
 
 ***
 
@@ -131,7 +131,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:133360
+main.ts:130226
 
 ***
 
@@ -145,4 +145,4 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:133379
+main.ts:130245

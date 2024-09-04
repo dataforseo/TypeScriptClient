@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TopDomainInfo
+[Documentation](../globals.md) / TopDomainInfo
 
 # Class: TopDomainInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22926
+main.ts:23242
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:22926
 
 #### Defined in
 
-main.ts:22922
+main.ts:23238
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:22922
 
 #### Defined in
 
-main.ts:22921
+main.ts:23237
 
 ## Methods
 
@@ -76,7 +76,7 @@ main.ts:22921
 
 #### Defined in
 
-main.ts:22935
+main.ts:23251
 
 ***
 
@@ -94,7 +94,7 @@ main.ts:22935
 
 #### Defined in
 
-main.ts:22953
+main.ts:23269
 
 ***
 
@@ -112,4 +112,4 @@ main.ts:22953
 
 #### Defined in
 
-main.ts:22946
+main.ts:23262

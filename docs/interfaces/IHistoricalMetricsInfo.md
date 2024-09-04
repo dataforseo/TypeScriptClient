@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHistoricalMetricsInfo
+[Documentation](../globals.md) / IHistoricalMetricsInfo
 
 # Interface: IHistoricalMetricsInfo
 
@@ -23,7 +23,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:104472
+main.ts:101622
 
 ***
 
@@ -35,7 +35,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:104467
+main.ts:101617
 
 ***
 
@@ -50,7 +50,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:104465
+main.ts:101615
 
 ***
 
@@ -62,7 +62,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:104460
+main.ts:101610
 
 ***
 
@@ -74,4 +74,4 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:104458
+main.ts:101608

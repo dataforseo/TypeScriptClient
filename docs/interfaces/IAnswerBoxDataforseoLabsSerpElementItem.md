@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAnswerBoxDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IAnswerBoxDataforseoLabsSerpElementItem
 
 # Interface: IAnswerBoxDataforseoLabsSerpElementItem
 
@@ -26,7 +26,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:98887
+main.ts:97019
 
 ***
 
@@ -38,9 +38,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:98878
+main.ts:21020
 
 ***
 
@@ -51,9 +55,13 @@ main.ts:98878
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:98874
+main.ts:21016
 
 ***
 
@@ -61,13 +69,16 @@ main.ts:98874
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:98871
+main.ts:21013
 
 ***
 
@@ -80,7 +91,23 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:98883
+main.ts:97015
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -90,6 +117,10 @@ main.ts:98883
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:98880
+main.ts:21022

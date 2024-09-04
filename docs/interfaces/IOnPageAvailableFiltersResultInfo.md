@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageAvailableFiltersResultInfo
+[Documentation](../globals.md) / IOnPageAvailableFiltersResultInfo
 
 # Interface: IOnPageAvailableFiltersResultInfo
 
@@ -22,7 +22,7 @@
 
 #### Defined in
 
-main.ts:155825
+main.ts:152691
 
 ***
 
@@ -36,7 +36,7 @@ main.ts:155825
 
 #### Defined in
 
-main.ts:155822
+main.ts:152688
 
 ***
 
@@ -50,7 +50,7 @@ main.ts:155822
 
 #### Defined in
 
-main.ts:155821
+main.ts:152687
 
 ***
 
@@ -64,7 +64,7 @@ main.ts:155821
 
 #### Defined in
 
-main.ts:155820
+main.ts:152686
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:155820
 
 #### Defined in
 
-main.ts:155823
+main.ts:152689
 
 ***
 
@@ -92,7 +92,7 @@ main.ts:155823
 
 #### Defined in
 
-main.ts:155824
+main.ts:152690
 
 ***
 
@@ -106,4 +106,4 @@ main.ts:155824
 
 #### Defined in
 
-main.ts:155819
+main.ts:152685

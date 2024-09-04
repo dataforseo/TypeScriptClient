@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsCategoriesResultInfo
+[Documentation](../globals.md) / IDataforseoLabsCategoriesResultInfo
 
 # Interface: IDataforseoLabsCategoriesResultInfo
 
@@ -20,7 +20,7 @@ category code
 
 #### Defined in
 
-main.ts:83277
+main.ts:81949
 
 ***
 
@@ -41,7 +41,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:83290
+main.ts:81962
 
 ***
 
@@ -53,4 +53,4 @@ full name of the category
 
 #### Defined in
 
-main.ts:83279
+main.ts:81951

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphShoppingElement
+[Documentation](../globals.md) / KnowledgeGraphShoppingElement
 
 # Class: KnowledgeGraphShoppingElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:28854
+main.ts:28824
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Defined in
 
-main.ts:28835
+main.ts:28805
 
 ***
 
@@ -65,7 +65,7 @@ by Google
 
 #### Defined in
 
-main.ts:28847
+main.ts:28817
 
 ***
 
@@ -82,7 +82,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Defined in
 
-main.ts:28850
+main.ts:28820
 
 ***
 
@@ -99,7 +99,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:28838
+main.ts:28808
 
 ***
 
@@ -115,7 +115,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:28842
+main.ts:28812
 
 ***
 
@@ -131,7 +131,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:28840
+main.ts:28810
 
 ***
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28831
+main.ts:28801
 
 ***
 
@@ -163,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:28829
+main.ts:28799
 
 ***
 
@@ -179,7 +179,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:28833
+main.ts:28803
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:28833
 
 #### Defined in
 
-main.ts:28863
+main.ts:28833
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:28863
 
 #### Defined in
 
-main.ts:28888
+main.ts:28858
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:28888
 
 #### Defined in
 
-main.ts:28881
+main.ts:28851

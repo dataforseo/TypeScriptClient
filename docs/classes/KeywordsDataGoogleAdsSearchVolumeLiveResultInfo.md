@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsSearchVolumeLiveResultInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataGoogleAdsSearchVolumeLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:121010
+main.ts:118068
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:120981
+main.ts:118039
 
 ***
 
@@ -70,7 +70,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:120987
+main.ts:118045
 
 ***
 
@@ -87,7 +87,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:121002
+main.ts:118060
 
 ***
 
@@ -105,7 +105,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:120999
+main.ts:118057
 
 ***
 
@@ -122,7 +122,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:120964
+main.ts:118022
 
 ***
 
@@ -139,7 +139,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:120973
+main.ts:118031
 
 ***
 
@@ -156,7 +156,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:120970
+main.ts:118028
 
 ***
 
@@ -174,7 +174,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:120995
+main.ts:118053
 
 ***
 
@@ -192,7 +192,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:121006
+main.ts:118064
 
 ***
 
@@ -208,7 +208,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:120975
+main.ts:118033
 
 ***
 
@@ -226,7 +226,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:120991
+main.ts:118049
 
 ***
 
@@ -243,7 +243,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:120967
+main.ts:118025
 
 ## Methods
 
@@ -261,7 +261,7 @@ main.ts:120967
 
 #### Defined in
 
-main.ts:121019
+main.ts:118077
 
 ***
 
@@ -279,7 +279,7 @@ main.ts:121019
 
 #### Defined in
 
-main.ts:121051
+main.ts:118109
 
 ***
 
@@ -297,4 +297,4 @@ main.ts:121051
 
 #### Defined in
 
-main.ts:121044
+main.ts:118102

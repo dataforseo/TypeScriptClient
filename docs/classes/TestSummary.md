@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TestSummary
+[Documentation](../globals.md) / TestSummary
 
 # Class: TestSummary
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:163984
+main.ts:159914
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of serious microdata errors
 
 #### Defined in
 
-main.ts:163976
+main.ts:159906
 
 ***
 
@@ -62,7 +62,7 @@ number of fatal microdata errors
 
 #### Defined in
 
-main.ts:163974
+main.ts:159904
 
 ***
 
@@ -78,7 +78,7 @@ number of microdata information flags
 
 #### Defined in
 
-main.ts:163980
+main.ts:159910
 
 ***
 
@@ -94,7 +94,7 @@ number of microdata warnings
 
 #### Defined in
 
-main.ts:163978
+main.ts:159908
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:163978
 
 #### Defined in
 
-main.ts:163993
+main.ts:159923
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:163993
 
 #### Defined in
 
-main.ts:164013
+main.ts:159943
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:164013
 
 #### Defined in
 
-main.ts:164006
+main.ts:159936

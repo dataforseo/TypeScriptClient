@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleDatasetSearchTaskPostRequestInfo
+[Documentation](../globals.md) / SerpGoogleDatasetSearchTaskPostRequestInfo
 
 # Class: SerpGoogleDatasetSearchTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:54712
+main.ts:53175
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:54637
+main.ts:53100
 
 ***
 
@@ -71,7 +71,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:54652
+main.ts:53115
 
 ***
 
@@ -89,7 +89,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:54665
+main.ts:53128
 
 ***
 
@@ -107,7 +107,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:54673
+main.ts:53136
 
 ***
 
@@ -128,7 +128,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:54620
+main.ts:53083
 
 ***
 
@@ -147,7 +147,7 @@ en
 
 #### Defined in
 
-main.ts:54648
+main.ts:53111
 
 ***
 
@@ -167,7 +167,7 @@ English
 
 #### Defined in
 
-main.ts:54643
+main.ts:53106
 
 ***
 
@@ -185,7 +185,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:54661
+main.ts:53124
 
 ***
 
@@ -204,7 +204,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:54657
+main.ts:53120
 
 ***
 
@@ -228,7 +228,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:54708
+main.ts:53171
 
 ***
 
@@ -247,7 +247,7 @@ only value: advanced
 
 #### Defined in
 
-main.ts:54698
+main.ts:53161
 
 ***
 
@@ -271,7 +271,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:54693
+main.ts:53156
 
 ***
 
@@ -293,7 +293,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:54628
+main.ts:53091
 
 ***
 
@@ -313,7 +313,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:54683
+main.ts:53146
 
 ***
 
@@ -331,7 +331,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:54677
+main.ts:53140
 
 ***
 
@@ -349,7 +349,7 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:54669
+main.ts:53132
 
 ## Methods
 
@@ -367,7 +367,7 @@ main.ts:54669
 
 #### Defined in
 
-main.ts:54721
+main.ts:53184
 
 ***
 
@@ -385,7 +385,7 @@ main.ts:54721
 
 #### Defined in
 
-main.ts:54761
+main.ts:53224
 
 ***
 
@@ -403,4 +403,4 @@ main.ts:54761
 
 #### Defined in
 
-main.ts:54754
+main.ts:53217

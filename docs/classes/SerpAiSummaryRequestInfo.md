@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpAiSummaryRequestInfo
+[Documentation](../globals.md) / SerpAiSummaryRequestInfo
 
 # Class: SerpAiSummaryRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:25078
+main.ts:25394
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: false
 
 #### Defined in
 
-main.ts:25069
+main.ts:25385
 
 ***
 
@@ -68,7 +68,7 @@ default value: false
 
 #### Defined in
 
-main.ts:25074
+main.ts:25390
 
 ***
 
@@ -89,7 +89,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 #### Defined in
 
-main.ts:25059
+main.ts:25375
 
 ***
 
@@ -108,7 +108,7 @@ default value: true
 
 #### Defined in
 
-main.ts:25064
+main.ts:25380
 
 ***
 
@@ -127,7 +127,7 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Defined in
 
-main.ts:25052
+main.ts:25368
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:25052
 
 #### Defined in
 
-main.ts:25087
+main.ts:25403
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:25087
 
 #### Defined in
 
-main.ts:25108
+main.ts:25424
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:25108
 
 #### Defined in
 
-main.ts:25101
+main.ts:25417

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsIdListResultInfo
+[Documentation](../globals.md) / DataforseoLabsIdListResultInfo
 
 # Class: DataforseoLabsIdListResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:81655
+main.ts:80327
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:81649
+main.ts:80321
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:81644
+main.ts:80316
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:81639
+main.ts:80311
 
 ***
 
@@ -100,7 +100,7 @@ id of the task
 
 #### Defined in
 
-main.ts:81631
+main.ts:80303
 
 ***
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:81651
+main.ts:80323
 
 ***
 
@@ -137,7 +137,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:81647
+main.ts:80319
 
 ***
 
@@ -154,7 +154,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:81634
+main.ts:80306
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:81634
 
 #### Defined in
 
-main.ts:81664
+main.ts:80336
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:81664
 
 #### Defined in
 
-main.ts:81693
+main.ts:80365
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:81693
 
 #### Defined in
 
-main.ts:81686
+main.ts:80358

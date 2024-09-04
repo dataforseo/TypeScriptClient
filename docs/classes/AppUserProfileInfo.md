@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppUserProfileInfo
+[Documentation](../globals.md) / AppUserProfileInfo
 
 # Class: AppUserProfileInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:195445
+main.ts:190937
 
 ## Properties
 
@@ -46,7 +46,7 @@ URL to the reviewer’s profile image
 
 #### Defined in
 
-main.ts:195441
+main.ts:190933
 
 ***
 
@@ -62,7 +62,7 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:195439
+main.ts:190931
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:195439
 
 #### Defined in
 
-main.ts:195454
+main.ts:190946
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:195454
 
 #### Defined in
 
-main.ts:195472
+main.ts:190964
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:195472
 
 #### Defined in
 
-main.ts:195465
+main.ts:190957

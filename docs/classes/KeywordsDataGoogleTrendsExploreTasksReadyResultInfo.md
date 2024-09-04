@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
+[Documentation](../globals.md) / KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:126341
+main.ts:123399
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:126333
+main.ts:123391
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:126337
+main.ts:123395
 
 ***
 
@@ -78,7 +78,7 @@ type of the task
 
 #### Defined in
 
-main.ts:126331
+main.ts:123389
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:126327
+main.ts:123385
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:126329
+main.ts:123387
 
 ***
 
@@ -127,7 +127,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:126335
+main.ts:123393
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:126335
 
 #### Defined in
 
-main.ts:126350
+main.ts:123408
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:126350
 
 #### Defined in
 
-main.ts:126372
+main.ts:123430
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:126372
 
 #### Defined in
 
-main.ts:126365
+main.ts:123423

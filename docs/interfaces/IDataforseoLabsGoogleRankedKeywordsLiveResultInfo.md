@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleRankedKeywordsLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains ranked keywords and related data
 
 #### Defined in
 
-main.ts:93252
+main.ts:91892
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:93244
+main.ts:91884
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:93240
+main.ts:91880
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:93237
+main.ts:91877
 
 ***
 
@@ -75,7 +75,7 @@ ranking data is provided by the rank_group parameters that show the result’s r
 
 #### Defined in
 
-main.ts:93247
+main.ts:91887
 
 ***
 
@@ -92,7 +92,7 @@ ranking data is provided by the rank_absolute parameters that indicate the resul
 
 #### Defined in
 
-main.ts:93250
+main.ts:91890
 
 ***
 
@@ -104,7 +104,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93232
+main.ts:91872
 
 ***
 
@@ -116,7 +116,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:93234
+main.ts:91874
 
 ***
 
@@ -128,4 +128,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:93242
+main.ts:91882

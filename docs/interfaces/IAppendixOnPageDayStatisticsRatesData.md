@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixOnPageDayStatisticsRatesData
+[Documentation](../globals.md) / IAppendixOnPageDayStatisticsRatesData
 
 # Interface: IAppendixOnPageDayStatisticsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:223830
+main.ts:219088
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:223830
 
 #### Defined in
 
-main.ts:223826
+main.ts:219086
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:223826
 
 #### Defined in
 
-main.ts:223827
+main.ts:219087
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:223827
 
 #### Defined in
 
-main.ts:223819
+main.ts:219079
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:223819
 
 #### Defined in
 
-main.ts:223814
+main.ts:219074
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:223814
 
 #### Defined in
 
-main.ts:223817
+main.ts:219077
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:223817
 
 #### Defined in
 
-main.ts:223829
+main.ts:219089
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:223829
 
 #### Defined in
 
-main.ts:223828
+main.ts:219091
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:223828
 
 #### Defined in
 
-main.ts:223821
+main.ts:219081
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:223821
 
 #### Defined in
 
-main.ts:223824
+main.ts:219084
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:223824
 
 #### Defined in
 
-main.ts:223823
+main.ts:219083
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:223823
 
 #### Defined in
 
-main.ts:223815
+main.ts:219075
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:223815
 
 #### Defined in
 
-main.ts:223831
+main.ts:219090
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:223831
 
 #### Defined in
 
-main.ts:223813
+main.ts:219073
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:223813
 
 #### Defined in
 
-main.ts:223825
+main.ts:219085
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:223825
 
 #### Defined in
 
-main.ts:223812
+main.ts:219072
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:223812
 
 #### Defined in
 
-main.ts:223818
+main.ts:219078
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:223818
 
 #### Defined in
 
-main.ts:223820
+main.ts:219080
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:223820
 
 #### Defined in
 
-main.ts:223822
+main.ts:219082
 
 ***
 
@@ -208,7 +208,7 @@ main.ts:223822
 
 #### Defined in
 
-main.ts:223811
+main.ts:219071
 
 ***
 
@@ -218,7 +218,7 @@ main.ts:223811
 
 #### Defined in
 
-main.ts:223810
+main.ts:219070
 
 ***
 
@@ -228,7 +228,7 @@ main.ts:223810
 
 #### Defined in
 
-main.ts:223808
+main.ts:219068
 
 ***
 
@@ -238,7 +238,7 @@ main.ts:223808
 
 #### Defined in
 
-main.ts:223809
+main.ts:219069
 
 ***
 
@@ -248,4 +248,4 @@ main.ts:223809
 
 #### Defined in
 
-main.ts:223816
+main.ts:219076

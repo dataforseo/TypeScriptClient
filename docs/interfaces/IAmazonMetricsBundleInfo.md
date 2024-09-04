@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonMetricsBundleInfo
+[Documentation](../globals.md) / IAmazonMetricsBundleInfo
 
 # Interface: IAmazonMetricsBundleInfo
 
@@ -20,7 +20,7 @@ ranking data from Amazon paid SERP
 
 #### Defined in
 
-main.ts:107026
+main.ts:104160
 
 ***
 
@@ -32,4 +32,4 @@ ranking data from Amazon organic SERP
 
 #### Defined in
 
-main.ts:107024
+main.ts:104158

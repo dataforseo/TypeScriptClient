@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixProductGoogleMerchantPriceDataInfo
+[Documentation](../globals.md) / AppendixProductGoogleMerchantPriceDataInfo
 
 # Class: AppendixProductGoogleMerchantPriceDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:226433
+main.ts:221693
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:226433
 
 #### Defined in
 
-main.ts:226427
+main.ts:221687
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:226427
 
 #### Defined in
 
-main.ts:226428
+main.ts:221688
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:226428
 
 #### Defined in
 
-main.ts:226429
+main.ts:221689
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:226429
 
 #### Defined in
 
-main.ts:226442
+main.ts:221702
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:226442
 
 #### Defined in
 
-main.ts:226461
+main.ts:221721
 
 ***
 
@@ -126,4 +126,4 @@ main.ts:226461
 
 #### Defined in
 
-main.ts:226454
+main.ts:221714

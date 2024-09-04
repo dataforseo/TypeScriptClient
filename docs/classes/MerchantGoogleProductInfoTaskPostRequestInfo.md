@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleProductInfoTaskPostRequestInfo
+[Documentation](../globals.md) / MerchantGoogleProductInfoTaskPostRequestInfo
 
 # Class: MerchantGoogleProductInfoTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:182384
+main.ts:178132
 
 ## Properties
 
@@ -51,7 +51,7 @@ en
 
 #### Defined in
 
-main.ts:182341
+main.ts:178089
 
 ***
 
@@ -72,7 +72,7 @@ English
 
 #### Defined in
 
-main.ts:182334
+main.ts:178082
 
 ***
 
@@ -93,7 +93,7 @@ example:
 
 #### Defined in
 
-main.ts:182318
+main.ts:178066
 
 ***
 
@@ -116,7 +116,7 @@ example:
 
 #### Defined in
 
-main.ts:182327
+main.ts:178075
 
 ***
 
@@ -137,7 +137,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:182311
+main.ts:178059
 
 ***
 
@@ -161,7 +161,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:182380
+main.ts:178128
 
 ***
 
@@ -181,7 +181,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:182370
+main.ts:178118
 
 ***
 
@@ -205,7 +205,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:182364
+main.ts:178112
 
 ***
 
@@ -227,7 +227,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:182304
+main.ts:178052
 
 ***
 
@@ -247,7 +247,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:182296
+main.ts:178044
 
 ***
 
@@ -268,7 +268,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:182348
+main.ts:178096
 
 ***
 
@@ -288,7 +288,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:182354
+main.ts:178102
 
 ## Methods
 
@@ -306,7 +306,7 @@ main.ts:182354
 
 #### Defined in
 
-main.ts:182393
+main.ts:178141
 
 ***
 
@@ -324,7 +324,7 @@ main.ts:182393
 
 #### Defined in
 
-main.ts:182421
+main.ts:178169
 
 ***
 
@@ -342,4 +342,4 @@ main.ts:182421
 
 #### Defined in
 
-main.ts:182414
+main.ts:178162

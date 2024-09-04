@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksPageIntersectionLiveItem
+[Documentation](../globals.md) / BacklinksPageIntersectionLiveItem
 
 # Class: BacklinksPageIntersectionLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:150863
+main.ts:147729
 
 ## Properties
 
@@ -51,7 +51,7 @@ data is provided in separate objects corresponding to pages specified in the tar
 
 #### Defined in
 
-main.ts:150857
+main.ts:147723
 
 ***
 
@@ -67,7 +67,7 @@ contains the page intersections summary
 
 #### Defined in
 
-main.ts:150859
+main.ts:147725
 
 ## Methods
 
@@ -85,7 +85,7 @@ main.ts:150859
 
 #### Defined in
 
-main.ts:150872
+main.ts:147738
 
 ***
 
@@ -103,7 +103,7 @@ main.ts:150872
 
 #### Defined in
 
-main.ts:150896
+main.ts:147762
 
 ***
 
@@ -121,4 +121,4 @@ main.ts:150896
 
 #### Defined in
 
-main.ts:150889
+main.ts:147755

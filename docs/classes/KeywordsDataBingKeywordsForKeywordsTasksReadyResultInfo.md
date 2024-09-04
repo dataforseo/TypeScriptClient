@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
+[Documentation](../globals.md) / KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:134425
+main.ts:131291
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:134417
+main.ts:131283
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:134421
+main.ts:131287
 
 ***
 
@@ -78,7 +78,7 @@ type of the task
 
 #### Defined in
 
-main.ts:134415
+main.ts:131281
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:134411
+main.ts:131277
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:134413
+main.ts:131279
 
 ***
 
@@ -127,7 +127,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:134419
+main.ts:131285
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:134419
 
 #### Defined in
 
-main.ts:134434
+main.ts:131300
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:134434
 
 #### Defined in
 
-main.ts:134456
+main.ts:131322
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:134456
 
 #### Defined in
 
-main.ts:134449
+main.ts:131315

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveItem
+[Documentation](../globals.md) / DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
 # Class: DataforseoLabsGoogleDomainWhoisOverviewLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:91801
+main.ts:90473
 
 ## Properties
 
@@ -46,7 +46,7 @@ backlink data for the returned domain
 
 #### Defined in
 
-main.ts:91797
+main.ts:90469
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:91763
+main.ts:90435
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:91758
+main.ts:90430
 
 ***
 
@@ -100,7 +100,7 @@ domain name
 
 #### Defined in
 
-main.ts:91753
+main.ts:90425
 
 ***
 
@@ -117,7 +117,7 @@ the status of a domain name registration as defined by ICANN
 
 #### Defined in
 
-main.ts:91781
+main.ts:90453
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:91768
+main.ts:90440
 
 ***
 
@@ -155,7 +155,7 @@ example:
 
 #### Defined in
 
-main.ts:91778
+main.ts:90450
 
 ***
 
@@ -175,7 +175,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:91795
+main.ts:90467
 
 ***
 
@@ -193,7 +193,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Defined in
 
-main.ts:91788
+main.ts:90460
 
 ***
 
@@ -212,7 +212,7 @@ NameCheap, Inc.
 
 #### Defined in
 
-main.ts:91793
+main.ts:90465
 
 ***
 
@@ -228,7 +228,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91751
+main.ts:90423
 
 ***
 
@@ -245,7 +245,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:91784
+main.ts:90456
 
 ***
 
@@ -264,7 +264,7 @@ example:
 
 #### Defined in
 
-main.ts:91773
+main.ts:90445
 
 ## Methods
 
@@ -282,7 +282,7 @@ main.ts:91773
 
 #### Defined in
 
-main.ts:91810
+main.ts:90482
 
 ***
 
@@ -300,7 +300,7 @@ main.ts:91810
 
 #### Defined in
 
-main.ts:91849
+main.ts:90521
 
 ***
 
@@ -318,4 +318,4 @@ main.ts:91849
 
 #### Defined in
 
-main.ts:91842
+main.ts:90514

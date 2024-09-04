@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageResourceIssueItemInfo
+[Documentation](../globals.md) / IOnPageResourceIssueItemInfo
 
 # Interface: IOnPageResourceIssueItemInfo
 
@@ -20,7 +20,7 @@ column where the error was found
 
 #### Defined in
 
-main.ts:158033
+main.ts:154899
 
 ***
 
@@ -32,7 +32,7 @@ line where the error was found
 
 #### Defined in
 
-main.ts:158031
+main.ts:154897
 
 ***
 
@@ -45,7 +45,7 @@ the full list of possible HTML errors can be found here
 
 #### Defined in
 
-main.ts:158036
+main.ts:154902
 
 ***
 
@@ -66,4 +66,4 @@ possible values:
 
 #### Defined in
 
-main.ts:158047
+main.ts:154913

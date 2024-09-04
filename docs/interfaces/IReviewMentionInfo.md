@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IReviewMentionInfo
+[Documentation](../globals.md) / IReviewMentionInfo
 
 # Interface: IReviewMentionInfo
 
@@ -20,7 +20,7 @@ count of negative reviews by criterion
 
 #### Defined in
 
-main.ts:210758
+main.ts:206096
 
 ***
 
@@ -32,7 +32,7 @@ count of positive reviews by criterion
 
 #### Defined in
 
-main.ts:210756
+main.ts:206094
 
 ***
 
@@ -44,7 +44,7 @@ positive score by criterion
 
 #### Defined in
 
-main.ts:210754
+main.ts:206092
 
 ***
 
@@ -56,7 +56,7 @@ title of the evaluated criterion
 
 #### Defined in
 
-main.ts:210752
+main.ts:206090
 
 ***
 
@@ -68,7 +68,7 @@ count of all reviews by criterion
 
 #### Defined in
 
-main.ts:210760
+main.ts:206098
 
 ***
 
@@ -81,4 +81,4 @@ indicates whether the review element is visible by default
 
 #### Defined in
 
-main.ts:210763
+main.ts:206101

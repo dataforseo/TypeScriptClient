@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpNaverOrganicTaskGetRegularResultInfo
+[Documentation](../globals.md) / SerpNaverOrganicTaskGetRegularResultInfo
 
 # Class: SerpNaverOrganicTaskGetRegularResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:73045
+main.ts:71717
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:73019
+main.ts:71691
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:73024
+main.ts:71696
 
 ***
 
@@ -88,7 +88,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 #### Defined in
 
-main.ts:73035
+main.ts:71707
 
 ***
 
@@ -104,7 +104,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:73041
+main.ts:71713
 
 ***
 
@@ -120,7 +120,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:73039
+main.ts:71711
 
 ***
 
@@ -137,7 +137,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:73008
+main.ts:71680
 
 ***
 
@@ -153,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:73016
+main.ts:71688
 
 ***
 
@@ -169,7 +169,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:73014
+main.ts:71686
 
 ***
 
@@ -185,7 +185,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:73012
+main.ts:71684
 
 ***
 
@@ -201,7 +201,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:73037
+main.ts:71709
 
 ***
 
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:73027
+main.ts:71699
 
 ***
 
@@ -234,7 +234,7 @@ type of element
 
 #### Defined in
 
-main.ts:73010
+main.ts:71682
 
 ## Methods
 
@@ -252,7 +252,7 @@ main.ts:73010
 
 #### Defined in
 
-main.ts:73054
+main.ts:71726
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:73054
 
 #### Defined in
 
-main.ts:73090
+main.ts:71762
 
 ***
 
@@ -288,4 +288,4 @@ main.ts:73090
 
 #### Defined in
 
-main.ts:73083
+main.ts:71755

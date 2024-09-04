@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonProductsTasksReadyResultInfo
+[Documentation](../globals.md) / MerchantAmazonProductsTasksReadyResultInfo
 
 # Class: MerchantAmazonProductsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:184341
+main.ts:180063
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:184331
+main.ts:180053
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Amazon Products Advanced task
 
 #### Defined in
 
-main.ts:184335
+main.ts:180057
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of the Amazon Products HTML task
 
 #### Defined in
 
-main.ts:184337
+main.ts:180059
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:184324
+main.ts:180046
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:184326
+main.ts:180048
 
 ***
 
@@ -128,7 +128,7 @@ can take the following values: organic
 
 #### Defined in
 
-main.ts:184329
+main.ts:180051
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:184333
+main.ts:180055
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:184333
 
 #### Defined in
 
-main.ts:184350
+main.ts:180072
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:184350
 
 #### Defined in
 
-main.ts:184373
+main.ts:180095
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:184373
 
 #### Defined in
 
-main.ts:184366
+main.ts:180088

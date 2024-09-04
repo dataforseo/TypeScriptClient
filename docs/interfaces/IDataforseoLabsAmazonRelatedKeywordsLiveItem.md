@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonRelatedKeywordsLiveItem
+[Documentation](../globals.md) / IDataforseoLabsAmazonRelatedKeywordsLiveItem
 
 # Interface: IDataforseoLabsAmazonRelatedKeywordsLiveItem
 
@@ -20,7 +20,7 @@ keyword search depth
 
 #### Defined in
 
-main.ts:105679
+main.ts:102829
 
 ***
 
@@ -32,7 +32,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:105677
+main.ts:102827
 
 ***
 
@@ -45,7 +45,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-main.ts:105682
+main.ts:102832
 
 ***
 
@@ -57,4 +57,4 @@ search engine type
 
 #### Defined in
 
-main.ts:105675
+main.ts:102825

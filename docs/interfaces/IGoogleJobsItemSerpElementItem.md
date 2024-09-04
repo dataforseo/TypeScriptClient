@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleJobsItemSerpElementItem
+[Documentation](../globals.md) / IGoogleJobsItemSerpElementItem
 
 # Interface: IGoogleJobsItemSerpElementItem
 

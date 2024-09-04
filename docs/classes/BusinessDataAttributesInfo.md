@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataAttributesInfo
+[Documentation](../globals.md) / BusinessDataAttributesInfo
 
 # Class: BusinessDataAttributesInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:203009
+main.ts:198391
 
 ## Properties
 
@@ -51,7 +51,7 @@ indicates attributes a business entity can offer
 
 #### Defined in
 
-main.ts:203002
+main.ts:198384
 
 ***
 
@@ -72,7 +72,7 @@ indicates attributes a business entity cannot offer
 
 #### Defined in
 
-main.ts:203005
+main.ts:198387
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:203005
 
 #### Defined in
 
-main.ts:203018
+main.ts:198400
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:203018
 
 #### Defined in
 
-main.ts:203048
+main.ts:198430
 
 ***
 
@@ -126,4 +126,4 @@ main.ts:203048
 
 #### Defined in
 
-main.ts:203041
+main.ts:198423

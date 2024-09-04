@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
+[Documentation](../globals.md) / BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
 
 # Class: BusinessDataGoogleMyBusinessUpdatesTaskPostRequestInfo
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:206916
+main.ts:202270
 
 ## Properties
 
@@ -59,7 +59,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:206912
+main.ts:202266
 
 ***
 
@@ -93,7 +93,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:197393
+main.ts:192847
 
 ***
 
@@ -118,7 +118,7 @@ en
 
 #### Defined in
 
-main.ts:197439
+main.ts:192893
 
 ***
 
@@ -143,7 +143,7 @@ English
 
 #### Defined in
 
-main.ts:197432
+main.ts:192886
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Defined in
 
-main.ts:197415
+main.ts:192869
 
 ***
 
@@ -196,7 +196,7 @@ example:
 
 #### Defined in
 
-main.ts:197425
+main.ts:192879
 
 ***
 
@@ -221,7 +221,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:197408
+main.ts:192862
 
 ***
 
@@ -249,7 +249,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197465
+main.ts:192919
 
 ***
 
@@ -277,7 +277,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197455
+main.ts:192909
 
 ***
 
@@ -303,7 +303,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:197401
+main.ts:192855
 
 ***
 
@@ -327,7 +327,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:197445
+main.ts:192899
 
 ## Methods
 
@@ -349,7 +349,7 @@ main.ts:197445
 
 #### Defined in
 
-main.ts:206920
+main.ts:202274
 
 ***
 
@@ -371,7 +371,7 @@ main.ts:206920
 
 #### Defined in
 
-main.ts:206938
+main.ts:202292
 
 ***
 
@@ -393,4 +393,4 @@ main.ts:206938
 
 #### Defined in
 
-main.ts:206931
+main.ts:202285

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TripadvisorSearchOrganicBusinessDataSerpElementItem
+[Documentation](../globals.md) / TripadvisorSearchOrganicBusinessDataSerpElementItem
 
 # Class: TripadvisorSearchOrganicBusinessDataSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:217883
+main.ts:213167
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:217883
 
 #### Defined in
 
-main.ts:21279
+main.ts:21308
 
 ***
 
@@ -68,7 +68,7 @@ place category
 
 #### Defined in
 
-main.ts:217875
+main.ts:213159
 
 ***
 
@@ -85,7 +85,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 #### Defined in
 
-main.ts:217871
+main.ts:213155
 
 ***
 
@@ -101,7 +101,7 @@ average price rate
 
 #### Defined in
 
-main.ts:217877
+main.ts:213161
 
 ***
 
@@ -109,16 +109,19 @@ main.ts:217877
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed results
-absolute position among all reviews on the list
+absolute rank among all the elements
 
 #### Implementation of
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_absolute`](BaseBusinessDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:217862
+main.ts:21306
 
 ***
 
@@ -127,15 +130,19 @@ main.ts:217862
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
 
 #### Implementation of
 
 [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_group`](BaseBusinessDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:217859
+main.ts:21304
 
 ***
 
@@ -151,7 +158,7 @@ the rating score of the establishment submitted by the reviewers
 
 #### Defined in
 
-main.ts:217879
+main.ts:213163
 
 ***
 
@@ -167,7 +174,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:217873
+main.ts:213157
 
 ***
 
@@ -183,7 +190,27 @@ name of the business entity
 
 #### Defined in
 
-main.ts:217864
+main.ts:213148
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md).[`type`](../interfaces/ITripadvisorSearchOrganicBusinessDataSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`type`](BaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21301
 
 ***
 
@@ -201,7 +228,7 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Defined in
 
-main.ts:217868
+main.ts:213152
 
 ## Methods
 
@@ -223,7 +250,7 @@ main.ts:217868
 
 #### Defined in
 
-main.ts:217888
+main.ts:213172
 
 ***
 
@@ -245,7 +272,7 @@ main.ts:217888
 
 #### Defined in
 
-main.ts:217914
+main.ts:213196
 
 ***
 
@@ -267,4 +294,4 @@ main.ts:217914
 
 #### Defined in
 
-main.ts:217907
+main.ts:213189

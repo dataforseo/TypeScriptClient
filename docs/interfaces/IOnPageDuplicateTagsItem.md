@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageDuplicateTagsItem
+[Documentation](../globals.md) / IOnPageDuplicateTagsItem
 
 # Interface: IOnPageDuplicateTagsItem
 
@@ -20,7 +20,7 @@ contains the value of duplicated tag
 
 #### Defined in
 
-main.ts:160609
+main.ts:156907
 
 ***
 
@@ -32,7 +32,7 @@ pages with duplicate tags
 
 #### Defined in
 
-main.ts:160613
+main.ts:156911
 
 ***
 
@@ -44,4 +44,4 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:160611
+main.ts:156909

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
 # Class: DataforseoLabsGoogleHistoricalSearchVolumeLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:87040
+main.ts:85712
 
 ## Properties
 
@@ -51,7 +51,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:87030
+main.ts:85702
 
 ***
 
@@ -70,7 +70,7 @@ default value: false
 
 #### Defined in
 
-main.ts:87023
+main.ts:85695
 
 ***
 
@@ -93,7 +93,7 @@ you will not be charged for the keywords omitted in the results
 
 #### Defined in
 
-main.ts:86986
+main.ts:85658
 
 ***
 
@@ -115,7 +115,7 @@ en
 
 #### Defined in
 
-main.ts:87018
+main.ts:85690
 
 ***
 
@@ -137,7 +137,7 @@ English
 
 #### Defined in
 
-main.ts:87010
+main.ts:85682
 
 ***
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:87002
+main.ts:85674
 
 ***
 
@@ -181,7 +181,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:86994
+main.ts:85666
 
 ***
 
@@ -201,7 +201,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:87036
+main.ts:85708
 
 ## Methods
 
@@ -219,7 +219,7 @@ main.ts:87036
 
 #### Defined in
 
-main.ts:87049
+main.ts:85721
 
 ***
 
@@ -237,7 +237,7 @@ main.ts:87049
 
 #### Defined in
 
-main.ts:87077
+main.ts:85749
 
 ***
 
@@ -255,4 +255,4 @@ main.ts:87077
 
 #### Defined in
 
-main.ts:87070
+main.ts:85742

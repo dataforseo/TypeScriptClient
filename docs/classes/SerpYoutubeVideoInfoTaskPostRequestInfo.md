@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoInfoTaskPostRequestInfo
+[Documentation](../globals.md) / SerpYoutubeVideoInfoTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoInfoTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:62684
+main.ts:61363
 
 ## Properties
 
@@ -48,7 +48,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:62643
+main.ts:61322
 
 ***
 
@@ -69,7 +69,7 @@ en
 
 #### Defined in
 
-main.ts:62639
+main.ts:61318
 
 ***
 
@@ -90,7 +90,7 @@ English
 
 #### Defined in
 
-main.ts:62632
+main.ts:61311
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:62625
+main.ts:61304
 
 ***
 
@@ -132,7 +132,7 @@ United States
 
 #### Defined in
 
-main.ts:62618
+main.ts:61297
 
 ***
 
@@ -151,7 +151,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:62648
+main.ts:61327
 
 ***
 
@@ -175,7 +175,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:62680
+main.ts:61359
 
 ***
 
@@ -195,7 +195,7 @@ advanced
 
 #### Defined in
 
-main.ts:62670
+main.ts:61349
 
 ***
 
@@ -219,7 +219,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:62664
+main.ts:61343
 
 ***
 
@@ -241,7 +241,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:62611
+main.ts:61290
 
 ***
 
@@ -261,7 +261,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:62654
+main.ts:61333
 
 ***
 
@@ -281,7 +281,7 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:62603
+main.ts:61282
 
 ## Methods
 
@@ -299,7 +299,7 @@ main.ts:62603
 
 #### Defined in
 
-main.ts:62693
+main.ts:61372
 
 ***
 
@@ -317,7 +317,7 @@ main.ts:62693
 
 #### Defined in
 
-main.ts:62721
+main.ts:61400
 
 ***
 
@@ -335,4 +335,4 @@ main.ts:62721
 
 #### Defined in
 
-main.ts:62714
+main.ts:61393

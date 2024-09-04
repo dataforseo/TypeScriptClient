@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleTrendsQueriesListElementItem
+[Documentation](../globals.md) / GoogleTrendsQueriesListElementItem
 
 # Class: GoogleTrendsQueriesListElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:127217
+main.ts:124207
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:127217
 
 #### Defined in
 
-main.ts:21570
+main.ts:21804
 
 ***
 
@@ -68,7 +68,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:127213
+main.ts:124203
 
 ***
 
@@ -77,15 +77,19 @@ main.ts:127213
 > `optional` **keywords**: `string`[]
 
 relevant keywords
-the data included in the google_trends_topics_list element is based on the keywords listed in this array
+the data included in the google_trends_graph element is based on the keywords listed in this array
 
 #### Implementation of
 
 [`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md).[`keywords`](../interfaces/IGoogleTrendsQueriesListElementItem.md#keywords)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`keywords`](BaseGoogleTrendsItem.md#keywords)
+
 #### Defined in
 
-main.ts:127211
+main.ts:21802
 
 ***
 
@@ -100,9 +104,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md).[`position`](../interfaces/IGoogleTrendsQueriesListElementItem.md#position)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`position`](BaseGoogleTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:127206
+main.ts:21797
 
 ***
 
@@ -116,9 +124,33 @@ title of the element in Google Trends
 
 [`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md).[`title`](../interfaces/IGoogleTrendsQueriesListElementItem.md#title)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`title`](BaseGoogleTrendsItem.md#title)
+
 #### Defined in
 
-main.ts:127208
+main.ts:21799
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleTrendsQueriesListElementItem`](../interfaces/IGoogleTrendsQueriesListElementItem.md).[`type`](../interfaces/IGoogleTrendsQueriesListElementItem.md#type)
+
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`type`](BaseGoogleTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21794
 
 ## Methods
 
@@ -140,7 +172,7 @@ main.ts:127208
 
 #### Defined in
 
-main.ts:127222
+main.ts:124212
 
 ***
 
@@ -162,7 +194,7 @@ main.ts:127222
 
 #### Defined in
 
-main.ts:127247
+main.ts:124230
 
 ***
 
@@ -184,4 +216,4 @@ main.ts:127247
 
 #### Defined in
 
-main.ts:127240
+main.ts:124223

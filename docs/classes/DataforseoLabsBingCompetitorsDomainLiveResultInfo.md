@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingCompetitorsDomainLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsBingCompetitorsDomainLiveResultInfo
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:109525
+main.ts:106659
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains data related to the target and competitor domains
 
 #### Defined in
 
-main.ts:109521
+main.ts:106655
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:109519
+main.ts:106653
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:109515
+main.ts:106649
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:109513
+main.ts:106647
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:109509
+main.ts:106643
 
 ***
 
@@ -126,7 +126,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:109511
+main.ts:106645
 
 ***
 
@@ -142,7 +142,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:109517
+main.ts:106651
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:109517
 
 #### Defined in
 
-main.ts:109534
+main.ts:106668
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:109534
 
 #### Defined in
 
-main.ts:109561
+main.ts:106695
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:109561
 
 #### Defined in
 
-main.ts:109554
+main.ts:106688

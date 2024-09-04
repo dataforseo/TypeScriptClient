@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordData
+[Documentation](../globals.md) / KeywordData
 
 # Class: KeywordData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:105533
+main.ts:102683
 
 ## Properties
 
@@ -47,7 +47,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:105529
+main.ts:102679
 
 ***
 
@@ -63,7 +63,7 @@ returned keyword
 
 #### Defined in
 
-main.ts:105515
+main.ts:102665
 
 ***
 
@@ -79,7 +79,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:105521
+main.ts:102671
 
 ***
 
@@ -95,7 +95,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:105523
+main.ts:102673
 
 ***
 
@@ -111,7 +111,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:105519
+main.ts:102669
 
 ***
 
@@ -127,7 +127,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:105517
+main.ts:102667
 
 ***
 
@@ -145,7 +145,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:105513
+main.ts:102663
 
 ***
 
@@ -162,7 +162,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:105526
+main.ts:102676
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:105526
 
 #### Defined in
 
-main.ts:105542
+main.ts:102692
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:105542
 
 #### Defined in
 
-main.ts:105566
+main.ts:102716
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:105566
 
 #### Defined in
 
-main.ts:105559
+main.ts:102709

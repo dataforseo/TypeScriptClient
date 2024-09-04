@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBulkSpamScoreLiveRequestInfo
+[Documentation](../globals.md) / BacklinksBulkSpamScoreLiveRequestInfo
 
 # Class: BacklinksBulkSpamScoreLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:152801
+main.ts:149667
 
 ## Properties
 
@@ -50,7 +50,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:152797
+main.ts:149663
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:152791
+main.ts:149657
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:152791
 
 #### Defined in
 
-main.ts:152810
+main.ts:149676
 
 ***
 
@@ -119,7 +119,7 @@ main.ts:152810
 
 #### Defined in
 
-main.ts:152832
+main.ts:149698
 
 ***
 
@@ -137,4 +137,4 @@ main.ts:152832
 
 #### Defined in
 
-main.ts:152825
+main.ts:149691

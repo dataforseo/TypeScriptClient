@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleSearchByImageTasksFixedResultInfo
+[Documentation](../globals.md) / ISerpGoogleSearchByImageTasksFixedResultInfo
 
 # Interface: ISerpGoogleSearchByImageTasksFixedResultInfo
 
@@ -20,7 +20,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:51097
+main.ts:49544
 
 ***
 
@@ -33,7 +33,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:51105
+main.ts:49552
 
 ***
 
@@ -46,7 +46,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:51108
+main.ts:49555
 
 ***
 
@@ -59,7 +59,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:51102
+main.ts:49549
 
 ***
 
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:51090
+main.ts:49537
 
 ***
 
@@ -84,7 +84,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:51092
+main.ts:49539
 
 ***
 
@@ -97,7 +97,7 @@ can take the following values: search_by_image
 
 #### Defined in
 
-main.ts:51095
+main.ts:49542
 
 ***
 
@@ -109,4 +109,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:51099
+main.ts:49546

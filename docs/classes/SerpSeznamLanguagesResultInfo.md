@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamLanguagesResultInfo
+[Documentation](../globals.md) / SerpSeznamLanguagesResultInfo
 
 # Class: SerpSeznamLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:74203
+main.ts:72875
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:74199
+main.ts:72871
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:74197
+main.ts:72869
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:74197
 
 #### Defined in
 
-main.ts:74212
+main.ts:72884
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:74212
 
 #### Defined in
 
-main.ts:74230
+main.ts:72902
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:74230
 
 #### Defined in
 
-main.ts:74223
+main.ts:72895

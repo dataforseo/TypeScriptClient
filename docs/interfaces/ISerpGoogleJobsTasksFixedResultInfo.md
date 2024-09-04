@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleJobsTasksFixedResultInfo
+[Documentation](../globals.md) / ISerpGoogleJobsTasksFixedResultInfo
 
 # Interface: ISerpGoogleJobsTasksFixedResultInfo
 
@@ -20,7 +20,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:52189
+main.ts:50636
 
 ***
 
@@ -33,7 +33,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:52197
+main.ts:50644
 
 ***
 
@@ -46,7 +46,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:52200
+main.ts:50647
 
 ***
 
@@ -59,7 +59,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:52194
+main.ts:50641
 
 ***
 
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:52182
+main.ts:50629
 
 ***
 
@@ -84,7 +84,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:52184
+main.ts:50631
 
 ***
 
@@ -97,7 +97,7 @@ can take the following values: jobs
 
 #### Defined in
 
-main.ts:52187
+main.ts:50634
 
 ***
 
@@ -109,4 +109,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:52191
+main.ts:50638

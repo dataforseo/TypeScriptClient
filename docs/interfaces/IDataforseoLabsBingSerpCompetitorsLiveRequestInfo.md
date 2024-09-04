@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingSerpCompetitorsLiveRequestInfo
 
@@ -33,7 +33,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:113514
+main.ts:110648
 
 ***
 
@@ -48,7 +48,7 @@ default value: true
 
 #### Defined in
 
-main.ts:113481
+main.ts:110615
 
 ***
 
@@ -66,7 +66,7 @@ default value:
 
 #### Defined in
 
-main.ts:113489
+main.ts:110623
 
 ***
 
@@ -84,7 +84,7 @@ you can specify the maximum of 200 keywords
 
 #### Defined in
 
-main.ts:113442
+main.ts:110576
 
 ***
 
@@ -102,7 +102,7 @@ en
 
 #### Defined in
 
-main.ts:113476
+main.ts:110610
 
 ***
 
@@ -120,7 +120,7 @@ English
 
 #### Defined in
 
-main.ts:113468
+main.ts:110602
 
 ***
 
@@ -135,7 +135,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:113494
+main.ts:110628
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:113460
+main.ts:110594
 
 ***
 
@@ -173,7 +173,7 @@ United States
 
 #### Defined in
 
-main.ts:113451
+main.ts:110585
 
 ***
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:113499
+main.ts:110633
 
 ***
 
@@ -214,7 +214,7 @@ example:
 
 #### Defined in
 
-main.ts:113530
+main.ts:110664
 
 ***
 
@@ -230,4 +230,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:113536
+main.ts:110670

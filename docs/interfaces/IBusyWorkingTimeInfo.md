@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusyWorkingTimeInfo
+[Documentation](../globals.md) / IBusyWorkingTimeInfo
 
 # Interface: IBusyWorkingTimeInfo
 
@@ -22,7 +22,7 @@ higher value corresponds to a busier time of a day
 
 #### Defined in
 
-main.ts:203268
+main.ts:198650
 
 ***
 
@@ -34,4 +34,4 @@ busy hours
 
 #### Defined in
 
-main.ts:203264
+main.ts:198646

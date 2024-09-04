@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
+[Documentation](../globals.md) / KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
 # Class: KeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:132760
+main.ts:129626
 
 ## Properties
 
@@ -52,7 +52,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:132715
+main.ts:129581
 
 ***
 
@@ -76,7 +76,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:132725
+main.ts:129591
 
 ***
 
@@ -96,7 +96,7 @@ default value: all
 
 #### Defined in
 
-main.ts:132702
+main.ts:129568
 
 ***
 
@@ -116,7 +116,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:132696
+main.ts:129562
 
 ***
 
@@ -136,7 +136,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:132690
+main.ts:129556
 
 ***
 
@@ -156,7 +156,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:132684
+main.ts:129550
 
 ***
 
@@ -177,7 +177,7 @@ example:
 
 #### Defined in
 
-main.ts:132670
+main.ts:129536
 
 ***
 
@@ -199,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:132678
+main.ts:129544
 
 ***
 
@@ -220,7 +220,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:132663
+main.ts:129529
 
 ***
 
@@ -244,7 +244,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:132745
+main.ts:129611
 
 ***
 
@@ -268,7 +268,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:132735
+main.ts:129601
 
 ***
 
@@ -287,7 +287,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:132750
+main.ts:129616
 
 ***
 
@@ -306,7 +306,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:132707
+main.ts:129573
 
 ***
 
@@ -326,7 +326,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:132756
+main.ts:129622
 
 ***
 
@@ -344,7 +344,7 @@ the URL of the webpage or the domain to scan for possible keywords
 
 #### Defined in
 
-main.ts:132656
+main.ts:129522
 
 ## Methods
 
@@ -362,7 +362,7 @@ main.ts:132656
 
 #### Defined in
 
-main.ts:132769
+main.ts:129635
 
 ***
 
@@ -380,7 +380,7 @@ main.ts:132769
 
 #### Defined in
 
-main.ts:132804
+main.ts:129670
 
 ***
 
@@ -398,4 +398,4 @@ main.ts:132804
 
 #### Defined in
 
-main.ts:132797
+main.ts:129663

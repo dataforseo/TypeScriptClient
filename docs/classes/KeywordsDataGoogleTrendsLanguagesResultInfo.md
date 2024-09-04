@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
+[Documentation](../globals.md) / KeywordsDataGoogleTrendsLanguagesResultInfo
 
 # Class: KeywordsDataGoogleTrendsLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:125580
+main.ts:122638
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:125576
+main.ts:122634
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:125574
+main.ts:122632
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:125574
 
 #### Defined in
 
-main.ts:125589
+main.ts:122647
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:125589
 
 #### Defined in
 
-main.ts:125607
+main.ts:122665
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:125607
 
 #### Defined in
 
-main.ts:125600
+main.ts:122658

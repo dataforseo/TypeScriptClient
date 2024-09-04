@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisSearchLiveRequestInfo
+[Documentation](../globals.md) / IContentAnalysisSearchLiveRequestInfo
 
 # Interface: IContentAnalysisSearchLiveRequestInfo
 
@@ -35,7 +35,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:170010
+main.ts:165940
 
 ***
 
@@ -54,7 +54,7 @@ example:
 
 #### Defined in
 
-main.ts:169963
+main.ts:165893
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:169975
+main.ts:165905
 
 ***
 
@@ -95,7 +95,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:169993
+main.ts:165923
 
 ***
 
@@ -110,7 +110,7 @@ if you specify the 10 value, the first ten citations in the results array will b
 
 #### Defined in
 
-main.ts:170031
+main.ts:165961
 
 ***
 
@@ -128,7 +128,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:170039
+main.ts:165969
 
 ***
 
@@ -154,7 +154,7 @@ example:
 
 #### Defined in
 
-main.ts:170026
+main.ts:165956
 
 ***
 
@@ -170,7 +170,7 @@ possible values:
 
 #### Defined in
 
-main.ts:169981
+main.ts:165911
 
 ***
 
@@ -187,7 +187,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:169988
+main.ts:165918
 
 ***
 
@@ -203,4 +203,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:170045
+main.ts:165975

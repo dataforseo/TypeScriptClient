@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsErrorsRequestInfo
+[Documentation](../globals.md) / DomainAnalyticsErrorsRequestInfo
 
 # Class: DomainAnalyticsErrorsRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:76311
+main.ts:74983
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:76300
+main.ts:74972
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:76307
+main.ts:74979
 
 ***
 
@@ -92,7 +92,7 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:76293
+main.ts:74965
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:76282
+main.ts:74954
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:76287
+main.ts:74959
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:76287
 
 #### Defined in
 
-main.ts:76320
+main.ts:74992
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:76320
 
 #### Defined in
 
-main.ts:76341
+main.ts:75013
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:76341
 
 #### Defined in
 
-main.ts:76334
+main.ts:75006

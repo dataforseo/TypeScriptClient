@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPagePagesResultInfo
+[Documentation](../globals.md) / OnPagePagesResultInfo
 
 # Class: OnPagePagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:158539
+main.ts:155291
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:158527
+main.ts:155279
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:158529
+main.ts:155281
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Defined in
 
-main.ts:158535
+main.ts:155287
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:158533
+main.ts:155285
 
 ***
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:158531
+main.ts:155283
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:158531
 
 #### Defined in
 
-main.ts:158548
+main.ts:155300
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:158548
 
 #### Defined in
 
-main.ts:158573
+main.ts:155325
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:158573
 
 #### Defined in
 
-main.ts:158566
+main.ts:155318

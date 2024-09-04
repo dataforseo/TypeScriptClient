@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixBingKeywordsDataDayStatisticsDataInfo
+[Documentation](../globals.md) / IAppendixBingKeywordsDataDayStatisticsDataInfo
 
 # Interface: IAppendixBingKeywordsDataDayStatisticsDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:223075
+main.ts:218335
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:223075
 
 #### Defined in
 
-main.ts:223078
+main.ts:218338
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:223078
 
 #### Defined in
 
-main.ts:223077
+main.ts:218337
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:223077
 
 #### Defined in
 
-main.ts:223076
+main.ts:218336
 
 ***
 
@@ -58,4 +58,4 @@ main.ts:223076
 
 #### Defined in
 
-main.ts:223079
+main.ts:218339

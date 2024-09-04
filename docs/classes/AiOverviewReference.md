@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AiOverviewReference
+[Documentation](../globals.md) / AiOverviewReference
 
 # Class: AiOverviewReference
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:38197
+main.ts:36395
 
 ## Properties
 
@@ -46,7 +46,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:38186
+main.ts:36384
 
 ***
 
@@ -63,7 +63,7 @@ indicates the source of information included in the questions_and_answers_elemen
 
 #### Defined in
 
-main.ts:38184
+main.ts:36382
 
 ***
 
@@ -80,7 +80,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 #### Defined in
 
-main.ts:38193
+main.ts:36391
 
 ***
 
@@ -96,7 +96,7 @@ title of a given shopping element
 
 #### Defined in
 
-main.ts:38190
+main.ts:36388
 
 ***
 
@@ -112,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:38181
+main.ts:36379
 
 ***
 
@@ -128,7 +128,7 @@ URL
 
 #### Defined in
 
-main.ts:38188
+main.ts:36386
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:38188
 
 #### Defined in
 
-main.ts:38206
+main.ts:36404
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:38206
 
 #### Defined in
 
-main.ts:38228
+main.ts:36426
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:38228
 
 #### Defined in
 
-main.ts:38221
+main.ts:36419

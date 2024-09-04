@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsDomainRankOverviewLiveItem
+[Documentation](../globals.md) / DataforseoLabsDomainRankOverviewLiveItem
 
 # Class: DataforseoLabsDomainRankOverviewLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:96765
+main.ts:95405
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:96759
+main.ts:95399
 
 ***
 
@@ -62,7 +62,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:96757
+main.ts:95397
 
 ***
 
@@ -82,7 +82,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:96761
+main.ts:95401
 
 ***
 
@@ -98,7 +98,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96755
+main.ts:95395
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:96755
 
 #### Defined in
 
-main.ts:96774
+main.ts:95414
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:96774
 
 #### Defined in
 
-main.ts:96800
+main.ts:95440
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:96800
 
 #### Defined in
 
-main.ts:96793
+main.ts:95433

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsErrorsRequestInfo
+[Documentation](../globals.md) / DataforseoLabsErrorsRequestInfo
 
 # Class: DataforseoLabsErrorsRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:82115
+main.ts:80787
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:82104
+main.ts:80776
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:82111
+main.ts:80783
 
 ***
 
@@ -92,7 +92,7 @@ example: dataforseo_labs/related_keywords/live
 
 #### Defined in
 
-main.ts:82097
+main.ts:80769
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:82086
+main.ts:80758
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:82091
+main.ts:80763
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:82091
 
 #### Defined in
 
-main.ts:82124
+main.ts:80796
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:82124
 
 #### Defined in
 
-main.ts:82145
+main.ts:80817
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:82145
 
 #### Defined in
 
-main.ts:82138
+main.ts:80810

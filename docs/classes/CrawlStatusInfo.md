@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CrawlStatusInfo
+[Documentation](../globals.md) / CrawlStatusInfo
 
 # Class: CrawlStatusInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22179
+main.ts:22495
 
 ## Properties
 
@@ -47,7 +47,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 #### Defined in
 
-main.ts:22171
+main.ts:22487
 
 ***
 
@@ -63,7 +63,7 @@ number of crawled pages
 
 #### Defined in
 
-main.ts:22175
+main.ts:22491
 
 ***
 
@@ -79,7 +79,7 @@ number of pages that are currently in the crawling queue
 
 #### Defined in
 
-main.ts:22173
+main.ts:22489
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:22173
 
 #### Defined in
 
-main.ts:22188
+main.ts:22504
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:22188
 
 #### Defined in
 
-main.ts:22207
+main.ts:22523
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:22207
 
 #### Defined in
 
-main.ts:22200
+main.ts:22516

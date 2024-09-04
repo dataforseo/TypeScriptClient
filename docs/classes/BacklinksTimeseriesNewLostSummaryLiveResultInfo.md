@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksTimeseriesNewLostSummaryLiveResultInfo
+[Documentation](../globals.md) / BacklinksTimeseriesNewLostSummaryLiveResultInfo
 
 # Class: BacklinksTimeseriesNewLostSummaryLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:151906
+main.ts:148772
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:151891
+main.ts:148757
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:151896
+main.ts:148762
 
 ***
 
@@ -84,7 +84,7 @@ group_range from the POST array
 
 #### Defined in
 
-main.ts:151898
+main.ts:148764
 
 ***
 
@@ -100,7 +100,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:151902
+main.ts:148768
 
 ***
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:151900
+main.ts:148766
 
 ***
 
@@ -132,7 +132,7 @@ target from a POST array
 
 #### Defined in
 
-main.ts:151886
+main.ts:148752
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:151886
 
 #### Defined in
 
-main.ts:151915
+main.ts:148781
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:151915
 
 #### Defined in
 
-main.ts:151941
+main.ts:148807
 
 ***
 
@@ -186,4 +186,4 @@ main.ts:151941
 
 #### Defined in
 
-main.ts:151934
+main.ts:148800

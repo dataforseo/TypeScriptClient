@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpNaverOrganicTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpNaverOrganicTaskGetHtmlResultInfo
 
 # Class: SerpNaverOrganicTaskGetHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:73625
+main.ts:72297
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:73617
+main.ts:72289
 
 ***
 
@@ -65,7 +65,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:73621
+main.ts:72293
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:73619
+main.ts:72291
 
 ***
 
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:73604
+main.ts:72276
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:73612
+main.ts:72284
 
 ***
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:73610
+main.ts:72282
 
 ***
 
@@ -146,7 +146,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:73608
+main.ts:72280
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:73606
+main.ts:72278
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:73606
 
 #### Defined in
 
-main.ts:73634
+main.ts:72306
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:73634
 
 #### Defined in
 
-main.ts:73662
+main.ts:72334
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:73662
 
 #### Defined in
 
-main.ts:73655
+main.ts:72327

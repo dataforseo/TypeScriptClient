@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleLanguagesResultInfo
+[Documentation](../globals.md) / MerchantGoogleLanguagesResultInfo
 
 # Class: MerchantGoogleLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:177086
+main.ts:173016
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:177082
+main.ts:173012
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:177080
+main.ts:173010
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:177080
 
 #### Defined in
 
-main.ts:177095
+main.ts:173025
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:177095
 
 #### Defined in
 
-main.ts:177113
+main.ts:173043
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:177113
 
 #### Defined in
 
-main.ts:177106
+main.ts:173036

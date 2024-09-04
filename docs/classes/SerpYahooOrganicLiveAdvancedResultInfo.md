@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooOrganicLiveAdvancedResultInfo
+[Documentation](../globals.md) / SerpYahooOrganicLiveAdvancedResultInfo
 
 # Class: SerpYahooOrganicLiveAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:69758
+main.ts:68464
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:69735
+main.ts:68441
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:69740
+main.ts:68446
 
 ***
 
@@ -85,7 +85,7 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
 
 #### Defined in
 
-main.ts:69748
+main.ts:68454
 
 ***
 
@@ -101,7 +101,7 @@ items featured in the faq_box
 
 #### Defined in
 
-main.ts:69754
+main.ts:68460
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:69752
+main.ts:68458
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:69724
+main.ts:68430
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:69732
+main.ts:68438
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:69730
+main.ts:68436
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:69728
+main.ts:68434
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:69750
+main.ts:68456
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:69743
+main.ts:68449
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:69726
+main.ts:68432
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:69726
 
 #### Defined in
 
-main.ts:69767
+main.ts:68473
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:69767
 
 #### Defined in
 
-main.ts:69803
+main.ts:68509
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:69803
 
 #### Defined in
 
-main.ts:69796
+main.ts:68502

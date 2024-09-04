@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataApi
+[Documentation](../globals.md) / BusinessDataApi
 
 # Class: BusinessDataApi
 

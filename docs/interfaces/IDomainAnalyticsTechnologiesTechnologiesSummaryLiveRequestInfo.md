@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:78285
+main.ts:76957
 
 ***
 
@@ -49,7 +49,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:78320
+main.ts:76992
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:78278
+main.ts:76950
 
 ***
 
@@ -84,7 +84,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:78328
+main.ts:77000
 
 ***
 
@@ -101,7 +101,7 @@ example:
 
 #### Defined in
 
-main.ts:78299
+main.ts:76971
 
 ***
 
@@ -118,7 +118,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:78306
+main.ts:76978
 
 ***
 
@@ -134,7 +134,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:78334
+main.ts:77006
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:78292
+main.ts:76964
 
 ***
 
@@ -170,4 +170,4 @@ example:
 
 #### Defined in
 
-main.ts:78271
+main.ts:76943

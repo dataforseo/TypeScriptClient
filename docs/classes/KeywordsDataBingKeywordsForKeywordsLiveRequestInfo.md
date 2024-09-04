@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingKeywordsForKeywordsLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataBingKeywordsForKeywordsLiveRequestInfo
 
 # Class: KeywordsDataBingKeywordsForKeywordsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:134952
+main.ts:131818
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:134927
+main.ts:131793
 
 ***
 
@@ -77,7 +77,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:134937
+main.ts:131803
 
 ***
 
@@ -97,7 +97,7 @@ default value: all
 
 #### Defined in
 
-main.ts:134918
+main.ts:131784
 
 ***
 
@@ -116,7 +116,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:134867
+main.ts:131733
 
 ***
 
@@ -136,7 +136,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:134912
+main.ts:131778
 
 ***
 
@@ -156,7 +156,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:134901
+main.ts:131767
 
 ***
 
@@ -176,7 +176,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:134895
+main.ts:131761
 
 ***
 
@@ -197,7 +197,7 @@ example:
 
 #### Defined in
 
-main.ts:134881
+main.ts:131747
 
 ***
 
@@ -219,7 +219,7 @@ example:
 
 #### Defined in
 
-main.ts:134889
+main.ts:131755
 
 ***
 
@@ -240,7 +240,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:134874
+main.ts:131740
 
 ***
 
@@ -259,7 +259,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:134942
+main.ts:131808
 
 ***
 
@@ -278,7 +278,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:134906
+main.ts:131772
 
 ***
 
@@ -298,7 +298,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:134948
+main.ts:131814
 
 ## Methods
 
@@ -316,7 +316,7 @@ main.ts:134948
 
 #### Defined in
 
-main.ts:134961
+main.ts:131827
 
 ***
 
@@ -334,7 +334,7 @@ main.ts:134961
 
 #### Defined in
 
-main.ts:134998
+main.ts:131864
 
 ***
 
@@ -352,4 +352,4 @@ main.ts:134998
 
 #### Defined in
 
-main.ts:134991
+main.ts:131857

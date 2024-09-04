@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixStatusResultInfo
+[Documentation](../globals.md) / AppendixStatusResultInfo
 
 # Class: AppendixStatusResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:228989
+main.ts:224249
 
 ## Properties
 
@@ -59,7 +59,7 @@ content_generation
 
 #### Defined in
 
-main.ts:228973
+main.ts:224233
 
 ***
 
@@ -75,7 +75,7 @@ array of objects that contain status information for API endpoints
 
 #### Defined in
 
-main.ts:228985
+main.ts:224245
 
 ***
 
@@ -99,7 +99,7 @@ send_delay
 
 #### Defined in
 
-main.ts:228983
+main.ts:224243
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:228983
 
 #### Defined in
 
-main.ts:228998
+main.ts:224258
 
 ***
 
@@ -135,7 +135,7 @@ main.ts:228998
 
 #### Defined in
 
-main.ts:229021
+main.ts:224281
 
 ***
 
@@ -153,4 +153,4 @@ main.ts:229021
 
 #### Defined in
 
-main.ts:229014
+main.ts:224274

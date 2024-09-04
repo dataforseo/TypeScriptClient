@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
+[Documentation](../globals.md) / KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataClickstreamDataGlobalSearchVolumeLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:139374
+main.ts:136240
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:139370
+main.ts:136236
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:139368
+main.ts:136234
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:139368
 
 #### Defined in
 
-main.ts:139383
+main.ts:136249
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:139383
 
 #### Defined in
 
-main.ts:139405
+main.ts:136271
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:139405
 
 #### Defined in
 
-main.ts:139398
+main.ts:136264

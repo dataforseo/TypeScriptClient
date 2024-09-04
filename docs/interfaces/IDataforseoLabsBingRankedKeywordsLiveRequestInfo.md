@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingRankedKeywordsLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingRankedKeywordsLiveRequestInfo
 
@@ -38,7 +38,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:111770
+main.ts:108904
 
 ***
 
@@ -57,7 +57,7 @@ default value: live
 
 #### Defined in
 
-main.ts:111750
+main.ts:108884
 
 ***
 
@@ -72,7 +72,7 @@ default value: false
 
 #### Defined in
 
-main.ts:111726
+main.ts:108860
 
 ***
 
@@ -91,7 +91,7 @@ default value:
 
 #### Defined in
 
-main.ts:111721
+main.ts:108855
 
 ***
 
@@ -110,7 +110,7 @@ en
 
 #### Defined in
 
-main.ts:111712
+main.ts:108846
 
 ***
 
@@ -129,7 +129,7 @@ English
 
 #### Defined in
 
-main.ts:111703
+main.ts:108837
 
 ***
 
@@ -144,7 +144,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:111731
+main.ts:108865
 
 ***
 
@@ -159,7 +159,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-main.ts:111741
+main.ts:108875
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:111694
+main.ts:108828
 
 ***
 
@@ -199,7 +199,7 @@ United States
 
 #### Defined in
 
-main.ts:111684
+main.ts:108818
 
 ***
 
@@ -214,7 +214,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:111736
+main.ts:108870
 
 ***
 
@@ -240,7 +240,7 @@ example:
 
 #### Defined in
 
-main.ts:111786
+main.ts:108920
 
 ***
 
@@ -256,7 +256,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:111792
+main.ts:108926
 
 ***
 
@@ -276,4 +276,4 @@ example:
 
 #### Defined in
 
-main.ts:111674
+main.ts:108808

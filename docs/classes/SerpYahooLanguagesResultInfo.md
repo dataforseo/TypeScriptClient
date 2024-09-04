@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooLanguagesResultInfo
+[Documentation](../globals.md) / SerpYahooLanguagesResultInfo
 
 # Class: SerpYahooLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:68035
+main.ts:66741
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:68031
+main.ts:66737
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:68029
+main.ts:66735
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:68029
 
 #### Defined in
 
-main.ts:68044
+main.ts:66750
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:68044
 
 #### Defined in
 
-main.ts:68062
+main.ts:66768
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:68062
 
 #### Defined in
 
-main.ts:68055
+main.ts:66761

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageResourcesRequestInfo
+[Documentation](../globals.md) / OnPageResourcesRequestInfo
 
 # Class: OnPageResourcesRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:159170
+main.ts:155922
 
 ## Properties
 
@@ -58,7 +58,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:159134
+main.ts:155886
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Defined in
 
-main.ts:159104
+main.ts:155856
 
 ***
 
@@ -97,7 +97,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:159115
+main.ts:155867
 
 ***
 
@@ -116,7 +116,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Defined in
 
-main.ts:159120
+main.ts:155872
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:159160
+main.ts:155912
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Defined in
 
-main.ts:159146
+main.ts:155898
 
 ***
 
@@ -190,7 +190,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159166
+main.ts:155918
 
 ***
 
@@ -210,7 +210,7 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Defined in
 
-main.ts:159110
+main.ts:155862
 
 ## Methods
 
@@ -228,7 +228,7 @@ main.ts:159110
 
 #### Defined in
 
-main.ts:159179
+main.ts:155931
 
 ***
 
@@ -246,7 +246,7 @@ main.ts:159179
 
 #### Defined in
 
-main.ts:159215
+main.ts:155967
 
 ***
 
@@ -264,4 +264,4 @@ main.ts:159215
 
 #### Defined in
 
-main.ts:159208
+main.ts:155960

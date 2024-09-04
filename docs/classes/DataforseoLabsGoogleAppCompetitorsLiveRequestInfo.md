@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleAppCompetitorsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleAppCompetitorsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleAppCompetitorsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:115554
+main.ts:112650
 
 ## Properties
 
@@ -52,7 +52,7 @@ the id is org.telegram.messenger
 
 #### Defined in
 
-main.ts:115467
+main.ts:112563
 
 ***
 
@@ -80,7 +80,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:115517
+main.ts:112613
 
 ***
 
@@ -103,7 +103,7 @@ en
 
 #### Defined in
 
-main.ts:115503
+main.ts:112599
 
 ***
 
@@ -126,7 +126,7 @@ English
 
 #### Defined in
 
-main.ts:115494
+main.ts:112590
 
 ***
 
@@ -145,7 +145,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:115539
+main.ts:112635
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Defined in
 
-main.ts:115485
+main.ts:112581
 
 ***
 
@@ -191,7 +191,7 @@ United States
 
 #### Defined in
 
-main.ts:115476
+main.ts:112572
 
 ***
 
@@ -210,7 +210,7 @@ if you specify the 10 value, the first ten apps in the results array will be omi
 
 #### Defined in
 
-main.ts:115544
+main.ts:112640
 
 ***
 
@@ -241,7 +241,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:115534
+main.ts:112630
 
 ***
 
@@ -261,7 +261,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:115550
+main.ts:112646
 
 ## Methods
 
@@ -279,7 +279,7 @@ main.ts:115550
 
 #### Defined in
 
-main.ts:115563
+main.ts:112659
 
 ***
 
@@ -297,7 +297,7 @@ main.ts:115563
 
 #### Defined in
 
-main.ts:115597
+main.ts:112693
 
 ***
 
@@ -315,4 +315,4 @@ main.ts:115597
 
 #### Defined in
 
-main.ts:115590
+main.ts:112686

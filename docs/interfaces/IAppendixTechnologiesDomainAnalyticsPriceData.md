@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixTechnologiesDomainAnalyticsPriceData
+[Documentation](../globals.md) / IAppendixTechnologiesDomainAnalyticsPriceData
 
 # Interface: IAppendixTechnologiesDomainAnalyticsPriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:228076
+main.ts:223336
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:228076
 
 #### Defined in
 
-main.ts:228079
+main.ts:223339
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:228079
 
 #### Defined in
 
-main.ts:228077
+main.ts:223337
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:228077
 
 #### Defined in
 
-main.ts:228078
+main.ts:223338
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:228078
 
 #### Defined in
 
-main.ts:228073
+main.ts:223333
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:228073
 
 #### Defined in
 
-main.ts:228074
+main.ts:223334
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:228074
 
 #### Defined in
 
-main.ts:228075
+main.ts:223335
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:228075
 
 #### Defined in
 
-main.ts:228080
+main.ts:223340
 
 ***
 
@@ -98,4 +98,4 @@ main.ts:228080
 
 #### Defined in
 
-main.ts:228081
+main.ts:223341

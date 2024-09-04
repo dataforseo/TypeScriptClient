@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduOrganicTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpBaiduOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpBaiduOrganicTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:72035
+main.ts:70707
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:72011
+main.ts:70683
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:72016
+main.ts:70688
 
 ***
 
@@ -85,7 +85,7 @@ images, local_pack, map, organic, paid, related_searches, video, stocks_box, dic
 
 #### Defined in
 
-main.ts:72024
+main.ts:70696
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:72031
+main.ts:70703
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:72028
+main.ts:70700
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:72000
+main.ts:70672
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:72008
+main.ts:70680
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:72006
+main.ts:70678
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:72004
+main.ts:70676
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:72026
+main.ts:70698
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:72019
+main.ts:70691
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:72002
+main.ts:70674
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:72002
 
 #### Defined in
 
-main.ts:72044
+main.ts:70716
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:72044
 
 #### Defined in
 
-main.ts:72080
+main.ts:70752
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:72080
 
 #### Defined in
 
-main.ts:72073
+main.ts:70745

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CoursesElement
+[Documentation](../globals.md) / CoursesElement
 
 # Class: CoursesElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:37973
+main.ts:36209
 
 ## Properties
 
@@ -46,7 +46,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:37964
+main.ts:36200
 
 ***
 
@@ -62,7 +62,7 @@ description
 
 #### Defined in
 
-main.ts:37962
+main.ts:36198
 
 ***
 
@@ -78,7 +78,7 @@ website domain
 
 #### Defined in
 
-main.ts:37957
+main.ts:36193
 
 ***
 
@@ -94,7 +94,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:37966
+main.ts:36202
 
 ***
 
@@ -111,7 +111,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:37969
+main.ts:36205
 
 ***
 
@@ -128,7 +128,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:37960
+main.ts:36196
 
 ***
 
@@ -144,7 +144,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:37953
+main.ts:36189
 
 ***
 
@@ -160,7 +160,7 @@ type of element
 
 #### Defined in
 
-main.ts:37951
+main.ts:36187
 
 ***
 
@@ -176,7 +176,7 @@ URL
 
 #### Defined in
 
-main.ts:37955
+main.ts:36191
 
 ## Methods
 
@@ -194,7 +194,7 @@ main.ts:37955
 
 #### Defined in
 
-main.ts:37982
+main.ts:36218
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:37982
 
 #### Defined in
 
-main.ts:38007
+main.ts:36243
 
 ***
 
@@ -230,4 +230,4 @@ main.ts:38007
 
 #### Defined in
 
-main.ts:38000
+main.ts:36236

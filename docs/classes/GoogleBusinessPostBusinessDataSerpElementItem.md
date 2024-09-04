@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleBusinessPostBusinessDataSerpElementItem
+[Documentation](../globals.md) / GoogleBusinessPostBusinessDataSerpElementItem
 
 # Class: GoogleBusinessPostBusinessDataSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:207296
+main.ts:202644
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:207296
 
 #### Defined in
 
-main.ts:21279
+main.ts:21308
 
 ***
 
@@ -68,7 +68,7 @@ author of the post
 
 #### Defined in
 
-main.ts:207273
+main.ts:202621
 
 ***
 
@@ -84,7 +84,7 @@ url of an image included in the post
 
 #### Defined in
 
-main.ts:207281
+main.ts:202629
 
 ***
 
@@ -100,7 +100,7 @@ links included in the post
 
 #### Defined in
 
-main.ts:207292
+main.ts:202640
 
 ***
 
@@ -117,7 +117,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:207269
+main.ts:202617
 
 ***
 
@@ -135,7 +135,7 @@ in the following format:
 
 #### Defined in
 
-main.ts:207285
+main.ts:202633
 
 ***
 
@@ -151,7 +151,7 @@ main content of a post
 
 #### Defined in
 
-main.ts:207277
+main.ts:202625
 
 ***
 
@@ -159,16 +159,19 @@ main.ts:207277
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed updates
-absolute position among all present elements
+absolute rank among all the elements
 
 #### Implementation of
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_absolute`](BaseBusinessDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:207266
+main.ts:21306
 
 ***
 
@@ -177,15 +180,19 @@ main.ts:207266
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
 
 #### Implementation of
 
 [`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_group`](BaseBusinessDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:207263
+main.ts:21304
 
 ***
 
@@ -201,7 +208,7 @@ additional content of a post
 
 #### Defined in
 
-main.ts:207275
+main.ts:202623
 
 ***
 
@@ -220,7 +227,27 @@ example:
 
 #### Defined in
 
-main.ts:207290
+main.ts:202638
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleBusinessPostBusinessDataSerpElementItem`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md).[`type`](../interfaces/IGoogleBusinessPostBusinessDataSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`type`](BaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21301
 
 ***
 
@@ -236,7 +263,7 @@ url of a post
 
 #### Defined in
 
-main.ts:207279
+main.ts:202627
 
 ***
 
@@ -252,7 +279,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:207271
+main.ts:202619
 
 ## Methods
 
@@ -274,7 +301,7 @@ main.ts:207271
 
 #### Defined in
 
-main.ts:207301
+main.ts:202649
 
 ***
 
@@ -296,7 +323,7 @@ main.ts:207301
 
 #### Defined in
 
-main.ts:207334
+main.ts:202680
 
 ***
 
@@ -318,4 +345,4 @@ main.ts:207334
 
 #### Defined in
 
-main.ts:207327
+main.ts:202673

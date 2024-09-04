@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBaiduOrganicTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / ISerpBaiduOrganicTaskGetAdvancedResultInfo
 
 # Interface: ISerpBaiduOrganicTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:72124
+main.ts:70796
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:72129
+main.ts:70801
 
 ***
 
@@ -51,7 +51,7 @@ images, local_pack, map, organic, paid, related_searches, video, stocks_box, dic
 
 #### Defined in
 
-main.ts:72137
+main.ts:70809
 
 ***
 
@@ -64,7 +64,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:72144
+main.ts:70816
 
 ***
 
@@ -76,7 +76,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:72141
+main.ts:70813
 
 ***
 
@@ -89,7 +89,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:72113
+main.ts:70785
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:72121
+main.ts:70793
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:72119
+main.ts:70791
 
 ***
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:72117
+main.ts:70789
 
 ***
 
@@ -137,7 +137,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:72139
+main.ts:70811
 
 ***
 
@@ -150,7 +150,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:72132
+main.ts:70804
 
 ***
 
@@ -162,4 +162,4 @@ type of element
 
 #### Defined in
 
-main.ts:72115
+main.ts:70787

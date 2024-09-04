@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduOrganicTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpBaiduOrganicTaskGetHtmlResultInfo
 
 # Class: SerpBaiduOrganicTaskGetHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:72283
+main.ts:70955
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:72275
+main.ts:70947
 
 ***
 
@@ -65,7 +65,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:72279
+main.ts:70951
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:72277
+main.ts:70949
 
 ***
 
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:72262
+main.ts:70934
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:72270
+main.ts:70942
 
 ***
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:72268
+main.ts:70940
 
 ***
 
@@ -146,7 +146,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:72266
+main.ts:70938
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:72264
+main.ts:70936
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:72264
 
 #### Defined in
 
-main.ts:72292
+main.ts:70964
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:72292
 
 #### Defined in
 
-main.ts:72320
+main.ts:70992
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:72320
 
 #### Defined in
 
-main.ts:72313
+main.ts:70985

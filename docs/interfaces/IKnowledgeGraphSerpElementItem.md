@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphSerpElementItem
+[Documentation](../globals.md) / IKnowledgeGraphSerpElementItem
 
 # Interface: IKnowledgeGraphSerpElementItem
 
@@ -24,7 +24,7 @@ card id
 
 #### Defined in
 
-main.ts:29416
+main.ts:29284
 
 ***
 
@@ -38,7 +38,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:29427
+main.ts:29295
 
 ***
 
@@ -50,7 +50,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29414
+main.ts:29282
 
 ***
 
@@ -63,7 +63,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:29421
+main.ts:29289
 
 ***
 
@@ -76,7 +76,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29430
+main.ts:29298
 
 ***
 
@@ -88,7 +88,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:29423
+main.ts:29291
 
 ***
 
@@ -100,9 +100,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:29406
+main.ts:20721
 
 ***
 
@@ -113,9 +117,13 @@ main.ts:29406
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:29402
+main.ts:20717
 
 ***
 
@@ -127,9 +135,13 @@ group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:29399
+main.ts:20714
 
 ***
 
@@ -143,7 +155,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29434
+main.ts:29302
 
 ***
 
@@ -155,7 +167,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:29412
+main.ts:29280
 
 ***
 
@@ -167,7 +179,23 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:29410
+main.ts:29278
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -179,7 +207,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:29418
+main.ts:29286
 
 ***
 
@@ -189,6 +217,10 @@ main.ts:29418
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:29408
+main.ts:20723

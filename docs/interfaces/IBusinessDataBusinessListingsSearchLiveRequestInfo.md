@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataBusinessListingsSearchLiveRequestInfo
+[Documentation](../globals.md) / IBusinessDataBusinessListingsSearchLiveRequestInfo
 
 # Interface: IBusinessDataBusinessListingsSearchLiveRequestInfo
 
@@ -24,7 +24,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:202923
+main.ts:198305
 
 ***
 
@@ -39,7 +39,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:202928
+main.ts:198310
 
 ***
 
@@ -60,7 +60,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:202957
+main.ts:198339
 
 ***
 
@@ -73,7 +73,7 @@ optional field
 
 #### Defined in
 
-main.ts:202936
+main.ts:198318
 
 ***
 
@@ -88,7 +88,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:202975
+main.ts:198357
 
 ***
 
@@ -108,7 +108,7 @@ example:
 
 #### Defined in
 
-main.ts:202946
+main.ts:198328
 
 ***
 
@@ -123,7 +123,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-main.ts:202980
+main.ts:198362
 
 ***
 
@@ -141,7 +141,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:202988
+main.ts:198370
 
 ***
 
@@ -164,7 +164,7 @@ example:
 
 #### Defined in
 
-main.ts:202970
+main.ts:198352
 
 ***
 
@@ -180,7 +180,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:202994
+main.ts:198376
 
 ***
 
@@ -195,4 +195,4 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:202933
+main.ts:198315

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
+[Documentation](../globals.md) / BusinessDataSocialMediaPinterestLiveRequestInfo
 
 # Class: BusinessDataSocialMediaPinterestLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:219347
+main.ts:214607
 
 ## Properties
 
@@ -50,7 +50,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:219343
+main.ts:214603
 
 ***
 
@@ -71,7 +71,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-main.ts:219337
+main.ts:214597
 
 ## Methods
 
@@ -89,7 +89,7 @@ main.ts:219337
 
 #### Defined in
 
-main.ts:219356
+main.ts:214616
 
 ***
 
@@ -107,7 +107,7 @@ main.ts:219356
 
 #### Defined in
 
-main.ts:219378
+main.ts:214638
 
 ***
 
@@ -125,4 +125,4 @@ main.ts:219378
 
 #### Defined in
 
-main.ts:219371
+main.ts:214631

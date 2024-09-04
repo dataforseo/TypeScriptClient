@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveRequestInfo
 
@@ -34,7 +34,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:88827
+main.ts:87499
 
 ***
 
@@ -51,7 +51,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:88802
+main.ts:87474
 
 ***
 
@@ -67,7 +67,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:88795
+main.ts:87467
 
 ***
 
@@ -86,7 +86,7 @@ default value:
 
 #### Defined in
 
-main.ts:88811
+main.ts:87483
 
 ***
 
@@ -104,7 +104,7 @@ en
 
 #### Defined in
 
-main.ts:88789
+main.ts:87461
 
 ***
 
@@ -122,7 +122,7 @@ English
 
 #### Defined in
 
-main.ts:88781
+main.ts:87453
 
 ***
 
@@ -137,7 +137,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:88849
+main.ts:87521
 
 ***
 
@@ -155,7 +155,7 @@ example:
 
 #### Defined in
 
-main.ts:88773
+main.ts:87445
 
 ***
 
@@ -173,7 +173,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:88765
+main.ts:87437
 
 ***
 
@@ -188,7 +188,7 @@ if you specify the 10 value, the first ten categories in the results array will 
 
 #### Defined in
 
-main.ts:88854
+main.ts:87526
 
 ***
 
@@ -215,7 +215,7 @@ Note: if the item_types array contains item types that are different from the or
 
 #### Defined in
 
-main.ts:88844
+main.ts:87516
 
 ***
 
@@ -231,7 +231,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:88860
+main.ts:87532
 
 ***
 
@@ -246,4 +246,4 @@ the domain or subdomain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:88757
+main.ts:87429

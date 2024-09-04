@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
+[Documentation](../globals.md) / IAppDataGooglePlayReviewsSearchSerpElementItem
 
 # Interface: IAppDataGooglePlayReviewsSearchSerpElementItem
 
@@ -25,7 +25,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Defined in
 
-main.ts:195695
+main.ts:191152
 
 ***
 
@@ -37,7 +37,7 @@ id of the review
 
 #### Defined in
 
-main.ts:195692
+main.ts:191149
 
 ***
 
@@ -45,12 +45,17 @@ main.ts:195692
 
 > `optional` **position**: `string`
 
-the alignment of the review in SERP
-can take the following values: left
+the alignment of the element in SERP
+can take the following values:
+left, right
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
 
 #### Defined in
 
-main.ts:195680
+main.ts:22068
 
 ***
 
@@ -58,12 +63,16 @@ main.ts:195680
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:195677
+main.ts:22064
 
 ***
 
@@ -74,9 +83,13 @@ main.ts:195677
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:195674
+main.ts:22061
 
 ***
 
@@ -84,11 +97,15 @@ main.ts:195674
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the rating score submitted by the reviewer
+average rating of the app
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
 
 #### Defined in
 
-main.ts:195685
+main.ts:22072
 
 ***
 
@@ -100,7 +117,7 @@ response from the developer
 
 #### Defined in
 
-main.ts:195704
+main.ts:191158
 
 ***
 
@@ -112,7 +129,7 @@ content of the review
 
 #### Defined in
 
-main.ts:195700
+main.ts:191154
 
 ***
 
@@ -127,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:195690
+main.ts:191147
 
 ***
 
@@ -135,12 +152,31 @@ main.ts:195690
 
 > `optional` **title**: `string`
 
-title of the review
-Google Play doesn’t provide an option to title reviews, so this parameter will always equal null
+title of the app
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
 
 #### Defined in
 
-main.ts:195698
+main.ts:22070
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22058
 
 ***
 
@@ -152,7 +188,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:195702
+main.ts:191156
 
 ***
 
@@ -165,4 +201,4 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:195683
+main.ts:191142

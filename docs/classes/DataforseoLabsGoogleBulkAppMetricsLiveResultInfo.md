@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:114529
+main.ts:111663
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains data related to the ranking app metrics of the specified application
 
 #### Defined in
 
-main.ts:114525
+main.ts:111659
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:114523
+main.ts:111657
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:114519
+main.ts:111653
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:114517
+main.ts:111651
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:114515
+main.ts:111649
 
 ***
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:114521
+main.ts:111655
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:114521
 
 #### Defined in
 
-main.ts:114538
+main.ts:111672
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:114538
 
 #### Defined in
 
-main.ts:114564
+main.ts:111698
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:114564
 
 #### Defined in
 
-main.ts:114557
+main.ts:111691

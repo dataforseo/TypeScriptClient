@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpNaverOrganicTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpNaverOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpNaverOrganicTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:73377
+main.ts:72049
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:73353
+main.ts:72025
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:73358
+main.ts:72030
 
 ***
 
@@ -85,7 +85,7 @@ images, local_pack, map, organic, paid, related_searches, video
 
 #### Defined in
 
-main.ts:73366
+main.ts:72038
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:73373
+main.ts:72045
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:73370
+main.ts:72042
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:73342
+main.ts:72014
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:73350
+main.ts:72022
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:73348
+main.ts:72020
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:73346
+main.ts:72018
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:73368
+main.ts:72040
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:73361
+main.ts:72033
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:73344
+main.ts:72016
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:73344
 
 #### Defined in
 
-main.ts:73386
+main.ts:72058
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:73386
 
 #### Defined in
 
-main.ts:73422
+main.ts:72094
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:73422
 
 #### Defined in
 
-main.ts:73415
+main.ts:72087

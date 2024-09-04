@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingRelatedKeywordsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsBingRelatedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsBingRelatedKeywordsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:112530
+main.ts:109664
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:112526
+main.ts:109660
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:112524
+main.ts:109658
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:112520
+main.ts:109654
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:112518
+main.ts:109652
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:112511
+main.ts:109645
 
 ***
 
@@ -126,7 +126,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:112513
+main.ts:109647
 
 ***
 
@@ -143,7 +143,7 @@ fields in the array are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:112516
+main.ts:109650
 
 ***
 
@@ -159,7 +159,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:112522
+main.ts:109656
 
 ## Methods
 
@@ -177,7 +177,7 @@ main.ts:112522
 
 #### Defined in
 
-main.ts:112539
+main.ts:109673
 
 ***
 
@@ -195,7 +195,7 @@ main.ts:112539
 
 #### Defined in
 
-main.ts:112567
+main.ts:109701
 
 ***
 
@@ -213,4 +213,4 @@ main.ts:112567
 
 #### Defined in
 
-main.ts:112560
+main.ts:109694

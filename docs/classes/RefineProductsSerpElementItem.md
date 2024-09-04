@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RefineProductsSerpElementItem
+[Documentation](../globals.md) / RefineProductsSerpElementItem
 
 # Class: RefineProductsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:37049
+main.ts:35460
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:37049
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:37041
+main.ts:35452
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`position`](../interfaces/IRefineProductsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:37034
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:37034
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`rank_absolute`](../interfaces/IRefineProductsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:37030
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:37030
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`rank_group`](../interfaces/IRefineProductsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:37026
+main.ts:20356
 
 ***
 
@@ -142,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:37045
+main.ts:35456
 
 ***
 
@@ -158,7 +168,27 @@ title of the row
 
 #### Defined in
 
-main.ts:37038
+main.ts:35449
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`type`](../interfaces/IRefineProductsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -172,9 +202,13 @@ the XPath of the element
 
 [`IRefineProductsSerpElementItem`](../interfaces/IRefineProductsSerpElementItem.md).[`xpath`](../interfaces/IRefineProductsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:37036
+main.ts:20365
 
 ## Methods
 
@@ -196,7 +230,7 @@ main.ts:37036
 
 #### Defined in
 
-main.ts:37054
+main.ts:35465
 
 ***
 
@@ -218,7 +252,7 @@ main.ts:37054
 
 #### Defined in
 
-main.ts:37082
+main.ts:35489
 
 ***
 
@@ -240,4 +274,4 @@ main.ts:37082
 
 #### Defined in
 
-main.ts:37075
+main.ts:35482

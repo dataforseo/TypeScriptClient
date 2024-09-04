@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataIdListRequestInfo
+[Documentation](../globals.md) / BusinessDataIdListRequestInfo
 
 # Class: BusinessDataIdListRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:201583
+main.ts:196965
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:201553
+main.ts:196935
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:201560
+main.ts:196942
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:201579
+main.ts:196961
 
 ***
 
@@ -110,7 +110,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:201565
+main.ts:196947
 
 ***
 
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:201570
+main.ts:196952
 
 ***
 
@@ -148,7 +148,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:201575
+main.ts:196957
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:201575
 
 #### Defined in
 
-main.ts:201592
+main.ts:196974
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:201592
 
 #### Defined in
 
-main.ts:201614
+main.ts:196996
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:201614
 
 #### Defined in
 
-main.ts:201607
+main.ts:196989

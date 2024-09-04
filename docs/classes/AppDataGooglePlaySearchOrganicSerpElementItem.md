@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGooglePlaySearchOrganicSerpElementItem
+[Documentation](../globals.md) / AppDataGooglePlaySearchOrganicSerpElementItem
 
 # Class: AppDataGooglePlaySearchOrganicSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:115001
+main.ts:112121
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:115001
 
 #### Defined in
 
-main.ts:21701
+main.ts:21983
 
 ***
 
@@ -68,7 +68,7 @@ id of the app
 
 #### Defined in
 
-main.ts:114979
+main.ts:112103
 
 ***
 
@@ -84,7 +84,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:114995
+main.ts:112115
 
 ***
 
@@ -100,7 +100,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:114997
+main.ts:112117
 
 ***
 
@@ -116,7 +116,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:114985
+main.ts:112107
 
 ***
 
@@ -132,7 +132,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:114991
+main.ts:112111
 
 ***
 
@@ -148,9 +148,13 @@ left, right
 
 [`IAppDataGooglePlaySearchOrganicSerpElementItem`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md).[`position`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`position`](BaseAppDataSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:114977
+main.ts:21977
 
 ***
 
@@ -166,7 +170,7 @@ price of the app
 
 #### Defined in
 
-main.ts:114993
+main.ts:112113
 
 ***
 
@@ -181,9 +185,13 @@ absolute position among all the elements in SERP
 
 [`IAppDataGooglePlaySearchOrganicSerpElementItem`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_absolute`](BaseAppDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:114973
+main.ts:21973
 
 ***
 
@@ -198,9 +206,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAppDataGooglePlaySearchOrganicSerpElementItem`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md).[`rank_group`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_group`](BaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:114970
+main.ts:21970
 
 ***
 
@@ -214,9 +226,13 @@ average rating of the app
 
 [`IAppDataGooglePlaySearchOrganicSerpElementItem`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md).[`rating`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md#rating)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rating`](BaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:114989
+main.ts:21981
 
 ***
 
@@ -232,7 +248,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:114987
+main.ts:112109
 
 ***
 
@@ -246,9 +262,33 @@ title of the app
 
 [`IAppDataGooglePlaySearchOrganicSerpElementItem`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md).[`title`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md#title)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`title`](BaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:114981
+main.ts:21979
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAppDataGooglePlaySearchOrganicSerpElementItem`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md).[`type`](../interfaces/IAppDataGooglePlaySearchOrganicSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`type`](BaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21967
 
 ***
 
@@ -264,7 +304,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:114983
+main.ts:112105
 
 ## Methods
 
@@ -286,7 +326,7 @@ main.ts:114983
 
 #### Defined in
 
-main.ts:115006
+main.ts:112126
 
 ***
 
@@ -308,7 +348,7 @@ main.ts:115006
 
 #### Defined in
 
-main.ts:115036
+main.ts:112151
 
 ***
 
@@ -330,4 +370,4 @@ main.ts:115036
 
 #### Defined in
 
-main.ts:115029
+main.ts:112144

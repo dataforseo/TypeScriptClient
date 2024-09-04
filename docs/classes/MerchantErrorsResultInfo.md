@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantErrorsResultInfo
+[Documentation](../globals.md) / MerchantErrorsResultInfo
 
 # Class: MerchantErrorsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:176881
+main.ts:172811
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:176857
+main.ts:172787
 
 ***
 
@@ -65,7 +65,7 @@ error code
 
 #### Defined in
 
-main.ts:176861
+main.ts:172791
 
 ***
 
@@ -82,7 +82,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:176864
+main.ts:172794
 
 ***
 
@@ -98,7 +98,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:176859
+main.ts:172789
 
 ***
 
@@ -114,7 +114,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:176871
+main.ts:172801
 
 ***
 
@@ -130,7 +130,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:176869
+main.ts:172799
 
 ***
 
@@ -147,7 +147,7 @@ server response
 
 #### Defined in
 
-main.ts:176877
+main.ts:172807
 
 ***
 
@@ -164,7 +164,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:176874
+main.ts:172804
 
 ***
 
@@ -181,7 +181,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:176867
+main.ts:172797
 
 ***
 
@@ -197,7 +197,7 @@ id of the task
 
 #### Defined in
 
-main.ts:176852
+main.ts:172782
 
 ## Methods
 
@@ -215,7 +215,7 @@ main.ts:176852
 
 #### Defined in
 
-main.ts:176890
+main.ts:172820
 
 ***
 
@@ -233,7 +233,7 @@ main.ts:176890
 
 #### Defined in
 
-main.ts:176916
+main.ts:172846
 
 ***
 
@@ -251,4 +251,4 @@ main.ts:176916
 
 #### Defined in
 
-main.ts:176909
+main.ts:172839

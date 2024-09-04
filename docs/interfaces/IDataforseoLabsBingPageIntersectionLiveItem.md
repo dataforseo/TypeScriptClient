@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingPageIntersectionLiveItem
+[Documentation](../globals.md) / IDataforseoLabsBingPageIntersectionLiveItem
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveItem
 
@@ -26,7 +26,7 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Defined in
 
-main.ts:111206
+main.ts:108340
 
 ***
 
@@ -38,7 +38,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:111202
+main.ts:108336
 
 ***
 
@@ -52,4 +52,4 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:111200
+main.ts:108334

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYahooOrganicLiveAdvancedResultInfo
+[Documentation](../globals.md) / ISerpYahooOrganicLiveAdvancedResultInfo
 
 # Interface: ISerpYahooOrganicLiveAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:69847
+main.ts:68553
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:69852
+main.ts:68558
 
 ***
 
@@ -51,7 +51,7 @@ featured_snippet, images, local_pack, hotels_pack, organic, paid, people_also_as
 
 #### Defined in
 
-main.ts:69860
+main.ts:68566
 
 ***
 
@@ -63,7 +63,7 @@ items featured in the faq_box
 
 #### Defined in
 
-main.ts:69866
+main.ts:68572
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:69864
+main.ts:68570
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:69836
+main.ts:68542
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:69844
+main.ts:68550
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:69842
+main.ts:68548
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:69840
+main.ts:68546
 
 ***
 
@@ -136,7 +136,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:69862
+main.ts:68568
 
 ***
 
@@ -149,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:69855
+main.ts:68561
 
 ***
 
@@ -161,4 +161,4 @@ type of element
 
 #### Defined in
 
-main.ts:69838
+main.ts:68544

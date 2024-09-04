@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForAppLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForAppLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordsForAppLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:115273
+main.ts:112369
 
 ## Properties
 
@@ -46,7 +46,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:115259
+main.ts:112355
 
 ***
 
@@ -62,7 +62,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Defined in
 
-main.ts:115269
+main.ts:112365
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:115267
+main.ts:112363
 
 ***
 
@@ -94,7 +94,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:115263
+main.ts:112359
 
 ***
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:115261
+main.ts:112357
 
 ***
 
@@ -126,7 +126,7 @@ search engine type
 
 #### Defined in
 
-main.ts:115257
+main.ts:112353
 
 ***
 
@@ -142,7 +142,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:115265
+main.ts:112361
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:115265
 
 #### Defined in
 
-main.ts:115282
+main.ts:112378
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:115282
 
 #### Defined in
 
-main.ts:115309
+main.ts:112405
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:115309
 
 #### Defined in
 
-main.ts:115302
+main.ts:112398

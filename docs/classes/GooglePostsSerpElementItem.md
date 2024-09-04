@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GooglePostsSerpElementItem
+[Documentation](../globals.md) / GooglePostsSerpElementItem
 
 # Class: GooglePostsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:36252
+main.ts:34815
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:36252
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:36244
+main.ts:34807
 
 ***
 
@@ -84,7 +84,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:36242
+main.ts:34805
 
 ***
 
@@ -100,9 +100,13 @@ left, right
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`position`](../interfaces/IGooglePostsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:36236
+main.ts:20363
 
 ***
 
@@ -118,7 +122,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:36240
+main.ts:34803
 
 ***
 
@@ -128,15 +132,18 @@ main.ts:36240
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`rank_absolute`](../interfaces/IGooglePostsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:36232
+main.ts:20359
 
 ***
 
@@ -145,17 +152,20 @@ main.ts:36232
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`rank_group`](../interfaces/IGooglePostsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:36228
+main.ts:20356
 
 ***
 
@@ -173,7 +183,27 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36248
+main.ts:34811
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`type`](../interfaces/IGooglePostsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -187,9 +217,13 @@ the XPath of the element
 
 [`IGooglePostsSerpElementItem`](../interfaces/IGooglePostsSerpElementItem.md).[`xpath`](../interfaces/IGooglePostsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:36238
+main.ts:20365
 
 ## Methods
 
@@ -211,7 +245,7 @@ main.ts:36238
 
 #### Defined in
 
-main.ts:36257
+main.ts:34820
 
 ***
 
@@ -233,7 +267,7 @@ main.ts:36257
 
 #### Defined in
 
-main.ts:36282
+main.ts:34841
 
 ***
 
@@ -255,4 +289,4 @@ main.ts:36282
 
 #### Defined in
 
-main.ts:36275
+main.ts:34834

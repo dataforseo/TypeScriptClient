@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TrendsTopicListDataInfo
+[Documentation](../globals.md) / TrendsTopicListDataInfo
 
 # Class: TrendsTopicListDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:127847
+main.ts:124815
 
 ## Properties
 
@@ -47,7 +47,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:127843
+main.ts:124811
 
 ***
 
@@ -64,7 +64,7 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:127840
+main.ts:124808
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:127840
 
 #### Defined in
 
-main.ts:127856
+main.ts:124824
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:127856
 
 #### Defined in
 
-main.ts:127882
+main.ts:124850
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:127882
 
 #### Defined in
 
-main.ts:127875
+main.ts:124843

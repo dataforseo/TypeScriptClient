@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpIdListRequestInfo
+[Documentation](../globals.md) / ISerpIdListRequestInfo
 
 # Interface: ISerpIdListRequestInfo
 
@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:24122
+main.ts:24438
 
 ***
 
@@ -43,7 +43,7 @@ example:
 
 #### Defined in
 
-main.ts:24129
+main.ts:24445
 
 ***
 
@@ -57,7 +57,7 @@ default value: false
 
 #### Defined in
 
-main.ts:24148
+main.ts:24464
 
 ***
 
@@ -72,7 +72,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:24134
+main.ts:24450
 
 ***
 
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:24139
+main.ts:24455
 
 ***
 
@@ -102,4 +102,4 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:24144
+main.ts:24460

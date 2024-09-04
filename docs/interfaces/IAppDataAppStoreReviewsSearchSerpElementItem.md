@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppStoreReviewsSearchSerpElementItem
+[Documentation](../globals.md) / IAppDataAppStoreReviewsSearchSerpElementItem
 
 # Interface: IAppDataAppStoreReviewsSearchSerpElementItem
 
@@ -24,7 +24,7 @@ id of the review
 
 #### Defined in
 
-main.ts:200614
+main.ts:195998
 
 ***
 
@@ -32,12 +32,17 @@ main.ts:200614
 
 > `optional` **position**: `string`
 
-the alignment of the review in SERP
-can take the following values: left
+the alignment of the element in SERP
+can take the following values:
+left, right
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
 
 #### Defined in
 
-main.ts:200602
+main.ts:22068
 
 ***
 
@@ -45,12 +50,16 @@ main.ts:200602
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:200599
+main.ts:22064
 
 ***
 
@@ -61,9 +70,13 @@ main.ts:200599
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:200596
+main.ts:22061
 
 ***
 
@@ -71,11 +84,15 @@ main.ts:200596
 
 > `optional` **rating**: [`RatingInfo`](../classes/RatingInfo.md)
 
-the rating score submitted by the reviewer
+average rating of the app
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
 
 #### Defined in
 
-main.ts:200607
+main.ts:22072
 
 ***
 
@@ -87,7 +104,7 @@ content of the review
 
 #### Defined in
 
-main.ts:200618
+main.ts:196000
 
 ***
 
@@ -102,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:200612
+main.ts:195996
 
 ***
 
@@ -110,11 +127,31 @@ main.ts:200612
 
 > `optional` **title**: `string`
 
-title of the review
+title of the app
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
 
 #### Defined in
 
-main.ts:200616
+main.ts:22070
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22058
 
 ***
 
@@ -126,7 +163,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:200620
+main.ts:196002
 
 ***
 
@@ -139,4 +176,4 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:200605
+main.ts:195991

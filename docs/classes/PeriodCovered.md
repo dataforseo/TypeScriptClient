@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PeriodCovered
+[Documentation](../globals.md) / PeriodCovered
 
 # Class: PeriodCovered
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:55573
+main.ts:54036
 
 ## Properties
 
@@ -48,7 +48,7 @@ Mar 2, 2020 - Dec 9, 2022
 
 #### Defined in
 
-main.ts:55569
+main.ts:54032
 
 ***
 
@@ -67,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:55565
+main.ts:54028
 
 ***
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:55560
+main.ts:54023
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:55560
 
 #### Defined in
 
-main.ts:55582
+main.ts:54045
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:55582
 
 #### Defined in
 
-main.ts:55601
+main.ts:54064
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:55601
 
 #### Defined in
 
-main.ts:55594
+main.ts:54057

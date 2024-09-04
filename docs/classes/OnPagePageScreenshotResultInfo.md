@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPagePageScreenshotResultInfo
+[Documentation](../globals.md) / OnPagePageScreenshotResultInfo
 
 # Class: OnPagePageScreenshotResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:165027
+main.ts:160957
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:165015
+main.ts:160945
 
 ***
 
@@ -65,7 +65,7 @@ if no error is encountered, the value will be null
 
 #### Defined in
 
-main.ts:165019
+main.ts:160949
 
 ***
 
@@ -81,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:165023
+main.ts:160953
 
 ***
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:165021
+main.ts:160951
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:165021
 
 #### Defined in
 
-main.ts:165036
+main.ts:160966
 
 ***
 
@@ -133,7 +133,7 @@ main.ts:165036
 
 #### Defined in
 
-main.ts:165060
+main.ts:160990
 
 ***
 
@@ -151,4 +151,4 @@ main.ts:165060
 
 #### Defined in
 
-main.ts:165053
+main.ts:160983

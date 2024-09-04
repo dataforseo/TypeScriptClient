@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleDatasetInfoTaskPostRequestInfo
+[Documentation](../globals.md) / ISerpGoogleDatasetInfoTaskPostRequestInfo
 
 # Interface: ISerpGoogleDatasetInfoTaskPostRequestInfo
 
@@ -24,7 +24,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-main.ts:56774
+main.ts:55245
 
 ***
 
@@ -38,7 +38,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:56798
+main.ts:55269
 
 ***
 
@@ -54,7 +54,7 @@ en
 
 #### Defined in
 
-main.ts:56794
+main.ts:55265
 
 ***
 
@@ -70,7 +70,7 @@ English
 
 #### Defined in
 
-main.ts:56788
+main.ts:55259
 
 ***
 
@@ -85,7 +85,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:56803
+main.ts:55274
 
 ***
 
@@ -105,7 +105,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:56834
+main.ts:55305
 
 ***
 
@@ -120,7 +120,7 @@ possible value: advanced
 
 #### Defined in
 
-main.ts:56824
+main.ts:55295
 
 ***
 
@@ -140,7 +140,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:56819
+main.ts:55290
 
 ***
 
@@ -158,7 +158,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:56782
+main.ts:55253
 
 ***
 
@@ -174,4 +174,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:56809
+main.ts:55280

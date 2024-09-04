@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessInfoTaskGetResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:206524
+main.ts:201878
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:206529
+main.ts:201883
 
 ***
 
@@ -50,7 +50,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:206533
+main.ts:201887
 
 ***
 
@@ -62,7 +62,7 @@ array of directory items
 
 #### Defined in
 
-main.ts:206538
+main.ts:201892
 
 ***
 
@@ -75,7 +75,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:206536
+main.ts:201890
 
 ***
 
@@ -92,7 +92,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:206515
+main.ts:201869
 
 ***
 
@@ -104,7 +104,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:206521
+main.ts:201875
 
 ***
 
@@ -116,7 +116,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:206519
+main.ts:201873
 
 ***
 
@@ -128,4 +128,4 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:206517
+main.ts:201871

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingSearchVolumeLiveResultInfo
+[Documentation](../globals.md) / KeywordsDataBingSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataBingSearchVolumeLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:132430
+main.ts:129296
 
 ## Properties
 
@@ -47,7 +47,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 #### Defined in
 
-main.ts:132422
+main.ts:129288
 
 ***
 
@@ -68,7 +68,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:132410
+main.ts:129276
 
 ***
 
@@ -86,7 +86,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:132414
+main.ts:129280
 
 ***
 
@@ -103,7 +103,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132403
+main.ts:129269
 
 ***
 
@@ -119,7 +119,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:132392
+main.ts:129258
 
 ***
 
@@ -136,7 +136,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132398
+main.ts:129264
 
 ***
 
@@ -153,7 +153,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132395
+main.ts:129261
 
 ***
 
@@ -171,7 +171,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:132426
+main.ts:129292
 
 ***
 
@@ -187,7 +187,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:132400
+main.ts:129266
 
 ***
 
@@ -206,7 +206,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:132419
+main.ts:129285
 
 ## Methods
 
@@ -224,7 +224,7 @@ main.ts:132419
 
 #### Defined in
 
-main.ts:132439
+main.ts:129305
 
 ***
 
@@ -242,7 +242,7 @@ main.ts:132439
 
 #### Defined in
 
-main.ts:132473
+main.ts:129339
 
 ***
 
@@ -260,4 +260,4 @@ main.ts:132473
 
 #### Defined in
 
-main.ts:132466
+main.ts:129332

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 
 # Class: BusinessDataGoogleQuestionsAndAnswersTaskGetResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:214420
+main.ts:209742
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:214392
+main.ts:209714
 
 ***
 
@@ -65,7 +65,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:214401
+main.ts:209723
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:214397
+main.ts:209719
 
 ***
 
@@ -100,7 +100,7 @@ unique identifier of the SERP feature
 
 #### Defined in
 
-main.ts:214403
+main.ts:209725
 
 ***
 
@@ -118,7 +118,7 @@ possible item types: google_business_question_item
 
 #### Defined in
 
-main.ts:214407
+main.ts:209729
 
 ***
 
@@ -137,7 +137,7 @@ possible item types google_business_answer_element
 
 #### Defined in
 
-main.ts:214416
+main.ts:209738
 
 ***
 
@@ -153,7 +153,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:214411
+main.ts:209733
 
 ***
 
@@ -169,7 +169,7 @@ array of google business question items without answers
 
 #### Defined in
 
-main.ts:214409
+main.ts:209731
 
 ***
 
@@ -190,7 +190,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:214383
+main.ts:209705
 
 ***
 
@@ -206,7 +206,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:214389
+main.ts:209711
 
 ***
 
@@ -222,7 +222,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:214387
+main.ts:209709
 
 ***
 
@@ -238,7 +238,7 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:214385
+main.ts:209707
 
 ## Methods
 
@@ -256,7 +256,7 @@ main.ts:214385
 
 #### Defined in
 
-main.ts:214429
+main.ts:209751
 
 ***
 
@@ -274,7 +274,7 @@ main.ts:214429
 
 #### Defined in
 
-main.ts:214469
+main.ts:209791
 
 ***
 
@@ -292,4 +292,4 @@ main.ts:214469
 
 #### Defined in
 
-main.ts:214462
+main.ts:209784

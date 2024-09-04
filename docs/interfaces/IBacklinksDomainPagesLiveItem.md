@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksDomainPagesLiveItem
+[Documentation](../globals.md) / IBacklinksDomainPagesLiveItem
 
 # Interface: IBacklinksDomainPagesLiveItem
 
@@ -20,7 +20,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:146119
+main.ts:142985
 
 ***
 
@@ -33,7 +33,7 @@ domain where the page was found
 
 #### Defined in
 
-main.ts:146083
+main.ts:142949
 
 ***
 
@@ -46,7 +46,7 @@ indicates the size of the encoded page, in bytes
 
 #### Defined in
 
-main.ts:146117
+main.ts:142983
 
 ***
 
@@ -61,7 +61,7 @@ example:
 
 #### Defined in
 
-main.ts:146107
+main.ts:142973
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:146097
+main.ts:142963
 
 ***
 
@@ -89,7 +89,7 @@ Internet Protocol address
 
 #### Defined in
 
-main.ts:146091
+main.ts:142957
 
 ***
 
@@ -102,7 +102,7 @@ indicates the URL to redirect a page to if exists
 
 #### Defined in
 
-main.ts:146112
+main.ts:142978
 
 ***
 
@@ -115,7 +115,7 @@ main website domain does not include subdomains
 
 #### Defined in
 
-main.ts:146080
+main.ts:142946
 
 ***
 
@@ -127,7 +127,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:146121
+main.ts:142987
 
 ***
 
@@ -139,7 +139,7 @@ page meta data
 
 #### Defined in
 
-main.ts:146125
+main.ts:142991
 
 ***
 
@@ -152,7 +152,7 @@ relevant page URL
 
 #### Defined in
 
-main.ts:146089
+main.ts:142955
 
 ***
 
@@ -164,7 +164,7 @@ contains backlink data for this page
 
 #### Defined in
 
-main.ts:146127
+main.ts:142993
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:146102
+main.ts:142968
 
 ***
 
@@ -191,7 +191,7 @@ server version
 
 #### Defined in
 
-main.ts:146123
+main.ts:142989
 
 ***
 
@@ -203,7 +203,7 @@ indicates the page size, in bytes
 
 #### Defined in
 
-main.ts:146114
+main.ts:142980
 
 ***
 
@@ -215,7 +215,7 @@ HTTP status code of the page
 
 #### Defined in
 
-main.ts:146109
+main.ts:142975
 
 ***
 
@@ -228,7 +228,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:146086
+main.ts:142952
 
 ***
 
@@ -240,4 +240,4 @@ type of element
 
 #### Defined in
 
-main.ts:146077
+main.ts:142943

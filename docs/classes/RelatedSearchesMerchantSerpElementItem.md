@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RelatedSearchesMerchantSerpElementItem
+[Documentation](../globals.md) / RelatedSearchesMerchantSerpElementItem
 
 # Class: RelatedSearchesMerchantSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:179147
+main.ts:174989
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:179147
 
 #### Defined in
 
-main.ts:21025
+main.ts:21039
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:179143
+main.ts:174985
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md).[`position`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:179138
+main.ts:21037
 
 ***
 
@@ -102,9 +106,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:179134
+main.ts:21033
 
 ***
 
@@ -119,9 +127,33 @@ positions of elements with different type values are omitted from rank_group
 
 [`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md).[`rank_group`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:179131
+main.ts:21030
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IRelatedSearchesMerchantSerpElementItem`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md).[`type`](../interfaces/IRelatedSearchesMerchantSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21027
 
 ***
 
@@ -137,7 +169,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:179140
+main.ts:174982
 
 ## Methods
 
@@ -159,7 +191,7 @@ main.ts:179140
 
 #### Defined in
 
-main.ts:179152
+main.ts:174994
 
 ***
 
@@ -181,7 +213,7 @@ main.ts:179152
 
 #### Defined in
 
-main.ts:179178
+main.ts:175017
 
 ***
 
@@ -203,4 +235,4 @@ main.ts:179178
 
 #### Defined in
 
-main.ts:179171
+main.ts:175010

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingKeywordsForKeywordsTaskPostRequestInfo
 
@@ -27,7 +27,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:134258
+main.ts:131124
 
 ***
 
@@ -47,7 +47,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:134268
+main.ts:131134
 
 ***
 
@@ -63,7 +63,7 @@ default value: all
 
 #### Defined in
 
-main.ts:134249
+main.ts:131115
 
 ***
 
@@ -78,7 +78,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:134198
+main.ts:131064
 
 ***
 
@@ -94,7 +94,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:134243
+main.ts:131109
 
 ***
 
@@ -110,7 +110,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:134232
+main.ts:131098
 
 ***
 
@@ -126,7 +126,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:134226
+main.ts:131092
 
 ***
 
@@ -143,7 +143,7 @@ example:
 
 #### Defined in
 
-main.ts:134212
+main.ts:131078
 
 ***
 
@@ -161,7 +161,7 @@ example:
 
 #### Defined in
 
-main.ts:134220
+main.ts:131086
 
 ***
 
@@ -178,7 +178,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:134205
+main.ts:131071
 
 ***
 
@@ -198,7 +198,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:134293
+main.ts:131159
 
 ***
 
@@ -218,7 +218,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:134283
+main.ts:131149
 
 ***
 
@@ -233,7 +233,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:134273
+main.ts:131139
 
 ***
 
@@ -248,7 +248,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:134237
+main.ts:131103
 
 ***
 
@@ -264,4 +264,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:134299
+main.ts:131165

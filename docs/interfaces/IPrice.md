@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPrice
+[Documentation](../globals.md) / IPrice
 
 # Interface: IPrice
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:73332
+main.ts:72004
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:73332
 
 #### Defined in
 
-main.ts:73329
+main.ts:72001
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:73329
 
 #### Defined in
 
-main.ts:73334
+main.ts:72006
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:73334
 
 #### Defined in
 
-main.ts:73333
+main.ts:72005
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:73333
 
 #### Defined in
 
-main.ts:73331
+main.ts:72003
 
 ***
 
@@ -68,4 +68,4 @@ main.ts:73331
 
 #### Defined in
 
-main.ts:73330
+main.ts:72002

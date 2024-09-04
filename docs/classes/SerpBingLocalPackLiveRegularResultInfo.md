@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLocalPackLiveRegularResultInfo
+[Documentation](../globals.md) / SerpBingLocalPackLiveRegularResultInfo
 
 # Class: SerpBingLocalPackLiveRegularResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:61594
+main.ts:60273
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:61571
+main.ts:60250
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:61576
+main.ts:60255
 
 ***
 
@@ -85,7 +85,7 @@ local_pack
 
 #### Defined in
 
-main.ts:61584
+main.ts:60263
 
 ***
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:61590
+main.ts:60269
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:61588
+main.ts:60267
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:61560
+main.ts:60239
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:61568
+main.ts:60247
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:61566
+main.ts:60245
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:61564
+main.ts:60243
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:61586
+main.ts:60265
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:61579
+main.ts:60258
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:61562
+main.ts:60241
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:61562
 
 #### Defined in
 
-main.ts:61603
+main.ts:60282
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:61603
 
 #### Defined in
 
-main.ts:61639
+main.ts:60318
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:61639
 
 #### Defined in
 
-main.ts:61632
+main.ts:60311

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsWhoisOverviewLiveRequestInfo
+[Documentation](../globals.md) / DomainAnalyticsWhoisOverviewLiveRequestInfo
 
 # Class: DomainAnalyticsWhoisOverviewLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:80708
+main.ts:79380
 
 ## Properties
 
@@ -59,7 +59,7 @@ for more information about filters, please refer to Filters Page or this help ce
 
 #### Defined in
 
-main.ts:80682
+main.ts:79354
 
 ***
 
@@ -78,7 +78,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:80662
+main.ts:79334
 
 ***
 
@@ -97,7 +97,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:80667
+main.ts:79339
 
 ***
 
@@ -127,7 +127,7 @@ example:
 
 #### Defined in
 
-main.ts:80698
+main.ts:79370
 
 ***
 
@@ -147,7 +147,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:80704
+main.ts:79376
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:80704
 
 #### Defined in
 
-main.ts:80717
+main.ts:79389
 
 ***
 
@@ -183,7 +183,7 @@ main.ts:80717
 
 #### Defined in
 
-main.ts:80746
+main.ts:79418
 
 ***
 
@@ -201,4 +201,4 @@ main.ts:80746
 
 #### Defined in
 
-main.ts:80739
+main.ts:79411

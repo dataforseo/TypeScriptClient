@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpScreenshotRequestInfo
+[Documentation](../globals.md) / SerpScreenshotRequestInfo
 
 # Class: SerpScreenshotRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:24746
+main.ts:25062
 
 ## Properties
 
@@ -50,7 +50,7 @@ note: by default, browser preset corresponds to the device type specified in the
 
 #### Defined in
 
-main.ts:24730
+main.ts:25046
 
 ***
 
@@ -68,7 +68,7 @@ can be specified in the following range: 240-9999
 
 #### Defined in
 
-main.ts:24738
+main.ts:25054
 
 ***
 
@@ -86,7 +86,7 @@ can be specified in the following range: 0.5-3
 
 #### Defined in
 
-main.ts:24742
+main.ts:25058
 
 ***
 
@@ -104,7 +104,7 @@ can be specified in the following range: 240-9999
 
 #### Defined in
 
-main.ts:24734
+main.ts:25050
 
 ***
 
@@ -123,7 +123,7 @@ you will be able to use it within 7 days to request the results of the task at a
 
 #### Defined in
 
-main.ts:24724
+main.ts:25040
 
 ## Methods
 
@@ -141,7 +141,7 @@ main.ts:24724
 
 #### Defined in
 
-main.ts:24755
+main.ts:25071
 
 ***
 
@@ -159,7 +159,7 @@ main.ts:24755
 
 #### Defined in
 
-main.ts:24776
+main.ts:25092
 
 ***
 
@@ -177,4 +177,4 @@ main.ts:24776
 
 #### Defined in
 
-main.ts:24769
+main.ts:25085

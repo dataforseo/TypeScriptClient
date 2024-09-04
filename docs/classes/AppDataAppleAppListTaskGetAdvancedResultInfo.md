@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppListTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / AppDataAppleAppListTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppListTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:199755
+main.ts:195173
 
 ## Properties
 
@@ -47,7 +47,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:199738
+main.ts:195156
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:199743
+main.ts:195161
 
 ***
 
@@ -83,7 +83,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:199751
+main.ts:195169
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:199748
+main.ts:195166
 
 ***
 
@@ -116,7 +116,7 @@ app collection received in a POST array
 
 #### Defined in
 
-main.ts:199729
+main.ts:195147
 
 ***
 
@@ -132,7 +132,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:199735
+main.ts:195153
 
 ***
 
@@ -148,7 +148,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:199733
+main.ts:195151
 
 ***
 
@@ -164,7 +164,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:199731
+main.ts:195149
 
 ***
 
@@ -180,7 +180,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:199745
+main.ts:195163
 
 ## Methods
 
@@ -198,7 +198,7 @@ main.ts:199745
 
 #### Defined in
 
-main.ts:199764
+main.ts:195182
 
 ***
 
@@ -216,7 +216,7 @@ main.ts:199764
 
 #### Defined in
 
-main.ts:199793
+main.ts:195211
 
 ***
 
@@ -234,4 +234,4 @@ main.ts:199793
 
 #### Defined in
 
-main.ts:199786
+main.ts:195204

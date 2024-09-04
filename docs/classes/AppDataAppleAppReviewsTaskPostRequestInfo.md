@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppReviewsTaskPostRequestInfo
+[Documentation](../globals.md) / AppDataAppleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataAppleAppReviewsTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:200050
+main.ts:195468
 
 ## Properties
 
@@ -52,7 +52,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:199963
+main.ts:195381
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 500
 
 #### Defined in
 
-main.ts:200006
+main.ts:195424
 
 ***
 
@@ -94,7 +94,7 @@ en
 
 #### Defined in
 
-main.ts:199991
+main.ts:195409
 
 ***
 
@@ -115,7 +115,7 @@ English
 
 #### Defined in
 
-main.ts:199984
+main.ts:195402
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:199977
+main.ts:195395
 
 ***
 
@@ -157,7 +157,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:199970
+main.ts:195388
 
 ***
 
@@ -181,7 +181,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:200046
+main.ts:195464
 
 ***
 
@@ -201,7 +201,7 @@ advanced
 
 #### Defined in
 
-main.ts:200036
+main.ts:195454
 
 ***
 
@@ -225,7 +225,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:200030
+main.ts:195448
 
 ***
 
@@ -247,7 +247,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:199999
+main.ts:195417
 
 ***
 
@@ -269,7 +269,7 @@ default rule: most_helpful
 
 #### Defined in
 
-main.ts:200014
+main.ts:195432
 
 ***
 
@@ -289,7 +289,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:200020
+main.ts:195438
 
 ## Methods
 
@@ -307,7 +307,7 @@ main.ts:200020
 
 #### Defined in
 
-main.ts:200059
+main.ts:195477
 
 ***
 
@@ -325,7 +325,7 @@ main.ts:200059
 
 #### Defined in
 
-main.ts:200087
+main.ts:195505
 
 ***
 
@@ -343,4 +343,4 @@ main.ts:200087
 
 #### Defined in
 
-main.ts:200080
+main.ts:195498

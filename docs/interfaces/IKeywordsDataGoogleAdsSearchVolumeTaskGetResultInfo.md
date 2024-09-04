@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
 # Interface: IKeywordsDataGoogleAdsSearchVolumeTaskGetResultInfo
 
@@ -24,7 +24,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:120821
+main.ts:117879
 
 ***
 
@@ -40,7 +40,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:120827
+main.ts:117885
 
 ***
 
@@ -53,7 +53,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:120842
+main.ts:117900
 
 ***
 
@@ -67,7 +67,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:120839
+main.ts:117897
 
 ***
 
@@ -80,7 +80,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:120804
+main.ts:117862
 
 ***
 
@@ -93,7 +93,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:120813
+main.ts:117871
 
 ***
 
@@ -106,7 +106,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:120810
+main.ts:117868
 
 ***
 
@@ -120,7 +120,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:120835
+main.ts:117893
 
 ***
 
@@ -134,7 +134,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:120846
+main.ts:117904
 
 ***
 
@@ -146,7 +146,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:120815
+main.ts:117873
 
 ***
 
@@ -160,7 +160,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:120831
+main.ts:117889
 
 ***
 
@@ -173,4 +173,4 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:120807
+main.ts:117865

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TrustpilotReviewSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / TrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Class: TrustpilotReviewSearchBusinessDataSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:216468
+main.ts:211768
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:216468
 
 #### Defined in
 
-main.ts:21279
+main.ts:21308
 
 ***
 
@@ -68,7 +68,7 @@ the language of the review
 
 #### Defined in
 
-main.ts:216447
+main.ts:211747
 
 ***
 
@@ -85,7 +85,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:216439
+main.ts:211739
 
 ***
 
@@ -93,16 +93,19 @@ main.ts:216439
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank among all the elements
 
 #### Implementation of
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_absolute`](BaseBusinessDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:216436
+main.ts:21306
 
 ***
 
@@ -111,15 +114,19 @@ main.ts:216436
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
 
 #### Implementation of
 
 [`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_group`](BaseBusinessDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:216433
+main.ts:21304
 
 ***
 
@@ -135,7 +142,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:216443
+main.ts:211743
 
 ***
 
@@ -151,7 +158,7 @@ owner’s response to the submitted review
 
 #### Defined in
 
-main.ts:216464
+main.ts:211764
 
 ***
 
@@ -169,7 +176,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 #### Defined in
 
-main.ts:216460
+main.ts:211760
 
 ***
 
@@ -185,7 +192,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:216456
+main.ts:211756
 
 ***
 
@@ -204,7 +211,7 @@ example:
 
 #### Defined in
 
-main.ts:216452
+main.ts:211752
 
 ***
 
@@ -220,7 +227,27 @@ the title of the review
 
 #### Defined in
 
-main.ts:216454
+main.ts:211754
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ITrustpilotReviewSearchBusinessDataSerpElementItem`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md).[`type`](../interfaces/ITrustpilotReviewSearchBusinessDataSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`type`](BaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21301
 
 ***
 
@@ -236,7 +263,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:216441
+main.ts:211741
 
 ***
 
@@ -252,7 +279,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:216462
+main.ts:211762
 
 ***
 
@@ -268,7 +295,7 @@ indicates whether the review has the “Verified” mark
 
 #### Defined in
 
-main.ts:216445
+main.ts:211745
 
 ## Methods
 
@@ -290,7 +317,7 @@ main.ts:216445
 
 #### Defined in
 
-main.ts:216473
+main.ts:211773
 
 ***
 
@@ -312,7 +339,7 @@ main.ts:216473
 
 #### Defined in
 
-main.ts:216511
+main.ts:211809
 
 ***
 
@@ -334,4 +361,4 @@ main.ts:216511
 
 #### Defined in
 
-main.ts:216504
+main.ts:211802

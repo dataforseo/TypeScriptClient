@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisRatingInfo
+[Documentation](../globals.md) / IContentAnalysisRatingInfo
 
 # Interface: IContentAnalysisRatingInfo
 
@@ -22,7 +22,7 @@ maximum value for the rating name
 
 #### Defined in
 
-main.ts:170121
+main.ts:166051
 
 ***
 
@@ -35,7 +35,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:170115
+main.ts:166045
 
 ***
 
@@ -47,7 +47,7 @@ number of votes
 
 #### Defined in
 
-main.ts:170119
+main.ts:166049
 
 ***
 
@@ -59,7 +59,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:170117
+main.ts:166047
 
 ***
 
@@ -71,4 +71,4 @@ relative rating
 
 #### Defined in
 
-main.ts:170123
+main.ts:166053

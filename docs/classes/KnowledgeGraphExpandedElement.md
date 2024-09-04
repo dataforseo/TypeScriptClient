@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphExpandedElement
+[Documentation](../globals.md) / KnowledgeGraphExpandedElement
 
 # Class: KnowledgeGraphExpandedElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:28497
+main.ts:28536
 
 ## Properties
 
@@ -46,7 +46,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:28479
+main.ts:28519
 
 ***
 
@@ -62,7 +62,7 @@ title of a given element
 
 #### Defined in
 
-main.ts:28475
+main.ts:28515
 
 ***
 
@@ -78,7 +78,7 @@ images of the element
 
 #### Defined in
 
-main.ts:28485
+main.ts:28525
 
 ***
 
@@ -94,7 +94,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:28483
+main.ts:28523
 
 ***
 
@@ -102,8 +102,7 @@ main.ts:28483
 
 > `optional` **table**: [`Table`](Table.md)
 
-results table
-if there are none, equals null
+table element
 
 #### Implementation of
 
@@ -111,7 +110,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28493
+main.ts:28532
 
 ***
 
@@ -130,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:28490
+main.ts:28530
 
 ***
 
@@ -146,7 +145,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28481
+main.ts:28521
 
 ***
 
@@ -162,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:28473
+main.ts:28513
 
 ***
 
@@ -178,7 +177,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:28477
+main.ts:28517
 
 ## Methods
 
@@ -196,7 +195,7 @@ main.ts:28477
 
 #### Defined in
 
-main.ts:28506
+main.ts:28545
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:28506
 
 #### Defined in
 
-main.ts:28535
+main.ts:28574
 
 ***
 
@@ -232,4 +231,4 @@ main.ts:28535
 
 #### Defined in
 
-main.ts:28528
+main.ts:28567

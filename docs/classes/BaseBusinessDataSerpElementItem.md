@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseBusinessDataSerpElementItem
+[Documentation](../globals.md) / BaseBusinessDataSerpElementItem
 
 # Class: BaseBusinessDataSerpElementItem
 
@@ -21,10 +21,6 @@
 
 - [`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md)
 
-## Indexable
-
- \[`key`: `string`\]: `any`
-
 ## Constructors
 
 ### new BaseBusinessDataSerpElementItem()
@@ -41,7 +37,7 @@
 
 #### Defined in
 
-main.ts:21281
+main.ts:21310
 
 ## Properties
 
@@ -51,7 +47,56 @@ main.ts:21281
 
 #### Defined in
 
-main.ts:21279
+main.ts:21308
+
+***
+
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank among all the elements
+
+#### Implementation of
+
+[`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseBusinessDataSerpElementItem.md#rank_absolute)
+
+#### Defined in
+
+main.ts:21306
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from the rank_group
+
+#### Implementation of
+
+[`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IBaseBusinessDataSerpElementItem.md#rank_group)
+
+#### Defined in
+
+main.ts:21304
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseBusinessDataSerpElementItem`](../interfaces/IBaseBusinessDataSerpElementItem.md).[`type`](../interfaces/IBaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21301
 
 ## Methods
 
@@ -69,7 +114,7 @@ main.ts:21279
 
 #### Defined in
 
-main.ts:21291
+main.ts:21320
 
 ***
 
@@ -87,7 +132,7 @@ main.ts:21291
 
 #### Defined in
 
-main.ts:21347
+main.ts:21375
 
 ***
 
@@ -105,4 +150,4 @@ main.ts:21347
 
 #### Defined in
 
-main.ts:21300
+main.ts:21328

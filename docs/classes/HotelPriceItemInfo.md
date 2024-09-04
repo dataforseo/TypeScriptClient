@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelPriceItemInfo
+[Documentation](../globals.md) / HotelPriceItemInfo
 
 # Class: HotelPriceItemInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:208514
+main.ts:203852
 
 ## Properties
 
@@ -47,7 +47,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:208494
+main.ts:203832
 
 ***
 
@@ -64,7 +64,7 @@ domain of the third-party website page with pricing information
 
 #### Defined in
 
-main.ts:208500
+main.ts:203838
 
 ***
 
@@ -82,7 +82,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-main.ts:208508
+main.ts:203846
 
 ***
 
@@ -100,7 +100,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:208504
+main.ts:203842
 
 ***
 
@@ -116,7 +116,7 @@ featured price offers
 
 #### Defined in
 
-main.ts:208510
+main.ts:203848
 
 ***
 
@@ -132,7 +132,7 @@ price per night
 
 #### Defined in
 
-main.ts:208491
+main.ts:203829
 
 ***
 
@@ -148,7 +148,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:208489
+main.ts:203827
 
 ***
 
@@ -164,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:208487
+main.ts:203825
 
 ***
 
@@ -181,7 +181,7 @@ URL to the third-party website page with pricing information
 
 #### Defined in
 
-main.ts:208497
+main.ts:203835
 
 ## Methods
 
@@ -199,7 +199,7 @@ main.ts:208497
 
 #### Defined in
 
-main.ts:208523
+main.ts:203861
 
 ***
 
@@ -217,7 +217,7 @@ main.ts:208523
 
 #### Defined in
 
-main.ts:208552
+main.ts:203890
 
 ***
 
@@ -235,4 +235,4 @@ main.ts:208552
 
 #### Defined in
 
-main.ts:208545
+main.ts:203883

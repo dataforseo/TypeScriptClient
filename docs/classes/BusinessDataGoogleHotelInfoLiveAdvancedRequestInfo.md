@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
+[Documentation](../globals.md) / BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveAdvancedRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:211546
+main.ts:206884
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:211528
+main.ts:206866
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:211508
+main.ts:206846
 
 ***
 
@@ -95,7 +95,7 @@ example:
 
 #### Defined in
 
-main.ts:211517
+main.ts:206855
 
 ***
 
@@ -117,7 +117,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:211536
+main.ts:206874
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:211522
+main.ts:206860
 
 ***
 
@@ -157,7 +157,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:211463
+main.ts:206801
 
 ***
 
@@ -178,7 +178,7 @@ en
 
 #### Defined in
 
-main.ts:211500
+main.ts:206838
 
 ***
 
@@ -199,7 +199,7 @@ English
 
 #### Defined in
 
-main.ts:211493
+main.ts:206831
 
 ***
 
@@ -220,7 +220,7 @@ example:
 
 #### Defined in
 
-main.ts:211477
+main.ts:206815
 
 ***
 
@@ -243,7 +243,7 @@ example:
 
 #### Defined in
 
-main.ts:211486
+main.ts:206824
 
 ***
 
@@ -264,7 +264,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:211470
+main.ts:206808
 
 ***
 
@@ -284,7 +284,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:211542
+main.ts:206880
 
 ## Methods
 
@@ -302,7 +302,7 @@ main.ts:211542
 
 #### Defined in
 
-main.ts:211555
+main.ts:206893
 
 ***
 
@@ -320,7 +320,7 @@ main.ts:211555
 
 #### Defined in
 
-main.ts:211587
+main.ts:206925
 
 ***
 
@@ -338,4 +338,4 @@ main.ts:211587
 
 #### Defined in
 
-main.ts:211580
+main.ts:206918

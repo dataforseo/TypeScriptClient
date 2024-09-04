@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleOrganicLiveRegularRequestInfo
+[Documentation](../globals.md) / SerpGoogleOrganicLiveRegularRequestInfo
 
 # Class: SerpGoogleOrganicLiveRegularRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:39158
+main.ts:37318
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:39118
+main.ts:37278
 
 ***
 
@@ -72,7 +72,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:39095
+main.ts:37255
 
 ***
 
@@ -92,7 +92,7 @@ default value: true
 
 #### Defined in
 
-main.ts:39137
+main.ts:37297
 
 ***
 
@@ -115,7 +115,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:39052
+main.ts:37212
 
 ***
 
@@ -136,7 +136,7 @@ en
 
 #### Defined in
 
-main.ts:39090
+main.ts:37250
 
 ***
 
@@ -157,7 +157,7 @@ English
 
 #### Defined in
 
-main.ts:39083
+main.ts:37243
 
 ***
 
@@ -178,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:39066
+main.ts:37226
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Defined in
 
-main.ts:39076
+main.ts:37236
 
 ***
 
@@ -223,7 +223,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:39059
+main.ts:37219
 
 ***
 
@@ -244,7 +244,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:39144
+main.ts:37304
 
 ***
 
@@ -265,7 +265,7 @@ default value: android
 
 #### Defined in
 
-main.ts:39102
+main.ts:37262
 
 ***
 
@@ -286,7 +286,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:39109
+main.ts:37269
 
 ***
 
@@ -304,7 +304,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:39148
+main.ts:37308
 
 ***
 
@@ -324,7 +324,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:39154
+main.ts:37314
 
 ***
 
@@ -351,7 +351,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Defined in
 
-main.ts:39131
+main.ts:37291
 
 ***
 
@@ -371,7 +371,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-main.ts:39043
+main.ts:37203
 
 ## Methods
 
@@ -389,7 +389,7 @@ main.ts:39043
 
 #### Defined in
 
-main.ts:39167
+main.ts:37327
 
 ***
 
@@ -407,7 +407,7 @@ main.ts:39167
 
 #### Defined in
 
-main.ts:39199
+main.ts:37359
 
 ***
 
@@ -425,4 +425,4 @@ main.ts:39199
 
 #### Defined in
 
-main.ts:39192
+main.ts:37352

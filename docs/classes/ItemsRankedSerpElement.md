@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ItemsRankedSerpElement
+[Documentation](../globals.md) / ItemsRankedSerpElement
 
 # Class: ItemsRankedSerpElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:117412
+main.ts:114470
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:117395
+main.ts:114453
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:117402
+main.ts:114460
 
 ***
 
@@ -86,7 +86,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:117408
+main.ts:114466
 
 ***
 
@@ -102,7 +102,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:117397
+main.ts:114455
 
 ***
 
@@ -118,7 +118,7 @@ search engine type
 
 #### Defined in
 
-main.ts:117389
+main.ts:114447
 
 ***
 
@@ -135,7 +135,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:117392
+main.ts:114450
 
 ## Methods
 
@@ -153,7 +153,7 @@ main.ts:117392
 
 #### Defined in
 
-main.ts:117421
+main.ts:114479
 
 ***
 
@@ -171,7 +171,7 @@ main.ts:117421
 
 #### Defined in
 
-main.ts:117443
+main.ts:114501
 
 ***
 
@@ -189,4 +189,4 @@ main.ts:117443
 
 #### Defined in
 
-main.ts:117436
+main.ts:114494

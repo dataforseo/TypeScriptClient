@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAppleKeywordsForAppLiveItem
+[Documentation](../globals.md) / DataforseoLabsAppleKeywordsForAppLiveItem
 
 # Class: DataforseoLabsAppleKeywordsForAppLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:117495
+main.ts:114553
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:117489
+main.ts:114547
 
 ***
 
@@ -62,7 +62,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:117491
+main.ts:114549
 
 ***
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Defined in
 
-main.ts:117487
+main.ts:114545
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:117487
 
 #### Defined in
 
-main.ts:117504
+main.ts:114562
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:117504
 
 #### Defined in
 
-main.ts:117523
+main.ts:114581
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:117523
 
 #### Defined in
 
-main.ts:117516
+main.ts:114574

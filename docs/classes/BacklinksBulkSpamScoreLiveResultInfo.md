@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBulkSpamScoreLiveResultInfo
+[Documentation](../globals.md) / BacklinksBulkSpamScoreLiveResultInfo
 
 # Class: BacklinksBulkSpamScoreLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:152950
+main.ts:149816
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:152946
+main.ts:149812
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:152944
+main.ts:149810
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:152944
 
 #### Defined in
 
-main.ts:152959
+main.ts:149825
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:152959
 
 #### Defined in
 
-main.ts:152981
+main.ts:149847
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:152981
 
 #### Defined in
 
-main.ts:152974
+main.ts:149840

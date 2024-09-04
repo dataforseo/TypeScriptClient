@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppsInfo
+[Documentation](../globals.md) / AppsInfo
 
 # Class: AppsInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:194045
+main.ts:189573
 
 ## Properties
 
@@ -46,7 +46,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:194037
+main.ts:189565
 
 ***
 
@@ -62,7 +62,7 @@ title of the app
 
 #### Defined in
 
-main.ts:194039
+main.ts:189567
 
 ***
 
@@ -78,7 +78,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:194041
+main.ts:189569
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:194041
 
 #### Defined in
 
-main.ts:194054
+main.ts:189582
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:194054
 
 #### Defined in
 
-main.ts:194073
+main.ts:189601
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:194073
 
 #### Defined in
 
-main.ts:194066
+main.ts:189594

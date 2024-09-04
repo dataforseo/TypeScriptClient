@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:94872
+main.ts:93512
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:94846
+main.ts:93486
 
 ***
 
@@ -82,7 +82,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:94819
+main.ts:93459
 
 ***
 
@@ -101,7 +101,7 @@ default value: false
 
 #### Defined in
 
-main.ts:94812
+main.ts:93452
 
 ***
 
@@ -123,7 +123,7 @@ default value: true
 
 #### Defined in
 
-main.ts:94799
+main.ts:93439
 
 ***
 
@@ -145,7 +145,7 @@ default value:
 
 #### Defined in
 
-main.ts:94807
+main.ts:93447
 
 ***
 
@@ -167,7 +167,7 @@ en
 
 #### Defined in
 
-main.ts:94791
+main.ts:93431
 
 ***
 
@@ -189,7 +189,7 @@ English
 
 #### Defined in
 
-main.ts:94783
+main.ts:93423
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:94824
+main.ts:93464
 
 ***
 
@@ -230,7 +230,7 @@ example:
 
 #### Defined in
 
-main.ts:94775
+main.ts:93415
 
 ***
 
@@ -252,7 +252,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:94767
+main.ts:93407
 
 ***
 
@@ -271,7 +271,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:94829
+main.ts:93469
 
 ***
 
@@ -301,7 +301,7 @@ example:
 
 #### Defined in
 
-main.ts:94862
+main.ts:93502
 
 ***
 
@@ -321,7 +321,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:94868
+main.ts:93508
 
 ***
 
@@ -340,7 +340,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:94754
+main.ts:93394
 
 ***
 
@@ -359,7 +359,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:94759
+main.ts:93399
 
 ## Methods
 
@@ -377,7 +377,7 @@ main.ts:94759
 
 #### Defined in
 
-main.ts:94881
+main.ts:93521
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:94881
 
 #### Defined in
 
-main.ts:94924
+main.ts:93564
 
 ***
 
@@ -413,4 +413,4 @@ main.ts:94924
 
 #### Defined in
 
-main.ts:94917
+main.ts:93557

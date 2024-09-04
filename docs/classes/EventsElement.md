@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / EventsElement
+[Documentation](../globals.md) / EventsElement
 
 # Class: EventsElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:32777
+main.ts:32039
 
 ## Properties
 
@@ -46,7 +46,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:32771
+main.ts:32033
 
 ***
 
@@ -62,7 +62,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32769
+main.ts:32031
 
 ***
 
@@ -78,7 +78,7 @@ type of element
 
 #### Defined in
 
-main.ts:32767
+main.ts:32029
 
 ***
 
@@ -94,7 +94,7 @@ URL
 
 #### Defined in
 
-main.ts:32773
+main.ts:32035
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:32773
 
 #### Defined in
 
-main.ts:32786
+main.ts:32048
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:32786
 
 #### Defined in
 
-main.ts:32806
+main.ts:32068
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:32806
 
 #### Defined in
 
-main.ts:32799
+main.ts:32061

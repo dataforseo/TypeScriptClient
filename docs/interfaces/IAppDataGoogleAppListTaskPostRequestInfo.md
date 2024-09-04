@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppListTaskPostRequestInfo
+[Documentation](../globals.md) / IAppDataGoogleAppListTaskPostRequestInfo
 
 # Interface: IAppDataGoogleAppListTaskPostRequestInfo
 
@@ -28,7 +28,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 #### Defined in
 
-main.ts:192732
+main.ts:188260
 
 ***
 
@@ -46,7 +46,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 #### Defined in
 
-main.ts:192722
+main.ts:188250
 
 ***
 
@@ -63,7 +63,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 #### Defined in
 
-main.ts:192671
+main.ts:188199
 
 ***
 
@@ -80,7 +80,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:192714
+main.ts:188242
 
 ***
 
@@ -97,7 +97,7 @@ en
 
 #### Defined in
 
-main.ts:192699
+main.ts:188227
 
 ***
 
@@ -114,7 +114,7 @@ English
 
 #### Defined in
 
-main.ts:192692
+main.ts:188220
 
 ***
 
@@ -131,7 +131,7 @@ example:
 
 #### Defined in
 
-main.ts:192685
+main.ts:188213
 
 ***
 
@@ -148,7 +148,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:192678
+main.ts:188206
 
 ***
 
@@ -168,7 +168,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:192764
+main.ts:188292
 
 ***
 
@@ -184,7 +184,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:192754
+main.ts:188282
 
 ***
 
@@ -204,7 +204,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:192748
+main.ts:188276
 
 ***
 
@@ -222,7 +222,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:192707
+main.ts:188235
 
 ***
 
@@ -238,4 +238,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:192738
+main.ts:188266

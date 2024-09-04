@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleAutocompleteTaskPostRequestInfo
+[Documentation](../globals.md) / ISerpGoogleAutocompleteTaskPostRequestInfo
 
 # Interface: ISerpGoogleAutocompleteTaskPostRequestInfo
 
@@ -35,7 +35,7 @@ products-cc — used in google shopping search
 
 #### Defined in
 
-main.ts:53194
+main.ts:51649
 
 ***
 
@@ -56,7 +56,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Defined in
 
-main.ts:53177
+main.ts:51632
 
 ***
 
@@ -73,7 +73,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:53131
+main.ts:51586
 
 ***
 
@@ -90,7 +90,7 @@ en
 
 #### Defined in
 
-main.ts:53166
+main.ts:51621
 
 ***
 
@@ -107,7 +107,7 @@ English
 
 #### Defined in
 
-main.ts:53159
+main.ts:51614
 
 ***
 
@@ -123,7 +123,7 @@ example:
 
 #### Defined in
 
-main.ts:53152
+main.ts:51607
 
 ***
 
@@ -140,7 +140,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:53146
+main.ts:51601
 
 ***
 
@@ -160,7 +160,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:53226
+main.ts:51681
 
 ***
 
@@ -176,7 +176,7 @@ advanced
 
 #### Defined in
 
-main.ts:53216
+main.ts:51671
 
 ***
 
@@ -196,7 +196,7 @@ i.e., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:53210
+main.ts:51665
 
 ***
 
@@ -214,7 +214,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:53139
+main.ts:51594
 
 ***
 
@@ -230,4 +230,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:53200
+main.ts:51655

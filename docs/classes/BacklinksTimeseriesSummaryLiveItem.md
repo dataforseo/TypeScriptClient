@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveItem
+[Documentation](../globals.md) / BacklinksTimeseriesSummaryLiveItem
 
 # Class: BacklinksTimeseriesSummaryLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:151310
+main.ts:148176
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of backlinks for the given date
 
 #### Defined in
 
-main.ts:151286
+main.ts:148152
 
 ***
 
@@ -62,7 +62,7 @@ number of nofollow backlinks for the given date
 
 #### Defined in
 
-main.ts:151288
+main.ts:148154
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:151281
+main.ts:148147
 
 ***
 
@@ -98,7 +98,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:151284
+main.ts:148150
 
 ***
 
@@ -115,7 +115,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:151295
+main.ts:148161
 
 ***
 
@@ -131,7 +131,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Defined in
 
-main.ts:151297
+main.ts:148163
 
 ***
 
@@ -148,7 +148,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:151304
+main.ts:148170
 
 ***
 
@@ -164,7 +164,7 @@ number of referring main domains for the given date
 
 #### Defined in
 
-main.ts:151299
+main.ts:148165
 
 ***
 
@@ -180,7 +180,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Defined in
 
-main.ts:151301
+main.ts:148167
 
 ***
 
@@ -196,7 +196,7 @@ number of pages pointing to target for the given date
 
 #### Defined in
 
-main.ts:151290
+main.ts:148156
 
 ***
 
@@ -212,7 +212,7 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 #### Defined in
 
-main.ts:151292
+main.ts:148158
 
 ***
 
@@ -228,7 +228,7 @@ number of referring subnetworks for the given date
 
 #### Defined in
 
-main.ts:151306
+main.ts:148172
 
 ***
 
@@ -244,7 +244,7 @@ type of element
 
 #### Defined in
 
-main.ts:151276
+main.ts:148142
 
 ## Methods
 
@@ -262,7 +262,7 @@ main.ts:151276
 
 #### Defined in
 
-main.ts:151319
+main.ts:148185
 
 ***
 
@@ -280,7 +280,7 @@ main.ts:151319
 
 #### Defined in
 
-main.ts:151348
+main.ts:148214
 
 ***
 
@@ -298,4 +298,4 @@ main.ts:151348
 
 #### Defined in
 
-main.ts:151341
+main.ts:148207

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ImageUrlInfo
+[Documentation](../globals.md) / ImageUrlInfo
 
 # Class: ImageUrlInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:218850
+main.ts:214126
 
 ## Properties
 
@@ -46,7 +46,7 @@ URL of the image used in the review
 
 #### Defined in
 
-main.ts:218846
+main.ts:214122
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:218846
 
 #### Defined in
 
-main.ts:218859
+main.ts:214135
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:218859
 
 #### Defined in
 
-main.ts:218876
+main.ts:214152
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:218876
 
 #### Defined in
 
-main.ts:218869
+main.ts:214145

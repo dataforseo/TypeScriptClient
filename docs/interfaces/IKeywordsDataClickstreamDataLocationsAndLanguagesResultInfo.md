@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
+[Documentation](../globals.md) / IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
 # Interface: IKeywordsDataClickstreamDataLocationsAndLanguagesResultInfo
 
@@ -21,7 +21,7 @@ contains the languages which are supported for a specific location
 
 #### Defined in
 
-main.ts:138675
+main.ts:135541
 
 ***
 
@@ -33,7 +33,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:138668
+main.ts:135534
 
 ***
 
@@ -45,7 +45,7 @@ location code
 
 #### Defined in
 
-main.ts:138661
+main.ts:135527
 
 ***
 
@@ -58,7 +58,7 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Defined in
 
-main.ts:138666
+main.ts:135532
 
 ***
 
@@ -70,7 +70,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:138663
+main.ts:135529
 
 ***
 
@@ -84,4 +84,4 @@ Country
 
 #### Defined in
 
-main.ts:138672
+main.ts:135538

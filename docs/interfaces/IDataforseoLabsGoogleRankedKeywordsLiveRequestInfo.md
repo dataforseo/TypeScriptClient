@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleRankedKeywordsLiveRequestInfo
 
@@ -38,7 +38,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:92458
+main.ts:91130
 
 ***
 
@@ -57,7 +57,7 @@ default value: live
 
 #### Defined in
 
-main.ts:92438
+main.ts:91110
 
 ***
 
@@ -72,7 +72,7 @@ default value: false
 
 #### Defined in
 
-main.ts:92398
+main.ts:91070
 
 ***
 
@@ -89,7 +89,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:92414
+main.ts:91086
 
 ***
 
@@ -108,7 +108,7 @@ default value:
 
 #### Defined in
 
-main.ts:92407
+main.ts:91079
 
 ***
 
@@ -127,7 +127,7 @@ en
 
 #### Defined in
 
-main.ts:92393
+main.ts:91065
 
 ***
 
@@ -146,7 +146,7 @@ English
 
 #### Defined in
 
-main.ts:92384
+main.ts:91056
 
 ***
 
@@ -161,7 +161,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:92419
+main.ts:91091
 
 ***
 
@@ -176,7 +176,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-main.ts:92429
+main.ts:91101
 
 ***
 
@@ -195,7 +195,7 @@ example:
 
 #### Defined in
 
-main.ts:92375
+main.ts:91047
 
 ***
 
@@ -214,7 +214,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:92366
+main.ts:91038
 
 ***
 
@@ -229,7 +229,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:92424
+main.ts:91096
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Defined in
 
-main.ts:92474
+main.ts:91146
 
 ***
 
@@ -271,7 +271,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:92480
+main.ts:91152
 
 ***
 
@@ -291,4 +291,4 @@ example:
 
 #### Defined in
 
-main.ts:92357
+main.ts:91029

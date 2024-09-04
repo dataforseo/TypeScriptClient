@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseAuditsResultInfo
+[Documentation](../globals.md) / OnPageLighthouseAuditsResultInfo
 
 # Class: OnPageLighthouseAuditsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:167412
+main.ts:163342
 
 ## Properties
 
@@ -48,7 +48,7 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 #### Defined in
 
-main.ts:167408
+main.ts:163338
 
 ## Methods
 
@@ -66,7 +66,7 @@ main.ts:167408
 
 #### Defined in
 
-main.ts:167421
+main.ts:163351
 
 ***
 
@@ -84,7 +84,7 @@ main.ts:167421
 
 #### Defined in
 
-main.ts:167442
+main.ts:163372
 
 ***
 
@@ -102,4 +102,4 @@ main.ts:167442
 
 #### Defined in
 
-main.ts:167435
+main.ts:163365

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonLocationsResultInfo
+[Documentation](../globals.md) / MerchantAmazonLocationsResultInfo
 
 # Class: MerchantAmazonLocationsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:183632
+main.ts:179354
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:183626
+main.ts:179348
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Defined in
 
-main.ts:183616
+main.ts:179338
 
 ***
 
@@ -78,7 +78,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:183618
+main.ts:179340
 
 ***
 
@@ -98,7 +98,7 @@ example:
 
 #### Defined in
 
-main.ts:183624
+main.ts:179346
 
 ***
 
@@ -114,7 +114,7 @@ location type
 
 #### Defined in
 
-main.ts:183628
+main.ts:179350
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:183628
 
 #### Defined in
 
-main.ts:183641
+main.ts:179363
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:183641
 
 #### Defined in
 
-main.ts:183662
+main.ts:179384
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:183662
 
 #### Defined in
 
-main.ts:183655
+main.ts:179377

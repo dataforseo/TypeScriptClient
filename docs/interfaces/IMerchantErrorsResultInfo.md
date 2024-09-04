@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantErrorsResultInfo
+[Documentation](../globals.md) / IMerchantErrorsResultInfo
 
 # Interface: IMerchantErrorsResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:176943
+main.ts:172873
 
 ***
 
@@ -35,7 +35,7 @@ error code
 
 #### Defined in
 
-main.ts:176947
+main.ts:172877
 
 ***
 
@@ -48,7 +48,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:176950
+main.ts:172880
 
 ***
 
@@ -60,7 +60,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:176945
+main.ts:172875
 
 ***
 
@@ -72,7 +72,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:176957
+main.ts:172887
 
 ***
 
@@ -84,7 +84,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:176955
+main.ts:172885
 
 ***
 
@@ -97,7 +97,7 @@ server response
 
 #### Defined in
 
-main.ts:176963
+main.ts:172893
 
 ***
 
@@ -110,7 +110,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:176960
+main.ts:172890
 
 ***
 
@@ -123,7 +123,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:176953
+main.ts:172883
 
 ***
 
@@ -135,4 +135,4 @@ id of the task
 
 #### Defined in
 
-main.ts:176938
+main.ts:172868

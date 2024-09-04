@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantAmazonLocationsResultInfo
+[Documentation](../globals.md) / IMerchantAmazonLocationsResultInfo
 
 # Interface: IMerchantAmazonLocationsResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:183689
+main.ts:179411
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:183679
+main.ts:179401
 
 ***
 
@@ -44,7 +44,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:183681
+main.ts:179403
 
 ***
 
@@ -60,7 +60,7 @@ example:
 
 #### Defined in
 
-main.ts:183687
+main.ts:179409
 
 ***
 
@@ -72,4 +72,4 @@ location type
 
 #### Defined in
 
-main.ts:183691
+main.ts:179413

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:80241
+main.ts:78913
 
 ## Properties
 
@@ -47,7 +47,7 @@ code of the language that content on the target domain is written in
 
 #### Defined in
 
-main.ts:80224
+main.ts:78896
 
 ***
 
@@ -64,7 +64,7 @@ ISO code of the country that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:80218
+main.ts:78890
 
 ***
 
@@ -80,7 +80,7 @@ domain meta description
 
 #### Defined in
 
-main.ts:80205
+main.ts:78877
 
 ***
 
@@ -96,7 +96,7 @@ specified domain name
 
 #### Defined in
 
-main.ts:80201
+main.ts:78873
 
 ***
 
@@ -113,7 +113,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:80210
+main.ts:78882
 
 ***
 
@@ -130,7 +130,7 @@ emails indicated on the target website
 
 #### Defined in
 
-main.ts:80230
+main.ts:78902
 
 ***
 
@@ -147,7 +147,7 @@ code of the language that the target domain is determined to be associated with
 
 #### Defined in
 
-main.ts:80221
+main.ts:78893
 
 ***
 
@@ -166,7 +166,7 @@ example:
 
 #### Defined in
 
-main.ts:80215
+main.ts:78887
 
 ***
 
@@ -182,7 +182,7 @@ domain meta keywords
 
 #### Defined in
 
-main.ts:80207
+main.ts:78879
 
 ***
 
@@ -199,7 +199,7 @@ contact phone numbers indicated on the target website
 
 #### Defined in
 
-main.ts:80227
+main.ts:78899
 
 ***
 
@@ -216,7 +216,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Defined in
 
-main.ts:80233
+main.ts:78905
 
 ***
 
@@ -234,7 +234,7 @@ see the full list of available technologies structured by groups and categories
 
 #### Defined in
 
-main.ts:80237
+main.ts:78909
 
 ***
 
@@ -250,7 +250,7 @@ domain meta title
 
 #### Defined in
 
-main.ts:80203
+main.ts:78875
 
 ***
 
@@ -266,7 +266,7 @@ type of element
 
 #### Defined in
 
-main.ts:80199
+main.ts:78871
 
 ## Methods
 
@@ -284,7 +284,7 @@ main.ts:80199
 
 #### Defined in
 
-main.ts:80250
+main.ts:78922
 
 ***
 
@@ -302,7 +302,7 @@ main.ts:80250
 
 #### Defined in
 
-main.ts:80296
+main.ts:78968
 
 ***
 
@@ -320,4 +320,4 @@ main.ts:80296
 
 #### Defined in
 
-main.ts:80289
+main.ts:78961

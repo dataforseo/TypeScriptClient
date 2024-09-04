@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CommercialUnitsElement
+[Documentation](../globals.md) / CommercialUnitsElement
 
 # Class: CommercialUnitsElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:35295
+main.ts:34063
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Defined in
 
-main.ts:35283
+main.ts:34051
 
 ***
 
@@ -62,7 +62,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:35285
+main.ts:34053
 
 ***
 
@@ -79,7 +79,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:35291
+main.ts:34059
 
 ***
 
@@ -96,7 +96,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:35288
+main.ts:34056
 
 ***
 
@@ -112,7 +112,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35279
+main.ts:34047
 
 ***
 
@@ -128,7 +128,7 @@ type of element
 
 #### Defined in
 
-main.ts:35277
+main.ts:34045
 
 ***
 
@@ -144,7 +144,7 @@ URL
 
 #### Defined in
 
-main.ts:35281
+main.ts:34049
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:35281
 
 #### Defined in
 
-main.ts:35304
+main.ts:34072
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:35304
 
 #### Defined in
 
-main.ts:35327
+main.ts:34095
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:35327
 
 #### Defined in
 
-main.ts:35320
+main.ts:34088

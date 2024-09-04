@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ScholarlyArticlesSerpElementItem
+[Documentation](../globals.md) / ScholarlyArticlesSerpElementItem
 
 # Class: ScholarlyArticlesSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:33727
+main.ts:32784
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:33727
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33719
+main.ts:32776
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IScholarlyArticlesSerpElementItem`](../interfaces/IScholarlyArticlesSerpElementItem.md).[`position`](../interfaces/IScholarlyArticlesSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:33710
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:33710
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IScholarlyArticlesSerpElementItem`](../interfaces/IScholarlyArticlesSerpElementItem.md).[`rank_absolute`](../interfaces/IScholarlyArticlesSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:33706
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:33706
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IScholarlyArticlesSerpElementItem`](../interfaces/IScholarlyArticlesSerpElementItem.md).[`rank_group`](../interfaces/IScholarlyArticlesSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:33702
+main.ts:20356
 
 ***
 
@@ -142,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33723
+main.ts:32780
 
 ***
 
@@ -158,7 +168,27 @@ title of the row
 
 #### Defined in
 
-main.ts:33714
+main.ts:32771
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IScholarlyArticlesSerpElementItem`](../interfaces/IScholarlyArticlesSerpElementItem.md).[`type`](../interfaces/IScholarlyArticlesSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -174,7 +204,7 @@ source URL
 
 #### Defined in
 
-main.ts:33716
+main.ts:32773
 
 ***
 
@@ -188,9 +218,13 @@ the XPath of the element
 
 [`IScholarlyArticlesSerpElementItem`](../interfaces/IScholarlyArticlesSerpElementItem.md).[`xpath`](../interfaces/IScholarlyArticlesSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:33712
+main.ts:20365
 
 ## Methods
 
@@ -212,7 +246,7 @@ main.ts:33712
 
 #### Defined in
 
-main.ts:33732
+main.ts:32789
 
 ***
 
@@ -234,7 +268,7 @@ main.ts:33732
 
 #### Defined in
 
-main.ts:33761
+main.ts:32814
 
 ***
 
@@ -256,4 +290,4 @@ main.ts:33761
 
 #### Defined in
 
-main.ts:33754
+main.ts:32807

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesLanguagesResultInfo
 
 # Class: DomainAnalyticsTechnologiesLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:77007
+main.ts:75679
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:77003
+main.ts:75675
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:77001
+main.ts:75673
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:77001
 
 #### Defined in
 
-main.ts:77016
+main.ts:75688
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:77016
 
 #### Defined in
 
-main.ts:77034
+main.ts:75706
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:77034
 
 #### Defined in
 
-main.ts:77027
+main.ts:75699

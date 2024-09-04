@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationTextSummaryLiveRequestInfo
+[Documentation](../globals.md) / ContentGenerationTextSummaryLiveRequestInfo
 
 # Class: ContentGenerationTextSummaryLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:175890
+main.ts:171820
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:175880
+main.ts:171810
 
 ***
 
@@ -67,7 +67,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:175875
+main.ts:171805
 
 ***
 
@@ -85,7 +85,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:175871
+main.ts:171801
 
 ***
 
@@ -105,7 +105,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:175886
+main.ts:171816
 
 ***
 
@@ -124,7 +124,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:175867
+main.ts:171797
 
 ## Methods
 
@@ -142,7 +142,7 @@ main.ts:175867
 
 #### Defined in
 
-main.ts:175899
+main.ts:171829
 
 ***
 
@@ -160,7 +160,7 @@ main.ts:175899
 
 #### Defined in
 
-main.ts:175920
+main.ts:171850
 
 ***
 
@@ -178,4 +178,4 @@ main.ts:175920
 
 #### Defined in
 
-main.ts:175913
+main.ts:171843

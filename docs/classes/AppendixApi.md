@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixApi
+[Documentation](../globals.md) / AppendixApi
 
 # Class: AppendixApi
 

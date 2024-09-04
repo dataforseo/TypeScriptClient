@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IConceptGroupInfo
+[Documentation](../globals.md) / IConceptGroupInfo
 
 # Interface: IConceptGroupInfo
 
@@ -20,7 +20,7 @@ the concept group name
 
 #### Defined in
 
-main.ts:121870
+main.ts:118928
 
 ***
 
@@ -32,4 +32,4 @@ type of element
 
 #### Defined in
 
-main.ts:121872
+main.ts:118930

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeLanguagesResultInfo
+[Documentation](../globals.md) / SerpYoutubeLanguagesResultInfo
 
 # Class: SerpYoutubeLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:62439
+main.ts:61118
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:62435
+main.ts:61114
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:62433
+main.ts:61112
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:62433
 
 #### Defined in
 
-main.ts:62448
+main.ts:61127
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:62448
 
 #### Defined in
 
-main.ts:62466
+main.ts:61145
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:62466
 
 #### Defined in
 
-main.ts:62459
+main.ts:61138

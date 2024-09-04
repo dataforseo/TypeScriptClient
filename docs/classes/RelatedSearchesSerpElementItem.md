@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RelatedSearchesSerpElementItem
+[Documentation](../globals.md) / RelatedSearchesSerpElementItem
 
 # Class: RelatedSearchesSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:32977
+main.ts:32186
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:32977
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32969
+main.ts:32178
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IRelatedSearchesSerpElementItem`](../interfaces/IRelatedSearchesSerpElementItem.md).[`position`](../interfaces/IRelatedSearchesSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:32964
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:32964
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IRelatedSearchesSerpElementItem`](../interfaces/IRelatedSearchesSerpElementItem.md).[`rank_absolute`](../interfaces/IRelatedSearchesSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:32960
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:32960
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IRelatedSearchesSerpElementItem`](../interfaces/IRelatedSearchesSerpElementItem.md).[`rank_group`](../interfaces/IRelatedSearchesSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:32956
+main.ts:20356
 
 ***
 
@@ -142,7 +152,27 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32973
+main.ts:32182
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IRelatedSearchesSerpElementItem`](../interfaces/IRelatedSearchesSerpElementItem.md).[`type`](../interfaces/IRelatedSearchesSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -156,9 +186,13 @@ the XPath of the element
 
 [`IRelatedSearchesSerpElementItem`](../interfaces/IRelatedSearchesSerpElementItem.md).[`xpath`](../interfaces/IRelatedSearchesSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:32966
+main.ts:20365
 
 ## Methods
 
@@ -180,7 +214,7 @@ main.ts:32966
 
 #### Defined in
 
-main.ts:32982
+main.ts:32191
 
 ***
 
@@ -202,7 +236,7 @@ main.ts:32982
 
 #### Defined in
 
-main.ts:33009
+main.ts:32214
 
 ***
 
@@ -224,4 +258,4 @@ main.ts:33009
 
 #### Defined in
 
-main.ts:33002
+main.ts:32207

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentUrlInfo
+[Documentation](../globals.md) / ContentUrlInfo
 
 # Class: ContentUrlInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:165286
+main.ts:161216
 
 ## Properties
 
@@ -46,7 +46,7 @@ text of the URL’s anchor
 
 #### Defined in
 
-main.ts:165282
+main.ts:161212
 
 ***
 
@@ -62,7 +62,7 @@ other URL found in the content element
 
 #### Defined in
 
-main.ts:165280
+main.ts:161210
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:165280
 
 #### Defined in
 
-main.ts:165295
+main.ts:161225
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:165295
 
 #### Defined in
 
-main.ts:165313
+main.ts:161243
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:165313
 
 #### Defined in
 
-main.ts:165306
+main.ts:161236

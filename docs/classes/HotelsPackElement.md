@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelsPackElement
+[Documentation](../globals.md) / HotelsPackElement
 
 # Class: HotelsPackElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:34886
+main.ts:33730
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:34869
+main.ts:33713
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Defined in
 
-main.ts:34875
+main.ts:33719
 
 ***
 
@@ -80,7 +80,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:34873
+main.ts:33717
 
 ***
 
@@ -96,7 +96,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:34879
+main.ts:33723
 
 ***
 
@@ -112,7 +112,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:34865
+main.ts:33709
 
 ***
 
@@ -129,7 +129,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:34882
+main.ts:33726
 
 ***
 
@@ -145,7 +145,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34867
+main.ts:33711
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:34863
+main.ts:33707
 
 ***
 
@@ -177,7 +177,7 @@ URL
 
 #### Defined in
 
-main.ts:34877
+main.ts:33721
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:34877
 
 #### Defined in
 
-main.ts:34895
+main.ts:33739
 
 ***
 
@@ -213,7 +213,7 @@ main.ts:34895
 
 #### Defined in
 
-main.ts:34920
+main.ts:33764
 
 ***
 
@@ -231,4 +231,4 @@ main.ts:34920
 
 #### Defined in
 
-main.ts:34913
+main.ts:33757

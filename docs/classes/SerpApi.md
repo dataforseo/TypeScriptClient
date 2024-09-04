@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpApi
+[Documentation](../globals.md) / SerpApi
 
 # Class: SerpApi
 

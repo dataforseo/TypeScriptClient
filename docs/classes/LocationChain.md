@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocationChain
+[Documentation](../globals.md) / LocationChain
 
 # Class: LocationChain
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:210494
+main.ts:205832
 
 ## Properties
 
@@ -46,7 +46,7 @@ card identifier
 
 #### Defined in
 
-main.ts:210482
+main.ts:205820
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:210488
+main.ts:205826
 
 ***
 
@@ -80,7 +80,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:210485
+main.ts:205823
 
 ***
 
@@ -96,7 +96,7 @@ title of the element in the location chain
 
 #### Defined in
 
-main.ts:210490
+main.ts:205828
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:210490
 
 #### Defined in
 
-main.ts:210503
+main.ts:205841
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:210503
 
 #### Defined in
 
-main.ts:210523
+main.ts:205861
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:210523
 
 #### Defined in
 
-main.ts:210516
+main.ts:205854

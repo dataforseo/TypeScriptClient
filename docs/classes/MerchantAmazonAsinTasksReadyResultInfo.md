@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonAsinTasksReadyResultInfo
+[Documentation](../globals.md) / MerchantAmazonAsinTasksReadyResultInfo
 
 # Class: MerchantAmazonAsinTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:186007
+main.ts:181641
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:185997
+main.ts:181631
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Amazon ASIN Advanced task
 
 #### Defined in
 
-main.ts:186001
+main.ts:181635
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of the Amazon ASIN HTML task
 
 #### Defined in
 
-main.ts:186003
+main.ts:181637
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:185990
+main.ts:181624
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:185992
+main.ts:181626
 
 ***
 
@@ -128,7 +128,7 @@ can take the following values: shopping
 
 #### Defined in
 
-main.ts:185995
+main.ts:181629
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:185999
+main.ts:181633
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:185999
 
 #### Defined in
 
-main.ts:186016
+main.ts:181650
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:186016
 
 #### Defined in
 
-main.ts:186039
+main.ts:181673
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:186039
 
 #### Defined in
 
-main.ts:186032
+main.ts:181666

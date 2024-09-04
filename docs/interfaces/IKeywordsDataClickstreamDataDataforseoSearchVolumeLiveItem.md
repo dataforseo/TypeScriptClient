@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveItem
+[Documentation](../globals.md) / IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveItem
 
 # Interface: IKeywordsDataClickstreamDataDataforseoSearchVolumeLiveItem
 
@@ -20,7 +20,7 @@ keyword provided in the POST array
 
 #### Defined in
 
-main.ts:139009
+main.ts:135875
 
 ***
 
@@ -33,7 +33,7 @@ array of objects with search volume rates in a certain month of a year
 
 #### Defined in
 
-main.ts:139017
+main.ts:135883
 
 ***
 
@@ -45,7 +45,7 @@ current search volume rate of a keyword
 
 #### Defined in
 
-main.ts:139014
+main.ts:135880
 
 ***
 
@@ -58,4 +58,4 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:139012
+main.ts:135878

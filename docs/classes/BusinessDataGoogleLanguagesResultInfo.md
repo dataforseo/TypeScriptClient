@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleLanguagesResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleLanguagesResultInfo
 
 # Class: BusinessDataGoogleLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:204997
+main.ts:200379
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:204993
+main.ts:200375
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:204991
+main.ts:200373
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:204991
 
 #### Defined in
 
-main.ts:205006
+main.ts:200388
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:205006
 
 #### Defined in
 
-main.ts:205024
+main.ts:200406
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:205024
 
 #### Defined in
 
-main.ts:205017
+main.ts:200399

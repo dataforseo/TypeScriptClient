@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGooglePageIntersectionLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGooglePageIntersectionLiveResultInfo
 
 # Class: DataforseoLabsGooglePageIntersectionLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:103427
+main.ts:100577
 
 ## Properties
 
@@ -46,7 +46,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-main.ts:103413
+main.ts:100563
 
 ***
 
@@ -62,7 +62,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:103423
+main.ts:100573
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:103421
+main.ts:100571
 
 ***
 
@@ -94,7 +94,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:103417
+main.ts:100567
 
 ***
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:103415
+main.ts:100565
 
 ***
 
@@ -130,7 +130,7 @@ URLs you specified a POST array
 
 #### Defined in
 
-main.ts:103411
+main.ts:100561
 
 ***
 
@@ -146,7 +146,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103409
+main.ts:100559
 
 ***
 
@@ -162,7 +162,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:103419
+main.ts:100569
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:103419
 
 #### Defined in
 
-main.ts:103436
+main.ts:100586
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:103436
 
 #### Defined in
 
-main.ts:103474
+main.ts:100624
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:103474
 
 #### Defined in
 
-main.ts:103467
+main.ts:100617

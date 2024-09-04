@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantApi
+[Documentation](../globals.md) / MerchantApi
 
 # Class: MerchantApi
 

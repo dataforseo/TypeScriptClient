@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleEventsTaskPostRequestInfo
+[Documentation](../globals.md) / ISerpGoogleEventsTaskPostRequestInfo
 
 # Interface: ISerpGoogleEventsTaskPostRequestInfo
 
@@ -23,7 +23,7 @@ possible values: today, tomorrow, week, weekend, next_week, month, next_month
 
 #### Defined in
 
-main.ts:47035
+main.ts:45301
 
 ***
 
@@ -42,7 +42,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:47057
+main.ts:45323
 
 ***
 
@@ -59,7 +59,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:46981
+main.ts:45247
 
 ***
 
@@ -77,7 +77,7 @@ en
 
 #### Defined in
 
-main.ts:47030
+main.ts:45296
 
 ***
 
@@ -95,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:47022
+main.ts:45288
 
 ***
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:47003
+main.ts:45269
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:47014
+main.ts:45280
 
 ***
 
@@ -150,7 +150,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:46996
+main.ts:45262
 
 ***
 
@@ -167,7 +167,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:47064
+main.ts:45330
 
 ***
 
@@ -183,7 +183,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:47041
+main.ts:45307
 
 ***
 
@@ -203,7 +203,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:47096
+main.ts:45362
 
 ***
 
@@ -219,7 +219,7 @@ advanced
 
 #### Defined in
 
-main.ts:47086
+main.ts:45352
 
 ***
 
@@ -239,7 +239,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:47080
+main.ts:45346
 
 ***
 
@@ -257,7 +257,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:46989
+main.ts:45255
 
 ***
 
@@ -274,7 +274,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:47048
+main.ts:45314
 
 ***
 
@@ -290,4 +290,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:47070
+main.ts:45336

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordProperties
+[Documentation](../globals.md) / KeywordProperties
 
 # Class: KeywordProperties
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:84212
+main.ts:82884
 
 ## Properties
 
@@ -48,7 +48,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:84191
+main.ts:82863
 
 ***
 
@@ -65,7 +65,7 @@ indicates the language of the keyword as identified by our system
 
 #### Defined in
 
-main.ts:84205
+main.ts:82877
 
 ***
 
@@ -82,7 +82,7 @@ if true, the language set in the request does not match the language determined 
 
 #### Defined in
 
-main.ts:84208
+main.ts:82880
 
 ***
 
@@ -101,7 +101,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:84202
+main.ts:82874
 
 ***
 
@@ -117,7 +117,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84187
+main.ts:82859
 
 ***
 
@@ -137,7 +137,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:84197
+main.ts:82869
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:84197
 
 #### Defined in
 
-main.ts:84221
+main.ts:82893
 
 ***
 
@@ -173,7 +173,7 @@ main.ts:84221
 
 #### Defined in
 
-main.ts:84243
+main.ts:82915
 
 ***
 
@@ -191,4 +191,4 @@ main.ts:84243
 
 #### Defined in
 
-main.ts:84236
+main.ts:82908

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForSiteLiveRequestInfo
 
@@ -35,7 +35,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:83870
+main.ts:82542
 
 ***
 
@@ -50,7 +50,7 @@ default value: false
 
 #### Defined in
 
-main.ts:83835
+main.ts:82507
 
 ***
 
@@ -67,7 +67,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:83830
+main.ts:82502
 
 ***
 
@@ -82,7 +82,7 @@ default value: false
 
 #### Defined in
 
-main.ts:83818
+main.ts:82490
 
 ***
 
@@ -97,7 +97,7 @@ default value: true
 
 #### Defined in
 
-main.ts:83823
+main.ts:82495
 
 ***
 
@@ -116,7 +116,7 @@ en
 
 #### Defined in
 
-main.ts:83813
+main.ts:82485
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Defined in
 
-main.ts:83804
+main.ts:82476
 
 ***
 
@@ -150,7 +150,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:83840
+main.ts:82512
 
 ***
 
@@ -168,7 +168,7 @@ example:
 
 #### Defined in
 
-main.ts:83795
+main.ts:82467
 
 ***
 
@@ -186,7 +186,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:83787
+main.ts:82459
 
 ***
 
@@ -201,7 +201,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:83845
+main.ts:82517
 
 ***
 
@@ -219,7 +219,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:83853
+main.ts:82525
 
 ***
 
@@ -245,7 +245,7 @@ example:
 
 #### Defined in
 
-main.ts:83886
+main.ts:82558
 
 ***
 
@@ -261,7 +261,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:83892
+main.ts:82564
 
 ***
 
@@ -276,4 +276,4 @@ the domain should be specified without https:// or www.
 
 #### Defined in
 
-main.ts:83779
+main.ts:82451

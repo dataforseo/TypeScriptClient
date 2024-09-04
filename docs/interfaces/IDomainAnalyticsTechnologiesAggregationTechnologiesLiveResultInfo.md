@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveResultInfo
 
@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:77970
+main.ts:76642
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:77966
+main.ts:76638
 
 ***
 
@@ -44,7 +44,7 @@ offset in the results array of returned domains
 
 #### Defined in
 
-main.ts:77968
+main.ts:76640
 
 ***
 
@@ -56,4 +56,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:77964
+main.ts:76636

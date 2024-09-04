@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingLocationsResultInfo
+[Documentation](../globals.md) / ISerpBingLocationsResultInfo
 
 # Interface: ISerpBingLocationsResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:58062
+main.ts:56741
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:58049
+main.ts:56728
 
 ***
 
@@ -51,7 +51,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:58060
+main.ts:56739
 
 ***
 
@@ -63,7 +63,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:58051
+main.ts:56730
 
 ***
 
@@ -75,4 +75,4 @@ location type
 
 #### Defined in
 
-main.ts:58064
+main.ts:56743

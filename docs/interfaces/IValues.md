@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IValues
+[Documentation](../globals.md) / IValues
 
 # Interface: IValues
 
@@ -24,7 +24,7 @@ US-NY
 
 #### Defined in
 
-main.ts:129213
+main.ts:126127
 
 ***
 
@@ -40,7 +40,7 @@ Andorra
 
 #### Defined in
 
-main.ts:129219
+main.ts:126133
 
 ***
 
@@ -58,4 +58,4 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:129227
+main.ts:126141

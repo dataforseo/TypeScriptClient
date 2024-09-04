@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamLocationsResultInfo
+[Documentation](../globals.md) / SerpSeznamLocationsResultInfo
 
 # Class: SerpSeznamLocationsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:73835
+main.ts:72507
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:73829
+main.ts:72501
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Defined in
 
-main.ts:73821
+main.ts:72493
 
 ***
 
@@ -80,7 +80,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:73827
+main.ts:72499
 
 ***
 
@@ -96,7 +96,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:73823
+main.ts:72495
 
 ***
 
@@ -112,7 +112,7 @@ location type
 
 #### Defined in
 
-main.ts:73831
+main.ts:72503
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:73831
 
 #### Defined in
 
-main.ts:73844
+main.ts:72516
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:73844
 
 #### Defined in
 
-main.ts:73865
+main.ts:72537
 
 ***
 
@@ -166,4 +166,4 @@ main.ts:73865
 
 #### Defined in
 
-main.ts:73858
+main.ts:72530

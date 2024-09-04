@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonAmazonSellerItemSerpElementItem
+[Documentation](../globals.md) / IAmazonAmazonSellerItemSerpElementItem
 
 # Interface: IAmazonAmazonSellerItemSerpElementItem
 
@@ -25,7 +25,7 @@ condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:188230
+main.ts:183780
 
 ***
 
@@ -38,7 +38,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:188233
+main.ts:183783
 
 ***
 
@@ -51,7 +51,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:188236
+main.ts:183786
 
 ***
 
@@ -65,7 +65,7 @@ left, right
 
 #### Defined in
 
-main.ts:188213
+main.ts:183765
 
 ***
 
@@ -78,7 +78,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:188224
+main.ts:183774
 
 ***
 
@@ -86,12 +86,16 @@ main.ts:188224
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank in SERP
-absolute position among all the elements found in Amazon Sellers SERP
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_absolute`](IBaseAmazonSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:188209
+main.ts:22407
 
 ***
 
@@ -102,9 +106,13 @@ main.ts:188209
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_group`](IBaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:188206
+main.ts:22404
 
 ***
 
@@ -117,7 +125,7 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-main.ts:188227
+main.ts:183777
 
 ***
 
@@ -129,7 +137,7 @@ business name of the seller
 
 #### Defined in
 
-main.ts:188217
+main.ts:183767
 
 ***
 
@@ -141,7 +149,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-main.ts:188219
+main.ts:183769
 
 ***
 
@@ -153,7 +161,23 @@ sender company name
 
 #### Defined in
 
-main.ts:188221
+main.ts:183771
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`type`](IBaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22401
 
 ***
 
@@ -161,8 +185,12 @@ main.ts:188221
 
 > `optional` **xpath**: `string`
 
-XPath of the element
+the XPath of the element
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`xpath`](IBaseAmazonSerpElementItem.md#xpath)
 
 #### Defined in
 
-main.ts:188215
+main.ts:22409

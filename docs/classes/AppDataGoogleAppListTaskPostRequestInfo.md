@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppListTaskPostRequestInfo
+[Documentation](../globals.md) / AppDataGoogleAppListTaskPostRequestInfo
 
 # Class: AppDataGoogleAppListTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:192603
+main.ts:188131
 
 ## Properties
 
@@ -54,7 +54,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 #### Defined in
 
-main.ts:192567
+main.ts:188095
 
 ***
 
@@ -76,7 +76,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 #### Defined in
 
-main.ts:192557
+main.ts:188085
 
 ***
 
@@ -97,7 +97,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 #### Defined in
 
-main.ts:192506
+main.ts:188034
 
 ***
 
@@ -118,7 +118,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:192549
+main.ts:188077
 
 ***
 
@@ -139,7 +139,7 @@ en
 
 #### Defined in
 
-main.ts:192534
+main.ts:188062
 
 ***
 
@@ -160,7 +160,7 @@ English
 
 #### Defined in
 
-main.ts:192527
+main.ts:188055
 
 ***
 
@@ -181,7 +181,7 @@ example:
 
 #### Defined in
 
-main.ts:192520
+main.ts:188048
 
 ***
 
@@ -202,7 +202,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:192513
+main.ts:188041
 
 ***
 
@@ -226,7 +226,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:192599
+main.ts:188127
 
 ***
 
@@ -246,7 +246,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:192589
+main.ts:188117
 
 ***
 
@@ -270,7 +270,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:192583
+main.ts:188111
 
 ***
 
@@ -292,7 +292,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:192542
+main.ts:188070
 
 ***
 
@@ -312,7 +312,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:192573
+main.ts:188101
 
 ## Methods
 
@@ -330,7 +330,7 @@ main.ts:192573
 
 #### Defined in
 
-main.ts:192612
+main.ts:188140
 
 ***
 
@@ -348,7 +348,7 @@ main.ts:192612
 
 #### Defined in
 
-main.ts:192641
+main.ts:188169
 
 ***
 
@@ -366,4 +366,4 @@ main.ts:192641
 
 #### Defined in
 
-main.ts:192634
+main.ts:188162

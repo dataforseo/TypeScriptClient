@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PaidDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / PaidDataforseoLabsSerpElementItem
 
 # Class: PaidDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:100175
+main.ts:98025
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:100175
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -68,7 +68,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:100169
+main.ts:98019
 
 ***
 
@@ -84,7 +84,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:100126
+main.ts:97976
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:100165
+main.ts:98015
 
 ***
 
@@ -119,7 +119,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:100124
+main.ts:97974
 
 ***
 
@@ -136,7 +136,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:100135
+main.ts:97985
 
 ***
 
@@ -144,7 +144,7 @@ main.ts:100135
 
 > `optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Implementation of
 
@@ -152,7 +152,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:100122
+main.ts:97972
 
 ***
 
@@ -171,7 +171,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:100156
+main.ts:98006
 
 ***
 
@@ -190,7 +190,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:100146
+main.ts:97996
 
 ***
 
@@ -210,7 +210,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:100132
+main.ts:97982
 
 ***
 
@@ -226,7 +226,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:100130
+main.ts:97980
 
 ***
 
@@ -245,7 +245,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:100151
+main.ts:98001
 
 ***
 
@@ -261,7 +261,7 @@ link of the element
 
 #### Defined in
 
-main.ts:100137
+main.ts:97987
 
 ***
 
@@ -277,7 +277,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:100139
+main.ts:97989
 
 ***
 
@@ -293,9 +293,13 @@ left, right
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:100116
+main.ts:20738
 
 ***
 
@@ -310,9 +314,13 @@ absolute position among all the elements in SERP
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:100112
+main.ts:20734
 
 ***
 
@@ -330,7 +338,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Defined in
 
-main.ts:100160
+main.ts:98010
 
 ***
 
@@ -345,9 +353,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:100109
+main.ts:20731
 
 ***
 
@@ -363,7 +375,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:100171
+main.ts:98021
 
 ***
 
@@ -379,7 +391,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:100141
+main.ts:97991
 
 ***
 
@@ -395,7 +407,7 @@ search engine type
 
 #### Defined in
 
-main.ts:100167
+main.ts:98017
 
 ***
 
@@ -403,7 +415,7 @@ main.ts:100167
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -411,7 +423,27 @@ title of the item
 
 #### Defined in
 
-main.ts:100120
+main.ts:97970
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -419,7 +451,7 @@ main.ts:100120
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -427,7 +459,7 @@ URL link
 
 #### Defined in
 
-main.ts:100128
+main.ts:97978
 
 ***
 
@@ -441,9 +473,13 @@ the XPath of the element
 
 [`IPaidDataforseoLabsSerpElementItem`](../interfaces/IPaidDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IPaidDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:100118
+main.ts:20740
 
 ## Methods
 
@@ -465,7 +501,7 @@ main.ts:100118
 
 #### Defined in
 
-main.ts:100180
+main.ts:98030
 
 ***
 
@@ -487,7 +523,7 @@ main.ts:100180
 
 #### Defined in
 
-main.ts:100238
+main.ts:98084
 
 ***
 
@@ -509,4 +545,4 @@ main.ts:100238
 
 #### Defined in
 
-main.ts:100231
+main.ts:98077

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingSearchVolumeHistoryLiveResultInfo
+[Documentation](../globals.md) / KeywordsDataBingSearchVolumeHistoryLiveResultInfo
 
 # Class: KeywordsDataBingSearchVolumeHistoryLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:138398
+main.ts:135264
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:138398
 
 #### Defined in
 
-main.ts:138387
+main.ts:135253
 
 ***
 
@@ -60,7 +60,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:138380
+main.ts:135246
 
 ***
 
@@ -77,7 +77,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:138386
+main.ts:135252
 
 ***
 
@@ -94,7 +94,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:138383
+main.ts:135249
 
 ***
 
@@ -112,7 +112,7 @@ default value monthly
 
 #### Defined in
 
-main.ts:138391
+main.ts:135257
 
 ***
 
@@ -129,7 +129,7 @@ if the device parameter is not specified, the data will be returned for all avai
 
 #### Defined in
 
-main.ts:138394
+main.ts:135260
 
 ## Methods
 
@@ -147,7 +147,7 @@ main.ts:138394
 
 #### Defined in
 
-main.ts:138407
+main.ts:135273
 
 ***
 
@@ -165,7 +165,7 @@ main.ts:138407
 
 #### Defined in
 
-main.ts:138433
+main.ts:135299
 
 ***
 
@@ -183,4 +183,4 @@ main.ts:138433
 
 #### Defined in
 
-main.ts:138426
+main.ts:135292

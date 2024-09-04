@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRefineProductsSerpElementItem
+[Documentation](../globals.md) / IRefineProductsSerpElementItem
 
 # Interface: IRefineProductsSerpElementItem
 
@@ -25,7 +25,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:37124
+main.ts:35512
 
 ***
 
@@ -37,9 +37,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:37117
+main.ts:20721
 
 ***
 
@@ -49,11 +53,14 @@ main.ts:37117
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:37113
+main.ts:20717
 
 ***
 
@@ -62,13 +69,16 @@ main.ts:37113
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:37109
+main.ts:20714
 
 ***
 
@@ -82,7 +92,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:37128
+main.ts:35516
 
 ***
 
@@ -94,7 +104,23 @@ title of the row
 
 #### Defined in
 
-main.ts:37121
+main.ts:35509
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -104,6 +130,10 @@ main.ts:37121
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:37119
+main.ts:20723

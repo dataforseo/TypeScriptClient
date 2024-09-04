@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PerspectivesElement
+[Documentation](../globals.md) / PerspectivesElement
 
 # Class: PerspectivesElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:37355
+main.ts:35705
 
 ## Properties
 
@@ -46,7 +46,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:37343
+main.ts:35693
 
 ***
 
@@ -62,7 +62,7 @@ description
 
 #### Defined in
 
-main.ts:37337
+main.ts:35687
 
 ***
 
@@ -78,7 +78,7 @@ website domain
 
 #### Defined in
 
-main.ts:37341
+main.ts:35691
 
 ***
 
@@ -95,7 +95,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:37346
+main.ts:35696
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:37351
+main.ts:35701
 
 ***
 
@@ -130,7 +130,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:37335
+main.ts:35685
 
 ***
 
@@ -146,7 +146,7 @@ type of element
 
 #### Defined in
 
-main.ts:37333
+main.ts:35683
 
 ***
 
@@ -162,7 +162,7 @@ URL
 
 #### Defined in
 
-main.ts:37339
+main.ts:35689
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:37339
 
 #### Defined in
 
-main.ts:37364
+main.ts:35714
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:37364
 
 #### Defined in
 
-main.ts:37388
+main.ts:35738
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:37388
 
 #### Defined in
 
-main.ts:37381
+main.ts:35731

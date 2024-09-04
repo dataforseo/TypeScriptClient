@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PeopleAlsoSearch
+[Documentation](../globals.md) / PeopleAlsoSearch
 
 # Class: PeopleAlsoSearch
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:203100
+main.ts:198482
 
 ## Properties
 
@@ -48,7 +48,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:203087
+main.ts:198469
 
 ***
 
@@ -65,7 +65,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:203090
+main.ts:198472
 
 ***
 
@@ -82,7 +82,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:203096
+main.ts:198478
 
 ***
 
@@ -99,7 +99,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:203093
+main.ts:198475
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:203093
 
 #### Defined in
 
-main.ts:203109
+main.ts:198491
 
 ***
 
@@ -135,7 +135,7 @@ main.ts:203109
 
 #### Defined in
 
-main.ts:203129
+main.ts:198511
 
 ***
 
@@ -153,4 +153,4 @@ main.ts:203129
 
 #### Defined in
 
-main.ts:203122
+main.ts:198504

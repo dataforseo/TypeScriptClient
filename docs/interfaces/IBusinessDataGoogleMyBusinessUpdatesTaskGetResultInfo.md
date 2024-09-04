@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
 # Interface: IBusinessDataGoogleMyBusinessUpdatesTaskGetResultInfo
 
@@ -20,7 +20,7 @@ identifier of the business updates element in SERP
 
 #### Defined in
 
-main.ts:207541
+main.ts:202879
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:207534
+main.ts:202872
 
 ***
 
@@ -47,7 +47,7 @@ learn more about the cid identifier in this help center article
 
 #### Defined in
 
-main.ts:207545
+main.ts:202883
 
 ***
 
@@ -62,7 +62,7 @@ example:
 
 #### Defined in
 
-main.ts:207539
+main.ts:202877
 
 ***
 
@@ -75,7 +75,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:207548
+main.ts:202886
 
 ***
 
@@ -89,7 +89,7 @@ possible item types: google_business_post
 
 #### Defined in
 
-main.ts:207552
+main.ts:202890
 
 ***
 
@@ -103,7 +103,7 @@ possible item types: google_business_post
 
 #### Defined in
 
-main.ts:207559
+main.ts:202897
 
 ***
 
@@ -116,7 +116,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:207555
+main.ts:202893
 
 ***
 
@@ -133,7 +133,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:207525
+main.ts:202863
 
 ***
 
@@ -145,7 +145,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:207531
+main.ts:202869
 
 ***
 
@@ -157,7 +157,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:207529
+main.ts:202867
 
 ***
 
@@ -169,4 +169,4 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:207527
+main.ts:202865

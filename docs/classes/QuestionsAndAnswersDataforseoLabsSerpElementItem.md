@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / QuestionsAndAnswersDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / QuestionsAndAnswersDataforseoLabsSerpElementItem
 
 # Class: QuestionsAndAnswersDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:101669
+main.ts:99040
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:101669
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20752
 
 > `optional` **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:101665
+main.ts:99036
 
 ***
 
@@ -85,9 +84,13 @@ left, right
 
 [`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:101660
+main.ts:20738
 
 ***
 
@@ -102,9 +105,13 @@ absolute position among all the elements in SERP
 
 [`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:101656
+main.ts:20734
 
 ***
 
@@ -119,9 +126,33 @@ positions of elements with different type values are omitted from rank_group
 
 [`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:101653
+main.ts:20731
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -135,9 +166,13 @@ the XPath of the element
 
 [`IQuestionsAndAnswersDataforseoLabsSerpElementItem`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IQuestionsAndAnswersDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:101662
+main.ts:20740
 
 ## Methods
 
@@ -159,7 +194,7 @@ main.ts:101662
 
 #### Defined in
 
-main.ts:101674
+main.ts:99045
 
 ***
 
@@ -181,7 +216,7 @@ main.ts:101674
 
 #### Defined in
 
-main.ts:101700
+main.ts:99067
 
 ***
 
@@ -203,4 +238,4 @@ main.ts:101700
 
 #### Defined in
 
-main.ts:101693
+main.ts:99060

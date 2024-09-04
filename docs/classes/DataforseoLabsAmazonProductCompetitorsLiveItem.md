@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
+[Documentation](../globals.md) / DataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Class: DataforseoLabsAmazonProductCompetitorsLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:107562
+main.ts:104696
 
 ## Properties
 
@@ -48,7 +48,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:107541
+main.ts:104675
 
 ***
 
@@ -66,7 +66,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:107545
+main.ts:104679
 
 ***
 
@@ -84,7 +84,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Defined in
 
-main.ts:107555
+main.ts:104689
 
 ***
 
@@ -101,7 +101,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 #### Defined in
 
-main.ts:107558
+main.ts:104692
 
 ***
 
@@ -117,7 +117,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:107551
+main.ts:104685
 
 ***
 
@@ -133,7 +133,7 @@ search engine type
 
 #### Defined in
 
-main.ts:107537
+main.ts:104671
 
 ***
 
@@ -151,7 +151,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:107549
+main.ts:104683
 
 ## Methods
 
@@ -169,7 +169,7 @@ main.ts:107549
 
 #### Defined in
 
-main.ts:107571
+main.ts:104705
 
 ***
 
@@ -187,7 +187,7 @@ main.ts:107571
 
 #### Defined in
 
-main.ts:107594
+main.ts:104728
 
 ***
 
@@ -205,4 +205,4 @@ main.ts:107594
 
 #### Defined in
 
-main.ts:107587
+main.ts:104721

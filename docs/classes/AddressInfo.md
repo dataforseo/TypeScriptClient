@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AddressInfo
+[Documentation](../globals.md) / AddressInfo
 
 # Class: AddressInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:41427
+main.ts:39587
 
 ## Properties
 
@@ -46,7 +46,7 @@ street address of the local establishment
 
 #### Defined in
 
-main.ts:41415
+main.ts:39575
 
 ***
 
@@ -62,7 +62,7 @@ administrative unit or district the local establishment belongs to
 
 #### Defined in
 
-main.ts:41413
+main.ts:39573
 
 ***
 
@@ -78,7 +78,7 @@ name of the city where the local establishment is located
 
 #### Defined in
 
-main.ts:41417
+main.ts:39577
 
 ***
 
@@ -94,7 +94,7 @@ ISO country code of the local establishment
 
 #### Defined in
 
-main.ts:41423
+main.ts:39583
 
 ***
 
@@ -110,7 +110,7 @@ DMA region the local establishment belongs to
 
 #### Defined in
 
-main.ts:41421
+main.ts:39581
 
 ***
 
@@ -126,7 +126,7 @@ ZIP code of the local establishment
 
 #### Defined in
 
-main.ts:41419
+main.ts:39579
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:41419
 
 #### Defined in
 
-main.ts:41436
+main.ts:39596
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:41436
 
 #### Defined in
 
-main.ts:41458
+main.ts:39618
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:41458
 
 #### Defined in
 
-main.ts:41451
+main.ts:39611

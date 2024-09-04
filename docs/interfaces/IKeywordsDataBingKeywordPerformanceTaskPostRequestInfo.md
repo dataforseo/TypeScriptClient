@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskPostRequestInfo
 
@@ -23,7 +23,7 @@ default value: all
 
 #### Defined in
 
-main.ts:135798
+main.ts:132664
 
 ***
 
@@ -40,7 +40,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:135793
+main.ts:132659
 
 ***
 
@@ -56,7 +56,7 @@ example:
 
 #### Defined in
 
-main.ts:135841
+main.ts:132707
 
 ***
 
@@ -73,7 +73,7 @@ English
 
 #### Defined in
 
-main.ts:135835
+main.ts:132701
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:135820
+main.ts:132686
 
 ***
 
@@ -108,7 +108,7 @@ example:
 
 #### Defined in
 
-main.ts:135828
+main.ts:132694
 
 ***
 
@@ -125,7 +125,7 @@ example:
 
 #### Defined in
 
-main.ts:135813
+main.ts:132679
 
 ***
 
@@ -143,7 +143,7 @@ exact returns data for user query that matches the specified keyword;Note: the a
 
 #### Defined in
 
-main.ts:135806
+main.ts:132672
 
 ***
 
@@ -163,7 +163,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:135861
+main.ts:132727
 
 ***
 
@@ -183,7 +183,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:135851
+main.ts:132717
 
 ***
 
@@ -199,4 +199,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:135867
+main.ts:132733

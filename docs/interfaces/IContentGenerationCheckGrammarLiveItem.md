@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentGenerationCheckGrammarLiveItem
+[Documentation](../globals.md) / IContentGenerationCheckGrammarLiveItem
 
 # Interface: IContentGenerationCheckGrammarLiveItem
 
@@ -20,7 +20,7 @@ description of the grammar or spelling error
 
 #### Defined in
 
-main.ts:175300
+main.ts:171230
 
 ***
 
@@ -32,7 +32,7 @@ offset token for subsequent requests
 
 #### Defined in
 
-main.ts:175306
+main.ts:171236
 
 ***
 
@@ -44,7 +44,7 @@ message of the grammar or spelling error
 
 #### Defined in
 
-main.ts:175298
+main.ts:171228
 
 ***
 
@@ -56,7 +56,7 @@ offset token for subsequent requests
 
 #### Defined in
 
-main.ts:175304
+main.ts:171234
 
 ***
 
@@ -68,7 +68,7 @@ id of the rule category
 
 #### Defined in
 
-main.ts:175317
+main.ts:171247
 
 ***
 
@@ -80,7 +80,7 @@ name of the rule category
 
 #### Defined in
 
-main.ts:175319
+main.ts:171249
 
 ***
 
@@ -92,7 +92,7 @@ description of the grammar or spelling rule
 
 #### Defined in
 
-main.ts:175313
+main.ts:171243
 
 ***
 
@@ -105,7 +105,7 @@ see the List of Grammar Rules for Content Generation API
 
 #### Defined in
 
-main.ts:175311
+main.ts:171241
 
 ***
 
@@ -117,7 +117,7 @@ type of the issue found by the relevant rule
 
 #### Defined in
 
-main.ts:175315
+main.ts:171245
 
 ***
 
@@ -129,7 +129,7 @@ suggested corrections
 
 #### Defined in
 
-main.ts:175302
+main.ts:171232
 
 ***
 
@@ -141,4 +141,4 @@ type of element
 
 #### Defined in
 
-main.ts:175308
+main.ts:171238

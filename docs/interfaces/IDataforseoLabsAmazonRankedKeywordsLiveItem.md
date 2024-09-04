@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
+[Documentation](../globals.md) / IDataforseoLabsAmazonRankedKeywordsLiveItem
 
 # Interface: IDataforseoLabsAmazonRankedKeywordsLiveItem
 
@@ -20,7 +20,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:106532
+main.ts:103660
 
 ***
 
@@ -32,7 +32,7 @@ contains data on the products’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:106534
+main.ts:103662
 
 ***
 
@@ -44,4 +44,4 @@ search engine type
 
 #### Defined in
 
-main.ts:106530
+main.ts:103658

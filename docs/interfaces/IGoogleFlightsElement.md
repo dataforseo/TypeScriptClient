@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleFlightsElement
+[Documentation](../globals.md) / IGoogleFlightsElement
 
 # Interface: IGoogleFlightsElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:32444
+main.ts:31782
 
 ***
 
@@ -32,7 +32,7 @@ type of element
 
 #### Defined in
 
-main.ts:32442
+main.ts:31780
 
 ***
 
@@ -44,4 +44,4 @@ URL
 
 #### Defined in
 
-main.ts:32446
+main.ts:31784

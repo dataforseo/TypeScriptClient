@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppListingsCategoriesResultInfo
+[Documentation](../globals.md) / AppDataGoogleAppListingsCategoriesResultInfo
 
 # Class: AppDataGoogleAppListingsCategoriesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:196183
+main.ts:191637
 
 ## Properties
 
@@ -46,7 +46,7 @@ name of the supported app category
 
 #### Defined in
 
-main.ts:196177
+main.ts:191631
 
 ***
 
@@ -62,7 +62,7 @@ number of app listings that make up the supported app category
 
 #### Defined in
 
-main.ts:196179
+main.ts:191633
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:196179
 
 #### Defined in
 
-main.ts:196192
+main.ts:191646
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:196192
 
 #### Defined in
 
-main.ts:196210
+main.ts:191664
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:196210
 
 #### Defined in
 
-main.ts:196203
+main.ts:191657

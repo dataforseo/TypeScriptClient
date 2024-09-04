@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 
 # Interface: IDataforseoLabsAppleKeywordsForAppLiveResultInfo
 
@@ -20,7 +20,7 @@ id of the app in a POST array
 
 #### Defined in
 
-main.ts:117626
+main.ts:114684
 
 ***
 
@@ -32,7 +32,7 @@ contains data related to the ranking keywords for the app specified in the app_i
 
 #### Defined in
 
-main.ts:117636
+main.ts:114694
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:117634
+main.ts:114692
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:117630
+main.ts:114688
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:117628
+main.ts:114686
 
 ***
 
@@ -80,7 +80,7 @@ search engine type
 
 #### Defined in
 
-main.ts:117624
+main.ts:114682
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:117632
+main.ts:114690

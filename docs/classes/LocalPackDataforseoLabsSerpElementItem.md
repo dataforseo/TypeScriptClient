@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalPackDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / LocalPackDataforseoLabsSerpElementItem
 
 # Class: LocalPackDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:99421
+main.ts:97471
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99421
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -71,7 +71,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:99417
+main.ts:97467
 
 ***
 
@@ -87,7 +87,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:99378
+main.ts:97428
 
 ***
 
@@ -95,7 +95,7 @@ main.ts:99378
 
 > `optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Implementation of
 
@@ -103,7 +103,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:99380
+main.ts:97430
 
 ***
 
@@ -122,7 +122,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:99408
+main.ts:97458
 
 ***
 
@@ -141,7 +141,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:99398
+main.ts:97448
 
 ***
 
@@ -160,7 +160,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:99403
+main.ts:97453
 
 ***
 
@@ -176,7 +176,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:99386
+main.ts:97436
 
 ***
 
@@ -192,7 +192,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:99391
+main.ts:97441
 
 ***
 
@@ -208,7 +208,7 @@ phone number
 
 #### Defined in
 
-main.ts:99382
+main.ts:97432
 
 ***
 
@@ -224,9 +224,13 @@ left, right
 
 [`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`position`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:99372
+main.ts:20738
 
 ***
 
@@ -241,9 +245,13 @@ absolute position among all the elements in SERP
 
 [`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:99368
+main.ts:20734
 
 ***
 
@@ -261,7 +269,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Defined in
 
-main.ts:99412
+main.ts:97462
 
 ***
 
@@ -276,9 +284,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:99365
+main.ts:20731
 
 ***
 
@@ -295,7 +307,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:99389
+main.ts:97439
 
 ***
 
@@ -311,7 +323,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:99393
+main.ts:97443
 
 ***
 
@@ -319,7 +331,7 @@ main.ts:99393
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -327,7 +339,27 @@ title of the item
 
 #### Defined in
 
-main.ts:99376
+main.ts:97426
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`type`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -335,7 +367,7 @@ main.ts:99376
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -343,7 +375,7 @@ URL link
 
 #### Defined in
 
-main.ts:99384
+main.ts:97434
 
 ***
 
@@ -357,9 +389,13 @@ the XPath of the element
 
 [`ILocalPackDataforseoLabsSerpElementItem`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/ILocalPackDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:99374
+main.ts:20740
 
 ## Methods
 
@@ -381,7 +417,7 @@ main.ts:99374
 
 #### Defined in
 
-main.ts:99426
+main.ts:97476
 
 ***
 
@@ -403,7 +439,7 @@ main.ts:99426
 
 #### Defined in
 
-main.ts:99461
+main.ts:97507
 
 ***
 
@@ -425,4 +461,4 @@ main.ts:99461
 
 #### Defined in
 
-main.ts:99454
+main.ts:97500

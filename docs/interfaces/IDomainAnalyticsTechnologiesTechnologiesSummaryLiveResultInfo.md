@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologiesSummaryLiveResultInfo
 
@@ -25,7 +25,7 @@ contains content language codes and number of websites per language
 
 #### Defined in
 
-main.ts:78455
+main.ts:77127
 
 ***
 
@@ -42,7 +42,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:78449
+main.ts:77121
 
 ***
 
@@ -59,7 +59,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 #### Defined in
 
-main.ts:78458
+main.ts:77130
 
 ***
 
@@ -76,4 +76,4 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:78452
+main.ts:77124

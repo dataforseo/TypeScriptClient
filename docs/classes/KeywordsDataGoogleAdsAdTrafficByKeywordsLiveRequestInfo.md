@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:124697
+main.ts:121755
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:124611
+main.ts:121669
 
 ***
 
@@ -74,7 +74,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:124667
+main.ts:121725
 
 ***
 
@@ -94,7 +94,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:124682
+main.ts:121740
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:124676
+main.ts:121734
 
 ***
 
@@ -142,7 +142,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:124605
+main.ts:121663
 
 ***
 
@@ -162,7 +162,7 @@ en
 
 #### Defined in
 
-main.ts:124657
+main.ts:121715
 
 ***
 
@@ -182,7 +182,7 @@ English
 
 #### Defined in
 
-main.ts:124651
+main.ts:121709
 
 ***
 
@@ -204,7 +204,7 @@ example:
 
 #### Defined in
 
-main.ts:124636
+main.ts:121694
 
 ***
 
@@ -227,7 +227,7 @@ example:
 
 #### Defined in
 
-main.ts:124645
+main.ts:121703
 
 ***
 
@@ -249,7 +249,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:124628
+main.ts:121686
 
 ***
 
@@ -267,7 +267,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:124615
+main.ts:121673
 
 ***
 
@@ -286,7 +286,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:124620
+main.ts:121678
 
 ***
 
@@ -305,7 +305,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:124687
+main.ts:121745
 
 ***
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:124693
+main.ts:121751
 
 ## Methods
 
@@ -343,7 +343,7 @@ main.ts:124693
 
 #### Defined in
 
-main.ts:124706
+main.ts:121764
 
 ***
 
@@ -361,7 +361,7 @@ main.ts:124706
 
 #### Defined in
 
-main.ts:124740
+main.ts:121798
 
 ***
 
@@ -379,4 +379,4 @@ main.ts:124740
 
 #### Defined in
 
-main.ts:124733
+main.ts:121791

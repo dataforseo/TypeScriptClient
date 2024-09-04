@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageNonIndexableResultInfo
+[Documentation](../globals.md) / OnPageNonIndexableResultInfo
 
 # Class: OnPageNonIndexableResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:162843
+main.ts:158773
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:162831
+main.ts:158761
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:162833
+main.ts:158763
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Defined in
 
-main.ts:162839
+main.ts:158769
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:162837
+main.ts:158767
 
 ***
 
@@ -111,7 +111,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:162835
+main.ts:158765
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:162835
 
 #### Defined in
 
-main.ts:162852
+main.ts:158782
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:162852
 
 #### Defined in
 
-main.ts:162877
+main.ts:158807
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:162877
 
 #### Defined in
 
-main.ts:162870
+main.ts:158800

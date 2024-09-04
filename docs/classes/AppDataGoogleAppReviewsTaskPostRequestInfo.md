@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
+[Documentation](../globals.md) / AppDataGoogleAppReviewsTaskPostRequestInfo
 
 # Class: AppDataGoogleAppReviewsTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:194966
+main.ts:190458
 
 ## Properties
 
@@ -51,7 +51,7 @@ https://play.google.com/store/apps/details?id=org.telegram.messenger
 
 #### Defined in
 
-main.ts:194868
+main.ts:190360
 
 ***
 
@@ -72,7 +72,7 @@ maximum value: 100000
 
 #### Defined in
 
-main.ts:194911
+main.ts:190403
 
 ***
 
@@ -93,7 +93,7 @@ en
 
 #### Defined in
 
-main.ts:194896
+main.ts:190388
 
 ***
 
@@ -114,7 +114,7 @@ English
 
 #### Defined in
 
-main.ts:194889
+main.ts:190381
 
 ***
 
@@ -135,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:194882
+main.ts:190374
 
 ***
 
@@ -156,7 +156,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:194875
+main.ts:190367
 
 ***
 
@@ -180,7 +180,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:194962
+main.ts:190454
 
 ***
 
@@ -200,7 +200,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:194952
+main.ts:190444
 
 ***
 
@@ -224,7 +224,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:194946
+main.ts:190438
 
 ***
 
@@ -246,7 +246,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:194904
+main.ts:190396
 
 ***
 
@@ -271,7 +271,7 @@ by default, the API returns all reviews regardless of the number of stars
 
 #### Defined in
 
-main.ts:194922
+main.ts:190414
 
 ***
 
@@ -293,7 +293,7 @@ default rule: most_relevant
 
 #### Defined in
 
-main.ts:194930
+main.ts:190422
 
 ***
 
@@ -313,7 +313,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:194936
+main.ts:190428
 
 ## Methods
 
@@ -331,7 +331,7 @@ main.ts:194936
 
 #### Defined in
 
-main.ts:194975
+main.ts:190467
 
 ***
 
@@ -349,7 +349,7 @@ main.ts:194975
 
 #### Defined in
 
-main.ts:195004
+main.ts:190496
 
 ***
 
@@ -367,4 +367,4 @@ main.ts:195004
 
 #### Defined in
 
-main.ts:194997
+main.ts:190489

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / StoresCountInfo
+[Documentation](../globals.md) / StoresCountInfo
 
 # Class: StoresCountInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:178446
+main.ts:174376
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of stores that offer the product
 
 #### Defined in
 
-main.ts:178434
+main.ts:174364
 
 ***
 
@@ -66,7 +66,7 @@ in this case, the parameter is true
 
 #### Defined in
 
-main.ts:178442
+main.ts:174372
 
 ***
 
@@ -82,7 +82,7 @@ text displayed on the Google Shopping page
 
 #### Defined in
 
-main.ts:178436
+main.ts:174366
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:178436
 
 #### Defined in
 
-main.ts:178455
+main.ts:174385
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:178455
 
 #### Defined in
 
-main.ts:178474
+main.ts:174404
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:178474
 
 #### Defined in
 
-main.ts:178467
+main.ts:174397

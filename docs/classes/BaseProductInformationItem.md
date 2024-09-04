@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseProductInformationItem
+[Documentation](../globals.md) / BaseProductInformationItem
 
 # Class: BaseProductInformationItem
 
@@ -15,10 +15,6 @@
 ## Implements
 
 - [`IBaseProductInformationItem`](../interfaces/IBaseProductInformationItem.md)
-
-## Indexable
-
- \[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -36,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23038
+main.ts:23356
 
 ## Properties
 
@@ -46,7 +42,39 @@ main.ts:23038
 
 #### Defined in
 
-main.ts:23036
+main.ts:23354
+
+***
+
+### section\_name?
+
+> `optional` **section\_name**: `string`
+
+name of the section related to product information specified in the contents
+
+#### Implementation of
+
+[`IBaseProductInformationItem`](../interfaces/IBaseProductInformationItem.md).[`section_name`](../interfaces/IBaseProductInformationItem.md#section_name)
+
+#### Defined in
+
+main.ts:23352
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseProductInformationItem`](../interfaces/IBaseProductInformationItem.md).[`type`](../interfaces/IBaseProductInformationItem.md#type)
+
+#### Defined in
+
+main.ts:23350
 
 ## Methods
 
@@ -64,7 +92,7 @@ main.ts:23036
 
 #### Defined in
 
-main.ts:23048
+main.ts:23366
 
 ***
 
@@ -82,7 +110,7 @@ main.ts:23048
 
 #### Defined in
 
-main.ts:23079
+main.ts:23395
 
 ***
 
@@ -100,4 +128,4 @@ main.ts:23079
 
 #### Defined in
 
-main.ts:23057
+main.ts:23373

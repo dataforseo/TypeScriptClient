@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseLiveJsonRequestInfo
+[Documentation](../globals.md) / OnPageLighthouseLiveJsonRequestInfo
 
 # Class: OnPageLighthouseLiveJsonRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:168492
+main.ts:164422
 
 ## Properties
 
@@ -57,7 +57,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:168465
+main.ts:164395
 
 ***
 
@@ -79,7 +79,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:168452
+main.ts:164382
 
 ***
 
@@ -99,7 +99,7 @@ default value: false
 
 #### Defined in
 
-main.ts:168444
+main.ts:164374
 
 ***
 
@@ -119,7 +119,7 @@ en
 
 #### Defined in
 
-main.ts:168482
+main.ts:164412
 
 ***
 
@@ -139,7 +139,7 @@ English
 
 #### Defined in
 
-main.ts:168476
+main.ts:164406
 
 ***
 
@@ -159,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:168488
+main.ts:164418
 
 ***
 
@@ -179,7 +179,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:168438
+main.ts:164368
 
 ***
 
@@ -198,7 +198,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:168470
+main.ts:164400
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:168470
 
 #### Defined in
 
-main.ts:168501
+main.ts:164431
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:168501
 
 #### Defined in
 
-main.ts:168533
+main.ts:164463
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:168533
 
 #### Defined in
 
-main.ts:168526
+main.ts:164456

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGooglePostsSerpElementItem
+[Documentation](../globals.md) / IGooglePostsSerpElementItem
 
 # Interface: IGooglePostsSerpElementItem
 
@@ -24,7 +24,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:36322
+main.ts:34862
 
 ***
 
@@ -36,7 +36,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:36320
+main.ts:34860
 
 ***
 
@@ -48,9 +48,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`position`](IBaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:36314
+main.ts:20721
 
 ***
 
@@ -62,7 +66,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:36318
+main.ts:34858
 
 ***
 
@@ -72,11 +76,14 @@ main.ts:36318
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_absolute`](IBaseSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:36310
+main.ts:20717
 
 ***
 
@@ -85,13 +92,16 @@ main.ts:36310
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`rank_group`](IBaseSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:36306
+main.ts:20714
 
 ***
 
@@ -105,7 +115,23 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36326
+main.ts:34866
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`type`](IBaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20710
 
 ***
 
@@ -115,6 +141,10 @@ main.ts:36326
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseSerpElementItem`](IBaseSerpElementItem.md).[`xpath`](IBaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:36316
+main.ts:20723

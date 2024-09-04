@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataIdListRequestInfo
+[Documentation](../globals.md) / AppDataIdListRequestInfo
 
 # Class: AppDataIdListRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:190177
+main.ts:185705
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:190147
+main.ts:185675
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:190154
+main.ts:185682
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:190173
+main.ts:185701
 
 ***
 
@@ -110,7 +110,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:190159
+main.ts:185687
 
 ***
 
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:190164
+main.ts:185692
 
 ***
 
@@ -148,7 +148,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:190169
+main.ts:185697
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:190169
 
 #### Defined in
 
-main.ts:190186
+main.ts:185714
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:190186
 
 #### Defined in
 
-main.ts:190208
+main.ts:185736
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:190208
 
 #### Defined in
 
-main.ts:190201
+main.ts:185729

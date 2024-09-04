@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixGoogleBusinessDataPriceDataInfo
+[Documentation](../globals.md) / IAppendixGoogleBusinessDataPriceDataInfo
 
 # Interface: IAppendixGoogleBusinessDataPriceDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:227358
+main.ts:222618
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:227358
 
 #### Defined in
 
-main.ts:227359
+main.ts:222619
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:227359
 
 #### Defined in
 
-main.ts:227360
+main.ts:222620
 
 ***
 
@@ -48,4 +48,4 @@ main.ts:227360
 
 #### Defined in
 
-main.ts:227361
+main.ts:222621

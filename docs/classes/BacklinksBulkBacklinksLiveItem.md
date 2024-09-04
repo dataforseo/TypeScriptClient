@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBulkBacklinksLiveItem
+[Documentation](../globals.md) / BacklinksBulkBacklinksLiveItem
 
 # Class: BacklinksBulkBacklinksLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:152550
+main.ts:149416
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of backlinks pointing to the target
 
 #### Defined in
 
-main.ts:152546
+main.ts:149412
 
 ***
 
@@ -62,7 +62,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:152544
+main.ts:149410
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:152544
 
 #### Defined in
 
-main.ts:152559
+main.ts:149425
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:152559
 
 #### Defined in
 
-main.ts:152577
+main.ts:149443
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:152577
 
 #### Defined in
 
-main.ts:152570
+main.ts:149436

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTripadvisorLocationsCountryResultInfo
+[Documentation](../globals.md) / BusinessDataTripadvisorLocationsCountryResultInfo
 
 # Class: BusinessDataTripadvisorLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:217038
+main.ts:212328
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:217032
+main.ts:212322
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Defined in
 
-main.ts:217022
+main.ts:212312
 
 ***
 
@@ -78,7 +78,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:217024
+main.ts:212314
 
 ***
 
@@ -98,7 +98,7 @@ example:
 
 #### Defined in
 
-main.ts:217030
+main.ts:212320
 
 ***
 
@@ -114,7 +114,7 @@ location type
 
 #### Defined in
 
-main.ts:217034
+main.ts:212324
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:217034
 
 #### Defined in
 
-main.ts:217047
+main.ts:212337
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:217047
 
 #### Defined in
 
-main.ts:217068
+main.ts:212358
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:217068
 
 #### Defined in
 
-main.ts:217061
+main.ts:212351

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksTimeseriesSummaryLiveItem
+[Documentation](../globals.md) / IBacklinksTimeseriesSummaryLiveItem
 
 # Interface: IBacklinksTimeseriesSummaryLiveItem
 
@@ -20,7 +20,7 @@ number of backlinks for the given date
 
 #### Defined in
 
-main.ts:151383
+main.ts:148249
 
 ***
 
@@ -32,7 +32,7 @@ number of nofollow backlinks for the given date
 
 #### Defined in
 
-main.ts:151385
+main.ts:148251
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:151378
+main.ts:148244
 
 ***
 
@@ -60,7 +60,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:151381
+main.ts:148247
 
 ***
 
@@ -73,7 +73,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:151392
+main.ts:148258
 
 ***
 
@@ -85,7 +85,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Defined in
 
-main.ts:151394
+main.ts:148260
 
 ***
 
@@ -98,7 +98,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:151401
+main.ts:148267
 
 ***
 
@@ -110,7 +110,7 @@ number of referring main domains for the given date
 
 #### Defined in
 
-main.ts:151396
+main.ts:148262
 
 ***
 
@@ -122,7 +122,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Defined in
 
-main.ts:151398
+main.ts:148264
 
 ***
 
@@ -134,7 +134,7 @@ number of pages pointing to target for the given date
 
 #### Defined in
 
-main.ts:151387
+main.ts:148253
 
 ***
 
@@ -146,7 +146,7 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 #### Defined in
 
-main.ts:151389
+main.ts:148255
 
 ***
 
@@ -158,7 +158,7 @@ number of referring subnetworks for the given date
 
 #### Defined in
 
-main.ts:151403
+main.ts:148269
 
 ***
 
@@ -170,4 +170,4 @@ type of element
 
 #### Defined in
 
-main.ts:151373
+main.ts:148239

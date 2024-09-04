@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordAnnotations
+[Documentation](../globals.md) / KeywordAnnotations
 
 # Class: KeywordAnnotations
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:121939
+main.ts:118997
 
 ## Properties
 
@@ -46,7 +46,7 @@ the list of concepts for the keyword
 
 #### Defined in
 
-main.ts:121935
+main.ts:118993
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:121935
 
 #### Defined in
 
-main.ts:121948
+main.ts:119006
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:121948
 
 #### Defined in
 
-main.ts:121969
+main.ts:119027
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:121969
 
 #### Defined in
 
-main.ts:121962
+main.ts:119020

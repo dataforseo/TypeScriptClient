@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHotelAmenityInfo
+[Documentation](../globals.md) / IHotelAmenityInfo
 
 # Interface: IHotelAmenityInfo
 
@@ -20,7 +20,7 @@ standardised category of the ammenity
 
 #### Defined in
 
-main.ts:210331
+main.ts:205669
 
 ***
 
@@ -32,7 +32,7 @@ label of the category
 
 #### Defined in
 
-main.ts:210333
+main.ts:205671
 
 ***
 
@@ -44,4 +44,4 @@ specific amenities and details
 
 #### Defined in
 
-main.ts:210335
+main.ts:205673

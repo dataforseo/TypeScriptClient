@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleReviewsTasksReadyResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleReviewsTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleReviewsTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:212968
+main.ts:208306
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:212972
+main.ts:208310
 
 ***
 
@@ -45,7 +45,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:212961
+main.ts:208299
 
 ***
 
@@ -58,7 +58,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:212964
+main.ts:208302
 
 ***
 
@@ -70,7 +70,7 @@ type of search engine
 
 #### Defined in
 
-main.ts:212966
+main.ts:208304
 
 ***
 
@@ -82,4 +82,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:212970
+main.ts:208308

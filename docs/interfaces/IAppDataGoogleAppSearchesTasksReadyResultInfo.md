@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppSearchesTasksReadyResultInfo
+[Documentation](../globals.md) / IAppDataGoogleAppSearchesTasksReadyResultInfo
 
 # Interface: IAppDataGoogleAppSearchesTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:191737
+main.ts:187265
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the Google App Searches task
 
 #### Defined in
 
-main.ts:191741
+main.ts:187269
 
 ***
 
@@ -45,7 +45,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:191744
+main.ts:187272
 
 ***
 
@@ -58,7 +58,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:191731
+main.ts:187259
 
 ***
 
@@ -70,7 +70,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:191733
+main.ts:187261
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:191735
+main.ts:187263
 
 ***
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:191739
+main.ts:187267

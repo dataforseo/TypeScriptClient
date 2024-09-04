@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTaskPostRequestInfo
+[Documentation](../globals.md) / SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
 # Class: SerpYoutubeVideoSubtitlesTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:64531
+main.ts:63273
 
 ## Properties
 
@@ -48,7 +48,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:64490
+main.ts:63232
 
 ***
 
@@ -69,7 +69,7 @@ en
 
 #### Defined in
 
-main.ts:64486
+main.ts:63228
 
 ***
 
@@ -90,7 +90,7 @@ English
 
 #### Defined in
 
-main.ts:64479
+main.ts:63221
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:64472
+main.ts:63214
 
 ***
 
@@ -132,7 +132,7 @@ United States
 
 #### Defined in
 
-main.ts:64465
+main.ts:63207
 
 ***
 
@@ -151,7 +151,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:64495
+main.ts:63237
 
 ***
 
@@ -175,7 +175,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:64527
+main.ts:63269
 
 ***
 
@@ -195,7 +195,7 @@ advanced
 
 #### Defined in
 
-main.ts:64517
+main.ts:63259
 
 ***
 
@@ -219,7 +219,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:64511
+main.ts:63253
 
 ***
 
@@ -241,7 +241,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:64451
+main.ts:63193
 
 ***
 
@@ -258,7 +258,7 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-main.ts:64454
+main.ts:63196
 
 ***
 
@@ -276,7 +276,7 @@ possible values:
 
 #### Defined in
 
-main.ts:64458
+main.ts:63200
 
 ***
 
@@ -296,7 +296,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:64501
+main.ts:63243
 
 ***
 
@@ -316,7 +316,7 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-main.ts:64443
+main.ts:63185
 
 ## Methods
 
@@ -334,7 +334,7 @@ main.ts:64443
 
 #### Defined in
 
-main.ts:64540
+main.ts:63282
 
 ***
 
@@ -352,7 +352,7 @@ main.ts:64540
 
 #### Defined in
 
-main.ts:64570
+main.ts:63312
 
 ***
 
@@ -370,4 +370,4 @@ main.ts:64570
 
 #### Defined in
 
-main.ts:64563
+main.ts:63305

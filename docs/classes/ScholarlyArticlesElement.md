@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ScholarlyArticlesElement
+[Documentation](../globals.md) / ScholarlyArticlesElement
 
 # Class: ScholarlyArticlesElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:33637
+main.ts:32709
 
 ## Properties
 
@@ -46,7 +46,7 @@ author
 
 #### Defined in
 
-main.ts:33631
+main.ts:32703
 
 ***
 
@@ -62,7 +62,7 @@ description
 
 #### Defined in
 
-main.ts:33633
+main.ts:32705
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33627
+main.ts:32699
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:33625
+main.ts:32697
 
 ***
 
@@ -110,7 +110,7 @@ URL
 
 #### Defined in
 
-main.ts:33629
+main.ts:32701
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:33629
 
 #### Defined in
 
-main.ts:33646
+main.ts:32718
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:33646
 
 #### Defined in
 
-main.ts:33667
+main.ts:32739
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:33667
 
 #### Defined in
 
-main.ts:33660
+main.ts:32732

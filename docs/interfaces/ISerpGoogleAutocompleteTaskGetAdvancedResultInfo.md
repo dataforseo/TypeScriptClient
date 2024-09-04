@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleAutocompleteTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / ISerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleAutocompleteTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:54023
+main.ts:52486
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:54028
+main.ts:52491
 
 ***
 
@@ -51,19 +51,19 @@ autocomplete
 
 #### Defined in
 
-main.ts:54036
+main.ts:52499
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`SerpGoogleAutocompleteeAdvancedItem`](../classes/SerpGoogleAutocompleteeAdvancedItem.md)[]
 
 elements of search results found in SERP
 
 #### Defined in
 
-main.ts:54042
+main.ts:52505
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:54040
+main.ts:52503
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:54012
+main.ts:52475
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:54020
+main.ts:52483
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:54018
+main.ts:52481
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:54016
+main.ts:52479
 
 ***
 
@@ -136,7 +136,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:54038
+main.ts:52501
 
 ***
 
@@ -149,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:54031
+main.ts:52494
 
 ***
 
@@ -161,4 +161,4 @@ type of element
 
 #### Defined in
 
-main.ts:54014
+main.ts:52477

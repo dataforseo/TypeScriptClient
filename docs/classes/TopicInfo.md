@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TopicInfo
+[Documentation](../globals.md) / TopicInfo
 
 # Class: TopicInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:165732
+main.ts:161662
 
 ## Properties
 
@@ -46,7 +46,7 @@ content author name
 
 #### Defined in
 
-main.ts:165716
+main.ts:161646
 
 ***
 
@@ -62,7 +62,7 @@ meta title
 
 #### Defined in
 
-main.ts:165712
+main.ts:161642
 
 ***
 
@@ -78,7 +78,7 @@ content language
 
 #### Defined in
 
-main.ts:165718
+main.ts:161648
 
 ***
 
@@ -94,7 +94,7 @@ HTML level
 
 #### Defined in
 
-main.ts:165720
+main.ts:161650
 
 ***
 
@@ -110,7 +110,7 @@ main title of the block
 
 #### Defined in
 
-main.ts:165714
+main.ts:161644
 
 ***
 
@@ -127,7 +127,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:165723
+main.ts:161653
 
 ***
 
@@ -144,7 +144,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:165726
+main.ts:161656
 
 ***
 
@@ -160,7 +160,7 @@ content of the table on the page
 
 #### Defined in
 
-main.ts:165728
+main.ts:161658
 
 ## Methods
 
@@ -178,7 +178,7 @@ main.ts:165728
 
 #### Defined in
 
-main.ts:165741
+main.ts:161671
 
 ***
 
@@ -196,7 +196,7 @@ main.ts:165741
 
 #### Defined in
 
-main.ts:165777
+main.ts:161707
 
 ***
 
@@ -214,4 +214,4 @@ main.ts:165777
 
 #### Defined in
 
-main.ts:165770
+main.ts:161700

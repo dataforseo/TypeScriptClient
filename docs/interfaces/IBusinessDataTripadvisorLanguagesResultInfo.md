@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTripadvisorLanguagesResultInfo
+[Documentation](../globals.md) / IBusinessDataTripadvisorLanguagesResultInfo
 
 # Interface: IBusinessDataTripadvisorLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:217263
+main.ts:212553
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:217261
+main.ts:212551

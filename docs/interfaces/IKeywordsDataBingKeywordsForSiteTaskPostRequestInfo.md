@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
 # Interface: IKeywordsDataBingKeywordsForSiteTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:132896
+main.ts:129762
 
 ***
 
@@ -46,7 +46,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:132906
+main.ts:129772
 
 ***
 
@@ -62,7 +62,7 @@ default value: all
 
 #### Defined in
 
-main.ts:132883
+main.ts:129749
 
 ***
 
@@ -78,7 +78,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:132877
+main.ts:129743
 
 ***
 
@@ -94,7 +94,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:132871
+main.ts:129737
 
 ***
 
@@ -110,7 +110,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:132865
+main.ts:129731
 
 ***
 
@@ -127,7 +127,7 @@ example:
 
 #### Defined in
 
-main.ts:132851
+main.ts:129717
 
 ***
 
@@ -145,7 +145,7 @@ example:
 
 #### Defined in
 
-main.ts:132859
+main.ts:129725
 
 ***
 
@@ -162,7 +162,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:132844
+main.ts:129710
 
 ***
 
@@ -182,7 +182,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:132926
+main.ts:129792
 
 ***
 
@@ -202,7 +202,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:132916
+main.ts:129782
 
 ***
 
@@ -217,7 +217,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:132931
+main.ts:129797
 
 ***
 
@@ -232,7 +232,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:132888
+main.ts:129754
 
 ***
 
@@ -248,7 +248,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:132937
+main.ts:129803
 
 ***
 
@@ -262,4 +262,4 @@ the URL of the webpage or the domain to scan for possible keywords
 
 #### Defined in
 
-main.ts:132837
+main.ts:129703

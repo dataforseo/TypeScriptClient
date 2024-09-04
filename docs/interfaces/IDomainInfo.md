@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainInfo
+[Documentation](../globals.md) / IDomainInfo
 
 # Interface: IDomainInfo
 
@@ -22,7 +22,7 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 #### Defined in
 
-main.ts:156889
+main.ts:153755
 
 ***
 
@@ -39,7 +39,7 @@ other on-page check-ups related to the website
 
 #### Defined in
 
-main.ts:156879
+main.ts:153745
 
 ***
 
@@ -55,7 +55,7 @@ if our crawler was unable to identify the cms, the value would be null
 
 #### Defined in
 
-main.ts:156841
+main.ts:153707
 
 ***
 
@@ -72,7 +72,7 @@ if "crawl_progress" is in_progress, the value will be null
 
 #### Defined in
 
-main.ts:156861
+main.ts:153727
 
 ***
 
@@ -88,7 +88,7 @@ example:
 
 #### Defined in
 
-main.ts:156854
+main.ts:153720
 
 ***
 
@@ -102,7 +102,7 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 #### Defined in
 
-main.ts:156893
+main.ts:153759
 
 ***
 
@@ -124,7 +124,7 @@ unknown – the reason is unknown
 
 #### Defined in
 
-main.ts:156873
+main.ts:153739
 
 ***
 
@@ -136,7 +136,7 @@ domain ip address
 
 #### Defined in
 
-main.ts:156843
+main.ts:153709
 
 ***
 
@@ -148,7 +148,7 @@ root domain name
 
 #### Defined in
 
-main.ts:156899
+main.ts:153765
 
 ***
 
@@ -160,7 +160,7 @@ domain name
 
 #### Defined in
 
-main.ts:156835
+main.ts:153701
 
 ***
 
@@ -173,7 +173,7 @@ in most cases, it is recommended a server returns a 404 response code
 
 #### Defined in
 
-main.ts:156885
+main.ts:153751
 
 ***
 
@@ -188,7 +188,7 @@ the information is taken from the first page which response code is 200
 
 #### Defined in
 
-main.ts:156848
+main.ts:153714
 
 ***
 
@@ -201,7 +201,7 @@ information about the Secure Sockets Layer protocol detected on a website
 
 #### Defined in
 
-main.ts:156876
+main.ts:153742
 
 ***
 
@@ -214,7 +214,7 @@ the total number of crawled pages
 
 #### Defined in
 
-main.ts:156882
+main.ts:153748
 
 ***
 
@@ -228,4 +228,4 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 #### Defined in
 
-main.ts:156897
+main.ts:153763

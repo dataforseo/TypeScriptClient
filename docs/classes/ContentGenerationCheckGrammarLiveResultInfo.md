@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationCheckGrammarLiveResultInfo
+[Documentation](../globals.md) / ContentGenerationCheckGrammarLiveResultInfo
 
 # Class: ContentGenerationCheckGrammarLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:175342
+main.ts:171272
 
 ## Properties
 
@@ -46,7 +46,7 @@ initial text in the POST request
 
 #### Defined in
 
-main.ts:175332
+main.ts:171262
 
 ***
 
@@ -62,7 +62,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:175326
+main.ts:171256
 
 ***
 
@@ -78,7 +78,7 @@ contains grammar or spelling errors and related data
 
 #### Defined in
 
-main.ts:175338
+main.ts:171268
 
 ***
 
@@ -94,7 +94,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:175336
+main.ts:171266
 
 ***
 
@@ -110,7 +110,7 @@ language code in the POST request
 
 #### Defined in
 
-main.ts:175334
+main.ts:171264
 
 ***
 
@@ -126,7 +126,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:175330
+main.ts:171260
 
 ***
 
@@ -142,7 +142,7 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:175328
+main.ts:171258
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:175328
 
 #### Defined in
 
-main.ts:175351
+main.ts:171281
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:175351
 
 #### Defined in
 
-main.ts:175378
+main.ts:171308
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:175378
 
 #### Defined in
 
-main.ts:175371
+main.ts:171301

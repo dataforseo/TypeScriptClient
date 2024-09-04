@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ShoppingSpecificationMerchantSerpElementItem
+[Documentation](../globals.md) / ShoppingSpecificationMerchantSerpElementItem
 
 # Class: ShoppingSpecificationMerchantSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:181724
+main.ts:177488
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:181724
 
 #### Defined in
 
-main.ts:21025
+main.ts:21039
 
 ***
 
@@ -69,7 +69,7 @@ indicates the name of the product specification section in which the related ele
 
 #### Defined in
 
-main.ts:181715
+main.ts:177479
 
 ***
 
@@ -77,17 +77,21 @@ main.ts:181715
 
 > `optional` **position**: `string`
 
-alignment of the element on the product specification page
+alignment of the element in SERP
 can take the following values:
-right
+left, right
 
 #### Implementation of
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`position`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:181710
+main.ts:21037
 
 ***
 
@@ -95,16 +99,20 @@ main.ts:181710
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank on the product specification page
-absolute position among all the elements found on the product specification page
+absolute rank in SERP
+absolute position among all the elements found in Google Shopping SERP
 
 #### Implementation of
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:181706
+main.ts:21033
 
 ***
 
@@ -119,9 +127,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`rank_group`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:181703
+main.ts:21030
 
 ***
 
@@ -138,7 +150,7 @@ attribute name of the product data specification
 
 #### Defined in
 
-main.ts:181718
+main.ts:177482
 
 ***
 
@@ -154,7 +166,27 @@ content of the specification
 
 #### Defined in
 
-main.ts:181720
+main.ts:177484
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IShoppingSpecificationMerchantSerpElementItem`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md).[`type`](../interfaces/IShoppingSpecificationMerchantSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21027
 
 ***
 
@@ -170,7 +202,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:181712
+main.ts:177476
 
 ## Methods
 
@@ -192,7 +224,7 @@ main.ts:181712
 
 #### Defined in
 
-main.ts:181729
+main.ts:177493
 
 ***
 
@@ -214,7 +246,7 @@ main.ts:181729
 
 #### Defined in
 
-main.ts:181753
+main.ts:177514
 
 ***
 
@@ -236,4 +268,4 @@ main.ts:181753
 
 #### Defined in
 
-main.ts:181746
+main.ts:177507

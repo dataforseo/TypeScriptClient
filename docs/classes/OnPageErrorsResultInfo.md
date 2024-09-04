@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageErrorsResultInfo
+[Documentation](../globals.md) / OnPageErrorsResultInfo
 
 # Class: OnPageErrorsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:155315
+main.ts:152181
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:155291
+main.ts:152157
 
 ***
 
@@ -65,7 +65,7 @@ error code
 
 #### Defined in
 
-main.ts:155295
+main.ts:152161
 
 ***
 
@@ -82,7 +82,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:155298
+main.ts:152164
 
 ***
 
@@ -98,7 +98,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:155293
+main.ts:152159
 
 ***
 
@@ -114,7 +114,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:155305
+main.ts:152171
 
 ***
 
@@ -130,7 +130,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:155303
+main.ts:152169
 
 ***
 
@@ -147,7 +147,7 @@ server response
 
 #### Defined in
 
-main.ts:155311
+main.ts:152177
 
 ***
 
@@ -164,7 +164,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:155308
+main.ts:152174
 
 ***
 
@@ -181,7 +181,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:155301
+main.ts:152167
 
 ***
 
@@ -197,7 +197,7 @@ id of the task
 
 #### Defined in
 
-main.ts:155286
+main.ts:152152
 
 ## Methods
 
@@ -215,7 +215,7 @@ main.ts:155286
 
 #### Defined in
 
-main.ts:155324
+main.ts:152190
 
 ***
 
@@ -233,7 +233,7 @@ main.ts:155324
 
 #### Defined in
 
-main.ts:155350
+main.ts:152216
 
 ***
 
@@ -251,4 +251,4 @@ main.ts:155350
 
 #### Defined in
 
-main.ts:155343
+main.ts:152209

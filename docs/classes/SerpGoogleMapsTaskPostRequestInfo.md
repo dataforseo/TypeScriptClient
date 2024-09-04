@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleMapsTaskPostRequestInfo
+[Documentation](../globals.md) / SerpGoogleMapsTaskPostRequestInfo
 
 # Class: SerpGoogleMapsTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:40662
+main.ts:38822
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:40606
+main.ts:38766
 
 ***
 
@@ -73,7 +73,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-main.ts:40583
+main.ts:38743
 
 ***
 
@@ -96,7 +96,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:40530
+main.ts:38690
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Defined in
 
-main.ts:40577
+main.ts:38737
 
 ***
 
@@ -138,7 +138,7 @@ English
 
 #### Defined in
 
-main.ts:40570
+main.ts:38730
 
 ***
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:40552
+main.ts:38712
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:40563
+main.ts:38723
 
 ***
 
@@ -205,7 +205,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:40545
+main.ts:38705
 
 ***
 
@@ -226,7 +226,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:40613
+main.ts:38773
 
 ***
 
@@ -247,7 +247,7 @@ default value: android
 
 #### Defined in
 
-main.ts:40590
+main.ts:38750
 
 ***
 
@@ -271,7 +271,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:40658
+main.ts:38818
 
 ***
 
@@ -291,7 +291,7 @@ advanced
 
 #### Defined in
 
-main.ts:40648
+main.ts:38808
 
 ***
 
@@ -315,7 +315,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:40642
+main.ts:38802
 
 ***
 
@@ -337,7 +337,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:40538
+main.ts:38698
 
 ***
 
@@ -358,7 +358,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:40597
+main.ts:38757
 
 ***
 
@@ -379,7 +379,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-main.ts:40626
+main.ts:38786
 
 ***
 
@@ -399,7 +399,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-main.ts:40619
+main.ts:38779
 
 ***
 
@@ -419,7 +419,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:40632
+main.ts:38792
 
 ***
 
@@ -439,7 +439,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-main.ts:40521
+main.ts:38681
 
 ## Methods
 
@@ -457,7 +457,7 @@ main.ts:40521
 
 #### Defined in
 
-main.ts:40671
+main.ts:38831
 
 ***
 
@@ -475,7 +475,7 @@ main.ts:40671
 
 #### Defined in
 
-main.ts:40706
+main.ts:38866
 
 ***
 
@@ -493,4 +493,4 @@ main.ts:40706
 
 #### Defined in
 
-main.ts:40699
+main.ts:38859

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppListTaskPostRequestInfo
+[Documentation](../globals.md) / IAppDataAppleAppListTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppListTaskPostRequestInfo
 
@@ -25,7 +25,7 @@ you can review the full list of available categories here or by making a separat
 
 #### Defined in
 
-main.ts:199386
+main.ts:194804
 
 ***
 
@@ -41,7 +41,7 @@ top_free_ios, top_paid_ios, top_grossing_ios, new_ios, new_free_ios, new_paid_io
 
 #### Defined in
 
-main.ts:199333
+main.ts:194751
 
 ***
 
@@ -61,7 +61,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:199379
+main.ts:194797
 
 ***
 
@@ -78,7 +78,7 @@ en
 
 #### Defined in
 
-main.ts:199361
+main.ts:194779
 
 ***
 
@@ -95,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:199354
+main.ts:194772
 
 ***
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:199347
+main.ts:194765
 
 ***
 
@@ -129,7 +129,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:199340
+main.ts:194758
 
 ***
 
@@ -149,7 +149,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:199418
+main.ts:194836
 
 ***
 
@@ -165,7 +165,7 @@ advanced
 
 #### Defined in
 
-main.ts:199408
+main.ts:194826
 
 ***
 
@@ -185,7 +185,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:199402
+main.ts:194820
 
 ***
 
@@ -203,7 +203,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:199369
+main.ts:194787
 
 ***
 
@@ -219,4 +219,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:199392
+main.ts:194810

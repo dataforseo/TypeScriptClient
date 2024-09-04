@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductSeller
+[Documentation](../globals.md) / ProductSeller
 
 # Class: ProductSeller
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:182866
+main.ts:178614
 
 ## Properties
 
@@ -47,7 +47,7 @@ product delivery information
 
 #### Defined in
 
-main.ts:182862
+main.ts:178610
 
 ***
 
@@ -64,7 +64,7 @@ product price details on the seller’s website
 
 #### Defined in
 
-main.ts:182859
+main.ts:178607
 
 ***
 
@@ -80,7 +80,7 @@ rating of the seller
 
 #### Defined in
 
-main.ts:182853
+main.ts:178601
 
 ***
 
@@ -97,7 +97,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:182856
+main.ts:178604
 
 ***
 
@@ -113,7 +113,7 @@ product title
 
 #### Defined in
 
-main.ts:182848
+main.ts:178596
 
 ***
 
@@ -129,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:182846
+main.ts:178594
 
 ***
 
@@ -146,7 +146,7 @@ url of the page where the product is sold
 
 #### Defined in
 
-main.ts:182851
+main.ts:178599
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:182851
 
 #### Defined in
 
-main.ts:182875
+main.ts:178623
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:182875
 
 #### Defined in
 
-main.ts:182898
+main.ts:178646
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:182898
 
 #### Defined in
 
-main.ts:182891
+main.ts:178639

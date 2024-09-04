@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductInformationTextRow
+[Documentation](../globals.md) / ProductInformationTextRow
 
 # Class: ProductInformationTextRow
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:186481
+main.ts:182103
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:186481
 
 #### Defined in
 
-main.ts:23099
+main.ts:23417
 
 ***
 
@@ -68,7 +68,27 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:186477
+main.ts:182099
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IProductInformationTextRow`](../interfaces/IProductInformationTextRow.md).[`type`](../interfaces/IProductInformationTextRow.md#type)
+
+#### Inherited from
+
+[`BaseProductInformationRowItem`](BaseProductInformationRowItem.md).[`type`](BaseProductInformationRowItem.md#type)
+
+#### Defined in
+
+main.ts:23413
 
 ## Methods
 
@@ -90,7 +110,7 @@ main.ts:186477
 
 #### Defined in
 
-main.ts:186486
+main.ts:182108
 
 ***
 
@@ -112,7 +132,7 @@ main.ts:186486
 
 #### Defined in
 
-main.ts:186504
+main.ts:182126
 
 ***
 
@@ -134,4 +154,4 @@ main.ts:186504
 
 #### Defined in
 
-main.ts:186497
+main.ts:182119

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDemographyComparisonInfo
+[Documentation](../globals.md) / IDemographyComparisonInfo
 
 # Interface: IDemographyComparisonInfo
 
@@ -24,7 +24,7 @@ type of element
 
 #### Defined in
 
-main.ts:21182
+main.ts:21206
 
 ***
 
@@ -40,4 +40,4 @@ type of element
 
 #### Defined in
 
-main.ts:21184
+main.ts:21208

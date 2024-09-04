@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonAmazonSerpSerpElementItem
+[Documentation](../globals.md) / IAmazonAmazonSerpSerpElementItem
 
 # Interface: IAmazonAmazonSerpSerpElementItem
 
@@ -25,7 +25,7 @@ learn more about ASIN in this help center guide
 
 #### Defined in
 
-main.ts:106318
+main.ts:103446
 
 ***
 
@@ -37,7 +37,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:106349
+main.ts:103477
 
 ***
 
@@ -51,7 +51,7 @@ USD
 
 #### Defined in
 
-main.ts:106332
+main.ts:103460
 
 ***
 
@@ -66,7 +66,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:106356
+main.ts:103484
 
 ***
 
@@ -79,7 +79,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:106347
+main.ts:103475
 
 ***
 
@@ -91,7 +91,7 @@ description of the product
 
 #### Defined in
 
-main.ts:106351
+main.ts:103479
 
 ***
 
@@ -103,7 +103,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:106311
+main.ts:103439
 
 ***
 
@@ -115,7 +115,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:106320
+main.ts:103448
 
 ***
 
@@ -128,7 +128,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:106341
+main.ts:103469
 
 ***
 
@@ -141,7 +141,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:106338
+main.ts:103466
 
 ***
 
@@ -155,7 +155,7 @@ left, right
 
 #### Defined in
 
-main.ts:106307
+main.ts:103437
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Defined in
 
-main.ts:106324
+main.ts:103452
 
 ***
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:106328
+main.ts:103456
 
 ***
 
@@ -194,9 +194,13 @@ main.ts:106328
 absolute rank in Amazon SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_absolute`](IBaseAmazonSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:106303
+main.ts:22407
 
 ***
 
@@ -207,9 +211,13 @@ main.ts:106303
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_group`](IBaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:106300
+main.ts:22404
 
 ***
 
@@ -222,7 +230,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:106344
+main.ts:103472
 
 ***
 
@@ -234,7 +242,7 @@ search engine type
 
 #### Defined in
 
-main.ts:106297
+main.ts:103433
 
 ***
 
@@ -247,7 +255,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:106335
+main.ts:103463
 
 ***
 
@@ -259,7 +267,23 @@ product title
 
 #### Defined in
 
-main.ts:106313
+main.ts:103441
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`type`](IBaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22401
 
 ***
 
@@ -271,7 +295,7 @@ URL of the product page
 
 #### Defined in
 
-main.ts:106315
+main.ts:103443
 
 ***
 
@@ -281,6 +305,10 @@ main.ts:106315
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`xpath`](IBaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:106309
+main.ts:22409

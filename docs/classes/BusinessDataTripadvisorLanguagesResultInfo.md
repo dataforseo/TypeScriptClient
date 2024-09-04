@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTripadvisorLanguagesResultInfo
+[Documentation](../globals.md) / BusinessDataTripadvisorLanguagesResultInfo
 
 # Class: BusinessDataTripadvisorLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:217220
+main.ts:212510
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:217216
+main.ts:212506
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:217214
+main.ts:212504
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:217214
 
 #### Defined in
 
-main.ts:217229
+main.ts:212519
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:217229
 
 #### Defined in
 
-main.ts:217247
+main.ts:212537
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:217247
 
 #### Defined in
 
-main.ts:217240
+main.ts:212530

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAddressInfo
+[Documentation](../globals.md) / IAddressInfo
 
 # Interface: IAddressInfo
 
@@ -20,7 +20,7 @@ street address of the local establishment
 
 #### Defined in
 
-main.ts:41478
+main.ts:39638
 
 ***
 
@@ -32,7 +32,7 @@ administrative unit or district the local establishment belongs to
 
 #### Defined in
 
-main.ts:41476
+main.ts:39636
 
 ***
 
@@ -44,7 +44,7 @@ name of the city where the local establishment is located
 
 #### Defined in
 
-main.ts:41480
+main.ts:39640
 
 ***
 
@@ -56,7 +56,7 @@ ISO country code of the local establishment
 
 #### Defined in
 
-main.ts:41486
+main.ts:39646
 
 ***
 
@@ -68,7 +68,7 @@ DMA region the local establishment belongs to
 
 #### Defined in
 
-main.ts:41484
+main.ts:39644
 
 ***
 
@@ -80,4 +80,4 @@ ZIP code of the local establishment
 
 #### Defined in
 
-main.ts:41482
+main.ts:39642

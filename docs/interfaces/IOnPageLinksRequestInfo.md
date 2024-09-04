@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLinksRequestInfo
+[Documentation](../globals.md) / IOnPageLinksRequestInfo
 
 # Interface: IOnPageLinksRequestInfo
 
@@ -35,7 +35,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:161417
+main.ts:157715
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:161380
+main.ts:157678
 
 ***
 
@@ -66,7 +66,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:161395
+main.ts:157693
 
 ***
 
@@ -81,7 +81,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 #### Defined in
 
-main.ts:161400
+main.ts:157698
 
 ***
 
@@ -96,7 +96,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:161385
+main.ts:157683
 
 ***
 
@@ -111,7 +111,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:161390
+main.ts:157688
 
 ***
 
@@ -127,4 +127,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:161423
+main.ts:157721

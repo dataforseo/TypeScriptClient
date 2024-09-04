@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisAvailableFiltersResultInfo
+[Documentation](../globals.md) / ContentAnalysisAvailableFiltersResultInfo
 
 # Class: ContentAnalysisAvailableFiltersResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:169087
+main.ts:165017
 
 ## Properties
 
@@ -48,7 +48,7 @@ main.ts:169087
 
 #### Defined in
 
-main.ts:169083
+main.ts:165013
 
 ## Methods
 
@@ -66,7 +66,7 @@ main.ts:169083
 
 #### Defined in
 
-main.ts:169096
+main.ts:165026
 
 ***
 
@@ -84,7 +84,7 @@ main.ts:169096
 
 #### Defined in
 
-main.ts:169119
+main.ts:165049
 
 ***
 
@@ -102,4 +102,4 @@ main.ts:169119
 
 #### Defined in
 
-main.ts:169112
+main.ts:165042

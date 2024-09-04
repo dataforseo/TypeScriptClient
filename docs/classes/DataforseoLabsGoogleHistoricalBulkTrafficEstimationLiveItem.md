@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
+[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalBulkTrafficEstimationLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:104587
+main.ts:101737
 
 ## Properties
 
@@ -46,7 +46,7 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-main.ts:104583
+main.ts:101733
 
 ***
 
@@ -62,7 +62,7 @@ search engine type
 
 #### Defined in
 
-main.ts:104579
+main.ts:101729
 
 ***
 
@@ -78,7 +78,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:104581
+main.ts:101731
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:104581
 
 #### Defined in
 
-main.ts:104596
+main.ts:101746
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:104596
 
 #### Defined in
 
-main.ts:104615
+main.ts:101765
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:104615
 
 #### Defined in
 
-main.ts:104608
+main.ts:101758

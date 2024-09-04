@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveRequestInfo
 
@@ -25,7 +25,7 @@ we recommend always setting correlate to true
 
 #### Defined in
 
-main.ts:102588
+main.ts:99738
 
 ***
 
@@ -41,7 +41,7 @@ date format: "yyyy-mm-dd"
 
 #### Defined in
 
-main.ts:102574
+main.ts:99724
 
 ***
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:102581
+main.ts:99731
 
 ***
 
@@ -73,7 +73,7 @@ default value: false
 
 #### Defined in
 
-main.ts:102593
+main.ts:99743
 
 ***
 
@@ -90,7 +90,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:102600
+main.ts:99750
 
 ***
 
@@ -108,7 +108,7 @@ en
 
 #### Defined in
 
-main.ts:102568
+main.ts:99718
 
 ***
 
@@ -126,7 +126,7 @@ English
 
 #### Defined in
 
-main.ts:102560
+main.ts:99710
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:102552
+main.ts:99702
 
 ***
 
@@ -162,7 +162,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:102544
+main.ts:99694
 
 ***
 
@@ -178,7 +178,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:102606
+main.ts:99756
 
 ***
 
@@ -193,4 +193,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:102536
+main.ts:99686

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonAmazonSellerMainItemSerpElementItem
+[Documentation](../globals.md) / AmazonAmazonSellerMainItemSerpElementItem
 
 # Class: AmazonAmazonSellerMainItemSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:188014
+main.ts:183600
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:188014
 
 #### Defined in
 
-main.ts:22007
+main.ts:22315
 
 ***
 
@@ -69,7 +69,7 @@ condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:188004
+main.ts:183590
 
 ***
 
@@ -86,7 +86,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:188007
+main.ts:183593
 
 ***
 
@@ -103,7 +103,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:188010
+main.ts:183596
 
 ***
 
@@ -121,7 +121,7 @@ left, right
 
 #### Defined in
 
-main.ts:187987
+main.ts:183575
 
 ***
 
@@ -138,7 +138,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:187998
+main.ts:183584
 
 ***
 
@@ -146,16 +146,20 @@ main.ts:187998
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank in SERP
-absolute position among all the elements found in Amazon Sellers SERP
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`rank_absolute`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_absolute`](BaseAmazonSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:187983
+main.ts:22311
 
 ***
 
@@ -170,9 +174,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`rank_group`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`rank_group`](BaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:187980
+main.ts:22308
 
 ***
 
@@ -189,7 +197,7 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-main.ts:188001
+main.ts:183587
 
 ***
 
@@ -205,7 +213,7 @@ business name of the seller
 
 #### Defined in
 
-main.ts:187991
+main.ts:183577
 
 ***
 
@@ -221,7 +229,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-main.ts:187993
+main.ts:183579
 
 ***
 
@@ -237,7 +245,27 @@ sender company name
 
 #### Defined in
 
-main.ts:187995
+main.ts:183581
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`type`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`type`](BaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22305
 
 ***
 
@@ -245,15 +273,19 @@ main.ts:187995
 
 > `optional` **xpath**: `string`
 
-XPath of the element
+the XPath of the element
 
 #### Implementation of
 
 [`IAmazonAmazonSellerMainItemSerpElementItem`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md).[`xpath`](../interfaces/IAmazonAmazonSellerMainItemSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseAmazonSerpElementItem`](BaseAmazonSerpElementItem.md).[`xpath`](BaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:187989
+main.ts:22313
 
 ## Methods
 
@@ -275,7 +307,7 @@ main.ts:187989
 
 #### Defined in
 
-main.ts:188019
+main.ts:183605
 
 ***
 
@@ -297,7 +329,7 @@ main.ts:188019
 
 #### Defined in
 
-main.ts:188048
+main.ts:183631
 
 ***
 
@@ -319,4 +351,4 @@ main.ts:188048
 
 #### Defined in
 
-main.ts:188041
+main.ts:183624

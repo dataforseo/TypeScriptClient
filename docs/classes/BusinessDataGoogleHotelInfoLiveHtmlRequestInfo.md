@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
+[Documentation](../globals.md) / BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
 # Class: BusinessDataGoogleHotelInfoLiveHtmlRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:212301
+main.ts:207639
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:212283
+main.ts:207621
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:212265
+main.ts:207603
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:212272
+main.ts:207610
 
 ***
 
@@ -114,7 +114,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:212291
+main.ts:207629
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:212277
+main.ts:207615
 
 ***
 
@@ -154,7 +154,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:212213
+main.ts:207551
 
 ***
 
@@ -175,7 +175,7 @@ en
 
 #### Defined in
 
-main.ts:212258
+main.ts:207596
 
 ***
 
@@ -196,7 +196,7 @@ English
 
 #### Defined in
 
-main.ts:212251
+main.ts:207589
 
 ***
 
@@ -217,7 +217,7 @@ example:
 
 #### Defined in
 
-main.ts:212235
+main.ts:207573
 
 ***
 
@@ -240,7 +240,7 @@ example:
 
 #### Defined in
 
-main.ts:212244
+main.ts:207582
 
 ***
 
@@ -261,7 +261,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:212228
+main.ts:207566
 
 ***
 
@@ -283,7 +283,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:212221
+main.ts:207559
 
 ***
 
@@ -303,7 +303,7 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
-main.ts:212297
+main.ts:207635
 
 ## Methods
 
@@ -321,7 +321,7 @@ main.ts:212297
 
 #### Defined in
 
-main.ts:212310
+main.ts:207648
 
 ***
 
@@ -339,7 +339,7 @@ main.ts:212310
 
 #### Defined in
 
-main.ts:212343
+main.ts:207681
 
 ***
 
@@ -357,4 +357,4 @@ main.ts:212343
 
 #### Defined in
 
-main.ts:212336
+main.ts:207674

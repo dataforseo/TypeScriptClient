@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelReviewInfo
+[Documentation](../globals.md) / HotelReviewInfo
 
 # Class: HotelReviewInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:210862
+main.ts:206200
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about hotel reviews by criteria
 
 #### Defined in
 
-main.ts:210852
+main.ts:206190
 
 ***
 
@@ -64,7 +64,7 @@ reviews from third-paty sites
 
 #### Defined in
 
-main.ts:210858
+main.ts:206196
 
 ***
 
@@ -85,7 +85,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-main.ts:210855
+main.ts:206193
 
 ***
 
@@ -101,7 +101,7 @@ overall hotel rating based on customer votes
 
 #### Defined in
 
-main.ts:210846
+main.ts:206184
 
 ***
 
@@ -118,7 +118,7 @@ the number of customer votes included in the calculation of the hotel rating
 
 #### Defined in
 
-main.ts:210849
+main.ts:206187
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:210849
 
 #### Defined in
 
-main.ts:210871
+main.ts:206209
 
 ***
 
@@ -154,7 +154,7 @@ main.ts:210871
 
 #### Defined in
 
-main.ts:210906
+main.ts:206244
 
 ***
 
@@ -172,4 +172,4 @@ main.ts:210906
 
 #### Defined in
 
-main.ts:210899
+main.ts:206237

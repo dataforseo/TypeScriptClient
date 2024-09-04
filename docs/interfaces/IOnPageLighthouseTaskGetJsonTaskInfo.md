@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageLighthouseTaskGetJsonTaskInfo
+[Documentation](../globals.md) / IOnPageLighthouseTaskGetJsonTaskInfo
 
 # Interface: IOnPageLighthouseTaskGetJsonTaskInfo
 
@@ -28,7 +28,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24018
+main.ts:24334
 
 ***
 
@@ -48,7 +48,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:24024
+main.ts:24340
 
 ***
 
@@ -65,7 +65,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:24007
+main.ts:24323
 
 ***
 
@@ -81,7 +81,7 @@ URL path
 
 #### Defined in
 
-main.ts:24022
+main.ts:24338
 
 ***
 
@@ -95,7 +95,7 @@ description of the fields in the result array is available in the official docum
 
 #### Defined in
 
-main.ts:168372
+main.ts:164302
 
 ***
 
@@ -111,7 +111,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:24020
+main.ts:24336
 
 ***
 
@@ -129,7 +129,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24011
+main.ts:24327
 
 ***
 
@@ -146,7 +146,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24014
+main.ts:24330
 
 ***
 
@@ -162,4 +162,4 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:24016
+main.ts:24332

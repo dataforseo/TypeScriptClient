@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleNewsLiveHtmlResultInfo
+[Documentation](../globals.md) / SerpGoogleNewsLiveHtmlResultInfo
 
 # Class: SerpGoogleNewsLiveHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:46587
+main.ts:44853
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:46579
+main.ts:44845
 
 ***
 
@@ -65,7 +65,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:46583
+main.ts:44849
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:46581
+main.ts:44847
 
 ***
 
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:46566
+main.ts:44832
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:46574
+main.ts:44840
 
 ***
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:46572
+main.ts:44838
 
 ***
 
@@ -146,7 +146,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:46570
+main.ts:44836
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:46568
+main.ts:44834
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:46568
 
 #### Defined in
 
-main.ts:46596
+main.ts:44862
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:46596
 
 #### Defined in
 
-main.ts:46624
+main.ts:44890
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:46624
 
 #### Defined in
 
-main.ts:46617
+main.ts:44883

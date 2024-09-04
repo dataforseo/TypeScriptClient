@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixWebhookResendRequestInfo
+[Documentation](../globals.md) / AppendixWebhookResendRequestInfo
 
 # Class: AppendixWebhookResendRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:228723
+main.ts:223983
 
 ## Properties
 
@@ -49,7 +49,7 @@ each identifier in the task array must be specified as a separate object
 
 #### Defined in
 
-main.ts:228719
+main.ts:223979
 
 ## Methods
 
@@ -67,7 +67,7 @@ main.ts:228719
 
 #### Defined in
 
-main.ts:228732
+main.ts:223992
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:228732
 
 #### Defined in
 
-main.ts:228749
+main.ts:224009
 
 ***
 
@@ -103,4 +103,4 @@ main.ts:228749
 
 #### Defined in
 
-main.ts:228742
+main.ts:224002

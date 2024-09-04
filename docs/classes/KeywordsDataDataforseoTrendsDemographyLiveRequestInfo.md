@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
 # Class: KeywordsDataDataforseoTrendsDemographyLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:129842
+main.ts:126732
 
 ## Properties
 
@@ -53,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:129819
+main.ts:126709
 
 ***
 
@@ -74,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:129826
+main.ts:126716
 
 ***
 
@@ -94,7 +94,7 @@ specifying non-Latin characters, you’ll get data for the countries where they 
 
 #### Defined in
 
-main.ts:129790
+main.ts:126680
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:129808
+main.ts:126698
 
 ***
 
@@ -140,7 +140,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:129799
+main.ts:126689
 
 ***
 
@@ -160,7 +160,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:129838
+main.ts:126728
 
 ***
 
@@ -180,7 +180,7 @@ past_4_hours, past_day, past_7_days, past_30_days, past_90_days, past_12_months,
 
 #### Defined in
 
-main.ts:129832
+main.ts:126722
 
 ***
 
@@ -196,7 +196,7 @@ type of element
 
 #### Defined in
 
-main.ts:129810
+main.ts:126700
 
 ## Methods
 
@@ -214,7 +214,7 @@ main.ts:129810
 
 #### Defined in
 
-main.ts:129851
+main.ts:126741
 
 ***
 
@@ -232,7 +232,7 @@ main.ts:129851
 
 #### Defined in
 
-main.ts:129879
+main.ts:126769
 
 ***
 
@@ -250,4 +250,4 @@ main.ts:129879
 
 #### Defined in
 
-main.ts:129872
+main.ts:126762

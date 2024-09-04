@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:77610
+main.ts:76282
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:77509
+main.ts:76181
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:77544
+main.ts:76216
 
 ***
 
@@ -100,7 +100,7 @@ example:
 
 #### Defined in
 
-main.ts:77502
+main.ts:76174
 
 ***
 
@@ -121,7 +121,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77574
+main.ts:76246
 
 ***
 
@@ -142,7 +142,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77567
+main.ts:76239
 
 ***
 
@@ -164,7 +164,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77589
+main.ts:76261
 
 ***
 
@@ -185,7 +185,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77581
+main.ts:76253
 
 ***
 
@@ -206,7 +206,7 @@ example:
 
 #### Defined in
 
-main.ts:77523
+main.ts:76195
 
 ***
 
@@ -225,7 +225,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77594
+main.ts:76266
 
 ***
 
@@ -246,7 +246,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:77530
+main.ts:76202
 
 ***
 
@@ -266,7 +266,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Defined in
 
-main.ts:77600
+main.ts:76272
 
 ***
 
@@ -296,7 +296,7 @@ default value:
 
 #### Defined in
 
-main.ts:77560
+main.ts:76232
 
 ***
 
@@ -316,7 +316,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:77606
+main.ts:76278
 
 ***
 
@@ -337,7 +337,7 @@ example:
 
 #### Defined in
 
-main.ts:77516
+main.ts:76188
 
 ## Methods
 
@@ -355,7 +355,7 @@ main.ts:77516
 
 #### Defined in
 
-main.ts:77619
+main.ts:76291
 
 ***
 
@@ -373,7 +373,7 @@ main.ts:77619
 
 #### Defined in
 
-main.ts:77657
+main.ts:76329
 
 ***
 
@@ -391,4 +391,4 @@ main.ts:77657
 
 #### Defined in
 
-main.ts:77650
+main.ts:76322

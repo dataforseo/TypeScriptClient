@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IVideoElement
+[Documentation](../globals.md) / IVideoElement
 
 # Interface: IVideoElement
 
@@ -20,7 +20,7 @@ URL to the video preview image
 
 #### Defined in
 
-main.ts:31944
+main.ts:31396
 
 ***
 
@@ -33,7 +33,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:31933
+main.ts:31385
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:31940
+main.ts:31392
 
 ***
 
@@ -60,7 +60,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31935
+main.ts:31387
 
 ***
 
@@ -72,7 +72,7 @@ type of element
 
 #### Defined in
 
-main.ts:31930
+main.ts:31382
 
 ***
 
@@ -84,4 +84,4 @@ URL
 
 #### Defined in
 
-main.ts:31942
+main.ts:31394

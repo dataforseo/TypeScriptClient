@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleHotelInfoTasksReadyResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:210081
+main.ts:205419
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:210085
+main.ts:205423
 
 ***
 
@@ -44,7 +44,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:210087
+main.ts:205425
 
 ***
 
@@ -57,7 +57,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:210074
+main.ts:205412
 
 ***
 
@@ -70,7 +70,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:210077
+main.ts:205415
 
 ***
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:210079
+main.ts:205417
 
 ***
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:210083
+main.ts:205421

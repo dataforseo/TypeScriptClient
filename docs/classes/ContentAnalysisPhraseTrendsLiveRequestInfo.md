@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisPhraseTrendsLiveRequestInfo
+[Documentation](../globals.md) / ContentAnalysisPhraseTrendsLiveRequestInfo
 
 # Class: ContentAnalysisPhraseTrendsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:172410
+main.ts:168340
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:172371
+main.ts:168301
 
 ***
 
@@ -69,7 +69,7 @@ possible values: day, week, month
 
 #### Defined in
 
-main.ts:172383
+main.ts:168313
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:172378
+main.ts:168308
 
 ***
 
@@ -121,7 +121,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:172400
+main.ts:168330
 
 ***
 
@@ -146,7 +146,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:172365
+main.ts:168295
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Defined in
 
-main.ts:172329
+main.ts:168259
 
 ***
 
@@ -199,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:172341
+main.ts:168271
 
 ***
 
@@ -219,7 +219,7 @@ possible values:
 
 #### Defined in
 
-main.ts:172347
+main.ts:168277
 
 ***
 
@@ -240,7 +240,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:172354
+main.ts:168284
 
 ***
 
@@ -260,7 +260,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:172406
+main.ts:168336
 
 ## Methods
 
@@ -278,7 +278,7 @@ main.ts:172406
 
 #### Defined in
 
-main.ts:172419
+main.ts:168349
 
 ***
 
@@ -296,7 +296,7 @@ main.ts:172419
 
 #### Defined in
 
-main.ts:172459
+main.ts:168389
 
 ***
 
@@ -314,4 +314,4 @@ main.ts:172459
 
 #### Defined in
 
-main.ts:172452
+main.ts:168382

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppReviewsTasksReadyResultInfo
+[Documentation](../globals.md) / AppDataGoogleAppReviewsTasksReadyResultInfo
 
 # Class: AppDataGoogleAppReviewsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:195257
+main.ts:190749
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:195246
+main.ts:190738
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Google App Reviews task
 
 #### Defined in
 
-main.ts:195250
+main.ts:190742
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:195253
+main.ts:190745
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:195240
+main.ts:190732
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:195242
+main.ts:190734
 
 ***
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:195244
+main.ts:190736
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:195248
+main.ts:190740
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:195248
 
 #### Defined in
 
-main.ts:195266
+main.ts:190758
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:195266
 
 #### Defined in
 
-main.ts:195289
+main.ts:190781
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:195289
 
 #### Defined in
 
-main.ts:195282
+main.ts:190774

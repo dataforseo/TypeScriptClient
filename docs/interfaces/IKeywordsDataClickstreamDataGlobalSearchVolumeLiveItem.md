@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
+[Documentation](../globals.md) / IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
 
 # Interface: IKeywordsDataClickstreamDataGlobalSearchVolumeLiveItem
 
@@ -21,7 +21,7 @@ represents clickstream-based search volume in available countries, as well as it
 
 #### Defined in
 
-main.ts:139361
+main.ts:136227
 
 ***
 
@@ -34,7 +34,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:139354
+main.ts:136220
 
 ***
 
@@ -48,4 +48,4 @@ you can learn more about clickstream search volume in this Help Center article
 
 #### Defined in
 
-main.ts:139358
+main.ts:136224

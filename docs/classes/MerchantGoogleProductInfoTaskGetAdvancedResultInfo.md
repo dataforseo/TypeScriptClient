@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleProductInfoTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / MerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
 # Class: MerchantGoogleProductInfoTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:183218
+main.ts:178940
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:183200
+main.ts:178922
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:183205
+main.ts:178927
 
 ***
 
@@ -84,7 +84,7 @@ product_info_element
 
 #### Defined in
 
-main.ts:183209
+main.ts:178931
 
 ***
 
@@ -101,7 +101,7 @@ contains all product attributes and related data listed on the product page
 
 #### Defined in
 
-main.ts:183214
+main.ts:178936
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:183211
+main.ts:178933
 
 ***
 
@@ -133,7 +133,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:183197
+main.ts:178919
 
 ***
 
@@ -149,7 +149,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:183195
+main.ts:178917
 
 ***
 
@@ -166,7 +166,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:183189
+main.ts:178911
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:183193
+main.ts:178915
 
 ***
 
@@ -198,7 +198,7 @@ type of element
 
 #### Defined in
 
-main.ts:183191
+main.ts:178913
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:183191
 
 #### Defined in
 
-main.ts:183227
+main.ts:178949
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:183227
 
 #### Defined in
 
-main.ts:183261
+main.ts:178983
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:183261
 
 #### Defined in
 
-main.ts:183254
+main.ts:178976

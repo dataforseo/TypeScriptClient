@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRankedSerpElement
+[Documentation](../globals.md) / IRankedSerpElement
 
 # Interface: IRankedSerpElement
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:93026
+main.ts:91666
 
 ***
 
@@ -34,7 +34,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-main.ts:93042
+main.ts:91682
 
 ***
 
@@ -49,7 +49,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:93039
+main.ts:91679
 
 ***
 
@@ -64,7 +64,7 @@ example:
 
 #### Defined in
 
-main.ts:93047
+main.ts:91687
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:93052
+main.ts:91692
 
 ***
 
@@ -91,7 +91,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:93034
+main.ts:91674
 
 ***
 
@@ -103,7 +103,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93020
+main.ts:91660
 
 ***
 
@@ -116,7 +116,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:93023
+main.ts:91663
 
 ***
 
@@ -132,4 +132,4 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:93032
+main.ts:91672

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAmazonProductRankOverviewLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
 # Class: DataforseoLabsAmazonProductRankOverviewLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:107115
+main.ts:104249
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-main.ts:107111
+main.ts:104245
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:107109
+main.ts:104243
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:107105
+main.ts:104239
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:107102
+main.ts:104236
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:107099
+main.ts:104233
 
 ***
 
@@ -128,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:107107
+main.ts:104241
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:107107
 
 #### Defined in
 
-main.ts:107124
+main.ts:104258
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:107124
 
 #### Defined in
 
-main.ts:107150
+main.ts:104284
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:107150
 
 #### Defined in
 
-main.ts:107143
+main.ts:104277

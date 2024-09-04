@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTripadvisorReviewsTaskGetResultInfo
+[Documentation](../globals.md) / BusinessDataTripadvisorReviewsTaskGetResultInfo
 
 # Class: BusinessDataTripadvisorReviewsTaskGetResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:219098
+main.ts:214358
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:219067
+main.ts:214327
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:219072
+main.ts:214332
 
 ***
 
@@ -83,7 +83,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:219092
+main.ts:214352
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:219089
+main.ts:214349
 
 ***
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:219094
+main.ts:214354
 
 ***
 
@@ -133,7 +133,7 @@ address of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:219078
+main.ts:214338
 
 ***
 
@@ -150,7 +150,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:219083
+main.ts:214343
 
 ***
 
@@ -171,7 +171,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-main.ts:219086
+main.ts:214346
 
 ***
 
@@ -187,7 +187,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:219080
+main.ts:214340
 
 ***
 
@@ -203,7 +203,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:219064
+main.ts:214324
 
 ***
 
@@ -220,7 +220,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:219075
+main.ts:214335
 
 ***
 
@@ -236,7 +236,7 @@ type of element
 
 #### Defined in
 
-main.ts:219062
+main.ts:214322
 
 ***
 
@@ -252,7 +252,7 @@ URL path received in a POST array
 
 #### Defined in
 
-main.ts:219060
+main.ts:214320
 
 ## Methods
 
@@ -270,7 +270,7 @@ main.ts:219060
 
 #### Defined in
 
-main.ts:219107
+main.ts:214367
 
 ***
 
@@ -288,7 +288,7 @@ main.ts:219107
 
 #### Defined in
 
-main.ts:219146
+main.ts:214406
 
 ***
 
@@ -306,4 +306,4 @@ main.ts:219146
 
 #### Defined in
 
-main.ts:219139
+main.ts:214399

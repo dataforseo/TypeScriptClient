@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
 # Interface: IKeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
@@ -20,7 +20,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:136458
+main.ts:133324
 
 ***
 
@@ -33,7 +33,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:136475
+main.ts:133341
 
 ***
 
@@ -46,7 +46,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:136464
+main.ts:133330
 
 ***
 
@@ -59,7 +59,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:136461
+main.ts:133327
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:136472
+main.ts:133338
 
 ***
 
@@ -87,4 +87,4 @@ example:
 
 #### Defined in
 
-main.ts:136468
+main.ts:133334

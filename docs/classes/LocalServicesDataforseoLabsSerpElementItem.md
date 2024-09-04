@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalServicesDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / LocalServicesDataforseoLabsSerpElementItem
 
 # Class: LocalServicesDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:102167
+main.ts:99370
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:102167
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -60,7 +60,7 @@ main.ts:20752
 
 > `optional` **domain**: `string`
 
-domain where a link points
+website domain
 
 #### Implementation of
 
@@ -68,7 +68,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:102160
+main.ts:99364
 
 ***
 
@@ -76,8 +76,7 @@ main.ts:102160
 
 > `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -85,7 +84,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:102163
+main.ts:99366
 
 ***
 
@@ -101,9 +100,13 @@ left, right
 
 [`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`position`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:102152
+main.ts:20738
 
 ***
 
@@ -118,9 +121,13 @@ absolute position among all the elements in SERP
 
 [`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:102148
+main.ts:20734
 
 ***
 
@@ -135,9 +142,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:102145
+main.ts:20731
 
 ***
 
@@ -145,7 +156,7 @@ main.ts:102145
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -153,7 +164,27 @@ title of the item
 
 #### Defined in
 
-main.ts:102156
+main.ts:99360
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`type`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -161,7 +192,7 @@ main.ts:102156
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Implementation of
 
@@ -169,7 +200,7 @@ URL link
 
 #### Defined in
 
-main.ts:102158
+main.ts:99362
 
 ***
 
@@ -183,9 +214,13 @@ the XPath of the element
 
 [`ILocalServicesDataforseoLabsSerpElementItem`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/ILocalServicesDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:102154
+main.ts:20740
 
 ## Methods
 
@@ -207,7 +242,7 @@ main.ts:102154
 
 #### Defined in
 
-main.ts:102172
+main.ts:99375
 
 ***
 
@@ -229,7 +264,7 @@ main.ts:102172
 
 #### Defined in
 
-main.ts:102201
+main.ts:99400
 
 ***
 
@@ -251,4 +286,4 @@ main.ts:102201
 
 #### Defined in
 
-main.ts:102194
+main.ts:99393

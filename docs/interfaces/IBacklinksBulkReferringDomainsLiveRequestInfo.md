@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksBulkReferringDomainsLiveRequestInfo
+[Documentation](../globals.md) / IBacklinksBulkReferringDomainsLiveRequestInfo
 
 # Interface: IBacklinksBulkReferringDomainsLiveRequestInfo
 
@@ -24,7 +24,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:153217
+main.ts:150083
 
 ***
 
@@ -53,4 +53,4 @@ example:
 
 #### Defined in
 
-main.ts:153211
+main.ts:150077

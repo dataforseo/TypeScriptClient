@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleKeywordIdeasLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
 # Class: DataforseoLabsGoogleKeywordIdeasLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:86772
+main.ts:85444
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keyword ideas and related data
 
 #### Defined in
 
-main.ts:86768
+main.ts:85440
 
 ***
 
@@ -62,7 +62,7 @@ number of results returned in the items array
 
 #### Defined in
 
-main.ts:86760
+main.ts:85432
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:86756
+main.ts:85428
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:86754
+main.ts:85426
 
 ***
 
@@ -110,7 +110,7 @@ current offset value
 
 #### Defined in
 
-main.ts:86762
+main.ts:85434
 
 ***
 
@@ -128,7 +128,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:86766
+main.ts:85438
 
 ***
 
@@ -144,7 +144,7 @@ search engine type
 
 #### Defined in
 
-main.ts:86749
+main.ts:85421
 
 ***
 
@@ -161,7 +161,7 @@ keywords are returned with decoded %## (plus symbol ‘+’ will be decoded to a
 
 #### Defined in
 
-main.ts:86752
+main.ts:85424
 
 ***
 
@@ -177,7 +177,7 @@ total number of results relevant to your request in our database
 
 #### Defined in
 
-main.ts:86758
+main.ts:85430
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:86758
 
 #### Defined in
 
-main.ts:86781
+main.ts:85453
 
 ***
 
@@ -213,7 +213,7 @@ main.ts:86781
 
 #### Defined in
 
-main.ts:86814
+main.ts:85486
 
 ***
 
@@ -231,4 +231,4 @@ main.ts:86814
 
 #### Defined in
 
-main.ts:86807
+main.ts:85479

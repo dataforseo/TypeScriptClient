@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixBusinessDataDayLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixBusinessDataDayLimitsRatesDataInfo
 
 # Class: AppendixBusinessDataDayLimitsRatesDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:221654
+main.ts:216914
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:221654
 
 #### Defined in
 
-main.ts:221649
+main.ts:216909
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:221649
 
 #### Defined in
 
-main.ts:221650
+main.ts:216910
 
 ## Methods
 
@@ -76,7 +76,7 @@ main.ts:221650
 
 #### Defined in
 
-main.ts:221663
+main.ts:216923
 
 ***
 
@@ -94,7 +94,7 @@ main.ts:221663
 
 #### Defined in
 
-main.ts:221681
+main.ts:216941
 
 ***
 
@@ -112,4 +112,4 @@ main.ts:221681
 
 #### Defined in
 
-main.ts:221674
+main.ts:216934

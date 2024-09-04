@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ApiException
+[Documentation](../globals.md) / ApiException
 
 # Class: ApiException
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:229669
+main.ts:224929
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:229669
 
 #### Defined in
 
-main.ts:229666
+main.ts:224926
 
 ***
 
@@ -62,7 +62,7 @@ main.ts:229666
 
 #### Defined in
 
-main.ts:229679
+main.ts:224939
 
 ***
 
@@ -76,7 +76,7 @@ main.ts:229679
 
 #### Defined in
 
-main.ts:229663
+main.ts:224923
 
 ***
 
@@ -100,7 +100,7 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 #### Defined in
 
-main.ts:229665
+main.ts:224925
 
 ***
 
@@ -110,7 +110,7 @@ main.ts:229665
 
 #### Defined in
 
-main.ts:229667
+main.ts:224927
 
 ***
 
@@ -134,7 +134,7 @@ C:/Users/thewa/AppData/Roaming/npm/node\_modules/typedoc/node\_modules/typescrip
 
 #### Defined in
 
-main.ts:229664
+main.ts:224924
 
 ## Methods
 
@@ -152,4 +152,4 @@ main.ts:229664
 
 #### Defined in
 
-main.ts:229681
+main.ts:224941

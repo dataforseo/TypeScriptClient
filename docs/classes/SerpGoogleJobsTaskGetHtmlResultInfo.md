@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleJobsTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpGoogleJobsTaskGetHtmlResultInfo
 
 # Class: SerpGoogleJobsTaskGetHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:52765
+main.ts:51220
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:52757
+main.ts:51212
 
 ***
 
@@ -65,7 +65,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:52761
+main.ts:51216
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:52759
+main.ts:51214
 
 ***
 
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:52744
+main.ts:51199
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:52752
+main.ts:51207
 
 ***
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:52750
+main.ts:51205
 
 ***
 
@@ -146,7 +146,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:52748
+main.ts:51203
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:52746
+main.ts:51201
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:52746
 
 #### Defined in
 
-main.ts:52774
+main.ts:51229
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:52774
 
 #### Defined in
 
-main.ts:52802
+main.ts:51257
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:52802
 
 #### Defined in
 
-main.ts:52795
+main.ts:51250

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonProductNewerModelInfo
+[Documentation](../globals.md) / AmazonProductNewerModelInfo
 
 # Class: AmazonProductNewerModelInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:186195
+main.ts:181829
 
 ## Properties
 
@@ -46,7 +46,7 @@ ASIN of the newer product model
 
 #### Defined in
 
-main.ts:186191
+main.ts:181825
 
 ***
 
@@ -62,7 +62,7 @@ product title
 
 #### Defined in
 
-main.ts:186189
+main.ts:181823
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:186189
 
 #### Defined in
 
-main.ts:186204
+main.ts:181838
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:186204
 
 #### Defined in
 
-main.ts:186222
+main.ts:181856
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:186222
 
 #### Defined in
 
-main.ts:186215
+main.ts:181849

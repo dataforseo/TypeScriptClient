@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpNaverOrganicTasksFixedResultInfo
+[Documentation](../globals.md) / SerpNaverOrganicTasksFixedResultInfo
 
 # Class: SerpNaverOrganicTasksFixedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:72818
+main.ts:71490
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:72803
+main.ts:71475
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:72811
+main.ts:71483
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:72814
+main.ts:71486
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:72808
+main.ts:71480
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:72796
+main.ts:71468
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:72798
+main.ts:71470
 
 ***
 
@@ -147,7 +147,7 @@ can take the following values: organic
 
 #### Defined in
 
-main.ts:72801
+main.ts:71473
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:72805
+main.ts:71477
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:72805
 
 #### Defined in
 
-main.ts:72827
+main.ts:71499
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:72827
 
 #### Defined in
 
-main.ts:72851
+main.ts:71523
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:72851
 
 #### Defined in
 
-main.ts:72844
+main.ts:71516

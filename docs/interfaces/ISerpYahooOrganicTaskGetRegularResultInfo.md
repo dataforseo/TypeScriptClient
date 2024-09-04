@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYahooOrganicTaskGetRegularResultInfo
+[Documentation](../globals.md) / ISerpYahooOrganicTaskGetRegularResultInfo
 
 # Interface: ISerpYahooOrganicTaskGetRegularResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:68848
+main.ts:67554
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:68853
+main.ts:67559
 
 ***
 
@@ -52,7 +52,7 @@ note that this array contains all types of search results found in the returned 
 
 #### Defined in
 
-main.ts:68862
+main.ts:67568
 
 ***
 
@@ -64,7 +64,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:68868
+main.ts:67574
 
 ***
 
@@ -76,7 +76,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:68866
+main.ts:67572
 
 ***
 
@@ -89,7 +89,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:68837
+main.ts:67543
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:68845
+main.ts:67551
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:68843
+main.ts:67549
 
 ***
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:68841
+main.ts:67547
 
 ***
 
@@ -137,7 +137,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:68864
+main.ts:67570
 
 ***
 
@@ -150,7 +150,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:68856
+main.ts:67562
 
 ***
 
@@ -162,4 +162,4 @@ type of element
 
 #### Defined in
 
-main.ts:68839
+main.ts:67545

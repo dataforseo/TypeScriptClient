@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleLocationsResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleLocationsResultInfo
 
 # Class: BusinessDataGoogleLocationsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:204623
+main.ts:200005
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:204617
+main.ts:199999
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Defined in
 
-main.ts:204607
+main.ts:199989
 
 ***
 
@@ -78,7 +78,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:204609
+main.ts:199991
 
 ***
 
@@ -98,7 +98,7 @@ example:
 
 #### Defined in
 
-main.ts:204615
+main.ts:199997
 
 ***
 
@@ -114,7 +114,7 @@ location type
 
 #### Defined in
 
-main.ts:204619
+main.ts:200001
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:204619
 
 #### Defined in
 
-main.ts:204632
+main.ts:200014
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:204632
 
 #### Defined in
 
-main.ts:204653
+main.ts:200035
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:204653
 
 #### Defined in
 
-main.ts:204646
+main.ts:200028

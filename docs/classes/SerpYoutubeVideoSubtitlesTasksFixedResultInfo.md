@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoSubtitlesTasksFixedResultInfo
+[Documentation](../globals.md) / SerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
 # Class: SerpYoutubeVideoSubtitlesTasksFixedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:65030
+main.ts:63772
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was fixed (in the UTC format)
 
 #### Defined in
 
-main.ts:65015
+main.ts:63757
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:65023
+main.ts:63765
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:65026
+main.ts:63768
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:65020
+main.ts:63762
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:65008
+main.ts:63750
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:65010
+main.ts:63752
 
 ***
 
@@ -147,7 +147,7 @@ can take the following values: video_subtitles
 
 #### Defined in
 
-main.ts:65013
+main.ts:63755
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:65017
+main.ts:63759
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:65017
 
 #### Defined in
 
-main.ts:65039
+main.ts:63781
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:65039
 
 #### Defined in
 
-main.ts:65063
+main.ts:63805
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:65063
 
 #### Defined in
 
-main.ts:65056
+main.ts:63798

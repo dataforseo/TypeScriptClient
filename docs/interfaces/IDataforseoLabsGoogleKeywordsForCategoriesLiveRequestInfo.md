@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
@@ -23,7 +23,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:89978
+main.ts:88650
 
 ***
 
@@ -39,7 +39,7 @@ default value: true
 
 #### Defined in
 
-main.ts:90016
+main.ts:88688
 
 ***
 
@@ -68,7 +68,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:90070
+main.ts:88742
 
 ***
 
@@ -83,7 +83,7 @@ default value: false
 
 #### Defined in
 
-main.ts:90033
+main.ts:88705
 
 ***
 
@@ -100,7 +100,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:90028
+main.ts:88700
 
 ***
 
@@ -115,7 +115,7 @@ default value: false
 
 #### Defined in
 
-main.ts:90021
+main.ts:88693
 
 ***
 
@@ -133,7 +133,7 @@ en
 
 #### Defined in
 
-main.ts:90010
+main.ts:88682
 
 ***
 
@@ -151,7 +151,7 @@ English
 
 #### Defined in
 
-main.ts:90002
+main.ts:88674
 
 ***
 
@@ -166,7 +166,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:90038
+main.ts:88710
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:89994
+main.ts:88666
 
 ***
 
@@ -202,7 +202,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:89986
+main.ts:88658
 
 ***
 
@@ -217,7 +217,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:90043
+main.ts:88715
 
 ***
 
@@ -235,7 +235,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:90051
+main.ts:88723
 
 ***
 
@@ -261,7 +261,7 @@ example:
 
 #### Defined in
 
-main.ts:90086
+main.ts:88758
 
 ***
 
@@ -277,4 +277,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:90092
+main.ts:88764

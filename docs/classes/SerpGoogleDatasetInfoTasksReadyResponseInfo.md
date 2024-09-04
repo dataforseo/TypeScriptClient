@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleDatasetInfoTasksReadyResponseInfo
+[Documentation](../globals.md) / SerpGoogleDatasetInfoTasksReadyResponseInfo
 
 # Class: SerpGoogleDatasetInfoTasksReadyResponseInfo
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:57106
+main.ts:55577
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:23831
+main.ts:24147
 
 ***
 
@@ -79,7 +79,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:23824
+main.ts:24140
 
 ***
 
@@ -100,7 +100,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:23827
+main.ts:24143
 
 ***
 
@@ -116,7 +116,7 @@ array of tasks
 
 #### Defined in
 
-main.ts:57102
+main.ts:55573
 
 ***
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-main.ts:23833
+main.ts:24149
 
 ***
 
@@ -156,7 +156,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-main.ts:23835
+main.ts:24151
 
 ***
 
@@ -176,7 +176,7 @@ total execution time, seconds
 
 #### Defined in
 
-main.ts:23829
+main.ts:24145
 
 ***
 
@@ -196,7 +196,7 @@ the current version of the API
 
 #### Defined in
 
-main.ts:23821
+main.ts:24137
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:23821
 
 #### Defined in
 
-main.ts:57110
+main.ts:55581
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:57110
 
 #### Defined in
 
-main.ts:57132
+main.ts:55603
 
 ***
 
@@ -262,4 +262,4 @@ main.ts:57132
 
 #### Defined in
 
-main.ts:57125
+main.ts:55596

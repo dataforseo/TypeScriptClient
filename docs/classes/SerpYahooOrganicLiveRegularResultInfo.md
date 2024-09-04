@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYahooOrganicLiveRegularResultInfo
+[Documentation](../globals.md) / SerpYahooOrganicLiveRegularResultInfo
 
 # Class: SerpYahooOrganicLiveRegularResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:69499
+main.ts:68205
 
 ## Properties
 
@@ -47,7 +47,7 @@ You can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:69477
+main.ts:68183
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:69482
+main.ts:68188
 
 ***
 
@@ -84,7 +84,7 @@ Possible item types: organic
 
 #### Defined in
 
-main.ts:69489
+main.ts:68195
 
 ***
 
@@ -100,7 +100,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:69495
+main.ts:68201
 
 ***
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:69493
+main.ts:68199
 
 ***
 
@@ -133,7 +133,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:69466
+main.ts:68172
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:69474
+main.ts:68180
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:69472
+main.ts:68178
 
 ***
 
@@ -181,7 +181,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:69470
+main.ts:68176
 
 ***
 
@@ -197,7 +197,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:69491
+main.ts:68197
 
 ***
 
@@ -214,7 +214,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:69485
+main.ts:68191
 
 ***
 
@@ -230,7 +230,7 @@ type of element
 
 #### Defined in
 
-main.ts:69468
+main.ts:68174
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:69468
 
 #### Defined in
 
-main.ts:69508
+main.ts:68214
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:69508
 
 #### Defined in
 
-main.ts:69544
+main.ts:68250
 
 ***
 
@@ -284,4 +284,4 @@ main.ts:69544
 
 #### Defined in
 
-main.ts:69537
+main.ts:68243

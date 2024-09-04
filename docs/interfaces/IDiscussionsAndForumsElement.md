@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDiscussionsAndForumsElement
+[Documentation](../globals.md) / IDiscussionsAndForumsElement
 
 # Interface: IDiscussionsAndForumsElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:37631
+main.ts:35943
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:37626
+main.ts:35938
 
 ***
 
@@ -44,7 +44,7 @@ number of posts from the discussion on the related source
 
 #### Defined in
 
-main.ts:37638
+main.ts:35950
 
 ***
 
@@ -57,7 +57,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:37629
+main.ts:35941
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:37636
+main.ts:35948
 
 ***
 
@@ -84,7 +84,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:37622
+main.ts:35934
 
 ***
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:37620
+main.ts:35932
 
 ***
 
@@ -108,4 +108,4 @@ URL
 
 #### Defined in
 
-main.ts:37624
+main.ts:35936

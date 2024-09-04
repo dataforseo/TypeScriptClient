@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TechnologyCategoryInfo
+[Documentation](../globals.md) / TechnologyCategoryInfo
 
 # Class: TechnologyCategoryInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:77183
+main.ts:75855
 
 ## Properties
 
@@ -48,7 +48,7 @@ crm, cart_abandonment
 
 #### Defined in
 
-main.ts:77169
+main.ts:75841
 
 ***
 
@@ -66,7 +66,7 @@ user_generated_content.content_curation
 
 #### Defined in
 
-main.ts:77173
+main.ts:75845
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:77179
+main.ts:75851
 
 ***
 
@@ -100,7 +100,7 @@ title of the technology category
 
 #### Defined in
 
-main.ts:77175
+main.ts:75847
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:77175
 
 #### Defined in
 
-main.ts:77192
+main.ts:75864
 
 ***
 
@@ -136,7 +136,7 @@ main.ts:77192
 
 #### Defined in
 
-main.ts:77216
+main.ts:75888
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:77216
 
 #### Defined in
 
-main.ts:77209
+main.ts:75881

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduLanguagesResultInfo
+[Documentation](../globals.md) / SerpBaiduLanguagesResultInfo
 
 # Class: SerpBaiduLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:70587
+main.ts:69293
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:70583
+main.ts:69289
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:70581
+main.ts:69287
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:70581
 
 #### Defined in
 
-main.ts:70596
+main.ts:69302
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:70596
 
 #### Defined in
 
-main.ts:70614
+main.ts:69320
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:70614
 
 #### Defined in
 
-main.ts:70607
+main.ts:69313

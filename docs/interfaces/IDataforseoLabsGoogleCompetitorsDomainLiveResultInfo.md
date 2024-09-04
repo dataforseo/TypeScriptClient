@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleCompetitorsDomainLiveResultInfo
 
@@ -20,7 +20,7 @@ contains data related to the target and competitor domains
 
 #### Defined in
 
-main.ts:94634
+main.ts:93274
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:94632
+main.ts:93272
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:94628
+main.ts:93268
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:94626
+main.ts:93266
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94622
+main.ts:93262
 
 ***
 
@@ -80,7 +80,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:94624
+main.ts:93264
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:94630
+main.ts:93270

@@ -2,13 +2,13 @@
 
 ***
 
-[Documentation](../README.md) / IYoutubeCommentSerpElementItem
+[Documentation](../globals.md) / IYoutubeCommentSerpElementItem
 
 # Interface: IYoutubeCommentSerpElementItem
 
 ## Extends
 
-- [`IBaseSerpElementItem`](IBaseSerpElementItem.md)
+- [`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md)
 
 ## Indexable
 
@@ -24,7 +24,7 @@ name of the author of the comment
 
 #### Defined in
 
-main.ts:66915
+main.ts:65621
 
 ***
 
@@ -36,7 +36,7 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Defined in
 
-main.ts:66917
+main.ts:65623
 
 ***
 
@@ -48,7 +48,7 @@ URL of the author’s channel
 
 #### Defined in
 
-main.ts:66919
+main.ts:65625
 
 ***
 
@@ -60,7 +60,7 @@ number of likes on the comment
 
 #### Defined in
 
-main.ts:66930
+main.ts:65636
 
 ***
 
@@ -72,7 +72,7 @@ displayed publication date
 
 #### Defined in
 
-main.ts:66923
+main.ts:65629
 
 ***
 
@@ -83,9 +83,13 @@ main.ts:66923
 absolute rank in SERP for the target domain
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`rank_absolute`](IBaseYoutubeSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:66913
+main.ts:62316
 
 ***
 
@@ -97,9 +101,13 @@ group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`rank_group`](IBaseYoutubeSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:66910
+main.ts:62313
 
 ***
 
@@ -111,7 +119,7 @@ number of replies on the comment
 
 #### Defined in
 
-main.ts:66932
+main.ts:65638
 
 ***
 
@@ -123,7 +131,7 @@ text of the comment
 
 #### Defined in
 
-main.ts:66921
+main.ts:65627
 
 ***
 
@@ -138,4 +146,20 @@ example:
 
 #### Defined in
 
-main.ts:66928
+main.ts:65634
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseYoutubeSerpElementItem`](IBaseYoutubeSerpElementItem.md).[`type`](IBaseYoutubeSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:62309

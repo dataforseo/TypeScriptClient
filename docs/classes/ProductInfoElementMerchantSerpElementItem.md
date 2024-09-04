@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductInfoElementMerchantSerpElementItem
+[Documentation](../globals.md) / ProductInfoElementMerchantSerpElementItem
 
 # Class: ProductInfoElementMerchantSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:183052
+main.ts:178790
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:183052
 
 #### Defined in
 
-main.ts:21025
+main.ts:21039
 
 ***
 
@@ -68,7 +68,7 @@ description of the product
 
 #### Defined in
 
-main.ts:183027
+main.ts:178765
 
 ***
 
@@ -85,7 +85,7 @@ contains snippets with the description of product features
 
 #### Defined in
 
-main.ts:183036
+main.ts:178774
 
 ***
 
@@ -102,7 +102,7 @@ contains urls to product images
 
 #### Defined in
 
-main.ts:183033
+main.ts:178771
 
 ***
 
@@ -110,17 +110,21 @@ main.ts:183033
 
 > `optional` **position**: `string`
 
-alignment of the element on the product specification page
+alignment of the element in SERP
 can take the following values:
-right, left
+left, right
 
 #### Implementation of
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`position`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:183020
+main.ts:21037
 
 ***
 
@@ -137,7 +141,7 @@ ilearn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:183023
+main.ts:178761
 
 ***
 
@@ -145,16 +149,20 @@ main.ts:183023
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank on the product specification page
-absolute position among all the elements found on the product specification page
+absolute rank in SERP
+absolute position among all the elements found in Google Shopping SERP
 
 #### Implementation of
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:183016
+main.ts:21033
 
 ***
 
@@ -169,9 +177,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`rank_group`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:183013
+main.ts:21030
 
 ***
 
@@ -188,7 +200,7 @@ the popularity rate based on reviews
 
 #### Defined in
 
-main.ts:183039
+main.ts:178777
 
 ***
 
@@ -205,7 +217,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:183042
+main.ts:178780
 
 ***
 
@@ -222,7 +234,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:183045
+main.ts:178783
 
 ***
 
@@ -238,7 +250,27 @@ title of the product
 
 #### Defined in
 
-main.ts:183025
+main.ts:178763
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IProductInfoElementMerchantSerpElementItem`](../interfaces/IProductInfoElementMerchantSerpElementItem.md).[`type`](../interfaces/IProductInfoElementMerchantSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21027
 
 ***
 
@@ -255,7 +287,7 @@ url of the product on Google Shopping
 
 #### Defined in
 
-main.ts:183030
+main.ts:178768
 
 ***
 
@@ -272,7 +304,7 @@ contains brief information about different product variations
 
 #### Defined in
 
-main.ts:183048
+main.ts:178786
 
 ## Methods
 
@@ -294,7 +326,7 @@ main.ts:183048
 
 #### Defined in
 
-main.ts:183057
+main.ts:178795
 
 ***
 
@@ -316,7 +348,7 @@ main.ts:183057
 
 #### Defined in
 
-main.ts:183103
+main.ts:178838
 
 ***
 
@@ -338,4 +370,4 @@ main.ts:183103
 
 #### Defined in
 
-main.ts:183096
+main.ts:178831

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleRelatedKeywordsLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleRelatedKeywordsLiveItem
 
 # Interface: IDataforseoLabsGoogleRelatedKeywordsLiveItem
 
@@ -20,7 +20,7 @@ keyword search depth
 
 #### Defined in
 
-main.ts:85581
+main.ts:84253
 
 ***
 
@@ -32,7 +32,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:85579
+main.ts:84251
 
 ***
 
@@ -45,7 +45,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-main.ts:85584
+main.ts:84256
 
 ***
 
@@ -57,4 +57,4 @@ search engine type
 
 #### Defined in
 
-main.ts:85577
+main.ts:84249

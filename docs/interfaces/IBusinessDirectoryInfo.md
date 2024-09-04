@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDirectoryInfo
+[Documentation](../globals.md) / IBusinessDirectoryInfo
 
 # Interface: IBusinessDirectoryInfo
 
@@ -22,7 +22,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:206004
+main.ts:201372
 
 ***
 
@@ -35,4 +35,4 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:206000
+main.ts:201368

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRankInfo
+[Documentation](../globals.md) / IRankInfo
 
 # Interface: IRankInfo
 
@@ -22,7 +22,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:92622
+main.ts:91294
 
 ***
 
@@ -36,4 +36,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:92618
+main.ts:91290

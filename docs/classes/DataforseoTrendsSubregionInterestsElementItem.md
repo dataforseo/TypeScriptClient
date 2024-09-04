@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoTrendsSubregionInterestsElementItem
+[Documentation](../globals.md) / DataforseoTrendsSubregionInterestsElementItem
 
 # Class: DataforseoTrendsSubregionInterestsElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:129487
+main.ts:126395
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:129487
 
 #### Defined in
 
-main.ts:21638
+main.ts:21894
 
 ***
 
@@ -68,7 +68,7 @@ subregional keyword popuarity data for each specified term
 
 #### Defined in
 
-main.ts:129480
+main.ts:126388
 
 ***
 
@@ -85,7 +85,7 @@ if you specified a single keyword, the value will be null
 
 #### Defined in
 
-main.ts:129483
+main.ts:126391
 
 ***
 
@@ -94,15 +94,19 @@ main.ts:129483
 > `optional` **keywords**: `string`[]
 
 relevant keywords
-the data included in the interests and interests_comparison is based on the keywords listed in this array
+the data included in the dataforseo_trends_graph element is based on the keywords listed in this array
 
 #### Implementation of
 
 [`IDataforseoTrendsSubregionInterestsElementItem`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md).[`keywords`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md#keywords)
 
+#### Inherited from
+
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`keywords`](BaseDataforseoTrendsItem.md#keywords)
+
 #### Defined in
 
-main.ts:129478
+main.ts:21892
 
 ***
 
@@ -117,9 +121,33 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IDataforseoTrendsSubregionInterestsElementItem`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md).[`position`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`position`](BaseDataforseoTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:129475
+main.ts:21889
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IDataforseoTrendsSubregionInterestsElementItem`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md).[`type`](../interfaces/IDataforseoTrendsSubregionInterestsElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`type`](BaseDataforseoTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21886
 
 ## Methods
 
@@ -141,7 +169,7 @@ main.ts:129475
 
 #### Defined in
 
-main.ts:129492
+main.ts:126400
 
 ***
 
@@ -163,7 +191,7 @@ main.ts:129492
 
 #### Defined in
 
-main.ts:129521
+main.ts:126423
 
 ***
 
@@ -185,4 +213,4 @@ main.ts:129521
 
 #### Defined in
 
-main.ts:129514
+main.ts:126416

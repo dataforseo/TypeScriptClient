@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageTaskRequestInfo
+[Documentation](../globals.md) / IOnPageTaskRequestInfo
 
 # Interface: IOnPageTaskRequestInfo
 
@@ -23,7 +23,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:140090
+main.ts:136956
 
 ***
 
@@ -38,7 +38,7 @@ default value: false
 
 #### Defined in
 
-main.ts:140219
+main.ts:137085
 
 ***
 
@@ -55,7 +55,7 @@ otherwise, the content of allowed_subdomains field will be ignored and the resul
 
 #### Defined in
 
-main.ts:140226
+main.ts:137092
 
 ***
 
@@ -77,7 +77,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-main.ts:140120
+main.ts:136986
 
 ***
 
@@ -94,7 +94,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:140134
+main.ts:137000
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:140141
+main.ts:137007
 
 ***
 
@@ -128,7 +128,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:140127
+main.ts:136993
 
 ***
 
@@ -145,7 +145,7 @@ once the crawl is completed, you can obtain keyword density values with the Keyw
 
 #### Defined in
 
-main.ts:140256
+main.ts:137122
 
 ***
 
@@ -160,7 +160,7 @@ default value: false
 
 #### Defined in
 
-main.ts:140237
+main.ts:137103
 
 ***
 
@@ -177,7 +177,7 @@ example: "SERP", "minifiers", "JavaScript"
 
 #### Defined in
 
-main.ts:140249
+main.ts:137115
 
 ***
 
@@ -192,7 +192,7 @@ Note: if no language is specified, it will be set automatically based on page co
 
 #### Defined in
 
-main.ts:140242
+main.ts:137108
 
 ***
 
@@ -231,7 +231,7 @@ if you want to change these thresholds to 1 second and 1000 kbytes, use the foll
 
 #### Defined in
 
-main.ts:140281
+main.ts:137147
 
 ***
 
@@ -246,7 +246,7 @@ default value: 2000
 
 #### Defined in
 
-main.ts:140070
+main.ts:136936
 
 ***
 
@@ -263,7 +263,7 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 #### Defined in
 
-main.ts:140160
+main.ts:137026
 
 ***
 
@@ -285,7 +285,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:140209
+main.ts:137075
 
 ***
 
@@ -299,7 +299,7 @@ example: Disallow: /directory1/
 
 #### Defined in
 
-main.ts:140094
+main.ts:136960
 
 ***
 
@@ -314,7 +314,7 @@ Note: if you want to use this parameter, respect_sitemap should be true
 
 #### Defined in
 
-main.ts:140153
+main.ts:137019
 
 ***
 
@@ -331,7 +331,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:140108
+main.ts:136974
 
 ***
 
@@ -347,7 +347,7 @@ false
 
 #### Defined in
 
-main.ts:140197
+main.ts:137063
 
 ***
 
@@ -362,7 +362,7 @@ specify certain checks to prevent them from running and impacting the onpage_sco
 
 #### Defined in
 
-main.ts:140295
+main.ts:137161
 
 ***
 
@@ -381,7 +381,7 @@ specify the following checks to prevent them from running on the target website:
 
 #### Defined in
 
-main.ts:140290
+main.ts:137156
 
 ***
 
@@ -397,7 +397,7 @@ Note: to use this parameter, the allow_subdomains parameter should be set to tru
 
 #### Defined in
 
-main.ts:140232
+main.ts:137098
 
 ***
 
@@ -416,7 +416,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:140191
+main.ts:137057
 
 ***
 
@@ -431,7 +431,7 @@ default value: false
 
 #### Defined in
 
-main.ts:140080
+main.ts:136946
 
 ***
 
@@ -447,7 +447,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:140177
+main.ts:137043
 
 ***
 
@@ -462,7 +462,7 @@ default value: false
 
 #### Defined in
 
-main.ts:140171
+main.ts:137037
 
 ***
 
@@ -477,7 +477,7 @@ default value: false;if you use this field, enable_javascript must be set to tru
 
 #### Defined in
 
-main.ts:140182
+main.ts:137048
 
 ***
 
@@ -492,7 +492,7 @@ default value: false
 
 #### Defined in
 
-main.ts:140048
+main.ts:136914
 
 ***
 
@@ -508,7 +508,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:140166
+main.ts:137032
 
 ***
 
@@ -523,7 +523,7 @@ for example, starting page of the crawl is level 0, pages that have links from t
 
 #### Defined in
 
-main.ts:140065
+main.ts:136931
 
 ***
 
@@ -542,7 +542,7 @@ to enable them anyway, set force_sitewide_checks to true
 
 #### Defined in
 
-main.ts:140037
+main.ts:136903
 
 ***
 
@@ -562,7 +562,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:140321
+main.ts:137187
 
 ***
 
@@ -584,7 +584,7 @@ subdomains will be ignored unless the allow_subdomains parameter is set to truee
 
 #### Defined in
 
-main.ts:140060
+main.ts:136926
 
 ***
 
@@ -601,7 +601,7 @@ the max_crawl_depth field of the request will be ignored, you can specify the nu
 
 #### Defined in
 
-main.ts:140148
+main.ts:137014
 
 ***
 
@@ -616,7 +616,7 @@ default value: false
 
 #### Defined in
 
-main.ts:140305
+main.ts:137171
 
 ***
 
@@ -633,7 +633,7 @@ Note: if set to override, specify the custom_robots_txt parameter
 
 #### Defined in
 
-main.ts:140101
+main.ts:136967
 
 ***
 
@@ -649,7 +649,7 @@ you can also use the live Instant Pages endpoint to get page-specific data
 
 #### Defined in
 
-main.ts:140043
+main.ts:136909
 
 ***
 
@@ -664,7 +664,7 @@ default value: false
 
 #### Defined in
 
-main.ts:140075
+main.ts:136941
 
 ***
 
@@ -679,7 +679,7 @@ default value: false
 
 #### Defined in
 
-main.ts:140085
+main.ts:136951
 
 ***
 
@@ -694,7 +694,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:140300
+main.ts:137166
 
 ***
 
@@ -710,7 +710,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:140311
+main.ts:137177
 
 ***
 
@@ -725,7 +725,7 @@ if you specify the page URL, the results will be returned for the domain include
 
 #### Defined in
 
-main.ts:140028
+main.ts:136894
 
 ***
 
@@ -740,4 +740,4 @@ default value: false
 
 #### Defined in
 
-main.ts:140214
+main.ts:137080

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAbsoluteItems
+[Documentation](../globals.md) / IAbsoluteItems
 
 # Interface: IAbsoluteItems
 
@@ -24,7 +24,7 @@ US-NY
 
 #### Defined in
 
-main.ts:129378
+main.ts:126292
 
 ***
 
@@ -40,7 +40,7 @@ Andorra
 
 #### Defined in
 
-main.ts:129384
+main.ts:126298
 
 ***
 
@@ -59,4 +59,4 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:129393
+main.ts:126307

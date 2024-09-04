@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageDuplicateContentItem
+[Documentation](../globals.md) / OnPageDuplicateContentItem
 
 # Class: OnPageDuplicateContentItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:161016
+main.ts:157314
 
 ## Properties
 
@@ -46,7 +46,7 @@ pages with duplicate content
 
 #### Defined in
 
-main.ts:161012
+main.ts:157310
 
 ***
 
@@ -62,7 +62,7 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:161010
+main.ts:157308
 
 ***
 
@@ -78,7 +78,7 @@ URL of the specified page
 
 #### Defined in
 
-main.ts:161008
+main.ts:157306
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:161008
 
 #### Defined in
 
-main.ts:161025
+main.ts:157323
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:161025
 
 #### Defined in
 
-main.ts:161048
+main.ts:157346
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:161048
 
 #### Defined in
 
-main.ts:161041
+main.ts:157339

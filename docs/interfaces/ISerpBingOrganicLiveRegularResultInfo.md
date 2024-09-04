@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBingOrganicLiveRegularResultInfo
+[Documentation](../globals.md) / ISerpBingOrganicLiveRegularResultInfo
 
 # Interface: ISerpBingOrganicLiveRegularResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:59937
+main.ts:58616
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:59942
+main.ts:58621
 
 ***
 
@@ -50,7 +50,7 @@ possible item types: organic, paid
 
 #### Defined in
 
-main.ts:59949
+main.ts:58628
 
 ***
 
@@ -63,7 +63,7 @@ array of 8 search queries related to the keyword
 
 #### Defined in
 
-main.ts:59956
+main.ts:58635
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:59953
+main.ts:58632
 
 ***
 
@@ -88,7 +88,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:59926
+main.ts:58605
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:59934
+main.ts:58613
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:59932
+main.ts:58611
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:59930
+main.ts:58609
 
 ***
 
@@ -136,7 +136,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:59951
+main.ts:58630
 
 ***
 
@@ -149,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:59945
+main.ts:58624
 
 ***
 
@@ -161,4 +161,4 @@ type of element
 
 #### Defined in
 
-main.ts:59928
+main.ts:58607

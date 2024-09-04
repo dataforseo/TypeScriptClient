@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleNewsLiveAdvancedResultInfo
+[Documentation](../globals.md) / ISerpGoogleNewsLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleNewsLiveAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:46429
+main.ts:44695
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:46434
+main.ts:44700
 
 ***
 
@@ -51,19 +51,19 @@ top_stories, news_search
 
 #### Defined in
 
-main.ts:46442
+main.ts:44708
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseGoogleNewsSerpElementItem`](../classes/BaseGoogleNewsSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Defined in
 
-main.ts:46448
+main.ts:44714
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:46446
+main.ts:44712
 
 ***
 
@@ -88,7 +88,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:46418
+main.ts:44684
 
 ***
 
@@ -100,7 +100,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:46426
+main.ts:44692
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:46424
+main.ts:44690
 
 ***
 
@@ -124,7 +124,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:46422
+main.ts:44688
 
 ***
 
@@ -136,7 +136,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:46444
+main.ts:44710
 
 ***
 
@@ -149,7 +149,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:46437
+main.ts:44703
 
 ***
 
@@ -161,4 +161,4 @@ type of element
 
 #### Defined in
 
-main.ts:46420
+main.ts:44686

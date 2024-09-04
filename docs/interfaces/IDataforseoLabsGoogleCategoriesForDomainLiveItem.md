@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
 # Interface: IDataforseoLabsGoogleCategoriesForDomainLiveItem
 
@@ -21,7 +21,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:89188
+main.ts:87860
 
 ***
 
@@ -37,7 +37,7 @@ ranking data relevant to the specified domain or subdomain
 
 #### Defined in
 
-main.ts:89190
+main.ts:87862
 
 ***
 
@@ -49,4 +49,4 @@ search engine type
 
 #### Defined in
 
-main.ts:89185
+main.ts:87857

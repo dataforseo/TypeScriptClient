@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisAvailableFiltersResultInfo
+[Documentation](../globals.md) / IContentAnalysisAvailableFiltersResultInfo
 
 # Interface: IContentAnalysisAvailableFiltersResultInfo
 
@@ -22,4 +22,4 @@
 
 #### Defined in
 
-main.ts:169137
+main.ts:165067

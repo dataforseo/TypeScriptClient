@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CommercialUnitsDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / CommercialUnitsDataforseoLabsSerpElementItem
 
 # Class: CommercialUnitsDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:102067
+main.ts:99304
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:102067
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -60,8 +60,7 @@ main.ts:20752
 
 > `optional` **items**: [`CommercialUnitsElement`](CommercialUnitsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:102063
+main.ts:99300
 
 ***
 
@@ -85,9 +84,13 @@ left, right
 
 [`ICommercialUnitsDataforseoLabsSerpElementItem`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md).[`position`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:102056
+main.ts:20738
 
 ***
 
@@ -102,9 +105,13 @@ absolute position among all the elements in SERP
 
 [`ICommercialUnitsDataforseoLabsSerpElementItem`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:102052
+main.ts:20734
 
 ***
 
@@ -119,9 +126,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`ICommercialUnitsDataforseoLabsSerpElementItem`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:102049
+main.ts:20731
 
 ***
 
@@ -129,7 +140,7 @@ main.ts:102049
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -137,7 +148,27 @@ title of the item
 
 #### Defined in
 
-main.ts:102060
+main.ts:99298
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ICommercialUnitsDataforseoLabsSerpElementItem`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md).[`type`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -151,9 +182,13 @@ the XPath of the element
 
 [`ICommercialUnitsDataforseoLabsSerpElementItem`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/ICommercialUnitsDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:102058
+main.ts:20740
 
 ## Methods
 
@@ -175,7 +210,7 @@ main.ts:102058
 
 #### Defined in
 
-main.ts:102072
+main.ts:99309
 
 ***
 
@@ -197,7 +232,7 @@ main.ts:102072
 
 #### Defined in
 
-main.ts:102099
+main.ts:99332
 
 ***
 
@@ -219,4 +254,4 @@ main.ts:102099
 
 #### Defined in
 
-main.ts:102092
+main.ts:99325

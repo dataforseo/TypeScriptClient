@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataIdListResultInfo
+[Documentation](../globals.md) / IBusinessDataIdListResultInfo
 
 # Interface: IBusinessDataIdListResultInfo
 
@@ -20,7 +20,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:201776
+main.ts:197158
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:201771
+main.ts:197153
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:201766
+main.ts:197148
 
 ***
 
@@ -62,7 +62,7 @@ id of the task
 
 #### Defined in
 
-main.ts:201758
+main.ts:197140
 
 ***
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:201778
+main.ts:197160
 
 ***
 
@@ -91,7 +91,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:201774
+main.ts:197156
 
 ***
 
@@ -104,4 +104,4 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:201761
+main.ts:197143

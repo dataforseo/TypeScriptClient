@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageForceStopRequestInfo
+[Documentation](../globals.md) / OnPageForceStopRequestInfo
 
 # Class: OnPageForceStopRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:155523
+main.ts:152389
 
 ## Properties
 
@@ -51,7 +51,7 @@ note: you can set up to 1000 id values as separate objects in the POST array
 
 #### Defined in
 
-main.ts:155519
+main.ts:152385
 
 ## Methods
 
@@ -69,7 +69,7 @@ main.ts:155519
 
 #### Defined in
 
-main.ts:155532
+main.ts:152398
 
 ***
 
@@ -87,7 +87,7 @@ main.ts:155532
 
 #### Defined in
 
-main.ts:155549
+main.ts:152415
 
 ***
 
@@ -105,4 +105,4 @@ main.ts:155549
 
 #### Defined in
 
-main.ts:155542
+main.ts:152408

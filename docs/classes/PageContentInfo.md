@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PageContentInfo
+[Documentation](../globals.md) / PageContentInfo
 
 # Class: PageContentInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:165844
+main.ts:161774
 
 ## Properties
 
@@ -38,7 +38,7 @@ main.ts:165844
 
 > `optional` **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-parsed content of the footer
+content of the footer of the table
 
 #### Implementation of
 
@@ -46,7 +46,7 @@ parsed content of the footer
 
 #### Defined in
 
-main.ts:165834
+main.ts:161764
 
 ***
 
@@ -54,7 +54,7 @@ main.ts:165834
 
 > `optional` **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-content of the header of the table
+parsed content of the header
 
 #### Implementation of
 
@@ -62,7 +62,7 @@ content of the header of the table
 
 #### Defined in
 
-main.ts:165832
+main.ts:161762
 
 ***
 
@@ -79,7 +79,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:165837
+main.ts:161767
 
 ***
 
@@ -96,7 +96,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:165840
+main.ts:161770
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:165840
 
 #### Defined in
 
-main.ts:165853
+main.ts:161783
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:165853
 
 #### Defined in
 
-main.ts:165881
+main.ts:161811
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:165881
 
 #### Defined in
 
-main.ts:165874
+main.ts:161804

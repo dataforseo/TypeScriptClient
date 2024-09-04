@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
 # Class: DataforseoLabsGoogleCategoriesForKeywordsLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:88397
+main.ts:87069
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:88393
+main.ts:87065
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:88391
+main.ts:87063
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:88391
 
 #### Defined in
 
-main.ts:88406
+main.ts:87078
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:88406
 
 #### Defined in
 
-main.ts:88424
+main.ts:87096
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:88424
 
 #### Defined in
 
-main.ts:88417
+main.ts:87089

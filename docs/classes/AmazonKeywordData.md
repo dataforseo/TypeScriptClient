@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonKeywordData
+[Documentation](../globals.md) / AmazonKeywordData
 
 # Class: AmazonKeywordData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22574
+main.ts:22890
 
 ## Properties
 
@@ -46,7 +46,7 @@ related keyword
 
 #### Defined in
 
-main.ts:22564
+main.ts:22880
 
 ***
 
@@ -62,7 +62,7 @@ keyword info for the returned keyword
 
 #### Defined in
 
-main.ts:22570
+main.ts:22886
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:22568
+main.ts:22884
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:22566
+main.ts:22882
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:22562
+main.ts:22878
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:22562
 
 #### Defined in
 
-main.ts:22583
+main.ts:22899
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:22583
 
 #### Defined in
 
-main.ts:22604
+main.ts:22920
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:22604
 
 #### Defined in
 
-main.ts:22597
+main.ts:22913

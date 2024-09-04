@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantTaskRequestInfo
+[Documentation](../globals.md) / MerchantTaskRequestInfo
 
 # Class: MerchantTaskRequestInfo
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-main.ts:156083
+main.ts:152949
 
 ## Properties
 
@@ -57,7 +57,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:156010
+main.ts:152876
 
 ***
 
@@ -78,7 +78,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:155943
+main.ts:152809
 
 ***
 
@@ -99,7 +99,7 @@ en
 
 #### Defined in
 
-main.ts:155994
+main.ts:152860
 
 ***
 
@@ -120,7 +120,7 @@ English
 
 #### Defined in
 
-main.ts:155987
+main.ts:152853
 
 ***
 
@@ -141,7 +141,7 @@ example:
 
 #### Defined in
 
-main.ts:155971
+main.ts:152837
 
 ***
 
@@ -164,7 +164,7 @@ example:
 
 #### Defined in
 
-main.ts:155980
+main.ts:152846
 
 ***
 
@@ -185,7 +185,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:155964
+main.ts:152830
 
 ***
 
@@ -206,7 +206,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:156017
+main.ts:152883
 
 ***
 
@@ -230,7 +230,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:156079
+main.ts:152945
 
 ***
 
@@ -250,7 +250,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:156069
+main.ts:152935
 
 ***
 
@@ -274,7 +274,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:156063
+main.ts:152929
 
 ***
 
@@ -294,7 +294,7 @@ example:
 
 #### Defined in
 
-main.ts:156040
+main.ts:152906
 
 ***
 
@@ -314,7 +314,7 @@ example:
 
 #### Defined in
 
-main.ts:156034
+main.ts:152900
 
 ***
 
@@ -336,7 +336,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:155957
+main.ts:152823
 
 ***
 
@@ -357,7 +357,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:156001
+main.ts:152867
 
 ***
 
@@ -382,7 +382,7 @@ example:
 
 #### Defined in
 
-main.ts:156028
+main.ts:152894
 
 ***
 
@@ -403,7 +403,7 @@ sort_by:"review_score"
 
 #### Defined in
 
-main.ts:156047
+main.ts:152913
 
 ***
 
@@ -423,7 +423,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:156053
+main.ts:152919
 
 ***
 
@@ -443,7 +443,7 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
-main.ts:155949
+main.ts:152815
 
 ## Methods
 
@@ -461,7 +461,7 @@ main.ts:155949
 
 #### Defined in
 
-main.ts:156092
+main.ts:152958
 
 ***
 
@@ -479,7 +479,7 @@ main.ts:156092
 
 #### Defined in
 
-main.ts:156127
+main.ts:152993
 
 ***
 
@@ -497,4 +497,4 @@ main.ts:156127
 
 #### Defined in
 
-main.ts:156120
+main.ts:152986

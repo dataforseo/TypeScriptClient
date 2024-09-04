@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataTaskRequestInfo
+[Documentation](../globals.md) / AppDataTaskRequestInfo
 
 # Class: AppDataTaskRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:177713
+main.ts:173643
 
 ## Properties
 
@@ -54,7 +54,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:177677
+main.ts:173607
 
 ***
 
@@ -75,7 +75,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:177631
+main.ts:173561
 
 ***
 
@@ -96,7 +96,7 @@ en
 
 #### Defined in
 
-main.ts:177659
+main.ts:173589
 
 ***
 
@@ -117,7 +117,7 @@ English
 
 #### Defined in
 
-main.ts:177652
+main.ts:173582
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:177645
+main.ts:173575
 
 ***
 
@@ -159,7 +159,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:177638
+main.ts:173568
 
 ***
 
@@ -183,7 +183,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:177709
+main.ts:173639
 
 ***
 
@@ -203,7 +203,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:177699
+main.ts:173629
 
 ***
 
@@ -227,7 +227,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:177693
+main.ts:173623
 
 ***
 
@@ -249,7 +249,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:177667
+main.ts:173597
 
 ***
 
@@ -269,7 +269,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:177683
+main.ts:173613
 
 ## Methods
 
@@ -287,7 +287,7 @@ main.ts:177683
 
 #### Defined in
 
-main.ts:177722
+main.ts:173652
 
 ***
 
@@ -305,7 +305,7 @@ main.ts:177722
 
 #### Defined in
 
-main.ts:177749
+main.ts:173679
 
 ***
 
@@ -323,4 +323,4 @@ main.ts:177749
 
 #### Defined in
 
-main.ts:177742
+main.ts:173672

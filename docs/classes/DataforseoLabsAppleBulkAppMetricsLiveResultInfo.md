@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAppleBulkAppMetricsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:116833
+main.ts:113929
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains data related to the ranking app metrics of the specified application
 
 #### Defined in
 
-main.ts:116829
+main.ts:113925
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:116827
+main.ts:113923
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:116823
+main.ts:113919
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:116821
+main.ts:113917
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:116819
+main.ts:113915
 
 ***
 
@@ -126,7 +126,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:116825
+main.ts:113921
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:116825
 
 #### Defined in
 
-main.ts:116842
+main.ts:113938
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:116842
 
 #### Defined in
 
-main.ts:116868
+main.ts:113964
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:116868
 
 #### Defined in
 
-main.ts:116861
+main.ts:113957

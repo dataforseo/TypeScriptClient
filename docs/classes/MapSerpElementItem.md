@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MapSerpElementItem
+[Documentation](../globals.md) / MapSerpElementItem
 
 # Class: MapSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:31286
+main.ts:30875
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:31286
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,9 +68,13 @@ left, right
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`position`](../interfaces/IMapSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:31272
+main.ts:20363
 
 ***
 
@@ -80,15 +84,18 @@ main.ts:31272
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`rank_absolute`](../interfaces/IMapSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:31268
+main.ts:20359
 
 ***
 
@@ -97,17 +104,20 @@ main.ts:31268
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`rank_group`](../interfaces/IMapSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:31264
+main.ts:20356
 
 ***
 
@@ -125,7 +135,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31282
+main.ts:30871
 
 ***
 
@@ -141,7 +151,27 @@ title of the row
 
 #### Defined in
 
-main.ts:31276
+main.ts:30865
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`type`](../interfaces/IMapSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -157,7 +187,7 @@ source URL
 
 #### Defined in
 
-main.ts:31278
+main.ts:30867
 
 ***
 
@@ -171,9 +201,13 @@ the XPath of the element
 
 [`IMapSerpElementItem`](../interfaces/IMapSerpElementItem.md).[`xpath`](../interfaces/IMapSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:31274
+main.ts:20365
 
 ## Methods
 
@@ -195,7 +229,7 @@ main.ts:31274
 
 #### Defined in
 
-main.ts:31291
+main.ts:30880
 
 ***
 
@@ -217,7 +251,7 @@ main.ts:31291
 
 #### Defined in
 
-main.ts:31315
+main.ts:30900
 
 ***
 
@@ -239,4 +273,4 @@ main.ts:31315
 
 #### Defined in
 
-main.ts:31308
+main.ts:30893

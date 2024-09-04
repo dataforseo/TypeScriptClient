@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpIdListResultInfo
+[Documentation](../globals.md) / SerpIdListResultInfo
 
 # Class: SerpIdListResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:24179
+main.ts:24495
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:24173
+main.ts:24489
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:24168
+main.ts:24484
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:24163
+main.ts:24479
 
 ***
 
@@ -100,7 +100,7 @@ id of the task
 
 #### Defined in
 
-main.ts:24155
+main.ts:24471
 
 ***
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:24175
+main.ts:24491
 
 ***
 
@@ -137,7 +137,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24171
+main.ts:24487
 
 ***
 
@@ -154,7 +154,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:24158
+main.ts:24474
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:24158
 
 #### Defined in
 
-main.ts:24188
+main.ts:24504
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:24188
 
 #### Defined in
 
-main.ts:24217
+main.ts:24533
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:24217
 
 #### Defined in
 
-main.ts:24210
+main.ts:24526

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixContentGenerationDayLimitsRatesDataInfo
 
 # Interface: IAppendixContentGenerationDayLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:222239
+main.ts:217499
 
 ***
 
@@ -28,4 +28,4 @@ main.ts:222239
 
 #### Defined in
 
-main.ts:222238
+main.ts:217498

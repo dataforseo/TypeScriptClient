@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveItem
+[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSerpsLiveItem
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:98130
+main.ts:96494
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:98101
+main.ts:96465
 
 ***
 
@@ -66,7 +66,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:98126
+main.ts:96490
 
 ***
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:98106
+main.ts:96470
 
 ***
 
@@ -104,7 +104,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 #### Defined in
 
-main.ts:98114
+main.ts:96478
 
 ***
 
@@ -121,7 +121,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:98121
+main.ts:96485
 
 ***
 
@@ -137,7 +137,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:98118
+main.ts:96482
 
 ***
 
@@ -154,7 +154,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:98090
+main.ts:96454
 
 ***
 
@@ -170,7 +170,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:98098
+main.ts:96462
 
 ***
 
@@ -186,7 +186,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:98096
+main.ts:96460
 
 ***
 
@@ -202,7 +202,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:98094
+main.ts:96458
 
 ***
 
@@ -218,7 +218,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:98116
+main.ts:96480
 
 ***
 
@@ -234,7 +234,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98087
+main.ts:96451
 
 ***
 
@@ -251,7 +251,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:98109
+main.ts:96473
 
 ***
 
@@ -267,7 +267,7 @@ type of element
 
 #### Defined in
 
-main.ts:98092
+main.ts:96456
 
 ## Methods
 
@@ -285,7 +285,7 @@ main.ts:98092
 
 #### Defined in
 
-main.ts:98139
+main.ts:96503
 
 ***
 
@@ -303,7 +303,7 @@ main.ts:98139
 
 #### Defined in
 
-main.ts:98177
+main.ts:96541
 
 ***
 
@@ -321,4 +321,4 @@ main.ts:98177
 
 #### Defined in
 
-main.ts:98170
+main.ts:96534

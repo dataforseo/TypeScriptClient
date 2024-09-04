@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologiesResultInfo
 
 # Class: DomainAnalyticsTechnologiesTechnologiesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:77333
+main.ts:76005
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of technology groups
 
 #### Defined in
 
-main.ts:77329
+main.ts:76001
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:77329
 
 #### Defined in
 
-main.ts:77342
+main.ts:76014
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:77342
 
 #### Defined in
 
-main.ts:77363
+main.ts:76035
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:77363
 
 #### Defined in
 
-main.ts:77356
+main.ts:76028

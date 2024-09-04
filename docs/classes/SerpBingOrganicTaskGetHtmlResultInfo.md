@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingOrganicTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpBingOrganicTaskGetHtmlResultInfo
 
 # Class: SerpBingOrganicTaskGetHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:59617
+main.ts:58296
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:59609
+main.ts:58288
 
 ***
 
@@ -65,7 +65,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:59613
+main.ts:58292
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:59611
+main.ts:58290
 
 ***
 
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:59596
+main.ts:58275
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:59604
+main.ts:58283
 
 ***
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:59602
+main.ts:58281
 
 ***
 
@@ -146,7 +146,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:59600
+main.ts:58279
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:59598
+main.ts:58277
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:59598
 
 #### Defined in
 
-main.ts:59626
+main.ts:58305
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:59626
 
 #### Defined in
 
-main.ts:59654
+main.ts:58333
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:59654
 
 #### Defined in
 
-main.ts:59647
+main.ts:58326

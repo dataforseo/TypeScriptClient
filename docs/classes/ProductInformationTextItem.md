@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductInformationTextItem
+[Documentation](../globals.md) / ProductInformationTextItem
 
 # Class: ProductInformationTextItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:186375
+main.ts:182001
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:186375
 
 #### Defined in
 
-main.ts:23036
+main.ts:23354
 
 ***
 
@@ -66,9 +66,13 @@ name of the section related to product information specified in the contents
 
 [`IProductInformationTextItem`](../interfaces/IProductInformationTextItem.md).[`section_name`](../interfaces/IProductInformationTextItem.md#section_name)
 
+#### Inherited from
+
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`section_name`](BaseProductInformationItem.md#section_name)
+
 #### Defined in
 
-main.ts:186369
+main.ts:23352
 
 ***
 
@@ -84,7 +88,27 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:186371
+main.ts:181997
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IProductInformationTextItem`](../interfaces/IProductInformationTextItem.md).[`type`](../interfaces/IProductInformationTextItem.md#type)
+
+#### Inherited from
+
+[`BaseProductInformationItem`](BaseProductInformationItem.md).[`type`](BaseProductInformationItem.md#type)
+
+#### Defined in
+
+main.ts:23350
 
 ## Methods
 
@@ -106,7 +130,7 @@ main.ts:186371
 
 #### Defined in
 
-main.ts:186380
+main.ts:182006
 
 ***
 
@@ -128,7 +152,7 @@ main.ts:186380
 
 #### Defined in
 
-main.ts:186399
+main.ts:182024
 
 ***
 
@@ -150,4 +174,4 @@ main.ts:186399
 
 #### Defined in
 
-main.ts:186392
+main.ts:182017

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleReviewsSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / GoogleReviewsSearchBusinessDataSerpElementItem
 
 # Class: GoogleReviewsSearchBusinessDataSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:213210
+main.ts:208542
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:213210
 
 #### Defined in
 
-main.ts:21279
+main.ts:21308
 
 ***
 
@@ -68,7 +68,7 @@ images submitted by the reviewer
 
 #### Defined in
 
-main.ts:213203
+main.ts:208535
 
 ***
 
@@ -84,7 +84,7 @@ indicates whether the reviewer has a ‘local guide’ status
 
 #### Defined in
 
-main.ts:213175
+main.ts:208507
 
 ***
 
@@ -101,7 +101,7 @@ the original response to the review, no auto-translate applied
 
 #### Defined in
 
-main.ts:213189
+main.ts:208521
 
 ***
 
@@ -118,7 +118,7 @@ the original content of the review, no auto-translate applied
 
 #### Defined in
 
-main.ts:213159
+main.ts:208491
 
 ***
 
@@ -135,7 +135,7 @@ the owner’s response to the review
 
 #### Defined in
 
-main.ts:213186
+main.ts:208518
 
 ***
 
@@ -152,7 +152,7 @@ indicates the time (in the ‘time ago’ format) when the owner submitted the r
 
 #### Defined in
 
-main.ts:213192
+main.ts:208524
 
 ***
 
@@ -171,7 +171,7 @@ example:
 
 #### Defined in
 
-main.ts:213197
+main.ts:208529
 
 ***
 
@@ -187,7 +187,7 @@ total number of photos submitted by the reviewer
 
 #### Defined in
 
-main.ts:213173
+main.ts:208505
 
 ***
 
@@ -204,7 +204,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:213152
+main.ts:208484
 
 ***
 
@@ -220,7 +220,7 @@ URL of the reviewer’s profile image
 
 #### Defined in
 
-main.ts:213183
+main.ts:208515
 
 ***
 
@@ -236,7 +236,7 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:213177
+main.ts:208509
 
 ***
 
@@ -252,7 +252,7 @@ URL of the reviewer’s profile
 
 #### Defined in
 
-main.ts:213179
+main.ts:208511
 
 ***
 
@@ -260,16 +260,19 @@ main.ts:213179
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank among all the elements
 
 #### Implementation of
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_absolute`](BaseBusinessDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:213149
+main.ts:21306
 
 ***
 
@@ -278,15 +281,19 @@ main.ts:213149
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
 
 #### Implementation of
 
 [`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`rank_group`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`rank_group`](BaseBusinessDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:213146
+main.ts:21304
 
 ***
 
@@ -302,7 +309,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:213169
+main.ts:208501
 
 ***
 
@@ -319,7 +326,7 @@ contains highlighted review criteria and assessments
 
 #### Defined in
 
-main.ts:213206
+main.ts:208538
 
 ***
 
@@ -337,7 +344,7 @@ ChZDSUhNMG9nS0VJQ0FnSUMxbHFyMFlnEAE
 
 #### Defined in
 
-main.ts:213201
+main.ts:208533
 
 ***
 
@@ -353,7 +360,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:213156
+main.ts:208488
 
 ***
 
@@ -369,7 +376,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:213181
+main.ts:208513
 
 ***
 
@@ -385,7 +392,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:213171
+main.ts:208503
 
 ***
 
@@ -402,7 +409,7 @@ indicates the time (in the ‘time ago’ format) when the review was listed
 
 #### Defined in
 
-main.ts:213162
+main.ts:208494
 
 ***
 
@@ -421,7 +428,27 @@ example:
 
 #### Defined in
 
-main.ts:213167
+main.ts:208499
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleReviewsSearchBusinessDataSerpElementItem`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md).[`type`](../interfaces/IGoogleReviewsSearchBusinessDataSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseBusinessDataSerpElementItem`](BaseBusinessDataSerpElementItem.md).[`type`](BaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21301
 
 ***
 
@@ -437,7 +464,7 @@ the XPath of the review
 
 #### Defined in
 
-main.ts:213154
+main.ts:208486
 
 ## Methods
 
@@ -459,7 +486,7 @@ main.ts:213154
 
 #### Defined in
 
-main.ts:213215
+main.ts:208547
 
 ***
 
@@ -481,7 +508,7 @@ main.ts:213215
 
 #### Defined in
 
-main.ts:213263
+main.ts:208593
 
 ***
 
@@ -503,4 +530,4 @@ main.ts:213263
 
 #### Defined in
 
-main.ts:213256
+main.ts:208586

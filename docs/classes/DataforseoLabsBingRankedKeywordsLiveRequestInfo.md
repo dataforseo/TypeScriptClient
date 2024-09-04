@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
 # Class: DataforseoLabsBingRankedKeywordsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:111577
+main.ts:108711
 
 ## Properties
 
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:111551
+main.ts:108685
 
 ***
 
@@ -87,7 +87,7 @@ default value: live
 
 #### Defined in
 
-main.ts:111531
+main.ts:108665
 
 ***
 
@@ -106,7 +106,7 @@ default value: false
 
 #### Defined in
 
-main.ts:111507
+main.ts:108641
 
 ***
 
@@ -129,7 +129,7 @@ default value:
 
 #### Defined in
 
-main.ts:111502
+main.ts:108636
 
 ***
 
@@ -152,7 +152,7 @@ en
 
 #### Defined in
 
-main.ts:111493
+main.ts:108627
 
 ***
 
@@ -175,7 +175,7 @@ English
 
 #### Defined in
 
-main.ts:111484
+main.ts:108618
 
 ***
 
@@ -194,7 +194,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:111512
+main.ts:108646
 
 ***
 
@@ -213,7 +213,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-main.ts:111522
+main.ts:108656
 
 ***
 
@@ -237,7 +237,7 @@ example:
 
 #### Defined in
 
-main.ts:111475
+main.ts:108609
 
 ***
 
@@ -261,7 +261,7 @@ United States
 
 #### Defined in
 
-main.ts:111465
+main.ts:108599
 
 ***
 
@@ -280,7 +280,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:111517
+main.ts:108651
 
 ***
 
@@ -310,7 +310,7 @@ example:
 
 #### Defined in
 
-main.ts:111567
+main.ts:108701
 
 ***
 
@@ -330,7 +330,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:111573
+main.ts:108707
 
 ***
 
@@ -354,7 +354,7 @@ example:
 
 #### Defined in
 
-main.ts:111455
+main.ts:108589
 
 ## Methods
 
@@ -372,7 +372,7 @@ main.ts:111455
 
 #### Defined in
 
-main.ts:111586
+main.ts:108720
 
 ***
 
@@ -390,7 +390,7 @@ main.ts:111586
 
 #### Defined in
 
-main.ts:111628
+main.ts:108762
 
 ***
 
@@ -408,4 +408,4 @@ main.ts:111628
 
 #### Defined in
 
-main.ts:111621
+main.ts:108755

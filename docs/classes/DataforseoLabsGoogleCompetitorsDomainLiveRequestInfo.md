@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
 # Class: DataforseoLabsGoogleCompetitorsDomainLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:94164
+main.ts:92804
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:94148
+main.ts:92788
 
 ***
 
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:94094
+main.ts:92734
 
 ***
 
@@ -115,7 +115,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:94080
+main.ts:92720
 
 ***
 
@@ -135,7 +135,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:94154
+main.ts:92794
 
 ***
 
@@ -158,7 +158,7 @@ default value:
 
 #### Defined in
 
-main.ts:94073
+main.ts:92713
 
 ***
 
@@ -180,7 +180,7 @@ en
 
 #### Defined in
 
-main.ts:94064
+main.ts:92704
 
 ***
 
@@ -202,7 +202,7 @@ English
 
 #### Defined in
 
-main.ts:94056
+main.ts:92696
 
 ***
 
@@ -221,7 +221,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:94116
+main.ts:92756
 
 ***
 
@@ -243,7 +243,7 @@ example:
 
 #### Defined in
 
-main.ts:94048
+main.ts:92688
 
 ***
 
@@ -265,7 +265,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:94040
+main.ts:92680
 
 ***
 
@@ -284,7 +284,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Defined in
 
-main.ts:94126
+main.ts:92766
 
 ***
 
@@ -303,7 +303,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:94121
+main.ts:92761
 
 ***
 
@@ -334,7 +334,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:94111
+main.ts:92751
 
 ***
 
@@ -354,7 +354,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:94160
+main.ts:92800
 
 ***
 
@@ -373,7 +373,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:94032
+main.ts:92672
 
 ## Methods
 
@@ -391,7 +391,7 @@ main.ts:94032
 
 #### Defined in
 
-main.ts:94173
+main.ts:92813
 
 ***
 
@@ -409,7 +409,7 @@ main.ts:94173
 
 #### Defined in
 
-main.ts:94220
+main.ts:92860
 
 ***
 
@@ -427,4 +427,4 @@ main.ts:94220
 
 #### Defined in
 
-main.ts:94213
+main.ts:92853

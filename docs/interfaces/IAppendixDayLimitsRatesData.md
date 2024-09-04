@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixDayLimitsRatesData
+[Documentation](../globals.md) / IAppendixDayLimitsRatesData
 
 # Interface: IAppendixDayLimitsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:222461
+main.ts:217721
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:222461
 
 #### Defined in
 
-main.ts:222447
+main.ts:217707
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:222447
 
 #### Defined in
 
-main.ts:222459
+main.ts:217719
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:222459
 
 #### Defined in
 
-main.ts:222457
+main.ts:217717
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:222457
 
 #### Defined in
 
-main.ts:222463
+main.ts:217723
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:222463
 
 #### Defined in
 
-main.ts:222465
+main.ts:217725
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:222465
 
 #### Defined in
 
-main.ts:222449
+main.ts:217709
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:222449
 
 #### Defined in
 
-main.ts:222451
+main.ts:217711
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:222451
 
 #### Defined in
 
-main.ts:222445
+main.ts:217705
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:222445
 
 #### Defined in
 
-main.ts:222453
+main.ts:217713
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:222453
 
 #### Defined in
 
-main.ts:222455
+main.ts:217715
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:222455
 
 #### Defined in
 
-main.ts:222441
+main.ts:217701
 
 ***
 
@@ -140,7 +140,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:222443
+main.ts:217703
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:222443
 
 #### Defined in
 
-main.ts:222462
+main.ts:217722
 
 ***
 
@@ -160,7 +160,7 @@ main.ts:222462
 
 #### Defined in
 
-main.ts:222448
+main.ts:217708
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:222448
 
 #### Defined in
 
-main.ts:222460
+main.ts:217720
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:222460
 
 #### Defined in
 
-main.ts:222458
+main.ts:217718
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:222458
 
 #### Defined in
 
-main.ts:222464
+main.ts:217724
 
 ***
 
@@ -200,7 +200,7 @@ main.ts:222464
 
 #### Defined in
 
-main.ts:222466
+main.ts:217726
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:222466
 
 #### Defined in
 
-main.ts:222450
+main.ts:217710
 
 ***
 
@@ -220,7 +220,7 @@ main.ts:222450
 
 #### Defined in
 
-main.ts:222452
+main.ts:217712
 
 ***
 
@@ -230,7 +230,7 @@ main.ts:222452
 
 #### Defined in
 
-main.ts:222446
+main.ts:217706
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:222446
 
 #### Defined in
 
-main.ts:222454
+main.ts:217714
 
 ***
 
@@ -250,7 +250,7 @@ main.ts:222454
 
 #### Defined in
 
-main.ts:222456
+main.ts:217716
 
 ***
 
@@ -260,7 +260,7 @@ main.ts:222456
 
 #### Defined in
 
-main.ts:222467
+main.ts:217727
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:222467
 
 #### Defined in
 
-main.ts:222444
+main.ts:217704
 
 ***
 
@@ -280,7 +280,7 @@ main.ts:222444
 
 #### Defined in
 
-main.ts:222468
+main.ts:217728
 
 ***
 
@@ -290,4 +290,4 @@ main.ts:222468
 
 #### Defined in
 
-main.ts:222469
+main.ts:217729

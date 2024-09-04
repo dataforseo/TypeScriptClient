@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
 # Class: AppendixWhoisDomainAnalyticsLimitsRatesDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:221025
+main.ts:216285
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:221025
 
 #### Defined in
 
-main.ts:221021
+main.ts:216281
 
 ## Methods
 
@@ -62,7 +62,7 @@ main.ts:221021
 
 #### Defined in
 
-main.ts:221034
+main.ts:216294
 
 ***
 
@@ -80,7 +80,7 @@ main.ts:221034
 
 #### Defined in
 
-main.ts:221051
+main.ts:216311
 
 ***
 
@@ -98,4 +98,4 @@ main.ts:221051
 
 #### Defined in
 
-main.ts:221044
+main.ts:216304

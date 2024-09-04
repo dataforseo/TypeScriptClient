@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationTextSummaryLanguagesResultInfo
+[Documentation](../globals.md) / ContentGenerationTextSummaryLanguagesResultInfo
 
 # Class: ContentGenerationTextSummaryLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:176230
+main.ts:172160
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:176226
+main.ts:172156
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:176224
+main.ts:172154
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:176224
 
 #### Defined in
 
-main.ts:176239
+main.ts:172169
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:176239
 
 #### Defined in
 
-main.ts:176257
+main.ts:172187
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:176257
 
 #### Defined in
 
-main.ts:176250
+main.ts:172180

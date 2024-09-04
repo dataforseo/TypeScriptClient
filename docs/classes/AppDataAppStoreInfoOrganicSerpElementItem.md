@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppStoreInfoOrganicSerpElementItem
+[Documentation](../globals.md) / AppDataAppStoreInfoOrganicSerpElementItem
 
 # Class: AppDataAppStoreInfoOrganicSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:198738
+main.ts:194179
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:198738
 
 #### Defined in
 
-main.ts:21701
+main.ts:21983
 
 ***
 
@@ -68,7 +68,7 @@ age rating and age-based content advisories
 
 #### Defined in
 
-main.ts:198700
+main.ts:194141
 
 ***
 
@@ -84,7 +84,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:198676
+main.ts:194121
 
 ***
 
@@ -100,7 +100,7 @@ all relevant categories/genres of the app
 
 #### Defined in
 
-main.ts:198696
+main.ts:194137
 
 ***
 
@@ -116,7 +116,7 @@ description of the app
 
 #### Defined in
 
-main.ts:198684
+main.ts:194127
 
 ***
 
@@ -132,7 +132,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:198702
+main.ts:194143
 
 ***
 
@@ -148,7 +148,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:198704
+main.ts:194145
 
 ***
 
@@ -164,7 +164,7 @@ URL to the developer page on App Store
 
 #### Defined in
 
-main.ts:198706
+main.ts:194147
 
 ***
 
@@ -180,7 +180,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:198682
+main.ts:194125
 
 ***
 
@@ -197,7 +197,7 @@ contains URLs to the images used on the app page on App Store
 
 #### Defined in
 
-main.ts:198728
+main.ts:194169
 
 ***
 
@@ -213,7 +213,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:198692
+main.ts:194133
 
 ***
 
@@ -229,7 +229,7 @@ languages supported in the app
 
 #### Defined in
 
-main.ts:198698
+main.ts:194139
 
 ***
 
@@ -248,7 +248,7 @@ example:
 
 #### Defined in
 
-main.ts:198722
+main.ts:194163
 
 ***
 
@@ -264,7 +264,7 @@ main category/genre of the app
 
 #### Defined in
 
-main.ts:198694
+main.ts:194135
 
 ***
 
@@ -280,7 +280,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:198710
+main.ts:194151
 
 ***
 
@@ -297,7 +297,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:198734
+main.ts:194175
 
 ***
 
@@ -306,15 +306,20 @@ main.ts:198734
 > `optional` **position**: `string`
 
 the alignment of the element in SERP
-can take the following values: left
+can take the following values:
+left, right
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`position`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`position`](BaseAppDataSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:198674
+main.ts:21977
 
 ***
 
@@ -330,7 +335,7 @@ price of the app
 
 #### Defined in
 
-main.ts:198690
+main.ts:194131
 
 ***
 
@@ -338,16 +343,20 @@ main.ts:198690
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed apps
-absolute position among all apps on the list
+absolute rank in SERP
+absolute position among all the elements in SERP
 
 #### Implementation of
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_absolute`](BaseAppDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:198671
+main.ts:21973
 
 ***
 
@@ -362,9 +371,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`rank_group`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_group`](BaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:198668
+main.ts:21970
 
 ***
 
@@ -378,9 +391,13 @@ average rating of the app
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`rating`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#rating)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rating`](BaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:198688
+main.ts:21981
 
 ***
 
@@ -399,7 +416,7 @@ example:
 
 #### Defined in
 
-main.ts:198717
+main.ts:194158
 
 ***
 
@@ -415,7 +432,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:198686
+main.ts:194129
 
 ***
 
@@ -432,7 +449,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:198731
+main.ts:194172
 
 ***
 
@@ -448,7 +465,7 @@ size of the app
 
 #### Defined in
 
-main.ts:198712
+main.ts:194153
 
 ***
 
@@ -462,9 +479,33 @@ title of the app
 
 [`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`title`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#title)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`title`](BaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:198678
+main.ts:21979
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAppDataAppStoreInfoOrganicSerpElementItem`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md).[`type`](../interfaces/IAppDataAppStoreInfoOrganicSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`type`](BaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21967
 
 ***
 
@@ -481,7 +522,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:198725
+main.ts:194166
 
 ***
 
@@ -497,7 +538,7 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:198680
+main.ts:194123
 
 ***
 
@@ -513,7 +554,7 @@ current version of the app
 
 #### Defined in
 
-main.ts:198708
+main.ts:194149
 
 ## Methods
 
@@ -535,7 +576,7 @@ main.ts:198708
 
 #### Defined in
 
-main.ts:198743
+main.ts:194184
 
 ***
 
@@ -557,7 +598,7 @@ main.ts:198743
 
 #### Defined in
 
-main.ts:198812
+main.ts:194248
 
 ***
 
@@ -579,4 +620,4 @@ main.ts:198812
 
 #### Defined in
 
-main.ts:198805
+main.ts:194241

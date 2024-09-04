@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixOnPagePriceData
+[Documentation](../globals.md) / IAppendixOnPagePriceData
 
 # Interface: IAppendixOnPagePriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:228248
+main.ts:223508
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:228248
 
 #### Defined in
 
-main.ts:228249
+main.ts:223509
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:228249
 
 #### Defined in
 
-main.ts:228250
+main.ts:223510
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:228250
 
 #### Defined in
 
-main.ts:228251
+main.ts:223511
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:228251
 
 #### Defined in
 
-main.ts:228246
+main.ts:223506
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:228246
 
 #### Defined in
 
-main.ts:228252
+main.ts:223512
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:228252
 
 #### Defined in
 
-main.ts:228253
+main.ts:223513
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:228253
 
 #### Defined in
 
-main.ts:228247
+main.ts:223507
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:228247
 
 #### Defined in
 
-main.ts:228254
+main.ts:223514
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:228254
 
 #### Defined in
 
-main.ts:228255
+main.ts:223515
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:228255
 
 #### Defined in
 
-main.ts:228258
+main.ts:223518
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:228258
 
 #### Defined in
 
-main.ts:228256
+main.ts:223516
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:228256
 
 #### Defined in
 
-main.ts:228257
+main.ts:223517
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:228257
 
 #### Defined in
 
-main.ts:228259
+main.ts:223519
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:228259
 
 #### Defined in
 
-main.ts:228260
+main.ts:223520
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:228260
 
 #### Defined in
 
-main.ts:228261
+main.ts:223521
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:228261
 
 #### Defined in
 
-main.ts:228262
+main.ts:223522
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:228262
 
 #### Defined in
 
-main.ts:228263
+main.ts:223523
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:228263
 
 #### Defined in
 
-main.ts:228264
+main.ts:223524
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:228264
 
 #### Defined in
 
-main.ts:228265
+main.ts:223525

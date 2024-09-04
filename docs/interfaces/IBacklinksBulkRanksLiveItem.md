@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksBulkRanksLiveItem
+[Documentation](../globals.md) / IBacklinksBulkRanksLiveItem
 
 # Interface: IBacklinksBulkRanksLiveItem
 
@@ -23,7 +23,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:152257
+main.ts:149123
 
 ***
 
@@ -35,4 +35,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:152252
+main.ts:149118

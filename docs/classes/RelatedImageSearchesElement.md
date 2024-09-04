@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RelatedImageSearchesElement
+[Documentation](../globals.md) / RelatedImageSearchesElement
 
 # Class: RelatedImageSearchesElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:30522
+main.ts:30278
 
 ## Properties
 
@@ -46,7 +46,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:30513
+main.ts:30269
 
 ***
 
@@ -63,7 +63,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:30518
+main.ts:30274
 
 ***
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30511
+main.ts:30267
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:30509
+main.ts:30265
 
 ***
 
@@ -111,7 +111,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:30515
+main.ts:30271
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:30515
 
 #### Defined in
 
-main.ts:30531
+main.ts:30287
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:30531
 
 #### Defined in
 
-main.ts:30552
+main.ts:30308
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:30552
 
 #### Defined in
 
-main.ts:30545
+main.ts:30301

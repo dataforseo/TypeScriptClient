@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageRawHtmlRequestInfo
+[Documentation](../globals.md) / IOnPageRawHtmlRequestInfo
 
 # Interface: IOnPageRawHtmlRequestInfo
 
@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:164518
+main.ts:160448
 
 ***
 
@@ -39,4 +39,4 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 #### Defined in
 
-main.ts:164523
+main.ts:160453

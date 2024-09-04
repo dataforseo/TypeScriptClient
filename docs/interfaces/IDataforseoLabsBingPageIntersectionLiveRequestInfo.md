@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingPageIntersectionLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsBingPageIntersectionLiveRequestInfo
 
 # Interface: IDataforseoLabsBingPageIntersectionLiveRequestInfo
 
@@ -31,7 +31,7 @@ example:
 
 #### Defined in
 
-main.ts:111007
+main.ts:108141
 
 ***
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:111102
+main.ts:108236
 
 ***
 
@@ -76,7 +76,7 @@ default value: false
 
 #### Defined in
 
-main.ts:111054
+main.ts:108188
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:111082
+main.ts:108216
 
 ***
 
@@ -106,7 +106,7 @@ default value: true
 
 #### Defined in
 
-main.ts:111069
+main.ts:108203
 
 ***
 
@@ -124,7 +124,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:111077
+main.ts:108211
 
 ***
 
@@ -142,7 +142,7 @@ default value:
 
 #### Defined in
 
-main.ts:111049
+main.ts:108183
 
 ***
 
@@ -160,7 +160,7 @@ en
 
 #### Defined in
 
-main.ts:111041
+main.ts:108175
 
 ***
 
@@ -178,7 +178,7 @@ English
 
 #### Defined in
 
-main.ts:111033
+main.ts:108167
 
 ***
 
@@ -193,7 +193,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:111059
+main.ts:108193
 
 ***
 
@@ -212,7 +212,7 @@ example:
 
 #### Defined in
 
-main.ts:111025
+main.ts:108159
 
 ***
 
@@ -231,7 +231,7 @@ United States
 
 #### Defined in
 
-main.ts:111016
+main.ts:108150
 
 ***
 
@@ -246,7 +246,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:111064
+main.ts:108198
 
 ***
 
@@ -272,7 +272,7 @@ example:
 
 #### Defined in
 
-main.ts:111118
+main.ts:108252
 
 ***
 
@@ -307,7 +307,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:110994
+main.ts:108128
 
 ***
 
@@ -323,4 +323,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:111124
+main.ts:108258

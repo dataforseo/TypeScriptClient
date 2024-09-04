@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksBulkBacklinksLiveItem
+[Documentation](../globals.md) / IBacklinksBulkBacklinksLiveItem
 
 # Interface: IBacklinksBulkBacklinksLiveItem
 
@@ -20,7 +20,7 @@ number of backlinks pointing to the target
 
 #### Defined in
 
-main.ts:152593
+main.ts:149459
 
 ***
 
@@ -32,4 +32,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:152591
+main.ts:149457

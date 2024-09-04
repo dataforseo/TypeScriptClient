@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsStatusResultInfo
+[Documentation](../globals.md) / DataforseoLabsStatusResultInfo
 
 # Class: DataforseoLabsStatusResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:81919
+main.ts:80591
 
 ## Properties
 
@@ -46,7 +46,7 @@ update information for the Amazon endpoints
 
 #### Defined in
 
-main.ts:81915
+main.ts:80587
 
 ***
 
@@ -62,7 +62,7 @@ update information for the Bing endpoints
 
 #### Defined in
 
-main.ts:81913
+main.ts:80585
 
 ***
 
@@ -78,7 +78,7 @@ update information for the Google endpoints
 
 #### Defined in
 
-main.ts:81911
+main.ts:80583
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:81911
 
 #### Defined in
 
-main.ts:81928
+main.ts:80600
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:81928
 
 #### Defined in
 
-main.ts:81947
+main.ts:80619
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:81947
 
 #### Defined in
 
-main.ts:81940
+main.ts:80612

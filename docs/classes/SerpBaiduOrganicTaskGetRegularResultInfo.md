@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduOrganicTaskGetRegularResultInfo
+[Documentation](../globals.md) / SerpBaiduOrganicTaskGetRegularResultInfo
 
 # Class: SerpBaiduOrganicTaskGetRegularResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:71628
+main.ts:70334
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:71605
+main.ts:70311
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:71610
+main.ts:70316
 
 ***
 
@@ -85,7 +85,7 @@ organic, paid
 
 #### Defined in
 
-main.ts:71618
+main.ts:70324
 
 ***
 
@@ -101,7 +101,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:71624
+main.ts:70330
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:71622
+main.ts:70328
 
 ***
 
@@ -134,7 +134,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:71594
+main.ts:70300
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:71602
+main.ts:70308
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:71600
+main.ts:70306
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:71598
+main.ts:70304
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:71620
+main.ts:70326
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:71613
+main.ts:70319
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:71596
+main.ts:70302
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:71596
 
 #### Defined in
 
-main.ts:71637
+main.ts:70343
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:71637
 
 #### Defined in
 
-main.ts:71673
+main.ts:70379
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:71673
 
 #### Defined in
 
-main.ts:71666
+main.ts:70372

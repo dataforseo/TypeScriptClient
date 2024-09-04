@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksDomainIntersectionInfo
+[Documentation](../globals.md) / BacklinksDomainIntersectionInfo
 
 # Class: BacklinksDomainIntersectionInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:149542
+main.ts:146408
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates the number of backlinks
 
 #### Defined in
 
-main.ts:149483
+main.ts:146349
 
 ***
 
@@ -63,7 +63,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:149497
+main.ts:146363
 
 ***
 
@@ -79,7 +79,7 @@ number of broken backlinks
 
 #### Defined in
 
-main.ts:149499
+main.ts:146365
 
 ***
 
@@ -95,7 +95,7 @@ number of broken pages
 
 #### Defined in
 
-main.ts:149501
+main.ts:146367
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:149488
+main.ts:146354
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:149494
+main.ts:146360
 
 ***
 
@@ -153,7 +153,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:149481
+main.ts:146347
 
 ***
 
@@ -169,7 +169,7 @@ number of referring domains
 
 #### Defined in
 
-main.ts:149503
+main.ts:146369
 
 ***
 
@@ -185,7 +185,7 @@ number of domains pointing at least one nofollow link to the corresponding targe
 
 #### Defined in
 
-main.ts:149505
+main.ts:146371
 
 ***
 
@@ -201,7 +201,7 @@ number of referring IP addresses
 
 #### Defined in
 
-main.ts:149511
+main.ts:146377
 
 ***
 
@@ -222,7 +222,7 @@ indicates link attributes of the referring links and the link count per each att
 
 #### Defined in
 
-main.ts:149528
+main.ts:146394
 
 ***
 
@@ -243,7 +243,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:149538
+main.ts:146404
 
 ***
 
@@ -264,7 +264,7 @@ indicates referring platform types and link count per each platform
 
 #### Defined in
 
-main.ts:149531
+main.ts:146397
 
 ***
 
@@ -286,7 +286,7 @@ you can get the full list of semantic elements here
 
 #### Defined in
 
-main.ts:149535
+main.ts:146401
 
 ***
 
@@ -307,7 +307,7 @@ contains top-level domains and referring link count per each
 
 #### Defined in
 
-main.ts:149520
+main.ts:146386
 
 ***
 
@@ -330,7 +330,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:149525
+main.ts:146391
 
 ***
 
@@ -346,7 +346,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:149507
+main.ts:146373
 
 ***
 
@@ -362,7 +362,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:149509
+main.ts:146375
 
 ***
 
@@ -378,7 +378,7 @@ indicates the number of pages pointing to the target
 
 #### Defined in
 
-main.ts:149515
+main.ts:146381
 
 ***
 
@@ -394,7 +394,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:149517
+main.ts:146383
 
 ***
 
@@ -410,7 +410,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:149513
+main.ts:146379
 
 ***
 
@@ -426,7 +426,7 @@ domain that links to the corresponding target from the POST array
 
 #### Defined in
 
-main.ts:149476
+main.ts:146342
 
 ***
 
@@ -442,7 +442,7 @@ type of element
 
 #### Defined in
 
-main.ts:149474
+main.ts:146340
 
 ## Methods
 
@@ -460,7 +460,7 @@ main.ts:149474
 
 #### Defined in
 
-main.ts:149551
+main.ts:146417
 
 ***
 
@@ -478,7 +478,7 @@ main.ts:149551
 
 #### Defined in
 
-main.ts:149626
+main.ts:146492
 
 ***
 
@@ -496,4 +496,4 @@ main.ts:149626
 
 #### Defined in
 
-main.ts:149619
+main.ts:146485

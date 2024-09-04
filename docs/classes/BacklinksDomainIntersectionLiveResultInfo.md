@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksDomainIntersectionLiveResultInfo
+[Documentation](../globals.md) / BacklinksDomainIntersectionLiveResultInfo
 
 # Class: BacklinksDomainIntersectionLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:149898
+main.ts:146764
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains domain that link to all targets from the POST array
 
 #### Defined in
 
-main.ts:149894
+main.ts:146760
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:149892
+main.ts:146758
 
 ***
 
@@ -82,7 +82,7 @@ target domains, subdomains or webpages in a POST array
 
 #### Defined in
 
-main.ts:149888
+main.ts:146754
 
 ***
 
@@ -98,7 +98,7 @@ total amount of results relevant to your request
 
 #### Defined in
 
-main.ts:149890
+main.ts:146756
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:149890
 
 #### Defined in
 
-main.ts:149907
+main.ts:146773
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:149907
 
 #### Defined in
 
-main.ts:149937
+main.ts:146803
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:149937
 
 #### Defined in
 
-main.ts:149930
+main.ts:146796

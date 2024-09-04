@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
+[Documentation](../globals.md) / IAppDataGooglePlaySearchOrganicSerpElementItem
 
 # Interface: IAppDataGooglePlaySearchOrganicSerpElementItem
 
@@ -24,7 +24,7 @@ id of the app
 
 #### Defined in
 
-main.ts:115072
+main.ts:112172
 
 ***
 
@@ -36,7 +36,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:115088
+main.ts:112184
 
 ***
 
@@ -48,7 +48,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:115090
+main.ts:112186
 
 ***
 
@@ -60,7 +60,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:115078
+main.ts:112176
 
 ***
 
@@ -72,7 +72,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:115084
+main.ts:112180
 
 ***
 
@@ -84,9 +84,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`position`](IBaseAppDataSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:115070
+main.ts:22068
 
 ***
 
@@ -98,7 +102,7 @@ price of the app
 
 #### Defined in
 
-main.ts:115086
+main.ts:112182
 
 ***
 
@@ -109,9 +113,13 @@ main.ts:115086
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_absolute`](IBaseAppDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:115066
+main.ts:22064
 
 ***
 
@@ -122,9 +130,13 @@ main.ts:115066
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rank_group`](IBaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:115063
+main.ts:22061
 
 ***
 
@@ -134,9 +146,13 @@ main.ts:115063
 
 average rating of the app
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`rating`](IBaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:115082
+main.ts:22072
 
 ***
 
@@ -148,7 +164,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:115080
+main.ts:112178
 
 ***
 
@@ -158,9 +174,29 @@ main.ts:115080
 
 title of the app
 
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`title`](IBaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:115074
+main.ts:22070
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAppDataSerpElementItem`](IBaseAppDataSerpElementItem.md).[`type`](IBaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22058
 
 ***
 
@@ -172,4 +208,4 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:115076
+main.ts:112174

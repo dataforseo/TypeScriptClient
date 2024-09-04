@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisSentimentAnalysisLiveResultInfo
+[Documentation](../globals.md) / ContentAnalysisSentimentAnalysisLiveResultInfo
 
 # Class: ContentAnalysisSentimentAnalysisLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:171722
+main.ts:167652
 
 ## Properties
 
@@ -48,7 +48,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:171714
+main.ts:167644
 
 ***
 
@@ -66,7 +66,7 @@ possible sentiment connotation types: anger, happiness, love, sadness, share, fu
 
 #### Defined in
 
-main.ts:171718
+main.ts:167648
 
 ***
 
@@ -82,7 +82,7 @@ type of element
 
 #### Defined in
 
-main.ts:171710
+main.ts:167640
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:171710
 
 #### Defined in
 
-main.ts:171731
+main.ts:167661
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:171731
 
 #### Defined in
 
-main.ts:171750
+main.ts:167680
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:171750
 
 #### Defined in
 
-main.ts:171743
+main.ts:167673

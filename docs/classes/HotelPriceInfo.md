@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelPriceInfo
+[Documentation](../globals.md) / HotelPriceInfo
 
 # Class: HotelPriceInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:208634
+main.ts:203972
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:208619
+main.ts:203957
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:208624
+main.ts:203962
 
 ***
 
@@ -85,7 +85,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:208612
+main.ts:203950
 
 ***
 
@@ -101,7 +101,7 @@ text about a discount applied
 
 #### Defined in
 
-main.ts:208614
+main.ts:203952
 
 ***
 
@@ -119,7 +119,7 @@ possible item types: hotel_search_item
 
 #### Defined in
 
-main.ts:208630
+main.ts:203968
 
 ***
 
@@ -135,7 +135,7 @@ price per night
 
 #### Defined in
 
-main.ts:208607
+main.ts:203945
 
 ***
 
@@ -151,7 +151,7 @@ full price per night without a discount applied
 
 #### Defined in
 
-main.ts:208609
+main.ts:203947
 
 ***
 
@@ -167,7 +167,7 @@ number of hotel visitors for this price
 
 #### Defined in
 
-main.ts:208626
+main.ts:203964
 
 ## Methods
 
@@ -185,7 +185,7 @@ main.ts:208626
 
 #### Defined in
 
-main.ts:208643
+main.ts:203981
 
 ***
 
@@ -203,7 +203,7 @@ main.ts:208643
 
 #### Defined in
 
-main.ts:208671
+main.ts:204009
 
 ***
 
@@ -221,4 +221,4 @@ main.ts:208671
 
 #### Defined in
 
-main.ts:208664
+main.ts:204002

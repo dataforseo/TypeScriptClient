@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MathSolverExpandedElement
+[Documentation](../globals.md) / MathSolverExpandedElement
 
 # Class: MathSolverExpandedElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:35812
+main.ts:34466
 
 ## Properties
 
@@ -47,7 +47,7 @@ displays steps to solve the mathematical equation as specified in the element
 
 #### Defined in
 
-main.ts:35808
+main.ts:34462
 
 ***
 
@@ -63,7 +63,7 @@ title of the carousel item
 
 #### Defined in
 
-main.ts:35805
+main.ts:34459
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Defined in
 
-main.ts:35803
+main.ts:34457
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:35803
 
 #### Defined in
 
-main.ts:35821
+main.ts:34475
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:35821
 
 #### Defined in
 
-main.ts:35844
+main.ts:34498
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:35844
 
 #### Defined in
 
-main.ts:35837
+main.ts:34491

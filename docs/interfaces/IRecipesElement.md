@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRecipesElement
+[Documentation](../globals.md) / IRecipesElement
 
 # Interface: IRecipesElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:33319
+main.ts:32467
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:33314
+main.ts:32462
 
 ***
 
@@ -45,7 +45,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33324
+main.ts:32472
 
 ***
 
@@ -58,7 +58,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:33317
+main.ts:32465
 
 ***
 
@@ -70,7 +70,7 @@ the total time it takes to prepare the cook the dish
 
 #### Defined in
 
-main.ts:33321
+main.ts:32469
 
 ***
 
@@ -82,7 +82,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33310
+main.ts:32458
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:33308
+main.ts:32456
 
 ***
 
@@ -106,4 +106,4 @@ URL
 
 #### Defined in
 
-main.ts:33312
+main.ts:32460

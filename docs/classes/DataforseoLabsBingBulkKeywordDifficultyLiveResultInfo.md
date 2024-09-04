@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
 # Class: DataforseoLabsBingBulkKeywordDifficultyLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:108583
+main.ts:105717
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-main.ts:108579
+main.ts:105713
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:108577
+main.ts:105711
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:108573
+main.ts:105707
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:108570
+main.ts:105704
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:108567
+main.ts:105701
 
 ***
 
@@ -128,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:108575
+main.ts:105709
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:108575
 
 #### Defined in
 
-main.ts:108592
+main.ts:105726
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:108592
 
 #### Defined in
 
-main.ts:108618
+main.ts:105752
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:108618
 
 #### Defined in
 
-main.ts:108611
+main.ts:105745

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageKeywordDensityItem
+[Documentation](../globals.md) / IOnPageKeywordDensityItem
 
 # Interface: IOnPageKeywordDensityItem
 
@@ -21,7 +21,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 #### Defined in
 
-main.ts:163685
+main.ts:159615
 
 ***
 
@@ -34,7 +34,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 #### Defined in
 
-main.ts:163682
+main.ts:159612
 
 ***
 
@@ -46,4 +46,4 @@ returned keyword
 
 #### Defined in
 
-main.ts:163679
+main.ts:159609

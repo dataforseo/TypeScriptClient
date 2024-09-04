@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageResourcesResponseInfo
+[Documentation](../globals.md) / OnPageResourcesResponseInfo
 
 # Class: OnPageResourcesResponseInfo
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:160387
+main.ts:156685
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:23831
+main.ts:24147
 
 ***
 
@@ -79,7 +79,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:23824
+main.ts:24140
 
 ***
 
@@ -100,7 +100,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:23827
+main.ts:24143
 
 ***
 
@@ -116,7 +116,7 @@ array of tasks
 
 #### Defined in
 
-main.ts:160383
+main.ts:156681
 
 ***
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-main.ts:23833
+main.ts:24149
 
 ***
 
@@ -156,7 +156,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-main.ts:23835
+main.ts:24151
 
 ***
 
@@ -176,7 +176,7 @@ total execution time, seconds
 
 #### Defined in
 
-main.ts:23829
+main.ts:24145
 
 ***
 
@@ -196,7 +196,7 @@ the current version of the API
 
 #### Defined in
 
-main.ts:23821
+main.ts:24137
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:23821
 
 #### Defined in
 
-main.ts:160391
+main.ts:156689
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:160391
 
 #### Defined in
 
-main.ts:160413
+main.ts:156711
 
 ***
 
@@ -262,4 +262,4 @@ main.ts:160413
 
 #### Defined in
 
-main.ts:160406
+main.ts:156704

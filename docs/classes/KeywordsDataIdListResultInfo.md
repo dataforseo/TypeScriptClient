@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataIdListResultInfo
+[Documentation](../globals.md) / KeywordsDataIdListResultInfo
 
 # Class: KeywordsDataIdListResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:119093
+main.ts:116151
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:119087
+main.ts:116145
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:119082
+main.ts:116140
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:119077
+main.ts:116135
 
 ***
 
@@ -100,7 +100,7 @@ id of the task
 
 #### Defined in
 
-main.ts:119069
+main.ts:116127
 
 ***
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:119089
+main.ts:116147
 
 ***
 
@@ -137,7 +137,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:119085
+main.ts:116143
 
 ***
 
@@ -154,7 +154,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:119072
+main.ts:116130
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:119072
 
 #### Defined in
 
-main.ts:119102
+main.ts:116160
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:119102
 
 #### Defined in
 
-main.ts:119131
+main.ts:116189
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:119131
 
 #### Defined in
 
-main.ts:119124
+main.ts:116182

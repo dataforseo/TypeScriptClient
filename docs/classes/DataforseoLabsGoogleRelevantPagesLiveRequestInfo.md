@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleRelevantPagesLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleRelevantPagesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleRelevantPagesLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:96082
+main.ts:94722
 
 ## Properties
 
@@ -58,7 +58,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:96055
+main.ts:94695
 
 ***
 
@@ -81,7 +81,7 @@ default value: live
 
 #### Defined in
 
-main.ts:96041
+main.ts:94681
 
 ***
 
@@ -102,7 +102,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:96027
+main.ts:94667
 
 ***
 
@@ -125,7 +125,7 @@ default value:
 
 #### Defined in
 
-main.ts:96015
+main.ts:94655
 
 ***
 
@@ -148,7 +148,7 @@ en
 
 #### Defined in
 
-main.ts:96006
+main.ts:94646
 
 ***
 
@@ -171,7 +171,7 @@ English
 
 #### Defined in
 
-main.ts:95997
+main.ts:94637
 
 ***
 
@@ -190,7 +190,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:96020
+main.ts:94660
 
 ***
 
@@ -213,7 +213,7 @@ example:
 
 #### Defined in
 
-main.ts:95988
+main.ts:94628
 
 ***
 
@@ -236,7 +236,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:95979
+main.ts:94619
 
 ***
 
@@ -255,7 +255,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:96032
+main.ts:94672
 
 ***
 
@@ -286,7 +286,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:96072
+main.ts:94712
 
 ***
 
@@ -306,7 +306,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:96078
+main.ts:94718
 
 ***
 
@@ -325,7 +325,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:95970
+main.ts:94610
 
 ## Methods
 
@@ -343,7 +343,7 @@ main.ts:95970
 
 #### Defined in
 
-main.ts:96091
+main.ts:94731
 
 ***
 
@@ -361,7 +361,7 @@ main.ts:96091
 
 #### Defined in
 
-main.ts:96132
+main.ts:94772
 
 ***
 
@@ -379,4 +379,4 @@ main.ts:96132
 
 #### Defined in
 
-main.ts:96125
+main.ts:94765

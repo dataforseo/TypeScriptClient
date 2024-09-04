@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IQuestionsAndAnswersElement
+[Documentation](../globals.md) / IQuestionsAndAnswersElement
 
 # Interface: IQuestionsAndAnswersElement
 
@@ -20,7 +20,7 @@ answer included in the item
 
 #### Defined in
 
-main.ts:34743
+main.ts:33625
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:34748
+main.ts:33630
 
 ***
 
@@ -44,7 +44,7 @@ question included in the item
 
 #### Defined in
 
-main.ts:34741
+main.ts:33623
 
 ***
 
@@ -57,7 +57,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:34746
+main.ts:33628
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:34737
+main.ts:33619
 
 ***
 
@@ -81,7 +81,7 @@ URL
 
 #### Defined in
 
-main.ts:34739
+main.ts:33621
 
 ***
 
@@ -93,4 +93,4 @@ answer upvotes from the source
 
 #### Defined in
 
-main.ts:34750
+main.ts:33632

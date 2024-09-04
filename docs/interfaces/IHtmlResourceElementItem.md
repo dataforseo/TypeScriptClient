@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHtmlResourceElementItem
+[Documentation](../globals.md) / IHtmlResourceElementItem
 
 # Interface: IHtmlResourceElementItem
 
@@ -24,7 +24,7 @@ indicates whether a page contains broken links
 
 #### Defined in
 
-main.ts:158476
+main.ts:155256
 
 ***
 
@@ -36,7 +36,7 @@ indicates whether a page contains broken resources
 
 #### Defined in
 
-main.ts:158474
+main.ts:155254
 
 ***
 
@@ -46,9 +46,13 @@ main.ts:158474
 
 instructions for caching
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`cache_control`](IBaseOnPageResourceItemInfo.md#cache_control)
+
 #### Defined in
 
-main.ts:158501
+main.ts:21561
 
 ***
 
@@ -63,9 +67,13 @@ on-page check-ups related to the page
 
  \[`key`: `string`\]: `boolean`
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`checks`](IBaseOnPageResourceItemInfo.md#checks)
+
 #### Defined in
 
-main.ts:158504
+main.ts:21564
 
 ***
 
@@ -78,7 +86,7 @@ indicates the number of clicks from the homepage needed before landing at the ta
 
 #### Defined in
 
-main.ts:158485
+main.ts:155265
 
 ***
 
@@ -88,9 +96,13 @@ main.ts:158485
 
 type of encoding
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`content_encoding`](IBaseOnPageResourceItemInfo.md#content_encoding)
+
 #### Defined in
 
-main.ts:158506
+main.ts:21566
 
 ***
 
@@ -104,7 +116,7 @@ note that you should specify a custom_js field when setting a task to receive th
 
 #### Defined in
 
-main.ts:158470
+main.ts:155252
 
 ***
 
@@ -116,7 +128,7 @@ indicates whether a page has duplicate content
 
 #### Defined in
 
-main.ts:158482
+main.ts:155262
 
 ***
 
@@ -128,7 +140,7 @@ indicates whether a page has a duplicate description
 
 #### Defined in
 
-main.ts:158480
+main.ts:155260
 
 ***
 
@@ -140,7 +152,7 @@ indicates whether a page has duplicate title tags
 
 #### Defined in
 
-main.ts:158478
+main.ts:155258
 
 ***
 
@@ -151,9 +163,13 @@ main.ts:158478
 page size after encoding
 indicates the size of the encoded page measured in bytes
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`encoded_size`](IBaseOnPageResourceItemInfo.md#encoded_size)
+
 #### Defined in
 
-main.ts:158491
+main.ts:21551
 
 ***
 
@@ -166,9 +182,13 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
 2019-11-15 12:57:46 +00:00
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`fetch_time`](IBaseOnPageResourceItemInfo.md#fetch_time)
+
 #### Defined in
 
-main.ts:158499
+main.ts:21559
 
 ***
 
@@ -180,7 +200,7 @@ indicates whether a page is a single resource
 
 #### Defined in
 
-main.ts:158512
+main.ts:155267
 
 ***
 
@@ -191,9 +211,13 @@ main.ts:158512
 contains data on changes related to the resource
 if there is no data, the value will be null
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`last_modified`](IBaseOnPageResourceItemInfo.md#last_modified)
+
 #### Defined in
 
-main.ts:158519
+main.ts:21573
 
 ***
 
@@ -204,9 +228,13 @@ main.ts:158519
 location header
 indicates the URL to redirect a page to
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`location`](IBaseOnPageResourceItemInfo.md#location)
+
 #### Defined in
 
-main.ts:158452
+main.ts:21541
 
 ***
 
@@ -216,9 +244,13 @@ main.ts:158452
 
 types of media used to display a page
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`media_type`](IBaseOnPageResourceItemInfo.md#media_type)
+
 #### Defined in
 
-main.ts:158508
+main.ts:21568
 
 ***
 
@@ -231,7 +263,7 @@ the value depends on the resource_type
 
 #### Defined in
 
-main.ts:158457
+main.ts:155239
 
 ***
 
@@ -246,7 +278,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:158464
+main.ts:155246
 
 ***
 
@@ -258,7 +290,7 @@ object of page load metrics
 
 #### Defined in
 
-main.ts:158459
+main.ts:155241
 
 ***
 
@@ -270,7 +302,7 @@ relative URL length in characters
 
 #### Defined in
 
-main.ts:158516
+main.ts:155271
 
 ***
 
@@ -280,9 +312,29 @@ main.ts:158516
 
 resource errors and warnings
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`resource_errors`](IBaseOnPageResourceItemInfo.md#resource_errors)
+
 #### Defined in
 
-main.ts:158472
+main.ts:21545
+
+***
+
+### resource\_type?
+
+> `optional` **resource\_type**: `string`
+
+type of the returned resource
+
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`resource_type`](IBaseOnPageResourceItemInfo.md#resource_type)
+
+#### Defined in
+
+main.ts:21536
 
 ***
 
@@ -292,9 +344,13 @@ main.ts:158472
 
 server version
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`server`](IBaseOnPageResourceItemInfo.md#server)
+
 #### Defined in
 
-main.ts:158510
+main.ts:21570
 
 ***
 
@@ -305,9 +361,13 @@ main.ts:158510
 resource size
 indicates the size of a given page measured in bytes
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`size`](IBaseOnPageResourceItemInfo.md#size)
+
 #### Defined in
 
-main.ts:158488
+main.ts:21548
 
 ***
 
@@ -317,9 +377,13 @@ main.ts:158488
 
 status code of the page
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`status_code`](IBaseOnPageResourceItemInfo.md#status_code)
+
 #### Defined in
 
-main.ts:158449
+main.ts:21538
 
 ***
 
@@ -331,7 +395,7 @@ total DOM size of a page
 
 #### Defined in
 
-main.ts:158466
+main.ts:155248
 
 ***
 
@@ -342,9 +406,13 @@ main.ts:158466
 compressed page size
 indicates the compressed size of a given page
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`total_transfer_size`](IBaseOnPageResourceItemInfo.md#total_transfer_size)
+
 #### Defined in
 
-main.ts:158494
+main.ts:21554
 
 ***
 
@@ -354,9 +422,13 @@ main.ts:158494
 
 page URL
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`url`](IBaseOnPageResourceItemInfo.md#url)
+
 #### Defined in
 
-main.ts:158454
+main.ts:21543
 
 ***
 
@@ -368,4 +440,4 @@ page URL length in characters
 
 #### Defined in
 
-main.ts:158514
+main.ts:155269

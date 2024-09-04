@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleShoppingSponsoredCarouselElement
+[Documentation](../globals.md) / IGoogleShoppingSponsoredCarouselElement
 
 # Interface: IGoogleShoppingSponsoredCarouselElement
 
@@ -22,7 +22,7 @@ USD
 
 #### Defined in
 
-main.ts:179017
+main.ts:174895
 
 ***
 
@@ -35,7 +35,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:179029
+main.ts:174907
 
 ***
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:179013
+main.ts:174891
 
 ***
 
@@ -62,7 +62,7 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-main.ts:179023
+main.ts:174901
 
 ***
 
@@ -75,7 +75,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:179020
+main.ts:174898
 
 ***
 
@@ -88,7 +88,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:179009
+main.ts:174887
 
 ***
 
@@ -101,7 +101,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:179026
+main.ts:174904
 
 ***
 
@@ -113,7 +113,7 @@ tags assigned to the product
 
 #### Defined in
 
-main.ts:179006
+main.ts:174884
 
 ***
 
@@ -125,7 +125,7 @@ product title
 
 #### Defined in
 
-main.ts:179004
+main.ts:174882
 
 ***
 
@@ -137,7 +137,7 @@ type of element
 
 #### Defined in
 
-main.ts:179000
+main.ts:174878
 
 ***
 
@@ -149,4 +149,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:179002
+main.ts:174880

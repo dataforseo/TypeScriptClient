@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AboutThisResultElement
+[Documentation](../globals.md) / AboutThisResultElement
 
 # Class: AboutThisResultElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:21910
+main.ts:22210
 
 ## Properties
 
@@ -46,7 +46,7 @@ the language of the result
 
 #### Defined in
 
-main.ts:21900
+main.ts:22200
 
 ***
 
@@ -62,7 +62,7 @@ location for which the result is relevant
 
 #### Defined in
 
-main.ts:21902
+main.ts:22202
 
 ***
 
@@ -78,7 +78,7 @@ related search terms that appear in the result
 
 #### Defined in
 
-main.ts:21906
+main.ts:22206
 
 ***
 
@@ -94,7 +94,7 @@ matching search terms that appear in the result
 
 #### Defined in
 
-main.ts:21904
+main.ts:22204
 
 ***
 
@@ -110,7 +110,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:21893
+main.ts:22193
 
 ***
 
@@ -127,7 +127,7 @@ description of the website from Wikipedia or another additional context
 
 #### Defined in
 
-main.ts:21896
+main.ts:22196
 
 ***
 
@@ -143,7 +143,7 @@ URL to full information from the 'source'
 
 #### Defined in
 
-main.ts:21898
+main.ts:22198
 
 ***
 
@@ -159,7 +159,7 @@ type of element
 
 #### Defined in
 
-main.ts:21889
+main.ts:22189
 
 ***
 
@@ -175,7 +175,7 @@ result’s URL
 
 #### Defined in
 
-main.ts:21891
+main.ts:22191
 
 ## Methods
 
@@ -193,7 +193,7 @@ main.ts:21891
 
 #### Defined in
 
-main.ts:21919
+main.ts:22219
 
 ***
 
@@ -211,7 +211,7 @@ main.ts:21919
 
 #### Defined in
 
-main.ts:21952
+main.ts:22252
 
 ***
 
@@ -229,4 +229,4 @@ main.ts:21952
 
 #### Defined in
 
-main.ts:21945
+main.ts:22245

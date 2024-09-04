@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRefineProductsElement
+[Documentation](../globals.md) / IRefineProductsElement
 
 # Interface: IRefineProductsElement
 
@@ -20,7 +20,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:37010
+main.ts:35436
 
 ***
 
@@ -32,7 +32,7 @@ keyword for the related refined search
 
 #### Defined in
 
-main.ts:37012
+main.ts:35438
 
 ***
 
@@ -44,7 +44,7 @@ type of search refinement
 
 #### Defined in
 
-main.ts:37014
+main.ts:35440
 
 ***
 
@@ -56,7 +56,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:37008
+main.ts:35434
 
 ***
 
@@ -68,7 +68,7 @@ type of element
 
 #### Defined in
 
-main.ts:37006
+main.ts:35432
 
 ***
 
@@ -80,4 +80,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:37016
+main.ts:35442

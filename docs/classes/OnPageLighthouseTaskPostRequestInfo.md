@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageLighthouseTaskPostRequestInfo
+[Documentation](../globals.md) / OnPageLighthouseTaskPostRequestInfo
 
 # Class: OnPageLighthouseTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:167880
+main.ts:163810
 
 ## Properties
 
@@ -57,7 +57,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:167833
+main.ts:163763
 
 ***
 
@@ -79,7 +79,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:167820
+main.ts:163750
 
 ***
 
@@ -99,7 +99,7 @@ default value: false
 
 #### Defined in
 
-main.ts:167812
+main.ts:163742
 
 ***
 
@@ -119,7 +119,7 @@ en
 
 #### Defined in
 
-main.ts:167850
+main.ts:163780
 
 ***
 
@@ -139,7 +139,7 @@ English
 
 #### Defined in
 
-main.ts:167844
+main.ts:163774
 
 ***
 
@@ -163,7 +163,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:167866
+main.ts:163796
 
 ***
 
@@ -187,7 +187,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:167876
+main.ts:163806
 
 ***
 
@@ -207,7 +207,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:167856
+main.ts:163786
 
 ***
 
@@ -227,7 +227,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:167806
+main.ts:163736
 
 ***
 
@@ -246,7 +246,7 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:167838
+main.ts:163768
 
 ## Methods
 
@@ -264,7 +264,7 @@ main.ts:167838
 
 #### Defined in
 
-main.ts:167889
+main.ts:163819
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:167889
 
 #### Defined in
 
-main.ts:167923
+main.ts:163853
 
 ***
 
@@ -300,4 +300,4 @@ main.ts:167923
 
 #### Defined in
 
-main.ts:167916
+main.ts:163846

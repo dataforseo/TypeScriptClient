@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveResultInfo
 
@@ -20,7 +20,7 @@ starting date of the time range
 
 #### Defined in
 
-main.ts:78876
+main.ts:77548
 
 ***
 
@@ -32,7 +32,7 @@ ending date of the time range
 
 #### Defined in
 
-main.ts:78878
+main.ts:77550
 
 ***
 
@@ -44,7 +44,7 @@ items array
 
 #### Defined in
 
-main.ts:78882
+main.ts:77554
 
 ***
 
@@ -56,7 +56,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:78880
+main.ts:77552
 
 ***
 
@@ -68,4 +68,4 @@ target technology
 
 #### Defined in
 
-main.ts:78874
+main.ts:77546

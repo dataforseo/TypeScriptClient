@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalRankOverviewLiveItem
 
@@ -24,7 +24,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:102686
+main.ts:99836
 
 ***
 
@@ -36,7 +36,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:102684
+main.ts:99834
 
 ***
 
@@ -48,7 +48,7 @@ search engine type
 
 #### Defined in
 
-main.ts:102680
+main.ts:99830
 
 ***
 
@@ -60,4 +60,4 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:102682
+main.ts:99832

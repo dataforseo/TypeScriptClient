@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITableContent
+[Documentation](../globals.md) / ITableContent
 
 # Interface: ITableContent
 
@@ -20,7 +20,7 @@ content of the body of the table
 
 #### Defined in
 
-main.ts:165703
+main.ts:161633
 
 ***
 
@@ -28,11 +28,11 @@ main.ts:165703
 
 > `optional` **footer**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
-content of the footer of the table
+parsed content of the footer
 
 #### Defined in
 
-main.ts:165705
+main.ts:161635
 
 ***
 
@@ -40,8 +40,8 @@ main.ts:165705
 
 > `optional` **header**: [`TableContentItemInfo`](../classes/TableContentItemInfo.md)[]
 
-parsed content of the header
+content of the header of the table
 
 #### Defined in
 
-main.ts:165701
+main.ts:161631

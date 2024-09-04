@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleLocationsCountryResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleLocationsCountryResultInfo
 
 # Interface: IBusinessDataGoogleLocationsCountryResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:204872
+main.ts:200254
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:204862
+main.ts:200244
 
 ***
 
@@ -44,7 +44,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:204864
+main.ts:200246
 
 ***
 
@@ -60,7 +60,7 @@ example:
 
 #### Defined in
 
-main.ts:204870
+main.ts:200252
 
 ***
 
@@ -72,4 +72,4 @@ location type
 
 #### Defined in
 
-main.ts:204874
+main.ts:200256

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataIdListRequestInfo
+[Documentation](../globals.md) / KeywordsDataIdListRequestInfo
 
 # Class: KeywordsDataIdListRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:118981
+main.ts:116039
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:118951
+main.ts:116009
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:118958
+main.ts:116016
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:118977
+main.ts:116035
 
 ***
 
@@ -110,7 +110,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:118963
+main.ts:116021
 
 ***
 
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:118968
+main.ts:116026
 
 ***
 
@@ -148,7 +148,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:118973
+main.ts:116031
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:118973
 
 #### Defined in
 
-main.ts:118990
+main.ts:116048
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:118990
 
 #### Defined in
 
-main.ts:119012
+main.ts:116070
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:119012
 
 #### Defined in
 
-main.ts:119005
+main.ts:116063

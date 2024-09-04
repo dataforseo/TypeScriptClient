@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AbsoluteItems
+[Documentation](../globals.md) / AbsoluteItems
 
 # Class: AbsoluteItems
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:129323
+main.ts:126237
 
 ## Properties
 
@@ -50,7 +50,7 @@ US-NY
 
 #### Defined in
 
-main.ts:129304
+main.ts:126218
 
 ***
 
@@ -70,7 +70,7 @@ Andorra
 
 #### Defined in
 
-main.ts:129310
+main.ts:126224
 
 ***
 
@@ -93,7 +93,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:129319
+main.ts:126233
 
 ## Methods
 
@@ -111,7 +111,7 @@ main.ts:129319
 
 #### Defined in
 
-main.ts:129332
+main.ts:126246
 
 ***
 
@@ -129,7 +129,7 @@ main.ts:129332
 
 #### Defined in
 
-main.ts:129355
+main.ts:126269
 
 ***
 
@@ -147,4 +147,4 @@ main.ts:129355
 
 #### Defined in
 
-main.ts:129348
+main.ts:126262

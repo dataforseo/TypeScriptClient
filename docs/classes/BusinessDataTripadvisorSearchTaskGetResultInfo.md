@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTripadvisorSearchTaskGetResultInfo
+[Documentation](../globals.md) / BusinessDataTripadvisorSearchTaskGetResultInfo
 
 # Class: BusinessDataTripadvisorSearchTaskGetResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:217994
+main.ts:213268
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:217974
+main.ts:213248
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:217979
+main.ts:213253
 
 ***
 
@@ -83,7 +83,7 @@ possible item types: tripadvisor_search_organic
 
 #### Defined in
 
-main.ts:217982
+main.ts:213256
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:217990
+main.ts:213264
 
 ***
 
@@ -117,7 +117,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:217987
+main.ts:213261
 
 ***
 
@@ -134,7 +134,7 @@ this field will contain the alias parameter if it was specified in a POST array
 
 #### Defined in
 
-main.ts:217965
+main.ts:213239
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:217971
+main.ts:213245
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:217969
+main.ts:213243
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:217967
+main.ts:213241
 
 ***
 
@@ -198,7 +198,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:217984
+main.ts:213258
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:217984
 
 #### Defined in
 
-main.ts:218003
+main.ts:213277
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:218003
 
 #### Defined in
 
-main.ts:218037
+main.ts:213311
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:218037
 
 #### Defined in
 
-main.ts:218030
+main.ts:213304

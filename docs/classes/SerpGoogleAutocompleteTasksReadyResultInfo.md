@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleAutocompleteTasksReadyResultInfo
+[Documentation](../globals.md) / SerpGoogleAutocompleteTasksReadyResultInfo
 
 # Class: SerpGoogleAutocompleteTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:53360
+main.ts:51815
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:53345
+main.ts:51800
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:53353
+main.ts:51808
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:53356
+main.ts:51811
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:53350
+main.ts:51805
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:53338
+main.ts:51793
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:53340
+main.ts:51795
 
 ***
 
@@ -147,7 +147,7 @@ example: autocomplete
 
 #### Defined in
 
-main.ts:53343
+main.ts:51798
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:53347
+main.ts:51802
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:53347
 
 #### Defined in
 
-main.ts:53369
+main.ts:51824
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:53369
 
 #### Defined in
 
-main.ts:53393
+main.ts:51848
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:53393
 
 #### Defined in
 
-main.ts:53386
+main.ts:51841

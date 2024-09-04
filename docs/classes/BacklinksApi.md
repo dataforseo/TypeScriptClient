@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksApi
+[Documentation](../globals.md) / BacklinksApi
 
 # Class: BacklinksApi
 

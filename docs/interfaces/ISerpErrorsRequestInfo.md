@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpErrorsRequestInfo
+[Documentation](../globals.md) / ISerpErrorsRequestInfo
 
 # Interface: ISerpErrorsRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:24479
+main.ts:24795
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:24486
+main.ts:24802
 
 ***
 
@@ -58,7 +58,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:24472
+main.ts:24788
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:24461
+main.ts:24777
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:24466
+main.ts:24782

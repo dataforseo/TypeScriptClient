@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageResourceIssueItemInfo
+[Documentation](../globals.md) / OnPageResourceIssueItemInfo
 
 # Class: OnPageResourceIssueItemInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:157986
+main.ts:154852
 
 ## Properties
 
@@ -46,7 +46,7 @@ column where the error was found
 
 #### Defined in
 
-main.ts:157968
+main.ts:154834
 
 ***
 
@@ -62,7 +62,7 @@ line where the error was found
 
 #### Defined in
 
-main.ts:157966
+main.ts:154832
 
 ***
 
@@ -79,7 +79,7 @@ the full list of possible HTML errors can be found here
 
 #### Defined in
 
-main.ts:157971
+main.ts:154837
 
 ***
 
@@ -104,7 +104,7 @@ possible values:
 
 #### Defined in
 
-main.ts:157982
+main.ts:154848
 
 ## Methods
 
@@ -122,7 +122,7 @@ main.ts:157982
 
 #### Defined in
 
-main.ts:157995
+main.ts:154861
 
 ***
 
@@ -140,7 +140,7 @@ main.ts:157995
 
 #### Defined in
 
-main.ts:158015
+main.ts:154881
 
 ***
 
@@ -158,4 +158,4 @@ main.ts:158015
 
 #### Defined in
 
-main.ts:158008
+main.ts:154874

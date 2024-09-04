@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsLocationsAndLanguagesResultInfo
+[Documentation](../globals.md) / IDataforseoLabsLocationsAndLanguagesResultInfo
 
 # Interface: IDataforseoLabsLocationsAndLanguagesResultInfo
 
@@ -21,7 +21,7 @@ contains the languages which are supported for a specific location
 
 #### Defined in
 
-main.ts:83100
+main.ts:81772
 
 ***
 
@@ -33,7 +33,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:83093
+main.ts:81765
 
 ***
 
@@ -45,7 +45,7 @@ location code
 
 #### Defined in
 
-main.ts:83086
+main.ts:81758
 
 ***
 
@@ -58,7 +58,7 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Defined in
 
-main.ts:83091
+main.ts:81763
 
 ***
 
@@ -70,7 +70,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:83088
+main.ts:81760
 
 ***
 
@@ -84,4 +84,4 @@ Country
 
 #### Defined in
 
-main.ts:83097
+main.ts:81769

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelAboutInfo
+[Documentation](../globals.md) / HotelAboutInfo
 
 # Class: HotelAboutInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:210371
+main.ts:205709
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about hotel amenities
 
 #### Defined in
 
-main.ts:210364
+main.ts:205702
 
 ***
 
@@ -64,7 +64,7 @@ check-in time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:210349
+main.ts:205687
 
 ***
 
@@ -81,7 +81,7 @@ check-out time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:210352
+main.ts:205690
 
 ***
 
@@ -98,7 +98,7 @@ the description of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:210343
+main.ts:205681
 
 ***
 
@@ -115,7 +115,7 @@ domain of the hotel’s website
 
 #### Defined in
 
-main.ts:210358
+main.ts:205696
 
 ***
 
@@ -132,7 +132,7 @@ address of the hotel indicated in the standardised format
 
 #### Defined in
 
-main.ts:210355
+main.ts:205693
 
 ***
 
@@ -149,7 +149,7 @@ information about hotel amenities labelled as “popular”
 
 #### Defined in
 
-main.ts:210367
+main.ts:205705
 
 ***
 
@@ -166,7 +166,7 @@ details about the hotel provided in addition to the description
 
 #### Defined in
 
-main.ts:210346
+main.ts:205684
 
 ***
 
@@ -183,7 +183,7 @@ URL to the hotel’s website indicated in the listing
 
 #### Defined in
 
-main.ts:210361
+main.ts:205699
 
 ## Methods
 
@@ -201,7 +201,7 @@ main.ts:210361
 
 #### Defined in
 
-main.ts:210380
+main.ts:205718
 
 ***
 
@@ -219,7 +219,7 @@ main.ts:210380
 
 #### Defined in
 
-main.ts:210417
+main.ts:205755
 
 ***
 
@@ -237,4 +237,4 @@ main.ts:210417
 
 #### Defined in
 
-main.ts:210410
+main.ts:205748

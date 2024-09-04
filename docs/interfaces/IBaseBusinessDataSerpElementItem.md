@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseBusinessDataSerpElementItem
+[Documentation](../globals.md) / IBaseBusinessDataSerpElementItem
 
 # Interface: IBaseBusinessDataSerpElementItem
 
@@ -17,6 +17,39 @@
 - [`ITripadvisorSearchOrganicBusinessDataSerpElementItem`](ITripadvisorSearchOrganicBusinessDataSerpElementItem.md)
 - [`ITripadvisorReviewSearchBusinessDataSerpElementItem`](ITripadvisorReviewSearchBusinessDataSerpElementItem.md)
 
-## Indexable
+## Properties
 
- \[`key`: `string`\]: `any`
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank among all the elements
+
+#### Defined in
+
+main.ts:21392
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from the rank_group
+
+#### Defined in
+
+main.ts:21390
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Defined in
+
+main.ts:21387

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleLocalFinderTaskPostRequestInfo
+[Documentation](../globals.md) / SerpGoogleLocalFinderTaskPostRequestInfo
 
 # Class: SerpGoogleLocalFinderTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:42968
+main.ts:41116
 
 ## Properties
 
@@ -54,7 +54,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:42918
+main.ts:41066
 
 ***
 
@@ -73,7 +73,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:42901
+main.ts:41049
 
 ***
 
@@ -94,7 +94,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:42850
+main.ts:40998
 
 ***
 
@@ -114,7 +114,7 @@ example:en
 
 #### Defined in
 
-main.ts:42896
+main.ts:41044
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Defined in
 
-main.ts:42890
+main.ts:41038
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:42872
+main.ts:41020
 
 ***
 
@@ -181,7 +181,7 @@ example:
 
 #### Defined in
 
-main.ts:42883
+main.ts:41031
 
 ***
 
@@ -202,7 +202,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:42865
+main.ts:41013
 
 ***
 
@@ -221,7 +221,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-main.ts:42923
+main.ts:41071
 
 ***
 
@@ -242,7 +242,7 @@ default value: android
 
 #### Defined in
 
-main.ts:42908
+main.ts:41056
 
 ***
 
@@ -266,7 +266,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:42964
+main.ts:41112
 
 ***
 
@@ -286,7 +286,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:42954
+main.ts:41102
 
 ***
 
@@ -310,7 +310,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:42948
+main.ts:41096
 
 ***
 
@@ -332,7 +332,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:42858
+main.ts:41006
 
 ***
 
@@ -352,7 +352,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:42938
+main.ts:41086
 
 ***
 
@@ -375,7 +375,7 @@ example: "tuesday;18"
 
 #### Defined in
 
-main.ts:42932
+main.ts:41080
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:42932
 
 #### Defined in
 
-main.ts:42977
+main.ts:41125
 
 ***
 
@@ -411,7 +411,7 @@ main.ts:42977
 
 #### Defined in
 
-main.ts:43009
+main.ts:41157
 
 ***
 
@@ -429,4 +429,4 @@ main.ts:43009
 
 #### Defined in
 
-main.ts:43002
+main.ts:41150

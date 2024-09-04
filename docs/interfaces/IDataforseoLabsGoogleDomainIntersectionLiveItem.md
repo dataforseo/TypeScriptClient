@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleDomainIntersectionLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleDomainIntersectionLiveItem
 
 # Interface: IDataforseoLabsGoogleDomainIntersectionLiveItem
 
@@ -21,7 +21,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:95149
+main.ts:93789
 
 ***
 
@@ -33,7 +33,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:95146
+main.ts:93786
 
 ***
 
@@ -45,7 +45,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95144
+main.ts:93784
 
 ***
 
@@ -58,4 +58,4 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:95152
+main.ts:93792

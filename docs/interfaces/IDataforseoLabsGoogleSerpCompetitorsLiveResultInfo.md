@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains detected SERP competitors and related data
 
 #### Defined in
 
-main.ts:93912
+main.ts:92552
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:93910
+main.ts:92550
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:93906
+main.ts:92546
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:93903
+main.ts:92543
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93897
+main.ts:92537
 
 ***
 
@@ -83,7 +83,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:93900
+main.ts:92540
 
 ***
 
@@ -95,4 +95,4 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:93908
+main.ts:92548

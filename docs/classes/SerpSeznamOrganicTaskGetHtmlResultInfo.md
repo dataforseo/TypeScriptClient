@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamOrganicTaskGetHtmlResultInfo
+[Documentation](../globals.md) / SerpSeznamOrganicTaskGetHtmlResultInfo
 
 # Class: SerpSeznamOrganicTaskGetHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:75735
+main.ts:74407
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:75727
+main.ts:74399
 
 ***
 
@@ -65,7 +65,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:75731
+main.ts:74403
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:75729
+main.ts:74401
 
 ***
 
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:75714
+main.ts:74386
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:75722
+main.ts:74394
 
 ***
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:75720
+main.ts:74392
 
 ***
 
@@ -146,7 +146,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:75718
+main.ts:74390
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:75716
+main.ts:74388
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:75716
 
 #### Defined in
 
-main.ts:75744
+main.ts:74416
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:75744
 
 #### Defined in
 
-main.ts:75772
+main.ts:74444
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:75772
 
 #### Defined in
 
-main.ts:75765
+main.ts:74437

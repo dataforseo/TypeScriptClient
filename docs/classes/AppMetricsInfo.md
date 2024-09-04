@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppMetricsInfo
+[Documentation](../globals.md) / AppMetricsInfo
 
 # Class: AppMetricsInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:106911
+main.ts:104045
 
 ## Properties
 
@@ -46,7 +46,7 @@ total count of Amazon organic SERPs that contain the product
 
 #### Defined in
 
-main.ts:106905
+main.ts:104039
 
 ***
 
@@ -62,7 +62,7 @@ number of organic SERPs where the product ranks #1
 
 #### Defined in
 
-main.ts:106897
+main.ts:104031
 
 ***
 
@@ -78,7 +78,7 @@ number of organic SERPs where the product ranks #11-100
 
 #### Defined in
 
-main.ts:106903
+main.ts:104037
 
 ***
 
@@ -94,7 +94,7 @@ number of organic SERPs where the product ranks #2-3
 
 #### Defined in
 
-main.ts:106899
+main.ts:104033
 
 ***
 
@@ -110,7 +110,7 @@ number of organic SERPs where the product ranks #4-10
 
 #### Defined in
 
-main.ts:106901
+main.ts:104035
 
 ***
 
@@ -126,7 +126,7 @@ total search volume of the product’s ranking keywords in organic SERP
 
 #### Defined in
 
-main.ts:106907
+main.ts:104041
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:106907
 
 #### Defined in
 
-main.ts:106920
+main.ts:104054
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:106920
 
 #### Defined in
 
-main.ts:106942
+main.ts:104076
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:106942
 
 #### Defined in
 
-main.ts:106935
+main.ts:104069

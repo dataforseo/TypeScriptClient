@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksBulkReferringDomainsLiveResultInfo
+[Documentation](../globals.md) / IBacklinksBulkReferringDomainsLiveResultInfo
 
 # Interface: IBacklinksBulkReferringDomainsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:153359
+main.ts:150225
 
 ***
 
@@ -32,4 +32,4 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:153357
+main.ts:150223

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleMapsLiveAdvancedResultInfo
+[Documentation](../globals.md) / ISerpGoogleMapsLiveAdvancedResultInfo
 
 # Interface: ISerpGoogleMapsLiveAdvancedResultInfo
 
@@ -22,7 +22,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 #### Defined in
 
-main.ts:42709
+main.ts:40857
 
 ***
 
@@ -37,7 +37,7 @@ example:
 
 #### Defined in
 
-main.ts:42714
+main.ts:40862
 
 ***
 
@@ -52,19 +52,19 @@ maps_search, maps_paid_item
 
 #### Defined in
 
-main.ts:42722
+main.ts:40870
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseGoogleMapsSerpElementItem`](../classes/BaseGoogleMapsSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Defined in
 
-main.ts:42728
+main.ts:40876
 
 ***
 
@@ -76,7 +76,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:42726
+main.ts:40874
 
 ***
 
@@ -89,7 +89,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:42697
+main.ts:40845
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:42705
+main.ts:40853
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:42703
+main.ts:40851
 
 ***
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:42701
+main.ts:40849
 
 ***
 
@@ -137,7 +137,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:42724
+main.ts:40872
 
 ***
 
@@ -150,7 +150,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:42717
+main.ts:40865
 
 ***
 
@@ -162,4 +162,4 @@ type of element
 
 #### Defined in
 
-main.ts:42699
+main.ts:40847

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
+[Documentation](../globals.md) / KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
 # Class: KeywordsDataGoogleAdsAdTrafficByKeywordsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:124149
+main.ts:121207
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:124141
+main.ts:121199
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:124145
+main.ts:121203
 
 ***
 
@@ -78,7 +78,7 @@ type of the task
 
 #### Defined in
 
-main.ts:124139
+main.ts:121197
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:124135
+main.ts:121193
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:124137
+main.ts:121195
 
 ***
 
@@ -127,7 +127,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:124143
+main.ts:121201
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:124143
 
 #### Defined in
 
-main.ts:124158
+main.ts:121216
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:124158
 
 #### Defined in
 
-main.ts:124180
+main.ts:121238
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:124180
 
 #### Defined in
 
-main.ts:124173
+main.ts:121231

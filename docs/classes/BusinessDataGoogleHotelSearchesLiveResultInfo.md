@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelSearchesLiveResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesLiveResultInfo
 
 # Class: BusinessDataGoogleHotelSearchesLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:209542
+main.ts:204880
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:209527
+main.ts:204865
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:209532
+main.ts:204870
 
 ***
 
@@ -83,7 +83,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-main.ts:209538
+main.ts:204876
 
 ***
 
@@ -100,7 +100,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:209535
+main.ts:204873
 
 ***
 
@@ -117,7 +117,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:209520
+main.ts:204858
 
 ***
 
@@ -133,7 +133,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:209524
+main.ts:204862
 
 ***
 
@@ -149,7 +149,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:209522
+main.ts:204860
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:209522
 
 #### Defined in
 
-main.ts:209551
+main.ts:204889
 
 ***
 
@@ -185,7 +185,7 @@ main.ts:209551
 
 #### Defined in
 
-main.ts:209578
+main.ts:204916
 
 ***
 
@@ -203,4 +203,4 @@ main.ts:209578
 
 #### Defined in
 
-main.ts:209571
+main.ts:204909

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisSummaryInfo
+[Documentation](../globals.md) / IContentAnalysisSummaryInfo
 
 # Interface: IContentAnalysisSummaryInfo
 
@@ -26,7 +26,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:171212
+main.ts:167142
 
 ***
 
@@ -44,7 +44,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:171227
+main.ts:167157
 
 ***
 
@@ -62,7 +62,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:171231
+main.ts:167161
 
 ***
 
@@ -76,7 +76,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:171220
+main.ts:167150
 
 ***
 
@@ -93,7 +93,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:171223
+main.ts:167153
 
 ***
 
@@ -106,7 +106,7 @@ normalized sum of ranks of all URLs citing the target keyword
 
 #### Defined in
 
-main.ts:171201
+main.ts:167131
 
 ***
 
@@ -124,7 +124,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-main.ts:171208
+main.ts:167138
 
 ***
 
@@ -138,7 +138,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:171216
+main.ts:167146
 
 ***
 
@@ -151,7 +151,7 @@ contains objects with top domains citing the target keword and citation count pe
 
 #### Defined in
 
-main.ts:171204
+main.ts:167134
 
 ***
 
@@ -163,7 +163,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:171198
+main.ts:167128
 
 ***
 
@@ -175,4 +175,4 @@ type of element
 
 #### Defined in
 
-main.ts:171196
+main.ts:167126

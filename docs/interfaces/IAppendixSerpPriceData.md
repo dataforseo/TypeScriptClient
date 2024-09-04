@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixSerpPriceData
+[Documentation](../globals.md) / IAppendixSerpPriceData
 
 # Interface: IAppendixSerpPriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:226857
+main.ts:222117
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:226857
 
 #### Defined in
 
-main.ts:226858
+main.ts:222118
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:226858
 
 #### Defined in
 
-main.ts:226859
+main.ts:222119
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:226859
 
 #### Defined in
 
-main.ts:226860
+main.ts:222120
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:226860
 
 #### Defined in
 
-main.ts:226861
+main.ts:222121
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:226861
 
 #### Defined in
 
-main.ts:226862
+main.ts:222122
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:226862
 
 #### Defined in
 
-main.ts:226863
+main.ts:222123
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:226863
 
 #### Defined in
 
-main.ts:226864
+main.ts:222124
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:226864
 
 #### Defined in
 
-main.ts:226856
+main.ts:222116
 
 ***
 
@@ -108,4 +108,4 @@ main.ts:226856
 
 #### Defined in
 
-main.ts:226865
+main.ts:222125

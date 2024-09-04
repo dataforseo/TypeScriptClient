@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleShoppingSerpMerchantSerpElementItem
+[Documentation](../globals.md) / GoogleShoppingSerpMerchantSerpElementItem
 
 # Class: GoogleShoppingSerpMerchantSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:178587
+main.ts:174507
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:178587
 
 #### Defined in
 
-main.ts:21025
+main.ts:21039
 
 ***
 
@@ -73,7 +73,7 @@ you can get more details about the product by using this object in the POST requ
 
 #### Defined in
 
-main.ts:178557
+main.ts:174477
 
 ***
 
@@ -91,7 +91,7 @@ USD
 
 #### Defined in
 
-main.ts:178539
+main.ts:174459
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:178551
+main.ts:174471
 
 ***
 
@@ -127,7 +127,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:178580
+main.ts:174500
 
 ***
 
@@ -143,7 +143,7 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-main.ts:178520
+main.ts:174440
 
 ***
 
@@ -159,7 +159,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:178516
+main.ts:174436
 
 ***
 
@@ -177,7 +177,7 @@ if there are no values, you will get null
 
 #### Defined in
 
-main.ts:178565
+main.ts:174485
 
 ***
 
@@ -196,7 +196,7 @@ example:
 
 #### Defined in
 
-main.ts:178535
+main.ts:174455
 
 ***
 
@@ -212,9 +212,13 @@ left, right
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`position`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:178512
+main.ts:21037
 
 ***
 
@@ -232,7 +236,7 @@ example:
 
 #### Defined in
 
-main.ts:178530
+main.ts:174450
 
 ***
 
@@ -253,7 +257,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:178546
+main.ts:174466
 
 ***
 
@@ -270,7 +274,7 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-main.ts:178574
+main.ts:174494
 
 ***
 
@@ -287,7 +291,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:178568
+main.ts:174488
 
 ***
 
@@ -302,9 +306,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:178508
+main.ts:21033
 
 ***
 
@@ -319,9 +327,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`rank_group`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:178505
+main.ts:21030
 
 ***
 
@@ -339,7 +351,7 @@ if there are no values, you will get null
 
 #### Defined in
 
-main.ts:178561
+main.ts:174481
 
 ***
 
@@ -356,7 +368,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:178554
+main.ts:174474
 
 ***
 
@@ -373,7 +385,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:178577
+main.ts:174497
 
 ***
 
@@ -390,7 +402,7 @@ the popularity rate of the seller based on user reviews
 
 #### Defined in
 
-main.ts:178571
+main.ts:174491
 
 ***
 
@@ -406,7 +418,7 @@ URL to the product page on Google Shopping
 
 #### Defined in
 
-main.ts:178524
+main.ts:174444
 
 ***
 
@@ -423,7 +435,7 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-main.ts:178583
+main.ts:174503
 
 ***
 
@@ -439,7 +451,7 @@ tags assigned to the product
 
 #### Defined in
 
-main.ts:178526
+main.ts:174446
 
 ***
 
@@ -455,7 +467,27 @@ title of the element
 
 #### Defined in
 
-main.ts:178518
+main.ts:174438
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleShoppingSerpMerchantSerpElementItem`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md).[`type`](../interfaces/IGoogleShoppingSerpMerchantSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21027
 
 ***
 
@@ -471,7 +503,7 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-main.ts:178522
+main.ts:174442
 
 ***
 
@@ -487,7 +519,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:178514
+main.ts:174434
 
 ## Methods
 
@@ -509,7 +541,7 @@ main.ts:178514
 
 #### Defined in
 
-main.ts:178592
+main.ts:174512
 
 ***
 
@@ -531,7 +563,7 @@ main.ts:178592
 
 #### Defined in
 
-main.ts:178648
+main.ts:174565
 
 ***
 
@@ -553,4 +585,4 @@ main.ts:178648
 
 #### Defined in
 
-main.ts:178641
+main.ts:174558

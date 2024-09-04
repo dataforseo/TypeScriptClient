@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
 # Class: DataforseoLabsGoogleHistoricalSerpsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:98372
+main.ts:96639
 
 ## Properties
 
@@ -38,7 +38,8 @@ main.ts:98372
 
 > `optional` **items**: [`DataforseoLabsGoogleHistoricalSerpsLiveItem`](DataforseoLabsGoogleHistoricalSerpsLiveItem.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -46,7 +47,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:98368
+main.ts:96635
 
 ***
 
@@ -62,7 +63,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:98366
+main.ts:96632
 
 ***
 
@@ -79,7 +80,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:98358
+main.ts:96624
 
 ***
 
@@ -95,7 +96,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:98362
+main.ts:96628
 
 ***
 
@@ -111,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:98360
+main.ts:96626
 
 ***
 
@@ -127,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98355
+main.ts:96621
 
 ***
 
@@ -143,7 +144,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:98364
+main.ts:96630
 
 ## Methods
 
@@ -161,7 +162,7 @@ main.ts:98364
 
 #### Defined in
 
-main.ts:98381
+main.ts:96648
 
 ***
 
@@ -179,7 +180,7 @@ main.ts:98381
 
 #### Defined in
 
-main.ts:98408
+main.ts:96675
 
 ***
 
@@ -197,4 +198,4 @@ main.ts:98408
 
 #### Defined in
 
-main.ts:98401
+main.ts:96668

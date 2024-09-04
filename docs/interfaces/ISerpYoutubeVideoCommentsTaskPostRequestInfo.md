@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
 # Interface: ISerpYoutubeVideoCommentsTaskPostRequestInfo
 
@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:66258
+main.ts:64982
 
 ***
 
@@ -41,7 +41,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:66244
+main.ts:64968
 
 ***
 
@@ -58,7 +58,7 @@ en
 
 #### Defined in
 
-main.ts:66240
+main.ts:64964
 
 ***
 
@@ -75,7 +75,7 @@ English
 
 #### Defined in
 
-main.ts:66233
+main.ts:64957
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:66226
+main.ts:64950
 
 ***
 
@@ -109,7 +109,7 @@ United States
 
 #### Defined in
 
-main.ts:66219
+main.ts:64943
 
 ***
 
@@ -124,7 +124,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:66249
+main.ts:64973
 
 ***
 
@@ -144,7 +144,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:66290
+main.ts:65014
 
 ***
 
@@ -160,7 +160,7 @@ advanced
 
 #### Defined in
 
-main.ts:66280
+main.ts:65004
 
 ***
 
@@ -180,7 +180,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:66274
+main.ts:64998
 
 ***
 
@@ -198,7 +198,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:66212
+main.ts:64936
 
 ***
 
@@ -214,7 +214,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:66264
+main.ts:64988
 
 ***
 
@@ -230,4 +230,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:66204
+main.ts:64928

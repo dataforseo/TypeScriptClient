@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
+[Documentation](../globals.md) / BusinessDataTrustpilotSearchTaskGetResultInfo
 
 # Class: BusinessDataTrustpilotSearchTaskGetResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:215698
+main.ts:211004
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:215683
+main.ts:210989
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:215688
+main.ts:210994
 
 ***
 
@@ -83,7 +83,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:215694
+main.ts:211000
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:215691
+main.ts:210997
 
 ***
 
@@ -116,7 +116,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:215678
+main.ts:210984
 
 ***
 
@@ -132,7 +132,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:215680
+main.ts:210986
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:215680
 
 #### Defined in
 
-main.ts:215707
+main.ts:211013
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:215707
 
 #### Defined in
 
-main.ts:215733
+main.ts:211039
 
 ***
 
@@ -186,4 +186,4 @@ main.ts:215733
 
 #### Defined in
 
-main.ts:215726
+main.ts:211032

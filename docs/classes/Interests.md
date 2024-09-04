@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Interests
+[Documentation](../globals.md) / Interests
 
 # Class: Interests
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:129241
+main.ts:126155
 
 ## Properties
 
@@ -47,7 +47,7 @@ the data included in the values element is based on this keyword
 
 #### Defined in
 
-main.ts:129235
+main.ts:126149
 
 ***
 
@@ -63,7 +63,7 @@ contains data on relative keyword popularity by country or region
 
 #### Defined in
 
-main.ts:129237
+main.ts:126151
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:129237
 
 #### Defined in
 
-main.ts:129250
+main.ts:126164
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:129250
 
 #### Defined in
 
-main.ts:129272
+main.ts:126186
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:129272
 
 #### Defined in
 
-main.ts:129265
+main.ts:126179

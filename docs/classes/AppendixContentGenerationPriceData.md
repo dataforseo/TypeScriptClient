@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixContentGenerationPriceData
+[Documentation](../globals.md) / AppendixContentGenerationPriceData
 
 # Class: AppendixContentGenerationPriceData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:227717
+main.ts:222977
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:227717
 
 #### Defined in
 
-main.ts:227707
+main.ts:222967
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:227707
 
 #### Defined in
 
-main.ts:227708
+main.ts:222968
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:227708
 
 #### Defined in
 
-main.ts:227709
+main.ts:222969
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:227709
 
 #### Defined in
 
-main.ts:227710
+main.ts:222970
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:227710
 
 #### Defined in
 
-main.ts:227711
+main.ts:222971
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:227711
 
 #### Defined in
 
-main.ts:227712
+main.ts:222972
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:227712
 
 #### Defined in
 
-main.ts:227713
+main.ts:222973
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:227713
 
 #### Defined in
 
-main.ts:227726
+main.ts:222986
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:227726
 
 #### Defined in
 
-main.ts:227749
+main.ts:223009
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:227749
 
 #### Defined in
 
-main.ts:227742
+main.ts:223002

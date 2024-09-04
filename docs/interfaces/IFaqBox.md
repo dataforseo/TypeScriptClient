@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IFaqBox
+[Documentation](../globals.md) / IFaqBox
 
 # Interface: IFaqBox
 
@@ -20,7 +20,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:29654
+main.ts:29522
 
 ***
 
@@ -32,4 +32,4 @@ type of element
 
 #### Defined in
 
-main.ts:29652
+main.ts:29520

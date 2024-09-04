@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelAmenityInfo
+[Documentation](../globals.md) / HotelAmenityInfo
 
 # Class: HotelAmenityInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:210280
+main.ts:205618
 
 ## Properties
 
@@ -46,7 +46,7 @@ standardised category of the ammenity
 
 #### Defined in
 
-main.ts:210272
+main.ts:205610
 
 ***
 
@@ -62,7 +62,7 @@ label of the category
 
 #### Defined in
 
-main.ts:210274
+main.ts:205612
 
 ***
 
@@ -78,7 +78,7 @@ specific amenities and details
 
 #### Defined in
 
-main.ts:210276
+main.ts:205614
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:210276
 
 #### Defined in
 
-main.ts:210289
+main.ts:205627
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:210289
 
 #### Defined in
 
-main.ts:210312
+main.ts:205650
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:210312
 
 #### Defined in
 
-main.ts:210305
+main.ts:205643

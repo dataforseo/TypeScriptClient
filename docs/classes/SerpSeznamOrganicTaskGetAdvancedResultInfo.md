@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpSeznamOrganicTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpSeznamOrganicTaskGetAdvancedResultInfo
 
 # Class: SerpSeznamOrganicTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:75487
+main.ts:74159
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:75463
+main.ts:74135
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:75468
+main.ts:74140
 
 ***
 
@@ -85,7 +85,7 @@ images, local_pack, organic, related_searches, top_stories, featured_snippet, vi
 
 #### Defined in
 
-main.ts:75476
+main.ts:74148
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:75483
+main.ts:74155
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:75480
+main.ts:74152
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:75452
+main.ts:74124
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:75460
+main.ts:74132
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:75458
+main.ts:74130
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:75456
+main.ts:74128
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:75478
+main.ts:74150
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:75471
+main.ts:74143
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:75454
+main.ts:74126
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:75454
 
 #### Defined in
 
-main.ts:75496
+main.ts:74168
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:75496
 
 #### Defined in
 
-main.ts:75532
+main.ts:74204
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:75532
 
 #### Defined in
 
-main.ts:75525
+main.ts:74197

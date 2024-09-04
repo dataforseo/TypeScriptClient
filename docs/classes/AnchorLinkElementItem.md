@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AnchorLinkElementItem
+[Documentation](../globals.md) / AnchorLinkElementItem
 
 # Class: AnchorLinkElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:161476
+main.ts:157740
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:161476
 
 #### Defined in
 
-main.ts:21502
+main.ts:21676
 
 ***
 
@@ -67,9 +67,13 @@ possible values: internal, external
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`direction`](../interfaces/IAnchorLinkElementItem.md#direction)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`direction`](BaseOnPageLinkItemInfo.md#direction)
+
 #### Defined in
 
-main.ts:161461
+main.ts:21668
 
 ***
 
@@ -84,9 +88,13 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`dofollow`](../interfaces/IAnchorLinkElementItem.md#dofollow)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`dofollow`](BaseOnPageLinkItemInfo.md#dofollow)
+
 #### Defined in
 
-main.ts:161454
+main.ts:21661
 
 ***
 
@@ -101,9 +109,13 @@ the link was found on this domain
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`domain_from`](../interfaces/IAnchorLinkElementItem.md#domain_from)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`domain_from`](BaseOnPageLinkItemInfo.md#domain_from)
+
 #### Defined in
 
-main.ts:161431
+main.ts:21643
 
 ***
 
@@ -118,9 +130,13 @@ the link is pointing to this domain
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`domain_to`](../interfaces/IAnchorLinkElementItem.md#domain_to)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`domain_to`](BaseOnPageLinkItemInfo.md#domain_to)
+
 #### Defined in
 
-main.ts:161434
+main.ts:21646
 
 ***
 
@@ -135,9 +151,13 @@ indicates whether a link is directing to a broken page or resource
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`is_broken`](../interfaces/IAnchorLinkElementItem.md#is_broken)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`is_broken`](BaseOnPageLinkItemInfo.md#is_broken)
+
 #### Defined in
 
-main.ts:161464
+main.ts:21671
 
 ***
 
@@ -152,9 +172,13 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`is_link_relation_conflict`](../interfaces/IAnchorLinkElementItem.md#is_link_relation_conflict)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`is_link_relation_conflict`](BaseOnPageLinkItemInfo.md#is_link_relation_conflict)
+
 #### Defined in
 
-main.ts:161469
+main.ts:21674
 
 ***
 
@@ -173,7 +197,7 @@ example:
 
 #### Defined in
 
-main.ts:161451
+main.ts:157731
 
 ***
 
@@ -188,9 +212,13 @@ absolute URL of the page on which the link was found
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`link_from`](../interfaces/IAnchorLinkElementItem.md#link_from)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`link_from`](BaseOnPageLinkItemInfo.md#link_from)
+
 #### Defined in
 
-main.ts:161443
+main.ts:21655
 
 ***
 
@@ -205,9 +233,13 @@ absolute URL of the page to which the link is pointing
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`link_to`](../interfaces/IAnchorLinkElementItem.md#link_to)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`link_to`](BaseOnPageLinkItemInfo.md#link_to)
+
 #### Defined in
 
-main.ts:161446
+main.ts:21658
 
 ***
 
@@ -222,9 +254,13 @@ relative URL of the page on which the link was found
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`page_from`](../interfaces/IAnchorLinkElementItem.md#page_from)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_from`](BaseOnPageLinkItemInfo.md#page_from)
+
 #### Defined in
 
-main.ts:161437
+main.ts:21649
 
 ***
 
@@ -238,9 +274,13 @@ url scheme of the referring page
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`page_from_scheme`](../interfaces/IAnchorLinkElementItem.md#page_from_scheme)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_from_scheme`](BaseOnPageLinkItemInfo.md#page_from_scheme)
+
 #### Defined in
 
-main.ts:161456
+main.ts:21663
 
 ***
 
@@ -255,9 +295,13 @@ relative URL of the page to which the link is pointing
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`page_to`](../interfaces/IAnchorLinkElementItem.md#page_to)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_to`](BaseOnPageLinkItemInfo.md#page_to)
+
 #### Defined in
 
-main.ts:161440
+main.ts:21652
 
 ***
 
@@ -271,9 +315,13 @@ url scheme of the referenced page
 
 [`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`page_to_scheme`](../interfaces/IAnchorLinkElementItem.md#page_to_scheme)
 
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`page_to_scheme`](BaseOnPageLinkItemInfo.md#page_to_scheme)
+
 #### Defined in
 
-main.ts:161458
+main.ts:21665
 
 ***
 
@@ -290,7 +338,7 @@ status code of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:161472
+main.ts:157736
 
 ***
 
@@ -306,7 +354,27 @@ anchor text
 
 #### Defined in
 
-main.ts:161466
+main.ts:157733
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAnchorLinkElementItem`](../interfaces/IAnchorLinkElementItem.md).[`type`](../interfaces/IAnchorLinkElementItem.md#type)
+
+#### Inherited from
+
+[`BaseOnPageLinkItemInfo`](BaseOnPageLinkItemInfo.md).[`type`](BaseOnPageLinkItemInfo.md#type)
+
+#### Defined in
+
+main.ts:21640
 
 ## Methods
 
@@ -328,7 +396,7 @@ main.ts:161466
 
 #### Defined in
 
-main.ts:161481
+main.ts:157745
 
 ***
 
@@ -350,7 +418,7 @@ main.ts:161481
 
 #### Defined in
 
-main.ts:161517
+main.ts:157769
 
 ***
 
@@ -372,4 +440,4 @@ main.ts:161517
 
 #### Defined in
 
-main.ts:161510
+main.ts:157762

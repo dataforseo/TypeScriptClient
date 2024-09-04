@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixOnPageDayStatisticsMoneyData
+[Documentation](../globals.md) / AppendixOnPageDayStatisticsMoneyData
 
 # Class: AppendixOnPageDayStatisticsMoneyData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:225053
+main.ts:220313
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:225053
 
 #### Defined in
 
-main.ts:225047
+main.ts:220307
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:225047
 
 #### Defined in
 
-main.ts:225048
+main.ts:220308
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:225048
 
 #### Defined in
 
-main.ts:225040
+main.ts:220300
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:225040
 
 #### Defined in
 
-main.ts:225035
+main.ts:220295
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:225035
 
 #### Defined in
 
-main.ts:225038
+main.ts:220298
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:225038
 
 #### Defined in
 
-main.ts:225042
+main.ts:220302
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:225042
 
 #### Defined in
 
-main.ts:225045
+main.ts:220305
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:225045
 
 #### Defined in
 
-main.ts:225044
+main.ts:220304
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:225044
 
 #### Defined in
 
-main.ts:225036
+main.ts:220296
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:225036
 
 #### Defined in
 
-main.ts:225034
+main.ts:220294
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:225034
 
 #### Defined in
 
-main.ts:225046
+main.ts:220306
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:225046
 
 #### Defined in
 
-main.ts:225033
+main.ts:220293
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:225033
 
 #### Defined in
 
-main.ts:225039
+main.ts:220299
 
 ***
 
@@ -226,7 +226,7 @@ main.ts:225039
 
 #### Defined in
 
-main.ts:225041
+main.ts:220301
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:225041
 
 #### Defined in
 
-main.ts:225043
+main.ts:220303
 
 ***
 
@@ -254,7 +254,7 @@ main.ts:225043
 
 #### Defined in
 
-main.ts:225049
+main.ts:220309
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:225049
 
 #### Defined in
 
-main.ts:225032
+main.ts:220292
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:225032
 
 #### Defined in
 
-main.ts:225031
+main.ts:220291
 
 ***
 
@@ -296,7 +296,7 @@ main.ts:225031
 
 #### Defined in
 
-main.ts:225029
+main.ts:220289
 
 ***
 
@@ -310,7 +310,7 @@ main.ts:225029
 
 #### Defined in
 
-main.ts:225030
+main.ts:220290
 
 ***
 
@@ -324,7 +324,7 @@ main.ts:225030
 
 #### Defined in
 
-main.ts:225037
+main.ts:220297
 
 ## Methods
 
@@ -342,7 +342,7 @@ main.ts:225037
 
 #### Defined in
 
-main.ts:225062
+main.ts:220322
 
 ***
 
@@ -360,7 +360,7 @@ main.ts:225062
 
 #### Defined in
 
-main.ts:225099
+main.ts:220359
 
 ***
 
@@ -378,4 +378,4 @@ main.ts:225099
 
 #### Defined in
 
-main.ts:225092
+main.ts:220352

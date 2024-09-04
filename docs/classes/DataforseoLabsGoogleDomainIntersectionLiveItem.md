@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleDomainIntersectionLiveItem
+[Documentation](../globals.md) / DataforseoLabsGoogleDomainIntersectionLiveItem
 
 # Class: DataforseoLabsGoogleDomainIntersectionLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:95099
+main.ts:93739
 
 ## Properties
 
@@ -47,7 +47,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:95092
+main.ts:93732
 
 ***
 
@@ -63,7 +63,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:95089
+main.ts:93729
 
 ***
 
@@ -79,7 +79,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95087
+main.ts:93727
 
 ***
 
@@ -96,7 +96,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:95095
+main.ts:93735
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:95095
 
 #### Defined in
 
-main.ts:95108
+main.ts:93748
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:95108
 
 #### Defined in
 
-main.ts:95128
+main.ts:93768
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:95128
 
 #### Defined in
 
-main.ts:95121
+main.ts:93761

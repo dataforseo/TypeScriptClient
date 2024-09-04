@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseResponseTaskInfo
+[Documentation](../globals.md) / BaseResponseTaskInfo
 
 # Class: BaseResponseTaskInfo
 
@@ -529,7 +529,7 @@
 
 #### Defined in
 
-main.ts:23933
+main.ts:24249
 
 ## Properties
 
@@ -545,7 +545,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:23923
+main.ts:24239
 
 ***
 
@@ -565,7 +565,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:23929
+main.ts:24245
 
 ***
 
@@ -582,7 +582,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:23912
+main.ts:24228
 
 ***
 
@@ -598,7 +598,7 @@ URL path
 
 #### Defined in
 
-main.ts:23927
+main.ts:24243
 
 ***
 
@@ -614,7 +614,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:23925
+main.ts:24241
 
 ***
 
@@ -632,7 +632,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:23916
+main.ts:24232
 
 ***
 
@@ -649,7 +649,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:23919
+main.ts:24235
 
 ***
 
@@ -665,7 +665,7 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:23921
+main.ts:24237
 
 ## Methods
 
@@ -683,7 +683,7 @@ main.ts:23921
 
 #### Defined in
 
-main.ts:23942
+main.ts:24258
 
 ***
 
@@ -701,7 +701,7 @@ main.ts:23942
 
 #### Defined in
 
-main.ts:23976
+main.ts:24292
 
 ***
 
@@ -719,4 +719,4 @@ main.ts:23976
 
 #### Defined in
 
-main.ts:23969
+main.ts:24285

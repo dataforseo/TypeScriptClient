@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingCompetitorsDomainLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
 # Class: DataforseoLabsBingCompetitorsDomainLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:109279
+main.ts:106413
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:109263
+main.ts:106397
 
 ***
 
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:109209
+main.ts:106343
 
 ***
 
@@ -114,7 +114,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:109269
+main.ts:106403
 
 ***
 
@@ -137,7 +137,7 @@ default value:
 
 #### Defined in
 
-main.ts:109195
+main.ts:106329
 
 ***
 
@@ -159,7 +159,7 @@ en
 
 #### Defined in
 
-main.ts:109186
+main.ts:106320
 
 ***
 
@@ -181,7 +181,7 @@ English
 
 #### Defined in
 
-main.ts:109178
+main.ts:106312
 
 ***
 
@@ -200,7 +200,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:109231
+main.ts:106365
 
 ***
 
@@ -223,7 +223,7 @@ example:
 
 #### Defined in
 
-main.ts:109170
+main.ts:106304
 
 ***
 
@@ -246,7 +246,7 @@ United States
 
 #### Defined in
 
-main.ts:109161
+main.ts:106295
 
 ***
 
@@ -265,7 +265,7 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 #### Defined in
 
-main.ts:109241
+main.ts:106375
 
 ***
 
@@ -284,7 +284,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:109236
+main.ts:106370
 
 ***
 
@@ -315,7 +315,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:109226
+main.ts:106360
 
 ***
 
@@ -335,7 +335,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:109275
+main.ts:106409
 
 ***
 
@@ -354,7 +354,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:109152
+main.ts:106286
 
 ## Methods
 
@@ -372,7 +372,7 @@ main.ts:109152
 
 #### Defined in
 
-main.ts:109288
+main.ts:106422
 
 ***
 
@@ -390,7 +390,7 @@ main.ts:109288
 
 #### Defined in
 
-main.ts:109334
+main.ts:106468
 
 ***
 
@@ -408,4 +408,4 @@ main.ts:109334
 
 #### Defined in
 
-main.ts:109327
+main.ts:106461

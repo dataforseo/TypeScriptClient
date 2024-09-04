@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseAppDataSerpElementItem
+[Documentation](../globals.md) / BaseAppDataSerpElementItem
 
 # Class: BaseAppDataSerpElementItem
 
@@ -18,10 +18,6 @@
 ## Implements
 
 - [`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md)
-
-## Indexable
-
- \[`key`: `string`\]: `any`
 
 ## Constructors
 
@@ -39,7 +35,7 @@
 
 #### Defined in
 
-main.ts:21703
+main.ts:21985
 
 ## Properties
 
@@ -49,7 +45,107 @@ main.ts:21703
 
 #### Defined in
 
-main.ts:21701
+main.ts:21983
+
+***
+
+### position?
+
+> `optional` **position**: `string`
+
+the alignment of the element in SERP
+can take the following values:
+left, right
+
+#### Implementation of
+
+[`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`position`](../interfaces/IBaseAppDataSerpElementItem.md#position)
+
+#### Defined in
+
+main.ts:21977
+
+***
+
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Implementation of
+
+[`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseAppDataSerpElementItem.md#rank_absolute)
+
+#### Defined in
+
+main.ts:21973
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Implementation of
+
+[`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`rank_group`](../interfaces/IBaseAppDataSerpElementItem.md#rank_group)
+
+#### Defined in
+
+main.ts:21970
+
+***
+
+### rating?
+
+> `optional` **rating**: [`RatingInfo`](RatingInfo.md)
+
+average rating of the app
+
+#### Implementation of
+
+[`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`rating`](../interfaces/IBaseAppDataSerpElementItem.md#rating)
+
+#### Defined in
+
+main.ts:21981
+
+***
+
+### title?
+
+> `optional` **title**: `string`
+
+title of the app
+
+#### Implementation of
+
+[`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`title`](../interfaces/IBaseAppDataSerpElementItem.md#title)
+
+#### Defined in
+
+main.ts:21979
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseAppDataSerpElementItem`](../interfaces/IBaseAppDataSerpElementItem.md).[`type`](../interfaces/IBaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21967
 
 ## Methods
 
@@ -67,7 +163,7 @@ main.ts:21701
 
 #### Defined in
 
-main.ts:21713
+main.ts:21995
 
 ***
 
@@ -85,7 +181,7 @@ main.ts:21713
 
 #### Defined in
 
-main.ts:21759
+main.ts:22043
 
 ***
 
@@ -103,4 +199,4 @@ main.ts:21759
 
 #### Defined in
 
-main.ts:21722
+main.ts:22006

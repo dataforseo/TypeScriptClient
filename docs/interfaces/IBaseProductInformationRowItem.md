@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBaseProductInformationRowItem
+[Documentation](../globals.md) / IBaseProductInformationRowItem
 
 # Interface: IBaseProductInformationRowItem
 
@@ -15,3 +15,15 @@
 ## Indexable
 
  \[`key`: `string`\]: `any`
+
+## Properties
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Defined in
+
+main.ts:23475

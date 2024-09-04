@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoTrendsGraphElementItem
+[Documentation](../globals.md) / DataforseoTrendsGraphElementItem
 
 # Class: DataforseoTrendsGraphElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:128664
+main.ts:125596
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:128664
 
 #### Defined in
 
-main.ts:21638
+main.ts:21894
 
 ***
 
@@ -68,7 +68,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:128660
+main.ts:125592
 
 ***
 
@@ -84,7 +84,7 @@ DataForSEO Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:128658
+main.ts:125590
 
 ***
 
@@ -99,9 +99,13 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`keywords`](../interfaces/IDataforseoTrendsGraphElementItem.md#keywords)
 
+#### Inherited from
+
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`keywords`](BaseDataforseoTrendsItem.md#keywords)
+
 #### Defined in
 
-main.ts:128656
+main.ts:21892
 
 ***
 
@@ -116,9 +120,33 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`position`](../interfaces/IDataforseoTrendsGraphElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`position`](BaseDataforseoTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:128653
+main.ts:21889
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IDataforseoTrendsGraphElementItem`](../interfaces/IDataforseoTrendsGraphElementItem.md).[`type`](../interfaces/IDataforseoTrendsGraphElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoTrendsItem`](BaseDataforseoTrendsItem.md).[`type`](BaseDataforseoTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21886
 
 ## Methods
 
@@ -140,7 +168,7 @@ main.ts:128653
 
 #### Defined in
 
-main.ts:128669
+main.ts:125601
 
 ***
 
@@ -162,7 +190,7 @@ main.ts:128669
 
 #### Defined in
 
-main.ts:128702
+main.ts:125628
 
 ***
 
@@ -184,4 +212,4 @@ main.ts:128702
 
 #### Defined in
 
-main.ts:128695
+main.ts:125621

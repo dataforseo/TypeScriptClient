@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixContentAnalysisLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixContentAnalysisLimitsRatesDataInfo
 
 # Interface: IAppendixContentAnalysisLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:222186
+main.ts:217446
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:222186
 
 #### Defined in
 
-main.ts:222183
+main.ts:217443
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:222183
 
 #### Defined in
 
-main.ts:222187
+main.ts:217447
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:222187
 
 #### Defined in
 
-main.ts:222185
+main.ts:217445
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:222185
 
 #### Defined in
 
-main.ts:222184
+main.ts:217444
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:222184
 
 #### Defined in
 
-main.ts:222182
+main.ts:217442
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:222182
 
 #### Defined in
 
-main.ts:222181
+main.ts:217441
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:222181
 
 #### Defined in
 
-main.ts:222178
+main.ts:217438
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:222178
 
 #### Defined in
 
-main.ts:222180
+main.ts:217440
 
 ***
 
@@ -108,4 +108,4 @@ main.ts:222180
 
 #### Defined in
 
-main.ts:222179
+main.ts:217439

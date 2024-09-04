@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AutocompleteSerpElementItem
+[Documentation](../globals.md) / AutocompleteSerpElementItem
 
 # Class: AutocompleteSerpElementItem
 

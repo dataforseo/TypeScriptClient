@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeLocationsResultInfo
+[Documentation](../globals.md) / SerpYoutubeLocationsResultInfo
 
 # Class: SerpYoutubeLocationsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:62056
+main.ts:60735
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:62050
+main.ts:60729
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Defined in
 
-main.ts:62037
+main.ts:60716
 
 ***
 
@@ -85,7 +85,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:62048
+main.ts:60727
 
 ***
 
@@ -101,7 +101,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:62039
+main.ts:60718
 
 ***
 
@@ -117,7 +117,7 @@ location type
 
 #### Defined in
 
-main.ts:62052
+main.ts:60731
 
 ## Methods
 
@@ -135,7 +135,7 @@ main.ts:62052
 
 #### Defined in
 
-main.ts:62065
+main.ts:60744
 
 ***
 
@@ -153,7 +153,7 @@ main.ts:62065
 
 #### Defined in
 
-main.ts:62086
+main.ts:60765
 
 ***
 
@@ -171,4 +171,4 @@ main.ts:62086
 
 #### Defined in
 
-main.ts:62079
+main.ts:60758

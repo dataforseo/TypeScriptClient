@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
+[Documentation](../globals.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:139042
+main.ts:135908
 
 ## Properties
 
@@ -47,7 +47,7 @@ contains keywords and their search volume rates
 
 #### Defined in
 
-main.ts:139038
+main.ts:135904
 
 ***
 
@@ -63,7 +63,7 @@ ithe number of results returned in the items array
 
 #### Defined in
 
-main.ts:139035
+main.ts:135901
 
 ***
 
@@ -82,7 +82,7 @@ we use the functionality of Google Ads API to check and validate the spelling of
 
 #### Defined in
 
-main.ts:139030
+main.ts:135896
 
 ***
 
@@ -99,7 +99,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:139025
+main.ts:135891
 
 ***
 
@@ -116,7 +116,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:139033
+main.ts:135899
 
 ## Methods
 
@@ -134,7 +134,7 @@ main.ts:139033
 
 #### Defined in
 
-main.ts:139051
+main.ts:135917
 
 ***
 
@@ -152,7 +152,7 @@ main.ts:139051
 
 #### Defined in
 
-main.ts:139076
+main.ts:135942
 
 ***
 
@@ -170,4 +170,4 @@ main.ts:139076
 
 #### Defined in
 
-main.ts:139069
+main.ts:135935

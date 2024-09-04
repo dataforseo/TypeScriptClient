@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpErrorsResultInfo
+[Documentation](../globals.md) / SerpErrorsResultInfo
 
 # Class: SerpErrorsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:24522
+main.ts:24838
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:24498
+main.ts:24814
 
 ***
 
@@ -65,7 +65,7 @@ error code
 
 #### Defined in
 
-main.ts:24502
+main.ts:24818
 
 ***
 
@@ -82,7 +82,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:24505
+main.ts:24821
 
 ***
 
@@ -98,7 +98,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:24500
+main.ts:24816
 
 ***
 
@@ -114,7 +114,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:24512
+main.ts:24828
 
 ***
 
@@ -130,7 +130,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:24510
+main.ts:24826
 
 ***
 
@@ -147,7 +147,7 @@ server response
 
 #### Defined in
 
-main.ts:24518
+main.ts:24834
 
 ***
 
@@ -164,7 +164,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:24515
+main.ts:24831
 
 ***
 
@@ -181,7 +181,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:24508
+main.ts:24824
 
 ***
 
@@ -197,7 +197,7 @@ id of the task
 
 #### Defined in
 
-main.ts:24493
+main.ts:24809
 
 ## Methods
 
@@ -215,7 +215,7 @@ main.ts:24493
 
 #### Defined in
 
-main.ts:24531
+main.ts:24847
 
 ***
 
@@ -233,7 +233,7 @@ main.ts:24531
 
 #### Defined in
 
-main.ts:24557
+main.ts:24873
 
 ***
 
@@ -251,4 +251,4 @@ main.ts:24557
 
 #### Defined in
 
-main.ts:24550
+main.ts:24866

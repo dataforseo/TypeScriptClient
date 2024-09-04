@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataGoogleTrendsExploreTaskGetResultInfo
+[Documentation](../globals.md) / KeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
 # Class: KeywordsDataGoogleTrendsExploreTaskGetResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:126736
+main.ts:123764
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:126723
+main.ts:123751
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:126728
+main.ts:123756
 
 ***
 
@@ -82,7 +82,7 @@ items on the Google Trends page
 
 #### Defined in
 
-main.ts:126732
+main.ts:123760
 
 ***
 
@@ -98,7 +98,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:126730
+main.ts:123758
 
 ***
 
@@ -114,7 +114,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:126712
+main.ts:123740
 
 ***
 
@@ -131,7 +131,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126720
+main.ts:123748
 
 ***
 
@@ -148,7 +148,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126717
+main.ts:123745
 
 ***
 
@@ -164,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:126714
+main.ts:123742
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:126714
 
 #### Defined in
 
-main.ts:126745
+main.ts:123773
 
 ***
 
@@ -200,7 +200,7 @@ main.ts:126745
 
 #### Defined in
 
-main.ts:126777
+main.ts:123805
 
 ***
 
@@ -218,4 +218,4 @@ main.ts:126777
 
 #### Defined in
 
-main.ts:126770
+main.ts:123798

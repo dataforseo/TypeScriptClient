@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingLanguagesResultInfo
+[Documentation](../globals.md) / KeywordsDataBingLanguagesResultInfo
 
 # Class: KeywordsDataBingLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:131154
+main.ts:128020
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:131150
+main.ts:128016
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:131148
+main.ts:128014
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:131148
 
 #### Defined in
 
-main.ts:131163
+main.ts:128029
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:131163
 
 #### Defined in
 
-main.ts:131181
+main.ts:128047
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:131181
 
 #### Defined in
 
-main.ts:131174
+main.ts:128040

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesAggregationTechnologiesLiveRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:77703
+main.ts:76375
 
 ***
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:77738
+main.ts:76410
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:77696
+main.ts:76368
 
 ***
 
@@ -83,7 +83,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77768
+main.ts:76440
 
 ***
 
@@ -100,7 +100,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77761
+main.ts:76433
 
 ***
 
@@ -118,7 +118,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77783
+main.ts:76455
 
 ***
 
@@ -135,7 +135,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77775
+main.ts:76447
 
 ***
 
@@ -152,7 +152,7 @@ example:
 
 #### Defined in
 
-main.ts:77717
+main.ts:76389
 
 ***
 
@@ -167,7 +167,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:77788
+main.ts:76460
 
 ***
 
@@ -184,7 +184,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:77724
+main.ts:76396
 
 ***
 
@@ -200,7 +200,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Defined in
 
-main.ts:77794
+main.ts:76466
 
 ***
 
@@ -226,7 +226,7 @@ default value:
 
 #### Defined in
 
-main.ts:77754
+main.ts:76426
 
 ***
 
@@ -242,7 +242,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:77800
+main.ts:76472
 
 ***
 
@@ -259,4 +259,4 @@ example:
 
 #### Defined in
 
-main.ts:77710
+main.ts:76382

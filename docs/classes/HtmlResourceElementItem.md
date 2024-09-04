@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HtmlResourceElementItem
+[Documentation](../globals.md) / HtmlResourceElementItem
 
 # Class: HtmlResourceElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:158346
+main.ts:155175
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:158346
 
 #### Defined in
 
-main.ts:21367
+main.ts:21436
 
 ***
 
@@ -68,7 +68,7 @@ indicates whether a page contains broken links
 
 #### Defined in
 
-main.ts:158299
+main.ts:155156
 
 ***
 
@@ -84,7 +84,7 @@ indicates whether a page contains broken resources
 
 #### Defined in
 
-main.ts:158297
+main.ts:155154
 
 ***
 
@@ -98,9 +98,13 @@ instructions for caching
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`cache_control`](../interfaces/IHtmlResourceElementItem.md#cache_control)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`cache_control`](BaseOnPageResourceItemInfo.md#cache_control)
+
 #### Defined in
 
-main.ts:158324
+main.ts:21422
 
 ***
 
@@ -119,9 +123,13 @@ on-page check-ups related to the page
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`checks`](../interfaces/IHtmlResourceElementItem.md#checks)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`checks`](BaseOnPageResourceItemInfo.md#checks)
+
 #### Defined in
 
-main.ts:158327
+main.ts:21425
 
 ***
 
@@ -138,7 +146,7 @@ indicates the number of clicks from the homepage needed before landing at the ta
 
 #### Defined in
 
-main.ts:158308
+main.ts:155165
 
 ***
 
@@ -152,9 +160,13 @@ type of encoding
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`content_encoding`](../interfaces/IHtmlResourceElementItem.md#content_encoding)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`content_encoding`](BaseOnPageResourceItemInfo.md#content_encoding)
+
 #### Defined in
 
-main.ts:158329
+main.ts:21427
 
 ***
 
@@ -172,7 +184,7 @@ note that you should specify a custom_js field when setting a task to receive th
 
 #### Defined in
 
-main.ts:158293
+main.ts:155152
 
 ***
 
@@ -188,7 +200,7 @@ indicates whether a page has duplicate content
 
 #### Defined in
 
-main.ts:158305
+main.ts:155162
 
 ***
 
@@ -204,7 +216,7 @@ indicates whether a page has a duplicate description
 
 #### Defined in
 
-main.ts:158303
+main.ts:155160
 
 ***
 
@@ -220,7 +232,7 @@ indicates whether a page has duplicate title tags
 
 #### Defined in
 
-main.ts:158301
+main.ts:155158
 
 ***
 
@@ -235,9 +247,13 @@ indicates the size of the encoded page measured in bytes
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`encoded_size`](../interfaces/IHtmlResourceElementItem.md#encoded_size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`encoded_size`](BaseOnPageResourceItemInfo.md#encoded_size)
+
 #### Defined in
 
-main.ts:158314
+main.ts:21412
 
 ***
 
@@ -254,9 +270,13 @@ example:
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`fetch_time`](../interfaces/IHtmlResourceElementItem.md#fetch_time)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`fetch_time`](BaseOnPageResourceItemInfo.md#fetch_time)
+
 #### Defined in
 
-main.ts:158322
+main.ts:21420
 
 ***
 
@@ -272,7 +292,7 @@ indicates whether a page is a single resource
 
 #### Defined in
 
-main.ts:158335
+main.ts:155167
 
 ***
 
@@ -287,9 +307,13 @@ if there is no data, the value will be null
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`last_modified`](../interfaces/IHtmlResourceElementItem.md#last_modified)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`last_modified`](BaseOnPageResourceItemInfo.md#last_modified)
+
 #### Defined in
 
-main.ts:158342
+main.ts:21434
 
 ***
 
@@ -304,9 +328,13 @@ indicates the URL to redirect a page to
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`location`](../interfaces/IHtmlResourceElementItem.md#location)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`location`](BaseOnPageResourceItemInfo.md#location)
+
 #### Defined in
 
-main.ts:158275
+main.ts:21402
 
 ***
 
@@ -320,9 +348,13 @@ types of media used to display a page
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`media_type`](../interfaces/IHtmlResourceElementItem.md#media_type)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`media_type`](BaseOnPageResourceItemInfo.md#media_type)
+
 #### Defined in
 
-main.ts:158331
+main.ts:21429
 
 ***
 
@@ -339,7 +371,7 @@ the value depends on the resource_type
 
 #### Defined in
 
-main.ts:158280
+main.ts:155139
 
 ***
 
@@ -358,7 +390,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:158287
+main.ts:155146
 
 ***
 
@@ -374,7 +406,7 @@ object of page load metrics
 
 #### Defined in
 
-main.ts:158282
+main.ts:155141
 
 ***
 
@@ -390,7 +422,7 @@ relative URL length in characters
 
 #### Defined in
 
-main.ts:158339
+main.ts:155171
 
 ***
 
@@ -404,9 +436,33 @@ resource errors and warnings
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`resource_errors`](../interfaces/IHtmlResourceElementItem.md#resource_errors)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_errors`](BaseOnPageResourceItemInfo.md#resource_errors)
+
 #### Defined in
 
-main.ts:158295
+main.ts:21406
+
+***
+
+### resource\_type?
+
+> `optional` **resource\_type**: `string`
+
+type of the returned resource
+
+#### Implementation of
+
+[`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`resource_type`](../interfaces/IHtmlResourceElementItem.md#resource_type)
+
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`resource_type`](BaseOnPageResourceItemInfo.md#resource_type)
+
+#### Defined in
+
+main.ts:21397
 
 ***
 
@@ -420,9 +476,13 @@ server version
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`server`](../interfaces/IHtmlResourceElementItem.md#server)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`server`](BaseOnPageResourceItemInfo.md#server)
+
 #### Defined in
 
-main.ts:158333
+main.ts:21431
 
 ***
 
@@ -437,9 +497,13 @@ indicates the size of a given page measured in bytes
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`size`](../interfaces/IHtmlResourceElementItem.md#size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`size`](BaseOnPageResourceItemInfo.md#size)
+
 #### Defined in
 
-main.ts:158311
+main.ts:21409
 
 ***
 
@@ -453,9 +517,13 @@ status code of the page
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`status_code`](../interfaces/IHtmlResourceElementItem.md#status_code)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`status_code`](BaseOnPageResourceItemInfo.md#status_code)
+
 #### Defined in
 
-main.ts:158272
+main.ts:21399
 
 ***
 
@@ -471,7 +539,7 @@ total DOM size of a page
 
 #### Defined in
 
-main.ts:158289
+main.ts:155148
 
 ***
 
@@ -486,9 +554,13 @@ indicates the compressed size of a given page
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`total_transfer_size`](../interfaces/IHtmlResourceElementItem.md#total_transfer_size)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`total_transfer_size`](BaseOnPageResourceItemInfo.md#total_transfer_size)
+
 #### Defined in
 
-main.ts:158317
+main.ts:21415
 
 ***
 
@@ -502,9 +574,13 @@ page URL
 
 [`IHtmlResourceElementItem`](../interfaces/IHtmlResourceElementItem.md).[`url`](../interfaces/IHtmlResourceElementItem.md#url)
 
+#### Inherited from
+
+[`BaseOnPageResourceItemInfo`](BaseOnPageResourceItemInfo.md).[`url`](BaseOnPageResourceItemInfo.md#url)
+
 #### Defined in
 
-main.ts:158277
+main.ts:21404
 
 ***
 
@@ -520,7 +596,7 @@ page URL length in characters
 
 #### Defined in
 
-main.ts:158337
+main.ts:155169
 
 ## Methods
 
@@ -542,7 +618,7 @@ main.ts:158337
 
 #### Defined in
 
-main.ts:158351
+main.ts:155180
 
 ***
 
@@ -564,7 +640,7 @@ main.ts:158351
 
 #### Defined in
 
-main.ts:158402
+main.ts:155211
 
 ***
 
@@ -586,4 +662,4 @@ main.ts:158402
 
 #### Defined in
 
-main.ts:158395
+main.ts:155204

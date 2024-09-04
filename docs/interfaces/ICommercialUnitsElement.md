@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICommercialUnitsElement
+[Documentation](../globals.md) / ICommercialUnitsElement
 
 # Interface: ICommercialUnitsElement
 
@@ -20,7 +20,7 @@ website domain
 
 #### Defined in
 
-main.ts:35352
+main.ts:34120
 
 ***
 
@@ -32,7 +32,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:35354
+main.ts:34122
 
 ***
 
@@ -45,7 +45,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:35360
+main.ts:34128
 
 ***
 
@@ -58,7 +58,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:35357
+main.ts:34125
 
 ***
 
@@ -70,7 +70,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35348
+main.ts:34116
 
 ***
 
@@ -82,7 +82,7 @@ type of element
 
 #### Defined in
 
-main.ts:35346
+main.ts:34114
 
 ***
 
@@ -94,4 +94,4 @@ URL
 
 #### Defined in
 
-main.ts:35350
+main.ts:34118

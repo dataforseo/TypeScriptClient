@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataSocialMediaFacebookLiveRequestInfo
+[Documentation](../globals.md) / BusinessDataSocialMediaFacebookLiveRequestInfo
 
 # Class: BusinessDataSocialMediaFacebookLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:219607
+main.ts:214867
 
 ## Properties
 
@@ -50,7 +50,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:219603
+main.ts:214863
 
 ***
 
@@ -71,7 +71,7 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-main.ts:219597
+main.ts:214857
 
 ## Methods
 
@@ -89,7 +89,7 @@ main.ts:219597
 
 #### Defined in
 
-main.ts:219616
+main.ts:214876
 
 ***
 
@@ -107,7 +107,7 @@ main.ts:219616
 
 #### Defined in
 
-main.ts:219638
+main.ts:214898
 
 ***
 
@@ -125,4 +125,4 @@ main.ts:219638
 
 #### Defined in
 
-main.ts:219631
+main.ts:214891

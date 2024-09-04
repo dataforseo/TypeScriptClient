@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleTopSearchesLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleTopSearchesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleTopSearchesLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:91180
+main.ts:89852
 
 ## Properties
 
@@ -63,7 +63,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:91135
+main.ts:89807
 
 ***
 
@@ -82,7 +82,7 @@ default value: false
 
 #### Defined in
 
-main.ts:91116
+main.ts:89788
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:91111
+main.ts:89783
 
 ***
 
@@ -122,7 +122,7 @@ default value: false
 
 #### Defined in
 
-main.ts:91104
+main.ts:89776
 
 ***
 
@@ -144,7 +144,7 @@ en
 
 #### Defined in
 
-main.ts:91099
+main.ts:89771
 
 ***
 
@@ -166,7 +166,7 @@ English
 
 #### Defined in
 
-main.ts:91091
+main.ts:89763
 
 ***
 
@@ -186,7 +186,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:91163
+main.ts:89835
 
 ***
 
@@ -208,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:91083
+main.ts:89755
 
 ***
 
@@ -230,7 +230,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:91075
+main.ts:89747
 
 ***
 
@@ -249,7 +249,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:91168
+main.ts:89840
 
 ***
 
@@ -271,7 +271,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:91176
+main.ts:89848
 
 ***
 
@@ -301,7 +301,7 @@ example:
 
 #### Defined in
 
-main.ts:91151
+main.ts:89823
 
 ***
 
@@ -321,7 +321,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:91157
+main.ts:89829
 
 ## Methods
 
@@ -339,7 +339,7 @@ main.ts:91157
 
 #### Defined in
 
-main.ts:91189
+main.ts:89861
 
 ***
 
@@ -357,7 +357,7 @@ main.ts:91189
 
 #### Defined in
 
-main.ts:91226
+main.ts:89898
 
 ***
 
@@ -375,4 +375,4 @@ main.ts:91226
 
 #### Defined in
 
-main.ts:91219
+main.ts:89891

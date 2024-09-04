@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppListingsSearchLiveItem
+[Documentation](../globals.md) / AppDataGoogleAppListingsSearchLiveItem
 
 # Class: AppDataGoogleAppListingsSearchLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:196579
+main.ts:192033
 
 ## Properties
 
@@ -46,7 +46,7 @@ ID of the returned app
 
 #### Defined in
 
-main.ts:196559
+main.ts:192013
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:196568
+main.ts:192022
 
 ***
 
@@ -79,7 +79,7 @@ detailed information about the app
 
 #### Defined in
 
-main.ts:196575
+main.ts:192029
 
 ***
 
@@ -95,7 +95,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:196565
+main.ts:192019
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:196563
+main.ts:192017
 
 ***
 
@@ -127,7 +127,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:196561
+main.ts:192015
 
 ***
 
@@ -146,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:196573
+main.ts:192027
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:196573
 
 #### Defined in
 
-main.ts:196588
+main.ts:192042
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:196588
 
 #### Defined in
 
-main.ts:196611
+main.ts:192065
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:196611
 
 #### Defined in
 
-main.ts:196604
+main.ts:192058

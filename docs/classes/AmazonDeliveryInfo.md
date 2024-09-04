@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AmazonDeliveryInfo
+[Documentation](../globals.md) / AmazonDeliveryInfo
 
 # Class: AmazonDeliveryInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22410
+main.ts:22726
 
 ## Properties
 
@@ -46,7 +46,7 @@ the earliest date when the product can be shipped
 
 #### Defined in
 
-main.ts:22396
+main.ts:22712
 
 ***
 
@@ -62,7 +62,7 @@ the latest date when the product can be delivered
 
 #### Defined in
 
-main.ts:22398
+main.ts:22714
 
 ***
 
@@ -78,7 +78,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:22394
+main.ts:22710
 
 ***
 
@@ -96,7 +96,7 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:22406
+main.ts:22722
 
 ***
 
@@ -112,7 +112,7 @@ the earliest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:22400
+main.ts:22716
 
 ***
 
@@ -128,7 +128,7 @@ the latest date when the product can be delivered with a fast delivery option
 
 #### Defined in
 
-main.ts:22402
+main.ts:22718
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:22402
 
 #### Defined in
 
-main.ts:22419
+main.ts:22735
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:22419
 
 #### Defined in
 
-main.ts:22441
+main.ts:22757
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:22441
 
 #### Defined in
 
-main.ts:22434
+main.ts:22750

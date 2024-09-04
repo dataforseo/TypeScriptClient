@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IResponseDataInfo
+[Documentation](../globals.md) / IResponseDataInfo
 
 # Interface: IResponseDataInfo
 
@@ -20,7 +20,7 @@ author of the response
 
 #### Defined in
 
-main.ts:195554
+main.ts:191046
 
 ***
 
@@ -32,7 +32,7 @@ content of the response
 
 #### Defined in
 
-main.ts:195559
+main.ts:191051
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:195564
+main.ts:191056
 
 ***
 
@@ -60,4 +60,4 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:195557
+main.ts:191049

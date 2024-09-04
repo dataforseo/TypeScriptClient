@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Groups
+[Documentation](../globals.md) / Groups
 
 # Class: Groups
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:77265
+main.ts:75937
 
 ## Properties
 
@@ -46,7 +46,7 @@ technology categories in this group
 
 #### Defined in
 
-main.ts:77261
+main.ts:75933
 
 ***
 
@@ -64,7 +64,7 @@ marketing, sales
 
 #### Defined in
 
-main.ts:77257
+main.ts:75929
 
 ***
 
@@ -80,7 +80,7 @@ title of the technology group
 
 #### Defined in
 
-main.ts:77259
+main.ts:75931
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:77259
 
 #### Defined in
 
-main.ts:77274
+main.ts:75946
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:77274
 
 #### Defined in
 
-main.ts:77297
+main.ts:75969
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:77297
 
 #### Defined in
 
-main.ts:77290
+main.ts:75962

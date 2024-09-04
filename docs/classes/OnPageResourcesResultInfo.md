@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageResourcesResultInfo
+[Documentation](../globals.md) / OnPageResourcesResultInfo
 
 # Class: OnPageResourcesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:159701
+main.ts:156411
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:159689
+main.ts:156399
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:159691
+main.ts:156401
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Defined in
 
-main.ts:159697
+main.ts:156407
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:159695
+main.ts:156405
 
 ***
 
@@ -111,7 +111,7 @@ total number of relevant items crawled
 
 #### Defined in
 
-main.ts:159693
+main.ts:156403
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:159693
 
 #### Defined in
 
-main.ts:159710
+main.ts:156420
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:159710
 
 #### Defined in
 
-main.ts:159735
+main.ts:156445
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:159735
 
 #### Defined in
 
-main.ts:159728
+main.ts:156438

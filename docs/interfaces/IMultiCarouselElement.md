@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMultiCarouselElement
+[Documentation](../globals.md) / IMultiCarouselElement
 
 # Interface: IMultiCarouselElement
 
@@ -20,7 +20,7 @@ multi_carousel_snippet results
 
 #### Defined in
 
-main.ts:33122
+main.ts:32308
 
 ***
 
@@ -32,7 +32,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33120
+main.ts:32306
 
 ***
 
@@ -44,4 +44,4 @@ type of element
 
 #### Defined in
 
-main.ts:33118
+main.ts:32304

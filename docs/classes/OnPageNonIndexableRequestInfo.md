@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageNonIndexableRequestInfo
+[Documentation](../globals.md) / OnPageNonIndexableRequestInfo
 
 # Class: OnPageNonIndexableRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:162682
+main.ts:158612
 
 ## Properties
 
@@ -60,7 +60,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:162678
+main.ts:158608
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:162652
+main.ts:158582
 
 ***
 
@@ -99,7 +99,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:162657
+main.ts:158587
 
 ***
 
@@ -118,7 +118,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:162662
+main.ts:158592
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:162662
 
 #### Defined in
 
-main.ts:162691
+main.ts:158621
 
 ***
 
@@ -154,7 +154,7 @@ main.ts:162691
 
 #### Defined in
 
-main.ts:162715
+main.ts:158645
 
 ***
 
@@ -172,4 +172,4 @@ main.ts:162715
 
 #### Defined in
 
-main.ts:162708
+main.ts:158638

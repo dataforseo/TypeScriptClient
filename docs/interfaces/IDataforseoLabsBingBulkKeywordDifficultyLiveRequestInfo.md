@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
 # Interface: IDataforseoLabsBingBulkKeywordDifficultyLiveRequestInfo
 
@@ -25,7 +25,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:108524
+main.ts:105658
 
 ***
 
@@ -42,7 +42,7 @@ en
 
 #### Defined in
 
-main.ts:108554
+main.ts:105688
 
 ***
 
@@ -59,7 +59,7 @@ English
 
 #### Defined in
 
-main.ts:108547
+main.ts:105681
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:108540
+main.ts:105674
 
 ***
 
@@ -95,7 +95,7 @@ United States
 
 #### Defined in
 
-main.ts:108532
+main.ts:105666
 
 ***
 
@@ -111,4 +111,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:108560
+main.ts:105694

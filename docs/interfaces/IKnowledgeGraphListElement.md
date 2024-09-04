@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKnowledgeGraphListElement
+[Documentation](../globals.md) / IKnowledgeGraphListElement
 
 # Interface: IKnowledgeGraphListElement
 
@@ -20,7 +20,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:27725
+main.ts:27935
 
 ***
 
@@ -33,7 +33,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:27728
+main.ts:27938
 
 ***
 
@@ -45,7 +45,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:27721
+main.ts:27931
 
 ***
 
@@ -57,7 +57,7 @@ link anchor text
 
 #### Defined in
 
-main.ts:27719
+main.ts:27929
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:27717
+main.ts:27927
 
 ***
 
@@ -81,7 +81,7 @@ sitelink URL
 
 #### Defined in
 
-main.ts:27723
+main.ts:27933
 
 ***
 
@@ -93,4 +93,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:27730
+main.ts:27940

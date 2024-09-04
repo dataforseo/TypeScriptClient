@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingDomainIntersectionLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsBingDomainIntersectionLiveRequestInfo
 
 # Class: DataforseoLabsBingDomainIntersectionLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:109829
+main.ts:106963
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:109803
+main.ts:106937
 
 ***
 
@@ -80,7 +80,7 @@ default value: false
 
 #### Defined in
 
-main.ts:109776
+main.ts:106910
 
 ***
 
@@ -102,7 +102,7 @@ default value: true
 
 #### Defined in
 
-main.ts:109763
+main.ts:106897
 
 ***
 
@@ -124,7 +124,7 @@ default value:
 
 #### Defined in
 
-main.ts:109771
+main.ts:106905
 
 ***
 
@@ -146,7 +146,7 @@ en
 
 #### Defined in
 
-main.ts:109755
+main.ts:106889
 
 ***
 
@@ -168,7 +168,7 @@ English
 
 #### Defined in
 
-main.ts:109747
+main.ts:106881
 
 ***
 
@@ -187,7 +187,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:109781
+main.ts:106915
 
 ***
 
@@ -210,7 +210,7 @@ example:
 
 #### Defined in
 
-main.ts:109739
+main.ts:106873
 
 ***
 
@@ -233,7 +233,7 @@ United States
 
 #### Defined in
 
-main.ts:109730
+main.ts:106864
 
 ***
 
@@ -252,7 +252,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:109786
+main.ts:106920
 
 ***
 
@@ -282,7 +282,7 @@ example:
 
 #### Defined in
 
-main.ts:109819
+main.ts:106953
 
 ***
 
@@ -302,7 +302,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:109825
+main.ts:106959
 
 ***
 
@@ -321,7 +321,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:109716
+main.ts:106850
 
 ***
 
@@ -340,7 +340,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:109721
+main.ts:106855
 
 ## Methods
 
@@ -358,7 +358,7 @@ main.ts:109721
 
 #### Defined in
 
-main.ts:109838
+main.ts:106972
 
 ***
 
@@ -376,7 +376,7 @@ main.ts:109838
 
 #### Defined in
 
-main.ts:109880
+main.ts:107014
 
 ***
 
@@ -394,4 +394,4 @@ main.ts:109880
 
 #### Defined in
 
-main.ts:109873
+main.ts:107007

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleReviewsTaskPostRequestInfo
+[Documentation](../globals.md) / BusinessDataGoogleReviewsTaskPostRequestInfo
 
 # Class: BusinessDataGoogleReviewsTaskPostRequestInfo
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:212715
+main.ts:208053
 
 ## Properties
 
@@ -58,7 +58,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:212688
+main.ts:208026
 
 ***
 
@@ -79,7 +79,7 @@ maximum value: 4490
 
 #### Defined in
 
-main.ts:212701
+main.ts:208039
 
 ***
 
@@ -113,7 +113,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:197393
+main.ts:192847
 
 ***
 
@@ -138,7 +138,7 @@ en
 
 #### Defined in
 
-main.ts:197439
+main.ts:192893
 
 ***
 
@@ -163,7 +163,7 @@ English
 
 #### Defined in
 
-main.ts:197432
+main.ts:192886
 
 ***
 
@@ -188,7 +188,7 @@ example:
 
 #### Defined in
 
-main.ts:197415
+main.ts:192869
 
 ***
 
@@ -216,7 +216,7 @@ example:
 
 #### Defined in
 
-main.ts:197425
+main.ts:192879
 
 ***
 
@@ -241,7 +241,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:197408
+main.ts:192862
 
 ***
 
@@ -269,7 +269,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197465
+main.ts:192919
 
 ***
 
@@ -289,7 +289,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:212694
+main.ts:208032
 
 ***
 
@@ -317,7 +317,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:197455
+main.ts:192909
 
 ***
 
@@ -343,7 +343,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:197401
+main.ts:192855
 
 ***
 
@@ -367,7 +367,7 @@ default value: relevant
 
 #### Defined in
 
-main.ts:212711
+main.ts:208049
 
 ***
 
@@ -391,7 +391,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:197445
+main.ts:192899
 
 ## Methods
 
@@ -413,7 +413,7 @@ main.ts:197445
 
 #### Defined in
 
-main.ts:212719
+main.ts:208057
 
 ***
 
@@ -435,7 +435,7 @@ main.ts:212719
 
 #### Defined in
 
-main.ts:212740
+main.ts:208078
 
 ***
 
@@ -457,4 +457,4 @@ main.ts:212740
 
 #### Defined in
 
-main.ts:212733
+main.ts:208071

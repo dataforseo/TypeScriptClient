@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksReferringDomainsLiveRequestInfo
+[Documentation](../globals.md) / BacklinksReferringDomainsLiveRequestInfo
 
 # Class: BacklinksReferringDomainsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:147192
+main.ts:144058
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:147166
+main.ts:144032
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Defined in
 
-main.ts:147127
+main.ts:143993
 
 ***
 
@@ -94,7 +94,7 @@ default value: true
 
 #### Defined in
 
-main.ts:147182
+main.ts:144048
 
 ***
 
@@ -125,7 +125,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:147144
+main.ts:144010
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Defined in
 
-main.ts:147177
+main.ts:144043
 
 ***
 
@@ -164,7 +164,7 @@ default value: true
 
 #### Defined in
 
-main.ts:147171
+main.ts:144037
 
 ***
 
@@ -189,7 +189,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147118
+main.ts:143984
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147102
+main.ts:143968
 
 ***
 
@@ -227,7 +227,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:147107
+main.ts:143973
 
 ***
 
@@ -255,7 +255,7 @@ example:
 
 #### Defined in
 
-main.ts:147158
+main.ts:144024
 
 ***
 
@@ -275,7 +275,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:147188
+main.ts:144054
 
 ***
 
@@ -294,7 +294,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:147097
+main.ts:143963
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:147097
 
 #### Defined in
 
-main.ts:147201
+main.ts:144067
 
 ***
 
@@ -330,7 +330,7 @@ main.ts:147201
 
 #### Defined in
 
-main.ts:147241
+main.ts:144107
 
 ***
 
@@ -348,4 +348,4 @@ main.ts:147241
 
 #### Defined in
 
-main.ts:147234
+main.ts:144100

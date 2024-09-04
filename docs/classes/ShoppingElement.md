@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ShoppingElement
+[Documentation](../globals.md) / ShoppingElement
 
 # Class: ShoppingElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:32200
+main.ts:31576
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:32186
+main.ts:31562
 
 ***
 
@@ -65,7 +65,7 @@ by Google
 
 #### Defined in
 
-main.ts:32191
+main.ts:31567
 
 ***
 
@@ -82,7 +82,7 @@ URL of the page on the marketplace website where the product is hosted
 
 #### Defined in
 
-main.ts:32194
+main.ts:31570
 
 ***
 
@@ -98,7 +98,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:32181
+main.ts:31557
 
 ***
 
@@ -115,7 +115,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:32184
+main.ts:31560
 
 ***
 
@@ -131,7 +131,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32179
+main.ts:31555
 
 ***
 
@@ -147,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:32177
+main.ts:31553
 
 ***
 
@@ -163,7 +163,7 @@ URL
 
 #### Defined in
 
-main.ts:32196
+main.ts:31572
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:32196
 
 #### Defined in
 
-main.ts:32209
+main.ts:31585
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:32209
 
 #### Defined in
 
-main.ts:32233
+main.ts:31609
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:32233
 
 #### Defined in
 
-main.ts:32226
+main.ts:31602

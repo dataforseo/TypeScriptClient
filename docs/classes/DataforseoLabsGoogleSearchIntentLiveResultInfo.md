@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleSearchIntentLiveResultInfo
 
 # Class: DataforseoLabsGoogleSearchIntentLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:88218
+main.ts:86890
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:88214
+main.ts:86886
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:88212
+main.ts:86884
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:88210
+main.ts:86882
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:88210
 
 #### Defined in
 
-main.ts:88227
+main.ts:86899
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:88227
 
 #### Defined in
 
-main.ts:88250
+main.ts:86922
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:88250
 
 #### Defined in
 
-main.ts:88243
+main.ts:86915

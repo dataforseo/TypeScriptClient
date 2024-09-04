@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IInterestsComparison
+[Documentation](../globals.md) / IInterestsComparison
 
 # Interface: IInterestsComparison
 
@@ -21,7 +21,7 @@ values in this array represent percentages relative to the maximum value across 
 
 #### Defined in
 
-main.ts:129467
+main.ts:126381
 
 ***
 
@@ -33,4 +33,4 @@ contains keyword popularity and related data
 
 #### Defined in
 
-main.ts:129464
+main.ts:126378

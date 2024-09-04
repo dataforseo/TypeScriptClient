@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / RankInfo
+[Documentation](../globals.md) / RankInfo
 
 # Class: RankInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:92575
+main.ts:91247
 
 ## Properties
 
@@ -48,7 +48,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:92571
+main.ts:91243
 
 ***
 
@@ -66,7 +66,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:92567
+main.ts:91239
 
 ## Methods
 
@@ -84,7 +84,7 @@ main.ts:92567
 
 #### Defined in
 
-main.ts:92584
+main.ts:91256
 
 ***
 
@@ -102,7 +102,7 @@ main.ts:92584
 
 #### Defined in
 
-main.ts:92602
+main.ts:91274
 
 ***
 
@@ -120,4 +120,4 @@ main.ts:92602
 
 #### Defined in
 
-main.ts:92595
+main.ts:91267

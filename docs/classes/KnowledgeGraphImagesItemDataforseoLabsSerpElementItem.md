@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphImagesItemDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / KnowledgeGraphImagesItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphImagesItemDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:98277
+main.ts:96122
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:98277
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:98273
+main.ts:96118
 
 ***
 
@@ -85,7 +85,7 @@ link of the element
 
 #### Defined in
 
-main.ts:98270
+main.ts:96115
 
 ***
 
@@ -101,9 +101,13 @@ left, right
 
 [`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:98266
+main.ts:20738
 
 ***
 
@@ -118,9 +122,13 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:98262
+main.ts:20734
 
 ***
 
@@ -128,7 +136,6 @@ main.ts:98262
 
 > `optional` **rank\_group**: `number`
 
-group rank in SERP
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
@@ -136,9 +143,33 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:98259
+main.ts:20731
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -152,9 +183,13 @@ the XPath of the element
 
 [`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:98268
+main.ts:20740
 
 ## Methods
 
@@ -176,7 +211,7 @@ main.ts:98268
 
 #### Defined in
 
-main.ts:98282
+main.ts:96127
 
 ***
 
@@ -198,7 +233,7 @@ main.ts:98282
 
 #### Defined in
 
-main.ts:98309
+main.ts:96150
 
 ***
 
@@ -220,4 +255,4 @@ main.ts:98309
 
 #### Defined in
 
-main.ts:98302
+main.ts:96143

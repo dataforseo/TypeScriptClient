@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
 # Class: DataforseoLabsGoogleSerpCompetitorsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:93830
+main.ts:92470
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains detected SERP competitors and related data
 
 #### Defined in
 
-main.ts:93826
+main.ts:92466
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:93824
+main.ts:92464
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:93820
+main.ts:92460
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:93817
+main.ts:92457
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93811
+main.ts:92451
 
 ***
 
@@ -129,7 +129,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:93814
+main.ts:92454
 
 ***
 
@@ -145,7 +145,7 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:93822
+main.ts:92462
 
 ## Methods
 
@@ -163,7 +163,7 @@ main.ts:93822
 
 #### Defined in
 
-main.ts:93839
+main.ts:92479
 
 ***
 
@@ -181,7 +181,7 @@ main.ts:93839
 
 #### Defined in
 
-main.ts:93870
+main.ts:92510
 
 ***
 
@@ -199,4 +199,4 @@ main.ts:93870
 
 #### Defined in
 
-main.ts:93863
+main.ts:92503

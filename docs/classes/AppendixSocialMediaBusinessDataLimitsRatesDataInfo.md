@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixSocialMediaBusinessDataLimitsRatesDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:221707
+main.ts:216967
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:221707
 
 #### Defined in
 
-main.ts:221701
+main.ts:216961
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:221701
 
 #### Defined in
 
-main.ts:221702
+main.ts:216962
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:221702
 
 #### Defined in
 
-main.ts:221703
+main.ts:216963
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:221703
 
 #### Defined in
 
-main.ts:221716
+main.ts:216976
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:221716
 
 #### Defined in
 
-main.ts:221735
+main.ts:216995
 
 ***
 
@@ -126,4 +126,4 @@ main.ts:221735
 
 #### Defined in
 
-main.ts:221728
+main.ts:216988

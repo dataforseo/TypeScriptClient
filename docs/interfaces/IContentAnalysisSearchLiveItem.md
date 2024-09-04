@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisSearchLiveItem
+[Documentation](../globals.md) / IContentAnalysisSearchLiveItem
 
 # Interface: IContentAnalysisSearchLiveItem
 
@@ -20,7 +20,7 @@ contains data on citations from the given url
 
 #### Defined in
 
-main.ts:170577
+main.ts:166507
 
 ***
 
@@ -33,7 +33,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:170556
+main.ts:166486
 
 ***
 
@@ -45,7 +45,7 @@ domain name
 
 #### Defined in
 
-main.ts:170532
+main.ts:166462
 
 ***
 
@@ -60,7 +60,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:170548
+main.ts:166478
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:170553
+main.ts:166483
 
 ***
 
@@ -88,7 +88,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:170559
+main.ts:166489
 
 ***
 
@@ -100,7 +100,7 @@ main domain
 
 #### Defined in
 
-main.ts:170534
+main.ts:166464
 
 ***
 
@@ -114,7 +114,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:170567
+main.ts:166497
 
 ***
 
@@ -126,7 +126,7 @@ page types
 
 #### Defined in
 
-main.ts:170569
+main.ts:166499
 
 ***
 
@@ -139,7 +139,7 @@ all ratings found on the page based on microdata
 
 #### Defined in
 
-main.ts:170572
+main.ts:166502
 
 ***
 
@@ -153,7 +153,7 @@ the higher the score, the more value the related citation has
 
 #### Defined in
 
-main.ts:170563
+main.ts:166493
 
 ***
 
@@ -166,7 +166,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:170575
+main.ts:166505
 
 ***
 
@@ -180,7 +180,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:170543
+main.ts:166473
 
 ***
 
@@ -192,7 +192,7 @@ type of element
 
 #### Defined in
 
-main.ts:170528
+main.ts:166458
 
 ***
 
@@ -204,7 +204,7 @@ URL where the citation was found
 
 #### Defined in
 
-main.ts:170530
+main.ts:166460
 
 ***
 
@@ -219,4 +219,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:170539
+main.ts:166469

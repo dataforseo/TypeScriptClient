@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentGenerationGenerateSubTopicsLiveRequestInfo
+[Documentation](../globals.md) / ContentGenerationGenerateSubTopicsLiveRequestInfo
 
 # Class: ContentGenerationGenerateSubTopicsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:174600
+main.ts:170530
 
 ## Properties
 
@@ -51,7 +51,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:174590
+main.ts:170520
 
 ***
 
@@ -71,7 +71,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:174596
+main.ts:170526
 
 ***
 
@@ -90,7 +90,7 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-main.ts:174583
+main.ts:170513
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:174583
 
 #### Defined in
 
-main.ts:174609
+main.ts:170539
 
 ***
 
@@ -126,7 +126,7 @@ main.ts:174609
 
 #### Defined in
 
-main.ts:174628
+main.ts:170558
 
 ***
 
@@ -144,4 +144,4 @@ main.ts:174628
 
 #### Defined in
 
-main.ts:174621
+main.ts:170551

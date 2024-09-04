@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingLanguagesResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingLanguagesResultInfo
 
 # Interface: IKeywordsDataBingLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:131197
+main.ts:128063
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:131195
+main.ts:128061

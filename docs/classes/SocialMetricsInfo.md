@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SocialMetricsInfo
+[Documentation](../globals.md) / SocialMetricsInfo
 
 # Class: SocialMetricsInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22872
+main.ts:23188
 
 ## Properties
 
@@ -46,7 +46,7 @@ likes count
 
 #### Defined in
 
-main.ts:22868
+main.ts:23184
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:22866
+main.ts:23182
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:22866
 
 #### Defined in
 
-main.ts:22881
+main.ts:23197
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:22881
 
 #### Defined in
 
-main.ts:22899
+main.ts:23215
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:22899
 
 #### Defined in
 
-main.ts:22892
+main.ts:23208

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixLimitsRatesData
+[Documentation](../globals.md) / AppendixLimitsRatesData
 
 # Class: AppendixLimitsRatesData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:222882
+main.ts:218142
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:222882
 
 #### Defined in
 
-main.ts:222877
+main.ts:218137
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:222877
 
 #### Defined in
 
-main.ts:222878
+main.ts:218138
 
 ## Methods
 
@@ -76,7 +76,7 @@ main.ts:222878
 
 #### Defined in
 
-main.ts:222891
+main.ts:218151
 
 ***
 
@@ -94,7 +94,7 @@ main.ts:222891
 
 #### Defined in
 
-main.ts:222909
+main.ts:218169
 
 ***
 
@@ -112,4 +112,4 @@ main.ts:222909
 
 #### Defined in
 
-main.ts:222902
+main.ts:218162

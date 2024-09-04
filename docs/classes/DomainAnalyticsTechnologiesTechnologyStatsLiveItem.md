@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
 # Class: DomainAnalyticsTechnologiesTechnologyStatsLiveItem
 
@@ -32,7 +32,7 @@ items array
 
 #### Defined in
 
-main.ts:78700
+main.ts:77372
 
 ## Properties
 
@@ -53,7 +53,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:78689
+main.ts:77361
 
 ***
 
@@ -69,7 +69,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:78684
+main.ts:77356
 
 ***
 
@@ -85,7 +85,7 @@ number of domains that use the specified technology
 
 #### Defined in
 
-main.ts:78686
+main.ts:77358
 
 ***
 
@@ -107,7 +107,7 @@ learn more about rank and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:78696
+main.ts:77368
 
 ***
 
@@ -128,7 +128,7 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:78692
+main.ts:77364
 
 ***
 
@@ -144,7 +144,7 @@ type of element
 
 #### Defined in
 
-main.ts:78682
+main.ts:77354
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:78682
 
 #### Defined in
 
-main.ts:78709
+main.ts:77381
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:78709
 
 #### Defined in
 
-main.ts:78749
+main.ts:77421
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:78749
 
 #### Defined in
 
-main.ts:78742
+main.ts:77414

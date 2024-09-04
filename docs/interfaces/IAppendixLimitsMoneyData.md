@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixLimitsMoneyData
+[Documentation](../globals.md) / IAppendixLimitsMoneyData
 
 # Interface: IAppendixLimitsMoneyData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:224814
+main.ts:220074
 
 ***
 
@@ -28,4 +28,4 @@ main.ts:224814
 
 #### Defined in
 
-main.ts:224815
+main.ts:220075

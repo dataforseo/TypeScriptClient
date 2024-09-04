@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRectangle
+[Documentation](../globals.md) / IRectangle
 
 # Interface: IRectangle
 
@@ -20,7 +20,7 @@ height of the element in pixels
 
 #### Defined in
 
-main.ts:22163
+main.ts:22479
 
 ***
 
@@ -32,7 +32,7 @@ width of the element in pixels
 
 #### Defined in
 
-main.ts:22161
+main.ts:22477
 
 ***
 
@@ -45,7 +45,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22156
+main.ts:22472
 
 ***
 
@@ -58,4 +58,4 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22159
+main.ts:22475

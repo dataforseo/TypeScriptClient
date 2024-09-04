@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingKeywordPerformanceTaskGetResultInfo
+[Documentation](../globals.md) / KeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
 # Class: KeywordsDataBingKeywordPerformanceTaskGetResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:136409
+main.ts:133275
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:136388
+main.ts:133254
 
 ***
 
@@ -63,7 +63,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:136405
+main.ts:133271
 
 ***
 
@@ -80,7 +80,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:136394
+main.ts:133260
 
 ***
 
@@ -97,7 +97,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:136391
+main.ts:133257
 
 ***
 
@@ -115,7 +115,7 @@ example:
 
 #### Defined in
 
-main.ts:136402
+main.ts:133268
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:136398
+main.ts:133264
 
 ## Methods
 
@@ -151,7 +151,7 @@ main.ts:136398
 
 #### Defined in
 
-main.ts:136418
+main.ts:133284
 
 ***
 
@@ -169,7 +169,7 @@ main.ts:136418
 
 #### Defined in
 
-main.ts:136440
+main.ts:133306
 
 ***
 
@@ -187,4 +187,4 @@ main.ts:136440
 
 #### Defined in
 
-main.ts:136433
+main.ts:133299

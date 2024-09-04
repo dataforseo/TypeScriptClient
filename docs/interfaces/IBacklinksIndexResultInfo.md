@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksIndexResultInfo
+[Documentation](../globals.md) / IBacklinksIndexResultInfo
 
 # Interface: IBacklinksIndexResultInfo
 
@@ -20,7 +20,7 @@ index volume data for the past 12 months
 
 #### Defined in
 
-main.ts:141727
+main.ts:138593
 
 ***
 
@@ -32,7 +32,7 @@ total number of backlinks our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:141721
+main.ts:138587
 
 ***
 
@@ -44,7 +44,7 @@ total number of domains our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:141725
+main.ts:138591
 
 ***
 
@@ -56,4 +56,4 @@ total number of pages our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:141723
+main.ts:138589

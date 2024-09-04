@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
 # Class: DataforseoLabsGoogleKeywordsForCategoriesLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:89884
+main.ts:88556
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:89766
+main.ts:88438
 
 ***
 
@@ -69,7 +69,7 @@ default value: true
 
 #### Defined in
 
-main.ts:89804
+main.ts:88476
 
 ***
 
@@ -102,7 +102,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:89858
+main.ts:88530
 
 ***
 
@@ -121,7 +121,7 @@ default value: false
 
 #### Defined in
 
-main.ts:89821
+main.ts:88493
 
 ***
 
@@ -142,7 +142,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:89816
+main.ts:88488
 
 ***
 
@@ -161,7 +161,7 @@ default value: false
 
 #### Defined in
 
-main.ts:89809
+main.ts:88481
 
 ***
 
@@ -183,7 +183,7 @@ en
 
 #### Defined in
 
-main.ts:89798
+main.ts:88470
 
 ***
 
@@ -205,7 +205,7 @@ English
 
 #### Defined in
 
-main.ts:89790
+main.ts:88462
 
 ***
 
@@ -224,7 +224,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:89826
+main.ts:88498
 
 ***
 
@@ -246,7 +246,7 @@ example:
 
 #### Defined in
 
-main.ts:89782
+main.ts:88454
 
 ***
 
@@ -268,7 +268,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:89774
+main.ts:88446
 
 ***
 
@@ -287,7 +287,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:89831
+main.ts:88503
 
 ***
 
@@ -309,7 +309,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:89839
+main.ts:88511
 
 ***
 
@@ -339,7 +339,7 @@ example:
 
 #### Defined in
 
-main.ts:89874
+main.ts:88546
 
 ***
 
@@ -359,7 +359,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:89880
+main.ts:88552
 
 ## Methods
 
@@ -377,7 +377,7 @@ main.ts:89880
 
 #### Defined in
 
-main.ts:89893
+main.ts:88565
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:89893
 
 #### Defined in
 
-main.ts:89936
+main.ts:88608
 
 ***
 
@@ -413,4 +413,4 @@ main.ts:89936
 
 #### Defined in
 
-main.ts:89929
+main.ts:88601

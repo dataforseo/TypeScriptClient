@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
+[Documentation](../globals.md) / SerpGoogleLocalFinderLiveHtmlRequestInfo
 
 # Class: SerpGoogleLocalFinderLiveHtmlRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:44789
+main.ts:42937
 
 ## Properties
 
@@ -55,7 +55,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:44765
+main.ts:42913
 
 ***
 
@@ -74,7 +74,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:44747
+main.ts:42895
 
 ***
 
@@ -95,7 +95,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:44696
+main.ts:42844
 
 ***
 
@@ -115,7 +115,7 @@ example:en
 
 #### Defined in
 
-main.ts:44742
+main.ts:42890
 
 ***
 
@@ -136,7 +136,7 @@ English
 
 #### Defined in
 
-main.ts:44736
+main.ts:42884
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Defined in
 
-main.ts:44718
+main.ts:42866
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:44729
+main.ts:42877
 
 ***
 
@@ -203,7 +203,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:44711
+main.ts:42859
 
 ***
 
@@ -222,7 +222,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-main.ts:44770
+main.ts:42918
 
 ***
 
@@ -243,7 +243,7 @@ default value: android
 
 #### Defined in
 
-main.ts:44754
+main.ts:42902
 
 ***
 
@@ -265,7 +265,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:44704
+main.ts:42852
 
 ***
 
@@ -285,7 +285,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:44785
+main.ts:42933
 
 ***
 
@@ -308,7 +308,7 @@ example: "tuesday;18"
 
 #### Defined in
 
-main.ts:44779
+main.ts:42927
 
 ## Methods
 
@@ -326,7 +326,7 @@ main.ts:44779
 
 #### Defined in
 
-main.ts:44798
+main.ts:42946
 
 ***
 
@@ -344,7 +344,7 @@ main.ts:44798
 
 #### Defined in
 
-main.ts:44827
+main.ts:42975
 
 ***
 
@@ -362,4 +362,4 @@ main.ts:44827
 
 #### Defined in
 
-main.ts:44820
+main.ts:42968

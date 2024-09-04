@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesTechnologyStatsLiveRequestInfo
 
@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:78661
+main.ts:77333
 
 ***
 
@@ -43,7 +43,7 @@ example:
 
 #### Defined in
 
-main.ts:78668
+main.ts:77340
 
 ***
 
@@ -59,7 +59,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:78674
+main.ts:77346
 
 ***
 
@@ -75,4 +75,4 @@ example:
 
 #### Defined in
 
-main.ts:78653
+main.ts:77325

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleSellersAdUrlResultInfo
+[Documentation](../globals.md) / MerchantGoogleSellersAdUrlResultInfo
 
 # Class: MerchantGoogleSellersAdUrlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:183443
+main.ts:179165
 
 ## Properties
 
@@ -46,7 +46,7 @@ unique ad click referral parameter
 
 #### Defined in
 
-main.ts:183434
+main.ts:179156
 
 ***
 
@@ -62,7 +62,7 @@ full URL of the advertisement
 
 #### Defined in
 
-main.ts:183436
+main.ts:179158
 
 ***
 
@@ -79,7 +79,7 @@ includes up to 10 URLs of the ad’s redirect path to the seller’s ad_url
 
 #### Defined in
 
-main.ts:183439
+main.ts:179161
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:183439
 
 #### Defined in
 
-main.ts:183452
+main.ts:179174
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:183452
 
 #### Defined in
 
-main.ts:183475
+main.ts:179197
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:183475
 
 #### Defined in
 
-main.ts:183468
+main.ts:179190

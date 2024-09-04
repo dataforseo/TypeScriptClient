@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleTrendsExploreLiveResultInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleTrendsExploreLiveResultInfo
 
 # Interface: IKeywordsDataGoogleTrendsExploreLiveResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:127696
+main.ts:124664
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:127701
+main.ts:124669
 
 ***
 
@@ -48,7 +48,7 @@ items on the Google Trends page
 
 #### Defined in
 
-main.ts:127705
+main.ts:124673
 
 ***
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:127703
+main.ts:124671
 
 ***
 
@@ -72,7 +72,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:127685
+main.ts:124653
 
 ***
 
@@ -85,7 +85,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127693
+main.ts:124661
 
 ***
 
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127690
+main.ts:124658
 
 ***
 
@@ -110,4 +110,4 @@ type of element
 
 #### Defined in
 
-main.ts:127687
+main.ts:124655

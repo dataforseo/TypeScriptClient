@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleTopSearchesLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleTopSearchesLiveResultInfo
 
 # Interface: IDataforseoLabsGoogleTopSearchesLiveResultInfo
 
@@ -20,7 +20,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:91470
+main.ts:90142
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:91462
+main.ts:90134
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:91458
+main.ts:90130
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:91456
+main.ts:90128
 
 ***
 
@@ -68,7 +68,7 @@ current offset value
 
 #### Defined in
 
-main.ts:91464
+main.ts:90136
 
 ***
 
@@ -82,7 +82,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:91468
+main.ts:90140
 
 ***
 
@@ -94,7 +94,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91454
+main.ts:90126
 
 ***
 
@@ -106,4 +106,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:91460
+main.ts:90132

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IContentAnalysisLanguagesResultInfo
+[Documentation](../globals.md) / IContentAnalysisLanguagesResultInfo
 
 # Interface: IContentAnalysisLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:169465
+main.ts:165395
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:169463
+main.ts:165393

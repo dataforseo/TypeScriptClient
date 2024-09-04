@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisAvailableFiltersTaskInfo
+[Documentation](../globals.md) / ContentAnalysisAvailableFiltersTaskInfo
 
 # Class: ContentAnalysisAvailableFiltersTaskInfo
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:169147
+main.ts:165077
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:23923
+main.ts:24239
 
 ***
 
@@ -82,7 +82,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:23929
+main.ts:24245
 
 ***
 
@@ -103,7 +103,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:23912
+main.ts:24228
 
 ***
 
@@ -123,7 +123,7 @@ URL path
 
 #### Defined in
 
-main.ts:23927
+main.ts:24243
 
 ***
 
@@ -137,7 +137,7 @@ main.ts:23927
 
 #### Defined in
 
-main.ts:169143
+main.ts:165073
 
 ***
 
@@ -157,7 +157,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:23925
+main.ts:24241
 
 ***
 
@@ -179,7 +179,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:23916
+main.ts:24232
 
 ***
 
@@ -200,7 +200,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:23919
+main.ts:24235
 
 ***
 
@@ -220,7 +220,7 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:23921
+main.ts:24237
 
 ## Methods
 
@@ -242,7 +242,7 @@ main.ts:23921
 
 #### Defined in
 
-main.ts:169151
+main.ts:165081
 
 ***
 
@@ -264,7 +264,7 @@ main.ts:169151
 
 #### Defined in
 
-main.ts:169173
+main.ts:165103
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:169173
 
 #### Defined in
 
-main.ts:169166
+main.ts:165096

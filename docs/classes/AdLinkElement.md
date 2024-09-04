@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AdLinkElement
+[Documentation](../globals.md) / AdLinkElement
 
 # Class: AdLinkElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:29455
+main.ts:29323
 
 ## Properties
 
@@ -46,7 +46,7 @@ the identifier of the ad
 
 #### Defined in
 
-main.ts:29451
+main.ts:29319
 
 ***
 
@@ -62,7 +62,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29445
+main.ts:29313
 
 ***
 
@@ -78,7 +78,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29449
+main.ts:29317
 
 ***
 
@@ -94,7 +94,7 @@ title of the element
 
 #### Defined in
 
-main.ts:29443
+main.ts:29311
 
 ***
 
@@ -110,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:29441
+main.ts:29309
 
 ***
 
@@ -126,7 +126,7 @@ URL
 
 #### Defined in
 
-main.ts:29447
+main.ts:29315
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:29447
 
 #### Defined in
 
-main.ts:29464
+main.ts:29332
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:29464
 
 #### Defined in
 
-main.ts:29486
+main.ts:29354
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:29486
 
 #### Defined in
 
-main.ts:29479
+main.ts:29347

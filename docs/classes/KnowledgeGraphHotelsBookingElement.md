@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphHotelsBookingElement
+[Documentation](../globals.md) / KnowledgeGraphHotelsBookingElement
 
 # Class: KnowledgeGraphHotelsBookingElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:29072
+main.ts:29008
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29059
+main.ts:28995
 
 ***
 
@@ -62,7 +62,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29063
+main.ts:28999
 
 ***
 
@@ -78,7 +78,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:29068
+main.ts:29004
 
 ***
 
@@ -95,7 +95,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:29066
+main.ts:29002
 
 ***
 
@@ -111,7 +111,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:29057
+main.ts:28993
 
 ***
 
@@ -127,7 +127,7 @@ type of element
 
 #### Defined in
 
-main.ts:29055
+main.ts:28991
 
 ***
 
@@ -143,7 +143,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:29061
+main.ts:28997
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:29061
 
 #### Defined in
 
-main.ts:29081
+main.ts:29017
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:29081
 
 #### Defined in
 
-main.ts:29104
+main.ts:29040
 
 ***
 
@@ -197,4 +197,4 @@ main.ts:29104
 
 #### Defined in
 
-main.ts:29097
+main.ts:29033

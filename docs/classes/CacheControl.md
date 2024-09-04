@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CacheControl
+[Documentation](../globals.md) / CacheControl
 
 # Class: CacheControl
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:158135
+main.ts:155001
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates whether the page is cacheable
 
 #### Defined in
 
-main.ts:158128
+main.ts:154994
 
 ***
 
@@ -63,7 +63,7 @@ the amount of time the browser caches a resource
 
 #### Defined in
 
-main.ts:158131
+main.ts:154997
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:158131
 
 #### Defined in
 
-main.ts:158144
+main.ts:155010
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:158144
 
 #### Defined in
 
-main.ts:158162
+main.ts:155028
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:158162
 
 #### Defined in
 
-main.ts:158155
+main.ts:155021

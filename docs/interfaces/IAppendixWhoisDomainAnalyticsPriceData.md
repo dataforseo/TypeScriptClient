@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixWhoisDomainAnalyticsPriceData
+[Documentation](../globals.md) / IAppendixWhoisDomainAnalyticsPriceData
 
 # Interface: IAppendixWhoisDomainAnalyticsPriceData
 
@@ -18,4 +18,4 @@
 
 #### Defined in
 
-main.ts:228001
+main.ts:223261

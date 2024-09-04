@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
+[Documentation](../globals.md) / KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
 
 # Class: KeywordsDataBingSearchVolumeHistoryTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:137275
+main.ts:134141
 
 ## Properties
 
@@ -57,7 +57,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:137232
+main.ts:134098
 
 ***
 
@@ -84,7 +84,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:137245
+main.ts:134111
 
 ***
 
@@ -104,7 +104,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 #### Defined in
 
-main.ts:137210
+main.ts:134076
 
 ***
 
@@ -124,7 +124,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:137172
+main.ts:134038
 
 ***
 
@@ -143,7 +143,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:137204
+main.ts:134070
 
 ***
 
@@ -162,7 +162,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:137199
+main.ts:134065
 
 ***
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:137186
+main.ts:134052
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Defined in
 
-main.ts:137194
+main.ts:134060
 
 ***
 
@@ -226,7 +226,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:137179
+main.ts:134045
 
 ***
 
@@ -249,7 +249,7 @@ default value:  monthly
 
 #### Defined in
 
-main.ts:137219
+main.ts:134085
 
 ***
 
@@ -273,7 +273,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:137265
+main.ts:134131
 
 ***
 
@@ -297,7 +297,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:137255
+main.ts:134121
 
 ***
 
@@ -317,7 +317,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:137271
+main.ts:134137
 
 ## Methods
 
@@ -335,7 +335,7 @@ main.ts:137271
 
 #### Defined in
 
-main.ts:137284
+main.ts:134150
 
 ***
 
@@ -353,7 +353,7 @@ main.ts:137284
 
 #### Defined in
 
-main.ts:137317
+main.ts:134183
 
 ***
 
@@ -371,4 +371,4 @@ main.ts:137317
 
 #### Defined in
 
-main.ts:137310
+main.ts:134176

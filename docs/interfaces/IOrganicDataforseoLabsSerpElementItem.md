@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOrganicDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IOrganicDataforseoLabsSerpElementItem
 
 # Interface: IOrganicDataforseoLabsSerpElementItem
 
@@ -30,7 +30,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:92884
+main.ts:91524
 
 ***
 
@@ -43,7 +43,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:92871
+main.ts:91511
 
 ***
 
@@ -55,7 +55,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:92912
+main.ts:91552
 
 ***
 
@@ -67,7 +67,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:92852
+main.ts:91492
 
 ***
 
@@ -82,7 +82,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92907
+main.ts:91547
 
 ***
 
@@ -94,7 +94,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:92864
+main.ts:91504
 
 ***
 
@@ -106,7 +106,7 @@ subdomain in SERP
 
 #### Defined in
 
-main.ts:92846
+main.ts:91486
 
 ***
 
@@ -120,7 +120,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92902
+main.ts:91542
 
 ***
 
@@ -135,7 +135,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92893
+main.ts:91533
 
 ***
 
@@ -147,7 +147,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:92868
+main.ts:91508
 
 ***
 
@@ -159,7 +159,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:92876
+main.ts:91516
 
 ***
 
@@ -174,7 +174,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92898
+main.ts:91538
 
 ***
 
@@ -186,7 +186,7 @@ indicates whether the element is a featured_snippet
 
 #### Defined in
 
-main.ts:92860
+main.ts:91500
 
 ***
 
@@ -198,7 +198,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:92856
+main.ts:91496
 
 ***
 
@@ -210,7 +210,7 @@ indicates whether the element is marked as malicious
 
 #### Defined in
 
-main.ts:92862
+main.ts:91502
 
 ***
 
@@ -222,7 +222,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:92858
+main.ts:91498
 
 ***
 
@@ -236,7 +236,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:92880
+main.ts:91520
 
 ***
 
@@ -248,7 +248,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:92886
+main.ts:91526
 
 ***
 
@@ -260,9 +260,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:92842
+main.ts:21020
 
 ***
 
@@ -274,7 +278,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:92866
+main.ts:91506
 
 ***
 
@@ -285,9 +289,13 @@ main.ts:92866
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:92838
+main.ts:21016
 
 ***
 
@@ -300,7 +308,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-main.ts:92910
+main.ts:91550
 
 ***
 
@@ -311,9 +319,13 @@ main.ts:92910
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:92835
+main.ts:21013
 
 ***
 
@@ -325,7 +337,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:92914
+main.ts:91554
 
 ***
 
@@ -338,7 +350,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:92874
+main.ts:91514
 
 ***
 
@@ -350,7 +362,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:92888
+main.ts:91528
 
 ***
 
@@ -362,7 +374,7 @@ search engine type
 
 #### Defined in
 
-main.ts:92832
+main.ts:91484
 
 ***
 
@@ -374,7 +386,23 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:92848
+main.ts:91488
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -386,7 +414,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:92850
+main.ts:91490
 
 ***
 
@@ -398,7 +426,7 @@ relevant website name in SERP
 
 #### Defined in
 
-main.ts:92854
+main.ts:91494
 
 ***
 
@@ -408,6 +436,10 @@ main.ts:92854
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:92844
+main.ts:21022

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsAppleBulkAppMetricsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:116706
+main.ts:113802
 
 ## Properties
 
@@ -53,7 +53,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Defined in
 
-main.ts:116660
+main.ts:113756
 
 ***
 
@@ -76,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:116696
+main.ts:113792
 
 ***
 
@@ -99,7 +99,7 @@ English
 
 #### Defined in
 
-main.ts:116687
+main.ts:113783
 
 ***
 
@@ -122,7 +122,7 @@ example:
 
 #### Defined in
 
-main.ts:116678
+main.ts:113774
 
 ***
 
@@ -145,7 +145,7 @@ United States
 
 #### Defined in
 
-main.ts:116669
+main.ts:113765
 
 ***
 
@@ -165,7 +165,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:116702
+main.ts:113798
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:116702
 
 #### Defined in
 
-main.ts:116715
+main.ts:113811
 
 ***
 
@@ -201,7 +201,7 @@ main.ts:116715
 
 #### Defined in
 
-main.ts:116741
+main.ts:113837
 
 ***
 
@@ -219,4 +219,4 @@ main.ts:116741
 
 #### Defined in
 
-main.ts:116734
+main.ts:113830

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageRedirectChainsItem
+[Documentation](../globals.md) / IOnPageRedirectChainsItem
 
 # Interface: IOnPageRedirectChainsItem
 
@@ -20,7 +20,7 @@ contains links that form a chain
 
 #### Defined in
 
-main.ts:162447
+main.ts:158377
 
 ***
 
@@ -33,4 +33,4 @@ if true, the last URL from the chain redirects back to the original URL
 
 #### Defined in
 
-main.ts:162445
+main.ts:158375

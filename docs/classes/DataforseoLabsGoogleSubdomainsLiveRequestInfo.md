@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleSubdomainsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleSubdomainsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:95484
+main.ts:94124
 
 ## Properties
 
@@ -58,7 +58,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:95447
+main.ts:94087
 
 ***
 
@@ -81,7 +81,7 @@ default value: live
 
 #### Defined in
 
-main.ts:95433
+main.ts:94073
 
 ***
 
@@ -102,7 +102,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:95424
+main.ts:94064
 
 ***
 
@@ -125,7 +125,7 @@ default value:
 
 #### Defined in
 
-main.ts:95417
+main.ts:94057
 
 ***
 
@@ -148,7 +148,7 @@ en
 
 #### Defined in
 
-main.ts:95408
+main.ts:94048
 
 ***
 
@@ -171,7 +171,7 @@ English
 
 #### Defined in
 
-main.ts:95399
+main.ts:94039
 
 ***
 
@@ -190,7 +190,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:95469
+main.ts:94109
 
 ***
 
@@ -213,7 +213,7 @@ example:
 
 #### Defined in
 
-main.ts:95390
+main.ts:94030
 
 ***
 
@@ -236,7 +236,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:95381
+main.ts:94021
 
 ***
 
@@ -255,7 +255,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:95474
+main.ts:94114
 
 ***
 
@@ -286,7 +286,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:95464
+main.ts:94104
 
 ***
 
@@ -306,7 +306,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:95480
+main.ts:94120
 
 ***
 
@@ -325,7 +325,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:95372
+main.ts:94012
 
 ## Methods
 
@@ -343,7 +343,7 @@ main.ts:95372
 
 #### Defined in
 
-main.ts:95493
+main.ts:94133
 
 ***
 
@@ -361,7 +361,7 @@ main.ts:95493
 
 #### Defined in
 
-main.ts:95534
+main.ts:94174
 
 ***
 
@@ -379,4 +379,4 @@ main.ts:95534
 
 #### Defined in
 
-main.ts:95527
+main.ts:94167

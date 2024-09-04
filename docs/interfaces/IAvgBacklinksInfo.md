@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAvgBacklinksInfo
+[Documentation](../globals.md) / IAvgBacklinksInfo
 
 # Interface: IAvgBacklinksInfo
 
@@ -20,7 +20,7 @@ average number of backlinks
 
 #### Defined in
 
-main.ts:84691
+main.ts:83363
 
 ***
 
@@ -32,7 +32,7 @@ average number of dofollow links
 
 #### Defined in
 
-main.ts:84693
+main.ts:83365
 
 ***
 
@@ -47,7 +47,7 @@ example:
 
 #### Defined in
 
-main.ts:84710
+main.ts:83382
 
 ***
 
@@ -60,7 +60,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:84705
+main.ts:83377
 
 ***
 
@@ -73,7 +73,7 @@ learn more about the metric and its calculation formula in this help center arti
 
 #### Defined in
 
-main.ts:84702
+main.ts:83374
 
 ***
 
@@ -85,7 +85,7 @@ average number of referring domains
 
 #### Defined in
 
-main.ts:84697
+main.ts:83369
 
 ***
 
@@ -97,7 +97,7 @@ average number of referring main domains
 
 #### Defined in
 
-main.ts:84699
+main.ts:83371
 
 ***
 
@@ -109,7 +109,7 @@ average number of referring pages
 
 #### Defined in
 
-main.ts:84695
+main.ts:83367
 
 ***
 
@@ -121,4 +121,4 @@ search engine type
 
 #### Defined in
 
-main.ts:84689
+main.ts:83361

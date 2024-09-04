@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksIdListRequestInfo
+[Documentation](../globals.md) / BacklinksIdListRequestInfo
 
 # Class: BacklinksIdListRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:140622
+main.ts:137488
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:140592
+main.ts:137458
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:140599
+main.ts:137465
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:140618
+main.ts:137484
 
 ***
 
@@ -110,7 +110,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:140604
+main.ts:137470
 
 ***
 
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:140609
+main.ts:137475
 
 ***
 
@@ -148,7 +148,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:140614
+main.ts:137480
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:140614
 
 #### Defined in
 
-main.ts:140631
+main.ts:137497
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:140631
 
 #### Defined in
 
-main.ts:140653
+main.ts:137519
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:140653
 
 #### Defined in
 
-main.ts:140646
+main.ts:137512

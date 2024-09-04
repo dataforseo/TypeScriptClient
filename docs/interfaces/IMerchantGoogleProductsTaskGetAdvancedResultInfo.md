@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleProductsTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / IMerchantGoogleProductsTaskGetAdvancedResultInfo
 
 # Interface: IMerchantGoogleProductsTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:179342
+main.ts:175168
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:179347
+main.ts:175173
 
 ***
 
@@ -51,7 +51,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 #### Defined in
 
-main.ts:179355
+main.ts:175181
 
 ***
 
@@ -65,7 +65,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:179361
+main.ts:175187
 
 ***
 
@@ -77,7 +77,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:179357
+main.ts:175183
 
 ***
 
@@ -90,7 +90,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:179331
+main.ts:175157
 
 ***
 
@@ -102,7 +102,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:179339
+main.ts:175165
 
 ***
 
@@ -114,7 +114,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:179337
+main.ts:175163
 
 ***
 
@@ -126,7 +126,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:179335
+main.ts:175161
 
 ***
 
@@ -139,7 +139,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:179350
+main.ts:175176
 
 ***
 
@@ -151,4 +151,4 @@ type of element
 
 #### Defined in
 
-main.ts:179333
+main.ts:175159

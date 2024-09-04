@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataSocialMediaFacebookLiveRequestInfo
+[Documentation](../globals.md) / IBusinessDataSocialMediaFacebookLiveRequestInfo
 
 # Interface: IBusinessDataSocialMediaFacebookLiveRequestInfo
 
@@ -24,7 +24,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:219667
+main.ts:214927
 
 ***
 
@@ -41,4 +41,4 @@ Note: you can specify 10 targets maximum. You will be charged per earch URL you 
 
 #### Defined in
 
-main.ts:219661
+main.ts:214921

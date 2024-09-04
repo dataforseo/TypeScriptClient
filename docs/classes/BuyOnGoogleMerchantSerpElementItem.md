@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BuyOnGoogleMerchantSerpElementItem
+[Documentation](../globals.md) / BuyOnGoogleMerchantSerpElementItem
 
 # Class: BuyOnGoogleMerchantSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:180518
+main.ts:176308
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:180518
 
 #### Defined in
 
-main.ts:21025
+main.ts:21039
 
 ***
 
@@ -68,7 +68,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:180493
+main.ts:176283
 
 ***
 
@@ -86,7 +86,7 @@ USD
 
 #### Defined in
 
-main.ts:180504
+main.ts:176294
 
 ***
 
@@ -103,7 +103,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:180491
+main.ts:176281
 
 ***
 
@@ -119,7 +119,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:180484
+main.ts:176274
 
 ***
 
@@ -135,9 +135,13 @@ left, right
 
 [`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`position`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`position`](BaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:180480
+main.ts:21037
 
 ***
 
@@ -152,9 +156,13 @@ absolute position among all the elements found in Google Shopping SERP
 
 [`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_absolute`](BaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:180476
+main.ts:21033
 
 ***
 
@@ -169,9 +177,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`rank_group`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`rank_group`](BaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:180473
+main.ts:21030
 
 ***
 
@@ -188,7 +200,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:180510
+main.ts:176300
 
 ***
 
@@ -205,7 +217,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:180507
+main.ts:176297
 
 ***
 
@@ -221,7 +233,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:180498
+main.ts:176288
 
 ***
 
@@ -239,7 +251,7 @@ in this case, the value equals null
 
 #### Defined in
 
-main.ts:180514
+main.ts:176304
 
 ***
 
@@ -256,7 +268,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:180496
+main.ts:176286
 
 ***
 
@@ -272,7 +284,7 @@ product title
 
 #### Defined in
 
-main.ts:180486
+main.ts:176276
 
 ***
 
@@ -288,7 +300,27 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:180500
+main.ts:176290
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBuyOnGoogleMerchantSerpElementItem`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md).[`type`](../interfaces/IBuyOnGoogleMerchantSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseMerchantSerpElementItem`](BaseMerchantSerpElementItem.md).[`type`](BaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21027
 
 ***
 
@@ -304,7 +336,7 @@ Google Shopping URL forwarding to the product page
 
 #### Defined in
 
-main.ts:180488
+main.ts:176278
 
 ***
 
@@ -320,7 +352,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:180482
+main.ts:176272
 
 ## Methods
 
@@ -342,7 +374,7 @@ main.ts:180482
 
 #### Defined in
 
-main.ts:180523
+main.ts:176313
 
 ***
 
@@ -364,7 +396,7 @@ main.ts:180523
 
 #### Defined in
 
-main.ts:180556
+main.ts:176343
 
 ***
 
@@ -386,4 +418,4 @@ main.ts:180556
 
 #### Defined in
 
-main.ts:180549
+main.ts:176336

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo
+[Documentation](../globals.md) / BusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo
 
 # Class: BusinessDataGoogleQuestionsAndAnswersTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:213842
+main.ts:209164
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:213834
+main.ts:209156
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:213838
+main.ts:209160
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:213827
+main.ts:209149
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:213830
+main.ts:209152
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:213832
+main.ts:209154
 
 ***
 
@@ -128,7 +128,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:213836
+main.ts:209158
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:213836
 
 #### Defined in
 
-main.ts:213851
+main.ts:209173
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:213851
 
 #### Defined in
 
-main.ts:213873
+main.ts:209195
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:213873
 
 #### Defined in
 
-main.ts:213866
+main.ts:209188

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IStreamingQualityElement
+[Documentation](../globals.md) / IStreamingQualityElement
 
 # Interface: IStreamingQualityElement
 
@@ -20,7 +20,7 @@ bit rate of the video
 
 #### Defined in
 
-main.ts:63556
+main.ts:62235
 
 ***
 
@@ -32,7 +32,7 @@ frame rate of the video
 
 #### Defined in
 
-main.ts:63560
+main.ts:62239
 
 ***
 
@@ -44,7 +44,7 @@ video height in pixels
 
 #### Defined in
 
-main.ts:63554
+main.ts:62233
 
 ***
 
@@ -56,7 +56,7 @@ label of the quality element
 
 #### Defined in
 
-main.ts:63550
+main.ts:62229
 
 ***
 
@@ -68,7 +68,7 @@ media type of the video
 
 #### Defined in
 
-main.ts:63558
+main.ts:62237
 
 ***
 
@@ -80,7 +80,7 @@ type of element
 
 #### Defined in
 
-main.ts:63548
+main.ts:62227
 
 ***
 
@@ -92,4 +92,4 @@ video width in pixels
 
 #### Defined in
 
-main.ts:63552
+main.ts:62231

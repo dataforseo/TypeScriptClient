@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleBusinessPostBusinessDataSerpElementItem
+[Documentation](../globals.md) / IGoogleBusinessPostBusinessDataSerpElementItem
 
 # Interface: IGoogleBusinessPostBusinessDataSerpElementItem
 
@@ -24,7 +24,7 @@ author of the post
 
 #### Defined in
 
-main.ts:207374
+main.ts:202712
 
 ***
 
@@ -36,7 +36,7 @@ url of an image included in the post
 
 #### Defined in
 
-main.ts:207382
+main.ts:202720
 
 ***
 
@@ -48,7 +48,7 @@ links included in the post
 
 #### Defined in
 
-main.ts:207393
+main.ts:202731
 
 ***
 
@@ -61,7 +61,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:207370
+main.ts:202708
 
 ***
 
@@ -75,7 +75,7 @@ in the following format:
 
 #### Defined in
 
-main.ts:207386
+main.ts:202724
 
 ***
 
@@ -87,7 +87,7 @@ main content of a post
 
 #### Defined in
 
-main.ts:207378
+main.ts:202716
 
 ***
 
@@ -95,12 +95,15 @@ main.ts:207378
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed updates
-absolute position among all present elements
+absolute rank among all the elements
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:207367
+main.ts:21392
 
 ***
 
@@ -109,11 +112,15 @@ main.ts:207367
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:207364
+main.ts:21390
 
 ***
 
@@ -125,7 +132,7 @@ additional content of a post
 
 #### Defined in
 
-main.ts:207376
+main.ts:202714
 
 ***
 
@@ -140,7 +147,23 @@ example:
 
 #### Defined in
 
-main.ts:207391
+main.ts:202729
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21387
 
 ***
 
@@ -152,7 +175,7 @@ url of a post
 
 #### Defined in
 
-main.ts:207380
+main.ts:202718
 
 ***
 
@@ -164,4 +187,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:207372
+main.ts:202710

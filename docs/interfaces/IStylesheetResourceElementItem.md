@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IStylesheetResourceElementItem
+[Documentation](../globals.md) / IStylesheetResourceElementItem
 
 # Interface: IStylesheetResourceElementItem
 
@@ -27,7 +27,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Defined in
 
-main.ts:159664
+main.ts:156307
 
 ***
 
@@ -37,9 +37,13 @@ main.ts:159664
 
 instructions for caching
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`cache_control`](IBaseOnPageResourceItemInfo.md#cache_control)
+
 #### Defined in
 
-main.ts:159650
+main.ts:21561
 
 ***
 
@@ -47,16 +51,20 @@ main.ts:159650
 
 > `optional` **checks**: `object`
 
-resource check-ups
-contents of the array depend on the resource_type
+website checks
+on-page check-ups related to the page
 
 #### Index Signature
 
  \[`key`: `string`\]: `boolean`
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`checks`](IBaseOnPageResourceItemInfo.md#checks)
+
 #### Defined in
 
-main.ts:159653
+main.ts:21564
 
 ***
 
@@ -66,9 +74,13 @@ main.ts:159653
 
 type of encoding
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`content_encoding`](IBaseOnPageResourceItemInfo.md#content_encoding)
+
 #### Defined in
 
-main.ts:159657
+main.ts:21566
 
 ***
 
@@ -80,7 +92,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:159673
+main.ts:156311
 
 ***
 
@@ -88,12 +100,16 @@ main.ts:159673
 
 > `optional` **encoded\_size**: `number`
 
-resource size after encoding
-indicates the size of the encoded resource measured in bytes
+page size after encoding
+indicates the size of the encoded page measured in bytes
+
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`encoded_size`](IBaseOnPageResourceItemInfo.md#encoded_size)
 
 #### Defined in
 
-main.ts:159638
+main.ts:21551
 
 ***
 
@@ -106,7 +122,7 @@ the amount of time the browser needs to complete downloading a resource
 
 #### Defined in
 
-main.ts:159679
+main.ts:156317
 
 ***
 
@@ -119,7 +135,7 @@ the amount of time the browser needs to start downloading a resource
 
 #### Defined in
 
-main.ts:159676
+main.ts:156314
 
 ***
 
@@ -130,11 +146,15 @@ main.ts:159676
 date and time when a resource was fetched
 in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 example:
-2021-02-17 13:54:15 +00:00
+2019-11-15 12:57:46 +00:00
+
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`fetch_time`](IBaseOnPageResourceItemInfo.md#fetch_time)
 
 #### Defined in
 
-main.ts:159646
+main.ts:21559
 
 ***
 
@@ -146,7 +166,7 @@ resource fething time range
 
 #### Defined in
 
-main.ts:159648
+main.ts:156302
 
 ***
 
@@ -158,7 +178,7 @@ resource initiator
 
 #### Defined in
 
-main.ts:159671
+main.ts:156309
 
 ***
 
@@ -170,7 +190,7 @@ indicates whether the resource blocks rendering
 
 #### Defined in
 
-main.ts:159681
+main.ts:156319
 
 ***
 
@@ -181,9 +201,13 @@ main.ts:159681
 contains data on changes related to the resource
 if there is no data, the value will be null
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`last_modified`](IBaseOnPageResourceItemInfo.md#last_modified)
+
 #### Defined in
 
-main.ts:159669
+main.ts:21573
 
 ***
 
@@ -194,9 +218,13 @@ main.ts:159669
 location header
 indicates the URL to redirect a page to
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`location`](IBaseOnPageResourceItemInfo.md#location)
+
 #### Defined in
 
-main.ts:159630
+main.ts:21541
 
 ***
 
@@ -204,11 +232,15 @@ main.ts:159630
 
 > `optional` **media\_type**: `string`
 
-types of media used to display a resource
+types of media used to display a page
+
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`media_type`](IBaseOnPageResourceItemInfo.md#media_type)
 
 #### Defined in
 
-main.ts:159659
+main.ts:21568
 
 ***
 
@@ -223,7 +255,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Defined in
 
-main.ts:159625
+main.ts:156300
 
 ***
 
@@ -233,9 +265,29 @@ main.ts:159625
 
 resource errors and warnings
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`resource_errors`](IBaseOnPageResourceItemInfo.md#resource_errors)
+
 #### Defined in
 
-main.ts:159655
+main.ts:21545
+
+***
+
+### resource\_type?
+
+> `optional` **resource\_type**: `string`
+
+type of the returned resource
+
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`resource_type`](IBaseOnPageResourceItemInfo.md#resource_type)
+
+#### Defined in
+
+main.ts:21536
 
 ***
 
@@ -245,9 +297,13 @@ main.ts:159655
 
 server version
 
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`server`](IBaseOnPageResourceItemInfo.md#server)
+
 #### Defined in
 
-main.ts:159666
+main.ts:21570
 
 ***
 
@@ -256,11 +312,15 @@ main.ts:159666
 > `optional` **size**: `number`
 
 resource size
-indicates the size of a given resource measured in bytes
+indicates the size of a given page measured in bytes
+
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`size`](IBaseOnPageResourceItemInfo.md#size)
 
 #### Defined in
 
-main.ts:159635
+main.ts:21548
 
 ***
 
@@ -268,11 +328,15 @@ main.ts:159635
 
 > `optional` **status\_code**: `number`
 
-status code of the page where a given resource is located
+status code of the page
+
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`status_code`](IBaseOnPageResourceItemInfo.md#status_code)
 
 #### Defined in
 
-main.ts:159627
+main.ts:21538
 
 ***
 
@@ -280,12 +344,16 @@ main.ts:159627
 
 > `optional` **total\_transfer\_size**: `number`
 
-compressed resource size
-indicates the compressed size of a given resource in bytes
+compressed page size
+indicates the compressed size of a given page
+
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`total_transfer_size`](IBaseOnPageResourceItemInfo.md#total_transfer_size)
 
 #### Defined in
 
-main.ts:159641
+main.ts:21554
 
 ***
 
@@ -293,8 +361,12 @@ main.ts:159641
 
 > `optional` **url**: `string`
 
-resource URL
+page URL
+
+#### Inherited from
+
+[`IBaseOnPageResourceItemInfo`](IBaseOnPageResourceItemInfo.md).[`url`](IBaseOnPageResourceItemInfo.md#url)
 
 #### Defined in
 
-main.ts:159632
+main.ts:21543

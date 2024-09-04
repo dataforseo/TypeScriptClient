@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageContentParsingResultInfo
+[Documentation](../globals.md) / OnPageContentParsingResultInfo
 
 # Class: OnPageContentParsingResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:166003
+main.ts:161933
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:165993
+main.ts:161923
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:165995
+main.ts:161925
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Defined in
 
-main.ts:165999
+main.ts:161929
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:165997
+main.ts:161927
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:165997
 
 #### Defined in
 
-main.ts:166012
+main.ts:161942
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:166012
 
 #### Defined in
 
-main.ts:166036
+main.ts:161966
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:166036
 
 #### Defined in
 
-main.ts:166029
+main.ts:161959

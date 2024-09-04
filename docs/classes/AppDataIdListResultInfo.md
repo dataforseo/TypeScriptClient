@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataIdListResultInfo
+[Documentation](../globals.md) / AppDataIdListResultInfo
 
 # Class: AppDataIdListResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:190289
+main.ts:185817
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:190283
+main.ts:185811
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:190278
+main.ts:185806
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:190273
+main.ts:185801
 
 ***
 
@@ -100,7 +100,7 @@ id of the task
 
 #### Defined in
 
-main.ts:190265
+main.ts:185793
 
 ***
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:190285
+main.ts:185813
 
 ***
 
@@ -137,7 +137,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:190281
+main.ts:185809
 
 ***
 
@@ -154,7 +154,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:190268
+main.ts:185796
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:190268
 
 #### Defined in
 
-main.ts:190298
+main.ts:185826
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:190298
 
 #### Defined in
 
-main.ts:190327
+main.ts:185855
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:190327
 
 #### Defined in
 
-main.ts:190320
+main.ts:185848

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageMicrodataResultInfo
+[Documentation](../globals.md) / OnPageMicrodataResultInfo
 
 # Class: OnPageMicrodataResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:164279
+main.ts:160209
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:164267
+main.ts:160197
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:164269
+main.ts:160199
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Defined in
 
-main.ts:164275
+main.ts:160205
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:164273
+main.ts:160203
 
 ***
 
@@ -111,7 +111,7 @@ microdata validation test results
 
 #### Defined in
 
-main.ts:164271
+main.ts:160201
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:164271
 
 #### Defined in
 
-main.ts:164288
+main.ts:160218
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:164288
 
 #### Defined in
 
-main.ts:164313
+main.ts:160243
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:164313
 
 #### Defined in
 
-main.ts:164306
+main.ts:160236

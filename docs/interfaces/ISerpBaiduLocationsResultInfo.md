@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpBaiduLocationsResultInfo
+[Documentation](../globals.md) / ISerpBaiduLocationsResultInfo
 
 # Interface: ISerpBaiduLocationsResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:70271
+main.ts:68977
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:70263
+main.ts:68969
 
 ***
 
@@ -46,7 +46,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:70269
+main.ts:68975
 
 ***
 
@@ -58,7 +58,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:70265
+main.ts:68971
 
 ***
 
@@ -71,4 +71,4 @@ only City is supported for all countries except China (where Country is also sup
 
 #### Defined in
 
-main.ts:70274
+main.ts:68980

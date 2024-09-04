@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppInfoTasksReadyResultInfo
+[Documentation](../globals.md) / AppDataAppleAppInfoTasksReadyResultInfo
 
 # Class: AppDataAppleAppInfoTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:198485
+main.ts:193939
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:198474
+main.ts:193928
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Apple App Info task
 
 #### Defined in
 
-main.ts:198478
+main.ts:193932
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:198481
+main.ts:193935
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:198468
+main.ts:193922
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:198470
+main.ts:193924
 
 ***
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:198472
+main.ts:193926
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:198476
+main.ts:193930
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:198476
 
 #### Defined in
 
-main.ts:198494
+main.ts:193948
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:198494
 
 #### Defined in
 
-main.ts:198517
+main.ts:193971
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:198517
 
 #### Defined in
 
-main.ts:198510
+main.ts:193964

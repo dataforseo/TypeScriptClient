@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IPeriodCovered
+[Documentation](../globals.md) / IPeriodCovered
 
 # Interface: IPeriodCovered
 
@@ -22,7 +22,7 @@ Mar 2, 2020 - Dec 9, 2022
 
 #### Defined in
 
-main.ts:55628
+main.ts:54091
 
 ***
 
@@ -37,7 +37,7 @@ example:
 
 #### Defined in
 
-main.ts:55624
+main.ts:54087
 
 ***
 
@@ -52,4 +52,4 @@ example:
 
 #### Defined in
 
-main.ts:55619
+main.ts:54082

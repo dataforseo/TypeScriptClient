@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / CurrencyBoxSerpElementItem
+[Documentation](../globals.md) / CurrencyBoxSerpElementItem
 
 # Class: CurrencyBoxSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:36121
+main.ts:34722
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:36121
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ converted currency
 
 #### Defined in
 
-main.ts:36103
+main.ts:34704
 
 ***
 
@@ -86,7 +86,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Defined in
 
-main.ts:36098
+main.ts:34699
 
 ***
 
@@ -103,7 +103,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:36101
+main.ts:34702
 
 ***
 
@@ -119,7 +119,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:36113
+main.ts:34714
 
 ***
 
@@ -135,9 +135,13 @@ left, right
 
 [`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`position`](../interfaces/ICurrencyBoxSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:36090
+main.ts:20363
 
 ***
 
@@ -147,15 +151,18 @@ main.ts:36090
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`rank_absolute`](../interfaces/ICurrencyBoxSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:36086
+main.ts:20359
 
 ***
 
@@ -164,17 +171,20 @@ main.ts:36086
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`rank_group`](../interfaces/ICurrencyBoxSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:36082
+main.ts:20356
 
 ***
 
@@ -192,7 +202,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36117
+main.ts:34718
 
 ***
 
@@ -209,7 +219,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:36111
+main.ts:34712
 
 ***
 
@@ -228,7 +238,27 @@ example:
 
 #### Defined in
 
-main.ts:36108
+main.ts:34709
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`type`](../interfaces/ICurrencyBoxSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -244,7 +274,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:36094
+main.ts:34695
 
 ***
 
@@ -258,9 +288,13 @@ the XPath of the element
 
 [`ICurrencyBoxSerpElementItem`](../interfaces/ICurrencyBoxSerpElementItem.md).[`xpath`](../interfaces/ICurrencyBoxSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:36092
+main.ts:20365
 
 ## Methods
 
@@ -282,7 +316,7 @@ main.ts:36092
 
 #### Defined in
 
-main.ts:36126
+main.ts:34727
 
 ***
 
@@ -304,7 +338,7 @@ main.ts:36126
 
 #### Defined in
 
-main.ts:36155
+main.ts:34752
 
 ***
 
@@ -326,4 +360,4 @@ main.ts:36155
 
 #### Defined in
 
-main.ts:36148
+main.ts:34745

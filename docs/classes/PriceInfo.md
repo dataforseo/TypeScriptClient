@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / PriceInfo
+[Documentation](../globals.md) / PriceInfo
 
 # Class: PriceInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22724
+main.ts:23040
 
 ## Properties
 
@@ -47,7 +47,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:22714
+main.ts:23030
 
 ***
 
@@ -64,7 +64,7 @@ indicates the current price of the product or service featured in the result
 
 #### Defined in
 
-main.ts:22705
+main.ts:23021
 
 ***
 
@@ -81,7 +81,7 @@ raw price string as provided in the result
 
 #### Defined in
 
-main.ts:22720
+main.ts:23036
 
 ***
 
@@ -98,7 +98,7 @@ indicates whether a price is provided in a range
 
 #### Defined in
 
-main.ts:22717
+main.ts:23033
 
 ***
 
@@ -115,7 +115,7 @@ the maximum price of the product or service as indicated in the result
 
 #### Defined in
 
-main.ts:22711
+main.ts:23027
 
 ***
 
@@ -132,7 +132,7 @@ indicates the regular price of the product or service with no discounts applied
 
 #### Defined in
 
-main.ts:22708
+main.ts:23024
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:22708
 
 #### Defined in
 
-main.ts:22733
+main.ts:23049
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:22733
 
 #### Defined in
 
-main.ts:22755
+main.ts:23071
 
 ***
 
@@ -186,4 +186,4 @@ main.ts:22755
 
 #### Defined in
 
-main.ts:22748
+main.ts:23064

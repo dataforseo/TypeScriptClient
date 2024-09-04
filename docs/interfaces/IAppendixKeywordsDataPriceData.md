@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixKeywordsDataPriceData
+[Documentation](../globals.md) / IAppendixKeywordsDataPriceData
 
 # Interface: IAppendixKeywordsDataPriceData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:226251
+main.ts:221511
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:226251
 
 #### Defined in
 
-main.ts:226252
+main.ts:221512
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:226252
 
 #### Defined in
 
-main.ts:226253
+main.ts:221513
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:226253
 
 #### Defined in
 
-main.ts:226254
+main.ts:221514
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:226254
 
 #### Defined in
 
-main.ts:226264
+main.ts:221524
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:226264
 
 #### Defined in
 
-main.ts:226255
+main.ts:221515
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:226255
 
 #### Defined in
 
-main.ts:226265
+main.ts:221525
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:226265
 
 #### Defined in
 
-main.ts:226256
+main.ts:221516
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:226256
 
 #### Defined in
 
-main.ts:226257
+main.ts:221517
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:226257
 
 #### Defined in
 
-main.ts:226258
+main.ts:221518
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:226258
 
 #### Defined in
 
-main.ts:226259
+main.ts:221519
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:226259
 
 #### Defined in
 
-main.ts:226260
+main.ts:221520
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:226260
 
 #### Defined in
 
-main.ts:226261
+main.ts:221521
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:226261
 
 #### Defined in
 
-main.ts:226262
+main.ts:221522
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:226262
 
 #### Defined in
 
-main.ts:226263
+main.ts:221523
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:226263
 
 #### Defined in
 
-main.ts:226250
+main.ts:221510

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleTrendsMapElementItem
+[Documentation](../globals.md) / IGoogleTrendsMapElementItem
 
 # Interface: IGoogleTrendsMapElementItem
 
@@ -24,7 +24,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:127064
+main.ts:124062
 
 ***
 
@@ -33,11 +33,15 @@ main.ts:127064
 > `optional` **keywords**: `string`[]
 
 relevant keywords
-the data included in the google_trends_map element is based on the keywords listed in this array
+the data included in the google_trends_graph element is based on the keywords listed in this array
+
+#### Inherited from
+
+[`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`keywords`](IBaseGoogleTrendsItem.md#keywords)
 
 #### Defined in
 
-main.ts:127062
+main.ts:21881
 
 ***
 
@@ -48,9 +52,13 @@ main.ts:127062
 the alignment of the element in Google Trends
 can take the following values: 1, 2, 3, 4, etc.
 
+#### Inherited from
+
+[`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`position`](IBaseGoogleTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:127057
+main.ts:21876
 
 ***
 
@@ -60,6 +68,26 @@ main.ts:127057
 
 title of the element in Google Trends
 
+#### Inherited from
+
+[`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`title`](IBaseGoogleTrendsItem.md#title)
+
 #### Defined in
 
-main.ts:127059
+main.ts:21878
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseGoogleTrendsItem`](IBaseGoogleTrendsItem.md).[`type`](IBaseGoogleTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21873

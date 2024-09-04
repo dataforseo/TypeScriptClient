@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleLocationsCountryResultInfo
+[Documentation](../globals.md) / IMerchantGoogleLocationsCountryResultInfo
 
 # Interface: IMerchantGoogleLocationsCountryResultInfo
 
@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:177507
+main.ts:173437
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:177498
+main.ts:173428
 
 ***
 
@@ -44,7 +44,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:177500
+main.ts:173430
 
 ***
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:177505
+main.ts:173435
 
 ***
 
@@ -71,4 +71,4 @@ location type
 
 #### Defined in
 
-main.ts:177509
+main.ts:173439

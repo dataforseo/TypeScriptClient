@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
+[Documentation](../globals.md) / IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
 # Interface: IBusinessDataTrustpilotReviewsTaskPostRequestInfo
 
@@ -25,7 +25,7 @@ maximum value: 25000
 
 #### Defined in
 
-main.ts:216027
+main.ts:211333
 
 ***
 
@@ -43,7 +43,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 #### Defined in
 
-main.ts:216004
+main.ts:211310
 
 ***
 
@@ -63,7 +63,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:216053
+main.ts:211359
 
 ***
 
@@ -83,7 +83,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:216043
+main.ts:211349
 
 ***
 
@@ -101,7 +101,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:216020
+main.ts:211326
 
 ***
 
@@ -119,7 +119,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:216012
+main.ts:211318
 
 ***
 
@@ -135,4 +135,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:216033
+main.ts:211339

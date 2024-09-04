@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
+[Documentation](../globals.md) / IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
 # Interface: IDataforseoLabsGoogleHistoricalSearchVolumeLiveItem
 
@@ -21,7 +21,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:87302
+main.ts:85974
 
 ***
 
@@ -34,7 +34,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Defined in
 
-main.ts:87288
+main.ts:85960
 
 ***
 
@@ -50,7 +50,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:87296
+main.ts:85968
 
 ***
 
@@ -63,7 +63,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:87270
+main.ts:85942
 
 ***
 
@@ -75,7 +75,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:87281
+main.ts:85953
 
 ***
 
@@ -87,7 +87,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:87283
+main.ts:85955
 
 ***
 
@@ -99,7 +99,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:87285
+main.ts:85957
 
 ***
 
@@ -111,7 +111,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:87290
+main.ts:85962
 
 ***
 
@@ -123,7 +123,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:87275
+main.ts:85947
 
 ***
 
@@ -136,7 +136,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:87273
+main.ts:85945
 
 ***
 
@@ -148,7 +148,7 @@ search engine type
 
 #### Defined in
 
-main.ts:87267
+main.ts:85939
 
 ***
 
@@ -162,7 +162,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:87279
+main.ts:85951
 
 ***
 
@@ -175,4 +175,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:87299
+main.ts:85971

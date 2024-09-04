@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixStatisticsRatesData
+[Documentation](../globals.md) / IAppendixStatisticsRatesData
 
 # Interface: IAppendixStatisticsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:224706
+main.ts:219966
 
 ***
 
@@ -28,4 +28,4 @@ main.ts:224706
 
 #### Defined in
 
-main.ts:224707
+main.ts:219967

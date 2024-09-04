@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleImagesTasksReadyResultInfo
+[Documentation](../globals.md) / SerpGoogleImagesTasksReadyResultInfo
 
 # Class: SerpGoogleImagesTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:48904
+main.ts:47136
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:48889
+main.ts:47121
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:48897
+main.ts:47129
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:48900
+main.ts:47132
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:48894
+main.ts:47126
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:48882
+main.ts:47114
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:48884
+main.ts:47116
 
 ***
 
@@ -147,7 +147,7 @@ example: images
 
 #### Defined in
 
-main.ts:48887
+main.ts:47119
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:48891
+main.ts:47123
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:48891
 
 #### Defined in
 
-main.ts:48913
+main.ts:47145
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:48913
 
 #### Defined in
 
-main.ts:48937
+main.ts:47169
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:48937
 
 #### Defined in
 
-main.ts:48930
+main.ts:47162

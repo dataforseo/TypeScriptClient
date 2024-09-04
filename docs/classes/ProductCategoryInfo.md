@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ProductCategoryInfo
+[Documentation](../globals.md) / ProductCategoryInfo
 
 # Class: ProductCategoryInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:186252
+main.ts:181886
 
 ## Properties
 
@@ -46,7 +46,7 @@ product category name
 
 #### Defined in
 
-main.ts:186245
+main.ts:181879
 
 ***
 
@@ -63,7 +63,7 @@ indicates the browse path on Amazon with the unique browse node ID (product cate
 
 #### Defined in
 
-main.ts:186248
+main.ts:181882
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:186248
 
 #### Defined in
 
-main.ts:186261
+main.ts:181895
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:186261
 
 #### Defined in
 
-main.ts:186279
+main.ts:181913
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:186279
 
 #### Defined in
 
-main.ts:186272
+main.ts:181906

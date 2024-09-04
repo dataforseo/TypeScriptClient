@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataErrorsRequestInfo
+[Documentation](../globals.md) / IBusinessDataErrorsRequestInfo
 
 # Interface: IBusinessDataErrorsRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:201995
+main.ts:197377
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:202002
+main.ts:197384
 
 ***
 
@@ -58,7 +58,7 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:201988
+main.ts:197370
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:201977
+main.ts:197359
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:201982
+main.ts:197364

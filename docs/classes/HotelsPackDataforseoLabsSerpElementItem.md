@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelsPackDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / HotelsPackDataforseoLabsSerpElementItem
 
 # Class: HotelsPackDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:99581
+main.ts:97598
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99581
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:99569
+main.ts:97587
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:99574
+main.ts:97592
 
 ***
 
@@ -98,8 +98,7 @@ main.ts:99574
 
 > `optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -107,7 +106,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:99577
+main.ts:97594
 
 ***
 
@@ -123,9 +122,13 @@ left, right
 
 [`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:99560
+main.ts:20738
 
 ***
 
@@ -140,9 +143,13 @@ absolute position among all the elements in SERP
 
 [`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:99556
+main.ts:20734
 
 ***
 
@@ -157,9 +164,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:99553
+main.ts:20731
 
 ***
 
@@ -167,7 +178,7 @@ main.ts:99553
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -175,7 +186,27 @@ title of the item
 
 #### Defined in
 
-main.ts:99564
+main.ts:97582
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -189,9 +220,13 @@ the XPath of the element
 
 [`IHotelsPackDataforseoLabsSerpElementItem`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IHotelsPackDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:99562
+main.ts:20740
 
 ## Methods
 
@@ -213,7 +248,7 @@ main.ts:99562
 
 #### Defined in
 
-main.ts:99586
+main.ts:97603
 
 ***
 
@@ -235,7 +270,7 @@ main.ts:99586
 
 #### Defined in
 
-main.ts:99615
+main.ts:97628
 
 ***
 
@@ -257,4 +292,4 @@ main.ts:99615
 
 #### Defined in
 
-main.ts:99608
+main.ts:97621

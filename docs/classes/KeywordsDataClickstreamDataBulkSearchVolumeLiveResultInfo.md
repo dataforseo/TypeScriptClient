@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
+[Documentation](../globals.md) / KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
 # Class: KeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:140414
+main.ts:137280
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:140410
+main.ts:137276
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:140408
+main.ts:137274
 
 ***
 
@@ -78,7 +78,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:140406
+main.ts:137272
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:140406
 
 #### Defined in
 
-main.ts:140423
+main.ts:137289
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:140423
 
 #### Defined in
 
-main.ts:140446
+main.ts:137312
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:140446
 
 #### Defined in
 
-main.ts:140439
+main.ts:137305

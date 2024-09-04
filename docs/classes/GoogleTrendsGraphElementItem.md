@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleTrendsGraphElementItem
+[Documentation](../globals.md) / GoogleTrendsGraphElementItem
 
 # Class: GoogleTrendsGraphElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:126626
+main.ts:123676
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:126626
 
 #### Defined in
 
-main.ts:21570
+main.ts:21804
 
 ***
 
@@ -68,7 +68,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:126622
+main.ts:123672
 
 ***
 
@@ -84,7 +84,7 @@ Google Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:126620
+main.ts:123670
 
 ***
 
@@ -99,9 +99,13 @@ the data included in the google_trends_graph element is based on the keywords li
 
 [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`keywords`](../interfaces/IGoogleTrendsGraphElementItem.md#keywords)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`keywords`](BaseGoogleTrendsItem.md#keywords)
+
 #### Defined in
 
-main.ts:126618
+main.ts:21802
 
 ***
 
@@ -116,9 +120,13 @@ can take the following values: 1, 2, 3, 4, etc.
 
 [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`position`](../interfaces/IGoogleTrendsGraphElementItem.md#position)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`position`](BaseGoogleTrendsItem.md#position)
+
 #### Defined in
 
-main.ts:126613
+main.ts:21797
 
 ***
 
@@ -132,9 +140,33 @@ title of the element in Google Trends
 
 [`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`title`](../interfaces/IGoogleTrendsGraphElementItem.md#title)
 
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`title`](BaseGoogleTrendsItem.md#title)
+
 #### Defined in
 
-main.ts:126615
+main.ts:21799
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IGoogleTrendsGraphElementItem`](../interfaces/IGoogleTrendsGraphElementItem.md).[`type`](../interfaces/IGoogleTrendsGraphElementItem.md#type)
+
+#### Inherited from
+
+[`BaseGoogleTrendsItem`](BaseGoogleTrendsItem.md).[`type`](BaseGoogleTrendsItem.md#type)
+
+#### Defined in
+
+main.ts:21794
 
 ## Methods
 
@@ -156,7 +188,7 @@ main.ts:126615
 
 #### Defined in
 
-main.ts:126631
+main.ts:123681
 
 ***
 
@@ -178,7 +210,7 @@ main.ts:126631
 
 #### Defined in
 
-main.ts:126665
+main.ts:123708
 
 ***
 
@@ -200,4 +232,4 @@ main.ts:126665
 
 #### Defined in
 
-main.ts:126658
+main.ts:123701

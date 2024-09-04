@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainsByLiveItem
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByLiveItem
 
@@ -23,7 +23,7 @@ code of the language that content on the target domain is written with
 
 #### Defined in
 
-main.ts:79487
+main.ts:78159
 
 ***
 
@@ -36,7 +36,7 @@ ISO code of the country that target domain is determined to belong to
 
 #### Defined in
 
-main.ts:79481
+main.ts:78153
 
 ***
 
@@ -48,7 +48,7 @@ domain meta description
 
 #### Defined in
 
-main.ts:79468
+main.ts:78140
 
 ***
 
@@ -60,7 +60,7 @@ specified domain name
 
 #### Defined in
 
-main.ts:79464
+main.ts:78136
 
 ***
 
@@ -73,7 +73,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:79473
+main.ts:78145
 
 ***
 
@@ -86,7 +86,7 @@ emails indicated on the target website
 
 #### Defined in
 
-main.ts:79493
+main.ts:78165
 
 ***
 
@@ -99,7 +99,7 @@ code of the language that target domain is determined to be associated with
 
 #### Defined in
 
-main.ts:79484
+main.ts:78156
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:79478
+main.ts:78150
 
 ***
 
@@ -126,7 +126,7 @@ domain meta keywords
 
 #### Defined in
 
-main.ts:79470
+main.ts:78142
 
 ***
 
@@ -139,7 +139,7 @@ contact phone numbers indicated on the target website
 
 #### Defined in
 
-main.ts:79490
+main.ts:78162
 
 ***
 
@@ -152,7 +152,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Defined in
 
-main.ts:79496
+main.ts:78168
 
 ***
 
@@ -166,7 +166,7 @@ to get a full list of technologies and their structure, refer to the technologie
 
 #### Defined in
 
-main.ts:79500
+main.ts:78172
 
 ***
 
@@ -178,7 +178,7 @@ domain meta title
 
 #### Defined in
 
-main.ts:79466
+main.ts:78138
 
 ***
 
@@ -190,4 +190,4 @@ type of element
 
 #### Defined in
 
-main.ts:79462
+main.ts:78134

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OrganicDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / OrganicDataforseoLabsSerpElementItem
 
 # Class: OrganicDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:92715
+main.ts:91375
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:92715
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -74,7 +74,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:92681
+main.ts:91341
 
 ***
 
@@ -91,7 +91,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:92668
+main.ts:91328
 
 ***
 
@@ -107,7 +107,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:92709
+main.ts:91369
 
 ***
 
@@ -123,7 +123,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:92649
+main.ts:91309
 
 ***
 
@@ -142,7 +142,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92704
+main.ts:91364
 
 ***
 
@@ -158,7 +158,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:92661
+main.ts:91321
 
 ***
 
@@ -174,7 +174,7 @@ subdomain in SERP
 
 #### Defined in
 
-main.ts:92643
+main.ts:91303
 
 ***
 
@@ -192,7 +192,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92699
+main.ts:91359
 
 ***
 
@@ -211,7 +211,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92690
+main.ts:91350
 
 ***
 
@@ -227,7 +227,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:92665
+main.ts:91325
 
 ***
 
@@ -243,7 +243,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:92673
+main.ts:91333
 
 ***
 
@@ -262,7 +262,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92695
+main.ts:91355
 
 ***
 
@@ -278,7 +278,7 @@ indicates whether the element is a featured_snippet
 
 #### Defined in
 
-main.ts:92657
+main.ts:91317
 
 ***
 
@@ -294,7 +294,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:92653
+main.ts:91313
 
 ***
 
@@ -310,7 +310,7 @@ indicates whether the element is marked as malicious
 
 #### Defined in
 
-main.ts:92659
+main.ts:91319
 
 ***
 
@@ -326,7 +326,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:92655
+main.ts:91315
 
 ***
 
@@ -344,7 +344,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:92677
+main.ts:91337
 
 ***
 
@@ -360,7 +360,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:92683
+main.ts:91343
 
 ***
 
@@ -376,9 +376,13 @@ left, right
 
 [`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:92639
+main.ts:20738
 
 ***
 
@@ -394,7 +398,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:92663
+main.ts:91323
 
 ***
 
@@ -409,9 +413,13 @@ absolute position among all the elements in SERP
 
 [`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:92635
+main.ts:20734
 
 ***
 
@@ -428,7 +436,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-main.ts:92707
+main.ts:91367
 
 ***
 
@@ -443,9 +451,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:92632
+main.ts:20731
 
 ***
 
@@ -461,7 +473,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:92711
+main.ts:91371
 
 ***
 
@@ -478,7 +490,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:92671
+main.ts:91331
 
 ***
 
@@ -494,7 +506,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:92685
+main.ts:91345
 
 ***
 
@@ -510,7 +522,7 @@ search engine type
 
 #### Defined in
 
-main.ts:92629
+main.ts:91301
 
 ***
 
@@ -526,7 +538,27 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:92645
+main.ts:91305
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -542,7 +574,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:92647
+main.ts:91307
 
 ***
 
@@ -558,7 +590,7 @@ relevant website name in SERP
 
 #### Defined in
 
-main.ts:92651
+main.ts:91311
 
 ***
 
@@ -572,9 +604,13 @@ the XPath of the element
 
 [`IOrganicDataforseoLabsSerpElementItem`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IOrganicDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:92641
+main.ts:20740
 
 ## Methods
 
@@ -596,7 +632,7 @@ main.ts:92641
 
 #### Defined in
 
-main.ts:92720
+main.ts:91380
 
 ***
 
@@ -618,7 +654,7 @@ main.ts:92720
 
 #### Defined in
 
-main.ts:92778
+main.ts:91434
 
 ***
 
@@ -640,4 +676,4 @@ main.ts:92778
 
 #### Defined in
 
-main.ts:92771
+main.ts:91427

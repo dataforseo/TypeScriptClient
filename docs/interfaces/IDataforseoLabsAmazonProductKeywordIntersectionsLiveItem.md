@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
+[Documentation](../globals.md) / IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
 # Interface: IDataforseoLabsAmazonProductKeywordIntersectionsLiveItem
 
@@ -24,7 +24,7 @@ data on the intersection
 
 #### Defined in
 
-main.ts:108190
+main.ts:105324
 
 ***
 
@@ -36,7 +36,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:108188
+main.ts:105322
 
 ***
 
@@ -48,4 +48,4 @@ search engine type
 
 #### Defined in
 
-main.ts:108186
+main.ts:105320

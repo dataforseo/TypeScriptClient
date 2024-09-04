@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAmazonProductCompetitorsLiveItem
+[Documentation](../globals.md) / IDataforseoLabsAmazonProductCompetitorsLiveItem
 
 # Interface: IDataforseoLabsAmazonProductCompetitorsLiveItem
 
@@ -22,7 +22,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:107617
+main.ts:104751
 
 ***
 
@@ -36,7 +36,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:107621
+main.ts:104755
 
 ***
 
@@ -50,7 +50,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Defined in
 
-main.ts:107631
+main.ts:104765
 
 ***
 
@@ -63,7 +63,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 #### Defined in
 
-main.ts:107634
+main.ts:104768
 
 ***
 
@@ -75,7 +75,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:107627
+main.ts:104761
 
 ***
 
@@ -87,7 +87,7 @@ search engine type
 
 #### Defined in
 
-main.ts:107613
+main.ts:104747
 
 ***
 
@@ -101,4 +101,4 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:107625
+main.ts:104759

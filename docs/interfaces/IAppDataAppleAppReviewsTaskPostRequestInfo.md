@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppReviewsTaskPostRequestInfo
+[Documentation](../globals.md) / IAppDataAppleAppReviewsTaskPostRequestInfo
 
 # Interface: IAppDataAppleAppReviewsTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:200117
+main.ts:195535
 
 ***
 
@@ -43,7 +43,7 @@ maximum value: 500
 
 #### Defined in
 
-main.ts:200160
+main.ts:195578
 
 ***
 
@@ -60,7 +60,7 @@ en
 
 #### Defined in
 
-main.ts:200145
+main.ts:195563
 
 ***
 
@@ -77,7 +77,7 @@ English
 
 #### Defined in
 
-main.ts:200138
+main.ts:195556
 
 ***
 
@@ -94,7 +94,7 @@ example:
 
 #### Defined in
 
-main.ts:200131
+main.ts:195549
 
 ***
 
@@ -111,7 +111,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:200124
+main.ts:195542
 
 ***
 
@@ -131,7 +131,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:200200
+main.ts:195618
 
 ***
 
@@ -147,7 +147,7 @@ advanced
 
 #### Defined in
 
-main.ts:200190
+main.ts:195608
 
 ***
 
@@ -167,7 +167,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:200184
+main.ts:195602
 
 ***
 
@@ -185,7 +185,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:200153
+main.ts:195571
 
 ***
 
@@ -203,7 +203,7 @@ default rule: most_helpful
 
 #### Defined in
 
-main.ts:200168
+main.ts:195586
 
 ***
 
@@ -219,4 +219,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:200174
+main.ts:195592

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / VideoSerpElementItem
+[Documentation](../globals.md) / VideoSerpElementItem
 
 # Class: VideoSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:31975
+main.ts:31412
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:31975
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:31967
+main.ts:31404
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`position`](../interfaces/IVideoSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:31962
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:31962
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`rank_absolute`](../interfaces/IVideoSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:31958
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:31958
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`rank_group`](../interfaces/IVideoSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:31954
+main.ts:20356
 
 ***
 
@@ -142,7 +152,27 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31971
+main.ts:31408
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`type`](../interfaces/IVideoSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -156,9 +186,13 @@ the XPath of the element
 
 [`IVideoSerpElementItem`](../interfaces/IVideoSerpElementItem.md).[`xpath`](../interfaces/IVideoSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:31964
+main.ts:20365
 
 ## Methods
 
@@ -180,7 +214,7 @@ main.ts:31964
 
 #### Defined in
 
-main.ts:31980
+main.ts:31417
 
 ***
 
@@ -202,7 +236,7 @@ main.ts:31980
 
 #### Defined in
 
-main.ts:32007
+main.ts:31440
 
 ***
 
@@ -224,4 +258,4 @@ main.ts:32007
 
 #### Defined in
 
-main.ts:32000
+main.ts:31433

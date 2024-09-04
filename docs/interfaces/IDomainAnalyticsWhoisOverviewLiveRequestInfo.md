@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsWhoisOverviewLiveRequestInfo
+[Documentation](../globals.md) / IDomainAnalyticsWhoisOverviewLiveRequestInfo
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveRequestInfo
 
@@ -33,7 +33,7 @@ for more information about filters, please refer to Filters Page or this help ce
 
 #### Defined in
 
-main.ts:80794
+main.ts:79466
 
 ***
 
@@ -48,7 +48,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:80774
+main.ts:79446
 
 ***
 
@@ -63,7 +63,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:80779
+main.ts:79451
 
 ***
 
@@ -89,7 +89,7 @@ example:
 
 #### Defined in
 
-main.ts:80810
+main.ts:79482
 
 ***
 
@@ -105,4 +105,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:80816
+main.ts:79488

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataGoogleHotelSearchesItem
+[Documentation](../globals.md) / BusinessDataGoogleHotelSearchesItem
 
 # Class: BusinessDataGoogleHotelSearchesItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:208750
+main.ts:204088
 
 ## Properties
 
@@ -48,7 +48,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:208729
+main.ts:204067
 
 ***
 
@@ -66,7 +66,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:208738
+main.ts:204076
 
 ***
 
@@ -82,7 +82,7 @@ GPS coordinates of the hotel’s location
 
 #### Defined in
 
-main.ts:208740
+main.ts:204078
 
 ***
 
@@ -98,7 +98,7 @@ featured images for a hotel
 
 #### Defined in
 
-main.ts:208744
+main.ts:204082
 
 ***
 
@@ -114,7 +114,7 @@ hotel price
 
 #### Defined in
 
-main.ts:208746
+main.ts:204084
 
 ***
 
@@ -130,7 +130,7 @@ hotel reviews and rating information
 
 #### Defined in
 
-main.ts:208742
+main.ts:204080
 
 ***
 
@@ -147,7 +147,7 @@ class rating that ranges between 1-5 stars
 
 #### Defined in
 
-main.ts:208734
+main.ts:204072
 
 ***
 
@@ -163,7 +163,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:208731
+main.ts:204069
 
 ***
 
@@ -179,7 +179,7 @@ type of element
 
 #### Defined in
 
-main.ts:208725
+main.ts:204063
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:208725
 
 #### Defined in
 
-main.ts:208759
+main.ts:204097
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:208759
 
 #### Defined in
 
-main.ts:208788
+main.ts:204126
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:208788
 
 #### Defined in
 
-main.ts:208781
+main.ts:204119

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixOnPageDayStatisticsMoneyData
+[Documentation](../globals.md) / IAppendixOnPageDayStatisticsMoneyData
 
 # Interface: IAppendixOnPageDayStatisticsMoneyData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:225149
+main.ts:220409
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:225149
 
 #### Defined in
 
-main.ts:225150
+main.ts:220410
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:225150
 
 #### Defined in
 
-main.ts:225142
+main.ts:220402
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:225142
 
 #### Defined in
 
-main.ts:225137
+main.ts:220397
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:225137
 
 #### Defined in
 
-main.ts:225140
+main.ts:220400
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:225140
 
 #### Defined in
 
-main.ts:225144
+main.ts:220404
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:225144
 
 #### Defined in
 
-main.ts:225147
+main.ts:220407
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:225147
 
 #### Defined in
 
-main.ts:225146
+main.ts:220406
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:225146
 
 #### Defined in
 
-main.ts:225138
+main.ts:220398
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:225138
 
 #### Defined in
 
-main.ts:225136
+main.ts:220396
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:225136
 
 #### Defined in
 
-main.ts:225148
+main.ts:220408
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:225148
 
 #### Defined in
 
-main.ts:225135
+main.ts:220395
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:225135
 
 #### Defined in
 
-main.ts:225141
+main.ts:220401
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:225141
 
 #### Defined in
 
-main.ts:225143
+main.ts:220403
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:225143
 
 #### Defined in
 
-main.ts:225145
+main.ts:220405
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:225145
 
 #### Defined in
 
-main.ts:225151
+main.ts:220411
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:225151
 
 #### Defined in
 
-main.ts:225134
+main.ts:220394
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:225134
 
 #### Defined in
 
-main.ts:225133
+main.ts:220393
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:225133
 
 #### Defined in
 
-main.ts:225131
+main.ts:220391
 
 ***
 
@@ -208,7 +208,7 @@ main.ts:225131
 
 #### Defined in
 
-main.ts:225132
+main.ts:220392
 
 ***
 
@@ -218,4 +218,4 @@ main.ts:225132
 
 #### Defined in
 
-main.ts:225139
+main.ts:220399

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBingLocalPackTasksReadyResultInfo
+[Documentation](../globals.md) / SerpBingLocalPackTasksReadyResultInfo
 
 # Class: SerpBingLocalPackTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:60680
+main.ts:59359
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:60665
+main.ts:59344
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:60673
+main.ts:59352
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:60676
+main.ts:59355
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:60670
+main.ts:59349
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:60658
+main.ts:59337
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:60660
+main.ts:59339
 
 ***
 
@@ -147,7 +147,7 @@ example: local_pack
 
 #### Defined in
 
-main.ts:60663
+main.ts:59342
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:60667
+main.ts:59346
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:60667
 
 #### Defined in
 
-main.ts:60689
+main.ts:59368
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:60689
 
 #### Defined in
 
-main.ts:60713
+main.ts:59392
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:60713
 
 #### Defined in
 
-main.ts:60706
+main.ts:59385

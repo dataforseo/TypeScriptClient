@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksAnchorsLiveResultInfo
+[Documentation](../globals.md) / BacklinksAnchorsLiveResultInfo
 
 # Class: BacklinksAnchorsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:144970
+main.ts:141836
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Defined in
 
-main.ts:144966
+main.ts:141832
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:144964
+main.ts:141830
 
 ***
 
@@ -78,7 +78,7 @@ target in the post array
 
 #### Defined in
 
-main.ts:144960
+main.ts:141826
 
 ***
 
@@ -94,7 +94,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:144962
+main.ts:141828
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:144962
 
 #### Defined in
 
-main.ts:144979
+main.ts:141845
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:144979
 
 #### Defined in
 
-main.ts:145003
+main.ts:141869
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:145003
 
 #### Defined in
 
-main.ts:144996
+main.ts:141862

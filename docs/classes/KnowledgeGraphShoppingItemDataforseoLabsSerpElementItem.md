@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
 # Class: KnowledgeGraphShoppingItemDataforseoLabsSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:100025
+main.ts:97908
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:100025
 
 #### Defined in
 
-main.ts:20752
+main.ts:20742
 
 ***
 
@@ -70,7 +70,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:100018
+main.ts:97902
 
 ***
 
@@ -78,8 +78,7 @@ main.ts:100018
 
 > `optional` **items**: [`KnowledgeGraphShoppingElement`](KnowledgeGraphShoppingElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Implementation of
 
@@ -87,7 +86,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:100021
+main.ts:97904
 
 ***
 
@@ -103,9 +102,13 @@ left, right
 
 [`IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md).[`position`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`position`](BaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:100010
+main.ts:20738
 
 ***
 
@@ -120,9 +123,13 @@ absolute position among all the elements in SERP
 
 [`IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md).[`rank_absolute`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](BaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:100006
+main.ts:20734
 
 ***
 
@@ -137,9 +144,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md).[`rank_group`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`rank_group`](BaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:100003
+main.ts:20731
 
 ***
 
@@ -147,7 +158,7 @@ main.ts:100003
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Implementation of
 
@@ -155,7 +166,27 @@ title of the item
 
 #### Defined in
 
-main.ts:100014
+main.ts:97898
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md).[`type`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`type`](BaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20728
 
 ***
 
@@ -169,9 +200,13 @@ the XPath of the element
 
 [`IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md).[`xpath`](../interfaces/IKnowledgeGraphShoppingItemDataforseoLabsSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseDataforseoLabsSerpElementItem`](BaseDataforseoLabsSerpElementItem.md).[`xpath`](BaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:100012
+main.ts:20740
 
 ## Methods
 
@@ -193,7 +228,7 @@ main.ts:100012
 
 #### Defined in
 
-main.ts:100030
+main.ts:97913
 
 ***
 
@@ -215,7 +250,7 @@ main.ts:100030
 
 #### Defined in
 
-main.ts:100058
+main.ts:97937
 
 ***
 
@@ -237,4 +272,4 @@ main.ts:100058
 
 #### Defined in
 
-main.ts:100051
+main.ts:97930

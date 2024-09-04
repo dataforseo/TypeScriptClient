@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITwitterElement
+[Documentation](../globals.md) / ITwitterElement
 
 # Interface: ITwitterElement
 
@@ -20,7 +20,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:30785
+main.ts:30503
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:30790
+main.ts:30508
 
 ***
 
@@ -47,7 +47,7 @@ tweet message
 
 #### Defined in
 
-main.ts:30783
+main.ts:30501
 
 ***
 
@@ -59,7 +59,7 @@ type of element
 
 #### Defined in
 
-main.ts:30781
+main.ts:30499
 
 ***
 
@@ -71,4 +71,4 @@ URL
 
 #### Defined in
 
-main.ts:30792
+main.ts:30510

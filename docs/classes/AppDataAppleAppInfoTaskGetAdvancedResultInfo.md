@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppleAppInfoTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / AppDataAppleAppInfoTaskGetAdvancedResultInfo
 
 # Class: AppDataAppleAppInfoTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:198975
+main.ts:194393
 
 ## Properties
 
@@ -46,7 +46,7 @@ application id received in a POST request
 
 #### Defined in
 
-main.ts:198951
+main.ts:194369
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:198960
+main.ts:194378
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:198965
+main.ts:194383
 
 ***
 
@@ -98,7 +98,7 @@ found app info
 
 #### Defined in
 
-main.ts:198971
+main.ts:194389
 
 ***
 
@@ -114,7 +114,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:198969
+main.ts:194387
 
 ***
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:198957
+main.ts:194375
 
 ***
 
@@ -146,7 +146,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:198955
+main.ts:194373
 
 ***
 
@@ -162,7 +162,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:198953
+main.ts:194371
 
 ***
 
@@ -178,7 +178,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:198967
+main.ts:194385
 
 ## Methods
 
@@ -196,7 +196,7 @@ main.ts:198967
 
 #### Defined in
 
-main.ts:198984
+main.ts:194402
 
 ***
 
@@ -214,7 +214,7 @@ main.ts:198984
 
 #### Defined in
 
-main.ts:199013
+main.ts:194431
 
 ***
 
@@ -232,4 +232,4 @@ main.ts:199013
 
 #### Defined in
 
-main.ts:199006
+main.ts:194424

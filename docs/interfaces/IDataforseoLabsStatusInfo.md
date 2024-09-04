@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsStatusInfo
+[Documentation](../globals.md) / IDataforseoLabsStatusInfo
 
 # Interface: IDataforseoLabsStatusInfo
 
@@ -23,4 +23,4 @@ example:
 
 #### Defined in
 
-main.ts:81904
+main.ts:80576

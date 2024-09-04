@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByTechnologyLiveRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:79238
+main.ts:77910
 
 ***
 
@@ -52,7 +52,7 @@ for more information about filters, please refer to Domain Analytics Technologie
 
 #### Defined in
 
-main.ts:79277
+main.ts:77949
 
 ***
 
@@ -69,7 +69,7 @@ example:
 
 #### Defined in
 
-main.ts:79231
+main.ts:77903
 
 ***
 
@@ -87,7 +87,7 @@ example:
 
 #### Defined in
 
-main.ts:79253
+main.ts:77925
 
 ***
 
@@ -102,7 +102,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:79299
+main.ts:77971
 
 ***
 
@@ -119,7 +119,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:79260
+main.ts:77932
 
 ***
 
@@ -136,7 +136,7 @@ use the offset_token if you would like to offset more results
 
 #### Defined in
 
-main.ts:79306
+main.ts:77978
 
 ***
 
@@ -154,7 +154,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:79314
+main.ts:77986
 
 ***
 
@@ -181,7 +181,7 @@ example:
 
 #### Defined in
 
-main.ts:79294
+main.ts:77966
 
 ***
 
@@ -198,7 +198,7 @@ example:
 
 #### Defined in
 
-main.ts:79245
+main.ts:77917
 
 ***
 
@@ -218,4 +218,4 @@ example:
 
 #### Defined in
 
-main.ts:79224
+main.ts:77896

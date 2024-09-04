@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingSubdomainsLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsBingSubdomainsLiveRequestInfo
 
 # Interface: IDataforseoLabsBingSubdomainsLiveRequestInfo
 
@@ -32,7 +32,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:114029
+main.ts:111163
 
 ***
 
@@ -51,7 +51,7 @@ default value: live
 
 #### Defined in
 
-main.ts:114015
+main.ts:111149
 
 ***
 
@@ -70,7 +70,7 @@ default value:
 
 #### Defined in
 
-main.ts:114006
+main.ts:111140
 
 ***
 
@@ -89,7 +89,7 @@ en
 
 #### Defined in
 
-main.ts:113997
+main.ts:111131
 
 ***
 
@@ -108,7 +108,7 @@ English
 
 #### Defined in
 
-main.ts:113988
+main.ts:111122
 
 ***
 
@@ -123,7 +123,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:114051
+main.ts:111185
 
 ***
 
@@ -143,7 +143,7 @@ example:
 
 #### Defined in
 
-main.ts:113979
+main.ts:111113
 
 ***
 
@@ -163,7 +163,7 @@ United States
 
 #### Defined in
 
-main.ts:113969
+main.ts:111103
 
 ***
 
@@ -178,7 +178,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:114056
+main.ts:111190
 
 ***
 
@@ -205,7 +205,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:114046
+main.ts:111180
 
 ***
 
@@ -221,7 +221,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:114062
+main.ts:111196
 
 ***
 
@@ -236,4 +236,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:113959
+main.ts:111093

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixLighthouseOnPageDayStatisticsRatesData
+[Documentation](../globals.md) / IAppendixLighthouseOnPageDayStatisticsRatesData
 
 # Interface: IAppendixLighthouseOnPageDayStatisticsRatesData
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:223690
+main.ts:218950
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:223690
 
 #### Defined in
 
-main.ts:223689
+main.ts:218949
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:223689
 
 #### Defined in
 
-main.ts:223688
+main.ts:218948
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:223688
 
 #### Defined in
 
-main.ts:223687
+main.ts:218947
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:223687
 
 #### Defined in
 
-main.ts:223685
+main.ts:218945
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:223685
 
 #### Defined in
 
-main.ts:223686
+main.ts:218946
 
 ***
 
@@ -78,4 +78,4 @@ main.ts:223686
 
 #### Defined in
 
-main.ts:223691
+main.ts:218951

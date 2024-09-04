@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonSerpElement
+[Documentation](../globals.md) / IAmazonSerpElement
 
 # Interface: IAmazonSerpElement
 
@@ -20,7 +20,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:184841
+main.ts:180541
 
 ***
 
@@ -34,7 +34,7 @@ USD
 
 #### Defined in
 
-main.ts:184853
+main.ts:180553
 
 ***
 
@@ -49,7 +49,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:184861
+main.ts:180561
 
 ***
 
@@ -62,7 +62,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:184872
+main.ts:180572
 
 ***
 
@@ -74,7 +74,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:184833
+main.ts:180533
 
 ***
 
@@ -86,7 +86,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:184839
+main.ts:180539
 
 ***
 
@@ -99,7 +99,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:184866
+main.ts:180566
 
 ***
 
@@ -112,7 +112,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:184869
+main.ts:180569
 
 ***
 
@@ -126,7 +126,7 @@ example:
 
 #### Defined in
 
-main.ts:184845
+main.ts:180545
 
 ***
 
@@ -140,7 +140,7 @@ example:
 
 #### Defined in
 
-main.ts:184849
+main.ts:180549
 
 ***
 
@@ -152,7 +152,7 @@ product rating info
 
 #### Defined in
 
-main.ts:184863
+main.ts:180563
 
 ***
 
@@ -165,7 +165,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:184856
+main.ts:180556
 
 ***
 
@@ -177,7 +177,7 @@ product title
 
 #### Defined in
 
-main.ts:184835
+main.ts:180535
 
 ***
 
@@ -189,7 +189,7 @@ type of element
 
 #### Defined in
 
-main.ts:184829
+main.ts:180529
 
 ***
 
@@ -201,7 +201,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:184837
+main.ts:180537
 
 ***
 
@@ -213,4 +213,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:184831
+main.ts:180531

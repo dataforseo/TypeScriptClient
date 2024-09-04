@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductInformationImageRow
+[Documentation](../globals.md) / IProductInformationImageRow
 
 # Interface: IProductInformationImageRow
 
@@ -24,7 +24,23 @@ alternative text of the related product image
 
 #### Defined in
 
-main.ts:186468
+main.ts:182090
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseProductInformationRowItem`](IBaseProductInformationRowItem.md).[`type`](IBaseProductInformationRowItem.md#type)
+
+#### Defined in
+
+main.ts:23475
 
 ***
 
@@ -36,4 +52,4 @@ URL of the image
 
 #### Defined in
 
-main.ts:186470
+main.ts:182092

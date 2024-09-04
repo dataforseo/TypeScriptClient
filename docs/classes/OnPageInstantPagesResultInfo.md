@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageInstantPagesResultInfo
+[Documentation](../globals.md) / OnPageInstantPagesResultInfo
 
 # Class: OnPageInstantPagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:167056
+main.ts:162986
 
 ## Properties
 
@@ -48,7 +48,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:167048
+main.ts:162978
 
 ***
 
@@ -65,7 +65,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:167041
+main.ts:162971
 
 ***
 
@@ -82,7 +82,7 @@ in this case the value will be null
 
 #### Defined in
 
-main.ts:167044
+main.ts:162974
 
 ***
 
@@ -98,7 +98,7 @@ items array
 
 #### Defined in
 
-main.ts:167052
+main.ts:162982
 
 ***
 
@@ -114,7 +114,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:167050
+main.ts:162980
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:167050
 
 #### Defined in
 
-main.ts:167065
+main.ts:162995
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:167065
 
 #### Defined in
 
-main.ts:167090
+main.ts:163020
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:167090
 
 #### Defined in
 
-main.ts:167083
+main.ts:163013

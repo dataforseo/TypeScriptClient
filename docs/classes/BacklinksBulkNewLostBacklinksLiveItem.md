@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksBulkNewLostBacklinksLiveItem
+[Documentation](../globals.md) / BacklinksBulkNewLostBacklinksLiveItem
 
 # Class: BacklinksBulkNewLostBacklinksLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:153620
+main.ts:150486
 
 ## Properties
 
@@ -47,7 +47,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:153616
+main.ts:150482
 
 ***
 
@@ -64,7 +64,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:153613
+main.ts:150479
 
 ***
 
@@ -80,7 +80,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:153610
+main.ts:150476
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:153610
 
 #### Defined in
 
-main.ts:153629
+main.ts:150495
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:153629
 
 #### Defined in
 
-main.ts:153648
+main.ts:150514
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:153648
 
 #### Defined in
 
-main.ts:153641
+main.ts:150507

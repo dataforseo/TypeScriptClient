@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksDomainPagesLiveItem
+[Documentation](../globals.md) / BacklinksDomainPagesLiveItem
 
 # Class: BacklinksDomainPagesLiveItem
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:146004
+main.ts:142870
 
 ## Properties
 
@@ -46,7 +46,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:145992
+main.ts:142858
 
 ***
 
@@ -63,7 +63,7 @@ domain where the page was found
 
 #### Defined in
 
-main.ts:145956
+main.ts:142822
 
 ***
 
@@ -80,7 +80,7 @@ indicates the size of the encoded page, in bytes
 
 #### Defined in
 
-main.ts:145990
+main.ts:142856
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:145980
+main.ts:142846
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:145970
+main.ts:142836
 
 ***
 
@@ -135,7 +135,7 @@ Internet Protocol address
 
 #### Defined in
 
-main.ts:145964
+main.ts:142830
 
 ***
 
@@ -152,7 +152,7 @@ indicates the URL to redirect a page to if exists
 
 #### Defined in
 
-main.ts:145985
+main.ts:142851
 
 ***
 
@@ -169,7 +169,7 @@ main website domain does not include subdomains
 
 #### Defined in
 
-main.ts:145953
+main.ts:142819
 
 ***
 
@@ -185,7 +185,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:145994
+main.ts:142860
 
 ***
 
@@ -201,7 +201,7 @@ page meta data
 
 #### Defined in
 
-main.ts:145998
+main.ts:142864
 
 ***
 
@@ -218,7 +218,7 @@ relevant page URL
 
 #### Defined in
 
-main.ts:145962
+main.ts:142828
 
 ***
 
@@ -234,7 +234,7 @@ contains backlink data for this page
 
 #### Defined in
 
-main.ts:146000
+main.ts:142866
 
 ***
 
@@ -253,7 +253,7 @@ example:
 
 #### Defined in
 
-main.ts:145975
+main.ts:142841
 
 ***
 
@@ -269,7 +269,7 @@ server version
 
 #### Defined in
 
-main.ts:145996
+main.ts:142862
 
 ***
 
@@ -285,7 +285,7 @@ indicates the page size, in bytes
 
 #### Defined in
 
-main.ts:145987
+main.ts:142853
 
 ***
 
@@ -301,7 +301,7 @@ HTTP status code of the page
 
 #### Defined in
 
-main.ts:145982
+main.ts:142848
 
 ***
 
@@ -318,7 +318,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:145959
+main.ts:142825
 
 ***
 
@@ -334,7 +334,7 @@ type of element
 
 #### Defined in
 
-main.ts:145950
+main.ts:142816
 
 ## Methods
 
@@ -352,7 +352,7 @@ main.ts:145950
 
 #### Defined in
 
-main.ts:146013
+main.ts:142879
 
 ***
 
@@ -370,7 +370,7 @@ main.ts:146013
 
 #### Defined in
 
-main.ts:146047
+main.ts:142913
 
 ***
 
@@ -388,4 +388,4 @@ main.ts:146047
 
 #### Defined in
 
-main.ts:146040
+main.ts:142906

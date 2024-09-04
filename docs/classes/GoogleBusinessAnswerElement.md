@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / GoogleBusinessAnswerElement
+[Documentation](../globals.md) / GoogleBusinessAnswerElement
 
 # Class: GoogleBusinessAnswerElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:214166
+main.ts:209488
 
 ## Properties
 
@@ -46,7 +46,7 @@ ID of the answer
 
 #### Defined in
 
-main.ts:214148
+main.ts:209470
 
 ***
 
@@ -62,7 +62,7 @@ current text of the answer
 
 #### Defined in
 
-main.ts:214156
+main.ts:209478
 
 ***
 
@@ -78,7 +78,7 @@ original text of the answer
 
 #### Defined in
 
-main.ts:214158
+main.ts:209480
 
 ***
 
@@ -94,7 +94,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:214150
+main.ts:209472
 
 ***
 
@@ -110,7 +110,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:214154
+main.ts:209476
 
 ***
 
@@ -126,7 +126,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:214152
+main.ts:209474
 
 ***
 
@@ -142,7 +142,7 @@ estimated time when the answer was posted
 
 #### Defined in
 
-main.ts:214160
+main.ts:209482
 
 ***
 
@@ -158,7 +158,7 @@ exact time when the answer was posted
 
 #### Defined in
 
-main.ts:214162
+main.ts:209484
 
 ***
 
@@ -174,7 +174,7 @@ type of element
 
 #### Defined in
 
-main.ts:214146
+main.ts:209468
 
 ## Methods
 
@@ -192,7 +192,7 @@ main.ts:214146
 
 #### Defined in
 
-main.ts:214175
+main.ts:209497
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:214175
 
 #### Defined in
 
-main.ts:214200
+main.ts:209522
 
 ***
 
@@ -228,4 +228,4 @@ main.ts:214200
 
 #### Defined in
 
-main.ts:214193
+main.ts:209515

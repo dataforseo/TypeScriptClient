@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
+[Documentation](../globals.md) / IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
 # Interface: IAppendixGoogleAdsKeywordsDataLimitsRatesDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:220555
+main.ts:215815
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:220555
 
 #### Defined in
 
-main.ts:220553
+main.ts:215813
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:220553
 
 #### Defined in
 
-main.ts:220554
+main.ts:215814
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:220554
 
 #### Defined in
 
-main.ts:220552
+main.ts:215812
 
 ***
 
@@ -58,4 +58,4 @@ main.ts:220552
 
 #### Defined in
 
-main.ts:220551
+main.ts:215811

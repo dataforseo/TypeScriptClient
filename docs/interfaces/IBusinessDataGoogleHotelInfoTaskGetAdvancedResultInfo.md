@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
 
 # Interface: IBusinessDataGoogleHotelInfoTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ information about the hotel
 
 #### Defined in
 
-main.ts:211111
+main.ts:206449
 
 ***
 
@@ -33,7 +33,7 @@ physical address of the hotel
 
 #### Defined in
 
-main.ts:211106
+main.ts:206444
 
 ***
 
@@ -46,7 +46,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:211089
+main.ts:206427
 
 ***
 
@@ -61,7 +61,7 @@ example:
 
 #### Defined in
 
-main.ts:211094
+main.ts:206432
 
 ***
 
@@ -76,7 +76,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:211082
+main.ts:206420
 
 ***
 
@@ -88,7 +88,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:211086
+main.ts:206424
 
 ***
 
@@ -101,7 +101,7 @@ information about the location where the hotel is located
 
 #### Defined in
 
-main.ts:211114
+main.ts:206452
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:211084
+main.ts:206422
 
 ***
 
@@ -126,7 +126,7 @@ array containing URLs to images displayed in the hotel overview
 
 #### Defined in
 
-main.ts:211120
+main.ts:206458
 
 ***
 
@@ -139,7 +139,7 @@ contact phone number of the hotel
 
 #### Defined in
 
-main.ts:211109
+main.ts:206447
 
 ***
 
@@ -152,7 +152,7 @@ contains information about the hotel’s prices
 
 #### Defined in
 
-main.ts:211123
+main.ts:206461
 
 ***
 
@@ -165,7 +165,7 @@ information about reviews of the hotel entity
 
 #### Defined in
 
-main.ts:211117
+main.ts:206455
 
 ***
 
@@ -178,7 +178,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:211100
+main.ts:206438
 
 ***
 
@@ -191,7 +191,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:211103
+main.ts:206441
 
 ***
 
@@ -204,4 +204,4 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:211097
+main.ts:206435

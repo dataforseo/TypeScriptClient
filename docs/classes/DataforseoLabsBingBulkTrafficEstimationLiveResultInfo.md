@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
 # Class: DataforseoLabsBingBulkTrafficEstimationLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:108963
+main.ts:106097
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of items with relevant traffic estimation data
 
 #### Defined in
 
-main.ts:108959
+main.ts:106093
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:108957
+main.ts:106091
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:108953
+main.ts:106087
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:108950
+main.ts:106084
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:108947
+main.ts:106081
 
 ***
 
@@ -128,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:108955
+main.ts:106089
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:108955
 
 #### Defined in
 
-main.ts:108972
+main.ts:106106
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:108972
 
 #### Defined in
 
-main.ts:108998
+main.ts:106132
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:108998
 
 #### Defined in
 
-main.ts:108991
+main.ts:106125

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IIntersectionSummaryInfo
+[Documentation](../globals.md) / IIntersectionSummaryInfo
 
 # Interface: IIntersectionSummaryInfo
 
@@ -20,4 +20,4 @@ total number of intersections
 
 #### Defined in
 
-main.ts:149811
+main.ts:146677

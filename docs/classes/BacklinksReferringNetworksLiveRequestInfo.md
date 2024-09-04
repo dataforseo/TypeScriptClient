@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksReferringNetworksLiveRequestInfo
+[Documentation](../globals.md) / BacklinksReferringNetworksLiveRequestInfo
 
 # Class: BacklinksReferringNetworksLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:147979
+main.ts:144845
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:147953
+main.ts:144819
 
 ***
 
@@ -75,7 +75,7 @@ default value: live
 
 #### Defined in
 
-main.ts:147914
+main.ts:144780
 
 ***
 
@@ -94,7 +94,7 @@ default value: true
 
 #### Defined in
 
-main.ts:147969
+main.ts:144835
 
 ***
 
@@ -125,7 +125,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:147931
+main.ts:144797
 
 ***
 
@@ -145,7 +145,7 @@ default value: true
 
 #### Defined in
 
-main.ts:147964
+main.ts:144830
 
 ***
 
@@ -164,7 +164,7 @@ default value: true
 
 #### Defined in
 
-main.ts:147958
+main.ts:144824
 
 ***
 
@@ -189,7 +189,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147905
+main.ts:144771
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:147889
+main.ts:144755
 
 ***
 
@@ -227,7 +227,7 @@ default value: ip
 
 #### Defined in
 
-main.ts:147884
+main.ts:144750
 
 ***
 
@@ -246,7 +246,7 @@ if you specify the 10 value, the first ten domains in the results array will be 
 
 #### Defined in
 
-main.ts:147894
+main.ts:144760
 
 ***
 
@@ -274,7 +274,7 @@ example:
 
 #### Defined in
 
-main.ts:147945
+main.ts:144811
 
 ***
 
@@ -294,7 +294,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:147975
+main.ts:144841
 
 ***
 
@@ -313,7 +313,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:147879
+main.ts:144745
 
 ## Methods
 
@@ -331,7 +331,7 @@ main.ts:147879
 
 #### Defined in
 
-main.ts:147988
+main.ts:144854
 
 ***
 
@@ -349,7 +349,7 @@ main.ts:147988
 
 #### Defined in
 
-main.ts:148029
+main.ts:144895
 
 ***
 
@@ -367,4 +367,4 @@ main.ts:148029
 
 #### Defined in
 
-main.ts:148022
+main.ts:144888

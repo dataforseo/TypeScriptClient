@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageWaterfallResultInfo
+[Documentation](../globals.md) / OnPageWaterfallResultInfo
 
 # Class: OnPageWaterfallResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:163257
+main.ts:159187
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:163247
+main.ts:159177
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:163249
+main.ts:159179
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Defined in
 
-main.ts:163253
+main.ts:159183
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:163251
+main.ts:159181
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:163251
 
 #### Defined in
 
-main.ts:163266
+main.ts:159196
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:163266
 
 #### Defined in
 
-main.ts:163290
+main.ts:159220
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:163290
 
 #### Defined in
 
-main.ts:163283
+main.ts:159213

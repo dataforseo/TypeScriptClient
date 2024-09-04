@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksTimeseriesSummaryLiveRequestInfo
+[Documentation](../globals.md) / IBacklinksTimeseriesSummaryLiveRequestInfo
 
 # Interface: IBacklinksTimeseriesSummaryLiveRequestInfo
 
@@ -27,7 +27,7 @@ example:
 
 #### Defined in
 
-main.ts:151236
+main.ts:148102
 
 ***
 
@@ -46,7 +46,7 @@ example:
 
 #### Defined in
 
-main.ts:151245
+main.ts:148111
 
 ***
 
@@ -69,7 +69,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Defined in
 
-main.ts:151258
+main.ts:148124
 
 ***
 
@@ -84,7 +84,7 @@ default value: true
 
 #### Defined in
 
-main.ts:151263
+main.ts:148129
 
 ***
 
@@ -100,7 +100,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:151269
+main.ts:148135
 
 ***
 
@@ -116,4 +116,4 @@ example:
 
 #### Defined in
 
-main.ts:151227
+main.ts:148093

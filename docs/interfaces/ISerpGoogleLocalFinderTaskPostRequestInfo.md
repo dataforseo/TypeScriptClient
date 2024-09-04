@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleLocalFinderTaskPostRequestInfo
+[Documentation](../globals.md) / ISerpGoogleLocalFinderTaskPostRequestInfo
 
 # Interface: ISerpGoogleLocalFinderTaskPostRequestInfo
 
@@ -28,7 +28,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:43110
+main.ts:41258
 
 ***
 
@@ -43,7 +43,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:43093
+main.ts:41241
 
 ***
 
@@ -60,7 +60,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:43042
+main.ts:41190
 
 ***
 
@@ -76,7 +76,7 @@ example:en
 
 #### Defined in
 
-main.ts:43088
+main.ts:41236
 
 ***
 
@@ -93,7 +93,7 @@ English
 
 #### Defined in
 
-main.ts:43082
+main.ts:41230
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:43064
+main.ts:41212
 
 ***
 
@@ -131,7 +131,7 @@ example:
 
 #### Defined in
 
-main.ts:43075
+main.ts:41223
 
 ***
 
@@ -148,7 +148,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:43057
+main.ts:41205
 
 ***
 
@@ -163,7 +163,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-main.ts:43115
+main.ts:41263
 
 ***
 
@@ -180,7 +180,7 @@ default value: android
 
 #### Defined in
 
-main.ts:43100
+main.ts:41248
 
 ***
 
@@ -200,7 +200,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:43156
+main.ts:41304
 
 ***
 
@@ -216,7 +216,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:43146
+main.ts:41294
 
 ***
 
@@ -236,7 +236,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:43140
+main.ts:41288
 
 ***
 
@@ -254,7 +254,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:43050
+main.ts:41198
 
 ***
 
@@ -270,7 +270,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:43130
+main.ts:41278
 
 ***
 
@@ -289,4 +289,4 @@ example: "tuesday;18"
 
 #### Defined in
 
-main.ts:43124
+main.ts:41272

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TopSightsElement
+[Documentation](../globals.md) / TopSightsElement
 
 # Class: TopSightsElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:33450
+main.ts:32560
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:33443
+main.ts:32553
 
 ***
 
@@ -63,7 +63,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33446
+main.ts:32556
 
 ***
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33439
+main.ts:32549
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:33437
+main.ts:32547
 
 ***
 
@@ -111,7 +111,7 @@ URL
 
 #### Defined in
 
-main.ts:33441
+main.ts:32551
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:33441
 
 #### Defined in
 
-main.ts:33459
+main.ts:32569
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:33459
 
 #### Defined in
 
-main.ts:33480
+main.ts:32590
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:33480
 
 #### Defined in
 
-main.ts:33473
+main.ts:32583

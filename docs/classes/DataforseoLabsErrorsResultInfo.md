@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsErrorsResultInfo
+[Documentation](../globals.md) / DataforseoLabsErrorsResultInfo
 
 # Class: DataforseoLabsErrorsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:82225
+main.ts:80897
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:82202
+main.ts:80874
 
 ***
 
@@ -65,7 +65,7 @@ error code
 
 #### Defined in
 
-main.ts:82206
+main.ts:80878
 
 ***
 
@@ -82,7 +82,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:82209
+main.ts:80881
 
 ***
 
@@ -98,7 +98,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:82204
+main.ts:80876
 
 ***
 
@@ -114,7 +114,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:82216
+main.ts:80888
 
 ***
 
@@ -130,7 +130,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:82214
+main.ts:80886
 
 ***
 
@@ -147,7 +147,7 @@ server response
 
 #### Defined in
 
-main.ts:82221
+main.ts:80893
 
 ***
 
@@ -163,7 +163,7 @@ time taken by HTTP request
 
 #### Defined in
 
-main.ts:82218
+main.ts:80890
 
 ***
 
@@ -180,7 +180,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:82212
+main.ts:80884
 
 ***
 
@@ -196,7 +196,7 @@ id of the task
 
 #### Defined in
 
-main.ts:82197
+main.ts:80869
 
 ## Methods
 
@@ -214,7 +214,7 @@ main.ts:82197
 
 #### Defined in
 
-main.ts:82234
+main.ts:80906
 
 ***
 
@@ -232,7 +232,7 @@ main.ts:82234
 
 #### Defined in
 
-main.ts:82260
+main.ts:80932
 
 ***
 
@@ -250,4 +250,4 @@ main.ts:82260
 
 #### Defined in
 
-main.ts:82253
+main.ts:80925

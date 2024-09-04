@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
 # Class: DomainAnalyticsTechnologiesDomainTechnologiesLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:80150
+main.ts:78822
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: results will be returned for the specified domain only
 
 #### Defined in
 
-main.ts:80146
+main.ts:78818
 
 ## Methods
 
@@ -67,7 +67,7 @@ main.ts:80146
 
 #### Defined in
 
-main.ts:80159
+main.ts:78831
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:80159
 
 #### Defined in
 
-main.ts:80176
+main.ts:78848
 
 ***
 
@@ -103,4 +103,4 @@ main.ts:80176
 
 #### Defined in
 
-main.ts:80169
+main.ts:78841

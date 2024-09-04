@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BaseMerchantSerpElementItem
+[Documentation](../globals.md) / BaseMerchantSerpElementItem
 
 # Class: BaseMerchantSerpElementItem
 
@@ -21,10 +21,6 @@
 
 - [`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md)
 
-## Indexable
-
- \[`key`: `string`\]: `any`
-
 ## Constructors
 
 ### new BaseMerchantSerpElementItem()
@@ -41,7 +37,7 @@
 
 #### Defined in
 
-main.ts:21027
+main.ts:21041
 
 ## Properties
 
@@ -51,7 +47,75 @@ main.ts:21027
 
 #### Defined in
 
-main.ts:21025
+main.ts:21039
+
+***
+
+### position?
+
+> `optional` **position**: `string`
+
+alignment of the element in SERP
+can take the following values:
+left, right
+
+#### Implementation of
+
+[`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md).[`position`](../interfaces/IBaseMerchantSerpElementItem.md#position)
+
+#### Defined in
+
+main.ts:21037
+
+***
+
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank in SERP
+absolute position among all the elements found in Google Shopping SERP
+
+#### Implementation of
+
+[`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md).[`rank_absolute`](../interfaces/IBaseMerchantSerpElementItem.md#rank_absolute)
+
+#### Defined in
+
+main.ts:21033
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Implementation of
+
+[`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md).[`rank_group`](../interfaces/IBaseMerchantSerpElementItem.md#rank_group)
+
+#### Defined in
+
+main.ts:21030
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IBaseMerchantSerpElementItem`](../interfaces/IBaseMerchantSerpElementItem.md).[`type`](../interfaces/IBaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21027
 
 ## Methods
 
@@ -69,7 +133,7 @@ main.ts:21025
 
 #### Defined in
 
-main.ts:21037
+main.ts:21051
 
 ***
 
@@ -87,7 +151,7 @@ main.ts:21037
 
 #### Defined in
 
-main.ts:21093
+main.ts:21107
 
 ***
 
@@ -105,4 +169,4 @@ main.ts:21093
 
 #### Defined in
 
-main.ts:21046
+main.ts:21060

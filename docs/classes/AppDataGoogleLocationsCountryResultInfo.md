@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleLocationsCountryResultInfo
+[Documentation](../globals.md) / AppDataGoogleLocationsCountryResultInfo
 
 # Class: AppDataGoogleLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:191213
+main.ts:186741
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:191207
+main.ts:186735
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Defined in
 
-main.ts:191195
+main.ts:186723
 
 ***
 
@@ -78,7 +78,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:191197
+main.ts:186725
 
 ***
 
@@ -100,7 +100,7 @@ example:
 
 #### Defined in
 
-main.ts:191205
+main.ts:186733
 
 ***
 
@@ -116,7 +116,7 @@ location type
 
 #### Defined in
 
-main.ts:191209
+main.ts:186737
 
 ## Methods
 
@@ -134,7 +134,7 @@ main.ts:191209
 
 #### Defined in
 
-main.ts:191222
+main.ts:186750
 
 ***
 
@@ -152,7 +152,7 @@ main.ts:191222
 
 #### Defined in
 
-main.ts:191243
+main.ts:186771
 
 ***
 
@@ -170,4 +170,4 @@ main.ts:191243
 
 #### Defined in
 
-main.ts:191236
+main.ts:186764

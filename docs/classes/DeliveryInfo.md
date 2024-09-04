@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DeliveryInfo
+[Documentation](../globals.md) / DeliveryInfo
 
 # Class: DeliveryInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:178376
+main.ts:174306
 
 ## Properties
 
@@ -47,7 +47,7 @@ message accompanying the delivery information as posted by the seller
 
 #### Defined in
 
-main.ts:178365
+main.ts:174295
 
 ***
 
@@ -65,7 +65,7 @@ if free delivery is available, the value is null
 
 #### Defined in
 
-main.ts:178369
+main.ts:174299
 
 ***
 
@@ -82,7 +82,7 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-main.ts:178372
+main.ts:174302
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:178372
 
 #### Defined in
 
-main.ts:178385
+main.ts:174315
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:178385
 
 #### Defined in
 
-main.ts:178404
+main.ts:174334
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:178404
 
 #### Defined in
 
-main.ts:178397
+main.ts:174327

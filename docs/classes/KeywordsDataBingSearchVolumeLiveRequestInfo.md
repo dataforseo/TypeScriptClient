@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataBingSearchVolumeLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataBingSearchVolumeLiveRequestInfo
 
 # Class: KeywordsDataBingSearchVolumeLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:132236
+main.ts:129102
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:132210
+main.ts:129076
 
 ***
 
@@ -78,7 +78,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:132221
+main.ts:129087
 
 ***
 
@@ -98,7 +98,7 @@ default value: all
 
 #### Defined in
 
-main.ts:132196
+main.ts:129062
 
 ***
 
@@ -118,7 +118,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:132156
+main.ts:129022
 
 ***
 
@@ -138,7 +138,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:132190
+main.ts:129056
 
 ***
 
@@ -158,7 +158,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:132184
+main.ts:129050
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:132170
+main.ts:129036
 
 ***
 
@@ -201,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:132178
+main.ts:129044
 
 ***
 
@@ -222,7 +222,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:132163
+main.ts:129029
 
 ***
 
@@ -241,7 +241,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:132226
+main.ts:129092
 
 ***
 
@@ -260,7 +260,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:132201
+main.ts:129067
 
 ***
 
@@ -280,7 +280,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:132232
+main.ts:129098
 
 ## Methods
 
@@ -298,7 +298,7 @@ main.ts:132232
 
 #### Defined in
 
-main.ts:132245
+main.ts:129111
 
 ***
 
@@ -316,7 +316,7 @@ main.ts:132245
 
 #### Defined in
 
-main.ts:132277
+main.ts:129143
 
 ***
 
@@ -334,4 +334,4 @@ main.ts:132277
 
 #### Defined in
 
-main.ts:132270
+main.ts:129136

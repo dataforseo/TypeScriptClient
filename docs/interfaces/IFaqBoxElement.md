@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IFaqBoxElement
+[Documentation](../globals.md) / IFaqBoxElement
 
 # Interface: IFaqBoxElement
 
@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:29588
+main.ts:29456
 
 ***
 
@@ -32,7 +32,7 @@ link of the element
 
 #### Defined in
 
-main.ts:29590
+main.ts:29458
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29586
+main.ts:29454
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:29584
+main.ts:29452

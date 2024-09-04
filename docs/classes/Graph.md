@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / Graph
+[Documentation](../globals.md) / Graph
 
 # Class: Graph
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:34278
+main.ts:33236
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:34271
+main.ts:33229
 
 ***
 
@@ -63,7 +63,7 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-main.ts:34274
+main.ts:33232
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:34274
 
 #### Defined in
 
-main.ts:34287
+main.ts:33245
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:34287
 
 #### Defined in
 
-main.ts:34313
+main.ts:33271
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:34313
 
 #### Defined in
 
-main.ts:34306
+main.ts:33264

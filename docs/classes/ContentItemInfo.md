@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentItemInfo
+[Documentation](../globals.md) / ContentItemInfo
 
 # Class: ContentItemInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:165345
+main.ts:161275
 
 ## Properties
 
@@ -46,7 +46,7 @@ content text
 
 #### Defined in
 
-main.ts:165336
+main.ts:161266
 
 ***
 
@@ -63,7 +63,7 @@ displayed in case the text is a link anchor
 
 #### Defined in
 
-main.ts:165339
+main.ts:161269
 
 ***
 
@@ -79,7 +79,7 @@ contains other URLs and anchors found in the content element
 
 #### Defined in
 
-main.ts:165341
+main.ts:161271
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:165341
 
 #### Defined in
 
-main.ts:165354
+main.ts:161284
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:165354
 
 #### Defined in
 
-main.ts:165377
+main.ts:161307
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:165377
 
 #### Defined in
 
-main.ts:165370
+main.ts:161300

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsWhoisOverviewLiveResultInfo
+[Documentation](../globals.md) / IDomainAnalyticsWhoisOverviewLiveResultInfo
 
 # Interface: IDomainAnalyticsWhoisOverviewLiveResultInfo
 
@@ -20,7 +20,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:81390
+main.ts:80062
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:81388
+main.ts:80060
 
 ***
 
@@ -44,4 +44,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:81386
+main.ts:80058

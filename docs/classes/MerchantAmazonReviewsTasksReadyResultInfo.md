@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonReviewsTasksReadyResultInfo
+[Documentation](../globals.md) / MerchantAmazonReviewsTasksReadyResultInfo
 
 # Class: MerchantAmazonReviewsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:189224
+main.ts:184774
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:189214
+main.ts:184764
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Amazon Reviews Advanced task
 
 #### Defined in
 
-main.ts:189218
+main.ts:184768
 
 ***
 
@@ -78,7 +78,7 @@ URL for collecting the results of the Amazon Reviews HTML task
 
 #### Defined in
 
-main.ts:189220
+main.ts:184770
 
 ***
 
@@ -95,7 +95,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:189208
+main.ts:184758
 
 ***
 
@@ -111,7 +111,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:189210
+main.ts:184760
 
 ***
 
@@ -127,7 +127,7 @@ type of search engine
 
 #### Defined in
 
-main.ts:189212
+main.ts:184762
 
 ***
 
@@ -143,7 +143,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:189216
+main.ts:184766
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:189216
 
 #### Defined in
 
-main.ts:189233
+main.ts:184783
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:189233
 
 #### Defined in
 
-main.ts:189256
+main.ts:184806
 
 ***
 
@@ -197,4 +197,4 @@ main.ts:189256
 
 #### Defined in
 
-main.ts:189249
+main.ts:184799

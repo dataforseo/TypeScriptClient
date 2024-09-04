@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantGoogleSellersTaskGetAdvancedResponseInfo
+[Documentation](../globals.md) / MerchantGoogleSellersTaskGetAdvancedResponseInfo
 
 # Class: MerchantGoogleSellersTaskGetAdvancedResponseInfo
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:180855
+main.ts:176629
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:23831
+main.ts:24147
 
 ***
 
@@ -79,7 +79,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:23824
+main.ts:24140
 
 ***
 
@@ -100,7 +100,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:23827
+main.ts:24143
 
 ***
 
@@ -116,7 +116,7 @@ array of tasks
 
 #### Defined in
 
-main.ts:180851
+main.ts:176625
 
 ***
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-main.ts:23833
+main.ts:24149
 
 ***
 
@@ -156,7 +156,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-main.ts:23835
+main.ts:24151
 
 ***
 
@@ -176,7 +176,7 @@ total execution time, seconds
 
 #### Defined in
 
-main.ts:23829
+main.ts:24145
 
 ***
 
@@ -196,7 +196,7 @@ the current version of the API
 
 #### Defined in
 
-main.ts:23821
+main.ts:24137
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:23821
 
 #### Defined in
 
-main.ts:180859
+main.ts:176633
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:180859
 
 #### Defined in
 
-main.ts:180881
+main.ts:176655
 
 ***
 
@@ -262,4 +262,4 @@ main.ts:180881
 
 #### Defined in
 
-main.ts:180874
+main.ts:176648

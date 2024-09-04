@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataGoogleAppSearchesTaskGetHtmlResultInfo
+[Documentation](../globals.md) / IAppDataGoogleAppSearchesTaskGetHtmlResultInfo
 
 # Interface: IAppDataGoogleAppSearchesTaskGetHtmlResultInfo
 
@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:192380
+main.ts:187908
 
 ***
 
@@ -35,7 +35,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:192384
+main.ts:187912
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:192382
+main.ts:187910
 
 ***
 
@@ -59,7 +59,7 @@ keyword received in a POST request
 
 #### Defined in
 
-main.ts:192367
+main.ts:187895
 
 ***
 
@@ -71,7 +71,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:192375
+main.ts:187903
 
 ***
 
@@ -83,7 +83,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:192373
+main.ts:187901
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:192371
+main.ts:187899
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:192369
+main.ts:187897

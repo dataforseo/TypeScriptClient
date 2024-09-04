@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisLanguagesResultInfo
+[Documentation](../globals.md) / ContentAnalysisLanguagesResultInfo
 
 # Class: ContentAnalysisLanguagesResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:169422
+main.ts:165352
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:169418
+main.ts:165348
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:169416
+main.ts:165346
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:169416
 
 #### Defined in
 
-main.ts:169431
+main.ts:165361
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:169431
 
 #### Defined in
 
-main.ts:169449
+main.ts:165379
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:169449
 
 #### Defined in
 
-main.ts:169442
+main.ts:165372

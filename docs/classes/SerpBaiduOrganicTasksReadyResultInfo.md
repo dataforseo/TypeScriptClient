@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduOrganicTasksReadyResultInfo
+[Documentation](../globals.md) / SerpBaiduOrganicTasksReadyResultInfo
 
 # Class: SerpBaiduOrganicTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:71192
+main.ts:69898
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:71177
+main.ts:69883
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:71185
+main.ts:69891
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:71188
+main.ts:69894
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:71182
+main.ts:69888
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:71170
+main.ts:69876
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:71172
+main.ts:69878
 
 ***
 
@@ -147,7 +147,7 @@ example: organic
 
 #### Defined in
 
-main.ts:71175
+main.ts:69881
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:71179
+main.ts:69885
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:71179
 
 #### Defined in
 
-main.ts:71201
+main.ts:69907
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:71201
 
 #### Defined in
 
-main.ts:71225
+main.ts:69931
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:71225
 
 #### Defined in
 
-main.ts:71218
+main.ts:69924

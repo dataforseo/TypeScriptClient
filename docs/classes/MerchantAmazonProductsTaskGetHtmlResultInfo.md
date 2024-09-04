@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonProductsTaskGetHtmlResultInfo
+[Documentation](../globals.md) / MerchantAmazonProductsTaskGetHtmlResultInfo
 
 # Class: MerchantAmazonProductsTaskGetHtmlResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:185439
+main.ts:181073
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:185431
+main.ts:181065
 
 ***
 
@@ -65,7 +65,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:185435
+main.ts:181069
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:185433
+main.ts:181067
 
 ***
 
@@ -98,7 +98,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:185418
+main.ts:181052
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185426
+main.ts:181060
 
 ***
 
@@ -130,7 +130,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185424
+main.ts:181058
 
 ***
 
@@ -146,7 +146,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185422
+main.ts:181056
 
 ***
 
@@ -162,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:185420
+main.ts:181054
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:185420
 
 #### Defined in
 
-main.ts:185448
+main.ts:181082
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:185448
 
 #### Defined in
 
-main.ts:185476
+main.ts:181110
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:185476
 
 #### Defined in
 
-main.ts:185469
+main.ts:181103

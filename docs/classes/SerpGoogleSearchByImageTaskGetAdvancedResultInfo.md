@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleSearchByImageTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleSearchByImageTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:51263
+main.ts:49710
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:51238
+main.ts:49685
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:51243
+main.ts:49690
 
 ***
 
@@ -82,7 +82,7 @@ URL specified in a POST array
 
 #### Defined in
 
-main.ts:51225
+main.ts:49672
 
 ***
 
@@ -102,7 +102,7 @@ images
 
 #### Defined in
 
-main.ts:51252
+main.ts:49699
 
 ***
 
@@ -119,7 +119,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:51259
+main.ts:49706
 
 ***
 
@@ -135,7 +135,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:51256
+main.ts:49703
 
 ***
 
@@ -151,7 +151,7 @@ keyword Google associated with the specified image
 
 #### Defined in
 
-main.ts:51227
+main.ts:49674
 
 ***
 
@@ -167,7 +167,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:51235
+main.ts:49682
 
 ***
 
@@ -183,7 +183,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:51233
+main.ts:49680
 
 ***
 
@@ -199,7 +199,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:51231
+main.ts:49678
 
 ***
 
@@ -215,7 +215,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:51254
+main.ts:49701
 
 ***
 
@@ -232,7 +232,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:51246
+main.ts:49693
 
 ***
 
@@ -248,7 +248,7 @@ type of element
 
 #### Defined in
 
-main.ts:51229
+main.ts:49676
 
 ## Methods
 
@@ -266,7 +266,7 @@ main.ts:51229
 
 #### Defined in
 
-main.ts:51272
+main.ts:49719
 
 ***
 
@@ -284,7 +284,7 @@ main.ts:51272
 
 #### Defined in
 
-main.ts:51309
+main.ts:49756
 
 ***
 
@@ -302,4 +302,4 @@ main.ts:51309
 
 #### Defined in
 
-main.ts:51302
+main.ts:49749

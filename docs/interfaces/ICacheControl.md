@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ICacheControl
+[Documentation](../globals.md) / ICacheControl
 
 # Interface: ICacheControl
 
@@ -20,7 +20,7 @@ indicates whether the page is cacheable
 
 #### Defined in
 
-main.ts:158176
+main.ts:155042
 
 ***
 
@@ -33,4 +33,4 @@ the amount of time the browser caches a resource
 
 #### Defined in
 
-main.ts:158179
+main.ts:155045

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksInfo
+[Documentation](../globals.md) / BacklinksInfo
 
 # Class: BacklinksInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:81087
+main.ts:79759
 
 ## Properties
 
@@ -47,7 +47,7 @@ the total number of backlinks, including dofollow and nofollow links
 
 #### Defined in
 
-main.ts:81078
+main.ts:79750
 
 ***
 
@@ -63,7 +63,7 @@ number of dofollow links
 
 #### Defined in
 
-main.ts:81075
+main.ts:79747
 
 ***
 
@@ -79,7 +79,7 @@ number of referring domains
 
 #### Defined in
 
-main.ts:81069
+main.ts:79741
 
 ***
 
@@ -95,7 +95,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:81071
+main.ts:79743
 
 ***
 
@@ -111,7 +111,7 @@ number of referring pages
 
 #### Defined in
 
-main.ts:81073
+main.ts:79745
 
 ***
 
@@ -130,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:81083
+main.ts:79755
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:81083
 
 #### Defined in
 
-main.ts:81096
+main.ts:79768
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:81096
 
 #### Defined in
 
-main.ts:81118
+main.ts:79790
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:81118
 
 #### Defined in
 
-main.ts:81111
+main.ts:79783

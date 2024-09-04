@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IGoogleShoppingPaidMerchantSerpElementItem
+[Documentation](../globals.md) / IGoogleShoppingPaidMerchantSerpElementItem
 
 # Interface: IGoogleShoppingPaidMerchantSerpElementItem
 
@@ -24,7 +24,7 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-main.ts:178880
+main.ts:174758
 
 ***
 
@@ -36,7 +36,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:178876
+main.ts:174754
 
 ***
 
@@ -48,9 +48,13 @@ alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`position`](IBaseMerchantSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:178872
+main.ts:21130
 
 ***
 
@@ -61,9 +65,13 @@ main.ts:178872
 absolute rank in SERP
 absolute position among all the elements found in Google Shopping SERP
 
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_absolute`](IBaseMerchantSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:178868
+main.ts:21126
 
 ***
 
@@ -74,9 +82,13 @@ main.ts:178868
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`rank_group`](IBaseMerchantSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:178865
+main.ts:21123
 
 ***
 
@@ -89,7 +101,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:178885
+main.ts:174763
 
 ***
 
@@ -101,7 +113,23 @@ product title
 
 #### Defined in
 
-main.ts:178878
+main.ts:174756
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseMerchantSerpElementItem`](IBaseMerchantSerpElementItem.md).[`type`](IBaseMerchantSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21120
 
 ***
 
@@ -113,7 +141,7 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-main.ts:178882
+main.ts:174760
 
 ***
 
@@ -125,4 +153,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:178874
+main.ts:174752

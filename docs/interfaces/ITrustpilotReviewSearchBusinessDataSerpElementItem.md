@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
+[Documentation](../globals.md) / ITrustpilotReviewSearchBusinessDataSerpElementItem
 
 # Interface: ITrustpilotReviewSearchBusinessDataSerpElementItem
 
@@ -24,7 +24,7 @@ the language of the review
 
 #### Defined in
 
-main.ts:216560
+main.ts:211850
 
 ***
 
@@ -37,7 +37,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:216552
+main.ts:211842
 
 ***
 
@@ -45,12 +45,15 @@ main.ts:216552
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank among all the elements
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_absolute`](IBaseBusinessDataSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:216549
+main.ts:21392
 
 ***
 
@@ -59,11 +62,15 @@ main.ts:216549
 > `optional` **rank\_group**: `number`
 
 position within a group of elements with identical type values
-positions of elements with different type values are omitted from rank_group
+positions of elements with different type values are omitted from the rank_group
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`rank_group`](IBaseBusinessDataSerpElementItem.md#rank_group)
 
 #### Defined in
 
-main.ts:216546
+main.ts:21390
 
 ***
 
@@ -75,7 +82,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:216556
+main.ts:211846
 
 ***
 
@@ -87,7 +94,7 @@ owner’s response to the submitted review
 
 #### Defined in
 
-main.ts:216577
+main.ts:211867
 
 ***
 
@@ -101,7 +108,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 #### Defined in
 
-main.ts:216573
+main.ts:211863
 
 ***
 
@@ -113,7 +120,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:216569
+main.ts:211859
 
 ***
 
@@ -128,7 +135,7 @@ example:
 
 #### Defined in
 
-main.ts:216565
+main.ts:211855
 
 ***
 
@@ -140,7 +147,23 @@ the title of the review
 
 #### Defined in
 
-main.ts:216567
+main.ts:211857
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseBusinessDataSerpElementItem`](IBaseBusinessDataSerpElementItem.md).[`type`](IBaseBusinessDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21387
 
 ***
 
@@ -152,7 +175,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:216554
+main.ts:211844
 
 ***
 
@@ -164,7 +187,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:216575
+main.ts:211865
 
 ***
 
@@ -176,4 +199,4 @@ indicates whether the review has the “Verified” mark
 
 #### Defined in
 
-main.ts:216558
+main.ts:211848

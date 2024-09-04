@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / MerchantAmazonSellersTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / MerchantAmazonSellersTaskGetAdvancedResultInfo
 
 # Class: MerchantAmazonSellersTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:188279
+main.ts:183829
 
 ## Properties
 
@@ -47,7 +47,7 @@ learn more about ASINs in this help center guide
 
 #### Defined in
 
-main.ts:188244
+main.ts:183794
 
 ***
 
@@ -64,7 +64,7 @@ you can use it to make sure the provided results are accurate
 
 #### Defined in
 
-main.ts:188255
+main.ts:183805
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:188260
+main.ts:183810
 
 ***
 
@@ -100,7 +100,7 @@ image URL of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:188266
+main.ts:183816
 
 ***
 
@@ -119,7 +119,7 @@ amazon_seller_main_item, amazon_seller_item
 
 #### Defined in
 
-main.ts:188271
+main.ts:183821
 
 ***
 
@@ -135,7 +135,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:188275
+main.ts:183825
 
 ***
 
@@ -151,7 +151,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:188273
+main.ts:183823
 
 ***
 
@@ -167,7 +167,7 @@ language code received in a POST array
 
 #### Defined in
 
-main.ts:188252
+main.ts:183802
 
 ***
 
@@ -183,7 +183,7 @@ location code received in a POST array
 
 #### Defined in
 
-main.ts:188250
+main.ts:183800
 
 ***
 
@@ -199,7 +199,7 @@ search engine domain received in a POST array
 
 #### Defined in
 
-main.ts:188248
+main.ts:183798
 
 ***
 
@@ -216,7 +216,7 @@ title of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:188263
+main.ts:183813
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:188246
+main.ts:183796
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:188246
 
 #### Defined in
 
-main.ts:188288
+main.ts:183838
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:188288
 
 #### Defined in
 
-main.ts:188324
+main.ts:183874
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:188324
 
 #### Defined in
 
-main.ts:188317
+main.ts:183867

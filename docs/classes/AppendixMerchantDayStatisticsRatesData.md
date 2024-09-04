@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixMerchantDayStatisticsRatesData
+[Documentation](../globals.md) / AppendixMerchantDayStatisticsRatesData
 
 # Class: AppendixMerchantDayStatisticsRatesData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:223560
+main.ts:218820
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:223560
 
 #### Defined in
 
-main.ts:223550
+main.ts:218810
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:223550
 
 #### Defined in
 
-main.ts:223553
+main.ts:218813
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:223553
 
 #### Defined in
 
-main.ts:223549
+main.ts:218809
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:223549
 
 #### Defined in
 
-main.ts:223556
+main.ts:218816
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:223556
 
 #### Defined in
 
-main.ts:223552
+main.ts:218812
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:223552
 
 #### Defined in
 
-main.ts:223551
+main.ts:218811
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:223551
 
 #### Defined in
 
-main.ts:223554
+main.ts:218814
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:223554
 
 #### Defined in
 
-main.ts:223555
+main.ts:218815
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:223555
 
 #### Defined in
 
-main.ts:223569
+main.ts:218829
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:223569
 
 #### Defined in
 
-main.ts:223593
+main.ts:218853
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:223593
 
 #### Defined in
 
-main.ts:223586
+main.ts:218846

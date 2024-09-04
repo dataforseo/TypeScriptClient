@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixBusinessDataLimitsRatesDataInfo
+[Documentation](../globals.md) / AppendixBusinessDataLimitsRatesDataInfo
 
 # Class: AppendixBusinessDataLimitsRatesDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:221830
+main.ts:217090
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:221830
 
 #### Defined in
 
-main.ts:221825
+main.ts:217085
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:221825
 
 #### Defined in
 
-main.ts:221820
+main.ts:217080
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:221820
 
 #### Defined in
 
-main.ts:221817
+main.ts:217077
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:221817
 
 #### Defined in
 
-main.ts:221819
+main.ts:217079
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:221819
 
 #### Defined in
 
-main.ts:221818
+main.ts:217078
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:221818
 
 #### Defined in
 
-main.ts:221822
+main.ts:217082
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:221822
 
 #### Defined in
 
-main.ts:221826
+main.ts:217086
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:221826
 
 #### Defined in
 
-main.ts:221823
+main.ts:217083
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:221823
 
 #### Defined in
 
-main.ts:221824
+main.ts:217084
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:221824
 
 #### Defined in
 
-main.ts:221821
+main.ts:217081
 
 ## Methods
 
@@ -188,7 +188,7 @@ main.ts:221821
 
 #### Defined in
 
-main.ts:221839
+main.ts:217099
 
 ***
 
@@ -206,7 +206,7 @@ main.ts:221839
 
 #### Defined in
 
-main.ts:221865
+main.ts:217125
 
 ***
 
@@ -224,4 +224,4 @@ main.ts:221865
 
 #### Defined in
 
-main.ts:221858
+main.ts:217118

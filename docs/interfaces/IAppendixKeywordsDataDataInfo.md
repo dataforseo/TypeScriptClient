@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppendixKeywordsDataDataInfo
+[Documentation](../globals.md) / IAppendixKeywordsDataDataInfo
 
 # Interface: IAppendixKeywordsDataDataInfo
 
@@ -18,7 +18,7 @@
 
 #### Defined in
 
-main.ts:222626
+main.ts:217886
 
 ***
 
@@ -28,7 +28,7 @@ main.ts:222626
 
 #### Defined in
 
-main.ts:222633
+main.ts:217893
 
 ***
 
@@ -38,7 +38,7 @@ main.ts:222633
 
 #### Defined in
 
-main.ts:222631
+main.ts:217891
 
 ***
 
@@ -48,7 +48,7 @@ main.ts:222631
 
 #### Defined in
 
-main.ts:222638
+main.ts:217898
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:222638
 
 #### Defined in
 
-main.ts:222637
+main.ts:217897
 
 ***
 
@@ -68,7 +68,7 @@ main.ts:222637
 
 #### Defined in
 
-main.ts:222632
+main.ts:217892
 
 ***
 
@@ -78,7 +78,7 @@ main.ts:222632
 
 #### Defined in
 
-main.ts:222630
+main.ts:217890
 
 ***
 
@@ -88,7 +88,7 @@ main.ts:222630
 
 #### Defined in
 
-main.ts:222640
+main.ts:217900
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:222640
 
 #### Defined in
 
-main.ts:222636
+main.ts:217896
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:222636
 
 #### Defined in
 
-main.ts:222641
+main.ts:217901
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:222641
 
 #### Defined in
 
-main.ts:222634
+main.ts:217894
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:222634
 
 #### Defined in
 
-main.ts:222623
+main.ts:217883
 
 ***
 
@@ -138,7 +138,7 @@ main.ts:222623
 
 #### Defined in
 
-main.ts:222624
+main.ts:217884
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:222624
 
 #### Defined in
 
-main.ts:222627
+main.ts:217887
 
 ***
 
@@ -158,7 +158,7 @@ main.ts:222627
 
 #### Defined in
 
-main.ts:222628
+main.ts:217888
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:222628
 
 #### Defined in
 
-main.ts:222635
+main.ts:217895
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:222635
 
 #### Defined in
 
-main.ts:222639
+main.ts:217899
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:222639
 
 #### Defined in
 
-main.ts:222625
+main.ts:217885
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:222625
 
 #### Defined in
 
-main.ts:222629
+main.ts:217889

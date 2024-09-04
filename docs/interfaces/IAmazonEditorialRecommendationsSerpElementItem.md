@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonEditorialRecommendationsSerpElementItem
+[Documentation](../globals.md) / IAmazonEditorialRecommendationsSerpElementItem
 
 # Interface: IAmazonEditorialRecommendationsSerpElementItem
 
@@ -24,7 +24,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:184960
+main.ts:180638
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Defined in
 
-main.ts:184956
+main.ts:180636
 
 ***
 
@@ -46,12 +46,16 @@ main.ts:184956
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank in SERP
-absolute position among all the elements found in Amazon SERP
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_absolute`](IBaseAmazonSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:184952
+main.ts:22407
 
 ***
 
@@ -62,9 +66,29 @@ main.ts:184952
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_group`](IBaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:184949
+main.ts:22404
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`type`](IBaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22401
 
 ***
 
@@ -74,6 +98,10 @@ main.ts:184949
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`xpath`](IBaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:184958
+main.ts:22409

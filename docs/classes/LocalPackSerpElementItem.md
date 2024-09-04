@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalPackSerpElementItem
+[Documentation](../globals.md) / LocalPackSerpElementItem
 
 # Class: LocalPackSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:31581
+main.ts:31094
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:31581
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:31573
+main.ts:31086
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31560
+main.ts:31073
 
 ***
 
@@ -100,7 +100,7 @@ source domain
 
 #### Defined in
 
-main.ts:31562
+main.ts:31075
 
 ***
 
@@ -116,7 +116,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:31568
+main.ts:31081
 
 ***
 
@@ -132,7 +132,7 @@ phone number
 
 #### Defined in
 
-main.ts:31564
+main.ts:31077
 
 ***
 
@@ -148,9 +148,13 @@ left, right
 
 [`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`position`](../interfaces/ILocalPackSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:31554
+main.ts:20363
 
 ***
 
@@ -160,15 +164,18 @@ main.ts:31554
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`rank_absolute`](../interfaces/ILocalPackSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:31550
+main.ts:20359
 
 ***
 
@@ -177,17 +184,20 @@ main.ts:31550
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`rank_group`](../interfaces/ILocalPackSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:31546
+main.ts:20356
 
 ***
 
@@ -204,7 +214,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31571
+main.ts:31084
 
 ***
 
@@ -222,7 +232,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31577
+main.ts:31090
 
 ***
 
@@ -238,7 +248,27 @@ title of the row
 
 #### Defined in
 
-main.ts:31558
+main.ts:31071
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`type`](../interfaces/ILocalPackSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -254,7 +284,7 @@ source URL
 
 #### Defined in
 
-main.ts:31566
+main.ts:31079
 
 ***
 
@@ -268,9 +298,13 @@ the XPath of the element
 
 [`ILocalPackSerpElementItem`](../interfaces/ILocalPackSerpElementItem.md).[`xpath`](../interfaces/ILocalPackSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:31556
+main.ts:20365
 
 ## Methods
 
@@ -292,7 +326,7 @@ main.ts:31556
 
 #### Defined in
 
-main.ts:31586
+main.ts:31099
 
 ***
 
@@ -314,7 +348,7 @@ main.ts:31586
 
 #### Defined in
 
-main.ts:31616
+main.ts:31125
 
 ***
 
@@ -336,4 +370,4 @@ main.ts:31616
 
 #### Defined in
 
-main.ts:31609
+main.ts:31118

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoInfoTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:63901
+main.ts:62643
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:63906
+main.ts:62648
 
 ***
 
@@ -51,19 +51,19 @@ youtube_video_info
 
 #### Defined in
 
-main.ts:63914
+main.ts:62656
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseYoutubeSerpElementItem`](../classes/BaseYoutubeSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Defined in
 
-main.ts:63918
+main.ts:62660
 
 ***
 
@@ -75,7 +75,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:63916
+main.ts:62658
 
 ***
 
@@ -87,7 +87,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:63898
+main.ts:62640
 
 ***
 
@@ -99,7 +99,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:63896
+main.ts:62638
 
 ***
 
@@ -111,7 +111,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:63894
+main.ts:62636
 
 ***
 
@@ -124,7 +124,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:63909
+main.ts:62651
 
 ***
 
@@ -136,4 +136,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:63892
+main.ts:62634

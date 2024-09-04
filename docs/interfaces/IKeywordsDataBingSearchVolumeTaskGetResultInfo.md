@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingSearchVolumeTaskGetResultInfo
+[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeTaskGetResultInfo
 
 # Interface: IKeywordsDataBingSearchVolumeTaskGetResultInfo
 
@@ -21,7 +21,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 #### Defined in
 
-main.ts:132031
+main.ts:128897
 
 ***
 
@@ -39,7 +39,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:132019
+main.ts:128885
 
 ***
 
@@ -53,7 +53,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:132023
+main.ts:128889
 
 ***
 
@@ -66,7 +66,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132011
+main.ts:128877
 
 ***
 
@@ -78,7 +78,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:132002
+main.ts:128868
 
 ***
 
@@ -90,7 +90,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:132006
+main.ts:128872
 
 ***
 
@@ -102,7 +102,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:132004
+main.ts:128870
 
 ***
 
@@ -116,7 +116,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:132035
+main.ts:128901
 
 ***
 
@@ -128,7 +128,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:132008
+main.ts:128874
 
 ***
 
@@ -143,4 +143,4 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:132028
+main.ts:128894

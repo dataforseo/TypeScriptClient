@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixClickstreamDataKeywordsDataPriceData
+[Documentation](../globals.md) / AppendixClickstreamDataKeywordsDataPriceData
 
 # Class: AppendixClickstreamDataKeywordsDataPriceData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:225930
+main.ts:221190
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:225930
 
 #### Defined in
 
-main.ts:225923
+main.ts:221183
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:225923
 
 #### Defined in
 
-main.ts:225924
+main.ts:221184
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:225924
 
 #### Defined in
 
-main.ts:225925
+main.ts:221185
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:225925
 
 #### Defined in
 
-main.ts:225926
+main.ts:221186
 
 ## Methods
 
@@ -104,7 +104,7 @@ main.ts:225926
 
 #### Defined in
 
-main.ts:225939
+main.ts:221199
 
 ***
 
@@ -122,7 +122,7 @@ main.ts:225939
 
 #### Defined in
 
-main.ts:225959
+main.ts:221219
 
 ***
 
@@ -140,4 +140,4 @@ main.ts:225959
 
 #### Defined in
 
-main.ts:225952
+main.ts:221212

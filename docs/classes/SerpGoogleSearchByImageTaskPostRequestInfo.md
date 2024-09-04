@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleSearchByImageTaskPostRequestInfo
+[Documentation](../globals.md) / SerpGoogleSearchByImageTaskPostRequestInfo
 
 # Class: SerpGoogleSearchByImageTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:50492
+main.ts:48939
 
 ## Properties
 
@@ -50,7 +50,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:50446
+main.ts:48893
 
 ***
 
@@ -70,7 +70,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:50452
+main.ts:48899
 
 ***
 
@@ -90,7 +90,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:50440
+main.ts:48887
 
 ***
 
@@ -111,7 +111,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:50434
+main.ts:48881
 
 ***
 
@@ -131,7 +131,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Defined in
 
-main.ts:50367
+main.ts:48814
 
 ***
 
@@ -152,7 +152,7 @@ en
 
 #### Defined in
 
-main.ts:50420
+main.ts:48867
 
 ***
 
@@ -173,7 +173,7 @@ English
 
 #### Defined in
 
-main.ts:50413
+main.ts:48860
 
 ***
 
@@ -194,7 +194,7 @@ example:
 
 #### Defined in
 
-main.ts:50396
+main.ts:48843
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Defined in
 
-main.ts:50406
+main.ts:48853
 
 ***
 
@@ -239,7 +239,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:50389
+main.ts:48836
 
 ***
 
@@ -260,7 +260,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:50382
+main.ts:48829
 
 ***
 
@@ -284,7 +284,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:50488
+main.ts:48935
 
 ***
 
@@ -304,7 +304,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:50478
+main.ts:48925
 
 ***
 
@@ -328,7 +328,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:50472
+main.ts:48919
 
 ***
 
@@ -350,7 +350,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:50375
+main.ts:48822
 
 ***
 
@@ -371,7 +371,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:50427
+main.ts:48874
 
 ***
 
@@ -389,7 +389,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:50456
+main.ts:48903
 
 ***
 
@@ -409,7 +409,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:50462
+main.ts:48909
 
 ## Methods
 
@@ -427,7 +427,7 @@ main.ts:50462
 
 #### Defined in
 
-main.ts:50501
+main.ts:48948
 
 ***
 
@@ -445,7 +445,7 @@ main.ts:50501
 
 #### Defined in
 
-main.ts:50535
+main.ts:48982
 
 ***
 
@@ -463,4 +463,4 @@ main.ts:50535
 
 #### Defined in
 
-main.ts:50528
+main.ts:48975

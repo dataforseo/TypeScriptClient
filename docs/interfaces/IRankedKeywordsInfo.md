@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IRankedKeywordsInfo
+[Documentation](../globals.md) / IRankedKeywordsInfo
 
 # Interface: IRankedKeywordsInfo
 
@@ -20,7 +20,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 #### Defined in
 
-main.ts:143623
+main.ts:140489
 
 ***
 
@@ -32,7 +32,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 #### Defined in
 
-main.ts:143625
+main.ts:140491
 
 ***
 
@@ -44,4 +44,4 @@ number of keywords for which the page is ranked in top 3 search results
 
 #### Defined in
 
-main.ts:143621
+main.ts:140487

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
+[Documentation](../globals.md) / IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
 # Interface: IKeywordsDataClickstreamDataBulkSearchVolumeLiveResultInfo
 
@@ -20,7 +20,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:140469
+main.ts:137335
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:140467
+main.ts:137333
 
 ***
 
@@ -44,4 +44,4 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:140465
+main.ts:137331

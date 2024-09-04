@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixTrBusinessDataPriceDataInfo
+[Documentation](../globals.md) / AppendixTrBusinessDataPriceDataInfo
 
 # Class: AppendixTrBusinessDataPriceDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:227440
+main.ts:222700
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:227440
 
 #### Defined in
 
-main.ts:227435
+main.ts:222695
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:227435
 
 #### Defined in
 
-main.ts:227436
+main.ts:222696
 
 ## Methods
 
@@ -76,7 +76,7 @@ main.ts:227436
 
 #### Defined in
 
-main.ts:227449
+main.ts:222709
 
 ***
 
@@ -94,7 +94,7 @@ main.ts:227449
 
 #### Defined in
 
-main.ts:227467
+main.ts:222727
 
 ***
 
@@ -112,4 +112,4 @@ main.ts:227467
 
 #### Defined in
 
-main.ts:227460
+main.ts:222720

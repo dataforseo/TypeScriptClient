@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesTaskGetAdvancedResultInfo
 
@@ -20,7 +20,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:65460
+main.ts:64184
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:65439
+main.ts:64163
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:65444
+main.ts:64168
 
 ***
 
@@ -63,19 +63,19 @@ youtube_subtitles
 
 #### Defined in
 
-main.ts:65452
+main.ts:64176
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`BaseYoutubeSerpElementItem`](../classes/BaseYoutubeSerpElementItem.md)[]
 
 elements of search results found in SERP
 
 #### Defined in
 
-main.ts:65468
+main.ts:64192
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:65466
+main.ts:64190
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:65436
+main.ts:64160
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:65434
+main.ts:64158
 
 ***
 
@@ -123,7 +123,7 @@ language code of original text
 
 #### Defined in
 
-main.ts:65458
+main.ts:64182
 
 ***
 
@@ -135,7 +135,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:65432
+main.ts:64156
 
 ***
 
@@ -148,7 +148,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:65447
+main.ts:64171
 
 ***
 
@@ -160,7 +160,7 @@ number of subtitles in the video
 
 #### Defined in
 
-main.ts:65462
+main.ts:64186
 
 ***
 
@@ -172,7 +172,7 @@ title of the video
 
 #### Defined in
 
-main.ts:65464
+main.ts:64188
 
 ***
 
@@ -184,7 +184,7 @@ language code of translated text
 
 #### Defined in
 
-main.ts:65456
+main.ts:64180
 
 ***
 
@@ -196,7 +196,7 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-main.ts:65454
+main.ts:64178
 
 ***
 
@@ -208,4 +208,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:65430
+main.ts:64154

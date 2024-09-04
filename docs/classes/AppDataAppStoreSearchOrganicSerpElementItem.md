@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataAppStoreSearchOrganicSerpElementItem
+[Documentation](../globals.md) / AppDataAppStoreSearchOrganicSerpElementItem
 
 # Class: AppDataAppStoreSearchOrganicSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:117301
+main.ts:114383
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:117301
 
 #### Defined in
 
-main.ts:21701
+main.ts:21983
 
 ***
 
@@ -68,7 +68,7 @@ id of the app
 
 #### Defined in
 
-main.ts:117283
+main.ts:114369
 
 ***
 
@@ -84,7 +84,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:117289
+main.ts:114373
 
 ***
 
@@ -100,7 +100,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:117295
+main.ts:114377
 
 ***
 
@@ -116,9 +116,13 @@ left, right
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`position`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`position`](BaseAppDataSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:117281
+main.ts:21977
 
 ***
 
@@ -134,7 +138,7 @@ price of the app
 
 #### Defined in
 
-main.ts:117297
+main.ts:114379
 
 ***
 
@@ -149,9 +153,13 @@ absolute position among all the elements in SERP
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`rank_absolute`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_absolute`](BaseAppDataSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:117277
+main.ts:21973
 
 ***
 
@@ -166,9 +174,13 @@ positions of elements with different type values are omitted from rank_group
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`rank_group`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rank_group`](BaseAppDataSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:117274
+main.ts:21970
 
 ***
 
@@ -182,9 +194,13 @@ average rating of the app
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`rating`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#rating)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`rating`](BaseAppDataSerpElementItem.md#rating)
+
 #### Defined in
 
-main.ts:117293
+main.ts:21981
 
 ***
 
@@ -200,7 +216,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:117291
+main.ts:114375
 
 ***
 
@@ -214,9 +230,33 @@ title of the app
 
 [`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`title`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#title)
 
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`title`](BaseAppDataSerpElementItem.md#title)
+
 #### Defined in
 
-main.ts:117285
+main.ts:21979
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IAppDataAppStoreSearchOrganicSerpElementItem`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md).[`type`](../interfaces/IAppDataAppStoreSearchOrganicSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseAppDataSerpElementItem`](BaseAppDataSerpElementItem.md).[`type`](BaseAppDataSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21967
 
 ***
 
@@ -232,7 +272,7 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:117287
+main.ts:114371
 
 ## Methods
 
@@ -254,7 +294,7 @@ main.ts:117287
 
 #### Defined in
 
-main.ts:117306
+main.ts:114388
 
 ***
 
@@ -276,7 +316,7 @@ main.ts:117306
 
 #### Defined in
 
-main.ts:117334
+main.ts:114411
 
 ***
 
@@ -298,4 +338,4 @@ main.ts:117334
 
 #### Defined in
 
-main.ts:117327
+main.ts:114404

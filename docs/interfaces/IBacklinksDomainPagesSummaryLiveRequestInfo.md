@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksDomainPagesSummaryLiveRequestInfo
+[Documentation](../globals.md) / IBacklinksDomainPagesSummaryLiveRequestInfo
 
 # Interface: IBacklinksDomainPagesSummaryLiveRequestInfo
 
@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:146575
+main.ts:143441
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Defined in
 
-main.ts:146536
+main.ts:143402
 
 ***
 
@@ -60,7 +60,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146591
+main.ts:143457
 
 ***
 
@@ -87,7 +87,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:146553
+main.ts:143419
 
 ***
 
@@ -103,7 +103,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146586
+main.ts:143452
 
 ***
 
@@ -118,7 +118,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146580
+main.ts:143446
 
 ***
 
@@ -139,7 +139,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:146527
+main.ts:143393
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:146511
+main.ts:143377
 
 ***
 
@@ -169,7 +169,7 @@ if you specify the 10 value, the first ten anchors in the results array will be 
 
 #### Defined in
 
-main.ts:146516
+main.ts:143382
 
 ***
 
@@ -193,7 +193,7 @@ example:
 
 #### Defined in
 
-main.ts:146567
+main.ts:143433
 
 ***
 
@@ -209,7 +209,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:146597
+main.ts:143463
 
 ***
 
@@ -224,4 +224,4 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:146506
+main.ts:143372

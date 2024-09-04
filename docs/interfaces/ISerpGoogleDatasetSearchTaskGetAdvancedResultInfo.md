@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo
 
 # Interface: ISerpGoogleDatasetSearchTaskGetAdvancedResultInfo
 
@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:56054
+main.ts:54525
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:56059
+main.ts:54530
 
 ***
 
@@ -50,19 +50,19 @@ possible item type: dataset
 
 #### Defined in
 
-main.ts:56066
+main.ts:54537
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
+> `optional` **items**: [`SerpGoogleDatasetAdvancedItem`](../classes/SerpGoogleDatasetAdvancedItem.md)[]
 
 elements of search results found in SERP
 
 #### Defined in
 
-main.ts:56072
+main.ts:54543
 
 ***
 
@@ -74,7 +74,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:56070
+main.ts:54541
 
 ***
 
@@ -87,7 +87,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:56047
+main.ts:54518
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:56051
+main.ts:54522
 
 ***
 
@@ -111,7 +111,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:56049
+main.ts:54520
 
 ***
 
@@ -123,7 +123,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:56068
+main.ts:54539
 
 ***
 
@@ -136,4 +136,4 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:56062
+main.ts:54533

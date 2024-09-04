@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingRelevantPagesLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsBingRelevantPagesLiveResultInfo
 
 # Interface: IDataforseoLabsBingRelevantPagesLiveResultInfo
 
@@ -20,7 +20,7 @@ relevant pages and related data
 
 #### Defined in
 
-main.ts:113122
+main.ts:110256
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:113120
+main.ts:110254
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:113116
+main.ts:110250
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:113113
+main.ts:110247
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:113108
+main.ts:110242
 
 ***
 
@@ -82,7 +82,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:113110
+main.ts:110244
 
 ***
 
@@ -94,4 +94,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:113118
+main.ts:110252

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo
+[Documentation](../globals.md) / IDomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo
 
 # Interface: IDomainAnalyticsTechnologiesDomainsByTechnologyLiveResultInfo
 
@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:79586
+main.ts:78258
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:79578
+main.ts:78250
 
 ***
 
@@ -44,7 +44,7 @@ specified offset value
 
 #### Defined in
 
-main.ts:79580
+main.ts:78252
 
 ***
 
@@ -58,7 +58,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:79584
+main.ts:78256
 
 ***
 
@@ -70,4 +70,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:79576
+main.ts:78248

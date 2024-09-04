@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAppleBulkAppMetricsLiveResultInfo
+[Documentation](../globals.md) / IDataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
 # Interface: IDataforseoLabsAppleBulkAppMetricsLiveResultInfo
 
@@ -20,7 +20,7 @@ contains data related to the ranking app metrics of the specified application
 
 #### Defined in
 
-main.ts:116900
+main.ts:113996
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:116898
+main.ts:113994
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:116894
+main.ts:113990
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:116892
+main.ts:113988
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:116890
+main.ts:113986
 
 ***
 
@@ -80,4 +80,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:116896
+main.ts:113992

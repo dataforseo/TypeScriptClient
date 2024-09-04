@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ImagesSerpElementItem
+[Documentation](../globals.md) / ImagesSerpElementItem
 
 # Class: ImagesSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30616
+main.ts:30357
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:30616
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:30605
+main.ts:30346
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`position`](../interfaces/IImagesSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:30596
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:30596
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`rank_absolute`](../interfaces/IImagesSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:30592
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:30592
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`rank_group`](../interfaces/IImagesSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:30588
+main.ts:20356
 
 ***
 
@@ -142,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30612
+main.ts:30353
 
 ***
 
@@ -159,7 +169,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:30608
+main.ts:30349
 
 ***
 
@@ -175,7 +185,27 @@ title of the row
 
 #### Defined in
 
-main.ts:30600
+main.ts:30341
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`type`](../interfaces/IImagesSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -191,7 +221,7 @@ source URL
 
 #### Defined in
 
-main.ts:30602
+main.ts:30343
 
 ***
 
@@ -205,9 +235,13 @@ the XPath of the element
 
 [`IImagesSerpElementItem`](../interfaces/IImagesSerpElementItem.md).[`xpath`](../interfaces/IImagesSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:30598
+main.ts:20365
 
 ## Methods
 
@@ -229,7 +263,7 @@ main.ts:30598
 
 #### Defined in
 
-main.ts:30621
+main.ts:30362
 
 ***
 
@@ -251,7 +285,7 @@ main.ts:30621
 
 #### Defined in
 
-main.ts:30655
+main.ts:30392
 
 ***
 
@@ -273,4 +307,4 @@ main.ts:30655
 
 #### Defined in
 
-main.ts:30648
+main.ts:30385

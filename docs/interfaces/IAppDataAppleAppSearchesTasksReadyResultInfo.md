@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAppDataAppleAppSearchesTasksReadyResultInfo
+[Documentation](../globals.md) / IAppDataAppleAppSearchesTasksReadyResultInfo
 
 # Interface: IAppDataAppleAppSearchesTasksReadyResultInfo
 
@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:197799
+main.ts:193253
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the Apple App Searches task
 
 #### Defined in
 
-main.ts:197803
+main.ts:193257
 
 ***
 
@@ -45,7 +45,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:197806
+main.ts:193260
 
 ***
 
@@ -58,7 +58,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:197793
+main.ts:193247
 
 ***
 
@@ -70,7 +70,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:197795
+main.ts:193249
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:197797
+main.ts:193251
 
 ***
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:197801
+main.ts:193255

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LastModified
+[Documentation](../globals.md) / LastModified
 
 # Class: LastModified
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:158206
+main.ts:155072
 
 ## Properties
 
@@ -50,7 +50,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:158190
+main.ts:155056
 
 ***
 
@@ -70,7 +70,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:158202
+main.ts:155068
 
 ***
 
@@ -90,7 +90,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:158196
+main.ts:155062
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:158196
 
 #### Defined in
 
-main.ts:158215
+main.ts:155081
 
 ***
 
@@ -126,7 +126,7 @@ main.ts:158215
 
 #### Defined in
 
-main.ts:158234
+main.ts:155100
 
 ***
 
@@ -144,4 +144,4 @@ main.ts:158234
 
 #### Defined in
 
-main.ts:158227
+main.ts:155093

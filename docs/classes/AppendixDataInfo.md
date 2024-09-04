@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixDataInfo
+[Documentation](../globals.md) / AppendixDataInfo
 
 # Class: AppendixDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:222742
+main.ts:218002
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:222742
 
 #### Defined in
 
-main.ts:222727
+main.ts:217987
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:222727
 
 #### Defined in
 
-main.ts:222713
+main.ts:217973
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:222713
 
 #### Defined in
 
-main.ts:222725
+main.ts:217985
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:222725
 
 #### Defined in
 
-main.ts:222723
+main.ts:217983
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:222723
 
 #### Defined in
 
-main.ts:222729
+main.ts:217989
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:222729
 
 #### Defined in
 
-main.ts:222731
+main.ts:217991
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:222731
 
 #### Defined in
 
-main.ts:222715
+main.ts:217975
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:222715
 
 #### Defined in
 
-main.ts:222717
+main.ts:217977
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:222717
 
 #### Defined in
 
-main.ts:222711
+main.ts:217971
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:222711
 
 #### Defined in
 
-main.ts:222719
+main.ts:217979
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:222719
 
 #### Defined in
 
-main.ts:222721
+main.ts:217981
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:222721
 
 #### Defined in
 
-main.ts:222734
+main.ts:217994
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:222734
 
 #### Defined in
 
-main.ts:222707
+main.ts:217967
 
 ***
 
@@ -226,7 +226,7 @@ main.ts:222707
 
 #### Defined in
 
-main.ts:222736
+main.ts:217996
 
 ***
 
@@ -242,7 +242,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:222709
+main.ts:217969
 
 ***
 
@@ -256,7 +256,7 @@ main.ts:222709
 
 #### Defined in
 
-main.ts:222728
+main.ts:217988
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:222728
 
 #### Defined in
 
-main.ts:222714
+main.ts:217974
 
 ***
 
@@ -284,7 +284,7 @@ main.ts:222714
 
 #### Defined in
 
-main.ts:222726
+main.ts:217986
 
 ***
 
@@ -298,7 +298,7 @@ main.ts:222726
 
 #### Defined in
 
-main.ts:222724
+main.ts:217984
 
 ***
 
@@ -312,7 +312,7 @@ main.ts:222724
 
 #### Defined in
 
-main.ts:222730
+main.ts:217990
 
 ***
 
@@ -326,7 +326,7 @@ main.ts:222730
 
 #### Defined in
 
-main.ts:222732
+main.ts:217992
 
 ***
 
@@ -340,7 +340,7 @@ main.ts:222732
 
 #### Defined in
 
-main.ts:222716
+main.ts:217976
 
 ***
 
@@ -354,7 +354,7 @@ main.ts:222716
 
 #### Defined in
 
-main.ts:222718
+main.ts:217978
 
 ***
 
@@ -368,7 +368,7 @@ main.ts:222718
 
 #### Defined in
 
-main.ts:222712
+main.ts:217972
 
 ***
 
@@ -382,7 +382,7 @@ main.ts:222712
 
 #### Defined in
 
-main.ts:222720
+main.ts:217980
 
 ***
 
@@ -396,7 +396,7 @@ main.ts:222720
 
 #### Defined in
 
-main.ts:222722
+main.ts:217982
 
 ***
 
@@ -410,7 +410,7 @@ main.ts:222722
 
 #### Defined in
 
-main.ts:222733
+main.ts:217993
 
 ***
 
@@ -424,7 +424,7 @@ main.ts:222733
 
 #### Defined in
 
-main.ts:222710
+main.ts:217970
 
 ***
 
@@ -438,7 +438,7 @@ main.ts:222710
 
 #### Defined in
 
-main.ts:222735
+main.ts:217995
 
 ***
 
@@ -452,7 +452,7 @@ main.ts:222735
 
 #### Defined in
 
-main.ts:222737
+main.ts:217997
 
 ***
 
@@ -466,7 +466,7 @@ main.ts:222737
 
 #### Defined in
 
-main.ts:222738
+main.ts:217998
 
 ## Methods
 
@@ -484,7 +484,7 @@ main.ts:222738
 
 #### Defined in
 
-main.ts:222751
+main.ts:218011
 
 ***
 
@@ -502,7 +502,7 @@ main.ts:222751
 
 #### Defined in
 
-main.ts:222798
+main.ts:218058
 
 ***
 
@@ -520,4 +520,4 @@ main.ts:222798
 
 #### Defined in
 
-main.ts:222791
+main.ts:218051

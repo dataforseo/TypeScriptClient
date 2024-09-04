@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ReviewMentionInfo
+[Documentation](../globals.md) / ReviewMentionInfo
 
 # Class: ReviewMentionInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:210703
+main.ts:206041
 
 ## Properties
 
@@ -46,7 +46,7 @@ count of negative reviews by criterion
 
 #### Defined in
 
-main.ts:210694
+main.ts:206032
 
 ***
 
@@ -62,7 +62,7 @@ count of positive reviews by criterion
 
 #### Defined in
 
-main.ts:210692
+main.ts:206030
 
 ***
 
@@ -78,7 +78,7 @@ positive score by criterion
 
 #### Defined in
 
-main.ts:210690
+main.ts:206028
 
 ***
 
@@ -94,7 +94,7 @@ title of the evaluated criterion
 
 #### Defined in
 
-main.ts:210688
+main.ts:206026
 
 ***
 
@@ -110,7 +110,7 @@ count of all reviews by criterion
 
 #### Defined in
 
-main.ts:210696
+main.ts:206034
 
 ***
 
@@ -127,7 +127,7 @@ indicates whether the review element is visible by default
 
 #### Defined in
 
-main.ts:210699
+main.ts:206037
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:210699
 
 #### Defined in
 
-main.ts:210712
+main.ts:206050
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:210712
 
 #### Defined in
 
-main.ts:210734
+main.ts:206072
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:210734
 
 #### Defined in
 
-main.ts:210727
+main.ts:206065

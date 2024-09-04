@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixStatusEndpointsInfo
+[Documentation](../globals.md) / AppendixStatusEndpointsInfo
 
 # Class: AppendixStatusEndpointsInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:228897
+main.ts:224157
 
 ## Properties
 
@@ -51,7 +51,7 @@ postback/pingback
 
 #### Defined in
 
-main.ts:228883
+main.ts:224143
 
 ***
 
@@ -75,7 +75,7 @@ send_delay
 
 #### Defined in
 
-main.ts:228893
+main.ts:224153
 
 ## Methods
 
@@ -93,7 +93,7 @@ main.ts:228893
 
 #### Defined in
 
-main.ts:228906
+main.ts:224166
 
 ***
 
@@ -111,7 +111,7 @@ main.ts:228906
 
 #### Defined in
 
-main.ts:228924
+main.ts:224184
 
 ***
 
@@ -129,4 +129,4 @@ main.ts:228924
 
 #### Defined in
 
-main.ts:228917
+main.ts:224177

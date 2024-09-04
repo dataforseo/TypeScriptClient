@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataTripadvisorSearchTaskPostRequestInfo
+[Documentation](../globals.md) / BusinessDataTripadvisorSearchTaskPostRequestInfo
 
 # Class: BusinessDataTripadvisorSearchTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:217442
+main.ts:212732
 
 ## Properties
 
@@ -51,7 +51,7 @@ maximum value: 210
 
 #### Defined in
 
-main.ts:217412
+main.ts:212702
 
 ***
 
@@ -72,7 +72,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:217385
+main.ts:212675
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:217397
+main.ts:212687
 
 ***
 
@@ -112,7 +112,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:217391
+main.ts:212681
 
 ***
 
@@ -136,7 +136,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:217438
+main.ts:212728
 
 ***
 
@@ -160,7 +160,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:217428
+main.ts:212718
 
 ***
 
@@ -182,7 +182,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:217405
+main.ts:212695
 
 ***
 
@@ -202,7 +202,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:217418
+main.ts:212708
 
 ## Methods
 
@@ -220,7 +220,7 @@ main.ts:217418
 
 #### Defined in
 
-main.ts:217451
+main.ts:212741
 
 ***
 
@@ -238,7 +238,7 @@ main.ts:217451
 
 #### Defined in
 
-main.ts:217475
+main.ts:212765
 
 ***
 
@@ -256,4 +256,4 @@ main.ts:217475
 
 #### Defined in
 
-main.ts:217468
+main.ts:212758

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantAmazonSellersTaskPostRequestInfo
+[Documentation](../globals.md) / IMerchantAmazonSellersTaskPostRequestInfo
 
 # Interface: IMerchantAmazonSellersTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ learn more about the identifier in this help center guide
 
 #### Defined in
 
-main.ts:187586
+main.ts:183180
 
 ***
 
@@ -43,7 +43,7 @@ en
 
 #### Defined in
 
-main.ts:187631
+main.ts:183225
 
 ***
 
@@ -60,7 +60,7 @@ English
 
 #### Defined in
 
-main.ts:187624
+main.ts:183218
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:187608
+main.ts:183202
 
 ***
 
@@ -96,7 +96,7 @@ example:
 
 #### Defined in
 
-main.ts:187617
+main.ts:183211
 
 ***
 
@@ -113,7 +113,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:187601
+main.ts:183195
 
 ***
 
@@ -133,7 +133,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:187670
+main.ts:183264
 
 ***
 
@@ -149,7 +149,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:187660
+main.ts:183254
 
 ***
 
@@ -169,7 +169,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:187654
+main.ts:183248
 
 ***
 
@@ -187,7 +187,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:187594
+main.ts:183188
 
 ***
 
@@ -204,7 +204,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 #### Defined in
 
-main.ts:187638
+main.ts:183232
 
 ***
 
@@ -220,4 +220,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:187644
+main.ts:183238

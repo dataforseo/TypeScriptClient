@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleAvailableHistoryResultInfo
 
 # Interface: IDataforseoLabsGoogleAvailableHistoryResultInfo
 
@@ -23,4 +23,4 @@ example:
 
 #### Defined in
 
-main.ts:83456
+main.ts:82128

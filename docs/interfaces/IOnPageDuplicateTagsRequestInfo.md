@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageDuplicateTagsRequestInfo
+[Documentation](../globals.md) / IOnPageDuplicateTagsRequestInfo
 
 # Interface: IOnPageDuplicateTagsRequestInfo
 
@@ -22,7 +22,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 #### Defined in
 
-main.ts:160527
+main.ts:156825
 
 ***
 
@@ -38,7 +38,7 @@ example:
 
 #### Defined in
 
-main.ts:160521
+main.ts:156819
 
 ***
 
@@ -53,7 +53,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:160532
+main.ts:156830
 
 ***
 
@@ -68,7 +68,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:160537
+main.ts:156835
 
 ***
 
@@ -84,7 +84,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:160543
+main.ts:156841
 
 ***
 
@@ -96,4 +96,4 @@ type of element
 
 #### Defined in
 
-main.ts:160523
+main.ts:156821

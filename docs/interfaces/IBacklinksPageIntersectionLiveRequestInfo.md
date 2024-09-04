@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IBacklinksPageIntersectionLiveRequestInfo
+[Documentation](../globals.md) / IBacklinksPageIntersectionLiveRequestInfo
 
 # Interface: IBacklinksPageIntersectionLiveRequestInfo
 
@@ -27,7 +27,7 @@ default value: live
 
 #### Defined in
 
-main.ts:150325
+main.ts:147191
 
 ***
 
@@ -43,7 +43,7 @@ default value: true
 
 #### Defined in
 
-main.ts:150391
+main.ts:147257
 
 ***
 
@@ -63,7 +63,7 @@ example:
 
 #### Defined in
 
-main.ts:150316
+main.ts:147182
 
 ***
 
@@ -90,7 +90,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:150342
+main.ts:147208
 
 ***
 
@@ -106,7 +106,7 @@ default value: true
 
 #### Defined in
 
-main.ts:150385
+main.ts:147251
 
 ***
 
@@ -121,7 +121,7 @@ default value: true
 
 #### Defined in
 
-main.ts:150379
+main.ts:147245
 
 ***
 
@@ -139,7 +139,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:150374
+main.ts:147240
 
 ***
 
@@ -157,7 +157,7 @@ default value: all
 
 #### Defined in
 
-main.ts:150399
+main.ts:147265
 
 ***
 
@@ -172,7 +172,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:150366
+main.ts:147232
 
 ***
 
@@ -187,7 +187,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Defined in
 
-main.ts:150361
+main.ts:147227
 
 ***
 
@@ -211,7 +211,7 @@ example:
 
 #### Defined in
 
-main.ts:150356
+main.ts:147222
 
 ***
 
@@ -227,7 +227,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:150405
+main.ts:147271
 
 ***
 
@@ -252,4 +252,4 @@ example:
 
 #### Defined in
 
-main.ts:150306
+main.ts:147172

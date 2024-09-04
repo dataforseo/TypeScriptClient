@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IProductInformationTextItem
+[Documentation](../globals.md) / IProductInformationTextItem
 
 # Interface: IProductInformationTextItem
 
@@ -22,9 +22,13 @@
 
 name of the section related to product information specified in the contents
 
+#### Inherited from
+
+[`IBaseProductInformationItem`](IBaseProductInformationItem.md).[`section_name`](IBaseProductInformationItem.md#section_name)
+
 #### Defined in
 
-main.ts:186414
+main.ts:23408
 
 ***
 
@@ -36,4 +40,20 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:186416
+main.ts:182038
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseProductInformationItem`](IBaseProductInformationItem.md).[`type`](IBaseProductInformationItem.md#type)
+
+#### Defined in
+
+main.ts:23406

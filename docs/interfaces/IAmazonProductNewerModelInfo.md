@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonProductNewerModelInfo
+[Documentation](../globals.md) / IAmazonProductNewerModelInfo
 
 # Interface: IAmazonProductNewerModelInfo
 
@@ -20,7 +20,7 @@ ASIN of the newer product model
 
 #### Defined in
 
-main.ts:186238
+main.ts:181872
 
 ***
 
@@ -32,4 +32,4 @@ product title
 
 #### Defined in
 
-main.ts:186236
+main.ts:181870

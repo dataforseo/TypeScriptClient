@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageTasksReadyResultInfo
+[Documentation](../globals.md) / OnPageTasksReadyResultInfo
 
 # Class: OnPageTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:156421
+main.ts:153287
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:156415
+main.ts:153281
 
 ***
 
@@ -63,7 +63,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:156411
+main.ts:153277
 
 ***
 
@@ -79,7 +79,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:156417
+main.ts:153283
 
 ***
 
@@ -95,7 +95,7 @@ target website specified when setting a task
 
 #### Defined in
 
-main.ts:156413
+main.ts:153279
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:156413
 
 #### Defined in
 
-main.ts:156430
+main.ts:153296
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:156430
 
 #### Defined in
 
-main.ts:156450
+main.ts:153316
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:156450
 
 #### Defined in
 
-main.ts:156443
+main.ts:153309

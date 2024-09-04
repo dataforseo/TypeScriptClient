@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ITwitterDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / ITwitterDataforseoLabsSerpElementItem
 
 # Interface: ITwitterDataforseoLabsSerpElementItem
 
@@ -20,12 +20,11 @@
 
 > `optional` **items**: [`TwitterElement`](../classes/TwitterElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+elements of search results found in SERP
 
 #### Defined in
 
-main.ts:97552
+main.ts:95980
 
 ***
 
@@ -37,9 +36,13 @@ the alignment of the element in SERP
 can take the following values:
 left, right
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`position`](IBaseDataforseoLabsSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:97543
+main.ts:21020
 
 ***
 
@@ -50,9 +53,13 @@ main.ts:97543
 absolute rank in SERP
 absolute position among all the elements in SERP
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_absolute`](IBaseDataforseoLabsSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:97539
+main.ts:21016
 
 ***
 
@@ -63,9 +70,13 @@ main.ts:97539
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`rank_group`](IBaseDataforseoLabsSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:97536
+main.ts:21013
 
 ***
 
@@ -77,7 +88,7 @@ search engine type
 
 #### Defined in
 
-main.ts:97533
+main.ts:95974
 
 ***
 
@@ -85,11 +96,27 @@ main.ts:97533
 
 > `optional` **title**: `string`
 
-title of the item
+title of the result in SERP
 
 #### Defined in
 
-main.ts:97547
+main.ts:95976
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`type`](IBaseDataforseoLabsSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:21010
 
 ***
 
@@ -97,11 +124,11 @@ main.ts:97547
 
 > `optional` **url**: `string`
 
-URL link
+relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:97549
+main.ts:95978
 
 ***
 
@@ -111,6 +138,10 @@ main.ts:97549
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseDataforseoLabsSerpElementItem`](IBaseDataforseoLabsSerpElementItem.md).[`xpath`](IBaseDataforseoLabsSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:97545
+main.ts:21022

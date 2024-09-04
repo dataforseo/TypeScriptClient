@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / LocalBusinessMenuLink
+[Documentation](../globals.md) / LocalBusinessMenuLink
 
 # Class: LocalBusinessMenuLink
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:23772
+main.ts:24088
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:23772
 
 #### Defined in
 
-main.ts:23528
+main.ts:23850
 
 ***
 
@@ -69,7 +69,27 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:23766
+main.ts:24082
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ILocalBusinessMenuLink`](../interfaces/ILocalBusinessMenuLink.md).[`type`](../interfaces/ILocalBusinessMenuLink.md#type)
+
+#### Inherited from
+
+[`BaseLocalBusinessLink`](BaseLocalBusinessLink.md).[`type`](BaseLocalBusinessLink.md#type)
+
+#### Defined in
+
+main.ts:23848
 
 ***
 
@@ -85,7 +105,7 @@ URL to view the menu
 
 #### Defined in
 
-main.ts:23768
+main.ts:24084
 
 ## Methods
 
@@ -107,7 +127,7 @@ main.ts:23768
 
 #### Defined in
 
-main.ts:23777
+main.ts:24093
 
 ***
 
@@ -129,7 +149,7 @@ main.ts:23777
 
 #### Defined in
 
-main.ts:23796
+main.ts:24112
 
 ***
 
@@ -151,4 +171,4 @@ main.ts:23796
 
 #### Defined in
 
-main.ts:23789
+main.ts:24105

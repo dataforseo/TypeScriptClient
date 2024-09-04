@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleLocationsCountryResultInfo
+[Documentation](../globals.md) / SerpGoogleLocationsCountryResultInfo
 
 # Class: SerpGoogleLocationsCountryResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:25600
+main.ts:25916
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:25594
+main.ts:25910
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Defined in
 
-main.ts:25581
+main.ts:25897
 
 ***
 
@@ -85,7 +85,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:25592
+main.ts:25908
 
 ***
 
@@ -101,7 +101,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:25583
+main.ts:25899
 
 ***
 
@@ -117,7 +117,7 @@ location type
 
 #### Defined in
 
-main.ts:25596
+main.ts:25912
 
 ## Methods
 
@@ -135,7 +135,7 @@ main.ts:25596
 
 #### Defined in
 
-main.ts:25609
+main.ts:25925
 
 ***
 
@@ -153,7 +153,7 @@ main.ts:25609
 
 #### Defined in
 
-main.ts:25630
+main.ts:25946
 
 ***
 
@@ -171,4 +171,4 @@ main.ts:25630
 
 #### Defined in
 
-main.ts:25623
+main.ts:25939

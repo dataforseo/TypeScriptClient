@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IOnPageResourcesResultInfo
+[Documentation](../globals.md) / IOnPageResourcesResultInfo
 
 # Interface: IOnPageResourcesResultInfo
 
@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:159757
+main.ts:156467
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:159759
+main.ts:156469
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Defined in
 
-main.ts:159765
+main.ts:156475
 
 ***
 
@@ -57,7 +57,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:159763
+main.ts:156473
 
 ***
 
@@ -69,4 +69,4 @@ total number of relevant items crawled
 
 #### Defined in
 
-main.ts:159761
+main.ts:156471

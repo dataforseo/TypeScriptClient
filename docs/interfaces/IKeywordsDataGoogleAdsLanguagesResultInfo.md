@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsLanguagesResultInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsLanguagesResultInfo
 
 # Interface: IKeywordsDataGoogleAdsLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:120274
+main.ts:117332
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:120272
+main.ts:117330

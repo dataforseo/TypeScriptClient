@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleEventsLiveAdvancedResultInfo
+[Documentation](../globals.md) / SerpGoogleEventsLiveAdvancedResultInfo
 
 # Class: SerpGoogleEventsLiveAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:48551
+main.ts:46783
 
 ## Properties
 
@@ -46,7 +46,7 @@ direct URL to search engine results
 
 #### Defined in
 
-main.ts:48527
+main.ts:46759
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:48532
+main.ts:46764
 
 ***
 
@@ -83,7 +83,7 @@ event_item
 
 #### Defined in
 
-main.ts:48539
+main.ts:46771
 
 ***
 
@@ -99,7 +99,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:48547
+main.ts:46779
 
 ***
 
@@ -115,7 +115,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:48545
+main.ts:46777
 
 ***
 
@@ -132,7 +132,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:48516
+main.ts:46748
 
 ***
 
@@ -149,7 +149,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:48525
+main.ts:46757
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:48522
+main.ts:46754
 
 ***
 
@@ -181,7 +181,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:48520
+main.ts:46752
 
 ***
 
@@ -199,7 +199,7 @@ this search engine does not indicate the total number of results
 
 #### Defined in
 
-main.ts:48543
+main.ts:46775
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:48535
+main.ts:46767
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:48518
+main.ts:46750
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:48518
 
 #### Defined in
 
-main.ts:48560
+main.ts:46792
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:48560
 
 #### Defined in
 
-main.ts:48596
+main.ts:46828
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:48596
 
 #### Defined in
 
-main.ts:48589
+main.ts:46821

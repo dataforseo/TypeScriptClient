@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsTechnologiesAvailableFiltersResponseInfo
+[Documentation](../globals.md) / DomainAnalyticsTechnologiesAvailableFiltersResponseInfo
 
 # Class: DomainAnalyticsTechnologiesAvailableFiltersResponseInfo
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:76785
+main.ts:75457
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:23831
+main.ts:24147
 
 ***
 
@@ -79,7 +79,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:23824
+main.ts:24140
 
 ***
 
@@ -100,7 +100,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:23827
+main.ts:24143
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:23827
 
 #### Defined in
 
-main.ts:76781
+main.ts:75453
 
 ***
 
@@ -134,7 +134,7 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-main.ts:23833
+main.ts:24149
 
 ***
 
@@ -154,7 +154,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-main.ts:23835
+main.ts:24151
 
 ***
 
@@ -174,7 +174,7 @@ total execution time, seconds
 
 #### Defined in
 
-main.ts:23829
+main.ts:24145
 
 ***
 
@@ -194,7 +194,7 @@ the current version of the API
 
 #### Defined in
 
-main.ts:23821
+main.ts:24137
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:23821
 
 #### Defined in
 
-main.ts:76789
+main.ts:75461
 
 ***
 
@@ -238,7 +238,7 @@ main.ts:76789
 
 #### Defined in
 
-main.ts:76811
+main.ts:75483
 
 ***
 
@@ -260,4 +260,4 @@ main.ts:76811
 
 #### Defined in
 
-main.ts:76804
+main.ts:75476

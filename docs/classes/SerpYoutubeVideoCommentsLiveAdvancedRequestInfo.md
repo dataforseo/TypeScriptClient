@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
+[Documentation](../globals.md) / SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
 # Class: SerpYoutubeVideoCommentsLiveAdvancedRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:67257
+main.ts:65963
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:67247
+main.ts:65953
 
 ***
 
@@ -71,7 +71,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:67233
+main.ts:65939
 
 ***
 
@@ -92,7 +92,7 @@ en
 
 #### Defined in
 
-main.ts:67229
+main.ts:65935
 
 ***
 
@@ -113,7 +113,7 @@ English
 
 #### Defined in
 
-main.ts:67222
+main.ts:65928
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:67215
+main.ts:65921
 
 ***
 
@@ -155,7 +155,7 @@ United States
 
 #### Defined in
 
-main.ts:67208
+main.ts:65914
 
 ***
 
@@ -174,7 +174,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:67238
+main.ts:65944
 
 ***
 
@@ -194,7 +194,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:67253
+main.ts:65959
 
 ***
 
@@ -214,7 +214,7 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:67201
+main.ts:65907
 
 ## Methods
 
@@ -232,7 +232,7 @@ main.ts:67201
 
 #### Defined in
 
-main.ts:67266
+main.ts:65972
 
 ***
 
@@ -250,7 +250,7 @@ main.ts:67266
 
 #### Defined in
 
-main.ts:67291
+main.ts:65997
 
 ***
 
@@ -268,4 +268,4 @@ main.ts:67291
 
 #### Defined in
 
-main.ts:67284
+main.ts:65990

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMathSolverElement
+[Documentation](../globals.md) / IMathSolverElement
 
 # Interface: IMathSolverElement
 
@@ -20,7 +20,7 @@ expanded element
 
 #### Defined in
 
-main.ts:35938
+main.ts:34592
 
 ***
 
@@ -32,7 +32,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35936
+main.ts:34590
 
 ***
 
@@ -44,4 +44,4 @@ type of element
 
 #### Defined in
 
-main.ts:35934
+main.ts:34588

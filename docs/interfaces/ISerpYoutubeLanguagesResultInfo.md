@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeLanguagesResultInfo
+[Documentation](../globals.md) / ISerpYoutubeLanguagesResultInfo
 
 # Interface: ISerpYoutubeLanguagesResultInfo
 
@@ -20,7 +20,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:62482
+main.ts:61161
 
 ***
 
@@ -32,4 +32,4 @@ language name
 
 #### Defined in
 
-main.ts:62480
+main.ts:61159

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TableContent
+[Documentation](../globals.md) / TableContent
 
 # Class: TableContent
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:165634
+main.ts:161564
 
 ## Properties
 
@@ -46,7 +46,7 @@ content of the body of the table
 
 #### Defined in
 
-main.ts:165628
+main.ts:161558
 
 ***
 
@@ -54,7 +54,7 @@ main.ts:165628
 
 > `optional` **footer**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-content of the footer of the table
+parsed content of the footer
 
 #### Implementation of
 
@@ -62,7 +62,7 @@ content of the footer of the table
 
 #### Defined in
 
-main.ts:165630
+main.ts:161560
 
 ***
 
@@ -70,7 +70,7 @@ main.ts:165630
 
 > `optional` **header**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-parsed content of the header
+content of the header of the table
 
 #### Implementation of
 
@@ -78,7 +78,7 @@ parsed content of the header
 
 #### Defined in
 
-main.ts:165626
+main.ts:161556
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:165626
 
 #### Defined in
 
-main.ts:165643
+main.ts:161573
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:165643
 
 #### Defined in
 
-main.ts:165674
+main.ts:161604
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:165674
 
 #### Defined in
 
-main.ts:165667
+main.ts:161597

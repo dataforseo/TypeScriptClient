@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleDatasetInfoLiveAdvancedResultInfo
+[Documentation](../globals.md) / SerpGoogleDatasetInfoLiveAdvancedResultInfo
 
 # Class: SerpGoogleDatasetInfoLiveAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:57767
+main.ts:56446
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:57745
+main.ts:56424
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:57750
+main.ts:56429
 
 ***
 
@@ -84,13 +84,13 @@ possible item type: dataset
 
 #### Defined in
 
-main.ts:57757
+main.ts:56436
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`SerpGoogleDatasetInfoAdvancedItem`](SerpGoogleDatasetInfoAdvancedItem.md)[]
 
 elements of search results found in SERP
 
@@ -100,7 +100,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:57763
+main.ts:56442
 
 ***
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:57761
+main.ts:56440
 
 ***
 
@@ -133,7 +133,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:57738
+main.ts:56417
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:57742
+main.ts:56421
 
 ***
 
@@ -165,7 +165,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:57740
+main.ts:56419
 
 ***
 
@@ -181,7 +181,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:57759
+main.ts:56438
 
 ***
 
@@ -198,7 +198,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:57753
+main.ts:56432
 
 ## Methods
 
@@ -216,7 +216,7 @@ main.ts:57753
 
 #### Defined in
 
-main.ts:57776
+main.ts:56455
 
 ***
 
@@ -234,7 +234,7 @@ main.ts:57776
 
 #### Defined in
 
-main.ts:57810
+main.ts:56489
 
 ***
 
@@ -252,4 +252,4 @@ main.ts:57810
 
 #### Defined in
 
-main.ts:57803
+main.ts:56482

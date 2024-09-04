@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataIdListResultInfo
+[Documentation](../globals.md) / BusinessDataIdListResultInfo
 
 # Class: BusinessDataIdListResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:201695
+main.ts:197077
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:201689
+main.ts:197071
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:201684
+main.ts:197066
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:201679
+main.ts:197061
 
 ***
 
@@ -100,7 +100,7 @@ id of the task
 
 #### Defined in
 
-main.ts:201671
+main.ts:197053
 
 ***
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:201691
+main.ts:197073
 
 ***
 
@@ -137,7 +137,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:201687
+main.ts:197069
 
 ***
 
@@ -154,7 +154,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:201674
+main.ts:197056
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:201674
 
 #### Defined in
 
-main.ts:201704
+main.ts:197086
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:201704
 
 #### Defined in
 
-main.ts:201733
+main.ts:197115
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:201733
 
 #### Defined in
 
-main.ts:201726
+main.ts:197108

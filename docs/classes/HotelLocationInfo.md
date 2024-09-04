@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / HotelLocationInfo
+[Documentation](../globals.md) / HotelLocationInfo
 
 # Class: HotelLocationInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:210583
+main.ts:205921
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:210571
+main.ts:205909
 
 ***
 
@@ -66,7 +66,7 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-main.ts:210579
+main.ts:205917
 
 ***
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:210576
+main.ts:205914
 
 ***
 
@@ -101,7 +101,7 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-main.ts:210558
+main.ts:205896
 
 ***
 
@@ -117,7 +117,7 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:210554
+main.ts:205892
 
 ***
 
@@ -133,7 +133,7 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:210556
+main.ts:205894
 
 ***
 
@@ -152,7 +152,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:210563
+main.ts:205901
 
 ***
 
@@ -173,7 +173,7 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-main.ts:210566
+main.ts:205904
 
 ## Methods
 
@@ -191,7 +191,7 @@ main.ts:210566
 
 #### Defined in
 
-main.ts:210592
+main.ts:205930
 
 ***
 
@@ -209,7 +209,7 @@ main.ts:210592
 
 #### Defined in
 
-main.ts:210626
+main.ts:205964
 
 ***
 
@@ -227,4 +227,4 @@ main.ts:210626
 
 #### Defined in
 
-main.ts:210619
+main.ts:205957

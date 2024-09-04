@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
+[Documentation](../globals.md) / ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
 # Interface: ISerpYoutubeVideoSubtitlesLiveAdvancedRequestInfo
 
@@ -22,7 +22,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:65743
+main.ts:64467
 
 ***
 
@@ -39,7 +39,7 @@ en
 
 #### Defined in
 
-main.ts:65739
+main.ts:64463
 
 ***
 
@@ -56,7 +56,7 @@ English
 
 #### Defined in
 
-main.ts:65732
+main.ts:64456
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:65725
+main.ts:64449
 
 ***
 
@@ -90,7 +90,7 @@ United States
 
 #### Defined in
 
-main.ts:65718
+main.ts:64442
 
 ***
 
@@ -105,7 +105,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:65748
+main.ts:64472
 
 ***
 
@@ -118,7 +118,7 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-main.ts:65707
+main.ts:64431
 
 ***
 
@@ -132,7 +132,7 @@ possible values:
 
 #### Defined in
 
-main.ts:65711
+main.ts:64435
 
 ***
 
@@ -148,7 +148,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:65754
+main.ts:64478
 
 ***
 
@@ -164,4 +164,4 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-main.ts:65704
+main.ts:64428

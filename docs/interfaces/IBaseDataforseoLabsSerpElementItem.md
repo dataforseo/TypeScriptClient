@@ -2,28 +2,28 @@
 
 ***
 
-[Documentation](../README.md) / IBaseDataforseoLabsSerpElementItem
+[Documentation](../globals.md) / IBaseDataforseoLabsSerpElementItem
 
 # Interface: IBaseDataforseoLabsSerpElementItem
 
 ## Extended by
 
 - [`IOrganicDataforseoLabsSerpElementItem`](IOrganicDataforseoLabsSerpElementItem.md)
-- [`IKnowledgeGraphDataforseoLabsSerpElementItem`](IKnowledgeGraphDataforseoLabsSerpElementItem.md)
 - [`IPeopleAlsoAskDataforseoLabsSerpElementItem`](IPeopleAlsoAskDataforseoLabsSerpElementItem.md)
 - [`ITwitterDataforseoLabsSerpElementItem`](ITwitterDataforseoLabsSerpElementItem.md)
-- [`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](IPeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 - [`IRelatedSearchesDataforseoLabsSerpElementItem`](IRelatedSearchesDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem`](IKnowledgeGraphDescriptionItemDataforseoLabsSerpElementItem.md)
+- [`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphRowItemDataforseoLabsSerpElementItem`](IKnowledgeGraphRowItemDataforseoLabsSerpElementItem.md)
 - [`IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem`](IKnowledgeGraphCarouselItemDataforseoLabsSerpElementItem.md)
-- [`IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem`](IKnowledgeGraphImagesItemDataforseoLabsSerpElementItem.md)
+- [`IKnowledgeGraphDataforseoLabsSerpElementItem`](IKnowledgeGraphDataforseoLabsSerpElementItem.md)
 - [`ICarouselDataforseoLabsSerpElementItem`](ICarouselDataforseoLabsSerpElementItem.md)
 - [`IMultiCarouselDataforseoLabsSerpElementItem`](IMultiCarouselDataforseoLabsSerpElementItem.md)
 - [`ITopStoriesDataforseoLabsSerpElementItem`](ITopStoriesDataforseoLabsSerpElementItem.md)
 - [`IAnswerBoxDataforseoLabsSerpElementItem`](IAnswerBoxDataforseoLabsSerpElementItem.md)
 - [`IMathSolverDataforseoLabsSerpElementItem`](IMathSolverDataforseoLabsSerpElementItem.md)
 - [`IVideoDataforseoLabsSerpElementItem`](IVideoDataforseoLabsSerpElementItem.md)
+- [`IPeopleAlsoSearchDataforseoLabsSerpElementItem`](IPeopleAlsoSearchDataforseoLabsSerpElementItem.md)
 - [`IMapDataforseoLabsSerpElementItem`](IMapDataforseoLabsSerpElementItem.md)
 - [`IFeaturedSnippetDataforseoLabsSerpElementItem`](IFeaturedSnippetDataforseoLabsSerpElementItem.md)
 - [`ILocalPackDataforseoLabsSerpElementItem`](ILocalPackDataforseoLabsSerpElementItem.md)
@@ -54,6 +54,66 @@
 - [`ILocalServicesDataforseoLabsSerpElementItem`](ILocalServicesDataforseoLabsSerpElementItem.md)
 - [`IGoogleHotelsDataforseoLabsSerpElementItem`](IGoogleHotelsDataforseoLabsSerpElementItem.md)
 
-## Indexable
+## Properties
 
- \[`key`: `string`\]: `any`
+### position?
+
+> `optional` **position**: `string`
+
+the alignment of the element in SERP
+can take the following values:
+left, right
+
+#### Defined in
+
+main.ts:21020
+
+***
+
+### rank\_absolute?
+
+> `optional` **rank\_absolute**: `number`
+
+absolute rank in SERP
+absolute position among all the elements in SERP
+
+#### Defined in
+
+main.ts:21016
+
+***
+
+### rank\_group?
+
+> `optional` **rank\_group**: `number`
+
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
+
+#### Defined in
+
+main.ts:21013
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Defined in
+
+main.ts:21010
+
+***
+
+### xpath?
+
+> `optional` **xpath**: `string`
+
+the XPath of the element
+
+#### Defined in
+
+main.ts:21022

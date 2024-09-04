@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksIndexResultInfo
+[Documentation](../globals.md) / BacklinksIndexResultInfo
 
 # Class: BacklinksIndexResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:141668
+main.ts:138534
 
 ## Properties
 
@@ -46,7 +46,7 @@ index volume data for the past 12 months
 
 #### Defined in
 
-main.ts:141664
+main.ts:138530
 
 ***
 
@@ -62,7 +62,7 @@ total number of backlinks our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:141658
+main.ts:138524
 
 ***
 
@@ -78,7 +78,7 @@ total number of domains our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:141662
+main.ts:138528
 
 ***
 
@@ -94,7 +94,7 @@ total number of pages our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:141660
+main.ts:138526
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:141660
 
 #### Defined in
 
-main.ts:141677
+main.ts:138543
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:141677
 
 #### Defined in
 
-main.ts:141701
+main.ts:138567
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:141701
 
 #### Defined in
 
-main.ts:141694
+main.ts:138560

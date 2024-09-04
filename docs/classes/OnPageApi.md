@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / OnPageApi
+[Documentation](../globals.md) / OnPageApi
 
 # Class: OnPageApi
 

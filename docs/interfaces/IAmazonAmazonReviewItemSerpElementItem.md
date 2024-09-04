@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IAmazonAmazonReviewItemSerpElementItem
+[Documentation](../globals.md) / IAmazonAmazonReviewItemSerpElementItem
 
 # Interface: IAmazonAmazonReviewItemSerpElementItem
 
@@ -25,7 +25,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Defined in
 
-main.ts:189615
+main.ts:185143
 
 ***
 
@@ -37,7 +37,7 @@ images of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:189617
+main.ts:185145
 
 ***
 
@@ -50,7 +50,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:189606
+main.ts:185136
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:189632
+main.ts:185160
 
 ***
 
@@ -73,12 +73,16 @@ main.ts:189632
 
 > `optional` **rank\_absolute**: `number`
 
-absolute rank among all the listed reviews
-absolute position among all reviews on the list
+absolute rank in Amazon SERP
+absolute position among all the elements in SERP
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_absolute`](IBaseAmazonSerpElementItem.md#rank_absolute)
 
 #### Defined in
 
-main.ts:189603
+main.ts:22407
 
 ***
 
@@ -89,9 +93,13 @@ main.ts:189603
 position within a group of elements with identical type values
 positions of elements with different type values are omitted from rank_group
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`rank_group`](IBaseAmazonSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:189600
+main.ts:22404
 
 ***
 
@@ -103,7 +111,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:189634
+main.ts:185162
 
 ***
 
@@ -115,7 +123,7 @@ content of the review
 
 #### Defined in
 
-main.ts:189627
+main.ts:185155
 
 ***
 
@@ -127,7 +135,7 @@ subtitle of the review
 
 #### Defined in
 
-main.ts:189612
+main.ts:185140
 
 ***
 
@@ -139,7 +147,23 @@ title of the review
 
 #### Defined in
 
-main.ts:189623
+main.ts:185151
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`type`](IBaseAmazonSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:22401
 
 ***
 
@@ -151,7 +175,7 @@ URL to the review
 
 #### Defined in
 
-main.ts:189625
+main.ts:185153
 
 ***
 
@@ -163,7 +187,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:189621
+main.ts:185149
 
 ***
 
@@ -175,7 +199,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Defined in
 
-main.ts:189610
+main.ts:185138
 
 ***
 
@@ -187,7 +211,7 @@ videos of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:189619
+main.ts:185147
 
 ***
 
@@ -197,6 +221,10 @@ main.ts:189619
 
 the XPath of the element
 
+#### Inherited from
+
+[`IBaseAmazonSerpElementItem`](IBaseAmazonSerpElementItem.md).[`xpath`](IBaseAmazonSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:189608
+main.ts:22409

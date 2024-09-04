@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDomainAnalyticsErrorsRequestInfo
+[Documentation](../globals.md) / IDomainAnalyticsErrorsRequestInfo
 
 # Interface: IDomainAnalyticsErrorsRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:76379
+main.ts:75051
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:76386
+main.ts:75058
 
 ***
 
@@ -58,7 +58,7 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:76372
+main.ts:75044
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:76361
+main.ts:75033
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:76366
+main.ts:75038

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IReviewResponseItemInfo
+[Documentation](../globals.md) / IReviewResponseItemInfo
 
 # Interface: IReviewResponseItemInfo
 
@@ -20,7 +20,7 @@ the content of response
 
 #### Defined in
 
-main.ts:21491
+main.ts:21631
 
 ***
 
@@ -32,7 +32,7 @@ the time of publication
 
 #### Defined in
 
-main.ts:21493
+main.ts:21633
 
 ***
 
@@ -44,4 +44,4 @@ the title of response
 
 #### Defined in
 
-main.ts:21489
+main.ts:21629

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpBaiduLocationsResultInfo
+[Documentation](../globals.md) / SerpBaiduLocationsResultInfo
 
 # Class: SerpBaiduLocationsResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:70216
+main.ts:68922
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:70209
+main.ts:68915
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Defined in
 
-main.ts:70201
+main.ts:68907
 
 ***
 
@@ -80,7 +80,7 @@ don’t match locations by location_code_parent because the results for Region a
 
 #### Defined in
 
-main.ts:70207
+main.ts:68913
 
 ***
 
@@ -96,7 +96,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:70203
+main.ts:68909
 
 ***
 
@@ -113,7 +113,7 @@ only City is supported for all countries except China (where Country is also sup
 
 #### Defined in
 
-main.ts:70212
+main.ts:68918
 
 ## Methods
 
@@ -131,7 +131,7 @@ main.ts:70212
 
 #### Defined in
 
-main.ts:70225
+main.ts:68931
 
 ***
 
@@ -149,7 +149,7 @@ main.ts:70225
 
 #### Defined in
 
-main.ts:70246
+main.ts:68952
 
 ***
 
@@ -167,4 +167,4 @@ main.ts:70246
 
 #### Defined in
 
-main.ts:70239
+main.ts:68945

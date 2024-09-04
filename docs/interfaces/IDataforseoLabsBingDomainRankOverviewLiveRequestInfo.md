@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
 # Interface: IDataforseoLabsBingDomainRankOverviewLiveRequestInfo
 
@@ -27,7 +27,7 @@ en
 
 #### Defined in
 
-main.ts:110482
+main.ts:107616
 
 ***
 
@@ -46,7 +46,7 @@ English
 
 #### Defined in
 
-main.ts:110473
+main.ts:107607
 
 ***
 
@@ -61,7 +61,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:110487
+main.ts:107621
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:110464
+main.ts:107598
 
 ***
 
@@ -101,7 +101,7 @@ United States
 
 #### Defined in
 
-main.ts:110454
+main.ts:107588
 
 ***
 
@@ -116,7 +116,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:110492
+main.ts:107626
 
 ***
 
@@ -132,7 +132,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:110498
+main.ts:107632
 
 ***
 
@@ -147,4 +147,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:110444
+main.ts:107578

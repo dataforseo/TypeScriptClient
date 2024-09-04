@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpTasksReadyResultInfo
+[Documentation](../globals.md) / SerpTasksReadyResultInfo
 
 # Class: SerpTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:26284
+main.ts:26600
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:26269
+main.ts:26585
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:26277
+main.ts:26593
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:26280
+main.ts:26596
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:26274
+main.ts:26590
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:26262
+main.ts:26578
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:26264
+main.ts:26580
 
 ***
 
@@ -147,7 +147,7 @@ example: organic
 
 #### Defined in
 
-main.ts:26267
+main.ts:26583
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:26271
+main.ts:26587
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:26271
 
 #### Defined in
 
-main.ts:26293
+main.ts:26609
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:26293
 
 #### Defined in
 
-main.ts:26317
+main.ts:26633
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:26317
 
 #### Defined in
 
-main.ts:26310
+main.ts:26626

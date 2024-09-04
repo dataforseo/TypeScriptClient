@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsErrorsRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsErrorsRequestInfo
 
 # Interface: IDataforseoLabsErrorsRequestInfo
 
@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:82183
+main.ts:80855
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:82190
+main.ts:80862
 
 ***
 
@@ -58,7 +58,7 @@ example: dataforseo_labs/related_keywords/live
 
 #### Defined in
 
-main.ts:82176
+main.ts:80848
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:82165
+main.ts:80837
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:82170
+main.ts:80842

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
+[Documentation](../globals.md) / DomainAnalyticsWhoisAvailableFiltersResultInfo
 
 # Class: DomainAnalyticsWhoisAvailableFiltersResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:80496
+main.ts:79168
 
 ## Properties
 
@@ -48,7 +48,7 @@ main.ts:80496
 
 #### Defined in
 
-main.ts:80492
+main.ts:79164
 
 ## Methods
 
@@ -66,7 +66,7 @@ main.ts:80492
 
 #### Defined in
 
-main.ts:80505
+main.ts:79177
 
 ***
 
@@ -84,7 +84,7 @@ main.ts:80505
 
 #### Defined in
 
-main.ts:80528
+main.ts:79200
 
 ***
 
@@ -102,4 +102,4 @@ main.ts:80528
 
 #### Defined in
 
-main.ts:80521
+main.ts:79193

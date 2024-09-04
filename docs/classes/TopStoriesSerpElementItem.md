@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / TopStoriesSerpElementItem
+[Documentation](../globals.md) / TopStoriesSerpElementItem
 
 # Class: TopStoriesSerpElementItem
 
@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30011
+main.ts:29864
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:30011
 
 #### Defined in
 
-main.ts:20354
+main.ts:20367
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:30003
+main.ts:29856
 
 ***
 
@@ -85,9 +85,13 @@ left, right
 
 [`ITopStoriesSerpElementItem`](../interfaces/ITopStoriesSerpElementItem.md).[`position`](../interfaces/ITopStoriesSerpElementItem.md#position)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`position`](BaseSerpElementItem.md#position)
+
 #### Defined in
 
-main.ts:29996
+main.ts:20363
 
 ***
 
@@ -97,15 +101,18 @@ main.ts:29996
 
 absolute rank in SERP
 absolute position among all the elements in SERP
-always equals 0 for desktop
 
 #### Implementation of
 
 [`ITopStoriesSerpElementItem`](../interfaces/ITopStoriesSerpElementItem.md).[`rank_absolute`](../interfaces/ITopStoriesSerpElementItem.md#rank_absolute)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_absolute`](BaseSerpElementItem.md#rank_absolute)
+
 #### Defined in
 
-main.ts:29992
+main.ts:20359
 
 ***
 
@@ -114,17 +121,20 @@ main.ts:29992
 > `optional` **rank\_group**: `number`
 
 group rank in SERP
-position within a group of elements with identical type values;
-positions of elements with different type values are omitted from rank_group;
-always equals 0 for desktop
+position within a group of elements with identical type values
+positions of elements with different type values are omitted from rank_group
 
 #### Implementation of
 
 [`ITopStoriesSerpElementItem`](../interfaces/ITopStoriesSerpElementItem.md).[`rank_group`](../interfaces/ITopStoriesSerpElementItem.md#rank_group)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`rank_group`](BaseSerpElementItem.md#rank_group)
+
 #### Defined in
 
-main.ts:29988
+main.ts:20356
 
 ***
 
@@ -142,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30007
+main.ts:29860
 
 ***
 
@@ -158,7 +168,27 @@ title of the row
 
 #### Defined in
 
-main.ts:30000
+main.ts:29853
+
+***
+
+### type?
+
+> `optional` **type**: `string`
+
+type of element
+
+#### Implementation of
+
+[`ITopStoriesSerpElementItem`](../interfaces/ITopStoriesSerpElementItem.md).[`type`](../interfaces/ITopStoriesSerpElementItem.md#type)
+
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`type`](BaseSerpElementItem.md#type)
+
+#### Defined in
+
+main.ts:20352
 
 ***
 
@@ -172,9 +202,13 @@ the XPath of the element
 
 [`ITopStoriesSerpElementItem`](../interfaces/ITopStoriesSerpElementItem.md).[`xpath`](../interfaces/ITopStoriesSerpElementItem.md#xpath)
 
+#### Inherited from
+
+[`BaseSerpElementItem`](BaseSerpElementItem.md).[`xpath`](BaseSerpElementItem.md#xpath)
+
 #### Defined in
 
-main.ts:29998
+main.ts:20365
 
 ## Methods
 
@@ -196,7 +230,7 @@ main.ts:29998
 
 #### Defined in
 
-main.ts:30016
+main.ts:29869
 
 ***
 
@@ -218,7 +252,7 @@ main.ts:30016
 
 #### Defined in
 
-main.ts:30044
+main.ts:29893
 
 ***
 
@@ -240,4 +274,4 @@ main.ts:30044
 
 #### Defined in
 
-main.ts:30037
+main.ts:29886

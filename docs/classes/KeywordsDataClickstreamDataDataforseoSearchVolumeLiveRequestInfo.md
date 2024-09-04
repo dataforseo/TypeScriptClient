@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
+[Documentation](../globals.md) / KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
 # Class: KeywordsDataClickstreamDataDataforseoSearchVolumeLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:138837
+main.ts:135703
 
 ## Properties
 
@@ -52,7 +52,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:138798
+main.ts:135664
 
 ***
 
@@ -72,7 +72,7 @@ en
 
 #### Defined in
 
-main.ts:138822
+main.ts:135688
 
 ***
 
@@ -92,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:138816
+main.ts:135682
 
 ***
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:138810
+main.ts:135676
 
 ***
 
@@ -132,7 +132,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:138804
+main.ts:135670
 
 ***
 
@@ -152,7 +152,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:138833
+main.ts:135699
 
 ***
 
@@ -171,7 +171,7 @@ otherwise, Bing search volume data will be used to calculate search volume
 
 #### Defined in
 
-main.ts:138827
+main.ts:135693
 
 ## Methods
 
@@ -189,7 +189,7 @@ main.ts:138827
 
 #### Defined in
 
-main.ts:138846
+main.ts:135712
 
 ***
 
@@ -207,7 +207,7 @@ main.ts:138846
 
 #### Defined in
 
-main.ts:138873
+main.ts:135739
 
 ***
 
@@ -225,4 +225,4 @@ main.ts:138873
 
 #### Defined in
 
-main.ts:138866
+main.ts:135732

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ConceptInfo
+[Documentation](../globals.md) / ConceptInfo
 
 # Class: ConceptInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:121885
+main.ts:118943
 
 ## Properties
 
@@ -46,7 +46,7 @@ the concept group of the concept details
 
 #### Defined in
 
-main.ts:121881
+main.ts:118939
 
 ***
 
@@ -62,7 +62,7 @@ the concept name for the keyword in the concept_group
 
 #### Defined in
 
-main.ts:121879
+main.ts:118937
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:121879
 
 #### Defined in
 
-main.ts:121894
+main.ts:118952
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:121894
 
 #### Defined in
 
-main.ts:121912
+main.ts:118970
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:121912
 
 #### Defined in
 
-main.ts:121905
+main.ts:118963

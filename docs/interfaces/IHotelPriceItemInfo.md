@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IHotelPriceItemInfo
+[Documentation](../globals.md) / IHotelPriceItemInfo
 
 # Interface: IHotelPriceItemInfo
 
@@ -21,7 +21,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:208584
+main.ts:203922
 
 ***
 
@@ -34,7 +34,7 @@ domain of the third-party website page with pricing information
 
 #### Defined in
 
-main.ts:208590
+main.ts:203928
 
 ***
 
@@ -48,7 +48,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-main.ts:208598
+main.ts:203936
 
 ***
 
@@ -62,7 +62,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:208594
+main.ts:203932
 
 ***
 
@@ -74,7 +74,7 @@ featured price offers
 
 #### Defined in
 
-main.ts:208600
+main.ts:203938
 
 ***
 
@@ -86,7 +86,7 @@ price per night
 
 #### Defined in
 
-main.ts:208581
+main.ts:203919
 
 ***
 
@@ -98,7 +98,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:208579
+main.ts:203917
 
 ***
 
@@ -110,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:208577
+main.ts:203915
 
 ***
 
@@ -123,4 +123,4 @@ URL to the third-party website page with pricing information
 
 #### Defined in
 
-main.ts:208587
+main.ts:203925

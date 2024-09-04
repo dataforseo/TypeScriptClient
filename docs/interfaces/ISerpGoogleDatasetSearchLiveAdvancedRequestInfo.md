@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
+[Documentation](../globals.md) / ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleDatasetSearchLiveAdvancedRequestInfo
 
@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:56366
+main.ts:54837
 
 ***
 
@@ -41,7 +41,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:56352
+main.ts:54823
 
 ***
 
@@ -55,7 +55,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:56374
+main.ts:54845
 
 ***
 
@@ -69,7 +69,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:56382
+main.ts:54853
 
 ***
 
@@ -86,7 +86,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:56336
+main.ts:54807
 
 ***
 
@@ -102,7 +102,7 @@ en
 
 #### Defined in
 
-main.ts:56348
+main.ts:54819
 
 ***
 
@@ -118,7 +118,7 @@ English
 
 #### Defined in
 
-main.ts:56342
+main.ts:54813
 
 ***
 
@@ -132,7 +132,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:56370
+main.ts:54841
 
 ***
 
@@ -147,7 +147,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:56357
+main.ts:54828
 
 ***
 
@@ -163,7 +163,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:56392
+main.ts:54863
 
 ***
 
@@ -177,7 +177,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:56386
+main.ts:54857
 
 ***
 
@@ -191,4 +191,4 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:56378
+main.ts:54849

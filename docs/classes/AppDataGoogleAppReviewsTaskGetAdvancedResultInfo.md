@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppDataGoogleAppReviewsTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / AppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
 # Class: AppDataGoogleAppReviewsTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:195745
+main.ts:191199
 
 ## Properties
 
@@ -46,7 +46,7 @@ application id received in a POST array
 
 #### Defined in
 
-main.ts:195711
+main.ts:191165
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:195722
+main.ts:191176
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:195727
+main.ts:191181
 
 ***
 
@@ -99,7 +99,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:195741
+main.ts:191195
 
 ***
 
@@ -116,7 +116,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:195738
+main.ts:191192
 
 ***
 
@@ -132,7 +132,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:195719
+main.ts:191173
 
 ***
 
@@ -148,7 +148,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:195717
+main.ts:191171
 
 ***
 
@@ -165,7 +165,7 @@ rating of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:195733
+main.ts:191187
 
 ***
 
@@ -181,7 +181,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:195735
+main.ts:191189
 
 ***
 
@@ -197,7 +197,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:195715
+main.ts:191169
 
 ***
 
@@ -214,7 +214,7 @@ title of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:195730
+main.ts:191184
 
 ***
 
@@ -230,7 +230,7 @@ type of element
 
 #### Defined in
 
-main.ts:195713
+main.ts:191167
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:195713
 
 #### Defined in
 
-main.ts:195754
+main.ts:191208
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:195754
 
 #### Defined in
 
-main.ts:195786
+main.ts:191240
 
 ***
 
@@ -284,4 +284,4 @@ main.ts:195786
 
 #### Defined in
 
-main.ts:195779
+main.ts:191233

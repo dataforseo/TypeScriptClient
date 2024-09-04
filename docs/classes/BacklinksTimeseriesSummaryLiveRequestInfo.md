@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BacklinksTimeseriesSummaryLiveRequestInfo
+[Documentation](../globals.md) / BacklinksTimeseriesSummaryLiveRequestInfo
 
 # Class: BacklinksTimeseriesSummaryLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:151174
+main.ts:148040
 
 ## Properties
 
@@ -53,7 +53,7 @@ example:
 
 #### Defined in
 
-main.ts:151137
+main.ts:148003
 
 ***
 
@@ -76,7 +76,7 @@ example:
 
 #### Defined in
 
-main.ts:151146
+main.ts:148012
 
 ***
 
@@ -103,7 +103,7 @@ if there is no data for a certain  day/week/month/year, we will return 0
 
 #### Defined in
 
-main.ts:151159
+main.ts:148025
 
 ***
 
@@ -122,7 +122,7 @@ default value: true
 
 #### Defined in
 
-main.ts:151164
+main.ts:148030
 
 ***
 
@@ -142,7 +142,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:151170
+main.ts:148036
 
 ***
 
@@ -162,7 +162,7 @@ example:
 
 #### Defined in
 
-main.ts:151128
+main.ts:147994
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:151128
 
 #### Defined in
 
-main.ts:151183
+main.ts:148049
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:151183
 
 #### Defined in
 
-main.ts:151205
+main.ts:148071
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:151205
 
 #### Defined in
 
-main.ts:151198
+main.ts:148064

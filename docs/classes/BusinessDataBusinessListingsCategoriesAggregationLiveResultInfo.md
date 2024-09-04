@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
+[Documentation](../globals.md) / BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
 # Class: BusinessDataBusinessListingsCategoriesAggregationLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:204422
+main.ts:199804
 
 ## Properties
 
@@ -47,7 +47,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:204408
+main.ts:199790
 
 ***
 
@@ -65,7 +65,7 @@ possible item types: business_category
 
 #### Defined in
 
-main.ts:204418
+main.ts:199800
 
 ***
 
@@ -81,7 +81,7 @@ offset in the results array of returned categories
 
 #### Defined in
 
-main.ts:204410
+main.ts:199792
 
 ***
 
@@ -99,7 +99,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:204414
+main.ts:199796
 
 ***
 
@@ -115,7 +115,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:204405
+main.ts:199787
 
 ## Methods
 
@@ -133,7 +133,7 @@ main.ts:204405
 
 #### Defined in
 
-main.ts:204431
+main.ts:199813
 
 ***
 
@@ -151,7 +151,7 @@ main.ts:204431
 
 #### Defined in
 
-main.ts:204456
+main.ts:199838
 
 ***
 
@@ -169,4 +169,4 @@ main.ts:204456
 
 #### Defined in
 
-main.ts:204449
+main.ts:199831

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleNewsTasksReadyResultInfo
+[Documentation](../globals.md) / SerpGoogleNewsTasksReadyResultInfo
 
 # Class: SerpGoogleNewsTasksReadyResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:45298
+main.ts:43446
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:45283
+main.ts:43431
 
 ***
 
@@ -63,7 +63,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:45291
+main.ts:43439
 
 ***
 
@@ -80,7 +80,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:45294
+main.ts:43442
 
 ***
 
@@ -97,7 +97,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:45288
+main.ts:43436
 
 ***
 
@@ -114,7 +114,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:45276
+main.ts:43424
 
 ***
 
@@ -130,7 +130,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:45278
+main.ts:43426
 
 ***
 
@@ -147,7 +147,7 @@ example: news
 
 #### Defined in
 
-main.ts:45281
+main.ts:43429
 
 ***
 
@@ -163,7 +163,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:45285
+main.ts:43433
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:45285
 
 #### Defined in
 
-main.ts:45307
+main.ts:43455
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:45307
 
 #### Defined in
 
-main.ts:45331
+main.ts:43479
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:45331
 
 #### Defined in
 
-main.ts:45324
+main.ts:43472

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo
+[Documentation](../globals.md) / IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo
 
 # Interface: IDataforseoLabsGoogleKeywordSuggestionsLiveRequestInfo
 
@@ -23,7 +23,7 @@ default value: false
 
 #### Defined in
 
-main.ts:86091
+main.ts:84763
 
 ***
 
@@ -51,7 +51,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:86114
+main.ts:84786
 
 ***
 
@@ -66,7 +66,7 @@ default value: false
 
 #### Defined in
 
-main.ts:86096
+main.ts:84768
 
 ***
 
@@ -83,7 +83,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:86086
+main.ts:84758
 
 ***
 
@@ -98,7 +98,7 @@ default value: false
 
 #### Defined in
 
-main.ts:86074
+main.ts:84746
 
 ***
 
@@ -113,7 +113,7 @@ default value: false
 
 #### Defined in
 
-main.ts:86079
+main.ts:84751
 
 ***
 
@@ -129,7 +129,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:86033
+main.ts:84705
 
 ***
 
@@ -148,7 +148,7 @@ en
 
 #### Defined in
 
-main.ts:86069
+main.ts:84741
 
 ***
 
@@ -167,7 +167,7 @@ English
 
 #### Defined in
 
-main.ts:86060
+main.ts:84732
 
 ***
 
@@ -182,7 +182,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:86135
+main.ts:84807
 
 ***
 
@@ -201,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:86051
+main.ts:84723
 
 ***
 
@@ -220,7 +220,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:86042
+main.ts:84714
 
 ***
 
@@ -235,7 +235,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:86140
+main.ts:84812
 
 ***
 
@@ -253,7 +253,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:86148
+main.ts:84820
 
 ***
 
@@ -279,7 +279,7 @@ example:
 
 #### Defined in
 
-main.ts:86130
+main.ts:84802
 
 ***
 
@@ -295,4 +295,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:86154
+main.ts:84826

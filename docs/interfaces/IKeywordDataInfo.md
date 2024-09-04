@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordDataInfo
+[Documentation](../globals.md) / IKeywordDataInfo
 
 # Interface: IKeywordDataInfo
 
@@ -21,7 +21,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:84933
+main.ts:83605
 
 ***
 
@@ -34,7 +34,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Defined in
 
-main.ts:84919
+main.ts:83591
 
 ***
 
@@ -50,7 +50,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:84927
+main.ts:83599
 
 ***
 
@@ -62,7 +62,7 @@ returned keyword idea
 
 #### Defined in
 
-main.ts:84906
+main.ts:83578
 
 ***
 
@@ -74,7 +74,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:84912
+main.ts:83584
 
 ***
 
@@ -86,7 +86,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:84914
+main.ts:83586
 
 ***
 
@@ -98,7 +98,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:84916
+main.ts:83588
 
 ***
 
@@ -110,7 +110,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:84921
+main.ts:83593
 
 ***
 
@@ -122,7 +122,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:84910
+main.ts:83582
 
 ***
 
@@ -134,7 +134,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:84908
+main.ts:83580
 
 ***
 
@@ -146,7 +146,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84904
+main.ts:83576
 
 ***
 
@@ -159,7 +159,7 @@ learn about search intent in this help center article
 
 #### Defined in
 
-main.ts:84936
+main.ts:83608
 
 ***
 
@@ -172,4 +172,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:84930
+main.ts:83602

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ISerpGoogleAutocompleteLiveAdvancedRequestInfo
+[Documentation](../globals.md) / ISerpGoogleAutocompleteLiveAdvancedRequestInfo
 
 # Interface: ISerpGoogleAutocompleteLiveAdvancedRequestInfo
 
@@ -35,7 +35,7 @@ products-cc — used in google shopping search
 
 #### Defined in
 
-main.ts:54342
+main.ts:52805
 
 ***
 
@@ -56,7 +56,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Defined in
 
-main.ts:54325
+main.ts:52788
 
 ***
 
@@ -73,7 +73,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:54287
+main.ts:52750
 
 ***
 
@@ -90,7 +90,7 @@ en
 
 #### Defined in
 
-main.ts:54314
+main.ts:52777
 
 ***
 
@@ -107,7 +107,7 @@ English
 
 #### Defined in
 
-main.ts:54307
+main.ts:52770
 
 ***
 
@@ -123,7 +123,7 @@ example:
 
 #### Defined in
 
-main.ts:54300
+main.ts:52763
 
 ***
 
@@ -140,7 +140,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:54294
+main.ts:52757
 
 ***
 
@@ -156,4 +156,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:54348
+main.ts:52811

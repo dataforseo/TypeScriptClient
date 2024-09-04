@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo
+[Documentation](../globals.md) / IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo
 
 # Interface: IKeywordsDataBingSearchVolumeHistoryLiveRequestInfo
 
@@ -31,7 +31,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:138354
+main.ts:135220
 
 ***
 
@@ -54,7 +54,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:138367
+main.ts:135233
 
 ***
 
@@ -70,7 +70,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 #### Defined in
 
-main.ts:138332
+main.ts:135198
 
 ***
 
@@ -86,7 +86,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:138294
+main.ts:135160
 
 ***
 
@@ -101,7 +101,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:138326
+main.ts:135192
 
 ***
 
@@ -116,7 +116,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:138321
+main.ts:135187
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:138308
+main.ts:135174
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:138316
+main.ts:135182
 
 ***
 
@@ -168,7 +168,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:138301
+main.ts:135167
 
 ***
 
@@ -187,7 +187,7 @@ default value:  monthly
 
 #### Defined in
 
-main.ts:138341
+main.ts:135207
 
 ***
 
@@ -203,4 +203,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:138373
+main.ts:135239

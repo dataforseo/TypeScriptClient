@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleJobsTaskGetAdvancedResultInfo
+[Documentation](../globals.md) / SerpGoogleJobsTaskGetAdvancedResultInfo
 
 # Class: SerpGoogleJobsTaskGetAdvancedResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:52518
+main.ts:50973
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:52495
+main.ts:50950
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:52500
+main.ts:50955
 
 ***
 
@@ -85,13 +85,13 @@ google_jobs_item
 
 #### Defined in
 
-main.ts:52508
+main.ts:50963
 
 ***
 
 ### items?
 
-> `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
+> `optional` **items**: [`SerpGoogleJobsTaskGetAdvancedItem`](SerpGoogleJobsTaskGetAdvancedItem.md)[]
 
 elements of search results found in SERP
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:52514
+main.ts:50969
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:52512
+main.ts:50967
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:52484
+main.ts:50939
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:52492
+main.ts:50947
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:52490
+main.ts:50945
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:52488
+main.ts:50943
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:52510
+main.ts:50965
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:52503
+main.ts:50958
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:52486
+main.ts:50941
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:52486
 
 #### Defined in
 
-main.ts:52527
+main.ts:50982
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:52527
 
 #### Defined in
 
-main.ts:52563
+main.ts:51018
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:52563
 
 #### Defined in
 
-main.ts:52556
+main.ts:51011

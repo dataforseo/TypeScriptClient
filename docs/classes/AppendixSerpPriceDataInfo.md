@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixSerpPriceDataInfo
+[Documentation](../globals.md) / AppendixSerpPriceDataInfo
 
 # Class: AppendixSerpPriceDataInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:226737
+main.ts:221997
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:226737
 
 #### Defined in
 
-main.ts:226731
+main.ts:221991
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:226731
 
 #### Defined in
 
-main.ts:226733
+main.ts:221993
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:226733
 
 #### Defined in
 
-main.ts:226732
+main.ts:221992
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:226732
 
 #### Defined in
 
-main.ts:226746
+main.ts:222006
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:226746
 
 #### Defined in
 
-main.ts:226765
+main.ts:222025
 
 ***
 
@@ -126,4 +126,4 @@ main.ts:226765
 
 #### Defined in
 
-main.ts:226758
+main.ts:222018

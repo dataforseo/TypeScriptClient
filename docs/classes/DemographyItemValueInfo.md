@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DemographyItemValueInfo
+[Documentation](../globals.md) / DemographyItemValueInfo
 
 # Class: DemographyItemValueInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:129972
+main.ts:126862
 
 ## Properties
 
@@ -46,7 +46,7 @@ type of element
 
 #### Defined in
 
-main.ts:129962
+main.ts:126852
 
 ***
 
@@ -66,7 +66,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:129968
+main.ts:126858
 
 ## Methods
 
@@ -84,7 +84,7 @@ main.ts:129968
 
 #### Defined in
 
-main.ts:129981
+main.ts:126871
 
 ***
 
@@ -102,7 +102,7 @@ main.ts:129981
 
 #### Defined in
 
-main.ts:129999
+main.ts:126889
 
 ***
 
@@ -120,4 +120,4 @@ main.ts:129999
 
 #### Defined in
 
-main.ts:129992
+main.ts:126882

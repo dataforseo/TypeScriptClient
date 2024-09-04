@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisRatingDistributionLiveResultInfo
+[Documentation](../globals.md) / ContentAnalysisRatingDistributionLiveResultInfo
 
 # Class: ContentAnalysisRatingDistributionLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:172154
+main.ts:168084
 
 ## Properties
 
@@ -46,7 +46,7 @@ max rating on a distribution scale
 
 #### Defined in
 
-main.ts:172148
+main.ts:168078
 
 ***
 
@@ -62,7 +62,7 @@ contains rating distribution metrics
 
 #### Defined in
 
-main.ts:172150
+main.ts:168080
 
 ***
 
@@ -78,7 +78,7 @@ min rating on a distribution scale
 
 #### Defined in
 
-main.ts:172146
+main.ts:168076
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:172144
+main.ts:168074
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:172144
 
 #### Defined in
 
-main.ts:172163
+main.ts:168093
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:172163
 
 #### Defined in
 
-main.ts:172183
+main.ts:168113
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:172183
 
 #### Defined in
 
-main.ts:172176
+main.ts:168106

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ExploreBrandsElement
+[Documentation](../globals.md) / ExploreBrandsElement
 
 # Class: ExploreBrandsElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:37151
+main.ts:35539
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:37143
+main.ts:35531
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Defined in
 
-main.ts:37141
+main.ts:35529
 
 ***
 
@@ -78,7 +78,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:37145
+main.ts:35533
 
 ***
 
@@ -94,7 +94,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:37137
+main.ts:35525
 
 ***
 
@@ -110,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:37135
+main.ts:35523
 
 ***
 
@@ -126,7 +126,7 @@ URL
 
 #### Defined in
 
-main.ts:37139
+main.ts:35527
 
 ***
 
@@ -142,7 +142,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:37147
+main.ts:35535
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:37147
 
 #### Defined in
 
-main.ts:37160
+main.ts:35548
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:37160
 
 #### Defined in
 
-main.ts:37183
+main.ts:35571
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:37183
 
 #### Defined in
 
-main.ts:37176
+main.ts:35564

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IMerchantGoogleProductSpecTaskPostRequestInfo
+[Documentation](../globals.md) / IMerchantGoogleProductSpecTaskPostRequestInfo
 
 # Interface: IMerchantGoogleProductSpecTaskPostRequestInfo
 
@@ -29,7 +29,7 @@ example:
 
 #### Defined in
 
-main.ts:181359
+main.ts:177133
 
 ***
 
@@ -46,7 +46,7 @@ en
 
 #### Defined in
 
-main.ts:181345
+main.ts:177119
 
 ***
 
@@ -63,7 +63,7 @@ English
 
 #### Defined in
 
-main.ts:181338
+main.ts:177112
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:181322
+main.ts:177096
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:181331
+main.ts:177105
 
 ***
 
@@ -116,7 +116,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:181315
+main.ts:177089
 
 ***
 
@@ -136,7 +136,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:181391
+main.ts:177165
 
 ***
 
@@ -152,7 +152,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:181381
+main.ts:177155
 
 ***
 
@@ -172,7 +172,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:181375
+main.ts:177149
 
 ***
 
@@ -190,7 +190,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:181308
+main.ts:177082
 
 ***
 
@@ -206,7 +206,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:181300
+main.ts:177074
 
 ***
 
@@ -223,7 +223,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:181352
+main.ts:177126
 
 ***
 
@@ -239,4 +239,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:181365
+main.ts:177139

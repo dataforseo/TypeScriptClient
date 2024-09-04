@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
+[Documentation](../globals.md) / IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
 # Interface: IKeywordsDataGoogleAdsKeywordsForSiteTaskPostRequestInfo
 
@@ -26,7 +26,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:121475
+main.ts:118533
 
 ***
 
@@ -44,7 +44,7 @@ example:
 
 #### Defined in
 
-main.ts:121483
+main.ts:118541
 
 ***
 
@@ -60,7 +60,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-main.ts:121489
+main.ts:118547
 
 ***
 
@@ -76,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:121462
+main.ts:118520
 
 ***
 
@@ -92,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:121456
+main.ts:118514
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:121441
+main.ts:118499
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:121450
+main.ts:118508
 
 ***
 
@@ -147,7 +147,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:121433
+main.ts:118491
 
 ***
 
@@ -167,7 +167,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:121514
+main.ts:118572
 
 ***
 
@@ -187,7 +187,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:121504
+main.ts:118562
 
 ***
 
@@ -202,7 +202,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:121467
+main.ts:118525
 
 ***
 
@@ -217,7 +217,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:121494
+main.ts:118552
 
 ***
 
@@ -233,7 +233,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:121520
+main.ts:118578
 
 ***
 
@@ -248,7 +248,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-main.ts:121418
+main.ts:118476
 
 ***
 
@@ -265,4 +265,4 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-main.ts:121425
+main.ts:118483

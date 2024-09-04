@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsBBulkTrafficEstimationLiveItem
+[Documentation](../globals.md) / IDataforseoLabsBBulkTrafficEstimationLiveItem
 
 # Interface: IDataforseoLabsBBulkTrafficEstimationLiveItem
 
@@ -24,7 +24,7 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-main.ts:103962
+main.ts:101112
 
 ***
 
@@ -36,7 +36,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103958
+main.ts:101108
 
 ***
 
@@ -48,4 +48,4 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:103960
+main.ts:101110

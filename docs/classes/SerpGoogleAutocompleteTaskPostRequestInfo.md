@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpGoogleAutocompleteTaskPostRequestInfo
+[Documentation](../globals.md) / SerpGoogleAutocompleteTaskPostRequestInfo
 
 # Class: SerpGoogleAutocompleteTaskPostRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:53065
+main.ts:51520
 
 ## Properties
 
@@ -61,7 +61,7 @@ products-cc — used in google shopping search
 
 #### Defined in
 
-main.ts:53029
+main.ts:51484
 
 ***
 
@@ -86,7 +86,7 @@ which que|ry is s – "cursor_pointer": 9
 
 #### Defined in
 
-main.ts:53012
+main.ts:51467
 
 ***
 
@@ -107,7 +107,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:52966
+main.ts:51421
 
 ***
 
@@ -128,7 +128,7 @@ en
 
 #### Defined in
 
-main.ts:53001
+main.ts:51456
 
 ***
 
@@ -149,7 +149,7 @@ English
 
 #### Defined in
 
-main.ts:52994
+main.ts:51449
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Defined in
 
-main.ts:52987
+main.ts:51442
 
 ***
 
@@ -190,7 +190,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:52981
+main.ts:51436
 
 ***
 
@@ -214,7 +214,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:53061
+main.ts:51516
 
 ***
 
@@ -234,7 +234,7 @@ advanced
 
 #### Defined in
 
-main.ts:53051
+main.ts:51506
 
 ***
 
@@ -258,7 +258,7 @@ i.e., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:53045
+main.ts:51500
 
 ***
 
@@ -280,7 +280,7 @@ The cost can be calculated on the Pricing page
 
 #### Defined in
 
-main.ts:52974
+main.ts:51429
 
 ***
 
@@ -300,7 +300,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:53035
+main.ts:51490
 
 ## Methods
 
@@ -318,7 +318,7 @@ main.ts:53035
 
 #### Defined in
 
-main.ts:53074
+main.ts:51529
 
 ***
 
@@ -336,7 +336,7 @@ main.ts:53074
 
 #### Defined in
 
-main.ts:53102
+main.ts:51557
 
 ***
 
@@ -354,4 +354,4 @@ main.ts:53102
 
 #### Defined in
 
-main.ts:53095
+main.ts:51550

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / SerpScreenshotResultInfo
+[Documentation](../globals.md) / SerpScreenshotResultInfo
 
 # Class: SerpScreenshotResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:24881
+main.ts:25197
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Defined in
 
-main.ts:24877
+main.ts:25193
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:24875
+main.ts:25191
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:24875
 
 #### Defined in
 
-main.ts:24890
+main.ts:25206
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:24890
 
 #### Defined in
 
-main.ts:24912
+main.ts:25228
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:24912
 
 #### Defined in
 
-main.ts:24905
+main.ts:25221

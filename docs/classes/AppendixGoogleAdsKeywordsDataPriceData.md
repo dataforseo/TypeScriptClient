@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / AppendixGoogleAdsKeywordsDataPriceData
+[Documentation](../globals.md) / AppendixGoogleAdsKeywordsDataPriceData
 
 # Class: AppendixGoogleAdsKeywordsDataPriceData
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:225991
+main.ts:221251
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:225991
 
 #### Defined in
 
-main.ts:225983
+main.ts:221243
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:225983
 
 #### Defined in
 
-main.ts:225984
+main.ts:221244
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:225984
 
 #### Defined in
 
-main.ts:225985
+main.ts:221245
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:225985
 
 #### Defined in
 
-main.ts:225986
+main.ts:221246
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:225986
 
 #### Defined in
 
-main.ts:225987
+main.ts:221247
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:225987
 
 #### Defined in
 
-main.ts:226000
+main.ts:221260
 
 ***
 
@@ -136,7 +136,7 @@ main.ts:226000
 
 #### Defined in
 
-main.ts:226021
+main.ts:221281
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:226021
 
 #### Defined in
 
-main.ts:226014
+main.ts:221274

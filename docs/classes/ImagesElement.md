@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ImagesElement
+[Documentation](../globals.md) / ImagesElement
 
 # Class: ImagesElement
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:28414
+main.ts:28454
 
 ## Properties
 
@@ -46,7 +46,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:28405
+main.ts:28445
 
 ***
 
@@ -63,7 +63,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:28410
+main.ts:28450
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Defined in
 
-main.ts:28403
+main.ts:28443
 
 ***
 
@@ -95,7 +95,7 @@ URL link
 
 #### Defined in
 
-main.ts:28407
+main.ts:28447
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:28407
 
 #### Defined in
 
-main.ts:28423
+main.ts:28463
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:28423
 
 #### Defined in
 
-main.ts:28443
+main.ts:28483
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:28443
 
 #### Defined in
 
-main.ts:28436
+main.ts:28476

@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / ContentAnalysisIdListRequestInfo
+[Documentation](../globals.md) / ContentAnalysisIdListRequestInfo
 
 # Class: ContentAnalysisIdListRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:168772
+main.ts:164702
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:168742
+main.ts:164672
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:168749
+main.ts:164679
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:168768
+main.ts:164698
 
 ***
 
@@ -110,7 +110,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:168754
+main.ts:164684
 
 ***
 
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:168759
+main.ts:164689
 
 ***
 
@@ -148,7 +148,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:168764
+main.ts:164694
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:168764
 
 #### Defined in
 
-main.ts:168781
+main.ts:164711
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:168781
 
 #### Defined in
 
-main.ts:168803
+main.ts:164733
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:168803
 
 #### Defined in
 
-main.ts:168796
+main.ts:164726

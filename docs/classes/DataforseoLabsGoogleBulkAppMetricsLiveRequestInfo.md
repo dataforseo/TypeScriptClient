@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
 # Class: DataforseoLabsGoogleBulkAppMetricsLiveRequestInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:114326
+main.ts:111460
 
 ## Properties
 
@@ -53,7 +53,7 @@ the maximum number of IDs you can specify in this field is 1000
 
 #### Defined in
 
-main.ts:114280
+main.ts:111414
 
 ***
 
@@ -76,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:114316
+main.ts:111450
 
 ***
 
@@ -99,7 +99,7 @@ English
 
 #### Defined in
 
-main.ts:114307
+main.ts:111441
 
 ***
 
@@ -122,7 +122,7 @@ example:
 
 #### Defined in
 
-main.ts:114298
+main.ts:111432
 
 ***
 
@@ -145,7 +145,7 @@ United States
 
 #### Defined in
 
-main.ts:114289
+main.ts:111423
 
 ***
 
@@ -165,7 +165,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:114322
+main.ts:111456
 
 ## Methods
 
@@ -183,7 +183,7 @@ main.ts:114322
 
 #### Defined in
 
-main.ts:114335
+main.ts:111469
 
 ***
 
@@ -201,7 +201,7 @@ main.ts:114335
 
 #### Defined in
 
-main.ts:114361
+main.ts:111495
 
 ***
 
@@ -219,4 +219,4 @@ main.ts:114361
 
 #### Defined in
 
-main.ts:114354
+main.ts:111488

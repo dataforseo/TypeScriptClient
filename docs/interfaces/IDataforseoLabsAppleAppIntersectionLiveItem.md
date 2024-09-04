@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / IDataforseoLabsAppleAppIntersectionLiveItem
+[Documentation](../globals.md) / IDataforseoLabsAppleAppIntersectionLiveItem
 
 # Interface: IDataforseoLabsAppleAppIntersectionLiveItem
 
@@ -26,7 +26,7 @@ depending on the number of specified app IDs, it can contain from 1 to 20 arrays
 
 #### Defined in
 
-main.ts:118722
+main.ts:115780
 
 ***
 
@@ -38,7 +38,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:118718
+main.ts:115776
 
 ***
 
@@ -50,4 +50,4 @@ search engine type
 
 #### Defined in
 
-main.ts:118716
+main.ts:115774

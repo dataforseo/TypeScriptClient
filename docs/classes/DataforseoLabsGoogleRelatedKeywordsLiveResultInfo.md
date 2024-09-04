@@ -2,7 +2,7 @@
 
 ***
 
-[Documentation](../README.md) / DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
+[Documentation](../globals.md) / DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
 # Class: DataforseoLabsGoogleRelatedKeywordsLiveResultInfo
 
@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:85610
+main.ts:84282
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:85606
+main.ts:84278
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:85604
+main.ts:84276
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:85600
+main.ts:84272
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:85598
+main.ts:84270
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:85591
+main.ts:84263
 
 ***
 
@@ -126,7 +126,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:85593
+main.ts:84265
 
 ***
 
@@ -147,7 +147,7 @@ fields in the array are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:85596
+main.ts:84268
 
 ***
 
@@ -163,7 +163,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:85602
+main.ts:84274
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:85602
 
 #### Defined in
 
-main.ts:85619
+main.ts:84291
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:85619
 
 #### Defined in
 
-main.ts:85653
+main.ts:84325
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:85653
 
 #### Defined in
 
-main.ts:85646
+main.ts:84318
