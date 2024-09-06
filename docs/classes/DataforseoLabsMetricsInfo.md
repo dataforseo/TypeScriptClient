@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:87607
+main.ts:87640
 
 ## Properties
 
@@ -52,7 +52,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87603
+main.ts:87636
 
 ***
 
@@ -71,7 +71,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87595
+main.ts:87628
 
 ***
 
@@ -93,7 +93,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87599
+main.ts:87632
 
 ***
 
@@ -109,7 +109,7 @@ total count of organic SERPs that contain the domain or subdomain
 
 #### Defined in
 
-main.ts:87573
+main.ts:87606
 
 ***
 
@@ -128,7 +128,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87578
+main.ts:87611
 
 ***
 
@@ -147,7 +147,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87566
+main.ts:87599
 
 ***
 
@@ -166,7 +166,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:87571
+main.ts:87604
 
 ***
 
@@ -183,7 +183,7 @@ indicates how many ranked elements of the indicated target went down
 
 #### Defined in
 
-main.ts:87587
+main.ts:87620
 
 ***
 
@@ -200,7 +200,7 @@ indicates how many ranked elements of the indicated target were previously prese
 
 #### Defined in
 
-main.ts:87590
+main.ts:87623
 
 ***
 
@@ -217,7 +217,7 @@ indicates how many new ranked elements were found for the indicated target
 
 #### Defined in
 
-main.ts:87581
+main.ts:87614
 
 ***
 
@@ -234,7 +234,7 @@ indicates how many ranked elements of the indicated target went up
 
 #### Defined in
 
-main.ts:87584
+main.ts:87617
 
 ***
 
@@ -250,7 +250,7 @@ number of organic SERPs where the domain or subdomain ranks #1
 
 #### Defined in
 
-main.ts:87539
+main.ts:87572
 
 ***
 
@@ -266,7 +266,7 @@ number of organic SERPs where the domain or subdomain ranks #11-20
 
 #### Defined in
 
-main.ts:87545
+main.ts:87578
 
 ***
 
@@ -282,7 +282,7 @@ number of organic SERPs where the domain or subdomain ranks #21-30
 
 #### Defined in
 
-main.ts:87547
+main.ts:87580
 
 ***
 
@@ -298,7 +298,7 @@ number of organic SERPs where the domain or subdomain ranks #2-3
 
 #### Defined in
 
-main.ts:87541
+main.ts:87574
 
 ***
 
@@ -314,7 +314,7 @@ number of organic SERPs where the domain or subdomain ranks #31-40
 
 #### Defined in
 
-main.ts:87549
+main.ts:87582
 
 ***
 
@@ -330,7 +330,7 @@ number of organic SERPs where the domain or subdomain ranks #41-50
 
 #### Defined in
 
-main.ts:87551
+main.ts:87584
 
 ***
 
@@ -346,7 +346,7 @@ number of organic SERPs where the domain or subdomain ranks #4-10
 
 #### Defined in
 
-main.ts:87543
+main.ts:87576
 
 ***
 
@@ -362,7 +362,7 @@ number of organic SERPs where the domain or subdomain ranks #51-60
 
 #### Defined in
 
-main.ts:87553
+main.ts:87586
 
 ***
 
@@ -378,7 +378,7 @@ number of organic SERPs where the domain or subdomain ranks #61-70
 
 #### Defined in
 
-main.ts:87555
+main.ts:87588
 
 ***
 
@@ -394,7 +394,7 @@ number of organic SERPs where the domain or subdomain ranks #71-80
 
 #### Defined in
 
-main.ts:87557
+main.ts:87590
 
 ***
 
@@ -410,7 +410,7 @@ number of organic SERPs where the domain or subdomain ranks #81-90
 
 #### Defined in
 
-main.ts:87559
+main.ts:87592
 
 ***
 
@@ -426,7 +426,7 @@ number of organic SERPs where the domain or subdomain ranks #91-100
 
 #### Defined in
 
-main.ts:87561
+main.ts:87594
 
 ## Methods
 
@@ -444,7 +444,7 @@ main.ts:87561
 
 #### Defined in
 
-main.ts:87616
+main.ts:87649
 
 ***
 
@@ -462,7 +462,7 @@ main.ts:87616
 
 #### Defined in
 
-main.ts:87667
+main.ts:87700
 
 ***
 
@@ -480,4 +480,4 @@ main.ts:87667
 
 #### Defined in
 
-main.ts:87660
+main.ts:87693

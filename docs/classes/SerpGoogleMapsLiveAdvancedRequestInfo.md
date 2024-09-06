@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:40548
+main.ts:40581
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:40516
+main.ts:40549
 
 ***
 
@@ -73,7 +73,7 @@ note: for mobile device, only 20 results are returned for every SERP
 
 #### Defined in
 
-main.ts:40493
+main.ts:40526
 
 ***
 
@@ -96,7 +96,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:40448
+main.ts:40481
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Defined in
 
-main.ts:40487
+main.ts:40520
 
 ***
 
@@ -138,7 +138,7 @@ English
 
 #### Defined in
 
-main.ts:40480
+main.ts:40513
 
 ***
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:40462
+main.ts:40495
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:40473
+main.ts:40506
 
 ***
 
@@ -205,7 +205,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:40455
+main.ts:40488
 
 ***
 
@@ -226,7 +226,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:40523
+main.ts:40556
 
 ***
 
@@ -247,7 +247,7 @@ default value: android
 
 #### Defined in
 
-main.ts:40500
+main.ts:40533
 
 ***
 
@@ -268,7 +268,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:40507
+main.ts:40540
 
 ***
 
@@ -290,7 +290,7 @@ Note: if the search_places mode is turned off and no results were found in the s
 
 #### Defined in
 
-main.ts:40538
+main.ts:40571
 
 ***
 
@@ -311,7 +311,7 @@ Note: if the search_this_area mode is turned off, Google Maps listings might con
 
 #### Defined in
 
-main.ts:40530
+main.ts:40563
 
 ***
 
@@ -331,7 +331,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:40544
+main.ts:40577
 
 ***
 
@@ -351,7 +351,7 @@ https://google.com/maps/search/pizza/@37.09024,-95.712891,4z
 
 #### Defined in
 
-main.ts:40439
+main.ts:40472
 
 ## Methods
 
@@ -369,7 +369,7 @@ main.ts:40439
 
 #### Defined in
 
-main.ts:40557
+main.ts:40590
 
 ***
 
@@ -387,7 +387,7 @@ main.ts:40557
 
 #### Defined in
 
-main.ts:40588
+main.ts:40621
 
 ***
 
@@ -405,4 +405,4 @@ main.ts:40588
 
 #### Defined in
 
-main.ts:40581
+main.ts:40614

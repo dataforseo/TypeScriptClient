@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:185817
+main.ts:185850
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:185811
+main.ts:185844
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:185806
+main.ts:185839
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:185801
+main.ts:185834
 
 ***
 
@@ -100,7 +100,7 @@ id of the task
 
 #### Defined in
 
-main.ts:185793
+main.ts:185826
 
 ***
 
@@ -120,7 +120,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:185813
+main.ts:185846
 
 ***
 
@@ -137,7 +137,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:185809
+main.ts:185842
 
 ***
 
@@ -154,7 +154,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:185796
+main.ts:185829
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:185796
 
 #### Defined in
 
-main.ts:185826
+main.ts:185859
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:185826
 
 #### Defined in
 
-main.ts:185855
+main.ts:185888
 
 ***
 
@@ -208,4 +208,4 @@ main.ts:185855
 
 #### Defined in
 
-main.ts:185848
+main.ts:185881

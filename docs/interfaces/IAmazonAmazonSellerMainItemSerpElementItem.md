@@ -25,7 +25,7 @@ condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:183670
+main.ts:183703
 
 ***
 
@@ -38,7 +38,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:183673
+main.ts:183706
 
 ***
 
@@ -51,7 +51,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:183676
+main.ts:183709
 
 ***
 
@@ -65,7 +65,7 @@ left, right
 
 #### Defined in
 
-main.ts:183655
+main.ts:183688
 
 ***
 
@@ -78,7 +78,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:183664
+main.ts:183697
 
 ***
 
@@ -95,7 +95,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22407
+main.ts:22412
 
 ***
 
@@ -112,7 +112,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22404
+main.ts:22409
 
 ***
 
@@ -125,7 +125,7 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-main.ts:183667
+main.ts:183700
 
 ***
 
@@ -137,7 +137,7 @@ business name of the seller
 
 #### Defined in
 
-main.ts:183657
+main.ts:183690
 
 ***
 
@@ -149,7 +149,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-main.ts:183659
+main.ts:183692
 
 ***
 
@@ -161,7 +161,7 @@ sender company name
 
 #### Defined in
 
-main.ts:183661
+main.ts:183694
 
 ***
 
@@ -177,7 +177,7 @@ type of element
 
 #### Defined in
 
-main.ts:22401
+main.ts:22406
 
 ***
 
@@ -193,4 +193,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22409
+main.ts:22414

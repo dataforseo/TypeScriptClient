@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:28203
+main.ts:28208
 
 ## Properties
 
@@ -68,7 +68,7 @@ items featured in the faq_box
 
 #### Defined in
 
-main.ts:28195
+main.ts:28200
 
 ***
 
@@ -84,7 +84,7 @@ link of the element
 
 #### Defined in
 
-main.ts:28193
+main.ts:28198
 
 ***
 
@@ -167,7 +167,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28199
+main.ts:28204
 
 ***
 
@@ -229,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28208
+main.ts:28213
 
 ***
 
@@ -251,7 +251,7 @@ main.ts:28208
 
 #### Defined in
 
-main.ts:28232
+main.ts:28237
 
 ***
 
@@ -273,4 +273,4 @@ main.ts:28232
 
 #### Defined in
 
-main.ts:28225
+main.ts:28230

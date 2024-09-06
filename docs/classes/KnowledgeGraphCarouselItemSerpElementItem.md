@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:27963
+main.ts:27968
 
 ## Properties
 
@@ -70,7 +70,7 @@ action:listen_artist
 
 #### Defined in
 
-main.ts:27951
+main.ts:27956
 
 ***
 
@@ -86,7 +86,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:27955
+main.ts:27960
 
 ***
 
@@ -102,7 +102,7 @@ link of the element
 
 #### Defined in
 
-main.ts:27953
+main.ts:27958
 
 ***
 
@@ -185,7 +185,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27959
+main.ts:27964
 
 ***
 
@@ -201,7 +201,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27947
+main.ts:27952
 
 ***
 
@@ -263,7 +263,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:27968
+main.ts:27973
 
 ***
 
@@ -285,7 +285,7 @@ main.ts:27968
 
 #### Defined in
 
-main.ts:27994
+main.ts:27999
 
 ***
 
@@ -307,4 +307,4 @@ main.ts:27994
 
 #### Defined in
 
-main.ts:27987
+main.ts:27992

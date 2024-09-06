@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:29471
+main.ts:29745
 
 ## Properties
 
@@ -38,7 +38,8 @@ main.ts:29471
 
 > `optional` **items**: [`FaqBoxElement`](FaqBoxElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Implementation of
 
@@ -46,7 +47,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:29467
+main.ts:29741
 
 ***
 
@@ -62,7 +63,7 @@ type of element
 
 #### Defined in
 
-main.ts:29465
+main.ts:29738
 
 ## Methods
 
@@ -80,7 +81,7 @@ main.ts:29465
 
 #### Defined in
 
-main.ts:29480
+main.ts:29754
 
 ***
 
@@ -98,7 +99,7 @@ main.ts:29480
 
 #### Defined in
 
-main.ts:29502
+main.ts:29776
 
 ***
 
@@ -116,4 +117,4 @@ main.ts:29502
 
 #### Defined in
 
-main.ts:29495
+main.ts:29769

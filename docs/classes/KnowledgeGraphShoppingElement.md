@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:28824
+main.ts:28835
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Defined in
 
-main.ts:28805
+main.ts:28816
 
 ***
 
@@ -65,7 +65,7 @@ by Google
 
 #### Defined in
 
-main.ts:28817
+main.ts:28828
 
 ***
 
@@ -82,7 +82,7 @@ ecommerce site that hosts products or websites of individual sellers under the s
 
 #### Defined in
 
-main.ts:28820
+main.ts:28831
 
 ***
 
@@ -99,7 +99,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:28808
+main.ts:28819
 
 ***
 
@@ -115,7 +115,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:28812
+main.ts:28823
 
 ***
 
@@ -131,7 +131,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:28810
+main.ts:28821
 
 ***
 
@@ -147,7 +147,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28801
+main.ts:28812
 
 ***
 
@@ -163,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:28799
+main.ts:28810
 
 ***
 
@@ -179,7 +179,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:28803
+main.ts:28814
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:28803
 
 #### Defined in
 
-main.ts:28833
+main.ts:28844
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:28833
 
 #### Defined in
 
-main.ts:28858
+main.ts:28869
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:28858
 
 #### Defined in
 
-main.ts:28851
+main.ts:28862

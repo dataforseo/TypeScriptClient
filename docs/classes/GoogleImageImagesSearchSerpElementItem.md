@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:47714
+main.ts:47747
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:47714
 
 #### Defined in
 
-main.ts:47548
+main.ts:47581
 
 ***
 
@@ -68,7 +68,7 @@ the alt tag of the image
 
 #### Defined in
 
-main.ts:47704
+main.ts:47737
 
 ***
 
@@ -84,7 +84,7 @@ the URL of the cached version of the image stored on Google’s servers
 
 #### Defined in
 
-main.ts:47710
+main.ts:47743
 
 ***
 
@@ -105,7 +105,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47544
+main.ts:47577
 
 ***
 
@@ -127,7 +127,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47541
+main.ts:47574
 
 ***
 
@@ -143,7 +143,7 @@ the URL of the source image
 
 #### Defined in
 
-main.ts:47708
+main.ts:47741
 
 ***
 
@@ -159,7 +159,7 @@ subtitle of the result in SERP
 
 #### Defined in
 
-main.ts:47702
+main.ts:47735
 
 ***
 
@@ -175,7 +175,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:47700
+main.ts:47733
 
 ***
 
@@ -195,7 +195,7 @@ type of element
 
 #### Defined in
 
-main.ts:47537
+main.ts:47570
 
 ***
 
@@ -211,7 +211,7 @@ the URL of the page where the image is hosted
 
 #### Defined in
 
-main.ts:47706
+main.ts:47739
 
 ***
 
@@ -231,7 +231,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47546
+main.ts:47579
 
 ## Methods
 
@@ -253,7 +253,7 @@ main.ts:47546
 
 #### Defined in
 
-main.ts:47719
+main.ts:47752
 
 ***
 
@@ -275,7 +275,7 @@ main.ts:47719
 
 #### Defined in
 
-main.ts:47742
+main.ts:47775
 
 ***
 
@@ -297,4 +297,4 @@ main.ts:47742
 
 #### Defined in
 
-main.ts:47735
+main.ts:47768

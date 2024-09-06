@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:180452
+main.ts:180485
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:180417
+main.ts:180450
 
 ***
 
@@ -64,7 +64,7 @@ USD
 
 #### Defined in
 
-main.ts:180429
+main.ts:180462
 
 ***
 
@@ -83,7 +83,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:180437
+main.ts:180470
 
 ***
 
@@ -100,7 +100,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:180448
+main.ts:180481
 
 ***
 
@@ -116,7 +116,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:180409
+main.ts:180442
 
 ***
 
@@ -132,7 +132,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:180415
+main.ts:180448
 
 ***
 
@@ -149,7 +149,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:180442
+main.ts:180475
 
 ***
 
@@ -166,7 +166,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:180445
+main.ts:180478
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:180421
+main.ts:180454
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Defined in
 
-main.ts:180425
+main.ts:180458
 
 ***
 
@@ -218,7 +218,7 @@ product rating info
 
 #### Defined in
 
-main.ts:180439
+main.ts:180472
 
 ***
 
@@ -235,7 +235,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:180432
+main.ts:180465
 
 ***
 
@@ -251,7 +251,7 @@ product title
 
 #### Defined in
 
-main.ts:180411
+main.ts:180444
 
 ***
 
@@ -267,7 +267,7 @@ type of element
 
 #### Defined in
 
-main.ts:180405
+main.ts:180438
 
 ***
 
@@ -283,7 +283,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:180413
+main.ts:180446
 
 ***
 
@@ -299,7 +299,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:180407
+main.ts:180440
 
 ## Methods
 
@@ -317,7 +317,7 @@ main.ts:180407
 
 #### Defined in
 
-main.ts:180461
+main.ts:180494
 
 ***
 
@@ -335,7 +335,7 @@ main.ts:180461
 
 #### Defined in
 
-main.ts:180497
+main.ts:180530
 
 ***
 
@@ -353,4 +353,4 @@ main.ts:180497
 
 #### Defined in
 
-main.ts:180490
+main.ts:180523

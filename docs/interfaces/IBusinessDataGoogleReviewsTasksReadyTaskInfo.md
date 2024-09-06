@@ -28,7 +28,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24334
+main.ts:24339
 
 ***
 
@@ -48,7 +48,7 @@ contains the same parameters that you specified in the POST request
 
 #### Defined in
 
-main.ts:24340
+main.ts:24345
 
 ***
 
@@ -65,7 +65,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:24323
+main.ts:24328
 
 ***
 
@@ -81,7 +81,7 @@ URL path
 
 #### Defined in
 
-main.ts:24338
+main.ts:24343
 
 ***
 
@@ -93,7 +93,7 @@ array of results
 
 #### Defined in
 
-main.ts:208365
+main.ts:208398
 
 ***
 
@@ -109,7 +109,7 @@ number of elements in the result array
 
 #### Defined in
 
-main.ts:24336
+main.ts:24341
 
 ***
 
@@ -127,7 +127,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24327
+main.ts:24332
 
 ***
 
@@ -144,7 +144,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24330
+main.ts:24335
 
 ***
 
@@ -160,4 +160,4 @@ execution time, seconds
 
 #### Defined in
 
-main.ts:24332
+main.ts:24337

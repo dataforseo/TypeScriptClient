@@ -16,11 +16,11 @@
 
 > `optional` **footer**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-content of the footer of the table
+parsed content of the footer
 
 #### Defined in
 
-main.ts:161837
+main.ts:161870
 
 ***
 
@@ -28,11 +28,11 @@ main.ts:161837
 
 > `optional` **header**: [`PageSectionContentInfo`](../classes/PageSectionContentInfo.md)
 
-parsed content of the header
+content of the header of the table
 
 #### Defined in
 
-main.ts:161835
+main.ts:161868
 
 ***
 
@@ -45,7 +45,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:161840
+main.ts:161873
 
 ***
 
@@ -58,4 +58,4 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:161843
+main.ts:161876

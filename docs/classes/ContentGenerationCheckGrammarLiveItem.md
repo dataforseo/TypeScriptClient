@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:171161
+main.ts:171194
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the grammar or spelling error
 
 #### Defined in
 
-main.ts:171138
+main.ts:171171
 
 ***
 
@@ -62,7 +62,7 @@ offset token for subsequent requests
 
 #### Defined in
 
-main.ts:171144
+main.ts:171177
 
 ***
 
@@ -78,7 +78,7 @@ message of the grammar or spelling error
 
 #### Defined in
 
-main.ts:171136
+main.ts:171169
 
 ***
 
@@ -94,7 +94,7 @@ offset token for subsequent requests
 
 #### Defined in
 
-main.ts:171142
+main.ts:171175
 
 ***
 
@@ -110,7 +110,7 @@ id of the rule category
 
 #### Defined in
 
-main.ts:171155
+main.ts:171188
 
 ***
 
@@ -126,7 +126,7 @@ name of the rule category
 
 #### Defined in
 
-main.ts:171157
+main.ts:171190
 
 ***
 
@@ -142,7 +142,7 @@ description of the grammar or spelling rule
 
 #### Defined in
 
-main.ts:171151
+main.ts:171184
 
 ***
 
@@ -159,7 +159,7 @@ see the List of Grammar Rules for Content Generation API
 
 #### Defined in
 
-main.ts:171149
+main.ts:171182
 
 ***
 
@@ -175,7 +175,7 @@ type of the issue found by the relevant rule
 
 #### Defined in
 
-main.ts:171153
+main.ts:171186
 
 ***
 
@@ -191,7 +191,7 @@ suggested corrections
 
 #### Defined in
 
-main.ts:171140
+main.ts:171173
 
 ***
 
@@ -207,7 +207,7 @@ type of element
 
 #### Defined in
 
-main.ts:171146
+main.ts:171179
 
 ## Methods
 
@@ -225,7 +225,7 @@ main.ts:171146
 
 #### Defined in
 
-main.ts:171170
+main.ts:171203
 
 ***
 
@@ -243,7 +243,7 @@ main.ts:171170
 
 #### Defined in
 
-main.ts:171201
+main.ts:171234
 
 ***
 
@@ -261,4 +261,4 @@ main.ts:171201
 
 #### Defined in
 
-main.ts:171194
+main.ts:171227

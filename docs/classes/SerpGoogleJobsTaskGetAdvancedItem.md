@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:50813
+main.ts:50846
 
 ## Properties
 
@@ -46,7 +46,7 @@ employment contract type
 
 #### Defined in
 
-main.ts:50798
+main.ts:50831
 
 ***
 
@@ -62,7 +62,7 @@ URL to the image used in the job posting
 
 #### Defined in
 
-main.ts:50787
+main.ts:50820
 
 ***
 
@@ -78,7 +78,7 @@ name of the employer
 
 #### Defined in
 
-main.ts:50783
+main.ts:50816
 
 ***
 
@@ -94,7 +94,7 @@ URL to the employer’s website
 
 #### Defined in
 
-main.ts:50785
+main.ts:50818
 
 ***
 
@@ -110,7 +110,7 @@ ID of the job on Google Jobs
 
 #### Defined in
 
-main.ts:50779
+main.ts:50812
 
 ***
 
@@ -126,7 +126,7 @@ location for which the job vacancy is posted
 
 #### Defined in
 
-main.ts:50789
+main.ts:50822
 
 ***
 
@@ -144,7 +144,7 @@ left, right
 
 #### Defined in
 
-main.ts:50775
+main.ts:50808
 
 ***
 
@@ -161,7 +161,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:50771
+main.ts:50804
 
 ***
 
@@ -179,7 +179,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:50768
+main.ts:50801
 
 ***
 
@@ -197,7 +197,7 @@ in this case, will equal null
 
 #### Defined in
 
-main.ts:50809
+main.ts:50842
 
 ***
 
@@ -214,7 +214,7 @@ if the salary isn’t indicated, this field will equal null
 
 #### Defined in
 
-main.ts:50796
+main.ts:50829
 
 ***
 
@@ -230,7 +230,7 @@ original source of the job vacancy
 
 #### Defined in
 
-main.ts:50791
+main.ts:50824
 
 ***
 
@@ -246,7 +246,7 @@ URL to the original source of the job vacancy
 
 #### Defined in
 
-main.ts:50793
+main.ts:50826
 
 ***
 
@@ -262,7 +262,7 @@ indicates how long ago the job vacancy was posted
 
 #### Defined in
 
-main.ts:50805
+main.ts:50838
 
 ***
 
@@ -281,7 +281,7 @@ example:
 
 #### Defined in
 
-main.ts:50803
+main.ts:50836
 
 ***
 
@@ -297,7 +297,7 @@ title of the job
 
 #### Defined in
 
-main.ts:50781
+main.ts:50814
 
 ***
 
@@ -313,7 +313,7 @@ type of element
 
 #### Defined in
 
-main.ts:50764
+main.ts:50797
 
 ***
 
@@ -329,7 +329,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:50777
+main.ts:50810
 
 ## Methods
 
@@ -347,7 +347,7 @@ main.ts:50777
 
 #### Defined in
 
-main.ts:50822
+main.ts:50855
 
 ***
 
@@ -365,7 +365,7 @@ main.ts:50822
 
 #### Defined in
 
-main.ts:50856
+main.ts:50889
 
 ***
 
@@ -383,4 +383,4 @@ main.ts:50856
 
 #### Defined in
 
-main.ts:50849
+main.ts:50882

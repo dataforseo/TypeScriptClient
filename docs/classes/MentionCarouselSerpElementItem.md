@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:31966
+main.ts:32220
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`MentionCarouselElement`](MentionCarouselElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:31958
+main.ts:32212
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31962
+main.ts:32216
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31955
+main.ts:32210
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:31971
+main.ts:32225
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:31971
 
 #### Defined in
 
-main.ts:31995
+main.ts:32249
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:31995
 
 #### Defined in
 
-main.ts:31988
+main.ts:32242

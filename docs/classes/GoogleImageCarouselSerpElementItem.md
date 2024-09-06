@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:47632
+main.ts:47665
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:47632
 
 #### Defined in
 
-main.ts:47548
+main.ts:47581
 
 ***
 
@@ -68,7 +68,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:47624
+main.ts:47657
 
 ***
 
@@ -86,7 +86,7 @@ left, right
 
 #### Defined in
 
-main.ts:47620
+main.ts:47653
 
 ***
 
@@ -107,7 +107,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47544
+main.ts:47577
 
 ***
 
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47541
+main.ts:47574
 
 ***
 
@@ -147,7 +147,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:47628
+main.ts:47661
 
 ***
 
@@ -163,7 +163,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:47622
+main.ts:47655
 
 ***
 
@@ -183,7 +183,7 @@ type of element
 
 #### Defined in
 
-main.ts:47537
+main.ts:47570
 
 ***
 
@@ -203,7 +203,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47546
+main.ts:47579
 
 ## Methods
 
@@ -225,7 +225,7 @@ main.ts:47546
 
 #### Defined in
 
-main.ts:47637
+main.ts:47670
 
 ***
 
@@ -247,7 +247,7 @@ main.ts:47637
 
 #### Defined in
 
-main.ts:47662
+main.ts:47695
 
 ***
 
@@ -269,4 +269,4 @@ main.ts:47662
 
 #### Defined in
 
-main.ts:47655
+main.ts:47688

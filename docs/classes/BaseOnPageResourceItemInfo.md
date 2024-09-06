@@ -34,7 +34,7 @@
 
 #### Defined in
 
-main.ts:21438
+main.ts:21443
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:21438
 
 #### Defined in
 
-main.ts:21436
+main.ts:21441
 
 ***
 
@@ -60,7 +60,7 @@ instructions for caching
 
 #### Defined in
 
-main.ts:21422
+main.ts:21427
 
 ***
 
@@ -81,7 +81,7 @@ on-page check-ups related to the page
 
 #### Defined in
 
-main.ts:21425
+main.ts:21430
 
 ***
 
@@ -97,7 +97,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:21427
+main.ts:21432
 
 ***
 
@@ -114,7 +114,7 @@ indicates the size of the encoded page measured in bytes
 
 #### Defined in
 
-main.ts:21412
+main.ts:21417
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:21420
+main.ts:21425
 
 ***
 
@@ -150,7 +150,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:21434
+main.ts:21439
 
 ***
 
@@ -167,7 +167,7 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-main.ts:21402
+main.ts:21407
 
 ***
 
@@ -183,7 +183,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:21429
+main.ts:21434
 
 ***
 
@@ -199,7 +199,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:21406
+main.ts:21411
 
 ***
 
@@ -215,7 +215,7 @@ type of the returned resource
 
 #### Defined in
 
-main.ts:21397
+main.ts:21402
 
 ***
 
@@ -231,7 +231,7 @@ server version
 
 #### Defined in
 
-main.ts:21431
+main.ts:21436
 
 ***
 
@@ -248,7 +248,7 @@ indicates the size of a given page measured in bytes
 
 #### Defined in
 
-main.ts:21409
+main.ts:21414
 
 ***
 
@@ -264,7 +264,7 @@ status code of the page
 
 #### Defined in
 
-main.ts:21399
+main.ts:21404
 
 ***
 
@@ -281,7 +281,7 @@ indicates the compressed size of a given page
 
 #### Defined in
 
-main.ts:21415
+main.ts:21420
 
 ***
 
@@ -297,7 +297,7 @@ page URL
 
 #### Defined in
 
-main.ts:21404
+main.ts:21409
 
 ## Methods
 
@@ -315,7 +315,7 @@ main.ts:21404
 
 #### Defined in
 
-main.ts:21448
+main.ts:21453
 
 ***
 
@@ -333,7 +333,7 @@ main.ts:21448
 
 #### Defined in
 
-main.ts:21506
+main.ts:21511
 
 ***
 
@@ -351,4 +351,4 @@ main.ts:21506
 
 #### Defined in
 
-main.ts:21474
+main.ts:21479

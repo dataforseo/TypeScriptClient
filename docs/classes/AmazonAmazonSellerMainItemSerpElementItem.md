@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:183600
+main.ts:183633
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:183600
 
 #### Defined in
 
-main.ts:22315
+main.ts:22320
 
 ***
 
@@ -69,7 +69,7 @@ condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:183590
+main.ts:183623
 
 ***
 
@@ -86,7 +86,7 @@ expanded details on the condition of the product offered by the seller
 
 #### Defined in
 
-main.ts:183593
+main.ts:183626
 
 ***
 
@@ -103,7 +103,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:183596
+main.ts:183629
 
 ***
 
@@ -121,7 +121,7 @@ left, right
 
 #### Defined in
 
-main.ts:183575
+main.ts:183608
 
 ***
 
@@ -138,7 +138,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:183584
+main.ts:183617
 
 ***
 
@@ -159,7 +159,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22311
+main.ts:22316
 
 ***
 
@@ -180,7 +180,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22308
+main.ts:22313
 
 ***
 
@@ -197,7 +197,7 @@ seller popularity rate based on customer reviews
 
 #### Defined in
 
-main.ts:183587
+main.ts:183620
 
 ***
 
@@ -213,7 +213,7 @@ business name of the seller
 
 #### Defined in
 
-main.ts:183577
+main.ts:183610
 
 ***
 
@@ -229,7 +229,7 @@ url forwarding to the seller’s page on Amazon
 
 #### Defined in
 
-main.ts:183579
+main.ts:183612
 
 ***
 
@@ -245,7 +245,7 @@ sender company name
 
 #### Defined in
 
-main.ts:183581
+main.ts:183614
 
 ***
 
@@ -265,7 +265,7 @@ type of element
 
 #### Defined in
 
-main.ts:22305
+main.ts:22310
 
 ***
 
@@ -285,7 +285,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22313
+main.ts:22318
 
 ## Methods
 
@@ -307,7 +307,7 @@ main.ts:22313
 
 #### Defined in
 
-main.ts:183605
+main.ts:183638
 
 ***
 
@@ -329,7 +329,7 @@ main.ts:183605
 
 #### Defined in
 
-main.ts:183631
+main.ts:183664
 
 ***
 
@@ -351,4 +351,4 @@ main.ts:183631
 
 #### Defined in
 
-main.ts:183624
+main.ts:183657

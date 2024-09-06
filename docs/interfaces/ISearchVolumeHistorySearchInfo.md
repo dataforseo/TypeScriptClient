@@ -21,7 +21,7 @@ contains historical search volume data for searches made from desktop devices
 
 #### Defined in
 
-main.ts:134780
+main.ts:134813
 
 ***
 
@@ -34,7 +34,7 @@ contains historical search volume data for searches made from mobile devices
 
 #### Defined in
 
-main.ts:134786
+main.ts:134819
 
 ***
 
@@ -47,7 +47,7 @@ contains historical search volume data for searches made from feature phones (no
 
 #### Defined in
 
-main.ts:134783
+main.ts:134816
 
 ***
 
@@ -60,4 +60,4 @@ contains historical search volume data for searches made from tablets
 
 #### Defined in
 
-main.ts:134789
+main.ts:134822

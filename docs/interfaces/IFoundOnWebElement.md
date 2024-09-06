@@ -20,7 +20,7 @@ image of the element
 
 #### Defined in
 
-main.ts:35200
+main.ts:35423
 
 ***
 
@@ -32,7 +32,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:35198
+main.ts:35421
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35196
+main.ts:35419
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:35194
+main.ts:35417

@@ -20,7 +20,7 @@ text of the URL’s anchor
 
 #### Defined in
 
-main.ts:161259
+main.ts:161292
 
 ***
 
@@ -32,4 +32,4 @@ other URL found in the content element
 
 #### Defined in
 
-main.ts:161257
+main.ts:161290

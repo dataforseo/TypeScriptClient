@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:213605
+main.ts:213638
 
 ## Properties
 
@@ -51,7 +51,7 @@ max value: 4490
 
 #### Defined in
 
-main.ts:213541
+main.ts:213574
 
 ***
 
@@ -72,7 +72,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:213496
+main.ts:213529
 
 ***
 
@@ -95,7 +95,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213534
+main.ts:213567
 
 ***
 
@@ -118,7 +118,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213525
+main.ts:213558
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:213508
+main.ts:213541
 
 ***
 
@@ -158,7 +158,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:213502
+main.ts:213535
 
 ***
 
@@ -177,7 +177,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213557
+main.ts:213590
 
 ***
 
@@ -201,7 +201,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:213601
+main.ts:213634
 
 ***
 
@@ -225,7 +225,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:213591
+main.ts:213624
 
 ***
 
@@ -247,7 +247,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213516
+main.ts:213549
 
 ***
 
@@ -267,7 +267,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213547
+main.ts:213580
 
 ***
 
@@ -285,7 +285,7 @@ dessert
 
 #### Defined in
 
-main.ts:213561
+main.ts:213594
 
 ***
 
@@ -306,7 +306,7 @@ detailed_reviews
 
 #### Defined in
 
-main.ts:213568
+main.ts:213601
 
 ***
 
@@ -326,7 +326,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:213581
+main.ts:213614
 
 ***
 
@@ -347,7 +347,7 @@ you can learn more about how reviews are translated in this Help Center article
 
 #### Defined in
 
-main.ts:213575
+main.ts:213608
 
 ***
 
@@ -368,7 +368,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Defined in
 
-main.ts:213489
+main.ts:213522
 
 ***
 
@@ -387,7 +387,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213552
+main.ts:213585
 
 ## Methods
 
@@ -405,7 +405,7 @@ main.ts:213552
 
 #### Defined in
 
-main.ts:213614
+main.ts:213647
 
 ***
 
@@ -423,7 +423,7 @@ main.ts:213614
 
 #### Defined in
 
-main.ts:213659
+main.ts:213692
 
 ***
 
@@ -441,4 +441,4 @@ main.ts:213659
 
 #### Defined in
 
-main.ts:213652
+main.ts:213685

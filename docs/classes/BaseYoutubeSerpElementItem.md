@@ -32,7 +32,7 @@
 
 #### Defined in
 
-main.ts:62257
+main.ts:62290
 
 ## Properties
 
@@ -42,7 +42,7 @@ main.ts:62257
 
 #### Defined in
 
-main.ts:62255
+main.ts:62288
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62253
+main.ts:62286
 
 ***
 
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62250
+main.ts:62283
 
 ***
 
@@ -93,7 +93,7 @@ type of element
 
 #### Defined in
 
-main.ts:62246
+main.ts:62279
 
 ## Methods
 
@@ -111,7 +111,7 @@ main.ts:62246
 
 #### Defined in
 
-main.ts:62267
+main.ts:62300
 
 ***
 
@@ -129,7 +129,7 @@ main.ts:62267
 
 #### Defined in
 
-main.ts:62297
+main.ts:62330
 
 ***
 
@@ -147,4 +147,4 @@ main.ts:62297
 
 #### Defined in
 
-main.ts:62275
+main.ts:62308

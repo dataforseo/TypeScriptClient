@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:97471
+main.ts:97504
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97471
 
 #### Defined in
 
-main.ts:20742
+main.ts:20747
 
 ***
 
@@ -71,7 +71,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:97467
+main.ts:97500
 
 ***
 
@@ -87,7 +87,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:97428
+main.ts:97461
 
 ***
 
@@ -103,7 +103,7 @@ website domain
 
 #### Defined in
 
-main.ts:97430
+main.ts:97463
 
 ***
 
@@ -122,7 +122,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97458
+main.ts:97491
 
 ***
 
@@ -141,7 +141,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97448
+main.ts:97481
 
 ***
 
@@ -160,7 +160,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97453
+main.ts:97486
 
 ***
 
@@ -176,7 +176,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:97436
+main.ts:97469
 
 ***
 
@@ -192,7 +192,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:97441
+main.ts:97474
 
 ***
 
@@ -208,7 +208,7 @@ phone number
 
 #### Defined in
 
-main.ts:97432
+main.ts:97465
 
 ***
 
@@ -230,7 +230,7 @@ left, right
 
 #### Defined in
 
-main.ts:20738
+main.ts:20743
 
 ***
 
@@ -251,7 +251,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20734
+main.ts:20739
 
 ***
 
@@ -269,7 +269,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Defined in
 
-main.ts:97462
+main.ts:97495
 
 ***
 
@@ -290,7 +290,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20731
+main.ts:20736
 
 ***
 
@@ -307,7 +307,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:97439
+main.ts:97472
 
 ***
 
@@ -323,7 +323,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:97443
+main.ts:97476
 
 ***
 
@@ -339,7 +339,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97426
+main.ts:97459
 
 ***
 
@@ -359,7 +359,7 @@ type of element
 
 #### Defined in
 
-main.ts:20728
+main.ts:20733
 
 ***
 
@@ -375,7 +375,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:97434
+main.ts:97467
 
 ***
 
@@ -395,7 +395,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20740
+main.ts:20745
 
 ## Methods
 
@@ -417,7 +417,7 @@ main.ts:20740
 
 #### Defined in
 
-main.ts:97476
+main.ts:97509
 
 ***
 
@@ -439,7 +439,7 @@ main.ts:97476
 
 #### Defined in
 
-main.ts:97507
+main.ts:97540
 
 ***
 
@@ -461,4 +461,4 @@ main.ts:97507
 
 #### Defined in
 
-main.ts:97500
+main.ts:97533

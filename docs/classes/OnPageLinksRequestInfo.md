@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:157615
+main.ts:157648
 
 ## Properties
 
@@ -61,7 +61,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:157605
+main.ts:157638
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:157568
+main.ts:157601
 
 ***
 
@@ -100,7 +100,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:157583
+main.ts:157616
 
 ***
 
@@ -119,7 +119,7 @@ if you specify the 10 value, the first ten links in the results array will be om
 
 #### Defined in
 
-main.ts:157588
+main.ts:157621
 
 ***
 
@@ -138,7 +138,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:157573
+main.ts:157606
 
 ***
 
@@ -157,7 +157,7 @@ note that in this field you can specify relative URLs only
 
 #### Defined in
 
-main.ts:157578
+main.ts:157611
 
 ***
 
@@ -177,7 +177,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:157611
+main.ts:157644
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:157611
 
 #### Defined in
 
-main.ts:157624
+main.ts:157657
 
 ***
 
@@ -213,7 +213,7 @@ main.ts:157624
 
 #### Defined in
 
-main.ts:157651
+main.ts:157684
 
 ***
 
@@ -231,4 +231,4 @@ main.ts:157651
 
 #### Defined in
 
-main.ts:157644
+main.ts:157677

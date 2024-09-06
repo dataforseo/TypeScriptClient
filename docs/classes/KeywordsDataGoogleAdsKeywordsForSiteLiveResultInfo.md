@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:119624
+main.ts:119657
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:119592
+main.ts:119625
 
 ***
 
@@ -71,7 +71,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:119599
+main.ts:119632
 
 ***
 
@@ -88,7 +88,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:119614
+main.ts:119647
 
 ***
 
@@ -106,7 +106,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:119611
+main.ts:119644
 
 ***
 
@@ -122,7 +122,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:119575
+main.ts:119608
 
 ***
 
@@ -138,7 +138,7 @@ the annotations for the keyword
 
 #### Defined in
 
-main.ts:119620
+main.ts:119653
 
 ***
 
@@ -155,7 +155,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:119581
+main.ts:119614
 
 ***
 
@@ -172,7 +172,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:119578
+main.ts:119611
 
 ***
 
@@ -190,7 +190,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:119607
+main.ts:119640
 
 ***
 
@@ -208,7 +208,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:119618
+main.ts:119651
 
 ***
 
@@ -227,7 +227,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:119586
+main.ts:119619
 
 ***
 
@@ -245,7 +245,7 @@ if there is no data, the value is null
 
 #### Defined in
 
-main.ts:119603
+main.ts:119636
 
 ## Methods
 
@@ -263,7 +263,7 @@ main.ts:119603
 
 #### Defined in
 
-main.ts:119633
+main.ts:119666
 
 ***
 
@@ -281,7 +281,7 @@ main.ts:119633
 
 #### Defined in
 
-main.ts:119665
+main.ts:119698
 
 ***
 
@@ -299,4 +299,4 @@ main.ts:119665
 
 #### Defined in
 
-main.ts:119658
+main.ts:119691

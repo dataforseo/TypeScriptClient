@@ -24,7 +24,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:98259
+main.ts:98292
 
 ***
 
@@ -36,7 +36,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:98257
+main.ts:98290
 
 ***
 
@@ -48,7 +48,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:98255
+main.ts:98288
 
 ***
 
@@ -66,7 +66,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -83,7 +83,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -100,7 +100,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -113,7 +113,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:98253
+main.ts:98286
 
 ***
 
@@ -125,7 +125,7 @@ the number of reviews
 
 #### Defined in
 
-main.ts:98250
+main.ts:98283
 
 ***
 
@@ -141,7 +141,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -157,4 +157,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

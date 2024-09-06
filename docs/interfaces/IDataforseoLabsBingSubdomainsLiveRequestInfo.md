@@ -32,7 +32,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:111163
+main.ts:111196
 
 ***
 
@@ -51,7 +51,7 @@ default value: live
 
 #### Defined in
 
-main.ts:111149
+main.ts:111182
 
 ***
 
@@ -70,7 +70,7 @@ default value:
 
 #### Defined in
 
-main.ts:111140
+main.ts:111173
 
 ***
 
@@ -89,7 +89,7 @@ en
 
 #### Defined in
 
-main.ts:111131
+main.ts:111164
 
 ***
 
@@ -108,7 +108,7 @@ English
 
 #### Defined in
 
-main.ts:111122
+main.ts:111155
 
 ***
 
@@ -123,7 +123,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:111185
+main.ts:111218
 
 ***
 
@@ -143,7 +143,7 @@ example:
 
 #### Defined in
 
-main.ts:111113
+main.ts:111146
 
 ***
 
@@ -163,7 +163,7 @@ United States
 
 #### Defined in
 
-main.ts:111103
+main.ts:111136
 
 ***
 
@@ -178,7 +178,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:111190
+main.ts:111223
 
 ***
 
@@ -205,7 +205,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:111180
+main.ts:111213
 
 ***
 
@@ -221,7 +221,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:111196
+main.ts:111229
 
 ***
 
@@ -236,4 +236,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:111093
+main.ts:111126

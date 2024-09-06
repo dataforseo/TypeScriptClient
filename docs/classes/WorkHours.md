@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:39660
+main.ts:39693
 
 ## Properties
 
@@ -47,7 +47,7 @@ indicates whether the establishment is opened or closed
 
 #### Defined in
 
-main.ts:39656
+main.ts:39689
 
 ***
 
@@ -67,7 +67,7 @@ work hours timetable
 
 #### Defined in
 
-main.ts:39653
+main.ts:39686
 
 ## Methods
 
@@ -85,7 +85,7 @@ main.ts:39653
 
 #### Defined in
 
-main.ts:39669
+main.ts:39702
 
 ***
 
@@ -103,7 +103,7 @@ main.ts:39669
 
 #### Defined in
 
-main.ts:39693
+main.ts:39726
 
 ***
 
@@ -121,4 +121,4 @@ main.ts:39693
 
 #### Defined in
 
-main.ts:39686
+main.ts:39719

@@ -21,7 +21,7 @@ the data included in the values element is based on this keyword
 
 #### Defined in
 
-main.ts:126205
+main.ts:126238
 
 ***
 
@@ -33,4 +33,4 @@ contains data on relative keyword popularity by country or region
 
 #### Defined in
 
-main.ts:126207
+main.ts:126240

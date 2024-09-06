@@ -20,7 +20,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:95562
+main.ts:95595
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:95560
+main.ts:95593
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:95556
+main.ts:95589
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:95554
+main.ts:95587
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95550
+main.ts:95583
 
 ***
 
@@ -80,7 +80,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:95552
+main.ts:95585
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:95558
+main.ts:95591

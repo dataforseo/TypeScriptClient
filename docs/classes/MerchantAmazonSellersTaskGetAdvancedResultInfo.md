@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:183829
+main.ts:183862
 
 ## Properties
 
@@ -47,7 +47,7 @@ learn more about ASINs in this help center guide
 
 #### Defined in
 
-main.ts:183794
+main.ts:183827
 
 ***
 
@@ -64,7 +64,7 @@ you can use it to make sure the provided results are accurate
 
 #### Defined in
 
-main.ts:183805
+main.ts:183838
 
 ***
 
@@ -83,7 +83,7 @@ example:
 
 #### Defined in
 
-main.ts:183810
+main.ts:183843
 
 ***
 
@@ -100,7 +100,7 @@ image URL of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:183816
+main.ts:183849
 
 ***
 
@@ -119,7 +119,7 @@ amazon_seller_main_item, amazon_seller_item
 
 #### Defined in
 
-main.ts:183821
+main.ts:183854
 
 ***
 
@@ -135,7 +135,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:183825
+main.ts:183858
 
 ***
 
@@ -151,7 +151,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:183823
+main.ts:183856
 
 ***
 
@@ -167,7 +167,7 @@ language code received in a POST array
 
 #### Defined in
 
-main.ts:183802
+main.ts:183835
 
 ***
 
@@ -183,7 +183,7 @@ location code received in a POST array
 
 #### Defined in
 
-main.ts:183800
+main.ts:183833
 
 ***
 
@@ -199,7 +199,7 @@ search engine domain received in a POST array
 
 #### Defined in
 
-main.ts:183798
+main.ts:183831
 
 ***
 
@@ -216,7 +216,7 @@ title of the product relevant to the asin received in a POST array
 
 #### Defined in
 
-main.ts:183813
+main.ts:183846
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:183796
+main.ts:183829
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:183796
 
 #### Defined in
 
-main.ts:183838
+main.ts:183871
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:183838
 
 #### Defined in
 
-main.ts:183874
+main.ts:183907
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:183874
 
 #### Defined in
 
-main.ts:183867
+main.ts:183900

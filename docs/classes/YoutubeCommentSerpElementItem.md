@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:65570
+main.ts:65603
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:65570
 
 #### Defined in
 
-main.ts:62255
+main.ts:62288
 
 ***
 
@@ -68,7 +68,7 @@ name of the author of the comment
 
 #### Defined in
 
-main.ts:65549
+main.ts:65582
 
 ***
 
@@ -84,7 +84,7 @@ the URL of the page where the author’s channel logo is hosted
 
 #### Defined in
 
-main.ts:65551
+main.ts:65584
 
 ***
 
@@ -100,7 +100,7 @@ URL of the author’s channel
 
 #### Defined in
 
-main.ts:65553
+main.ts:65586
 
 ***
 
@@ -116,7 +116,7 @@ number of likes on the comment
 
 #### Defined in
 
-main.ts:65564
+main.ts:65597
 
 ***
 
@@ -132,7 +132,7 @@ displayed publication date
 
 #### Defined in
 
-main.ts:65557
+main.ts:65590
 
 ***
 
@@ -153,7 +153,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62253
+main.ts:62286
 
 ***
 
@@ -175,7 +175,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62250
+main.ts:62283
 
 ***
 
@@ -191,7 +191,7 @@ number of replies on the comment
 
 #### Defined in
 
-main.ts:65566
+main.ts:65599
 
 ***
 
@@ -207,7 +207,7 @@ text of the comment
 
 #### Defined in
 
-main.ts:65555
+main.ts:65588
 
 ***
 
@@ -226,7 +226,7 @@ example:
 
 #### Defined in
 
-main.ts:65562
+main.ts:65595
 
 ***
 
@@ -246,7 +246,7 @@ type of element
 
 #### Defined in
 
-main.ts:62246
+main.ts:62279
 
 ## Methods
 
@@ -268,7 +268,7 @@ main.ts:62246
 
 #### Defined in
 
-main.ts:65575
+main.ts:65608
 
 ***
 
@@ -290,7 +290,7 @@ main.ts:65575
 
 #### Defined in
 
-main.ts:65600
+main.ts:65633
 
 ***
 
@@ -312,4 +312,4 @@ main.ts:65600
 
 #### Defined in
 
-main.ts:65593
+main.ts:65626

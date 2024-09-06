@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:75051
+main.ts:75084
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:75058
+main.ts:75091
 
 ***
 
@@ -58,7 +58,7 @@ example: domain_analytics/task_get, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:75044
+main.ts:75077
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:75033
+main.ts:75066
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:75038
+main.ts:75071

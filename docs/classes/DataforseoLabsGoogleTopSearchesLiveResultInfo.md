@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:90065
+main.ts:90098
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:90061
+main.ts:90094
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:90053
+main.ts:90086
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:90049
+main.ts:90082
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:90047
+main.ts:90080
 
 ***
 
@@ -110,7 +110,7 @@ current offset value
 
 #### Defined in
 
-main.ts:90055
+main.ts:90088
 
 ***
 
@@ -128,7 +128,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:90059
+main.ts:90092
 
 ***
 
@@ -144,7 +144,7 @@ search engine type
 
 #### Defined in
 
-main.ts:90045
+main.ts:90078
 
 ***
 
@@ -160,7 +160,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:90051
+main.ts:90084
 
 ## Methods
 
@@ -178,7 +178,7 @@ main.ts:90051
 
 #### Defined in
 
-main.ts:90074
+main.ts:90107
 
 ***
 
@@ -196,7 +196,7 @@ main.ts:90074
 
 #### Defined in
 
-main.ts:90102
+main.ts:90135
 
 ***
 
@@ -214,4 +214,4 @@ main.ts:90102
 
 #### Defined in
 
-main.ts:90095
+main.ts:90128

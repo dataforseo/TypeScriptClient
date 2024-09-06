@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:70583
+main.ts:70616
 
 ## Properties
 
@@ -68,7 +68,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:70565
+main.ts:70598
 
 ***
 
@@ -84,7 +84,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:70563
+main.ts:70596
 
 ***
 
@@ -100,7 +100,7 @@ keyword highlighted in the result
 
 #### Defined in
 
-main.ts:70567
+main.ts:70600
 
 ***
 
@@ -118,7 +118,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:70575
+main.ts:70608
 
 ***
 
@@ -201,7 +201,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:70579
+main.ts:70612
 
 ***
 
@@ -217,7 +217,7 @@ snippet of the element
 
 #### Defined in
 
-main.ts:70569
+main.ts:70602
 
 ***
 
@@ -233,7 +233,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:70571
+main.ts:70604
 
 ***
 
@@ -249,7 +249,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:70559
+main.ts:70592
 
 ***
 
@@ -285,7 +285,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:70561
+main.ts:70594
 
 ***
 
@@ -327,7 +327,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:70588
+main.ts:70621
 
 ***
 
@@ -349,7 +349,7 @@ main.ts:70588
 
 #### Defined in
 
-main.ts:70618
+main.ts:70651
 
 ***
 
@@ -371,4 +371,4 @@ main.ts:70618
 
 #### Defined in
 
-main.ts:70611
+main.ts:70644

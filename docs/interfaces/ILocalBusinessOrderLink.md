@@ -24,7 +24,7 @@ lists available delivery services
 
 #### Defined in
 
-main.ts:24010
+main.ts:24015
 
 ***
 
@@ -40,4 +40,4 @@ type of element
 
 #### Defined in
 
-main.ts:23900
+main.ts:23905

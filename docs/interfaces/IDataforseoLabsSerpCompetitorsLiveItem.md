@@ -21,7 +21,7 @@ the arithmetic mean of values in the keywords_positions array
 
 #### Defined in
 
-main.ts:92418
+main.ts:92451
 
 ***
 
@@ -33,7 +33,7 @@ domain name of the detected SERP competitor
 
 #### Defined in
 
-main.ts:92415
+main.ts:92448
 
 ***
 
@@ -48,7 +48,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92430
+main.ts:92463
 
 ***
 
@@ -60,7 +60,7 @@ the number of specified keywords the domain has positions for in SERPs
 
 #### Defined in
 
-main.ts:92432
+main.ts:92465
 
 ***
 
@@ -77,7 +77,7 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 #### Defined in
 
-main.ts:92444
+main.ts:92477
 
 ***
 
@@ -90,7 +90,7 @@ the median of the values in the keywords_positions array
 
 #### Defined in
 
-main.ts:92421
+main.ts:92454
 
 ***
 
@@ -104,7 +104,7 @@ calculated as sum(100-keywords_positions)
 
 #### Defined in
 
-main.ts:92425
+main.ts:92458
 
 ***
 
@@ -117,7 +117,7 @@ represents the number of search results in SERP relevant to the domain for the s
 
 #### Defined in
 
-main.ts:92441
+main.ts:92474
 
 ***
 
@@ -129,7 +129,7 @@ search engine type
 
 #### Defined in
 
-main.ts:92413
+main.ts:92446
 
 ***
 
@@ -145,4 +145,4 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 #### Defined in
 
-main.ts:92438
+main.ts:92471

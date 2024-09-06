@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:212732
+main.ts:212765
 
 ## Properties
 
@@ -51,7 +51,7 @@ maximum value: 210
 
 #### Defined in
 
-main.ts:212702
+main.ts:212735
 
 ***
 
@@ -72,7 +72,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:212675
+main.ts:212708
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:212687
+main.ts:212720
 
 ***
 
@@ -112,7 +112,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:212681
+main.ts:212714
 
 ***
 
@@ -136,7 +136,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:212728
+main.ts:212761
 
 ***
 
@@ -160,7 +160,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:212718
+main.ts:212751
 
 ***
 
@@ -182,7 +182,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:212695
+main.ts:212728
 
 ***
 
@@ -202,7 +202,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:212708
+main.ts:212741
 
 ## Methods
 
@@ -220,7 +220,7 @@ main.ts:212708
 
 #### Defined in
 
-main.ts:212741
+main.ts:212774
 
 ***
 
@@ -238,7 +238,7 @@ main.ts:212741
 
 #### Defined in
 
-main.ts:212765
+main.ts:212798
 
 ***
 
@@ -256,4 +256,4 @@ main.ts:212765
 
 #### Defined in
 
-main.ts:212758
+main.ts:212791

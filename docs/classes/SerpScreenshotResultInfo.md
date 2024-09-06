@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:25197
+main.ts:25202
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Defined in
 
-main.ts:25193
+main.ts:25198
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:25191
+main.ts:25196
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:25191
 
 #### Defined in
 
-main.ts:25206
+main.ts:25211
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:25206
 
 #### Defined in
 
-main.ts:25228
+main.ts:25233
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:25228
 
 #### Defined in
 
-main.ts:25221
+main.ts:25226

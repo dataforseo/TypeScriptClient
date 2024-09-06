@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:192033
+main.ts:192066
 
 ## Properties
 
@@ -46,7 +46,7 @@ ID of the returned app
 
 #### Defined in
 
-main.ts:192013
+main.ts:192046
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:192022
+main.ts:192055
 
 ***
 
@@ -79,7 +79,7 @@ detailed information about the app
 
 #### Defined in
 
-main.ts:192029
+main.ts:192062
 
 ***
 
@@ -95,7 +95,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:192019
+main.ts:192052
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:192017
+main.ts:192050
 
 ***
 
@@ -127,7 +127,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:192015
+main.ts:192048
 
 ***
 
@@ -146,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:192027
+main.ts:192060
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:192027
 
 #### Defined in
 
-main.ts:192042
+main.ts:192075
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:192042
 
 #### Defined in
 
-main.ts:192065
+main.ts:192098
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:192065
 
 #### Defined in
 
-main.ts:192058
+main.ts:192091

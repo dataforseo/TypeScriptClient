@@ -25,7 +25,7 @@ data is provided in separate objects corresponding to domains, subdomains or pag
 
 #### Defined in
 
-main.ts:146745
+main.ts:146778
 
 ***
 
@@ -37,4 +37,4 @@ contains the domain intersections summary
 
 #### Defined in
 
-main.ts:146747
+main.ts:146780

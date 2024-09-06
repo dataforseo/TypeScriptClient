@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:159838
+main.ts:159871
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:159822
+main.ts:159855
 
 ***
 
@@ -70,7 +70,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159834
+main.ts:159867
 
 ***
 
@@ -90,7 +90,7 @@ https://dataforseo.com/apis
 
 #### Defined in
 
-main.ts:159828
+main.ts:159861
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:159828
 
 #### Defined in
 
-main.ts:159847
+main.ts:159880
 
 ***
 
@@ -126,7 +126,7 @@ main.ts:159847
 
 #### Defined in
 
-main.ts:159866
+main.ts:159899
 
 ***
 
@@ -144,4 +144,4 @@ main.ts:159866
 
 #### Defined in
 
-main.ts:159859
+main.ts:159892

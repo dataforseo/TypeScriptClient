@@ -20,7 +20,7 @@ website domain
 
 #### Defined in
 
-main.ts:34120
+main.ts:34351
 
 ***
 
@@ -32,7 +32,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:34122
+main.ts:34353
 
 ***
 
@@ -45,7 +45,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:34128
+main.ts:34359
 
 ***
 
@@ -58,7 +58,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:34125
+main.ts:34356
 
 ***
 
@@ -70,7 +70,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34116
+main.ts:34347
 
 ***
 
@@ -82,7 +82,7 @@ type of element
 
 #### Defined in
 
-main.ts:34114
+main.ts:34345
 
 ***
 
@@ -94,4 +94,4 @@ URL
 
 #### Defined in
 
-main.ts:34118
+main.ts:34349

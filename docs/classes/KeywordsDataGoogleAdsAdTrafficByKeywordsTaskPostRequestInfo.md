@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:120886
+main.ts:120919
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:120780
+main.ts:120813
 
 ***
 
@@ -74,7 +74,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:120836
+main.ts:120869
 
 ***
 
@@ -94,7 +94,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:120851
+main.ts:120884
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:120845
+main.ts:120878
 
 ***
 
@@ -143,7 +143,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:120774
+main.ts:120807
 
 ***
 
@@ -163,7 +163,7 @@ en
 
 #### Defined in
 
-main.ts:120826
+main.ts:120859
 
 ***
 
@@ -183,7 +183,7 @@ English
 
 #### Defined in
 
-main.ts:120820
+main.ts:120853
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Defined in
 
-main.ts:120805
+main.ts:120838
 
 ***
 
@@ -228,7 +228,7 @@ example:
 
 #### Defined in
 
-main.ts:120814
+main.ts:120847
 
 ***
 
@@ -250,7 +250,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:120797
+main.ts:120830
 
 ***
 
@@ -268,7 +268,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:120784
+main.ts:120817
 
 ***
 
@@ -292,7 +292,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:120876
+main.ts:120909
 
 ***
 
@@ -316,7 +316,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:120866
+main.ts:120899
 
 ***
 
@@ -335,7 +335,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:120789
+main.ts:120822
 
 ***
 
@@ -354,7 +354,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:120856
+main.ts:120889
 
 ***
 
@@ -374,7 +374,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:120882
+main.ts:120915
 
 ## Methods
 
@@ -392,7 +392,7 @@ main.ts:120882
 
 #### Defined in
 
-main.ts:120895
+main.ts:120928
 
 ***
 
@@ -410,7 +410,7 @@ main.ts:120895
 
 #### Defined in
 
-main.ts:120931
+main.ts:120964
 
 ***
 
@@ -428,4 +428,4 @@ main.ts:120931
 
 #### Defined in
 
-main.ts:120924
+main.ts:120957

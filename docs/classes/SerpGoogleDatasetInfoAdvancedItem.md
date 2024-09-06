@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:56081
+main.ts:56114
 
 ## Properties
 
@@ -47,7 +47,7 @@ for example: Africa, Global
 
 #### Defined in
 
-main.ts:56073
+main.ts:56106
 
 ***
 
@@ -63,7 +63,7 @@ the list of authors of the dataset
 
 #### Defined in
 
-main.ts:56063
+main.ts:56096
 
 ***
 
@@ -79,7 +79,7 @@ description of the dataset
 
 #### Defined in
 
-main.ts:56077
+main.ts:56110
 
 ***
 
@@ -95,7 +95,7 @@ ID of the dataset
 
 #### Defined in
 
-main.ts:56046
+main.ts:56079
 
 ***
 
@@ -111,7 +111,7 @@ the list of institutions that provided the dataset
 
 #### Defined in
 
-main.ts:56059
+main.ts:56092
 
 ***
 
@@ -127,7 +127,7 @@ the list of file formats of the dataset
 
 #### Defined in
 
-main.ts:56061
+main.ts:56094
 
 ***
 
@@ -144,7 +144,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:56051
+main.ts:56084
 
 ***
 
@@ -160,7 +160,7 @@ the list of licenses issued to the dataset
 
 #### Defined in
 
-main.ts:56065
+main.ts:56098
 
 ***
 
@@ -178,7 +178,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:56057
+main.ts:56090
 
 ***
 
@@ -194,7 +194,7 @@ period covered in the dataset
 
 #### Defined in
 
-main.ts:56075
+main.ts:56108
 
 ***
 
@@ -212,7 +212,7 @@ left, right
 
 #### Defined in
 
-main.ts:56042
+main.ts:56075
 
 ***
 
@@ -229,7 +229,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:56038
+main.ts:56071
 
 ***
 
@@ -247,7 +247,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:56035
+main.ts:56068
 
 ***
 
@@ -263,7 +263,7 @@ count of articles that refer to the dataset
 
 #### Defined in
 
-main.ts:56053
+main.ts:56086
 
 ***
 
@@ -279,7 +279,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:56048
+main.ts:56081
 
 ***
 
@@ -295,7 +295,7 @@ type of element
 
 #### Defined in
 
-main.ts:56031
+main.ts:56064
 
 ***
 
@@ -314,7 +314,7 @@ example:
 
 #### Defined in
 
-main.ts:56070
+main.ts:56103
 
 ***
 
@@ -330,7 +330,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:56044
+main.ts:56077
 
 ## Methods
 
@@ -348,7 +348,7 @@ main.ts:56044
 
 #### Defined in
 
-main.ts:56090
+main.ts:56123
 
 ***
 
@@ -366,7 +366,7 @@ main.ts:56090
 
 #### Defined in
 
-main.ts:56140
+main.ts:56173
 
 ***
 
@@ -384,4 +384,4 @@ main.ts:56140
 
 #### Defined in
 
-main.ts:56133
+main.ts:56166

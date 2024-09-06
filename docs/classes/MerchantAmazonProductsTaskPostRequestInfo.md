@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:179895
+main.ts:179928
 
 ## Properties
 
@@ -57,7 +57,7 @@ specify one of the following amazon departments for extracting product listings:
 
 #### Defined in
 
-main.ts:179891
+main.ts:179924
 
 ***
 
@@ -84,7 +84,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:152876
+main.ts:152909
 
 ***
 
@@ -109,7 +109,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:152809
+main.ts:152842
 
 ***
 
@@ -134,7 +134,7 @@ en
 
 #### Defined in
 
-main.ts:152860
+main.ts:152893
 
 ***
 
@@ -159,7 +159,7 @@ English
 
 #### Defined in
 
-main.ts:152853
+main.ts:152886
 
 ***
 
@@ -184,7 +184,7 @@ example:
 
 #### Defined in
 
-main.ts:152837
+main.ts:152870
 
 ***
 
@@ -211,7 +211,7 @@ example:
 
 #### Defined in
 
-main.ts:152846
+main.ts:152879
 
 ***
 
@@ -236,7 +236,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:152830
+main.ts:152863
 
 ***
 
@@ -261,7 +261,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:152883
+main.ts:152916
 
 ***
 
@@ -289,7 +289,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:152945
+main.ts:152978
 
 ***
 
@@ -313,7 +313,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:152935
+main.ts:152968
 
 ***
 
@@ -341,7 +341,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:152929
+main.ts:152962
 
 ***
 
@@ -365,7 +365,7 @@ example:
 
 #### Defined in
 
-main.ts:152906
+main.ts:152939
 
 ***
 
@@ -389,7 +389,7 @@ example:
 
 #### Defined in
 
-main.ts:152900
+main.ts:152933
 
 ***
 
@@ -415,7 +415,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:152823
+main.ts:152856
 
 ***
 
@@ -440,7 +440,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:152867
+main.ts:152900
 
 ***
 
@@ -469,7 +469,7 @@ example:
 
 #### Defined in
 
-main.ts:152894
+main.ts:152927
 
 ***
 
@@ -494,7 +494,7 @@ sort_by:"review_score"
 
 #### Defined in
 
-main.ts:152913
+main.ts:152946
 
 ***
 
@@ -518,7 +518,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:152919
+main.ts:152952
 
 ***
 
@@ -542,7 +542,7 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
-main.ts:152815
+main.ts:152848
 
 ## Methods
 
@@ -564,7 +564,7 @@ main.ts:152815
 
 #### Defined in
 
-main.ts:179899
+main.ts:179932
 
 ***
 
@@ -586,7 +586,7 @@ main.ts:179899
 
 #### Defined in
 
-main.ts:179917
+main.ts:179950
 
 ***
 
@@ -608,4 +608,4 @@ main.ts:179917
 
 #### Defined in
 
-main.ts:179910
+main.ts:179943

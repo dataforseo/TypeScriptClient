@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:182001
+main.ts:182034
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:182001
 
 #### Defined in
 
-main.ts:23354
+main.ts:23359
 
 ***
 
@@ -72,7 +72,7 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-main.ts:23352
+main.ts:23357
 
 ***
 
@@ -88,7 +88,7 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:181997
+main.ts:182030
 
 ***
 
@@ -108,7 +108,7 @@ type of element
 
 #### Defined in
 
-main.ts:23350
+main.ts:23355
 
 ## Methods
 
@@ -130,7 +130,7 @@ main.ts:23350
 
 #### Defined in
 
-main.ts:182006
+main.ts:182039
 
 ***
 
@@ -152,7 +152,7 @@ main.ts:182006
 
 #### Defined in
 
-main.ts:182024
+main.ts:182057
 
 ***
 
@@ -174,4 +174,4 @@ main.ts:182024
 
 #### Defined in
 
-main.ts:182017
+main.ts:182050

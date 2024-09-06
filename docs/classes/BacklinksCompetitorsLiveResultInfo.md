@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:145812
+main.ts:145845
 
 ## Properties
 
@@ -46,7 +46,7 @@ items array
 
 #### Defined in
 
-main.ts:145808
+main.ts:145841
 
 ***
 
@@ -62,7 +62,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:145806
+main.ts:145839
 
 ***
 
@@ -78,7 +78,7 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:145804
+main.ts:145837
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:145804
 
 #### Defined in
 
-main.ts:145821
+main.ts:145854
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:145821
 
 #### Defined in
 
-main.ts:145844
+main.ts:145877
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:145844
 
 #### Defined in
 
-main.ts:145837
+main.ts:145870

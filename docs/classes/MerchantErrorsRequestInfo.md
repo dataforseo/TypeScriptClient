@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:172700
+main.ts:172733
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:172689
+main.ts:172722
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:172696
+main.ts:172729
 
 ***
 
@@ -92,7 +92,7 @@ example: sellers/ad_url, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:172682
+main.ts:172715
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:172671
+main.ts:172704
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:172676
+main.ts:172709
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:172676
 
 #### Defined in
 
-main.ts:172709
+main.ts:172742
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:172709
 
 #### Defined in
 
-main.ts:172730
+main.ts:172763
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:172730
 
 #### Defined in
 
-main.ts:172723
+main.ts:172756

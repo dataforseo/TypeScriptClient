@@ -20,7 +20,7 @@ contains keyword ideas and related data
 
 #### Defined in
 
-main.ts:83718
+main.ts:83751
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:83710
+main.ts:83743
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:83706
+main.ts:83739
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:83704
+main.ts:83737
 
 ***
 
@@ -68,7 +68,7 @@ current offset value
 
 #### Defined in
 
-main.ts:83712
+main.ts:83745
 
 ***
 
@@ -82,7 +82,7 @@ note: offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:83716
+main.ts:83749
 
 ***
 
@@ -94,7 +94,7 @@ search engine type
 
 #### Defined in
 
-main.ts:83700
+main.ts:83733
 
 ***
 
@@ -106,7 +106,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:83702
+main.ts:83735
 
 ***
 
@@ -118,4 +118,4 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:83708
+main.ts:83741

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:130145
+main.ts:130178
 
 ## Properties
 
@@ -47,7 +47,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:130136
+main.ts:130169
 
 ***
 
@@ -69,7 +69,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:130125
+main.ts:130158
 
 ***
 
@@ -87,7 +87,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:130129
+main.ts:130162
 
 ***
 
@@ -104,7 +104,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130117
+main.ts:130150
 
 ***
 
@@ -120,7 +120,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:130106
+main.ts:130139
 
 ***
 
@@ -137,7 +137,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:130112
+main.ts:130145
 
 ***
 
@@ -154,7 +154,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:130109
+main.ts:130142
 
 ***
 
@@ -173,7 +173,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:130141
+main.ts:130174
 
 ***
 
@@ -189,7 +189,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:130114
+main.ts:130147
 
 ***
 
@@ -207,7 +207,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:130133
+main.ts:130166
 
 ## Methods
 
@@ -225,7 +225,7 @@ main.ts:130133
 
 #### Defined in
 
-main.ts:130154
+main.ts:130187
 
 ***
 
@@ -243,7 +243,7 @@ main.ts:130154
 
 #### Defined in
 
-main.ts:130188
+main.ts:130221
 
 ***
 
@@ -261,4 +261,4 @@ main.ts:130188
 
 #### Defined in
 
-main.ts:130181
+main.ts:130214

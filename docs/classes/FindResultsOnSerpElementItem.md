@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:33492
+main.ts:33730
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`ShortVideosElement`](ShortVideosElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33484
+main.ts:33722
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33488
+main.ts:33726
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:33497
+main.ts:33735
 
 ***
 
@@ -236,7 +235,7 @@ main.ts:33497
 
 #### Defined in
 
-main.ts:33520
+main.ts:33758
 
 ***
 
@@ -258,4 +257,4 @@ main.ts:33520
 
 #### Defined in
 
-main.ts:33513
+main.ts:33751

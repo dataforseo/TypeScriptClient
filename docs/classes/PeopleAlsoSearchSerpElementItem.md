@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30202
+main.ts:30472
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: `string`[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:30194
+main.ts:30464
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30198
+main.ts:30468
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30191
+main.ts:30462
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:30207
+main.ts:30477
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:30207
 
 #### Defined in
 
-main.ts:30231
+main.ts:30501
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:30231
 
 #### Defined in
 
-main.ts:30224
+main.ts:30494

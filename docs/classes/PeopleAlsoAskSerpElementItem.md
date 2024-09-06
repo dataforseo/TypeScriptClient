@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30132
+main.ts:30404
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`PeopleAlsoAskElement`](PeopleAlsoAskElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:30124
+main.ts:30396
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30128
+main.ts:30400
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:30137
+main.ts:30409
 
 ***
 
@@ -236,7 +235,7 @@ main.ts:30137
 
 #### Defined in
 
-main.ts:30160
+main.ts:30432
 
 ***
 
@@ -258,4 +257,4 @@ main.ts:30160
 
 #### Defined in
 
-main.ts:30153
+main.ts:30425

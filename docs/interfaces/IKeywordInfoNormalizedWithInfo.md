@@ -21,7 +21,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 #### Defined in
 
-main.ts:82847
+main.ts:82880
 
 ***
 
@@ -34,7 +34,7 @@ array of objects with clickstream search volume rates in a certain month of a ye
 
 #### Defined in
 
-main.ts:82852
+main.ts:82885
 
 ***
 
@@ -46,4 +46,4 @@ monthly average clickstream search volume rate
 
 #### Defined in
 
-main.ts:82849
+main.ts:82882

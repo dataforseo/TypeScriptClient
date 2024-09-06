@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:148296
+main.ts:148329
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:148281
+main.ts:148314
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:148286
+main.ts:148319
 
 ***
 
@@ -84,7 +84,7 @@ group_range from a POST array
 
 #### Defined in
 
-main.ts:148288
+main.ts:148321
 
 ***
 
@@ -100,7 +100,7 @@ contains relevant summary data
 
 #### Defined in
 
-main.ts:148292
+main.ts:148325
 
 ***
 
@@ -116,7 +116,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:148290
+main.ts:148323
 
 ***
 
@@ -132,7 +132,7 @@ target from a POST array
 
 #### Defined in
 
-main.ts:148276
+main.ts:148309
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:148276
 
 #### Defined in
 
-main.ts:148305
+main.ts:148338
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:148305
 
 #### Defined in
 
-main.ts:148331
+main.ts:148364
 
 ***
 
@@ -186,4 +186,4 @@ main.ts:148331
 
 #### Defined in
 
-main.ts:148324
+main.ts:148357

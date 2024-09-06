@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:28725
+main.ts:28735
 
 ## Properties
 
@@ -70,7 +70,7 @@ kc:/local:place qa
 
 #### Defined in
 
-main.ts:28711
+main.ts:28720
 
 ***
 
@@ -88,7 +88,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28717
+main.ts:28727
 
 ***
 
@@ -171,7 +171,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28721
+main.ts:28731
 
 ***
 
@@ -179,7 +179,8 @@ main.ts:28721
 
 > `optional` **text**: `string`
 
-content within the item
+reference text
+text snippet from the page that was used to generate the ai_overview_element
 
 #### Implementation of
 
@@ -187,7 +188,7 @@ content within the item
 
 #### Defined in
 
-main.ts:28713
+main.ts:28723
 
 ***
 
@@ -203,7 +204,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28707
+main.ts:28716
 
 ***
 
@@ -265,7 +266,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28730
+main.ts:28740
 
 ***
 
@@ -287,7 +288,7 @@ main.ts:28730
 
 #### Defined in
 
-main.ts:28756
+main.ts:28766
 
 ***
 
@@ -309,4 +310,4 @@ main.ts:28756
 
 #### Defined in
 
-main.ts:28749
+main.ts:28759

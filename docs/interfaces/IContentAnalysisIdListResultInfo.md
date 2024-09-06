@@ -20,7 +20,7 @@ cost of the task, USD
 
 #### Defined in
 
-main.ts:164895
+main.ts:164928
 
 ***
 
@@ -35,7 +35,7 @@ example:
 
 #### Defined in
 
-main.ts:164890
+main.ts:164923
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:164885
+main.ts:164918
 
 ***
 
@@ -62,7 +62,7 @@ id of the task
 
 #### Defined in
 
-main.ts:164877
+main.ts:164910
 
 ***
 
@@ -78,7 +78,7 @@ contains parameters you specified in the POST request
 
 #### Defined in
 
-main.ts:164897
+main.ts:164930
 
 ***
 
@@ -91,7 +91,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:164893
+main.ts:164926
 
 ***
 
@@ -104,4 +104,4 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:164880
+main.ts:164913

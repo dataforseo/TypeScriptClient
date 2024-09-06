@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:35943
+main.ts:36160
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:35938
+main.ts:36155
 
 ***
 
@@ -44,7 +44,7 @@ number of posts from the discussion on the related source
 
 #### Defined in
 
-main.ts:35950
+main.ts:36167
 
 ***
 
@@ -57,7 +57,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:35941
+main.ts:36158
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:35948
+main.ts:36165
 
 ***
 
@@ -84,7 +84,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35934
+main.ts:36151
 
 ***
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:35932
+main.ts:36149
 
 ***
 
@@ -108,4 +108,4 @@ URL
 
 #### Defined in
 
-main.ts:35936
+main.ts:36153

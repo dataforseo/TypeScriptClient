@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:75937
+main.ts:75970
 
 ## Properties
 
@@ -46,7 +46,7 @@ technology categories in this group
 
 #### Defined in
 
-main.ts:75933
+main.ts:75966
 
 ***
 
@@ -64,7 +64,7 @@ marketing, sales
 
 #### Defined in
 
-main.ts:75929
+main.ts:75962
 
 ***
 
@@ -80,7 +80,7 @@ title of the technology group
 
 #### Defined in
 
-main.ts:75931
+main.ts:75964
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:75931
 
 #### Defined in
 
-main.ts:75946
+main.ts:75979
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:75946
 
 #### Defined in
 
-main.ts:75969
+main.ts:76002
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:75969
 
 #### Defined in
 
-main.ts:75962
+main.ts:75995

@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:98183
+main.ts:98216
 
 ***
 
@@ -36,7 +36,7 @@ breadcrumb of the Ad element in SERP
 
 #### Defined in
 
-main.ts:98140
+main.ts:98173
 
 ***
 
@@ -51,7 +51,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:98179
+main.ts:98212
 
 ***
 
@@ -63,7 +63,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:98138
+main.ts:98171
 
 ***
 
@@ -76,7 +76,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:98149
+main.ts:98182
 
 ***
 
@@ -88,7 +88,7 @@ website domain
 
 #### Defined in
 
-main.ts:98136
+main.ts:98169
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:98170
+main.ts:98203
 
 ***
 
@@ -118,7 +118,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:98160
+main.ts:98193
 
 ***
 
@@ -134,7 +134,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:98146
+main.ts:98179
 
 ***
 
@@ -146,7 +146,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:98144
+main.ts:98177
 
 ***
 
@@ -161,7 +161,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:98165
+main.ts:98198
 
 ***
 
@@ -173,7 +173,7 @@ link of the element
 
 #### Defined in
 
-main.ts:98151
+main.ts:98184
 
 ***
 
@@ -185,7 +185,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:98153
+main.ts:98186
 
 ***
 
@@ -203,7 +203,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -220,7 +220,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -234,7 +234,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Defined in
 
-main.ts:98174
+main.ts:98207
 
 ***
 
@@ -251,7 +251,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -263,7 +263,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:98185
+main.ts:98218
 
 ***
 
@@ -275,7 +275,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:98155
+main.ts:98188
 
 ***
 
@@ -287,7 +287,7 @@ search engine type
 
 #### Defined in
 
-main.ts:98181
+main.ts:98214
 
 ***
 
@@ -299,7 +299,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:98134
+main.ts:98167
 
 ***
 
@@ -315,7 +315,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -327,7 +327,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:98142
+main.ts:98175
 
 ***
 
@@ -343,4 +343,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

@@ -26,7 +26,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:118533
+main.ts:118566
 
 ***
 
@@ -44,7 +44,7 @@ example:
 
 #### Defined in
 
-main.ts:118541
+main.ts:118574
 
 ***
 
@@ -60,7 +60,7 @@ note that the API may return no data for such keywords due to Google Ads restric
 
 #### Defined in
 
-main.ts:118547
+main.ts:118580
 
 ***
 
@@ -76,7 +76,7 @@ en
 
 #### Defined in
 
-main.ts:118520
+main.ts:118553
 
 ***
 
@@ -92,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:118514
+main.ts:118547
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:118499
+main.ts:118532
 
 ***
 
@@ -129,7 +129,7 @@ example:
 
 #### Defined in
 
-main.ts:118508
+main.ts:118541
 
 ***
 
@@ -147,7 +147,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:118491
+main.ts:118524
 
 ***
 
@@ -167,7 +167,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:118572
+main.ts:118605
 
 ***
 
@@ -187,7 +187,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:118562
+main.ts:118595
 
 ***
 
@@ -202,7 +202,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:118525
+main.ts:118558
 
 ***
 
@@ -217,7 +217,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:118552
+main.ts:118585
 
 ***
 
@@ -233,7 +233,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:118578
+main.ts:118611
 
 ***
 
@@ -248,7 +248,7 @@ note: to obtain keywords for the target website, use the target_type parameter
 
 #### Defined in
 
-main.ts:118476
+main.ts:118509
 
 ***
 
@@ -265,4 +265,4 @@ if set to page, keywords will be provided for the specified webpage
 
 #### Defined in
 
-main.ts:118483
+main.ts:118516

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:206122
+main.ts:206155
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about the rating enclosed in the review on a third-party site
 
 #### Defined in
 
-main.ts:206118
+main.ts:206151
 
 ***
 
@@ -64,7 +64,7 @@ text of the review
 
 #### Defined in
 
-main.ts:206115
+main.ts:206148
 
 ***
 
@@ -81,7 +81,7 @@ contains a name of the third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:206109
+main.ts:206142
 
 ***
 
@@ -98,7 +98,7 @@ URL to the a third-party site where review initially appeared
 
 #### Defined in
 
-main.ts:206112
+main.ts:206145
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:206112
 
 #### Defined in
 
-main.ts:206131
+main.ts:206164
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:206131
 
 #### Defined in
 
-main.ts:206151
+main.ts:206184
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:206151
 
 #### Defined in
 
-main.ts:206144
+main.ts:206177

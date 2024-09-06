@@ -21,7 +21,7 @@ for example: Africa, Global
 
 #### Defined in
 
-main.ts:54403
+main.ts:54436
 
 ***
 
@@ -33,7 +33,7 @@ the list of authors of the dataset
 
 #### Defined in
 
-main.ts:54393
+main.ts:54426
 
 ***
 
@@ -45,7 +45,7 @@ description of the dataset
 
 #### Defined in
 
-main.ts:54407
+main.ts:54440
 
 ***
 
@@ -57,7 +57,7 @@ ID of the dataset
 
 #### Defined in
 
-main.ts:54365
+main.ts:54398
 
 ***
 
@@ -69,7 +69,7 @@ the list of institutions that provided the dataset
 
 #### Defined in
 
-main.ts:54389
+main.ts:54422
 
 ***
 
@@ -81,7 +81,7 @@ the list of file formats of the dataset
 
 #### Defined in
 
-main.ts:54391
+main.ts:54424
 
 ***
 
@@ -94,7 +94,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:54370
+main.ts:54403
 
 ***
 
@@ -106,7 +106,7 @@ the list of licenses issued to the dataset
 
 #### Defined in
 
-main.ts:54395
+main.ts:54428
 
 ***
 
@@ -120,7 +120,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:54387
+main.ts:54420
 
 ***
 
@@ -132,7 +132,7 @@ period covered in the dataset
 
 #### Defined in
 
-main.ts:54405
+main.ts:54438
 
 ***
 
@@ -146,7 +146,7 @@ left, right
 
 #### Defined in
 
-main.ts:54361
+main.ts:54394
 
 ***
 
@@ -159,7 +159,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:54357
+main.ts:54390
 
 ***
 
@@ -173,7 +173,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:54354
+main.ts:54387
 
 ***
 
@@ -186,7 +186,7 @@ link to the published article that is related to the dataset
 
 #### Defined in
 
-main.ts:54383
+main.ts:54416
 
 ***
 
@@ -200,7 +200,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 #### Defined in
 
-main.ts:54376
+main.ts:54409
 
 ***
 
@@ -212,7 +212,7 @@ count of articles that refer to the dataset
 
 #### Defined in
 
-main.ts:54372
+main.ts:54405
 
 ***
 
@@ -224,7 +224,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:54367
+main.ts:54400
 
 ***
 
@@ -236,7 +236,7 @@ type of element
 
 #### Defined in
 
-main.ts:54350
+main.ts:54383
 
 ***
 
@@ -250,7 +250,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 #### Defined in
 
-main.ts:54380
+main.ts:54413
 
 ***
 
@@ -265,7 +265,7 @@ example:
 
 #### Defined in
 
-main.ts:54400
+main.ts:54433
 
 ***
 
@@ -277,4 +277,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:54363
+main.ts:54396

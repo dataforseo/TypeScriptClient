@@ -24,7 +24,7 @@ L2cvMTFqbl85ZHN6MQ==
 
 #### Defined in
 
-main.ts:56382
+main.ts:56415
 
 ***
 
@@ -38,7 +38,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:56398
+main.ts:56431
 
 ***
 
@@ -54,7 +54,7 @@ en
 
 #### Defined in
 
-main.ts:56394
+main.ts:56427
 
 ***
 
@@ -70,7 +70,7 @@ English
 
 #### Defined in
 
-main.ts:56388
+main.ts:56421
 
 ***
 
@@ -85,7 +85,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:56403
+main.ts:56436
 
 ***
 
@@ -101,4 +101,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:56409
+main.ts:56442

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:156246
+main.ts:156279
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:156246
 
 #### Defined in
 
-main.ts:21436
+main.ts:21441
 
 ***
 
@@ -71,7 +71,7 @@ any, none, image, sitemap, robots, script, stylesheet, redirect, html, text, oth
 
 #### Defined in
 
-main.ts:156230
+main.ts:156263
 
 ***
 
@@ -91,7 +91,7 @@ instructions for caching
 
 #### Defined in
 
-main.ts:21422
+main.ts:21427
 
 ***
 
@@ -116,7 +116,7 @@ on-page check-ups related to the page
 
 #### Defined in
 
-main.ts:21425
+main.ts:21430
 
 ***
 
@@ -136,7 +136,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:21427
+main.ts:21432
 
 ***
 
@@ -152,7 +152,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:156234
+main.ts:156267
 
 ***
 
@@ -173,7 +173,7 @@ indicates the size of the encoded page measured in bytes
 
 #### Defined in
 
-main.ts:21412
+main.ts:21417
 
 ***
 
@@ -190,7 +190,7 @@ the amount of time the browser needs to complete downloading a resource
 
 #### Defined in
 
-main.ts:156240
+main.ts:156273
 
 ***
 
@@ -207,7 +207,7 @@ the amount of time the browser needs to start downloading a resource
 
 #### Defined in
 
-main.ts:156237
+main.ts:156270
 
 ***
 
@@ -230,7 +230,7 @@ example:
 
 #### Defined in
 
-main.ts:21420
+main.ts:21425
 
 ***
 
@@ -246,7 +246,7 @@ resource fething time range
 
 #### Defined in
 
-main.ts:156225
+main.ts:156258
 
 ***
 
@@ -262,7 +262,7 @@ resource initiator
 
 #### Defined in
 
-main.ts:156232
+main.ts:156265
 
 ***
 
@@ -278,7 +278,7 @@ indicates whether the resource blocks rendering
 
 #### Defined in
 
-main.ts:156242
+main.ts:156275
 
 ***
 
@@ -299,7 +299,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:21434
+main.ts:21439
 
 ***
 
@@ -320,7 +320,7 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-main.ts:21402
+main.ts:21407
 
 ***
 
@@ -340,7 +340,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:21429
+main.ts:21434
 
 ***
 
@@ -359,7 +359,7 @@ to obtain resource’s meta from a particular url, specify that URL when setting
 
 #### Defined in
 
-main.ts:156223
+main.ts:156256
 
 ***
 
@@ -379,7 +379,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:21406
+main.ts:21411
 
 ***
 
@@ -399,7 +399,7 @@ type of the returned resource
 
 #### Defined in
 
-main.ts:21397
+main.ts:21402
 
 ***
 
@@ -419,7 +419,7 @@ server version
 
 #### Defined in
 
-main.ts:21431
+main.ts:21436
 
 ***
 
@@ -440,7 +440,7 @@ indicates the size of a given page measured in bytes
 
 #### Defined in
 
-main.ts:21409
+main.ts:21414
 
 ***
 
@@ -460,7 +460,7 @@ status code of the page
 
 #### Defined in
 
-main.ts:21399
+main.ts:21404
 
 ***
 
@@ -481,7 +481,7 @@ indicates the compressed size of a given page
 
 #### Defined in
 
-main.ts:21415
+main.ts:21420
 
 ***
 
@@ -501,7 +501,7 @@ page URL
 
 #### Defined in
 
-main.ts:21404
+main.ts:21409
 
 ## Methods
 
@@ -523,7 +523,7 @@ main.ts:21404
 
 #### Defined in
 
-main.ts:156251
+main.ts:156284
 
 ***
 
@@ -545,7 +545,7 @@ main.ts:156251
 
 #### Defined in
 
-main.ts:156276
+main.ts:156309
 
 ***
 
@@ -567,4 +567,4 @@ main.ts:156276
 
 #### Defined in
 
-main.ts:156269
+main.ts:156302

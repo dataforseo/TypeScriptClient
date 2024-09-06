@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:89412
+main.ts:89445
 
 ## Properties
 
@@ -46,7 +46,7 @@ domain found for the specified category
 
 #### Defined in
 
-main.ts:89401
+main.ts:89434
 
 ***
 
@@ -62,7 +62,7 @@ primary domain
 
 #### Defined in
 
-main.ts:89403
+main.ts:89436
 
 ***
 
@@ -83,7 +83,7 @@ calculated by subtracting domain metrics as of the greater date from domain metr
 
 #### Defined in
 
-main.ts:89408
+main.ts:89441
 
 ***
 
@@ -103,7 +103,7 @@ historical ranking and traffic data of the domain
 
 #### Defined in
 
-main.ts:89405
+main.ts:89438
 
 ***
 
@@ -119,7 +119,7 @@ current total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:89393
+main.ts:89426
 
 ***
 
@@ -135,7 +135,7 @@ current organic ETV of the domain
 
 #### Defined in
 
-main.ts:89391
+main.ts:89424
 
 ***
 
@@ -152,7 +152,7 @@ indicates how many ranked elements of the domain were previously presented in SE
 
 #### Defined in
 
-main.ts:89396
+main.ts:89429
 
 ***
 
@@ -169,7 +169,7 @@ indicates how many new ranked elements were found for the domain
 
 #### Defined in
 
-main.ts:89399
+main.ts:89432
 
 ***
 
@@ -185,7 +185,7 @@ search engine type
 
 #### Defined in
 
-main.ts:89387
+main.ts:89420
 
 ***
 
@@ -201,7 +201,7 @@ categories for which domains are collected
 
 #### Defined in
 
-main.ts:89389
+main.ts:89422
 
 ## Methods
 
@@ -219,7 +219,7 @@ main.ts:89389
 
 #### Defined in
 
-main.ts:89421
+main.ts:89454
 
 ***
 
@@ -237,7 +237,7 @@ main.ts:89421
 
 #### Defined in
 
-main.ts:89463
+main.ts:89496
 
 ***
 
@@ -255,4 +255,4 @@ main.ts:89463
 
 #### Defined in
 
-main.ts:89456
+main.ts:89489

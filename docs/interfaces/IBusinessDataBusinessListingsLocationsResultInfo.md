@@ -20,7 +20,7 @@ number of businesses in this location in our database
 
 #### Defined in
 
-main.ts:197674
+main.ts:197707
 
 ***
 
@@ -32,7 +32,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:197672
+main.ts:197705
 
 ***
 
@@ -44,4 +44,4 @@ full name of the location
 
 #### Defined in
 
-main.ts:197670
+main.ts:197703

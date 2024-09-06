@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:146638
+main.ts:146671
 
 ## Properties
 
@@ -46,7 +46,7 @@ total number of intersections
 
 #### Defined in
 
-main.ts:146634
+main.ts:146667
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:146634
 
 #### Defined in
 
-main.ts:146647
+main.ts:146680
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:146647
 
 #### Defined in
 
-main.ts:146664
+main.ts:146697
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:146664
 
 #### Defined in
 
-main.ts:146657
+main.ts:146690

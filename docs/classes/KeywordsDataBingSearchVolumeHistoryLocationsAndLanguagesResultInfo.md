@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:133862
+main.ts:133895
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of available locations for a certain language
 
 #### Defined in
 
-main.ts:133858
+main.ts:133891
 
 ***
 
@@ -62,7 +62,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:133856
+main.ts:133889
 
 ***
 
@@ -78,7 +78,7 @@ language name
 
 #### Defined in
 
-main.ts:133854
+main.ts:133887
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:133854
 
 #### Defined in
 
-main.ts:133871
+main.ts:133904
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:133871
 
 #### Defined in
 
-main.ts:133894
+main.ts:133927
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:133894
 
 #### Defined in
 
-main.ts:133887
+main.ts:133920

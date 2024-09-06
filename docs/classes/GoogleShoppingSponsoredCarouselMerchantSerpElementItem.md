@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:174922
+main.ts:174955
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:174922
 
 #### Defined in
 
-main.ts:21039
+main.ts:21044
 
 ***
 
@@ -68,7 +68,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:174918
+main.ts:174951
 
 ***
 
@@ -90,7 +90,7 @@ left, right
 
 #### Defined in
 
-main.ts:21037
+main.ts:21042
 
 ***
 
@@ -111,7 +111,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21033
+main.ts:21038
 
 ***
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21030
+main.ts:21035
 
 ***
 
@@ -148,7 +148,7 @@ product title
 
 #### Defined in
 
-main.ts:174916
+main.ts:174949
 
 ***
 
@@ -168,7 +168,7 @@ type of element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21032
 
 ***
 
@@ -184,7 +184,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174914
+main.ts:174947
 
 ## Methods
 
@@ -206,7 +206,7 @@ main.ts:174914
 
 #### Defined in
 
-main.ts:174927
+main.ts:174960
 
 ***
 
@@ -228,7 +228,7 @@ main.ts:174927
 
 #### Defined in
 
-main.ts:174951
+main.ts:174984
 
 ***
 
@@ -250,4 +250,4 @@ main.ts:174951
 
 #### Defined in
 
-main.ts:174944
+main.ts:174977

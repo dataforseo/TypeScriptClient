@@ -20,7 +20,7 @@ category code
 
 #### Defined in
 
-main.ts:81949
+main.ts:81982
 
 ***
 
@@ -41,7 +41,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:81962
+main.ts:81995
 
 ***
 
@@ -53,4 +53,4 @@ full name of the category
 
 #### Defined in
 
-main.ts:81951
+main.ts:81984

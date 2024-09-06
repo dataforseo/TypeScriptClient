@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:94935
+main.ts:94968
 
 ## Properties
 
@@ -50,7 +50,7 @@ rankings and traffic metrics for the relevant page
 
 #### Defined in
 
-main.ts:94931
+main.ts:94964
 
 ***
 
@@ -66,7 +66,7 @@ absolute URL of the relevant page
 
 #### Defined in
 
-main.ts:94929
+main.ts:94962
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94927
+main.ts:94960
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:94927
 
 #### Defined in
 
-main.ts:94944
+main.ts:94977
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:94944
 
 #### Defined in
 
-main.ts:94969
+main.ts:95002
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:94969
 
 #### Defined in
 
-main.ts:94962
+main.ts:94995

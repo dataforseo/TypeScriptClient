@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:168340
+main.ts:168373
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:168301
+main.ts:168334
 
 ***
 
@@ -69,7 +69,7 @@ possible values: day, week, month
 
 #### Defined in
 
-main.ts:168313
+main.ts:168346
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:168308
+main.ts:168341
 
 ***
 
@@ -121,7 +121,7 @@ for more information about filters, please refer to Content Analysis API – Fil
 
 #### Defined in
 
-main.ts:168330
+main.ts:168363
 
 ***
 
@@ -146,7 +146,7 @@ maximum value: 20
 
 #### Defined in
 
-main.ts:168295
+main.ts:168328
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Defined in
 
-main.ts:168259
+main.ts:168292
 
 ***
 
@@ -199,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:168271
+main.ts:168304
 
 ***
 
@@ -219,7 +219,7 @@ possible values:
 
 #### Defined in
 
-main.ts:168277
+main.ts:168310
 
 ***
 
@@ -240,7 +240,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:168284
+main.ts:168317
 
 ***
 
@@ -260,7 +260,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:168336
+main.ts:168369
 
 ## Methods
 
@@ -278,7 +278,7 @@ main.ts:168336
 
 #### Defined in
 
-main.ts:168349
+main.ts:168382
 
 ***
 
@@ -296,7 +296,7 @@ main.ts:168349
 
 #### Defined in
 
-main.ts:168389
+main.ts:168422
 
 ***
 
@@ -314,4 +314,4 @@ main.ts:168389
 
 #### Defined in
 
-main.ts:168382
+main.ts:168415

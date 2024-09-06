@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:97681
+main.ts:97714
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97681
 
 #### Defined in
 
-main.ts:20742
+main.ts:20747
 
 ***
 
@@ -70,7 +70,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:97672
+main.ts:97705
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97677
+main.ts:97710
 
 ***
 
@@ -103,7 +103,7 @@ link of the element
 
 #### Defined in
 
-main.ts:97674
+main.ts:97707
 
 ***
 
@@ -125,7 +125,7 @@ left, right
 
 #### Defined in
 
-main.ts:20738
+main.ts:20743
 
 ***
 
@@ -146,7 +146,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20734
+main.ts:20739
 
 ***
 
@@ -167,7 +167,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20731
+main.ts:20736
 
 ***
 
@@ -183,7 +183,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:97668
+main.ts:97701
 
 ***
 
@@ -203,7 +203,7 @@ type of element
 
 #### Defined in
 
-main.ts:20728
+main.ts:20733
 
 ***
 
@@ -223,7 +223,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20740
+main.ts:20745
 
 ## Methods
 
@@ -245,7 +245,7 @@ main.ts:20740
 
 #### Defined in
 
-main.ts:97686
+main.ts:97719
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:97686
 
 #### Defined in
 
-main.ts:97711
+main.ts:97744
 
 ***
 
@@ -289,4 +289,4 @@ main.ts:97711
 
 #### Defined in
 
-main.ts:97704
+main.ts:97737

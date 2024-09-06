@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:75156
+main.ts:75189
 
 ***
 
@@ -35,7 +35,7 @@ error code
 
 #### Defined in
 
-main.ts:75160
+main.ts:75193
 
 ***
 
@@ -48,7 +48,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:75163
+main.ts:75196
 
 ***
 
@@ -60,7 +60,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:75158
+main.ts:75191
 
 ***
 
@@ -72,7 +72,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:75170
+main.ts:75203
 
 ***
 
@@ -84,7 +84,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:75168
+main.ts:75201
 
 ***
 
@@ -97,7 +97,7 @@ server response
 
 #### Defined in
 
-main.ts:75176
+main.ts:75209
 
 ***
 
@@ -110,7 +110,7 @@ for tasks set with a pingback/postback, this field will show the time it took yo
 
 #### Defined in
 
-main.ts:75173
+main.ts:75206
 
 ***
 
@@ -123,7 +123,7 @@ URL you used for making an API call or pingback/postback URL
 
 #### Defined in
 
-main.ts:75166
+main.ts:75199
 
 ***
 
@@ -135,4 +135,4 @@ id of the task
 
 #### Defined in
 
-main.ts:75151
+main.ts:75184

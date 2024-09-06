@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:82884
+main.ts:82917
 
 ## Properties
 
@@ -48,7 +48,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:82863
+main.ts:82896
 
 ***
 
@@ -65,7 +65,7 @@ indicates the language of the keyword as identified by our system
 
 #### Defined in
 
-main.ts:82877
+main.ts:82910
 
 ***
 
@@ -82,7 +82,7 @@ if true, the language set in the request does not match the language determined 
 
 #### Defined in
 
-main.ts:82880
+main.ts:82913
 
 ***
 
@@ -101,7 +101,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:82874
+main.ts:82907
 
 ***
 
@@ -117,7 +117,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82859
+main.ts:82892
 
 ***
 
@@ -137,7 +137,7 @@ if the value is null, our database does not contain any keywords the correspondi
 
 #### Defined in
 
-main.ts:82869
+main.ts:82902
 
 ## Methods
 
@@ -155,7 +155,7 @@ main.ts:82869
 
 #### Defined in
 
-main.ts:82893
+main.ts:82926
 
 ***
 
@@ -173,7 +173,7 @@ main.ts:82893
 
 #### Defined in
 
-main.ts:82915
+main.ts:82948
 
 ***
 
@@ -191,4 +191,4 @@ main.ts:82915
 
 #### Defined in
 
-main.ts:82908
+main.ts:82941

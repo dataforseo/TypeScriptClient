@@ -24,7 +24,7 @@ id of the app
 
 #### Defined in
 
-main.ts:114430
+main.ts:114463
 
 ***
 
@@ -36,7 +36,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:114434
+main.ts:114467
 
 ***
 
@@ -48,7 +48,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:114438
+main.ts:114471
 
 ***
 
@@ -66,7 +66,7 @@ left, right
 
 #### Defined in
 
-main.ts:22068
+main.ts:22073
 
 ***
 
@@ -78,7 +78,7 @@ price of the app
 
 #### Defined in
 
-main.ts:114440
+main.ts:114473
 
 ***
 
@@ -95,7 +95,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22064
+main.ts:22069
 
 ***
 
@@ -112,7 +112,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22061
+main.ts:22066
 
 ***
 
@@ -128,7 +128,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:22072
+main.ts:22077
 
 ***
 
@@ -140,7 +140,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:114436
+main.ts:114469
 
 ***
 
@@ -156,7 +156,7 @@ title of the app
 
 #### Defined in
 
-main.ts:22070
+main.ts:22075
 
 ***
 
@@ -172,7 +172,7 @@ type of element
 
 #### Defined in
 
-main.ts:22058
+main.ts:22063
 
 ***
 
@@ -184,4 +184,4 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:114432
+main.ts:114465

@@ -24,7 +24,7 @@ website domain
 
 #### Defined in
 
-main.ts:99230
+main.ts:99263
 
 ***
 
@@ -36,7 +36,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:99235
+main.ts:99268
 
 ***
 
@@ -54,7 +54,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -66,7 +66,7 @@ price of the shopping element
 
 #### Defined in
 
-main.ts:99226
+main.ts:99259
 
 ***
 
@@ -83,7 +83,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -100,7 +100,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -112,7 +112,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:99224
+main.ts:99257
 
 ***
 
@@ -125,7 +125,7 @@ indicates the source of information included in the shopping_element
 
 #### Defined in
 
-main.ts:99222
+main.ts:99255
 
 ***
 
@@ -138,7 +138,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:99233
+main.ts:99266
 
 ***
 
@@ -150,7 +150,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:99219
+main.ts:99252
 
 ***
 
@@ -166,7 +166,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -178,7 +178,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:99228
+main.ts:99261
 
 ***
 
@@ -194,4 +194,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

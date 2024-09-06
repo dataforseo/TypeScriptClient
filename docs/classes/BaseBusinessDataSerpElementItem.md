@@ -37,7 +37,7 @@
 
 #### Defined in
 
-main.ts:21310
+main.ts:21315
 
 ## Properties
 
@@ -47,7 +47,7 @@ main.ts:21310
 
 #### Defined in
 
-main.ts:21308
+main.ts:21313
 
 ***
 
@@ -63,7 +63,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21306
+main.ts:21311
 
 ***
 
@@ -80,7 +80,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21304
+main.ts:21309
 
 ***
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:21301
+main.ts:21306
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:21301
 
 #### Defined in
 
-main.ts:21320
+main.ts:21325
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:21320
 
 #### Defined in
 
-main.ts:21375
+main.ts:21380
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:21375
 
 #### Defined in
 
-main.ts:21328
+main.ts:21333

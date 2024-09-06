@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:137832
+main.ts:137865
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:137821
+main.ts:137854
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:137828
+main.ts:137861
 
 ***
 
@@ -92,7 +92,7 @@ example: backlinks/live
 
 #### Defined in
 
-main.ts:137814
+main.ts:137847
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:137803
+main.ts:137836
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:137808
+main.ts:137841
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:137808
 
 #### Defined in
 
-main.ts:137841
+main.ts:137874
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:137841
 
 #### Defined in
 
-main.ts:137862
+main.ts:137895
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:137862
 
 #### Defined in
 
-main.ts:137855
+main.ts:137888

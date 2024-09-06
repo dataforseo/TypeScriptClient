@@ -34,7 +34,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:158695
+main.ts:158728
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:158669
+main.ts:158702
 
 ***
 
@@ -65,7 +65,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:158674
+main.ts:158707
 
 ***
 
@@ -80,4 +80,4 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:158679
+main.ts:158712

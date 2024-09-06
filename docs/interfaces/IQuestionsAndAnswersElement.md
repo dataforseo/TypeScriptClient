@@ -20,7 +20,7 @@ answer included in the item
 
 #### Defined in
 
-main.ts:33625
+main.ts:33862
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:33630
+main.ts:33867
 
 ***
 
@@ -44,7 +44,7 @@ question included in the item
 
 #### Defined in
 
-main.ts:33623
+main.ts:33860
 
 ***
 
@@ -57,7 +57,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:33628
+main.ts:33865
 
 ***
 
@@ -69,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:33619
+main.ts:33856
 
 ***
 
@@ -81,7 +81,7 @@ URL
 
 #### Defined in
 
-main.ts:33621
+main.ts:33858
 
 ***
 
@@ -93,4 +93,4 @@ answer upvotes from the source
 
 #### Defined in
 
-main.ts:33632
+main.ts:33869

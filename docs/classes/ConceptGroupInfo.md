@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:118887
+main.ts:118920
 
 ## Properties
 
@@ -46,7 +46,7 @@ the concept group name
 
 #### Defined in
 
-main.ts:118881
+main.ts:118914
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:118883
+main.ts:118916
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:118883
 
 #### Defined in
 
-main.ts:118896
+main.ts:118929
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:118896
 
 #### Defined in
 
-main.ts:118914
+main.ts:118947
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:118914
 
 #### Defined in
 
-main.ts:118907
+main.ts:118940

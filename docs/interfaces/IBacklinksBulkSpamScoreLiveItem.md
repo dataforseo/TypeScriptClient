@@ -21,7 +21,7 @@ learn more about how the metric is calculated
 
 #### Defined in
 
-main.ts:149803
+main.ts:149836
 
 ***
 
@@ -33,7 +33,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:149800
+main.ts:149833
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Defined in
 
-main.ts:149798
+main.ts:149831

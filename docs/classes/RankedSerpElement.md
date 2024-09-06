@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:91597
+main.ts:91630
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:91567
+main.ts:91600
 
 ***
 
@@ -64,7 +64,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-main.ts:91583
+main.ts:91616
 
 ***
 
@@ -83,7 +83,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:91580
+main.ts:91613
 
 ***
 
@@ -102,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:91588
+main.ts:91621
 
 ***
 
@@ -121,7 +121,7 @@ example:
 
 #### Defined in
 
-main.ts:91593
+main.ts:91626
 
 ***
 
@@ -137,7 +137,7 @@ number of search results for the returned keyword
 
 #### Defined in
 
-main.ts:91575
+main.ts:91608
 
 ***
 
@@ -153,7 +153,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91561
+main.ts:91594
 
 ***
 
@@ -170,7 +170,7 @@ the list of supported SERP elements can be found below
 
 #### Defined in
 
-main.ts:91564
+main.ts:91597
 
 ***
 
@@ -190,7 +190,7 @@ note that the actual results will be returned only for organic, paid, featured_s
 
 #### Defined in
 
-main.ts:91573
+main.ts:91606
 
 ## Methods
 
@@ -208,7 +208,7 @@ main.ts:91573
 
 #### Defined in
 
-main.ts:91606
+main.ts:91639
 
 ***
 
@@ -226,7 +226,7 @@ main.ts:91606
 
 #### Defined in
 
-main.ts:91635
+main.ts:91668
 
 ***
 
@@ -244,4 +244,4 @@ main.ts:91635
 
 #### Defined in
 
-main.ts:91628
+main.ts:91661

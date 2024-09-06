@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:64527
+main.ts:64560
 
 ## Properties
 
@@ -46,7 +46,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:64515
+main.ts:64548
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:64494
+main.ts:64527
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:64499
+main.ts:64532
 
 ***
 
@@ -101,7 +101,7 @@ youtube_subtitles
 
 #### Defined in
 
-main.ts:64507
+main.ts:64540
 
 ***
 
@@ -117,7 +117,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:64523
+main.ts:64556
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:64521
+main.ts:64554
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:64491
+main.ts:64524
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:64489
+main.ts:64522
 
 ***
 
@@ -181,7 +181,7 @@ language code of original text
 
 #### Defined in
 
-main.ts:64513
+main.ts:64546
 
 ***
 
@@ -197,7 +197,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:64487
+main.ts:64520
 
 ***
 
@@ -214,7 +214,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:64502
+main.ts:64535
 
 ***
 
@@ -230,7 +230,7 @@ number of subtitles in the video
 
 #### Defined in
 
-main.ts:64517
+main.ts:64550
 
 ***
 
@@ -246,7 +246,7 @@ title of the video
 
 #### Defined in
 
-main.ts:64519
+main.ts:64552
 
 ***
 
@@ -262,7 +262,7 @@ language code of translated text
 
 #### Defined in
 
-main.ts:64511
+main.ts:64544
 
 ***
 
@@ -278,7 +278,7 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-main.ts:64509
+main.ts:64542
 
 ***
 
@@ -294,7 +294,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:64485
+main.ts:64518
 
 ## Methods
 
@@ -312,7 +312,7 @@ main.ts:64485
 
 #### Defined in
 
-main.ts:64536
+main.ts:64569
 
 ***
 
@@ -330,7 +330,7 @@ main.ts:64536
 
 #### Defined in
 
-main.ts:64576
+main.ts:64609
 
 ***
 
@@ -348,4 +348,4 @@ main.ts:64576
 
 #### Defined in
 
-main.ts:64569
+main.ts:64602

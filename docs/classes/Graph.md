@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:33236
+main.ts:33475
 
 ## Properties
 
@@ -38,7 +38,7 @@ main.ts:33236
 
 > `optional` **items**: [`GraphElement`](GraphElement.md)[]
 
-contains arrays of specific images
+contains arrays of elements available in the list
 
 #### Implementation of
 
@@ -46,7 +46,7 @@ contains arrays of specific images
 
 #### Defined in
 
-main.ts:33229
+main.ts:33468
 
 ***
 
@@ -63,7 +63,7 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-main.ts:33232
+main.ts:33471
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:33232
 
 #### Defined in
 
-main.ts:33245
+main.ts:33484
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:33245
 
 #### Defined in
 
-main.ts:33271
+main.ts:33510
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:33271
 
 #### Defined in
 
-main.ts:33264
+main.ts:33503

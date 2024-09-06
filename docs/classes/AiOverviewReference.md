@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:36395
+main.ts:29212
 
 ## Properties
 
@@ -38,7 +38,7 @@ main.ts:36395
 
 > `optional` **domain**: `string`
 
-domain in SERP
+website domain
 
 #### Implementation of
 
@@ -46,7 +46,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:36384
+main.ts:29202
 
 ***
 
@@ -54,8 +54,7 @@ main.ts:36384
 
 > `optional` **source**: `string`
 
-source of the element
-indicates the source of information included in the questions_and_answers_element
+reference source name or title
 
 #### Implementation of
 
@@ -63,7 +62,7 @@ indicates the source of information included in the questions_and_answers_elemen
 
 #### Defined in
 
-main.ts:36382
+main.ts:29200
 
 ***
 
@@ -71,8 +70,7 @@ main.ts:36382
 
 > `optional` **text**: `string`
 
-reference text
-text snippet from the page that was used to generate the ai_overview_element
+row content
 
 #### Implementation of
 
@@ -80,7 +78,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 #### Defined in
 
-main.ts:36391
+main.ts:29208
 
 ***
 
@@ -88,7 +86,7 @@ main.ts:36391
 
 > `optional` **title**: `string`
 
-title of a given shopping element
+title of a given link element
 
 #### Implementation of
 
@@ -96,7 +94,7 @@ title of a given shopping element
 
 #### Defined in
 
-main.ts:36388
+main.ts:29206
 
 ***
 
@@ -112,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:36379
+main.ts:29198
 
 ***
 
@@ -128,7 +126,7 @@ URL
 
 #### Defined in
 
-main.ts:36386
+main.ts:29204
 
 ## Methods
 
@@ -146,7 +144,7 @@ main.ts:36386
 
 #### Defined in
 
-main.ts:36404
+main.ts:29221
 
 ***
 
@@ -164,7 +162,7 @@ main.ts:36404
 
 #### Defined in
 
-main.ts:36426
+main.ts:29243
 
 ***
 
@@ -182,4 +180,4 @@ main.ts:36426
 
 #### Defined in
 
-main.ts:36419
+main.ts:29236

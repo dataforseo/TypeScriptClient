@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:41116
+main.ts:41149
 
 ## Properties
 
@@ -54,7 +54,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:41066
+main.ts:41099
 
 ***
 
@@ -73,7 +73,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:41049
+main.ts:41082
 
 ***
 
@@ -94,7 +94,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:40998
+main.ts:41031
 
 ***
 
@@ -114,7 +114,7 @@ example:en
 
 #### Defined in
 
-main.ts:41044
+main.ts:41077
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Defined in
 
-main.ts:41038
+main.ts:41071
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:41020
+main.ts:41053
 
 ***
 
@@ -181,7 +181,7 @@ example:
 
 #### Defined in
 
-main.ts:41031
+main.ts:41064
 
 ***
 
@@ -202,7 +202,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:41013
+main.ts:41046
 
 ***
 
@@ -221,7 +221,7 @@ possible values for mobile: 2, 2.5, 3, 3.5, 4, 4.5
 
 #### Defined in
 
-main.ts:41071
+main.ts:41104
 
 ***
 
@@ -242,7 +242,7 @@ default value: android
 
 #### Defined in
 
-main.ts:41056
+main.ts:41089
 
 ***
 
@@ -266,7 +266,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:41112
+main.ts:41145
 
 ***
 
@@ -286,7 +286,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:41102
+main.ts:41135
 
 ***
 
@@ -310,7 +310,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:41096
+main.ts:41129
 
 ***
 
@@ -332,7 +332,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:41006
+main.ts:41039
 
 ***
 
@@ -352,7 +352,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:41086
+main.ts:41119
 
 ***
 
@@ -375,7 +375,7 @@ example: "tuesday;18"
 
 #### Defined in
 
-main.ts:41080
+main.ts:41113
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:41080
 
 #### Defined in
 
-main.ts:41125
+main.ts:41158
 
 ***
 
@@ -411,7 +411,7 @@ main.ts:41125
 
 #### Defined in
 
-main.ts:41157
+main.ts:41190
 
 ***
 
@@ -429,4 +429,4 @@ main.ts:41157
 
 #### Defined in
 
-main.ts:41150
+main.ts:41183

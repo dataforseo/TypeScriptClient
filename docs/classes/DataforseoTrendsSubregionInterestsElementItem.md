@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:126395
+main.ts:126428
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:126395
 
 #### Defined in
 
-main.ts:21894
+main.ts:21899
 
 ***
 
@@ -68,7 +68,7 @@ subregional keyword popuarity data for each specified term
 
 #### Defined in
 
-main.ts:126388
+main.ts:126421
 
 ***
 
@@ -85,7 +85,7 @@ if you specified a single keyword, the value will be null
 
 #### Defined in
 
-main.ts:126391
+main.ts:126424
 
 ***
 
@@ -106,7 +106,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21892
+main.ts:21897
 
 ***
 
@@ -127,7 +127,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21889
+main.ts:21894
 
 ***
 
@@ -147,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:21886
+main.ts:21891
 
 ## Methods
 
@@ -169,7 +169,7 @@ main.ts:21886
 
 #### Defined in
 
-main.ts:126400
+main.ts:126433
 
 ***
 
@@ -191,7 +191,7 @@ main.ts:126400
 
 #### Defined in
 
-main.ts:126423
+main.ts:126456
 
 ***
 
@@ -213,4 +213,4 @@ main.ts:126423
 
 #### Defined in
 
-main.ts:126416
+main.ts:126449

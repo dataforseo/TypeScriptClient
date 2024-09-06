@@ -32,7 +32,7 @@
 
 #### Defined in
 
-main.ts:47550
+main.ts:47583
 
 ## Properties
 
@@ -42,7 +42,7 @@ main.ts:47550
 
 #### Defined in
 
-main.ts:47548
+main.ts:47581
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47544
+main.ts:47577
 
 ***
 
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47541
+main.ts:47574
 
 ***
 
@@ -93,7 +93,7 @@ type of element
 
 #### Defined in
 
-main.ts:47537
+main.ts:47570
 
 ***
 
@@ -109,7 +109,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47546
+main.ts:47579
 
 ## Methods
 
@@ -127,7 +127,7 @@ main.ts:47546
 
 #### Defined in
 
-main.ts:47560
+main.ts:47593
 
 ***
 
@@ -145,7 +145,7 @@ main.ts:47560
 
 #### Defined in
 
-main.ts:47591
+main.ts:47624
 
 ***
 
@@ -163,4 +163,4 @@ main.ts:47591
 
 #### Defined in
 
-main.ts:47569
+main.ts:47602

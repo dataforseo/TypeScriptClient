@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:34615
+main.ts:34841
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`MathSolverElement`](MathSolverElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34605
+main.ts:34831
 
 ***
 
@@ -85,7 +84,7 @@ link of the element
 
 #### Defined in
 
-main.ts:34607
+main.ts:34833
 
 ***
 
@@ -168,7 +167,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34611
+main.ts:34837
 
 ***
 
@@ -185,7 +184,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:34602
+main.ts:34829
 
 ***
 
@@ -201,7 +200,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34599
+main.ts:34826
 
 ***
 
@@ -263,7 +262,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:34620
+main.ts:34846
 
 ***
 
@@ -285,7 +284,7 @@ main.ts:34620
 
 #### Defined in
 
-main.ts:34650
+main.ts:34876
 
 ***
 
@@ -307,4 +306,4 @@ main.ts:34650
 
 #### Defined in
 
-main.ts:34643
+main.ts:34869

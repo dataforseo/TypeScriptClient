@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:190937
+main.ts:190970
 
 ## Properties
 
@@ -46,7 +46,7 @@ URL to the reviewer’s profile image
 
 #### Defined in
 
-main.ts:190933
+main.ts:190966
 
 ***
 
@@ -62,7 +62,7 @@ profile name of the reviewer
 
 #### Defined in
 
-main.ts:190931
+main.ts:190964
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:190931
 
 #### Defined in
 
-main.ts:190946
+main.ts:190979
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:190946
 
 #### Defined in
 
-main.ts:190964
+main.ts:190997
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:190964
 
 #### Defined in
 
-main.ts:190957
+main.ts:190990

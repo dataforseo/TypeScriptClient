@@ -20,7 +20,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:28605
+main.ts:28613
 
 ***
 
@@ -32,7 +32,7 @@ title of a given element
 
 #### Defined in
 
-main.ts:28601
+main.ts:28609
 
 ***
 
@@ -44,7 +44,7 @@ images of the element
 
 #### Defined in
 
-main.ts:28611
+main.ts:28619
 
 ***
 
@@ -56,7 +56,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:28609
+main.ts:28617
 
 ***
 
@@ -64,11 +64,12 @@ main.ts:28609
 
 > `optional` **table**: [`Table`](../classes/Table.md)
 
-table element
+results table
+if there are none, equals null
 
 #### Defined in
 
-main.ts:28618
+main.ts:28627
 
 ***
 
@@ -83,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:28616
+main.ts:28624
 
 ***
 
@@ -95,7 +96,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28607
+main.ts:28615
 
 ***
 
@@ -107,7 +108,7 @@ type of element
 
 #### Defined in
 
-main.ts:28599
+main.ts:28607
 
 ***
 
@@ -119,4 +120,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:28603
+main.ts:28611

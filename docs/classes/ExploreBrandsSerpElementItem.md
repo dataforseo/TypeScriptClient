@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:35620
+main.ts:35840
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`ExploreBrandsElement`](ExploreBrandsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:35612
+main.ts:35832
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35616
+main.ts:35836
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35609
+main.ts:35830
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:35625
+main.ts:35845
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:35625
 
 #### Defined in
 
-main.ts:35649
+main.ts:35869
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:35649
 
 #### Defined in
 
-main.ts:35642
+main.ts:35862

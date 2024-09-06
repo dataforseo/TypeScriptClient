@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:24795
+main.ts:24800
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:24802
+main.ts:24807
 
 ***
 
@@ -58,7 +58,7 @@ example: serp/task_get/advanced, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:24788
+main.ts:24793
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:24777
+main.ts:24782
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:24782
+main.ts:24787

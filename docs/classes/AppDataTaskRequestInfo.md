@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:173643
+main.ts:173676
 
 ## Properties
 
@@ -54,7 +54,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:173607
+main.ts:173640
 
 ***
 
@@ -75,7 +75,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:173561
+main.ts:173594
 
 ***
 
@@ -96,7 +96,7 @@ en
 
 #### Defined in
 
-main.ts:173589
+main.ts:173622
 
 ***
 
@@ -117,7 +117,7 @@ English
 
 #### Defined in
 
-main.ts:173582
+main.ts:173615
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:173575
+main.ts:173608
 
 ***
 
@@ -159,7 +159,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:173568
+main.ts:173601
 
 ***
 
@@ -183,7 +183,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:173639
+main.ts:173672
 
 ***
 
@@ -203,7 +203,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:173629
+main.ts:173662
 
 ***
 
@@ -227,7 +227,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:173623
+main.ts:173656
 
 ***
 
@@ -249,7 +249,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:173597
+main.ts:173630
 
 ***
 
@@ -269,7 +269,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:173613
+main.ts:173646
 
 ## Methods
 
@@ -287,7 +287,7 @@ main.ts:173613
 
 #### Defined in
 
-main.ts:173652
+main.ts:173685
 
 ***
 
@@ -305,7 +305,7 @@ main.ts:173652
 
 #### Defined in
 
-main.ts:173679
+main.ts:173712
 
 ***
 
@@ -323,4 +323,4 @@ main.ts:173679
 
 #### Defined in
 
-main.ts:173672
+main.ts:173705

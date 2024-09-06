@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:130978
+main.ts:131011
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:130933
+main.ts:130966
 
 ***
 
@@ -77,7 +77,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:130943
+main.ts:130976
 
 ***
 
@@ -97,7 +97,7 @@ default value: all
 
 #### Defined in
 
-main.ts:130924
+main.ts:130957
 
 ***
 
@@ -116,7 +116,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:130873
+main.ts:130906
 
 ***
 
@@ -136,7 +136,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:130918
+main.ts:130951
 
 ***
 
@@ -156,7 +156,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:130907
+main.ts:130940
 
 ***
 
@@ -176,7 +176,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:130901
+main.ts:130934
 
 ***
 
@@ -197,7 +197,7 @@ example:
 
 #### Defined in
 
-main.ts:130887
+main.ts:130920
 
 ***
 
@@ -219,7 +219,7 @@ example:
 
 #### Defined in
 
-main.ts:130895
+main.ts:130928
 
 ***
 
@@ -240,7 +240,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:130880
+main.ts:130913
 
 ***
 
@@ -264,7 +264,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:130968
+main.ts:131001
 
 ***
 
@@ -288,7 +288,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:130958
+main.ts:130991
 
 ***
 
@@ -307,7 +307,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:130948
+main.ts:130981
 
 ***
 
@@ -326,7 +326,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:130912
+main.ts:130945
 
 ***
 
@@ -346,7 +346,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:130974
+main.ts:131007
 
 ## Methods
 
@@ -364,7 +364,7 @@ main.ts:130974
 
 #### Defined in
 
-main.ts:130987
+main.ts:131020
 
 ***
 
@@ -382,7 +382,7 @@ main.ts:130987
 
 #### Defined in
 
-main.ts:131026
+main.ts:131059
 
 ***
 
@@ -400,4 +400,4 @@ main.ts:131026
 
 #### Defined in
 
-main.ts:131019
+main.ts:131052

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:191199
+main.ts:191232
 
 ## Properties
 
@@ -46,7 +46,7 @@ application id received in a POST array
 
 #### Defined in
 
-main.ts:191165
+main.ts:191198
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:191176
+main.ts:191209
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:191181
+main.ts:191214
 
 ***
 
@@ -99,7 +99,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:191195
+main.ts:191228
 
 ***
 
@@ -116,7 +116,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:191192
+main.ts:191225
 
 ***
 
@@ -132,7 +132,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:191173
+main.ts:191206
 
 ***
 
@@ -148,7 +148,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:191171
+main.ts:191204
 
 ***
 
@@ -165,7 +165,7 @@ rating of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:191187
+main.ts:191220
 
 ***
 
@@ -181,7 +181,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:191189
+main.ts:191222
 
 ***
 
@@ -197,7 +197,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:191169
+main.ts:191202
 
 ***
 
@@ -214,7 +214,7 @@ title of the application for which the reviews are collected
 
 #### Defined in
 
-main.ts:191184
+main.ts:191217
 
 ***
 
@@ -230,7 +230,7 @@ type of element
 
 #### Defined in
 
-main.ts:191167
+main.ts:191200
 
 ## Methods
 
@@ -248,7 +248,7 @@ main.ts:191167
 
 #### Defined in
 
-main.ts:191208
+main.ts:191241
 
 ***
 
@@ -266,7 +266,7 @@ main.ts:191208
 
 #### Defined in
 
-main.ts:191240
+main.ts:191273
 
 ***
 
@@ -284,4 +284,4 @@ main.ts:191240
 
 #### Defined in
 
-main.ts:191233
+main.ts:191266

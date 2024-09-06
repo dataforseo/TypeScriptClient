@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:79550
+main.ts:79583
 
 ## Properties
 
@@ -46,7 +46,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:79529
+main.ts:79562
 
 ***
 
@@ -65,7 +65,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:79534
+main.ts:79567
 
 ***
 
@@ -84,7 +84,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:79522
+main.ts:79555
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:79527
+main.ts:79560
 
 ***
 
@@ -120,7 +120,7 @@ indicates how many ranked elements of this domain went down in Google Search
 
 #### Defined in
 
-main.ts:79543
+main.ts:79576
 
 ***
 
@@ -137,7 +137,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-main.ts:79546
+main.ts:79579
 
 ***
 
@@ -154,7 +154,7 @@ indicates how many new ranked elements were found for this domain
 
 #### Defined in
 
-main.ts:79537
+main.ts:79570
 
 ***
 
@@ -171,7 +171,7 @@ indicates how many ranked elements of this domain went up in Google Search
 
 #### Defined in
 
-main.ts:79540
+main.ts:79573
 
 ***
 
@@ -187,7 +187,7 @@ number of organic SERPs where the domain ranks #1
 
 #### Defined in
 
-main.ts:79495
+main.ts:79528
 
 ***
 
@@ -203,7 +203,7 @@ number of organic SERPs where the domain ranks #11-20
 
 #### Defined in
 
-main.ts:79501
+main.ts:79534
 
 ***
 
@@ -219,7 +219,7 @@ number of organic SERPs where the domain ranks #21-30
 
 #### Defined in
 
-main.ts:79503
+main.ts:79536
 
 ***
 
@@ -235,7 +235,7 @@ number of organic SERPs where the domain ranks #2-3
 
 #### Defined in
 
-main.ts:79497
+main.ts:79530
 
 ***
 
@@ -251,7 +251,7 @@ number of organic SERPs where the domain ranks #31-40
 
 #### Defined in
 
-main.ts:79505
+main.ts:79538
 
 ***
 
@@ -267,7 +267,7 @@ number of organic SERPs where the domain ranks #41-50
 
 #### Defined in
 
-main.ts:79507
+main.ts:79540
 
 ***
 
@@ -283,7 +283,7 @@ number of organic SERPs where the domain ranks #4-10
 
 #### Defined in
 
-main.ts:79499
+main.ts:79532
 
 ***
 
@@ -299,7 +299,7 @@ number of organic SERPs where the domain ranks #51-60
 
 #### Defined in
 
-main.ts:79509
+main.ts:79542
 
 ***
 
@@ -315,7 +315,7 @@ number of organic SERPs where the domain ranks #61-70
 
 #### Defined in
 
-main.ts:79511
+main.ts:79544
 
 ***
 
@@ -331,7 +331,7 @@ number of organic SERPs where the domain ranks #71-80
 
 #### Defined in
 
-main.ts:79513
+main.ts:79546
 
 ***
 
@@ -347,7 +347,7 @@ number of organic SERPs where the domain ranks #81-90
 
 #### Defined in
 
-main.ts:79515
+main.ts:79548
 
 ***
 
@@ -363,7 +363,7 @@ number of organic SERPs where the domain ranks #91-100
 
 #### Defined in
 
-main.ts:79517
+main.ts:79550
 
 ## Methods
 
@@ -381,7 +381,7 @@ main.ts:79517
 
 #### Defined in
 
-main.ts:79559
+main.ts:79592
 
 ***
 
@@ -399,7 +399,7 @@ main.ts:79559
 
 #### Defined in
 
-main.ts:79595
+main.ts:79628
 
 ***
 
@@ -417,4 +417,4 @@ main.ts:79595
 
 #### Defined in
 
-main.ts:79588
+main.ts:79621

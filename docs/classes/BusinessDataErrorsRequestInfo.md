@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:197309
+main.ts:197342
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:197298
+main.ts:197331
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:197305
+main.ts:197338
 
 ***
 
@@ -92,7 +92,7 @@ example: hotel_searches/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:197291
+main.ts:197324
 
 ***
 
@@ -111,7 +111,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:197280
+main.ts:197313
 
 ***
 
@@ -130,7 +130,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:197285
+main.ts:197318
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:197285
 
 #### Defined in
 
-main.ts:197318
+main.ts:197351
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:197318
 
 #### Defined in
 
-main.ts:197339
+main.ts:197372
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:197339
 
 #### Defined in
 
-main.ts:197332
+main.ts:197365

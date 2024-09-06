@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:103924
+main.ts:103957
 
 ## Properties
 
@@ -53,7 +53,7 @@ B01LW2SL7R
 
 #### Defined in
 
-main.ts:103884
+main.ts:103917
 
 ***
 
@@ -74,7 +74,7 @@ en
 
 #### Defined in
 
-main.ts:103914
+main.ts:103947
 
 ***
 
@@ -95,7 +95,7 @@ English
 
 #### Defined in
 
-main.ts:103907
+main.ts:103940
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:103900
+main.ts:103933
 
 ***
 
@@ -139,7 +139,7 @@ United States
 
 #### Defined in
 
-main.ts:103892
+main.ts:103925
 
 ***
 
@@ -159,7 +159,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:103920
+main.ts:103953
 
 ## Methods
 
@@ -177,7 +177,7 @@ main.ts:103920
 
 #### Defined in
 
-main.ts:103933
+main.ts:103966
 
 ***
 
@@ -195,7 +195,7 @@ main.ts:103933
 
 #### Defined in
 
-main.ts:103959
+main.ts:103992
 
 ***
 
@@ -213,4 +213,4 @@ main.ts:103959
 
 #### Defined in
 
-main.ts:103952
+main.ts:103985

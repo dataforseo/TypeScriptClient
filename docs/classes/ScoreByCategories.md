@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:207067
+main.ts:207100
 
 ## Properties
 
@@ -48,7 +48,7 @@ calculated based on data from the hotel’s proximity to nearby airports
 
 #### Defined in
 
-main.ts:207063
+main.ts:207096
 
 ***
 
@@ -67,7 +67,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:207047
+main.ts:207080
 
 ***
 
@@ -85,7 +85,7 @@ calculated based on data from the hotel’s proximity to nearby restaurants
 
 #### Defined in
 
-main.ts:207055
+main.ts:207088
 
 ***
 
@@ -103,7 +103,7 @@ calculated based on data from the hotel’s proximity to nearby things to do
 
 #### Defined in
 
-main.ts:207051
+main.ts:207084
 
 ***
 
@@ -121,7 +121,7 @@ calculated based on data from the hotel’s proximity to nearby transit options
 
 #### Defined in
 
-main.ts:207059
+main.ts:207092
 
 ## Methods
 
@@ -139,7 +139,7 @@ main.ts:207059
 
 #### Defined in
 
-main.ts:207076
+main.ts:207109
 
 ***
 
@@ -157,7 +157,7 @@ main.ts:207076
 
 #### Defined in
 
-main.ts:207097
+main.ts:207130
 
 ***
 
@@ -175,4 +175,4 @@ main.ts:207097
 
 #### Defined in
 
-main.ts:207090
+main.ts:207123

@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:207785
+main.ts:207818
 
 ***
 
@@ -41,7 +41,7 @@ example:
 
 #### Defined in
 
-main.ts:207767
+main.ts:207800
 
 ***
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:207774
+main.ts:207807
 
 ***
 
@@ -76,7 +76,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:207793
+main.ts:207826
 
 ***
 
@@ -91,7 +91,7 @@ example:
 
 #### Defined in
 
-main.ts:207779
+main.ts:207812
 
 ***
 
@@ -108,7 +108,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:207715
+main.ts:207748
 
 ***
 
@@ -125,7 +125,7 @@ en
 
 #### Defined in
 
-main.ts:207760
+main.ts:207793
 
 ***
 
@@ -142,7 +142,7 @@ English
 
 #### Defined in
 
-main.ts:207753
+main.ts:207786
 
 ***
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:207737
+main.ts:207770
 
 ***
 
@@ -178,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:207746
+main.ts:207779
 
 ***
 
@@ -195,7 +195,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:207730
+main.ts:207763
 
 ***
 
@@ -213,7 +213,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:207723
+main.ts:207756
 
 ***
 
@@ -229,4 +229,4 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
-main.ts:207799
+main.ts:207832

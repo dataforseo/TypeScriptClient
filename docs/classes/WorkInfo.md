@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:198550
+main.ts:198583
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about work hours of the local establishment
 
 #### Defined in
 
-main.ts:198546
+main.ts:198579
 
 ## Methods
 
@@ -65,7 +65,7 @@ main.ts:198546
 
 #### Defined in
 
-main.ts:198559
+main.ts:198592
 
 ***
 
@@ -83,7 +83,7 @@ main.ts:198559
 
 #### Defined in
 
-main.ts:198576
+main.ts:198609
 
 ***
 
@@ -101,4 +101,4 @@ main.ts:198576
 
 #### Defined in
 
-main.ts:198569
+main.ts:198602

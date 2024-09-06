@@ -21,7 +21,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:199083
+main.ts:199116
 
 ***
 
@@ -33,7 +33,7 @@ address of the business entity
 
 #### Defined in
 
-main.ts:199092
+main.ts:199125
 
 ***
 
@@ -45,7 +45,7 @@ object containing address components of the business entity
 
 #### Defined in
 
-main.ts:199094
+main.ts:199127
 
 ***
 
@@ -58,7 +58,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Defined in
 
-main.ts:199125
+main.ts:199158
 
 ***
 
@@ -71,7 +71,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:199077
+main.ts:199110
 
 ***
 
@@ -84,7 +84,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:199080
+main.ts:199113
 
 ***
 
@@ -97,7 +97,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:199164
+main.ts:199197
 
 ***
 
@@ -111,7 +111,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:199087
+main.ts:199120
 
 ***
 
@@ -124,7 +124,7 @@ list of contacts to interact with the business
 
 #### Defined in
 
-main.ts:199161
+main.ts:199194
 
 ***
 
@@ -137,7 +137,7 @@ the description of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:199074
+main.ts:199107
 
 ***
 
@@ -149,7 +149,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:199104
+main.ts:199137
 
 ***
 
@@ -162,7 +162,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:199090
+main.ts:199123
 
 ***
 
@@ -177,7 +177,7 @@ example:
 
 #### Defined in
 
-main.ts:199174
+main.ts:199207
 
 ***
 
@@ -191,7 +191,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:199140
+main.ts:199173
 
 ***
 
@@ -203,7 +203,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Defined in
 
-main.ts:199122
+main.ts:199155
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Defined in
 
-main.ts:199169
+main.ts:199202
 
 ***
 
@@ -232,7 +232,7 @@ example:
 
 #### Defined in
 
-main.ts:199116
+main.ts:199149
 
 ***
 
@@ -245,7 +245,7 @@ list of options to interact with the business directly from search results
 
 #### Defined in
 
-main.ts:199158
+main.ts:199191
 
 ***
 
@@ -257,7 +257,7 @@ URL of the logo featured in Google My Business profile
 
 #### Defined in
 
-main.ts:199106
+main.ts:199139
 
 ***
 
@@ -271,7 +271,7 @@ example:
 
 #### Defined in
 
-main.ts:199120
+main.ts:199153
 
 ***
 
@@ -283,7 +283,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:199108
+main.ts:199141
 
 ***
 
@@ -295,7 +295,7 @@ related business entities
 
 #### Defined in
 
-main.ts:199149
+main.ts:199182
 
 ***
 
@@ -307,7 +307,7 @@ phone number of the business entity
 
 #### Defined in
 
-main.ts:199100
+main.ts:199133
 
 ***
 
@@ -321,7 +321,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:199098
+main.ts:199131
 
 ***
 
@@ -343,7 +343,7 @@ example:
 
 #### Defined in
 
-main.ts:199133
+main.ts:199166
 
 ***
 
@@ -356,7 +356,7 @@ information related to busy hours of the business entity
 
 #### Defined in
 
-main.ts:199155
+main.ts:199188
 
 ***
 
@@ -370,7 +370,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:199144
+main.ts:199177
 
 ***
 
@@ -383,7 +383,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:199136
+main.ts:199169
 
 ***
 
@@ -400,7 +400,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:199147
+main.ts:199180
 
 ***
 
@@ -412,7 +412,7 @@ additional information on the business entity
 
 #### Defined in
 
-main.ts:199112
+main.ts:199145
 
 ***
 
@@ -425,7 +425,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:199071
+main.ts:199104
 
 ***
 
@@ -437,7 +437,7 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:199110
+main.ts:199143
 
 ***
 
@@ -449,7 +449,7 @@ type of element
 
 #### Defined in
 
-main.ts:199068
+main.ts:199101
 
 ***
 
@@ -461,7 +461,7 @@ absolute url of the business entity
 
 #### Defined in
 
-main.ts:199102
+main.ts:199135
 
 ***
 
@@ -474,4 +474,4 @@ information related to operational hours of the business entity
 
 #### Defined in
 
-main.ts:199152
+main.ts:199185

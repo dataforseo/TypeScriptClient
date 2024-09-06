@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:53282
+main.ts:53315
 
 ***
 
@@ -41,7 +41,7 @@ possible value: desktop
 
 #### Defined in
 
-main.ts:53297
+main.ts:53330
 
 ***
 
@@ -55,7 +55,7 @@ possible values: other, archive, text, image, document, tabular
 
 #### Defined in
 
-main.ts:53310
+main.ts:53343
 
 ***
 
@@ -69,7 +69,7 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:53318
+main.ts:53351
 
 ***
 
@@ -86,7 +86,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:53265
+main.ts:53298
 
 ***
 
@@ -101,7 +101,7 @@ en
 
 #### Defined in
 
-main.ts:53293
+main.ts:53326
 
 ***
 
@@ -117,7 +117,7 @@ English
 
 #### Defined in
 
-main.ts:53288
+main.ts:53321
 
 ***
 
@@ -131,7 +131,7 @@ possible values: 1m, 1y, 3y
 
 #### Defined in
 
-main.ts:53306
+main.ts:53339
 
 ***
 
@@ -146,7 +146,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:53302
+main.ts:53335
 
 ***
 
@@ -166,7 +166,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:53353
+main.ts:53386
 
 ***
 
@@ -181,7 +181,7 @@ only value: advanced
 
 #### Defined in
 
-main.ts:53343
+main.ts:53376
 
 ***
 
@@ -201,7 +201,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:53338
+main.ts:53371
 
 ***
 
@@ -219,7 +219,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:53273
+main.ts:53306
 
 ***
 
@@ -235,7 +235,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:53328
+main.ts:53361
 
 ***
 
@@ -249,7 +249,7 @@ possible values: humanities, social_sciences, life_sciences, agriculture, natura
 
 #### Defined in
 
-main.ts:53322
+main.ts:53355
 
 ***
 
@@ -263,4 +263,4 @@ possible values: commercial, noncommercial
 
 #### Defined in
 
-main.ts:53314
+main.ts:53347

@@ -24,7 +24,7 @@ domain of the establishment
 
 #### Defined in
 
-main.ts:210971
+main.ts:211004
 
 ***
 
@@ -40,7 +40,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21392
+main.ts:21397
 
 ***
 
@@ -57,7 +57,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21390
+main.ts:21395
 
 ***
 
@@ -69,7 +69,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-main.ts:210977
+main.ts:211010
 
 ***
 
@@ -81,7 +81,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:210975
+main.ts:211008
 
 ***
 
@@ -93,7 +93,7 @@ title of the establishment
 
 #### Defined in
 
-main.ts:210969
+main.ts:211002
 
 ***
 
@@ -109,7 +109,7 @@ type of element
 
 #### Defined in
 
-main.ts:21387
+main.ts:21392
 
 ***
 
@@ -121,4 +121,4 @@ URL to the establishment
 
 #### Defined in
 
-main.ts:210973
+main.ts:211006

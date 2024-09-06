@@ -24,7 +24,7 @@ author of the post
 
 #### Defined in
 
-main.ts:202712
+main.ts:202745
 
 ***
 
@@ -36,7 +36,7 @@ url of an image included in the post
 
 #### Defined in
 
-main.ts:202720
+main.ts:202753
 
 ***
 
@@ -48,7 +48,7 @@ links included in the post
 
 #### Defined in
 
-main.ts:202731
+main.ts:202764
 
 ***
 
@@ -61,7 +61,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:202708
+main.ts:202741
 
 ***
 
@@ -75,7 +75,7 @@ in the following format:
 
 #### Defined in
 
-main.ts:202724
+main.ts:202757
 
 ***
 
@@ -87,7 +87,7 @@ main content of a post
 
 #### Defined in
 
-main.ts:202716
+main.ts:202749
 
 ***
 
@@ -103,7 +103,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21392
+main.ts:21397
 
 ***
 
@@ -120,7 +120,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21390
+main.ts:21395
 
 ***
 
@@ -132,7 +132,7 @@ additional content of a post
 
 #### Defined in
 
-main.ts:202714
+main.ts:202747
 
 ***
 
@@ -147,7 +147,7 @@ example:
 
 #### Defined in
 
-main.ts:202729
+main.ts:202762
 
 ***
 
@@ -163,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:21387
+main.ts:21392
 
 ***
 
@@ -175,7 +175,7 @@ url of a post
 
 #### Defined in
 
-main.ts:202718
+main.ts:202751
 
 ***
 
@@ -187,4 +187,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:202710
+main.ts:202743

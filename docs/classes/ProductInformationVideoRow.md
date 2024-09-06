@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:182700
+main.ts:182733
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:182700
 
 #### Defined in
 
-main.ts:23417
+main.ts:23422
 
 ***
 
@@ -68,7 +68,7 @@ URL of the preview image for the related video
 
 #### Defined in
 
-main.ts:182694
+main.ts:182727
 
 ***
 
@@ -88,7 +88,7 @@ type of element
 
 #### Defined in
 
-main.ts:23413
+main.ts:23418
 
 ***
 
@@ -104,7 +104,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:182696
+main.ts:182729
 
 ## Methods
 
@@ -126,7 +126,7 @@ main.ts:182696
 
 #### Defined in
 
-main.ts:182705
+main.ts:182738
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:182705
 
 #### Defined in
 
-main.ts:182724
+main.ts:182757
 
 ***
 
@@ -170,4 +170,4 @@ main.ts:182724
 
 #### Defined in
 
-main.ts:182717
+main.ts:182750

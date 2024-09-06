@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:139629
+main.ts:139662
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of backlinks
 
 #### Defined in
 
-main.ts:139548
+main.ts:139581
 
 ***
 
@@ -63,7 +63,7 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-main.ts:139581
+main.ts:139614
 
 ***
 
@@ -80,7 +80,7 @@ number of pages that receive backlinks but respond with 4xx or 5xx status codes
 
 #### Defined in
 
-main.ts:139584
+main.ts:139617
 
 ***
 
@@ -96,7 +96,7 @@ number of crawled pages for the target
 
 #### Defined in
 
-main.ts:139570
+main.ts:139603
 
 ***
 
@@ -115,7 +115,7 @@ example:
 
 #### Defined in
 
-main.ts:139543
+main.ts:139576
 
 ***
 
@@ -132,7 +132,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139578
+main.ts:139611
 
 ***
 
@@ -148,7 +148,7 @@ information about the target
 
 #### Defined in
 
-main.ts:139572
+main.ts:139605
 
 ***
 
@@ -165,7 +165,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139575
+main.ts:139608
 
 ***
 
@@ -184,7 +184,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139558
+main.ts:139591
 
 ***
 
@@ -203,7 +203,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139568
+main.ts:139601
 
 ***
 
@@ -222,7 +222,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139553
+main.ts:139586
 
 ***
 
@@ -241,7 +241,7 @@ if the date range specified in the POST request precedes May 2021, the field wil
 
 #### Defined in
 
-main.ts:139563
+main.ts:139596
 
 ***
 
@@ -258,7 +258,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:139546
+main.ts:139579
 
 ***
 
@@ -275,7 +275,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:139587
+main.ts:139620
 
 ***
 
@@ -291,7 +291,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139589
+main.ts:139622
 
 ***
 
@@ -308,7 +308,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:139596
+main.ts:139629
 
 ***
 
@@ -329,7 +329,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:139613
+main.ts:139646
 
 ***
 
@@ -350,7 +350,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:139625
+main.ts:139658
 
 ***
 
@@ -371,7 +371,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:139616
+main.ts:139649
 
 ***
 
@@ -395,7 +395,7 @@ article, section, summary
 
 #### Defined in
 
-main.ts:139622
+main.ts:139655
 
 ***
 
@@ -416,7 +416,7 @@ contains top-level domains and referring link count per each
 
 #### Defined in
 
-main.ts:139605
+main.ts:139638
 
 ***
 
@@ -439,7 +439,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:139610
+main.ts:139643
 
 ***
 
@@ -455,7 +455,7 @@ number of referring main domains
 
 #### Defined in
 
-main.ts:139591
+main.ts:139624
 
 ***
 
@@ -471,7 +471,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139593
+main.ts:139626
 
 ***
 
@@ -487,7 +487,7 @@ number of pages pointing to the target
 
 #### Defined in
 
-main.ts:139600
+main.ts:139633
 
 ***
 
@@ -503,7 +503,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139602
+main.ts:139635
 
 ***
 
@@ -519,7 +519,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:139598
+main.ts:139631
 
 ***
 
@@ -535,7 +535,7 @@ type of element
 
 #### Defined in
 
-main.ts:139538
+main.ts:139571
 
 ## Methods
 
@@ -553,7 +553,7 @@ main.ts:139538
 
 #### Defined in
 
-main.ts:139638
+main.ts:139671
 
 ***
 
@@ -571,7 +571,7 @@ main.ts:139638
 
 #### Defined in
 
-main.ts:139718
+main.ts:139751
 
 ***
 
@@ -589,4 +589,4 @@ main.ts:139718
 
 #### Defined in
 
-main.ts:139711
+main.ts:139744

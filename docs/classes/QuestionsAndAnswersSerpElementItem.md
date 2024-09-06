@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:33648
+main.ts:33884
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`QuestionsAndAnswersElement`](QuestionsAndAnswersElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33640
+main.ts:33876
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33644
+main.ts:33880
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:33653
+main.ts:33889
 
 ***
 
@@ -236,7 +235,7 @@ main.ts:33653
 
 #### Defined in
 
-main.ts:33676
+main.ts:33912
 
 ***
 
@@ -258,4 +257,4 @@ main.ts:33676
 
 #### Defined in
 
-main.ts:33669
+main.ts:33905

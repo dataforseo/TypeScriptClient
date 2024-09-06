@@ -24,7 +24,7 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-main.ts:101112
+main.ts:101145
 
 ***
 
@@ -36,7 +36,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101108
+main.ts:101141
 
 ***
 
@@ -48,4 +48,4 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:101110
+main.ts:101143

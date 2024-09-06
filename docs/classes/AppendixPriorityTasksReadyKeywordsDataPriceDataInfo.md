@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:220891
+main.ts:220924
 
 ## Properties
 
@@ -46,7 +46,7 @@ cost, USD
 
 #### Defined in
 
-main.ts:220887
+main.ts:220920
 
 ***
 
@@ -65,7 +65,7 @@ per_request – charge for a GET or POST request
 
 #### Defined in
 
-main.ts:220885
+main.ts:220918
 
 ## Methods
 
@@ -83,7 +83,7 @@ main.ts:220885
 
 #### Defined in
 
-main.ts:220900
+main.ts:220933
 
 ***
 
@@ -101,7 +101,7 @@ main.ts:220900
 
 #### Defined in
 
-main.ts:220918
+main.ts:220951
 
 ***
 
@@ -119,4 +119,4 @@ main.ts:220918
 
 #### Defined in
 
-main.ts:220911
+main.ts:220944

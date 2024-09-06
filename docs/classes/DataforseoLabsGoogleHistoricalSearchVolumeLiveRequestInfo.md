@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:85712
+main.ts:85745
 
 ## Properties
 
@@ -51,7 +51,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:85702
+main.ts:85735
 
 ***
 
@@ -70,7 +70,7 @@ default value: false
 
 #### Defined in
 
-main.ts:85695
+main.ts:85728
 
 ***
 
@@ -93,7 +93,7 @@ you will not be charged for the keywords omitted in the results
 
 #### Defined in
 
-main.ts:85658
+main.ts:85691
 
 ***
 
@@ -115,7 +115,7 @@ en
 
 #### Defined in
 
-main.ts:85690
+main.ts:85723
 
 ***
 
@@ -137,7 +137,7 @@ English
 
 #### Defined in
 
-main.ts:85682
+main.ts:85715
 
 ***
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:85674
+main.ts:85707
 
 ***
 
@@ -181,7 +181,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:85666
+main.ts:85699
 
 ***
 
@@ -201,7 +201,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:85708
+main.ts:85741
 
 ## Methods
 
@@ -219,7 +219,7 @@ main.ts:85708
 
 #### Defined in
 
-main.ts:85721
+main.ts:85754
 
 ***
 
@@ -237,7 +237,7 @@ main.ts:85721
 
 #### Defined in
 
-main.ts:85749
+main.ts:85782
 
 ***
 
@@ -255,4 +255,4 @@ main.ts:85749
 
 #### Defined in
 
-main.ts:85742
+main.ts:85775

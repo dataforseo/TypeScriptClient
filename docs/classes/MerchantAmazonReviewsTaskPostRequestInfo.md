@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:184423
+main.ts:184456
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:184274
+main.ts:184307
 
 ***
 
@@ -70,7 +70,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:184335
+main.ts:184368
 
 ***
 
@@ -89,7 +89,7 @@ if you use this field, the response will only include reviews that contain the s
 
 #### Defined in
 
-main.ts:184370
+main.ts:184403
 
 ***
 
@@ -117,7 +117,7 @@ default rule: all_stars
 
 #### Defined in
 
-main.ts:184365
+main.ts:184398
 
 ***
 
@@ -140,7 +140,7 @@ Note: ASINs vary depending on a product modification. Thus, two modifications of
 
 #### Defined in
 
-main.ts:184387
+main.ts:184420
 
 ***
 
@@ -161,7 +161,7 @@ en_GB
 
 #### Defined in
 
-main.ts:184321
+main.ts:184354
 
 ***
 
@@ -183,7 +183,7 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:184314
+main.ts:184347
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Defined in
 
-main.ts:184297
+main.ts:184330
 
 ***
 
@@ -228,7 +228,7 @@ example:
 
 #### Defined in
 
-main.ts:184306
+main.ts:184339
 
 ***
 
@@ -249,7 +249,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:184289
+main.ts:184322
 
 ***
 
@@ -271,7 +271,7 @@ default rule: all_contents
 
 #### Defined in
 
-main.ts:184378
+main.ts:184411
 
 ***
 
@@ -295,7 +295,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:184419
+main.ts:184452
 
 ***
 
@@ -315,7 +315,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:184409
+main.ts:184442
 
 ***
 
@@ -339,7 +339,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:184403
+main.ts:184436
 
 ***
 
@@ -361,7 +361,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:184282
+main.ts:184315
 
 ***
 
@@ -383,7 +383,7 @@ default rule: all_reviews
 
 #### Defined in
 
-main.ts:184351
+main.ts:184384
 
 ***
 
@@ -404,7 +404,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:184328
+main.ts:184361
 
 ***
 
@@ -426,7 +426,7 @@ default rule: helpful
 
 #### Defined in
 
-main.ts:184343
+main.ts:184376
 
 ***
 
@@ -446,7 +446,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:184393
+main.ts:184426
 
 ## Methods
 
@@ -464,7 +464,7 @@ main.ts:184393
 
 #### Defined in
 
-main.ts:184432
+main.ts:184465
 
 ***
 
@@ -482,7 +482,7 @@ main.ts:184432
 
 #### Defined in
 
-main.ts:184467
+main.ts:184500
 
 ***
 
@@ -500,4 +500,4 @@ main.ts:184467
 
 #### Defined in
 
-main.ts:184460
+main.ts:184493

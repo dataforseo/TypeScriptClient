@@ -21,7 +21,7 @@ calculated as a ratio of frequency to the total count of keywords with the set k
 
 #### Defined in
 
-main.ts:159615
+main.ts:159648
 
 ***
 
@@ -34,7 +34,7 @@ number of times the keyword appears on the website (or webpage if you specified 
 
 #### Defined in
 
-main.ts:159612
+main.ts:159645
 
 ***
 
@@ -46,4 +46,4 @@ returned keyword
 
 #### Defined in
 
-main.ts:159609
+main.ts:159642

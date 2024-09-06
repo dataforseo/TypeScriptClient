@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:78913
+main.ts:78946
 
 ## Properties
 
@@ -47,7 +47,7 @@ code of the language that content on the target domain is written in
 
 #### Defined in
 
-main.ts:78896
+main.ts:78929
 
 ***
 
@@ -64,7 +64,7 @@ ISO code of the country that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:78890
+main.ts:78923
 
 ***
 
@@ -80,7 +80,7 @@ domain meta description
 
 #### Defined in
 
-main.ts:78877
+main.ts:78910
 
 ***
 
@@ -96,7 +96,7 @@ specified domain name
 
 #### Defined in
 
-main.ts:78873
+main.ts:78906
 
 ***
 
@@ -113,7 +113,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:78882
+main.ts:78915
 
 ***
 
@@ -130,7 +130,7 @@ emails indicated on the target website
 
 #### Defined in
 
-main.ts:78902
+main.ts:78935
 
 ***
 
@@ -147,7 +147,7 @@ code of the language that the target domain is determined to be associated with
 
 #### Defined in
 
-main.ts:78893
+main.ts:78926
 
 ***
 
@@ -166,7 +166,7 @@ example:
 
 #### Defined in
 
-main.ts:78887
+main.ts:78920
 
 ***
 
@@ -182,7 +182,7 @@ domain meta keywords
 
 #### Defined in
 
-main.ts:78879
+main.ts:78912
 
 ***
 
@@ -199,7 +199,7 @@ contact phone numbers indicated on the target website
 
 #### Defined in
 
-main.ts:78899
+main.ts:78932
 
 ***
 
@@ -216,7 +216,7 @@ social media URLs detected in the social graphs of the target website
 
 #### Defined in
 
-main.ts:78905
+main.ts:78938
 
 ***
 
@@ -234,7 +234,7 @@ see the full list of available technologies structured by groups and categories
 
 #### Defined in
 
-main.ts:78909
+main.ts:78942
 
 ***
 
@@ -250,7 +250,7 @@ domain meta title
 
 #### Defined in
 
-main.ts:78875
+main.ts:78908
 
 ***
 
@@ -266,7 +266,7 @@ type of element
 
 #### Defined in
 
-main.ts:78871
+main.ts:78904
 
 ## Methods
 
@@ -284,7 +284,7 @@ main.ts:78871
 
 #### Defined in
 
-main.ts:78922
+main.ts:78955
 
 ***
 
@@ -302,7 +302,7 @@ main.ts:78922
 
 #### Defined in
 
-main.ts:78968
+main.ts:79001
 
 ***
 
@@ -320,4 +320,4 @@ main.ts:78968
 
 #### Defined in
 
-main.ts:78961
+main.ts:78994

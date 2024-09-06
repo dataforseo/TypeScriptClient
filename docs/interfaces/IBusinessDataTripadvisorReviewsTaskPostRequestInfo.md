@@ -25,7 +25,7 @@ max value: 4490
 
 #### Defined in
 
-main.ts:213757
+main.ts:213790
 
 ***
 
@@ -42,7 +42,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:213712
+main.ts:213745
 
 ***
 
@@ -61,7 +61,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213750
+main.ts:213783
 
 ***
 
@@ -80,7 +80,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213741
+main.ts:213774
 
 ***
 
@@ -96,7 +96,7 @@ example:
 
 #### Defined in
 
-main.ts:213724
+main.ts:213757
 
 ***
 
@@ -112,7 +112,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:213718
+main.ts:213751
 
 ***
 
@@ -127,7 +127,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213773
+main.ts:213806
 
 ***
 
@@ -147,7 +147,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:213817
+main.ts:213850
 
 ***
 
@@ -167,7 +167,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:213807
+main.ts:213840
 
 ***
 
@@ -185,7 +185,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:213732
+main.ts:213765
 
 ***
 
@@ -201,7 +201,7 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213763
+main.ts:213796
 
 ***
 
@@ -215,7 +215,7 @@ dessert
 
 #### Defined in
 
-main.ts:213777
+main.ts:213810
 
 ***
 
@@ -232,7 +232,7 @@ detailed_reviews
 
 #### Defined in
 
-main.ts:213784
+main.ts:213817
 
 ***
 
@@ -248,7 +248,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:213797
+main.ts:213830
 
 ***
 
@@ -265,7 +265,7 @@ you can learn more about how reviews are translated in this Help Center article
 
 #### Defined in
 
-main.ts:213791
+main.ts:213824
 
 ***
 
@@ -282,7 +282,7 @@ https://www.tripadvisor.com/Hotel_Review-g60763-d23462501-Reviews-Margaritaville
 
 #### Defined in
 
-main.ts:213705
+main.ts:213738
 
 ***
 
@@ -297,4 +297,4 @@ you can specify several values at once
 
 #### Defined in
 
-main.ts:213768
+main.ts:213801

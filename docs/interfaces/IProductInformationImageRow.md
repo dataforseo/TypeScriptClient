@@ -24,7 +24,7 @@ alternative text of the related product image
 
 #### Defined in
 
-main.ts:182090
+main.ts:182123
 
 ***
 
@@ -40,7 +40,7 @@ type of element
 
 #### Defined in
 
-main.ts:23475
+main.ts:23480
 
 ***
 
@@ -52,4 +52,4 @@ URL of the image
 
 #### Defined in
 
-main.ts:182092
+main.ts:182125

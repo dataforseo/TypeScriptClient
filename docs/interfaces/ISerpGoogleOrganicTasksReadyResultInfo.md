@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:26449
+main.ts:26454
 
 ***
 
@@ -33,7 +33,7 @@ if SERP Advanced is not supported in the specified endpoint, the value will be n
 
 #### Defined in
 
-main.ts:26457
+main.ts:26462
 
 ***
 
@@ -46,7 +46,7 @@ if SERP HTML is not supported in the specified endpoint, the value will be null
 
 #### Defined in
 
-main.ts:26460
+main.ts:26465
 
 ***
 
@@ -59,7 +59,7 @@ if SERP Regular is not supported in the specified endpoint, the value will be nu
 
 #### Defined in
 
-main.ts:26454
+main.ts:26459
 
 ***
 
@@ -72,7 +72,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:26442
+main.ts:26447
 
 ***
 
@@ -84,7 +84,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:26444
+main.ts:26449
 
 ***
 
@@ -97,7 +97,7 @@ example: organic
 
 #### Defined in
 
-main.ts:26447
+main.ts:26452
 
 ***
 
@@ -109,4 +109,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:26451
+main.ts:26456

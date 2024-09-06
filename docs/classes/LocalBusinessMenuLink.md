@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:24088
+main.ts:24093
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:24088
 
 #### Defined in
 
-main.ts:23850
+main.ts:23855
 
 ***
 
@@ -69,7 +69,7 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:24082
+main.ts:24087
 
 ***
 
@@ -89,7 +89,7 @@ type of element
 
 #### Defined in
 
-main.ts:23848
+main.ts:23853
 
 ***
 
@@ -105,7 +105,7 @@ URL to view the menu
 
 #### Defined in
 
-main.ts:24084
+main.ts:24089
 
 ## Methods
 
@@ -127,7 +127,7 @@ main.ts:24084
 
 #### Defined in
 
-main.ts:24093
+main.ts:24098
 
 ***
 
@@ -149,7 +149,7 @@ main.ts:24093
 
 #### Defined in
 
-main.ts:24112
+main.ts:24117
 
 ***
 
@@ -171,4 +171,4 @@ main.ts:24112
 
 #### Defined in
 
-main.ts:24105
+main.ts:24110

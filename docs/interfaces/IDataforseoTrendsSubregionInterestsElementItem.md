@@ -24,7 +24,7 @@ subregional keyword popuarity data for each specified term
 
 #### Defined in
 
-main.ts:126442
+main.ts:126475
 
 ***
 
@@ -37,7 +37,7 @@ if you specified a single keyword, the value will be null
 
 #### Defined in
 
-main.ts:126445
+main.ts:126478
 
 ***
 
@@ -54,7 +54,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21962
+main.ts:21967
 
 ***
 
@@ -71,7 +71,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21959
+main.ts:21964
 
 ***
 
@@ -87,4 +87,4 @@ type of element
 
 #### Defined in
 
-main.ts:21956
+main.ts:21961

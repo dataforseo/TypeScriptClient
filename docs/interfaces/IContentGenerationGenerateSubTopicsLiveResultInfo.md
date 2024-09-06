@@ -20,7 +20,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:170659
+main.ts:170692
 
 ***
 
@@ -32,7 +32,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:170663
+main.ts:170696
 
 ***
 
@@ -44,7 +44,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:170661
+main.ts:170694
 
 ***
 
@@ -56,4 +56,4 @@ resulting subtopics
 
 #### Defined in
 
-main.ts:170665
+main.ts:170698

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:91174
+main.ts:91207
 
 ## Properties
 
@@ -47,7 +47,7 @@ if the value is true, position of the element in SERP is lower compared to the p
 
 #### Defined in
 
-main.ts:91170
+main.ts:91203
 
 ***
 
@@ -64,7 +64,7 @@ if the value is true, previously collected SERP didn’t contain this element
 
 #### Defined in
 
-main.ts:91164
+main.ts:91197
 
 ***
 
@@ -81,7 +81,7 @@ if the value is true, position of the element in SERP is higher compared to the 
 
 #### Defined in
 
-main.ts:91167
+main.ts:91200
 
 ***
 
@@ -99,7 +99,7 @@ if this element is new, the value will be null
 
 #### Defined in
 
-main.ts:91161
+main.ts:91194
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:91161
 
 #### Defined in
 
-main.ts:91183
+main.ts:91216
 
 ***
 
@@ -135,7 +135,7 @@ main.ts:91183
 
 #### Defined in
 
-main.ts:91203
+main.ts:91236
 
 ***
 
@@ -153,4 +153,4 @@ main.ts:91203
 
 #### Defined in
 
-main.ts:91196
+main.ts:91229

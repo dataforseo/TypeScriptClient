@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:148176
+main.ts:148209
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of backlinks for the given date
 
 #### Defined in
 
-main.ts:148152
+main.ts:148185
 
 ***
 
@@ -62,7 +62,7 @@ number of nofollow backlinks for the given date
 
 #### Defined in
 
-main.ts:148154
+main.ts:148187
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:148147
+main.ts:148180
 
 ***
 
@@ -98,7 +98,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:148150
+main.ts:148183
 
 ***
 
@@ -115,7 +115,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:148161
+main.ts:148194
 
 ***
 
@@ -131,7 +131,7 @@ number of domains pointing at least one nofollow link to the target for the give
 
 #### Defined in
 
-main.ts:148163
+main.ts:148196
 
 ***
 
@@ -148,7 +148,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:148170
+main.ts:148203
 
 ***
 
@@ -164,7 +164,7 @@ number of referring main domains for the given date
 
 #### Defined in
 
-main.ts:148165
+main.ts:148198
 
 ***
 
@@ -180,7 +180,7 @@ number of main domains pointing at least one nofollow link to the target for the
 
 #### Defined in
 
-main.ts:148167
+main.ts:148200
 
 ***
 
@@ -196,7 +196,7 @@ number of pages pointing to target for the given date
 
 #### Defined in
 
-main.ts:148156
+main.ts:148189
 
 ***
 
@@ -212,7 +212,7 @@ number of referring pages pointing at least one nofollow link to the target for 
 
 #### Defined in
 
-main.ts:148158
+main.ts:148191
 
 ***
 
@@ -228,7 +228,7 @@ number of referring subnetworks for the given date
 
 #### Defined in
 
-main.ts:148172
+main.ts:148205
 
 ***
 
@@ -244,7 +244,7 @@ type of element
 
 #### Defined in
 
-main.ts:148142
+main.ts:148175
 
 ## Methods
 
@@ -262,7 +262,7 @@ main.ts:148142
 
 #### Defined in
 
-main.ts:148185
+main.ts:148218
 
 ***
 
@@ -280,7 +280,7 @@ main.ts:148185
 
 #### Defined in
 
-main.ts:148214
+main.ts:148247
 
 ***
 
@@ -298,4 +298,4 @@ main.ts:148214
 
 #### Defined in
 
-main.ts:148207
+main.ts:148240

@@ -24,7 +24,7 @@ website domain
 
 #### Defined in
 
-main.ts:99425
+main.ts:99458
 
 ***
 
@@ -36,7 +36,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:99427
+main.ts:99460
 
 ***
 
@@ -54,7 +54,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -71,7 +71,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -88,7 +88,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -100,7 +100,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:99421
+main.ts:99454
 
 ***
 
@@ -116,7 +116,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -128,7 +128,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:99423
+main.ts:99456
 
 ***
 
@@ -144,4 +144,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

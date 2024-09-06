@@ -24,7 +24,7 @@ card id
 
 #### Defined in
 
-main.ts:96434
+main.ts:96467
 
 ***
 
@@ -36,7 +36,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:96442
+main.ts:96475
 
 ***
 
@@ -48,7 +48,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:96432
+main.ts:96465
 
 ***
 
@@ -60,7 +60,7 @@ URL of the image from knowledge graph
 
 #### Defined in
 
-main.ts:96438
+main.ts:96471
 
 ***
 
@@ -72,7 +72,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:96444
+main.ts:96477
 
 ***
 
@@ -84,7 +84,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:96440
+main.ts:96473
 
 ***
 
@@ -102,7 +102,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -119,7 +119,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -136,7 +136,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -148,7 +148,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96426
+main.ts:96459
 
 ***
 
@@ -160,7 +160,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:96430
+main.ts:96463
 
 ***
 
@@ -172,7 +172,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:96428
+main.ts:96461
 
 ***
 
@@ -188,7 +188,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -200,7 +200,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:96436
+main.ts:96469
 
 ***
 
@@ -216,4 +216,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

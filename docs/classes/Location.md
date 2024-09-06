@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:207169
+main.ts:207202
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:207157
+main.ts:207190
 
 ***
 
@@ -66,7 +66,7 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-main.ts:207165
+main.ts:207198
 
 ***
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:207162
+main.ts:207195
 
 ***
 
@@ -101,7 +101,7 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-main.ts:207144
+main.ts:207177
 
 ***
 
@@ -117,7 +117,7 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:207140
+main.ts:207173
 
 ***
 
@@ -133,7 +133,7 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:207142
+main.ts:207175
 
 ***
 
@@ -152,7 +152,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:207149
+main.ts:207182
 
 ***
 
@@ -169,7 +169,7 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-main.ts:207152
+main.ts:207185
 
 ## Methods
 
@@ -187,7 +187,7 @@ main.ts:207152
 
 #### Defined in
 
-main.ts:207178
+main.ts:207211
 
 ***
 
@@ -205,7 +205,7 @@ main.ts:207178
 
 #### Defined in
 
-main.ts:207206
+main.ts:207239
 
 ***
 
@@ -223,4 +223,4 @@ main.ts:207206
 
 #### Defined in
 
-main.ts:207199
+main.ts:207232

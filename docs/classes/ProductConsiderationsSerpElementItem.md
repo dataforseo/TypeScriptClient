@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:35076
+main.ts:35300
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`ProductConsiderationsElement`](ProductConsiderationsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:35068
+main.ts:35292
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35072
+main.ts:35296
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35065
+main.ts:35290
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:35081
+main.ts:35305
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:35081
 
 #### Defined in
 
-main.ts:35105
+main.ts:35329
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:35105
 
 #### Defined in
 
-main.ts:35098
+main.ts:35322

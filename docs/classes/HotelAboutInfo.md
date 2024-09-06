@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:205709
+main.ts:205742
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about hotel amenities
 
 #### Defined in
 
-main.ts:205702
+main.ts:205735
 
 ***
 
@@ -64,7 +64,7 @@ check-in time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:205687
+main.ts:205720
 
 ***
 
@@ -81,7 +81,7 @@ check-out time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:205690
+main.ts:205723
 
 ***
 
@@ -98,7 +98,7 @@ the description of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:205681
+main.ts:205714
 
 ***
 
@@ -115,7 +115,7 @@ domain of the hotel’s website
 
 #### Defined in
 
-main.ts:205696
+main.ts:205729
 
 ***
 
@@ -132,7 +132,7 @@ address of the hotel indicated in the standardised format
 
 #### Defined in
 
-main.ts:205693
+main.ts:205726
 
 ***
 
@@ -149,7 +149,7 @@ information about hotel amenities labelled as “popular”
 
 #### Defined in
 
-main.ts:205705
+main.ts:205738
 
 ***
 
@@ -166,7 +166,7 @@ details about the hotel provided in addition to the description
 
 #### Defined in
 
-main.ts:205684
+main.ts:205717
 
 ***
 
@@ -183,7 +183,7 @@ URL to the hotel’s website indicated in the listing
 
 #### Defined in
 
-main.ts:205699
+main.ts:205732
 
 ## Methods
 
@@ -201,7 +201,7 @@ main.ts:205699
 
 #### Defined in
 
-main.ts:205718
+main.ts:205751
 
 ***
 
@@ -219,7 +219,7 @@ main.ts:205718
 
 #### Defined in
 
-main.ts:205755
+main.ts:205788
 
 ***
 
@@ -237,4 +237,4 @@ main.ts:205755
 
 #### Defined in
 
-main.ts:205748
+main.ts:205781

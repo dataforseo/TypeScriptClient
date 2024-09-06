@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:195945
+main.ts:195978
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:195945
 
 #### Defined in
 
-main.ts:21983
+main.ts:21988
 
 ***
 
@@ -68,7 +68,7 @@ id of the review
 
 #### Defined in
 
-main.ts:195937
+main.ts:195970
 
 ***
 
@@ -90,7 +90,7 @@ left, right
 
 #### Defined in
 
-main.ts:21977
+main.ts:21982
 
 ***
 
@@ -111,7 +111,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21973
+main.ts:21978
 
 ***
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21970
+main.ts:21975
 
 ***
 
@@ -152,7 +152,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21981
+main.ts:21986
 
 ***
 
@@ -168,7 +168,7 @@ content of the review
 
 #### Defined in
 
-main.ts:195939
+main.ts:195972
 
 ***
 
@@ -187,7 +187,7 @@ example:
 
 #### Defined in
 
-main.ts:195935
+main.ts:195968
 
 ***
 
@@ -207,7 +207,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21979
+main.ts:21984
 
 ***
 
@@ -227,7 +227,7 @@ type of element
 
 #### Defined in
 
-main.ts:21967
+main.ts:21972
 
 ***
 
@@ -243,7 +243,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:195941
+main.ts:195974
 
 ***
 
@@ -260,7 +260,7 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:195930
+main.ts:195963
 
 ## Methods
 
@@ -282,7 +282,7 @@ main.ts:195930
 
 #### Defined in
 
-main.ts:195950
+main.ts:195983
 
 ***
 
@@ -304,7 +304,7 @@ main.ts:195950
 
 #### Defined in
 
-main.ts:195972
+main.ts:196005
 
 ***
 
@@ -326,4 +326,4 @@ main.ts:195972
 
 #### Defined in
 
-main.ts:195965
+main.ts:195998

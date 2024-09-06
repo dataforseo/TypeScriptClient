@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:28922
+main.ts:28933
 
 ## Properties
 
@@ -70,7 +70,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:28911
+main.ts:28922
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28914
+main.ts:28925
 
 ***
 
@@ -170,7 +170,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28918
+main.ts:28929
 
 ***
 
@@ -186,7 +186,7 @@ title of the place
 
 #### Defined in
 
-main.ts:28907
+main.ts:28918
 
 ***
 
@@ -248,7 +248,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28927
+main.ts:28938
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:28927
 
 #### Defined in
 
-main.ts:28952
+main.ts:28963
 
 ***
 
@@ -292,4 +292,4 @@ main.ts:28952
 
 #### Defined in
 
-main.ts:28945
+main.ts:28956

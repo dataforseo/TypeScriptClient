@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:23965
+main.ts:23970
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:23965
 
 #### Defined in
 
-main.ts:23850
+main.ts:23855
 
 ***
 
@@ -68,7 +68,7 @@ lists available delivery services
 
 #### Defined in
 
-main.ts:23961
+main.ts:23966
 
 ***
 
@@ -88,7 +88,7 @@ type of element
 
 #### Defined in
 
-main.ts:23848
+main.ts:23853
 
 ## Methods
 
@@ -110,7 +110,7 @@ main.ts:23848
 
 #### Defined in
 
-main.ts:23970
+main.ts:23975
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:23970
 
 #### Defined in
 
-main.ts:23992
+main.ts:23997
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:23992
 
 #### Defined in
 
-main.ts:23985
+main.ts:23990

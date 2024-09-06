@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:92804
+main.ts:92837
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:92788
+main.ts:92821
 
 ***
 
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:92734
+main.ts:92767
 
 ***
 
@@ -115,7 +115,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:92720
+main.ts:92753
 
 ***
 
@@ -135,7 +135,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:92794
+main.ts:92827
 
 ***
 
@@ -158,7 +158,7 @@ default value:
 
 #### Defined in
 
-main.ts:92713
+main.ts:92746
 
 ***
 
@@ -180,7 +180,7 @@ en
 
 #### Defined in
 
-main.ts:92704
+main.ts:92737
 
 ***
 
@@ -202,7 +202,7 @@ English
 
 #### Defined in
 
-main.ts:92696
+main.ts:92729
 
 ***
 
@@ -221,7 +221,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:92756
+main.ts:92789
 
 ***
 
@@ -243,7 +243,7 @@ example:
 
 #### Defined in
 
-main.ts:92688
+main.ts:92721
 
 ***
 
@@ -265,7 +265,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:92680
+main.ts:92713
 
 ***
 
@@ -284,7 +284,7 @@ if you specify 10 here, we will extract competitors from the top 10 Google searc
 
 #### Defined in
 
-main.ts:92766
+main.ts:92799
 
 ***
 
@@ -303,7 +303,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:92761
+main.ts:92794
 
 ***
 
@@ -334,7 +334,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:92751
+main.ts:92784
 
 ***
 
@@ -354,7 +354,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:92800
+main.ts:92833
 
 ***
 
@@ -373,7 +373,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:92672
+main.ts:92705
 
 ## Methods
 
@@ -391,7 +391,7 @@ main.ts:92672
 
 #### Defined in
 
-main.ts:92813
+main.ts:92846
 
 ***
 
@@ -409,7 +409,7 @@ main.ts:92813
 
 #### Defined in
 
-main.ts:92860
+main.ts:92893
 
 ***
 
@@ -427,4 +427,4 @@ main.ts:92860
 
 #### Defined in
 
-main.ts:92853
+main.ts:92886

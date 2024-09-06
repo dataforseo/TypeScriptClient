@@ -20,7 +20,7 @@ number of backlinks
 
 #### Defined in
 
-main.ts:143707
+main.ts:143740
 
 ***
 
@@ -33,7 +33,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:143721
+main.ts:143754
 
 ***
 
@@ -46,7 +46,7 @@ number of broken backlinks pointing to the page
 
 #### Defined in
 
-main.ts:143724
+main.ts:143757
 
 ***
 
@@ -59,7 +59,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Defined in
 
-main.ts:143727
+main.ts:143760
 
 ***
 
@@ -74,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:143712
+main.ts:143745
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:143718
+main.ts:143751
 
 ***
 
@@ -105,7 +105,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:143705
+main.ts:143738
 
 ***
 
@@ -117,7 +117,7 @@ indicates the number domains referring to the page
 
 #### Defined in
 
-main.ts:143729
+main.ts:143762
 
 ***
 
@@ -129,7 +129,7 @@ number of domains pointing at least one nofollow link to the page
 
 #### Defined in
 
-main.ts:143731
+main.ts:143764
 
 ***
 
@@ -142,7 +142,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:143738
+main.ts:143771
 
 ***
 
@@ -159,7 +159,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:143753
+main.ts:143786
 
 ***
 
@@ -176,7 +176,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:143765
+main.ts:143798
 
 ***
 
@@ -193,7 +193,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:143756
+main.ts:143789
 
 ***
 
@@ -213,7 +213,7 @@ article, section, footer
 
 #### Defined in
 
-main.ts:143762
+main.ts:143795
 
 ***
 
@@ -230,7 +230,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:143745
+main.ts:143778
 
 ***
 
@@ -249,7 +249,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:143750
+main.ts:143783
 
 ***
 
@@ -261,7 +261,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:143733
+main.ts:143766
 
 ***
 
@@ -273,7 +273,7 @@ number of main domains pointing at least one nofollow link to the page
 
 #### Defined in
 
-main.ts:143735
+main.ts:143768
 
 ***
 
@@ -285,7 +285,7 @@ indicates the number of pages pointing to the relevant url
 
 #### Defined in
 
-main.ts:143742
+main.ts:143775
 
 ***
 
@@ -297,7 +297,7 @@ number of referring pages pointing at least one nofollow link to the page
 
 #### Defined in
 
-main.ts:143767
+main.ts:143800
 
 ***
 
@@ -309,7 +309,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:143740
+main.ts:143773
 
 ***
 
@@ -321,7 +321,7 @@ type of element
 
 #### Defined in
 
-main.ts:143698
+main.ts:143731
 
 ***
 
@@ -333,4 +333,4 @@ page URL
 
 #### Defined in
 
-main.ts:143700
+main.ts:143733

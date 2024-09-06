@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:161662
+main.ts:161695
 
 ## Properties
 
@@ -46,7 +46,7 @@ content author name
 
 #### Defined in
 
-main.ts:161646
+main.ts:161679
 
 ***
 
@@ -62,7 +62,7 @@ meta title
 
 #### Defined in
 
-main.ts:161642
+main.ts:161675
 
 ***
 
@@ -78,7 +78,7 @@ content language
 
 #### Defined in
 
-main.ts:161648
+main.ts:161681
 
 ***
 
@@ -94,7 +94,7 @@ HTML level
 
 #### Defined in
 
-main.ts:161650
+main.ts:161683
 
 ***
 
@@ -110,7 +110,7 @@ main title of the block
 
 #### Defined in
 
-main.ts:161644
+main.ts:161677
 
 ***
 
@@ -127,7 +127,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161653
+main.ts:161686
 
 ***
 
@@ -144,7 +144,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161656
+main.ts:161689
 
 ***
 
@@ -160,7 +160,7 @@ content of the table on the page
 
 #### Defined in
 
-main.ts:161658
+main.ts:161691
 
 ## Methods
 
@@ -178,7 +178,7 @@ main.ts:161658
 
 #### Defined in
 
-main.ts:161671
+main.ts:161704
 
 ***
 
@@ -196,7 +196,7 @@ main.ts:161671
 
 #### Defined in
 
-main.ts:161707
+main.ts:161740
 
 ***
 
@@ -214,4 +214,4 @@ main.ts:161707
 
 #### Defined in
 
-main.ts:161700
+main.ts:161733

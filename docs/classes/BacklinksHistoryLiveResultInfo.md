@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:139908
+main.ts:139941
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:139893
+main.ts:139926
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:139898
+main.ts:139931
 
 ***
 
@@ -86,7 +86,7 @@ the metrics are aggregated according to the backlinks the specified domain had o
 
 #### Defined in
 
-main.ts:139904
+main.ts:139937
 
 ***
 
@@ -102,7 +102,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:139900
+main.ts:139933
 
 ***
 
@@ -118,7 +118,7 @@ target from the POST array
 
 #### Defined in
 
-main.ts:139888
+main.ts:139921
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:139888
 
 #### Defined in
 
-main.ts:139917
+main.ts:139950
 
 ***
 
@@ -154,7 +154,7 @@ main.ts:139917
 
 #### Defined in
 
-main.ts:139942
+main.ts:139975
 
 ***
 
@@ -172,4 +172,4 @@ main.ts:139942
 
 #### Defined in
 
-main.ts:139935
+main.ts:139968

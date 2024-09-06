@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:204203
+main.ts:204236
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:204188
+main.ts:204221
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:204193
+main.ts:204226
 
 ***
 
@@ -83,7 +83,7 @@ note: this field always equals null; use it to facilitate integration and ensure
 
 #### Defined in
 
-main.ts:204199
+main.ts:204232
 
 ***
 
@@ -100,7 +100,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:204196
+main.ts:204229
 
 ***
 
@@ -118,7 +118,7 @@ in order to obtain accurate search results, the location name is appended to the
 
 #### Defined in
 
-main.ts:204181
+main.ts:204214
 
 ***
 
@@ -134,7 +134,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:204185
+main.ts:204218
 
 ***
 
@@ -150,7 +150,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:204183
+main.ts:204216
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:204183
 
 #### Defined in
 
-main.ts:204212
+main.ts:204245
 
 ***
 
@@ -186,7 +186,7 @@ main.ts:204212
 
 #### Defined in
 
-main.ts:204239
+main.ts:204272
 
 ***
 
@@ -204,4 +204,4 @@ main.ts:204239
 
 #### Defined in
 
-main.ts:204232
+main.ts:204265

@@ -22,7 +22,7 @@ learn more about the identified in this help center guide
 
 #### Defined in
 
-main.ts:182607
+main.ts:182640
 
 ***
 
@@ -35,7 +35,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:182618
+main.ts:182651
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:182623
+main.ts:182656
 
 ***
 
@@ -65,7 +65,7 @@ amazon_product_info
 
 #### Defined in
 
-main.ts:182628
+main.ts:182661
 
 ***
 
@@ -77,7 +77,7 @@ Amazon product info items
 
 #### Defined in
 
-main.ts:182632
+main.ts:182665
 
 ***
 
@@ -89,7 +89,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:182630
+main.ts:182663
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:182615
+main.ts:182648
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:182613
+main.ts:182646
 
 ***
 
@@ -125,7 +125,7 @@ Amazon domain in a POST array
 
 #### Defined in
 
-main.ts:182611
+main.ts:182644
 
 ***
 
@@ -137,4 +137,4 @@ type of element
 
 #### Defined in
 
-main.ts:182609
+main.ts:182642

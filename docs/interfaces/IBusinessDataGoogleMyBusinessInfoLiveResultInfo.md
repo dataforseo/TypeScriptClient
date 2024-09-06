@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:202128
+main.ts:202161
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:202133
+main.ts:202166
 
 ***
 
@@ -50,7 +50,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:202137
+main.ts:202170
 
 ***
 
@@ -64,7 +64,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:202144
+main.ts:202177
 
 ***
 
@@ -77,7 +77,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:202140
+main.ts:202173
 
 ***
 
@@ -94,7 +94,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:202119
+main.ts:202152
 
 ***
 
@@ -106,7 +106,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:202125
+main.ts:202158
 
 ***
 
@@ -118,7 +118,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:202123
+main.ts:202156
 
 ***
 
@@ -130,4 +130,4 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:202121
+main.ts:202154

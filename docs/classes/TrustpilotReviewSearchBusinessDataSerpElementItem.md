@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:211768
+main.ts:211801
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:211768
 
 #### Defined in
 
-main.ts:21308
+main.ts:21313
 
 ***
 
@@ -68,7 +68,7 @@ the language of the review
 
 #### Defined in
 
-main.ts:211747
+main.ts:211780
 
 ***
 
@@ -85,7 +85,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:211739
+main.ts:211772
 
 ***
 
@@ -105,7 +105,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21306
+main.ts:21311
 
 ***
 
@@ -126,7 +126,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21304
+main.ts:21309
 
 ***
 
@@ -142,7 +142,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:211743
+main.ts:211776
 
 ***
 
@@ -158,7 +158,7 @@ owner’s response to the submitted review
 
 #### Defined in
 
-main.ts:211764
+main.ts:211797
 
 ***
 
@@ -176,7 +176,7 @@ please note that Trustpilot doesn’t allow adding images to reviews, so the rev
 
 #### Defined in
 
-main.ts:211760
+main.ts:211793
 
 ***
 
@@ -192,7 +192,7 @@ the content of the review
 
 #### Defined in
 
-main.ts:211756
+main.ts:211789
 
 ***
 
@@ -211,7 +211,7 @@ example:
 
 #### Defined in
 
-main.ts:211752
+main.ts:211785
 
 ***
 
@@ -227,7 +227,7 @@ the title of the review
 
 #### Defined in
 
-main.ts:211754
+main.ts:211787
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Defined in
 
-main.ts:21301
+main.ts:21306
 
 ***
 
@@ -263,7 +263,7 @@ the URL of the review
 
 #### Defined in
 
-main.ts:211741
+main.ts:211774
 
 ***
 
@@ -279,7 +279,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:211762
+main.ts:211795
 
 ***
 
@@ -295,7 +295,7 @@ indicates whether the review has the “Verified” mark
 
 #### Defined in
 
-main.ts:211745
+main.ts:211778
 
 ## Methods
 
@@ -317,7 +317,7 @@ main.ts:211745
 
 #### Defined in
 
-main.ts:211773
+main.ts:211806
 
 ***
 
@@ -339,7 +339,7 @@ main.ts:211773
 
 #### Defined in
 
-main.ts:211809
+main.ts:211842
 
 ***
 
@@ -361,4 +361,4 @@ main.ts:211809
 
 #### Defined in
 
-main.ts:211802
+main.ts:211835

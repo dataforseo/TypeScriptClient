@@ -20,7 +20,7 @@ id of the competitor app
 
 #### Defined in
 
-main.ts:115199
+main.ts:115232
 
 ***
 
@@ -34,7 +34,7 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:115203
+main.ts:115236
 
 ***
 
@@ -48,7 +48,7 @@ note: in this array ranking data is provided for the returned competitor’s app
 
 #### Defined in
 
-main.ts:115213
+main.ts:115246
 
 ***
 
@@ -61,7 +61,7 @@ full overview of ranking data relevant to all keywords that the provided app_id 
 
 #### Defined in
 
-main.ts:115216
+main.ts:115249
 
 ***
 
@@ -73,7 +73,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:115209
+main.ts:115242
 
 ***
 
@@ -85,7 +85,7 @@ search engine type
 
 #### Defined in
 
-main.ts:115197
+main.ts:115230
 
 ***
 
@@ -99,4 +99,4 @@ the value for a given application may differ when combined with different target
 
 #### Defined in
 
-main.ts:115207
+main.ts:115240

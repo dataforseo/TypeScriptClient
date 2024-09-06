@@ -30,7 +30,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:91524
+main.ts:91557
 
 ***
 
@@ -43,7 +43,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:91511
+main.ts:91544
 
 ***
 
@@ -55,7 +55,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:91552
+main.ts:91585
 
 ***
 
@@ -67,7 +67,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:91492
+main.ts:91525
 
 ***
 
@@ -82,7 +82,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91547
+main.ts:91580
 
 ***
 
@@ -94,7 +94,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:91504
+main.ts:91537
 
 ***
 
@@ -106,7 +106,7 @@ subdomain in SERP
 
 #### Defined in
 
-main.ts:91486
+main.ts:91519
 
 ***
 
@@ -120,7 +120,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91542
+main.ts:91575
 
 ***
 
@@ -135,7 +135,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91533
+main.ts:91566
 
 ***
 
@@ -147,7 +147,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:91508
+main.ts:91541
 
 ***
 
@@ -159,7 +159,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:91516
+main.ts:91549
 
 ***
 
@@ -174,7 +174,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91538
+main.ts:91571
 
 ***
 
@@ -186,7 +186,7 @@ indicates whether the element is a featured_snippet
 
 #### Defined in
 
-main.ts:91500
+main.ts:91533
 
 ***
 
@@ -198,7 +198,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:91496
+main.ts:91529
 
 ***
 
@@ -210,7 +210,7 @@ indicates whether the element is marked as malicious
 
 #### Defined in
 
-main.ts:91502
+main.ts:91535
 
 ***
 
@@ -222,7 +222,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:91498
+main.ts:91531
 
 ***
 
@@ -236,7 +236,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:91520
+main.ts:91553
 
 ***
 
@@ -248,7 +248,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:91526
+main.ts:91559
 
 ***
 
@@ -266,7 +266,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -278,7 +278,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:91506
+main.ts:91539
 
 ***
 
@@ -295,7 +295,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -308,7 +308,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-main.ts:91550
+main.ts:91583
 
 ***
 
@@ -325,7 +325,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -337,7 +337,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:91554
+main.ts:91587
 
 ***
 
@@ -350,7 +350,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:91514
+main.ts:91547
 
 ***
 
@@ -362,7 +362,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:91528
+main.ts:91561
 
 ***
 
@@ -374,7 +374,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91484
+main.ts:91517
 
 ***
 
@@ -386,7 +386,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:91488
+main.ts:91521
 
 ***
 
@@ -402,7 +402,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -414,7 +414,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:91490
+main.ts:91523
 
 ***
 
@@ -426,7 +426,7 @@ relevant website name in SERP
 
 #### Defined in
 
-main.ts:91494
+main.ts:91527
 
 ***
 
@@ -442,4 +442,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

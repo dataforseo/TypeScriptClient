@@ -27,7 +27,7 @@ specify one of the following amazon departments for extracting product listings:
 
 #### Defined in
 
-main.ts:179934
+main.ts:179967
 
 ***
 
@@ -50,7 +50,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:153096
+main.ts:153129
 
 ***
 
@@ -71,7 +71,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:153029
+main.ts:153062
 
 ***
 
@@ -92,7 +92,7 @@ en
 
 #### Defined in
 
-main.ts:153080
+main.ts:153113
 
 ***
 
@@ -113,7 +113,7 @@ English
 
 #### Defined in
 
-main.ts:153073
+main.ts:153106
 
 ***
 
@@ -134,7 +134,7 @@ example:
 
 #### Defined in
 
-main.ts:153057
+main.ts:153090
 
 ***
 
@@ -157,7 +157,7 @@ example:
 
 #### Defined in
 
-main.ts:153066
+main.ts:153099
 
 ***
 
@@ -178,7 +178,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:153050
+main.ts:153083
 
 ***
 
@@ -199,7 +199,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:153103
+main.ts:153136
 
 ***
 
@@ -223,7 +223,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:153165
+main.ts:153198
 
 ***
 
@@ -243,7 +243,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:153155
+main.ts:153188
 
 ***
 
@@ -267,7 +267,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:153149
+main.ts:153182
 
 ***
 
@@ -287,7 +287,7 @@ example:
 
 #### Defined in
 
-main.ts:153126
+main.ts:153159
 
 ***
 
@@ -307,7 +307,7 @@ example:
 
 #### Defined in
 
-main.ts:153120
+main.ts:153153
 
 ***
 
@@ -329,7 +329,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:153043
+main.ts:153076
 
 ***
 
@@ -350,7 +350,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:153087
+main.ts:153120
 
 ***
 
@@ -375,7 +375,7 @@ example:
 
 #### Defined in
 
-main.ts:153114
+main.ts:153147
 
 ***
 
@@ -396,7 +396,7 @@ sort_by:"review_score"
 
 #### Defined in
 
-main.ts:153133
+main.ts:153166
 
 ***
 
@@ -416,7 +416,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:153139
+main.ts:153172
 
 ***
 
@@ -436,4 +436,4 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
-main.ts:153035
+main.ts:153068

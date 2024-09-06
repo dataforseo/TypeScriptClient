@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:28536
+main.ts:28544
 
 ## Properties
 
@@ -46,7 +46,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:28519
+main.ts:28526
 
 ***
 
@@ -62,7 +62,7 @@ title of a given element
 
 #### Defined in
 
-main.ts:28515
+main.ts:28522
 
 ***
 
@@ -78,7 +78,7 @@ images of the element
 
 #### Defined in
 
-main.ts:28525
+main.ts:28532
 
 ***
 
@@ -94,7 +94,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:28523
+main.ts:28530
 
 ***
 
@@ -102,7 +102,8 @@ main.ts:28523
 
 > `optional` **table**: [`Table`](Table.md)
 
-table element
+results table
+if there are none, equals null
 
 #### Implementation of
 
@@ -110,7 +111,7 @@ table element
 
 #### Defined in
 
-main.ts:28532
+main.ts:28540
 
 ***
 
@@ -129,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:28530
+main.ts:28537
 
 ***
 
@@ -145,7 +146,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:28521
+main.ts:28528
 
 ***
 
@@ -161,7 +162,7 @@ type of element
 
 #### Defined in
 
-main.ts:28513
+main.ts:28520
 
 ***
 
@@ -177,7 +178,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:28517
+main.ts:28524
 
 ## Methods
 
@@ -195,7 +196,7 @@ main.ts:28517
 
 #### Defined in
 
-main.ts:28545
+main.ts:28553
 
 ***
 
@@ -213,7 +214,7 @@ main.ts:28545
 
 #### Defined in
 
-main.ts:28574
+main.ts:28582
 
 ***
 
@@ -231,4 +232,4 @@ main.ts:28574
 
 #### Defined in
 
-main.ts:28567
+main.ts:28575

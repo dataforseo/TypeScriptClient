@@ -27,7 +27,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:97575
+main.ts:97608
 
 ***
 
@@ -39,7 +39,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:97536
+main.ts:97569
 
 ***
 
@@ -51,7 +51,7 @@ website domain
 
 #### Defined in
 
-main.ts:97538
+main.ts:97571
 
 ***
 
@@ -66,7 +66,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97566
+main.ts:97599
 
 ***
 
@@ -81,7 +81,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97556
+main.ts:97589
 
 ***
 
@@ -96,7 +96,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97561
+main.ts:97594
 
 ***
 
@@ -108,7 +108,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:97544
+main.ts:97577
 
 ***
 
@@ -120,7 +120,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:97549
+main.ts:97582
 
 ***
 
@@ -132,7 +132,7 @@ phone number
 
 #### Defined in
 
-main.ts:97540
+main.ts:97573
 
 ***
 
@@ -150,7 +150,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -167,7 +167,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -181,7 +181,7 @@ Note: the changes are calculated even if the preceding month is not included in 
 
 #### Defined in
 
-main.ts:97570
+main.ts:97603
 
 ***
 
@@ -198,7 +198,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -211,7 +211,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:97547
+main.ts:97580
 
 ***
 
@@ -223,7 +223,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:97551
+main.ts:97584
 
 ***
 
@@ -235,7 +235,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97534
+main.ts:97567
 
 ***
 
@@ -251,7 +251,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -263,7 +263,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:97542
+main.ts:97575
 
 ***
 
@@ -279,4 +279,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

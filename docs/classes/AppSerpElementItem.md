@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:31012
+main.ts:31274
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`AppElement`](AppElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:31004
+main.ts:31266
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31008
+main.ts:31270
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:31017
+main.ts:31279
 
 ***
 
@@ -236,7 +235,7 @@ main.ts:31017
 
 #### Defined in
 
-main.ts:31040
+main.ts:31302
 
 ***
 
@@ -258,4 +257,4 @@ main.ts:31040
 
 #### Defined in
 
-main.ts:31033
+main.ts:31295

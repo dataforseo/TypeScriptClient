@@ -32,7 +32,7 @@ featured price offers
 
 #### Defined in
 
-main.ts:203736
+main.ts:203769
 
 ## Properties
 
@@ -49,7 +49,7 @@ USD is applied by default, unless specified in the POST array
 
 #### Defined in
 
-main.ts:203719
+main.ts:203752
 
 ***
 
@@ -67,7 +67,7 @@ equals null if free cancellation is not available for the selected dates
 
 #### Defined in
 
-main.ts:203732
+main.ts:203765
 
 ***
 
@@ -84,7 +84,7 @@ the maximum number of visitors for which the price offer is valid
 
 #### Defined in
 
-main.ts:203725
+main.ts:203758
 
 ***
 
@@ -101,7 +101,7 @@ URLs of the images featured in the price offer
 
 #### Defined in
 
-main.ts:203728
+main.ts:203761
 
 ***
 
@@ -117,7 +117,7 @@ price per night
 
 #### Defined in
 
-main.ts:203716
+main.ts:203749
 
 ***
 
@@ -133,7 +133,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:203714
+main.ts:203747
 
 ***
 
@@ -149,7 +149,7 @@ type of element
 
 #### Defined in
 
-main.ts:203712
+main.ts:203745
 
 ***
 
@@ -166,7 +166,7 @@ URL to the page of the website where price offer appears
 
 #### Defined in
 
-main.ts:203722
+main.ts:203755
 
 ## Methods
 
@@ -184,7 +184,7 @@ main.ts:203722
 
 #### Defined in
 
-main.ts:203745
+main.ts:203778
 
 ***
 
@@ -202,7 +202,7 @@ main.ts:203745
 
 #### Defined in
 
-main.ts:203773
+main.ts:203806
 
 ***
 
@@ -220,4 +220,4 @@ main.ts:203773
 
 #### Defined in
 
-main.ts:203766
+main.ts:203799

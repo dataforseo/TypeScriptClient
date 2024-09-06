@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:207247
+main.ts:207280
 
 ***
 
@@ -36,7 +36,7 @@ additional parameters of each element of the location chain
 
 #### Defined in
 
-main.ts:207255
+main.ts:207288
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:207252
+main.ts:207285
 
 ***
 
@@ -63,7 +63,7 @@ url to the location of the hotel in google maps
 
 #### Defined in
 
-main.ts:207234
+main.ts:207267
 
 ***
 
@@ -75,7 +75,7 @@ name of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:207230
+main.ts:207263
 
 ***
 
@@ -87,7 +87,7 @@ description of the neighborhood where the hotel is located
 
 #### Defined in
 
-main.ts:207232
+main.ts:207265
 
 ***
 
@@ -102,7 +102,7 @@ note that the criteria are not weighted equally in the overall score
 
 #### Defined in
 
-main.ts:207239
+main.ts:207272
 
 ***
 
@@ -115,4 +115,4 @@ the scores of the hotel’s location tied to the categories that indicate the pr
 
 #### Defined in
 
-main.ts:207242
+main.ts:207275

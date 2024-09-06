@@ -20,7 +20,7 @@ relevant pages and related data
 
 #### Defined in
 
-main.ts:110256
+main.ts:110289
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:110254
+main.ts:110287
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:110250
+main.ts:110283
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:110247
+main.ts:110280
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:110242
+main.ts:110275
 
 ***
 
@@ -82,7 +82,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:110244
+main.ts:110277
 
 ***
 
@@ -94,4 +94,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:110252
+main.ts:110285

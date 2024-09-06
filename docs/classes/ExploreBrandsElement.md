@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:35539
+main.ts:35759
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:35531
+main.ts:35750
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Defined in
 
-main.ts:35529
+main.ts:35748
 
 ***
 
@@ -71,6 +71,7 @@ main.ts:35529
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
@@ -78,7 +79,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:35533
+main.ts:35753
 
 ***
 
@@ -94,7 +95,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35525
+main.ts:35744
 
 ***
 
@@ -110,7 +111,7 @@ type of element
 
 #### Defined in
 
-main.ts:35523
+main.ts:35742
 
 ***
 
@@ -126,7 +127,7 @@ URL
 
 #### Defined in
 
-main.ts:35527
+main.ts:35746
 
 ***
 
@@ -142,7 +143,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35535
+main.ts:35755
 
 ## Methods
 
@@ -160,7 +161,7 @@ main.ts:35535
 
 #### Defined in
 
-main.ts:35548
+main.ts:35768
 
 ***
 
@@ -178,7 +179,7 @@ main.ts:35548
 
 #### Defined in
 
-main.ts:35571
+main.ts:35791
 
 ***
 
@@ -196,4 +197,4 @@ main.ts:35571
 
 #### Defined in
 
-main.ts:35564
+main.ts:35784

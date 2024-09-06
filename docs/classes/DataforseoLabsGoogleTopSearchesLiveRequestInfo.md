@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:89852
+main.ts:89885
 
 ## Properties
 
@@ -63,7 +63,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:89807
+main.ts:89840
 
 ***
 
@@ -82,7 +82,7 @@ default value: false
 
 #### Defined in
 
-main.ts:89788
+main.ts:89821
 
 ***
 
@@ -103,7 +103,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:89783
+main.ts:89816
 
 ***
 
@@ -122,7 +122,7 @@ default value: false
 
 #### Defined in
 
-main.ts:89776
+main.ts:89809
 
 ***
 
@@ -144,7 +144,7 @@ en
 
 #### Defined in
 
-main.ts:89771
+main.ts:89804
 
 ***
 
@@ -166,7 +166,7 @@ English
 
 #### Defined in
 
-main.ts:89763
+main.ts:89796
 
 ***
 
@@ -186,7 +186,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:89835
+main.ts:89868
 
 ***
 
@@ -208,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:89755
+main.ts:89788
 
 ***
 
@@ -230,7 +230,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:89747
+main.ts:89780
 
 ***
 
@@ -249,7 +249,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:89840
+main.ts:89873
 
 ***
 
@@ -271,7 +271,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:89848
+main.ts:89881
 
 ***
 
@@ -301,7 +301,7 @@ example:
 
 #### Defined in
 
-main.ts:89823
+main.ts:89856
 
 ***
 
@@ -321,7 +321,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:89829
+main.ts:89862
 
 ## Methods
 
@@ -339,7 +339,7 @@ main.ts:89829
 
 #### Defined in
 
-main.ts:89861
+main.ts:89894
 
 ***
 
@@ -357,7 +357,7 @@ main.ts:89861
 
 #### Defined in
 
-main.ts:89898
+main.ts:89931
 
 ***
 
@@ -375,4 +375,4 @@ main.ts:89898
 
 #### Defined in
 
-main.ts:89891
+main.ts:89924

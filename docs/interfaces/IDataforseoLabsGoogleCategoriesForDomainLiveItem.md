@@ -21,7 +21,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:87860
+main.ts:87893
 
 ***
 
@@ -37,7 +37,7 @@ ranking data relevant to the specified domain or subdomain
 
 #### Defined in
 
-main.ts:87862
+main.ts:87895
 
 ***
 
@@ -49,4 +49,4 @@ search engine type
 
 #### Defined in
 
-main.ts:87857
+main.ts:87890

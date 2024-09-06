@@ -20,7 +20,7 @@ asin received in a POST array
 
 #### Defined in
 
-main.ts:185296
+main.ts:185329
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:185307
+main.ts:185340
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:185312
+main.ts:185345
 
 ***
 
@@ -60,7 +60,7 @@ product image data
 
 #### Defined in
 
-main.ts:185320
+main.ts:185353
 
 ***
 
@@ -75,7 +75,7 @@ amazon_review_item
 
 #### Defined in
 
-main.ts:185330
+main.ts:185363
 
 ***
 
@@ -88,7 +88,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185336
+main.ts:185369
 
 ***
 
@@ -101,7 +101,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185333
+main.ts:185366
 
 ***
 
@@ -113,7 +113,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185304
+main.ts:185337
 
 ***
 
@@ -125,7 +125,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185302
+main.ts:185335
 
 ***
 
@@ -138,7 +138,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:185323
+main.ts:185356
 
 ***
 
@@ -150,7 +150,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:185325
+main.ts:185358
 
 ***
 
@@ -162,7 +162,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185300
+main.ts:185333
 
 ***
 
@@ -175,7 +175,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:185315
+main.ts:185348
 
 ***
 
@@ -188,7 +188,7 @@ the title of the product for which the reviews are collected
 
 #### Defined in
 
-main.ts:185318
+main.ts:185351
 
 ***
 
@@ -200,4 +200,4 @@ type of element
 
 #### Defined in
 
-main.ts:185298
+main.ts:185331

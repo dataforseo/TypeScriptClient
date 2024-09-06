@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:142332
+main.ts:142365
 
 ## Properties
 
@@ -46,7 +46,7 @@ canonical page
 
 #### Defined in
 
-main.ts:142288
+main.ts:142321
 
 ***
 
@@ -64,7 +64,7 @@ utf-8
 
 #### Defined in
 
-main.ts:142324
+main.ts:142357
 
 ***
 
@@ -80,7 +80,7 @@ number of external links on the page
 
 #### Defined in
 
-main.ts:142292
+main.ts:142325
 
 ***
 
@@ -97,7 +97,7 @@ content of h1 tags
 
 #### Defined in
 
-main.ts:142306
+main.ts:142339
 
 ***
 
@@ -114,7 +114,7 @@ content of h2 tags
 
 #### Defined in
 
-main.ts:142309
+main.ts:142342
 
 ***
 
@@ -131,7 +131,7 @@ content of h3 tags
 
 #### Defined in
 
-main.ts:142312
+main.ts:142345
 
 ***
 
@@ -147,7 +147,7 @@ content of alt tags
 
 #### Defined in
 
-main.ts:142314
+main.ts:142347
 
 ***
 
@@ -163,7 +163,7 @@ number of images on the page
 
 #### Defined in
 
-main.ts:142294
+main.ts:142327
 
 ***
 
@@ -179,7 +179,7 @@ number of internal links on the page
 
 #### Defined in
 
-main.ts:142290
+main.ts:142323
 
 ***
 
@@ -197,7 +197,7 @@ en
 
 #### Defined in
 
-main.ts:142320
+main.ts:142353
 
 ***
 
@@ -214,7 +214,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:142299
+main.ts:142332
 
 ***
 
@@ -230,7 +230,7 @@ type of a platform
 
 #### Defined in
 
-main.ts:142326
+main.ts:142359
 
 ***
 
@@ -246,7 +246,7 @@ CMS details
 
 #### Defined in
 
-main.ts:142316
+main.ts:142349
 
 ***
 
@@ -268,7 +268,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Defined in
 
-main.ts:142303
+main.ts:142336
 
 ***
 
@@ -288,7 +288,7 @@ website technologies
 
 #### Defined in
 
-main.ts:142328
+main.ts:142361
 
 ***
 
@@ -304,7 +304,7 @@ page title
 
 #### Defined in
 
-main.ts:142286
+main.ts:142319
 
 ***
 
@@ -320,7 +320,7 @@ number of words on the page
 
 #### Defined in
 
-main.ts:142296
+main.ts:142329
 
 ## Methods
 
@@ -338,7 +338,7 @@ main.ts:142296
 
 #### Defined in
 
-main.ts:142341
+main.ts:142374
 
 ***
 
@@ -356,7 +356,7 @@ main.ts:142341
 
 #### Defined in
 
-main.ts:142410
+main.ts:142443
 
 ***
 
@@ -374,4 +374,4 @@ main.ts:142410
 
 #### Defined in
 
-main.ts:142403
+main.ts:142436

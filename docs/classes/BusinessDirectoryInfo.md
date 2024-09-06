@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:201318
+main.ts:201351
 
 ## Properties
 
@@ -48,7 +48,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:201314
+main.ts:201347
 
 ***
 
@@ -65,7 +65,7 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:201310
+main.ts:201343
 
 ## Methods
 
@@ -83,7 +83,7 @@ main.ts:201310
 
 #### Defined in
 
-main.ts:201327
+main.ts:201360
 
 ***
 
@@ -101,7 +101,7 @@ main.ts:201327
 
 #### Defined in
 
-main.ts:201349
+main.ts:201382
 
 ***
 
@@ -119,4 +119,4 @@ main.ts:201349
 
 #### Defined in
 
-main.ts:201342
+main.ts:201375

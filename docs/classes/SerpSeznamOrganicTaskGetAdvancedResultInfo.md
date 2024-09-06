@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:74159
+main.ts:74192
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:74135
+main.ts:74168
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:74140
+main.ts:74173
 
 ***
 
@@ -85,7 +85,7 @@ images, local_pack, organic, related_searches, top_stories, featured_snippet, vi
 
 #### Defined in
 
-main.ts:74148
+main.ts:74181
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:74155
+main.ts:74188
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:74152
+main.ts:74185
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:74124
+main.ts:74157
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:74132
+main.ts:74165
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:74130
+main.ts:74163
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:74128
+main.ts:74161
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:74150
+main.ts:74183
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:74143
+main.ts:74176
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:74126
+main.ts:74159
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:74126
 
 #### Defined in
 
-main.ts:74168
+main.ts:74201
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:74168
 
 #### Defined in
 
-main.ts:74204
+main.ts:74237
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:74204
 
 #### Defined in
 
-main.ts:74197
+main.ts:74230

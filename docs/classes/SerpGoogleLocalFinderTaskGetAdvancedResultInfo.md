@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:41874
+main.ts:41907
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided exact results
 
 #### Defined in
 
-main.ts:41851
+main.ts:41884
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:41856
+main.ts:41889
 
 ***
 
@@ -85,7 +85,7 @@ local_pack
 
 #### Defined in
 
-main.ts:41864
+main.ts:41897
 
 ***
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:41870
+main.ts:41903
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:41868
+main.ts:41901
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:41840
+main.ts:41873
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:41848
+main.ts:41881
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:41846
+main.ts:41879
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:41844
+main.ts:41877
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:41866
+main.ts:41899
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:41859
+main.ts:41892
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:41842
+main.ts:41875
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:41842
 
 #### Defined in
 
-main.ts:41883
+main.ts:41916
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:41883
 
 #### Defined in
 
-main.ts:41919
+main.ts:41952
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:41919
 
 #### Defined in
 
-main.ts:41912
+main.ts:41945

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:90619
+main.ts:90652
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:90615
+main.ts:90648
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:90613
+main.ts:90646
 
 ***
 
@@ -78,7 +78,7 @@ search engine type
 
 #### Defined in
 
-main.ts:90609
+main.ts:90642
 
 ***
 
@@ -94,7 +94,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:90611
+main.ts:90644
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:90611
 
 #### Defined in
 
-main.ts:90628
+main.ts:90661
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:90628
 
 #### Defined in
 
-main.ts:90652
+main.ts:90685
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:90652
 
 #### Defined in
 
-main.ts:90645
+main.ts:90678

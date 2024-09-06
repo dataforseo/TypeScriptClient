@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:171820
+main.ts:171853
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:171810
+main.ts:171843
 
 ***
 
@@ -67,7 +67,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:171805
+main.ts:171838
 
 ***
 
@@ -85,7 +85,7 @@ see the List of Languages for Content Generation Text Summary API
 
 #### Defined in
 
-main.ts:171801
+main.ts:171834
 
 ***
 
@@ -105,7 +105,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:171816
+main.ts:171849
 
 ***
 
@@ -124,7 +124,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:171797
+main.ts:171830
 
 ## Methods
 
@@ -142,7 +142,7 @@ main.ts:171797
 
 #### Defined in
 
-main.ts:171829
+main.ts:171862
 
 ***
 
@@ -160,7 +160,7 @@ main.ts:171829
 
 #### Defined in
 
-main.ts:171850
+main.ts:171883
 
 ***
 
@@ -178,4 +178,4 @@ main.ts:171850
 
 #### Defined in
 
-main.ts:171843
+main.ts:171876

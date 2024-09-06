@@ -31,7 +31,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:134276
+main.ts:134309
 
 ***
 
@@ -54,7 +54,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:134289
+main.ts:134322
 
 ***
 
@@ -70,7 +70,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 #### Defined in
 
-main.ts:134254
+main.ts:134287
 
 ***
 
@@ -86,7 +86,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:134216
+main.ts:134249
 
 ***
 
@@ -101,7 +101,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:134248
+main.ts:134281
 
 ***
 
@@ -116,7 +116,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:134243
+main.ts:134276
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:134230
+main.ts:134263
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:134238
+main.ts:134271
 
 ***
 
@@ -168,7 +168,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:134223
+main.ts:134256
 
 ***
 
@@ -187,7 +187,7 @@ default value:  monthly
 
 #### Defined in
 
-main.ts:134263
+main.ts:134296
 
 ***
 
@@ -207,7 +207,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:134309
+main.ts:134342
 
 ***
 
@@ -227,7 +227,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:134299
+main.ts:134332
 
 ***
 
@@ -243,4 +243,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:134315
+main.ts:134348

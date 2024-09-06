@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:210924
+main.ts:210957
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:210924
 
 #### Defined in
 
-main.ts:21308
+main.ts:21313
 
 ***
 
@@ -68,7 +68,7 @@ domain of the establishment
 
 #### Defined in
 
-main.ts:210914
+main.ts:210947
 
 ***
 
@@ -88,7 +88,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21306
+main.ts:21311
 
 ***
 
@@ -109,7 +109,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21304
+main.ts:21309
 
 ***
 
@@ -125,7 +125,7 @@ the rating score of the establishment submitted by reviewers
 
 #### Defined in
 
-main.ts:210920
+main.ts:210953
 
 ***
 
@@ -141,7 +141,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:210918
+main.ts:210951
 
 ***
 
@@ -157,7 +157,7 @@ title of the establishment
 
 #### Defined in
 
-main.ts:210912
+main.ts:210945
 
 ***
 
@@ -177,7 +177,7 @@ type of element
 
 #### Defined in
 
-main.ts:21301
+main.ts:21306
 
 ***
 
@@ -193,7 +193,7 @@ URL to the establishment
 
 #### Defined in
 
-main.ts:210916
+main.ts:210949
 
 ## Methods
 
@@ -215,7 +215,7 @@ main.ts:210916
 
 #### Defined in
 
-main.ts:210929
+main.ts:210962
 
 ***
 
@@ -237,7 +237,7 @@ main.ts:210929
 
 #### Defined in
 
-main.ts:210951
+main.ts:210984
 
 ***
 
@@ -259,4 +259,4 @@ main.ts:210951
 
 #### Defined in
 
-main.ts:210944
+main.ts:210977

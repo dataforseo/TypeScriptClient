@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:159885
+main.ts:159918
 
 ***
 
@@ -40,7 +40,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159897
+main.ts:159930
 
 ***
 
@@ -56,4 +56,4 @@ https://dataforseo.com/apis
 
 #### Defined in
 
-main.ts:159891
+main.ts:159924

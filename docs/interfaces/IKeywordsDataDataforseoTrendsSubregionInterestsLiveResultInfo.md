@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:126554
+main.ts:126587
 
 ***
 
@@ -36,7 +36,7 @@ values in this array represent percentages relative to the maximum value within 
 
 #### Defined in
 
-main.ts:126559
+main.ts:126592
 
 ***
 
@@ -48,7 +48,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:126556
+main.ts:126589
 
 ***
 
@@ -60,7 +60,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:126541
+main.ts:126574
 
 ***
 
@@ -73,7 +73,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126549
+main.ts:126582
 
 ***
 
@@ -86,7 +86,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:126546
+main.ts:126579
 
 ***
 
@@ -98,4 +98,4 @@ type of element
 
 #### Defined in
 
-main.ts:126543
+main.ts:126576

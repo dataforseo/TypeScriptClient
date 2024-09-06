@@ -20,7 +20,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:108986
+main.ts:109019
 
 ***
 
@@ -32,7 +32,7 @@ contains data on the domain’s SERP element found for the returned keyword
 
 #### Defined in
 
-main.ts:108988
+main.ts:109021
 
 ***
 
@@ -44,4 +44,4 @@ search engine type
 
 #### Defined in
 
-main.ts:108984
+main.ts:109017

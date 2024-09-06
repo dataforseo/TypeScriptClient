@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:148669
+main.ts:148702
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:148647
+main.ts:148680
 
 ***
 
@@ -66,7 +66,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:148653
+main.ts:148686
 
 ***
 
@@ -83,7 +83,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:148659
+main.ts:148692
 
 ***
 
@@ -100,7 +100,7 @@ number of lost referring main domains of the target
 
 #### Defined in
 
-main.ts:148665
+main.ts:148698
 
 ***
 
@@ -117,7 +117,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:148650
+main.ts:148683
 
 ***
 
@@ -134,7 +134,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:148656
+main.ts:148689
 
 ***
 
@@ -151,7 +151,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:148662
+main.ts:148695
 
 ***
 
@@ -167,7 +167,7 @@ type of element
 
 #### Defined in
 
-main.ts:148642
+main.ts:148675
 
 ## Methods
 
@@ -185,7 +185,7 @@ main.ts:148642
 
 #### Defined in
 
-main.ts:148678
+main.ts:148711
 
 ***
 
@@ -203,7 +203,7 @@ main.ts:148678
 
 #### Defined in
 
-main.ts:148702
+main.ts:148735
 
 ***
 
@@ -221,4 +221,4 @@ main.ts:148702
 
 #### Defined in
 
-main.ts:148695
+main.ts:148728

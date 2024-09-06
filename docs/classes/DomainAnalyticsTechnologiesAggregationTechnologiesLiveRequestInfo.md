@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:76282
+main.ts:76315
 
 ## Properties
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:76181
+main.ts:76214
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:76216
+main.ts:76249
 
 ***
 
@@ -100,7 +100,7 @@ example:
 
 #### Defined in
 
-main.ts:76174
+main.ts:76207
 
 ***
 
@@ -121,7 +121,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76246
+main.ts:76279
 
 ***
 
@@ -142,7 +142,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76239
+main.ts:76272
 
 ***
 
@@ -164,7 +164,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76261
+main.ts:76294
 
 ***
 
@@ -185,7 +185,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76253
+main.ts:76286
 
 ***
 
@@ -206,7 +206,7 @@ example:
 
 #### Defined in
 
-main.ts:76195
+main.ts:76228
 
 ***
 
@@ -225,7 +225,7 @@ maximum value: 10000
 
 #### Defined in
 
-main.ts:76266
+main.ts:76299
 
 ***
 
@@ -246,7 +246,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:76202
+main.ts:76235
 
 ***
 
@@ -266,7 +266,7 @@ if you specify the 10 value, the first ten technologies in the results array wil
 
 #### Defined in
 
-main.ts:76272
+main.ts:76305
 
 ***
 
@@ -296,7 +296,7 @@ default value:
 
 #### Defined in
 
-main.ts:76232
+main.ts:76265
 
 ***
 
@@ -316,7 +316,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:76278
+main.ts:76311
 
 ***
 
@@ -337,7 +337,7 @@ example:
 
 #### Defined in
 
-main.ts:76188
+main.ts:76221
 
 ## Methods
 
@@ -355,7 +355,7 @@ main.ts:76188
 
 #### Defined in
 
-main.ts:76291
+main.ts:76324
 
 ***
 
@@ -373,7 +373,7 @@ main.ts:76291
 
 #### Defined in
 
-main.ts:76329
+main.ts:76362
 
 ***
 
@@ -391,4 +391,4 @@ main.ts:76329
 
 #### Defined in
 
-main.ts:76322
+main.ts:76355

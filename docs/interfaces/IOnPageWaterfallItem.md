@@ -21,7 +21,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-main.ts:159148
+main.ts:159181
 
 ***
 
@@ -34,7 +34,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-main.ts:159145
+main.ts:159178
 
 ***
 
@@ -46,7 +46,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-main.ts:159158
+main.ts:159191
 
 ***
 
@@ -58,7 +58,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:159160
+main.ts:159193
 
 ***
 
@@ -71,7 +71,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-main.ts:159166
+main.ts:159199
 
 ***
 
@@ -84,7 +84,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-main.ts:159163
+main.ts:159196
 
 ***
 
@@ -96,7 +96,7 @@ URL of the page
 
 #### Defined in
 
-main.ts:159139
+main.ts:159172
 
 ***
 
@@ -109,7 +109,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-main.ts:159154
+main.ts:159187
 
 ***
 
@@ -122,7 +122,7 @@ contains separate arrays with timing for each resource found on the page
 
 #### Defined in
 
-main.ts:159169
+main.ts:159202
 
 ***
 
@@ -135,7 +135,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-main.ts:159142
+main.ts:159175
 
 ***
 
@@ -148,7 +148,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-main.ts:159151
+main.ts:159184
 
 ***
 
@@ -160,4 +160,4 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-main.ts:159156
+main.ts:159189

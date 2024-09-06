@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:32709
+main.ts:32952
 
 ## Properties
 
@@ -46,7 +46,7 @@ author
 
 #### Defined in
 
-main.ts:32703
+main.ts:32946
 
 ***
 
@@ -62,7 +62,7 @@ description
 
 #### Defined in
 
-main.ts:32705
+main.ts:32948
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32699
+main.ts:32942
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:32697
+main.ts:32940
 
 ***
 
@@ -110,7 +110,7 @@ URL
 
 #### Defined in
 
-main.ts:32701
+main.ts:32944
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:32701
 
 #### Defined in
 
-main.ts:32718
+main.ts:32961
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:32718
 
 #### Defined in
 
-main.ts:32739
+main.ts:32982
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:32739
 
 #### Defined in
 
-main.ts:32732
+main.ts:32975

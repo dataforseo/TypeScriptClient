@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:181829
+main.ts:181862
 
 ## Properties
 
@@ -46,7 +46,7 @@ ASIN of the newer product model
 
 #### Defined in
 
-main.ts:181825
+main.ts:181858
 
 ***
 
@@ -62,7 +62,7 @@ product title
 
 #### Defined in
 
-main.ts:181823
+main.ts:181856
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:181823
 
 #### Defined in
 
-main.ts:181838
+main.ts:181871
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:181838
 
 #### Defined in
 
-main.ts:181856
+main.ts:181889
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:181856
 
 #### Defined in
 
-main.ts:181849
+main.ts:181882

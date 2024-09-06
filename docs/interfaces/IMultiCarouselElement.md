@@ -20,7 +20,7 @@ multi_carousel_snippet results
 
 #### Defined in
 
-main.ts:32308
+main.ts:32557
 
 ***
 
@@ -32,7 +32,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32306
+main.ts:32555
 
 ***
 
@@ -44,4 +44,4 @@ type of element
 
 #### Defined in
 
-main.ts:32304
+main.ts:32553

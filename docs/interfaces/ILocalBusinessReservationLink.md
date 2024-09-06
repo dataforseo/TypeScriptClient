@@ -25,7 +25,7 @@ domain of the reservation software
 
 #### Defined in
 
-main.ts:23952
+main.ts:23957
 
 ***
 
@@ -41,7 +41,7 @@ type of element
 
 #### Defined in
 
-main.ts:23900
+main.ts:23905
 
 ***
 
@@ -53,4 +53,4 @@ URL to make a reservation
 
 #### Defined in
 
-main.ts:23954
+main.ts:23959

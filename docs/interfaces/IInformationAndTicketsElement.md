@@ -20,7 +20,7 @@ description of the element
 
 #### Defined in
 
-main.ts:46132
+main.ts:46165
 
 ***
 
@@ -32,7 +32,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:46136
+main.ts:46169
 
 ***
 
@@ -44,7 +44,7 @@ title of the element
 
 #### Defined in
 
-main.ts:46130
+main.ts:46163
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:46128
+main.ts:46161
 
 ***
 
@@ -68,4 +68,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:46134
+main.ts:46167

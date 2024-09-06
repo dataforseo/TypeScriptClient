@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:213167
+main.ts:213200
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:213167
 
 #### Defined in
 
-main.ts:21308
+main.ts:21313
 
 ***
 
@@ -68,7 +68,7 @@ place category
 
 #### Defined in
 
-main.ts:213159
+main.ts:213192
 
 ***
 
@@ -85,7 +85,7 @@ if true, related tripadvisor_search_organic item is a paid advertising on Tripad
 
 #### Defined in
 
-main.ts:213155
+main.ts:213188
 
 ***
 
@@ -101,7 +101,7 @@ average price rate
 
 #### Defined in
 
-main.ts:213161
+main.ts:213194
 
 ***
 
@@ -121,7 +121,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21306
+main.ts:21311
 
 ***
 
@@ -142,7 +142,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21304
+main.ts:21309
 
 ***
 
@@ -158,7 +158,7 @@ the rating score of the establishment submitted by the reviewers
 
 #### Defined in
 
-main.ts:213163
+main.ts:213196
 
 ***
 
@@ -174,7 +174,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:213157
+main.ts:213190
 
 ***
 
@@ -190,7 +190,7 @@ name of the business entity
 
 #### Defined in
 
-main.ts:213148
+main.ts:213181
 
 ***
 
@@ -210,7 +210,7 @@ type of element
 
 #### Defined in
 
-main.ts:21301
+main.ts:21306
 
 ***
 
@@ -228,7 +228,7 @@ you can use this identifier to collect reviews for the business entity using Tri
 
 #### Defined in
 
-main.ts:213152
+main.ts:213185
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:213152
 
 #### Defined in
 
-main.ts:213172
+main.ts:213205
 
 ***
 
@@ -272,7 +272,7 @@ main.ts:213172
 
 #### Defined in
 
-main.ts:213196
+main.ts:213229
 
 ***
 
@@ -294,4 +294,4 @@ main.ts:213196
 
 #### Defined in
 
-main.ts:213189
+main.ts:213222

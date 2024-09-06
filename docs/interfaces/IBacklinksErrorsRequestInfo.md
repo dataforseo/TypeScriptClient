@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:137900
+main.ts:137933
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:137907
+main.ts:137940
 
 ***
 
@@ -58,7 +58,7 @@ example: backlinks/live
 
 #### Defined in
 
-main.ts:137893
+main.ts:137926
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:137882
+main.ts:137915
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:137887
+main.ts:137920

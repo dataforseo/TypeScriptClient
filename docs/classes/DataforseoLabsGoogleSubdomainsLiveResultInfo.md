@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:94419
+main.ts:94452
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains subdomains and related data
 
 #### Defined in
 
-main.ts:94415
+main.ts:94448
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:94413
+main.ts:94446
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:94409
+main.ts:94442
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:94407
+main.ts:94440
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94403
+main.ts:94436
 
 ***
 
@@ -126,7 +126,7 @@ domain in a POST array
 
 #### Defined in
 
-main.ts:94405
+main.ts:94438
 
 ***
 
@@ -142,7 +142,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:94411
+main.ts:94444
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:94411
 
 #### Defined in
 
-main.ts:94428
+main.ts:94461
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:94428
 
 #### Defined in
 
-main.ts:94455
+main.ts:94488
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:94455
 
 #### Defined in
 
-main.ts:94448
+main.ts:94481

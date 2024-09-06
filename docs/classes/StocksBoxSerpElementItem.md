@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:33327
+main.ts:33566
 
 ## Properties
 
@@ -68,7 +68,7 @@ source domain
 
 #### Defined in
 
-main.ts:33314
+main.ts:33553
 
 ***
 
@@ -84,7 +84,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:33323
+main.ts:33562
 
 ***
 
@@ -122,7 +122,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:33310
+main.ts:33549
 
 ***
 
@@ -183,7 +183,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33318
+main.ts:33557
 
 ***
 
@@ -199,7 +199,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:33308
+main.ts:33547
 
 ***
 
@@ -216,7 +216,7 @@ indicates the source of the video
 
 #### Defined in
 
-main.ts:33306
+main.ts:33545
 
 ***
 
@@ -233,7 +233,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33321
+main.ts:33560
 
 ***
 
@@ -249,7 +249,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33303
+main.ts:33542
 
 ***
 
@@ -285,7 +285,7 @@ source URL
 
 #### Defined in
 
-main.ts:33312
+main.ts:33551
 
 ***
 
@@ -327,7 +327,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:33332
+main.ts:33571
 
 ***
 
@@ -349,7 +349,7 @@ main.ts:33332
 
 #### Defined in
 
-main.ts:33358
+main.ts:33597
 
 ***
 
@@ -371,4 +371,4 @@ main.ts:33358
 
 #### Defined in
 
-main.ts:33351
+main.ts:33590

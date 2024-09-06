@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:29215
+main.ts:29489
 
 ## Properties
 
@@ -68,7 +68,7 @@ card id
 
 #### Defined in
 
-main.ts:29193
+main.ts:29468
 
 ***
 
@@ -86,7 +86,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:29204
+main.ts:29479
 
 ***
 
@@ -102,7 +102,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29191
+main.ts:29466
 
 ***
 
@@ -119,7 +119,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:29198
+main.ts:29473
 
 ***
 
@@ -127,8 +127,7 @@ main.ts:29198
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Implementation of
 
@@ -136,7 +135,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29207
+main.ts:29481
 
 ***
 
@@ -152,7 +151,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:29200
+main.ts:29475
 
 ***
 
@@ -235,7 +234,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29211
+main.ts:29485
 
 ***
 
@@ -251,7 +250,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:29189
+main.ts:29464
 
 ***
 
@@ -267,7 +266,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:29187
+main.ts:29462
 
 ***
 
@@ -303,7 +302,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:29195
+main.ts:29470
 
 ***
 
@@ -345,7 +344,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:29220
+main.ts:29494
 
 ***
 
@@ -367,7 +366,7 @@ main.ts:29220
 
 #### Defined in
 
-main.ts:29251
+main.ts:29525
 
 ***
 
@@ -389,4 +388,4 @@ main.ts:29251
 
 #### Defined in
 
-main.ts:29244
+main.ts:29518

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:93068
+main.ts:93101
 
 ## Properties
 
@@ -48,7 +48,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:93047
+main.ts:93080
 
 ***
 
@@ -70,7 +70,7 @@ note: in this array ranking and traffic data is provided for the returned compet
 
 #### Defined in
 
-main.ts:93064
+main.ts:93097
 
 ***
 
@@ -86,7 +86,7 @@ domain name
 
 #### Defined in
 
-main.ts:93043
+main.ts:93076
 
 ***
 
@@ -107,7 +107,7 @@ full overview of ranking and traffic data relevant to all keywords that the prov
 
 #### Defined in
 
-main.ts:93056
+main.ts:93089
 
 ***
 
@@ -123,7 +123,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:93053
+main.ts:93086
 
 ***
 
@@ -145,7 +145,7 @@ note: in this array ranking and traffic data is provided for the target consider
 
 #### Defined in
 
-main.ts:93060
+main.ts:93093
 
 ***
 
@@ -161,7 +161,7 @@ search engine type
 
 #### Defined in
 
-main.ts:93041
+main.ts:93074
 
 ***
 
@@ -179,7 +179,7 @@ the value for a given domain may differ when combined with different target webs
 
 #### Defined in
 
-main.ts:93051
+main.ts:93084
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:93051
 
 #### Defined in
 
-main.ts:93077
+main.ts:93110
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:93077
 
 #### Defined in
 
-main.ts:93119
+main.ts:93152
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:93119
 
 #### Defined in
 
-main.ts:93112
+main.ts:93145

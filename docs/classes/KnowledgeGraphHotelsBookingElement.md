@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:29008
+main.ts:29019
 
 ## Properties
 
@@ -46,7 +46,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:28995
+main.ts:29006
 
 ***
 
@@ -62,7 +62,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:28999
+main.ts:29010
 
 ***
 
@@ -78,7 +78,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:29004
+main.ts:29015
 
 ***
 
@@ -95,7 +95,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:29002
+main.ts:29013
 
 ***
 
@@ -111,7 +111,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:28993
+main.ts:29004
 
 ***
 
@@ -127,7 +127,7 @@ type of element
 
 #### Defined in
 
-main.ts:28991
+main.ts:29002
 
 ***
 
@@ -143,7 +143,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:28997
+main.ts:29008
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:28997
 
 #### Defined in
 
-main.ts:29017
+main.ts:29028
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:29017
 
 #### Defined in
 
-main.ts:29040
+main.ts:29051
 
 ***
 
@@ -197,4 +197,4 @@ main.ts:29040
 
 #### Defined in
 
-main.ts:29033
+main.ts:29044

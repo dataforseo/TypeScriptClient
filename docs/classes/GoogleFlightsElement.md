@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:31737
+main.ts:31994
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:31731
+main.ts:31988
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:31729
+main.ts:31986
 
 ***
 
@@ -78,7 +78,7 @@ URL
 
 #### Defined in
 
-main.ts:31733
+main.ts:31990
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:31733
 
 #### Defined in
 
-main.ts:31746
+main.ts:32003
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:31746
 
 #### Defined in
 
-main.ts:31765
+main.ts:32022
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:31765
 
 #### Defined in
 
-main.ts:31758
+main.ts:32015

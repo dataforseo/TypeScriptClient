@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:97039
+main.ts:97072
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97039
 
 #### Defined in
 
-main.ts:20742
+main.ts:20747
 
 ***
 
@@ -68,7 +68,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:97031
+main.ts:97064
 
 ***
 
@@ -86,7 +86,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97035
+main.ts:97068
 
 ***
 
@@ -108,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:20738
+main.ts:20743
 
 ***
 
@@ -129,7 +129,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20734
+main.ts:20739
 
 ***
 
@@ -150,7 +150,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20731
+main.ts:20736
 
 ***
 
@@ -167,7 +167,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:97029
+main.ts:97062
 
 ***
 
@@ -183,7 +183,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97026
+main.ts:97059
 
 ***
 
@@ -203,7 +203,7 @@ type of element
 
 #### Defined in
 
-main.ts:20728
+main.ts:20733
 
 ***
 
@@ -223,7 +223,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20740
+main.ts:20745
 
 ## Methods
 
@@ -245,7 +245,7 @@ main.ts:20740
 
 #### Defined in
 
-main.ts:97044
+main.ts:97077
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:97044
 
 #### Defined in
 
-main.ts:97073
+main.ts:97106
 
 ***
 
@@ -289,4 +289,4 @@ main.ts:97073
 
 #### Defined in
 
-main.ts:97066
+main.ts:97099

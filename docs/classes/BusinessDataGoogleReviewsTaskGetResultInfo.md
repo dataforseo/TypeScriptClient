@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:208745
+main.ts:208778
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:208709
+main.ts:208742
 
 ***
 
@@ -65,7 +65,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208733
+main.ts:208766
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:208714
+main.ts:208747
 
 ***
 
@@ -101,7 +101,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208726
+main.ts:208759
 
 ***
 
@@ -118,7 +118,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:208741
+main.ts:208774
 
 ***
 
@@ -135,7 +135,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:208738
+main.ts:208771
 
 ***
 
@@ -152,7 +152,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:208698
+main.ts:208731
 
 ***
 
@@ -168,7 +168,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:208706
+main.ts:208739
 
 ***
 
@@ -184,7 +184,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:208704
+main.ts:208737
 
 ***
 
@@ -201,7 +201,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208729
+main.ts:208762
 
 ***
 
@@ -218,7 +218,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:208723
+main.ts:208756
 
 ***
 
@@ -234,7 +234,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:208735
+main.ts:208768
 
 ***
 
@@ -250,7 +250,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:208702
+main.ts:208735
 
 ***
 
@@ -267,7 +267,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Defined in
 
-main.ts:208720
+main.ts:208753
 
 ***
 
@@ -284,7 +284,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:208717
+main.ts:208750
 
 ***
 
@@ -300,7 +300,7 @@ type of element
 
 #### Defined in
 
-main.ts:208700
+main.ts:208733
 
 ## Methods
 
@@ -318,7 +318,7 @@ main.ts:208700
 
 #### Defined in
 
-main.ts:208754
+main.ts:208787
 
 ***
 
@@ -336,7 +336,7 @@ main.ts:208754
 
 #### Defined in
 
-main.ts:208790
+main.ts:208823
 
 ***
 
@@ -354,4 +354,4 @@ main.ts:208790
 
 #### Defined in
 
-main.ts:208783
+main.ts:208816

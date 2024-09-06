@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:35220
+main.ts:35442
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`FoundOnWebElement`](FoundOnWebElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:35212
+main.ts:35434
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35216
+main.ts:35438
 
 ***
 
@@ -168,7 +167,7 @@ search queries related to the elment
 
 #### Defined in
 
-main.ts:35209
+main.ts:35432
 
 ***
 
@@ -184,7 +183,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35207
+main.ts:35430
 
 ***
 
@@ -246,7 +245,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:35225
+main.ts:35447
 
 ***
 
@@ -268,7 +267,7 @@ main.ts:35225
 
 #### Defined in
 
-main.ts:35254
+main.ts:35476
 
 ***
 
@@ -290,4 +289,4 @@ main.ts:35254
 
 #### Defined in
 
-main.ts:35247
+main.ts:35469

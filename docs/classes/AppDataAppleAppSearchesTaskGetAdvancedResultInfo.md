@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:193401
+main.ts:193434
 
 ## Properties
 
@@ -47,7 +47,7 @@ in this case, the value will be null
 
 #### Defined in
 
-main.ts:193386
+main.ts:193419
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:193391
+main.ts:193424
 
 ***
 
@@ -82,7 +82,7 @@ found apps
 
 #### Defined in
 
-main.ts:193397
+main.ts:193430
 
 ***
 
@@ -98,7 +98,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:193395
+main.ts:193428
 
 ***
 
@@ -114,7 +114,7 @@ keyword received in a POST request
 
 #### Defined in
 
-main.ts:193377
+main.ts:193410
 
 ***
 
@@ -130,7 +130,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:193383
+main.ts:193416
 
 ***
 
@@ -146,7 +146,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:193381
+main.ts:193414
 
 ***
 
@@ -162,7 +162,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:193379
+main.ts:193412
 
 ***
 
@@ -178,7 +178,7 @@ the total number of results
 
 #### Defined in
 
-main.ts:193393
+main.ts:193426
 
 ## Methods
 
@@ -196,7 +196,7 @@ main.ts:193393
 
 #### Defined in
 
-main.ts:193410
+main.ts:193443
 
 ***
 
@@ -214,7 +214,7 @@ main.ts:193410
 
 #### Defined in
 
-main.ts:193439
+main.ts:193472
 
 ***
 
@@ -232,4 +232,4 @@ main.ts:193439
 
 #### Defined in
 
-main.ts:193432
+main.ts:193465

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:201487
+main.ts:201520
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:201487
 
 #### Defined in
 
-main.ts:21308
+main.ts:21313
 
 ***
 
@@ -69,7 +69,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:201394
+main.ts:201427
 
 ***
 
@@ -85,7 +85,7 @@ address of the business entity
 
 #### Defined in
 
-main.ts:201404
+main.ts:201437
 
 ***
 
@@ -101,7 +101,7 @@ object containing address components of the business entity
 
 #### Defined in
 
-main.ts:201406
+main.ts:201439
 
 ***
 
@@ -118,7 +118,7 @@ service details of a business entity displayed in a form of checks and based on 
 
 #### Defined in
 
-main.ts:201442
+main.ts:201475
 
 ***
 
@@ -135,7 +135,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:201388
+main.ts:201421
 
 ***
 
@@ -152,7 +152,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:201391
+main.ts:201424
 
 ***
 
@@ -171,7 +171,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:201399
+main.ts:201432
 
 ***
 
@@ -187,7 +187,7 @@ URL of the preferred contact page
 
 #### Defined in
 
-main.ts:201416
+main.ts:201449
 
 ***
 
@@ -203,7 +203,7 @@ URL of the user’s or entity’s Local Guides profile, if available
 
 #### Defined in
 
-main.ts:201418
+main.ts:201451
 
 ***
 
@@ -220,7 +220,7 @@ the description of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:201385
+main.ts:201418
 
 ***
 
@@ -237,7 +237,7 @@ includes information about businesses that are located within the target busines
 
 #### Defined in
 
-main.ts:201483
+main.ts:201516
 
 ***
 
@@ -253,7 +253,7 @@ domain of the business entity
 
 #### Defined in
 
-main.ts:201420
+main.ts:201453
 
 ***
 
@@ -270,7 +270,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:201402
+main.ts:201435
 
 ***
 
@@ -288,7 +288,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:201457
+main.ts:201490
 
 ***
 
@@ -304,7 +304,7 @@ shows whether the entity is verified by its owner on Google Maps
 
 #### Defined in
 
-main.ts:201438
+main.ts:201471
 
 ***
 
@@ -323,7 +323,7 @@ note: if the business establishment is a parent item in the directory, the value
 
 #### Defined in
 
-main.ts:201480
+main.ts:201513
 
 ***
 
@@ -341,7 +341,7 @@ example:
 
 #### Defined in
 
-main.ts:201432
+main.ts:201465
 
 ***
 
@@ -358,7 +358,7 @@ list of options to interact with the business directly from search results
 
 #### Defined in
 
-main.ts:201475
+main.ts:201508
 
 ***
 
@@ -374,7 +374,7 @@ URL of the logo featured in Google My Business profile
 
 #### Defined in
 
-main.ts:201422
+main.ts:201455
 
 ***
 
@@ -392,7 +392,7 @@ example:
 
 #### Defined in
 
-main.ts:201436
+main.ts:201469
 
 ***
 
@@ -408,7 +408,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:201424
+main.ts:201457
 
 ***
 
@@ -424,7 +424,7 @@ related business entities
 
 #### Defined in
 
-main.ts:201466
+main.ts:201499
 
 ***
 
@@ -440,7 +440,7 @@ phone number of the business entity
 
 #### Defined in
 
-main.ts:201412
+main.ts:201445
 
 ***
 
@@ -458,7 +458,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:201410
+main.ts:201443
 
 ***
 
@@ -484,7 +484,7 @@ example:
 
 #### Defined in
 
-main.ts:201450
+main.ts:201483
 
 ***
 
@@ -501,7 +501,7 @@ information related to busy hours of the business entity
 
 #### Defined in
 
-main.ts:201472
+main.ts:201505
 
 ***
 
@@ -517,7 +517,7 @@ the alignment in SERP
 
 #### Defined in
 
-main.ts:201379
+main.ts:201412
 
 ***
 
@@ -535,7 +535,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:201461
+main.ts:201494
 
 ***
 
@@ -549,7 +549,7 @@ main.ts:201461
 
 #### Defined in
 
-main.ts:201439
+main.ts:201472
 
 ***
 
@@ -569,7 +569,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21306
+main.ts:21311
 
 ***
 
@@ -590,7 +590,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21304
+main.ts:21309
 
 ***
 
@@ -607,7 +607,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:201453
+main.ts:201486
 
 ***
 
@@ -628,7 +628,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:201464
+main.ts:201497
 
 ***
 
@@ -644,7 +644,7 @@ additional information on the business entity
 
 #### Defined in
 
-main.ts:201428
+main.ts:201461
 
 ***
 
@@ -661,7 +661,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:201382
+main.ts:201415
 
 ***
 
@@ -677,7 +677,7 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:201426
+main.ts:201459
 
 ***
 
@@ -697,7 +697,7 @@ type of element
 
 #### Defined in
 
-main.ts:21301
+main.ts:21306
 
 ***
 
@@ -713,7 +713,7 @@ absolute url of the business entity
 
 #### Defined in
 
-main.ts:201414
+main.ts:201447
 
 ***
 
@@ -730,7 +730,7 @@ information related to operational hours of the business entity
 
 #### Defined in
 
-main.ts:201469
+main.ts:201502
 
 ## Methods
 
@@ -752,7 +752,7 @@ main.ts:201469
 
 #### Defined in
 
-main.ts:201492
+main.ts:201525
 
 ***
 
@@ -774,7 +774,7 @@ main.ts:201492
 
 #### Defined in
 
-main.ts:201573
+main.ts:201606
 
 ***
 
@@ -796,4 +796,4 @@ main.ts:201573
 
 #### Defined in
 
-main.ts:201566
+main.ts:201599

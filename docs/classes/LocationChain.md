@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:205832
+main.ts:205865
 
 ## Properties
 
@@ -46,7 +46,7 @@ card identifier
 
 #### Defined in
 
-main.ts:205820
+main.ts:205853
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:205826
+main.ts:205859
 
 ***
 
@@ -80,7 +80,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:205823
+main.ts:205856
 
 ***
 
@@ -96,7 +96,7 @@ title of the element in the location chain
 
 #### Defined in
 
-main.ts:205828
+main.ts:205861
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:205828
 
 #### Defined in
 
-main.ts:205841
+main.ts:205874
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:205841
 
 #### Defined in
 
-main.ts:205861
+main.ts:205894
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:205861
 
 #### Defined in
 
-main.ts:205854
+main.ts:205887

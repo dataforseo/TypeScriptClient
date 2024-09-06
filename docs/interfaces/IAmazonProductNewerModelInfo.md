@@ -20,7 +20,7 @@ ASIN of the newer product model
 
 #### Defined in
 
-main.ts:181872
+main.ts:181905
 
 ***
 
@@ -32,4 +32,4 @@ product title
 
 #### Defined in
 
-main.ts:181870
+main.ts:181903

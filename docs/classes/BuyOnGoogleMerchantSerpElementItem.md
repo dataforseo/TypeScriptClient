@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:176308
+main.ts:176341
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:176308
 
 #### Defined in
 
-main.ts:21039
+main.ts:21044
 
 ***
 
@@ -68,7 +68,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:176283
+main.ts:176316
 
 ***
 
@@ -86,7 +86,7 @@ USD
 
 #### Defined in
 
-main.ts:176294
+main.ts:176327
 
 ***
 
@@ -103,7 +103,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:176281
+main.ts:176314
 
 ***
 
@@ -119,7 +119,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:176274
+main.ts:176307
 
 ***
 
@@ -141,7 +141,7 @@ left, right
 
 #### Defined in
 
-main.ts:21037
+main.ts:21042
 
 ***
 
@@ -162,7 +162,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21033
+main.ts:21038
 
 ***
 
@@ -183,7 +183,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21030
+main.ts:21035
 
 ***
 
@@ -200,7 +200,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:176300
+main.ts:176333
 
 ***
 
@@ -217,7 +217,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:176297
+main.ts:176330
 
 ***
 
@@ -233,7 +233,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:176288
+main.ts:176321
 
 ***
 
@@ -251,7 +251,7 @@ in this case, the value equals null
 
 #### Defined in
 
-main.ts:176304
+main.ts:176337
 
 ***
 
@@ -268,7 +268,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:176286
+main.ts:176319
 
 ***
 
@@ -284,7 +284,7 @@ product title
 
 #### Defined in
 
-main.ts:176276
+main.ts:176309
 
 ***
 
@@ -300,7 +300,7 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:176290
+main.ts:176323
 
 ***
 
@@ -320,7 +320,7 @@ type of element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21032
 
 ***
 
@@ -336,7 +336,7 @@ Google Shopping URL forwarding to the product page
 
 #### Defined in
 
-main.ts:176278
+main.ts:176311
 
 ***
 
@@ -352,7 +352,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:176272
+main.ts:176305
 
 ## Methods
 
@@ -374,7 +374,7 @@ main.ts:176272
 
 #### Defined in
 
-main.ts:176313
+main.ts:176346
 
 ***
 
@@ -396,7 +396,7 @@ main.ts:176313
 
 #### Defined in
 
-main.ts:176343
+main.ts:176376
 
 ***
 
@@ -418,4 +418,4 @@ main.ts:176343
 
 #### Defined in
 
-main.ts:176336
+main.ts:176369

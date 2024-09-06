@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:178614
+main.ts:178647
 
 ## Properties
 
@@ -47,7 +47,7 @@ product delivery information
 
 #### Defined in
 
-main.ts:178610
+main.ts:178643
 
 ***
 
@@ -64,7 +64,7 @@ product price details on the seller’s website
 
 #### Defined in
 
-main.ts:178607
+main.ts:178640
 
 ***
 
@@ -80,7 +80,7 @@ rating of the seller
 
 #### Defined in
 
-main.ts:178601
+main.ts:178634
 
 ***
 
@@ -97,7 +97,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178604
+main.ts:178637
 
 ***
 
@@ -113,7 +113,7 @@ product title
 
 #### Defined in
 
-main.ts:178596
+main.ts:178629
 
 ***
 
@@ -129,7 +129,7 @@ type of element
 
 #### Defined in
 
-main.ts:178594
+main.ts:178627
 
 ***
 
@@ -146,7 +146,7 @@ url of the page where the product is sold
 
 #### Defined in
 
-main.ts:178599
+main.ts:178632
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:178599
 
 #### Defined in
 
-main.ts:178623
+main.ts:178656
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:178623
 
 #### Defined in
 
-main.ts:178646
+main.ts:178679
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:178646
 
 #### Defined in
 
-main.ts:178639
+main.ts:178672

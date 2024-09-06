@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:128795
+main.ts:128828
 
 ## Properties
 
@@ -47,7 +47,7 @@ our API doesn’t return categories for this endpoint: the parameter will always
 
 #### Defined in
 
-main.ts:128787
+main.ts:128820
 
 ***
 
@@ -69,7 +69,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:128775
+main.ts:128808
 
 ***
 
@@ -87,7 +87,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:128779
+main.ts:128812
 
 ***
 
@@ -104,7 +104,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:128767
+main.ts:128800
 
 ***
 
@@ -120,7 +120,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:128758
+main.ts:128791
 
 ***
 
@@ -136,7 +136,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:128762
+main.ts:128795
 
 ***
 
@@ -152,7 +152,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:128760
+main.ts:128793
 
 ***
 
@@ -170,7 +170,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:128791
+main.ts:128824
 
 ***
 
@@ -186,7 +186,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:128764
+main.ts:128797
 
 ***
 
@@ -205,7 +205,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:128784
+main.ts:128817
 
 ## Methods
 
@@ -223,7 +223,7 @@ main.ts:128784
 
 #### Defined in
 
-main.ts:128804
+main.ts:128837
 
 ***
 
@@ -241,7 +241,7 @@ main.ts:128804
 
 #### Defined in
 
-main.ts:128838
+main.ts:128871
 
 ***
 
@@ -259,4 +259,4 @@ main.ts:128838
 
 #### Defined in
 
-main.ts:128831
+main.ts:128864

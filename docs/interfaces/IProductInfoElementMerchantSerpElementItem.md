@@ -24,7 +24,7 @@ description of the product
 
 #### Defined in
 
-main.ts:178882
+main.ts:178915
 
 ***
 
@@ -37,7 +37,7 @@ contains snippets with the description of product features
 
 #### Defined in
 
-main.ts:178891
+main.ts:178924
 
 ***
 
@@ -50,7 +50,7 @@ contains urls to product images
 
 #### Defined in
 
-main.ts:178888
+main.ts:178921
 
 ***
 
@@ -68,7 +68,7 @@ left, right
 
 #### Defined in
 
-main.ts:21130
+main.ts:21135
 
 ***
 
@@ -81,7 +81,7 @@ ilearn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:178878
+main.ts:178911
 
 ***
 
@@ -98,7 +98,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21126
+main.ts:21131
 
 ***
 
@@ -115,7 +115,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21123
+main.ts:21128
 
 ***
 
@@ -128,7 +128,7 @@ the popularity rate based on reviews
 
 #### Defined in
 
-main.ts:178894
+main.ts:178927
 
 ***
 
@@ -141,7 +141,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178897
+main.ts:178930
 
 ***
 
@@ -154,7 +154,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178900
+main.ts:178933
 
 ***
 
@@ -166,7 +166,7 @@ title of the product
 
 #### Defined in
 
-main.ts:178880
+main.ts:178913
 
 ***
 
@@ -182,7 +182,7 @@ type of element
 
 #### Defined in
 
-main.ts:21120
+main.ts:21125
 
 ***
 
@@ -195,7 +195,7 @@ url of the product on Google Shopping
 
 #### Defined in
 
-main.ts:178885
+main.ts:178918
 
 ***
 
@@ -208,4 +208,4 @@ contains brief information about different product variations
 
 #### Defined in
 
-main.ts:178903
+main.ts:178936

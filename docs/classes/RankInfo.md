@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:91247
+main.ts:91280
 
 ## Properties
 
@@ -48,7 +48,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:91243
+main.ts:91276
 
 ***
 
@@ -66,7 +66,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:91239
+main.ts:91272
 
 ## Methods
 
@@ -84,7 +84,7 @@ main.ts:91239
 
 #### Defined in
 
-main.ts:91256
+main.ts:91289
 
 ***
 
@@ -102,7 +102,7 @@ main.ts:91256
 
 #### Defined in
 
-main.ts:91274
+main.ts:91307
 
 ***
 
@@ -120,4 +120,4 @@ main.ts:91274
 
 #### Defined in
 
-main.ts:91267
+main.ts:91300

@@ -21,7 +21,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:132129
+main.ts:132162
 
 ***
 
@@ -38,7 +38,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:132118
+main.ts:132151
 
 ***
 
@@ -52,7 +52,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132122
+main.ts:132155
 
 ***
 
@@ -66,7 +66,7 @@ possible values: all, mobile, desktop, tablet
 
 #### Defined in
 
-main.ts:132111
+main.ts:132144
 
 ***
 
@@ -78,7 +78,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:132099
+main.ts:132132
 
 ***
 
@@ -91,7 +91,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132105
+main.ts:132138
 
 ***
 
@@ -104,7 +104,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132102
+main.ts:132135
 
 ***
 
@@ -118,7 +118,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132133
+main.ts:132166
 
 ***
 
@@ -130,7 +130,7 @@ indicates whether data from partner networks is included in the response
 
 #### Defined in
 
-main.ts:132107
+main.ts:132140
 
 ***
 
@@ -144,4 +144,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:132126
+main.ts:132159

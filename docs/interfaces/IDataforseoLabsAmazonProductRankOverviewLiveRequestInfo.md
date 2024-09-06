@@ -27,7 +27,7 @@ B01LW2SL7R
 
 #### Defined in
 
-main.ts:103988
+main.ts:104021
 
 ***
 
@@ -44,7 +44,7 @@ en
 
 #### Defined in
 
-main.ts:104018
+main.ts:104051
 
 ***
 
@@ -61,7 +61,7 @@ English
 
 #### Defined in
 
-main.ts:104011
+main.ts:104044
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:104004
+main.ts:104037
 
 ***
 
@@ -97,7 +97,7 @@ United States
 
 #### Defined in
 
-main.ts:103996
+main.ts:104029
 
 ***
 
@@ -113,4 +113,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:104024
+main.ts:104057

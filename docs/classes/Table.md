@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22805
+main.ts:22810
 
 ## Properties
 
@@ -47,7 +47,7 @@ one line of the table in this element of the array
 
 #### Defined in
 
-main.ts:22801
+main.ts:22806
 
 ***
 
@@ -65,7 +65,7 @@ table_element
 
 #### Defined in
 
-main.ts:22796
+main.ts:22801
 
 ***
 
@@ -81,7 +81,7 @@ column names
 
 #### Defined in
 
-main.ts:22798
+main.ts:22803
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:22798
 
 #### Defined in
 
-main.ts:22814
+main.ts:22819
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:22814
 
 #### Defined in
 
-main.ts:22841
+main.ts:22846
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:22841
 
 #### Defined in
 
-main.ts:22834
+main.ts:22839

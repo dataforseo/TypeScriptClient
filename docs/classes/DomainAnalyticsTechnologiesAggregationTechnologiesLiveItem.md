@@ -32,7 +32,7 @@ items array
 
 #### Defined in
 
-main.ts:76499
+main.ts:76532
 
 ## Properties
 
@@ -49,7 +49,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:76492
+main.ts:76525
 
 ***
 
@@ -65,7 +65,7 @@ technology category id
 
 #### Defined in
 
-main.ts:76484
+main.ts:76517
 
 ***
 
@@ -81,7 +81,7 @@ technology group id
 
 #### Defined in
 
-main.ts:76482
+main.ts:76515
 
 ***
 
@@ -98,7 +98,7 @@ number of domains that match the parameters you specified and are using technolo
 
 #### Defined in
 
-main.ts:76489
+main.ts:76522
 
 ***
 
@@ -115,7 +115,7 @@ number of domains that match the parameters you specified and are using the indi
 
 #### Defined in
 
-main.ts:76495
+main.ts:76528
 
 ***
 
@@ -131,7 +131,7 @@ technology name
 
 #### Defined in
 
-main.ts:76486
+main.ts:76519
 
 ***
 
@@ -147,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:76480
+main.ts:76513
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:76480
 
 #### Defined in
 
-main.ts:76508
+main.ts:76541
 
 ***
 
@@ -183,7 +183,7 @@ main.ts:76508
 
 #### Defined in
 
-main.ts:76531
+main.ts:76564
 
 ***
 
@@ -201,4 +201,4 @@ main.ts:76531
 
 #### Defined in
 
-main.ts:76524
+main.ts:76557

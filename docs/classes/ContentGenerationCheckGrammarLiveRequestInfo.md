@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:171067
+main.ts:171100
 
 ## Properties
 
@@ -48,7 +48,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:171053
+main.ts:171086
 
 ***
 
@@ -66,7 +66,7 @@ see the List of Languages for Content Generation Check Grammar API
 
 #### Defined in
 
-main.ts:171057
+main.ts:171090
 
 ***
 
@@ -86,7 +86,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:171063
+main.ts:171096
 
 ***
 
@@ -105,7 +105,7 @@ learn more about tokens on our help center
 
 #### Defined in
 
-main.ts:171049
+main.ts:171082
 
 ## Methods
 
@@ -123,7 +123,7 @@ main.ts:171049
 
 #### Defined in
 
-main.ts:171076
+main.ts:171109
 
 ***
 
@@ -141,7 +141,7 @@ main.ts:171076
 
 #### Defined in
 
-main.ts:171096
+main.ts:171129
 
 ***
 
@@ -159,4 +159,4 @@ main.ts:171096
 
 #### Defined in
 
-main.ts:171089
+main.ts:171122

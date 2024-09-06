@@ -20,7 +20,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:142985
+main.ts:143018
 
 ***
 
@@ -33,7 +33,7 @@ domain where the page was found
 
 #### Defined in
 
-main.ts:142949
+main.ts:142982
 
 ***
 
@@ -46,7 +46,7 @@ indicates the size of the encoded page, in bytes
 
 #### Defined in
 
-main.ts:142983
+main.ts:143016
 
 ***
 
@@ -61,7 +61,7 @@ example:
 
 #### Defined in
 
-main.ts:142973
+main.ts:143006
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:142963
+main.ts:142996
 
 ***
 
@@ -89,7 +89,7 @@ Internet Protocol address
 
 #### Defined in
 
-main.ts:142957
+main.ts:142990
 
 ***
 
@@ -102,7 +102,7 @@ indicates the URL to redirect a page to if exists
 
 #### Defined in
 
-main.ts:142978
+main.ts:143011
 
 ***
 
@@ -115,7 +115,7 @@ main website domain does not include subdomains
 
 #### Defined in
 
-main.ts:142946
+main.ts:142979
 
 ***
 
@@ -127,7 +127,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:142987
+main.ts:143020
 
 ***
 
@@ -139,7 +139,7 @@ page meta data
 
 #### Defined in
 
-main.ts:142991
+main.ts:143024
 
 ***
 
@@ -152,7 +152,7 @@ relevant page URL
 
 #### Defined in
 
-main.ts:142955
+main.ts:142988
 
 ***
 
@@ -164,7 +164,7 @@ contains backlink data for this page
 
 #### Defined in
 
-main.ts:142993
+main.ts:143026
 
 ***
 
@@ -179,7 +179,7 @@ example:
 
 #### Defined in
 
-main.ts:142968
+main.ts:143001
 
 ***
 
@@ -191,7 +191,7 @@ server version
 
 #### Defined in
 
-main.ts:142989
+main.ts:143022
 
 ***
 
@@ -203,7 +203,7 @@ indicates the page size, in bytes
 
 #### Defined in
 
-main.ts:142980
+main.ts:143013
 
 ***
 
@@ -215,7 +215,7 @@ HTTP status code of the page
 
 #### Defined in
 
-main.ts:142975
+main.ts:143008
 
 ***
 
@@ -228,7 +228,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:142952
+main.ts:142985
 
 ***
 
@@ -240,4 +240,4 @@ type of element
 
 #### Defined in
 
-main.ts:142943
+main.ts:142976

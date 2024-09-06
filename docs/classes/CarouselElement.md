@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:31183
+main.ts:31445
 
 ## Properties
 
@@ -39,6 +39,7 @@ main.ts:31183
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
@@ -46,7 +47,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:31179
+main.ts:31441
 
 ***
 
@@ -62,7 +63,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:31177
+main.ts:31438
 
 ***
 
@@ -78,7 +79,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31175
+main.ts:31436
 
 ***
 
@@ -94,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:31173
+main.ts:31434
 
 ## Methods
 
@@ -112,7 +113,7 @@ main.ts:31173
 
 #### Defined in
 
-main.ts:31192
+main.ts:31454
 
 ***
 
@@ -130,7 +131,7 @@ main.ts:31192
 
 #### Defined in
 
-main.ts:31212
+main.ts:31474
 
 ***
 
@@ -148,4 +149,4 @@ main.ts:31212
 
 #### Defined in
 
-main.ts:31205
+main.ts:31467

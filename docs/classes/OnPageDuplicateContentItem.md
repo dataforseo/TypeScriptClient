@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:157314
+main.ts:157347
 
 ## Properties
 
@@ -46,7 +46,7 @@ pages with duplicate content
 
 #### Defined in
 
-main.ts:157310
+main.ts:157343
 
 ***
 
@@ -62,7 +62,7 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:157308
+main.ts:157341
 
 ***
 
@@ -78,7 +78,7 @@ URL of the specified page
 
 #### Defined in
 
-main.ts:157306
+main.ts:157339
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:157306
 
 #### Defined in
 
-main.ts:157323
+main.ts:157356
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:157323
 
 #### Defined in
 
-main.ts:157346
+main.ts:157379
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:157346
 
 #### Defined in
 
-main.ts:157339
+main.ts:157372

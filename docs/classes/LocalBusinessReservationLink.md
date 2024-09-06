@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:23912
+main.ts:23917
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:23912
 
 #### Defined in
 
-main.ts:23850
+main.ts:23855
 
 ***
 
@@ -69,7 +69,7 @@ domain of the reservation software
 
 #### Defined in
 
-main.ts:23906
+main.ts:23911
 
 ***
 
@@ -89,7 +89,7 @@ type of element
 
 #### Defined in
 
-main.ts:23848
+main.ts:23853
 
 ***
 
@@ -105,7 +105,7 @@ URL to make a reservation
 
 #### Defined in
 
-main.ts:23908
+main.ts:23913
 
 ## Methods
 
@@ -127,7 +127,7 @@ main.ts:23908
 
 #### Defined in
 
-main.ts:23917
+main.ts:23922
 
 ***
 
@@ -149,7 +149,7 @@ main.ts:23917
 
 #### Defined in
 
-main.ts:23936
+main.ts:23941
 
 ***
 
@@ -171,4 +171,4 @@ main.ts:23936
 
 #### Defined in
 
-main.ts:23929
+main.ts:23934

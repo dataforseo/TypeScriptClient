@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:166123
+main.ts:166156
 
 ## Properties
 
@@ -46,7 +46,7 @@ author of the content
 
 #### Defined in
 
-main.ts:166073
+main.ts:166106
 
 ***
 
@@ -68,7 +68,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:166093
+main.ts:166126
 
 ***
 
@@ -85,7 +85,7 @@ this value is calculated based on the number of words, sentences and characters 
 
 #### Defined in
 
-main.ts:166104
+main.ts:166137
 
 ***
 
@@ -103,7 +103,7 @@ page_content, comment
 
 #### Defined in
 
-main.ts:166062
+main.ts:166095
 
 ***
 
@@ -122,7 +122,7 @@ example:
 
 #### Defined in
 
-main.ts:166101
+main.ts:166134
 
 ***
 
@@ -143,7 +143,7 @@ example:
 
 #### Defined in
 
-main.ts:166119
+main.ts:166152
 
 ***
 
@@ -159,7 +159,7 @@ highlighted text from the snippet
 
 #### Defined in
 
-main.ts:166082
+main.ts:166115
 
 ***
 
@@ -176,7 +176,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:166085
+main.ts:166118
 
 ***
 
@@ -193,7 +193,7 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 #### Defined in
 
-main.ts:166071
+main.ts:166104
 
 ***
 
@@ -209,7 +209,7 @@ page title
 
 #### Defined in
 
-main.ts:166066
+main.ts:166099
 
 ***
 
@@ -225,7 +225,7 @@ title of the previous content block
 
 #### Defined in
 
-main.ts:166068
+main.ts:166101
 
 ***
 
@@ -242,7 +242,7 @@ rating related to content_info
 
 #### Defined in
 
-main.ts:166112
+main.ts:166145
 
 ***
 
@@ -261,7 +261,7 @@ article, header
 
 #### Defined in
 
-main.ts:166109
+main.ts:166142
 
 ***
 
@@ -283,7 +283,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-main.ts:166089
+main.ts:166122
 
 ***
 
@@ -299,7 +299,7 @@ content snippet
 
 #### Defined in
 
-main.ts:166075
+main.ts:166108
 
 ***
 
@@ -315,7 +315,7 @@ character length of the snippet
 
 #### Defined in
 
-main.ts:166077
+main.ts:166110
 
 ***
 
@@ -332,7 +332,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:166080
+main.ts:166113
 
 ***
 
@@ -349,7 +349,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:166096
+main.ts:166129
 
 ***
 
@@ -365,7 +365,7 @@ title of the result
 
 #### Defined in
 
-main.ts:166064
+main.ts:166097
 
 ## Methods
 
@@ -383,7 +383,7 @@ main.ts:166064
 
 #### Defined in
 
-main.ts:166132
+main.ts:166165
 
 ***
 
@@ -401,7 +401,7 @@ main.ts:166132
 
 #### Defined in
 
-main.ts:166187
+main.ts:166220
 
 ***
 
@@ -419,4 +419,4 @@ main.ts:166187
 
 #### Defined in
 
-main.ts:166180
+main.ts:166213

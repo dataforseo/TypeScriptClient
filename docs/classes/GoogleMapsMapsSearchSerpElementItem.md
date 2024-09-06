@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:39960
+main.ts:39993
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:39960
 
 #### Defined in
 
-main.ts:39800
+main.ts:39833
 
 ***
 
@@ -69,7 +69,7 @@ additional Google My Business categories that describe the services provided by 
 
 #### Defined in
 
-main.ts:39929
+main.ts:39962
 
 ***
 
@@ -86,7 +86,7 @@ address of the local establishment featured in the element
 
 #### Defined in
 
-main.ts:39911
+main.ts:39944
 
 ***
 
@@ -102,7 +102,7 @@ object containing address components of the local establishment
 
 #### Defined in
 
-main.ts:39913
+main.ts:39946
 
 ***
 
@@ -119,7 +119,7 @@ Google My Business general category that best describes the services provided by
 
 #### Defined in
 
-main.ts:39926
+main.ts:39959
 
 ***
 
@@ -136,7 +136,7 @@ universal category IDs that do not change based on the selected country
 
 #### Defined in
 
-main.ts:39932
+main.ts:39965
 
 ***
 
@@ -154,7 +154,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:39941
+main.ts:39974
 
 ***
 
@@ -170,7 +170,7 @@ URL of the preferred contact page
 
 #### Defined in
 
-main.ts:39895
+main.ts:39928
 
 ***
 
@@ -186,7 +186,7 @@ URL of the user’s or entity’s Local Guides profile, if available
 
 #### Defined in
 
-main.ts:39897
+main.ts:39930
 
 ***
 
@@ -206,7 +206,7 @@ domain in the SERP element
 
 #### Defined in
 
-main.ts:39788
+main.ts:39821
 
 ***
 
@@ -222,7 +222,7 @@ the unique identifier of the element in SERP
 
 #### Defined in
 
-main.ts:39937
+main.ts:39970
 
 ***
 
@@ -240,7 +240,7 @@ if there is no hotel class rating information, the value will be null
 
 #### Defined in
 
-main.ts:39901
+main.ts:39934
 
 ***
 
@@ -256,7 +256,7 @@ indicates whether ownership of this local establishment is claimed
 
 #### Defined in
 
-main.ts:39951
+main.ts:39984
 
 ***
 
@@ -272,7 +272,7 @@ indicates whether this local establishment is a directory
 
 #### Defined in
 
-main.ts:39956
+main.ts:39989
 
 ***
 
@@ -290,7 +290,7 @@ example:
 
 #### Defined in
 
-main.ts:39945
+main.ts:39978
 
 ***
 
@@ -307,7 +307,7 @@ snippets of text that “justify” why the business is showing up for search qu
 
 #### Defined in
 
-main.ts:39954
+main.ts:39987
 
 ***
 
@@ -325,7 +325,7 @@ example:
 
 #### Defined in
 
-main.ts:39949
+main.ts:39982
 
 ***
 
@@ -341,7 +341,7 @@ URL of the main image featured in Google My Business profile
 
 #### Defined in
 
-main.ts:39921
+main.ts:39954
 
 ***
 
@@ -358,7 +358,7 @@ phone number of the local establishment featured in the element
 
 #### Defined in
 
-main.ts:39919
+main.ts:39952
 
 ***
 
@@ -375,7 +375,7 @@ place id of the local establishment featured in the element
 
 #### Defined in
 
-main.ts:39916
+main.ts:39949
 
 ***
 
@@ -393,7 +393,7 @@ if there is no price level information, the value will be null
 
 #### Defined in
 
-main.ts:39905
+main.ts:39938
 
 ***
 
@@ -414,7 +414,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:39786
+main.ts:39819
 
 ***
 
@@ -436,7 +436,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:39783
+main.ts:39816
 
 ***
 
@@ -457,7 +457,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:39795
+main.ts:39828
 
 ***
 
@@ -482,7 +482,7 @@ the object displays the number of 1-star to 5-star ratings, as reviewed by users
 
 #### Defined in
 
-main.ts:39798
+main.ts:39831
 
 ***
 
@@ -499,7 +499,7 @@ contains the address and other information about the local establishment feature
 
 #### Defined in
 
-main.ts:39908
+main.ts:39941
 
 ***
 
@@ -519,7 +519,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:39790
+main.ts:39823
 
 ***
 
@@ -535,7 +535,7 @@ total count of images featured in Google My Business profile
 
 #### Defined in
 
-main.ts:39923
+main.ts:39956
 
 ***
 
@@ -555,7 +555,7 @@ type of element
 
 #### Defined in
 
-main.ts:39779
+main.ts:39812
 
 ***
 
@@ -575,7 +575,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:39792
+main.ts:39825
 
 ***
 
@@ -592,7 +592,7 @@ information about work hours of the local establishment
 
 #### Defined in
 
-main.ts:39935
+main.ts:39968
 
 ## Methods
 
@@ -614,7 +614,7 @@ main.ts:39935
 
 #### Defined in
 
-main.ts:39965
+main.ts:39998
 
 ***
 
@@ -636,7 +636,7 @@ main.ts:39965
 
 #### Defined in
 
-main.ts:40016
+main.ts:40049
 
 ***
 
@@ -658,4 +658,4 @@ main.ts:40016
 
 #### Defined in
 
-main.ts:40009
+main.ts:40042

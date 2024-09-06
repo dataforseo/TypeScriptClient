@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:49710
+main.ts:49743
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:49685
+main.ts:49718
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:49690
+main.ts:49723
 
 ***
 
@@ -82,7 +82,7 @@ URL specified in a POST array
 
 #### Defined in
 
-main.ts:49672
+main.ts:49705
 
 ***
 
@@ -102,7 +102,7 @@ images
 
 #### Defined in
 
-main.ts:49699
+main.ts:49732
 
 ***
 
@@ -119,7 +119,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:49706
+main.ts:49739
 
 ***
 
@@ -135,7 +135,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:49703
+main.ts:49736
 
 ***
 
@@ -151,7 +151,7 @@ keyword Google associated with the specified image
 
 #### Defined in
 
-main.ts:49674
+main.ts:49707
 
 ***
 
@@ -167,7 +167,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:49682
+main.ts:49715
 
 ***
 
@@ -183,7 +183,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:49680
+main.ts:49713
 
 ***
 
@@ -199,7 +199,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:49678
+main.ts:49711
 
 ***
 
@@ -215,7 +215,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:49701
+main.ts:49734
 
 ***
 
@@ -232,7 +232,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:49693
+main.ts:49726
 
 ***
 
@@ -248,7 +248,7 @@ type of element
 
 #### Defined in
 
-main.ts:49676
+main.ts:49709
 
 ## Methods
 
@@ -266,7 +266,7 @@ main.ts:49676
 
 #### Defined in
 
-main.ts:49719
+main.ts:49752
 
 ***
 
@@ -284,7 +284,7 @@ main.ts:49719
 
 #### Defined in
 
-main.ts:49756
+main.ts:49789
 
 ***
 
@@ -302,4 +302,4 @@ main.ts:49756
 
 #### Defined in
 
-main.ts:49749
+main.ts:49782

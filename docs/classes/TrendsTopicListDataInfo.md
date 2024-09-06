@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:124815
+main.ts:124848
 
 ## Properties
 
@@ -47,7 +47,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:124811
+main.ts:124844
 
 ***
 
@@ -64,7 +64,7 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:124808
+main.ts:124841
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:124808
 
 #### Defined in
 
-main.ts:124824
+main.ts:124857
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:124824
 
 #### Defined in
 
-main.ts:124850
+main.ts:124883
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:124850
 
 #### Defined in
 
-main.ts:124843
+main.ts:124876

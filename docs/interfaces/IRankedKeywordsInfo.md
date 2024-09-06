@@ -20,7 +20,7 @@ number of keywords for which the page is ranked in top 10 search results
 
 #### Defined in
 
-main.ts:140489
+main.ts:140522
 
 ***
 
@@ -32,7 +32,7 @@ number of keywords for which the page is ranked in top 100 search results
 
 #### Defined in
 
-main.ts:140491
+main.ts:140524
 
 ***
 
@@ -44,4 +44,4 @@ number of keywords for which the page is ranked in top 3 search results
 
 #### Defined in
 
-main.ts:140487
+main.ts:140520

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:85876
+main.ts:85909
 
 ## Properties
 
@@ -47,7 +47,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:85872
+main.ts:85905
 
 ***
 
@@ -64,7 +64,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Defined in
 
-main.ts:85858
+main.ts:85891
 
 ***
 
@@ -84,7 +84,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:85866
+main.ts:85899
 
 ***
 
@@ -101,7 +101,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:85840
+main.ts:85873
 
 ***
 
@@ -117,7 +117,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:85851
+main.ts:85884
 
 ***
 
@@ -133,7 +133,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:85853
+main.ts:85886
 
 ***
 
@@ -149,7 +149,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:85855
+main.ts:85888
 
 ***
 
@@ -165,7 +165,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:85860
+main.ts:85893
 
 ***
 
@@ -181,7 +181,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:85845
+main.ts:85878
 
 ***
 
@@ -198,7 +198,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:85843
+main.ts:85876
 
 ***
 
@@ -214,7 +214,7 @@ search engine type
 
 #### Defined in
 
-main.ts:85837
+main.ts:85870
 
 ***
 
@@ -232,7 +232,7 @@ if false, the results are returned for Google search sites only
 
 #### Defined in
 
-main.ts:85849
+main.ts:85882
 
 ***
 
@@ -249,7 +249,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:85869
+main.ts:85902
 
 ## Methods
 
@@ -267,7 +267,7 @@ main.ts:85869
 
 #### Defined in
 
-main.ts:85885
+main.ts:85918
 
 ***
 
@@ -285,7 +285,7 @@ main.ts:85885
 
 #### Defined in
 
-main.ts:85914
+main.ts:85947
 
 ***
 
@@ -303,4 +303,4 @@ main.ts:85914
 
 #### Defined in
 
-main.ts:85907
+main.ts:85940

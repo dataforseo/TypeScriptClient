@@ -21,7 +21,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:83605
+main.ts:83638
 
 ***
 
@@ -34,7 +34,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Defined in
 
-main.ts:83591
+main.ts:83624
 
 ***
 
@@ -50,7 +50,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:83599
+main.ts:83632
 
 ***
 
@@ -62,7 +62,7 @@ returned keyword idea
 
 #### Defined in
 
-main.ts:83578
+main.ts:83611
 
 ***
 
@@ -74,7 +74,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:83584
+main.ts:83617
 
 ***
 
@@ -86,7 +86,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:83586
+main.ts:83619
 
 ***
 
@@ -98,7 +98,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:83588
+main.ts:83621
 
 ***
 
@@ -110,7 +110,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:83593
+main.ts:83626
 
 ***
 
@@ -122,7 +122,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:83582
+main.ts:83615
 
 ***
 
@@ -134,7 +134,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:83580
+main.ts:83613
 
 ***
 
@@ -146,7 +146,7 @@ search engine type
 
 #### Defined in
 
-main.ts:83576
+main.ts:83609
 
 ***
 
@@ -159,7 +159,7 @@ learn about search intent in this help center article
 
 #### Defined in
 
-main.ts:83608
+main.ts:83641
 
 ***
 
@@ -172,4 +172,4 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:83602
+main.ts:83635

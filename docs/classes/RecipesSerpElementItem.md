@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:32488
+main.ts:32734
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`RecipesElement`](RecipesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32480
+main.ts:32726
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32484
+main.ts:32730
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:32493
+main.ts:32739
 
 ***
 
@@ -236,7 +235,7 @@ main.ts:32493
 
 #### Defined in
 
-main.ts:32516
+main.ts:32762
 
 ***
 
@@ -258,4 +257,4 @@ main.ts:32516
 
 #### Defined in
 
-main.ts:32509
+main.ts:32755

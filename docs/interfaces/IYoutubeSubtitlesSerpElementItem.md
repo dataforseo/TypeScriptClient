@@ -24,7 +24,7 @@ duration of subtitles in seconds
 
 #### Defined in
 
-main.ts:64020
+main.ts:64053
 
 ***
 
@@ -36,7 +36,7 @@ the second subtitled text ends
 
 #### Defined in
 
-main.ts:64018
+main.ts:64051
 
 ***
 
@@ -53,7 +53,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62316
+main.ts:62349
 
 ***
 
@@ -71,7 +71,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62313
+main.ts:62346
 
 ***
 
@@ -83,7 +83,7 @@ the second subtitled text starts
 
 #### Defined in
 
-main.ts:64016
+main.ts:64049
 
 ***
 
@@ -95,7 +95,7 @@ text translated in subtitles
 
 #### Defined in
 
-main.ts:64014
+main.ts:64047
 
 ***
 
@@ -111,4 +111,4 @@ type of element
 
 #### Defined in
 
-main.ts:62309
+main.ts:62342

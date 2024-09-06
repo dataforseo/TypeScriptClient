@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:140506
+main.ts:140539
 
 ## Properties
 
@@ -46,7 +46,7 @@ HTTP status code of the URL
 
 #### Defined in
 
-main.ts:140500
+main.ts:140533
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:140498
+main.ts:140531
 
 ***
 
@@ -78,7 +78,7 @@ indirect link URL
 
 #### Defined in
 
-main.ts:140502
+main.ts:140535
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:140502
 
 #### Defined in
 
-main.ts:140515
+main.ts:140548
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:140515
 
 #### Defined in
 
-main.ts:140534
+main.ts:140567
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:140534
 
 #### Defined in
 
-main.ts:140527
+main.ts:140560

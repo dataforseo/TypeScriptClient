@@ -24,7 +24,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:99836
+main.ts:99869
 
 ***
 
@@ -36,7 +36,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:99834
+main.ts:99867
 
 ***
 
@@ -48,7 +48,7 @@ search engine type
 
 #### Defined in
 
-main.ts:99830
+main.ts:99863
 
 ***
 
@@ -60,4 +60,4 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:99832
+main.ts:99865

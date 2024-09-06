@@ -30,7 +30,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:73277
+main.ts:73310
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:73285
+main.ts:73318
 
 ***
 
@@ -64,7 +64,7 @@ note that the API may return no data for such keywords due to Google Ads restr
 
 #### Defined in
 
-main.ts:73291
+main.ts:73324
 
 ***
 
@@ -86,7 +86,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:73227
+main.ts:73260
 
 ***
 
@@ -102,7 +102,7 @@ en
 
 #### Defined in
 
-main.ts:73264
+main.ts:73297
 
 ***
 
@@ -118,7 +118,7 @@ English
 
 #### Defined in
 
-main.ts:73258
+main.ts:73291
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:73243
+main.ts:73276
 
 ***
 
@@ -155,7 +155,7 @@ example:
 
 #### Defined in
 
-main.ts:73252
+main.ts:73285
 
 ***
 
@@ -173,7 +173,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:73235
+main.ts:73268
 
 ***
 
@@ -193,7 +193,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:73316
+main.ts:73349
 
 ***
 
@@ -213,7 +213,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:73306
+main.ts:73339
 
 ***
 
@@ -228,7 +228,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:73269
+main.ts:73302
 
 ***
 
@@ -243,7 +243,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:73296
+main.ts:73329
 
 ***
 
@@ -259,4 +259,4 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
-main.ts:73322
+main.ts:73355

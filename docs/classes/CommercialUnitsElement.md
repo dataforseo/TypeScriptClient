@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:34063
+main.ts:34294
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Defined in
 
-main.ts:34051
+main.ts:34282
 
 ***
 
@@ -62,7 +62,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:34053
+main.ts:34284
 
 ***
 
@@ -79,7 +79,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:34059
+main.ts:34290
 
 ***
 
@@ -96,7 +96,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:34056
+main.ts:34287
 
 ***
 
@@ -112,7 +112,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34047
+main.ts:34278
 
 ***
 
@@ -128,7 +128,7 @@ type of element
 
 #### Defined in
 
-main.ts:34045
+main.ts:34276
 
 ***
 
@@ -144,7 +144,7 @@ URL
 
 #### Defined in
 
-main.ts:34049
+main.ts:34280
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:34049
 
 #### Defined in
 
-main.ts:34072
+main.ts:34303
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:34072
 
 #### Defined in
 
-main.ts:34095
+main.ts:34326
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:34095
 
 #### Defined in
 
-main.ts:34088
+main.ts:34319

@@ -27,7 +27,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21392
+main.ts:21397
 
 ***
 
@@ -40,7 +40,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21390
+main.ts:21395
 
 ***
 
@@ -52,4 +52,4 @@ type of element
 
 #### Defined in
 
-main.ts:21387
+main.ts:21392

@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:161011
+main.ts:161044
 
 ***
 
@@ -35,7 +35,7 @@ if no error is encountered, the value will be null
 
 #### Defined in
 
-main.ts:161015
+main.ts:161048
 
 ***
 
@@ -47,7 +47,7 @@ items array
 
 #### Defined in
 
-main.ts:161019
+main.ts:161052
 
 ***
 
@@ -59,4 +59,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:161017
+main.ts:161050

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:156856
+main.ts:156889
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains the value of duplicated tag
 
 #### Defined in
 
-main.ts:156848
+main.ts:156881
 
 ***
 
@@ -62,7 +62,7 @@ pages with duplicate tags
 
 #### Defined in
 
-main.ts:156852
+main.ts:156885
 
 ***
 
@@ -78,7 +78,7 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:156850
+main.ts:156883
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:156850
 
 #### Defined in
 
-main.ts:156865
+main.ts:156898
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:156865
 
 #### Defined in
 
-main.ts:156888
+main.ts:156921
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:156888
 
 #### Defined in
 
-main.ts:156881
+main.ts:156914

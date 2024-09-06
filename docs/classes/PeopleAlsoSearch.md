@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:198482
+main.ts:198515
 
 ## Properties
 
@@ -48,7 +48,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198469
+main.ts:198502
 
 ***
 
@@ -65,7 +65,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:198472
+main.ts:198505
 
 ***
 
@@ -82,7 +82,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:198478
+main.ts:198511
 
 ***
 
@@ -99,7 +99,7 @@ the name of the business entity for which the results are collected
 
 #### Defined in
 
-main.ts:198475
+main.ts:198508
 
 ## Methods
 
@@ -117,7 +117,7 @@ main.ts:198475
 
 #### Defined in
 
-main.ts:198491
+main.ts:198524
 
 ***
 
@@ -135,7 +135,7 @@ main.ts:198491
 
 #### Defined in
 
-main.ts:198511
+main.ts:198544
 
 ***
 
@@ -153,4 +153,4 @@ main.ts:198511
 
 #### Defined in
 
-main.ts:198504
+main.ts:198537

@@ -20,7 +20,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:189616
+main.ts:189649
 
 ***
 
@@ -32,7 +32,7 @@ title of the app
 
 #### Defined in
 
-main.ts:189618
+main.ts:189651
 
 ***
 
@@ -44,4 +44,4 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:189620
+main.ts:189653

@@ -20,7 +20,7 @@ expanded element
 
 #### Defined in
 
-main.ts:34592
+main.ts:34819
 
 ***
 
@@ -32,7 +32,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34590
+main.ts:34817
 
 ***
 
@@ -44,4 +44,4 @@ type of element
 
 #### Defined in
 
-main.ts:34588
+main.ts:34815

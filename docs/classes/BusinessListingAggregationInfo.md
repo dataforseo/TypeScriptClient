@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:199597
+main.ts:199630
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of unique entities
 
 #### Defined in
 
-main.ts:199587
+main.ts:199620
 
 ***
 
@@ -67,7 +67,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Defined in
 
-main.ts:199590
+main.ts:199623
 
 ***
 
@@ -88,7 +88,7 @@ top categories displayed with the number of businesses in each category
 
 #### Defined in
 
-main.ts:199580
+main.ts:199613
 
 ***
 
@@ -109,7 +109,7 @@ country codes with the biggest number of businesses in the category
 
 #### Defined in
 
-main.ts:199583
+main.ts:199616
 
 ***
 
@@ -130,7 +130,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Defined in
 
-main.ts:199593
+main.ts:199626
 
 ***
 
@@ -146,7 +146,7 @@ number of unique websites
 
 #### Defined in
 
-main.ts:199585
+main.ts:199618
 
 ## Methods
 
@@ -164,7 +164,7 @@ main.ts:199585
 
 #### Defined in
 
-main.ts:199606
+main.ts:199639
 
 ***
 
@@ -182,7 +182,7 @@ main.ts:199606
 
 #### Defined in
 
-main.ts:199652
+main.ts:199685
 
 ***
 
@@ -200,4 +200,4 @@ main.ts:199652
 
 #### Defined in
 
-main.ts:199645
+main.ts:199678

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:224157
+main.ts:224190
 
 ## Properties
 
@@ -51,7 +51,7 @@ postback/pingback
 
 #### Defined in
 
-main.ts:224143
+main.ts:224176
 
 ***
 
@@ -75,7 +75,7 @@ send_delay
 
 #### Defined in
 
-main.ts:224153
+main.ts:224186
 
 ## Methods
 
@@ -93,7 +93,7 @@ main.ts:224153
 
 #### Defined in
 
-main.ts:224166
+main.ts:224199
 
 ***
 
@@ -111,7 +111,7 @@ main.ts:224166
 
 #### Defined in
 
-main.ts:224184
+main.ts:224217
 
 ***
 
@@ -129,4 +129,4 @@ main.ts:224184
 
 #### Defined in
 
-main.ts:224177
+main.ts:224210

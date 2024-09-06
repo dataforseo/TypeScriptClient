@@ -20,7 +20,7 @@ additional elements in the mention_carousel item
 
 #### Defined in
 
-main.ts:31948
+main.ts:32203
 
 ***
 
@@ -32,7 +32,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:31943
+main.ts:32198
 
 ***
 
@@ -45,7 +45,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31946
+main.ts:32201
 
 ***
 
@@ -57,7 +57,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31941
+main.ts:32196
 
 ***
 
@@ -69,4 +69,4 @@ type of element
 
 #### Defined in
 
-main.ts:31939
+main.ts:32194

@@ -20,6 +20,7 @@
 - [`KnowledgeGraphPartItemSerpElementItem`](KnowledgeGraphPartItemSerpElementItem.md)
 - [`KnowledgeGraphShoppingItemSerpElementItem`](KnowledgeGraphShoppingItemSerpElementItem.md)
 - [`KnowledgeGraphHotelsBookingItemSerpElementItem`](KnowledgeGraphHotelsBookingItemSerpElementItem.md)
+- [`KnowledgeGraphAiOverviewItemSerpElementItem`](KnowledgeGraphAiOverviewItemSerpElementItem.md)
 - [`KnowledgeGraphSerpElementItem`](KnowledgeGraphSerpElementItem.md)
 - [`TopStoriesSerpElementItem`](TopStoriesSerpElementItem.md)
 - [`PeopleAlsoAskSerpElementItem`](PeopleAlsoAskSerpElementItem.md)
@@ -220,7 +221,7 @@ main.ts:20379
 
 #### Defined in
 
-main.ts:20696
+main.ts:20701
 
 ***
 

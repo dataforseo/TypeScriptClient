@@ -24,7 +24,7 @@ converted currency
 
 #### Defined in
 
-main.ts:34782
+main.ts:35007
 
 ***
 
@@ -38,7 +38,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Defined in
 
-main.ts:34777
+main.ts:35002
 
 ***
 
@@ -51,7 +51,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:34780
+main.ts:35005
 
 ***
 
@@ -63,7 +63,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:34792
+main.ts:35017
 
 ***
 
@@ -81,7 +81,7 @@ left, right
 
 #### Defined in
 
-main.ts:20721
+main.ts:20726
 
 ***
 
@@ -98,7 +98,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20717
+main.ts:20722
 
 ***
 
@@ -116,7 +116,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20714
+main.ts:20719
 
 ***
 
@@ -130,7 +130,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34796
+main.ts:35021
 
 ***
 
@@ -143,7 +143,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34790
+main.ts:35015
 
 ***
 
@@ -158,7 +158,7 @@ example:
 
 #### Defined in
 
-main.ts:34787
+main.ts:35012
 
 ***
 
@@ -174,7 +174,7 @@ type of element
 
 #### Defined in
 
-main.ts:20710
+main.ts:20715
 
 ***
 
@@ -186,7 +186,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:34773
+main.ts:34998
 
 ***
 
@@ -202,4 +202,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20723
+main.ts:20728

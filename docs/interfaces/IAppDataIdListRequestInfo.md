@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:185760
+main.ts:185793
 
 ***
 
@@ -43,7 +43,7 @@ example:
 
 #### Defined in
 
-main.ts:185767
+main.ts:185800
 
 ***
 
@@ -57,7 +57,7 @@ default value: false
 
 #### Defined in
 
-main.ts:185786
+main.ts:185819
 
 ***
 
@@ -72,7 +72,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:185772
+main.ts:185805
 
 ***
 
@@ -87,7 +87,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:185777
+main.ts:185810
 
 ***
 
@@ -102,4 +102,4 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:185782
+main.ts:185815

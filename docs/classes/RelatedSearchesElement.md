@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22562
+main.ts:22567
 
 ## Properties
 
@@ -46,7 +46,7 @@ the alt tag of the product image featured in the results
 
 #### Defined in
 
-main.ts:22556
+main.ts:22561
 
 ***
 
@@ -62,7 +62,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:22558
+main.ts:22563
 
 ***
 
@@ -78,7 +78,7 @@ product title
 
 #### Defined in
 
-main.ts:22552
+main.ts:22557
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:22550
+main.ts:22555
 
 ***
 
@@ -110,7 +110,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:22554
+main.ts:22559
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:22554
 
 #### Defined in
 
-main.ts:22571
+main.ts:22576
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:22571
 
 #### Defined in
 
-main.ts:22592
+main.ts:22597
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:22592
 
 #### Defined in
 
-main.ts:22585
+main.ts:22590

@@ -28,7 +28,7 @@ Note: this filter works only in conjunction with the "category": "family" parame
 
 #### Defined in
 
-main.ts:188260
+main.ts:188293
 
 ***
 
@@ -46,7 +46,7 @@ Note: app_category cannot be used if app_collection parameter is set to featured
 
 #### Defined in
 
-main.ts:188250
+main.ts:188283
 
 ***
 
@@ -63,7 +63,7 @@ Note: if featured is selected, the app_category parameter cannot be used
 
 #### Defined in
 
-main.ts:188199
+main.ts:188232
 
 ***
 
@@ -80,7 +80,7 @@ maximum value: 200
 
 #### Defined in
 
-main.ts:188242
+main.ts:188275
 
 ***
 
@@ -97,7 +97,7 @@ en
 
 #### Defined in
 
-main.ts:188227
+main.ts:188260
 
 ***
 
@@ -114,7 +114,7 @@ English
 
 #### Defined in
 
-main.ts:188220
+main.ts:188253
 
 ***
 
@@ -131,7 +131,7 @@ example:
 
 #### Defined in
 
-main.ts:188213
+main.ts:188246
 
 ***
 
@@ -148,7 +148,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:188206
+main.ts:188239
 
 ***
 
@@ -168,7 +168,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:188292
+main.ts:188325
 
 ***
 
@@ -184,7 +184,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:188282
+main.ts:188315
 
 ***
 
@@ -204,7 +204,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:188276
+main.ts:188309
 
 ***
 
@@ -222,7 +222,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:188235
+main.ts:188268
 
 ***
 
@@ -238,4 +238,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:188266
+main.ts:188299

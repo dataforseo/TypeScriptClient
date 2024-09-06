@@ -24,7 +24,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:180367
+main.ts:180400
 
 ***
 
@@ -38,7 +38,7 @@ USD
 
 #### Defined in
 
-main.ts:180379
+main.ts:180412
 
 ***
 
@@ -53,7 +53,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:180387
+main.ts:180420
 
 ***
 
@@ -66,7 +66,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:180398
+main.ts:180431
 
 ***
 
@@ -78,7 +78,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:180359
+main.ts:180392
 
 ***
 
@@ -90,7 +90,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:180365
+main.ts:180398
 
 ***
 
@@ -103,7 +103,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:180392
+main.ts:180425
 
 ***
 
@@ -116,7 +116,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:180395
+main.ts:180428
 
 ***
 
@@ -130,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:180371
+main.ts:180404
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:180375
+main.ts:180408
 
 ***
 
@@ -161,7 +161,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22407
+main.ts:22412
 
 ***
 
@@ -178,7 +178,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22404
+main.ts:22409
 
 ***
 
@@ -190,7 +190,7 @@ product rating info
 
 #### Defined in
 
-main.ts:180389
+main.ts:180422
 
 ***
 
@@ -203,7 +203,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:180382
+main.ts:180415
 
 ***
 
@@ -215,7 +215,7 @@ product title
 
 #### Defined in
 
-main.ts:180361
+main.ts:180394
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:22401
+main.ts:22406
 
 ***
 
@@ -243,7 +243,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:180363
+main.ts:180396
 
 ***
 
@@ -259,4 +259,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22409
+main.ts:22414

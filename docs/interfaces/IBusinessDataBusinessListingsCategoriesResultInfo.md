@@ -20,7 +20,7 @@ number of businesses in the category
 
 #### Defined in
 
-main.ts:197840
+main.ts:197873
 
 ***
 
@@ -32,4 +32,4 @@ full name of the category
 
 #### Defined in
 
-main.ts:197838
+main.ts:197871

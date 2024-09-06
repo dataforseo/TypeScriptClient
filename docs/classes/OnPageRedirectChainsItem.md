@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:158325
+main.ts:158358
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains links that form a chain
 
 #### Defined in
 
-main.ts:158321
+main.ts:158354
 
 ***
 
@@ -63,7 +63,7 @@ if true, the last URL from the chain redirects back to the original URL
 
 #### Defined in
 
-main.ts:158319
+main.ts:158352
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:158319
 
 #### Defined in
 
-main.ts:158334
+main.ts:158367
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:158334
 
 #### Defined in
 
-main.ts:158356
+main.ts:158389
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:158356
 
 #### Defined in
 
-main.ts:158349
+main.ts:158382

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:27499
+main.ts:27504
 
 ## Properties
 
@@ -68,7 +68,7 @@ breadcrumb of the ad element in SERP
 
 #### Defined in
 
-main.ts:27479
+main.ts:27484
 
 ***
 
@@ -84,7 +84,7 @@ description of the ad element in SERP
 
 #### Defined in
 
-main.ts:27475
+main.ts:27480
 
 ***
 
@@ -100,7 +100,7 @@ domain of the ad element in SERP
 
 #### Defined in
 
-main.ts:27471
+main.ts:27476
 
 ***
 
@@ -116,7 +116,7 @@ title
 
 #### Defined in
 
-main.ts:27481
+main.ts:27486
 
 ***
 
@@ -132,7 +132,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27488
+main.ts:27493
 
 ***
 
@@ -215,7 +215,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27495
+main.ts:27500
 
 ***
 
@@ -232,7 +232,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27491
+main.ts:27496
 
 ***
 
@@ -251,7 +251,7 @@ example:
 
 #### Defined in
 
-main.ts:27486
+main.ts:27491
 
 ***
 
@@ -267,7 +267,7 @@ title of the ad element in SERP
 
 #### Defined in
 
-main.ts:27473
+main.ts:27478
 
 ***
 
@@ -303,7 +303,7 @@ relevant URL of the ad element in SERP
 
 #### Defined in
 
-main.ts:27477
+main.ts:27482
 
 ***
 
@@ -345,7 +345,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:27504
+main.ts:27509
 
 ***
 
@@ -367,7 +367,7 @@ main.ts:27504
 
 #### Defined in
 
-main.ts:27535
+main.ts:27540
 
 ***
 
@@ -389,4 +389,4 @@ main.ts:27535
 
 #### Defined in
 
-main.ts:27528
+main.ts:27533

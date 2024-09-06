@@ -24,7 +24,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:120979
+main.ts:121012
 
 ***
 
@@ -44,7 +44,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:121035
+main.ts:121068
 
 ***
 
@@ -60,7 +60,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:121050
+main.ts:121083
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:121044
+main.ts:121077
 
 ***
 
@@ -101,7 +101,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:120973
+main.ts:121006
 
 ***
 
@@ -117,7 +117,7 @@ en
 
 #### Defined in
 
-main.ts:121025
+main.ts:121058
 
 ***
 
@@ -133,7 +133,7 @@ English
 
 #### Defined in
 
-main.ts:121019
+main.ts:121052
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:121004
+main.ts:121037
 
 ***
 
@@ -170,7 +170,7 @@ example:
 
 #### Defined in
 
-main.ts:121013
+main.ts:121046
 
 ***
 
@@ -188,7 +188,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:120996
+main.ts:121029
 
 ***
 
@@ -202,7 +202,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:120983
+main.ts:121016
 
 ***
 
@@ -222,7 +222,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:121075
+main.ts:121108
 
 ***
 
@@ -242,7 +242,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:121065
+main.ts:121098
 
 ***
 
@@ -257,7 +257,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:120988
+main.ts:121021
 
 ***
 
@@ -272,7 +272,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:121055
+main.ts:121088
 
 ***
 
@@ -288,4 +288,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:121081
+main.ts:121114

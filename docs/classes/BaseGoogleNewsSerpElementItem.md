@@ -31,7 +31,7 @@
 
 #### Defined in
 
-main.ts:43866
+main.ts:43899
 
 ## Properties
 
@@ -41,7 +41,7 @@ main.ts:43866
 
 #### Defined in
 
-main.ts:43864
+main.ts:43897
 
 ***
 
@@ -58,7 +58,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:43854
+main.ts:43887
 
 ***
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:43851
+main.ts:43884
 
 ***
 
@@ -94,7 +94,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:43862
+main.ts:43895
 
 ***
 
@@ -110,7 +110,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:43858
+main.ts:43891
 
 ***
 
@@ -126,7 +126,7 @@ type of element
 
 #### Defined in
 
-main.ts:43847
+main.ts:43880
 
 ***
 
@@ -142,7 +142,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:43856
+main.ts:43889
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:43856
 
 #### Defined in
 
-main.ts:43876
+main.ts:43909
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:43876
 
 #### Defined in
 
-main.ts:43904
+main.ts:43937
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:43904
 
 #### Defined in
 
-main.ts:43887
+main.ts:43920

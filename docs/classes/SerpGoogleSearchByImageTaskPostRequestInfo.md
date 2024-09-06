@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:48939
+main.ts:48972
 
 ## Properties
 
@@ -50,7 +50,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:48893
+main.ts:48926
 
 ***
 
@@ -70,7 +70,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:48899
+main.ts:48932
 
 ***
 
@@ -90,7 +90,7 @@ Note: to use this parameter, set calculate_rectangles to true
 
 #### Defined in
 
-main.ts:48887
+main.ts:48920
 
 ***
 
@@ -111,7 +111,7 @@ Note: if set to true, the charge per task will be multiplied by 2
 
 #### Defined in
 
-main.ts:48881
+main.ts:48914
 
 ***
 
@@ -131,7 +131,7 @@ https://upload.wikimedia.org/wikipedia/commons/e/ed/Elon_Musk_Royal_Society.jpg
 
 #### Defined in
 
-main.ts:48814
+main.ts:48847
 
 ***
 
@@ -152,7 +152,7 @@ en
 
 #### Defined in
 
-main.ts:48867
+main.ts:48900
 
 ***
 
@@ -173,7 +173,7 @@ English
 
 #### Defined in
 
-main.ts:48860
+main.ts:48893
 
 ***
 
@@ -194,7 +194,7 @@ example:
 
 #### Defined in
 
-main.ts:48843
+main.ts:48876
 
 ***
 
@@ -218,7 +218,7 @@ example:
 
 #### Defined in
 
-main.ts:48853
+main.ts:48886
 
 ***
 
@@ -239,7 +239,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:48836
+main.ts:48869
 
 ***
 
@@ -260,7 +260,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:48829
+main.ts:48862
 
 ***
 
@@ -284,7 +284,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:48935
+main.ts:48968
 
 ***
 
@@ -304,7 +304,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:48925
+main.ts:48958
 
 ***
 
@@ -328,7 +328,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:48919
+main.ts:48952
 
 ***
 
@@ -350,7 +350,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:48822
+main.ts:48855
 
 ***
 
@@ -371,7 +371,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:48874
+main.ts:48907
 
 ***
 
@@ -389,7 +389,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:48903
+main.ts:48936
 
 ***
 
@@ -409,7 +409,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:48909
+main.ts:48942
 
 ## Methods
 
@@ -427,7 +427,7 @@ main.ts:48909
 
 #### Defined in
 
-main.ts:48948
+main.ts:48981
 
 ***
 
@@ -445,7 +445,7 @@ main.ts:48948
 
 #### Defined in
 
-main.ts:48982
+main.ts:49015
 
 ***
 
@@ -463,4 +463,4 @@ main.ts:48982
 
 #### Defined in
 
-main.ts:48975
+main.ts:49008

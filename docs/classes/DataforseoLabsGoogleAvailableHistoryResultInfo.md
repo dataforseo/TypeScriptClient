@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:82086
+main.ts:82119
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:82082
+main.ts:82115
 
 ## Methods
 
@@ -67,7 +67,7 @@ main.ts:82082
 
 #### Defined in
 
-main.ts:82095
+main.ts:82128
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:82095
 
 #### Defined in
 
-main.ts:82112
+main.ts:82145
 
 ***
 
@@ -103,4 +103,4 @@ main.ts:82112
 
 #### Defined in
 
-main.ts:82105
+main.ts:82138

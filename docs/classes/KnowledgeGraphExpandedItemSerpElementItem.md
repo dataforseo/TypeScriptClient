@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:28639
+main.ts:28648
 
 ## Properties
 
@@ -70,7 +70,7 @@ kc:/local:place qa
 
 #### Defined in
 
-main.ts:28629
+main.ts:28638
 
 ***
 
@@ -86,7 +86,7 @@ link of the element
 
 #### Defined in
 
-main.ts:28631
+main.ts:28640
 
 ***
 
@@ -169,7 +169,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28635
+main.ts:28644
 
 ***
 
@@ -185,7 +185,7 @@ title of the link
 
 #### Defined in
 
-main.ts:28625
+main.ts:28634
 
 ***
 
@@ -247,7 +247,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28644
+main.ts:28653
 
 ***
 
@@ -269,7 +269,7 @@ main.ts:28644
 
 #### Defined in
 
-main.ts:28669
+main.ts:28678
 
 ***
 
@@ -291,4 +291,4 @@ main.ts:28669
 
 #### Defined in
 
-main.ts:28662
+main.ts:28671

@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:76642
+main.ts:76675
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:76638
+main.ts:76671
 
 ***
 
@@ -44,7 +44,7 @@ offset in the results array of returned domains
 
 #### Defined in
 
-main.ts:76640
+main.ts:76673
 
 ***
 
@@ -56,4 +56,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:76636
+main.ts:76669

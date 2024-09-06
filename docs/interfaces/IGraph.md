@@ -16,11 +16,11 @@
 
 > `optional` **items**: [`GraphElement`](../classes/GraphElement.md)[]
 
-contains arrays of specific images
+contains arrays of elements available in the list
 
 #### Defined in
 
-main.ts:33293
+main.ts:33532
 
 ***
 
@@ -33,4 +33,4 @@ contains stock price data based on the preceding time period
 
 #### Defined in
 
-main.ts:33296
+main.ts:33535

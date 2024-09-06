@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:32784
+main.ts:33026
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`ScholarlyArticlesElement`](ScholarlyArticlesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32776
+main.ts:33018
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32780
+main.ts:33022
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:32771
+main.ts:33014
 
 ***
 
@@ -204,7 +203,7 @@ source URL
 
 #### Defined in
 
-main.ts:32773
+main.ts:33016
 
 ***
 
@@ -246,7 +245,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:32789
+main.ts:33031
 
 ***
 
@@ -268,7 +267,7 @@ main.ts:32789
 
 #### Defined in
 
-main.ts:32814
+main.ts:33056
 
 ***
 
@@ -290,4 +289,4 @@ main.ts:32814
 
 #### Defined in
 
-main.ts:32807
+main.ts:33049

@@ -24,7 +24,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:199520
+main.ts:199553
 
 ***
 
@@ -39,7 +39,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:199525
+main.ts:199558
 
 ***
 
@@ -60,7 +60,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:199553
+main.ts:199586
 
 ***
 
@@ -75,7 +75,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:199558
+main.ts:199591
 
 ***
 
@@ -88,7 +88,7 @@ optional field
 
 #### Defined in
 
-main.ts:199533
+main.ts:199566
 
 ***
 
@@ -103,7 +103,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:199563
+main.ts:199596
 
 ***
 
@@ -122,7 +122,7 @@ example:
 
 #### Defined in
 
-main.ts:199542
+main.ts:199575
 
 ***
 
@@ -135,7 +135,7 @@ optional field
 
 #### Defined in
 
-main.ts:199566
+main.ts:199599
 
 ***
 
@@ -151,7 +151,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:199572
+main.ts:199605
 
 ***
 
@@ -166,4 +166,4 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:199530
+main.ts:199563

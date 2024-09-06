@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:83513
+main.ts:83546
 
 ## Properties
 
@@ -47,7 +47,7 @@ this object provides the average number of backlinks, referring pages and domain
 
 #### Defined in
 
-main.ts:83506
+main.ts:83539
 
 ***
 
@@ -64,7 +64,7 @@ to retrieve results for this field, the parameter include_clickstream_data must 
 
 #### Defined in
 
-main.ts:83492
+main.ts:83525
 
 ***
 
@@ -84,7 +84,7 @@ learn more about impressions in this help center article
 
 #### Defined in
 
-main.ts:83500
+main.ts:83533
 
 ***
 
@@ -100,7 +100,7 @@ returned keyword idea
 
 #### Defined in
 
-main.ts:83479
+main.ts:83512
 
 ***
 
@@ -116,7 +116,7 @@ keyword data for the returned keyword idea
 
 #### Defined in
 
-main.ts:83485
+main.ts:83518
 
 ***
 
@@ -132,7 +132,7 @@ contains keyword search volume normalized with Bing search volume
 
 #### Defined in
 
-main.ts:83487
+main.ts:83520
 
 ***
 
@@ -148,7 +148,7 @@ contains keyword search volume normalized with clickstream data
 
 #### Defined in
 
-main.ts:83489
+main.ts:83522
 
 ***
 
@@ -164,7 +164,7 @@ additional information about the keyword
 
 #### Defined in
 
-main.ts:83494
+main.ts:83527
 
 ***
 
@@ -180,7 +180,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:83483
+main.ts:83516
 
 ***
 
@@ -196,7 +196,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:83481
+main.ts:83514
 
 ***
 
@@ -212,7 +212,7 @@ search engine type
 
 #### Defined in
 
-main.ts:83477
+main.ts:83510
 
 ***
 
@@ -229,7 +229,7 @@ learn about search intent in this help center article
 
 #### Defined in
 
-main.ts:83509
+main.ts:83542
 
 ***
 
@@ -246,7 +246,7 @@ the value will be null if you didn’t set the field include_serp_info to true i
 
 #### Defined in
 
-main.ts:83503
+main.ts:83536
 
 ## Methods
 
@@ -264,7 +264,7 @@ main.ts:83503
 
 #### Defined in
 
-main.ts:83522
+main.ts:83555
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:83522
 
 #### Defined in
 
-main.ts:83551
+main.ts:83584
 
 ***
 
@@ -300,4 +300,4 @@ main.ts:83551
 
 #### Defined in
 
-main.ts:83544
+main.ts:83577

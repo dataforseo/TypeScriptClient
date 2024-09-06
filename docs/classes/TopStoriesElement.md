@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:29758
+main.ts:30034
 
 ## Properties
 
@@ -47,7 +47,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:29743
+main.ts:30018
 
 ***
 
@@ -63,7 +63,7 @@ badges relevant to the element
 
 #### Defined in
 
-main.ts:29754
+main.ts:30030
 
 ***
 
@@ -79,7 +79,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:29740
+main.ts:30015
 
 ***
 
@@ -95,7 +95,7 @@ website domain
 
 #### Defined in
 
-main.ts:29736
+main.ts:30011
 
 ***
 
@@ -104,6 +104,7 @@ main.ts:29736
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
@@ -111,7 +112,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:29752
+main.ts:30028
 
 ***
 
@@ -128,7 +129,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:29734
+main.ts:30009
 
 ***
 
@@ -147,7 +148,7 @@ example:
 
 #### Defined in
 
-main.ts:29748
+main.ts:30023
 
 ***
 
@@ -163,7 +164,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29738
+main.ts:30013
 
 ***
 
@@ -179,7 +180,7 @@ type of element
 
 #### Defined in
 
-main.ts:29731
+main.ts:30006
 
 ***
 
@@ -195,7 +196,7 @@ URL
 
 #### Defined in
 
-main.ts:29750
+main.ts:30025
 
 ## Methods
 
@@ -213,7 +214,7 @@ main.ts:29750
 
 #### Defined in
 
-main.ts:29767
+main.ts:30043
 
 ***
 
@@ -231,7 +232,7 @@ main.ts:29767
 
 #### Defined in
 
-main.ts:29797
+main.ts:30073
 
 ***
 
@@ -249,4 +250,4 @@ main.ts:29797
 
 #### Defined in
 
-main.ts:29790
+main.ts:30066

@@ -24,7 +24,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:97417
+main.ts:97450
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:97392
+main.ts:97425
 
 ***
 
@@ -48,7 +48,7 @@ website domain
 
 #### Defined in
 
-main.ts:97386
+main.ts:97419
 
 ***
 
@@ -62,7 +62,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97412
+main.ts:97445
 
 ***
 
@@ -77,7 +77,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:97408
+main.ts:97441
 
 ***
 
@@ -89,7 +89,7 @@ the title of the featured snippets source page
 
 #### Defined in
 
-main.ts:97390
+main.ts:97423
 
 ***
 
@@ -101,7 +101,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:97401
+main.ts:97434
 
 ***
 
@@ -119,7 +119,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -136,7 +136,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -149,7 +149,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-main.ts:97415
+main.ts:97448
 
 ***
 
@@ -166,7 +166,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -178,7 +178,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:97419
+main.ts:97452
 
 ***
 
@@ -190,7 +190,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:97403
+main.ts:97436
 
 ***
 
@@ -202,7 +202,7 @@ search engine type
 
 #### Defined in
 
-main.ts:97399
+main.ts:97432
 
 ***
 
@@ -215,7 +215,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97397
+main.ts:97430
 
 ***
 
@@ -227,7 +227,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97388
+main.ts:97421
 
 ***
 
@@ -243,7 +243,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -255,7 +255,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:97394
+main.ts:97427
 
 ***
 
@@ -271,4 +271,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

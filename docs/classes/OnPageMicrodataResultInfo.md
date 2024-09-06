@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:160209
+main.ts:160242
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:160197
+main.ts:160230
 
 ***
 
@@ -63,7 +63,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:160199
+main.ts:160232
 
 ***
 
@@ -79,7 +79,7 @@ items array
 
 #### Defined in
 
-main.ts:160205
+main.ts:160238
 
 ***
 
@@ -95,7 +95,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:160203
+main.ts:160236
 
 ***
 
@@ -111,7 +111,7 @@ microdata validation test results
 
 #### Defined in
 
-main.ts:160201
+main.ts:160234
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:160201
 
 #### Defined in
 
-main.ts:160218
+main.ts:160251
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:160218
 
 #### Defined in
 
-main.ts:160243
+main.ts:160276
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:160243
 
 #### Defined in
 
-main.ts:160236
+main.ts:160269

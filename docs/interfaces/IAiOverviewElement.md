@@ -17,11 +17,10 @@
 > `optional` **images**: [`ImagesElement`](../classes/ImagesElement.md)[]
 
 images of the element
-if there are none, equals null
 
 #### Defined in
 
-main.ts:36549
+main.ts:29359
 
 ***
 
@@ -30,11 +29,10 @@ main.ts:36549
 > `optional` **references**: [`AiOverviewReference`](../classes/AiOverviewReference.md)[]
 
 references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element
 
 #### Defined in
 
-main.ts:36552
+main.ts:29361
 
 ***
 
@@ -42,12 +40,11 @@ main.ts:36552
 
 > `optional` **text**: `string`
 
-reference text
-text snippet from the page that was used to generate the ai_overview_element
+description content
 
 #### Defined in
 
-main.ts:36546
+main.ts:29357
 
 ***
 
@@ -55,11 +52,11 @@ main.ts:36546
 
 > `optional` **title**: `string`
 
-title of a given link element
+title of the element
 
 #### Defined in
 
-main.ts:36543
+main.ts:29355
 
 ***
 
@@ -71,4 +68,4 @@ type of element
 
 #### Defined in
 
-main.ts:36541
+main.ts:29353

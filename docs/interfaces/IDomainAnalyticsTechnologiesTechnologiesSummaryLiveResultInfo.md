@@ -25,7 +25,7 @@ contains content language codes and number of websites per language
 
 #### Defined in
 
-main.ts:77127
+main.ts:77160
 
 ***
 
@@ -42,7 +42,7 @@ contains country codes and number of websites per country
 
 #### Defined in
 
-main.ts:77121
+main.ts:77154
 
 ***
 
@@ -59,7 +59,7 @@ contains keywords found in the websites’ titles, descriptions or meta keywords
 
 #### Defined in
 
-main.ts:77130
+main.ts:77163
 
 ***
 
@@ -76,4 +76,4 @@ contains language codes and number of websites per language
 
 #### Defined in
 
-main.ts:77124
+main.ts:77157

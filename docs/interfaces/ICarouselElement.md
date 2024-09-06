@@ -17,10 +17,11 @@
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Defined in
 
-main.ts:31234
+main.ts:31497
 
 ***
 
@@ -32,7 +33,7 @@ subtitle of the element
 
 #### Defined in
 
-main.ts:31232
+main.ts:31494
 
 ***
 
@@ -44,7 +45,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31230
+main.ts:31492
 
 ***
 
@@ -56,4 +57,4 @@ type of element
 
 #### Defined in
 
-main.ts:31228
+main.ts:31490

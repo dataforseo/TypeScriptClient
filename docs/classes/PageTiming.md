@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:154733
+main.ts:154766
 
 ## Properties
 
@@ -47,7 +47,7 @@ the time it takes until the connection with a server is established (in millisec
 
 #### Defined in
 
-main.ts:154711
+main.ts:154744
 
 ***
 
@@ -64,7 +64,7 @@ the time it takes until the page and all of its subresources are downloaded (in 
 
 #### Defined in
 
-main.ts:154702
+main.ts:154735
 
 ***
 
@@ -80,7 +80,7 @@ time it takes for a browser to receive a response (in milliseconds)
 
 #### Defined in
 
-main.ts:154721
+main.ts:154754
 
 ***
 
@@ -96,7 +96,7 @@ total time it takes until a browser receives a complete response from a server (
 
 #### Defined in
 
-main.ts:154723
+main.ts:154756
 
 ***
 
@@ -113,7 +113,7 @@ the amount of time the browser needs to complete downloading a page
 
 #### Defined in
 
-main.ts:154729
+main.ts:154762
 
 ***
 
@@ -130,7 +130,7 @@ the amount of time the browser needs to start downloading a page
 
 #### Defined in
 
-main.ts:154726
+main.ts:154759
 
 ***
 
@@ -147,7 +147,7 @@ The time (in milliseconds) from when a user first interacts with your page to th
 
 #### Defined in
 
-main.ts:154708
+main.ts:154741
 
 ***
 
@@ -164,7 +164,7 @@ The amount of time (in milliseconds) to render the largest content element visib
 
 #### Defined in
 
-main.ts:154705
+main.ts:154738
 
 ***
 
@@ -181,7 +181,7 @@ the time it takes until the request to a server is sent (in milliseconds)
 
 #### Defined in
 
-main.ts:154717
+main.ts:154750
 
 ***
 
@@ -198,7 +198,7 @@ the time it takes until the user can interact with a page (in milliseconds)
 
 #### Defined in
 
-main.ts:154699
+main.ts:154732
 
 ***
 
@@ -215,7 +215,7 @@ the time it takes until the secure connection with a server is established (in m
 
 #### Defined in
 
-main.ts:154714
+main.ts:154747
 
 ***
 
@@ -231,7 +231,7 @@ time to first byte (TTFB) in milliseconds
 
 #### Defined in
 
-main.ts:154719
+main.ts:154752
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:154719
 
 #### Defined in
 
-main.ts:154742
+main.ts:154775
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:154742
 
 #### Defined in
 
-main.ts:154770
+main.ts:154803
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:154770
 
 #### Defined in
 
-main.ts:154763
+main.ts:154796

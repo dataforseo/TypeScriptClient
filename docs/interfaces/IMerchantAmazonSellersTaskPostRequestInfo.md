@@ -26,7 +26,7 @@ learn more about the identifier in this help center guide
 
 #### Defined in
 
-main.ts:183180
+main.ts:183213
 
 ***
 
@@ -43,7 +43,7 @@ en
 
 #### Defined in
 
-main.ts:183225
+main.ts:183258
 
 ***
 
@@ -60,7 +60,7 @@ English
 
 #### Defined in
 
-main.ts:183218
+main.ts:183251
 
 ***
 
@@ -77,7 +77,7 @@ example:
 
 #### Defined in
 
-main.ts:183202
+main.ts:183235
 
 ***
 
@@ -96,7 +96,7 @@ example:
 
 #### Defined in
 
-main.ts:183211
+main.ts:183244
 
 ***
 
@@ -113,7 +113,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:183195
+main.ts:183228
 
 ***
 
@@ -133,7 +133,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183264
+main.ts:183297
 
 ***
 
@@ -149,7 +149,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:183254
+main.ts:183287
 
 ***
 
@@ -169,7 +169,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:183248
+main.ts:183281
 
 ***
 
@@ -187,7 +187,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:183188
+main.ts:183221
 
 ***
 
@@ -204,7 +204,7 @@ amazon.co.uk, amazon.com.au, amazon.de, etc.
 
 #### Defined in
 
-main.ts:183232
+main.ts:183265
 
 ***
 
@@ -220,4 +220,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:183238
+main.ts:183271

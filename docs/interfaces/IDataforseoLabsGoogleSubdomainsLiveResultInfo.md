@@ -20,7 +20,7 @@ contains subdomains and related data
 
 #### Defined in
 
-main.ts:94490
+main.ts:94523
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:94488
+main.ts:94521
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:94484
+main.ts:94517
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:94482
+main.ts:94515
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94478
+main.ts:94511
 
 ***
 
@@ -80,7 +80,7 @@ domain in a POST array
 
 #### Defined in
 
-main.ts:94480
+main.ts:94513
 
 ***
 
@@ -92,4 +92,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:94486
+main.ts:94519

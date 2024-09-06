@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:125681
+main.ts:125714
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:125673
+main.ts:125706
 
 ***
 
@@ -65,7 +65,7 @@ contains keyword popularity and related data
 
 #### Defined in
 
-main.ts:125677
+main.ts:125710
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:125675
+main.ts:125708
 
 ***
 
@@ -97,7 +97,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:125660
+main.ts:125693
 
 ***
 
@@ -114,7 +114,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:125668
+main.ts:125701
 
 ***
 
@@ -131,7 +131,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:125665
+main.ts:125698
 
 ***
 
@@ -147,7 +147,7 @@ type of element
 
 #### Defined in
 
-main.ts:125662
+main.ts:125695
 
 ## Methods
 
@@ -165,7 +165,7 @@ main.ts:125662
 
 #### Defined in
 
-main.ts:125690
+main.ts:125723
 
 ***
 
@@ -183,7 +183,7 @@ main.ts:125690
 
 #### Defined in
 
-main.ts:125721
+main.ts:125754
 
 ***
 
@@ -201,4 +201,4 @@ main.ts:125721
 
 #### Defined in
 
-main.ts:125714
+main.ts:125747

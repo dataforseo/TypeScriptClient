@@ -25,7 +25,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Defined in
 
-main.ts:185143
+main.ts:185176
 
 ***
 
@@ -37,7 +37,7 @@ images of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:185145
+main.ts:185178
 
 ***
 
@@ -50,7 +50,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:185136
+main.ts:185169
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:185160
+main.ts:185193
 
 ***
 
@@ -82,7 +82,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22407
+main.ts:22412
 
 ***
 
@@ -99,7 +99,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22404
+main.ts:22409
 
 ***
 
@@ -111,7 +111,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:185162
+main.ts:185195
 
 ***
 
@@ -123,7 +123,7 @@ content of the review
 
 #### Defined in
 
-main.ts:185155
+main.ts:185188
 
 ***
 
@@ -135,7 +135,7 @@ subtitle of the review
 
 #### Defined in
 
-main.ts:185140
+main.ts:185173
 
 ***
 
@@ -147,7 +147,7 @@ title of the review
 
 #### Defined in
 
-main.ts:185151
+main.ts:185184
 
 ***
 
@@ -163,7 +163,7 @@ type of element
 
 #### Defined in
 
-main.ts:22401
+main.ts:22406
 
 ***
 
@@ -175,7 +175,7 @@ URL to the review
 
 #### Defined in
 
-main.ts:185153
+main.ts:185186
 
 ***
 
@@ -187,7 +187,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:185149
+main.ts:185182
 
 ***
 
@@ -199,7 +199,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Defined in
 
-main.ts:185138
+main.ts:185171
 
 ***
 
@@ -211,7 +211,7 @@ videos of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:185147
+main.ts:185180
 
 ***
 
@@ -227,4 +227,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22409
+main.ts:22414

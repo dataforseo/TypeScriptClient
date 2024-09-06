@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:33175
+main.ts:33414
 
 ## Properties
 
@@ -46,7 +46,7 @@ the posting date
 
 #### Defined in
 
-main.ts:33169
+main.ts:33408
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:33167
+main.ts:33406
 
 ***
 
@@ -78,7 +78,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:33171
+main.ts:33410
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:33171
 
 #### Defined in
 
-main.ts:33184
+main.ts:33423
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:33184
 
 #### Defined in
 
-main.ts:33203
+main.ts:33442
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:33203
 
 #### Defined in
 
-main.ts:33196
+main.ts:33435

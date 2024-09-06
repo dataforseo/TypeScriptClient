@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:210320
+main.ts:210353
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:210329
+main.ts:210362
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:210325
+main.ts:210358
 
 ***
 
@@ -62,7 +62,7 @@ unique identifier of the SERP feature
 
 #### Defined in
 
-main.ts:210331
+main.ts:210364
 
 ***
 
@@ -76,7 +76,7 @@ possible item types: google_business_question_item
 
 #### Defined in
 
-main.ts:210335
+main.ts:210368
 
 ***
 
@@ -90,7 +90,7 @@ possible item types google_business_answer_element
 
 #### Defined in
 
-main.ts:210343
+main.ts:210376
 
 ***
 
@@ -102,7 +102,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:210339
+main.ts:210372
 
 ***
 
@@ -114,7 +114,7 @@ array of google business question items without answers
 
 #### Defined in
 
-main.ts:210337
+main.ts:210370
 
 ***
 
@@ -131,7 +131,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:210311
+main.ts:210344
 
 ***
 
@@ -143,7 +143,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:210317
+main.ts:210350
 
 ***
 
@@ -155,7 +155,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:210315
+main.ts:210348
 
 ***
 
@@ -167,4 +167,4 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:210313
+main.ts:210346

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:32324
+main.ts:32572
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`MultiCarouselElement`](MultiCarouselElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32316
+main.ts:32564
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32320
+main.ts:32568
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:32329
+main.ts:32577
 
 ***
 
@@ -236,7 +235,7 @@ main.ts:32329
 
 #### Defined in
 
-main.ts:32352
+main.ts:32600
 
 ***
 
@@ -258,4 +257,4 @@ main.ts:32352
 
 #### Defined in
 
-main.ts:32345
+main.ts:32593

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:96274
+main.ts:96307
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:96274
 
 #### Defined in
 
-main.ts:20742
+main.ts:20747
 
 ***
 
@@ -70,7 +70,7 @@ ss:/webfacts:net_worth
 
 #### Defined in
 
-main.ts:96265
+main.ts:96298
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96270
+main.ts:96303
 
 ***
 
@@ -103,7 +103,7 @@ link of the element
 
 #### Defined in
 
-main.ts:96267
+main.ts:96300
 
 ***
 
@@ -125,7 +125,7 @@ left, right
 
 #### Defined in
 
-main.ts:20738
+main.ts:20743
 
 ***
 
@@ -146,7 +146,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20734
+main.ts:20739
 
 ***
 
@@ -167,7 +167,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20731
+main.ts:20736
 
 ***
 
@@ -183,7 +183,7 @@ title of the link
 
 #### Defined in
 
-main.ts:96261
+main.ts:96294
 
 ***
 
@@ -203,7 +203,7 @@ type of element
 
 #### Defined in
 
-main.ts:20728
+main.ts:20733
 
 ***
 
@@ -223,7 +223,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20740
+main.ts:20745
 
 ## Methods
 
@@ -245,7 +245,7 @@ main.ts:20740
 
 #### Defined in
 
-main.ts:96279
+main.ts:96312
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:96279
 
 #### Defined in
 
-main.ts:96304
+main.ts:96337
 
 ***
 
@@ -289,4 +289,4 @@ main.ts:96304
 
 #### Defined in
 
-main.ts:96297
+main.ts:96330

@@ -20,7 +20,7 @@ contains data on citations from the given url
 
 #### Defined in
 
-main.ts:166507
+main.ts:166540
 
 ***
 
@@ -33,7 +33,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:166486
+main.ts:166519
 
 ***
 
@@ -45,7 +45,7 @@ domain name
 
 #### Defined in
 
-main.ts:166462
+main.ts:166495
 
 ***
 
@@ -60,7 +60,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:166478
+main.ts:166511
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:166483
+main.ts:166516
 
 ***
 
@@ -88,7 +88,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:166489
+main.ts:166522
 
 ***
 
@@ -100,7 +100,7 @@ main domain
 
 #### Defined in
 
-main.ts:166464
+main.ts:166497
 
 ***
 
@@ -114,7 +114,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:166497
+main.ts:166530
 
 ***
 
@@ -126,7 +126,7 @@ page types
 
 #### Defined in
 
-main.ts:166499
+main.ts:166532
 
 ***
 
@@ -139,7 +139,7 @@ all ratings found on the page based on microdata
 
 #### Defined in
 
-main.ts:166502
+main.ts:166535
 
 ***
 
@@ -153,7 +153,7 @@ the higher the score, the more value the related citation has
 
 #### Defined in
 
-main.ts:166493
+main.ts:166526
 
 ***
 
@@ -166,7 +166,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:166505
+main.ts:166538
 
 ***
 
@@ -180,7 +180,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:166473
+main.ts:166506
 
 ***
 
@@ -192,7 +192,7 @@ type of element
 
 #### Defined in
 
-main.ts:166458
+main.ts:166491
 
 ***
 
@@ -204,7 +204,7 @@ URL where the citation was found
 
 #### Defined in
 
-main.ts:166460
+main.ts:166493
 
 ***
 
@@ -219,4 +219,4 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:166469
+main.ts:166502

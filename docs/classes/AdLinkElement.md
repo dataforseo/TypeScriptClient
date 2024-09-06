@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:29323
+main.ts:29596
 
 ## Properties
 
@@ -46,7 +46,7 @@ the identifier of the ad
 
 #### Defined in
 
-main.ts:29319
+main.ts:29592
 
 ***
 
@@ -62,7 +62,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29313
+main.ts:29586
 
 ***
 
@@ -78,7 +78,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29317
+main.ts:29590
 
 ***
 
@@ -94,7 +94,7 @@ title of the element
 
 #### Defined in
 
-main.ts:29311
+main.ts:29584
 
 ***
 
@@ -110,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:29309
+main.ts:29582
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:29309
 
 > `optional` **url**: `string`
 
-URL
+URL of element
 
 #### Implementation of
 
@@ -126,7 +126,7 @@ URL
 
 #### Defined in
 
-main.ts:29315
+main.ts:29588
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:29315
 
 #### Defined in
 
-main.ts:29332
+main.ts:29605
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:29332
 
 #### Defined in
 
-main.ts:29354
+main.ts:29627
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:29354
 
 #### Defined in
 
-main.ts:29347
+main.ts:29620

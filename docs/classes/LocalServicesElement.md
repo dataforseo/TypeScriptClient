@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:34226
+main.ts:34455
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:34217
+main.ts:34446
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Defined in
 
-main.ts:34215
+main.ts:34444
 
 ***
 
@@ -78,7 +78,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:34222
+main.ts:34451
 
 ***
 
@@ -95,7 +95,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:34220
+main.ts:34449
 
 ***
 
@@ -111,7 +111,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:34211
+main.ts:34440
 
 ***
 
@@ -127,7 +127,7 @@ type of element
 
 #### Defined in
 
-main.ts:34209
+main.ts:34438
 
 ***
 
@@ -143,7 +143,7 @@ URL
 
 #### Defined in
 
-main.ts:34213
+main.ts:34442
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:34213
 
 #### Defined in
 
-main.ts:34235
+main.ts:34464
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:34235
 
 #### Defined in
 
-main.ts:34258
+main.ts:34487
 
 ***
 
@@ -197,4 +197,4 @@ main.ts:34258
 
 #### Defined in
 
-main.ts:34251
+main.ts:34480

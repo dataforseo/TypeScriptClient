@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:121755
+main.ts:121788
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more in this help center article
 
 #### Defined in
 
-main.ts:121669
+main.ts:121702
 
 ***
 
@@ -74,7 +74,7 @@ if Status endpoint returns true in the actual_data field, date_from can be set t
 
 #### Defined in
 
-main.ts:121725
+main.ts:121758
 
 ***
 
@@ -94,7 +94,7 @@ default value: next_month
 
 #### Defined in
 
-main.ts:121740
+main.ts:121773
 
 ***
 
@@ -117,7 +117,7 @@ example:
 
 #### Defined in
 
-main.ts:121734
+main.ts:121767
 
 ***
 
@@ -142,7 +142,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:121663
+main.ts:121696
 
 ***
 
@@ -162,7 +162,7 @@ en
 
 #### Defined in
 
-main.ts:121715
+main.ts:121748
 
 ***
 
@@ -182,7 +182,7 @@ English
 
 #### Defined in
 
-main.ts:121709
+main.ts:121742
 
 ***
 
@@ -204,7 +204,7 @@ example:
 
 #### Defined in
 
-main.ts:121694
+main.ts:121727
 
 ***
 
@@ -227,7 +227,7 @@ example:
 
 #### Defined in
 
-main.ts:121703
+main.ts:121736
 
 ***
 
@@ -249,7 +249,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:121686
+main.ts:121719
 
 ***
 
@@ -267,7 +267,7 @@ can take the following values: exact, broad, phrase
 
 #### Defined in
 
-main.ts:121673
+main.ts:121706
 
 ***
 
@@ -286,7 +286,7 @@ default value: false – results are returned for Google search sites
 
 #### Defined in
 
-main.ts:121678
+main.ts:121711
 
 ***
 
@@ -305,7 +305,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:121745
+main.ts:121778
 
 ***
 
@@ -325,7 +325,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:121751
+main.ts:121784
 
 ## Methods
 
@@ -343,7 +343,7 @@ main.ts:121751
 
 #### Defined in
 
-main.ts:121764
+main.ts:121797
 
 ***
 
@@ -361,7 +361,7 @@ main.ts:121764
 
 #### Defined in
 
-main.ts:121798
+main.ts:121831
 
 ***
 
@@ -379,4 +379,4 @@ main.ts:121798
 
 #### Defined in
 
-main.ts:121791
+main.ts:121824

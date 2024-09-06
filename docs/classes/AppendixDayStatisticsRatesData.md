@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:219633
+main.ts:219666
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:219633
 
 #### Defined in
 
-main.ts:219617
+main.ts:219650
 
 ***
 
@@ -58,7 +58,7 @@ main.ts:219617
 
 #### Defined in
 
-main.ts:219603
+main.ts:219636
 
 ***
 
@@ -72,7 +72,7 @@ main.ts:219603
 
 #### Defined in
 
-main.ts:219615
+main.ts:219648
 
 ***
 
@@ -86,7 +86,7 @@ main.ts:219615
 
 #### Defined in
 
-main.ts:219613
+main.ts:219646
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:219613
 
 #### Defined in
 
-main.ts:219619
+main.ts:219652
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:219619
 
 #### Defined in
 
-main.ts:219621
+main.ts:219654
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:219621
 
 #### Defined in
 
-main.ts:219605
+main.ts:219638
 
 ***
 
@@ -142,7 +142,7 @@ main.ts:219605
 
 #### Defined in
 
-main.ts:219607
+main.ts:219640
 
 ***
 
@@ -156,7 +156,7 @@ main.ts:219607
 
 #### Defined in
 
-main.ts:219601
+main.ts:219634
 
 ***
 
@@ -170,7 +170,7 @@ main.ts:219601
 
 #### Defined in
 
-main.ts:219609
+main.ts:219642
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:219609
 
 #### Defined in
 
-main.ts:219611
+main.ts:219644
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:219611
 
 #### Defined in
 
-main.ts:219628
+main.ts:219662
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:219628
 
 #### Defined in
 
-main.ts:219597
+main.ts:219630
 
 ***
 
@@ -228,7 +228,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:219599
+main.ts:219632
 
 ***
 
@@ -242,7 +242,7 @@ main.ts:219599
 
 #### Defined in
 
-main.ts:219618
+main.ts:219651
 
 ***
 
@@ -256,7 +256,7 @@ main.ts:219618
 
 #### Defined in
 
-main.ts:219604
+main.ts:219637
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:219604
 
 #### Defined in
 
-main.ts:219616
+main.ts:219649
 
 ***
 
@@ -284,7 +284,7 @@ main.ts:219616
 
 #### Defined in
 
-main.ts:219614
+main.ts:219647
 
 ***
 
@@ -298,7 +298,7 @@ main.ts:219614
 
 #### Defined in
 
-main.ts:219620
+main.ts:219653
 
 ***
 
@@ -312,7 +312,7 @@ main.ts:219620
 
 #### Defined in
 
-main.ts:219622
+main.ts:219655
 
 ***
 
@@ -326,7 +326,7 @@ main.ts:219622
 
 #### Defined in
 
-main.ts:219606
+main.ts:219639
 
 ***
 
@@ -340,7 +340,7 @@ main.ts:219606
 
 #### Defined in
 
-main.ts:219608
+main.ts:219641
 
 ***
 
@@ -354,7 +354,7 @@ main.ts:219608
 
 #### Defined in
 
-main.ts:219602
+main.ts:219635
 
 ***
 
@@ -368,7 +368,7 @@ main.ts:219602
 
 #### Defined in
 
-main.ts:219610
+main.ts:219643
 
 ***
 
@@ -382,7 +382,7 @@ main.ts:219610
 
 #### Defined in
 
-main.ts:219612
+main.ts:219645
 
 ***
 
@@ -396,7 +396,7 @@ main.ts:219612
 
 #### Defined in
 
-main.ts:219627
+main.ts:219661
 
 ***
 
@@ -410,7 +410,7 @@ main.ts:219627
 
 #### Defined in
 
-main.ts:219600
+main.ts:219633
 
 ***
 
@@ -424,7 +424,7 @@ main.ts:219600
 
 #### Defined in
 
-main.ts:219629
+main.ts:219660
 
 ***
 
@@ -442,7 +442,7 @@ minute in the yyyy-MM-dd HH:mm format
 
 #### Defined in
 
-main.ts:219626
+main.ts:219659
 
 ## Methods
 
@@ -460,7 +460,7 @@ main.ts:219626
 
 #### Defined in
 
-main.ts:219642
+main.ts:219675
 
 ***
 
@@ -478,7 +478,7 @@ main.ts:219642
 
 #### Defined in
 
-main.ts:219687
+main.ts:219720
 
 ***
 
@@ -496,4 +496,4 @@ main.ts:219687
 
 #### Defined in
 
-main.ts:219680
+main.ts:219713

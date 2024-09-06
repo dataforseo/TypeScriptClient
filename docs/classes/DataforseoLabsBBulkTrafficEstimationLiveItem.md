@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:101053
+main.ts:101086
 
 ## Properties
 
@@ -50,7 +50,7 @@ traffic data relevant to the specified domain
 
 #### Defined in
 
-main.ts:101049
+main.ts:101082
 
 ***
 
@@ -66,7 +66,7 @@ search engine type
 
 #### Defined in
 
-main.ts:101045
+main.ts:101078
 
 ***
 
@@ -82,7 +82,7 @@ target domain in a POST array
 
 #### Defined in
 
-main.ts:101047
+main.ts:101080
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:101047
 
 #### Defined in
 
-main.ts:101062
+main.ts:101095
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:101062
 
 #### Defined in
 
-main.ts:101087
+main.ts:101120
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:101087
 
 #### Defined in
 
-main.ts:101080
+main.ts:101113

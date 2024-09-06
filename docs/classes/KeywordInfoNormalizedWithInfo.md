@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:82795
+main.ts:82828
 
 ## Properties
 
@@ -47,7 +47,7 @@ in the UTC format: “yyyy-mm-dd hh-mm-ss +00:00”
 
 #### Defined in
 
-main.ts:82786
+main.ts:82819
 
 ***
 
@@ -64,7 +64,7 @@ array of objects with clickstream search volume rates in a certain month of a ye
 
 #### Defined in
 
-main.ts:82791
+main.ts:82824
 
 ***
 
@@ -80,7 +80,7 @@ monthly average clickstream search volume rate
 
 #### Defined in
 
-main.ts:82788
+main.ts:82821
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:82788
 
 #### Defined in
 
-main.ts:82804
+main.ts:82837
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:82804
 
 #### Defined in
 
-main.ts:82827
+main.ts:82860
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:82827
 
 #### Defined in
 
-main.ts:82820
+main.ts:82853

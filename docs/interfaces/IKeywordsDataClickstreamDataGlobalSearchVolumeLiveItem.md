@@ -21,7 +21,7 @@ represents clickstream-based search volume in available countries, as well as it
 
 #### Defined in
 
-main.ts:136227
+main.ts:136260
 
 ***
 
@@ -34,7 +34,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:136220
+main.ts:136253
 
 ***
 
@@ -48,4 +48,4 @@ you can learn more about clickstream search volume in this Help Center article
 
 #### Defined in
 
-main.ts:136224
+main.ts:136257

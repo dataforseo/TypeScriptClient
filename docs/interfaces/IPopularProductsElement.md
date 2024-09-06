@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:32923
+main.ts:33165
 
 ***
 
@@ -29,10 +29,11 @@ main.ts:32923
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Defined in
 
-main.ts:32927
+main.ts:33170
 
 ***
 
@@ -44,7 +45,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:32929
+main.ts:33172
 
 ***
 
@@ -57,7 +58,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32932
+main.ts:33175
 
 ***
 
@@ -69,7 +70,7 @@ seller of the product
 
 #### Defined in
 
-main.ts:32925
+main.ts:33167
 
 ***
 
@@ -81,7 +82,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32921
+main.ts:33163
 
 ***
 
@@ -93,4 +94,4 @@ type of element
 
 #### Defined in
 
-main.ts:32919
+main.ts:33161

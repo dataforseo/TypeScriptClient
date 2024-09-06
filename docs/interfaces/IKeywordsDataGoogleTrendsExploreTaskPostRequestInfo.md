@@ -23,7 +23,7 @@ you can receive the list of available categories with their category_code by mak
 
 #### Defined in
 
-main.ts:123213
+main.ts:123246
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:123222
+main.ts:123255
 
 ***
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:123229
+main.ts:123262
 
 ***
 
@@ -77,7 +77,7 @@ default value:
 
 #### Defined in
 
-main.ts:123247
+main.ts:123280
 
 ***
 
@@ -92,7 +92,7 @@ Note: comma symbols (,) in the specified keywords will be unset and ignored
 
 #### Defined in
 
-main.ts:123174
+main.ts:123207
 
 ***
 
@@ -110,7 +110,7 @@ en
 
 #### Defined in
 
-main.ts:123206
+main.ts:123239
 
 ***
 
@@ -128,7 +128,7 @@ English
 
 #### Defined in
 
-main.ts:123198
+main.ts:123231
 
 ***
 
@@ -146,7 +146,7 @@ example:
 
 #### Defined in
 
-main.ts:123190
+main.ts:123223
 
 ***
 
@@ -164,7 +164,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:123182
+main.ts:123215
 
 ***
 
@@ -184,7 +184,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:123267
+main.ts:123300
 
 ***
 
@@ -204,7 +204,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:123257
+main.ts:123290
 
 ***
 
@@ -220,7 +220,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:123273
+main.ts:123306
 
 ***
 
@@ -240,7 +240,7 @@ possible values for news, youtube, images, froogle:
 
 #### Defined in
 
-main.ts:123239
+main.ts:123272
 
 ***
 
@@ -252,4 +252,4 @@ type of element
 
 #### Defined in
 
-main.ts:123208
+main.ts:123241

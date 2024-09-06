@@ -26,7 +26,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:135768
+main.ts:135801
 
 ***
 
@@ -42,7 +42,7 @@ en
 
 #### Defined in
 
-main.ts:135792
+main.ts:135825
 
 ***
 
@@ -58,7 +58,7 @@ English
 
 #### Defined in
 
-main.ts:135786
+main.ts:135819
 
 ***
 
@@ -74,7 +74,7 @@ example:
 
 #### Defined in
 
-main.ts:135780
+main.ts:135813
 
 ***
 
@@ -90,7 +90,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:135774
+main.ts:135807
 
 ***
 
@@ -106,7 +106,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:135803
+main.ts:135836
 
 ***
 
@@ -121,4 +121,4 @@ otherwise, Bing search volume data will be used to calculate search volume
 
 #### Defined in
 
-main.ts:135797
+main.ts:135830

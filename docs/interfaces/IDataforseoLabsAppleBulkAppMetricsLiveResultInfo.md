@@ -20,7 +20,7 @@ contains data related to the ranking app metrics of the specified application
 
 #### Defined in
 
-main.ts:113996
+main.ts:114029
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:113994
+main.ts:114027
 
 ***
 
@@ -44,7 +44,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:113990
+main.ts:114023
 
 ***
 
@@ -56,7 +56,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:113988
+main.ts:114021
 
 ***
 
@@ -68,7 +68,7 @@ search engine type
 
 #### Defined in
 
-main.ts:113986
+main.ts:114019
 
 ***
 
@@ -80,4 +80,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:113992
+main.ts:114025

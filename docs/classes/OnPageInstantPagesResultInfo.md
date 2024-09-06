@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:162986
+main.ts:163019
 
 ## Properties
 
@@ -48,7 +48,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:162978
+main.ts:163011
 
 ***
 
@@ -65,7 +65,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:162971
+main.ts:163004
 
 ***
 
@@ -82,7 +82,7 @@ in this case the value will be null
 
 #### Defined in
 
-main.ts:162974
+main.ts:163007
 
 ***
 
@@ -98,7 +98,7 @@ items array
 
 #### Defined in
 
-main.ts:162982
+main.ts:163015
 
 ***
 
@@ -114,7 +114,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:162980
+main.ts:163013
 
 ## Methods
 
@@ -132,7 +132,7 @@ main.ts:162980
 
 #### Defined in
 
-main.ts:162995
+main.ts:163028
 
 ***
 
@@ -150,7 +150,7 @@ main.ts:162995
 
 #### Defined in
 
-main.ts:163020
+main.ts:163053
 
 ***
 
@@ -168,4 +168,4 @@ main.ts:163020
 
 #### Defined in
 
-main.ts:163013
+main.ts:163046

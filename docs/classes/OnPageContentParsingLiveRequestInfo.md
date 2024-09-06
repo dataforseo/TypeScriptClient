@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:162229
+main.ts:162262
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:162192
+main.ts:162225
 
 ***
 
@@ -82,7 +82,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-main.ts:162152
+main.ts:162185
 
 ***
 
@@ -104,7 +104,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162168
+main.ts:162201
 
 ***
 
@@ -126,7 +126,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:162176
+main.ts:162209
 
 ***
 
@@ -148,7 +148,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162160
+main.ts:162193
 
 ***
 
@@ -174,7 +174,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162133
+main.ts:162166
 
 ***
 
@@ -195,7 +195,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:162121
+main.ts:162154
 
 ***
 
@@ -215,7 +215,7 @@ false
 
 #### Defined in
 
-main.ts:162187
+main.ts:162220
 
 ***
 
@@ -238,7 +238,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162207
+main.ts:162240
 
 ***
 
@@ -258,7 +258,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162198
+main.ts:162231
 
 ***
 
@@ -279,7 +279,7 @@ if you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-main.ts:162214
+main.ts:162247
 
 ***
 
@@ -299,7 +299,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:162225
+main.ts:162258
 
 ***
 
@@ -318,7 +318,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162181
+main.ts:162214
 
 ***
 
@@ -337,7 +337,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:162219
+main.ts:162252
 
 ***
 
@@ -357,7 +357,7 @@ https://www.fujielectric.com/
 
 #### Defined in
 
-main.ts:162114
+main.ts:162147
 
 ## Methods
 
@@ -375,7 +375,7 @@ main.ts:162114
 
 #### Defined in
 
-main.ts:162238
+main.ts:162271
 
 ***
 
@@ -393,7 +393,7 @@ main.ts:162238
 
 #### Defined in
 
-main.ts:162269
+main.ts:162302
 
 ***
 
@@ -411,4 +411,4 @@ main.ts:162269
 
 #### Defined in
 
-main.ts:162262
+main.ts:162295

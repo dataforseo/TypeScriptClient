@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:32868
+main.ts:33110
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:32855
+main.ts:33096
 
 ***
 
@@ -55,6 +55,7 @@ main.ts:32855
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
@@ -62,7 +63,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:32859
+main.ts:33101
 
 ***
 
@@ -78,7 +79,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:32861
+main.ts:33103
 
 ***
 
@@ -95,7 +96,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32864
+main.ts:33106
 
 ***
 
@@ -111,7 +112,7 @@ seller of the product
 
 #### Defined in
 
-main.ts:32857
+main.ts:33098
 
 ***
 
@@ -127,7 +128,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32853
+main.ts:33094
 
 ***
 
@@ -143,7 +144,7 @@ type of element
 
 #### Defined in
 
-main.ts:32851
+main.ts:33092
 
 ## Methods
 
@@ -161,7 +162,7 @@ main.ts:32851
 
 #### Defined in
 
-main.ts:32877
+main.ts:33119
 
 ***
 
@@ -179,7 +180,7 @@ main.ts:32877
 
 #### Defined in
 
-main.ts:32900
+main.ts:33142
 
 ***
 
@@ -197,4 +198,4 @@ main.ts:32900
 
 #### Defined in
 
-main.ts:32893
+main.ts:33135

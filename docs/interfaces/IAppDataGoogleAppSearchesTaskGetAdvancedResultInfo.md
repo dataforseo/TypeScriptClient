@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:187685
+main.ts:187718
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:187690
+main.ts:187723
 
 ***
 
@@ -48,7 +48,7 @@ found apps
 
 #### Defined in
 
-main.ts:187696
+main.ts:187729
 
 ***
 
@@ -60,7 +60,7 @@ the number of items in the results array
 
 #### Defined in
 
-main.ts:187694
+main.ts:187727
 
 ***
 
@@ -72,7 +72,7 @@ keyword received in a POST request
 
 #### Defined in
 
-main.ts:187676
+main.ts:187709
 
 ***
 
@@ -84,7 +84,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:187682
+main.ts:187715
 
 ***
 
@@ -96,7 +96,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:187680
+main.ts:187713
 
 ***
 
@@ -108,7 +108,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:187678
+main.ts:187711
 
 ***
 
@@ -120,4 +120,4 @@ the total number of results
 
 #### Defined in
 
-main.ts:187692
+main.ts:187725

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:211253
+main.ts:211286
 
 ## Properties
 
@@ -51,7 +51,7 @@ maximum value: 25000
 
 #### Defined in
 
-main.ts:211223
+main.ts:211256
 
 ***
 
@@ -73,7 +73,7 @@ https://www.trustpilot.com/review/www.thepearlsource.com
 
 #### Defined in
 
-main.ts:211200
+main.ts:211233
 
 ***
 
@@ -97,7 +97,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:211249
+main.ts:211282
 
 ***
 
@@ -121,7 +121,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:211239
+main.ts:211272
 
 ***
 
@@ -143,7 +143,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:211216
+main.ts:211249
 
 ***
 
@@ -165,7 +165,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:211208
+main.ts:211241
 
 ***
 
@@ -185,7 +185,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:211229
+main.ts:211262
 
 ## Methods
 
@@ -203,7 +203,7 @@ main.ts:211229
 
 #### Defined in
 
-main.ts:211262
+main.ts:211295
 
 ***
 
@@ -221,7 +221,7 @@ main.ts:211262
 
 #### Defined in
 
-main.ts:211285
+main.ts:211318
 
 ***
 
@@ -239,4 +239,4 @@ main.ts:211285
 
 #### Defined in
 
-main.ts:211278
+main.ts:211311

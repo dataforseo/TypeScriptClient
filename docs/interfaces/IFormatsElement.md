@@ -21,7 +21,7 @@ for example: zip, html, csv
 
 #### Defined in
 
-main.ts:53943
+main.ts:53976
 
 ***
 
@@ -33,7 +33,7 @@ file size in bytes
 
 #### Defined in
 
-main.ts:53945
+main.ts:53978
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Defined in
 
-main.ts:53940
+main.ts:53973

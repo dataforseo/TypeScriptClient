@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:96494
+main.ts:96527
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:96465
+main.ts:96498
 
 ***
 
@@ -66,7 +66,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:96490
+main.ts:96523
 
 ***
 
@@ -85,7 +85,7 @@ example:
 
 #### Defined in
 
-main.ts:96470
+main.ts:96503
 
 ***
 
@@ -104,7 +104,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 #### Defined in
 
-main.ts:96478
+main.ts:96511
 
 ***
 
@@ -121,7 +121,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96485
+main.ts:96518
 
 ***
 
@@ -137,7 +137,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96482
+main.ts:96515
 
 ***
 
@@ -154,7 +154,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:96454
+main.ts:96487
 
 ***
 
@@ -170,7 +170,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:96462
+main.ts:96495
 
 ***
 
@@ -186,7 +186,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:96460
+main.ts:96493
 
 ***
 
@@ -202,7 +202,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:96458
+main.ts:96491
 
 ***
 
@@ -218,7 +218,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:96480
+main.ts:96513
 
 ***
 
@@ -234,7 +234,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96451
+main.ts:96484
 
 ***
 
@@ -251,7 +251,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:96473
+main.ts:96506
 
 ***
 
@@ -267,7 +267,7 @@ type of element
 
 #### Defined in
 
-main.ts:96456
+main.ts:96489
 
 ## Methods
 
@@ -285,7 +285,7 @@ main.ts:96456
 
 #### Defined in
 
-main.ts:96503
+main.ts:96536
 
 ***
 
@@ -303,7 +303,7 @@ main.ts:96503
 
 #### Defined in
 
-main.ts:96541
+main.ts:96574
 
 ***
 
@@ -321,4 +321,4 @@ main.ts:96541
 
 #### Defined in
 
-main.ts:96534
+main.ts:96567

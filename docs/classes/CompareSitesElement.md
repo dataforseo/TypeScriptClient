@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:36046
+main.ts:36262
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Defined in
 
-main.ts:36037
+main.ts:36252
 
 ***
 
@@ -55,6 +55,7 @@ main.ts:36037
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
@@ -62,7 +63,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:36039
+main.ts:36255
 
 ***
 
@@ -79,7 +80,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:36042
+main.ts:36258
 
 ***
 
@@ -95,7 +96,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36033
+main.ts:36248
 
 ***
 
@@ -111,7 +112,7 @@ type of element
 
 #### Defined in
 
-main.ts:36031
+main.ts:36246
 
 ***
 
@@ -127,7 +128,7 @@ URL
 
 #### Defined in
 
-main.ts:36035
+main.ts:36250
 
 ## Methods
 
@@ -145,7 +146,7 @@ main.ts:36035
 
 #### Defined in
 
-main.ts:36055
+main.ts:36271
 
 ***
 
@@ -163,7 +164,7 @@ main.ts:36055
 
 #### Defined in
 
-main.ts:36077
+main.ts:36293
 
 ***
 
@@ -181,4 +182,4 @@ main.ts:36077
 
 #### Defined in
 
-main.ts:36070
+main.ts:36286

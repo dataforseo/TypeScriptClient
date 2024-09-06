@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:88556
+main.ts:88589
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:88438
+main.ts:88471
 
 ***
 
@@ -69,7 +69,7 @@ default value: true
 
 #### Defined in
 
-main.ts:88476
+main.ts:88509
 
 ***
 
@@ -102,7 +102,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:88530
+main.ts:88563
 
 ***
 
@@ -121,7 +121,7 @@ default value: false
 
 #### Defined in
 
-main.ts:88493
+main.ts:88526
 
 ***
 
@@ -142,7 +142,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:88488
+main.ts:88521
 
 ***
 
@@ -161,7 +161,7 @@ default value: false
 
 #### Defined in
 
-main.ts:88481
+main.ts:88514
 
 ***
 
@@ -183,7 +183,7 @@ en
 
 #### Defined in
 
-main.ts:88470
+main.ts:88503
 
 ***
 
@@ -205,7 +205,7 @@ English
 
 #### Defined in
 
-main.ts:88462
+main.ts:88495
 
 ***
 
@@ -224,7 +224,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:88498
+main.ts:88531
 
 ***
 
@@ -246,7 +246,7 @@ example:
 
 #### Defined in
 
-main.ts:88454
+main.ts:88487
 
 ***
 
@@ -268,7 +268,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:88446
+main.ts:88479
 
 ***
 
@@ -287,7 +287,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:88503
+main.ts:88536
 
 ***
 
@@ -309,7 +309,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:88511
+main.ts:88544
 
 ***
 
@@ -339,7 +339,7 @@ example:
 
 #### Defined in
 
-main.ts:88546
+main.ts:88579
 
 ***
 
@@ -359,7 +359,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:88552
+main.ts:88585
 
 ## Methods
 
@@ -377,7 +377,7 @@ main.ts:88552
 
 #### Defined in
 
-main.ts:88565
+main.ts:88598
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:88565
 
 #### Defined in
 
-main.ts:88608
+main.ts:88641
 
 ***
 
@@ -413,4 +413,4 @@ main.ts:88608
 
 #### Defined in
 
-main.ts:88601
+main.ts:88634

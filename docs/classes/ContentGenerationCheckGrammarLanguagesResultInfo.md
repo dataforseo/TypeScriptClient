@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:171466
+main.ts:171499
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:171462
+main.ts:171495
 
 ***
 
@@ -62,7 +62,7 @@ language name
 
 #### Defined in
 
-main.ts:171460
+main.ts:171493
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:171460
 
 #### Defined in
 
-main.ts:171475
+main.ts:171508
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:171475
 
 #### Defined in
 
-main.ts:171493
+main.ts:171526
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:171493
 
 #### Defined in
 
-main.ts:171486
+main.ts:171519

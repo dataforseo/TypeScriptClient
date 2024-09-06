@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:35794
+main.ts:36012
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`PerspectivesElement`](PerspectivesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:35786
+main.ts:36004
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35790
+main.ts:36008
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35783
+main.ts:36002
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:35799
+main.ts:36017
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:35799
 
 #### Defined in
 
-main.ts:35823
+main.ts:36041
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:35823
 
 #### Defined in
 
-main.ts:35816
+main.ts:36034

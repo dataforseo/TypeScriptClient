@@ -27,7 +27,7 @@ example:
 
 #### Defined in
 
-main.ts:214295
+main.ts:214328
 
 ***
 
@@ -40,7 +40,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:214286
+main.ts:214319
 
 ***
 
@@ -56,7 +56,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21392
+main.ts:21397
 
 ***
 
@@ -73,7 +73,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21390
+main.ts:21395
 
 ***
 
@@ -85,7 +85,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:214290
+main.ts:214323
 
 ***
 
@@ -97,7 +97,7 @@ contains information about the owner’s response
 
 #### Defined in
 
-main.ts:214310
+main.ts:214343
 
 ***
 
@@ -110,7 +110,7 @@ contains highlighted review criteria and assessments
 
 #### Defined in
 
-main.ts:214313
+main.ts:214346
 
 ***
 
@@ -122,7 +122,7 @@ contains URLs of the images used in the review
 
 #### Defined in
 
-main.ts:214306
+main.ts:214339
 
 ***
 
@@ -134,7 +134,7 @@ content of the review
 
 #### Defined in
 
-main.ts:214304
+main.ts:214337
 
 ***
 
@@ -149,7 +149,7 @@ example:
 
 #### Defined in
 
-main.ts:214300
+main.ts:214333
 
 ***
 
@@ -161,7 +161,7 @@ title of the review
 
 #### Defined in
 
-main.ts:214302
+main.ts:214335
 
 ***
 
@@ -177,7 +177,7 @@ type of element
 
 #### Defined in
 
-main.ts:21387
+main.ts:21392
 
 ***
 
@@ -189,7 +189,7 @@ URL of the review
 
 #### Defined in
 
-main.ts:214288
+main.ts:214321
 
 ***
 
@@ -201,4 +201,4 @@ information from the reviewer’s profile
 
 #### Defined in
 
-main.ts:214308
+main.ts:214341

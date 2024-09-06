@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:75855
+main.ts:75888
 
 ## Properties
 
@@ -48,7 +48,7 @@ crm, cart_abandonment
 
 #### Defined in
 
-main.ts:75841
+main.ts:75874
 
 ***
 
@@ -66,7 +66,7 @@ user_generated_content.content_curation
 
 #### Defined in
 
-main.ts:75845
+main.ts:75878
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:75851
+main.ts:75884
 
 ***
 
@@ -100,7 +100,7 @@ title of the technology category
 
 #### Defined in
 
-main.ts:75847
+main.ts:75880
 
 ## Methods
 
@@ -118,7 +118,7 @@ main.ts:75847
 
 #### Defined in
 
-main.ts:75864
+main.ts:75897
 
 ***
 
@@ -136,7 +136,7 @@ main.ts:75864
 
 #### Defined in
 
-main.ts:75888
+main.ts:75921
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:75888
 
 #### Defined in
 
-main.ts:75881
+main.ts:75914

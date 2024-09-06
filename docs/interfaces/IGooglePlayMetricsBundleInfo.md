@@ -20,4 +20,4 @@ ranking data from Google Play organic search
 
 #### Defined in
 
-main.ts:112862
+main.ts:112895

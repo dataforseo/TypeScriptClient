@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:54104
+main.ts:54137
 
 ## Properties
 
@@ -46,7 +46,7 @@ links featured in the ‘dataset_description’
 
 #### Defined in
 
-main.ts:54100
+main.ts:54133
 
 ***
 
@@ -62,7 +62,7 @@ text of the description
 
 #### Defined in
 
-main.ts:54098
+main.ts:54131
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:54098
 
 #### Defined in
 
-main.ts:54113
+main.ts:54146
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:54113
 
 #### Defined in
 
-main.ts:54135
+main.ts:54168
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:54135
 
 #### Defined in
 
-main.ts:54128
+main.ts:54161

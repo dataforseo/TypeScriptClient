@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:54223
+main.ts:54256
 
 ## Properties
 
@@ -47,7 +47,7 @@ for example: Africa, Global
 
 #### Defined in
 
-main.ts:54215
+main.ts:54248
 
 ***
 
@@ -63,7 +63,7 @@ the list of authors of the dataset
 
 #### Defined in
 
-main.ts:54205
+main.ts:54238
 
 ***
 
@@ -79,7 +79,7 @@ description of the dataset
 
 #### Defined in
 
-main.ts:54219
+main.ts:54252
 
 ***
 
@@ -95,7 +95,7 @@ ID of the dataset
 
 #### Defined in
 
-main.ts:54177
+main.ts:54210
 
 ***
 
@@ -111,7 +111,7 @@ the list of institutions that provided the dataset
 
 #### Defined in
 
-main.ts:54201
+main.ts:54234
 
 ***
 
@@ -127,7 +127,7 @@ the list of file formats of the dataset
 
 #### Defined in
 
-main.ts:54203
+main.ts:54236
 
 ***
 
@@ -144,7 +144,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:54182
+main.ts:54215
 
 ***
 
@@ -160,7 +160,7 @@ the list of licenses issued to the dataset
 
 #### Defined in
 
-main.ts:54207
+main.ts:54240
 
 ***
 
@@ -178,7 +178,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:54199
+main.ts:54232
 
 ***
 
@@ -194,7 +194,7 @@ period covered in the dataset
 
 #### Defined in
 
-main.ts:54217
+main.ts:54250
 
 ***
 
@@ -212,7 +212,7 @@ left, right
 
 #### Defined in
 
-main.ts:54173
+main.ts:54206
 
 ***
 
@@ -229,7 +229,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:54169
+main.ts:54202
 
 ***
 
@@ -247,7 +247,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:54166
+main.ts:54199
 
 ***
 
@@ -264,7 +264,7 @@ link to the published article that is related to the dataset
 
 #### Defined in
 
-main.ts:54195
+main.ts:54228
 
 ***
 
@@ -282,7 +282,7 @@ example: https://scholar.google.com/scholar?q=%2210.6084%20m9%20figshare%2074279
 
 #### Defined in
 
-main.ts:54188
+main.ts:54221
 
 ***
 
@@ -298,7 +298,7 @@ count of articles that refer to the dataset
 
 #### Defined in
 
-main.ts:54184
+main.ts:54217
 
 ***
 
@@ -314,7 +314,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:54179
+main.ts:54212
 
 ***
 
@@ -330,7 +330,7 @@ type of element
 
 #### Defined in
 
-main.ts:54162
+main.ts:54195
 
 ***
 
@@ -348,7 +348,7 @@ example: https://doi.org/10.5061/dryad.hmgqnk9m3
 
 #### Defined in
 
-main.ts:54192
+main.ts:54225
 
 ***
 
@@ -367,7 +367,7 @@ example:
 
 #### Defined in
 
-main.ts:54212
+main.ts:54245
 
 ***
 
@@ -383,7 +383,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:54175
+main.ts:54208
 
 ## Methods
 
@@ -401,7 +401,7 @@ main.ts:54175
 
 #### Defined in
 
-main.ts:54232
+main.ts:54265
 
 ***
 
@@ -419,7 +419,7 @@ main.ts:54232
 
 #### Defined in
 
-main.ts:54293
+main.ts:54326
 
 ***
 
@@ -437,4 +437,4 @@ main.ts:54293
 
 #### Defined in
 
-main.ts:54286
+main.ts:54319

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:189573
+main.ts:189606
 
 ## Properties
 
@@ -46,7 +46,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:189565
+main.ts:189598
 
 ***
 
@@ -62,7 +62,7 @@ title of the app
 
 #### Defined in
 
-main.ts:189567
+main.ts:189600
 
 ***
 
@@ -78,7 +78,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:189569
+main.ts:189602
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:189569
 
 #### Defined in
 
-main.ts:189582
+main.ts:189615
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:189582
 
 #### Defined in
 
-main.ts:189601
+main.ts:189634
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:189601
 
 #### Defined in
 
-main.ts:189594
+main.ts:189627

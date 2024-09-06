@@ -20,7 +20,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:64184
+main.ts:64217
 
 ***
 
@@ -33,7 +33,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:64163
+main.ts:64196
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:64168
+main.ts:64201
 
 ***
 
@@ -63,7 +63,7 @@ youtube_subtitles
 
 #### Defined in
 
-main.ts:64176
+main.ts:64209
 
 ***
 
@@ -75,7 +75,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:64192
+main.ts:64225
 
 ***
 
@@ -87,7 +87,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:64190
+main.ts:64223
 
 ***
 
@@ -99,7 +99,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:64160
+main.ts:64193
 
 ***
 
@@ -111,7 +111,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:64158
+main.ts:64191
 
 ***
 
@@ -123,7 +123,7 @@ language code of original text
 
 #### Defined in
 
-main.ts:64182
+main.ts:64215
 
 ***
 
@@ -135,7 +135,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:64156
+main.ts:64189
 
 ***
 
@@ -148,7 +148,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:64171
+main.ts:64204
 
 ***
 
@@ -160,7 +160,7 @@ number of subtitles in the video
 
 #### Defined in
 
-main.ts:64186
+main.ts:64219
 
 ***
 
@@ -172,7 +172,7 @@ title of the video
 
 #### Defined in
 
-main.ts:64188
+main.ts:64221
 
 ***
 
@@ -184,7 +184,7 @@ language code of translated text
 
 #### Defined in
 
-main.ts:64180
+main.ts:64213
 
 ***
 
@@ -196,7 +196,7 @@ indicates whether the language is unsupported by the system
 
 #### Defined in
 
-main.ts:64178
+main.ts:64211
 
 ***
 
@@ -208,4 +208,4 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:64154
+main.ts:64187

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:206200
+main.ts:206233
 
 ## Properties
 
@@ -47,7 +47,7 @@ information about hotel reviews by criteria
 
 #### Defined in
 
-main.ts:206190
+main.ts:206223
 
 ***
 
@@ -64,7 +64,7 @@ reviews from third-paty sites
 
 #### Defined in
 
-main.ts:206196
+main.ts:206229
 
 ***
 
@@ -85,7 +85,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-main.ts:206193
+main.ts:206226
 
 ***
 
@@ -101,7 +101,7 @@ overall hotel rating based on customer votes
 
 #### Defined in
 
-main.ts:206184
+main.ts:206217
 
 ***
 
@@ -118,7 +118,7 @@ the number of customer votes included in the calculation of the hotel rating
 
 #### Defined in
 
-main.ts:206187
+main.ts:206220
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:206187
 
 #### Defined in
 
-main.ts:206209
+main.ts:206242
 
 ***
 
@@ -154,7 +154,7 @@ main.ts:206209
 
 #### Defined in
 
-main.ts:206244
+main.ts:206277
 
 ***
 
@@ -172,4 +172,4 @@ main.ts:206244
 
 #### Defined in
 
-main.ts:206237
+main.ts:206270

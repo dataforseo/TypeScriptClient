@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:94337
+main.ts:94370
 
 ## Properties
 
@@ -50,7 +50,7 @@ ranking data relevant to subdomain
 
 #### Defined in
 
-main.ts:94333
+main.ts:94366
 
 ***
 
@@ -66,7 +66,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94329
+main.ts:94362
 
 ***
 
@@ -82,7 +82,7 @@ returned subdomain
 
 #### Defined in
 
-main.ts:94331
+main.ts:94364
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:94331
 
 #### Defined in
 
-main.ts:94346
+main.ts:94379
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:94346
 
 #### Defined in
 
-main.ts:94371
+main.ts:94404
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:94371
 
 #### Defined in
 
-main.ts:94364
+main.ts:94397

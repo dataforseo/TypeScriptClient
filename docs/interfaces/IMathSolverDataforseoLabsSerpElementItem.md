@@ -24,7 +24,7 @@ contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:97103
+main.ts:97136
 
 ***
 
@@ -38,7 +38,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97107
+main.ts:97140
 
 ***
 
@@ -56,7 +56,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -73,7 +73,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -103,7 +103,7 @@ solution to the mathematical equation specified in the keyword field when settin
 
 #### Defined in
 
-main.ts:97101
+main.ts:97134
 
 ***
 
@@ -115,7 +115,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97098
+main.ts:97131
 
 ***
 
@@ -131,7 +131,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -147,4 +147,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

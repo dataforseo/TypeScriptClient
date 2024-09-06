@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:35383
+main.ts:35603
 
 ## Properties
 
@@ -39,6 +39,7 @@ main.ts:35383
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Implementation of
 
@@ -46,7 +47,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:35373
+main.ts:35593
 
 ***
 
@@ -62,7 +63,7 @@ keyword for the related refined search
 
 #### Defined in
 
-main.ts:35375
+main.ts:35595
 
 ***
 
@@ -78,7 +79,7 @@ type of search refinement
 
 #### Defined in
 
-main.ts:35377
+main.ts:35597
 
 ***
 
@@ -94,7 +95,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35371
+main.ts:35590
 
 ***
 
@@ -110,7 +111,7 @@ type of element
 
 #### Defined in
 
-main.ts:35369
+main.ts:35588
 
 ***
 
@@ -126,7 +127,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35379
+main.ts:35599
 
 ## Methods
 
@@ -144,7 +145,7 @@ main.ts:35379
 
 #### Defined in
 
-main.ts:35392
+main.ts:35612
 
 ***
 
@@ -162,7 +163,7 @@ main.ts:35392
 
 #### Defined in
 
-main.ts:35414
+main.ts:35634
 
 ***
 
@@ -180,4 +181,4 @@ main.ts:35414
 
 #### Defined in
 
-main.ts:35407
+main.ts:35627

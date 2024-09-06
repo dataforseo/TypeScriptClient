@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:31666
+main.ts:31924
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`ShoppingElement`](ShoppingElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:31658
+main.ts:31916
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31662
+main.ts:31920
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31655
+main.ts:31914
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:31671
+main.ts:31929
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:31671
 
 #### Defined in
 
-main.ts:31695
+main.ts:31953
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:31695
 
 #### Defined in
 
-main.ts:31688
+main.ts:31946

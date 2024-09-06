@@ -20,7 +20,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:79661
+main.ts:79694
 
 ***
 
@@ -35,7 +35,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:79666
+main.ts:79699
 
 ***
 
@@ -50,7 +50,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:79654
+main.ts:79687
 
 ***
 
@@ -65,7 +65,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:79659
+main.ts:79692
 
 ***
 
@@ -78,7 +78,7 @@ indicates how many ranked elements of this domain went down in Google Search
 
 #### Defined in
 
-main.ts:79675
+main.ts:79708
 
 ***
 
@@ -91,7 +91,7 @@ indicates how many ranked elements of this domain were previously presented in S
 
 #### Defined in
 
-main.ts:79678
+main.ts:79711
 
 ***
 
@@ -104,7 +104,7 @@ indicates how many new ranked elements were found for this domain
 
 #### Defined in
 
-main.ts:79669
+main.ts:79702
 
 ***
 
@@ -117,7 +117,7 @@ indicates how many ranked elements of this domain went up in Google Search
 
 #### Defined in
 
-main.ts:79672
+main.ts:79705
 
 ***
 
@@ -129,7 +129,7 @@ number of organic SERPs where the domain ranks #1
 
 #### Defined in
 
-main.ts:79627
+main.ts:79660
 
 ***
 
@@ -141,7 +141,7 @@ number of organic SERPs where the domain ranks #11-20
 
 #### Defined in
 
-main.ts:79633
+main.ts:79666
 
 ***
 
@@ -153,7 +153,7 @@ number of organic SERPs where the domain ranks #21-30
 
 #### Defined in
 
-main.ts:79635
+main.ts:79668
 
 ***
 
@@ -165,7 +165,7 @@ number of organic SERPs where the domain ranks #2-3
 
 #### Defined in
 
-main.ts:79629
+main.ts:79662
 
 ***
 
@@ -177,7 +177,7 @@ number of organic SERPs where the domain ranks #31-40
 
 #### Defined in
 
-main.ts:79637
+main.ts:79670
 
 ***
 
@@ -189,7 +189,7 @@ number of organic SERPs where the domain ranks #41-50
 
 #### Defined in
 
-main.ts:79639
+main.ts:79672
 
 ***
 
@@ -201,7 +201,7 @@ number of organic SERPs where the domain ranks #4-10
 
 #### Defined in
 
-main.ts:79631
+main.ts:79664
 
 ***
 
@@ -213,7 +213,7 @@ number of organic SERPs where the domain ranks #51-60
 
 #### Defined in
 
-main.ts:79641
+main.ts:79674
 
 ***
 
@@ -225,7 +225,7 @@ number of organic SERPs where the domain ranks #61-70
 
 #### Defined in
 
-main.ts:79643
+main.ts:79676
 
 ***
 
@@ -237,7 +237,7 @@ number of organic SERPs where the domain ranks #71-80
 
 #### Defined in
 
-main.ts:79645
+main.ts:79678
 
 ***
 
@@ -249,7 +249,7 @@ number of organic SERPs where the domain ranks #81-90
 
 #### Defined in
 
-main.ts:79647
+main.ts:79680
 
 ***
 
@@ -261,4 +261,4 @@ number of organic SERPs where the domain ranks #91-100
 
 #### Defined in
 
-main.ts:79649
+main.ts:79682

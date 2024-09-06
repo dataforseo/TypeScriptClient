@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:99096
+main.ts:99129
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:99096
 
 #### Defined in
 
-main.ts:20742
+main.ts:20747
 
 ***
 
@@ -68,7 +68,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:99092
+main.ts:99125
 
 ***
 
@@ -90,7 +90,7 @@ left, right
 
 #### Defined in
 
-main.ts:20738
+main.ts:20743
 
 ***
 
@@ -111,7 +111,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20734
+main.ts:20739
 
 ***
 
@@ -132,7 +132,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20731
+main.ts:20736
 
 ***
 
@@ -152,7 +152,7 @@ type of element
 
 #### Defined in
 
-main.ts:20728
+main.ts:20733
 
 ***
 
@@ -172,7 +172,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20740
+main.ts:20745
 
 ## Methods
 
@@ -194,7 +194,7 @@ main.ts:20740
 
 #### Defined in
 
-main.ts:99101
+main.ts:99134
 
 ***
 
@@ -216,7 +216,7 @@ main.ts:99101
 
 #### Defined in
 
-main.ts:99123
+main.ts:99156
 
 ***
 
@@ -238,4 +238,4 @@ main.ts:99123
 
 #### Defined in
 
-main.ts:99116
+main.ts:99149

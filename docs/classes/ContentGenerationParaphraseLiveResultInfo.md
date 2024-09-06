@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:170878
+main.ts:170911
 
 ## Properties
 
@@ -46,7 +46,7 @@ paraphrased version of the given text
 
 #### Defined in
 
-main.ts:170874
+main.ts:170907
 
 ***
 
@@ -62,7 +62,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:170868
+main.ts:170901
 
 ***
 
@@ -78,7 +78,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:170872
+main.ts:170905
 
 ***
 
@@ -94,7 +94,7 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:170870
+main.ts:170903
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:170870
 
 #### Defined in
 
-main.ts:170887
+main.ts:170920
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:170887
 
 #### Defined in
 
-main.ts:170907
+main.ts:170940
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:170907
 
 #### Defined in
 
-main.ts:170900
+main.ts:170933

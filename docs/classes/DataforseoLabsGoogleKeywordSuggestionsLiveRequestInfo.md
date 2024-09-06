@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:84616
+main.ts:84649
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84549
+main.ts:84582
 
 ***
 
@@ -81,7 +81,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:84572
+main.ts:84605
 
 ***
 
@@ -100,7 +100,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84554
+main.ts:84587
 
 ***
 
@@ -121,7 +121,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:84544
+main.ts:84577
 
 ***
 
@@ -140,7 +140,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84532
+main.ts:84565
 
 ***
 
@@ -159,7 +159,7 @@ default value: false
 
 #### Defined in
 
-main.ts:84537
+main.ts:84570
 
 ***
 
@@ -179,7 +179,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:84491
+main.ts:84524
 
 ***
 
@@ -202,7 +202,7 @@ en
 
 #### Defined in
 
-main.ts:84527
+main.ts:84560
 
 ***
 
@@ -225,7 +225,7 @@ English
 
 #### Defined in
 
-main.ts:84518
+main.ts:84551
 
 ***
 
@@ -244,7 +244,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:84593
+main.ts:84626
 
 ***
 
@@ -267,7 +267,7 @@ example:
 
 #### Defined in
 
-main.ts:84509
+main.ts:84542
 
 ***
 
@@ -290,7 +290,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:84500
+main.ts:84533
 
 ***
 
@@ -309,7 +309,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:84598
+main.ts:84631
 
 ***
 
@@ -331,7 +331,7 @@ Note: if the offset_token is specified in the request, all other parameters exce
 
 #### Defined in
 
-main.ts:84606
+main.ts:84639
 
 ***
 
@@ -361,7 +361,7 @@ example:
 
 #### Defined in
 
-main.ts:84588
+main.ts:84621
 
 ***
 
@@ -381,7 +381,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:84612
+main.ts:84645
 
 ## Methods
 
@@ -399,7 +399,7 @@ main.ts:84612
 
 #### Defined in
 
-main.ts:84625
+main.ts:84658
 
 ***
 
@@ -417,7 +417,7 @@ main.ts:84625
 
 #### Defined in
 
-main.ts:84665
+main.ts:84698
 
 ***
 
@@ -435,4 +435,4 @@ main.ts:84665
 
 #### Defined in
 
-main.ts:84658
+main.ts:84691

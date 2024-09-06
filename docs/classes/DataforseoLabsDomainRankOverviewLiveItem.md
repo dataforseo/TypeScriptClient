@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:95405
+main.ts:95438
 
 ## Properties
 
@@ -46,7 +46,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:95399
+main.ts:95432
 
 ***
 
@@ -62,7 +62,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:95397
+main.ts:95430
 
 ***
 
@@ -82,7 +82,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:95401
+main.ts:95434
 
 ***
 
@@ -98,7 +98,7 @@ search engine type
 
 #### Defined in
 
-main.ts:95395
+main.ts:95428
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:95395
 
 #### Defined in
 
-main.ts:95414
+main.ts:95447
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:95414
 
 #### Defined in
 
-main.ts:95440
+main.ts:95473
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:95440
 
 #### Defined in
 
-main.ts:95433
+main.ts:95466

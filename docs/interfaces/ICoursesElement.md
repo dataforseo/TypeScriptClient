@@ -20,7 +20,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:36277
+main.ts:36493
 
 ***
 
@@ -32,7 +32,7 @@ description
 
 #### Defined in
 
-main.ts:36275
+main.ts:36491
 
 ***
 
@@ -44,7 +44,7 @@ website domain
 
 #### Defined in
 
-main.ts:36270
+main.ts:36486
 
 ***
 
@@ -53,10 +53,11 @@ main.ts:36270
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Defined in
 
-main.ts:36279
+main.ts:36496
 
 ***
 
@@ -69,7 +70,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:36282
+main.ts:36499
 
 ***
 
@@ -82,7 +83,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:36273
+main.ts:36489
 
 ***
 
@@ -94,7 +95,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36266
+main.ts:36482
 
 ***
 
@@ -106,7 +107,7 @@ type of element
 
 #### Defined in
 
-main.ts:36264
+main.ts:36480
 
 ***
 
@@ -118,4 +119,4 @@ URL
 
 #### Defined in
 
-main.ts:36268
+main.ts:36484

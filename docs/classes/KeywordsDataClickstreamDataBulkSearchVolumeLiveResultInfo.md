@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:137280
+main.ts:137313
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:137276
+main.ts:137309
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:137274
+main.ts:137307
 
 ***
 
@@ -78,7 +78,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:137272
+main.ts:137305
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:137272
 
 #### Defined in
 
-main.ts:137289
+main.ts:137322
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:137289
 
 #### Defined in
 
-main.ts:137312
+main.ts:137345
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:137312
 
 #### Defined in
 
-main.ts:137305
+main.ts:137338

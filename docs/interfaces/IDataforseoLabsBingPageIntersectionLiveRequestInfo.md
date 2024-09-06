@@ -31,7 +31,7 @@ example:
 
 #### Defined in
 
-main.ts:108141
+main.ts:108174
 
 ***
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:108236
+main.ts:108269
 
 ***
 
@@ -76,7 +76,7 @@ default value: false
 
 #### Defined in
 
-main.ts:108188
+main.ts:108221
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:108216
+main.ts:108249
 
 ***
 
@@ -106,7 +106,7 @@ default value: true
 
 #### Defined in
 
-main.ts:108203
+main.ts:108236
 
 ***
 
@@ -124,7 +124,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:108211
+main.ts:108244
 
 ***
 
@@ -142,7 +142,7 @@ default value:
 
 #### Defined in
 
-main.ts:108183
+main.ts:108216
 
 ***
 
@@ -160,7 +160,7 @@ en
 
 #### Defined in
 
-main.ts:108175
+main.ts:108208
 
 ***
 
@@ -178,7 +178,7 @@ English
 
 #### Defined in
 
-main.ts:108167
+main.ts:108200
 
 ***
 
@@ -193,7 +193,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:108193
+main.ts:108226
 
 ***
 
@@ -212,7 +212,7 @@ example:
 
 #### Defined in
 
-main.ts:108159
+main.ts:108192
 
 ***
 
@@ -231,7 +231,7 @@ United States
 
 #### Defined in
 
-main.ts:108150
+main.ts:108183
 
 ***
 
@@ -246,7 +246,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:108198
+main.ts:108231
 
 ***
 
@@ -272,7 +272,7 @@ example:
 
 #### Defined in
 
-main.ts:108252
+main.ts:108285
 
 ***
 
@@ -307,7 +307,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:108128
+main.ts:108161
 
 ***
 
@@ -323,4 +323,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:108258
+main.ts:108291

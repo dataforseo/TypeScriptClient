@@ -20,7 +20,7 @@ height of the element in pixels
 
 #### Defined in
 
-main.ts:22479
+main.ts:22484
 
 ***
 
@@ -32,7 +32,7 @@ width of the element in pixels
 
 #### Defined in
 
-main.ts:22477
+main.ts:22482
 
 ***
 
@@ -45,7 +45,7 @@ x-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22472
+main.ts:22477
 
 ***
 
@@ -58,4 +58,4 @@ y-axis coordinate of the top-left corner of the result’s snippet, where top-le
 
 #### Defined in
 
-main.ts:22475
+main.ts:22480

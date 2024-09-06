@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:125596
+main.ts:125629
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:125596
 
 #### Defined in
 
-main.ts:21894
+main.ts:21899
 
 ***
 
@@ -68,7 +68,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:125592
+main.ts:125625
 
 ***
 
@@ -84,7 +84,7 @@ DataForSEO Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:125590
+main.ts:125623
 
 ***
 
@@ -105,7 +105,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21892
+main.ts:21897
 
 ***
 
@@ -126,7 +126,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21889
+main.ts:21894
 
 ***
 
@@ -146,7 +146,7 @@ type of element
 
 #### Defined in
 
-main.ts:21886
+main.ts:21891
 
 ## Methods
 
@@ -168,7 +168,7 @@ main.ts:21886
 
 #### Defined in
 
-main.ts:125601
+main.ts:125634
 
 ***
 
@@ -190,7 +190,7 @@ main.ts:125601
 
 #### Defined in
 
-main.ts:125628
+main.ts:125661
 
 ***
 
@@ -212,4 +212,4 @@ main.ts:125628
 
 #### Defined in
 
-main.ts:125621
+main.ts:125654

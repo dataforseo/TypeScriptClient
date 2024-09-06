@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:208433
+main.ts:208466
 
 ## Properties
 
@@ -46,7 +46,7 @@ feature assessment
 
 #### Defined in
 
-main.ts:208429
+main.ts:208462
 
 ***
 
@@ -62,7 +62,7 @@ reviewed feature
 
 #### Defined in
 
-main.ts:208427
+main.ts:208460
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:208427
 
 #### Defined in
 
-main.ts:208442
+main.ts:208475
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:208442
 
 #### Defined in
 
-main.ts:208460
+main.ts:208493
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:208460
 
 #### Defined in
 
-main.ts:208453
+main.ts:208486

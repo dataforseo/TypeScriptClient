@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:145867
+main.ts:145900
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the items array
 
 #### Defined in
 
-main.ts:145865
+main.ts:145898
 
 ***
 
@@ -44,4 +44,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:145863
+main.ts:145896

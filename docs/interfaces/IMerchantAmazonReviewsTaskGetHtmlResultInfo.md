@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:185548
+main.ts:185581
 
 ***
 
@@ -35,7 +35,7 @@ HTML pages and related data
 
 #### Defined in
 
-main.ts:185552
+main.ts:185585
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:185550
+main.ts:185583
 
 ***
 
@@ -59,7 +59,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185543
+main.ts:185576
 
 ***
 
@@ -71,7 +71,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185541
+main.ts:185574
 
 ***
 
@@ -83,7 +83,7 @@ ASIN received in a POST array
 
 #### Defined in
 
-main.ts:185535
+main.ts:185568
 
 ***
 
@@ -95,7 +95,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185539
+main.ts:185572
 
 ***
 
@@ -107,4 +107,4 @@ type of element
 
 #### Defined in
 
-main.ts:185537
+main.ts:185570

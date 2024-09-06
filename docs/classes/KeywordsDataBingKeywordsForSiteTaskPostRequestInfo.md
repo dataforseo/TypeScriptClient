@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:129626
+main.ts:129659
 
 ## Properties
 
@@ -52,7 +52,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129581
+main.ts:129614
 
 ***
 
@@ -76,7 +76,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:129591
+main.ts:129624
 
 ***
 
@@ -96,7 +96,7 @@ default value: all
 
 #### Defined in
 
-main.ts:129568
+main.ts:129601
 
 ***
 
@@ -116,7 +116,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:129562
+main.ts:129595
 
 ***
 
@@ -136,7 +136,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:129556
+main.ts:129589
 
 ***
 
@@ -156,7 +156,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:129550
+main.ts:129583
 
 ***
 
@@ -177,7 +177,7 @@ example:
 
 #### Defined in
 
-main.ts:129536
+main.ts:129569
 
 ***
 
@@ -199,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:129544
+main.ts:129577
 
 ***
 
@@ -220,7 +220,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:129529
+main.ts:129562
 
 ***
 
@@ -244,7 +244,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:129611
+main.ts:129644
 
 ***
 
@@ -268,7 +268,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:129601
+main.ts:129634
 
 ***
 
@@ -287,7 +287,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:129616
+main.ts:129649
 
 ***
 
@@ -306,7 +306,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:129573
+main.ts:129606
 
 ***
 
@@ -326,7 +326,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:129622
+main.ts:129655
 
 ***
 
@@ -344,7 +344,7 @@ the URL of the webpage or the domain to scan for possible keywords
 
 #### Defined in
 
-main.ts:129522
+main.ts:129555
 
 ## Methods
 
@@ -362,7 +362,7 @@ main.ts:129522
 
 #### Defined in
 
-main.ts:129635
+main.ts:129668
 
 ***
 
@@ -380,7 +380,7 @@ main.ts:129635
 
 #### Defined in
 
-main.ts:129670
+main.ts:129703
 
 ***
 
@@ -398,4 +398,4 @@ main.ts:129670
 
 #### Defined in
 
-main.ts:129663
+main.ts:129696

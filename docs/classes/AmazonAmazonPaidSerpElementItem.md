@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:180288
+main.ts:180321
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:180288
 
 #### Defined in
 
-main.ts:22315
+main.ts:22320
 
 ***
 
@@ -68,7 +68,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:180253
+main.ts:180286
 
 ***
 
@@ -86,7 +86,7 @@ USD
 
 #### Defined in
 
-main.ts:180265
+main.ts:180298
 
 ***
 
@@ -105,7 +105,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:180273
+main.ts:180306
 
 ***
 
@@ -122,7 +122,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:180284
+main.ts:180317
 
 ***
 
@@ -138,7 +138,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:180245
+main.ts:180278
 
 ***
 
@@ -154,7 +154,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:180251
+main.ts:180284
 
 ***
 
@@ -171,7 +171,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:180278
+main.ts:180311
 
 ***
 
@@ -188,7 +188,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:180281
+main.ts:180314
 
 ***
 
@@ -206,7 +206,7 @@ example:
 
 #### Defined in
 
-main.ts:180257
+main.ts:180290
 
 ***
 
@@ -224,7 +224,7 @@ example:
 
 #### Defined in
 
-main.ts:180261
+main.ts:180294
 
 ***
 
@@ -245,7 +245,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22311
+main.ts:22316
 
 ***
 
@@ -266,7 +266,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22308
+main.ts:22313
 
 ***
 
@@ -282,7 +282,7 @@ product rating info
 
 #### Defined in
 
-main.ts:180275
+main.ts:180308
 
 ***
 
@@ -299,7 +299,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:180268
+main.ts:180301
 
 ***
 
@@ -315,7 +315,7 @@ product title
 
 #### Defined in
 
-main.ts:180247
+main.ts:180280
 
 ***
 
@@ -335,7 +335,7 @@ type of element
 
 #### Defined in
 
-main.ts:22305
+main.ts:22310
 
 ***
 
@@ -351,7 +351,7 @@ the URL of the product page
 
 #### Defined in
 
-main.ts:180249
+main.ts:180282
 
 ***
 
@@ -371,7 +371,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22313
+main.ts:22318
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:22313
 
 #### Defined in
 
-main.ts:180293
+main.ts:180326
 
 ***
 
@@ -415,7 +415,7 @@ main.ts:180293
 
 #### Defined in
 
-main.ts:180328
+main.ts:180361
 
 ***
 
@@ -437,4 +437,4 @@ main.ts:180328
 
 #### Defined in
 
-main.ts:180321
+main.ts:180354

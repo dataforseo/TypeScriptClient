@@ -26,7 +26,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:97736
+main.ts:97769
 
 ***
 
@@ -39,7 +39,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:97741
+main.ts:97774
 
 ***
 
@@ -51,7 +51,7 @@ link of the element
 
 #### Defined in
 
-main.ts:97738
+main.ts:97771
 
 ***
 
@@ -69,7 +69,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -86,7 +86,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -103,7 +103,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -115,7 +115,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:97732
+main.ts:97765
 
 ***
 
@@ -131,7 +131,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -147,4 +147,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

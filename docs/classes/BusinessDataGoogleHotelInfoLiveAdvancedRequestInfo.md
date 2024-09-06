@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:206884
+main.ts:206917
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:206866
+main.ts:206899
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:206846
+main.ts:206879
 
 ***
 
@@ -95,7 +95,7 @@ example:
 
 #### Defined in
 
-main.ts:206855
+main.ts:206888
 
 ***
 
@@ -117,7 +117,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:206874
+main.ts:206907
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:206860
+main.ts:206893
 
 ***
 
@@ -157,7 +157,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:206801
+main.ts:206834
 
 ***
 
@@ -178,7 +178,7 @@ en
 
 #### Defined in
 
-main.ts:206838
+main.ts:206871
 
 ***
 
@@ -199,7 +199,7 @@ English
 
 #### Defined in
 
-main.ts:206831
+main.ts:206864
 
 ***
 
@@ -220,7 +220,7 @@ example:
 
 #### Defined in
 
-main.ts:206815
+main.ts:206848
 
 ***
 
@@ -243,7 +243,7 @@ example:
 
 #### Defined in
 
-main.ts:206824
+main.ts:206857
 
 ***
 
@@ -264,7 +264,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:206808
+main.ts:206841
 
 ***
 
@@ -284,7 +284,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:206880
+main.ts:206913
 
 ## Methods
 
@@ -302,7 +302,7 @@ main.ts:206880
 
 #### Defined in
 
-main.ts:206893
+main.ts:206926
 
 ***
 
@@ -320,7 +320,7 @@ main.ts:206893
 
 #### Defined in
 
-main.ts:206925
+main.ts:206958
 
 ***
 
@@ -338,4 +338,4 @@ main.ts:206925
 
 #### Defined in
 
-main.ts:206918
+main.ts:206951

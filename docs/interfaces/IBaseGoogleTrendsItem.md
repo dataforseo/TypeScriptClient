@@ -24,7 +24,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Defined in
 
-main.ts:21881
+main.ts:21886
 
 ***
 
@@ -37,7 +37,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21876
+main.ts:21881
 
 ***
 
@@ -49,7 +49,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:21878
+main.ts:21883
 
 ***
 
@@ -61,4 +61,4 @@ type of element
 
 #### Defined in
 
-main.ts:21873
+main.ts:21878

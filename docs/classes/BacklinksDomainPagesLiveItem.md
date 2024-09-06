@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:142870
+main.ts:142903
 
 ## Properties
 
@@ -46,7 +46,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:142858
+main.ts:142891
 
 ***
 
@@ -63,7 +63,7 @@ domain where the page was found
 
 #### Defined in
 
-main.ts:142822
+main.ts:142855
 
 ***
 
@@ -80,7 +80,7 @@ indicates the size of the encoded page, in bytes
 
 #### Defined in
 
-main.ts:142856
+main.ts:142889
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:142846
+main.ts:142879
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:142836
+main.ts:142869
 
 ***
 
@@ -135,7 +135,7 @@ Internet Protocol address
 
 #### Defined in
 
-main.ts:142830
+main.ts:142863
 
 ***
 
@@ -152,7 +152,7 @@ indicates the URL to redirect a page to if exists
 
 #### Defined in
 
-main.ts:142851
+main.ts:142884
 
 ***
 
@@ -169,7 +169,7 @@ main website domain does not include subdomains
 
 #### Defined in
 
-main.ts:142819
+main.ts:142852
 
 ***
 
@@ -185,7 +185,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:142860
+main.ts:142893
 
 ***
 
@@ -201,7 +201,7 @@ page meta data
 
 #### Defined in
 
-main.ts:142864
+main.ts:142897
 
 ***
 
@@ -218,7 +218,7 @@ relevant page URL
 
 #### Defined in
 
-main.ts:142828
+main.ts:142861
 
 ***
 
@@ -234,7 +234,7 @@ contains backlink data for this page
 
 #### Defined in
 
-main.ts:142866
+main.ts:142899
 
 ***
 
@@ -253,7 +253,7 @@ example:
 
 #### Defined in
 
-main.ts:142841
+main.ts:142874
 
 ***
 
@@ -269,7 +269,7 @@ server version
 
 #### Defined in
 
-main.ts:142862
+main.ts:142895
 
 ***
 
@@ -285,7 +285,7 @@ indicates the page size, in bytes
 
 #### Defined in
 
-main.ts:142853
+main.ts:142886
 
 ***
 
@@ -301,7 +301,7 @@ HTTP status code of the page
 
 #### Defined in
 
-main.ts:142848
+main.ts:142881
 
 ***
 
@@ -318,7 +318,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:142825
+main.ts:142858
 
 ***
 
@@ -334,7 +334,7 @@ type of element
 
 #### Defined in
 
-main.ts:142816
+main.ts:142849
 
 ## Methods
 
@@ -352,7 +352,7 @@ main.ts:142816
 
 #### Defined in
 
-main.ts:142879
+main.ts:142912
 
 ***
 
@@ -370,7 +370,7 @@ main.ts:142879
 
 #### Defined in
 
-main.ts:142913
+main.ts:142946
 
 ***
 
@@ -388,4 +388,4 @@ main.ts:142913
 
 #### Defined in
 
-main.ts:142906
+main.ts:142939

@@ -20,7 +20,7 @@ country ISO code
 
 #### Defined in
 
-main.ts:136145
+main.ts:136178
 
 ***
 
@@ -32,7 +32,7 @@ percentage of global search volume
 
 #### Defined in
 
-main.ts:136149
+main.ts:136182
 
 ***
 
@@ -44,4 +44,4 @@ search volume in a given country
 
 #### Defined in
 
-main.ts:136147
+main.ts:136180

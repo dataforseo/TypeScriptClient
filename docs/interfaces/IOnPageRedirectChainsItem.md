@@ -20,7 +20,7 @@ contains links that form a chain
 
 #### Defined in
 
-main.ts:158377
+main.ts:158410
 
 ***
 
@@ -33,4 +33,4 @@ if true, the last URL from the chain redirects back to the original URL
 
 #### Defined in
 
-main.ts:158375
+main.ts:158408

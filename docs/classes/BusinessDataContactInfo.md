@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:198731
+main.ts:198764
 
 ## Properties
 
@@ -46,7 +46,7 @@ data source
 
 #### Defined in
 
-main.ts:198727
+main.ts:198760
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:198721
+main.ts:198754
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:198725
+main.ts:198758
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:198725
 
 #### Defined in
 
-main.ts:198740
+main.ts:198773
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:198740
 
 #### Defined in
 
-main.ts:198759
+main.ts:198792
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:198759
 
 #### Defined in
 
-main.ts:198752
+main.ts:198785

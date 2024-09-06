@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:209488
+main.ts:209521
 
 ## Properties
 
@@ -46,7 +46,7 @@ ID of the answer
 
 #### Defined in
 
-main.ts:209470
+main.ts:209503
 
 ***
 
@@ -62,7 +62,7 @@ current text of the answer
 
 #### Defined in
 
-main.ts:209478
+main.ts:209511
 
 ***
 
@@ -78,7 +78,7 @@ original text of the answer
 
 #### Defined in
 
-main.ts:209480
+main.ts:209513
 
 ***
 
@@ -94,7 +94,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:209472
+main.ts:209505
 
 ***
 
@@ -110,7 +110,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:209476
+main.ts:209509
 
 ***
 
@@ -126,7 +126,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:209474
+main.ts:209507
 
 ***
 
@@ -142,7 +142,7 @@ estimated time when the answer was posted
 
 #### Defined in
 
-main.ts:209482
+main.ts:209515
 
 ***
 
@@ -158,7 +158,7 @@ exact time when the answer was posted
 
 #### Defined in
 
-main.ts:209484
+main.ts:209517
 
 ***
 
@@ -174,7 +174,7 @@ type of element
 
 #### Defined in
 
-main.ts:209468
+main.ts:209501
 
 ## Methods
 
@@ -192,7 +192,7 @@ main.ts:209468
 
 #### Defined in
 
-main.ts:209497
+main.ts:209530
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:209497
 
 #### Defined in
 
-main.ts:209522
+main.ts:209555
 
 ***
 
@@ -228,4 +228,4 @@ main.ts:209522
 
 #### Defined in
 
-main.ts:209515
+main.ts:209548

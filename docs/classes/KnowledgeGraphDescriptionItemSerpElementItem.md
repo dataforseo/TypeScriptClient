@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:28047
+main.ts:28052
 
 ## Properties
 
@@ -70,7 +70,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28039
+main.ts:28044
 
 ***
 
@@ -153,7 +153,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28043
+main.ts:28048
 
 ***
 
@@ -161,7 +161,7 @@ main.ts:28043
 
 > `optional` **text**: `string`
 
-description content
+text or description of the element in SERP
 
 #### Implementation of
 
@@ -169,7 +169,7 @@ description content
 
 #### Defined in
 
-main.ts:28035
+main.ts:28040
 
 ***
 
@@ -231,7 +231,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28052
+main.ts:28057
 
 ***
 
@@ -253,7 +253,7 @@ main.ts:28052
 
 #### Defined in
 
-main.ts:28076
+main.ts:28081
 
 ***
 
@@ -275,4 +275,4 @@ main.ts:28076
 
 #### Defined in
 
-main.ts:28069
+main.ts:28074

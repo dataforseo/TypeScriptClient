@@ -26,7 +26,7 @@ depending on the number of specified URLs, it can contain from 1 to 20 arrays na
 
 #### Defined in
 
-main.ts:108340
+main.ts:108373
 
 ***
 
@@ -38,7 +38,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:108336
+main.ts:108369
 
 ***
 
@@ -52,4 +52,4 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:108334
+main.ts:108367

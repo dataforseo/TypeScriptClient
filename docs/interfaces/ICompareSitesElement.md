@@ -20,7 +20,7 @@ website domain
 
 #### Defined in
 
-main.ts:36101
+main.ts:36317
 
 ***
 
@@ -29,10 +29,11 @@ main.ts:36101
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Defined in
 
-main.ts:36103
+main.ts:36320
 
 ***
 
@@ -45,7 +46,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:36106
+main.ts:36323
 
 ***
 
@@ -57,7 +58,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36097
+main.ts:36313
 
 ***
 
@@ -69,7 +70,7 @@ type of element
 
 #### Defined in
 
-main.ts:36095
+main.ts:36311
 
 ***
 
@@ -81,4 +82,4 @@ URL
 
 #### Defined in
 
-main.ts:36099
+main.ts:36315

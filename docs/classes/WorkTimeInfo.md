@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22139
+main.ts:22144
 
 ## Properties
 
@@ -46,7 +46,7 @@ hours in the 24-hour format
 
 #### Defined in
 
-main.ts:22133
+main.ts:22138
 
 ***
 
@@ -62,7 +62,7 @@ minutes
 
 #### Defined in
 
-main.ts:22135
+main.ts:22140
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:22135
 
 #### Defined in
 
-main.ts:22148
+main.ts:22153
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:22148
 
 #### Defined in
 
-main.ts:22166
+main.ts:22171
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:22166
 
 #### Defined in
 
-main.ts:22159
+main.ts:22164

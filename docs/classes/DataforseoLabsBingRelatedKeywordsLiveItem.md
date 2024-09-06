@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:109578
+main.ts:109611
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword search depth
 
 #### Defined in
 
-main.ts:109571
+main.ts:109604
 
 ***
 
@@ -62,7 +62,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:109569
+main.ts:109602
 
 ***
 
@@ -79,7 +79,7 @@ represents the list of search queries which are related to the keyword returned 
 
 #### Defined in
 
-main.ts:109574
+main.ts:109607
 
 ***
 
@@ -95,7 +95,7 @@ search engine type
 
 #### Defined in
 
-main.ts:109567
+main.ts:109600
 
 ## Methods
 
@@ -113,7 +113,7 @@ main.ts:109567
 
 #### Defined in
 
-main.ts:109587
+main.ts:109620
 
 ***
 
@@ -131,7 +131,7 @@ main.ts:109587
 
 #### Defined in
 
-main.ts:109611
+main.ts:109644
 
 ***
 
@@ -149,4 +149,4 @@ main.ts:109611
 
 #### Defined in
 
-main.ts:109604
+main.ts:109637

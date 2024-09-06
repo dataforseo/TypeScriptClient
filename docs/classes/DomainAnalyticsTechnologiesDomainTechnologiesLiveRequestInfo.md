@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:78822
+main.ts:78855
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: results will be returned for the specified domain only
 
 #### Defined in
 
-main.ts:78818
+main.ts:78851
 
 ## Methods
 
@@ -67,7 +67,7 @@ main.ts:78818
 
 #### Defined in
 
-main.ts:78831
+main.ts:78864
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:78831
 
 #### Defined in
 
-main.ts:78848
+main.ts:78881
 
 ***
 
@@ -103,4 +103,4 @@ main.ts:78848
 
 #### Defined in
 
-main.ts:78841
+main.ts:78874

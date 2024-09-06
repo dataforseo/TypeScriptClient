@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:138909
+main.ts:138942
 
 ## Properties
 
@@ -46,7 +46,7 @@ content management system
 
 #### Defined in
 
-main.ts:138892
+main.ts:138925
 
 ***
 
@@ -62,7 +62,7 @@ country code that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:138898
+main.ts:138931
 
 ***
 
@@ -78,7 +78,7 @@ IP address of the target
 
 #### Defined in
 
-main.ts:138896
+main.ts:138929
 
 ***
 
@@ -95,7 +95,7 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 #### Defined in
 
-main.ts:138901
+main.ts:138934
 
 ***
 
@@ -111,7 +111,7 @@ platform type
 
 #### Defined in
 
-main.ts:138894
+main.ts:138927
 
 ***
 
@@ -127,7 +127,7 @@ server
 
 #### Defined in
 
-main.ts:138890
+main.ts:138923
 
 ***
 
@@ -145,7 +145,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:138905
+main.ts:138938
 
 ## Methods
 
@@ -163,7 +163,7 @@ main.ts:138905
 
 #### Defined in
 
-main.ts:138918
+main.ts:138951
 
 ***
 
@@ -181,7 +181,7 @@ main.ts:138918
 
 #### Defined in
 
-main.ts:138945
+main.ts:138978
 
 ***
 
@@ -199,4 +199,4 @@ main.ts:138945
 
 #### Defined in
 
-main.ts:138938
+main.ts:138971

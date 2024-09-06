@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:46162
+main.ts:46195
 
 ## Properties
 
@@ -68,7 +68,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:46145
+main.ts:46178
 
 ***
 
@@ -85,7 +85,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:46152
+main.ts:46185
 
 ***
 
@@ -101,7 +101,7 @@ URL of the image featured in the element
 
 #### Defined in
 
-main.ts:46149
+main.ts:46182
 
 ***
 
@@ -118,7 +118,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:46158
+main.ts:46191
 
 ***
 
@@ -135,7 +135,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:46155
+main.ts:46188
 
 ***
 
@@ -216,7 +216,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:46143
+main.ts:46176
 
 ***
 
@@ -252,7 +252,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:46147
+main.ts:46180
 
 ***
 
@@ -294,7 +294,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:46167
+main.ts:46200
 
 ***
 
@@ -316,7 +316,7 @@ main.ts:46167
 
 #### Defined in
 
-main.ts:46195
+main.ts:46228
 
 ***
 
@@ -338,4 +338,4 @@ main.ts:46195
 
 #### Defined in
 
-main.ts:46188
+main.ts:46221

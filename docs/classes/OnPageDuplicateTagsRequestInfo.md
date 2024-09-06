@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:156766
+main.ts:156799
 
 ## Properties
 
@@ -48,7 +48,7 @@ specify a title or description here if you want to receive a list of duplicate p
 
 #### Defined in
 
-main.ts:156746
+main.ts:156779
 
 ***
 
@@ -68,7 +68,7 @@ example:
 
 #### Defined in
 
-main.ts:156740
+main.ts:156773
 
 ***
 
@@ -87,7 +87,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:156751
+main.ts:156784
 
 ***
 
@@ -106,7 +106,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:156756
+main.ts:156789
 
 ***
 
@@ -126,7 +126,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:156762
+main.ts:156795
 
 ***
 
@@ -142,7 +142,7 @@ type of element
 
 #### Defined in
 
-main.ts:156742
+main.ts:156775
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:156742
 
 #### Defined in
 
-main.ts:156775
+main.ts:156808
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:156775
 
 #### Defined in
 
-main.ts:156797
+main.ts:156830
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:156797
 
 #### Defined in
 
-main.ts:156790
+main.ts:156823

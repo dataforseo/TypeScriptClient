@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:174507
+main.ts:174540
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:174507
 
 #### Defined in
 
-main.ts:21039
+main.ts:21044
 
 ***
 
@@ -73,7 +73,7 @@ you can get more details about the product by using this object in the POST requ
 
 #### Defined in
 
-main.ts:174477
+main.ts:174510
 
 ***
 
@@ -91,7 +91,7 @@ USD
 
 #### Defined in
 
-main.ts:174459
+main.ts:174492
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:174471
+main.ts:174504
 
 ***
 
@@ -127,7 +127,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:174500
+main.ts:174533
 
 ***
 
@@ -143,7 +143,7 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-main.ts:174440
+main.ts:174473
 
 ***
 
@@ -159,7 +159,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:174436
+main.ts:174469
 
 ***
 
@@ -177,7 +177,7 @@ if there are no values, you will get null
 
 #### Defined in
 
-main.ts:174485
+main.ts:174518
 
 ***
 
@@ -196,7 +196,7 @@ example:
 
 #### Defined in
 
-main.ts:174455
+main.ts:174488
 
 ***
 
@@ -218,7 +218,7 @@ left, right
 
 #### Defined in
 
-main.ts:21037
+main.ts:21042
 
 ***
 
@@ -236,7 +236,7 @@ example:
 
 #### Defined in
 
-main.ts:174450
+main.ts:174483
 
 ***
 
@@ -257,7 +257,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:174466
+main.ts:174499
 
 ***
 
@@ -274,7 +274,7 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-main.ts:174494
+main.ts:174527
 
 ***
 
@@ -291,7 +291,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:174488
+main.ts:174521
 
 ***
 
@@ -312,7 +312,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21033
+main.ts:21038
 
 ***
 
@@ -333,7 +333,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21030
+main.ts:21035
 
 ***
 
@@ -351,7 +351,7 @@ if there are no values, you will get null
 
 #### Defined in
 
-main.ts:174481
+main.ts:174514
 
 ***
 
@@ -368,7 +368,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:174474
+main.ts:174507
 
 ***
 
@@ -385,7 +385,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:174497
+main.ts:174530
 
 ***
 
@@ -402,7 +402,7 @@ the popularity rate of the seller based on user reviews
 
 #### Defined in
 
-main.ts:174491
+main.ts:174524
 
 ***
 
@@ -418,7 +418,7 @@ URL to the product page on Google Shopping
 
 #### Defined in
 
-main.ts:174444
+main.ts:174477
 
 ***
 
@@ -435,7 +435,7 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-main.ts:174503
+main.ts:174536
 
 ***
 
@@ -451,7 +451,7 @@ tags assigned to the product
 
 #### Defined in
 
-main.ts:174446
+main.ts:174479
 
 ***
 
@@ -467,7 +467,7 @@ title of the element
 
 #### Defined in
 
-main.ts:174438
+main.ts:174471
 
 ***
 
@@ -487,7 +487,7 @@ type of element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21032
 
 ***
 
@@ -503,7 +503,7 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-main.ts:174442
+main.ts:174475
 
 ***
 
@@ -519,7 +519,7 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174434
+main.ts:174467
 
 ## Methods
 
@@ -541,7 +541,7 @@ main.ts:174434
 
 #### Defined in
 
-main.ts:174512
+main.ts:174545
 
 ***
 
@@ -563,7 +563,7 @@ main.ts:174512
 
 #### Defined in
 
-main.ts:174565
+main.ts:174598
 
 ***
 
@@ -585,4 +585,4 @@ main.ts:174565
 
 #### Defined in
 
-main.ts:174558
+main.ts:174591

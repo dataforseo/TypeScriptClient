@@ -32,7 +32,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:94289
+main.ts:94322
 
 ***
 
@@ -51,7 +51,7 @@ default value: live
 
 #### Defined in
 
-main.ts:94275
+main.ts:94308
 
 ***
 
@@ -68,7 +68,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:94266
+main.ts:94299
 
 ***
 
@@ -87,7 +87,7 @@ default value:
 
 #### Defined in
 
-main.ts:94259
+main.ts:94292
 
 ***
 
@@ -106,7 +106,7 @@ en
 
 #### Defined in
 
-main.ts:94250
+main.ts:94283
 
 ***
 
@@ -125,7 +125,7 @@ English
 
 #### Defined in
 
-main.ts:94241
+main.ts:94274
 
 ***
 
@@ -140,7 +140,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:94311
+main.ts:94344
 
 ***
 
@@ -159,7 +159,7 @@ example:
 
 #### Defined in
 
-main.ts:94232
+main.ts:94265
 
 ***
 
@@ -178,7 +178,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:94223
+main.ts:94256
 
 ***
 
@@ -193,7 +193,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:94316
+main.ts:94349
 
 ***
 
@@ -220,7 +220,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:94306
+main.ts:94339
 
 ***
 
@@ -236,7 +236,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:94322
+main.ts:94355
 
 ***
 
@@ -251,4 +251,4 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:94214
+main.ts:94247

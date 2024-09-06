@@ -21,7 +21,7 @@ number of broken links across all crawled pages on a target website
 
 #### Defined in
 
-main.ts:153896
+main.ts:153929
 
 ***
 
@@ -34,7 +34,7 @@ the number of images and other resources with broken links
 
 #### Defined in
 
-main.ts:153899
+main.ts:153932
 
 ***
 
@@ -50,7 +50,7 @@ page-specific on-page check-ups
 
 #### Defined in
 
-main.ts:153917
+main.ts:153950
 
 ***
 
@@ -62,7 +62,7 @@ number of pages with duplicate content
 
 #### Defined in
 
-main.ts:153893
+main.ts:153926
 
 ***
 
@@ -74,7 +74,7 @@ number of pages with duplicate descriptions
 
 #### Defined in
 
-main.ts:153891
+main.ts:153924
 
 ***
 
@@ -86,7 +86,7 @@ number of pages with duplicate titles
 
 #### Defined in
 
-main.ts:153889
+main.ts:153922
 
 ***
 
@@ -99,7 +99,7 @@ the number of links pointing to other websites
 
 #### Defined in
 
-main.ts:153884
+main.ts:153917
 
 ***
 
@@ -112,7 +112,7 @@ the number of links pointing to other pages within the target website
 
 #### Defined in
 
-main.ts:153887
+main.ts:153920
 
 ***
 
@@ -125,7 +125,7 @@ for example, if "links_relation_conflict": 2, the target website is referring to
 
 #### Defined in
 
-main.ts:153902
+main.ts:153935
 
 ***
 
@@ -139,7 +139,7 @@ you can receive a list of non-indexable URLs using this endpoint
 
 #### Defined in
 
-main.ts:153915
+main.ts:153948
 
 ***
 
@@ -155,7 +155,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:153911
+main.ts:153944
 
 ***
 
@@ -168,4 +168,4 @@ number of redirect chains where the destination URL redirects back to the origin
 
 #### Defined in
 
-main.ts:153905
+main.ts:153938

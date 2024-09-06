@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:86403
+main.ts:86436
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-main.ts:86399
+main.ts:86432
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:86397
+main.ts:86430
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:86393
+main.ts:86426
 
 ***
 
@@ -96,7 +96,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:86390
+main.ts:86423
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:86387
+main.ts:86420
 
 ***
 
@@ -128,7 +128,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:86395
+main.ts:86428
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:86395
 
 #### Defined in
 
-main.ts:86412
+main.ts:86445
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:86412
 
 #### Defined in
 
-main.ts:86438
+main.ts:86471
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:86438
 
 #### Defined in
 
-main.ts:86431
+main.ts:86464

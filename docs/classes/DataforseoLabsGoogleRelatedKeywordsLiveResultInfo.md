@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:84282
+main.ts:84315
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related data
 
 #### Defined in
 
-main.ts:84278
+main.ts:84311
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:84276
+main.ts:84309
 
 ***
 
@@ -78,7 +78,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:84272
+main.ts:84305
 
 ***
 
@@ -94,7 +94,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:84270
+main.ts:84303
 
 ***
 
@@ -110,7 +110,7 @@ search engine type
 
 #### Defined in
 
-main.ts:84263
+main.ts:84296
 
 ***
 
@@ -126,7 +126,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:84265
+main.ts:84298
 
 ***
 
@@ -147,7 +147,7 @@ fields in the array are identical to that of keyword_data
 
 #### Defined in
 
-main.ts:84268
+main.ts:84301
 
 ***
 
@@ -163,7 +163,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:84274
+main.ts:84307
 
 ## Methods
 
@@ -181,7 +181,7 @@ main.ts:84274
 
 #### Defined in
 
-main.ts:84291
+main.ts:84324
 
 ***
 
@@ -199,7 +199,7 @@ main.ts:84291
 
 #### Defined in
 
-main.ts:84325
+main.ts:84358
 
 ***
 
@@ -217,4 +217,4 @@ main.ts:84325
 
 #### Defined in
 
-main.ts:84318
+main.ts:84351

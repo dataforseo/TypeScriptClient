@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:180653
+main.ts:180686
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:180653
 
 #### Defined in
 
-main.ts:22315
+main.ts:22320
 
 ***
 
@@ -68,7 +68,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:180649
+main.ts:180682
 
 ***
 
@@ -86,7 +86,7 @@ left, right
 
 #### Defined in
 
-main.ts:180647
+main.ts:180680
 
 ***
 
@@ -107,7 +107,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22311
+main.ts:22316
 
 ***
 
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22308
+main.ts:22313
 
 ***
 
@@ -148,7 +148,7 @@ type of element
 
 #### Defined in
 
-main.ts:22305
+main.ts:22310
 
 ***
 
@@ -168,7 +168,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22313
+main.ts:22318
 
 ## Methods
 
@@ -190,7 +190,7 @@ main.ts:22313
 
 #### Defined in
 
-main.ts:180658
+main.ts:180691
 
 ***
 
@@ -212,7 +212,7 @@ main.ts:180658
 
 #### Defined in
 
-main.ts:180681
+main.ts:180714
 
 ***
 
@@ -234,4 +234,4 @@ main.ts:180681
 
 #### Defined in
 
-main.ts:180674
+main.ts:180707

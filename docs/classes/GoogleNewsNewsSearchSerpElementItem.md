@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:43957
+main.ts:43990
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:43957
 
 #### Defined in
 
-main.ts:43864
+main.ts:43897
 
 ***
 
@@ -68,7 +68,7 @@ domain name of the result in SERP
 
 #### Defined in
 
-main.ts:43939
+main.ts:43972
 
 ***
 
@@ -85,7 +85,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:43944
+main.ts:43977
 
 ***
 
@@ -106,7 +106,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:43854
+main.ts:43887
 
 ***
 
@@ -128,7 +128,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:43851
+main.ts:43884
 
 ***
 
@@ -150,7 +150,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:43862
+main.ts:43895
 
 ***
 
@@ -166,7 +166,7 @@ snippet of the result in SERP
 
 #### Defined in
 
-main.ts:43946
+main.ts:43979
 
 ***
 
@@ -182,7 +182,7 @@ indicates the time the result was published
 
 #### Defined in
 
-main.ts:43948
+main.ts:43981
 
 ***
 
@@ -201,7 +201,7 @@ example:
 
 #### Defined in
 
-main.ts:43953
+main.ts:43986
 
 ***
 
@@ -221,7 +221,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:43858
+main.ts:43891
 
 ***
 
@@ -241,7 +241,7 @@ type of element
 
 #### Defined in
 
-main.ts:43847
+main.ts:43880
 
 ***
 
@@ -257,7 +257,7 @@ URL of the result in SERP
 
 #### Defined in
 
-main.ts:43941
+main.ts:43974
 
 ***
 
@@ -277,7 +277,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:43856
+main.ts:43889
 
 ## Methods
 
@@ -299,7 +299,7 @@ main.ts:43856
 
 #### Defined in
 
-main.ts:43962
+main.ts:43995
 
 ***
 
@@ -321,7 +321,7 @@ main.ts:43962
 
 #### Defined in
 
-main.ts:43985
+main.ts:44018
 
 ***
 
@@ -343,4 +343,4 @@ main.ts:43985
 
 #### Defined in
 
-main.ts:43978
+main.ts:44011

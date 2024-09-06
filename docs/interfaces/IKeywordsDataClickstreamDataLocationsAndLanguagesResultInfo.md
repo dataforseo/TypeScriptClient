@@ -21,7 +21,7 @@ contains the languages which are supported for a specific location
 
 #### Defined in
 
-main.ts:135541
+main.ts:135574
 
 ***
 
@@ -33,7 +33,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:135534
+main.ts:135567
 
 ***
 
@@ -45,7 +45,7 @@ location code
 
 #### Defined in
 
-main.ts:135527
+main.ts:135560
 
 ***
 
@@ -58,7 +58,7 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Defined in
 
-main.ts:135532
+main.ts:135565
 
 ***
 
@@ -70,7 +70,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:135529
+main.ts:135562
 
 ***
 
@@ -84,4 +84,4 @@ Country
 
 #### Defined in
 
-main.ts:135538
+main.ts:135571

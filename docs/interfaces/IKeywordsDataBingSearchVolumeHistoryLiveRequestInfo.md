@@ -31,7 +31,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:135220
+main.ts:135253
 
 ***
 
@@ -54,7 +54,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:135233
+main.ts:135266
 
 ***
 
@@ -70,7 +70,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 #### Defined in
 
-main.ts:135198
+main.ts:135231
 
 ***
 
@@ -86,7 +86,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:135160
+main.ts:135193
 
 ***
 
@@ -101,7 +101,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:135192
+main.ts:135225
 
 ***
 
@@ -116,7 +116,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:135187
+main.ts:135220
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:135174
+main.ts:135207
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:135182
+main.ts:135215
 
 ***
 
@@ -168,7 +168,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:135167
+main.ts:135200
 
 ***
 
@@ -187,7 +187,7 @@ default value:  monthly
 
 #### Defined in
 
-main.ts:135207
+main.ts:135240
 
 ***
 
@@ -203,4 +203,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:135239
+main.ts:135272

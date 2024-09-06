@@ -20,7 +20,7 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-main.ts:88318
+main.ts:88351
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:88316
+main.ts:88349
 
 ***
 
@@ -45,4 +45,4 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:88314
+main.ts:88347

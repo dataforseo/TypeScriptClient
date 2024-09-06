@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:160146
+main.ts:160179
 
 ## Properties
 
@@ -46,7 +46,7 @@ information related to microdata validation
 
 #### Defined in
 
-main.ts:160142
+main.ts:160175
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:160140
+main.ts:160173
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:160140
 
 #### Defined in
 
-main.ts:160155
+main.ts:160188
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:160155
 
 #### Defined in
 
-main.ts:160173
+main.ts:160206
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:160173
 
 #### Defined in
 
-main.ts:160166
+main.ts:160199

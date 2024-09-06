@@ -16,11 +16,12 @@
 
 > `optional` **items**: [`FaqBoxElement`](../classes/FaqBoxElement.md)[]
 
-contains results featured in the ‘hotels_pack’ element of SERP
+additional items present in the element
+if there are none, equals null
 
 #### Defined in
 
-main.ts:29522
+main.ts:29797
 
 ***
 
@@ -32,4 +33,4 @@ type of element
 
 #### Defined in
 
-main.ts:29520
+main.ts:29794

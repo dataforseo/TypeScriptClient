@@ -30,7 +30,7 @@ estimated number of keywords for each level (maximum):
 
 #### Defined in
 
-main.ts:109495
+main.ts:109528
 
 ***
 
@@ -51,7 +51,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:109528
+main.ts:109561
 
 ***
 
@@ -66,7 +66,7 @@ default value: false
 
 #### Defined in
 
-main.ts:109517
+main.ts:109550
 
 ***
 
@@ -81,7 +81,7 @@ default value: false
 
 #### Defined in
 
-main.ts:109500
+main.ts:109533
 
 ***
 
@@ -96,7 +96,7 @@ default value: false
 
 #### Defined in
 
-main.ts:109505
+main.ts:109538
 
 ***
 
@@ -112,7 +112,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:109449
+main.ts:109482
 
 ***
 
@@ -130,7 +130,7 @@ en
 
 #### Defined in
 
-main.ts:109483
+main.ts:109516
 
 ***
 
@@ -148,7 +148,7 @@ English
 
 #### Defined in
 
-main.ts:109475
+main.ts:109508
 
 ***
 
@@ -163,7 +163,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:109549
+main.ts:109582
 
 ***
 
@@ -182,7 +182,7 @@ example:
 
 #### Defined in
 
-main.ts:109467
+main.ts:109500
 
 ***
 
@@ -201,7 +201,7 @@ United States
 
 #### Defined in
 
-main.ts:109458
+main.ts:109491
 
 ***
 
@@ -216,7 +216,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:109554
+main.ts:109587
 
 ***
 
@@ -242,7 +242,7 @@ example:
 
 #### Defined in
 
-main.ts:109544
+main.ts:109577
 
 ***
 
@@ -259,7 +259,7 @@ default value: false
 
 #### Defined in
 
-main.ts:109512
+main.ts:109545
 
 ***
 
@@ -275,4 +275,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:109560
+main.ts:109593

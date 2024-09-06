@@ -21,7 +21,7 @@ contains keywords and their search volume rates
 
 #### Defined in
 
-main.ts:135977
+main.ts:136010
 
 ***
 
@@ -33,7 +33,7 @@ ithe number of results returned in the items array
 
 #### Defined in
 
-main.ts:135974
+main.ts:136007
 
 ***
 
@@ -48,7 +48,7 @@ we use the functionality of Google Ads API to check and validate the spelling of
 
 #### Defined in
 
-main.ts:135969
+main.ts:136002
 
 ***
 
@@ -61,7 +61,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:135964
+main.ts:135997
 
 ***
 
@@ -74,4 +74,4 @@ possible values: true, false
 
 #### Defined in
 
-main.ts:135972
+main.ts:136005

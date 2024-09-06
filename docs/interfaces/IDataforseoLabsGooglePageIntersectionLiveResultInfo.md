@@ -20,7 +20,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-main.ts:100662
+main.ts:100695
 
 ***
 
@@ -32,7 +32,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:100672
+main.ts:100705
 
 ***
 
@@ -44,7 +44,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:100670
+main.ts:100703
 
 ***
 
@@ -56,7 +56,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:100666
+main.ts:100699
 
 ***
 
@@ -68,7 +68,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:100664
+main.ts:100697
 
 ***
 
@@ -84,7 +84,7 @@ URLs you specified a POST array
 
 #### Defined in
 
-main.ts:100660
+main.ts:100693
 
 ***
 
@@ -96,7 +96,7 @@ search engine type
 
 #### Defined in
 
-main.ts:100658
+main.ts:100691
 
 ***
 
@@ -108,4 +108,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:100668
+main.ts:100701

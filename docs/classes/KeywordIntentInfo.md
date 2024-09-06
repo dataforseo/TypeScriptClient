@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:86759
+main.ts:86792
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: informational, navigational, commercial, transactional
 
 #### Defined in
 
-main.ts:86752
+main.ts:86785
 
 ***
 
@@ -64,7 +64,7 @@ search intent probability
 
 #### Defined in
 
-main.ts:86755
+main.ts:86788
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:86755
 
 #### Defined in
 
-main.ts:86768
+main.ts:86801
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:86768
 
 #### Defined in
 
-main.ts:86786
+main.ts:86819
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:86786
 
 #### Defined in
 
-main.ts:86779
+main.ts:86812

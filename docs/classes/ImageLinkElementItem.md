@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:157959
+main.ts:157992
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:157959
 
 #### Defined in
 
-main.ts:21676
+main.ts:21681
 
 ***
 
@@ -73,7 +73,7 @@ possible values: internal, external
 
 #### Defined in
 
-main.ts:21668
+main.ts:21673
 
 ***
 
@@ -94,7 +94,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-main.ts:21661
+main.ts:21666
 
 ***
 
@@ -115,7 +115,7 @@ the link was found on this domain
 
 #### Defined in
 
-main.ts:21643
+main.ts:21648
 
 ***
 
@@ -136,7 +136,7 @@ the link is pointing to this domain
 
 #### Defined in
 
-main.ts:21646
+main.ts:21651
 
 ***
 
@@ -152,7 +152,7 @@ alternative text for the image
 
 #### Defined in
 
-main.ts:157950
+main.ts:157983
 
 ***
 
@@ -168,7 +168,7 @@ url of the image
 
 #### Defined in
 
-main.ts:157952
+main.ts:157985
 
 ***
 
@@ -189,7 +189,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-main.ts:21671
+main.ts:21676
 
 ***
 
@@ -210,7 +210,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Defined in
 
-main.ts:21674
+main.ts:21679
 
 ***
 
@@ -229,7 +229,7 @@ example:
 
 #### Defined in
 
-main.ts:157946
+main.ts:157979
 
 ***
 
@@ -250,7 +250,7 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21655
+main.ts:21660
 
 ***
 
@@ -271,7 +271,7 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21658
+main.ts:21663
 
 ***
 
@@ -292,7 +292,7 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21649
+main.ts:21654
 
 ***
 
@@ -312,7 +312,7 @@ url scheme of the referring page
 
 #### Defined in
 
-main.ts:21663
+main.ts:21668
 
 ***
 
@@ -333,7 +333,7 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21652
+main.ts:21657
 
 ***
 
@@ -353,7 +353,7 @@ url scheme of the referenced page
 
 #### Defined in
 
-main.ts:21665
+main.ts:21670
 
 ***
 
@@ -370,7 +370,7 @@ status code of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:157955
+main.ts:157988
 
 ***
 
@@ -386,7 +386,7 @@ anchor text
 
 #### Defined in
 
-main.ts:157948
+main.ts:157981
 
 ***
 
@@ -406,7 +406,7 @@ type of element
 
 #### Defined in
 
-main.ts:21640
+main.ts:21645
 
 ## Methods
 
@@ -428,7 +428,7 @@ main.ts:21640
 
 #### Defined in
 
-main.ts:157964
+main.ts:157997
 
 ***
 
@@ -450,7 +450,7 @@ main.ts:157964
 
 #### Defined in
 
-main.ts:157990
+main.ts:158023
 
 ***
 
@@ -472,4 +472,4 @@ main.ts:157990
 
 #### Defined in
 
-main.ts:157983
+main.ts:158016

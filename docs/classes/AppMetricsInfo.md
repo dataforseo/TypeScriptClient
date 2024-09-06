@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:104045
+main.ts:104078
 
 ## Properties
 
@@ -46,7 +46,7 @@ total count of Amazon organic SERPs that contain the product
 
 #### Defined in
 
-main.ts:104039
+main.ts:104072
 
 ***
 
@@ -62,7 +62,7 @@ number of organic SERPs where the product ranks #1
 
 #### Defined in
 
-main.ts:104031
+main.ts:104064
 
 ***
 
@@ -78,7 +78,7 @@ number of organic SERPs where the product ranks #11-100
 
 #### Defined in
 
-main.ts:104037
+main.ts:104070
 
 ***
 
@@ -94,7 +94,7 @@ number of organic SERPs where the product ranks #2-3
 
 #### Defined in
 
-main.ts:104033
+main.ts:104066
 
 ***
 
@@ -110,7 +110,7 @@ number of organic SERPs where the product ranks #4-10
 
 #### Defined in
 
-main.ts:104035
+main.ts:104068
 
 ***
 
@@ -126,7 +126,7 @@ total search volume of the product’s ranking keywords in organic SERP
 
 #### Defined in
 
-main.ts:104041
+main.ts:104074
 
 ## Methods
 
@@ -144,7 +144,7 @@ main.ts:104041
 
 #### Defined in
 
-main.ts:104054
+main.ts:104087
 
 ***
 
@@ -162,7 +162,7 @@ main.ts:104054
 
 #### Defined in
 
-main.ts:104076
+main.ts:104109
 
 ***
 
@@ -180,4 +180,4 @@ main.ts:104076
 
 #### Defined in
 
-main.ts:104069
+main.ts:104102

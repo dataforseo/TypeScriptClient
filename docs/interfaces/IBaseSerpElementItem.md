@@ -20,6 +20,7 @@
 - [`IKnowledgeGraphPartItemSerpElementItem`](IKnowledgeGraphPartItemSerpElementItem.md)
 - [`IKnowledgeGraphShoppingItemSerpElementItem`](IKnowledgeGraphShoppingItemSerpElementItem.md)
 - [`IKnowledgeGraphHotelsBookingItemSerpElementItem`](IKnowledgeGraphHotelsBookingItemSerpElementItem.md)
+- [`IKnowledgeGraphAiOverviewItemSerpElementItem`](IKnowledgeGraphAiOverviewItemSerpElementItem.md)
 - [`IKnowledgeGraphSerpElementItem`](IKnowledgeGraphSerpElementItem.md)
 - [`ITopStoriesSerpElementItem`](ITopStoriesSerpElementItem.md)
 - [`IPeopleAlsoAskSerpElementItem`](IPeopleAlsoAskSerpElementItem.md)
@@ -81,7 +82,7 @@ left, right
 
 #### Defined in
 
-main.ts:20721
+main.ts:20726
 
 ***
 
@@ -94,7 +95,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20717
+main.ts:20722
 
 ***
 
@@ -108,7 +109,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20714
+main.ts:20719
 
 ***
 
@@ -120,7 +121,7 @@ type of element
 
 #### Defined in
 
-main.ts:20710
+main.ts:20715
 
 ***
 
@@ -132,4 +133,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20723
+main.ts:20728

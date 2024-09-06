@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:27631
+main.ts:27636
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:27605
+main.ts:27610
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:27610
+main.ts:27615
 
 ***
 
@@ -88,7 +88,7 @@ to get all items (inlcuding SERP features and rich snippets) found in the return
 
 #### Defined in
 
-main.ts:27621
+main.ts:27626
 
 ***
 
@@ -104,7 +104,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:27627
+main.ts:27632
 
 ***
 
@@ -120,7 +120,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:27625
+main.ts:27630
 
 ***
 
@@ -137,7 +137,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:27594
+main.ts:27599
 
 ***
 
@@ -153,7 +153,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:27602
+main.ts:27607
 
 ***
 
@@ -169,7 +169,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:27600
+main.ts:27605
 
 ***
 
@@ -185,7 +185,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:27598
+main.ts:27603
 
 ***
 
@@ -201,7 +201,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:27623
+main.ts:27628
 
 ***
 
@@ -218,7 +218,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:27613
+main.ts:27618
 
 ***
 
@@ -234,7 +234,7 @@ type of element
 
 #### Defined in
 
-main.ts:27596
+main.ts:27601
 
 ## Methods
 
@@ -252,7 +252,7 @@ main.ts:27596
 
 #### Defined in
 
-main.ts:27640
+main.ts:27645
 
 ***
 
@@ -270,7 +270,7 @@ main.ts:27640
 
 #### Defined in
 
-main.ts:27676
+main.ts:27681
 
 ***
 
@@ -288,4 +288,4 @@ main.ts:27676
 
 #### Defined in
 
-main.ts:27669
+main.ts:27674

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:108367
+main.ts:108400
 
 ## Properties
 
@@ -46,7 +46,7 @@ URLs you specified in a POST array that will be excluded from the results
 
 #### Defined in
 
-main.ts:108353
+main.ts:108386
 
 ***
 
@@ -62,7 +62,7 @@ contains keywords, relevant SERP elements and related data
 
 #### Defined in
 
-main.ts:108363
+main.ts:108396
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:108361
+main.ts:108394
 
 ***
 
@@ -94,7 +94,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:108357
+main.ts:108390
 
 ***
 
@@ -110,7 +110,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:108355
+main.ts:108388
 
 ***
 
@@ -130,7 +130,7 @@ URLs you specified a POST array
 
 #### Defined in
 
-main.ts:108351
+main.ts:108384
 
 ***
 
@@ -148,7 +148,7 @@ for this endpoint, the field equals bing
 
 #### Defined in
 
-main.ts:108349
+main.ts:108382
 
 ***
 
@@ -164,7 +164,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:108359
+main.ts:108392
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:108359
 
 #### Defined in
 
-main.ts:108376
+main.ts:108409
 
 ***
 
@@ -200,7 +200,7 @@ main.ts:108376
 
 #### Defined in
 
-main.ts:108414
+main.ts:108447
 
 ***
 
@@ -218,4 +218,4 @@ main.ts:108414
 
 #### Defined in
 
-main.ts:108407
+main.ts:108440

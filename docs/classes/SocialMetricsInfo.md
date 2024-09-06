@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:23188
+main.ts:23193
 
 ## Properties
 
@@ -46,7 +46,7 @@ likes count
 
 #### Defined in
 
-main.ts:23184
+main.ts:23189
 
 ***
 
@@ -62,7 +62,7 @@ type of element
 
 #### Defined in
 
-main.ts:23182
+main.ts:23187
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:23182
 
 #### Defined in
 
-main.ts:23197
+main.ts:23202
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:23197
 
 #### Defined in
 
-main.ts:23215
+main.ts:23220
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:23215
 
 #### Defined in
 
-main.ts:23208
+main.ts:23213

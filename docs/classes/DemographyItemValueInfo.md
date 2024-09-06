@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:126862
+main.ts:126895
 
 ## Properties
 
@@ -46,7 +46,7 @@ type of element
 
 #### Defined in
 
-main.ts:126852
+main.ts:126885
 
 ***
 
@@ -66,7 +66,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:126858
+main.ts:126891
 
 ## Methods
 
@@ -84,7 +84,7 @@ main.ts:126858
 
 #### Defined in
 
-main.ts:126871
+main.ts:126904
 
 ***
 
@@ -102,7 +102,7 @@ main.ts:126871
 
 #### Defined in
 
-main.ts:126889
+main.ts:126922
 
 ***
 
@@ -120,4 +120,4 @@ main.ts:126889
 
 #### Defined in
 
-main.ts:126882
+main.ts:126915

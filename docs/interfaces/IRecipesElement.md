@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:32467
+main.ts:32714
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:32462
+main.ts:32709
 
 ***
 
@@ -45,7 +45,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32472
+main.ts:32719
 
 ***
 
@@ -58,7 +58,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:32465
+main.ts:32712
 
 ***
 
@@ -70,7 +70,7 @@ the total time it takes to prepare the cook the dish
 
 #### Defined in
 
-main.ts:32469
+main.ts:32716
 
 ***
 
@@ -82,7 +82,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32458
+main.ts:32705
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:32456
+main.ts:32703
 
 ***
 
@@ -106,4 +106,4 @@ URL
 
 #### Defined in
 
-main.ts:32460
+main.ts:32707

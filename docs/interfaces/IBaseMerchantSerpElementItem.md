@@ -29,7 +29,7 @@ left, right
 
 #### Defined in
 
-main.ts:21130
+main.ts:21135
 
 ***
 
@@ -42,7 +42,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21126
+main.ts:21131
 
 ***
 
@@ -55,7 +55,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21123
+main.ts:21128
 
 ***
 
@@ -67,4 +67,4 @@ type of element
 
 #### Defined in
 
-main.ts:21120
+main.ts:21125

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:185213
+main.ts:185246
 
 ## Properties
 
@@ -46,7 +46,7 @@ asin received in a POST array
 
 #### Defined in
 
-main.ts:185169
+main.ts:185202
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:185180
+main.ts:185213
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:185185
+main.ts:185218
 
 ***
 
@@ -98,7 +98,7 @@ product image data
 
 #### Defined in
 
-main.ts:185193
+main.ts:185226
 
 ***
 
@@ -117,7 +117,7 @@ amazon_review_item
 
 #### Defined in
 
-main.ts:185203
+main.ts:185236
 
 ***
 
@@ -134,7 +134,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185209
+main.ts:185242
 
 ***
 
@@ -151,7 +151,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:185206
+main.ts:185239
 
 ***
 
@@ -167,7 +167,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:185177
+main.ts:185210
 
 ***
 
@@ -183,7 +183,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:185175
+main.ts:185208
 
 ***
 
@@ -200,7 +200,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:185196
+main.ts:185229
 
 ***
 
@@ -216,7 +216,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:185198
+main.ts:185231
 
 ***
 
@@ -232,7 +232,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:185173
+main.ts:185206
 
 ***
 
@@ -249,7 +249,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:185188
+main.ts:185221
 
 ***
 
@@ -266,7 +266,7 @@ the title of the product for which the reviews are collected
 
 #### Defined in
 
-main.ts:185191
+main.ts:185224
 
 ***
 
@@ -282,7 +282,7 @@ type of element
 
 #### Defined in
 
-main.ts:185171
+main.ts:185204
 
 ## Methods
 
@@ -300,7 +300,7 @@ main.ts:185171
 
 #### Defined in
 
-main.ts:185222
+main.ts:185255
 
 ***
 
@@ -318,7 +318,7 @@ main.ts:185222
 
 #### Defined in
 
-main.ts:185261
+main.ts:185294
 
 ***
 
@@ -336,4 +336,4 @@ main.ts:185261
 
 #### Defined in
 
-main.ts:185254
+main.ts:185287

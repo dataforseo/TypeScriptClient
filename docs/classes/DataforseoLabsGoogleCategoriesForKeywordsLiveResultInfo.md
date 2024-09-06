@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:88262
+main.ts:88295
 
 ## Properties
 
@@ -46,7 +46,7 @@ contains keywords and related keyword difficulty scores
 
 #### Defined in
 
-main.ts:88258
+main.ts:88291
 
 ***
 
@@ -62,7 +62,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:88256
+main.ts:88289
 
 ***
 
@@ -79,7 +79,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:88254
+main.ts:88287
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:88254
 
 #### Defined in
 
-main.ts:88271
+main.ts:88304
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:88271
 
 #### Defined in
 
-main.ts:88294
+main.ts:88327
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:88294
 
 #### Defined in
 
-main.ts:88287
+main.ts:88320

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:27039
+main.ts:27044
 
 ## Properties
 
@@ -68,7 +68,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:27005
+main.ts:27010
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27019
+main.ts:27024
 
 ***
 
@@ -101,7 +101,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:27022
+main.ts:27027
 
 ***
 
@@ -109,7 +109,7 @@ main.ts:27022
 
 > `optional` **domain**: `string`
 
-website domain
+domain name of the reference
 
 #### Implementation of
 
@@ -117,7 +117,7 @@ website domain
 
 #### Defined in
 
-main.ts:27003
+main.ts:27008
 
 ***
 
@@ -137,7 +137,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:27017
+main.ts:27022
 
 ***
 
@@ -153,7 +153,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:27015
+main.ts:27020
 
 ***
 
@@ -169,7 +169,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27011
+main.ts:27016
 
 ***
 
@@ -185,7 +185,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:27007
+main.ts:27012
 
 ***
 
@@ -201,7 +201,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:27009
+main.ts:27014
 
 ***
 
@@ -219,7 +219,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27026
+main.ts:27031
 
 ***
 
@@ -258,7 +258,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:27029
+main.ts:27034
 
 ***
 
@@ -319,7 +319,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27033
+main.ts:27038
 
 ***
 
@@ -335,7 +335,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27001
+main.ts:27006
 
 ***
 
@@ -371,7 +371,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:27013
+main.ts:27018
 
 ***
 
@@ -387,7 +387,7 @@ website name in SERP
 
 #### Defined in
 
-main.ts:27035
+main.ts:27040
 
 ***
 
@@ -429,7 +429,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:27044
+main.ts:27049
 
 ***
 
@@ -451,7 +451,7 @@ main.ts:27044
 
 #### Defined in
 
-main.ts:27098
+main.ts:27103
 
 ***
 
@@ -473,4 +473,4 @@ main.ts:27098
 
 #### Defined in
 
-main.ts:27091
+main.ts:27096

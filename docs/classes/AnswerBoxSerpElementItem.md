@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:31482
+main.ts:31741
 
 ## Properties
 
@@ -68,7 +68,7 @@ link of the element
 
 #### Defined in
 
-main.ts:31474
+main.ts:31733
 
 ***
 
@@ -151,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31478
+main.ts:31737
 
 ***
 
@@ -168,7 +168,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:31472
+main.ts:31731
 
 ***
 
@@ -230,7 +230,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:31487
+main.ts:31746
 
 ***
 
@@ -252,7 +252,7 @@ main.ts:31487
 
 #### Defined in
 
-main.ts:31515
+main.ts:31774
 
 ***
 
@@ -274,4 +274,4 @@ main.ts:31515
 
 #### Defined in
 
-main.ts:31508
+main.ts:31767

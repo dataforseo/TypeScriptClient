@@ -24,7 +24,7 @@ age rating and age-based content advisories
 
 #### Defined in
 
-main.ts:194328
+main.ts:194361
 
 ***
 
@@ -36,7 +36,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:194308
+main.ts:194341
 
 ***
 
@@ -48,7 +48,7 @@ all relevant categories/genres of the app
 
 #### Defined in
 
-main.ts:194324
+main.ts:194357
 
 ***
 
@@ -60,7 +60,7 @@ description of the app
 
 #### Defined in
 
-main.ts:194314
+main.ts:194347
 
 ***
 
@@ -72,7 +72,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:194330
+main.ts:194363
 
 ***
 
@@ -84,7 +84,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:194332
+main.ts:194365
 
 ***
 
@@ -96,7 +96,7 @@ URL to the developer page on App Store
 
 #### Defined in
 
-main.ts:194334
+main.ts:194367
 
 ***
 
@@ -108,7 +108,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:194312
+main.ts:194345
 
 ***
 
@@ -121,7 +121,7 @@ contains URLs to the images used on the app page on App Store
 
 #### Defined in
 
-main.ts:194356
+main.ts:194389
 
 ***
 
@@ -133,7 +133,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:194320
+main.ts:194353
 
 ***
 
@@ -145,7 +145,7 @@ languages supported in the app
 
 #### Defined in
 
-main.ts:194326
+main.ts:194359
 
 ***
 
@@ -160,7 +160,7 @@ example:
 
 #### Defined in
 
-main.ts:194350
+main.ts:194383
 
 ***
 
@@ -172,7 +172,7 @@ main category/genre of the app
 
 #### Defined in
 
-main.ts:194322
+main.ts:194355
 
 ***
 
@@ -184,7 +184,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:194338
+main.ts:194371
 
 ***
 
@@ -197,7 +197,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:194362
+main.ts:194395
 
 ***
 
@@ -215,7 +215,7 @@ left, right
 
 #### Defined in
 
-main.ts:22068
+main.ts:22073
 
 ***
 
@@ -227,7 +227,7 @@ price of the app
 
 #### Defined in
 
-main.ts:194318
+main.ts:194351
 
 ***
 
@@ -244,7 +244,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22064
+main.ts:22069
 
 ***
 
@@ -261,7 +261,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22061
+main.ts:22066
 
 ***
 
@@ -277,7 +277,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:22072
+main.ts:22077
 
 ***
 
@@ -292,7 +292,7 @@ example:
 
 #### Defined in
 
-main.ts:194345
+main.ts:194378
 
 ***
 
@@ -304,7 +304,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:194316
+main.ts:194349
 
 ***
 
@@ -317,7 +317,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:194359
+main.ts:194392
 
 ***
 
@@ -329,7 +329,7 @@ size of the app
 
 #### Defined in
 
-main.ts:194340
+main.ts:194373
 
 ***
 
@@ -345,7 +345,7 @@ title of the app
 
 #### Defined in
 
-main.ts:22070
+main.ts:22075
 
 ***
 
@@ -361,7 +361,7 @@ type of element
 
 #### Defined in
 
-main.ts:22058
+main.ts:22063
 
 ***
 
@@ -374,7 +374,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:194353
+main.ts:194386
 
 ***
 
@@ -386,7 +386,7 @@ URL to the app page on App Store
 
 #### Defined in
 
-main.ts:194310
+main.ts:194343
 
 ***
 
@@ -398,4 +398,4 @@ current version of the app
 
 #### Defined in
 
-main.ts:194336
+main.ts:194369

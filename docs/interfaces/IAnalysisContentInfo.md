@@ -20,7 +20,7 @@ author of the content
 
 #### Defined in
 
-main.ts:166251
+main.ts:166284
 
 ***
 
@@ -38,7 +38,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:166271
+main.ts:166304
 
 ***
 
@@ -51,7 +51,7 @@ this value is calculated based on the number of words, sentences and characters 
 
 #### Defined in
 
-main.ts:166282
+main.ts:166315
 
 ***
 
@@ -65,7 +65,7 @@ page_content, comment
 
 #### Defined in
 
-main.ts:166240
+main.ts:166273
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:166279
+main.ts:166312
 
 ***
 
@@ -97,7 +97,7 @@ example:
 
 #### Defined in
 
-main.ts:166297
+main.ts:166330
 
 ***
 
@@ -109,7 +109,7 @@ highlighted text from the snippet
 
 #### Defined in
 
-main.ts:166260
+main.ts:166293
 
 ***
 
@@ -122,7 +122,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:166263
+main.ts:166296
 
 ***
 
@@ -135,7 +135,7 @@ indicates h-tag level from 1 (top) to 6 (bottom)
 
 #### Defined in
 
-main.ts:166249
+main.ts:166282
 
 ***
 
@@ -147,7 +147,7 @@ page title
 
 #### Defined in
 
-main.ts:166244
+main.ts:166277
 
 ***
 
@@ -159,7 +159,7 @@ title of the previous content block
 
 #### Defined in
 
-main.ts:166246
+main.ts:166279
 
 ***
 
@@ -172,7 +172,7 @@ rating related to content_info
 
 #### Defined in
 
-main.ts:166290
+main.ts:166323
 
 ***
 
@@ -187,7 +187,7 @@ article, header
 
 #### Defined in
 
-main.ts:166287
+main.ts:166320
 
 ***
 
@@ -205,7 +205,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-main.ts:166267
+main.ts:166300
 
 ***
 
@@ -217,7 +217,7 @@ content snippet
 
 #### Defined in
 
-main.ts:166253
+main.ts:166286
 
 ***
 
@@ -229,7 +229,7 @@ character length of the snippet
 
 #### Defined in
 
-main.ts:166255
+main.ts:166288
 
 ***
 
@@ -242,7 +242,7 @@ data on social media interactions associated with the content based on website e
 
 #### Defined in
 
-main.ts:166258
+main.ts:166291
 
 ***
 
@@ -255,7 +255,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:166274
+main.ts:166307
 
 ***
 
@@ -267,4 +267,4 @@ title of the result
 
 #### Defined in
 
-main.ts:166242
+main.ts:166275

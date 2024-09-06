@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:150382
+main.ts:150415
 
 ## Properties
 
@@ -57,7 +57,7 @@ example:
 
 #### Defined in
 
-main.ts:150372
+main.ts:150405
 
 ***
 
@@ -77,7 +77,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:150378
+main.ts:150411
 
 ***
 
@@ -110,7 +110,7 @@ example:
 
 #### Defined in
 
-main.ts:150359
+main.ts:150392
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:150359
 
 #### Defined in
 
-main.ts:150391
+main.ts:150424
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:150391
 
 #### Defined in
 
-main.ts:150414
+main.ts:150447
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:150414
 
 #### Defined in
 
-main.ts:150407
+main.ts:150440

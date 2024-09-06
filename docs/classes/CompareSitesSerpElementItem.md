@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:36124
+main.ts:36340
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`CompareSitesElement`](CompareSitesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:36116
+main.ts:36332
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36120
+main.ts:36336
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:36113
+main.ts:36330
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:36129
+main.ts:36345
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:36129
 
 #### Defined in
 
-main.ts:36153
+main.ts:36369
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:36153
 
 #### Defined in
 
-main.ts:36146
+main.ts:36362

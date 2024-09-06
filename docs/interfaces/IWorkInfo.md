@@ -21,4 +21,4 @@ information about work hours of the local establishment
 
 #### Defined in
 
-main.ts:198590
+main.ts:198623

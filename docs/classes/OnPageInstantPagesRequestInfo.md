@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:162742
+main.ts:162775
 
 ## Properties
 
@@ -49,7 +49,7 @@ Note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:162663
+main.ts:162696
 
 ***
 
@@ -80,7 +80,7 @@ Note: to use this parameter, set enable_javascript or enable_browser_rendering t
 
 #### Defined in
 
-main.ts:162635
+main.ts:162668
 
 ***
 
@@ -100,7 +100,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162647
+main.ts:162680
 
 ***
 
@@ -120,7 +120,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:162653
+main.ts:162686
 
 ***
 
@@ -140,7 +140,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:162641
+main.ts:162674
 
 ***
 
@@ -159,7 +159,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162722
+main.ts:162755
 
 ***
 
@@ -182,7 +182,7 @@ Note: only integer threshold values can be modified;
 
 #### Defined in
 
-main.ts:162727
+main.ts:162760
 
 ***
 
@@ -207,7 +207,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162712
+main.ts:162745
 
 ***
 
@@ -228,7 +228,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:162618
+main.ts:162651
 
 ***
 
@@ -248,7 +248,7 @@ false
 
 #### Defined in
 
-main.ts:162690
+main.ts:162723
 
 ***
 
@@ -271,7 +271,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162684
+main.ts:162717
 
 ***
 
@@ -291,7 +291,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162675
+main.ts:162708
 
 ***
 
@@ -311,7 +311,7 @@ falseif you use this field, enable_javascript must be set to true;
 
 #### Defined in
 
-main.ts:162701
+main.ts:162734
 
 ***
 
@@ -331,7 +331,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:162738
+main.ts:162771
 
 ***
 
@@ -351,7 +351,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:162669
+main.ts:162702
 
 ***
 
@@ -370,7 +370,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162695
+main.ts:162728
 
 ***
 
@@ -389,7 +389,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162658
+main.ts:162691
 
 ***
 
@@ -408,7 +408,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:162732
+main.ts:162765
 
 ***
 
@@ -429,7 +429,7 @@ to prevent this error from occurring, avoid setting tasks with the same domain i
 
 #### Defined in
 
-main.ts:162611
+main.ts:162644
 
 ***
 
@@ -448,7 +448,7 @@ default value: false
 
 #### Defined in
 
-main.ts:162717
+main.ts:162750
 
 ## Methods
 
@@ -466,7 +466,7 @@ main.ts:162717
 
 #### Defined in
 
-main.ts:162751
+main.ts:162784
 
 ***
 
@@ -484,7 +484,7 @@ main.ts:162751
 
 #### Defined in
 
-main.ts:162793
+main.ts:162826
 
 ***
 
@@ -502,4 +502,4 @@ main.ts:162793
 
 #### Defined in
 
-main.ts:162786
+main.ts:162819

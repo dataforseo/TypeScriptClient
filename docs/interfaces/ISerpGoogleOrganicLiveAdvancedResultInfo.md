@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:38322
+main.ts:38355
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:38327
+main.ts:38360
 
 ***
 
@@ -51,7 +51,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
 
 #### Defined in
 
-main.ts:38335
+main.ts:38368
 
 ***
 
@@ -64,7 +64,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:38342
+main.ts:38375
 
 ***
 
@@ -76,7 +76,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:38339
+main.ts:38372
 
 ***
 
@@ -89,7 +89,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:38311
+main.ts:38344
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:38319
+main.ts:38352
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:38317
+main.ts:38350
 
 ***
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:38315
+main.ts:38348
 
 ***
 
@@ -137,7 +137,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:38337
+main.ts:38370
 
 ***
 
@@ -150,7 +150,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:38330
+main.ts:38363
 
 ***
 
@@ -162,4 +162,4 @@ type of element
 
 #### Defined in
 
-main.ts:38313
+main.ts:38346

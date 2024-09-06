@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:34722
+main.ts:34947
 
 ## Properties
 
@@ -68,7 +68,7 @@ converted currency
 
 #### Defined in
 
-main.ts:34704
+main.ts:34929
 
 ***
 
@@ -86,7 +86,7 @@ note that exchange rates displayed in the currency_box element may be delayed ac
 
 #### Defined in
 
-main.ts:34699
+main.ts:34924
 
 ***
 
@@ -103,7 +103,7 @@ ISO code of the currency applied to the price
 
 #### Defined in
 
-main.ts:34702
+main.ts:34927
 
 ***
 
@@ -119,7 +119,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:34714
+main.ts:34939
 
 ***
 
@@ -202,7 +202,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34718
+main.ts:34943
 
 ***
 
@@ -219,7 +219,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34712
+main.ts:34937
 
 ***
 
@@ -238,7 +238,7 @@ example:
 
 #### Defined in
 
-main.ts:34709
+main.ts:34934
 
 ***
 
@@ -274,7 +274,7 @@ the value of the rating
 
 #### Defined in
 
-main.ts:34695
+main.ts:34920
 
 ***
 
@@ -316,7 +316,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:34727
+main.ts:34952
 
 ***
 
@@ -338,7 +338,7 @@ main.ts:34727
 
 #### Defined in
 
-main.ts:34752
+main.ts:34977
 
 ***
 
@@ -360,4 +360,4 @@ main.ts:34752
 
 #### Defined in
 
-main.ts:34745
+main.ts:34970

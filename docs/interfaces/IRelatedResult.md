@@ -22,7 +22,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:29719
+main.ts:29994
 
 ***
 
@@ -35,7 +35,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:29708
+main.ts:29983
 
 ***
 
@@ -47,7 +47,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:29691
+main.ts:29966
 
 ***
 
@@ -59,7 +59,7 @@ cached version of the page
 
 #### Defined in
 
-main.ts:29686
+main.ts:29961
 
 ***
 
@@ -71,7 +71,7 @@ description of the hotel booking element
 
 #### Defined in
 
-main.ts:29699
+main.ts:29974
 
 ***
 
@@ -83,7 +83,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29680
+main.ts:29955
 
 ***
 
@@ -95,7 +95,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:29703
+main.ts:29978
 
 ***
 
@@ -107,7 +107,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:29715
+main.ts:29990
 
 ***
 
@@ -119,7 +119,7 @@ images of the element
 
 #### Defined in
 
-main.ts:29705
+main.ts:29980
 
 ***
 
@@ -131,7 +131,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:29695
+main.ts:29970
 
 ***
 
@@ -143,7 +143,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:29697
+main.ts:29972
 
 ***
 
@@ -155,7 +155,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:29701
+main.ts:29976
 
 ***
 
@@ -167,7 +167,7 @@ price of booking a place for the specified dates of stay
 
 #### Defined in
 
-main.ts:29713
+main.ts:29988
 
 ***
 
@@ -180,7 +180,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:29711
+main.ts:29986
 
 ***
 
@@ -193,7 +193,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-main.ts:29689
+main.ts:29964
 
 ***
 
@@ -208,7 +208,7 @@ example:
 
 #### Defined in
 
-main.ts:29724
+main.ts:29999
 
 ***
 
@@ -220,7 +220,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29682
+main.ts:29957
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:29676
+main.ts:29951
 
 ***
 
@@ -240,11 +240,11 @@ main.ts:29676
 
 > `optional` **url**: `string`
 
-URL of element
+reference page URL
 
 #### Defined in
 
-main.ts:29684
+main.ts:29959
 
 ***
 
@@ -256,7 +256,7 @@ name of the website in SERP
 
 #### Defined in
 
-main.ts:29693
+main.ts:29968
 
 ***
 
@@ -268,4 +268,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:29678
+main.ts:29953

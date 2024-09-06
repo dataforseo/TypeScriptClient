@@ -20,7 +20,7 @@ the date when the page source of the element was published
 
 #### Defined in
 
-main.ts:35768
+main.ts:35987
 
 ***
 
@@ -32,7 +32,7 @@ description
 
 #### Defined in
 
-main.ts:35762
+main.ts:35981
 
 ***
 
@@ -44,7 +44,7 @@ website domain
 
 #### Defined in
 
-main.ts:35766
+main.ts:35985
 
 ***
 
@@ -57,7 +57,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:35771
+main.ts:35990
 
 ***
 
@@ -72,7 +72,7 @@ example:
 
 #### Defined in
 
-main.ts:35776
+main.ts:35995
 
 ***
 
@@ -84,7 +84,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35760
+main.ts:35979
 
 ***
 
@@ -96,7 +96,7 @@ type of element
 
 #### Defined in
 
-main.ts:35758
+main.ts:35977
 
 ***
 
@@ -108,4 +108,4 @@ URL
 
 #### Defined in
 
-main.ts:35764
+main.ts:35983

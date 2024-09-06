@@ -24,7 +24,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:27152
+main.ts:27157
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27166
+main.ts:27171
 
 ***
 
@@ -49,7 +49,7 @@ if there is none, equals null
 
 #### Defined in
 
-main.ts:27169
+main.ts:27174
 
 ***
 
@@ -57,11 +57,11 @@ main.ts:27169
 
 > `optional` **domain**: `string`
 
-website domain
+domain name of the reference
 
 #### Defined in
 
-main.ts:27150
+main.ts:27155
 
 ***
 
@@ -77,7 +77,7 @@ additional information about the result
 
 #### Defined in
 
-main.ts:27164
+main.ts:27169
 
 ***
 
@@ -89,7 +89,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:27162
+main.ts:27167
 
 ***
 
@@ -101,7 +101,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27158
+main.ts:27163
 
 ***
 
@@ -113,7 +113,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:27154
+main.ts:27159
 
 ***
 
@@ -125,7 +125,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:27156
+main.ts:27161
 
 ***
 
@@ -139,7 +139,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27173
+main.ts:27178
 
 ***
 
@@ -157,7 +157,7 @@ left, right
 
 #### Defined in
 
-main.ts:20721
+main.ts:20726
 
 ***
 
@@ -170,7 +170,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:27176
+main.ts:27181
 
 ***
 
@@ -187,7 +187,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20717
+main.ts:20722
 
 ***
 
@@ -205,7 +205,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20714
+main.ts:20719
 
 ***
 
@@ -219,7 +219,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27180
+main.ts:27185
 
 ***
 
@@ -231,7 +231,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27148
+main.ts:27153
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Defined in
 
-main.ts:20710
+main.ts:20715
 
 ***
 
@@ -259,7 +259,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:27160
+main.ts:27165
 
 ***
 
@@ -271,7 +271,7 @@ website name in SERP
 
 #### Defined in
 
-main.ts:27182
+main.ts:27187
 
 ***
 
@@ -287,4 +287,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20723
+main.ts:20728

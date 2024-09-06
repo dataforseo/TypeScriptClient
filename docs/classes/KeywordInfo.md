@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:82671
+main.ts:82704
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:82664
+main.ts:82697
 
 ***
 
@@ -64,7 +64,7 @@ represents the relative amount of competition associated with the given keyword.
 
 #### Defined in
 
-main.ts:82641
+main.ts:82674
 
 ***
 
@@ -84,7 +84,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:82647
+main.ts:82680
 
 ***
 
@@ -101,7 +101,7 @@ represents the average cost per click (USD) historically paid for the keyword
 
 #### Defined in
 
-main.ts:82650
+main.ts:82683
 
 ***
 
@@ -119,7 +119,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:82661
+main.ts:82694
 
 ***
 
@@ -138,7 +138,7 @@ example:
 
 #### Defined in
 
-main.ts:82638
+main.ts:82671
 
 ***
 
@@ -156,7 +156,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:82657
+main.ts:82690
 
 ***
 
@@ -173,7 +173,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
-main.ts:82667
+main.ts:82700
 
 ***
 
@@ -189,7 +189,7 @@ search engine type
 
 #### Defined in
 
-main.ts:82633
+main.ts:82666
 
 ***
 
@@ -206,7 +206,7 @@ represents the (approximate) number of searches for the given keyword idea on go
 
 #### Defined in
 
-main.ts:82653
+main.ts:82686
 
 ## Methods
 
@@ -224,7 +224,7 @@ main.ts:82653
 
 #### Defined in
 
-main.ts:82680
+main.ts:82713
 
 ***
 
@@ -242,7 +242,7 @@ main.ts:82680
 
 #### Defined in
 
-main.ts:82714
+main.ts:82747
 
 ***
 
@@ -260,4 +260,4 @@ main.ts:82714
 
 #### Defined in
 
-main.ts:82707
+main.ts:82740

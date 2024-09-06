@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:45921
+main.ts:45954
 
 ## Properties
 
@@ -46,7 +46,7 @@ date or date range as it is displayed in SERP
 
 #### Defined in
 
-main.ts:45917
+main.ts:45950
 
 ***
 
@@ -70,7 +70,7 @@ example:
 
 #### Defined in
 
-main.ts:45915
+main.ts:45948
 
 ***
 
@@ -94,7 +94,7 @@ example:
 
 #### Defined in
 
-main.ts:45905
+main.ts:45938
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:45905
 
 #### Defined in
 
-main.ts:45930
+main.ts:45963
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:45930
 
 #### Defined in
 
-main.ts:45949
+main.ts:45982
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:45949
 
 #### Defined in
 
-main.ts:45942
+main.ts:45975

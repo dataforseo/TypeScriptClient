@@ -26,7 +26,7 @@ kc:/shopping/gpc:organic-offers
 
 #### Defined in
 
-main.ts:97961
+main.ts:97994
 
 ***
 
@@ -38,7 +38,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:97963
+main.ts:97996
 
 ***
 
@@ -56,7 +56,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -73,7 +73,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -90,7 +90,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -102,7 +102,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:97957
+main.ts:97990
 
 ***
 
@@ -118,7 +118,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -134,4 +134,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

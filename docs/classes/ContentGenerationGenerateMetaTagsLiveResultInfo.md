@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:170338
+main.ts:170371
 
 ## Properties
 
@@ -46,7 +46,7 @@ generated description
 
 #### Defined in
 
-main.ts:170334
+main.ts:170367
 
 ***
 
@@ -62,7 +62,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:170326
+main.ts:170359
 
 ***
 
@@ -78,7 +78,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:170330
+main.ts:170363
 
 ***
 
@@ -94,7 +94,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:170328
+main.ts:170361
 
 ***
 
@@ -110,7 +110,7 @@ generated title
 
 #### Defined in
 
-main.ts:170332
+main.ts:170365
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:170332
 
 #### Defined in
 
-main.ts:170347
+main.ts:170380
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:170347
 
 #### Defined in
 
-main.ts:170368
+main.ts:170401
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:170368
 
 #### Defined in
 
-main.ts:170361
+main.ts:170394

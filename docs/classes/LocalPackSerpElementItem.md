@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:31094
+main.ts:31355
 
 ## Properties
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:31086
+main.ts:31347
 
 ***
 
@@ -84,7 +84,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31073
+main.ts:31334
 
 ***
 
@@ -100,7 +100,7 @@ source domain
 
 #### Defined in
 
-main.ts:31075
+main.ts:31336
 
 ***
 
@@ -116,7 +116,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:31081
+main.ts:31342
 
 ***
 
@@ -132,7 +132,7 @@ phone number
 
 #### Defined in
 
-main.ts:31077
+main.ts:31338
 
 ***
 
@@ -214,7 +214,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31084
+main.ts:31345
 
 ***
 
@@ -232,7 +232,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31090
+main.ts:31351
 
 ***
 
@@ -248,7 +248,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31071
+main.ts:31332
 
 ***
 
@@ -284,7 +284,7 @@ source URL
 
 #### Defined in
 
-main.ts:31079
+main.ts:31340
 
 ***
 
@@ -326,7 +326,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:31099
+main.ts:31360
 
 ***
 
@@ -348,7 +348,7 @@ main.ts:31099
 
 #### Defined in
 
-main.ts:31125
+main.ts:31386
 
 ***
 
@@ -370,4 +370,4 @@ main.ts:31125
 
 #### Defined in
 
-main.ts:31118
+main.ts:31379

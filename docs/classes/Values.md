@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:126080
+main.ts:126113
 
 ## Properties
 
@@ -50,7 +50,7 @@ US-NY
 
 #### Defined in
 
-main.ts:126062
+main.ts:126095
 
 ***
 
@@ -70,7 +70,7 @@ Andorra
 
 #### Defined in
 
-main.ts:126068
+main.ts:126101
 
 ***
 
@@ -92,7 +92,7 @@ a value of 0 means there was not enough data for this term
 
 #### Defined in
 
-main.ts:126076
+main.ts:126109
 
 ## Methods
 
@@ -110,7 +110,7 @@ main.ts:126076
 
 #### Defined in
 
-main.ts:126089
+main.ts:126122
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:126089
 
 #### Defined in
 
-main.ts:126108
+main.ts:126141
 
 ***
 
@@ -146,4 +146,4 @@ main.ts:126108
 
 #### Defined in
 
-main.ts:126101
+main.ts:126134

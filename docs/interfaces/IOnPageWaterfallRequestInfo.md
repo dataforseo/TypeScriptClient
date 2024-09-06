@@ -24,7 +24,7 @@ example:
 
 #### Defined in
 
-main.ts:159019
+main.ts:159052
 
 ***
 
@@ -40,7 +40,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:159029
+main.ts:159062
 
 ***
 
@@ -54,4 +54,4 @@ specify the pages you want to receive timing for
 
 #### Defined in
 
-main.ts:159023
+main.ts:159056

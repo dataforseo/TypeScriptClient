@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:185060
+main.ts:185093
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:185060
 
 #### Defined in
 
-main.ts:22315
+main.ts:22320
 
 ***
 
@@ -69,7 +69,7 @@ number of users who clicked on the ‘Helpful” button under the review text
 
 #### Defined in
 
-main.ts:185037
+main.ts:185070
 
 ***
 
@@ -85,7 +85,7 @@ images of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:185039
+main.ts:185072
 
 ***
 
@@ -102,7 +102,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:185030
+main.ts:185063
 
 ***
 
@@ -121,7 +121,7 @@ example:
 
 #### Defined in
 
-main.ts:185054
+main.ts:185087
 
 ***
 
@@ -142,7 +142,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22311
+main.ts:22316
 
 ***
 
@@ -163,7 +163,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22308
+main.ts:22313
 
 ***
 
@@ -179,7 +179,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:185056
+main.ts:185089
 
 ***
 
@@ -195,7 +195,7 @@ content of the review
 
 #### Defined in
 
-main.ts:185049
+main.ts:185082
 
 ***
 
@@ -211,7 +211,7 @@ subtitle of the review
 
 #### Defined in
 
-main.ts:185034
+main.ts:185067
 
 ***
 
@@ -227,7 +227,7 @@ title of the review
 
 #### Defined in
 
-main.ts:185045
+main.ts:185078
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Defined in
 
-main.ts:22305
+main.ts:22310
 
 ***
 
@@ -263,7 +263,7 @@ URL to the review
 
 #### Defined in
 
-main.ts:185047
+main.ts:185080
 
 ***
 
@@ -279,7 +279,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:185043
+main.ts:185076
 
 ***
 
@@ -295,7 +295,7 @@ indicates whether the review has the “Verified Purchase” mark
 
 #### Defined in
 
-main.ts:185032
+main.ts:185065
 
 ***
 
@@ -311,7 +311,7 @@ videos of the product submitted by the reviewer
 
 #### Defined in
 
-main.ts:185041
+main.ts:185074
 
 ***
 
@@ -331,7 +331,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22313
+main.ts:22318
 
 ## Methods
 
@@ -353,7 +353,7 @@ main.ts:22313
 
 #### Defined in
 
-main.ts:185065
+main.ts:185098
 
 ***
 
@@ -375,7 +375,7 @@ main.ts:185065
 
 #### Defined in
 
-main.ts:185102
+main.ts:185135
 
 ***
 
@@ -397,4 +397,4 @@ main.ts:185102
 
 #### Defined in
 
-main.ts:185095
+main.ts:185128

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:130456
+main.ts:130489
 
 ## Properties
 
@@ -52,7 +52,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:130425
+main.ts:130458
 
 ***
 
@@ -77,7 +77,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:130436
+main.ts:130469
 
 ***
 
@@ -96,7 +96,7 @@ default value: all
 
 #### Defined in
 
-main.ts:130417
+main.ts:130450
 
 ***
 
@@ -116,7 +116,7 @@ the specified keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:130412
+main.ts:130445
 
 ***
 
@@ -136,7 +136,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:130406
+main.ts:130439
 
 ***
 
@@ -156,7 +156,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:130400
+main.ts:130433
 
 ***
 
@@ -177,7 +177,7 @@ example:
 
 #### Defined in
 
-main.ts:130386
+main.ts:130419
 
 ***
 
@@ -199,7 +199,7 @@ example:
 
 #### Defined in
 
-main.ts:130394
+main.ts:130427
 
 ***
 
@@ -220,7 +220,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:130379
+main.ts:130412
 
 ***
 
@@ -239,7 +239,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:130446
+main.ts:130479
 
 ***
 
@@ -258,7 +258,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:130441
+main.ts:130474
 
 ***
 
@@ -278,7 +278,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:130452
+main.ts:130485
 
 ***
 
@@ -296,7 +296,7 @@ the domain name or URL of the target website
 
 #### Defined in
 
-main.ts:130372
+main.ts:130405
 
 ## Methods
 
@@ -314,7 +314,7 @@ main.ts:130372
 
 #### Defined in
 
-main.ts:130465
+main.ts:130498
 
 ***
 
@@ -332,7 +332,7 @@ main.ts:130465
 
 #### Defined in
 
-main.ts:130498
+main.ts:130531
 
 ***
 
@@ -350,4 +350,4 @@ main.ts:130498
 
 #### Defined in
 
-main.ts:130491
+main.ts:130524

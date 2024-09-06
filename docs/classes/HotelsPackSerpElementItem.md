@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:33832
+main.ts:34066
 
 ## Properties
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:33816
+main.ts:34051
 
 ***
 
@@ -90,7 +90,7 @@ example:
 
 #### Defined in
 
-main.ts:33821
+main.ts:34056
 
 ***
 
@@ -98,8 +98,7 @@ main.ts:33821
 
 > `optional` **items**: [`HotelsPackElement`](HotelsPackElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -107,7 +106,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33824
+main.ts:34058
 
 ***
 
@@ -190,7 +189,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33828
+main.ts:34062
 
 ***
 
@@ -206,7 +205,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33811
+main.ts:34046
 
 ***
 
@@ -268,7 +267,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:33837
+main.ts:34071
 
 ***
 
@@ -290,7 +289,7 @@ main.ts:33837
 
 #### Defined in
 
-main.ts:33863
+main.ts:34097
 
 ***
 
@@ -312,4 +311,4 @@ main.ts:33863
 
 #### Defined in
 
-main.ts:33856
+main.ts:34090

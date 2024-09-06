@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:207639
+main.ts:207672
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:207621
+main.ts:207654
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:207603
+main.ts:207636
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:207610
+main.ts:207643
 
 ***
 
@@ -114,7 +114,7 @@ set the following value if you want to include one 13-years-old child and one 8-
 
 #### Defined in
 
-main.ts:207629
+main.ts:207662
 
 ***
 
@@ -133,7 +133,7 @@ example:
 
 #### Defined in
 
-main.ts:207615
+main.ts:207648
 
 ***
 
@@ -154,7 +154,7 @@ ChYIq6SB--i6p6cpGgovbS8wN2s5ODZfEAE
 
 #### Defined in
 
-main.ts:207551
+main.ts:207584
 
 ***
 
@@ -175,7 +175,7 @@ en
 
 #### Defined in
 
-main.ts:207596
+main.ts:207629
 
 ***
 
@@ -196,7 +196,7 @@ English
 
 #### Defined in
 
-main.ts:207589
+main.ts:207622
 
 ***
 
@@ -217,7 +217,7 @@ example:
 
 #### Defined in
 
-main.ts:207573
+main.ts:207606
 
 ***
 
@@ -240,7 +240,7 @@ example:
 
 #### Defined in
 
-main.ts:207582
+main.ts:207615
 
 ***
 
@@ -261,7 +261,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:207566
+main.ts:207599
 
 ***
 
@@ -283,7 +283,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:207559
+main.ts:207592
 
 ***
 
@@ -303,7 +303,7 @@ you will find the specified tag value in the data array of the response
 
 #### Defined in
 
-main.ts:207635
+main.ts:207668
 
 ## Methods
 
@@ -321,7 +321,7 @@ main.ts:207635
 
 #### Defined in
 
-main.ts:207648
+main.ts:207681
 
 ***
 
@@ -339,7 +339,7 @@ main.ts:207648
 
 #### Defined in
 
-main.ts:207681
+main.ts:207714
 
 ***
 
@@ -357,4 +357,4 @@ main.ts:207681
 
 #### Defined in
 
-main.ts:207674
+main.ts:207707

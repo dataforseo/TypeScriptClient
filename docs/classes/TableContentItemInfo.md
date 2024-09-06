@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:161502
+main.ts:161535
 
 ## Properties
 
@@ -46,7 +46,7 @@ content of the row cells of the header
 
 #### Defined in
 
-main.ts:161498
+main.ts:161531
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:161498
 
 #### Defined in
 
-main.ts:161511
+main.ts:161544
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:161511
 
 #### Defined in
 
-main.ts:161532
+main.ts:161565
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:161532
 
 #### Defined in
 
-main.ts:161525
+main.ts:161558

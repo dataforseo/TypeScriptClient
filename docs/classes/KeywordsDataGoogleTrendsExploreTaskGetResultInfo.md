@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:123764
+main.ts:123797
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:123751
+main.ts:123784
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:123756
+main.ts:123789
 
 ***
 
@@ -82,7 +82,7 @@ items on the Google Trends page
 
 #### Defined in
 
-main.ts:123760
+main.ts:123793
 
 ***
 
@@ -98,7 +98,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:123758
+main.ts:123791
 
 ***
 
@@ -114,7 +114,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:123740
+main.ts:123773
 
 ***
 
@@ -131,7 +131,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:123748
+main.ts:123781
 
 ***
 
@@ -148,7 +148,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:123745
+main.ts:123778
 
 ***
 
@@ -164,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:123742
+main.ts:123775
 
 ## Methods
 
@@ -182,7 +182,7 @@ main.ts:123742
 
 #### Defined in
 
-main.ts:123773
+main.ts:123806
 
 ***
 
@@ -200,7 +200,7 @@ main.ts:123773
 
 #### Defined in
 
-main.ts:123805
+main.ts:123838
 
 ***
 
@@ -218,4 +218,4 @@ main.ts:123805
 
 #### Defined in
 
-main.ts:123798
+main.ts:123831

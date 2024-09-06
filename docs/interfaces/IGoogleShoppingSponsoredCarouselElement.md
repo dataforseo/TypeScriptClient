@@ -22,7 +22,7 @@ USD
 
 #### Defined in
 
-main.ts:174895
+main.ts:174928
 
 ***
 
@@ -35,7 +35,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:174907
+main.ts:174940
 
 ***
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:174891
+main.ts:174924
 
 ***
 
@@ -62,7 +62,7 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-main.ts:174901
+main.ts:174934
 
 ***
 
@@ -75,7 +75,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:174898
+main.ts:174931
 
 ***
 
@@ -88,7 +88,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:174887
+main.ts:174920
 
 ***
 
@@ -101,7 +101,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:174904
+main.ts:174937
 
 ***
 
@@ -113,7 +113,7 @@ tags assigned to the product
 
 #### Defined in
 
-main.ts:174884
+main.ts:174917
 
 ***
 
@@ -125,7 +125,7 @@ product title
 
 #### Defined in
 
-main.ts:174882
+main.ts:174915
 
 ***
 
@@ -137,7 +137,7 @@ type of element
 
 #### Defined in
 
-main.ts:174878
+main.ts:174911
 
 ***
 
@@ -149,4 +149,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174880
+main.ts:174913

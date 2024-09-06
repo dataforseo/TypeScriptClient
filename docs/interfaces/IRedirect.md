@@ -20,7 +20,7 @@ HTTP status code of the URL
 
 #### Defined in
 
-main.ts:140551
+main.ts:140584
 
 ***
 
@@ -32,7 +32,7 @@ type of element
 
 #### Defined in
 
-main.ts:140549
+main.ts:140582
 
 ***
 
@@ -44,4 +44,4 @@ indirect link URL
 
 #### Defined in
 
-main.ts:140553
+main.ts:140586

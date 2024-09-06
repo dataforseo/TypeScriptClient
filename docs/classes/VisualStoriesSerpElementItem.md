@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:33986
+main.ts:34218
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`LicensesElement`](LicensesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33978
+main.ts:34210
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33982
+main.ts:34214
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:33991
+main.ts:34223
 
 ***
 
@@ -236,7 +235,7 @@ main.ts:33991
 
 #### Defined in
 
-main.ts:34014
+main.ts:34246
 
 ***
 
@@ -258,4 +257,4 @@ main.ts:34014
 
 #### Defined in
 
-main.ts:34007
+main.ts:34239

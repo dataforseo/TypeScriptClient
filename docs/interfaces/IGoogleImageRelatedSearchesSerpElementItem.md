@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:47843
+main.ts:47876
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Defined in
 
-main.ts:47841
+main.ts:47874
 
 ***
 
@@ -55,7 +55,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47611
+main.ts:47644
 
 ***
 
@@ -73,7 +73,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47608
+main.ts:47641
 
 ***
 
@@ -87,7 +87,7 @@ note: calculate_rectangles parameter is not yet available when setting tasks for
 
 #### Defined in
 
-main.ts:47847
+main.ts:47880
 
 ***
 
@@ -103,7 +103,7 @@ type of element
 
 #### Defined in
 
-main.ts:47604
+main.ts:47637
 
 ***
 
@@ -119,4 +119,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47613
+main.ts:47646

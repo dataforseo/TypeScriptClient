@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:105265
+main.ts:105298
 
 ## Properties
 
@@ -50,7 +50,7 @@ data on the intersection
 
 #### Defined in
 
-main.ts:105261
+main.ts:105294
 
 ***
 
@@ -66,7 +66,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:105259
+main.ts:105292
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:105257
+main.ts:105290
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:105257
 
 #### Defined in
 
-main.ts:105274
+main.ts:105307
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:105274
 
 #### Defined in
 
-main.ts:105299
+main.ts:105332
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:105299
 
 #### Defined in
 
-main.ts:105292
+main.ts:105325

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:214358
+main.ts:214391
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:214327
+main.ts:214360
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:214332
+main.ts:214365
 
 ***
 
@@ -83,7 +83,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:214352
+main.ts:214385
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:214349
+main.ts:214382
 
 ***
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:214354
+main.ts:214387
 
 ***
 
@@ -133,7 +133,7 @@ address of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:214338
+main.ts:214371
 
 ***
 
@@ -150,7 +150,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:214343
+main.ts:214376
 
 ***
 
@@ -171,7 +171,7 @@ the distribution of votes across the rating in the range from 1 to 5
 
 #### Defined in
 
-main.ts:214346
+main.ts:214379
 
 ***
 
@@ -187,7 +187,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:214340
+main.ts:214373
 
 ***
 
@@ -203,7 +203,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:214324
+main.ts:214357
 
 ***
 
@@ -220,7 +220,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:214335
+main.ts:214368
 
 ***
 
@@ -236,7 +236,7 @@ type of element
 
 #### Defined in
 
-main.ts:214322
+main.ts:214355
 
 ***
 
@@ -252,7 +252,7 @@ URL path received in a POST array
 
 #### Defined in
 
-main.ts:214320
+main.ts:214353
 
 ## Methods
 
@@ -270,7 +270,7 @@ main.ts:214320
 
 #### Defined in
 
-main.ts:214367
+main.ts:214400
 
 ***
 
@@ -288,7 +288,7 @@ main.ts:214367
 
 #### Defined in
 
-main.ts:214406
+main.ts:214439
 
 ***
 
@@ -306,4 +306,4 @@ main.ts:214406
 
 #### Defined in
 
-main.ts:214399
+main.ts:214432

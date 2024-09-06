@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:189700
+main.ts:189733
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:189700
 
 #### Defined in
 
-main.ts:21983
+main.ts:21988
 
 ***
 
@@ -68,7 +68,7 @@ ID of the app
 
 #### Defined in
 
-main.ts:189627
+main.ts:189660
 
 ***
 
@@ -84,7 +84,7 @@ description of the app
 
 #### Defined in
 
-main.ts:189633
+main.ts:189666
 
 ***
 
@@ -100,7 +100,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:189649
+main.ts:189682
 
 ***
 
@@ -116,7 +116,7 @@ physical address of the developer
 
 #### Defined in
 
-main.ts:189657
+main.ts:189690
 
 ***
 
@@ -132,7 +132,7 @@ email address of the developer
 
 #### Defined in
 
-main.ts:189655
+main.ts:189688
 
 ***
 
@@ -148,7 +148,7 @@ ID of the app developer
 
 #### Defined in
 
-main.ts:189651
+main.ts:189684
 
 ***
 
@@ -164,7 +164,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:189653
+main.ts:189686
 
 ***
 
@@ -180,7 +180,7 @@ official website of the developer
 
 #### Defined in
 
-main.ts:189659
+main.ts:189692
 
 ***
 
@@ -197,7 +197,7 @@ contains relevant app categories
 
 #### Defined in
 
-main.ts:189693
+main.ts:189726
 
 ***
 
@@ -213,7 +213,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:189631
+main.ts:189664
 
 ***
 
@@ -230,7 +230,7 @@ contains URLs to the images published on the app page on Google Play
 
 #### Defined in
 
-main.ts:189681
+main.ts:189714
 
 ***
 
@@ -247,7 +247,7 @@ approximate number of installs as displayed on the app page
 
 #### Defined in
 
-main.ts:189644
+main.ts:189677
 
 ***
 
@@ -264,7 +264,7 @@ the exact number of installs of the app
 
 #### Defined in
 
-main.ts:189647
+main.ts:189680
 
 ***
 
@@ -280,7 +280,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:189639
+main.ts:189672
 
 ***
 
@@ -299,7 +299,7 @@ example:
 
 #### Defined in
 
-main.ts:189675
+main.ts:189708
 
 ***
 
@@ -315,7 +315,7 @@ main category of the app
 
 #### Defined in
 
-main.ts:189641
+main.ts:189674
 
 ***
 
@@ -331,7 +331,7 @@ minimum OS version required to install the app
 
 #### Defined in
 
-main.ts:189663
+main.ts:189696
 
 ***
 
@@ -348,7 +348,7 @@ information about apps built by the same developer
 
 #### Defined in
 
-main.ts:189690
+main.ts:189723
 
 ***
 
@@ -370,7 +370,7 @@ left, right
 
 #### Defined in
 
-main.ts:21977
+main.ts:21982
 
 ***
 
@@ -386,7 +386,7 @@ price of the app
 
 #### Defined in
 
-main.ts:189637
+main.ts:189670
 
 ***
 
@@ -407,7 +407,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21973
+main.ts:21978
 
 ***
 
@@ -428,7 +428,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21970
+main.ts:21975
 
 ***
 
@@ -448,7 +448,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21981
+main.ts:21986
 
 ***
 
@@ -467,7 +467,7 @@ example:
 
 #### Defined in
 
-main.ts:189670
+main.ts:189703
 
 ***
 
@@ -483,7 +483,7 @@ the total number of reviews the app has
 
 #### Defined in
 
-main.ts:189635
+main.ts:189668
 
 ***
 
@@ -500,7 +500,7 @@ displays apps similar to the app in a POST request
 
 #### Defined in
 
-main.ts:189687
+main.ts:189720
 
 ***
 
@@ -516,7 +516,7 @@ size of the app
 
 #### Defined in
 
-main.ts:189665
+main.ts:189698
 
 ***
 
@@ -533,7 +533,7 @@ contains relevant app tags
 
 #### Defined in
 
-main.ts:189696
+main.ts:189729
 
 ***
 
@@ -553,7 +553,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21979
+main.ts:21984
 
 ***
 
@@ -573,7 +573,7 @@ type of element
 
 #### Defined in
 
-main.ts:21967
+main.ts:21972
 
 ***
 
@@ -590,7 +590,7 @@ contains the latest update notes from the developer
 
 #### Defined in
 
-main.ts:189678
+main.ts:189711
 
 ***
 
@@ -606,7 +606,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:189629
+main.ts:189662
 
 ***
 
@@ -622,7 +622,7 @@ current version of the app
 
 #### Defined in
 
-main.ts:189661
+main.ts:189694
 
 ***
 
@@ -639,7 +639,7 @@ contains URLs to the video published on the app page on Google Play
 
 #### Defined in
 
-main.ts:189684
+main.ts:189717
 
 ## Methods
 
@@ -661,7 +661,7 @@ main.ts:189684
 
 #### Defined in
 
-main.ts:189705
+main.ts:189738
 
 ***
 
@@ -683,7 +683,7 @@ main.ts:189705
 
 #### Defined in
 
-main.ts:189774
+main.ts:189807
 
 ***
 
@@ -705,4 +705,4 @@ main.ts:189774
 
 #### Defined in
 
-main.ts:189767
+main.ts:189800

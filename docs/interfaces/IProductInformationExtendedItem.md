@@ -24,7 +24,7 @@ contains information specified about the product within the section_name
 
 #### Defined in
 
-main.ts:182266
+main.ts:182299
 
 ***
 
@@ -40,7 +40,7 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-main.ts:23408
+main.ts:23413
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:23406
+main.ts:23411

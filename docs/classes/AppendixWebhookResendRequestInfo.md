@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:223983
+main.ts:224016
 
 ## Properties
 
@@ -49,7 +49,7 @@ each identifier in the task array must be specified as a separate object
 
 #### Defined in
 
-main.ts:223979
+main.ts:224012
 
 ## Methods
 
@@ -67,7 +67,7 @@ main.ts:223979
 
 #### Defined in
 
-main.ts:223992
+main.ts:224025
 
 ***
 
@@ -85,7 +85,7 @@ main.ts:223992
 
 #### Defined in
 
-main.ts:224009
+main.ts:224042
 
 ***
 
@@ -103,4 +103,4 @@ main.ts:224009
 
 #### Defined in
 
-main.ts:224002
+main.ts:224035

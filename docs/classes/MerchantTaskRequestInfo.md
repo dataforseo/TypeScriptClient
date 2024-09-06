@@ -34,7 +34,7 @@
 
 #### Defined in
 
-main.ts:152949
+main.ts:152982
 
 ## Properties
 
@@ -57,7 +57,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:152876
+main.ts:152909
 
 ***
 
@@ -78,7 +78,7 @@ if you need to use the “%” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:152809
+main.ts:152842
 
 ***
 
@@ -99,7 +99,7 @@ en
 
 #### Defined in
 
-main.ts:152860
+main.ts:152893
 
 ***
 
@@ -120,7 +120,7 @@ English
 
 #### Defined in
 
-main.ts:152853
+main.ts:152886
 
 ***
 
@@ -141,7 +141,7 @@ example:
 
 #### Defined in
 
-main.ts:152837
+main.ts:152870
 
 ***
 
@@ -164,7 +164,7 @@ example:
 
 #### Defined in
 
-main.ts:152846
+main.ts:152879
 
 ***
 
@@ -185,7 +185,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:152830
+main.ts:152863
 
 ***
 
@@ -206,7 +206,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:152883
+main.ts:152916
 
 ***
 
@@ -230,7 +230,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:152945
+main.ts:152978
 
 ***
 
@@ -250,7 +250,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:152935
+main.ts:152968
 
 ***
 
@@ -274,7 +274,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:152929
+main.ts:152962
 
 ***
 
@@ -294,7 +294,7 @@ example:
 
 #### Defined in
 
-main.ts:152906
+main.ts:152939
 
 ***
 
@@ -314,7 +314,7 @@ example:
 
 #### Defined in
 
-main.ts:152900
+main.ts:152933
 
 ***
 
@@ -336,7 +336,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:152823
+main.ts:152856
 
 ***
 
@@ -357,7 +357,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:152867
+main.ts:152900
 
 ***
 
@@ -382,7 +382,7 @@ example:
 
 #### Defined in
 
-main.ts:152894
+main.ts:152927
 
 ***
 
@@ -403,7 +403,7 @@ sort_by:"review_score"
 
 #### Defined in
 
-main.ts:152913
+main.ts:152946
 
 ***
 
@@ -423,7 +423,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:152919
+main.ts:152952
 
 ***
 
@@ -443,7 +443,7 @@ https://www.google.com/search?q=iphone&num=100&tbm=shop&ie=UTF-8&oe=UTF-8&tbs=vw
 
 #### Defined in
 
-main.ts:152815
+main.ts:152848
 
 ## Methods
 
@@ -461,7 +461,7 @@ main.ts:152815
 
 #### Defined in
 
-main.ts:152958
+main.ts:152991
 
 ***
 
@@ -479,7 +479,7 @@ main.ts:152958
 
 #### Defined in
 
-main.ts:152993
+main.ts:153026
 
 ***
 
@@ -497,4 +497,4 @@ main.ts:152993
 
 #### Defined in
 
-main.ts:152986
+main.ts:153019

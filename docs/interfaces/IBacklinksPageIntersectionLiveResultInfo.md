@@ -20,7 +20,7 @@ contains relevant backlinks and referring domains data
 
 #### Defined in
 
-main.ts:147873
+main.ts:147906
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:147871
+main.ts:147904
 
 ***
 
@@ -48,7 +48,7 @@ targets from a POST array
 
 #### Defined in
 
-main.ts:147867
+main.ts:147900
 
 ***
 
@@ -60,4 +60,4 @@ total amount of results relevant the request
 
 #### Defined in
 
-main.ts:147869
+main.ts:147902

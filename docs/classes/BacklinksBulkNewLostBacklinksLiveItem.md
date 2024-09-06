@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:150486
+main.ts:150519
 
 ## Properties
 
@@ -47,7 +47,7 @@ number of lost backlinks of the target
 
 #### Defined in
 
-main.ts:150482
+main.ts:150515
 
 ***
 
@@ -64,7 +64,7 @@ number of new backlinks pointing to the target
 
 #### Defined in
 
-main.ts:150479
+main.ts:150512
 
 ***
 
@@ -80,7 +80,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:150476
+main.ts:150509
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:150476
 
 #### Defined in
 
-main.ts:150495
+main.ts:150528
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:150495
 
 #### Defined in
 
-main.ts:150514
+main.ts:150547
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:150514
 
 #### Defined in
 
-main.ts:150507
+main.ts:150540

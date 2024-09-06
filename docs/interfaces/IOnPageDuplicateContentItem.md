@@ -20,7 +20,7 @@ pages with duplicate content
 
 #### Defined in
 
-main.ts:157369
+main.ts:157402
 
 ***
 
@@ -32,7 +32,7 @@ total count of duplicate pages
 
 #### Defined in
 
-main.ts:157367
+main.ts:157400
 
 ***
 
@@ -44,4 +44,4 @@ URL of the specified page
 
 #### Defined in
 
-main.ts:157365
+main.ts:157398

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30875
+main.ts:31138
 
 ## Properties
 
@@ -135,7 +135,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30871
+main.ts:31134
 
 ***
 
@@ -151,7 +151,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30865
+main.ts:31128
 
 ***
 
@@ -187,7 +187,7 @@ source URL
 
 #### Defined in
 
-main.ts:30867
+main.ts:31130
 
 ***
 
@@ -229,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:30880
+main.ts:31143
 
 ***
 
@@ -251,7 +251,7 @@ main.ts:30880
 
 #### Defined in
 
-main.ts:30900
+main.ts:31163
 
 ***
 
@@ -273,4 +273,4 @@ main.ts:30900
 
 #### Defined in
 
-main.ts:30893
+main.ts:31156

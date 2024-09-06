@@ -20,7 +20,7 @@ standardised category of the ammenity
 
 #### Defined in
 
-main.ts:205669
+main.ts:205702
 
 ***
 
@@ -32,7 +32,7 @@ label of the category
 
 #### Defined in
 
-main.ts:205671
+main.ts:205704
 
 ***
 
@@ -44,4 +44,4 @@ specific amenities and details
 
 #### Defined in
 
-main.ts:205673
+main.ts:205706

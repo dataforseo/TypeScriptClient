@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:158972
+main.ts:159005
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:158958
+main.ts:158991
 
 ***
 
@@ -70,7 +70,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:158968
+main.ts:159001
 
 ***
 
@@ -88,7 +88,7 @@ specify the pages you want to receive timing for
 
 #### Defined in
 
-main.ts:158962
+main.ts:158995
 
 ## Methods
 
@@ -106,7 +106,7 @@ main.ts:158962
 
 #### Defined in
 
-main.ts:158981
+main.ts:159014
 
 ***
 
@@ -124,7 +124,7 @@ main.ts:158981
 
 #### Defined in
 
-main.ts:159000
+main.ts:159033
 
 ***
 
@@ -142,4 +142,4 @@ main.ts:159000
 
 #### Defined in
 
-main.ts:158993
+main.ts:159026

@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:208834
+main.ts:208867
 
 ***
 
@@ -35,7 +35,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208858
+main.ts:208891
 
 ***
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:208839
+main.ts:208872
 
 ***
 
@@ -63,7 +63,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208851
+main.ts:208884
 
 ***
 
@@ -76,7 +76,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:208866
+main.ts:208899
 
 ***
 
@@ -89,7 +89,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:208863
+main.ts:208896
 
 ***
 
@@ -102,7 +102,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:208823
+main.ts:208856
 
 ***
 
@@ -114,7 +114,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:208831
+main.ts:208864
 
 ***
 
@@ -126,7 +126,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:208829
+main.ts:208862
 
 ***
 
@@ -139,7 +139,7 @@ learn more about the identifier in this help center article
 
 #### Defined in
 
-main.ts:208854
+main.ts:208887
 
 ***
 
@@ -152,7 +152,7 @@ popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:208848
+main.ts:208881
 
 ***
 
@@ -164,7 +164,7 @@ the total number of reviews
 
 #### Defined in
 
-main.ts:208860
+main.ts:208893
 
 ***
 
@@ -176,7 +176,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:208827
+main.ts:208860
 
 ***
 
@@ -189,7 +189,7 @@ additional information (e.g., address) on the ‘reviews’ element for which th
 
 #### Defined in
 
-main.ts:208845
+main.ts:208878
 
 ***
 
@@ -202,7 +202,7 @@ the name of the local establishment for which the reviews are collected
 
 #### Defined in
 
-main.ts:208842
+main.ts:208875
 
 ***
 
@@ -214,4 +214,4 @@ type of element
 
 #### Defined in
 
-main.ts:208825
+main.ts:208858

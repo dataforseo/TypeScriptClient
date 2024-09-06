@@ -20,7 +20,7 @@ bit rate of the video
 
 #### Defined in
 
-main.ts:62235
+main.ts:62268
 
 ***
 
@@ -32,7 +32,7 @@ frame rate of the video
 
 #### Defined in
 
-main.ts:62239
+main.ts:62272
 
 ***
 
@@ -44,7 +44,7 @@ video height in pixels
 
 #### Defined in
 
-main.ts:62233
+main.ts:62266
 
 ***
 
@@ -56,7 +56,7 @@ label of the quality element
 
 #### Defined in
 
-main.ts:62229
+main.ts:62262
 
 ***
 
@@ -68,7 +68,7 @@ media type of the video
 
 #### Defined in
 
-main.ts:62237
+main.ts:62270
 
 ***
 
@@ -80,7 +80,7 @@ type of element
 
 #### Defined in
 
-main.ts:62227
+main.ts:62260
 
 ***
 
@@ -92,4 +92,4 @@ video width in pixels
 
 #### Defined in
 
-main.ts:62231
+main.ts:62264

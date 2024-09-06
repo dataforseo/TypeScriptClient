@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:112121
+main.ts:112154
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:112121
 
 #### Defined in
 
-main.ts:21983
+main.ts:21988
 
 ***
 
@@ -68,7 +68,7 @@ id of the app
 
 #### Defined in
 
-main.ts:112103
+main.ts:112136
 
 ***
 
@@ -84,7 +84,7 @@ name of the app developer
 
 #### Defined in
 
-main.ts:112115
+main.ts:112148
 
 ***
 
@@ -100,7 +100,7 @@ URL to the developer page on Google Play
 
 #### Defined in
 
-main.ts:112117
+main.ts:112150
 
 ***
 
@@ -116,7 +116,7 @@ URL to the app icon
 
 #### Defined in
 
-main.ts:112107
+main.ts:112140
 
 ***
 
@@ -132,7 +132,7 @@ indicates whether the app is free
 
 #### Defined in
 
-main.ts:112111
+main.ts:112144
 
 ***
 
@@ -154,7 +154,7 @@ left, right
 
 #### Defined in
 
-main.ts:21977
+main.ts:21982
 
 ***
 
@@ -170,7 +170,7 @@ price of the app
 
 #### Defined in
 
-main.ts:112113
+main.ts:112146
 
 ***
 
@@ -191,7 +191,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21973
+main.ts:21978
 
 ***
 
@@ -212,7 +212,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21970
+main.ts:21975
 
 ***
 
@@ -232,7 +232,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21981
+main.ts:21986
 
 ***
 
@@ -248,7 +248,7 @@ the total number of reviews of the app
 
 #### Defined in
 
-main.ts:112109
+main.ts:112142
 
 ***
 
@@ -268,7 +268,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21979
+main.ts:21984
 
 ***
 
@@ -288,7 +288,7 @@ type of element
 
 #### Defined in
 
-main.ts:21967
+main.ts:21972
 
 ***
 
@@ -304,7 +304,7 @@ URL to the app page on Google Play
 
 #### Defined in
 
-main.ts:112105
+main.ts:112138
 
 ## Methods
 
@@ -326,7 +326,7 @@ main.ts:112105
 
 #### Defined in
 
-main.ts:112126
+main.ts:112159
 
 ***
 
@@ -348,7 +348,7 @@ main.ts:112126
 
 #### Defined in
 
-main.ts:112151
+main.ts:112184
 
 ***
 
@@ -370,4 +370,4 @@ main.ts:112151
 
 #### Defined in
 
-main.ts:112144
+main.ts:112177

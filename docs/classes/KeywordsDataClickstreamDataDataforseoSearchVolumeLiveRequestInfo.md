@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:135703
+main.ts:135736
 
 ## Properties
 
@@ -52,7 +52,7 @@ to learn more about which symbols can be used, please refer to this article
 
 #### Defined in
 
-main.ts:135664
+main.ts:135697
 
 ***
 
@@ -72,7 +72,7 @@ en
 
 #### Defined in
 
-main.ts:135688
+main.ts:135721
 
 ***
 
@@ -92,7 +92,7 @@ English
 
 #### Defined in
 
-main.ts:135682
+main.ts:135715
 
 ***
 
@@ -112,7 +112,7 @@ example:
 
 #### Defined in
 
-main.ts:135676
+main.ts:135709
 
 ***
 
@@ -132,7 +132,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:135670
+main.ts:135703
 
 ***
 
@@ -152,7 +152,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:135699
+main.ts:135732
 
 ***
 
@@ -171,7 +171,7 @@ otherwise, Bing search volume data will be used to calculate search volume
 
 #### Defined in
 
-main.ts:135693
+main.ts:135726
 
 ## Methods
 
@@ -189,7 +189,7 @@ main.ts:135693
 
 #### Defined in
 
-main.ts:135712
+main.ts:135745
 
 ***
 
@@ -207,7 +207,7 @@ main.ts:135712
 
 #### Defined in
 
-main.ts:135739
+main.ts:135772
 
 ***
 
@@ -225,4 +225,4 @@ main.ts:135739
 
 #### Defined in
 
-main.ts:135732
+main.ts:135765

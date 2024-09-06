@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:170530
+main.ts:170563
 
 ## Properties
 
@@ -51,7 +51,7 @@ learn more about this parameter on our help center
 
 #### Defined in
 
-main.ts:170520
+main.ts:170553
 
 ***
 
@@ -71,7 +71,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:170526
+main.ts:170559
 
 ***
 
@@ -90,7 +90,7 @@ can contain from 1 to 50 tokens
 
 #### Defined in
 
-main.ts:170513
+main.ts:170546
 
 ## Methods
 
@@ -108,7 +108,7 @@ main.ts:170513
 
 #### Defined in
 
-main.ts:170539
+main.ts:170572
 
 ***
 
@@ -126,7 +126,7 @@ main.ts:170539
 
 #### Defined in
 
-main.ts:170558
+main.ts:170591
 
 ***
 
@@ -144,4 +144,4 @@ main.ts:170558
 
 #### Defined in
 
-main.ts:170551
+main.ts:170584

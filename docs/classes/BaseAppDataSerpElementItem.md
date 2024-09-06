@@ -35,7 +35,7 @@
 
 #### Defined in
 
-main.ts:21985
+main.ts:21990
 
 ## Properties
 
@@ -45,7 +45,7 @@ main.ts:21985
 
 #### Defined in
 
-main.ts:21983
+main.ts:21988
 
 ***
 
@@ -63,7 +63,7 @@ left, right
 
 #### Defined in
 
-main.ts:21977
+main.ts:21982
 
 ***
 
@@ -80,7 +80,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21973
+main.ts:21978
 
 ***
 
@@ -97,7 +97,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21970
+main.ts:21975
 
 ***
 
@@ -113,7 +113,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:21981
+main.ts:21986
 
 ***
 
@@ -129,7 +129,7 @@ title of the app
 
 #### Defined in
 
-main.ts:21979
+main.ts:21984
 
 ***
 
@@ -145,7 +145,7 @@ type of element
 
 #### Defined in
 
-main.ts:21967
+main.ts:21972
 
 ## Methods
 
@@ -163,7 +163,7 @@ main.ts:21967
 
 #### Defined in
 
-main.ts:21995
+main.ts:22000
 
 ***
 
@@ -181,7 +181,7 @@ main.ts:21995
 
 #### Defined in
 
-main.ts:22043
+main.ts:22048
 
 ***
 
@@ -199,4 +199,4 @@ main.ts:22043
 
 #### Defined in
 
-main.ts:22006
+main.ts:22011

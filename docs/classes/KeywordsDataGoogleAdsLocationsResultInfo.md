@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:116903
+main.ts:116936
 
 ## Properties
 
@@ -46,7 +46,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:116896
+main.ts:116929
 
 ***
 
@@ -62,7 +62,7 @@ location code
 
 #### Defined in
 
-main.ts:116883
+main.ts:116916
 
 ***
 
@@ -85,7 +85,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:116894
+main.ts:116927
 
 ***
 
@@ -101,7 +101,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:116885
+main.ts:116918
 
 ***
 
@@ -118,7 +118,7 @@ possible values according to Google’s target types
 
 #### Defined in
 
-main.ts:116899
+main.ts:116932
 
 ## Methods
 
@@ -136,7 +136,7 @@ main.ts:116899
 
 #### Defined in
 
-main.ts:116912
+main.ts:116945
 
 ***
 
@@ -154,7 +154,7 @@ main.ts:116912
 
 #### Defined in
 
-main.ts:116933
+main.ts:116966
 
 ***
 
@@ -172,4 +172,4 @@ main.ts:116933
 
 #### Defined in
 
-main.ts:116926
+main.ts:116959

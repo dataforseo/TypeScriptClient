@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:54609
+main.ts:54642
 
 ## Properties
 
@@ -58,7 +58,7 @@ total tasks cost, USD
 
 #### Defined in
 
-main.ts:24147
+main.ts:24152
 
 ***
 
@@ -79,7 +79,7 @@ you can find the full list of the response codes here
 
 #### Defined in
 
-main.ts:24140
+main.ts:24145
 
 ***
 
@@ -100,7 +100,7 @@ you can find the full list of general informational messages here
 
 #### Defined in
 
-main.ts:24143
+main.ts:24148
 
 ***
 
@@ -116,7 +116,7 @@ array of tasks
 
 #### Defined in
 
-main.ts:54605
+main.ts:54638
 
 ***
 
@@ -136,7 +136,7 @@ the number of tasks in the tasks array
 
 #### Defined in
 
-main.ts:24149
+main.ts:24154
 
 ***
 
@@ -156,7 +156,7 @@ the number of tasks in the tasks array returned with an error
 
 #### Defined in
 
-main.ts:24151
+main.ts:24156
 
 ***
 
@@ -176,7 +176,7 @@ total execution time, seconds
 
 #### Defined in
 
-main.ts:24145
+main.ts:24150
 
 ***
 
@@ -196,7 +196,7 @@ the current version of the API
 
 #### Defined in
 
-main.ts:24137
+main.ts:24142
 
 ## Methods
 
@@ -218,7 +218,7 @@ main.ts:24137
 
 #### Defined in
 
-main.ts:54613
+main.ts:54646
 
 ***
 
@@ -240,7 +240,7 @@ main.ts:54613
 
 #### Defined in
 
-main.ts:54635
+main.ts:54668
 
 ***
 
@@ -262,4 +262,4 @@ main.ts:54635
 
 #### Defined in
 
-main.ts:54628
+main.ts:54661

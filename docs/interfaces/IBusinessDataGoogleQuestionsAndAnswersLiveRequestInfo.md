@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:210167
+main.ts:210200
 
 ***
 
@@ -53,7 +53,7 @@ learn more about the cid and place_id identifiers in this help center article
 
 #### Defined in
 
-main.ts:210120
+main.ts:210153
 
 ***
 
@@ -70,7 +70,7 @@ en
 
 #### Defined in
 
-main.ts:210158
+main.ts:210191
 
 ***
 
@@ -87,7 +87,7 @@ English
 
 #### Defined in
 
-main.ts:210151
+main.ts:210184
 
 ***
 
@@ -104,7 +104,7 @@ example:
 
 #### Defined in
 
-main.ts:210134
+main.ts:210167
 
 ***
 
@@ -124,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:210144
+main.ts:210177
 
 ***
 
@@ -141,7 +141,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:210127
+main.ts:210160
 
 ***
 
@@ -157,4 +157,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:210173
+main.ts:210206

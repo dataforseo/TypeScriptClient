@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:108711
+main.ts:108744
 
 ## Properties
 
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:108685
+main.ts:108718
 
 ***
 
@@ -87,7 +87,7 @@ default value: live
 
 #### Defined in
 
-main.ts:108665
+main.ts:108698
 
 ***
 
@@ -106,7 +106,7 @@ default value: false
 
 #### Defined in
 
-main.ts:108641
+main.ts:108674
 
 ***
 
@@ -129,7 +129,7 @@ default value:
 
 #### Defined in
 
-main.ts:108636
+main.ts:108669
 
 ***
 
@@ -152,7 +152,7 @@ en
 
 #### Defined in
 
-main.ts:108627
+main.ts:108660
 
 ***
 
@@ -175,7 +175,7 @@ English
 
 #### Defined in
 
-main.ts:108618
+main.ts:108651
 
 ***
 
@@ -194,7 +194,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:108646
+main.ts:108679
 
 ***
 
@@ -213,7 +213,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-main.ts:108656
+main.ts:108689
 
 ***
 
@@ -237,7 +237,7 @@ example:
 
 #### Defined in
 
-main.ts:108609
+main.ts:108642
 
 ***
 
@@ -261,7 +261,7 @@ United States
 
 #### Defined in
 
-main.ts:108599
+main.ts:108632
 
 ***
 
@@ -280,7 +280,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:108651
+main.ts:108684
 
 ***
 
@@ -310,7 +310,7 @@ example:
 
 #### Defined in
 
-main.ts:108701
+main.ts:108734
 
 ***
 
@@ -330,7 +330,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:108707
+main.ts:108740
 
 ***
 
@@ -354,7 +354,7 @@ example:
 
 #### Defined in
 
-main.ts:108589
+main.ts:108622
 
 ## Methods
 
@@ -372,7 +372,7 @@ main.ts:108589
 
 #### Defined in
 
-main.ts:108720
+main.ts:108753
 
 ***
 
@@ -390,7 +390,7 @@ main.ts:108720
 
 #### Defined in
 
-main.ts:108762
+main.ts:108795
 
 ***
 
@@ -408,4 +408,4 @@ main.ts:108762
 
 #### Defined in
 
-main.ts:108755
+main.ts:108788

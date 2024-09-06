@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:137942
+main.ts:137975
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:137919
+main.ts:137952
 
 ***
 
@@ -65,7 +65,7 @@ error code
 
 #### Defined in
 
-main.ts:137923
+main.ts:137956
 
 ***
 
@@ -82,7 +82,7 @@ error message (see full list) or URL that caused an error
 
 #### Defined in
 
-main.ts:137926
+main.ts:137959
 
 ***
 
@@ -98,7 +98,7 @@ corresponding API function
 
 #### Defined in
 
-main.ts:137921
+main.ts:137954
 
 ***
 
@@ -114,7 +114,7 @@ HTTP status code
 
 #### Defined in
 
-main.ts:137933
+main.ts:137966
 
 ***
 
@@ -130,7 +130,7 @@ HTTP method
 
 #### Defined in
 
-main.ts:137931
+main.ts:137964
 
 ***
 
@@ -147,7 +147,7 @@ server response
 
 #### Defined in
 
-main.ts:137938
+main.ts:137971
 
 ***
 
@@ -163,7 +163,7 @@ time taken by HTTP request
 
 #### Defined in
 
-main.ts:137935
+main.ts:137968
 
 ***
 
@@ -180,7 +180,7 @@ URL you used for making an API call
 
 #### Defined in
 
-main.ts:137929
+main.ts:137962
 
 ***
 
@@ -196,7 +196,7 @@ id of the task
 
 #### Defined in
 
-main.ts:137914
+main.ts:137947
 
 ## Methods
 
@@ -214,7 +214,7 @@ main.ts:137914
 
 #### Defined in
 
-main.ts:137951
+main.ts:137984
 
 ***
 
@@ -232,7 +232,7 @@ main.ts:137951
 
 #### Defined in
 
-main.ts:137977
+main.ts:138010
 
 ***
 
@@ -250,4 +250,4 @@ main.ts:137977
 
 #### Defined in
 
-main.ts:137970
+main.ts:138003

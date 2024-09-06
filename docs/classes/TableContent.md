@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:161564
+main.ts:161597
 
 ## Properties
 
@@ -46,7 +46,7 @@ content of the body of the table
 
 #### Defined in
 
-main.ts:161558
+main.ts:161591
 
 ***
 
@@ -54,7 +54,7 @@ main.ts:161558
 
 > `optional` **footer**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-parsed content of the footer
+content of the footer of the table
 
 #### Implementation of
 
@@ -62,7 +62,7 @@ parsed content of the footer
 
 #### Defined in
 
-main.ts:161560
+main.ts:161593
 
 ***
 
@@ -70,7 +70,7 @@ main.ts:161560
 
 > `optional` **header**: [`TableContentItemInfo`](TableContentItemInfo.md)[]
 
-content of the header of the table
+parsed content of the header
 
 #### Implementation of
 
@@ -78,7 +78,7 @@ content of the header of the table
 
 #### Defined in
 
-main.ts:161556
+main.ts:161589
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:161556
 
 #### Defined in
 
-main.ts:161573
+main.ts:161606
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:161573
 
 #### Defined in
 
-main.ts:161604
+main.ts:161637
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:161604
 
 #### Defined in
 
-main.ts:161597
+main.ts:161630

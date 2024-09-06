@@ -32,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23852
+main.ts:23857
 
 ## Properties
 
@@ -42,7 +42,7 @@ main.ts:23852
 
 #### Defined in
 
-main.ts:23850
+main.ts:23855
 
 ***
 
@@ -58,7 +58,7 @@ type of element
 
 #### Defined in
 
-main.ts:23848
+main.ts:23853
 
 ## Methods
 
@@ -76,7 +76,7 @@ main.ts:23848
 
 #### Defined in
 
-main.ts:23862
+main.ts:23867
 
 ***
 
@@ -94,7 +94,7 @@ main.ts:23862
 
 #### Defined in
 
-main.ts:23890
+main.ts:23895
 
 ***
 
@@ -112,4 +112,4 @@ main.ts:23890
 
 #### Defined in
 
-main.ts:23868
+main.ts:23873

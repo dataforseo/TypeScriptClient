@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:25582
+main.ts:25587
 
 ***
 
@@ -32,4 +32,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:25580
+main.ts:25585

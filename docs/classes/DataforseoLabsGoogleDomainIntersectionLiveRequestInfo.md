@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:93512
+main.ts:93545
 
 ## Properties
 
@@ -61,7 +61,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:93486
+main.ts:93519
 
 ***
 
@@ -82,7 +82,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:93459
+main.ts:93492
 
 ***
 
@@ -101,7 +101,7 @@ default value: false
 
 #### Defined in
 
-main.ts:93452
+main.ts:93485
 
 ***
 
@@ -123,7 +123,7 @@ default value: true
 
 #### Defined in
 
-main.ts:93439
+main.ts:93472
 
 ***
 
@@ -145,7 +145,7 @@ default value:
 
 #### Defined in
 
-main.ts:93447
+main.ts:93480
 
 ***
 
@@ -167,7 +167,7 @@ en
 
 #### Defined in
 
-main.ts:93431
+main.ts:93464
 
 ***
 
@@ -189,7 +189,7 @@ English
 
 #### Defined in
 
-main.ts:93423
+main.ts:93456
 
 ***
 
@@ -208,7 +208,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:93464
+main.ts:93497
 
 ***
 
@@ -230,7 +230,7 @@ example:
 
 #### Defined in
 
-main.ts:93415
+main.ts:93448
 
 ***
 
@@ -252,7 +252,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:93407
+main.ts:93440
 
 ***
 
@@ -271,7 +271,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:93469
+main.ts:93502
 
 ***
 
@@ -301,7 +301,7 @@ example:
 
 #### Defined in
 
-main.ts:93502
+main.ts:93535
 
 ***
 
@@ -321,7 +321,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:93508
+main.ts:93541
 
 ***
 
@@ -340,7 +340,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:93394
+main.ts:93427
 
 ***
 
@@ -359,7 +359,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:93399
+main.ts:93432
 
 ## Methods
 
@@ -377,7 +377,7 @@ main.ts:93399
 
 #### Defined in
 
-main.ts:93521
+main.ts:93554
 
 ***
 
@@ -395,7 +395,7 @@ main.ts:93521
 
 #### Defined in
 
-main.ts:93564
+main.ts:93597
 
 ***
 
@@ -413,4 +413,4 @@ main.ts:93564
 
 #### Defined in
 
-main.ts:93557
+main.ts:93590

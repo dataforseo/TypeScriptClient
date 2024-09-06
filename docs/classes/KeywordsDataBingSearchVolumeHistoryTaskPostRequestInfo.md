@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:134141
+main.ts:134174
 
 ## Properties
 
@@ -57,7 +57,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:134098
+main.ts:134131
 
 ***
 
@@ -84,7 +84,7 @@ with value daily, you will get results for the past 45 days
 
 #### Defined in
 
-main.ts:134111
+main.ts:134144
 
 ***
 
@@ -104,7 +104,7 @@ default value:  mobile, desktop, tablet, non_smartphones
 
 #### Defined in
 
-main.ts:134076
+main.ts:134109
 
 ***
 
@@ -124,7 +124,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:134038
+main.ts:134071
 
 ***
 
@@ -143,7 +143,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:134070
+main.ts:134103
 
 ***
 
@@ -162,7 +162,7 @@ you can receive the list of available languages of the search engines with their
 
 #### Defined in
 
-main.ts:134065
+main.ts:134098
 
 ***
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:134052
+main.ts:134085
 
 ***
 
@@ -205,7 +205,7 @@ example:
 
 #### Defined in
 
-main.ts:134060
+main.ts:134093
 
 ***
 
@@ -226,7 +226,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:134045
+main.ts:134078
 
 ***
 
@@ -249,7 +249,7 @@ default value:  monthly
 
 #### Defined in
 
-main.ts:134085
+main.ts:134118
 
 ***
 
@@ -273,7 +273,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:134131
+main.ts:134164
 
 ***
 
@@ -297,7 +297,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:134121
+main.ts:134154
 
 ***
 
@@ -317,7 +317,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:134137
+main.ts:134170
 
 ## Methods
 
@@ -335,7 +335,7 @@ main.ts:134137
 
 #### Defined in
 
-main.ts:134150
+main.ts:134183
 
 ***
 
@@ -353,7 +353,7 @@ main.ts:134150
 
 #### Defined in
 
-main.ts:134183
+main.ts:134216
 
 ***
 
@@ -371,4 +371,4 @@ main.ts:134183
 
 #### Defined in
 
-main.ts:134176
+main.ts:134209

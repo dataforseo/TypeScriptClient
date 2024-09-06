@@ -21,7 +21,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:156993
+main.ts:157026
 
 ***
 
@@ -33,7 +33,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:156995
+main.ts:157028
 
 ***
 
@@ -45,7 +45,7 @@ items array
 
 #### Defined in
 
-main.ts:157005
+main.ts:157038
 
 ***
 
@@ -57,7 +57,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:157003
+main.ts:157036
 
 ***
 
@@ -70,7 +70,7 @@ displays the number of pages with duplicate tags returned in the response
 
 #### Defined in
 
-main.ts:157001
+main.ts:157034
 
 ***
 
@@ -83,4 +83,4 @@ displays the total number of pages with duplicate tags of the target website
 
 #### Defined in
 
-main.ts:156998
+main.ts:157031

@@ -26,7 +26,7 @@ kc:/local:hotel booking
 
 #### Defined in
 
-main.ts:29173
+main.ts:29184
 
 ***
 
@@ -41,7 +41,7 @@ example:
 
 #### Defined in
 
-main.ts:29164
+main.ts:29175
 
 ***
 
@@ -56,7 +56,7 @@ example:
 
 #### Defined in
 
-main.ts:29169
+main.ts:29180
 
 ***
 
@@ -69,7 +69,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29176
+main.ts:29187
 
 ***
 
@@ -87,7 +87,7 @@ left, right
 
 #### Defined in
 
-main.ts:20721
+main.ts:20726
 
 ***
 
@@ -104,7 +104,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20717
+main.ts:20722
 
 ***
 
@@ -122,7 +122,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20714
+main.ts:20719
 
 ***
 
@@ -136,7 +136,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29180
+main.ts:29191
 
 ***
 
@@ -148,7 +148,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29159
+main.ts:29170
 
 ***
 
@@ -164,7 +164,7 @@ type of element
 
 #### Defined in
 
-main.ts:20710
+main.ts:20715
 
 ***
 
@@ -180,4 +180,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20723
+main.ts:20728

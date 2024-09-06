@@ -27,7 +27,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:64982
+main.ts:65015
 
 ***
 
@@ -41,7 +41,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:64968
+main.ts:65001
 
 ***
 
@@ -58,7 +58,7 @@ en
 
 #### Defined in
 
-main.ts:64964
+main.ts:64997
 
 ***
 
@@ -75,7 +75,7 @@ English
 
 #### Defined in
 
-main.ts:64957
+main.ts:64990
 
 ***
 
@@ -92,7 +92,7 @@ example:
 
 #### Defined in
 
-main.ts:64950
+main.ts:64983
 
 ***
 
@@ -109,7 +109,7 @@ United States
 
 #### Defined in
 
-main.ts:64943
+main.ts:64976
 
 ***
 
@@ -124,7 +124,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:64973
+main.ts:65006
 
 ***
 
@@ -144,7 +144,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:65014
+main.ts:65047
 
 ***
 
@@ -160,7 +160,7 @@ advanced
 
 #### Defined in
 
-main.ts:65004
+main.ts:65037
 
 ***
 
@@ -180,7 +180,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:64998
+main.ts:65031
 
 ***
 
@@ -198,7 +198,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:64936
+main.ts:64969
 
 ***
 
@@ -214,7 +214,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:64988
+main.ts:65021
 
 ***
 
@@ -230,4 +230,4 @@ vQXvyV0zIP4
 
 #### Defined in
 
-main.ts:64928
+main.ts:64961

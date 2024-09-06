@@ -22,7 +22,7 @@ higher value corresponds to a busier time of a day
 
 #### Defined in
 
-main.ts:198650
+main.ts:198683
 
 ***
 
@@ -34,4 +34,4 @@ busy hours
 
 #### Defined in
 
-main.ts:198646
+main.ts:198679

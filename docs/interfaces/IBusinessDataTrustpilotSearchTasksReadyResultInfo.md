@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:210791
+main.ts:210824
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:210795
+main.ts:210828
 
 ***
 
@@ -45,7 +45,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:210784
+main.ts:210817
 
 ***
 
@@ -58,7 +58,7 @@ can take the following values: trustpilot
 
 #### Defined in
 
-main.ts:210787
+main.ts:210820
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:210789
+main.ts:210822
 
 ***
 
@@ -82,4 +82,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:210793
+main.ts:210826

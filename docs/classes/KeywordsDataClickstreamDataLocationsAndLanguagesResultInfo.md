@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:135470
+main.ts:135503
 
 ## Properties
 
@@ -47,7 +47,7 @@ contains the languages which are supported for a specific location
 
 #### Defined in
 
-main.ts:135466
+main.ts:135499
 
 ***
 
@@ -63,7 +63,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:135459
+main.ts:135492
 
 ***
 
@@ -79,7 +79,7 @@ location code
 
 #### Defined in
 
-main.ts:135452
+main.ts:135485
 
 ***
 
@@ -96,7 +96,7 @@ the value will be null as Country is the only supported location_type for this A
 
 #### Defined in
 
-main.ts:135457
+main.ts:135490
 
 ***
 
@@ -112,7 +112,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:135454
+main.ts:135487
 
 ***
 
@@ -130,7 +130,7 @@ Country
 
 #### Defined in
 
-main.ts:135463
+main.ts:135496
 
 ## Methods
 
@@ -148,7 +148,7 @@ main.ts:135463
 
 #### Defined in
 
-main.ts:135479
+main.ts:135512
 
 ***
 
@@ -166,7 +166,7 @@ main.ts:135479
 
 #### Defined in
 
-main.ts:135505
+main.ts:135538
 
 ***
 
@@ -184,4 +184,4 @@ main.ts:135505
 
 #### Defined in
 
-main.ts:135498
+main.ts:135531

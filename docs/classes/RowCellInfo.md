@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:161436
+main.ts:161469
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates if the text belongs to the header
 
 #### Defined in
 
-main.ts:161432
+main.ts:161465
 
 ***
 
@@ -62,7 +62,7 @@ content text
 
 #### Defined in
 
-main.ts:161428
+main.ts:161461
 
 ***
 
@@ -78,7 +78,7 @@ contains other URLs and anchors found in the content element
 
 #### Defined in
 
-main.ts:161430
+main.ts:161463
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:161430
 
 #### Defined in
 
-main.ts:161445
+main.ts:161478
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:161445
 
 #### Defined in
 
-main.ts:161468
+main.ts:161501
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:161468
 
 #### Defined in
 
-main.ts:161461
+main.ts:161494

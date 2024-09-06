@@ -32,7 +32,7 @@
 
 #### Defined in
 
-main.ts:23356
+main.ts:23361
 
 ## Properties
 
@@ -42,7 +42,7 @@ main.ts:23356
 
 #### Defined in
 
-main.ts:23354
+main.ts:23359
 
 ***
 
@@ -58,7 +58,7 @@ name of the section related to product information specified in the contents
 
 #### Defined in
 
-main.ts:23352
+main.ts:23357
 
 ***
 
@@ -74,7 +74,7 @@ type of element
 
 #### Defined in
 
-main.ts:23350
+main.ts:23355
 
 ## Methods
 
@@ -92,7 +92,7 @@ main.ts:23350
 
 #### Defined in
 
-main.ts:23366
+main.ts:23371
 
 ***
 
@@ -110,7 +110,7 @@ main.ts:23366
 
 #### Defined in
 
-main.ts:23395
+main.ts:23400
 
 ***
 
@@ -128,4 +128,4 @@ main.ts:23395
 
 #### Defined in
 
-main.ts:23373
+main.ts:23378

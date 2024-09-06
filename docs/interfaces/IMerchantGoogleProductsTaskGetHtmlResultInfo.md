@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:175401
+main.ts:175434
 
 ***
 
@@ -35,7 +35,7 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-main.ts:175405
+main.ts:175438
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:175403
+main.ts:175436
 
 ***
 
@@ -60,7 +60,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:175388
+main.ts:175421
 
 ***
 
@@ -72,7 +72,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:175396
+main.ts:175429
 
 ***
 
@@ -84,7 +84,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:175394
+main.ts:175427
 
 ***
 
@@ -96,7 +96,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:175392
+main.ts:175425
 
 ***
 
@@ -108,4 +108,4 @@ type of element
 
 #### Defined in
 
-main.ts:175390
+main.ts:175423

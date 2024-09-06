@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:151573
+main.ts:151606
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:151571
+main.ts:151604
 
 ***
 
@@ -44,4 +44,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:151569
+main.ts:151602

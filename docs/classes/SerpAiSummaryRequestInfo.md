@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:25394
+main.ts:25399
 
 ## Properties
 
@@ -49,7 +49,7 @@ default value: false
 
 #### Defined in
 
-main.ts:25385
+main.ts:25390
 
 ***
 
@@ -68,7 +68,7 @@ default value: false
 
 #### Defined in
 
-main.ts:25390
+main.ts:25395
 
 ***
 
@@ -89,7 +89,7 @@ note: your prompt has to be relevant to the keyword specified in the POST reques
 
 #### Defined in
 
-main.ts:25375
+main.ts:25380
 
 ***
 
@@ -108,7 +108,7 @@ default value: true
 
 #### Defined in
 
-main.ts:25380
+main.ts:25385
 
 ***
 
@@ -127,7 +127,7 @@ you will be able to use it within 30 days to request the results of the task at 
 
 #### Defined in
 
-main.ts:25368
+main.ts:25373
 
 ## Methods
 
@@ -145,7 +145,7 @@ main.ts:25368
 
 #### Defined in
 
-main.ts:25403
+main.ts:25408
 
 ***
 
@@ -163,7 +163,7 @@ main.ts:25403
 
 #### Defined in
 
-main.ts:25424
+main.ts:25429
 
 ***
 
@@ -181,4 +181,4 @@ main.ts:25424
 
 #### Defined in
 
-main.ts:25417
+main.ts:25422

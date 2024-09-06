@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:34815
+main.ts:35040
 
 ## Properties
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:34807
+main.ts:35032
 
 ***
 
@@ -84,7 +84,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:34805
+main.ts:35030
 
 ***
 
@@ -122,7 +122,7 @@ the identifier of the google_posts feature
 
 #### Defined in
 
-main.ts:34803
+main.ts:35028
 
 ***
 
@@ -183,7 +183,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34811
+main.ts:35036
 
 ***
 
@@ -245,7 +245,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:34820
+main.ts:35045
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:34820
 
 #### Defined in
 
-main.ts:34841
+main.ts:35066
 
 ***
 
@@ -289,4 +289,4 @@ main.ts:34841
 
 #### Defined in
 
-main.ts:34834
+main.ts:35059

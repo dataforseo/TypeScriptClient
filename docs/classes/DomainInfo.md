@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:153622
+main.ts:153655
 
 ## Properties
 
@@ -48,7 +48,7 @@ in most cases, it is recommended that canonicalized pages respond with a 301 or 
 
 #### Defined in
 
-main.ts:153608
+main.ts:153641
 
 ***
 
@@ -69,7 +69,7 @@ other on-page check-ups related to the website
 
 #### Defined in
 
-main.ts:153598
+main.ts:153631
 
 ***
 
@@ -89,7 +89,7 @@ if our crawler was unable to identify the cms, the value would be null
 
 #### Defined in
 
-main.ts:153560
+main.ts:153593
 
 ***
 
@@ -110,7 +110,7 @@ if "crawl_progress" is in_progress, the value will be null
 
 #### Defined in
 
-main.ts:153580
+main.ts:153613
 
 ***
 
@@ -130,7 +130,7 @@ example:
 
 #### Defined in
 
-main.ts:153573
+main.ts:153606
 
 ***
 
@@ -148,7 +148,7 @@ in most cases, it is recommended that directories respond with a 403 or 401 stat
 
 #### Defined in
 
-main.ts:153612
+main.ts:153645
 
 ***
 
@@ -174,7 +174,7 @@ unknown – the reason is unknown
 
 #### Defined in
 
-main.ts:153592
+main.ts:153625
 
 ***
 
@@ -190,7 +190,7 @@ domain ip address
 
 #### Defined in
 
-main.ts:153562
+main.ts:153595
 
 ***
 
@@ -206,7 +206,7 @@ root domain name
 
 #### Defined in
 
-main.ts:153618
+main.ts:153651
 
 ***
 
@@ -222,7 +222,7 @@ domain name
 
 #### Defined in
 
-main.ts:153554
+main.ts:153587
 
 ***
 
@@ -239,7 +239,7 @@ in most cases, it is recommended a server returns a 404 response code
 
 #### Defined in
 
-main.ts:153604
+main.ts:153637
 
 ***
 
@@ -258,7 +258,7 @@ the information is taken from the first page which response code is 200
 
 #### Defined in
 
-main.ts:153567
+main.ts:153600
 
 ***
 
@@ -275,7 +275,7 @@ information about the Secure Sockets Layer protocol detected on a website
 
 #### Defined in
 
-main.ts:153595
+main.ts:153628
 
 ***
 
@@ -292,7 +292,7 @@ the total number of crawled pages
 
 #### Defined in
 
-main.ts:153601
+main.ts:153634
 
 ***
 
@@ -310,7 +310,7 @@ in most cases, it is recommended that redirect returns a 301 status code
 
 #### Defined in
 
-main.ts:153616
+main.ts:153649
 
 ## Methods
 
@@ -328,7 +328,7 @@ main.ts:153616
 
 #### Defined in
 
-main.ts:153631
+main.ts:153664
 
 ***
 
@@ -346,7 +346,7 @@ main.ts:153631
 
 #### Defined in
 
-main.ts:153668
+main.ts:153701
 
 ***
 
@@ -364,4 +364,4 @@ main.ts:153668
 
 #### Defined in
 
-main.ts:153661
+main.ts:153694

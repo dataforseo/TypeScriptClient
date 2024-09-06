@@ -21,7 +21,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:214731
+main.ts:214764
 
 ***
 
@@ -35,7 +35,7 @@ this field shows the number of content saves made from the related page_url usin
 
 #### Defined in
 
-main.ts:214735
+main.ts:214768
 
 ***
 
@@ -47,4 +47,4 @@ type of element
 
 #### Defined in
 
-main.ts:214728
+main.ts:214761

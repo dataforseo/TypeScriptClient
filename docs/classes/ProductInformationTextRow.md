@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:182103
+main.ts:182136
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:182103
 
 #### Defined in
 
-main.ts:23417
+main.ts:23422
 
 ***
 
@@ -68,7 +68,7 @@ text specified under the given title within the section_name
 
 #### Defined in
 
-main.ts:182099
+main.ts:182132
 
 ***
 
@@ -88,7 +88,7 @@ type of element
 
 #### Defined in
 
-main.ts:23413
+main.ts:23418
 
 ## Methods
 
@@ -110,7 +110,7 @@ main.ts:23413
 
 #### Defined in
 
-main.ts:182108
+main.ts:182141
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:182108
 
 #### Defined in
 
-main.ts:182126
+main.ts:182159
 
 ***
 
@@ -154,4 +154,4 @@ main.ts:182126
 
 #### Defined in
 
-main.ts:182119
+main.ts:182152

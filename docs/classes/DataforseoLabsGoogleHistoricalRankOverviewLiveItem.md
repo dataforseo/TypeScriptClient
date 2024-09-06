@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:99773
+main.ts:99806
 
 ## Properties
 
@@ -50,7 +50,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:99769
+main.ts:99802
 
 ***
 
@@ -66,7 +66,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:99767
+main.ts:99800
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:99763
+main.ts:99796
 
 ***
 
@@ -98,7 +98,7 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:99765
+main.ts:99798
 
 ## Methods
 
@@ -116,7 +116,7 @@ main.ts:99765
 
 #### Defined in
 
-main.ts:99782
+main.ts:99815
 
 ***
 
@@ -134,7 +134,7 @@ main.ts:99782
 
 #### Defined in
 
-main.ts:99808
+main.ts:99841
 
 ***
 
@@ -152,4 +152,4 @@ main.ts:99808
 
 #### Defined in
 
-main.ts:99801
+main.ts:99834

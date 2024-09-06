@@ -20,4 +20,4 @@ contains full list of supported app categories
 
 #### Defined in
 
-main.ts:186410
+main.ts:186443

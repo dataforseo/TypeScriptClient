@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:160464
+main.ts:160497
 
 ## Properties
 
@@ -46,7 +46,7 @@ HTML page
 
 #### Defined in
 
-main.ts:160460
+main.ts:160493
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:160460
 
 #### Defined in
 
-main.ts:160473
+main.ts:160506
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:160473
 
 #### Defined in
 
-main.ts:160490
+main.ts:160523
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:160490
 
 #### Defined in
 
-main.ts:160483
+main.ts:160516

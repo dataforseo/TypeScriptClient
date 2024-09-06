@@ -24,7 +24,7 @@ the category the video belongs to
 
 #### Defined in
 
-main.ts:62512
+main.ts:62545
 
 ***
 
@@ -36,7 +36,7 @@ the ID of the channel where the video is published
 
 #### Defined in
 
-main.ts:62485
+main.ts:62518
 
 ***
 
@@ -48,7 +48,7 @@ the URL of the page where the logo image of the channel is hosted
 
 #### Defined in
 
-main.ts:62491
+main.ts:62524
 
 ***
 
@@ -60,7 +60,7 @@ the name of the channel where the video is published
 
 #### Defined in
 
-main.ts:62487
+main.ts:62520
 
 ***
 
@@ -72,7 +72,7 @@ number of subscribers of the channel
 
 #### Defined in
 
-main.ts:62501
+main.ts:62534
 
 ***
 
@@ -84,7 +84,7 @@ the URL of the channel where the video is published
 
 #### Defined in
 
-main.ts:62489
+main.ts:62522
 
 ***
 
@@ -96,7 +96,7 @@ number of comments on the video
 
 #### Defined in
 
-main.ts:62499
+main.ts:62532
 
 ***
 
@@ -108,7 +108,7 @@ description of the video
 
 #### Defined in
 
-main.ts:62493
+main.ts:62526
 
 ***
 
@@ -120,7 +120,7 @@ duration of the video
 
 #### Defined in
 
-main.ts:62518
+main.ts:62551
 
 ***
 
@@ -132,7 +132,7 @@ duration of the video in seconds
 
 #### Defined in
 
-main.ts:62520
+main.ts:62553
 
 ***
 
@@ -144,7 +144,7 @@ indicates whether the video is embeddable
 
 #### Defined in
 
-main.ts:62516
+main.ts:62549
 
 ***
 
@@ -156,7 +156,7 @@ indicates whether the video is on live
 
 #### Defined in
 
-main.ts:62514
+main.ts:62547
 
 ***
 
@@ -168,7 +168,7 @@ keywords relevant to the video
 
 #### Defined in
 
-main.ts:62510
+main.ts:62543
 
 ***
 
@@ -180,7 +180,7 @@ number of likes on the video
 
 #### Defined in
 
-main.ts:62497
+main.ts:62530
 
 ***
 
@@ -192,7 +192,7 @@ the date when the video is published
 
 #### Defined in
 
-main.ts:62503
+main.ts:62536
 
 ***
 
@@ -209,7 +209,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62316
+main.ts:62349
 
 ***
 
@@ -227,7 +227,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62313
+main.ts:62346
 
 ***
 
@@ -239,7 +239,7 @@ array of elements that contain information about all possible streaming qualitie
 
 #### Defined in
 
-main.ts:62524
+main.ts:62557
 
 ***
 
@@ -251,7 +251,7 @@ array of elements describing properties of subtitles in the video
 
 #### Defined in
 
-main.ts:62522
+main.ts:62555
 
 ***
 
@@ -263,7 +263,7 @@ the URL of the page where the thumbnail is hosted
 
 #### Defined in
 
-main.ts:62483
+main.ts:62516
 
 ***
 
@@ -278,7 +278,7 @@ example:
 
 #### Defined in
 
-main.ts:62508
+main.ts:62541
 
 ***
 
@@ -290,7 +290,7 @@ title of the video
 
 #### Defined in
 
-main.ts:62479
+main.ts:62512
 
 ***
 
@@ -306,7 +306,7 @@ type of element
 
 #### Defined in
 
-main.ts:62309
+main.ts:62342
 
 ***
 
@@ -318,7 +318,7 @@ URL of the video
 
 #### Defined in
 
-main.ts:62481
+main.ts:62514
 
 ***
 
@@ -330,7 +330,7 @@ ID of the video received in a POST array
 
 #### Defined in
 
-main.ts:62477
+main.ts:62510
 
 ***
 
@@ -342,4 +342,4 @@ number of views of the video
 
 #### Defined in
 
-main.ts:62495
+main.ts:62528

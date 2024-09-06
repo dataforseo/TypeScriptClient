@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:88194
+main.ts:88227
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:88190
+main.ts:88223
 
 ***
 
@@ -63,7 +63,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:88187
+main.ts:88220
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:88187
 
 #### Defined in
 
-main.ts:88203
+main.ts:88236
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:88203
 
 #### Defined in
 
-main.ts:88225
+main.ts:88258
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:88225
 
 #### Defined in
 
-main.ts:88218
+main.ts:88251

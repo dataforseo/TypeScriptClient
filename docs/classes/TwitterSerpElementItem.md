@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30530
+main.ts:30796
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`TwitterElement`](TwitterElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:30522
+main.ts:30788
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30526
+main.ts:30792
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30517
+main.ts:30784
 
 ***
 
@@ -204,7 +203,7 @@ source URL
 
 #### Defined in
 
-main.ts:30519
+main.ts:30786
 
 ***
 
@@ -246,7 +245,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:30535
+main.ts:30801
 
 ***
 
@@ -268,7 +267,7 @@ main.ts:30535
 
 #### Defined in
 
-main.ts:30560
+main.ts:30826
 
 ***
 
@@ -290,4 +289,4 @@ main.ts:30560
 
 #### Defined in
 
-main.ts:30553
+main.ts:30819

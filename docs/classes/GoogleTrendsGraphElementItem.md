@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:123676
+main.ts:123709
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:123676
 
 #### Defined in
 
-main.ts:21804
+main.ts:21809
 
 ***
 
@@ -68,7 +68,7 @@ keyword popularity values averaged over the whole time range
 
 #### Defined in
 
-main.ts:123672
+main.ts:123705
 
 ***
 
@@ -84,7 +84,7 @@ Google Trends data for the specified parameters
 
 #### Defined in
 
-main.ts:123670
+main.ts:123703
 
 ***
 
@@ -105,7 +105,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Defined in
 
-main.ts:21802
+main.ts:21807
 
 ***
 
@@ -126,7 +126,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21797
+main.ts:21802
 
 ***
 
@@ -146,7 +146,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:21799
+main.ts:21804
 
 ***
 
@@ -166,7 +166,7 @@ type of element
 
 #### Defined in
 
-main.ts:21794
+main.ts:21799
 
 ## Methods
 
@@ -188,7 +188,7 @@ main.ts:21794
 
 #### Defined in
 
-main.ts:123681
+main.ts:123714
 
 ***
 
@@ -210,7 +210,7 @@ main.ts:123681
 
 #### Defined in
 
-main.ts:123708
+main.ts:123741
 
 ***
 
@@ -232,4 +232,4 @@ main.ts:123708
 
 #### Defined in
 
-main.ts:123701
+main.ts:123734

@@ -24,7 +24,7 @@ possible values: internal, external
 
 #### Defined in
 
-main.ts:21783
+main.ts:21788
 
 ***
 
@@ -37,7 +37,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-main.ts:21776
+main.ts:21781
 
 ***
 
@@ -50,7 +50,7 @@ the link was found on this domain
 
 #### Defined in
 
-main.ts:21758
+main.ts:21763
 
 ***
 
@@ -63,7 +63,7 @@ the link is pointing to this domain
 
 #### Defined in
 
-main.ts:21761
+main.ts:21766
 
 ***
 
@@ -76,7 +76,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-main.ts:21786
+main.ts:21791
 
 ***
 
@@ -89,7 +89,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Defined in
 
-main.ts:21789
+main.ts:21794
 
 ***
 
@@ -102,7 +102,7 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21770
+main.ts:21775
 
 ***
 
@@ -115,7 +115,7 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21773
+main.ts:21778
 
 ***
 
@@ -128,7 +128,7 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21764
+main.ts:21769
 
 ***
 
@@ -140,7 +140,7 @@ url scheme of the referring page
 
 #### Defined in
 
-main.ts:21778
+main.ts:21783
 
 ***
 
@@ -153,7 +153,7 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21767
+main.ts:21772
 
 ***
 
@@ -165,7 +165,7 @@ url scheme of the referenced page
 
 #### Defined in
 
-main.ts:21780
+main.ts:21785
 
 ***
 
@@ -177,4 +177,4 @@ type of element
 
 #### Defined in
 
-main.ts:21755
+main.ts:21760

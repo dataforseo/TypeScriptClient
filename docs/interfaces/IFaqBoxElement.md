@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:29456
+main.ts:29729
 
 ***
 
@@ -32,7 +32,7 @@ link of the element
 
 #### Defined in
 
-main.ts:29458
+main.ts:29731
 
 ***
 
@@ -40,11 +40,11 @@ main.ts:29458
 
 > `optional` **title**: `string`
 
-title of a given link element
+reference page title
 
 #### Defined in
 
-main.ts:29454
+main.ts:29727
 
 ***
 
@@ -56,4 +56,4 @@ type of element
 
 #### Defined in
 
-main.ts:29452
+main.ts:29725

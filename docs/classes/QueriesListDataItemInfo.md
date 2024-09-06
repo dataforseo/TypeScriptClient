@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:124076
+main.ts:124109
 
 ## Properties
 
@@ -46,7 +46,7 @@ related query
 
 #### Defined in
 
-main.ts:124069
+main.ts:124102
 
 ***
 
@@ -63,7 +63,7 @@ represents the popularity of the topic. Scoring is on a relative scale where a v
 
 #### Defined in
 
-main.ts:124072
+main.ts:124105
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:124072
 
 #### Defined in
 
-main.ts:124085
+main.ts:124118
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:124085
 
 #### Defined in
 
-main.ts:124103
+main.ts:124136
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:124103
 
 #### Defined in
 
-main.ts:124096
+main.ts:124129

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:149416
+main.ts:149449
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of backlinks pointing to the target
 
 #### Defined in
 
-main.ts:149412
+main.ts:149445
 
 ***
 
@@ -62,7 +62,7 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:149410
+main.ts:149443
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:149410
 
 #### Defined in
 
-main.ts:149425
+main.ts:149458
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:149425
 
 #### Defined in
 
-main.ts:149443
+main.ts:149476
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:149443
 
 #### Defined in
 
-main.ts:149436
+main.ts:149469

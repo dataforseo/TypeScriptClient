@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:36688
+main.ts:36721
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:36665
+main.ts:36698
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:36670
+main.ts:36703
 
 ***
 
@@ -85,7 +85,7 @@ answer_box, app, carousel, multi_carousel, featured_snippet, google_flights, goo
 
 #### Defined in
 
-main.ts:36678
+main.ts:36711
 
 ***
 
@@ -93,7 +93,7 @@ main.ts:36678
 
 > `optional` **items**: [`BaseSerpElementItem`](BaseSerpElementItem.md)[]
 
-contains arrays of elements available in the list
+items present in the element
 
 #### Implementation of
 
@@ -101,7 +101,7 @@ contains arrays of elements available in the list
 
 #### Defined in
 
-main.ts:36684
+main.ts:36717
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:36682
+main.ts:36715
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:36654
+main.ts:36687
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:36662
+main.ts:36695
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:36660
+main.ts:36693
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:36658
+main.ts:36691
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:36680
+main.ts:36713
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:36673
+main.ts:36706
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:36656
+main.ts:36689
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:36656
 
 #### Defined in
 
-main.ts:36697
+main.ts:36730
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:36697
 
 #### Defined in
 
-main.ts:36733
+main.ts:36766
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:36733
 
 #### Defined in
 
-main.ts:36726
+main.ts:36759

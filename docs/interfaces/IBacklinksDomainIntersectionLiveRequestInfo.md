@@ -26,7 +26,7 @@ example:
 
 #### Defined in
 
-main.ts:146303
+main.ts:146336
 
 ***
 
@@ -45,7 +45,7 @@ default value: live
 
 #### Defined in
 
-main.ts:146295
+main.ts:146328
 
 ***
 
@@ -60,7 +60,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146319
+main.ts:146352
 
 ***
 
@@ -80,7 +80,7 @@ example:
 
 #### Defined in
 
-main.ts:146234
+main.ts:146267
 
 ***
 
@@ -107,7 +107,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:146251
+main.ts:146284
 
 ***
 
@@ -123,7 +123,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146314
+main.ts:146347
 
 ***
 
@@ -138,7 +138,7 @@ default value: true
 
 #### Defined in
 
-main.ts:146308
+main.ts:146341
 
 ***
 
@@ -159,7 +159,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:146286
+main.ts:146319
 
 ***
 
@@ -177,7 +177,7 @@ default value: all
 
 #### Defined in
 
-main.ts:146327
+main.ts:146360
 
 ***
 
@@ -192,7 +192,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:146275
+main.ts:146308
 
 ***
 
@@ -207,7 +207,7 @@ if you specify the 10 value, the first ten backlinks in the results array will b
 
 #### Defined in
 
-main.ts:146270
+main.ts:146303
 
 ***
 
@@ -231,7 +231,7 @@ example:
 
 #### Defined in
 
-main.ts:146265
+main.ts:146298
 
 ***
 
@@ -247,7 +247,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:146333
+main.ts:146366
 
 ***
 
@@ -272,4 +272,4 @@ example:
 
 #### Defined in
 
-main.ts:146224
+main.ts:146257

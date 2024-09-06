@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:158176
+main.ts:158209
 
 ## Properties
 
@@ -55,7 +55,7 @@ examples:
 
 #### Defined in
 
-main.ts:158166
+main.ts:158199
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:158140
+main.ts:158173
 
 ***
 
@@ -94,7 +94,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:158150
+main.ts:158183
 
 ***
 
@@ -113,7 +113,7 @@ if you specify the 10 value, the first ten redirect chains in the results array 
 
 #### Defined in
 
-main.ts:158155
+main.ts:158188
 
 ***
 
@@ -133,7 +133,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:158172
+main.ts:158205
 
 ***
 
@@ -152,7 +152,7 @@ if you use this field, the API response will return only redirect chains which c
 
 #### Defined in
 
-main.ts:158145
+main.ts:158178
 
 ## Methods
 
@@ -170,7 +170,7 @@ main.ts:158145
 
 #### Defined in
 
-main.ts:158185
+main.ts:158218
 
 ***
 
@@ -188,7 +188,7 @@ main.ts:158185
 
 #### Defined in
 
-main.ts:158211
+main.ts:158244
 
 ***
 
@@ -206,4 +206,4 @@ main.ts:158211
 
 #### Defined in
 
-main.ts:158204
+main.ts:158237

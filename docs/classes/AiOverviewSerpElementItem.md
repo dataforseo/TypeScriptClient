@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:36575
+main.ts:36609
 
 ## Properties
 
@@ -70,7 +70,7 @@ if false, the ai_overview element is loaded from cache;
 
 #### Defined in
 
-main.ts:36561
+main.ts:36596
 
 ***
 
@@ -78,8 +78,7 @@ main.ts:36561
 
 > `optional` **items**: [`AiOverviewElement`](AiOverviewElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -87,7 +86,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:36564
+main.ts:36598
 
 ***
 
@@ -170,7 +169,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36571
+main.ts:36605
 
 ***
 
@@ -187,7 +186,7 @@ includes references to webpages that may have been used to generate the ai_overv
 
 #### Defined in
 
-main.ts:36567
+main.ts:36601
 
 ***
 
@@ -249,7 +248,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:36580
+main.ts:36614
 
 ***
 
@@ -271,7 +270,7 @@ main.ts:36580
 
 #### Defined in
 
-main.ts:36609
+main.ts:36643
 
 ***
 
@@ -293,4 +292,4 @@ main.ts:36609
 
 #### Defined in
 
-main.ts:36602
+main.ts:36636

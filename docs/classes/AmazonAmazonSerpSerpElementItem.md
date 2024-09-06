@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:103354
+main.ts:103387
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:103354
 
 #### Defined in
 
-main.ts:22315
+main.ts:22320
 
 ***
 
@@ -69,7 +69,7 @@ learn more about ASIN in this help center guide
 
 #### Defined in
 
-main.ts:103312
+main.ts:103345
 
 ***
 
@@ -85,7 +85,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:103343
+main.ts:103376
 
 ***
 
@@ -103,7 +103,7 @@ USD
 
 #### Defined in
 
-main.ts:103326
+main.ts:103359
 
 ***
 
@@ -122,7 +122,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:103350
+main.ts:103383
 
 ***
 
@@ -139,7 +139,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:103341
+main.ts:103374
 
 ***
 
@@ -155,7 +155,7 @@ description of the product
 
 #### Defined in
 
-main.ts:103345
+main.ts:103378
 
 ***
 
@@ -171,7 +171,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:103305
+main.ts:103338
 
 ***
 
@@ -187,7 +187,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:103314
+main.ts:103347
 
 ***
 
@@ -204,7 +204,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:103335
+main.ts:103368
 
 ***
 
@@ -221,7 +221,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:103332
+main.ts:103365
 
 ***
 
@@ -239,7 +239,7 @@ left, right
 
 #### Defined in
 
-main.ts:103303
+main.ts:103336
 
 ***
 
@@ -257,7 +257,7 @@ example:
 
 #### Defined in
 
-main.ts:103318
+main.ts:103351
 
 ***
 
@@ -275,7 +275,7 @@ example:
 
 #### Defined in
 
-main.ts:103322
+main.ts:103355
 
 ***
 
@@ -296,7 +296,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22311
+main.ts:22316
 
 ***
 
@@ -317,7 +317,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22308
+main.ts:22313
 
 ***
 
@@ -334,7 +334,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:103338
+main.ts:103371
 
 ***
 
@@ -350,7 +350,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103299
+main.ts:103332
 
 ***
 
@@ -367,7 +367,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:103329
+main.ts:103362
 
 ***
 
@@ -383,7 +383,7 @@ product title
 
 #### Defined in
 
-main.ts:103307
+main.ts:103340
 
 ***
 
@@ -403,7 +403,7 @@ type of element
 
 #### Defined in
 
-main.ts:22305
+main.ts:22310
 
 ***
 
@@ -419,7 +419,7 @@ URL of the product page
 
 #### Defined in
 
-main.ts:103309
+main.ts:103342
 
 ***
 
@@ -439,7 +439,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22313
+main.ts:22318
 
 ## Methods
 
@@ -461,7 +461,7 @@ main.ts:22313
 
 #### Defined in
 
-main.ts:103359
+main.ts:103392
 
 ***
 
@@ -483,7 +483,7 @@ main.ts:103359
 
 #### Defined in
 
-main.ts:103398
+main.ts:103431
 
 ***
 
@@ -505,4 +505,4 @@ main.ts:103398
 
 #### Defined in
 
-main.ts:103391
+main.ts:103424

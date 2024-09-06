@@ -32,7 +32,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:156033
+main.ts:156066
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:156003
+main.ts:156036
 
 ***
 
@@ -63,7 +63,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:156014
+main.ts:156047
 
 ***
 
@@ -78,7 +78,7 @@ if you specify the 10 value, the first ten resources in the results array will b
 
 #### Defined in
 
-main.ts:156019
+main.ts:156052
 
 ***
 
@@ -102,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:156059
+main.ts:156092
 
 ***
 
@@ -124,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:156045
+main.ts:156078
 
 ***
 
@@ -140,7 +140,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:156065
+main.ts:156098
 
 ***
 
@@ -156,4 +156,4 @@ if you do not indicate a url when setting a task, resource’s meta in the resul
 
 #### Defined in
 
-main.ts:156009
+main.ts:156042

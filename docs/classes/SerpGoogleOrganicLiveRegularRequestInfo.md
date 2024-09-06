@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:37318
+main.ts:37351
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:37278
+main.ts:37311
 
 ***
 
@@ -72,7 +72,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:37255
+main.ts:37288
 
 ***
 
@@ -92,7 +92,7 @@ default value: true
 
 #### Defined in
 
-main.ts:37297
+main.ts:37330
 
 ***
 
@@ -115,7 +115,7 @@ Note: queries containing the ‘cache:’ parameter are not supported and will r
 
 #### Defined in
 
-main.ts:37212
+main.ts:37245
 
 ***
 
@@ -136,7 +136,7 @@ en
 
 #### Defined in
 
-main.ts:37250
+main.ts:37283
 
 ***
 
@@ -157,7 +157,7 @@ English
 
 #### Defined in
 
-main.ts:37243
+main.ts:37276
 
 ***
 
@@ -178,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:37226
+main.ts:37259
 
 ***
 
@@ -202,7 +202,7 @@ example:
 
 #### Defined in
 
-main.ts:37236
+main.ts:37269
 
 ***
 
@@ -223,7 +223,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:37219
+main.ts:37252
 
 ***
 
@@ -244,7 +244,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:37304
+main.ts:37337
 
 ***
 
@@ -265,7 +265,7 @@ default value: android
 
 #### Defined in
 
-main.ts:37262
+main.ts:37295
 
 ***
 
@@ -286,7 +286,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:37269
+main.ts:37302
 
 ***
 
@@ -304,7 +304,7 @@ get the list of available parameters and additional details here
 
 #### Defined in
 
-main.ts:37308
+main.ts:37341
 
 ***
 
@@ -324,7 +324,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:37314
+main.ts:37347
 
 ***
 
@@ -351,7 +351,7 @@ example.com/example-page*  – returns results for all domain’s URLs that star
 
 #### Defined in
 
-main.ts:37291
+main.ts:37324
 
 ***
 
@@ -371,7 +371,7 @@ https://www.google.co.uk/search?q=%20rank%20tracker%20api&hl=en&gl=GB&uule=w+CAI
 
 #### Defined in
 
-main.ts:37203
+main.ts:37236
 
 ## Methods
 
@@ -389,7 +389,7 @@ main.ts:37203
 
 #### Defined in
 
-main.ts:37327
+main.ts:37360
 
 ***
 
@@ -407,7 +407,7 @@ main.ts:37327
 
 #### Defined in
 
-main.ts:37359
+main.ts:37392
 
 ***
 
@@ -425,4 +425,4 @@ main.ts:37359
 
 #### Defined in
 
-main.ts:37352
+main.ts:37385

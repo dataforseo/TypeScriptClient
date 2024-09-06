@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:96589
+main.ts:96622
 
 ***
 
@@ -36,7 +36,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:96614
+main.ts:96647
 
 ***
 
@@ -51,7 +51,7 @@ example:
 
 #### Defined in
 
-main.ts:96594
+main.ts:96627
 
 ***
 
@@ -66,7 +66,7 @@ answer_box, carousel, multi_carousel, featured_snippet, google_flights, google_r
 
 #### Defined in
 
-main.ts:96602
+main.ts:96635
 
 ***
 
@@ -79,7 +79,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96609
+main.ts:96642
 
 ***
 
@@ -91,7 +91,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96606
+main.ts:96639
 
 ***
 
@@ -104,7 +104,7 @@ the results will be provided for the corrected keyword
 
 #### Defined in
 
-main.ts:96578
+main.ts:96611
 
 ***
 
@@ -116,7 +116,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:96586
+main.ts:96619
 
 ***
 
@@ -128,7 +128,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:96584
+main.ts:96617
 
 ***
 
@@ -140,7 +140,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:96582
+main.ts:96615
 
 ***
 
@@ -152,7 +152,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:96604
+main.ts:96637
 
 ***
 
@@ -164,7 +164,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96575
+main.ts:96608
 
 ***
 
@@ -177,7 +177,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:96597
+main.ts:96630
 
 ***
 
@@ -189,4 +189,4 @@ type of element
 
 #### Defined in
 
-main.ts:96580
+main.ts:96613

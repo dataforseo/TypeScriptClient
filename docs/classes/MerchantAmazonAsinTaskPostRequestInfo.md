@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:181362
+main.ts:181395
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:181272
+main.ts:181305
 
 ***
 
@@ -70,7 +70,7 @@ en_GB
 
 #### Defined in
 
-main.ts:181319
+main.ts:181352
 
 ***
 
@@ -92,7 +92,7 @@ English (United Kingdom)
 
 #### Defined in
 
-main.ts:181312
+main.ts:181345
 
 ***
 
@@ -114,7 +114,7 @@ example:
 
 #### Defined in
 
-main.ts:181295
+main.ts:181328
 
 ***
 
@@ -137,7 +137,7 @@ example:
 
 #### Defined in
 
-main.ts:181304
+main.ts:181337
 
 ***
 
@@ -158,7 +158,7 @@ HA1,England,United Kingdom
 
 #### Defined in
 
-main.ts:181287
+main.ts:181320
 
 ***
 
@@ -182,7 +182,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:181358
+main.ts:181391
 
 ***
 
@@ -202,7 +202,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:181348
+main.ts:181381
 
 ***
 
@@ -226,7 +226,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:181342
+main.ts:181375
 
 ***
 
@@ -248,7 +248,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:181280
+main.ts:181313
 
 ***
 
@@ -269,7 +269,7 @@ amazon.com, amazon.co.uk, amazon.fr, etc.
 
 #### Defined in
 
-main.ts:181326
+main.ts:181359
 
 ***
 
@@ -289,7 +289,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:181332
+main.ts:181365
 
 ## Methods
 
@@ -307,7 +307,7 @@ main.ts:181332
 
 #### Defined in
 
-main.ts:181371
+main.ts:181404
 
 ***
 
@@ -325,7 +325,7 @@ main.ts:181371
 
 #### Defined in
 
-main.ts:181399
+main.ts:181432
 
 ***
 
@@ -343,4 +343,4 @@ main.ts:181399
 
 #### Defined in
 
-main.ts:181392
+main.ts:181425

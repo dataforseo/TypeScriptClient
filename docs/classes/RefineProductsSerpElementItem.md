@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:35460
+main.ts:35680
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`RefineProductsElement`](RefineProductsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:35452
+main.ts:35672
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35456
+main.ts:35676
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35449
+main.ts:35670
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:35465
+main.ts:35685
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:35465
 
 #### Defined in
 
-main.ts:35489
+main.ts:35709
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:35489
 
 #### Defined in
 
-main.ts:35482
+main.ts:35702

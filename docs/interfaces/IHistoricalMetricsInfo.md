@@ -23,7 +23,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:101622
+main.ts:101655
 
 ***
 
@@ -35,7 +35,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:101617
+main.ts:101650
 
 ***
 
@@ -50,7 +50,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:101615
+main.ts:101648
 
 ***
 
@@ -62,7 +62,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:101610
+main.ts:101643
 
 ***
 
@@ -74,4 +74,4 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:101608
+main.ts:101641

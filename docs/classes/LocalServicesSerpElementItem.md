@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:34312
+main.ts:34540
 
 ## Properties
 
@@ -68,7 +68,7 @@ source domain
 
 #### Defined in
 
-main.ts:34301
+main.ts:34530
 
 ***
 
@@ -76,8 +76,7 @@ main.ts:34301
 
 > `optional` **items**: [`LocalServicesElement`](LocalServicesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -85,7 +84,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34304
+main.ts:34532
 
 ***
 
@@ -168,7 +167,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34308
+main.ts:34536
 
 ***
 
@@ -184,7 +183,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34297
+main.ts:34526
 
 ***
 
@@ -220,7 +219,7 @@ source URL
 
 #### Defined in
 
-main.ts:34299
+main.ts:34528
 
 ***
 
@@ -262,7 +261,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:34317
+main.ts:34545
 
 ***
 
@@ -284,7 +283,7 @@ main.ts:34317
 
 #### Defined in
 
-main.ts:34343
+main.ts:34571
 
 ***
 
@@ -306,4 +305,4 @@ main.ts:34343
 
 #### Defined in
 
-main.ts:34336
+main.ts:34564

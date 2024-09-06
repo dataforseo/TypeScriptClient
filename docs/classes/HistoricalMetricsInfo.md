@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:101561
+main.ts:101594
 
 ## Properties
 
@@ -49,7 +49,7 @@ learn more about how the metric is calculated in this help center article https:
 
 #### Defined in
 
-main.ts:101557
+main.ts:101590
 
 ***
 
@@ -65,7 +65,7 @@ total count of organic SERPs that contain the domain
 
 #### Defined in
 
-main.ts:101552
+main.ts:101585
 
 ***
 
@@ -84,7 +84,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:101550
+main.ts:101583
 
 ***
 
@@ -100,7 +100,7 @@ month for which the data is provided
 
 #### Defined in
 
-main.ts:101545
+main.ts:101578
 
 ***
 
@@ -116,7 +116,7 @@ year for which the data is provided
 
 #### Defined in
 
-main.ts:101543
+main.ts:101576
 
 ## Methods
 
@@ -134,7 +134,7 @@ main.ts:101543
 
 #### Defined in
 
-main.ts:101570
+main.ts:101603
 
 ***
 
@@ -152,7 +152,7 @@ main.ts:101570
 
 #### Defined in
 
-main.ts:101591
+main.ts:101624
 
 ***
 
@@ -170,4 +170,4 @@ main.ts:101591
 
 #### Defined in
 
-main.ts:101584
+main.ts:101617

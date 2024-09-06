@@ -23,7 +23,7 @@ example:
 
 #### Defined in
 
-main.ts:127245
+main.ts:127278
 
 ***
 
@@ -35,7 +35,7 @@ contains keyword popularity and related data
 
 #### Defined in
 
-main.ts:127249
+main.ts:127282
 
 ***
 
@@ -47,7 +47,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:127247
+main.ts:127280
 
 ***
 
@@ -59,7 +59,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:127232
+main.ts:127265
 
 ***
 
@@ -72,7 +72,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127240
+main.ts:127273
 
 ***
 
@@ -85,7 +85,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:127237
+main.ts:127270
 
 ***
 
@@ -97,4 +97,4 @@ type of element
 
 #### Defined in
 
-main.ts:127234
+main.ts:127267

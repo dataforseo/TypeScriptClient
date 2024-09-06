@@ -16,11 +16,11 @@
 
 > `optional` **domain**: `string`
 
-domain in SERP
+website domain
 
 #### Defined in
 
-main.ts:36449
+main.ts:29265
 
 ***
 
@@ -28,12 +28,11 @@ main.ts:36449
 
 > `optional` **source**: `string`
 
-source of the element
-indicates the source of information included in the questions_and_answers_element
+reference source name or title
 
 #### Defined in
 
-main.ts:36447
+main.ts:29263
 
 ***
 
@@ -41,12 +40,11 @@ main.ts:36447
 
 > `optional` **text**: `string`
 
-reference text
-text snippet from the page that was used to generate the ai_overview_element
+row content
 
 #### Defined in
 
-main.ts:36456
+main.ts:29271
 
 ***
 
@@ -54,11 +52,11 @@ main.ts:36456
 
 > `optional` **title**: `string`
 
-title of a given shopping element
+title of a given link element
 
 #### Defined in
 
-main.ts:36453
+main.ts:29269
 
 ***
 
@@ -70,7 +68,7 @@ type of element
 
 #### Defined in
 
-main.ts:36444
+main.ts:29261
 
 ***
 
@@ -82,4 +80,4 @@ URL
 
 #### Defined in
 
-main.ts:36451
+main.ts:29267

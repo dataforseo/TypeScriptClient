@@ -24,7 +24,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:98468
+main.ts:98501
 
 ***
 
@@ -42,7 +42,7 @@ left, right
 
 #### Defined in
 
-main.ts:21020
+main.ts:21025
 
 ***
 
@@ -59,7 +59,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:21016
+main.ts:21021
 
 ***
 
@@ -76,7 +76,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21013
+main.ts:21018
 
 ***
 
@@ -89,7 +89,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:98471
+main.ts:98504
 
 ***
 
@@ -101,7 +101,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:98464
+main.ts:98497
 
 ***
 
@@ -117,7 +117,7 @@ type of element
 
 #### Defined in
 
-main.ts:21010
+main.ts:21015
 
 ***
 
@@ -129,7 +129,7 @@ relevant URL of the Ad element in SERP
 
 #### Defined in
 
-main.ts:98466
+main.ts:98499
 
 ***
 
@@ -145,4 +145,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:21022
+main.ts:21027

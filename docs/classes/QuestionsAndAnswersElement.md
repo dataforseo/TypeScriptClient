@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:33568
+main.ts:33805
 
 ## Properties
 
@@ -46,7 +46,7 @@ answer included in the item
 
 #### Defined in
 
-main.ts:33557
+main.ts:33794
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Defined in
 
-main.ts:33562
+main.ts:33799
 
 ***
 
@@ -78,7 +78,7 @@ question included in the item
 
 #### Defined in
 
-main.ts:33555
+main.ts:33792
 
 ***
 
@@ -95,7 +95,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:33560
+main.ts:33797
 
 ***
 
@@ -111,7 +111,7 @@ type of element
 
 #### Defined in
 
-main.ts:33551
+main.ts:33788
 
 ***
 
@@ -127,7 +127,7 @@ URL
 
 #### Defined in
 
-main.ts:33553
+main.ts:33790
 
 ***
 
@@ -143,7 +143,7 @@ answer upvotes from the source
 
 #### Defined in
 
-main.ts:33564
+main.ts:33801
 
 ## Methods
 
@@ -161,7 +161,7 @@ main.ts:33564
 
 #### Defined in
 
-main.ts:33577
+main.ts:33814
 
 ***
 
@@ -179,7 +179,7 @@ main.ts:33577
 
 #### Defined in
 
-main.ts:33600
+main.ts:33837
 
 ***
 
@@ -197,4 +197,4 @@ main.ts:33600
 
 #### Defined in
 
-main.ts:33593
+main.ts:33830

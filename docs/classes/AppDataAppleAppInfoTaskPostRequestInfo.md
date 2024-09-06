@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:193679
+main.ts:193712
 
 ## Properties
 
@@ -52,7 +52,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:193607
+main.ts:193640
 
 ***
 
@@ -73,7 +73,7 @@ en
 
 #### Defined in
 
-main.ts:193635
+main.ts:193668
 
 ***
 
@@ -94,7 +94,7 @@ English
 
 #### Defined in
 
-main.ts:193628
+main.ts:193661
 
 ***
 
@@ -115,7 +115,7 @@ example:
 
 #### Defined in
 
-main.ts:193621
+main.ts:193654
 
 ***
 
@@ -136,7 +136,7 @@ West Los Angeles,California,United States
 
 #### Defined in
 
-main.ts:193614
+main.ts:193647
 
 ***
 
@@ -160,7 +160,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:193675
+main.ts:193708
 
 ***
 
@@ -180,7 +180,7 @@ advanced
 
 #### Defined in
 
-main.ts:193665
+main.ts:193698
 
 ***
 
@@ -204,7 +204,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:193659
+main.ts:193692
 
 ***
 
@@ -226,7 +226,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:193643
+main.ts:193676
 
 ***
 
@@ -246,7 +246,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:193649
+main.ts:193682
 
 ## Methods
 
@@ -264,7 +264,7 @@ main.ts:193649
 
 #### Defined in
 
-main.ts:193688
+main.ts:193721
 
 ***
 
@@ -282,7 +282,7 @@ main.ts:193688
 
 #### Defined in
 
-main.ts:193714
+main.ts:193747
 
 ***
 
@@ -300,4 +300,4 @@ main.ts:193714
 
 #### Defined in
 
-main.ts:193707
+main.ts:193740

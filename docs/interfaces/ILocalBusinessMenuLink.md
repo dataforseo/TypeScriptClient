@@ -25,7 +25,7 @@ domain of the online menu system
 
 #### Defined in
 
-main.ts:24128
+main.ts:24133
 
 ***
 
@@ -41,7 +41,7 @@ type of element
 
 #### Defined in
 
-main.ts:23900
+main.ts:23905
 
 ***
 
@@ -53,4 +53,4 @@ URL to view the menu
 
 #### Defined in
 
-main.ts:24130
+main.ts:24135

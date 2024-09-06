@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:30941
+main.ts:31204
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:30933
+main.ts:31196
 
 ***
 
@@ -62,7 +62,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:30937
+main.ts:31200
 
 ***
 
@@ -78,7 +78,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30931
+main.ts:31194
 
 ***
 
@@ -94,7 +94,7 @@ type of element
 
 #### Defined in
 
-main.ts:30929
+main.ts:31192
 
 ***
 
@@ -110,7 +110,7 @@ URL
 
 #### Defined in
 
-main.ts:30935
+main.ts:31198
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:30935
 
 #### Defined in
 
-main.ts:30950
+main.ts:31213
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:30950
 
 #### Defined in
 
-main.ts:30971
+main.ts:31234
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:30971
 
 #### Defined in
 
-main.ts:30964
+main.ts:31227

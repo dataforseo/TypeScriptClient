@@ -25,7 +25,7 @@ learn more about ASIN in this help center guide
 
 #### Defined in
 
-main.ts:103446
+main.ts:103479
 
 ***
 
@@ -37,7 +37,7 @@ number of product purchases in the past month
 
 #### Defined in
 
-main.ts:103477
+main.ts:103510
 
 ***
 
@@ -51,7 +51,7 @@ USD
 
 #### Defined in
 
-main.ts:103460
+main.ts:103493
 
 ***
 
@@ -66,7 +66,7 @@ B07G82D89J
 
 #### Defined in
 
-main.ts:103484
+main.ts:103517
 
 ***
 
@@ -79,7 +79,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:103475
+main.ts:103508
 
 ***
 
@@ -91,7 +91,7 @@ description of the product
 
 #### Defined in
 
-main.ts:103479
+main.ts:103512
 
 ***
 
@@ -103,7 +103,7 @@ Amazon domain
 
 #### Defined in
 
-main.ts:103439
+main.ts:103472
 
 ***
 
@@ -115,7 +115,7 @@ URL of the product image featured in the results
 
 #### Defined in
 
-main.ts:103448
+main.ts:103481
 
 ***
 
@@ -128,7 +128,7 @@ if the value is true, the product is marked with the “Amazon’s choice” lab
 
 #### Defined in
 
-main.ts:103469
+main.ts:103502
 
 ***
 
@@ -141,7 +141,7 @@ if the value is true, the product is marked with the “Best Seller” label
 
 #### Defined in
 
-main.ts:103466
+main.ts:103499
 
 ***
 
@@ -155,7 +155,7 @@ left, right
 
 #### Defined in
 
-main.ts:103437
+main.ts:103470
 
 ***
 
@@ -169,7 +169,7 @@ example:
 
 #### Defined in
 
-main.ts:103452
+main.ts:103485
 
 ***
 
@@ -183,7 +183,7 @@ example:
 
 #### Defined in
 
-main.ts:103456
+main.ts:103489
 
 ***
 
@@ -200,7 +200,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22407
+main.ts:22412
 
 ***
 
@@ -217,7 +217,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22404
+main.ts:22409
 
 ***
 
@@ -230,7 +230,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:103472
+main.ts:103505
 
 ***
 
@@ -242,7 +242,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103433
+main.ts:103466
 
 ***
 
@@ -255,7 +255,7 @@ contains special offer details, including coupon and Subscribe & Save discounts
 
 #### Defined in
 
-main.ts:103463
+main.ts:103496
 
 ***
 
@@ -267,7 +267,7 @@ product title
 
 #### Defined in
 
-main.ts:103441
+main.ts:103474
 
 ***
 
@@ -283,7 +283,7 @@ type of element
 
 #### Defined in
 
-main.ts:22401
+main.ts:22406
 
 ***
 
@@ -295,7 +295,7 @@ URL of the product page
 
 #### Defined in
 
-main.ts:103443
+main.ts:103476
 
 ***
 
@@ -311,4 +311,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22409
+main.ts:22414

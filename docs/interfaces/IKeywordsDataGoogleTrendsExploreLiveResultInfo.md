@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:124664
+main.ts:124697
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:124669
+main.ts:124702
 
 ***
 
@@ -48,7 +48,7 @@ items on the Google Trends page
 
 #### Defined in
 
-main.ts:124673
+main.ts:124706
 
 ***
 
@@ -60,7 +60,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:124671
+main.ts:124704
 
 ***
 
@@ -72,7 +72,7 @@ keywords in a POST array
 
 #### Defined in
 
-main.ts:124653
+main.ts:124686
 
 ***
 
@@ -85,7 +85,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124661
+main.ts:124694
 
 ***
 
@@ -98,7 +98,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:124658
+main.ts:124691
 
 ***
 
@@ -110,4 +110,4 @@ type of element
 
 #### Defined in
 
-main.ts:124655
+main.ts:124688

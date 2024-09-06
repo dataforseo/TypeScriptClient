@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:107996
+main.ts:108029
 
 ## Properties
 
@@ -57,7 +57,7 @@ example:
 
 #### Defined in
 
-main.ts:107875
+main.ts:107908
 
 ***
 
@@ -91,7 +91,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:107970
+main.ts:108003
 
 ***
 
@@ -110,7 +110,7 @@ default value: false
 
 #### Defined in
 
-main.ts:107922
+main.ts:107955
 
 ***
 
@@ -129,7 +129,7 @@ default value: false
 
 #### Defined in
 
-main.ts:107950
+main.ts:107983
 
 ***
 
@@ -148,7 +148,7 @@ default value: true
 
 #### Defined in
 
-main.ts:107937
+main.ts:107970
 
 ***
 
@@ -170,7 +170,7 @@ by default, results are based on the intersect mode if you specify only pages ar
 
 #### Defined in
 
-main.ts:107945
+main.ts:107978
 
 ***
 
@@ -192,7 +192,7 @@ default value:
 
 #### Defined in
 
-main.ts:107917
+main.ts:107950
 
 ***
 
@@ -214,7 +214,7 @@ en
 
 #### Defined in
 
-main.ts:107909
+main.ts:107942
 
 ***
 
@@ -236,7 +236,7 @@ English
 
 #### Defined in
 
-main.ts:107901
+main.ts:107934
 
 ***
 
@@ -255,7 +255,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:107927
+main.ts:107960
 
 ***
 
@@ -278,7 +278,7 @@ example:
 
 #### Defined in
 
-main.ts:107893
+main.ts:107926
 
 ***
 
@@ -301,7 +301,7 @@ United States
 
 #### Defined in
 
-main.ts:107884
+main.ts:107917
 
 ***
 
@@ -320,7 +320,7 @@ if you specify 10 here, the first ten keywords in the results array will be omit
 
 #### Defined in
 
-main.ts:107932
+main.ts:107965
 
 ***
 
@@ -350,7 +350,7 @@ example:
 
 #### Defined in
 
-main.ts:107986
+main.ts:108019
 
 ***
 
@@ -389,7 +389,7 @@ Note: this endpoint will not provide results if the number of intersecting keywo
 
 #### Defined in
 
-main.ts:107862
+main.ts:107895
 
 ***
 
@@ -409,7 +409,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:107992
+main.ts:108025
 
 ## Methods
 
@@ -427,7 +427,7 @@ main.ts:107992
 
 #### Defined in
 
-main.ts:108005
+main.ts:108038
 
 ***
 
@@ -445,7 +445,7 @@ main.ts:108005
 
 #### Defined in
 
-main.ts:108059
+main.ts:108092
 
 ***
 
@@ -463,4 +463,4 @@ main.ts:108059
 
 #### Defined in
 
-main.ts:108052
+main.ts:108085

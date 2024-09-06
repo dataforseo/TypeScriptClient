@@ -32,7 +32,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:154927
+main.ts:154960
 
 ## Properties
 
@@ -48,7 +48,7 @@ resource errors
 
 #### Defined in
 
-main.ts:154921
+main.ts:154954
 
 ***
 
@@ -64,7 +64,7 @@ resource warnings
 
 #### Defined in
 
-main.ts:154923
+main.ts:154956
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:154923
 
 #### Defined in
 
-main.ts:154936
+main.ts:154969
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:154936
 
 #### Defined in
 
-main.ts:154962
+main.ts:154995
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:154962
 
 #### Defined in
 
-main.ts:154955
+main.ts:154988

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22495
+main.ts:22500
 
 ## Properties
 
@@ -47,7 +47,7 @@ indicates the max_crawl_pages limit you specified when setting a task
 
 #### Defined in
 
-main.ts:22487
+main.ts:22492
 
 ***
 
@@ -63,7 +63,7 @@ number of crawled pages
 
 #### Defined in
 
-main.ts:22491
+main.ts:22496
 
 ***
 
@@ -79,7 +79,7 @@ number of pages that are currently in the crawling queue
 
 #### Defined in
 
-main.ts:22489
+main.ts:22494
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:22489
 
 #### Defined in
 
-main.ts:22504
+main.ts:22509
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:22504
 
 #### Defined in
 
-main.ts:22523
+main.ts:22528
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:22523
 
 #### Defined in
 
-main.ts:22516
+main.ts:22521

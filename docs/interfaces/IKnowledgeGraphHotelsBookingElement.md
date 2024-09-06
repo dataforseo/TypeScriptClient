@@ -20,7 +20,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29063
+main.ts:29074
 
 ***
 
@@ -32,7 +32,7 @@ domain where a link points
 
 #### Defined in
 
-main.ts:29067
+main.ts:29078
 
 ***
 
@@ -44,7 +44,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:29072
+main.ts:29083
 
 ***
 
@@ -57,7 +57,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:29070
+main.ts:29081
 
 ***
 
@@ -69,7 +69,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:29061
+main.ts:29072
 
 ***
 
@@ -81,7 +81,7 @@ type of element
 
 #### Defined in
 
-main.ts:29059
+main.ts:29070
 
 ***
 
@@ -93,4 +93,4 @@ relevant URL
 
 #### Defined in
 
-main.ts:29065
+main.ts:29076

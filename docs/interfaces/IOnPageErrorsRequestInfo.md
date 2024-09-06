@@ -25,7 +25,7 @@ example:
 
 #### Defined in
 
-main.ts:152138
+main.ts:152171
 
 ***
 
@@ -42,7 +42,7 @@ example:
 
 #### Defined in
 
-main.ts:152145
+main.ts:152178
 
 ***
 
@@ -58,7 +58,7 @@ example: on_page/task_post, postback_url, pingback_url
 
 #### Defined in
 
-main.ts:152131
+main.ts:152164
 
 ***
 
@@ -73,7 +73,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:152120
+main.ts:152153
 
 ***
 
@@ -88,4 +88,4 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:152125
+main.ts:152158

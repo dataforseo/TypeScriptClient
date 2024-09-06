@@ -20,7 +20,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:205419
+main.ts:205452
 
 ***
 
@@ -32,7 +32,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:205423
+main.ts:205456
 
 ***
 
@@ -44,7 +44,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:205425
+main.ts:205458
 
 ***
 
@@ -57,7 +57,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:205412
+main.ts:205445
 
 ***
 
@@ -70,7 +70,7 @@ can take the following values: google
 
 #### Defined in
 
-main.ts:205415
+main.ts:205448
 
 ***
 
@@ -82,7 +82,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:205417
+main.ts:205450
 
 ***
 
@@ -94,4 +94,4 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:205421
+main.ts:205454

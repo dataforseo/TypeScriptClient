@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:157246
+main.ts:157279
 
 ## Properties
 
@@ -46,7 +46,7 @@ information about the page with duplicate content
 
 #### Defined in
 
-main.ts:157242
+main.ts:157275
 
 ***
 
@@ -64,7 +64,7 @@ can take values from 0 to 10
 
 #### Defined in
 
-main.ts:157240
+main.ts:157273
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:157240
 
 #### Defined in
 
-main.ts:157255
+main.ts:157288
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:157255
 
 #### Defined in
 
-main.ts:157277
+main.ts:157310
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:157277
 
 #### Defined in
 
-main.ts:157270
+main.ts:157303

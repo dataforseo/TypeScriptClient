@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:103136
+main.ts:103169
 
 ## Properties
 
@@ -49,7 +49,7 @@ you can receive the asin parameter by making a separate request to the Amazon Pr
 
 #### Defined in
 
-main.ts:103054
+main.ts:103087
 
 ***
 
@@ -74,7 +74,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:103105
+main.ts:103138
 
 ***
 
@@ -93,7 +93,7 @@ default value: false
 
 #### Defined in
 
-main.ts:103094
+main.ts:103127
 
 ***
 
@@ -114,7 +114,7 @@ en
 
 #### Defined in
 
-main.ts:103084
+main.ts:103117
 
 ***
 
@@ -135,7 +135,7 @@ English
 
 #### Defined in
 
-main.ts:103077
+main.ts:103110
 
 ***
 
@@ -154,7 +154,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:103089
+main.ts:103122
 
 ***
 
@@ -176,7 +176,7 @@ example:
 
 #### Defined in
 
-main.ts:103070
+main.ts:103103
 
 ***
 
@@ -198,7 +198,7 @@ United States
 
 #### Defined in
 
-main.ts:103062
+main.ts:103095
 
 ***
 
@@ -217,7 +217,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:103126
+main.ts:103159
 
 ***
 
@@ -247,7 +247,7 @@ example:
 
 #### Defined in
 
-main.ts:103121
+main.ts:103154
 
 ***
 
@@ -267,7 +267,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:103132
+main.ts:103165
 
 ## Methods
 
@@ -285,7 +285,7 @@ main.ts:103132
 
 #### Defined in
 
-main.ts:103145
+main.ts:103178
 
 ***
 
@@ -303,7 +303,7 @@ main.ts:103145
 
 #### Defined in
 
-main.ts:103180
+main.ts:103213
 
 ***
 
@@ -321,4 +321,4 @@ main.ts:103180
 
 #### Defined in
 
-main.ts:103173
+main.ts:103206

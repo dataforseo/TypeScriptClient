@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:92344
+main.ts:92377
 
 ## Properties
 
@@ -47,7 +47,7 @@ the arithmetic mean of values in the keywords_positions array
 
 #### Defined in
 
-main.ts:92314
+main.ts:92347
 
 ***
 
@@ -63,7 +63,7 @@ domain name of the detected SERP competitor
 
 #### Defined in
 
-main.ts:92311
+main.ts:92344
 
 ***
 
@@ -82,7 +82,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:92326
+main.ts:92359
 
 ***
 
@@ -98,7 +98,7 @@ the number of specified keywords the domain has positions for in SERPs
 
 #### Defined in
 
-main.ts:92328
+main.ts:92361
 
 ***
 
@@ -119,7 +119,7 @@ SERP positions the related domain holds in SERP for the specified keywords
 
 #### Defined in
 
-main.ts:92340
+main.ts:92373
 
 ***
 
@@ -136,7 +136,7 @@ the median of the values in the keywords_positions array
 
 #### Defined in
 
-main.ts:92317
+main.ts:92350
 
 ***
 
@@ -154,7 +154,7 @@ calculated as sum(100-keywords_positions)
 
 #### Defined in
 
-main.ts:92321
+main.ts:92354
 
 ***
 
@@ -171,7 +171,7 @@ represents the number of search results in SERP relevant to the domain for the s
 
 #### Defined in
 
-main.ts:92337
+main.ts:92370
 
 ***
 
@@ -187,7 +187,7 @@ search engine type
 
 #### Defined in
 
-main.ts:92309
+main.ts:92342
 
 ***
 
@@ -207,7 +207,7 @@ keywords with positions from 20 to 100 have the visibility index equal to 0
 
 #### Defined in
 
-main.ts:92334
+main.ts:92367
 
 ## Methods
 
@@ -225,7 +225,7 @@ main.ts:92334
 
 #### Defined in
 
-main.ts:92353
+main.ts:92386
 
 ***
 
@@ -243,7 +243,7 @@ main.ts:92353
 
 #### Defined in
 
-main.ts:92385
+main.ts:92418
 
 ***
 
@@ -261,4 +261,4 @@ main.ts:92385
 
 #### Defined in
 
-main.ts:92378
+main.ts:92411

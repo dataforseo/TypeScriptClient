@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:33108
+main.ts:33348
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`PodcastsElement`](PodcastsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33100
+main.ts:33340
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33104
+main.ts:33344
 
 ***
 
@@ -214,7 +213,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:33113
+main.ts:33353
 
 ***
 
@@ -236,7 +235,7 @@ main.ts:33113
 
 #### Defined in
 
-main.ts:33136
+main.ts:33376
 
 ***
 
@@ -258,4 +257,4 @@ main.ts:33136
 
 #### Defined in
 
-main.ts:33129
+main.ts:33369

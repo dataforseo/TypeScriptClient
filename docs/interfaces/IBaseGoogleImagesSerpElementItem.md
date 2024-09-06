@@ -23,7 +23,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:47611
+main.ts:47644
 
 ***
 
@@ -37,7 +37,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:47608
+main.ts:47641
 
 ***
 
@@ -49,7 +49,7 @@ type of element
 
 #### Defined in
 
-main.ts:47604
+main.ts:47637
 
 ***
 
@@ -61,4 +61,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:47613
+main.ts:47646

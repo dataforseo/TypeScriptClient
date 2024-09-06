@@ -20,7 +20,7 @@ amount of money left in your account
 
 #### Defined in
 
-main.ts:220871
+main.ts:220904
 
 ***
 
@@ -32,7 +32,7 @@ cost limits
 
 #### Defined in
 
-main.ts:220873
+main.ts:220906
 
 ***
 
@@ -44,7 +44,7 @@ statistics of your spending
 
 #### Defined in
 
-main.ts:220875
+main.ts:220908
 
 ***
 
@@ -56,4 +56,4 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:220869
+main.ts:220902

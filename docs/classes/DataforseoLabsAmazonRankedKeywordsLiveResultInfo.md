@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:103687
+main.ts:103720
 
 ## Properties
 
@@ -46,7 +46,7 @@ ASIN in a POST array
 
 #### Defined in
 
-main.ts:103671
+main.ts:103704
 
 ***
 
@@ -62,7 +62,7 @@ contains detected Amazon product competitors and related data
 
 #### Defined in
 
-main.ts:103683
+main.ts:103716
 
 ***
 
@@ -78,7 +78,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:103681
+main.ts:103714
 
 ***
 
@@ -95,7 +95,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:103677
+main.ts:103710
 
 ***
 
@@ -112,7 +112,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:103674
+main.ts:103707
 
 ***
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:103669
+main.ts:103702
 
 ***
 
@@ -144,7 +144,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:103679
+main.ts:103712
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:103679
 
 #### Defined in
 
-main.ts:103696
+main.ts:103729
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:103696
 
 #### Defined in
 
-main.ts:103723
+main.ts:103756
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:103723
 
 #### Defined in
 
-main.ts:103716
+main.ts:103749

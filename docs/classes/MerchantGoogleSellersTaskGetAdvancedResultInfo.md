@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:176447
+main.ts:176480
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:176420
+main.ts:176453
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:176425
+main.ts:176458
 
 ***
 
@@ -82,7 +82,7 @@ URL to the product image
 
 #### Defined in
 
-main.ts:176431
+main.ts:176464
 
 ***
 
@@ -101,7 +101,7 @@ shops_list, buy_on_google
 
 #### Defined in
 
-main.ts:176439
+main.ts:176472
 
 ***
 
@@ -117,7 +117,7 @@ items in SERP
 
 #### Defined in
 
-main.ts:176443
+main.ts:176476
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:176441
+main.ts:176474
 
 ***
 
@@ -149,7 +149,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:176417
+main.ts:176450
 
 ***
 
@@ -165,7 +165,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:176415
+main.ts:176448
 
 ***
 
@@ -182,7 +182,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:176409
+main.ts:176442
 
 ***
 
@@ -199,7 +199,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:176434
+main.ts:176467
 
 ***
 
@@ -215,7 +215,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:176413
+main.ts:176446
 
 ***
 
@@ -231,7 +231,7 @@ title of the product
 
 #### Defined in
 
-main.ts:176427
+main.ts:176460
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Defined in
 
-main.ts:176411
+main.ts:176444
 
 ***
 
@@ -263,7 +263,7 @@ URL to the product page
 
 #### Defined in
 
-main.ts:176429
+main.ts:176462
 
 ## Methods
 
@@ -281,7 +281,7 @@ main.ts:176429
 
 #### Defined in
 
-main.ts:176456
+main.ts:176489
 
 ***
 
@@ -299,7 +299,7 @@ main.ts:176456
 
 #### Defined in
 
-main.ts:176494
+main.ts:176527
 
 ***
 
@@ -317,4 +317,4 @@ main.ts:176494
 
 #### Defined in
 
-main.ts:176487
+main.ts:176520

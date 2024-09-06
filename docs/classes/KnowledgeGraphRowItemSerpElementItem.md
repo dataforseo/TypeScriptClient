@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:28371
+main.ts:28377
 
 ## Properties
 
@@ -70,7 +70,7 @@ kc:/common/topic:social media presence
 
 #### Defined in
 
-main.ts:28359
+main.ts:28364
 
 ***
 
@@ -86,7 +86,7 @@ links featured in the faq_box_element
 
 #### Defined in
 
-main.ts:28363
+main.ts:28369
 
 ***
 
@@ -169,7 +169,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28367
+main.ts:28373
 
 ***
 
@@ -177,7 +177,8 @@ main.ts:28367
 
 > `optional` **text**: `string`
 
-row content
+reference text
+text snippet from the page that was used to generate the ai_overview_element
 
 #### Implementation of
 
@@ -185,7 +186,7 @@ row content
 
 #### Defined in
 
-main.ts:28361
+main.ts:28367
 
 ***
 
@@ -201,7 +202,7 @@ title of the item
 
 #### Defined in
 
-main.ts:28355
+main.ts:28360
 
 ***
 
@@ -263,7 +264,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28376
+main.ts:28382
 
 ***
 
@@ -285,7 +286,7 @@ main.ts:28376
 
 #### Defined in
 
-main.ts:28402
+main.ts:28408
 
 ***
 
@@ -307,4 +308,4 @@ main.ts:28402
 
 #### Defined in
 
-main.ts:28395
+main.ts:28401

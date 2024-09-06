@@ -20,7 +20,7 @@ ID of the answer
 
 #### Defined in
 
-main.ts:209545
+main.ts:209578
 
 ***
 
@@ -32,7 +32,7 @@ current text of the answer
 
 #### Defined in
 
-main.ts:209553
+main.ts:209586
 
 ***
 
@@ -44,7 +44,7 @@ original text of the answer
 
 #### Defined in
 
-main.ts:209555
+main.ts:209588
 
 ***
 
@@ -56,7 +56,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:209547
+main.ts:209580
 
 ***
 
@@ -68,7 +68,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:209551
+main.ts:209584
 
 ***
 
@@ -80,7 +80,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:209549
+main.ts:209582
 
 ***
 
@@ -92,7 +92,7 @@ estimated time when the answer was posted
 
 #### Defined in
 
-main.ts:209557
+main.ts:209590
 
 ***
 
@@ -104,7 +104,7 @@ exact time when the answer was posted
 
 #### Defined in
 
-main.ts:209559
+main.ts:209592
 
 ***
 
@@ -116,4 +116,4 @@ type of element
 
 #### Defined in
 
-main.ts:209543
+main.ts:209576

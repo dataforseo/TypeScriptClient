@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:161348
+main.ts:161381
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161339
+main.ts:161372
 
 ***
 
@@ -64,7 +64,7 @@ you can find more information about content priority calculation in this help ce
 
 #### Defined in
 
-main.ts:161342
+main.ts:161375
 
 ***
 
@@ -80,7 +80,7 @@ content of the table on the page
 
 #### Defined in
 
-main.ts:161344
+main.ts:161377
 
 ## Methods
 
@@ -98,7 +98,7 @@ main.ts:161344
 
 #### Defined in
 
-main.ts:161357
+main.ts:161390
 
 ***
 
@@ -116,7 +116,7 @@ main.ts:161357
 
 #### Defined in
 
-main.ts:161388
+main.ts:161421
 
 ***
 
@@ -134,4 +134,4 @@ main.ts:161388
 
 #### Defined in
 
-main.ts:161381
+main.ts:161414

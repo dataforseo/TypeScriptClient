@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:197627
+main.ts:197660
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of businesses in this location in our database
 
 #### Defined in
 
-main.ts:197623
+main.ts:197656
 
 ***
 
@@ -62,7 +62,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:197621
+main.ts:197654
 
 ***
 
@@ -78,7 +78,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:197619
+main.ts:197652
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:197619
 
 #### Defined in
 
-main.ts:197636
+main.ts:197669
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:197636
 
 #### Defined in
 
-main.ts:197655
+main.ts:197688
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:197655
 
 #### Defined in
 
-main.ts:197648
+main.ts:197681

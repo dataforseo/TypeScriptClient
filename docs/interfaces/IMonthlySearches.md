@@ -20,7 +20,7 @@ month
 
 #### Defined in
 
-main.ts:82624
+main.ts:82657
 
 ***
 
@@ -32,7 +32,7 @@ monthly average search volume rate
 
 #### Defined in
 
-main.ts:82626
+main.ts:82659
 
 ***
 
@@ -44,4 +44,4 @@ year
 
 #### Defined in
 
-main.ts:82622
+main.ts:82655

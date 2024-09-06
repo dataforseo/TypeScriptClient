@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:160403
+main.ts:160436
 
 ## Properties
 
@@ -50,7 +50,7 @@ example:
 
 #### Defined in
 
-main.ts:160394
+main.ts:160427
 
 ***
 
@@ -69,7 +69,7 @@ Note: this field is optional if the task was set using the Instant Pages endpoin
 
 #### Defined in
 
-main.ts:160399
+main.ts:160432
 
 ## Methods
 
@@ -87,7 +87,7 @@ main.ts:160399
 
 #### Defined in
 
-main.ts:160412
+main.ts:160445
 
 ***
 
@@ -105,7 +105,7 @@ main.ts:160412
 
 #### Defined in
 
-main.ts:160430
+main.ts:160463
 
 ***
 
@@ -123,4 +123,4 @@ main.ts:160430
 
 #### Defined in
 
-main.ts:160423
+main.ts:160456

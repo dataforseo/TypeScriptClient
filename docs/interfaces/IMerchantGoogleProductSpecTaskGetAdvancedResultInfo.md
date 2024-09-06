@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:177693
+main.ts:177726
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:177698
+main.ts:177731
 
 ***
 
@@ -48,7 +48,7 @@ description of the product
 
 #### Defined in
 
-main.ts:177686
+main.ts:177719
 
 ***
 
@@ -60,7 +60,7 @@ URL of the product image
 
 #### Defined in
 
-main.ts:177688
+main.ts:177721
 
 ***
 
@@ -74,7 +74,7 @@ shopping_specification
 
 #### Defined in
 
-main.ts:177702
+main.ts:177735
 
 ***
 
@@ -87,7 +87,7 @@ contains all product attributes and related data listed on the product specifica
 
 #### Defined in
 
-main.ts:177707
+main.ts:177740
 
 ***
 
@@ -99,7 +99,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:177704
+main.ts:177737
 
 ***
 
@@ -111,7 +111,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:177682
+main.ts:177715
 
 ***
 
@@ -123,7 +123,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:177680
+main.ts:177713
 
 ***
 
@@ -136,7 +136,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:177674
+main.ts:177707
 
 ***
 
@@ -148,7 +148,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:177678
+main.ts:177711
 
 ***
 
@@ -160,7 +160,7 @@ tags of the product
 
 #### Defined in
 
-main.ts:177690
+main.ts:177723
 
 ***
 
@@ -172,7 +172,7 @@ title of the product
 
 #### Defined in
 
-main.ts:177684
+main.ts:177717
 
 ***
 
@@ -184,4 +184,4 @@ type of element
 
 #### Defined in
 
-main.ts:177676
+main.ts:177709

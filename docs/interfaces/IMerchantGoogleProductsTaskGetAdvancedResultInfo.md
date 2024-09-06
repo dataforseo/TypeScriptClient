@@ -21,7 +21,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:175168
+main.ts:175201
 
 ***
 
@@ -36,7 +36,7 @@ example:
 
 #### Defined in
 
-main.ts:175173
+main.ts:175206
 
 ***
 
@@ -51,7 +51,7 @@ google_shopping_sponsored_carousel, google_shopping_paid, google_shopping_serp
 
 #### Defined in
 
-main.ts:175181
+main.ts:175214
 
 ***
 
@@ -65,7 +65,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:175187
+main.ts:175220
 
 ***
 
@@ -77,7 +77,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:175183
+main.ts:175216
 
 ***
 
@@ -90,7 +90,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:175157
+main.ts:175190
 
 ***
 
@@ -102,7 +102,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:175165
+main.ts:175198
 
 ***
 
@@ -114,7 +114,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:175163
+main.ts:175196
 
 ***
 
@@ -126,7 +126,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:175161
+main.ts:175194
 
 ***
 
@@ -139,7 +139,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:175176
+main.ts:175209
 
 ***
 
@@ -151,4 +151,4 @@ type of element
 
 #### Defined in
 
-main.ts:175159
+main.ts:175192

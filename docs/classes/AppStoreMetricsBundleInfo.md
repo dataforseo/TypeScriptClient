@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:115077
+main.ts:115110
 
 ## Properties
 
@@ -46,7 +46,7 @@ ranking data from App Store organic search
 
 #### Defined in
 
-main.ts:115073
+main.ts:115106
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:115073
 
 #### Defined in
 
-main.ts:115086
+main.ts:115119
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:115086
 
 #### Defined in
 
-main.ts:115103
+main.ts:115136
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:115103
 
 #### Defined in
 
-main.ts:115096
+main.ts:115129

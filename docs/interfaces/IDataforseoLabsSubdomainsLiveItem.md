@@ -24,7 +24,7 @@ ranking data relevant to subdomain
 
 #### Defined in
 
-main.ts:94396
+main.ts:94429
 
 ***
 
@@ -36,7 +36,7 @@ search engine type
 
 #### Defined in
 
-main.ts:94392
+main.ts:94425
 
 ***
 
@@ -48,4 +48,4 @@ returned subdomain
 
 #### Defined in
 
-main.ts:94394
+main.ts:94427

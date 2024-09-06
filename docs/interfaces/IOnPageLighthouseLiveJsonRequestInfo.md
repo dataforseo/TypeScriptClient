@@ -31,7 +31,7 @@ you can get the full list of possible audits here
 
 #### Defined in
 
-main.ts:164522
+main.ts:164555
 
 ***
 
@@ -49,7 +49,7 @@ seo, pwa, performance, best_practices, accessibility
 
 #### Defined in
 
-main.ts:164509
+main.ts:164542
 
 ***
 
@@ -65,7 +65,7 @@ default value: false
 
 #### Defined in
 
-main.ts:164501
+main.ts:164534
 
 ***
 
@@ -81,7 +81,7 @@ en
 
 #### Defined in
 
-main.ts:164539
+main.ts:164572
 
 ***
 
@@ -97,7 +97,7 @@ English
 
 #### Defined in
 
-main.ts:164533
+main.ts:164566
 
 ***
 
@@ -113,7 +113,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:164545
+main.ts:164578
 
 ***
 
@@ -129,7 +129,7 @@ https://dataforseo.com/
 
 #### Defined in
 
-main.ts:164495
+main.ts:164528
 
 ***
 
@@ -144,4 +144,4 @@ the list of available versions is available through the Lighthouse Versions endp
 
 #### Defined in
 
-main.ts:164527
+main.ts:164560

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:87794
+main.ts:87827
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can download the full list of possible categories
 
 #### Defined in
 
-main.ts:87788
+main.ts:87821
 
 ***
 
@@ -67,7 +67,7 @@ ranking data relevant to the specified domain or subdomain
 
 #### Defined in
 
-main.ts:87790
+main.ts:87823
 
 ***
 
@@ -83,7 +83,7 @@ search engine type
 
 #### Defined in
 
-main.ts:87785
+main.ts:87818
 
 ## Methods
 
@@ -101,7 +101,7 @@ main.ts:87785
 
 #### Defined in
 
-main.ts:87803
+main.ts:87836
 
 ***
 
@@ -119,7 +119,7 @@ main.ts:87803
 
 #### Defined in
 
-main.ts:87832
+main.ts:87865
 
 ***
 
@@ -137,4 +137,4 @@ main.ts:87832
 
 #### Defined in
 
-main.ts:87825
+main.ts:87858

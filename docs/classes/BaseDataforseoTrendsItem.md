@@ -32,7 +32,7 @@
 
 #### Defined in
 
-main.ts:21896
+main.ts:21901
 
 ## Properties
 
@@ -42,7 +42,7 @@ main.ts:21896
 
 #### Defined in
 
-main.ts:21894
+main.ts:21899
 
 ***
 
@@ -59,7 +59,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21892
+main.ts:21897
 
 ***
 
@@ -76,7 +76,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21889
+main.ts:21894
 
 ***
 
@@ -92,7 +92,7 @@ type of element
 
 #### Defined in
 
-main.ts:21886
+main.ts:21891
 
 ## Methods
 
@@ -110,7 +110,7 @@ main.ts:21886
 
 #### Defined in
 
-main.ts:21906
+main.ts:21911
 
 ***
 
@@ -128,7 +128,7 @@ main.ts:21906
 
 #### Defined in
 
-main.ts:21940
+main.ts:21945
 
 ***
 
@@ -146,4 +146,4 @@ main.ts:21940
 
 #### Defined in
 
-main.ts:21918
+main.ts:21923

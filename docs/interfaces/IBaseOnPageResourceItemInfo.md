@@ -24,7 +24,7 @@ instructions for caching
 
 #### Defined in
 
-main.ts:21561
+main.ts:21566
 
 ***
 
@@ -41,7 +41,7 @@ on-page check-ups related to the page
 
 #### Defined in
 
-main.ts:21564
+main.ts:21569
 
 ***
 
@@ -53,7 +53,7 @@ type of encoding
 
 #### Defined in
 
-main.ts:21566
+main.ts:21571
 
 ***
 
@@ -66,7 +66,7 @@ indicates the size of the encoded page measured in bytes
 
 #### Defined in
 
-main.ts:21551
+main.ts:21556
 
 ***
 
@@ -81,7 +81,7 @@ example:
 
 #### Defined in
 
-main.ts:21559
+main.ts:21564
 
 ***
 
@@ -94,7 +94,7 @@ if there is no data, the value will be null
 
 #### Defined in
 
-main.ts:21573
+main.ts:21578
 
 ***
 
@@ -107,7 +107,7 @@ indicates the URL to redirect a page to
 
 #### Defined in
 
-main.ts:21541
+main.ts:21546
 
 ***
 
@@ -119,7 +119,7 @@ types of media used to display a page
 
 #### Defined in
 
-main.ts:21568
+main.ts:21573
 
 ***
 
@@ -131,7 +131,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:21545
+main.ts:21550
 
 ***
 
@@ -143,7 +143,7 @@ type of the returned resource
 
 #### Defined in
 
-main.ts:21536
+main.ts:21541
 
 ***
 
@@ -155,7 +155,7 @@ server version
 
 #### Defined in
 
-main.ts:21570
+main.ts:21575
 
 ***
 
@@ -168,7 +168,7 @@ indicates the size of a given page measured in bytes
 
 #### Defined in
 
-main.ts:21548
+main.ts:21553
 
 ***
 
@@ -180,7 +180,7 @@ status code of the page
 
 #### Defined in
 
-main.ts:21538
+main.ts:21543
 
 ***
 
@@ -193,7 +193,7 @@ indicates the compressed size of a given page
 
 #### Defined in
 
-main.ts:21554
+main.ts:21559
 
 ***
 
@@ -205,4 +205,4 @@ page URL
 
 #### Defined in
 
-main.ts:21543
+main.ts:21548

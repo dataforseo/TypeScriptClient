@@ -20,7 +20,7 @@ URL to the profile picture of the reviewer
 
 #### Defined in
 
-main.ts:185016
+main.ts:185049
 
 ***
 
@@ -32,7 +32,7 @@ country of the reviewer
 
 #### Defined in
 
-main.ts:185022
+main.ts:185055
 
 ***
 
@@ -44,7 +44,7 @@ the name of the reviewer
 
 #### Defined in
 
-main.ts:185014
+main.ts:185047
 
 ***
 
@@ -56,7 +56,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:185020
+main.ts:185053
 
 ***
 
@@ -68,4 +68,4 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-main.ts:185018
+main.ts:185051

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:40209
+main.ts:40242
 
 ## Properties
 
@@ -48,7 +48,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 #### Defined in
 
-main.ts:40186
+main.ts:40219
 
 ***
 
@@ -67,7 +67,7 @@ example:
 
 #### Defined in
 
-main.ts:40191
+main.ts:40224
 
 ***
 
@@ -86,7 +86,7 @@ maps_search, maps_paid_item
 
 #### Defined in
 
-main.ts:40199
+main.ts:40232
 
 ***
 
@@ -102,7 +102,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:40205
+main.ts:40238
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:40203
+main.ts:40236
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:40174
+main.ts:40207
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:40182
+main.ts:40215
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:40180
+main.ts:40213
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:40178
+main.ts:40211
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:40201
+main.ts:40234
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:40194
+main.ts:40227
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:40176
+main.ts:40209
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:40176
 
 #### Defined in
 
-main.ts:40218
+main.ts:40251
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:40218
 
 #### Defined in
 
-main.ts:40254
+main.ts:40287
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:40254
 
 #### Defined in
 
-main.ts:40247
+main.ts:40280

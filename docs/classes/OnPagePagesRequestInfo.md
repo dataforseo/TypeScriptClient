@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:154185
+main.ts:154218
 
 ## Properties
 
@@ -55,7 +55,7 @@ example:
 
 #### Defined in
 
-main.ts:154161
+main.ts:154194
 
 ***
 
@@ -75,7 +75,7 @@ example:
 
 #### Defined in
 
-main.ts:154140
+main.ts:154173
 
 ***
 
@@ -94,7 +94,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:154145
+main.ts:154178
 
 ***
 
@@ -113,7 +113,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:154150
+main.ts:154183
 
 ***
 
@@ -141,7 +141,7 @@ example:
 
 #### Defined in
 
-main.ts:154175
+main.ts:154208
 
 ***
 
@@ -161,7 +161,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:154181
+main.ts:154214
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:154181
 
 #### Defined in
 
-main.ts:154194
+main.ts:154227
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:154194
 
 #### Defined in
 
-main.ts:154224
+main.ts:154257
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:154224
 
 #### Defined in
 
-main.ts:154217
+main.ts:154250

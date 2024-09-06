@@ -21,7 +21,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:130749
+main.ts:130782
 
 ***
 
@@ -38,7 +38,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:130739
+main.ts:130772
 
 ***
 
@@ -52,7 +52,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130743
+main.ts:130776
 
 ***
 
@@ -65,7 +65,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130732
+main.ts:130765
 
 ***
 
@@ -77,7 +77,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:130723
+main.ts:130756
 
 ***
 
@@ -89,7 +89,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:130727
+main.ts:130760
 
 ***
 
@@ -101,7 +101,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:130725
+main.ts:130758
 
 ***
 
@@ -115,7 +115,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130753
+main.ts:130786
 
 ***
 
@@ -127,7 +127,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:130729
+main.ts:130762
 
 ***
 
@@ -140,4 +140,4 @@ represents the (approximate) number of searches for the keyword on the Bing sear
 
 #### Defined in
 
-main.ts:130746
+main.ts:130779

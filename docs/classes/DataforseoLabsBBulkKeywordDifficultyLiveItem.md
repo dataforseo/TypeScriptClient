@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:86330
+main.ts:86363
 
 ## Properties
 
@@ -46,7 +46,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:86321
+main.ts:86354
 
 ***
 
@@ -65,7 +65,7 @@ learn more about the metric in this help center guide
 
 #### Defined in
 
-main.ts:86326
+main.ts:86359
 
 ***
 
@@ -81,7 +81,7 @@ search engine type
 
 #### Defined in
 
-main.ts:86319
+main.ts:86352
 
 ## Methods
 
@@ -99,7 +99,7 @@ main.ts:86319
 
 #### Defined in
 
-main.ts:86339
+main.ts:86372
 
 ***
 
@@ -117,7 +117,7 @@ main.ts:86339
 
 #### Defined in
 
-main.ts:86358
+main.ts:86391
 
 ***
 
@@ -135,4 +135,4 @@ main.ts:86358
 
 #### Defined in
 
-main.ts:86351
+main.ts:86384

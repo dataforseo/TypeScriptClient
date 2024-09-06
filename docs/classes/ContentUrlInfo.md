@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:161216
+main.ts:161249
 
 ## Properties
 
@@ -46,7 +46,7 @@ text of the URL’s anchor
 
 #### Defined in
 
-main.ts:161212
+main.ts:161245
 
 ***
 
@@ -62,7 +62,7 @@ other URL found in the content element
 
 #### Defined in
 
-main.ts:161210
+main.ts:161243
 
 ## Methods
 
@@ -80,7 +80,7 @@ main.ts:161210
 
 #### Defined in
 
-main.ts:161225
+main.ts:161258
 
 ***
 
@@ -98,7 +98,7 @@ main.ts:161225
 
 #### Defined in
 
-main.ts:161243
+main.ts:161276
 
 ***
 
@@ -116,4 +116,4 @@ main.ts:161243
 
 #### Defined in
 
-main.ts:161236
+main.ts:161269

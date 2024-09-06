@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30798
+main.ts:31062
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`JobsElement`](JobsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:30790
+main.ts:31054
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30794
+main.ts:31058
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30785
+main.ts:31050
 
 ***
 
@@ -204,7 +203,7 @@ source URL
 
 #### Defined in
 
-main.ts:30787
+main.ts:31052
 
 ***
 
@@ -246,7 +245,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:30803
+main.ts:31067
 
 ***
 
@@ -268,7 +267,7 @@ main.ts:30803
 
 #### Defined in
 
-main.ts:30828
+main.ts:31092
 
 ***
 
@@ -290,4 +289,4 @@ main.ts:30828
 
 #### Defined in
 
-main.ts:30821
+main.ts:31085

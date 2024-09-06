@@ -33,7 +33,7 @@
 
 #### Defined in
 
-main.ts:21678
+main.ts:21683
 
 ## Properties
 
@@ -43,7 +43,7 @@ main.ts:21678
 
 #### Defined in
 
-main.ts:21676
+main.ts:21681
 
 ***
 
@@ -60,7 +60,7 @@ possible values: internal, external
 
 #### Defined in
 
-main.ts:21668
+main.ts:21673
 
 ***
 
@@ -77,7 +77,7 @@ if the value is true, the link doesn’t have a rel="nofollow" attribute
 
 #### Defined in
 
-main.ts:21661
+main.ts:21666
 
 ***
 
@@ -94,7 +94,7 @@ the link was found on this domain
 
 #### Defined in
 
-main.ts:21643
+main.ts:21648
 
 ***
 
@@ -111,7 +111,7 @@ the link is pointing to this domain
 
 #### Defined in
 
-main.ts:21646
+main.ts:21651
 
 ***
 
@@ -128,7 +128,7 @@ indicates whether a link is directing to a broken page or resource
 
 #### Defined in
 
-main.ts:21671
+main.ts:21676
 
 ***
 
@@ -145,7 +145,7 @@ if true, at least one link pointing to link_to has a rel="nofollow" attribute an
 
 #### Defined in
 
-main.ts:21674
+main.ts:21679
 
 ***
 
@@ -162,7 +162,7 @@ absolute URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21655
+main.ts:21660
 
 ***
 
@@ -179,7 +179,7 @@ absolute URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21658
+main.ts:21663
 
 ***
 
@@ -196,7 +196,7 @@ relative URL of the page on which the link was found
 
 #### Defined in
 
-main.ts:21649
+main.ts:21654
 
 ***
 
@@ -212,7 +212,7 @@ url scheme of the referring page
 
 #### Defined in
 
-main.ts:21663
+main.ts:21668
 
 ***
 
@@ -229,7 +229,7 @@ relative URL of the page to which the link is pointing
 
 #### Defined in
 
-main.ts:21652
+main.ts:21657
 
 ***
 
@@ -245,7 +245,7 @@ url scheme of the referenced page
 
 #### Defined in
 
-main.ts:21665
+main.ts:21670
 
 ***
 
@@ -261,7 +261,7 @@ type of element
 
 #### Defined in
 
-main.ts:21640
+main.ts:21645
 
 ## Methods
 
@@ -279,7 +279,7 @@ main.ts:21640
 
 #### Defined in
 
-main.ts:21688
+main.ts:21693
 
 ***
 
@@ -297,7 +297,7 @@ main.ts:21688
 
 #### Defined in
 
-main.ts:21733
+main.ts:21738
 
 ***
 
@@ -315,4 +315,4 @@ main.ts:21733
 
 #### Defined in
 
-main.ts:21706
+main.ts:21711

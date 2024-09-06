@@ -20,7 +20,7 @@ ISO country code of the location
 
 #### Defined in
 
-main.ts:56939
+main.ts:56972
 
 ***
 
@@ -32,7 +32,7 @@ location code
 
 #### Defined in
 
-main.ts:56926
+main.ts:56959
 
 ***
 
@@ -51,7 +51,7 @@ where location_code_parent corresponds to:
 
 #### Defined in
 
-main.ts:56937
+main.ts:56970
 
 ***
 
@@ -63,7 +63,7 @@ full name of the location
 
 #### Defined in
 
-main.ts:56928
+main.ts:56961
 
 ***
 
@@ -75,4 +75,4 @@ location type
 
 #### Defined in
 
-main.ts:56941
+main.ts:56974

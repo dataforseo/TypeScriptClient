@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:22210
+main.ts:22215
 
 ## Properties
 
@@ -46,7 +46,7 @@ the language of the result
 
 #### Defined in
 
-main.ts:22200
+main.ts:22205
 
 ***
 
@@ -62,7 +62,7 @@ location for which the result is relevant
 
 #### Defined in
 
-main.ts:22202
+main.ts:22207
 
 ***
 
@@ -78,7 +78,7 @@ related search terms that appear in the result
 
 #### Defined in
 
-main.ts:22206
+main.ts:22211
 
 ***
 
@@ -94,7 +94,7 @@ matching search terms that appear in the result
 
 #### Defined in
 
-main.ts:22204
+main.ts:22209
 
 ***
 
@@ -110,7 +110,7 @@ source of additional information about the result
 
 #### Defined in
 
-main.ts:22193
+main.ts:22198
 
 ***
 
@@ -127,7 +127,7 @@ description of the website from Wikipedia or another additional context
 
 #### Defined in
 
-main.ts:22196
+main.ts:22201
 
 ***
 
@@ -143,7 +143,7 @@ URL to full information from the 'source'
 
 #### Defined in
 
-main.ts:22198
+main.ts:22203
 
 ***
 
@@ -159,7 +159,7 @@ type of element
 
 #### Defined in
 
-main.ts:22189
+main.ts:22194
 
 ***
 
@@ -175,7 +175,7 @@ result’s URL
 
 #### Defined in
 
-main.ts:22191
+main.ts:22196
 
 ## Methods
 
@@ -193,7 +193,7 @@ main.ts:22191
 
 #### Defined in
 
-main.ts:22219
+main.ts:22224
 
 ***
 
@@ -211,7 +211,7 @@ main.ts:22219
 
 #### Defined in
 
-main.ts:22252
+main.ts:22257
 
 ***
 
@@ -229,4 +229,4 @@ main.ts:22252
 
 #### Defined in
 
-main.ts:22245
+main.ts:22250

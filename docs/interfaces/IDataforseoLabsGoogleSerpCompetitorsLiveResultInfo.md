@@ -20,7 +20,7 @@ contains detected SERP competitors and related data
 
 #### Defined in
 
-main.ts:92552
+main.ts:92585
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:92550
+main.ts:92583
 
 ***
 
@@ -45,7 +45,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:92546
+main.ts:92579
 
 ***
 
@@ -58,7 +58,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:92543
+main.ts:92576
 
 ***
 
@@ -70,7 +70,7 @@ search engine type
 
 #### Defined in
 
-main.ts:92537
+main.ts:92570
 
 ***
 
@@ -83,7 +83,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:92540
+main.ts:92573
 
 ***
 
@@ -95,4 +95,4 @@ the total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:92548
+main.ts:92581

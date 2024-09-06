@@ -21,7 +21,7 @@ represents the list of related topics with the biggest increase in search freque
 
 #### Defined in
 
-main.ts:124196
+main.ts:124229
 
 ***
 
@@ -34,4 +34,4 @@ represents the list of the most popular related topics
 
 #### Defined in
 
-main.ts:124193
+main.ts:124226

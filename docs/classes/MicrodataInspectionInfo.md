@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:160072
+main.ts:160105
 
 ## Properties
 
@@ -47,7 +47,7 @@ an array of objects containing data fields related to the certain microdata type
 
 #### Defined in
 
-main.ts:160068
+main.ts:160101
 
 ***
 
@@ -64,7 +64,7 @@ for a full list of available types, please visit schema.org
 
 #### Defined in
 
-main.ts:160065
+main.ts:160098
 
 ## Methods
 
@@ -82,7 +82,7 @@ main.ts:160065
 
 #### Defined in
 
-main.ts:160081
+main.ts:160114
 
 ***
 
@@ -100,7 +100,7 @@ main.ts:160081
 
 #### Defined in
 
-main.ts:160107
+main.ts:160140
 
 ***
 
@@ -118,4 +118,4 @@ main.ts:160107
 
 #### Defined in
 
-main.ts:160100
+main.ts:160133

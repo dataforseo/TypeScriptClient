@@ -21,7 +21,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96712
+main.ts:96745
 
 ***
 
@@ -33,7 +33,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96709
+main.ts:96742
 
 ***
 
@@ -46,7 +46,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:96701
+main.ts:96734
 
 ***
 
@@ -58,7 +58,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:96705
+main.ts:96738
 
 ***
 
@@ -70,7 +70,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:96703
+main.ts:96736
 
 ***
 
@@ -82,7 +82,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96698
+main.ts:96731
 
 ***
 
@@ -94,4 +94,4 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96707
+main.ts:96740

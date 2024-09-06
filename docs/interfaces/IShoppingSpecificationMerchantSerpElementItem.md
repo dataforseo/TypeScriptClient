@@ -25,7 +25,7 @@ indicates the name of the product specification section in which the related ele
 
 #### Defined in
 
-main.ts:177534
+main.ts:177567
 
 ***
 
@@ -43,7 +43,7 @@ left, right
 
 #### Defined in
 
-main.ts:21130
+main.ts:21135
 
 ***
 
@@ -60,7 +60,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21126
+main.ts:21131
 
 ***
 
@@ -77,7 +77,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21123
+main.ts:21128
 
 ***
 
@@ -90,7 +90,7 @@ attribute name of the product data specification
 
 #### Defined in
 
-main.ts:177537
+main.ts:177570
 
 ***
 
@@ -102,7 +102,7 @@ content of the specification
 
 #### Defined in
 
-main.ts:177539
+main.ts:177572
 
 ***
 
@@ -118,7 +118,7 @@ type of element
 
 #### Defined in
 
-main.ts:21120
+main.ts:21125
 
 ***
 
@@ -130,4 +130,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:177531
+main.ts:177564

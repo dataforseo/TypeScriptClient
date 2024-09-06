@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:32560
+main.ts:32805
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:32553
+main.ts:32798
 
 ***
 
@@ -63,7 +63,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:32556
+main.ts:32801
 
 ***
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32549
+main.ts:32794
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:32547
+main.ts:32792
 
 ***
 
@@ -111,7 +111,7 @@ URL
 
 #### Defined in
 
-main.ts:32551
+main.ts:32796
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:32551
 
 #### Defined in
 
-main.ts:32569
+main.ts:32814
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:32569
 
 #### Defined in
 
-main.ts:32590
+main.ts:32835
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:32590
 
 #### Defined in
 
-main.ts:32583
+main.ts:32828

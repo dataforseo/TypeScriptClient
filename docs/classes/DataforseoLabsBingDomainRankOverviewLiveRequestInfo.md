@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:107522
+main.ts:107555
 
 ## Properties
 
@@ -53,7 +53,7 @@ en
 
 #### Defined in
 
-main.ts:107502
+main.ts:107535
 
 ***
 
@@ -76,7 +76,7 @@ English
 
 #### Defined in
 
-main.ts:107493
+main.ts:107526
 
 ***
 
@@ -95,7 +95,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:107507
+main.ts:107540
 
 ***
 
@@ -119,7 +119,7 @@ example:
 
 #### Defined in
 
-main.ts:107484
+main.ts:107517
 
 ***
 
@@ -143,7 +143,7 @@ United States
 
 #### Defined in
 
-main.ts:107474
+main.ts:107507
 
 ***
 
@@ -162,7 +162,7 @@ if you specify the 10 value, the first ten items in the results array will be om
 
 #### Defined in
 
-main.ts:107512
+main.ts:107545
 
 ***
 
@@ -182,7 +182,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:107518
+main.ts:107551
 
 ***
 
@@ -201,7 +201,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:107464
+main.ts:107497
 
 ## Methods
 
@@ -219,7 +219,7 @@ main.ts:107464
 
 #### Defined in
 
-main.ts:107531
+main.ts:107564
 
 ***
 
@@ -237,7 +237,7 @@ main.ts:107531
 
 #### Defined in
 
-main.ts:107555
+main.ts:107588
 
 ***
 
@@ -255,4 +255,4 @@ main.ts:107555
 
 #### Defined in
 
-main.ts:107548
+main.ts:107581

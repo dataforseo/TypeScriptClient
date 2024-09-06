@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:184967
+main.ts:185000
 
 ## Properties
 
@@ -46,7 +46,7 @@ URL to the profile picture of the reviewer
 
 #### Defined in
 
-main.ts:184957
+main.ts:184990
 
 ***
 
@@ -62,7 +62,7 @@ country of the reviewer
 
 #### Defined in
 
-main.ts:184963
+main.ts:184996
 
 ***
 
@@ -78,7 +78,7 @@ the name of the reviewer
 
 #### Defined in
 
-main.ts:184955
+main.ts:184988
 
 ***
 
@@ -94,7 +94,7 @@ total number of reviews submitted by the reviewer
 
 #### Defined in
 
-main.ts:184961
+main.ts:184994
 
 ***
 
@@ -110,7 +110,7 @@ URL to the reviewer’s profile
 
 #### Defined in
 
-main.ts:184959
+main.ts:184992
 
 ## Methods
 
@@ -128,7 +128,7 @@ main.ts:184959
 
 #### Defined in
 
-main.ts:184976
+main.ts:185009
 
 ***
 
@@ -146,7 +146,7 @@ main.ts:184976
 
 #### Defined in
 
-main.ts:184997
+main.ts:185030
 
 ***
 
@@ -164,4 +164,4 @@ main.ts:184997
 
 #### Defined in
 
-main.ts:184990
+main.ts:185023

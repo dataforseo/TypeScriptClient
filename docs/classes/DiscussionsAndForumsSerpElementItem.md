@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:35968
+main.ts:36184
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`DiscussionsAndForumsElement`](DiscussionsAndForumsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:35960
+main.ts:36176
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:35964
+main.ts:36180
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:35957
+main.ts:36174
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:35973
+main.ts:36189
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:35973
 
 #### Defined in
 
-main.ts:35997
+main.ts:36213
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:35997
 
 #### Defined in
 
-main.ts:35990
+main.ts:36206

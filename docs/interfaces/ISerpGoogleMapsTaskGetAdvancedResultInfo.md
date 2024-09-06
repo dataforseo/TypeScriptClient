@@ -22,7 +22,7 @@ Note: to check location-specific results, follow the provided check url, scroll 
 
 #### Defined in
 
-main.ts:40299
+main.ts:40332
 
 ***
 
@@ -37,7 +37,7 @@ example:
 
 #### Defined in
 
-main.ts:40304
+main.ts:40337
 
 ***
 
@@ -52,7 +52,7 @@ maps_search, maps_paid_item
 
 #### Defined in
 
-main.ts:40312
+main.ts:40345
 
 ***
 
@@ -64,7 +64,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:40318
+main.ts:40351
 
 ***
 
@@ -76,7 +76,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:40316
+main.ts:40349
 
 ***
 
@@ -89,7 +89,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:40287
+main.ts:40320
 
 ***
 
@@ -101,7 +101,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:40295
+main.ts:40328
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:40293
+main.ts:40326
 
 ***
 
@@ -125,7 +125,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:40291
+main.ts:40324
 
 ***
 
@@ -137,7 +137,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:40314
+main.ts:40347
 
 ***
 
@@ -150,7 +150,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:40307
+main.ts:40340
 
 ***
 
@@ -162,4 +162,4 @@ type of element
 
 #### Defined in
 
-main.ts:40289
+main.ts:40322

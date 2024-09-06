@@ -26,7 +26,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:27451
+main.ts:27456
 
 ***
 
@@ -39,7 +39,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:27427
+main.ts:27432
 
 ***
 
@@ -51,7 +51,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:27404
+main.ts:27409
 
 ***
 
@@ -63,7 +63,7 @@ cached version of the page
 
 #### Defined in
 
-main.ts:27399
+main.ts:27404
 
 ***
 
@@ -75,7 +75,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27418
+main.ts:27423
 
 ***
 
@@ -83,11 +83,11 @@ main.ts:27418
 
 > `optional` **domain**: `string`
 
-website domain
+domain name of the reference
 
 #### Defined in
 
-main.ts:27393
+main.ts:27398
 
 ***
 
@@ -101,7 +101,7 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
 #### Defined in
 
-main.ts:27447
+main.ts:27452
 
 ***
 
@@ -113,7 +113,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:27422
+main.ts:27427
 
 ***
 
@@ -127,7 +127,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27443
+main.ts:27448
 
 ***
 
@@ -139,7 +139,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:27435
+main.ts:27440
 
 ***
 
@@ -151,7 +151,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27424
+main.ts:27429
 
 ***
 
@@ -163,7 +163,7 @@ indicates whether the element is a featured_snippet
 
 #### Defined in
 
-main.ts:27412
+main.ts:27417
 
 ***
 
@@ -175,7 +175,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:27408
+main.ts:27413
 
 ***
 
@@ -187,7 +187,7 @@ indicates whether the element is marked as malicious
 
 #### Defined in
 
-main.ts:27414
+main.ts:27419
 
 ***
 
@@ -199,7 +199,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:27410
+main.ts:27415
 
 ***
 
@@ -211,7 +211,7 @@ indicates whether the element is marked as Google web story
 
 #### Defined in
 
-main.ts:27416
+main.ts:27421
 
 ***
 
@@ -225,7 +225,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27439
+main.ts:27444
 
 ***
 
@@ -243,7 +243,7 @@ left, right
 
 #### Defined in
 
-main.ts:20721
+main.ts:20726
 
 ***
 
@@ -255,7 +255,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:27420
+main.ts:27425
 
 ***
 
@@ -268,7 +268,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:27433
+main.ts:27438
 
 ***
 
@@ -285,7 +285,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20717
+main.ts:20722
 
 ***
 
@@ -303,7 +303,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20714
+main.ts:20719
 
 ***
 
@@ -316,7 +316,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:27430
+main.ts:27435
 
 ***
 
@@ -330,7 +330,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27464
+main.ts:27469
 
 ***
 
@@ -344,7 +344,7 @@ you can derive the related_result snippets as "type": "organic" results by setti
 
 #### Defined in
 
-main.ts:27455
+main.ts:27460
 
 ***
 
@@ -357,7 +357,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-main.ts:27402
+main.ts:27407
 
 ***
 
@@ -372,7 +372,7 @@ example:
 
 #### Defined in
 
-main.ts:27460
+main.ts:27465
 
 ***
 
@@ -384,7 +384,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27395
+main.ts:27400
 
 ***
 
@@ -400,7 +400,7 @@ type of element
 
 #### Defined in
 
-main.ts:20710
+main.ts:20715
 
 ***
 
@@ -412,7 +412,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:27397
+main.ts:27402
 
 ***
 
@@ -424,7 +424,7 @@ name of the website in SERP
 
 #### Defined in
 
-main.ts:27406
+main.ts:27411
 
 ***
 
@@ -440,4 +440,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20723
+main.ts:20728

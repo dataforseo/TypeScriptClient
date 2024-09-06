@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:90930
+main.ts:90963
 
 ## Properties
 
@@ -64,7 +64,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:90904
+main.ts:90937
 
 ***
 
@@ -87,7 +87,7 @@ default value: live
 
 #### Defined in
 
-main.ts:90884
+main.ts:90917
 
 ***
 
@@ -106,7 +106,7 @@ default value: false
 
 #### Defined in
 
-main.ts:90844
+main.ts:90877
 
 ***
 
@@ -127,7 +127,7 @@ learn more about how clickstream-based metrics are calculated in this help cente
 
 #### Defined in
 
-main.ts:90860
+main.ts:90893
 
 ***
 
@@ -150,7 +150,7 @@ default value:
 
 #### Defined in
 
-main.ts:90853
+main.ts:90886
 
 ***
 
@@ -173,7 +173,7 @@ en
 
 #### Defined in
 
-main.ts:90839
+main.ts:90872
 
 ***
 
@@ -196,7 +196,7 @@ English
 
 #### Defined in
 
-main.ts:90830
+main.ts:90863
 
 ***
 
@@ -215,7 +215,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:90865
+main.ts:90898
 
 ***
 
@@ -234,7 +234,7 @@ if set to true, we will return the field metrics_absolute containing rankings di
 
 #### Defined in
 
-main.ts:90875
+main.ts:90908
 
 ***
 
@@ -257,7 +257,7 @@ example:
 
 #### Defined in
 
-main.ts:90821
+main.ts:90854
 
 ***
 
@@ -280,7 +280,7 @@ United Kingdom
 
 #### Defined in
 
-main.ts:90812
+main.ts:90845
 
 ***
 
@@ -299,7 +299,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:90870
+main.ts:90903
 
 ***
 
@@ -329,7 +329,7 @@ example:
 
 #### Defined in
 
-main.ts:90920
+main.ts:90953
 
 ***
 
@@ -349,7 +349,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:90926
+main.ts:90959
 
 ***
 
@@ -373,7 +373,7 @@ example:
 
 #### Defined in
 
-main.ts:90803
+main.ts:90836
 
 ## Methods
 
@@ -391,7 +391,7 @@ main.ts:90803
 
 #### Defined in
 
-main.ts:90939
+main.ts:90972
 
 ***
 
@@ -409,7 +409,7 @@ main.ts:90939
 
 #### Defined in
 
-main.ts:90982
+main.ts:91015
 
 ***
 
@@ -427,4 +427,4 @@ main.ts:90982
 
 #### Defined in
 
-main.ts:90975
+main.ts:91008

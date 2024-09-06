@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:140217
+main.ts:140250
 
 ## Properties
 
@@ -53,7 +53,7 @@ default value: live
 
 #### Defined in
 
-main.ts:140190
+main.ts:140223
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Defined in
 
-main.ts:140114
+main.ts:140147
 
 ***
 
@@ -98,7 +98,7 @@ default value: true
 
 #### Defined in
 
-main.ts:140207
+main.ts:140240
 
 ***
 
@@ -125,7 +125,7 @@ semantic_location
 
 #### Defined in
 
-main.ts:140127
+main.ts:140160
 
 ***
 
@@ -156,7 +156,7 @@ The full list of possible filters is available here.
 
 #### Defined in
 
-main.ts:140148
+main.ts:140181
 
 ***
 
@@ -176,7 +176,7 @@ default value: true
 
 #### Defined in
 
-main.ts:140201
+main.ts:140234
 
 ***
 
@@ -195,7 +195,7 @@ default value: true
 
 #### Defined in
 
-main.ts:140195
+main.ts:140228
 
 ***
 
@@ -214,7 +214,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:140181
+main.ts:140214
 
 ***
 
@@ -236,7 +236,7 @@ default value: as_is
 
 #### Defined in
 
-main.ts:140107
+main.ts:140140
 
 ***
 
@@ -256,7 +256,7 @@ Note: the maximum value is 20,000, use the search_after_token if you would like 
 
 #### Defined in
 
-main.ts:140168
+main.ts:140201
 
 ***
 
@@ -284,7 +284,7 @@ example:
 
 #### Defined in
 
-main.ts:140162
+main.ts:140195
 
 ***
 
@@ -306,7 +306,7 @@ Note: if the search_after_token is specified in the request, all other parameter
 
 #### Defined in
 
-main.ts:140176
+main.ts:140209
 
 ***
 
@@ -326,7 +326,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:140213
+main.ts:140246
 
 ***
 
@@ -345,7 +345,7 @@ a page should be specified with absolute URL (including http:// or https://)
 
 #### Defined in
 
-main.ts:140099
+main.ts:140132
 
 ***
 
@@ -363,7 +363,7 @@ can be set from 1 to 1000
 
 #### Defined in
 
-main.ts:140131
+main.ts:140164
 
 ## Methods
 
@@ -381,7 +381,7 @@ main.ts:140131
 
 #### Defined in
 
-main.ts:140226
+main.ts:140259
 
 ***
 
@@ -399,7 +399,7 @@ main.ts:140226
 
 #### Defined in
 
-main.ts:140271
+main.ts:140304
 
 ***
 
@@ -417,4 +417,4 @@ main.ts:140271
 
 #### Defined in
 
-main.ts:140264
+main.ts:140297

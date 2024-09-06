@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:30614
+main.ts:30879
 
 ## Properties
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:30606
+main.ts:30871
 
 ***
 
@@ -84,7 +84,7 @@ the additional feature of the review
 
 #### Defined in
 
-main.ts:30604
+main.ts:30869
 
 ***
 
@@ -100,7 +100,7 @@ the identifier of a place
 
 #### Defined in
 
-main.ts:30602
+main.ts:30867
 
 ***
 
@@ -182,7 +182,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:30600
+main.ts:30865
 
 ***
 
@@ -200,7 +200,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30610
+main.ts:30875
 
 ***
 
@@ -216,7 +216,7 @@ the number of reviews
 
 #### Defined in
 
-main.ts:30597
+main.ts:30862
 
 ***
 
@@ -278,7 +278,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:30619
+main.ts:30884
 
 ***
 
@@ -300,7 +300,7 @@ main.ts:30619
 
 #### Defined in
 
-main.ts:30642
+main.ts:30907
 
 ***
 
@@ -322,4 +322,4 @@ main.ts:30642
 
 #### Defined in
 
-main.ts:30635
+main.ts:30900

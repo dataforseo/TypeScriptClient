@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:69576
+main.ts:69609
 
 ## Properties
 
@@ -53,7 +53,7 @@ if the specified depth is higher than the number of results in the response, the
 
 #### Defined in
 
-main.ts:69475
+main.ts:69508
 
 ***
 
@@ -72,7 +72,7 @@ default value: desktop
 
 #### Defined in
 
-main.ts:69523
+main.ts:69556
 
 ***
 
@@ -94,7 +94,7 @@ Note: if set to true, the charge per task will be multiplied by 10 as our system
 
 #### Defined in
 
-main.ts:69540
+main.ts:69573
 
 ***
 
@@ -115,7 +115,7 @@ if you need to use the “+” symbol for your keyword, please specify it as “
 
 #### Defined in
 
-main.ts:69458
+main.ts:69491
 
 ***
 
@@ -135,7 +135,7 @@ zh_CN
 
 #### Defined in
 
-main.ts:69494
+main.ts:69527
 
 ***
 
@@ -155,7 +155,7 @@ Chinese (Simplified)
 
 #### Defined in
 
-main.ts:69488
+main.ts:69521
 
 ***
 
@@ -176,7 +176,7 @@ example:
 
 #### Defined in
 
-main.ts:69508
+main.ts:69541
 
 ***
 
@@ -200,7 +200,7 @@ example:
 
 #### Defined in
 
-main.ts:69518
+main.ts:69551
 
 ***
 
@@ -221,7 +221,7 @@ New York,New York,United States
 
 #### Defined in
 
-main.ts:69501
+main.ts:69534
 
 ***
 
@@ -242,7 +242,7 @@ learn more at our help center
 
 #### Defined in
 
-main.ts:69482
+main.ts:69515
 
 ***
 
@@ -265,7 +265,7 @@ default value: android
 
 #### Defined in
 
-main.ts:69532
+main.ts:69565
 
 ***
 
@@ -289,7 +289,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:69572
+main.ts:69605
 
 ***
 
@@ -309,7 +309,7 @@ regular, html
 
 #### Defined in
 
-main.ts:69562
+main.ts:69595
 
 ***
 
@@ -333,7 +333,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:69556
+main.ts:69589
 
 ***
 
@@ -355,7 +355,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:69466
+main.ts:69499
 
 ***
 
@@ -375,7 +375,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:69546
+main.ts:69579
 
 ## Methods
 
@@ -393,7 +393,7 @@ main.ts:69546
 
 #### Defined in
 
-main.ts:69585
+main.ts:69618
 
 ***
 
@@ -411,7 +411,7 @@ main.ts:69585
 
 #### Defined in
 
-main.ts:69617
+main.ts:69650
 
 ***
 
@@ -429,4 +429,4 @@ main.ts:69617
 
 #### Defined in
 
-main.ts:69610
+main.ts:69643

@@ -20,7 +20,7 @@ URL to the video preview image
 
 #### Defined in
 
-main.ts:31396
+main.ts:31657
 
 ***
 
@@ -33,7 +33,7 @@ indicates the source of information included in the top_stories_element
 
 #### Defined in
 
-main.ts:31385
+main.ts:31646
 
 ***
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:31392
+main.ts:31653
 
 ***
 
@@ -60,7 +60,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:31387
+main.ts:31648
 
 ***
 
@@ -72,7 +72,7 @@ type of element
 
 #### Defined in
 
-main.ts:31382
+main.ts:31643
 
 ***
 
@@ -84,4 +84,4 @@ URL
 
 #### Defined in
 
-main.ts:31394
+main.ts:31655

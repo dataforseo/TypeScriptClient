@@ -22,7 +22,7 @@ left, right
 
 #### Defined in
 
-main.ts:21285
+main.ts:21290
 
 ***
 
@@ -34,7 +34,7 @@ the maximum value for a rating_type
 
 #### Defined in
 
-main.ts:21294
+main.ts:21299
 
 ***
 
@@ -47,7 +47,7 @@ here you can find the following elements: Max5, Percents, CustomMax
 
 #### Defined in
 
-main.ts:21288
+main.ts:21293
 
 ***
 
@@ -59,7 +59,7 @@ type of element
 
 #### Defined in
 
-main.ts:21281
+main.ts:21286
 
 ***
 
@@ -71,7 +71,7 @@ value of the rating
 
 #### Defined in
 
-main.ts:21290
+main.ts:21295
 
 ***
 
@@ -83,4 +83,4 @@ the amount of feedback
 
 #### Defined in
 
-main.ts:21292
+main.ts:21297

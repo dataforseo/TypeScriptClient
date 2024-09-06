@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:91375
+main.ts:91408
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:91375
 
 #### Defined in
 
-main.ts:20742
+main.ts:20747
 
 ***
 
@@ -74,7 +74,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:91341
+main.ts:91374
 
 ***
 
@@ -91,7 +91,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:91328
+main.ts:91361
 
 ***
 
@@ -107,7 +107,7 @@ backlinks information for the target website
 
 #### Defined in
 
-main.ts:91369
+main.ts:91402
 
 ***
 
@@ -123,7 +123,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:91309
+main.ts:91342
 
 ***
 
@@ -142,7 +142,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91364
+main.ts:91397
 
 ***
 
@@ -158,7 +158,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:91321
+main.ts:91354
 
 ***
 
@@ -174,7 +174,7 @@ subdomain in SERP
 
 #### Defined in
 
-main.ts:91303
+main.ts:91336
 
 ***
 
@@ -192,7 +192,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91359
+main.ts:91392
 
 ***
 
@@ -211,7 +211,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91350
+main.ts:91383
 
 ***
 
@@ -227,7 +227,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:91325
+main.ts:91358
 
 ***
 
@@ -243,7 +243,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:91333
+main.ts:91366
 
 ***
 
@@ -262,7 +262,7 @@ learn more about how the metric is calculated in this help center article
 
 #### Defined in
 
-main.ts:91355
+main.ts:91388
 
 ***
 
@@ -278,7 +278,7 @@ indicates whether the element is a featured_snippet
 
 #### Defined in
 
-main.ts:91317
+main.ts:91350
 
 ***
 
@@ -294,7 +294,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:91313
+main.ts:91346
 
 ***
 
@@ -310,7 +310,7 @@ indicates whether the element is marked as malicious
 
 #### Defined in
 
-main.ts:91319
+main.ts:91352
 
 ***
 
@@ -326,7 +326,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:91315
+main.ts:91348
 
 ***
 
@@ -344,7 +344,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:91337
+main.ts:91370
 
 ***
 
@@ -360,7 +360,7 @@ primary domain name in SERP
 
 #### Defined in
 
-main.ts:91343
+main.ts:91376
 
 ***
 
@@ -382,7 +382,7 @@ left, right
 
 #### Defined in
 
-main.ts:20738
+main.ts:20743
 
 ***
 
@@ -398,7 +398,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:91323
+main.ts:91356
 
 ***
 
@@ -419,7 +419,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20734
+main.ts:20739
 
 ***
 
@@ -436,7 +436,7 @@ contains information about the ranking changes of the SERP element since the pre
 
 #### Defined in
 
-main.ts:91367
+main.ts:91400
 
 ***
 
@@ -457,7 +457,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20731
+main.ts:20736
 
 ***
 
@@ -473,7 +473,7 @@ page and domain rank information
 
 #### Defined in
 
-main.ts:91371
+main.ts:91404
 
 ***
 
@@ -490,7 +490,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:91331
+main.ts:91364
 
 ***
 
@@ -506,7 +506,7 @@ URL in SERP that does not specify the HTTPs protocol and domain name
 
 #### Defined in
 
-main.ts:91345
+main.ts:91378
 
 ***
 
@@ -522,7 +522,7 @@ search engine type
 
 #### Defined in
 
-main.ts:91301
+main.ts:91334
 
 ***
 
@@ -538,7 +538,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:91305
+main.ts:91338
 
 ***
 
@@ -558,7 +558,7 @@ type of element
 
 #### Defined in
 
-main.ts:20728
+main.ts:20733
 
 ***
 
@@ -574,7 +574,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:91307
+main.ts:91340
 
 ***
 
@@ -590,7 +590,7 @@ relevant website name in SERP
 
 #### Defined in
 
-main.ts:91311
+main.ts:91344
 
 ***
 
@@ -610,7 +610,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20740
+main.ts:20745
 
 ## Methods
 
@@ -632,7 +632,7 @@ main.ts:20740
 
 #### Defined in
 
-main.ts:91380
+main.ts:91413
 
 ***
 
@@ -654,7 +654,7 @@ main.ts:91380
 
 #### Defined in
 
-main.ts:91434
+main.ts:91467
 
 ***
 
@@ -676,4 +676,4 @@ main.ts:91434
 
 #### Defined in
 
-main.ts:91427
+main.ts:91460

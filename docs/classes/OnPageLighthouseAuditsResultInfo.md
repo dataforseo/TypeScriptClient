@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:163342
+main.ts:163375
 
 ## Properties
 
@@ -48,7 +48,7 @@ Note: the titles can change depending on if the audit passed or failed and may c
 
 #### Defined in
 
-main.ts:163338
+main.ts:163371
 
 ## Methods
 
@@ -66,7 +66,7 @@ main.ts:163338
 
 #### Defined in
 
-main.ts:163351
+main.ts:163384
 
 ***
 
@@ -84,7 +84,7 @@ main.ts:163351
 
 #### Defined in
 
-main.ts:163372
+main.ts:163405
 
 ***
 
@@ -102,4 +102,4 @@ main.ts:163372
 
 #### Defined in
 
-main.ts:163365
+main.ts:163398

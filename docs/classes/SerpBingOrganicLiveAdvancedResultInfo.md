@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:58788
+main.ts:58821
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:58764
+main.ts:58797
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:58769
+main.ts:58802
 
 ***
 
@@ -85,7 +85,7 @@ answer_box, carousel, events, featured_snippet, hotels_pack, images, jobs, local
 
 #### Defined in
 
-main.ts:58777
+main.ts:58810
 
 ***
 
@@ -102,7 +102,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:58784
+main.ts:58817
 
 ***
 
@@ -118,7 +118,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:58781
+main.ts:58814
 
 ***
 
@@ -135,7 +135,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:58753
+main.ts:58786
 
 ***
 
@@ -151,7 +151,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:58761
+main.ts:58794
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:58759
+main.ts:58792
 
 ***
 
@@ -183,7 +183,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:58757
+main.ts:58790
 
 ***
 
@@ -199,7 +199,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:58779
+main.ts:58812
 
 ***
 
@@ -216,7 +216,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:58772
+main.ts:58805
 
 ***
 
@@ -232,7 +232,7 @@ type of element
 
 #### Defined in
 
-main.ts:58755
+main.ts:58788
 
 ## Methods
 
@@ -250,7 +250,7 @@ main.ts:58755
 
 #### Defined in
 
-main.ts:58797
+main.ts:58830
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:58797
 
 #### Defined in
 
-main.ts:58833
+main.ts:58866
 
 ***
 
@@ -286,4 +286,4 @@ main.ts:58833
 
 #### Defined in
 
-main.ts:58826
+main.ts:58859

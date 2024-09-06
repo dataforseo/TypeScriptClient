@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:44606
+main.ts:44639
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:44583
+main.ts:44616
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:44588
+main.ts:44621
 
 ***
 
@@ -85,7 +85,7 @@ top_stories, news_search
 
 #### Defined in
 
-main.ts:44596
+main.ts:44629
 
 ***
 
@@ -101,7 +101,7 @@ elements of search results found in SERP
 
 #### Defined in
 
-main.ts:44602
+main.ts:44635
 
 ***
 
@@ -117,7 +117,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:44600
+main.ts:44633
 
 ***
 
@@ -134,7 +134,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:44572
+main.ts:44605
 
 ***
 
@@ -150,7 +150,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:44580
+main.ts:44613
 
 ***
 
@@ -166,7 +166,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:44578
+main.ts:44611
 
 ***
 
@@ -182,7 +182,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:44576
+main.ts:44609
 
 ***
 
@@ -198,7 +198,7 @@ total number of results in SERP
 
 #### Defined in
 
-main.ts:44598
+main.ts:44631
 
 ***
 
@@ -215,7 +215,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:44591
+main.ts:44624
 
 ***
 
@@ -231,7 +231,7 @@ type of element
 
 #### Defined in
 
-main.ts:44574
+main.ts:44607
 
 ## Methods
 
@@ -249,7 +249,7 @@ main.ts:44574
 
 #### Defined in
 
-main.ts:44615
+main.ts:44648
 
 ***
 
@@ -267,7 +267,7 @@ main.ts:44615
 
 #### Defined in
 
-main.ts:44651
+main.ts:44684
 
 ***
 
@@ -285,4 +285,4 @@ main.ts:44651
 
 #### Defined in
 
-main.ts:44644
+main.ts:44677

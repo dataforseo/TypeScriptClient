@@ -24,7 +24,7 @@ rankings and traffic metrics for the relevant page
 
 #### Defined in
 
-main.ts:94994
+main.ts:95027
 
 ***
 
@@ -36,7 +36,7 @@ absolute URL of the relevant page
 
 #### Defined in
 
-main.ts:94992
+main.ts:95025
 
 ***
 
@@ -48,4 +48,4 @@ search engine type
 
 #### Defined in
 
-main.ts:94990
+main.ts:95023

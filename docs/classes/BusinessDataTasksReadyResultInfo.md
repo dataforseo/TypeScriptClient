@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:200853
+main.ts:200886
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:200845
+main.ts:200878
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the task
 
 #### Defined in
 
-main.ts:200849
+main.ts:200882
 
 ***
 
@@ -79,7 +79,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:200838
+main.ts:200871
 
 ***
 
@@ -96,7 +96,7 @@ can take the following values: tripadvisor
 
 #### Defined in
 
-main.ts:200841
+main.ts:200874
 
 ***
 
@@ -112,7 +112,7 @@ search engine type
 
 #### Defined in
 
-main.ts:200843
+main.ts:200876
 
 ***
 
@@ -128,7 +128,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:200847
+main.ts:200880
 
 ## Methods
 
@@ -146,7 +146,7 @@ main.ts:200847
 
 #### Defined in
 
-main.ts:200862
+main.ts:200895
 
 ***
 
@@ -164,7 +164,7 @@ main.ts:200862
 
 #### Defined in
 
-main.ts:200884
+main.ts:200917
 
 ***
 
@@ -182,4 +182,4 @@ main.ts:200884
 
 #### Defined in
 
-main.ts:200877
+main.ts:200910

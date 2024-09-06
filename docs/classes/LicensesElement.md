@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:33919
+main.ts:34152
 
 ## Properties
 
@@ -46,7 +46,7 @@ website domain
 
 #### Defined in
 
-main.ts:33915
+main.ts:34148
 
 ***
 
@@ -62,7 +62,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33911
+main.ts:34144
 
 ***
 
@@ -78,7 +78,7 @@ type of element
 
 #### Defined in
 
-main.ts:33909
+main.ts:34142
 
 ***
 
@@ -94,7 +94,7 @@ URL
 
 #### Defined in
 
-main.ts:33913
+main.ts:34146
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:33913
 
 #### Defined in
 
-main.ts:33928
+main.ts:34161
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:33928
 
 #### Defined in
 
-main.ts:33948
+main.ts:34181
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:33948
 
 #### Defined in
 
-main.ts:33941
+main.ts:34174

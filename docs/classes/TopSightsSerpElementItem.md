@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:32634
+main.ts:32878
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`TopSightsElement`](TopSightsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32626
+main.ts:32870
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32630
+main.ts:32874
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:32623
+main.ts:32868
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:32639
+main.ts:32883
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:32639
 
 #### Defined in
 
-main.ts:32663
+main.ts:32907
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:32663
 
 #### Defined in
 
-main.ts:32656
+main.ts:32900

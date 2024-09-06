@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:127548
+main.ts:127581
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:127548
 
 #### Defined in
 
-main.ts:21894
+main.ts:21899
 
 ***
 
@@ -69,7 +69,7 @@ conains keyword popularity data by age and gender
 
 #### Defined in
 
-main.ts:127543
+main.ts:127576
 
 ***
 
@@ -83,7 +83,7 @@ main.ts:127543
 
 #### Defined in
 
-main.ts:127544
+main.ts:127577
 
 ***
 
@@ -104,7 +104,7 @@ the data included in the dataforseo_trends_graph element is based on the keyword
 
 #### Defined in
 
-main.ts:21892
+main.ts:21897
 
 ***
 
@@ -125,7 +125,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21889
+main.ts:21894
 
 ***
 
@@ -145,7 +145,7 @@ type of element
 
 #### Defined in
 
-main.ts:21886
+main.ts:21891
 
 ## Methods
 
@@ -167,7 +167,7 @@ main.ts:21886
 
 #### Defined in
 
-main.ts:127553
+main.ts:127586
 
 ***
 
@@ -189,7 +189,7 @@ main.ts:127553
 
 #### Defined in
 
-main.ts:127572
+main.ts:127605
 
 ***
 
@@ -211,4 +211,4 @@ main.ts:127572
 
 #### Defined in
 
-main.ts:127565
+main.ts:127598

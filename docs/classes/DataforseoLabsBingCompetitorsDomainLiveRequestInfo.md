@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:106413
+main.ts:106446
 
 ## Properties
 
@@ -66,7 +66,7 @@ slideshare.net
 
 #### Defined in
 
-main.ts:106397
+main.ts:106430
 
 ***
 
@@ -94,7 +94,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:106343
+main.ts:106376
 
 ***
 
@@ -114,7 +114,7 @@ Note: you can specify up to 20 domains in this array
 
 #### Defined in
 
-main.ts:106403
+main.ts:106436
 
 ***
 
@@ -137,7 +137,7 @@ default value:
 
 #### Defined in
 
-main.ts:106329
+main.ts:106362
 
 ***
 
@@ -159,7 +159,7 @@ en
 
 #### Defined in
 
-main.ts:106320
+main.ts:106353
 
 ***
 
@@ -181,7 +181,7 @@ English
 
 #### Defined in
 
-main.ts:106312
+main.ts:106345
 
 ***
 
@@ -200,7 +200,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:106365
+main.ts:106398
 
 ***
 
@@ -223,7 +223,7 @@ example:
 
 #### Defined in
 
-main.ts:106304
+main.ts:106337
 
 ***
 
@@ -246,7 +246,7 @@ United States
 
 #### Defined in
 
-main.ts:106295
+main.ts:106328
 
 ***
 
@@ -265,7 +265,7 @@ if you specify 10 here, we will extract competitors from the top 10 Bing search 
 
 #### Defined in
 
-main.ts:106375
+main.ts:106408
 
 ***
 
@@ -284,7 +284,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:106370
+main.ts:106403
 
 ***
 
@@ -315,7 +315,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:106360
+main.ts:106393
 
 ***
 
@@ -335,7 +335,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:106409
+main.ts:106442
 
 ***
 
@@ -354,7 +354,7 @@ the domain should be specified without https:// and www.
 
 #### Defined in
 
-main.ts:106286
+main.ts:106319
 
 ## Methods
 
@@ -372,7 +372,7 @@ main.ts:106286
 
 #### Defined in
 
-main.ts:106422
+main.ts:106455
 
 ***
 
@@ -390,7 +390,7 @@ main.ts:106422
 
 #### Defined in
 
-main.ts:106468
+main.ts:106501
 
 ***
 
@@ -408,4 +408,4 @@ main.ts:106468
 
 #### Defined in
 
-main.ts:106461
+main.ts:106494

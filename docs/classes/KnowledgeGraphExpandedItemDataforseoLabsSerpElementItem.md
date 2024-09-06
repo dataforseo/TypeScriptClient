@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:97836
+main.ts:97869
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:97836
 
 #### Defined in
 
-main.ts:20742
+main.ts:20747
 
 ***
 
@@ -70,7 +70,7 @@ kc:/local:place qa
 
 #### Defined in
 
-main.ts:97830
+main.ts:97863
 
 ***
 
@@ -86,7 +86,7 @@ expanded element
 
 #### Defined in
 
-main.ts:97832
+main.ts:97865
 
 ***
 
@@ -108,7 +108,7 @@ left, right
 
 #### Defined in
 
-main.ts:20738
+main.ts:20743
 
 ***
 
@@ -129,7 +129,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20734
+main.ts:20739
 
 ***
 
@@ -150,7 +150,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20731
+main.ts:20736
 
 ***
 
@@ -166,7 +166,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:97826
+main.ts:97859
 
 ***
 
@@ -186,7 +186,7 @@ type of element
 
 #### Defined in
 
-main.ts:20728
+main.ts:20733
 
 ***
 
@@ -206,7 +206,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20740
+main.ts:20745
 
 ## Methods
 
@@ -228,7 +228,7 @@ main.ts:20740
 
 #### Defined in
 
-main.ts:97841
+main.ts:97874
 
 ***
 
@@ -250,7 +250,7 @@ main.ts:97841
 
 #### Defined in
 
-main.ts:97865
+main.ts:97898
 
 ***
 
@@ -272,4 +272,4 @@ main.ts:97865
 
 #### Defined in
 
-main.ts:97858
+main.ts:97891

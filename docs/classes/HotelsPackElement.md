@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:33730
+main.ts:33965
 
 ## Properties
 
@@ -46,7 +46,7 @@ description
 
 #### Defined in
 
-main.ts:33713
+main.ts:33948
 
 ***
 
@@ -62,7 +62,7 @@ website domain
 
 #### Defined in
 
-main.ts:33719
+main.ts:33954
 
 ***
 
@@ -80,7 +80,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:33717
+main.ts:33952
 
 ***
 
@@ -96,7 +96,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:33723
+main.ts:33958
 
 ***
 
@@ -112,7 +112,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:33709
+main.ts:33944
 
 ***
 
@@ -129,7 +129,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:33726
+main.ts:33961
 
 ***
 
@@ -145,7 +145,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:33711
+main.ts:33946
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:33707
+main.ts:33942
 
 ***
 
@@ -177,7 +177,7 @@ URL
 
 #### Defined in
 
-main.ts:33721
+main.ts:33956
 
 ## Methods
 
@@ -195,7 +195,7 @@ main.ts:33721
 
 #### Defined in
 
-main.ts:33739
+main.ts:33974
 
 ***
 
@@ -213,7 +213,7 @@ main.ts:33739
 
 #### Defined in
 
-main.ts:33764
+main.ts:33999
 
 ***
 
@@ -231,4 +231,4 @@ main.ts:33764
 
 #### Defined in
 
-main.ts:33757
+main.ts:33992

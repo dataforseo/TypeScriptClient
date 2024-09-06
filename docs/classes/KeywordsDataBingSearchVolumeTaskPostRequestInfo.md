@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:128283
+main.ts:128316
 
 ## Properties
 
@@ -53,7 +53,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:128237
+main.ts:128270
 
 ***
 
@@ -78,7 +78,7 @@ Note: we do not recommend using a custom time range for the past year’s dates
 
 #### Defined in
 
-main.ts:128248
+main.ts:128281
 
 ***
 
@@ -97,7 +97,7 @@ default value: all
 
 #### Defined in
 
-main.ts:128223
+main.ts:128256
 
 ***
 
@@ -117,7 +117,7 @@ the specified keywords will be converted to lowercase, data will be provided in 
 
 #### Defined in
 
-main.ts:128184
+main.ts:128217
 
 ***
 
@@ -137,7 +137,7 @@ en, fr, de
 
 #### Defined in
 
-main.ts:128218
+main.ts:128251
 
 ***
 
@@ -157,7 +157,7 @@ English, French, German
 
 #### Defined in
 
-main.ts:128212
+main.ts:128245
 
 ***
 
@@ -178,7 +178,7 @@ example:
 
 #### Defined in
 
-main.ts:128198
+main.ts:128231
 
 ***
 
@@ -200,7 +200,7 @@ example:
 
 #### Defined in
 
-main.ts:128206
+main.ts:128239
 
 ***
 
@@ -221,7 +221,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:128191
+main.ts:128224
 
 ***
 
@@ -245,7 +245,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:128268
+main.ts:128301
 
 ***
 
@@ -269,7 +269,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:128258
+main.ts:128291
 
 ***
 
@@ -288,7 +288,7 @@ default value: false – results are returned for Bing, AOL, and Yahoo search ne
 
 #### Defined in
 
-main.ts:128273
+main.ts:128306
 
 ***
 
@@ -307,7 +307,7 @@ default value: relevance
 
 #### Defined in
 
-main.ts:128228
+main.ts:128261
 
 ***
 
@@ -327,7 +327,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:128279
+main.ts:128312
 
 ## Methods
 
@@ -345,7 +345,7 @@ main.ts:128279
 
 #### Defined in
 
-main.ts:128292
+main.ts:128325
 
 ***
 
@@ -363,7 +363,7 @@ main.ts:128292
 
 #### Defined in
 
-main.ts:128326
+main.ts:128359
 
 ***
 
@@ -381,4 +381,4 @@ main.ts:128326
 
 #### Defined in
 
-main.ts:128319
+main.ts:128352

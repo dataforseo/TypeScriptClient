@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:178790
+main.ts:178823
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:178790
 
 #### Defined in
 
-main.ts:21039
+main.ts:21044
 
 ***
 
@@ -68,7 +68,7 @@ description of the product
 
 #### Defined in
 
-main.ts:178765
+main.ts:178798
 
 ***
 
@@ -85,7 +85,7 @@ contains snippets with the description of product features
 
 #### Defined in
 
-main.ts:178774
+main.ts:178807
 
 ***
 
@@ -102,7 +102,7 @@ contains urls to product images
 
 #### Defined in
 
-main.ts:178771
+main.ts:178804
 
 ***
 
@@ -124,7 +124,7 @@ left, right
 
 #### Defined in
 
-main.ts:21037
+main.ts:21042
 
 ***
 
@@ -141,7 +141,7 @@ ilearn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:178761
+main.ts:178794
 
 ***
 
@@ -162,7 +162,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21033
+main.ts:21038
 
 ***
 
@@ -183,7 +183,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21030
+main.ts:21035
 
 ***
 
@@ -200,7 +200,7 @@ the popularity rate based on reviews
 
 #### Defined in
 
-main.ts:178777
+main.ts:178810
 
 ***
 
@@ -217,7 +217,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178780
+main.ts:178813
 
 ***
 
@@ -234,7 +234,7 @@ number of reviews on the product seller’s account
 
 #### Defined in
 
-main.ts:178783
+main.ts:178816
 
 ***
 
@@ -250,7 +250,7 @@ title of the product
 
 #### Defined in
 
-main.ts:178763
+main.ts:178796
 
 ***
 
@@ -270,7 +270,7 @@ type of element
 
 #### Defined in
 
-main.ts:21027
+main.ts:21032
 
 ***
 
@@ -287,7 +287,7 @@ url of the product on Google Shopping
 
 #### Defined in
 
-main.ts:178768
+main.ts:178801
 
 ***
 
@@ -304,7 +304,7 @@ contains brief information about different product variations
 
 #### Defined in
 
-main.ts:178786
+main.ts:178819
 
 ## Methods
 
@@ -326,7 +326,7 @@ main.ts:178786
 
 #### Defined in
 
-main.ts:178795
+main.ts:178828
 
 ***
 
@@ -348,7 +348,7 @@ main.ts:178795
 
 #### Defined in
 
-main.ts:178838
+main.ts:178871
 
 ***
 
@@ -370,4 +370,4 @@ main.ts:178838
 
 #### Defined in
 
-main.ts:178831
+main.ts:178864

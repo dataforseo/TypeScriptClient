@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:171272
+main.ts:171305
 
 ## Properties
 
@@ -46,7 +46,7 @@ initial text in the POST request
 
 #### Defined in
 
-main.ts:171262
+main.ts:171295
 
 ***
 
@@ -62,7 +62,7 @@ number of input tokens in the POST request
 
 #### Defined in
 
-main.ts:171256
+main.ts:171289
 
 ***
 
@@ -78,7 +78,7 @@ contains grammar or spelling errors and related data
 
 #### Defined in
 
-main.ts:171268
+main.ts:171301
 
 ***
 
@@ -94,7 +94,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:171266
+main.ts:171299
 
 ***
 
@@ -110,7 +110,7 @@ language code in the POST request
 
 #### Defined in
 
-main.ts:171264
+main.ts:171297
 
 ***
 
@@ -126,7 +126,7 @@ number of new tokens in the response
 
 #### Defined in
 
-main.ts:171260
+main.ts:171293
 
 ***
 
@@ -142,7 +142,7 @@ number of output tokens in the response
 
 #### Defined in
 
-main.ts:171258
+main.ts:171291
 
 ## Methods
 
@@ -160,7 +160,7 @@ main.ts:171258
 
 #### Defined in
 
-main.ts:171281
+main.ts:171314
 
 ***
 
@@ -178,7 +178,7 @@ main.ts:171281
 
 #### Defined in
 
-main.ts:171308
+main.ts:171341
 
 ***
 
@@ -196,4 +196,4 @@ main.ts:171308
 
 #### Defined in
 
-main.ts:171301
+main.ts:171334

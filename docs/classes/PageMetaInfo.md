@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:154489
+main.ts:154522
 
 ## Properties
 
@@ -46,7 +46,7 @@ resource errors and warnings
 
 #### Defined in
 
-main.ts:154485
+main.ts:154518
 
 ***
 
@@ -62,7 +62,7 @@ canonical page
 
 #### Defined in
 
-main.ts:154438
+main.ts:154471
 
 ***
 
@@ -79,7 +79,7 @@ example: 65001
 
 #### Defined in
 
-main.ts:154423
+main.ts:154456
 
 ***
 
@@ -95,7 +95,7 @@ overall information about content of the page
 
 #### Defined in
 
-main.ts:154472
+main.ts:154505
 
 ***
 
@@ -112,7 +112,7 @@ measures the sum total of all individual layout shift scores for every unexpecte
 
 #### Defined in
 
-main.ts:154467
+main.ts:154500
 
 ***
 
@@ -128,7 +128,7 @@ deprecated tags on the page
 
 #### Defined in
 
-main.ts:154474
+main.ts:154507
 
 ***
 
@@ -144,7 +144,7 @@ content of the meta description tag
 
 #### Defined in
 
-main.ts:154432
+main.ts:154465
 
 ***
 
@@ -160,7 +160,7 @@ length of the description tag in characters
 
 #### Defined in
 
-main.ts:154460
+main.ts:154493
 
 ***
 
@@ -176,7 +176,7 @@ duplicate meta tags on the page
 
 #### Defined in
 
-main.ts:154476
+main.ts:154509
 
 ***
 
@@ -192,7 +192,7 @@ number of external links on the page
 
 #### Defined in
 
-main.ts:154442
+main.ts:154475
 
 ***
 
@@ -208,7 +208,7 @@ favicon of the page
 
 #### Defined in
 
-main.ts:154434
+main.ts:154467
 
 ***
 
@@ -225,7 +225,7 @@ if false, the page’s ‘meta robots’ tag contains “nofollow” parameter i
 
 #### Defined in
 
-main.ts:154426
+main.ts:154459
 
 ***
 
@@ -241,7 +241,7 @@ meta tag generator
 
 #### Defined in
 
-main.ts:154428
+main.ts:154461
 
 ***
 
@@ -261,7 +261,7 @@ HTML header tags
 
 #### Defined in
 
-main.ts:154430
+main.ts:154463
 
 ***
 
@@ -277,7 +277,7 @@ number of images on the page
 
 #### Defined in
 
-main.ts:154446
+main.ts:154479
 
 ***
 
@@ -293,7 +293,7 @@ total size of images on the page measured in bytes
 
 #### Defined in
 
-main.ts:154448
+main.ts:154481
 
 ***
 
@@ -309,7 +309,7 @@ number of internal links pointing at the page
 
 #### Defined in
 
-main.ts:154444
+main.ts:154477
 
 ***
 
@@ -325,7 +325,7 @@ number of internal links on the page
 
 #### Defined in
 
-main.ts:154440
+main.ts:154473
 
 ***
 
@@ -341,7 +341,7 @@ content of the keywords meta tag
 
 #### Defined in
 
-main.ts:154436
+main.ts:154469
 
 ***
 
@@ -358,7 +358,7 @@ meta tag in the head section of an HTML document that defines the title of a pag
 
 #### Defined in
 
-main.ts:154470
+main.ts:154503
 
 ***
 
@@ -374,7 +374,7 @@ number of scripts on the page that block page rendering
 
 #### Defined in
 
-main.ts:154462
+main.ts:154495
 
 ***
 
@@ -390,7 +390,7 @@ number of CSS styles on the page that block page rendering
 
 #### Defined in
 
-main.ts:154464
+main.ts:154497
 
 ***
 
@@ -406,7 +406,7 @@ number of scripts on the page
 
 #### Defined in
 
-main.ts:154450
+main.ts:154483
 
 ***
 
@@ -422,7 +422,7 @@ total size of scripts on the page measured in bytes
 
 #### Defined in
 
-main.ts:154452
+main.ts:154485
 
 ***
 
@@ -444,7 +444,7 @@ supported tags include but are not limited to Open Graph and Twitter card
 
 #### Defined in
 
-main.ts:154483
+main.ts:154516
 
 ***
 
@@ -461,7 +461,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:154479
+main.ts:154512
 
 ***
 
@@ -477,7 +477,7 @@ number of stylesheets on the page
 
 #### Defined in
 
-main.ts:154454
+main.ts:154487
 
 ***
 
@@ -493,7 +493,7 @@ total size of stylesheets on the page measured in bytes
 
 #### Defined in
 
-main.ts:154456
+main.ts:154489
 
 ***
 
@@ -509,7 +509,7 @@ page title
 
 #### Defined in
 
-main.ts:154420
+main.ts:154453
 
 ***
 
@@ -525,7 +525,7 @@ length of the title tag in characters
 
 #### Defined in
 
-main.ts:154458
+main.ts:154491
 
 ## Methods
 
@@ -543,7 +543,7 @@ main.ts:154458
 
 #### Defined in
 
-main.ts:154498
+main.ts:154531
 
 ***
 
@@ -561,7 +561,7 @@ main.ts:154498
 
 #### Defined in
 
-main.ts:154564
+main.ts:154597
 
 ***
 
@@ -579,4 +579,4 @@ main.ts:154564
 
 #### Defined in
 
-main.ts:154557
+main.ts:154590

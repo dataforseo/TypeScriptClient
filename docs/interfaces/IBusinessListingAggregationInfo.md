@@ -20,7 +20,7 @@ number of unique entities
 
 #### Defined in
 
-main.ts:199702
+main.ts:199735
 
 ***
 
@@ -37,7 +37,7 @@ service details of a business entity displayed in a form of checks and the numbe
 
 #### Defined in
 
-main.ts:199705
+main.ts:199738
 
 ***
 
@@ -54,7 +54,7 @@ top categories displayed with the number of businesses in each category
 
 #### Defined in
 
-main.ts:199695
+main.ts:199728
 
 ***
 
@@ -71,7 +71,7 @@ country codes with the biggest number of businesses in the category
 
 #### Defined in
 
-main.ts:199698
+main.ts:199731
 
 ***
 
@@ -88,7 +88,7 @@ contains most popular keywords related to products/services mentioned in custome
 
 #### Defined in
 
-main.ts:199708
+main.ts:199741
 
 ***
 
@@ -100,4 +100,4 @@ number of unique websites
 
 #### Defined in
 
-main.ts:199700
+main.ts:199733

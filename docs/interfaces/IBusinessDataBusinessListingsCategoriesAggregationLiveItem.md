@@ -20,7 +20,7 @@ aggregation of the category
 
 #### Defined in
 
-main.ts:199780
+main.ts:199813
 
 ***
 
@@ -33,7 +33,7 @@ Google My Business general category that best describes the cluster of related c
 
 #### Defined in
 
-main.ts:199778
+main.ts:199811
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Defined in
 
-main.ts:199775
+main.ts:199808

@@ -328,7 +328,7 @@ paths:
           required: true
           schema:
             type: string
-          example: df1ba22e-3bcc-40c4-993a-5373e4bf65cb
+          example: 30c84bfd-a8f9-464e-a214-d9cc441c8021
       responses:
         '200':
           description: Successful operation
@@ -646,7 +646,7 @@ paths:
           required: true
           schema:
             type: string
-          example: a952e63f-b48c-4ed2-b7fc-7ca08fe696a9
+          example: 6ac5a1c7-8df2-438a-a231-39bd1d3aadec
       responses:
         '200':
           description: Successful operation
@@ -818,7 +818,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 473571b8-f58a-4b5a-af6c-6250aec9f55b
+          example: b7340c1a-ad75-4246-8644-a981ee6010f9
       responses:
         '200':
           description: Successful operation
@@ -1108,7 +1108,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 9113a8b1-75c2-401e-a365-81cf6bfd234c
+          example: 00cebbf5-3962-4017-95bf-217a3afadca4
       responses:
         '200':
           description: Successful operation
@@ -1370,7 +1370,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 962ca180-b4c7-4e6e-b592-3727e95f2d56
+          example: 9340a259-cc33-4c7f-a266-aa96000ef40e
       responses:
         '200':
           description: Successful operation
@@ -1928,7 +1928,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f001bcfc-65d9-49e5-b287-a418d41d5b8e
+          example: 81ed67c0-92fe-47f3-a3f2-38d017994171
       responses:
         '200':
           description: Successful operation
@@ -2128,7 +2128,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 9fda136a-a031-461e-ad70-36c2afe2a594
+          example: b7bb1a99-cbae-4755-aacc-02a6af8af843
       responses:
         '200':
           description: Successful operation
@@ -2804,7 +2804,7 @@ paths:
           required: true
           schema:
             type: string
-          example: f6558ebe-001f-46ae-bf4d-90e5025c43f2
+          example: ffb5e0f2-9f3d-4c43-a1a5-ffd19f365c8d
       responses:
         '200':
           description: Successful operation
@@ -3092,7 +3092,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 24a4ab89-458e-46a7-a49c-4b4124788669
+          example: 05f30b21-8587-4c4d-92fd-230d7a2d7027
       responses:
         '200':
           description: Successful operation
@@ -3234,7 +3234,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 47817762-9ac4-405b-bec8-024d03018f58
+          example: 7b64b977-9d64-410e-99c2-925a8b9c6941
       responses:
         '200':
           description: Successful operation
@@ -3438,7 +3438,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 8c423059-0200-43ac-998e-8500dcfe5a08
+          example: 5c7b9d16-432c-479e-91d6-0200eea2a9b8
       responses:
         '200':
           description: Successful operation
@@ -5553,7 +5553,7 @@ paths:
           required: true
           schema:
             type: string
-          example: aa28e70e-b5c9-43a5-9c18-34f0e127dbf1
+          example: 9effbf57-cac6-477f-a7ac-afeaf92b6dce
       responses:
         '200':
           description: Successful operation
@@ -5653,7 +5653,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 664146e7-3291-4e0d-90d9-1b4fc7a77a97
+          example: 6cbc90be-5b21-4805-b1c8-73c3ddfc13bb
       responses:
         '200':
           description: Successful operation
@@ -5753,7 +5753,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 341557fe-1c59-45df-8a3f-fc4a064f4c27
+          example: 49c94db3-b930-4f48-8922-24a4de6170d2
       responses:
         '200':
           description: Successful operation
@@ -5853,7 +5853,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 7e26a2c4-07f6-4bbd-ab7f-12cd211ad2b0
+          example: b9313b6d-452b-47f2-a1d1-b557e680a461
       responses:
         '200':
           description: Successful operation
@@ -6033,7 +6033,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 61bed510-aaad-427d-8c7b-d1badbe2c3d7
+          example: 8b3dc995-3fa8-4346-a29b-0412cee376c4
       responses:
         '200':
           description: Successful operation
@@ -6325,7 +6325,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 20bce0d3-248a-4eae-b883-7e3983890967
+          example: c3edc52e-1890-452c-9974-5b80f072099b
       responses:
         '200':
           description: Successful operation
@@ -6425,7 +6425,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c0850618-90a8-48d1-bb3c-0f8525a6372a
+          example: 67a1eb9d-253f-415d-8040-d503b0364076
       responses:
         '200':
           description: Successful operation
@@ -6525,7 +6525,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 2d6ba7c4-cddf-4275-a5b6-72fbbd9480fe
+          example: 2ece79f1-eda8-4451-af77-2aa6e7483ac5
       responses:
         '200':
           description: Successful operation
@@ -6643,7 +6643,7 @@ paths:
           required: true
           schema:
             type: string
-          example: a60c3404-99ed-42b1-b476-3aa5d0ad3aad
+          example: 30c385b9-4e21-407c-978d-97a1febccce6
       responses:
         '200':
           description: Successful operation
@@ -6761,7 +6761,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d3321d5e-59ee-4558-ad38-5d2422616640
+          example: f86691a1-25db-4e8c-9f3c-3a67ef4ba13a
       responses:
         '200':
           description: Successful operation
@@ -9071,7 +9071,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 8cae71e6-23b4-4c00-aabe-b5ff4a837cb2
+          example: a40150b3-9ed4-4cd6-840f-539fb8ae9951
       responses:
         '200':
           description: Successful operation
@@ -9169,7 +9169,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 82348824-1b9f-4c24-ad9b-c764dcfa31fc
+          example: 2400023c-5120-4e56-b438-b9c72759a21f
       responses:
         '200':
           description: Successful operation
@@ -9267,7 +9267,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 3626a0f5-e114-40f9-9961-08bb7a8837cf
+          example: 5431f26e-7cbd-431e-8a10-cb5a58bf57b6
       responses:
         '200':
           description: Successful operation
@@ -9525,7 +9525,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 3a899b02-b31f-465c-9f0f-ae84ce98e6d1
+          example: 4908ea1c-0c98-47ed-be0e-6fc70f5ffbb1
       responses:
         '200':
           description: Successful operation
@@ -9623,7 +9623,7 @@ paths:
           required: true
           schema:
             type: string
-          example: eac26a1a-e8c8-4198-bdca-7f5960269577
+          example: c7d6664b-6550-4f49-9300-389507a76bea
       responses:
         '200':
           description: Successful operation
@@ -9721,7 +9721,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 4fd349a1-edc5-433a-adbe-decb635ed869
+          example: eac32bca-7002-4681-8de5-7f71f39043b2
       responses:
         '200':
           description: Successful operation
@@ -9819,7 +9819,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c163063e-849c-44ce-9ca6-18ccdf01137d
+          example: e6b5ef61-5ffb-4b22-8164-e8e6d68f8312
       responses:
         '200':
           description: Successful operation
@@ -10046,7 +10046,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 70903015-e23f-4218-9cc1-c89dff5de54e
+          example: 3c03d11a-1ce4-4147-b8d7-786d52f0e8b5
       responses:
         '200':
           description: Successful operation
@@ -10072,7 +10072,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 74c0757d-4165-41a2-934a-04d7f28de77a
+          example: 0fe5ac74-c717-4a62-874d-890d44f64648
       responses:
         '200':
           description: Successful operation
@@ -10144,7 +10144,7 @@ paths:
           required: true
           schema:
             type: string
-          example: c0063177-95f3-4977-8b46-e113cefb40fc
+          example: 6cac7aa0-9c3c-4074-a191-86773351e6f6
       responses:
         '200':
           description: Successful operation
@@ -10170,7 +10170,7 @@ paths:
           required: true
           schema:
             type: string
-          example: e060a10b-6543-4fa0-b6d3-36636c68d0c9
+          example: adaa9a34-5c75-4a7b-858a-ffcf92913798
       responses:
         '200':
           description: Successful operation
@@ -10242,7 +10242,7 @@ paths:
           required: true
           schema:
             type: string
-          example: d2d39b40-0fa8-4093-8c99-121508fbc687
+          example: 127666ee-3c42-4cbc-9953-0cf4bc121802
       responses:
         '200':
           description: Successful operation
@@ -10268,7 +10268,7 @@ paths:
           required: true
           schema:
             type: string
-          example: abfe5873-ba5f-4e71-a737-69196e93854e
+          example: f7cca12c-3066-49e4-b8d9-0c49a2cee153
       responses:
         '200':
           description: Successful operation
@@ -10340,7 +10340,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 19231ce5-fb15-4818-ba4f-e6ea2171a2c8
+          example: d3828d7d-ccdf-4bfb-9da1-9406f2ac2821
       responses:
         '200':
           description: Successful operation
@@ -10366,7 +10366,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 39ca7e39-048a-411d-a303-cb01e5ef00e5
+          example: 8a320c73-a8fa-413b-b20b-549cd77d88c7
       responses:
         '200':
           description: Successful operation
@@ -10538,7 +10538,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b48124fc-4692-4526-a312-5b43266d4454
+          example: 36d14cbb-556f-4ea6-9c11-c560e9107dbf
       responses:
         '200':
           description: Successful operation
@@ -10610,7 +10610,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 089c9bbf-0b5b-4ead-9df6-8ccda63a0ee3
+          example: 5b8f10f7-bb8e-492e-8343-1476d4a6c1c5
       responses:
         '200':
           description: Successful operation
@@ -10682,7 +10682,7 @@ paths:
           required: true
           schema:
             type: string
-          example: 375fb49a-cc93-4037-b7db-3aab7e1d331e
+          example: a88fadb1-e913-4218-a00e-53bcd00e6fbe
       responses:
         '200':
           description: Successful operation
@@ -10754,7 +10754,7 @@ paths:
           required: true
           schema:
             type: string
-          example: b758929a-c7f4-49bc-97db-4d273a2115c5
+          example: f84efb83-f9ba-485c-bea3-fa17df6bda30
       responses:
         '200':
           description: Successful operation
@@ -11416,7 +11416,7 @@ paths:
           required: true
           schema:
             type: string
-          example: eea2bf96-9dff-4576-99ac-29e13912b0a0
+          example: c027e810-609f-4422-94c5-2eebe7001e41
       responses:
         '200':
           description: Successful operation
@@ -12214,6 +12214,7 @@ components:
           knowledge_graph_part_item: '#/components/schemas/KnowledgeGraphPartItemSerpElementItem'
           knowledge_graph_shopping_item: '#/components/schemas/KnowledgeGraphShoppingItemSerpElementItem'
           knowledge_graph_hotels_booking_item: '#/components/schemas/KnowledgeGraphHotelsBookingItemSerpElementItem'
+          knowledge_graph_ai_overview_item: '#/components/schemas/KnowledgeGraphAiOverviewItemSerpElementItem'
           knowledge_graph: '#/components/schemas/KnowledgeGraphSerpElementItem'
           top_stories: '#/components/schemas/TopStoriesSerpElementItem'
           people_also_ask: '#/components/schemas/PeopleAlsoAskSerpElementItem'
@@ -14120,7 +14121,7 @@ components:
               nullable: true
             domain:
               type: string
-              description: website domain
+              description: domain name of the reference
               nullable: true
             breadcrumb:
               type: string
@@ -14205,7 +14206,7 @@ components:
           properties:
             domain:
               type: string
-              description: website domain
+              description: domain name of the reference
               nullable: true
             title:
               type: string
@@ -14564,7 +14565,7 @@ components:
           properties:
             text:
               type: string
-              description: description content
+              description: text or description of the element in SERP
               nullable: true
             links:
               type: array
@@ -14686,7 +14687,7 @@ components:
               nullable: true
             text:
               type: string
-              description: row content
+              description: "reference text\ntext snippet from the page that was used to generate the ai_overview_element"
               nullable: true
             links:
               type: array
@@ -14766,7 +14767,7 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/Table'
-          description: table element
+          description: "results table\nif there are none, equals null"
           nullable: true
     KnowledgeGraphExpandedItemSerpElementItem:
       type: object
@@ -14813,7 +14814,7 @@ components:
               nullable: true
             text:
               type: string
-              description: content within the item
+              description: "reference text\ntext snippet from the page that was used to generate the ai_overview_element"
               nullable: true
             links:
               type: array
@@ -14970,6 +14971,100 @@ components:
                 - $ref: '#/components/schemas/Rectangle'
               description: "rectangle parameters\ncontains cartesian coordinates and pixel dimensions of the result’s snippet in SERP\nequals null if calculate_rectangles in the POST request is not set to true"
               nullable: true
+    AiOverviewReference:
+      type: object
+      properties:
+        type:
+          type: string
+          description: type of element
+          nullable: true
+        source:
+          type: string
+          description: reference source name or title
+          nullable: true
+        domain:
+          type: string
+          description: website domain
+          nullable: true
+        url:
+          type: string
+          description: URL
+          nullable: true
+        title:
+          type: string
+          description: title of a given link element
+          nullable: true
+        text:
+          type: string
+          description: row content
+          nullable: true
+    AiOverviewElement:
+      type: object
+      properties:
+        type:
+          type: string
+          description: type of element
+          nullable: true
+        title:
+          type: string
+          description: title of the element
+          nullable: true
+        text:
+          type: string
+          description: description content
+          nullable: true
+        images:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/ImagesElement'
+            nullable: true
+          description: images of the element
+          nullable: true
+        references:
+          type: array
+          items:
+            type: object
+            oneOf:
+              - $ref: '#/components/schemas/AiOverviewReference'
+            nullable: true
+          description: references relevant to the element
+          nullable: true
+    KnowledgeGraphAiOverviewItemSerpElementItem:
+      type: object
+      allOf:
+        - $ref: '#/components/schemas/BaseSerpElementItem'
+        - type: object
+          properties:
+            asynchronous_ai_overview:
+              type: boolean
+              description: "indicates whether the element is loaded asynchronically\nif true, the ai_overview element is loaded asynchronically;\nif false, the ai_overview element is loaded from cache;"
+              nullable: true
+            items:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AiOverviewElement'
+                nullable: true
+              description: "additional items present in the element\nif there are none, equals null"
+              nullable: true
+            references:
+              type: array
+              items:
+                type: object
+                oneOf:
+                  - $ref: '#/components/schemas/AiOverviewReference'
+                nullable: true
+              description: "additional references relevant to the item\nincludes references to webpages that may have been used to generate the ai_overview"
+              nullable: true
+            rectangle:
+              type: object
+              oneOf:
+                - $ref: '#/components/schemas/Rectangle'
+              description: "rectangle parameters\ncontains cartesian coordinates and pixel dimensions of the result’s snippet in SERP\nequals null if calculate_rectangles in the POST request is not set to true"
+              nullable: true
     KnowledgeGraphSerpElementItem:
       type: object
       allOf:
@@ -15015,7 +15110,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/BaseSerpElementItem'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains results featured in the ‘hotels_pack’ element of SERP
               nullable: true
             rectangle:
               type: object
@@ -15040,7 +15135,7 @@ components:
           nullable: true
         url:
           type: string
-          description: URL
+          description: URL of element
           nullable: true
         domain:
           type: string
@@ -15059,7 +15154,7 @@ components:
           nullable: true
         title:
           type: string
-          description: title of a given link element
+          description: reference page title
           nullable: true
         description:
           type: string
@@ -15088,7 +15183,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/FaqBoxElement'
             nullable: true
-          description: contains results featured in the ‘hotels_pack’ element of SERP
+          description: "additional items present in the element\nif there are none, equals null"
           nullable: true
     RelatedResult:
       type: object
@@ -15111,7 +15206,7 @@ components:
           nullable: true
         url:
           type: string
-          description: URL of element
+          description: reference page URL
           nullable: true
         cache_url:
           type: string
@@ -15228,7 +15323,7 @@ components:
           nullable: true
         image_url:
           type: string
-          description: URL of the image
+          description: "URL of the image\nthe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)"
           nullable: true
         badges:
           type: array
@@ -15254,7 +15349,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/TopStoriesElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15306,7 +15401,7 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/Table'
-          description: "results table\nif there are none, equals null"
+          description: table element
           nullable: true
     PeopleAlsoAskElement:
       type: object
@@ -15349,7 +15444,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/PeopleAlsoAskElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15372,7 +15467,7 @@ components:
               items:
                 type: string
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15424,7 +15519,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/ImagesElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             related_image_searches:
               type: array
@@ -15485,7 +15580,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/TwitterElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15588,7 +15683,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/JobsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15654,7 +15749,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/AppElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15725,7 +15820,7 @@ components:
           nullable: true
         image_url:
           type: string
-          description: URL of the image
+          description: "URL of the image\nthe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)"
           nullable: true
     CarouselSerpElementItem:
       type: object
@@ -15744,7 +15839,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/CarouselElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15792,7 +15887,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/VideoElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15882,7 +15977,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/ShoppingElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15926,7 +16021,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/GoogleFlightsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -15983,7 +16078,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/MentionCarouselElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16031,7 +16126,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/EventsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16050,7 +16145,7 @@ components:
               items:
                 type: string
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16091,7 +16186,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/MultiCarouselElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16149,7 +16244,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/RecipesElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16199,7 +16294,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/TopSightsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16251,7 +16346,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/ScholarlyArticlesElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16280,7 +16375,7 @@ components:
           nullable: true
         image_url:
           type: string
-          description: URL of the image
+          description: "URL of the image\nthe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)"
           nullable: true
         price:
           type: object
@@ -16311,7 +16406,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/PopularProductsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16359,7 +16454,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/PodcastsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16392,7 +16487,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/GraphElement'
             nullable: true
-          description: contains arrays of specific images
+          description: contains arrays of elements available in the list
           nullable: true
         previous_items:
           type: array
@@ -16489,7 +16584,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/ShortVideosElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16541,7 +16636,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/QuestionsAndAnswersElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16617,7 +16712,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/HotelsPackElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16657,7 +16752,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/LicensesElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16717,7 +16812,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/CommercialUnitsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16783,7 +16878,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/LocalServicesElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -16874,7 +16969,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/MathSolverElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             links:
               type: array
@@ -17047,7 +17142,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/ProductConsiderationsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -17100,7 +17195,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/FoundOnWebElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -17125,7 +17220,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/ShortVideosElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -17146,7 +17241,7 @@ components:
           nullable: true
         image_url:
           type: string
-          description: URL of the image
+          description: "URL of the image\nthe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)"
           nullable: true
         keyword:
           type: string
@@ -17177,7 +17272,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/RefineProductsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -17210,7 +17305,7 @@ components:
           nullable: true
         image_url:
           type: string
-          description: URL of the image
+          description: "URL of the image\nthe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)"
           nullable: true
         xpath:
           type: string
@@ -17233,7 +17328,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/ExploreBrandsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -17293,7 +17388,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/PerspectivesElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -17354,7 +17449,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/DiscussionsAndForumsElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -17383,7 +17478,7 @@ components:
           nullable: true
         image_url:
           type: string
-          description: URL of the image
+          description: "URL of the image\nthe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)"
           nullable: true
         source:
           type: string
@@ -17406,7 +17501,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/CompareSitesElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -17447,7 +17542,7 @@ components:
           nullable: true
         image_url:
           type: string
-          description: URL of the image
+          description: "URL of the image\nthe URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)"
           nullable: true
         rating:
           type: object
@@ -17479,7 +17574,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/CoursesElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             rectangle:
               type: object
@@ -17487,66 +17582,6 @@ components:
                 - $ref: '#/components/schemas/Rectangle'
               description: "rectangle parameters\ncontains cartesian coordinates and pixel dimensions of the result’s snippet in SERP\nequals null if calculate_rectangles in the POST request is not set to true"
               nullable: true
-    AiOverviewReference:
-      type: object
-      properties:
-        type:
-          type: string
-          description: type of element
-          nullable: true
-        source:
-          type: string
-          description: "source of the element\nindicates the source of information included in the questions_and_answers_element"
-          nullable: true
-        domain:
-          type: string
-          description: domain in SERP
-          nullable: true
-        url:
-          type: string
-          description: URL
-          nullable: true
-        title:
-          type: string
-          description: title of a given shopping element
-          nullable: true
-        text:
-          type: string
-          description: "reference text\ntext snippet from the page that was used to generate the ai_overview_element"
-          nullable: true
-    AiOverviewElement:
-      type: object
-      properties:
-        type:
-          type: string
-          description: type of element
-          nullable: true
-        title:
-          type: string
-          description: title of a given link element
-          nullable: true
-        text:
-          type: string
-          description: "reference text\ntext snippet from the page that was used to generate the ai_overview_element"
-          nullable: true
-        images:
-          type: array
-          items:
-            type: object
-            oneOf:
-              - $ref: '#/components/schemas/ImagesElement'
-            nullable: true
-          description: "images of the element\nif there are none, equals null"
-          nullable: true
-        references:
-          type: array
-          items:
-            type: object
-            oneOf:
-              - $ref: '#/components/schemas/AiOverviewReference'
-            nullable: true
-          description: "references relevant to the element\nincludes references to webpages that were used to generate the ai_overview_element"
-          nullable: true
     AiOverviewSerpElementItem:
       type: object
       allOf:
@@ -17564,7 +17599,7 @@ components:
                 oneOf:
                   - $ref: '#/components/schemas/AiOverviewElement'
                 nullable: true
-              description: "additional items present in the element\nif there are none, equals null"
+              description: contains arrays of specific images
               nullable: true
             references:
               type: array
@@ -17642,7 +17677,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/BaseSerpElementItem'
             nullable: true
-          description: contains arrays of elements available in the list
+          description: items present in the element
           nullable: true
     SerpGoogleOrganicTaskGetAdvancedTaskInfo:
       type: object
@@ -53746,7 +53781,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/TableContentItemInfo'
             nullable: true
-          description: content of the header of the table
+          description: parsed content of the header
           nullable: true
         body:
           type: array
@@ -53764,7 +53799,7 @@ components:
             oneOf:
               - $ref: '#/components/schemas/TableContentItemInfo'
             nullable: true
-          description: parsed content of the footer
+          description: content of the footer of the table
           nullable: true
     TopicInfo:
       type: object
@@ -53823,13 +53858,13 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/PageSectionContentInfo'
-          description: parsed content of the header
+          description: content of the header of the table
           nullable: true
         footer:
           type: object
           oneOf:
             - $ref: '#/components/schemas/PageSectionContentInfo'
-          description: content of the footer of the table
+          description: parsed content of the footer
           nullable: true
         main_topic:
           type: array
@@ -71146,11 +71181,11 @@ components:
           type: number
           format: double
           nullable: true
-        ai_summary:
+        id_list:
           type: number
           format: double
           nullable: true
-        id_list:
+        ai_summary:
           type: number
           format: double
           nullable: true
@@ -71264,14 +71299,14 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixBingKeywordsDataLimitsRatesDataInfo'
           nullable: true
+        id_list:
+          type: number
+          format: double
+          nullable: true
         search_volume_history:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixInfo'
-          nullable: true
-        id_list:
-          type: number
-          format: double
           nullable: true
     AppendixAppendixDayStatisticsRatesData:
       type: object
@@ -71284,11 +71319,11 @@ components:
           type: number
           format: double
           nullable: true
-        status:
+        webhook_resend:
           type: number
           format: double
           nullable: true
-        webhook_resend:
+        status:
           type: number
           format: double
           nullable: true
@@ -71462,29 +71497,25 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixInfo'
           nullable: true
-        status:
-          type: number
-          format: double
-          nullable: true
-        amazon:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixDataforseoLabsLimitsRatesDataInfo'
-          nullable: true
-        available_filters:
-          type: number
-          format: double
-          nullable: true
         historical_bulk_traffic_estimation:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixInfo'
           nullable: true
+        languages:
+          type: number
+          format: double
+          nullable: true
         id_list:
           type: number
           format: double
           nullable: true
-        available_history:
+        top_google_searches:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixInfo'
+          nullable: true
+        status:
           type: number
           format: double
           nullable: true
@@ -71493,14 +71524,18 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixInfo'
           nullable: true
-        top_google_searches:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixInfo'
-          nullable: true
-        languages:
+        available_history:
           type: number
           format: double
+          nullable: true
+        available_filters:
+          type: number
+          format: double
+          nullable: true
+        amazon:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixDataforseoLabsLimitsRatesDataInfo'
           nullable: true
     AppendixDomainAnalyticsDayStatisticsRatesData:
       type: object
@@ -71523,11 +71558,11 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixTechnologiesDomainAnalyticsLimitsRatesDataInfo'
           nullable: true
-        id_list:
+        available_filters:
           type: number
           format: double
           nullable: true
-        available_filters:
+        id_list:
           type: number
           format: double
           nullable: true
@@ -71588,11 +71623,11 @@ components:
           type: number
           format: double
           nullable: true
-        languages:
+        audits:
           type: number
           format: double
           nullable: true
-        audits:
+        languages:
           type: number
           format: double
           nullable: true
@@ -71684,7 +71719,7 @@ components:
           type: number
           format: double
           nullable: true
-        available_filters:
+        microdata:
           type: number
           format: double
           nullable: true
@@ -71692,11 +71727,11 @@ components:
           type: number
           format: double
           nullable: true
-        microdata:
+        id_list:
           type: number
           format: double
           nullable: true
-        id_list:
+        available_filters:
           type: number
           format: double
           nullable: true
@@ -71864,21 +71899,15 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixInfo'
           nullable: true
-        historical_new_lost_summary:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixInfo'
-          nullable: true
-        available_filters:
+        index:
           type: number
           format: double
           nullable: true
-        bulk_spam_score:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixInfo'
+        id_list:
+          type: number
+          format: double
           nullable: true
-        index:
+        available_filters:
           type: number
           format: double
           nullable: true
@@ -71887,9 +71916,15 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixInfo'
           nullable: true
-        id_list:
-          type: number
-          format: double
+        historical_new_lost_summary:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixInfo'
+          nullable: true
+        bulk_spam_score:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixInfo'
           nullable: true
     AppendixAppDataDayStatisticsRatesData:
       type: object
@@ -71992,11 +72027,11 @@ components:
           type: number
           format: double
           nullable: true
-        available_filters:
+        id_list:
           type: number
           format: double
           nullable: true
-        id_list:
+        available_filters:
           type: number
           format: double
           nullable: true
@@ -72162,6 +72197,10 @@ components:
           type: string
           description: "time period for grouping\nday in the yyyy-MM-dd format\nminute in the yyyy-MM-dd HH:mm format"
           nullable: true
+        total_traffic_analytics:
+          type: number
+          format: double
+          nullable: true
         total_reviews:
           type: number
           format: double
@@ -72170,10 +72209,6 @@ components:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixInfo'
-          nullable: true
-        total_traffic_analytics:
-          type: number
-          format: double
           nullable: true
     AppendixMinuteStatisticsDataInfo:
       type: object
@@ -72382,11 +72417,11 @@ components:
           type: number
           format: double
           nullable: true
-        refund_money:
+        ai_summary:
           type: number
           format: double
           nullable: true
-        ai_summary:
+        refund_money:
           type: number
           format: double
           nullable: true
@@ -72467,15 +72502,15 @@ components:
           oneOf:
             - $ref: '#/components/schemas/AppendixClickstreamDataKeywordsDataLimitsRatesDataInfo'
           nullable: true
-        google:
-          type: object
-          oneOf:
-            - $ref: '#/components/schemas/AppendixBingKeywordsDataLimitsRatesDataInfo'
-          nullable: true
         search_volume_history:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixJobsSerpLimitsRatesDataInfo'
+          nullable: true
+        google:
+          type: object
+          oneOf:
+            - $ref: '#/components/schemas/AppendixBingKeywordsDataLimitsRatesDataInfo'
           nullable: true
     AppendixOnPageDayStatisticsMoneyData:
       type: object
@@ -72661,14 +72696,14 @@ components:
           type: number
           format: double
           nullable: true
+        refund_money:
+          type: number
+          format: double
+          nullable: true
         app_listings:
           type: object
           oneOf:
             - $ref: '#/components/schemas/AppendixBusinessDataDayLimitsRatesDataInfo'
-          nullable: true
-        refund_money:
-          type: number
-          format: double
           nullable: true
     AppendixDayStatisticsMoneyData:
       type: object

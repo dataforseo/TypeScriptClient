@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:32950
+main.ts:33192
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`PopularProductsElement`](PopularProductsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:32942
+main.ts:33184
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:32946
+main.ts:33188
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:32939
+main.ts:33182
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:32955
+main.ts:33197
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:32955
 
 #### Defined in
 
-main.ts:32979
+main.ts:33221
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:32979
 
 #### Defined in
 
-main.ts:32972
+main.ts:33214

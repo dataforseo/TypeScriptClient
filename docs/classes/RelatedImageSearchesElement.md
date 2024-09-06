@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:30278
+main.ts:30547
 
 ## Properties
 
@@ -46,7 +46,7 @@ alt tag of the image
 
 #### Defined in
 
-main.ts:30269
+main.ts:30538
 
 ***
 
@@ -63,7 +63,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:30274
+main.ts:30543
 
 ***
 
@@ -79,7 +79,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:30267
+main.ts:30536
 
 ***
 
@@ -95,7 +95,7 @@ type of element
 
 #### Defined in
 
-main.ts:30265
+main.ts:30534
 
 ***
 
@@ -111,7 +111,7 @@ relevant URL
 
 #### Defined in
 
-main.ts:30271
+main.ts:30540
 
 ## Methods
 
@@ -129,7 +129,7 @@ main.ts:30271
 
 #### Defined in
 
-main.ts:30287
+main.ts:30556
 
 ***
 
@@ -147,7 +147,7 @@ main.ts:30287
 
 #### Defined in
 
-main.ts:30308
+main.ts:30577
 
 ***
 
@@ -165,4 +165,4 @@ main.ts:30308
 
 #### Defined in
 
-main.ts:30301
+main.ts:30570

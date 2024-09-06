@@ -21,7 +21,7 @@ information about hotel amenities
 
 #### Defined in
 
-main.ts:205810
+main.ts:205843
 
 ***
 
@@ -34,7 +34,7 @@ check-in time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:205795
+main.ts:205828
 
 ***
 
@@ -47,7 +47,7 @@ check-out time indicated in the hotel listing
 
 #### Defined in
 
-main.ts:205798
+main.ts:205831
 
 ***
 
@@ -60,7 +60,7 @@ the description of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:205789
+main.ts:205822
 
 ***
 
@@ -73,7 +73,7 @@ domain of the hotel’s website
 
 #### Defined in
 
-main.ts:205804
+main.ts:205837
 
 ***
 
@@ -86,7 +86,7 @@ address of the hotel indicated in the standardised format
 
 #### Defined in
 
-main.ts:205801
+main.ts:205834
 
 ***
 
@@ -99,7 +99,7 @@ information about hotel amenities labelled as “popular”
 
 #### Defined in
 
-main.ts:205813
+main.ts:205846
 
 ***
 
@@ -112,7 +112,7 @@ details about the hotel provided in addition to the description
 
 #### Defined in
 
-main.ts:205792
+main.ts:205825
 
 ***
 
@@ -125,4 +125,4 @@ URL to the hotel’s website indicated in the listing
 
 #### Defined in
 
-main.ts:205807
+main.ts:205840

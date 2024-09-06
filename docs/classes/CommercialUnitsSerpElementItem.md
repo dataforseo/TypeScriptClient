@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:34146
+main.ts:34376
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`CommercialUnitsElement`](CommercialUnitsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:34138
+main.ts:34368
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34142
+main.ts:34372
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:34135
+main.ts:34366
 
 ***
 
@@ -230,7 +229,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:34151
+main.ts:34381
 
 ***
 
@@ -252,7 +251,7 @@ main.ts:34151
 
 #### Defined in
 
-main.ts:34175
+main.ts:34405
 
 ***
 
@@ -274,4 +273,4 @@ main.ts:34175
 
 #### Defined in
 
-main.ts:34168
+main.ts:34398

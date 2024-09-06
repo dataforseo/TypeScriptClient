@@ -22,7 +22,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:154005
+main.ts:154038
 
 ***
 
@@ -35,7 +35,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:153999
+main.ts:154032
 
 ***
 
@@ -47,7 +47,7 @@ details of the crawling session
 
 #### Defined in
 
-main.ts:154001
+main.ts:154034
 
 ***
 
@@ -65,7 +65,7 @@ unexpected_exception – an internal error was encountered while crawling the ta
 
 #### Defined in
 
-main.ts:154013
+main.ts:154046
 
 ***
 
@@ -78,7 +78,7 @@ on-page information about the target domain and crawling process
 
 #### Defined in
 
-main.ts:154016
+main.ts:154049
 
 ***
 
@@ -91,4 +91,4 @@ metrics information on the target website pages
 
 #### Defined in
 
-main.ts:154019
+main.ts:154052

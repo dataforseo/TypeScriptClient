@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:141895
+main.ts:141928
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:141893
+main.ts:141926
 
 ***
 
@@ -44,7 +44,7 @@ target in the post array
 
 #### Defined in
 
-main.ts:141889
+main.ts:141922
 
 ***
 
@@ -56,4 +56,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:141891
+main.ts:141924

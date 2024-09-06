@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:206342
+main.ts:206375
 
 ## Properties
 
@@ -46,7 +46,7 @@ information about the hotel
 
 #### Defined in
 
-main.ts:206326
+main.ts:206359
 
 ***
 
@@ -63,7 +63,7 @@ physical address of the hotel
 
 #### Defined in
 
-main.ts:206321
+main.ts:206354
 
 ***
 
@@ -80,7 +80,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:206304
+main.ts:206337
 
 ***
 
@@ -99,7 +99,7 @@ example:
 
 #### Defined in
 
-main.ts:206309
+main.ts:206342
 
 ***
 
@@ -118,7 +118,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:206297
+main.ts:206330
 
 ***
 
@@ -134,7 +134,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:206301
+main.ts:206334
 
 ***
 
@@ -151,7 +151,7 @@ information about the location where the hotel is located
 
 #### Defined in
 
-main.ts:206329
+main.ts:206362
 
 ***
 
@@ -167,7 +167,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:206299
+main.ts:206332
 
 ***
 
@@ -184,7 +184,7 @@ array containing URLs to images displayed in the hotel overview
 
 #### Defined in
 
-main.ts:206335
+main.ts:206368
 
 ***
 
@@ -201,7 +201,7 @@ contact phone number of the hotel
 
 #### Defined in
 
-main.ts:206324
+main.ts:206357
 
 ***
 
@@ -218,7 +218,7 @@ contains information about the hotel’s prices
 
 #### Defined in
 
-main.ts:206338
+main.ts:206371
 
 ***
 
@@ -235,7 +235,7 @@ information about reviews of the hotel entity
 
 #### Defined in
 
-main.ts:206332
+main.ts:206365
 
 ***
 
@@ -252,7 +252,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:206315
+main.ts:206348
 
 ***
 
@@ -269,7 +269,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:206318
+main.ts:206351
 
 ***
 
@@ -286,7 +286,7 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:206312
+main.ts:206345
 
 ## Methods
 
@@ -304,7 +304,7 @@ main.ts:206312
 
 #### Defined in
 
-main.ts:206351
+main.ts:206384
 
 ***
 
@@ -322,7 +322,7 @@ main.ts:206351
 
 #### Defined in
 
-main.ts:206386
+main.ts:206419
 
 ***
 
@@ -340,4 +340,4 @@ main.ts:206386
 
 #### Defined in
 
-main.ts:206379
+main.ts:206412

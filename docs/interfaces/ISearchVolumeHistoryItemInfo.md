@@ -22,7 +22,7 @@ day of the month
 
 #### Defined in
 
-main.ts:134679
+main.ts:134712
 
 ***
 
@@ -34,7 +34,7 @@ month
 
 #### Defined in
 
-main.ts:134677
+main.ts:134710
 
 ***
 
@@ -46,7 +46,7 @@ search volume rate
 
 #### Defined in
 
-main.ts:134681
+main.ts:134714
 
 ***
 
@@ -58,4 +58,4 @@ year
 
 #### Defined in
 
-main.ts:134675
+main.ts:134708

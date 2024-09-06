@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:166983
+main.ts:167016
 
 ## Properties
 
@@ -52,7 +52,7 @@ possible sentiment connotation types: positive, negative, neutral
 
 #### Defined in
 
-main.ts:166960
+main.ts:166993
 
 ***
 
@@ -74,7 +74,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:166975
+main.ts:167008
 
 ***
 
@@ -96,7 +96,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:166979
+main.ts:167012
 
 ***
 
@@ -114,7 +114,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:166968
+main.ts:167001
 
 ***
 
@@ -135,7 +135,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:166971
+main.ts:167004
 
 ***
 
@@ -152,7 +152,7 @@ normalized sum of ranks of all URLs citing the target keyword
 
 #### Defined in
 
-main.ts:166949
+main.ts:166982
 
 ***
 
@@ -174,7 +174,7 @@ possible sentiment connotations: anger, happiness, love, sadness, share, fun
 
 #### Defined in
 
-main.ts:166956
+main.ts:166989
 
 ***
 
@@ -192,7 +192,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:166964
+main.ts:166997
 
 ***
 
@@ -209,7 +209,7 @@ contains objects with top domains citing the target keword and citation count pe
 
 #### Defined in
 
-main.ts:166952
+main.ts:166985
 
 ***
 
@@ -225,7 +225,7 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:166946
+main.ts:166979
 
 ***
 
@@ -241,7 +241,7 @@ type of element
 
 #### Defined in
 
-main.ts:166944
+main.ts:166977
 
 ## Methods
 
@@ -259,7 +259,7 @@ main.ts:166944
 
 #### Defined in
 
-main.ts:166992
+main.ts:167025
 
 ***
 
@@ -277,7 +277,7 @@ main.ts:166992
 
 #### Defined in
 
-main.ts:167061
+main.ts:167094
 
 ***
 
@@ -295,4 +295,4 @@ main.ts:167061
 
 #### Defined in
 
-main.ts:167054
+main.ts:167087

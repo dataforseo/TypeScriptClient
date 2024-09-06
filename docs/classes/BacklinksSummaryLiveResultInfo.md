@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:139076
+main.ts:139109
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates the number of backlinks
 
 #### Defined in
 
-main.ts:139006
+main.ts:139039
 
 ***
 
@@ -64,7 +64,7 @@ to learn more about how the metric is calculated, refer to this Help Center page
 
 #### Defined in
 
-main.ts:139010
+main.ts:139043
 
 ***
 
@@ -81,7 +81,7 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-main.ts:139023
+main.ts:139056
 
 ***
 
@@ -99,7 +99,7 @@ note that the number of broken pages includes pages on the target discovered by 
 
 #### Defined in
 
-main.ts:139027
+main.ts:139060
 
 ***
 
@@ -115,7 +115,7 @@ number of crawled pages for the target
 
 #### Defined in
 
-main.ts:139012
+main.ts:139045
 
 ***
 
@@ -132,7 +132,7 @@ calculated as the sum of external links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139020
+main.ts:139053
 
 ***
 
@@ -151,7 +151,7 @@ example:
 
 #### Defined in
 
-main.ts:138995
+main.ts:139028
 
 ***
 
@@ -167,7 +167,7 @@ information about the target
 
 #### Defined in
 
-main.ts:139014
+main.ts:139047
 
 ***
 
@@ -184,7 +184,7 @@ calculated as the sum of internal links on the pages of the specified target
 
 #### Defined in
 
-main.ts:139017
+main.ts:139050
 
 ***
 
@@ -204,7 +204,7 @@ example:
 
 #### Defined in
 
-main.ts:139001
+main.ts:139034
 
 ***
 
@@ -221,7 +221,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:139004
+main.ts:139037
 
 ***
 
@@ -238,7 +238,7 @@ referring domains include subdomains that are counted as separate domains for th
 
 #### Defined in
 
-main.ts:139030
+main.ts:139063
 
 ***
 
@@ -254,7 +254,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139032
+main.ts:139065
 
 ***
 
@@ -271,7 +271,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:139039
+main.ts:139072
 
 ***
 
@@ -294,7 +294,7 @@ nofollow, noopener, noreferrer, external, ugc, sponsored
 
 #### Defined in
 
-main.ts:139056
+main.ts:139089
 
 ***
 
@@ -315,7 +315,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:139070
+main.ts:139103
 
 ***
 
@@ -338,7 +338,7 @@ cms, blogs, unknown, ecommerce, message-boards
 
 #### Defined in
 
-main.ts:139061
+main.ts:139094
 
 ***
 
@@ -362,7 +362,7 @@ article, section, summary, ""
 
 #### Defined in
 
-main.ts:139067
+main.ts:139100
 
 ***
 
@@ -383,7 +383,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:139046
+main.ts:139079
 
 ***
 
@@ -406,7 +406,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:139051
+main.ts:139084
 
 ***
 
@@ -422,7 +422,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:139034
+main.ts:139067
 
 ***
 
@@ -438,7 +438,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139036
+main.ts:139069
 
 ***
 
@@ -454,7 +454,7 @@ indicates the number of pages pointing to the target
 
 #### Defined in
 
-main.ts:139043
+main.ts:139076
 
 ***
 
@@ -470,7 +470,7 @@ number of referring pages pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:139072
+main.ts:139105
 
 ***
 
@@ -486,7 +486,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:139041
+main.ts:139074
 
 ***
 
@@ -502,7 +502,7 @@ target in a POST array
 
 #### Defined in
 
-main.ts:138990
+main.ts:139023
 
 ## Methods
 
@@ -520,7 +520,7 @@ main.ts:138990
 
 #### Defined in
 
-main.ts:139085
+main.ts:139118
 
 ***
 
@@ -538,7 +538,7 @@ main.ts:139085
 
 #### Defined in
 
-main.ts:139163
+main.ts:139196
 
 ***
 
@@ -556,4 +556,4 @@ main.ts:139163
 
 #### Defined in
 
-main.ts:139156
+main.ts:139189

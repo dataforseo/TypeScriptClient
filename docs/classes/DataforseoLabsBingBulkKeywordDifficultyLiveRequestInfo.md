@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:105596
+main.ts:105629
 
 ## Properties
 
@@ -51,7 +51,7 @@ the keywords will be converted to lowercase format
 
 #### Defined in
 
-main.ts:105556
+main.ts:105589
 
 ***
 
@@ -72,7 +72,7 @@ en
 
 #### Defined in
 
-main.ts:105586
+main.ts:105619
 
 ***
 
@@ -93,7 +93,7 @@ English
 
 #### Defined in
 
-main.ts:105579
+main.ts:105612
 
 ***
 
@@ -115,7 +115,7 @@ example:
 
 #### Defined in
 
-main.ts:105572
+main.ts:105605
 
 ***
 
@@ -137,7 +137,7 @@ United States
 
 #### Defined in
 
-main.ts:105564
+main.ts:105597
 
 ***
 
@@ -157,7 +157,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:105592
+main.ts:105625
 
 ## Methods
 
@@ -175,7 +175,7 @@ main.ts:105592
 
 #### Defined in
 
-main.ts:105605
+main.ts:105638
 
 ***
 
@@ -193,7 +193,7 @@ main.ts:105605
 
 #### Defined in
 
-main.ts:105631
+main.ts:105664
 
 ***
 
@@ -211,4 +211,4 @@ main.ts:105631
 
 #### Defined in
 
-main.ts:105624
+main.ts:105657

@@ -20,7 +20,7 @@ author
 
 #### Defined in
 
-main.ts:32762
+main.ts:33005
 
 ***
 
@@ -32,7 +32,7 @@ description
 
 #### Defined in
 
-main.ts:32764
+main.ts:33007
 
 ***
 
@@ -44,7 +44,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:32758
+main.ts:33001
 
 ***
 
@@ -56,7 +56,7 @@ type of element
 
 #### Defined in
 
-main.ts:32756
+main.ts:32999
 
 ***
 
@@ -68,4 +68,4 @@ URL
 
 #### Defined in
 
-main.ts:32760
+main.ts:33003

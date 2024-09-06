@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:28282
+main.ts:28287
 
 ## Properties
 
@@ -70,7 +70,7 @@ ss:/webfacts:net_worth
 
 #### Defined in
 
-main.ts:28269
+main.ts:28274
 
 ***
 
@@ -87,7 +87,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:28274
+main.ts:28279
 
 ***
 
@@ -103,7 +103,7 @@ link of the element
 
 #### Defined in
 
-main.ts:28271
+main.ts:28276
 
 ***
 
@@ -186,7 +186,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:28278
+main.ts:28283
 
 ***
 
@@ -202,7 +202,7 @@ title of the link element
 
 #### Defined in
 
-main.ts:28265
+main.ts:28270
 
 ***
 
@@ -264,7 +264,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:28287
+main.ts:28292
 
 ***
 
@@ -286,7 +286,7 @@ main.ts:28287
 
 #### Defined in
 
-main.ts:28313
+main.ts:28318
 
 ***
 
@@ -308,4 +308,4 @@ main.ts:28313
 
 #### Defined in
 
-main.ts:28306
+main.ts:28311

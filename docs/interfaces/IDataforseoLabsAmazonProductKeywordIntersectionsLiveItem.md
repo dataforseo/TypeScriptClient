@@ -24,7 +24,7 @@ data on the intersection
 
 #### Defined in
 
-main.ts:105324
+main.ts:105357
 
 ***
 
@@ -36,7 +36,7 @@ keyword data for the returned keyword
 
 #### Defined in
 
-main.ts:105322
+main.ts:105355
 
 ***
 
@@ -48,4 +48,4 @@ search engine type
 
 #### Defined in
 
-main.ts:105320
+main.ts:105353

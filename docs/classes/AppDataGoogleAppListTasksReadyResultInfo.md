@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:188421
+main.ts:188454
 
 ## Properties
 
@@ -46,7 +46,7 @@ date when the task was posted (in the UTC format)
 
 #### Defined in
 
-main.ts:188410
+main.ts:188443
 
 ***
 
@@ -62,7 +62,7 @@ URL for collecting the results of the Google App List task
 
 #### Defined in
 
-main.ts:188414
+main.ts:188447
 
 ***
 
@@ -79,7 +79,7 @@ if HTML tasks are not supported in the specified endpoint, the value will be nul
 
 #### Defined in
 
-main.ts:188417
+main.ts:188450
 
 ***
 
@@ -96,7 +96,7 @@ unique task identifier in our system in the UUID format
 
 #### Defined in
 
-main.ts:188404
+main.ts:188437
 
 ***
 
@@ -112,7 +112,7 @@ search engine specified when setting the task
 
 #### Defined in
 
-main.ts:188406
+main.ts:188439
 
 ***
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:188408
+main.ts:188441
 
 ***
 
@@ -144,7 +144,7 @@ user-defined task identifier
 
 #### Defined in
 
-main.ts:188412
+main.ts:188445
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:188412
 
 #### Defined in
 
-main.ts:188430
+main.ts:188463
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:188430
 
 #### Defined in
 
-main.ts:188453
+main.ts:188486
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:188453
 
 #### Defined in
 
-main.ts:188446
+main.ts:188479

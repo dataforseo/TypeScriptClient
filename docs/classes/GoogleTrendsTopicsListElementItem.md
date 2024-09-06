@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:124887
+main.ts:124920
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:124887
 
 #### Defined in
 
-main.ts:21804
+main.ts:21809
 
 ***
 
@@ -68,7 +68,7 @@ Google Trends data from the corresponding item
 
 #### Defined in
 
-main.ts:124883
+main.ts:124916
 
 ***
 
@@ -89,7 +89,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Defined in
 
-main.ts:21802
+main.ts:21807
 
 ***
 
@@ -110,7 +110,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21797
+main.ts:21802
 
 ***
 
@@ -130,7 +130,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:21799
+main.ts:21804
 
 ***
 
@@ -150,7 +150,7 @@ type of element
 
 #### Defined in
 
-main.ts:21794
+main.ts:21799
 
 ## Methods
 
@@ -172,7 +172,7 @@ main.ts:21794
 
 #### Defined in
 
-main.ts:124892
+main.ts:124925
 
 ***
 
@@ -194,7 +194,7 @@ main.ts:124892
 
 #### Defined in
 
-main.ts:124910
+main.ts:124943
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:124910
 
 #### Defined in
 
-main.ts:124903
+main.ts:124936

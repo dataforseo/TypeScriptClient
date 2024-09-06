@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:29104
+main.ts:29115
 
 ## Properties
 
@@ -70,7 +70,7 @@ kc:/local:hotel booking
 
 #### Defined in
 
-main.ts:29093
+main.ts:29104
 
 ***
 
@@ -89,7 +89,7 @@ example:
 
 #### Defined in
 
-main.ts:29084
+main.ts:29095
 
 ***
 
@@ -108,7 +108,7 @@ example:
 
 #### Defined in
 
-main.ts:29089
+main.ts:29100
 
 ***
 
@@ -125,7 +125,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:29096
+main.ts:29107
 
 ***
 
@@ -208,7 +208,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29100
+main.ts:29111
 
 ***
 
@@ -224,7 +224,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:29079
+main.ts:29090
 
 ***
 
@@ -286,7 +286,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:29109
+main.ts:29120
 
 ***
 
@@ -308,7 +308,7 @@ main.ts:29109
 
 #### Defined in
 
-main.ts:29136
+main.ts:29147
 
 ***
 
@@ -330,4 +330,4 @@ main.ts:29136
 
 #### Defined in
 
-main.ts:29129
+main.ts:29140

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:90473
+main.ts:90506
 
 ## Properties
 
@@ -46,7 +46,7 @@ backlink data for the returned domain
 
 #### Defined in
 
-main.ts:90469
+main.ts:90502
 
 ***
 
@@ -65,7 +65,7 @@ example:
 
 #### Defined in
 
-main.ts:90435
+main.ts:90468
 
 ***
 
@@ -84,7 +84,7 @@ example:
 
 #### Defined in
 
-main.ts:90430
+main.ts:90463
 
 ***
 
@@ -100,7 +100,7 @@ domain name
 
 #### Defined in
 
-main.ts:90425
+main.ts:90458
 
 ***
 
@@ -117,7 +117,7 @@ the status of a domain name registration as defined by ICANN
 
 #### Defined in
 
-main.ts:90453
+main.ts:90486
 
 ***
 
@@ -136,7 +136,7 @@ example:
 
 #### Defined in
 
-main.ts:90440
+main.ts:90473
 
 ***
 
@@ -155,7 +155,7 @@ example:
 
 #### Defined in
 
-main.ts:90450
+main.ts:90483
 
 ***
 
@@ -175,7 +175,7 @@ ranking data relevant to the specified domain
 
 #### Defined in
 
-main.ts:90467
+main.ts:90500
 
 ***
 
@@ -193,7 +193,7 @@ Note: expired domains will remain in the database for only a short period of tim
 
 #### Defined in
 
-main.ts:90460
+main.ts:90493
 
 ***
 
@@ -212,7 +212,7 @@ NameCheap, Inc.
 
 #### Defined in
 
-main.ts:90465
+main.ts:90498
 
 ***
 
@@ -228,7 +228,7 @@ search engine type
 
 #### Defined in
 
-main.ts:90423
+main.ts:90456
 
 ***
 
@@ -245,7 +245,7 @@ top-level domain in the DNS root zone
 
 #### Defined in
 
-main.ts:90456
+main.ts:90489
 
 ***
 
@@ -264,7 +264,7 @@ example:
 
 #### Defined in
 
-main.ts:90445
+main.ts:90478
 
 ## Methods
 
@@ -282,7 +282,7 @@ main.ts:90445
 
 #### Defined in
 
-main.ts:90482
+main.ts:90515
 
 ***
 
@@ -300,7 +300,7 @@ main.ts:90482
 
 #### Defined in
 
-main.ts:90521
+main.ts:90554
 
 ***
 
@@ -318,4 +318,4 @@ main.ts:90521
 
 #### Defined in
 
-main.ts:90514
+main.ts:90547

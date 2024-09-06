@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:203657
+main.ts:203690
 
 ## Properties
 
@@ -48,7 +48,7 @@ example:
 
 #### Defined in
 
-main.ts:203649
+main.ts:203682
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:203653
+main.ts:203686
 
 ## Methods
 
@@ -84,7 +84,7 @@ main.ts:203653
 
 #### Defined in
 
-main.ts:203666
+main.ts:203699
 
 ***
 
@@ -102,7 +102,7 @@ main.ts:203666
 
 #### Defined in
 
-main.ts:203684
+main.ts:203717
 
 ***
 
@@ -120,4 +120,4 @@ main.ts:203684
 
 #### Defined in
 
-main.ts:203677
+main.ts:203710

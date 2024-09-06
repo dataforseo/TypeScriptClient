@@ -20,7 +20,7 @@ information about the hotel
 
 #### Defined in
 
-main.ts:206449
+main.ts:206482
 
 ***
 
@@ -33,7 +33,7 @@ physical address of the hotel
 
 #### Defined in
 
-main.ts:206444
+main.ts:206477
 
 ***
 
@@ -46,7 +46,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:206427
+main.ts:206460
 
 ***
 
@@ -61,7 +61,7 @@ example:
 
 #### Defined in
 
-main.ts:206432
+main.ts:206465
 
 ***
 
@@ -76,7 +76,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:206420
+main.ts:206453
 
 ***
 
@@ -88,7 +88,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:206424
+main.ts:206457
 
 ***
 
@@ -101,7 +101,7 @@ information about the location where the hotel is located
 
 #### Defined in
 
-main.ts:206452
+main.ts:206485
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:206422
+main.ts:206455
 
 ***
 
@@ -126,7 +126,7 @@ array containing URLs to images displayed in the hotel overview
 
 #### Defined in
 
-main.ts:206458
+main.ts:206491
 
 ***
 
@@ -139,7 +139,7 @@ contact phone number of the hotel
 
 #### Defined in
 
-main.ts:206447
+main.ts:206480
 
 ***
 
@@ -152,7 +152,7 @@ contains information about the hotel’s prices
 
 #### Defined in
 
-main.ts:206461
+main.ts:206494
 
 ***
 
@@ -165,7 +165,7 @@ information about reviews of the hotel entity
 
 #### Defined in
 
-main.ts:206455
+main.ts:206488
 
 ***
 
@@ -178,7 +178,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:206438
+main.ts:206471
 
 ***
 
@@ -191,7 +191,7 @@ class rating that ranges between 1-5 stars and displayed after review ratings in
 
 #### Defined in
 
-main.ts:206441
+main.ts:206474
 
 ***
 
@@ -204,4 +204,4 @@ the title of the hotel entity for which the results are collected
 
 #### Defined in
 
-main.ts:206435
+main.ts:206468

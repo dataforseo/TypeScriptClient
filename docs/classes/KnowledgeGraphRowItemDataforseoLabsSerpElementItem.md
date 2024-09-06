@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:96193
+main.ts:96226
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:96193
 
 #### Defined in
 
-main.ts:20742
+main.ts:20747
 
 ***
 
@@ -70,7 +70,7 @@ action:listen_artist
 
 #### Defined in
 
-main.ts:96183
+main.ts:96216
 
 ***
 
@@ -88,7 +88,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96189
+main.ts:96222
 
 ***
 
@@ -110,7 +110,7 @@ left, right
 
 #### Defined in
 
-main.ts:20738
+main.ts:20743
 
 ***
 
@@ -131,7 +131,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20734
+main.ts:20739
 
 ***
 
@@ -152,7 +152,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20731
+main.ts:20736
 
 ***
 
@@ -168,7 +168,7 @@ row content
 
 #### Defined in
 
-main.ts:96185
+main.ts:96218
 
 ***
 
@@ -184,7 +184,7 @@ title of the item
 
 #### Defined in
 
-main.ts:96179
+main.ts:96212
 
 ***
 
@@ -204,7 +204,7 @@ type of element
 
 #### Defined in
 
-main.ts:20728
+main.ts:20733
 
 ***
 
@@ -224,7 +224,7 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20740
+main.ts:20745
 
 ## Methods
 
@@ -246,7 +246,7 @@ main.ts:20740
 
 #### Defined in
 
-main.ts:96198
+main.ts:96231
 
 ***
 
@@ -268,7 +268,7 @@ main.ts:96198
 
 #### Defined in
 
-main.ts:96223
+main.ts:96256
 
 ***
 
@@ -290,4 +290,4 @@ main.ts:96223
 
 #### Defined in
 
-main.ts:96216
+main.ts:96249

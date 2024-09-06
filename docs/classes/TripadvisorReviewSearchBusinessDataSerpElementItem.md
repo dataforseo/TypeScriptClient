@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:214204
+main.ts:214237
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:214204
 
 #### Defined in
 
-main.ts:21308
+main.ts:21313
 
 ***
 
@@ -71,7 +71,7 @@ example:
 
 #### Defined in
 
-main.ts:214182
+main.ts:214215
 
 ***
 
@@ -88,7 +88,7 @@ can take the following values: right
 
 #### Defined in
 
-main.ts:214173
+main.ts:214206
 
 ***
 
@@ -108,7 +108,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:21306
+main.ts:21311
 
 ***
 
@@ -129,7 +129,7 @@ positions of elements with different type values are omitted from the rank_group
 
 #### Defined in
 
-main.ts:21304
+main.ts:21309
 
 ***
 
@@ -145,7 +145,7 @@ the rating score submitted by the reviewer
 
 #### Defined in
 
-main.ts:214177
+main.ts:214210
 
 ***
 
@@ -161,7 +161,7 @@ contains information about the owner’s response
 
 #### Defined in
 
-main.ts:214197
+main.ts:214230
 
 ***
 
@@ -178,7 +178,7 @@ contains highlighted review criteria and assessments
 
 #### Defined in
 
-main.ts:214200
+main.ts:214233
 
 ***
 
@@ -194,7 +194,7 @@ contains URLs of the images used in the review
 
 #### Defined in
 
-main.ts:214193
+main.ts:214226
 
 ***
 
@@ -210,7 +210,7 @@ content of the review
 
 #### Defined in
 
-main.ts:214191
+main.ts:214224
 
 ***
 
@@ -229,7 +229,7 @@ example:
 
 #### Defined in
 
-main.ts:214187
+main.ts:214220
 
 ***
 
@@ -245,7 +245,7 @@ title of the review
 
 #### Defined in
 
-main.ts:214189
+main.ts:214222
 
 ***
 
@@ -265,7 +265,7 @@ type of element
 
 #### Defined in
 
-main.ts:21301
+main.ts:21306
 
 ***
 
@@ -281,7 +281,7 @@ URL of the review
 
 #### Defined in
 
-main.ts:214175
+main.ts:214208
 
 ***
 
@@ -297,7 +297,7 @@ information from the reviewer’s profile
 
 #### Defined in
 
-main.ts:214195
+main.ts:214228
 
 ## Methods
 
@@ -319,7 +319,7 @@ main.ts:214195
 
 #### Defined in
 
-main.ts:214209
+main.ts:214242
 
 ***
 
@@ -341,7 +341,7 @@ main.ts:214209
 
 #### Defined in
 
-main.ts:214249
+main.ts:214282
 
 ***
 
@@ -363,4 +363,4 @@ main.ts:214249
 
 #### Defined in
 
-main.ts:214242
+main.ts:214275

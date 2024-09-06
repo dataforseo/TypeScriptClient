@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:160957
+main.ts:160990
 
 ## Properties
 
@@ -47,7 +47,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:160945
+main.ts:160978
 
 ***
 
@@ -65,7 +65,7 @@ if no error is encountered, the value will be null
 
 #### Defined in
 
-main.ts:160949
+main.ts:160982
 
 ***
 
@@ -81,7 +81,7 @@ items array
 
 #### Defined in
 
-main.ts:160953
+main.ts:160986
 
 ***
 
@@ -97,7 +97,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:160951
+main.ts:160984
 
 ## Methods
 
@@ -115,7 +115,7 @@ main.ts:160951
 
 #### Defined in
 
-main.ts:160966
+main.ts:160999
 
 ***
 
@@ -133,7 +133,7 @@ main.ts:160966
 
 #### Defined in
 
-main.ts:160990
+main.ts:161023
 
 ***
 
@@ -151,4 +151,4 @@ main.ts:160990
 
 #### Defined in
 
-main.ts:160983
+main.ts:161016

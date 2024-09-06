@@ -27,7 +27,7 @@ default value:
 
 #### Defined in
 
-main.ts:106068
+main.ts:106101
 
 ***
 
@@ -44,7 +44,7 @@ en
 
 #### Defined in
 
-main.ts:106059
+main.ts:106092
 
 ***
 
@@ -61,7 +61,7 @@ English
 
 #### Defined in
 
-main.ts:106052
+main.ts:106085
 
 ***
 
@@ -79,7 +79,7 @@ example:
 
 #### Defined in
 
-main.ts:106045
+main.ts:106078
 
 ***
 
@@ -97,7 +97,7 @@ United States
 
 #### Defined in
 
-main.ts:106037
+main.ts:106070
 
 ***
 
@@ -113,7 +113,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:106074
+main.ts:106107
 
 ***
 
@@ -130,4 +130,4 @@ you can set up to 1000 domains, subdomains or webpages
 
 #### Defined in
 
-main.ts:106029
+main.ts:106062

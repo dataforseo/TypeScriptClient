@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:171929
+main.ts:171962
 
 ## Properties
 
@@ -46,7 +46,7 @@ Automated Readability Index
 
 #### Defined in
 
-main.ts:171915
+main.ts:171948
 
 ***
 
@@ -62,7 +62,7 @@ average number of characters per word in the target text
 
 #### Defined in
 
-main.ts:171908
+main.ts:171941
 
 ***
 
@@ -78,7 +78,7 @@ number of characters with spaces found in the target text
 
 #### Defined in
 
-main.ts:171904
+main.ts:171937
 
 ***
 
@@ -94,7 +94,7 @@ number of characters without spaces found in the target text
 
 #### Defined in
 
-main.ts:171902
+main.ts:171935
 
 ***
 
@@ -110,7 +110,7 @@ Coleman–Liau Index
 
 #### Defined in
 
-main.ts:171917
+main.ts:171950
 
 ***
 
@@ -126,7 +126,7 @@ Flesch–Kincaid Readability Index
 
 #### Defined in
 
-main.ts:171919
+main.ts:171952
 
 ***
 
@@ -142,7 +142,7 @@ number of grammar errors found in the target text
 
 #### Defined in
 
-main.ts:171925
+main.ts:171958
 
 ***
 
@@ -163,7 +163,7 @@ contains most common words and their count
 
 #### Defined in
 
-main.ts:171913
+main.ts:171946
 
 ***
 
@@ -179,7 +179,7 @@ number of paragraphs found in the target text
 
 #### Defined in
 
-main.ts:171898
+main.ts:171931
 
 ***
 
@@ -195,7 +195,7 @@ number of sentences found in the target text
 
 #### Defined in
 
-main.ts:171896
+main.ts:171929
 
 ***
 
@@ -211,7 +211,7 @@ SMOG Readability Index
 
 #### Defined in
 
-main.ts:171921
+main.ts:171954
 
 ***
 
@@ -227,7 +227,7 @@ number of spelling errors found in the target text
 
 #### Defined in
 
-main.ts:171923
+main.ts:171956
 
 ***
 
@@ -243,7 +243,7 @@ vocabulary density of the target text
 
 #### Defined in
 
-main.ts:171910
+main.ts:171943
 
 ***
 
@@ -259,7 +259,7 @@ number of words found in the target text
 
 #### Defined in
 
-main.ts:171900
+main.ts:171933
 
 ***
 
@@ -275,7 +275,7 @@ average number of words per sentence in the target text
 
 #### Defined in
 
-main.ts:171906
+main.ts:171939
 
 ## Methods
 
@@ -293,7 +293,7 @@ main.ts:171906
 
 #### Defined in
 
-main.ts:171938
+main.ts:171971
 
 ***
 
@@ -311,7 +311,7 @@ main.ts:171938
 
 #### Defined in
 
-main.ts:171975
+main.ts:172008
 
 ***
 
@@ -329,4 +329,4 @@ main.ts:171975
 
 #### Defined in
 
-main.ts:171968
+main.ts:172001

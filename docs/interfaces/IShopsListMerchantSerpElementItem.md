@@ -24,7 +24,7 @@ product price without tax and shipping
 
 #### Defined in
 
-main.ts:176238
+main.ts:176271
 
 ***
 
@@ -38,7 +38,7 @@ USD
 
 #### Defined in
 
-main.ts:176249
+main.ts:176282
 
 ***
 
@@ -51,7 +51,7 @@ if there are no details, the value will be null
 
 #### Defined in
 
-main.ts:176236
+main.ts:176269
 
 ***
 
@@ -63,7 +63,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:176228
+main.ts:176261
 
 ***
 
@@ -81,7 +81,7 @@ left, right
 
 #### Defined in
 
-main.ts:21130
+main.ts:21135
 
 ***
 
@@ -95,7 +95,7 @@ examples: LOW PRICE, SPECIAL OFFER, SALE, PRICE DROP
 
 #### Defined in
 
-main.ts:176265
+main.ts:176298
 
 ***
 
@@ -108,7 +108,7 @@ possible values: Used, Refurbished, New, null
 
 #### Defined in
 
-main.ts:176261
+main.ts:176294
 
 ***
 
@@ -125,7 +125,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21126
+main.ts:21131
 
 ***
 
@@ -142,7 +142,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21123
+main.ts:21128
 
 ***
 
@@ -155,7 +155,7 @@ the shop popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:176255
+main.ts:176288
 
 ***
 
@@ -168,7 +168,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:176252
+main.ts:176285
 
 ***
 
@@ -180,7 +180,7 @@ product shipping price
 
 #### Defined in
 
-main.ts:176243
+main.ts:176276
 
 ***
 
@@ -193,7 +193,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:176258
+main.ts:176291
 
 ***
 
@@ -206,7 +206,7 @@ tax is specified as the actual amount of money, not as the percentage
 
 #### Defined in
 
-main.ts:176241
+main.ts:176274
 
 ***
 
@@ -218,7 +218,7 @@ product title
 
 #### Defined in
 
-main.ts:176230
+main.ts:176263
 
 ***
 
@@ -230,7 +230,7 @@ product price including tax and shipping
 
 #### Defined in
 
-main.ts:176245
+main.ts:176278
 
 ***
 
@@ -246,7 +246,7 @@ type of element
 
 #### Defined in
 
-main.ts:21120
+main.ts:21125
 
 ***
 
@@ -259,7 +259,7 @@ if you want to obtain a URL of the advertisement forwarding to the product page 
 
 #### Defined in
 
-main.ts:176233
+main.ts:176266
 
 ***
 
@@ -271,4 +271,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:176226
+main.ts:176259

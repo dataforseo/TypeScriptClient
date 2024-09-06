@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:198391
+main.ts:198424
 
 ## Properties
 
@@ -51,7 +51,7 @@ indicates attributes a business entity can offer
 
 #### Defined in
 
-main.ts:198384
+main.ts:198417
 
 ***
 
@@ -72,7 +72,7 @@ indicates attributes a business entity cannot offer
 
 #### Defined in
 
-main.ts:198387
+main.ts:198420
 
 ## Methods
 
@@ -90,7 +90,7 @@ main.ts:198387
 
 #### Defined in
 
-main.ts:198400
+main.ts:198433
 
 ***
 
@@ -108,7 +108,7 @@ main.ts:198400
 
 #### Defined in
 
-main.ts:198430
+main.ts:198463
 
 ***
 
@@ -126,4 +126,4 @@ main.ts:198430
 
 #### Defined in
 
-main.ts:198423
+main.ts:198456

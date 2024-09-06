@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:180814
+main.ts:180847
 
 ## Properties
 
@@ -46,7 +46,7 @@ amazon product departments and subcategories
 
 #### Defined in
 
-main.ts:180806
+main.ts:180839
 
 ***
 
@@ -63,7 +63,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:180789
+main.ts:180822
 
 ***
 
@@ -82,7 +82,7 @@ example:
 
 #### Defined in
 
-main.ts:180794
+main.ts:180827
 
 ***
 
@@ -101,7 +101,7 @@ amazon_serp, amazon_paid, editorial_recommendations, top_rated_from_our_brands, 
 
 #### Defined in
 
-main.ts:180802
+main.ts:180835
 
 ***
 
@@ -117,7 +117,7 @@ Amazon product items within the editorial_recommendations element
 
 #### Defined in
 
-main.ts:180810
+main.ts:180843
 
 ***
 
@@ -133,7 +133,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:180808
+main.ts:180841
 
 ***
 
@@ -150,7 +150,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:180778
+main.ts:180811
 
 ***
 
@@ -166,7 +166,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:180786
+main.ts:180819
 
 ***
 
@@ -182,7 +182,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:180784
+main.ts:180817
 
 ***
 
@@ -198,7 +198,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:180782
+main.ts:180815
 
 ***
 
@@ -214,7 +214,7 @@ search engine results count
 
 #### Defined in
 
-main.ts:180804
+main.ts:180837
 
 ***
 
@@ -231,7 +231,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:180797
+main.ts:180830
 
 ***
 
@@ -247,7 +247,7 @@ type of element
 
 #### Defined in
 
-main.ts:180780
+main.ts:180813
 
 ## Methods
 
@@ -265,7 +265,7 @@ main.ts:180780
 
 #### Defined in
 
-main.ts:180823
+main.ts:180856
 
 ***
 
@@ -283,7 +283,7 @@ main.ts:180823
 
 #### Defined in
 
-main.ts:180864
+main.ts:180897
 
 ***
 
@@ -301,4 +301,4 @@ main.ts:180864
 
 #### Defined in
 
-main.ts:180857
+main.ts:180890

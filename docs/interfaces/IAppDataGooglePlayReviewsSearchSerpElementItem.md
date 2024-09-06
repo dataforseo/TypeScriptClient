@@ -25,7 +25,7 @@ indicates how many users considered the review helpful and voted with the thumbs
 
 #### Defined in
 
-main.ts:191152
+main.ts:191185
 
 ***
 
@@ -37,7 +37,7 @@ id of the review
 
 #### Defined in
 
-main.ts:191149
+main.ts:191182
 
 ***
 
@@ -55,7 +55,7 @@ left, right
 
 #### Defined in
 
-main.ts:22068
+main.ts:22073
 
 ***
 
@@ -72,7 +72,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22064
+main.ts:22069
 
 ***
 
@@ -89,7 +89,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22061
+main.ts:22066
 
 ***
 
@@ -105,7 +105,7 @@ average rating of the app
 
 #### Defined in
 
-main.ts:22072
+main.ts:22077
 
 ***
 
@@ -117,7 +117,7 @@ response from the developer
 
 #### Defined in
 
-main.ts:191158
+main.ts:191191
 
 ***
 
@@ -129,7 +129,7 @@ content of the review
 
 #### Defined in
 
-main.ts:191154
+main.ts:191187
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:191147
+main.ts:191180
 
 ***
 
@@ -160,7 +160,7 @@ title of the app
 
 #### Defined in
 
-main.ts:22070
+main.ts:22075
 
 ***
 
@@ -176,7 +176,7 @@ type of element
 
 #### Defined in
 
-main.ts:22058
+main.ts:22063
 
 ***
 
@@ -188,7 +188,7 @@ user profile of the reviewer
 
 #### Defined in
 
-main.ts:191156
+main.ts:191189
 
 ***
 
@@ -201,4 +201,4 @@ version of the app for which the review is submitted
 
 #### Defined in
 
-main.ts:191142
+main.ts:191175

@@ -24,7 +24,7 @@ card id
 
 #### Defined in
 
-main.ts:29284
+main.ts:29558
 
 ***
 
@@ -38,7 +38,7 @@ can be used with Google Reviews API to get a full list of reviews
 
 #### Defined in
 
-main.ts:29295
+main.ts:29569
 
 ***
 
@@ -50,7 +50,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:29282
+main.ts:29556
 
 ***
 
@@ -63,7 +63,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:29289
+main.ts:29563
 
 ***
 
@@ -71,12 +71,11 @@ main.ts:29289
 
 > `optional` **items**: [`BaseSerpElementItem`](../classes/BaseSerpElementItem.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains results featured in the ‘hotels_pack’ element of SERP
 
 #### Defined in
 
-main.ts:29298
+main.ts:29571
 
 ***
 
@@ -88,7 +87,7 @@ URL of the logo from knowledge graph
 
 #### Defined in
 
-main.ts:29291
+main.ts:29565
 
 ***
 
@@ -106,7 +105,7 @@ left, right
 
 #### Defined in
 
-main.ts:20721
+main.ts:20726
 
 ***
 
@@ -123,7 +122,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20717
+main.ts:20722
 
 ***
 
@@ -141,7 +140,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20714
+main.ts:20719
 
 ***
 
@@ -155,7 +154,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:29302
+main.ts:29575
 
 ***
 
@@ -167,7 +166,7 @@ subtitle of the item
 
 #### Defined in
 
-main.ts:29280
+main.ts:29554
 
 ***
 
@@ -179,7 +178,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:29278
+main.ts:29552
 
 ***
 
@@ -195,7 +194,7 @@ type of element
 
 #### Defined in
 
-main.ts:20710
+main.ts:20715
 
 ***
 
@@ -207,7 +206,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:29286
+main.ts:29560
 
 ***
 
@@ -223,4 +222,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20723
+main.ts:20728

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:171630
+main.ts:171663
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of rules
 
 #### Defined in
 
-main.ts:171626
+main.ts:171659
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:171626
 
 #### Defined in
 
-main.ts:171639
+main.ts:171672
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:171639
 
 #### Defined in
 
-main.ts:171660
+main.ts:171693
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:171660
 
 #### Defined in
 
-main.ts:171653
+main.ts:171686

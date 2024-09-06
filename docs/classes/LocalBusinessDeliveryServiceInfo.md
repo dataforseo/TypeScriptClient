@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:24026
+main.ts:24031
 
 ## Properties
 
@@ -47,7 +47,7 @@ domain of the online food ordering system
 
 #### Defined in
 
-main.ts:24020
+main.ts:24025
 
 ***
 
@@ -63,7 +63,7 @@ type of element
 
 #### Defined in
 
-main.ts:24017
+main.ts:24022
 
 ***
 
@@ -79,7 +79,7 @@ URL to place an order
 
 #### Defined in
 
-main.ts:24022
+main.ts:24027
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:24022
 
 #### Defined in
 
-main.ts:24035
+main.ts:24040
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:24035
 
 #### Defined in
 
-main.ts:24054
+main.ts:24059
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:24054
 
 #### Defined in
 
-main.ts:24047
+main.ts:24052

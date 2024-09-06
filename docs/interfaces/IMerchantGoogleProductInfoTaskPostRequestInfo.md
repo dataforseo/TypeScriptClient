@@ -25,7 +25,7 @@ en
 
 #### Defined in
 
-main.ts:178242
+main.ts:178275
 
 ***
 
@@ -42,7 +42,7 @@ English
 
 #### Defined in
 
-main.ts:178235
+main.ts:178268
 
 ***
 
@@ -59,7 +59,7 @@ example:
 
 #### Defined in
 
-main.ts:178219
+main.ts:178252
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Defined in
 
-main.ts:178228
+main.ts:178261
 
 ***
 
@@ -95,7 +95,7 @@ London,England,United Kingdom
 
 #### Defined in
 
-main.ts:178212
+main.ts:178245
 
 ***
 
@@ -115,7 +115,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:178281
+main.ts:178314
 
 ***
 
@@ -131,7 +131,7 @@ advanced, html
 
 #### Defined in
 
-main.ts:178271
+main.ts:178304
 
 ***
 
@@ -151,7 +151,7 @@ i.a., the # symbol will be encoded into %23
 
 #### Defined in
 
-main.ts:178265
+main.ts:178298
 
 ***
 
@@ -169,7 +169,7 @@ The cost can be calculated on the Pricing page.
 
 #### Defined in
 
-main.ts:178205
+main.ts:178238
 
 ***
 
@@ -185,7 +185,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:178197
+main.ts:178230
 
 ***
 
@@ -202,7 +202,7 @@ google.co.uk, google.com.au, google.de, etc.
 
 #### Defined in
 
-main.ts:178249
+main.ts:178282
 
 ***
 
@@ -218,4 +218,4 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:178255
+main.ts:178288

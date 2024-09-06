@@ -20,7 +20,7 @@ anchor of the backlink
 
 #### Defined in
 
-main.ts:141752
+main.ts:141785
 
 ***
 
@@ -32,7 +32,7 @@ indicates the number of backlinks
 
 #### Defined in
 
-main.ts:141759
+main.ts:141792
 
 ***
 
@@ -45,7 +45,7 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:141773
+main.ts:141806
 
 ***
 
@@ -58,7 +58,7 @@ number of broken backlinks pointing to the target
 
 #### Defined in
 
-main.ts:141776
+main.ts:141809
 
 ***
 
@@ -71,7 +71,7 @@ number of pages that respond with 4xx or 5xx status codes where backlinks are po
 
 #### Defined in
 
-main.ts:141779
+main.ts:141812
 
 ***
 
@@ -86,7 +86,7 @@ example:
 
 #### Defined in
 
-main.ts:141764
+main.ts:141797
 
 ***
 
@@ -102,7 +102,7 @@ example:
 
 #### Defined in
 
-main.ts:141770
+main.ts:141803
 
 ***
 
@@ -117,7 +117,7 @@ learn more about the metric and how it is calculated in this help center article
 
 #### Defined in
 
-main.ts:141757
+main.ts:141790
 
 ***
 
@@ -129,7 +129,7 @@ indicates the number of referring domains
 
 #### Defined in
 
-main.ts:141781
+main.ts:141814
 
 ***
 
@@ -141,7 +141,7 @@ number of domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:141783
+main.ts:141816
 
 ***
 
@@ -154,7 +154,7 @@ number of IP addresses pointing to this page
 
 #### Defined in
 
-main.ts:141790
+main.ts:141823
 
 ***
 
@@ -171,7 +171,7 @@ indicates link attributes of the referring links and link count per each attribu
 
 #### Defined in
 
-main.ts:141807
+main.ts:141840
 
 ***
 
@@ -188,7 +188,7 @@ indicates ISO country codes of the domains where the referring links are located
 
 #### Defined in
 
-main.ts:141819
+main.ts:141852
 
 ***
 
@@ -205,7 +205,7 @@ indicates referring platform types and and link count per each platform
 
 #### Defined in
 
-main.ts:141810
+main.ts:141843
 
 ***
 
@@ -225,7 +225,7 @@ article, section, summary
 
 #### Defined in
 
-main.ts:141816
+main.ts:141849
 
 ***
 
@@ -242,7 +242,7 @@ contains top level domains and referring link count per each
 
 #### Defined in
 
-main.ts:141799
+main.ts:141832
 
 ***
 
@@ -261,7 +261,7 @@ anchor, image, link, meta, canonical, alternate, redirect
 
 #### Defined in
 
-main.ts:141804
+main.ts:141837
 
 ***
 
@@ -273,7 +273,7 @@ indicates the number of referring main domains
 
 #### Defined in
 
-main.ts:141785
+main.ts:141818
 
 ***
 
@@ -285,7 +285,7 @@ number of main domains pointing at least one nofollow link to the target
 
 #### Defined in
 
-main.ts:141787
+main.ts:141820
 
 ***
 
@@ -297,7 +297,7 @@ indicates the number of pages pointing to target with this anchor
 
 #### Defined in
 
-main.ts:141794
+main.ts:141827
 
 ***
 
@@ -309,7 +309,7 @@ number of referring pages pointing at least one nofollow link to the target with
 
 #### Defined in
 
-main.ts:141796
+main.ts:141829
 
 ***
 
@@ -321,7 +321,7 @@ number of referring subnetworks
 
 #### Defined in
 
-main.ts:141792
+main.ts:141825
 
 ***
 
@@ -333,4 +333,4 @@ type of element
 
 #### Defined in
 
-main.ts:141750
+main.ts:141783

@@ -21,7 +21,7 @@ corresponding URL you specified in the targets array when setting a task
 
 #### Defined in
 
-main.ts:215331
+main.ts:215364
 
 ***
 
@@ -33,7 +33,7 @@ reddit reviews for the page_url
 
 #### Defined in
 
-main.ts:215333
+main.ts:215366
 
 ***
 
@@ -45,4 +45,4 @@ type of element
 
 #### Defined in
 
-main.ts:215328
+main.ts:215361

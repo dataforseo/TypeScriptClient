@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:53897
+main.ts:53930
 
 ## Properties
 
@@ -47,7 +47,7 @@ for example: zip, html, csv
 
 #### Defined in
 
-main.ts:53891
+main.ts:53924
 
 ***
 
@@ -63,7 +63,7 @@ file size in bytes
 
 #### Defined in
 
-main.ts:53893
+main.ts:53926
 
 ***
 
@@ -79,7 +79,7 @@ type of element
 
 #### Defined in
 
-main.ts:53888
+main.ts:53921
 
 ## Methods
 
@@ -97,7 +97,7 @@ main.ts:53888
 
 #### Defined in
 
-main.ts:53906
+main.ts:53939
 
 ***
 
@@ -115,7 +115,7 @@ main.ts:53906
 
 #### Defined in
 
-main.ts:53925
+main.ts:53958
 
 ***
 
@@ -133,4 +133,4 @@ main.ts:53925
 
 #### Defined in
 
-main.ts:53918
+main.ts:53951

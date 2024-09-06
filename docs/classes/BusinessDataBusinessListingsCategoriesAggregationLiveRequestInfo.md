@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:199443
+main.ts:199476
 
 ## Properties
 
@@ -50,7 +50,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:199387
+main.ts:199420
 
 ***
 
@@ -69,7 +69,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:199392
+main.ts:199425
 
 ***
 
@@ -94,7 +94,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:199420
+main.ts:199453
 
 ***
 
@@ -113,7 +113,7 @@ default value: 10
 
 #### Defined in
 
-main.ts:199425
+main.ts:199458
 
 ***
 
@@ -130,7 +130,7 @@ optional field
 
 #### Defined in
 
-main.ts:199400
+main.ts:199433
 
 ***
 
@@ -149,7 +149,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:199430
+main.ts:199463
 
 ***
 
@@ -172,7 +172,7 @@ example:
 
 #### Defined in
 
-main.ts:199409
+main.ts:199442
 
 ***
 
@@ -189,7 +189,7 @@ optional field
 
 #### Defined in
 
-main.ts:199433
+main.ts:199466
 
 ***
 
@@ -209,7 +209,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:199439
+main.ts:199472
 
 ***
 
@@ -228,7 +228,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:199397
+main.ts:199430
 
 ## Methods
 
@@ -246,7 +246,7 @@ main.ts:199397
 
 #### Defined in
 
-main.ts:199452
+main.ts:199485
 
 ***
 
@@ -264,7 +264,7 @@ main.ts:199452
 
 #### Defined in
 
-main.ts:199486
+main.ts:199519
 
 ***
 
@@ -282,4 +282,4 @@ main.ts:199486
 
 #### Defined in
 
-main.ts:199479
+main.ts:199512

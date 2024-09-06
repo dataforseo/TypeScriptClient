@@ -20,7 +20,7 @@ contains ranking and traffic data
 
 #### Defined in
 
-main.ts:80062
+main.ts:80095
 
 ***
 
@@ -32,7 +32,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:80060
+main.ts:80093
 
 ***
 
@@ -44,4 +44,4 @@ total amount of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:80058
+main.ts:80091

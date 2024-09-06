@@ -24,7 +24,7 @@ Amazon product items
 
 #### Defined in
 
-main.ts:180770
+main.ts:180803
 
 ***
 
@@ -38,7 +38,7 @@ left, right
 
 #### Defined in
 
-main.ts:180768
+main.ts:180801
 
 ***
 
@@ -55,7 +55,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:22407
+main.ts:22412
 
 ***
 
@@ -72,7 +72,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:22404
+main.ts:22409
 
 ***
 
@@ -88,7 +88,7 @@ type of element
 
 #### Defined in
 
-main.ts:22401
+main.ts:22406
 
 ***
 
@@ -104,4 +104,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:22409
+main.ts:22414

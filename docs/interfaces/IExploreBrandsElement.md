@@ -20,7 +20,7 @@ description
 
 #### Defined in
 
-main.ts:35598
+main.ts:35818
 
 ***
 
@@ -32,7 +32,7 @@ website domain
 
 #### Defined in
 
-main.ts:35596
+main.ts:35816
 
 ***
 
@@ -41,10 +41,11 @@ main.ts:35596
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Defined in
 
-main.ts:35600
+main.ts:35821
 
 ***
 
@@ -56,7 +57,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35592
+main.ts:35812
 
 ***
 
@@ -68,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:35590
+main.ts:35810
 
 ***
 
@@ -80,7 +81,7 @@ URL
 
 #### Defined in
 
-main.ts:35594
+main.ts:35814
 
 ***
 
@@ -92,4 +93,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35602
+main.ts:35823

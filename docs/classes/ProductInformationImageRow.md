@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:182051
+main.ts:182084
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:182051
 
 #### Defined in
 
-main.ts:23417
+main.ts:23422
 
 ***
 
@@ -68,7 +68,7 @@ alternative text of the related product image
 
 #### Defined in
 
-main.ts:182045
+main.ts:182078
 
 ***
 
@@ -88,7 +88,7 @@ type of element
 
 #### Defined in
 
-main.ts:23413
+main.ts:23418
 
 ***
 
@@ -104,7 +104,7 @@ URL of the image
 
 #### Defined in
 
-main.ts:182047
+main.ts:182080
 
 ## Methods
 
@@ -126,7 +126,7 @@ main.ts:182047
 
 #### Defined in
 
-main.ts:182056
+main.ts:182089
 
 ***
 
@@ -148,7 +148,7 @@ main.ts:182056
 
 #### Defined in
 
-main.ts:182075
+main.ts:182108
 
 ***
 
@@ -170,4 +170,4 @@ main.ts:182075
 
 #### Defined in
 
-main.ts:182068
+main.ts:182101

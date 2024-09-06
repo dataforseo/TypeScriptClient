@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:118068
+main.ts:118101
 
 ## Properties
 
@@ -50,7 +50,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:118039
+main.ts:118072
 
 ***
 
@@ -70,7 +70,7 @@ learn more about the metric in this help center article
 
 #### Defined in
 
-main.ts:118045
+main.ts:118078
 
 ***
 
@@ -87,7 +87,7 @@ indicates the amount paid for each click on the ad displayed for a given keyword
 
 #### Defined in
 
-main.ts:118060
+main.ts:118093
 
 ***
 
@@ -105,7 +105,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:118057
+main.ts:118090
 
 ***
 
@@ -122,7 +122,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:118022
+main.ts:118055
 
 ***
 
@@ -139,7 +139,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:118031
+main.ts:118064
 
 ***
 
@@ -156,7 +156,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:118028
+main.ts:118061
 
 ***
 
@@ -174,7 +174,7 @@ the value may differ depending on the location specified in a POST request
 
 #### Defined in
 
-main.ts:118053
+main.ts:118086
 
 ***
 
@@ -192,7 +192,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:118064
+main.ts:118097
 
 ***
 
@@ -208,7 +208,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:118033
+main.ts:118066
 
 ***
 
@@ -226,7 +226,7 @@ if there is no data then the value is null
 
 #### Defined in
 
-main.ts:118049
+main.ts:118082
 
 ***
 
@@ -243,7 +243,7 @@ if the search engine provided results for a keyword that was corrected, we will 
 
 #### Defined in
 
-main.ts:118025
+main.ts:118058
 
 ## Methods
 
@@ -261,7 +261,7 @@ main.ts:118025
 
 #### Defined in
 
-main.ts:118077
+main.ts:118110
 
 ***
 
@@ -279,7 +279,7 @@ main.ts:118077
 
 #### Defined in
 
-main.ts:118109
+main.ts:118142
 
 ***
 
@@ -297,4 +297,4 @@ main.ts:118109
 
 #### Defined in
 
-main.ts:118102
+main.ts:118135

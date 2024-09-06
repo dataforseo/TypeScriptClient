@@ -21,7 +21,7 @@ indicates whether the establishment is opened or closed
 
 #### Defined in
 
-main.ts:39716
+main.ts:39749
 
 ***
 
@@ -37,4 +37,4 @@ work hours timetable
 
 #### Defined in
 
-main.ts:39713
+main.ts:39746

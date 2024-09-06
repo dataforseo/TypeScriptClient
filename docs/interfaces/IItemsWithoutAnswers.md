@@ -21,7 +21,7 @@ items within google_business_question_item
 
 #### Defined in
 
-main.ts:209461
+main.ts:209494
 
 ***
 
@@ -33,7 +33,7 @@ original text of the question
 
 #### Defined in
 
-main.ts:209454
+main.ts:209487
 
 ***
 
@@ -45,7 +45,7 @@ URL of the user’s profile image
 
 #### Defined in
 
-main.ts:209446
+main.ts:209479
 
 ***
 
@@ -57,7 +57,7 @@ displayed name of the user
 
 #### Defined in
 
-main.ts:209450
+main.ts:209483
 
 ***
 
@@ -69,7 +69,7 @@ URL of the user’s profile
 
 #### Defined in
 
-main.ts:209448
+main.ts:209481
 
 ***
 
@@ -81,7 +81,7 @@ ID of the question
 
 #### Defined in
 
-main.ts:209442
+main.ts:209475
 
 ***
 
@@ -93,7 +93,7 @@ current text of the question
 
 #### Defined in
 
-main.ts:209452
+main.ts:209485
 
 ***
 
@@ -105,7 +105,7 @@ absolute rank among all the elements
 
 #### Defined in
 
-main.ts:209440
+main.ts:209473
 
 ***
 
@@ -118,7 +118,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:209438
+main.ts:209471
 
 ***
 
@@ -130,7 +130,7 @@ estimated time when the question was posted
 
 #### Defined in
 
-main.ts:209456
+main.ts:209489
 
 ***
 
@@ -142,7 +142,7 @@ exact time when the question was posted
 
 #### Defined in
 
-main.ts:209458
+main.ts:209491
 
 ***
 
@@ -154,7 +154,7 @@ type of element
 
 #### Defined in
 
-main.ts:209435
+main.ts:209468
 
 ***
 
@@ -166,4 +166,4 @@ URL of the question
 
 #### Defined in
 
-main.ts:209444
+main.ts:209477

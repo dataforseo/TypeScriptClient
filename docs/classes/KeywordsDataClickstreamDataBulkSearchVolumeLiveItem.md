@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:137206
+main.ts:137239
 
 ## Properties
 
@@ -47,7 +47,7 @@ keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to a s
 
 #### Defined in
 
-main.ts:137195
+main.ts:137228
 
 ***
 
@@ -64,7 +64,7 @@ represents the (approximate) number of searches on this keyword idea (as availab
 
 #### Defined in
 
-main.ts:137202
+main.ts:137235
 
 ***
 
@@ -82,7 +82,7 @@ you can learn more about clickstream search volume in this Help Center article
 
 #### Defined in
 
-main.ts:137199
+main.ts:137232
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:137199
 
 #### Defined in
 
-main.ts:137215
+main.ts:137248
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:137215
 
 #### Defined in
 
-main.ts:137238
+main.ts:137271
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:137238
 
 #### Defined in
 
-main.ts:137231
+main.ts:137264

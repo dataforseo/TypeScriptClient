@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:138534
+main.ts:138567
 
 ## Properties
 
@@ -46,7 +46,7 @@ index volume data for the past 12 months
 
 #### Defined in
 
-main.ts:138530
+main.ts:138563
 
 ***
 
@@ -62,7 +62,7 @@ total number of backlinks our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:138524
+main.ts:138557
 
 ***
 
@@ -78,7 +78,7 @@ total number of domains our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:138528
+main.ts:138561
 
 ***
 
@@ -94,7 +94,7 @@ total number of pages our database contains for the moment of checking
 
 #### Defined in
 
-main.ts:138526
+main.ts:138559
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:138526
 
 #### Defined in
 
-main.ts:138543
+main.ts:138576
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:138543
 
 #### Defined in
 
-main.ts:138567
+main.ts:138600
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:138567
 
 #### Defined in
 
-main.ts:138560
+main.ts:138593

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:31804
+main.ts:32060
 
 ## Properties
 
@@ -60,8 +60,7 @@ main.ts:20367
 
 > `optional` **items**: [`GoogleFlightsElement`](GoogleFlightsElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -69,7 +68,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:31796
+main.ts:32052
 
 ***
 
@@ -152,7 +151,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31800
+main.ts:32056
 
 ***
 
@@ -168,7 +167,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31791
+main.ts:32048
 
 ***
 
@@ -204,7 +203,7 @@ source URL
 
 #### Defined in
 
-main.ts:31793
+main.ts:32050
 
 ***
 
@@ -246,7 +245,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:31809
+main.ts:32065
 
 ***
 
@@ -268,7 +267,7 @@ main.ts:31809
 
 #### Defined in
 
-main.ts:31834
+main.ts:32090
 
 ***
 
@@ -290,4 +289,4 @@ main.ts:31834
 
 #### Defined in
 
-main.ts:31827
+main.ts:32083

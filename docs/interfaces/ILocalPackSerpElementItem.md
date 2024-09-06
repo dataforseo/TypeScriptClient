@@ -24,7 +24,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:31162
+main.ts:31423
 
 ***
 
@@ -36,7 +36,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:31149
+main.ts:31410
 
 ***
 
@@ -48,7 +48,7 @@ source domain
 
 #### Defined in
 
-main.ts:31151
+main.ts:31412
 
 ***
 
@@ -60,7 +60,7 @@ indicates whether the element is an ad
 
 #### Defined in
 
-main.ts:31157
+main.ts:31418
 
 ***
 
@@ -72,7 +72,7 @@ phone number
 
 #### Defined in
 
-main.ts:31153
+main.ts:31414
 
 ***
 
@@ -90,7 +90,7 @@ left, right
 
 #### Defined in
 
-main.ts:20721
+main.ts:20726
 
 ***
 
@@ -107,7 +107,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20717
+main.ts:20722
 
 ***
 
@@ -125,7 +125,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20714
+main.ts:20719
 
 ***
 
@@ -138,7 +138,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:31160
+main.ts:31421
 
 ***
 
@@ -152,7 +152,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:31166
+main.ts:31427
 
 ***
 
@@ -164,7 +164,7 @@ title of the row
 
 #### Defined in
 
-main.ts:31147
+main.ts:31408
 
 ***
 
@@ -180,7 +180,7 @@ type of element
 
 #### Defined in
 
-main.ts:20710
+main.ts:20715
 
 ***
 
@@ -192,7 +192,7 @@ source URL
 
 #### Defined in
 
-main.ts:31155
+main.ts:31416
 
 ***
 
@@ -208,4 +208,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20723
+main.ts:20728

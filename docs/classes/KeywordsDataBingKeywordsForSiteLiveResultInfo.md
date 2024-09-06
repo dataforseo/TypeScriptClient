@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:130650
+main.ts:130683
 
 ## Properties
 
@@ -47,7 +47,7 @@ legacy field, the value will always be null
 
 #### Defined in
 
-main.ts:130642
+main.ts:130675
 
 ***
 
@@ -68,7 +68,7 @@ if there is no data the value is null
 
 #### Defined in
 
-main.ts:130632
+main.ts:130665
 
 ***
 
@@ -86,7 +86,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130636
+main.ts:130669
 
 ***
 
@@ -103,7 +103,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130625
+main.ts:130658
 
 ***
 
@@ -119,7 +119,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:130616
+main.ts:130649
 
 ***
 
@@ -135,7 +135,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:130620
+main.ts:130653
 
 ***
 
@@ -151,7 +151,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:130618
+main.ts:130651
 
 ***
 
@@ -169,7 +169,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:130646
+main.ts:130679
 
 ***
 
@@ -185,7 +185,7 @@ indicates whether data from partner networks included in the response
 
 #### Defined in
 
-main.ts:130622
+main.ts:130655
 
 ***
 
@@ -202,7 +202,7 @@ represents the (approximate) number of searches for the keyword on the Bing sear
 
 #### Defined in
 
-main.ts:130639
+main.ts:130672
 
 ## Methods
 
@@ -220,7 +220,7 @@ main.ts:130639
 
 #### Defined in
 
-main.ts:130659
+main.ts:130692
 
 ***
 
@@ -238,7 +238,7 @@ main.ts:130659
 
 #### Defined in
 
-main.ts:130693
+main.ts:130726
 
 ***
 
@@ -256,4 +256,4 @@ main.ts:130693
 
 #### Defined in
 
-main.ts:130686
+main.ts:130719

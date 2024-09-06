@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:161774
+main.ts:161807
 
 ## Properties
 
@@ -38,7 +38,7 @@ main.ts:161774
 
 > `optional` **footer**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-content of the footer of the table
+parsed content of the footer
 
 #### Implementation of
 
@@ -46,7 +46,7 @@ content of the footer of the table
 
 #### Defined in
 
-main.ts:161764
+main.ts:161797
 
 ***
 
@@ -54,7 +54,7 @@ main.ts:161764
 
 > `optional` **header**: [`PageSectionContentInfo`](PageSectionContentInfo.md)
 
-parsed content of the header
+content of the header of the table
 
 #### Implementation of
 
@@ -62,7 +62,7 @@ parsed content of the header
 
 #### Defined in
 
-main.ts:161762
+main.ts:161795
 
 ***
 
@@ -79,7 +79,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:161767
+main.ts:161800
 
 ***
 
@@ -96,7 +96,7 @@ you can find more information about topic priority calculation in this help cent
 
 #### Defined in
 
-main.ts:161770
+main.ts:161803
 
 ## Methods
 
@@ -114,7 +114,7 @@ main.ts:161770
 
 #### Defined in
 
-main.ts:161783
+main.ts:161816
 
 ***
 
@@ -132,7 +132,7 @@ main.ts:161783
 
 #### Defined in
 
-main.ts:161811
+main.ts:161844
 
 ***
 
@@ -150,4 +150,4 @@ main.ts:161811
 
 #### Defined in
 
-main.ts:161804
+main.ts:161837

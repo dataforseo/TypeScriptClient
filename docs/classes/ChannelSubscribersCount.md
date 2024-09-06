@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:62047
+main.ts:62080
 
 ## Properties
 
@@ -46,7 +46,7 @@ subscriber count
 
 #### Defined in
 
-main.ts:62043
+main.ts:62076
 
 ***
 
@@ -63,7 +63,7 @@ subscriber count as displayed on YouTube
 
 #### Defined in
 
-main.ts:62041
+main.ts:62074
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:62041
 
 #### Defined in
 
-main.ts:62056
+main.ts:62089
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:62056
 
 #### Defined in
 
-main.ts:62074
+main.ts:62107
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:62074
 
 #### Defined in
 
-main.ts:62067
+main.ts:62100

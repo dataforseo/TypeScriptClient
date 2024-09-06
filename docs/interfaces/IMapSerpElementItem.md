@@ -30,7 +30,7 @@ left, right
 
 #### Defined in
 
-main.ts:20721
+main.ts:20726
 
 ***
 
@@ -47,7 +47,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20717
+main.ts:20722
 
 ***
 
@@ -65,7 +65,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20714
+main.ts:20719
 
 ***
 
@@ -79,7 +79,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:30922
+main.ts:31185
 
 ***
 
@@ -91,7 +91,7 @@ title of the row
 
 #### Defined in
 
-main.ts:30916
+main.ts:31179
 
 ***
 
@@ -107,7 +107,7 @@ type of element
 
 #### Defined in
 
-main.ts:20710
+main.ts:20715
 
 ***
 
@@ -119,7 +119,7 @@ source URL
 
 #### Defined in
 
-main.ts:30918
+main.ts:31181
 
 ***
 
@@ -135,4 +135,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20723
+main.ts:20728

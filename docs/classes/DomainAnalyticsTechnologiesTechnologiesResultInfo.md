@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:76005
+main.ts:76038
 
 ## Properties
 
@@ -46,7 +46,7 @@ array of technology groups
 
 #### Defined in
 
-main.ts:76001
+main.ts:76034
 
 ## Methods
 
@@ -64,7 +64,7 @@ main.ts:76001
 
 #### Defined in
 
-main.ts:76014
+main.ts:76047
 
 ***
 
@@ -82,7 +82,7 @@ main.ts:76014
 
 #### Defined in
 
-main.ts:76035
+main.ts:76068
 
 ***
 
@@ -100,4 +100,4 @@ main.ts:76035
 
 #### Defined in
 
-main.ts:76028
+main.ts:76061

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:220824
+main.ts:220857
 
 ## Properties
 
@@ -46,7 +46,7 @@ amount of money left in your account
 
 #### Defined in
 
-main.ts:220816
+main.ts:220849
 
 ***
 
@@ -62,7 +62,7 @@ cost limits
 
 #### Defined in
 
-main.ts:220818
+main.ts:220851
 
 ***
 
@@ -78,7 +78,7 @@ statistics of your spending
 
 #### Defined in
 
-main.ts:220820
+main.ts:220853
 
 ***
 
@@ -94,7 +94,7 @@ total amount of money deposited to your account
 
 #### Defined in
 
-main.ts:220814
+main.ts:220847
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:220814
 
 #### Defined in
 
-main.ts:220833
+main.ts:220866
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:220833
 
 #### Defined in
 
-main.ts:220853
+main.ts:220886
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:220853
 
 #### Defined in
 
-main.ts:220846
+main.ts:220879

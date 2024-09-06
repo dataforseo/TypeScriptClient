@@ -20,7 +20,7 @@ content management system
 
 #### Defined in
 
-main.ts:138970
+main.ts:139003
 
 ***
 
@@ -32,7 +32,7 @@ country code that the target domain is determined to belong to
 
 #### Defined in
 
-main.ts:138976
+main.ts:139009
 
 ***
 
@@ -44,7 +44,7 @@ IP address of the target
 
 #### Defined in
 
-main.ts:138974
+main.ts:139007
 
 ***
 
@@ -57,7 +57,7 @@ if true, the domain, subdomain or webpage functions as an IP address and does no
 
 #### Defined in
 
-main.ts:138979
+main.ts:139012
 
 ***
 
@@ -69,7 +69,7 @@ platform type
 
 #### Defined in
 
-main.ts:138972
+main.ts:139005
 
 ***
 
@@ -81,7 +81,7 @@ server
 
 #### Defined in
 
-main.ts:138968
+main.ts:139001
 
 ***
 
@@ -95,4 +95,4 @@ learn more about how the metric is calculated on this help center page
 
 #### Defined in
 
-main.ts:138983
+main.ts:139016

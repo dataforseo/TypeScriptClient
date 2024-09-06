@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:201793
+main.ts:201826
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:201775
+main.ts:201808
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:201780
+main.ts:201813
 
 ***
 
@@ -84,7 +84,7 @@ possible item types: google_business_info
 
 #### Defined in
 
-main.ts:201784
+main.ts:201817
 
 ***
 
@@ -100,7 +100,7 @@ array of directory items
 
 #### Defined in
 
-main.ts:201789
+main.ts:201822
 
 ***
 
@@ -117,7 +117,7 @@ the number of items in the items array
 
 #### Defined in
 
-main.ts:201787
+main.ts:201820
 
 ***
 
@@ -138,7 +138,7 @@ learn more about the parameter in this help center article
 
 #### Defined in
 
-main.ts:201766
+main.ts:201799
 
 ***
 
@@ -154,7 +154,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:201772
+main.ts:201805
 
 ***
 
@@ -170,7 +170,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:201770
+main.ts:201803
 
 ***
 
@@ -186,7 +186,7 @@ search engine domain as specified in a POST array
 
 #### Defined in
 
-main.ts:201768
+main.ts:201801
 
 ## Methods
 
@@ -204,7 +204,7 @@ main.ts:201768
 
 #### Defined in
 
-main.ts:201802
+main.ts:201835
 
 ***
 
@@ -222,7 +222,7 @@ main.ts:201802
 
 #### Defined in
 
-main.ts:201835
+main.ts:201868
 
 ***
 
@@ -240,4 +240,4 @@ main.ts:201835
 
 #### Defined in
 
-main.ts:201828
+main.ts:201861

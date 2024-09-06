@@ -24,7 +24,7 @@ source domain
 
 #### Defined in
 
-main.ts:33391
+main.ts:33630
 
 ***
 
@@ -36,7 +36,7 @@ contains data provided in the graph of the element
 
 #### Defined in
 
-main.ts:33400
+main.ts:33639
 
 ***
 
@@ -54,7 +54,7 @@ left, right
 
 #### Defined in
 
-main.ts:20721
+main.ts:20726
 
 ***
 
@@ -66,7 +66,7 @@ price indicated in the element
 
 #### Defined in
 
-main.ts:33387
+main.ts:33626
 
 ***
 
@@ -83,7 +83,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:20717
+main.ts:20722
 
 ***
 
@@ -101,7 +101,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:20714
+main.ts:20719
 
 ***
 
@@ -115,7 +115,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:33395
+main.ts:33634
 
 ***
 
@@ -127,7 +127,7 @@ text alongside the link title
 
 #### Defined in
 
-main.ts:33385
+main.ts:33624
 
 ***
 
@@ -140,7 +140,7 @@ indicates the source of the video
 
 #### Defined in
 
-main.ts:33383
+main.ts:33622
 
 ***
 
@@ -153,7 +153,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:33398
+main.ts:33637
 
 ***
 
@@ -165,7 +165,7 @@ title of the row
 
 #### Defined in
 
-main.ts:33380
+main.ts:33619
 
 ***
 
@@ -181,7 +181,7 @@ type of element
 
 #### Defined in
 
-main.ts:20710
+main.ts:20715
 
 ***
 
@@ -193,7 +193,7 @@ source URL
 
 #### Defined in
 
-main.ts:33389
+main.ts:33628
 
 ***
 
@@ -209,4 +209,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:20723
+main.ts:20728

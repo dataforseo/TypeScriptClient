@@ -22,7 +22,7 @@ you can find the full list of IPs used by our crawler in the Overview section
 
 #### Defined in
 
-main.ts:163049
+main.ts:163082
 
 ***
 
@@ -35,7 +35,7 @@ possible values: in_progress, finished
 
 #### Defined in
 
-main.ts:163042
+main.ts:163075
 
 ***
 
@@ -48,7 +48,7 @@ in this case the value will be null
 
 #### Defined in
 
-main.ts:163045
+main.ts:163078
 
 ***
 
@@ -60,7 +60,7 @@ items array
 
 #### Defined in
 
-main.ts:163053
+main.ts:163086
 
 ***
 
@@ -72,4 +72,4 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:163051
+main.ts:163084

@@ -20,7 +20,7 @@ array of available locations for a certain language
 
 #### Defined in
 
-main.ts:133917
+main.ts:133950
 
 ***
 
@@ -32,7 +32,7 @@ language code according to ISO 639-1
 
 #### Defined in
 
-main.ts:133915
+main.ts:133948
 
 ***
 
@@ -44,4 +44,4 @@ language name
 
 #### Defined in
 
-main.ts:133913
+main.ts:133946

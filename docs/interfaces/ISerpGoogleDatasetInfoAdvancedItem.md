@@ -21,7 +21,7 @@ for example: Africa, Global
 
 #### Defined in
 
-main.ts:56228
+main.ts:56261
 
 ***
 
@@ -33,7 +33,7 @@ the list of authors of the dataset
 
 #### Defined in
 
-main.ts:56218
+main.ts:56251
 
 ***
 
@@ -45,7 +45,7 @@ description of the dataset
 
 #### Defined in
 
-main.ts:56232
+main.ts:56265
 
 ***
 
@@ -57,7 +57,7 @@ ID of the dataset
 
 #### Defined in
 
-main.ts:56201
+main.ts:56234
 
 ***
 
@@ -69,7 +69,7 @@ the list of institutions that provided the dataset
 
 #### Defined in
 
-main.ts:56214
+main.ts:56247
 
 ***
 
@@ -81,7 +81,7 @@ the list of file formats of the dataset
 
 #### Defined in
 
-main.ts:56216
+main.ts:56249
 
 ***
 
@@ -94,7 +94,7 @@ the URL leading to the image on the original resource or DataForSEO storage (in 
 
 #### Defined in
 
-main.ts:56206
+main.ts:56239
 
 ***
 
@@ -106,7 +106,7 @@ the list of licenses issued to the dataset
 
 #### Defined in
 
-main.ts:56220
+main.ts:56253
 
 ***
 
@@ -120,7 +120,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:56212
+main.ts:56245
 
 ***
 
@@ -132,7 +132,7 @@ period covered in the dataset
 
 #### Defined in
 
-main.ts:56230
+main.ts:56263
 
 ***
 
@@ -146,7 +146,7 @@ left, right
 
 #### Defined in
 
-main.ts:56197
+main.ts:56230
 
 ***
 
@@ -159,7 +159,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:56193
+main.ts:56226
 
 ***
 
@@ -173,7 +173,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:56190
+main.ts:56223
 
 ***
 
@@ -185,7 +185,7 @@ count of articles that refer to the dataset
 
 #### Defined in
 
-main.ts:56208
+main.ts:56241
 
 ***
 
@@ -197,7 +197,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:56203
+main.ts:56236
 
 ***
 
@@ -209,7 +209,7 @@ type of element
 
 #### Defined in
 
-main.ts:56186
+main.ts:56219
 
 ***
 
@@ -224,7 +224,7 @@ example:
 
 #### Defined in
 
-main.ts:56225
+main.ts:56258
 
 ***
 
@@ -236,4 +236,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:56199
+main.ts:56232

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:36303
+main.ts:36519
 
 ## Properties
 
@@ -69,7 +69,7 @@ contains a list of categories relevant to courses
 
 #### Defined in
 
-main.ts:36292
+main.ts:36509
 
 ***
 
@@ -77,8 +77,7 @@ main.ts:36292
 
 > `optional` **items**: [`CoursesElement`](CoursesElement.md)[]
 
-additional items present in the element
-if there are none, equals null
+contains arrays of specific images
 
 #### Implementation of
 
@@ -86,7 +85,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:36295
+main.ts:36511
 
 ***
 
@@ -169,7 +168,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:36299
+main.ts:36515
 
 ***
 
@@ -185,7 +184,7 @@ title of the row
 
 #### Defined in
 
-main.ts:36289
+main.ts:36506
 
 ***
 
@@ -247,7 +246,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:36308
+main.ts:36524
 
 ***
 
@@ -269,7 +268,7 @@ main.ts:36308
 
 #### Defined in
 
-main.ts:36337
+main.ts:36553
 
 ***
 
@@ -291,4 +290,4 @@ main.ts:36337
 
 #### Defined in
 
-main.ts:36330
+main.ts:36546

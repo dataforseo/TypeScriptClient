@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:21586
+main.ts:21591
 
 ## Properties
 
@@ -46,7 +46,7 @@ the content of response
 
 #### Defined in
 
-main.ts:21580
+main.ts:21585
 
 ***
 
@@ -62,7 +62,7 @@ the time of publication
 
 #### Defined in
 
-main.ts:21582
+main.ts:21587
 
 ***
 
@@ -78,7 +78,7 @@ the title of response
 
 #### Defined in
 
-main.ts:21578
+main.ts:21583
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:21578
 
 #### Defined in
 
-main.ts:21595
+main.ts:21600
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:21595
 
 #### Defined in
 
-main.ts:21614
+main.ts:21619
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:21614
 
 #### Defined in
 
-main.ts:21607
+main.ts:21612

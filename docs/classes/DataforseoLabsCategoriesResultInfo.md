@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:81906
+main.ts:81939
 
 ## Properties
 
@@ -46,7 +46,7 @@ category code
 
 #### Defined in
 
-main.ts:81889
+main.ts:81922
 
 ***
 
@@ -71,7 +71,7 @@ corresponds to:
 
 #### Defined in
 
-main.ts:81902
+main.ts:81935
 
 ***
 
@@ -87,7 +87,7 @@ full name of the category
 
 #### Defined in
 
-main.ts:81891
+main.ts:81924
 
 ## Methods
 
@@ -105,7 +105,7 @@ main.ts:81891
 
 #### Defined in
 
-main.ts:81915
+main.ts:81948
 
 ***
 
@@ -123,7 +123,7 @@ main.ts:81915
 
 #### Defined in
 
-main.ts:81934
+main.ts:81967
 
 ***
 
@@ -141,4 +141,4 @@ main.ts:81934
 
 #### Defined in
 
-main.ts:81927
+main.ts:81960

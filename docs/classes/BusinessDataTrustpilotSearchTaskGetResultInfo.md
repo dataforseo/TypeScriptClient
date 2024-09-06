@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:211004
+main.ts:211037
 
 ## Properties
 
@@ -47,7 +47,7 @@ you can use it to make sure that we provided accurate results
 
 #### Defined in
 
-main.ts:210989
+main.ts:211022
 
 ***
 
@@ -66,7 +66,7 @@ example:
 
 #### Defined in
 
-main.ts:210994
+main.ts:211027
 
 ***
 
@@ -83,7 +83,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:211000
+main.ts:211033
 
 ***
 
@@ -100,7 +100,7 @@ you can get more results by using the depth parameter when setting a task
 
 #### Defined in
 
-main.ts:210997
+main.ts:211030
 
 ***
 
@@ -116,7 +116,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:210984
+main.ts:211017
 
 ***
 
@@ -132,7 +132,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:210986
+main.ts:211019
 
 ## Methods
 
@@ -150,7 +150,7 @@ main.ts:210986
 
 #### Defined in
 
-main.ts:211013
+main.ts:211046
 
 ***
 
@@ -168,7 +168,7 @@ main.ts:211013
 
 #### Defined in
 
-main.ts:211039
+main.ts:211072
 
 ***
 
@@ -186,4 +186,4 @@ main.ts:211039
 
 #### Defined in
 
-main.ts:211032
+main.ts:211065

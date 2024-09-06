@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:36478
+main.ts:29290
 
 ## Properties
 
@@ -39,7 +39,6 @@ main.ts:36478
 > `optional` **images**: [`ImagesElement`](ImagesElement.md)[]
 
 images of the element
-if there are none, equals null
 
 #### Implementation of
 
@@ -47,7 +46,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:36471
+main.ts:29284
 
 ***
 
@@ -56,7 +55,6 @@ main.ts:36471
 > `optional` **references**: [`AiOverviewReference`](AiOverviewReference.md)[]
 
 references relevant to the element
-includes references to webpages that were used to generate the ai_overview_element
 
 #### Implementation of
 
@@ -64,7 +62,7 @@ includes references to webpages that were used to generate the ai_overview_eleme
 
 #### Defined in
 
-main.ts:36474
+main.ts:29286
 
 ***
 
@@ -72,8 +70,7 @@ main.ts:36474
 
 > `optional` **text**: `string`
 
-reference text
-text snippet from the page that was used to generate the ai_overview_element
+description content
 
 #### Implementation of
 
@@ -81,7 +78,7 @@ text snippet from the page that was used to generate the ai_overview_element
 
 #### Defined in
 
-main.ts:36468
+main.ts:29282
 
 ***
 
@@ -89,7 +86,7 @@ main.ts:36468
 
 > `optional` **title**: `string`
 
-title of a given link element
+title of the element
 
 #### Implementation of
 
@@ -97,7 +94,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:36465
+main.ts:29280
 
 ***
 
@@ -113,7 +110,7 @@ type of element
 
 #### Defined in
 
-main.ts:36463
+main.ts:29278
 
 ## Methods
 
@@ -131,7 +128,7 @@ main.ts:36463
 
 #### Defined in
 
-main.ts:36487
+main.ts:29299
 
 ***
 
@@ -149,7 +146,7 @@ main.ts:36487
 
 #### Defined in
 
-main.ts:36516
+main.ts:29328
 
 ***
 
@@ -167,4 +164,4 @@ main.ts:36516
 
 #### Defined in
 
-main.ts:36509
+main.ts:29321

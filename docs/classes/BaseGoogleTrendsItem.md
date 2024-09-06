@@ -33,7 +33,7 @@
 
 #### Defined in
 
-main.ts:21806
+main.ts:21811
 
 ## Properties
 
@@ -43,7 +43,7 @@ main.ts:21806
 
 #### Defined in
 
-main.ts:21804
+main.ts:21809
 
 ***
 
@@ -60,7 +60,7 @@ the data included in the google_trends_graph element is based on the keywords li
 
 #### Defined in
 
-main.ts:21802
+main.ts:21807
 
 ***
 
@@ -77,7 +77,7 @@ can take the following values: 1, 2, 3, 4, etc.
 
 #### Defined in
 
-main.ts:21797
+main.ts:21802
 
 ***
 
@@ -93,7 +93,7 @@ title of the element in Google Trends
 
 #### Defined in
 
-main.ts:21799
+main.ts:21804
 
 ***
 
@@ -109,7 +109,7 @@ type of element
 
 #### Defined in
 
-main.ts:21794
+main.ts:21799
 
 ## Methods
 
@@ -127,7 +127,7 @@ main.ts:21794
 
 #### Defined in
 
-main.ts:21816
+main.ts:21821
 
 ***
 
@@ -145,7 +145,7 @@ main.ts:21816
 
 #### Defined in
 
-main.ts:21856
+main.ts:21861
 
 ***
 
@@ -163,4 +163,4 @@ main.ts:21856
 
 #### Defined in
 
-main.ts:21829
+main.ts:21834

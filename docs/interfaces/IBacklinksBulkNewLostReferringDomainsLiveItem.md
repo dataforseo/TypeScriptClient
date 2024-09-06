@@ -21,7 +21,7 @@ number of lost referring domains of the target
 
 #### Defined in
 
-main.ts:150917
+main.ts:150950
 
 ***
 
@@ -33,7 +33,7 @@ number of lost referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:150921
+main.ts:150954
 
 ***
 
@@ -46,7 +46,7 @@ number of new referring domains pointing to the target
 
 #### Defined in
 
-main.ts:150914
+main.ts:150947
 
 ***
 
@@ -58,7 +58,7 @@ number of new referring main domains pointing to the target
 
 #### Defined in
 
-main.ts:150919
+main.ts:150952
 
 ***
 
@@ -70,4 +70,4 @@ domain, subdomain or webpage from a POST array
 
 #### Defined in
 
-main.ts:150911
+main.ts:150944

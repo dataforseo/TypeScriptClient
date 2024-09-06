@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:34397
+main.ts:34624
 
 ## Properties
 
@@ -68,7 +68,7 @@ google-defined client id
 
 #### Defined in
 
-main.ts:34389
+main.ts:34616
 
 ***
 
@@ -86,7 +86,7 @@ example: "CgoIjaeSlI6CnNpVEAE"
 
 #### Defined in
 
-main.ts:34385
+main.ts:34612
 
 ***
 
@@ -169,7 +169,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:34393
+main.ts:34620
 
 ***
 
@@ -205,7 +205,7 @@ source URL
 
 #### Defined in
 
-main.ts:34387
+main.ts:34614
 
 ***
 
@@ -247,7 +247,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:34402
+main.ts:34629
 
 ***
 
@@ -269,7 +269,7 @@ main.ts:34402
 
 #### Defined in
 
-main.ts:34423
+main.ts:34650
 
 ***
 
@@ -291,4 +291,4 @@ main.ts:34423
 
 #### Defined in
 
-main.ts:34416
+main.ts:34643

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:104696
+main.ts:104729
 
 ## Properties
 
@@ -48,7 +48,7 @@ for more information, refer to this help center guide
 
 #### Defined in
 
-main.ts:104675
+main.ts:104708
 
 ***
 
@@ -66,7 +66,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:104679
+main.ts:104712
 
 ***
 
@@ -84,7 +84,7 @@ Note: in this object ranking data is provided for the returned competitor’s as
 
 #### Defined in
 
-main.ts:104689
+main.ts:104722
 
 ***
 
@@ -101,7 +101,7 @@ full overview of ranking data relevant to all keywords that the provided asin is
 
 #### Defined in
 
-main.ts:104692
+main.ts:104725
 
 ***
 
@@ -117,7 +117,7 @@ number of intersecting keywords
 
 #### Defined in
 
-main.ts:104685
+main.ts:104718
 
 ***
 
@@ -133,7 +133,7 @@ search engine type
 
 #### Defined in
 
-main.ts:104671
+main.ts:104704
 
 ***
 
@@ -151,7 +151,7 @@ the value for a given product may differ when combined with different target pro
 
 #### Defined in
 
-main.ts:104683
+main.ts:104716
 
 ## Methods
 
@@ -169,7 +169,7 @@ main.ts:104683
 
 #### Defined in
 
-main.ts:104705
+main.ts:104738
 
 ***
 
@@ -187,7 +187,7 @@ main.ts:104705
 
 #### Defined in
 
-main.ts:104728
+main.ts:104761
 
 ***
 
@@ -205,4 +205,4 @@ main.ts:104728
 
 #### Defined in
 
-main.ts:104721
+main.ts:104754

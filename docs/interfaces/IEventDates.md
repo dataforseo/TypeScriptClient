@@ -20,7 +20,7 @@ date or date range as it is displayed in SERP
 
 #### Defined in
 
-main.ts:45984
+main.ts:46017
 
 ***
 
@@ -40,7 +40,7 @@ example:
 
 #### Defined in
 
-main.ts:45982
+main.ts:46015
 
 ***
 
@@ -60,4 +60,4 @@ example:
 
 #### Defined in
 
-main.ts:45972
+main.ts:46005

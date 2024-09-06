@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:63971
+main.ts:64004
 
 ## Properties
 
@@ -52,7 +52,7 @@ main.ts:63971
 
 #### Defined in
 
-main.ts:62255
+main.ts:62288
 
 ***
 
@@ -68,7 +68,7 @@ duration of subtitles in seconds
 
 #### Defined in
 
-main.ts:63967
+main.ts:64000
 
 ***
 
@@ -84,7 +84,7 @@ the second subtitled text ends
 
 #### Defined in
 
-main.ts:63965
+main.ts:63998
 
 ***
 
@@ -105,7 +105,7 @@ absolute position among all the elements in SERP
 
 #### Defined in
 
-main.ts:62253
+main.ts:62286
 
 ***
 
@@ -127,7 +127,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:62250
+main.ts:62283
 
 ***
 
@@ -143,7 +143,7 @@ the second subtitled text starts
 
 #### Defined in
 
-main.ts:63963
+main.ts:63996
 
 ***
 
@@ -159,7 +159,7 @@ text translated in subtitles
 
 #### Defined in
 
-main.ts:63961
+main.ts:63994
 
 ***
 
@@ -179,7 +179,7 @@ type of element
 
 #### Defined in
 
-main.ts:62246
+main.ts:62279
 
 ## Methods
 
@@ -201,7 +201,7 @@ main.ts:62246
 
 #### Defined in
 
-main.ts:63976
+main.ts:64009
 
 ***
 
@@ -223,7 +223,7 @@ main.ts:63976
 
 #### Defined in
 
-main.ts:63997
+main.ts:64030
 
 ***
 
@@ -245,4 +245,4 @@ main.ts:63997
 
 #### Defined in
 
-main.ts:63990
+main.ts:64023

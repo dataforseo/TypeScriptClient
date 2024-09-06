@@ -24,7 +24,7 @@ you can specify up to 10 categories
 
 #### Defined in
 
-main.ts:196575
+main.ts:196608
 
 ***
 
@@ -39,7 +39,7 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:196580
+main.ts:196613
 
 ***
 
@@ -60,7 +60,7 @@ you can receive the list of available filters by making a separate request to h
 
 #### Defined in
 
-main.ts:196596
+main.ts:196629
 
 ***
 
@@ -75,7 +75,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:196615
+main.ts:196648
 
 ***
 
@@ -90,7 +90,7 @@ if you specify the 10 value, the first ten entities in the results array will be
 
 #### Defined in
 
-main.ts:196620
+main.ts:196653
 
 ***
 
@@ -108,7 +108,7 @@ Note: if the offset_token is specified in the request, all other parameters shou
 
 #### Defined in
 
-main.ts:196628
+main.ts:196661
 
 ***
 
@@ -132,7 +132,7 @@ example:
 
 #### Defined in
 
-main.ts:196610
+main.ts:196643
 
 ***
 
@@ -148,7 +148,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:196634
+main.ts:196667
 
 ***
 
@@ -163,4 +163,4 @@ can contain up to 200 symbols
 
 #### Defined in
 
-main.ts:196585
+main.ts:196618

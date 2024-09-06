@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:155001
+main.ts:155034
 
 ## Properties
 
@@ -46,7 +46,7 @@ indicates whether the page is cacheable
 
 #### Defined in
 
-main.ts:154994
+main.ts:155027
 
 ***
 
@@ -63,7 +63,7 @@ the amount of time the browser caches a resource
 
 #### Defined in
 
-main.ts:154997
+main.ts:155030
 
 ## Methods
 
@@ -81,7 +81,7 @@ main.ts:154997
 
 #### Defined in
 
-main.ts:155010
+main.ts:155043
 
 ***
 
@@ -99,7 +99,7 @@ main.ts:155010
 
 #### Defined in
 
-main.ts:155028
+main.ts:155061
 
 ***
 
@@ -117,4 +117,4 @@ main.ts:155028
 
 #### Defined in
 
-main.ts:155021
+main.ts:155054

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:134814
+main.ts:134847
 
 ## Properties
 
@@ -44,7 +44,7 @@ main.ts:134814
 
 #### Defined in
 
-main.ts:134803
+main.ts:134836
 
 ***
 
@@ -60,7 +60,7 @@ keyword in a POST array
 
 #### Defined in
 
-main.ts:134796
+main.ts:134829
 
 ***
 
@@ -77,7 +77,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:134802
+main.ts:134835
 
 ***
 
@@ -94,7 +94,7 @@ if there is no data, then the value is null
 
 #### Defined in
 
-main.ts:134799
+main.ts:134832
 
 ***
 
@@ -112,7 +112,7 @@ default value monthly
 
 #### Defined in
 
-main.ts:134807
+main.ts:134840
 
 ***
 
@@ -129,7 +129,7 @@ if the device parameter is not specified, the data will be returned for all avai
 
 #### Defined in
 
-main.ts:134810
+main.ts:134843
 
 ## Methods
 
@@ -147,7 +147,7 @@ main.ts:134810
 
 #### Defined in
 
-main.ts:134823
+main.ts:134856
 
 ***
 
@@ -165,7 +165,7 @@ main.ts:134823
 
 #### Defined in
 
-main.ts:134849
+main.ts:134882
 
 ***
 
@@ -183,4 +183,4 @@ main.ts:134849
 
 #### Defined in
 
-main.ts:134842
+main.ts:134875

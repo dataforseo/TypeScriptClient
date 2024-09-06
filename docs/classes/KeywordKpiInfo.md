@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:133072
+main.ts:133105
 
 ## Properties
 
@@ -61,7 +61,7 @@ MainLine4: The fourth ad to appear at the top of the search results page
 
 #### Defined in
 
-main.ts:133051
+main.ts:133084
 
 ***
 
@@ -77,7 +77,7 @@ average bid of the keyword
 
 #### Defined in
 
-main.ts:133068
+main.ts:133101
 
 ***
 
@@ -94,7 +94,7 @@ calculated by dividing the cost of all clicks by the number of clicks
 
 #### Defined in
 
-main.ts:133060
+main.ts:133093
 
 ***
 
@@ -111,7 +111,7 @@ the number of clicks that the keyword and match type generated during the last m
 
 #### Defined in
 
-main.ts:133054
+main.ts:133087
 
 ***
 
@@ -128,7 +128,7 @@ calculated by dividing the number of clicks by the number of impressions and mul
 
 #### Defined in
 
-main.ts:133063
+main.ts:133096
 
 ***
 
@@ -145,7 +145,7 @@ the number of impressions that the keyword and match type generated during the l
 
 #### Defined in
 
-main.ts:133057
+main.ts:133090
 
 ***
 
@@ -162,7 +162,7 @@ the cost of using the specified keyword and match type during the last month
 
 #### Defined in
 
-main.ts:133066
+main.ts:133099
 
 ## Methods
 
@@ -180,7 +180,7 @@ main.ts:133066
 
 #### Defined in
 
-main.ts:133081
+main.ts:133114
 
 ***
 
@@ -198,7 +198,7 @@ main.ts:133081
 
 #### Defined in
 
-main.ts:133104
+main.ts:133137
 
 ***
 
@@ -216,4 +216,4 @@ main.ts:133104
 
 #### Defined in
 
-main.ts:133097
+main.ts:133130

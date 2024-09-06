@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:177845
+main.ts:177878
 
 ## Properties
 
@@ -49,7 +49,7 @@ example:
 
 #### Defined in
 
-main.ts:177837
+main.ts:177870
 
 ***
 
@@ -65,7 +65,7 @@ elements of search results found on Google Shopping
 
 #### Defined in
 
-main.ts:177841
+main.ts:177874
 
 ***
 
@@ -81,7 +81,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:177839
+main.ts:177872
 
 ***
 
@@ -97,7 +97,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:177832
+main.ts:177865
 
 ***
 
@@ -113,7 +113,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:177830
+main.ts:177863
 
 ***
 
@@ -129,7 +129,7 @@ product ID in a POST array
 
 #### Defined in
 
-main.ts:177824
+main.ts:177857
 
 ***
 
@@ -145,7 +145,7 @@ search engine domain in a POST array
 
 #### Defined in
 
-main.ts:177828
+main.ts:177861
 
 ***
 
@@ -161,7 +161,7 @@ type of element
 
 #### Defined in
 
-main.ts:177826
+main.ts:177859
 
 ## Methods
 
@@ -179,7 +179,7 @@ main.ts:177826
 
 #### Defined in
 
-main.ts:177854
+main.ts:177887
 
 ***
 
@@ -197,7 +197,7 @@ main.ts:177854
 
 #### Defined in
 
-main.ts:177882
+main.ts:177915
 
 ***
 
@@ -215,4 +215,4 @@ main.ts:177882
 
 #### Defined in
 
-main.ts:177875
+main.ts:177908

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:174376
+main.ts:174409
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of stores that offer the product
 
 #### Defined in
 
-main.ts:174364
+main.ts:174397
 
 ***
 
@@ -66,7 +66,7 @@ in this case, the parameter is true
 
 #### Defined in
 
-main.ts:174372
+main.ts:174405
 
 ***
 
@@ -82,7 +82,7 @@ text displayed on the Google Shopping page
 
 #### Defined in
 
-main.ts:174366
+main.ts:174399
 
 ## Methods
 
@@ -100,7 +100,7 @@ main.ts:174366
 
 #### Defined in
 
-main.ts:174385
+main.ts:174418
 
 ***
 
@@ -118,7 +118,7 @@ main.ts:174385
 
 #### Defined in
 
-main.ts:174404
+main.ts:174437
 
 ***
 
@@ -136,4 +136,4 @@ main.ts:174404
 
 #### Defined in
 
-main.ts:174397
+main.ts:174430

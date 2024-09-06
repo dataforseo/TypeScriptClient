@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:136102
+main.ts:136135
 
 ## Properties
 
@@ -46,7 +46,7 @@ country ISO code
 
 #### Defined in
 
-main.ts:136094
+main.ts:136127
 
 ***
 
@@ -62,7 +62,7 @@ percentage of global search volume
 
 #### Defined in
 
-main.ts:136098
+main.ts:136131
 
 ***
 
@@ -78,7 +78,7 @@ search volume in a given country
 
 #### Defined in
 
-main.ts:136096
+main.ts:136129
 
 ## Methods
 
@@ -96,7 +96,7 @@ main.ts:136096
 
 #### Defined in
 
-main.ts:136111
+main.ts:136144
 
 ***
 
@@ -114,7 +114,7 @@ main.ts:136111
 
 #### Defined in
 
-main.ts:136130
+main.ts:136163
 
 ***
 
@@ -132,4 +132,4 @@ main.ts:136130
 
 #### Defined in
 
-main.ts:136123
+main.ts:136156

@@ -17,10 +17,11 @@
 > `optional` **image\_url**: `string`
 
 URL of the image
+the URL leading to the image on the original resource or DataForSEO storage (in case the original source is not available)
 
 #### Defined in
 
-main.ts:35436
+main.ts:35657
 
 ***
 
@@ -32,7 +33,7 @@ keyword for the related refined search
 
 #### Defined in
 
-main.ts:35438
+main.ts:35659
 
 ***
 
@@ -44,7 +45,7 @@ type of search refinement
 
 #### Defined in
 
-main.ts:35440
+main.ts:35661
 
 ***
 
@@ -56,7 +57,7 @@ title of a given link element
 
 #### Defined in
 
-main.ts:35434
+main.ts:35654
 
 ***
 
@@ -68,7 +69,7 @@ type of element
 
 #### Defined in
 
-main.ts:35432
+main.ts:35652
 
 ***
 
@@ -80,4 +81,4 @@ the XPath of the element
 
 #### Defined in
 
-main.ts:35442
+main.ts:35663

@@ -38,7 +38,7 @@
 
 #### Defined in
 
-main.ts:27264
+main.ts:27269
 
 ## Properties
 
@@ -70,7 +70,7 @@ this feature appears after clicking on the three dots next to most results
 
 #### Defined in
 
-main.ts:27247
+main.ts:27252
 
 ***
 
@@ -87,7 +87,7 @@ indicates whether an item has the Accelerated Mobile Page (AMP) version
 
 #### Defined in
 
-main.ts:27223
+main.ts:27228
 
 ***
 
@@ -103,7 +103,7 @@ breadcrumb in SERP
 
 #### Defined in
 
-main.ts:27200
+main.ts:27205
 
 ***
 
@@ -119,7 +119,7 @@ cached version of the page
 
 #### Defined in
 
-main.ts:27195
+main.ts:27200
 
 ***
 
@@ -135,7 +135,7 @@ description of the results element in SERP
 
 #### Defined in
 
-main.ts:27214
+main.ts:27219
 
 ***
 
@@ -143,7 +143,7 @@ main.ts:27214
 
 > `optional` **domain**: `string`
 
-website domain
+domain name of the reference
 
 #### Implementation of
 
@@ -151,7 +151,7 @@ website domain
 
 #### Defined in
 
-main.ts:27189
+main.ts:27194
 
 ***
 
@@ -169,7 +169,7 @@ Note: extension appears in SERP upon clicking on the result and then bouncing ba
 
 #### Defined in
 
-main.ts:27243
+main.ts:27248
 
 ***
 
@@ -185,7 +185,7 @@ includes additional information appended after the result description in SERP
 
 #### Defined in
 
-main.ts:27218
+main.ts:27223
 
 ***
 
@@ -203,7 +203,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27239
+main.ts:27244
 
 ***
 
@@ -219,7 +219,7 @@ words highlighted in bold within the results description
 
 #### Defined in
 
-main.ts:27231
+main.ts:27236
 
 ***
 
@@ -235,7 +235,7 @@ images of the element
 
 #### Defined in
 
-main.ts:27220
+main.ts:27225
 
 ***
 
@@ -251,7 +251,7 @@ indicates whether the element is a featured_snippet
 
 #### Defined in
 
-main.ts:27208
+main.ts:27213
 
 ***
 
@@ -267,7 +267,7 @@ indicates whether the element contains an image
 
 #### Defined in
 
-main.ts:27204
+main.ts:27209
 
 ***
 
@@ -283,7 +283,7 @@ indicates whether the element is marked as malicious
 
 #### Defined in
 
-main.ts:27210
+main.ts:27215
 
 ***
 
@@ -299,7 +299,7 @@ indicates whether the element contains a video
 
 #### Defined in
 
-main.ts:27206
+main.ts:27211
 
 ***
 
@@ -315,7 +315,7 @@ indicates whether the element is marked as Google web story
 
 #### Defined in
 
-main.ts:27212
+main.ts:27217
 
 ***
 
@@ -333,7 +333,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:27235
+main.ts:27240
 
 ***
 
@@ -371,7 +371,7 @@ includes additional information appended before the result description in SERP
 
 #### Defined in
 
-main.ts:27216
+main.ts:27221
 
 ***
 
@@ -388,7 +388,7 @@ contains the pricing details of the product or service featured in the result
 
 #### Defined in
 
-main.ts:27229
+main.ts:27234
 
 ***
 
@@ -448,7 +448,7 @@ the popularity rate based on reviews and displayed in SERP
 
 #### Defined in
 
-main.ts:27226
+main.ts:27231
 
 ***
 
@@ -466,7 +466,7 @@ equals null if calculate_rectangles in the POST request is not set to true
 
 #### Defined in
 
-main.ts:27260
+main.ts:27265
 
 ***
 
@@ -484,7 +484,7 @@ you can derive the related_result snippets as "type": "organic" results by setti
 
 #### Defined in
 
-main.ts:27251
+main.ts:27256
 
 ***
 
@@ -501,7 +501,7 @@ URL to a new search for the same keyword(s) on related sites
 
 #### Defined in
 
-main.ts:27198
+main.ts:27203
 
 ***
 
@@ -520,7 +520,7 @@ example:
 
 #### Defined in
 
-main.ts:27256
+main.ts:27261
 
 ***
 
@@ -536,7 +536,7 @@ title of the result in SERP
 
 #### Defined in
 
-main.ts:27191
+main.ts:27196
 
 ***
 
@@ -572,7 +572,7 @@ relevant URL in SERP
 
 #### Defined in
 
-main.ts:27193
+main.ts:27198
 
 ***
 
@@ -588,7 +588,7 @@ name of the website in SERP
 
 #### Defined in
 
-main.ts:27202
+main.ts:27207
 
 ***
 
@@ -630,7 +630,7 @@ main.ts:20365
 
 #### Defined in
 
-main.ts:27269
+main.ts:27274
 
 ***
 
@@ -652,7 +652,7 @@ main.ts:27269
 
 #### Defined in
 
-main.ts:27333
+main.ts:27338
 
 ***
 
@@ -674,4 +674,4 @@ main.ts:27333
 
 #### Defined in
 
-main.ts:27326
+main.ts:27331

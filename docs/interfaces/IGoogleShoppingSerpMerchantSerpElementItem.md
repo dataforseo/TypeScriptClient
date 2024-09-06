@@ -29,7 +29,7 @@ you can get more details about the product by using this object in the POST requ
 
 #### Defined in
 
-main.ts:174657
+main.ts:174690
 
 ***
 
@@ -43,7 +43,7 @@ USD
 
 #### Defined in
 
-main.ts:174639
+main.ts:174672
 
 ***
 
@@ -58,7 +58,7 @@ example:
 
 #### Defined in
 
-main.ts:174651
+main.ts:174684
 
 ***
 
@@ -71,7 +71,7 @@ delivery information including free and fast delivery date ranges
 
 #### Defined in
 
-main.ts:174680
+main.ts:174713
 
 ***
 
@@ -83,7 +83,7 @@ description of the product in Google Shopping SERP
 
 #### Defined in
 
-main.ts:174620
+main.ts:174653
 
 ***
 
@@ -95,7 +95,7 @@ domain in SERP
 
 #### Defined in
 
-main.ts:174616
+main.ts:174649
 
 ***
 
@@ -109,7 +109,7 @@ if there are no values, you will get null
 
 #### Defined in
 
-main.ts:174665
+main.ts:174698
 
 ***
 
@@ -124,7 +124,7 @@ example:
 
 #### Defined in
 
-main.ts:174635
+main.ts:174668
 
 ***
 
@@ -142,7 +142,7 @@ left, right
 
 #### Defined in
 
-main.ts:21130
+main.ts:21135
 
 ***
 
@@ -156,7 +156,7 @@ example:
 
 #### Defined in
 
-main.ts:174630
+main.ts:174663
 
 ***
 
@@ -173,7 +173,7 @@ learn more about the parameter in this help center guide
 
 #### Defined in
 
-main.ts:174646
+main.ts:174679
 
 ***
 
@@ -186,7 +186,7 @@ the first URL in the array is the featured image of the product
 
 #### Defined in
 
-main.ts:174674
+main.ts:174707
 
 ***
 
@@ -199,7 +199,7 @@ the product popularity rate based on product reviews
 
 #### Defined in
 
-main.ts:174668
+main.ts:174701
 
 ***
 
@@ -216,7 +216,7 @@ absolute position among all the elements found in Google Shopping SERP
 
 #### Defined in
 
-main.ts:21126
+main.ts:21131
 
 ***
 
@@ -233,7 +233,7 @@ positions of elements with different type values are omitted from rank_group
 
 #### Defined in
 
-main.ts:21123
+main.ts:21128
 
 ***
 
@@ -247,7 +247,7 @@ if there are no values, you will get null
 
 #### Defined in
 
-main.ts:174661
+main.ts:174694
 
 ***
 
@@ -260,7 +260,7 @@ the name of the company that placed a corresponding product on Google Shopping
 
 #### Defined in
 
-main.ts:174654
+main.ts:174687
 
 ***
 
@@ -273,7 +273,7 @@ using this parameter you can get a URL of the advertisement in Google Shopping S
 
 #### Defined in
 
-main.ts:174677
+main.ts:174710
 
 ***
 
@@ -286,7 +286,7 @@ the popularity rate of the seller based on user reviews
 
 #### Defined in
 
-main.ts:174671
+main.ts:174704
 
 ***
 
@@ -298,7 +298,7 @@ URL to the product page on Google Shopping
 
 #### Defined in
 
-main.ts:174624
+main.ts:174657
 
 ***
 
@@ -311,7 +311,7 @@ contains information about the number of stores that offer the same product
 
 #### Defined in
 
-main.ts:174683
+main.ts:174716
 
 ***
 
@@ -323,7 +323,7 @@ tags assigned to the product
 
 #### Defined in
 
-main.ts:174626
+main.ts:174659
 
 ***
 
@@ -335,7 +335,7 @@ title of the element
 
 #### Defined in
 
-main.ts:174618
+main.ts:174651
 
 ***
 
@@ -351,7 +351,7 @@ type of element
 
 #### Defined in
 
-main.ts:21120
+main.ts:21125
 
 ***
 
@@ -363,7 +363,7 @@ URL to the product page on the seller’s website
 
 #### Defined in
 
-main.ts:174622
+main.ts:174655
 
 ***
 
@@ -375,4 +375,4 @@ XPath of the element
 
 #### Defined in
 
-main.ts:174614
+main.ts:174647

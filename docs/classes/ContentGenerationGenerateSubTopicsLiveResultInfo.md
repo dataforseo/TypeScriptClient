@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:170606
+main.ts:170639
 
 ## Properties
 
@@ -46,7 +46,7 @@ number of input tokens
 
 #### Defined in
 
-main.ts:170596
+main.ts:170629
 
 ***
 
@@ -62,7 +62,7 @@ number of new tokens
 
 #### Defined in
 
-main.ts:170600
+main.ts:170633
 
 ***
 
@@ -78,7 +78,7 @@ number of output tokens
 
 #### Defined in
 
-main.ts:170598
+main.ts:170631
 
 ***
 
@@ -94,7 +94,7 @@ resulting subtopics
 
 #### Defined in
 
-main.ts:170602
+main.ts:170635
 
 ## Methods
 
@@ -112,7 +112,7 @@ main.ts:170602
 
 #### Defined in
 
-main.ts:170615
+main.ts:170648
 
 ***
 
@@ -130,7 +130,7 @@ main.ts:170615
 
 #### Defined in
 
-main.ts:170639
+main.ts:170672
 
 ***
 
@@ -148,4 +148,4 @@ main.ts:170639
 
 #### Defined in
 
-main.ts:170632
+main.ts:170665

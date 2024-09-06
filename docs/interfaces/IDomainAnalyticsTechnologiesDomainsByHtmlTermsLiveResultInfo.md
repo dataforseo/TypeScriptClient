@@ -20,7 +20,7 @@ items array
 
 #### Defined in
 
-main.ts:78698
+main.ts:78731
 
 ***
 
@@ -32,7 +32,7 @@ number of items in the results array
 
 #### Defined in
 
-main.ts:78690
+main.ts:78723
 
 ***
 
@@ -44,7 +44,7 @@ specified offset value
 
 #### Defined in
 
-main.ts:78692
+main.ts:78725
 
 ***
 
@@ -58,7 +58,7 @@ offset_token values are unique for each subsequent task
 
 #### Defined in
 
-main.ts:78696
+main.ts:78729
 
 ***
 
@@ -70,4 +70,4 @@ total number of relevant items in the database
 
 #### Defined in
 
-main.ts:78688
+main.ts:78721

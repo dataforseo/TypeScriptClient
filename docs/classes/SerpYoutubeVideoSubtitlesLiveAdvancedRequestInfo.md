@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:64367
+main.ts:64400
 
 ## Properties
 
@@ -48,7 +48,7 @@ only value: desktop
 
 #### Defined in
 
-main.ts:64352
+main.ts:64385
 
 ***
 
@@ -69,7 +69,7 @@ en
 
 #### Defined in
 
-main.ts:64348
+main.ts:64381
 
 ***
 
@@ -90,7 +90,7 @@ English
 
 #### Defined in
 
-main.ts:64341
+main.ts:64374
 
 ***
 
@@ -111,7 +111,7 @@ example:
 
 #### Defined in
 
-main.ts:64334
+main.ts:64367
 
 ***
 
@@ -132,7 +132,7 @@ United States
 
 #### Defined in
 
-main.ts:64327
+main.ts:64360
 
 ***
 
@@ -151,7 +151,7 @@ default value: windows
 
 #### Defined in
 
-main.ts:64357
+main.ts:64390
 
 ***
 
@@ -168,7 +168,7 @@ you can get the language code from YouTube Video Info result
 
 #### Defined in
 
-main.ts:64316
+main.ts:64349
 
 ***
 
@@ -186,7 +186,7 @@ possible values:
 
 #### Defined in
 
-main.ts:64320
+main.ts:64353
 
 ***
 
@@ -206,7 +206,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:64363
+main.ts:64396
 
 ***
 
@@ -226,7 +226,7 @@ Y8Wu4rSNJms
 
 #### Defined in
 
-main.ts:64313
+main.ts:64346
 
 ## Methods
 
@@ -244,7 +244,7 @@ main.ts:64313
 
 #### Defined in
 
-main.ts:64376
+main.ts:64409
 
 ***
 
@@ -262,7 +262,7 @@ main.ts:64376
 
 #### Defined in
 
-main.ts:64402
+main.ts:64435
 
 ***
 
@@ -280,4 +280,4 @@ main.ts:64402
 
 #### Defined in
 
-main.ts:64395
+main.ts:64428

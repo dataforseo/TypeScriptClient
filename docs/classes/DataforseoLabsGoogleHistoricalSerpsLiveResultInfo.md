@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:96639
+main.ts:96672
 
 ## Properties
 
@@ -47,7 +47,7 @@ if there are none, equals null
 
 #### Defined in
 
-main.ts:96635
+main.ts:96668
 
 ***
 
@@ -63,7 +63,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96632
+main.ts:96665
 
 ***
 
@@ -80,7 +80,7 @@ the keyword is returned with decoded %## (plus symbol ‘+’ will be decoded to
 
 #### Defined in
 
-main.ts:96624
+main.ts:96657
 
 ***
 
@@ -96,7 +96,7 @@ language code in a POST array
 
 #### Defined in
 
-main.ts:96628
+main.ts:96661
 
 ***
 
@@ -112,7 +112,7 @@ location code in a POST array
 
 #### Defined in
 
-main.ts:96626
+main.ts:96659
 
 ***
 
@@ -128,7 +128,7 @@ search engine type
 
 #### Defined in
 
-main.ts:96621
+main.ts:96654
 
 ***
 
@@ -144,7 +144,7 @@ the number of results returned in the items array
 
 #### Defined in
 
-main.ts:96630
+main.ts:96663
 
 ## Methods
 
@@ -162,7 +162,7 @@ main.ts:96630
 
 #### Defined in
 
-main.ts:96648
+main.ts:96681
 
 ***
 
@@ -180,7 +180,7 @@ main.ts:96648
 
 #### Defined in
 
-main.ts:96675
+main.ts:96708
 
 ***
 
@@ -198,4 +198,4 @@ main.ts:96675
 
 #### Defined in
 
-main.ts:96668
+main.ts:96701

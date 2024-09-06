@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:169113
+main.ts:169146
 
 ## Properties
 
@@ -52,7 +52,7 @@ possible connotation types: "positive", "negative", "neutral"
 
 #### Defined in
 
-main.ts:169090
+main.ts:169123
 
 ***
 
@@ -74,7 +74,7 @@ to obtain a full list of available countries, refer to the Locations endpoint
 
 #### Defined in
 
-main.ts:169105
+main.ts:169138
 
 ***
 
@@ -90,7 +90,7 @@ date for which the data is provided
 
 #### Defined in
 
-main.ts:169074
+main.ts:169107
 
 ***
 
@@ -112,7 +112,7 @@ to obtain a full list of available languages, refer to the Languages endpoint
 
 #### Defined in
 
-main.ts:169109
+main.ts:169142
 
 ***
 
@@ -130,7 +130,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:169098
+main.ts:169131
 
 ***
 
@@ -151,7 +151,7 @@ contains page types and citation count per each page type
 
 #### Defined in
 
-main.ts:169101
+main.ts:169134
 
 ***
 
@@ -168,7 +168,7 @@ normalized sum of ranks of all URLs citing the target keyword for the given date
 
 #### Defined in
 
-main.ts:169079
+main.ts:169112
 
 ***
 
@@ -190,7 +190,7 @@ possible connotations: "anger", "fear", "happiness", "love", "sadness", "share",
 
 #### Defined in
 
-main.ts:169086
+main.ts:169119
 
 ***
 
@@ -208,7 +208,7 @@ to obtain a full list of available categories, refer to the Categories endpoint
 
 #### Defined in
 
-main.ts:169094
+main.ts:169127
 
 ***
 
@@ -225,7 +225,7 @@ contains objects with top domains citing the target category and citation count 
 
 #### Defined in
 
-main.ts:169082
+main.ts:169115
 
 ***
 
@@ -241,7 +241,7 @@ total number of results in our database relevant to your request
 
 #### Defined in
 
-main.ts:169076
+main.ts:169109
 
 ***
 
@@ -257,7 +257,7 @@ type of element
 
 #### Defined in
 
-main.ts:169072
+main.ts:169105
 
 ## Methods
 
@@ -275,7 +275,7 @@ main.ts:169072
 
 #### Defined in
 
-main.ts:169122
+main.ts:169155
 
 ***
 
@@ -293,7 +293,7 @@ main.ts:169122
 
 #### Defined in
 
-main.ts:169192
+main.ts:169225
 
 ***
 
@@ -311,4 +311,4 @@ main.ts:169192
 
 #### Defined in
 
-main.ts:169185
+main.ts:169218

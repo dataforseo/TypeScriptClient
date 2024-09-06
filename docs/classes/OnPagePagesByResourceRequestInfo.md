@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:155530
+main.ts:155563
 
 ## Properties
 
@@ -58,7 +58,7 @@ The full list of possible filters is available by this link.
 
 #### Defined in
 
-main.ts:155506
+main.ts:155539
 
 ***
 
@@ -78,7 +78,7 @@ example:
 
 #### Defined in
 
-main.ts:155476
+main.ts:155509
 
 ***
 
@@ -97,7 +97,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:155487
+main.ts:155520
 
 ***
 
@@ -116,7 +116,7 @@ if you specify the 10 value, the first ten pages in the results array will be om
 
 #### Defined in
 
-main.ts:155492
+main.ts:155525
 
 ***
 
@@ -144,7 +144,7 @@ example:
 
 #### Defined in
 
-main.ts:155520
+main.ts:155553
 
 ***
 
@@ -164,7 +164,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:155526
+main.ts:155559
 
 ***
 
@@ -184,7 +184,7 @@ https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js
 
 #### Defined in
 
-main.ts:155482
+main.ts:155515
 
 ## Methods
 
@@ -202,7 +202,7 @@ main.ts:155482
 
 #### Defined in
 
-main.ts:155539
+main.ts:155572
 
 ***
 
@@ -220,7 +220,7 @@ main.ts:155539
 
 #### Defined in
 
-main.ts:155570
+main.ts:155603
 
 ***
 
@@ -238,4 +238,4 @@ main.ts:155570
 
 #### Defined in
 
-main.ts:155563
+main.ts:155596

@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:164702
+main.ts:164735
 
 ## Properties
 
@@ -52,7 +52,7 @@ example:
 
 #### Defined in
 
-main.ts:164672
+main.ts:164705
 
 ***
 
@@ -73,7 +73,7 @@ example:
 
 #### Defined in
 
-main.ts:164679
+main.ts:164712
 
 ***
 
@@ -91,7 +91,7 @@ default value: false
 
 #### Defined in
 
-main.ts:164698
+main.ts:164731
 
 ***
 
@@ -110,7 +110,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:164684
+main.ts:164717
 
 ***
 
@@ -129,7 +129,7 @@ if you specify the 10 value, the first ten tasks in the results array will be om
 
 #### Defined in
 
-main.ts:164689
+main.ts:164722
 
 ***
 
@@ -148,7 +148,7 @@ default value: "asc"
 
 #### Defined in
 
-main.ts:164694
+main.ts:164727
 
 ## Methods
 
@@ -166,7 +166,7 @@ main.ts:164694
 
 #### Defined in
 
-main.ts:164711
+main.ts:164744
 
 ***
 
@@ -184,7 +184,7 @@ main.ts:164711
 
 #### Defined in
 
-main.ts:164733
+main.ts:164766
 
 ***
 
@@ -202,4 +202,4 @@ main.ts:164733
 
 #### Defined in
 
-main.ts:164726
+main.ts:164759

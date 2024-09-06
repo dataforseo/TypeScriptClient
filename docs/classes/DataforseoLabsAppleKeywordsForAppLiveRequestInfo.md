@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:114203
+main.ts:114236
 
 ## Properties
 
@@ -52,7 +52,7 @@ the id is 835599320
 
 #### Defined in
 
-main.ts:114119
+main.ts:114152
 
 ***
 
@@ -77,7 +77,7 @@ for more information about filters, please refer to Dataforseo Labs – Filters 
 
 #### Defined in
 
-main.ts:114166
+main.ts:114199
 
 ***
 
@@ -100,7 +100,7 @@ en
 
 #### Defined in
 
-main.ts:114155
+main.ts:114188
 
 ***
 
@@ -123,7 +123,7 @@ English
 
 #### Defined in
 
-main.ts:114146
+main.ts:114179
 
 ***
 
@@ -142,7 +142,7 @@ maximum value: 1000
 
 #### Defined in
 
-main.ts:114188
+main.ts:114221
 
 ***
 
@@ -165,7 +165,7 @@ example:
 
 #### Defined in
 
-main.ts:114137
+main.ts:114170
 
 ***
 
@@ -188,7 +188,7 @@ United States
 
 #### Defined in
 
-main.ts:114128
+main.ts:114161
 
 ***
 
@@ -207,7 +207,7 @@ if you specify the 10 value, the first ten keywords in the results array will be
 
 #### Defined in
 
-main.ts:114193
+main.ts:114226
 
 ***
 
@@ -238,7 +238,7 @@ Note: if the item_types array contains item types that are different from organi
 
 #### Defined in
 
-main.ts:114183
+main.ts:114216
 
 ***
 
@@ -258,7 +258,7 @@ you will find the specified tag value in the data object of the response
 
 #### Defined in
 
-main.ts:114199
+main.ts:114232
 
 ## Methods
 
@@ -276,7 +276,7 @@ main.ts:114199
 
 #### Defined in
 
-main.ts:114212
+main.ts:114245
 
 ***
 
@@ -294,7 +294,7 @@ main.ts:114212
 
 #### Defined in
 
-main.ts:114246
+main.ts:114279
 
 ***
 
@@ -312,4 +312,4 @@ main.ts:114246
 
 #### Defined in
 
-main.ts:114239
+main.ts:114272

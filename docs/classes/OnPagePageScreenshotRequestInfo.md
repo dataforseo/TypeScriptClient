@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:160785
+main.ts:160818
 
 ## Properties
 
@@ -49,7 +49,7 @@ note: if you do not specify this parameter, some websites may deny access; in th
 
 #### Defined in
 
-main.ts:160698
+main.ts:160731
 
 ***
 
@@ -82,7 +82,7 @@ Note: in this endpoint, the enable_browser_rendering, enable_javascript, load_re
 
 #### Defined in
 
-main.ts:160724
+main.ts:160757
 
 ***
 
@@ -103,7 +103,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:160738
+main.ts:160771
 
 ***
 
@@ -124,7 +124,7 @@ maximum value: 3
 
 #### Defined in
 
-main.ts:160745
+main.ts:160778
 
 ***
 
@@ -145,7 +145,7 @@ maximum value, in pixels: 9999
 
 #### Defined in
 
-main.ts:160731
+main.ts:160764
 
 ***
 
@@ -173,7 +173,7 @@ Note: if you use this parameter, additional charges will apply; learn more about
 
 #### Defined in
 
-main.ts:160770
+main.ts:160803
 
 ***
 
@@ -194,7 +194,7 @@ default value: Mozilla/5.0 (compatible; RSiteAuditor)
 
 #### Defined in
 
-main.ts:160705
+main.ts:160738
 
 ***
 
@@ -214,7 +214,7 @@ false
 
 #### Defined in
 
-main.ts:160756
+main.ts:160789
 
 ***
 
@@ -233,7 +233,7 @@ default value: true
 
 #### Defined in
 
-main.ts:160750
+main.ts:160783
 
 ***
 
@@ -253,7 +253,7 @@ possible values: us, de
 
 #### Defined in
 
-main.ts:160781
+main.ts:160814
 
 ***
 
@@ -272,7 +272,7 @@ the parameter can be used if a multitude of tasks is set simultaneously, resulti
 
 #### Defined in
 
-main.ts:160775
+main.ts:160808
 
 ***
 
@@ -291,7 +291,7 @@ note: if the URL you indicate here returns a 404 status code or the indicated va
 
 #### Defined in
 
-main.ts:160693
+main.ts:160726
 
 ## Methods
 
@@ -309,7 +309,7 @@ main.ts:160693
 
 #### Defined in
 
-main.ts:160794
+main.ts:160827
 
 ***
 
@@ -327,7 +327,7 @@ main.ts:160794
 
 #### Defined in
 
-main.ts:160822
+main.ts:160855
 
 ***
 
@@ -345,4 +345,4 @@ main.ts:160822
 
 #### Defined in
 
-main.ts:160815
+main.ts:160848

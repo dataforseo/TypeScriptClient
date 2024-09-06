@@ -30,7 +30,7 @@
 
 #### Defined in
 
-main.ts:204088
+main.ts:204121
 
 ## Properties
 
@@ -48,7 +48,7 @@ CgoI-KWyzenM_MV3EAE
 
 #### Defined in
 
-main.ts:204067
+main.ts:204100
 
 ***
 
@@ -66,7 +66,7 @@ if false, related hotel_search_item is an organic hotel listing
 
 #### Defined in
 
-main.ts:204076
+main.ts:204109
 
 ***
 
@@ -82,7 +82,7 @@ GPS coordinates of the hotel’s location
 
 #### Defined in
 
-main.ts:204078
+main.ts:204111
 
 ***
 
@@ -98,7 +98,7 @@ featured images for a hotel
 
 #### Defined in
 
-main.ts:204082
+main.ts:204115
 
 ***
 
@@ -114,7 +114,7 @@ hotel price
 
 #### Defined in
 
-main.ts:204084
+main.ts:204117
 
 ***
 
@@ -130,7 +130,7 @@ hotel reviews and rating information
 
 #### Defined in
 
-main.ts:204080
+main.ts:204113
 
 ***
 
@@ -147,7 +147,7 @@ class rating that ranges between 1-5 stars
 
 #### Defined in
 
-main.ts:204072
+main.ts:204105
 
 ***
 
@@ -163,7 +163,7 @@ title of the hotel
 
 #### Defined in
 
-main.ts:204069
+main.ts:204102
 
 ***
 
@@ -179,7 +179,7 @@ type of element
 
 #### Defined in
 
-main.ts:204063
+main.ts:204096
 
 ## Methods
 
@@ -197,7 +197,7 @@ main.ts:204063
 
 #### Defined in
 
-main.ts:204097
+main.ts:204130
 
 ***
 
@@ -215,7 +215,7 @@ main.ts:204097
 
 #### Defined in
 
-main.ts:204126
+main.ts:204159
 
 ***
 
@@ -233,4 +233,4 @@ main.ts:204126
 
 #### Defined in
 
-main.ts:204119
+main.ts:204152
